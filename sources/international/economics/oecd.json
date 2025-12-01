@@ -1,0 +1,143 @@
+{
+  "id": "oecd-statistics",
+  "name": {
+    "en": "OECD Statistics",
+    "zh": "经合组织统计数据",
+    "native": "OECD Statistics"
+  },
+  "organization": {
+    "name": "Organisation for Economic Co-operation and Development",
+    "type": "international_organization",
+    "country": null,
+    "website": "https://www.oecd.org"
+  },
+  "description": {
+    "en": "Comprehensive statistical database covering economic, social, and environmental data for OECD member countries and partner economies. Includes indicators on education, health, productivity, trade, taxation, and sustainable development.",
+    "zh": "涵盖经合组织成员国和伙伴经济体的经济、社会和环境数据的综合统计数据库。包括教育、健康、生产力、贸易、税收和可持续发展指标。"
+  },
+  "access": {
+    "primary_url": "https://stats.oecd.org",
+    "api": {
+      "available": true,
+      "documentation": "https://data.oecd.org/api",
+      "version": "v1",
+      "authentication": false
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "Excel", "SDMX-ML", "JSON"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "regional",
+      "countries": 38,
+      "regions": ["OECD Countries", "G20", "EU", "Partner Economies"]
+    },
+    "temporal": {
+      "start_year": 1960,
+      "end_year": 2024,
+      "update_frequency": "quarterly"
+    },
+    "domains": ["economics", "social", "environment", "education", "health", "technology"],
+    "indicators": 1200
+  },
+  "data_content": {
+    "en": [
+      "National accounts and GDP",
+      "Labour market and employment statistics",
+      "International trade statistics",
+      "Education indicators (PISA, education attainment)",
+      "Health statistics and healthcare expenditure",
+      "Productivity and competitiveness metrics",
+      "Tax revenue statistics",
+      "Environmental indicators",
+      "Innovation and R&D statistics",
+      "Social expenditure and inequality data"
+    ],
+    "zh": [
+      "国民账户和GDP",
+      "劳动力市场和就业统计",
+      "国际贸易统计",
+      "教育指标(PISA、教育程度)",
+      "健康统计和医疗支出",
+      "生产力和竞争力指标",
+      "税收收入统计",
+      "环境指标",
+      "创新和研发统计",
+      "社会支出和不平等数据"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["statistical", "time-series", "cross-sectional", "panel"],
+    "granularity": ["country-level", "annual", "quarterly", "monthly"],
+    "formats": ["CSV", "Excel", "SDMX", "JSON"],
+    "languages": ["en", "fr"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 4,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": "very_high"
+  },
+  "licensing": {
+    "license": "CC BY 4.0",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": []
+  },
+  "metadata": {
+    "standards_followed": ["SDMX", "SNA 2008", "BPM6"],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Cross-country economic comparisons",
+      "Policy benchmarking",
+      "Economic research",
+      "Education and health policy analysis",
+      "Environmental policy evaluation"
+    ],
+    "example_studies": [
+      "PISA education performance analysis",
+      "Productivity growth comparisons",
+      "Tax policy effectiveness studies"
+    ],
+    "code_examples": [
+      "https://github.com/expersso/OECD"
+    ]
+  },
+  "related_sources": [
+    "worldbank-open-data",
+    "imf-data",
+    "eurostat"
+  ],
+  "contact": {
+    "email": "stat.contact@oecd.org",
+    "support_url": "https://stats.oecd.org/FAQ.aspx"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-01-22",
+    "last_updated": "2025-01-22",
+    "verified_date": "2025-01-22",
+    "contributor": "DataSource Hub Team",
+    "status": "active"
+  },
+  "tags": [
+    "oecd",
+    "economic-indicators",
+    "education",
+    "health",
+    "productivity",
+    "trade",
+    "taxation",
+    "pisa",
+    "api"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "worldbank-open-data",
+  "name": {
+    "en": "World Bank Open Data",
+    "zh": "世界银行开放数据",
+    "native": "World Bank Open Data"
+  },
+  "organization": {
+    "name": "World Bank Group",
+    "type": "international_organization",
+    "country": null,
+    "website": "https://www.worldbank.org"
+  },
+  "description": {
+    "en": "Free and open access to global development data including economic, social, and environmental indicators for over 200 countries and economies. Covers topics such as poverty, GDP, population, education, health, and infrastructure.",
+    "zh": "提供全球发展数据的免费开放访问,包括200多个国家和经济体的经济、社会和环境指标。涵盖贫困、GDP、人口、教育、健康和基础设施等主题。"
+  },
+  "access": {
+    "primary_url": "https://data.worldbank.org",
+    "api": {
+      "available": true,
+      "documentation": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+      "version": "v2",
+      "authentication": false
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "XML", "Excel", "JSON"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global",
+      "countries": 217,
+      "regions": ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"]
+    },
+    "temporal": {
+      "start_year": 1960,
+      "end_year": 2024,
+      "update_frequency": "quarterly"
+    },
+    "domains": ["economics", "social", "environment", "health", "education"],
+    "indicators": 1400
+  },
+  "data_content": {
+    "en": [
+      "GDP and economic growth indicators",
+      "Poverty and income distribution data",
+      "International debt statistics",
+      "Trade and balance of payments",
+      "Foreign direct investment flows",
+      "Development assistance data",
+      "Human development indicators",
+      "Infrastructure and energy statistics",
+      "Environmental sustainability metrics"
+    ],
+    "zh": [
+      "GDP和经济增长指标",
+      "贫困和收入分配数据",
+      "国际债务统计",
+      "贸易和国际收支",
+      "外国直接投资流量",
+      "发展援助数据",
+      "人类发展指标",
+      "基础设施和能源统计",
+      "环境可持续性指标"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["statistical", "time-series", "cross-sectional"],
+    "granularity": ["country-level", "regional", "global"],
+    "formats": ["CSV", "XML", "JSON", "Excel", "SDMX"],
+    "languages": ["en", "es", "fr", "ar", "zh", "ru"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 4,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": "very_high"
+  },
+  "licensing": {
+    "license": "CC BY 4.0",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": []
+  },
+  "metadata": {
+    "standards_followed": ["SDMX", "Dublin Core", "ISO 19115"],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Economic research and analysis",
+      "Policy formulation and evaluation",
+      "Development planning",
+      "Academic research",
+      "Data journalism"
+    ],
+    "example_studies": [
+      "Global poverty trends analysis",
+      "Cross-country growth comparisons",
+      "Development assistance effectiveness studies"
+    ],
+    "code_examples": [
+      "https://github.com/worldbank/wbgapi",
+      "https://github.com/vincentarelbundock/WDI"
+    ]
+  },
+  "related_sources": [
+    "imf-data",
+    "oecd-statistics",
+    "un-data"
+  ],
+  "contact": {
+    "email": "data@worldbank.org",
+    "support_url": "https://datahelpdesk.worldbank.org"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-01-22",
+    "last_updated": "2025-01-22",
+    "verified_date": "2025-01-22",
+    "contributor": "DataSource Hub Team",
+    "status": "active"
+  },
+  "tags": [
+    "development",
+    "poverty",
+    "gdp",
+    "international-finance",
+    "world-bank",
+    "economic-indicators",
+    "open-data",
+    "api"
+  ]
+}
