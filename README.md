@@ -5,7 +5,8 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-10-blue.svg)](#)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-10%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-6%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.9%2F5.0-brightgreen.svg)](#)
 
 ---
@@ -47,73 +48,89 @@ DataSource Hub is an open-source authoritative data source knowledge base design
 datasource/
 ├── README.md                          # 项目主文档
 ├── PRD.md                             # 产品需求文档
+├── ROADMAP.md                         # 项目路线图和里程碑 ⭐
+├── PROJECT_STATUS.md                  # 项目当前状态
+├── tasks/                             # 任务管理系统 ⭐
+│   ├── README.md                      # 任务系统总览
+│   ├── international.md               # 国际组织数据源 (100+)
+│   ├── countries.md                   # 各国官方数据源 (200+)
+│   ├── academic.md                    # 学术研究数据源 (50+)
+│   ├── sectors.md                     # 行业领域数据源 (150+)
+│   └── china/                         # 中国数据源任务 (488)
+│       ├── README.md                  # 中国数据源总览
+│       ├── finance.md                 # 金融财政领域 (35个)
+│       └── [16个领域文件]             # 其他领域任务清单
 ├── sources/                           # 数据源元数据（核心资产）
-│   ├── china/                         # 中国数据源 (6个样例)
-│   │   ├── national/                  # 国家级综合统计
-│   │   │   └── nbs.json              # 国家统计局 ⭐⭐⭐⭐⭐
-│   │   ├── finance/                   # 金融财政
-│   │   │   ├── banking/
-│   │   │   │   └── pbc.json          # 中国人民银行 ⭐⭐⭐⭐⭐
-│   │   │   └── securities/
-│   │   │       └── csrc.json         # 证监会 ⭐⭐⭐⭐⭐
-│   │   └── economy/                   # 经济贸易
-│   │       ├── macro/
-│   │       │   └── ndrc.json         # 发改委 ⭐⭐⭐⭐⭐
+│   ├── china/                         # 中国数据源 (6个已完成)
+│   │   ├── README.md
+│   │   ├── national/nbs.json         # 国家统计局 ⭐⭐⭐⭐⭐
+│   │   ├── finance/
+│   │   │   ├── banking/pbc.json      # 中国人民银行 ⭐⭐⭐⭐⭐
+│   │   │   └── securities/csrc.json  # 证监会 ⭐⭐⭐⭐⭐
+│   │   └── economy/
+│   │       ├── macro/ndrc.json       # 发改委 ⭐⭐⭐⭐⭐
 │   │       └── trade/
 │   │           ├── customs.json      # 海关总署 ⭐⭐⭐⭐⭐
 │   │           └── mofcom.json       # 商务部 ⭐⭐⭐⭐⭐
-│   └── international/                 # 国际组织 (4个样例)
+│   └── international/                 # 国际组织 (4个已完成)
 │       └── economics/
 │           ├── worldbank.json        # 世界银行 ⭐⭐⭐⭐⭐
 │           ├── imf.json              # 国际货币基金组织 ⭐⭐⭐⭐⭐
 │           ├── oecd.json             # 经合组织 ⭐⭐⭐⭐⭐
 │           └── wto.json              # 世界贸易组织 ⭐⭐⭐⭐⭐
-├── schemas/                           # JSON Schema 定义 (待创建)
-│   └── datasource-schema.json
-├── scripts/                           # 工具脚本 (待创建)
-│   ├── validate.py                   # 元数据验证
-│   ├── generate_indexes.py           # 索引生成
-│   └── check_urls.py                 # URL健康检查
-├── indexes/                           # 自动生成的索引 (待生成)
-│   ├── all-sources.json
-│   ├── by-domain.json
-│   ├── by-region.json
-│   └── by-authority.json
-└── docs/                              # 文档 (待创建)
-    ├── CONTRIBUTING.md
-    ├── data-collection-guide.md
-    └── quality-criteria.md
+├── schemas/                           # JSON Schema 定义
+│   └── datasource-schema.json        # 40+字段标准 ✅
+├── scripts/                           # 工具脚本
+│   ├── validate.py                   # 元数据验证 ✅
+│   └── generate_indexes.py           # 索引生成 ✅
+├── docs/                              # 完善的文档体系 ⭐
+│   ├── CONTRIBUTING.md               # 贡献指南 ✅
+│   ├── data-collection-guide.md      # 数据收录指南 ✅
+│   └── quality-criteria.md           # 质量评估标准 ✅
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       └── claim-task.md             # 任务认领模板 ✅
+└── indexes/                           # 自动生成的索引
+    └── (运行脚本自动生成)
 ```
 
 ---
 
-## 📊 当前数据 | Current Data
+## 📊 当前进展 | Current Progress
 
-### 统计概览 | Statistics
+### 总体统计 | Overall Statistics
 
-| 指标 | 数值 |
-|------|------|
-| **总数据源** | 10 个 |
-| **中国数据源** | 6 个 (国家统计局、人民银行、证监会等) |
-| **国际数据源** | 4 个 (世界银行、IMF、OECD、WTO) |
-| **平均权威性评分** | ⭐⭐⭐⭐⭐ (4.9/5.0) |
-| **总指标数** | 6,400+ |
-| **URL可访问性** | 100% |
+| 指标 | 当前/目标 | 进度 |
+|------|-----------|------|
+| **总数据源** | 10 / 950+ | 1% |
+| **国际组织** | 4 / 100+ | 4% |
+| **各国官方** | 0 / 200+ | 0% |
+| **中国数据源** | 6 / 488 | 1% |
+| **学术研究** | 0 / 50+ | 0% |
+| **行业领域** | 0 / 150+ | 0% |
+| **平均权威性** | ⭐⭐⭐⭐⭐ (4.9/5.0) | - |
+| **URL可访问性** | 100% | ✅ |
 
-### 中国数据源详情 | China Data Sources
+📋 **详细任务规划**: [tasks/README.md](tasks/README.md)
+🗺️ **项目路线图**: [ROADMAP.md](ROADMAP.md)
 
-查看完整的中国数据源概览：[sources/china/README.md](sources/china/README.md)
+### 已完成数据源 | Completed Sources
 
-| 数据源 | 权威性 | 指标数 | 更新频率 |
-|--------|--------|--------|----------|
-| 国家统计局 (NBS) | ⭐⭐⭐⭐⭐ 5.0 | 5,000+ | 月度 |
-| 中国人民银行 (PBC) | ⭐⭐⭐⭐⭐ 5.0 | 800+ | 月度 |
-| 证监会 (CSRC) | ⭐⭐⭐⭐⭐ 4.8 | 600+ | 月度 |
-| 海关总署 (Customs) | ⭐⭐⭐⭐⭐ 5.0 | 2,000+ | 月度 |
-| 商务部 (MOFCOM) | ⭐⭐⭐⭐⭐ 4.8 | 1,200+ | 月度 |
-| 发改委 (NDRC) | ⭐⭐⭐⭐⭐ 4.6 | 800+ | 月度 |
+#### 🌍 国际组织 (4个)
+- ✅ 世界银行 (World Bank) - 权威性 5.0 💎
+- ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
+- ✅ 经合组织 (OECD) - 权威性 5.0 💎
+- ✅ 世界贸易组织 (WTO) - 权威性 5.0 💎
 
-详细信息请查看：[CHINA_SAMPLES_SUMMARY.md](CHINA_SAMPLES_SUMMARY.md)
+#### 🇨🇳 中国数据源 (6个)
+- ✅ 国家统计局 (NBS) - 权威性 5.0 💎
+- ✅ 中国人民银行 (PBC) - 权威性 5.0 💎
+- ✅ 证监会 (CSRC) - 权威性 4.8 ⭐
+- ✅ 海关总署 (Customs) - 权威性 5.0 💎
+- ✅ 商务部 (MOFCOM) - 权威性 4.8 ⭐
+- ✅ 发改委 (NDRC) - 权威性 4.6 ⭐
+
+📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
 
 ---
 
@@ -209,31 +226,32 @@ for json_file in Path('sources').rglob('*.json'):
 
 ## 📈 项目规划 | Roadmap
 
-### Phase 1: 核心数据源 (进行中)
-- [x] 建立元数据标准 (JSON Schema)
+详细路线图请查看：[ROADMAP.md](ROADMAP.md)
+
+### M0: 项目初始化 ✅ (已完成)
+- [x] 建立元数据标准 (40+字段 JSON Schema)
 - [x] 创建中国核心数据源样例 (6个)
 - [x] 创建国际核心数据源样例 (4个)
-- [ ] 完成中国部委级数据源 (30个目标)
-- [ ] 完成国际组织数据源 (20个目标)
+- [x] 完善的文档体系（贡献指南、收录指南、质量标准）
+- [x] 任务管理系统（950+ 数据源规划）
+- [x] 验证和索引生成脚本
 
-### Phase 2: 自动化工具 (计划中)
-- [ ] JSON Schema 验证脚本
-- [ ] 自动索引生成工具
-- [ ] URL健康检查工具
-- [ ] CI/CD 自动化验证
-- [ ] 贡献者指南和模板
+### M1: 高优先级数据源 🚧 (进行中)
+- [ ] 国际组织核心数据源 (15个目标，4个完成)
+- [ ] 中国部委级数据源 (30个目标)
+- [ ] 主要国家官方统计机构 (10个目标)
 
-### Phase 3: 规模扩展 (计划中)
+### M2: 规模扩展 📋 (计划中)
 - [ ] 中国省级数据源 (60个)
-- [ ] 中国行业协会 (50个)
-- [ ] 国际区域组织 (30个)
+- [ ] 学术研究数据源 (50个)
+- [ ] 行业领域数据源 (150个)
 - [ ] 达到 **300+** 数据源
 
-### Phase 4: 社区与展示 (未来)
-- [ ] 发布到 GitHub
-- [ ] 开发 Web 可视化界面
-- [ ] 建立社区贡献流程
+### M3: 社区与工具 🔮 (未来)
+- [ ] CI/CD 自动化验证
+- [ ] Web 可视化界面
 - [ ] API 服务
+- [ ] 社区贡献流程优化
 
 ---
 
@@ -243,20 +261,22 @@ for json_file in Path('sources').rglob('*.json'):
 
 | 维度 | awesome-public-datasets | DataSource Hub |
 |------|------------------------|----------------|
-| **总数据量** | ~800个 | 10个（目标300+） |
-| **中国数据源** | <5个 | 🏆 **6个（目标488个）** |
+| **总数据量** | ~800个 | 10个 → 🎯 **950+目标** |
+| **中国数据源** | <5个 | 6个 → 🏆 **488个规划** |
 | **元数据字段** | ~5个基础字段 | 🏆 **40+个详细字段** |
 | **质量评级** | 无 | 🏆 **5维度评分系统** |
 | **数据内容说明** | 混在描述中 | 🏆 **独立结构化字段** |
 | **访问方式** | 简单URL | 🏆 **API、下载、认证详情** |
 | **多语言** | 仅英文 | 🏆 **中英双语** |
-| **架构** | YAML → README | 🏆 **JSON + Schema验证** |
+| **架构** | Markdown列表 | 🏆 **JSON + Schema验证** |
+| **任务管理** | 无 | 🏆 **完整任务系统** |
+| **贡献指南** | 简单说明 | 🏆 **详细文档（30KB+）** |
 
 **定位差异**：
-- awesome-public-datasets: 轻量级数据集目录
-- **DataSource Hub**: 专业级权威数据源元数据平台
+- awesome-public-datasets: 轻量级数据集目录（已完成）
+- **DataSource Hub**: 专业级权威数据源元数据平台（持续建设）
 
-我们是**互补关系**，而非竞争关系！
+**互补关系**，共同服务开放数据社区！
 
 ---
 
@@ -264,28 +284,34 @@ for json_file in Path('sources').rglob('*.json'):
 
 欢迎贡献新的数据源或改进现有信息！
 
-### 如何贡献 | How to Contribute
+### 📋 认领任务 | Claim a Task
 
-1. **Fork** 本仓库
-2. 创建新的数据源 JSON 文件（参考现有样例）
-3. 确保符合 JSON Schema 标准
-4. 提交 **Pull Request**
+1. 查看 [任务清单](tasks/README.md) 选择待完成的数据源
+2. 使用 [认领模板](.github/ISSUE_TEMPLATE/claim-task.md) 创建 Issue
+3. 等待维护者确认（24小时内）
+4. 按照 [收录指南](docs/data-collection-guide.md) 完成收录
+5. 提交 Pull Request
+
+### 📚 完整文档 | Full Documentation
+
+- **[贡献指南](docs/CONTRIBUTING.md)** - 完整的贡献流程和规范
+- **[数据收录指南](docs/data-collection-guide.md)** - 详细的5步收录流程
+- **[质量评估标准](docs/quality-criteria.md)** - 质量标准和评分体系
+- **[任务系统](tasks/README.md)** - 950+ 数据源任务规划
 
 ### 数据源收录标准 | Inclusion Criteria
 
 ✅ **优先收录**：
-- 政府官方机构数据
-- 国际组织数据
-- 顶级学术机构数据
-- 定期更新的权威数据
+- 政府官方机构数据（国家级、省级）
+- 国际组织官方数据
+- 顶级学术机构和研究数据仓库
+- 定期更新的权威行业数据
 
 ❌ **不收录**：
-- 商业付费数据（除非有免费层级）
-- 个人或小型组织数据
-- 长期未更新的数据源
-- 无官方文档的数据
-
-详细指南请查看：`docs/CONTRIBUTING.md` (待创建)
+- 完全商业付费数据（无免费层级）
+- 个人或小型非官方组织数据
+- 长期未更新的数据源（>3年）
+- 无官方文档或无法验证的数据
 
 ---
 
@@ -299,10 +325,9 @@ for json_file in Path('sources').rglob('*.json'):
 
 ## 📞 联系方式 | Contact
 
-- **项目主页**: [待定]
-- **Issue 提交**: [待定]
-- **讨论区**: [待定]
-- **邮箱**: [待定]
+- **项目主页**: https://code.mlamp.cn/0003432/datasource-hub
+- **Issue 提交**: https://code.mlamp.cn/0003432/datasource-hub/issues
+- **任务认领**: [创建 Issue](.github/ISSUE_TEMPLATE/claim-task.md)
 
 ---
 
@@ -319,10 +344,16 @@ for json_file in Path('sources').rglob('*.json'):
 
 ## 📊 项目状态 | Project Status
 
-**当前阶段**: Phase 1 - 核心数据源建设
-**完成度**: 10/300 (3.3%)
-**最近更新**: 2025-11-29
-**质量评分**: ⭐⭐⭐⭐⭐ (4.9/5.0)
+| 指标 | 状态 |
+|------|------|
+| **当前里程碑** | M0 完成 ✅ / M1 进行中 🚧 |
+| **总体进度** | 10 / 950+ (1%) |
+| **完成度** | 国际组织 4%、中国 1% |
+| **最近更新** | 2025-12-01 |
+| **质量评分** | ⭐⭐⭐⭐⭐ (4.9/5.0) |
+
+📊 **详细状态**: [PROJECT_STATUS.md](PROJECT_STATUS.md)
+🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md)
 
 ---
 
