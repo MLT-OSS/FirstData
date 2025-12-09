@@ -130,10 +130,13 @@
 - `license`: 许可证类型
 - `cost`: 费用信息
 
-**质量指标**：
-- `authority`: 权威性评分（1-5）
-- `data_quality`: 数据质量评分（1-5）
-- `coverage`: 覆盖范围评分（1-5）
+**质量指标**（6 维度）：
+- `authority_level`: 来源权威性（1-5）
+- `methodology_transparency`: 方法论透明度（1-5）
+- `update_timeliness`: 更新及时性（1-5）
+- `data_completeness`: 数据完整性（1-5）
+- `documentation_quality`: 文档质量（1-5）
+- `citation_count`: 引用频次（1-5）
 
 完整字段列表请参考Schema文件。
 
@@ -169,7 +172,9 @@ python scripts/build_index.py
 
 ### 5. 更新README
 
-更新对应领域的README文件，例如 `sources/china/finance/README.md`。
+更新对应的一级目录 README 文件，例如 `sources/china/README.md`。
+
+**注意**: 仅在一级目录（china, international, countries, academic, sectors）下维护 README 文件，子目录不需要 README。
 
 ---
 

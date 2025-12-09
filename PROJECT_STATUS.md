@@ -99,7 +99,7 @@
 | **Total Sources** | 10 completed, 950+ planned | 1% complete |
 | **China Coverage** | 🏆 6 sources (target 488) | **Global leading** |
 | **Metadata Fields** | 🏆 40+ detailed fields | **Professional-grade** |
-| **Quality Rating** | 🏆 5-dimension system | **Quantifiable authority** |
+| **Quality Rating** | 🏆 6-dimension system | **Quantifiable authority** |
 | **Data Content** | 🏆 Structured field | **Machine-readable** |
 | **Bilingual** | 🏆 Chinese + English | **Internationalized** |
 | **Architecture** | 🏆 JSON + Schema validation | **Standardized** |
@@ -264,7 +264,7 @@ datasource/
 
 1. **🏆 Global First**: Only project with deep China data source coverage
 2. **📊 Professional Metadata**: 40+ fields vs typical 5-8 fields
-3. **⭐ Quality Rating**: Quantifiable 5-dimension authority assessment
+3. **⭐ Quality Rating**: Quantifiable 6-dimension authority assessment
 4. **🌐 Bilingual**: True Chinese-English dual language support
 5. **🔧 Validation**: Automated schema validation and quality checks
 6. **📈 Scalable**: Designed for 500+ sources with automation

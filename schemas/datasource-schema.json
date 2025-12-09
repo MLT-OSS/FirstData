@@ -264,13 +264,14 @@
     },
     "quality": {
       "type": "object",
-      "description": "Quality assessment (5-star rating system)",
+      "description": "Quality assessment (6-dimension rating system)",
       "required": [
         "authority_level",
         "methodology_transparency",
         "update_timeliness",
         "data_completeness",
-        "documentation_quality"
+        "documentation_quality",
+        "citation_count"
       ],
       "properties": {
         "authority_level": {
@@ -304,9 +305,10 @@
           "maximum": 5
         },
         "citation_count": {
-          "type": "string",
-          "description": "How often this source is cited",
-          "enum": ["very_high", "high", "medium", "low", "unknown"]
+          "type": "integer",
+          "description": "Citation frequency and academic impact (1-5 stars)",
+          "minimum": 1,
+          "maximum": 5
         }
       }
     },

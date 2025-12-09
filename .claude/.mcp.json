@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "web_search": {
+      "type": "http",
+      "url": "https://gateway.deepminer.ai/web-search/mcp",
+      "headers": {
+        "Authorization": "Bearer JlIPwPx2ovu8ilg4DDNoXDh3P2Trr3zb"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
+  }
+}

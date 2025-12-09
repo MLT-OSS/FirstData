@@ -82,7 +82,7 @@ class DataSourceValidator:
         # Check quality ratings (1-5)
         quality = data.get('quality', {})
         for key in ['authority_level', 'methodology_transparency', 'update_timeliness',
-                    'data_completeness', 'documentation_quality']:
+                    'data_completeness', 'documentation_quality', 'citation_count']:
             value = quality.get(key)
             if value is not None and not (1 <= value <= 5):
                 self.errors.append(f"Quality rating '{key}' must be 1-5, got {value}")
@@ -159,18 +159,19 @@ class DataSourceValidator:
         if status == 'inactive' or status == 'deprecated':
             self.warnings.append(f"Data source status is '{status}'")
 
-        # Check quality score average
+        # Check quality score average (6 dimensions)
         quality = data.get('quality', {})
         scores = [
             quality.get('authority_level', 0),
             quality.get('methodology_transparency', 0),
             quality.get('update_timeliness', 0),
             quality.get('data_completeness', 0),
-            quality.get('documentation_quality', 0)
+            quality.get('documentation_quality', 0),
+            quality.get('citation_count', 0)
         ]
         avg_score = sum(scores) / len(scores) if scores else 0
         if avg_score < 3.0:
-            self.warnings.append(f"Low average quality score: {avg_score:.1f}/5.0")
+            self.warnings.append(f"Low average quality score: {avg_score:.1f}/5.0 (6 dimensions)")
 
 
 def validate_directory(directory: Path, schema_path: str = None) -> Dict:

@@ -29,12 +29,13 @@ DataSource Hub is an open-source authoritative data source knowledge base design
 - **40+字段** 的详细元数据信息
 - 包括访问方式、覆盖范围、数据内容、质量评估等
 
-#### ⭐ **5维度权威性评级**
+#### ⭐ **6维度质量评级**
 - 来源权威性 (Source Authority)
 - 方法论透明度 (Methodology Transparency)
 - 更新及时性 (Timeliness)
 - 数据完整性 (Completeness)
 - 文档质量 (Documentation Quality)
+- 引用频次 (Citation Count)
 
 #### 🌐 **中英双语支持**
 - 所有元数据提供中英文双语
@@ -159,7 +160,7 @@ with open('sources/china/national/nbs.json', 'r', encoding='utf-8') as f:
 
 print(f"Name: {nbs['name']['en']}")
 print(f"URL: {nbs['access']['primary_url']}")
-print(f"Quality: {sum(nbs['quality'].values())/5:.1f}/5.0")
+print(f"Quality: {sum(nbs['quality'].values())/6:.1f}/5.0")
 print(f"Indicators: {nbs['coverage']['indicators']}")
 ```
 
@@ -215,7 +216,8 @@ for json_file in Path('sources').rglob('*.json'):
     "methodology_transparency": 5,
     "update_timeliness": 4,
     "data_completeness": 5,
-    "documentation_quality": 4
+    "documentation_quality": 4,
+    "citation_count": 5
   }
 }
 ```
