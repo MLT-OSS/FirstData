@@ -268,19 +268,14 @@ python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 
 **更新任务清单**:
 
-在对应任务文件中标记完成状态。
+在对应的领域任务文件中将任务状态从 `📋` 改为 `✅`：
+- 中国数据源：`tasks/china/{领域}.md`（如 `tasks/china/finance.md`）
+- 国际组织：`tasks/international.md`
+- 各国官方：`tasks/countries.md`
+- 学术研究：`tasks/academic.md`
+- 行业领域：`tasks/sectors.md`
 
-例如，在 `tasks/china/finance.md` 中：
-
-```markdown
-### ✅ 1.2 国家金融监督管理总局 (`china-nfra`)
-- **状态**: ✅ 已完成
-- **完成日期**: 2025-12-04
-- **文件**: `sources/china/finance/banking/nfra.json`
-- **贡献者**: DataSource Hub Team
-- **权威性**: 5.0
-- **URL**: https://www.nfra.gov.cn/
-```
+示例：`- 📋 World Bank Open Data - 世界银行开放数据` → `- ✅ World Bank Open Data - 世界银行开放数据`
 
 **更新进度统计**:
 

@@ -5,7 +5,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-11%2F950+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-14%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-1%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.9%2F5.0-brightgreen.svg)](#)
 
@@ -103,11 +103,11 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 11 / 950+ | 1% |
+| **总数据源** | 14 / 950+ | 1% |
 | **国际组织** | 4 / 100+ | 4% |
-| **各国官方** | 0 / 200+ | 0% |
-| **中国数据源** | 6 / 488 | 1% |
-| **学术研究** | 0 / 50+ | 0% |
+| **各国官方** | 1 / 200+ | 1% |
+| **中国数据源** | 7 / 488 | 1% |
+| **学术研究** | 1 / 50+ | 2% |
 | **行业领域** | 1 / 150+ | 1% |
 | **平均权威性** | ⭐⭐⭐⭐⭐ (4.9/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
@@ -123,15 +123,26 @@ datasource/
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
 - ✅ 世界贸易组织 (WTO) - 权威性 5.0 💎
 
-#### 🇨🇳 中国数据源 (6个)
+#### 🇨🇳 中国数据源 (7个)
 - ✅ 国家统计局 (NBS) - 权威性 5.0 💎
 - ✅ 中国人民银行 (PBC) - 权威性 5.0 💎
+- ✅ 国家金融监督管理总局 (NFRA) - 权威性 5.0 💎
 - ✅ 证监会 (CSRC) - 权威性 4.8 ⭐
 - ✅ 海关总署 (Customs) - 权威性 5.0 💎
 - ✅ 商务部 (MOFCOM) - 权威性 4.8 ⭐
 - ✅ 发改委 (NDRC) - 权威性 4.6 ⭐
 
 📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
+
+#### 🌎 各国官方 (1个)
+- ✅ 加拿大统计局 (Statistics Canada) - 权威性 5.0 💎
+
+📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
+
+#### 🎓 学术研究 (1个)
+- ✅ NBER - 国家经济研究局 - 权威性 4.8 ⭐
+
+📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
 #### 🏭 行业领域 (1个)
 - ✅ ImageNet - 权威性 4.7 ⭐

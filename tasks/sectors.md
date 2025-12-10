@@ -101,7 +101,7 @@
 - 📋 CRSP - Center for Research in Security Prices
 
 #### 计算机科学与AI/ML（20个）
-- ✅ ImageNet - 完成日期: 2025-12-10 - 文件: `sources/sectors/computer_science_ai/imagenet.json`
+- ✅ ImageNet
 - 📋 MS COCO Dataset
 - 📋 MNIST Database
 - 📋 CIFAR-10/100
