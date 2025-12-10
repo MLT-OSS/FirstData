@@ -185,7 +185,7 @@
             "start_year": {
               "type": "integer",
               "description": "First year of data",
-              "minimum": 1800
+              "minimum": 1700
             },
             "end_year": {
               "type": "integer",

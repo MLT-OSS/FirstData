@@ -24,14 +24,19 @@ sources/countries/
 ## 已收录地区 | Included Regions
 
 ### 🌎 北美洲 | North America
-- **国家数量**: 1
-- **数据源总数**: 1
+- **国家数量**: 2
+- **数据源总数**: 2
 - [查看详情](north-america/README.md)
 
 #### 🇨🇦 加拿大 | Canada
 - **数据源数量**: 1
 - **主要机构**: Statistics Canada
 - [查看详情](north-america/canada/README.md)
+
+#### 🇺🇸 美国 | United States
+- **数据源数量**: 1
+- **主要机构**: United States Census Bureau
+- [查看详情](north-america/usa/)
 
 ## 分类标准 | Classification Criteria
 
@@ -46,8 +51,8 @@ Data sources are classified according to the following rules:
 
 ## 统计信息 | Statistics
 
-- **已收录国家** | Countries Included: 1
-- **总数据源** | Total Sources: 1
+- **已收录国家** | Countries Included: 2
+- **总数据源** | Total Sources: 2
 - **计划收录** | Planned: 200+
 
 ## 贡献 | Contributing
@@ -58,4 +63,4 @@ To add data sources for new countries, please refer to the [Contributing Guide](
 
 ---
 
-**最后更新 | Last Updated**: 2025-12-09
+**最后更新 | Last Updated**: 2025-12-10
