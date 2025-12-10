@@ -14,6 +14,7 @@ This directory contains global data sources from international organizations and
 international/
 ├── economics/        # 经济 | Economics
 ├── trade/            # 贸易 | Trade
+├── energy/           # 能源 | Energy
 ├── health/           # 健康 | Health
 ├── environment/      # 环境 | Environment
 └── development/      # 发展 | Development
@@ -49,11 +50,19 @@ international/
    - 访问类型：开放
    - [查看详情](trade/wto.json)
 
+### 能源 | Energy
+
+1. **IEA Energy Data** (`iea-energy-data`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：CSV, Excel, SDMX, JSON, XML
+   - 访问类型：注册
+   - [查看详情](energy/iea.json)
+
 ## 统计信息 | Statistics
 
-- **已收录**: 4
+- **已收录**: 5
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、健康、环境、发展
+- **覆盖领域**: 经济、贸易、能源、健康、环境、发展
 
 ## 分类标准 | Classification Criteria
 
@@ -73,4 +82,4 @@ To add or update international data sources, please refer to the [Contributing G
 
 ---
 
-**最后更新 | Last Updated**: 2025-12-09
+**最后更新 | Last Updated**: 2025-12-10

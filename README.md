@@ -5,8 +5,8 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-15%2F950+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-1%25-yellow.svg)](ROADMAP.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-16%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-2%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.9%2F5.0-brightgreen.svg)](#)
 
 ---
@@ -103,8 +103,8 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 15 / 950+ | 2% |
-| **国际组织** | 4 / 100+ | 4% |
+| **总数据源** | 16 / 950+ | 2% |
+| **国际组织** | 5 / 100+ | 5% |
 | **各国官方** | 2 / 200+ | 1% |
 | **中国数据源** | 7 / 488 | 1% |
 | **学术研究** | 1 / 50+ | 2% |
@@ -117,11 +117,12 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (4个)
+#### 🌍 国际组织 (5个)
 - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
 - ✅ 世界贸易组织 (WTO) - 权威性 5.0 💎
+- ✅ 国际能源署 (IEA) - 权威性 5.0 💎
 
 #### 🇨🇳 中国数据源 (7个)
 - ✅ 国家统计局 (NBS) - 权威性 5.0 💎
