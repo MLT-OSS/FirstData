@@ -33,13 +33,17 @@ sectors/
 
 ## 已收录数据源 | Included Sources
 
-目前暂无已收录数据源，计划收录 150+ 个行业数据源。
+### 计算机科学与AI/ML | Computer Science & AI/ML
 
-No sources included yet. Planning to include 150+ sector data sources.
+1. **ImageNet** (`imagenet`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：JPEG, tar, zip
+   - 访问类型：学术注册
+   - [查看详情](computer_science_ai/imagenet.json)
 
 ## 统计信息 | Statistics
 
-- **已收录**: 0
+- **已收录**: 1
 - **计划收录**: 150+
 - **覆盖领域**: 17 个专业领域
 

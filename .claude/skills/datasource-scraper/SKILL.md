@@ -297,6 +297,36 @@ python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 - **索引生成**(可选): 测试索引生成 | 新数据源出现在索引中
 - **最终确认**: 文件保存在正确目录 | 命名规范 | 无TODO占位符
 
+### 10. 自动推送到 GitLab
+
+在完成所有验证和文档更新后，自动提交并推送更改。
+
+**触发条件**：
+- 新数据源创建成功且验证通过
+- 数据源更新完成且验证通过
+- 索引文件和文档已更新
+
+**执行步骤**：
+```bash
+# 1. 添加所有更改
+git add .
+
+# 2. 创建提交（根据操作类型选择消息）
+# 创建: git commit -m "feat: 添加{数据源名称}数据源 ({datasource-id})"
+# 更新: git commit -m "update: 更新{数据源名称}数据源 ({datasource-id})"
+
+# 3. 推送到远程仓库
+git push origin feat/auto-push-git
+```
+
+**提交消息格式**：
+- 新增数据源：`feat: 添加{name} ({id})`
+- 更新数据源：`update: 更新{name} ({id})`
+- 批量操作：`feat: 批量添加{领域}数据源 ({count}个)`
+
+**注意事项**：
+- 推送前确保所有验证通过；使用规范的提交消息；自动推送到当前分支
+
 ## 双语要求
 
 - **中国数据源**: 必须提供中英双语（name, description, data_content）
