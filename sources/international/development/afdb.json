@@ -1,0 +1,125 @@
+{
+  "id": "afdb-statistics",
+  "name": {
+    "en": "African Development Bank Statistics",
+    "zh": "非洲开发银行统计数据"
+  },
+  "organization": {
+    "name": "African Development Bank Group",
+    "type": "international_organization",
+    "country": "CI",
+    "website": "https://www.afdb.org/en"
+  },
+  "description": {
+    "en": "The African Development Bank Group provides comprehensive statistical data on African economic development and social progress. The AfDB Statistics Department compiles and disseminates socio-economic data covering all African countries from 1960 to present, including agriculture, debt, economic indicators, energy, financial flows, governance, ICT, infrastructure, national accounts, prices, production, public finance, and social indicators.",
+    "zh": "非洲开发银行集团提供关于非洲经济发展和社会进步的综合统计数据。AfDB统计部门编制和传播涵盖所有非洲国家从1960年至今的社会经济数据，包括农业、债务、经济指标、能源、金融流动、治理、信息通信技术、基础设施、国民账户、价格、生产、公共财政和社会指标。"
+  },
+  "access": {
+    "primary_url": "https://www.afdb.org/en/knowledge/statistics",
+    "api": {
+      "available": true,
+      "documentation": "https://dataportal.opendataforafrica.org/",
+      "version": "SDMX",
+      "authentication": false
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "Excel", "JSON", "XML", "SDMX"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "regional",
+      "countries": 54,
+      "regions": ["Africa"]
+    },
+    "temporal": {
+      "start_year": 1960,
+      "end_year": 2024,
+      "update_frequency": "annual"
+    },
+    "domains": ["economics", "finance", "development", "social"],
+    "indicators": 2000
+  },
+  "data_content": {
+    "en": [
+      "Macroeconomic Indicators - GDP, national accounts, prices, production statistics",
+      "Public Finance - Government revenue, expenditure, fiscal balance",
+      "Debt Statistics - External and domestic debt, debt service",
+      "Agriculture - Agricultural production, food security indicators",
+      "Energy - Energy production, consumption, access rates",
+      "Financial Flows - FDI, remittances, aid flows",
+      "Infrastructure - Transport, telecommunications, water and sanitation",
+      "Governance Indicators - Institutional quality, regulatory environment",
+      "ICT Statistics - Internet penetration, mobile subscriptions",
+      "Social Indicators - Education, health, poverty, demographic data"
+    ],
+    "zh": [
+      "宏观经济指标 - GDP、国民账户、价格、生产统计",
+      "公共财政 - 政府收入、支出、财政平衡",
+      "债务统计 - 外债和内债、债务偿还",
+      "农业 - 农业生产、粮食安全指标",
+      "能源 - 能源生产、消费、接入率",
+      "金融流动 - 外商直接投资、汇款、援助流动",
+      "基础设施 - 交通、通信、供水和卫生设施",
+      "治理指标 - 机构质量、监管环境",
+      "信息通信技术统计 - 互联网普及率、移动用户数",
+      "社会指标 - 教育、健康、贫困、人口数据"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["statistical", "time-series", "cross-sectional"],
+    "granularity": ["country-level", "regional"],
+    "formats": ["CSV", "Excel", "JSON", "XML", "SDMX", "PDF"],
+    "languages": ["en", "fr"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 4,
+    "update_timeliness": 4,
+    "data_completeness": 4,
+    "documentation_quality": 4,
+    "citation_count": 4
+  },
+  "licensing": {
+    "license": "CC BY 4.0",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": []
+  },
+  "metadata_standards": ["SDMX", "Dublin Core"],
+  "use_cases": [
+    "African Economic Analysis",
+    "Development Research",
+    "Policy Making",
+    "Academic Research",
+    "Cross-country Comparisons",
+    "Investment Analysis",
+    "Development Project Planning"
+  ],
+  "related_sources": ["worldbank-data", "un-data", "imf-data"],
+  "tags": [
+    "africa",
+    "development",
+    "economics",
+    "finance",
+    "infrastructure",
+    "social-indicators",
+    "governance",
+    "agriculture",
+    "energy",
+    "multilateral-development-bank"
+  ],
+  "contributor": {
+    "name": "Claude",
+    "date": "2025-12-10"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-10",
+    "last_updated": "2025-12-10",
+    "verified_date": "2025-12-10",
+    "status": "active"
+  }
+}
