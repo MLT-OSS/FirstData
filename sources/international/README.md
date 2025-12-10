@@ -43,6 +43,12 @@ international/
    - 访问类型：开放
    - [查看详情](economics/oecd.json)
 
+4. **BIS Statistics - Bank for International Settlements** (`bis-statistics`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：CSV, Excel, SDMX, JSON
+   - 访问类型：开放
+   - [查看详情](economics/bis.json)
+
 ### 贸易 | Trade
 
 1. **WTO - World Trade Organization** (`intl-wto`) ⭐💎
@@ -77,7 +83,7 @@ international/
 
 ## 统计信息 | Statistics
 
-- **已收录**: 7
+- **已收录**: 8
 - **计划收录**: 20+
 - **覆盖领域**: 经济、贸易、能源、农业、知识产权、健康、环境、发展
 
