@@ -58,11 +58,19 @@ international/
    - 访问类型：注册
    - [查看详情](energy/iea.json)
 
+### 知识产权 | Intellectual Property
+
+1. **WIPO IP Statistics** (`wipo-ip-statistics`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：Excel, PDF, CSV
+   - 访问类型：开放
+   - [查看详情](wipo.json)
+
 ## 统计信息 | Statistics
 
-- **已收录**: 5
+- **已收录**: 6
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、能源、健康、环境、发展
+- **覆盖领域**: 经济、贸易、能源、知识产权、健康、环境、发展
 
 ## 分类标准 | Classification Criteria
 
