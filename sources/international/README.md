@@ -16,6 +16,7 @@ international/
 ├── trade/            # 贸易 | Trade
 ├── energy/           # 能源 | Energy
 ├── agriculture/      # 农业 | Agriculture
+├── education/        # 教育 | Education
 ├── health/           # 健康 | Health
 ├── environment/      # 环境 | Environment
 └── development/      # 发展 | Development
@@ -81,11 +82,19 @@ international/
    - 访问类型：开放
    - [查看详情](agriculture/faostat.json)
 
+### 教育 | Education
+
+1. **PISA - Programme for International Student Assessment** (`oecd-pisa`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：SAS, SPSS, CSV, Excel
+   - 访问类型：开放
+   - [查看详情](education/oecd-pisa.json)
+
 ## 统计信息 | Statistics
 
-- **已收录**: 8
+- **已收录**: 9
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、能源、农业、知识产权、健康、环境、发展
+- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展
 
 ## 分类标准 | Classification Criteria
 
