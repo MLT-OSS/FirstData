@@ -26,12 +26,12 @@ sources/countries/
 ### 🌎 北美洲 | North America
 - **国家数量**: 2
 - **数据源总数**: 2
-- [查看详情](north-america/README.md)
+- [查看详情](north-america)
 
 #### 🇨🇦 加拿大 | Canada
 - **数据源数量**: 1
 - **主要机构**: Statistics Canada
-- [查看详情](north-america/canada/README.md)
+- [查看详情](north-america/canada/)
 
 #### 🇺🇸 美国 | United States
 - **数据源数量**: 1

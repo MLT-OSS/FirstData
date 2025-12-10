@@ -1,36 +1,123 @@
-# Playwright 浏览器自动化工作流程
+# 数据获取策略指南
 
-本文档详细说明何时以及如何使用 Playwright 工具进行数据源信息抓取。
+**对应主 SKILL.md 步骤 1：获取网站内容**
 
-## 触发条件
+本文档详细说明如何从数据源网站获取信息，包括两层降级策略的使用方法。
 
-当前两层策略（Web Search + WebFetch）无法获取足够信息时，考虑使用 Playwright。满足以下**任一条件**即可触发：
+---
 
-### 1. JavaScript 渲染页面
+## 输入识别
+
+根据用户输入类型选择处理方式：
+
+### URL 输入
+- 特征：以 `http://` 或 `https://` 开头
+- 处理：直接使用该 URL 进行数据获取
+
+### 名字输入
+- 特征：不以 `http://` 或 `https://` 开头
+- 示例：`GenBank - 基因序列数据库`、`人民银行数据`、`World Bank`
+- 处理流程：
+  1. 使用 WebSearch 搜索官方网站
+  2. 从搜索结果中识别最可能的官方 URL
+  3. 使用 AskUserQuestion 向用户确认 URL 是否正确
+  4. 确认后进入数据获取流程
+
+---
+
+## 两层降级策略
+
+根据网站复杂度和可访问性，选择合适的工具。
+
+```
+第一层: Web Search + WebFetch（静态内容，优先使用）
+  ↓ 如遇 JS 渲染/需要登录/交互内容
+第二层: Playwright（浏览器自动化，最后手段）
+```
+
+---
+
+## 第一层：Web Search + WebFetch（主要策略）
+
+### Web Search 搜索
+
+使用多角度搜索获取概览信息：
+
+**搜索查询示例**：
+- `"{组织名称} data"`
+- `"{组织名称} API documentation"`
+- `"{组织名称} methodology"`
+- `"{组织名称} about"`
+- `"{组织名称} datasets"`
+
+**提取目标**：
+- 组织名称和类型
+- 主要 URL
+- API 文档链接
+- 数据门户地址
+- 组织概述信息
+
+### WebFetch 详细验证
+
+直接访问用户提供的 URL 或搜索中发现的关键页面。
+
+**提取目标信息**：
+- **组织信息**：名称、类型、描述、官网
+- **关键 URL**：主页、数据门户、API 文档、下载页面
+- **数据覆盖范围**：地理范围、时间跨度、主题领域
+- **更新频率**：实时、每日、每月、每年等
+- **许可协议**：开放程度、商业使用限制
+- **API 可用性**：是否提供 API、认证方式、文档链接
+- **数据格式**：CSV、JSON、Excel、PDF 等
+
+### 适用场景
+- ✅ 静态 HTML 页面
+- ✅ 服务端渲染的页面
+- ✅ 信息在页面源代码中可见
+- ✅ 无需登录即可访问关键信息
+- ✅ 无需交互即可看到完整内容
+
+### 不适用场景
+- ❌ JavaScript 动态渲染页面（WebFetch 返回空白或骨架）
+- ❌ 需要登录才能查看
+- ❌ 内容隐藏在交互元素中（下拉菜单、Tab、折叠面板）
+- ❌ 页面返回 403 Forbidden（反爬机制）
+
+---
+
+## 第二层：Playwright 浏览器自动化（最后手段）
+
+### 触发条件
+
+当第一层策略无法获取足够信息时，满足以下**任一条件**即可触发：
+
+#### 1. JavaScript 渲染页面
 - WebFetch 返回的 HTML 内容 < 500 字符
 - HTML 中包含大量 `<script>` 标签但内容区域为空或仅有骨架
 - 检测到 React/Vue/Angular 等 SPA 框架特征（如 `<div id="root">`, `<div id="app">`）
 - 页面提示 "Please enable JavaScript"
 
-### 2. 需要登录或认证
+#### 2. 需要登录或认证
 - 页面包含登录提示关键词：`login`, `sign in`, `authentication required`, `please log in`
 - 返回 401 Unauthorized 或 403 Forbidden 状态码
 - 内容显示 "请登录查看"、"Members only"、"Restricted access"
 
-### 3. 交互式内容
+#### 3. 交互式内容
 - 搜索结果提示需要点击、展开才能看到完整内容
 - 数据类别列表在下拉菜单、折叠面板或 Tab 中
 - 需要选择地区/年份等参数才显示数据范围
 - 内容在鼠标悬停或点击后才显示
 
-### 4. 用户明确要求
+#### 4. 用户明确要求
 - 用户在请求中提到 "使用浏览器"、"需要登录"、"手动访问"
 
-## 使用前的用户沟通（关键！）
+---
 
-⚠️ **必须遵守**: 调用 Playwright 前，必须向用户清楚说明情况。
+### 使用前的用户沟通（⚠️ 必须遵守）
 
-### 标准沟通模板
+调用 Playwright 前，**必须**向用户清楚说明情况。
+
+#### 标准沟通模板
 
 ```
 ⚠️ 检测到访问困难，需要使用浏览器工具
@@ -55,9 +142,11 @@
 【继续操作】: 现在开始使用浏览器工具访问该页面...
 ```
 
-## 详细工作流程
+---
 
-### 步骤 1: 打开页面并初步诊断
+### Playwright 详细工作流程
+
+#### 步骤 1: 打开页面并初步诊断
 
 ```javascript
 // 1. 导航到目标页面
@@ -80,11 +169,12 @@ await browser_take_screenshot({
 📋 正在分析页面结构...
 ```
 
-### 步骤 2: 检测并处理登录需求
+---
 
-检测登录表单的方法：
+#### 步骤 2: 检测并处理登录需求
+
+检测登录表单：
 ```javascript
-// 从 snapshot 中检测登录特征
 const needsLogin = (
   snapshot.includes('textbox') &&
   (snapshot.includes('password') ||
@@ -106,17 +196,15 @@ const needsLogin = (
 ⏳ 正在等待登录完成...（每 5 秒检查一次页面状态）
 ```
 
-实现登录检测循环：
+登录检测循环：
 ```javascript
 let loginAttempts = 0
-const maxAttempts = 36  // 3 分钟 (36 * 5秒)
+const maxAttempts = 36  // 3 分钟
 
 while (needsLogin && loginAttempts < maxAttempts) {
   await browser_wait_for({ time: 5 })
-
   const newSnapshot = await browser_snapshot()
   needsLogin = (/* 再次检测登录表单 */)
-
   loginAttempts++
 
   // 每 30 秒提醒一次
@@ -124,71 +212,40 @@ while (needsLogin && loginAttempts < maxAttempts) {
     console.log(`⏳ 仍在等待登录... (已等待 ${loginAttempts * 5} 秒)`)
   }
 }
-
-if (loginAttempts >= maxAttempts) {
-  console.log(`
-    ⚠️ 等待超时（3 分钟）
-
-    可能的原因：
-    - 登录流程较复杂
-    - 需要额外验证步骤
-
-    建议：
-    - 您可以继续手动完成登录，我继续等待
-    - 或者您可以手动提供所需信息
-  `)
-  // 询问用户是否继续等待
-}
-
-console.log('✅ 检测到登录成功，继续提取信息...')
 ```
 
-### 步骤 3: 处理交互式内容
+---
 
-常见交互场景：
+#### 步骤 3: 处理交互式内容
 
-#### 3.1 展开折叠内容
+##### 3.1 展开折叠内容
 
 ```javascript
 // 查找 "Show more" / "展开" 按钮
 const snapshot = await browser_snapshot()
 
-// 从快照中找到按钮的 ref
-// 例如: link "Show more" [ref=e42]
-
 await browser_click({
   element: "Show more button",
-  ref: "e42"
+  ref: "e42"  // 从 snapshot 中获取
 })
 
-await browser_wait_for({ time: 2 })  // 等待内容加载
+await browser_wait_for({ time: 2 })
 
-// 再次截图验证
+// 截图验证
 await browser_take_screenshot({ filename: 'expanded-content.png' })
 ```
 
-向用户反馈：
-```
-🖱️ 正在展开隐藏内容...
-✅ 已点击 "显示更多" 按钮
-📸 已截图展开后的内容
-```
-
-#### 3.2 切换 Tab 标签
+##### 3.2 切换 Tab 标签
 
 ```javascript
-// 点击不同的 Tab 获取完整信息
 const tabs = ['API Documentation', 'Data Catalog', 'Download']
 
 for (const tabName of tabs) {
   console.log(`🔄 切换到 ${tabName} 标签...`)
 
-  const snapshot = await browser_snapshot()
-  // 从 snapshot 找到 tab 的 ref
-
   await browser_click({
     element: `${tabName} tab`,
-    ref: "eXX"
+    ref: "eXX"  // 从 snapshot 获取
   })
 
   await browser_wait_for({ time: 1 })
@@ -200,10 +257,9 @@ for (const tabName of tabs) {
 }
 ```
 
-#### 3.3 下拉菜单选择
+##### 3.3 下拉菜单选择
 
 ```javascript
-// 选择下拉菜单选项
 await browser_select_option({
   element: "Region selector",
   ref: "e25",
@@ -213,9 +269,11 @@ await browser_select_option({
 await browser_wait_for({ time: 1 })
 ```
 
-### 步骤 4: 提取结构化数据
+---
 
-使用 `browser_evaluate` 执行自定义 JavaScript 提取信息：
+#### 步骤 4: 提取结构化数据
+
+使用 `browser_evaluate` 执行 JavaScript 提取信息：
 
 ```javascript
 const extractedData = await browser_evaluate({
@@ -249,7 +307,7 @@ const extractedData = await browser_evaluate({
           name: el.querySelector('.name, .title, h3')?.textContent?.trim(),
           description: el.querySelector('.desc, .description, p')?.textContent?.trim()
         }))
-        .filter(cat => cat.name),  // 过滤掉空值
+        .filter(cat => cat.name),
 
       // 更新频率
       updateFrequency: (
@@ -276,7 +334,7 @@ const extractedData = await browser_evaluate({
       methodologyUrl: getLink(/methodology|方法论|technical notes/i),
       contactUrl: getLink(/contact|support|联系/i),
 
-      // 时间跨度提取
+      // 时间跨度
       temporalCoverage: (() => {
         const text = document.body.textContent
         const yearRange = text.match(/(19|20)\\d{2}\\s*[-–—到至]\\s*(19|20)\\d{2}/)
@@ -291,7 +349,7 @@ const extractedData = await browser_evaluate({
 })
 ```
 
-向用户反馈提取进度：
+向用户反馈：
 ```
 ✅ 已提取组织信息: [名称]
 ✅ 已找到 API 文档: [URL]
@@ -301,7 +359,9 @@ const extractedData = await browser_evaluate({
 📊 正在整理提取的数据...
 ```
 
-### 步骤 5: 多页面信息聚合
+---
+
+#### 步骤 5: 多页面信息聚合
 
 如果需要访问多个页面：
 
@@ -325,7 +385,6 @@ for (const page of pages) {
   })
 
   allData[page.name] = pageData
-
   console.log(`✅ ${page.name} 信息提取完成`)
 }
 
@@ -337,27 +396,11 @@ const mergedData = {
 }
 ```
 
-### 步骤 6: 错误处理与重试
+---
+
+#### 步骤 6: 错误处理与重试
 
 ```javascript
-try {
-  await browser_navigate({ url: targetUrl })
-} catch (error) {
-  console.log(`
-    ❌ 页面加载失败
-
-    错误信息: ${error}
-
-    可能原因：
-    - 网络连接问题
-    - 页面不存在或已移动
-    - 服务器暂时不可用
-
-    是否要重试？
-  `)
-  // 询问用户是否重试
-}
-
 // 检测验证码
 const snapshot = await browser_snapshot()
 if (snapshot.includes('captcha') || snapshot.includes('reCAPTCHA')) {
@@ -386,13 +429,15 @@ if (snapshot.includes('captcha') || snapshot.includes('reCAPTCHA')) {
 }
 ```
 
-### 步骤 7: 完成并清理
+---
+
+#### 步骤 7: 完成并清理
 
 ```javascript
 // 最终截图
 await browser_take_screenshot({
   filename: 'final-state.png',
-  fullPage: true  // 全页截图
+  fullPage: true
 })
 
 // 关闭浏览器
@@ -411,35 +456,22 @@ console.log(`
 - ✅ 许可协议: ${data.license || '未明确'}
 - ✅ 地理覆盖: ${data.geographicCoverage || '未指定'}
 
-📸 已保存 [N] 张截图供参考
+📸 已保存截图供参考
 
 接下来将使用这些信息填充 JSON schema...
 `)
 ```
+
+---
 
 ## 使用场景示例
 
 ### 场景 1: React SPA 页面
 
 ```
-用户请求: 抓取 https://data.example.com
+触发原因: WebFetch 返回几乎空白的 HTML（<div id="root"></div>）
 
-Web Search: 找到基本信息
-WebFetch: 返回几乎空白的 HTML（<div id="root"></div>）
-
-触发 Playwright:
-  ⚠️ 检测到访问困难，需要使用浏览器工具
-
-  【遇到的问题】: 该页面使用 React 框架，内容完全由 JavaScript 动态加载。
-  WebFetch 只能获取到页面骨架，无法看到实际的数据目录和 API 文档。
-
-  【解决方案】: 使用 Playwright 浏览器工具，等待 JavaScript 执行完成后提取内容
-
-  【需要您的协助】: 通常不需要您的操作，我会自动等待页面加载完成
-
-  【继续操作】: 现在开始使用浏览器工具...
-
-操作步骤:
+Playwright 流程:
   1. browser_navigate
   2. browser_wait_for({ time: 3 }) - 等待 React 渲染
   3. browser_snapshot - 获取渲染后的内容
@@ -450,31 +482,13 @@ WebFetch: 返回几乎空白的 HTML（<div id="root"></div>）
 ### 场景 2: 需要登录的数据门户
 
 ```
-用户请求: 抓取 https://members.datasite.org
+触发原因: WebFetch 返回 "Please login to continue"
 
-Web Search: 找到登录页面链接
-WebFetch: 返回 "Please login to continue"
-
-触发 Playwright:
-  ⚠️ 检测到访问困难，需要使用浏览器工具
-
-  【遇到的问题】: 该数据源的 API 文档和数据目录仅对注册用户开放。
-  WebFetch 访问时被重定向到登录页面。
-
-  【解决方案】: 使用 Playwright 打开页面，您完成登录后我继续提取
-
-  【需要您的协助】:
-  - ✋ 需要您在浏览器中完成登录（用户名/密码）
-  - ✋ 如果有二步验证，也需要您完成
-  - ⏱️ 预计需要 1-2 分钟
-
-  【继续操作】: 正在打开登录页面...
-
-操作步骤:
+Playwright 流程:
   1. browser_navigate
   2. browser_take_screenshot - 显示登录页面
   3. 提示用户登录
-  4. 循环检测登录状态（browser_snapshot + browser_wait_for）
+  4. 循环检测登录状态
   5. 检测到登录成功
   6. 提取内容
   7. browser_close
@@ -483,24 +497,9 @@ WebFetch: 返回 "Please login to continue"
 ### 场景 3: 交互式数据目录
 
 ```
-用户请求: 抓取 https://stats.agency.gov
+触发原因: 数据类别列表隐藏在下拉菜单中
 
-Web Search: 找到数据门户
-WebFetch: 能访问页面，但数据类别在下拉菜单中
-
-触发 Playwright:
-  ⚠️ 检测到访问困难，需要使用浏览器工具
-
-  【遇到的问题】: 该网站的完整数据类别列表隐藏在交互式下拉菜单中。
-  WebFetch 只能看到菜单标题，无法获取展开后的完整列表（约 50+ 个类别）。
-
-  【解决方案】: 使用 Playwright 模拟点击操作，展开所有菜单获取完整信息
-
-  【需要您的协助】: 通常不需要您的操作，我会自动点击并提取
-
-  【继续操作】: 正在访问页面并展开菜单...
-
-操作步骤:
+Playwright 流程:
   1. browser_navigate
   2. browser_snapshot - 找到菜单按钮
   3. browser_click - 点击展开
@@ -510,10 +509,12 @@ WebFetch: 能访问页面，但数据类别在下拉菜单中
   7. browser_close
 ```
 
+---
+
 ## 最佳实践
 
 ### 1. 谨慎使用
-- ✅ 仅在前两层方法确实无效时才使用
+- ✅ 仅在前两层方法确实无效时才使用 Playwright
 - ✅ 能用 WebFetch 解决的不用 Playwright
 - ❌ 不要默认就用 Playwright（速度慢、资源占用高）
 
@@ -544,34 +545,36 @@ WebFetch: 能访问页面，但数据类别在下拉菜单中
 ### 6. 截图策略
 - ✅ 关键步骤截图（登录页、最终状态）
 - ✅ 出错时截图帮助诊断
-- ✅ 使用有意义的文件名（如 `login-page.png`）
+- ✅ 使用有意义的文件名
 - ❌ 不要每一步都截图（浪费存储）
 
 ### 7. 数据提取
 - ✅ 使用健壮的选择器（多种备选）
 - ✅ 所有提取都使用可选链 `?.` 避免错误
 - ✅ 过滤掉 null/undefined 值
-- ✅ 提取失败的字段标记为 null，在 JSON 中明确标注
+- ✅ 提取失败的字段标记为 null
+
+---
 
 ## 工具函数参考
 
 ### 常用 Playwright 工具
 
-| 工具 | 用途 | 示例 |
-|------|------|------|
-| `browser_navigate` | 导航到 URL | `browser_navigate({ url: "..." })` |
-| `browser_snapshot` | 获取页面结构（快速） | `browser_snapshot()` |
-| `browser_take_screenshot` | 截图（给用户看） | `browser_take_screenshot({ filename: "..." })` |
-| `browser_click` | 点击元素 | `browser_click({ element: "...", ref: "..." })` |
-| `browser_evaluate` | 执行 JS 提取数据 | `browser_evaluate({ function: "() => {...}" })` |
-| `browser_wait_for` | 等待时间/元素 | `browser_wait_for({ time: 5 })` |
-| `browser_type` | 输入文本 | `browser_type({ element: "...", ref: "...", text: "..." })` |
-| `browser_select_option` | 选择下拉选项 | `browser_select_option({ element: "...", ref: "...", values: [...] })` |
-| `browser_close` | 关闭浏览器 | `browser_close()` |
-| `browser_console_messages` | 查看控制台日志 | `browser_console_messages()` |
-| `browser_network_requests` | 查看网络请求 | `browser_network_requests()` |
+| 工具 | 用途 |
+|------|------|
+| `browser_navigate` | 导航到 URL |
+| `browser_snapshot` | 获取页面结构 |
+| `browser_take_screenshot` | 截图 |
+| `browser_click` | 点击元素 |
+| `browser_evaluate` | 执行 JS 提取数据 |
+| `browser_wait_for` | 等待时间/元素 |
+| `browser_type` | 输入文本 |
+| `browser_select_option` | 选择下拉选项 |
+| `browser_close` | 关闭浏览器 |
+| `browser_console_messages` | 查看控制台日志 |
+| `browser_network_requests` | 查看网络请求 |
 
-### JavaScript 提取技巧
+### JavaScript 提取辅助函数
 
 ```javascript
 // 安全获取文本
@@ -606,6 +609,8 @@ const extractDateRange = () => {
   return null
 }
 ```
+
+---
 
 ## 注意事项
 

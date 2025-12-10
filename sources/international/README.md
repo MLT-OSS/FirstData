@@ -15,6 +15,7 @@ international/
 ├── economics/        # 经济 | Economics
 ├── trade/            # 贸易 | Trade
 ├── energy/           # 能源 | Energy
+├── agriculture/      # 农业 | Agriculture
 ├── health/           # 健康 | Health
 ├── environment/      # 环境 | Environment
 └── development/      # 发展 | Development
@@ -66,11 +67,19 @@ international/
    - 访问类型：开放
    - [查看详情](wipo.json)
 
+### 农业 | Agriculture
+
+1. **FAOSTAT - Food and Agriculture Data** (`faostat`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：CSV, Excel, JSON, XML
+   - 访问类型：开放
+   - [查看详情](agriculture/faostat.json)
+
 ## 统计信息 | Statistics
 
-- **已收录**: 6
+- **已收录**: 7
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、能源、知识产权、健康、环境、发展
+- **覆盖领域**: 经济、贸易、能源、农业、知识产权、健康、环境、发展
 
 ## 分类标准 | Classification Criteria
 
