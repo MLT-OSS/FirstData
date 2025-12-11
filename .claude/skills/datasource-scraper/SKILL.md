@@ -276,10 +276,10 @@ python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 
 #### 8.3 更新进度统计
 
-同步更新以下 5 个文件中的统计数字（保持所有统计一致）：
+同步更新以下 5 个文件中的统计情况（保持所有统计一致）：
 
-1. **根目录 README**（`README.md`）：Badge 徽章 + 总体统计表格
-2. **一级目录 README**（`sources/{category}/README.md`）：已收录数量
+1. **根目录 README**（`README.md`）：Badge 徽章 + 总体统计表格 + 已完成数据源列表
+2. **一级目录 README**（`sources/{category}/README.md`）：已收录数量 + 已收录数据源列表
 3. **任务清单 README**（`tasks/README.md`）：总进度 + 分类表
 4. **中国数据源 README**（`tasks/china/README.md`，仅中国数据源）：领域统计
 5. **项目路线图**（`ROADMAP.md`）：总进度 + 类别表格 + 里程碑进度

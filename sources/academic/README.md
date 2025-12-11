@@ -55,6 +55,16 @@ academic/
   - 更新频率: 年度
   - 特色: 顶层收入份额、财富集中度、性别不平等、World Inequality Report数据来源
 
+### 健康医学 Health & Medicine
+
+#### PubMed
+- **[pubmed.json](health/pubmed.json)** - PubMed生物医学文献数据库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 文献引用、摘要、全文链接、API
+  - 涵盖: 全球范围，3900万+引用文献，1946-2025年
+  - 更新频率: 每日
+  - 特色: MEDLINE索引、MeSH主题词、PMC全文、E-utilities API、免费访问
+
 ## 数据源特点 Data Source Features
 
 - **顶级学术权威**: 收录世界顶尖研究机构和大学的数据源
@@ -91,5 +101,5 @@ academic/
 
 ---
 
-**总进度 Overall Progress**: 4/50+ 已完成 (8%)
+**总进度 Overall Progress**: 5/50+ 已完成 (10%)
 **最近更新 Last Updated**: 2025-12-11
