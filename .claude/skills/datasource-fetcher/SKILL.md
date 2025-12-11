@@ -1,6 +1,6 @@
 ---
 name: datasource-fetcher
-description: 数据源获取专用skill。专注于从网站提取数据源信息、生成JSON、验证数据，不涉及文档更新和Git操作。设计用于在隔离环境中执行，生成的JSON文件可被外部脚本收集。
+description: Extract datasource information from websites and generate validated JSON files (steps 1-6 only). Designed for isolated execution in temporary directories - focuses purely on data acquisition and validation without touching documentation or Git. Supports upsert semantics and outputs standardized JSON reports. Use for batch processing where each datasource runs in isolation, or for standalone data fetching.
 ---
 
 # 数据源获取器 (Datasource Fetcher)

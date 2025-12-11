@@ -1,6 +1,6 @@
 ---
 name: datasource-publisher
-description: 数据源发布管理。检测sources目录变化、更新所有相关文档（README、tasks、sources目录README）、生成索引、提交Git。
+description: Detect changes in sources directory and publish updates across all documentation (steps 7-10). Updates 13 files including core progress docs (README.md, tasks/README.md, ROADMAP.md), category READMEs (sources/*/README.md), and task checklists (tasks/*.md). Generates indexes and commits to Git. Use after datasource-fetcher completes, or independently when sources directory has manual updates.
 ---
 
 # 数据源发布管理器
@@ -130,7 +130,7 @@ git commit -m "feat: 添加{name}数据源 ({id})
 # 批量
 git commit -m "feat: 批量添加{领域}数据源 ({count}个)"
 
-git push origin {branch}
+git push origin feat/batch_file_isolated
 ```
 
 ---
