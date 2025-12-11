@@ -5,9 +5,9 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-18%2F950+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-2%25-yellow.svg)](ROADMAP.md)
-[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.9%2F5.0-brightgreen.svg)](#)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-26%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-3%25-yellow.svg)](ROADMAP.md)
+[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-5.0%2F5.0-brightgreen.svg)](#)
 
 ---
 
@@ -103,13 +103,13 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 18 / 950+ | 2% |
-| **国际组织** | 7 / 100+ | 7% |
+| **总数据源** | 26 / 950+ | 3% |
+| **国际组织** | 12 / 100+ | 12% |
 | **各国官方** | 2 / 200+ | 1% |
 | **中国数据源** | 7 / 488 | 1% |
-| **学术研究** | 1 / 50+ | 2% |
+| **学术研究** | 4 / 50+ | 8% |
 | **行业领域** | 1 / 150+ | 1% |
-| **平均权威性** | ⭐⭐⭐⭐⭐ (4.9/5.0) | - |
+| **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
 
 📋 **详细任务规划**: [tasks/README.md](tasks/README.md)
@@ -117,7 +117,7 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (7个)
+#### 🌍 国际组织 (12个)
 - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
@@ -125,6 +125,11 @@ datasource/
 - ✅ 国际能源署 (IEA) - 权威性 5.0 💎
 - ✅ 世界知识产权组织 (WIPO) - 权威性 5.0 💎
 - ✅ 亚洲开发银行 (ADB) - 权威性 5.0 💎
+- ✅ 国际清算银行 (BIS) - 权威性 5.0 💎
+- ✅ 联合国粮农组织 (FAOSTAT) - 权威性 5.0 💎
+- ✅ OECD国际学生评估项目 (PISA) - 权威性 5.0 💎
+- ✅ 非洲开发银行 (AfDB) - 权威性 5.0 💎
+- ✅ NASA地球数据 (NASA Earthdata) - 权威性 5.0 💎
 
 #### 🇨🇳 中国数据源 (7个)
 - ✅ 国家统计局 (NBS) - 权威性 5.0 💎
@@ -135,7 +140,13 @@ datasource/
 - ✅ 商务部 (MOFCOM) - 权威性 4.8 ⭐
 - ✅ 发改委 (NDRC) - 权威性 4.6 ⭐
 
-📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
+#### 🎓 学术研究 (4个)
+- ✅ 国家经济研究局 (NBER) - 权威性 5.0 💎
+- ✅ 宾州世界表 (Penn World Table) - 权威性 5.0 💎
+- ✅ 格罗宁根增长与发展中心数据库 (GGDC) - 权威性 5.0 💎
+- ✅ 世界不平等数据库 (World Inequality Database) - 权威性 5.0 💎
+
+📄 **详细信息**: [sources/README.md](sources/)
 
 #### 🌎 各国官方 (1个)
 - ✅ 加拿大统计局 (Statistics Canada) - 权威性 5.0 💎

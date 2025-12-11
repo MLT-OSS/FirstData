@@ -31,6 +31,30 @@ academic/
   - 更新频率: 每周
   - 特色: 43位诺贝尔经济学奖获得者，1,800+附属经济学家
 
+#### Penn World Table
+- **[penn-world-table.json](economics/penn-world-table.json)** - 宾州世界表
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 跨国比较数据、经济增长、生产率
+  - 涵盖: 185个国家，1950-2023年，50+经济指标
+  - 更新频率: 年度
+  - 特色: GDP、PPP、资本存量、全要素生产率、人力资本
+
+#### GGDC Databases
+- **[ggdc-databases.json](economics/ggdc-databases.json)** - 格罗宁根增长与发展中心数据库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 生产率、全球价值链、历史发展、结构变化
+  - 涵盖: 200+国家，1870-2023年，200+指标
+  - 更新频率: 年度
+  - 特色: Penn World Table、EU KLEMS、WIOD、Maddison Project等多个数据库
+
+#### World Inequality Database
+- **[world-inequality-database.json](economics/world-inequality-database.json)** - 世界不平等数据库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 收入分配、财富不平等、社会不平等
+  - 涵盖: 70+国家，1900-2024年，100+不平等指标
+  - 更新频率: 年度
+  - 特色: 顶层收入份额、财富集中度、性别不平等、World Inequality Report数据来源
+
 ## 数据源特点 Data Source Features
 
 - **顶级学术权威**: 收录世界顶尖研究机构和大学的数据源
@@ -67,5 +91,5 @@ academic/
 
 ---
 
-**总进度 Overall Progress**: 5/50+ 已完成 (10%)
-**最近更新 Last Updated**: 2025-12-05
+**总进度 Overall Progress**: 4/50+ 已完成 (8%)
+**最近更新 Last Updated**: 2025-12-11
