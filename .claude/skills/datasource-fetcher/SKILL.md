@@ -1,6 +1,6 @@
 ---
 name: datasource-fetcher
-description: Extract datasource information from websites and generate validated JSON files (steps 1-6 only). Designed for isolated execution in temporary directories - focuses purely on data acquisition and validation without touching documentation or Git. Supports upsert semantics and outputs standardized JSON reports. Use for batch processing where each datasource runs in isolation, or for standalone data fetching.
+description: Extract datasource information from websites and generate validated JSON files (steps 1-6 only). Designed for isolated execution in temporary directories - focuses purely on data acquisition and validation without touching documentation or Git. Uses direct overwrite mode (no merging with existing files) and outputs standardized JSON reports. Use for batch processing where each datasource runs in isolation, or for standalone data fetching.
 ---
 
 # 数据源获取器 (Datasource Fetcher)
@@ -132,19 +132,19 @@ description: Extract datasource information from websites and generate validated
 - 其他国家 → `sources/countries/{continent}/{country}/`
 - 行业部门 → `sources/sectors/{industry}/`
 
-#### Upsert 操作
+#### 保存操作
 
-**自动检测逻辑**：使用生成的 `id` 字段在 `sources/` 目录中搜索现有文件：
+**直接覆盖模式**：
 
-- **未找到** → **创建新文件**
-- **找到** → **更新文件**（智能合并 + 备份）
+- 根据分类路径直接保存JSON文件
+- 如果文件已存在，直接覆盖（不进行合并或备份）
+- 文件命名：`{分类路径}/{数据源名称}.json`
 
-**更新操作要点**:
-1. 创建备份：`{文件名}.backup`
-2. 智能合并字段
-3. 验证后保存
-4. 删除备份
-5. 报告变更
+**操作步骤**:
+1. 确定保存路径（使用上述分类逻辑）
+2. 创建必要的目录结构
+3. 直接写入JSON文件（覆盖已有文件）
+4. 报告保存位置
 
 ---
 
@@ -152,10 +152,12 @@ description: Extract datasource information from websites and generate validated
 
 **🔴 重要：以下三项验证必须全部执行，不可跳过任何一项！**
 
+**⚠️ 验证脚本位置**：使用当前工作目录中的 `scripts/` 目录
+
 #### 6.1 Schema 验证 ✅ 必须
 
 ```bash
-python scripts/validate.py sources/path/to/file.json --schema reference/datasource-schema.json
+python scripts/validate.py sources/path/to/file.json --schema .claude/skills/datasource-fetcher/reference/datasource-schema.json
 ```
 **必须通过**：JSON 格式符合 datasource-schema.json 标准
 
@@ -178,6 +180,8 @@ python scripts/check_completeness.py sources/path/to/file.json
 - 必需字段: 100%
 - 推荐字段: ≥80%
 - 总体完成度: ≥70%
+
+**说明**：所有验证脚本位于当前工作目录的 `scripts/` 目录，由批处理脚本自动复制到临时工作目录。
 
 ---
 
@@ -240,29 +244,6 @@ python scripts/check_completeness.py sources/path/to/file.json
    - ❌ 不提交Git
    - ❌ 不生成索引
    - ✅ 只生成和验证JSON文件
-
----
-
-## 使用场景
-
-### 场景1: 独立使用（单个数据源）
-```
-用户: 请使用 datasource-fetcher 获取 World Bank 数据源
-```
-
-### 场景2: 批处理（临时目录）
-```bash
-# 批处理脚本调用
-work_dir=$(mktemp -d)
-cd "$work_dir"
-claude -p "使用 datasource-fetcher 获取: ${datasource}"
-# 收集生成的JSON文件
-```
-
-### 场景3: 更新已有数据源
-```
-用户: 请使用 datasource-fetcher 更新 IMF 数据源信息
-```
 
 ---
 

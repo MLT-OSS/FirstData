@@ -153,38 +153,6 @@ git push origin feat/batch_file_isolated
 
 ---
 
-## 使用场景
-
-### 批量处理模式（推荐）
-
-```bash
-# 阶段1: 使用datasource-fetcher批量获取
-for ds in list; do
-    # 在临时目录获取 → 复制JSON回主目录
-done
-
-# 阶段2: 使用publisher统一发布
-claude -p "datasource-publisher: 发布所有更改
-
-检测到新增数据源：
-- World Bank
-- IMF
-- OECD
-
-请更新所有相关文档并提交Git"
-```
-
-### 单个数据源模式
-
-```bash
-claude -p "datasource-publisher: 发布单个数据源
-
-数据源：World Bank (intl-worldbank)
-路径：sources/international/economics/worldbank.json"
-```
-
----
-
 ## 关键原则
 
 ✅ **全面更新**：

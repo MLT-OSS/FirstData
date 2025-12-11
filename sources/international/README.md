@@ -22,7 +22,9 @@ international/
 ├── development/            # 发展 | Development
 ├── development-finance/    # 发展金融 | Development Finance
 ├── earth-science/          # 地球科学 | Earth Science
-└── intellectual-property/  # 知识产权 | Intellectual Property
+├── intellectual-property/  # 知识产权 | Intellectual Property
+├── biology/                # 生物学 | Biology
+└── chemistry/              # 化学 | Chemistry
 ```
 
 ## 已收录数据源 | Included Sources
@@ -149,11 +151,27 @@ international/
    - 访问类型：开放（需注册）
    - [查看详情](earth-science/nasa-earthdata.json)
 
+### 生物学 | Biology
+
+1. **Protein Data Bank (PDB)** (`intl-rcsb-pdb`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：PDB, mmCIF, PDBML, FASTA, XML, JSON
+   - 访问类型：开放
+   - [查看详情](biology/pdb.json)
+
+### 化学 | Chemistry
+
+1. **PubChem** (`pubchem`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：SDF, CSV, XML, JSON, ASNT, ASNB, PNG, RDF
+   - 访问类型：开放
+   - [查看详情](chemistry/pubchem.json)
+
 ## 统计信息 | Statistics
 
-- **已收录**: 17
+- **已收录**: 20
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、金融、发展金融、地球科学
+- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、金融、发展金融、地球科学、生物学、化学
 
 ## 分类标准 | Classification Criteria
 

@@ -81,6 +81,40 @@ academic/
   - 更新频率: 不定期（每国约5年一次）
   - 特色: USAID资助、家庭调查、母婴健康、艾滋病、营养数据、需注册访问
 
+#### Global Health Data Exchange (GHDx)
+- **[ghdx.json](health/ghdx.json)** - 全球健康数据交换平台
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 全球疾病负担、健康指标、时间序列、API
+  - 涵盖: 204个国家，1950-2025年，1万+健康指标
+  - 更新频率: 不定期（GBD研究更新）
+  - 特色: IHME维护、GBD数据、死亡率、疾病负担、健康融资、风险因素
+
+#### The Cancer Genome Atlas (TCGA)
+- **[tcga.json](health/tcga.json)** - 癌症基因组图谱
+  - 权威性: ⭐⭐⭐⭐⭐ (4.6/5.0)
+  - 类型: 基因组数据、癌症研究、横截面、API
+  - 涵盖: 美国，2万+样本，33种癌症类型，2006-2018年
+  - 更新频率: 一次性（项目已完成）
+  - 特色: NCI/NHGRI、全基因组测序、RNA-seq、甲基化、蛋白质组、GDC平台
+
+#### UK Biobank
+- **[uk-biobank.json](health/uk-biobank.json)** - 英国生物样本库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 队列研究、多模态数据、纵向、API
+  - 涵盖: 英国，50万参与者，1万+指标，2006-2025年
+  - 更新频率: 不定期（持续随访）
+  - 特色: 全基因组测序、影像数据、生物标志物、医疗记录、需申请访问
+
+### 生命科学 Life Sciences & Biology
+
+#### GenBank
+- **[genbank.json](biology/genbank.json)** - 基因库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 基因序列、DNA数据库、API
+  - 涵盖: 全球所有生物，1982-2025年
+  - 更新频率: 每日
+  - 特色: NCBI维护、INSDC成员、E-utilities API、所有公开DNA序列、免费访问
+
 ## 数据源特点 Data Source Features
 
 - **顶级学术权威**: 收录世界顶尖研究机构和大学的数据源
@@ -117,5 +151,5 @@ academic/
 
 ---
 
-**总进度 Overall Progress**: 7/50+ 已完成 (14%)
+**总进度 Overall Progress**: 11/50+ 已完成 (22%)
 **最近更新 Last Updated**: 2025-12-11

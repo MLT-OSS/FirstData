@@ -5,7 +5,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-35%2F950+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-41%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-4%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.7%2F5.0-brightgreen.svg)](#)
 
@@ -103,11 +103,11 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 35 / 950+ | 4% |
-| **国际组织** | 18 / 100+ | 18% |
+| **总数据源** | 41 / 950+ | 4% |
+| **国际组织** | 20 / 100+ | 20% |
 | **各国官方** | 2 / 200+ | 1% |
 | **中国数据源** | 7 / 488 | 1% |
-| **学术研究** | 7 / 50+ | 14% |
+| **学术研究** | 11 / 50+ | 22% |
 | **行业领域** | 1 / 150+ | 1% |
 | **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
