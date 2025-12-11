@@ -65,6 +65,14 @@ academic/
   - 更新频率: 每日
   - 特色: MEDLINE索引、MeSH主题词、PMC全文、E-utilities API、免费访问
 
+#### ClinicalTrials.gov
+- **[clinicaltrials-gov.json](health/clinicaltrials-gov.json)** - 临床试验注册数据库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 临床试验注册、研究设计、结果数据、API
+  - 涵盖: 全球220个国家，40万+临床试验，2000-2025年
+  - 更新频率: 每日
+  - 特色: NCT编号、患者招募、试验方案、API v2.0、免费访问
+
 ## 数据源特点 Data Source Features
 
 - **顶级学术权威**: 收录世界顶尖研究机构和大学的数据源
@@ -101,5 +109,5 @@ academic/
 
 ---
 
-**总进度 Overall Progress**: 5/50+ 已完成 (10%)
+**总进度 Overall Progress**: 6/50+ 已完成 (12%)
 **最近更新 Last Updated**: 2025-12-11
