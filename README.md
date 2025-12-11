@@ -5,8 +5,8 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-44%2F950+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-5%25-yellow.svg)](ROADMAP.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-104%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-11%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.8%2F5.0-brightgreen.svg)](#)
 
 ---
@@ -103,12 +103,12 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 44 / 950+ | 5% |
-| **国际组织** | 21 / 100+ | 21% |
-| **各国官方** | 4 / 200+ | 2% |
+| **总数据源** | 104 / 950+ | 11% |
+| **国际组织** | 36 / 100+ | 36% |
+| **各国官方** | 24 / 200+ | 12% |
 | **中国数据源** | 7 / 488 | 1% |
-| **学术研究** | 11 / 50+ | 22% |
-| **行业领域** | 1 / 150+ | 1% |
+| **学术研究** | 19 / 50+ | 38% |
+| **行业领域** | 18 / 150+ | 12% |
 | **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
 
@@ -117,7 +117,7 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (21个)
+#### 🌍 国际组织 (36个)
 - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
@@ -151,7 +151,7 @@ datasource/
   
 📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
 
-#### 🌎 各国官方 (4个)
+#### 🌎 各国官方 (24个)
 - ✅ 加拿大统计局 (Statistics Canada) - 权威性 5.0 💎
 - ✅ 美国人口普查局 (US Census Bureau) - 权威性 5.0 💎
 - ✅ NOAA气候数据在线系统 (NOAA Climate Data Online) - 权威性 4.8 ⭐
@@ -159,7 +159,7 @@ datasource/
 
 📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
 
-#### 🎓 学术研究 (7个)
+#### 🎓 学术研究 (19个)
 - ✅ 国家经济研究局 (NBER) - 权威性 5.0 💎
 - ✅ 宾州世界表 (Penn World Table) - 权威性 5.0 💎
 - ✅ 格罗宁根增长与发展中心数据库 (GGDC) - 权威性 5.0 💎
@@ -170,7 +170,7 @@ datasource/
 
 📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 行业领域 (1个)
+#### 🏭 行业领域 (18个)
 - ✅ ImageNet - 权威性 4.7 ⭐
 
 📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)

@@ -22,8 +22,46 @@ description: Extract datasource information from websites and generate validated
 
 #### 步骤 1：识别输入类型
 
-- 如果输入以 `http://` 或 `https://` 开头 → **URL 输入**，直接使用
-- 否则 → **名字输入**，使用 WebSearch 搜索官方网站，用 AskUserQuestion 确认 URL
+智能识别三种输入格式：
+
+**格式 1：URL 输入**
+- 输入以 `http://` 或 `https://` 开头
+- 示例: `https://www.worldbank.org`
+- 处理: 直接使用该 URL
+
+**格式 2：带类别的数据源名字**
+- 输入包含 `|` 分隔符
+- 格式: `数据源名称 | main_category/sub_category | 中文类别`
+- 示例: `WHO Global Health Observatory | international/health | 国际组织/健康`
+- 处理:
+  - 解析出数据源名称: `WHO Global Health Observatory`
+  - 解析出类别路径: `international/health`
+  - 使用 WebSearch 搜索数据源官方网站，用 AskUserQuestion 确认 URL
+  - 保存路径直接使用解析出的类别路径
+
+**格式 3：纯数据源名字**
+- 输入不含 `http://`、`https://` 或 `|`
+- 示例: `World Bank`
+- 处理:
+  - 使用 WebSearch 搜索官方网站，用 AskUserQuestion 确认 URL
+  - 分类路径需要通过后续的分类逻辑确定（见步骤 5）
+
+**识别伪代码**：
+```python
+if input.startswith(('http://', 'https://')):
+    input_type = "url"
+    url = input
+elif '|' in input:
+    input_type = "name_with_category"
+    parts = input.split('|')
+    datasource_name = parts[0].strip()
+    category_path = parts[1].strip()  # "main_cat/sub_cat"
+    # WebSearch datasource_name
+else:
+    input_type = "name_only"
+    datasource_name = input.strip()
+    # WebSearch datasource_name
+```
 
 #### 步骤 2：采用两层降级策略
 
@@ -113,9 +151,41 @@ description: Extract datasource information from websites and generate validated
 
 #### 确定保存路径
 
-**使用 datasource-classifier Sub-Agent**（如果可用）:
+**优先级1：使用输入中的类别信息**（推荐）
 
-调用 `@datasource-classifier` 确定最佳分类路径:
+如果用户输入包含类别信息（格式：`数据源名称 | main_category/sub_category | 中文类别`），直接解析并使用：
+
+```python
+# 输入示例：
+# "WHO Global Health Observatory | international/health | 国际组织/健康"
+
+# 解析逻辑：
+if '|' in input_line:
+    parts = input_line.split('|')
+    datasource_name = parts[0].strip()
+    category_path = parts[1].strip()  # 如: "international/health"
+
+    # 分解路径
+    main_cat, sub_cat = category_path.split('/')
+
+    # 构建完整路径
+    file_path = f"sources/{main_cat}/{sub_cat}/{datasource_id}.json"
+```
+
+**类别路径映射表**：
+
+| 主类别 | 子类别示例 | 完整路径示例 |
+|-------|----------|-------------|
+| international | health, economics, trade, energy, environment | `sources/international/{sub_cat}/` |
+| countries | north-america, europe, asia, oceania, south-america, africa | `sources/countries/{sub_cat}/` |
+| academic | economics, health, environment, social, biology, physics_chemistry | `sources/academic/{sub_cat}/` |
+| sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `sources/sectors/{sub_cat}/` |
+| china | national, finance, economy, etc. | `sources/china/{sub_cat}/` |
+
+**优先级2：使用 datasource-classifier Sub-Agent**
+
+如果输入不包含类别信息且可用classifier，调用 `@datasource-classifier`：
+
 ```
 @datasource-classifier
 请分析此数据源并确定分类路径:
@@ -125,7 +195,8 @@ description: Extract datasource information from websites and generate validated
 - 领域: {coverage.domains}
 ```
 
-**快速参考**（无法使用 classifier 时）:
+**优先级3：快速参考**（无法使用前两种方法时）
+
 - 中国官方 → `sources/china/{domain}/{subdomain}/`
 - 国际组织 → `sources/international/{domain}/`
 - 学术机构 → `sources/academic/{domain}/`

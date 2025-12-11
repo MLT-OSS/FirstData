@@ -17,7 +17,7 @@ set -euo pipefail
 # 配置
 # ============================================================================
 
-DATASOURCE_FILE="batch-datasources.txt"
+DATASOURCE_FILE="batch-datasource.txt"
 OUTPUT_FILE="batch-run-results.md"
 LOG_DIR="batch-logs"
 TEMP_DIR="batch-temp"

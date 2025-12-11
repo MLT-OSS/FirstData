@@ -1,0 +1,183 @@
+{
+  "id": "boj-statistics",
+  "name": {
+    "en": "Bank of Japan Statistics",
+    "zh": "日本银行统计数据",
+    "native": "日本銀行統計"
+  },
+  "organization": {
+    "name": "Bank of Japan",
+    "type": "national_government",
+    "country": "JP",
+    "website": "https://www.boj.or.jp/en/"
+  },
+  "description": {
+    "en": "Comprehensive economic and financial statistics published by the Bank of Japan, including monetary policy data, financial markets, flow of funds, TANKAN surveys, price indices, balance of payments, and banking sector statistics. The BOJ provides authoritative data on Japan's monetary system, banking operations, and economic conditions.",
+    "zh": "日本银行发布的全面经济和金融统计数据，包括货币政策数据、金融市场、资金流动、TANKAN调查、价格指数、国际收支以及银行业统计。日本银行提供关于日本货币体系、银行业务和经济状况的权威数据。"
+  },
+  "access": {
+    "primary_url": "https://www.boj.or.jp/en/statistics/index.htm",
+    "api": {
+      "available": false,
+      "documentation": null,
+      "version": null,
+      "authentication": null
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "Excel", "PDF"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "national",
+      "countries": ["JP"],
+      "regions": []
+    },
+    "temporal": {
+      "start_year": 1950,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "Monetary Policy",
+      "Financial Markets",
+      "Banking",
+      "Flow of Funds",
+      "Economic Surveys",
+      "Prices",
+      "Balance of Payments",
+      "Public Finance",
+      "Payment Systems"
+    ],
+    "indicators": 5000
+  },
+  "data_content": {
+    "en": [
+      "Monetary Base and Bank of Japan Transactions",
+      "Money Stock and Monetary Survey",
+      "Interest Rates on Deposits and Loans",
+      "Financial Markets (Call Money, FX, Securities)",
+      "Payment and Settlement Statistics",
+      "Deposits and Loans Market",
+      "Financial Institutions Accounts and Balance Sheets",
+      "Flow of Funds Accounts",
+      "TANKAN (Short-Term Economic Survey of Enterprises)",
+      "Price Indices (CPI, PPI, CGPI)",
+      "Public Finance Statistics",
+      "Balance of Payments and International Investment Position",
+      "BIS/FSB Related Statistics",
+      "Currency in Circulation",
+      "Historical Time-Series Data"
+    ],
+    "zh": [
+      "货币基数和日本银行交易",
+      "货币存量和货币调查",
+      "存贷款利率",
+      "金融市场（拆借市场、外汇、证券）",
+      "支付结算统计",
+      "存贷款市场",
+      "金融机构账户和资产负债表",
+      "资金流动账户",
+      "TANKAN（企业短期经济观测调查）",
+      "价格指数（CPI、PPI、CGPI）",
+      "公共财政统计",
+      "国际收支和国际投资头寸",
+      "国际清算银行/金融稳定委员会相关统计",
+      "流通货币",
+      "历史时间序列数据"
+    ]
+  },
+  "data_characteristics": {
+    "types": [
+      "statistical",
+      "time-series"
+    ],
+    "granularity": [
+      "national-level",
+      "daily",
+      "monthly",
+      "quarterly",
+      "annual"
+    ],
+    "formats": [
+      "CSV",
+      "Excel",
+      "PDF"
+    ],
+    "languages": [
+      "en",
+      "ja"
+    ]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 5,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Open Government Data - Copyright Bank of Japan",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": [
+      "Attribution to Bank of Japan required",
+      "Not to be used to misrepresent official positions"
+    ]
+  },
+  "metadata": {
+    "standards_followed": [
+      "BPM6 (Balance of Payments Manual 6th Edition)",
+      "SDMX",
+      "ISO 3166",
+      "BIS Standards"
+    ],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Monetary policy analysis",
+      "Financial market research",
+      "Economic forecasting",
+      "Banking sector analysis",
+      "Flow of funds analysis",
+      "International comparison studies",
+      "Academic research on Japanese economy"
+    ],
+    "example_studies": [
+      "Central bank research papers",
+      "IMF Japan reports",
+      "Academic studies on Japanese monetary policy"
+    ]
+  },
+  "contact": {
+    "support_url": "https://www.boj.or.jp/en/about/services/contact.htm"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  },
+  "tags": [
+    "Japan",
+    "central-bank",
+    "monetary-policy",
+    "financial-markets",
+    "banking",
+    "flow-of-funds",
+    "TANKAN",
+    "prices",
+    "balance-of-payments",
+    "economic-statistics",
+    "time-series",
+    "official-statistics"
+  ]
+}

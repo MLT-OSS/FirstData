@@ -27,6 +27,20 @@ git status --porcelain sources/
 
 读取每个JSON文件获取：数据源ID、名称、类别、质量评分等信息。
 
+#### 类别映射规则
+
+根据JSON文件路径确定类别和对应的文档文件：
+
+| JSON 文件路径 | 主类别 README | 任务清单文件 | 示例 |
+|--------------|--------------|------------|------|
+| `sources/international/{sub}/` | `sources/international/README.md` | `tasks/international.md` | international/health |
+| `sources/china/{domain}/` | `sources/china/README.md` | `tasks/china/{domain}.md` | china/finance |
+| `sources/countries/{region}/` | `sources/countries/README.md` | `tasks/countries.md` | countries/asia |
+| `sources/academic/{field}/` | `sources/academic/README.md` | `tasks/academic.md` | academic/economics |
+| `sources/sectors/{industry}/` | `sources/sectors/README.md` | `tasks/sectors.md` | sectors/energy |
+
+**注意**：从JSON文件路径可以直接推断出需要更新哪些文档文件。
+
 ---
 
 ### 2. 更新文档
@@ -130,7 +144,7 @@ git commit -m "feat: 添加{name}数据源 ({id})
 # 批量
 git commit -m "feat: 批量添加{领域}数据源 ({count}个)"
 
-git push origin feat/batch_file_isolated
+git push origin feat/batch_file_isolate
 ```
 
 ---

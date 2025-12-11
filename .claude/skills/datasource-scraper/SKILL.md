@@ -158,9 +158,41 @@ description: Extract or update datasource information from websites and convert 
 
 #### 确定保存路径
 
-**使用 datasource-classifier Sub-Agent**:
+**优先级1：使用输入中的类别信息**（推荐）
 
-在保存前,调用 `@datasource-classifier` 确定最佳分类路径:
+如果用户输入包含类别信息（格式：`数据源名称 | main_category/sub_category | 中文类别`），直接解析并使用：
+
+```python
+# 输入示例：
+# "WHO Global Health Observatory | international/health | 国际组织/健康"
+
+# 解析逻辑：
+if '|' in input_line:
+    parts = input_line.split('|')
+    datasource_name = parts[0].strip()
+    category_path = parts[1].strip()  # 如: "international/health"
+
+    # 分解路径
+    main_cat, sub_cat = category_path.split('/')
+
+    # 构建完整路径
+    file_path = f"sources/{main_cat}/{sub_cat}/{datasource_id}.json"
+```
+
+**类别路径映射表**：
+
+| 主类别 | 子类别示例 | 完整路径示例 |
+|-------|----------|-------------|
+| international | health, economics, trade, energy, environment | `sources/international/{sub_cat}/` |
+| countries | north-america, europe, asia, oceania, south-america, africa | `sources/countries/{sub_cat}/` |
+| academic | economics, health, environment, social, biology, physics_chemistry | `sources/academic/{sub_cat}/` |
+| sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `sources/sectors/{sub_cat}/` |
+| china | national, finance, economy, etc. | `sources/china/{sub_cat}/` |
+
+**优先级2：使用 datasource-classifier Sub-Agent**
+
+如果输入不包含类别信息，调用 `@datasource-classifier` 确定分类路径：
+
 ```
 @datasource-classifier
 请分析此数据源并确定分类路径:
@@ -169,9 +201,11 @@ description: Extract or update datasource information from websites and convert 
 - 国家: {organization.country}
 - 领域: {coverage.domains}
 ```
+
 datasource-classifier 会返回推荐路径、分类理由和替代方案。
 
-**快速参考**（无法使用 classifier 时）:
+**优先级3：快速参考**（无法使用前两种方法时）
+
 - 中国官方 → `sources/china/{domain}/{subdomain}/`
 - 国际组织 → `sources/international/{domain}/`
 - 学术机构 → `sources/academic/{domain}/`
