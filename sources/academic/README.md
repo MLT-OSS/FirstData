@@ -73,6 +73,14 @@ academic/
   - 更新频率: 每日
   - 特色: NCT编号、患者招募、试验方案、API v2.0、免费访问
 
+#### Demographic and Health Surveys (DHS)
+- **[dhs.json](health/dhs.json)** - 人口与健康调查项目
+  - 权威性: ⭐⭐⭐⭐⭐ (4.8/5.0)
+  - 类型: 人口统计、健康调查、横截面数据、API
+  - 涵盖: 90个发展中国家，400+调查，1984-2025年
+  - 更新频率: 不定期（每国约5年一次）
+  - 特色: USAID资助、家庭调查、母婴健康、艾滋病、营养数据、需注册访问
+
 ## 数据源特点 Data Source Features
 
 - **顶级学术权威**: 收录世界顶尖研究机构和大学的数据源
@@ -109,5 +117,5 @@ academic/
 
 ---
 
-**总进度 Overall Progress**: 6/50+ 已完成 (12%)
+**总进度 Overall Progress**: 7/50+ 已完成 (14%)
 **最近更新 Last Updated**: 2025-12-11
