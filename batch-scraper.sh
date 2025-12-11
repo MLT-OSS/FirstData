@@ -67,7 +67,7 @@ while IFS= read -r datasource || [ -n "$datasource" ]; do
     log_file="$LOG_DIR/$(echo "$datasource" | tr ' /' '_').log"
 
     # 执行命令（使用独立的 bash 子进程确保每次都是新的 Claude 会话）
-    if bash -c "claude -p --verbose --permission-mode bypassPermissions --model sonnet '为我获取数据源：${datasource}，注意严格按照skill中的流程运行'" 2>&1 | tee "$log_file" | tee -a "$OUTPUT_FILE"; then
+    if bash -c "claude -p --verbose --permission-mode bypassPermissions --model sonnet '为我获取数据源：${datasource}，注意严格按照datasource-scraper中的流程运行'" 2>&1 | tee "$log_file" | tee -a "$OUTPUT_FILE"; then
         success=$((success + 1))
         status="✅ 成功"
         echo ""

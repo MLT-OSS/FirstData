@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data Sources](https://img.shields.io/badge/Data%20Sources-35%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-4%25-yellow.svg)](ROADMAP.md)
-[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-5.0%2F5.0-brightgreen.svg)](#)
+[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.7%2F5.0-brightgreen.svg)](#)
 
 ---
 
@@ -365,7 +365,7 @@ for json_file in Path('sources').rglob('*.json'):
 | **总体进度** | 35 / 950+ (4%) |
 | **完成度** | 国际组织 18%、中国 1%、学术 14% |
 | **最近更新** | 2025-12-11 |
-| **质量评分** | ⭐⭐⭐⭐⭐ (5.0/5.0) |
+| **质量评分** | ⭐⭐⭐⭐⭐ (4.7/5.0) |
 
 📊 **详细状态**: [PROJECT_STATUS.md](PROJECT_STATUS.md)
 🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md)

@@ -49,8 +49,6 @@ description: Extract or update datasource information from websites and convert 
 - 如果输入以 `http://` 或 `https://` 开头 → **URL 输入**，直接使用
 - 否则 → **名字输入**，使用 WebSearch 搜索官方网站，用 AskUserQuestion 确认 URL
 
-<!-- **详细流程**：参见 [workflow-examples.md](reference/workflow-examples.md) -->
-
 #### 步骤 2：采用两层降级策略
 
 ##### 第一层：Web Search / WebFetch（主要策略）
@@ -72,8 +70,6 @@ description: Extract or update datasource information from websites and convert 
 - 需要登录或认证才能查看内容
 - 关键信息在交互式元素中（下拉菜单、折叠面板、Tab）
 - 用户明确要求使用浏览器
-
-<!-- **详细操作流程**: 见 [data-acquisition.md](reference/data-acquisition.md) -->
 
 **降级策略**:
 ```
@@ -181,8 +177,6 @@ datasource-classifier 会返回推荐路径、分类理由和替代方案。
 - 学术机构 → `sources/academic/{domain}/`
 - 其他国家 → `sources/countries/{continent}/{country}/`
 
-<!-- **详细分类规则**: 见 `.claude/agents/datasource-classifier.md` 或 [upsert-workflow.md](reference/upsert-workflow.md) -->
-
 ---
 
 ### 6. 验证 ⚠️ 必须执行所有三项验证
@@ -224,8 +218,6 @@ python scripts/check_completeness.py sources/path/to/file.json
 
 ---
 
-<!-- **详细验证指南**: 见 [validation-guide.md](reference/validation-guide.md) -->
-
 ⚠️ **验证检查点**：只有三项验证全部完成后，才能进入下一步
 
 ---
@@ -245,6 +237,54 @@ python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 ---
 
 ### 8. 更新文档
+
+#### 🚀 自动化脚本（推荐优先使用）
+
+**第一步：运行自动化脚本更新所有进度统计**
+
+在手动更新8.1和8.2之前，先运行自动化脚本更新所有进度统计数字：
+
+```bash
+# 自动更新所有进度统计文件（8.3 步骤）
+python .claude/skills/datasource-scraper/scripts/update_all_docs.py
+
+# 先预览变更，不实际修改（推荐先运行）
+python .claude/skills/datasource-scraper/scripts/update_all_docs.py --dry-run
+
+# 查看详细执行信息
+python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
+```
+
+**脚本自动完成的任务（8.3 进度统计）：**
+
+✅ **README.md** 更新：
+- 徽章数字（Data Sources, Progress, Quality Rating）
+- 总体统计表格（5个分类的当前数/进度）
+- 已完成数据源列表的数量标题
+- 项目状态表格（总进度、完成度、更新日期、质量评分）
+
+✅ **tasks/README.md** 更新：
+- 顶部总进度信息
+- 按类别浏览表格（5个分类的完成数/进度）
+
+✅ **ROADMAP.md** 更新：
+- 顶部总进度信息
+- 进度条可视化
+- 总体进度概览表格（5个分类的完成数/进度）
+
+**仍需手动完成的任务：**
+- ⚠️ 8.1: 一级目录 README 数据源条目添加
+- ⚠️ 8.2: 任务清单状态标记更新（📋 → ✅）
+- ⚠️ 8.3.2: sources/{category}/README.md 数据源列表更新
+- ⚠️ 8.3.4: tasks/china/README.md 领域统计更新（仅中国数据源）
+
+**执行顺序建议：**
+1. ✅ 运行自动化脚本（更新所有进度统计）
+2. 📝 手动完成8.1（添加数据源条目）
+3. 📝 手动完成8.2（标记任务状态）
+4. 📝 如有需要，手动补充8.3.2和8.3.4
+
+---
 
 #### 8.1 更新一级目录 README
 
@@ -322,8 +362,6 @@ python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 - [ ] 命名规范（使用 datasource ID）
 - [ ] 无 TODO 占位符
 
-<!-- **详细检查清单**: 见 [git-workflow.md](reference/git-workflow.md) -->
-
 ---
 
 ### 10. 自动推送到 Git
@@ -349,8 +387,6 @@ git push origin feat/auto-push-git
 - 新增数据源：`feat: 添加{name} ({id})`
 - 更新数据源：`update: 更新{name} ({id})`
 - 批量操作：`feat: 批量添加{领域}数据源 ({count}个)`
-
-<!-- **详细 Git 工作流程**: 见 [git-workflow.md](reference/git-workflow.md) -->
 
 ---
 
@@ -403,8 +439,6 @@ git push origin feat/auto-push-git
   - 数组新增: tags, use_cases
   - 备份位置: {filename}.backup
 ```
-
-<!-- **详细报告格式**: 见 [reporting-format.md](reference/reporting-format.md) -->
 
 ---
 
