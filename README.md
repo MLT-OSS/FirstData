@@ -5,8 +5,8 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-32%2F950+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-3%25-yellow.svg)](ROADMAP.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-35%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-4%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-5.0%2F5.0-brightgreen.svg)](#)
 
 ---
@@ -103,11 +103,11 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 28 / 950+ | 3% |
-| **国际组织** | 14 / 100+ | 14% |
+| **总数据源** | 35 / 950+ | 4% |
+| **国际组织** | 18 / 100+ | 18% |
 | **各国官方** | 2 / 200+ | 1% |
 | **中国数据源** | 7 / 488 | 1% |
-| **学术研究** | 4 / 50+ | 8% |
+| **学术研究** | 7 / 50+ | 14% |
 | **行业领域** | 1 / 150+ | 1% |
 | **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
@@ -117,7 +117,7 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (14个)
+#### 🌍 国际组织 (18个)
 - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
@@ -127,10 +127,15 @@ datasource/
 - ✅ 亚洲开发银行 (ADB) - 权威性 5.0 💎
 - ✅ 非洲开发银行 (AfDB) - 权威性 4.5 💎
 - ✅ 美洲开发银行 (IDB) - 权威性 4.5 💎
+- ✅ 欧洲复兴开发银行 (EBRD) - 权威性 5.0 💎
 - ✅ 国际清算银行 (BIS) - 权威性 5.0 💎
+- ✅ 巴黎俱乐部 (Paris Club) - 权威性 5.0 💎
 - ✅ 联合国粮农组织 (FAOSTAT) - 权威性 5.0 💎
+- ✅ 联合国国际贸易统计数据库 (UN Comtrade) - 权威性 5.0 💎
+- ✅ 联合国贸易和发展会议 (UNCTAD) - 权威性 5.0 💎
 - ✅ OECD国际学生评估项目 (PISA) - 权威性 5.0 💎
 - ✅ NASA地球数据 (NASA Earthdata) - 权威性 5.0 💎
+- ✅ 非洲开发银行统计数据 (AfDB Statistics) - 权威性 4.5 💎
 
 📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
 
@@ -151,17 +156,19 @@ datasource/
 
 📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
 
-#### 🎓 学术研究 (4个)
+#### 🎓 学术研究 (7个)
 - ✅ 国家经济研究局 (NBER) - 权威性 5.0 💎
 - ✅ 宾州世界表 (Penn World Table) - 权威性 5.0 💎
 - ✅ 格罗宁根增长与发展中心数据库 (GGDC) - 权威性 5.0 💎
 - ✅ 世界不平等数据库 (World Inequality Database) - 权威性 5.0 💎
+- ✅ PubMed生物医学文献数据库 (PubMed) - 权威性 5.0 💎
+- ✅ 临床试验注册数据库 (ClinicalTrials.gov) - 权威性 5.0 💎
+- ✅ 人口与健康调查项目 (DHS Program) - 权威性 5.0 💎
 
 📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 行业领域 (2个)
+#### 🏭 行业领域 (1个)
 - ✅ ImageNet - 权威性 4.7 ⭐
-- ✅ WIPO IP Statistics - 权威性 5.0 💎
 
 📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
 
@@ -355,10 +362,10 @@ for json_file in Path('sources').rglob('*.json'):
 | 指标 | 状态 |
 |------|------|
 | **当前里程碑** | M0 完成 ✅ / M1 进行中 🚧 |
-| **总体进度** | 10 / 950+ (1%) |
-| **完成度** | 国际组织 4%、中国 1% |
-| **最近更新** | 2025-12-01 |
-| **质量评分** | ⭐⭐⭐⭐⭐ (4.9/5.0) |
+| **总体进度** | 35 / 950+ (4%) |
+| **完成度** | 国际组织 18%、中国 1%、学术 14% |
+| **最近更新** | 2025-12-11 |
+| **质量评分** | ⭐⭐⭐⭐⭐ (5.0/5.0) |
 
 📊 **详细状态**: [PROJECT_STATUS.md](PROJECT_STATUS.md)
 🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md)
