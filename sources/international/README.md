@@ -20,6 +20,7 @@ international/
 ├── health/           # 健康 | Health
 ├── environment/      # 环境 | Environment
 ├── development/      # 发展 | Development
+├── development-finance/   # 发展金融 | Development Finance
 └── earth-science/    # 地球科学 | Earth Science
 ```
 
@@ -99,6 +100,12 @@ international/
    - 访问类型：开放
    - [查看详情](development-finance/afdb.json)
 
+2. **Inter-American Development Bank** (`idb`) ⭐💎
+   - 权威性：4.5
+   - 数据格式：CSV, XLSX, PDF, dta, Stata
+   - 访问类型：开放
+   - [查看详情](development-finance/idb.json)
+
 ### 发展 | Development
 
 1. **Asian Development Bank Data Library** (`adb-data`) ⭐💎
@@ -117,7 +124,7 @@ international/
 
 ## 统计信息 | Statistics
 
-- **已收录**: 12
+- **已收录**: 13
 - **计划收录**: 20+
 - **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、发展金融、地球科学
 
