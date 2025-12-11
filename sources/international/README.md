@@ -67,6 +67,12 @@ international/
    - 访问类型：开放
    - [查看详情](trade/unctad.json)
 
+3. **UN Comtrade - United Nations International Trade Statistics Database** (`un-comtrade`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：CSV, JSON, API
+   - 访问类型：开放
+   - [查看详情](trade/comtrade.json)
+
 ### 能源 | Energy
 
 1. **IEA Energy Data** (`iea-energy-data`) ⭐💎
@@ -139,7 +145,7 @@ international/
 
 ## 统计信息 | Statistics
 
-- **已收录**: 15
+- **已收录**: 16
 - **计划收录**: 20+
 - **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、金融、发展金融、地球科学
 
