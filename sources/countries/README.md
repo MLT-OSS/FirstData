@@ -40,9 +40,9 @@ sources/countries/
 
 ## 分类标准 | Classification Criteria
 
-各国数据源按以下规则分类：
+各国官方数据源按以下规则分类：
 
-Data sources are classified according to the following rules:
+Official country data sources are classified according to the following rules:
 
 - **路径格式** | Path Format: `sources/countries/{continent}/{country}/{id}.json`
 - **大洲代码** | Continent Code: 使用英文小写大洲名称（如 `north-america`, `europe`, `asia`）

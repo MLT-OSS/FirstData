@@ -17,7 +17,7 @@ Official data sources from Chinese government agencies and organizations.
 
 [查看详情 | View Details →](china/README.md)
 
-### 🌍 国际数据源 | International
+### 🌍 国际组织 | International
 **路径**: `sources/international/`
 
 国际组织和跨国机构发布的全球性数据源。
@@ -26,7 +26,7 @@ Global data sources from international organizations and multinational agencies.
 
 [查看详情 | View Details →](international/README.md)
 
-### 🌎 各国数据源 | Countries
+### 🌎 各国官方 | Countries
 **路径**: `sources/countries/`
 
 各国官方政府机构发布的权威数据源。
@@ -35,7 +35,7 @@ Official data sources from government agencies of various countries.
 
 [查看详情 | View Details →](countries/README.md)
 
-### 🎓 学术数据源 | Academic
+### 🎓 学术研究 | Academic
 **路径**: `sources/academic/`
 
 学术机构和研究组织维护的学术研究数据源。
@@ -44,7 +44,7 @@ Academic research data sources maintained by educational and research institutio
 
 [查看详情 | View Details →](academic/README.md)
 
-### 🏭 行业数据源 | Sectors
+### 🏭 行业领域 | Sectors
 **路径**: `sources/sectors/`
 
 特定行业和专业领域的数据源。
@@ -69,10 +69,10 @@ Data sources from specific industries and professional domains.
 ### 路径格式 | Path Format
 
 - **中国数据源**: `sources/china/{domain}/{subdomain}/{id}.json`
-- **国际数据源**: `sources/international/{domain}/{id}.json`
-- **各国数据源**: `sources/countries/{continent}/{country}/{id}.json`
-- **学术数据源**: `sources/academic/{domain}/{id}.json`
-- **行业数据源**: `sources/sectors/{industry}/{id}.json`
+- **国际组织**: `sources/international/{domain}/{id}.json`
+- **各国官方**: `sources/countries/{continent}/{country}/{id}.json`
+- **学术研究**: `sources/academic/{domain}/{id}.json`
+- **行业领域**: `sources/sectors/{industry}/{id}.json`
 
 ### 命名规范 | Naming Convention
 

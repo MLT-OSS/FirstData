@@ -1,4 +1,4 @@
-# 行业数据源 | Sector Data Sources
+# 行业领域 | Sector Data Sources
 
 ## 概览 | Overview
 
@@ -49,7 +49,7 @@ sectors/
 
 ## 分类标准 | Classification Criteria
 
-行业数据源按专业领域分类：
+行业领域数据源按专业领域分类：
 
 Sector data sources are classified by professional domain:
 
@@ -59,7 +59,7 @@ Sector data sources are classified by professional domain:
 
 ## 贡献 | Contributing
 
-如需添加或更新行业数据源，请参考[贡献指南](../../docs/CONTRIBUTING.md)。
+如需添加或更新行业领域数据源，请参考[贡献指南](../../docs/CONTRIBUTING.md)。
 
 To add or update sector data sources, please refer to the [Contributing Guide](../../docs/CONTRIBUTING.md).
 

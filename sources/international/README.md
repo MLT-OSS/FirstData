@@ -1,4 +1,4 @@
-# 国际数据源 | International Data Sources
+# 国际组织 | International Organizations
 
 ## 概览 | Overview
 
@@ -12,16 +12,17 @@ This directory contains global data sources from international organizations and
 
 ```
 international/
-├── economics/        # 经济 | Economics
-├── trade/            # 贸易 | Trade
-├── energy/           # 能源 | Energy
-├── agriculture/      # 农业 | Agriculture
-├── education/        # 教育 | Education
-├── health/           # 健康 | Health
-├── environment/      # 环境 | Environment
-├── development/      # 发展 | Development
-├── development-finance/   # 发展金融 | Development Finance
-└── earth-science/    # 地球科学 | Earth Science
+├── economics/              # 经济 | Economics
+├── trade/                  # 贸易 | Trade
+├── energy/                 # 能源 | Energy
+├── agriculture/            # 农业 | Agriculture
+├── education/              # 教育 | Education
+├── health/                 # 健康 | Health
+├── environment/            # 环境 | Environment
+├── development/            # 发展 | Development
+├── development-finance/    # 发展金融 | Development Finance
+├── earth-science/          # 地球科学 | Earth Science
+└── intellectual-property/  # 知识产权 | Intellectual Property
 ```
 
 ## 已收录数据源 | Included Sources

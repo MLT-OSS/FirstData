@@ -1,6 +1,6 @@
-# Academic Research Data Sources - 学术研究数据源
+# 学术研究 | Academic Research
 
-## 概览 Overview
+## 概览 | Overview
 
 本目录包含学术研究机构和数据仓库的元数据。学术研究数据源专区涵盖经济学、健康医学、环境科学、社会科学、物理化学、生命科学等多个领域，预计收录50+个高质量学术数据源。
 
@@ -10,13 +10,13 @@ This directory contains metadata for academic research institutions and data rep
 
 ```
 academic/
-├── general/          # 综合性数据仓库 General Data Repositories
-├── economics/        # 经济学 Economics
-├── health/           # 健康医学 Health & Medicine
-├── environment/      # 环境科学 Environmental Science
-├── social/           # 社会科学 Social Science
-├── physical/         # 物理化学 Physics & Chemistry
-└── life/             # 生命科学 Life Sciences
+├── repositories/      # 综合性数据仓库 General Data Repositories
+├── economics/         # 经济学 Economics
+├── health/            # 健康医学 Health & Medicine
+├── environment/       # 环境科学 Environmental Science
+├── social/            # 社会科学 Social Science
+├── physics_chemistry/ # 物理化学 Physics & Chemistry
+└── biology/           # 生命科学 Life Sciences & Biology
 ```
 
 ## 当前收录 Current Collection
