@@ -5,7 +5,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-28%2F950+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-29%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-3%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-5.0%2F5.0-brightgreen.svg)](#)
 

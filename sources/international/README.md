@@ -93,6 +93,14 @@ international/
    - 访问类型：开放
    - [查看详情](education/oecd-pisa.json)
 
+### 金融 | Finance
+
+1. **European Bank for Reconstruction and Development** (`ebrd`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：PDF, XLS
+   - 访问类型：开放
+   - [查看详情](finance/ebrd.json)
+
 ### 发展金融 | Development Finance
 
 1. **African Development Bank** (`afdb`) ⭐💎
@@ -125,9 +133,9 @@ international/
 
 ## 统计信息 | Statistics
 
-- **已收录**: 13
+- **已收录**: 14
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、发展金融、地球科学
+- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、金融、发展金融、地球科学
 
 ## 分类标准 | Classification Criteria
 
