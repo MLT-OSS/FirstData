@@ -19,7 +19,8 @@ international/
 ├── education/        # 教育 | Education
 ├── health/           # 健康 | Health
 ├── environment/      # 环境 | Environment
-└── development/      # 发展 | Development
+├── development/      # 发展 | Development
+└── earth-science/    # 地球科学 | Earth Science
 ```
 
 ## 已收录数据源 | Included Sources
@@ -72,7 +73,7 @@ international/
    - 权威性：5.0
    - 数据格式：Excel, PDF, CSV
    - 访问类型：开放
-   - [查看详情](wipo.json)
+   - [查看详情](intellectual-property/wipo.json)
 
 ### 农业 | Agriculture
 
@@ -98,11 +99,19 @@ international/
    - 访问类型：开放
    - [查看详情](development/adb-data.json)
 
+### 地球科学 | Earth Science
+
+1. **NASA Earthdata** (`nasa-earthdata`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：HDF-4, HDF-5, netCDF, GeoTIFF, CSV, JSON
+   - 访问类型：开放（需注册）
+   - [查看详情](earth-science/nasa-earthdata.json)
+
 ## 统计信息 | Statistics
 
-- **已收录**: 10
+- **已收录**: 11
 - **计划收录**: 20+
-- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展
+- **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、地球科学
 
 ## 分类标准 | Classification Criteria
 
@@ -122,4 +131,4 @@ To add or update international data sources, please refer to the [Contributing G
 
 ---
 
-**最后更新 | Last Updated**: 2025-12-10
+**最后更新 | Last Updated**: 2025-12-11
