@@ -99,25 +99,6 @@
 
 ---
 
-## 🚀 收录策略
-
-### 第一阶段：核心学术数据仓库（已完成）
-- 📋 ICPSR
-- 📋 Harvard Dataverse
-- 📋 Figshare
-- 📋 Zenodo
-
-### 第二阶段：经济学和健康医学核心数据源（Week 5-6）
-- 重点：NBER、Penn World Table、PubMed、ClinicalTrials.gov
-
-### 第三阶段：环境和社会科学（Week 7-8）
-- 重点：NASA Earthdata、World Values Survey
-
-### 第四阶段：专业领域数据源（Week 9+）
-- 物理化学、生命科学等专业数据库
-
----
-
 ## 📚 相关资源
 
 - [学术数据源收集指南](../docs/guides/academic.md)（待创建）

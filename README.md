@@ -5,9 +5,9 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-41%2F950+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-4%25-yellow.svg)](ROADMAP.md)
-[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.7%2F5.0-brightgreen.svg)](#)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-44%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-5%25-yellow.svg)](ROADMAP.md)
+[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.8%2F5.0-brightgreen.svg)](#)
 
 ---
 
@@ -103,9 +103,9 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 41 / 950+ | 4% |
-| **国际组织** | 20 / 100+ | 20% |
-| **各国官方** | 2 / 200+ | 1% |
+| **总数据源** | 44 / 950+ | 5% |
+| **国际组织** | 21 / 100+ | 21% |
+| **各国官方** | 4 / 200+ | 2% |
 | **中国数据源** | 7 / 488 | 1% |
 | **学术研究** | 11 / 50+ | 22% |
 | **行业领域** | 1 / 150+ | 1% |
@@ -117,7 +117,7 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (18个)
+#### 🌍 国际组织 (21个)
 - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
@@ -136,6 +136,7 @@ datasource/
 - ✅ OECD国际学生评估项目 (PISA) - 权威性 5.0 💎
 - ✅ NASA地球数据 (NASA Earthdata) - 权威性 5.0 💎
 - ✅ 非洲开发银行统计数据 (AfDB Statistics) - 权威性 4.5 💎
+- ✅ 哥白尼数据空间生态系统 (Copernicus Data Space Ecosystem) - 权威性 5.0 💎
 
 📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
 
@@ -150,9 +151,11 @@ datasource/
   
 📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
 
-#### 🌎 各国官方 (2个)
+#### 🌎 各国官方 (4个)
 - ✅ 加拿大统计局 (Statistics Canada) - 权威性 5.0 💎
 - ✅ 美国人口普查局 (US Census Bureau) - 权威性 5.0 💎
+- ✅ NOAA气候数据在线系统 (NOAA Climate Data Online) - 权威性 4.8 ⭐
+- ✅ 美国地质调查局地球探索者 (USGS EarthExplorer) - 权威性 5.0 💎
 
 📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
 
@@ -357,7 +360,7 @@ for json_file in Path('sources').rglob('*.json'):
 
 ---
 
-## 📊 项目状态 | Project Status
+<!-- ## 📊 项目状态 | Project Status
 
 | 指标 | 状态 |
 |------|------|
@@ -368,7 +371,7 @@ for json_file in Path('sources').rglob('*.json'):
 | **质量评分** | ⭐⭐⭐⭐⭐ (4.7/5.0) |
 
 📊 **详细状态**: [PROJECT_STATUS.md](PROJECT_STATUS.md)
-🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md)
+🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md) -->
 
 ---
 

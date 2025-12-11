@@ -25,7 +25,7 @@ sources/countries/
 
 ### 🌎 北美洲 | North America
 - **国家数量**: 2
-- **数据源总数**: 2
+- **数据源总数**: 4
 - [查看详情](north-america)
 
 #### 🇨🇦 加拿大 | Canada
@@ -34,9 +34,28 @@ sources/countries/
 - [查看详情](north-america/canada/)
 
 #### 🇺🇸 美国 | United States
-- **数据源数量**: 1
-- **主要机构**: United States Census Bureau
-- [查看详情](north-america/usa/)
+- **数据源数量**: 3
+- **主要机构**: United States Census Bureau, NOAA, USGS
+
+**已收录数据源**:
+
+1. **US Census Bureau** (`census-bureau`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：CSV, JSON, Excel, XML
+   - 访问类型：开放
+   - [查看详情](north-america/usa/census-bureau.json)
+
+2. **NOAA Climate Data Online (CDO)** (`noaa-cdo`) ⭐
+   - 权威性：4.8
+   - 数据格式：CSV, JSON, XML, NetCDF, PDF
+   - 访问类型：注册
+   - [查看详情](north-america/usa/noaa-cdo.json)
+
+3. **USGS EarthExplorer** (`usgs-earthexplorer`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：GeoTIFF, HDF, NetCDF, JPEG2000
+   - 访问类型：注册
+   - [查看详情](north-america/usa/usgs-earthexplorer.json)
 
 ## 分类标准 | Classification Criteria
 
@@ -52,7 +71,7 @@ Official country data sources are classified according to the following rules:
 ## 统计信息 | Statistics
 
 - **已收录国家** | Countries Included: 2
-- **总数据源** | Total Sources: 2
+- **总数据源** | Total Sources: 4
 - **计划收录** | Planned: 200+
 
 ## 贡献 | Contributing
@@ -63,4 +82,4 @@ To add data sources for new countries, please refer to the [Contributing Guide](
 
 ---
 
-**最后更新 | Last Updated**: 2025-12-10
+**最后更新 | Last Updated**: 2025-12-11

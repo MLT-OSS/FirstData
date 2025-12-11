@@ -151,6 +151,12 @@ international/
    - 访问类型：开放（需注册）
    - [查看详情](earth-science/nasa-earthdata.json)
 
+2. **Copernicus Data Space Ecosystem** (`intl-copernicus-cdse`) ⭐💎
+   - 权威性：5.0
+   - 数据格式：GeoTIFF, JPEG2000, NetCDF, SAFE, HDF5
+   - 访问类型：注册
+   - [查看详情](earth-science/copernicus-data-space.json)
+
 ### 生物学 | Biology
 
 1. **Protein Data Bank (PDB)** (`intl-rcsb-pdb`) ⭐💎
@@ -169,8 +175,8 @@ international/
 
 ## 统计信息 | Statistics
 
-- **已收录**: 20
-- **计划收录**: 20+
+- **已收录**: 21
+- **计划收录**: 100+
 - **覆盖领域**: 经济、贸易、能源、农业、教育、知识产权、健康、环境、发展、金融、发展金融、地球科学、生物学、化学
 
 ## 分类标准 | Classification Criteria

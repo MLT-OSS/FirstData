@@ -7,9 +7,9 @@
 #   2. datasource-publisher: 在主目录更新文档和提交Git
 #
 # 用法:
-#   ./batch-scraper-dual-skill.sh           # 处理全部
-#   ./batch-scraper-dual-skill.sh 1 10      # 处理第1行到第10行
-#   ./batch-scraper-dual-skill.sh 5         # 从第5行处理到最后
+#   ./batch-scraper.sh           # 处理全部
+#   ./batch-scraper.sh 1 10      # 处理第1行到第10行
+#   ./batch-scraper.sh 5         # 从第5行处理到最后
 
 set -euo pipefail
 
@@ -18,7 +18,7 @@ set -euo pipefail
 # ============================================================================
 
 DATASOURCE_FILE="batch-datasources.txt"
-OUTPUT_FILE="batch-run-results-dual.md"
+OUTPUT_FILE="batch-run-results.md"
 LOG_DIR="batch-logs"
 TEMP_DIR="batch-temp"
 MAIN_DIR="$PWD"
@@ -27,8 +27,10 @@ MAIN_DIR="$PWD"
 START_LINE=${1:-1}
 END_LINE=${2:-999999}
 
-# 创建日志和临时目录
+# 创建日志和临时目录（先删除旧目录）
+rm -rf "$LOG_DIR"
 mkdir -p "$LOG_DIR"
+rm -rf "$TEMP_DIR"
 mkdir -p "$TEMP_DIR"
 
 # ============================================================================
