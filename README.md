@@ -5,7 +5,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-26%2F950+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-27%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-3%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-5.0%2F5.0-brightgreen.svg)](#)
 
@@ -103,8 +103,8 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 26 / 950+ | 3% |
-| **国际组织** | 12 / 100+ | 12% |
+| **总数据源** | 27 / 950+ | 3% |
+| **国际组织** | 13 / 100+ | 13% |
 | **各国官方** | 2 / 200+ | 1% |
 | **中国数据源** | 7 / 488 | 1% |
 | **学术研究** | 4 / 50+ | 8% |
@@ -117,7 +117,7 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (12个)
+#### 🌍 国际组织 (13个)
 - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
@@ -125,10 +125,10 @@ datasource/
 - ✅ 国际能源署 (IEA) - 权威性 5.0 💎
 - ✅ 世界知识产权组织 (WIPO) - 权威性 5.0 💎
 - ✅ 亚洲开发银行 (ADB) - 权威性 5.0 💎
+- ✅ 非洲开发银行 (AfDB) - 权威性 4.5 💎
 - ✅ 国际清算银行 (BIS) - 权威性 5.0 💎
 - ✅ 联合国粮农组织 (FAOSTAT) - 权威性 5.0 💎
 - ✅ OECD国际学生评估项目 (PISA) - 权威性 5.0 💎
-- ✅ 非洲开发银行 (AfDB) - 权威性 5.0 💎
 - ✅ NASA地球数据 (NASA Earthdata) - 权威性 5.0 💎
 
 📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
