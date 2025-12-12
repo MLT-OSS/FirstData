@@ -5,7 +5,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-104%2F950+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-103%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-11%25-yellow.svg)](ROADMAP.md)
 [![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.8%2F5.0-brightgreen.svg)](#)
 
@@ -103,12 +103,12 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 104 / 950+ | 11% |
+| **总数据源** | 103 / 950+ | 11% |
 | **国际组织** | 36 / 100+ | 36% |
 | **各国官方** | 24 / 200+ | 12% |
 | **中国数据源** | 7 / 488 | 1% |
 | **学术研究** | 19 / 50+ | 38% |
-| **行业领域** | 18 / 150+ | 12% |
+| **行业领域** | 17 / 150+ | 11% |
 | **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
 
@@ -170,7 +170,7 @@ datasource/
 
 📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 行业领域 (18个)
+#### 🏭 行业领域 (17个)
 - ✅ ImageNet - 权威性 4.7 ⭐
 
 📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
