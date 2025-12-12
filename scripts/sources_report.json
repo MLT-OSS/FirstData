@@ -1,0 +1,1031 @@
+{
+  "total": 103,
+  "by_category": {
+    "academic": 19,
+    "china": 7,
+    "countries": 24,
+    "international": 36,
+    "sectors": 17
+  },
+  "by_subcategory": {
+    "academic": {
+      "biology": [
+        {
+          "id": "1000-genomes",
+          "name_en": "1000 Genomes Project",
+          "name_zh": "千人基因组计划",
+          "authority": 5,
+          "data_formats": "BAM, CRAM, VCF, BCF, FASTA, FASTQ",
+          "access_level": "open",
+          "path": "academic/biology/1000-genomes.json"
+        },
+        {
+          "id": "us-ncbi-genbank",
+          "name_en": "GenBank",
+          "name_zh": "基因库",
+          "authority": 5,
+          "data_formats": "ASN.1, Flatfile, FASTA, GenBank, XML, JSON",
+          "access_level": "open",
+          "path": "academic/biology/genbank.json"
+        }
+      ],
+      "economics": [
+        {
+          "id": "bis-statistics",
+          "name_en": "BIS Statistics",
+          "name_zh": "国际清算银行统计数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, SDMX-ML, SDMX-JSON, PDF",
+          "access_level": "open",
+          "path": "academic/economics/bis-statistics.json"
+        },
+        {
+          "id": "acad-conferenceboard",
+          "name_en": "The Conference Board Economic Data",
+          "name_zh": "世界大型企业联合会经济数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, PDF",
+          "access_level": "registration",
+          "path": "academic/economics/conference-board.json"
+        },
+        {
+          "id": "ggdc-databases",
+          "name_en": "Groningen Growth and Development Centre (GGDC) Databases",
+          "name_zh": "格罗宁根增长与发展中心数据库",
+          "authority": 5,
+          "data_formats": "Excel, Stata, CSV",
+          "access_level": "open",
+          "path": "academic/economics/ggdc-databases.json"
+        },
+        {
+          "id": "nber-data",
+          "name_en": "NBER Data Library",
+          "name_zh": "国家经济研究局数据库",
+          "authority": 5,
+          "data_formats": "PDF, CSV, Excel, Stata, HTML",
+          "access_level": "registration",
+          "path": "academic/economics/nber.json"
+        },
+        {
+          "id": "penn-world-table",
+          "name_en": "Penn World Table",
+          "name_zh": "宾州世界表",
+          "authority": 5,
+          "data_formats": "Excel, Stata",
+          "access_level": "open",
+          "path": "academic/economics/penn-world-table.json"
+        },
+        {
+          "id": "world-inequality-database",
+          "name_en": "World Inequality Database (WID.world)",
+          "name_zh": "世界不平等数据库",
+          "authority": 5,
+          "data_formats": "CSV, Excel, Stata",
+          "access_level": "open",
+          "path": "academic/economics/world-inequality-database.json"
+        }
+      ],
+      "environment": [
+        {
+          "id": "copernicus-open-access-hub",
+          "name_en": "Copernicus Open Access Hub",
+          "name_zh": "哥白尼开放访问中心",
+          "authority": 5,
+          "data_formats": "SAFE, NetCDF, HDF5, GeoTIFF, Zarr, COG",
+          "access_level": "open",
+          "path": "academic/environment/copernicus-open-access-hub.json"
+        }
+      ],
+      "health": [
+        {
+          "id": "clinicaltrials-gov",
+          "name_en": "ClinicalTrials.gov",
+          "name_zh": "临床试验注册数据库",
+          "authority": 5,
+          "data_formats": "XML, JSON, CSV, HTML",
+          "access_level": "open",
+          "path": "academic/health/clinicaltrials-gov.json"
+        },
+        {
+          "id": "dhs",
+          "name_en": "Demographic and Health Surveys (DHS) Program",
+          "name_zh": "人口与健康调查项目",
+          "authority": 5,
+          "data_formats": "SPSS, Stata, SAS, flat ASCII, CSV",
+          "access_level": "restricted",
+          "path": "academic/health/dhs.json"
+        },
+        {
+          "id": "ghdx",
+          "name_en": "Global Health Data Exchange (GHDx)",
+          "name_zh": "全球健康数据交换平台",
+          "authority": 5,
+          "data_formats": "CSV, Excel, Stata, SPSS, R, JSON",
+          "access_level": "open",
+          "path": "academic/health/ghdx.json"
+        },
+        {
+          "id": "pubmed",
+          "name_en": "PubMed",
+          "name_zh": "PubMed生物医学文献数据库",
+          "authority": 5,
+          "data_formats": "XML, JSON, HTML, plain text",
+          "access_level": "open",
+          "path": "academic/health/pubmed.json"
+        },
+        {
+          "id": "tcga",
+          "name_en": "The Cancer Genome Atlas (TCGA)",
+          "name_zh": "癌症基因组图谱",
+          "authority": 5,
+          "data_formats": "BAM, VCF, MAF, TXT, CSV, TSV, XML, JSON, SVS, DCM, CEL, IDAT, TIFF",
+          "access_level": "registration",
+          "path": "academic/health/tcga.json"
+        },
+        {
+          "id": "uk-biobank",
+          "name_en": "UK Biobank",
+          "name_zh": "英国生物样本库",
+          "authority": 5,
+          "data_formats": "CSV, TSV, VCF, BGEN, PLINK, DICOM, NIfTI, Parquet",
+          "access_level": "academic",
+          "path": "academic/health/uk-biobank.json"
+        }
+      ],
+      "physics_chemistry": [
+        {
+          "id": "cern-open-data",
+          "name_en": "CERN Open Data Portal",
+          "name_zh": "CERN 开放数据门户",
+          "authority": 5,
+          "data_formats": "ROOT, CSV, JSON, HDF5, JPEG, tar, zip",
+          "access_level": "open",
+          "path": "academic/physics_chemistry/cern-open-data.json"
+        },
+        {
+          "id": "acad-cod",
+          "name_en": "Crystallography Open Database",
+          "name_zh": "晶体学开放数据库",
+          "authority": 5,
+          "data_formats": "CIF, HKL, JSON, CSV, MySQL, XML",
+          "access_level": "open",
+          "path": "academic/physics_chemistry/crystallography-open-database.json"
+        }
+      ],
+      "social": [
+        {
+          "id": "afrobarometer",
+          "name_en": "Afrobarometer",
+          "name_zh": "非洲晴雨表",
+          "authority": 5,
+          "data_formats": "SPSS, Stata, R, CSV, Excel, PDF, HTML",
+          "access_level": "open",
+          "path": "academic/social/afrobarometer.json"
+        },
+        {
+          "id": "asian-barometer",
+          "name_en": "Asian Barometer Survey",
+          "name_zh": "亚洲民主动态调查",
+          "authority": 5,
+          "data_formats": "SPSS, Stata, CSV, Excel",
+          "access_level": "academic",
+          "path": "academic/social/asian-barometer.json"
+        }
+      ]
+    },
+    "china": {
+      "economy": [
+        {
+          "id": "china-ndrc",
+          "name_en": "National Development and Reform Commission",
+          "name_zh": "国家发展和改革委员会",
+          "authority": 5,
+          "data_formats": "PDF, Excel, HTML",
+          "access_level": "open",
+          "path": "china/economy/macro/ndrc.json"
+        },
+        {
+          "id": "china-customs",
+          "name_en": "General Administration of Customs of China",
+          "name_zh": "中华人民共和国海关总署",
+          "authority": 5,
+          "data_formats": "Excel, PDF, HTML",
+          "access_level": "open",
+          "path": "china/economy/trade/customs.json"
+        },
+        {
+          "id": "china-mofcom",
+          "name_en": "Ministry of Commerce of China",
+          "name_zh": "中华人民共和国商务部",
+          "authority": 5,
+          "data_formats": "Excel, PDF, HTML",
+          "access_level": "open",
+          "path": "china/economy/trade/mofcom.json"
+        }
+      ],
+      "finance": [
+        {
+          "id": "china-nfra",
+          "name_en": "National Financial Regulatory Administration",
+          "name_zh": "国家金融监督管理总局",
+          "authority": 5,
+          "data_formats": "Excel, PDF, HTML",
+          "access_level": "open",
+          "path": "china/finance/banking/nfra.json"
+        },
+        {
+          "id": "china-pbc",
+          "name_en": "People's Bank of China",
+          "name_zh": "中国人民银行",
+          "authority": 5,
+          "data_formats": "Excel, PDF, HTML",
+          "access_level": "open",
+          "path": "china/finance/banking/pbc.json"
+        },
+        {
+          "id": "china-csrc",
+          "name_en": "China Securities Regulatory Commission",
+          "name_zh": "中国证券监督管理委员会",
+          "authority": 5,
+          "data_formats": "PDF, Excel, HTML",
+          "access_level": "open",
+          "path": "china/finance/securities/csrc.json"
+        }
+      ],
+      "national": [
+        {
+          "id": "china-nbs",
+          "name_en": "National Bureau of Statistics of China",
+          "name_zh": "国家统计局",
+          "authority": 5,
+          "data_formats": "Excel, CSV, PDF, HTML",
+          "access_level": "open",
+          "path": "china/national/nbs.json"
+        }
+      ]
+    },
+    "countries": {
+      "asia": [
+        {
+          "id": "boj-statistics",
+          "name_en": "Bank of Japan Statistics",
+          "name_zh": "日本银行统计数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, PDF",
+          "access_level": "open",
+          "path": "countries/asia/boj-statistics.json"
+        },
+        {
+          "id": "india-dgcis",
+          "name_en": "Directorate General of Commercial Intelligence and Statistics",
+          "name_zh": "印度商业情报与统计总局",
+          "authority": 5,
+          "data_formats": "text, Excel, PDF",
+          "access_level": "open",
+          "path": "countries/asia/india-dgcis.json"
+        },
+        {
+          "id": "korea-bok",
+          "name_en": "Bank of Korea",
+          "name_zh": "韩国银行",
+          "authority": 5,
+          "data_formats": "Excel, CSV, PDF",
+          "access_level": "open",
+          "path": "countries/asia/korea-bok.json"
+        }
+      ],
+      "europe": [
+        {
+          "id": "uk-boe",
+          "name_en": "Bank of England Statistical Interactive Database",
+          "name_zh": "英格兰银行统计数据库",
+          "authority": 5,
+          "data_formats": "CSV, Excel, XML, PDF",
+          "access_level": "open",
+          "path": "countries/europe/bank-of-england.json"
+        }
+      ],
+      "north-america": [
+        {
+          "id": "aafc",
+          "name_en": "Agriculture and Agri-Food Canada",
+          "name_zh": "加拿大农业与农业食品部",
+          "authority": 5,
+          "data_formats": "GeoTIF, FGDB, GDB, CSV, Shapefile, JSON, REST API",
+          "access_level": "open",
+          "path": "countries/north-america/aafc.json"
+        },
+        {
+          "id": "mx-banxico",
+          "name_en": "Bank of Mexico Economic Information System",
+          "name_zh": "墨西哥银行经济信息系统",
+          "authority": 5,
+          "data_formats": "JSON, XML, JSONP, Excel, CSV",
+          "access_level": "open",
+          "path": "countries/north-america/banxico.json"
+        },
+        {
+          "id": "canada-boc",
+          "name_en": "Bank of Canada",
+          "name_zh": "加拿大银行",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, Excel, RSS",
+          "access_level": "open",
+          "path": "countries/north-america/canada/canada-boc.json"
+        },
+        {
+          "id": "canada-statcan",
+          "name_en": "Statistics Canada",
+          "name_zh": "加拿大统计局",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, Excel, SDMX, HTML, PDF",
+          "access_level": "open",
+          "path": "countries/north-america/canada/statcan.json"
+        },
+        {
+          "id": "canada-cihi",
+          "name_en": "Canadian Institute for Health Information",
+          "name_zh": "加拿大健康信息研究所",
+          "authority": 5,
+          "data_formats": "Excel, CSV, PDF, HTML, JSON",
+          "access_level": "open",
+          "path": "countries/north-america/canada-cihi.json"
+        },
+        {
+          "id": "canada-cer",
+          "name_en": "Canada Energy Regulator",
+          "name_zh": "加拿大能源监管局",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, Excel, Interactive Dashboards",
+          "access_level": "open",
+          "path": "countries/north-america/canada-energy-regulator.json"
+        },
+        {
+          "id": "usa-eia",
+          "name_en": "U.S. Energy Information Administration",
+          "name_zh": "美国能源信息署",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, PDF, API",
+          "access_level": "open",
+          "path": "countries/north-america/eia.json"
+        },
+        {
+          "id": "mexico-coneval",
+          "name_en": "National Council for the Evaluation of Social Development Policy",
+          "name_zh": "墨西哥社会发展政策评估委员会",
+          "authority": 5,
+          "data_formats": "Excel, CSV, PDF",
+          "access_level": "open",
+          "path": "countries/north-america/mexico/coneval.json"
+        },
+        {
+          "id": "uk-data-gov",
+          "name_en": "Data.gov.uk",
+          "name_zh": "英国政府开放数据平台",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, Excel, PDF, RDF, Shapefile, GeoJSON",
+          "access_level": "open",
+          "path": "countries/north-america/uk-data-gov.json"
+        },
+        {
+          "id": "us-bea",
+          "name_en": "Bureau of Economic Analysis",
+          "name_zh": "经济分析局",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, PDF",
+          "access_level": "open",
+          "path": "countries/north-america/us-bea.json"
+        },
+        {
+          "id": "us-bls",
+          "name_en": "Bureau of Labor Statistics",
+          "name_zh": "劳工统计局",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, PDF, TXT, API",
+          "access_level": "open",
+          "path": "countries/north-america/us-bls.json"
+        },
+        {
+          "id": "us-cdc",
+          "name_en": "Centers for Disease Control and Prevention",
+          "name_zh": "美国疾病控制与预防中心",
+          "authority": 5,
+          "data_formats": "CSV, Excel, XML, Text, PDF, Interactive Query",
+          "access_level": "open",
+          "path": "countries/north-america/us-cdc.json"
+        },
+        {
+          "id": "us-data-gov",
+          "name_en": "Data.gov",
+          "name_zh": "美国政府开放数据平台",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, Excel, PDF, Shapefile, KML, RDF",
+          "access_level": "open",
+          "path": "countries/north-america/us-data-gov.json"
+        },
+        {
+          "id": "usa-census-bureau",
+          "name_en": "United States Census Bureau",
+          "name_zh": "美国人口普查局",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, Excel, GeoJSON, Shapefiles, PDF, API",
+          "access_level": "open",
+          "path": "countries/north-america/usa/census-bureau.json"
+        },
+        {
+          "id": "noaa-cdo",
+          "name_en": "NOAA Climate Data Online (CDO)",
+          "name_zh": "NOAA气候数据在线系统",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, NetCDF, PDF",
+          "access_level": "registration",
+          "path": "countries/north-america/usa/noaa-cdo.json"
+        },
+        {
+          "id": "usgs-earthexplorer",
+          "name_en": "USGS EarthExplorer",
+          "name_zh": "美国地质调查局地球探索者",
+          "authority": 5,
+          "data_formats": "GeoTIFF, HDF, NetCDF, JPEG2000, LAS, LAZ, Shapefile, KML",
+          "access_level": "registration",
+          "path": "countries/north-america/usa/usgs-earthexplorer.json"
+        }
+      ],
+      "oceania": [
+        {
+          "id": "australia-abs",
+          "name_en": "Australian Bureau of Statistics",
+          "name_zh": "澳大利亚统计局",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, API",
+          "access_level": "open",
+          "path": "countries/oceania/abs.json"
+        },
+        {
+          "id": "aus-aihw",
+          "name_en": "Australian Institute of Health and Welfare",
+          "name_zh": "澳大利亚健康与福利研究所",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, PDF, Interactive dashboards",
+          "access_level": "open",
+          "path": "countries/oceania/aihw.json"
+        },
+        {
+          "id": "bureau-of-meteorology",
+          "name_en": "Bureau of Meteorology",
+          "name_zh": "澳大利亚气象局",
+          "authority": 5,
+          "data_formats": "CSV, JSON, XML, NetCDF, GeoTIFF, GRIB2, HTML, PDF",
+          "access_level": "registration",
+          "path": "countries/oceania/bureau-of-meteorology.json"
+        }
+      ],
+      "south-america": [
+        {
+          "id": "brazil-bcb",
+          "name_en": "Central Bank of Brazil",
+          "name_zh": "巴西中央银行",
+          "authority": 5,
+          "data_formats": "JSON, CSV, XML, WSDL, OData, HTML, PDF",
+          "access_level": "open",
+          "path": "countries/south-america/brazil-bcb.json"
+        }
+      ]
+    },
+    "international": {
+      "agriculture": [
+        {
+          "id": "faostat",
+          "name_en": "FAOSTAT - Food and Agriculture Data",
+          "name_zh": "粮农组织统计数据库",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML",
+          "access_level": "open",
+          "path": "international/agriculture/faostat.json"
+        }
+      ],
+      "agriculture_food": [
+        {
+          "id": "cgiar-research-data",
+          "name_en": "CGIAR Research Data",
+          "name_zh": "国际农业研究磋商组织研究数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, NetCDF, GeoTIFF, Shapefile, PDF",
+          "access_level": "open",
+          "path": "international/agriculture_food/cgiar-research-data.json"
+        }
+      ],
+      "biology": [
+        {
+          "id": "alphafold-db",
+          "name_en": "AlphaFold Protein Structure Database",
+          "name_zh": "AlphaFold蛋白质结构数据库",
+          "authority": 5,
+          "data_formats": "PDB, mmCIF, bCIF, JSON, tar",
+          "access_level": "open",
+          "path": "international/biology/alphafold-db.json"
+        },
+        {
+          "id": "ena",
+          "name_en": "European Nucleotide Archive",
+          "name_zh": "欧洲核苷酸档案库",
+          "authority": 5,
+          "data_formats": "FASTA, FASTQ, XML, EMBL, TSV, JSON, BAM, CRAM",
+          "access_level": "open",
+          "path": "international/biology/ena.json"
+        },
+        {
+          "id": "intl-rcsb-pdb",
+          "name_en": "Protein Data Bank (PDB)",
+          "name_zh": "蛋白质数据银行",
+          "authority": 5,
+          "data_formats": "PDB, mmCIF, PDBML, FASTA, CSV, JSON, XML",
+          "access_level": "open",
+          "path": "international/biology/pdb.json"
+        }
+      ],
+      "chemistry": [
+        {
+          "id": "chembl",
+          "name_en": "ChEMBL Database",
+          "name_zh": "ChEMBL生物活性数据库",
+          "authority": 5,
+          "data_formats": "Oracle, MySQL, PostgreSQL, SQLite, RDF, SDF, FASTA, JSON, XML, CSV",
+          "access_level": "open",
+          "path": "international/chemistry/chembl.json"
+        },
+        {
+          "id": "intl-chemspider",
+          "name_en": "ChemSpider",
+          "name_zh": "化学蜘蛛数据库",
+          "authority": 5,
+          "data_formats": "HTML, SMILES, InChI, MOL, SDF",
+          "access_level": "open",
+          "path": "international/chemistry/chemspider.json"
+        },
+        {
+          "id": "drugbank",
+          "name_en": "DrugBank",
+          "name_zh": "药物与药物靶点数据库",
+          "authority": 5,
+          "data_formats": "XML, CSV, JSON, HTML",
+          "access_level": "registration",
+          "path": "international/chemistry/drugbank.json"
+        },
+        {
+          "id": "pubchem",
+          "name_en": "PubChem",
+          "name_zh": "PubChem化学数据库",
+          "authority": 5,
+          "data_formats": "SDF, CSV, XML, JSON, ASNT, ASNB, PNG, RDF",
+          "access_level": "open",
+          "path": "international/chemistry/pubchem.json"
+        }
+      ],
+      "development": [
+        {
+          "id": "adb-data",
+          "name_en": "Asian Development Bank Data Library",
+          "name_zh": "亚洲开发银行数据库",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, SDMX",
+          "access_level": "open",
+          "path": "international/development/adb-data.json"
+        },
+        {
+          "id": "afdb-statistics",
+          "name_en": "African Development Bank Statistics",
+          "name_zh": "非洲开发银行统计数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, SDMX, PDF",
+          "access_level": "open",
+          "path": "international/development/afdb.json"
+        }
+      ],
+      "development-finance": [
+        {
+          "id": "afdb",
+          "name_en": "African Development Bank",
+          "name_zh": "非洲开发银行",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON, XML, PDF",
+          "access_level": "open",
+          "path": "international/development-finance/afdb.json"
+        },
+        {
+          "id": "caf",
+          "name_en": "Development Bank of Latin America and the Caribbean (CAF)",
+          "name_zh": "拉美和加勒比开发银行",
+          "authority": 5,
+          "data_formats": "PDF, Excel, Power BI, Interactive Dashboard, HTML",
+          "access_level": "open",
+          "path": "international/development-finance/caf.json"
+        },
+        {
+          "id": "caribbean-development-bank",
+          "name_en": "Caribbean Development Bank",
+          "name_zh": "加勒比开发银行",
+          "authority": 5,
+          "data_formats": "PDF, Excel, Power BI Dashboard, Interactive Visualizations",
+          "access_level": "open",
+          "path": "international/development-finance/caribbean-development-bank.json"
+        },
+        {
+          "id": "idb",
+          "name_en": "Inter-American Development Bank",
+          "name_zh": "美洲开发银行",
+          "authority": 5,
+          "data_formats": "CSV, XLSX, PDF, dta, Stata",
+          "access_level": "open",
+          "path": "international/development-finance/idb.json"
+        }
+      ],
+      "earth-science": [
+        {
+          "id": "intl-copernicus-cdse",
+          "name_en": "Copernicus Data Space Ecosystem",
+          "name_zh": "哥白尼数据空间生态系统",
+          "authority": 5,
+          "data_formats": "GeoTIFF, JPEG2000, NetCDF, SAFE, HDF5, Zarr, JSON, XML",
+          "access_level": "registration",
+          "path": "international/earth-science/copernicus-data-space.json"
+        },
+        {
+          "id": "nasa-earthdata",
+          "name_en": "NASA Earthdata",
+          "name_zh": "NASA地球数据",
+          "authority": 5,
+          "data_formats": "HDF-4, HDF-5, netCDF, GeoTIFF, CSV, JSON, SDMX",
+          "access_level": "open",
+          "path": "international/earth-science/nasa-earthdata.json"
+        }
+      ],
+      "economics": [
+        {
+          "id": "bis-statistics",
+          "name_en": "BIS Statistics - Bank for International Settlements",
+          "name_zh": "国际清算银行统计数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, SDMX, JSON",
+          "access_level": "open",
+          "path": "international/economics/bis.json"
+        },
+        {
+          "id": "ecb-sdw",
+          "name_en": "ECB Statistical Data Warehouse (ECB Data Portal)",
+          "name_zh": "欧洲央行统计数据仓库",
+          "authority": 5,
+          "data_formats": "CSV, Excel, SDMX-ML, JSON, PDF",
+          "access_level": "open",
+          "path": "international/economics/ecb-sdw.json"
+        },
+        {
+          "id": "imf-data",
+          "name_en": "IMF Data",
+          "name_zh": "国际货币基金组织数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, SDMX, JSON",
+          "access_level": "open",
+          "path": "international/economics/imf.json"
+        },
+        {
+          "id": "oecd-statistics",
+          "name_en": "OECD Statistics",
+          "name_zh": "经合组织统计数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, SDMX, JSON",
+          "access_level": "open",
+          "path": "international/economics/oecd.json"
+        },
+        {
+          "id": "worldbank-open-data",
+          "name_en": "World Bank Open Data",
+          "name_zh": "世界银行开放数据",
+          "authority": 5,
+          "data_formats": "CSV, XML, JSON, Excel, SDMX",
+          "access_level": "open",
+          "path": "international/economics/worldbank.json"
+        },
+        {
+          "id": "wto-statistics",
+          "name_en": "WTO Statistics Database",
+          "name_zh": "世界贸易组织统计数据库",
+          "authority": 5,
+          "data_formats": "CSV, Excel, JSON",
+          "access_level": "registration",
+          "path": "international/economics/wto.json"
+        }
+      ],
+      "education": [
+        {
+          "id": "oecd-pisa",
+          "name_en": "PISA - Programme for International Student Assessment",
+          "name_zh": "国际学生评估项目",
+          "authority": 5,
+          "data_formats": "SAS, SPSS, CSV, Excel",
+          "access_level": "open",
+          "path": "international/education/oecd-pisa.json"
+        }
+      ],
+      "energy": [
+        {
+          "id": "iea-energy-data",
+          "name_en": "IEA Energy Data",
+          "name_zh": "国际能源署能源数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, SDMX, JSON, XML, TXT, ZIP",
+          "access_level": "registration",
+          "path": "international/energy/iea.json"
+        }
+      ],
+      "environment": [
+        {
+          "id": "basel-convention",
+          "name_en": "Basel Convention Data",
+          "name_zh": "巴塞尔公约数据",
+          "authority": 5,
+          "data_formats": "PDF, Excel, HTML",
+          "access_level": "open",
+          "path": "international/environment/basel-convention.json"
+        },
+        {
+          "id": "cites-trade-database",
+          "name_en": "CITES Trade Database",
+          "name_zh": "濒危物种国际贸易公约贸易数据库",
+          "authority": 5,
+          "data_formats": "Database, CSV, Web interface",
+          "access_level": "open",
+          "path": "international/environment/cites-trade-database.json"
+        }
+      ],
+      "finance": [
+        {
+          "id": "ebrd",
+          "name_en": "European Bank for Reconstruction and Development",
+          "name_zh": "欧洲复兴开发银行",
+          "authority": 5,
+          "data_formats": "PDF, XLS, online_tables",
+          "access_level": "open",
+          "path": "international/finance/ebrd.json"
+        },
+        {
+          "id": "paris-club",
+          "name_en": "Paris Club",
+          "name_zh": "巴黎俱乐部",
+          "authority": 5,
+          "data_formats": "PDF, XLS, online_tables",
+          "access_level": "open",
+          "path": "international/finance/paris-club.json"
+        }
+      ],
+      "health": [
+        {
+          "id": "africa-cdc",
+          "name_en": "Africa CDC Health Data",
+          "name_zh": "非洲疾控中心健康数据",
+          "authority": 5,
+          "data_formats": "PDF, Excel, Dashboard, Web",
+          "access_level": "open",
+          "path": "international/health/africa-cdc.json"
+        },
+        {
+          "id": "ecdc-surveillance",
+          "name_en": "ECDC Surveillance Data",
+          "name_zh": "欧洲疾病预防控制中心监测数据",
+          "authority": 5,
+          "data_formats": "CSV, Excel, XML, Interactive Dashboard",
+          "access_level": "open",
+          "path": "international/health/ecdc-surveillance.json"
+        }
+      ],
+      "intellectual-property": [
+        {
+          "id": "wipo-ip-statistics",
+          "name_en": "WIPO IP Statistics",
+          "name_zh": "世界知识产权组织知识产权统计",
+          "authority": 5,
+          "data_formats": "Excel, PDF, CSV",
+          "access_level": "open",
+          "path": "international/intellectual-property/wipo.json"
+        }
+      ],
+      "standards": [
+        {
+          "id": "bipm-kcdb",
+          "name_en": "BIPM Key Comparison Database (KCDB)",
+          "name_zh": "国际度量衡局关键比对数据库",
+          "authority": 5,
+          "data_formats": "JSON, CSV, Excel, PDF, Interactive Dashboard",
+          "access_level": "open",
+          "path": "international/standards/bipm-kcdb.json"
+        },
+        {
+          "id": "codex-alimentarius",
+          "name_en": "Codex Alimentarius Standards",
+          "name_zh": "国际食品法典委员会标准",
+          "authority": 5,
+          "data_formats": "PDF, HTML",
+          "access_level": "open",
+          "path": "international/standards/codex-alimentarius.json"
+        }
+      ],
+      "trade": [
+        {
+          "id": "un-comtrade",
+          "name_en": "UN Comtrade - United Nations International Trade Statistics Database",
+          "name_zh": "联合国国际贸易统计数据库",
+          "authority": 5,
+          "data_formats": "CSV, JSON, API",
+          "access_level": "open",
+          "path": "international/trade/comtrade.json"
+        },
+        {
+          "id": "unctad",
+          "name_en": "UNCTAD - United Nations Conference on Trade and Development",
+          "name_zh": "联合国贸易和发展会议",
+          "authority": 5,
+          "data_formats": "CSV, XLS, PDF, API",
+          "access_level": "open",
+          "path": "international/trade/unctad.json"
+        }
+      ]
+    },
+    "sectors": {
+      "agriculture_food": [
+        {
+          "id": "amis",
+          "name_en": "Agricultural Market Information System (AMIS)",
+          "name_zh": "农业市场信息系统",
+          "authority": 5,
+          "data_formats": "CSV, Excel, PDF, Interactive Dashboard",
+          "access_level": "open",
+          "path": "sectors/agriculture_food/amis.json"
+        }
+      ],
+      "biology": [
+        {
+          "id": "tcga",
+          "name_en": "The Cancer Genome Atlas",
+          "name_zh": "癌症基因组图谱",
+          "authority": 5,
+          "data_formats": "BAM, VCF, TSV, JSON, XML, MAF, FASTQ, BCR-XML",
+          "access_level": "registration",
+          "path": "sectors/biology/tcga.json"
+        }
+      ],
+      "chemistry_materials": [
+        {
+          "id": "cambridge-structural-database",
+          "name_en": "Cambridge Structural Database (CSD)",
+          "name_zh": "剑桥晶体结构数据库",
+          "authority": 5,
+          "data_formats": "CIF, MOL, MOL2, PDB, SDF, JSON, XML, CSV",
+          "access_level": "academic",
+          "path": "sectors/chemistry_materials/cambridge-structural-database.json"
+        }
+      ],
+      "computer_science_ai": [
+        {
+          "id": "cifar",
+          "name_en": "CIFAR-10 and CIFAR-100",
+          "name_zh": "CIFAR-10 和 CIFAR-100 数据集",
+          "authority": 5,
+          "data_formats": "Python pickle, Matlab, binary, tar.gz",
+          "access_level": "open",
+          "path": "sectors/computer_science_ai/cifar.json"
+        },
+        {
+          "id": "common-crawl",
+          "name_en": "Common Crawl",
+          "name_zh": "Common Crawl 网络爬取数据",
+          "authority": 4,
+          "data_formats": "WARC, WAT, WET, Parquet, JSON, CDX",
+          "access_level": "open",
+          "path": "sectors/computer_science_ai/common-crawl.json"
+        },
+        {
+          "id": "imagenet",
+          "name_en": "ImageNet",
+          "name_zh": "ImageNet 图像数据库",
+          "authority": 5,
+          "data_formats": "JPEG, tar, zip",
+          "access_level": "academic",
+          "path": "sectors/computer_science_ai/imagenet.json"
+        }
+      ],
+      "education": [
+        {
+          "id": "arwu",
+          "name_en": "Academic Ranking of World Universities",
+          "name_zh": "世界大学学术排名",
+          "authority": 5,
+          "data_formats": "HTML, PDF, Excel",
+          "access_level": "open",
+          "path": "sectors/education/arwu.json"
+        }
+      ],
+      "energy": [
+        {
+          "id": "bp-statistical-review",
+          "name_en": "Statistical Review of World Energy",
+          "name_zh": "世界能源统计年鉴",
+          "authority": 5,
+          "data_formats": "CSV, Excel, PDF, Interactive Dashboard",
+          "access_level": "registration",
+          "path": "sectors/energy/bp-statistical-review.json"
+        }
+      ],
+      "finance_markets": [
+        {
+          "id": "alpha-vantage",
+          "name_en": "Alpha Vantage API",
+          "name_zh": "Alpha Vantage API",
+          "authority": 4,
+          "data_formats": "JSON, CSV",
+          "access_level": "registration",
+          "path": "sectors/finance_markets/alpha-vantage.json"
+        },
+        {
+          "id": "bloomberg-terminal",
+          "name_en": "Bloomberg Terminal (Public Data)",
+          "name_zh": "彭博终端（部分公开数据）",
+          "authority": 5,
+          "data_formats": "JSON, XML, Excel, CSV",
+          "access_level": "commercial",
+          "path": "sectors/finance_markets/bloomberg-terminal.json"
+        },
+        {
+          "id": "crsp",
+          "name_en": "CRSP - Center for Research in Security Prices",
+          "name_zh": "证券价格研究中心",
+          "authority": 5,
+          "data_formats": "CSV, SAS, STATA, Flat Files, Legacy FIZ format, SIZ format",
+          "access_level": "academic",
+          "path": "sectors/finance_markets/crsp.json"
+        },
+        {
+          "id": "cryptocurrency-data",
+          "name_en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
+          "name_zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）",
+          "authority": 4,
+          "data_formats": "JSON, CSV, Excel, WebSocket",
+          "access_level": "registration",
+          "path": "sectors/finance_markets/cryptocurrency-data.json"
+        }
+      ],
+      "innovation_patents": [
+        {
+          "id": "derwent-innovation-index",
+          "name_en": "Derwent Innovation Index",
+          "name_zh": "德温特创新索引",
+          "authority": 5,
+          "data_formats": "PDF, Excel, CSV, XML, RIS, EndNote, JSON",
+          "access_level": "commercial",
+          "path": "sectors/innovation_patents/derwent-innovation-index.json"
+        }
+      ],
+      "museums_culture": [
+        {
+          "id": "british-museum-collection",
+          "name_en": "British Museum Collection",
+          "name_zh": "大英博物馆馆藏",
+          "authority": 5,
+          "data_formats": "HTML, CSV, JPEG, PNG",
+          "access_level": "open",
+          "path": "sectors/museums_culture/british-museum-collection.json"
+        }
+      ],
+      "nlp": [
+        {
+          "id": "bookscorpus",
+          "name_en": "BooksCorpus",
+          "name_zh": "图书语料库",
+          "authority": 3,
+          "data_formats": "TXT, Parquet, Arrow",
+          "access_level": "open",
+          "path": "sectors/nlp/bookscorpus.json"
+        },
+        {
+          "id": "conll-shared-tasks",
+          "name_en": "CoNLL Shared Tasks Data",
+          "name_zh": "CoNLL共享任务数据集",
+          "authority": 5,
+          "data_formats": "TXT, CoNLL-U, XML, TSV",
+          "access_level": "open",
+          "path": "sectors/nlp/conll-shared-tasks.json"
+        }
+      ],
+      "sports": [
+        {
+          "id": "tennis-atp-wta-data",
+          "name_en": "ATP/WTA Tennis Data",
+          "name_zh": "ATP/WTA网球数据",
+          "authority": 4,
+          "data_formats": "CSV",
+          "access_level": "open",
+          "path": "sectors/sports/tennis-atp-wta-data.json"
+        }
+      ]
+    }
+  }
+}

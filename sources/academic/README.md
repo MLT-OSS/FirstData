@@ -23,6 +23,22 @@ academic/
 
 ### 经济学 Economics
 
+#### BIS Statistics
+- **[bis-statistics.json](economics/bis-statistics.json)** - 国际清算银行统计数据
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 国际金融数据、银行统计、金融市场数据
+  - 涵盖: 全球，1948-2025年，5,000+指标
+  - 更新频率: 季度
+  - 特色: 国际银行统计、国际债务证券、全球流动性指标、OTC衍生品、外汇汇率、支付系统
+
+#### The Conference Board Economic Data
+- **[conference-board.json](economics/conference-board.json)** - 世界大型企业联合会经济数据
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 经济指标、景气指数、生产率数据
+  - 涵盖: 全球主要经济体，1948-2025年
+  - 更新频率: 月度
+  - 特色: 领先经济指数(LEI)、消费者信心指数、CEO信心指数、劳动生产率数据
+
 #### NBER - National Bureau of Economic Research
 - **[nber.json](economics/nber.json)** - 国家经济研究局
   - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
@@ -105,7 +121,25 @@ academic/
   - 更新频率: 不定期（持续随访）
   - 特色: 全基因组测序、影像数据、生物标志物、医疗记录、需申请访问
 
+### 环境科学 Environmental Science
+
+#### Copernicus Open Access Hub
+- **[copernicus-open-access-hub.json](environment/copernicus-open-access-hub.json)** - 哥白尼开放访问中心
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 地球观测数据、卫星遥感、环境监测
+  - 涵盖: 全球，2014-2025年
+  - 更新频率: 每日
+  - 特色: Sentinel卫星数据、大气监测、海洋监测、陆地监测、气候变化、紧急管理
+
 ### 生命科学 Life Sciences & Biology
+
+#### 1000 Genomes Project
+- **[1000-genomes.json](biology/1000-genomes.json)** - 千人基因组计划
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 人类基因组变异、群体遗传学数据
+  - 涵盖: 全球26个群体，2,504个个体，2008-2015年
+  - 更新频率: 一次性（项目已完成）
+  - 特色: 全基因组测序、变异数据、群体基因组学、单核苷酸多态性(SNP)、结构变异
 
 #### GenBank
 - **[genbank.json](biology/genbank.json)** - 基因库
@@ -114,6 +148,42 @@ academic/
   - 涵盖: 全球所有生物，1982-2025年
   - 更新频率: 每日
   - 特色: NCBI维护、INSDC成员、E-utilities API、所有公开DNA序列、免费访问
+
+### 物理与化学 Physics & Chemistry
+
+#### CERN Open Data Portal
+- **[cern-open-data.json](physics_chemistry/cern-open-data.json)** - CERN 开放数据门户
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 粒子物理实验数据、高能物理数据
+  - 涵盖: CERN实验，2010-2025年
+  - 更新频率: 不定期
+  - 特色: LHC实验数据、CMS实验、ALICE实验、ATLAS实验、教育资源、模拟数据
+
+#### Crystallography Open Database
+- **[crystallography-open-database.json](physics_chemistry/crystallography-open-database.json)** - 晶体学开放数据库
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 晶体结构数据、化学信息学
+  - 涵盖: 全球，500,000+晶体结构，1915-2025年
+  - 更新频率: 每日
+  - 特色: 开放访问、CIF格式、无机/有机/金属有机晶体、结构参数、空间群信息
+
+### 社会科学 Social Science
+
+#### Afrobarometer
+- **[afrobarometer.json](social/afrobarometer.json)** - 非洲晴雨表
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 公众态度调查、民主治理、社会经济数据
+  - 涵盖: 39个非洲国家，1999-2025年
+  - 更新频率: 不定期（约2-3年一轮）
+  - 特色: 民主态度、治理质量、经济状况、社会价值观、选举行为、公民参与
+
+#### Asian Barometer Survey
+- **[asian-barometer.json](social/asian-barometer.json)** - 亚洲民主动态调查
+  - 权威性: ⭐⭐⭐⭐⭐ (5.0/5.0)
+  - 类型: 公众态度调查、民主治理、政治文化
+  - 涵盖: 20个亚洲国家和地区，2001-2025年
+  - 更新频率: 不定期（约3-4年一轮）
+  - 特色: 民主化进程、政治价值观、政治参与、公民社会、治理评估、社会信任
 
 ## 数据源特点 Data Source Features
 
@@ -151,5 +221,5 @@ academic/
 
 ---
 
-**总进度 Overall Progress**: 11/50+ 已完成 (22%)
+**总进度 Overall Progress**: 19/50+ 已完成 (38%)
 **最近更新 Last Updated**: 2025-12-11
