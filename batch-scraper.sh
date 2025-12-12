@@ -387,6 +387,9 @@ if [ $failed -gt 0 ]; then
     done
 fi
 
+# 移动结果文件到日志目录
+mv "$OUTPUT_FILE" "$LOG_DIR/$OUTPUT_FILE"
+
 echo ""
 echo "📄 详细结果: $OUTPUT_FILE"
 echo "📁 日志目录: $LOG_DIR/"
