@@ -1,0 +1,12 @@
+# MCP Python SDK
+mcp>=1.9.2
+
+# Input validation
+pydantic>=2.12.3
+
+# HTTP server
+uvicorn>=0.30.0
+starlette>=0.37.0
+
+# Environment configuration
+python-dotenv>=1.0.0

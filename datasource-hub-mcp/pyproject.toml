@@ -1,0 +1,25 @@
+[project]
+name = "datasource-hub-mcp"
+version = "0.1.0"
+description = "MCP server for searching and discovering data sources in the DataSource Hub repository"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.9.2",
+    "pydantic>=2.12.3",
+    "uvicorn>=0.30.0",
+    "starlette>=0.37.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+datasource-hub-mcp = "server:main"
+datasource-hub-mcp-http = "server_http:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pdm.scripts]
+# Auto-generate requirements.txt
+post_install = "pdm export --pyproject --prod -o requirements.txt"
