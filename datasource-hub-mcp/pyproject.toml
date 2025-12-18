@@ -14,7 +14,6 @@ dependencies = [
 
 [project.scripts]
 datasource-hub-mcp = "server:main"
-datasource-hub-mcp-http = "server_http:main"
 
 [build-system]
 requires = ["hatchling"]

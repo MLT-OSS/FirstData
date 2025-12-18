@@ -16,18 +16,18 @@ RUN python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/sim
     && python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r /app/requirements.txt
 
 # Copy application source
-COPY datasource-hub-mcp/server_http.py /app/server_http.py
+COPY datasource-hub-mcp/server.py /app/server.py
 
 # Copy data sources directory from parent context
 COPY sources /app/sources
 
-# Expose MCP HTTP port
-EXPOSE 8000
+# Expose MCP HTTP port for agent (8001)
+EXPOSE 8001
 
 # Health check - verify the server process is running
 # Note: MCP servers don't have standard health endpoints, so we check if the process is alive
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD ps aux | grep -v grep | grep server_http.py || exit 1
+    CMD ps aux | grep -v grep | grep server.py || exit 1
 
-# Default command: start the MCP server
-CMD ["python", "server_http.py"]
+# Default command: start the Agent MCP server
+CMD ["python", "server.py"]

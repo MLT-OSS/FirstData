@@ -10,3 +10,6 @@ starlette>=0.37.0
 
 # Environment configuration
 python-dotenv>=1.0.0
+
+# LLM API (for agent)
+anthropic>=0.39.0
