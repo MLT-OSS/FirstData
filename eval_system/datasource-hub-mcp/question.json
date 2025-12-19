@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "mcp_server": "datasource-hub-mcp",
+    "created_at": "2025-12-19T14:30:00",
+    "total_tools": 1,
+    "total_tasks": 6,
+    "coverage": "100%"
+  },
+  "coverage_matrix": {
+    "datasource_search_llm_agent": ["task1", "task2", "task3", "task4", "task5", "task6"]
+  },
+  "tasks": [
+    {
+      "task_id": "task1",
+      "task_name": "简单关键词查询 - 中国人民银行数据",
+      "complexity": "simple",
+      "question": "我想找中国人民银行的数据",
+      "covered_tools": ["datasource_search_llm_agent"],
+      "expected_flow": [
+        {
+          "step": 1,
+          "description": "使用 Agent 搜索中国人民银行相关数据源",
+          "tool": "datasource_search_llm_agent",
+          "parameters": {
+            "params": {
+              "query": "我想找中国人民银行的数据"
+            }
+          },
+          "expected_result": "Agent 返回与中国人民银行相关的数据源推荐，包含推荐理由和使用建议"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "task_name": "复杂查询 - 多维度货币政策研究",
+      "complexity": "complex",
+      "question": "我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据，最好是官方权威数据",
+      "covered_tools": ["datasource_search_llm_agent"],
+      "expected_flow": [
+        {
+          "step": 1,
+          "description": "Agent 理解复杂的多维度需求（国家、时间范围、具体指标、权威性要求）",
+          "tool": "datasource_search_llm_agent",
+          "parameters": {
+            "params": {
+              "query": "我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据，最好是官方权威数据"
+            }
+          },
+          "expected_result": "Agent 返回符合多维度要求的数据源推荐（含地理、时间、领域、质量等维度），附带详细匹配理由"
+        }
+      ]
+    },
+    {
+      "task_id": "task3",
+      "task_name": "API需求查询 - 全球气候数据",
+      "complexity": "medium",
+      "question": "寻找有API访问的全球气候变化数据，需要包含温度和降水量",
+      "covered_tools": ["datasource_search_llm_agent"],
+      "expected_flow": [
+        {
+          "step": 1,
+          "description": "Agent 识别 API 访问方式要求和具体数据指标需求",
+          "tool": "datasource_search_llm_agent",
+          "parameters": {
+            "params": {
+              "query": "寻找有API访问的全球气候变化数据，需要包含温度和降水量"
+            }
+          },
+          "expected_result": "Agent 返回支持 API 访问的气候数据源，重点推荐包含温度和降水量指标的数据源"
+        }
+      ]
+    },
+    {
+      "task_id": "task4",
+      "task_name": "多地区对比查询 - 失业率统计",
+      "complexity": "medium",
+      "question": "美国和欧洲的失业率统计数据，要求权威性高、更新及时",
+      "covered_tools": ["datasource_search_llm_agent"],
+      "expected_flow": [
+        {
+          "step": 1,
+          "description": "Agent 理解跨地区对比需求和质量要求（权威性、及时性）",
+          "tool": "datasource_search_llm_agent",
+          "parameters": {
+            "params": {
+              "query": "美国和欧洲的失业率统计数据，要求权威性高、更新及时"
+            }
+          },
+          "expected_result": "Agent 返回覆盖美国和欧洲的失业率数据源，强调数据源的权威性和更新频率"
+        }
+      ]
+    },
+    {
+      "task_id": "task5",
+      "task_name": "模糊领域查询 - 社会发展指标",
+      "complexity": "simple",
+      "question": "世界银行有什么发展指标数据",
+      "covered_tools": ["datasource_search_llm_agent"],
+      "expected_flow": [
+        {
+          "step": 1,
+          "description": "Agent 处理模糊的机构查询，推荐相关数据集",
+          "tool": "datasource_search_llm_agent",
+          "parameters": {
+            "params": {
+              "query": "世界银行有什么发展指标数据"
+            }
+          },
+          "expected_result": "Agent 返回世界银行相关的发展指标数据源，列举主要数据集类型"
+        }
+      ]
+    },
+    {
+      "task_id": "task6",
+      "task_name": "极短查询 - 测试最小输入",
+      "complexity": "simple",
+      "question": "GDP数据",
+      "covered_tools": ["datasource_search_llm_agent"],
+      "expected_flow": [
+        {
+          "step": 1,
+          "description": "Agent 处理极简查询，推断用户可能的需求",
+          "tool": "datasource_search_llm_agent",
+          "parameters": {
+            "params": {
+              "query": "GDP数据"
+            }
+          },
+          "expected_result": "Agent 返回 GDP 相关数据源推荐，涵盖不同国家和地区的 GDP 统计数据"
+        }
+      ]
+    }
+  ]
+}

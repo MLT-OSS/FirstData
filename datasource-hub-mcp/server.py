@@ -167,10 +167,11 @@ AGENT_TOOLS = [
         "name": "filter_sources_by_criteria",
         "description": """
         按多个条件组合筛选数据源。
-        用于精确缩小搜索范围，支持地理、时间、访问方式等多维度筛选。
+        用于精确缩小搜索范围，支持地理、时间、访问方式、领域等多维度筛选。
 
         参数:
         - geographic_scope: 可选，地理范围（如 "China", "Global", "Asia"）
+        - domain: 可选，领域（如 "finance", "health", "economics", "energy"）
         - has_api: 可选，是否需要API访问
         - update_frequency: 可选，更新频率（如 "monthly", "daily"）
         - min_quality_score: 可选，最低质量评分（0-5）
@@ -184,6 +185,10 @@ AGENT_TOOLS = [
                 "geographic_scope": {
                     "type": "string",
                     "description": "地理范围"
+                },
+                "domain": {
+                    "type": "string",
+                    "description": "领域，如 finance, health, economics, energy"
                 },
                 "has_api": {
                     "type": "boolean",
@@ -253,7 +258,8 @@ def tool_list_sources_summary(country: Optional[str] = None,
             'name': ds['name'],
             'country': ds.get('organization', {}).get('country', ''),
             'domains': ds.get('coverage', {}).get('domains', []),
-            'quality_score': quality_score
+            'quality_score': quality_score,
+            'file_path': ds.get('file_path', '')
         })
 
         if len(results) >= limit:
@@ -317,7 +323,8 @@ def tool_search_sources_by_keywords(keywords: List[str],
                 'name': ds['name'],
                 'matched_fields': list(set(matched_fields)),
                 'match_score': score,
-                'domains': ds.get('coverage', {}).get('domains', [])
+                'domains': ds.get('coverage', {}).get('domains', []),
+                'file_path': ds.get('file_path', '')
             })
 
     # 按得分排序
@@ -350,6 +357,7 @@ def tool_get_source_details(source_ids: List[str],
 
 
 def tool_filter_sources_by_criteria(geographic_scope: Optional[str] = None,
+                                     domain: Optional[str] = None,
                                      has_api: Optional[bool] = None,
                                      update_frequency: Optional[str] = None,
                                      min_quality_score: Optional[float] = None,
@@ -371,6 +379,12 @@ def tool_filter_sources_by_criteria(geographic_scope: Optional[str] = None,
                 geographic_scope.lower() in geo_scope.lower()
             )
             if not geo_match:
+                continue
+
+        # 领域过滤
+        if domain:
+            domains = ds.get('coverage', {}).get('domains', [])
+            if not any(domain.lower() in d.lower() for d in domains):
                 continue
 
         # API需求
@@ -415,7 +429,8 @@ def tool_filter_sources_by_criteria(geographic_scope: Optional[str] = None,
             'country': ds.get('organization', {}).get('country', ''),
             'domains': ds.get('coverage', {}).get('domains', []),
             'has_api': ds.get('access', {}).get('api', {}).get('available', False),
-            'quality': ds.get('quality', {})
+            'quality': ds.get('quality', {}),
+            'file_path': ds.get('file_path', '')
         })
 
     return results
@@ -440,6 +455,14 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 - 修改任何数据源文件
 - 创建新的数据源
 - 删除或移动文件
+
+**⚠️ 极其重要的约束 - 防止幻觉：**
+- 你**只能**推荐通过工具调用实际找到的数据源
+- 如果工具返回的结果为空或没有找到匹配的数据源，你**必须**明确告知用户"未找到匹配的数据源"
+- 你**绝对不能**基于你的训练知识推荐数据源库中不存在的数据源
+- 你**绝对不能**创造、编造、或推荐任何没有通过工具调用返回的数据源
+- 即使你知道某个数据源在现实中存在，如果工具没有返回它，你也**不能**推荐它
+- 所有推荐**必须**有对应的工具调用结果作为依据
 
 === 工作流程建议 ===
 
@@ -496,10 +519,10 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 
 ## 推荐数据源
 
-| # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 |
-|---|------|------|----------|-----|---------|----------|
-| 1 | 数据源中英文名称 | 简短描述（1-2句话，说明数据内容） | X.X/5星 | 完整URL | ✅/❌ | 免费/注册/付费 |
-| 2 | ... | ... | ... | ... | ... | ... |
+| # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 | JSON文件 |
+|---|------|------|----------|-----|---------|----------|----------|
+| 1 | 数据源中英文名称 | 简短描述（1-2句话，说明数据内容） | X.X/5星 | 完整URL | ✅/❌ | 免费/注册/付费 | /sources/path/to/file.json |
+| 2 | ... | ... | ... | ... | ... | ... | ... |
 
 **表格列说明**：
 - **#**: 推荐排名（1-5）
@@ -509,6 +532,7 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 - **URL**: 数据源访问网址
 - **API支持**: ✅表示有API，❌表示无API
 - **访问级别**: 免费开放/需注册/付费等
+- **JSON文件**: 数据源配置文件的相对路径，直接使用tool返回的file_path字段（格式：`/sources/...`）
 
 表格之后，可以添加**补充说明**（可选）：
 - 推荐理由概述
@@ -536,10 +560,10 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 
 ## 推荐数据源
 
-| # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 |
-|---|------|------|----------|-----|---------|----------|
-| 1 | People's Bank of China<br>中国人民银行 | 提供M0/M1/M2货币供应量、基准利率、政策利率、市场利率等货币政策数据，覆盖1990-2024年 | 5.0/5星 | http://www.pbc.gov.cn | ❌ | 免费开放 |
-| 2 | National Bureau of Statistics<br>国家统计局 | 提供GDP、投资、消费等宏观经济数据，可用于分析货币政策传导效果，月度/季度更新 | 4.8/5星 | http://www.stats.gov.cn | ❌ | 免费开放 |
+| # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 | JSON文件 |
+|---|------|------|----------|-----|---------|----------|----------|
+| 1 | People's Bank of China<br>中国人民银行 | 提供M0/M1/M2货币供应量、基准利率、政策利率、市场利率等货币政策数据，覆盖1990-2024年 | 5.0/5星 | http://www.pbc.gov.cn | ❌ | 免费开放 | /sources/countries/asia/china/china-pbc.json |
+| 2 | National Bureau of Statistics<br>国家统计局 | 提供GDP、投资、消费等宏观经济数据，可用于分析货币政策传导效果，月度/季度更新 | 4.8/5星 | http://www.stats.gov.cn | ❌ | 免费开放 | /sources/countries/asia/china/china-nbs.json |
 
 **推荐理由**：
 - **人民银行**：中央银行官方数据，权威性最高，直接提供M1/M2货币供应量和利率完整时间序列
@@ -551,7 +575,11 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 - 不使用emoji
 - 并行调用工具以提高效率
 - 给出推荐后不要继续探索，直接结束
-- 如果没有找到合适的数据源，诚实告知并建议更宽泛的搜索词
+- **如果没有找到合适的数据源，诚实告知并建议更宽泛的搜索词**
+- **绝对禁止推荐工具未返回的数据源，即使你认为该数据源存在**
+- **当搜索结果为空时，必须明确说明"未找到匹配的数据源"，而不是基于知识编造推荐**
+- **重要：表格中必须包含"JSON文件"列，使用工具返回的file_path字段**
+- **file_path格式：工具返回的路径格式为"sources/..."，在表格中需要添加前导斜杠，格式为 `/sources/...`**
 """
 
 
@@ -588,12 +616,13 @@ def execute_tool(tool_name: str, tool_input: Dict) -> Any:
         return {"error": f"Unknown tool: {tool_name}"}
 
 
-def datasource_search_agent(user_query: str, max_iterations: int = 10) -> str:
+def datasource_search_agent(user_query: str, max_results: int = 5, max_iterations: int = 10) -> str:
     """
     LLM Agent搜索数据源
 
     Args:
         user_query: 用户查询
+        max_results: 返回的最大数据源数量
         max_iterations: 最大工具调用轮次
 
     Returns:
@@ -601,6 +630,9 @@ def datasource_search_agent(user_query: str, max_iterations: int = 10) -> str:
     """
     client = get_anthropic_client()
     model = os.getenv("QUERY_UNDERSTANDING_MODEL", "claude-sonnet-4-5-20250929")
+
+    # 将 max_results 添加到系统提示中
+    system_prompt = AGENT_SYSTEM_PROMPT + f"\n\n**本次查询限制**: 最多返回 {max_results} 个推荐数据源。"
 
     messages = [
         {
@@ -618,7 +650,7 @@ def datasource_search_agent(user_query: str, max_iterations: int = 10) -> str:
         response = client.messages.create(
             model=model,
             max_tokens=4096,
-            system=AGENT_SYSTEM_PROMPT,
+            system=system_prompt,
             tools=AGENT_TOOLS,
             messages=messages
         )
@@ -682,9 +714,33 @@ class AgentSearchInput(BaseModel):
 
     query: str = Field(
         ...,
-        description="用户的数据需求描述，可以是自然语言查询",
+        description=(
+            "自然语言数据需求描述，支持从简单关键词到复杂多维度查询\n\n"
+            "**格式**: 2-1000字符的自然语言文本\n\n"
+            "**复杂查询示例**:\n"
+            "  - \"我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据\"\n"
+            "  - \"寻找有API访问的全球气候变化数据，需要包含温度和降水量\"\n"
+            "  - \"美国和欧洲的失业率统计数据，要求权威性高、更新及时\"\n\n"
+            "**简单查询示例**:\n"
+            "  - \"GDP数据\"\n"
+            "  - \"中国人民银行\"\n"
+            "  - \"世界银行发展指标\"\n\n"
+            "**建议**: 查询越具体（包含地理范围、时间、领域等），推荐结果越精准"
+        ),
         min_length=2,
         max_length=1000
+    )
+
+    max_results: int = Field(
+        default=5,
+        description=(
+            "返回的最大数据源数量\n\n"
+            "**默认值**: 5\n"
+            "**范围**: 1-20\n"
+            "**说明**: 控制返回的推荐数据源数量，防止结果过多占用上下文窗口"
+        ),
+        ge=1,
+        le=20
     )
 
 
@@ -706,66 +762,103 @@ mcp = FastMCP(
         "openWorldHint": True
     }
 )
-async def datasource_search_llm_agent(params: AgentSearchInput) -> str:
+async def datasource_search_llm_agent(
+    query: str = Field(
+        ...,
+        description=(
+            "自然语言数据需求描述，支持从简单关键词到复杂多维度查询\n\n"
+            "**格式**: 2-1000字符的自然语言文本\n\n"
+            "**复杂查询示例**:\n"
+            "  - \"我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据\"\n"
+            "  - \"寻找有API访问的全球气候变化数据，需要包含温度和降水量\"\n"
+            "  - \"美国和欧洲的失业率统计数据，要求权威性高、更新及时\"\n\n"
+            "**简单查询示例**:\n"
+            "  - \"GDP数据\"\n"
+            "  - \"中国人民银行\"\n"
+            "  - \"世界银行发展指标\"\n\n"
+            "**建议**: 查询越具体（包含地理范围、时间、领域等），推荐结果越精准"
+        ),
+        min_length=2,
+        max_length=1000
+    ),
+    max_results: int = Field(
+        default=5,
+        description=(
+            "返回的最大数据源数量\n\n"
+            "**默认值**: 5\n"
+            "**范围**: 1-20\n"
+            "**说明**: 控制返回的推荐数据源数量，防止结果过多占用上下文窗口"
+        ),
+        ge=1,
+        le=20
+    )
+) -> str:
     """
     LLM Agent驱动的智能数据源搜索工具
 
-    这是一个完全由LLM驱动的智能搜索Agent。与传统关键词搜索不同，
-    Agent能够理解复杂的自然语言查询，自主决策使用哪些工具，
-    通过多步探索逐步缩小范围，最终给出精准推荐和详细理由。
+    这是一个完全由LLM驱动的智能搜索Agent。能够理解复杂的自然语言查询，
+    自主决策使用哪些工具，通过多步探索逐步缩小范围，最终给出精准推荐和详细理由。
 
-    **适用场景:**
-    - 复杂的数据需求描述（例如："我需要研究中国近10年的货币政策"）
+    **⚠️ 调用前检查清单（必读）:**
+    在调用此工具前，请先评估以下条件：
+    - [ ] 查询是否包含多个维度要求（地理+时间+领域+质量等）？
+    - [ ] 用户需求是否为复杂的自然语言描述（超出简单关键词）？
+    - [ ] 是否需要详细的推荐理由而非仅返回结果列表？
+    - [ ] 用户能否接受10-30秒的响应延迟？
+
+    **✅ 优先使用此工具的场景:**
+    - 复杂的数据需求描述
+      示例："我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据，最好是官方权威数据"
     - 需要多维度组合筛选（地理、时间、领域、质量要求等）
+      示例："寻找有API访问的全球气候变化数据，需要包含温度和降水量"
     - 希望获得详细的推荐理由和使用建议
     - 不确定具体关键词，用自然语言描述需求
+      示例："美国和欧洲的失业率统计数据，要求权威性高、更新及时"
 
-    **Agent能力:**
-    - 自主制定搜索策略
-    - 逐步探索：粗筛 → 精选 → 深入分析
-    - 并行优化：同时调用多个工具提高效率
-    - 智能推荐：Top 3-5数据源，附带详细理由
+    **❌ 使用此工具可能效率较低的场景:**
+    - 极简查询（如"GDP数据"、"中国人民银行"）- 虽然可以使用，但可能返回较慢
+    - 对响应时间非常敏感的场景（此工具需10-30秒）
+    - 仅需要快速浏览数据源列表
 
-    **与普通搜索的区别:**
-    - 普通搜索：关键词匹配 + 评分排序
-    - Agent搜索：理解意图 + 多步探索 + 推理决策
+    **工作原理:**
+    Agent会自主制定搜索策略，通过多步探索（粗筛 → 精选 → 深入分析）逐步缩小范围，
+    最终给出Top 3-5推荐数据源，并附带详细的匹配理由和使用建议。
 
-    Args:
-        params (AgentSearchInput): 搜索参数
-            - query (str, required): 自然语言查询，描述数据需求 (2-1000字符)
+    **返回值类型:**
+    str - 纯文本字符串，使用Markdown格式化
 
-    Returns:
-        str: Agent的推荐结果，包含：
-            - Top 3-5 推荐数据源
-            - 每个数据源的详细推荐理由
-            - 使用建议
-            - 性能统计信息
+    **返回内容结构:**
+    返回的字符串包含以下Markdown格式的内容块：
 
-    Examples:
-        **复杂查询:**
-        - "我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据"
-        - "寻找有API访问的全球气候变化数据，需要包含温度和降水量"
-        - "美国和欧洲的失业率统计数据，要求权威性高、更新及时"
+    1. **推荐数据源表格** - Top 3-5个推荐数据源的结构化信息
+       列包括：# (排名)、名称、描述、质量评分、URL、API支持、访问级别、JSON文件
 
-        **简单查询:**
-        - "中国人民银行的数据"
-        - "世界银行发展指标"
-        - "美国劳工统计局"
+    2. **推荐理由** - 详细说明每个数据源为什么匹配用户需求
 
-    注意:
-        - 首次调用需要加载所有数据源，可能需要几秒钟
-        - Agent会进行多轮LLM调用，耗时比普通搜索长
-        - 适合复杂查询，简单查询建议使用 datasource_search_sources
+    3. **使用建议**（可选）- 如何获取和使用这些数据源
+
+    **返回示例:**
+    ```markdown
+    ## 推荐数据源
+
+    | # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 | JSON文件 |
+    |---|------|------|----------|-----|---------|----------|----------|
+    | 1 | World Bank Open Data<br>世界银行开放数据 | 全球经济发展指标 | 4.8/5星 | https://data.worldbank.org | ✅ | 免费 | /sources/international/economics/worldbank.json |
+
+    **推荐理由**：
+    - World Bank提供全球最权威的发展指标数据，覆盖200+国家...
+    ```
+
+    注意：返回的是纯文本字符串，不是JSON对象。客户端应直接展示为Markdown内容。
+
+    **性能提示:**
+    ⏱️ 首次调用需要加载所有数据源（约5-10秒，取决于数据源数量）
+    ⏱️ Agent会进行多轮LLM调用（通常3-5轮），总耗时约10-30秒
+    ⏱️ 适合复杂查询，简单查询可能响应较慢但结果更精准
     """
     try:
-        start_time = time.time()
-        result = datasource_search_agent(params.query)
-        elapsed = time.time() - start_time
-
-        # 添加性能统计和版本信息
-        footer = f"\n\n---\n\n*搜索耗时: {elapsed:.2f}秒 | 由LLM Agent自主探索完成 | DataSource Hub MCP v{__version__}*"
-
-        return result + footer
+        result = datasource_search_agent(query, max_results)
+        return result
 
     except Exception as e:
         return f"搜索失败: {str(e)}"

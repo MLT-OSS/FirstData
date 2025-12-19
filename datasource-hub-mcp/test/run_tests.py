@@ -6,6 +6,7 @@ DataSource Hub MCP 自动化测试脚本
 """
 
 import json
+import re
 import time
 from datetime import datetime
 from pathlib import Path
@@ -284,10 +285,53 @@ def call_mcp_tool(query: str) -> Tuple[str, float, str]:
     """
     try:
         session = get_mcp_session()
-        # FastMCP工具参数需要包装在params中
-        return session.call_tool("datasource_search_llm_agent", {"params": {"query": query}})
+        # 修改后的工具使用平铺参数，不再需要params包装
+        return session.call_tool("datasource_search_llm_agent", {"query": query, "max_results": 5})
     except Exception as e:
         return "", 0.0, f"错误: {type(e).__name__} - {str(e)}"
+
+
+def normalize_datasource_name(name: str) -> str:
+    """
+    规范化数据源名称以便匹配
+    移除括号中的缩写、中文字符等
+    """
+    # 移除括号及其内容（如 "(NBS)", "(MOFCOM)"）
+    name = re.sub(r'\([^)]*\)', '', name)
+    # 移除中文字符
+    name = re.sub(r'[\u4e00-\u9fff]+', '', name)
+    # 移除多余空白
+    name = re.sub(r'\s+', ' ', name).strip()
+    return name.lower()
+
+
+def is_datasource_match(expected: str, recommended: str) -> bool:
+    """
+    检查期望的数据源名称是否与推荐的名称匹配
+
+    支持以下匹配方式：
+    1. 规范化后的子串匹配
+    2. 词汇重叠度匹配（>70%）
+    """
+    exp_norm = normalize_datasource_name(expected)
+    rec_norm = normalize_datasource_name(recommended)
+
+    # 方法1: 规范化后检查子串
+    if exp_norm in rec_norm or rec_norm in exp_norm:
+        return True
+
+    # 方法2: 检查词汇重叠度
+    exp_words = set(exp_norm.split())
+    rec_words = set(rec_norm.split())
+
+    if not exp_words or not rec_words:
+        return False
+
+    # 计算重叠度：期望词汇中有多少比例出现在推荐词汇中
+    overlap = len(exp_words & rec_words)
+    overlap_ratio = overlap / len(exp_words)
+
+    return overlap_ratio >= 0.7
 
 
 def extract_datasources_from_response(response: str) -> List[str]:
@@ -337,7 +381,8 @@ def run_test_case(test_case: Dict) -> Dict:
         status = "PASS" if len(recommended) == 0 or "未找到" in response else "FAIL"
     else:
         # 正面测试：检查是否推荐了期望的数据源
-        matches = sum(1 for exp in expected if any(exp.lower() in rec.lower() for rec in recommended))
+        # 使用改进的匹配逻辑，支持处理缩写和中文字符
+        matches = sum(1 for exp in expected if any(is_datasource_match(exp, rec) for rec in recommended))
         coverage = matches / len(expected) if expected else 0
         status = "PASS" if coverage >= 0.5 else "PARTIAL" if coverage > 0 else "FAIL"
 
@@ -427,8 +472,8 @@ def generate_report(results: List[Dict], output_file: Path):
             if result.get('recommended_sources'):
                 lines.append("**推荐数据源**:")
                 for src in result['recommended_sources']:
-                    # 检查是否匹配期望
-                    matched = any(exp.lower() in src.lower() for exp in result.get('expected_sources', []))
+                    # 检查是否匹配期望（使用改进的匹配逻辑）
+                    matched = any(is_datasource_match(exp, src) for exp in result.get('expected_sources', []))
                     prefix = "✅" if matched else "  "
                     lines.append(f"{prefix} {src}")
                 lines.append("")
