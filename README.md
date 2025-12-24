@@ -5,9 +5,9 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-103%2F950+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-104%2F950+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-11%25-yellow.svg)](ROADMAP.md)
-[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.8%2F5.0-brightgreen.svg)](#)
+[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.7%2F5.0-brightgreen.svg)](#)
 
 ---
 
@@ -103,10 +103,10 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 103 / 950+ | 11% |
+| **总数据源** | 104 / 950+ | 11% |
 | **国际组织** | 36 / 100+ | 36% |
 | **各国官方** | 24 / 200+ | 12% |
-| **中国数据源** | 7 / 488 | 1% |
+| **中国数据源** | 8 / 488 | 2% |
 | **学术研究** | 19 / 50+ | 38% |
 | **行业领域** | 17 / 150+ | 11% |
 | **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
@@ -140,7 +140,7 @@ datasource/
 
 📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
 
-#### 🇨🇳 中国数据源 (7个)
+#### 🇨🇳 中国数据源 (8个)
 <!-- - ✅ 国家统计局 (NBS) - 权威性 5.0 💎
 - ✅ 中国人民银行 (PBC) - 权威性 5.0 💎
 - ✅ 国家金融监督管理总局 (NFRA) - 权威性 5.0 💎
@@ -365,9 +365,9 @@ for json_file in Path('sources').rglob('*.json'):
 | 指标 | 状态 |
 |------|------|
 | **当前里程碑** | M0 完成 ✅ / M1 进行中 🚧 |
-| **总体进度** | 35 / 950+ (4%) |
-| **完成度** | 国际组织 18%、中国 1%、学术 14% |
-| **最近更新** | 2025-12-11 |
+| **总体进度** | 104 / 950+ (11%) |
+| **完成度** | 国际组织 36%、中国 2%、学术 38% |
+| **最近更新** | 2025-12-24 |
 | **质量评分** | ⭐⭐⭐⭐⭐ (4.7/5.0) |
 
 📊 **详细状态**: [PROJECT_STATUS.md](PROJECT_STATUS.md)

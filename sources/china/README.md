@@ -9,8 +9,8 @@ This directory contains metadata for official Chinese data sources. According to
 ## 当前状态 Current Status
 
 **目录结构**: ✅ 已完成 (2025-12-09)
-**JSON文件**: 7个数据源已创建
-**完成度**: 7/488 (1.4%)
+**JSON文件**: 8个数据源已创建
+**完成度**: 8/488 (1.6%)
 
 本次创建了7个高优先级数据源样例：
 
@@ -37,6 +37,11 @@ This directory contains metadata for official Chinese data sources. According to
   - 权威性: ⭐⭐⭐⭐⭐ (4.8/5.0)
   - 涵盖: 股票市场、IPO、上市公司、债券、基金数据
   - 更新频率: 月度
+
+- **[hkex.json](finance/securities/hkex.json)** - 香港交易所 (Hong Kong Exchanges and Clearing)
+  - 权威性: ⭐⭐⭐⭐⭐ (4.7/5.0)
+  - 涵盖: 证券交易数据、衍生品数据、上市公司信息、市场指数
+  - 更新频率: 实时
 
 ### 3. 经济贸易 Economy & Trade
 #### 对外贸易 Foreign Trade
@@ -81,12 +86,13 @@ This directory contains metadata for official Chinese data sources. According to
 sources/china/
 ├── national/                   # 国家级综合统计 (1/6 个数据源)
 │   └── nbs.json
-├── finance/                    # 金融财政 (3/35 个数据源)
+├── finance/                    # 金融财政 (4/35 个数据源)
 │   ├── banking/                # 银行系统
 │   │   ├── pbc.json
 │   │   └── nfra.json
 │   ├── securities/             # 证券市场
-│   │   └── csrc.json
+│   │   ├── csrc.json
+│   │   └── hkex.json
 │   ├── bonds/                  # 债券市场
 │   ├── insurance/              # 保险行业
 │   ├── funds/                  # 基金行业

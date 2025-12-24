@@ -20,81 +20,48 @@ description: Extract datasource information from websites and generate validated
 
 ### 1. 获取网站内容
 
-#### 步骤 1：识别输入类型
+#### 步骤 1：确认输入数据源
 
-智能识别三种输入格式：
+用户会输入数据源的名称（可能包括中英文）以及所属的类别，识别数据源。
 
-**格式 1：URL 输入**
-- 输入以 `http://` 或 `https://` 开头
-- 示例: `https://www.worldbank.org`
-- 处理: 直接使用该 URL
+**输入格式**：
+- 数据源名称（中文/英文）
+- 类别信息（主类别/子类别）
 
-**格式 2：带类别的数据源名字**
-- 输入包含 `|` 分隔符
-- 格式: `数据源名称 | main_category/sub_category | 中文类别`
-- 示例: `WHO Global Health Observatory | international/health | 国际组织/健康`
-- 处理:
-  - 解析出数据源名称: `WHO Global Health Observatory`
-  - 解析出类别路径: `international/health`
-  - 使用 WebSearch 搜索数据源官方网站，用 AskUserQuestion 确认 URL
-  - 保存路径直接使用解析出的类别路径
+**重要**：记住用户输入的类别信息，在步骤5保存文件时会使用。
 
-**格式 3：纯数据源名字**
-- 输入不含 `http://`、`https://` 或 `|`
-- 示例: `World Bank`
-- 处理:
-  - 使用 WebSearch 搜索官方网站，用 AskUserQuestion 确认 URL
-  - 分类路径需要通过后续的分类逻辑确定（见步骤 5）
+#### 步骤 2：采用两层策略获取页面内容
 
-**识别伪代码**：
-```python
-if input.startswith(('http://', 'https://')):
-    input_type = "url"
-    url = input
-elif '|' in input:
-    input_type = "name_with_category"
-    parts = input.split('|')
-    datasource_name = parts[0].strip()
-    category_path = parts[1].strip()  # "main_cat/sub_cat"
-    # WebSearch datasource_name
-else:
-    input_type = "name_only"
-    datasource_name = input.strip()
-    # WebSearch datasource_name
-```
+##### 第一层：Web Search 定位官网
 
-#### 步骤 2：采用两层降级策略
+使用 `WebSearch` 工具定位**该数据源权威的官方网站**：
 
-##### 第一层：Web Search / WebFetch（主要策略）
+- 搜索数据源的官方网站链接
+- 确认网站的权威性和可靠性
+- 获取主要页面URL
 
-结合使用 `WebSearch` 和 `WebFetch` 获取信息：
+##### 第二层：WebFetch 或 Playwright 获取页面内容
 
-**Web Search 搜索**：
-- "{组织名称} data/API/methodology/about" 等多角度搜索
-- 快速获取概览信息和关键 URL
+根据网站特征选择合适的工具获取页面内容：
 
-**WebFetch 验证**：
-- 直接访问 URL 提取静态页面详细内容
-- 获取组织信息、关键 URL、数据覆盖范围、更新频率、许可协议等
+**方案 A：WebFetch**
 
-##### 第二层：Playwright 浏览器自动化
+适用于静态网页或服务端渲染的页面：
+- 直接获取HTML内容
+- 提取组织信息、关键 URL、数据覆盖范围、更新频率、许可协议等
+- 速度快，资源消耗少
 
-**触发条件**（满足任一即可）:
+**方案 B：Playwright**
+
+在以下情况使用 Playwright 浏览器自动化：
 - JavaScript 渲染页面（WebFetch 返回内容很少或为空）
 - 需要登录或认证才能查看内容
 - 关键信息在交互式元素中（下拉菜单、折叠面板、Tab）
 - 用户明确要求使用浏览器
 
-**降级策略**:
-```
-第一层: WebSearch + WebFetch（静态内容）
-  ↓ 如遇 JS 渲染/需要登录/交互内容
-第二层: Playwright（浏览器自动化）→ 告知用户 → 持续反馈
-```
-
 ---
 
-### 2. 信息提取
+### 2. json填充
 
 从网页提取以下信息填充 JSON：
 
@@ -116,7 +83,7 @@ else:
 - **不允许 null 的字段**：必须提供有效值或删除字段
 - **必填字段**：必须提供有效值，可以向用户询问
 
-**参考示例**: 现有的 sources/ 目录下的JSON文件
+**参考示例**: 现有的 sources/ 目录下的JSON文件，如果要进行参考。只使用一个示例，避免混淆。
 
 ---
 
@@ -141,7 +108,7 @@ else:
 
 ### 4. 生成 JSON
 
-- 参考 schema 文件: `reference/datasource-schema.json`
+- 参考 schema 文件: [datasource-schema.json](reference/datasource-schema.json)
 - 填充所有必填字段，尽可能填充可选字段
 - 确保符合JSON格式规范
 
@@ -151,28 +118,20 @@ else:
 
 #### 确定保存路径
 
-**优先级1：使用输入中的类别信息**（推荐）
+**优先级1：使用步骤1中记住的类别信息**（推荐）
 
-如果用户输入包含类别信息（格式：`数据源名称 | main_category/sub_category | 中文类别`），直接解析并使用：
+使用步骤1中用户输入的类别信息（主类别/子类别）直接构建保存路径：
 
-```python
-# 输入示例：
-# "WHO Global Health Observatory | international/health | 国际组织/健康"
-
-# 解析逻辑：
-if '|' in input_line:
-    parts = input_line.split('|')
-    datasource_name = parts[0].strip()
-    category_path = parts[1].strip()  # 如: "international/health"
-
-    # 分解路径
-    main_cat, sub_cat = category_path.split('/')
-
-    # 构建完整路径
-    file_path = f"sources/{main_cat}/{sub_cat}/{datasource_id}.json"
+```
+sources/{主类别}/{子类别}/{数据源ID}.json
 ```
 
-**类别路径映射表**：
+例如：
+- 输入类别：`international/health`
+- 数据源ID：`who-gho`
+- 保存路径：`sources/international/health/who-gho.json`
+
+**类别路径映射表**（参考）：
 
 | 主类别 | 子类别示例 | 完整路径示例 |
 |-------|----------|-------------|
@@ -182,9 +141,9 @@ if '|' in input_line:
 | sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `sources/sectors/{sub_cat}/` |
 | china | national, finance, economy, etc. | `sources/china/{sub_cat}/` |
 
-**优先级2：使用 datasource-classifier Sub-Agent**
+**优先级2：使用 datasource-classifier Sub-Agent**（仅在步骤1无类别信息时）
 
-如果输入不包含类别信息且可用classifier，调用 `@datasource-classifier`：
+如果步骤1中用户未提供类别信息且可用classifier，调用 `@datasource-classifier`：
 
 ```
 @datasource-classifier
@@ -195,14 +154,6 @@ if '|' in input_line:
 - 领域: {coverage.domains}
 ```
 
-**优先级3：快速参考**（无法使用前两种方法时）
-
-- 中国官方 → `sources/china/{domain}/{subdomain}/`
-- 国际组织 → `sources/international/{domain}/`
-- 学术机构 → `sources/academic/{domain}/`
-- 其他国家 → `sources/countries/{continent}/{country}/`
-- 行业部门 → `sources/sectors/{industry}/`
-
 #### 保存操作
 
 **直接覆盖模式**：
@@ -212,7 +163,7 @@ if '|' in input_line:
 - 文件命名：`{分类路径}/{数据源名称}.json`
 
 **操作步骤**:
-1. 确定保存路径（使用上述分类逻辑）
+1. 使用步骤1中记住的类别信息确定保存路径
 2. 创建必要的目录结构
 3. 直接写入JSON文件（覆盖已有文件）
 4. 报告保存位置
@@ -253,47 +204,6 @@ python scripts/check_completeness.py sources/path/to/file.json
 - 总体完成度: ≥70%
 
 **说明**：所有验证脚本位于当前工作目录的 `scripts/` 目录，由批处理脚本自动复制到临时工作目录。
-
----
-
-## 输出报告
-
-执行完成后，输出标准化JSON报告：
-
-```json
-{
-  "status": "success",
-  "datasource_id": "intl-worldbank",
-  "datasource_name": {
-    "en": "World Bank",
-    "zh": "世界银行"
-  },
-  "file_path": "sources/international/economics/worldbank.json",
-  "operation": "create",
-  "validation": {
-    "schema": true,
-    "url_check": true,
-    "completeness": 0.95
-  },
-  "quality": {
-    "authority_level": 5,
-    "average_score": 4.8
-  },
-  "execution_time": "120s",
-  "work_directory": "/tmp/ds-worldbank-xxx"
-}
-```
-
-**失败时的报告**：
-```json
-{
-  "status": "failed",
-  "datasource_name": "World Bank",
-  "error": "URL validation failed",
-  "details": "primary_url returned 404",
-  "file_path": null
-}
-```
 
 ---
 
@@ -343,8 +253,6 @@ python scripts/check_completeness.py sources/path/to/file.json
 
 - [datasource-schema.json](reference/datasource-schema.json) - JSON Schema 标准
 - [quality-criteria.md](reference/quality-criteria.md) - 质量评分标准
-<!-- - [data-acquisition.md](reference/data-acquisition.md) - 数据获取策略 -->
-<!-- - [information-extraction.md](reference/information-extraction.md) - 信息提取指南 -->
 
 ---
 

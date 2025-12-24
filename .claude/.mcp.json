@@ -16,7 +16,14 @@
     },
     "datasource_hub": {
       "type": "http",
-      "url": "http://localhost:8000/mcp"
+      "url": "http://localhost:8001/mcp"
+    },
+    "Data_saver": {
+      "type": "http",
+      "url": "https://datasaver-test.deepminingai.com/api/dev_ff94579333f448ccea1a/mcp",
+      "headers": {
+        "Authorization": "Bearer mb_86bf50e52bdfb05028fb75b0c3"
+      }
     }
   }
 }

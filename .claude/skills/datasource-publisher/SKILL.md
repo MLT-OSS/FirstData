@@ -219,8 +219,11 @@ python scripts/generate_indexes.py
 
 #### 执行提交
 
+**只提交必要文件**：
+
 ```bash
-git add .
+# 只添加数据源相关文件（不添加其他文件）
+git add sources/ tasks/ README.md ROADMAP.md indexes/
 
 # 单个数据源
 git commit -m "feat: 添加{name}数据源 ({id})
@@ -234,8 +237,13 @@ git commit -m "feat: 添加{name}数据源 ({id})
 # 批量
 git commit -m "feat: 批量添加{领域}数据源 ({count}个)"
 
-git push origin feat/batch_file_isolate
+git push
 ```
+
+**重要**：
+- ❌ 不使用 `git add .`（避免提交临时文件、缓存等）
+- ✅ 只添加数据源相关的文件和目录
+- ✅ 确保不提交 `.claude/` 目录下的临时文件
 
 
 ## 关键原则
