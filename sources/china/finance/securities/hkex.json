@@ -1,8 +1,8 @@
 {
   "id": "hkex",
   "name": {
-    "en": "Hong Kong Exchanges and Clearing Limited",
-    "zh": "香港交易及结算所有限公司",
+    "en": "Hong Kong Exchanges and Clearing Limited (HKEX)",
+    "zh": "香港交易及结算所有限公司（港交所）",
     "native": "香港交易及结算所有限公司"
   },
   "organization": {
@@ -13,7 +13,7 @@
   },
   "description": {
     "en": "HKEX operates securities, derivatives, and commodities markets in Hong Kong and is a leading global exchange group. It provides comprehensive market data including real-time trading data, listed company disclosures, market indices, and clearing and settlement information. HKEX also operates HKEXnews, the official platform for listed company announcements and regulatory filings.",
-    "zh": "香港交易所经营香港的证券、衍生品和商品市场，是全球领先的交易所集团。提供全面的市场数据，包括实时交易数据、上市公司披露信息、市场指数以及清算结算信息。香港交易所还运营HKEXnews，这是上市公司公告和监管文件的官方平台。"
+    "zh": "港交所（香港交易所）经营香港的证券、衍生品和商品市场，是全球领先的交易所集团。提供全面的市场数据，包括实时交易数据、上市公司披露信息、市场指数以及清算结算信息。港交所还运营HKEXnews（披露易），这是上市公司公告、招股书、IPO信息和监管文件的官方平台。"
   },
   "access": {
     "primary_url": "https://www.hkex.com.hk/",
@@ -138,6 +138,7 @@
   },
   "tags": [
     "hong-kong",
+    "港交所",
     "stock-exchange",
     "securities",
     "derivatives",
@@ -145,6 +146,10 @@
     "market-data",
     "hkex",
     "capital-markets",
-    "stock-connect"
+    "stock-connect",
+    "ipo",
+    "prospectus",
+    "招股书",
+    "上市公司"
   ]
 }

@@ -21,6 +21,7 @@ from starlette.middleware import Middleware
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import JSONResponse
 from starlette.requests import Request
+import httpx
 
 # 加载环境变量
 load_dotenv()
@@ -33,6 +34,7 @@ if (_SCRIPT_DIR / "sources").exists():
 else:
     REPO_ROOT = _SCRIPT_DIR.parent
     SOURCES_DIR = REPO_ROOT / "sources"
+
 
 
 # ============================================================================
@@ -211,6 +213,38 @@ AGENT_TOOLS = [
                     "description": "时间范围"
                 }
             }
+        }
+    },
+    {
+        "name": "web_search",
+        "description": """
+        搜索最新新闻和信息，仅用于获取新闻线索，帮助了解当前热点事件。
+
+        ⚠️ 重要约束：
+        - 此工具返回的新闻内容**仅作为参考线索**，不应作为可信数据源
+        - 新闻用于了解最新动态，帮助确定需要搜索哪些**权威数据源**
+        - 最终推荐时必须推荐数据源，而非新闻链接
+
+        使用场景示例：
+        - 用户提到"最新上市公司"、"近期IPO" → 搜索IPO相关新闻 → 确定需要证券交易所数据源
+        - 用户提到"最新经济政策" → 搜索政策新闻 → 确定需要央行、统计局等官方数据源
+        - 用户提到"最近的气候事件" → 搜索气候新闻 → 确定需要气象局、环境部门数据源
+
+        参数:
+        - query: 必需，搜索查询（如 "IPO上市", "货币政策", "气候变化"）
+
+        返回: 网页搜索结果，包含标题、URL和摘要
+        注意: 这些结果仅供参考，用于理解用户需求背景，不能作为最终推荐的数据源
+        """,
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "搜索查询字符串"
+                }
+            },
+            "required": ["query"]
         }
     }
 ]
@@ -513,6 +547,23 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 - 适合：缩小到少数候选后，获取完整信息对比
 - 示例：初选出3个候选 → get_source_details(["china-pbc", "china-nbs", "china-customs"])
 
+**web_search**
+- 用于：搜索最新新闻和网络信息，了解当前热点事件和最新动态
+- 适合：用户提到"最新"、"近期"、"最近"等时间词时
+- ⚠️ 重要约束：
+  * 网络搜索**仅用于获取线索**，帮助理解用户需求背景
+  * **绝对不能**将搜索结果链接作为最终推荐的数据源
+  * 必须基于搜索内容，推荐对应的**权威数据源**
+- 使用场景：
+  * 用户问"最新IPO上市公司" → 搜索IPO新闻 → 推荐证券交易所数据源（如上交所、深交所、港交所）
+  * 用户问"近期货币政策" → 搜索货币政策新闻 → 推荐央行数据源
+  * 用户问"最近的气候数据" → 搜索气候新闻 → 推荐气象局、环境部门数据源
+- 示例：用户问"最新上市的科技公司有哪些数据？"
+  1. web_search(query="IPO 科技公司上市 2024")
+  2. 基于搜索结果了解到近期有多家科技公司在A股/港股上市
+  3. search_sources_by_keywords(keywords=["stock exchange", "IPO", "listing"])
+  4. 推荐：上海证券交易所、深圳证券交易所、香港交易所等数据源
+
 === 输出格式要求 ===
 
 最终推荐**必须**使用以下Markdown表格格式：
@@ -580,6 +631,12 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 - **当搜索结果为空时，必须明确说明"未找到匹配的数据源"，而不是基于知识编造推荐**
 - **重要：表格中必须包含"JSON文件"列，使用工具返回的file_path字段**
 - **file_path格式：工具返回的路径格式为"sources/..."，在表格中需要添加前导斜杠，格式为 `/sources/...`**
+
+**关于web_search工具的特别约束：**
+- **web_search仅用于了解背景和最新动态，绝对不能作为可信数据源**
+- **最终推荐必须是权威数据源（如政府机构、交易所、国际组织等），而不是搜索结果链接**
+- **搜索内容仅供参考，用于判断用户需要哪类数据，然后搜索对应的官方数据源**
+- 如果用户查询中包含"最新"、"近期"等时间词，可以先使用 web_search 了解动态，再推荐数据源
 """
 
 
@@ -602,6 +659,245 @@ def get_anthropic_client():
         return Anthropic(api_key=auth_token)
 
 
+# MCP 会话缓存（简单的内存缓存）
+_mcp_session_cache = {}
+
+def _get_mcp_session(mcp_url: str, headers: dict) -> Optional[str]:
+    """
+    获取或创建 MCP 会话
+
+    返回 session ID，如果失败返回 None
+    """
+    cache_key = mcp_url
+
+    # 检查缓存
+    if cache_key in _mcp_session_cache:
+        session_id = _mcp_session_cache[cache_key]
+        print(f"[INFO] Using cached MCP session: {session_id[:8]}...")
+        return session_id
+
+    # 初始化新会话
+    try:
+        init_payload = {
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "initialize",
+            "params": {
+                "protocolVersion": "2024-11-05",
+                "capabilities": {},
+                "clientInfo": {
+                    "name": "datasource-hub-agent",
+                    "version": __version__
+                }
+            }
+        }
+
+        print(f"[INFO] Initializing MCP session...")
+
+        with httpx.Client(timeout=30.0, follow_redirects=True) as client:
+            response = client.post(
+                mcp_url.rstrip('/'),
+                json=init_payload,
+                headers=headers
+            )
+
+            # 从响应头获取 session ID
+            session_id = response.headers.get('mcp-session-id')
+
+            if session_id:
+                print(f"[INFO] MCP session initialized: {session_id[:8]}...")
+                _mcp_session_cache[cache_key] = session_id
+                return session_id
+            else:
+                # 尝试从响应体获取
+                try:
+                    result = response.json()
+                    if "result" in result and isinstance(result["result"], dict):
+                        session_id = result["result"].get("sessionId")
+                        if session_id:
+                            _mcp_session_cache[cache_key] = session_id
+                            return session_id
+                except:
+                    pass
+
+                print(f"[WARN] No session ID in response")
+                return None
+
+    except Exception as e:
+        print(f"[ERROR] Failed to initialize MCP session: {e}")
+        return None
+
+
+def tool_web_search(query: str) -> List[Dict]:
+    """
+    网络搜索工具实现
+
+    调用外部 HTTP MCP 服务器的 web_search 工具
+    使用 MCP SSE (Server-Sent Events) 传输协议
+    """
+    mcp_url = os.getenv("WEB_SEARCH_MCP_URL")
+    mcp_token = os.getenv("WEB_SEARCH_MCP_AUTH_TOKEN")
+
+    if not mcp_url:
+        print("[WARN] WEB_SEARCH_MCP_URL not configured, web_search unavailable")
+        return [{
+            "title": "Web Search 配置缺失",
+            "snippet": "WEB_SEARCH_MCP_URL 环境变量未配置。请在 .env 文件中添加外部 MCP 服务器配置。",
+            "url": "",
+            "source": "system"
+        }]
+
+    try:
+        # MCP SSE 协议要求的 headers
+        headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, text/event-stream"
+        }
+        if mcp_token:
+            headers["Authorization"] = f"Bearer {mcp_token}"
+
+        # 获取或创建会话
+        session_id = _get_mcp_session(mcp_url, headers)
+        if session_id:
+            headers["mcp-session-id"] = session_id
+
+        # JSON-RPC 2.0 格式的工具调用请求
+        payload = {
+            "jsonrpc": "2.0",
+            "id": int(time.time()),  # 使用时间戳作为请求 ID
+            "method": "tools/call",
+            "params": {
+                "name": "web_search",
+                "arguments": {
+                    "query": query
+                }
+            }
+        }
+
+        print(f"[INFO] Calling external MCP web_search via JSON-RPC")
+        print(f"[INFO] URL: {mcp_url}")
+        print(f"[INFO] Query: {query}")
+
+        # 同步 HTTP 调用
+        with httpx.Client(timeout=30.0, follow_redirects=True) as client:
+            response = client.post(
+                mcp_url.rstrip('/'),
+                json=payload,
+                headers=headers
+            )
+
+            # 如果返回 400 且提示 session 问题，清除缓存并重试
+            if response.status_code == 400:
+                try:
+                    error_result = response.json()
+                    if "error" in error_result and "session" in error_result["error"].get("message", "").lower():
+                        print("[WARN] Session expired, retrying with new session...")
+                        _mcp_session_cache.pop(mcp_url, None)
+
+                        # 重新获取session并重试
+                        session_id = _get_mcp_session(mcp_url, headers)
+                        if session_id:
+                            headers["mcp-session-id"] = session_id
+                            response = client.post(
+                                mcp_url.rstrip('/'),
+                                json=payload,
+                                headers=headers
+                            )
+                except:
+                    pass
+
+            response.raise_for_status()
+
+            # 检查响应类型
+            content_type = response.headers.get('content-type', '')
+
+            # 处理 SSE 响应
+            if 'text/event-stream' in content_type:
+                print(f"[INFO] Received SSE stream response")
+                # 解析 SSE 格式: "event: message\ndata: {json}\n\n"
+                lines = response.text.split('\n')
+                for line in lines:
+                    if line.startswith('data: '):
+                        json_data = line[6:]  # 移除 "data: " 前缀
+                        try:
+                            result = json.loads(json_data)
+                            print(f"[INFO] Parsed SSE data: {json.dumps(result, ensure_ascii=False)[:200]}...")
+                            break
+                        except json.JSONDecodeError as e:
+                            print(f"[WARN] Failed to parse SSE data: {e}")
+                            continue
+                else:
+                    print(f"[ERROR] No valid SSE data found in response")
+                    return [{"title": "解析错误", "snippet": "SSE响应中未找到有效数据", "url": "", "source": "system"}]
+            else:
+                # 标准 JSON 响应
+                result = response.json()
+                print(f"[INFO] MCP response: {json.dumps(result, ensure_ascii=False)[:200]}...")
+
+            # 解析 JSON-RPC 响应
+            if isinstance(result, dict):
+                # 检查是否有错误
+                if "error" in result:
+                    error = result["error"]
+                    print(f"[ERROR] MCP returned error: {error}")
+                    return [{
+                        "title": "MCP 调用错误",
+                        "snippet": error.get("message", str(error)),
+                        "url": "",
+                        "source": "system"
+                    }]
+
+                # 获取结果
+                if "result" in result:
+                    rpc_result = result["result"]
+
+                    # MCP 标准响应格式: {"content": [...], "isError": false}
+                    if isinstance(rpc_result, dict) and "content" in rpc_result:
+                        content = rpc_result["content"]
+
+                        if isinstance(content, list) and len(content) > 0:
+                            # 提取文本内容
+                            first_content = content[0]
+                            if isinstance(first_content, dict) and "text" in first_content:
+                                try:
+                                    # 尝试解析 JSON 文本
+                                    return json.loads(first_content["text"])
+                                except json.JSONDecodeError:
+                                    # 如果不是 JSON，返回原始文本
+                                    return [{
+                                        "title": "Search Results",
+                                        "snippet": first_content["text"],
+                                        "url": "",
+                                        "source": "web_search"
+                                    }]
+
+                        return content
+                    else:
+                        # 直接返回结果
+                        return rpc_result if isinstance(rpc_result, list) else [rpc_result]
+
+            return [{"title": "Unexpected Response", "snippet": str(result), "url": "", "source": "system"}]
+
+    except httpx.HTTPError as e:
+        print(f"[ERROR] HTTP error calling MCP service: {e}")
+        return [{
+            "title": "搜索服务调用失败",
+            "snippet": f"HTTP 错误: {str(e)}。请检查 MCP 服务器配置和网络连接。",
+            "url": "",
+            "source": "system"
+        }]
+    except Exception as e:
+        print(f"[ERROR] Unexpected error calling MCP service: {e}")
+        import traceback
+        traceback.print_exc()
+        return [{
+            "title": "搜索工具调用失败",
+            "snippet": f"未知错误: {str(e)}",
+            "url": "",
+            "source": "system"
+        }]
+
+
 def execute_tool(tool_name: str, tool_input: Dict) -> Any:
     """执行工具调用"""
     if tool_name == "list_sources_summary":
@@ -612,6 +908,8 @@ def execute_tool(tool_name: str, tool_input: Dict) -> Any:
         return tool_get_source_details(**tool_input)
     elif tool_name == "filter_sources_by_criteria":
         return tool_filter_sources_by_criteria(**tool_input)
+    elif tool_name == "web_search":
+        return tool_web_search(**tool_input)
     else:
         return {"error": f"Unknown tool: {tool_name}"}
 
@@ -646,6 +944,8 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
     while iteration < max_iterations:
         iteration += 1
 
+        print(f"\n[Agent] === 第 {iteration} 轮迭代 ===")
+
         # 调用LLM
         response = client.messages.create(
             model=model,
@@ -654,6 +954,15 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
             tools=AGENT_TOOLS,
             messages=messages
         )
+
+        # 打印response的内容块
+        print(f"[Agent] Response包含 {len(response.content)} 个内容块:")
+        for i, block in enumerate(response.content):
+            print(f"[Agent]   块{i+1}: type={block.type}")
+            if block.type == "text":
+                print(f"[Agent]       text内容: {block.text[:100]}...")
+            elif hasattr(block, 'name'):
+                print(f"[Agent]       工具名称: {block.name}")
 
         # 检查是否需要工具调用
         if response.stop_reason == "end_turn":
@@ -679,14 +988,32 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
                     print(f"[Agent] 调用工具: {block.name}")
                     print(f"[Agent] 参数: {json.dumps(block.input, ensure_ascii=False)}")
 
-                    # 执行工具
+                    # 执行工具（web_search由Anthropic API自动处理，这里只处理本地工具）
                     result = execute_tool(block.name, block.input)
+
+                    # 打印工具结果（用于调试）
+                    if block.name == "web_search":
+                        print(f"[Agent] ⚠️ web_search由Anthropic API处理，结果将在API响应中返回")
+                    else:
+                        print(f"[Agent] 工具返回结果: {json.dumps(result, ensure_ascii=False)[:200]}...")
 
                     tool_results.append({
                         "type": "tool_result",
                         "tool_use_id": block.id,
                         "content": json.dumps(result, ensure_ascii=False)
                     })
+
+            # 打印所有工具结果
+            print(f"\n[Agent] 收集到 {len(tool_results)} 个工具结果:")
+            for i, tr in enumerate(tool_results):
+                print(f"[Agent]   结果{i+1}: tool_use_id={tr['tool_use_id']}")
+                content = tr['content']
+                # 尝试解析JSON以美化输出
+                try:
+                    parsed = json.loads(content)
+                    print(f"[Agent]       内容: {json.dumps(parsed, ensure_ascii=False, indent=2)[:500]}...")
+                except:
+                    print(f"[Agent]       内容(原始): {content[:500]}...")
 
             # 添加工具结果
             messages.append({
@@ -746,11 +1073,241 @@ class AgentSearchInput(BaseModel):
 
 # 初始化FastMCP（HTTP模式）
 mcp = FastMCP(
-    "datasource_hub_agent",
+    "datasource_hub",
     host="0.0.0.0",
     port=8001
 )
 
+
+# ============================================================================
+# 独立MCP工具定义（直接暴露给Claude Code）
+# ============================================================================
+
+@mcp.tool(
+    name="datasource_list_sources",
+    annotations={
+        "title": "浏览数据源列表",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": True
+    }
+)
+async def datasource_list_sources(
+    country: str = Field(
+        default="",
+        description="国家代码或名称，如 CN（中国）, US（美国）, Global（全球）。留空则返回所有国家"
+    ),
+    domain: str = Field(
+        default="",
+        description="领域，如 finance（金融）, health（健康）, economics（经济）, energy（能源）。留空则返回所有领域"
+    ),
+    limit: int = Field(
+        default=50,
+        ge=1,
+        le=200,
+        description="返回数量限制，默认50，最大200"
+    )
+) -> str:
+    """
+    快速浏览数据源列表
+
+    用于快速了解某个国家或领域有哪些数据源。返回概要信息，包括数据源名称、国家、领域和质量评分。
+
+    **适用场景:**
+    - 探索某个国家有哪些数据源
+    - 浏览某个领域的所有数据源
+    - 快速了解数据源全貌
+
+    **示例:**
+    - 查看中国的金融数据源: country="CN", domain="finance"
+    - 浏览所有全球数据源: country="Global"
+    - 获取所有健康领域数据源: domain="health"
+
+    **返回格式:** JSON字符串，包含数据源列表
+    """
+    try:
+        results = tool_list_sources_summary(
+            country=country if country else None,
+            domain=domain if domain else None,
+            limit=limit
+        )
+        return json.dumps(results, ensure_ascii=False, indent=2)
+    except Exception as e:
+        return json.dumps({"error": str(e)}, ensure_ascii=False)
+
+
+@mcp.tool(
+    name="datasource_search_keywords",
+    annotations={
+        "title": "关键词搜索数据源",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": True
+    }
+)
+async def datasource_search_keywords(
+    keywords: List[str] = Field(
+        ...,
+        description="搜索关键词列表，如 [\"GDP\", \"China\", \"statistics\"]"
+    ),
+    search_fields: List[str] = Field(
+        default=["all"],
+        description="搜索范围: name（名称）, description（描述）, tags（标签）, content（数据内容）, all（全部）"
+    ),
+    limit: int = Field(
+        default=20,
+        ge=1,
+        le=100,
+        description="返回数量限制，默认20"
+    )
+) -> str:
+    """
+    使用关键词精确搜索数据源
+
+    在数据源的名称、描述、标签和内容中搜索指定关键词，按匹配得分排序返回结果。
+
+    **适用场景:**
+    - 知道明确的关键词（如"GDP"、"人民银行"）
+    - 快速定位特定数据源
+    - 搜索特定概念或指标
+
+    **示例:**
+    - 搜索GDP数据: keywords=["GDP", "economic growth"]
+    - 搜索中国人民银行: keywords=["People's Bank", "China", "PBC"]
+    - 只在名称中搜索: keywords=["World Bank"], search_fields=["name"]
+
+    **返回格式:** JSON字符串，包含匹配的数据源及匹配得分
+    """
+    try:
+        results = tool_search_sources_by_keywords(
+            keywords=keywords,
+            search_fields=search_fields,
+            limit=limit
+        )
+        return json.dumps(results, ensure_ascii=False, indent=2)
+    except Exception as e:
+        return json.dumps({"error": str(e)}, ensure_ascii=False)
+
+
+@mcp.tool(
+    name="datasource_get_details",
+    annotations={
+        "title": "获取数据源详细信息",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": True
+    }
+)
+async def datasource_get_details(
+    source_ids: List[str] = Field(
+        ...,
+        description="数据源ID列表，如 [\"china-pbc\", \"china-nbs\"]"
+    ),
+    fields: List[str] = Field(
+        default=["all"],
+        description="返回字段: all（全部）, description（描述）, coverage（覆盖范围）, quality（质量）, access（访问方式）"
+    )
+) -> str:
+    """
+    获取指定数据源的完整详细信息
+
+    返回数据源的详细配置，包括描述、覆盖范围、数据内容、访问方式、质量评分等。
+
+    **适用场景:**
+    - 深入了解某个特定数据源
+    - 对比多个候选数据源
+    - 获取访问URL、API信息等详细信息
+
+    **示例:**
+    - 获取中国人民银行详情: source_ids=["china-pbc"]
+    - 对比两个数据源: source_ids=["china-pbc", "china-nbs"]
+    - 只获取访问信息: source_ids=["worldbank"], fields=["access", "quality"]
+
+    **返回格式:** JSON字符串，包含完整的数据源配置
+    """
+    try:
+        results = tool_get_source_details(
+            source_ids=source_ids,
+            fields=fields
+        )
+        return json.dumps(results, ensure_ascii=False, indent=2)
+    except Exception as e:
+        return json.dumps({"error": str(e)}, ensure_ascii=False)
+
+
+@mcp.tool(
+    name="datasource_filter",
+    annotations={
+        "title": "多条件筛选数据源",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": True
+    }
+)
+async def datasource_filter(
+    geographic_scope: str = Field(
+        default="",
+        description="地理范围，如 China（中国）, Global（全球）, Asia（亚洲）"
+    ),
+    domain: str = Field(
+        default="",
+        description="领域，如 finance（金融）, health（健康）, economics（经济）"
+    ),
+    has_api: bool = Field(
+        default=None,
+        description="是否需要API访问。True=仅返回有API的数据源，False=仅返回无API的，None=不限制"
+    ),
+    update_frequency: str = Field(
+        default="",
+        description="更新频率，如 daily（每日）, monthly（每月）, quarterly（每季度）"
+    ),
+    min_quality_score: float = Field(
+        default=0.0,
+        ge=0.0,
+        le=5.0,
+        description="最低质量评分（0-5分）"
+    )
+) -> str:
+    """
+    按多个条件组合精确筛选数据源
+
+    支持地理范围、领域、API、更新频率、质量评分等多维度筛选，返回同时满足所有条件的数据源。
+
+    **适用场景:**
+    - 有明确的多个筛选条件
+    - 需要满足特定约束（如必须有API）
+    - 精确缩小搜索范围
+
+    **示例:**
+    - 有API的中国金融数据: geographic_scope="China", domain="finance", has_api=True
+    - 高质量全球数据: geographic_scope="Global", min_quality_score=4.5
+    - 每日更新的数据源: update_frequency="daily"
+
+    **返回格式:** JSON字符串，包含符合所有条件的数据源列表
+    """
+    try:
+        # 构建筛选参数
+        kwargs = {}
+        if geographic_scope:
+            kwargs['geographic_scope'] = geographic_scope
+        if domain:
+            kwargs['domain'] = domain
+        if has_api is not None:
+            kwargs['has_api'] = has_api
+        if update_frequency:
+            kwargs['update_frequency'] = update_frequency
+        if min_quality_score > 0:
+            kwargs['min_quality_score'] = min_quality_score
+
+        results = tool_filter_sources_by_criteria(**kwargs)
+        return json.dumps(results, ensure_ascii=False, indent=2)
+    except Exception as e:
+        return json.dumps({"error": str(e)}, ensure_ascii=False)
+
+
+# ============================================================================
+# Agent工具（智能搜索）
+# ============================================================================
 
 @mcp.tool(
     name="datasource_search_llm_agent",
@@ -794,31 +1351,44 @@ async def datasource_search_llm_agent(
     )
 ) -> str:
     """
-    LLM Agent驱动的智能数据源搜索工具
+    LLM Agent驱动的智能数据源搜索工具（高级功能）
 
     这是一个完全由LLM驱动的智能搜索Agent。能够理解复杂的自然语言查询，
     自主决策使用哪些工具，通过多步探索逐步缩小范围，最终给出精准推荐和详细理由。
 
-    **⚠️ 调用前检查清单（必读）:**
-    在调用此工具前，请先评估以下条件：
-    - [ ] 查询是否包含多个维度要求（地理+时间+领域+质量等）？
-    - [ ] 用户需求是否为复杂的自然语言描述（超出简单关键词）？
-    - [ ] 是否需要详细的推荐理由而非仅返回结果列表？
-    - [ ] 用户能否接受10-30秒的响应延迟？
+    **🆚 与基础工具的对比:**
 
-    **✅ 优先使用此工具的场景:**
-    - 复杂的数据需求描述
+    本MCP提供5个工具，分为两类：
+
+    1. **基础工具（快速）** - 响应时间 1-3 秒
+       - datasource_list_sources: 浏览数据源列表
+       - datasource_search_keywords: 关键词搜索
+       - datasource_get_details: 获取详细信息
+       - datasource_filter: 多条件筛选
+
+    2. **Agent工具（智能）** - 响应时间 10-30 秒
+       - datasource_search_llm_agent: 本工具
+
+    **何时使用基础工具:**
+    - 明确知道要搜索什么关键词 → 使用 datasource_search_keywords
+    - 想浏览某个国家/领域的数据源 → 使用 datasource_list_sources
+    - 已知数据源ID，需要详细信息 → 使用 datasource_get_details
+    - 有明确的筛选条件 → 使用 datasource_filter
+
+    **何时使用本Agent工具:**
+    - ✅ 复杂的数据需求描述
       示例："我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据，最好是官方权威数据"
-    - 需要多维度组合筛选（地理、时间、领域、质量要求等）
+    - ✅ 需要多维度组合筛选（地理、时间、领域、质量要求等）
       示例："寻找有API访问的全球气候变化数据，需要包含温度和降水量"
-    - 希望获得详细的推荐理由和使用建议
-    - 不确定具体关键词，用自然语言描述需求
+    - ✅ 希望获得详细的推荐理由和使用建议
+    - ✅ 不确定具体关键词，用自然语言描述需求
       示例："美国和欧洲的失业率统计数据，要求权威性高、更新及时"
+    - ✅ 需要Agent自动决策和探索
 
-    **❌ 使用此工具可能效率较低的场景:**
-    - 极简查询（如"GDP数据"、"中国人民银行"）- 虽然可以使用，但可能返回较慢
-    - 对响应时间非常敏感的场景（此工具需10-30秒）
-    - 仅需要快速浏览数据源列表
+    **❌ 不建议使用本Agent的场景（请用基础工具）:**
+    - 极简查询（如"GDP数据"） → 改用 datasource_search_keywords(["GDP"])
+    - 快速浏览 → 改用 datasource_list_sources
+    - 对响应时间敏感 → 改用基础工具
 
     **工作原理:**
     Agent会自主制定搜索策略，通过多步探索（粗筛 → 精选 → 深入分析）逐步缩小范围，

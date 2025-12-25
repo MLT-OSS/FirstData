@@ -12,4 +12,8 @@ starlette>=0.37.0
 python-dotenv>=1.0.0
 
 # LLM API (for agent)
+# Includes built-in web_search tool support
 anthropic>=0.39.0
+
+# HTTP client (for calling external MCP services)
+httpx>=0.27.0
