@@ -48,14 +48,13 @@ class URLVerifier:
         self.session.mount("http://", adapter)
         self.session.mount("https://", adapter)
 
-        # Set a realistic User-Agent to avoid being blocked
+        # Use standard browser User-Agent to avoid being blocked
+        # Many sites block non-browser user agents
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (compatible; DataSourceHub-URLVerifier/1.0; +https://datasourcehub.org/)',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
         })
-
-        self.results = []
 
     def extract_urls(self, data: Dict) -> Dict[str, str]:
         """
@@ -107,65 +106,92 @@ class URLVerifier:
             return False, 0, f"URL parsing error: {e}"
 
         # Try to access the URL
+        response = None
+        head_failed = False
+
+        # Try HEAD request first (faster)
         try:
-            # Use HEAD request first (faster)
             response = self.session.head(
                 url,
                 timeout=self.timeout,
                 allow_redirects=True
             )
 
-            # If HEAD is not allowed, try GET
-            if response.status_code == 405:
+            # If HEAD returns error status codes, try GET
+            # Some sites block HEAD requests but allow GET
+            if response.status_code >= 400 or response.status_code == 405:
+                head_failed = True
+        except (requests.exceptions.Timeout, requests.exceptions.ReadTimeout):
+            # HEAD request timed out, will try GET
+            head_failed = True
+        except Exception:
+            # Other errors with HEAD, will try GET
+            head_failed = True
+
+        # If HEAD failed or returned error, try GET
+        if head_failed or response is None:
+            try:
                 response = self.session.get(
                     url,
                     timeout=self.timeout,
                     allow_redirects=True
                 )
+            except requests.exceptions.SSLError as e:
+                # SSL error encountered, try HTTP version
+                if url.startswith('https://'):
+                    http_url = url.replace('https://', 'http://', 1)
+                    try:
+                        response = self.session.get(
+                            http_url,
+                            timeout=self.timeout,
+                            allow_redirects=True
+                        )
+                        # If HTTP works, return success with note
+                        if response.status_code == 200:
+                            return True, response.status_code, f"OK (HTTPS failed, used HTTP: {http_url})"
+                    except Exception:
+                        pass  # HTTP also failed, return original SSL error
+                return False, 0, f"SSL error: {str(e)[:100]}"
+            except requests.exceptions.Timeout:
+                return False, 0, f"Timeout after {self.timeout}s"
+            except requests.exceptions.ConnectionError:
+                return False, 0, "Connection error (host unreachable)"
+            except requests.exceptions.TooManyRedirects:
+                return False, 0, "Too many redirects"
+            except requests.exceptions.RequestException as e:
+                return False, 0, f"Request error: {str(e)[:100]}"
+            except Exception as e:
+                return False, 0, f"Unexpected error: {str(e)[:100]}"
 
-            status_code = response.status_code
+        # Analyze response
+        if response is None:
+            return False, 0, "No response received"
 
-            # Success codes
-            if 200 <= status_code < 300:
-                return True, status_code, "OK"
+        status_code = response.status_code
 
-            # Redirection codes (should be followed by allow_redirects)
-            elif 300 <= status_code < 400:
-                return True, status_code, f"Redirect to {response.headers.get('Location', 'unknown')}"
+        # Success codes
+        if 200 <= status_code < 300:
+            return True, status_code, "OK"
 
-            # Client errors
-            elif 400 <= status_code < 500:
-                if status_code == 401:
-                    # Authentication required might be expected
-                    return True, status_code, "Authentication required (expected for some sources)"
-                elif status_code == 403:
-                    return False, status_code, "Forbidden (possible anti-bot protection)"
-                elif status_code == 404:
-                    return False, status_code, "Not Found"
-                else:
-                    return False, status_code, f"Client error"
+        # Redirection codes (should be followed by allow_redirects)
+        elif 300 <= status_code < 400:
+            return True, status_code, f"Redirect to {response.headers.get('Location', 'unknown')}"
 
-            # Server errors
+        # Client errors
+        elif 400 <= status_code < 500:
+            if status_code == 401:
+                # Authentication required might be expected
+                return True, status_code, "Authentication required (expected for some sources)"
+            elif status_code == 403:
+                return False, status_code, "Forbidden (possible anti-bot protection)"
+            elif status_code == 404:
+                return False, status_code, "Not Found"
             else:
-                return False, status_code, "Server error"
+                return False, status_code, f"Client error"
 
-        except requests.exceptions.Timeout:
-            return False, 0, f"Timeout after {self.timeout}s"
-
-        except requests.exceptions.SSLError as e:
-            return False, 0, f"SSL error: {str(e)[:100]}"
-
-        except requests.exceptions.ConnectionError:
-            return False, 0, "Connection error (host unreachable)"
-
-        except requests.exceptions.TooManyRedirects:
-            return False, 0, "Too many redirects"
-
-        except requests.exceptions.RequestException as e:
-            return False, 0, f"Request error: {str(e)[:100]}"
-
-        except Exception as e:
-            return False, 0, f"Unexpected error: {str(e)[:100]}"
+        # Server errors
+        else:
+            return False, status_code, "Server error"
 
     def verify_file(self, file_path: Path, verbose: bool = True) -> Tuple[bool, Dict]:
         """

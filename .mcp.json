@@ -1,5 +1,12 @@
 {
   "mcpServers": {
+    "datasource_hub": {
+      "type": "http",
+      "url": "http://localhost:8001/mcp",
+      "headers": {
+        "Authorization": "Bearer tdyaCfP_fPwE2M8gAq7Pg3qVm6dR36LqXJsSDPnejGM"
+      }
+    },
     "web_search": {
       "type": "http",
       "url": "https://gateway.deepminer.ai/web-search/mcp",
@@ -13,10 +20,6 @@
       "args": [
         "@playwright/mcp@latest"
       ]
-    },
-    "datasource_hub": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp"
     },
     "Data_saver": {
       "type": "http",
