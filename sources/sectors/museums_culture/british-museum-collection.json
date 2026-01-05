@@ -1,0 +1,143 @@
+{
+  "id": "british-museum-collection",
+  "name": {
+    "en": "British Museum Collection",
+    "zh": "大英博物馆馆藏"
+  },
+  "organization": {
+    "name": "The British Museum",
+    "type": "research_institution",
+    "country": "GB",
+    "website": "https://www.britishmuseum.org"
+  },
+  "description": {
+    "en": "The British Museum Collection comprises nearly 5 million objects documenting two million years of human history and culture from across six continents. Collection online provides searchable access to over 2 million catalogued records with high-definition images, covering archaeology, art, cultural artifacts, and historical objects. The database represents over 40 years of cataloguing work and continues to expand daily.",
+    "zh": "大英博物馆馆藏包含近500万件文物，记录了来自六大洲的两百万年人类历史与文化。在线馆藏提供超过200万条可搜索的编目记录，配有高清图像，涵盖考古学、艺术、文化文物和历史物品。该数据库代表了40多年的编目工作，并持续每日扩展。"
+  },
+  "access": {
+    "primary_url": "https://www.britishmuseum.org/collection",
+    "api": {
+      "available": false,
+      "documentation": null,
+      "version": null,
+      "authentication": null
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "Image"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global",
+      "regions": ["Africa", "Americas", "Asia", "Europe", "Oceania", "Middle East"]
+    },
+    "temporal": {
+      "start_year": 1753,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "Cultural Heritage",
+      "Archaeology",
+      "Art History",
+      "Anthropology",
+      "Ancient Civilizations",
+      "Museum Studies"
+    ],
+    "indicators": 2000000
+  },
+  "data_content": {
+    "en": [
+      "Ancient Egypt and Sudan artifacts",
+      "Greek and Roman antiquities",
+      "Middle Eastern archaeology",
+      "Asian art and culture",
+      "African art and artifacts",
+      "Americas collections",
+      "European art and archaeology",
+      "Coins and medals",
+      "Prints and drawings",
+      "Ethnographic collections"
+    ],
+    "zh": [
+      "古埃及和苏丹文物",
+      "希腊和罗马古物",
+      "中东考古",
+      "亚洲艺术与文化",
+      "非洲艺术与文物",
+      "美洲馆藏",
+      "欧洲艺术与考古",
+      "硬币和奖章",
+      "版画和素描",
+      "民族学藏品"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["image", "text", "cross-sectional"],
+    "granularity": ["object-level", "collection-level", "thematic-level"],
+    "formats": ["HTML", "CSV", "JPEG", "PNG"],
+    "languages": ["en", "zh"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 4,
+    "update_timeliness": 4,
+    "data_completeness": 3,
+    "documentation_quality": 4,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Creative Commons BY-NC-SA 4.0 (for marked content)",
+    "commercial_use": false,
+    "attribution_required": true,
+    "restrictions": [
+      "Non-commercial use only for CC-licensed content",
+      "Not all collection items available under CC license",
+      "Third-party intellectual property rights may apply",
+      "Cultural sensitivities may restrict some content",
+      "Attribution required: © The Trustees of the British Museum"
+    ]
+  },
+  "metadata": {
+    "standards_followed": ["Museum cataloging standards", "Cultural heritage documentation"],
+    "data_dictionary": false,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Academic research in archaeology and art history",
+      "Cultural heritage studies",
+      "Educational materials development",
+      "Museum and curatorial research",
+      "Digital humanities projects",
+      "Historical and anthropological analysis"
+    ]
+  },
+  "contact": {
+    "email": "collectiondatabase@britishmuseum.org",
+    "support_url": "https://www.britishmuseum.org/collection/collection-online/guide"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  },
+  "tags": [
+    "cultural heritage",
+    "museum",
+    "archaeology",
+    "art history",
+    "artifacts",
+    "world history",
+    "anthropology",
+    "ethnography",
+    "ancient civilizations",
+    "British Museum"
+  ]
+}

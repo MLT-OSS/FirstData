@@ -5,9 +5,9 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-10%2F950+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-6%25-yellow.svg)](ROADMAP.md)
-[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.9%2F5.0-brightgreen.svg)](#)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-104%2F950+-blue.svg)](tasks/README.md)
+[![Progress](https://img.shields.io/badge/Progress-11%25-yellow.svg)](ROADMAP.md)
+[![Quality Rating](https://img.shields.io/badge/Avg%20Quality-4.7%2F5.0-brightgreen.svg)](#)
 
 ---
 
@@ -29,12 +29,13 @@ DataSource Hub is an open-source authoritative data source knowledge base design
 - **40+字段** 的详细元数据信息
 - 包括访问方式、覆盖范围、数据内容、质量评估等
 
-#### ⭐ **5维度权威性评级**
+#### ⭐ **6维度质量评级**
 - 来源权威性 (Source Authority)
 - 方法论透明度 (Methodology Transparency)
 - 更新及时性 (Timeliness)
 - 数据完整性 (Completeness)
 - 文档质量 (Documentation Quality)
+- 引用频次 (Citation Count)
 
 #### 🌐 **中英双语支持**
 - 所有元数据提供中英文双语
@@ -102,13 +103,13 @@ datasource/
 
 | 指标 | 当前/目标 | 进度 |
 |------|-----------|------|
-| **总数据源** | 10 / 950+ | 1% |
-| **国际组织** | 4 / 100+ | 4% |
-| **各国官方** | 0 / 200+ | 0% |
-| **中国数据源** | 6 / 488 | 1% |
-| **学术研究** | 0 / 50+ | 0% |
-| **行业领域** | 0 / 150+ | 0% |
-| **平均权威性** | ⭐⭐⭐⭐⭐ (4.9/5.0) | - |
+| **总数据源** | 104 / 950+ | 11% |
+| **国际组织** | 36 / 100+ | 36% |
+| **各国官方** | 24 / 200+ | 12% |
+| **中国数据源** | 8 / 488 | 2% |
+| **学术研究** | 19 / 50+ | 38% |
+| **行业领域** | 17 / 150+ | 11% |
+| **平均权威性** | ⭐⭐⭐⭐⭐ (5.0/5.0) | - |
 | **URL可访问性** | 100% | ✅ |
 
 📋 **详细任务规划**: [tasks/README.md](tasks/README.md)
@@ -116,21 +117,63 @@ datasource/
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (4个)
-- ✅ 世界银行 (World Bank) - 权威性 5.0 💎
+#### 🌍 国际组织 (36个)
+<!-- - ✅ 世界银行 (World Bank) - 权威性 5.0 💎
 - ✅ 国际货币基金组织 (IMF) - 权威性 5.0 💎
 - ✅ 经合组织 (OECD) - 权威性 5.0 💎
 - ✅ 世界贸易组织 (WTO) - 权威性 5.0 💎
+- ✅ 国际能源署 (IEA) - 权威性 5.0 💎
+- ✅ 世界知识产权组织 (WIPO) - 权威性 5.0 💎
+- ✅ 亚洲开发银行 (ADB) - 权威性 5.0 💎
+- ✅ 非洲开发银行 (AfDB) - 权威性 4.5 💎
+- ✅ 美洲开发银行 (IDB) - 权威性 4.5 💎
+- ✅ 欧洲复兴开发银行 (EBRD) - 权威性 5.0 💎
+- ✅ 国际清算银行 (BIS) - 权威性 5.0 💎
+- ✅ 巴黎俱乐部 (Paris Club) - 权威性 5.0 💎
+- ✅ 联合国粮农组织 (FAOSTAT) - 权威性 5.0 💎
+- ✅ 联合国国际贸易统计数据库 (UN Comtrade) - 权威性 5.0 💎
+- ✅ 联合国贸易和发展会议 (UNCTAD) - 权威性 5.0 💎
+- ✅ OECD国际学生评估项目 (PISA) - 权威性 5.0 💎
+- ✅ NASA地球数据 (NASA Earthdata) - 权威性 5.0 💎
+- ✅ 非洲开发银行统计数据 (AfDB Statistics) - 权威性 4.5 💎
+- ✅ 哥白尼数据空间生态系统 (Copernicus Data Space Ecosystem) - 权威性 5.0 💎 -->
 
-#### 🇨🇳 中国数据源 (6个)
-- ✅ 国家统计局 (NBS) - 权威性 5.0 💎
+📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
+
+#### 🇨🇳 中国数据源 (8个)
+<!-- - ✅ 国家统计局 (NBS) - 权威性 5.0 💎
 - ✅ 中国人民银行 (PBC) - 权威性 5.0 💎
+- ✅ 国家金融监督管理总局 (NFRA) - 权威性 5.0 💎
 - ✅ 证监会 (CSRC) - 权威性 4.8 ⭐
 - ✅ 海关总署 (Customs) - 权威性 5.0 💎
 - ✅ 商务部 (MOFCOM) - 权威性 4.8 ⭐
-- ✅ 发改委 (NDRC) - 权威性 4.6 ⭐
-
+- ✅ 发改委 (NDRC) - 权威性 4.6 ⭐ -->
+  
 📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
+
+#### 🌎 各国官方 (24个)
+<!-- - ✅ 加拿大统计局 (Statistics Canada) - 权威性 5.0 💎
+- ✅ 美国人口普查局 (US Census Bureau) - 权威性 5.0 💎
+- ✅ NOAA气候数据在线系统 (NOAA Climate Data Online) - 权威性 4.8 ⭐
+- ✅ 美国地质调查局地球探索者 (USGS EarthExplorer) - 权威性 5.0 💎 -->
+
+📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
+
+#### 🎓 学术研究 (19个)
+<!-- - ✅ 国家经济研究局 (NBER) - 权威性 5.0 💎
+- ✅ 宾州世界表 (Penn World Table) - 权威性 5.0 💎
+- ✅ 格罗宁根增长与发展中心数据库 (GGDC) - 权威性 5.0 💎
+- ✅ 世界不平等数据库 (World Inequality Database) - 权威性 5.0 💎
+- ✅ PubMed生物医学文献数据库 (PubMed) - 权威性 5.0 💎
+- ✅ 临床试验注册数据库 (ClinicalTrials.gov) - 权威性 5.0 💎
+- ✅ 人口与健康调查项目 (DHS Program) - 权威性 5.0 💎 -->
+
+📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
+
+#### 🏭 行业领域 (17个)
+<!-- - ✅ ImageNet - 权威性 4.7 ⭐ -->
+
+📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
 
 ---
 
@@ -159,7 +202,7 @@ with open('sources/china/national/nbs.json', 'r', encoding='utf-8') as f:
 
 print(f"Name: {nbs['name']['en']}")
 print(f"URL: {nbs['access']['primary_url']}")
-print(f"Quality: {sum(nbs['quality'].values())/5:.1f}/5.0")
+print(f"Quality: {sum(nbs['quality'].values())/6:.1f}/5.0")
 print(f"Indicators: {nbs['coverage']['indicators']}")
 ```
 
@@ -215,7 +258,8 @@ for json_file in Path('sources').rglob('*.json'):
     "methodology_transparency": 5,
     "update_timeliness": 4,
     "data_completeness": 5,
-    "documentation_quality": 4
+    "documentation_quality": 4,
+    "citation_count": 5
   }
 }
 ```
@@ -316,18 +360,18 @@ for json_file in Path('sources').rglob('*.json'):
 
 ---
 
-## 📊 项目状态 | Project Status
+<!-- ## 📊 项目状态 | Project Status
 
 | 指标 | 状态 |
 |------|------|
 | **当前里程碑** | M0 完成 ✅ / M1 进行中 🚧 |
-| **总体进度** | 10 / 950+ (1%) |
-| **完成度** | 国际组织 4%、中国 1% |
-| **最近更新** | 2025-12-01 |
-| **质量评分** | ⭐⭐⭐⭐⭐ (4.9/5.0) |
+| **总体进度** | 104 / 950+ (11%) |
+| **完成度** | 国际组织 36%、中国 2%、学术 38% |
+| **最近更新** | 2025-12-24 |
+| **质量评分** | ⭐⭐⭐⭐⭐ (4.7/5.0) |
 
 📊 **详细状态**: [PROJECT_STATUS.md](PROJECT_STATUS.md)
-🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md)
+🗺️ **完整路线图**: [ROADMAP.md](ROADMAP.md) -->
 
 ---
 

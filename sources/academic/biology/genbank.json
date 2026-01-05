@@ -1,0 +1,150 @@
+{
+  "id": "us-ncbi-genbank",
+  "name": {
+    "en": "GenBank",
+    "zh": "基因库"
+  },
+  "organization": {
+    "name": "National Center for Biotechnology Information (NCBI)",
+    "type": "national_government",
+    "country": "US",
+    "website": "https://www.ncbi.nlm.nih.gov/"
+  },
+  "description": {
+    "en": "GenBank is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences. It is part of the International Nucleotide Sequence Database Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European Nucleotide Archive (ENA), and GenBank at NCBI. These three organizations exchange data on a daily basis, providing comprehensive global coverage of nucleotide sequence data.",
+    "zh": "GenBank是美国国立卫生研究院的基因序列数据库，是所有公开可用DNA序列的注释集合。它是国际核苷酸序列数据库合作组织（INSDC）的一部分，该组织包括日本DNA数据库（DDBJ）、欧洲核苷酸档案馆（ENA）和NCBI的GenBank。这三个组织每天交换数据，提供全球核苷酸序列数据的全面覆盖。"
+  },
+  "access": {
+    "primary_url": "https://www.ncbi.nlm.nih.gov/genbank/",
+    "api": {
+      "available": true,
+      "documentation": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+      "version": "E-utilities",
+      "authentication": false
+    },
+    "download": {
+      "available": true,
+      "formats": ["ASN.1", "Flatfile", "FASTA", "GenBank", "XML"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global"
+    },
+    "temporal": {
+      "start_year": 1982,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "Genomics",
+      "Molecular Biology",
+      "Genetics",
+      "Bioinformatics"
+    ]
+  },
+  "data_content": {
+    "en": [
+      "DNA sequences from all organisms",
+      "Nucleotide sequences (mRNA, rRNA, tRNA, genomic DNA)",
+      "Genome assemblies",
+      "Whole Genome Shotgun (WGS) sequences",
+      "Transcriptome Shotgun Assembly (TSA) sequences",
+      "Third Party Annotation (TPA) sequences",
+      "Metagenome sequences",
+      "Sequence annotations and features",
+      "Organism taxonomy information",
+      "Gene and protein cross-references"
+    ],
+    "zh": [
+      "所有生物的DNA序列",
+      "核苷酸序列（mRNA、rRNA、tRNA、基因组DNA）",
+      "基因组组装",
+      "全基因组鸟枪法（WGS）序列",
+      "转录组鸟枪法组装（TSA）序列",
+      "第三方注释（TPA）序列",
+      "宏基因组序列",
+      "序列注释和特征",
+      "生物分类信息",
+      "基因和蛋白质交叉引用"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["text", "api"],
+    "granularity": ["sequence-level", "gene-level", "genome-level"],
+    "formats": ["ASN.1", "Flatfile", "FASTA", "GenBank", "XML", "JSON"],
+    "languages": ["en"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 5,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Public Domain",
+    "commercial_use": true,
+    "attribution_required": false,
+    "restrictions": [
+      "NCBI places no restrictions on use or distribution",
+      "Some submitters may claim intellectual property rights on submitted data",
+      "Users should be aware of potential patent, copyright, or other IP claims by data submitters"
+    ]
+  },
+  "metadata": {
+    "standards_followed": ["INSDC Standards", "GenBank Feature Table", "ASN.1"],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Sequence homology searches using BLAST",
+      "Genome assembly and annotation",
+      "Phylogenetic analysis",
+      "Gene discovery and characterization",
+      "Molecular evolution studies",
+      "Comparative genomics",
+      "Metagenomics analysis",
+      "Clinical genetics and diagnostics"
+    ],
+    "code_examples": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK25498/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK25500/"
+    ]
+  },
+  "related_sources": [
+    "ddbj",
+    "ena",
+    "ncbi-sra",
+    "ncbi-protein"
+  ],
+  "contact": {
+    "email": "update@ncbi.nlm.nih.gov",
+    "support_url": "https://support.ncbi.nlm.nih.gov/"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  },
+  "tags": [
+    "genomics",
+    "DNA sequences",
+    "nucleotide database",
+    "molecular biology",
+    "genetics",
+    "bioinformatics",
+    "genome assembly",
+    "NCBI",
+    "NIH",
+    "INSDC",
+    "sequence database"
+  ]
+}

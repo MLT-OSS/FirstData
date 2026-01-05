@@ -1,0 +1,166 @@
+{
+  "id": "copernicus-open-access-hub",
+  "name": {
+    "en": "Copernicus Open Access Hub",
+    "zh": "哥白尼开放访问中心"
+  },
+  "organization": {
+    "name": "European Space Agency (ESA)",
+    "type": "international_organization",
+    "country": null,
+    "website": "https://www.esa.int"
+  },
+  "description": {
+    "en": "The Copernicus Open Access Hub (legacy service, retired Nov 2, 2023) provided free and open access to Sentinel satellite Earth observation data. It has been replaced by the Copernicus Data Space Ecosystem, which offers enhanced access to comprehensive Sentinel mission data including radar, optical, and atmospheric measurements for environmental monitoring, climate research, and disaster management.",
+    "zh": "哥白尼开放访问中心(遗留服务,已于2023年11月2日退役)提供免费开放的Sentinel卫星地球观测数据访问。现已被哥白尼数据空间生态系统取代,该系统提供增强的Sentinel任务综合数据访问,包括雷达、光学和大气测量数据,用于环境监测、气候研究和灾害管理。"
+  },
+  "access": {
+    "primary_url": "https://dataspace.copernicus.eu/",
+    "api": {
+      "available": true,
+      "documentation": "https://documentation.dataspace.copernicus.eu/",
+      "version": null,
+      "authentication": true
+    },
+    "download": {
+      "available": true,
+      "formats": [
+        "SAFE",
+        "NetCDF",
+        "HDF5",
+        "GeoTIFF",
+        "Zarr",
+        "COG"
+      ]
+    },
+    "access_level": "open",
+    "registration_required": true
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global",
+      "regions": [
+        "Global"
+      ]
+    },
+    "temporal": {
+      "start_year": 2014,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "environment",
+      "climate",
+      "ocean",
+      "land",
+      "atmosphere",
+      "disaster_management"
+    ]
+  },
+  "data_content": {
+    "en": [
+      "Radar Imaging (SAR) - Land surface topography, Ocean surface winds and waves, Sea ice cover and thickness, Soil moisture and vegetation",
+      "Optical Imaging - Land cover and vegetation monitoring, Coastal and inland water monitoring, Ocean color and land surface temperature, High-resolution multispectral imagery (10-60m)",
+      "Atmospheric Monitoring - Air quality and pollution monitoring, Greenhouse gas concentrations, Ozone and UV radiation, Aerosols and trace gases",
+      "Ocean Altimetry - Sea surface height, Ocean topography and currents, Significant wave height"
+    ],
+    "zh": [
+      "雷达成像(合成孔径雷达) - 陆地表面地形、海洋表面风和波浪、海冰覆盖和厚度、土壤湿度和植被",
+      "光学成像 - 土地覆盖和植被监测、海岸和内陆水体监测、海洋颜色和陆地表面温度、高分辨率多光谱影像(10-60米)",
+      "大气监测 - 空气质量和污染监测、温室气体浓度、臭氧和紫外线辐射、气溶胶和痕量气体",
+      "海洋测高 - 海平面高度、海洋地形和洋流、有效波高"
+    ]
+  },
+  "data_characteristics": {
+    "types": [
+      "geospatial",
+      "time-series",
+      "image"
+    ],
+    "granularity": [
+      "10m to 60m spatial resolution (optical)",
+      "5m to 40m (SAR)",
+      "300m to 7km (atmospheric)",
+      "daily to 10-day temporal"
+    ],
+    "formats": [
+      "SAFE",
+      "NetCDF",
+      "HDF5",
+      "GeoTIFF",
+      "Zarr",
+      "COG"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 5,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Copernicus Sentinel Data License / CC BY-SA 3.0 IGO",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": [
+      "Free, full and open access for reproduction, distribution, communication to the public, adaptation, modification and combination with other data",
+      "Processed imagery under CC BY-SA 3.0 IGO"
+    ]
+  },
+  "metadata": {
+    "standards_followed": [
+      "ISO 19115",
+      "INSPIRE",
+      "STAC"
+    ],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Environmental monitoring",
+      "Climate change research",
+      "Disaster management and emergency response",
+      "Agriculture and land management",
+      "Ocean and coastal monitoring",
+      "Atmospheric composition analysis",
+      "Urban planning",
+      "Infrastructure monitoring"
+    ]
+  },
+  "contact": {
+    "support_url": "https://documentation.dataspace.copernicus.eu/Support.html"
+  },
+  "tags": [
+    "satellite",
+    "earth_observation",
+    "remote_sensing",
+    "sentinel",
+    "copernicus",
+    "ESA",
+    "radar",
+    "optical",
+    "atmospheric",
+    "climate",
+    "environment",
+    "global",
+    "open_data"
+  ],
+  "notes": {
+    "en": "The original Copernicus Open Access Hub (scihub.copernicus.eu) ceased operations on November 2, 2023, after serving approximately 750,000 users and disseminating 590 petabytes of data since October 2014. Users should migrate to the Copernicus Data Space Ecosystem (dataspace.copernicus.eu) which provides enhanced services and improved access to all Sentinel mission data. Quality Assessment: ESA's Copernicus program is the world's most authoritative Earth observation system. Authority (5★): Official EU/ESA program, primary source for Sentinel data. Methodology (5★): Comprehensive technical documentation, fully transparent processing baselines and calibration. Timeliness (5★): Near-real-time delivery (<3 hours), systematic updates. Completeness (5★): Complete global coverage since 2014, all Sentinel missions. Documentation (5★): Extensive API docs, user guides, migration guides. Citation (5★): Flagship EU program, extensively cited in scientific literature.",
+    "zh": "原哥白尼开放访问中心(scihub.copernicus.eu)已于2023年11月2日停止运营,自2014年10月以来服务了约75万用户并分发了590PB数据。用户应迁移至哥白尼数据空间生态系统(dataspace.copernicus.eu),该系统提供增强的服务和对所有Sentinel任务数据的改进访问。质量评估: ESA的哥白尼计划是世界上最权威的地球观测系统。权威性(5★): 欧盟/ESA官方项目,Sentinel数据的主要来源。方法论(5★): 全面的技术文档,完全透明的处理基线和校准。及时性(5★): 近实时交付(<3小时),系统更新。完整性(5★): 自2014年以来的完整全球覆盖,所有Sentinel任务。文档质量(5★): 详尽的API文档、用户指南、迁移指南。引用频次(5★): 欧盟旗舰项目,在科学文献中被广泛引用。"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  }
+}

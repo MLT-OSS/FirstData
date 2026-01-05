@@ -1,0 +1,154 @@
+{
+  "id": "intl-copernicus-cdse",
+  "name": {
+    "en": "Copernicus Data Space Ecosystem",
+    "zh": "哥白尼数据空间生态系统"
+  },
+  "organization": {
+    "name": "European Space Agency (ESA) / European Union Copernicus Programme",
+    "type": "international_organization",
+    "country": null,
+    "website": "https://www.copernicus.eu"
+  },
+  "description": {
+    "en": "The Copernicus Data Space Ecosystem is Europe's flagship Earth observation platform, providing free and open access to satellite imagery and data from Copernicus Sentinel missions and Contributing Missions. It offers immediate access to the full historical archive of Sentinel satellite data (from 2014 to present) with powerful cloud-based processing capabilities. The platform succeeded the Copernicus Open Access Hub in 2023, providing enhanced data access, visualization, and analysis tools including APIs, openEO services, and JupyterLab environments.",
+    "zh": "哥白尼数据空间生态系统是欧洲旗舰地球观测平台,提供来自哥白尼哨兵卫星任务和贡献任务的免费开放卫星影像和数据。该平台提供从2014年至今完整的哨兵卫星历史数据档案的即时访问,并具有强大的云端处理能力。该平台于2023年接替了哥白尼开放访问中心,提供增强的数据访问、可视化和分析工具,包括API、openEO服务和JupyterLab环境。"
+  },
+  "access": {
+    "primary_url": "https://dataspace.copernicus.eu",
+    "api": {
+      "available": true,
+      "documentation": "https://documentation.dataspace.copernicus.eu",
+      "version": null,
+      "authentication": true
+    },
+    "download": {
+      "available": true,
+      "formats": ["GeoTIFF", "JPEG2000", "NetCDF", "SAFE", "HDF5"]
+    },
+    "access_level": "registration",
+    "registration_required": true
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global",
+      "regions": ["Global coverage"]
+    },
+    "temporal": {
+      "start_year": 2014,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "Earth Observation",
+      "Remote Sensing",
+      "Climate Change",
+      "Land Monitoring",
+      "Ocean Monitoring",
+      "Atmosphere Monitoring",
+      "Emergency Management",
+      "Agriculture",
+      "Forestry"
+    ],
+    "indicators": 50
+  },
+  "data_content": {
+    "en": [
+      "Sentinel-1 SAR (Synthetic Aperture Radar) data - SLC and GRD products",
+      "Sentinel-2 Multispectral imagery - L1C and L2A (Collection 1)",
+      "Sentinel-3 Ocean and land monitoring data",
+      "Sentinel-5P Atmospheric composition data",
+      "Copernicus Contributing Missions data",
+      "Landsat data collections",
+      "Copernicus Land Monitoring Service products",
+      "Copernicus Marine Environment Monitoring Service data",
+      "MODIS data",
+      "Global and regional mosaics"
+    ],
+    "zh": [
+      "哨兵1号合成孔径雷达(SAR)数据 - SLC和GRD产品",
+      "哨兵2号多光谱影像 - L1C和L2A(集合1)",
+      "哨兵3号海洋和陆地监测数据",
+      "哨兵5P号大气成分数据",
+      "哥白尼贡献任务数据",
+      "陆地卫星数据集",
+      "哥白尼陆地监测服务产品",
+      "哥白尼海洋环境监测服务数据",
+      "MODIS数据",
+      "全球和区域镶嵌数据"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["geospatial", "time-series", "image", "api"],
+    "granularity": ["pixel-level", "scene-level", "global coverage", "near-real-time to historical"],
+    "formats": ["GeoTIFF", "JPEG2000", "NetCDF", "SAFE", "HDF5", "Zarr", "JSON", "XML"],
+    "languages": ["en"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 5,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Copernicus Sentinel Data Terms and Conditions - Free, Full and Open Access",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": [
+      "Must acknowledge Copernicus Sentinel data source",
+      "Portal content other than Sentinel data is for non-commercial use unless explicitly licensed",
+      "Quota limitations apply for fair use - users requiring massive data access should use commercial cloud services"
+    ]
+  },
+  "metadata": {
+    "standards_followed": ["STAC (SpatioTemporal Asset Catalog)", "OGC (Open Geospatial Consortium)", "openEO", "EOPF Zarr"],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Climate change monitoring and research",
+      "Land cover and land use mapping",
+      "Agricultural monitoring and precision farming",
+      "Forest fire detection and monitoring",
+      "Flood and natural disaster monitoring",
+      "Urban planning and development",
+      "Coastal and marine environment monitoring",
+      "Atmospheric pollution tracking",
+      "Glacier and ice sheet monitoring",
+      "Vegetation health assessment"
+    ],
+    "code_examples": [
+      "https://documentation.dataspace.copernicus.eu",
+      "https://github.com/eu-cdse"
+    ]
+  },
+  "contact": {
+    "support_url": "https://helpcenter.dataspace.copernicus.eu"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  },
+  "tags": [
+    "satellite",
+    "earth-observation",
+    "remote-sensing",
+    "sentinel",
+    "copernicus",
+    "esa",
+    "european-union",
+    "climate",
+    "land-monitoring",
+    "ocean-monitoring",
+    "atmosphere",
+    "geospatial",
+    "open-data"
+  ]
+}

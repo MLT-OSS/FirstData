@@ -176,7 +176,7 @@
    - 2星：简要说明
    - 1星：无文档或仅有标题
 
-**综合评分**：5个维度的算术平均值（保留1位小数）
+**综合评分**：6个维度的算术平均值（保留1位小数）
 
 **展示方式**：
 - 总分：★★★★☆ (4.2/5.0)
@@ -835,8 +835,9 @@ datasource/
 │   │   │   ├── banking/                        # 银行系统
 │   │   │   │   ├── pbc.json                    # 中国人民银行
 │   │   │   │   ├── pbc-stats.json              # 人民银行统计数据
-│   │   │   │   ├── pbc-monetary.json           # 货币政策执行报告
-│   │   │   │   ├── cbirc.json                  # 银保监会
+│   │   │   │   ├── pbc-monetary.json           # 人民银行货币政策执行报告
+│   │   │   │   ├── nfra.json                   # 国家金融监督管理总局
+│   │   │   │   ├── cbirc.json                  # 银保监会（历史数据）
 │   │   │   │   ├── deposit-insurance.json      # 存款保险基金
 │   │   │   │   └── banking-industry.json       # 银行业协会
 │   │   │   ├── securities/                     # 证券市场
@@ -863,12 +864,16 @@ datasource/
 │   │   │   │   ├── fiscal-revenue.json         # 财政收入数据
 │   │   │   │   ├── fiscal-expenditure.json     # 财政支出数据
 │   │   │   │   ├── local-gov-debt.json         # 地方政府债务
-│   │   │   │   └── budget-reports.json         # 预算报告
+│   │   │   │   ├── budget-reports.json         # 预算报告
+│   │   │   │   └── treasury-stats.json         # 国库统计数据
 │   │   │   └── forex/                          # 外汇管理
 │   │   │       ├── safe.json                   # 国家外汇管理局
 │   │   │       ├── forex-reserves.json         # 外汇储备数据
 │   │   │       ├── bop.json                    # 国际收支平衡表
-│   │   │       └── cross-border-rmb.json       # 跨境人民币业务
+│   │   │       ├── cross-border-rmb.json       # 跨境人民币业务
+│   │   │       ├── foreign-exchange-market.json # 外汇市场统计
+│   │   │       ├── external-debt.json          # 外债统计数据
+│   │   │       └── iip.json                    # 国际投资头寸表
 │   │   ├── economy/           # 经济贸易
 │   │   │   ├── macro/                          # 宏观经济
 │   │   │   │   ├── ndrc.json                   # 国家发展改革委
@@ -902,7 +907,10 @@ datasource/
 │   │   │   └── consumption/                    # 消费市场
 │   │   │       ├── retail-sales.json           # 社会消费品零售
 │   │   │       ├── ecommerce.json              # 电子商务数据
-│   │   │       └── logistics-index.json        # 物流景气指数
+│   │   │       ├── logistics-index.json        # 物流景气指数
+│   │   │       ├── consumer-confidence.json    # 消费者信心指数
+│   │   │       ├── service-consumption.json    # 服务消费数据
+│   │   │       └── online-retail.json          # 网络零售统计
 │   │   ├── agriculture/       # 农业农村
 │   │   │   ├── crop/                           # 种植业
 │   │   │   │   ├── moa.json                    # 农业农村部
@@ -926,8 +934,7 @@ datasource/
 │   │   │   │   └── fishing-stats.json          # 捕捞统计
 │   │   │   └── rural/                          # 农村发展
 │   │   │       ├── rural-economy.json          # 农村经济数据
-│   │   │       ├── farmer-income.json          # 农民收入
-│   │   │       └── poverty-alleviation.json    # 脱贫攻坚数据
+│   │   │       └── farmer-income.json          # 农民收入
 │   │   ├── resources/         # 自然资源
 │   │   │   ├── land/                           # 土地资源
 │   │   │   │   ├── mnr.json                    # 自然资源部
@@ -1032,7 +1039,8 @@ datasource/
 │   │   │   │   ├── nsfc.json                   # 国家自然科学基金委
 │   │   │   │   ├── nsfc-projects.json          # 基金项目数据
 │   │   │   │   ├── nssfc.json                  # 国家社科基金
-│   │   │   │   └── social-science-projects.json # 社科项目数据
+│   │   │   │   ├── social-science-projects.json # 社科项目数据
+│   │   │   │   └── key-rd-programs.json        # 国家重点研发计划
 │   │   │   └── institutions/                   # 科研机构
 │   │   │       ├── cas.json                    # 中国科学院数据
 │   │   │       ├── cae.json                    # 中国工程院
@@ -1098,7 +1106,7 @@ datasource/
 │   │   │       ├── energy-efficiency.json      # 建筑节能
 │   │   │       └── building-materials.json     # 建筑材料
 │   │   ├── transport/         # 交通运输
-│   │   │   ├──综合/                            # 综合运输
+│   │   │   ├── comprehensive/                  # 综合运输
 │   │   │   │   ├── mot.json                    # 交通运输部
 │   │   │   │   ├── transport-stats.json        # 交通运输统计
 │   │   │   │   ├── passenger-transport.json    # 客运统计
@@ -1144,13 +1152,17 @@ datasource/
 │   │   │   │   ├── inbound-tourism.json        # 入境旅游
 │   │   │   │   ├── outbound-tourism.json       # 出境旅游
 │   │   │   │   ├── tourism-revenue.json        # 旅游收入
-│   │   │   │   └── scenic-areas.json           # 景区数据
+│   │   │   │   ├── scenic-areas.json           # 景区数据
+│   │   │   │   ├── star-rated-hotels.json      # 星级饭店统计
+│   │   │   │   └── travel-agencies.json        # 旅行社统计
 │   │   │   ├── cultural_industry/              # 文化产业
 │   │   │   │   ├── cultural-industry-stats.json # 文化产业统计
 │   │   │   │   ├── cultural-enterprises.json   # 文化企业
 │   │   │   │   ├── cultural-consumption.json   # 文化消费
 │   │   │   │   ├── museums.json                # 博物馆数据
-│   │   │   │   └── performing-arts.json        # 演出市场
+│   │   │   │   ├── performing-arts.json        # 演出市场
+│   │   │   │   ├── art-market.json             # 艺术品市场
+│   │   │   │   └── cultural-venues.json        # 文化场馆统计
 │   │   │   ├── heritage/                       # 文化遗产
 │   │   │   │   ├── cultural-heritage.json      # 文化遗产保护
 │   │   │   │   ├── world-heritage.json         # 世界遗产
@@ -1161,7 +1173,8 @@ datasource/
 │   │   │   │   ├── broadcasting-stats.json     # 广播电视统计
 │   │   │   │   ├── film-industry.json          # 电影产业
 │   │   │   │   ├── tv-industry.json            # 电视产业
-│   │   │   │   └── streaming-media.json        # 网络视听
+│   │   │   │   ├── streaming-media.json        # 网络视听
+│   │   │   │   └── online-audiovisual.json     # 网络视听节目统计
 │   │   │   └── publishing/                     # 新闻出版
 │   │   │       ├── npa.json                    # 国家新闻出版署
 │   │   │       ├── publishing-stats.json       # 出版统计
@@ -1318,103 +1331,45 @@ datasource/
 │   │   │       ├── accounting-firms.json       # 会计师事务所
 │   │   │       ├── certified-accountants.json  # 注册会计师
 │   │   │       └── accounting-supervision.json # 会计监督
-│   │   ├── provincial/        # 省级数据源（34个省级行政区全覆盖）
-│   │   │   ├── municipalities/                 # 直辖市（4个）
+│   │   ├── provincial/        # 省级数据源（60个数据源，覆盖34个省级行政区）
+│   │   │   ├── municipalities/                 # 直辖市（8个数据源）
 │   │   │   │   ├── beijing/                    # 北京市
 │   │   │   │   │   ├── bj-stats.json           # 北京统计局
-│   │   │   │   │   ├── bj-data.json            # 北京政府数据
-│   │   │   │   │   └── bj-econ.json            # 北京经济信息网
+│   │   │   │   │   └── bj-data.json            # 北京政府数据
 │   │   │   │   ├── shanghai/                   # 上海市
 │   │   │   │   │   ├── sh-stats.json           # 上海统计局
-│   │   │   │   │   ├── sh-data.json            # 上海政府数据
-│   │   │   │   │   └── sh-pudong.json          # 浦东新区数据
+│   │   │   │   │   └── sh-data.json            # 上海政府数据
 │   │   │   │   ├── tianjin/                    # 天津市
 │   │   │   │   │   ├── tj-stats.json           # 天津统计局
 │   │   │   │   │   └── tj-data.json            # 天津政府数据
 │   │   │   │   └── chongqing/                  # 重庆市
 │   │   │   │       ├── cq-stats.json           # 重庆统计局
 │   │   │   │       └── cq-data.json            # 重庆政府数据
-│   │   │   ├── provinces/                      # 省份（23个）
-│   │   │   │   ├── hebei/                      # 河北省
-│   │   │   │   │   ├── hebei-stats.json        # 河北统计局
-│   │   │   │   │   └── hebei-data.json         # 河北政府数据
-│   │   │   │   ├── shanxi/                     # 山西省
-│   │   │   │   │   ├── shanxi-stats.json       # 山西统计局
-│   │   │   │   │   └── shanxi-data.json        # 山西政府数据
-│   │   │   │   ├── liaoning/                   # 辽宁省
-│   │   │   │   │   ├── ln-stats.json           # 辽宁统计局
-│   │   │   │   │   └── ln-data.json            # 辽宁政府数据
-│   │   │   │   ├── jilin/                      # 吉林省
-│   │   │   │   │   ├── jl-stats.json           # 吉林统计局
-│   │   │   │   │   └── jl-data.json            # 吉林政府数据
-│   │   │   │   ├── heilongjiang/               # 黑龙江省
-│   │   │   │   │   ├── hlj-stats.json          # 黑龙江统计局
-│   │   │   │   │   └── hlj-data.json           # 黑龙江政府数据
-│   │   │   │   ├── jiangsu/                    # 江苏省
-│   │   │   │   │   ├── js-stats.json           # 江苏统计局
-│   │   │   │   │   ├── js-data.json            # 江苏政府数据
-│   │   │   │   │   └── js-suzhou.json          # 苏州市数据
-│   │   │   │   ├── zhejiang/                   # 浙江省
-│   │   │   │   │   ├── zj-stats.json           # 浙江统计局
-│   │   │   │   │   ├── zj-data.json            # 浙江政府数据
-│   │   │   │   │   └── zj-hangzhou.json        # 杭州市数据
-│   │   │   │   ├── anhui/                      # 安徽省
-│   │   │   │   │   ├── ah-stats.json           # 安徽统计局
-│   │   │   │   │   └── ah-data.json            # 安徽政府数据
-│   │   │   │   ├── fujian/                     # 福建省
-│   │   │   │   │   ├── fj-stats.json           # 福建统计局
-│   │   │   │   │   ├── fj-data.json            # 福建政府数据
-│   │   │   │   │   └── fj-xiamen.json          # 厦门市数据
-│   │   │   │   ├── jiangxi/                    # 江西省
-│   │   │   │   │   ├── jx-stats.json           # 江西统计局
-│   │   │   │   │   └── jx-data.json            # 江西政府数据
-│   │   │   │   ├── shandong/                   # 山东省
-│   │   │   │   │   ├── sd-stats.json           # 山东统计局
-│   │   │   │   │   ├── sd-data.json            # 山东政府数据
-│   │   │   │   │   └── sd-qingdao.json         # 青岛市数据
-│   │   │   │   ├── henan/                      # 河南省
-│   │   │   │   │   ├── henan-stats.json        # 河南统计局
-│   │   │   │   │   └── henan-data.json         # 河南政府数据
-│   │   │   │   ├── hubei/                      # 湖北省
-│   │   │   │   │   ├── hb-stats.json           # 湖北统计局
-│   │   │   │   │   ├── hb-data.json            # 湖北政府数据
-│   │   │   │   │   └── hb-wuhan.json           # 武汉市数据
-│   │   │   │   ├── hunan/                      # 湖南省
-│   │   │   │   │   ├── hun-stats.json          # 湖南统计局
-│   │   │   │   │   └── hun-data.json           # 湖南政府数据
-│   │   │   │   ├── guangdong/                  # 广东省
-│   │   │   │   │   ├── gd-stats.json           # 广东统计局
-│   │   │   │   │   ├── gd-data.json            # 广东政府数据
-│   │   │   │   │   ├── gd-guangzhou.json       # 广州市数据
-│   │   │   │   │   ├── gd-shenzhen.json        # 深圳市数据
-│   │   │   │   │   └── gd-zhuhai.json          # 珠海市数据
-│   │   │   │   ├── hainan/                     # 海南省
-│   │   │   │   │   ├── hainan-stats.json       # 海南统计局
-│   │   │   │   │   └── hainan-data.json        # 海南政府数据
-│   │   │   │   ├── sichuan/                    # 四川省
-│   │   │   │   │   ├── sc-stats.json           # 四川统计局
-│   │   │   │   │   ├── sc-data.json            # 四川政府数据
-│   │   │   │   │   └── sc-chengdu.json         # 成都市数据
-│   │   │   │   ├── guizhou/                    # 贵州省
-│   │   │   │   │   ├── gz-stats.json           # 贵州统计局
-│   │   │   │   │   └── gz-data.json            # 贵州政府数据
-│   │   │   │   ├── yunnan/                     # 云南省
-│   │   │   │   │   ├── yn-stats.json           # 云南统计局
-│   │   │   │   │   └── yn-data.json            # 云南政府数据
-│   │   │   │   ├── shaanxi/                    # 陕西省
-│   │   │   │   │   ├── shaanxi-stats.json      # 陕西统计局
-│   │   │   │   │   ├── shaanxi-data.json       # 陕西政府数据
-│   │   │   │   │   └── shaanxi-xian.json       # 西安市数据
-│   │   │   │   ├── gansu/                      # 甘肃省
-│   │   │   │   │   ├── gansu-stats.json        # 甘肃统计局
-│   │   │   │   │   └── gansu-data.json         # 甘肃政府数据
-│   │   │   │   ├── qinghai/                    # 青海省
-│   │   │   │   │   ├── qinghai-stats.json      # 青海统计局
-│   │   │   │   │   └── qinghai-data.json       # 青海政府数据
-│   │   │   │   └── taiwan/                     # 台湾省
-│   │   │   │       ├── taiwan-stats.json       # 台湾统计部门
-│   │   │   │       └── taiwan-data.json        # 台湾开放数据
-│   │   │   ├── autonomous_regions/             # 自治区（5个）
+│   │   │   ├── provinces/                      # 省份（23个数据源，每省1个统计局）
+│   │   │   │   ├── hebei-stats.json            # 河北统计局
+│   │   │   │   ├── shanxi-stats.json           # 山西统计局
+│   │   │   │   ├── liaoning-stats.json         # 辽宁统计局
+│   │   │   │   ├── jilin-stats.json            # 吉林统计局
+│   │   │   │   ├── heilongjiang-stats.json     # 黑龙江统计局
+│   │   │   │   ├── jiangsu-stats.json          # 江苏统计局
+│   │   │   │   ├── zhejiang-stats.json         # 浙江统计局
+│   │   │   │   ├── anhui-stats.json            # 安徽统计局
+│   │   │   │   ├── fujian-stats.json           # 福建统计局
+│   │   │   │   ├── jiangxi-stats.json          # 江西统计局
+│   │   │   │   ├── shandong-stats.json         # 山东统计局
+│   │   │   │   ├── henan-stats.json            # 河南统计局
+│   │   │   │   ├── hubei-stats.json            # 湖北统计局
+│   │   │   │   ├── hunan-stats.json            # 湖南统计局
+│   │   │   │   ├── guangdong-stats.json        # 广东统计局
+│   │   │   │   ├── hainan-stats.json           # 海南统计局
+│   │   │   │   ├── sichuan-stats.json          # 四川统计局
+│   │   │   │   ├── guizhou-stats.json          # 贵州统计局
+│   │   │   │   ├── yunnan-stats.json           # 云南统计局
+│   │   │   │   ├── shaanxi-stats.json          # 陕西统计局
+│   │   │   │   ├── gansu-stats.json            # 甘肃统计局
+│   │   │   │   ├── qinghai-stats.json          # 青海统计局
+│   │   │   │   └── taiwan-stats.json           # 台湾统计部门
+│   │   │   ├── autonomous_regions/             # 自治区（10个数据源）
 │   │   │   │   ├── inner_mongolia/             # 内蒙古自治区
 │   │   │   │   │   ├── nmg-stats.json          # 内蒙古统计局
 │   │   │   │   │   └── nmg-data.json           # 内蒙古政府数据
@@ -1430,28 +1385,29 @@ datasource/
 │   │   │   │   └── xinjiang/                   # 新疆维吾尔自治区
 │   │   │   │       ├── xinjiang-stats.json     # 新疆统计局
 │   │   │   │       └── xinjiang-data.json      # 新疆政府数据
-│   │   │   ├── special_admin_regions/          # 特别行政区（2个）
+│   │   │   ├── special_admin_regions/          # 特别行政区（4个数据源）
 │   │   │   │   ├── hong_kong/                  # 香港特别行政区
 │   │   │   │   │   ├── hk-census.json          # 香港统计处
-│   │   │   │   │   ├── hk-data.json            # 香港政府数据
-│   │   │   │   │   ├── hk-hkma.json            # 香港金管局
-│   │   │   │   │   └── hk-hkex.json            # 香港交易所
+│   │   │   │   │   └── hk-financial.json       # 香港金管局
 │   │   │   │   └── macau/                      # 澳门特别行政区
 │   │   │   │       ├── macau-stats.json        # 澳门统计局
-│   │   │   │       ├── macau-data.json         # 澳门政府数据
-│   │   │   │       └── macau-amcm.json         # 澳门金管局
-│   │   │   └── major_cities/                   # 重点城市数据（计划单列市等）
-│   │   │       ├── shenzhen.json               # 深圳市（已在广东省）
-│   │   │       ├── dalian.json                 # 大连市
-│   │   │       ├── ningbo.json                 # 宁波市
-│   │   │       ├── xiamen.json                 # 厦门市（已在福建省）
-│   │   │       ├── qingdao.json                # 青岛市（已在山东省）
-│   │   │       ├── chengdu.json                # 成都市（已在四川省）
-│   │   │       ├── wuhan.json                  # 武汉市（已在湖北省）
-│   │   │       ├── xian.json                   # 西安市（已在陕西省）
-│   │   │       ├── hangzhou.json               # 杭州市（已在浙江省）
-│   │   │       ├── nanjing.json                # 南京市
-│   │   │       └── suzhou.json                 # 苏州市（已在江苏省）
+│   │   │   │       └── macau-financial.json    # 澳门金管局
+│   │   │   └── major_cities/                   # 重点城市（15个数据源）
+│   │   │       ├── shenzhen.json               # 深圳市（计划单列市）
+│   │   │       ├── dalian.json                 # 大连市（计划单列市）
+│   │   │       ├── ningbo.json                 # 宁波市（计划单列市）
+│   │   │       ├── xiamen.json                 # 厦门市（计划单列市）
+│   │   │       ├── qingdao.json                # 青岛市（计划单列市）
+│   │   │       ├── guangzhou.json              # 广州市（省会）
+│   │   │       ├── chengdu.json                # 成都市（省会）
+│   │   │       ├── wuhan.json                  # 武汉市（省会）
+│   │   │       ├── xian.json                   # 西安市（省会）
+│   │   │       ├── hangzhou.json               # 杭州市（省会）
+│   │   │       ├── nanjing.json                # 南京市（省会）
+│   │   │       ├── suzhou.json                 # 苏州市（重点城市）
+│   │   │       ├── zhengzhou.json              # 郑州市（省会）
+│   │   │       ├── changsha.json               # 长沙市（省会）
+│   │   │       └── hefei.json                  # 合肥市（省会）
 │   │   ├── research/          # 研究机构
 │   │   │   ├── cass.json                       # 中国社会科学院
 │   │   │   ├── drc.json                        # 国务院发展研究中心
@@ -2097,7 +2053,7 @@ datasource/
 DataSource Hub的核心特色：
 1. **深度收录**: 聚焦权威官方数据源，提供专业级元数据
 2. **中国数据源**: 全球领先的中国官方数据源深度覆盖（488个规划）
-3. **专业元数据**: 40+字段、5维度质量评分、API访问详情
+3. **专业元数据**: 40+字段、6维度质量评分、API访问详情
 4. **目标用户**: 数据专业人士（分析师、研究员、开发者）
 
 ### 6.3 收录优先级

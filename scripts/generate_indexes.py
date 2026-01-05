@@ -41,15 +41,63 @@ class IndexGenerator:
         print(f"Loaded {len(self.sources)} data sources")
 
     def _calculate_quality_score(self, quality: Dict) -> float:
-        """Calculate average quality score"""
+        """Calculate average quality score (6 dimensions)"""
         scores = [
             quality.get('authority_level', 0),
             quality.get('methodology_transparency', 0),
             quality.get('update_timeliness', 0),
             quality.get('data_completeness', 0),
-            quality.get('documentation_quality', 0)
+            quality.get('documentation_quality', 0),
+            quality.get('citation_count', 0)
         ]
         return round(sum(scores) / len(scores), 1) if scores else 0.0
+
+    def _calculate_completeness_score(self, source: Dict) -> float:
+        """Calculate metadata completeness score based on field categories"""
+        # Required fields (must be 100%)
+        required_fields = [
+            'id', 'name', 'organization', 'description',
+            'access.primary_url', 'access.access_level',
+            'coverage.geographic', 'coverage.temporal', 'coverage.domains',
+            'quality', 'catalog_metadata.added_date', 'catalog_metadata.status'
+        ]
+
+        # Recommended fields (target ≥80%)
+        recommended_fields = [
+            'data_content', 'data_characteristics',
+            'licensing.license', 'usage',
+            'contact', 'related_sources'
+        ]
+
+        # Optional fields
+        optional_fields = [
+            'metadata.standards_followed', 'metadata.data_dictionary',
+            'metadata.methodology_docs', 'metadata.user_guide'
+        ]
+
+        def check_field(data, field_path):
+            """Check if a nested field exists and has value"""
+            keys = field_path.split('.')
+            current = data
+            for key in keys:
+                if isinstance(current, dict) and key in current:
+                    current = current[key]
+                else:
+                    return False
+            return current not in [None, '', [], {}]
+
+        req_present = sum(1 for f in required_fields if check_field(source, f))
+        rec_present = sum(1 for f in recommended_fields if check_field(source, f))
+        opt_present = sum(1 for f in optional_fields if check_field(source, f))
+
+        req_pct = (req_present / len(required_fields)) * 100 if required_fields else 0
+        rec_pct = (rec_present / len(recommended_fields)) * 100 if recommended_fields else 0
+        opt_pct = (opt_present / len(optional_fields)) * 100 if optional_fields else 0
+
+        # Formula: Required(50%) + Recommended(35%) + Optional(15%)
+        completeness = (req_pct * 0.50) + (rec_pct * 0.35) + (opt_pct * 0.15)
+
+        return round(completeness, 1)
 
     def generate_all_sources(self) -> Dict:
         """Generate all-sources.json with complete list"""
@@ -57,6 +105,7 @@ class IndexGenerator:
 
         for source in self.sources:
             quality_score = self._calculate_quality_score(source.get('quality', {}))
+            completeness_score = self._calculate_completeness_score(source)
 
             entry = {
                 'id': source['id'],
@@ -69,6 +118,7 @@ class IndexGenerator:
                 'geographic_scope': source['coverage']['geographic']['scope'],
                 'update_frequency': source['coverage']['temporal'].get('update_frequency'),
                 'quality_score': quality_score,
+                'completeness_score': completeness_score,
                 'access_level': source['access']['access_level'],
                 'indicators': source['coverage'].get('indicators'),
                 'status': source['catalog_metadata']['status'],
@@ -229,7 +279,12 @@ class IndexGenerator:
 
     def generate_statistics(self) -> Dict:
         """Generate statistics.json with overview statistics"""
-        total_indicators = sum(s['coverage'].get('indicators', 0) for s in self.sources)
+        def get_indicator_count(source):
+            indicators = source['coverage'].get('indicators', 0)
+            # Handle both int and list types
+            return indicators if isinstance(indicators, int) else len(indicators) if isinstance(indicators, list) else 0
+
+        total_indicators = sum(get_indicator_count(s) for s in self.sources)
         avg_quality = sum(self._calculate_quality_score(s.get('quality', {})) for s in self.sources) / len(self.sources) if self.sources else 0
 
         # Count by organization type
@@ -313,6 +368,9 @@ Examples:
   # Generate all indexes (default)
   python generate_indexes.py
 
+  # Test a single datasource file
+  python generate_indexes.py --test sources/china/finance/banking/pbc.json
+
   # Specify custom source directory
   python generate_indexes.py --sources ../sources
 
@@ -333,7 +391,77 @@ Examples:
         help='Output directory for index files (default: indexes)'
     )
 
+    parser.add_argument(
+        '--test',
+        type=str,
+        metavar='FILE',
+        help='Test mode: verify a single datasource file can be indexed'
+    )
+
     args = parser.parse_args()
+
+    # Test mode: verify single file
+    if args.test:
+        test_file = Path(args.test)
+        if not test_file.exists():
+            print(f"❌ Error: Test file not found: {test_file}")
+            sys.exit(1)
+
+        print("=" * 70)
+        print("DataSource Hub - Index Test Mode")
+        print("=" * 70)
+        print(f"Testing file: {test_file}\n")
+
+        # Try to load the file
+        try:
+            with open(test_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"❌ JSON格式错误: {e}")
+            sys.exit(1)
+        except Exception as e:
+            print(f"❌ 无法读取文件: {e}")
+            sys.exit(1)
+
+        # Verify required fields for indexing
+        required_index_fields = ['id', 'name', 'organization', 'quality']
+        missing_fields = []
+
+        for field in required_index_fields:
+            if field not in data:
+                missing_fields.append(field)
+
+        if missing_fields:
+            print(f"❌ 缺少索引必需字段: {', '.join(missing_fields)}")
+            sys.exit(1)
+
+        # Extract key information
+        datasource_id = data.get('id')
+        name_en = data.get('name', {}).get('en', 'N/A')
+        name_zh = data.get('name', {}).get('zh', 'N/A')
+        org_name = data.get('organization', {}).get('name', 'N/A')
+
+        # Calculate quality score
+        quality = data.get('quality', {})
+        scores = [
+            quality.get('authority_level', 0),
+            quality.get('methodology_transparency', 0),
+            quality.get('update_timeliness', 0),
+            quality.get('data_completeness', 0),
+            quality.get('documentation_quality', 0)
+        ]
+        avg_quality = sum(scores) / len(scores) if scores else 0
+
+        print("✅ 文件格式正确")
+        print(f"\n数据源信息:")
+        print(f"  ID: {datasource_id}")
+        print(f"  名称 (EN): {name_en}")
+        print(f"  名称 (ZH): {name_zh}")
+        print(f"  组织: {org_name}")
+        print(f"  平均质量评分: {avg_quality:.1f}/5.0")
+        print(f"\n✅ 该数据源可以正确加入索引")
+        print("=" * 70)
+        sys.exit(0)
 
     sources_dir = Path(args.sources)
     output_dir = Path(args.output)

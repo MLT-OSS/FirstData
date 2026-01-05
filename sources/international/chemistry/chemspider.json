@@ -1,0 +1,166 @@
+{
+  "id": "intl-chemspider",
+  "name": {
+    "en": "ChemSpider",
+    "zh": "化学蜘蛛数据库"
+  },
+  "organization": {
+    "name": "Royal Society of Chemistry",
+    "type": "international_organization",
+    "country": null,
+    "website": "https://www.rsc.org"
+  },
+  "description": {
+    "en": "ChemSpider is a free chemical structure database providing fast access to over 120 million structures, along with properties and associated information. Owned by the Royal Society of Chemistry since 2009, ChemSpider integrates and links compounds from hundreds of high quality data sources, enabling researchers to discover the most comprehensive view of freely available chemical data from a single online search. The database has received multiple international awards, including the ALPSP Prize for Publishing Innovation in 2010. ChemSpider builds on the collected data by adding additional properties, related information and links back to original data sources, offering text and structure searching to find compounds of interest and providing a range of services to improve this data by curation and annotation.",
+    "zh": "ChemSpider 是一个免费的化学结构数据库，提供快速访问超过1.2亿个化学结构及其性质和相关信息。自2009年起由英国皇家化学学会拥有，ChemSpider整合并链接来自数百个高质量数据源的化合物，使研究人员能够通过单一在线搜索发现最全面的免费化学数据视图。该数据库曾获得多项国际奖项，包括2010年ALPSP出版创新奖。ChemSpider通过添加额外的性质、相关信息和原始数据源链接来增强收集的数据，提供文本和结构搜索来查找感兴趣的化合物，并提供一系列服务通过整理和注释来改进数据。"
+  },
+  "access": {
+    "primary_url": "https://www.chemspider.com",
+    "api": {
+      "available": true,
+      "documentation": null,
+      "version": null,
+      "authentication": false
+    },
+    "download": {
+      "available": false,
+      "formats": []
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global"
+    },
+    "temporal": {
+      "start_year": 2009,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "Chemistry",
+      "Chemical Structures",
+      "Molecular Properties",
+      "Pharmaceutical Sciences",
+      "Materials Science",
+      "Organic Chemistry",
+      "Inorganic Chemistry",
+      "Chemical Information"
+    ],
+    "indicators": 120000000
+  },
+  "data_content": {
+    "en": [
+      "Chemical Structures - Over 120 million unique chemical structures",
+      "Chemical Names - Systematic names, synonyms, trade names, common names",
+      "Registry Numbers - CAS Registry Numbers and other chemical identifiers",
+      "Molecular Properties - Molecular formula, molecular weight, physical properties",
+      "SMILES and InChI - Chemical structure representations",
+      "Data Sources - Aggregated data from hundreds of high-quality data sources",
+      "Chemical Identifiers - Multiple naming systems and identification codes",
+      "Compound Properties - Physical and chemical properties of compounds",
+      "Structure Search - Text-based and structure-based searching capabilities",
+      "Single and Multi-component Structures - Both simple and complex chemical structures",
+      "Isotopically Labeled Compounds - Structures with isotope labeling"
+    ],
+    "zh": [
+      "化学结构 - 超过1.2亿个独特的化学结构",
+      "化学名称 - 系统命名、同义词、商品名、通用名",
+      "登记号 - CAS登记号和其他化学标识符",
+      "分子性质 - 分子式、分子量、物理性质",
+      "SMILES和InChI - 化学结构表示方法",
+      "数据源 - 来自数百个高质量数据源的聚合数据",
+      "化学标识符 - 多种命名系统和识别代码",
+      "化合物性质 - 化合物的物理和化学性质",
+      "结构搜索 - 基于文本和结构的搜索功能",
+      "单组分和多组分结构 - 简单和复杂的化学结构",
+      "同位素标记化合物 - 带有同位素标记的结构"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["statistical", "cross-sectional", "text"],
+    "granularity": ["molecular-level", "compound-level"],
+    "formats": ["HTML", "SMILES", "InChI", "MOL", "SDF"],
+    "languages": ["en"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 4,
+    "update_timeliness": 5,
+    "data_completeness": 5,
+    "documentation_quality": 4,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Free for non-commercial use",
+    "commercial_use": false,
+    "attribution_required": true,
+    "restrictions": [
+      "Data can be reused in publications with citation",
+      "Web scraping is not permitted - use web services instead",
+      "Complete dataset download is not available",
+      "Access via web services for programmatic access",
+      "Citation required when using data from ChemSpider records"
+    ]
+  },
+  "metadata": {
+    "standards_followed": [
+      "SMILES",
+      "InChI",
+      "CAS Registry Numbers",
+      "Chemical naming conventions"
+    ],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Chemical structure identification and verification",
+      "Chemical compound research and discovery",
+      "Literature and patent chemical compound searches",
+      "Chemical property lookup and comparison",
+      "Integration with other chemical databases",
+      "Academic chemistry research",
+      "Pharmaceutical research and development",
+      "Chemical education and teaching",
+      "Chemical nomenclature verification",
+      "Molecular formula and structure analysis"
+    ]
+  },
+  "related_sources": [
+    "cambridge-structural-database",
+    "pubchem"
+  ],
+  "contact": {
+    "email": "chemspider@rsc.org",
+    "support_url": "https://www.chemspider.com/help"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "DataSource Hub Team",
+    "status": "active"
+  },
+  "tags": [
+    "chemistry",
+    "chemical-structures",
+    "molecular-properties",
+    "chemical-database",
+    "free-access",
+    "royal-society-chemistry",
+    "chemical-search",
+    "compound-properties",
+    "chemical-identifiers",
+    "smiles",
+    "inchi",
+    "cas-numbers",
+    "pharmaceutical",
+    "materials-science",
+    "organic-chemistry",
+    "chemical-information",
+    "academic-research"
+  ]
+}

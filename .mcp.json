@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "datasource_hub": {
+      "type": "http",
+      "url": "http://localhost:8001/mcp",
+      "headers": {
+        "Authorization": "Bearer tdyaCfP_fPwE2M8gAq7Pg3qVm6dR36LqXJsSDPnejGM"
+      }
+    },
+    "web_search": {
+      "type": "http",
+      "url": "https://gateway.deepminer.ai/web-search/mcp",
+      "headers": {
+        "Authorization": "Bearer JlIPwPx2ovu8ilg4DDNoXDh3P2Trr3zb"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "Data_saver": {
+      "type": "http",
+      "url": "https://datasaver-test.deepminingai.com/api/dev_a6b9aa98a3f8b3b2a7b3/mcp",
+      "headers": {
+        "Authorization": "Bearer mb_86bf50e52bdfb05028fb75b0c3"
+      }
+    }
+  }
+}

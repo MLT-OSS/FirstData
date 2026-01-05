@@ -1,0 +1,6 @@
+{
+  "datasource_hub": {
+    "transport": "sse",
+    "url": "http://localhost:8001/mcp"
+  }
+}

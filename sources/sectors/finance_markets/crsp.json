@@ -1,0 +1,195 @@
+{
+  "id": "crsp",
+  "name": {
+    "en": "CRSP - Center for Research in Security Prices",
+    "zh": "证券价格研究中心"
+  },
+  "organization": {
+    "name": "Center for Research in Security Prices, LLC (CRSP)",
+    "type": "research_institution",
+    "country": "US",
+    "website": "https://www.crsp.org"
+  },
+  "description": {
+    "en": "CRSP maintains the most comprehensive collection of security price, return, and volume data for the NYSE, AMEX, and NASDAQ stock markets. Founded at the University of Chicago Booth School of Business in the 1960s, CRSP provides historical data dating back to 1925 covering over 32,000 active and inactive securities. The database includes daily and monthly stock prices, returns, trading volumes, corporate actions, and indices. CRSP is the gold standard for academic financial research and is widely used by researchers, investment professionals, and asset managers. In September 2025, Morningstar, Inc. acquired CRSP from the University of Chicago for $375 million. Over $3 trillion of assets are held in funds linked to CRSP Market Indexes.",
+    "zh": "CRSP 维护着纽约证券交易所（NYSE）、美国证券交易所（AMEX）和纳斯达克（NASDAQ）股票市场最全面的证券价格、回报和交易量数据集合。CRSP 成立于 1960 年代，由芝加哥大学布斯商学院创建，提供可追溯到 1925 年的历史数据，涵盖超过 32,000 个活跃和非活跃证券。数据库包括每日和每月股票价格、回报率、交易量、公司行为和指数。CRSP 是学术金融研究的黄金标准，被研究人员、投资专业人士和资产管理公司广泛使用。2025 年 9 月，晨星公司以 3.75 亿美元从芝加哥大学收购了 CRSP。与 CRSP 市场指数挂钩的基金持有的资产超过 3 万亿美元。"
+  },
+  "access": {
+    "primary_url": "https://www.crsp.org/",
+    "api": {
+      "available": true,
+      "documentation": "https://www.crsp.org/products/documentation/getting-started",
+      "version": null,
+      "authentication": true
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "SAS", "STATA", "Flat Files"]
+    },
+    "access_level": "academic",
+    "registration_required": true
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "national",
+      "countries": ["US"],
+      "regions": ["North America"]
+    },
+    "temporal": {
+      "start_year": 1925,
+      "end_year": 2025,
+      "update_frequency": "monthly"
+    },
+    "domains": [
+      "Stock Markets",
+      "Equities",
+      "Market Indices",
+      "Corporate Actions",
+      "Investment Research",
+      "Asset Pricing"
+    ],
+    "indicators": 32000
+  },
+  "data_content": {
+    "en": [
+      "Daily and monthly stock prices (NYSE, AMEX, NASDAQ, NYSE Arca)",
+      "Stock returns and holding period returns",
+      "Trading volumes and shares outstanding",
+      "Market capitalization data",
+      "Stock indices and portfolio returns",
+      "Corporate actions (splits, dividends, delistings, mergers)",
+      "Beta-based and cap-based portfolios",
+      "Treasury bond rates and risk-free rates",
+      "Mutual fund data",
+      "Real estate investment trust (REIT) data",
+      "Security-level descriptive information (CUSIP, ticker, company name)",
+      "Market microstructure data"
+    ],
+    "zh": [
+      "每日和每月股票价格（纽交所、美国证交所、纳斯达克、纽交所高增长板）",
+      "股票回报率和持有期回报率",
+      "交易量和流通股数",
+      "市值数据",
+      "股票指数和投资组合回报",
+      "公司行为（拆股、分红、退市、并购）",
+      "基于贝塔和市值的投资组合",
+      "国债利率和无风险利率",
+      "共同基金数据",
+      "房地产投资信托基金（REIT）数据",
+      "证券级别描述信息（CUSIP、股票代码、公司名称）",
+      "市场微观结构数据"
+    ]
+  },
+  "data_characteristics": {
+    "types": [
+      "time-series",
+      "cross-sectional",
+      "panel",
+      "statistical"
+    ],
+    "granularity": [
+      "security-level",
+      "daily",
+      "monthly",
+      "quarterly",
+      "annual"
+    ],
+    "formats": [
+      "CSV",
+      "SAS",
+      "STATA",
+      "Flat Files",
+      "Legacy FIZ format",
+      "SIZ format"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 4,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Proprietary - Academic and Commercial Subscription",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": [
+      "Subscription required for access (academic or commercial license)",
+      "Primarily distributed through WRDS (Wharton Research Data Services)",
+      "Data limited to authorized institutional users",
+      "Redistribution prohibited without authorization",
+      "Research, teaching, and private study purposes for academic licenses"
+    ]
+  },
+  "metadata": {
+    "standards_followed": [
+      "CUSIP",
+      "PERMNO (CRSP Permanent Number)",
+      "PERMCO (CRSP Permanent Company Number)",
+      "SIC Codes",
+      "NAICS Codes"
+    ],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Academic research in asset pricing and corporate finance",
+      "Backtesting investment strategies",
+      "Portfolio performance benchmarking",
+      "Event studies (mergers, acquisitions, corporate actions)",
+      "Market anomaly research",
+      "Factor model construction (Fama-French factors)",
+      "Risk analysis and financial modeling",
+      "Index fund management and passive investing"
+    ],
+    "example_studies": [
+      "Fama-French Three-Factor Model and Five-Factor Model",
+      "Thousands of academic papers in top finance journals",
+      "Index funds tracking CRSP market indices"
+    ],
+    "code_examples": [
+      "https://www.crsp.org/products/documentation/getting-started",
+      "https://www.crsp.org/wp-content/uploads/guides/CRSP_Utilities_and_Program_Libraries_Guide_3.90.pdf"
+    ]
+  },
+  "related_sources": [
+    "compustat",
+    "bloomberg-terminal"
+  ],
+  "contact": {
+    "email": "Subscriptions@crsp.ChicagoBooth.edu",
+    "support_url": "https://www.crsp.org/subscription-information/"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-11",
+    "last_updated": "2025-12-11",
+    "verified_date": "2025-12-11",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  },
+  "tags": [
+    "stock-market",
+    "equities",
+    "historical-data",
+    "US-markets",
+    "NYSE",
+    "NASDAQ",
+    "AMEX",
+    "academic-research",
+    "financial-data",
+    "market-indices",
+    "time-series",
+    "asset-pricing",
+    "corporate-actions",
+    "subscription-based",
+    "WRDS",
+    "investment-research"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "canada-statcan",
+  "name": {
+    "en": "Statistics Canada",
+    "zh": "加拿大统计局",
+    "native": "Statistique Canada"
+  },
+  "organization": {
+    "name": "Statistics Canada / Statistique Canada",
+    "type": "national_government",
+    "country": "CA",
+    "website": "https://www.statcan.gc.ca"
+  },
+  "description": {
+    "en": "Canada's national statistical office providing comprehensive data on the country's economy, society, and environment. Conducts the Census of Population, Labour Force Survey, and over 350 active surveys covering demographics, health, business, trade, and more.",
+    "zh": "加拿大国家统计局，提供有关国家经济、社会和环境的综合数据。进行人口普查、劳动力调查以及涵盖人口统计、健康、商业、贸易等350多项主动调查。"
+  },
+  "access": {
+    "primary_url": "https://www.statcan.gc.ca/en/start",
+    "api": {
+      "available": true,
+      "documentation": "https://www.statcan.gc.ca/en/developers",
+      "authentication": false
+    },
+    "download": {
+      "available": true,
+      "formats": ["CSV", "XML", "JSON", "Excel", "HTML", "PDF"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "national",
+      "countries": 1,
+      "regions": ["Canada", "Provinces and Territories", "Census Divisions", "Census Metropolitan Areas"]
+    },
+    "temporal": {
+      "start_year": 1867,
+      "end_year": 2025,
+      "update_frequency": "varies_by_dataset"
+    },
+    "domains": [
+      "economics",
+      "demographics",
+      "health",
+      "labour",
+      "education",
+      "environment",
+      "agriculture",
+      "business",
+      "housing",
+      "justice",
+      "culture",
+      "trade"
+    ],
+    "indicators": 13100
+  },
+  "data_content": {
+    "en": [
+      "Census of Population - demographics, housing, families",
+      "Labour Force Survey - employment, unemployment rates",
+      "Consumer Price Index and inflation data",
+      "GDP and economic accounts",
+      "International trade statistics",
+      "Health surveys and vital statistics",
+      "Business performance and innovation data",
+      "Agricultural statistics and Census of Agriculture",
+      "Immigration and ethnocultural diversity data",
+      "Income, pensions, and wealth statistics",
+      "Crime and justice statistics",
+      "Environmental and energy data"
+    ],
+    "zh": [
+      "人口普查 - 人口统计、住房、家庭",
+      "劳动力调查 - 就业、失业率",
+      "消费者价格指数和通货膨胀数据",
+      "GDP和经济账户",
+      "国际贸易统计",
+      "健康调查和生命统计",
+      "企业绩效和创新数据",
+      "农业统计和农业普查",
+      "移民和族裔多样性数据",
+      "收入、养老金和财富统计",
+      "犯罪和司法统计",
+      "环境和能源数据"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["statistical", "time-series", "cross-sectional", "census", "survey"],
+    "granularity": ["national", "provincial", "census-division", "census-metropolitan-area", "individual-level"],
+    "formats": ["CSV", "JSON", "XML", "Excel", "SDMX", "HTML", "PDF"],
+    "languages": ["en", "fr"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 5,
+    "data_completeness": 5,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "Statistics Canada Open License",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": []
+  },
+  "metadata": {
+    "standards_followed": ["SDMX", "ISO 19115", "Dublin Core"],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Economic policy analysis",
+      "Demographic research",
+      "Business planning and market research",
+      "Academic research across social sciences",
+      "Government program evaluation",
+      "Media and data journalism"
+    ],
+    "example_studies": [
+      "Labour market trends analysis",
+      "Population aging studies",
+      "Immigration impact assessments",
+      "Regional economic comparisons"
+    ]
+  },
+  "related_sources": [
+    "usa-census-bureau",
+    "uk-ons",
+    "australia-abs"
+  ],
+  "contact": {
+    "email": "infostats@statcan.gc.ca",
+    "support_url": "https://www.statcan.gc.ca/en/reference/refcentre/index"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-09",
+    "last_updated": "2025-12-09",
+    "verified_date": "2025-12-09",
+    "contributor": "DataSource Hub Team",
+    "status": "active"
+  },
+  "tags": [
+    "canada",
+    "national-statistics",
+    "census",
+    "labour-market",
+    "demographics",
+    "economic-indicators",
+    "health-statistics",
+    "open-data",
+    "bilingual"
+  ]
+}

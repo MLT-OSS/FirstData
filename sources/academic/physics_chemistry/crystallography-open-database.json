@@ -1,0 +1,146 @@
+{
+  "id": "acad-cod",
+  "name": {
+    "en": "Crystallography Open Database",
+    "zh": "晶体学开放数据库"
+  },
+  "organization": {
+    "name": "Crystallography Open Database Consortium",
+    "type": "research_institution",
+    "country": null,
+    "website": "https://www.crystallography.net/"
+  },
+  "description": {
+    "en": "Open-access collection of crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers. The COD is a collaborative platform for worldwide crystallographic community to deposit and access crystal structure data with full version control and revision history.",
+    "zh": "开放获取的晶体结构数据库，收录有机、无机、金属有机化合物和矿物的晶体结构（不包括生物大分子）。COD 是全球晶体学界协作平台，提供晶体结构数据存储和访问，具有完整的版本控制和修订历史。"
+  },
+  "access": {
+    "primary_url": "https://www.crystallography.net/cod/",
+    "api": {
+      "available": true,
+      "documentation": "https://wiki.crystallography.net/RESTful_API/",
+      "version": null,
+      "authentication": false
+    },
+    "download": {
+      "available": true,
+      "formats": ["CIF", "HKL", "MySQL dump", "CSV", "JSON", "ZIP"]
+    },
+    "access_level": "open",
+    "registration_required": false
+  },
+  "coverage": {
+    "geographic": {
+      "scope": "global"
+    },
+    "temporal": {
+      "start_year": 1913,
+      "end_year": 2025,
+      "update_frequency": "daily"
+    },
+    "domains": [
+      "Crystallography",
+      "Materials Science",
+      "Chemistry",
+      "Physics",
+      "Mineralogy"
+    ],
+    "indicators": 530453
+  },
+  "data_content": {
+    "en": [
+      "Organic crystal structures",
+      "Inorganic crystal structures",
+      "Metal-organic compounds",
+      "Minerals",
+      "Crystal lattice parameters",
+      "Atomic coordinates",
+      "Structure factors (Fobs data)",
+      "Space group information",
+      "Chemical formulas",
+      "Bibliographic references"
+    ],
+    "zh": [
+      "有机晶体结构",
+      "无机晶体结构",
+      "金属有机化合物",
+      "矿物",
+      "晶格参数",
+      "原子坐标",
+      "结构因子（Fobs数据）",
+      "空间群信息",
+      "化学式",
+      "文献引用"
+    ]
+  },
+  "data_characteristics": {
+    "types": ["cross-sectional", "text", "api"],
+    "granularity": ["atomic-level", "molecular-level", "crystal-level"],
+    "formats": ["CIF", "HKL", "JSON", "CSV", "MySQL", "XML"],
+    "languages": ["en"]
+  },
+  "quality": {
+    "authority_level": 5,
+    "methodology_transparency": 5,
+    "update_timeliness": 5,
+    "data_completeness": 4,
+    "documentation_quality": 5,
+    "citation_count": 5
+  },
+  "licensing": {
+    "license": "CC0 1.0 Universal (Public Domain Dedication)",
+    "commercial_use": true,
+    "attribution_required": true,
+    "restrictions": []
+  },
+  "metadata": {
+    "standards_followed": ["CIF (Crystallographic Information File)", "IUCr standards", "OPTIMADE"],
+    "data_dictionary": true,
+    "methodology_docs": true,
+    "user_guide": true
+  },
+  "usage": {
+    "use_cases": [
+      "Crystal structure analysis",
+      "Materials design and discovery",
+      "Phase identification",
+      "Structure prediction validation",
+      "Teaching crystallography",
+      "Substructure searching",
+      "Chemical database integration"
+    ],
+    "example_studies": [
+      "Gražulis et al. (2012) 'Crystallography Open Database (COD): an open-access collection of crystal structures and platform for world-wide collaboration', Nucleic Acids Research",
+      "Materials genome initiatives",
+      "Computational chemistry benchmarking studies"
+    ]
+  },
+  "related_sources": [
+    "wwpdb",
+    "icsd",
+    "ccdc"
+  ],
+  "contact": {
+    "email": "developers@crystallography.net",
+    "support_url": "https://wiki.crystallography.net/"
+  },
+  "catalog_metadata": {
+    "added_date": "2025-12-12",
+    "last_updated": "2025-12-12",
+    "verified_date": "2025-12-12",
+    "contributor": "datasource-fetcher",
+    "status": "active"
+  },
+  "tags": [
+    "crystallography",
+    "crystal structures",
+    "materials science",
+    "chemistry",
+    "physics",
+    "mineralogy",
+    "open access",
+    "CIF",
+    "atomic structures",
+    "research data"
+  ]
+}
