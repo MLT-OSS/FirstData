@@ -1,0 +1,17 @@
+[project]
+name = "datasource-hub"
+version = "0.1.0"
+description = "A centralized repository for discovering and accessing high-quality data sources"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jsonschema>=4.0.0",
+    "requests>=2.28.0",
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

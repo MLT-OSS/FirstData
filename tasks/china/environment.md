@@ -1,17 +1,152 @@
-# 中国environment领域 - 任务清单
+# 中国生态环境领域 - 任务清单
 
-**领域**: environment
-**状态**: 📋 待创建详细任务清单
-
-详细任务清单正在规划中，即将发布。
+**领域**: 生态环境
+**总数**: 13个数据源
+**已完成**: 0个
+**进度**: 0%
 
 ---
 
-## 临时占位
+## 📊 子领域进度概览
 
-本文件为占位符，详细的任务清单将基于 [PRD.md](../../PRD.md) 第6.4节的规划创建。
+| 子领域 | 计划 | 完成 | 进度 |
+|--------|------|------|------|
+| pollution | 5 | 0 | 0% |
+| climate | 4 | 0 | 0% |
+| ecology | 4 | 0 | 0% |
+| **总计** | **13** | **0** | **0%** | - |
+
+---
+
+## 1. pollution（5个数据源）
+
+### 📋 1.1 生态环境部 (`mee`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/pollution/mee.json`
+- **预估工作量**: 1.5小时
+- **说明**: 生态环境部
+- **认领**: [点击认领Issue](#)
+
+### 📋 1.2 全国空气质量 (`air-quality`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/pollution/air-quality.json`
+- **预估工作量**: 1.5小时
+- **说明**: 全国空气质量
+- **认领**: [点击认领Issue](#)
+
+### 📋 1.3 水环境质量 (`water-quality`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/pollution/water-quality.json`
+- **预估工作量**: 1.5小时
+- **说明**: 水环境质量
+- **认领**: [点击认领Issue](#)
+
+### 📋 1.4 土壤污染数据 (`soil-pollution`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/pollution/soil-pollution.json`
+- **预估工作量**: 1.5小时
+- **说明**: 土壤污染数据
+- **认领**: [点击认领Issue](#)
+
+### 📋 1.5 噪声污染数据 (`noise-pollution`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/pollution/noise-pollution.json`
+- **预估工作量**: 1.5小时
+- **说明**: 噪声污染数据
+- **认领**: [点击认领Issue](#)
+
+---
+
+## 2. climate（4个数据源）
+
+### 📋 2.1 碳排放数据 (`carbon-emission`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/climate/carbon-emission.json`
+- **预估工作量**: 1.5小时
+- **说明**: 碳排放数据
+- **认领**: [点击认领Issue](#)
+
+### 📋 2.2 温室气体清单 (`ghg-inventory`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/climate/ghg-inventory.json`
+- **预估工作量**: 1.5小时
+- **说明**: 温室气体清单
+- **认领**: [点击认领Issue](#)
+
+### 📋 2.3 碳交易数据 (`carbon-trading`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/climate/carbon-trading.json`
+- **预估工作量**: 1.5小时
+- **说明**: 碳交易数据
+- **认领**: [点击认领Issue](#)
+
+### 📋 2.4 气候行动数据 (`climate-action`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/climate/climate-action.json`
+- **预估工作量**: 1.5小时
+- **说明**: 气候行动数据
+- **认领**: [点击认领Issue](#)
+
+---
+
+## 3. ecology（4个数据源）
+
+### 📋 3.1 生物多样性数据 (`biodiversity`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/ecology/biodiversity.json`
+- **预估工作量**: 1.5小时
+- **说明**: 生物多样性数据
+- **认领**: [点击认领Issue](#)
+
+### 📋 3.2 自然保护区 (`nature-reserves`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/ecology/nature-reserves.json`
+- **预估工作量**: 1.5小时
+- **说明**: 自然保护区
+- **认领**: [点击认领Issue](#)
+
+### 📋 3.3 湿地数据 (`wetlands`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/ecology/wetlands.json`
+- **预估工作量**: 1.5小时
+- **说明**: 湿地数据
+- **认领**: [点击认领Issue](#)
+
+### 📋 3.4 荒漠化治理 (`desertification`)
+- **状态**: 📋 待开始
+
+- **目标文件**: `sources/china/environment/ecology/desertification.json`
+- **预估工作量**: 1.5小时
+- **说明**: 荒漠化治理
+- **认领**: [点击认领Issue](#)
+
+---
+
+## 📈 收录进度追踪
+
+**本周目标**: 暂未安排
+**预计开始时间**: 待定
+
+---
+
+## 📚 相关资源
+
+- [数据收集指南](../../docs/data-collection-guide.md)
+- [元数据标准](../../docs/metadata-standard.md)
+- [中国数据源总览](README.md)
 
 ---
 
 [← 返回中国数据源总览](README.md) | [返回任务系统首页](../README.md)
-
