@@ -83,7 +83,7 @@
    - Complete documentation system (CONTRIBUTING.md, guides, etc.)
 
 7. **Project Files** ✅
-   - requirements.txt for Python dependencies
+   - pyproject.toml + uv.lock for Python dependencies (using uv)
    - .gitignore for version control
    - LICENSE (MIT)
    - schemas/datasource-schema.json
@@ -118,7 +118,8 @@ datasource/
 ├── PRD.md                             ✅ Updated with comparison
 ├── PROJECT_STATUS.md                  ✅ This file
 ├── LICENSE                            ✅ MIT License
-├── requirements.txt                   ✅ Python dependencies
+├── pyproject.toml                     ✅ Python dependencies (uv)
+├── uv.lock                            ✅ Dependency lock file
 ├── .gitignore                         ✅ Version control
 │
 ├── schemas/                           ✅ JSON Schema
