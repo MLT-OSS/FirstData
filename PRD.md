@@ -1523,7 +1523,7 @@ datasource/
 │   │   ├── schema_validator.py
 │   │   ├── url_checker.py
 │   │   └── file_manager.py
-│   └── requirements.txt       # Python依赖
+│   └── pyproject.toml         # Python依赖配置 (uv)
 │
 ├── tests/                      # 测试文件
 │   ├── test_validation.py
