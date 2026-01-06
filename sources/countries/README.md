@@ -1,214 +1,359 @@
-# 各国官方数据源 | Official Data Sources by Country
+# Countries Data Sources - 各国官方数据源
 
-## 概览 | Overview
+## 概览 Overview
 
-本目录包含各国官方政府机构发布的权威数据源。
+本目录包含全球各国政府官方数据源的元数据。涵盖北美、欧洲、亚洲、大洋洲、南美洲、非洲等六大洲，42个国家和地区的200+个官方数据源。
 
-This directory contains official data sources from government agencies of various countries.
+This directory contains metadata for official government data sources from countries around the world, covering 42 countries and regions across six continents with 200+ official data sources.
 
-## 目录结构 | Directory Structure
+## 当前状态 Current Status
+
+**目录结构**: ✅ 已完成
+**JSON文件**: 24个数据源已创建
+**完成度**: 24/200+ (12%)
+
+```
+总目标: 200+ 个各国数据源
+当前完成: 24 个
+完成度: ██░░░░░░░░░░░░░░░░░░ 12%
+```
+
+## 目录结构 Directory Structure
 
 ```
 sources/countries/
-├── north-america/        # 北美洲 | North America
-│   ├── canada/          # 加拿大 | Canada
-│   ├── usa/             # 美国 | United States (planned)
-│   └── mexico/          # 墨西哥 | Mexico (planned)
-├── europe/              # 欧洲 | Europe (planned)
-├── asia/                # 亚洲 | Asia (planned)
-├── oceania/             # 大洋洲 | Oceania (planned)
-├── south-america/       # 南美洲 | South America (planned)
-└── africa/              # 非洲 | Africa (planned)
+├── north-america/              # 北美洲 (3国，目标30个)
+│   ├── usa/                   # 🇺🇸 美国 (目标15个，已完成8个)
+│   ├── canada/                # 🇨🇦 加拿大 (目标10个，已完成5个)
+│   └── mexico/                # 🇲🇽 墨西哥 (目标5个，已完成2个)
+│
+├── europe/                     # 欧洲 (15国，目标50个，已完成2个)
+│   ├── eu/                    # 🇪🇺 欧盟 (目标5个)
+│   ├── uk/                    # 🇬🇧 英国 (目标5个，已完成2个)
+│   ├── germany/               # 🇩🇪 德国 (目标4个)
+│   ├── france/                # 🇫🇷 法国 (目标4个)
+│   ├── italy/                 # 🇮🇹 意大利 (目标3个)
+│   ├── spain/                 # 🇪🇸 西班牙 (目标3个)
+│   ├── netherlands/           # 🇳🇱 荷兰 (目标3个)
+│   ├── sweden/                # 🇸🇪 瑞典 (目标3个)
+│   ├── switzerland/           # 🇨🇭 瑞士 (目标3个)
+│   ├── norway/                # 🇳🇴 挪威 (目标2个)
+│   ├── denmark/               # 🇩🇰 丹麦 (目标2个)
+│   ├── finland/               # 🇫🇮 芬兰 (目标2个)
+│   ├── poland/                # 🇵🇱 波兰 (目标2个)
+│   ├── russia/                # 🇷🇺 俄罗斯 (目标2个)
+│   └── turkey/                # 🇹🇷 土耳其 (目标2个)
+│
+├── asia/                       # 亚洲 (14国，目标50个，已完成3个)
+│   ├── japan/                 # 🇯🇵 日本 (目标8个，已完成1个)
+│   ├── korea/                 # 🇰🇷 韩国 (目标5个，已完成1个)
+│   ├── india/                 # 🇮🇳 印度 (目标5个，已完成1个)
+│   ├── singapore/             # 🇸🇬 新加坡 (目标3个)
+│   ├── malaysia/              # 🇲🇾 马来西亚 (目标2个)
+│   ├── thailand/              # 🇹🇭 泰国 (目标2个)
+│   ├── indonesia/             # 🇮🇩 印度尼西亚 (目标2个)
+│   ├── philippines/           # 🇵🇭 菲律宾 (目标2个)
+│   ├── vietnam/               # 🇻🇳 越南 (目标2个)
+│   ├── pakistan/              # 🇵🇰 巴基斯坦 (目标2个)
+│   ├── bangladesh/            # 🇧🇩 孟加拉国 (目标2个)
+│   ├── israel/                # 🇮🇱 以色列 (目标2个)
+│   ├── saudi-arabia/          # 🇸🇦 沙特阿拉伯 (目标2个)
+│   └── uae/                   # 🇦🇪 阿联酋 (目标2个)
+│
+├── oceania/                    # 大洋洲 (2国，目标10个，已完成3个)
+│   ├── australia/             # 🇦🇺 澳大利亚 (目标6个，已完成3个)
+│   └── new-zealand/           # 🇳🇿 新西兰 (目标4个)
+│
+├── south-america/              # 南美洲 (4国，目标15个，已完成1个)
+│   ├── brazil/                # 🇧🇷 巴西 (目标5个，已完成1个)
+│   ├── argentina/             # 🇦🇷 阿根廷 (目标2个)
+│   ├── chile/                 # 🇨🇱 智利 (目标2个)
+│   └── colombia/              # 🇨🇴 哥伦比亚 (目标2个)
+│
+└── africa/                     # 非洲 (4国，目标15个)
+    ├── south-africa/          # 🇿🇦 南非 (目标4个)
+    ├── nigeria/               # 🇳🇬 尼日利亚 (目标4个)
+    ├── egypt/                 # 🇪🇬 埃及 (目标4个)
+    └── kenya/                 # 🇰🇪 肯尼亚 (目标3个)
+
+总计: 42个国家和地区，目标200+个数据源，已完成24个
 ```
 
-## 已收录地区 | Included Regions
+## 已收录数据源 Current Data Sources
 
-### 🌏 亚洲 | Asia
+### 🌎 北美洲 North America
 
-1. **Bank of Japan Statistics** (`boj-statistics`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, Excel, PDF
-   - 访问类型：开放
-   - [查看详情](asia/boj-statistics.json)
+**已完成**: 11/30 (37%)
 
-2. **Directorate General of Commercial Intelligence and Statistics** (`india-dgcis`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：text, Excel, PDF
-   - 访问类型：开放
-   - [查看详情](asia/india-dgcis.json)
-
-3. **Bank of Korea** (`korea-bok`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：Excel, CSV, PDF
-   - 访问类型：开放
-   - [查看详情](asia/korea-bok.json)
-
-### 🌍 欧洲 | Europe
-
-1. **Bank of England Statistical Interactive Database** (`uk-boe`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, Excel, XML, PDF
-   - 访问类型：开放
-   - [查看详情](europe/bank-of-england.json)
-
-### 🌎 北美洲 | North America
-- **国家数量**: 2
-- **数据源总数**: 16
-- [查看详情](north-america)
-
-#### 🇨🇦 加拿大 | Canada
-- **数据源数量**: 1
-- **主要机构**: Statistics Canada
-- [查看详情](north-america/canada/)
-
-#### 🇺🇸 美国 | United States
-- **数据源数量**: 3
-- **主要机构**: United States Census Bureau, NOAA, USGS
-
-**已收录数据源**:
+#### 🇺🇸 美国 United States (6/15)
 
 1. **US Census Bureau** (`census-bureau`) ⭐💎
-   - 权威性：5.0
+   - 权威性：5.0/5.0
+   - 类型：人口统计、经济普查、社会调查
    - 数据格式：CSV, JSON, Excel, XML
    - 访问类型：开放
    - [查看详情](north-america/usa/census-bureau.json)
 
 2. **NOAA Climate Data Online (CDO)** (`noaa-cdo`) ⭐
-   - 权威性：4.8
+   - 权威性：4.8/5.0
+   - 类型：气候数据、气象观测、历史天气
    - 数据格式：CSV, JSON, XML, NetCDF, PDF
-   - 访问类型：注册
+   - 访问类型：需注册（免费）
    - [查看详情](north-america/usa/noaa-cdo.json)
 
 3. **USGS EarthExplorer** (`usgs-earthexplorer`) ⭐💎
-   - 权威性：5.0
+   - 权威性：5.0/5.0
+   - 类型：卫星影像、地球观测、地质数据
    - 数据格式：GeoTIFF, HDF, NetCDF, JPEG2000, LAS, LAZ, Shapefile, KML
-   - 访问类型：需注册
+   - 访问类型：需注册（免费）
    - [查看详情](north-america/usa/usgs-earthexplorer.json)
 
-4. **Agriculture and Agri-Food Canada** (`aafc`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：GeoTIF, FGDB, GDB, CSV, Shapefile, JSON, REST API
+4. **Bureau of Economic Analysis** (`us-bea`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：GDP、国民收入、国际收支
+   - 数据格式：CSV, Excel, JSON, XML, PDF
    - 访问类型：开放
-   - [查看详情](north-america/aafc.json)
+   - [查看详情](north-america/usa/us-bea.json)
 
-5. **Bank of Mexico Economic Information System** (`mx-banxico`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：JSON, XML, JSONP, Excel, CSV
+5. **Bureau of Labor Statistics** (`us-bls`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：就业、失业、工资、CPI
+   - 数据格式：CSV, Excel, JSON, XML, PDF, TXT, API
    - 访问类型：开放
-   - [查看详情](north-america/banxico.json)
+   - [查看详情](north-america/usa/us-bls.json)
 
-6. **Bank of Canada** (`canada-boc`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, JSON, XML, Excel, RSS
+6. **Centers for Disease Control and Prevention** (`us-cdc`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：疾病监测、健康统计、流行病学
+   - 数据格式：CSV, Excel, XML, Text, PDF, Interactive Query
    - 访问类型：开放
-   - [查看详情](north-america/canada/canada-boc.json)
+   - [查看详情](north-america/usa/us-cdc.json)
 
-7. **Statistics Canada** (`canada-statcan`) ⭐💎
-   - 权威性：5.0
+7. **Data.gov** (`us-data-gov`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：综合开放数据门户
+   - 数据格式：CSV, JSON, XML, Excel, PDF, Shapefile, KML, RDF
+   - 访问类型：开放
+   - [查看详情](north-america/usa/us-data-gov.json)
+
+8. **U.S. Energy Information Administration** (`usa-eia`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：能源统计、石油、天然气、电力
+   - 数据格式：CSV, Excel, JSON, XML, PDF, API
+   - 访问类型：开放
+   - [查看详情](north-america/usa/eia.json)
+
+#### 🇨🇦 加拿大 Canada (4/10)
+
+1. **Statistics Canada** (`statcan`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：国家统计、人口普查、经济数据
    - 数据格式：CSV, JSON, XML, Excel, SDMX, HTML, PDF
    - 访问类型：开放
    - [查看详情](north-america/canada/statcan.json)
 
-8. **Canadian Institute for Health Information** (`canada-cihi`) ⭐💎
-   - 权威性：5.0
+2. **Bank of Canada** (`canada-boc`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：货币政策、汇率、金融市场
+   - 数据格式：CSV, JSON, XML, Excel, RSS
+   - 访问类型：开放
+   - [查看详情](north-america/canada/canada-boc.json)
+
+3. **Canadian Institute for Health Information** (`canada-cihi`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：医疗卫生、健康统计
    - 数据格式：Excel, CSV, PDF, HTML, JSON
    - 访问类型：开放
-   - [查看详情](north-america/canada-cihi.json)
+   - [查看详情](north-america/canada/canada-cihi.json)
 
-9. **Canada Energy Regulator** (`canada-cer`) ⭐💎
-   - 权威性：5.0
+4. **Canada Energy Regulator** (`canada-energy-regulator`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：能源监管、石油天然气
    - 数据格式：CSV, JSON, XML, Excel, Interactive Dashboards
    - 访问类型：开放
-   - [查看详情](north-america/canada-energy-regulator.json)
+   - [查看详情](north-america/canada/canada-energy-regulator.json)
 
-10. **U.S. Energy Information Administration** (`usa-eia`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, Excel, JSON, XML, PDF, API
+5. **Agriculture and Agri-Food Canada** (`aafc`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：农业统计、作物、土地利用
+   - 数据格式：GeoTIF, FGDB, GDB, CSV, Shapefile, JSON, REST API
    - 访问类型：开放
-   - [查看详情](north-america/eia.json)
+   - [查看详情](north-america/canada/aafc.json)
 
-11. **National Council for the Evaluation of Social Development Policy** (`mexico-coneval`) ⭐💎
-   - 权威性：5.0
+#### 🇲🇽 墨西哥 Mexico (1/5)
+
+1. **Bank of Mexico Economic Information System** (`banxico`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：经济指标、汇率、通货膨胀
+   - 数据格式：JSON, XML, JSONP, Excel, CSV
+   - 访问类型：开放
+   - [查看详情](north-america/mexico/banxico.json)
+
+2. **National Council for the Evaluation of Social Development Policy** (`coneval`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：贫困测量、社会政策评估
    - 数据格式：Excel, CSV, PDF
    - 访问类型：开放
    - [查看详情](north-america/mexico/coneval.json)
 
-12. **Data.gov.uk** (`uk-data-gov`) ⭐💎
-   - 权威性：5.0
+---
+
+### 🌍 欧洲 Europe
+
+**已完成**: 2/50 (4%)
+
+#### 🇬🇧 英国 United Kingdom (2/5)
+
+1. **Bank of England Statistical Interactive Database** (`bank-of-england`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：货币政策、金融统计
+   - 数据格式：CSV, Excel, XML, PDF
+   - 访问类型：开放
+   - [查看详情](europe/uk/bank-of-england.json)
+
+2. **Data.gov.uk** (`uk-data-gov`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：综合开放数据门户
    - 数据格式：CSV, JSON, XML, Excel, PDF, RDF, Shapefile, GeoJSON
    - 访问类型：开放
-   - [查看详情](north-america/uk-data-gov.json)
+   - [查看详情](europe/uk/uk-data-gov.json)
 
-13. **Bureau of Economic Analysis** (`us-bea`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, Excel, JSON, XML, PDF
+---
+
+### 🌏 亚洲 Asia (除中国)
+
+**已完成**: 3/50 (6%)
+
+#### 🇯🇵 日本 Japan (1/8)
+
+1. **Bank of Japan Statistics** (`boj-statistics`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：货币政策、金融统计、经济指标
+   - 数据格式：CSV, Excel, PDF
    - 访问类型：开放
-   - [查看详情](north-america/us-bea.json)
+   - [查看详情](asia/japan/boj-statistics.json)
 
-14. **Bureau of Labor Statistics** (`us-bls`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, Excel, JSON, XML, PDF, TXT, API
+#### 🇰🇷 韩国 South Korea (1/5)
+
+1. **Bank of Korea** (`korea-bok`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：货币政策、经济统计
+   - 数据格式：Excel, CSV, PDF
    - 访问类型：开放
-   - [查看详情](north-america/us-bls.json)
+   - [查看详情](asia/korea/korea-bok.json)
 
-15. **Centers for Disease Control and Prevention** (`us-cdc`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, Excel, XML, Text, PDF, Interactive Query
+#### 🇮🇳 印度 India (1/5)
+
+1. **Directorate General of Commercial Intelligence and Statistics** (`india-dgcis`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：贸易统计、进出口数据
+   - 数据格式：Text, Excel, PDF
    - 访问类型：开放
-   - [查看详情](north-america/us-cdc.json)
+   - [查看详情](asia/india/india-dgcis.json)
 
-16. **Data.gov** (`us-data-gov`) ⭐💎
-   - 权威性：5.0
-   - 数据格式：CSV, JSON, XML, Excel, PDF, Shapefile, KML, RDF
-   - 访问类型：开放
-   - [查看详情](north-america/us-data-gov.json)
+---
 
-### 🌏 大洋洲 | Oceania
+### 🌏 大洋洲 Oceania
 
-1. **Australian Bureau of Statistics** (`australia-abs`) ⭐💎
-   - 权威性：5.0
+**已完成**: 3/10 (30%)
+
+#### 🇦🇺 澳大利亚 Australia (3/6)
+
+1. **Australian Bureau of Statistics** (`abs`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：国家统计、人口普查、经济数据
    - 数据格式：CSV, Excel, JSON, XML, API
    - 访问类型：开放
-   - [查看详情](oceania/abs.json)
+   - [查看详情](oceania/australia/abs.json)
 
-2. **Australian Institute of Health and Welfare** (`aus-aihw`) ⭐💎
-   - 权威性：5.0
+2. **Australian Institute of Health and Welfare** (`aihw`) ⭐💎
+   - 权威性：5.0/5.0
+   - 类型：健康与福利统计
    - 数据格式：CSV, Excel, JSON, PDF, Interactive dashboards
    - 访问类型：开放
-   - [查看详情](oceania/aihw.json)
+   - [查看详情](oceania/australia/aihw.json)
 
 3. **Bureau of Meteorology** (`bureau-of-meteorology`) ⭐💎
-   - 权威性：5.0
+   - 权威性：5.0/5.0
+   - 类型：气象数据、气候监测
    - 数据格式：CSV, JSON, XML, NetCDF, GeoTIFF, GRIB2, HTML, PDF
-   - 访问类型：需注册
-   - [查看详情](oceania/bureau-of-meteorology.json)
+   - 访问类型：需注册（免费）
+   - [查看详情](oceania/australia/bureau-of-meteorology.json)
 
-### 🌎 南美洲 | South America
+---
+
+### 🌎 南美洲 South America
+
+**已完成**: 1/15 (7%)
+
+#### 🇧🇷 巴西 Brazil (1/5)
 
 1. **Central Bank of Brazil** (`brazil-bcb`) ⭐💎
-   - 权威性：5.0
+   - 权威性：5.0/5.0
+   - 类型：货币政策、金融统计、经济指标
    - 数据格式：JSON, CSV, XML, WSDL, OData, HTML, PDF
    - 访问类型：开放
-   - [查看详情](south-america/brazil-bcb.json)
+   - [查看详情](south-america/brazil/brazil-bcb.json)
 
-## 分类标准 | Classification Criteria
+---
 
-各国官方数据源按以下规则分类：
+### 🌍 非洲 Africa
 
-Official country data sources are classified according to the following rules:
+**已完成**: 0/15 (0%)
 
-- **路径格式** | Path Format: `sources/countries/{continent}/{country}/{id}.json`
-- **大洲代码** | Continent Code: 使用英文小写大洲名称（如 `north-america`, `europe`, `asia`）
-- **国家代码** | Country Code: 使用英文小写国家名称（如 `canada`, `usa`, `uk`）
-- **文件命名** | File Naming: 直接使用数据源ID作为文件名，无需领域子目录
+*待添加*
 
-## 统计信息 | Statistics
+---
 
-- **已收录国家** | Countries Included: 11
-- **总数据源** | Total Sources: 24
-- **计划收录** | Planned: 200+
+## 区域统计 Regional Statistics
 
-## 贡献 | Contributing
+| 区域 | 计划国家数 | 计划数据源 | 已完成 | 进度 |
+|------|----------|-----------|--------|------|
+| 北美洲 | 3 | 30 | 11 | 37% |
+| 欧洲 | 15 | 50 | 2 | 4% |
+| 亚洲（除中国） | 14 | 50 | 3 | 6% |
+| 大洋洲 | 2 | 10 | 3 | 30% |
+| 南美洲 | 4 | 15 | 1 | 7% |
+| 非洲 | 4 | 15 | 0 | 0% |
+| **总计** | **42** | **200+** | **24** | **12%** |
+
+## 分类规则 Classification Rules
+
+### 目录结构规范
+- **路径格式**: `sources/countries/{continent}/{country}/{id}.json`
+  - continent: 大洲英文名（小写，连字符分隔）
+  - country: 国家英文名（小写，连字符分隔，可选）
+  - id: 数据源ID
+
+### 命名规范
+- **大洲代码**: `north-america`, `europe`, `asia`, `oceania`, `south-america`, `africa`
+- **国家代码**: 使用英文小写国家名称，如 `usa`, `canada`, `uk`, `japan`
+- **文件命名**: 直接使用数据源ID作为文件名
+
+## 下一步规划 Next Steps
+
+详细的收录计划和进度追踪请参见：
+- [各国官方数据源任务清单](../../tasks/countries.md)
+
+### 优先级说明
+1. **第一优先级**: 完成北美洲（美国、加拿大、墨西哥）的核心数据源
+2. **第二优先级**: 欧洲主要国家（英国、德国、法国、意大利、西班牙）
+3. **第三优先级**: 亚洲主要国家（日本、韩国、新加坡、印度）
+4. **第四优先级**: 大洋洲（澳大利亚、新西兰）
+5. **第五优先级**: 南美洲和非洲主要国家
+
+## 使用说明 Usage Guide
+
+每个JSON文件遵循DataSource Hub标准元数据Schema，包含：
+
+- **基本信息**: ID、名称、维护机构、国家
+- **访问信息**: URL、API、下载方式、访问级别
+- **覆盖范围**: 地理、时间、领域、指标数量
+- **数据特征**: 类型、粒度、格式、语言
+- **质量评估**: 权威性、透明度、及时性、完整性、文档质量
+- **许可协议**: License、使用限制
+
+## 贡献 Contributing
 
 如需添加新国家的数据源，请参考[贡献指南](../../docs/CONTRIBUTING.md)。
 
@@ -216,4 +361,6 @@ To add data sources for new countries, please refer to the [Contributing Guide](
 
 ---
 
-**最后更新 | Last Updated**: 2025-12-11
+**最后更新 Last Updated**: 2025-12-31
+**状态 Status**: 目录结构完成 | 数据填充进行中 (Directory Structure Complete | Data Population In Progress)
+**完成度 Completion**: 24/200+ (12%)
