@@ -4,50 +4,40 @@
     "en": "PubChem",
     "zh": "PubChem化学数据库"
   },
-  "organization": {
-    "name": "National Center for Biotechnology Information (NCBI), National Library of Medicine, National Institutes of Health",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.ncbi.nlm.nih.gov/"
-  },
   "description": {
     "en": "PubChem is the world's largest free chemistry database, maintained by the National Institutes of Health (NIH). It provides information on chemical substances and their biological activities, launched in 2004. PubChem contains small molecules, as well as larger molecules such as nucleotides, carbohydrates, lipids, peptides, and chemically-modified macromolecules. The database collects information on chemical structures, identifiers, chemical and physical properties, biological activities, patents, health, safety, toxicity data, and much more. Data is contributed by hundreds of sources including government agencies, chemical vendors, journal publishers, and more. Each month, the website and programmatic services provide data to several million users worldwide.",
     "zh": "PubChem是世界上最大的免费化学数据库,由美国国立卫生研究院(NIH)维护。它提供化学物质及其生物活性的信息,于2004年推出。PubChem包含小分子以及较大分子,如核苷酸、碳水化合物、脂质、肽和化学修饰的大分子。该数据库收集化学结构、标识符、化学和物理性质、生物活性、专利、健康、安全、毒性数据等信息。数据由数百个来源贡献,包括政府机构、化学品供应商、期刊出版商等。每月,该网站和编程服务为全球数百万用户提供数据。"
   },
-  "access": {
-    "primary_url": "https://pubchem.ncbi.nlm.nih.gov/",
-    "api": {
-      "available": true,
-      "documentation": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
-      "version": "PUG REST, PUG SOAP, PUG View",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["SDF", "CSV", "XML", "JSON", "ASNT", "ASNB", "PNG", "RDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 2004,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "Chemistry",
-      "Biochemistry",
-      "Pharmacology",
-      "Toxicology",
-      "Biology",
-      "Medicine"
-    ],
-    "indicators": 120000000
-  },
+  "website": "https://www.ncbi.nlm.nih.gov/",
+  "data_url": "https://pubchem.ncbi.nlm.nih.gov/",
+  "api_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+  "country": null,
+  "domains": [
+    "Chemistry",
+    "Biochemistry",
+    "Pharmacology",
+    "Toxicology",
+    "Biology",
+    "Medicine"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "chemistry",
+    "biochemistry",
+    "pharmacology",
+    "toxicology",
+    "drug-discovery",
+    "chemical-database",
+    "bioassay",
+    "molecular-structure",
+    "chemical-properties",
+    "open-data",
+    "nih",
+    "ncbi",
+    "united-states",
+    "government-data"
+  ],
   "data_content": {
     "en": [
       "Compound Records (chemical structures, properties, identifiers)",
@@ -82,85 +72,5 @@
       "分类数据(分层化学分类)"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "text", "image", "api"],
-    "granularity": ["molecular-level", "compound-level", "assay-level", "continuous"],
-    "formats": ["SDF", "CSV", "XML", "JSON", "ASNT", "ASNB", "PNG", "RDF"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Public Domain (US Government Work)",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Users should not make more than 5 requests per second to avoid overloading servers",
-      "Some data from contributors may have specific licensing restrictions - check with original source",
-      "Data provenance information should be consulted when using provided content"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "SMILES",
-      "InChI",
-      "InChIKey",
-      "IUPAC Nomenclature",
-      "SDF Format",
-      "RDF",
-      "PubChem Data Specification"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Drug discovery and development",
-      "Chemical structure search and similarity analysis",
-      "Bioassay data analysis",
-      "Toxicology and safety assessment",
-      "Chemical property prediction",
-      "Literature and patent mining",
-      "Academic research in chemistry and biology",
-      "Pharmaceutical research",
-      "Chemical education"
-    ],
-    "code_examples": [
-      "https://ftp.ncbi.nlm.nih.gov/pubchem/publications/pug_rest_scripts_nar_2018.zip"
-    ]
-  },
-  "contact": {
-    "email": "pubchem-help@ncbi.nlm.nih.gov",
-    "support_url": "https://pubchem.ncbi.nlm.nih.gov/docs/contact"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "chemistry",
-    "biochemistry",
-    "pharmacology",
-    "toxicology",
-    "drug-discovery",
-    "chemical-database",
-    "bioassay",
-    "molecular-structure",
-    "chemical-properties",
-    "open-data",
-    "nih",
-    "ncbi",
-    "united-states",
-    "government-data"
-  ]
+  "authority_level": "government"
 }

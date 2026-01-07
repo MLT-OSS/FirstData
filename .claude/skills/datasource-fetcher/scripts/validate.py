@@ -74,42 +74,36 @@ class DataSourceValidator:
     def _validate_content(self, data: Dict, file_path: Path):
         """Validate content-specific rules"""
 
-        # Check URL format
-        url = data.get('access', {}).get('primary_url', '')
-        if not url.startswith(('http://', 'https://')):
-            self.errors.append(f"Invalid URL format: {url}")
+        # Check URL formats (v2 schema)
+        website = data.get('website', '')
+        if website and not website.startswith(('http://', 'https://')):
+            self.errors.append(f"Invalid website URL format: {website}")
 
-        # Check quality ratings (1-5)
-        quality = data.get('quality', {})
-        for key in ['authority_level', 'methodology_transparency', 'update_timeliness',
-                    'data_completeness', 'documentation_quality']:
-            value = quality.get(key)
-            if value is not None and not (1 <= value <= 5):
-                self.errors.append(f"Quality rating '{key}' must be 1-5, got {value}")
+        data_url = data.get('data_url', '')
+        if data_url and not data_url.startswith(('http://', 'https://')):
+            self.errors.append(f"Invalid data_url format: {data_url}")
 
-        # Check date formats (YYYY-MM-DD)
-        catalog_meta = data.get('catalog_metadata', {})
-        for date_field in ['added_date', 'last_updated', 'verified_date']:
-            date_str = catalog_meta.get(date_field)
-            if date_str:
-                if not re.match(r'^\d{4}-\d{2}-\d{2}$', date_str):
-                    self.errors.append(f"Invalid date format for '{date_field}': {date_str} (expected YYYY-MM-DD)")
-                else:
-                    try:
-                        datetime.strptime(date_str, '%Y-%m-%d')
-                    except ValueError:
-                        self.errors.append(f"Invalid date value for '{date_field}': {date_str}")
+        api_url = data.get('api_url')
+        if api_url and not api_url.startswith(('http://', 'https://')):
+            self.errors.append(f"Invalid api_url format: {api_url}")
 
-        # Check language codes (ISO 639-1)
-        languages = data.get('data_characteristics', {}).get('languages', [])
-        for lang in languages:
-            if not re.match(r'^[a-z]{2}$', lang):
-                self.errors.append(f"Invalid language code: {lang} (expected ISO 639-1)")
+        # Check authority_level (v2 schema)
+        authority_level = data.get('authority_level', '')
+        valid_levels = ['government', 'international', 'market', 'research', 'commercial', 'other']
+        if authority_level and authority_level not in valid_levels:
+            self.errors.append(f"Invalid authority_level: {authority_level} (must be one of {valid_levels})")
 
         # Check country code (ISO 3166-1)
-        country = data.get('organization', {}).get('country')
+        country = data.get('country')
         if country and country != 'null' and not re.match(r'^[A-Z]{2}$', country):
             self.errors.append(f"Invalid country code: {country} (expected ISO 3166-1 alpha-2)")
+
+        # Check country and geographic_scope consistency
+        geo_scope = data.get('geographic_scope', '')
+        if geo_scope in ['global', 'regional'] and country:
+            self.errors.append(f"geographic_scope='{geo_scope}' but country='{country}' (should be null)")
+        if geo_scope in ['national', 'subnational'] and not country:
+            self.warnings.append(f"geographic_scope='{geo_scope}' but country is null (should have a value)")
 
         # Check ID format
         data_id = data.get('id', '')
@@ -141,36 +135,21 @@ class DataSourceValidator:
     def _validate_logic(self, data: Dict):
         """Validate logical consistency"""
 
-        # Check temporal range
-        temporal = data.get('coverage', {}).get('temporal', {})
-        start_year = temporal.get('start_year')
-        end_year = temporal.get('end_year')
+        # Check update_frequency validity
+        update_freq = data.get('update_frequency', '')
+        valid_frequencies = ['real-time', 'daily', 'weekly', 'monthly', 'quarterly', 'annual', 'irregular']
+        if update_freq and update_freq not in valid_frequencies:
+            self.warnings.append(f"Non-standard update_frequency: {update_freq}")
 
-        if start_year and end_year:
-            if start_year > end_year:
-                self.errors.append(f"Invalid temporal range: start_year ({start_year}) > end_year ({end_year})")
+        # Check domains
+        domains = data.get('domains', [])
+        if not domains:
+            self.warnings.append("No domains specified")
 
-            current_year = datetime.now().year
-            if end_year > current_year + 1:
-                self.warnings.append(f"End year ({end_year}) is in the future")
-
-        # Check status
-        status = data.get('catalog_metadata', {}).get('status')
-        if status == 'inactive' or status == 'deprecated':
-            self.warnings.append(f"Data source status is '{status}'")
-
-        # Check quality score average
-        quality = data.get('quality', {})
-        scores = [
-            quality.get('authority_level', 0),
-            quality.get('methodology_transparency', 0),
-            quality.get('update_timeliness', 0),
-            quality.get('data_completeness', 0),
-            quality.get('documentation_quality', 0)
-        ]
-        avg_score = sum(scores) / len(scores) if scores else 0
-        if avg_score < 3.0:
-            self.warnings.append(f"Low average quality score: {avg_score:.1f}/5.0")
+        # Check tags
+        tags = data.get('tags', [])
+        if not tags:
+            self.warnings.append("No tags specified (will affect discoverability)")
 
 
 def validate_directory(directory: Path, schema_path: str = None) -> Dict:

@@ -5,49 +5,31 @@
     "zh": "中国人民银行",
     "native": "中国人民银行"
   },
-  "organization": {
-    "name": "People's Bank of China",
-    "type": "national_government",
-    "country": "CN",
-    "website": "http://www.pbc.gov.cn"
-  },
   "description": {
     "en": "The People's Bank of China (PBOC) is the central bank of China. It publishes comprehensive financial statistics including monetary policy data, money supply (M0/M1/M2), interest rates, exchange rates, banking sector statistics, balance of payments, foreign exchange reserves, credit and loan data, and financial market indicators.",
     "zh": "中国人民银行是中国的中央银行。发布全面的金融统计数据，包括货币政策数据、货币供应量（M0/M1/M2）、利率、汇率、银行业统计、国际收支、外汇储备、信贷数据和金融市场指标。"
   },
-  "access": {
-    "primary_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["China"]
-    },
-    "temporal": {
-      "start_year": 1990,
-      "end_year": 2024,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "finance",
-      "economics",
-      "monetary_policy"
-    ],
-    "indicators": 800
-  },
+  "website": "http://www.pbc.gov.cn",
+  "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "economics",
+    "monetary_policy"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "central-bank",
+    "monetary-policy",
+    "money-supply",
+    "interest-rates",
+    "forex",
+    "banking",
+    "financial-stability"
+  ],
   "data_content": {
     "en": [
       "Money Supply - M0, M1, M2 monetary aggregates and reserve money statistics",
@@ -72,72 +54,5 @@
       "货币政策操作 - 公开市场操作、存款准备金率和政策利率"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series"],
-    "granularity": ["national", "regional", "sectoral"],
-    "formats": ["Excel", "PDF", "HTML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Government Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["IMF SDDS", "BIS banking statistics"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Monetary policy analysis",
-      "Financial market research",
-      "Banking sector analysis",
-      "Exchange rate forecasting",
-      "Economic modeling"
-    ],
-    "example_studies": [
-      "Monetary Policy Implementation Report",
-      "Financial Stability Report",
-      "China Regional Financial Operation Report"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "china-nbs",
-    "china-csrc",
-    "china-cbirc",
-    "imf-data"
-  ],
-  "contact": {
-    "email": "master@pbc.gov.cn",
-    "support_url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-25",
-    "last_updated": "2025-01-25",
-    "verified_date": "2025-01-25",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "china",
-    "central-bank",
-    "monetary-policy",
-    "money-supply",
-    "interest-rates",
-    "forex",
-    "banking",
-    "financial-stability"
-  ]
+  "authority_level": "government"
 }

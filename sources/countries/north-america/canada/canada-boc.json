@@ -5,53 +5,38 @@
     "zh": "加拿大银行",
     "native": "Banque du Canada"
   },
-  "organization": {
-    "name": "Bank of Canada / Banque du Canada",
-    "type": "national_government",
-    "country": "CA",
-    "website": "https://www.bankofcanada.ca"
-  },
   "description": {
     "en": "Canada's central bank responsible for monetary policy, providing comprehensive financial data including exchange rates, interest rates, price indexes, and economic indicators. Maintains the Valet API for programmatic access to exchange rates, money market yields, bond yields, inflation indicators, and banking statistics.",
     "zh": "加拿大中央银行，负责货币政策，提供全面的金融数据，包括汇率、利率、价格指数和经济指标。维护Valet API，提供对汇率、货币市场收益率、债券收益率、通胀指标和银行统计数据的程序化访问。"
   },
-  "access": {
-    "primary_url": "https://www.bankofcanada.ca/rates/",
-    "api": {
-      "available": true,
-      "documentation": "https://www.bankofcanada.ca/valet/docs",
-      "version": "1.0.1",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "XML", "JSON", "Excel"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["Canada"]
-    },
-    "temporal": {
-      "start_year": 1935,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "monetary_policy",
-      "exchange_rates",
-      "interest_rates",
-      "inflation",
-      "banking",
-      "financial_markets",
-      "economic_indicators"
-    ],
-    "indicators": 500
-  },
+  "website": "https://www.bankofcanada.ca",
+  "data_url": "https://www.bankofcanada.ca/rates/",
+  "api_url": "https://www.bankofcanada.ca/valet/docs",
+  "country": "CA",
+  "domains": [
+    "monetary_policy",
+    "exchange_rates",
+    "interest_rates",
+    "inflation",
+    "banking",
+    "financial_markets",
+    "economic_indicators"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "canada",
+    "central-bank",
+    "monetary-policy",
+    "exchange-rates",
+    "interest-rates",
+    "inflation",
+    "financial-markets",
+    "banking-statistics",
+    "open-data",
+    "api",
+    "bilingual"
+  ],
   "data_content": {
     "en": [
       "Daily exchange rates - foreign currency conversions",
@@ -86,77 +71,5 @@
       "金融系统指标和分析"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "api"],
-    "granularity": ["daily", "weekly", "monthly", "quarterly", "annual"],
-    "formats": ["CSV", "JSON", "XML", "Excel", "RSS"],
-    "languages": ["en", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Bank of Canada Terms of Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["ISO 3166", "ISO 639-1", "ISO 8601"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Monetary policy research and analysis",
-      "Exchange rate forecasting and risk management",
-      "Interest rate modeling and derivatives pricing",
-      "Inflation analysis and economic forecasting",
-      "Financial market research and trading strategies",
-      "Academic research in monetary economics",
-      "Business planning and financial analysis",
-      "Data journalism and economic reporting"
-    ],
-    "example_studies": [
-      "Central bank policy impact analysis",
-      "Exchange rate determinants research",
-      "Inflation targeting effectiveness studies",
-      "Financial market integration analysis"
-    ]
-  },
-  "related_sources": [
-    "canada-statcan",
-    "usa-federal-reserve",
-    "intl-bis"
-  ],
-  "contact": {
-    "email": "valet@bank-banque-canada.ca",
-    "support_url": "https://www.bankofcanada.ca/about/contact-information/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "canada",
-    "central-bank",
-    "monetary-policy",
-    "exchange-rates",
-    "interest-rates",
-    "inflation",
-    "financial-markets",
-    "banking-statistics",
-    "open-data",
-    "api",
-    "bilingual"
-  ]
+  "authority_level": "government"
 }

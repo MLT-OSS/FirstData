@@ -4,34 +4,36 @@
     "en": "ClinicalTrials.gov",
     "zh": "临床试验注册数据库"
   },
-  "organization": {
-    "name": "U.S. National Library of Medicine (NLM), National Institutes of Health",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.nlm.nih.gov/"
-  },
   "description": {
     "en": "ClinicalTrials.gov is a database of privately and publicly funded clinical studies conducted around the world. It provides information about a clinical trial's purpose, who may participate, locations, and phone numbers for more details. The database is maintained by the U.S. National Library of Medicine and contains over 400,000 research studies in all 50 states and in 220 countries.",
     "zh": "临床试验注册数据库是一个全球范围内私人和公共资助临床研究的数据库。它提供关于临床试验目的、参与资格、地点和联系方式等信息。该数据库由美国国家医学图书馆维护，包含超过40万项研究，覆盖美国所有50个州和220个国家。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 220,
-      "regions": ["Worldwide", "All 50 U.S. states"]
-    },
-    "temporal": {
-      "start_year": 2000,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "health",
-      "clinical_research",
-      "medical_trials"
-    ],
-    "indicators": 400000
-  },
+  "website": "https://www.nlm.nih.gov/",
+  "data_url": "https://clinicaltrials.gov/",
+  "api_url": "https://clinicaltrials.gov/data-api/api",
+  "country": null,
+  "domains": [
+    "health",
+    "clinical_research",
+    "medical_trials"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "clinical trials",
+    "medical research",
+    "NIH",
+    "NLM",
+    "drug trials",
+    "patient recruitment",
+    "NCT number",
+    "clinical research",
+    "medical studies",
+    "FDA",
+    "public health",
+    "evidence-based medicine",
+    "API"
+  ],
   "data_content": {
     "en": [
       "Clinical Trial Registry - Basic trial information (title, NCT number, status, sponsor, conditions studied)",
@@ -54,103 +56,5 @@
       "干预措施 - 正在测试的药物、设备、程序、行为干预"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "text",
-      "api"
-    ],
-    "granularity": ["study-level"],
-    "formats": [
-      "XML",
-      "JSON",
-      "CSV",
-      "HTML"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "access": {
-    "primary_url": "https://clinicaltrials.gov/",
-    "access_level": "open",
-    "registration_required": false,
-    "api": {
-      "available": true,
-      "documentation": "https://clinicaltrials.gov/data-api/api",
-      "version": "2.0",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["XML", "JSON", "CSV"]
-    }
-  },
-  "licensing": {
-    "license": "Public Domain",
-    "commercial_use": true,
-    "attribution_required": false,
-    "restrictions": []
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "metadata_standards": [
-    "OpenAPI Specification 3.0",
-    "CDISC CDASH",
-    "WHO ICTRP",
-    "ClinicalTrials.gov Protocol Data Element Definitions"
-  ],
-  "usage": {
-    "use_cases": [
-      "clinical trial search and discovery",
-      "patient recruitment",
-      "research landscape analysis",
-      "systematic reviews and meta-analyses",
-      "drug development research",
-      "evidence-based medicine",
-      "regulatory compliance",
-      "health policy research"
-    ],
-    "typical_users": [
-      "researchers and scientists",
-      "healthcare professionals",
-      "patients and caregivers",
-      "pharmaceutical companies",
-      "regulatory agencies",
-      "patient advocacy groups",
-      "research institutions",
-      "data scientists"
-    ]
-  },
-  "contact": {
-    "support_url": "https://support.nlm.nih.gov/",
-    "email": "clinicaltrials.gov@nih.gov"
-  },
-  "tags": [
-    "clinical trials",
-    "medical research",
-    "NIH",
-    "NLM",
-    "drug trials",
-    "patient recruitment",
-    "NCT number",
-    "clinical research",
-    "medical studies",
-    "FDA",
-    "public health",
-    "evidence-based medicine",
-    "API"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-scraper"
-  }
+  "authority_level": "government"
 }

@@ -4,58 +4,41 @@
     "en": "Inter-American Development Bank",
     "zh": "美洲开发银行"
   },
-  "organization": {
-    "name": "Inter-American Development Bank Group",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.iadb.org"
-  },
   "description": {
     "en": "The Inter-American Development Bank (IDB) is the leading source of financing and knowledge for improving lives in Latin America and the Caribbean. The IDB Open Data portal provides comprehensive socio-economic indicators, macroeconomic data, financial statistics, and project information for 26 borrowing member countries across the region. It includes specialized databases covering fiscal accounts, labor markets, social indicators, trade integration, and agricultural policies.",
     "zh": "美洲开发银行（IDB）是改善拉丁美洲和加勒比地区生活的主要融资和知识来源。IDB开放数据门户为该地区26个借款成员国提供全面的社会经济指标、宏观经济数据、金融统计和项目信息。包括涵盖财政账户、劳动力市场、社会指标、贸易一体化和农业政策的专业数据库。"
   },
-  "access": {
-    "primary_url": "https://www.iadb.org/en/knowledge-resources/data",
-    "api": {
-      "available": true,
-      "documentation": "https://data.iadb.org/dataset/",
-      "version": "Open Data API",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "XLSX", "PDF", "dta", "Stata"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "regional",
-      "regions": ["Latin America and the Caribbean"],
-      "countries": 26,
-      "description": "26 IDB borrowing member countries in Latin America and the Caribbean"
-    },
-    "temporal": {
-      "start_year": 1990,
-      "end_year": 2025,
-      "update_frequency": "quarterly"
-    },
-    "domains": [
-      "Development Finance",
-      "Macroeconomic Statistics",
-      "Fiscal Policy",
-      "Social Development",
-      "Education",
-      "Health",
-      "Labor Markets",
-      "Trade and Integration",
-      "Agriculture",
-      "Public Sector",
-      "Financial Sector"
-    ],
-    "indicators": 1171
-  },
+  "website": "https://www.iadb.org",
+  "data_url": "https://www.iadb.org/en/knowledge-resources/data",
+  "api_url": "https://data.iadb.org/dataset/",
+  "country": null,
+  "domains": [
+    "Development Finance",
+    "Macroeconomic Statistics",
+    "Fiscal Policy",
+    "Social Development",
+    "Education",
+    "Health",
+    "Labor Markets",
+    "Trade and Integration",
+    "Agriculture",
+    "Public Sector",
+    "Financial Sector"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "quarterly",
+  "tags": [
+    "development-finance",
+    "latin-america",
+    "caribbean",
+    "economic-development",
+    "social-development",
+    "multilateral-development-bank",
+    "open-data",
+    "macroeconomics",
+    "fiscal-policy",
+    "labor-markets"
+  ],
   "data_content": {
     "en": [
       "Latin Macro Watch (LMW): Macroeconomic and financial database with indicators on economic activity, fiscal and external accounts, financial markets, and forecasts since 1990",
@@ -78,80 +61,5 @@
       "IDB集团影响框架：发展成果的绩效指标和目标"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "time-series",
-      "cross-sectional",
-      "panel"
-    ],
-    "granularity": [
-      "country-level",
-      "regional",
-      "sectoral",
-      "annual",
-      "quarterly",
-      "monthly"
-    ],
-    "formats": ["CSV", "XLSX", "PDF", "dta", "Stata"],
-    "languages": ["en", "es", "pt", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5,
-    "assessment_notes": {
-      "en": "IDB is the premier multilateral development finance institution for Latin America and the Caribbean with the highest authority on regional development data. Comprehensive coverage of 26 borrowing member countries with historical data since 1990. Strong specialized databases covering macroeconomics, social indicators, labor markets, and trade. Extensive documentation and research support.",
-      "zh": "美洲开发银行是拉丁美洲和加勒比地区首要的多边开发金融机构，在区域发展数据方面具有最高权威性。全面覆盖26个借款成员国，历史数据可追溯至1990年。拥有涵盖宏观经济、社会指标、劳动力市场和贸易的强大专业数据库。文档详尽并提供研究支持。"
-    }
-  },
-  "licensing": {
-    "license": "Open Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["SDMX", "Dublin Core", "DDI"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Development policy research",
-      "Regional economic analysis",
-      "Cross-country comparative studies",
-      "Investment decision-making",
-      "Academic research on Latin America",
-      "Project evaluation and impact assessment",
-      "Fiscal policy analysis",
-      "Labor market studies"
-    ]
-  },
-  "contact": {
-    "support_url": "https://www.iadb.org/en/who-we-are/ati-request-form"
-  },
-  "tags": [
-    "development-finance",
-    "latin-america",
-    "caribbean",
-    "economic-development",
-    "social-development",
-    "multilateral-development-bank",
-    "open-data",
-    "macroeconomics",
-    "fiscal-policy",
-    "labor-markets"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "status": "active",
-    "verified_date": "2025-12-11",
-    "contributor": "AI Assistant"
-  }
+  "authority_level": "international"
 }

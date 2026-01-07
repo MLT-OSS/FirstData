@@ -4,56 +4,52 @@
     "en": "Cambridge Structural Database (CSD)",
     "zh": "剑桥晶体结构数据库"
   },
-  "organization": {
-    "name": "Cambridge Crystallographic Data Centre (CCDC)",
-    "type": "research_institution",
-    "country": "GB",
-    "website": "https://www.ccdc.cam.ac.uk"
-  },
   "description": {
     "en": "The Cambridge Structural Database (CSD) is the world's largest repository for experimentally derived small-molecule organic and metal-organic crystal structures, curated since 1965. Maintained by the Cambridge Crystallographic Data Centre (CCDC), the database now contains over 1.39 million crystal structures from published literature, direct deposition, patents, and PhD theses. The CSD is CoreTrustSeal certified and recognized as a trusted data repository. It serves as a fundamental resource for pharmaceutical drug discovery and development, agrochemical research, materials science, metal-organic frameworks (MOFs), catalysis research, and academic crystallography. The database provides comprehensive structural chemistry data, software, and insights used by thousands of scientists globally in both commercial and academic research.",
     "zh": "剑桥晶体结构数据库（CSD）是世界上最大的实验衍生小分子有机和金属有机晶体结构库，自1965年以来持续整理。该数据库由剑桥晶体学数据中心（CCDC）维护，目前包含来自发表文献、直接提交、专利和博士论文的超过139万个晶体结构。CSD 获得 CoreTrustSeal 认证，被认定为可信数据存储库。它是制药药物发现与开发、农药研究、材料科学、金属有机框架（MOFs）、催化研究和学术晶体学的基础资源。该数据库为全球数千名科学家提供全面的结构化学数据、软件和见解，广泛应用于商业和学术研究。"
   },
-  "access": {
-    "primary_url": "https://www.ccdc.cam.ac.uk",
-    "api": {
-      "available": true,
-      "documentation": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
-      "version": "CSD Python API",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["CIF", "MOL", "MOL2", "PDB", "SDF", "Python pickle"]
-    },
-    "access_level": "academic",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 1965,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "Crystallography",
-      "Structural Chemistry",
-      "Pharmaceutical Sciences",
-      "Drug Discovery",
-      "Drug Development",
-      "Agrochemical Research",
-      "Materials Science",
-      "Metal-Organic Frameworks",
-      "Catalysis",
-      "Functional Materials",
-      "Organic Chemistry",
-      "Inorganic Chemistry"
-    ],
-    "indicators": 1392821
-  },
+  "website": "https://www.ccdc.cam.ac.uk",
+  "data_url": "https://www.ccdc.cam.ac.uk",
+  "api_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
+  "country": null,
+  "domains": [
+    "Crystallography",
+    "Structural Chemistry",
+    "Pharmaceutical Sciences",
+    "Drug Discovery",
+    "Drug Development",
+    "Agrochemical Research",
+    "Materials Science",
+    "Metal-Organic Frameworks",
+    "Catalysis",
+    "Functional Materials",
+    "Organic Chemistry",
+    "Inorganic Chemistry"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "crystallography",
+    "structural-chemistry",
+    "crystal-structures",
+    "small-molecules",
+    "organic-chemistry",
+    "metal-organic-frameworks",
+    "pharmaceutical",
+    "drug-discovery",
+    "drug-development",
+    "materials-science",
+    "agrochemical",
+    "catalysis",
+    "polymorphs",
+    "molecular-geometry",
+    "chemical-bonding",
+    "conformational-analysis",
+    "x-ray-crystallography",
+    "academic-research",
+    "commercial-research",
+    "coretrustseal-certified"
+  ],
   "data_content": {
     "en": [
       "Organic Structures - Drugs and pharmaceuticals, agrochemicals, pigments, explosives, protein ligands",
@@ -80,111 +76,5 @@
       "构象数据 - 分子构象和扭转角"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "cross-sectional", "text"],
-    "granularity": ["molecular-level", "atomic-level", "crystal-level"],
-    "formats": ["CIF", "MOL", "MOL2", "PDB", "SDF", "JSON", "XML", "CSV"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CCDC License Agreement",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Requires institutional or commercial license",
-      "Free access available for teaching subset",
-      "Academic licenses available for educational institutions",
-      "Commercial licenses required for industrial use",
-      "Data cannot be redistributed without permission",
-      "Terms of Use apply to Access Structures service"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "CoreTrustSeal",
-      "CIF (Crystallographic Information File)",
-      "FAIR Data Principles",
-      "ISO 3166 (Country Codes)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Pharmaceutical drug discovery and design",
-      "Drug development and solid form selection",
-      "Polymorph prediction and analysis",
-      "Crystal structure prediction",
-      "Conformational analysis for medicinal chemistry",
-      "Agrochemical compound development",
-      "Metal-Organic Framework (MOF) design and optimization",
-      "Catalysis research and catalyst design",
-      "Materials science and functional materials discovery",
-      "Molecular interaction analysis",
-      "Fragment-based drug design",
-      "Machine learning for molecular property prediction",
-      "Teaching and learning crystallography",
-      "Academic research in structural chemistry"
-    ],
-    "example_studies": [
-      "Novartis: CSD-validated data helps discover compounds with 50% increase in potency for treatment of SMA",
-      "Bristol-Myers Squibb: Novel Factor VIIa Inhibitors via Fragment-based Screening",
-      "Using Machine Learning to Predict Crystalline Properties of Molecular Compounds",
-      "Optimizing Metal-Organic Frameworks for VOC Emissions Recovery",
-      "Achieving Largest Possible Mobility of Organic Semiconductors",
-      "Analysis of Metastable Polymorph of Loratadine",
-      "Data Mining to Find Hydrate-Anhydrate Structure Pairs",
-      "Training Machine Learning Model to Predict MOF Pore Accessibility with 80% Certainty"
-    ],
-    "code_examples": [
-      "https://downloads.ccdc.cam.ac.uk/documentation/API/",
-      "https://github.com/ccdc-opensource"
-    ]
-  },
-  "related_sources": [
-    "protein-data-bank",
-    "inorganic-crystal-structure-database"
-  ],
-  "contact": {
-    "email": "hello@ccdc.cam.ac.uk",
-    "support_url": "https://support.ccdc.cam.ac.uk/support/tickets/new"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "crystallography",
-    "structural-chemistry",
-    "crystal-structures",
-    "small-molecules",
-    "organic-chemistry",
-    "metal-organic-frameworks",
-    "pharmaceutical",
-    "drug-discovery",
-    "drug-development",
-    "materials-science",
-    "agrochemical",
-    "catalysis",
-    "polymorphs",
-    "molecular-geometry",
-    "chemical-bonding",
-    "conformational-analysis",
-    "x-ray-crystallography",
-    "academic-research",
-    "commercial-research",
-    "coretrustseal-certified"
-  ]
+  "authority_level": "research"
 }

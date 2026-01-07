@@ -4,56 +4,44 @@
     "en": "ECB Statistical Data Warehouse (ECB Data Portal)",
     "zh": "欧洲央行统计数据仓库"
   },
-  "organization": {
-    "name": "European Central Bank",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.ecb.europa.eu"
-  },
   "description": {
     "en": "The ECB Data Portal (formerly Statistical Data Warehouse) provides comprehensive access to all official statistics published by the European Central Bank and the European System of Central Banks. It offers extensive economic and financial data for the euro area, including monetary policy statistics, balance of payments, government finance, banking statistics, and financial market indicators. The portal implements the SDMX 2.1 standard for data dissemination and provides both web interface and programmatic API access to support research, policy analysis, and economic monitoring.",
     "zh": "欧洲央行数据门户(原统计数据仓库)提供对欧洲央行和欧洲中央银行体系发布的所有官方统计数据的全面访问。它提供欧元区广泛的经济和金融数据,包括货币政策统计、国际收支、政府财政、银行统计和金融市场指标。该门户采用 SDMX 2.1 标准进行数据传播,提供网页界面和程序化 API 访问,支持研究、政策分析和经济监测。"
   },
-  "access": {
-    "primary_url": "https://data.ecb.europa.eu/",
-    "api": {
-      "available": true,
-      "documentation": "https://data.ecb.europa.eu/help/api/overview",
-      "version": "SDMX 2.1",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "SDMX-ML", "JSON"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "regional",
-      "countries": 20,
-      "regions": ["Euro Area", "European Union"]
-    },
-    "temporal": {
-      "start_year": 1970,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "Monetary Policy",
-      "Banking Statistics",
-      "Balance of Payments",
-      "Government Finance",
-      "Financial Markets",
-      "Exchange Rates",
-      "Interest Rates",
-      "Financial Stability",
-      "Banking Supervision",
-      "National Accounts"
-    ],
-    "indicators": 5000
-  },
+  "website": "https://www.ecb.europa.eu",
+  "data_url": "https://data.ecb.europa.eu/",
+  "api_url": "https://data.ecb.europa.eu/help/api/overview",
+  "country": null,
+  "domains": [
+    "Monetary Policy",
+    "Banking Statistics",
+    "Balance of Payments",
+    "Government Finance",
+    "Financial Markets",
+    "Exchange Rates",
+    "Interest Rates",
+    "Financial Stability",
+    "Banking Supervision",
+    "National Accounts"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "daily",
+  "tags": [
+    "european-central-bank",
+    "monetary-policy",
+    "euro-area",
+    "financial-statistics",
+    "banking-statistics",
+    "exchange-rates",
+    "government-finance",
+    "balance-of-payments",
+    "sdmx",
+    "financial-stability",
+    "interest-rates",
+    "economic-indicators",
+    "central-banking",
+    "eurozone"
+  ],
   "data_content": {
     "en": [
       "Monetary Policy Statistics - Interest rates, monetary aggregates, minimum reserve requirements",
@@ -84,85 +72,5 @@
       "支付系统 - TARGET2 统计、支付工具数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "api"],
-    "granularity": ["country-level", "euro-area-aggregate", "daily", "monthly", "quarterly", "annual"],
-    "formats": ["CSV", "Excel", "SDMX-ML", "JSON", "PDF"],
-    "languages": ["en", "de", "fr", "es", "it"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "ECB Public License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must acknowledge the European Central Bank as the source",
-      "Data may not be modified or misrepresented",
-      "ECB does not accept liability for data use"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["SDMX 2.1", "ISO 3166", "ISO 4217", "ESA 2010"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Economic research and analysis",
-      "Monetary policy evaluation",
-      "Financial market monitoring",
-      "Banking sector analysis",
-      "Government fiscal policy assessment",
-      "Academic research in economics and finance",
-      "International economic comparisons",
-      "Financial stability assessment"
-    ],
-    "example_studies": [
-      "Euro area economic outlook reports",
-      "Banking supervision risk assessments",
-      "Monetary policy transmission studies",
-      "Government debt sustainability analysis"
-    ],
-    "code_examples": [
-      "https://data.ecb.europa.eu/help/api/overview",
-      "https://cran.r-project.org/web/packages/ecb/",
-      "https://github.com/widukind/pandaSDMX"
-    ]
-  },
-  "related_sources": ["eurostat", "bis-statistics", "imf-data"],
-  "contact": {
-    "email": "statistics@ecb.europa.eu",
-    "support_url": "https://data.ecb.europa.eu/help"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-12",
-    "last_updated": "2025-12-12",
-    "verified_date": "2025-12-12",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "european-central-bank",
-    "monetary-policy",
-    "euro-area",
-    "financial-statistics",
-    "banking-statistics",
-    "exchange-rates",
-    "government-finance",
-    "balance-of-payments",
-    "sdmx",
-    "financial-stability",
-    "interest-rates",
-    "economic-indicators",
-    "central-banking",
-    "eurozone"
-  ]
+  "authority_level": "government"
 }

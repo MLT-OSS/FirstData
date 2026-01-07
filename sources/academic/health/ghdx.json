@@ -4,39 +4,43 @@
     "en": "Global Health Data Exchange (GHDx)",
     "zh": "全球健康数据交换平台"
   },
-  "organization": {
-    "name": "Institute for Health Metrics and Evaluation (IHME), University of Washington",
-    "type": "research_institution",
-    "country": "US",
-    "website": "https://www.healthdata.org/"
-  },
   "description": {
     "en": "The Global Health Data Exchange (GHDx) is the world's most comprehensive catalog of surveys, censuses, vital statistics, and other health-related data. Created and supported by IHME, it provides a centralized place for researchers, policymakers, and health practitioners to discover and access health and demographic data from around the world. The catalog includes both IHME-produced estimates from the Global Burden of Disease (GBD) study and data from external organizations covering surveys, registries, administrative health data, and financial data related to health.",
     "zh": "全球健康数据交换平台(GHDx)是世界上最全面的调查、人口普查、生命统计和其他健康相关数据目录。由IHME创建和支持，为研究人员、政策制定者和健康从业者提供一个集中的平台来发现和访问全球健康和人口数据。该目录既包括IHME从全球疾病负担(GBD)研究中产生的估算数据，也包括来自外部组织的调查、登记、行政健康数据和健康相关财务数据。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 204,
-      "regions": ["Global", "Africa", "Americas", "Asia", "Europe", "Oceania"]
-    },
-    "temporal": {
-      "start_year": 1950,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "health",
-      "demographics",
-      "epidemiology",
-      "mortality",
-      "disease burden",
-      "health financing",
-      "risk factors",
-      "health systems"
-    ],
-    "indicators": 10000
-  },
+  "website": "https://www.healthdata.org/",
+  "data_url": "https://ghdx.healthdata.org/",
+  "api_url": "https://ghdx.healthdata.org/ihme-api",
+  "country": null,
+  "domains": [
+    "health",
+    "demographics",
+    "epidemiology",
+    "mortality",
+    "disease burden",
+    "health financing",
+    "risk factors",
+    "health systems"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "global health",
+    "disease burden",
+    "GBD",
+    "IHME",
+    "mortality",
+    "epidemiology",
+    "health metrics",
+    "DALYs",
+    "life expectancy",
+    "health financing",
+    "risk factors",
+    "vaccination",
+    "health surveys",
+    "vital statistics",
+    "demographic data"
+  ],
   "data_content": {
     "en": [
       "Global Burden of Disease (GBD) - Mortality, morbidity, DALYs, risk factors for 369 diseases and injuries across 204 countries",
@@ -63,126 +67,5 @@
       "次国家数据 - 特定国家的县级和省级估算"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "time-series",
-      "cross-sectional",
-      "panel",
-      "api"
-    ],
-    "granularity": [
-      "global",
-      "regional",
-      "national",
-      "subnational",
-      "annual",
-      "age-specific",
-      "sex-specific"
-    ],
-    "formats": [
-      "CSV",
-      "Excel",
-      "Stata",
-      "SPSS",
-      "R",
-      "JSON"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "access": {
-    "primary_url": "https://ghdx.healthdata.org/",
-    "access_level": "open",
-    "registration_required": false,
-    "api": {
-      "available": true,
-      "documentation": "https://ghdx.healthdata.org/ihme-api",
-      "version": "1.0",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "Stata", "SPSS", "R"]
-    }
-  },
-  "licensing": {
-    "license": "IHME Free-of-Charge Non-Commercial User Agreement",
-    "commercial_use": false,
-    "attribution_required": true,
-    "restrictions": [
-      "Data can be used, shared, modified, or built upon by non-commercial users",
-      "Commercial organizations must contact IHME for licensing",
-      "Attribution required following suggested citations",
-      "Follows Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 for visualizations"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "metadata": {
-    "standards_followed": [
-      "GATHER (Guidelines for Accurate and Transparent Health Estimates Reporting)",
-      "ICD-9 and ICD-10",
-      "ISO 3166 country codes",
-      "WHO standard indicators",
-      "DDI (Data Documentation Initiative)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Global health policy planning and priority setting",
-      "Monitoring Sustainable Development Goals (SDGs) health indicators",
-      "Comparative health systems research",
-      "Disease burden estimation and forecasting",
-      "Health financing analysis and projections",
-      "Risk factor analysis and intervention planning",
-      "Academic research in epidemiology and public health",
-      "Health system performance evaluation",
-      "Subnational health disparities analysis"
-    ],
-    "example_studies": [
-      "GBD 2023 publications in The Lancet",
-      "Gates Foundation Goalkeepers Report",
-      "Global health spending forecasts 2023-2050",
-      "Development assistance for health trends"
-    ]
-  },
-  "contact": {
-    "support_url": "https://ghdx.healthdata.org/contact-us",
-    "email": "ihmeapi@uw.edu"
-  },
-  "tags": [
-    "global health",
-    "disease burden",
-    "GBD",
-    "IHME",
-    "mortality",
-    "epidemiology",
-    "health metrics",
-    "DALYs",
-    "life expectancy",
-    "health financing",
-    "risk factors",
-    "vaccination",
-    "health surveys",
-    "vital statistics",
-    "demographic data"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-fetcher"
-  }
+  "authority_level": "research"
 }

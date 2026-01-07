@@ -4,50 +4,39 @@
     "en": "AlphaFold Protein Structure Database",
     "zh": "AlphaFold蛋白质结构数据库"
   },
-  "organization": {
-    "name": "Google DeepMind and EMBL-EBI",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.ebi.ac.uk"
-  },
   "description": {
     "en": "AlphaFold Protein Structure Database provides open access to over 200 million protein structure predictions powered by AlphaFold AI system. Developed by Google DeepMind in partnership with EMBL's European Bioinformatics Institute (EMBL-EBI), it offers nearly all catalogued proteins known to science with unprecedented accuracy and speed. The database enables scientists to understand protein structures computationally, dramatically accelerating biological research, drug discovery, and our understanding of life itself.",
     "zh": "AlphaFold蛋白质结构数据库提供超过2亿个由AlphaFold人工智能系统预测的蛋白质结构的开放访问。由Google DeepMind与EMBL欧洲生物信息学研究所(EMBL-EBI)合作开发，涵盖几乎所有已知科学的蛋白质，具有前所未有的准确性和速度。该数据库使科学家能够通过计算理解蛋白质结构，极大地加速生物学研究、药物发现以及对生命本身的理解。"
   },
-  "access": {
-    "primary_url": "https://alphafold.com",
-    "api": {
-      "available": true,
-      "documentation": "https://alphafold.com/api-docs",
-      "version": "1.0.0",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDB", "mmCIF", "bCIF", "PAE (JSON)", "tar"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 2021,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Structural Biology",
-      "Proteomics",
-      "Drug Discovery",
-      "Molecular Biology",
-      "Biotechnology",
-      "Bioinformatics"
-    ],
-    "indicators": 200000000
-  },
+  "website": "https://www.ebi.ac.uk",
+  "data_url": "https://alphafold.com",
+  "api_url": "https://alphafold.com/api-docs",
+  "country": null,
+  "domains": [
+    "Structural Biology",
+    "Proteomics",
+    "Drug Discovery",
+    "Molecular Biology",
+    "Biotechnology",
+    "Bioinformatics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "protein structure",
+    "structural biology",
+    "AI prediction",
+    "machine learning",
+    "proteomics",
+    "drug discovery",
+    "bioinformatics",
+    "AlphaFold",
+    "DeepMind",
+    "EMBL-EBI",
+    "computational biology",
+    "3D structure",
+    "protein folding"
+  ],
   "data_content": {
     "en": [
       "Protein structure predictions for over 200 million proteins",
@@ -76,83 +65,5 @@
       "UniProt交叉引用"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "cross-sectional", "api", "image"],
-    "granularity": ["protein-level", "residue-level", "atom-level"],
-    "formats": ["PDB", "mmCIF", "bCIF", "JSON", "tar"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC-BY-4.0",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "For theoretical modelling only",
-      "Not validated for clinical use",
-      "Not approved for any clinical application",
-      "Predictions have varying confidence levels"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["PDB", "mmCIF", "UniProt"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Protein structure prediction and analysis",
-      "Drug discovery and design",
-      "Understanding protein function",
-      "Disease mechanism research",
-      "Structural biology research",
-      "Vaccine development",
-      "Understanding genetic mutations",
-      "Biotechnology applications"
-    ],
-    "example_studies": [
-      "SARS-CoV-2 viral protein structure analysis for vaccine development",
-      "Understanding sickle-cell anaemia through haemoglobin structure",
-      "Photosynthesis research using reaction centre structures"
-    ]
-  },
-  "related_sources": [
-    "uniprot",
-    "pdb",
-    "embl-ebi"
-  ],
-  "contact": {
-    "email": "alphafold@deepmind.com",
-    "support_url": "https://alphafold.com/faq"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "Claude (datasource-fetcher)",
-    "status": "active"
-  },
-  "tags": [
-    "protein structure",
-    "structural biology",
-    "AI prediction",
-    "machine learning",
-    "proteomics",
-    "drug discovery",
-    "bioinformatics",
-    "AlphaFold",
-    "DeepMind",
-    "EMBL-EBI",
-    "computational biology",
-    "3D structure",
-    "protein folding"
-  ]
+  "authority_level": "international"
 }

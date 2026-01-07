@@ -4,54 +4,49 @@
     "en": "DrugBank",
     "zh": "药物与药物靶点数据库"
   },
-  "organization": {
-    "name": "University of Alberta and The Metabolomics Innovation Centre",
-    "type": "research_institution",
-    "country": "CA",
-    "website": "https://www.drugbank.com"
-  },
   "description": {
     "en": "DrugBank is a comprehensive, free-to-access, online database containing information on drugs and drug targets created and maintained by the University of Alberta and The Metabolomics Innovation Centre located in Alberta, Canada. Started in 2006 in Dr. David Wishart's lab, DrugBank combines detailed drug (chemical, pharmacological and pharmaceutical) data with comprehensive drug target (sequence, structure, and pathway) information. As both a bioinformatics and cheminformatics resource, each entry contains more than 200 data fields with half devoted to drug/chemical data and half to drug target or protein data. The latest version (5.1.13, released 2025-01-02) contains 19,774 drug entries including 3,016 approved small molecule drugs, 1,766 approved biologics (proteins, peptides, vaccines, and allergenics), 135 nutraceuticals and over 8,928 experimental (discovery-phase) drugs. Additionally, 5,467 non-redundant protein (drug target/enzyme/transporter/carrier) sequences are linked to these drug entries.",
     "zh": "DrugBank 是一个全面的、免费访问的在线数据库，包含由加拿大阿尔伯塔大学和代谢组学创新中心创建和维护的药物及药物靶点信息。DrugBank 于 2006 年在 David Wishart 博士的实验室启动，将详细的药物（化学、药理学和药学）数据与全面的药物靶点（序列、结构和通路）信息相结合。作为生物信息学和化学信息学资源，每个条目包含超过 200 个数据字段，其中一半专注于药物/化学数据,另一半专注于药物靶点或蛋白质数据。最新版本（5.1.13，2025-01-02 发布）包含 19,774 个药物条目，包括 3,016 个批准的小分子药物、1,766 个批准的生物制剂（蛋白质、肽、疫苗和过敏原）、135 个营养保健品和超过 8,928 个实验（发现阶段）药物。此外，5,467 个非冗余蛋白质（药物靶点/酶/转运体/载体）序列与这些药物条目相关联。"
   },
-  "access": {
-    "primary_url": "https://go.drugbank.com",
-    "api": {
-      "available": true,
-      "documentation": "https://docs.drugbank.com",
-      "version": "v1",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["XML", "CSV", "JSON"]
-    },
-    "access_level": "registration",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 2006,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Pharmaceutical Sciences",
-      "Drug Discovery",
-      "Drug Development",
-      "Pharmacology",
-      "Medicinal Chemistry",
-      "Bioinformatics",
-      "Cheminformatics",
-      "Clinical Pharmacology",
-      "Drug Metabolism",
-      "Toxicology"
-    ],
-    "indicators": 19774
-  },
+  "website": "https://www.drugbank.com",
+  "data_url": "https://go.drugbank.com",
+  "api_url": "https://docs.drugbank.com",
+  "country": null,
+  "domains": [
+    "Pharmaceutical Sciences",
+    "Drug Discovery",
+    "Drug Development",
+    "Pharmacology",
+    "Medicinal Chemistry",
+    "Bioinformatics",
+    "Cheminformatics",
+    "Clinical Pharmacology",
+    "Drug Metabolism",
+    "Toxicology"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "pharmaceutical",
+    "drug-discovery",
+    "drug-development",
+    "pharmacology",
+    "medicinal-chemistry",
+    "bioinformatics",
+    "cheminformatics",
+    "drug-targets",
+    "proteins",
+    "small-molecules",
+    "biologics",
+    "admet",
+    "drug-interactions",
+    "clinical-pharmacology",
+    "metabolism",
+    "toxicology",
+    "fda",
+    "academic-research",
+    "commercial-research"
+  ],
   "data_content": {
     "en": [
       "Small Molecule Drugs - 3,016 approved small molecule drugs with chemical structures and properties",
@@ -86,103 +81,5 @@
       "外部链接 - 与 PubChem、ChEMBL、PDB、UniProt 等数据库的交叉引用"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "cross-sectional", "text"],
-    "granularity": ["molecular-level", "protein-level", "drug-level"],
-    "formats": ["XML", "CSV", "JSON", "HTML"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC BY-NC 4.0 for academic datasets; Commercial license required for commercial use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Free-to-access for browsing, but use and redistribution requires a license",
-      "Academic users may apply for free license for non-commercial research",
-      "Commercial licenses required for developing commercial products",
-      "CC0 1.0 Universal datasets available for cross-linking without registration",
-      "Data cannot be redistributed without appropriate license"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "SMILES",
-      "InChI",
-      "UniProt",
-      "PDB",
-      "FDA standards"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Drug discovery and development",
-      "In silico drug screening and design",
-      "Pharmacology research and education",
-      "Drug repurposing and repositioning",
-      "Drug-drug interaction analysis",
-      "ADMET prediction and optimization",
-      "Target identification and validation",
-      "Pathway analysis and systems pharmacology",
-      "Clinical decision support",
-      "Pharmaceutical research and development",
-      "Cheminformatics and bioinformatics studies",
-      "Machine learning for drug property prediction"
-    ],
-    "example_studies": [
-      "DrugBank 6.0: the DrugBank Knowledgebase for 2024 (Nucleic Acids Research, 2024)",
-      "DrugBank: a comprehensive resource for in silico drug discovery and exploration (Nucleic Acids Research, 2006)",
-      "DrugBank 3.0: a comprehensive resource for 'Omics' research on drugs (Nucleic Acids Research, 2011)"
-    ],
-    "code_examples": [
-      "https://docs.drugbank.com",
-      "https://dev.drugbank.com/guides/tutorials"
-    ]
-  },
-  "related_sources": [
-    "chembl",
-    "pubchem",
-    "protein-data-bank"
-  ],
-  "contact": {
-    "support_url": "https://dev.drugbank.com/guides/faqs"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-12",
-    "last_updated": "2025-12-12",
-    "verified_date": "2025-12-12",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "pharmaceutical",
-    "drug-discovery",
-    "drug-development",
-    "pharmacology",
-    "medicinal-chemistry",
-    "bioinformatics",
-    "cheminformatics",
-    "drug-targets",
-    "proteins",
-    "small-molecules",
-    "biologics",
-    "admet",
-    "drug-interactions",
-    "clinical-pharmacology",
-    "metabolism",
-    "toxicology",
-    "fda",
-    "academic-research",
-    "commercial-research"
-  ]
+  "authority_level": "research"
 }

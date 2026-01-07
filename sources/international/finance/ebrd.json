@@ -4,49 +4,30 @@
     "en": "European Bank for Reconstruction and Development",
     "zh": "欧洲复兴开发银行"
   },
-  "organization": {
-    "name": {
-      "en": "European Bank for Reconstruction and Development",
-      "zh": "欧洲复兴开发银行"
-    },
-    "abbreviation": "EBRD",
-    "type": "international_organization",
-    "country": "GB",
-    "website": "https://www.ebrd.com"
-  },
   "description": {
     "en": "The EBRD provides economic and financial data for countries across Central and Eastern Europe, Central Asia, and the Southern and Eastern Mediterranean. The bank publishes comprehensive transition indicators, investment statistics, and economic forecasts through its Transition Report and various analytical publications.",
     "zh": "欧洲复兴开发银行为中东欧、中亚以及南地中海和东地中海国家提供经济和金融数据。该银行通过其《转型报告》和各种分析出版物发布全面的转型指标、投资统计数据和经济预测。"
   },
-  "primary_url": "https://www.ebrd.com",
-  "access": {
-    "primary_url": "https://www.ebrd.com",
-    "api": {
-      "available": false,
-      "documentation": null
-    },
-    "download": {
-      "formats": ["PDF", "XLS"],
-      "bulk_download": false
-    },
-    "access_level": "open"
-  },
-  "coverage": {
-    "geographic": {
-      "type": "regional",
-      "scope": "multi_country",
-      "countries": ["AL", "AM", "AZ", "BY", "BA", "BG", "HR", "CY", "CZ", "EG", "EE", "GE", "GR", "HU", "JO", "KZ", "XK", "KG", "LV", "LB", "LT", "MD", "MN", "ME", "MA", "MK", "PL", "RO", "RU", "RS", "SK", "SI", "TJ", "TN", "TR", "TM", "UA", "UZ"],
-      "regions": ["Eastern Europe", "Central Asia", "Southern and Eastern Mediterranean"]
-    },
-    "temporal": {
-      "start_year": 1991,
-      "end_year": 2025,
-      "update_frequency": "annual",
-      "last_updated": "2025"
-    },
-    "domains": ["finance", "economics", "development"],
-    "indicators": ["transition_quality", "investment_volume", "gdp_growth", "private_sector_share", "reform_progress"]
-  },
+  "website": "https://www.ebrd.com",
+  "data_url": "https://www.ebrd.com",
+  "api_url": null,
+  "country": "GB",
+  "domains": [
+    "finance",
+    "economics",
+    "development"
+  ],
+  "geographic_scope": "multi_country",
+  "update_frequency": "annual",
+  "tags": [
+    "international_finance",
+    "transition_economies",
+    "development_finance",
+    "emerging_markets",
+    "eastern_europe",
+    "central_asia",
+    "regional_development"
+  ],
   "data_content": {
     "en": "EBRD provides transition indicators, project finance data, macroeconomic statistics, and sector-specific investment information for emerging markets",
     "zh": "欧洲复兴开发银行提供转型指标、项目融资数据、宏观经济统计数据以及新兴市场的行业特定投资信息",
@@ -96,56 +77,13 @@
         }
       }
     ],
-    "indicators": ["transition_quality", "investment_volume", "gdp_growth", "private_sector_share", "reform_progress"]
+    "indicators": [
+      "transition_quality",
+      "investment_volume",
+      "gdp_growth",
+      "private_sector_share",
+      "reform_progress"
+    ]
   },
-  "data_characteristics": {
-    "types": ["statistics", "indicators", "forecasts", "project_data"],
-    "granularity": {
-      "spatial": ["country", "region", "sector"],
-      "temporal": ["annual", "quarterly"]
-    },
-    "formats": ["PDF", "XLS", "online_tables"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 4
-  },
-  "licensing": {
-    "license": {
-      "type": "custom",
-      "url": "https://www.ebrd.com/terms-and-conditions.html"
-    },
-    "commercial_use": "restricted",
-    "attribution_required": true
-  },
-  "metadata": {
-    "standards": ["institutional_standards"],
-    "interoperability": "medium"
-  },
-  "usage": {
-    "use_cases": [
-      "Transition economy research",
-      "Investment analysis for emerging markets",
-      "Regional economic comparison",
-      "Development finance tracking"
-    ],
-    "target_users": ["researchers", "policy_makers", "investors", "development_practitioners"]
-  },
-  "contact": {
-    "organization": "European Bank for Reconstruction and Development",
-    "email": "generalenquiries@ebrd.com",
-    "support_url": "https://www.ebrd.com/contacts.html"
-  },
-  "tags": ["international_finance", "transition_economies", "development_finance", "emerging_markets", "eastern_europe", "central_asia", "regional_development"],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-scraper-skill"
-  }
+  "authority_level": "international"
 }

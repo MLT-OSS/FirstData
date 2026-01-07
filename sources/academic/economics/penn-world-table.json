@@ -4,42 +4,32 @@
     "en": "Penn World Table",
     "zh": "宾州世界表"
   },
-  "organization": {
-    "name": "Groningen Growth and Development Centre (GGDC), University of Groningen",
-    "type": "research_institution",
-    "country": "NL",
-    "website": "https://www.rug.nl/ggdc/"
-  },
   "description": {
     "en": "Penn World Table (PWT) version 11.0 is a comprehensive database with information on relative levels of income, output, input and productivity, covering 185 countries between 1950 and 2023. It provides data on real GDP using various measurement methods (national accounts and PPP-based), employment, educational attainment, capital stock, and other variables essential for cross-country comparisons and growth studies.",
     "zh": "宾州世界表(PWT) 11.0版本是一个全面的数据库,提供收入、产出、投入和生产率的相对水平信息,覆盖185个国家1950年至2023年的数据。它提供使用各种测量方法(国民账户和购买力平价)的实际GDP、就业、教育程度、资本存量以及其他跨国比较和增长研究所需的变量。"
   },
-  "access": {
-    "primary_url": "https://www.rug.nl/ggdc/productivity/pwt/",
-    "api": {
-      "available": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "Stata"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 185,
-      "regions": ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"]
-    },
-    "temporal": {
-      "start_year": 1950,
-      "end_year": 2023,
-      "update_frequency": "annual"
-    },
-    "domains": ["economics", "development", "productivity"],
-    "indicators": 50
-  },
+  "website": "https://www.rug.nl/ggdc/",
+  "data_url": "https://www.rug.nl/ggdc/productivity/pwt/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "economics",
+    "development",
+    "productivity"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "gdp",
+    "productivity",
+    "economic-growth",
+    "development-accounting",
+    "cross-country-comparison",
+    "panel-data",
+    "purchasing-power-parity",
+    "academic-research",
+    "open-data"
+  ],
   "data_content": {
     "en": [
       "Real GDP (national accounts and PPP-based measures)",
@@ -66,76 +56,5 @@
       "现价和不变价国民账户数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "panel", "cross-sectional"],
-    "granularity": ["country-level"],
-    "formats": ["Excel", "Stata"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC BY 4.0",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": [],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Cross-country economic growth comparisons",
-      "Development accounting studies",
-      "Growth accounting and productivity analysis",
-      "International income level comparisons",
-      "Convergence studies",
-      "Empirical macroeconomics research"
-    ],
-    "example_studies": [
-      "Cross-country growth regressions",
-      "Productivity differences across countries",
-      "Convergence and divergence analysis"
-    ],
-    "code_examples": [
-      "https://pwt-data-tool.streamlit.app"
-    ]
-  },
-  "related_sources": [
-    "worldbank-open-data",
-    "imf-data",
-    "oecd-statistics"
-  ],
-  "contact": {
-    "email": "pwt@rug.nl",
-    "support_url": "https://www.rug.nl/ggdc/aboutus/contact"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active",
-    "notes": "Published October 7, 2025. Major update from PWT 10.01. Hosted on Dataverse with DOI: 10.34894/FABVLR"
-  },
-  "tags": [
-    "gdp",
-    "productivity",
-    "economic-growth",
-    "development-accounting",
-    "cross-country-comparison",
-    "panel-data",
-    "purchasing-power-parity",
-    "academic-research",
-    "open-data"
-  ]
+  "authority_level": "research"
 }

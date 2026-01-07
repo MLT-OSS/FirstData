@@ -4,35 +4,39 @@
     "en": "NOAA Climate Data Online (CDO)",
     "zh": "NOAA气候数据在线系统"
   },
-  "organization": {
-    "name": "National Centers for Environmental Information (NCEI), National Oceanic and Atmospheric Administration (NOAA)",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.ncei.noaa.gov/"
-  },
   "description": {
     "en": "Climate Data Online (CDO) provides free access to NCDC's archive of global historical weather and climate data in addition to station history information. These data include quality controlled daily, monthly, seasonal, and yearly measurements of temperature, precipitation, wind, and degree days as well as radar data and 30-year Climate Normals. The database includes records from thousands of stations worldwide with data available from as early as the late 1800s.",
     "zh": "气候数据在线系统(CDO)提供对NCDC全球历史天气和气候数据档案以及站点历史信息的免费访问。这些数据包括质量控制的日、月、季、年温度、降水、风和度日测量值，以及雷达数据和30年气候标准值。数据库包含来自全球数千个站点的记录，数据可追溯至19世纪晚期。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 195,
-      "regions": ["Worldwide", "United States and territories"]
-    },
-    "temporal": {
-      "start_year": 1880,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "climate",
-      "meteorology",
-      "environmental_science",
-      "atmospheric_science"
-    ],
-    "indicators": 50000
-  },
+  "website": "https://www.ncei.noaa.gov/",
+  "data_url": "https://www.ncei.noaa.gov/cdo-web/",
+  "api_url": "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
+  "country": null,
+  "domains": [
+    "climate",
+    "meteorology",
+    "environmental_science",
+    "atmospheric_science"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "climate",
+    "weather",
+    "temperature",
+    "precipitation",
+    "meteorology",
+    "NOAA",
+    "NCEI",
+    "NCDC",
+    "historical climate data",
+    "weather stations",
+    "climate normals",
+    "atmospheric data",
+    "environmental data",
+    "time series",
+    "global coverage"
+  ],
   "data_content": {
     "en": [
       "Global Historical Climatology Network Daily (GHCN-Daily) - Daily climate summaries from land surface stations worldwide",
@@ -61,126 +65,5 @@
       "站点元数据 - 站点位置、海拔和历史信息"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "time-series",
-      "statistical",
-      "geospatial",
-      "api"
-    ],
-    "granularity": [
-      "hourly",
-      "daily",
-      "monthly",
-      "seasonal",
-      "annual",
-      "station-level",
-      "regional"
-    ],
-    "formats": [
-      "CSV",
-      "JSON",
-      "XML",
-      "NetCDF",
-      "PDF"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "access": {
-    "primary_url": "https://www.ncei.noaa.gov/cdo-web/",
-    "access_level": "registration",
-    "registration_required": true,
-    "api": {
-      "available": true,
-      "documentation": "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
-      "version": "v1",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": [
-        "CSV",
-        "JSON",
-        "NetCDF",
-        "PDF"
-      ]
-    }
-  },
-  "licensing": {
-    "license": "Public Domain - U.S. Government Work",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "API rate limit: 5 requests per second with token",
-      "API daily limit: 10,000 requests per day per token",
-      "Users must obtain free API token for programmatic access",
-      "Attribution to NOAA NCEI required"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "metadata": {
-    "standards_followed": [
-      "CF Conventions (NetCDF Climate and Forecast Metadata)",
-      "ISO 19115 (Geographic Information Metadata)",
-      "WMO standards",
-      "FGDC Content Standard for Digital Geospatial Metadata"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Climate change research and analysis",
-      "Weather pattern studies",
-      "Agricultural planning and crop modeling",
-      "Energy demand forecasting",
-      "Hydrological modeling",
-      "Insurance risk assessment",
-      "Infrastructure planning",
-      "Historical climate trend analysis",
-      "Extreme weather event studies",
-      "Environmental impact assessments"
-    ],
-    "code_examples": [
-      "https://github.com/partytax/ncei-api-guide"
-    ]
-  },
-  "contact": {
-    "email": "ncei.info@noaa.gov",
-    "support_url": "https://www.ncei.noaa.gov/contact"
-  },
-  "tags": [
-    "climate",
-    "weather",
-    "temperature",
-    "precipitation",
-    "meteorology",
-    "NOAA",
-    "NCEI",
-    "NCDC",
-    "historical climate data",
-    "weather stations",
-    "climate normals",
-    "atmospheric data",
-    "environmental data",
-    "time series",
-    "global coverage"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-fetcher"
-  }
+  "authority_level": "government"
 }

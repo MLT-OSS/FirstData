@@ -58,32 +58,27 @@ class URLVerifier:
 
     def extract_urls(self, data: Dict) -> Dict[str, str]:
         """
-        Extract all URLs from data source JSON
+        Extract all URLs from data source JSON (v2.0 schema)
 
         Returns:
             Dictionary mapping field names to URLs
         """
         urls = {}
 
-        # Primary URL (required)
-        primary_url = data.get('access', {}).get('primary_url')
-        if primary_url:
-            urls['primary_url'] = primary_url
+        # Website (organization homepage, required in v2.0)
+        website = data.get('website')
+        if website:
+            urls['website'] = website
 
-        # Organization website
-        org_website = data.get('organization', {}).get('website')
-        if org_website:
-            urls['organization.website'] = org_website
+        # Data URL (direct data access page, required in v2.0)
+        data_url = data.get('data_url')
+        if data_url:
+            urls['data_url'] = data_url
 
-        # API documentation
-        api_docs = data.get('access', {}).get('api', {}).get('documentation')
-        if api_docs:
-            urls['access.api.documentation'] = api_docs
-
-        # Support URL
-        support_url = data.get('contact', {}).get('support_url')
-        if support_url:
-            urls['contact.support_url'] = support_url
+        # API URL (API documentation or endpoint, optional in v2.0)
+        api_url = data.get('api_url')
+        if api_url:
+            urls['api_url'] = api_url
 
         return urls
 
@@ -377,7 +372,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='Verify URLs in DataSource Hub metadata files',
+        description='Verify URLs in DataSource Hub metadata files (v2.0 schema)',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -393,11 +388,10 @@ Examples:
   # Quiet mode (less verbose)
   python verify_urls.py sources/china -q
 
-Verified URL fields:
-  - access.primary_url (required)
-  - organization.website
-  - access.api.documentation
-  - contact.support_url
+V2.0 Schema - Verified URL fields:
+  - website (organization homepage, required)
+  - data_url (direct data access page, required)
+  - api_url (API documentation or endpoint, optional)
         """
     )
 

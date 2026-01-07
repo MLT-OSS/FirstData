@@ -4,37 +4,40 @@
     "en": "Africa CDC Health Data",
     "zh": "非洲疾控中心健康数据"
   },
-  "organization": {
-    "name": "Africa Centres for Disease Control and Prevention (Africa CDC)",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://africacdc.org"
-  },
   "description": {
     "en": "Africa CDC strengthens the capacity and capability of Africa's public health institutions as well as partnerships to detect and respond quickly and effectively to disease threats and outbreaks, based on data-driven interventions and programmes. The agency provides comprehensive health surveillance data, epidemic intelligence reports, disease outbreak tracking, and public health resources across the African continent.",
     "zh": "非洲疾病控制和预防中心加强非洲公共卫生机构的能力，以及合作伙伴关系，以基于数据驱动的干预措施和计划，快速有效地检测和应对疾病威胁和疫情。该机构提供全面的健康监测数据、流行病情报报告、疾病暴发跟踪和整个非洲大陆的公共卫生资源。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "regional",
-      "countries": 55,
-      "regions": ["Africa", "Central Africa", "Eastern Africa", "Northern Africa", "Southern Africa", "Western Africa"]
-    },
-    "temporal": {
-      "start_year": 2016,
-      "end_year": 2025,
-      "update_frequency": "weekly"
-    },
-    "domains": [
-      "public health",
-      "epidemiology",
-      "disease surveillance",
-      "outbreak response",
-      "laboratory systems",
-      "health security"
-    ],
-    "indicators": 500
-  },
+  "website": "https://africacdc.org",
+  "data_url": "https://africacdc.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "public health",
+    "epidemiology",
+    "disease surveillance",
+    "outbreak response",
+    "laboratory systems",
+    "health security"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "weekly",
+  "tags": [
+    "Africa CDC",
+    "public health",
+    "disease surveillance",
+    "epidemic intelligence",
+    "outbreak response",
+    "health security",
+    "African Union",
+    "COVID-19",
+    "Mpox",
+    "Ebola",
+    "regional health",
+    "laboratory systems",
+    "pathogen genomics",
+    "emergency preparedness"
+  ],
   "data_content": {
     "en": [
       "Epidemic Intelligence Weekly Reports - Disease outbreak surveillance and monitoring across Africa",
@@ -59,117 +62,5 @@
       "病原体基因组学 - 来自病原体基因组学研究所的基因组监测数据"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "time-series",
-      "geospatial",
-      "text"
-    ],
-    "granularity": ["country-level", "regional-level", "weekly", "monthly"],
-    "formats": [
-      "PDF",
-      "Excel",
-      "Dashboard",
-      "Web"
-    ],
-    "languages": [
-      "en",
-      "fr"
-    ]
-  },
-  "access": {
-    "primary_url": "https://africacdc.org",
-    "access_level": "open",
-    "registration_required": false,
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDF", "Excel"]
-    }
-  },
-  "licensing": {
-    "license": "Open Access - Public Health Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Attribution to Africa CDC required",
-      "Data should be used for public health and research purposes"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 5,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 4
-  },
-  "metadata": {
-    "standards_followed": [
-      "WHO Standards",
-      "PHEOC Guidelines",
-      "International Health Regulations (IHR)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Disease outbreak monitoring and early warning",
-      "Public health emergency response planning",
-      "Epidemiological research on African health threats",
-      "Health policy development and evaluation",
-      "Laboratory capacity assessment",
-      "Regional health security coordination",
-      "Pandemic preparedness planning",
-      "Genomic surveillance for pathogen tracking"
-    ],
-    "typical_users": [
-      "Public health officials and ministries of health",
-      "Epidemiologists and disease surveillance specialists",
-      "International health organizations (WHO, UN agencies)",
-      "Academic researchers in public health",
-      "NGOs working on health in Africa",
-      "Emergency response teams",
-      "Laboratory networks",
-      "Policy makers and health diplomats"
-    ]
-  },
-  "contact": {
-    "email": "communications@africacdc.org",
-    "support_url": "https://helpdesk.africacdc.org/"
-  },
-  "related_sources": [
-    "who-health-observatory"
-  ],
-  "tags": [
-    "Africa CDC",
-    "public health",
-    "disease surveillance",
-    "epidemic intelligence",
-    "outbreak response",
-    "health security",
-    "African Union",
-    "COVID-19",
-    "Mpox",
-    "Ebola",
-    "regional health",
-    "laboratory systems",
-    "pathogen genomics",
-    "emergency preparedness"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-fetcher"
-  }
+  "authority_level": "international"
 }

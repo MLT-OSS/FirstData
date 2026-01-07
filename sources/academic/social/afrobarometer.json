@@ -4,61 +4,53 @@
     "en": "Afrobarometer",
     "zh": "非洲晴雨表"
   },
-  "organization": {
-    "name": "Afrobarometer",
-    "type": "research_institution",
-    "country": "GH",
-    "website": "https://www.afrobarometer.org"
-  },
   "description": {
     "en": "Afrobarometer is a pan-African, non-partisan survey research network that conducts public attitude surveys on democracy, governance, the economy, and society. The network encompasses 41 national partners responsible for data collection, analysis, and dissemination of findings across 44 African countries. With over 435,000 interviews conducted, Afrobarometer is the world's leading source of high-quality data on what Africans are thinking. Each survey round involves face-to-face interviews with nationally representative samples of 1,200-2,400 adult citizens per country, yielding country-level results with a margin of error of +/-2 to 3 percentage points at a 95% confidence level.",
     "zh": "非洲晴雨表是一个泛非洲、无党派的调查研究网络，对民主、治理、经济和社会等议题进行公众态度调查。该网络包括41个国家合作伙伴，负责在44个非洲国家进行数据收集、分析和研究结果传播。已完成超过43.5万次访谈，非洲晴雨表是全球领先的非洲人民意见高质量数据来源。每轮调查通过面对面访谈，对每个国家1,200-2,400名成年公民进行全国代表性抽样，在95%置信水平下，国家层面结果的误差幅度为+/-2至3个百分点。"
   },
-  "access": {
-    "primary_url": "https://www.afrobarometer.org/data/",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["SPSS", "Stata", "R", "CSV", "Excel", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "regional",
-      "countries": 44,
-      "regions": ["Africa"]
-    },
-    "temporal": {
-      "start_year": 1999,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Democracy and Governance",
-      "Political Participation",
-      "Elections and Electoral Systems",
-      "Economic Development",
-      "Social Issues",
-      "Public Services",
-      "Citizen Engagement",
-      "Human Rights",
-      "Gender Equality",
-      "Corruption and Accountability",
-      "Security and Conflict",
-      "Youth Development",
-      "Health and Education",
-      "Infrastructure",
-      "Environmental Issues"
-    ],
-    "indicators": 200
-  },
+  "website": "https://www.afrobarometer.org",
+  "data_url": "https://www.afrobarometer.org/data/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Democracy and Governance",
+    "Political Participation",
+    "Elections and Electoral Systems",
+    "Economic Development",
+    "Social Issues",
+    "Public Services",
+    "Citizen Engagement",
+    "Human Rights",
+    "Gender Equality",
+    "Corruption and Accountability",
+    "Security and Conflict",
+    "Youth Development",
+    "Health and Education",
+    "Infrastructure",
+    "Environmental Issues"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "irregular",
+  "tags": [
+    "africa",
+    "survey-research",
+    "democracy",
+    "governance",
+    "public-opinion",
+    "political-participation",
+    "elections",
+    "citizen-engagement",
+    "corruption",
+    "economic-development",
+    "social-issues",
+    "gender-equality",
+    "youth",
+    "public-services",
+    "accountability",
+    "cross-national-survey",
+    "panel-data",
+    "representative-sample"
+  ],
   "data_content": {
     "en": [
       "Democracy Preferences - Citizens' attitudes toward democratic governance and alternatives",
@@ -97,93 +89,5 @@
       "合并数据集 - 结合所有调查轮次的多国比较数据集"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "cross-sectional", "panel", "geospatial"],
-    "granularity": ["country-level", "subnational", "individual-level", "enumeration-area"],
-    "formats": ["SPSS", "Stata", "R", "CSV", "Excel", "PDF", "HTML"],
-    "languages": ["en", "fr", "pt", "ar"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Copyright - Free to access and use with attribution",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite as: Afrobarometer Data, [Country(ies)], [Round(s)], [Year(s)], available at http://www.afrobarometer.org",
-      "Users requested to send copies of publications to bhoward@afrobarometer.org",
-      "Geocoded data requires special application and approval",
-      "Early access to unreleased data restricted to African students and partner organizations"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "Probability sampling methodology",
-      "Face-to-face interview protocols",
-      "Multi-stage cluster sampling",
-      "ISO country codes"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Analyzing democratic attitudes and trends across Africa",
-      "Comparing governance perceptions across countries and time",
-      "Evaluating government performance and accountability",
-      "Studying citizen engagement and political participation patterns",
-      "Research on corruption, elections, and public service delivery",
-      "Policy analysis and development planning",
-      "Academic research on African politics and society",
-      "Supporting civil society advocacy and monitoring",
-      "Media reporting on public opinion in Africa",
-      "International development program evaluation"
-    ],
-    "example_studies": [
-      "US Ambassador to UN Linda Thomas-Greenfield: 'Afrobarometer is the gold standard for independent opinion polls in Africa'",
-      "World Bank Economists for Transformation Programme collaborations",
-      "Multiple government policy reforms informed by Afrobarometer findings",
-      "Academic publications in top political science and development journals",
-      "Flagship Reports: African Insights series analyzing citizen engagement and democracy"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "email": "admin@afrobarometer.org",
-    "support_url": "https://www.afrobarometer.org/contact-us/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "africa",
-    "survey-research",
-    "democracy",
-    "governance",
-    "public-opinion",
-    "political-participation",
-    "elections",
-    "citizen-engagement",
-    "corruption",
-    "economic-development",
-    "social-issues",
-    "gender-equality",
-    "youth",
-    "public-services",
-    "accountability",
-    "cross-national-survey",
-    "panel-data",
-    "representative-sample"
-  ]
+  "authority_level": "research"
 }

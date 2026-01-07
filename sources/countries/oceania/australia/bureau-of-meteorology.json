@@ -4,54 +4,44 @@
     "en": "Bureau of Meteorology",
     "zh": "澳大利亚气象局"
   },
-  "organization": {
-    "name": "Australian Government Bureau of Meteorology",
-    "type": "national_government",
-    "country": "AU",
-    "website": "https://www.bom.gov.au"
-  },
   "description": {
     "en": "Australia's national weather, climate, water, ocean and space weather information agency. The Bureau of Meteorology provides trusted, reliable and responsive services for Australia every day. It monitors and reports on current conditions, provides forecasts, warnings and long-term outlooks, analyzes trends, and continues to extend understanding of Australian conditions. Operating under the Meteorology Act 1955 and Water Act 2007, the Bureau fulfills Australia's international obligations under the World Meteorological Organization.",
     "zh": "澳大利亚国家气象、气候、水文、海洋和空间气象信息机构。澳大利亚气象局每天为澳大利亚提供可信、可靠和响应迅速的服务。它监测和报告当前状况，提供预报、警报和长期展望，分析趋势，并不断扩展对澳大利亚气象条件的理解。根据1955年气象法和2007年水资源法运作，该局履行澳大利亚在世界气象组织下的国际义务。"
   },
-  "access": {
-    "primary_url": "https://www.bom.gov.au",
-    "api": {
-      "available": true,
-      "documentation": "https://reg.bom.gov.au/catalogue/data-feeds.shtml",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "JSON", "XML", "NetCDF", "GeoTIFF", "GRIB2"]
-    },
-    "access_level": "registration",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["AU"],
-      "regions": ["Australia", "Australian Antarctic Territory", "Indian Ocean", "Pacific Ocean"]
-    },
-    "temporal": {
-      "start_year": 1850,
-      "end_year": 2025,
-      "update_frequency": "real-time"
-    },
-    "domains": [
-      "weather",
-      "climate",
-      "water",
-      "oceans",
-      "space weather",
-      "atmosphere",
-      "meteorology",
-      "hydrology",
-      "oceanography"
-    ],
-    "indicators": 10000
-  },
+  "website": "https://www.bom.gov.au",
+  "data_url": "https://www.bom.gov.au",
+  "api_url": "https://reg.bom.gov.au/catalogue/data-feeds.shtml",
+  "country": "AU",
+  "domains": [
+    "weather",
+    "climate",
+    "water",
+    "oceans",
+    "space weather",
+    "atmosphere",
+    "meteorology",
+    "hydrology",
+    "oceanography"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "real-time",
+  "tags": [
+    "weather",
+    "climate",
+    "meteorology",
+    "australia",
+    "forecasts",
+    "warnings",
+    "rainfall",
+    "temperature",
+    "water",
+    "oceans",
+    "space-weather",
+    "satellite",
+    "radar",
+    "government",
+    "oceania"
+  ],
   "data_content": {
     "en": [
       "Weather forecasts and warnings",
@@ -88,92 +78,5 @@
       "海洋和沿海预报"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "geospatial", "image", "api"],
-    "granularity": [
-      "real-time",
-      "hourly",
-      "daily",
-      "monthly",
-      "annual",
-      "station-level",
-      "regional",
-      "national",
-      "grid-based"
-    ],
-    "formats": ["CSV", "JSON", "XML", "NetCDF", "GeoTIFF", "GRIB2", "HTML", "PDF"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) for public content; Data Licence Agreement for commercial/extensive use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Commercial use of extensive datasets requires paid subscription and Data Licence Agreement",
-      "Real-time data services require registration and subscription",
-      "Cannot use automated scraping techniques",
-      "Must attribute as: Bureau of Meteorology, © Commonwealth of Australia",
-      "Some specialized content (radar, high-resolution maps) requires specific licence"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "WMO standards",
-      "ISO 19115 (Geographic Information - Metadata)",
-      "SDMX",
-      "NetCDF Climate and Forecast (CF) Conventions"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Weather forecasting and planning",
-      "Climate research and analysis",
-      "Agricultural planning and management",
-      "Aviation weather services",
-      "Marine and maritime operations",
-      "Emergency management and disaster preparedness",
-      "Water resource management",
-      "Insurance and risk assessment",
-      "Renewable energy planning",
-      "Tourism and event planning"
-    ]
-  },
-  "contact": {
-    "support_url": "https://www.bom.gov.au/contact"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "weather",
-    "climate",
-    "meteorology",
-    "australia",
-    "forecasts",
-    "warnings",
-    "rainfall",
-    "temperature",
-    "water",
-    "oceans",
-    "space-weather",
-    "satellite",
-    "radar",
-    "government",
-    "oceania"
-  ]
+  "authority_level": "government"
 }

@@ -4,47 +4,36 @@
     "en": "Basel Convention Data",
     "zh": "巴塞尔公约数据"
   },
-  "organization": {
-    "name": "United Nations Environment Programme (UNEP)",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.unep.org"
-  },
   "description": {
     "en": "The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal is a global environmental treaty that regulates the international trade of hazardous waste. The Convention provides comprehensive data on national reporting of hazardous waste generation, import/export movements, disposal methods, and illegal trafficking incidents. Countries submit annual reports through an Electronic Reporting System (ERS), covering waste inventories, transboundary movements under the Prior Informed Consent procedure, and implementation status of technical guidelines for waste management including e-waste, plastic waste, batteries, and POPs waste.",
     "zh": "巴塞尔公约（关于控制危险废物越境转移及其处置的巴塞尔公约）是一项全球性环境条约，旨在规范危险废物的国际贸易。该公约提供关于各国危险废物产生、进出口转移、处置方法和非法贩运事件的全面数据。各国通过电子报告系统（ERS）提交年度报告，涵盖废物清单、事先知情同意程序下的越境转移，以及电子废物、塑料废物、电池和持久性有机污染物废物等废物管理技术指南的实施状况。"
   },
-  "access": {
-    "primary_url": "https://www.basel.int",
-    "api": {
-      "available": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDF", "Excel"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 191
-    },
-    "temporal": {
-      "start_year": 2001,
-      "end_year": 2024,
-      "update_frequency": "annual"
-    },
-    "domains": [
-      "Environment",
-      "Waste Management",
-      "Hazardous Materials",
-      "International Trade",
-      "Environmental Law"
-    ],
-    "indicators": 150
-  },
+  "website": "https://www.unep.org",
+  "data_url": "https://www.basel.int",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Environment",
+    "Waste Management",
+    "Hazardous Materials",
+    "International Trade",
+    "Environmental Law"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "hazardous waste",
+    "environmental protection",
+    "waste management",
+    "transboundary movements",
+    "international convention",
+    "UNEP",
+    "e-waste",
+    "plastic waste",
+    "circular economy",
+    "environmental law",
+    "illegal trafficking"
+  ],
   "data_content": {
     "en": [
       "Hazardous waste generation by type and quantity",
@@ -83,94 +72,5 @@
       "技术指南实施状况"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "time-series"
-    ],
-    "granularity": [
-      "country-level",
-      "annual",
-      "waste-type specific"
-    ],
-    "formats": [
-      "PDF",
-      "Excel",
-      "HTML"
-    ],
-    "languages": [
-      "en",
-      "fr",
-      "es",
-      "ru",
-      "ar",
-      "zh"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 4
-  },
-  "licensing": {
-    "license": "UN Copyright - Open Access",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite source as: Basel Convention Secretariat, UNEP"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "ISO 3166 (country codes)",
-      "Harmonized System Codes (HS Codes)",
-      "Basel Convention Annexes classification"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Environmental policy analysis and monitoring",
-      "International waste trade regulation compliance",
-      "Hazardous waste management planning",
-      "Illegal waste trafficking prevention and enforcement",
-      "Academic research on global waste flows",
-      "Implementation of circular economy initiatives",
-      "Technical guidelines development and capacity building"
-    ]
-  },
-  "related_sources": [
-    "stockholm-convention",
-    "rotterdam-convention",
-    "unep-data"
-  ],
-  "contact": {
-    "email": "brs@un.org",
-    "support_url": "https://www.basel.int"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher-skill",
-    "status": "active"
-  },
-  "tags": [
-    "hazardous waste",
-    "environmental protection",
-    "waste management",
-    "transboundary movements",
-    "international convention",
-    "UNEP",
-    "e-waste",
-    "plastic waste",
-    "circular economy",
-    "environmental law",
-    "illegal trafficking"
-  ]
+  "authority_level": "international"
 }

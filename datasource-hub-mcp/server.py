@@ -139,13 +139,13 @@ AGENT_TOOLS = [
         "name": "get_source_details",
         "description": """
         获取指定数据源的完整详细信息。
-        用于深入了解候选数据源的具体内容、覆盖范围、质量评分等。
+        用于深入了解候选数据源的具体内容、覆盖范围、权威级别等。
 
         参数:
         - source_ids: 必需，数据源ID列表（如 ["china-pbc", "china-nbs"]）
         - fields: 可选，返回哪些字段，默认返回全部
 
-        返回: 数据源的完整信息，包括描述、访问方式、覆盖范围、数据内容、质量评分等
+        返回: 数据源的完整信息，包括描述、访问方式、覆盖范围、数据内容、权威级别等
         """,
         "input_schema": {
             "type": "object",
@@ -169,15 +169,14 @@ AGENT_TOOLS = [
         "name": "filter_sources_by_criteria",
         "description": """
         按多个条件组合筛选数据源。
-        用于精确缩小搜索范围，支持地理、时间、访问方式、领域等多维度筛选。
+        用于精确缩小搜索范围，支持地理、领域、访问方式、权威级别等多维度筛选。
 
         参数:
         - geographic_scope: 可选，地理范围（如 "China", "Global", "Asia"）
         - domain: 可选，领域（如 "finance", "health", "economics", "energy"）
         - has_api: 可选，是否需要API访问
         - update_frequency: 可选，更新频率（如 "monthly", "daily"）
-        - min_quality_score: 可选，最低质量评分（0-5）
-        - time_range: 可选，时间范围 {"start_year": 2000, "end_year": 2024}
+        - authority_level: 可选，权威级别（如 "government", "international", "research"）
 
         返回: 符合条件的数据源列表
         """,
@@ -200,17 +199,9 @@ AGENT_TOOLS = [
                     "type": "string",
                     "description": "更新频率"
                 },
-                "min_quality_score": {
-                    "type": "number",
-                    "description": "最低质量评分（0-5）"
-                },
-                "time_range": {
-                    "type": "object",
-                    "properties": {
-                        "start_year": {"type": "integer"},
-                        "end_year": {"type": "integer"}
-                    },
-                    "description": "时间范围"
+                "authority_level": {
+                    "type": "string",
+                    "description": "权威级别: government, international, market, research, commercial, other"
                 }
             }
         }
@@ -264,13 +255,11 @@ def tool_list_sources_summary(country: Optional[str] = None,
     for ds in all_sources:
         # 过滤国家
         if country:
-            org_country = ds.get('organization', {}).get('country') or ''
-            geo_regions = ds.get('coverage', {}).get('geographic', {}).get('regions', [])
-            geo_scope = ds.get('coverage', {}).get('geographic', {}).get('scope', '')
+            ds_country = ds.get('country') or ''
+            geo_scope = ds.get('geographic_scope', '')
 
             country_match = (
-                (org_country and country.upper() in org_country.upper()) or
-                any(country.lower() in str(r).lower() for r in geo_regions) or
+                (ds_country and country.upper() in ds_country.upper()) or
                 (country.lower() == 'global' and 'global' in geo_scope.lower())
             )
             if not country_match:
@@ -278,21 +267,16 @@ def tool_list_sources_summary(country: Optional[str] = None,
 
         # 过滤领域
         if domain:
-            domains = ds.get('coverage', {}).get('domains', [])
+            domains = ds.get('domains', [])
             if not any(domain.lower() in d.lower() for d in domains):
                 continue
-
-        # 计算质量评分，只使用数字类型的值
-        quality = ds.get('quality', {})
-        numeric_values = [v for v in quality.values() if isinstance(v, (int, float))]
-        quality_score = sum(numeric_values) / len(numeric_values) if numeric_values else 0
 
         results.append({
             'id': ds['id'],
             'name': ds['name'],
-            'country': ds.get('organization', {}).get('country', ''),
-            'domains': ds.get('coverage', {}).get('domains', []),
-            'quality_score': quality_score,
+            'country': ds.get('country', ''),
+            'domains': ds.get('domains', []),
+            'authority_level': ds.get('authority_level', ''),
             'file_path': ds.get('file_path', '')
         })
 
@@ -357,7 +341,8 @@ def tool_search_sources_by_keywords(keywords: List[str],
                 'name': ds['name'],
                 'matched_fields': list(set(matched_fields)),
                 'match_score': score,
-                'domains': ds.get('coverage', {}).get('domains', []),
+                'domains': ds.get('domains', []),
+                'authority_level': ds.get('authority_level', ''),
                 'file_path': ds.get('file_path', '')
             })
 
@@ -394,8 +379,7 @@ def tool_filter_sources_by_criteria(geographic_scope: Optional[str] = None,
                                      domain: Optional[str] = None,
                                      has_api: Optional[bool] = None,
                                      update_frequency: Optional[str] = None,
-                                     min_quality_score: Optional[float] = None,
-                                     time_range: Optional[Dict] = None) -> List[Dict]:
+                                     authority_level: Optional[str] = None) -> List[Dict]:
     """条件筛选"""
     all_sources = _load_all_datasources()
     results = []
@@ -403,13 +387,11 @@ def tool_filter_sources_by_criteria(geographic_scope: Optional[str] = None,
     for ds in all_sources:
         # 地理范围
         if geographic_scope:
-            org_country = ds.get('organization', {}).get('country') or ''
-            geo_regions = ds.get('coverage', {}).get('geographic', {}).get('regions', []) or []
-            geo_scope = ds.get('coverage', {}).get('geographic', {}).get('scope', '') or ''
+            ds_country = ds.get('country') or ''
+            geo_scope = ds.get('geographic_scope', '') or ''
 
             geo_match = (
-                (org_country and geographic_scope.upper() in org_country.upper()) or
-                any(geographic_scope.lower() in str(r).lower() for r in geo_regions) or
+                (ds_country and geographic_scope.upper() in ds_country.upper()) or
                 geographic_scope.lower() in geo_scope.lower()
             )
             if not geo_match:
@@ -417,53 +399,35 @@ def tool_filter_sources_by_criteria(geographic_scope: Optional[str] = None,
 
         # 领域过滤
         if domain:
-            domains = ds.get('coverage', {}).get('domains', [])
+            domains = ds.get('domains', [])
             if not any(domain.lower() in d.lower() for d in domains):
                 continue
 
         # API需求
         if has_api is not None:
-            has_api_access = ds.get('access', {}).get('api', {}).get('available', False)
+            has_api_access = ds.get('api_url') is not None
             if has_api_access != has_api:
                 continue
 
         # 更新频率
         if update_frequency:
-            freq = ds.get('coverage', {}).get('temporal', {}).get('update_frequency', '')
+            freq = ds.get('update_frequency', '')
             if update_frequency.lower() not in freq.lower():
                 continue
 
-        # 质量评分 - 只使用数字类型的值
-        if min_quality_score is not None:
-            quality = ds.get('quality', {})
-            if quality:
-                numeric_values = [v for v in quality.values() if isinstance(v, (int, float))]
-                if numeric_values:
-                    avg_score = sum(numeric_values) / len(numeric_values)
-                    if avg_score < min_quality_score:
-                        continue
-                else:
-                    # 没有数字质量值，跳过此数据源
-                    continue
-
-        # 时间范围
-        if time_range:
-            temporal = ds.get('coverage', {}).get('temporal', {})
-            start_year = temporal.get('start_year', 0)
-            end_year = temporal.get('end_year', 9999)
-
-            if time_range.get('start_year') and start_year > time_range['start_year']:
-                continue
-            if time_range.get('end_year') and end_year < time_range['end_year']:
+        # 权威级别筛选
+        if authority_level:
+            ds_authority = ds.get('authority_level', '')
+            if authority_level.lower() not in ds_authority.lower():
                 continue
 
         results.append({
             'id': ds['id'],
             'name': ds['name'],
-            'country': ds.get('organization', {}).get('country', ''),
-            'domains': ds.get('coverage', {}).get('domains', []),
-            'has_api': ds.get('access', {}).get('api', {}).get('available', False),
-            'quality': ds.get('quality', {}),
+            'country': ds.get('country', ''),
+            'domains': ds.get('domains', []),
+            'has_api': ds.get('api_url') is not None,
+            'authority_level': ds.get('authority_level', ''),
             'file_path': ds.get('file_path', '')
         })
 
@@ -611,16 +575,16 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 
 ## 推荐数据源
 
-| # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 | JSON文件 |
+| # | 名称 | 描述 | 权威级别 | URL | API支持 | 访问级别 | JSON文件 |
 |---|------|------|----------|-----|---------|----------|----------|
-| 1 | 数据源中英文名称 | 简短描述（1-2句话，说明数据内容） | X.X/5星 | 完整URL | ✅/❌ | 免费/注册/付费 | /sources/path/to/file.json |
+| 1 | 数据源中英文名称 | 简短描述（1-2句话，说明数据内容） | government/international/research等 | 完整URL | ✅/❌ | 免费/注册/付费 | /sources/path/to/file.json |
 | 2 | ... | ... | ... | ... | ... | ... | ... |
 
 **表格列说明**：
 - **#**: 推荐排名（1-5）
 - **名称**: 数据源完整名称（中英文）
 - **描述**: 核心数据内容简述，1-2句话，突出最重要的信息
-- **质量评分**: 根据quality字段计算平均分（如4.5/5星）
+- **权威级别**: authority_level字段值（government, international, market, research, commercial, other）
 - **URL**: 数据源访问网址
 - **API支持**: ✅表示有API，❌表示无API
 - **访问级别**: 免费开放/需注册/付费等
@@ -652,10 +616,10 @@ AGENT_SYSTEM_PROMPT = """你是DataSource Hub的数据源搜索专家。你擅�
 
 ## 推荐数据源
 
-| # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 | JSON文件 |
+| # | 名称 | 描述 | 权威级别 | URL | API支持 | 访问级别 | JSON文件 |
 |---|------|------|----------|-----|---------|----------|----------|
-| 1 | People's Bank of China<br>中国人民银行 | 提供M0/M1/M2货币供应量、基准利率、政策利率、市场利率等货币政策数据，覆盖1990-2024年 | 5.0/5星 | http://www.pbc.gov.cn | ❌ | 免费开放 | /sources/countries/asia/china/china-pbc.json |
-| 2 | National Bureau of Statistics<br>国家统计局 | 提供GDP、投资、消费等宏观经济数据，可用于分析货币政策传导效果，月度/季度更新 | 4.8/5星 | http://www.stats.gov.cn | ❌ | 免费开放 | /sources/countries/asia/china/china-nbs.json |
+| 1 | People's Bank of China<br>中国人民银行 | 提供M0/M1/M2货币供应量、基准利率、政策利率、市场利率等货币政策数据，覆盖1990-2024年 | government | http://www.pbc.gov.cn | ❌ | 免费开放 | /sources/countries/asia/china/china-pbc.json |
+| 2 | National Bureau of Statistics<br>国家统计局 | 提供GDP、投资、消费等宏观经济数据，可用于分析货币政策传导效果，月度/季度更新 | government | http://www.stats.gov.cn | ❌ | 免费开放 | /sources/countries/asia/china/china-nbs.json |
 
 **推荐理由**：
 - **人民银行**：中央银行官方数据，权威性最高，直接提供M1/M2货币供应量和利率完整时间序列
@@ -1263,13 +1227,13 @@ async def datasource_get_details(
     ),
     fields: List[str] = Field(
         default=["all"],
-        description="返回字段: all（全部）, description（描述）, coverage（覆盖范围）, quality（质量）, access（访问方式）"
+        description="返回字段: all（全部）, description（描述）, domains（领域）, data_content（数据内容）"
     )
 ) -> str:
     """
     获取指定数据源的完整详细信息
 
-    返回数据源的详细配置，包括描述、覆盖范围、数据内容、访问方式、质量评分等。
+    返回数据源的详细配置，包括描述、领域、数据内容、访问方式、权威级别等。
 
     **适用场景:**
     - 深入了解某个特定数据源
@@ -1279,7 +1243,7 @@ async def datasource_get_details(
     **示例:**
     - 获取中国人民银行详情: source_ids=["china-pbc"]
     - 对比两个数据源: source_ids=["china-pbc", "china-nbs"]
-    - 只获取访问信息: source_ids=["worldbank"], fields=["access", "quality"]
+    - 只获取访问信息: source_ids=["worldbank"], fields=["website", "data_url", "api_url"]
 
     **返回格式:** JSON字符串，包含完整的数据源配置
     """
@@ -1319,17 +1283,15 @@ async def datasource_filter(
         default="",
         description="更新频率，如 daily（每日）, monthly（每月）, quarterly（每季度）"
     ),
-    min_quality_score: float = Field(
-        default=0.0,
-        ge=0.0,
-        le=5.0,
-        description="最低质量评分（0-5分）"
+    authority_level: str = Field(
+        default="",
+        description="权威级别，如 government（政府）, international（国际组织）, research（研究机构）"
     )
 ) -> str:
     """
     按多个条件组合精确筛选数据源
 
-    支持地理范围、领域、API、更新频率、质量评分等多维度筛选，返回同时满足所有条件的数据源。
+    支持地理范围、领域、API、更新频率、权威级别等多维度筛选，返回同时满足所有条件的数据源。
 
     **适用场景:**
     - 有明确的多个筛选条件
@@ -1338,7 +1300,7 @@ async def datasource_filter(
 
     **示例:**
     - 有API的中国金融数据: geographic_scope="China", domain="finance", has_api=True
-    - 高质量全球数据: geographic_scope="Global", min_quality_score=4.5
+    - 政府机构数据源: authority_level="government"
     - 每日更新的数据源: update_frequency="daily"
 
     **返回格式:** JSON字符串，包含符合所有条件的数据源列表
@@ -1354,8 +1316,8 @@ async def datasource_filter(
             kwargs['has_api'] = has_api
         if update_frequency:
             kwargs['update_frequency'] = update_frequency
-        if min_quality_score > 0:
-            kwargs['min_quality_score'] = min_quality_score
+        if authority_level:
+            kwargs['authority_level'] = authority_level
 
         results = tool_filter_sources_by_criteria(**kwargs)
         return json.dumps(results, ensure_ascii=False, indent=2)

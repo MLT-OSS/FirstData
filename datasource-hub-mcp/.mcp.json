@@ -1,6 +1,11 @@
 {
-  "datasource_hub": {
-    "transport": "http",
-    "url": "http://localhost:8001/mcp"
+  "mcpServers": {
+    "datasource_hub": {
+      "type": "http",
+      "url": "${DATASOURCE_HUB_URL:-http://localhost:8001/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${DATASOURCE_HUB_TOKEN}"
+      }
+    }
   }
 }

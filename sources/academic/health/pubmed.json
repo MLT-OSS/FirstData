@@ -4,34 +4,36 @@
     "en": "PubMed",
     "zh": "PubMed生物医学文献数据库"
   },
-  "organization": {
-    "name": "National Center for Biotechnology Information (NCBI), U.S. National Library of Medicine",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.ncbi.nlm.nih.gov/"
-  },
   "description": {
     "en": "PubMed is a free resource supporting the search and retrieval of biomedical and life sciences literature with the aim of improving health–both globally and personally. It contains more than 39 million citations and abstracts of biomedical literature from MEDLINE, life science journals, PubMed Central (PMC), and online books.",
     "zh": "PubMed是一个免费资源，支持生物医学和生命科学文献的搜索和检索，旨在改善全球和个人健康。包含超过3900万条来自MEDLINE、生命科学期刊、PubMed Central (PMC)和在线图书的生物医学文献引用和摘要。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 195,
-      "regions": ["Worldwide"]
-    },
-    "temporal": {
-      "start_year": 1946,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "health",
-      "biomedical",
-      "life_sciences"
-    ],
-    "indicators": 39000000
-  },
+  "website": "https://www.ncbi.nlm.nih.gov/",
+  "data_url": "https://pubmed.ncbi.nlm.nih.gov/",
+  "api_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+  "country": null,
+  "domains": [
+    "health",
+    "biomedical",
+    "life_sciences"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "biomedical literature",
+    "MEDLINE",
+    "citations",
+    "abstracts",
+    "life sciences",
+    "medical research",
+    "public health",
+    "clinical trials",
+    "MeSH",
+    "NIH",
+    "NLM",
+    "NCBI",
+    "E-utilities API"
+  ],
   "data_content": {
     "en": [
       "MEDLINE Citations - Citations from journals selected for MEDLINE, indexed with MeSH (Medical Subject Headings) and curated with funding, genetic, chemical and other metadata",
@@ -54,104 +56,5 @@
       "化学和基因数据 - 物质名称、基因符号和相关分子信息"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "text",
-      "api"
-    ],
-    "granularity": ["article-level"],
-    "formats": [
-      "XML",
-      "JSON",
-      "HTML",
-      "plain text"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "access": {
-    "primary_url": "https://pubmed.ncbi.nlm.nih.gov/",
-    "access_level": "open",
-    "registration_required": false,
-    "api": {
-      "available": true,
-      "documentation": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
-      "version": "E-utilities",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["XML", "JSON", "plain text"]
-    }
-  },
-  "licensing": {
-    "license": "Public Domain",
-    "commercial_use": true,
-    "attribution_required": false,
-    "restrictions": [
-      "Users must comply with E-utilities usage guidelines and rate limits (3 requests/second without API key, 10 requests/second with API key)"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "metadata_standards": [
-    "MEDLINE/PubMed XML DTD",
-    "MeSH (Medical Subject Headings)",
-    "NLM Catalog",
-    "PubMed Central DTD"
-  ],
-  "usage": {
-    "use_cases": [
-      "literature review",
-      "systematic reviews and meta-analyses",
-      "clinical decision support",
-      "drug discovery research",
-      "epidemiological studies",
-      "bibliometric analysis",
-      "grant proposal background research",
-      "evidence-based medicine"
-    ],
-    "typical_users": [
-      "medical researchers",
-      "healthcare professionals",
-      "students and educators",
-      "pharmaceutical companies",
-      "policy makers",
-      "librarians",
-      "data scientists"
-    ]
-  },
-  "contact": {
-    "support_url": "https://support.nlm.nih.gov/",
-    "mailing_list": "https://www.ncbi.nlm.nih.gov/mailman/listinfo/utilities-announce"
-  },
-  "tags": [
-    "biomedical literature",
-    "MEDLINE",
-    "citations",
-    "abstracts",
-    "life sciences",
-    "medical research",
-    "public health",
-    "clinical trials",
-    "MeSH",
-    "NIH",
-    "NLM",
-    "NCBI",
-    "E-utilities API"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-scraper"
-  }
+  "authority_level": "government"
 }

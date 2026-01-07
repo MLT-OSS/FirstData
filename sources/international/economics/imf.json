@@ -5,45 +5,30 @@
     "zh": "国际货币基金组织数据",
     "native": "IMF Data"
   },
-  "organization": {
-    "name": "International Monetary Fund",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.imf.org"
-  },
   "description": {
     "en": "Comprehensive macroeconomic and financial data from the International Monetary Fund, covering balance of payments, international financial statistics, government finance, and World Economic Outlook databases.",
     "zh": "国际货币基金组织提供的综合宏观经济和金融数据,涵盖国际收支、国际金融统计、政府财政和世界经济展望数据库。"
   },
-  "access": {
-    "primary_url": "https://data.imf.org",
-    "api": {
-      "available": true,
-      "documentation": "https://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service",
-      "version": "v1",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "SDMX"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 190,
-      "regions": ["Global", "Advanced Economies", "Emerging Markets", "Developing Countries"]
-    },
-    "temporal": {
-      "start_year": 1948,
-      "end_year": 2024,
-      "update_frequency": "monthly"
-    },
-    "domains": ["economics", "finance"],
-    "indicators": 800
-  },
+  "website": "https://www.imf.org",
+  "data_url": "https://data.imf.org",
+  "api_url": "https://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service",
+  "country": null,
+  "domains": [
+    "economics",
+    "finance"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "macroeconomics",
+    "balance-of-payments",
+    "financial-statistics",
+    "exchange-rates",
+    "government-finance",
+    "imf",
+    "international-reserves",
+    "api"
+  ],
   "data_content": {
     "en": [
       "Balance of Payments statistics",
@@ -68,73 +53,5 @@
       "货币和金融指标"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["country-level", "monthly", "quarterly", "annual"],
-    "formats": ["CSV", "Excel", "SDMX", "JSON"],
-    "languages": ["en", "es", "fr", "ar", "zh", "ru", "ja"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "IMF Copyright and Usage",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": ["Must cite IMF as source"]
-  },
-  "metadata": {
-    "standards_followed": ["SDMX", "BPM6", "GFSM 2014"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Macroeconomic surveillance",
-      "Financial stability analysis",
-      "Exchange rate research",
-      "Fiscal policy analysis",
-      "International economic comparisons"
-    ],
-    "example_studies": [
-      "Global financial crisis analysis",
-      "Sovereign debt sustainability",
-      "Currency crisis prediction"
-    ],
-    "code_examples": [
-      "https://github.com/christophscheuch/imfr"
-    ]
-  },
-  "related_sources": [
-    "worldbank-open-data",
-    "oecd-statistics",
-    "bis-stats"
-  ],
-  "contact": {
-    "email": "data@imf.org",
-    "support_url": "https://datahelp.imf.org"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-22",
-    "last_updated": "2025-01-22",
-    "verified_date": "2025-01-22",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "macroeconomics",
-    "balance-of-payments",
-    "financial-statistics",
-    "exchange-rates",
-    "government-finance",
-    "imf",
-    "international-reserves",
-    "api"
-  ]
+  "authority_level": "international"
 }

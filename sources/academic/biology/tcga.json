@@ -4,50 +4,39 @@
     "en": "The Cancer Genome Atlas",
     "zh": "癌症基因组图谱"
   },
-  "organization": {
-    "name": "National Cancer Institute & National Human Genome Research Institute",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.cancer.gov/ccg"
-  },
   "description": {
     "en": "The Cancer Genome Atlas (TCGA) is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. This joint effort between NCI and the National Human Genome Research Institute began in 2006, bringing together researchers from diverse disciplines and multiple institutions. Over a dozen years, TCGA generated over 2.5 petabytes of genomic, epigenomic, transcriptomic, and proteomic data, which has led to improvements in cancer diagnosis, treatment, and prevention.",
     "zh": "癌症基因组图谱（TCGA）是一个里程碑式的癌症基因组学项目，对跨越33种癌症类型的20,000多个原发性肿瘤样本和配对的正常样本进行了分子特征分析。这项由美国国家癌症研究所（NCI）和国家人类基因组研究所联合开展的工作始于2006年，汇集了来自不同学科和多个机构的研究人员。在十多年的时间里，TCGA生成了超过2.5 PB的基因组、表观基因组、转录组和蛋白质组数据，这些数据已经促进了癌症诊断、治疗和预防能力的提升。"
   },
-  "access": {
-    "primary_url": "https://portal.gdc.cancer.gov/",
-    "api": {
-      "available": true,
-      "documentation": "https://gdc.cancer.gov/developers/gdc-application-programming-interface-api",
-      "version": "7.10.1",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["BAM", "VCF", "TSV", "JSON", "XML", "MAF", "FASTQ"]
-    },
-    "access_level": "registration",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["US"]
-    },
-    "temporal": {
-      "start_year": 2006,
-      "end_year": 2018,
-      "update_frequency": "one-time"
-    },
-    "domains": [
-      "Cancer Genomics",
-      "Molecular Biology",
-      "Oncology",
-      "Bioinformatics",
-      "Precision Medicine"
-    ],
-    "indicators": 50270
-  },
+  "website": "https://www.cancer.gov/ccg",
+  "data_url": "https://portal.gdc.cancer.gov/",
+  "api_url": "https://gdc.cancer.gov/developers/gdc-application-programming-interface-api",
+  "country": "US",
+  "domains": [
+    "Cancer Genomics",
+    "Molecular Biology",
+    "Oncology",
+    "Bioinformatics",
+    "Precision Medicine"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "one-time",
+  "tags": [
+    "cancer",
+    "genomics",
+    "oncology",
+    "precision-medicine",
+    "multi-omics",
+    "sequencing",
+    "mutations",
+    "gene-expression",
+    "NIH",
+    "NCI",
+    "USA",
+    "bioinformatics",
+    "research",
+    "public-data"
+  ],
   "data_content": {
     "en": [
       "Genomic data (whole genome sequencing, whole exome sequencing, targeted sequencing)",
@@ -72,101 +61,5 @@
       "33种癌症类型的分子特征分析，包括：急性髓系白血病、膀胱癌、乳腺癌、宫颈癌、结直肠癌、胶质母细胞瘤、头颈癌、肾癌、肝癌、肺癌、卵巢癌、胰腺癌、前列腺癌、皮肤黑色素瘤等"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "api"],
-    "granularity": [
-      "patient-level",
-      "sample-level",
-      "gene-level",
-      "variant-level",
-      "molecular-level"
-    ],
-    "formats": ["BAM", "VCF", "TSV", "JSON", "XML", "MAF", "FASTQ", "BCR-XML"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 3,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "NIH Genomic Data Sharing Policy",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Controlled-access data requires dbGaP authorization",
-      "Research use only for controlled-access data",
-      "No attempt to identify individual participants",
-      "Compliance with NIH Genomic Data Sharing Policy"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "GDC Data Dictionary",
-      "BAM format specification",
-      "VCF format specification",
-      "MAF format specification",
-      "TCGA data standards"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Cancer genomics research",
-      "Biomarker discovery",
-      "Treatment response prediction",
-      "Drug target identification",
-      "Precision oncology",
-      "Computational biology method development",
-      "Multi-omics integration studies",
-      "Cancer subtype classification"
-    ],
-    "example_studies": [
-      "Pan-Cancer Atlas (2018)",
-      "TCGA marker papers published in Nature, Cell, and other top-tier journals",
-      "Over 2,000 publications using TCGA data"
-    ],
-    "code_examples": [
-      "https://bioconductor.org/packages/GenomicDataCommons/",
-      "https://github.com/Bioconductor/GenomicDataCommons"
-    ]
-  },
-  "related_sources": [
-    "gdc-data-portal",
-    "cbioportal",
-    "dbgap",
-    "icgc"
-  ],
-  "contact": {
-    "email": "ncisccggenomics@mail.nih.gov",
-    "support_url": "https://gdc.cancer.gov/support"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "cancer",
-    "genomics",
-    "oncology",
-    "precision-medicine",
-    "multi-omics",
-    "sequencing",
-    "mutations",
-    "gene-expression",
-    "NIH",
-    "NCI",
-    "USA",
-    "bioinformatics",
-    "research",
-    "public-data"
-  ]
+  "authority_level": "government"
 }

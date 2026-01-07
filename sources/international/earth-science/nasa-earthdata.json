@@ -4,56 +4,37 @@
     "en": "NASA Earthdata",
     "zh": "NASA地球数据"
   },
-  "organization": {
-    "name": "NASA Earth Science Data Systems (ESDS) Program",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.earthdata.nasa.gov"
-  },
   "description": {
     "en": "NASA's Earth Science Data Systems (ESDS) Program provides open access to NASA's archive of Earth science data, empowering researchers and decision makers to better understand and protect our home planet. The archive contains over 128 petabytes of Earth observation data covering atmosphere, biosphere, climate indicators, cryosphere, human dimensions, land surface, ocean, solid earth, sun-earth interactions, and terrestrial hydrosphere.",
     "zh": "NASA地球科学数据系统(ESDS)计划提供对NASA地球科学数据存档的开放访问,使研究人员和决策者能够更好地了解和保护我们的地球。该存档包含超过128 PB的地球观测数据,涵盖大气、生物圈、气候指标、冰冻圈、人类维度、陆地表面、海洋、固体地球、日地相互作用和陆地水圈。"
   },
-  "access": {
-    "primary_url": "https://www.earthdata.nasa.gov",
-    "api": {
-      "available": true,
-      "documentation": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["HDF-4", "HDF-5", "netCDF", "GeoTIFF", "CSV", "JSON"]
-    },
-    "access_level": "open",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "coordinates": {
-        "latitude": [-90, 90],
-        "longitude": [-180, 180]
-      },
-      "regions": ["Global"]
-    },
-    "temporal": {
-      "start_year": 1960,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "earth-science",
-      "atmosphere",
-      "climate",
-      "environment",
-      "ocean",
-      "land-surface",
-      "cryosphere",
-      "biosphere"
-    ],
-    "indicators": 11412
-  },
+  "website": "https://www.earthdata.nasa.gov",
+  "data_url": "https://www.earthdata.nasa.gov",
+  "api_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
+  "country": null,
+  "domains": [
+    "earth-science",
+    "atmosphere",
+    "climate",
+    "environment",
+    "ocean",
+    "land-surface",
+    "cryosphere",
+    "biosphere"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "nasa",
+    "earth-science",
+    "satellite-data",
+    "remote-sensing",
+    "climate",
+    "environment",
+    "open-data",
+    "api",
+    "geospatial"
+  ],
   "data_content": {
     "en": [
       "Atmosphere - Aerosols, clouds, precipitation, atmospheric composition",
@@ -80,96 +61,5 @@
       "陆地水圈 - 河流、湖泊、地下水、湿地、洪水"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "image",
-      "time-series",
-      "geospatial"
-    ],
-    "granularity": [
-      "global",
-      "regional",
-      "pixel-level"
-    ],
-    "formats": [
-      "HDF-4",
-      "HDF-5",
-      "netCDF",
-      "GeoTIFF",
-      "CSV",
-      "JSON",
-      "SDMX"
-    ],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Data (NASA SPD-41a)",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": [
-      "ISO 19115",
-      "FGDC",
-      "Dublin Core"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Climate change research",
-      "Weather forecasting",
-      "Environmental monitoring",
-      "Natural disaster assessment",
-      "Agricultural planning",
-      "Water resource management",
-      "Ecosystem studies",
-      "Urban planning"
-    ],
-    "example_studies": [
-      "Global temperature trends analysis",
-      "Arctic sea ice decline studies",
-      "Deforestation monitoring",
-      "Drought and flood assessment"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "esa-earth-observation",
-    "noaa-climate-data",
-    "copernicus-data"
-  ],
-  "contact": {
-    "support_url": "https://www.earthdata.nasa.gov/contact",
-    "forum": "https://forum.earthdata.nasa.gov"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "nasa",
-    "earth-science",
-    "satellite-data",
-    "remote-sensing",
-    "climate",
-    "environment",
-    "open-data",
-    "api",
-    "geospatial"
-  ]
+  "authority_level": "government"
 }

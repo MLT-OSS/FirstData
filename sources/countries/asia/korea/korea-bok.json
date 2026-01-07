@@ -5,57 +5,44 @@
     "zh": "韩国银行",
     "native": "한국은행"
   },
-  "organization": {
-    "name": "Bank of Korea",
-    "type": "national_government",
-    "country": "KR",
-    "website": "https://www.bok.or.kr"
-  },
   "description": {
     "en": "The Bank of Korea is South Korea's central bank, responsible for monetary policy and financial stability. It provides comprehensive economic and financial statistics through the Economic Statistics System (ECOS), including monetary aggregates, interest rates, balance of payments, national accounts, price indices, and business/consumer surveys. The BOK publishes regular economic reports and maintains extensive time-series data essential for economic policy analysis.",
     "zh": "韩国银行是韩国中央银行，负责货币政策和金融稳定。通过经济统计系统（ECOS）提供全面的经济金融统计数据，包括货币总量、利率、国际收支、国民账户、价格指数以及企业和消费者调查。韩国银行定期发布经济报告，并维护对经济政策分析至关重要的广泛时间序列数据。"
   },
-  "access": {
-    "primary_url": "https://www.bok.or.kr/eng/main/main.do",
-    "api": {
-      "available": true,
-      "documentation": "https://ecos.bok.or.kr",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "CSV"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["South Korea"]
-    },
-    "temporal": {
-      "start_year": 1950,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "monetary_policy",
-      "financial_statistics",
-      "national_accounts",
-      "balance_of_payments",
-      "price_indices",
-      "interest_rates",
-      "exchange_rates",
-      "business_surveys",
-      "consumer_surveys",
-      "flow_of_funds",
-      "banking_statistics"
-    ],
-    "indicators": 1000
-  },
+  "website": "https://www.bok.or.kr",
+  "data_url": "https://www.bok.or.kr/eng/main/main.do",
+  "api_url": "https://ecos.bok.or.kr",
+  "country": "KR",
+  "domains": [
+    "monetary_policy",
+    "financial_statistics",
+    "national_accounts",
+    "balance_of_payments",
+    "price_indices",
+    "interest_rates",
+    "exchange_rates",
+    "business_surveys",
+    "consumer_surveys",
+    "flow_of_funds",
+    "banking_statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "south-korea",
+    "korea",
+    "central-bank",
+    "monetary-policy",
+    "financial-statistics",
+    "national-accounts",
+    "balance-of-payments",
+    "price-indices",
+    "business-surveys",
+    "ecos",
+    "imf-sdds",
+    "open-data",
+    "bilingual"
+  ],
   "data_content": {
     "en": [
       "Monetary and Liquidity Aggregates - M1, M2, Lf (monthly)",
@@ -94,82 +81,5 @@
       "地区经济统计和指标"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["daily", "monthly", "quarterly", "annual"],
-    "formats": ["Excel", "CSV", "PDF"],
-    "languages": ["en", "ko"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Bank of Korea Terms of Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["IMF SDDS", "SNA 2008", "BPM6", "ISO 3166", "ISO 639-1"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Monetary policy research and analysis",
-      "Korean economic forecasting and modeling",
-      "Balance of payments and exchange rate analysis",
-      "Inflation analysis and price trend monitoring",
-      "Business cycle analysis using survey indices",
-      "Financial stability assessment and research",
-      "International investment position analysis",
-      "Academic research on Korean economy",
-      "Corporate financial analysis and benchmarking"
-    ],
-    "example_studies": [
-      "Central bank monetary policy effectiveness",
-      "Korean economic growth determinants",
-      "Consumer and business sentiment as economic indicators",
-      "Regional economic development analysis"
-    ]
-  },
-  "related_sources": [
-    "korea-kostat",
-    "japan-boj",
-    "china-pbc",
-    "intl-bis",
-    "intl-imf"
-  ],
-  "contact": {
-    "email": "webmaster@bok.or.kr",
-    "support_url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400246"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "south-korea",
-    "korea",
-    "central-bank",
-    "monetary-policy",
-    "financial-statistics",
-    "national-accounts",
-    "balance-of-payments",
-    "price-indices",
-    "business-surveys",
-    "ecos",
-    "imf-sdds",
-    "open-data",
-    "bilingual"
-  ]
+  "authority_level": "government"
 }

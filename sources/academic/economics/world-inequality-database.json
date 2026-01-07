@@ -4,44 +4,33 @@
     "en": "World Inequality Database (WID.world)",
     "zh": "世界不平等数据库"
   },
-  "organization": {
-    "name": "World Inequality Lab",
-    "type": "research_institution",
-    "country": null,
-    "website": "https://wid.world/"
-  },
   "description": {
     "en": "The World Inequality Database (WID.world) is the most extensive public database on global inequality. It provides open access data on income and wealth inequality based on the systematic combination of national accounts, survey and fiscal data. The database covers over 70 countries across 5 continents, with historical data extending back to the early 20th century for some countries. WID.world is maintained by more than 100 researchers worldwide and is the primary source of data for the World Inequality Report.",
     "zh": "世界不平等数据库(WID.world)是全球最广泛的公共不平等数据库。它基于国民账户、调查和财政数据的系统性结合,提供收入和财富不平等的开放访问数据。该数据库覆盖5大洲70多个国家,部分国家的历史数据可追溯至20世纪初。WID.world由全球100多位研究人员维护,是世界不平等报告的主要数据来源。"
   },
-  "access": {
-    "primary_url": "https://wid.world/",
-    "api": {
-      "available": true,
-      "documentation": "https://wid.world/data/",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "Stata"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 70,
-      "regions": ["Africa", "Asia", "Europe", "North America", "South America"]
-    },
-    "temporal": {
-      "start_year": 1900,
-      "end_year": 2024,
-      "update_frequency": "annual"
-    },
-    "domains": ["economics", "inequality", "social"],
-    "indicators": 100
-  },
+  "website": "https://wid.world/",
+  "data_url": "https://wid.world/",
+  "api_url": "https://wid.world/data/",
+  "country": null,
+  "domains": [
+    "economics",
+    "inequality",
+    "social"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "inequality",
+    "income-distribution",
+    "wealth-distribution",
+    "top-incomes",
+    "poverty",
+    "gender-inequality",
+    "distributional-accounts",
+    "gini-coefficient",
+    "academic-research",
+    "open-data"
+  ],
   "data_content": {
     "en": [
       "Income inequality - pre-tax and post-tax income distribution",
@@ -68,81 +57,5 @@
       "追溯至1900年的历史不平等序列"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "panel"],
-    "granularity": ["country-level", "individual-level"],
-    "formats": ["CSV", "Excel", "Stata"],
-    "languages": ["en", "fr", "es", "zh"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC BY 4.0",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": [],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Income and wealth inequality research",
-      "Distributional national accounts studies",
-      "Top income shares analysis",
-      "Historical inequality trends",
-      "Policy analysis on redistribution",
-      "Gender inequality research",
-      "Poverty and inequality comparisons",
-      "World Inequality Report production"
-    ],
-    "example_studies": [
-      "World Inequality Report 2026",
-      "Top income shares evolution",
-      "Wealth concentration studies",
-      "Cross-country inequality comparisons"
-    ],
-    "code_examples": [
-      "https://github.com/WIDworld/wid-r-tool",
-      "https://wid.world/data/"
-    ]
-  },
-  "related_sources": [
-    "worldbank-open-data",
-    "oecd-statistics",
-    "luxembourg-income-study"
-  ],
-  "contact": {
-    "email": "contact@wid.world",
-    "support_url": "https://wid.world/contact-us/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active",
-    "notes": "Primary source for World Inequality Report. Combines national accounts, survey, and fiscal data with transparent methodology. Stata package available for direct data access."
-  },
-  "tags": [
-    "inequality",
-    "income-distribution",
-    "wealth-distribution",
-    "top-incomes",
-    "poverty",
-    "gender-inequality",
-    "distributional-accounts",
-    "gini-coefficient",
-    "academic-research",
-    "open-data"
-  ]
+  "authority_level": "research"
 }

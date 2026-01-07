@@ -4,58 +4,41 @@
     "en": "PISA - Programme for International Student Assessment",
     "zh": "国际学生评估项目"
   },
-  "organization": {
-    "name": "Organisation for Economic Co-operation and Development (OECD)",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.oecd.org"
-  },
   "description": {
     "en": "PISA is the OECD's Programme for International Student Assessment. PISA measures 15-year-olds' ability to use their reading, mathematics and science knowledge and skills to meet real-life challenges. Since 2000, PISA has involved more than 100 countries and economies and around 3.7 million students worldwide. The assessment is conducted every three years and provides comparative data on education systems globally.",
     "zh": "PISA 是经合组织（OECD）的国际学生评估项目。PISA 测量15岁学生运用阅读、数学和科学知识与技能应对现实挑战的能力。自2000年以来，PISA已涉及100多个国家和经济体，约370万名学生参与。该评估每三年进行一次，提供全球教育系统的比较数据。"
   },
-  "access": {
-    "primary_url": "https://www.oecd.org/en/about/programmes/pisa.html",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["SAS", "SPSS", "CSV", "Excel"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 100,
-      "regions": [
-        "Global",
-        "OECD Member Countries",
-        "Partner Countries and Economies"
-      ]
-    },
-    "temporal": {
-      "start_year": 2000,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Education",
-      "Student Assessment",
-      "Reading Literacy",
-      "Mathematical Literacy",
-      "Scientific Literacy",
-      "Financial Literacy",
-      "Creative Thinking",
-      "Global Competence"
-    ],
-    "indicators": 500
-  },
+  "website": "https://www.oecd.org",
+  "data_url": "https://www.oecd.org/en/about/programmes/pisa.html",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Education",
+    "Student Assessment",
+    "Reading Literacy",
+    "Mathematical Literacy",
+    "Scientific Literacy",
+    "Financial Literacy",
+    "Creative Thinking",
+    "Global Competence"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "education",
+    "student-assessment",
+    "reading",
+    "mathematics",
+    "science",
+    "literacy",
+    "oecd",
+    "pisa",
+    "comparative-education",
+    "education-policy",
+    "student-performance",
+    "global",
+    "international-comparison"
+  ],
   "data_content": {
     "en": [
       "Student Performance - Reading, mathematics, and science achievement scores",
@@ -90,104 +73,5 @@
       "问题解决技能 - 协作和个人问题解决"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "cross-sectional",
-      "panel"
-    ],
-    "granularity": [
-      "country-level",
-      "school-level",
-      "student-level",
-      "triennial"
-    ],
-    "formats": [
-      "SAS",
-      "SPSS",
-      "CSV",
-      "Excel"
-    ],
-    "languages": [
-      "en",
-      "fr"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "OECD Terms and Conditions",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite source as: OECD (Year), PISA [Year] Database",
-      "Data should not be modified without proper documentation"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "OECD Statistical Standards",
-      "ISO 3166",
-      "International Standard Classification of Education (ISCED)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "International education system comparison",
-      "Education policy evaluation",
-      "Student achievement analysis",
-      "Equity in education research",
-      "Teacher effectiveness studies",
-      "School improvement initiatives",
-      "Curriculum development",
-      "Educational resource allocation",
-      "21st century skills assessment"
-    ],
-    "example_studies": [
-      "PISA Results Reports (Volumes I-V)",
-      "PISA in Focus series",
-      "PISA Technical Reports",
-      "Education Policy Outlook"
-    ]
-  },
-  "related_sources": [
-    "intl-oecd",
-    "timss",
-    "pirls"
-  ],
-  "contact": {
-    "email": "pisa@oecd.org",
-    "support_url": "https://www.oecd.org/en/about/programmes/pisa/pisa-frequently-asked-questions-faqs.html"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-10",
-    "last_updated": "2025-12-10",
-    "verified_date": "2025-12-10",
-    "contributor": "Claude",
-    "status": "active"
-  },
-  "tags": [
-    "education",
-    "student-assessment",
-    "reading",
-    "mathematics",
-    "science",
-    "literacy",
-    "oecd",
-    "pisa",
-    "comparative-education",
-    "education-policy",
-    "student-performance",
-    "global",
-    "international-comparison"
-  ]
+  "authority_level": "international"
 }

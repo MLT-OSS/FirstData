@@ -1,6 +1,6 @@
 ---
 name: datasource-scraper
-description: Extract or update datasource information from websites and convert to DataSource Hub JSON format. Supports upsert semantics - automatically creates new entries or updates existing ones. Use when the user provides a data source URL or name (e.g., "GenBank", "World Bank", "人民银行"). Outputs a validated JSON file following datasource-schema.json standard with quality assessment.
+description: Extract or update datasource information from websites and convert to DataSource Hub JSON format. Supports upsert semantics - automatically creates new entries or updates existing ones. Use when the user provides a data source URL or name (e.g., "GenBank", "World Bank", "人民银行"). Outputs a validated JSON file following datasource-schema.json standard with authority level determination.
 ---
 
 # 数据源抓取器
@@ -24,7 +24,7 @@ description: Extract or update datasource information from websites and convert 
 
 1. ✅ 获取网站内容
 2. ✅ 信息提取
-3. ✅ 质量评估
+3. ✅ 确定权威等级
 4. ✅ 生成JSON
 5. ✅ Upsert操作（检测并创建/更新）
 6. ✅ **验证（三项必须全部执行）**
@@ -94,14 +94,12 @@ description: Extract or update datasource information from websites and convert 
 从网页提取以下信息填充 JSON：
 
 **核心字段**：
-- **基础信息**: id, name (多语言), organization, description
-- **访问信息**: primary_url, API, download options, access_level
-- **覆盖范围**: geographic, temporal, domains, indicators
-- **数据内容**: 分类列表（中英双语）
-- **数据特征**: types, granularity, formats, languages
-- **质量评估**: 6 个维度评分
-- **许可协议**: license, commercial_use, restrictions
-- **其他**: metadata standards, usage, contact, tags
+- **基础信息**: id, name (多语言), description
+- **访问信息**: website, data_url, api_url (如有)
+- **权威等级**: authority_level (government/international/research/market/commercial/other)
+- **覆盖范围**: geographic_scope, country, domains, update_frequency
+- **数据内容**: data_content 列表（中英双语）
+- **搜索标签**: tags (中英文关键词、同义词)
 
 **详细字段说明**: 见 [datasource-schema.json](reference/datasource-schema.json)
 
@@ -117,22 +115,24 @@ description: Extract or update datasource information from websites and convert 
 - `sources/international/economics/worldbank.json` - 世界银行
 ---
 
-### 3. 质量评估
+### 3. 确定权威等级
 
-按 1-5 星评分以下 6 个维度：
-- `authority_level` - 来源权威性
-- `methodology_transparency` - 方法论透明度
-- `update_timeliness` - 更新及时性
-- `data_completeness` - 数据完整性
-- `documentation_quality` - 文档质量
-- `citation_count` - 引用频次
+根据数据源的组织类型确定 `authority_level` 字段值：
 
-**评分标准**: 见 [quality-criteria.md](reference/quality-criteria.md)
+**可选值**：
+- `government` - 政府机构（国家统计局、央行、监管机构等）
+- `international` - 国际组织（联合国、世界银行、OECD等）
+- `research` - 研究机构（大学、科研院所、学术联盟等）
+- `market` - 市场机构（交易所、行业协会、评级机构等）
+- `commercial` - 商业机构（数据服务商、咨询公司等）
+- `other` - 其他类型
 
-**评分原则**:
-- 保守评估，有依据
-- 只有真正顶级官方来源才给 5 星
-- 生成时说明评分理由
+**判断原则**:
+- 根据组织的官方性质和定位选择
+- 政府和国际组织具有最高权威性
+- 学术研究机构注重方法论严谨性
+- 市场和商业机构提供行业专业数据
+- 说明选择该等级的依据
 
 ---
 
@@ -335,7 +335,7 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 
 **注意**: 仅在一级目录下维护 README 文件，子目录不需要 README。
 
-添加数据源条目，包含：数据源名称、ID、权威性评分、数据格式、访问类型、相对路径链接。
+添加数据源条目，包含：数据源名称、ID、权威等级、数据格式、访问类型、相对路径链接。
 
 #### 8.2 更新任务清单
 
@@ -362,7 +362,6 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 **更新原则**：
 - 所有统计数字必须同步更新，保持一致性
 - 进度百分比四舍五入到整数
-- 平均质量 = 所有数据源质量评分的平均值
 
 **详细更新指南**: 见 [documentation-update.md](reference/documentation-update.md)
 
@@ -385,7 +384,7 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 #### ✅ 质量检查（必须符合标准）
 - [ ] 必需字段完整
 - [ ] 双语内容完整（中国/国际数据源）
-- [ ] 评分有据
+- [ ] 权威等级准确（根据组织性质确定）
 - [ ] 分类正确
 
 #### ⭕ 索引生成（可选）
@@ -415,9 +414,8 @@ git commit -m "feat: 添加{数据源名称}数据源 ({datasource-id})
 
 📊 数据源信息：
 - 类别: {category}
-- 质量: {score}/5.0
-
-🤖 Generated with Claude Code"
+- 权威等级: {authority_level}
+"
 
 # 更新：
 git commit -m "update: 更新{数据源名称}数据源 ({datasource-id})"
@@ -452,7 +450,7 @@ git push
 
 1. **准确性优先**: 必须实际访问网站提取信息，不编造数据
 2. **URL 可访问**: 所有 URL 必须是真实可访问的地址
-3. **质量有据**: 评分基于实际观察，不是猜测
+3. **权威等级准确**: 根据组织实际性质确定 authority_level，有依据
 4. **谨慎处理**: 不确定的信息标记为 null 或向用户询问
 
 ---

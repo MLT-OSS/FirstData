@@ -4,59 +4,53 @@
     "en": "Derwent Innovation Index",
     "zh": "德温特创新索引"
   },
-  "organization": {
-    "name": "Clarivate Analytics",
-    "type": "commercial",
-    "country": "GB",
-    "website": "https://clarivate.com"
-  },
   "description": {
     "en": "Derwent Innovation Index is a comprehensive patent database provided by Clarivate Analytics, offering access to over 100 million patent documents from over 40 patent-issuing authorities worldwide. The database integrates Derwent World Patents Index (DWPI) enhanced patent data with patent citations from the Web of Science platform. It features value-added content including expert patent indexing, standardized patent families, chemical structure search capabilities, and enhanced English-language abstracts. Derwent Innovation Index is widely used for competitive intelligence, technology landscape analysis, patent analytics, prior art searching, freedom-to-operate analysis, and R&D decision-making across industries including pharmaceuticals, biotechnology, chemicals, electronics, engineering, and more.",
     "zh": "德温特创新索引是科睿唯安（Clarivate Analytics）提供的综合性专利数据库，收录了来自全球40多个专利授权机构的超过1亿份专利文献。该数据库整合了德温特世界专利索引（DWPI）增强的专利数据与来自Web of Science平台的专利引用信息。其特色包括专家专利索引、标准化专利家族、化学结构检索功能和增强的英文摘要。德温特创新索引广泛用于竞争情报、技术景观分析、专利分析、现有技术检索、自由实施分析以及制药、生物技术、化学、电子、工程等行业的研发决策。"
   },
-  "access": {
-    "primary_url": "https://clarivate.com/products/derwent-innovation/",
-    "api": {
-      "available": true,
-      "documentation": "https://developer.clarivate.com/apis",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDF", "Excel", "CSV", "XML", "RIS", "EndNote"]
-    },
-    "access_level": "commercial",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 40
-    },
-    "temporal": {
-      "start_year": 1963,
-      "end_year": 2025,
-      "update_frequency": "weekly"
-    },
-    "domains": [
-      "Patents",
-      "Innovation",
-      "Intellectual Property",
-      "Pharmaceuticals",
-      "Biotechnology",
-      "Chemistry",
-      "Electronics",
-      "Engineering",
-      "Telecommunications",
-      "Materials Science",
-      "Medical Technology",
-      "Mechanical Engineering",
-      "Computer Science",
-      "Aerospace",
-      "Automotive"
-    ],
-    "indicators": 100000000
-  },
+  "website": "https://clarivate.com",
+  "data_url": "https://clarivate.com/products/derwent-innovation/",
+  "api_url": "https://developer.clarivate.com/apis",
+  "country": null,
+  "domains": [
+    "Patents",
+    "Innovation",
+    "Intellectual Property",
+    "Pharmaceuticals",
+    "Biotechnology",
+    "Chemistry",
+    "Electronics",
+    "Engineering",
+    "Telecommunications",
+    "Materials Science",
+    "Medical Technology",
+    "Mechanical Engineering",
+    "Computer Science",
+    "Aerospace",
+    "Automotive"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "weekly",
+  "tags": [
+    "patents",
+    "intellectual-property",
+    "innovation",
+    "technology",
+    "competitive-intelligence",
+    "patent-analytics",
+    "prior-art",
+    "freedom-to-operate",
+    "patent-families",
+    "citations",
+    "chemical-structures",
+    "dwpi",
+    "technology-landscape",
+    "r-and-d",
+    "patent-classification",
+    "commercial-database",
+    "global-coverage",
+    "clarivate"
+  ],
   "data_content": {
     "en": [
       "Patent Documents - Over 100 million patent documents from 40+ patent authorities worldwide",
@@ -87,107 +81,5 @@
       "专利分析 - 内置分析工具用于趋势分析和竞争情报"
     ]
   },
-  "data_characteristics": {
-    "types": ["text", "cross-sectional", "time-series"],
-    "granularity": ["patent-level", "family-level", "inventor-level", "company-level", "technology-level"],
-    "formats": ["PDF", "Excel", "CSV", "XML", "RIS", "EndNote", "JSON"],
-    "languages": ["en", "zh", "ja", "de", "fr", "es", "ko"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Clarivate Commercial License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Requires institutional or commercial subscription",
-      "Access restricted to authorized users only",
-      "Data cannot be redistributed without permission",
-      "Usage subject to Clarivate terms and conditions",
-      "Different license tiers available (academic, corporate, government)",
-      "API access requires separate licensing agreement"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "WIPO ST.3 (Country Codes)",
-      "WIPO ST.9 (Bibliographic Data)",
-      "IPC (International Patent Classification)",
-      "CPC (Cooperative Patent Classification)",
-      "ISO 3166 (Country Codes)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Competitive intelligence and technology scouting",
-      "Patent landscape analysis and mapping",
-      "Prior art searching for patent prosecution",
-      "Freedom-to-operate (FTO) analysis",
-      "R&D strategy and investment decisions",
-      "Patent portfolio management and analytics",
-      "Technology trend analysis and forecasting",
-      "Innovation metrics and benchmarking",
-      "Merger and acquisition due diligence",
-      "Licensing opportunity identification",
-      "Patent valuation and monetization",
-      "Academic research on innovation and IP",
-      "Patent citation analysis",
-      "Inventor and company profiling"
-    ],
-    "example_studies": [
-      "Technology landscape analysis in AI and machine learning patents",
-      "Competitive patent positioning in pharmaceutical industry",
-      "Patent family analysis for global IP protection strategy",
-      "Citation network analysis for identifying key technologies",
-      "Chemical structure search for drug discovery FTO analysis",
-      "Patent trend analysis in renewable energy technologies",
-      "Cross-industry innovation transfer studies",
-      "Patent quality assessment using citation metrics"
-    ]
-  },
-  "related_sources": [
-    "web-of-science",
-    "uspto-patentsview",
-    "epo-patstat",
-    "google-patents"
-  ],
-  "contact": {
-    "support_url": "https://support.clarivate.com"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-12",
-    "last_updated": "2025-12-12",
-    "verified_date": "2025-12-12",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "patents",
-    "intellectual-property",
-    "innovation",
-    "technology",
-    "competitive-intelligence",
-    "patent-analytics",
-    "prior-art",
-    "freedom-to-operate",
-    "patent-families",
-    "citations",
-    "chemical-structures",
-    "dwpi",
-    "technology-landscape",
-    "r-and-d",
-    "patent-classification",
-    "commercial-database",
-    "global-coverage",
-    "clarivate"
-  ]
+  "authority_level": "commercial"
 }

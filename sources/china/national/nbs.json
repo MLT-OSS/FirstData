@@ -5,52 +5,34 @@
     "zh": "国家统计局",
     "native": "国家统计局"
   },
-  "organization": {
-    "name": "National Bureau of Statistics of China",
-    "type": "national_government",
-    "country": "CN",
-    "website": "http://www.stats.gov.cn"
-  },
   "description": {
     "en": "The National Bureau of Statistics (NBS) is the principal government agency responsible for collecting, processing, and publishing statistical data in China. It provides comprehensive economic, demographic, and social statistics covering national accounts, population census, industrial production, investment, consumption, employment, prices, and regional development.",
     "zh": "国家统计局是中国政府负责收集、处理和发布统计数据的主要机构。提供包括国民经济核算、人口普查、工业生产、投资、消费、就业、价格和区域发展等全面的经济、人口和社会统计数据。"
   },
-  "access": {
-    "primary_url": "https://www.stats.gov.cn/sj/",
-    "api": {
-      "available": true,
-      "documentation": "http://data.stats.gov.cn/api.htm",
-      "version": "v1",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "CSV", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["China", "Provincial", "Municipal"]
-    },
-    "temporal": {
-      "start_year": 1949,
-      "end_year": 2024,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "economics",
-      "social",
-      "demographics",
-      "industry",
-      "agriculture",
-      "services"
-    ],
-    "indicators": 5000
-  },
+  "website": "http://www.stats.gov.cn",
+  "data_url": "https://www.stats.gov.cn/sj/",
+  "api_url": "http://data.stats.gov.cn/api.htm",
+  "country": "CN",
+  "domains": [
+    "economics",
+    "social",
+    "demographics",
+    "industry",
+    "agriculture",
+    "services"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "statistics",
+    "national-accounts",
+    "gdp",
+    "population",
+    "census",
+    "official",
+    "government"
+  ],
   "data_content": {
     "en": [
       "National Accounts - GDP, GNI, national income and expenditure accounts by sector and region",
@@ -75,73 +57,5 @@
       "区域统计 - 省级和市级经济社会指标"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["national", "provincial", "municipal", "county"],
-    "formats": ["Excel", "CSV", "PDF", "HTML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Government Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["SDMX", "ISO 3166"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Macroeconomic research",
-      "Policy analysis",
-      "Business intelligence",
-      "Academic research",
-      "Investment analysis"
-    ],
-    "example_studies": [
-      "China Statistical Yearbook",
-      "China Population Census",
-      "GDP quarterly reports"
-    ],
-    "code_examples": [
-      "http://data.stats.gov.cn/english/easyquery.htm"
-    ]
-  },
-  "related_sources": [
-    "china-pbc",
-    "china-ndrc",
-    "china-mof"
-  ],
-  "contact": {
-    "email": "info@stats.gov.cn",
-    "support_url": "http://www.stats.gov.cn/fw/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-25",
-    "last_updated": "2025-01-25",
-    "verified_date": "2025-01-25",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "china",
-    "statistics",
-    "national-accounts",
-    "gdp",
-    "population",
-    "census",
-    "official",
-    "government"
-  ]
+  "authority_level": "government"
 }

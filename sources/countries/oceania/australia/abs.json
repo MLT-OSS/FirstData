@@ -4,59 +4,48 @@
     "en": "Australian Bureau of Statistics",
     "zh": "澳大利亚统计局"
   },
-  "organization": {
-    "name": "Australian Bureau of Statistics",
-    "type": "national_government",
-    "country": "AU",
-    "website": "https://www.abs.gov.au"
-  },
   "description": {
     "en": "Australia's national statistical agency providing trusted official statistics on a wide range of economic, social, population and environmental matters. The ABS conducts the Census of Population and Housing every five years and provides comprehensive data through surveys, administrative data integration, and innovative satellite-based measurement methods.",
     "zh": "澳大利亚国家统计局,提供涵盖经济、社会、人口和环境事务的可信官方统计数据。ABS每五年进行一次人口和住房普查,并通过调查、行政数据整合和创新的卫星测量方法提供全面的数据。"
   },
-  "access": {
-    "primary_url": "https://www.abs.gov.au",
-    "api": {
-      "available": true,
-      "documentation": "https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis/data-api-user-guide",
-      "authentication": false,
-      "version": "SDMX 2.1"
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "JSON", "XML"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["AU"],
-      "regions": ["Australia", "States and Territories", "Local Government Areas", "Statistical Areas"]
-    },
-    "temporal": {
-      "start_year": 1905,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "demographics",
-      "economics",
-      "health",
-      "environment",
-      "population",
-      "housing",
-      "employment",
-      "business",
-      "trade",
-      "agriculture",
-      "education",
-      "innovation",
-      "government-finance"
-    ],
-    "indicators": 1900
-  },
+  "website": "https://www.abs.gov.au",
+  "data_url": "https://www.abs.gov.au",
+  "api_url": "https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis/data-api-user-guide",
+  "country": "AU",
+  "domains": [
+    "demographics",
+    "economics",
+    "health",
+    "environment",
+    "population",
+    "housing",
+    "employment",
+    "business",
+    "trade",
+    "agriculture",
+    "education",
+    "innovation",
+    "government-finance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "australia",
+    "national-statistics",
+    "census",
+    "demographics",
+    "economic-indicators",
+    "population-data",
+    "labour-statistics",
+    "health-statistics",
+    "agricultural-data",
+    "environmental-data",
+    "open-data",
+    "api-available",
+    "creative-commons",
+    "government-data",
+    "oceania"
+  ],
   "data_content": {
     "en": [
       "Census of Population and Housing - comprehensive population count every 5 years",
@@ -91,83 +80,5 @@
       "区域和地理数据及边界文件"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel", "geospatial"],
-    "granularity": ["national", "state-territory", "local-government", "statistical-area", "individual-level"],
-    "formats": ["CSV", "Excel", "JSON", "XML", "API"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["SDMX 2.1", "Privacy Act 1988", "Census and Statistics Act 1905"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Population and demographic research",
-      "Economic policy analysis and forecasting",
-      "Business planning and market analysis",
-      "Academic research across social sciences",
-      "Government policy development",
-      "Regional and urban planning",
-      "Health and welfare planning",
-      "Agricultural resource management"
-    ],
-    "example_studies": [
-      "Population growth and demographic shifts",
-      "Economic performance and productivity analysis",
-      "Labour market trends and employment patterns",
-      "Agricultural water use and sustainability",
-      "Social wellbeing and inequality studies"
-    ]
-  },
-  "related_sources": [
-    "usa-census-bureau",
-    "canada-statcan",
-    "uk-ons",
-    "nz-stats"
-  ],
-  "contact": {
-    "email": "client.services@abs.gov.au",
-    "support_url": "https://www.abs.gov.au/about/contact-us"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub - Batch Processing",
-    "status": "active"
-  },
-  "tags": [
-    "australia",
-    "national-statistics",
-    "census",
-    "demographics",
-    "economic-indicators",
-    "population-data",
-    "labour-statistics",
-    "health-statistics",
-    "agricultural-data",
-    "environmental-data",
-    "open-data",
-    "api-available",
-    "creative-commons",
-    "government-data",
-    "oceania"
-  ]
+  "authority_level": "government"
 }

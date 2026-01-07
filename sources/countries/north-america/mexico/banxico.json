@@ -5,56 +5,43 @@
     "zh": "墨西哥银行经济信息系统",
     "native": "Sistema de Información Económica - Banco de México"
   },
-  "organization": {
-    "name": "Banco de México (Bank of Mexico)",
-    "type": "national_government",
-    "country": "MX",
-    "website": "https://www.banxico.org.mx"
-  },
   "description": {
     "en": "The Bank of Mexico (Banco de México, Banxico) is Mexico's central bank, responsible for monetary policy, financial stability, and maintaining low and stable inflation. The Economic Information System (SIE) provides comprehensive economic and financial statistics covering monetary policy, exchange rates, interest rates, inflation, banking, payment systems, balance of payments, and economic indicators.",
     "zh": "墨西哥银行（Banco de México，简称Banxico）是墨西哥的中央银行，负责货币政策、金融稳定以及维持低而稳定的通货膨胀。经济信息系统（SIE）提供全面的经济和金融统计数据，涵盖货币政策、汇率、利率、通胀、银行业、支付系统、国际收支和经济指标。"
   },
-  "access": {
-    "primary_url": "https://www.banxico.org.mx",
-    "api": {
-      "available": true,
-      "documentation": "https://www.banxico.org.mx/SieAPIRest/service/v1/",
-      "version": "1.5.1",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["JSON", "XML", "JSONP", "Excel", "CSV"]
-    },
-    "access_level": "open",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["MX"],
-      "regions": ["Mexican states"]
-    },
-    "temporal": {
-      "start_year": 1960,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "monetary_policy",
-      "financial_markets",
-      "banking",
-      "payment_systems",
-      "exchange_rates",
-      "inflation",
-      "balance_of_payments",
-      "public_finance",
-      "production",
-      "labor_market"
-    ],
-    "indicators": 700
-  },
+  "website": "https://www.banxico.org.mx",
+  "data_url": "https://www.banxico.org.mx",
+  "api_url": "https://www.banxico.org.mx/SieAPIRest/service/v1/",
+  "country": "MX",
+  "domains": [
+    "monetary_policy",
+    "financial_markets",
+    "banking",
+    "payment_systems",
+    "exchange_rates",
+    "inflation",
+    "balance_of_payments",
+    "public_finance",
+    "production",
+    "labor_market"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "central_bank",
+    "monetary_policy",
+    "exchange_rates",
+    "interest_rates",
+    "inflation",
+    "financial_statistics",
+    "banking",
+    "payment_systems",
+    "balance_of_payments",
+    "Mexico",
+    "Latin_America",
+    "time_series",
+    "API"
+  ],
   "data_content": {
     "en": [
       "Monetary Policy: Target interest rate, interbank equilibrium interest rate (TIIE), money market rates",
@@ -91,80 +78,5 @@
       "墨西哥石油基金：Banxico作为受托人管理的基金统计"
     ]
   },
-  "data_characteristics": {
-    "types": ["time-series", "cross-sectional", "panel", "statistical"],
-    "granularity": ["national", "regional", "sectoral", "institutional", "daily", "monthly", "quarterly", "annual"],
-    "formats": ["JSON", "XML", "JSONP", "Excel", "CSV"],
-    "languages": ["es", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Public Domain - Terms of Use Apply",
-    "commercial_use": true,
-    "attribution_required": false,
-    "restrictions": [
-      "API usage has rate limits",
-      "TLS 1.3 protocol required since March 24, 2023",
-      "Token authentication required for API access"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["SDMX", "IMF SDDS"],
-    "documentation_url": "https://www.banxico.org.mx/SieAPIRest/service/v1/"
-  },
-  "contact": {
-    "email": "sie@banxico.org.mx",
-    "url": "https://transparencia.banxico.org.mx/contacto.html"
-  },
-  "related_resources": [
-    {
-      "name": "IMF eLibrary Data (CEDD)",
-      "url": "https://www.banxico.org.mx/SieInternet/",
-      "type": "related_database"
-    },
-    {
-      "name": "Interactive Portal of Financial Information (PIIF)",
-      "url": "https://www.banxico.org.mx/SieInternet/",
-      "type": "interactive_portal"
-    },
-    {
-      "name": "Banxico Blog",
-      "url": "https://blog.banxico.org.mx/blog/",
-      "type": "analysis_commentary"
-    }
-  ],
-  "tags": [
-    "central_bank",
-    "monetary_policy",
-    "exchange_rates",
-    "interest_rates",
-    "inflation",
-    "financial_statistics",
-    "banking",
-    "payment_systems",
-    "balance_of_payments",
-    "Mexico",
-    "Latin_America",
-    "time_series",
-    "API"
-  ],
-  "last_updated": "2025-12-11",
-  "notes": {
-    "en": "As Mexico's central bank, Banco de México is the authoritative source for Mexican monetary, financial, and economic statistics. The institution follows international standards (IMF SDDS, BIS, SDMX) and provides comprehensive API documentation. The SIE system contains over 700 data structures with approximately 666 distinct information structures across 19 sectors. Key indicators are updated daily including exchange rates, interest rates, inflation, and international reserves. The SIE API v1.5.1 enables automated data access with JSON, XML, and JSONP formats, requiring token-based authentication and TLS 1.3 protocol.",
-    "zh": "作为墨西哥的中央银行，墨西哥银行是墨西哥货币、金融和经济统计的权威来源。该机构遵循国际标准（IMF SDDS、BIS、SDMX）并提供全面的API文档。SIE系统包含700多个数据结构，跨19个部门约666个不同的信息结构。关键指标每日更新，包括汇率、利率、通胀和国际储备。SIE API v1.5.1支持使用JSON、XML和JSONP格式的自动化数据访问，需要基于令牌的身份验证和TLS 1.3协议。"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  }
+  "authority_level": "government"
 }

@@ -4,56 +4,42 @@
     "en": "Bureau of Economic Analysis",
     "zh": "经济分析局"
   },
-  "organization": {
-    "name": "U.S. Bureau of Economic Analysis",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.bea.gov"
-  },
   "description": {
     "en": "The Bureau of Economic Analysis (BEA) is an agency of the U.S. Department of Commerce that produces critical economic statistics including GDP, personal income, corporate profits, international trade and investment, and regional economic data. BEA's data provides a comprehensive picture of the U.S. economy and its interaction with the world economy.",
     "zh": "美国经济分析局（BEA）是美国商务部下属机构，负责编制包括GDP、个人收入、企业利润、国际贸易与投资、区域经济数据在内的关键经济统计数据。BEA的数据全面反映了美国经济及其与全球经济的互动情况。"
   },
-  "access": {
-    "primary_url": "https://www.bea.gov/data",
-    "api": {
-      "available": true,
-      "documentation": "https://apps.bea.gov/api/signup/index.cfm",
-      "version": null,
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "PDF", "JSON", "XML"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["US"],
-      "regions": ["United States", "States and Territories", "Counties", "Metropolitan Areas"]
-    },
-    "temporal": {
-      "start_year": 1929,
-      "end_year": 2025,
-      "update_frequency": "quarterly"
-    },
-    "domains": [
-      "Economics",
-      "GDP",
-      "National Accounts",
-      "International Trade",
-      "Foreign Direct Investment",
-      "Personal Income",
-      "Consumer Spending",
-      "Corporate Profits",
-      "Regional Economics",
-      "Industry Economics"
-    ],
-    "indicators": 5000
-  },
+  "website": "https://www.bea.gov",
+  "data_url": "https://www.bea.gov/data",
+  "api_url": "https://apps.bea.gov/api/signup/index.cfm",
+  "country": "US",
+  "domains": [
+    "Economics",
+    "GDP",
+    "National Accounts",
+    "International Trade",
+    "Foreign Direct Investment",
+    "Personal Income",
+    "Consumer Spending",
+    "Corporate Profits",
+    "Regional Economics",
+    "Industry Economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "economics",
+    "gdp",
+    "national-accounts",
+    "united-states",
+    "trade",
+    "investment",
+    "official-statistics",
+    "government",
+    "time-series",
+    "macroeconomics",
+    "regional-data",
+    "industry-data"
+  ],
   "data_content": {
     "en": [
       "Gross Domestic Product (GDP) - National, regional, and industry-level GDP data",
@@ -86,81 +72,5 @@
       "价格指数 - GDP平减指数和PCE价格指数"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel"],
-    "granularity": [
-      "national",
-      "state-level",
-      "county-level",
-      "metropolitan-area",
-      "annual",
-      "quarterly",
-      "monthly"
-    ],
-    "formats": ["CSV", "Excel", "JSON", "XML", "PDF"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "U.S. Government Public Domain",
-    "commercial_use": true,
-    "attribution_required": false,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": [
-      "System of National Accounts (SNA)",
-      "SDMX",
-      "ISO 3166",
-      "NAICS (North American Industry Classification System)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Economic policy analysis and forecasting",
-      "Business cycle analysis",
-      "International trade and investment research",
-      "Regional economic development planning",
-      "Industry performance analysis",
-      "Academic economic research",
-      "Financial market analysis"
-    ],
-    "code_examples": [
-      "https://github.com/us-bea"
-    ]
-  },
-  "contact": {
-    "support_url": "https://www.bea.gov/contact-us"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "economics",
-    "gdp",
-    "national-accounts",
-    "united-states",
-    "trade",
-    "investment",
-    "official-statistics",
-    "government",
-    "time-series",
-    "macroeconomics",
-    "regional-data",
-    "industry-data"
-  ]
+  "authority_level": "government"
 }

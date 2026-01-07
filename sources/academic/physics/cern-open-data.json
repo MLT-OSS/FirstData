@@ -4,51 +4,45 @@
     "en": "CERN Open Data Portal",
     "zh": "CERN 开放数据门户"
   },
-  "organization": {
-    "name": "European Organization for Nuclear Research (CERN)",
-    "type": "research_institution",
-    "country": null,
-    "website": "https://www.cern.ch"
-  },
   "description": {
     "en": "The CERN Open Data portal is the access point to a growing range of data produced through research performed at CERN. It disseminates the preserved output from various research activities, including collision data from the Large Hadron Collider (LHC) experiments. The portal provides over 5 petabytes of particle physics data from experiments including ALICE, ATLAS, CMS, DELPHI, LHCb, OPERA, PHENIX, and TOTEM, along with accompanying software, documentation, and analysis tools. Data products follow established global standards in data preservation and Open Science, with DOI identifiers for citations.",
     "zh": "CERN 开放数据门户是获取 CERN 研究活动产生的各类数据的入口。它发布来自大型强子对撞机（LHC）实验的碰撞数据等多种研究输出。该门户提供超过 5 PB 的粒子物理数据，涵盖 ALICE、ATLAS、CMS、DELPHI、LHCb、OPERA、PHENIX 和 TOTEM 等实验，并配有软件、文档和分析工具。数据产品遵循全球数据保存和开放科学标准，带有 DOI 标识符以便引用。"
   },
-  "access": {
-    "primary_url": "https://opendata.cern.ch/",
-    "api": {
-      "available": true,
-      "documentation": "https://github.com/cernopendata/opendata.cern.ch",
-      "version": "v0.10.2",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["ROOT", "CSV", "JSON", "HDF5", "tar"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 2010,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Particle Physics",
-      "High Energy Physics",
-      "Nuclear Physics",
-      "Experimental Physics",
-      "Computational Physics",
-      "Data Science",
-      "Machine Learning"
-    ],
-    "indicators": 14000000
-  },
+  "website": "https://www.cern.ch",
+  "data_url": "https://opendata.cern.ch/",
+  "api_url": "https://github.com/cernopendata/opendata.cern.ch",
+  "country": null,
+  "domains": [
+    "Particle Physics",
+    "High Energy Physics",
+    "Nuclear Physics",
+    "Experimental Physics",
+    "Computational Physics",
+    "Data Science",
+    "Machine Learning"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "particle-physics",
+    "high-energy-physics",
+    "lhc",
+    "cern",
+    "experimental-physics",
+    "collision-data",
+    "higgs-boson",
+    "standard-model",
+    "nuclear-physics",
+    "open-science",
+    "research-data",
+    "physics-education",
+    "data-science",
+    "machine-learning",
+    "alice",
+    "atlas",
+    "cms",
+    "lhcb"
+  ],
   "data_content": {
     "en": [
       "Collision Data - Proton-proton and heavy-ion collision events from LHC experiments",
@@ -85,89 +79,5 @@
       "Level 3 数据 - 用于完整科学分析的重建碰撞数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "image"],
-    "granularity": ["event-level", "detector-level", "particle-level"],
-    "formats": ["ROOT", "CSV", "JSON", "HDF5", "JPEG", "tar", "zip"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC0 Public Domain Dedication",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Software may have separate licenses (typically GPL)",
-      "Users should cite datasets using provided DOI identifiers",
-      "Attribution recommended following FORCE 11 Data Citation Principles"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["DOI", "FORCE 11 Data Citation Principles", "Invenio Framework", "JSON Schema"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Particle physics research and analysis",
-      "Education and training in high energy physics",
-      "Machine learning and data science applications",
-      "Validation and benchmarking of physics models",
-      "Development of analysis software and tools",
-      "Replication of published physics results",
-      "Higgs boson and standard model studies",
-      "Beyond standard model physics searches"
-    ],
-    "example_studies": [
-      "Higgs Boson Discovery (2012) - Nobel Prize winning research",
-      "ATLAS Higgs Machine Learning Challenge - Data science competition",
-      "CMS Open Data Education Programs - High school and university curricula",
-      "Quark-Gluon Plasma Studies - ALICE heavy-ion research"
-    ],
-    "code_examples": [
-      "https://github.com/cernopendata/opendata.cern.ch",
-      "https://opendata.cern.ch/docs/cms-guide-for-research",
-      "https://opendata.cern.ch/docs/alice-getting-started"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "email": "opendata-support@cern.ch",
-    "support_url": "https://opendata-forum.cern.ch/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "particle-physics",
-    "high-energy-physics",
-    "lhc",
-    "cern",
-    "experimental-physics",
-    "collision-data",
-    "higgs-boson",
-    "standard-model",
-    "nuclear-physics",
-    "open-science",
-    "research-data",
-    "physics-education",
-    "data-science",
-    "machine-learning",
-    "alice",
-    "atlas",
-    "cms",
-    "lhcb"
-  ]
+  "authority_level": "research"
 }

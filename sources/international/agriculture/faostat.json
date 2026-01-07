@@ -4,66 +4,49 @@
     "en": "FAOSTAT - Food and Agriculture Data",
     "zh": "粮农组织统计数据库"
   },
-  "organization": {
-    "name": "Food and Agriculture Organization of the United Nations (FAO)",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.fao.org"
-  },
   "description": {
     "en": "FAOSTAT provides free access to food and agriculture data for over 245 countries and territories, covering all FAO regional groupings from 1961 to the most recent year available. The database contains comprehensive statistics on agricultural production, trade, food balances, emissions, land use, inputs, population, and sustainable development indicators.",
     "zh": "粮农组织统计数据库（FAOSTAT）提供超过245个国家和地区的粮食和农业数据免费访问，涵盖联合国粮农组织所有区域分组，时间跨度从1961年至最新年份。该数据库包含农业生产、贸易、粮食平衡、排放、土地利用、投入品、人口和可持续发展指标等综合统计数据。"
   },
-  "access": {
-    "primary_url": "https://www.fao.org/faostat/en/",
-    "api": {
-      "available": true,
-      "documentation": "https://www.fao.org/faostat/en/#faq",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "JSON", "XML"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 245,
-      "regions": [
-        "Africa",
-        "Asia and the Pacific",
-        "Europe and Central Asia",
-        "Latin America and the Caribbean",
-        "Near East and North Africa"
-      ]
-    },
-    "temporal": {
-      "start_year": 1961,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Agriculture",
-      "Food Security",
-      "Nutrition",
-      "Trade",
-      "Climate Change",
-      "Environment",
-      "Land Use",
-      "Forestry",
-      "Fisheries",
-      "Livestock",
-      "Crops",
-      "Investment",
-      "Employment",
-      "Prices"
-    ],
-    "indicators": 20000
-  },
+  "website": "https://www.fao.org",
+  "data_url": "https://www.fao.org/faostat/en/",
+  "api_url": "https://www.fao.org/faostat/en/#faq",
+  "country": null,
+  "domains": [
+    "Agriculture",
+    "Food Security",
+    "Nutrition",
+    "Trade",
+    "Climate Change",
+    "Environment",
+    "Land Use",
+    "Forestry",
+    "Fisheries",
+    "Livestock",
+    "Crops",
+    "Investment",
+    "Employment",
+    "Prices"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "agriculture",
+    "food-security",
+    "nutrition",
+    "trade",
+    "climate-change",
+    "land-use",
+    "forestry",
+    "fisheries",
+    "livestock",
+    "crops",
+    "fao",
+    "united-nations",
+    "sdg",
+    "global",
+    "time-series"
+  ],
   "data_content": {
     "en": [
       "Production - Crops and livestock products",
@@ -100,105 +83,5 @@
       "世界农业普查 - 农业结构数据"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "time-series",
-      "cross-sectional",
-      "panel"
-    ],
-    "granularity": [
-      "country-level",
-      "annual",
-      "quarterly",
-      "monthly"
-    ],
-    "formats": [
-      "CSV",
-      "Excel",
-      "JSON",
-      "XML"
-    ],
-    "languages": [
-      "en",
-      "zh",
-      "ar",
-      "fr",
-      "ru",
-      "es"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC BY-NC-SA 3.0 IGO",
-    "commercial_use": false,
-    "attribution_required": true,
-    "restrictions": [
-      "Non-commercial use only",
-      "Share-alike required for derivatives",
-      "Must cite as: FAO. [Year]. [Title]. FAOSTAT [online]. Rome. [Cited DD Month YYYY]. www.fao.org/faostat/en/data/[domain]"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "SDMX",
-      "ISO 3166",
-      "FAO Commodity Classification"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Global food security monitoring",
-      "Agricultural production analysis",
-      "Trade flow analysis",
-      "Climate change impact assessment",
-      "SDG monitoring and reporting",
-      "Policy research and development",
-      "Academic research in agriculture and nutrition",
-      "Food systems transformation analysis"
-    ],
-    "example_studies": [
-      "The State of Food Security and Nutrition in the World (annual report)",
-      "FAO Statistical Yearbook",
-      "FAOSTAT Analytical Briefs"
-    ]
-  },
-  "contact": {
-    "email": "faostat@fao.org",
-    "support_url": "https://www.fao.org/faostat/en/#faq"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-10",
-    "last_updated": "2025-12-10",
-    "verified_date": "2025-12-10",
-    "contributor": "Claude",
-    "status": "active"
-  },
-  "tags": [
-    "agriculture",
-    "food-security",
-    "nutrition",
-    "trade",
-    "climate-change",
-    "land-use",
-    "forestry",
-    "fisheries",
-    "livestock",
-    "crops",
-    "fao",
-    "united-nations",
-    "sdg",
-    "global",
-    "time-series"
-  ]
+  "authority_level": "international"
 }

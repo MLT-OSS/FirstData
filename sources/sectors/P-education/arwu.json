@@ -4,50 +4,35 @@
     "en": "Academic Ranking of World Universities",
     "zh": "世界大学学术排名"
   },
-  "organization": {
-    "name": "ShanghaiRanking Consultancy",
-    "type": "research_institution",
-    "country": "CN",
-    "website": "https://www.shanghairanking.com"
-  },
   "description": {
     "en": "The Academic Ranking of World Universities (ARWU), also known as Shanghai Ranking, is recognized as the precursor of global university rankings and one of the most trustworthy rankings worldwide. First published in 2003 by Shanghai Jiao Tong University and since 2009 by ShanghaiRanking Consultancy, ARWU presents the world's top 1000 research universities annually based on transparent methodology and objective third-party data. It uses six objective indicators including Nobel Prizes and Fields Medals won by alumni and staff, highly cited researchers, publications in Nature and Science, papers indexed in major citation indices, and per capita academic performance.",
     "zh": "世界大学学术排名（ARWU），也称为上海排名，被公认为全球大学排名的先驱和最值得信赖的排名之一。首次发布于2003年由上海交通大学发起，自2009年起由软科教育信息咨询有限公司（ShanghaiRanking Consultancy）发布。ARWU基于透明的方法论和客观的第三方数据，每年发布全球前1000所研究型大学排名。排名使用六项客观指标，包括校友和教职工获得的诺贝尔奖和菲尔兹奖、高被引学者数量、在Nature和Science上发表的论文、被主要引文索引收录的论文以及师均学术表现。"
   },
-  "access": {
-    "primary_url": "https://www.shanghairanking.com/rankings/arwu/2025",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDF", "Excel"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 2500
-    },
-    "temporal": {
-      "start_year": 2003,
-      "end_year": 2025,
-      "update_frequency": "annual"
-    },
-    "domains": [
-      "Higher Education",
-      "University Rankings",
-      "Research Performance",
-      "Academic Excellence",
-      "Education Assessment"
-    ],
-    "indicators": 6
-  },
+  "website": "https://www.shanghairanking.com",
+  "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Higher Education",
+    "University Rankings",
+    "Research Performance",
+    "Academic Excellence",
+    "Education Assessment"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "university-ranking",
+    "higher-education",
+    "research-assessment",
+    "academic-excellence",
+    "global-ranking",
+    "education-evaluation",
+    "nobel-prize",
+    "citation-analysis",
+    "research-performance",
+    "shanghai-ranking"
+  ],
   "data_content": {
     "en": [
       "Alumni - Nobel Prizes and Fields Medals won by alumni (10% weight)",
@@ -72,80 +57,5 @@
       "历史数据 - 2003年至今的排名数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["institution-level", "annual"],
-    "formats": ["HTML", "PDF", "Excel"],
-    "languages": ["en", "zh"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Copyright - Free to access and cite with attribution",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite as source when using ranking data",
-      "Copyright belongs to ShanghaiRanking Consultancy",
-      "Data is freely accessible but copyrighted"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "Web of Science Citation Indices",
-      "Clarivate Highly Cited Researchers",
-      "Nobel Prize Official Records",
-      "Fields Medal Official Records"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Comparing global university research performance",
-      "Identifying top research institutions worldwide",
-      "Analyzing trends in academic excellence over time",
-      "Supporting university strategic planning and benchmarking",
-      "Informing student choices for graduate education",
-      "Research policy analysis and evaluation",
-      "Academic citation and reputation analysis"
-    ],
-    "example_studies": [
-      "The Economist (2005) - Called ARWU 'the most widely used annual ranking'",
-      "Chronicle of Higher Education - Described as 'most influential international ranking'",
-      "EU Research Headlines (2003) - Recognized methodology as scientifically sound",
-      "Multiple government education reforms triggered by ARWU results"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "email": "contact@shanghairanking.com",
-    "support_url": "https://www.shanghairanking.com/contact-us"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "university-ranking",
-    "higher-education",
-    "research-assessment",
-    "academic-excellence",
-    "global-ranking",
-    "education-evaluation",
-    "nobel-prize",
-    "citation-analysis",
-    "research-performance",
-    "shanghai-ranking"
-  ]
+  "authority_level": "research"
 }

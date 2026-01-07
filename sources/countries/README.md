@@ -88,56 +88,56 @@ sources/countries/
 #### 🇺🇸 美国 United States (6/15)
 
 1. **US Census Bureau** (`census-bureau`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：人口统计、经济普查、社会调查
    - 数据格式：CSV, JSON, Excel, XML
    - 访问类型：开放
    - [查看详情](north-america/usa/census-bureau.json)
 
 2. **NOAA Climate Data Online (CDO)** (`noaa-cdo`) ⭐
-   - 权威性：4.8/5.0
+   - 权威等级：government
    - 类型：气候数据、气象观测、历史天气
    - 数据格式：CSV, JSON, XML, NetCDF, PDF
    - 访问类型：需注册（免费）
    - [查看详情](north-america/usa/noaa-cdo.json)
 
 3. **USGS EarthExplorer** (`usgs-earthexplorer`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：卫星影像、地球观测、地质数据
    - 数据格式：GeoTIFF, HDF, NetCDF, JPEG2000, LAS, LAZ, Shapefile, KML
    - 访问类型：需注册（免费）
    - [查看详情](north-america/usa/usgs-earthexplorer.json)
 
 4. **Bureau of Economic Analysis** (`us-bea`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：GDP、国民收入、国际收支
    - 数据格式：CSV, Excel, JSON, XML, PDF
    - 访问类型：开放
    - [查看详情](north-america/usa/us-bea.json)
 
 5. **Bureau of Labor Statistics** (`us-bls`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：就业、失业、工资、CPI
    - 数据格式：CSV, Excel, JSON, XML, PDF, TXT, API
    - 访问类型：开放
    - [查看详情](north-america/usa/us-bls.json)
 
 6. **Centers for Disease Control and Prevention** (`us-cdc`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：疾病监测、健康统计、流行病学
    - 数据格式：CSV, Excel, XML, Text, PDF, Interactive Query
    - 访问类型：开放
    - [查看详情](north-america/usa/us-cdc.json)
 
 7. **Data.gov** (`us-data-gov`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：综合开放数据门户
    - 数据格式：CSV, JSON, XML, Excel, PDF, Shapefile, KML, RDF
    - 访问类型：开放
    - [查看详情](north-america/usa/us-data-gov.json)
 
 8. **U.S. Energy Information Administration** (`usa-eia`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：能源统计、石油、天然气、电力
    - 数据格式：CSV, Excel, JSON, XML, PDF, API
    - 访问类型：开放
@@ -146,35 +146,35 @@ sources/countries/
 #### 🇨🇦 加拿大 Canada (4/10)
 
 1. **Statistics Canada** (`statcan`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：国家统计、人口普查、经济数据
    - 数据格式：CSV, JSON, XML, Excel, SDMX, HTML, PDF
    - 访问类型：开放
    - [查看详情](north-america/canada/statcan.json)
 
 2. **Bank of Canada** (`canada-boc`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：货币政策、汇率、金融市场
    - 数据格式：CSV, JSON, XML, Excel, RSS
    - 访问类型：开放
    - [查看详情](north-america/canada/canada-boc.json)
 
 3. **Canadian Institute for Health Information** (`canada-cihi`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：医疗卫生、健康统计
    - 数据格式：Excel, CSV, PDF, HTML, JSON
    - 访问类型：开放
    - [查看详情](north-america/canada/canada-cihi.json)
 
 4. **Canada Energy Regulator** (`canada-energy-regulator`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：能源监管、石油天然气
    - 数据格式：CSV, JSON, XML, Excel, Interactive Dashboards
    - 访问类型：开放
    - [查看详情](north-america/canada/canada-energy-regulator.json)
 
 5. **Agriculture and Agri-Food Canada** (`aafc`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：农业统计、作物、土地利用
    - 数据格式：GeoTIF, FGDB, GDB, CSV, Shapefile, JSON, REST API
    - 访问类型：开放
@@ -183,14 +183,14 @@ sources/countries/
 #### 🇲🇽 墨西哥 Mexico (1/5)
 
 1. **Bank of Mexico Economic Information System** (`banxico`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：经济指标、汇率、通货膨胀
    - 数据格式：JSON, XML, JSONP, Excel, CSV
    - 访问类型：开放
    - [查看详情](north-america/mexico/banxico.json)
 
 2. **National Council for the Evaluation of Social Development Policy** (`coneval`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：贫困测量、社会政策评估
    - 数据格式：Excel, CSV, PDF
    - 访问类型：开放
@@ -205,14 +205,14 @@ sources/countries/
 #### 🇬🇧 英国 United Kingdom (2/5)
 
 1. **Bank of England Statistical Interactive Database** (`bank-of-england`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：货币政策、金融统计
    - 数据格式：CSV, Excel, XML, PDF
    - 访问类型：开放
    - [查看详情](europe/uk/bank-of-england.json)
 
 2. **Data.gov.uk** (`uk-data-gov`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：综合开放数据门户
    - 数据格式：CSV, JSON, XML, Excel, PDF, RDF, Shapefile, GeoJSON
    - 访问类型：开放
@@ -227,7 +227,7 @@ sources/countries/
 #### 🇯🇵 日本 Japan (1/8)
 
 1. **Bank of Japan Statistics** (`boj-statistics`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：货币政策、金融统计、经济指标
    - 数据格式：CSV, Excel, PDF
    - 访问类型：开放
@@ -236,7 +236,7 @@ sources/countries/
 #### 🇰🇷 韩国 South Korea (1/5)
 
 1. **Bank of Korea** (`korea-bok`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：货币政策、经济统计
    - 数据格式：Excel, CSV, PDF
    - 访问类型：开放
@@ -245,7 +245,7 @@ sources/countries/
 #### 🇮🇳 印度 India (1/5)
 
 1. **Directorate General of Commercial Intelligence and Statistics** (`india-dgcis`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：贸易统计、进出口数据
    - 数据格式：Text, Excel, PDF
    - 访问类型：开放
@@ -260,21 +260,21 @@ sources/countries/
 #### 🇦🇺 澳大利亚 Australia (3/6)
 
 1. **Australian Bureau of Statistics** (`abs`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：国家统计、人口普查、经济数据
    - 数据格式：CSV, Excel, JSON, XML, API
    - 访问类型：开放
    - [查看详情](oceania/australia/abs.json)
 
 2. **Australian Institute of Health and Welfare** (`aihw`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：健康与福利统计
    - 数据格式：CSV, Excel, JSON, PDF, Interactive dashboards
    - 访问类型：开放
    - [查看详情](oceania/australia/aihw.json)
 
 3. **Bureau of Meteorology** (`bureau-of-meteorology`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：气象数据、气候监测
    - 数据格式：CSV, JSON, XML, NetCDF, GeoTIFF, GRIB2, HTML, PDF
    - 访问类型：需注册（免费）
@@ -289,7 +289,7 @@ sources/countries/
 #### 🇧🇷 巴西 Brazil (1/5)
 
 1. **Central Bank of Brazil** (`brazil-bcb`) ⭐💎
-   - 权威性：5.0/5.0
+   - 权威等级：government
    - 类型：货币政策、金融统计、经济指标
    - 数据格式：JSON, CSV, XML, WSDL, OData, HTML, PDF
    - 访问类型：开放
@@ -346,12 +346,12 @@ sources/countries/
 
 每个JSON文件遵循DataSource Hub标准元数据Schema，包含：
 
-- **基本信息**: ID、名称、维护机构、国家
-- **访问信息**: URL、API、下载方式、访问级别
-- **覆盖范围**: 地理、时间、领域、指标数量
-- **数据特征**: 类型、粒度、格式、语言
-- **质量评估**: 权威性、透明度、及时性、完整性、文档质量
-- **许可协议**: License、使用限制
+- **基本信息**: ID、名称（中英文）、描述
+- **访问信息**: website、data_url、api_url（如有）
+- **权威等级**: government/international/research/market等
+- **覆盖范围**: 地理范围、领域、更新频率
+- **数据内容**: 可用数据类型和内容描述
+- **搜索标签**: 中英文关键词、同义词
 
 ## 贡献 Contributing
 
