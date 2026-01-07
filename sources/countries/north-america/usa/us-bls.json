@@ -4,58 +4,54 @@
     "en": "Bureau of Labor Statistics",
     "zh": "劳工统计局"
   },
-  "organization": {
-    "name": "U.S. Bureau of Labor Statistics",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.bls.gov"
-  },
   "description": {
     "en": "The Bureau of Labor Statistics (BLS) is the principal federal agency responsible for measuring labor market activity, working conditions, and price changes in the economy of the United States. BLS collects, processes, analyzes, and disseminates essential statistical data to the American public, Congress, other Federal agencies, State and local governments, business, and labor. The BLS also serves as a statistical resource to the U.S. Department of Labor and conducts research into employment, labor economics, and price levels.",
     "zh": "美国劳工统计局（BLS）是负责衡量美国经济中劳动力市场活动、工作条件和价格变化的主要联邦机构。BLS收集、处理、分析并向美国公众、国会、其他联邦机构、州和地方政府、企业和劳工组织传播重要的统计数据。BLS还为美国劳工部提供统计资源服务，并开展就业、劳动经济学和价格水平方面的研究。"
   },
-  "access": {
-    "primary_url": "https://www.bls.gov/data/",
-    "api": {
-      "available": true,
-      "documentation": "https://www.bls.gov/developers/",
-      "version": "2.0",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "PDF", "JSON", "XML", "TXT"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["US"],
-      "regions": ["United States", "States", "Metropolitan Areas", "Counties"]
-    },
-    "temporal": {
-      "start_year": 1913,
-      "end_year": 2025,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "Employment",
-      "Unemployment",
-      "Labor Force",
-      "Wages",
-      "Earnings",
-      "Prices",
-      "Inflation",
-      "Consumer Expenditures",
-      "Productivity",
-      "Workplace Safety",
-      "Occupational Statistics",
-      "Industry Statistics"
-    ],
-    "indicators": 8000
-  },
+  "website": "https://www.bls.gov",
+  "data_url": "https://www.bls.gov/data/",
+  "api_url": "https://www.bls.gov/developers/",
+  "country": "US",
+  "domains": [
+    "Employment",
+    "Unemployment",
+    "Labor Force",
+    "Wages",
+    "Earnings",
+    "Prices",
+    "Inflation",
+    "Consumer Expenditures",
+    "Productivity",
+    "Workplace Safety",
+    "Occupational Statistics",
+    "Industry Statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "employment",
+    "unemployment",
+    "labor-market",
+    "wages",
+    "earnings",
+    "inflation",
+    "cpi",
+    "consumer-price-index",
+    "ppi",
+    "producer-price-index",
+    "productivity",
+    "labor-statistics",
+    "occupational-data",
+    "workplace-safety",
+    "job-openings",
+    "jolts",
+    "consumer-expenditure",
+    "time-use",
+    "labor-force",
+    "employment-projections",
+    "us-government",
+    "economic-indicators"
+  ],
   "data_content": {
     "en": [
       "Employment - Total nonfarm employment, establishment and household survey data, job openings and labor turnover",
@@ -94,97 +90,5 @@
       "企业就业动态 - 就业创造和破坏、企业新生和死亡"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel"],
-    "granularity": ["national-level", "state-level", "metropolitan-area", "county-level", "industry-level", "occupational-level", "monthly", "quarterly", "annual"],
-    "formats": ["CSV", "Excel", "JSON", "XML", "PDF", "TXT", "API"],
-    "languages": ["en", "es"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "U.S. Government Public Domain",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Attribution required: 'U.S. Bureau of Labor Statistics'",
-      "API usage subject to rate limits (daily and per-query limits)",
-      "API registration required for higher rate limits"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["NAICS", "SOC", "ISO 3166", "SDMX"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Economic policy analysis and monetary policy decisions",
-      "Labor market research and employment trend analysis",
-      "Inflation monitoring and price tracking",
-      "Wage and compensation benchmarking",
-      "Occupational research and career planning",
-      "Industry analysis and sector performance tracking",
-      "Academic research in labor economics and macroeconomics",
-      "Business planning and workforce analytics",
-      "Cost-of-living adjustments and wage negotiations",
-      "Productivity measurement and efficiency analysis",
-      "Workplace safety analysis and regulatory compliance"
-    ],
-    "example_studies": [
-      "Federal Reserve monetary policy decisions using CPI and employment data",
-      "Academic research on wage inequality and labor market dynamics",
-      "Business cycle analysis and recession forecasting",
-      "Social Security and pension COLA adjustments based on CPI",
-      "Workforce development and training program planning",
-      "Corporate compensation and benefits benchmarking"
-    ]
-  },
-  "related_sources": [
-    "us-census",
-    "us-bea",
-    "us-fed"
-  ],
-  "contact": {
-    "email": "blsdata_staff@bls.gov",
-    "support_url": "https://www.bls.gov/help/contact-us.htm"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "employment",
-    "unemployment",
-    "labor-market",
-    "wages",
-    "earnings",
-    "inflation",
-    "cpi",
-    "consumer-price-index",
-    "ppi",
-    "producer-price-index",
-    "productivity",
-    "labor-statistics",
-    "occupational-data",
-    "workplace-safety",
-    "job-openings",
-    "jolts",
-    "consumer-expenditure",
-    "time-use",
-    "labor-force",
-    "employment-projections",
-    "us-government",
-    "economic-indicators"
-  ]
+  "authority_level": "government"
 }

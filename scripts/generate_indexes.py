@@ -40,101 +40,41 @@ class IndexGenerator:
 
         print(f"Loaded {len(self.sources)} data sources")
 
-    def _calculate_quality_score(self, quality: Dict) -> float:
-        """Calculate average quality score (6 dimensions)"""
-        scores = [
-            quality.get('authority_level', 0),
-            quality.get('methodology_transparency', 0),
-            quality.get('update_timeliness', 0),
-            quality.get('data_completeness', 0),
-            quality.get('documentation_quality', 0),
-            quality.get('citation_count', 0)
-        ]
-        return round(sum(scores) / len(scores), 1) if scores else 0.0
-
-    def _calculate_completeness_score(self, source: Dict) -> float:
-        """Calculate metadata completeness score based on field categories"""
-        # Required fields (must be 100%)
-        required_fields = [
-            'id', 'name', 'organization', 'description',
-            'access.primary_url', 'access.access_level',
-            'coverage.geographic', 'coverage.temporal', 'coverage.domains',
-            'quality', 'catalog_metadata.added_date', 'catalog_metadata.status'
-        ]
-
-        # Recommended fields (target ≥80%)
-        recommended_fields = [
-            'data_content', 'data_characteristics',
-            'licensing.license', 'usage',
-            'contact', 'related_sources'
-        ]
-
-        # Optional fields
-        optional_fields = [
-            'metadata.standards_followed', 'metadata.data_dictionary',
-            'metadata.methodology_docs', 'metadata.user_guide'
-        ]
-
-        def check_field(data, field_path):
-            """Check if a nested field exists and has value"""
-            keys = field_path.split('.')
-            current = data
-            for key in keys:
-                if isinstance(current, dict) and key in current:
-                    current = current[key]
-                else:
-                    return False
-            return current not in [None, '', [], {}]
-
-        req_present = sum(1 for f in required_fields if check_field(source, f))
-        rec_present = sum(1 for f in recommended_fields if check_field(source, f))
-        opt_present = sum(1 for f in optional_fields if check_field(source, f))
-
-        req_pct = (req_present / len(required_fields)) * 100 if required_fields else 0
-        rec_pct = (rec_present / len(recommended_fields)) * 100 if recommended_fields else 0
-        opt_pct = (opt_present / len(optional_fields)) * 100 if optional_fields else 0
-
-        # Formula: Required(50%) + Recommended(35%) + Optional(15%)
-        completeness = (req_pct * 0.50) + (rec_pct * 0.35) + (opt_pct * 0.15)
-
-        return round(completeness, 1)
+    # Note: quality_score and completeness_score removed in v2.0 schema
 
     def generate_all_sources(self) -> Dict:
         """Generate all-sources.json with complete list"""
         all_sources = []
 
         for source in self.sources:
-            quality_score = self._calculate_quality_score(source.get('quality', {}))
-            completeness_score = self._calculate_completeness_score(source)
-
             entry = {
                 'id': source['id'],
                 'name': source['name'],
-                'organization': source['organization']['name'],
-                'organization_type': source['organization']['type'],
                 'description': source.get('description', {}),
-                'url': source['access']['primary_url'],
-                'domains': source['coverage']['domains'],
-                'geographic_scope': source['coverage']['geographic']['scope'],
-                'update_frequency': source['coverage']['temporal'].get('update_frequency'),
-                'quality_score': quality_score,
-                'completeness_score': completeness_score,
-                'access_level': source['access']['access_level'],
-                'indicators': source['coverage'].get('indicators'),
-                'status': source['catalog_metadata']['status'],
+                'website': source.get('website', ''),
+                'data_url': source.get('data_url', ''),
+                'api_url': source.get('api_url'),
+                'authority_level': source.get('authority_level', ''),
+                'country': source.get('country'),
+                'domains': source.get('domains', []),
+                'geographic_scope': source.get('geographic_scope', ''),
+                'update_frequency': source.get('update_frequency'),
+                'has_api': source.get('api_url') is not None,
+                'tags': source.get('tags', []),
                 'file_path': source['_file_path']
             }
 
             all_sources.append(entry)
 
-        # Sort by quality score (descending) then by name
-        all_sources.sort(key=lambda x: (-x['quality_score'], x['name']['en']))
+        # Sort by name
+        all_sources.sort(key=lambda x: x['name'].get('en', ''))
 
         result = {
             'metadata': {
                 'generated_at': datetime.now().isoformat(),
                 'total_sources': len(all_sources),
-                'version': '1.0'
+                'version': '2.0',
+                'schema_version': 'v2.0.0'
             },
             'sources': all_sources
         }
@@ -146,24 +86,23 @@ class IndexGenerator:
         by_domain = defaultdict(list)
 
         for source in self.sources:
-            domains = source['coverage']['domains']
-            quality_score = self._calculate_quality_score(source.get('quality', {}))
+            domains = source.get('domains', [])
 
             entry = {
                 'id': source['id'],
                 'name': source['name'],
-                'organization': source['organization']['name'],
-                'url': source['access']['primary_url'],
-                'quality_score': quality_score,
+                'authority_level': source.get('authority_level', ''),
+                'data_url': source.get('data_url', ''),
+                'has_api': source.get('api_url') is not None,
                 'file_path': source['_file_path']
             }
 
             for domain in domains:
                 by_domain[domain].append(entry)
 
-        # Sort sources within each domain
+        # Sort sources within each domain by name
         for domain in by_domain:
-            by_domain[domain].sort(key=lambda x: (-x['quality_score'], x['name']['en']))
+            by_domain[domain].sort(key=lambda x: x['name'].get('en', ''))
 
         # Convert to regular dict and sort by domain name
         result = {
@@ -171,7 +110,7 @@ class IndexGenerator:
                 'generated_at': datetime.now().isoformat(),
                 'total_domains': len(by_domain),
                 'total_sources': len(self.sources),
-                'version': '1.0'
+                'version': '2.0'
             },
             'domains': dict(sorted(by_domain.items()))
         }
@@ -183,9 +122,8 @@ class IndexGenerator:
         by_region = defaultdict(list)
 
         for source in self.sources:
-            scope = source['coverage']['geographic']['scope']
-            country = source['organization'].get('country')
-            quality_score = self._calculate_quality_score(source.get('quality', {}))
+            scope = source.get('geographic_scope', '')
+            country = source.get('country')
 
             # Determine region key
             if scope == 'global':
@@ -193,33 +131,32 @@ class IndexGenerator:
             elif scope == 'national' and country:
                 region_key = country
             elif scope == 'regional':
-                regions = source['coverage']['geographic'].get('regions', ['regional'])
-                region_key = regions[0] if regions else 'regional'
+                region_key = 'regional'
             else:
-                region_key = scope
+                region_key = scope or 'unknown'
 
             entry = {
                 'id': source['id'],
                 'name': source['name'],
-                'organization': source['organization']['name'],
-                'url': source['access']['primary_url'],
-                'quality_score': quality_score,
+                'authority_level': source.get('authority_level', ''),
+                'data_url': source.get('data_url', ''),
+                'has_api': source.get('api_url') is not None,
                 'geographic_scope': scope,
                 'file_path': source['_file_path']
             }
 
             by_region[region_key].append(entry)
 
-        # Sort sources within each region
+        # Sort sources within each region by name
         for region in by_region:
-            by_region[region].sort(key=lambda x: (-x['quality_score'], x['name']['en']))
+            by_region[region].sort(key=lambda x: x['name'].get('en', ''))
 
         result = {
             'metadata': {
                 'generated_at': datetime.now().isoformat(),
                 'total_regions': len(by_region),
                 'total_sources': len(self.sources),
-                'version': '1.0'
+                'version': '2.0'
             },
             'regions': dict(sorted(by_region.items()))
         }
@@ -227,108 +164,100 @@ class IndexGenerator:
         return result
 
     def generate_by_authority(self) -> Dict:
-        """Generate by-authority.json grouped by quality score"""
+        """Generate by-authority.json grouped by authority level"""
         by_authority = {
-            '5_star': [],
-            '4_star': [],
-            '3_star': [],
-            '2_star': [],
-            '1_star': []
+            'government': [],
+            'international': [],
+            'market': [],
+            'research': [],
+            'commercial': [],
+            'other': []
         }
 
         for source in self.sources:
-            quality_score = self._calculate_quality_score(source.get('quality', {}))
+            authority_level = source.get('authority_level', 'other')
 
             entry = {
                 'id': source['id'],
                 'name': source['name'],
-                'organization': source['organization']['name'],
-                'url': source['access']['primary_url'],
-                'quality_score': quality_score,
-                'quality_breakdown': source.get('quality', {}),
+                'authority_level': authority_level,
+                'data_url': source.get('data_url', ''),
+                'has_api': source.get('api_url') is not None,
+                'geographic_scope': source.get('geographic_scope', ''),
                 'file_path': source['_file_path']
             }
 
-            # Categorize by rounded score
-            if quality_score >= 4.5:
-                by_authority['5_star'].append(entry)
-            elif quality_score >= 3.5:
-                by_authority['4_star'].append(entry)
-            elif quality_score >= 2.5:
-                by_authority['3_star'].append(entry)
-            elif quality_score >= 1.5:
-                by_authority['2_star'].append(entry)
+            # Categorize by authority level
+            if authority_level in by_authority:
+                by_authority[authority_level].append(entry)
             else:
-                by_authority['1_star'].append(entry)
+                by_authority['other'].append(entry)
 
-        # Sort within each category
+        # Sort within each category by name
         for category in by_authority:
-            by_authority[category].sort(key=lambda x: (-x['quality_score'], x['name']['en']))
+            by_authority[category].sort(key=lambda x: x['name'].get('en', ''))
+
+        # Count sources by authority level
+        authority_counts = {k: len(v) for k, v in by_authority.items()}
 
         result = {
             'metadata': {
                 'generated_at': datetime.now().isoformat(),
                 'total_sources': len(self.sources),
-                'average_quality': round(sum(self._calculate_quality_score(s.get('quality', {})) for s in self.sources) / len(self.sources), 2) if self.sources else 0,
-                'version': '1.0'
+                'authority_counts': authority_counts,
+                'version': '2.0'
             },
-            'by_rating': by_authority
+            'by_authority_level': by_authority
         }
 
         return result
 
     def generate_statistics(self) -> Dict:
         """Generate statistics.json with overview statistics"""
-        def get_indicator_count(source):
-            indicators = source['coverage'].get('indicators', 0)
-            # Handle both int and list types
-            return indicators if isinstance(indicators, int) else len(indicators) if isinstance(indicators, list) else 0
-
-        total_indicators = sum(get_indicator_count(s) for s in self.sources)
-        avg_quality = sum(self._calculate_quality_score(s.get('quality', {})) for s in self.sources) / len(self.sources) if self.sources else 0
-
-        # Count by organization type
-        org_types = defaultdict(int)
+        # Count by authority level
+        authority_levels = defaultdict(int)
         for source in self.sources:
-            org_types[source['organization']['type']] += 1
+            authority_levels[source.get('authority_level', 'other')] += 1
 
-        # Count by access level
-        access_levels = defaultdict(int)
+        # Count by geographic scope
+        geo_scopes = defaultdict(int)
         for source in self.sources:
-            access_levels[source['access']['access_level']] += 1
-
-        # Count by status
-        statuses = defaultdict(int)
-        for source in self.sources:
-            statuses[source['catalog_metadata']['status']] += 1
+            geo_scopes[source.get('geographic_scope', 'unknown')] += 1
 
         # Count by update frequency
         frequencies = defaultdict(int)
         for source in self.sources:
-            freq = source['coverage']['temporal'].get('update_frequency', 'unknown')
+            freq = source.get('update_frequency', 'unknown')
             frequencies[freq] += 1
+
+        # Count by access level (if exists in v2 schema)
+        access_levels = defaultdict(int)
+        for source in self.sources:
+            access_level = source.get('access_level', 'unknown')
+            access_levels[access_level] += 1
 
         # Domain counts
         domain_counts = defaultdict(int)
         for source in self.sources:
-            for domain in source['coverage']['domains']:
+            for domain in source.get('domains', []):
                 domain_counts[domain] += 1
+
+        # API availability
+        api_count = sum(1 for s in self.sources if s.get('api_url') is not None)
 
         result = {
             'metadata': {
                 'generated_at': datetime.now().isoformat(),
-                'version': '1.0'
+                'version': '2.0'
             },
             'overview': {
                 'total_sources': len(self.sources),
-                'total_indicators': total_indicators,
-                'average_quality_score': round(avg_quality, 2),
-                'active_sources': statuses.get('active', 0),
+                'sources_with_api': api_count,
                 'last_updated': datetime.now().strftime('%Y-%m-%d')
             },
-            'by_organization_type': dict(org_types),
+            'by_authority_level': dict(authority_levels),
+            'by_geographic_scope': dict(geo_scopes),
             'by_access_level': dict(access_levels),
-            'by_status': dict(statuses),
             'by_update_frequency': dict(frequencies),
             'by_domain': dict(sorted(domain_counts.items(), key=lambda x: -x[1]))
         }
@@ -423,8 +352,8 @@ Examples:
             print(f"❌ 无法读取文件: {e}")
             sys.exit(1)
 
-        # Verify required fields for indexing
-        required_index_fields = ['id', 'name', 'organization', 'quality']
+        # Verify required fields for indexing (v2.0 schema)
+        required_index_fields = ['id', 'name', 'authority_level']
         missing_fields = []
 
         for field in required_index_fields:
@@ -439,26 +368,20 @@ Examples:
         datasource_id = data.get('id')
         name_en = data.get('name', {}).get('en', 'N/A')
         name_zh = data.get('name', {}).get('zh', 'N/A')
-        org_name = data.get('organization', {}).get('name', 'N/A')
-
-        # Calculate quality score
-        quality = data.get('quality', {})
-        scores = [
-            quality.get('authority_level', 0),
-            quality.get('methodology_transparency', 0),
-            quality.get('update_timeliness', 0),
-            quality.get('data_completeness', 0),
-            quality.get('documentation_quality', 0)
-        ]
-        avg_quality = sum(scores) / len(scores) if scores else 0
+        authority_level = data.get('authority_level', 'N/A')
+        geographic_scope = data.get('geographic_scope', 'N/A')
+        has_api = data.get('api_url') is not None
+        domains = ', '.join(data.get('domains', []))
 
         print("✅ 文件格式正确")
         print(f"\n数据源信息:")
         print(f"  ID: {datasource_id}")
         print(f"  名称 (EN): {name_en}")
         print(f"  名称 (ZH): {name_zh}")
-        print(f"  组织: {org_name}")
-        print(f"  平均质量评分: {avg_quality:.1f}/5.0")
+        print(f"  权威级别: {authority_level}")
+        print(f"  地理范围: {geographic_scope}")
+        print(f"  API支持: {'是' if has_api else '否'}")
+        print(f"  领域: {domains if domains else 'N/A'}")
         print(f"\n✅ 该数据源可以正确加入索引")
         print("=" * 70)
         sys.exit(0)

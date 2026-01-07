@@ -66,14 +66,12 @@ description: Extract datasource information from websites and generate validated
 从网页提取以下信息填充 JSON：
 
 **核心字段**：
-- **基础信息**: id, name (多语言), organization, description
-- **访问信息**: primary_url, API, download options, access_level
-- **覆盖范围**: geographic, temporal, domains, indicators
-- **数据内容**: 分类列表（中英双语）
-- **数据特征**: types, granularity, formats, languages
-- **质量评估**: 6 个维度评分
-- **许可协议**: license, commercial_use, restrictions
-- **其他**: metadata standards, usage, contact, tags
+- **基础信息**: id, name (多语言), description
+- **访问信息**: website, data_url, api_url (如有)
+- **权威等级**: authority_level (government/international/research/market/commercial/other)
+- **覆盖范围**: geographic_scope, country, domains, update_frequency
+- **数据内容**: data_content 列表（中英双语）
+- **搜索标签**: tags (中英文关键词、同义词)
 
 **详细字段说明**: 见 [datasource-schema.json](reference/datasource-schema.json)
 
@@ -87,22 +85,24 @@ description: Extract datasource information from websites and generate validated
 
 ---
 
-### 3. 质量评估
+### 3. 确定权威等级
 
-按 1-5 星评分以下 6 个维度：
-- `authority_level` - 来源权威性
-- `methodology_transparency` - 方法论透明度
-- `update_timeliness` - 更新及时性
-- `data_completeness` - 数据完整性
-- `documentation_quality` - 文档质量
-- `citation_count` - 引用频次
+根据数据源的组织类型确定 `authority_level` 字段值：
 
-**评分标准**: 见 [quality-criteria.md](reference/quality-criteria.md)
+**可选值**：
+- `government` - 政府机构（国家统计局、央行、监管机构等）
+- `international` - 国际组织（联合国、世界银行、OECD等）
+- `research` - 研究机构（大学、科研院所、学术联盟等）
+- `market` - 市场机构（交易所、行业协会、评级机构等）
+- `commercial` - 商业机构（数据服务商、咨询公司等）
+- `other` - 其他类型
 
-**评分原则**:
-- 保守评估，有依据
-- 只有真正顶级官方来源才给 5 星
-- 生成时说明评分理由
+**判断原则**:
+- 根据组织的官方性质和定位选择
+- 政府和国际组织具有最高权威性
+- 学术研究机构注重方法论严谨性
+- 市场和商业机构提供行业专业数据
+- 说明选择该等级的依据
 
 ---
 
@@ -218,7 +218,7 @@ python scripts/check_completeness.py sources/path/to/file.json
 
 1. **准确性优先**: 必须实际访问网站提取信息，不编造数据
 2. **URL 可访问**: 所有 URL 必须是真实可访问的地址
-3. **质量有据**: 评分基于实际观察，不是猜测
+3. **权威等级准确**: 根据组织实际性质确定 authority_level，有依据
 4. **谨慎处理**: 不确定的信息标记为 null 或向用户询问
 5. **不做额外操作**:
    - ❌ 不更新文档
@@ -252,7 +252,6 @@ python scripts/check_completeness.py sources/path/to/file.json
 ## Reference 文档
 
 - [datasource-schema.json](reference/datasource-schema.json) - JSON Schema 标准
-- [quality-criteria.md](reference/quality-criteria.md) - 质量评分标准
 
 ---
 

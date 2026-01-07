@@ -4,63 +4,45 @@
     "en": "Data.gov",
     "zh": "美国政府开放数据平台"
   },
-  "organization": {
-    "name": "U.S. General Services Administration",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.gsa.gov"
-  },
   "description": {
     "en": "Data.gov is the U.S. government's open data portal, providing access to over 300,000 datasets from federal, state, and local government agencies. It serves as the central repository for publicly available government data across agriculture, climate, consumer safety, education, energy, finance, health, public safety, and many other domains. The platform supports transparency, innovation, and data-driven decision making by making government data accessible to researchers, developers, entrepreneurs, and the public.",
     "zh": "Data.gov 是美国政府的开放数据门户网站，提供来自联邦、州和地方政府机构的超过 30 万个数据集的访问。它是公开政府数据的中央存储库，涵盖农业、气候、消费者安全、教育、能源、金融、健康、公共安全等多个领域。该平台通过使政府数据对研究人员、开发者、企业家和公众开放，支持透明度、创新和数据驱动的决策。"
   },
-  "access": {
-    "primary_url": "https://catalog.data.gov/dataset",
-    "api": {
-      "available": true,
-      "documentation": null,
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "JSON", "XML", "RDF", "Excel", "PDF", "Shapefile", "KML"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["US"],
-      "regions": ["All U.S. states and territories"]
-    },
-    "temporal": {
-      "start_year": 1790,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "Agriculture",
-      "Business",
-      "Climate",
-      "Consumer",
-      "Education",
-      "Energy",
-      "Finance",
-      "Health",
-      "Transportation",
-      "Public Safety",
-      "Science & Research",
-      "Environment",
-      "Manufacturing",
-      "Ocean",
-      "Local Government",
-      "Maritime",
-      "Ecosystems"
-    ],
-    "indicators": 300000
-  },
+  "website": "https://www.gsa.gov",
+  "data_url": "https://catalog.data.gov/dataset",
+  "api_url": null,
+  "country": "US",
+  "domains": [
+    "Agriculture",
+    "Business",
+    "Climate",
+    "Consumer",
+    "Education",
+    "Energy",
+    "Finance",
+    "Health",
+    "Transportation",
+    "Public Safety",
+    "Science & Research",
+    "Environment",
+    "Manufacturing",
+    "Ocean",
+    "Local Government",
+    "Maritime",
+    "Ecosystems"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "united-states",
+    "government",
+    "open-data",
+    "federal",
+    "transparency",
+    "public-data",
+    "multi-domain",
+    "comprehensive"
+  ],
   "data_content": {
     "en": [
       "Federal government datasets across all agencies",
@@ -95,79 +77,5 @@
       "州和地方政府数据集"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "geospatial", "text"],
-    "granularity": [
-      "national",
-      "state-level",
-      "county-level",
-      "city-level",
-      "annual",
-      "monthly",
-      "daily"
-    ],
-    "formats": ["CSV", "JSON", "XML", "Excel", "PDF", "Shapefile", "KML", "RDF"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "U.S. Government Works (Public Domain)",
-    "commercial_use": true,
-    "attribution_required": false,
-    "restrictions": [
-      "Some datasets may have specific usage restrictions from originating agencies",
-      "Users should verify licensing for individual datasets"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "DCAT",
-      "ISO 19115",
-      "FGDC",
-      "Project Open Data Metadata Schema"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Policy research and analysis",
-      "Academic research across multiple disciplines",
-      "Data journalism and investigative reporting",
-      "Business intelligence and market research",
-      "Civic technology and government transparency initiatives",
-      "Environmental monitoring and climate research",
-      "Public health surveillance and epidemiology",
-      "Urban planning and infrastructure development"
-    ]
-  },
-  "contact": {
-    "email": "datagov@gsa.gov",
-    "support_url": "https://data.gov/contact"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-12",
-    "last_updated": "2025-12-12",
-    "verified_date": "2025-12-12",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "united-states",
-    "government",
-    "open-data",
-    "federal",
-    "transparency",
-    "public-data",
-    "multi-domain",
-    "comprehensive"
-  ]
+  "authority_level": "government"
 }

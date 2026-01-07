@@ -4,59 +4,45 @@
     "en": "Australian Institute of Health and Welfare",
     "zh": "澳大利亚健康与福利研究所"
   },
-  "organization": {
-    "name": "Australian Institute of Health and Welfare",
-    "type": "national_government",
-    "country": "AU",
-    "website": "https://www.aihw.gov.au/"
-  },
   "description": {
     "en": "The AIHW is an independent statutory Australian Government agency producing authoritative and accessible information and statistics to inform and support better policy and service delivery decisions, leading to better health and wellbeing for all Australians. The Institute collects, manages, and reports information on a wide range of health and welfare topics including health and welfare expenditure, hospitals, disease and injury, mental health, ageing, homelessness, disability, and child protection.",
     "zh": "澳大利亚健康与福利研究所(AIHW)是澳大利亚政府独立法定机构，负责提供权威且易于获取的信息和统计数据，以支持更好的政策制定和服务提供决策，从而改善所有澳大利亚人的健康和福祉。该机构收集、管理和报告广泛的健康和福利主题信息，包括健康和福利支出、医院、疾病和伤害、心理健康、老龄化、无家可归、残疾和儿童保护。"
   },
-  "access": {
-    "primary_url": "https://www.aihw.gov.au/",
-    "api": {
-      "available": true,
-      "documentation": "https://www.aihw.gov.au/reports-data/myhospitals/content/api",
-      "version": "OpenAPI 3.0",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "JSON", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["AU"],
-      "regions": ["Australia - states and territories"]
-    },
-    "temporal": {
-      "start_year": 1987,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Health",
-      "Welfare",
-      "Hospitals",
-      "Mental health",
-      "Aged care",
-      "Disability",
-      "Child protection",
-      "Homelessness",
-      "Housing",
-      "Indigenous health",
-      "Alcohol and drugs",
-      "Disease and injury",
-      "Mortality"
-    ],
-    "indicators": 150
-  },
+  "website": "https://www.aihw.gov.au/",
+  "data_url": "https://www.aihw.gov.au/",
+  "api_url": "https://www.aihw.gov.au/reports-data/myhospitals/content/api",
+  "country": "AU",
+  "domains": [
+    "Health",
+    "Welfare",
+    "Hospitals",
+    "Mental health",
+    "Aged care",
+    "Disability",
+    "Child protection",
+    "Homelessness",
+    "Housing",
+    "Indigenous health",
+    "Alcohol and drugs",
+    "Disease and injury",
+    "Mortality"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "health",
+    "welfare",
+    "hospitals",
+    "Australia",
+    "government",
+    "mental-health",
+    "aged-care",
+    "disability",
+    "indigenous-health",
+    "child-protection",
+    "public-health",
+    "social-services"
+  ],
   "data_content": {
     "en": [
       "Hospital activity and performance data",
@@ -93,68 +79,5 @@
       "癌症发病率和生存率"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "geospatial", "api"],
-    "granularity": ["national", "state/territory", "regional", "annual", "quarterly", "monthly"],
-    "formats": ["CSV", "Excel", "JSON", "PDF", "Interactive dashboards"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Creative Commons Attribution 4.0",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must attribute Australian Institute of Health and Welfare",
-      "Privacy and confidentiality requirements apply to individual-level data"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["METEOR", "ISO 3166", "Statistical standards"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Health policy development and evaluation",
-      "Public health research and epidemiology",
-      "Service planning and resource allocation",
-      "Performance monitoring and benchmarking",
-      "Academic research in health and social sciences",
-      "Government reporting and accountability"
-    ]
-  },
-  "contact": {
-    "email": "info@aihw.gov.au",
-    "support_url": "https://www.aihw.gov.au/contact-us"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "health",
-    "welfare",
-    "hospitals",
-    "Australia",
-    "government",
-    "mental-health",
-    "aged-care",
-    "disability",
-    "indigenous-health",
-    "child-protection",
-    "public-health",
-    "social-services"
-  ]
+  "authority_level": "government"
 }

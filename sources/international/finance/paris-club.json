@@ -4,49 +4,28 @@
     "en": "Paris Club",
     "zh": "巴黎俱乐部"
   },
-  "organization": {
-    "name": {
-      "en": "Paris Club",
-      "zh": "巴黎俱乐部"
-    },
-    "abbreviation": "Paris Club",
-    "type": "international_organization",
-    "country": "FR",
-    "website": "https://www.clubdeparis.org"
-  },
   "description": {
     "en": "The Paris Club is a group of major creditor countries whose role is to find coordinated and sustainable solutions to the payment difficulties experienced by debtor countries. It provides detailed data on debt treatment agreements, debt stocks, and debt service flows for debtor countries.",
     "zh": "巴黎俱乐部是主要债权国组成的集团，其作用是为债务国面临的支付困难寻找协调和可持续的解决方案。它提供债务处理协议、债务存量和债务国债务偿还流量的详细数据。"
   },
-  "primary_url": "https://www.clubdeparis.org",
-  "access": {
-    "primary_url": "https://www.clubdeparis.org",
-    "api": {
-      "available": false,
-      "documentation": null
-    },
-    "download": {
-      "formats": ["PDF", "XLS"],
-      "bulk_download": false
-    },
-    "access_level": "open"
-  },
-  "coverage": {
-    "geographic": {
-      "type": "multi_country",
-      "scope": "multi_country",
-      "countries": [],
-      "regions": ["Africa", "Asia", "Latin America", "Europe"]
-    },
-    "temporal": {
-      "start_year": 1956,
-      "end_year": 2025,
-      "update_frequency": "irregular",
-      "last_updated": "2025"
-    },
-    "domains": ["finance", "development", "economics"],
-    "indicators": ["debt_stock", "debt_service", "debt_restructuring"]
-  },
+  "website": "https://www.clubdeparis.org",
+  "data_url": "https://www.clubdeparis.org",
+  "api_url": null,
+  "country": "FR",
+  "domains": [
+    "finance",
+    "development",
+    "economics"
+  ],
+  "geographic_scope": "multi_country",
+  "update_frequency": "irregular",
+  "tags": [
+    "sovereign_debt",
+    "debt_restructuring",
+    "debt_relief",
+    "creditor_coordination",
+    "development_finance"
+  ],
   "data_content": {
     "en": "Paris Club data includes debt treatment agreements, debt stocks and flows, debt service schedules, creditor participation, and historical debt restructuring operations for over 90 debtor countries",
     "zh": "巴黎俱乐部数据包括90多个债务国的债务处理协议、债务存量和流量、债务偿还时间表、债权人参与情况以及历史债务重组操作",
@@ -96,57 +75,13 @@
         }
       }
     ],
-    "indicators": ["outstanding_debt", "debt_service_due", "debt_service_paid", "debt_relief", "number_of_agreements"]
+    "indicators": [
+      "outstanding_debt",
+      "debt_service_due",
+      "debt_service_paid",
+      "debt_relief",
+      "number_of_agreements"
+    ]
   },
-  "data_characteristics": {
-    "types": ["statistics", "agreements", "time_series"],
-    "granularity": {
-      "spatial": ["country", "creditor"],
-      "temporal": ["annual", "agreement_specific"]
-    },
-    "formats": ["PDF", "XLS", "online_tables"],
-    "languages": ["en", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 3,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 4
-  },
-  "licensing": {
-    "license": {
-      "type": "custom",
-      "url": "https://www.clubdeparis.org/en/communications/page/terms-and-conditions"
-    },
-    "commercial_use": "restricted",
-    "attribution_required": true
-  },
-  "metadata": {
-    "standards": ["institutional_standards"],
-    "interoperability": "medium"
-  },
-  "usage": {
-    "use_cases": [
-      "Sovereign debt research",
-      "Debt sustainability analysis",
-      "Development finance studies",
-      "International financial architecture research",
-      "Debt crisis analysis"
-    ],
-    "target_users": ["researchers", "policy_makers", "debt_analysts", "development_economists", "international_organizations"]
-  },
-  "contact": {
-    "organization": "Paris Club Secretariat",
-    "email": "clubdeparis@dgtresor.gouv.fr",
-    "support_url": "https://www.clubdeparis.org"
-  },
-  "tags": ["sovereign_debt", "debt_restructuring", "debt_relief", "creditor_coordination", "development_finance"],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-scraper-skill"
-  }
+  "authority_level": "international"
 }

@@ -5,50 +5,32 @@
     "zh": "中华人民共和国商务部",
     "native": "中华人民共和国商务部"
   },
-  "organization": {
-    "name": "Ministry of Commerce",
-    "type": "national_government",
-    "country": "CN",
-    "website": "http://www.mofcom.gov.cn"
-  },
   "description": {
     "en": "The Ministry of Commerce (MOFCOM) is responsible for formulating policies on foreign trade, foreign investment, and domestic commerce in China. Provides data on foreign direct investment (FDI), outbound direct investment (ODI), retail sales, e-commerce, trade in services, and bilateral economic cooperation.",
     "zh": "中华人民共和国商务部负责制定中国对外贸易、外商投资和国内商业政策。提供外商直接投资（FDI）、对外直接投资（ODI）、零售销售、电子商务、服务贸易和双边经济合作数据。"
   },
-  "access": {
-    "primary_url": "https://data.mofcom.gov.cn",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["China", "Global"]
-    },
-    "temporal": {
-      "start_year": 1995,
-      "end_year": 2024,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "trade",
-      "investment",
-      "commerce",
-      "economics"
-    ],
-    "indicators": 1200
-  },
+  "website": "http://www.mofcom.gov.cn",
+  "data_url": "https://data.mofcom.gov.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "trade",
+    "investment",
+    "commerce",
+    "economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "commerce",
+    "fdi",
+    "odi",
+    "foreign-investment",
+    "retail",
+    "ecommerce",
+    "services-trade"
+  ],
   "data_content": {
     "en": [
       "Foreign Direct Investment (FDI) - FDI inflows by country, industry, and region; number of foreign-invested enterprises",
@@ -73,72 +55,5 @@
       "区域发展 - 区域经济发展数据和对外开放政策"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series"],
-    "granularity": ["national", "provincial", "sectoral", "country-level"],
-    "formats": ["Excel", "PDF", "HTML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Government Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["OECD FDI standards", "WTO GATS"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": false
-  },
-  "usage": {
-    "use_cases": [
-      "Foreign investment analysis",
-      "Trade policy research",
-      "Retail market analysis",
-      "E-commerce trends",
-      "Services trade research"
-    ],
-    "example_studies": [
-      "China Commerce Yearbook",
-      "China Foreign Investment Report",
-      "China Outbound Investment Report"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "china-customs",
-    "china-nbs",
-    "china-ndrc",
-    "unctad"
-  ],
-  "contact": {
-    "email": "service@mofcom.gov.cn",
-    "support_url": "http://www.mofcom.gov.cn/article/fw/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-25",
-    "last_updated": "2025-01-25",
-    "verified_date": "2025-01-25",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "china",
-    "commerce",
-    "fdi",
-    "odi",
-    "foreign-investment",
-    "retail",
-    "ecommerce",
-    "services-trade"
-  ]
+  "authority_level": "government"
 }

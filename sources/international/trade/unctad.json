@@ -4,51 +4,31 @@
     "en": "UNCTAD - United Nations Conference on Trade and Development",
     "zh": "联合国贸易和发展会议"
   },
-  "organization": {
-    "name": {
-      "en": "United Nations Conference on Trade and Development",
-      "zh": "联合国贸易和发展会议"
-    },
-    "abbreviation": "UNCTAD",
-    "type": "international_organization",
-    "country": "CH",
-    "website": "https://unctad.org"
-  },
   "description": {
     "en": "UNCTAD provides comprehensive trade, investment, and development statistics covering merchandise trade, services trade, foreign direct investment, commodity prices, maritime transport, and creative economy indicators for all countries and territories.",
     "zh": "联合国贸易和发展会议提供全面的贸易、投资和发展统计数据，涵盖所有国家和地区的商品贸易、服务贸易、外国直接投资、商品价格、海运和创意经济指标。"
   },
-  "primary_url": "https://unctadstat.unctad.org",
-  "access": {
-    "primary_url": "https://unctadstat.unctad.org",
-    "api": {
-      "available": true,
-      "documentation": "https://unctadstat.unctad.org/EN/api.html",
-      "endpoint": "https://unctadstat.unctad.org/api",
-      "authentication": "not_required"
-    },
-    "download": {
-      "formats": ["CSV", "XLS", "PDF"],
-      "bulk_download": true
-    },
-    "access_level": "open"
-  },
-  "coverage": {
-    "geographic": {
-      "type": "global",
-      "scope": "global",
-      "countries": [],
-      "regions": ["all_regions"]
-    },
-    "temporal": {
-      "start_year": 1948,
-      "end_year": 2025,
-      "update_frequency": "quarterly",
-      "last_updated": "2025"
-    },
-    "domains": ["trade", "investment", "development", "economics"],
-    "indicators": ["merchandise_trade", "services_trade", "fdi_flows", "fdi_stock", "commodity_prices", "maritime_transport", "creative_economy"]
-  },
+  "website": "https://unctad.org",
+  "data_url": "https://unctadstat.unctad.org",
+  "api_url": "https://unctadstat.unctad.org/EN/api.html",
+  "country": null,
+  "domains": [
+    "trade",
+    "investment",
+    "development",
+    "economics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "international_trade",
+    "development",
+    "fdi",
+    "commodities",
+    "maritime",
+    "creative_economy",
+    "un_statistics"
+  ],
   "data_content": {
     "en": "UNCTAD statistics include merchandise trade by product and partner, services trade, foreign direct investment flows and stocks, commodity prices and indices, maritime transport, creative economy, technology and innovation, and sustainable development indicators",
     "zh": "联合国贸发会议统计数据包括按产品和贸易伙伴分类的商品贸易、服务贸易、外国直接投资流量和存量、商品价格和指数、海运、创意经济、技术创新和可持续发展指标",
@@ -118,57 +98,15 @@
         }
       }
     ],
-    "indicators": ["trade_value", "trade_volume", "fdi_inflows", "fdi_outflows", "commodity_index", "freight_rates", "creative_exports"]
+    "indicators": [
+      "trade_value",
+      "trade_volume",
+      "fdi_inflows",
+      "fdi_outflows",
+      "commodity_index",
+      "freight_rates",
+      "creative_exports"
+    ]
   },
-  "data_characteristics": {
-    "types": ["statistics", "indicators", "time_series"],
-    "granularity": {
-      "spatial": ["country", "region", "global"],
-      "temporal": ["monthly", "quarterly", "annual"]
-    },
-    "formats": ["CSV", "XLS", "PDF", "API"],
-    "languages": ["en", "fr", "es"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": {
-      "type": "cc-by",
-      "url": "https://unctad.org/page/data-policies"
-    },
-    "commercial_use": "allowed",
-    "attribution_required": true
-  },
-  "metadata": {
-    "standards": ["SDMX", "HS", "SITC", "BPM6"],
-    "interoperability": "high"
-  },
-  "usage": {
-    "use_cases": [
-      "International trade analysis",
-      "FDI and investment research",
-      "Commodity market analysis",
-      "Development economics research",
-      "Trade policy evaluation"
-    ],
-    "target_users": ["researchers", "policy_makers", "trade_analysts", "economists", "business_analysts"]
-  },
-  "contact": {
-    "organization": "United Nations Conference on Trade and Development",
-    "email": "statistics@unctad.org",
-    "support_url": "https://unctad.org/statistics"
-  },
-  "tags": ["international_trade", "development", "fdi", "commodities", "maritime", "creative_economy", "un_statistics"],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-scraper-skill"
-  }
+  "authority_level": "international"
 }

@@ -4,47 +4,37 @@
     "en": "CITES Trade Database",
     "zh": "濒危物种国际贸易公约贸易数据库"
   },
-  "organization": {
-    "name": "CITES Secretariat and UNEP-WCMC",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://unep-wcmc.org"
-  },
   "description": {
     "en": "The CITES Trade Database is the most comprehensive and authoritative database on international trade in wildlife. Dating back to 1975, it reflects the official trade records as reported by Parties in their annual reports to the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). The database is developed and maintained by UNEP-WCMC (United Nations Environment Programme World Conservation Monitoring Centre) on behalf of the CITES Secretariat, providing critical data for monitoring and regulating trade in endangered species worldwide.",
     "zh": "CITES贸易数据库是关于野生动物国际贸易最全面、最权威的数据库。该数据库可追溯至1975年，反映了各缔约方在其年度报告中向《濒危野生动植物种国际贸易公约》(CITES)报告的官方贸易记录。该数据库由联合国环境规划署世界自然保护监测中心(UNEP-WCMC)代表CITES秘书处开发和维护，为监测和管理全球濒危物种贸易提供关键数据。"
   },
-  "access": {
-    "primary_url": "https://trade.cites.org",
-    "api": {
-      "available": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["Database file", "CSV"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 184
-    },
-    "temporal": {
-      "start_year": 1975,
-      "end_year": 2025,
-      "update_frequency": "annual"
-    },
-    "domains": [
-      "Wildlife Conservation",
-      "Endangered Species",
-      "International Trade",
-      "Environmental Protection",
-      "Biodiversity"
-    ],
-    "indicators": 1000000
-  },
+  "website": "https://unep-wcmc.org",
+  "data_url": "https://trade.cites.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Wildlife Conservation",
+    "Endangered Species",
+    "International Trade",
+    "Environmental Protection",
+    "Biodiversity"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "CITES",
+    "wildlife trade",
+    "endangered species",
+    "conservation",
+    "biodiversity",
+    "international trade",
+    "environmental protection",
+    "UNEP-WCMC",
+    "species monitoring",
+    "wildlife conservation",
+    "trade regulations",
+    "fauna and flora"
+  ],
   "data_content": {
     "en": [
       "International trade records for CITES-listed species (1975-present)",
@@ -71,83 +61,5 @@
       "许可证信息和贸易授权"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["country-level", "species-level", "annual", "transaction-level"],
-    "formats": ["Database", "CSV", "Web interface"],
-    "languages": ["en", "es", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Access",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite CITES Secretariat and UNEP-WCMC",
-      "Data reflects official reports which may have inconsistencies",
-      "Users should read the guidance document before using the data",
-      "Not all trade is reported to CITES"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["CITES Classification", "ISO 3166 (Country codes)", "Taxonomic nomenclature"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Wildlife trade monitoring and enforcement",
-      "Conservation policy development",
-      "Endangered species protection research",
-      "Trade pattern analysis",
-      "Illegal wildlife trade investigation",
-      "Biodiversity impact assessment",
-      "International treaty compliance monitoring",
-      "Academic research on species conservation"
-    ],
-    "example_studies": [
-      "Analysis of elephant ivory trade patterns",
-      "Tiger trade monitoring and conservation efforts",
-      "Reptile trade trends and sustainability",
-      "Bird trade impacts on wild populations"
-    ]
-  },
-  "related_sources": [
-    "iucn-red-list",
-    "unep-wcmc",
-    "traffic-wildlife-trade"
-  ],
-  "contact": {
-    "email": "species@unep-wcmc.org",
-    "support_url": "https://trade.cites.org"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "Claude (datasource-fetcher)",
-    "status": "active"
-  },
-  "tags": [
-    "CITES",
-    "wildlife trade",
-    "endangered species",
-    "conservation",
-    "biodiversity",
-    "international trade",
-    "environmental protection",
-    "UNEP-WCMC",
-    "species monitoring",
-    "wildlife conservation",
-    "trade regulations",
-    "fauna and flora"
-  ]
+  "authority_level": "international"
 }

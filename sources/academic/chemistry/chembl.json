@@ -4,55 +4,55 @@
     "en": "ChEMBL Database",
     "zh": "ChEMBL生物活性数据库"
   },
-  "organization": {
-    "name": "European Bioinformatics Institute (EMBL-EBI)",
-    "type": "research_institution",
-    "country": null,
-    "website": "https://www.ebi.ac.uk"
-  },
   "description": {
     "en": "ChEMBL is a manually curated database of bioactive molecules with drug-like properties, maintained by the European Bioinformatics Institute (EMBL-EBI) of the European Molecular Biology Laboratory (EMBL). It brings together chemical, bioactivity, and genomic data to aid the translation of genomic information into effective new drugs. The database contains over 2.8 million distinct compounds, more than 17,800 targets, and millions of bioactivity measurements. Data are manually abstracted from primary published literature, direct deposition, patents, and PhD theses, then further curated and standardized. ChEMBL is recognized as one of the Global Core Biodata Resources (GCBRs) - a collection of data resources critical to life science and biomedical research. It ranks 5th in EMBL-EBI's most used resources and serves as a fundamental platform for pharmaceutical drug discovery, agrochemical research, and academic research.",
     "zh": "ChEMBL是由欧洲分子生物学实验室（EMBL）的欧洲生物信息学研究所（EMBL-EBI）维护的人工精选生物活性分子数据库，收录具有药物样特性的化合物。它整合化学、生物活性和基因组数据，帮助将基因组信息转化为有效的新药。数据库包含超过280万个不同化合物、17,800多个靶点以及数百万条生物活性测量数据。数据从发表文献、直接提交、专利和博士论文中手动提取，经过进一步整理和标准化。ChEMBL被认定为全球核心生物数据资源（GCBRs）之一，是生命科学和生物医学研究的关键数据资源。它在EMBL-EBI最常用资源中排名第5，是制药药物发现、农药研究和学术研究的基础平台。"
   },
-  "access": {
-    "primary_url": "https://www.ebi.ac.uk/chembl/",
-    "api": {
-      "available": true,
-      "documentation": "https://www.ebi.ac.uk/chembl/api/data/docs",
-      "version": "ChEMBL Web Services API",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["Oracle", "MySQL", "PostgreSQL", "SQLite", "RDF", "SDF", "FASTA", "JSON", "XML", "CSV"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 2002,
-      "end_year": 2025,
-      "update_frequency": "quarterly"
-    },
-    "domains": [
-      "Drug Discovery",
-      "Pharmaceutical Sciences",
-      "Medicinal Chemistry",
-      "Chemical Biology",
-      "Bioactivity",
-      "Pharmacology",
-      "Toxicology",
-      "ADMET",
-      "Agrochemical Research",
-      "Genomics",
-      "Proteomics"
-    ],
-    "indicators": 2800000
-  },
+  "website": "https://www.ebi.ac.uk",
+  "data_url": "https://www.ebi.ac.uk/chembl/",
+  "api_url": "https://www.ebi.ac.uk/chembl/api/data/docs",
+  "country": null,
+  "domains": [
+    "Drug Discovery",
+    "Pharmaceutical Sciences",
+    "Medicinal Chemistry",
+    "Chemical Biology",
+    "Bioactivity",
+    "Pharmacology",
+    "Toxicology",
+    "ADMET",
+    "Agrochemical Research",
+    "Genomics",
+    "Proteomics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "bioactivity",
+    "drug-discovery",
+    "pharmaceutical",
+    "medicinal-chemistry",
+    "chemical-biology",
+    "pharmacology",
+    "toxicology",
+    "admet",
+    "small-molecules",
+    "drug-targets",
+    "protein-targets",
+    "bioassays",
+    "clinical-trials",
+    "approved-drugs",
+    "chemical-structures",
+    "cheminformatics",
+    "structure-activity-relationship",
+    "sar",
+    "lead-optimization",
+    "drug-development",
+    "embl-ebi",
+    "gcbr",
+    "open-data",
+    "creative-commons"
+  ],
   "data_content": {
     "en": [
       "Bioactive Compounds - Over 2.8 million distinct compounds with drug-like properties",
@@ -83,111 +83,5 @@
       "毒性数据 - 药物安全性和不良反应信息"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "cross-sectional", "text"],
-    "granularity": ["molecular-level", "compound-level", "target-level", "assay-level"],
-    "formats": ["Oracle", "MySQL", "PostgreSQL", "SQLite", "RDF", "SDF", "FASTA", "JSON", "XML", "CSV"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must provide attribution when using ChEMBL data",
-      "Derivative works must be shared under the same CC BY-SA 3.0 license",
-      "Data must be properly cited in publications"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "Global Core Biodata Resources (GCBR)",
-      "FAIR Data Principles",
-      "InChI (IUPAC International Chemical Identifier)",
-      "SMILES (Simplified Molecular Input Line Entry System)",
-      "UniProt (Protein nomenclature)",
-      "Gene Ontology"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Pharmaceutical drug discovery and design",
-      "Target identification and validation",
-      "Lead compound optimization",
-      "Structure-activity relationship (SAR) analysis",
-      "ADMET property prediction",
-      "Drug repurposing and repositioning",
-      "Toxicity prediction and safety assessment",
-      "Biomarker discovery",
-      "Polypharmacology analysis",
-      "Machine learning for drug discovery",
-      "Cheminformatics research",
-      "Academic medicinal chemistry research",
-      "Agrochemical compound development"
-    ],
-    "example_studies": [
-      "The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods (Nucleic Acids Research, 2024)",
-      "Using ChEMBL web services for building applications and data processing workflows relevant to drug discovery",
-      "Machine learning models for bioactivity prediction using ChEMBL data",
-      "Target-disease association analysis using ChEMBL bioactivity data",
-      "ADMET property prediction models trained on ChEMBL data"
-    ],
-    "code_examples": [
-      "https://github.com/chembl/chembl_webresource_client",
-      "https://www.ebi.ac.uk/chembl/api/data/docs"
-    ]
-  },
-  "related_sources": [
-    "protein-data-bank",
-    "pubchem",
-    "drugbank",
-    "uniprot"
-  ],
-  "contact": {
-    "support_url": "https://www.ebi.ac.uk/chembl/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "bioactivity",
-    "drug-discovery",
-    "pharmaceutical",
-    "medicinal-chemistry",
-    "chemical-biology",
-    "pharmacology",
-    "toxicology",
-    "admet",
-    "small-molecules",
-    "drug-targets",
-    "protein-targets",
-    "bioassays",
-    "clinical-trials",
-    "approved-drugs",
-    "chemical-structures",
-    "cheminformatics",
-    "structure-activity-relationship",
-    "sar",
-    "lead-optimization",
-    "drug-development",
-    "embl-ebi",
-    "gcbr",
-    "open-data",
-    "creative-commons"
-  ]
+  "authority_level": "research"
 }

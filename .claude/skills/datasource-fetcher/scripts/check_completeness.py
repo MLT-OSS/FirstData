@@ -12,88 +12,35 @@ from typing import Dict, List, Tuple
 
 
 class CompletenessChecker:
-    """Check metadata completeness based on field categories"""
+    """Check metadata completeness based on v2.0 schema"""
 
-    # Field categories based on quality-criteria.md
+    # Field categories based on v2.0 schema
     REQUIRED_FIELDS = [
         'id',
         'name',
         'name.en',
-        'name.zh',
-        'organization',
-        'organization.name',
         'description',
         'description.en',
-        'access',
-        'access.primary_url',
-        'access.access_level',
-        'coverage',
-        'coverage.geographic',
-        'coverage.temporal',
-        'coverage.domains',
-        'data_characteristics',
-        'quality',
-        'quality.authority_level',
-        'quality.methodology_transparency',
-        'quality.update_timeliness',
-        'quality.data_completeness',
-        'quality.documentation_quality',
-        'licensing',
-        'catalog_metadata',
-        'catalog_metadata.added_date',
-        'catalog_metadata.last_updated',
-        'catalog_metadata.status',
+        'website',
+        'data_url',
+        'authority_level',
+        'domains',
+        'tags',
     ]
 
     RECOMMENDED_FIELDS = [
-        'organization.country',
-        'organization.website',
-        'description.zh',  # For Chinese sources
-        'coverage.geographic.scope',
-        'coverage.geographic.countries',
-        'coverage.temporal.start_year',
-        'coverage.temporal.end_year',
-        'coverage.temporal.update_frequency',
-        'coverage.indicators',
-        'access.api',
-        'access.api.available',
-        'access.download',
+        'name.zh',
+        'description.zh',
+        'api_url',
+        'geographic_scope',
+        'update_frequency',
+        'country',  # When geographic_scope is national/subnational
         'data_content',
         'data_content.en',
-        'data_characteristics.types',
-        'data_characteristics.formats',
-        'data_characteristics.languages',
-        'licensing.license',
-        'licensing.commercial_use',
-        'contact',
-        'tags',
-        'catalog_metadata.verified_date',
-        'catalog_metadata.contributor',
     ]
 
     OPTIONAL_FIELDS = [
-        'name.native',
-        'organization.type',
-        'access.api.documentation',
-        'access.api.version',
-        'access.api.authentication',
-        'access.download.formats',
-        'access.registration_required',
-        'coverage.geographic.regions',
         'data_content.zh',
-        'data_characteristics.granularity',
-        'quality.citation_count',
-        'licensing.attribution_required',
-        'licensing.restrictions',
-        'metadata',
-        'metadata.standards_followed',
-        'metadata.data_dictionary',
-        'metadata.methodology_docs',
-        'usage',
-        'usage.use_cases',
-        'related_sources',
-        'contact.email',
-        'contact.support_url',
     ]
 
     def __init__(self):
@@ -254,7 +201,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='Check metadata completeness for DataSource Hub files',
+        description='Check metadata completeness for DataSource Hub files (v2.0 schema)',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -263,6 +210,17 @@ Examples:
 
   # Quiet mode (only show summary)
   python check_completeness.py sources/china/finance/banking/pbc.json -q
+
+V2.0 Schema Field Categories:
+  Required (10 fields):
+    - id, name (en/zh), description (en/zh)
+    - website, data_url, authority_level
+    - domains, tags
+
+  Recommended (8 fields):
+    - name.zh, description.zh
+    - api_url, geographic_scope, update_frequency, country
+    - data_content, data_content.en
 
 Completeness Formula:
   Completeness = (Required × 50%) + (Recommended × 35%) + (Optional × 15%)

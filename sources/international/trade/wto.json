@@ -5,45 +5,29 @@
     "zh": "世界贸易组织统计数据库",
     "native": "WTO Statistics Database"
   },
-  "organization": {
-    "name": "World Trade Organization",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.wto.org"
-  },
   "description": {
     "en": "Comprehensive international trade statistics including merchandise and commercial services trade data, tariff profiles, and market access indicators for WTO members and observers.",
     "zh": "综合国际贸易统计数据,包括世贸组织成员和观察员的商品和商业服务贸易数据、关税概况和市场准入指标。"
   },
-  "access": {
-    "primary_url": "https://stats.wto.org",
-    "api": {
-      "available": true,
-      "documentation": "https://apiportal.wto.org",
-      "version": "v1",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel"]
-    },
-    "access_level": "registration",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 164,
-      "regions": ["Global", "Regional Trade Agreements"]
-    },
-    "temporal": {
-      "start_year": 1948,
-      "end_year": 2024,
-      "update_frequency": "quarterly"
-    },
-    "domains": ["economics", "trade"],
-    "indicators": 300
-  },
+  "website": "https://www.wto.org",
+  "data_url": "https://stats.wto.org",
+  "api_url": "https://apiportal.wto.org",
+  "country": null,
+  "domains": [
+    "economics",
+    "trade"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "international-trade",
+    "tariffs",
+    "merchandise-trade",
+    "services-trade",
+    "wto",
+    "trade-policy",
+    "market-access"
+  ],
   "data_content": {
     "en": [
       "Merchandise trade by product and partner",
@@ -66,70 +50,5 @@
       "贸易争端数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["country-level", "product-level", "annual", "quarterly"],
-    "formats": ["CSV", "Excel", "JSON"],
-    "languages": ["en", "es", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 4
-  },
-  "licensing": {
-    "license": "WTO Terms of Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": ["Registration required for API access"]
-  },
-  "metadata": {
-    "standards_followed": ["HS Classification", "ISIC Rev.4", "EBOPS 2010"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Trade policy analysis",
-      "Tariff impact assessment",
-      "Global value chain research",
-      "Trade dispute analysis",
-      "Market access evaluation"
-    ],
-    "example_studies": [
-      "Impact of trade agreements",
-      "Tariff escalation analysis",
-      "Trade in services trends"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "un-comtrade",
-    "unctad",
-    "imf-data"
-  ],
-  "contact": {
-    "email": "statistics@wto.org",
-    "support_url": "https://www.wto.org/english/res_e/statis_e/statis_e.htm"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-22",
-    "last_updated": "2025-01-22",
-    "verified_date": "2025-01-22",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "international-trade",
-    "tariffs",
-    "merchandise-trade",
-    "services-trade",
-    "wto",
-    "trade-policy",
-    "market-access"
-  ]
+  "authority_level": "international"
 }

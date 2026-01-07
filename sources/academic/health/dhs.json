@@ -4,34 +4,36 @@
     "en": "Demographic and Health Surveys (DHS) Program",
     "zh": "人口与健康调查项目"
   },
-  "organization": {
-    "name": "ICF International, funded by U.S. Agency for International Development (USAID)",
-    "type": "international_organization",
-    "country": "US",
-    "website": "https://www.usaid.gov/"
-  },
   "description": {
     "en": "The DHS Program provides technical assistance for population and health surveys in developing countries. It delivers nationally-representative household surveys on population, health, HIV, and nutrition, providing data to policymakers and program managers to monitor and evaluate programs, and to researchers to further describe and better understand important health issues. The program has conducted over 400 surveys in more than 90 countries since 1984.",
     "zh": "人口与健康调查项目为发展中国家提供人口和健康调查技术援助。它提供全国代表性的家庭调查数据，涵盖人口、健康、艾滋病和营养，为政策制定者和项目管理者监测评估项目提供数据，为研究人员提供重要健康问题的描述和理解。自1984年以来，该项目已在90多个国家进行了400多次调查。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "regional",
-      "countries": 90,
-      "regions": ["Africa", "Asia", "Latin America", "Eastern Europe"]
-    },
-    "temporal": {
-      "start_year": 1984,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "health",
-      "demographics",
-      "population"
-    ],
-    "indicators": 1000
-  },
+  "website": "https://www.usaid.gov/",
+  "data_url": "https://dhsprogram.com/",
+  "api_url": "https://api.dhsprogram.com/",
+  "country": null,
+  "domains": [
+    "health",
+    "demographics",
+    "population"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "irregular",
+  "tags": [
+    "demographic surveys",
+    "health surveys",
+    "DHS",
+    "USAID",
+    "developing countries",
+    "maternal health",
+    "child health",
+    "HIV/AIDS",
+    "family planning",
+    "fertility",
+    "nutrition",
+    "household surveys",
+    "STATcompiler"
+  ],
   "data_content": {
     "en": [
       "Fertility and Family Planning - Contraceptive use, unmet need, fertility preferences, total fertility rate",
@@ -54,112 +56,5 @@
       "家庭特征 - 财富指数、教育、资产、住房条件"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "cross-sectional",
-      "api"
-    ],
-    "granularity": ["household-level", "individual-level"],
-    "formats": [
-      "SPSS",
-      "Stata",
-      "SAS",
-      "flat ASCII",
-      "CSV"
-    ],
-    "languages": [
-      "en",
-      "fr",
-      "es"
-    ]
-  },
-  "access": {
-    "primary_url": "https://dhsprogram.com/",
-    "access_level": "restricted",
-    "registration_required": true,
-    "api": {
-      "available": true,
-      "documentation": "https://api.dhsprogram.com/",
-      "version": "1.0",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["SPSS", "Stata", "SAS", "CSV"]
-    }
-  },
-  "licensing": {
-    "license": "DHS Data Use Agreement",
-    "commercial_use": false,
-    "attribution_required": true,
-    "restrictions": [
-      "Registration required for data access",
-      "Data for academic and research purposes only",
-      "No redistribution of data files",
-      "Citation required in publications"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "metadata_standards": [
-    "DDI (Data Documentation Initiative)",
-    "Dublin Core",
-    "DHS Recode Manual",
-    "WHO Standard Indicators"
-  ],
-  "usage": {
-    "use_cases": [
-      "population and health policy planning",
-      "monitoring MDG and SDG indicators",
-      "maternal and child health research",
-      "HIV/AIDS program evaluation",
-      "comparative cross-country health analysis",
-      "demographic trends analysis",
-      "women's empowerment research",
-      "nutrition and food security studies"
-    ],
-    "typical_users": [
-      "researchers and academics",
-      "policy makers and government agencies",
-      "international development organizations",
-      "NGOs and public health programs",
-      "USAID and bilateral donors",
-      "WHO and UN agencies",
-      "graduate students",
-      "health program evaluators"
-    ]
-  },
-  "contact": {
-    "support_url": "https://dhsprogram.com/What-We-Do/Survey-Types/DHS.cfm",
-    "email": "info@DHSprogram.com"
-  },
-  "tags": [
-    "demographic surveys",
-    "health surveys",
-    "DHS",
-    "USAID",
-    "developing countries",
-    "maternal health",
-    "child health",
-    "HIV/AIDS",
-    "family planning",
-    "fertility",
-    "nutrition",
-    "household surveys",
-    "STATcompiler"
-  ],
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "status": "active",
-    "contributor": "datasource-scraper"
-  }
+  "authority_level": "international"
 }

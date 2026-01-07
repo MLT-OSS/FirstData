@@ -5,50 +5,38 @@
     "zh": "香港交易及结算所有限公司（港交所）",
     "native": "香港交易及结算所有限公司"
   },
-  "organization": {
-    "name": "Hong Kong Exchanges and Clearing Limited",
-    "type": "commercial",
-    "country": "HK",
-    "website": "https://www.hkex.com.hk"
-  },
   "description": {
     "en": "HKEX operates securities, derivatives, and commodities markets in Hong Kong and is a leading global exchange group. It provides comprehensive market data including real-time trading data, listed company disclosures, market indices, and clearing and settlement information. HKEX also operates HKEXnews, the official platform for listed company announcements and regulatory filings.",
     "zh": "港交所（香港交易所）经营香港的证券、衍生品和商品市场，是全球领先的交易所集团。提供全面的市场数据，包括实时交易数据、上市公司披露信息、市场指数以及清算结算信息。港交所还运营HKEXnews（披露易），这是上市公司公告、招股书、IPO信息和监管文件的官方平台。"
   },
-  "access": {
-    "primary_url": "https://www.hkex.com.hk/",
-    "api": {
-      "available": true,
-      "documentation": "https://www.hkex.com.hk/Services/Market-Data-Services/Real-Time-Data-Services/Data-Licensing",
-      "version": null,
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDF", "CSV", "Excel", "HTM"]
-    },
-    "access_level": "commercial",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "regional",
-      "countries": 1,
-      "regions": ["Hong Kong", "China (via Stock Connect)"]
-    },
-    "temporal": {
-      "start_year": 1986,
-      "end_year": 2025,
-      "update_frequency": "real-time"
-    },
-    "domains": [
-      "finance",
-      "securities",
-      "derivatives",
-      "capital_markets"
-    ],
-    "indicators": 1000
-  },
+  "website": "https://www.hkex.com.hk",
+  "data_url": "https://www.hkex.com.hk/",
+  "api_url": "https://www.hkex.com.hk/Services/Market-Data-Services/Real-Time-Data-Services/Data-Licensing",
+  "country": null,
+  "domains": [
+    "finance",
+    "securities",
+    "derivatives",
+    "capital_markets"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "real-time",
+  "tags": [
+    "hong-kong",
+    "港交所",
+    "stock-exchange",
+    "securities",
+    "derivatives",
+    "listed-companies",
+    "market-data",
+    "hkex",
+    "capital-markets",
+    "stock-connect",
+    "ipo",
+    "prospectus",
+    "招股书",
+    "上市公司"
+  ],
   "data_content": {
     "en": [
       "Securities Market Data - Real-time and historical data for equities, warrants, REITs, debt securities, ETFs, and structured products",
@@ -73,83 +61,5 @@
       "市场通讯 - 通告、监管公告和交易所通知"
     ]
   },
-  "data_characteristics": {
-    "types": ["time-series", "cross-sectional", "text", "api"],
-    "granularity": ["real-time", "daily", "weekly", "monthly", "annual"],
-    "formats": ["PDF", "CSV", "Excel", "HTM", "XML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Commercial Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Real-time market data requires paid license agreement",
-      "Some historical data products require subscription",
-      "Terms of use apply to HKEXnews content redistribution"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["IOSCO standards", "ISO 10383"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Stock market analysis and trading",
-      "Listed company research and due diligence",
-      "Derivatives trading and risk management",
-      "Market index tracking and portfolio management",
-      "IPO research and subscription",
-      "Corporate governance and compliance monitoring",
-      "Academic research on Asian capital markets"
-    ],
-    "example_studies": [
-      "HKEX Market Statistics",
-      "HKEXnews Listed Company Announcements",
-      "Stock Connect Monthly Reports"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "china-csrc",
-    "china-sse",
-    "china-szse",
-    "hk-sfc"
-  ],
-  "contact": {
-    "support_url": "https://www.hkex.com.hk/Global/Exchange/Contact?sc_lang=en"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-24",
-    "last_updated": "2025-12-24",
-    "verified_date": "2025-12-24",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "hong-kong",
-    "港交所",
-    "stock-exchange",
-    "securities",
-    "derivatives",
-    "listed-companies",
-    "market-data",
-    "hkex",
-    "capital-markets",
-    "stock-connect",
-    "ipo",
-    "prospectus",
-    "招股书",
-    "上市公司"
-  ]
+  "authority_level": "commercial"
 }

@@ -4,47 +4,39 @@
     "en": "CoNLL Shared Tasks Data",
     "zh": "CoNLL共享任务数据集"
   },
-  "organization": {
-    "name": "SIGNLL (Special Interest Group on Natural Language Learning)",
-    "type": "research_institution",
-    "country": null,
-    "website": "https://www.signll.org"
-  },
   "description": {
     "en": "CoNLL (Conference on Computational Natural Language Learning) has organized annual shared tasks since 1999, providing benchmark datasets for various NLP challenges including named entity recognition, chunking, parsing, semantic role labeling, coreference resolution, and more. These datasets have become standard benchmarks in the NLP research community, enabling fair comparison of different machine learning approaches across multiple languages and tasks.",
     "zh": "CoNLL(计算自然语言学习会议)自1999年以来每年组织共享任务,为各种自然语言处理挑战提供基准数据集,包括命名实体识别、组块分析、句法分析、语义角色标注、共指消解等。这些数据集已成为NLP研究社区的标准基准,可以在多种语言和任务中公平比较不同的机器学习方法。"
   },
-  "access": {
-    "primary_url": "https://www.conll.org/previous-tasks",
-    "api": {
-      "available": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["TXT", "CoNLL-U", "XML"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 1999,
-      "end_year": 2023,
-      "update_frequency": "annual"
-    },
-    "domains": [
-      "Natural Language Processing",
-      "Computational Linguistics",
-      "Machine Learning",
-      "Named Entity Recognition",
-      "Parsing",
-      "Semantic Analysis"
-    ],
-    "indicators": 25
-  },
+  "website": "https://www.signll.org",
+  "data_url": "https://www.conll.org/previous-tasks",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Natural Language Processing",
+    "Computational Linguistics",
+    "Machine Learning",
+    "Named Entity Recognition",
+    "Parsing",
+    "Semantic Analysis"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "NLP",
+    "natural language processing",
+    "machine learning",
+    "named entity recognition",
+    "NER",
+    "parsing",
+    "chunking",
+    "semantic role labeling",
+    "coreference resolution",
+    "multilingual",
+    "benchmark datasets",
+    "shared task",
+    "computational linguistics"
+  ],
   "data_content": {
     "en": [
       "Named Entity Recognition (NER) datasets - English, German, Spanish, Dutch",
@@ -71,103 +63,5 @@
       "BabyLM挑战数据集"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "text",
-      "cross-sectional"
-    ],
-    "granularity": [
-      "word-level",
-      "sentence-level",
-      "document-level"
-    ],
-    "formats": [
-      "TXT",
-      "CoNLL-U",
-      "XML",
-      "TSV"
-    ],
-    "languages": [
-      "en",
-      "de",
-      "es",
-      "nl",
-      "zh",
-      "ar"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Varies by dataset - mostly research/academic licenses",
-    "commercial_use": false,
-    "attribution_required": true,
-    "restrictions": [
-      "Some datasets require access to underlying corpora (e.g., Reuters Corpus, ECI Multilingual Text Corpus)",
-      "Primarily for research and academic use",
-      "Attribution to original task organizers required"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "CoNLL-U Format",
-      "Universal Dependencies",
-      "BIO/IOB Tagging"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Named Entity Recognition model training and evaluation",
-      "Dependency parsing system benchmarking",
-      "Semantic role labeling research",
-      "Cross-lingual NLP model comparison",
-      "Educational purposes in NLP courses",
-      "Grammar checking and error correction systems"
-    ],
-    "example_studies": [
-      "Florian et al. (2003) - Named Entity Recognition through Classifier Combination (F=88.76)",
-      "Chieu & Ng (2003) - Maximum Entropy NER (F=88.31)",
-      "Kudoh & Matsumoto (2000) - SVM for Chunking (F=93.48)",
-      "Klein et al. (2003) - Character-Level Models for NER"
-    ]
-  },
-  "related_sources": [
-    "universal-dependencies",
-    "sigmorphon"
-  ],
-  "contact": {
-    "email": "conll.chairs@gmail.com",
-    "support_url": "https://www.conll.org/contact"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "Claude (datasource-fetcher)",
-    "status": "active"
-  },
-  "tags": [
-    "NLP",
-    "natural language processing",
-    "machine learning",
-    "named entity recognition",
-    "NER",
-    "parsing",
-    "chunking",
-    "semantic role labeling",
-    "coreference resolution",
-    "multilingual",
-    "benchmark datasets",
-    "shared task",
-    "computational linguistics"
-  ]
+  "authority_level": "research"
 }

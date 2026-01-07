@@ -5,45 +5,38 @@
     "zh": "世界知识产权组织知识产权统计",
     "native": "WIPO IP Statistics"
   },
-  "organization": {
-    "name": "World Intellectual Property Organization",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.wipo.int"
-  },
   "description": {
     "en": "The World Intellectual Property Organization (WIPO) IP Statistics Data Center provides comprehensive global intellectual property data. Established in 1967, WIPO serves 194 member states and provides statistical data on patents, utility models, trademarks, industrial designs, geographical indications, plant varieties, and microorganisms. The database offers extensive indicators for IP activity worldwide, supporting researchers, policymakers, and IP professionals.",
     "zh": "世界知识产权组织（WIPO）知识产权统计数据中心提供全面的全球知识产权数据。WIPO成立于1967年，服务194个成员国，提供专利、实用新型、商标、工业品外观设计、地理标志、植物品种和微生物等知识产权统计数据。数据库提供全球知识产权活动的广泛指标，支持研究人员、政策制定者和知识产权专业人士。"
   },
-  "access": {
-    "primary_url": "https://www3.wipo.int/ipstats/",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "PDF", "CSV"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 194,
-      "regions": ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"]
-    },
-    "temporal": {
-      "start_year": 1883,
-      "end_year": 2025,
-      "update_frequency": "annual"
-    },
-    "domains": ["intellectual property", "patents", "trademarks", "innovation", "technology"],
-    "indicators": 500
-  },
+  "website": "https://www.wipo.int",
+  "data_url": "https://www3.wipo.int/ipstats/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "intellectual property",
+    "patents",
+    "trademarks",
+    "innovation",
+    "technology"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "intellectual-property",
+    "patents",
+    "trademarks",
+    "industrial-design",
+    "innovation",
+    "technology",
+    "wipo",
+    "pct",
+    "madrid-system",
+    "hague-system",
+    "ip-statistics",
+    "international-organization",
+    "united-nations"
+  ],
   "data_content": {
     "en": [
       "Patent statistics - applications, grants, and in-force patents by country and technology field",
@@ -80,85 +73,5 @@
       "知识产权事实与数据出版物"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["country-level", "regional", "global", "annual", "technology-field"],
-    "formats": ["Excel", "PDF", "CSV"],
-    "languages": ["en", "fr", "es", "ar", "zh", "ru"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "WIPO Terms of Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Free access to statistics data center",
-      "Attribution required when using data",
-      "Some datasets available for download in Excel/PDF format"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["IPC - International Patent Classification", "Nice Classification", "Locarno Classification", "Vienna Classification"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "IP policy research and analysis",
-      "Technology trend analysis",
-      "Innovation ecosystem assessment",
-      "Patent landscape studies",
-      "Trademark strategy development",
-      "International IP filing analysis",
-      "Academic research on innovation",
-      "Country competitiveness analysis"
-    ],
-    "example_studies": [
-      "World Intellectual Property Indicators reports",
-      "PCT Yearly Review",
-      "Madrid Yearly Review",
-      "Hague Yearly Review",
-      "Global Innovation Index research"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "wipo-pct",
-    "wipo-madrid",
-    "wipo-hague",
-    "global-innovation-index"
-  ],
-  "contact": {
-    "support_url": "https://www3.wipo.int/contact/en/area.jsp?area=ipstats"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-10",
-    "last_updated": "2025-12-10",
-    "verified_date": "2025-12-10",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "intellectual-property",
-    "patents",
-    "trademarks",
-    "industrial-design",
-    "innovation",
-    "technology",
-    "wipo",
-    "pct",
-    "madrid-system",
-    "hague-system",
-    "ip-statistics",
-    "international-organization",
-    "united-nations"
-  ]
+  "authority_level": "international"
 }

@@ -53,7 +53,7 @@
 
 #### Agricultural Market Information System (AMIS) - 农业市场信息系统
 - **文件**: [amis.json](A-agriculture/amis.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: international
 - **类型**: G20跨机构平台 | 粮食市场数据
 - **数据格式**: CSV, Excel, PDF
 - **访问类型**: 开放
@@ -67,7 +67,7 @@
 
 #### Statistical Review of World Energy - 世界能源统计年鉴
 - **文件**: [bp-statistical-review.json](D-energy/bp-statistical-review.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: market
 - **类型**: 能源研究所 | 全球能源统计
 - **数据格式**: CSV, Excel, PDF
 - **访问类型**: 注册
@@ -83,7 +83,7 @@
 
 ##### ImageNet - ImageNet图像数据库
 - **文件**: [imagenet.json](J-information-communication/imagenet.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 斯坦福视觉实验室 & 普林斯顿大学 | 图像分类
 - **数据格式**: JPEG, tar, zip
 - **访问类型**: 学术注册
@@ -93,7 +93,7 @@
 
 ##### CIFAR-10 and CIFAR-100 - CIFAR图像数据集
 - **文件**: [cifar.json](J-information-communication/cifar.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 多伦多大学 | 图像分类基准
 - **数据格式**: Binary, Python pickle
 - **访问类型**: 开放
@@ -104,7 +104,7 @@
 
 ##### BooksCorpus - 书籍语料库
 - **文件**: [bookscorpus.json](J-information-communication/bookscorpus.json) ⭐
-- **权威性**: ⭐⭐⭐ (3.0/5.0)
+- **权威等级**: research
 - **类型**: 多伦多大学 | 大规模文本语料库
 - **数据格式**: Text
 - **访问类型**: 学术注册
@@ -112,7 +112,7 @@
 
 ##### CoNLL Shared Tasks Data - CoNLL共享任务数据
 - **文件**: [conll-shared-tasks.json](J-information-communication/conll-shared-tasks.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: CoNLL会议 | NLP基准数据集
 - **数据格式**: CoNLL format, Text
 - **访问类型**: 开放
@@ -122,7 +122,7 @@
 
 ##### Common Crawl - 公共网络爬虫数据
 - **文件**: [common-crawl.json](J-information-communication/common-crawl.json) ⭐
-- **权威性**: ⭐⭐⭐⭐ (4.0/5.0)
+- **权威等级**: research
 - **类型**: 非营利组织 | 大规模网络存档
 - **数据格式**: WARC, WET, WAT
 - **访问类型**: 开放
@@ -135,7 +135,7 @@
 
 #### CRSP - Center for Research in Security Prices - 证券价格研究中心
 - **文件**: [crsp.json](K-finance-insurance/crsp.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 芝加哥大学 | 股票市场数据
 - **数据格式**: CSV, SAS, STATA
 - **访问类型**: 学术订阅
@@ -145,7 +145,7 @@
 
 #### Bloomberg Terminal (Public Data) - 彭博终端公开数据
 - **文件**: [bloomberg-terminal.json](K-finance-insurance/bloomberg-terminal.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: commercial
 - **类型**: 彭博社 | 金融市场数据平台
 - **数据格式**: Proprietary
 - **访问类型**: 订阅
@@ -153,7 +153,7 @@
 
 #### Cryptocurrency Market Data (CoinMarketCap & CoinGecko) - 加密货币市场数据
 - **文件**: [cryptocurrency-data.json](K-finance-insurance/cryptocurrency-data.json) ⭐
-- **权威性**: ⭐⭐⭐⭐ (4.0/5.0)
+- **权威等级**: commercial
 - **类型**: 市场数据平台 | 加密货币
 - **数据格式**: JSON, CSV
 - **访问类型**: 免费+付费API
@@ -161,7 +161,7 @@
 
 #### Alpha Vantage API - Alpha Vantage金融数据API
 - **文件**: [alpha-vantage.json](K-finance-insurance/alpha-vantage.json) ⭐
-- **权威性**: ⭐⭐⭐⭐ (4.0/5.0)
+- **权威等级**: commercial
 - **类型**: 数据服务商 | 股票与外汇数据
 - **数据格式**: JSON, CSV
 - **访问类型**: 免费+付费API
@@ -173,7 +173,7 @@
 
 #### Derwent Innovation Index - 德温特创新索引
 - **文件**: [derwent-innovation-index.json](M-professional-scientific/derwent-innovation-index.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: commercial
 - **类型**: 科睿唯安 | 专利数据库
 - **数据格式**: PDF, Excel, CSV, XML
 - **访问类型**: 商业订阅
@@ -183,7 +183,7 @@
 
 #### Cambridge Structural Database (CSD) - 剑桥结构数据库
 - **文件**: [cambridge-structural-database.json](M-professional-scientific/cambridge-structural-database.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 剑桥晶体数据中心 | 化学晶体结构
 - **数据格式**: CIF, MOL
 - **访问类型**: 订阅
@@ -195,7 +195,7 @@
 
 #### Academic Ranking of World Universities (ARWU) - 世界大学学术排名
 - **文件**: [arwu.json](P-education/arwu.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 软科教育信息咨询 | 大学排名
 - **数据格式**: PDF, Excel
 - **访问类型**: 开放
@@ -211,7 +211,7 @@
 
 ##### ATP/WTA Tennis Data - ATP/WTA网球数据
 - **文件**: [tennis-atp-wta-data.json](R-arts-entertainment/tennis-atp-wta-data.json) ⭐
-- **权威性**: ⭐⭐⭐⭐ (4.0/5.0)
+- **权威等级**: research
 - **类型**: Tennis Abstract | 网球统计数据
 - **数据格式**: CSV
 - **访问类型**: 开放
@@ -223,7 +223,7 @@
 
 ##### British Museum Collection - 大英博物馆馆藏
 - **文件**: [british-museum-collection.json](R-arts-entertainment/british-museum-collection.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 大英博物馆 | 文化遗产数据
 - **数据格式**: CSV, Image, HTML
 - **访问类型**: 开放

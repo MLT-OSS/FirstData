@@ -4,60 +4,54 @@
     "en": "CGIAR Research Data",
     "zh": "国际农业研究磋商组织研究数据"
   },
-  "organization": {
-    "name": "CGIAR (Consultative Group on International Agricultural Research)",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.cgiar.org"
-  },
   "description": {
     "en": "CGIAR is a global research partnership for a food-secure future, dedicated to transforming food, land, and water systems in a climate crisis. The CGIAR research data ecosystem includes GARDIAN (Global Agricultural Research Data Innovation and Acceleration Network), a pan-CGIAR data search and discoverability portal that allows datasets, publications, and crop varieties across all 15 centers and 11 gene banks to be easily found. The platform harvests from ~40 separate open data and publication repositories, providing access to nearly 100,000 publications and 3,000+ datasets covering agricultural research for development (AR4D) globally.",
     "zh": "国际农业研究磋商组织（CGIAR）是一个致力于粮食安全未来的全球研究伙伴关系，专注于在气候危机中转变粮食、土地和水资源系统。CGIAR 研究数据生态系统包括 GARDIAN（全球农业研究数据创新与加速网络），这是一个泛 CGIAR 数据搜索和发现门户，可以轻松找到所有 15 个中心和 11 个基因库的数据集、出版物和作物品种。该平台从约 40 个独立的开放数据和出版物仓库中采集数据，提供近 100,000 篇出版物和 3,000 多个数据集的访问，覆盖全球农业发展研究（AR4D）。"
   },
-  "access": {
-    "primary_url": "https://gardian.cgiar.org/",
-    "api": {
-      "available": true,
-      "documentation": "https://cgspace.cgiar.org/rest",
-      "version": "OAI-PMH 2.0 / DSpace REST API",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "JSON", "XML", "RDF", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 150,
-      "regions": ["Global", "Africa", "Asia", "Latin America", "Middle East"]
-    },
-    "temporal": {
-      "start_year": 1971,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "Agriculture",
-      "Food Security",
-      "Climate Change Adaptation",
-      "Agricultural Biodiversity",
-      "Crop Science",
-      "Livestock Systems",
-      "Water Resources Management",
-      "Soil Science",
-      "Genetics and Genomics",
-      "Sustainable Intensification",
-      "Nutrition",
-      "Agricultural Economics",
-      "Agricultural Policy",
-      "Agroforestry"
-    ],
-    "indicators": 3000
-  },
+  "website": "https://www.cgiar.org",
+  "data_url": "https://gardian.cgiar.org/",
+  "api_url": "https://cgspace.cgiar.org/rest",
+  "country": null,
+  "domains": [
+    "Agriculture",
+    "Food Security",
+    "Climate Change Adaptation",
+    "Agricultural Biodiversity",
+    "Crop Science",
+    "Livestock Systems",
+    "Water Resources Management",
+    "Soil Science",
+    "Genetics and Genomics",
+    "Sustainable Intensification",
+    "Nutrition",
+    "Agricultural Economics",
+    "Agricultural Policy",
+    "Agroforestry"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "agriculture",
+    "food-security",
+    "climate-change",
+    "crop-science",
+    "genetic-resources",
+    "sustainable-agriculture",
+    "international-research",
+    "cgiar",
+    "germplasm",
+    "gene-banks",
+    "agricultural-biodiversity",
+    "open-access",
+    "fair-data",
+    "research-publications",
+    "geospatial",
+    "climate-adaptation",
+    "livestock",
+    "water-resources",
+    "soil-science",
+    "nutrition"
+  ],
   "data_content": {
     "en": [
       "Research Publications - Peer-reviewed articles, working papers, technical reports on agricultural research",
@@ -88,96 +82,5 @@
       "营养数据 - 作物营养成分、膳食多样性、食物成分"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel", "geospatial", "text"],
-    "granularity": ["plot-level", "farm-level", "community-level", "regional", "national", "global"],
-    "formats": ["CSV", "Excel", "JSON", "XML", "NetCDF", "GeoTIFF", "Shapefile", "PDF"],
-    "languages": ["en", "es", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CC-BY 4.0 (Creative Commons Attribution 4.0)",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Attribution to CGIAR and specific research center required",
-      "Some datasets may have additional restrictions - check individual dataset licenses",
-      "Compliance with CGIAR Open Access and Data Management Policy"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "Dublin Core Metadata",
-      "CGIAR Core Metadata Schema",
-      "AGROVOC (FAO Thesaurus)",
-      "CABI Thesaurus",
-      "OAI-PMH",
-      "FAIR Data Principles"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Agricultural research and development",
-      "Climate change adaptation strategies",
-      "Crop breeding and genetic improvement",
-      "Food security policy analysis",
-      "Sustainable agriculture practices",
-      "Natural resource management",
-      "Agricultural extension and training",
-      "Meta-analysis and systematic reviews",
-      "Machine learning and AI for agriculture",
-      "Global food system modeling"
-    ],
-    "example_studies": [
-      "CGIAR initiatives on climate-resilient agriculture",
-      "Global crop improvement programs",
-      "FAIR data sharing in agricultural research (Frontiers in Environmental Science, 2023)",
-      "GARDIAN platform for agricultural data synthesis",
-      "COVID-19 impact on food systems research"
-    ]
-  },
-  "related_sources": ["fao-data", "worldbank-data"],
-  "contact": {
-    "email": "gardian@cgiar.org",
-    "support_url": "https://gardian.cgiar.org/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "agriculture",
-    "food-security",
-    "climate-change",
-    "crop-science",
-    "genetic-resources",
-    "sustainable-agriculture",
-    "international-research",
-    "cgiar",
-    "germplasm",
-    "gene-banks",
-    "agricultural-biodiversity",
-    "open-access",
-    "fair-data",
-    "research-publications",
-    "geospatial",
-    "climate-adaptation",
-    "livestock",
-    "water-resources",
-    "soil-science",
-    "nutrition"
-  ]
+  "authority_level": "international"
 }

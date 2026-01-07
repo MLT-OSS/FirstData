@@ -42,7 +42,7 @@
 
 #### BIS Statistics - 国际清算银行统计数据
 - **文件**: [bis-statistics.json](economics/bis-statistics.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **类型**: 国际金融数据、银行统计、金融市场数据
 - **涵盖**: 全球，1948-2025年，5,000+指标
 - **更新频率**: 季度
@@ -50,7 +50,7 @@
 
 #### The Conference Board Economic Data - 世界大型企业联合会经济数据
 - **文件**: [conference-board.json](economics/conference-board.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 经济指标、景气指数、生产率数据
 - **涵盖**: 全球主要经济体，1948-2025年
 - **更新频率**: 月度
@@ -58,7 +58,7 @@
 
 #### NBER - National Bureau of Economic Research - 国家经济研究局
 - **文件**: [nber.json](economics/nber.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 研究论文、公共数据集、经济指标
 - **涵盖**: 34,000+ 工作论文，商业周期数据，劳动经济学，生产率指标
 - **更新频率**: 每周
@@ -66,7 +66,7 @@
 
 #### Penn World Table - 宾州世界表
 - **文件**: [penn-world-table.json](economics/penn-world-table.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 跨国比较数据、经济增长、生产率
 - **涵盖**: 185个国家，1950-2023年，50+经济指标
 - **更新频率**: 年度
@@ -74,7 +74,7 @@
 
 #### GGDC Databases - 格罗宁根增长与发展中心数据库
 - **文件**: [ggdc-databases.json](economics/ggdc-databases.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 生产率、全球价值链、历史发展、结构变化
 - **涵盖**: 200+国家，1870-2023年，200+指标
 - **更新频率**: 年度
@@ -82,7 +82,7 @@
 
 #### World Inequality Database - 世界不平等数据库
 - **文件**: [world-inequality-database.json](economics/world-inequality-database.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 收入分配、财富不平等、社会不平等
 - **涵盖**: 70+国家，1900-2024年，100+不平等指标
 - **更新频率**: 年度
@@ -92,7 +92,7 @@
 
 #### PubMed - PubMed生物医学文献数据库
 - **文件**: [pubmed.json](health/pubmed.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **类型**: 文献引用、摘要、全文链接、API
 - **涵盖**: 全球范围，3900万+引用文献，1946-2025年
 - **更新频率**: 每日
@@ -100,7 +100,7 @@
 
 #### ClinicalTrials.gov - 临床试验注册数据库
 - **文件**: [clinicaltrials-gov.json](health/clinicaltrials-gov.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **类型**: 临床试验注册、研究设计、结果数据、API
 - **涵盖**: 全球220个国家，40万+临床试验，2000-2025年
 - **更新频率**: 每日
@@ -108,7 +108,7 @@
 
 #### Demographic and Health Surveys (DHS) - 人口与健康调查项目
 - **文件**: [dhs.json](health/dhs.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (4.8/5.0)
+- **权威等级**: international
 - **类型**: 人口统计、健康调查、横截面数据、API
 - **涵盖**: 90个发展中国家，400+调查，1984-2025年
 - **更新频率**: 不定期（每国约5年一次）
@@ -116,7 +116,7 @@
 
 #### Global Health Data Exchange (GHDx) - 全球健康数据交换平台
 - **文件**: [ghdx.json](health/ghdx.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 全球疾病负担、健康指标、时间序列、API
 - **涵盖**: 204个国家，1950-2025年，1万+健康指标
 - **更新频率**: 不定期（GBD研究更新）
@@ -124,7 +124,7 @@
 
 #### The Cancer Genome Atlas (TCGA) - 癌症基因组图谱
 - **文件**: [tcga.json](health/tcga.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (4.6/5.0)
+- **权威等级**: government
 - **类型**: 基因组数据、癌症研究、横截面、API
 - **涵盖**: 美国，2万+样本，33种癌症类型，2006-2018年
 - **更新频率**: 一次性（项目已完成）
@@ -134,7 +134,7 @@
 
 #### GenBank - 基因库
 - **文件**: [genbank.json](biology/genbank.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **类型**: 基因序列、DNA数据库、API
 - **涵盖**: 全球所有生物，1982-2025年
 - **更新频率**: 每日
@@ -142,7 +142,7 @@
 
 #### UK Biobank - 英国生物样本库
 - **文件**: [uk-biobank.json](biology/uk-biobank.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 队列研究、多模态数据、纵向、API
 - **涵盖**: 英国，50万参与者，1万+指标，2006-2025年
 - **更新频率**: 不定期（持续随访）
@@ -150,7 +150,7 @@
 
 #### 1000 Genomes Project - 千人基因组计划
 - **文件**: [1000-genomes.json](biology/1000-genomes.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 人类基因组变异、群体遗传学数据
 - **涵盖**: 全球26个群体，2,504个个体，2008-2015年
 - **更新频率**: 一次性（项目已完成）
@@ -158,7 +158,7 @@
 
 #### Protein Data Bank (PDB) - RCSB蛋白质数据银行
 - **文件**: [pdb.json](biology/pdb.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 蛋白质结构数据、生物大分子
 - **涵盖**: 全球，200,000+结构，1971-2025年
 - **更新频率**: 每周
@@ -166,7 +166,7 @@
 
 #### AlphaFold Protein Structure Database - AlphaFold蛋白质结构数据库
 - **文件**: [alphafold-db.json](biology/alphafold-db.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: international
 - **类型**: AI预测蛋白质结构、生物信息学
 - **涵盖**: 2亿+蛋白质结构预测，2021-2025年
 - **更新频率**: 定期更新
@@ -174,7 +174,7 @@
 
 #### European Nucleotide Archive (ENA) - 欧洲核苷酸档案
 - **文件**: [ena.json](biology/ena.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: international
 - **类型**: 核苷酸序列、基因组数据、API
 - **涵盖**: 全球所有生物，1982-2025年
 - **更新频率**: 每日
@@ -184,7 +184,7 @@
 
 #### PubChem - NCBI公共化学数据库
 - **文件**: [pubchem.json](chemistry/pubchem.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **类型**: 化学结构、生物活性、化学信息学
 - **涵盖**: 1.1亿+化合物，2004-2025年
 - **更新频率**: 每日
@@ -192,7 +192,7 @@
 
 #### ChemSpider - 皇家化学学会化学数据库
 - **文件**: [chemspider.json](chemistry/chemspider.json) ⭐
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: international
 - **类型**: 化学结构、物理性质、光谱数据
 - **涵盖**: 1.2亿+化学结构，2007-2025年
 - **更新频率**: 每日
@@ -200,7 +200,7 @@
 
 #### ChEMBL - 欧洲分子生物学实验室生物活性数据库
 - **文件**: [chembl.json](chemistry/chembl.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 生物活性化合物、药物发现数据
 - **涵盖**: 240万+化合物，1970-2025年
 - **更新频率**: 季度
@@ -208,7 +208,7 @@
 
 #### DrugBank - 药物与药物靶点数据库
 - **文件**: [drugbank.json](chemistry/drugbank.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 药物信息、靶点数据、药物相互作用
 - **涵盖**: 14,000+药物条目，1990-2025年
 - **更新频率**: 季度
@@ -218,7 +218,7 @@
 
 #### CERN Open Data Portal - CERN开放数据门户
 - **文件**: [cern-open-data.json](physics/cern-open-data.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 粒子物理实验数据、高能物理数据
 - **涵盖**: CERN实验，2010-2025年
 - **更新频率**: 不定期
@@ -226,7 +226,7 @@
 
 #### Crystallography Open Database - 晶体学开放数据库
 - **文件**: [crystallography-open-database.json](physics/crystallography-open-database.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 晶体结构数据、化学信息学
 - **涵盖**: 全球，500,000+晶体结构，1915-2025年
 - **更新频率**: 每日
@@ -236,7 +236,7 @@
 
 #### Copernicus Open Access Hub - 哥白尼开放访问中心
 - **文件**: [copernicus-open-access-hub.json](environment/copernicus-open-access-hub.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: international
 - **类型**: 地球观测数据、卫星遥感、环境监测
 - **涵盖**: 全球，2014-2025年
 - **更新频率**: 每日
@@ -246,7 +246,7 @@
 
 #### Afrobarometer - 非洲晴雨表
 - **文件**: [afrobarometer.json](social/afrobarometer.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 公众态度调查、民主治理、社会经济数据
 - **涵盖**: 39个非洲国家，1999-2025年
 - **更新频率**: 不定期（约2-3年一轮）
@@ -254,7 +254,7 @@
 
 #### Asian Barometer Survey - 亚洲民主动态调查
 - **文件**: [asian-barometer.json](social/asian-barometer.json) ⭐💎
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: research
 - **类型**: 公众态度调查、民主治理、政治文化
 - **涵盖**: 20个亚洲国家和地区，2001-2025年
 - **更新频率**: 不定期（约3-4年一轮）

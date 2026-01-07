@@ -4,53 +4,40 @@
     "en": "Protein Data Bank (PDB)",
     "zh": "蛋白质数据银行"
   },
-  "organization": {
-    "name": "Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB PDB)",
-    "type": "research_institution",
-    "country": null,
-    "website": "https://www.rcsb.org"
-  },
   "description": {
     "en": "The Protein Data Bank (PDB) is the global archive for 3D structural data of large biological molecules including proteins, DNA, and RNA. As the first open access digital data resource in all of biology and medicine, PDB provides experimentally-determined structures, integrative structures, and computed structure models essential for research and education in fundamental biology, biomedicine, energy sciences, and biotechnology. RCSB PDB operates the US data center for the worldwide PDB archive and provides open access to over 246,000 experimental structures and 1 million computed structure models.",
     "zh": "蛋白质数据银行（PDB）是全球大型生物分子（包括蛋白质、DNA 和 RNA）三维结构数据的档案库。作为生物学和医学领域第一个开放获取的数字数据资源，PDB 提供实验测定的结构、整合结构和计算结构模型，对基础生物学、生物医学、能源科学和生物技术的研究和教育至关重要。RCSB PDB 运营全球 PDB 档案库的美国数据中心，提供超过 24.6 万个实验结构和 100 万个计算结构模型的开放访问。"
   },
-  "access": {
-    "primary_url": "https://www.rcsb.org",
-    "api": {
-      "available": true,
-      "documentation": "https://data.rcsb.org",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDB", "mmCIF", "PDBML", "FASTA", "XML", "JSON"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 195,
-      "regions": ["All continents"]
-    },
-    "temporal": {
-      "start_year": 1971,
-      "end_year": 2025,
-      "update_frequency": "weekly"
-    },
-    "domains": [
-      "Structural Biology",
-      "Biochemistry",
-      "Molecular Biology",
-      "Computational Biology",
-      "Drug Discovery",
-      "Biotechnology",
-      "Protein Science"
-    ],
-    "indicators": 246413
-  },
+  "website": "https://www.rcsb.org",
+  "data_url": "https://www.rcsb.org",
+  "api_url": "https://data.rcsb.org",
+  "country": null,
+  "domains": [
+    "Structural Biology",
+    "Biochemistry",
+    "Molecular Biology",
+    "Computational Biology",
+    "Drug Discovery",
+    "Biotechnology",
+    "Protein Science"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "weekly",
+  "tags": [
+    "protein structures",
+    "structural biology",
+    "3D structures",
+    "molecular biology",
+    "drug discovery",
+    "biotechnology",
+    "open science",
+    "bioinformatics",
+    "crystallography",
+    "cryo-EM",
+    "NMR",
+    "PDB",
+    "macromolecular structures"
+  ],
   "data_content": {
     "en": [
       "Experimentally-determined 3D protein structures (X-ray crystallography, NMR, cryo-EM)",
@@ -79,89 +66,5 @@
       "结构测定元数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "image", "api", "text"],
-    "granularity": ["molecular-level", "atomic-resolution"],
-    "formats": ["PDB", "mmCIF", "PDBML", "FASTA", "CSV", "JSON", "XML"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Access - No restrictions on usage",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": [
-      "mmCIF",
-      "PDBx/mmCIF",
-      "PDBML",
-      "wwPDB standards",
-      "FAIR principles"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Drug discovery and development",
-      "Protein structure prediction validation",
-      "Protein engineering and design",
-      "Understanding disease mechanisms",
-      "Enzyme mechanism studies",
-      "Structure-based drug design",
-      "Biotechnology applications",
-      "Educational materials for structural biology",
-      "AI/ML training for protein structure prediction"
-    ],
-    "example_studies": [
-      "COVID-19 structure determination and drug development",
-      "Cancer drug target identification",
-      "AlphaFold protein structure prediction",
-      "Antibiotic resistance mechanism studies"
-    ],
-    "code_examples": [
-      "https://github.com/rcsb"
-    ]
-  },
-  "related_sources": [
-    "intl-alphafold-db",
-    "intl-uniprot",
-    "intl-emdb"
-  ],
-  "contact": {
-    "email": "info@rcsb.org",
-    "support_url": "https://www.rcsb.org/pages/contactus"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "protein structures",
-    "structural biology",
-    "3D structures",
-    "molecular biology",
-    "drug discovery",
-    "biotechnology",
-    "open science",
-    "bioinformatics",
-    "crystallography",
-    "cryo-EM",
-    "NMR",
-    "PDB",
-    "macromolecular structures"
-  ]
+  "authority_level": "research"
 }

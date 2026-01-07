@@ -4,53 +4,43 @@
     "en": "Common Crawl",
     "zh": "Common Crawl 网络爬取数据"
   },
-  "organization": {
-    "name": "Common Crawl Foundation",
-    "type": "research_institution",
-    "country": null,
-    "website": "https://commoncrawl.org"
-  },
   "description": {
     "en": "Common Crawl is a 501(c)(3) non-profit organization that maintains a free, open repository of web crawl data that can be used by anyone. The corpus contains petabytes of raw web page data, metadata extracts, and text extracts, regularly collected since 2008. With over 300 billion pages spanning 18 years, Common Crawl adds 3-5 billion new pages each month and has been cited in over 10,000 research papers. The data is stored on Amazon Web Services' Public Data Sets and on multiple academic cloud platforms across the world, making wholesale extraction, transformation and analysis of open web data accessible to researchers, companies and individuals at no cost.",
     "zh": "Common Crawl 是一个 501(c)(3) 非营利组织，维护着一个免费、开放的网络爬取数据仓库，任何人都可以使用。该语料库包含PB级的原始网页数据、元数据提取和文本提取，自2008年以来定期收集。拥有超过3000亿个网页，跨越18年，Common Crawl每月新增30-50亿个网页，已被超过10,000篇研究论文引用。数据存储在亚马逊网络服务的公共数据集和全球多个学术云平台上，使研究人员、公司和个人能够免费访问、提取、转换和分析开放的网络数据。"
   },
-  "access": {
-    "primary_url": "https://commoncrawl.org",
-    "api": {
-      "available": true,
-      "documentation": "https://index.commoncrawl.org",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["WARC", "WAT", "WET", "Parquet", "JSON"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global"
-    },
-    "temporal": {
-      "start_year": 2008,
-      "end_year": 2025,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "Web Crawling",
-      "Natural Language Processing",
-      "Machine Learning",
-      "Data Science",
-      "Information Retrieval",
-      "Web Analytics",
-      "Artificial Intelligence",
-      "Research",
-      "Large Language Models"
-    ],
-    "indicators": 300000000000
-  },
+  "website": "https://commoncrawl.org",
+  "data_url": "https://commoncrawl.org",
+  "api_url": "https://index.commoncrawl.org",
+  "country": null,
+  "domains": [
+    "Web Crawling",
+    "Natural Language Processing",
+    "Machine Learning",
+    "Data Science",
+    "Information Retrieval",
+    "Web Analytics",
+    "Artificial Intelligence",
+    "Research",
+    "Large Language Models"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "web-crawling",
+    "natural-language-processing",
+    "machine-learning",
+    "large-language-models",
+    "web-data",
+    "text-corpus",
+    "open-data",
+    "research",
+    "big-data",
+    "artificial-intelligence",
+    "data-science",
+    "web-mining",
+    "nlp",
+    "internet-archive"
+  ],
   "data_content": {
     "en": [
       "Raw Web Page Data - HTML, CSS, JavaScript and other web content in WARC format",
@@ -75,88 +65,5 @@
       "域名覆盖 - 来自全球数百万个域名的网页"
     ]
   },
-  "data_characteristics": {
-    "types": ["text", "cross-sectional", "time-series", "api"],
-    "granularity": ["web-page-level", "monthly-crawls", "domain-level"],
-    "formats": ["WARC", "WAT", "WET", "Parquet", "JSON", "CDX"],
-    "languages": ["en", "zh", "es", "fr", "de", "ja", "pt", "ru", "ar"]
-  },
-  "quality": {
-    "authority_level": 4,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 4,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Data - Terms of Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must comply with Common Crawl Terms of Use",
-      "Users responsible for respecting original content licenses",
-      "No abusive or illegal usage permitted",
-      "Attribution recommended in research publications"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["WARC (ISO 28500)", "HTTP Protocol", "CDX Index Format", "Sitemap Protocol"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Training large language models (LLMs)",
-      "Natural language processing research",
-      "Web mining and data extraction",
-      "Search engine development",
-      "Trend analysis and prediction",
-      "Language translation software improvement",
-      "Academic research in computer science and linguistics",
-      "Web analytics and SEO research",
-      "Domain and website analysis",
-      "Historical web content preservation"
-    ],
-    "example_studies": [
-      "Geolocating and embedding 50M German news articles for semantic analysis (Kriesch & Losacker, 2025)",
-      "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
-      "esCorpius: A Massive Spanish Crawling Corpus",
-      "BacklinkDB: A Purpose-Built Backlink Database Management System"
-    ],
-    "code_examples": [
-      "https://github.com/commoncrawl/cc-downloader",
-      "https://github.com/commoncrawl/cc-pyspark",
-      "https://pypi.org/project/cdx-toolkit/",
-      "https://commoncrawl.org/examples"
-    ]
-  },
-  "related_sources": ["imagenet", "cifar"],
-  "contact": {
-    "support_url": "https://commoncrawl.org/contact-us"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "web-crawling",
-    "natural-language-processing",
-    "machine-learning",
-    "large-language-models",
-    "web-data",
-    "text-corpus",
-    "open-data",
-    "research",
-    "big-data",
-    "artificial-intelligence",
-    "data-science",
-    "web-mining",
-    "nlp",
-    "internet-archive"
-  ]
+  "authority_level": "research"
 }

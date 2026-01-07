@@ -5,55 +5,44 @@
     "zh": "加拿大农业与农业食品部",
     "native": "Agriculture et Agroalimentaire Canada"
   },
-  "organization": {
-    "name": "Agriculture and Agri-Food Canada",
-    "type": "national_government",
-    "country": "CA",
-    "website": "https://agriculture.canada.ca/en"
-  },
   "description": {
     "en": "Agriculture and Agri-Food Canada (AAFC) is the federal department responsible for policies and programs that support the Canadian agriculture and agri-food sector. AAFC provides comprehensive agricultural data, research, and statistics through its open data portal, including satellite-based crop inventories, land use time series, agri-environmental spatial data, and market information. The department supports innovation, competitiveness, sustainable practices, and market development for Canadian agriculture.",
     "zh": "加拿大农业与农业食品部（AAFC）是负责支持加拿大农业和农业食品行业政策和计划的联邦部门。AAFC 通过其开放数据门户提供全面的农业数据、研究和统计信息，包括基于卫星的作物清单、土地利用时间序列、农业环境空间数据和市场信息。该部门支持加拿大农业的创新、竞争力、可持续实践和市场发展。"
   },
-  "access": {
-    "primary_url": "https://open.canada.ca/data/en/organization/aafc-aac",
-    "api": {
-      "available": true,
-      "documentation": "https://agriculture.canada.ca/en/science/scientific-collaboration/open-data",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["GeoTIF", "FGDB", "GDB", "CSV", "Shapefile", "JSON"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["CA"],
-      "regions": ["Canada", "All Provinces and Territories"]
-    },
-    "temporal": {
-      "start_year": 2000,
-      "end_year": 2025,
-      "update_frequency": "annual"
-    },
-    "domains": [
-      "Agriculture",
-      "Crop Production",
-      "Land Use",
-      "Geospatial Data",
-      "Environmental Monitoring",
-      "Agricultural Economics",
-      "Food Security",
-      "Agricultural Research",
-      "Market Information"
-    ],
-    "indicators": 300
-  },
+  "website": "https://agriculture.canada.ca/en",
+  "data_url": "https://open.canada.ca/data/en/organization/aafc-aac",
+  "api_url": "https://agriculture.canada.ca/en/science/scientific-collaboration/open-data",
+  "country": "CA",
+  "domains": [
+    "Agriculture",
+    "Crop Production",
+    "Land Use",
+    "Geospatial Data",
+    "Environmental Monitoring",
+    "Agricultural Economics",
+    "Food Security",
+    "Agricultural Research",
+    "Market Information"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "agriculture",
+    "canada",
+    "crop-inventory",
+    "land-use",
+    "geospatial",
+    "satellite-imagery",
+    "environmental-data",
+    "agricultural-statistics",
+    "open-data",
+    "government",
+    "soil-quality",
+    "market-information",
+    "agricultural-research",
+    "census-agriculture",
+    "food-security"
+  ],
   "data_content": {
     "en": [
       "Annual Crop Inventory - Yearly digital maps of crop types across Canada generated from satellite imagery (2009-present)",
@@ -80,79 +69,5 @@
       "地理边界 - 农业普查区域和生态区"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "geospatial", "api"],
-    "granularity": ["national", "provincial", "census-district", "pixel-level", "annual", "seasonal"],
-    "formats": ["GeoTIF", "FGDB", "GDB", "CSV", "Shapefile", "JSON", "REST API"],
-    "languages": ["en", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 4
-  },
-  "licensing": {
-    "license": "Open Government License - Canada",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must acknowledge Agriculture and Agri-Food Canada as the source",
-      "Licensed under Open Government License - Canada",
-      "Data should not be misrepresented"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["ISO 19115", "FGDC", "North American Industry Classification System (NAICS)", "ISO 3166"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Crop yield forecasting and agricultural planning",
-      "Land use change detection and monitoring",
-      "Environmental impact assessment of agricultural practices",
-      "Agricultural policy development and analysis",
-      "Food security and supply chain planning",
-      "Climate change adaptation research",
-      "Precision agriculture and farm management",
-      "Agricultural market analysis and commodity trading"
-    ],
-    "example_studies": [
-      "Annual crop production forecasting using satellite imagery",
-      "Sustainable agriculture and environmental stewardship monitoring",
-      "Agricultural adaptation to climate variability studies"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "support_url": "https://agriculture.canada.ca/en/contact"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "agriculture",
-    "canada",
-    "crop-inventory",
-    "land-use",
-    "geospatial",
-    "satellite-imagery",
-    "environmental-data",
-    "agricultural-statistics",
-    "open-data",
-    "government",
-    "soil-quality",
-    "market-information",
-    "agricultural-research",
-    "census-agriculture",
-    "food-security"
-  ]
+  "authority_level": "government"
 }

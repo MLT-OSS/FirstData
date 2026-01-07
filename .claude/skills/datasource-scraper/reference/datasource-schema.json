@@ -1,27 +1,26 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://datasourcehub.org/schemas/datasource-v1.json",
-  "title": "DataSource Metadata Schema",
-  "description": "Standard schema for describing authoritative data sources",
-  "version": "1.0.0",
+  "$id": "https://datasourcehub.org/schemas/datasource-v2.json",
+  "title": "DataSource Metadata Schema (Simplified)",
+  "description": "Simplified schema for describing authoritative data sources - removes complex nested structures and quality scoring",
+  "version": "2.0.0",
   "type": "object",
   "required": [
     "id",
     "name",
-    "organization",
     "description",
-    "access",
-    "coverage",
-    "data_characteristics",
-    "quality",
-    "licensing"
+    "website",
+    "data_url",
+    "authority_level",
+    "domains",
+    "tags"
   ],
   "properties": {
     "id": {
       "type": "string",
       "description": "Unique identifier (lowercase, hyphen-separated)",
       "pattern": "^[a-z0-9-]+$",
-      "examples": ["china-nbs", "worldbank-data", "imf-data"]
+      "examples": ["china-nbs", "worldbank-open-data", "hkex"]
     },
     "name": {
       "type": "object",
@@ -35,42 +34,6 @@
         "zh": {
           "type": "string",
           "description": "Chinese name"
-        },
-        "native": {
-          "type": "string",
-          "description": "Native language name (if different from above)"
-        }
-      }
-    },
-    "organization": {
-      "type": "object",
-      "description": "Organization maintaining this data source",
-      "required": ["name", "type"],
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Organization name"
-        },
-        "type": {
-          "type": "string",
-          "description": "Type of organization",
-          "enum": [
-            "international_organization",
-            "national_government",
-            "research_institution",
-            "industry_association",
-            "commercial"
-          ]
-        },
-        "country": {
-          "type": ["string", "null"],
-          "description": "ISO 3166-1 alpha-2 country code (null for international)",
-          "pattern": "^[A-Z]{2}$"
-        },
-        "website": {
-          "type": "string",
-          "description": "Organization website URL",
-          "format": "uri"
         }
       }
     },
@@ -89,355 +52,101 @@
         }
       }
     },
-    "access": {
-      "type": "object",
-      "description": "Access information for the data source",
-      "required": ["primary_url", "access_level"],
-      "properties": {
-        "primary_url": {
-          "type": "string",
-          "description": "Main URL to access the data",
-          "format": "uri"
-        },
-        "api": {
-          "type": "object",
-          "description": "API information if available",
-          "properties": {
-            "available": {
-              "type": "boolean",
-              "description": "Whether API is available"
-            },
-            "documentation": {
-              "type": ["string", "null"],
-              "description": "API documentation URL",
-              "format": "uri"
-            },
-            "version": {
-              "type": ["string", "null"],
-              "description": "API version"
-            },
-            "authentication": {
-              "type": ["boolean", "null"],
-              "description": "Whether authentication is required"
-            }
-          }
-        },
-        "download": {
-          "type": "object",
-          "description": "Download options",
-          "properties": {
-            "available": {
-              "type": "boolean",
-              "description": "Whether bulk download is available"
-            },
-            "formats": {
-              "type": "array",
-              "description": "Available download formats",
-              "items": {
-                "type": "string"
-              }
-            }
-          }
-        },
-        "access_level": {
-          "type": "string",
-          "description": "Access level required",
-          "enum": ["open", "registration", "academic", "commercial", "restricted"]
-        },
-        "registration_required": {
-          "type": "boolean",
-          "description": "Whether user registration is required"
-        }
-      }
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Organization homepage URL (top-level website)"
     },
-    "coverage": {
-      "type": "object",
-      "description": "Data coverage information",
-      "required": ["geographic", "temporal", "domains"],
-      "properties": {
-        "geographic": {
-          "type": "object",
-          "description": "Geographic coverage",
-          "properties": {
-            "scope": {
-              "type": "string",
-              "description": "Geographic scope level",
-              "enum": ["global", "regional", "national", "subnational"]
-            },
-            "countries": {
-              "description": "Number of countries covered or array of country codes",
-              "oneOf": [
-                {"type": "integer"},
-                {"type": "array", "items": {"type": "string"}}
-              ]
-            },
-            "regions": {
-              "type": "array",
-              "description": "Regions covered",
-              "items": {"type": "string"}
-            }
-          }
-        },
-        "temporal": {
-          "type": "object",
-          "description": "Temporal coverage",
-          "properties": {
-            "start_year": {
-              "type": "integer",
-              "description": "First year of data",
-              "minimum": 1700
-            },
-            "end_year": {
-              "type": "integer",
-              "description": "Last year of data (current year if ongoing)"
-            },
-            "update_frequency": {
-              "type": "string",
-              "description": "How often data is updated",
-              "enum": ["real-time", "daily", "weekly", "monthly", "quarterly", "annual", "irregular", "one-time"]
-            }
-          }
-        },
-        "domains": {
-          "type": "array",
-          "description": "Subject domains covered",
-          "items": {"type": "string"},
-          "minItems": 1
-        },
-        "indicators": {
-          "type": "integer",
-          "description": "Approximate number of indicators/variables",
-          "minimum": 0
-        }
-      }
+    "data_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct URL to data access page (not organization homepage - should point to data query/download interface)"
     },
-    "data_content": {
-      "type": "object",
-      "description": "Description of main data categories and indicators available from this source",
-      "properties": {
-        "en": {
-          "type": "array",
-          "description": "List of main data categories in English",
-          "items": {"type": "string"}
-        },
-        "zh": {
-          "type": "array",
-          "description": "List of main data categories in Chinese",
-          "items": {"type": "string"}
-        }
-      }
+    "api_url": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "API documentation or endpoint URL. Set to null if no API is available."
     },
-    "data_characteristics": {
-      "type": "object",
-      "description": "Characteristics of the data",
-      "required": ["types", "granularity", "formats"],
-      "properties": {
-        "types": {
-          "type": "array",
-          "description": "Types of data available",
-          "items": {
-            "type": "string",
-            "enum": ["statistical", "time-series", "cross-sectional", "panel", "geospatial", "text", "image", "api"]
-          }
-        },
-        "granularity": {
-          "type": "array",
-          "description": "Data granularity levels",
-          "items": {"type": "string"},
-          "examples": [["country-level", "annual"], ["provincial", "monthly"]]
-        },
-        "formats": {
-          "type": "array",
-          "description": "Data formats available",
-          "items": {"type": "string"},
-          "examples": [["CSV", "Excel", "JSON"]]
-        },
-        "languages": {
-          "type": "array",
-          "description": "Languages available (ISO 639-1 codes)",
-          "items": {
-            "type": "string",
-            "pattern": "^[a-z]{2}$"
-          }
-        }
-      }
+    "authority_level": {
+      "type": "string",
+      "description": "Authority level of the data source organization",
+      "enum": [
+        "government",
+        "international",
+        "market",
+        "research",
+        "commercial",
+        "other"
+      ]
     },
-    "quality": {
-      "type": "object",
-      "description": "Quality assessment (6-dimension rating system)",
-      "required": [
-        "authority_level",
-        "methodology_transparency",
-        "update_timeliness",
-        "data_completeness",
-        "documentation_quality",
-        "citation_count"
-      ],
-      "properties": {
-        "authority_level": {
-          "type": "integer",
-          "description": "Source authority level (1-5 stars)",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "methodology_transparency": {
-          "type": "integer",
-          "description": "Methodology transparency (1-5 stars)",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "update_timeliness": {
-          "type": "integer",
-          "description": "Update timeliness (1-5 stars)",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "data_completeness": {
-          "type": "integer",
-          "description": "Data completeness (1-5 stars)",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "documentation_quality": {
-          "type": "integer",
-          "description": "Documentation quality (1-5 stars)",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "citation_count": {
-          "type": "integer",
-          "description": "Citation frequency and academic impact (1-5 stars)",
-          "minimum": 1,
-          "maximum": 5
-        }
-      }
+    "country": {
+      "type": ["string", "null"],
+      "description": "ISO 3166-1 alpha-2 country code. Only use this field when the data source clearly belongs to a specific country AND geographic_scope is 'national' or 'subnational'. MUST be null when geographic_scope is 'global' or 'regional'.",
+      "pattern": "^[A-Z]{2}$",
+      "examples": ["CN", "US", "HK", "JP", null]
     },
-    "licensing": {
-      "type": "object",
-      "description": "Licensing and usage terms",
-      "required": ["license"],
-      "properties": {
-        "license": {
-          "type": "string",
-          "description": "License name or type"
-        },
-        "commercial_use": {
-          "type": "boolean",
-          "description": "Whether commercial use is allowed"
-        },
-        "attribution_required": {
-          "type": "boolean",
-          "description": "Whether attribution is required"
-        },
-        "restrictions": {
-          "type": "array",
-          "description": "Usage restrictions",
-          "items": {"type": "string"}
-        }
-      }
-    },
-    "metadata": {
-      "type": "object",
-      "description": "Metadata standards and documentation",
-      "properties": {
-        "standards_followed": {
-          "type": "array",
-          "description": "Metadata/data standards followed",
-          "items": {"type": "string"},
-          "examples": [["SDMX", "ISO 3166", "HS Classification"]]
-        },
-        "data_dictionary": {
-          "type": "boolean",
-          "description": "Whether data dictionary is available"
-        },
-        "methodology_docs": {
-          "type": "boolean",
-          "description": "Whether methodology documentation is available"
-        },
-        "user_guide": {
-          "type": "boolean",
-          "description": "Whether user guide is available"
-        }
-      }
-    },
-    "usage": {
-      "type": "object",
-      "description": "Usage information and examples",
-      "properties": {
-        "use_cases": {
-          "type": "array",
-          "description": "Common use cases",
-          "items": {"type": "string"}
-        },
-        "example_studies": {
-          "type": "array",
-          "description": "Example studies or reports using this data",
-          "items": {"type": "string"}
-        },
-        "code_examples": {
-          "type": "array",
-          "description": "URLs to code examples",
-          "items": {"type": "string"}
-        }
-      }
-    },
-    "related_sources": {
+    "domains": {
       "type": "array",
-      "description": "IDs of related or complementary data sources",
-      "items": {"type": "string"}
+      "description": "Data domains covered by this source",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "examples": [
+        ["finance", "economics"],
+        ["health", "social"],
+        ["environment", "climate"]
+      ]
     },
-    "contact": {
-      "type": "object",
-      "description": "Contact information",
-      "properties": {
-        "email": {
-          "type": "string",
-          "description": "Contact email",
-          "format": "email"
-        },
-        "support_url": {
-          "type": "string",
-          "description": "Support or help URL",
-          "format": "uri"
-        }
-      }
+    "geographic_scope": {
+      "type": "string",
+      "description": "Geographic coverage level",
+      "enum": ["global", "regional", "national", "subnational"]
     },
-    "catalog_metadata": {
-      "type": "object",
-      "description": "Catalog-specific metadata",
-      "required": ["added_date", "last_updated", "status"],
-      "properties": {
-        "added_date": {
-          "type": "string",
-          "description": "Date added to catalog (YYYY-MM-DD)",
-          "format": "date"
-        },
-        "last_updated": {
-          "type": "string",
-          "description": "Date last updated in catalog (YYYY-MM-DD)",
-          "format": "date"
-        },
-        "verified_date": {
-          "type": "string",
-          "description": "Date last verified (YYYY-MM-DD)",
-          "format": "date"
-        },
-        "contributor": {
-          "type": "string",
-          "description": "Person or team who added/updated this entry"
-        },
-        "status": {
-          "type": "string",
-          "description": "Status of this data source",
-          "enum": ["active", "inactive", "deprecated", "under_review"]
-        }
-      }
+    "update_frequency": {
+      "type": "string",
+      "description": "Data update frequency",
+      "enum": [
+        "real-time",
+        "daily",
+        "weekly",
+        "monthly",
+        "quarterly",
+        "annual",
+        "irregular"
+      ]
     },
     "tags": {
       "type": "array",
-      "description": "Tags for searching and categorization",
-      "items": {"type": "string"},
-      "minItems": 1
+      "description": "Search tags - mixed Chinese/English keywords, synonyms, data types, and related terms for improved discoverability",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "examples": [
+        ["gdp", "经济增长", "economic-growth"],
+        ["ipo", "招股书", "prospectus", "上市公司"]
+      ]
+    },
+    "data_content": {
+      "type": "object",
+      "description": "Detailed descriptions of data categories and content available from this source",
+      "properties": {
+        "en": {
+          "type": "array",
+          "description": "English data content descriptions",
+          "items": {
+            "type": "string"
+          }
+        },
+        "zh": {
+          "type": "array",
+          "description": "Chinese data content descriptions",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

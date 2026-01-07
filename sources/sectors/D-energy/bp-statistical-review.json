@@ -4,55 +4,52 @@
     "en": "Statistical Review of World Energy",
     "zh": "世界能源统计年鉴"
   },
-  "organization": {
-    "name": "Energy Institute",
-    "type": "industry_association",
-    "country": "GB",
-    "website": "https://www.energyinst.org"
-  },
   "description": {
     "en": "The Energy Institute Statistical Review of World Energy™ analyses data on world energy markets from the prior year. Previously produced by bp (British Petroleum) since 1952, the Review has been continued by the Energy Institute since 2024, providing timely, comprehensive and objective data to the energy community. The Review covers global energy statistics including production, consumption, trade, and prices across all major energy sources: coal, oil, natural gas, nuclear, hydroelectric, and renewable energy. In collaboration with KPMG, Kearney, Heriot-Watt University, and with support from S&P Global Commodity Insights and bp.",
     "zh": "能源研究所世界能源统计年鉴™分析上一年度世界能源市场数据。该年鉴自1952年起由bp（英国石油公司）编制，自2024年起由能源研究所继续出版，为能源界提供及时、全面和客观的数据。该年鉴涵盖全球能源统计数据，包括所有主要能源的生产、消费、贸易和价格：煤炭、石油、天然气、核能、水力发电和可再生能源。与毕马威、科尔尼、赫瑞瓦特大学合作，并得到标普全球大宗商品洞察和bp的支持。"
   },
-  "access": {
-    "primary_url": "https://www.energyinst.org/statistical-review",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "PDF"]
-    },
-    "access_level": "registration",
-    "registration_required": true
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "regions": ["World", "North America", "South & Central America", "Europe", "Middle East", "Africa", "South Asia", "Other Asia Pacific", "CIS"]
-    },
-    "temporal": {
-      "start_year": 1952,
-      "end_year": 2025,
-      "update_frequency": "annual"
-    },
-    "domains": [
-      "Energy",
-      "Energy Economics",
-      "Energy Statistics",
-      "Energy Production",
-      "Energy Consumption",
-      "Energy Trade",
-      "Renewable Energy",
-      "Fossil Fuels",
-      "Climate Change",
-      "Energy Transition"
-    ],
-    "indicators": 1000
-  },
+  "website": "https://www.energyinst.org",
+  "data_url": "https://www.energyinst.org/statistical-review",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Energy",
+    "Energy Economics",
+    "Energy Statistics",
+    "Energy Production",
+    "Energy Consumption",
+    "Energy Trade",
+    "Renewable Energy",
+    "Fossil Fuels",
+    "Climate Change",
+    "Energy Transition"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "energy",
+    "energy-statistics",
+    "energy-economics",
+    "coal",
+    "oil",
+    "natural-gas",
+    "nuclear-energy",
+    "renewable-energy",
+    "hydroelectric",
+    "solar-energy",
+    "wind-energy",
+    "electricity",
+    "carbon-emissions",
+    "climate-change",
+    "energy-transition",
+    "energy-security",
+    "fossil-fuels",
+    "energy-consumption",
+    "energy-production",
+    "energy-trade",
+    "bp",
+    "energy-institute"
+  ],
   "data_content": {
     "en": [
       "Coal - Production, consumption, reserves, prices, and trade statistics",
@@ -85,92 +82,5 @@
       "国家转型追踪器 - 国家级能源转型进展指标"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel"],
-    "granularity": ["country-level", "regional-level", "global-level", "annual"],
-    "formats": ["CSV", "Excel", "PDF", "Interactive Dashboard"],
-    "languages": ["en", "zh"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Energy Institute Terms of Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Email registration required to access full data downloads",
-      "Attribution required: 'Energy Institute Statistical Review of World Energy'",
-      "For 1952-2023 data, cite as: 'bp Statistical Review of World Energy'",
-      "Data redistribution should include proper citation"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["ISO 3166", "UN Energy Statistics", "IEA Energy Balances"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Global energy market analysis and forecasting",
-      "Energy policy development and evaluation",
-      "Climate change research and emissions tracking",
-      "Energy transition monitoring and planning",
-      "Energy security and independence assessment",
-      "Investment decisions in energy sector",
-      "Academic research on energy economics",
-      "Corporate energy strategy planning",
-      "Renewable energy deployment tracking",
-      "International energy trade analysis"
-    ],
-    "example_studies": [
-      "Annual energy transition progress reports by governments and international organizations",
-      "Climate change mitigation scenario analysis (IPCC, IEA)",
-      "Energy market forecasts and outlooks",
-      "Academic research on energy economics and policy",
-      "Corporate sustainability and energy transition reporting"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "email": "statisticalreview@energyinst.org",
-    "support_url": "https://www.energyinst.org/statistical-review"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "energy",
-    "energy-statistics",
-    "energy-economics",
-    "coal",
-    "oil",
-    "natural-gas",
-    "nuclear-energy",
-    "renewable-energy",
-    "hydroelectric",
-    "solar-energy",
-    "wind-energy",
-    "electricity",
-    "carbon-emissions",
-    "climate-change",
-    "energy-transition",
-    "energy-security",
-    "fossil-fuels",
-    "energy-consumption",
-    "energy-production",
-    "energy-trade",
-    "bp",
-    "energy-institute"
-  ]
+  "authority_level": "market"
 }

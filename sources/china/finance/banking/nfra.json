@@ -5,50 +5,34 @@
     "zh": "国家金融监督管理总局",
     "native": "国家金融监督管理总局"
   },
-  "organization": {
-    "name": "National Financial Regulatory Administration",
-    "type": "national_government",
-    "country": "CN",
-    "website": "https://www.nfra.gov.cn"
-  },
   "description": {
     "en": "The National Financial Regulatory Administration (NFRA) is China's integrated financial regulatory authority formed in 2023 by merging the China Banking and Insurance Regulatory Commission (CBIRC) with banking and insurance supervision functions. It oversees the banking and insurance sectors, publishing comprehensive regulatory statistics including bank assets and liabilities, insurance premium income, regulatory compliance indicators, small and micro enterprise lending data, and sector-wide performance metrics.",
     "zh": "国家金融监督管理总局（NFRA）是中国于2023年成立的综合性金融监管机构，由原中国银行保险监督管理委员会（银保监会）与银行保险监管职能合并而成。负责监管银行业和保险业，发布全面的监管统计数据，包括银行资产负债、保险保费收入、监管合规指标、普惠型小微企业贷款数据以及行业整体运营指标。"
   },
-  "access": {
-    "primary_url": "https://www.nfra.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["China"]
-    },
-    "temporal": {
-      "start_year": 2003,
-      "end_year": 2025,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "finance",
-      "banking",
-      "insurance",
-      "regulation"
-    ],
-    "indicators": 500
-  },
+  "website": "https://www.nfra.gov.cn",
+  "data_url": "https://www.nfra.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "banking",
+    "insurance",
+    "regulation"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "banking-regulation",
+    "insurance-regulation",
+    "nfra",
+    "cbirc",
+    "financial-supervision",
+    "banking-statistics",
+    "insurance-statistics",
+    "regulatory-compliance",
+    "financial-inclusion"
+  ],
   "data_content": {
     "en": [
       "Banking Assets and Liabilities - Monthly and quarterly total assets and liabilities of banking financial institutions",
@@ -71,74 +55,5 @@
       "监管合规 - 银行业和保险业合规指标和监管数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series"],
-    "granularity": ["national", "regional", "institutional"],
-    "formats": ["Excel", "PDF", "HTML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Government Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["Basel III", "Solvency II", "Chinese Banking Regulatory Standards"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": false
-  },
-  "usage": {
-    "use_cases": [
-      "Banking sector analysis",
-      "Insurance market research",
-      "Financial regulatory compliance monitoring",
-      "Risk assessment and financial stability analysis",
-      "Small business lending analysis",
-      "Regional financial development comparison"
-    ],
-    "example_studies": [
-      "Banking Sector Stability Report",
-      "Insurance Industry Development Analysis",
-      "Financial Inclusion Progress Report"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "china-pbc",
-    "china-csrc",
-    "china-nbs",
-    "china-safe"
-  ],
-  "contact": {
-    "support_url": "https://www.nfra.gov.cn/cn/view/pages/ItemList.html?itemPId=900&itemId=913&itemUrl=jigougaikuang/lianxifangshi.html&itemName=联系方式"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-04",
-    "last_updated": "2025-12-04",
-    "verified_date": "2025-12-04",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "china",
-    "banking-regulation",
-    "insurance-regulation",
-    "nfra",
-    "cbirc",
-    "financial-supervision",
-    "banking-statistics",
-    "insurance-statistics",
-    "regulatory-compliance",
-    "financial-inclusion"
-  ]
+  "authority_level": "government"
 }

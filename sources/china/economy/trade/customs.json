@@ -5,49 +5,31 @@
     "zh": "中华人民共和国海关总署",
     "native": "中华人民共和国海关总署"
   },
-  "organization": {
-    "name": "General Administration of Customs",
-    "type": "national_government",
-    "country": "CN",
-    "website": "http://www.customs.gov.cn"
-  },
   "description": {
     "en": "The General Administration of Customs (GAC) is responsible for China's customs administration. It publishes comprehensive foreign trade statistics including import/export data by country, commodity, customs district, trade mode, and enterprise type. Covers merchandise trade values, volumes, prices, and trade balance data.",
     "zh": "中华人民共和国海关总署负责中国的海关管理。发布全面的对外贸易统计数据，包括按国家/地区、商品、海关关区、贸易方式和企业类型分类的进出口数据。涵盖商品贸易金额、数量、价格和贸易差额数据。"
   },
-  "access": {
-    "primary_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["China", "Global trade partners"]
-    },
-    "temporal": {
-      "start_year": 1981,
-      "end_year": 2024,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "trade",
-      "economics",
-      "international_commerce"
-    ],
-    "indicators": 2000
-  },
+  "website": "http://www.customs.gov.cn",
+  "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "trade",
+    "economics",
+    "international_commerce"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "customs",
+    "foreign-trade",
+    "import",
+    "export",
+    "trade-statistics",
+    "hs-code",
+    "merchandise-trade"
+  ],
   "data_content": {
     "en": [
       "Import and Export Values - Total trade values, import/export breakdown by month, quarter, and year",
@@ -72,71 +54,5 @@
       "特殊贸易区 - 自由贸易区、保税区和特殊海关监管区域"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional"],
-    "granularity": ["national", "provincial", "commodity-level", "country-level"],
-    "formats": ["Excel", "PDF", "HTML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 4,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Government Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["HS Code", "UN Comtrade", "WTO standards"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "International trade analysis",
-      "Trade policy research",
-      "Market opportunity assessment",
-      "Supply chain analysis",
-      "Economic forecasting"
-    ],
-    "example_studies": [
-      "China Customs Statistics Monthly Report",
-      "China Foreign Trade Development Report"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "china-mofcom",
-    "china-nbs",
-    "un-comtrade",
-    "wto-statistics"
-  ],
-  "contact": {
-    "email": "webmaster@customs.gov.cn",
-    "support_url": "http://www.customs.gov.cn/customs/lxwm/index.html"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-25",
-    "last_updated": "2025-01-25",
-    "verified_date": "2025-01-25",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "china",
-    "customs",
-    "foreign-trade",
-    "import",
-    "export",
-    "trade-statistics",
-    "hs-code",
-    "merchandise-trade"
-  ]
+  "authority_level": "government"
 }

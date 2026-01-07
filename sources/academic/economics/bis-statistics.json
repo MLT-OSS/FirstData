@@ -4,56 +4,46 @@
     "en": "BIS Statistics",
     "zh": "国际清算银行统计数据"
   },
-  "organization": {
-    "name": "Bank for International Settlements",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.bis.org/"
-  },
   "description": {
     "en": "BIS statistics, compiled in cooperation with central banks and other national authorities, are designed to inform analysis of financial stability, international monetary spillovers and global liquidity. The BIS provides comprehensive data on international banking activity, debt securities, credit, derivatives, exchange rates, property prices, consumer prices, global liquidity, and payment statistics. Data covers activities in over 40 countries and is widely used by central banks, financial institutions, researchers, and policymakers for monetary and financial stability analysis.",
     "zh": "国际清算银行（BIS）统计数据与各国中央银行及其他国家机构合作编制，旨在为金融稳定、国际货币溢出效应和全球流动性分析提供信息支持。BIS 提供全面的国际银行业务、债务证券、信贷、衍生品、汇率、房地产价格、消费者价格、全球流动性和支付统计数据。数据涵盖 40 多个国家的活动，广泛用于中央银行、金融机构、研究人员和政策制定者进行货币和金融稳定性分析。"
   },
-  "access": {
-    "primary_url": "https://data.bis.org/",
-    "api": {
-      "available": true,
-      "documentation": "https://stats.bis.org/api-doc/v2/",
-      "version": "SDMX RESTful v2.1.0",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "SDMX-ML", "SDMX-JSON"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 40,
-      "regions": ["Global", "Advanced Economies", "Emerging Markets"]
-    },
-    "temporal": {
-      "start_year": 1977,
-      "end_year": 2025,
-      "update_frequency": "quarterly"
-    },
-    "domains": [
-      "International Banking",
-      "Debt Securities",
-      "Credit Markets",
-      "Foreign Exchange",
-      "Derivatives",
-      "Property Prices",
-      "Consumer Prices",
-      "Global Liquidity",
-      "Payment Systems",
-      "Central Bank Statistics"
-    ],
-    "indicators": 5000
-  },
+  "website": "https://www.bis.org/",
+  "data_url": "https://data.bis.org/",
+  "api_url": "https://stats.bis.org/api-doc/v2/",
+  "country": null,
+  "domains": [
+    "International Banking",
+    "Debt Securities",
+    "Credit Markets",
+    "Foreign Exchange",
+    "Derivatives",
+    "Property Prices",
+    "Consumer Prices",
+    "Global Liquidity",
+    "Payment Systems",
+    "Central Bank Statistics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "international-banking",
+    "central-bank",
+    "financial-stability",
+    "global-liquidity",
+    "debt-securities",
+    "derivatives",
+    "exchange-rates",
+    "property-prices",
+    "payment-systems",
+    "monetary-policy",
+    "macroprudential",
+    "cross-border-flows",
+    "time-series",
+    "open-access",
+    "api",
+    "sdmx"
+  ],
   "data_content": {
     "en": [
       "Locational Banking Statistics - International banking activity from a residence perspective",
@@ -82,109 +72,5 @@
       "支付统计 - 包括卡支付、终端和无现金交易在内的比较支付统计"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "time-series",
-      "statistical",
-      "cross-sectional",
-      "panel",
-      "api"
-    ],
-    "granularity": [
-      "country-level",
-      "quarterly",
-      "monthly",
-      "annual",
-      "by-currency",
-      "by-sector",
-      "by-instrument"
-    ],
-    "formats": [
-      "CSV",
-      "Excel",
-      "SDMX-ML",
-      "SDMX-JSON",
-      "PDF"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "BIS Terms of Permitted Use",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite BIS as the source when reproducing statistics",
-      "Translations must include statement that they are not official BIS translations",
-      "Use must not imply endorsement or affiliation with the BIS",
-      "If used in commercial publications, inclusion must not result in additional charges to subscribers",
-      "No warranty provided for accuracy, completeness, or fitness for purpose"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "SDMX (Statistical Data and Metadata eXchange)",
-      "ISO 3166 (Country Codes)",
-      "ISO 4217 (Currency Codes)",
-      "BIS country groupings convention"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Central bank policy analysis and monetary stability assessment",
-      "Financial stability monitoring and macroprudential analysis",
-      "International banking flow and credit analysis",
-      "Global liquidity and cross-border capital flow research",
-      "Academic research on international finance and monetary economics",
-      "Regulatory reporting and compliance analysis",
-      "Market risk assessment and derivatives exposure analysis",
-      "Property market and housing price trend analysis"
-    ],
-    "example_studies": [
-      "BIS Quarterly Review - Regular analysis using BIS statistics",
-      "BIS Annual Economic Report - Comprehensive financial stability analysis",
-      "Academic papers on global banking, credit cycles, and financial crises"
-    ]
-  },
-  "contact": {
-    "email": "[email protected]",
-    "support_url": "https://data.bis.org/faq"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "international-banking",
-    "central-bank",
-    "financial-stability",
-    "global-liquidity",
-    "debt-securities",
-    "derivatives",
-    "exchange-rates",
-    "property-prices",
-    "payment-systems",
-    "monetary-policy",
-    "macroprudential",
-    "cross-border-flows",
-    "time-series",
-    "open-access",
-    "api",
-    "sdmx"
-  ]
+  "authority_level": "government"
 }

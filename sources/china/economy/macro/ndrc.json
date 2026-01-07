@@ -5,50 +5,33 @@
     "zh": "国家发展和改革委员会",
     "native": "国家发展和改革委员会"
   },
-  "organization": {
-    "name": "National Development and Reform Commission",
-    "type": "national_government",
-    "country": "CN",
-    "website": "https://www.ndrc.gov.cn"
-  },
   "description": {
     "en": "The National Development and Reform Commission (NDRC) is China's macroeconomic management agency. It provides data on economic development plans, fixed asset investment, price monitoring (including CPI, PPI, and commodity prices), industrial restructuring, regional development, energy conservation, and major infrastructure projects.",
     "zh": "国家发展和改革委员会是中国的宏观经济管理机构。提供经济发展规划、固定资产投资、价格监测（包括CPI、PPI和商品价格）、产业结构调整、区域发展、节能降耗和重大基础设施项目数据。"
   },
-  "access": {
-    "primary_url": "https://www.ndrc.gov.cn/fgsj/",
-    "api": {
-      "available": false,
-      "documentation": null,
-      "version": null,
-      "authentication": null
-    },
-    "download": {
-      "available": true,
-      "formats": ["PDF", "Excel"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["China", "Provincial"]
-    },
-    "temporal": {
-      "start_year": 2003,
-      "end_year": 2024,
-      "update_frequency": "monthly"
-    },
-    "domains": [
-      "economics",
-      "development",
-      "investment",
-      "prices"
-    ],
-    "indicators": 800
-  },
+  "website": "https://www.ndrc.gov.cn",
+  "data_url": "https://www.ndrc.gov.cn/fgsj/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "economics",
+    "development",
+    "investment",
+    "prices"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "ndrc",
+    "macroeconomic",
+    "development",
+    "investment",
+    "prices",
+    "cpi",
+    "ppi",
+    "planning"
+  ],
   "data_content": {
     "en": [
       "Fixed Asset Investment - National and provincial investment statistics by industry and region",
@@ -69,72 +52,5 @@
       "重大基础设施项目 - 重点基础设施项目投资与建设数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series"],
-    "granularity": ["national", "provincial", "sectoral"],
-    "formats": ["PDF", "Excel", "HTML"],
-    "languages": ["zh", "en"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 4,
-    "update_timeliness": 4,
-    "data_completeness": 4,
-    "documentation_quality": 3,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Open Government Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["National standards"],
-    "data_dictionary": false,
-    "methodology_docs": true,
-    "user_guide": false
-  },
-  "usage": {
-    "use_cases": [
-      "Macroeconomic analysis",
-      "Investment planning",
-      "Price trend analysis",
-      "Industrial policy research",
-      "Regional development studies"
-    ],
-    "example_studies": [
-      "Five-Year Economic Development Plans",
-      "Price Monitoring Reports",
-      "Fixed Asset Investment Analysis"
-    ],
-    "code_examples": []
-  },
-  "related_sources": [
-    "china-nbs",
-    "china-mof",
-    "china-pbc"
-  ],
-  "contact": {
-    "email": "webmaster@ndrc.gov.cn",
-    "support_url": "https://www.ndrc.gov.cn/fzggw/jgsz/zrs/"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-01-25",
-    "last_updated": "2025-01-25",
-    "verified_date": "2025-01-25",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "china",
-    "ndrc",
-    "macroeconomic",
-    "development",
-    "investment",
-    "prices",
-    "cpi",
-    "ppi",
-    "planning"
-  ]
+  "authority_level": "government"
 }

@@ -5,58 +5,46 @@
     "zh": "加拿大健康信息研究所",
     "native": "Institut canadien d'information sur la santé"
   },
-  "organization": {
-    "name": "Canadian Institute for Health Information (CIHI)",
-    "type": "national_government",
-    "country": "CA",
-    "website": "https://www.cihi.ca"
-  },
   "description": {
     "en": "CIHI is an independent, not-for-profit organization that provides essential information on Canada's health systems and the health of Canadians. CIHI collects, analyzes, and reports on health data and health system performance across Canada, including hospital care, pharmaceuticals, medical imaging, emergency departments, continuing care, and population health indicators. The organization maintains comprehensive databases covering patient outcomes, wait times, health spending, workforce statistics, and clinical quality indicators.",
     "zh": "CIHI是一个独立的非营利组织，提供有关加拿大医疗系统和加拿大人健康状况的重要信息。CIHI收集、分析并报告加拿大各地的健康数据和医疗系统绩效，包括医院护理、药品、医学影像、急诊科、持续护理和人口健康指标。该组织维护涵盖患者结局、等待时间、医疗支出、医疗人力统计和临床质量指标的综合数据库。"
   },
-  "access": {
-    "primary_url": "https://www.cihi.ca/en/access-data-and-reports",
-    "api": {
-      "available": true,
-      "documentation": "https://www.cihi.ca/en/submit-data-and-view-standards/codes-and-classifications",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["Excel", "CSV", "PDF", "HTML"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["Canada", "All Canadian provinces and territories"]
-    },
-    "temporal": {
-      "start_year": 1994,
-      "end_year": 2025,
-      "update_frequency": "quarterly"
-    },
-    "domains": [
-      "health_care",
-      "hospital_services",
-      "pharmaceuticals",
-      "medical_imaging",
-      "emergency_care",
-      "mental_health",
-      "continuing_care",
-      "health_spending",
-      "health_workforce",
-      "population_health",
-      "patient_outcomes",
-      "health_system_performance"
-    ],
-    "indicators": 1000
-  },
+  "website": "https://www.cihi.ca",
+  "data_url": "https://www.cihi.ca/en/access-data-and-reports",
+  "api_url": "https://www.cihi.ca/en/submit-data-and-view-standards/codes-and-classifications",
+  "country": "CA",
+  "domains": [
+    "health_care",
+    "hospital_services",
+    "pharmaceuticals",
+    "medical_imaging",
+    "emergency_care",
+    "mental_health",
+    "continuing_care",
+    "health_spending",
+    "health_workforce",
+    "population_health",
+    "patient_outcomes",
+    "health_system_performance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "canada",
+    "health-care",
+    "hospital-data",
+    "health-spending",
+    "patient-outcomes",
+    "wait-times",
+    "pharmaceuticals",
+    "health-workforce",
+    "medical-imaging",
+    "emergency-care",
+    "clinical-quality",
+    "open-data",
+    "bilingual",
+    "health-system-performance"
+  ],
   "data_content": {
     "en": [
       "Hospital care and patient outcomes - discharge data, readmissions, mortality rates",
@@ -95,94 +83,5 @@
       "慢性病监测 - 糖尿病、癌症、心血管疾病患病率"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel", "api"],
-    "granularity": ["national", "provincial", "regional", "facility-level", "annual", "quarterly", "monthly"],
-    "formats": ["Excel", "CSV", "PDF", "HTML", "JSON"],
-    "languages": ["en", "fr"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 4,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "CIHI Open Data License",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": [
-      "ISO 3166",
-      "ISO 639-1",
-      "ISO 8601",
-      "ICD-10-CA",
-      "CCI",
-      "interRAI",
-      "SNOMED CT",
-      "LOINC"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Health system performance monitoring and benchmarking",
-      "Hospital administration and resource planning",
-      "Health policy development and evaluation",
-      "Wait time reduction initiatives",
-      "Health expenditure analysis and forecasting",
-      "Quality improvement and patient safety programs",
-      "Academic research in health services and outcomes",
-      "Pharmaceutical utilization and cost analysis",
-      "Health workforce planning and distribution studies",
-      "International health system comparisons",
-      "Public health surveillance and reporting",
-      "Clinical practice guidelines development"
-    ],
-    "example_studies": [
-      "Hospital standardized mortality ratio (HSMR) analysis",
-      "Pan-Canadian wait time benchmarking studies",
-      "National health expenditure trends reporting",
-      "Quality of care indicator development and validation",
-      "Health equity and access analysis across populations"
-    ]
-  },
-  "related_sources": [
-    "canada-statcan",
-    "canada-phac",
-    "canada-health-canada"
-  ],
-  "contact": {
-    "email": "communications@cihi.ca",
-    "support_url": "https://www.cihi.ca/en/contact-us"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "canada",
-    "health-care",
-    "hospital-data",
-    "health-spending",
-    "patient-outcomes",
-    "wait-times",
-    "pharmaceuticals",
-    "health-workforce",
-    "medical-imaging",
-    "emergency-care",
-    "clinical-quality",
-    "open-data",
-    "bilingual",
-    "health-system-performance"
-  ]
+  "authority_level": "government"
 }

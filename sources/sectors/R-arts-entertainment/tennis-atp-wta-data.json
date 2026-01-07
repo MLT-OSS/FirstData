@@ -4,46 +4,34 @@
     "en": "ATP/WTA Tennis Data",
     "zh": "ATP/WTA网球数据"
   },
-  "organization": {
-    "name": "Jeff Sackmann / Tennis Abstract",
-    "type": "research_institution",
-    "country": "US",
-    "website": "https://www.tennisabstract.com/"
-  },
   "description": {
     "en": "Comprehensive open-source databases containing historical tennis rankings, match results, and statistics for both men's (ATP) and women's (WTA) professional tennis. Includes match-level data from 1968 to present, player biographical information, and detailed match statistics. The datasets cover tour-level, challenger, futures, and qualifying matches with extensive historical coverage.",
     "zh": "全面的开源数据库，包含男子（ATP）和女子（WTA）职业网球的历史排名、比赛结果和统计数据。包括从1968年至今的比赛级别数据、球员传记信息和详细的比赛统计。数据集涵盖巡回赛级别、挑战赛、未来赛和资格赛，具有广泛的历史覆盖范围。"
   },
-  "access": {
-    "primary_url": "https://github.com/JeffSackmann/tennis_atp",
-    "api": {
-      "available": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "regions": ["Global professional tennis tours"]
-    },
-    "temporal": {
-      "start_year": 1968,
-      "end_year": 2024,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "Sports Statistics",
-      "Tennis",
-      "Professional Sports Data",
-      "Player Performance Analytics"
-    ],
-    "indicators": 50
-  },
+  "website": "https://www.tennisabstract.com/",
+  "data_url": "https://github.com/JeffSackmann/tennis_atp",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Sports Statistics",
+    "Tennis",
+    "Professional Sports Data",
+    "Player Performance Analytics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "sports",
+    "tennis",
+    "atp",
+    "wta",
+    "rankings",
+    "match-results",
+    "player-statistics",
+    "open-source",
+    "historical-data",
+    "professional-sports"
+  ],
   "data_content": {
     "en": [
       "ATP Rankings (1973-present, with gaps in early years)",
@@ -74,71 +62,5 @@
       "比赛图表数据（独立项目）"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series"],
-    "granularity": ["match-level", "player-level", "annual", "weekly"],
-    "formats": ["CSV"],
-    "languages": ["en"]
-  },
-  "quality": {
-    "authority_level": 4,
-    "methodology_transparency": 4,
-    "update_timeliness": 3,
-    "data_completeness": 4,
-    "documentation_quality": 4,
-    "citation_count": 4
-  },
-  "licensing": {
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
-    "commercial_use": false,
-    "attribution_required": true,
-    "restrictions": [
-      "Non-commercial use only",
-      "Attribution required",
-      "Share-alike required for derivative works"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": false
-  },
-  "usage": {
-    "use_cases": [
-      "Tennis performance analytics and research",
-      "Player comparison and ranking analysis",
-      "Match outcome prediction models",
-      "Historical tennis statistics research",
-      "Sports data science projects",
-      "Tennis betting analytics",
-      "Player career trajectory analysis"
-    ],
-    "code_examples": [
-      "https://github.com/JeffSackmann/tennis_atp/tree/master/examples"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "support_url": "https://github.com/JeffSackmann/tennis_atp/issues"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher",
-    "status": "active"
-  },
-  "tags": [
-    "sports",
-    "tennis",
-    "atp",
-    "wta",
-    "rankings",
-    "match-results",
-    "player-statistics",
-    "open-source",
-    "historical-data",
-    "professional-sports"
-  ]
+  "authority_level": "research"
 }

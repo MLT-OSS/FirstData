@@ -58,3 +58,6 @@ batch-temp/
 *_SUMMARY.md
 *_REPORT.md
 batch-run-results*.md
+
+# Environment files (contain sensitive data)
+datasource-hub-mcp/.env

@@ -4,58 +4,43 @@
     "en": "United States Census Bureau",
     "zh": "美国人口普查局"
   },
-  "organization": {
-    "name": "United States Census Bureau",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.census.gov"
-  },
   "description": {
     "en": "The leading source of quality data about the United States' people and economy. Conducts the decennial census, American Community Survey (ACS), Economic Census, and numerous other surveys covering demographics, housing, business, trade, and government. Serves as the nation's primary provider of data about its people and economy.",
     "zh": "美国人口和经济质量数据的主要来源。进行十年一次的人口普查、美国社区调查(ACS)、经济普查以及涵盖人口统计、住房、商业、贸易和政府的众多其他调查。是美国有关人口和经济数据的主要提供者。"
   },
-  "access": {
-    "primary_url": "https://www.census.gov",
-    "api": {
-      "available": true,
-      "documentation": "https://www.census.gov/data/developers.html",
-      "authentication": true,
-      "auth_details": "API key required for requests exceeding 500 per day; key signup at https://api.census.gov/data/key_signup.html"
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "JSON", "XML", "Excel", "PDF", "GeoJSON", "Shapefiles"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": 1,
-      "regions": ["United States", "States", "Counties", "Congressional Districts", "Census Tracts", "Block Groups", "ZIP Code Tabulation Areas"]
-    },
-    "temporal": {
-      "start_year": 1790,
-      "end_year": 2025,
-      "update_frequency": "irregular"
-    },
-    "domains": [
-      "demographics",
-      "economics",
-      "housing",
-      "business",
-      "trade",
-      "government",
-      "geography",
-      "population",
-      "income",
-      "employment",
-      "education",
-      "health"
-    ],
-    "indicators": 15000
-  },
+  "website": "https://www.census.gov",
+  "data_url": "https://www.census.gov",
+  "api_url": "https://www.census.gov/data/developers.html",
+  "country": "US",
+  "domains": [
+    "demographics",
+    "economics",
+    "housing",
+    "business",
+    "trade",
+    "government",
+    "geography",
+    "population",
+    "income",
+    "employment",
+    "education",
+    "health"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "united-states",
+    "national-statistics",
+    "census",
+    "demographics",
+    "economic-indicators",
+    "housing-data",
+    "population-data",
+    "geospatial",
+    "open-data",
+    "government-data",
+    "api-available"
+  ],
   "data_content": {
     "en": [
       "Decennial Census - complete population count every 10 years (1790-present)",
@@ -90,83 +75,5 @@
       "迁移和流动性数据"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel", "geospatial"],
-    "granularity": ["national", "state", "county", "congressional-district", "census-tract", "block-group", "zip-code", "individual-level"],
-    "formats": ["CSV", "JSON", "XML", "Excel", "GeoJSON", "Shapefiles", "PDF", "API"],
-    "languages": ["en", "es"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "US Government Public Domain",
-    "commercial_use": true,
-    "attribution_required": false,
-    "restrictions": []
-  },
-  "metadata": {
-    "standards_followed": ["FGDC", "ISO 19115", "Dublin Core", "SDMX"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Congressional redistricting and apportionment",
-      "Federal funding allocation",
-      "Economic and demographic research",
-      "Business planning and market analysis",
-      "Urban and regional planning",
-      "Academic research across social sciences",
-      "Policy analysis and evaluation",
-      "Data journalism and visualization"
-    ],
-    "example_studies": [
-      "Population growth and demographic shifts",
-      "Income inequality analysis",
-      "Housing affordability studies",
-      "Small business trends and entrepreneurship",
-      "Geographic mobility and migration patterns"
-    ]
-  },
-  "related_sources": [
-    "canada-statcan",
-    "uk-ons",
-    "australia-abs",
-    "bea-economic-data"
-  ],
-  "contact": {
-    "phone": "+1-800-923-8282",
-    "support_url": "https://ask.census.gov",
-    "social_media": {
-      "twitter": "@uscensusbureau",
-      "github": "https://github.com/uscensusbureau"
-    }
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-10",
-    "last_updated": "2025-12-10",
-    "verified_date": "2025-12-10",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "united-states",
-    "national-statistics",
-    "census",
-    "demographics",
-    "economic-indicators",
-    "housing-data",
-    "population-data",
-    "geospatial",
-    "open-data",
-    "government-data",
-    "api-available"
-  ]
+  "authority_level": "government"
 }

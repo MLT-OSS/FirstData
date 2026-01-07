@@ -71,7 +71,7 @@
 
 #### 国家统计局 - National Bureau of Statistics
 - **文件**: [nbs.json](national/nbs.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **涵盖**: GDP、人口、工业、投资、消费等全面统计
 - **更新频率**: 月度
 
@@ -81,13 +81,13 @@
 
 ##### 中国人民银行 - People's Bank of China
 - **文件**: [pbc.json](finance/banking/pbc.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **涵盖**: 货币供应、利率、汇率、外汇储备、信贷数据
 - **更新频率**: 月度
 
 ##### 国家金融监督管理总局 - National Financial Regulatory Administration
 - **文件**: [nfra.json](finance/banking/nfra.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **涵盖**: 银行业、保险业监管数据、金融机构统计
 - **更新频率**: 季度
 
@@ -95,13 +95,13 @@
 
 ##### 证监会 - China Securities Regulatory Commission
 - **文件**: [csrc.json](finance/securities/csrc.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (4.8/5.0)
+- **权威等级**: government
 - **涵盖**: 股票市场、IPO、上市公司、债券、基金数据
 - **更新频率**: 月度
 
 ##### 香港交易所 - Hong Kong Exchanges and Clearing
 - **文件**: [hkex.json](finance/securities/hkex.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (4.7/5.0)
+- **权威等级**: commercial
 - **涵盖**: 证券交易数据、衍生品数据、上市公司信息、市场指数
 - **更新频率**: 实时
 
@@ -111,13 +111,13 @@
 
 ##### 海关总署 - General Administration of Customs
 - **文件**: [customs.json](economy/trade/customs.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (5.0/5.0)
+- **权威等级**: government
 - **涵盖**: 进出口数据、贸易差额、HS商品分类
 - **更新频率**: 月度
 
 ##### 商务部 - Ministry of Commerce
 - **文件**: [mofcom.json](economy/trade/mofcom.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (4.8/5.0)
+- **权威等级**: government
 - **涵盖**: FDI、ODI、零售、电商、服务贸易
 - **更新频率**: 月度
 
@@ -125,7 +125,7 @@
 
 ##### 国家发改委 - National Development and Reform Commission
 - **文件**: [ndrc.json](economy/macro/ndrc.json)
-- **权威性**: ⭐⭐⭐⭐⭐ (4.6/5.0)
+- **权威等级**: government
 - **涵盖**: 固定资产投资、价格监测、产业政策
 - **更新频率**: 月度
 
@@ -139,7 +139,7 @@ DataSource Hub 提供**全球最全面**的中国官方数据源知识库：
 - **数据源数量**: 415个（已规划，持续扩充中）
 - **覆盖深度**: 国家级 + 省级 + 行业
 - **元数据详细度**: 40+字段专业级
-- **质量评分**: 6维度评分系统
+- **权威等级**: 6维度评分系统
 
 ### 核心价值
 1. **权威性**：全部来自政府官方机构和权威协会
@@ -423,13 +423,12 @@ sources/china/
 
 每个JSON文件遵循DataSource Hub标准元数据Schema，包含以下关键信息：
 
-- **基本信息**: ID、名称（中英文）、维护机构
-- **访问信息**: URL、API、下载方式、访问级别
-- **覆盖范围**: 地理、时间、领域、指标数量
-- **数据特征**: 类型、粒度、格式、语言
-- **质量评估**: 权威性、透明度、及时性、完整性、文档质量、引用频次（6维度评分）
-- **许可协议**: License、使用限制
-- **使用信息**: 应用场景、示例研究
+- **基本信息**: ID、名称（中英文）、描述
+- **访问信息**: website、data_url、api_url（如有）
+- **权威等级**: government/international/research/market等
+- **覆盖范围**: 地理范围、领域、更新频率
+- **数据内容**: 可用数据类型和内容描述
+- **搜索标签**: 中英文关键词、同义词
 
 ---
 

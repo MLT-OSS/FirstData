@@ -4,36 +4,40 @@
     "en": "USGS EarthExplorer",
     "zh": "美国地质调查局地球探索者"
   },
-  "organization": {
-    "name": "U.S. Geological Survey (USGS), Earth Resources Observation and Science (EROS) Center",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.usgs.gov"
-  },
   "description": {
     "en": "EarthExplorer is an online search, discovery, and ordering tool developed by the USGS that supports searching satellite, aircraft, and other remote sensing inventories through interactive and textual-based query capabilities. It provides access to one of the world's largest archives of land imagery, including more than 85 years of satellite and aerial records, complete Landsat collection, Sentinel data, digital elevation models, aerial photos, and various other datasets. The EROS Center operates the Landsat satellites and delivers data supporting science, resource management, and hazards response.",
     "zh": "地球探索者是由美国地质调查局开发的在线搜索、发现和订购工具，支持通过交互式和基于文本的查询功能搜索卫星、飞机和其他遥感数据清单。它提供世界上最大的陆地影像档案之一，包括85年以上的卫星和航空记录、完整的Landsat系列数据、Sentinel数据、数字高程模型、航空照片和各种其他数据集。EROS中心运营Landsat卫星，提供支持科学研究、资源管理和灾害响应的数据。"
   },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 195,
-      "regions": ["Global"]
-    },
-    "temporal": {
-      "start_year": 1937,
-      "end_year": 2025,
-      "update_frequency": "daily"
-    },
-    "domains": [
-      "earth-observation",
-      "remote-sensing",
-      "geospatial",
-      "environmental-monitoring",
-      "land-cover"
-    ],
-    "indicators": 10000
-  },
+  "website": "https://www.usgs.gov",
+  "data_url": "https://earthexplorer.usgs.gov/",
+  "api_url": "https://m2m.cr.usgs.gov/",
+  "country": null,
+  "domains": [
+    "earth-observation",
+    "remote-sensing",
+    "geospatial",
+    "environmental-monitoring",
+    "land-cover"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "satellite-imagery",
+    "remote-sensing",
+    "landsat",
+    "sentinel",
+    "earth-observation",
+    "geospatial",
+    "dem",
+    "elevation",
+    "aerial-photography",
+    "land-cover",
+    "environmental-monitoring",
+    "usgs",
+    "eros",
+    "disaster-response",
+    "climate-data"
+  ],
   "data_content": {
     "en": [
       "Landsat Satellite Imagery - Complete archive from Landsat 1-9 missions (1972-present), multispectral imagery",
@@ -64,128 +68,5 @@
       "数字地图数据 - 国家地图数据集、地形数据"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "geospatial",
-      "image",
-      "time-series",
-      "api"
-    ],
-    "granularity": [
-      "pixel-level",
-      "scene-based",
-      "15m-30m resolution",
-      "global coverage"
-    ],
-    "formats": [
-      "GeoTIFF",
-      "HDF",
-      "NetCDF",
-      "JPEG2000",
-      "LAS",
-      "LAZ",
-      "Shapefile",
-      "KML"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "access": {
-    "primary_url": "https://earthexplorer.usgs.gov/",
-    "access_level": "registration",
-    "registration_required": true,
-    "api": {
-      "available": true,
-      "documentation": "https://m2m.cr.usgs.gov/",
-      "version": "1.5",
-      "authentication": true
-    },
-    "download": {
-      "available": true,
-      "formats": [
-        "GeoTIFF",
-        "HDF",
-        "NetCDF",
-        "JPEG2000",
-        "Bulk Download"
-      ]
-    }
-  },
-  "licensing": {
-    "license": "U.S. Public Domain",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Some commercial datasets may have additional licensing terms",
-      "Citation of USGS as data source is requested",
-      "No warranty on data accuracy or fitness for use"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "metadata": {
-    "standards_followed": [
-      "FGDC (Federal Geographic Data Committee)",
-      "ISO 19115",
-      "ISO 19139",
-      "OGC Standards",
-      "CEOS (Committee on Earth Observation Satellites)"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Land cover and land use change monitoring",
-      "Disaster response and emergency management (floods, fires, earthquakes)",
-      "Climate change research and environmental monitoring",
-      "Agricultural monitoring and crop assessment",
-      "Water resource management",
-      "Forest and vegetation monitoring",
-      "Urban planning and development",
-      "Geological and mineral exploration",
-      "Coastal zone management",
-      "Scientific research and education"
-    ],
-    "code_examples": [
-      "https://github.com/castuofa/usgs-m2m-api",
-      "https://github.com/Fergui/m2m-api",
-      "https://pypi.org/project/usgs-m2m-api/"
-    ]
-  },
-  "contact": {
-    "support_url": "https://answers.usgs.gov"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "datasource-fetcher-skill",
-    "status": "active"
-  },
-  "tags": [
-    "satellite-imagery",
-    "remote-sensing",
-    "landsat",
-    "sentinel",
-    "earth-observation",
-    "geospatial",
-    "dem",
-    "elevation",
-    "aerial-photography",
-    "land-cover",
-    "environmental-monitoring",
-    "usgs",
-    "eros",
-    "disaster-response",
-    "climate-data"
-  ]
+  "authority_level": "government"
 }

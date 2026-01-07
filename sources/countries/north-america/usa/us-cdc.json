@@ -4,61 +4,56 @@
     "en": "Centers for Disease Control and Prevention",
     "zh": "美国疾病控制与预防中心"
   },
-  "organization": {
-    "name": "Centers for Disease Control and Prevention (CDC)",
-    "type": "national_government",
-    "country": "US",
-    "website": "https://www.cdc.gov/"
-  },
   "description": {
     "en": "CDC is the nation's leading science-based, data-driven, service organization that protects the public's health. CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Through its WONDER (Wide-ranging Online Data for Epidemiologic Research) online databases and other data systems, CDC provides public access to comprehensive health surveillance data, vital statistics, disease reporting, environmental health data, and population health information. The data supports research, policy development, and public health practice across infectious diseases, chronic diseases, injuries, environmental health, and health equity.",
     "zh": "CDC是美国领先的基于科学、数据驱动的公共卫生服务机构。CDC全天候保护美国免受国内外健康、安全和安全威胁。通过其WONDER（流行病学研究广泛在线数据）在线数据库和其他数据系统，CDC提供公众访问全面的健康监测数据、生命统计、疾病报告、环境健康数据和人口健康信息。这些数据支持传染病、慢性病、伤害、环境健康和健康公平等领域的研究、政策制定和公共卫生实践。"
   },
-  "access": {
-    "primary_url": "https://wonder.cdc.gov/",
-    "api": {
-      "available": true,
-      "documentation": "https://wonder.cdc.gov/wonder/help/wonder-api.html",
-      "version": null,
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "XML", "Text", "PDF"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "national",
-      "countries": ["US"],
-      "regions": ["United States", "U.S. Territories", "U.S.-Mexico Border Area"]
-    },
-    "temporal": {
-      "start_year": 1968,
-      "end_year": 2025,
-      "update_frequency": "weekly"
-    },
-    "domains": [
-      "Public Health",
-      "Infectious Diseases",
-      "Chronic Diseases",
-      "Vital Statistics",
-      "Mortality",
-      "Natality",
-      "Environmental Health",
-      "Cancer",
-      "Tuberculosis",
-      "Sexually Transmitted Diseases",
-      "Vaccine Safety",
-      "Population Health",
-      "Health Equity",
-      "Disease Surveillance",
-      "Epidemiology"
-    ],
-    "indicators": 5000
-  },
+  "website": "https://www.cdc.gov/",
+  "data_url": "https://wonder.cdc.gov/",
+  "api_url": "https://wonder.cdc.gov/wonder/help/wonder-api.html",
+  "country": "US",
+  "domains": [
+    "Public Health",
+    "Infectious Diseases",
+    "Chronic Diseases",
+    "Vital Statistics",
+    "Mortality",
+    "Natality",
+    "Environmental Health",
+    "Cancer",
+    "Tuberculosis",
+    "Sexually Transmitted Diseases",
+    "Vaccine Safety",
+    "Population Health",
+    "Health Equity",
+    "Disease Surveillance",
+    "Epidemiology"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "weekly",
+  "tags": [
+    "public-health",
+    "health-statistics",
+    "mortality",
+    "natality",
+    "infectious-diseases",
+    "chronic-diseases",
+    "vital-statistics",
+    "epidemiology",
+    "disease-surveillance",
+    "cancer",
+    "tuberculosis",
+    "std",
+    "vaccine-safety",
+    "environmental-health",
+    "climate-health",
+    "population-health",
+    "health-equity",
+    "us-government",
+    "cdc-wonder",
+    "births",
+    "deaths"
+  ],
   "data_content": {
     "en": [
       "Mortality Data - Underlying and multiple causes of death, infant deaths, fetal deaths, compressed mortality files",
@@ -85,93 +80,5 @@
       "地理健康数据 - 州、县和都市区健康统计"
     ]
   },
-  "data_characteristics": {
-    "types": ["statistical", "time-series", "cross-sectional", "panel", "geospatial"],
-    "granularity": ["national", "state-level", "county-level", "metropolitan-area", "daily", "weekly", "monthly", "annual"],
-    "formats": ["CSV", "Excel", "XML", "Text", "PDF", "Interactive Query"],
-    "languages": ["en", "es"]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "U.S. Government Public Domain",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Data subject to CDC Data Use Restrictions for privacy protection",
-      "Some detailed data may be suppressed to protect confidentiality",
-      "Attribution required: 'Centers for Disease Control and Prevention'",
-      "Republication of WONDER data requires proper citation"
-    ]
-  },
-  "metadata": {
-    "standards_followed": ["ICD-10", "ICD-9", "ISO 3166", "FIPS Codes", "HL7", "PHIN VADS"],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Disease outbreak detection and monitoring",
-      "Mortality and morbidity trend analysis",
-      "Public health policy development",
-      "Epidemiological research",
-      "Health equity assessment",
-      "Environmental health impact studies",
-      "Vaccine safety monitoring",
-      "Cancer surveillance and prevention",
-      "Maternal and child health research",
-      "Chronic disease prevention planning",
-      "Climate change health impact analysis"
-    ],
-    "example_studies": [
-      "COVID-19 surveillance and reporting",
-      "Opioid overdose mortality trends",
-      "Maternal mortality rate analysis",
-      "Cancer incidence and survival studies",
-      "Health disparities research",
-      "Climate-related heat illness surveillance"
-    ]
-  },
-  "related_sources": [],
-  "contact": {
-    "email": "cwus@cdc.gov",
-    "support_url": "https://wonder.cdc.gov/controller/datarequest?stage=contactus&action=start"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-11",
-    "last_updated": "2025-12-11",
-    "verified_date": "2025-12-11",
-    "contributor": "DataSource Hub Team",
-    "status": "active"
-  },
-  "tags": [
-    "public-health",
-    "health-statistics",
-    "mortality",
-    "natality",
-    "infectious-diseases",
-    "chronic-diseases",
-    "vital-statistics",
-    "epidemiology",
-    "disease-surveillance",
-    "cancer",
-    "tuberculosis",
-    "std",
-    "vaccine-safety",
-    "environmental-health",
-    "climate-health",
-    "population-health",
-    "health-equity",
-    "us-government",
-    "cdc-wonder",
-    "births",
-    "deaths"
-  ]
+  "authority_level": "government"
 }

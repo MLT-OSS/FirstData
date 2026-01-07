@@ -4,63 +4,44 @@
     "en": "BIS Statistics - Bank for International Settlements",
     "zh": "国际清算银行统计数据"
   },
-  "organization": {
-    "name": "Bank for International Settlements (BIS)",
-    "type": "international_organization",
-    "country": null,
-    "website": "https://www.bis.org"
-  },
   "description": {
     "en": "BIS statistics, compiled in cooperation with central banks and other national authorities, are designed to inform analysis of financial stability, international monetary spillovers and global liquidity. The statistics cover international banking, debt securities, credit, global liquidity, derivatives, property prices, consumer prices, exchange rates, central bank statistics, and payment statistics.",
     "zh": "国际清算银行（BIS）统计数据与各国中央银行和其他国家机构合作编制，旨在为金融稳定、国际货币溢出效应和全球流动性分析提供信息。统计数据涵盖国际银行业、债务证券、信贷、全球流动性、衍生品、房地产价格、消费者价格、汇率、中央银行统计和支付统计。"
   },
-  "access": {
-    "primary_url": "https://data.bis.org/",
-    "api": {
-      "available": true,
-      "documentation": "https://stats.bis.org/api-doc/v2/",
-      "version": "2.0",
-      "authentication": false
-    },
-    "download": {
-      "available": true,
-      "formats": ["CSV", "Excel", "SDMX"]
-    },
-    "access_level": "open",
-    "registration_required": false
-  },
-  "coverage": {
-    "geographic": {
-      "scope": "global",
-      "countries": 60,
-      "regions": [
-        "Global",
-        "Americas",
-        "Europe",
-        "Asia-Pacific",
-        "Africa and Middle East"
-      ]
-    },
-    "temporal": {
-      "start_year": 1970,
-      "end_year": 2025,
-      "update_frequency": "quarterly"
-    },
-    "domains": [
-      "Banking",
-      "Finance",
-      "Securities",
-      "Credit",
-      "Liquidity",
-      "Derivatives",
-      "Real Estate",
-      "Prices",
-      "Exchange Rates",
-      "Central Banking",
-      "Payments"
-    ],
-    "indicators": 10000
-  },
+  "website": "https://www.bis.org",
+  "data_url": "https://data.bis.org/",
+  "api_url": "https://stats.bis.org/api-doc/v2/",
+  "country": null,
+  "domains": [
+    "Banking",
+    "Finance",
+    "Securities",
+    "Credit",
+    "Liquidity",
+    "Derivatives",
+    "Real Estate",
+    "Prices",
+    "Exchange Rates",
+    "Central Banking",
+    "Payments"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "banking",
+    "finance",
+    "securities",
+    "credit",
+    "derivatives",
+    "real-estate",
+    "exchange-rates",
+    "central-banking",
+    "payments",
+    "financial-stability",
+    "bis",
+    "global",
+    "time-series"
+  ],
   "data_content": {
     "en": [
       "Locational Banking Statistics - International banking activity from a residence perspective",
@@ -101,103 +82,5 @@
       "三年一次中央银行调查 - 外汇和场外利率衍生品交易量"
     ]
   },
-  "data_characteristics": {
-    "types": [
-      "statistical",
-      "time-series",
-      "cross-sectional",
-      "panel"
-    ],
-    "granularity": [
-      "country-level",
-      "quarterly",
-      "monthly",
-      "annual"
-    ],
-    "formats": [
-      "CSV",
-      "Excel",
-      "SDMX",
-      "JSON"
-    ],
-    "languages": [
-      "en"
-    ]
-  },
-  "quality": {
-    "authority_level": 5,
-    "methodology_transparency": 5,
-    "update_timeliness": 5,
-    "data_completeness": 5,
-    "documentation_quality": 5,
-    "citation_count": 5
-  },
-  "licensing": {
-    "license": "Terms of permitted use of BIS statistics",
-    "commercial_use": true,
-    "attribution_required": true,
-    "restrictions": [
-      "Must cite source as: BIS (Bank for International Settlements)",
-      "Data should not be redistributed for commercial purposes without permission"
-    ]
-  },
-  "metadata": {
-    "standards_followed": [
-      "SDMX",
-      "ISO 3166",
-      "IMF Balance of Payments Manual"
-    ],
-    "data_dictionary": true,
-    "methodology_docs": true,
-    "user_guide": true
-  },
-  "usage": {
-    "use_cases": [
-      "Financial stability analysis",
-      "International banking monitoring",
-      "Global liquidity assessment",
-      "Monetary policy research",
-      "Derivatives market analysis",
-      "Property market monitoring",
-      "Exchange rate analysis",
-      "Central bank balance sheet analysis",
-      "Payment systems research"
-    ],
-    "example_studies": [
-      "BIS Quarterly Review",
-      "BIS Annual Economic Report",
-      "BIS Bulletins"
-    ]
-  },
-  "related_sources": [
-    "intl-imf",
-    "intl-worldbank",
-    "intl-oecd"
-  ],
-  "contact": {
-    "email": "statistics@bis.org",
-    "support_url": "https://data.bis.org/faq"
-  },
-  "catalog_metadata": {
-    "added_date": "2025-12-10",
-    "last_updated": "2025-12-10",
-    "verified_date": "2025-12-10",
-    "contributor": "Claude",
-    "status": "active"
-  },
-  "tags": [
-    "banking",
-    "finance",
-    "securities",
-    "credit",
-    "derivatives",
-    "real-estate",
-    "exchange-rates",
-    "central-banking",
-    "payments",
-    "financial-stability",
-    "bis",
-    "global",
-    "time-series"
-  ]
+  "authority_level": "government"
 }
