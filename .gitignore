@@ -59,5 +59,6 @@ batch-temp/
 *_REPORT.md
 batch-run-results*.md
 
-# Environment files (contain sensitive data)
-datasource-hub-mcp/.env
+# Claude Code settings (contains secrets)
+.claude/settings.local.json
+.env
