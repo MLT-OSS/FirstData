@@ -777,65 +777,6 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 
 ---
 
-### 其他使用方式
-
-#### 方式一：直接浏览仓库
-
-```bash
-# 克隆仓库
-git clone https://code.mlamp.cn/0003432/datasource-hub.git
-cd datasource-hub
-
-# 按类别浏览
-ls sources/china/          # 中国政府数据
-ls sources/international/  # 国际组织数据
-ls sources/academic/       # 学术机构数据
-ls sources/sectors/        # 行业特定数据
-
-# 查看数据源详情
-cat sources/china/finance/banking/pbc.json | jq
-```
-
-#### 方式二：编程访问
-
-```python
-import json
-from pathlib import Path
-
-# 加载所有数据源
-def load_all_sources():
-    sources = []
-    for json_file in Path('sources').rglob('*.json'):
-        with open(json_file, 'r', encoding='utf-8') as f:
-            sources.append(json.load(f))
-    return sources
-
-# 按条件查找数据源
-def find_sources(domain=None, country=None, has_api=None):
-    all_sources = load_all_sources()
-    results = all_sources
-
-    if domain:
-        results = [s for s in results if domain in s['coverage']['domains']]
-
-    if country:
-        results = [s for s in results
-                  if s['organization'].get('country') == country]
-
-    if has_api is not None:
-        results = [s for s in results
-                  if s['access']['api']['available'] == has_api]
-
-    return results
-
-# 示例：查找所有有API的中国数据源
-chinese_api_sources = find_sources(country='CN', has_api=True)
-for source in chinese_api_sources:
-    print(f"{source['name']['zh']}: {source['access']['api']['documentation']}")
-```
-
----
-
 ## 📊 数据源概览
 
 ### 当前统计
@@ -1053,9 +994,6 @@ python scripts/generate_indexes.py
 
 ---
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jiangwenzhe/datasource-hub&type=Date&theme=dark&width=800&height=400)](https://star-history.com/#jiangwenzhe/datasource-hub&Date)
-
-
 ## 📞 联系与支持
 
 - **项目主页**：https://code.mlamp.cn/0003432/datasource-hub
@@ -1104,3 +1042,6 @@ python scripts/generate_indexes.py
   <a href="#-如何贡献">如何贡献</a> •
   <a href="#-发展路线图">路线图</a>
 </p>
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jiangwenzhe/datasource-hub&type=Date&theme=light&width=800&height=400)](https://star-history.com/#jiangwenzhe/datasource-hub&Date)
