@@ -1,0 +1,81 @@
+{
+  "id": "china-cnipa-patents",
+  "name": {
+    "en": "China National Intellectual Property Administration - Patent Statistics",
+    "zh": "国家知识产权局专利统计"
+  },
+  "description": {
+    "en": "Official patent statistics from China National Intellectual Property Administration (CNIPA), covering patent applications, grants, and valid patents across all types (invention, utility model, and design patents). Provides comprehensive data by region, applicant type, technology classification (IPC), and industry sectors including the 16 key industries. Historical data available from 1985 onwards with monthly, annual, and thematic statistical reports.",
+    "zh": "中国国家知识产权局发布的官方专利统计数据,涵盖专利申请、授权和有效专利的全面统计,包括发明、实用新型和外观设计三种专利类型。提供按地区、申请人类型、技术分类(IPC)和产业领域(包括16个重点产业)的详细数据。提供自1985年以来的历史数据,包括月度报告、年度报告和专题统计分析。"
+  },
+  "website": "https://www.cnipa.gov.cn/",
+  "data_url": "https://www.cnipa.gov.cn/col/col61/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "intellectual_property",
+    "innovation"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "专利",
+    "patent",
+    "知识产权",
+    "intellectual property",
+    "发明专利",
+    "invention patent",
+    "实用新型",
+    "utility model",
+    "外观设计",
+    "design patent",
+    "专利授权",
+    "patent grant",
+    "专利申请",
+    "patent application",
+    "技术创新",
+    "innovation",
+    "IPC分类",
+    "patent classification",
+    "16个重点产业",
+    "16 key industries",
+    "专利密集型产业",
+    "patent-intensive industries",
+    "PCT",
+    "国家知识产权局",
+    "CNIPA",
+    "SIPO"
+  ],
+  "data_content": {
+    "en": [
+      "Patent applications, grants, and valid patents by type (invention, utility model, design)",
+      "Domestic and foreign patent statistics with breakdown by region and country",
+      "Patent data by applicant/owner type (enterprises, universities, research institutes, individuals)",
+      "Technology classification statistics by IPC (International Patent Classification) sections and classes",
+      "PCT international patent applications filed in China",
+      "Patent statistics for 16 key industries and patent-intensive industries",
+      "Monthly statistical bulletins on patent examination and registration",
+      "Annual patent statistics yearbooks (historical data from 1985)",
+      "Regional patent statistics by Chinese provinces and cities",
+      "Chinese applicants' overseas patent applications and grants",
+      "Patent agency and legal status statistics",
+      "Thematic analysis reports on patents in digital economy, green technology, and other sectors"
+    ],
+    "zh": [
+      "三种专利类型(发明、实用新型、外观设计)的申请量、授权量和有效量统计",
+      "国内外专利统计,按地区、国别详细分类",
+      "按申请人(专利权人)类型统计(企业、高校、科研院所、个人)",
+      "按IPC国际专利分类(部、大类)的技术领域统计",
+      "PCT国际专利申请受理统计",
+      "16个重点产业专利统计及专利密集型产业数据",
+      "审查注册登记统计月报(包括专利授权、有效专利数据)",
+      "知识产权统计年报(1985年以来历史数据)",
+      "分省市的国内专利申请、授权和有效量统计",
+      "中国申请人在境外专利申请和授权统计",
+      "专利代理和法律状态统计",
+      "数字经济、绿色低碳等领域专利专题分析报告"
+    ]
+  }
+}

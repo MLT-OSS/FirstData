@@ -92,56 +92,56 @@ sources/countries/
    - 类型：人口统计、经济普查、社会调查
    - 数据格式：CSV, JSON, Excel, XML
    - 访问类型：开放
-   - [查看详情](north-america/usa/census-bureau.json)
+   - **文件**: [census-bureau.json](north-america/usa/census-bureau.json)
 
 2. **NOAA Climate Data Online (CDO)** (`noaa-cdo`) ⭐
    - 权威等级：government
    - 类型：气候数据、气象观测、历史天气
    - 数据格式：CSV, JSON, XML, NetCDF, PDF
    - 访问类型：需注册（免费）
-   - [查看详情](north-america/usa/noaa-cdo.json)
+   - **文件**: [noaa-cdo.json](north-america/usa/noaa-cdo.json)
 
 3. **USGS EarthExplorer** (`usgs-earthexplorer`) ⭐💎
    - 权威等级：government
    - 类型：卫星影像、地球观测、地质数据
    - 数据格式：GeoTIFF, HDF, NetCDF, JPEG2000, LAS, LAZ, Shapefile, KML
    - 访问类型：需注册（免费）
-   - [查看详情](north-america/usa/usgs-earthexplorer.json)
+   - **文件**: [usgs-earthexplorer.json](north-america/usa/usgs-earthexplorer.json)
 
 4. **Bureau of Economic Analysis** (`us-bea`) ⭐💎
    - 权威等级：government
    - 类型：GDP、国民收入、国际收支
    - 数据格式：CSV, Excel, JSON, XML, PDF
    - 访问类型：开放
-   - [查看详情](north-america/usa/us-bea.json)
+   - **文件**: [us-bea.json](north-america/usa/us-bea.json)
 
 5. **Bureau of Labor Statistics** (`us-bls`) ⭐💎
    - 权威等级：government
    - 类型：就业、失业、工资、CPI
    - 数据格式：CSV, Excel, JSON, XML, PDF, TXT, API
    - 访问类型：开放
-   - [查看详情](north-america/usa/us-bls.json)
+   - **文件**: [us-bls.json](north-america/usa/us-bls.json)
 
 6. **Centers for Disease Control and Prevention** (`us-cdc`) ⭐💎
    - 权威等级：government
    - 类型：疾病监测、健康统计、流行病学
    - 数据格式：CSV, Excel, XML, Text, PDF, Interactive Query
    - 访问类型：开放
-   - [查看详情](north-america/usa/us-cdc.json)
+   - **文件**: [us-cdc.json](north-america/usa/us-cdc.json)
 
 7. **Data.gov** (`us-data-gov`) ⭐💎
    - 权威等级：government
    - 类型：综合开放数据门户
    - 数据格式：CSV, JSON, XML, Excel, PDF, Shapefile, KML, RDF
    - 访问类型：开放
-   - [查看详情](north-america/usa/us-data-gov.json)
+   - **文件**: [us-data-gov.json](north-america/usa/us-data-gov.json)
 
 8. **U.S. Energy Information Administration** (`usa-eia`) ⭐💎
    - 权威等级：government
    - 类型：能源统计、石油、天然气、电力
    - 数据格式：CSV, Excel, JSON, XML, PDF, API
    - 访问类型：开放
-   - [查看详情](north-america/usa/eia.json)
+   - **文件**: [eia.json](north-america/usa/eia.json)
 
 #### 🇨🇦 加拿大 Canada (4/10)
 
@@ -150,35 +150,35 @@ sources/countries/
    - 类型：国家统计、人口普查、经济数据
    - 数据格式：CSV, JSON, XML, Excel, SDMX, HTML, PDF
    - 访问类型：开放
-   - [查看详情](north-america/canada/statcan.json)
+   - **文件**: [statcan.json](north-america/canada/statcan.json)
 
 2. **Bank of Canada** (`canada-boc`) ⭐💎
    - 权威等级：government
    - 类型：货币政策、汇率、金融市场
    - 数据格式：CSV, JSON, XML, Excel, RSS
    - 访问类型：开放
-   - [查看详情](north-america/canada/canada-boc.json)
+   - **文件**: [canada-boc.json](north-america/canada/canada-boc.json)
 
 3. **Canadian Institute for Health Information** (`canada-cihi`) ⭐💎
    - 权威等级：government
    - 类型：医疗卫生、健康统计
    - 数据格式：Excel, CSV, PDF, HTML, JSON
    - 访问类型：开放
-   - [查看详情](north-america/canada/canada-cihi.json)
+   - **文件**: [canada-cihi.json](north-america/canada/canada-cihi.json)
 
 4. **Canada Energy Regulator** (`canada-energy-regulator`) ⭐💎
    - 权威等级：government
    - 类型：能源监管、石油天然气
    - 数据格式：CSV, JSON, XML, Excel, Interactive Dashboards
    - 访问类型：开放
-   - [查看详情](north-america/canada/canada-energy-regulator.json)
+   - **文件**: [canada-energy-regulator.json](north-america/canada/canada-energy-regulator.json)
 
 5. **Agriculture and Agri-Food Canada** (`aafc`) ⭐💎
    - 权威等级：government
    - 类型：农业统计、作物、土地利用
    - 数据格式：GeoTIF, FGDB, GDB, CSV, Shapefile, JSON, REST API
    - 访问类型：开放
-   - [查看详情](north-america/canada/aafc.json)
+   - **文件**: [aafc.json](north-america/canada/aafc.json)
 
 #### 🇲🇽 墨西哥 Mexico (1/5)
 
@@ -187,14 +187,14 @@ sources/countries/
    - 类型：经济指标、汇率、通货膨胀
    - 数据格式：JSON, XML, JSONP, Excel, CSV
    - 访问类型：开放
-   - [查看详情](north-america/mexico/banxico.json)
+   - **文件**: [banxico.json](north-america/mexico/banxico.json)
 
 2. **National Council for the Evaluation of Social Development Policy** (`coneval`) ⭐💎
    - 权威等级：government
    - 类型：贫困测量、社会政策评估
    - 数据格式：Excel, CSV, PDF
    - 访问类型：开放
-   - [查看详情](north-america/mexico/coneval.json)
+   - **文件**: [coneval.json](north-america/mexico/coneval.json)
 
 ---
 
@@ -209,14 +209,14 @@ sources/countries/
    - 类型：货币政策、金融统计
    - 数据格式：CSV, Excel, XML, PDF
    - 访问类型：开放
-   - [查看详情](europe/uk/bank-of-england.json)
+   - **文件**: [bank-of-england.json](europe/uk/bank-of-england.json)
 
 2. **Data.gov.uk** (`uk-data-gov`) ⭐💎
    - 权威等级：government
    - 类型：综合开放数据门户
    - 数据格式：CSV, JSON, XML, Excel, PDF, RDF, Shapefile, GeoJSON
    - 访问类型：开放
-   - [查看详情](europe/uk/uk-data-gov.json)
+   - **文件**: [uk-data-gov.json](europe/uk/uk-data-gov.json)
 
 ---
 
@@ -231,7 +231,7 @@ sources/countries/
    - 类型：货币政策、金融统计、经济指标
    - 数据格式：CSV, Excel, PDF
    - 访问类型：开放
-   - [查看详情](asia/japan/boj-statistics.json)
+   - **文件**: [boj-statistics.json](asia/japan/boj-statistics.json)
 
 #### 🇰🇷 韩国 South Korea (1/5)
 
@@ -240,7 +240,7 @@ sources/countries/
    - 类型：货币政策、经济统计
    - 数据格式：Excel, CSV, PDF
    - 访问类型：开放
-   - [查看详情](asia/korea/korea-bok.json)
+   - **文件**: [korea-bok.json](asia/korea/korea-bok.json)
 
 #### 🇮🇳 印度 India (1/5)
 
@@ -249,7 +249,7 @@ sources/countries/
    - 类型：贸易统计、进出口数据
    - 数据格式：Text, Excel, PDF
    - 访问类型：开放
-   - [查看详情](asia/india/india-dgcis.json)
+   - **文件**: [india-dgcis.json](asia/india/india-dgcis.json)
 
 ---
 
@@ -264,21 +264,21 @@ sources/countries/
    - 类型：国家统计、人口普查、经济数据
    - 数据格式：CSV, Excel, JSON, XML, API
    - 访问类型：开放
-   - [查看详情](oceania/australia/abs.json)
+   - **文件**: [abs.json](oceania/australia/abs.json)
 
 2. **Australian Institute of Health and Welfare** (`aihw`) ⭐💎
    - 权威等级：government
    - 类型：健康与福利统计
    - 数据格式：CSV, Excel, JSON, PDF, Interactive dashboards
    - 访问类型：开放
-   - [查看详情](oceania/australia/aihw.json)
+   - **文件**: [aihw.json](oceania/australia/aihw.json)
 
 3. **Bureau of Meteorology** (`bureau-of-meteorology`) ⭐💎
    - 权威等级：government
    - 类型：气象数据、气候监测
    - 数据格式：CSV, JSON, XML, NetCDF, GeoTIFF, GRIB2, HTML, PDF
    - 访问类型：需注册（免费）
-   - [查看详情](oceania/australia/bureau-of-meteorology.json)
+   - **文件**: [bureau-of-meteorology.json](oceania/australia/bureau-of-meteorology.json)
 
 ---
 
@@ -293,7 +293,7 @@ sources/countries/
    - 类型：货币政策、金融统计、经济指标
    - 数据格式：JSON, CSV, XML, WSDL, OData, HTML, PDF
    - 访问类型：开放
-   - [查看详情](south-america/brazil/brazil-bcb.json)
+   - **文件**: [brazil-bcb.json](south-america/brazil/brazil-bcb.json)
 
 ---
 

@@ -1,0 +1,76 @@
+{
+  "id": "china-imt2030",
+  "name": {
+    "en": "IMT-2030 (6G) Promotion Group",
+    "zh": "IMT-2030(6G)推进组"
+  },
+  "description": {
+    "en": "The IMT-2030 (6G) Promotion Group was established in June 2019 by China's Ministry of Industry and Information Technology. Built on the foundation of the IMT-2020 (5G) Promotion Group, it serves as the primary platform for aggregating China's industry-academia-research forces to advance sixth-generation mobile communication technology research and facilitate international exchanges and cooperation. The group publishes white papers, research reports, and technical standards on 6G vision, network architecture, wireless systems, typical scenarios, and key enabling technologies.",
+    "zh": "IMT-2030(6G)推进组于2019年6月由中国工业和信息化部推动成立,组织架构基于原IMT-2020(5G)推进组,成员包括中国主要的运营商、制造商、高校和研究机构。推进组是聚合中国产学研用力量、推动中国第六代移动通信技术研究和开展国际交流与合作的主要平台。该组织发布6G愿景、网络架构、无线系统、典型场景和关键技术等方面的白皮书、研究报告和技术标准。"
+  },
+  "website": "https://www.imt2030.org.cn/",
+  "data_url": "https://www.imt2030.org.cn/html/default/zhongwen/chengguofabu/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "telecommunications",
+    "wireless-communication",
+    "6g-technology",
+    "technology-research",
+    "network-architecture"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "6G",
+    "IMT-2030",
+    "sixth-generation",
+    "第六代移动通信",
+    "wireless-communication",
+    "无线通信",
+    "white-paper",
+    "白皮书",
+    "network-architecture",
+    "网络架构",
+    "telecommunications",
+    "电信",
+    "5g",
+    "next-generation",
+    "下一代通信",
+    "CAICT",
+    "中国信息通信研究院",
+    "空天地一体化",
+    "integrated-space-air-ground",
+    "technical-standards",
+    "技术标准",
+    "research-reports",
+    "研究报告"
+  ],
+  "data_content": {
+    "en": [
+      "6G Vision and Potential Key Technologies White Papers",
+      "6G Network Architecture Outlook and Key Technology Prospects",
+      "6G Typical Scenarios and Key Capabilities",
+      "6G Wireless System Design Principles and Typical Features",
+      "Research on Terminal Requirements for 6G Application Scenarios",
+      "Research on IoT Typical Scenarios and Capability Requirements for 6G",
+      "Research on Open Service Environment Requirements for 6G",
+      "Research on Scenarios and Requirements for 6G and Industrial Application Coordination",
+      "Integrated Space-Air-Ground Network Technology and Standards",
+      "6G Technical Standards and Specifications"
+    ],
+    "zh": [
+      "6G总体愿景与潜在关键技术白皮书",
+      "6G网络架构愿景与关键技术展望白皮书",
+      "6G典型场景和关键能力白皮书",
+      "6G无线系统设计原则和典型特征白皮书",
+      "面向6G应用场景的终端需求研究",
+      "面向6G的物联网典型场景及能力要求研究",
+      "面向6G的开放业务环境需求研究",
+      "6G与工业应用相互协同的场景和需求研究",
+      "空天地一体化网络技术与标准",
+      "6G技术标准和规范"
+    ]
+  }
+}

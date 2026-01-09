@@ -1,7 +1,7 @@
 # DataSource Hub - 路线图
 
-**最后更新**: 2025-12-24
-**总体进度**: 104/950+ (11%)
+**最后更新**: 2026-01-09
+**总体进度**: 126/950+ (13%)
 
 ---
 
@@ -9,18 +9,18 @@
 
 ```
 总目标: 950+ 权威数据源
-当前完成: 104 个
-完成度: ▓▓░░░░░░░░░░░░░░░░░░ 11%
+当前完成: 126 个
+完成度: ▓▓░░░░░░░░░░░░░░░░░░ 13%
 ```
 
 | 类别 | 计划 | 完成 | 进度 | 详细任务 |
 |------|------|------|------|----------|
-| 国际组织 | 100+ | 36 | 36% | [tasks/international.md](tasks/international.md) |
+| 国际组织 | 100+ | 28 | 28% | [tasks/international.md](tasks/international.md) |
 | 各国官方 | 200+ | 24 | 12% | [tasks/countries.md](tasks/countries.md) |
-| 中国数据源 | 488 | 8 | 2% | [tasks/china/](tasks/china/) |
-| 学术研究 | 50+ | 19 | 38% | [tasks/academic.md](tasks/academic.md) |
-| 行业领域 | 150+ | 17 | 11% | [tasks/sectors.md](tasks/sectors.md) |
-| **总计** | **950+** | **104** | **11%** | [所有任务](tasks/README.md) |
+| 中国数据源 | 488 | 19 | 4% | [tasks/china/](tasks/china/) |
+| 学术研究 | 50+ | 26 | 52% | [tasks/academic.md](tasks/academic.md) |
+| 行业领域 | 150+ | 29 | 19% | [tasks/sectors.md](tasks/sectors.md) |
+| **总计** | **950+** | **126** | **13%** | [所有任务](tasks/README.md) |
 
 ---
 

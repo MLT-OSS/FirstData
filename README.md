@@ -5,8 +5,8 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![数据源数量](https://img.shields.io/badge/数据源-104%2F950+-blue.svg)](tasks/README.md)
-[![完成进度](https://img.shields.io/badge/进度-11%25-yellow.svg)](ROADMAP.md)
+[![数据源数量](https://img.shields.io/badge/数据源-126%2F950+-blue.svg)](tasks/README.md)
+[![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](ROADMAP.md)
 [![质量评分](https://img.shields.io/badge/平均质量-4.7%2F5.0-brightgreen.svg)](#)
 [![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](datasource-hub-mcp/)
 
@@ -364,28 +364,28 @@ for source in chinese_api_sources:
 
 | 类别 | 数量 | 覆盖内容 |
 |------|------|----------|
-| 🌍 **国际组织** | 36 / 100+ | 世界银行、IMF、OECD、WHO、FAO... |
-| 🇨🇳 **中国政府** | 8 / 488 | 人民银行、国家统计局、海关总署、证监会... |
+| 🌍 **国际组织** | 28 / 100+ | 世界银行、IMF、OECD、WHO、FAO... |
+| 🇨🇳 **中国政府** | 19 / 488 | 人民银行、国家统计局、海关总署、证监会... |
 | 🌎 **各国官方** | 24 / 200+ | 美国、加拿大、日本、英国、澳大利亚... |
-| 🎓 **学术机构** | 19 / 50+ | NBER、Penn World Table、PubMed... |
-| 🏭 **行业领域** | 17 / 150+ | 能源、金融、健康、气候... |
-| **合计** | **104 / 950+** | **完成度11%** |
+| 🎓 **学术机构** | 26 / 50+ | NBER、Penn World Table、PubMed... |
+| 🏭 **行业领域** | 29 / 150+ | 能源、金融、健康、气候... |
+| **合计** | **126 / 950+** | **完成度13%** |
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (36个)
+#### 🌍 国际组织 (28个)
 📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
 
-#### 🇨🇳 中国数据源 (8个)
+#### 🇨🇳 中国数据源 (19个)
 📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
 
 #### 🌎 各国官方 (24个)
 📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
 
-#### 🎓 学术研究 (19个)
+#### 🎓 学术研究 (26个)
 📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 行业领域 (17个)
+#### 🏭 行业领域 (29个)
 📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
 
 ---

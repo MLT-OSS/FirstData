@@ -1,0 +1,65 @@
+{
+  "id": "china-semiconductor-association",
+  "name": {
+    "en": "China Semiconductor Industry Association",
+    "zh": "中国半导体行业协会"
+  },
+  "description": {
+    "en": "The China Semiconductor Industry Association (CSIA) is a national industry organization representing China's semiconductor sector, covering integrated circuits, semiconductor discrete devices, MEMS, materials and equipment. CSIA provides authoritative industry statistics, operational analysis reports, and market research covering the entire semiconductor value chain including design, manufacturing, and packaging & testing.",
+    "zh": "中国半导体行业协会(CSIA)是由全国半导体界从事集成电路、半导体分立器件、MEMS、半导体材料和设备的生产、设计、科研、开发、经营、应用、教学的单位、专家及其他相关企事业单位自愿结成的全国性、行业性社会团体。协会提供权威的行业数据统计、运行分析报告和市场研究，覆盖设计、制造、封装测试等半导体全产业链。"
+  },
+  "website": "https://web.csia.net.cn/",
+  "data_url": "https://web.csia.net.cn/hyyhfx",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "semiconductors",
+    "integrated-circuits",
+    "electronics-manufacturing",
+    "technology"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "半导体",
+    "semiconductor",
+    "集成电路",
+    "integrated circuit",
+    "IC产业",
+    "IC industry",
+    "晶圆产能",
+    "wafer capacity",
+    "芯片制造",
+    "chip manufacturing",
+    "封装测试",
+    "packaging and testing",
+    "行业统计",
+    "industry statistics",
+    "产业运行",
+    "industrial operation",
+    "CSIA",
+    "中国半导体",
+    "China semiconductors"
+  ],
+  "data_content": {
+    "en": [
+      "Integrated circuit industry operational statistics (design, manufacturing, packaging & testing segments)",
+      "Semiconductor industry revenue and growth analysis by quarter and year",
+      "IC product import and export volume and value statistics",
+      "Wafer production capacity and utilization data",
+      "Semiconductor market trends and forecasts",
+      "Industry research reports and white papers",
+      "Member enterprise directory and development status"
+    ],
+    "zh": [
+      "集成电路产业运行统计数据(设计业、制造业、封装测试业分项)",
+      "半导体行业销售收入及增长分析(季度、年度)",
+      "IC产品进出口数量及金额统计",
+      "晶圆产能及产能利用率数据",
+      "半导体市场趋势及预测分析",
+      "行业研究报告及白皮书",
+      "会员企业名录及发展状况"
+    ]
+  }
+}

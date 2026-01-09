@@ -1,0 +1,61 @@
+{
+  "id": "china-charging-alliance",
+  "name": {
+    "en": "China Electric Vehicle Charging Infrastructure Promotion Alliance",
+    "zh": "中国电动汽车充电基础设施促进联盟"
+  },
+  "description": {
+    "en": "China Electric Vehicle Charging Infrastructure Promotion Alliance (EVCIPA) is a non-profit social organization established in October 2015 under the auspices of the National Energy Administration. The alliance brings together electric vehicle manufacturers, energy suppliers, charging facility manufacturers, charging operation service providers, universities, and third-party institutions to promote the development of charging infrastructure and achieve interoperability. It provides authoritative monthly statistics on charging infrastructure operations, including the number of charging stations, charging piles, operator rankings, and regional distribution across China.",
+    "zh": "中国电动汽车充电基础设施促进联盟(简称\"充电联盟\",英文缩写\"EVCIPA\")成立于2015年10月,业务指导单位为国家能源局。联盟由主要电动汽车制造商、能源供应商、充电设施制造商、充电运营服务商、高校、第三方机构和相关社团组织等发起成立的非营利性社团组织。秘书处设置在中国汽车工业协会。联盟定期发布全国电动汽车充换电基础设施运行情况月度统计数据,包括充电桩数量、运营商统计、区域分布等权威数据。"
+  },
+  "website": "https://www.evcipa.org.cn/",
+  "data_url": "https://evcipa.com/dataCenter/dataList",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "automotive",
+    "energy",
+    "infrastructure"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "充电桩",
+    "charging-infrastructure",
+    "electric-vehicle",
+    "电动汽车",
+    "新能源汽车",
+    "NEV",
+    "充电站",
+    "charging-station",
+    "充电联盟",
+    "EVCIPA",
+    "运营商统计",
+    "operator-statistics",
+    "充电设施",
+    "charging-facility"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly national electric vehicle charging and battery swapping infrastructure operation statistics",
+      "Total number of public charging piles and distribution by province/city",
+      "Charging operator rankings and market share statistics",
+      "DC and AC charging pile quantity and growth trends",
+      "Battery swapping station quantity and distribution",
+      "Charging infrastructure construction and operation reports",
+      "Regional charging infrastructure development analysis",
+      "Industry standards and technical specifications"
+    ],
+    "zh": [
+      "全国电动汽车充换电基础设施运行情况月度统计",
+      "公共充电桩总量及省市分布数据",
+      "充电运营商排名及市场份额统计",
+      "直流和交流充电桩数量及增长趋势",
+      "换电站数量及分布情况",
+      "充电基础设施建设及运营报告",
+      "区域充电基础设施发展分析",
+      "行业标准和技术规范"
+    ]
+  }
+}

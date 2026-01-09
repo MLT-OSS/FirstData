@@ -1,0 +1,69 @@
+{
+  "id": "china-caict",
+  "name": {
+    "en": "China Academy of Information and Communications Technology",
+    "zh": "中国信息通信研究院"
+  },
+  "description": {
+    "en": "China Academy of Information and Communications Technology (CAICT) is a scientific research institute directly under the Ministry of Industry and Information Technology (MIIT). Founded in 1957, CAICT serves as a specialized think-tank for the government and an innovation platform for the ICT industry. It conducts research on information and communications technology, publishes authoritative white papers, industry reports, and development indices covering cloud computing, computing power, digital economy, artificial intelligence, and telecommunications.",
+    "zh": "中国信息通信研究院（CAICT）是工业和信息化部直属的科研事业单位。成立于1957年，秉承\"国家高端专业智库 产业创新发展平台\"的发展定位。主要从事信息通信领域的研究工作，发布权威白皮书、行业报告和发展指数，涵盖云计算、算力发展、数字经济、人工智能、信息通信等领域。"
+  },
+  "website": "http://www.caict.ac.cn/",
+  "data_url": "http://www.caict.ac.cn/kxyj/qwfb/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "telecommunications",
+    "digital-economy",
+    "cloud-computing",
+    "artificial-intelligence"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "CAICT",
+    "中国信通院",
+    "云计算",
+    "cloud computing",
+    "算力发展指数",
+    "computing power index",
+    "ICT产业",
+    "ICT industry",
+    "数字经济",
+    "digital economy",
+    "白皮书",
+    "white paper",
+    "蓝皮书",
+    "blue book",
+    "信息通信",
+    "telecommunications",
+    "人工智能",
+    "artificial intelligence",
+    "工信部",
+    "MIIT",
+    "行业报告",
+    "industry report"
+  ],
+  "data_content": {
+    "en": [
+      "Cloud Computing White Papers - annual comprehensive reports on cloud computing technology trends, market development, and industry applications",
+      "Computing Power Development Index - evaluations of China's computing infrastructure development across provinces and cities",
+      "ICT Industry Research Reports - analysis of telecommunications, internet, and technology sector trends",
+      "Digital Economy Blue Books - research on digital transformation, data governance, and new infrastructure",
+      "Advanced Computing Reports - studies on high-performance computing, AI computing, and edge computing",
+      "Technology White Papers - coverage of 5G, IoT, blockchain, big data, and emerging technologies",
+      "Industry Standards and Benchmarks - technical standards and best practices for ICT sector"
+    ],
+    "zh": [
+      "云计算白皮书 - 年度云计算技术趋势、市场发展和行业应用综合报告",
+      "算力发展指数 - 中国各省市算力基础设施发展评估",
+      "ICT产业研究报告 - 电信、互联网和科技行业趋势分析",
+      "数字经济蓝皮书 - 数字化转型、数据治理和新型基础设施研究",
+      "先进计算报告 - 高性能计算、AI算力和边缘计算研究",
+      "技术白皮书 - 5G、物联网、区块链、大数据等新兴技术研究",
+      "行业标准与基准 - ICT领域技术标准和最佳实践"
+    ]
+  }
+}
