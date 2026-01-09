@@ -1053,6 +1053,9 @@ python scripts/generate_indexes.py
 
 ---
 
+[![Star History Chart](https://api.star-history.com/svg?repos=jiangwenzhe/datasource-hub&type=Date&theme=dark&width=800&height=400)](https://star-history.com/#jiangwenzhe/datasource-hub&Date)
+
+
 ## 📞 联系与支持
 
 - **项目主页**：https://code.mlamp.cn/0003432/datasource-hub
