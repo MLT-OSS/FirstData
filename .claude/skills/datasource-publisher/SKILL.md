@@ -264,16 +264,16 @@ python scripts/generate_indexes.py
 
 ```bash
 # 只添加数据源相关文件（不添加其他文件）
-git add sources/ tasks/ README.md ROADMAP.md indexes/
+git add sources/ tasks/ README.md ROADMAP.md
 
 # 单个数据源
 git commit -m "feat: 添加{name}数据源 ({id})
 
 📊 数据源信息：
+- 名称: {name_zh} ({name_en})
+- 权威等级: {authority}
 - 类别: {category}
-- 质量: {score}/5.0
-
-🤖 Generated with Claude Code"
+"
 
 # 批量
 git commit -m "feat: 批量添加{领域}数据源 ({count}个)"
