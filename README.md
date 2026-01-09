@@ -276,7 +276,7 @@
 ---
 
 <details>
-<summary><b>🖥️ Claude Desktop</b></summary>
+<summary><b>Claude Desktop</b></summary>
 
 **手动 JSON 配置**
 
@@ -305,7 +305,7 @@
 </details>
 
 <details>
-<summary><b>💻 Cline (VS Code 扩展)</b></summary>
+<summary><b>Cline (VS Code 扩展)</b></summary>
 
 1. **打开 Cline MCP 设置**：
    - 在 VS Code 中打开 Cline
@@ -341,7 +341,7 @@
 </details>
 
 <details>
-<summary><b>⚡ Zed 编辑器</b></summary>
+<summary><b>Zed 编辑器</b></summary>
 
 1. **创建配置文件**：
    - 在项目根目录创建 `.zed/settings.json`
@@ -370,7 +370,7 @@
 </details>
 
 <details>
-<summary><b>🎯 Cursor 编辑器</b></summary>
+<summary><b>Cursor 编辑器</b></summary>
 
 1. **打开 Cursor 设置**：
    - `Cmd/Ctrl + Shift + P` → 搜索 "MCP Settings"
@@ -396,7 +396,7 @@
 </details>
 
 <details>
-<summary><b>🐳 Docker 部署（生产环境推荐）</b></summary>
+<summary><b>Docker 部署（生产环境推荐）</b></summary>
 
 如果你想部署自己的 MCP 服务器实例：
 
@@ -432,7 +432,7 @@ docker run -d \
 </details>
 
 <details>
-<summary><b>🤖 Copilot / VS Code</b></summary>
+<summary><b>Copilot / VS Code</b></summary>
 
 **推荐方式：HTTP 服务器**
 
@@ -461,7 +461,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>💬 Copilot CLI</b></summary>
+<summary><b>Copilot CLI</b></summary>
 
 使用 HTTP 服务器方式连接：
 
@@ -482,7 +482,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>🎓 Windsurf</b></summary>
+<summary><b>Windsurf</b></summary>
 
 1. **打开 Windsurf MCP 配置**：
    - 参考 [Windsurf MCP 配置指南](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json)
@@ -505,7 +505,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>🔧 JetBrains AI Assistant & Junie</b></summary>
+<summary><b>JetBrains AI Assistant & Junie</b></summary>
 
 1. **打开 JetBrains IDE 设置**：
    - 进入 `Settings | Tools | AI Assistant | Model Context Protocol (MCP)`
@@ -529,7 +529,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>🌊 Warp Terminal</b></summary>
+<summary><b>Warp Terminal</b></summary>
 
 1. **打开 Warp 设置**：
    - 进入 `Settings | AI | Manage MCP Servers`
@@ -554,7 +554,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>💎 Gemini CLI</b></summary>
+<summary><b>Gemini CLI</b></summary>
 
 参考 [Gemini CLI MCP 配置指南](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md)，使用以下配置：
 
@@ -575,7 +575,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>☁️ Gemini Code Assist</b></summary>
+<summary><b>Gemini Code Assist</b></summary>
 
 参考 [Gemini Code Assist MCP 配置指南](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers)，使用以下配置：
 
@@ -596,7 +596,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>🏭 Factory CLI (Droid)</b></summary>
+<summary><b>Factory CLI (Droid)</b></summary>
 
 参考 [Factory CLI MCP 配置文档](https://docs.factory.ai/cli/configuration/mcp)，使用以下配置：
 
@@ -617,7 +617,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>🔍 Qoder & Qoder CLI</b></summary>
+<summary><b>Qoder & Qoder CLI</b></summary>
 
 1. 打开 **Qoder Settings**
 2. 进入 `MCP Server` → `+ Add`
@@ -641,7 +641,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>📝 Kiro</b></summary>
+<summary><b>Kiro</b></summary>
 
 **方式一：通过 Kiro Settings**
 1. 打开 **Kiro Settings**
@@ -669,7 +669,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>⚙️ OpenCode</b></summary>
+<summary><b>OpenCode</b></summary>
 
 1. **创建或编辑配置文件**：
    - 路径：`~/.config/opencode/opencode.json`
@@ -696,7 +696,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>🎨 Visual Studio</b></summary>
+<summary><b>Visual Studio</b></summary>
 
 参考 Visual Studio MCP 配置文档，使用以下配置：
 
@@ -717,7 +717,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>📦 Codex</b></summary>
+<summary><b>Codex</b></summary>
 
 参考 [Codex MCP 配置指南](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp)，使用以下配置：
 
@@ -738,7 +738,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 </details>
 
 <details>
-<summary><b>⚡ Amp</b></summary>
+<summary><b>Amp</b></summary>
 
 参考 [Amp MCP 配置文档](https://ampcode.com/manual#mcp)，使用以下配置：
 
