@@ -10,6 +10,7 @@ __version__ = "0.1.0"
 import os
 import json
 import time
+import asyncio
 from typing import Dict, List, Any, Optional
 from pathlib import Path
 from dotenv import load_dotenv
@@ -1513,6 +1514,202 @@ async def datasource_search_llm_agent(
 
     except Exception as e:
         return f"搜索失败: {str(e)}"
+
+
+@mcp.tool(
+    name="datasource_get_instructions",
+    annotations={
+        "title": "获取数据源访问指令",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": False,
+        "openWorldHint": True
+    }
+)
+async def datasource_get_instructions(
+    source_id: str = Field(
+        ...,
+        description="数据源ID，从其他MCP工具获取（如 'hkex-news'、'china-pbc'）"
+    ),
+    operation: str = Field(
+        ...,
+        description="具体操作描述（如 '下载智谱AI的招股书'、'查询M2货币供应量'）"
+    ),
+    top_k: int = Field(
+        default=3,
+        ge=1,
+        le=5,
+        description="返回指令数量，默认3条"
+    )
+) -> str:
+    """
+    为指定数据源生成详细的访问操作指令
+
+    该工具结合了数据源元数据和指令生成API，返回具体的网站操作步骤。
+
+    **使用场景**:
+    1. 先用 datasource_search_keywords 或其他搜索工具找到数据源
+    2. 再用本工具获取该数据源的具体操作指令
+
+    **示例工作流程**:
+    ```
+    步骤1: datasource_search_keywords(keywords=["香港交易所", "IPO"])
+           → 返回: source_id="hkex-news"
+
+    步骤2: datasource_get_instructions(
+               source_id="hkex-news",
+               operation="下载智谱AI的招股书"
+           )
+           → 返回: 详细的点击步骤和导航路径
+    ```
+
+    **返回内容**:
+    - data_source: 数据源基本信息（ID、名称、URL）
+    - instructions: 操作指令列表，每条包含：
+      - category: 分类
+      - domain: 领域
+      - resource_path: 资源路径
+      - instruction: 详细操作步骤
+      - score: 相关度评分
+    - success: 是否成功
+
+    **返回格式**: JSON字符串
+    """
+    try:
+        # 1. 获取数据源详情
+        sources = tool_get_source_details([source_id])
+        if not sources or 'error' in sources[0]:
+            return json.dumps({
+                "error": f"数据源 {source_id} 不存在",
+                "success": False
+            }, ensure_ascii=False, indent=2)
+
+        source = sources[0]
+
+        # 2. 准备指令API请求
+        instruction_api_base = os.getenv(
+            "INSTRUCTION_API_URL",
+            "https://mingjing.mininglamp.com/api/mano-plan/instruction/v1"
+        ).rstrip('/match').rstrip('/')  # 移除可能的 /match 后缀
+
+        # 提取数据源URL（优先级：website > data_url）
+        resource_url = source.get('website') or source.get('data_url', '')
+
+        # domain参数设置为空字符串以获得最佳效果
+        # 指令API会自动从resource_path中提取domain信息
+        request_data = {
+            "category": "查询",
+            "domain": "",  # 留空让API自动识别
+            "resource_path": resource_url,
+            "operation": operation,
+            "top_k": top_k
+        }
+
+        print(f"[INFO] Calling Instruction API (async) for source: {source_id}")
+        print(f"[INFO] Request data: {json.dumps(request_data, ensure_ascii=False)}")
+
+        # 3. 异步调用指令API
+        async with httpx.AsyncClient(timeout=120.0) as client:
+            # 3.1 创建异步任务
+            response = await client.post(
+                f"{instruction_api_base}/match_async",
+                json=request_data
+            )
+
+            if response.status_code != 200:
+                error_result = {
+                    "error": f"创建任务失败: HTTP {response.status_code}",
+                    "success": False,
+                    "details": response.text[:500]
+                }
+                print(f"[ERROR] Instruction API error: {response.status_code}")
+                return json.dumps(error_result, ensure_ascii=False, indent=2)
+
+            result = response.json()
+            if not result.get('success'):
+                return json.dumps({
+                    "error": f"创建任务失败: {result.get('message', '未知错误')}",
+                    "success": False
+                }, ensure_ascii=False, indent=2)
+
+            task_id = result.get('task_id')
+            print(f"[INFO] Task created: {task_id}")
+
+            # 3.2 轮询任务状态
+            max_wait = 60  # 最多等待60秒
+            start_time = time.time()
+            poll_interval = 2  # 每2秒轮询一次
+
+            while True:
+                elapsed = time.time() - start_time
+
+                if elapsed > max_wait:
+                    return json.dumps({
+                        "error": f"任务超时（{max_wait}秒）",
+                        "success": False,
+                        "task_id": task_id
+                    }, ensure_ascii=False, indent=2)
+
+                # 查询任务状态
+                status_resp = await client.get(
+                    f"{instruction_api_base}/match_status/{task_id}"
+                )
+
+                if status_resp.status_code != 200:
+                    return json.dumps({
+                        "error": f"查询任务状态失败: HTTP {status_resp.status_code}",
+                        "success": False,
+                        "task_id": task_id
+                    }, ensure_ascii=False, indent=2)
+
+                status_data = status_resp.json()
+                state = status_data.get('state', 'UNKNOWN')
+
+                print(f"[INFO] Task {task_id[:8]}... state: {state} ({elapsed:.1f}s)")
+
+                if state == 'SUCCESS':
+                    # 任务成功完成
+                    output = {
+                        "success": True,
+                        "data_source": {
+                            "id": source_id,
+                            "name": source.get('name'),
+                            "url": resource_url,
+                            "description": source.get('description')
+                        },
+                        "instructions": status_data.get('result', []),
+                        "message": status_data.get('message', ''),
+                        "task_id": task_id
+                    }
+
+                    print(f"[INFO] Task completed with {len(output['instructions'])} instructions")
+                    return json.dumps(output, ensure_ascii=False, indent=2)
+
+                elif state == 'FAILURE':
+                    # 任务失败
+                    return json.dumps({
+                        "error": status_data.get('error', '未知错误'),
+                        "success": False,
+                        "task_id": task_id,
+                        "message": status_data.get('message', '')
+                    }, ensure_ascii=False, indent=2)
+
+                # 继续等待
+                await asyncio.sleep(poll_interval)
+
+    except httpx.TimeoutException:
+        return json.dumps({
+            "error": "指令API调用超时（120秒）",
+            "success": False
+        }, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[ERROR] Exception in datasource_get_instructions: {e}")
+        import traceback
+        traceback.print_exc()
+        return json.dumps({
+            "error": f"工具执行失败: {str(e)}",
+            "success": False
+        }, ensure_ascii=False, indent=2)
 
 
 # ============================================================================
