@@ -1,0 +1,76 @@
+{
+  "id": "china-miit",
+  "name": {
+    "en": "Ministry of Industry and Information Technology of the People's Republic of China",
+    "zh": "中华人民共和国工业和信息化部"
+  },
+  "description": {
+    "en": "MIIT is a ministry of the State Council responsible for regulating China's industrial sector, telecommunications, and the internet. It publishes comprehensive statistics and data on raw materials industry, equipment manufacturing, consumer goods industry, telecommunications, electronics and IT manufacturing, software industry, and internet services.",
+    "zh": "工业和信息化部是国务院组成部门,负责工业和信息化领域的行政管理和监管工作。发布原材料工业、装备工业、消费品工业、通信业、电子信息制造业、软件业、互联网等行业的统计数据和运行分析。"
+  },
+  "website": "https://www.miit.gov.cn/",
+  "data_url": "https://www.miit.gov.cn/gxsj/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "telecommunications",
+    "technology",
+    "manufacturing",
+    "electronics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "工业",
+    "信息化",
+    "industry",
+    "telecommunications",
+    "通信",
+    "制造业",
+    "manufacturing",
+    "电子信息",
+    "electronics",
+    "软件业",
+    "software",
+    "互联网",
+    "internet",
+    "装备工业",
+    "equipment",
+    "汽车",
+    "automotive",
+    "原材料",
+    "raw materials",
+    "消费品",
+    "consumer goods",
+    "工信部",
+    "MIIT",
+    "中国制造",
+    "Made in China"
+  ],
+  "data_content": {
+    "en": [
+      "Raw Materials Industry: Statistics on steel, nonferrous metals, petrochemicals, building materials, and rare earth industries",
+      "Equipment Manufacturing: Data on machinery, automotive, civil shipbuilding, and civil aviation industries",
+      "Consumer Goods Industry: Statistics on light industry, textiles, food, and home appliances",
+      "Telecommunications Industry: Basic telecommunications statistics and operational analysis",
+      "Electronics and IT Manufacturing: Electronic information manufacturing industry statistics and analysis",
+      "Software Industry: Software and information technology services statistics and analysis",
+      "Internet Services: Internet and related services industry statistics and analysis",
+      "Industrial Policies: Policy documents, regulatory announcements, and industry standards",
+      "Administrative Services: Telecommunication licenses, vehicle production permits, and regulatory approvals"
+    ],
+    "zh": [
+      "原材料工业:钢铁、有色金属、石化化工、建材、稀土等行业统计数据",
+      "装备工业:机械、汽车、民用船舶、民用航空工业等行业数据",
+      "消费品工业:轻工、纺织、食品、家电等行业统计数据",
+      "通信业:基础电信业统计数据及运行分析",
+      "电子信息制造业:电子信息制造业统计数据及运行分析",
+      "软件业:软件和信息技术服务业统计数据和运行分析",
+      "互联网:互联网和相关服务业统计数据和运行分析",
+      "工业政策:政策文件、法规公告、行业标准",
+      "行政服务:电信业务许可、车辆生产准入、监管审批等"
+    ]
+  }
+}

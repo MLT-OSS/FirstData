@@ -1,0 +1,76 @@
+{
+  "id": "china-machine-tool-association",
+  "name": {
+    "en": "China Machine Tool & Tool Builders' Association",
+    "zh": "中国机床工具工业协会"
+  },
+  "description": {
+    "en": "China Machine Tool & Tool Builders' Association (CMTBA) is a national, industry-specific, non-profit social organization established in March 1988 with legal entity status approved by the Ministry of Civil Affairs. CMTBA serves as a bridge between government, enterprises, and users in the machine tool industry, providing industry statistics, economic analysis, and market information. The association covers over 2,100 member companies across various fields including metal cutting machine tools, metal forming machine tools, casting machinery, numerical control systems, industrial robots, cutting tools, abrasives, and machine tool accessories.",
+    "zh": "中国机床工具工业协会(CMTBA)于1988年3月经中华人民共和国民政部批准成立，是具有社会团体法人资格的全国性、行业性、非营利性社会组织。协会以中国机床工具工业的制造企业为主体，拥有2100多家会员单位，涵盖金属切削机床、金属成型机床、铸造机械、木工机床、数控系统、工业机器人、量刃具、磨料磨具、机床附件等领域。协会下设28个分会和6个工作委员会，在政府与企业、国内外同行业企业和用户之间发挥桥梁纽带作用。"
+  },
+  "website": "https://www.cmtba.org.cn/",
+  "data_url": "https://www.cmtba.org.cn/web/11/list.html",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "manufacturing",
+    "machinery",
+    "industrial-equipment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "机床",
+    "machine-tool",
+    "数控机床",
+    "cnc-machine",
+    "机床产销",
+    "machine-tool-sales",
+    "金属切削",
+    "metal-cutting",
+    "金属成型",
+    "metal-forming",
+    "数控系统",
+    "numerical-control",
+    "工业机器人",
+    "industrial-robot",
+    "制造业",
+    "manufacturing",
+    "装备制造",
+    "equipment-manufacturing",
+    "行业统计",
+    "industry-statistics",
+    "经济运行",
+    "economic-performance",
+    "CMTBA",
+    "CIMT",
+    "CCMT"
+  ],
+  "data_content": {
+    "en": [
+      "Machine tool industry economic performance reports (monthly, quarterly, annual)",
+      "Machine tool production and sales statistics",
+      "CNC machine tool market data",
+      "Industry import and export statistics",
+      "Manufacturing PMI and industry indicators",
+      "Machine tool company performance data",
+      "Market trends in metal cutting and forming machinery",
+      "Industrial robot application statistics",
+      "Tool and abrasive industry data",
+      "Machine tool accessories and components market information"
+    ],
+    "zh": [
+      "机床工具行业经济运行简讯（月度、季度、年度）",
+      "机床产销统计数据",
+      "数控机床市场数据",
+      "行业进出口统计",
+      "制造业PMI及行业景气指数",
+      "机床企业经营数据",
+      "金属切削和成型机械市场动态",
+      "工业机器人应用统计",
+      "刀具磨具行业数据",
+      "机床附件及功能部件市场信息"
+    ]
+  }
+}

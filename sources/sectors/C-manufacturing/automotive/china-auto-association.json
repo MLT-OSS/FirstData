@@ -1,0 +1,78 @@
+{
+  "id": "china-auto-association",
+  "name": {
+    "en": "China Association of Automobile Manufacturers",
+    "zh": "中国汽车工业协会"
+  },
+  "description": {
+    "en": "China Association of Automobile Manufacturers (CAAM) is a national, industry-based, non-profit social organization established on January 1, 1990, approved by the Ministry of Civil Affairs of the People's Republic of China. It is composed of enterprises and organizations engaged in automobile manufacturing, R&D, services, and related industries in China on a voluntary and equal basis. CAAM serves as a permanent member of the Organisation Internationale des Constructeurs d'Automobiles (OICA). The association provides comprehensive automotive industry data including monthly production and sales statistics, import/export data, new energy vehicle statistics, and industry analysis reports.",
+    "zh": "中国汽车工业协会（简称\"中汽协会\"）成立于1990年1月1日，是经中华人民共和国民政部批准的社团组织，具有社会团体法人资格，地址设在北京，是在中国境内从事汽车整车、零部件及汽车相关行业生产经营活动的企事业单位和团体在平等自愿基础上依法组成的自律性、非营利性的社会团体。中汽协会是世界汽车组织（OICA）的常任理事。协会提供全面的汽车行业数据，包括月度产销数据、进出口统计、新能源汽车数据和行业分析报告。"
+  },
+  "website": "http://www.caam.org.cn/",
+  "data_url": "http://www.caam.org.cn/tjsj",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "Automotive",
+    "Manufacturing",
+    "Transportation",
+    "New Energy Vehicles",
+    "Industrial Statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "automotive",
+    "汽车",
+    "automobile",
+    "车辆",
+    "vehicle",
+    "production",
+    "产量",
+    "sales",
+    "销量",
+    "new-energy-vehicles",
+    "新能源汽车",
+    "nev",
+    "electric-vehicles",
+    "电动汽车",
+    "commercial-vehicles",
+    "商用车",
+    "passenger-vehicles",
+    "乘用车",
+    "import-export",
+    "进出口",
+    "automotive-industry",
+    "汽车工业",
+    "automotive-statistics",
+    "汽车统计",
+    "caam",
+    "china-auto",
+    "中汽协"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly Automotive Production and Sales - Production and sales volumes by vehicle type (passenger vehicles, commercial vehicles)",
+      "New Energy Vehicle Statistics - Monthly production, sales, and export data for electric vehicles, plug-in hybrids, and fuel cell vehicles",
+      "Import and Export Data - Automotive trade statistics including customs data and manufacturer export information",
+      "Vehicle Segmentation Data - Detailed breakdowns by vehicle manufacturers, brands, and models",
+      "Industry Analysis Reports - Monthly information releases, quarterly economic operation meetings, and annual market forecasts",
+      "Commercial Vehicle Data - Production and sales statistics for trucks, buses, and other commercial vehicles",
+      "Passenger Vehicle Data - Production and sales by manufacturer and segment (sedans, SUVs, MPVs)",
+      "Parts and Components Trade - Import and export statistics for automotive parts and components",
+      "International Automotive Data - Global automotive statistics from major markets (Japan, Europe, Americas, Asia)"
+    ],
+    "zh": [
+      "月度汽车产销数据 - 按车型分类（乘用车、商用车）的产量和销量",
+      "新能源汽车统计 - 电动汽车、插电式混合动力汽车和燃料电池汽车的月度产量、销量和出口数据",
+      "进出口数据 - 汽车贸易统计，包括海关数据和生产企业出口信息",
+      "车型细分数据 - 按汽车制造商、品牌和车型的详细分类",
+      "行业分析报告 - 月度信息发布会、季度经济运行会议和年度市场预测",
+      "商用车数据 - 货车、客车和其他商用车的产销统计",
+      "乘用车数据 - 按制造商和细分市场（轿车、SUV、MPV）的产销数据",
+      "零部件贸易 - 汽车零部件的进出口统计",
+      "国际汽车数据 - 主要市场（日本、欧洲、美洲、亚洲）的全球汽车统计数据"
+    ]
+  },
+  "authority_level": "market"
+}

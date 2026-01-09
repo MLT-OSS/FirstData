@@ -1,0 +1,76 @@
+{
+  "id": "china-mnr-minerals",
+  "name": {
+    "en": "Ministry of Natural Resources - Mineral Resources Data",
+    "zh": "自然资源部矿产资源数据"
+  },
+  "description": {
+    "en": "The Ministry of Natural Resources (MNR) of China is responsible for managing the country's mineral resources, including rare earth elements. MNR publishes the China Mineral Resources Report annually, provides data on rare earth reserves and mining quotas, and manages mining rights registration for strategic minerals. The ministry implements total quantity control for rare earth extraction and smelting separation, with 2024 mining quotas set at 270,000 tons REO. China holds 44 million tons of rare earth reserves (48.89% of global total), distributed across northern light rare earth regions (primarily Inner Mongolia) and southern heavy rare earth regions (Guangdong, Jiangxi, Fujian, Guangxi, Hunan).",
+    "zh": "中华人民共和国自然资源部负责管理全国矿产资源,包括稀土等战略性矿产。自然资源部发布年度《中国矿产资源报告》,提供稀土矿产储量、开采配额等数据,并负责稀土等战略性矿产的矿业权出让登记。部门对稀土开采和冶炼分离实施总量调控管理,2024年全年稀土开采总量控制指标为27万吨稀土氧化物(REO)。中国稀土储量达4400万吨(占全球总储量48.89%),呈现\"北轻南重\"分布格局,轻稀土资源主要分布在内蒙古(占75.22%),重稀土资源主要分布在广东、江西、福建、广西、湖南等南方省份。"
+  },
+  "website": "https://www.mnr.gov.cn/",
+  "data_url": "https://www.mnr.gov.cn/sj/sjfw/kc_19263/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "resources",
+    "minerals",
+    "economics",
+    "environment"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "自然资源部",
+    "ministry-of-natural-resources",
+    "MNR",
+    "矿产资源",
+    "mineral-resources",
+    "稀土",
+    "rare-earth",
+    "REE",
+    "稀土储量",
+    "rare-earth-reserves",
+    "开采配额",
+    "mining-quota",
+    "总量控制",
+    "total-quantity-control",
+    "矿业权",
+    "mining-rights",
+    "中国矿产资源报告",
+    "china-mineral-resources-report",
+    "轻稀土",
+    "light-rare-earth",
+    "重稀土",
+    "heavy-rare-earth",
+    "战略性矿产",
+    "strategic-minerals",
+    "矿产储量",
+    "mineral-reserves",
+    "地质勘查",
+    "geological-exploration"
+  ],
+  "data_content": {
+    "en": [
+      "China Mineral Resources Report: Annual comprehensive report covering national mineral resources status, exploration achievements, and development trends",
+      "Rare Earth Reserves: Data on China's 44 million tons of rare earth reserves (REO), accounting for 48.89% of global reserves",
+      "Rare Earth Mining Quotas: Annual total quantity control indicators for rare earth extraction and smelting separation (2024: 270,000 tons REO for mining, 255,000 tons for smelting)",
+      "Geographic Distribution: Light rare earth resources in Inner Mongolia (75.22% of total), heavy rare earth resources in southern provinces (Guangdong 32.34% of heavy rare earth)",
+      "Mining Rights Management: Information on mining rights registration for strategic minerals including rare earth, tungsten, tin, antimony, molybdenum, cobalt, lithium",
+      "Regulatory Framework: Implementation of Rare Earth Management Regulations (effective October 1, 2024)",
+      "Global Mineral Information: Access to global geological and mineral resource information systems",
+      "Geological Survey Data: National geological data repository and online ordering platform"
+    ],
+    "zh": [
+      "中国矿产资源报告：年度综合报告,涵盖全国矿产资源现状、找矿成果、发展趋势",
+      "稀土储量数据：中国稀土储量4400万吨稀土氧化物(REO),占全球储量48.89%",
+      "稀土开采配额：年度稀土开采和冶炼分离总量控制指标(2024年开采指标27万吨REO,冶炼分离指标25.5万吨)",
+      "地理分布数据：轻稀土资源分布(内蒙古占75.22%),重稀土资源分布(广东占重稀土资源32.34%)",
+      "矿业权管理：稀土、钨、锡、锑、钼、钴、锂等战略性矿产的矿业权出让登记信息",
+      "法规政策：《稀土管理条例》实施(2024年10月1日起施行)",
+      "全球矿产信息：全球地质矿产信息系统访问",
+      "地质资料数据：全国地质资料馆及网络订单服务平台"
+    ]
+  }
+}

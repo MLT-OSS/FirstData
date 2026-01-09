@@ -1,0 +1,74 @@
+{
+  "id": "china-ndrc-computing",
+  "name": {
+    "en": "NDRC East-to-West Computing Resources Project",
+    "zh": "国家发展改革委东数西算工程"
+  },
+  "description": {
+    "en": "The 'East-to-West Computing Resources Transfer' (东数西算) project is China's national initiative launched by the National Development and Reform Commission (NDRC) and other departments in February 2022. The project establishes 8 national computing hub nodes (Beijing-Tianjin-Hebei, Yangtze River Delta, Guangdong-Hong Kong-Macao Greater Bay Area, Chengdu-Chongqing, Inner Mongolia, Guizhou, Gansu, and Ningxia) and 10 national data center clusters to optimize computing resource allocation across China, promoting coordinated development of general computing, intelligent computing, and supercomputing infrastructure.",
+    "zh": "东数西算工程是国家发展改革委等部门于2022年2月启动的国家重大工程，在京津冀、长三角、粤港澳大湾区、成渝、内蒙古、贵州、甘肃、宁夏等8地建设国家算力枢纽节点，规划10个国家数据中心集群，统筹推进通用算力、智能算力、超级算力协同建设，构建全国一体化算力网络体系，优化东中西部算力资源配置。"
+  },
+  "website": "https://www.ndrc.gov.cn/",
+  "data_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202312/t20231229_1363000.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "infrastructure",
+    "economics",
+    "energy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "东数西算",
+    "east-data-west-computing",
+    "算力",
+    "computing-power",
+    "数据中心",
+    "data-center",
+    "算力网络",
+    "computing-network",
+    "国家枢纽节点",
+    "national-hub-nodes",
+    "智能算力",
+    "intelligent-computing",
+    "超级算力",
+    "supercomputing",
+    "通用算力",
+    "general-computing",
+    "绿色数据中心",
+    "green-data-center",
+    "算力调度",
+    "computing-scheduling",
+    "数字基础设施",
+    "digital-infrastructure",
+    "国家发展改革委",
+    "NDRC",
+    "国家数据局",
+    "national-data-bureau"
+  ],
+  "data_content": {
+    "en": [
+      "8 National Computing Hub Nodes: Coverage of Beijing-Tianjin-Hebei, Yangtze River Delta, Guangdong-Hong Kong-Macao Greater Bay Area, Chengdu-Chongqing, Inner Mongolia, Guizhou, Gansu, and Ningxia",
+      "10 National Data Center Clusters: Total computing capacity exceeding 1.46 million standard racks (as of March 2024)",
+      "Computing Infrastructure Statistics: Data center utilization rates, green electricity usage ratios, network latency metrics between hub nodes",
+      "Project Progress Reports: Investment scale, new data center projects, construction progress in hub node regions",
+      "Policy Documents: Implementation opinions on deepening the East-to-West Computing project and building national integrated computing network (2023)",
+      "Computing Resource Allocation: Cross-regional computing scheduling mechanisms, east-west computing collaboration data",
+      "Green Computing Metrics: Data center PUE (Power Usage Effectiveness), renewable energy usage, carbon emission data",
+      "Network Performance Data: Inter-hub network latency (target: 20ms), bandwidth capacity, network transmission costs"
+    ],
+    "zh": [
+      "8大国家算力枢纽节点：京津冀、长三角、粤港澳大湾区、成渝、内蒙古、贵州、甘肃、宁夏枢纽节点覆盖",
+      "10个国家数据中心集群：算力规模超146万标准机架（截至2024年3月）",
+      "算力基础设施统计：数据中心上架率、绿电使用比例、枢纽间网络时延等关键指标",
+      "工程进展报告：投资规模、新建数据中心项目、枢纽节点地区建设进度",
+      "政策文件：关于深入实施东数西算工程加快构建全国一体化算力网的实施意见（2023年）",
+      "算力资源调度：跨区域算力调度机制、东西部算力协同数据",
+      "绿色算力指标：数据中心PUE值、可再生能源使用率、碳排放数据",
+      "网络性能数据：枢纽间网络时延（目标20毫秒）、带宽容量、网络传输费用"
+    ]
+  }
+}
