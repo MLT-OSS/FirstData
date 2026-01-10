@@ -10,6 +10,7 @@ __version__ = "0.1.0"
 import os
 import json
 import time
+import asyncio
 from typing import Dict, List, Any, Optional
 from pathlib import Path
 from dotenv import load_dotenv
@@ -1054,43 +1055,43 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
 # ============================================================================
 
 # Pydantic输入模型
-class AgentSearchInput(BaseModel):
-    """Agent搜索输入模型"""
-    model_config = ConfigDict(
-        str_strip_whitespace=True,
-        validate_assignment=True
-    )
+# class AgentSearchInput(BaseModel):
+#     """Agent搜索输入模型"""
+#     model_config = ConfigDict(
+#         str_strip_whitespace=True,
+#         validate_assignment=True
+#     )
 
-    query: str = Field(
-        ...,
-        description=(
-            "自然语言数据需求描述，支持从简单关键词到复杂多维度查询\n\n"
-            "**格式**: 2-1000字符的自然语言文本\n\n"
-            "**复杂查询示例**:\n"
-            "  - \"我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据\"\n"
-            "  - \"寻找有API访问的全球气候变化数据，需要包含温度和降水量\"\n"
-            "  - \"美国和欧洲的失业率统计数据，要求权威性高、更新及时\"\n\n"
-            "**简单查询示例**:\n"
-            "  - \"GDP数据\"\n"
-            "  - \"中国人民银行\"\n"
-            "  - \"世界银行发展指标\"\n\n"
-            "**建议**: 查询越具体（包含地理范围、时间、领域等），推荐结果越精准"
-        ),
-        min_length=2,
-        max_length=1000
-    )
+#     query: str = Field(
+#         ...,
+#         description=(
+#             "自然语言数据需求描述，支持从简单关键词到复杂多维度查询\n\n"
+#             "**格式**: 2-1000字符的自然语言文本\n\n"
+#             "**复杂查询示例**:\n"
+#             "  - \"我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据\"\n"
+#             "  - \"寻找有API访问的全球气候变化数据，需要包含温度和降水量\"\n"
+#             "  - \"美国和欧洲的失业率统计数据，要求权威性高、更新及时\"\n\n"
+#             "**简单查询示例**:\n"
+#             "  - \"GDP数据\"\n"
+#             "  - \"中国人民银行\"\n"
+#             "  - \"世界银行发展指标\"\n\n"
+#             "**建议**: 查询越具体（包含地理范围、时间、领域等），推荐结果越精准"
+#         ),
+#         min_length=2,
+#         max_length=1000
+#     )
 
-    max_results: int = Field(
-        default=5,
-        description=(
-            "返回的最大数据源数量\n\n"
-            "**默认值**: 5\n"
-            "**范围**: 1-20\n"
-            "**说明**: 控制返回的推荐数据源数量，防止结果过多占用上下文窗口"
-        ),
-        ge=1,
-        le=20
-    )
+#     max_results: int = Field(
+#         default=5,
+#         description=(
+#             "返回的最大数据源数量\n\n"
+#             "**默认值**: 5\n"
+#             "**范围**: 1-20\n"
+#             "**说明**: 控制返回的推荐数据源数量，防止结果过多占用上下文窗口"
+#         ),
+#         ge=1,
+#         le=20
+#     )
 
 
 # 初始化FastMCP（HTTP模式）
@@ -1323,136 +1324,7 @@ async def datasource_filter(
         return json.dumps(results, ensure_ascii=False, indent=2)
     except Exception as e:
         return json.dumps({"error": str(e)}, ensure_ascii=False)
-
-
-# ============================================================================
-# Agent工具（智能搜索）
-# ============================================================================
-
-# @mcp.tool(
-#     name="datasource_search_llm_agent",
-#     annotations={
-#         "title": "LLM Agent智能数据源搜索",
-#         "readOnlyHint": True,
-#         "destructiveHint": False,
-#         "idempotentHint": False,
-#         "openWorldHint": True
-#     }
-# )
-# async def datasource_search_llm_agent(
-#     query: str = Field(
-#         ...,
-#         description=(
-#             "自然语言数据需求描述，支持从简单关键词到复杂多维度查询\n\n"
-#             "**格式**: 2-1000字符的自然语言文本\n\n"
-#             "**复杂查询示例**:\n"
-#             "  - \"我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据\"\n"
-#             "  - \"寻找有API访问的全球气候变化数据，需要包含温度和降水量\"\n"
-#             "  - \"美国和欧洲的失业率统计数据，要求权威性高、更新及时\"\n\n"
-#             "**简单查询示例**:\n"
-#             "  - \"GDP数据\"\n"
-#             "  - \"中国人民银行\"\n"
-#             "  - \"世界银行发展指标\"\n\n"
-#             "**建议**: 查询越具体（包含地理范围、时间、领域等），推荐结果越精准"
-#         ),
-#         min_length=2,
-#         max_length=1000
-#     ),
-#     max_results: int = Field(
-#         default=5,
-#         description=(
-#             "返回的最大数据源数量\n\n"
-#             "**默认值**: 5\n"
-#             "**范围**: 1-20\n"
-#             "**说明**: 控制返回的推荐数据源数量，防止结果过多占用上下文窗口"
-#         ),
-#         ge=1,
-#         le=20
-#     )
-# ) -> str:
-#     """
-#     LLM Agent驱动的智能数据源搜索工具（高级功能）
-
-#     这是一个完全由LLM驱动的智能搜索Agent。能够理解复杂的自然语言查询，
-#     自主决策使用哪些工具，通过多步探索逐步缩小范围，最终给出精准推荐和详细理由。
-
-#     **🆚 与基础工具的对比:**
-
-#     本MCP提供5个工具，分为两类：
-
-#     1. **基础工具（快速）** - 响应时间 1-3 秒
-#        - datasource_list_sources: 浏览数据源列表
-#        - datasource_search_keywords: 关键词搜索
-#        - datasource_get_details: 获取详细信息
-#        - datasource_filter: 多条件筛选
-
-#     2. **Agent工具（智能）** - 响应时间 10-30 秒
-#        - datasource_search_llm_agent: 本工具
-
-#     **何时使用基础工具:**
-#     - 明确知道要搜索什么关键词 → 使用 datasource_search_keywords
-#     - 想浏览某个国家/领域的数据源 → 使用 datasource_list_sources
-#     - 已知数据源ID，需要详细信息 → 使用 datasource_get_details
-#     - 有明确的筛选条件 → 使用 datasource_filter
-
-#     **何时使用本Agent工具:**
-#     - ✅ 复杂的数据需求描述
-#       示例："我需要研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据，最好是官方权威数据"
-#     - ✅ 需要多维度组合筛选（地理、时间、领域、质量要求等）
-#       示例："寻找有API访问的全球气候变化数据，需要包含温度和降水量"
-#     - ✅ 希望获得详细的推荐理由和使用建议
-#     - ✅ 不确定具体关键词，用自然语言描述需求
-#       示例："美国和欧洲的失业率统计数据，要求权威性高、更新及时"
-#     - ✅ 需要Agent自动决策和探索
-
-#     **❌ 不建议使用本Agent的场景（请用基础工具）:**
-#     - 极简查询（如"GDP数据"） → 改用 datasource_search_keywords(["GDP"])
-#     - 快速浏览 → 改用 datasource_list_sources
-#     - 对响应时间敏感 → 改用基础工具
-
-#     **工作原理:**
-#     Agent会自主制定搜索策略，通过多步探索（粗筛 → 精选 → 深入分析）逐步缩小范围，
-#     最终给出Top 3-5推荐数据源，并附带详细的匹配理由和使用建议。
-
-#     **返回值类型:**
-#     str - 纯文本字符串，使用Markdown格式化
-
-#     **返回内容结构:**
-#     返回的字符串包含以下Markdown格式的内容块：
-
-#     1. **推荐数据源表格** - Top 3-5个推荐数据源的结构化信息
-#        列包括：# (排名)、名称、描述、质量评分、URL、API支持、访问级别、JSON文件
-
-#     2. **推荐理由** - 详细说明每个数据源为什么匹配用户需求
-
-#     3. **使用建议**（可选）- 如何获取和使用这些数据源
-
-#     **返回示例:**
-#     ```markdown
-#     ## 推荐数据源
-
-#     | # | 名称 | 描述 | 质量评分 | URL | API支持 | 访问级别 | JSON文件 |
-#     |---|------|------|----------|-----|---------|----------|----------|
-#     | 1 | World Bank Open Data<br>世界银行开放数据 | 全球经济发展指标 | 4.8/5星 | https://data.worldbank.org | ✅ | 免费 | /sources/international/economics/worldbank.json |
-
-#     **推荐理由**：
-#     - World Bank提供全球最权威的发展指标数据，覆盖200+国家...
-#     ```
-
-#     注意：返回的是纯文本字符串，不是JSON对象。客户端应直接展示为Markdown内容。
-
-#     **性能提示:**
-#     ⏱️ 首次调用需要加载所有数据源（约5-10秒，取决于数据源数量）
-#     ⏱️ Agent会进行多轮LLM调用（通常3-5轮），总耗时约10-30秒
-#     ⏱️ 适合复杂查询，简单查询可能响应较慢但结果更精准
-#     """
-#     try:
-#         result = datasource_search_agent(query, max_results)
-#         return result
-
-#     except Exception as e:
-#         return f"搜索失败: {str(e)}"
-
+    
 @mcp.tool(
     name="datasource_search_llm_agent",
     annotations={
@@ -1489,13 +1361,14 @@ async def datasource_search_llm_agent(
     )
 ) -> str:
     """
-    一个全功能的智能搜索Agent，专用于处理复杂的深度检索任务。
+    一个全功能的智能搜索Agent，专用于在数据源仓库中执行复杂的深度检索任务。
     
     该工具会自动制定搜索策略、扩展关键词并进行多源验证。
 
     **何时使用本Agent工具:**
+    - ✅ **综合研报分析**: 用户的查询并不是简单的关键词匹配，而是需要深入理解需求（如"研究中国近10年的货币政策，特别是M1、M2货币供应量和利率数据"）。
     - ✅ **复杂/跨领域查询**: 涉及多步推理、跨数据源整合（如"气候变化对GDP的影响"）。
-    - ✅ **特定实体深度调查**: 针对特定公司或政策的深度挖掘（如"智谱AI招股书"），而非简单的列表浏览。
+    - ✅ **特定实体深度调查**: 针对特定公司或政策的深度挖掘（如"谷歌公司的股价"），而非简单的列表浏览。
     - ✅ **模糊意图澄清**: 当用户输入不够专业，需要Agent智能推断行业术语时。
 
     **❌ 勿用场景 (请使用基础工具):**
@@ -1507,12 +1380,248 @@ async def datasource_search_llm_agent(
     Agent会进行多轮思考（3-5轮），通过粗筛和精选，最终返回Top 3-5推荐数据源及其详细匹配理由。
     """
     try:
-        # 这里调用你的实际业务逻辑
         result = datasource_search_agent(query, max_results)
         return result
 
     except Exception as e:
         return f"搜索失败: {str(e)}"
+
+
+@mcp.tool(
+    name="datasource_get_instructions",
+    annotations={
+        "title": "获取数据源访问指令",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": False,
+        "openWorldHint": True
+    }
+)
+async def datasource_get_instructions(
+    source_id: str = Field(
+        ...,
+        description="数据源ID，从其他MCP工具获取（如 'hkex-news'、'china-pbc'）"
+    ),
+    operation: str = Field(
+        ...,
+        description="具体操作描述（如 '下载智谱AI的招股书'、'查询M2货币供应量'）"
+    ),
+    top_k: int = Field(
+        default=3,
+        ge=1,
+        le=5,
+        description="返回指令数量，默认3条"
+    )
+) -> str:
+    """
+    为访问指定数据源生成详细的URL访问操作指令
+
+    该工具结合了数据源元数据和指令生成API，返回具体的网站操作步骤。
+
+    **使用场景**:
+    1. 先获取到具体使用什么数据源，通过 datasource_search_llm_agent 等检索方法获取到数据源ID
+    2. 再用本工具获取该数据源的具体操作指令
+    """
+    try:
+        # 1. 获取数据源详情
+        sources = tool_get_source_details([source_id])
+        if not sources or 'error' in sources[0]:
+            return json.dumps({
+                "error": f"数据源 {source_id} 不存在",
+                "success": False
+            }, ensure_ascii=False, indent=2)
+
+        source = sources[0]
+
+        # 2. 收集数据源中的所有URL
+        urls_to_process = []
+        url_types = []
+
+        if source.get('website'):
+            urls_to_process.append(source['website'])
+            url_types.append('website')
+
+        if source.get('data_url'):
+            urls_to_process.append(source['data_url'])
+            url_types.append('data_url')
+
+        if source.get('api_url'):
+            urls_to_process.append(source['api_url'])
+            url_types.append('api_url')
+
+        if not urls_to_process:
+            return json.dumps({
+                "error": f"数据源 {source_id} 没有可用的URL",
+                "success": False
+            }, ensure_ascii=False, indent=2)
+
+        print(f"[INFO] Processing {len(urls_to_process)} URLs for source: {source_id}")
+        print(f"[INFO] URL types: {url_types}")
+
+        # 3. 准备指令API请求
+        instruction_api_base = os.getenv(
+            "INSTRUCTION_API_URL",
+            "https://mingjing.mininglamp.com/api/mano-plan/instruction/v1"
+        ).rstrip('/match').rstrip('/')  # 移除可能的 /match 后缀
+
+        # 4. 异步调用指令API - 为每个URL创建任务
+        async with httpx.AsyncClient(timeout=120.0) as client:
+            # 4.1 为每个URL创建异步任务
+            task_ids = []
+            task_metadata = []
+
+            for idx, (resource_url, url_type) in enumerate(zip(urls_to_process, url_types)):
+                request_data = {
+                    "category": "查询",
+                    "domain": "",  # 留空让API自动识别
+                    "resource_path": resource_url,
+                    "operation": operation,
+                    "top_k": top_k
+                }
+
+                print(f"[INFO] Creating task {idx+1}/{len(urls_to_process)} for {url_type}: {resource_url}")
+                
+                response = await client.post(
+                    f"{instruction_api_base}/match_async",
+                    json=request_data
+                )
+
+                if response.status_code != 200:
+                    print(f"[WARNING] Failed to create task for {url_type}: HTTP {response.status_code}")
+                    continue
+
+                result = response.json()
+                if not result.get('success'):
+                    print(f"[WARNING] Failed to create task for {url_type}: {result.get('message', '未知错误')}")
+                    continue
+
+                task_id = result.get('task_id')
+                task_ids.append(task_id)
+                task_metadata.append({
+                    'task_id': task_id,
+                    'url': resource_url,
+                    'url_type': url_type
+                })
+                print(f"[INFO] Task created: {task_id} for {url_type}")
+
+            if not task_ids:
+                return json.dumps({
+                    "error": "所有URL的任务创建均失败",
+                    "success": False
+                }, ensure_ascii=False, indent=2)
+
+            # 4.2 轮询所有任务的状态
+            max_wait = 90  # 最多等待90秒（因为有多个任务）
+            start_time = time.time()
+            poll_interval = 2  # 每2秒轮询一次
+            completed_tasks = {}
+
+            while True:
+                elapsed = time.time() - start_time
+
+                if elapsed > max_wait:
+                    # 返回已完成的任务（如果有）
+                    if completed_tasks:
+                        return json.dumps({
+                            "success": True,
+                            "data_source": {
+                                "id": source_id,
+                                "name": source.get('name'),
+                                "description": source.get('description')
+                            },
+                            "results": list(completed_tasks.values()),
+                            "message": f"部分任务超时，返回 {len(completed_tasks)}/{len(task_ids)} 个已完成的任务",
+                            "timeout": True
+                        }, ensure_ascii=False, indent=2)
+                    else:
+                        return json.dumps({
+                            "error": f"所有任务超时（{max_wait}秒）",
+                            "success": False,
+                            "task_ids": task_ids
+                        }, ensure_ascii=False, indent=2)
+
+                # 检查未完成的任务
+                pending_tasks = [meta for meta in task_metadata if meta['task_id'] not in completed_tasks]
+
+                if not pending_tasks:
+                    # 所有任务已完成
+                    break
+
+                # 轮询每个待处理的任务
+                for task_meta in pending_tasks:
+                    task_id = task_meta['task_id']
+                    url_type = task_meta['url_type']
+
+                    status_resp = await client.get(
+                        f"{instruction_api_base}/match_status/{task_id}"
+                    )
+
+                    if status_resp.status_code != 200:
+                        print(f"[WARNING] Failed to query task {task_id[:8]}... status: HTTP {status_resp.status_code}")
+                        continue
+
+                    status_data = status_resp.json()
+                    state = status_data.get('state', 'UNKNOWN')
+
+                    print(f"[INFO] Task {task_id[:8]}... ({url_type}) state: {state} ({elapsed:.1f}s)")
+
+                    if state == 'SUCCESS':
+                        # 任务成功完成
+                        completed_tasks[task_id] = {
+                            "url": task_meta['url'],
+                            "url_type": url_type,
+                            "instructions": status_data.get('result', []),
+                            "message": status_data.get('message', ''),
+                            "task_id": task_id,
+                            "success": True
+                        }
+                        print(f"[INFO] Task {task_id[:8]}... completed with {len(completed_tasks[task_id]['instructions'])} instructions")
+
+                    elif state == 'FAILURE':
+                        # 任务失败
+                        completed_tasks[task_id] = {
+                            "url": task_meta['url'],
+                            "url_type": url_type,
+                            "error": status_data.get('error', '未知错误'),
+                            "message": status_data.get('message', ''),
+                            "task_id": task_id,
+                            "success": False
+                        }
+                        print(f"[WARNING] Task {task_id[:8]}... failed: {completed_tasks[task_id]['error']}")
+
+                # 继续等待
+                await asyncio.sleep(poll_interval)
+
+            # 5. 返回所有完成的任务结果
+            output = {
+                "success": True,
+                "data_source": {
+                    "id": source_id,
+                    "name": source.get('name'),
+                    "description": source.get('description')
+                },
+                "results": list(completed_tasks.values()),
+                "total_urls": len(urls_to_process),
+                "completed_tasks": len(completed_tasks),
+                "message": f"成功处理 {len(completed_tasks)}/{len(urls_to_process)} 个URL"
+            }
+
+            print(f"[INFO] All tasks completed: {len(completed_tasks)}/{len(task_ids)} successful")
+            return json.dumps(output, ensure_ascii=False, indent=2)
+
+    except httpx.TimeoutException:
+        return json.dumps({
+            "error": "指令API调用超时（120秒）",
+            "success": False
+        }, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[ERROR] Exception in datasource_get_instructions: {e}")
+        import traceback
+        traceback.print_exc()
+        return json.dumps({
+            "error": f"工具执行失败: {str(e)}",
+            "success": False
+        }, ensure_ascii=False, indent=2)
 
 
 # ============================================================================

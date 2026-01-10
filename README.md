@@ -5,7 +5,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![数据源数量](https://img.shields.io/badge/数据源-126%2F950+-blue.svg)](tasks/README.md)
+[![数据源数量](https://img.shields.io/badge/数据源-126%2F1000+-blue.svg)](tasks/README.md)
 [![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](ROADMAP.md)
 [![权威性](https://img.shields.io/badge/权威性-政府与国际组织优先-brightgreen.svg)](#)
 [![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](datasource-hub-mcp/)
@@ -29,7 +29,7 @@
 ### 这是一道面向大模型时代的"事实防线"
 
 ✅ **为模型提供抗幻觉、抗投毒的可信底座**
-   - 计划覆盖950+权威数据源（来源均为中外政府部门、国际组织、学术机构、行业权威协会）
+   - 计划覆盖1000+权威数据源（来源均为中外政府部门、国际组织、学术机构、行业权威协会）
    - 100%的URL验证，确保链接可用
 
 ✅ **为 Deep Research 提供可计算、可复查的证据链闭环**
@@ -68,11 +68,11 @@
 | 类别 | 数量 | 覆盖内容 |
 |------|------|----------|
 | 🌍 **国际组织** | 28 / 100+ | 世界银行、IMF、OECD、WHO、FAO... |
-| 🇨🇳 **中国政府** | 19 / 488 | 人民银行、国家统计局、海关总署、证监会... |
+| 🇨🇳 **中国政府** | 19 / 500+ | 人民银行、国家统计局、海关总署、证监会... |
 | 🌎 **各国官方** | 24 / 200+ | 美国、加拿大、日本、英国、澳大利亚... |
-| 🎓 **学术机构** | 26 / 50+ | NBER、Penn World Table、PubMed... |
-| 🏭 **行业领域** | 29 / 150+ | 能源、金融、健康、气候... |
-| **合计** | **126 / 950+** | **完成度13%** |
+| 🎓 **学术机构** | 26 / 100+ | NBER、Penn World Table、PubMed... |
+| 🏭 **行业领域** | 29 / 100+ | 能源、金融、健康、气候... |
+| **合计** | **126 / 1000+** | **完成度13%** |
 
 ### 已完成数据源 | Completed Sources
 
