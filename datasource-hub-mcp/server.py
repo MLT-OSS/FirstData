@@ -1433,21 +1433,15 @@ async def datasource_get_instructions(
 
         source = sources[0]
 
-        # 2. 收集数据源中的所有URL
+        # 2. 收集数据源中的所有URL（去重）
         urls_to_process = []
-        url_types = []
+        seen_urls = set()
 
-        if source.get('website'):
-            urls_to_process.append(source['website'])
-            url_types.append('website')
-
-        if source.get('data_url'):
-            urls_to_process.append(source['data_url'])
-            url_types.append('data_url')
-
-        if source.get('api_url'):
-            urls_to_process.append(source['api_url'])
-            url_types.append('api_url')
+        for url_field in ['website', 'data_url', 'api_url']:
+            url = source.get(url_field)
+            if url and url not in seen_urls:
+                urls_to_process.append(url)
+                seen_urls.add(url)
 
         if not urls_to_process:
             return json.dumps({
@@ -1455,8 +1449,7 @@ async def datasource_get_instructions(
                 "success": False
             }, ensure_ascii=False, indent=2)
 
-        print(f"[INFO] Processing {len(urls_to_process)} URLs for source: {source_id}")
-        print(f"[INFO] URL types: {url_types}")
+        print(f"[INFO] Processing {len(urls_to_process)} unique URLs for source: {source_id}")
 
         # 3. 准备指令API请求
         instruction_api_base = os.getenv(
@@ -1470,7 +1463,7 @@ async def datasource_get_instructions(
             task_ids = []
             task_metadata = []
 
-            for idx, (resource_url, url_type) in enumerate(zip(urls_to_process, url_types)):
+            for idx, resource_url in enumerate(urls_to_process):
                 request_data = {
                     "category": "查询",
                     "domain": "",  # 留空让API自动识别
@@ -1479,30 +1472,29 @@ async def datasource_get_instructions(
                     "top_k": top_k
                 }
 
-                print(f"[INFO] Creating task {idx+1}/{len(urls_to_process)} for {url_type}: {resource_url}")
-                
+                print(f"[INFO] Creating task {idx+1}/{len(urls_to_process)}: {resource_url}")
+
                 response = await client.post(
                     f"{instruction_api_base}/match_async",
                     json=request_data
                 )
 
                 if response.status_code != 200:
-                    print(f"[WARNING] Failed to create task for {url_type}: HTTP {response.status_code}")
+                    print(f"[WARNING] Failed to create task for URL {resource_url}: HTTP {response.status_code}")
                     continue
 
                 result = response.json()
                 if not result.get('success'):
-                    print(f"[WARNING] Failed to create task for {url_type}: {result.get('message', '未知错误')}")
+                    print(f"[WARNING] Failed to create task for URL {resource_url}: {result.get('message', '未知错误')}")
                     continue
 
                 task_id = result.get('task_id')
                 task_ids.append(task_id)
                 task_metadata.append({
                     'task_id': task_id,
-                    'url': resource_url,
-                    'url_type': url_type
+                    'url': resource_url
                 })
-                print(f"[INFO] Task created: {task_id} for {url_type}")
+                print(f"[INFO] Task created: {task_id}")
 
             if not task_ids:
                 return json.dumps({
@@ -1550,7 +1542,6 @@ async def datasource_get_instructions(
                 # 轮询每个待处理的任务
                 for task_meta in pending_tasks:
                     task_id = task_meta['task_id']
-                    url_type = task_meta['url_type']
 
                     status_resp = await client.get(
                         f"{instruction_api_base}/match_status/{task_id}"
@@ -1563,13 +1554,12 @@ async def datasource_get_instructions(
                     status_data = status_resp.json()
                     state = status_data.get('state', 'UNKNOWN')
 
-                    print(f"[INFO] Task {task_id[:8]}... ({url_type}) state: {state} ({elapsed:.1f}s)")
+                    print(f"[INFO] Task {task_id[:8]}... state: {state} ({elapsed:.1f}s)")
 
                     if state == 'SUCCESS':
                         # 任务成功完成
                         completed_tasks[task_id] = {
                             "url": task_meta['url'],
-                            "url_type": url_type,
                             "instructions": status_data.get('result', []),
                             "message": status_data.get('message', ''),
                             "task_id": task_id,
@@ -1581,7 +1571,6 @@ async def datasource_get_instructions(
                         # 任务失败
                         completed_tasks[task_id] = {
                             "url": task_meta['url'],
-                            "url_type": url_type,
                             "error": status_data.get('error', '未知错误'),
                             "message": status_data.get('message', ''),
                             "task_id": task_id,
