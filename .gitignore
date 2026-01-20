@@ -62,3 +62,6 @@ batch-run-results*.md
 # Claude Code settings (contains secrets)
 .claude/settings.local.json
 .env
+
+# logs
+logs/
