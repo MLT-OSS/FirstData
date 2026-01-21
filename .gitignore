@@ -40,7 +40,6 @@ indexes/*.json
 
 # Logs
 *.log
-batch-logs/
 
 # Testing
 .pytest_cache/
@@ -65,3 +64,6 @@ batch-run-results*.md
 
 # logs
 logs/
+
+# MCP server files
+.mcp.json

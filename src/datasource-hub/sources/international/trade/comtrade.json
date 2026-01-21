@@ -27,60 +27,19 @@
     "trade_data"
   ],
   "data_content": {
-    "en": "Detailed annual and monthly imports and exports by commodity classification (HS, SITC, BEC), trading partner, customs regime, mode of transport, and other dimensions. Includes trade values, quantities, and unit values.",
-    "zh": "按商品分类（HS、SITC、BEC）、贸易伙伴、海关制度、运输方式和其他维度的详细年度和月度进出口数据。包括贸易额、数量和单位价值。",
-    "description": {
-      "en": "Detailed annual and monthly imports and exports by commodity classification (HS, SITC, BEC), trading partner, customs regime, mode of transport, and other dimensions. Includes trade values, quantities, and unit values.",
-      "zh": "按商品分类（HS、SITC、BEC）、贸易伙伴、海关制度、运输方式和其他维度的详细年度和月度进出口数据。包括贸易额、数量和单位价值。"
-    },
-    "categories": [
-      {
-        "name": {
-          "en": "Merchandise Trade by Commodity",
-          "zh": "按商品分类的商品贸易"
-        },
-        "description": {
-          "en": "Detailed trade data classified by HS (Harmonized System) codes at 2, 4, and 6-digit levels",
-          "zh": "按HS（协调制度）2位、4位和6位编码分类的详细贸易数据"
-        }
-      },
-      {
-        "name": {
-          "en": "Bilateral Trade Flows",
-          "zh": "双边贸易流"
-        },
-        "description": {
-          "en": "Trade flows between specific country pairs (reporter and partner)",
-          "zh": "特定国家对（报告国和伙伴国）之间的贸易流"
-        }
-      },
-      {
-        "name": {
-          "en": "Trade by Mode of Transport",
-          "zh": "按运输方式分类的贸易"
-        },
-        "description": {
-          "en": "Trade statistics broken down by transport mode (sea, air, land, etc.)",
-          "zh": "按运输方式（海运、空运、陆运等）细分的贸易统计"
-        }
-      },
-      {
-        "name": {
-          "en": "Re-exports and Re-imports",
-          "zh": "转口和再进口"
-        },
-        "description": {
-          "en": "Data on goods imported for re-export and goods re-imported",
-          "zh": "为再出口而进口的商品和再进口商品的数据"
-        }
-      }
+    "en": [
+      "Detailed annual and monthly imports and exports by commodity classification (HS, SITC, BEC), trading partner, customs regime, mode of transport, and other dimensions. Includes trade values, quantities, and unit values.",
+      "Merchandise Trade by Commodity - Detailed trade data classified by HS (Harmonized System) codes at 2, 4, and 6-digit levels",
+      "Bilateral Trade Flows - Trade flows between specific country pairs (reporter and partner)",
+      "Trade by Mode of Transport - Trade statistics broken down by transport mode (sea, air, land, etc.)",
+      "Re-exports and Re-imports - Data on goods imported for re-export and goods re-imported"
     ],
-    "indicators": [
-      "trade_value_usd",
-      "quantity",
-      "net_weight_kg",
-      "supplementary_quantity",
-      "unit_value"
+    "zh": [
+      "按商品分类（HS、SITC、BEC）、贸易伙伴、海关制度、运输方式和其他维度的详细年度和月度进出口数据。包括贸易额、数量和单位价值。",
+      "按商品分类的商品贸易 - 按HS（协调制度）2位、4位和6位编码分类的详细贸易数据",
+      "双边贸易流 - 特定国家对（报告国和伙伴国）之间的贸易流",
+      "按运输方式分类的贸易 - 按运输方式（海运、空运、陆运等）细分的贸易统计",
+      "转口和再进口 - 为再出口而进口的商品和再进口商品的数据"
     ]
   },
   "authority_level": "international"

@@ -30,82 +30,23 @@
     "un_statistics"
   ],
   "data_content": {
-    "en": "UNCTAD statistics include merchandise trade by product and partner, services trade, foreign direct investment flows and stocks, commodity prices and indices, maritime transport, creative economy, technology and innovation, and sustainable development indicators",
-    "zh": "联合国贸发会议统计数据包括按产品和贸易伙伴分类的商品贸易、服务贸易、外国直接投资流量和存量、商品价格和指数、海运、创意经济、技术创新和可持续发展指标",
-    "description": {
-      "en": "UNCTAD statistics include merchandise trade by product and partner, services trade, foreign direct investment flows and stocks, commodity prices and indices, maritime transport, creative economy, technology and innovation, and sustainable development indicators",
-      "zh": "联合国贸发会议统计数据包括按产品和贸易伙伴分类的商品贸易、服务贸易、外国直接投资流量和存量、商品价格和指数、海运、创意经济、技术创新和可持续发展指标"
-    },
-    "categories": [
-      {
-        "name": {
-          "en": "Merchandise Trade",
-          "zh": "商品贸易"
-        },
-        "description": {
-          "en": "International merchandise trade data by product (HS, SITC classification) and trading partner",
-          "zh": "按产品（HS、SITC分类）和贸易伙伴分类的国际商品贸易数据"
-        }
-      },
-      {
-        "name": {
-          "en": "Services Trade",
-          "zh": "服务贸易"
-        },
-        "description": {
-          "en": "International trade in services by service category and partner economy",
-          "zh": "按服务类别和贸易伙伴分类的国际服务贸易"
-        }
-      },
-      {
-        "name": {
-          "en": "Foreign Direct Investment",
-          "zh": "外国直接投资"
-        },
-        "description": {
-          "en": "FDI inflows, outflows, and stocks by economy and sector",
-          "zh": "按经济体和行业分类的外国直接投资流入、流出和存量"
-        }
-      },
-      {
-        "name": {
-          "en": "Commodity Prices and Indices",
-          "zh": "商品价格和指数"
-        },
-        "description": {
-          "en": "Monthly commodity prices, price indices, and terms of trade for major commodities",
-          "zh": "主要商品的月度价格、价格指数和贸易条件"
-        }
-      },
-      {
-        "name": {
-          "en": "Maritime Transport",
-          "zh": "海运"
-        },
-        "description": {
-          "en": "Maritime transport statistics including fleet, port traffic, and freight rates",
-          "zh": "海运统计数据，包括船队、港口流量和运费"
-        }
-      },
-      {
-        "name": {
-          "en": "Creative Economy",
-          "zh": "创意经济"
-        },
-        "description": {
-          "en": "Trade in creative goods and services by creative industry classification",
-          "zh": "按创意产业分类的创意产品和服务贸易"
-        }
-      }
+    "en": [
+      "UNCTAD statistics include merchandise trade by product and partner, services trade, foreign direct investment flows and stocks, commodity prices and indices, maritime transport, creative economy, technology and innovation, and sustainable development indicators",
+      "Merchandise Trade - International merchandise trade data by product (HS, SITC classification) and trading partner",
+      "Services Trade - International trade in services by service category and partner economy",
+      "Foreign Direct Investment - FDI inflows, outflows, and stocks by economy and sector",
+      "Commodity Prices and Indices - Monthly commodity prices, price indices, and terms of trade for major commodities",
+      "Maritime Transport - Maritime transport statistics including fleet, port traffic, and freight rates",
+      "Creative Economy - Trade in creative goods and services by creative industry classification"
     ],
-    "indicators": [
-      "trade_value",
-      "trade_volume",
-      "fdi_inflows",
-      "fdi_outflows",
-      "commodity_index",
-      "freight_rates",
-      "creative_exports"
+    "zh": [
+      "联合国贸发会议统计数据包括按产品和贸易伙伴分类的商品贸易、服务贸易、外国直接投资流量和存量、商品价格和指数、海运、创意经济、技术创新和可持续发展指标",
+      "商品贸易 - 按产品（HS、SITC分类）和贸易伙伴分类的国际商品贸易数据",
+      "服务贸易 - 按服务类别和贸易伙伴分类的国际服务贸易",
+      "外国直接投资 - 按经济体和行业分类的外国直接投资流入、流出和存量",
+      "商品价格和指数 - 主要商品的月度价格、价格指数和贸易条件",
+      "海运 - 海运统计数据，包括船队、港口流量和运费",
+      "创意经济 - 按创意产业分类的创意产品和服务贸易"
     ]
   },
   "authority_level": "international"

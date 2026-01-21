@@ -14,14 +14,28 @@
 set -euo pipefail
 
 # ============================================================================
+# 切换到项目根目录
+# ============================================================================
+
+# 获取脚本所在目录
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# 项目根目录（scripts的上一级）
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# 切换到项目根目录
+cd "$PROJECT_ROOT"
+echo "📍 项目根目录: $PROJECT_ROOT"
+echo ""
+
+# ============================================================================
 # 配置
 # ============================================================================
 
-DATASOURCE_FILE="batch-datasource.txt"
-OUTPUT_FILE="batch-run-results.md"
-LOG_DIR="batch-logs"
+DATASOURCE_FILE="scripts/batch-tasks.txt"
+OUTPUT_FILE="batch-results.md"
+LOG_DIR="logs/batch"
 TEMP_DIR="batch-temp"
-MAIN_DIR="$PWD"
+MAIN_DIR="$PROJECT_ROOT"
 
 # 获取行范围参数
 START_LINE=${1:-1}
@@ -32,6 +46,9 @@ rm -rf "$LOG_DIR"
 mkdir -p "$LOG_DIR"
 rm -rf "$TEMP_DIR"
 mkdir -p "$TEMP_DIR"
+
+echo "📁 日志目录: $LOG_DIR"
+echo "📁 临时目录: $TEMP_DIR"
 
 # ============================================================================
 # 初始化
@@ -391,7 +408,7 @@ fi
 mv "$OUTPUT_FILE" "$LOG_DIR/$OUTPUT_FILE"
 
 echo ""
-echo "📄 详细结果: $OUTPUT_FILE"
+echo "📄 详细结果: $LOG_DIR/$OUTPUT_FILE"
 echo "📁 日志目录: $LOG_DIR/"
 echo ""
 echo "✨ 全部完成！"

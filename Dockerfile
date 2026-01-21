@@ -10,16 +10,19 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# Install runtime dependencies from requirements.txt via Tsinghua mirror
-COPY datasource-hub-mcp/requirements.txt /app/requirements.txt
-RUN python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple \
-    && python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r /app/requirements.txt
+# Install uv for faster dependency installation
+RUN pip install uv
 
-# Copy application source
-COPY datasource-hub-mcp/server.py /app/server.py
+# Copy pyproject.toml and uv.lock for dependency installation
+COPY pyproject.toml uv.lock /app/
 
-# Copy data sources directory from parent context
-COPY sources /app/sources
+# Copy source code (needed for uv to install the package)
+COPY src /app/src
+
+# Install dependencies using uv (much faster than pip)
+# --no-cache: don't cache downloads
+# --system: install to system Python instead of venv
+RUN cd /app && uv pip install --system --no-cache .
 
 # Expose MCP HTTP port for agent (8001)
 EXPOSE 8001
@@ -30,4 +33,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD ps aux | grep -v grep | grep server.py || exit 1
 
 # Default command: start the Agent MCP server
-CMD ["python", "server.py"]
+CMD ["python", "/app/src/datasource-hub/mcp/server.py"]

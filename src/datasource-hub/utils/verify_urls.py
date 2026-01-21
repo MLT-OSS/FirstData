@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 DataSource Hub - URL Verification Script
 Verifies that all URLs in data source files are accessible
@@ -9,7 +8,6 @@ import json
 import sys
 import time
 from pathlib import Path
-from typing import List, Dict, Tuple, Optional
 from urllib.parse import urlparse
 
 try:
@@ -42,7 +40,7 @@ class URLVerifier:
             total=max_retries,
             backoff_factor=1,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["HEAD", "GET"]
+            allowed_methods=["HEAD", "GET"],
         )
         adapter = HTTPAdapter(max_retries=retry_strategy)
         self.session.mount("http://", adapter)
@@ -50,13 +48,15 @@ class URLVerifier:
 
         # Use standard browser User-Agent to avoid being blocked
         # Many sites block non-browser user agents
-        self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-        })
+        self.session.headers.update(
+            {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+            }
+        )
 
-    def extract_urls(self, data: Dict) -> Dict[str, str]:
+    def extract_urls(self, data: dict) -> dict[str, str]:
         """
         Extract all URLs from data source JSON (v2.0 schema)
 
@@ -66,23 +66,23 @@ class URLVerifier:
         urls = {}
 
         # Website (organization homepage, required in v2.0)
-        website = data.get('website')
+        website = data.get("website")
         if website:
-            urls['website'] = website
+            urls["website"] = website
 
         # Data URL (direct data access page, required in v2.0)
-        data_url = data.get('data_url')
+        data_url = data.get("data_url")
         if data_url:
-            urls['data_url'] = data_url
+            urls["data_url"] = data_url
 
         # API URL (API documentation or endpoint, optional in v2.0)
-        api_url = data.get('api_url')
+        api_url = data.get("api_url")
         if api_url:
-            urls['api_url'] = api_url
+            urls["api_url"] = api_url
 
         return urls
 
-    def verify_url(self, url: str, field_name: str) -> Tuple[bool, int, str]:
+    def verify_url(self, url: str, field_name: str) -> tuple[bool, int, str]:
         """
         Verify a single URL
 
@@ -95,7 +95,7 @@ class URLVerifier:
             if not all([parsed.scheme, parsed.netloc]):
                 return False, 0, "Invalid URL format"
 
-            if parsed.scheme not in ['http', 'https']:
+            if parsed.scheme not in ["http", "https"]:
                 return False, 0, f"Unsupported scheme: {parsed.scheme}"
         except Exception as e:
             return False, 0, f"URL parsing error: {e}"
@@ -106,11 +106,7 @@ class URLVerifier:
 
         # Try HEAD request first (faster)
         try:
-            response = self.session.head(
-                url,
-                timeout=self.timeout,
-                allow_redirects=True
-            )
+            response = self.session.head(url, timeout=self.timeout, allow_redirects=True)
 
             # If HEAD returns error status codes, try GET
             # Some sites block HEAD requests but allow GET
@@ -126,24 +122,22 @@ class URLVerifier:
         # If HEAD failed or returned error, try GET
         if head_failed or response is None:
             try:
-                response = self.session.get(
-                    url,
-                    timeout=self.timeout,
-                    allow_redirects=True
-                )
+                response = self.session.get(url, timeout=self.timeout, allow_redirects=True)
             except requests.exceptions.SSLError as e:
                 # SSL error encountered, try HTTP version
-                if url.startswith('https://'):
-                    http_url = url.replace('https://', 'http://', 1)
+                if url.startswith("https://"):
+                    http_url = url.replace("https://", "http://", 1)
                     try:
                         response = self.session.get(
-                            http_url,
-                            timeout=self.timeout,
-                            allow_redirects=True
+                            http_url, timeout=self.timeout, allow_redirects=True
                         )
                         # If HTTP works, return success with note
                         if response.status_code == 200:
-                            return True, response.status_code, f"OK (HTTPS failed, used HTTP: {http_url})"
+                            return (
+                                True,
+                                response.status_code,
+                                f"OK (HTTPS failed, used HTTP: {http_url})",
+                            )
                     except Exception:
                         pass  # HTTP also failed, return original SSL error
                 return False, 0, f"SSL error: {str(e)[:100]}"
@@ -174,21 +168,20 @@ class URLVerifier:
 
         # Client errors
         elif 400 <= status_code < 500:
-            if status_code == 401:
-                # Authentication required might be expected
-                return True, status_code, "Authentication required (expected for some sources)"
-            elif status_code == 403:
-                return False, status_code, "Forbidden (possible anti-bot protection)"
-            elif status_code == 404:
-                return False, status_code, "Not Found"
-            else:
-                return False, status_code, f"Client error"
+            # Authentication required might be expected
+            client_error_map = {
+                401: (True, "Authentication required (expected for some sources)"),
+                403: (False, "Forbidden (possible anti-bot protection)"),
+                404: (False, "Not Found"),
+            }
+            success, message = client_error_map.get(status_code, (False, "Client error"))
+            return success, status_code, message
 
         # Server errors
         else:
             return False, status_code, "Server error"
 
-    def verify_file(self, file_path: Path, verbose: bool = True) -> Tuple[bool, Dict]:
+    def verify_file(self, file_path: Path, verbose: bool = True) -> tuple[bool, dict]:
         """
         Verify all URLs in a data source file
 
@@ -196,31 +189,31 @@ class URLVerifier:
             (all_passed, results)
         """
         if verbose:
-            print(f"\n{'='*70}")
+            print(f"\n{'=' * 70}")
             print(f"Verifying URLs in: {file_path}")
-            print(f"{'='*70}\n")
+            print(f"{'=' * 70}\n")
 
         # Load JSON file
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
+            with open(file_path, encoding="utf-8") as f:
                 data = json.load(f)
         except json.JSONDecodeError as e:
             print(f"❌ Error: Invalid JSON: {e}")
-            return False, {'error': f'Invalid JSON: {e}'}
+            return False, {"error": f"Invalid JSON: {e}"}
         except Exception as e:
             print(f"❌ Error: Failed to read file: {e}")
-            return False, {'error': f'Failed to read file: {e}'}
+            return False, {"error": f"Failed to read file: {e}"}
 
         # Extract URLs
         urls = self.extract_urls(data)
 
         if not urls:
             print("⚠️  Warning: No URLs found in file")
-            return True, {'urls': {}}
+            return True, {"urls": {}}
 
         # Verify each URL
         all_passed = True
-        results = {'urls': {}}
+        results = {"urls": {}}
 
         for field_name, url in urls.items():
             if verbose:
@@ -228,16 +221,16 @@ class URLVerifier:
                 print(f"  URL: {url}")
 
             # Add small delay between requests to be respectful
-            if field_name != list(urls.keys())[0]:
+            if field_name != next(iter(urls.keys())):
                 time.sleep(0.5)
 
             success, status_code, message = self.verify_url(url, field_name)
 
-            results['urls'][field_name] = {
-                'url': url,
-                'success': success,
-                'status_code': status_code,
-                'message': message
+            results["urls"][field_name] = {
+                "url": url,
+                "success": success,
+                "status_code": status_code,
+                "message": message,
             }
 
             if success:
@@ -252,23 +245,23 @@ class URLVerifier:
 
         # Summary
         if verbose:
-            print(f"{'='*70}")
+            print(f"{'=' * 70}")
             total = len(urls)
-            passed = sum(1 for r in results['urls'].values() if r['success'])
+            passed = sum(1 for r in results["urls"].values() if r["success"])
             failed = total - passed
 
             if all_passed:
                 print(f"✅ All URLs verified successfully! ({passed}/{total})")
             else:
-                print(f"⚠️  URL verification completed with issues:")
+                print("⚠️  URL verification completed with issues:")
                 print(f"   Passed: {passed}/{total}")
                 print(f"   Failed: {failed}/{total}")
-            print(f"{'='*70}\n")
+            print(f"{'=' * 70}\n")
 
         return all_passed, results
 
 
-def verify_directory(directory: Path, timeout: int = 10, verbose: bool = True) -> Dict:
+def verify_directory(directory: Path, timeout: int = 10, verbose: bool = True) -> dict:
     """
     Verify all JSON files in a directory
 
@@ -278,20 +271,20 @@ def verify_directory(directory: Path, timeout: int = 10, verbose: bool = True) -
     verifier = URLVerifier(timeout=timeout)
 
     results = {
-        'total_files': 0,
-        'files_passed': 0,
-        'files_failed': 0,
-        'total_urls': 0,
-        'urls_passed': 0,
-        'urls_failed': 0,
-        'files': {}
+        "total_files": 0,
+        "files_passed": 0,
+        "files_failed": 0,
+        "total_urls": 0,
+        "urls_passed": 0,
+        "urls_failed": 0,
+        "files": {},
     }
 
     # Find all JSON files
-    json_files = sorted(directory.rglob('*.json'))
+    json_files = sorted(directory.rglob("*.json"))
 
     # Exclude schema and index files
-    json_files = [f for f in json_files if 'schemas' not in f.parts and 'indexes' not in f.parts]
+    json_files = [f for f in json_files if "schemas" not in f.parts and "indexes" not in f.parts]
 
     if not json_files:
         print(f"⚠️  No JSON files found in {directory}")
@@ -300,71 +293,72 @@ def verify_directory(directory: Path, timeout: int = 10, verbose: bool = True) -
     print(f"Found {len(json_files)} files to verify\n")
 
     for json_file in json_files:
-        results['total_files'] += 1
+        results["total_files"] += 1
 
         all_passed, file_results = verifier.verify_file(json_file, verbose=verbose)
 
-        results['files'][str(json_file)] = file_results
+        results["files"][str(json_file)] = file_results
 
         if all_passed:
-            results['files_passed'] += 1
+            results["files_passed"] += 1
         else:
-            results['files_failed'] += 1
+            results["files_failed"] += 1
 
         # Count URLs
-        if 'urls' in file_results:
-            for url_result in file_results['urls'].values():
-                results['total_urls'] += 1
-                if url_result['success']:
-                    results['urls_passed'] += 1
+        if "urls" in file_results:
+            for url_result in file_results["urls"].values():
+                results["total_urls"] += 1
+                if url_result["success"]:
+                    results["urls_passed"] += 1
                 else:
-                    results['urls_failed'] += 1
+                    results["urls_failed"] += 1
 
     return results
 
 
-def print_summary(results: Dict):
+def print_summary(results: dict):
     """Print verification summary"""
-    print("\n" + "="*70)
+    print("\n" + "=" * 70)
     print("URL Verification Summary")
-    print("="*70)
-    print(f"\nFiles:")
+    print("=" * 70)
+    print("\nFiles:")
     print(f"  Total:  {results['total_files']}")
     print(f"  Passed: {results['files_passed']}")
     print(f"  Failed: {results['files_failed']}")
 
-    print(f"\nURLs:")
+    print("\nURLs:")
     print(f"  Total:  {results['total_urls']}")
     print(f"  Passed: {results['urls_passed']}")
     print(f"  Failed: {results['urls_failed']}")
 
-    if results['total_urls'] > 0:
-        success_rate = (results['urls_passed'] / results['total_urls']) * 100
+    if results["total_urls"] > 0:
+        success_rate = (results["urls_passed"] / results["total_urls"]) * 100
         print(f"  Success rate: {success_rate:.1f}%")
 
     # List failed files
-    if results['files_failed'] > 0:
-        print(f"\n{'='*70}")
+    if results["files_failed"] > 0:
+        print(f"\n{'=' * 70}")
         print("Files with failed URLs:")
-        print(f"{'='*70}")
+        print(f"{'=' * 70}")
 
-        for file_path, file_result in results['files'].items():
-            if 'urls' in file_result:
+        for file_path, file_result in results["files"].items():
+            if "urls" in file_result:
                 failed_urls = [
-                    (field, data) for field, data in file_result['urls'].items()
-                    if not data['success']
+                    (field, data)
+                    for field, data in file_result["urls"].items()
+                    if not data["success"]
                 ]
 
                 if failed_urls:
                     print(f"\n📄 {file_path}")
                     for field_name, url_data in failed_urls:
-                        status = url_data['status_code'] if url_data['status_code'] > 0 else 'N/A'
+                        status = url_data["status_code"] if url_data["status_code"] > 0 else "N/A"
                         print(f"   ❌ {field_name}")
                         print(f"      URL: {url_data['url']}")
                         print(f"      Status: {status}")
                         print(f"      Error: {url_data['message']}")
 
-    print(f"\n{'='*70}\n")
+    print(f"\n{'=' * 70}\n")
 
 
 def main():
@@ -372,7 +366,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='Verify URLs in DataSource Hub metadata files (v2.0 schema)',
+        description="Verify URLs in DataSource Hub metadata files (v2.0 schema)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -392,33 +386,21 @@ V2.0 Schema - Verified URL fields:
   - website (organization homepage, required)
   - data_url (direct data access page, required)
   - api_url (API documentation or endpoint, optional)
-        """
+        """,
+    )
+
+    parser.add_argument("path", type=str, help="File or directory to verify")
+
+    parser.add_argument(
+        "-t", "--timeout", type=int, default=10, help="Request timeout in seconds (default: 10)"
     )
 
     parser.add_argument(
-        'path',
-        type=str,
-        help='File or directory to verify'
+        "-q", "--quiet", action="store_true", help="Quiet mode (less verbose output)"
     )
 
     parser.add_argument(
-        '-t', '--timeout',
-        type=int,
-        default=10,
-        help='Request timeout in seconds (default: 10)'
-    )
-
-    parser.add_argument(
-        '-q', '--quiet',
-        action='store_true',
-        help='Quiet mode (less verbose output)'
-    )
-
-    parser.add_argument(
-        '--max-retries',
-        type=int,
-        default=3,
-        help='Maximum number of retry attempts (default: 3)'
+        "--max-retries", type=int, default=3, help="Maximum number of retry attempts (default: 3)"
     )
 
     args = parser.parse_args()
@@ -449,7 +431,7 @@ V2.0 Schema - Verified URL fields:
         # Print summary
         print_summary(results)
 
-        if results['files_failed'] == 0 and results['urls_failed'] == 0:
+        if results["files_failed"] == 0 and results["urls_failed"] == 0:
             print("✅ All URLs verified successfully!")
             sys.exit(0)
         else:
@@ -461,5 +443,5 @@ V2.0 Schema - Verified URL fields:
         sys.exit(1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

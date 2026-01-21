@@ -52,7 +52,14 @@ class CompletenessChecker:
         }
 
     def get_nested_field(self, data: Dict, field_path: str) -> Tuple[bool, any]:
-        """Get value from nested dictionary using dot notation"""
+        """
+        Get value from nested dictionary using dot notation
+
+        Returns:
+            (exists, value) where:
+            - exists=True if field is defined in JSON (even if value is null)
+            - exists=False if field is not defined or has empty string/array
+        """
         keys = field_path.split('.')
         value = data
 
@@ -60,17 +67,29 @@ class CompletenessChecker:
             if isinstance(value, dict) and key in value:
                 value = value[key]
             else:
+                # Field path does not exist in the data
                 return False, None
 
-        # Field exists, check if it has meaningful value
-        if value is None or value == '' or value == []:
+        # Field exists in JSON - now check if it has meaningful value
+        # Note: null is considered a valid value (e.g., api_url: null, country: null)
+        # Only empty string and empty array are considered invalid
+        if value == '' or value == []:
             return False, None
 
+        # Field exists with valid value (including null)
         return True, value
 
     def check_fields(self, data: Dict, field_list: List[str], category: str):
         """Check if fields in the list are present"""
         for field in field_list:
+            # Special handling for conditional fields
+            if field == 'country':
+                # country is only recommended when geographic_scope is national/subnational
+                geo_scope = data.get('geographic_scope', '')
+                if geo_scope in ['global', 'regional']:
+                    # Skip country field for global/regional sources
+                    continue
+
             self.results[category]['total'] += 1
             exists, value = self.get_nested_field(data, field)
 

@@ -1,10 +1,9 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """Quick view script for China data source samples"""
 
 import json
-import os
 from pathlib import Path
+
 
 def view_samples():
     print("=" * 50)
@@ -13,21 +12,21 @@ def view_samples():
     print()
 
     # Find all JSON files
-    json_files = sorted(Path('.').rglob('*.json'))
+    json_files = sorted(Path(".").rglob("*.json"))
 
     for json_file in json_files:
         try:
-            with open(json_file, 'r', encoding='utf-8') as f:
+            with open(json_file, encoding="utf-8") as f:
                 data = json.load(f)
 
             # Calculate average quality score
-            quality = data['quality']
+            quality = data["quality"]
             avg_quality = (
-                quality['authority_level'] +
-                quality['methodology_transparency'] +
-                quality['update_timeliness'] +
-                quality['data_completeness'] +
-                quality['documentation_quality']
+                quality["authority_level"]
+                + quality["methodology_transparency"]
+                + quality["update_timeliness"]
+                + quality["data_completeness"]
+                + quality["documentation_quality"]
             ) / 5.0
 
             print(f"📄 File: {json_file}")
@@ -48,5 +47,6 @@ def view_samples():
     print(f"Total: {len(json_files)} data sources")
     print("=" * 50)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     view_samples()
