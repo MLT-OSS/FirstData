@@ -1,4 +1,4 @@
-# DataSource Hub 🌐
+# FirstData 🌐
 
 **全球最全面、最权威、最结构化的开源数据源知识库**
 
@@ -8,11 +8,11 @@
 [![数据源数量](https://img.shields.io/badge/数据源-126%2F1000+-blue.svg)](tasks/README.md)
 [![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](ROADMAP.md)
 [![权威性](https://img.shields.io/badge/权威性-政府与国际组织优先-brightgreen.svg)](#)
-[![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](datasource-hub-mcp/)
+[![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](firstdata-mcp/)
 
 ---
 
-## 🎯 为什么选择 DataSource Hub?
+## 🎯 为什么选择 FirstData?
 
 ### AI时代的事实防线：从"信息过载"到"真实稀缺"
 
@@ -348,7 +348,7 @@
 **用户提问：**
 > "我想研究国内最近上市的某家AI科技公司，需要找到他们的招股说明书，分析一下商业模式和财务状况"
 
-**✅ 使用 DataSource Hub MCP 的完整工作流：**
+**✅ 使用 FirstData MCP 的完整工作流：**
 
 #### 📋 第一步：智能检索可信数据源
 
@@ -491,7 +491,7 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -518,7 +518,7 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -553,7 +553,7 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    ```json
    {
      "context_servers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -582,7 +582,7 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -604,14 +604,14 @@ MCP 智能检索推荐权威数据源（港交所披露易）
 
 ```bash
 # 拉取镜像
-docker pull datasource-hub/mcp-server:latest
+docker pull firstdata/mcp-server:latest
 
 # 运行服务器
 docker run -d \
   -p 8001:8001 \
   -e DATASOURCE_HUB_API_KEY=your_secret_key \
-  --name datasource-hub-mcp \
-  datasource-hub/mcp-server:latest
+  --name firstdata-mcp \
+  firstdata/mcp-server:latest
 
 # 然后在客户端使用 HTTP 配置
 ```
@@ -620,7 +620,7 @@ docker run -d \
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -644,7 +644,7 @@ docker run -d \
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -657,7 +657,7 @@ docker run -d \
 
 **使用 VS Code CLI：**
 ```bash
-code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8001/mcp","headers":{"Authorization":"Bearer your_mcp_api_key_here"}}'
+code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/mcp","headers":{"Authorization":"Bearer your_mcp_api_key_here"}}'
 ```
 
 </details>
@@ -670,7 +670,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -693,7 +693,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -717,7 +717,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -740,7 +740,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -763,7 +763,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -784,7 +784,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -805,7 +805,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -827,7 +827,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
    ```json
    {
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -857,7 +857,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -882,7 +882,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
    {
      "$schema": "https://opencode.ai/config.json",
      "mcpServers": {
-       "datasource-hub": {
+       "firstdata": {
          "type": "http",
          "url": "http://localhost:8001/mcp",
          "headers": {
@@ -905,7 +905,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -926,7 +926,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -947,7 +947,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 ```json
 {
   "mcpServers": {
-    "datasource-hub": {
+    "firstdata": {
       "type": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
@@ -975,7 +975,7 @@ code --add-mcp '{"name":"datasource-hub","type":"http","url":"http://localhost:8
 检索 Agent 会为你查找并推荐最权威的数据源。
 
 
-<!-- **📖 完整MCP使用指南和部署说明：** [datasource-hub-mcp/README.md](datasource-hub-mcp/README.md) -->
+<!-- **📖 完整MCP使用指南和部署说明：** [firstdata-mcp/README.md](firstdata-mcp/README.md) -->
 
 <!-- ## 🤝 如何贡献
 
@@ -1148,11 +1148,11 @@ python scripts/generate_indexes.py
 </p>
 
 <p align="center">
-  <sub>Made with ❤️ by the DataSource Hub Community</sub>
+  <sub>Made with ❤️ by the FirstData Community</sub>
 </p>
 
 <p align="center">
-  <a href="#-为什么选择-datasource-hub">为什么</a> •
+  <a href="#-为什么选择-firstdata">为什么</a> •
   <a href="#-核心优势">核心优势</a> •
   <a href="#-使用场景在ai时代避免幻觉基于证据推理">使用场景</a> •
   <a href="#-快速开始">快速开始</a> •
@@ -1161,4 +1161,4 @@ python scripts/generate_indexes.py
 </p>
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jiangwenzhe/datasource-hub&type=Date&theme=light&width=800&height=400)](https://star-history.com/#jiangwenzhe/datasource-hub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=jiangwenzhe/firstdata&type=Date&theme=light&width=800&height=400)](https://star-history.com/#jiangwenzhe/firstdata&Date)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-DataSource Hub MCP 自动化测试脚本
+FirstData MCP 自动化测试脚本
 
 运行test_cases.md中定义的所有测试用例，并生成详细的测试报告。
 """
@@ -450,9 +450,9 @@ def generate_report(results: list[dict], output_file: Path):  # noqa: PLR0915
 
     # 生成报告
     lines = []
-    lines.append("# DataSource Hub MCP 测试报告\n")
+    lines.append("# FirstData MCP 测试报告\n")
     lines.append(f"**生成时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-    lines.append("**MCP服务器**: DataSource Hub Agent v0.1.0\n")
+    lines.append("**MCP服务器**: FirstData Agent v0.1.0\n")
     lines.append("")
 
     # 总结
@@ -544,7 +544,7 @@ def generate_report(results: list[dict], output_file: Path):  # noqa: PLR0915
 def main():
     """主函数"""
     print("=" * 60)
-    print("DataSource Hub MCP 自动化测试")
+    print("FirstData MCP 自动化测试")
     print("=" * 60)
     print(f"测试用例总数: {len(TEST_CASES)}")
     print("开始测试...\n")

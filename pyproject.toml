@@ -1,5 +1,5 @@
 [project]
-name = "datasource-hub"
+name = "firstdata"
 version = "0.1.0"
 description = "A centralized repository for discovering and accessing high-quality data sources"
 readme = "README.md"
@@ -82,6 +82,12 @@ ignore = [
     "PLR2004", # magic values in tests
     "B007",    # unused loop variable in tests
     "SIM102",  # nested if statements (clearer in test assertions)
-    "SIM108",  # ternary operator (not always cleaner)
+    "SIM108",  # ternary operator (not always clearer)
     "N803",    # argument name should be lowercase (mock MCP types)
+]
+".claude/skills/**/*.py" = [
+    "PLR0915", # too many statements (these are standalone scripts)
+    "SIM116",  # use dict instead of consecutive if (sometimes if is clearer)
+    "PLC0206", # dict iteration without .items() (value not needed in this case)
+    "F401",    # unused import (used for availability check)
 ]

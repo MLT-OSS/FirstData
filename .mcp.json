@@ -1,10 +1,10 @@
 {
   "mcpServers": {
-    "datasource_hub": {
+    "firstdata": {
       "type": "http",
-      "url": "${DATASOURCE_HUB_URL:-http://localhost:8001/mcp}",
+      "url": "${FIRSTDATA_URL:-http://localhost:8001/mcp}",
       "headers": {
-        "Authorization": "Bearer ${DATASOURCE_HUB_TOKEN}"
+        "Authorization": "Bearer ${FIRSTDATA_TOKEN}"
       }
     },
     "web_search": {
