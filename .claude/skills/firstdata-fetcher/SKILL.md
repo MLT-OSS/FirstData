@@ -149,12 +149,12 @@ src/firstdata/sources/{主类别}/{子类别}/{数据源ID}.json
 | sectors       | energy, innovation_patents, education, agriculture_food, finance_markets | `src/firstdata/sources/sectors/{sub_cat}/`       |
 | china         | national, finance, economy, etc.                                         | `src/firstdata/sources/china/{sub_cat}/`         |
 
-**优先级2：使用 datasource-classifier Sub-Agent**（仅在步骤1无类别信息时）
+**优先级2：使用 firstdata-classifier Sub-Agent**（仅在步骤1无类别信息时）
 
-如果步骤1中用户未提供类别信息且可用classifier，调用 `@datasource-classifier`：
+如果步骤1中用户未提供类别信息且可用classifier，调用 `@firstdata-classifier`：
 
 ```
-@datasource-classifier
+@firstdata-classifier
 请分析此数据源并确定分类路径:
 - ID: {id}
 - 组织: {organization.name} ({organization.type})
@@ -188,7 +188,7 @@ src/firstdata/sources/{主类别}/{子类别}/{数据源ID}.json
 #### 6.1 Schema 验证 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-fetcher/scripts/validate.py src/firstdata/sources/path/to/file.json --schema .claude/skills/datasource-fetcher/reference/datasource-schema.json
+python .claude/skills/firstdata-fetcher/scripts/validate.py src/firstdata/sources/path/to/file.json --schema .claude/skills/firstdata-fetcher/reference/datasource-schema.json
 ```
 
 **必须通过**：JSON 格式符合 datasource-schema.json 标准
@@ -196,7 +196,7 @@ python .claude/skills/datasource-fetcher/scripts/validate.py src/firstdata/sourc
 #### 6.2 URL 可访问性验证 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-fetcher/scripts/verify_urls.py src/firstdata/sources/path/to/file.json
+python .claude/skills/firstdata-fetcher/scripts/verify_urls.py src/firstdata/sources/path/to/file.json
 ```
 
 验证字段：`primary_url`（必需）、`organization.website`、`api.documentation`、`support_url`
@@ -205,7 +205,7 @@ python .claude/skills/datasource-fetcher/scripts/verify_urls.py src/firstdata/so
 #### 6.3 完整性检查 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-fetcher/scripts/check_completeness.py src/firstdata/sources/path/to/file.json
+python .claude/skills/firstdata-fetcher/scripts/check_completeness.py src/firstdata/sources/path/to/file.json
 ```
 
 **最低要求**：
@@ -214,7 +214,7 @@ python .claude/skills/datasource-fetcher/scripts/check_completeness.py src/first
 - 推荐字段: ≥80%
 - 总体完成度: ≥70%
 
-**说明**：所有验证脚本位于 `.claude/skills/datasource-fetcher/scripts/` 目录。
+**说明**：所有验证脚本位于 `.claude/skills/firstdata-fetcher/scripts/` 目录。
 
 ---
 
@@ -244,14 +244,14 @@ python .claude/skills/datasource-fetcher/scripts/check_completeness.py src/first
 ```
 完整数据源处理流程：
 ┌─────────────────────────────────────┐
-│ datasource-fetcher (本skill)        │ ← 步骤 1-6
+│ firstdata-fetcher (本skill)        │ ← 步骤 1-6
 │ - 获取数据                          │
 │ - 生成JSON                          │
 │ - 验证                              │
 └─────────────────────────────────────┘
            ↓ (JSON文件)
 ┌─────────────────────────────────────┐
-│ datasource-publisher (另一个skill)  │ ← 步骤 7-10
+│ firstdata-publisher (另一个skill)  │ ← 步骤 7-10
 │ - 生成索引                          │
 │ - 更新文档                          │
 │ - Git提交                           │

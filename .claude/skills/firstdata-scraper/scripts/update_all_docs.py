@@ -7,9 +7,9 @@
 - 8.2: 进度统计（3个文件的数字同步）
 
 使用方法：
-    python .claude/skills/datasource-scraper/scripts/update_all_docs.py
-    python .claude/skills/datasource-scraper/scripts/update_all_docs.py --dry-run
-    python .claude/skills/datasource-scraper/scripts/update_all_docs.py --only-stats  # 仅更新进度统计
+    python .claude/skills/firstdata-scraper/scripts/update_all_docs.py
+    python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --dry-run
+    python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --only-stats  # 仅更新进度统计
 """
 
 import argparse

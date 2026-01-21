@@ -411,7 +411,7 @@ class DataSourceChecker:
 
     def save_report(self, report):
         """保存对比报告"""
-        output_file = ".claude/skills/datasource-publisher/scripts/comparison_report.json"
+        output_file = ".claude/skills/firstdata-publisher/scripts/comparison_report.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(report, f, ensure_ascii=False, indent=2)
 

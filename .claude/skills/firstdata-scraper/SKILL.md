@@ -201,12 +201,12 @@ src/firstdata/sources/{主类别}/{子类别}/{数据源ID}.json
 | sectors       | energy, innovation_patents, education, agriculture_food, finance_markets | `src/firstdata/sources/sectors/{sub_cat}/`       |
 | china         | national, finance, economy, etc.                                         | `src/firstdata/sources/china/{sub_cat}/`         |
 
-**优先级2：使用 datasource-classifier Sub-Agent**（仅在步骤1无类别信息时）
+**优先级2：使用 firstdata-classifier Sub-Agent**（仅在步骤1无类别信息时）
 
-如果步骤1中用户未提供类别信息，调用 `@datasource-classifier` 确定分类路径：
+如果步骤1中用户未提供类别信息，调用 `@firstdata-classifier` 确定分类路径：
 
 ```
-@datasource-classifier
+@firstdata-classifier
 请分析此数据源并确定分类路径:
 - ID: {id}
 - 组织: {organization.name} ({organization.type})
@@ -214,7 +214,7 @@ src/firstdata/sources/{主类别}/{子类别}/{数据源ID}.json
 - 领域: {coverage.domains}
 ```
 
-datasource-classifier 会返回推荐路径、分类理由和替代方案。
+firstdata-classifier 会返回推荐路径、分类理由和替代方案。
 
 **优先级3：快速参考**（无法使用前两种方法时）
 
@@ -232,7 +232,7 @@ datasource-classifier 会返回推荐路径、分类理由和替代方案。
 #### 6.1 Schema 验证 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-scraper/scripts/validate.py src/firstdata/sources/path/to/file.json --schema .claude/skills/datasource-scraper/reference/datasource-schema.json
+python .claude/skills/firstdata-scraper/scripts/validate.py src/firstdata/sources/path/to/file.json --schema .claude/skills/firstdata-scraper/reference/datasource-schema.json
 ```
 
 **必须通过**：JSON 格式符合 datasource-schema.json 标准
@@ -242,7 +242,7 @@ python .claude/skills/datasource-scraper/scripts/validate.py src/firstdata/sourc
 #### 6.2 URL 可访问性验证 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-scraper/scripts/verify_urls.py src/firstdata/sources/path/to/file.json
+python .claude/skills/firstdata-scraper/scripts/verify_urls.py src/firstdata/sources/path/to/file.json
 ```
 
 验证字段：`primary_url`（必需）、`organization.website`、`api.documentation`、`support_url`
@@ -253,7 +253,7 @@ python .claude/skills/datasource-scraper/scripts/verify_urls.py src/firstdata/so
 #### 6.3 完整性检查 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-scraper/scripts/check_completeness.py src/firstdata/sources/path/to/file.json
+python .claude/skills/firstdata-scraper/scripts/check_completeness.py src/firstdata/sources/path/to/file.json
 ```
 
 **最低要求**：
@@ -274,10 +274,10 @@ python .claude/skills/datasource-scraper/scripts/check_completeness.py src/first
 
 ```bash
 # 测试新数据源
-python .claude/skills/datasource-scraper/scripts/generate_indexes.py --test src/firstdata/sources/path/to/file.json
+python .claude/skills/firstdata-scraper/scripts/generate_indexes.py --test src/firstdata/sources/path/to/file.json
 
 # 生成完整索引
-python .claude/skills/datasource-scraper/scripts/generate_indexes.py
+python .claude/skills/firstdata-scraper/scripts/generate_indexes.py
 ```
 
 生成索引文件到 `src/firstdata/indexes/` 目录（all-sources.json, by-domain.json, by-country.json, stats.json 等）。
@@ -294,13 +294,13 @@ python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 
 ```bash
 # 自动更新所有进度统计文件（8.3 步骤）
-python .claude/skills/datasource-scraper/scripts/update_all_docs.py
+python .claude/skills/firstdata-scraper/scripts/update_all_docs.py
 
 # 先预览变更，不实际修改（推荐先运行）
-python .claude/skills/datasource-scraper/scripts/update_all_docs.py --dry-run
+python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --dry-run
 
 # 查看详细执行信息
-python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
+python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --verbose
 ```
 
 **脚本自动完成的任务（8.3 进度统计）：**

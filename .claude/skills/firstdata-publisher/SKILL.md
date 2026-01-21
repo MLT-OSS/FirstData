@@ -20,12 +20,12 @@ description: Automated documentation sync using check_and_compare.py script. (1)
 
 ```bash
 # 运行数据源检查和对比脚本
-python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py
+python3 .claude/skills/firstdata-publisher/scripts/check_and_compare.py
 ```
 
 **脚本输出**：
 
-文件路径：`.claude/skills/datasource-publisher/scripts/comparison_report.json`
+文件路径：`.claude/skills/firstdata-publisher/scripts/comparison_report.json`
 
 包含内容：
 
@@ -76,7 +76,7 @@ python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py
 
    ```bash
    # 从步骤1生成的对比报告中读取缺失条目信息
-   cat .claude/skills/datasource-publisher/scripts/comparison_report.json
+   cat .claude/skills/firstdata-publisher/scripts/comparison_report.json
    ```
 2. **确定目标文件**：从 `recommendations` 中获取需要更新的文件列表
 
@@ -133,7 +133,7 @@ python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py
 # summary: 各分类的实际数量
 # stats_mismatch: 需要更正的统计数字（包含分类README）
 # recommendations: 自动生成的更新建议（筛选 action == "update_stats"）
-cat .claude/skills/datasource-publisher/scripts/comparison_report.json
+cat .claude/skills/firstdata-publisher/scripts/comparison_report.json
 ```
 
 **更新内容**：
@@ -236,8 +236,8 @@ git push
 
 ✅ **必须使用自动化脚本**：
 
-- **步骤1必须运行**：`python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py`
-- 生成标准化对比报告：`.claude/skills/datasource-publisher/scripts/comparison_report.json`
+- **步骤1必须运行**：`python3 .claude/skills/firstdata-publisher/scripts/check_and_compare.py`
+- 生成标准化对比报告：`.claude/skills/firstdata-publisher/scripts/comparison_report.json`
 - 所有后续步骤都基于此对比报告
 - **禁止手动统计或使用git status**
 
