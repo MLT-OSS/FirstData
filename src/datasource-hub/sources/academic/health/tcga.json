@@ -1,0 +1,77 @@
+{
+  "id": "tcga",
+  "name": {
+    "en": "The Cancer Genome Atlas (TCGA)",
+    "zh": "癌症基因组图谱"
+  },
+  "description": {
+    "en": "The Cancer Genome Atlas (TCGA) was a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. This joint effort between NCI and the National Human Genome Research Institute began in 2006, bringing together researchers from diverse disciplines and multiple institutions. Over 12 years, TCGA generated over 2.5 petabytes of genomic, epigenomic, transcriptomic, and proteomic data. The data, which has already led to improvements in diagnosing, treating, and preventing cancer, remains publicly available for anyone in the research community to use through the Genomic Data Commons (GDC).",
+    "zh": "癌症基因组图谱(TCGA)是一项里程碑式的癌症基因组学项目，对涵盖33种癌症类型的超过20,000个原发性癌症样本和匹配的正常样本进行了分子表征。该项目是NCI和国家人类基因组研究所(NHGRI)从2006年开始的联合工作，汇集了来自不同学科和多个机构的研究人员。在12年间，TCGA生成了超过2.5 PB的基因组、表观基因组、转录组和蛋白质组数据。这些数据已经改善了癌症的诊断、治疗和预防，并通过基因组数据共享平台(GDC)向所有研究人员公开。"
+  },
+  "website": "https://www.cancer.gov/ccg",
+  "data_url": "https://portal.gdc.cancer.gov/",
+  "api_url": "https://gdc.cancer.gov/developers/gdc-application-programming-interface-api",
+  "country": "US",
+  "domains": [
+    "cancer genomics",
+    "oncology",
+    "molecular biology",
+    "genomics",
+    "bioinformatics",
+    "precision medicine",
+    "biomedical research"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "cancer genomics",
+    "TCGA",
+    "NCI",
+    "NHGRI",
+    "GDC",
+    "whole genome sequencing",
+    "whole exome sequencing",
+    "RNA-seq",
+    "DNA methylation",
+    "copy number variation",
+    "somatic mutations",
+    "cancer types",
+    "precision medicine",
+    "oncology",
+    "biomarker discovery",
+    "pan-cancer analysis",
+    "molecular characterization",
+    "tumor genomics"
+  ],
+  "data_content": {
+    "en": [
+      "Whole Exome Sequencing - Tumor and normal matched samples from over 20,000 patients, mutation calls (VCF, MAF)",
+      "Whole Genome Sequencing - Select cases, BAM, VCF, and mutation calls",
+      "mRNA Expression - RNA sequencing data (BAM, normalized expression values per gene, isoform, exon, splice junction)",
+      "miRNA Sequencing - microRNA expression profiles across tumor types",
+      "Copy Number Variation - SNP microarray and copy number analysis, loss of heterozygosity data",
+      "DNA Methylation - Bisulfite sequencing and bead array data, CpG methylation patterns",
+      "Protein Expression - Reverse-phase protein array data for up to 1000 tumor samples",
+      "Clinical Data - Demographics, treatment information, survival data, pathology reports (XML, tab-delimited)",
+      "Biospecimen Data - Sample processing metadata from Biospecimen Core Resource",
+      "Diagnostic and Tissue Imaging - Whole slide images (SVS format), radiological images (MRI, CT, PET in DCM format)",
+      "Pan-Cancer Analysis - Cross-cancer analyses on cell-of-origin patterns, oncogenic processes, signaling pathways",
+      "33 Cancer Types - Including glioblastoma, breast, lung, colon, ovarian, and 28 other cancer types"
+    ],
+    "zh": [
+      "全外显子组测序 - 来自超过20,000名患者的肿瘤和正常匹配样本，突变检测(VCF, MAF)",
+      "全基因组测序 - 特定病例的BAM、VCF和突变检测数据",
+      "mRNA表达 - RNA测序数据(BAM，基因/亚型/外显子/剪接位点的标准化表达值)",
+      "miRNA测序 - 跨肿瘤类型的微RNA表达谱",
+      "拷贝数变异 - SNP微阵列和拷贝数分析、杂合性丢失数据",
+      "DNA甲基化 - 亚硫酸氢盐测序和珠芯片数据、CpG甲基化模式",
+      "蛋白质表达 - 反相蛋白阵列数据(可达1000个肿瘤样本)",
+      "临床数据 - 人口统计学、治疗信息、生存数据、病理报告(XML，制表符分隔)",
+      "生物样本数据 - 生物样本核心资源的样本处理元数据",
+      "诊断和组织成像 - 全幻灯片图像(SVS格式)、放射学图像(MRI、CT、PET的DCM格式)",
+      "泛癌症分析 - 细胞起源模式、致癌过程、信号通路的跨癌症分析",
+      "33种癌症类型 - 包括胶质母细胞瘤、乳腺癌、肺癌、结肠癌、卵巢癌和其他28种癌症类型"
+    ]
+  },
+  "authority_level": "government"
+}

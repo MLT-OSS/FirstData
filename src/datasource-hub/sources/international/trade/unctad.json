@@ -1,0 +1,53 @@
+{
+  "id": "unctad",
+  "name": {
+    "en": "UNCTAD - United Nations Conference on Trade and Development",
+    "zh": "联合国贸易和发展会议"
+  },
+  "description": {
+    "en": "UNCTAD provides comprehensive trade, investment, and development statistics covering merchandise trade, services trade, foreign direct investment, commodity prices, maritime transport, and creative economy indicators for all countries and territories.",
+    "zh": "联合国贸易和发展会议提供全面的贸易、投资和发展统计数据，涵盖所有国家和地区的商品贸易、服务贸易、外国直接投资、商品价格、海运和创意经济指标。"
+  },
+  "website": "https://unctad.org",
+  "data_url": "https://unctadstat.unctad.org",
+  "api_url": "https://unctadstat.unctad.org/EN/api.html",
+  "country": null,
+  "domains": [
+    "trade",
+    "investment",
+    "development",
+    "economics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "international_trade",
+    "development",
+    "fdi",
+    "commodities",
+    "maritime",
+    "creative_economy",
+    "un_statistics"
+  ],
+  "data_content": {
+    "en": [
+      "UNCTAD statistics include merchandise trade by product and partner, services trade, foreign direct investment flows and stocks, commodity prices and indices, maritime transport, creative economy, technology and innovation, and sustainable development indicators",
+      "Merchandise Trade - International merchandise trade data by product (HS, SITC classification) and trading partner",
+      "Services Trade - International trade in services by service category and partner economy",
+      "Foreign Direct Investment - FDI inflows, outflows, and stocks by economy and sector",
+      "Commodity Prices and Indices - Monthly commodity prices, price indices, and terms of trade for major commodities",
+      "Maritime Transport - Maritime transport statistics including fleet, port traffic, and freight rates",
+      "Creative Economy - Trade in creative goods and services by creative industry classification"
+    ],
+    "zh": [
+      "联合国贸发会议统计数据包括按产品和贸易伙伴分类的商品贸易、服务贸易、外国直接投资流量和存量、商品价格和指数、海运、创意经济、技术创新和可持续发展指标",
+      "商品贸易 - 按产品（HS、SITC分类）和贸易伙伴分类的国际商品贸易数据",
+      "服务贸易 - 按服务类别和贸易伙伴分类的国际服务贸易",
+      "外国直接投资 - 按经济体和行业分类的外国直接投资流入、流出和存量",
+      "商品价格和指数 - 主要商品的月度价格、价格指数和贸易条件",
+      "海运 - 海运统计数据，包括船队、港口流量和运费",
+      "创意经济 - 按创意产业分类的创意产品和服务贸易"
+    ]
+  },
+  "authority_level": "international"
+}

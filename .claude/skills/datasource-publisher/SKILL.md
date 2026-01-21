@@ -1,6 +1,6 @@
 ---
 name: datasource-publisher
-description: Automated documentation sync using check_and_compare.py script. (1) Runs script to scan JSON files, compare with docs, and generate comparison_report.json with missing entries and stats mismatches. (2) Uses report recommendations to add missing entries in sources/*/README.md. (3) Marks tasks complete in tasks/*.md. (4) Updates progress stats in core docs. (5) Generates indexes. (6) Optional Git commit. MUST use script - no manual counting or git status. Use when syncing docs with actual datasources.
+description: Automated documentation sync using check_and_compare.py script. (1) Runs script to scan JSON files, compare with docs, and generate comparison_report.json with missing entries and stats mismatches. (2) Uses report recommendations to add missing entries in sources/*/README.md. (3) Updates progress stats in core docs. (4) Generates indexes. (5) Optional Git commit. MUST use script - no manual counting or git status. Use when syncing docs with actual datasources.
 ---
 
 # 数据源发布管理器
@@ -11,7 +11,7 @@ description: Automated documentation sync using check_and_compare.py script. (1)
 
 ---
 
-## 工作流程（3步 + 1可选步骤）
+## 工作流程（2步 + 1可选步骤）
 
 ### 1. 扫描数据源并对比文档差异
 
@@ -49,13 +49,13 @@ python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py
 
 根据JSON文件路径确定类别和对应的文档文件：
 
-| JSON 文件路径 | 主类别 README | 任务清单文件 | 示例 |
-|--------------|--------------|------------|------|
-| `sources/international/{sub}/` | `sources/international/README.md` | `tasks/international.md` | international/health |
-| `sources/china/{domain}/` | `sources/china/README.md` | `tasks/china/{domain}.md` | china/finance |
-| `sources/countries/{region}/` | `sources/countries/README.md` | `tasks/countries.md` | countries/asia |
-| `sources/academic/{field}/` | `sources/academic/README.md` | `tasks/academic.md` | academic/economics |
-| `sources/sectors/{industry}/` | `sources/sectors/README.md` | `tasks/sectors.md` | sectors/energy |
+| JSON 文件路径 | 主类别 README | 示例 |
+|--------------|--------------|------|
+| `src/datasource-hub/sources/international/{sub}/` | `src/datasource-hub/sources/international/README.md` | international/health |
+| `src/datasource-hub/sources/china/{domain}/` | `src/datasource-hub/sources/china/README.md` | china/finance |
+| `src/datasource-hub/sources/countries/{region}/` | `src/datasource-hub/sources/countries/README.md` | countries/asia |
+| `src/datasource-hub/sources/academic/{field}/` | `src/datasource-hub/sources/academic/README.md` | academic/economics |
+| `src/datasource-hub/sources/sectors/{industry}/` | `src/datasource-hub/sources/sectors/README.md` | sectors/energy |
 
 **注意**：从JSON文件路径可以直接推断出需要更新哪些文档文件。
 
@@ -63,9 +63,9 @@ python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py
 
 ### 2. 更新文档索引和状态
 
-**重要**：按照2.1 → 2.2 → 2.3的顺序执行，不可跳过！
+**重要**：按照2.1 → 2.2的顺序执行，不可跳过！
 
-#### 2.1 检查并更新数据源列表索引（sources/*/README.md）
+#### 2.1 检查并更新数据源列表索引（src/datasource-hub/sources/*/README.md）
 
 **必须完成**：确保每个JSON文件在对应的 `sources/{category}/README.md` 中都有条目。
 
@@ -118,60 +118,9 @@ python3 .claude/skills/datasource-publisher/scripts/check_and_compare.py
 
 **必须为每个数据源都检查并确保有条目，不可跳过！**
 
-#### 2.2 检查并更新任务完成状态（tasks/*.md）
+#### 2.2 更新核心进度统计（README.md, src/datasource-hub/sources/*/README.md）
 
-**必须完成**：确保每个JSON文件对应的任务在 `tasks/{category}.md` 中标记为完成（✅）。
-
-**操作步骤**：
-
-1. **读取对比报告**：
-   - 从 `comparison_report.json` 的 `missing_in_docs` 获取需要处理的数据源
-   - 使用 `name_en` 和 `name_zh` 定位任务行
-
-2. **确定目标文件**：根据category确定任务文件
-   - `international` → `tasks/international.md`
-   - `china` → `tasks/china/{具体领域}.md`（根据subcategory确定）
-   - `countries` → `tasks/countries.md`
-   - `academic` → `tasks/academic.md`
-   - `sectors` → `tasks/sectors.md`
-
-3. **为每个数据源标记完成**：
-   - 读取对应的任务文件
-   - 使用 `name_en` 或 `name_zh` 搜索任务行
-   - **如果找到任务行**：
-     - 检查行首是否为 `📋`
-     - 如果是 `📋`，替换为 `✅`
-     - **保留原有的图标**（⭐💎 或 ⭐）
-   - **如果未找到任务行**（数据源不在计划中）：
-     - 跳过该数据源，不做任何修改
-     - 不自动添加新任务条目
-
-```markdown
-# 修改前
-- 📋 World Bank Open Data - 世界银行开放数据 ⭐💎
-- 📋 G20 Data Portal - 二十国集团数据门户 ⭐
-
-# 修改后
-- ✅ World Bank Open Data - 世界银行开放数据 ⭐💎
-- ✅ G20 Data Portal - 二十国集团数据门户 ⭐
-```
-
-4. **图标规则**（在任务标记时保持原有图标）：
-   - ⭐💎 - 国际组织或政府机构
-   - ⭐ - 学术机构或研究机构
-   - 无图标 - 行业协会或商业机构
-
-5. **更新分类统计**：
-   - 更新任务文件顶部的完成数量
-   - 更新各子领域的进度百分比
-   - 使用 `by_category` 中的统计数字
-
-**必须为每个数据源都检查并确保标记为完成，不可跳过！**
-
-
-#### 2.3 更新核心进度统计（README.md, tasks/README.md, ROADMAP.md, sources/*/README.md）
-
-**必须完成**：在完成2.1和2.2后，使用对比报告中的统计数字更新核心文档和分类README。
+**必须完成**：在完成2.1后，使用对比报告中的统计数字更新核心文档和分类README。
 
 **数据来源**：
 ```bash
@@ -196,34 +145,21 @@ cat .claude/skills/datasource-publisher/scripts/comparison_report.json
   - 行业领域：`{summary.sectors.actual} / 150+`
 - 已完成数据源标题（~第120, 142, 153, 159, 170行）：更新各分类数量
 
-**tasks/README.md**
-- 顶部总进度（第4行）：`**总进度**: {total}/950+ ({progress}%)`
-- 分类表格（~第16-21行）：使用 `summary.*.actual` 数字更新完成列
-- 可从 `recommendations` 中筛选 `file == "tasks/README.md"` 获取 `new_total` 值
-
-**ROADMAP.md**
-- 顶部总进度（第4行）：`**总体进度**: {total}/950+ ({progress}%)`
-- 进度条（第13行）：根据 `progress = (total / 950) * 100` 计算
-  - 每5%一个▓符号，共20个字符
-  - 例如：13% = ▓▓░░░░░░░░░░░░░░░░░░
-- 分类表格（~第18-23行）：使用 `summary.*.actual` 数字更新完成列
-- 可从 `recommendations` 中筛选 `file == "ROADMAP.md"` 获取 `new_total` 值
-
-**sources/china/README.md**
+**src/datasource-hub/sources/china/README.md**
 - 顶部统计（第3-5行）：
   - `**已完成**: {summary.china.actual}个`
   - `**进度**: {progress}%`（progress = (actual / 415) * 100）
 - 进度条（第13行）：`当前完成: {summary.china.actual} 个`
 - 分类表格（第26-45行）：使用实际的分类数量更新各领域的完成数和进度百分比
 
-**sources/sectors/README.md**
+**src/datasource-hub/sources/sectors/README.md**
 - 顶部统计（第4-6行）：
   - `**已完成**: {summary.sectors.actual}个`
   - `**进度**: {progress}%`（progress = (actual / 126) * 100）
 - 进度条（第14行）：`当前完成: {summary.sectors.actual} 个`
 - ISIC分类表格（第25-46行）：使用实际的ISIC分类数量更新各行业的完成数和进度百分比
 
-**sources/countries/README.md**
+**src/datasource-hub/sources/countries/README.md**
 - 顶部统计（第13行）：`**JSON文件**: {summary.countries.actual}个数据源已创建`
 - 进度条（第17行）：`当前完成: {summary.countries.actual} 个`
 
@@ -252,9 +188,8 @@ python scripts/generate_indexes.py
 **如果选择提交，建议完成以下检查**：
 
 - [ ] **步骤1完成**：已扫描所有JSON文件，了解实际数据源情况
-- [ ] **步骤2.1完成**：sources/{category}/README.md 中每个JSON文件都有对应条目
-- [ ] **步骤2.2完成**：tasks/*.md 中每个数据源都标记为完成（✅）
-- [ ] **步骤2.3完成**：核心文档（README.md, tasks/README.md, ROADMAP.md）的统计数字已更新
+- [ ] **步骤2.1完成**：src/datasource-hub/sources/{category}/README.md 中每个JSON文件都有对应条目
+- [ ] **步骤2.2完成**：核心文档（README.md）的统计数字已更新
 - [ ] **数据一致性**：所有文档中的数字与实际JSON文件数量一致
 - [ ] **索引生成**：已运行 `python scripts/generate_indexes.py`
 
@@ -264,7 +199,7 @@ python scripts/generate_indexes.py
 
 ```bash
 # 只添加数据源相关文件（不添加其他文件）
-git add sources/ tasks/ README.md ROADMAP.md
+git add src/datasource-hub/sources/ src/datasource-hub/indexes/ README.md
 
 # 单个数据源
 git commit -m "feat: 添加{name}数据源 ({id})
@@ -309,26 +244,16 @@ git push
 - 生成 `comparison_report.json`
 - 获取完整的数据源元数据和文档差异分析
 
-**步骤2.1** - 数据源列表索引（5个sources/*/README.md）：
-- sources/international/README.md
-- sources/china/README.md
-- sources/countries/README.md
-- sources/academic/README.md
-- sources/sectors/README.md
+**步骤2.1** - 数据源列表索引（5个 src/datasource-hub/sources/*/README.md）：
+- src/datasource-hub/sources/international/README.md
+- src/datasource-hub/sources/china/README.md
+- src/datasource-hub/sources/countries/README.md
+- src/datasource-hub/sources/academic/README.md
+- src/datasource-hub/sources/sectors/README.md
 - **验证每个JSON都有对应条目**
 
-**步骤2.2** - 任务完成状态（5+个tasks/*.md）：
-- tasks/international.md
-- tasks/countries.md
-- tasks/china/{领域}.md
-- tasks/academic.md
-- tasks/sectors.md
-- **验证每个数据源都标记为✅**
-
-**步骤2.3** - 核心进度统计（3个）：
+**步骤2.2** - 核心进度统计（1个）：
 - README.md
-- tasks/README.md
-- ROADMAP.md
 - **基于实际统计数字更新**
 
 **步骤3** - 生成索引：
@@ -339,7 +264,7 @@ git push
 - 用户可选择是否执行
 - 如果执行，按照提交指南进行
 
-**重要**：必须按2.1→2.2→2.3→3顺序执行，先确保索引完整，再更新统计！
+**重要**：必须按2.1→2.2→3顺序执行，先确保索引完整，再更新统计！
 
 ❌ **不做什么**：
 - 不获取数据
@@ -360,10 +285,7 @@ git push
   },
   "files_updated": [
     "README.md",
-    "tasks/README.md",
-    "ROADMAP.md",
-    "sources/international/README.md",
-    "tasks/international.md"
+    "src/datasource-hub/sources/international/README.md"
   ],
   "git": {
     "executed": false,

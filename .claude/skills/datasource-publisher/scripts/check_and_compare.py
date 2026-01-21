@@ -98,14 +98,12 @@ class DataSourceChecker:
         print("=" * 80)
 
         docs_to_check = {
-            'international': 'sources/international/README.md',
-            'china': 'sources/china/README.md',
-            'countries': 'sources/countries/README.md',
-            'academic': 'sources/academic/README.md',
-            'sectors': 'sources/sectors/README.md',
-            'main_readme': 'README.md',
-            'tasks_readme': 'tasks/README.md',
-            'roadmap': 'ROADMAP.md'
+            'international': 'src/datasource-hub/sources/international/README.md',
+            'china': 'src/datasource-hub/src/datasource-hub/sources/china/README.md',
+            'countries': 'src/datasource-hub/src/datasource-hub/sources/countries/README.md',
+            'academic': 'src/datasource-hub/sources/academic/README.md',
+            'sectors': 'src/datasource-hub/src/datasource-hub/sources/sectors/README.md',
+            'main_readme': 'README.md'
         }
 
         self.doc_entries = defaultdict(lambda: defaultdict(set))
@@ -135,8 +133,6 @@ class DataSourceChecker:
 
         # 扫描主要文档中的统计数字
         self._scan_main_readme()
-        self._scan_tasks_readme()
-        self._scan_roadmap()
 
         # 扫描分类README中的统计数字
         self._scan_china_readme()
@@ -185,47 +181,9 @@ class DataSourceChecker:
         print(f"    徽章总数: {stats.get('total_in_badge', 'N/A')}")
         print(f"    表格总数: {stats.get('total_in_table', 'N/A')}")
 
-    def _scan_tasks_readme(self):
-        """扫描tasks/README中的统计"""
-        if not Path('tasks/README.md').exists():
-            return
-
-        with open('tasks/README.md', 'r', encoding='utf-8') as f:
-            content = f.read()
-
-        stats = {}
-
-        # 提取总进度
-        total_match = re.search(r'\*\*总进度\*\*:\s*(\d+)/(\d+)', content)
-        if total_match:
-            stats['total'] = int(total_match.group(1))
-
-        self.doc_stats['tasks_readme'] = stats
-        print(f"\n  tasks/README.md 统计:")
-        print(f"    总进度: {stats.get('total', 'N/A')}/950+")
-
-    def _scan_roadmap(self):
-        """扫描ROADMAP中的统计"""
-        if not Path('ROADMAP.md').exists():
-            return
-
-        with open('ROADMAP.md', 'r', encoding='utf-8') as f:
-            content = f.read()
-
-        stats = {}
-
-        # 提取总体进度
-        total_match = re.search(r'\*\*总体进度\*\*:\s*(\d+)/(\d+)', content)
-        if total_match:
-            stats['total'] = int(total_match.group(1))
-
-        self.doc_stats['roadmap'] = stats
-        print(f"\n  ROADMAP.md 统计:")
-        print(f"    总体进度: {stats.get('total', 'N/A')}/950+")
-
     def _scan_china_readme(self):
-        """扫描sources/china/README.md中的统计"""
-        readme_path = 'sources/china/README.md'
+        """扫描src/datasource-hub/sources/china/README.md中的统计"""
+        readme_path = 'src/datasource-hub/sources/china/README.md'
         if not Path(readme_path).exists():
             return
 
@@ -245,12 +203,12 @@ class DataSourceChecker:
             stats['current'] = int(current_match.group(1))
 
         self.doc_stats['china_readme'] = stats
-        print(f"\n  sources/china/README.md 统计:")
+        print(f"\n  src/datasource-hub/sources/china/README.md 统计:")
         print(f"    已完成: {stats.get('completed', 'N/A')} 个")
 
     def _scan_sectors_readme(self):
-        """扫描sources/sectors/README.md中的统计"""
-        readme_path = 'sources/sectors/README.md'
+        """扫描src/datasource-hub/sources/sectors/README.md中的统计"""
+        readme_path = 'src/datasource-hub/sources/sectors/README.md'
         if not Path(readme_path).exists():
             return
 
@@ -270,12 +228,12 @@ class DataSourceChecker:
             stats['current'] = int(current_match.group(1))
 
         self.doc_stats['sectors_readme'] = stats
-        print(f"\n  sources/sectors/README.md 统计:")
+        print(f"\n  src/datasource-hub/sources/sectors/README.md 统计:")
         print(f"    已完成: {stats.get('completed', 'N/A')} 个")
 
     def _scan_countries_readme(self):
-        """扫描sources/countries/README.md中的统计"""
-        readme_path = 'sources/countries/README.md'
+        """扫描src/datasource-hub/sources/countries/README.md中的统计"""
+        readme_path = 'src/datasource-hub/sources/countries/README.md'
         if not Path(readme_path).exists():
             return
 
@@ -290,7 +248,7 @@ class DataSourceChecker:
             stats['current'] = int(current_match.group(1))
 
         self.doc_stats['countries_readme'] = stats
-        print(f"\n  sources/countries/README.md 统计:")
+        print(f"\n  src/datasource-hub/sources/countries/README.md 统计:")
         print(f"    当前完成: {stats.get('current', 'N/A')} 个")
 
     def compare(self):
@@ -349,9 +307,7 @@ class DataSourceChecker:
 
         docs_with_stats = [
             ('README.md徽章', self.doc_stats.get('main_readme', {}).get('total_in_badge')),
-            ('README.md表格', self.doc_stats.get('main_readme', {}).get('total_in_table')),
-            ('tasks/README.md', self.doc_stats.get('tasks_readme', {}).get('total')),
-            ('ROADMAP.md', self.doc_stats.get('roadmap', {}).get('total'))
+            ('README.md表格', self.doc_stats.get('main_readme', {}).get('total_in_table'))
         ]
 
         for doc_name, doc_total in docs_with_stats:
@@ -374,10 +330,10 @@ class DataSourceChecker:
         china_completed = self.doc_stats.get('china_readme', {}).get('completed')
         if china_completed is not None:
             match = "✅" if china_completed == actual_china else "❌"
-            print(f"  sources/china/README.md: {china_completed:>3} (实际: {actual_china}) {match}")
+            print(f"  src/datasource-hub/sources/china/README.md: {china_completed:>3} (实际: {actual_china}) {match}")
             if china_completed != actual_china:
                 report['stats_mismatch'].append({
-                    'doc': 'sources/china/README.md',
+                    'doc': 'src/datasource-hub/sources/china/README.md',
                     'current': china_completed,
                     'should_be': actual_china
                 })
@@ -387,10 +343,10 @@ class DataSourceChecker:
         sectors_completed = self.doc_stats.get('sectors_readme', {}).get('completed')
         if sectors_completed is not None:
             match = "✅" if sectors_completed == actual_sectors else "❌"
-            print(f"  sources/sectors/README.md: {sectors_completed:>3} (实际: {actual_sectors}) {match}")
+            print(f"  src/datasource-hub/sources/sectors/README.md: {sectors_completed:>3} (实际: {actual_sectors}) {match}")
             if sectors_completed != actual_sectors:
                 report['stats_mismatch'].append({
-                    'doc': 'sources/sectors/README.md',
+                    'doc': 'src/datasource-hub/sources/sectors/README.md',
                     'current': sectors_completed,
                     'should_be': actual_sectors
                 })
@@ -400,10 +356,10 @@ class DataSourceChecker:
         countries_current = self.doc_stats.get('countries_readme', {}).get('current')
         if countries_current is not None:
             match = "✅" if countries_current == actual_countries else "❌"
-            print(f"  sources/countries/README.md: {countries_current:>3} (实际: {actual_countries}) {match}")
+            print(f"  src/datasource-hub/sources/countries/README.md: {countries_current:>3} (实际: {actual_countries}) {match}")
             if countries_current != actual_countries:
                 report['stats_mismatch'].append({
-                    'doc': 'sources/countries/README.md',
+                    'doc': 'src/datasource-hub/sources/countries/README.md',
                     'current': countries_current,
                     'should_be': actual_countries
                 })

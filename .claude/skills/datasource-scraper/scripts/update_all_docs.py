@@ -4,8 +4,7 @@
 
 完整实现 SKILL.md 第8步的所有文档更新：
 - 8.1: 一级目录 README（添加数据源条目）
-- 8.2: 任务清单（标记完成状态）
-- 8.3: 进度统计（5个文件的数字同步）
+- 8.2: 进度统计（3个文件的数字同步）
 
 使用方法：
     python .claude/skills/datasource-scraper/scripts/update_all_docs.py
@@ -28,24 +27,20 @@ class DocumentUpdater:
 
     def __init__(self, base_dir: Path, dry_run: bool = False, verbose: bool = False):
         self.base_dir = base_dir
-        self.sources_dir = base_dir / "sources"
-        self.tasks_dir = base_dir / "tasks"
+        self.sources_dir = base_dir / "src" / "datasource-hub" / "sources"
         self.dry_run = dry_run
         self.verbose = verbose
 
         # 文件路径
         self.readme_path = base_dir / "README.md"
-        self.tasks_readme_path = base_dir / "tasks" / "README.md"
-        self.tasks_china_readme_path = base_dir / "tasks" / "china" / "README.md"
-        self.roadmap_path = base_dir / "ROADMAP.md"
 
         # Sources 目录 README
         self.sources_readme_paths = {
-            'international': base_dir / "sources" / "international" / "README.md",
-            'china': base_dir / "sources" / "china" / "README.md",
-            'countries': base_dir / "sources" / "countries" / "README.md",
-            'academic': base_dir / "sources" / "academic" / "README.md",
-            'sectors': base_dir / "sources" / "sectors" / "README.md",
+            'international': self.sources_dir / "international" / "README.md",
+            'china': self.sources_dir / "china" / "README.md",
+            'countries': self.sources_dir / "countries" / "README.md",
+            'academic': self.sources_dir / "academic" / "README.md",
+            'sectors': self.sources_dir / "sectors" / "README.md",
         }
 
         # 统计数据
@@ -73,9 +68,6 @@ class DocumentUpdater:
         # 更新计数器
         self.updates = {
             'readme': False,
-            'tasks_readme': False,
-            'tasks_china_readme': False,
-            'roadmap': False,
             'sources_readmes': set(),
         }
 
@@ -331,177 +323,6 @@ class DocumentUpdater:
 
         return content
 
-    # ========== 8.3.3: 更新 tasks/README.md ==========
-
-    def update_tasks_readme(self) -> bool:
-        """更新 tasks/README.md"""
-        self.log("📝 更新 tasks/README.md...", force=True)
-
-        if not self.tasks_readme_path.exists():
-            self.log("❌ tasks/README.md 不存在", force=True)
-            return False
-
-        with open(self.tasks_readme_path, 'r', encoding='utf-8') as f:
-            original_content = f.read()
-
-        content = original_content
-        content = self._update_tasks_readme_header(content)
-        content = self._update_tasks_readme_table(content)
-
-        if content == original_content:
-            self.log("  ℹ️  没有需要更新的内容", force=True)
-            return False
-
-        if not self.dry_run:
-            with open(self.tasks_readme_path, 'w', encoding='utf-8') as f:
-                f.write(content)
-            self.log("  ✅ tasks/README.md 已更新", force=True)
-        else:
-            self.log("  🔍 [DRY RUN] 检测到变更", force=True)
-
-        self.updates['tasks_readme'] = True
-        return True
-
-    def _update_tasks_readme_header(self, content: str) -> str:
-        """更新tasks/README.md 顶部的总进度"""
-        progress = self.calculate_progress()
-        today = datetime.now().strftime('%Y-%m-%d')
-
-        # 更新最后更新时间
-        content = re.sub(
-            r'\*\*最后更新\*\*:\s*\d{4}-\d{2}-\d{2}',
-            f'**最后更新**: {today}',
-            content
-        )
-
-        # 更新总进度
-        content = re.sub(
-            r'\*\*总进度\*\*:\s*\d+/950\+\s*\(\d+%\)',
-            f'**总进度**: {self.stats["total"]}/950+ ({progress["total"]}%)',
-            content
-        )
-
-        return content
-
-    def _update_tasks_readme_table(self, content: str) -> str:
-        """更新tasks/README.md中的分类表格"""
-        progress = self.calculate_progress()
-
-        # 构建新表格
-        table_lines = [
-            "| 类别 | 计划 | 完成 | 进度 | 任务清单 |",
-            "|------|------|------|------|----------|",
-            f"| 🌍 **国际组织** | 100+ | {self.stats['international']} | {progress['international']}% | [international.md](international.md) |",
-            f"| 🌎 **各国官方** | 200+ | {self.stats['countries']} | {progress['countries']}% | [countries.md](countries.md) |",
-            f"| 🇨🇳 **中国数据源** | 488 | {self.stats['china']} | {progress['china']}% | [china/](china/) |",
-            f"| 🎓 **学术研究** | 50+ | {self.stats['academic']} | {progress['academic']}% | [academic.md](academic.md) |",
-            f"| 🏭 **行业领域** | 150+ | {self.stats['sectors']} | {progress['sectors']}% | [sectors.md](sectors.md) |",
-            f"| **总计** | **950+** | **{self.stats['total']}** | **{progress['total']}%** | - |",
-        ]
-
-        new_table = "\n".join(table_lines)
-        pattern = r'\| 类别 \| 计划 \| 完成 \| 进度 \| 任务清单 \|.*?\| \*\*总计\*\* \|[^\n]*'
-        content = re.sub(pattern, new_table, content, flags=re.DOTALL)
-
-        return content
-
-    # ========== 8.3.5: 更新 ROADMAP.md ==========
-
-    def update_roadmap(self) -> bool:
-        """更新 ROADMAP.md"""
-        self.log("📝 更新 ROADMAP.md...", force=True)
-
-        if not self.roadmap_path.exists():
-            self.log("❌ ROADMAP.md 不存在", force=True)
-            return False
-
-        with open(self.roadmap_path, 'r', encoding='utf-8') as f:
-            original_content = f.read()
-
-        content = original_content
-        content = self._update_roadmap_header(content)
-        content = self._update_roadmap_progress(content)
-        content = self._update_roadmap_table(content)
-
-        if content == original_content:
-            self.log("  ℹ️  没有需要更新的内容", force=True)
-            return False
-
-        if not self.dry_run:
-            with open(self.roadmap_path, 'w', encoding='utf-8') as f:
-                f.write(content)
-            self.log("  ✅ ROADMAP.md 已更新", force=True)
-        else:
-            self.log("  🔍 [DRY RUN] 检测到变更", force=True)
-
-        self.updates['roadmap'] = True
-        return True
-
-    def _update_roadmap_header(self, content: str) -> str:
-        """更新ROADMAP.md顶部的总进度"""
-        progress = self.calculate_progress()
-        today = datetime.now().strftime('%Y-%m-%d')
-
-        # 更新最后更新时间
-        content = re.sub(
-            r'\*\*最后更新\*\*:\s*\d{4}-\d{2}-\d{2}',
-            f'**最后更新**: {today}',
-            content
-        )
-
-        # 更新总体进度
-        content = re.sub(
-            r'\*\*总体进度\*\*:\s*\d+/950\+\s*\(\d+%\)',
-            f'**总体进度**: {self.stats["total"]}/950+ ({progress["total"]}%)',
-            content
-        )
-
-        return content
-
-    def _update_roadmap_progress(self, content: str) -> str:
-        """更新ROADMAP.md的进度条"""
-        progress = self.calculate_progress()
-
-        # 构建进度条
-        total_blocks = 20
-        filled = int(total_blocks * progress['total'] / 100)
-        progress_bar = "▓" * filled + "░" * (total_blocks - filled)
-
-        # 更新文本
-        progress_text = [
-            "```",
-            "总目标: 950+ 权威数据源",
-            f"当前完成: {self.stats['total']} 个",
-            f"完成度: {progress_bar} {progress['total']}%",
-            "```"
-        ]
-
-        pattern = r'```\s*总目标:.*?```'
-        content = re.sub(pattern, "\n".join(progress_text), content, flags=re.DOTALL)
-
-        return content
-
-    def _update_roadmap_table(self, content: str) -> str:
-        """更新ROADMAP.md的分类表格"""
-        progress = self.calculate_progress()
-
-        table_lines = [
-            "| 类别 | 计划 | 完成 | 进度 | 详细任务 |",
-            "|------|------|------|------|----------|",
-            f"| 国际组织 | 100+ | {self.stats['international']} | {progress['international']}% | [tasks/international.md](tasks/international.md) |",
-            f"| 各国官方 | 200+ | {self.stats['countries']} | {progress['countries']}% | [tasks/countries.md](tasks/countries.md) |",
-            f"| 中国数据源 | 488 | {self.stats['china']} | {progress['china']}% | [tasks/china/](tasks/china/) |",
-            f"| 学术研究 | 50+ | {self.stats['academic']} | {progress['academic']}% | [tasks/academic.md](tasks/academic.md) |",
-            f"| 行业领域 | 150+ | {self.stats['sectors']} | {progress['sectors']}% | [tasks/sectors.md](tasks/sectors.md) |",
-            f"| **总计** | **950+** | **{self.stats['total']}** | **{progress['total']}%** | [所有任务](tasks/README.md) |",
-        ]
-
-        new_table = "\n".join(table_lines)
-        pattern = r'\| 类别 \| 计划 \| 完成 \| 进度 \| 详细任务 \|.*?\| \*\*总计\*\* \|[^\n]*'
-        content = re.sub(pattern, new_table, content, flags=re.DOTALL)
-
-        return content
-
     # ========== 主流程 ==========
 
     def run(self, only_stats: bool = False) -> int:
@@ -519,17 +340,10 @@ class DocumentUpdater:
             print("📝 开始更新文档...")
             print("=" * 60 + "\n")
 
-            # 8.3.1: 更新根目录 README
+            # 8.2.1: 更新根目录 README
             self.update_readme()
 
-            # 8.3.3: 更新 tasks/README.md
-            self.update_tasks_readme()
-
-            # 8.3.5: 更新 ROADMAP.md
-            self.update_roadmap()
-
-            # TODO: 8.3.2: 更新 sources/*/README.md（数据源列表）
-            # TODO: 8.3.4: 更新 tasks/china/README.md
+            # TODO: 8.2.2: 更新 src/datasource-hub/sources/*/README.md（数据源列表）
 
             # 4. 总结
             print("\n" + "=" * 60)
@@ -541,10 +355,6 @@ class DocumentUpdater:
             updated_files = []
             if self.updates['readme']:
                 updated_files.append("README.md")
-            if self.updates['tasks_readme']:
-                updated_files.append("tasks/README.md")
-            if self.updates['roadmap']:
-                updated_files.append("ROADMAP.md")
 
             if updated_files:
                 status = "检测到变更" if self.dry_run else "已更新"
@@ -574,8 +384,7 @@ def main():
         epilog="""
 完整实现 SKILL.md 第8步的文档更新：
   8.1: 一级目录 README（添加数据源条目）- TODO
-  8.2: 任务清单（标记完成状态）- TODO
-  8.3: 进度统计（5个文件的数字同步）- ✅ 已实现3个
+  8.2: 进度统计（2个文件的数字同步）- ✅ 已实现1个
 
 示例:
   %(prog)s                    # 统计并更新所有文件
@@ -600,7 +409,7 @@ def main():
     parser.add_argument(
         '--only-stats',
         action='store_true',
-        help='仅更新进度统计文件（README, tasks/README, ROADMAP）'
+        help='仅更新进度统计文件（README）'
     )
 
     parser.add_argument(

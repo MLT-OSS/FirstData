@@ -1,0 +1,67 @@
+{
+  "id": "bookscorpus",
+  "name": {
+    "en": "BooksCorpus",
+    "zh": "图书语料库"
+  },
+  "description": {
+    "en": "BooksCorpus is a large-scale text corpus containing over 11,000 unpublished books from various genres. Created by researchers at the University of Toronto and MIT, it has become one of the most influential datasets in natural language processing. The corpus was instrumental in training breakthrough language models like BERT, GPT, and other transformer-based architectures. It provides diverse, narrative text covering fiction, non-fiction, and multiple writing styles, making it ideal for unsupervised pre-training of language models.",
+    "zh": "图书语料库(BooksCorpus)是一个大规模文本语料库，包含超过11,000本来自不同类型的未出版书籍。由多伦多大学和麻省理工学院的研究人员创建，已成为自然语言处理领域最具影响力的数据集之一。该语料库在训练BERT、GPT等突破性语言模型和其他基于Transformer的架构中发挥了关键作用。它提供了涵盖小说、非小说和多种写作风格的丰富叙事文本，非常适合用于语言模型的无监督预训练。"
+  },
+  "website": "https://github.com/soskek/bookcorpus",
+  "data_url": "https://github.com/soskek/bookcorpus",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Natural Language Processing",
+    "Machine Learning",
+    "Computational Linguistics",
+    "Text Mining",
+    "Deep Learning"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "natural language processing",
+    "NLP",
+    "text corpus",
+    "language modeling",
+    "BERT",
+    "GPT",
+    "transformer",
+    "pre-training",
+    "unsupervised learning",
+    "books",
+    "narrative text",
+    "machine learning",
+    "deep learning",
+    "computational linguistics"
+  ],
+  "data_content": {
+    "en": [
+      "Over 11,000 unpublished books from Smashwords",
+      "984.5 million words total",
+      "74 million sentences",
+      "Fiction and non-fiction genres",
+      "Adventure, fantasy, romance, science fiction",
+      "Historical, thriller, young adult",
+      "Business, biography, self-help",
+      "Continuous narrative text",
+      "Diverse writing styles and vocabularies",
+      "English language only"
+    ],
+    "zh": [
+      "超过11,000本来自Smashwords的未出版书籍",
+      "总计9.845亿个单词",
+      "7400万个句子",
+      "小说和非小说类型",
+      "冒险、奇幻、浪漫、科幻",
+      "历史、惊悚、青少年读物",
+      "商业、传记、自助",
+      "连续的叙事文本",
+      "多样的写作风格和词汇",
+      "仅限英语"
+    ]
+  },
+  "authority_level": "research"
+}

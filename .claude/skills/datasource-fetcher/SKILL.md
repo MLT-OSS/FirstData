@@ -81,7 +81,7 @@ description: Extract datasource information from websites and generate validated
 - **不允许 null 的字段**：必须提供有效值或删除字段
 - **必填字段**：必须提供有效值，可以向用户询问
 
-**参考示例**: 现有的 sources/ 目录下的JSON文件，如果要进行参考。只使用一个示例，避免混淆。
+**参考示例**: 现有的 src/datasource-hub/sources/ 目录下的JSON文件，如果要进行参考。只使用一个示例，避免混淆。
 
 ---
 
@@ -123,23 +123,23 @@ description: Extract datasource information from websites and generate validated
 使用步骤1中用户输入的类别信息（主类别/子类别）直接构建保存路径：
 
 ```
-sources/{主类别}/{子类别}/{数据源ID}.json
+src/datasource-hub/sources/{主类别}/{子类别}/{数据源ID}.json
 ```
 
 例如：
 - 输入类别：`international/health`
 - 数据源ID：`who-gho`
-- 保存路径：`sources/international/health/who-gho.json`
+- 保存路径：`src/datasource-hub/sources/international/health/who-gho.json`
 
 **类别路径映射表**（参考）：
 
 | 主类别 | 子类别示例 | 完整路径示例 |
 |-------|----------|-------------|
-| international | health, economics, trade, energy, environment | `sources/international/{sub_cat}/` |
-| countries | north-america, europe, asia, oceania, south-america, africa | `sources/countries/{sub_cat}/` |
-| academic | economics, health, environment, social, biology, physics_chemistry | `sources/academic/{sub_cat}/` |
-| sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `sources/sectors/{sub_cat}/` |
-| china | national, finance, economy, etc. | `sources/china/{sub_cat}/` |
+| international | health, economics, trade, energy, environment | `src/datasource-hub/sources/international/{sub_cat}/` |
+| countries | north-america, europe, asia, oceania, south-america, africa | `src/datasource-hub/sources/countries/{sub_cat}/` |
+| academic | economics, health, environment, social, biology, physics_chemistry | `src/datasource-hub/sources/academic/{sub_cat}/` |
+| sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `src/datasource-hub/sources/sectors/{sub_cat}/` |
+| china | national, finance, economy, etc. | `src/datasource-hub/sources/china/{sub_cat}/` |
 
 **优先级2：使用 datasource-classifier Sub-Agent**（仅在步骤1无类别信息时）
 
@@ -179,14 +179,14 @@ sources/{主类别}/{子类别}/{数据源ID}.json
 #### 6.1 Schema 验证 ✅ 必须
 
 ```bash
-python scripts/validate.py sources/path/to/file.json --schema .claude/skills/datasource-fetcher/reference/datasource-schema.json
+python .claude/skills/datasource-fetcher/scripts/validate.py src/datasource-hub/sources/path/to/file.json --schema .claude/skills/datasource-fetcher/reference/datasource-schema.json
 ```
 **必须通过**：JSON 格式符合 datasource-schema.json 标准
 
 #### 6.2 URL 可访问性验证 ✅ 必须
 
 ```bash
-python scripts/verify_urls.py sources/path/to/file.json
+python .claude/skills/datasource-fetcher/scripts/verify_urls.py src/datasource-hub/sources/path/to/file.json
 ```
 
 验证字段：`primary_url`（必需）、`organization.website`、`api.documentation`、`support_url`
@@ -195,7 +195,7 @@ python scripts/verify_urls.py sources/path/to/file.json
 #### 6.3 完整性检查 ✅ 必须
 
 ```bash
-python scripts/check_completeness.py sources/path/to/file.json
+python .claude/skills/datasource-fetcher/scripts/check_completeness.py src/datasource-hub/sources/path/to/file.json
 ```
 
 **最低要求**：
@@ -203,7 +203,7 @@ python scripts/check_completeness.py sources/path/to/file.json
 - 推荐字段: ≥80%
 - 总体完成度: ≥70%
 
-**说明**：所有验证脚本位于当前工作目录的 `scripts/` 目录，由批处理脚本自动复制到临时工作目录。
+**说明**：所有验证脚本位于 `.claude/skills/datasource-fetcher/scripts/` 目录。
 
 ---
 
@@ -255,4 +255,4 @@ python scripts/check_completeness.py sources/path/to/file.json
 
 ---
 
-**注意**: 本 skill 是从原 datasource-scraper 拆分出来的数据获取部分，专注于数据质量和验证，不涉及文档管理和版本控制。
+**注意**: 本 skill 专注于数据获取和验证，不涉及文档管理和版本控制。

@@ -163,8 +163,6 @@ description: Extract or update datasource information from websites and convert 
 4. **删除备份**：验证成功后删除备份文件
 5. **报告变更**：向用户展示哪些字段更新了、哪些保留了
 
-<!-- **详细 Upsert 流程**: 见 [upsert-workflow.md](reference/upsert-workflow.md) -->
-
 #### 确定保存路径
 
 **优先级1：使用步骤1中记住的类别信息**（推荐）
@@ -172,23 +170,23 @@ description: Extract or update datasource information from websites and convert 
 使用步骤1中用户输入的类别信息（主类别/子类别）直接构建保存路径：
 
 ```
-sources/{主类别}/{子类别}/{数据源ID}.json
+src/datasource-hub/sources/{主类别}/{子类别}/{数据源ID}.json
 ```
 
 例如：
 - 输入类别：`international/health`
 - 数据源ID：`who-gho`
-- 保存路径：`sources/international/health/who-gho.json`
+- 保存路径：`src/datasource-hub/sources/international/health/who-gho.json`
 
 **类别路径映射表**（参考）：
 
 | 主类别 | 子类别示例 | 完整路径示例 |
 |-------|----------|-------------|
-| international | health, economics, trade, energy, environment | `sources/international/{sub_cat}/` |
-| countries | north-america, europe, asia, oceania, south-america, africa | `sources/countries/{sub_cat}/` |
-| academic | economics, health, environment, social, biology, physics_chemistry | `sources/academic/{sub_cat}/` |
-| sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `sources/sectors/{sub_cat}/` |
-| china | national, finance, economy, etc. | `sources/china/{sub_cat}/` |
+| international | health, economics, trade, energy, environment | `src/datasource-hub/sources/international/{sub_cat}/` |
+| countries | north-america, europe, asia, oceania, south-america, africa | `src/datasource-hub/sources/countries/{sub_cat}/` |
+| academic | economics, health, environment, social, biology, physics_chemistry | `src/datasource-hub/sources/academic/{sub_cat}/` |
+| sectors | energy, innovation_patents, education, agriculture_food, finance_markets | `src/datasource-hub/sources/sectors/{sub_cat}/` |
+| china | national, finance, economy, etc. | `src/datasource-hub/sources/china/{sub_cat}/` |
 
 **优先级2：使用 datasource-classifier Sub-Agent**（仅在步骤1无类别信息时）
 
@@ -221,7 +219,7 @@ datasource-classifier 会返回推荐路径、分类理由和替代方案。
 #### 6.1 Schema 验证 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-scraper/scripts/validate.py sources/path/to/file.json --schema reference/datasource-schema.json
+python .claude/skills/datasource-scraper/scripts/validate.py src/datasource-hub/sources/path/to/file.json --schema .claude/skills/datasource-scraper/reference/datasource-schema.json
 ```
 **必须通过**：JSON 格式符合 datasource-schema.json 标准
 
@@ -230,10 +228,10 @@ python .claude/skills/datasource-scraper/scripts/validate.py sources/path/to/fil
 #### 6.2 URL 可访问性验证 ✅ 必须
 
 ```bash
-python .claude/skills/datasource-scraper/scripts/verify_urls.py sources/path/to/file.json
+python .claude/skills/datasource-scraper/scripts/verify_urls.py src/datasource-hub/sources/path/to/file.json
 ```
 
-验证字段：`primary_url`（必需）、`organization.website`、`api.documentation`、`support_url` 
+验证字段：`primary_url`（必需）、`organization.website`、`api.documentation`、`support_url`
 **必须通过**：所有 URL 返回 200 状态码
 
 ---
@@ -241,7 +239,7 @@ python .claude/skills/datasource-scraper/scripts/verify_urls.py sources/path/to/
 #### 6.3 完整性检查 ✅ 必须
 
 ```bash
-python scripts/check_completeness.py sources/path/to/file.json
+python .claude/skills/datasource-scraper/scripts/check_completeness.py src/datasource-hub/sources/path/to/file.json
 ```
 
 **最低要求**：
@@ -261,13 +259,13 @@ python scripts/check_completeness.py sources/path/to/file.json
 
 ```bash
 # 测试新数据源
-python scripts/generate_indexes.py --test sources/path/to/file.json
+python .claude/skills/datasource-scraper/scripts/generate_indexes.py --test src/datasource-hub/sources/path/to/file.json
 
 # 生成完整索引
 python .claude/skills/datasource-scraper/scripts/generate_indexes.py
 ```
 
-生成 all-sources.json, by-domain.json, by-country.json, stats.json 等索引文件。
+生成索引文件到 `src/datasource-hub/indexes/` 目录（all-sources.json, by-domain.json, by-country.json, stats.json 等）。
 
 ---
 
@@ -298,26 +296,14 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 - 已完成数据源列表的数量标题
 - 项目状态表格（总进度、完成度、更新日期、质量评分）
 
-✅ **tasks/README.md** 更新：
-- 顶部总进度信息
-- 按类别浏览表格（5个分类的完成数/进度）
-
-✅ **ROADMAP.md** 更新：
-- 顶部总进度信息
-- 进度条可视化
-- 总体进度概览表格（5个分类的完成数/进度）
-
 **仍需手动完成的任务：**
 - ⚠️ 8.1: 一级目录 README 数据源条目添加
-- ⚠️ 8.2: 任务清单状态标记更新（📋 → ✅）
-- ⚠️ 8.3.2: sources/{category}/README.md 数据源列表更新
-- ⚠️ 8.3.4: tasks/china/README.md 领域统计更新（仅中国数据源）
+- ⚠️ 8.2.2: src/datasource-hub/sources/{category}/README.md 数据源列表更新
 
 **执行顺序建议：**
 1. ✅ 运行自动化脚本（更新所有进度统计）
 2. 📝 手动完成8.1（添加数据源条目）
-3. 📝 手动完成8.2（标记任务状态）
-4. 📝 如有需要，手动补充8.3.2和8.3.4
+3. 📝 手动完成8.2.2（更新分类README）
 
 ---
 
@@ -327,43 +313,26 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 
 | 数据源类别 | README 文件路径 |
 |-----------|----------------|
-| 中国数据源 | `sources/china/README.md` |
-| 国际数据源 | `sources/international/README.md` |
-| 各国数据源 | `sources/countries/README.md` |
-| 学术数据源 | `sources/academic/README.md` |
-| 行业数据源 | `sources/sectors/README.md` |
+| 中国数据源 | `src/datasource-hub/sources/china/README.md` |
+| 国际数据源 | `src/datasource-hub/sources/international/README.md` |
+| 各国数据源 | `src/datasource-hub/sources/countries/README.md` |
+| 学术数据源 | `src/datasource-hub/sources/academic/README.md` |
+| 行业数据源 | `src/datasource-hub/sources/sectors/README.md` |
 
 **注意**: 仅在一级目录下维护 README 文件，子目录不需要 README。
 
 添加数据源条目，包含：数据源名称、ID、权威等级、数据格式、访问类型、相对路径链接。
 
-#### 8.2 更新任务清单
+#### 8.2 更新进度统计
 
-在对应的任务文件中将任务状态从 `📋` 改为 `✅`：
-
-| 数据源类别 | 任务文件路径 |
-|-----------|-------------|
-| 中国数据源 | `tasks/china/{领域}.md` |
-| 国际组织 | `tasks/international.md` |
-| 各国官方 | `tasks/countries.md` |
-| 学术研究 | `tasks/academic.md` |
-| 行业领域 | `tasks/sectors.md` |
-
-#### 8.3 更新进度统计
-
-同步更新以下 5 个文件中的统计情况（保持所有统计一致）：
+同步更新以下 2 个文件中的统计情况（保持所有统计一致）：
 
 1. **根目录 README**（`README.md`）：Badge 徽章 + 总体统计表格 + 已完成数据源列表
-2. **一级目录 README**（`sources/{category}/README.md`）：已收录数量 + 已收录数据源列表
-3. **任务清单 README**（`tasks/README.md`）：总进度 + 分类表
-4. **中国数据源 README**（`tasks/china/README.md`，仅中国数据源）：领域统计
-5. **项目路线图**（`ROADMAP.md`）：总进度 + 类别表格 + 里程碑进度
+2. **一级目录 README**（`src/datasource-hub/sources/{category}/README.md`）：已收录数量 + 已收录数据源列表
 
 **更新原则**：
 - 所有统计数字必须同步更新，保持一致性
 - 进度百分比四舍五入到整数
-
-**详细更新指南**: 见 [documentation-update.md](reference/documentation-update.md)
 
 ---
 
@@ -378,8 +347,7 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 
 #### ✅ 文档更新（必须全部完成）
 - [ ] 更新领域 README
-- [ ] 任务文件标记完成（📋 → ✅）
-- [ ] 更新进度统计（5 个文件：README.md, tasks/README.md, ROADMAP.md, sources/{category}/README.md, tasks/china/README.md）
+- [ ] 更新进度统计（2 个文件：README.md, src/datasource-hub/sources/{category}/README.md）
 
 #### ✅ 质量检查（必须符合标准）
 - [ ] 必需字段完整
@@ -406,7 +374,7 @@ python .claude/skills/datasource-scraper/scripts/update_all_docs.py --verbose
 
 ```bash
 # 只添加数据源相关文件（不添加其他文件）
-git add sources/ tasks/ README.md ROADMAP.md indexes/
+git add src/datasource-hub/sources/ src/datasource-hub/indexes/ README.md
 
 # 创建提交（根据操作类型选择消息）
 # 新增：
@@ -454,26 +422,3 @@ git push
 4. **谨慎处理**: 不确定的信息标记为 null 或向用户询问
 
 ---
-
-## 工作流程示例
-详细的工作流程示例请参见：[workflow-examples.md](reference/workflow-examples.md)
-
-包括：
-- **示例 1**: 使用 Web Search 的标准流程（WHO 数据源）
-- **示例 2**: 使用 Playwright 的完整流程（国家统计局）
-
-每个示例都展示了从用户输入到最终完成的完整步骤。
-
----
-
-<!-- ## Reference 文档索引
-
-- [workflow-examples.md](reference/workflow-examples.md) - 完整工作流程示例（端到端）
-- [data-acquisition.md](reference/data-acquisition.md) - 数据获取策略（步骤 1：包含 Playwright 指南）
-- [information-extraction.md](reference/information-extraction.md) - 信息提取与 Schema 字段（步骤 2）
-- [quality-criteria.md](reference/quality-criteria.md) - 质量评分标准（步骤 3）
-- [upsert-workflow.md](reference/upsert-workflow.md) - Upsert 操作与目录结构（步骤 5）
-- [validation-guide.md](reference/validation-guide.md) - 三项验证详细指南（步骤 6）
-- [documentation-update.md](reference/documentation-update.md) - 文档更新详细指南（步骤 8）
-- [git-workflow.md](reference/git-workflow.md) - Git 工作流程和提交检查清单（步骤 9-10）
-- [reporting-format.md](reference/reporting-format.md) - 输出报告格式详细说明（通用） -->
