@@ -1,0 +1,67 @@
+{
+  "id": "conll-shared-tasks",
+  "name": {
+    "en": "CoNLL Shared Tasks Data",
+    "zh": "CoNLL共享任务数据集"
+  },
+  "description": {
+    "en": "CoNLL (Conference on Computational Natural Language Learning) has organized annual shared tasks since 1999, providing benchmark datasets for various NLP challenges including named entity recognition, chunking, parsing, semantic role labeling, coreference resolution, and more. These datasets have become standard benchmarks in the NLP research community, enabling fair comparison of different machine learning approaches across multiple languages and tasks.",
+    "zh": "CoNLL(计算自然语言学习会议)自1999年以来每年组织共享任务,为各种自然语言处理挑战提供基准数据集,包括命名实体识别、组块分析、句法分析、语义角色标注、共指消解等。这些数据集已成为NLP研究社区的标准基准,可以在多种语言和任务中公平比较不同的机器学习方法。"
+  },
+  "website": "https://www.signll.org",
+  "data_url": "https://www.conll.org/previous-tasks",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Natural Language Processing",
+    "Computational Linguistics",
+    "Machine Learning",
+    "Named Entity Recognition",
+    "Parsing",
+    "Semantic Analysis"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "NLP",
+    "natural language processing",
+    "machine learning",
+    "named entity recognition",
+    "NER",
+    "parsing",
+    "chunking",
+    "semantic role labeling",
+    "coreference resolution",
+    "multilingual",
+    "benchmark datasets",
+    "shared task",
+    "computational linguistics"
+  ],
+  "data_content": {
+    "en": [
+      "Named Entity Recognition (NER) datasets - English, German, Spanish, Dutch",
+      "Text Chunking and Phrase Recognition datasets",
+      "Dependency Parsing - multilingual datasets covering 20+ languages",
+      "Semantic Role Labeling datasets",
+      "Coreference Resolution datasets (OntoNotes)",
+      "Grammatical Error Correction datasets",
+      "Discourse Parsing datasets",
+      "Morphological Reinflection datasets",
+      "Universal Dependencies datasets",
+      "BabyLM Challenge datasets"
+    ],
+    "zh": [
+      "命名实体识别(NER)数据集 - 英语、德语、西班牙语、荷兰语",
+      "文本组块和短语识别数据集",
+      "依存句法分析 - 覆盖20多种语言的多语言数据集",
+      "语义角色标注数据集",
+      "共指消解数据集(OntoNotes)",
+      "语法错误纠正数据集",
+      "话语分析数据集",
+      "形态变化数据集",
+      "通用依存关系数据集",
+      "BabyLM挑战数据集"
+    ]
+  },
+  "authority_level": "research"
+}

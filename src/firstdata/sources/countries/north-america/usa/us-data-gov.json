@@ -1,0 +1,81 @@
+{
+  "id": "us-data-gov",
+  "name": {
+    "en": "Data.gov",
+    "zh": "美国政府开放数据平台"
+  },
+  "description": {
+    "en": "Data.gov is the U.S. government's open data portal, providing access to over 300,000 datasets from federal, state, and local government agencies. It serves as the central repository for publicly available government data across agriculture, climate, consumer safety, education, energy, finance, health, public safety, and many other domains. The platform supports transparency, innovation, and data-driven decision making by making government data accessible to researchers, developers, entrepreneurs, and the public.",
+    "zh": "Data.gov 是美国政府的开放数据门户网站，提供来自联邦、州和地方政府机构的超过 30 万个数据集的访问。它是公开政府数据的中央存储库，涵盖农业、气候、消费者安全、教育、能源、金融、健康、公共安全等多个领域。该平台通过使政府数据对研究人员、开发者、企业家和公众开放，支持透明度、创新和数据驱动的决策。"
+  },
+  "website": "https://www.gsa.gov",
+  "data_url": "https://catalog.data.gov/dataset",
+  "api_url": null,
+  "country": "US",
+  "domains": [
+    "Agriculture",
+    "Business",
+    "Climate",
+    "Consumer",
+    "Education",
+    "Energy",
+    "Finance",
+    "Health",
+    "Transportation",
+    "Public Safety",
+    "Science & Research",
+    "Environment",
+    "Manufacturing",
+    "Ocean",
+    "Local Government",
+    "Maritime",
+    "Ecosystems"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "united-states",
+    "government",
+    "open-data",
+    "federal",
+    "transparency",
+    "public-data",
+    "multi-domain",
+    "comprehensive"
+  ],
+  "data_content": {
+    "en": [
+      "Federal government datasets across all agencies",
+      "Agricultural data (crop production, livestock, food safety)",
+      "Climate and weather data",
+      "Education statistics (schools, enrollment, performance)",
+      "Energy production and consumption data",
+      "Health and healthcare data (disease surveillance, Medicare/Medicaid)",
+      "Transportation infrastructure and safety data",
+      "Economic and financial indicators",
+      "Environmental monitoring data (air quality, water quality)",
+      "Public safety and crime statistics",
+      "Scientific research data",
+      "Geospatial and mapping data",
+      "Census and demographic data",
+      "State and local government datasets"
+    ],
+    "zh": [
+      "所有联邦政府机构的数据集",
+      "农业数据（作物生产、畜牧业、食品安全）",
+      "气候和天气数据",
+      "教育统计（学校、入学率、表现）",
+      "能源生产和消费数据",
+      "健康和医疗数据（疾病监测、医疗保险/医疗补助）",
+      "交通基础设施和安全数据",
+      "经济和金融指标",
+      "环境监测数据（空气质量、水质）",
+      "公共安全和犯罪统计",
+      "科学研究数据",
+      "地理空间和地图数据",
+      "人口普查和人口统计数据",
+      "州和地方政府数据集"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "china-most-infrastructure",
+  "name": {
+    "en": "National Platform for Research Infrastructure and Large-scale Scientific Instruments",
+    "zh": "重大科研基础设施和大型科研仪器国家网络管理平台"
+  },
+  "description": {
+    "en": "National network management platform operated by National Science and Technology Infrastructure Center (NSTC) under China's Ministry of Science and Technology. Provides centralized query, reservation, and sharing services for major research facilities and large-scale scientific instruments across Chinese research institutions and universities. Covers facilities in extreme condition simulation, remote sensing, precision measurement, biomedical research, nuclear technology, telescopes, and various scientific instruments including analytical instruments, electron microscopes, mass spectrometers, and specialized testing equipment.",
+    "zh": "由国家科技基础条件平台中心建设和运营的重大科研基础设施和大型科研仪器国家网络管理平台。提供全国科研设施和大型科研仪器的集中查询、预约和共享服务，覆盖极端条件模拟、遥感观测、精密测量、生物医学、核技术、望远镜等重大科研基础设施，以及分析仪器、电子显微镜、质谱仪、物理性能测试仪器、医学科研仪器等各类大型科研仪器。"
+  },
+  "website": "https://www.escience.org.cn/nsti",
+  "data_url": "https://nrii.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "research-infrastructure",
+    "scientific-instruments",
+    "technology",
+    "science"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "科研设施",
+    "research-facilities",
+    "大型仪器",
+    "scientific-instruments",
+    "仪器共享",
+    "equipment-sharing",
+    "科技资源",
+    "science-resources",
+    "重大设施",
+    "major-facilities",
+    "实验设备",
+    "laboratory-equipment",
+    "科研平台",
+    "research-platform",
+    "仪器预约",
+    "instrument-booking",
+    "开放共享",
+    "open-sharing",
+    "科技部",
+    "MOST",
+    "分析仪器",
+    "analytical-instruments",
+    "电子显微镜",
+    "electron-microscope",
+    "质谱仪",
+    "mass-spectrometer",
+    "光谱仪",
+    "spectrometer",
+    "同步辐射",
+    "synchrotron-radiation",
+    "散裂中子源",
+    "spallation-neutron-source",
+    "FAST",
+    "天眼",
+    "望远镜",
+    "telescope"
+  ],
+  "data_content": {
+    "en": [
+      "Major Research Infrastructure: Extreme condition simulation facilities, remote sensing observation systems, environmental simulation chambers, precision measurement instruments, biomedical research facilities, nuclear technology facilities, particle accelerators, telescopes, synchrotron radiation sources",
+      "Large-scale Scientific Instruments: Analytical instruments (mass spectrometers, chromatographs, spectrometers, electron microscopes), physical property testing instruments, electronic measurement instruments, medical research instruments, earth exploration instruments, special detection instruments, ocean instruments, atmospheric detection instruments, lasers, nuclear instruments, astronomical instruments",
+      "Facility Information: Instrument specifications, models, locations, affiliated institutions, discipline areas, technical parameters, availability status",
+      "Service Functions: Equipment query and search, online booking and reservation, usage scheduling, technical support information, performance evaluation data",
+      "Coverage: Central government-affiliated universities and research institutes, Chinese Academy of Sciences institutes, major national laboratories"
+    ],
+    "zh": [
+      "重大科研基础设施：极端条件模拟类（全超导托卡马克核聚变实验装置EAST等）、遥感观测类、环境模拟类、精密测量类、生物医学类、核技术类、核物理类（北京正负电子对撞机、中国散裂中子源等）、望远镜类（中国天眼FAST等）、光源类（上海同步辐射光源、合肥国家同步辐射装置等）",
+      "大型科研仪器：分析仪器（质谱仪、色谱仪、光谱仪、电子显微镜等）、工艺试验仪器、物理性能测试仪器、计量仪器、电子测量仪器、医学科研仪器、计算机及配套设备、特种检测仪器、地球探测仪器、激光器、海洋仪器、大气探测仪器、核仪器、天文仪器",
+      "设施信息：仪器名称、型号规格、所在地区、所属单位、学科领域、技术参数、开放状态",
+      "服务功能：设备查询检索、在线预约、使用安排、技术支持、评价考核数据",
+      "覆盖范围：中央级高等学校和科研院所、中国科学院各研究所、国家重点实验室"
+    ]
+  }
+}

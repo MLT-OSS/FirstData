@@ -1,0 +1,56 @@
+{
+  "id": "china-ndrc",
+  "name": {
+    "en": "National Development and Reform Commission",
+    "zh": "国家发展和改革委员会",
+    "native": "国家发展和改革委员会"
+  },
+  "description": {
+    "en": "The National Development and Reform Commission (NDRC) is China's macroeconomic management agency. It provides data on economic development plans, fixed asset investment, price monitoring (including CPI, PPI, and commodity prices), industrial restructuring, regional development, energy conservation, and major infrastructure projects.",
+    "zh": "国家发展和改革委员会是中国的宏观经济管理机构。提供经济发展规划、固定资产投资、价格监测（包括CPI、PPI和商品价格）、产业结构调整、区域发展、节能降耗和重大基础设施项目数据。"
+  },
+  "website": "https://www.ndrc.gov.cn",
+  "data_url": "https://www.ndrc.gov.cn/fgsj/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "economics",
+    "development",
+    "investment",
+    "prices"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "ndrc",
+    "macroeconomic",
+    "development",
+    "investment",
+    "prices",
+    "cpi",
+    "ppi",
+    "planning"
+  ],
+  "data_content": {
+    "en": [
+      "Fixed Asset Investment - National and provincial investment statistics by industry and region",
+      "Price Monitoring - Consumer Price Index (CPI), Producer Price Index (PPI), and commodity prices",
+      "Economic Development Plans - Five-Year Economic Development Plans and national strategies",
+      "Industrial Restructuring - Industrial policy data and structural optimization statistics",
+      "Regional Development - Provincial economic development indicators and regional coordination",
+      "Energy Conservation - Energy consumption statistics and energy efficiency improvement data",
+      "Major Infrastructure Projects - Investment and construction data for key infrastructure initiatives"
+    ],
+    "zh": [
+      "固定资产投资 - 全国及省级按行业、地区分类的投资统计数据",
+      "价格监测 - 居民消费价格指数(CPI)、工业生产者出厂价格指数(PPI)及商品价格",
+      "经济发展规划 - 五年经济发展规划及国家战略",
+      "产业结构调整 - 产业政策数据和结构优化统计",
+      "区域发展 - 各省份经济发展指标及区域协调发展数据",
+      "节能降耗 - 能源消耗统计及能效提升数据",
+      "重大基础设施项目 - 重点基础设施项目投资与建设数据"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dhs",
+  "name": {
+    "en": "Demographic and Health Surveys (DHS) Program",
+    "zh": "人口与健康调查项目"
+  },
+  "description": {
+    "en": "The DHS Program provides technical assistance for population and health surveys in developing countries. It delivers nationally-representative household surveys on population, health, HIV, and nutrition, providing data to policymakers and program managers to monitor and evaluate programs, and to researchers to further describe and better understand important health issues. The program has conducted over 400 surveys in more than 90 countries since 1984.",
+    "zh": "人口与健康调查项目为发展中国家提供人口和健康调查技术援助。它提供全国代表性的家庭调查数据，涵盖人口、健康、艾滋病和营养，为政策制定者和项目管理者监测评估项目提供数据，为研究人员提供重要健康问题的描述和理解。自1984年以来，该项目已在90多个国家进行了400多次调查。"
+  },
+  "website": "https://www.usaid.gov/",
+  "data_url": "https://dhsprogram.com/",
+  "api_url": "https://api.dhsprogram.com/",
+  "country": null,
+  "domains": [
+    "health",
+    "demographics",
+    "population"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "irregular",
+  "tags": [
+    "demographic surveys",
+    "health surveys",
+    "DHS",
+    "USAID",
+    "developing countries",
+    "maternal health",
+    "child health",
+    "HIV/AIDS",
+    "family planning",
+    "fertility",
+    "nutrition",
+    "household surveys",
+    "STATcompiler"
+  ],
+  "data_content": {
+    "en": [
+      "Fertility and Family Planning - Contraceptive use, unmet need, fertility preferences, total fertility rate",
+      "Maternal and Child Health - Antenatal care, delivery care, postnatal care, childhood vaccinations, child nutrition",
+      "HIV/AIDS and STIs - HIV prevalence, knowledge and attitudes, testing, treatment, behavior",
+      "Nutrition - Anthropometric measurements (height, weight), micronutrient intake, infant and child feeding practices",
+      "Malaria - Ownership and use of insecticide-treated nets, malaria testing and treatment",
+      "Water and Sanitation - Access to improved water sources, sanitation facilities, hygiene practices",
+      "Women's Empowerment - Decision-making, attitudes toward gender roles, experience of violence",
+      "Household Characteristics - Wealth index, education, assets, housing conditions"
+    ],
+    "zh": [
+      "生育和计划生育 - 避孕使用、未满足需求、生育偏好、总和生育率",
+      "母婴健康 - 产前护理、分娩护理、产后护理、儿童疫苗接种、儿童营养",
+      "艾滋病和性传播疾病 - 艾滋病患病率、知识态度、检测、治疗、行为",
+      "营养 - 人体测量（身高、体重）、微量营养素摄入、婴幼儿喂养实践",
+      "疟疾 - 驱虫蚊帐拥有和使用、疟疾检测和治疗",
+      "水和卫生 - 改良水源获取、卫生设施、卫生习惯",
+      "女性赋权 - 决策权、对性别角色的态度、暴力经历",
+      "家庭特征 - 财富指数、教育、资产、住房条件"
+    ]
+  },
+  "authority_level": "international"
+}

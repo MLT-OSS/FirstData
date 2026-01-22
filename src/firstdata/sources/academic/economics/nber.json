@@ -1,0 +1,62 @@
+{
+  "id": "nber-data",
+  "name": {
+    "en": "NBER Data Library",
+    "zh": "国家经济研究局数据库",
+    "native": "NBER Data Library"
+  },
+  "description": {
+    "en": "A private, nonprofit research organization facilitating cutting-edge economic research. Features over 34,000 working papers, public-use economic datasets, and comprehensive economic indicators. Affiliated with 1,800+ economists including 43 Nobel Prize winners.",
+    "zh": "私营非营利研究组织，促进前沿经济研究。包含超过34,000篇工作论文、公共使用经济数据集和全面的经济指标。拥有1,800多名经济学家，其中包括43位诺贝尔奖获得者。"
+  },
+  "website": "https://www.nber.org",
+  "data_url": "https://www.nber.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "economics",
+    "finance",
+    "labor",
+    "health",
+    "productivity"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "weekly",
+  "tags": [
+    "economics",
+    "research-papers",
+    "working-papers",
+    "business-cycle",
+    "labor-economics",
+    "productivity",
+    "financial-markets",
+    "health-economics",
+    "academic-research",
+    "nobel-laureates"
+  ],
+  "data_content": {
+    "en": [
+      "Working papers on economic research (34,000+ papers)",
+      "Business cycle dating and recession indicators",
+      "Labor economics and employment data",
+      "Productivity and economic growth metrics",
+      "Health economics and policy research",
+      "International trade and finance data",
+      "Public-use microdata from research projects",
+      "Economic indicators and releases aggregation",
+      "Monetary economics and financial markets research"
+    ],
+    "zh": [
+      "经济研究工作论文（34,000+篇）",
+      "商业周期确定和衰退指标",
+      "劳动经济学和就业数据",
+      "生产率和经济增长指标",
+      "健康经济学和政策研究",
+      "国际贸易和金融数据",
+      "研究项目的公共使用微观数据",
+      "经济指标和发布聚合",
+      "货币经济学和金融市场研究"
+    ]
+  },
+  "authority_level": "research"
+}

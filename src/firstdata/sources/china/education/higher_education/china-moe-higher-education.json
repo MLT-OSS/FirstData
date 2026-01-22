@@ -1,0 +1,89 @@
+{
+  "id": "china-moe-higher-education",
+  "name": {
+    "en": "Ministry of Education of China - Higher Education Statistics",
+    "zh": "中华人民共和国教育部高等教育统计"
+  },
+  "description": {
+    "en": "Official higher education statistics published annually by China's Ministry of Education, covering enrollment, graduates, faculty, infrastructure and institutional data across undergraduate, graduate and vocational education programs. Provides comprehensive data on China's higher education development including detailed breakdowns by institution type, discipline, and educational level.",
+    "zh": "中华人民共和国教育部发布的年度全国高等教育事业发展统计公报,涵盖本科、研究生和职业教育的招生、毕业生、师资、基础设施和院校数据。提供中国高等教育发展的全面统计数据,包括按院校类型、学科和教育层次的详细分类。"
+  },
+  "website": "http://www.moe.gov.cn/",
+  "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "education",
+    "higher_education",
+    "statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "教育统计",
+    "高等教育",
+    "education statistics",
+    "higher education",
+    "招生",
+    "毕业生",
+    "enrollment",
+    "graduates",
+    "本科",
+    "研究生",
+    "undergraduate",
+    "graduate",
+    "博士",
+    "硕士",
+    "doctoral",
+    "master's degree",
+    "理工科",
+    "STEM",
+    "science and engineering",
+    "普通本科",
+    "高职",
+    "职业教育",
+    "vocational education",
+    "高校",
+    "universities",
+    "院校数据",
+    "institutional data",
+    "师资",
+    "faculty",
+    "教师",
+    "teachers",
+    "学科分类",
+    "discipline classification",
+    "教育部",
+    "Ministry of Education",
+    "MOE",
+    "统计公报",
+    "statistical bulletin"
+  ],
+  "data_content": {
+    "en": [
+      "Higher education enrollment and admission data by education level (undergraduate, master's, doctoral)",
+      "Graduate statistics by degree type and discipline",
+      "University and college institutional data (number of institutions, student capacity)",
+      "Faculty and staff statistics (number of teachers, qualifications, student-teacher ratios)",
+      "Infrastructure data (campus area, building space, equipment value)",
+      "Educational quality indicators (retention rates, graduation rates)",
+      "Private/public institution comparisons",
+      "Vocational higher education statistics",
+      "Special education enrollment data",
+      "Historical trends in higher education development (annual data since 2005)"
+    ],
+    "zh": [
+      "高等教育招生与在校生数据(按本科、硕士、博士层次)",
+      "毕业生统计(按学位类型和学科分类)",
+      "高校机构数据(院校数量、办学规模)",
+      "师资队伍统计(教师数量、学历结构、生师比)",
+      "基础设施数据(校园面积、建筑面积、设备价值)",
+      "教育质量指标(巩固率、毕业率)",
+      "民办/公办院校对比数据",
+      "高等职业教育统计",
+      "特殊教育招生数据",
+      "高等教育发展历史趋势(2005年至今年度数据)"
+    ]
+  }
+}

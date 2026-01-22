@@ -1,0 +1,59 @@
+{
+  "id": "china-mofcom",
+  "name": {
+    "en": "Ministry of Commerce of China",
+    "zh": "中华人民共和国商务部",
+    "native": "中华人民共和国商务部"
+  },
+  "description": {
+    "en": "The Ministry of Commerce (MOFCOM) is responsible for formulating policies on foreign trade, foreign investment, and domestic commerce in China. Provides data on foreign direct investment (FDI), outbound direct investment (ODI), retail sales, e-commerce, trade in services, and bilateral economic cooperation.",
+    "zh": "中华人民共和国商务部负责制定中国对外贸易、外商投资和国内商业政策。提供外商直接投资（FDI）、对外直接投资（ODI）、零售销售、电子商务、服务贸易和双边经济合作数据。"
+  },
+  "website": "http://www.mofcom.gov.cn",
+  "data_url": "https://data.mofcom.gov.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "trade",
+    "investment",
+    "commerce",
+    "economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "commerce",
+    "fdi",
+    "odi",
+    "foreign-investment",
+    "retail",
+    "ecommerce",
+    "services-trade"
+  ],
+  "data_content": {
+    "en": [
+      "Foreign Direct Investment (FDI) - FDI inflows by country, industry, and region; number of foreign-invested enterprises",
+      "Outbound Direct Investment (ODI) - Chinese outward FDI by destination country, industry, and investment mode",
+      "Retail Sales - Total retail sales of consumer goods, online retail sales, and retail by category",
+      "E-commerce - Online shopping transactions, cross-border e-commerce, and digital commerce statistics",
+      "Trade in Services - Service trade by category (transport, travel, financial services, etc.) and by country",
+      "Bilateral Economic Cooperation - Economic and trade agreements, cooperation zones, and bilateral trade volumes",
+      "Domestic Commerce - Wholesale and retail trade, commodity markets, and circulation industry statistics",
+      "Foreign Trade Policy - Trade remedy measures, anti-dumping cases, and import/export licenses",
+      "Regional Development - Regional economic development data and opening-up policies"
+    ],
+    "zh": [
+      "外商直接投资(FDI) - 按国家、行业和地区分类的FDI流入;外商投资企业数量",
+      "对外直接投资(ODI) - 按目的国、行业和投资方式分类的中国对外FDI",
+      "零售销售 - 社会消费品零售总额、网上零售额和按类别分类的零售",
+      "电子商务 - 网络购物交易、跨境电商和数字商务统计",
+      "服务贸易 - 按类别(运输、旅游、金融服务等)和国家分类的服务贸易",
+      "双边经济合作 - 经贸协定、合作区和双边贸易额",
+      "国内商业 - 批发零售业、商品市场和流通业统计",
+      "对外贸易政策 - 贸易救济措施、反倾销案件和进出口许可",
+      "区域发展 - 区域经济发展数据和对外开放政策"
+    ]
+  },
+  "authority_level": "government"
+}

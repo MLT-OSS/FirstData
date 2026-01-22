@@ -1,0 +1,77 @@
+{
+  "id": "asian-barometer",
+  "name": {
+    "en": "Asian Barometer Survey",
+    "zh": "亚洲民主动态调查"
+  },
+  "description": {
+    "en": "The Asian Barometer Survey (ABS) is a comparative survey research program on public opinion regarding political values, democracy, and governance across Asia. The survey network encompasses research teams from 18 East Asian political systems (Japan, Mongolia, South Korea, Taiwan, Hong Kong, China, Philippines, Thailand, Vietnam, Cambodia, Singapore, Indonesia, Malaysia) and 5 South Asian countries (India, Pakistan, Bangladesh, Sri Lanka, Nepal). National probability sample surveys have been conducted over six waves, with the most recent Wave 6 conducted from 2021-2023.",
+    "zh": "亚洲民主动态调查(ABS)是一个关于亚洲地区政治价值观、民主和治理的公众意见比较调查研究项目。调查网络涵盖来自18个东亚政治体系(日本、蒙古、韩国、台湾、香港、中国大陆、菲律宾、泰国、越南、柬埔寨、新加坡、印度尼西亚、马来西亚)和5个南亚国家(印度、巴基斯坦、孟加拉国、斯里兰卡、尼泊尔)的研究团队。已在约20个国家进行了六轮国家概率抽样调查,最新的第6轮调查于2021-2023年进行。"
+  },
+  "website": "https://asianbarometer.org",
+  "data_url": "https://asianbarometer.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Political Science",
+    "Democracy Studies",
+    "Public Opinion",
+    "Governance",
+    "Political Values",
+    "Electoral Studies",
+    "Social Science"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "irregular",
+  "tags": [
+    "political science",
+    "democracy",
+    "survey",
+    "public opinion",
+    "Asia",
+    "governance",
+    "electoral studies",
+    "political values",
+    "comparative politics",
+    "social science",
+    "Taiwan",
+    "academia sinica"
+  ],
+  "data_content": {
+    "en": [
+      "Democratic values and attitudes",
+      "Political participation and engagement",
+      "Electoral mobilization and voting behavior",
+      "Trust in political institutions",
+      "Regime legitimacy and support",
+      "Civil liberties and rights perceptions",
+      "Corruption perceptions",
+      "Economic evaluations",
+      "National identity and pride",
+      "Media consumption and political information",
+      "Social capital and civic engagement",
+      "Attitudes toward governance",
+      "Authoritarian vs democratic values",
+      "Political efficacy",
+      "Satisfaction with democracy"
+    ],
+    "zh": [
+      "民主价值观和态度",
+      "政治参与和介入",
+      "选举动员和投票行为",
+      "对政治机构的信任",
+      "政权合法性和支持度",
+      "公民自由和权利认知",
+      "腐败感知",
+      "经济评价",
+      "国家认同和自豪感",
+      "媒体消费和政治信息",
+      "社会资本和公民参与",
+      "对治理的态度",
+      "威权与民主价值观对比",
+      "政治效能感",
+      "对民主的满意度"
+    ]
+  },
+  "authority_level": "research"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "china-nfra",
+  "name": {
+    "en": "National Financial Regulatory Administration",
+    "zh": "国家金融监督管理总局",
+    "native": "国家金融监督管理总局"
+  },
+  "description": {
+    "en": "The National Financial Regulatory Administration (NFRA) is China's integrated financial regulatory authority formed in 2023 by merging the China Banking and Insurance Regulatory Commission (CBIRC) with banking and insurance supervision functions. It oversees the banking and insurance sectors, publishing comprehensive regulatory statistics including bank assets and liabilities, insurance premium income, regulatory compliance indicators, small and micro enterprise lending data, and sector-wide performance metrics.",
+    "zh": "国家金融监督管理总局（NFRA）是中国于2023年成立的综合性金融监管机构，由原中国银行保险监督管理委员会（银保监会）与银行保险监管职能合并而成。负责监管银行业和保险业，发布全面的监管统计数据，包括银行资产负债、保险保费收入、监管合规指标、普惠型小微企业贷款数据以及行业整体运营指标。"
+  },
+  "website": "https://www.nfra.gov.cn",
+  "data_url": "https://www.nfra.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "banking",
+    "insurance",
+    "regulation"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "banking-regulation",
+    "insurance-regulation",
+    "nfra",
+    "cbirc",
+    "financial-supervision",
+    "banking-statistics",
+    "insurance-statistics",
+    "regulatory-compliance",
+    "financial-inclusion"
+  ],
+  "data_content": {
+    "en": [
+      "Banking Assets and Liabilities - Monthly and quarterly total assets and liabilities of banking financial institutions",
+      "Insurance Industry Statistics - Monthly insurance premium income by region, personal insurance, and property insurance companies",
+      "Banking Regulatory Indicators - Commercial bank capital adequacy, asset quality, liquidity, and profitability metrics",
+      "Small and Micro Enterprise Lending - Inclusive finance loan statistics for small and micro enterprises",
+      "Banking Sector Analysis - Analysis by institution type including large commercial banks, joint-stock banks, and rural banks",
+      "Insurance Operations - Insurance company operating performance, claims, and investment data",
+      "Financial Inclusion - Data on financial services accessibility and penetration across regions",
+      "Regulatory Compliance - Compliance indicators and supervisory data for banking and insurance sectors"
+    ],
+    "zh": [
+      "银行业资产负债 - 月度和季度银行业金融机构总资产和总负债",
+      "保险业统计 - 月度各地区原保险保费收入、人身险和财产险公司经营情况",
+      "银行业监管指标 - 商业银行资本充足率、资产质量、流动性和盈利能力指标",
+      "普惠型小微企业贷款 - 针对小微企业的普惠金融贷款统计数据",
+      "银行业机构分类分析 - 按大型商业银行、股份制银行、农村银行等机构类型分析",
+      "保险业经营情况 - 保险公司运营表现、理赔和投资数据",
+      "普惠金融 - 各地区金融服务可及性和渗透率数据",
+      "监管合规 - 银行业和保险业合规指标和监管数据"
+    ]
+  },
+  "authority_level": "government"
+}

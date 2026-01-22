@@ -1,0 +1,46 @@
+{
+  "id": "un-comtrade",
+  "name": {
+    "en": "UN Comtrade - United Nations International Trade Statistics Database",
+    "zh": "联合国国际贸易统计数据库"
+  },
+  "description": {
+    "en": "UN Comtrade is the world's largest repository of official international trade statistics, containing detailed imports and exports data reported by over 200 countries and territories. Data covers merchandise trade by commodity (HS, SITC) and trading partner, with annual and monthly time series.",
+    "zh": "UN Comtrade是全球最大的官方国际贸易统计数据库，包含200多个国家和地区报告的详细进出口数据。数据涵盖按商品（HS、SITC）和贸易伙伴分类的商品贸易，提供年度和月度时间序列。"
+  },
+  "website": "https://unstats.un.org",
+  "data_url": "https://comtradeplus.un.org",
+  "api_url": "https://comtradeplus.un.org/TradeFlow",
+  "country": null,
+  "domains": [
+    "trade",
+    "economics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "international_trade",
+    "merchandise_trade",
+    "bilateral_trade",
+    "commodity_trade",
+    "un_statistics",
+    "trade_data"
+  ],
+  "data_content": {
+    "en": [
+      "Detailed annual and monthly imports and exports by commodity classification (HS, SITC, BEC), trading partner, customs regime, mode of transport, and other dimensions. Includes trade values, quantities, and unit values.",
+      "Merchandise Trade by Commodity - Detailed trade data classified by HS (Harmonized System) codes at 2, 4, and 6-digit levels",
+      "Bilateral Trade Flows - Trade flows between specific country pairs (reporter and partner)",
+      "Trade by Mode of Transport - Trade statistics broken down by transport mode (sea, air, land, etc.)",
+      "Re-exports and Re-imports - Data on goods imported for re-export and goods re-imported"
+    ],
+    "zh": [
+      "按商品分类（HS、SITC、BEC）、贸易伙伴、海关制度、运输方式和其他维度的详细年度和月度进出口数据。包括贸易额、数量和单位价值。",
+      "按商品分类的商品贸易 - 按HS（协调制度）2位、4位和6位编码分类的详细贸易数据",
+      "双边贸易流 - 特定国家对（报告国和伙伴国）之间的贸易流",
+      "按运输方式分类的贸易 - 按运输方式（海运、空运、陆运等）细分的贸易统计",
+      "转口和再进口 - 为再出口而进口的商品和再进口商品的数据"
+    ]
+  },
+  "authority_level": "international"
+}

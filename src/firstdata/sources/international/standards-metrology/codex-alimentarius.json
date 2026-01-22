@@ -1,0 +1,71 @@
+{
+  "id": "codex-alimentarius",
+  "name": {
+    "en": "Codex Alimentarius Standards",
+    "zh": "国际食品法典委员会标准"
+  },
+  "description": {
+    "en": "The Codex Alimentarius, or 'Food Code', is a collection of internationally recognized standards, codes of practice, guidelines, and other recommendations relating to foods, food production, and food safety. Established jointly by the Food and Agriculture Organization (FAO) and the World Health Organization (WHO) in 1963, the Codex Alimentarius Commission develops harmonized international food standards to protect consumer health and ensure fair practices in food trade. The standards cover all principal foods, whether processed, semi-processed or raw, and address food labeling, food hygiene, food additives, pesticide residues, contaminants, certification and inspection systems.",
+    "zh": "国际食品法典(Codex Alimentarius)，又称'食品法典'，是一套国际公认的食品标准、操作规范、指南和其他与食品、食品生产和食品安全相关的建议集合。该委员会由联合国粮食及农业组织(FAO)和世界卫生组织(WHO)于1963年联合成立，旨在制定统一的国际食品标准，以保护消费者健康并确保食品贸易的公平实践。这些标准涵盖所有主要食品(无论是加工、半加工还是生鲜食品)，并涉及食品标签、食品卫生、食品添加剂、农药残留、污染物、认证和检验系统等方面。"
+  },
+  "website": "https://www.fao.org/fao-who-codexalimentarius/en/",
+  "data_url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Food Safety",
+    "Food Standards",
+    "Food Labeling",
+    "Food Hygiene",
+    "Food Additives",
+    "Pesticide Residues",
+    "Veterinary Drug Residues",
+    "Contaminants",
+    "Food Inspection",
+    "Certification Systems",
+    "Nutrition",
+    "Food Quality"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "food-safety",
+    "food-standards",
+    "international-standards",
+    "food-regulation",
+    "food-labeling",
+    "food-hygiene",
+    "food-additives",
+    "pesticide-residues",
+    "veterinary-drugs",
+    "contaminants",
+    "food-quality",
+    "nutrition",
+    "fao",
+    "who",
+    "food-trade"
+  ],
+  "data_content": {
+    "en": [
+      "General Standards - General principles of food hygiene, food labeling, food additives, contaminants and toxins",
+      "Commodity Standards - Standards for specific food products (cereals, fats and oils, fish and fishery products, fresh fruits and vegetables, meat and meat products, milk and milk products, sugars, processed and quick frozen foods)",
+      "Maximum Residue Limits (MRLs) - Pesticide residues, veterinary drug residues in foods",
+      "Codes of Practice - Hygienic practices for various food categories",
+      "Guidelines - Risk analysis, nutrition, food import and export inspection and certification",
+      "Food Additives - Specifications and acceptable daily intakes for food additives",
+      "Contaminant Levels - Maximum levels for contaminants and toxins in food and feed",
+      "Methods of Analysis and Sampling - Standard analytical methods for food testing"
+    ],
+    "zh": [
+      "通用标准 - 食品卫生通用原则、食品标签、食品添加剂、污染物和毒素",
+      "商品标准 - 特定食品产品标准(谷物、油脂、鱼类和渔业产品、新鲜水果和蔬菜、肉类和肉制品、奶和奶制品、糖类、加工和速冻食品)",
+      "最大残留限量(MRLs) - 农药残留、兽药残留限量",
+      "操作规范 - 各类食品的卫生操作规范",
+      "指南 - 风险分析、营养、食品进出口检验和认证",
+      "食品添加剂 - 食品添加剂规格和每日允许摄入量",
+      "污染物水平 - 食品和饲料中污染物和毒素的最高限量",
+      "分析和采样方法 - 食品检测的标准分析方法"
+    ]
+  },
+  "authority_level": "international"
+}

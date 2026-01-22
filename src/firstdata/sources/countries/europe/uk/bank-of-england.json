@@ -1,0 +1,79 @@
+{
+  "id": "uk-boe",
+  "name": {
+    "en": "Bank of England Statistical Interactive Database",
+    "zh": "英格兰银行统计数据库"
+  },
+  "description": {
+    "en": "The Bank of England's Statistical Interactive Database provides comprehensive monetary, financial and regulatory statistics for the UK. It includes data on money and credit, interest rates, exchange rates, financial markets, banking sector capital, payment systems, and other key economic indicators. The database serves as the authoritative source for UK monetary policy, financial stability analysis, and banking sector regulation.",
+    "zh": "英格兰银行统计互动数据库提供英国全面的货币、金融和监管统计数据。包括货币与信贷、利率、汇率、金融市场、银行业资本、支付系统及其他关键经济指标数据。该数据库是英国货币政策、金融稳定性分析和银行业监管的权威数据来源。"
+  },
+  "website": "https://www.bankofengland.co.uk",
+  "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
+  "api_url": null,
+  "country": "GB",
+  "domains": [
+    "Monetary Policy",
+    "Financial Markets",
+    "Banking",
+    "Interest Rates",
+    "Exchange Rates",
+    "Credit",
+    "Financial Stability",
+    "Payment Systems",
+    "Regulatory Capital"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "central-bank",
+    "monetary-policy",
+    "financial-stability",
+    "interest-rates",
+    "exchange-rates",
+    "banking",
+    "UK",
+    "United Kingdom",
+    "England",
+    "regulatory-data",
+    "financial-markets",
+    "payment-systems"
+  ],
+  "data_content": {
+    "en": [
+      "Money and Credit Data (lending, deposits, monetary aggregates)",
+      "Interest Rates (Bank Rate, quoted rates, effective rates)",
+      "Exchange Rates (daily spot rates, sterling index)",
+      "Yield Curves (government bonds, LIBOR, OIS)",
+      "Financial Markets (capital issuance, derivatives, external business)",
+      "Banking Sector Regulatory Capital",
+      "Mortgage Lenders and Administrators Statistics",
+      "Payment and Settlement Statistics (CHAPS, RTGS)",
+      "UK International Reserves",
+      "Banknote and Gold Statistics",
+      "Consumer Credit including Student Loans",
+      "Housing Equity Withdrawal",
+      "Option-Implied Probability Density Functions",
+      "Credit Union Statistics",
+      "Insurance Aggregate Data"
+    ],
+    "zh": [
+      "货币与信贷数据（贷款、存款、货币总量）",
+      "利率（基准利率、报价利率、有效利率）",
+      "汇率（每日即期汇率、英镑指数）",
+      "收益率曲线（政府债券、LIBOR、OIS）",
+      "金融市场（资本发行、衍生品、外部业务）",
+      "银行业监管资本",
+      "抵押贷款机构统计",
+      "支付清算统计（CHAPS、RTGS）",
+      "英国国际储备",
+      "纸币和黄金统计",
+      "消费信贷（含学生贷款）",
+      "住房净值提取",
+      "期权隐含概率密度函数",
+      "信用合作社统计",
+      "保险汇总数据"
+    ]
+  },
+  "authority_level": "government"
+}

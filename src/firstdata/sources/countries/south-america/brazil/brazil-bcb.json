@@ -1,0 +1,79 @@
+{
+  "id": "brazil-bcb",
+  "name": {
+    "en": "Central Bank of Brazil",
+    "zh": "巴西中央银行",
+    "native": "Banco Central do Brasil"
+  },
+  "description": {
+    "en": "The Central Bank of Brazil (BCB) is Brazil's monetary authority responsible for implementing monetary policy, supervising the financial system, and maintaining price stability. The BCB provides comprehensive economic and financial statistics through its Open Data Portal, including monetary policy data, financial system indicators, payment statistics, exchange rates, interest rates, credit data, and balance of payments information. All data is available in open formats with API access.",
+    "zh": "巴西中央银行（BCB）是巴西的货币当局，负责实施货币政策、监管金融系统并维持价格稳定。BCB通过其开放数据门户提供全面的经济和金融统计数据，包括货币政策数据、金融系统指标、支付统计、汇率、利率、信贷数据和国际收支信息。所有数据均以开放格式提供，并支持API访问。"
+  },
+  "website": "https://www.bcb.gov.br",
+  "data_url": "https://dadosabertos.bcb.gov.br",
+  "api_url": "https://dadosabertos.bcb.gov.br/dataset",
+  "country": "BR",
+  "domains": [
+    "Monetary Policy",
+    "Financial Statistics",
+    "Banking",
+    "Payment Systems",
+    "Exchange Rates",
+    "Interest Rates",
+    "Credit Data",
+    "Balance of Payments",
+    "Financial Stability",
+    "Currency and Coins"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "central-bank",
+    "brazil",
+    "monetary-policy",
+    "financial-statistics",
+    "exchange-rates",
+    "interest-rates",
+    "credit-data",
+    "payment-systems",
+    "banking",
+    "south-america",
+    "open-data",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "SELIC Interest Rate - Daily and accumulated rates",
+      "Exchange Rates - USD, EUR and other currencies (daily PTAX)",
+      "Credit Statistics - SCR.data with credit operations data",
+      "Payment Statistics - Pix, credit cards, payment methods",
+      "Monetary Aggregates - M1, M2, M3, monetary base",
+      "Financial Institution Data - IFData with balance sheets and indicators",
+      "National Financial System - Institution information and regulations",
+      "Consortium Data - Auto, real estate and other goods",
+      "Savings Accounts - Interest rates and balances",
+      "Time Series - SGS with over 25,000 economic and financial series",
+      "Balance of Payments - External sector statistics",
+      "Foreign Exchange Reserves - International reserves data",
+      "Inflation Indicators - CPI and inflation expectations",
+      "Open Finance Data - Financial institutions open data"
+    ],
+    "zh": [
+      "SELIC利率 - 日利率和累计利率",
+      "汇率 - 美元、欧元等货币（每日PTAX汇率）",
+      "信贷统计 - SCR.data信贷业务数据",
+      "支付统计 - Pix、信用卡、支付方式",
+      "货币总量 - M1、M2、M3、货币基数",
+      "金融机构数据 - IFData资产负债表和指标",
+      "国家金融系统 - 机构信息和监管规定",
+      "联合购买数据 - 汽车、房地产等商品",
+      "储蓄账户 - 利率和余额",
+      "时间序列 - SGS系统包含超过25,000个经济和金融序列",
+      "国际收支 - 外部部门统计",
+      "外汇储备 - 国际储备数据",
+      "通胀指标 - CPI和通胀预期",
+      "开放金融数据 - 金融机构开放数据"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "bis-statistics",
+  "name": {
+    "en": "BIS Statistics - Bank for International Settlements",
+    "zh": "国际清算银行统计数据"
+  },
+  "description": {
+    "en": "BIS statistics, compiled in cooperation with central banks and other national authorities, are designed to inform analysis of financial stability, international monetary spillovers and global liquidity. The statistics cover international banking, debt securities, credit, global liquidity, derivatives, property prices, consumer prices, exchange rates, central bank statistics, and payment statistics.",
+    "zh": "国际清算银行（BIS）统计数据与各国中央银行和其他国家机构合作编制，旨在为金融稳定、国际货币溢出效应和全球流动性分析提供信息。统计数据涵盖国际银行业、债务证券、信贷、全球流动性、衍生品、房地产价格、消费者价格、汇率、中央银行统计和支付统计。"
+  },
+  "website": "https://www.bis.org",
+  "data_url": "https://data.bis.org/",
+  "api_url": "https://stats.bis.org/api-doc/v2/",
+  "country": null,
+  "domains": [
+    "Banking",
+    "Finance",
+    "Securities",
+    "Credit",
+    "Liquidity",
+    "Derivatives",
+    "Real Estate",
+    "Prices",
+    "Exchange Rates",
+    "Central Banking",
+    "Payments"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "banking",
+    "finance",
+    "securities",
+    "credit",
+    "derivatives",
+    "real-estate",
+    "exchange-rates",
+    "central-banking",
+    "payments",
+    "financial-stability",
+    "bis",
+    "global",
+    "time-series"
+  ],
+  "data_content": {
+    "en": [
+      "Locational Banking Statistics - International banking activity from a residence perspective",
+      "Consolidated Banking Statistics - Worldwide consolidated positions of internationally active banking groups",
+      "Debt Securities Statistics - Issuance and amounts outstanding of debt securities",
+      "Credit to the Non-Financial Sector - Borrowing by government and private non-financial sectors",
+      "Credit-to-GDP Gaps - Deviations of credit-to-GDP ratio from long-term trend",
+      "Debt Service Ratios - Debt service burden for the private non-financial sector",
+      "Global Liquidity Indicators - Foreign currency credit to non-residents",
+      "OTC Derivatives Statistics - Over-the-counter derivatives markets",
+      "Exchange-Traded Derivatives - Exchange-traded derivatives statistics",
+      "Residential Property Prices - Real and nominal residential property price indices",
+      "Commercial Property Prices - Commercial property price indices",
+      "Consumer Price Indices - Consumer price inflation measures",
+      "Effective Exchange Rates - Nominal and real effective exchange rates",
+      "Central Bank Total Assets - Evolution of central banks' balance sheets",
+      "Central Bank Policy Rates - Policy interest rates set by central banks",
+      "Payment Statistics - Retail payment instruments and systems",
+      "Triennial Central Bank Survey - FX and OTC interest rate derivatives turnover"
+    ],
+    "zh": [
+      "区位银行统计 - 基于居住地的国际银行业活动",
+      "合并银行统计 - 国际活跃银行集团的全球合并头寸",
+      "债务证券统计 - 债务证券的发行和未偿余额",
+      "非金融部门信贷 - 政府和私人非金融部门的借款",
+      "信贷与GDP缺口 - 信贷与GDP比率偏离长期趋势",
+      "债务偿付比率 - 私人非金融部门的债务偿付负担",
+      "全球流动性指标 - 对非居民的外币信贷",
+      "场外衍生品统计 - 场外衍生品市场",
+      "交易所交易衍生品 - 交易所交易衍生品统计",
+      "住宅房地产价格 - 实际和名义住宅房地产价格指数",
+      "商业房地产价格 - 商业房地产价格指数",
+      "消费者价格指数 - 消费者价格通胀衡量指标",
+      "有效汇率 - 名义和实际有效汇率",
+      "中央银行总资产 - 中央银行资产负债表的演变",
+      "中央银行政策利率 - 中央银行设定的政策利率",
+      "支付统计 - 零售支付工具和系统",
+      "三年一次中央银行调查 - 外汇和场外利率衍生品交易量"
+    ]
+  },
+  "authority_level": "government"
+}

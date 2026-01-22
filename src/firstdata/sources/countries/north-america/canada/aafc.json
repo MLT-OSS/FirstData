@@ -1,0 +1,73 @@
+{
+  "id": "aafc",
+  "name": {
+    "en": "Agriculture and Agri-Food Canada",
+    "zh": "加拿大农业与农业食品部",
+    "native": "Agriculture et Agroalimentaire Canada"
+  },
+  "description": {
+    "en": "Agriculture and Agri-Food Canada (AAFC) is the federal department responsible for policies and programs that support the Canadian agriculture and agri-food sector. AAFC provides comprehensive agricultural data, research, and statistics through its open data portal, including satellite-based crop inventories, land use time series, agri-environmental spatial data, and market information. The department supports innovation, competitiveness, sustainable practices, and market development for Canadian agriculture.",
+    "zh": "加拿大农业与农业食品部（AAFC）是负责支持加拿大农业和农业食品行业政策和计划的联邦部门。AAFC 通过其开放数据门户提供全面的农业数据、研究和统计信息，包括基于卫星的作物清单、土地利用时间序列、农业环境空间数据和市场信息。该部门支持加拿大农业的创新、竞争力、可持续实践和市场发展。"
+  },
+  "website": "https://agriculture.canada.ca/en",
+  "data_url": "https://open.canada.ca/data/en/organization/aafc-aac",
+  "api_url": "https://agriculture.canada.ca/en/science/scientific-collaboration/open-data",
+  "country": "CA",
+  "domains": [
+    "Agriculture",
+    "Crop Production",
+    "Land Use",
+    "Geospatial Data",
+    "Environmental Monitoring",
+    "Agricultural Economics",
+    "Food Security",
+    "Agricultural Research",
+    "Market Information"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "agriculture",
+    "canada",
+    "crop-inventory",
+    "land-use",
+    "geospatial",
+    "satellite-imagery",
+    "environmental-data",
+    "agricultural-statistics",
+    "open-data",
+    "government",
+    "soil-quality",
+    "market-information",
+    "agricultural-research",
+    "census-agriculture",
+    "food-security"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Crop Inventory - Yearly digital maps of crop types across Canada generated from satellite imagery (2009-present)",
+      "Land Use Time Series - Historical land use classification data from 2000-2021",
+      "Agri-Environmental Spatial Data (AESD) - Farm-level variables and spatial distribution of agricultural production activities from Census of Agriculture",
+      "Agricultural Production Statistics - Production volumes, yields, and acreage data for major crops",
+      "Market Information - Commodity prices, trade data, and market analysis",
+      "Climate and Weather Data - Agricultural climate indices and growing season information",
+      "Soil Quality Data - Soil classification, organic carbon content, and agricultural soil health indicators",
+      "Agricultural Programs Data - Information on funding programs, business risk management, and support services",
+      "Research Publications - Scientific studies and technical reports on agricultural innovation",
+      "Geographic Boundaries - Census agricultural regions and ecological zones"
+    ],
+    "zh": [
+      "年度作物清单 - 基于卫星影像生成的加拿大各地作物类型年度数字地图（2009年至今）",
+      "土地利用时间序列 - 2000-2021年历史土地利用分类数据",
+      "农业环境空间数据 (AESD) - 来自农业普查的农场级变量和农业生产活动空间分布",
+      "农业生产统计 - 主要作物的产量、单产和种植面积数据",
+      "市场信息 - 商品价格、贸易数据和市场分析",
+      "气候和天气数据 - 农业气候指数和生长季节信息",
+      "土壤质量数据 - 土壤分类、有机碳含量和农业土壤健康指标",
+      "农业项目数据 - 资金项目、业务风险管理和支持服务信息",
+      "研究出版物 - 农业创新的科学研究和技术报告",
+      "地理边界 - 农业普查区域和生态区"
+    ]
+  },
+  "authority_level": "government"
+}

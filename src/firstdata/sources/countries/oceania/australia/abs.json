@@ -1,0 +1,84 @@
+{
+  "id": "australia-abs",
+  "name": {
+    "en": "Australian Bureau of Statistics",
+    "zh": "澳大利亚统计局"
+  },
+  "description": {
+    "en": "Australia's national statistical agency providing trusted official statistics on a wide range of economic, social, population and environmental matters. The ABS conducts the Census of Population and Housing every five years and provides comprehensive data through surveys, administrative data integration, and innovative satellite-based measurement methods.",
+    "zh": "澳大利亚国家统计局,提供涵盖经济、社会、人口和环境事务的可信官方统计数据。ABS每五年进行一次人口和住房普查,并通过调查、行政数据整合和创新的卫星测量方法提供全面的数据。"
+  },
+  "website": "https://www.abs.gov.au",
+  "data_url": "https://www.abs.gov.au",
+  "api_url": "https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis/data-api-user-guide",
+  "country": "AU",
+  "domains": [
+    "demographics",
+    "economics",
+    "health",
+    "environment",
+    "population",
+    "housing",
+    "employment",
+    "business",
+    "trade",
+    "agriculture",
+    "education",
+    "innovation",
+    "government-finance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "australia",
+    "national-statistics",
+    "census",
+    "demographics",
+    "economic-indicators",
+    "population-data",
+    "labour-statistics",
+    "health-statistics",
+    "agricultural-data",
+    "environmental-data",
+    "open-data",
+    "api-available",
+    "creative-commons",
+    "government-data",
+    "oceania"
+  ],
+  "data_content": {
+    "en": [
+      "Census of Population and Housing - comprehensive population count every 5 years",
+      "National accounts and economic indicators - GDP, inflation, trade",
+      "Labour force statistics - employment, unemployment, wages",
+      "Population estimates and projections",
+      "Health surveys and statistics - Australian Health Survey",
+      "Agricultural statistics - including satellite-based irrigation water estimates",
+      "Business statistics and dynamics",
+      "Education and training data",
+      "Environmental statistics - energy, water, conservation",
+      "Research and development expenditure",
+      "Government finance statistics",
+      "Social statistics - wellbeing, family, community",
+      "Housing and construction data",
+      "Regional and geographic data with boundary files"
+    ],
+    "zh": [
+      "人口和住房普查 - 每5年一次的全面人口统计",
+      "国民账户和经济指标 - GDP、通货膨胀、贸易",
+      "劳动力统计 - 就业、失业、工资",
+      "人口估计和预测",
+      "健康调查和统计 - 澳大利亚健康调查",
+      "农业统计 - 包括基于卫星的灌溉用水估算",
+      "商业统计和动态",
+      "教育和培训数据",
+      "环境统计 - 能源、水资源、保护",
+      "研发支出",
+      "政府财政统计",
+      "社会统计 - 福祉、家庭、社区",
+      "住房和建筑数据",
+      "区域和地理数据及边界文件"
+    ]
+  },
+  "authority_level": "government"
+}

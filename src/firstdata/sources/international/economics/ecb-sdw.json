@@ -1,0 +1,76 @@
+{
+  "id": "ecb-sdw",
+  "name": {
+    "en": "ECB Statistical Data Warehouse (ECB Data Portal)",
+    "zh": "欧洲央行统计数据仓库"
+  },
+  "description": {
+    "en": "The ECB Data Portal (formerly Statistical Data Warehouse) provides comprehensive access to all official statistics published by the European Central Bank and the European System of Central Banks. It offers extensive economic and financial data for the euro area, including monetary policy statistics, balance of payments, government finance, banking statistics, and financial market indicators. The portal implements the SDMX 2.1 standard for data dissemination and provides both web interface and programmatic API access to support research, policy analysis, and economic monitoring.",
+    "zh": "欧洲央行数据门户(原统计数据仓库)提供对欧洲央行和欧洲中央银行体系发布的所有官方统计数据的全面访问。它提供欧元区广泛的经济和金融数据,包括货币政策统计、国际收支、政府财政、银行统计和金融市场指标。该门户采用 SDMX 2.1 标准进行数据传播,提供网页界面和程序化 API 访问,支持研究、政策分析和经济监测。"
+  },
+  "website": "https://www.ecb.europa.eu",
+  "data_url": "https://data.ecb.europa.eu/",
+  "api_url": "https://data.ecb.europa.eu/help/api/overview",
+  "country": null,
+  "domains": [
+    "Monetary Policy",
+    "Banking Statistics",
+    "Balance of Payments",
+    "Government Finance",
+    "Financial Markets",
+    "Exchange Rates",
+    "Interest Rates",
+    "Financial Stability",
+    "Banking Supervision",
+    "National Accounts"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "daily",
+  "tags": [
+    "european-central-bank",
+    "monetary-policy",
+    "euro-area",
+    "financial-statistics",
+    "banking-statistics",
+    "exchange-rates",
+    "government-finance",
+    "balance-of-payments",
+    "sdmx",
+    "financial-stability",
+    "interest-rates",
+    "economic-indicators",
+    "central-banking",
+    "eurozone"
+  ],
+  "data_content": {
+    "en": [
+      "Monetary Policy Statistics - Interest rates, monetary aggregates, minimum reserve requirements",
+      "Exchange Rates - Euro foreign exchange reference rates, effective exchange rates",
+      "Balance of Payments - Current account, capital account, financial account statistics",
+      "Government Finance - Government debt, deficit statistics, Maastricht criteria indicators",
+      "Banking Statistics - Consolidated banking data, monetary financial institutions balance sheets",
+      "Financial Markets - Bond yields, stock market indices, financial derivatives",
+      "National Accounts - GDP, consumption, investment, trade statistics for euro area",
+      "Financial Stability Indicators - Banking sector stability, systemic risk measures",
+      "Banking Supervision - Supervisory statistics, capital adequacy ratios",
+      "Wage Tracker - Compensation indicators for euro area countries",
+      "Securities Holdings Statistics - Portfolio investment positions",
+      "Payment Systems - TARGET2 statistics, payment instruments data"
+    ],
+    "zh": [
+      "货币政策统计 - 利率、货币总量、最低准备金要求",
+      "汇率 - 欧元外汇参考汇率、有效汇率",
+      "国际收支 - 经常账户、资本账户、金融账户统计",
+      "政府财政 - 政府债务、赤字统计、马斯特里赫特标准指标",
+      "银行统计 - 综合银行数据、货币金融机构资产负债表",
+      "金融市场 - 债券收益率、股票市场指数、金融衍生品",
+      "国民账户 - 欧元区 GDP、消费、投资、贸易统计",
+      "金融稳定指标 - 银行业稳定性、系统性风险度量",
+      "银行监管 - 监管统计、资本充足率",
+      "工资追踪 - 欧元区国家薪酬指标",
+      "证券持有统计 - 投资组合持仓",
+      "支付系统 - TARGET2 统计、支付工具数据"
+    ]
+  },
+  "authority_level": "government"
+}

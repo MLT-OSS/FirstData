@@ -1,0 +1,79 @@
+{
+  "id": "usa-eia",
+  "name": {
+    "en": "U.S. Energy Information Administration",
+    "zh": "美国能源信息署"
+  },
+  "description": {
+    "en": "The U.S. Energy Information Administration (EIA) is the statistical and analytical agency within the U.S. Department of Energy. EIA collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides comprehensive data on energy production, consumption, prices, and projections across all energy sources including petroleum, natural gas, coal, nuclear, renewable energy, and electricity.",
+    "zh": "美国能源信息署(EIA)是美国能源部下属的统计和分析机构。EIA收集、分析和传播独立公正的能源信息，以促进合理的政策制定、高效的市场运作以及公众对能源及其与经济和环境互动的理解。EIA提供涵盖所有能源来源的全面数据，包括石油、天然气、煤炭、核能、可再生能源和电力的生产、消费、价格和预测数据。"
+  },
+  "website": "https://www.eia.gov",
+  "data_url": "https://www.eia.gov",
+  "api_url": "https://www.eia.gov/opendata/documentation.php",
+  "country": "US",
+  "domains": [
+    "energy",
+    "petroleum",
+    "natural gas",
+    "coal",
+    "electricity",
+    "nuclear energy",
+    "renewable energy",
+    "environment",
+    "economics",
+    "markets"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "energy",
+    "petroleum",
+    "natural-gas",
+    "coal",
+    "electricity",
+    "renewable-energy",
+    "nuclear-energy",
+    "united-states",
+    "government",
+    "official-statistics",
+    "time-series",
+    "api",
+    "open-data"
+  ],
+  "data_content": {
+    "en": [
+      "Petroleum & Other Liquids - crude oil, gasoline, heating oil, diesel, propane, biofuels, natural gas liquids",
+      "Natural Gas - exploration, reserves, storage, production, prices, imports/exports",
+      "Electricity - sales, revenue, prices, power plants, generation, fuel use, demand, emissions",
+      "Coal - reserves, production, prices, employment, distribution, stocks, imports/exports",
+      "Nuclear & Uranium - uranium fuel, nuclear reactors, generation, spent fuel",
+      "Renewable & Alternative Fuels - hydropower, solar, wind, geothermal, biomass, ethanol",
+      "Total Energy - comprehensive summaries, comparisons, analysis, projections",
+      "Consumption & Efficiency - energy use in residential, commercial, industrial, transportation sectors",
+      "Analysis & Projections - Short-Term Energy Outlook (STEO), Annual Energy Outlook (AEO), International Energy Outlook (IEO)",
+      "Energy Markets & Finance - crude oil markets, wholesale electricity markets",
+      "Energy Disruptions - monitoring and analysis of energy supply disruptions",
+      "International Energy Data - global energy statistics and country profiles",
+      "CO2 Emissions - carbon dioxide emissions from energy consumption",
+      "State Energy Data System (SEDS) - state-level energy production, consumption, prices"
+    ],
+    "zh": [
+      "石油及其他液体 - 原油、汽油、取暖油、柴油、丙烷、生物燃料、天然气液体",
+      "天然气 - 勘探、储量、储存、生产、价格、进出口",
+      "电力 - 销售、收入、价格、发电厂、发电量、燃料使用、需求、排放",
+      "煤炭 - 储量、生产、价格、就业、分销、库存、进出口",
+      "核能与铀 - 铀燃料、核反应堆、发电、乏燃料",
+      "可再生与替代燃料 - 水电、太阳能、风能、地热、生物质、乙醇",
+      "总能源 - 综合汇总、比较、分析、预测",
+      "消费与效率 - 住宅、商业、工业、交通部门的能源使用",
+      "分析与预测 - 短期能源展望(STEO)、年度能源展望(AEO)、国际能源展望(IEO)",
+      "能源市场与金融 - 原油市场、批发电力市场",
+      "能源中断 - 能源供应中断的监测和分析",
+      "国际能源数据 - 全球能源统计和国家概况",
+      "二氧化碳排放 - 能源消费产生的二氧化碳排放",
+      "州能源数据系统(SEDS) - 州级能源生产、消费、价格"
+    ]
+  },
+  "authority_level": "government"
+}

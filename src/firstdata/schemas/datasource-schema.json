@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://firstdata.org/schemas/firstdata-v2.json",
+  "title": "FirstData Metadata Schema (Simplified)",
+  "description": "Simplified schema for describing authoritative data sources - removes complex nested structures and quality scoring",
+  "version": "2.0.0",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "website",
+    "data_url",
+    "authority_level",
+    "domains",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (lowercase, hyphen-separated)",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": ["china-nbs", "worldbank-open-data", "hkex"]
+    },
+    "name": {
+      "type": "object",
+      "description": "Data source name in multiple languages",
+      "required": ["en"],
+      "properties": {
+        "en": {
+          "type": "string",
+          "description": "English name"
+        },
+        "zh": {
+          "type": "string",
+          "description": "Chinese name"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "description": "Detailed description of the data source",
+      "required": ["en"],
+      "properties": {
+        "en": {
+          "type": "string",
+          "description": "English description"
+        },
+        "zh": {
+          "type": "string",
+          "description": "Chinese description"
+        }
+      }
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Organization homepage URL (top-level website)"
+    },
+    "data_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct URL to data access page (not organization homepage - should point to data query/download interface)"
+    },
+    "api_url": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "API documentation or endpoint URL. Set to null if no API is available."
+    },
+    "authority_level": {
+      "type": "string",
+      "description": "Authority level of the data source organization",
+      "enum": [
+        "government",
+        "international",
+        "market",
+        "research",
+        "commercial",
+        "other"
+      ]
+    },
+    "country": {
+      "type": ["string", "null"],
+      "description": "ISO 3166-1 alpha-2 country code. Only use this field when the data source clearly belongs to a specific country AND geographic_scope is 'national' or 'subnational'. MUST be null when geographic_scope is 'global' or 'regional'.",
+      "pattern": "^[A-Z]{2}$",
+      "examples": ["CN", "US", "HK", "JP", null]
+    },
+    "domains": {
+      "type": "array",
+      "description": "Data domains covered by this source",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "examples": [
+        ["finance", "economics"],
+        ["health", "social"],
+        ["environment", "climate"]
+      ]
+    },
+    "geographic_scope": {
+      "type": "string",
+      "description": "Geographic coverage level",
+      "enum": ["global", "regional", "national", "subnational"]
+    },
+    "update_frequency": {
+      "type": "string",
+      "description": "Data update frequency",
+      "enum": [
+        "real-time",
+        "daily",
+        "weekly",
+        "monthly",
+        "quarterly",
+        "annual",
+        "irregular"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Search tags - mixed Chinese/English keywords, synonyms, data types, and related terms for improved discoverability",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "examples": [
+        ["gdp", "经济增长", "economic-growth"],
+        ["ipo", "招股书", "prospectus", "上市公司"]
+      ]
+    },
+    "data_content": {
+      "type": "object",
+      "description": "Detailed descriptions of data categories and content available from this source",
+      "properties": {
+        "en": {
+          "type": "array",
+          "description": "English data content descriptions",
+          "items": {
+            "type": "string"
+          }
+        },
+        "zh": {
+          "type": "array",
+          "description": "Chinese data content descriptions",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

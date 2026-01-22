@@ -1,0 +1,80 @@
+{
+  "id": "cambridge-structural-database",
+  "name": {
+    "en": "Cambridge Structural Database (CSD)",
+    "zh": "剑桥晶体结构数据库"
+  },
+  "description": {
+    "en": "The Cambridge Structural Database (CSD) is the world's largest repository for experimentally derived small-molecule organic and metal-organic crystal structures, curated since 1965. Maintained by the Cambridge Crystallographic Data Centre (CCDC), the database now contains over 1.39 million crystal structures from published literature, direct deposition, patents, and PhD theses. The CSD is CoreTrustSeal certified and recognized as a trusted data repository. It serves as a fundamental resource for pharmaceutical drug discovery and development, agrochemical research, materials science, metal-organic frameworks (MOFs), catalysis research, and academic crystallography. The database provides comprehensive structural chemistry data, software, and insights used by thousands of scientists globally in both commercial and academic research.",
+    "zh": "剑桥晶体结构数据库（CSD）是世界上最大的实验衍生小分子有机和金属有机晶体结构库，自1965年以来持续整理。该数据库由剑桥晶体学数据中心（CCDC）维护，目前包含来自发表文献、直接提交、专利和博士论文的超过139万个晶体结构。CSD 获得 CoreTrustSeal 认证，被认定为可信数据存储库。它是制药药物发现与开发、农药研究、材料科学、金属有机框架（MOFs）、催化研究和学术晶体学的基础资源。该数据库为全球数千名科学家提供全面的结构化学数据、软件和见解，广泛应用于商业和学术研究。"
+  },
+  "website": "https://www.ccdc.cam.ac.uk",
+  "data_url": "https://www.ccdc.cam.ac.uk",
+  "api_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
+  "country": null,
+  "domains": [
+    "Crystallography",
+    "Structural Chemistry",
+    "Pharmaceutical Sciences",
+    "Drug Discovery",
+    "Drug Development",
+    "Agrochemical Research",
+    "Materials Science",
+    "Metal-Organic Frameworks",
+    "Catalysis",
+    "Functional Materials",
+    "Organic Chemistry",
+    "Inorganic Chemistry"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "crystallography",
+    "structural-chemistry",
+    "crystal-structures",
+    "small-molecules",
+    "organic-chemistry",
+    "metal-organic-frameworks",
+    "pharmaceutical",
+    "drug-discovery",
+    "drug-development",
+    "materials-science",
+    "agrochemical",
+    "catalysis",
+    "polymorphs",
+    "molecular-geometry",
+    "chemical-bonding",
+    "conformational-analysis",
+    "x-ray-crystallography",
+    "academic-research",
+    "commercial-research",
+    "coretrustseal-certified"
+  ],
+  "data_content": {
+    "en": [
+      "Organic Structures - Drugs and pharmaceuticals, agrochemicals, pigments, explosives, protein ligands",
+      "Metal-Organic Structures - Metal Organic Frameworks (MOFs), catalyst models, porous frameworks for gas storage, fundamental chemical bonding",
+      "Polymorph Families - 13,478 polymorph families",
+      "Physical Properties - 174,987 melting points, 1,075,904 crystal colours, 951,746 crystal shapes",
+      "Bioactivity Data - 30,275 bioactivity details, 13,641 natural source data",
+      "Chemical Data - >350,000 oxidation states",
+      "Data Subsets - DrugBank, Druglike, MOFs, PDB ligands, PubChem, ChemSpider, Pesticide PDB",
+      "Crystallographic Data - Full 3D atomic coordinates, unit cell parameters, space groups, bond lengths and angles",
+      "Chemical Bonds and Interactions - Hydrogen bonds, pi-pi interactions, coordination geometries",
+      "Conformational Data - Molecular conformations and torsion angles"
+    ],
+    "zh": [
+      "有机结构 - 药物和医药品、农药、颜料、爆炸物、蛋白质配体",
+      "金属有机结构 - 金属有机框架（MOFs）、催化剂模型、气体存储多孔框架、基础化学键合",
+      "多晶型家族 - 13,478 个多晶型家族",
+      "物理性质 - 174,987 个熔点、1,075,904 个晶体颜色、951,746 个晶体形状",
+      "生物活性数据 - 30,275 个生物活性详情、13,641 个天然来源数据",
+      "化学数据 - >350,000 个氧化态",
+      "数据子集 - DrugBank、类药物、MOFs、PDB配体、PubChem、ChemSpider、农药PDB",
+      "晶体学数据 - 完整的3D原子坐标、晶胞参数、空间群、键长和键角",
+      "化学键和相互作用 - 氢键、π-π相互作用、配位几何",
+      "构象数据 - 分子构象和扭转角"
+    ]
+  },
+  "authority_level": "research"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "us-cdc",
+  "name": {
+    "en": "Centers for Disease Control and Prevention",
+    "zh": "美国疾病控制与预防中心"
+  },
+  "description": {
+    "en": "CDC is the nation's leading science-based, data-driven, service organization that protects the public's health. CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Through its WONDER (Wide-ranging Online Data for Epidemiologic Research) online databases and other data systems, CDC provides public access to comprehensive health surveillance data, vital statistics, disease reporting, environmental health data, and population health information. The data supports research, policy development, and public health practice across infectious diseases, chronic diseases, injuries, environmental health, and health equity.",
+    "zh": "CDC是美国领先的基于科学、数据驱动的公共卫生服务机构。CDC全天候保护美国免受国内外健康、安全和安全威胁。通过其WONDER（流行病学研究广泛在线数据）在线数据库和其他数据系统，CDC提供公众访问全面的健康监测数据、生命统计、疾病报告、环境健康数据和人口健康信息。这些数据支持传染病、慢性病、伤害、环境健康和健康公平等领域的研究、政策制定和公共卫生实践。"
+  },
+  "website": "https://www.cdc.gov/",
+  "data_url": "https://wonder.cdc.gov/",
+  "api_url": "https://wonder.cdc.gov/wonder/help/wonder-api.html",
+  "country": "US",
+  "domains": [
+    "Public Health",
+    "Infectious Diseases",
+    "Chronic Diseases",
+    "Vital Statistics",
+    "Mortality",
+    "Natality",
+    "Environmental Health",
+    "Cancer",
+    "Tuberculosis",
+    "Sexually Transmitted Diseases",
+    "Vaccine Safety",
+    "Population Health",
+    "Health Equity",
+    "Disease Surveillance",
+    "Epidemiology"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "weekly",
+  "tags": [
+    "public-health",
+    "health-statistics",
+    "mortality",
+    "natality",
+    "infectious-diseases",
+    "chronic-diseases",
+    "vital-statistics",
+    "epidemiology",
+    "disease-surveillance",
+    "cancer",
+    "tuberculosis",
+    "std",
+    "vaccine-safety",
+    "environmental-health",
+    "climate-health",
+    "population-health",
+    "health-equity",
+    "us-government",
+    "cdc-wonder",
+    "births",
+    "deaths"
+  ],
+  "data_content": {
+    "en": [
+      "Mortality Data - Underlying and multiple causes of death, infant deaths, fetal deaths, compressed mortality files",
+      "Natality - Birth statistics including maternal health, infant characteristics, and birth trends",
+      "Cancer Statistics - Incidence, mortality, and survival data from cancer registries",
+      "Infectious Disease Surveillance - AIDS, tuberculosis, sexually transmitted diseases, national notifiable conditions",
+      "Environmental Health - Heat wave days, air temperatures, land surface temperatures, fine particulate matter, precipitation, sunlight exposure",
+      "Vaccine Safety - Vaccine Adverse Event Reporting System (VAERS) data",
+      "Population Estimates - Bridged-race population, single-race population, population projections",
+      "National Notifiable Diseases Surveillance System (NNDSS) - Weekly and annual disease reporting data",
+      "Climate and Health - Temperature, precipitation, air quality data linked to health outcomes",
+      "Geographic Health Data - State, county, and metropolitan area health statistics"
+    ],
+    "zh": [
+      "死亡率数据 - 基础和多重死因、婴儿死亡、胎儿死亡、压缩死亡率档案",
+      "出生统计 - 包括孕产妇健康、婴儿特征和出生趋势",
+      "癌症统计 - 来自癌症登记处的发病率、死亡率和存活数据",
+      "传染病监测 - 艾滋病、结核病、性传播疾病、国家应报告疾病",
+      "环境健康 - 热浪天数、气温、地表温度、细颗粒物、降水、阳光暴露",
+      "疫苗安全 - 疫苗不良事件报告系统(VAERS)数据",
+      "人口估计 - 桥接种族人口、单一种族人口、人口预测",
+      "国家应报告疾病监测系统(NNDSS) - 每周和年度疾病报告数据",
+      "气候与健康 - 与健康结果相关的温度、降水、空气质量数据",
+      "地理健康数据 - 州、县和都市区健康统计"
+    ]
+  },
+  "authority_level": "government"
+}

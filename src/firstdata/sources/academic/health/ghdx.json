@@ -1,0 +1,71 @@
+{
+  "id": "ghdx",
+  "name": {
+    "en": "Global Health Data Exchange (GHDx)",
+    "zh": "全球健康数据交换平台"
+  },
+  "description": {
+    "en": "The Global Health Data Exchange (GHDx) is the world's most comprehensive catalog of surveys, censuses, vital statistics, and other health-related data. Created and supported by IHME, it provides a centralized place for researchers, policymakers, and health practitioners to discover and access health and demographic data from around the world. The catalog includes both IHME-produced estimates from the Global Burden of Disease (GBD) study and data from external organizations covering surveys, registries, administrative health data, and financial data related to health.",
+    "zh": "全球健康数据交换平台(GHDx)是世界上最全面的调查、人口普查、生命统计和其他健康相关数据目录。由IHME创建和支持，为研究人员、政策制定者和健康从业者提供一个集中的平台来发现和访问全球健康和人口数据。该目录既包括IHME从全球疾病负担(GBD)研究中产生的估算数据，也包括来自外部组织的调查、登记、行政健康数据和健康相关财务数据。"
+  },
+  "website": "https://www.healthdata.org/",
+  "data_url": "https://ghdx.healthdata.org/",
+  "api_url": "https://ghdx.healthdata.org/ihme-api",
+  "country": null,
+  "domains": [
+    "health",
+    "demographics",
+    "epidemiology",
+    "mortality",
+    "disease burden",
+    "health financing",
+    "risk factors",
+    "health systems"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "global health",
+    "disease burden",
+    "GBD",
+    "IHME",
+    "mortality",
+    "epidemiology",
+    "health metrics",
+    "DALYs",
+    "life expectancy",
+    "health financing",
+    "risk factors",
+    "vaccination",
+    "health surveys",
+    "vital statistics",
+    "demographic data"
+  ],
+  "data_content": {
+    "en": [
+      "Global Burden of Disease (GBD) - Mortality, morbidity, DALYs, risk factors for 369 diseases and injuries across 204 countries",
+      "Cause-Specific Mortality - Deaths by specific causes, age-standardized rates, years of life lost",
+      "Demographics - Population estimates, life expectancy, fertility rates, migration data",
+      "Health Financing - Health spending by country, development assistance for health, health expenditure forecasts",
+      "Risk Factors - Exposure to behavioral, environmental, and metabolic risks; risk-attributable burden",
+      "Disease-Specific Estimates - Chronic diseases, infectious diseases, maternal and child health, mental health, injuries",
+      "Vaccination Coverage - Routine childhood immunization rates, coverage forecasts",
+      "Healthcare Performance - Health system efficiency, quality indicators, access metrics",
+      "Surveys and Censuses - Demographic and Health Surveys, vital registration, population censuses",
+      "Subnational Data - County and province-level estimates for select countries"
+    ],
+    "zh": [
+      "全球疾病负担(GBD) - 204个国家369种疾病和伤害的死亡率、发病率、伤残调整生命年、风险因素",
+      "特定原因死亡率 - 特定原因导致的死亡、年龄标准化率、生命损失年",
+      "人口统计 - 人口估算、预期寿命、生育率、迁移数据",
+      "健康融资 - 各国卫生支出、健康发展援助、卫生支出预测",
+      "风险因素 - 行为、环境和代谢风险暴露；风险归因负担",
+      "疾病特异性估算 - 慢性病、传染病、孕产妇和儿童健康、心理健康、伤害",
+      "疫苗接种覆盖率 - 常规儿童免疫接种率、覆盖率预测",
+      "医疗保健绩效 - 卫生系统效率、质量指标、获取指标",
+      "调查和人口普查 - 人口与健康调查、生命登记、人口普查",
+      "次国家数据 - 特定国家的县级和省级估算"
+    ]
+  },
+  "authority_level": "research"
+}

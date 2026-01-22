@@ -1,0 +1,78 @@
+{
+  "id": "iea-energy-data",
+  "name": {
+    "en": "IEA Energy Data",
+    "zh": "国际能源署能源数据",
+    "native": "IEA Energy Data"
+  },
+  "description": {
+    "en": "The IEA Energy Data Centre provides the world's most authoritative and comprehensive source of global energy data. Covers energy supply and demand, energy balances, prices, RD&D, efficiency measures, and energy-related indicators across 150+ countries. Time series stretches back to 1971 and currently covers up to 95% of global energy supply. Created in 1974 to coordinate collective response to energy supply disruptions, the IEA has evolved to take an all-fuels, all-technology approach to energy security, affordability and sustainability.",
+    "zh": "国际能源署能源数据中心提供全球最权威和最全面的能源数据来源。涵盖150多个国家的能源供需、能源平衡、价格、研发投入、能效措施和能源相关指标。时间序列可追溯至1971年,目前覆盖全球95%的能源供应。IEA成立于1974年,旨在协调应对能源供应中断,现已发展为采用全燃料、全技术方法来确保能源安全、可负担性和可持续性。"
+  },
+  "website": "https://www.iea.org",
+  "data_url": "https://www.iea.org/data-and-statistics",
+  "api_url": "https://www.iea.org/documentation",
+  "country": null,
+  "domains": [
+    "energy",
+    "climate",
+    "economics",
+    "environment"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "energy",
+    "electricity",
+    "oil",
+    "gas",
+    "renewables",
+    "climate",
+    "emissions",
+    "energy-efficiency",
+    "energy-policy",
+    "iea",
+    "energy-statistics",
+    "energy-transition",
+    "international-organization",
+    "energy-data",
+    "oecd"
+  ],
+  "data_content": {
+    "en": [
+      "World Energy Statistics & Balances - comprehensive energy supply and demand data",
+      "Monthly Oil Data Service - detailed oil market statistics",
+      "Monthly Electricity Statistics - electricity production and trade data",
+      "Monthly Gas Statistics - natural gas statistics for OECD countries",
+      "Emissions Factors - GHG emission factors from electricity and heat generation",
+      "Energy prices and taxes data",
+      "Energy efficiency indicators",
+      "Renewable energy statistics",
+      "Energy RD&D budget data",
+      "Critical minerals and energy transition data",
+      "Global LNG capacity tracking",
+      "Energy policies database",
+      "Energy technology indicators",
+      "Data explorers and interactive visualizations",
+      "Chart library with all IEA published charts"
+    ],
+    "zh": [
+      "世界能源统计与平衡 - 综合能源供需数据",
+      "月度石油数据服务 - 详细的石油市场统计",
+      "月度电力统计 - 电力生产和贸易数据",
+      "月度天然气统计 - OECD国家天然气统计",
+      "排放因子 - 电力和热力生产的温室气体排放因子",
+      "能源价格和税收数据",
+      "能源效率指标",
+      "可再生能源统计",
+      "能源研发预算数据",
+      "关键矿产和能源转型数据",
+      "全球LNG产能跟踪",
+      "能源政策数据库",
+      "能源技术指标",
+      "数据探索器和交互式可视化",
+      "包含所有IEA发布图表的图表库"
+    ]
+  },
+  "authority_level": "international"
+}

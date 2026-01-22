@@ -1,0 +1,77 @@
+{
+  "$schema": "https://firstdata.org/schemas/firstdata-v2.json",
+  "id": "china-lcd-association",
+  "name": {
+    "en": "China Optoelectronic Display Association - Liquid Crystal Division (CODA)",
+    "zh": "中国光学光电子行业协会液晶分会"
+  },
+  "description": {
+    "en": "CODA is the national industry association for China's display industry, established in 1996 under the guidance of the Ministry of Industry and Information Technology. It provides authoritative data and analysis on LCD, OLED, and Micro-LED panel capacity, production value, market trends, and technology development. CODA publishes regular industry reports, market forecasts, and coordinates international cooperation through the World Display Industry Cooperation Committee (WDICC). The association serves over 500 member companies including major panel manufacturers, materials suppliers, equipment makers, research institutions, and universities.",
+    "zh": "中国光学光电子行业协会液晶分会（CODA）是中国显示行业唯一的国家级行业协会，成立于1996年7月，由工业和信息化部作为业务指导单位。协会提供LCD、OLED和Micro-LED面板产能、产值、市场趋势和技术发展的权威数据与分析。CODA定期发布行业报告、市场预测，并通过世界显示产业合作委员会（WDICC）协调国际合作。协会服务超过500家会员单位，包括大中型显示器件制造厂商、材料制造商、设备制造商、科研机构和高等院校。"
+  },
+  "website": "http://www.coda.org.cn/",
+  "data_url": "http://www.coda.org.cn/#/details/more?type=list-info&id=61b1c9ec105e35101858fc49&bannerId=61b30eaa105e353264b3f083",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "manufacturing",
+    "electronics",
+    "technology",
+    "market-research"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "LCD",
+    "OLED",
+    "Micro-LED",
+    "液晶面板",
+    "显示面板",
+    "panel capacity",
+    "面板产能",
+    "TFT-LCD",
+    "AMOLED",
+    "display industry",
+    "显示产业",
+    "面板制造",
+    "panel manufacturing",
+    "驱动芯片",
+    "driver IC",
+    "display technology",
+    "显示技术",
+    "产业数据",
+    "industry statistics",
+    "market forecast",
+    "市场预测",
+    "CODA",
+    "光电子",
+    "optoelectronics"
+  ],
+  "data_content": {
+    "en": [
+      "Panel production capacity data for LCD, OLED, and Micro-LED technologies",
+      "Annual production value and market share statistics for China's display industry",
+      "Global and domestic panel shipment area and volume data",
+      "Display driver IC market analysis and pricing trends",
+      "Industry reports on technology roadmaps and innovation trends",
+      "Market forecasts for TFT-LCD and AMOLED panel segments",
+      "Member company directory including major panel manufacturers and suppliers",
+      "International cooperation reports through WDICC (World Display Industry Cooperation Committee)",
+      "Environmental and sustainability initiatives in the display industry",
+      "Industry conference and exhibition information (DIC EXPO, DIC FORUM)"
+    ],
+    "zh": [
+      "LCD、OLED和Micro-LED技术的面板产能数据",
+      "中国显示产业年度产值和市场份额统计",
+      "全球及国内面板出货面积和出货量数据",
+      "显示驱动芯片市场分析和价格趋势",
+      "技术路线图和创新趋势的行业报告",
+      "TFT-LCD和AMOLED面板细分市场预测",
+      "会员企业名录，包括主要面板制造商和供应商",
+      "通过世界显示产业合作委员会（WDICC）的国际合作报告",
+      "显示产业的环保和可持续发展举措",
+      "行业会议和展览信息（DIC EXPO、DIC FORUM）"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "afdb",
+  "name": {
+    "en": "African Development Bank",
+    "zh": "非洲开发银行"
+  },
+  "description": {
+    "en": "The African Development Bank (AfDB) provides comprehensive statistical data and development indicators for African countries. The bank's statistics department maintains the Africa Information Highway (AIH), a mega network of open data platforms covering all African countries and 16 regional organizations. It offers socio-economic data, project information, and development statistics to support evidence-based policymaking and monitor development progress across Africa.",
+    "zh": "非洲开发银行（AfDB）提供全面的非洲国家统计数据和发展指标。该银行统计部门维护非洲信息高速公路（AIH），这是一个覆盖所有非洲国家和16个区域组织的开放数据平台大型网络。它提供社会经济数据、项目信息和发展统计数据，以支持基于证据的政策制定并监测非洲的发展进展。"
+  },
+  "website": "https://www.afdb.org",
+  "data_url": "https://www.afdb.org/en/knowledge/statistics",
+  "api_url": "http://dataportal.opendataforafrica.org/",
+  "country": null,
+  "domains": [
+    "Development Finance",
+    "Economic Statistics",
+    "Social Development",
+    "Infrastructure",
+    "Agriculture",
+    "Energy",
+    "Climate Change",
+    "Governance",
+    "Health",
+    "Education"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "annual",
+  "tags": [
+    "development-finance",
+    "africa",
+    "economic-development",
+    "social-development",
+    "infrastructure",
+    "SDGs",
+    "multilateral-development-bank",
+    "open-data",
+    "project-data",
+    "IATI"
+  ],
+  "data_content": {
+    "en": [
+      "Socio-Economic Database: Agriculture, debt, economic indicators, energy, financial flows, governance, ICT, infrastructure, national accounts, prices, production, public finance (1960-2024)",
+      "Bank Operations and Project Data: All AfDB lending projects from 1967 onwards with financial information and IATI-compliant results",
+      "Country Policy and Institutional Assessment (CPIA): Biennial policy quality and institutional framework assessments for 54 African countries",
+      "SDGs Data Hubs: Sustainable Development Goals monitoring data for Africa",
+      "Statistical Publications: Compendium of Statistics on Bank Group Operations and AfDB Statistics Pocketbook"
+    ],
+    "zh": [
+      "社会经济数据库：农业、债务、经济指标、能源、金融流动、治理、ICT、基础设施、国民账户、价格、生产、公共财政（1960-2024）",
+      "银行业务和项目数据：自1967年以来所有非洲开发银行贷款项目及财务信息和符合IATI标准的成果",
+      "国家政策和制度评估（CPIA）：对54个非洲国家的政策质量和制度框架进行两年一次的评估",
+      "可持续发展目标数据中心：非洲可持续发展目标监测数据",
+      "统计出版物：银行集团业务统计汇编和非洲开发银行统计手册"
+    ]
+  },
+  "authority_level": "international"
+}

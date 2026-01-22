@@ -1,0 +1,70 @@
+{
+  "id": "intl-copernicus-cdse",
+  "name": {
+    "en": "Copernicus Data Space Ecosystem",
+    "zh": "哥白尼数据空间生态系统"
+  },
+  "description": {
+    "en": "The Copernicus Data Space Ecosystem is Europe's flagship Earth observation platform, providing free and open access to satellite imagery and data from Copernicus Sentinel missions and Contributing Missions. It offers immediate access to the full historical archive of Sentinel satellite data (from 2014 to present) with powerful cloud-based processing capabilities. The platform succeeded the Copernicus Open Access Hub in 2023, providing enhanced data access, visualization, and analysis tools including APIs, openEO services, and JupyterLab environments.",
+    "zh": "哥白尼数据空间生态系统是欧洲旗舰地球观测平台,提供来自哥白尼哨兵卫星任务和贡献任务的免费开放卫星影像和数据。该平台提供从2014年至今完整的哨兵卫星历史数据档案的即时访问,并具有强大的云端处理能力。该平台于2023年接替了哥白尼开放访问中心,提供增强的数据访问、可视化和分析工具,包括API、openEO服务和JupyterLab环境。"
+  },
+  "website": "https://www.copernicus.eu",
+  "data_url": "https://dataspace.copernicus.eu",
+  "api_url": "https://documentation.dataspace.copernicus.eu",
+  "country": null,
+  "domains": [
+    "Earth Observation",
+    "Remote Sensing",
+    "Climate Change",
+    "Land Monitoring",
+    "Ocean Monitoring",
+    "Atmosphere Monitoring",
+    "Emergency Management",
+    "Agriculture",
+    "Forestry"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "satellite",
+    "earth-observation",
+    "remote-sensing",
+    "sentinel",
+    "copernicus",
+    "esa",
+    "european-union",
+    "climate",
+    "land-monitoring",
+    "ocean-monitoring",
+    "atmosphere",
+    "geospatial",
+    "open-data"
+  ],
+  "data_content": {
+    "en": [
+      "Sentinel-1 SAR (Synthetic Aperture Radar) data - SLC and GRD products",
+      "Sentinel-2 Multispectral imagery - L1C and L2A (Collection 1)",
+      "Sentinel-3 Ocean and land monitoring data",
+      "Sentinel-5P Atmospheric composition data",
+      "Copernicus Contributing Missions data",
+      "Landsat data collections",
+      "Copernicus Land Monitoring Service products",
+      "Copernicus Marine Environment Monitoring Service data",
+      "MODIS data",
+      "Global and regional mosaics"
+    ],
+    "zh": [
+      "哨兵1号合成孔径雷达(SAR)数据 - SLC和GRD产品",
+      "哨兵2号多光谱影像 - L1C和L2A(集合1)",
+      "哨兵3号海洋和陆地监测数据",
+      "哨兵5P号大气成分数据",
+      "哥白尼贡献任务数据",
+      "陆地卫星数据集",
+      "哥白尼陆地监测服务产品",
+      "哥白尼海洋环境监测服务数据",
+      "MODIS数据",
+      "全球和区域镶嵌数据"
+    ]
+  },
+  "authority_level": "international"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "china-csrc",
+  "name": {
+    "en": "China Securities Regulatory Commission",
+    "zh": "中国证券监督管理委员会",
+    "native": "中国证券监督管理委员会"
+  },
+  "description": {
+    "en": "The China Securities Regulatory Commission (CSRC) is the primary regulator of the securities and futures markets in China. It provides comprehensive data on capital markets including stock market statistics, IPO data, listed company information, bond market data, futures market statistics, fund industry data, and regulatory enforcement actions.",
+    "zh": "中国证券监督管理委员会是中国证券期货市场的主要监管机构。提供全面的资本市场数据，包括股票市场统计、IPO数据、上市公司信息、债券市场数据、期货市场统计、基金行业数据和监管执法行动。"
+  },
+  "website": "http://www.csrc.gov.cn",
+  "data_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "securities",
+    "capital_markets"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "securities",
+    "stock-market",
+    "ipo",
+    "listed-companies",
+    "capital-markets",
+    "regulation",
+    "csrc"
+  ],
+  "data_content": {
+    "en": [
+      "Stock Market Statistics - Market capitalization, trading volume, stock indices, and turnover by exchange",
+      "Initial Public Offerings (IPOs) - IPO approvals, issuance data, fundraising amounts, and listing statistics",
+      "Listed Companies - Number of listed companies, financial disclosures, corporate governance, and delisting data",
+      "Bond Market - Corporate bonds, government bonds, issuance and trading volumes",
+      "Futures Market - Futures trading volumes, open interest, commodity and financial futures statistics",
+      "Fund Industry - Mutual funds, ETFs, private equity funds, fund net asset value, and fund flows",
+      "Securities Firms - Brokerage statistics, underwriting data, asset management, and financial performance",
+      "Investor Statistics - Number of investor accounts, investor structure, and trading behavior",
+      "Regulatory Actions - Enforcement cases, penalties, inspections, and compliance statistics"
+    ],
+    "zh": [
+      "股票市场统计 - 市值、交易量、股票指数和按交易所分类的成交额",
+      "首次公开发行(IPO) - IPO审批、发行数据、募资金额和上市统计",
+      "上市公司 - 上市公司数量、财务披露、公司治理和退市数据",
+      "债券市场 - 公司债券、政府债券、发行和交易量",
+      "期货市场 - 期货交易量、持仓量、商品和金融期货统计",
+      "基金行业 - 公募基金、ETF、私募基金、基金净值和资金流向",
+      "证券公司 - 经纪业务统计、承销数据、资产管理和财务表现",
+      "投资者统计 - 投资者账户数量、投资者结构和交易行为",
+      "监管行动 - 执法案件、处罚、检查和合规统计"
+    ]
+  },
+  "authority_level": "government"
+}

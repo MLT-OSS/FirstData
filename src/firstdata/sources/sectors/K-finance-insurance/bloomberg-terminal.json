@@ -1,0 +1,71 @@
+{
+  "id": "bloomberg-terminal",
+  "name": {
+    "en": "Bloomberg Terminal (Public Data)",
+    "zh": "彭博终端（部分公开数据）"
+  },
+  "description": {
+    "en": "Bloomberg Terminal is the world's leading financial data platform providing real-time and historical market data, news, analytics, and trading tools. While the full terminal requires a subscription (approximately $24,000/year), Bloomberg offers limited public access to market data through bloomberg.com including stock quotes, indices, commodities prices, currency exchange rates, and financial news. The public interface provides basic market information for global equities, bonds, currencies, and commodities, along with business news and market analysis.",
+    "zh": "彭博终端是全球领先的金融数据平台，提供实时和历史市场数据、新闻、分析和交易工具。虽然完整的终端需要订阅（约每年 24,000 美元），但彭博通过 bloomberg.com 提供有限的公共市场数据访问，包括股票报价、指数、大宗商品价格、货币汇率和金融新闻。公共界面提供全球股票、债券、货币和大宗商品的基本市场信息，以及商业新闻和市场分析。"
+  },
+  "website": "https://www.bloomberg.com",
+  "data_url": "https://www.bloomberg.com/markets",
+  "api_url": "https://www.bloomberg.com/professional/support/api-library/",
+  "country": null,
+  "domains": [
+    "Equities",
+    "Fixed Income",
+    "Currencies",
+    "Commodities",
+    "Derivatives",
+    "Economic Data",
+    "Financial News",
+    "Corporate Fundamentals",
+    "ESG Data"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "real-time",
+  "tags": [
+    "financial-markets",
+    "stock-market",
+    "real-time-data",
+    "bonds",
+    "forex",
+    "commodities",
+    "derivatives",
+    "economic-data",
+    "financial-news",
+    "commercial",
+    "subscription-based",
+    "professional-trading",
+    "market-data",
+    "terminal"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time stock quotes and indices (NYSE, NASDAQ, LSE, TSE, HKEX, etc.)",
+      "Bond prices and yields (government bonds, corporate bonds, municipal bonds)",
+      "Foreign exchange rates (170+ currencies, real-time and historical)",
+      "Commodities prices (energy, metals, agriculture)",
+      "Derivatives data (options, futures, swaps)",
+      "Economic indicators (GDP, inflation, employment, trade data)",
+      "Corporate financials (income statements, balance sheets, cash flows)",
+      "Financial news and analysis (Bloomberg News, market commentary)",
+      "ESG ratings and sustainability data",
+      "Analyst estimates and recommendations"
+    ],
+    "zh": [
+      "实时股票报价和指数（纽交所、纳斯达克、伦敦证交所、东京证交所、港交所等）",
+      "债券价格和收益率（政府债券、公司债券、市政债券）",
+      "外汇汇率（170+ 种货币，实时和历史数据）",
+      "大宗商品价格（能源、金属、农产品）",
+      "衍生品数据（期权、期货、掉期）",
+      "经济指标（GDP、通货膨胀、就业、贸易数据）",
+      "企业财务数据（损益表、资产负债表、现金流量表）",
+      "金融新闻和分析（彭博新闻、市场评论）",
+      "ESG 评级和可持续发展数据",
+      "分析师预测和建议"
+    ]
+  },
+  "authority_level": "commercial"
+}

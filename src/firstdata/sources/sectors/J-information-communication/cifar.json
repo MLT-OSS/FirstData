@@ -1,0 +1,56 @@
+{
+  "id": "cifar",
+  "name": {
+    "en": "CIFAR-10 and CIFAR-100",
+    "zh": "CIFAR-10 和 CIFAR-100 数据集"
+  },
+  "description": {
+    "en": "CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dataset, widely used as benchmark datasets for machine learning and computer vision research. CIFAR-10 consists of 60,000 32x32 color images in 10 classes (6,000 images per class), with 50,000 training images and 10,000 test images. CIFAR-100 contains 100 classes with 600 images each (500 training, 100 testing per class), organized into 20 superclasses. Created by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton, these datasets have become foundational benchmarks for evaluating image classification algorithms.",
+    "zh": "CIFAR-10 和 CIFAR-100 是 8000 万微小图像数据集的标注子集，广泛用作机器学习和计算机视觉研究的基准数据集。CIFAR-10 包含 60,000 张 32x32 彩色图像，分为 10 个类别（每类 6,000 张图像），其中 50,000 张训练图像和 10,000 张测试图像。CIFAR-100 包含 100 个类别，每类 600 张图像（每类 500 张训练图像，100 张测试图像），组织成 20 个超类。这些数据集由 Alex Krizhevsky、Vinod Nair 和 Geoffrey Hinton 创建，已成为评估图像分类算法的基础性基准。"
+  },
+  "website": "https://www.cs.toronto.edu",
+  "data_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Computer Vision",
+    "Deep Learning",
+    "Machine Learning",
+    "Image Classification",
+    "Object Recognition",
+    "Artificial Intelligence"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "computer-vision",
+    "deep-learning",
+    "image-classification",
+    "machine-learning",
+    "benchmark-dataset",
+    "object-recognition",
+    "convolutional-neural-networks",
+    "academic-research",
+    "tiny-images",
+    "supervised-learning"
+  ],
+  "data_content": {
+    "en": [
+      "CIFAR-10 - 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck",
+      "CIFAR-100 - 100 fine-grained classes grouped into 20 superclasses",
+      "Training Data - 50,000 images for CIFAR-10, 50,000 images for CIFAR-100",
+      "Test Data - 10,000 images for CIFAR-10, 10,000 images for CIFAR-100",
+      "Image Format - 32x32 pixel color images (RGB)",
+      "Superclasses (CIFAR-100) - aquatic mammals, fish, flowers, food containers, fruit and vegetables, household devices, furniture, insects, carnivores, outdoor things, natural scenes, omnivores/herbivores, medium mammals, invertebrates, people, reptiles, small mammals, trees, vehicles"
+    ],
+    "zh": [
+      "CIFAR-10 - 10 个类别：飞机、汽车、鸟、猫、鹿、狗、青蛙、马、船、卡车",
+      "CIFAR-100 - 100 个细粒度类别，分为 20 个超类",
+      "训练数据 - CIFAR-10 50,000 张图像，CIFAR-100 50,000 张图像",
+      "测试数据 - CIFAR-10 10,000 张图像，CIFAR-100 10,000 张图像",
+      "图像格式 - 32x32 像素彩色图像（RGB）",
+      "超类（CIFAR-100）- 水生哺乳动物、鱼类、花卉、食品容器、水果蔬菜、家用电器、家具、昆虫、食肉动物、户外物体、自然景观、杂食/食草动物、中型哺乳动物、无脊椎动物、人类、爬行动物、小型哺乳动物、树木、交通工具"
+    ]
+  },
+  "authority_level": "research"
+}

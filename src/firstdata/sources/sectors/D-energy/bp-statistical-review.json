@@ -1,0 +1,86 @@
+{
+  "id": "bp-statistical-review",
+  "name": {
+    "en": "Statistical Review of World Energy",
+    "zh": "世界能源统计年鉴"
+  },
+  "description": {
+    "en": "The Energy Institute Statistical Review of World Energy™ analyses data on world energy markets from the prior year. Previously produced by bp (British Petroleum) since 1952, the Review has been continued by the Energy Institute since 2024, providing timely, comprehensive and objective data to the energy community. The Review covers global energy statistics including production, consumption, trade, and prices across all major energy sources: coal, oil, natural gas, nuclear, hydroelectric, and renewable energy. In collaboration with KPMG, Kearney, Heriot-Watt University, and with support from S&P Global Commodity Insights and bp.",
+    "zh": "能源研究所世界能源统计年鉴™分析上一年度世界能源市场数据。该年鉴自1952年起由bp（英国石油公司）编制，自2024年起由能源研究所继续出版，为能源界提供及时、全面和客观的数据。该年鉴涵盖全球能源统计数据，包括所有主要能源的生产、消费、贸易和价格：煤炭、石油、天然气、核能、水力发电和可再生能源。与毕马威、科尔尼、赫瑞瓦特大学合作，并得到标普全球大宗商品洞察和bp的支持。"
+  },
+  "website": "https://www.energyinst.org",
+  "data_url": "https://www.energyinst.org/statistical-review",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Energy",
+    "Energy Economics",
+    "Energy Statistics",
+    "Energy Production",
+    "Energy Consumption",
+    "Energy Trade",
+    "Renewable Energy",
+    "Fossil Fuels",
+    "Climate Change",
+    "Energy Transition"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "energy",
+    "energy-statistics",
+    "energy-economics",
+    "coal",
+    "oil",
+    "natural-gas",
+    "nuclear-energy",
+    "renewable-energy",
+    "hydroelectric",
+    "solar-energy",
+    "wind-energy",
+    "electricity",
+    "carbon-emissions",
+    "climate-change",
+    "energy-transition",
+    "energy-security",
+    "fossil-fuels",
+    "energy-consumption",
+    "energy-production",
+    "energy-trade",
+    "bp",
+    "energy-institute"
+  ],
+  "data_content": {
+    "en": [
+      "Coal - Production, consumption, reserves, prices, and trade statistics",
+      "Oil - Production, consumption, refining capacity, reserves, prices, and trade flows",
+      "Natural Gas - Production, consumption, reserves, LNG trade, and prices",
+      "Nuclear Energy - Installed capacity, electricity generation, and consumption",
+      "Hydroelectric Power - Installed capacity and electricity generation",
+      "Renewable Energy - Solar, wind, biofuels, geothermal electricity generation and capacity",
+      "Electricity - Generation by fuel type, consumption, and access statistics",
+      "Primary Energy - Total energy supply and consumption by country and fuel type",
+      "Carbon Emissions - Energy-related CO2 emissions by country and fuel source",
+      "Energy Intensity - Energy consumption per unit of GDP",
+      "Energy Security - Import dependency, avoided fossil fuel use, and energy independence metrics",
+      "Energy Transition - Renewable energy share, fossil fuel avoidance, and system efficiency metrics",
+      "Country Transition Tracker - Country-level energy transition progress indicators"
+    ],
+    "zh": [
+      "煤炭 - 产量、消费量、储量、价格和贸易统计",
+      "石油 - 产量、消费量、炼油能力、储量、价格和贸易流量",
+      "天然气 - 产量、消费量、储量、液化天然气贸易和价格",
+      "核能 - 装机容量、发电量和消费量",
+      "水力发电 - 装机容量和发电量",
+      "可再生能源 - 太阳能、风能、生物燃料、地热发电量和装机容量",
+      "电力 - 按燃料类型分类的发电量、消费量和电力普及率统计",
+      "一次能源 - 按国家和燃料类型分类的总能源供应和消费",
+      "碳排放 - 按国家和燃料来源分类的能源相关二氧化碳排放",
+      "能源强度 - 单位GDP能源消费",
+      "能源安全 - 进口依赖度、避免使用化石燃料和能源独立性指标",
+      "能源转型 - 可再生能源份额、化石燃料避免和系统效率指标",
+      "国家转型追踪器 - 国家级能源转型进展指标"
+    ]
+  },
+  "authority_level": "market"
+}

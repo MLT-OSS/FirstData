@@ -1,0 +1,83 @@
+{
+  "id": "aus-aihw",
+  "name": {
+    "en": "Australian Institute of Health and Welfare",
+    "zh": "澳大利亚健康与福利研究所"
+  },
+  "description": {
+    "en": "The AIHW is an independent statutory Australian Government agency producing authoritative and accessible information and statistics to inform and support better policy and service delivery decisions, leading to better health and wellbeing for all Australians. The Institute collects, manages, and reports information on a wide range of health and welfare topics including health and welfare expenditure, hospitals, disease and injury, mental health, ageing, homelessness, disability, and child protection.",
+    "zh": "澳大利亚健康与福利研究所(AIHW)是澳大利亚政府独立法定机构，负责提供权威且易于获取的信息和统计数据，以支持更好的政策制定和服务提供决策，从而改善所有澳大利亚人的健康和福祉。该机构收集、管理和报告广泛的健康和福利主题信息，包括健康和福利支出、医院、疾病和伤害、心理健康、老龄化、无家可归、残疾和儿童保护。"
+  },
+  "website": "https://www.aihw.gov.au/",
+  "data_url": "https://www.aihw.gov.au/",
+  "api_url": "https://www.aihw.gov.au/reports-data/myhospitals/content/api",
+  "country": "AU",
+  "domains": [
+    "Health",
+    "Welfare",
+    "Hospitals",
+    "Mental health",
+    "Aged care",
+    "Disability",
+    "Child protection",
+    "Homelessness",
+    "Housing",
+    "Indigenous health",
+    "Alcohol and drugs",
+    "Disease and injury",
+    "Mortality"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "health",
+    "welfare",
+    "hospitals",
+    "Australia",
+    "government",
+    "mental-health",
+    "aged-care",
+    "disability",
+    "indigenous-health",
+    "child-protection",
+    "public-health",
+    "social-services"
+  ],
+  "data_content": {
+    "en": [
+      "Hospital activity and performance data",
+      "Disease prevalence and mortality statistics",
+      "Mental health services and outcomes",
+      "Aged care services and quality indicators",
+      "Disability support services",
+      "Child protection statistics",
+      "Homelessness and housing assistance data",
+      "Indigenous health and wellbeing indicators",
+      "Alcohol, tobacco and other drugs statistics",
+      "Health and welfare expenditure",
+      "Chronic disease monitoring",
+      "Suicide and self-harm data",
+      "Family, domestic and sexual violence statistics",
+      "Perinatal health data",
+      "Cancer incidence and survival rates"
+    ],
+    "zh": [
+      "医院活动和绩效数据",
+      "疾病患病率和死亡率统计",
+      "心理健康服务和成果",
+      "老年护理服务和质量指标",
+      "残疾支持服务",
+      "儿童保护统计",
+      "无家可归和住房援助数据",
+      "原住民健康和福祉指标",
+      "酒精、烟草和其他药物统计",
+      "健康和福利支出",
+      "慢性病监测",
+      "自杀和自我伤害数据",
+      "家庭、家庭暴力和性暴力统计",
+      "围产期健康数据",
+      "癌症发病率和生存率"
+    ]
+  },
+  "authority_level": "government"
+}

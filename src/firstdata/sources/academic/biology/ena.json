@@ -1,0 +1,80 @@
+{
+  "id": "ena",
+  "name": {
+    "en": "European Nucleotide Archive",
+    "zh": "欧洲核苷酸档案库"
+  },
+  "description": {
+    "en": "The European Nucleotide Archive (ENA) provides a comprehensive record of the world's nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation. As part of the International Nucleotide Sequence Database Collaboration (INSDC) alongside NCBI GenBank and DDBJ, ENA serves as a globally comprehensive data resource preserving the world's public-domain output of sequence data. It offers an open, supported platform for the management, sharing, integration, archiving and dissemination of sequence data to support the global life sciences community.",
+    "zh": "欧洲核苷酸档案库(ENA)提供世界核苷酸测序信息的综合记录，涵盖原始测序数据、序列组装信息和功能注释。作为国际核苷酸序列数据库协作组织(INSDC)的成员之一（与NCBI GenBank和DDBJ并列），ENA是保存全球公共领域序列数据输出的全球综合数据资源。它为全球生命科学界提供开放、支持的序列数据管理、共享、整合、归档和传播平台。"
+  },
+  "website": "https://www.ebi.ac.uk",
+  "data_url": "https://www.ebi.ac.uk/ena/browser/",
+  "api_url": "https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html",
+  "country": null,
+  "domains": [
+    "Genomics",
+    "Transcriptomics",
+    "Metagenomics",
+    "Molecular Biology",
+    "Bioinformatics",
+    "Biodiversity",
+    "Environmental Sciences",
+    "Healthcare",
+    "Pathogen Surveillance"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "nucleotide sequences",
+    "DNA",
+    "RNA",
+    "genomics",
+    "sequencing",
+    "bioinformatics",
+    "INSDC",
+    "EMBL-EBI",
+    "genome assembly",
+    "metagenomics",
+    "transcriptomics",
+    "biodiversity",
+    "pathogen surveillance",
+    "open data",
+    "life sciences"
+  ],
+  "data_content": {
+    "en": [
+      "Raw nucleotide sequencing reads",
+      "Genome assemblies",
+      "Transcriptome assemblies",
+      "Annotated sequences",
+      "Coding sequences (CDS)",
+      "Non-coding RNA sequences",
+      "Metagenomics data",
+      "Whole genome shotgun sequences",
+      "Environmental samples",
+      "Pathogen genome sequences",
+      "Functional annotations",
+      "Sequence metadata",
+      "Taxonomy classifications",
+      "Cross-references to related databases"
+    ],
+    "zh": [
+      "原始核苷酸测序读数",
+      "基因组组装",
+      "转录组组装",
+      "注释序列",
+      "编码序列(CDS)",
+      "非编码RNA序列",
+      "宏基因组数据",
+      "全基因组散弹枪测序",
+      "环境样本",
+      "病原体基因组序列",
+      "功能注释",
+      "序列元数据",
+      "分类学分类",
+      "相关数据库交叉引用"
+    ]
+  },
+  "authority_level": "international"
+}

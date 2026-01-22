@@ -1,0 +1,86 @@
+{
+  "id": "cgiar-research-data",
+  "name": {
+    "en": "CGIAR Research Data",
+    "zh": "国际农业研究磋商组织研究数据"
+  },
+  "description": {
+    "en": "CGIAR is a global research partnership for a food-secure future, dedicated to transforming food, land, and water systems in a climate crisis. The CGIAR research data ecosystem includes GARDIAN (Global Agricultural Research Data Innovation and Acceleration Network), a pan-CGIAR data search and discoverability portal that allows datasets, publications, and crop varieties across all 15 centers and 11 gene banks to be easily found. The platform harvests from ~40 separate open data and publication repositories, providing access to nearly 100,000 publications and 3,000+ datasets covering agricultural research for development (AR4D) globally.",
+    "zh": "国际农业研究磋商组织（CGIAR）是一个致力于粮食安全未来的全球研究伙伴关系，专注于在气候危机中转变粮食、土地和水资源系统。CGIAR 研究数据生态系统包括 GARDIAN（全球农业研究数据创新与加速网络），这是一个泛 CGIAR 数据搜索和发现门户，可以轻松找到所有 15 个中心和 11 个基因库的数据集、出版物和作物品种。该平台从约 40 个独立的开放数据和出版物仓库中采集数据，提供近 100,000 篇出版物和 3,000 多个数据集的访问，覆盖全球农业发展研究（AR4D）。"
+  },
+  "website": "https://www.cgiar.org",
+  "data_url": "https://gardian.cgiar.org/",
+  "api_url": "https://cgspace.cgiar.org/rest",
+  "country": null,
+  "domains": [
+    "Agriculture",
+    "Food Security",
+    "Climate Change Adaptation",
+    "Agricultural Biodiversity",
+    "Crop Science",
+    "Livestock Systems",
+    "Water Resources Management",
+    "Soil Science",
+    "Genetics and Genomics",
+    "Sustainable Intensification",
+    "Nutrition",
+    "Agricultural Economics",
+    "Agricultural Policy",
+    "Agroforestry"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "agriculture",
+    "food-security",
+    "climate-change",
+    "crop-science",
+    "genetic-resources",
+    "sustainable-agriculture",
+    "international-research",
+    "cgiar",
+    "germplasm",
+    "gene-banks",
+    "agricultural-biodiversity",
+    "open-access",
+    "fair-data",
+    "research-publications",
+    "geospatial",
+    "climate-adaptation",
+    "livestock",
+    "water-resources",
+    "soil-science",
+    "nutrition"
+  ],
+  "data_content": {
+    "en": [
+      "Research Publications - Peer-reviewed articles, working papers, technical reports on agricultural research",
+      "Datasets - Crop performance trials, genetic resources, soil surveys, climate data, household surveys",
+      "Germplasm and Gene Bank Data - Information on genetic resources and crop varieties from 11 international gene banks",
+      "Geospatial Data - Maps, remote sensing data, GIS layers for agricultural landscapes",
+      "Climate and Weather Data - Historical and projected climate data relevant to agriculture",
+      "Socioeconomic Surveys - Household and farm surveys, market data, agricultural economics",
+      "Crop Modeling Data - Simulation outputs, calibration datasets for crop growth models",
+      "Biodiversity Data - Species distributions, ecosystem services, agrobiodiversity assessments",
+      "Livestock Data - Animal health, breeding programs, pastoral systems research",
+      "Water Resources - Irrigation efficiency, water quality, watershed management data",
+      "Soil Data - Soil fertility, soil carbon, land degradation assessments",
+      "Nutrition Data - Crop nutritional content, dietary diversity, food composition"
+    ],
+    "zh": [
+      "研究出版物 - 同行评审文章、工作论文、农业研究技术报告",
+      "数据集 - 作物性能试验、遗传资源、土壤调查、气候数据、家庭调查",
+      "种质资源和基因库数据 - 来自 11 个国际基因库的遗传资源和作物品种信息",
+      "地理空间数据 - 农业景观的地图、遥感数据、GIS 图层",
+      "气候和天气数据 - 与农业相关的历史和预测气候数据",
+      "社会经济调查 - 家庭和农场调查、市场数据、农业经济学",
+      "作物建模数据 - 模拟输出、作物生长模型的校准数据集",
+      "生物多样性数据 - 物种分布、生态系统服务、农业生物多样性评估",
+      "畜牧业数据 - 动物健康、育种计划、牧区系统研究",
+      "水资源 - 灌溉效率、水质、流域管理数据",
+      "土壤数据 - 土壤肥力、土壤碳、土地退化评估",
+      "营养数据 - 作物营养成分、膳食多样性、食物成分"
+    ]
+  },
+  "authority_level": "international"
+}

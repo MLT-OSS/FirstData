@@ -1,0 +1,58 @@
+{
+  "id": "imagenet",
+  "name": {
+    "en": "ImageNet",
+    "zh": "ImageNet 图像数据库"
+  },
+  "description": {
+    "en": "ImageNet is a large-scale image database organized according to the WordNet hierarchy. It contains over 14 million images spanning more than 21,000 synsets (synonym sets). The most widely-used subset is the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2012-2017 dataset, which includes 1,000 object classes with 1.28 million training images, 50,000 validation images, and 100,000 test images. ImageNet has been instrumental in advancing computer vision and deep learning research.",
+    "zh": "ImageNet 是一个按照 WordNet 层次结构组织的大规模图像数据库。包含超过 1400 万张图像，涵盖 21,000 多个同义词集。最广泛使用的子集是 ImageNet 大规模视觉识别挑战赛（ILSVRC）2012-2017 数据集，包含 1,000 个对象类别，128 万训练图像、5 万验证图像和 10 万测试图像。ImageNet 在推动计算机视觉和深度学习研究方面发挥了重要作用。"
+  },
+  "website": "https://www.image-net.org",
+  "data_url": "https://www.image-net.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Computer Vision",
+    "Deep Learning",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Image Classification",
+    "Object Recognition"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "computer-vision",
+    "deep-learning",
+    "image-classification",
+    "machine-learning",
+    "benchmark-dataset",
+    "object-recognition",
+    "convolutional-neural-networks",
+    "transfer-learning",
+    "academic-research",
+    "visual-recognition"
+  ],
+  "data_content": {
+    "en": [
+      "Image Classification - 1,000 object categories (ILSVRC subset)",
+      "Object Localization - Bounding box annotations for objects",
+      "Visual Recognition - 21,841 synsets covering diverse concepts",
+      "Training Data - 1,281,167 labeled training images",
+      "Validation Data - 50,000 validation images with ground truth",
+      "Test Data - 100,000 test images for benchmarking",
+      "WordNet Hierarchy - Structured organization of visual concepts"
+    ],
+    "zh": [
+      "图像分类 - 1,000 个对象类别（ILSVRC 子集）",
+      "对象定位 - 对象边界框标注",
+      "视觉识别 - 21,841 个同义词集覆盖多样化概念",
+      "训练数据 - 1,281,167 张已标注训练图像",
+      "验证数据 - 50,000 张带真实标签的验证图像",
+      "测试数据 - 100,000 张用于基准测试的测试图像",
+      "WordNet 层次结构 - 视觉概念的结构化组织"
+    ]
+  },
+  "authority_level": "research"
+}

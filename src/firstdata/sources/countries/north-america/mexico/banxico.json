@@ -1,0 +1,82 @@
+{
+  "id": "mx-banxico",
+  "name": {
+    "en": "Bank of Mexico Economic Information System",
+    "zh": "墨西哥银行经济信息系统",
+    "native": "Sistema de Información Económica - Banco de México"
+  },
+  "description": {
+    "en": "The Bank of Mexico (Banco de México, Banxico) is Mexico's central bank, responsible for monetary policy, financial stability, and maintaining low and stable inflation. The Economic Information System (SIE) provides comprehensive economic and financial statistics covering monetary policy, exchange rates, interest rates, inflation, banking, payment systems, balance of payments, and economic indicators.",
+    "zh": "墨西哥银行（Banco de México，简称Banxico）是墨西哥的中央银行，负责货币政策、金融稳定以及维持低而稳定的通货膨胀。经济信息系统（SIE）提供全面的经济和金融统计数据，涵盖货币政策、汇率、利率、通胀、银行业、支付系统、国际收支和经济指标。"
+  },
+  "website": "https://www.banxico.org.mx",
+  "data_url": "https://www.banxico.org.mx",
+  "api_url": "https://www.banxico.org.mx/SieAPIRest/service/v1/",
+  "country": "MX",
+  "domains": [
+    "monetary_policy",
+    "financial_markets",
+    "banking",
+    "payment_systems",
+    "exchange_rates",
+    "inflation",
+    "balance_of_payments",
+    "public_finance",
+    "production",
+    "labor_market"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "central_bank",
+    "monetary_policy",
+    "exchange_rates",
+    "interest_rates",
+    "inflation",
+    "financial_statistics",
+    "banking",
+    "payment_systems",
+    "balance_of_payments",
+    "Mexico",
+    "Latin_America",
+    "time_series",
+    "API"
+  ],
+  "data_content": {
+    "en": [
+      "Monetary Policy: Target interest rate, interbank equilibrium interest rate (TIIE), money market rates",
+      "Exchange Rates: Daily FIX rate, auction results, historical foreign exchange market data",
+      "Banking & Finance: Commercial and development bank statistics, financing, capitalization (264 data structures)",
+      "Payment Systems: SPEI high-value payments, CoDi low-value payments, transaction statistics",
+      "Inflation & Prices: Consumer price index (CPI), core inflation, producer price index, UDIS investment units",
+      "Government Securities: CETES treasury certificates, auctions, placements, outstanding securities",
+      "Monetary Aggregates: M1, M2, M3, M4, domestic financial assets",
+      "International Reserves: Daily reserves in millions of USD, international assets",
+      "Balance of Payments: International transactions, trade balance, capital flows (78 data structures)",
+      "Public Finance: Government revenue, expenditure, debt statistics",
+      "Production: Industrial production, manufacturing, economic activity indicators (107 data structures)",
+      "Labor Market: Employment, unemployment, wage statistics",
+      "Banknotes & Coins: Currency circulation, production, withdrawal statistics",
+      "Surveys: Economic expectations of private sector specialists",
+      "Mexican Oil Fund: Statistics for fund managed by Banxico as fiduciary"
+    ],
+    "zh": [
+      "货币政策：目标利率、银行间均衡利率(TIIE)、货币市场利率",
+      "汇率：每日FIX汇率、拍卖结果、历史外汇市场数据",
+      "银行与金融：商业银行和开发银行统计、融资、资本化(264个数据结构)",
+      "支付系统：SPEI大额支付、CoDi小额支付、交易统计",
+      "通胀与价格：消费者价格指数(CPI)、核心通胀、生产者价格指数、UDIS投资单位",
+      "政府证券：CETES国库券、拍卖、发行、流通证券",
+      "货币总量：M1、M2、M3、M4、国内金融资产",
+      "国际储备：每日百万美元储备、国际资产",
+      "国际收支：国际交易、贸易平衡、资本流动(78个数据结构)",
+      "公共财政：政府收入、支出、债务统计",
+      "生产：工业生产、制造业、经济活动指标(107个数据结构)",
+      "劳动力市场：就业、失业、工资统计",
+      "纸币与硬币：货币流通、生产、提取统计",
+      "调查：私营部门专家的经济预期",
+      "墨西哥石油基金：Banxico作为受托人管理的基金统计"
+    ]
+  },
+  "authority_level": "government"
+}

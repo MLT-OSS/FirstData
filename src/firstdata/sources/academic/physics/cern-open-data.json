@@ -1,0 +1,83 @@
+{
+  "id": "cern-open-data",
+  "name": {
+    "en": "CERN Open Data Portal",
+    "zh": "CERN 开放数据门户"
+  },
+  "description": {
+    "en": "The CERN Open Data portal is the access point to a growing range of data produced through research performed at CERN. It disseminates the preserved output from various research activities, including collision data from the Large Hadron Collider (LHC) experiments. The portal provides over 5 petabytes of particle physics data from experiments including ALICE, ATLAS, CMS, DELPHI, LHCb, OPERA, PHENIX, and TOTEM, along with accompanying software, documentation, and analysis tools. Data products follow established global standards in data preservation and Open Science, with DOI identifiers for citations.",
+    "zh": "CERN 开放数据门户是获取 CERN 研究活动产生的各类数据的入口。它发布来自大型强子对撞机（LHC）实验的碰撞数据等多种研究输出。该门户提供超过 5 PB 的粒子物理数据，涵盖 ALICE、ATLAS、CMS、DELPHI、LHCb、OPERA、PHENIX 和 TOTEM 等实验，并配有软件、文档和分析工具。数据产品遵循全球数据保存和开放科学标准，带有 DOI 标识符以便引用。"
+  },
+  "website": "https://www.cern.ch",
+  "data_url": "https://opendata.cern.ch/",
+  "api_url": "https://github.com/cernopendata/opendata.cern.ch",
+  "country": null,
+  "domains": [
+    "Particle Physics",
+    "High Energy Physics",
+    "Nuclear Physics",
+    "Experimental Physics",
+    "Computational Physics",
+    "Data Science",
+    "Machine Learning"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "particle-physics",
+    "high-energy-physics",
+    "lhc",
+    "cern",
+    "experimental-physics",
+    "collision-data",
+    "higgs-boson",
+    "standard-model",
+    "nuclear-physics",
+    "open-science",
+    "research-data",
+    "physics-education",
+    "data-science",
+    "machine-learning",
+    "alice",
+    "atlas",
+    "cms",
+    "lhcb"
+  ],
+  "data_content": {
+    "en": [
+      "Collision Data - Proton-proton and heavy-ion collision events from LHC experiments",
+      "ALICE Experiment - Heavy-ion collision data and quark-gluon plasma studies",
+      "ATLAS Experiment - General-purpose detector data, 65TB+ open data releases",
+      "CMS Experiment - Collision datasets and Higgs boson discovery data",
+      "DELPHI Experiment - Complete LEP experiment data collection",
+      "LHCb Experiment - B-physics and CP violation research data",
+      "OPERA Experiment - Neutrino oscillation experimental data",
+      "PHENIX Experiment - Relativistic heavy-ion collision data",
+      "TOTEM Experiment - Total cross-section and elastic scattering data",
+      "Simulated Data - Monte Carlo simulations for various physics processes",
+      "Analysis Software - Experiment-specific software and frameworks (CMSSW, Athena, etc.)",
+      "Virtual Machines - CernVM environments for data analysis",
+      "Educational Materials - Guides, tutorials, and learning resources",
+      "Level 2 Data - Simplified formats for education and training",
+      "Level 3 Data - Reconstructed collision data for complete scientific analyses"
+    ],
+    "zh": [
+      "碰撞数据 - LHC 实验的质子-质子和重离子碰撞事件",
+      "ALICE 实验 - 重离子碰撞数据和夸克-胶子等离子体研究",
+      "ATLAS 实验 - 通用探测器数据，65TB+ 开放数据发布",
+      "CMS 实验 - 碰撞数据集和希格斯玻色子发现数据",
+      "DELPHI 实验 - 完整的 LEP 实验数据集",
+      "LHCb 实验 - B 物理和 CP 破缺研究数据",
+      "OPERA 实验 - 中微子振荡实验数据",
+      "PHENIX 实验 - 相对论性重离子碰撞数据",
+      "TOTEM 实验 - 总截面和弹性散射数据",
+      "模拟数据 - 各种物理过程的蒙特卡罗模拟",
+      "分析软件 - 实验专用软件和框架（CMSSW、Athena 等）",
+      "虚拟机 - 用于数据分析的 CernVM 环境",
+      "教育材料 - 指南、教程和学习资源",
+      "Level 2 数据 - 用于教育和培训的简化格式",
+      "Level 3 数据 - 用于完整科学分析的重建碰撞数据"
+    ]
+  },
+  "authority_level": "research"
+}

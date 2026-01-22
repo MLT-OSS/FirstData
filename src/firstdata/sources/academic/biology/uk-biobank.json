@@ -1,0 +1,76 @@
+{
+  "id": "uk-biobank",
+  "name": {
+    "en": "UK Biobank",
+    "zh": "英国生物样本库"
+  },
+  "description": {
+    "en": "UK Biobank is the world's most detailed, long-term prospective health research study and the largest biomedical database resource. It follows 500,000 volunteers (aged 40-69 at recruitment during 2006-2010) to understand who falls ill and why, enabling scientists globally to create better ways to diagnose, prevent and treat diseases. The database contains genetic, lifestyle, and health information including whole genome sequences, imaging data, biomarker data, healthcare records, and questionnaire data. Over 22,000 researchers from more than 60 countries have used UK Biobank data, resulting in over 18,000 peer-reviewed scientific publications.",
+    "zh": "英国生物样本库是世界上最详细、最长期的前瞻性健康研究和最大的生物医学数据库资源。它跟踪50万志愿者(2006-2010年招募时年龄40-69岁)以了解谁生病以及原因，使全球科学家能够创造更好的方法来诊断、预防和治疗疾病。该数据库包含遗传、生活方式和健康信息，包括全基因组序列、影像数据、生物标志物数据、医疗记录和问卷数据。来自60多个国家的超过22,000名研究人员使用了英国生物样本库数据，产生了超过18,000篇同行评审的科学出版物。"
+  },
+  "website": "https://www.ukbiobank.ac.uk/",
+  "data_url": "https://www.ukbiobank.ac.uk/",
+  "api_url": "https://github.com/UK-Biobank",
+  "country": "GB",
+  "domains": [
+    "health",
+    "genetics",
+    "genomics",
+    "epidemiology",
+    "biomarkers",
+    "medical imaging",
+    "demographics",
+    "lifestyle",
+    "proteomics",
+    "metabolomics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "biobank",
+    "genomics",
+    "genetics",
+    "medical imaging",
+    "proteomics",
+    "metabolomics",
+    "epidemiology",
+    "UK",
+    "longitudinal study",
+    "precision medicine",
+    "whole genome sequencing",
+    "biomarkers",
+    "healthcare data",
+    "cohort study",
+    "personalized medicine",
+    "disease prevention",
+    "clinical research",
+    "population health"
+  ],
+  "data_content": {
+    "en": [
+      "Imaging Data - MRI scans for 100,000 participants including brain, heart, body composition, bone density",
+      "Genetic Data - Whole genome and exome sequences for all 500,000 participants, SNP genotyping",
+      "Biomarker Data - Blood and urine biomarkers, proteomics data on 54,000 people, metabolomics on 250,000 participants",
+      "Healthcare Records - Linked hospital inpatient data, primary care records, cancer registry, death registry",
+      "Questionnaire Data - Over 2 million online health questionnaires completed covering lifestyle, diet, mental health, family history",
+      "Physical Measurements - Blood pressure, arterial stiffness, bone density, spirometry, ECG, hearing, vision tests",
+      "Demographic Data - Age, sex, ethnicity, education, employment, household composition",
+      "Lifestyle Data - Diet, physical activity, sleep, smoking, alcohol consumption, environmental exposures",
+      "Biological Samples - 15 million samples stored including blood, urine, saliva for future analysis",
+      "Environmental Data - Air pollution exposure, built environment, greenspace access"
+    ],
+    "zh": [
+      "影像数据 - 10万名参与者的MRI扫描，包括大脑、心脏、身体成分、骨密度",
+      "遗传数据 - 所有50万参与者的全基因组和外显子组序列、SNP基因分型",
+      "生物标志物数据 - 血液和尿液生物标志物、54,000人的蛋白质组学数据、250,000人的代谢组学",
+      "医疗记录 - 关联的住院患者数据、初级保健记录、癌症登记、死亡登记",
+      "问卷数据 - 超过200万份在线健康问卷，涵盖生活方式、饮食、心理健康、家族史",
+      "身体测量 - 血压、动脉僵硬度、骨密度、肺功能、心电图、听力、视力检查",
+      "人口统计数据 - 年龄、性别、种族、教育、就业、家庭组成",
+      "生活方式数据 - 饮食、体育活动、睡眠、吸烟、饮酒、环境暴露",
+      "生物样本 - 存储的1500万份样本，包括血液、尿液、唾液供未来分析",
+      "环境数据 - 空气污染暴露、建筑环境、绿地可及性"
+    ]
+  },
+  "authority_level": "research"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "cryptocurrency-data",
+  "name": {
+    "en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
+    "zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）"
+  },
+  "description": {
+    "en": "Comprehensive cryptocurrency market data platforms providing real-time and historical price information, market capitalizations, trading volumes, and blockchain analytics. CoinMarketCap tracks over 7,000 cryptocurrencies across 33,000+ markets and 300+ exchanges, with data dating back to 2013. CoinGecko monitors 13 million+ tokens across 240+ blockchain networks and 1,600+ exchanges, established in 2014. Both platforms offer extensive APIs, support multiple fiat currencies, and provide on-chain DEX data, NFT floor prices, and comprehensive market intelligence for cryptocurrency investors, researchers, and developers.",
+    "zh": "综合性加密货币市场数据平台，提供实时和历史价格信息、市值、交易量和区块链分析。CoinMarketCap 追踪 7,000 多种加密货币，覆盖 33,000 多个市场和 300 多个交易所，数据可追溯至 2013 年。CoinGecko 监控 1300 万以上代币，涵盖 240 多个区块链网络和 1,600 多个交易所，成立于 2014 年。两个平台均提供广泛的 API 接口，支持多种法定货币，并提供链上 DEX 数据、NFT 底价和全面的市场情报，服务于加密货币投资者、研究人员和开发者。"
+  },
+  "website": "https://coinmarketcap.com",
+  "data_url": "https://coinmarketcap.com",
+  "api_url": "https://coinmarketcap.com/api/documentation/v1/",
+  "country": null,
+  "domains": [
+    "Cryptocurrency Markets",
+    "Blockchain Analytics",
+    "Digital Assets",
+    "DeFi (Decentralized Finance)",
+    "NFT Markets",
+    "Trading Data",
+    "Financial Technology"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "real-time",
+  "tags": [
+    "cryptocurrency",
+    "blockchain",
+    "digital-assets",
+    "market-data",
+    "trading",
+    "defi",
+    "nft",
+    "real-time-data",
+    "financial-markets",
+    "crypto-exchanges",
+    "api",
+    "price-tracking"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time Cryptocurrency Prices - Live pricing for 7,000+ cryptocurrencies (CMC) and 13M+ tokens (CoinGecko)",
+      "Market Capitalizations - Total and circulating supply valuations",
+      "Trading Volumes - 24-hour and historical trading volumes across exchanges",
+      "Exchange Data - Coverage of 300+ centralized exchanges (CMC) and 1,600+ exchanges (CoinGecko)",
+      "Historical Price Data - Historical data from 2013 (CMC) and 2014 (CoinGecko)",
+      "On-chain DEX Data - 250+ blockchain networks, 1,700+ DEXes, 15M+ tokens (CoinGecko)",
+      "NFT Floor Prices - NFT collection floor price tracking",
+      "Market Metrics - Price changes, volume changes, market dominance, liquidity metrics",
+      "Blockchain Network Data - Coverage across 240+ blockchain networks",
+      "Fiat Conversion - Support for 93 fiat currencies and 4 precious metals",
+      "Token Metadata - Project information, websites, social media, whitepapers",
+      "Trading Pairs - Comprehensive trading pair information across markets"
+    ],
+    "zh": [
+      "实时加密货币价格 - 7,000+ 种加密货币（CMC）和 1300 万代币（CoinGecko）的实时价格",
+      "市值数据 - 总市值和流通市值估值",
+      "交易量 - 跨交易所的 24 小时和历史交易量",
+      "交易所数据 - 覆盖 300+ 中心化交易所（CMC）和 1,600+ 交易所（CoinGecko）",
+      "历史价格数据 - 2013 年（CMC）和 2014 年（CoinGecko）以来的历史数据",
+      "链上 DEX 数据 - 250+ 区块链网络、1,700+ DEX、1500 万代币（CoinGecko）",
+      "NFT 底价 - NFT 系列底价追踪",
+      "市场指标 - 价格变化、交易量变化、市场主导地位、流动性指标",
+      "区块链网络数据 - 覆盖 240+ 区块链网络",
+      "法币转换 - 支持 93 种法定货币和 4 种贵金属",
+      "代币元数据 - 项目信息、网站、社交媒体、白皮书",
+      "交易对 - 跨市场的综合交易对信息"
+    ]
+  },
+  "authority_level": "commercial"
+}

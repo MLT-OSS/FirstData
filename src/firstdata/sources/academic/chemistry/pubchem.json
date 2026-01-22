@@ -1,0 +1,76 @@
+{
+  "id": "pubchem",
+  "name": {
+    "en": "PubChem",
+    "zh": "PubChem化学数据库"
+  },
+  "description": {
+    "en": "PubChem is the world's largest free chemistry database, maintained by the National Institutes of Health (NIH). It provides information on chemical substances and their biological activities, launched in 2004. PubChem contains small molecules, as well as larger molecules such as nucleotides, carbohydrates, lipids, peptides, and chemically-modified macromolecules. The database collects information on chemical structures, identifiers, chemical and physical properties, biological activities, patents, health, safety, toxicity data, and much more. Data is contributed by hundreds of sources including government agencies, chemical vendors, journal publishers, and more. Each month, the website and programmatic services provide data to several million users worldwide.",
+    "zh": "PubChem是世界上最大的免费化学数据库,由美国国立卫生研究院(NIH)维护。它提供化学物质及其生物活性的信息,于2004年推出。PubChem包含小分子以及较大分子,如核苷酸、碳水化合物、脂质、肽和化学修饰的大分子。该数据库收集化学结构、标识符、化学和物理性质、生物活性、专利、健康、安全、毒性数据等信息。数据由数百个来源贡献,包括政府机构、化学品供应商、期刊出版商等。每月,该网站和编程服务为全球数百万用户提供数据。"
+  },
+  "website": "https://www.ncbi.nlm.nih.gov/",
+  "data_url": "https://pubchem.ncbi.nlm.nih.gov/",
+  "api_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+  "country": null,
+  "domains": [
+    "Chemistry",
+    "Biochemistry",
+    "Pharmacology",
+    "Toxicology",
+    "Biology",
+    "Medicine"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "chemistry",
+    "biochemistry",
+    "pharmacology",
+    "toxicology",
+    "drug-discovery",
+    "chemical-database",
+    "bioassay",
+    "molecular-structure",
+    "chemical-properties",
+    "open-data",
+    "nih",
+    "ncbi",
+    "united-states",
+    "government-data"
+  ],
+  "data_content": {
+    "en": [
+      "Compound Records (chemical structures, properties, identifiers)",
+      "Substance Records (deposited chemical substances from contributors)",
+      "BioAssay Data (biological test results and screening data)",
+      "Chemical Properties (molecular formula, weight, SMILES, InChI, physical properties)",
+      "Bioactivity Data (assay results, dose-response curves, activity summaries)",
+      "Patent Information (chemical-patent data from Google Patents and IBM)",
+      "Literature Citations (links to PubMed articles)",
+      "Safety and Toxicity Data (health, safety, and toxicity information)",
+      "3D Conformer Models (computed 3D structures and shape properties)",
+      "Gene and Protein Targets (assay target information)",
+      "Pathway Data (biological pathway information)",
+      "Taxonomy Data (organism information)",
+      "Cell Line Data (cell line information)",
+      "Classification Data (hierarchical chemical classification)"
+    ],
+    "zh": [
+      "化合物记录(化学结构、性质、标识符)",
+      "物质记录(贡献者提交的化学物质)",
+      "生物测定数据(生物测试结果和筛选数据)",
+      "化学性质(分子式、分子量、SMILES、InChI、物理性质)",
+      "生物活性数据(测定结果、剂量-反应曲线、活性摘要)",
+      "专利信息(来自Google Patents和IBM的化学专利数据)",
+      "文献引用(与PubMed文章的链接)",
+      "安全和毒性数据(健康、安全和毒性信息)",
+      "3D构象模型(计算的3D结构和形状属性)",
+      "基因和蛋白质靶标(测定靶标信息)",
+      "通路数据(生物通路信息)",
+      "分类数据(生物体信息)",
+      "细胞系数据(细胞系信息)",
+      "分类数据(分层化学分类)"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "usgs-earthexplorer",
+  "name": {
+    "en": "USGS EarthExplorer",
+    "zh": "美国地质调查局地球探索者"
+  },
+  "description": {
+    "en": "EarthExplorer is an online search, discovery, and ordering tool developed by the USGS that supports searching satellite, aircraft, and other remote sensing inventories through interactive and textual-based query capabilities. It provides access to one of the world's largest archives of land imagery, including more than 85 years of satellite and aerial records, complete Landsat collection, Sentinel data, digital elevation models, aerial photos, and various other datasets. The EROS Center operates the Landsat satellites and delivers data supporting science, resource management, and hazards response.",
+    "zh": "地球探索者是由美国地质调查局开发的在线搜索、发现和订购工具，支持通过交互式和基于文本的查询功能搜索卫星、飞机和其他遥感数据清单。它提供世界上最大的陆地影像档案之一，包括85年以上的卫星和航空记录、完整的Landsat系列数据、Sentinel数据、数字高程模型、航空照片和各种其他数据集。EROS中心运营Landsat卫星，提供支持科学研究、资源管理和灾害响应的数据。"
+  },
+  "website": "https://www.usgs.gov",
+  "data_url": "https://earthexplorer.usgs.gov/",
+  "api_url": "https://m2m.cr.usgs.gov/",
+  "country": null,
+  "domains": [
+    "earth-observation",
+    "remote-sensing",
+    "geospatial",
+    "environmental-monitoring",
+    "land-cover"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "satellite-imagery",
+    "remote-sensing",
+    "landsat",
+    "sentinel",
+    "earth-observation",
+    "geospatial",
+    "dem",
+    "elevation",
+    "aerial-photography",
+    "land-cover",
+    "environmental-monitoring",
+    "usgs",
+    "eros",
+    "disaster-response",
+    "climate-data"
+  ],
+  "data_content": {
+    "en": [
+      "Landsat Satellite Imagery - Complete archive from Landsat 1-9 missions (1972-present), multispectral imagery",
+      "Sentinel Satellite Data - Sentinel-2 optical imagery, Sentinel-1 radar data from ESA",
+      "Digital Elevation Models (DEM) - SRTM, ASTER GDEM, NED, 3DEP elevation data",
+      "Aerial Photography - Historical and contemporary aerial photos, high-resolution imagery",
+      "Commercial Satellite Imagery - IKONOS, OrbView-3, and other commercial datasets",
+      "Radar Data - SAR imagery, interferometric data, RADARSAT collections",
+      "Land Cover Data - National Land Cover Database (NLCD), global land cover products",
+      "Vegetation Indices - NDVI, EVI, and other derived vegetation products",
+      "Thermal Imagery - Land surface temperature, thermal infrared data",
+      "Disaster Response Imagery - Emergency response datasets, flood/fire mapping",
+      "UAS (Drone) Data - Unmanned aerial system imagery and derived products",
+      "Digital Map Data - The National Map datasets, topographic data"
+    ],
+    "zh": [
+      "Landsat卫星影像 - Landsat 1-9任务的完整存档（1972年至今），多光谱影像",
+      "Sentinel卫星数据 - 来自欧空局的Sentinel-2光学影像、Sentinel-1雷达数据",
+      "数字高程模型（DEM） - SRTM、ASTER GDEM、NED、3DEP高程数据",
+      "航空摄影 - 历史和当代航空照片、高分辨率影像",
+      "商业卫星影像 - IKONOS、OrbView-3和其他商业数据集",
+      "雷达数据 - 合成孔径雷达影像、干涉测量数据、RADARSAT系列",
+      "土地覆盖数据 - 国家土地覆盖数据库（NLCD）、全球土地覆盖产品",
+      "植被指数 - 归一化植被指数（NDVI）、增强植被指数（EVI）和其他衍生植被产品",
+      "热红外影像 - 地表温度、热红外数据",
+      "灾害响应影像 - 应急响应数据集、洪水/火灾制图",
+      "无人机数据 - 无人机系统影像和衍生产品",
+      "数字地图数据 - 国家地图数据集、地形数据"
+    ]
+  },
+  "authority_level": "government"
+}

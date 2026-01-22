@@ -1,0 +1,74 @@
+{
+  "id": "india-dgcis",
+  "name": {
+    "en": "Directorate General of Commercial Intelligence and Statistics",
+    "zh": "印度商业情报与统计总局"
+  },
+  "description": {
+    "en": "The Directorate General of Commercial Intelligence and Statistics (DGCI&S), Kolkata, under the Ministry of Commerce and Industry, Government of India, is the pioneer official organization for collection, compilation and dissemination of India's Trade Statistics and Commercial Information. For over 150 years, this Directorate has served as the principal authority on trade-related information in India. DGCI&S collects basic data for both export and import of goods through Daily Trade Returns (DTRs) from different Customs formations and Special Economic Zones, with EDI data transmitted online daily through Indian Customs EDI Gateway (ICEGATE). It compiles and publishes foreign trade statistics, inland trade statistics covering inter-state movements of goods by rail, river and air, shipping statistics, coastal trade statistics, and customs and excise revenue collections.",
+    "zh": "印度商业情报与统计总局（DGCI&S）位于加尔各答，隶属于印度政府商务和工业部，是印度贸易统计和商业信息收集、编制和发布的先驱性官方机构。超过150年来，该局一直是印度贸易相关信息的主要权威机构。DGCI&S通过印度海关EDI网关（ICEGATE）每日在线接收来自不同海关系统和经济特区的每日贸易回执（DTR），收集进出口货物的基础数据。该局编制并发布对外贸易统计、涵盖铁路、河运和空运的州际货物流动的国内贸易统计、航运统计、沿海贸易统计以及海关和消费税征收统计。"
+  },
+  "website": "https://www.commerce.gov.in/about-us/subordinate-offices/directorate-general-of-commercial-intelligence-and-statistics/",
+  "data_url": "https://www.commerce.gov.in/trade-statistics/",
+  "api_url": null,
+  "country": "IN",
+  "domains": [
+    "International Trade",
+    "Foreign Trade Statistics",
+    "Inland Trade",
+    "Customs Statistics",
+    "Export Statistics",
+    "Import Statistics",
+    "Shipping Statistics",
+    "Coastal Trade",
+    "Inter-State Trade",
+    "Excise Revenue"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "india",
+    "trade-statistics",
+    "foreign-trade",
+    "export-import",
+    "customs-data",
+    "government-statistics",
+    "economic-data",
+    "hs-classification",
+    "trade-policy",
+    "shipping-statistics",
+    "inland-trade",
+    "south-asia"
+  ],
+  "data_content": {
+    "en": [
+      "Foreign Trade Statistics - Export and import data at principal commodity and 8-digit HS code level",
+      "Principal Commodity Level Data - Available free of cost, updated to October 2025",
+      "8-Digit Level Data - Available to subscribers, updated to September 2025",
+      "Country-wise Trade Data - India's trade with individual countries and regions",
+      "ITC (HS) Classification - Indian Trade Classification based on Harmonised System with 20,000+ commodity codes",
+      "Inland Trade Statistics - Inter-state movements of goods by rail, river and air",
+      "Shipping Statistics - Annual shipping and port statistics",
+      "Coastal Trade Statistics - Domestic coastal and inter-port trade",
+      "Selected Statistics of Foreign Trade - Annual comprehensive trade reports",
+      "Monthly Trade Data - Released by 15th of following month",
+      "Quantity and Value Data - Both volume and value metrics for trade flows",
+      "Customs Revenue Statistics - Customs and excise revenue collections"
+    ],
+    "zh": [
+      "对外贸易统计 - 主要商品和8位HS编码级别的进出口数据",
+      "主要商品级别数据 - 免费提供，更新至2025年10月",
+      "8位数级别数据 - 订阅用户可用，更新至2025年9月",
+      "按国家分类的贸易数据 - 印度与各国和地区的贸易",
+      "ITC(HS)分类 - 基于协调制度的印度贸易分类，包含20,000+商品代码",
+      "国内贸易统计 - 铁路、河运和空运的州际货物流动",
+      "航运统计 - 年度航运和港口统计",
+      "沿海贸易统计 - 国内沿海和港口间贸易",
+      "对外贸易精选统计 - 年度综合贸易报告",
+      "月度贸易数据 - 次月15日前发布",
+      "数量和价值数据 - 贸易流量和价值指标",
+      "海关收入统计 - 海关和消费税征收数据"
+    ]
+  },
+  "authority_level": "government"
+}

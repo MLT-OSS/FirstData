@@ -1,0 +1,85 @@
+{
+  "id": "derwent-innovation-index",
+  "name": {
+    "en": "Derwent Innovation Index",
+    "zh": "德温特创新索引"
+  },
+  "description": {
+    "en": "Derwent Innovation Index is a comprehensive patent database provided by Clarivate Analytics, offering access to over 100 million patent documents from over 40 patent-issuing authorities worldwide. The database integrates Derwent World Patents Index (DWPI) enhanced patent data with patent citations from the Web of Science platform. It features value-added content including expert patent indexing, standardized patent families, chemical structure search capabilities, and enhanced English-language abstracts. Derwent Innovation Index is widely used for competitive intelligence, technology landscape analysis, patent analytics, prior art searching, freedom-to-operate analysis, and R&D decision-making across industries including pharmaceuticals, biotechnology, chemicals, electronics, engineering, and more.",
+    "zh": "德温特创新索引是科睿唯安（Clarivate Analytics）提供的综合性专利数据库，收录了来自全球40多个专利授权机构的超过1亿份专利文献。该数据库整合了德温特世界专利索引（DWPI）增强的专利数据与来自Web of Science平台的专利引用信息。其特色包括专家专利索引、标准化专利家族、化学结构检索功能和增强的英文摘要。德温特创新索引广泛用于竞争情报、技术景观分析、专利分析、现有技术检索、自由实施分析以及制药、生物技术、化学、电子、工程等行业的研发决策。"
+  },
+  "website": "https://clarivate.com",
+  "data_url": "https://clarivate.com/products/derwent-innovation/",
+  "api_url": "https://developer.clarivate.com/apis",
+  "country": null,
+  "domains": [
+    "Patents",
+    "Innovation",
+    "Intellectual Property",
+    "Pharmaceuticals",
+    "Biotechnology",
+    "Chemistry",
+    "Electronics",
+    "Engineering",
+    "Telecommunications",
+    "Materials Science",
+    "Medical Technology",
+    "Mechanical Engineering",
+    "Computer Science",
+    "Aerospace",
+    "Automotive"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "weekly",
+  "tags": [
+    "patents",
+    "intellectual-property",
+    "innovation",
+    "technology",
+    "competitive-intelligence",
+    "patent-analytics",
+    "prior-art",
+    "freedom-to-operate",
+    "patent-families",
+    "citations",
+    "chemical-structures",
+    "dwpi",
+    "technology-landscape",
+    "r-and-d",
+    "patent-classification",
+    "commercial-database",
+    "global-coverage",
+    "clarivate"
+  ],
+  "data_content": {
+    "en": [
+      "Patent Documents - Over 100 million patent documents from 40+ patent authorities worldwide",
+      "Derwent World Patents Index (DWPI) - Value-added patent information with expert indexing",
+      "Patent Families - Standardized patent family groupings across jurisdictions",
+      "Patent Citations - Citation data integrated from Web of Science",
+      "Chemical Structures - Searchable chemical structure information and Markush structures",
+      "Patent Classifications - IPC, CPC, USPC, and Derwent Manual Codes",
+      "Legal Status Information - Patent status, assignments, and litigation data",
+      "Inventor and Assignee Data - Standardized and disambiguated inventor/assignee information",
+      "Patent Abstracts - Enhanced English-language abstracts with technical details",
+      "Priority and Publication Data - Priority claims, publication dates, and filing information",
+      "Technology Codes - Derwent Class Codes for precise technology classification",
+      "Patent Analytics - Built-in analytical tools for trend analysis and competitive intelligence"
+    ],
+    "zh": [
+      "专利文献 - 来自全球40多个专利机构的超过1亿份专利文献",
+      "德温特世界专利索引（DWPI） - 具有专家索引的增值专利信息",
+      "专利家族 - 跨司法管辖区的标准化专利家族分组",
+      "专利引用 - 集成自Web of Science的引用数据",
+      "化学结构 - 可检索的化学结构信息和马库什结构",
+      "专利分类 - IPC、CPC、USPC和德温特手工代码",
+      "法律状态信息 - 专利状态、转让和诉讼数据",
+      "发明人和受让人数据 - 标准化和消歧的发明人/受让人信息",
+      "专利摘要 - 带有技术细节的增强英文摘要",
+      "优先权和公开数据 - 优先权声明、公开日期和申请信息",
+      "技术代码 - 用于精确技术分类的德温特分类代码",
+      "专利分析 - 内置分析工具用于趋势分析和竞争情报"
+    ]
+  },
+  "authority_level": "commercial"
+}

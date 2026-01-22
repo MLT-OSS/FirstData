@@ -1,0 +1,70 @@
+{
+  "id": "intl-rcsb-pdb",
+  "name": {
+    "en": "Protein Data Bank (PDB)",
+    "zh": "蛋白质数据银行"
+  },
+  "description": {
+    "en": "The Protein Data Bank (PDB) is the global archive for 3D structural data of large biological molecules including proteins, DNA, and RNA. As the first open access digital data resource in all of biology and medicine, PDB provides experimentally-determined structures, integrative structures, and computed structure models essential for research and education in fundamental biology, biomedicine, energy sciences, and biotechnology. RCSB PDB operates the US data center for the worldwide PDB archive and provides open access to over 246,000 experimental structures and 1 million computed structure models.",
+    "zh": "蛋白质数据银行（PDB）是全球大型生物分子（包括蛋白质、DNA 和 RNA）三维结构数据的档案库。作为生物学和医学领域第一个开放获取的数字数据资源，PDB 提供实验测定的结构、整合结构和计算结构模型，对基础生物学、生物医学、能源科学和生物技术的研究和教育至关重要。RCSB PDB 运营全球 PDB 档案库的美国数据中心，提供超过 24.6 万个实验结构和 100 万个计算结构模型的开放访问。"
+  },
+  "website": "https://www.rcsb.org",
+  "data_url": "https://www.rcsb.org",
+  "api_url": "https://data.rcsb.org",
+  "country": null,
+  "domains": [
+    "Structural Biology",
+    "Biochemistry",
+    "Molecular Biology",
+    "Computational Biology",
+    "Drug Discovery",
+    "Biotechnology",
+    "Protein Science"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "weekly",
+  "tags": [
+    "protein structures",
+    "structural biology",
+    "3D structures",
+    "molecular biology",
+    "drug discovery",
+    "biotechnology",
+    "open science",
+    "bioinformatics",
+    "crystallography",
+    "cryo-EM",
+    "NMR",
+    "PDB",
+    "macromolecular structures"
+  ],
+  "data_content": {
+    "en": [
+      "Experimentally-determined 3D protein structures (X-ray crystallography, NMR, cryo-EM)",
+      "DNA and RNA 3D structures",
+      "Protein-ligand complexes",
+      "Integrative/hybrid structures",
+      "Computed structure models (AlphaFold DB, ModelArchive)",
+      "Protein sequences and annotations",
+      "Chemical components and ligands",
+      "Structural validation reports",
+      "Electron density maps",
+      "Biological assemblies",
+      "Structure determination metadata"
+    ],
+    "zh": [
+      "实验测定的蛋白质三维结构（X射线晶体学、核磁共振、冷冻电镜）",
+      "DNA 和 RNA 三维结构",
+      "蛋白质-配体复合物",
+      "整合/混合结构",
+      "计算结构模型（AlphaFold DB、ModelArchive）",
+      "蛋白质序列和注释",
+      "化学成分和配体",
+      "结构验证报告",
+      "电子密度图",
+      "生物学组装体",
+      "结构测定元数据"
+    ]
+  },
+  "authority_level": "research"
+}

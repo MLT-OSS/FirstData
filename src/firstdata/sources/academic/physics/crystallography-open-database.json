@@ -1,0 +1,63 @@
+{
+  "id": "acad-cod",
+  "name": {
+    "en": "Crystallography Open Database",
+    "zh": "晶体学开放数据库"
+  },
+  "description": {
+    "en": "Open-access collection of crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers. The COD is a collaborative platform for worldwide crystallographic community to deposit and access crystal structure data with full version control and revision history.",
+    "zh": "开放获取的晶体结构数据库，收录有机、无机、金属有机化合物和矿物的晶体结构（不包括生物大分子）。COD 是全球晶体学界协作平台，提供晶体结构数据存储和访问，具有完整的版本控制和修订历史。"
+  },
+  "website": "https://www.crystallography.net/",
+  "data_url": "https://www.crystallography.net/cod/",
+  "api_url": "https://wiki.crystallography.net/RESTful_API/",
+  "country": null,
+  "domains": [
+    "Crystallography",
+    "Materials Science",
+    "Chemistry",
+    "Physics",
+    "Mineralogy"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "crystallography",
+    "crystal structures",
+    "materials science",
+    "chemistry",
+    "physics",
+    "mineralogy",
+    "open access",
+    "CIF",
+    "atomic structures",
+    "research data"
+  ],
+  "data_content": {
+    "en": [
+      "Organic crystal structures",
+      "Inorganic crystal structures",
+      "Metal-organic compounds",
+      "Minerals",
+      "Crystal lattice parameters",
+      "Atomic coordinates",
+      "Structure factors (Fobs data)",
+      "Space group information",
+      "Chemical formulas",
+      "Bibliographic references"
+    ],
+    "zh": [
+      "有机晶体结构",
+      "无机晶体结构",
+      "金属有机化合物",
+      "矿物",
+      "晶格参数",
+      "原子坐标",
+      "结构因子（Fobs数据）",
+      "空间群信息",
+      "化学式",
+      "文献引用"
+    ]
+  },
+  "authority_level": "research"
+}

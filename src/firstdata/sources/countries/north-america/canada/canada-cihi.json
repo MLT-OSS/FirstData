@@ -1,0 +1,87 @@
+{
+  "id": "canada-cihi",
+  "name": {
+    "en": "Canadian Institute for Health Information",
+    "zh": "加拿大健康信息研究所",
+    "native": "Institut canadien d'information sur la santé"
+  },
+  "description": {
+    "en": "CIHI is an independent, not-for-profit organization that provides essential information on Canada's health systems and the health of Canadians. CIHI collects, analyzes, and reports on health data and health system performance across Canada, including hospital care, pharmaceuticals, medical imaging, emergency departments, continuing care, and population health indicators. The organization maintains comprehensive databases covering patient outcomes, wait times, health spending, workforce statistics, and clinical quality indicators.",
+    "zh": "CIHI是一个独立的非营利组织，提供有关加拿大医疗系统和加拿大人健康状况的重要信息。CIHI收集、分析并报告加拿大各地的健康数据和医疗系统绩效，包括医院护理、药品、医学影像、急诊科、持续护理和人口健康指标。该组织维护涵盖患者结局、等待时间、医疗支出、医疗人力统计和临床质量指标的综合数据库。"
+  },
+  "website": "https://www.cihi.ca",
+  "data_url": "https://www.cihi.ca/en/access-data-and-reports",
+  "api_url": "https://www.cihi.ca/en/submit-data-and-view-standards/codes-and-classifications",
+  "country": "CA",
+  "domains": [
+    "health_care",
+    "hospital_services",
+    "pharmaceuticals",
+    "medical_imaging",
+    "emergency_care",
+    "mental_health",
+    "continuing_care",
+    "health_spending",
+    "health_workforce",
+    "population_health",
+    "patient_outcomes",
+    "health_system_performance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "canada",
+    "health-care",
+    "hospital-data",
+    "health-spending",
+    "patient-outcomes",
+    "wait-times",
+    "pharmaceuticals",
+    "health-workforce",
+    "medical-imaging",
+    "emergency-care",
+    "clinical-quality",
+    "open-data",
+    "bilingual",
+    "health-system-performance"
+  ],
+  "data_content": {
+    "en": [
+      "Hospital care and patient outcomes - discharge data, readmissions, mortality rates",
+      "Wait times - surgical procedures, diagnostic imaging, emergency department visits",
+      "Health spending - national, provincial, and territorial health expenditures by category",
+      "Pharmaceutical prescriptions - drug utilization, costs, dispensing patterns",
+      "Medical imaging - CT scans, MRIs, ultrasound, X-rays utilization and wait times",
+      "Emergency department visits - patient volumes, triage levels, length of stay",
+      "Continuing care - long-term care, home care services, complex continuing care",
+      "Mental health and addictions - hospitalizations, community services, outcomes",
+      "Health workforce - physicians, nurses, health professionals by specialty and region",
+      "Clinical quality indicators - patient safety, effectiveness, appropriateness of care",
+      "Home care reporting - services, clients, assessments (interRAI)",
+      "Patient experience surveys - satisfaction, quality of care, access",
+      "International health system comparisons - Commonwealth Fund benchmarking",
+      "COVID-19 health data - hospitalizations, ICU admissions, testing",
+      "Social determinants of health - income, education, housing impacts on health",
+      "Chronic disease surveillance - diabetes, cancer, cardiovascular disease prevalence"
+    ],
+    "zh": [
+      "医院护理和患者结局 - 出院数据、再入院率、死亡率",
+      "等待时间 - 外科手术、诊断影像、急诊就诊",
+      "医疗支出 - 国家、省级和地区按类别划分的医疗支出",
+      "药品处方 - 药物使用、成本、配药模式",
+      "医学影像 - CT扫描、MRI、超声、X光使用和等待时间",
+      "急诊就诊 - 患者数量、分诊级别、停留时间",
+      "持续护理 - 长期护理、家庭护理服务、复杂持续护理",
+      "心理健康和成瘾 - 住院治疗、社区服务、治疗结果",
+      "医疗人力 - 按专业和地区划分的医生、护士、医疗专业人员",
+      "临床质量指标 - 患者安全、有效性、护理适当性",
+      "家庭护理报告 - 服务、客户、评估（interRAI）",
+      "患者体验调查 - 满意度、护理质量、可及性",
+      "国际医疗系统比较 - 英联邦基金基准测试",
+      "COVID-19健康数据 - 住院治疗、ICU入院、检测",
+      "健康的社会决定因素 - 收入、教育、住房对健康的影响",
+      "慢性病监测 - 糖尿病、癌症、心血管疾病患病率"
+    ]
+  },
+  "authority_level": "government"
+}

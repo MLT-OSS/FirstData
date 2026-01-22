@@ -1,0 +1,62 @@
+{
+  "id": "alpha-vantage",
+  "name": {
+    "en": "Alpha Vantage API",
+    "zh": "Alpha Vantage API"
+  },
+  "description": {
+    "en": "Alpha Vantage provides free JSON APIs for realtime and historical stock market data, forex, cryptocurrencies, commodities, and economic indicators. The platform offers 50+ technical indicators, covering 200,000+ tickers across 20+ global exchanges with over 20 years of historical depth. Built for developers and investors, it supports multiple temporal resolutions (intraday, daily, weekly, monthly) and features eight major API categories including Core Time Series, US Options, Alpha Intelligence, Fundamental Data, and more.",
+    "zh": "Alpha Vantage 提供免费的 JSON API，用于获取实时和历史股票市场数据、外汇、加密货币、大宗商品和经济指标。该平台提供 50 多种技术指标，涵盖 20 多个全球交易所的 200,000 多个股票代码，拥有超过 20 年的历史数据深度。专为开发人员和投资者打造，支持多种时间分辨率（盘中、每日、每周、每月），包含八大主要 API 类别：核心时间序列、美国期权、Alpha Intelligence、基本面数据等。"
+  },
+  "website": "https://www.alphavantage.co/",
+  "data_url": "https://www.alphavantage.co/",
+  "api_url": "https://www.alphavantage.co/documentation/",
+  "country": null,
+  "domains": [
+    "Stock Markets",
+    "Foreign Exchange",
+    "Cryptocurrencies",
+    "Commodities",
+    "Economic Indicators",
+    "Technical Analysis"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "real-time",
+  "tags": [
+    "stock-market",
+    "financial-data",
+    "api",
+    "real-time",
+    "technical-indicators",
+    "forex",
+    "cryptocurrency",
+    "commodities",
+    "economic-indicators",
+    "time-series",
+    "free-tier",
+    "developer-friendly"
+  ],
+  "data_content": {
+    "en": [
+      "Core Time Series Stock Data (intraday, daily, weekly, monthly)",
+      "US Options Data",
+      "Alpha Intelligence (news sentiment, top gainers/losers)",
+      "Fundamental Data (income statements, balance sheets, cash flow)",
+      "Physical and Crypto Currencies (forex, Bitcoin, cryptocurrencies)",
+      "Commodities (WTI crude oil, natural gas, copper, wheat, corn)",
+      "Economic Indicators (GDP, inflation, interest rates, unemployment)",
+      "Technical Indicators (50+ indicators including SMA, EMA, RSI, MACD, Bollinger Bands)"
+    ],
+    "zh": [
+      "核心时间序列股票数据（盘中、每日、每周、每月）",
+      "美国期权数据",
+      "Alpha Intelligence（新闻情绪、涨跌幅排行）",
+      "基本面数据（损益表、资产负债表、现金流量表）",
+      "实物和加密货币（外汇、比特币、加密货币）",
+      "大宗商品（WTI 原油、天然气、铜、小麦、玉米）",
+      "经济指标（GDP、通货膨胀、利率、失业率）",
+      "技术指标（50 多种指标，包括 SMA、EMA、RSI、MACD、布林带）"
+    ]
+  },
+  "authority_level": "commercial"
+}

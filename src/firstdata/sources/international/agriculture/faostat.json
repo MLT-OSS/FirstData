@@ -1,0 +1,87 @@
+{
+  "id": "faostat",
+  "name": {
+    "en": "FAOSTAT - Food and Agriculture Data",
+    "zh": "粮农组织统计数据库"
+  },
+  "description": {
+    "en": "FAOSTAT provides free access to food and agriculture data for over 245 countries and territories, covering all FAO regional groupings from 1961 to the most recent year available. The database contains comprehensive statistics on agricultural production, trade, food balances, emissions, land use, inputs, population, and sustainable development indicators.",
+    "zh": "粮农组织统计数据库（FAOSTAT）提供超过245个国家和地区的粮食和农业数据免费访问，涵盖联合国粮农组织所有区域分组，时间跨度从1961年至最新年份。该数据库包含农业生产、贸易、粮食平衡、排放、土地利用、投入品、人口和可持续发展指标等综合统计数据。"
+  },
+  "website": "https://www.fao.org",
+  "data_url": "https://www.fao.org/faostat/en/",
+  "api_url": "https://www.fao.org/faostat/en/#faq",
+  "country": null,
+  "domains": [
+    "Agriculture",
+    "Food Security",
+    "Nutrition",
+    "Trade",
+    "Climate Change",
+    "Environment",
+    "Land Use",
+    "Forestry",
+    "Fisheries",
+    "Livestock",
+    "Crops",
+    "Investment",
+    "Employment",
+    "Prices"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "agriculture",
+    "food-security",
+    "nutrition",
+    "trade",
+    "climate-change",
+    "land-use",
+    "forestry",
+    "fisheries",
+    "livestock",
+    "crops",
+    "fao",
+    "united-nations",
+    "sdg",
+    "global",
+    "time-series"
+  ],
+  "data_content": {
+    "en": [
+      "Production - Crops and livestock products",
+      "Trade - Bilateral trade flows, trade indices",
+      "Food Balances - Food supply and availability",
+      "Food and Diet - Dietary intake, diversity, nutritional indicators",
+      "Climate Change - Agrifood systems emissions (crops, livestock, energy, fires, forests)",
+      "Land Use - Land cover, cropland nutrient balance, fertilizers",
+      "Inputs and Sustainability - Pesticides, machinery, bioenergy",
+      "Population and Employment - Demographics, rural/agricultural employment",
+      "Investment - Government expenditure, FDI, credit to agriculture",
+      "Prices - Producer prices, consumer price indices, exchange rates, deflators",
+      "Macro-Economic Indicators - Capital stock, macro indicators",
+      "Forestry - Production, trade, pulp and paper capacity",
+      "Food Security and Nutrition - Suite of food security indicators",
+      "SDG Indicators - Sustainable Development Goals monitoring",
+      "World Census of Agriculture - Structural agricultural data"
+    ],
+    "zh": [
+      "生产 - 农作物和畜牧产品",
+      "贸易 - 双边贸易流量、贸易指数",
+      "粮食平衡 - 粮食供应和可得性",
+      "食品与膳食 - 膳食摄入、多样性、营养指标",
+      "气候变化 - 农业粮食系统排放（农作物、畜牧业、能源、火灾、森林）",
+      "土地利用 - 土地覆盖、农田养分平衡、化肥",
+      "投入品与可持续性 - 农药、机械、生物能源",
+      "人口与就业 - 人口统计、农村/农业就业",
+      "投资 - 政府支出、外国直接投资、农业信贷",
+      "价格 - 生产者价格、消费者价格指数、汇率、平减指数",
+      "宏观经济指标 - 资本存量、宏观指标",
+      "林业 - 生产、贸易、纸浆和造纸产能",
+      "粮食安全与营养 - 粮食安全指标套件",
+      "可持续发展目标指标 - SDG监测",
+      "世界农业普查 - 农业结构数据"
+    ]
+  },
+  "authority_level": "international"
+}

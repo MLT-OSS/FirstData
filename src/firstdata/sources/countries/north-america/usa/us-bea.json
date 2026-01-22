@@ -1,0 +1,76 @@
+{
+  "id": "us-bea",
+  "name": {
+    "en": "Bureau of Economic Analysis",
+    "zh": "经济分析局"
+  },
+  "description": {
+    "en": "The Bureau of Economic Analysis (BEA) is an agency of the U.S. Department of Commerce that produces critical economic statistics including GDP, personal income, corporate profits, international trade and investment, and regional economic data. BEA's data provides a comprehensive picture of the U.S. economy and its interaction with the world economy.",
+    "zh": "美国经济分析局（BEA）是美国商务部下属机构，负责编制包括GDP、个人收入、企业利润、国际贸易与投资、区域经济数据在内的关键经济统计数据。BEA的数据全面反映了美国经济及其与全球经济的互动情况。"
+  },
+  "website": "https://www.bea.gov",
+  "data_url": "https://www.bea.gov/data",
+  "api_url": "https://apps.bea.gov/api/signup/index.cfm",
+  "country": "US",
+  "domains": [
+    "Economics",
+    "GDP",
+    "National Accounts",
+    "International Trade",
+    "Foreign Direct Investment",
+    "Personal Income",
+    "Consumer Spending",
+    "Corporate Profits",
+    "Regional Economics",
+    "Industry Economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "economics",
+    "gdp",
+    "national-accounts",
+    "united-states",
+    "trade",
+    "investment",
+    "official-statistics",
+    "government",
+    "time-series",
+    "macroeconomics",
+    "regional-data",
+    "industry-data"
+  ],
+  "data_content": {
+    "en": [
+      "Gross Domestic Product (GDP) - National, regional, and industry-level GDP data",
+      "National Income and Product Accounts (NIPAs) - Comprehensive income, spending, and saving statistics",
+      "Personal Income and Outlays - Monthly data on income, consumption, and saving",
+      "International Trade in Goods and Services - Monthly trade balance data",
+      "International Transactions - Quarterly balance of payments data",
+      "Foreign Direct Investment - U.S. direct investment abroad and foreign investment in the U.S.",
+      "Multinational Enterprises - Activities of multinational companies",
+      "Regional Economic Accounts - State, county, and metropolitan area data",
+      "GDP by Industry - Value added by industry",
+      "Fixed Assets - Investment in structures, equipment, and intellectual property",
+      "Consumer Spending - Personal consumption expenditures by product",
+      "Corporate Profits - Quarterly corporate profit data",
+      "Price Indexes - GDP deflators and PCE price indexes"
+    ],
+    "zh": [
+      "国内生产总值（GDP）- 国家、地区和行业层面的GDP数据",
+      "国民收入和产品账户（NIPAs）- 综合性收入、支出和储蓄统计",
+      "个人收入和支出 - 月度收入、消费和储蓄数据",
+      "商品和服务国际贸易 - 月度贸易平衡数据",
+      "国际交易 - 季度国际收支数据",
+      "外国直接投资 - 美国对外直接投资和外国对美投资",
+      "跨国企业 - 跨国公司活动数据",
+      "区域经济账户 - 州、县和都市区数据",
+      "按行业划分的GDP - 按行业增加值",
+      "固定资产 - 结构、设备和知识产权投资",
+      "消费支出 - 按产品分类的个人消费支出",
+      "企业利润 - 季度企业利润数据",
+      "价格指数 - GDP平减指数和PCE价格指数"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,1568 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-20T17:54:35.276171",
+    "total_sources": 126,
+    "authority_counts": {
+      "government": 51,
+      "international": 31,
+      "market": 12,
+      "research": 27,
+      "commercial": 5,
+      "other": 0
+    },
+    "version": "2.0"
+  },
+  "by_authority_level": {
+    "government": [
+      {
+        "id": "aafc",
+        "name": {
+          "en": "Agriculture and Agri-Food Canada",
+          "zh": "加拿大农业与农业食品部",
+          "native": "Agriculture et Agroalimentaire Canada"
+        },
+        "authority_level": "government",
+        "data_url": "https://open.canada.ca/data/en/organization/aafc-aac",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/canada/aafc.json"
+      },
+      {
+        "id": "australia-abs",
+        "name": {
+          "en": "Australian Bureau of Statistics",
+          "zh": "澳大利亚统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.abs.gov.au",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/oceania/australia/abs.json"
+      },
+      {
+        "id": "aus-aihw",
+        "name": {
+          "en": "Australian Institute of Health and Welfare",
+          "zh": "澳大利亚健康与福利研究所"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.aihw.gov.au/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/oceania/australia/aihw.json"
+      },
+      {
+        "id": "bis-statistics",
+        "name": {
+          "en": "BIS Statistics",
+          "zh": "国际清算银行统计数据"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.bis.org/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/economics/bis-statistics.json"
+      },
+      {
+        "id": "bis-statistics",
+        "name": {
+          "en": "BIS Statistics - Bank for International Settlements",
+          "zh": "国际清算银行统计数据"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.bis.org/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/economics/bis.json"
+      },
+      {
+        "id": "canada-boc",
+        "name": {
+          "en": "Bank of Canada",
+          "zh": "加拿大银行",
+          "native": "Banque du Canada"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bankofcanada.ca/rates/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/canada/canada-boc.json"
+      },
+      {
+        "id": "uk-boe",
+        "name": {
+          "en": "Bank of England Statistical Interactive Database",
+          "zh": "英格兰银行统计数据库"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "countries/europe/uk/bank-of-england.json"
+      },
+      {
+        "id": "boj-statistics",
+        "name": {
+          "en": "Bank of Japan Statistics",
+          "zh": "日本银行统计数据",
+          "native": "日本銀行統計"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.boj.or.jp/en/statistics/index.htm",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "countries/asia/japan/boj-statistics.json"
+      },
+      {
+        "id": "korea-bok",
+        "name": {
+          "en": "Bank of Korea",
+          "zh": "韩国银行",
+          "native": "한국은행"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bok.or.kr/eng/main/main.do",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/asia/korea/korea-bok.json"
+      },
+      {
+        "id": "mx-banxico",
+        "name": {
+          "en": "Bank of Mexico Economic Information System",
+          "zh": "墨西哥银行经济信息系统",
+          "native": "Sistema de Información Económica - Banco de México"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.banxico.org.mx",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/mexico/banxico.json"
+      },
+      {
+        "id": "us-bea",
+        "name": {
+          "en": "Bureau of Economic Analysis",
+          "zh": "经济分析局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bea.gov/data",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/usa/us-bea.json"
+      },
+      {
+        "id": "us-bls",
+        "name": {
+          "en": "Bureau of Labor Statistics",
+          "zh": "劳工统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bls.gov/data/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/usa/us-bls.json"
+      },
+      {
+        "id": "bureau-of-meteorology",
+        "name": {
+          "en": "Bureau of Meteorology",
+          "zh": "澳大利亚气象局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bom.gov.au",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/oceania/australia/bureau-of-meteorology.json"
+      },
+      {
+        "id": "canada-cer",
+        "name": {
+          "en": "Canada Energy Regulator",
+          "zh": "加拿大能源监管局",
+          "native": "Régie de l'énergie du Canada"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cer-rec.gc.ca/en/data-analysis/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/canada/canada-energy-regulator.json"
+      },
+      {
+        "id": "canada-cihi",
+        "name": {
+          "en": "Canadian Institute for Health Information",
+          "zh": "加拿大健康信息研究所",
+          "native": "Institut canadien d'information sur la santé"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cihi.ca/en/access-data-and-reports",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/canada/canada-cihi.json"
+      },
+      {
+        "id": "us-cdc",
+        "name": {
+          "en": "Centers for Disease Control and Prevention",
+          "zh": "美国疾病控制与预防中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://wonder.cdc.gov/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/usa/us-cdc.json"
+      },
+      {
+        "id": "brazil-bcb",
+        "name": {
+          "en": "Central Bank of Brazil",
+          "zh": "巴西中央银行",
+          "native": "Banco Central do Brasil"
+        },
+        "authority_level": "government",
+        "data_url": "https://dadosabertos.bcb.gov.br",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/south-america/brazil/brazil-bcb.json"
+      },
+      {
+        "id": "china-cnipa-patents",
+        "name": {
+          "en": "China National Intellectual Property Administration - Patent Statistics",
+          "zh": "国家知识产权局专利统计"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnipa.gov.cn/col/col61/index.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/technology/intellectual_property/china-cnipa-patents.json"
+      },
+      {
+        "id": "china-csrc",
+        "name": {
+          "en": "China Securities Regulatory Commission",
+          "zh": "中国证券监督管理委员会",
+          "native": "中国证券监督管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/finance/securities/csrc.json"
+      },
+      {
+        "id": "clinicaltrials-gov",
+        "name": {
+          "en": "ClinicalTrials.gov",
+          "zh": "临床试验注册数据库"
+        },
+        "authority_level": "government",
+        "data_url": "https://clinicaltrials.gov/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/health/clinicaltrials-gov.json"
+      },
+      {
+        "id": "us-data-gov",
+        "name": {
+          "en": "Data.gov",
+          "zh": "美国政府开放数据平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://catalog.data.gov/dataset",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/usa/us-data-gov.json"
+      },
+      {
+        "id": "uk-data-gov",
+        "name": {
+          "en": "Data.gov.uk",
+          "zh": "英国政府开放数据平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.data.gov.uk",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/europe/uk/uk-data-gov.json"
+      },
+      {
+        "id": "india-dgcis",
+        "name": {
+          "en": "Directorate General of Commercial Intelligence and Statistics",
+          "zh": "印度商业情报与统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.commerce.gov.in/trade-statistics/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "countries/asia/india/india-dgcis.json"
+      },
+      {
+        "id": "ecb-sdw",
+        "name": {
+          "en": "ECB Statistical Data Warehouse (ECB Data Portal)",
+          "zh": "欧洲央行统计数据仓库"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.ecb.europa.eu/",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "international/economics/ecb-sdw.json"
+      },
+      {
+        "id": "us-ncbi-genbank",
+        "name": {
+          "en": "GenBank",
+          "zh": "基因库"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ncbi.nlm.nih.gov/genbank/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/biology/genbank.json"
+      },
+      {
+        "id": "china-customs",
+        "name": {
+          "en": "General Administration of Customs of China",
+          "zh": "中华人民共和国海关总署",
+          "native": "中华人民共和国海关总署"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/economy/trade/customs.json"
+      },
+      {
+        "id": "china-imt2030",
+        "name": {
+          "en": "IMT-2030 (6G) Promotion Group",
+          "zh": "IMT-2030(6G)推进组"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.imt2030.org.cn/html/default/zhongwen/chengguofabu/index.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/J-information-communication/china-imt2030.json"
+      },
+      {
+        "id": "china-miit-rare-earth",
+        "name": {
+          "en": "MIIT Rare Earth Office - Rare Earth Industry Regulation and Production Quotas",
+          "zh": "工业和信息化部稀土办公室 - 稀土行业规范与生产配额"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.miit.gov.cn/jgsj/ycls/xt/index.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/resources/mineral/china-miit-rare-earth.json"
+      },
+      {
+        "id": "china-mofcom",
+        "name": {
+          "en": "Ministry of Commerce of China",
+          "zh": "中华人民共和国商务部",
+          "native": "中华人民共和国商务部"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.mofcom.gov.cn",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/economy/trade/mofcom.json"
+      },
+      {
+        "id": "china-moe-higher-education",
+        "name": {
+          "en": "Ministry of Education of China - Higher Education Statistics",
+          "zh": "中华人民共和国教育部高等教育统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/education/higher_education/china-moe-higher-education.json"
+      },
+      {
+        "id": "china-miit",
+        "name": {
+          "en": "Ministry of Industry and Information Technology of the People's Republic of China",
+          "zh": "中华人民共和国工业和信息化部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.miit.gov.cn/gxsj/index.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/technology/telecommunications/china-miit.json"
+      },
+      {
+        "id": "china-mnr-minerals",
+        "name": {
+          "en": "Ministry of Natural Resources - Mineral Resources Data",
+          "zh": "自然资源部矿产资源数据"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mnr.gov.cn/sj/sjfw/kc_19263/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/resources/mineral/china-mnr-minerals.json"
+      },
+      {
+        "id": "nasa-earthdata",
+        "name": {
+          "en": "NASA Earthdata",
+          "zh": "NASA地球数据"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.earthdata.nasa.gov",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/earth-science/nasa-earthdata.json"
+      },
+      {
+        "id": "china-ndrc-computing",
+        "name": {
+          "en": "NDRC East-to-West Computing Resources Project",
+          "zh": "国家发展改革委东数西算工程"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202312/t20231229_1363000.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/economy/macro/china-ndrc-computing.json"
+      },
+      {
+        "id": "noaa-cdo",
+        "name": {
+          "en": "NOAA Climate Data Online (CDO)",
+          "zh": "NOAA气候数据在线系统"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ncei.noaa.gov/cdo-web/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "countries/north-america/usa/noaa-cdo.json"
+      },
+      {
+        "id": "china-nbs",
+        "name": {
+          "en": "National Bureau of Statistics of China",
+          "zh": "国家统计局",
+          "native": "国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.cn/sj/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "china/national/nbs.json"
+      },
+      {
+        "id": "mexico-coneval",
+        "name": {
+          "en": "National Council for the Evaluation of Social Development Policy",
+          "zh": "墨西哥社会发展政策评估委员会",
+          "native": "Consejo Nacional de Evaluación de la Política de Desarrollo Social"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.coneval.org.mx",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/mexico/coneval.json"
+      },
+      {
+        "id": "china-national-data-bureau",
+        "name": {
+          "en": "National Data Administration of China",
+          "zh": "国家数据局"
+        },
+        "authority_level": "government",
+        "data_url": "https://sjdj.nda.gov.cn/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+      },
+      {
+        "id": "china-ndrc",
+        "name": {
+          "en": "National Development and Reform Commission",
+          "zh": "国家发展和改革委员会",
+          "native": "国家发展和改革委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ndrc.gov.cn/fgsj/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/economy/macro/ndrc.json"
+      },
+      {
+        "id": "china-nfra",
+        "name": {
+          "en": "National Financial Regulatory Administration",
+          "zh": "国家金融监督管理总局",
+          "native": "国家金融监督管理总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nfra.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/finance/banking/nfra.json"
+      },
+      {
+        "id": "china-most-rnd",
+        "name": {
+          "en": "National Key R&D Program of China - Industrial Software and 16 Key Special Projects",
+          "zh": "国家重点研发计划 - 工业软件专项及16个重点专项"
+        },
+        "authority_level": "government",
+        "data_url": "https://service.most.gov.cn/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/technology/sci_resources/china-most-rnd.json"
+      },
+      {
+        "id": "china-most-infrastructure",
+        "name": {
+          "en": "National Platform for Research Infrastructure and Large-scale Scientific Instruments",
+          "zh": "重大科研基础设施和大型科研仪器国家网络管理平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://nrii.org.cn/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/technology/sci_resources/china-most-infrastructure.json"
+      },
+      {
+        "id": "china-pbc",
+        "name": {
+          "en": "People's Bank of China",
+          "zh": "中国人民银行",
+          "native": "中国人民银行"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/finance/banking/pbc.json"
+      },
+      {
+        "id": "pubchem",
+        "name": {
+          "en": "PubChem",
+          "zh": "PubChem化学数据库"
+        },
+        "authority_level": "government",
+        "data_url": "https://pubchem.ncbi.nlm.nih.gov/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/chemistry/pubchem.json"
+      },
+      {
+        "id": "pubmed",
+        "name": {
+          "en": "PubMed",
+          "zh": "PubMed生物医学文献数据库"
+        },
+        "authority_level": "government",
+        "data_url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/health/pubmed.json"
+      },
+      {
+        "id": "china-sac-standards",
+        "name": {
+          "en": "Standardization Administration of China (SAC)",
+          "zh": "国家标准化管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://std.samr.gov.cn/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/technology/standards/china-sac-standards.json"
+      },
+      {
+        "id": "canada-statcan",
+        "name": {
+          "en": "Statistics Canada",
+          "zh": "加拿大统计局",
+          "native": "Statistique Canada"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statcan.gc.ca/en/start",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/canada/statcan.json"
+      },
+      {
+        "id": "tcga",
+        "name": {
+          "en": "The Cancer Genome Atlas (TCGA)",
+          "zh": "癌症基因组图谱"
+        },
+        "authority_level": "government",
+        "data_url": "https://portal.gdc.cancer.gov/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "academic/health/tcga.json"
+      },
+      {
+        "id": "usa-eia",
+        "name": {
+          "en": "U.S. Energy Information Administration",
+          "zh": "美国能源信息署"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.eia.gov",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/usa/eia.json"
+      },
+      {
+        "id": "usgs-earthexplorer",
+        "name": {
+          "en": "USGS EarthExplorer",
+          "zh": "美国地质调查局地球探索者"
+        },
+        "authority_level": "government",
+        "data_url": "https://earthexplorer.usgs.gov/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "countries/north-america/usa/usgs-earthexplorer.json"
+      },
+      {
+        "id": "usa-census-bureau",
+        "name": {
+          "en": "United States Census Bureau",
+          "zh": "美国人口普查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.census.gov",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/north-america/usa/census-bureau.json"
+      }
+    ],
+    "international": [
+      {
+        "id": "africa-cdc",
+        "name": {
+          "en": "Africa CDC Health Data",
+          "zh": "非洲疾控中心健康数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://africacdc.org",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "international/health/africa-cdc.json"
+      },
+      {
+        "id": "afdb",
+        "name": {
+          "en": "African Development Bank",
+          "zh": "非洲开发银行"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.afdb.org/en/knowledge/statistics",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "international/development/afdb.json"
+      },
+      {
+        "id": "amis",
+        "name": {
+          "en": "Agricultural Market Information System (AMIS)",
+          "zh": "农业市场信息系统"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.amis-outlook.org",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/A-agriculture/amis.json"
+      },
+      {
+        "id": "alphafold-db",
+        "name": {
+          "en": "AlphaFold Protein Structure Database",
+          "zh": "AlphaFold蛋白质结构数据库"
+        },
+        "authority_level": "international",
+        "data_url": "https://alphafold.com",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/biology/alphafold-db.json"
+      },
+      {
+        "id": "adb-data",
+        "name": {
+          "en": "Asian Development Bank Data Library",
+          "zh": "亚洲开发银行数据库",
+          "native": "ADB Data Library"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.adb.org",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "international/development/adb-data.json"
+      },
+      {
+        "id": "bipm-kcdb",
+        "name": {
+          "en": "BIPM Key Comparison Database (KCDB)",
+          "zh": "国际度量衡局关键比对数据库",
+          "native": "Bureau International des Poids et Mesures (BIPM)"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.bipm.org/kcdb",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/standards-metrology/bipm-kcdb.json"
+      },
+      {
+        "id": "basel-convention",
+        "name": {
+          "en": "Basel Convention Data",
+          "zh": "巴塞尔公约数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.basel.int",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/environment/basel-convention.json"
+      },
+      {
+        "id": "cgiar-research-data",
+        "name": {
+          "en": "CGIAR Research Data",
+          "zh": "国际农业研究磋商组织研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://gardian.cgiar.org/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/agriculture/cgiar-research-data.json"
+      },
+      {
+        "id": "cites-trade-database",
+        "name": {
+          "en": "CITES Trade Database",
+          "zh": "濒危物种国际贸易公约贸易数据库"
+        },
+        "authority_level": "international",
+        "data_url": "https://trade.cites.org",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/environment/cites-trade-database.json"
+      },
+      {
+        "id": "caribbean-development-bank",
+        "name": {
+          "en": "Caribbean Development Bank",
+          "zh": "加勒比开发银行"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.caribank.org/data/country-data-reports",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "international/development/caribbean-development-bank.json"
+      },
+      {
+        "id": "intl-chemspider",
+        "name": {
+          "en": "ChemSpider",
+          "zh": "化学蜘蛛数据库"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.chemspider.com",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "academic/chemistry/chemspider.json"
+      },
+      {
+        "id": "codex-alimentarius",
+        "name": {
+          "en": "Codex Alimentarius Standards",
+          "zh": "国际食品法典委员会标准"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/standards-metrology/codex-alimentarius.json"
+      },
+      {
+        "id": "intl-copernicus-cdse",
+        "name": {
+          "en": "Copernicus Data Space Ecosystem",
+          "zh": "哥白尼数据空间生态系统"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataspace.copernicus.eu",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/earth-science/copernicus-data-space.json"
+      },
+      {
+        "id": "copernicus-open-access-hub",
+        "name": {
+          "en": "Copernicus Open Access Hub",
+          "zh": "哥白尼开放访问中心"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataspace.copernicus.eu/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/environment/copernicus-open-access-hub.json"
+      },
+      {
+        "id": "dhs",
+        "name": {
+          "en": "Demographic and Health Surveys (DHS) Program",
+          "zh": "人口与健康调查项目"
+        },
+        "authority_level": "international",
+        "data_url": "https://dhsprogram.com/",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "academic/health/dhs.json"
+      },
+      {
+        "id": "caf",
+        "name": {
+          "en": "Development Bank of Latin America and the Caribbean (CAF)",
+          "zh": "拉美和加勒比开发银行",
+          "native": "Banco de Desarrollo de América Latina y El Caribe"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.caf.com/en/",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "international/development/caf.json"
+      },
+      {
+        "id": "ecdc-surveillance",
+        "name": {
+          "en": "ECDC Surveillance Data",
+          "zh": "欧洲疾病预防控制中心监测数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ecdc.europa.eu/en/data-dashboards-and-databases",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "international/health/ecdc-surveillance.json"
+      },
+      {
+        "id": "ebrd",
+        "name": {
+          "en": "European Bank for Reconstruction and Development",
+          "zh": "欧洲复兴开发银行"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ebrd.com",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "international/finance/ebrd.json"
+      },
+      {
+        "id": "ena",
+        "name": {
+          "en": "European Nucleotide Archive",
+          "zh": "欧洲核苷酸档案库"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ebi.ac.uk/ena/browser/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/biology/ena.json"
+      },
+      {
+        "id": "faostat",
+        "name": {
+          "en": "FAOSTAT - Food and Agriculture Data",
+          "zh": "粮农组织统计数据库"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.fao.org/faostat/en/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/agriculture/faostat.json"
+      },
+      {
+        "id": "iea-energy-data",
+        "name": {
+          "en": "IEA Energy Data",
+          "zh": "国际能源署能源数据",
+          "native": "IEA Energy Data"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.org/data-and-statistics",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/energy/iea.json"
+      },
+      {
+        "id": "imf-data",
+        "name": {
+          "en": "IMF Data",
+          "zh": "国际货币基金组织数据",
+          "native": "IMF Data"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.imf.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/economics/imf.json"
+      },
+      {
+        "id": "idb",
+        "name": {
+          "en": "Inter-American Development Bank",
+          "zh": "美洲开发银行"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iadb.org/en/knowledge-resources/data",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "international/development/idb.json"
+      },
+      {
+        "id": "oecd-statistics",
+        "name": {
+          "en": "OECD Statistics",
+          "zh": "经合组织统计数据",
+          "native": "OECD Statistics"
+        },
+        "authority_level": "international",
+        "data_url": "https://stats.oecd.org",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "international/economics/oecd.json"
+      },
+      {
+        "id": "oecd-pisa",
+        "name": {
+          "en": "PISA - Programme for International Student Assessment",
+          "zh": "国际学生评估项目"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.oecd.org/en/about/programmes/pisa.html",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/education/oecd-pisa.json"
+      },
+      {
+        "id": "paris-club",
+        "name": {
+          "en": "Paris Club",
+          "zh": "巴黎俱乐部"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.clubdeparis.org",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "international/finance/paris-club.json"
+      },
+      {
+        "id": "un-comtrade",
+        "name": {
+          "en": "UN Comtrade - United Nations International Trade Statistics Database",
+          "zh": "联合国国际贸易统计数据库"
+        },
+        "authority_level": "international",
+        "data_url": "https://comtradeplus.un.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/trade/comtrade.json"
+      },
+      {
+        "id": "unctad",
+        "name": {
+          "en": "UNCTAD - United Nations Conference on Trade and Development",
+          "zh": "联合国贸易和发展会议"
+        },
+        "authority_level": "international",
+        "data_url": "https://unctadstat.unctad.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/trade/unctad.json"
+      },
+      {
+        "id": "wipo-ip-statistics",
+        "name": {
+          "en": "WIPO IP Statistics",
+          "zh": "世界知识产权组织知识产权统计",
+          "native": "WIPO IP Statistics"
+        },
+        "authority_level": "international",
+        "data_url": "https://www3.wipo.int/ipstats/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/intellectual-property/wipo.json"
+      },
+      {
+        "id": "wto-statistics",
+        "name": {
+          "en": "WTO Statistics Database",
+          "zh": "世界贸易组织统计数据库",
+          "native": "WTO Statistics Database"
+        },
+        "authority_level": "international",
+        "data_url": "https://stats.wto.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/trade/wto.json"
+      },
+      {
+        "id": "worldbank-open-data",
+        "name": {
+          "en": "World Bank Open Data",
+          "zh": "世界银行开放数据",
+          "native": "World Bank Open Data"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.worldbank.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/economics/worldbank.json"
+      }
+    ],
+    "market": [
+      {
+        "id": "china-rare-earth-association",
+        "name": {
+          "en": "Association of China Rare Earth Industry",
+          "zh": "中国稀土行业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://ac-rei.org.cn",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/B-mining/rare-earth/china-rare-earth-association.json"
+      },
+      {
+        "id": "china-additive-manufacturing-alliance",
+        "name": {
+          "en": "China Additive Manufacturing Alliance",
+          "zh": "中国增材制造产业联盟"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.miit-eidc.org.cn",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/additive/china-additive-manufacturing-alliance.json"
+      },
+      {
+        "id": "china-auto-association",
+        "name": {
+          "en": "China Association of Automobile Manufacturers",
+          "zh": "中国汽车工业协会"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.caam.org.cn/tjsj",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/automotive/china-auto-association.json"
+      },
+      {
+        "id": "china-charging-alliance",
+        "name": {
+          "en": "China Electric Vehicle Charging Infrastructure Promotion Alliance",
+          "zh": "中国电动汽车充电基础设施促进联盟"
+        },
+        "authority_level": "market",
+        "data_url": "https://evcipa.com/dataCenter/dataList",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
+      },
+      {
+        "id": "china-machine-tool-association",
+        "name": {
+          "en": "China Machine Tool & Tool Builders' Association",
+          "zh": "中国机床工具工业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cmtba.org.cn/web/11/list.html",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/machinery/china-machine-tool-association.json"
+      },
+      {
+        "id": "china-optical-association",
+        "name": {
+          "en": "China Optics and Optoelectronics Manufacturers Association",
+          "zh": "中国光学光电子行业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.coema.org.cn/research/sum",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/electronics/china-optical-association.json"
+      },
+      {
+        "id": "china-lcd-association",
+        "name": {
+          "en": "China Optoelectronic Display Association - Liquid Crystal Division (CODA)",
+          "zh": "中国光学光电子行业协会液晶分会"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.coda.org.cn/#/details/more?type=list-info&id=61b1c9ec105e35101858fc49&bannerId=61b30eaa105e353264b3f083",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/electronics/china-lcd-association.json"
+      },
+      {
+        "id": "china-petroleum-chemical-federation",
+        "name": {
+          "en": "China Petroleum and Chemical Industry Federation",
+          "zh": "中国石油和化学工业联合会"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.cpcif.org.cn/list/402882396610575f0166105924fe0000",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/chemicals/china-petroleum-chemical-federation.json"
+      },
+      {
+        "id": "china-semiconductor-association",
+        "name": {
+          "en": "China Semiconductor Industry Association",
+          "zh": "中国半导体行业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://web.csia.net.cn/hyyhfx",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/electronics/china-semiconductor-association.json"
+      },
+      {
+        "id": "china-software-association",
+        "name": {
+          "en": "China Software Industry Association",
+          "zh": "中国软件行业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.csia.org.cn/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/J-information-communication/china-software-association.json"
+      },
+      {
+        "id": "china-robot-industry-alliance",
+        "name": {
+          "en": "Robot Branch of China Machinery Industry Federation",
+          "zh": "中国机械工业联合会机器人分会"
+        },
+        "authority_level": "market",
+        "data_url": "http://cria.mei.net.cn/gzpt.asp?lm=/1310",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/C-manufacturing/robotics/china-robot-industry-alliance.json"
+      },
+      {
+        "id": "bp-statistical-review",
+        "name": {
+          "en": "Statistical Review of World Energy",
+          "zh": "世界能源统计年鉴"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.energyinst.org/statistical-review",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/D-energy/bp-statistical-review.json"
+      }
+    ],
+    "research": [
+      {
+        "id": "1000-genomes",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "academic/biology/1000-genomes.json"
+      },
+      {
+        "id": "tennis-atp-wta-data",
+        "name": {
+          "en": "ATP/WTA Tennis Data",
+          "zh": "ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json"
+      },
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/P-education/arwu.json"
+      },
+      {
+        "id": "afrobarometer",
+        "name": {
+          "en": "Afrobarometer",
+          "zh": "非洲晴雨表"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.afrobarometer.org/data/",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "academic/social/afrobarometer.json"
+      },
+      {
+        "id": "asian-barometer",
+        "name": {
+          "en": "Asian Barometer Survey",
+          "zh": "亚洲民主动态调查"
+        },
+        "authority_level": "research",
+        "data_url": "https://asianbarometer.org",
+        "has_api": false,
+        "geographic_scope": "regional",
+        "file_path": "academic/social/asian-barometer.json"
+      },
+      {
+        "id": "bookscorpus",
+        "name": {
+          "en": "BooksCorpus",
+          "zh": "图书语料库"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/soskek/bookcorpus",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/J-information-communication/bookscorpus.json"
+      },
+      {
+        "id": "british-museum-collection",
+        "name": {
+          "en": "British Museum Collection",
+          "zh": "大英博物馆馆藏"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.britishmuseum.org/collection",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/R-arts-entertainment/british-museum-collection.json"
+      },
+      {
+        "id": "cern-open-data",
+        "name": {
+          "en": "CERN Open Data Portal",
+          "zh": "CERN 开放数据门户"
+        },
+        "authority_level": "research",
+        "data_url": "https://opendata.cern.ch/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/physics/cern-open-data.json"
+      },
+      {
+        "id": "cifar",
+        "name": {
+          "en": "CIFAR-10 and CIFAR-100",
+          "zh": "CIFAR-10 和 CIFAR-100 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/J-information-communication/cifar.json"
+      },
+      {
+        "id": "crsp",
+        "name": {
+          "en": "CRSP - Center for Research in Security Prices",
+          "zh": "证券价格研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.crsp.org/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "sectors/K-finance-insurance/crsp.json"
+      },
+      {
+        "id": "cambridge-structural-database",
+        "name": {
+          "en": "Cambridge Structural Database (CSD)",
+          "zh": "剑桥晶体结构数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ccdc.cam.ac.uk",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "sectors/M-professional-scientific/cambridge-structural-database.json"
+      },
+      {
+        "id": "chembl",
+        "name": {
+          "en": "ChEMBL Database",
+          "zh": "ChEMBL生物活性数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ebi.ac.uk/chembl/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/chemistry/chembl.json"
+      },
+      {
+        "id": "china-caict",
+        "name": {
+          "en": "China Academy of Information and Communications Technology",
+          "zh": "中国信息通信研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.caict.ac.cn/kxyj/qwfb/",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "china/research/china-caict.json"
+      },
+      {
+        "id": "china-instrument-society",
+        "name": {
+          "en": "China Instrument and Control Society",
+          "zh": "中国仪器仪表学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cis.org.cn/post/index/162",
+        "has_api": false,
+        "geographic_scope": "national",
+        "file_path": "sectors/M-professional-scientific/china-instrument-society.json"
+      },
+      {
+        "id": "conll-shared-tasks",
+        "name": {
+          "en": "CoNLL Shared Tasks Data",
+          "zh": "CoNLL共享任务数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.conll.org/previous-tasks",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/J-information-communication/conll-shared-tasks.json"
+      },
+      {
+        "id": "common-crawl",
+        "name": {
+          "en": "Common Crawl",
+          "zh": "Common Crawl 网络爬取数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://commoncrawl.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "sectors/J-information-communication/common-crawl.json"
+      },
+      {
+        "id": "acad-cod",
+        "name": {
+          "en": "Crystallography Open Database",
+          "zh": "晶体学开放数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.crystallography.net/cod/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/physics/crystallography-open-database.json"
+      },
+      {
+        "id": "drugbank",
+        "name": {
+          "en": "DrugBank",
+          "zh": "药物与药物靶点数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://go.drugbank.com",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/chemistry/drugbank.json"
+      },
+      {
+        "id": "ghdx",
+        "name": {
+          "en": "Global Health Data Exchange (GHDx)",
+          "zh": "全球健康数据交换平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://ghdx.healthdata.org/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/health/ghdx.json"
+      },
+      {
+        "id": "ggdc-databases",
+        "name": {
+          "en": "Groningen Growth and Development Centre (GGDC) Databases",
+          "zh": "格罗宁根增长与发展中心数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.rug.nl/ggdc/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "academic/economics/ggdc-databases.json"
+      },
+      {
+        "id": "imagenet",
+        "name": {
+          "en": "ImageNet",
+          "zh": "ImageNet 图像数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.image-net.org",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/J-information-communication/imagenet.json"
+      },
+      {
+        "id": "nber-data",
+        "name": {
+          "en": "NBER Data Library",
+          "zh": "国家经济研究局数据库",
+          "native": "NBER Data Library"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nber.org",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "academic/economics/nber.json"
+      },
+      {
+        "id": "penn-world-table",
+        "name": {
+          "en": "Penn World Table",
+          "zh": "宾州世界表"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.rug.nl/ggdc/productivity/pwt/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "academic/economics/penn-world-table.json"
+      },
+      {
+        "id": "intl-rcsb-pdb",
+        "name": {
+          "en": "Protein Data Bank (PDB)",
+          "zh": "蛋白质数据银行"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.rcsb.org",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/biology/pdb.json"
+      },
+      {
+        "id": "acad-conferenceboard",
+        "name": {
+          "en": "The Conference Board Economic Data",
+          "zh": "世界大型企业联合会经济数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.conference-board.org/topics/economic-data-analysis",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "academic/economics/conference-board.json"
+      },
+      {
+        "id": "uk-biobank",
+        "name": {
+          "en": "UK Biobank",
+          "zh": "英国生物样本库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ukbiobank.ac.uk/",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "academic/biology/uk-biobank.json"
+      },
+      {
+        "id": "world-inequality-database",
+        "name": {
+          "en": "World Inequality Database (WID.world)",
+          "zh": "世界不平等数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://wid.world/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "academic/economics/world-inequality-database.json"
+      }
+    ],
+    "commercial": [
+      {
+        "id": "alpha-vantage",
+        "name": {
+          "en": "Alpha Vantage API",
+          "zh": "Alpha Vantage API"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.alphavantage.co/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "sectors/K-finance-insurance/alpha-vantage.json"
+      },
+      {
+        "id": "bloomberg-terminal",
+        "name": {
+          "en": "Bloomberg Terminal (Public Data)",
+          "zh": "彭博终端（部分公开数据）"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.bloomberg.com/markets",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "sectors/K-finance-insurance/bloomberg-terminal.json"
+      },
+      {
+        "id": "cryptocurrency-data",
+        "name": {
+          "en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
+          "zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://coinmarketcap.com",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "sectors/K-finance-insurance/cryptocurrency-data.json"
+      },
+      {
+        "id": "derwent-innovation-index",
+        "name": {
+          "en": "Derwent Innovation Index",
+          "zh": "德温特创新索引"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://clarivate.com/products/derwent-innovation/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json"
+      },
+      {
+        "id": "hkex",
+        "name": {
+          "en": "Hong Kong Exchanges and Clearing Limited (HKEX)",
+          "zh": "香港交易及结算所有限公司（港交所）",
+          "native": "香港交易及结算所有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.hkexnews.hk",
+        "has_api": true,
+        "geographic_scope": "regional",
+        "file_path": "china/finance/securities/hkex.json"
+      }
+    ],
+    "other": []
+  }
+}

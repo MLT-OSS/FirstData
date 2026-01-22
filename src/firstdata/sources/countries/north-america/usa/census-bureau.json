@@ -1,0 +1,79 @@
+{
+  "id": "usa-census-bureau",
+  "name": {
+    "en": "United States Census Bureau",
+    "zh": "美国人口普查局"
+  },
+  "description": {
+    "en": "The leading source of quality data about the United States' people and economy. Conducts the decennial census, American Community Survey (ACS), Economic Census, and numerous other surveys covering demographics, housing, business, trade, and government. Serves as the nation's primary provider of data about its people and economy.",
+    "zh": "美国人口和经济质量数据的主要来源。进行十年一次的人口普查、美国社区调查(ACS)、经济普查以及涵盖人口统计、住房、商业、贸易和政府的众多其他调查。是美国有关人口和经济数据的主要提供者。"
+  },
+  "website": "https://www.census.gov",
+  "data_url": "https://www.census.gov",
+  "api_url": "https://www.census.gov/data/developers.html",
+  "country": "US",
+  "domains": [
+    "demographics",
+    "economics",
+    "housing",
+    "business",
+    "trade",
+    "government",
+    "geography",
+    "population",
+    "income",
+    "employment",
+    "education",
+    "health"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "united-states",
+    "national-statistics",
+    "census",
+    "demographics",
+    "economic-indicators",
+    "housing-data",
+    "population-data",
+    "geospatial",
+    "open-data",
+    "government-data",
+    "api-available"
+  ],
+  "data_content": {
+    "en": [
+      "Decennial Census - complete population count every 10 years (1790-present)",
+      "American Community Survey (ACS) - annual demographic, housing, economic data",
+      "Economic Census - comprehensive business and economy data every 5 years",
+      "Population Estimates Program - annual population estimates",
+      "Current Population Survey (CPS) - monthly employment and labor statistics",
+      "American Housing Survey - housing characteristics and costs",
+      "Business dynamics and statistics",
+      "International trade data",
+      "Government finance statistics",
+      "Cartographic boundary files and geographic data",
+      "Income, poverty, and wealth statistics",
+      "Educational attainment and school enrollment data",
+      "Health insurance coverage statistics",
+      "Migration and mobility data"
+    ],
+    "zh": [
+      "十年一次人口普查 - 每10年完整人口统计 (1790年至今)",
+      "美国社区调查(ACS) - 年度人口统计、住房、经济数据",
+      "经济普查 - 每5年一次全面的商业和经济数据",
+      "人口估计计划 - 年度人口估计",
+      "当前人口调查(CPS) - 月度就业和劳动力统计",
+      "美国住房调查 - 住房特征和成本",
+      "商业动态和统计",
+      "国际贸易数据",
+      "政府财政统计",
+      "地图边界文件和地理数据",
+      "收入、贫困和财富统计",
+      "教育程度和入学数据",
+      "健康保险覆盖统计",
+      "迁移和流动性数据"
+    ]
+  },
+  "authority_level": "government"
+}

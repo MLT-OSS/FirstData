@@ -1,0 +1,65 @@
+{
+  "id": "hkex",
+  "name": {
+    "en": "Hong Kong Exchanges and Clearing Limited (HKEX)",
+    "zh": "香港交易及结算所有限公司（港交所）",
+    "native": "香港交易及结算所有限公司"
+  },
+  "description": {
+    "en": "HKEX operates securities, derivatives, and commodities markets in Hong Kong and is a leading global exchange group. It provides comprehensive market data including real-time trading data, listed company disclosures, market indices, and clearing and settlement information. HKEX also operates HKEXnews, the official platform for listed company announcements and regulatory filings.",
+    "zh": "港交所（香港交易所）经营香港的证券、衍生品和商品市场，是全球领先的交易所集团。提供全面的市场数据，包括实时交易数据、上市公司披露信息、市场指数以及清算结算信息。港交所还运营HKEXnews（披露易），这是上市公司公告、招股书、IPO信息和监管文件的官方平台。"
+  },
+  "website": "https://www.hkex.com.hk",
+  "data_url": "https://www.hkexnews.hk",
+  "api_url": "https://www.hkex.com.hk/Services/Market-Data-Services/Real-Time-Data-Services/Data-Licensing",
+  "country": null,
+  "domains": [
+    "finance",
+    "securities",
+    "derivatives",
+    "capital_markets"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "real-time",
+  "tags": [
+    "hong-kong",
+    "港交所",
+    "stock-exchange",
+    "securities",
+    "derivatives",
+    "listed-companies",
+    "market-data",
+    "hkex",
+    "capital-markets",
+    "stock-connect",
+    "ipo",
+    "prospectus",
+    "招股书",
+    "上市公司"
+  ],
+  "data_content": {
+    "en": [
+      "Securities Market Data - Real-time and historical data for equities, warrants, REITs, debt securities, ETFs, and structured products",
+      "Derivatives Market Data - Futures and options on indices, commodities, currencies, and individual stocks",
+      "Listed Company Information - Announcements, financial reports, prospectuses, IPO allotment results, and regulatory disclosures via HKEXnews",
+      "Market Indices - Hang Seng Index, HSCEI, Hang Seng TECH Index, HKEX Tech 100 Index, and other benchmarks",
+      "Trading Statistics - Daily turnover, market capitalization, trading volume, and market activity reports",
+      "IPO and New Listings - New listing applications, progress reports, and listing documents",
+      "Shareholding Disclosures - CCASS shareholding data, Stock Connect holdings, and disclosure of interests",
+      "Clearing and Settlement Data - Trade settlement information and risk management data",
+      "Market Communications - Circulars, regulatory announcements, and exchange notifications"
+    ],
+    "zh": [
+      "证券市场数据 - 股票、权证、房地产投资信托基金、债券、ETF和结构性产品的实时和历史数据",
+      "衍生品市场数据 - 指数、商品、货币和个股的期货和期权",
+      "上市公司信息 - 通过HKEXnews发布的公告、财务报告、招股书、IPO配售结果和监管披露",
+      "市场指数 - 恒生指数、国企指数、恒生科技指数、香港交易所科技100指数及其他基准指数",
+      "交易统计 - 日成交额、市值、交易量和市场活动报告",
+      "IPO和新上市 - 新上市申请、进度报告和上市文件",
+      "持股披露 - 中央结算系统持股数据、互联互通持股和权益披露",
+      "清算结算数据 - 交易结算信息和风险管理数据",
+      "市场通讯 - 通告、监管公告和交易所通知"
+    ]
+  },
+  "authority_level": "commercial"
+}

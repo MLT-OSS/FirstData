@@ -1,0 +1,65 @@
+{
+  "id": "nasa-earthdata",
+  "name": {
+    "en": "NASA Earthdata",
+    "zh": "NASA地球数据"
+  },
+  "description": {
+    "en": "NASA's Earth Science Data Systems (ESDS) Program provides open access to NASA's archive of Earth science data, empowering researchers and decision makers to better understand and protect our home planet. The archive contains over 128 petabytes of Earth observation data covering atmosphere, biosphere, climate indicators, cryosphere, human dimensions, land surface, ocean, solid earth, sun-earth interactions, and terrestrial hydrosphere.",
+    "zh": "NASA地球科学数据系统(ESDS)计划提供对NASA地球科学数据存档的开放访问,使研究人员和决策者能够更好地了解和保护我们的地球。该存档包含超过128 PB的地球观测数据,涵盖大气、生物圈、气候指标、冰冻圈、人类维度、陆地表面、海洋、固体地球、日地相互作用和陆地水圈。"
+  },
+  "website": "https://www.earthdata.nasa.gov",
+  "data_url": "https://www.earthdata.nasa.gov",
+  "api_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
+  "country": null,
+  "domains": [
+    "earth-science",
+    "atmosphere",
+    "climate",
+    "environment",
+    "ocean",
+    "land-surface",
+    "cryosphere",
+    "biosphere"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "nasa",
+    "earth-science",
+    "satellite-data",
+    "remote-sensing",
+    "climate",
+    "environment",
+    "open-data",
+    "api",
+    "geospatial"
+  ],
+  "data_content": {
+    "en": [
+      "Atmosphere - Aerosols, clouds, precipitation, atmospheric composition",
+      "Biosphere - Vegetation, ecosystems, biodiversity, land cover",
+      "Climate Indicators - Temperature, sea level, ice extent, greenhouse gases",
+      "Cryosphere - Snow cover, glaciers, ice sheets, sea ice",
+      "Human Dimensions - Land use, urban areas, population, socioeconomic data",
+      "Land Surface - Topography, soil moisture, land surface temperature",
+      "Ocean - Sea surface temperature, ocean color, salinity, currents",
+      "Solid Earth - Gravity, magnetic field, tectonics, volcanoes",
+      "Sun-Earth Interactions - Solar radiation, ionosphere, magnetosphere",
+      "Terrestrial Hydrosphere - Rivers, lakes, groundwater, wetlands, floods"
+    ],
+    "zh": [
+      "大气 - 气溶胶、云、降水、大气成分",
+      "生物圈 - 植被、生态系统、生物多样性、土地覆盖",
+      "气候指标 - 温度、海平面、冰盖范围、温室气体",
+      "冰冻圈 - 积雪覆盖、冰川、冰盖、海冰",
+      "人类维度 - 土地利用、城市地区、人口、社会经济数据",
+      "陆地表面 - 地形、土壤湿度、地表温度",
+      "海洋 - 海表温度、海洋颜色、盐度、洋流",
+      "固体地球 - 重力、磁场、构造、火山",
+      "日地相互作用 - 太阳辐射、电离层、磁层",
+      "陆地水圈 - 河流、湖泊、地下水、湿地、洪水"
+    ]
+  },
+  "authority_level": "government"
+}

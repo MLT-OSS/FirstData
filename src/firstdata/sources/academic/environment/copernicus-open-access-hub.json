@@ -1,0 +1,55 @@
+{
+  "id": "copernicus-open-access-hub",
+  "name": {
+    "en": "Copernicus Open Access Hub",
+    "zh": "哥白尼开放访问中心"
+  },
+  "description": {
+    "en": "The Copernicus Open Access Hub (legacy service, retired Nov 2, 2023) provided free and open access to Sentinel satellite Earth observation data. It has been replaced by the Copernicus Data Space Ecosystem, which offers enhanced access to comprehensive Sentinel mission data including radar, optical, and atmospheric measurements for environmental monitoring, climate research, and disaster management.",
+    "zh": "哥白尼开放访问中心(遗留服务,已于2023年11月2日退役)提供免费开放的Sentinel卫星地球观测数据访问。现已被哥白尼数据空间生态系统取代,该系统提供增强的Sentinel任务综合数据访问,包括雷达、光学和大气测量数据,用于环境监测、气候研究和灾害管理。"
+  },
+  "website": "https://www.esa.int",
+  "data_url": "https://dataspace.copernicus.eu/",
+  "api_url": "https://documentation.dataspace.copernicus.eu/",
+  "country": null,
+  "domains": [
+    "environment",
+    "climate",
+    "ocean",
+    "land",
+    "atmosphere",
+    "disaster_management"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "satellite",
+    "earth_observation",
+    "remote_sensing",
+    "sentinel",
+    "copernicus",
+    "ESA",
+    "radar",
+    "optical",
+    "atmospheric",
+    "climate",
+    "environment",
+    "global",
+    "open_data"
+  ],
+  "data_content": {
+    "en": [
+      "Radar Imaging (SAR) - Land surface topography, Ocean surface winds and waves, Sea ice cover and thickness, Soil moisture and vegetation",
+      "Optical Imaging - Land cover and vegetation monitoring, Coastal and inland water monitoring, Ocean color and land surface temperature, High-resolution multispectral imagery (10-60m)",
+      "Atmospheric Monitoring - Air quality and pollution monitoring, Greenhouse gas concentrations, Ozone and UV radiation, Aerosols and trace gases",
+      "Ocean Altimetry - Sea surface height, Ocean topography and currents, Significant wave height"
+    ],
+    "zh": [
+      "雷达成像(合成孔径雷达) - 陆地表面地形、海洋表面风和波浪、海冰覆盖和厚度、土壤湿度和植被",
+      "光学成像 - 土地覆盖和植被监测、海岸和内陆水体监测、海洋颜色和陆地表面温度、高分辨率多光谱影像(10-60米)",
+      "大气监测 - 空气质量和污染监测、温室气体浓度、臭氧和紫外线辐射、气溶胶和痕量气体",
+      "海洋测高 - 海平面高度、海洋地形和洋流、有效波高"
+    ]
+  },
+  "authority_level": "international"
+}

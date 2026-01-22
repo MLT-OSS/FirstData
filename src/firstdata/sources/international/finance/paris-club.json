@@ -1,0 +1,46 @@
+{
+  "id": "paris-club",
+  "name": {
+    "en": "Paris Club",
+    "zh": "巴黎俱乐部"
+  },
+  "description": {
+    "en": "The Paris Club is a group of major creditor countries whose role is to find coordinated and sustainable solutions to the payment difficulties experienced by debtor countries. It provides detailed data on debt treatment agreements, debt stocks, and debt service flows for debtor countries.",
+    "zh": "巴黎俱乐部是主要债权国组成的集团，其作用是为债务国面临的支付困难寻找协调和可持续的解决方案。它提供债务处理协议、债务存量和债务国债务偿还流量的详细数据。"
+  },
+  "website": "https://www.clubdeparis.org",
+  "data_url": "https://www.clubdeparis.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "finance",
+    "development",
+    "economics"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "irregular",
+  "tags": [
+    "sovereign_debt",
+    "debt_restructuring",
+    "debt_relief",
+    "creditor_coordination",
+    "development_finance"
+  ],
+  "data_content": {
+    "en": [
+      "Paris Club data includes debt treatment agreements, debt stocks and flows, debt service schedules, creditor participation, and historical debt restructuring operations for over 90 debtor countries",
+      "Debt Treatment Agreements - Details of bilateral and multilateral debt restructuring agreements negotiated with debtor countries",
+      "Debt Stock Data - Outstanding debt owed by debtor countries to Paris Club creditors",
+      "Debt Service Flows - Scheduled and actual debt service payments by debtor countries",
+      "Historical Agreements Database - Complete archive of all debt treatment agreements since 1956"
+    ],
+    "zh": [
+      "巴黎俱乐部数据包括90多个债务国的债务处理协议、债务存量和流量、债务偿还时间表、债权人参与情况以及历史债务重组操作",
+      "债务处理协议 - 与债务国协商达成的双边和多边债务重组协议详情",
+      "债务存量数据 - 债务国欠巴黎俱乐部债权人的未偿债务",
+      "债务偿还流量 - 债务国预定和实际的债务偿还支付",
+      "历史协议数据库 - 自1956年以来所有债务处理协议的完整档案"
+    ]
+  },
+  "authority_level": "international"
+}

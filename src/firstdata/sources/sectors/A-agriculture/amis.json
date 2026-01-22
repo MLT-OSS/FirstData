@@ -1,0 +1,70 @@
+{
+  "id": "amis",
+  "name": {
+    "en": "Agricultural Market Information System (AMIS)",
+    "zh": "农业市场信息系统"
+  },
+  "description": {
+    "en": "AMIS is an inter-agency platform launched in 2011 by the G20 Ministers of Agriculture to enhance food market transparency and policy response for food security. It brings together principal trading countries of agricultural commodities to assess global food supplies (focusing on wheat, maize, rice, and soybeans) and provides a platform to coordinate policy action in times of market uncertainty. AMIS participants represent 80-90% of global production, consumption, and trade volumes of targeted crops.",
+    "zh": "农业市场信息系统（AMIS）是由 G20 农业部长于 2011 年启动的跨机构平台，旨在提高粮食市场透明度和粮食安全政策响应能力。该系统汇集了农产品的主要贸易国，评估全球粮食供应（重点关注小麦、玉米、水稻和大豆），并提供了一个在市场不确定时期协调政策行动的平台。AMIS 参与国代表了目标作物全球产量、消费量和贸易量的 80-90%。"
+  },
+  "website": "https://www.amis-outlook.org",
+  "data_url": "https://www.amis-outlook.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Agriculture",
+    "Food Security",
+    "Commodity Markets",
+    "Agricultural Trade",
+    "Food Prices",
+    "Market Transparency",
+    "Policy Coordination"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "agriculture",
+    "food-security",
+    "commodity-markets",
+    "wheat",
+    "maize",
+    "rice",
+    "soybeans",
+    "fertilizers",
+    "market-transparency",
+    "g20",
+    "trade-policy",
+    "price-monitoring",
+    "food-prices",
+    "agricultural-trade",
+    "market-intelligence"
+  ],
+  "data_content": {
+    "en": [
+      "Production - Wheat, maize, rice, and soybean production forecasts and statistics",
+      "Domestic Utilization - Food, feed, and industrial use of agricultural commodities",
+      "Trade - Import and export data for major agricultural commodities",
+      "Closing Stocks - Inventory levels and stock-to-use ratios",
+      "Prices - IGC Grains and Oilseeds Index and commodity sub-indices",
+      "Market News Summary - Weekly analysis of wheat, maize/soybean, rice, fertilizers, trade logistics",
+      "Policy Database - Trade policies (tariffs, quotas, export restrictions) and domestic support measures",
+      "Fertilizer Markets - Production, prices, and trade of nitrogen, phosphorus, and potassium fertilizers",
+      "Vegetable Oils - Market analysis and price trends",
+      "Supply & Demand Overview - Comprehensive market balance sheets by country and commodity"
+    ],
+    "zh": [
+      "产量 - 小麦、玉米、水稻和大豆的产量预测和统计数据",
+      "国内使用 - 农产品的食品、饲料和工业用途",
+      "贸易 - 主要农产品的进出口数据",
+      "期末库存 - 库存水平和库存使用比",
+      "价格 - IGC 谷物和油籽指数及商品分项指数",
+      "市场新闻摘要 - 小麦、玉米/大豆、水稻、化肥、贸易物流的每周分析",
+      "政策数据库 - 贸易政策（关税、配额、出口限制）和国内支持措施",
+      "化肥市场 - 氮、磷、钾肥的生产、价格和贸易",
+      "植物油 - 市场分析和价格趋势",
+      "供需概览 - 按国家和商品分类的综合市场平衡表"
+    ]
+  },
+  "authority_level": "international"
+}

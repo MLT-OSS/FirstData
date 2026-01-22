@@ -1,0 +1,93 @@
+{
+  "id": "afrobarometer",
+  "name": {
+    "en": "Afrobarometer",
+    "zh": "非洲晴雨表"
+  },
+  "description": {
+    "en": "Afrobarometer is a pan-African, non-partisan survey research network that conducts public attitude surveys on democracy, governance, the economy, and society. The network encompasses 41 national partners responsible for data collection, analysis, and dissemination of findings across 44 African countries. With over 435,000 interviews conducted, Afrobarometer is the world's leading source of high-quality data on what Africans are thinking. Each survey round involves face-to-face interviews with nationally representative samples of 1,200-2,400 adult citizens per country, yielding country-level results with a margin of error of +/-2 to 3 percentage points at a 95% confidence level.",
+    "zh": "非洲晴雨表是一个泛非洲、无党派的调查研究网络，对民主、治理、经济和社会等议题进行公众态度调查。该网络包括41个国家合作伙伴，负责在44个非洲国家进行数据收集、分析和研究结果传播。已完成超过43.5万次访谈，非洲晴雨表是全球领先的非洲人民意见高质量数据来源。每轮调查通过面对面访谈，对每个国家1,200-2,400名成年公民进行全国代表性抽样，在95%置信水平下，国家层面结果的误差幅度为+/-2至3个百分点。"
+  },
+  "website": "https://www.afrobarometer.org",
+  "data_url": "https://www.afrobarometer.org/data/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Democracy and Governance",
+    "Political Participation",
+    "Elections and Electoral Systems",
+    "Economic Development",
+    "Social Issues",
+    "Public Services",
+    "Citizen Engagement",
+    "Human Rights",
+    "Gender Equality",
+    "Corruption and Accountability",
+    "Security and Conflict",
+    "Youth Development",
+    "Health and Education",
+    "Infrastructure",
+    "Environmental Issues"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "irregular",
+  "tags": [
+    "africa",
+    "survey-research",
+    "democracy",
+    "governance",
+    "public-opinion",
+    "political-participation",
+    "elections",
+    "citizen-engagement",
+    "corruption",
+    "economic-development",
+    "social-issues",
+    "gender-equality",
+    "youth",
+    "public-services",
+    "accountability",
+    "cross-national-survey",
+    "panel-data",
+    "representative-sample"
+  ],
+  "data_content": {
+    "en": [
+      "Democracy Preferences - Citizens' attitudes toward democratic governance and alternatives",
+      "Electoral Systems - Views on elections, voting behavior, and electoral integrity",
+      "Government Performance - Evaluations of government effectiveness in key service areas",
+      "Political Participation - Citizen engagement through voting, protests, and collective action",
+      "Corruption Perceptions - Experiences and perceptions of corruption in public institutions",
+      "Economic Conditions - Assessments of national and household economic situations",
+      "Public Service Delivery - Satisfaction with education, health, water, and other services",
+      "Gender Equality - Attitudes on women's rights, political participation, and autonomy",
+      "Youth Engagement - Young people's political participation and economic opportunities",
+      "Security and Justice - Trust in security forces and justice systems",
+      "Media Freedom - Access to information and press freedom",
+      "Identity and Discrimination - Ethnic, religious, and national identity issues",
+      "Country Scorecards - Visual summaries of key citizen engagement indicators by country",
+      "Time Series Data - Trend analysis across multiple survey rounds (Rounds 1-10)",
+      "Geocoded Data - Subnational data sets with geographic coordinates (restricted access)",
+      "Merged Datasets - Multi-country comparative datasets combining all survey rounds"
+    ],
+    "zh": [
+      "民主偏好 - 公民对民主治理和替代方案的态度",
+      "选举制度 - 对选举、投票行为和选举诚信的看法",
+      "政府绩效 - 对政府在关键服务领域有效性的评估",
+      "政治参与 - 公民通过投票、抗议和集体行动参与",
+      "腐败认知 - 公共机构腐败的经历和看法",
+      "经济状况 - 对国家和家庭经济状况的评估",
+      "公共服务提供 - 对教育、卫生、水和其他服务的满意度",
+      "性别平等 - 对女性权利、政治参与和自主权的态度",
+      "青年参与 - 年轻人的政治参与和经济机会",
+      "安全与司法 - 对安全部队和司法系统的信任",
+      "媒体自由 - 信息获取和新闻自由",
+      "身份与歧视 - 民族、宗教和国家认同问题",
+      "国家记分卡 - 按国家划分的公民参与关键指标可视化摘要",
+      "时间序列数据 - 跨多轮调查的趋势分析（第1-10轮）",
+      "地理编码数据 - 带有地理坐标的次国家级数据集（受限访问）",
+      "合并数据集 - 结合所有调查轮次的多国比较数据集"
+    ]
+  },
+  "authority_level": "research"
+}

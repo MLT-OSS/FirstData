@@ -1,0 +1,61 @@
+{
+  "id": "arwu",
+  "name": {
+    "en": "Academic Ranking of World Universities",
+    "zh": "世界大学学术排名"
+  },
+  "description": {
+    "en": "The Academic Ranking of World Universities (ARWU), also known as Shanghai Ranking, is recognized as the precursor of global university rankings and one of the most trustworthy rankings worldwide. First published in 2003 by Shanghai Jiao Tong University and since 2009 by ShanghaiRanking Consultancy, ARWU presents the world's top 1000 research universities annually based on transparent methodology and objective third-party data. It uses six objective indicators including Nobel Prizes and Fields Medals won by alumni and staff, highly cited researchers, publications in Nature and Science, papers indexed in major citation indices, and per capita academic performance.",
+    "zh": "世界大学学术排名（ARWU），也称为上海排名，被公认为全球大学排名的先驱和最值得信赖的排名之一。首次发布于2003年由上海交通大学发起，自2009年起由软科教育信息咨询有限公司（ShanghaiRanking Consultancy）发布。ARWU基于透明的方法论和客观的第三方数据，每年发布全球前1000所研究型大学排名。排名使用六项客观指标，包括校友和教职工获得的诺贝尔奖和菲尔兹奖、高被引学者数量、在Nature和Science上发表的论文、被主要引文索引收录的论文以及师均学术表现。"
+  },
+  "website": "https://www.shanghairanking.com",
+  "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Higher Education",
+    "University Rankings",
+    "Research Performance",
+    "Academic Excellence",
+    "Education Assessment"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "university-ranking",
+    "higher-education",
+    "research-assessment",
+    "academic-excellence",
+    "global-ranking",
+    "education-evaluation",
+    "nobel-prize",
+    "citation-analysis",
+    "research-performance",
+    "shanghai-ranking"
+  ],
+  "data_content": {
+    "en": [
+      "Alumni - Nobel Prizes and Fields Medals won by alumni (10% weight)",
+      "Award - Nobel Prizes and Fields Medals won by staff (20% weight)",
+      "HiCi - Highly Cited Researchers selected by Clarivate (20% weight)",
+      "N&S - Papers published in Nature and Science journals (20% weight)",
+      "PUB - Papers indexed in SCIE and SSCI (Web of Science) (20% weight)",
+      "PCP - Per capita academic performance of institution (10% weight)",
+      "Top 1000 Universities - Annual ranking of world's best research universities",
+      "Global Coverage - Over 2500 universities evaluated annually",
+      "Historical Data - Rankings available from 2003 to present"
+    ],
+    "zh": [
+      "校友 - 校友获得的诺贝尔奖和菲尔兹奖（权重10%）",
+      "获奖 - 教职工获得的诺贝尔奖和菲尔兹奖（权重20%）",
+      "高被引 - Clarivate选出的高被引学者（权重20%）",
+      "N&S - 在Nature和Science发表的论文（权重20%）",
+      "PUB - 被SCIE和SSCI收录的论文（权重20%）",
+      "师均 - 机构的师均学术表现（权重10%）",
+      "前1000所大学 - 全球最佳研究型大学年度排名",
+      "全球覆盖 - 每年评估超过2500所大学",
+      "历史数据 - 2003年至今的排名数据"
+    ]
+  },
+  "authority_level": "research"
+}

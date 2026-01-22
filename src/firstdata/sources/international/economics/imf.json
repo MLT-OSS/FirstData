@@ -1,0 +1,57 @@
+{
+  "id": "imf-data",
+  "name": {
+    "en": "IMF Data",
+    "zh": "国际货币基金组织数据",
+    "native": "IMF Data"
+  },
+  "description": {
+    "en": "Comprehensive macroeconomic and financial data from the International Monetary Fund, covering balance of payments, international financial statistics, government finance, and World Economic Outlook databases.",
+    "zh": "国际货币基金组织提供的综合宏观经济和金融数据,涵盖国际收支、国际金融统计、政府财政和世界经济展望数据库。"
+  },
+  "website": "https://www.imf.org",
+  "data_url": "https://data.imf.org",
+  "api_url": "https://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service",
+  "country": null,
+  "domains": [
+    "economics",
+    "finance"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "macroeconomics",
+    "balance-of-payments",
+    "financial-statistics",
+    "exchange-rates",
+    "government-finance",
+    "imf",
+    "international-reserves",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "Balance of Payments statistics",
+      "International Financial Statistics (IFS)",
+      "Government Finance Statistics",
+      "World Economic Outlook (WEO) data",
+      "Exchange rates and currency data",
+      "International reserves",
+      "External debt statistics",
+      "Fiscal indicators and government debt",
+      "Monetary and financial indicators"
+    ],
+    "zh": [
+      "国际收支统计",
+      "国际金融统计(IFS)",
+      "政府财政统计",
+      "世界经济展望(WEO)数据",
+      "汇率和货币数据",
+      "国际储备",
+      "外债统计",
+      "财政指标和政府债务",
+      "货币和金融指标"
+    ]
+  },
+  "authority_level": "international"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ebrd",
+  "name": {
+    "en": "European Bank for Reconstruction and Development",
+    "zh": "欧洲复兴开发银行"
+  },
+  "description": {
+    "en": "The EBRD provides economic and financial data for countries across Central and Eastern Europe, Central Asia, and the Southern and Eastern Mediterranean. The bank publishes comprehensive transition indicators, investment statistics, and economic forecasts through its Transition Report and various analytical publications.",
+    "zh": "欧洲复兴开发银行为中东欧、中亚以及南地中海和东地中海国家提供经济和金融数据。该银行通过其《转型报告》和各种分析出版物发布全面的转型指标、投资统计数据和经济预测。"
+  },
+  "website": "https://www.ebrd.com",
+  "data_url": "https://www.ebrd.com",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "finance",
+    "economics",
+    "development"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "annual",
+  "tags": [
+    "international_finance",
+    "transition_economies",
+    "development_finance",
+    "emerging_markets",
+    "eastern_europe",
+    "central_asia",
+    "regional_development"
+  ],
+  "data_content": {
+    "en": [
+      "EBRD provides transition indicators, project finance data, macroeconomic statistics, and sector-specific investment information for emerging markets",
+      "Transition Indicators - Comprehensive indicators measuring progress in market reforms across multiple dimensions",
+      "Investment Statistics - Data on EBRD project investments, portfolio composition, and sectoral allocation",
+      "Economic Forecasts - GDP growth projections, inflation forecasts, and macroeconomic outlooks for operating countries",
+      "Sector Analysis - Detailed analysis and data for key sectors including energy, infrastructure, financial institutions, and manufacturing"
+    ],
+    "zh": [
+      "欧洲复兴开发银行提供转型指标、项目融资数据、宏观经济统计数据以及新兴市场的行业特定投资信息",
+      "转型指标 - 衡量多维度市场改革进展的综合指标",
+      "投资统计 - 欧洲复兴开发银行项目投资、投资组合构成和行业配置数据",
+      "经济预测 - 运营国家的GDP增长预测、通胀预测和宏观经济展望",
+      "行业分析 - 能源、基础设施、金融机构和制造业等关键行业的详细分析和数据"
+    ]
+  },
+  "authority_level": "international"
+}

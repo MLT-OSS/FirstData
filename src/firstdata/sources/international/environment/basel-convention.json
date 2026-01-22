@@ -1,0 +1,76 @@
+{
+  "id": "basel-convention",
+  "name": {
+    "en": "Basel Convention Data",
+    "zh": "巴塞尔公约数据"
+  },
+  "description": {
+    "en": "The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal is a global environmental treaty that regulates the international trade of hazardous waste. The Convention provides comprehensive data on national reporting of hazardous waste generation, import/export movements, disposal methods, and illegal trafficking incidents. Countries submit annual reports through an Electronic Reporting System (ERS), covering waste inventories, transboundary movements under the Prior Informed Consent procedure, and implementation status of technical guidelines for waste management including e-waste, plastic waste, batteries, and POPs waste.",
+    "zh": "巴塞尔公约（关于控制危险废物越境转移及其处置的巴塞尔公约）是一项全球性环境条约，旨在规范危险废物的国际贸易。该公约提供关于各国危险废物产生、进出口转移、处置方法和非法贩运事件的全面数据。各国通过电子报告系统（ERS）提交年度报告，涵盖废物清单、事先知情同意程序下的越境转移，以及电子废物、塑料废物、电池和持久性有机污染物废物等废物管理技术指南的实施状况。"
+  },
+  "website": "https://www.unep.org",
+  "data_url": "https://www.basel.int",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Environment",
+    "Waste Management",
+    "Hazardous Materials",
+    "International Trade",
+    "Environmental Law"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "hazardous waste",
+    "environmental protection",
+    "waste management",
+    "transboundary movements",
+    "international convention",
+    "UNEP",
+    "e-waste",
+    "plastic waste",
+    "circular economy",
+    "environmental law",
+    "illegal trafficking"
+  ],
+  "data_content": {
+    "en": [
+      "Hazardous waste generation by type and quantity",
+      "Transboundary movements of hazardous wastes (import/export)",
+      "Waste disposal and recovery operations",
+      "E-waste (Waste Electrical and Electronic Equipment)",
+      "Plastic waste movements and amendments",
+      "Waste batteries (lead-acid and other types)",
+      "POPs (Persistent Organic Pollutants) waste",
+      "Mercury waste",
+      "Waste pneumatic tyres",
+      "Ship dismantling data",
+      "Illegal trafficking incidents",
+      "National definitions of hazardous waste",
+      "Import/export restrictions by country",
+      "Status of ratifications and amendments",
+      "Country contacts and focal points",
+      "Technical guidelines implementation status"
+    ],
+    "zh": [
+      "按类型和数量分类的危险废物产生量",
+      "危险废物的越境转移（进出口）",
+      "废物处置和回收作业",
+      "电子废物（废弃电气电子设备）",
+      "塑料废物转移和修正案",
+      "废电池（铅酸电池和其他类型）",
+      "持久性有机污染物废物",
+      "汞废物",
+      "废旧轮胎",
+      "拆船数据",
+      "非法贩运事件",
+      "各国危险废物的定义",
+      "各国进出口限制",
+      "批准和修正案状态",
+      "国家联络点",
+      "技术指南实施状况"
+    ]
+  },
+  "authority_level": "international"
+}

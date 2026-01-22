@@ -1,0 +1,60 @@
+{
+  "id": "worldbank-open-data",
+  "name": {
+    "en": "World Bank Open Data",
+    "zh": "世界银行开放数据",
+    "native": "World Bank Open Data"
+  },
+  "description": {
+    "en": "Free and open access to global development data including economic, social, and environmental indicators for over 200 countries and economies. Covers topics such as poverty, GDP, population, education, health, and infrastructure.",
+    "zh": "提供全球发展数据的免费开放访问,包括200多个国家和经济体的经济、社会和环境指标。涵盖贫困、GDP、人口、教育、健康和基础设施等主题。"
+  },
+  "website": "https://www.worldbank.org",
+  "data_url": "https://data.worldbank.org",
+  "api_url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+  "country": null,
+  "domains": [
+    "economics",
+    "social",
+    "environment",
+    "health",
+    "education"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "development",
+    "poverty",
+    "gdp",
+    "international-finance",
+    "world-bank",
+    "economic-indicators",
+    "open-data",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth indicators",
+      "Poverty and income distribution data",
+      "International debt statistics",
+      "Trade and balance of payments",
+      "Foreign direct investment flows",
+      "Development assistance data",
+      "Human development indicators",
+      "Infrastructure and energy statistics",
+      "Environmental sustainability metrics"
+    ],
+    "zh": [
+      "GDP和经济增长指标",
+      "贫困和收入分配数据",
+      "国际债务统计",
+      "贸易和国际收支",
+      "外国直接投资流量",
+      "发展援助数据",
+      "人类发展指标",
+      "基础设施和能源统计",
+      "环境可持续性指标"
+    ]
+  },
+  "authority_level": "international"
+}

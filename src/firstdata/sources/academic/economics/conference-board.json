@@ -1,0 +1,57 @@
+{
+  "id": "acad-conferenceboard",
+  "name": {
+    "en": "The Conference Board Economic Data",
+    "zh": "世界大型企业联合会经济数据"
+  },
+  "description": {
+    "en": "The Conference Board is a leading source of economic indicators and analysis, publishing the widely-cited Consumer Confidence Index and Leading Economic Indicators (LEI). Since taking over the LEI from the US government in 1995, they provide comprehensive economic data on business cycles, labor trends, and economic outlooks for major economies worldwide. Their authoritative data includes leading, coincident, and lagging indexes designed to signal peaks and troughs in business cycles.",
+    "zh": "世界大型企业联合会是领先的经济指标和分析来源，发布广受引用的消费者信心指数和领先经济指标（LEI）。自1995年从美国政府接管LEI以来，他们为全球主要经济体提供关于商业周期、劳动力趋势和经济展望的全面经济数据。其权威数据包括旨在预示商业周期峰谷的领先、同步和滞后指标。"
+  },
+  "website": "https://www.conference-board.org",
+  "data_url": "https://www.conference-board.org/topics/economic-data-analysis",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Economics",
+    "Business Cycles",
+    "Consumer Confidence",
+    "Labor Markets",
+    "Employment",
+    "Economic Forecasting"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "economics",
+    "business-cycles",
+    "leading-indicators",
+    "consumer-confidence",
+    "employment",
+    "economic-forecasting",
+    "ceo-confidence",
+    "labor-markets",
+    "time-series"
+  ],
+  "data_content": {
+    "en": [
+      "Business Cycle Indicators (LEI, CEI, Lagging Index)",
+      "Consumer Confidence Index (US and Global)",
+      "CEO Confidence Survey (US and Europe)",
+      "Employment Trends Index",
+      "Help Wanted OnLine Index",
+      "Global Economic Outlook",
+      "Total Economy Database"
+    ],
+    "zh": [
+      "商业周期指标（领先、同步、滞后指标）",
+      "消费者信心指数（美国和全球）",
+      "CEO信心调查（美国和欧洲）",
+      "就业趋势指数",
+      "在线招聘指数",
+      "全球经济展望",
+      "全经济数据库"
+    ]
+  },
+  "authority_level": "research"
+}

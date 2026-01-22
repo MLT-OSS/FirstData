@@ -1,0 +1,60 @@
+{
+  "id": "pubmed",
+  "name": {
+    "en": "PubMed",
+    "zh": "PubMed生物医学文献数据库"
+  },
+  "description": {
+    "en": "PubMed is a free resource supporting the search and retrieval of biomedical and life sciences literature with the aim of improving health–both globally and personally. It contains more than 39 million citations and abstracts of biomedical literature from MEDLINE, life science journals, PubMed Central (PMC), and online books.",
+    "zh": "PubMed是一个免费资源，支持生物医学和生命科学文献的搜索和检索，旨在改善全球和个人健康。包含超过3900万条来自MEDLINE、生命科学期刊、PubMed Central (PMC)和在线图书的生物医学文献引用和摘要。"
+  },
+  "website": "https://www.ncbi.nlm.nih.gov/",
+  "data_url": "https://pubmed.ncbi.nlm.nih.gov/",
+  "api_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+  "country": null,
+  "domains": [
+    "health",
+    "biomedical",
+    "life_sciences"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "biomedical literature",
+    "MEDLINE",
+    "citations",
+    "abstracts",
+    "life sciences",
+    "medical research",
+    "public health",
+    "clinical trials",
+    "MeSH",
+    "NIH",
+    "NLM",
+    "NCBI",
+    "E-utilities API"
+  ],
+  "data_content": {
+    "en": [
+      "MEDLINE Citations - Citations from journals selected for MEDLINE, indexed with MeSH (Medical Subject Headings) and curated with funding, genetic, chemical and other metadata",
+      "PubMed Central Articles - Full text archive articles from journals reviewed by NLM and individual articles archived in compliance with funder policies",
+      "Bookshelf Content - Citations for books, reports, databases, and documents related to biomedical, health, and life sciences",
+      "Author Information - Author names, affiliations, and ORCID identifiers",
+      "MeSH Terms - Medical Subject Headings vocabulary for consistent indexing and retrieval",
+      "Publication Types - Classification of articles by type (clinical trials, reviews, case reports, etc.)",
+      "Grant and Funding Information - Funding sources and grant numbers for research articles",
+      "Chemical and Genetic Data - Substance names, gene symbols, and related molecular information"
+    ],
+    "zh": [
+      "MEDLINE引用文献 - 来自MEDLINE精选期刊的引文，使用MeSH主题词索引，并整理了资助、基因、化学等元数据",
+      "PubMed Central文章 - NLM审查期刊的全文存档文章，以及符合资助方政策的单篇文章存档",
+      "书架内容 - 与生物医学、健康和生命科学相关的图书、报告、数据库和文档的引用",
+      "作者信息 - 作者姓名、单位和ORCID标识符",
+      "MeSH主题词 - 用于一致索引和检索的医学主题词表",
+      "出版物类型 - 按类型分类文章（临床试验、综述、病例报告等）",
+      "资助信息 - 研究文章的资助来源和基金号",
+      "化学和基因数据 - 物质名称、基因符号和相关分子信息"
+    ]
+  },
+  "authority_level": "government"
+}

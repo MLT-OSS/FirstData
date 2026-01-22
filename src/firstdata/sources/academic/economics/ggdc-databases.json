@@ -1,0 +1,63 @@
+{
+  "id": "ggdc-databases",
+  "name": {
+    "en": "Groningen Growth and Development Centre (GGDC) Databases",
+    "zh": "格罗宁根增长与发展中心数据库"
+  },
+  "description": {
+    "en": "The Groningen Growth and Development Centre (GGDC) is a platform for research on economic growth and development, maintaining comprehensive databases on indicators of growth and development. The GGDC provides multiple databases covering productivity (Penn World Table, EU KLEMS, World KLEMS), global value chains (WIOD), historical development (Maddison Project), and structural change (10-Sector Database, Africa Sector Database). These databases enable cross-country comparisons and long-term analysis of economic performance.",
+    "zh": "格罗宁根增长与发展中心(GGDC)是经济增长和发展研究的平台,维护着全面的增长和发展指标数据库。GGDC提供多个数据库,涵盖生产率(宾州世界表、欧盟KLEMS、世界KLEMS)、全球价值链(WIOD)、历史发展(麦迪逊项目)和结构变化(10部门数据库、非洲部门数据库)。这些数据库支持跨国比较和经济表现的长期分析。"
+  },
+  "website": "https://www.rug.nl/ggdc/",
+  "data_url": "https://www.rug.nl/ggdc/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "economics",
+    "productivity",
+    "development",
+    "trade",
+    "structural-change"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "productivity",
+    "economic-growth",
+    "development",
+    "input-output-tables",
+    "global-value-chains",
+    "historical-gdp",
+    "structural-change",
+    "sectoral-data",
+    "academic-research",
+    "open-data"
+  ],
+  "data_content": {
+    "en": [
+      "Productivity - Penn World Table (GDP, productivity, capital, labor)",
+      "Productivity - EU KLEMS (capital, labor, energy, materials, services)",
+      "Productivity - World KLEMS Initiative (industry-level productivity)",
+      "Productivity - Productivity Level Database (comparative productivity levels)",
+      "Global Value Chains - WIOD (World Input-Output Database)",
+      "Global Value Chains - WIOT (World Input-Output Tables)",
+      "Historical Development - Maddison Project (long-run GDP estimates since 1 AD)",
+      "Structural Change - 10-Sector Database (sectoral employment and value added)",
+      "Structural Change - Africa Sector Database (African economies)",
+      "Trade and international linkages data"
+    ],
+    "zh": [
+      "生产率 - 宾州世界表(GDP、生产率、资本、劳动)",
+      "生产率 - 欧盟KLEMS(资本、劳动、能源、材料、服务)",
+      "生产率 - 世界KLEMS计划(行业级生产率)",
+      "生产率 - 生产率水平数据库(比较生产率水平)",
+      "全球价值链 - WIOD(世界投入产出数据库)",
+      "全球价值链 - WIOT(世界投入产出表)",
+      "历史发展 - 麦迪逊项目(公元1年以来的长期GDP估算)",
+      "结构变化 - 10部门数据库(部门就业和增加值)",
+      "结构变化 - 非洲部门数据库(非洲经济体)",
+      "贸易和国际联系数据"
+    ]
+  },
+  "authority_level": "research"
+}

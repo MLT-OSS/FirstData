@@ -1,0 +1,75 @@
+{
+  "id": "china-sac-standards",
+  "name": {
+    "en": "Standardization Administration of China (SAC)",
+    "zh": "国家标准化管理委员会"
+  },
+  "description": {
+    "en": "The Standardization Administration of China (SAC) is the Chinese government authority responsible for standardization administration. It develops and publishes national standards including mandatory GB standards, recommended GB/T standards, and industry standards across all sectors.",
+    "zh": "国家标准化管理委员会是中国负责标准化管理的国家级政府机构，隶属于国家市场监督管理总局。负责组织制定和发布国家标准，包括强制性国家标准(GB)、推荐性国家标准(GB/T)以及76个行业标准，覆盖工业、农业、服务业等各个领域。"
+  },
+  "website": "https://www.sac.gov.cn/",
+  "data_url": "https://std.samr.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "technology",
+    "standards",
+    "quality-management",
+    "manufacturing",
+    "services",
+    "agriculture"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "国家标准",
+    "national standards",
+    "GB",
+    "GB/T",
+    "强制性标准",
+    "mandatory standards",
+    "推荐性标准",
+    "recommended standards",
+    "行业标准",
+    "industry standards",
+    "地方标准",
+    "local standards",
+    "标准化",
+    "standardization",
+    "质量管理",
+    "quality management",
+    "技术规范",
+    "technical specifications",
+    "SAC",
+    "SAMR",
+    "市场监管总局"
+  ],
+  "data_content": {
+    "en": [
+      "Mandatory National Standards (GB): 2,147 current standards, covering safety, health, environmental protection",
+      "Recommended National Standards (GB/T): 46,553 current standards across all industries",
+      "Guidance Technical Documents (GB/Z): 706 current documents",
+      "Industry Standards: 87,293 standards covering 76 industries (safety, packaging, shipbuilding, surveying, urban construction, etc.)",
+      "Local Standards: 62,164 standards from provincial and municipal governments",
+      "National Standard Development Plans and Announcements",
+      "Technical Committee Information and Expert Database",
+      "Standard Full-Text Public Access (non-adopted standards can be read and downloaded online)",
+      "International and Foreign Standards Comparison",
+      "Standard Revision and Review Information"
+    ],
+    "zh": [
+      "强制性国家标准(GB): 2,147项现行有效标准，涵盖安全、卫生、环境保护等领域",
+      "推荐性国家标准(GB/T): 46,553项现行有效标准，覆盖各行业领域",
+      "指导性技术文件(GB/Z): 706项现行有效文件",
+      "行业标准: 87,293项标准，涵盖76个行业(包括安全生产AQ、包装BB、船舶CB、测绘CH、城镇建设CJ等)",
+      "地方标准: 62,164项标准，来自各省市自治区",
+      "国家标准制修订计划和公告",
+      "技术委员会信息和专家数据库",
+      "国家标准全文公开(非采标标准可在线阅读和下载)",
+      "国际国外标准对比分析",
+      "标准复审和修订信息"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "noaa-cdo",
+  "name": {
+    "en": "NOAA Climate Data Online (CDO)",
+    "zh": "NOAA气候数据在线系统"
+  },
+  "description": {
+    "en": "Climate Data Online (CDO) provides free access to NCDC's archive of global historical weather and climate data in addition to station history information. These data include quality controlled daily, monthly, seasonal, and yearly measurements of temperature, precipitation, wind, and degree days as well as radar data and 30-year Climate Normals. The database includes records from thousands of stations worldwide with data available from as early as the late 1800s.",
+    "zh": "气候数据在线系统(CDO)提供对NCDC全球历史天气和气候数据档案以及站点历史信息的免费访问。这些数据包括质量控制的日、月、季、年温度、降水、风和度日测量值，以及雷达数据和30年气候标准值。数据库包含来自全球数千个站点的记录，数据可追溯至19世纪晚期。"
+  },
+  "website": "https://www.ncei.noaa.gov/",
+  "data_url": "https://www.ncei.noaa.gov/cdo-web/",
+  "api_url": "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
+  "country": null,
+  "domains": [
+    "climate",
+    "meteorology",
+    "environmental_science",
+    "atmospheric_science"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "climate",
+    "weather",
+    "temperature",
+    "precipitation",
+    "meteorology",
+    "NOAA",
+    "NCEI",
+    "NCDC",
+    "historical climate data",
+    "weather stations",
+    "climate normals",
+    "atmospheric data",
+    "environmental data",
+    "time series",
+    "global coverage"
+  ],
+  "data_content": {
+    "en": [
+      "Global Historical Climatology Network Daily (GHCN-Daily) - Daily climate summaries from land surface stations worldwide",
+      "Global Summary of the Day (GSOD) - Daily weather elements from global stations",
+      "Local Climatological Data (LCD) - Hourly, daily, and monthly summaries from US airports and first-order stations",
+      "Normals - 30-year climate normals for temperature, precipitation, and other variables",
+      "Precipitation - Daily and hourly precipitation data from global stations",
+      "Temperature - Daily maximum, minimum, and average temperatures",
+      "Wind - Wind speed and direction measurements",
+      "Degree Days - Heating and cooling degree days for energy analysis",
+      "Snow - Snowfall and snow depth measurements",
+      "Weather Type - Weather phenomena including fog, rain, snow, hail, thunder, and tornado occurrence",
+      "Station Metadata - Station location, elevation, and historical information"
+    ],
+    "zh": [
+      "全球历史气候网络日值数据(GHCN-Daily) - 来自全球陆地观测站的日气候摘要",
+      "全球日摘要(GSOD) - 来自全球站点的日天气要素",
+      "地方气候数据(LCD) - 来自美国机场和一级站的小时、日和月摘要",
+      "标准值 - 温度、降水和其他变量的30年气候标准值",
+      "降水 - 来自全球站点的日和小时降水数据",
+      "温度 - 日最高、最低和平均温度",
+      "风 - 风速和风向测量值",
+      "度日 - 用于能源分析的采暖和制冷度日",
+      "积雪 - 降雪量和雪深测量值",
+      "天气类型 - 天气现象包括雾、雨、雪、冰雹、雷暴和龙卷风发生情况",
+      "站点元数据 - 站点位置、海拔和历史信息"
+    ]
+  },
+  "authority_level": "government"
+}

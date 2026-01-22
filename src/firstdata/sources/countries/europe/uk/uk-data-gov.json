@@ -1,0 +1,78 @@
+{
+  "id": "uk-data-gov",
+  "name": {
+    "en": "Data.gov.uk",
+    "zh": "英国政府开放数据平台"
+  },
+  "description": {
+    "en": "Data.gov.uk is the UK government's official open data portal, launched in 2010 and redesigned in 2018 as the Find open data service. It provides access to thousands of datasets published by central government departments, local authorities, and public bodies across the United Kingdom. The portal serves as a central catalog linking to datasets hosted on GOV.UK and other government websites, covering diverse domains including business, crime, defense, education, environment, health, government spending, transport, and more. Built and operated by the Government Digital Service, it supports transparency, innovation, and evidence-based policy making by making public sector data accessible to citizens, researchers, businesses, and developers.",
+    "zh": "Data.gov.uk 是英国政府的官方开放数据门户网站，于 2010 年启动，并于 2018 年重新设计为查找开放数据服务。它提供对英国中央政府部门、地方当局和公共机构发布的数千个数据集的访问。该门户作为中央目录，链接到托管在 GOV.UK 和其他政府网站上的数据集，涵盖商业、犯罪、国防、教育、环境、健康、政府支出、交通等多个领域。该平台由政府数字服务部门建设和运营，通过使公共部门数据对公民、研究人员、企业和开发者开放，支持透明度、创新和基于证据的政策制定。"
+  },
+  "website": "https://www.gov.uk/government/organisations/government-digital-service",
+  "data_url": "https://www.data.gov.uk",
+  "api_url": "https://guidance.data.gov.uk/get_data/api_documentation/",
+  "country": "GB",
+  "domains": [
+    "Business and economy",
+    "Crime and justice",
+    "Defence",
+    "Education",
+    "Environment",
+    "Government",
+    "Government spending",
+    "Health",
+    "Mapping",
+    "Society",
+    "Towns and cities",
+    "Transport",
+    "Digital service performance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "united-kingdom",
+    "government",
+    "open-data",
+    "transparency",
+    "public-sector",
+    "local-authorities",
+    "multi-domain",
+    "comprehensive",
+    "ogl"
+  ],
+  "data_content": {
+    "en": [
+      "Business and economy data (small businesses, industry, imports, exports, trade)",
+      "Crime and justice data (courts, police, prison, offenders, borders, immigration)",
+      "Defence data (armed forces, health and safety, search and rescue)",
+      "Education data (students, training, qualifications, National Curriculum)",
+      "Environment data (weather, flooding, rivers, air quality, geology, agriculture)",
+      "Government data (staff numbers and pay, local councillors, department business plans)",
+      "Government spending data (all payments by government departments over £25,000)",
+      "Health data (smoking, drugs, alcohol, medicine performance, hospitals)",
+      "Mapping data (addresses, boundaries, land ownership, aerial photographs, seabed, land terrain)",
+      "Society data (employment, benefits, household finances, poverty, population)",
+      "Towns and cities data (housing, urban planning, leisure, waste, energy consumption)",
+      "Transport data (airports, roads, freight, electric vehicles, parking, buses, footpaths)",
+      "Digital service performance data (cost, usage, completion rate, digital take-up, satisfaction)",
+      "Government reference data (trusted data shared across government departments)"
+    ],
+    "zh": [
+      "商业和经济数据（小企业、工业、进出口、贸易）",
+      "犯罪和司法数据（法院、警察、监狱、罪犯、边境、移民）",
+      "国防数据（武装部队、健康与安全、搜索和救援）",
+      "教育数据（学生、培训、资格、国家课程）",
+      "环境数据（天气、洪水、河流、空气质量、地质、农业）",
+      "政府数据（员工人数和薪酬、地方议员、部门业务计划）",
+      "政府支出数据（政府部门超过 25,000 英镑的所有付款）",
+      "健康数据（吸烟、毒品、酒精、药物性能、医院）",
+      "地图数据（地址、边界、土地所有权、航空照片、海床、地形）",
+      "社会数据（就业、福利、家庭财务、贫困、人口）",
+      "城镇数据（住房、城市规划、休闲、废物、能源消耗）",
+      "交通数据（机场、道路、货运、电动汽车、停车、公交、人行道）",
+      "数字服务性能数据（成本、使用情况、完成率、数字采用率、满意度）",
+      "政府参考数据（跨政府部门共享的可信数据）"
+    ]
+  },
+  "authority_level": "government"
+}

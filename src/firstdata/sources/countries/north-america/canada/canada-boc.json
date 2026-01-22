@@ -1,0 +1,75 @@
+{
+  "id": "canada-boc",
+  "name": {
+    "en": "Bank of Canada",
+    "zh": "加拿大银行",
+    "native": "Banque du Canada"
+  },
+  "description": {
+    "en": "Canada's central bank responsible for monetary policy, providing comprehensive financial data including exchange rates, interest rates, price indexes, and economic indicators. Maintains the Valet API for programmatic access to exchange rates, money market yields, bond yields, inflation indicators, and banking statistics.",
+    "zh": "加拿大中央银行，负责货币政策，提供全面的金融数据，包括汇率、利率、价格指数和经济指标。维护Valet API，提供对汇率、货币市场收益率、债券收益率、通胀指标和银行统计数据的程序化访问。"
+  },
+  "website": "https://www.bankofcanada.ca",
+  "data_url": "https://www.bankofcanada.ca/rates/",
+  "api_url": "https://www.bankofcanada.ca/valet/docs",
+  "country": "CA",
+  "domains": [
+    "monetary_policy",
+    "exchange_rates",
+    "interest_rates",
+    "inflation",
+    "banking",
+    "financial_markets",
+    "economic_indicators"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "canada",
+    "central-bank",
+    "monetary-policy",
+    "exchange-rates",
+    "interest-rates",
+    "inflation",
+    "financial-markets",
+    "banking-statistics",
+    "open-data",
+    "api",
+    "bilingual"
+  ],
+  "data_content": {
+    "en": [
+      "Daily exchange rates - foreign currency conversions",
+      "Policy interest rate and overnight rate targets",
+      "Canadian Overnight Repo Rate Average (CORRA)",
+      "Money market yields - treasury bills, commercial paper, bankers' acceptances",
+      "Bond yields - Government of Canada bonds",
+      "Consumer Price Index (CPI) and core inflation measures - CPI-trim, CPI-median, CPI-common",
+      "Bank of Canada Commodity Price Index (BCPI)",
+      "Banking and financial statistics - chartered banks, credit aggregates",
+      "Canadian Effective Exchange Rate (CEER) index",
+      "Key monetary policy variables and capacity indicators",
+      "Official International Reserves",
+      "Credit conditions and financial market data",
+      "Staff economic projections (5-year lag)",
+      "Financial system indicators and analysis"
+    ],
+    "zh": [
+      "每日汇率 - 外币兑换",
+      "政策利率和隔夜利率目标",
+      "加拿大隔夜回购利率平均值（CORRA）",
+      "货币市场收益率 - 国库券、商业票据、银行承兑汇票",
+      "债券收益率 - 加拿大政府债券",
+      "消费者价格指数（CPI）和核心通胀指标 - CPI-trim、CPI-median、CPI-common",
+      "加拿大银行商品价格指数（BCPI）",
+      "银行和金融统计 - 特许银行、信贷总量",
+      "加拿大有效汇率（CEER）指数",
+      "关键货币政策变量和产能指标",
+      "官方国际储备",
+      "信贷状况和金融市场数据",
+      "工作人员经济预测（5年滞后）",
+      "金融系统指标和分析"
+    ]
+  },
+  "authority_level": "government"
+}

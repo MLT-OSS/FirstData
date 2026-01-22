@@ -1,0 +1,66 @@
+{
+  "id": "adb-data",
+  "name": {
+    "en": "Asian Development Bank Data Library",
+    "zh": "亚洲开发银行数据库",
+    "native": "ADB Data Library"
+  },
+  "description": {
+    "en": "The ADB Data Library is the central repository and portal for all of ADB's public data. It provides comprehensive economic, social, and financial indicators for Asia and the Pacific region, including the Key Indicators Database (KIDB) which is one of the world's most comprehensive resources for macroeconomic and social indicators. The library includes country dashboards, over 180 datasets, data stories, and visualization tools. Data is shareable and machine-readable, covering national accounts, prices, government finance, trade, balance of payments, money and banking, external debt, population, labor force, and social indicators.",
+    "zh": "亚洲开发银行数据库是 ADB 所有公共数据的中央存储库和门户。它为亚太地区提供全面的经济、社会和金融指标,包括关键指标数据库(KIDB),这是世界上最全面的宏观经济和社会指标资源之一。数据库包含国家仪表板、180多个数据集、数据故事和可视化工具。数据可共享且机器可读,涵盖国民账户、价格、政府财政、贸易、国际收支、货币与银行、外债、人口、劳动力和社会指标。"
+  },
+  "website": "https://www.adb.org",
+  "data_url": "https://data.adb.org",
+  "api_url": "https://kidb.adb.org/api",
+  "country": null,
+  "domains": [
+    "economics",
+    "finance",
+    "social",
+    "development"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "annual",
+  "tags": [
+    "asian-development",
+    "asia-pacific",
+    "economic-indicators",
+    "social-statistics",
+    "development-finance",
+    "international-organization",
+    "sdmx",
+    "open-data",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts and GDP statistics",
+      "Prices and inflation indicators",
+      "Government finance and fiscal data",
+      "International trade and balance of payments",
+      "Money, banking, and financial sector data",
+      "External debt and foreign investment",
+      "Population and demographic statistics",
+      "Labor force and employment data",
+      "Social indicators (education, health, poverty)",
+      "Infrastructure and energy statistics",
+      "Development project data",
+      "Bond market statistics (AsianBondsOnline)"
+    ],
+    "zh": [
+      "国民账户和GDP统计",
+      "价格和通货膨胀指标",
+      "政府财政和财政数据",
+      "国际贸易和国际收支",
+      "货币、银行和金融部门数据",
+      "外债和外国投资",
+      "人口和人口统计",
+      "劳动力和就业数据",
+      "社会指标(教育、健康、贫困)",
+      "基础设施和能源统计",
+      "发展项目数据",
+      "债券市场统计(亚洲债券在线)"
+    ]
+  },
+  "authority_level": "international"
+}

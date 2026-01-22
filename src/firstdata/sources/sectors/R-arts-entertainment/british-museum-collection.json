@@ -1,0 +1,64 @@
+{
+  "id": "british-museum-collection",
+  "name": {
+    "en": "British Museum Collection",
+    "zh": "大英博物馆馆藏"
+  },
+  "description": {
+    "en": "The British Museum Collection comprises nearly 5 million objects documenting two million years of human history and culture from across six continents. Collection online provides searchable access to over 2 million catalogued records with high-definition images, covering archaeology, art, cultural artifacts, and historical objects. The database represents over 40 years of cataloguing work and continues to expand daily.",
+    "zh": "大英博物馆馆藏包含近500万件文物，记录了来自六大洲的两百万年人类历史与文化。在线馆藏提供超过200万条可搜索的编目记录，配有高清图像，涵盖考古学、艺术、文化文物和历史物品。该数据库代表了40多年的编目工作，并持续每日扩展。"
+  },
+  "website": "https://www.britishmuseum.org",
+  "data_url": "https://www.britishmuseum.org/collection",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Cultural Heritage",
+    "Archaeology",
+    "Art History",
+    "Anthropology",
+    "Ancient Civilizations",
+    "Museum Studies"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "cultural heritage",
+    "museum",
+    "archaeology",
+    "art history",
+    "artifacts",
+    "world history",
+    "anthropology",
+    "ethnography",
+    "ancient civilizations",
+    "British Museum"
+  ],
+  "data_content": {
+    "en": [
+      "Ancient Egypt and Sudan artifacts",
+      "Greek and Roman antiquities",
+      "Middle Eastern archaeology",
+      "Asian art and culture",
+      "African art and artifacts",
+      "Americas collections",
+      "European art and archaeology",
+      "Coins and medals",
+      "Prints and drawings",
+      "Ethnographic collections"
+    ],
+    "zh": [
+      "古埃及和苏丹文物",
+      "希腊和罗马古物",
+      "中东考古",
+      "亚洲艺术与文化",
+      "非洲艺术与文物",
+      "美洲馆藏",
+      "欧洲艺术与考古",
+      "硬币和奖章",
+      "版画和素描",
+      "民族学藏品"
+    ]
+  },
+  "authority_level": "research"
+}

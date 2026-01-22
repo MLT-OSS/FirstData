@@ -1,0 +1,77 @@
+{
+  "id": "wipo-ip-statistics",
+  "name": {
+    "en": "WIPO IP Statistics",
+    "zh": "世界知识产权组织知识产权统计",
+    "native": "WIPO IP Statistics"
+  },
+  "description": {
+    "en": "The World Intellectual Property Organization (WIPO) IP Statistics Data Center provides comprehensive global intellectual property data. Established in 1967, WIPO serves 194 member states and provides statistical data on patents, utility models, trademarks, industrial designs, geographical indications, plant varieties, and microorganisms. The database offers extensive indicators for IP activity worldwide, supporting researchers, policymakers, and IP professionals.",
+    "zh": "世界知识产权组织（WIPO）知识产权统计数据中心提供全面的全球知识产权数据。WIPO成立于1967年，服务194个成员国，提供专利、实用新型、商标、工业品外观设计、地理标志、植物品种和微生物等知识产权统计数据。数据库提供全球知识产权活动的广泛指标，支持研究人员、政策制定者和知识产权专业人士。"
+  },
+  "website": "https://www.wipo.int",
+  "data_url": "https://www3.wipo.int/ipstats/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "intellectual property",
+    "patents",
+    "trademarks",
+    "innovation",
+    "technology"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "intellectual-property",
+    "patents",
+    "trademarks",
+    "industrial-design",
+    "innovation",
+    "technology",
+    "wipo",
+    "pct",
+    "madrid-system",
+    "hague-system",
+    "ip-statistics",
+    "international-organization",
+    "united-nations"
+  ],
+  "data_content": {
+    "en": [
+      "Patent statistics - applications, grants, and in-force patents by country and technology field",
+      "Trademark statistics - applications and registrations worldwide",
+      "Industrial design statistics - applications and registrations",
+      "Utility model statistics - national and regional data",
+      "Geographical indications - protection data",
+      "Plant variety protection - applications and grants",
+      "Microorganism deposits - Budapest Treaty data",
+      "PCT System statistics - international patent applications",
+      "Madrid System statistics - international trademark registrations",
+      "Hague System statistics - international industrial design registrations",
+      "Country-specific IP profiles with detailed indicators",
+      "Technology field classifications using IPC",
+      "Top applicants and filers worldwide",
+      "World Intellectual Property Indicators annual reports",
+      "IP Facts and Figures publications"
+    ],
+    "zh": [
+      "专利统计 - 按国家和技术领域的申请、授权和有效专利",
+      "商标统计 - 全球申请和注册数据",
+      "工业品外观设计统计 - 申请和注册数据",
+      "实用新型统计 - 国家和地区数据",
+      "地理标志 - 保护数据",
+      "植物品种保护 - 申请和授权",
+      "微生物保藏 - 布达佩斯条约数据",
+      "PCT系统统计 - 国际专利申请",
+      "马德里体系统计 - 国际商标注册",
+      "海牙体系统计 - 国际工业品外观设计注册",
+      "各国知识产权详细指标概况",
+      "使用IPC的技术领域分类",
+      "全球主要申请人和申请机构",
+      "世界知识产权指标年度报告",
+      "知识产权事实与数据出版物"
+    ]
+  },
+  "authority_level": "international"
+}

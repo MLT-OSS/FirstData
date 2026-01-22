@@ -1,0 +1,70 @@
+{
+  "id": "mexico-coneval",
+  "name": {
+    "en": "National Council for the Evaluation of Social Development Policy",
+    "zh": "墨西哥社会发展政策评估委员会",
+    "native": "Consejo Nacional de Evaluación de la Política de Desarrollo Social"
+  },
+  "description": {
+    "en": "CONEVAL is Mexico's autonomous public institution responsible for measuring poverty and evaluating social development policies and programs. It provides official poverty statistics, social policy evaluations, and socioeconomic indicators at national, state, and municipal levels. CONEVAL's multidimensional poverty measurement methodology is recognized internationally and serves as the official standard for poverty measurement in Mexico.",
+    "zh": "CONEVAL是墨西哥负责贫困测量和社会发展政策及项目评估的自治公共机构。它提供官方贫困统计数据、社会政策评估以及国家、州和市级社会经济指标。CONEVAL的多维贫困测量方法在国际上得到认可，是墨西哥贫困测量的官方标准。"
+  },
+  "website": "https://www.coneval.org.mx",
+  "data_url": "https://www.coneval.org.mx",
+  "api_url": null,
+  "country": "MX",
+  "domains": [
+    "poverty",
+    "social-development",
+    "inequality",
+    "social-policy",
+    "welfare",
+    "food-security",
+    "education",
+    "health",
+    "housing",
+    "social-services",
+    "income"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "mexico",
+    "poverty",
+    "social-development",
+    "inequality",
+    "multidimensional-poverty",
+    "social-policy",
+    "government-data",
+    "official-statistics",
+    "open-data",
+    "latin-america"
+  ],
+  "data_content": {
+    "en": [
+      "Multidimensional poverty measurement (income poverty, social deprivation)",
+      "Poverty rates at national, state, and municipal levels",
+      "Social development indicators (education, health, housing, basic services, food security, social security)",
+      "Income inequality and Gini coefficient statistics",
+      "Social program evaluations and impact assessments",
+      "Social cohesion indicators",
+      "Vulnerable population statistics (extreme poverty, children, indigenous peoples)",
+      "Social gap indicators by geographic region",
+      "Trends in poverty and social development over time",
+      "Methodology and technical documentation for poverty measurement"
+    ],
+    "zh": [
+      "多维贫困测量（收入贫困、社会剥夺）",
+      "国家、州和市级贫困率",
+      "社会发展指标（教育、健康、住房、基本服务、食品安全、社会保障）",
+      "收入不平等和基尼系数统计",
+      "社会项目评估和影响评估",
+      "社会凝聚力指标",
+      "弱势人口统计（极端贫困、儿童、原住民）",
+      "按地理区域划分的社会差距指标",
+      "贫困和社会发展随时间的趋势",
+      "贫困测量的方法论和技术文档"
+    ]
+  },
+  "authority_level": "government"
+}

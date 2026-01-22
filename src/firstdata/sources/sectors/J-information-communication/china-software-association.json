@@ -1,0 +1,62 @@
+{
+  "id": "china-software-association",
+  "name": {
+    "en": "China Software Industry Association",
+    "zh": "中国软件行业协会"
+  },
+  "description": {
+    "en": "The China Software Industry Association (CSIA) is a national first-level industry association established in 1984, providing comprehensive data on China's software industry revenue, enterprise rankings, and market research. It publishes annual reports including the Top 100 Software Companies rankings and industry benchmark data.",
+    "zh": "中国软件行业协会成立于1984年9月6日，是在民政部注册登记的全国一级行业组织，提供中国软件产业收入统计、企业排行榜、市场研究等综合数据。协会每年发布中国软件百强企业榜单和行业基准数据报告。"
+  },
+  "website": "https://www.csia.org.cn/",
+  "data_url": "https://www.csia.org.cn/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "domains": [
+    "technology",
+    "industry",
+    "information-technology"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "software industry",
+    "软件产业",
+    "enterprise ranking",
+    "企业排行",
+    "industry revenue",
+    "产业收入",
+    "CSIA",
+    "软件百强",
+    "top 100 software",
+    "information technology",
+    "信息技术服务",
+    "software revenue",
+    "软件业务收入",
+    "industry association",
+    "行业协会",
+    "benchmark data",
+    "基准数据"
+  ],
+  "data_content": {
+    "en": [
+      "Annual software industry revenue statistics (national and regional breakdown)",
+      "Top 100 Chinese software companies ranking (high-quality development enterprises)",
+      "Software industry benchmark data reports covering government, finance, telecommunications, transportation, energy, and manufacturing sectors",
+      "Software industry market research and analysis reports",
+      "Information technology services revenue data (cloud computing, big data, embedded systems)",
+      "Software product revenue statistics by category",
+      "China Software Industry High-Quality Development Report (annual publication)"
+    ],
+    "zh": [
+      "年度软件产业收入统计数据（全国及分地区）",
+      "中国软件百强企业排行榜（高质量发展企业）",
+      "软件行业基准数据报告（涵盖政府、金融、电信、交通、能源、制造业等行业）",
+      "软件产业市场调研与分析报告",
+      "信息技术服务收入数据（云计算、大数据、嵌入式系统）",
+      "软件产品收入分类统计",
+      "中国软件产业高质量发展报告（年度发布）"
+    ]
+  }
+}

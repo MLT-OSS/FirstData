@@ -1,0 +1,64 @@
+{
+  "id": "oecd-statistics",
+  "name": {
+    "en": "OECD Statistics",
+    "zh": "经合组织统计数据",
+    "native": "OECD Statistics"
+  },
+  "description": {
+    "en": "Comprehensive statistical database covering economic, social, and environmental data for OECD member countries and partner economies. Includes indicators on education, health, productivity, trade, taxation, and sustainable development.",
+    "zh": "涵盖经合组织成员国和伙伴经济体的经济、社会和环境数据的综合统计数据库。包括教育、健康、生产力、贸易、税收和可持续发展指标。"
+  },
+  "website": "https://www.oecd.org",
+  "data_url": "https://stats.oecd.org",
+  "api_url": "https://data.oecd.org/api",
+  "country": null,
+  "domains": [
+    "economics",
+    "social",
+    "environment",
+    "education",
+    "health",
+    "technology"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "quarterly",
+  "tags": [
+    "oecd",
+    "economic-indicators",
+    "education",
+    "health",
+    "productivity",
+    "trade",
+    "taxation",
+    "pisa",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts and GDP",
+      "Labour market and employment statistics",
+      "International trade statistics",
+      "Education indicators (PISA, education attainment)",
+      "Health statistics and healthcare expenditure",
+      "Productivity and competitiveness metrics",
+      "Tax revenue statistics",
+      "Environmental indicators",
+      "Innovation and R&D statistics",
+      "Social expenditure and inequality data"
+    ],
+    "zh": [
+      "国民账户和GDP",
+      "劳动力市场和就业统计",
+      "国际贸易统计",
+      "教育指标(PISA、教育程度)",
+      "健康统计和医疗支出",
+      "生产力和竞争力指标",
+      "税收收入统计",
+      "环境指标",
+      "创新和研发统计",
+      "社会支出和不平等数据"
+    ]
+  },
+  "authority_level": "international"
+}

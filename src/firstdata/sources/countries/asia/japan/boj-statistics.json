@@ -1,0 +1,80 @@
+{
+  "id": "boj-statistics",
+  "name": {
+    "en": "Bank of Japan Statistics",
+    "zh": "日本银行统计数据",
+    "native": "日本銀行統計"
+  },
+  "description": {
+    "en": "Comprehensive economic and financial statistics published by the Bank of Japan, including monetary policy data, financial markets, flow of funds, TANKAN surveys, price indices, balance of payments, and banking sector statistics. The BOJ provides authoritative data on Japan's monetary system, banking operations, and economic conditions.",
+    "zh": "日本银行发布的全面经济和金融统计数据，包括货币政策数据、金融市场、资金流动、TANKAN调查、价格指数、国际收支以及银行业统计。日本银行提供关于日本货币体系、银行业务和经济状况的权威数据。"
+  },
+  "website": "https://www.boj.or.jp/en/",
+  "data_url": "https://www.boj.or.jp/en/statistics/index.htm",
+  "api_url": null,
+  "country": "JP",
+  "domains": [
+    "Monetary Policy",
+    "Financial Markets",
+    "Banking",
+    "Flow of Funds",
+    "Economic Surveys",
+    "Prices",
+    "Balance of Payments",
+    "Public Finance",
+    "Payment Systems"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "Japan",
+    "central-bank",
+    "monetary-policy",
+    "financial-markets",
+    "banking",
+    "flow-of-funds",
+    "TANKAN",
+    "prices",
+    "balance-of-payments",
+    "economic-statistics",
+    "time-series",
+    "official-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Monetary Base and Bank of Japan Transactions",
+      "Money Stock and Monetary Survey",
+      "Interest Rates on Deposits and Loans",
+      "Financial Markets (Call Money, FX, Securities)",
+      "Payment and Settlement Statistics",
+      "Deposits and Loans Market",
+      "Financial Institutions Accounts and Balance Sheets",
+      "Flow of Funds Accounts",
+      "TANKAN (Short-Term Economic Survey of Enterprises)",
+      "Price Indices (CPI, PPI, CGPI)",
+      "Public Finance Statistics",
+      "Balance of Payments and International Investment Position",
+      "BIS/FSB Related Statistics",
+      "Currency in Circulation",
+      "Historical Time-Series Data"
+    ],
+    "zh": [
+      "货币基数和日本银行交易",
+      "货币存量和货币调查",
+      "存贷款利率",
+      "金融市场（拆借市场、外汇、证券）",
+      "支付结算统计",
+      "存贷款市场",
+      "金融机构账户和资产负债表",
+      "资金流动账户",
+      "TANKAN（企业短期经济观测调查）",
+      "价格指数（CPI、PPI、CGPI）",
+      "公共财政统计",
+      "国际收支和国际投资头寸",
+      "国际清算银行/金融稳定委员会相关统计",
+      "流通货币",
+      "历史时间序列数据"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "clinicaltrials-gov",
+  "name": {
+    "en": "ClinicalTrials.gov",
+    "zh": "临床试验注册数据库"
+  },
+  "description": {
+    "en": "ClinicalTrials.gov is a database of privately and publicly funded clinical studies conducted around the world. It provides information about a clinical trial's purpose, who may participate, locations, and phone numbers for more details. The database is maintained by the U.S. National Library of Medicine and contains over 400,000 research studies in all 50 states and in 220 countries.",
+    "zh": "临床试验注册数据库是一个全球范围内私人和公共资助临床研究的数据库。它提供关于临床试验目的、参与资格、地点和联系方式等信息。该数据库由美国国家医学图书馆维护，包含超过40万项研究，覆盖美国所有50个州和220个国家。"
+  },
+  "website": "https://www.nlm.nih.gov/",
+  "data_url": "https://clinicaltrials.gov/",
+  "api_url": "https://clinicaltrials.gov/data-api/api",
+  "country": null,
+  "domains": [
+    "health",
+    "clinical_research",
+    "medical_trials"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "clinical trials",
+    "medical research",
+    "NIH",
+    "NLM",
+    "drug trials",
+    "patient recruitment",
+    "NCT number",
+    "clinical research",
+    "medical studies",
+    "FDA",
+    "public health",
+    "evidence-based medicine",
+    "API"
+  ],
+  "data_content": {
+    "en": [
+      "Clinical Trial Registry - Basic trial information (title, NCT number, status, sponsor, conditions studied)",
+      "Study Design - Trial phase, intervention type, randomization, blinding, endpoints",
+      "Eligibility Criteria - Inclusion/exclusion criteria, age ranges, sex, healthy volunteers",
+      "Locations and Contacts - Facility names, addresses, recruitment status, principal investigators",
+      "Outcomes and Measures - Primary and secondary outcome measures, time frames",
+      "Results Data - Participant flow, baseline characteristics, outcome measures, adverse events",
+      "Study Documents - Protocols, statistical analysis plans, informed consent forms",
+      "Interventions - Drugs, devices, procedures, behavioral interventions being tested"
+    ],
+    "zh": [
+      "临床试验注册 - 基本试验信息（标题、NCT编号、状态、发起人、研究疾病）",
+      "研究设计 - 试验阶段、干预类型、随机化、盲法、终点指标",
+      "入选标准 - 纳入/排除标准、年龄范围、性别、健康志愿者",
+      "地点和联系方式 - 机构名称、地址、招募状态、主要研究者",
+      "结果和测量指标 - 主要和次要结果指标、时间框架",
+      "结果数据 - 参与者流程、基线特征、结果测量、不良事件",
+      "研究文档 - 方案、统计分析计划、知情同意书",
+      "干预措施 - 正在测试的药物、设备、程序、行为干预"
+    ]
+  },
+  "authority_level": "government"
+}

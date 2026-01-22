@@ -1,0 +1,63 @@
+{
+  "id": "us-ncbi-genbank",
+  "name": {
+    "en": "GenBank",
+    "zh": "基因库"
+  },
+  "description": {
+    "en": "GenBank is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences. It is part of the International Nucleotide Sequence Database Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European Nucleotide Archive (ENA), and GenBank at NCBI. These three organizations exchange data on a daily basis, providing comprehensive global coverage of nucleotide sequence data.",
+    "zh": "GenBank是美国国立卫生研究院的基因序列数据库，是所有公开可用DNA序列的注释集合。它是国际核苷酸序列数据库合作组织（INSDC）的一部分，该组织包括日本DNA数据库（DDBJ）、欧洲核苷酸档案馆（ENA）和NCBI的GenBank。这三个组织每天交换数据，提供全球核苷酸序列数据的全面覆盖。"
+  },
+  "website": "https://www.ncbi.nlm.nih.gov/",
+  "data_url": "https://www.ncbi.nlm.nih.gov/genbank/",
+  "api_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+  "country": null,
+  "domains": [
+    "Genomics",
+    "Molecular Biology",
+    "Genetics",
+    "Bioinformatics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "genomics",
+    "DNA sequences",
+    "nucleotide database",
+    "molecular biology",
+    "genetics",
+    "bioinformatics",
+    "genome assembly",
+    "NCBI",
+    "NIH",
+    "INSDC",
+    "sequence database"
+  ],
+  "data_content": {
+    "en": [
+      "DNA sequences from all organisms",
+      "Nucleotide sequences (mRNA, rRNA, tRNA, genomic DNA)",
+      "Genome assemblies",
+      "Whole Genome Shotgun (WGS) sequences",
+      "Transcriptome Shotgun Assembly (TSA) sequences",
+      "Third Party Annotation (TPA) sequences",
+      "Metagenome sequences",
+      "Sequence annotations and features",
+      "Organism taxonomy information",
+      "Gene and protein cross-references"
+    ],
+    "zh": [
+      "所有生物的DNA序列",
+      "核苷酸序列（mRNA、rRNA、tRNA、基因组DNA）",
+      "基因组组装",
+      "全基因组鸟枪法（WGS）序列",
+      "转录组鸟枪法组装（TSA）序列",
+      "第三方注释（TPA）序列",
+      "宏基因组序列",
+      "序列注释和特征",
+      "生物分类信息",
+      "基因和蛋白质交叉引用"
+    ]
+  },
+  "authority_level": "government"
+}

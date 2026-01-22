@@ -1,0 +1,69 @@
+{
+  "id": "canada-cer",
+  "name": {
+    "en": "Canada Energy Regulator",
+    "zh": "加拿大能源监管局",
+    "native": "Régie de l'énergie du Canada"
+  },
+  "description": {
+    "en": "The Canada Energy Regulator (CER) is an independent federal regulator that oversees approximately 73,000 kilometres of pipelines, more than 1,400 kilometres of international and designated interprovincial power lines, and renewable and conventional offshore energy developments. The CER provides comprehensive data on energy infrastructure, commodity flows, safety performance, and regulatory decisions. Through Canada's Open Government Portal, the CER publishes datasets on pipeline throughput and capacity, energy exports and imports, crude oil and natural gas statistics, and renewable energy sources. The organization maintains interactive dashboards, market updates, and provincial/territorial energy profiles to support evidence-based energy policy and regulation in Canada.",
+    "zh": "加拿大能源监管局（CER）是一个独立的联邦监管机构，负责监管约73,000公里的管道、超过1,400公里的国际和指定跨省输电线路，以及可再生能源和常规海上能源开发项目。CER提供能源基础设施、商品流动、安全绩效和监管决策的综合数据。通过加拿大开放政府门户，CER发布有关管道吞吐量和容量、能源进出口、原油和天然气统计数据以及可再生能源来源的数据集。该组织维护交互式仪表板、市场更新和省/地区能源概况，以支持加拿大基于证据的能源政策和监管。"
+  },
+  "website": "https://www.cer-rec.gc.ca/en/",
+  "data_url": "https://www.cer-rec.gc.ca/en/data-analysis/",
+  "api_url": "https://open.canada.ca/data/en/organization/cer-rec",
+  "country": "CA",
+  "domains": [
+    "Energy Infrastructure",
+    "Pipeline Regulation",
+    "Electricity Transmission",
+    "Oil and Gas",
+    "Renewable Energy",
+    "Energy Safety",
+    "Energy Markets",
+    "Energy Trade"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "energy",
+    "canada",
+    "pipeline",
+    "natural-gas",
+    "crude-oil",
+    "electricity",
+    "renewable-energy",
+    "energy-regulation",
+    "infrastructure",
+    "energy-trade",
+    "open-data",
+    "government"
+  ],
+  "data_content": {
+    "en": [
+      "Pipeline Throughput and Capacity - Quarterly data on oil/liquids pipelines (monthly) and natural gas pipelines (daily)",
+      "Pipeline Profiles - Key data on pipeline use, safety, environment, tolls, and financials",
+      "Crude Oil Data - Refinery runs, crude by rail, estimated production",
+      "Natural Gas Data - Marketable production, import/export prices and volumes",
+      "Electricity Data - International power line data, imports/exports by source and destination",
+      "Renewable Energy Sources - Data on wind, solar, hydro, and other renewable energy",
+      "Energy Exports and Imports - Historical volumes of refined petroleum products",
+      "Regulatory Documents - Applications, decisions, and hearing transcripts via REGDOCS",
+      "Facilities Data - Information on regulated pipelines, power lines, and offshore projects",
+      "Safety and Environmental Performance - Incident reports and compliance data"
+    ],
+    "zh": [
+      "管道吞吐量和容量 - 石油/液体管道的季度数据（月度）和天然气管道数据（每日）",
+      "管道概况 - 管道使用、安全、环境、收费和财务的关键数据",
+      "原油数据 - 炼油厂运营、铁路原油运输、估计产量",
+      "天然气数据 - 可销售产量、进出口价格和数量",
+      "电力数据 - 国际输电线路数据、按来源和目的地分类的进出口",
+      "可再生能源来源 - 风能、太阳能、水电和其他可再生能源数据",
+      "能源进出口 - 成品油历史出口量",
+      "监管文件 - 通过REGDOCS系统提供的申请、决定和听证会记录",
+      "设施数据 - 受监管的管道、输电线路和海上项目信息",
+      "安全和环境绩效 - 事故报告和合规数据"
+    ]
+  },
+  "authority_level": "government"
+}

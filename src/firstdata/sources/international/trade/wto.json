@@ -1,0 +1,54 @@
+{
+  "id": "wto-statistics",
+  "name": {
+    "en": "WTO Statistics Database",
+    "zh": "世界贸易组织统计数据库",
+    "native": "WTO Statistics Database"
+  },
+  "description": {
+    "en": "Comprehensive international trade statistics including merchandise and commercial services trade data, tariff profiles, and market access indicators for WTO members and observers.",
+    "zh": "综合国际贸易统计数据,包括世贸组织成员和观察员的商品和商业服务贸易数据、关税概况和市场准入指标。"
+  },
+  "website": "https://www.wto.org",
+  "data_url": "https://stats.wto.org",
+  "api_url": "https://apiportal.wto.org",
+  "country": null,
+  "domains": [
+    "economics",
+    "trade"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "international-trade",
+    "tariffs",
+    "merchandise-trade",
+    "services-trade",
+    "wto",
+    "trade-policy",
+    "market-access"
+  ],
+  "data_content": {
+    "en": [
+      "Merchandise trade by product and partner",
+      "Commercial services trade",
+      "Tariff profiles and applied tariffs",
+      "Trade policy reviews",
+      "Market access indicators",
+      "Trade in value-added (TiVA)",
+      "Regional trade agreements statistics",
+      "Trade disputes data"
+    ],
+    "zh": [
+      "按产品和伙伴分类的商品贸易",
+      "商业服务贸易",
+      "关税概况和实施关税",
+      "贸易政策审议",
+      "市场准入指标",
+      "增加值贸易(TiVA)",
+      "区域贸易协定统计",
+      "贸易争端数据"
+    ]
+  },
+  "authority_level": "international"
+}

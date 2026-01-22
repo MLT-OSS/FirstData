@@ -1,0 +1,73 @@
+{
+  "id": "bipm-kcdb",
+  "name": {
+    "en": "BIPM Key Comparison Database (KCDB)",
+    "zh": "国际度量衡局关键比对数据库",
+    "native": "Bureau International des Poids et Mesures (BIPM)"
+  },
+  "description": {
+    "en": "The Bureau International des Poids et Mesures (BIPM) is the international organization through which Member States work together on matters related to metrology. Established by the Metre Convention in 1875, the BIPM maintains the Key Comparison Database (KCDB), which provides public access to measurement comparison results and calibration and measurement capabilities (CMCs) under the CIPM Mutual Recognition Arrangement (CIPM MRA). The KCDB contains peer-reviewed and approved data on measurement standards, ensuring global comparability and traceability of measurements for scientific discovery, industrial manufacturing, international trade, quality of life, and environmental sustainability.",
+    "zh": "国际度量衡局（BIPM）是成员国在计量事务上开展合作的国际组织。BIPM于1875年根据米制公约建立，维护着关键比对数据库（KCDB），该数据库在国际计量委员会相互承认协议（CIPM MRA）框架下提供公开访问测量比对结果和校准测量能力（CMCs）的服务。KCDB包含经过同行评审和批准的测量标准数据，确保测量的全球可比性和可追溯性，服务于科学发现、工业制造、国际贸易、生活质量提升和环境可持续发展。"
+  },
+  "website": "https://www.bipm.org",
+  "data_url": "https://www.bipm.org/kcdb",
+  "api_url": "https://www.bipm.org/en/cipm-mra/kcdb-api",
+  "country": null,
+  "domains": [
+    "Metrology",
+    "Measurement Standards",
+    "International System of Units (SI)",
+    "Time and Frequency",
+    "Mass and Related Quantities",
+    "Length",
+    "Thermometry",
+    "Electricity and Magnetism",
+    "Photometry and Radiometry",
+    "Ionizing Radiation",
+    "Chemistry and Biology",
+    "Acoustics, Ultrasound and Vibration"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "metrology",
+    "measurement-standards",
+    "SI-units",
+    "calibration",
+    "international-standards",
+    "quality-assurance",
+    "UTC",
+    "traceability",
+    "CIPM-MRA",
+    "national-metrology-institutes"
+  ],
+  "data_content": {
+    "en": [
+      "Calibration and Measurement Capabilities (CMCs) - 26,532 peer-reviewed measurement capabilities from national metrology institutes",
+      "Key Comparisons - 1,259 key comparison results establishing degree of equivalence among national measurement standards",
+      "Supplementary Comparisons - 765 additional comparison studies for specialized measurement areas",
+      "SI Base Units - Definitions and realizations of the seven SI base units (second, metre, kilogram, ampere, kelvin, mole, candela)",
+      "UTC Time Scale - International reference time scale and time dissemination services",
+      "Mass Metrology - Kibble balance measurements and kilogram realization following 2019 redefinition",
+      "Electrical Metrology - Quantum electrical standards based on Josephson and quantum Hall effects",
+      "Radiation Dosimetry - Standards for ionizing radiation measurement in medical and industrial applications",
+      "Gas Metrology - Reference materials and standards for gas composition and purity",
+      "JCGM Publications - Guide to the Expression of Uncertainty in Measurement (GUM) and International Vocabulary of Metrology (VIM)",
+      "CIPM MRA Participants - Information on 259 signatory organizations from member states and regional metrology organizations"
+    ],
+    "zh": [
+      "校准和测量能力（CMCs）- 来自国家计量院的26,532个经过同行评审的测量能力",
+      "关键比对 - 1,259个关键比对结果，确定国家测量标准之间的等效程度",
+      "补充比对 - 765个针对专业测量领域的额外比对研究",
+      "SI基本单位 - 七个SI基本单位（秒、米、千克、安培、开尔文、摩尔、坎德拉）的定义和实现",
+      "UTC时间标度 - 国际参考时间标度和时间传播服务",
+      "质量计量 - 基布尔天平测量和2019年重新定义后的千克实现",
+      "电学计量 - 基于约瑟夫森效应和量子霍尔效应的量子电学标准",
+      "辐射剂量学 - 医疗和工业应用中电离辐射测量标准",
+      "气体计量 - 气体成分和纯度的参考物质和标准",
+      "JCGM出版物 - 测量不确定度表示指南（GUM）和国际计量学词汇（VIM）",
+      "CIPM MRA参与者 - 来自成员国和区域计量组织的259个签署机构信息"
+    ]
+  },
+  "authority_level": "international"
+}

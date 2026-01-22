@@ -1,0 +1,85 @@
+{
+  "id": "drugbank",
+  "name": {
+    "en": "DrugBank",
+    "zh": "药物与药物靶点数据库"
+  },
+  "description": {
+    "en": "DrugBank is a comprehensive, free-to-access, online database containing information on drugs and drug targets created and maintained by the University of Alberta and The Metabolomics Innovation Centre located in Alberta, Canada. Started in 2006 in Dr. David Wishart's lab, DrugBank combines detailed drug (chemical, pharmacological and pharmaceutical) data with comprehensive drug target (sequence, structure, and pathway) information. As both a bioinformatics and cheminformatics resource, each entry contains more than 200 data fields with half devoted to drug/chemical data and half to drug target or protein data. The latest version (5.1.13, released 2025-01-02) contains 19,774 drug entries including 3,016 approved small molecule drugs, 1,766 approved biologics (proteins, peptides, vaccines, and allergenics), 135 nutraceuticals and over 8,928 experimental (discovery-phase) drugs. Additionally, 5,467 non-redundant protein (drug target/enzyme/transporter/carrier) sequences are linked to these drug entries.",
+    "zh": "DrugBank 是一个全面的、免费访问的在线数据库，包含由加拿大阿尔伯塔大学和代谢组学创新中心创建和维护的药物及药物靶点信息。DrugBank 于 2006 年在 David Wishart 博士的实验室启动，将详细的药物（化学、药理学和药学）数据与全面的药物靶点（序列、结构和通路）信息相结合。作为生物信息学和化学信息学资源，每个条目包含超过 200 个数据字段，其中一半专注于药物/化学数据,另一半专注于药物靶点或蛋白质数据。最新版本（5.1.13，2025-01-02 发布）包含 19,774 个药物条目，包括 3,016 个批准的小分子药物、1,766 个批准的生物制剂（蛋白质、肽、疫苗和过敏原）、135 个营养保健品和超过 8,928 个实验（发现阶段）药物。此外，5,467 个非冗余蛋白质（药物靶点/酶/转运体/载体）序列与这些药物条目相关联。"
+  },
+  "website": "https://www.drugbank.com",
+  "data_url": "https://go.drugbank.com",
+  "api_url": "https://docs.drugbank.com",
+  "country": null,
+  "domains": [
+    "Pharmaceutical Sciences",
+    "Drug Discovery",
+    "Drug Development",
+    "Pharmacology",
+    "Medicinal Chemistry",
+    "Bioinformatics",
+    "Cheminformatics",
+    "Clinical Pharmacology",
+    "Drug Metabolism",
+    "Toxicology"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "pharmaceutical",
+    "drug-discovery",
+    "drug-development",
+    "pharmacology",
+    "medicinal-chemistry",
+    "bioinformatics",
+    "cheminformatics",
+    "drug-targets",
+    "proteins",
+    "small-molecules",
+    "biologics",
+    "admet",
+    "drug-interactions",
+    "clinical-pharmacology",
+    "metabolism",
+    "toxicology",
+    "fda",
+    "academic-research",
+    "commercial-research"
+  ],
+  "data_content": {
+    "en": [
+      "Small Molecule Drugs - 3,016 approved small molecule drugs with chemical structures and properties",
+      "Biologics - 1,766 approved biologics including proteins, peptides, vaccines, and allergenics",
+      "Nutraceuticals - 135 nutraceutical compounds",
+      "Experimental Drugs - 8,928+ discovery-phase drugs under development",
+      "Drug Targets - 5,467 non-redundant protein sequences (targets, enzymes, transporters, carriers)",
+      "Chemical Data - Molecular formulas, structures, SMILES, InChI, molecular weights, chemical properties",
+      "Pharmacological Data - Indications, contraindications, mechanisms of action, pharmacodynamics",
+      "Pharmaceutical Data - Dosage forms, routes of administration, manufacturers, brand names",
+      "ADMET Data - Absorption, distribution, metabolism, excretion, and toxicity information",
+      "Drug-Drug Interactions - Comprehensive interaction data between drugs",
+      "Pathways - Metabolic and signaling pathways related to drug action",
+      "Protein Sequences - Target protein sequences, structures, and functional annotations",
+      "Clinical Data - FDA labels, clinical trial information, approval dates",
+      "External Links - Cross-references to PubChem, ChEMBL, PDB, UniProt, and other databases"
+    ],
+    "zh": [
+      "小分子药物 - 3,016 个批准的小分子药物，包含化学结构和性质",
+      "生物制剂 - 1,766 个批准的生物制剂，包括蛋白质、肽、疫苗和过敏原",
+      "营养保健品 - 135 个营养保健化合物",
+      "实验药物 - 8,928+ 个处于发现阶段的在研药物",
+      "药物靶点 - 5,467 个非冗余蛋白质序列（靶点、酶、转运体、载体）",
+      "化学数据 - 分子式、结构、SMILES、InChI、分子量、化学性质",
+      "药理学数据 - 适应症、禁忌症、作用机制、药效学",
+      "药学数据 - 剂型、给药途径、生产商、品牌名称",
+      "ADMET 数据 - 吸收、分布、代谢、排泄和毒性信息",
+      "药物相互作用 - 药物之间的综合相互作用数据",
+      "通路 - 与药物作用相关的代谢和信号通路",
+      "蛋白质序列 - 靶点蛋白质序列、结构和功能注释",
+      "临床数据 - FDA 标签、临床试验信息、批准日期",
+      "外部链接 - 与 PubChem、ChEMBL、PDB、UniProt 等数据库的交叉引用"
+    ]
+  },
+  "authority_level": "research"
+}

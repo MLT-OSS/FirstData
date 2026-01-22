@@ -1,0 +1,65 @@
+{
+  "id": "cites-trade-database",
+  "name": {
+    "en": "CITES Trade Database",
+    "zh": "濒危物种国际贸易公约贸易数据库"
+  },
+  "description": {
+    "en": "The CITES Trade Database is the most comprehensive and authoritative database on international trade in wildlife. Dating back to 1975, it reflects the official trade records as reported by Parties in their annual reports to the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). The database is developed and maintained by UNEP-WCMC (United Nations Environment Programme World Conservation Monitoring Centre) on behalf of the CITES Secretariat, providing critical data for monitoring and regulating trade in endangered species worldwide.",
+    "zh": "CITES贸易数据库是关于野生动物国际贸易最全面、最权威的数据库。该数据库可追溯至1975年，反映了各缔约方在其年度报告中向《濒危野生动植物种国际贸易公约》(CITES)报告的官方贸易记录。该数据库由联合国环境规划署世界自然保护监测中心(UNEP-WCMC)代表CITES秘书处开发和维护，为监测和管理全球濒危物种贸易提供关键数据。"
+  },
+  "website": "https://unep-wcmc.org",
+  "data_url": "https://trade.cites.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Wildlife Conservation",
+    "Endangered Species",
+    "International Trade",
+    "Environmental Protection",
+    "Biodiversity"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "CITES",
+    "wildlife trade",
+    "endangered species",
+    "conservation",
+    "biodiversity",
+    "international trade",
+    "environmental protection",
+    "UNEP-WCMC",
+    "species monitoring",
+    "wildlife conservation",
+    "trade regulations",
+    "fauna and flora"
+  ],
+  "data_content": {
+    "en": [
+      "International trade records for CITES-listed species (1975-present)",
+      "Trade data by exporter and importer countries",
+      "Species information (scientific and common names)",
+      "Trade purposes (commercial, scientific, educational, breeding, etc.)",
+      "Trade sources (wild-caught, captive-bred, confiscated, etc.)",
+      "Trade terms (live specimens, skins, ivory, meat, etc.)",
+      "Quantity and unit measurements",
+      "Year-by-year trade statistics",
+      "CITES appendix classifications (I, II, III)",
+      "Permit information and trade authorization"
+    ],
+    "zh": [
+      "CITES列名物种的国际贸易记录(1975年至今)",
+      "按出口国和进口国分类的贸易数据",
+      "物种信息(学名和俗名)",
+      "贸易目的(商业、科学、教育、繁殖等)",
+      "贸易来源(野生捕获、人工繁殖、没收等)",
+      "贸易术语(活体标本、皮革、象牙、肉类等)",
+      "数量和单位测量",
+      "逐年贸易统计",
+      "CITES附录分类(I、II、III)",
+      "许可证信息和贸易授权"
+    ]
+  },
+  "authority_level": "international"
+}

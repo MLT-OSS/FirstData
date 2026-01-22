@@ -1,0 +1,72 @@
+{
+  "id": "china-national-data-bureau",
+  "name": {
+    "en": "National Data Administration of China",
+    "zh": "国家数据局"
+  },
+  "description": {
+    "en": "The National Data Administration (NDA) is a ministerial-level agency under the National Development and Reform Commission, responsible for coordinating data infrastructure development, promoting data resource integration and utilization, and advancing the construction of Digital China. The NDA oversees the National Public Data Resources Registration Platform and formulates policies for data element markets, digital economy development, and data governance.",
+    "zh": "国家数据局是国家发展和改革委员会管理的国家局,负责协调推进数据基础制度建设,统筹数据资源整合共享和开发利用,统筹推进数字中国、数字经济、数字社会规划和建设等工作。国家数据局管理国家公共数据资源登记平台,制定数据要素市场、数字经济发展和数据治理政策。"
+  },
+  "website": "https://www.nda.gov.cn/",
+  "data_url": "https://sjdj.nda.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "digital_economy",
+    "data_governance",
+    "digital_infrastructure"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "国家数据局",
+    "National Data Administration",
+    "NDA",
+    "数据要素",
+    "data elements",
+    "数据要素市场",
+    "data element market",
+    "数字中国",
+    "Digital China",
+    "数字经济",
+    "digital economy",
+    "公共数据资源",
+    "public data resources",
+    "数据登记平台",
+    "data registration platform",
+    "数据治理",
+    "data governance",
+    "数据基础设施",
+    "data infrastructure",
+    "数据标注",
+    "data annotation",
+    "数据流通",
+    "data circulation",
+    "政务数据",
+    "government data"
+  ],
+  "data_content": {
+    "en": [
+      "Public data resources registration and management information",
+      "Data element market policies and regulations",
+      "Digital China construction progress and reports",
+      "Data infrastructure development plans and standards",
+      "Data governance frameworks and best practices",
+      "Digital economy development statistics and case studies",
+      "Data circulation and trading platform information",
+      "National data standardization technical guidelines"
+    ],
+    "zh": [
+      "公共数据资源登记和管理信息",
+      "数据要素市场政策法规",
+      "数字中国建设进展和报告",
+      "数据基础设施发展规划和标准",
+      "数据治理框架和最佳实践",
+      "数字经济发展统计和案例研究",
+      "数据流通和交易平台信息",
+      "国家数据标准化技术指南"
+    ]
+  }
+}

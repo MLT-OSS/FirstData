@@ -1,0 +1,58 @@
+{
+  "id": "china-customs",
+  "name": {
+    "en": "General Administration of Customs of China",
+    "zh": "中华人民共和国海关总署",
+    "native": "中华人民共和国海关总署"
+  },
+  "description": {
+    "en": "The General Administration of Customs (GAC) is responsible for China's customs administration. It publishes comprehensive foreign trade statistics including import/export data by country, commodity, customs district, trade mode, and enterprise type. Covers merchandise trade values, volumes, prices, and trade balance data.",
+    "zh": "中华人民共和国海关总署负责中国的海关管理。发布全面的对外贸易统计数据，包括按国家/地区、商品、海关关区、贸易方式和企业类型分类的进出口数据。涵盖商品贸易金额、数量、价格和贸易差额数据。"
+  },
+  "website": "http://www.customs.gov.cn",
+  "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "trade",
+    "economics",
+    "international_commerce"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "customs",
+    "foreign-trade",
+    "import",
+    "export",
+    "trade-statistics",
+    "hs-code",
+    "merchandise-trade"
+  ],
+  "data_content": {
+    "en": [
+      "Import and Export Values - Total trade values, import/export breakdown by month, quarter, and year",
+      "Trade by Country/Region - Bilateral trade statistics with major trading partners worldwide",
+      "Trade by Commodity - Import/export data classified by HS codes (2-digit, 4-digit, 6-digit, 8-digit)",
+      "Trade by Customs District - Regional trade statistics by major customs offices (Shanghai, Shenzhen, Beijing, etc.)",
+      "Trade by Enterprise Type - Trade by state-owned, foreign-invested, and private enterprises",
+      "Trade Balance - Monthly and annual trade surplus/deficit data",
+      "Processing Trade - Processing with imported materials and processing with supplied materials",
+      "Commodity Prices and Quantities - Unit prices and quantities for major import/export commodities",
+      "Special Trade Zones - Free trade zones, bonded zones, and special customs supervision areas"
+    ],
+    "zh": [
+      "进出口总额 - 总贸易额、按月、季度和年度分类的进出口数据",
+      "按国家/地区分类的贸易 - 与全球主要贸易伙伴的双边贸易统计",
+      "按商品分类的贸易 - 按HS编码(2位、4位、6位、8位)分类的进出口数据",
+      "按海关关区分类的贸易 - 主要海关(上海、深圳、北京等)的区域贸易统计",
+      "按企业类型分类的贸易 - 国有企业、外商投资企业和民营企业的贸易",
+      "贸易差额 - 月度和年度贸易顺差/逆差数据",
+      "加工贸易 - 来料加工和进料加工",
+      "商品价格和数量 - 主要进出口商品的单价和数量",
+      "特殊贸易区 - 自由贸易区、保税区和特殊海关监管区域"
+    ]
+  },
+  "authority_level": "government"
+}

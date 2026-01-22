@@ -1,0 +1,66 @@
+{
+  "id": "tennis-atp-wta-data",
+  "name": {
+    "en": "ATP/WTA Tennis Data",
+    "zh": "ATP/WTA网球数据"
+  },
+  "description": {
+    "en": "Comprehensive open-source databases containing historical tennis rankings, match results, and statistics for both men's (ATP) and women's (WTA) professional tennis. Includes match-level data from 1968 to present, player biographical information, and detailed match statistics. The datasets cover tour-level, challenger, futures, and qualifying matches with extensive historical coverage.",
+    "zh": "全面的开源数据库，包含男子（ATP）和女子（WTA）职业网球的历史排名、比赛结果和统计数据。包括从1968年至今的比赛级别数据、球员传记信息和详细的比赛统计。数据集涵盖巡回赛级别、挑战赛、未来赛和资格赛，具有广泛的历史覆盖范围。"
+  },
+  "website": "https://www.tennisabstract.com/",
+  "data_url": "https://github.com/JeffSackmann/tennis_atp",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Sports Statistics",
+    "Tennis",
+    "Professional Sports Data",
+    "Player Performance Analytics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "sports",
+    "tennis",
+    "atp",
+    "wta",
+    "rankings",
+    "match-results",
+    "player-statistics",
+    "open-source",
+    "historical-data",
+    "professional-sports"
+  ],
+  "data_content": {
+    "en": [
+      "ATP Rankings (1973-present, with gaps in early years)",
+      "WTA Rankings (1980s-present)",
+      "Tour-level match results (singles and doubles)",
+      "Challenger and Futures match results",
+      "Qualifying match results",
+      "ITF-level match results for WTA",
+      "Player biographical data (name, birth date, country, handedness, height)",
+      "Match statistics (aces, double faults, serve percentages, break points, etc.)",
+      "Tournament information (name, level, surface, location)",
+      "Historical rankings by decade",
+      "Point-by-point data (separate repositories)",
+      "Match charting data (separate project)"
+    ],
+    "zh": [
+      "ATP排名（1973年至今，早期有缺失）",
+      "WTA排名（1980年代至今）",
+      "巡回赛级别比赛结果（单打和双打）",
+      "挑战赛和未来赛比赛结果",
+      "资格赛比赛结果",
+      "WTA的ITF级别比赛结果",
+      "球员传记数据（姓名、出生日期、国家、惯用手、身高）",
+      "比赛统计（ACE球、双误、发球百分比、破发点等）",
+      "锦标赛信息（名称、级别、场地类型、地点）",
+      "按十年划分的历史排名",
+      "逐分数据（独立存储库）",
+      "比赛图表数据（独立项目）"
+    ]
+  },
+  "authority_level": "research"
+}

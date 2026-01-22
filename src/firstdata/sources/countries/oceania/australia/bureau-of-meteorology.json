@@ -1,0 +1,82 @@
+{
+  "id": "bureau-of-meteorology",
+  "name": {
+    "en": "Bureau of Meteorology",
+    "zh": "澳大利亚气象局"
+  },
+  "description": {
+    "en": "Australia's national weather, climate, water, ocean and space weather information agency. The Bureau of Meteorology provides trusted, reliable and responsive services for Australia every day. It monitors and reports on current conditions, provides forecasts, warnings and long-term outlooks, analyzes trends, and continues to extend understanding of Australian conditions. Operating under the Meteorology Act 1955 and Water Act 2007, the Bureau fulfills Australia's international obligations under the World Meteorological Organization.",
+    "zh": "澳大利亚国家气象、气候、水文、海洋和空间气象信息机构。澳大利亚气象局每天为澳大利亚提供可信、可靠和响应迅速的服务。它监测和报告当前状况，提供预报、警报和长期展望，分析趋势，并不断扩展对澳大利亚气象条件的理解。根据1955年气象法和2007年水资源法运作，该局履行澳大利亚在世界气象组织下的国际义务。"
+  },
+  "website": "https://www.bom.gov.au",
+  "data_url": "https://www.bom.gov.au",
+  "api_url": "https://reg.bom.gov.au/catalogue/data-feeds.shtml",
+  "country": "AU",
+  "domains": [
+    "weather",
+    "climate",
+    "water",
+    "oceans",
+    "space weather",
+    "atmosphere",
+    "meteorology",
+    "hydrology",
+    "oceanography"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "real-time",
+  "tags": [
+    "weather",
+    "climate",
+    "meteorology",
+    "australia",
+    "forecasts",
+    "warnings",
+    "rainfall",
+    "temperature",
+    "water",
+    "oceans",
+    "space-weather",
+    "satellite",
+    "radar",
+    "government",
+    "oceania"
+  ],
+  "data_content": {
+    "en": [
+      "Weather forecasts and warnings",
+      "Rainfall and temperature observations",
+      "Radar and satellite imagery",
+      "Climate data and analysis",
+      "Water information and river levels",
+      "Ocean observations and forecasts",
+      "Space weather alerts",
+      "Severe weather warnings",
+      "Long-range forecasts and outlooks",
+      "Historical climate records",
+      "Tropical cyclone information",
+      "Fire weather warnings",
+      "Flood warnings and information",
+      "UV index and sun protection times",
+      "Marine and coastal forecasts"
+    ],
+    "zh": [
+      "天气预报和警报",
+      "降雨量和温度观测",
+      "雷达和卫星图像",
+      "气候数据和分析",
+      "水文信息和河流水位",
+      "海洋观测和预报",
+      "空间气象警报",
+      "恶劣天气警报",
+      "长期预报和展望",
+      "历史气候记录",
+      "热带气旋信息",
+      "火灾天气警报",
+      "洪水警报和信息",
+      "紫外线指数和防晒时间",
+      "海洋和沿海预报"
+    ]
+  },
+  "authority_level": "government"
+}

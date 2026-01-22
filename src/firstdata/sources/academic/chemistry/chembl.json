@@ -1,0 +1,87 @@
+{
+  "id": "chembl",
+  "name": {
+    "en": "ChEMBL Database",
+    "zh": "ChEMBL生物活性数据库"
+  },
+  "description": {
+    "en": "ChEMBL is a manually curated database of bioactive molecules with drug-like properties, maintained by the European Bioinformatics Institute (EMBL-EBI) of the European Molecular Biology Laboratory (EMBL). It brings together chemical, bioactivity, and genomic data to aid the translation of genomic information into effective new drugs. The database contains over 2.8 million distinct compounds, more than 17,800 targets, and millions of bioactivity measurements. Data are manually abstracted from primary published literature, direct deposition, patents, and PhD theses, then further curated and standardized. ChEMBL is recognized as one of the Global Core Biodata Resources (GCBRs) - a collection of data resources critical to life science and biomedical research. It ranks 5th in EMBL-EBI's most used resources and serves as a fundamental platform for pharmaceutical drug discovery, agrochemical research, and academic research.",
+    "zh": "ChEMBL是由欧洲分子生物学实验室（EMBL）的欧洲生物信息学研究所（EMBL-EBI）维护的人工精选生物活性分子数据库，收录具有药物样特性的化合物。它整合化学、生物活性和基因组数据，帮助将基因组信息转化为有效的新药。数据库包含超过280万个不同化合物、17,800多个靶点以及数百万条生物活性测量数据。数据从发表文献、直接提交、专利和博士论文中手动提取，经过进一步整理和标准化。ChEMBL被认定为全球核心生物数据资源（GCBRs）之一，是生命科学和生物医学研究的关键数据资源。它在EMBL-EBI最常用资源中排名第5，是制药药物发现、农药研究和学术研究的基础平台。"
+  },
+  "website": "https://www.ebi.ac.uk",
+  "data_url": "https://www.ebi.ac.uk/chembl/",
+  "api_url": "https://www.ebi.ac.uk/chembl/api/data/docs",
+  "country": null,
+  "domains": [
+    "Drug Discovery",
+    "Pharmaceutical Sciences",
+    "Medicinal Chemistry",
+    "Chemical Biology",
+    "Bioactivity",
+    "Pharmacology",
+    "Toxicology",
+    "ADMET",
+    "Agrochemical Research",
+    "Genomics",
+    "Proteomics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "bioactivity",
+    "drug-discovery",
+    "pharmaceutical",
+    "medicinal-chemistry",
+    "chemical-biology",
+    "pharmacology",
+    "toxicology",
+    "admet",
+    "small-molecules",
+    "drug-targets",
+    "protein-targets",
+    "bioassays",
+    "clinical-trials",
+    "approved-drugs",
+    "chemical-structures",
+    "cheminformatics",
+    "structure-activity-relationship",
+    "sar",
+    "lead-optimization",
+    "drug-development",
+    "embl-ebi",
+    "gcbr",
+    "open-data",
+    "creative-commons"
+  ],
+  "data_content": {
+    "en": [
+      "Bioactive Compounds - Over 2.8 million distinct compounds with drug-like properties",
+      "Biological Targets - More than 17,800 protein targets, including enzymes, receptors, transporters",
+      "Bioactivity Measurements - Millions of bioactivity data points (Ki, Kd, IC50, EC50)",
+      "Drug Data - 17,500+ approved drugs and clinical development candidates",
+      "Assay Data - Bioassay protocols and experimental conditions",
+      "ADMET Data - Absorption, Distribution, Metabolism, Excretion, and Toxicity information",
+      "Chemical Structures - 2D structures, molecular properties, physicochemical descriptors",
+      "Target-Disease Associations - Protein-disease relationships",
+      "Literature References - Links to primary literature sources",
+      "Mechanism of Action - Drug mechanism and pathway information",
+      "Clinical Trial Data - Drug development stage information",
+      "Toxicity Data - Drug safety and adverse effect information"
+    ],
+    "zh": [
+      "生物活性化合物 - 超过280万个具有药物样特性的不同化合物",
+      "生物靶点 - 17,800多个蛋白质靶点，包括酶、受体、转运体",
+      "生物活性测量 - 数百万条生物活性数据点（Ki、Kd、IC50、EC50）",
+      "药物数据 - 17,500多个已批准药物和临床开发候选药物",
+      "检测数据 - 生物检测协议和实验条件",
+      "ADMET数据 - 吸收、分布、代谢、排泄和毒性信息",
+      "化学结构 - 2D结构、分子性质、物理化学描述符",
+      "靶点-疾病关联 - 蛋白质-疾病关系",
+      "文献引用 - 主要文献来源链接",
+      "作用机制 - 药物机制和通路信息",
+      "临床试验数据 - 药物开发阶段信息",
+      "毒性数据 - 药物安全性和不良反应信息"
+    ]
+  },
+  "authority_level": "research"
+}

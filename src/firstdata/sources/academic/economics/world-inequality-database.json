@@ -1,0 +1,61 @@
+{
+  "id": "world-inequality-database",
+  "name": {
+    "en": "World Inequality Database (WID.world)",
+    "zh": "世界不平等数据库"
+  },
+  "description": {
+    "en": "The World Inequality Database (WID.world) is the most extensive public database on global inequality. It provides open access data on income and wealth inequality based on the systematic combination of national accounts, survey and fiscal data. The database covers over 70 countries across 5 continents, with historical data extending back to the early 20th century for some countries. WID.world is maintained by more than 100 researchers worldwide and is the primary source of data for the World Inequality Report.",
+    "zh": "世界不平等数据库(WID.world)是全球最广泛的公共不平等数据库。它基于国民账户、调查和财政数据的系统性结合,提供收入和财富不平等的开放访问数据。该数据库覆盖5大洲70多个国家,部分国家的历史数据可追溯至20世纪初。WID.world由全球100多位研究人员维护,是世界不平等报告的主要数据来源。"
+  },
+  "website": "https://wid.world/",
+  "data_url": "https://wid.world/",
+  "api_url": "https://wid.world/data/",
+  "country": null,
+  "domains": [
+    "economics",
+    "inequality",
+    "social"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "inequality",
+    "income-distribution",
+    "wealth-distribution",
+    "top-incomes",
+    "poverty",
+    "gender-inequality",
+    "distributional-accounts",
+    "gini-coefficient",
+    "academic-research",
+    "open-data"
+  ],
+  "data_content": {
+    "en": [
+      "Income inequality - pre-tax and post-tax income distribution",
+      "Wealth inequality - household wealth distribution",
+      "Top income shares - top 10%, top 1%, top 0.1% shares",
+      "Bottom income shares - bottom 50%, bottom 90% shares",
+      "Gender inequality - income and wealth gaps by gender",
+      "Wealth-income ratios - aggregate wealth to income ratios",
+      "Poverty indicators - poverty rates and thresholds",
+      "National income and wealth accounts",
+      "Gini coefficients and other inequality measures",
+      "Historical inequality series dating back to 1900"
+    ],
+    "zh": [
+      "收入不平等 - 税前和税后收入分配",
+      "财富不平等 - 家庭财富分配",
+      "顶层收入份额 - 前10%、前1%、前0.1%份额",
+      "底层收入份额 - 后50%、后90%份额",
+      "性别不平等 - 按性别划分的收入和财富差距",
+      "财富收入比 - 总财富与收入比率",
+      "贫困指标 - 贫困率和贫困线",
+      "国民收入和财富账户",
+      "基尼系数和其他不平等测量指标",
+      "追溯至1900年的历史不平等序列"
+    ]
+  },
+  "authority_level": "research"
+}

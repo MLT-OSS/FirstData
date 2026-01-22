@@ -1,0 +1,72 @@
+{
+  "id": "1000-genomes",
+  "name": {
+    "en": "1000 Genomes Project",
+    "zh": "千人基因组计划"
+  },
+  "description": {
+    "en": "The 1000 Genomes Project created the largest publicly available catalogue of human genetic variation, providing a comprehensive resource for background human genomic variation. The International Genome Sample Resource (IGSR) now maintains and extends this resource. The project sequenced 2,504 individuals from 26 populations across five continents to create a reference for human genetic variation with frequencies of at least 1% in the populations studied. IGSR continues to update the resources to GRCh38 assembly, adds high-coverage sequence data, and incorporates new samples with open consent to increase population diversity. The resource includes low coverage, exome, and high coverage whole genome sequencing data.",
+    "zh": "千人基因组计划创建了最大的公开可用的人类基因变异目录，为人类基因组背景变异提供了全面的资源。国际基因组样本资源库(IGSR)现在维护并扩展该资源。该项目对来自五大洲26个人群的2,504个个体进行了测序，创建了研究人群中频率至少为1%的人类基因变异参考。IGSR继续将资源更新到GRCh38组装版本，添加高覆盖度测序数据，并纳入具有开放知情同意的新样本以增加人群多样性。该资源包括低覆盖度、外显子组和高覆盖度全基因组测序数据。"
+  },
+  "website": "https://www.internationalgenome.org/",
+  "data_url": "https://www.internationalgenome.org/",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "genomics",
+    "genetics",
+    "human genetic variation",
+    "population genetics",
+    "evolutionary biology",
+    "bioinformatics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "genomics",
+    "genetics",
+    "whole genome sequencing",
+    "human genetics",
+    "population genetics",
+    "genetic variation",
+    "SNP",
+    "variant calling",
+    "reference genome",
+    "allele frequency",
+    "haplotype",
+    "VCF",
+    "BAM",
+    "open data",
+    "international collaboration",
+    "evolutionary biology",
+    "bioinformatics",
+    "precision medicine"
+  ],
+  "data_content": {
+    "en": [
+      "Low Coverage Sequencing - Whole genome sequences at 4-6x coverage for all 2,504 individuals",
+      "Exome Sequencing - Targeted sequencing of protein-coding regions for all participants",
+      "High Coverage Sequencing - 30x coverage whole genome sequences for the full cohort",
+      "Variant Calls - SNVs (single nucleotide variants), indels (insertions/deletions), and structural variants",
+      "Genotype Data - Individual genotypes across millions of variant sites",
+      "Population Data - Sample metadata including population, super population, and relationships",
+      "Phase 3 Data - Final release with 2,504 samples from 26 populations",
+      "GRCh38 Alignments - Data realigned to the latest human reference genome",
+      "Phased Haplotypes - Chromosome-scale phased variants for inheritance studies",
+      "Allele Frequencies - Population-specific and global allele frequency information"
+    ],
+    "zh": [
+      "低覆盖度测序 - 所有2,504个个体的4-6倍覆盖度全基因组序列",
+      "外显子组测序 - 所有参与者蛋白质编码区的靶向测序",
+      "高覆盖度测序 - 完整队列的30倍覆盖度全基因组序列",
+      "变异检出 - SNV(单核苷酸变异)、插入缺失和结构变异",
+      "基因型数据 - 数百万变异位点的个体基因型",
+      "人群数据 - 样本元数据，包括人群、超级人群和亲缘关系",
+      "第三阶段数据 - 包含26个人群2,504个样本的最终版本",
+      "GRCh38比对 - 重新比对到最新人类参考基因组的数据",
+      "定相单倍型 - 用于遗传研究的染色体规模定相变异",
+      "等位基因频率 - 特定人群和全球等位基因频率信息"
+    ]
+  },
+  "authority_level": "research"
+}

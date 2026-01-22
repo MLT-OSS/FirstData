@@ -1,0 +1,65 @@
+{
+  "id": "idb",
+  "name": {
+    "en": "Inter-American Development Bank",
+    "zh": "美洲开发银行"
+  },
+  "description": {
+    "en": "The Inter-American Development Bank (IDB) is the leading source of financing and knowledge for improving lives in Latin America and the Caribbean. The IDB Open Data portal provides comprehensive socio-economic indicators, macroeconomic data, financial statistics, and project information for 26 borrowing member countries across the region. It includes specialized databases covering fiscal accounts, labor markets, social indicators, trade integration, and agricultural policies.",
+    "zh": "美洲开发银行（IDB）是改善拉丁美洲和加勒比地区生活的主要融资和知识来源。IDB开放数据门户为该地区26个借款成员国提供全面的社会经济指标、宏观经济数据、金融统计和项目信息。包括涵盖财政账户、劳动力市场、社会指标、贸易一体化和农业政策的专业数据库。"
+  },
+  "website": "https://www.iadb.org",
+  "data_url": "https://www.iadb.org/en/knowledge-resources/data",
+  "api_url": "https://data.iadb.org/dataset/",
+  "country": null,
+  "domains": [
+    "Development Finance",
+    "Macroeconomic Statistics",
+    "Fiscal Policy",
+    "Social Development",
+    "Education",
+    "Health",
+    "Labor Markets",
+    "Trade and Integration",
+    "Agriculture",
+    "Public Sector",
+    "Financial Sector"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "quarterly",
+  "tags": [
+    "development-finance",
+    "latin-america",
+    "caribbean",
+    "economic-development",
+    "social-development",
+    "multilateral-development-bank",
+    "open-data",
+    "macroeconomics",
+    "fiscal-policy",
+    "labor-markets"
+  ],
+  "data_content": {
+    "en": [
+      "Latin Macro Watch (LMW): Macroeconomic and financial database with indicators on economic activity, fiscal and external accounts, financial markets, and forecasts since 1990",
+      "Sociometro: Complete dataset of social indicators providing insight into Latin America and the Caribbean's socioeconomic conditions",
+      "SIMS: Main source of information on labor markets in Latin America and the Caribbean",
+      "Agrimonitor: Database tracking agricultural policies and measuring support to agriculture",
+      "INTrade: Comprehensive information on integration and trade in the region",
+      "IDB Project Data: Procurement information, contract awards, and project information from 1967 onwards",
+      "Public Debt Database: Standardized statistics on sovereign debt issuances for 26 LAC countries since 2006",
+      "IDB Group Impact Framework: Performance indicators and targets for development results"
+    ],
+    "zh": [
+      "拉丁宏观观察（LMW）：包含经济活动、财政和外部账户、金融市场和预测指标的宏观经济和金融数据库（自1990年起）",
+      "社会指标：提供拉美和加勒比地区社会经济状况洞察的完整社会指标数据集",
+      "SIMS：拉丁美洲和加勒比地区劳动力市场信息的主要来源",
+      "农业监测：追踪农业政策并衡量农业支持的数据库",
+      "INTrade：关于该地区一体化和贸易的综合信息",
+      "IDB项目数据：自1967年以来的采购信息、合同授予和项目信息",
+      "公共债务数据库：26个拉美和加勒比国家自2006年以来的主权债务发行标准化统计",
+      "IDB集团影响框架：发展成果的绩效指标和目标"
+    ]
+  },
+  "authority_level": "international"
+}

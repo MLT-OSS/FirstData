@@ -1,0 +1,74 @@
+{
+  "id": "crsp",
+  "name": {
+    "en": "CRSP - Center for Research in Security Prices",
+    "zh": "证券价格研究中心"
+  },
+  "description": {
+    "en": "CRSP maintains the most comprehensive collection of security price, return, and volume data for the NYSE, AMEX, and NASDAQ stock markets. Founded at the University of Chicago Booth School of Business in the 1960s, CRSP provides historical data dating back to 1925 covering over 32,000 active and inactive securities. The database includes daily and monthly stock prices, returns, trading volumes, corporate actions, and indices. CRSP is the gold standard for academic financial research and is widely used by researchers, investment professionals, and asset managers. In September 2025, Morningstar, Inc. acquired CRSP from the University of Chicago for $375 million. Over $3 trillion of assets are held in funds linked to CRSP Market Indexes.",
+    "zh": "CRSP 维护着纽约证券交易所（NYSE）、美国证券交易所（AMEX）和纳斯达克（NASDAQ）股票市场最全面的证券价格、回报和交易量数据集合。CRSP 成立于 1960 年代，由芝加哥大学布斯商学院创建，提供可追溯到 1925 年的历史数据，涵盖超过 32,000 个活跃和非活跃证券。数据库包括每日和每月股票价格、回报率、交易量、公司行为和指数。CRSP 是学术金融研究的黄金标准，被研究人员、投资专业人士和资产管理公司广泛使用。2025 年 9 月，晨星公司以 3.75 亿美元从芝加哥大学收购了 CRSP。与 CRSP 市场指数挂钩的基金持有的资产超过 3 万亿美元。"
+  },
+  "website": "https://www.crsp.org",
+  "data_url": "https://www.crsp.org/",
+  "api_url": "https://www.crsp.org/products/documentation/getting-started",
+  "country": "US",
+  "domains": [
+    "Stock Markets",
+    "Equities",
+    "Market Indices",
+    "Corporate Actions",
+    "Investment Research",
+    "Asset Pricing"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "stock-market",
+    "equities",
+    "historical-data",
+    "US-markets",
+    "NYSE",
+    "NASDAQ",
+    "AMEX",
+    "academic-research",
+    "financial-data",
+    "market-indices",
+    "time-series",
+    "asset-pricing",
+    "corporate-actions",
+    "subscription-based",
+    "WRDS",
+    "investment-research"
+  ],
+  "data_content": {
+    "en": [
+      "Daily and monthly stock prices (NYSE, AMEX, NASDAQ, NYSE Arca)",
+      "Stock returns and holding period returns",
+      "Trading volumes and shares outstanding",
+      "Market capitalization data",
+      "Stock indices and portfolio returns",
+      "Corporate actions (splits, dividends, delistings, mergers)",
+      "Beta-based and cap-based portfolios",
+      "Treasury bond rates and risk-free rates",
+      "Mutual fund data",
+      "Real estate investment trust (REIT) data",
+      "Security-level descriptive information (CUSIP, ticker, company name)",
+      "Market microstructure data"
+    ],
+    "zh": [
+      "每日和每月股票价格（纽交所、美国证交所、纳斯达克、纽交所高增长板）",
+      "股票回报率和持有期回报率",
+      "交易量和流通股数",
+      "市值数据",
+      "股票指数和投资组合回报",
+      "公司行为（拆股、分红、退市、并购）",
+      "基于贝塔和市值的投资组合",
+      "国债利率和无风险利率",
+      "共同基金数据",
+      "房地产投资信托基金（REIT）数据",
+      "证券级别描述信息（CUSIP、股票代码、公司名称）",
+      "市场微观结构数据"
+    ]
+  },
+  "authority_level": "research"
+}

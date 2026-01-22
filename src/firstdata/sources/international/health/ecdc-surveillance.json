@@ -1,0 +1,83 @@
+{
+  "id": "ecdc-surveillance",
+  "name": {
+    "en": "ECDC Surveillance Data",
+    "zh": "欧洲疾病预防控制中心监测数据"
+  },
+  "description": {
+    "en": "The European Centre for Disease Prevention and Control (ECDC) provides comprehensive surveillance data on infectious diseases across the European Union and European Economic Area. ECDC collects, analyzes and shares data on more than 50 infectious disease topics through The European Surveillance System (TESSy), including COVID-19, influenza, HIV/AIDS, hepatitis, measles, tuberculosis, and antimicrobial resistance. The data is made accessible through interactive dashboards, downloadable datasets, and the Surveillance Atlas of Infectious Diseases.",
+    "zh": "欧洲疾病预防控制中心（ECDC）提供欧盟和欧洲经济区传染病的综合监测数据。ECDC通过欧洲监测系统（TESSy）收集、分析和共享50多个传染病主题的数据，包括COVID-19、流感、艾滋病毒/艾滋病、肝炎、麻疹、结核病和抗菌素耐药性。数据通过交互式仪表板、可下载数据集和传染病监测地图集等形式提供。"
+  },
+  "website": "https://www.ecdc.europa.eu",
+  "data_url": "https://www.ecdc.europa.eu/en/data-dashboards-and-databases",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Infectious Diseases",
+    "Public Health",
+    "Epidemiology",
+    "Disease Surveillance",
+    "Antimicrobial Resistance",
+    "Immunization",
+    "Healthcare-Associated Infections",
+    "Vector-Borne Diseases",
+    "Food and Waterborne Diseases",
+    "Respiratory Diseases"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "weekly",
+  "tags": [
+    "infectious-diseases",
+    "public-health",
+    "surveillance",
+    "epidemiology",
+    "europe",
+    "ecdc",
+    "covid-19",
+    "influenza",
+    "antimicrobial-resistance",
+    "tuberculosis",
+    "hiv-aids",
+    "hepatitis",
+    "vaccination",
+    "outbreak",
+    "disease-control"
+  ],
+  "data_content": {
+    "en": [
+      "Antimicrobial Resistance - EARS-Net surveillance data",
+      "Antimicrobial Consumption - ESAC-Net data",
+      "COVID-19 - Case notifications, testing, vaccination, variants",
+      "Influenza - Surveillance data from EISN network",
+      "Respiratory Viruses - Integrated surveillance for influenza, RSV, SARS-CoV-2",
+      "HIV/AIDS - Case notifications, prevalence, incidence",
+      "Tuberculosis - Case notifications, drug resistance",
+      "Hepatitis - Hepatitis B and C surveillance",
+      "Sexually Transmitted Infections - STI surveillance data",
+      "Vaccine-Preventable Diseases - Measles, rubella, pertussis, diphtheria",
+      "Food and Waterborne Diseases - Salmonella, Campylobacter, E.coli, Legionella",
+      "Vector-Borne Diseases - Dengue, chikungunya, West Nile virus, malaria",
+      "Healthcare-Associated Infections - HAI-Net surveillance",
+      "Invasive Bacterial Diseases - Meningococcal disease, pneumococcal disease",
+      "Emerging Infectious Diseases - Novel pathogens and outbreak data"
+    ],
+    "zh": [
+      "抗菌素耐药性 - EARS-Net监测数据",
+      "抗菌素消耗 - ESAC-Net数据",
+      "COVID-19 - 病例通报、检测、疫苗接种、变异株",
+      "流感 - EISN网络监测数据",
+      "呼吸道病毒 - 流感、RSV、SARS-CoV-2综合监测",
+      "艾滋病毒/艾滋病 - 病例通报、患病率、发病率",
+      "结核病 - 病例通报、耐药性",
+      "肝炎 - 乙型和丙型肝炎监测",
+      "性传播感染 - 性传播感染监测数据",
+      "疫苗可预防疾病 - 麻疹、风疹、百日咳、白喉",
+      "食源性和水源性疾病 - 沙门氏菌、弯曲杆菌、大肠杆菌、军团菌",
+      "媒介传播疾病 - 登革热、基孔肯雅热、西尼罗病毒、疟疾",
+      "医疗相关感染 - HAI-Net监测",
+      "侵袭性细菌性疾病 - 脑膜炎球菌病、肺炎球菌病",
+      "新发传染病 - 新型病原体和疫情数据"
+    ]
+  },
+  "authority_level": "international"
+}

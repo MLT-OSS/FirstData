@@ -1,0 +1,58 @@
+{
+  "id": "china-pbc",
+  "name": {
+    "en": "People's Bank of China",
+    "zh": "中国人民银行",
+    "native": "中国人民银行"
+  },
+  "description": {
+    "en": "The People's Bank of China (PBOC) is the central bank of China. It publishes comprehensive financial statistics including monetary policy data, money supply (M0/M1/M2), interest rates, exchange rates, banking sector statistics, balance of payments, foreign exchange reserves, credit and loan data, and financial market indicators.",
+    "zh": "中国人民银行是中国的中央银行。发布全面的金融统计数据，包括货币政策数据、货币供应量（M0/M1/M2）、利率、汇率、银行业统计、国际收支、外汇储备、信贷数据和金融市场指标。"
+  },
+  "website": "http://www.pbc.gov.cn",
+  "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "economics",
+    "monetary_policy"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "central-bank",
+    "monetary-policy",
+    "money-supply",
+    "interest-rates",
+    "forex",
+    "banking",
+    "financial-stability"
+  ],
+  "data_content": {
+    "en": [
+      "Money Supply - M0, M1, M2 monetary aggregates and reserve money statistics",
+      "Interest Rates - Benchmark lending/deposit rates, interbank rates (SHIBOR), and bond yields",
+      "Exchange Rates - RMB exchange rate against major currencies and RMB exchange rate index",
+      "Foreign Exchange Reserves - Monthly foreign exchange reserves and gold reserves",
+      "Credit and Loans - Total social financing, RMB loans by sector, and credit to real economy",
+      "Balance of Payments - Current account, capital account, and international investment position",
+      "Banking Statistics - Deposits, loans, assets and liabilities of financial institutions",
+      "Financial Markets - Interbank market, bond market, and foreign exchange market data",
+      "Monetary Policy Operations - Open market operations, reserve requirement ratio, and policy rates"
+    ],
+    "zh": [
+      "货币供应量 - M0、M1、M2货币总量和基础货币统计",
+      "利率 - 基准贷款/存款利率、同业拆借利率(SHIBOR)和债券收益率",
+      "汇率 - 人民币对主要货币汇率和人民币汇率指数",
+      "外汇储备 - 月度外汇储备和黄金储备",
+      "信贷与贷款 - 社会融资总量、按部门分类的人民币贷款、实体经济信贷",
+      "国际收支 - 经常账户、资本账户和国际投资头寸",
+      "银行业统计 - 金融机构存款、贷款、资产和负债",
+      "金融市场 - 银行间市场、债券市场和外汇市场数据",
+      "货币政策操作 - 公开市场操作、存款准备金率和政策利率"
+    ]
+  },
+  "authority_level": "government"
+}

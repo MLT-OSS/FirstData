@@ -1,0 +1,85 @@
+{
+  "id": "korea-bok",
+  "name": {
+    "en": "Bank of Korea",
+    "zh": "韩国银行",
+    "native": "한국은행"
+  },
+  "description": {
+    "en": "The Bank of Korea is South Korea's central bank, responsible for monetary policy and financial stability. It provides comprehensive economic and financial statistics through the Economic Statistics System (ECOS), including monetary aggregates, interest rates, balance of payments, national accounts, price indices, and business/consumer surveys. The BOK publishes regular economic reports and maintains extensive time-series data essential for economic policy analysis.",
+    "zh": "韩国银行是韩国中央银行，负责货币政策和金融稳定。通过经济统计系统（ECOS）提供全面的经济金融统计数据，包括货币总量、利率、国际收支、国民账户、价格指数以及企业和消费者调查。韩国银行定期发布经济报告，并维护对经济政策分析至关重要的广泛时间序列数据。"
+  },
+  "website": "https://www.bok.or.kr",
+  "data_url": "https://www.bok.or.kr/eng/main/main.do",
+  "api_url": "https://ecos.bok.or.kr",
+  "country": "KR",
+  "domains": [
+    "monetary_policy",
+    "financial_statistics",
+    "national_accounts",
+    "balance_of_payments",
+    "price_indices",
+    "interest_rates",
+    "exchange_rates",
+    "business_surveys",
+    "consumer_surveys",
+    "flow_of_funds",
+    "banking_statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "south-korea",
+    "korea",
+    "central-bank",
+    "monetary-policy",
+    "financial-statistics",
+    "national-accounts",
+    "balance-of-payments",
+    "price-indices",
+    "business-surveys",
+    "ecos",
+    "imf-sdds",
+    "open-data",
+    "bilingual"
+  ],
+  "data_content": {
+    "en": [
+      "Monetary and Liquidity Aggregates - M1, M2, Lf (monthly)",
+      "Interest Rates - policy rates, market rates, bond yields (monthly)",
+      "Balance of Payments - current account, capital account, financial account (monthly)",
+      "National Accounts - GDP, GNI, expenditure components (quarterly)",
+      "Producer Price Index (PPI) - domestic and export/import prices (monthly)",
+      "Export/Import Price Indices (monthly)",
+      "Business Survey Index (BSI) and Economic Sentiment Index (ESI) (monthly)",
+      "Consumer Survey Index (CSI) - inflation expectations, consumer confidence (monthly)",
+      "Flow of Funds - institutional sector accounts (quarterly)",
+      "Household Credit - loans and other credit to households (quarterly)",
+      "Industrial Loans of Depository Corporations (quarterly)",
+      "Financial Statement Analysis - corporate sector financial data (quarterly)",
+      "International Investment Position (IIP) - external assets and liabilities (quarterly)",
+      "Official Foreign Reserves (monthly)",
+      "Input-Output Tables - inter-industry transactions (annual)",
+      "Regional economic statistics and indicators"
+    ],
+    "zh": [
+      "货币和流动性总量 - M1、M2、Lf（月度）",
+      "利率 - 政策利率、市场利率、债券收益率（月度）",
+      "国际收支 - 经常账户、资本账户、金融账户（月度）",
+      "国民账户 - GDP、GNI、支出组成（季度）",
+      "生产者价格指数（PPI）- 国内和进出口价格（月度）",
+      "进出口价格指数（月度）",
+      "企业景气调查指数（BSI）和经济情绪指数（ESI）（月度）",
+      "消费者调查指数（CSI）- 通胀预期、消费者信心（月度）",
+      "资金流量 - 机构部门账户（季度）",
+      "家庭信贷 - 对家庭的贷款和其他信贷（季度）",
+      "存款类金融机构产业贷款（季度）",
+      "财务报表分析 - 企业部门财务数据（季度）",
+      "国际投资头寸（IIP）- 对外资产和负债（季度）",
+      "官方外汇储备（月度）",
+      "投入产出表 - 产业间交易（年度）",
+      "地区经济统计和指标"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "africa-cdc",
+  "name": {
+    "en": "Africa CDC Health Data",
+    "zh": "非洲疾控中心健康数据"
+  },
+  "description": {
+    "en": "Africa CDC strengthens the capacity and capability of Africa's public health institutions as well as partnerships to detect and respond quickly and effectively to disease threats and outbreaks, based on data-driven interventions and programmes. The agency provides comprehensive health surveillance data, epidemic intelligence reports, disease outbreak tracking, and public health resources across the African continent.",
+    "zh": "非洲疾病控制和预防中心加强非洲公共卫生机构的能力，以及合作伙伴关系，以基于数据驱动的干预措施和计划，快速有效地检测和应对疾病威胁和疫情。该机构提供全面的健康监测数据、流行病情报报告、疾病暴发跟踪和整个非洲大陆的公共卫生资源。"
+  },
+  "website": "https://africacdc.org",
+  "data_url": "https://africacdc.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "public health",
+    "epidemiology",
+    "disease surveillance",
+    "outbreak response",
+    "laboratory systems",
+    "health security"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "weekly",
+  "tags": [
+    "Africa CDC",
+    "public health",
+    "disease surveillance",
+    "epidemic intelligence",
+    "outbreak response",
+    "health security",
+    "African Union",
+    "COVID-19",
+    "Mpox",
+    "Ebola",
+    "regional health",
+    "laboratory systems",
+    "pathogen genomics",
+    "emergency preparedness"
+  ],
+  "data_content": {
+    "en": [
+      "Epidemic Intelligence Weekly Reports - Disease outbreak surveillance and monitoring across Africa",
+      "COVID-19 Data - Case numbers, testing, vaccinations, and hotspot tracking",
+      "Disease Outbreaks - Real-time tracking of Mpox, Ebola, Marburg, Rift Valley Fever and other infectious diseases",
+      "Laboratory Data - Testing capacity, diagnostic networks, and biosafety information",
+      "Emergency Response - Public health emergency preparedness and response data",
+      "Surveillance Systems - Event-based surveillance, mortality surveillance, and disease intelligence",
+      "Regional Coordination - Data from five Regional Coordination Centres (RCCs) across Africa",
+      "Public Health Resources - Guidelines, frameworks, fact sheets, and policy documents",
+      "Pathogen Genomics - Genomic surveillance data from the Institute of Pathogen Genomics"
+    ],
+    "zh": [
+      "流行病情报周报 - 非洲疾病暴发监测和监控",
+      "COVID-19数据 - 病例数、检测、疫苗接种和热点追踪",
+      "疾病暴发 - 猴痘、埃博拉、马尔堡、裂谷热等传染病实时追踪",
+      "实验室数据 - 检测能力、诊断网络和生物安全信息",
+      "应急响应 - 公共卫生应急准备和响应数据",
+      "监测系统 - 事件监测、死亡率监测和疾病情报",
+      "区域协调 - 来自非洲五个区域协调中心(RCC)的数据",
+      "公共卫生资源 - 指南、框架、情况说明书和政策文件",
+      "病原体基因组学 - 来自病原体基因组学研究所的基因组监测数据"
+    ]
+  },
+  "authority_level": "international"
+}

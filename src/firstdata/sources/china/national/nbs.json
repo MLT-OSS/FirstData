@@ -1,0 +1,61 @@
+{
+  "id": "china-nbs",
+  "name": {
+    "en": "National Bureau of Statistics of China",
+    "zh": "国家统计局",
+    "native": "国家统计局"
+  },
+  "description": {
+    "en": "The National Bureau of Statistics (NBS) is the principal government agency responsible for collecting, processing, and publishing statistical data in China. It provides comprehensive economic, demographic, and social statistics covering national accounts, population census, industrial production, investment, consumption, employment, prices, and regional development.",
+    "zh": "国家统计局是中国政府负责收集、处理和发布统计数据的主要机构。提供包括国民经济核算、人口普查、工业生产、投资、消费、就业、价格和区域发展等全面的经济、人口和社会统计数据。"
+  },
+  "website": "http://www.stats.gov.cn",
+  "data_url": "https://www.stats.gov.cn/sj/",
+  "api_url": "http://data.stats.gov.cn/api.htm",
+  "country": "CN",
+  "domains": [
+    "economics",
+    "social",
+    "demographics",
+    "industry",
+    "agriculture",
+    "services"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "statistics",
+    "national-accounts",
+    "gdp",
+    "population",
+    "census",
+    "official",
+    "government"
+  ],
+  "data_content": {
+    "en": [
+      "National Accounts - GDP, GNI, national income and expenditure accounts by sector and region",
+      "Population Statistics - Population census data, demographic indicators, birth/death rates, and migration statistics",
+      "Industrial Production - Value-added by industry, industrial output index, and manufacturing statistics",
+      "Fixed Asset Investment - Investment statistics by industry, region, and ownership type",
+      "Consumption and Retail - Total retail sales, consumer goods prices (CPI), and household consumption",
+      "Employment and Wages - Labor force statistics, employment by sector, wage levels, and unemployment rates",
+      "Agriculture and Rural Economy - Agricultural output, grain production, livestock, and rural household income",
+      "Foreign Trade - Import/export values, trade balance, and trade by commodity and country",
+      "Regional Statistics - Provincial and municipal economic and social indicators"
+    ],
+    "zh": [
+      "国民经济核算 - GDP、GNI、按部门和地区分类的国民收入和支出账户",
+      "人口统计 - 人口普查数据、人口指标、出生/死亡率和人口迁移统计",
+      "工业生产 - 按行业分类的工业增加值、工业生产指数和制造业统计",
+      "固定资产投资 - 按行业、地区和所有制类型分类的投资统计",
+      "消费与零售 - 社会消费品零售总额、消费价格指数(CPI)和居民消费",
+      "就业与工资 - 劳动力统计、按部门分类的就业、工资水平和失业率",
+      "农业与农村经济 - 农业产值、粮食产量、畜牧业和农村居民收入",
+      "对外贸易 - 进出口总额、贸易差额、按商品和国家分类的贸易数据",
+      "区域统计 - 省级和市级经济社会指标"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "oecd-pisa",
+  "name": {
+    "en": "PISA - Programme for International Student Assessment",
+    "zh": "国际学生评估项目"
+  },
+  "description": {
+    "en": "PISA is the OECD's Programme for International Student Assessment. PISA measures 15-year-olds' ability to use their reading, mathematics and science knowledge and skills to meet real-life challenges. Since 2000, PISA has involved more than 100 countries and economies and around 3.7 million students worldwide. The assessment is conducted every three years and provides comparative data on education systems globally.",
+    "zh": "PISA 是经合组织（OECD）的国际学生评估项目。PISA 测量15岁学生运用阅读、数学和科学知识与技能应对现实挑战的能力。自2000年以来，PISA已涉及100多个国家和经济体，约370万名学生参与。该评估每三年进行一次，提供全球教育系统的比较数据。"
+  },
+  "website": "https://www.oecd.org",
+  "data_url": "https://www.oecd.org/en/about/programmes/pisa.html",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "Education",
+    "Student Assessment",
+    "Reading Literacy",
+    "Mathematical Literacy",
+    "Scientific Literacy",
+    "Financial Literacy",
+    "Creative Thinking",
+    "Global Competence"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "education",
+    "student-assessment",
+    "reading",
+    "mathematics",
+    "science",
+    "literacy",
+    "oecd",
+    "pisa",
+    "comparative-education",
+    "education-policy",
+    "student-performance",
+    "global",
+    "international-comparison"
+  ],
+  "data_content": {
+    "en": [
+      "Student Performance - Reading, mathematics, and science achievement scores",
+      "Student Questionnaires - Background information, attitudes, and learning strategies",
+      "School Questionnaires - School environment, resources, and policies",
+      "Teacher Questionnaires - Teaching practices and professional development",
+      "Parent Questionnaires - Family background and parental involvement",
+      "Financial Literacy Assessment - Students' financial knowledge and skills",
+      "Creative Thinking Assessment - Creative problem-solving abilities",
+      "Global Competence - Cross-cultural understanding and awareness",
+      "Learning in the Digital World - Self-regulated learning with digital tools",
+      "Well-being Indicators - Student satisfaction, bullying, sense of belonging",
+      "Equity in Education - Socioeconomic status and achievement gaps",
+      "School Climate - Discipline, teacher support, academic expectations",
+      "ICT Familiarity - Computer usage and digital skills",
+      "Problem-Solving Skills - Collaborative and individual problem-solving"
+    ],
+    "zh": [
+      "学生表现 - 阅读、数学和科学成绩分数",
+      "学生问卷 - 背景信息、态度和学习策略",
+      "学校问卷 - 学校环境、资源和政策",
+      "教师问卷 - 教学实践和专业发展",
+      "家长问卷 - 家庭背景和家长参与",
+      "金融素养评估 - 学生的金融知识和技能",
+      "创造性思维评估 - 创造性问题解决能力",
+      "全球胜任力 - 跨文化理解和意识",
+      "数字世界学习 - 使用数字工具的自主学习",
+      "幸福感指标 - 学生满意度、欺凌、归属感",
+      "教育公平 - 社会经济地位和成绩差距",
+      "学校氛围 - 纪律、教师支持、学术期望",
+      "ICT熟悉度 - 计算机使用和数字技能",
+      "问题解决技能 - 协作和个人问题解决"
+    ]
+  },
+  "authority_level": "international"
+}
