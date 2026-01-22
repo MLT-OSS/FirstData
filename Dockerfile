@@ -32,5 +32,9 @@ EXPOSE 8001
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD ps aux | grep -v grep | grep server.py || exit 1
 
+# Note: Environment variables are loaded from .env file using python-dotenv
+# The .env file should be mounted to /app/.env when running the container
+# Example: docker run -v $(pwd)/.env:/app/.env ...
+
 # Default command: start the Agent MCP server
-CMD ["python", "/app/src/datasource-hub/mcp/server.py"]
+CMD ["python", "/app/src/firstdata/mcp/server.py"]

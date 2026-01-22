@@ -3,8 +3,8 @@
 # 批量数据源处理脚本 - 双Skill模式
 #
 # 使用两个独立skill完成数据源处理：
-#   1. datasource-fetcher: 在临时目录获取数据（隔离执行）
-#   2. datasource-publisher: 在主目录更新文档和提交Git
+#   1. firstdata-fetcher: 在临时目录获取数据（隔离执行）
+#   2. firstdata-publisher: 在主目录更新文档和提交Git
 #
 # 用法:
 #   ./batch-scraper.sh           # 处理全部
