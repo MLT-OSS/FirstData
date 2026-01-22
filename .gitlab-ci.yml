@@ -1,0 +1,137 @@
+stages:
+  - package
+  - notify
+variables:
+  APP_NAME: firstdata-mcp
+  REPOSITORY: tbj7-xtiao-tcr1.tencentcloudcr.com
+  CONTAINER_IMAGE: tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/firstdata-mcp
+  FF_USE_FASTZIP: "true"
+  # dm先锋队 https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=d78c773b-12cd-4805-9e92-a138b46351a8
+  ROBOT_TOKEN: "d78c773b-12cd-4805-9e92-a138b46351a8"
+  ROBOT_PUSH_MESSAGE: "enable"
+  DEV_ENV: dev
+  TEST_ENV: test
+  PROD_ENV: prod
+
+sync_code:
+  stage: .post
+  tags:
+    - tke-deepmining-runner
+  image: tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/alpine/git:v2.30.2
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: 1
+    COMMIT_SHA: '$CI_COMMIT_SHORT_SHA'
+    CONTAINER_IMAGE: tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/firstdata-mcp
+  script:
+    - echo "sync code..."
+    - git config --global user.email "guobin.a@mininglamp.com"
+    - git config --global user.name "ci"
+    - |
+      set -e
+      TARGET_BRANCH="$APP_NAME-$CI_COMMIT_REF_NAME"
+      echo "Target branch: $TARGET_BRANCH"
+
+      DEPLOY_DIR="deploy-repo"
+
+      if git clone -b $TARGET_BRANCH --depth 1 --single-branch https://__token__:$CODE_TOKEN@code.mlamp.cn/dm-fa/infra/deploy-files.git $DEPLOY_DIR; then
+        echo "Branch $TARGET_BRANCH exists, cloned successfully"
+      else
+        echo "Branch $TARGET_BRANCH does not exist, cloning default branch and creating new branch..."
+        git clone --depth 1 https://__token__:$CODE_TOKEN@code.mlamp.cn/dm-fa/infra/deploy-files.git $DEPLOY_DIR
+        cd $DEPLOY_DIR
+        git checkout -b $TARGET_BRANCH
+        cd ..
+      fi
+
+      if [ ! -f manifests/deploy.yaml ]; then
+        echo "Error: manifests/deploy.yaml not found in current repository"
+        exit 1
+      fi
+
+      mkdir -p $DEPLOY_DIR/manifests
+      cp manifests/deploy.yaml $DEPLOY_DIR/manifests/deploy.yaml
+
+      cd $DEPLOY_DIR
+
+      sed -i "s/{{BRANCH}}/${CI_COMMIT_REF_NAME}/g" manifests/deploy.yaml
+      sed -i "s|{{REPO_URL}}|${CONTAINER_IMAGE}|g" manifests/deploy.yaml
+      sed -i "s/{{IMAGE_TAG}}/${CI_PIPELINE_ID}/g" manifests/deploy.yaml
+
+      git add manifests/deploy.yaml
+
+      if git diff --cached --quiet; then
+        echo "No changes to commit, skipping..."
+        exit 0
+      fi
+
+      git commit -m "Update image to ${CI_PIPELINE_ID} for ${CI_COMMIT_REF_NAME}"
+      git push --force https://__token__:$CODE_TOKEN@code.mlamp.cn/dm-fa/infra/deploy-files.git HEAD:$TARGET_BRANCH
+.package: &package
+  stage: package
+  tags:
+    - tke-deepmining-runner
+  image: tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/docker:20.10.17
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ""
+  before_script:
+    - i=0; while [ "$i" -lt 12 ]; do docker info && break; sleep 5; i=$(( i + 1 )) ; done
+    - echo "$HARBOR_PWD" | docker login $REPOSITORY -u 100028731872 --password-stdin
+  script:
+    - BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+    - docker build -t ${PUSH_IMAGE_PATH} -t ${PUSH_IMAGE_LATEST} --build-arg GIT_COMMIT=$CI_COMMIT_SHORT_SHA --build-arg GIT_BRANCH=$CI_COMMIT_REF_NAME --build-arg GIT_TAG=$CI_COMMIT_TAG --build-arg BUILD_DATE=$BUILD_DATE -f ./Dockerfile .
+    - docker push ${PUSH_IMAGE_PATH}
+    - docker push ${PUSH_IMAGE_LATEST}
+package_tag:
+  <<: *package
+  only:
+    - master
+  variables:
+    PUSH_IMAGE_PATH: $CONTAINER_IMAGE:$CI_PIPELINE_ID
+    PUSH_IMAGE_LATEST: "$CONTAINER_IMAGE:latest"
+    DEPLOY_ENV: "prod"
+notify-job-when-success:
+  stage: notify
+  tags:
+    - tke-deepmining-runner
+  only:
+    - master
+  when: on_success
+  image: tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/alpine/curl:8.11.1
+  variables:
+    GIT_STRATEGY: none
+  script: |
+    if [[ "$ROBOT_PUSH_MESSAGE" == "disable" ]]; then exit 0; fi
+    BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+    # 判断是否为 tag 构建
+    if [[ -n "$CI_COMMIT_TAG" ]]; then
+      MESSAGE="🎉 版本发布成功 | 🚀 FirstData\n📌 版本: $CI_COMMIT_TAG\n⏱️ 发布时间: $BUILD_DATE\n📝 提交: $CI_COMMIT_SHORT_SHA\n🐳 镜像:\n  - $CONTAINER_IMAGE:$CI_COMMIT_TAG\n  - $CONTAINER_IMAGE:latest"
+    else
+      MESSAGE="✅ 构建成功 | 🚀 FirstData\n⏱️ 开始时间: $BUILD_DATE\n📦 分支: $CI_COMMIT_REF_NAME\n📝 提交: $CI_COMMIT_SHORT_SHA"
+    fi
+    curl -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=$ROBOT_TOKEN" \
+      -H "Content-Type:application/json" \
+      -d "{\"msgtype\":\"text\",\"text\":{\"content\":\" $MESSAGE\"}}"
+notify-job-when-fail:
+  stage: notify
+  tags:
+    - tke-deepmining-runner
+  only:
+    - master
+  when: on_failure
+  image: tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/alpine/curl:8.11.1
+  variables:
+    GIT_STRATEGY: none
+  script: |
+    if [[ "$ROBOT_PUSH_MESSAGE" == "disable" ]]; then exit 0; fi
+    BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+    # 判断是否为 tag 构建
+    if [[ -n "$CI_COMMIT_TAG" ]]; then
+      MESSAGE="❌ 版本发布失败 | 🚀 FirstData\n📌 版本: $CI_COMMIT_TAG\n⏱️ 开始时间: $BUILD_DATE\n📝 提交: $CI_COMMIT_SHORT_SHA\n🔗 Pipeline: $CI_PIPELINE_URL"
+    else
+      MESSAGE="❌ 构建失败  | 🚀 FirstData\n⏱️ 开始时间: $BUILD_DATE\n📦 分支: $CI_COMMIT_REF_NAME\n📝 提交: $CI_COMMIT_SHORT_SHA"
+    fi
+    curl -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=$ROBOT_TOKEN" \
+      -H "Content-Type:application/json" \
+      -d "{\"msgtype\":\"text\",\"text\":{\"content\":\" $MESSAGE\"}}"
