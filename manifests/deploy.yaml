@@ -15,14 +15,8 @@ spec:
       - image: {{REPO_URL}}:{{IMAGE_TAG}}
         imagePullPolicy: Always
         env:
-        - name: ANTHROPIC_AUTH_TOKEN
-          value: "sk-bKf6cEyKuWYZ_qkNBQJoYw"
-        - name: ANTHROPIC_BASE_URL
-          value: "https://llm-litellm-dev.deepminer.ai"
-        - name: QUERY_UNDERSTANDING_MODEL
-          value: "claude-sonnet-4-5-20250929"
-        - name: MCP_API_KEY
-          value: "QZotkd4CLprDRsxJAdLbLURQ7TSVxRh4"
+        - name: TZ
+          value: Asia/Shanghai
         lifecycle:
           preStop:
             exec:
