@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: datasource-hub-mcp-deployment
+spec:
+  selector:
+    matchLabels:
+      app: datasource-hub-mcp
+  template:
+    metadata:
+      labels:
+        app: datasource-hub-mcp
+    spec:
+      containers:
+      - image: {{REPO_URL}}:{{IMAGE_TAG}}
+        imagePullPolicy: Always
+        env:
+        - name: ANTHROPIC_AUTH_TOKEN
+          value: "sk-bKf6cEyKuWYZ_qkNBQJoYw"
+        - name: ANTHROPIC_BASE_URL
+          value: "https://llm-litellm-dev.deepminer.ai"
+        - name: QUERY_UNDERSTANDING_MODEL
+          value: "claude-sonnet-4-5-20250929"
+        - name: MCP_API_KEY
+          value: "QZotkd4CLprDRsxJAdLbLURQ7TSVxRh4"
+        lifecycle:
+          preStop:
+            exec:
+              command:
+              - sh
+              - -c
+              - sleep 30
+        livenessProbe:
+          failureThreshold: 3
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          successThreshold: 1
+          tcpSocket:
+            port: 8001
+          timeoutSeconds: 5
+        name: mcp-server
+        ports:
+        - containerPort: 8001
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          successThreshold: 1
+          tcpSocket:
+            port: 8001
+          timeoutSeconds: 5
+        resources:
+          limits:
+            cpu: "2"
+            memory: 4Gi
+          requests:
+            cpu: "1"
+            memory: 2Gi
+      imagePullSecrets:
+        - name: tcr-image-secret
+        - name: tcr-image-xtiao
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.cloud.tencent.com/readiness-gate-skip: "true"
+  name: datasource-hub-mcp-svc
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 8001
+  selector:
+    app: datasource-hub-mcp
+  type: NodePort
