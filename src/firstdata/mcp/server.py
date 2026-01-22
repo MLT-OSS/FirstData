@@ -4,7 +4,6 @@ FirstData MCP Server
 提供数据源检索和访问指令生成服务
 """
 
-import json
 import os
 from typing import Annotated
 
@@ -31,7 +30,7 @@ mcp = FastMCP("firstdata", host="0.0.0.0", port=8001)
 
 
 @mcp.tool(
-    name="datasource_list_sources",
+    name="list_datasources",
     annotations={
         "title": "浏览数据源列表",
         "readOnlyHint": True,
@@ -39,7 +38,7 @@ mcp = FastMCP("firstdata", host="0.0.0.0", port=8001)
         "idempotentHint": True,
     },
 )
-async def datasource_list_sources(
+async def list_datasources(
     country: str = Field(
         default="",
         description="国家代码或名称，如 CN（中国）, US（美国）, Global（全球）。留空则返回所有国家",
@@ -49,7 +48,7 @@ async def datasource_list_sources(
         description="领域，如 finance（金融）, health（健康）, economics（经济）, energy（能源）。留空则返回所有领域",
     ),
     limit: int = Field(default=50, ge=1, le=200, description="返回数量限制，默认50，最大200"),
-) -> str:
+) -> dict:
     """
     快速浏览数据源列表
 
@@ -65,19 +64,19 @@ async def datasource_list_sources(
     - 浏览所有全球数据源: country="Global"
     - 获取所有健康领域数据源: domain="health"
 
-    **返回格式:** JSON字符串，包含数据源列表
+    **返回格式:** 字典对象，包含数据源列表
     """
     try:
         results = tool_list_sources_summary(
             country=country if country else None, domain=domain if domain else None, limit=limit
         )
-        return json.dumps(results, ensure_ascii=False, indent=2)
+        return results
     except Exception as e:
-        return json.dumps({"error": str(e)}, ensure_ascii=False)
+        return {"error": str(e)}
 
 
 @mcp.tool(
-    name="datasource_search_keywords",
+    name="search_keywords",
     annotations={
         "title": "关键词搜索数据源",
         "readOnlyHint": True,
@@ -85,7 +84,7 @@ async def datasource_list_sources(
         "idempotentHint": True,
     },
 )
-async def datasource_search_keywords(
+async def search_keywords(
     keywords: Annotated[
         list[str], Field(..., description='搜索关键词列表，如 ["GDP", "China", "statistics"]')
     ],
@@ -97,7 +96,7 @@ async def datasource_search_keywords(
         ),
     ] = None,
     limit: Annotated[int, Field(default=20, ge=1, le=100, description="返回数量限制，默认20")] = 20,
-) -> str:
+) -> list:
     """
     使用关键词精确搜索数据源
 
@@ -113,7 +112,7 @@ async def datasource_search_keywords(
     - 搜索中国人民银行: keywords=["People's Bank", "China", "PBC"]
     - 只在名称中搜索: keywords=["World Bank"], search_fields=["name"]
 
-    **返回格式:** JSON字符串，包含匹配的数据源及匹配得分
+    **返回格式:** 列表对象，包含匹配的数据源及匹配得分
     """
     if search_fields is None:
         search_fields = ["all"]
@@ -122,13 +121,13 @@ async def datasource_search_keywords(
         results = tool_search_sources_by_keywords(
             keywords=keywords, search_fields=search_fields, limit=limit
         )
-        return json.dumps(results, ensure_ascii=False, indent=2)
+        return results
     except Exception as e:
-        return json.dumps({"error": str(e)}, ensure_ascii=False)
+        return [{"error": str(e)}]
 
 
 @mcp.tool(
-    name="datasource_get_details",
+    name="get_details",
     annotations={
         "title": "获取数据源详细信息",
         "readOnlyHint": True,
@@ -136,7 +135,7 @@ async def datasource_search_keywords(
         "idempotentHint": True,
     },
 )
-async def datasource_get_details(
+async def get_details(
     source_ids: Annotated[
         list[str], Field(..., description='数据源ID列表，如 ["china-pbc", "china-nbs"]')
     ],
@@ -147,7 +146,7 @@ async def datasource_get_details(
             description="返回字段: all（全部）, description（描述）, domains（领域）, data_content（数据内容）",
         ),
     ] = None,
-) -> str:
+) -> list:
     """
     获取指定数据源的完整详细信息
 
@@ -163,16 +162,16 @@ async def datasource_get_details(
     - 对比两个数据源: source_ids=["china-pbc", "china-nbs"]
     - 只获取访问信息: source_ids=["worldbank"], fields=["website", "data_url", "api_url"]
 
-    **返回格式:** JSON字符串，包含完整的数据源配置
+    **返回格式:** 列表对象，包含完整的数据源配置
     """
     if fields is None:
         fields = ["all"]
 
     try:
         results = tool_get_source_details(source_ids=source_ids, fields=fields)
-        return json.dumps(results, ensure_ascii=False, indent=2)
+        return results
     except Exception as e:
-        return json.dumps({"error": str(e)}, ensure_ascii=False)
+        return [{"error": str(e)}]
 
 
 @mcp.tool(
@@ -202,7 +201,7 @@ async def datasource_filter(
         default="",
         description="权威级别，如 government（政府）, international（国际组织）, research（研究机构）",
     ),
-) -> str:
+) -> list:
     """
     按多个条件组合精确筛选数据源
 
@@ -218,7 +217,7 @@ async def datasource_filter(
     - 政府机构数据源: authority_level="government"
     - 每日更新的数据源: update_frequency="daily"
 
-    **返回格式:** JSON字符串，包含符合所有条件的数据源列表
+    **返回格式:** 列表对象，包含符合所有条件的数据源列表
     """
     try:
         # 构建筛选参数
@@ -235,22 +234,22 @@ async def datasource_filter(
             kwargs["authority_level"] = authority_level
 
         results = tool_filter_sources_by_criteria(**kwargs)
-        return json.dumps(results, ensure_ascii=False, indent=2)
+        return results
     except Exception as e:
-        return json.dumps({"error": str(e)}, ensure_ascii=False)
+        return [{"error": str(e)}]
 
 
 @mcp.tool(
-    name="datasource_search_llm_agent",
+    name="search_llm_agent",
     annotations={
-        "title": "LLM Agent智能数据源搜索",
+        "title": "Agent智能数据源搜索",
         "readOnlyHint": True,
         "destructiveHint": False,
         "idempotentHint": False,
         "openWorldHint": True,
     },
 )
-async def datasource_search_llm_agent(
+async def search_llm_agent(
     query: str = Field(
         ...,
         description=(
@@ -300,7 +299,7 @@ async def datasource_search_llm_agent(
 
 
 @mcp.tool(
-    name="datasource_get_instructions",
+    name="get_datasource_instructions",
     annotations={
         "title": "获取数据源访问指令",
         "readOnlyHint": True,
@@ -309,29 +308,42 @@ async def datasource_search_llm_agent(
         "openWorldHint": True,
     },
 )
-async def datasource_get_instructions(
+async def get_datasource_instructions(
     source_id: str = Field(
-        ..., description="数据源ID，从其他MCP工具获取（如 'hkex-news'、'china-pbc'）"
+        ..., description="数据源ID，从其他MCP工具获取（如 'hkex'、'china-pbc'）"
     ),
     operation: str = Field(
-        ..., description="具体操作描述（如 '下载智谱AI的招股书'、'查询M2货币供应量'）"
+        ...,
+        description=(
+            "自然语言操作描述，用于RAG检索匹配操作指令。"
+            "系统会根据此描述在数据源的指令库中检索最相关的访问步骤。"
+            "建议包含关键实体和操作动词，如 '从LA寄送10kg的物品到NYC需要花多少钱'、'查询2024年M2货币供应量数据'"
+        )
     ),
-    top_k: int = Field(default=3, ge=1, le=5, description="返回指令数量，默认3条"),
-) -> str:
+    top_k: int = Field(default=3, ge=1, le=5, description="返回最相关的前K条指令，默认3条"),
+) -> dict:
     """
-    为访问指定数据源生成详细的URL访问操作指令
+    使用RAG检索技术为指定数据源生成详细的访问操作指令
 
-    该工具结合了数据源元数据和指令生成API，返回具体的网站操作步骤。
+    该工具基于RAG（Retrieval-Augmented Generation）检索系统，根据用户的自然语言操作描述，
+    在数据源的预构建指令库中检索最匹配的访问步骤，并返回详细的网站操作指南。
+
+    **工作原理**:
+    1. 根据 source_id 定位数据源及其URL访问指令库
+    2. 使用 operation 描述作为查询，通过RAG检索最相关的操作指令
+    3. 返回 top_k 条最匹配的访问步骤，包括URL路径和详细操作流程
 
     **使用场景**:
-    1. 先获取到具体使用什么数据源，通过 datasource_search_llm_agent 等检索方法获取到数据源ID
-    2. 再用本工具获取该数据源的具体操作指令
+    1. 先通过 datasource_search_llm_agent 等工具获取目标数据源ID
+    2. 再用本工具检索该数据源的具体访问指令
 
     **示例**:
-    - 获取香港交易所下载招股书的指令: source_id="hkex-news", operation="下载智谱AI的招股书"
-    - 获取人民银行查询M2的指令: source_id="china-pbc", operation="查询M2货币供应量"
+    - 检索央行货币数据查询方法: source_id="china-pbc", operation="查询M2货币供应量"
+    - 检索统计局GDP数据: source_id="china-nbs", operation="获取2023年GDP季度数据"
 
-    **返回格式**: JSON字符串，包含访问指令、步骤说明和相关URL
+    **返回格式**: 字典对象，包含匹配得分、访问指令、步骤说明和相关URL
+
+    **注意**: operation 的质量直接影响检索效果，建议使用清晰具体的描述，并使用不同的operation进行多次查询
     """
     try:
         result = await tool_datasource_get_instructions(
@@ -339,9 +351,7 @@ async def datasource_get_instructions(
         )
         return result
     except Exception as e:
-        return json.dumps(
-            {"error": f"获取指令失败: {e!s}", "success": False}, ensure_ascii=False, indent=2
-        )
+        return {"error": f"获取指令失败: {e!s}"}
 
 
 # ============================================================================
@@ -354,7 +364,7 @@ class BearerAuthMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next):
         # 读取环境变量中的API Key
-        expected_key = os.getenv("MCP_API_KEY", "")
+        expected_key = os.getenv("FIRSTDATA_TOKEN", "")
 
         # 如果未设置API Key，跳过认证
         if not expected_key:
@@ -386,13 +396,13 @@ class BearerAuthMiddleware(BaseHTTPMiddleware):
 def main():
     """主函数：启动MCP服务器"""
     # 检查认证配置
-    api_key = os.getenv("MCP_API_KEY")
+    api_key = os.getenv("FIRSTDATA_TOKEN", "")
     if api_key:
         print(
             "[INFO] Authentication enabled. Clients must provide 'Authorization: Bearer <token>' header."
         )
     else:
-        print("[WARN] MCP_API_KEY not set. Running without authentication.")
+        print("[WARN] FIRSTDATA_TOKEN not set. Running without authentication.")
 
     print(f"[INFO] FirstData Agent MCP Server v{__version__}")
     print("[INFO] Starting HTTP server on http://0.0.0.0:8001")
