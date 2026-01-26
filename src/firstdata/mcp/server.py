@@ -4,12 +4,14 @@ FirstData MCP Server
 提供数据源检索和访问指令生成服务
 """
 
+import json
 import os
 from typing import Annotated
 
 from config import __version__
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
+from mcp.types import CallToolResult, TextContent
 from pydantic import Field
 from starlette.applications import Starlette
 from starlette.middleware import Middleware
@@ -48,7 +50,7 @@ async def list_datasources(
         description="领域，如 finance（金融）, health（健康）, economics（经济）, energy（能源）。留空则返回所有领域",
     ),
     limit: int = Field(default=50, ge=1, le=200, description="返回数量限制，默认50，最大200"),
-) -> dict:
+) -> CallToolResult:
     """
     快速浏览数据源列表
 
@@ -70,9 +72,15 @@ async def list_datasources(
         results = tool_list_sources_summary(
             country=country if country else None, domain=domain if domain else None, limit=limit
         )
-        return results
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps(results))],
+            isError=False
+        )
     except Exception as e:
-        return {"error": str(e)}
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps({"error": str(e)}))],
+            isError=True
+        )
 
 
 @mcp.tool(
@@ -96,7 +104,7 @@ async def search_keywords(
         ),
     ] = None,
     limit: Annotated[int, Field(default=20, ge=1, le=100, description="返回数量限制，默认20")] = 20,
-) -> list:
+) -> CallToolResult:
     """
     使用关键词精确搜索数据源
 
@@ -121,9 +129,15 @@ async def search_keywords(
         results = tool_search_sources_by_keywords(
             keywords=keywords, search_fields=search_fields, limit=limit
         )
-        return results
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps(results))],
+            isError=False
+        )
     except Exception as e:
-        return [{"error": str(e)}]
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps({"error": str(e)}))],
+            isError=True
+        )
 
 
 @mcp.tool(
@@ -146,7 +160,7 @@ async def get_details(
             description="返回字段: all（全部）, description（描述）, domains（领域）, data_content（数据内容）",
         ),
     ] = None,
-) -> list:
+) -> CallToolResult:
     """
     获取指定数据源的完整详细信息
 
@@ -169,10 +183,15 @@ async def get_details(
 
     try:
         results = tool_get_source_details(source_ids=source_ids, fields=fields)
-        return results
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps(results))],
+            isError=False
+        )
     except Exception as e:
-        return [{"error": str(e)}]
-
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps({"error": str(e)}))],
+            isError=True
+        )
 
 @mcp.tool(
     name="datasource_filter",
@@ -201,7 +220,7 @@ async def datasource_filter(
         default="",
         description="权威级别，如 government（政府）, international（国际组织）, research（研究机构）",
     ),
-) -> list:
+) -> CallToolResult:
     """
     按多个条件组合精确筛选数据源
 
@@ -234,9 +253,15 @@ async def datasource_filter(
             kwargs["authority_level"] = authority_level
 
         results = tool_filter_sources_by_criteria(**kwargs)
-        return results
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps(results, ensure_ascii=False))],
+            isError=False
+        )
     except Exception as e:
-        return [{"error": str(e)}]
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps({"error": str(e)}, ensure_ascii=False))],
+            isError=True
+        )
 
 
 @mcp.tool(
@@ -270,7 +295,7 @@ async def search_llm_agent(
     max_results: int = Field(
         default=5, description="返回的最大数据源数量。范围: 1-20。", ge=1, le=20
     ),
-) -> str:
+) -> CallToolResult:
     """
     一个全功能的智能搜索Agent，专用于在数据源仓库中执行复杂的深度检索任务。
 
@@ -291,11 +316,16 @@ async def search_llm_agent(
     Agent会进行多轮思考（3-5轮），通过粗筛和精选，最终返回Top 3-5推荐数据源及其详细匹配理由。
     """
     try:
-        result = datasource_search_agent(query, max_results)
-        return result
-
+        results = datasource_search_agent(query, max_results)
+        return CallToolResult(
+            content=[TextContent(type="text", text=results)],
+            isError=False
+        )
     except Exception as e:
-        return f"搜索失败: {e!s}"
+        return CallToolResult(
+            content=[TextContent(type="text", text="error:" + str(e))],
+            isError=True
+        )
 
 
 @mcp.tool(
@@ -321,7 +351,7 @@ async def get_datasource_instructions(
         )
     ),
     top_k: int = Field(default=3, ge=1, le=5, description="返回最相关的前K条指令，默认3条"),
-) -> dict:
+) -> CallToolResult:
     """
     使用RAG检索技术为指定数据源生成详细的访问操作指令
 
@@ -334,14 +364,17 @@ async def get_datasource_instructions(
     3. 返回 top_k 条最匹配的访问步骤，包括URL路径和详细操作流程
 
     **使用场景**:
-    1. 先通过 datasource_search_llm_agent 等工具获取目标数据源ID
+    1. 先通过 search_llm_agent 等工具获取目标数据源ID
     2. 再用本工具检索该数据源的具体访问指令
 
     **示例**:
     - 检索央行货币数据查询方法: source_id="china-pbc", operation="查询M2货币供应量"
     - 检索统计局GDP数据: source_id="china-nbs", operation="获取2023年GDP季度数据"
 
-    **返回格式**: 字典对象，包含匹配得分、访问指令、步骤说明和相关URL
+    **字段说明**:
+    - url: 数据源的具体访问网址
+    - instruction: 详细的网站操作步骤，可以直接用于指导用户在该网站上完成操作
+    - score: RAG 检索匹配得分，范围 0.0-1.0，分数越高表示该操作指令与用户的 operation 描述越相关
 
     **注意**: operation 的质量直接影响检索效果，建议使用清晰具体的描述，并使用不同的operation进行多次查询
     """
@@ -349,9 +382,15 @@ async def get_datasource_instructions(
         result = await tool_datasource_get_instructions(
             source_id=source_id, operation=operation, top_k=top_k
         )
-        return result
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps(result))],
+            isError=False
+        )
     except Exception as e:
-        return {"error": f"获取指令失败: {e!s}"}
+        return CallToolResult(
+            content=[TextContent(type="text", text=json.dumps({"error": f"获取指令失败: {e!s}"}))],
+            isError=True
+        )
 
 
 # ============================================================================
