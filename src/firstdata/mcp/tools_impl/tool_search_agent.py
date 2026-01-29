@@ -1,6 +1,7 @@
 import json
 import os
 import time
+from datetime import datetime
 from typing import Any
 
 import httpx
@@ -163,6 +164,8 @@ AGENT_TOOLS = [
 
 AGENT_SYSTEM_PROMPT = """你是FirstData的数据源搜索专家。你擅长通过逐步探索和分析，帮助用户找到最合适的权威数据源。
 
+当前的日期是: {current_date}
+
 === 核心原则 ===
 
 你是一个**只读搜索Agent**，专注于：
@@ -196,7 +199,7 @@ AGENT_SYSTEM_PROMPT = """你是FirstData的数据源搜索专家。你擅长通�
 3. **未找到时的正确做法：**
    - 如果工具返回结果为空，**必须**明确告知用户"未找到匹配的数据源"
    - 如果工具返回的数据源相关性不高，**必须**认定为"未找到"
-   - 使用标准回复格式：「很抱歉，在Datasource Hub的当前数据源库中，**未找到专门针对「{查询主题}」的直接数据源**」
+   - 使用标准回复格式：「很抱歉，在FirstData的当前数据源库中，**未找到专门针对「{查询主题}」的直接数据源**」
    - 可以给出建议（如搜索更广泛领域、访问专业平台等），但**不能**推荐不相关的数据源
 
 === 工作流程建议 ===
@@ -370,7 +373,7 @@ AGENT_SYSTEM_PROMPT = """你是FirstData的数据源搜索专家。你擅长通�
 
 **未找到数据源时的标准回复格式：**
 ```
-很抱歉，在Datasource Hub的当前数据源库中，**未找到专门针对「{用户查询主题}」的直接数据源**。
+很抱歉，在FirstData的当前数据源库中，**未找到专门针对「{用户查询主题}」的直接数据源**。
 
 **建议：**
 - 可以尝试搜索更广泛的相关领域数据源
@@ -678,9 +681,10 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
     print(f"[Agent] Max Iterations: {max_iterations}")
     print("[Agent] ===========================================\n")
 
-    # 将 max_results 添加到系统提示中
+    # 将 max_results 添加到系统提示中，并填充当前日期
+    current_date = datetime.now().strftime("%Y年%m月%d日")
     system_prompt = (
-        AGENT_SYSTEM_PROMPT + f"\n\n**本次查询限制**: 最多返回 {max_results} 个推荐数据源。"
+        AGENT_SYSTEM_PROMPT.format(current_date=current_date) + f"\n\n**本次查询限制**: 最多返回 {max_results} 个推荐数据源。"
     )
 
     messages = [{"role": "user", "content": user_query}]
