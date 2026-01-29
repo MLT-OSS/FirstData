@@ -14,18 +14,29 @@ from .tool_get_source_details import tool_get_source_details
 
 
 def _aggregate_instructions(completed_tasks: dict) -> list[dict]:
-    """聚合并排序指令"""
-    instructions = []
+    """聚合并按 URL 分组指令"""
+    # 按 URL 分组
+    url_groups = {}
     for task_result in completed_tasks.values():
+        url = task_result["url"]
         if task_result.get("instructions"):
+            if url not in url_groups:
+                url_groups[url] = []
             for inst in task_result["instructions"]:
-                instructions.append({
+                url_groups[url].append({
                     "instruction": inst.get("instruction", ""),
                     "score": inst.get("score", 0),
-                    "url": inst.get("resource_path", task_result["url"]),
                 })
-    instructions.sort(key=lambda x: x["score"], reverse=True)
-    return instructions
+
+    # 转换为列表格式，按 URL 排序
+    result = []
+    for url in sorted(url_groups.keys()):
+        result.append({
+            "url": url,
+            "instructions": url_groups[url]
+        })
+
+    return result
 
 
 async def tool_datasource_get_instructions(source_id: str, operation: str, top_k: int = 3) -> dict:
@@ -132,16 +143,17 @@ async def tool_datasource_get_instructions(source_id: str, operation: str, top_k
                 await asyncio.sleep(2)
 
             # 6. 聚合并返回结果
-            instructions = _aggregate_instructions(completed_tasks)
+            urls = _aggregate_instructions(completed_tasks)
 
-            result = {"source_id": source_id, "instructions": instructions}
+            result = {"source_id": source_id, "urls": urls}
 
             # 添加明确的状态信息
             if len(completed_tasks) < len(task_metadata):
                 result["warning"] = f"部分任务超时，仅返回 {len(completed_tasks)}/{len(task_metadata)} 个结果"
 
             # 如果没有找到任何指令，提供明确说明
-            if not instructions:
+            total_instructions = sum(len(url_data["instructions"]) for url_data in urls)
+            if not urls:
                 if not completed_tasks:
                     result["message"] = "所有检索任务超时或失败，未能获取任何操作指令"
                 else:
@@ -150,7 +162,7 @@ async def tool_datasource_get_instructions(source_id: str, operation: str, top_k
                         "建议尝试更换关键词描述"
                     )
 
-            print(f"[INFO] Completed: {len(instructions)} instructions from {len(completed_tasks)} URLs")
+            print(f"[INFO] Completed: {total_instructions} instructions from {len(urls)} URLs")
             return result
 
     except httpx.TimeoutException:
