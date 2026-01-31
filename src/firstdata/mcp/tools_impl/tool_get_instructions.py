@@ -13,12 +13,24 @@ import httpx
 from .tool_get_source_details import tool_get_source_details
 
 
-def _aggregate_instructions(completed_tasks: dict) -> list[dict]:
-    """聚合并按 URL 分组指令"""
+def _aggregate_instructions(completed_tasks: dict) -> tuple[list[dict], dict]:
+    """聚合并按 URL 分组指令
+
+    Returns:
+        tuple: (urls列表, 元数据字典)
+            - urls列表: 包含指令的URL列表
+            - 元数据: 包含url_indexed等状态信息
+    """
     # 按 URL 分组
     url_groups = {}
+    url_metadata = {}  # 记录每个URL的元数据
+
     for task_result in completed_tasks.values():
         url = task_result["url"]
+        url_metadata[url] = {
+            "url_indexed": task_result.get("url_indexed", True)  # 默认认为已索引
+        }
+
         if task_result.get("instructions"):
             if url not in url_groups:
                 url_groups[url] = []
@@ -36,7 +48,7 @@ def _aggregate_instructions(completed_tasks: dict) -> list[dict]:
             "instructions": url_groups[url]
         })
 
-    return result
+    return result, url_metadata
 
 
 async def tool_datasource_get_instructions(source_id: str, operation: str, top_k: int = 3) -> dict:
@@ -128,10 +140,24 @@ async def tool_datasource_get_instructions(source_id: str, operation: str, top_k
 
                     if state == "SUCCESS":
                         print(f"[INFO] Task {task_id[:8]} completed")
-                        return (task_id, {"url": meta["url"], "instructions": status_data.get("result", [])})
+                        # 根据API的message字段判断URL是否被索引
+                        message = status_data.get("message", "")
+                        url_indexed = "未搜索到对应网站" not in message  # 如果消息中包含此文本，表示URL未索引
+
+                        return (task_id, {
+                            "url": meta["url"],
+                            "instructions": status_data.get("result", []),
+                            "url_indexed": url_indexed,
+                            "api_message": message  # 保存原始消息用于调试
+                        })
                     elif state == "FAILURE":
                         print(f"[WARNING] Task {task_id[:8]} failed")
-                        return (task_id, {"url": meta["url"], "instructions": []})
+                        return (task_id, {
+                            "url": meta["url"],
+                            "instructions": [],
+                            "url_indexed": False,  # 失败情况视为未索引
+                            "api_message": status_data.get("message", "")
+                        })
                     return None
 
                 results = await asyncio.gather(*[check_status(meta) for meta in task_metadata])
@@ -143,7 +169,7 @@ async def tool_datasource_get_instructions(source_id: str, operation: str, top_k
                 await asyncio.sleep(2)
 
             # 6. 聚合并返回结果
-            urls = _aggregate_instructions(completed_tasks)
+            urls, url_metadata = _aggregate_instructions(completed_tasks)
 
             result = {"source_id": source_id, "urls": urls}
 
@@ -153,14 +179,36 @@ async def tool_datasource_get_instructions(source_id: str, operation: str, top_k
 
             # 如果没有找到任何指令，提供明确说明
             total_instructions = sum(len(url_data["instructions"]) for url_data in urls)
-            if not urls:
+            if not urls or total_instructions == 0:
                 if not completed_tasks:
                     result["message"] = "所有检索任务超时或失败，未能获取任何操作指令"
                 else:
-                    result["message"] = (
-                        f"在数据源 {source_id} 中未找到与操作 '{operation}' 匹配的指令。"
-                        "建议尝试更换关键词描述"
-                    )
+                    # 关键区分：检查URL的索引状态
+                    unindexed_urls = [
+                        url for url, meta in url_metadata.items()
+                        if not meta.get("url_indexed", True)
+                    ]
+                    indexed_urls = [
+                        url for url, meta in url_metadata.items()
+                        if meta.get("url_indexed", True)
+                    ]
+
+                    # 优先判断：如果有URL已收录，说明可以搜索，只是没匹配到
+                    if indexed_urls:
+                        # 情况1: 有URL已收录但无匹配结果
+                        result["message"] = (
+                            f"无匹配结果：在数据源 {source_id} 中未找到与操作 '{operation}' 匹配的指令。"
+                            "建议尝试更换关键词描述或调整操作说明。"
+                        )
+                        # 如果有部分URL未收录，作为附加信息提示
+                        if unindexed_urls:
+                            # result["note"] = f"注：以下URL暂未在指令库中收录，可尝试直接访问：{', '.join(unindexed_urls)}"
+                            pass
+                    else:
+                        # 情况2: 所有URL都未在指令库中收录
+                        result["message"] = (
+                            f"数据源 {source_id} 在FirstData仓库中已收录，但URL尚未在指令库中建立访问指令：{', '.join(unindexed_urls)}。\n"
+                        )
 
             print(f"[INFO] Completed: {total_instructions} instructions from {len(urls)} URLs")
             return result
