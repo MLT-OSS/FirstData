@@ -1,0 +1,32 @@
+{
+  "id": "google-dataset-search",
+  "name": {
+    "zh": "Google 数据集搜索",
+    "en": "Google Dataset Search"
+  },
+  "description": {
+    "zh": "Google 提供的数据集搜索引擎，索引全网 2500万+ 数据集，支持跨平台发现",
+    "en": "Google's dataset search engine, indexing 25M+ datasets across the web for cross-platform discovery"
+  },
+  "url": "https://datasetsearch.research.google.com/",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "Google Research 产品，基于 schema.org/Dataset 标准，覆盖主流数据平台",
+    "en": "Google Research product, based on schema.org/Dataset standard, covers major data platforms"
+  },
+  "data_type": ["search_engine", "datasets", "metadata"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2018-present",
+    "indicators": "25,000,000+ indexed datasets"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://datasetsearch.research.google.com/"
+  },
+  "license": "N/A (search engine)",
+  "languages": ["en", "zh", "multilingual"],
+  "tags": ["search-engine", "datasets", "discovery", "metadata", "cross-platform"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "uci-ml-repository",
+  "name": {
+    "zh": "UCI 机器学习库",
+    "en": "UCI Machine Learning Repository"
+  },
+  "description": {
+    "zh": "加州大学欧文分校维护的经典机器学习数据集库，ML研究的黄金标准基准数据集",
+    "en": "Classic ML dataset repository maintained by UC Irvine, gold standard benchmark datasets for ML research"
+  },
+  "url": "https://archive.ics.uci.edu/",
+  "authority_level": "research",
+  "authority_justification": {
+    "zh": "UC Irvine 维护 30+ 年，被 10万+ 论文引用，ML 领域最权威的基准数据集来源",
+    "en": "Maintained by UC Irvine for 30+ years, cited by 100,000+ papers, most authoritative benchmark source in ML"
+  },
+  "data_type": ["datasets", "benchmarks"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "1987-present",
+    "indicators": "600+ datasets"
+  },
+  "update_frequency": "monthly",
+  "access_method": {
+    "web": "https://archive.ics.uci.edu/",
+    "api": "https://archive.ics.uci.edu/ml/machine-learning-databases/",
+    "python": "pip install ucimlrepo; from ucimlrepo import fetch_ucirepo"
+  },
+  "license": "CC BY 4.0",
+  "languages": ["en"],
+  "tags": ["machine-learning", "benchmarks", "classification", "regression", "clustering"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "aws-open-data",
+  "name": {
+    "zh": "AWS 开放数据注册表",
+    "en": "AWS Registry of Open Data"
+  },
+  "description": {
+    "zh": "Amazon 托管的大规模公开数据集，包括卫星图像、基因组、气候等 PB 级数据",
+    "en": "Amazon-hosted large-scale public datasets including satellite imagery, genomics, climate data at PB scale"
+  },
+  "url": "https://registry.opendata.aws/",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "AWS 官方维护，与 NASA、NOAA、NIH 等机构合作，提供免费云端访问",
+    "en": "Officially maintained by AWS, partnered with NASA, NOAA, NIH, provides free cloud access"
+  },
+  "data_type": ["datasets", "satellite", "genomics", "climate", "geospatial"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2017-present",
+    "indicators": "400+ datasets, PB scale"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://registry.opendata.aws/",
+    "aws_cli": "aws s3 ls s3://[dataset-bucket]",
+    "api": "S3 API"
+  },
+  "license": "varies by dataset",
+  "languages": ["en"],
+  "tags": ["cloud", "satellite", "genomics", "climate", "geospatial", "big-data"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

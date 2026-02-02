@@ -1,0 +1,34 @@
+{
+  "id": "acl-anthology",
+  "name": {
+    "zh": "ACL Anthology",
+    "en": "ACL Anthology"
+  },
+  "description": {
+    "zh": "计算语言学协会论文库，NLP 领域最权威的学术论文档案，包含 ACL、EMNLP、NAACL 等顶会论文",
+    "en": "Association for Computational Linguistics paper archive, most authoritative academic papers in NLP including ACL, EMNLP, NAACL"
+  },
+  "url": "https://aclanthology.org/",
+  "authority_level": "research",
+  "authority_justification": {
+    "zh": "计算语言学协会官方维护，NLP 领域所有顶级会议和期刊的唯一权威档案",
+    "en": "Officially maintained by ACL, the only authoritative archive for all top NLP conferences and journals"
+  },
+  "data_type": ["papers", "proceedings", "datasets"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "1965-present",
+    "indicators": "90,000+ papers"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://aclanthology.org/",
+    "api": "https://aclanthology.org/anthology+abstracts.bib.gz",
+    "github": "https://github.com/acl-org/acl-anthology"
+  },
+  "license": "CC BY 4.0",
+  "languages": ["en"],
+  "tags": ["nlp", "computational-linguistics", "papers", "conferences", "emnlp", "acl"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

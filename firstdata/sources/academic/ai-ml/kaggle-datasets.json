@@ -1,0 +1,34 @@
+{
+  "id": "kaggle-datasets",
+  "name": {
+    "zh": "Kaggle Datasets",
+    "en": "Kaggle Datasets"
+  },
+  "description": {
+    "zh": "全球最大的数据科学竞赛平台，托管 200,000+ 公开数据集，涵盖各行业和研究领域",
+    "en": "World's largest data science competition platform, hosting 200,000+ public datasets across industries and research domains"
+  },
+  "url": "https://www.kaggle.com/datasets",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "Google 旗下平台，1500万+ 注册用户，数据科学社区事实标准",
+    "en": "Owned by Google, 15M+ registered users, de facto standard for data science community"
+  },
+  "data_type": ["datasets", "competitions", "notebooks", "models"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2010-present",
+    "indicators": "200,000+ datasets, 50,000+ notebooks"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://www.kaggle.com/datasets",
+    "api": "https://www.kaggle.com/docs/api",
+    "cli": "pip install kaggle; kaggle datasets download"
+  },
+  "license": "varies by dataset",
+  "languages": ["en"],
+  "tags": ["machine-learning", "data-science", "competitions", "notebooks", "tabular"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

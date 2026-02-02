@@ -1,0 +1,34 @@
+{
+  "id": "zenodo-ml",
+  "name": {
+    "zh": "Zenodo (机器学习社区)",
+    "en": "Zenodo (Machine Learning Community)"
+  },
+  "description": {
+    "zh": "CERN 运营的开放研究数据仓库，为 ML 研究提供永久 DOI 和数据存档服务",
+    "en": "Open research data repository operated by CERN, providing permanent DOI and data archival for ML research"
+  },
+  "url": "https://zenodo.org/communities/ml/",
+  "authority_level": "research",
+  "authority_justification": {
+    "zh": "CERN 和 OpenAIRE 联合运营，欧盟资助，是学术数据存档的标准平台",
+    "en": "Operated by CERN and OpenAIRE, EU funded, standard platform for academic data archival"
+  },
+  "data_type": ["datasets", "code", "papers", "models"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2013-present",
+    "indicators": "3,000,000+ records total, 50,000+ ML related"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://zenodo.org/",
+    "api": "https://developers.zenodo.org/",
+    "doi": "每个数据集有永久 DOI"
+  },
+  "license": "varies by record",
+  "languages": ["en"],
+  "tags": ["open-science", "doi", "archival", "reproducibility", "cern"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mlcommons",
+  "name": {
+    "zh": "MLCommons",
+    "en": "MLCommons"
+  },
+  "description": {
+    "zh": "ML 行业联盟，制定 MLPerf 基准标准，发布 People's Speech、Multilingual Librispeech 等大规模数据集",
+    "en": "ML industry consortium, defining MLPerf benchmark standards, releasing large-scale datasets like People's Speech and Multilingual Librispeech"
+  },
+  "url": "https://mlcommons.org/",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "由 Google、NVIDIA、Intel、Meta 等巨头联合成立，MLPerf 是 AI 硬件性能的行业标准",
+    "en": "Founded by Google, NVIDIA, Intel, Meta, etc. MLPerf is the industry standard for AI hardware performance"
+  },
+  "data_type": ["benchmarks", "datasets", "standards"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2018-present",
+    "indicators": "10+ datasets, 5+ benchmark suites"
+  },
+  "update_frequency": "semi-annual",
+  "access_method": {
+    "web": "https://mlcommons.org/datasets/",
+    "github": "https://github.com/mlcommons"
+  },
+  "license": "CC BY 4.0 / Apache 2.0",
+  "languages": ["en"],
+  "tags": ["benchmarks", "mlperf", "hardware", "inference", "training", "speech"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

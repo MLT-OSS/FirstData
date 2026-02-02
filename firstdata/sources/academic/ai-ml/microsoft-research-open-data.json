@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-research-open-data",
+  "name": {
+    "zh": "微软研究院开放数据",
+    "en": "Microsoft Research Open Data"
+  },
+  "description": {
+    "zh": "微软研究院发布的研究数据集，涵盖 NLP、计算机视觉、社交网络等领域",
+    "en": "Research datasets released by Microsoft Research, covering NLP, computer vision, social networks and more"
+  },
+  "url": "https://msropendata.com/",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "微软研究院官方发布，包含多个被广泛引用的基准数据集",
+    "en": "Officially released by Microsoft Research, includes widely-cited benchmark datasets"
+  },
+  "data_type": ["datasets", "nlp", "computer_vision", "social_networks"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2018-present",
+    "indicators": "100+ datasets"
+  },
+  "update_frequency": "quarterly",
+  "access_method": {
+    "web": "https://msropendata.com/",
+    "azure": "Azure Blob Storage"
+  },
+  "license": "varies by dataset (mostly research use)",
+  "languages": ["en"],
+  "tags": ["nlp", "computer-vision", "social-networks", "research", "microsoft"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}
