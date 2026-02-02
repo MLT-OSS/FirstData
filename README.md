@@ -1067,4 +1067,6 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
   <a href="#-发展路线图">路线图</a>
 </p>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jiangwenzhe/firstdata&type=Date&theme=light&width=800&height=400)](https://star-history.com/#jiangwenzhe/firstdata&Date)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)

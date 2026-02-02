@@ -24,6 +24,7 @@ from tools_impl.tool_get_source_details import tool_get_source_details
 from tools_impl.tool_list_sources_summary import tool_list_sources_summary
 from tools_impl.tool_search_agent import datasource_search_agent
 from tools_impl.tool_search_sources_by_keywords import tool_search_sources_by_keywords
+from user_context import clear_user_context, get_masked_token, set_user_token
 
 # 加载环境变量
 load_dotenv()
@@ -209,7 +210,7 @@ async def datasource_filter(
     domain: str = Field(
         default="", description="领域，如 finance（金融）, health（健康）, economics（经济）"
     ),
-    has_api: bool = Field(
+    has_api: bool | None = Field(
         default=None,
         description="是否需要API访问。True=仅返回有API的数据源，False=仅返回无API的，None=不限制",
     ),
@@ -402,29 +403,37 @@ class BearerAuthMiddleware(BaseHTTPMiddleware):
     """Bearer Token认证中间件"""
 
     async def dispatch(self, request: Request, call_next):
-        # 读取环境变量中的API Key
-        expected_key = os.getenv("MCP_API_KEY", "")
+        try:
+            # 读取环境变量中的API Key
+            expected_key = os.getenv("MCP_API_KEY", "")
 
-        # 如果未设置API Key，跳过认证
-        if not expected_key:
-            return await call_next(request)
+            # 如果未设置API Key，跳过认证
+            if not expected_key:
+                return await call_next(request)
 
-        # 提取Authorization header
-        auth_header = request.headers.get("Authorization", "")
+            # 提取Authorization header
+            auth_header = request.headers.get("Authorization", "")
 
-        # 验证Bearer token
-        if not auth_header.startswith("Bearer "):
-            return JSONResponse(
-                {"error": "Missing or invalid Authorization header"}, status_code=401
-            )
+            # 验证Bearer token
+            if not auth_header.startswith("Bearer "):
+                return JSONResponse(
+                    {"error": "Missing or invalid Authorization header"}, status_code=401
+                )
 
-        token = auth_header[7:]  # 移除"Bearer "前缀
+            token = auth_header[7:]  # 移除"Bearer "前缀
 
-        if token != expected_key:
-            return JSONResponse({"error": "Invalid API key"}, status_code=403)
+            if token != expected_key:
+                return JSONResponse({"error": "Invalid API key"}, status_code=403)
 
-        # Token有效，继续处理
-        return await call_next(request)
+            # Token有效，保存到上下文中（用于 Langfuse 追踪）
+            set_user_token(token)
+
+            # 继续处理请求
+            response = await call_next(request)
+            return response
+        finally:
+            # 请求结束后清理上下文
+            clear_user_context()
 
 
 # ============================================================================
