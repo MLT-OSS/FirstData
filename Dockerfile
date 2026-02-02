@@ -1,6 +1,6 @@
 # Use Python 3.11 slim image for minimal size
-FROM python:3.11-slim AS runtime
-# FROM tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/python:3.11-slim AS runtime
+# FROM python:3.11-slim AS runtime
+FROM tbj7-xtiao-tcr1.tencentcloudcr.com/xtiao-release/python:3.11-slim AS runtime
 
 # Environment variables for Python and pip
 ENV PYTHONDONTWRITEBYTECODE=1 \
