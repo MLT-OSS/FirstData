@@ -1,3 +1,4 @@
+import contextlib
 import json
 import os
 import time
@@ -7,7 +8,8 @@ from typing import Any
 import httpx
 from config import __version__
 from langfuse import get_client as get_langfuse_client
-from langfuse import observe
+from langfuse import observe, propagate_attributes
+from user_context import get_masked_token
 from utils import get_anthropic_client
 
 from .tool_filter_sources_by_criteria import tool_filter_sources_by_criteria
@@ -671,66 +673,90 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
     Returns:
         Agent的最终推荐结果
     """
-    # 检查是否启用 Langfuse
-    langfuse_enabled = os.getenv("LANGFUSE_ENABLED", "false").lower() == "true"
-    client = get_anthropic_client()
-    model = os.getenv("QUERY_UNDERSTANDING_MODEL", "gemini-3-flash-preview")
-    base_url = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
+    # 传播用户ID到所有子观察
+    masked_token = get_masked_token()
+    with propagate_attributes(user_id=masked_token) if masked_token else contextlib.nullcontext():
+        # 检查是否启用 Langfuse
+        langfuse_enabled = os.getenv("LANGFUSE_ENABLED", "false").lower() == "true"
+        client = get_anthropic_client()
+        model = os.getenv("QUERY_UNDERSTANDING_MODEL", "gemini-3-flash-preview")
+        base_url = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
 
-    # 日志：显示使用的模型和API配置
-    print("\n[Agent] ========== Agent Search Started ==========")
-    print(f"[Agent] Model: {model}")
-    print(f"[Agent] API Base URL: {base_url}")
-    print(f"[Agent] User Query: {user_query}")
-    print(f"[Agent] Max Results: {max_results}")
-    print(f"[Agent] Max Iterations: {max_iterations}")
-    print(f"[Agent] Langfuse Enabled: {langfuse_enabled}")
-    print("[Agent] ===========================================\n")
+        # 日志：显示使用的模型和API配置
+        print("\n[Agent] ========== Agent Search Started ==========")
+        print(f"[Agent] Model: {model}")
+        print(f"[Agent] API Base URL: {base_url}")
+        print(f"[Agent] User Query: {user_query}")
+        print(f"[Agent] Max Results: {max_results}")
+        print(f"[Agent] Max Iterations: {max_iterations}")
+        print(f"[Agent] Langfuse Enabled: {langfuse_enabled}")
+        print("[Agent] ===========================================\n")
 
-    # 更新 Langfuse trace 级别信息
-    if langfuse_enabled:
-        langfuse = get_langfuse_client()
-        langfuse.update_current_trace(
-            input=user_query,
-            metadata={
-                "model": model,
-                "base_url": base_url,
-                "max_results": max_results,
-                "max_iterations": max_iterations,
-            },
-            tags=["datasource-search", "mcp-agent"],
-        )
-
-    # 将 max_results 添加到系统提示中，并填充当前日期
-    current_date = datetime.now().strftime("%Y年%m月%d日")
-    system_prompt = (
-        AGENT_SYSTEM_PROMPT.format(current_date=current_date) + f"\n\n**本次查询限制**: 最多返回 {max_results} 个推荐数据源。"
-    )
-
-    messages = [{"role": "user", "content": user_query}]
-
-    iteration = 0
-
-    while iteration < max_iterations:
-        iteration += 1
-
-        print(f"\n[Agent] === 第 {iteration} 轮迭代 ===")
-        print(f"[Agent] 调用LLM模型: {model}")
-
-        # 调用LLM (带 Langfuse 追踪)
+        # 更新 Langfuse trace 级别信息
         if langfuse_enabled:
             langfuse = get_langfuse_client()
-            with langfuse.start_as_current_generation(
-                name=f"llm-call-iteration-{iteration}",
-                model=model,
-                input=messages,
+            langfuse.update_current_trace(
+                input=user_query,
                 metadata={
-                    "iteration": iteration,
-                    "max_iterations": max_iterations,
+                    "model": model,
+                    "base_url": base_url,
                     "max_results": max_results,
-                    "system_prompt_length": len(system_prompt),
+                    "max_iterations": max_iterations,
                 },
-            ) as generation:
+                tags=["datasource-search", "mcp-agent"],
+            )
+
+        # 将 max_results 添加到系统提示中，并填充当前日期
+        current_date = datetime.now().strftime("%Y年%m月%d日")
+        system_prompt = (
+            AGENT_SYSTEM_PROMPT.format(current_date=current_date) + f"\n\n**本次查询限制**: 最多返回 {max_results} 个推荐数据源。"
+        )
+
+        messages = [{"role": "user", "content": user_query}]
+
+        iteration = 0
+
+        while iteration < max_iterations:
+            iteration += 1
+
+            print(f"\n[Agent] === 第 {iteration} 轮迭代 ===")
+            print(f"[Agent] 调用LLM模型: {model}")
+
+            # 调用LLM (带 Langfuse 追踪)
+            if langfuse_enabled:
+                langfuse = get_langfuse_client()
+                with langfuse.start_as_current_generation(
+                    name=f"llm-call-iteration-{iteration}",
+                    model=model,
+                    input=messages,
+                    metadata={
+                        "iteration": iteration,
+                        "max_iterations": max_iterations,
+                        "max_results": max_results,
+                        "system_prompt_length": len(system_prompt),
+                    },
+                ) as generation:
+                    response = client.messages.create(
+                        model=model,
+                        max_tokens=4096,
+                        system=system_prompt,
+                        tools=AGENT_TOOLS,
+                        messages=messages,
+                    )
+
+                    # 更新 generation 信息
+                    generation.update(
+                        output=response.content,
+                        usage_details={
+                            "input": response.usage.input_tokens,
+                            "output": response.usage.output_tokens,
+                        },
+                        metadata={
+                            "stop_reason": response.stop_reason,
+                            "model": response.model,
+                        },
+                    )
+            else:
                 response = client.messages.create(
                     model=model,
                     max_tokens=4096,
@@ -739,132 +765,111 @@ def datasource_search_agent(user_query: str, max_results: int = 5, max_iteration
                     messages=messages,
                 )
 
-                # 更新 generation 信息
-                generation.update(
-                    output=response.content,
-                    usage_details={
-                        "input": response.usage.input_tokens,
-                        "output": response.usage.output_tokens,
-                    },
-                    metadata={
-                        "stop_reason": response.stop_reason,
-                        "model": response.model,
-                    },
-                )
-        else:
-            response = client.messages.create(
-                model=model,
-                max_tokens=4096,
-                system=system_prompt,
-                tools=AGENT_TOOLS,
-                messages=messages,
-            )
-
-        # 打印response的内容块
-        print(f"[Agent] Response包含 {len(response.content)} 个内容块:")
-        for i, block in enumerate(response.content):
-            print(f"[Agent]   块{i + 1}: type={block.type}")
-            if block.type == "text":
-                print(f"[Agent]       text内容: {block.text[:100]}...")
-            elif hasattr(block, "name"):
-                print(f"[Agent]       工具名称: {block.name}")
-
-        # 检查是否需要工具调用
-        if response.stop_reason == "end_turn":
-            # Agent完成，返回最终结果
-            final_text = ""
-            for block in response.content:
+            # 打印response的内容块
+            print(f"[Agent] Response包含 {len(response.content)} 个内容块:")
+            for i, block in enumerate(response.content):
+                print(f"[Agent]   块{i + 1}: type={block.type}")
                 if block.type == "text":
-                    final_text += block.text
+                    print(f"[Agent]       text内容: {block.text[:100]}...")
+                elif hasattr(block, "name"):
+                    print(f"[Agent]       工具名称: {block.name}")
 
-            # 更新 Langfuse trace 输出
-            if langfuse_enabled:
-                langfuse.update_current_trace(
-                    output=final_text,
-                    metadata={"total_iterations": iteration, "status": "completed"},
-                )
-                langfuse.flush()  # 确保数据发送到 Langfuse
+            # 检查是否需要工具调用
+            if response.stop_reason == "end_turn":
+                # Agent完成，返回最终结果
+                final_text = ""
+                for block in response.content:
+                    if block.type == "text":
+                        final_text += block.text
 
-            return final_text
+                # 更新 Langfuse trace 输出
+                if langfuse_enabled:
+                    langfuse.update_current_trace(
+                        output=final_text,
+                        metadata={"total_iterations": iteration, "status": "completed"},
+                    )
+                    langfuse.flush()  # 确保数据发送到 Langfuse
 
-        # 处理工具调用
-        if response.stop_reason == "tool_use":
-            # 添加assistant消息
-            messages.append({"role": "assistant", "content": response.content})
+                return final_text
 
-            # 执行所有工具调用
-            tool_results = []
-            for block in response.content:
-                if block.type == "tool_use":
-                    print(f"[Agent] 调用工具: {block.name}")
-                    print(f"[Agent] 参数: {json.dumps(block.input, ensure_ascii=False)}")
+            # 处理工具调用
+            if response.stop_reason == "tool_use":
+                # 添加assistant消息
+                messages.append({"role": "assistant", "content": response.content})
 
-                    # 使用 Langfuse 追踪工具调用
-                    if langfuse_enabled:
-                        with langfuse.start_as_current_observation(
-                            as_type="span", name=f"tool-{block.name}"
-                        ) as tool_span:
-                            tool_span.update(input=block.input, metadata={"tool_name": block.name})
+                # 执行所有工具调用
+                tool_results = []
+                for block in response.content:
+                    if block.type == "tool_use":
+                        print(f"[Agent] 调用工具: {block.name}")
+                        print(f"[Agent] 参数: {json.dumps(block.input, ensure_ascii=False)}")
 
-                            # 执行工具
+                        # 使用 Langfuse 追踪工具调用
+                        if langfuse_enabled:
+                            with langfuse.start_as_current_observation(
+                                as_type="span", name=f"tool-{block.name}"
+                            ) as tool_span:
+                                tool_span.update(input=block.input, metadata={"tool_name": block.name})
+
+                                # 执行工具
+                                result = execute_tool(block.name, block.input)
+
+                                tool_span.update(output=result)
+                        else:
+                            # 不使用追踪时直接执行
                             result = execute_tool(block.name, block.input)
 
-                            tool_span.update(output=result)
-                    else:
-                        # 不使用追踪时直接执行
-                        result = execute_tool(block.name, block.input)
+                        # 打印工具结果（用于调试）
+                        if block.name == "web_search":
+                            print("[Agent] ⚠️ web_search由Anthropic API处理，结果将在API响应中返回")
+                        else:
+                            print(
+                                f"[Agent] 工具返回结果: {json.dumps(result, ensure_ascii=False)[:200]}..."
+                            )
 
-                    # 打印工具结果（用于调试）
-                    if block.name == "web_search":
-                        print("[Agent] ⚠️ web_search由Anthropic API处理，结果将在API响应中返回")
-                    else:
-                        print(
-                            f"[Agent] 工具返回结果: {json.dumps(result, ensure_ascii=False)[:200]}..."
+                        tool_results.append(
+                            {
+                                "type": "tool_result",
+                                "tool_use_id": block.id,
+                                "content": json.dumps(result, ensure_ascii=False),
+                            }
                         )
 
-                    tool_results.append(
-                        {
-                            "type": "tool_result",
-                            "tool_use_id": block.id,
-                            "content": json.dumps(result, ensure_ascii=False),
-                        }
+                # 打印所有工具结果
+                print(f"\n[Agent] 收集到 {len(tool_results)} 个工具结果:")
+                for i, tr in enumerate(tool_results):
+                    print(f"[Agent]   结果{i + 1}: tool_use_id={tr['tool_use_id']}")
+                    content = tr["content"]
+                    # 尝试解析JSON以美化输出
+                    try:
+                        parsed = json.loads(content)
+                        print(
+                            f"[Agent]       内容: {json.dumps(parsed, ensure_ascii=False, indent=2)[:500]}..."
+                        )
+                    except (json.JSONDecodeError, TypeError):
+                        print(f"[Agent]       内容(原始): {content[:500]}...")
+
+                # 添加工具结果
+                messages.append({"role": "user", "content": tool_results})
+            else:
+                # 其他停止原因
+                error_msg = f"Agent stopped unexpectedly: {response.stop_reason}"
+                if langfuse_enabled:
+                    langfuse.update_current_trace(
+                        output=error_msg,
+                        metadata={"total_iterations": iteration, "status": "error", "stop_reason": response.stop_reason},
                     )
+                    langfuse.flush()
+                return error_msg
 
-            # 打印所有工具结果
-            print(f"\n[Agent] 收集到 {len(tool_results)} 个工具结果:")
-            for i, tr in enumerate(tool_results):
-                print(f"[Agent]   结果{i + 1}: tool_use_id={tr['tool_use_id']}")
-                content = tr["content"]
-                # 尝试解析JSON以美化输出
-                try:
-                    parsed = json.loads(content)
-                    print(
-                        f"[Agent]       内容: {json.dumps(parsed, ensure_ascii=False, indent=2)[:500]}..."
-                    )
-                except (json.JSONDecodeError, TypeError):
-                    print(f"[Agent]       内容(原始): {content[:500]}...")
-
-            # 添加工具结果
-            messages.append({"role": "user", "content": tool_results})
-        else:
-            # 其他停止原因
-            error_msg = f"Agent stopped unexpectedly: {response.stop_reason}"
-            if langfuse_enabled:
-                langfuse.update_current_trace(
-                    output=error_msg,
-                    metadata={"total_iterations": iteration, "status": "error", "stop_reason": response.stop_reason},
-                )
-                langfuse.flush()
-            return error_msg
-
-    # 达到最大迭代次数
-    max_iter_msg = "达到最大迭代次数，Agent未能完成任务"
-    if langfuse_enabled:
-        langfuse.update_current_trace(
-            output=max_iter_msg, metadata={"total_iterations": iteration, "status": "max_iterations_reached"}
-        )
-        langfuse.flush()
-    return max_iter_msg
+        # 达到最大迭代次数
+        max_iter_msg = "达到最大迭代次数，Agent未能完成任务"
+        if langfuse_enabled:
+            langfuse.update_current_trace(
+                output=max_iter_msg, metadata={"total_iterations": iteration, "status": "max_iterations_reached"}
+            )
+            langfuse.flush()
+        return max_iter_msg
 
 
 # def datasource_search_agent(user_query: str, max_results: int = 5, max_iterations: int = 10) -> str:

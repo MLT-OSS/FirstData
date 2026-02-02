@@ -5,10 +5,14 @@
 """
 
 import asyncio
+import contextlib
 import os
 import time
 
 import httpx
+from langfuse import get_client as get_langfuse_client
+from langfuse import observe, propagate_attributes
+from user_context import get_masked_token
 
 from .tool_get_source_details import tool_get_source_details
 
@@ -51,6 +55,7 @@ def _aggregate_instructions(completed_tasks: dict) -> tuple[list[dict], dict]:
     return result, url_metadata
 
 
+@observe(name="get-instructions")
 async def tool_datasource_get_instructions(source_id: str, operation: str, top_k: int = 3) -> dict:
     """
     为访问指定数据源生成详细的URL访问操作指令
@@ -69,154 +74,224 @@ async def tool_datasource_get_instructions(source_id: str, operation: str, top_k
         1. 先获取到具体使用什么数据源，通过 datasource_search_llm_agent 等检索方法获取到数据源ID
         2. 再用本工具获取该数据源的具体操作指令
     """
-    try:
-        # 1. 获取数据源详情
-        sources = tool_get_source_details([source_id])
-        if not sources or "error" in sources[0]:
-            return {"error": f"数据源 {source_id} 不存在"}
+    # 传播用户ID到所有子观察
+    masked_token = get_masked_token()
+    with propagate_attributes(user_id=masked_token) if masked_token else contextlib.nullcontext():
+        langfuse_enabled = os.getenv("LANGFUSE_ENABLED", "false").lower() == "true"
+        start_time = time.time()
 
-        source = sources[0]
+        try:
+            # 1. 获取数据源详情
+            sources = tool_get_source_details([source_id])
+            if not sources or "error" in sources[0]:
+                error_result = {"error": f"数据源 {source_id} 不存在"}
+                if langfuse_enabled:
+                    langfuse = get_langfuse_client()
+                    langfuse.update_current_span(
+                        input={"source_id": source_id, "operation": operation, "top_k": top_k},
+                        output=error_result,
+                        metadata={"error_type": "source_not_found"},
+                    )
+                return error_result
 
-        # 2. 收集所有URL（去重）
-        urls = list(dict.fromkeys(
-            url for field in ["website", "data_url", "api_url"]
-            if (url := source.get(field))
-        ))
+            source = sources[0]
 
-        if not urls:
-            return {"error": f"数据源 {source_id} 没有可用的URL"}
+            # 2. 收集所有URL（去重）
+            urls = list(dict.fromkeys(
+                url for field in ["website", "data_url", "api_url"]
+                if (url := source.get(field))
+            ))
 
-        print(f"[INFO] Processing {len(urls)} URLs for {source_id}")
+            if not urls:
+                error_result = {"error": f"数据源 {source_id} 没有可用的URL"}
+                if langfuse_enabled:
+                    langfuse = get_langfuse_client()
+                    langfuse.update_current_span(
+                        input={"source_id": source_id, "operation": operation, "top_k": top_k},
+                        output=error_result,
+                        metadata={"error_type": "no_urls"},
+                    )
+                return error_result
 
-        # 3. 准备API请求
-        api_base = os.getenv(
-            "INSTRUCTION_API_URL",
-            "https://mingjing.mininglamp.com/api/mano-plan/instruction/v1"
-        ).rstrip("/match").rstrip("/")
+            print(f"[INFO] Processing {len(urls)} URLs for {source_id}")
 
-        async with httpx.AsyncClient(timeout=120.0) as client:
-            # 4. 并发创建异步任务
-            async def create_task(url: str):
-                response = await client.post(
-                    f"{api_base}/match_async",
-                    json={
-                        "category": "查询",
-                        "domain": "",
-                        "resource_path": url,
-                        "operation": operation,
-                        "top_k": top_k,
-                    }
-                )
-                if response.status_code == 200 and (result := response.json()).get("success"):
-                    print(f"[INFO] Task created for {url}")
-                    return {"task_id": result["task_id"], "url": url}
-                return None
+            # 3. 准备API请求
+            api_base = os.getenv(
+                "INSTRUCTION_API_URL",
+                "https://mingjing.mininglamp.com/api/mano-plan/instruction/v1"
+            ).rstrip("/match").rstrip("/")
 
-            task_metadata = [t for t in await asyncio.gather(*[create_task(url) for url in urls]) if t]
-
-            if not task_metadata:
-                return {"error": "所有URL的任务创建均失败"}
-
-            # 5. 并发轮询任务状态
-            completed_tasks = {}
-            start_time = time.time()
-
-            while len(completed_tasks) < len(task_metadata):
-                if time.time() - start_time > 90:
-                    break  # 超时
-
-                # 并发查询所有未完成任务的状态
-                async def check_status(meta: dict):
-                    task_id = meta["task_id"]
-                    if task_id in completed_tasks:
-                        return None
-
-                    status_resp = await client.get(f"{api_base}/match_status/{task_id}")
-                    if status_resp.status_code != 200:
-                        return None
-
-                    status_data = status_resp.json()
-                    state = status_data.get("state")
-
-                    if state == "SUCCESS":
-                        print(f"[INFO] Task {task_id[:8]} completed")
-                        # 根据API的message字段判断URL是否被索引
-                        message = status_data.get("message", "")
-                        url_indexed = "未搜索到对应网站" not in message  # 如果消息中包含此文本，表示URL未索引
-
-                        return (task_id, {
-                            "url": meta["url"],
-                            "instructions": status_data.get("result", []),
-                            "url_indexed": url_indexed,
-                            "api_message": message  # 保存原始消息用于调试
-                        })
-                    elif state == "FAILURE":
-                        print(f"[WARNING] Task {task_id[:8]} failed")
-                        return (task_id, {
-                            "url": meta["url"],
-                            "instructions": [],
-                            "url_indexed": False,  # 失败情况视为未索引
-                            "api_message": status_data.get("message", "")
-                        })
+            async with httpx.AsyncClient(timeout=120.0) as client:
+                # 4. 并发创建异步任务
+                async def create_task(url: str):
+                    response = await client.post(
+                        f"{api_base}/match_async",
+                        json={
+                            "category": "查询",
+                            "domain": "",
+                            "resource_path": url,
+                            "operation": operation,
+                            "top_k": top_k,
+                        }
+                    )
+                    if response.status_code == 200 and (result := response.json()).get("success"):
+                        print(f"[INFO] Task created for {url}")
+                        return {"task_id": result["task_id"], "url": url}
                     return None
 
-                results = await asyncio.gather(*[check_status(meta) for meta in task_metadata])
-                for item in results:
-                    if item:
-                        task_id, task_data = item
-                        completed_tasks[task_id] = task_data
+                task_metadata = [t for t in await asyncio.gather(*[create_task(url) for url in urls]) if t]
 
-                await asyncio.sleep(2)
-
-            # 6. 聚合并返回结果
-            urls, url_metadata = _aggregate_instructions(completed_tasks)
-
-            result = {"source_id": source_id, "urls": urls}
-
-            # 添加明确的状态信息
-            if len(completed_tasks) < len(task_metadata):
-                result["warning"] = f"部分任务超时，仅返回 {len(completed_tasks)}/{len(task_metadata)} 个结果"
-
-            # 如果没有找到任何指令，提供明确说明
-            total_instructions = sum(len(url_data["instructions"]) for url_data in urls)
-            if not urls or total_instructions == 0:
-                if not completed_tasks:
-                    result["message"] = "所有检索任务超时或失败，未能获取任何操作指令"
-                else:
-                    # 关键区分：检查URL的索引状态
-                    unindexed_urls = [
-                        url for url, meta in url_metadata.items()
-                        if not meta.get("url_indexed", True)
-                    ]
-                    indexed_urls = [
-                        url for url, meta in url_metadata.items()
-                        if meta.get("url_indexed", True)
-                    ]
-
-                    # 优先判断：如果有URL已收录，说明可以搜索，只是没匹配到
-                    if indexed_urls:
-                        # 情况1: 有URL已收录但无匹配结果
-                        result["message"] = (
-                            f"无匹配结果：在数据源 {source_id} 中未找到与操作 '{operation}' 匹配的指令。"
-                            "建议尝试更换关键词描述或调整操作说明。"
+                if not task_metadata:
+                    error_result = {"error": "所有URL的任务创建均失败"}
+                    if langfuse_enabled:
+                        langfuse = get_langfuse_client()
+                        langfuse.update_current_span(
+                            input={"source_id": source_id, "operation": operation, "top_k": top_k},
+                            output=error_result,
+                            metadata={"error_type": "task_creation_failed", "url_count": len(urls)},
                         )
-                        # 如果有部分URL未收录，作为附加信息提示
-                        if unindexed_urls:
-                            # result["note"] = f"注：以下URL暂未在指令库中收录，可尝试直接访问：{', '.join(unindexed_urls)}"
-                            pass
+                    return error_result
+
+                # 5. 并发轮询任务状态
+                completed_tasks = {}
+                start_time = time.time()
+
+                while len(completed_tasks) < len(task_metadata):
+                    if time.time() - start_time > 90:
+                        break  # 超时
+
+                    # 并发查询所有未完成任务的状态
+                    async def check_status(meta: dict):
+                        task_id = meta["task_id"]
+                        if task_id in completed_tasks:
+                            return None
+
+                        status_resp = await client.get(f"{api_base}/match_status/{task_id}")
+                        if status_resp.status_code != 200:
+                            return None
+
+                        status_data = status_resp.json()
+                        state = status_data.get("state")
+
+                        if state == "SUCCESS":
+                            print(f"[INFO] Task {task_id[:8]} completed")
+                            # 根据API的message字段判断URL是否被索引
+                            message = status_data.get("message", "")
+                            url_indexed = "未搜索到对应网站" not in message  # 如果消息中包含此文本，表示URL未索引
+
+                            return (task_id, {
+                                "url": meta["url"],
+                                "instructions": status_data.get("result", []),
+                                "url_indexed": url_indexed,
+                                "api_message": message  # 保存原始消息用于调试
+                            })
+                        elif state == "FAILURE":
+                            print(f"[WARNING] Task {task_id[:8]} failed")
+                            return (task_id, {
+                                "url": meta["url"],
+                                "instructions": [],
+                                "url_indexed": False,  # 失败情况视为未索引
+                                "api_message": status_data.get("message", "")
+                            })
+                        return None
+
+                    results = await asyncio.gather(*[check_status(meta) for meta in task_metadata])
+                    for item in results:
+                        if item:
+                            task_id, task_data = item
+                            completed_tasks[task_id] = task_data
+
+                    await asyncio.sleep(2)
+
+                # 6. 聚合并返回结果
+                urls, url_metadata = _aggregate_instructions(completed_tasks)
+
+                result = {"source_id": source_id, "urls": urls}
+
+                # 添加明确的状态信息
+                if len(completed_tasks) < len(task_metadata):
+                    result["warning"] = f"部分任务超时，仅返回 {len(completed_tasks)}/{len(task_metadata)} 个结果"
+
+                # 如果没有找到任何指令，提供明确说明
+                total_instructions = sum(len(url_data["instructions"]) for url_data in urls)
+                if not urls or total_instructions == 0:
+                    if not completed_tasks:
+                        result["message"] = "所有检索任务超时或失败，未能获取任何操作指令"
                     else:
-                        # 情况2: 所有URL都未在指令库中收录
-                        result["message"] = (
-                            f"数据源 {source_id} 在FirstData仓库中已收录，但URL尚未在指令库中建立访问指令：{', '.join(unindexed_urls)}。\n"
-                        )
+                        # 关键区分：检查URL的索引状态
+                        unindexed_urls = [
+                            url for url, meta in url_metadata.items()
+                            if not meta.get("url_indexed", True)
+                        ]
+                        indexed_urls = [
+                            url for url, meta in url_metadata.items()
+                            if meta.get("url_indexed", True)
+                        ]
 
-            print(f"[INFO] Completed: {total_instructions} instructions from {len(urls)} URLs")
-            return result
+                        # 优先判断：如果有URL已收录，说明可以搜索，只是没匹配到
+                        if indexed_urls:
+                            # 情况1: 有URL已收录但无匹配结果
+                            result["message"] = (
+                                f"无匹配结果：在数据源 {source_id} 中未找到与操作 '{operation}' 匹配的指令。"
+                                "建议尝试更换关键词描述或调整操作说明。"
+                            )
+                            # 如果有部分URL未收录，作为附加信息提示
+                            if unindexed_urls:
+                                # result["note"] = f"注：以下URL暂未在指令库中收录，可尝试直接访问：{', '.join(unindexed_urls)}"
+                                pass
+                        else:
+                            # 情况2: 所有URL都未在指令库中收录
+                            result["message"] = (
+                                f"数据源 {source_id} 在FirstData仓库中已收录，但URL尚未在指令库中建立访问指令：{', '.join(unindexed_urls)}。\n"
+                            )
 
-    except httpx.TimeoutException:
-        return {"error": "指令API调用超时（120秒）"}
-    except Exception as e:
-        print(f"[ERROR] {e}")
-        import traceback
-        traceback.print_exc()
-        return {"error": f"工具执行失败: {e!s}"}
+                print(f"[INFO] Completed: {total_instructions} instructions from {len(urls)} URLs")
+
+                # 添加追踪元数据
+                if langfuse_enabled:
+                    elapsed_time = time.time() - start_time
+                    langfuse = get_langfuse_client()
+                    langfuse.update_current_span(
+                        input={
+                            "source_id": source_id,
+                            "operation": operation,
+                            "top_k": top_k,
+                        },
+                        output=result,
+                        metadata={
+                            "url_count": len(urls),
+                            "total_instructions": total_instructions,
+                            "task_count": len(task_metadata),
+                            "completed_tasks": len(completed_tasks),
+                            "elapsed_time_seconds": elapsed_time,
+                            "has_warning": "warning" in result,
+                            "has_message": "message" in result,
+                        },
+                    )
+
+                return result
+
+        except httpx.TimeoutException:
+            error_result = {"error": "指令API调用超时（120秒）"}
+            if langfuse_enabled:
+                langfuse = get_langfuse_client()
+                langfuse.update_current_span(
+                    input={"source_id": source_id, "operation": operation, "top_k": top_k},
+                    output=error_result,
+                    metadata={"error_type": "timeout"},
+                )
+            return error_result
+        except Exception as e:
+            print(f"[ERROR] {e}")
+            import traceback
+            traceback.print_exc()
+            error_result = {"error": f"工具执行失败: {e!s}"}
+
+            if langfuse_enabled:
+                langfuse = get_langfuse_client()
+                langfuse.update_current_span(
+                    input={"source_id": source_id, "operation": operation, "top_k": top_k},
+                    output=error_result,
+                    metadata={"error_type": "exception", "error_message": str(e)},
+                )
+            return error_result
