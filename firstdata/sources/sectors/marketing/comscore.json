@@ -1,0 +1,33 @@
+{
+  "id": "comscore",
+  "name": {
+    "zh": "Comscore",
+    "en": "Comscore"
+  },
+  "description": {
+    "zh": "跨平台媒体测量公司，提供数字广告、视频、电视跨屏观众测量数据",
+    "en": "Cross-platform media measurement company providing digital advertising, video, TV cross-screen audience measurement"
+  },
+  "url": "https://www.comscore.com/",
+  "authority_level": "market",
+  "authority_justification": {
+    "zh": "上市公司(NASDAQ: SCOR)，美国 MRC 认证的数字测量标准，被顶级媒体公司采用",
+    "en": "Public company (NASDAQ: SCOR), MRC-accredited digital measurement standard, adopted by top media companies"
+  },
+  "data_type": ["digital_audience", "video", "advertising", "cross_platform"],
+  "coverage": {
+    "geographic": "global (75+ countries)",
+    "temporal": "1999-present",
+    "indicators": "digital, streaming, TV, movies"
+  },
+  "update_frequency": "monthly",
+  "access_method": {
+    "web": "https://www.comscore.com/",
+    "reports": "Comscore Insights"
+  },
+  "license": "subscription",
+  "languages": ["en"],
+  "tags": ["digital-audience", "video", "streaming", "advertising", "cross-platform"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

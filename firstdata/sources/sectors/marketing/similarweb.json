@@ -1,0 +1,33 @@
+{
+  "id": "similarweb",
+  "name": {
+    "zh": "SimilarWeb",
+    "en": "SimilarWeb"
+  },
+  "description": {
+    "zh": "网站流量和数字营销情报平台，提供网站排名、流量来源、受众分析、竞品对比",
+    "en": "Website traffic and digital marketing intelligence platform providing rankings, traffic sources, audience analysis, competitor benchmarking"
+  },
+  "url": "https://www.similarweb.com/",
+  "authority_level": "market",
+  "authority_justification": {
+    "zh": "上市公司(NYSE: SMWB)，被 Google、Adobe、Walmart 等使用，全球数字营销情报标准",
+    "en": "Public company (NYSE: SMWB), used by Google, Adobe, Walmart, global standard for digital marketing intelligence"
+  },
+  "data_type": ["web_traffic", "rankings", "audience", "competitors"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2007-present",
+    "indicators": "100M+ websites tracked"
+  },
+  "update_frequency": "daily",
+  "access_method": {
+    "web": "https://www.similarweb.com/",
+    "api": "https://developers.similarweb.com/"
+  },
+  "license": "freemium (部分免费)",
+  "languages": ["en"],
+  "tags": ["web-traffic", "seo", "digital-marketing", "competitors", "audience"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

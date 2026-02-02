@@ -1,0 +1,33 @@
+{
+  "id": "statista",
+  "name": {
+    "zh": "Statista",
+    "en": "Statista"
+  },
+  "description": {
+    "zh": "全球领先的商业数据平台，提供市场规模、消费者行为、行业趋势等统计数据，覆盖 170+ 行业",
+    "en": "Leading global business data platform providing market size, consumer behavior, industry trends across 170+ industries"
+  },
+  "url": "https://www.statista.com/",
+  "authority_level": "market",
+  "authority_justification": {
+    "zh": "被 Fortune 500 公司、顶级咨询公司和学术机构广泛引用，数据来源包括政府、行业协会和市场研究",
+    "en": "Widely cited by Fortune 500, top consulting firms and academia, data sourced from governments, industry associations and market research"
+  },
+  "data_type": ["statistics", "market_research", "infographics", "reports"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "1999-present",
+    "indicators": "1,000,000+ statistics, 80,000+ topics"
+  },
+  "update_frequency": "daily",
+  "access_method": {
+    "web": "https://www.statista.com/",
+    "api": "available for enterprise"
+  },
+  "license": "subscription (部分免费)",
+  "languages": ["en", "de", "es", "fr", "zh"],
+  "tags": ["market-research", "statistics", "consumer", "industry", "trends"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

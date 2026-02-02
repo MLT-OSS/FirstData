@@ -1,0 +1,33 @@
+{
+  "id": "nielsen",
+  "name": {
+    "zh": "Nielsen",
+    "en": "Nielsen"
+  },
+  "description": {
+    "zh": "全球领先的媒体和消费者洞察公司，提供电视收视率、广告效果、消费者行为数据",
+    "en": "Global leader in media and consumer insights, providing TV ratings, advertising effectiveness, consumer behavior data"
+  },
+  "url": "https://www.nielsen.com/",
+  "authority_level": "market",
+  "authority_justification": {
+    "zh": "成立于 1923 年，电视收视率的行业标准制定者，被全球广告主和媒体公司采用",
+    "en": "Founded in 1923, industry standard setter for TV ratings, adopted by global advertisers and media companies"
+  },
+  "data_type": ["tv_ratings", "advertising", "consumer_behavior", "retail"],
+  "coverage": {
+    "geographic": "global (100+ countries)",
+    "temporal": "1923-present",
+    "indicators": "TV, streaming, audio, retail panels"
+  },
+  "update_frequency": "daily",
+  "access_method": {
+    "web": "https://www.nielsen.com/",
+    "reports": "Nielsen Insights"
+  },
+  "license": "subscription (部分报告免费)",
+  "languages": ["en", "zh"],
+  "tags": ["tv-ratings", "media", "advertising", "consumer", "retail", "audience"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

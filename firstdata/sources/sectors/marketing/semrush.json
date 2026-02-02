@@ -1,0 +1,33 @@
+{
+  "id": "semrush",
+  "name": {
+    "zh": "SEMrush",
+    "en": "SEMrush"
+  },
+  "description": {
+    "zh": "全球领先的 SEO 和数字营销工具，提供关键词研究、竞品分析、广告情报、内容营销数据",
+    "en": "Leading global SEO and digital marketing tool providing keyword research, competitor analysis, advertising intelligence, content marketing data"
+  },
+  "url": "https://www.semrush.com/",
+  "authority_level": "market",
+  "authority_justification": {
+    "zh": "上市公司(NYSE: SEMR)，全球 1000 万+ 用户，被 Forbes、IBM 等使用",
+    "en": "Public company (NYSE: SEMR), 10M+ users globally, used by Forbes, IBM, etc."
+  },
+  "data_type": ["seo", "keywords", "backlinks", "advertising", "content"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2008-present",
+    "indicators": "25B+ keywords, 800M+ domains"
+  },
+  "update_frequency": "daily",
+  "access_method": {
+    "web": "https://www.semrush.com/",
+    "api": "https://developer.semrush.com/"
+  },
+  "license": "subscription",
+  "languages": ["en"],
+  "tags": ["seo", "keywords", "backlinks", "ppc", "content-marketing", "competitors"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

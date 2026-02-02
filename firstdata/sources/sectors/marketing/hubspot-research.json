@@ -1,0 +1,33 @@
+{
+  "id": "hubspot-research",
+  "name": {
+    "zh": "HubSpot Research",
+    "en": "HubSpot Research"
+  },
+  "description": {
+    "zh": "HubSpot 发布的营销、销售、客户服务行业报告和基准数据，包含 State of Marketing 等年度报告",
+    "en": "Marketing, sales, customer service industry reports and benchmarks by HubSpot, including annual State of Marketing reports"
+  },
+  "url": "https://www.hubspot.com/marketing-statistics",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "上市公司(NYSE: HUBS)，全球领先的营销自动化平台，拥有 20万+ 客户的一手数据",
+    "en": "Public company (NYSE: HUBS), leading marketing automation platform with first-party data from 200K+ customers"
+  },
+  "data_type": ["reports", "benchmarks", "statistics", "surveys"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2006-present",
+    "indicators": "marketing, sales, CRM, content"
+  },
+  "update_frequency": "annual",
+  "access_method": {
+    "web": "https://www.hubspot.com/marketing-statistics",
+    "reports": "free download with registration"
+  },
+  "license": "free",
+  "languages": ["en"],
+  "tags": ["marketing-automation", "inbound-marketing", "sales", "crm", "benchmarks"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

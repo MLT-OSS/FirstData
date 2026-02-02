@@ -1,0 +1,34 @@
+{
+  "id": "google-trends",
+  "name": {
+    "zh": "Google Trends",
+    "en": "Google Trends"
+  },
+  "description": {
+    "zh": "Google 搜索趋势数据，提供关键词热度、地区分布、相关查询、实时趋势",
+    "en": "Google search trends data providing keyword popularity, geographic distribution, related queries, real-time trends"
+  },
+  "url": "https://trends.google.com/",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "Google 官方产品，基于全球最大搜索引擎的真实搜索数据，学术研究和商业分析的权威来源",
+    "en": "Official Google product based on real search data from world's largest search engine, authoritative source for research and business analysis"
+  },
+  "data_type": ["search_trends", "keywords", "geographic", "time_series"],
+  "coverage": {
+    "geographic": "global (200+ countries)",
+    "temporal": "2004-present",
+    "indicators": "unlimited keywords"
+  },
+  "update_frequency": "real-time",
+  "access_method": {
+    "web": "https://trends.google.com/",
+    "api": "unofficial (pytrends)",
+    "export": "CSV download"
+  },
+  "license": "free",
+  "languages": ["en", "zh", "multilingual"],
+  "tags": ["search-trends", "keywords", "consumer-interest", "market-research", "real-time"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

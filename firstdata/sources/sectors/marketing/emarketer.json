@@ -1,0 +1,33 @@
+{
+  "id": "emarketer",
+  "name": {
+    "zh": "eMarketer / Insider Intelligence",
+    "en": "eMarketer / Insider Intelligence"
+  },
+  "description": {
+    "zh": "数字营销和电商行业研究机构，提供广告支出预测、用户增长、平台份额等数据",
+    "en": "Digital marketing and e-commerce research firm providing ad spending forecasts, user growth, platform market share data"
+  },
+  "url": "https://www.insiderintelligence.com/",
+  "authority_level": "market",
+  "authority_justification": {
+    "zh": "Axel Springer 旗下，数字广告预测的行业标准，被 WSJ、NYT 等主流媒体引用",
+    "en": "Owned by Axel Springer, industry standard for digital ad forecasts, cited by WSJ, NYT and major media"
+  },
+  "data_type": ["forecasts", "market_share", "ad_spending", "user_growth"],
+  "coverage": {
+    "geographic": "global (focus US, China, EU)",
+    "temporal": "1996-present",
+    "indicators": "digital ads, e-commerce, social, mobile"
+  },
+  "update_frequency": "monthly",
+  "access_method": {
+    "web": "https://www.insiderintelligence.com/",
+    "reports": "Insider Intelligence Reports"
+  },
+  "license": "subscription (部分图表免费)",
+  "languages": ["en"],
+  "tags": ["digital-advertising", "e-commerce", "social-media", "forecasts", "market-share"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}
