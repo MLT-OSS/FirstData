@@ -1,0 +1,34 @@
+{
+  "id": "huggingface-datasets",
+  "name": {
+    "zh": "Hugging Face Datasets",
+    "en": "Hugging Face Datasets"
+  },
+  "description": {
+    "zh": "全球最大的开源机器学习数据集平台，托管超过100,000个数据集，涵盖NLP、计算机视觉、音频、多模态等领域",
+    "en": "The world's largest open-source ML dataset platform, hosting 100,000+ datasets covering NLP, computer vision, audio, and multimodal domains"
+  },
+  "url": "https://huggingface.co/datasets",
+  "authority_level": "industry",
+  "authority_justification": {
+    "zh": "Hugging Face 是 AI/ML 社区的事实标准平台，获得超过 $400M 融资，与 Google、Amazon、Microsoft 等合作",
+    "en": "Hugging Face is the de facto standard platform for AI/ML community, raised $400M+, partnered with Google, Amazon, Microsoft"
+  },
+  "data_type": ["datasets", "model_training_data", "benchmarks"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2020-present",
+    "indicators": "100,000+ datasets"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://huggingface.co/datasets",
+    "api": "https://huggingface.co/docs/datasets/",
+    "python": "pip install datasets; from datasets import load_dataset"
+  },
+  "license": "varies by dataset",
+  "languages": ["en", "zh", "multilingual"],
+  "tags": ["machine-learning", "nlp", "computer-vision", "audio", "multimodal", "open-source"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

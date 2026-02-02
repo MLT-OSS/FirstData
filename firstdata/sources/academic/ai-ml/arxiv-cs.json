@@ -1,0 +1,34 @@
+{
+  "id": "arxiv-cs",
+  "name": {
+    "zh": "arXiv 计算机科学",
+    "en": "arXiv Computer Science"
+  },
+  "description": {
+    "zh": "康奈尔大学运营的开放获取预印本服务器，是 AI/ML 研究的首发平台，每天数百篇新论文",
+    "en": "Open-access preprint server operated by Cornell University, the primary venue for AI/ML research with hundreds of new papers daily"
+  },
+  "url": "https://arxiv.org/list/cs.AI/recent",
+  "authority_level": "research",
+  "authority_justification": {
+    "zh": "康奈尔大学运营，获得西蒙斯基金会等资助，是全球物理学和计算机科学的标准预印本平台",
+    "en": "Operated by Cornell University, funded by Simons Foundation, the standard preprint platform for physics and CS globally"
+  },
+  "data_type": ["papers", "preprints", "research"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "1991-present",
+    "indicators": "2.4M+ papers, 50,000+ CS.AI papers"
+  },
+  "update_frequency": "daily",
+  "access_method": {
+    "web": "https://arxiv.org",
+    "api": "https://info.arxiv.org/help/api/index.html",
+    "bulk": "https://info.arxiv.org/help/bulk_data.html"
+  },
+  "license": "varies by paper (mostly CC BY)",
+  "languages": ["en"],
+  "tags": ["artificial-intelligence", "machine-learning", "deep-learning", "nlp", "computer-vision", "preprints"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

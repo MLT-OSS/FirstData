@@ -1,0 +1,33 @@
+{
+  "id": "papers-with-code",
+  "name": {
+    "zh": "Papers With Code",
+    "en": "Papers With Code"
+  },
+  "description": {
+    "zh": "机器学习论文、代码、数据集和基准的综合平台，追踪各任务的 SOTA 模型和结果",
+    "en": "Comprehensive platform for ML papers, code, datasets and benchmarks, tracking SOTA models and results across tasks"
+  },
+  "url": "https://paperswithcode.com",
+  "authority_level": "research",
+  "authority_justification": {
+    "zh": "被 Meta AI 收购，是 AI 研究社区追踪最新进展的标准参考",
+    "en": "Acquired by Meta AI, the standard reference for tracking ML research progress in the AI community"
+  },
+  "data_type": ["papers", "code", "datasets", "benchmarks", "sota_results"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2012-present",
+    "indicators": "300,000+ papers, 6,000+ benchmarks, 8,000+ datasets"
+  },
+  "update_frequency": "daily",
+  "access_method": {
+    "web": "https://paperswithcode.com",
+    "api": "https://paperswithcode.com/api/v1/docs/"
+  },
+  "license": "CC BY-SA 4.0",
+  "languages": ["en"],
+  "tags": ["machine-learning", "deep-learning", "benchmarks", "sota", "research"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "openml",
+  "name": {
+    "zh": "OpenML",
+    "en": "OpenML"
+  },
+  "description": {
+    "zh": "开放机器学习平台，提供标准化的数据集、任务、流程和实验结果共享，促进可重复研究",
+    "en": "Open machine learning platform providing standardized sharing of datasets, tasks, flows and experimental results for reproducible research"
+  },
+  "url": "https://www.openml.org",
+  "authority_level": "research",
+  "authority_justification": {
+    "zh": "TU Eindhoven 等多所大学联合开发，获得欧盟 Horizon 2020 资助，被 scikit-learn 官方集成",
+    "en": "Developed by TU Eindhoven and multiple universities, funded by EU Horizon 2020, officially integrated with scikit-learn"
+  },
+  "data_type": ["datasets", "benchmarks", "experiments", "ml_pipelines"],
+  "coverage": {
+    "geographic": "global",
+    "temporal": "2013-present",
+    "indicators": "5,000+ datasets, 20,000+ tasks, 10M+ experiment runs"
+  },
+  "update_frequency": "continuous",
+  "access_method": {
+    "web": "https://www.openml.org",
+    "api": "https://www.openml.org/apis",
+    "python": "pip install openml"
+  },
+  "license": "CC BY 4.0",
+  "languages": ["en"],
+  "tags": ["machine-learning", "benchmarks", "reproducibility", "automl", "datasets"],
+  "verified": true,
+  "last_verified": "2026-02-02"
+}
