@@ -403,7 +403,7 @@ class BearerAuthMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next):
         # 读取环境变量中的API Key
-        expected_key = os.getenv("FIRSTDATA_TOKEN", "")
+        expected_key = os.getenv("MCP_API_KEY", "")
 
         # 如果未设置API Key，跳过认证
         if not expected_key:
@@ -435,13 +435,13 @@ class BearerAuthMiddleware(BaseHTTPMiddleware):
 def main():
     """主函数：启动MCP服务器"""
     # 检查认证配置
-    api_key = os.getenv("FIRSTDATA_TOKEN", "")
+    api_key = os.getenv("MCP_API_KEY", "")
     if api_key:
         print(
             "[INFO] Authentication enabled. Clients must provide 'Authorization: Bearer <token>' header."
         )
     else:
-        print("[WARN] FIRSTDATA_TOKEN not set. Running without authentication.")
+        print("[WARN] MCP_API_KEY not set. Running without authentication.")
 
     print(f"[INFO] FirstData Agent MCP Server v{__version__}")
     print("[INFO] Starting HTTP server on http://0.0.0.0:8001")
