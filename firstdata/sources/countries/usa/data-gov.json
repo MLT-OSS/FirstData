@@ -1,0 +1,71 @@
+{
+  "id": "us-data-gov",
+  "name": {
+    "en": "Data.gov - U.S. Government Open Data",
+    "zh": "Data.gov - 美国政府开放数据门户"
+  },
+  "description": {
+    "en": "The official open data portal of the United States federal government. Provides access to over 300,000 datasets from federal agencies covering agriculture, climate, education, energy, finance, health, public safety, science, and more. Managed by the U.S. General Services Administration (GSA).",
+    "zh": "美国联邦政府官方开放数据门户。提供来自联邦机构的超过30万个数据集，涵盖农业、气候、教育、能源、金融、健康、公共安全、科学等领域。由美国总务管理局（GSA）管理。"
+  },
+  "website": "https://www.data.gov",
+  "data_url": "https://catalog.data.gov/dataset",
+  "api_url": "https://catalog.data.gov/api/3",
+  "country": "US",
+  "domains": [
+    "government",
+    "economics",
+    "health",
+    "education",
+    "climate",
+    "energy",
+    "agriculture",
+    "transportation",
+    "public-safety"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "open-data",
+    "government-data",
+    "federal-data",
+    "USA",
+    "datasets",
+    "CKAN",
+    "api",
+    "public-records",
+    "transparency",
+    "美国政府",
+    "开放数据",
+    "联邦数据"
+  ],
+  "data_content": {
+    "en": [
+      "Federal agency datasets (300,000+ datasets)",
+      "Agriculture and food supply data",
+      "Climate and weather datasets",
+      "Education statistics and metrics",
+      "Energy production and consumption data",
+      "Finance and economic indicators",
+      "Health and medical research data",
+      "Public safety and crime statistics",
+      "Science and research datasets",
+      "Transportation and infrastructure data",
+      "Geospatial and mapping data"
+    ],
+    "zh": [
+      "联邦机构数据集（30万+数据集）",
+      "农业和食品供应数据",
+      "气候和天气数据集",
+      "教育统计和指标",
+      "能源生产和消费数据",
+      "金融和经济指标",
+      "健康和医学研究数据",
+      "公共安全和犯罪统计",
+      "科学和研究数据集",
+      "交通和基础设施数据",
+      "地理空间和地图数据"
+    ]
+  },
+  "authority_level": "government"
+}

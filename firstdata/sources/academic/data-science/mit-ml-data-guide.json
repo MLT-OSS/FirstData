@@ -1,0 +1,59 @@
+{
+  "id": "mit-ml-data-guide",
+  "name": {
+    "en": "MIT Libraries ML/AI Data Guide",
+    "zh": "MIT图书馆机器学习/AI数据指南"
+  },
+  "description": {
+    "en": "Curated guide from MIT Libraries covering machine learning and artificial intelligence data sources. Maintained by MIT EECS librarians, providing authoritative listings of datasets, repositories, and resources for ML/AI research and development.",
+    "zh": "由MIT图书馆整理的机器学习和人工智能数据源指南。由MIT EECS图书馆员维护，提供用于ML/AI研究和开发的权威数据集、存储库和资源列表。"
+  },
+  "website": "https://libraries.mit.edu",
+  "data_url": "https://libguides.mit.edu/eecs/mldata",
+  "api_url": null,
+  "country": "US",
+  "domains": [
+    "artificial-intelligence",
+    "machine-learning",
+    "data-science",
+    "computer-science"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "machine-learning",
+    "artificial-intelligence",
+    "datasets",
+    "deep-learning",
+    "neural-networks",
+    "computer-vision",
+    "nlp",
+    "MIT",
+    "academic",
+    "research-data",
+    "机器学习",
+    "人工智能",
+    "数据集"
+  ],
+  "data_content": {
+    "en": [
+      "Curated ML/AI dataset repositories (UCI, Kaggle, etc.)",
+      "Computer vision and image datasets",
+      "Natural language processing corpora",
+      "Benchmark datasets for model evaluation",
+      "Domain-specific ML data sources",
+      "Dataset search engines and discovery tools",
+      "Data preparation and preprocessing resources"
+    ],
+    "zh": [
+      "精选ML/AI数据集存储库（UCI、Kaggle等）",
+      "计算机视觉和图像数据集",
+      "自然语言处理语料库",
+      "模型评估基准数据集",
+      "特定领域ML数据源",
+      "数据集搜索引擎和发现工具",
+      "数据准备和预处理资源"
+    ]
+  },
+  "authority_level": "research"
+}
