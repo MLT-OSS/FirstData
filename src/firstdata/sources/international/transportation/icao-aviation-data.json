@@ -1,0 +1,90 @@
+{
+  "id": "icao-aviation-data",
+  "name": {
+    "en": "ICAO Aviation Data",
+    "zh": "国际民航组织航空数据"
+  },
+  "description": {
+    "en": "The International Civil Aviation Organization (ICAO) provides comprehensive aviation data through its API Data Service, covering airport codes, airline designators, aircraft type codes, traffic statistics, safety data, NOTAMs, accident and incident reports, and operational information from 193 member states worldwide.",
+    "zh": "国际民用航空组织(ICAO)通过其API数据服务提供全面的航空数据,涵盖机场代码、航空公司代号、飞机型号代码、交通统计、安全数据、航行通告(NOTAM)、事故和事件报告,以及来自全球193个成员国的运营信息。"
+  },
+  "website": "https://www.icao.int/",
+  "data_url": "https://dataservices.icao.int/",
+  "api_url": "https://dataservices.icao.int/",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "transportation",
+    "aviation",
+    "safety",
+    "statistics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "aviation",
+    "航空",
+    "civil aviation",
+    "民用航空",
+    "airport codes",
+    "机场代码",
+    "airline codes",
+    "航空公司代码",
+    "aircraft codes",
+    "飞机代码",
+    "ICAO",
+    "国际民航组织",
+    "NOTAM",
+    "航行通告",
+    "flight data",
+    "飞行数据",
+    "air traffic",
+    "空中交通",
+    "aviation safety",
+    "航空安全",
+    "accident statistics",
+    "事故统计",
+    "DOC7910",
+    "DOC8585",
+    "DOC8643",
+    "API"
+  ],
+  "data_content": {
+    "en": [
+      "ICAO Airport Codes (DOC7910 Location Indicators) - 4-letter airport identifiers",
+      "Airline Codes (DOC8585 Operator 3-letter Designators) - airline operator codes",
+      "Aircraft Type Codes (DOC8643 Aircraft Type Designators) - aircraft manufacturer and model codes",
+      "Real-time and Stored NOTAMs (Notices to Airmen) - flight operation safety notices",
+      "Accidents and Incidents Data - aviation safety occurrence reports by state",
+      "State Traffic Statistics - departure statistics by member state",
+      "Airport Departure Statistics - traffic data by airport",
+      "Aerodrome Statistics and Operational Information - airport operational data",
+      "Flight Information Regions (FIR) Names and Locations",
+      "Weather Conditions - current meteorological data by airport",
+      "Safety Data - accident statistics, operator risk profiles, safety margins",
+      "USOAP (Universal Safety Oversight Audit Programme) Statistics",
+      "IOSA (IATA Operational Safety Audit) Registered Airlines",
+      "PBN (Performance Based Navigation) Implementation Statistics",
+      "Economic and Governance Indicators by state",
+      "Over 56 APIs providing aviation industry data in JSON and CSV formats"
+    ],
+    "zh": [
+      "ICAO机场代码(DOC7910位置指示符) - 4字母机场标识符",
+      "航空公司代码(DOC8585运营商3字母代号) - 航空公司运营商代码",
+      "飞机型号代码(DOC8643飞机型号指示符) - 飞机制造商和型号代码",
+      "实时和存储的航行通告(NOTAM) - 飞行运营安全通知",
+      "事故和事件数据 - 按国家分类的航空安全事件报告",
+      "国家交通统计 - 成员国出发统计数据",
+      "机场出发统计 - 按机场分类的交通数据",
+      "机场统计和运营信息 - 机场运营数据",
+      "飞行情报区(FIR)名称和位置信息",
+      "天气状况 - 按机场分类的当前气象数据",
+      "安全数据 - 事故统计、运营商风险概况、安全裕度",
+      "USOAP(通用安全监督审计计划)统计数据",
+      "IOSA(国际航协运行安全审计)注册航空公司",
+      "PBN(基于性能的导航)实施统计",
+      "各国经济和治理指标",
+      "超过56个API提供JSON和CSV格式的航空业数据"
+    ]
+  }
+}

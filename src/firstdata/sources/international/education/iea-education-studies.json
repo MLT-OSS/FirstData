@@ -1,0 +1,80 @@
+{
+  "id": "iea-education-studies",
+  "name": {
+    "en": "IEA Education Studies Data",
+    "zh": "国际教育成就评价协会教育研究数据"
+  },
+  "description": {
+    "en": "IEA (International Association for the Evaluation of Educational Achievement) is an international cooperative of national research institutions, governmental research agencies, scholars, and analysts working to research, understand, and improve education worldwide. IEA conducts high-quality, large-scale comparative studies of education across the globe to provide educators, policymakers, and parents with insights into how students perform.",
+    "zh": "国际教育成就评价协会(IEA)是由国家研究机构、政府研究机构、学者和分析师组成的国际合作组织，致力于研究、理解和改善全球教育。IEA在全球范围内开展高质量的大规模教育比较研究，为教育工作者、政策制定者和家长提供学生表现的洞察。"
+  },
+  "website": "https://www.iea.nl",
+  "data_url": "https://www.iea.nl/data-tools/repository",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "education",
+    "international-assessment",
+    "student-achievement"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "education",
+    "教育",
+    "international-assessment",
+    "国际评估",
+    "student-achievement",
+    "学生成就",
+    "TIMSS",
+    "PIRLS",
+    "ICCS",
+    "ICILS",
+    "LaNA",
+    "mathematics",
+    "数学",
+    "science",
+    "科学",
+    "reading-literacy",
+    "阅读素养",
+    "civic-education",
+    "公民教育",
+    "digital-literacy",
+    "数字素养",
+    "comparative-education",
+    "比较教育",
+    "educational-research",
+    "教育研究"
+  ],
+  "data_content": {
+    "en": [
+      "TIMSS (Trends in International Mathematics and Science Study) - Mathematics and science achievement data for grades 4 and 8 students",
+      "TIMSS Advanced - Advanced mathematics and physics achievement data for final-year secondary school students",
+      "PIRLS (Progress in International Reading Literacy Study) - Reading literacy achievement data for grade 4 students",
+      "ICCS (International Civic and Citizenship Education Study) - Civic and citizenship education knowledge and attitudes data",
+      "ICILS (International Computer and Information Literacy Study) - Computer and information literacy skills data, including digital well-being and AI literacy",
+      "LaNA (Literacy and Numeracy Assessment) - Early grade literacy and numeracy assessment data",
+      "REDS (Responses to Educational Disruption Survey) - Educational disruption and response data during COVID-19",
+      "CIVED (Civic Education Study) - Historical civic education data",
+      "SITES (Second Information Technology in Education Study) - Information technology in education data",
+      "TEDS-M (Teacher Education and Development Study in Mathematics) - Mathematics teacher education and development data",
+      "Reading Literacy Study - Historical reading literacy data",
+      "Student achievement data, teacher questionnaires, school questionnaires, curriculum data, and contextual variables across multiple countries and education systems"
+    ],
+    "zh": [
+      "TIMSS(国际数学与科学趋势研究) - 4年级和8年级学生的数学和科学成就数据",
+      "TIMSS Advanced - 中学最后一年学生的高级数学和物理成就数据",
+      "PIRLS(国际阅读素养进展研究) - 4年级学生的阅读素养成就数据",
+      "ICCS(国际公民与公民教育研究) - 公民与公民教育知识和态度数据",
+      "ICILS(国际计算机与信息素养研究) - 计算机和信息素养技能数据，包括数字福祉和人工智能素养",
+      "LaNA(识字和算术评估) - 早期年级识字和算术评估数据",
+      "REDS(教育中断应对调查) - COVID-19期间的教育中断和应对数据",
+      "CIVED(公民教育研究) - 历史公民教育数据",
+      "SITES(第二次教育信息技术研究) - 教育中的信息技术数据",
+      "TEDS-M(数学教师教育与发展研究) - 数学教师教育和发展数据",
+      "阅读素养研究 - 历史阅读素养数据",
+      "学生成就数据、教师问卷、学校问卷、课程数据以及跨多个国家和教育系统的背景变量"
+    ]
+  }
+}

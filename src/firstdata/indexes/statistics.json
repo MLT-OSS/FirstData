@@ -1,48 +1,48 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T14:29:07.689366",
+    "generated_at": "2026-02-03T15:17:04.815418",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 129,
-    "sources_with_api": 65,
+    "total_sources": 132,
+    "sources_with_api": 66,
     "last_updated": "2026-02-03"
   },
   "by_authority_level": {
     "research": 27,
-    "international": 33,
+    "international": 36,
     "government": 52,
     "commercial": 5,
     "market": 12
   },
   "by_geographic_scope": {
-    "global": 57,
+    "global": 60,
     "national": 57,
     "regional": 15
   },
   "by_access_level": {
-    "unknown": 129
+    "unknown": 132
   },
   "by_update_frequency": {
-    "irregular": 31,
+    "irregular": 33,
     "daily": 28,
     "weekly": 6,
     "quarterly": 11,
     "monthly": 25,
-    "annual": 23,
+    "annual": 24,
     "real-time": 5
   },
   "by_domain": {
     "economics": 26,
     "health": 12,
     "technology": 12,
+    "trade": 11,
     "environment": 11,
-    "trade": 10,
+    "finance": 10,
     "Agriculture": 10,
-    "finance": 9,
     "demographics": 8,
+    "education": 8,
     "development": 7,
-    "education": 7,
     "Education": 7,
     "Health": 7,
     "social": 6,
@@ -61,6 +61,7 @@
     "Payment Systems": 4,
     "population": 4,
     "Infrastructure": 4,
+    "banking": 4,
     "monetary_policy": 4,
     "innovation": 4,
     "International Trade": 4,
@@ -86,7 +87,6 @@
     "atmosphere": 3,
     "Economic Development": 3,
     "investment": 3,
-    "banking": 3,
     "telecommunications": 3,
     "electronics": 3,
     "Financial Markets": 3,
@@ -124,6 +124,7 @@
     "Crystallography": 2,
     "Governance": 2,
     "infrastructure": 2,
+    "statistics": 2,
     "insurance": 2,
     "securities": 2,
     "capital_markets": 2,
@@ -248,7 +249,6 @@
     "international_commerce": 1,
     "commerce": 1,
     "higher_education": 1,
-    "statistics": 1,
     "regulation": 1,
     "derivatives": 1,
     "digital-economy": 1,
@@ -451,6 +451,8 @@
     "Banking Statistics": 1,
     "Government Finance": 1,
     "Banking Supervision": 1,
+    "international-assessment": 1,
+    "student-achievement": 1,
     "Student Assessment": 1,
     "Reading Literacy": 1,
     "Mathematical Literacy": 1,
@@ -504,6 +506,9 @@
     "Food Inspection": 1,
     "Certification Systems": 1,
     "Food Quality": 1,
+    "transportation": 1,
+    "aviation": 1,
+    "safety": 1,
     "Commodity Markets": 1,
     "Agricultural Trade": 1,
     "Food Prices": 1,

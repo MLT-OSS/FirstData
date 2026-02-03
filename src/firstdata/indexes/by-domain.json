@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T14:29:07.688966",
-    "total_domains": 579,
-    "total_sources": 129,
+    "generated_at": "2026-02-03T15:17:04.815016",
+    "total_domains": 584,
+    "total_sources": 132,
     "version": "2.0"
   },
   "domains": {
@@ -7097,6 +7097,19 @@
         "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
       }
     ],
+    "aviation": [
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
+      }
+    ],
     "balance_of_payments": [
       {
         "id": "korea-bok",
@@ -7147,6 +7160,17 @@
         "data_url": "https://www.banxico.org.mx",
         "has_api": true,
         "file_path": "countries/north-america/mexico/banxico.json"
+      },
+      {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "file_path": "international/trade/icc-trade-register.json"
       },
       {
         "id": "china-nfra",
@@ -8164,6 +8188,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "file_path": "international/education/iea-education-studies.json"
+      },
+      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -8677,6 +8712,17 @@
         "data_url": "https://www.hkexnews.hk",
         "has_api": true,
         "file_path": "china/finance/securities/hkex.json"
+      },
+      {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "file_path": "international/trade/icc-trade-register.json"
       },
       {
         "id": "imf-data",
@@ -9622,6 +9668,19 @@
         "data_url": "https://www.bok.or.kr/eng/main/main.do",
         "has_api": true,
         "file_path": "countries/asia/korea/korea-bok.json"
+      }
+    ],
+    "international-assessment": [
+      {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "file_path": "international/education/iea-education-studies.json"
       }
     ],
     "international_commerce": [
@@ -10730,6 +10789,19 @@
         "file_path": "academic/health/ghdx.json"
       }
     ],
+    "safety": [
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
+      }
+    ],
     "science": [
       {
         "id": "china-most-infrastructure",
@@ -10986,6 +11058,17 @@
     ],
     "statistics": [
       {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
+      },
+      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -11008,6 +11091,19 @@
         "data_url": "https://www.rug.nl/ggdc/",
         "has_api": false,
         "file_path": "academic/economics/ggdc-databases.json"
+      }
+    ],
+    "student-achievement": [
+      {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "file_path": "international/education/iea-education-studies.json"
       }
     ],
     "technology": [
@@ -11241,6 +11337,17 @@
         "file_path": "academic/economics/ggdc-databases.json"
       },
       {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "file_path": "international/trade/icc-trade-register.json"
+      },
+      {
         "id": "china-mofcom",
         "name": {
           "en": "Ministry of Commerce of China",
@@ -11322,6 +11429,19 @@
         "data_url": "https://www3.wipo.int/ipstats/",
         "has_api": false,
         "file_path": "international/intellectual-property/wipo.json"
+      }
+    ],
+    "transportation": [
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
       }
     ],
     "water": [

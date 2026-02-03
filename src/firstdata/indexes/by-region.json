@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T14:29:07.689165",
+    "generated_at": "2026-02-03T15:17:04.815214",
     "total_regions": 12,
-    "total_sources": 129,
+    "total_sources": 132,
     "version": "2.0"
   },
   "regions": {
@@ -1172,6 +1172,42 @@
         "has_api": false,
         "geographic_scope": "global",
         "file_path": "international/finance/iais.json"
+      },
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/transportation/icao-aviation-data.json"
+      },
+      {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/trade/icc-trade-register.json"
+      },
+      {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/education/iea-education-studies.json"
       },
       {
         "id": "iea-energy-data",
