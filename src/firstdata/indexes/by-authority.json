@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T12:15:27.080403",
-    "total_sources": 128,
+    "generated_at": "2026-02-03T14:29:07.689229",
+    "total_sources": 129,
     "authority_counts": {
       "government": 52,
-      "international": 32,
+      "international": 33,
       "market": 12,
       "research": 27,
       "commercial": 5,
@@ -911,6 +911,18 @@
         "has_api": true,
         "geographic_scope": "global",
         "file_path": "international/energy/iaea-energy-data.json"
+      },
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "international/finance/iais.json"
       },
       {
         "id": "iea-energy-data",

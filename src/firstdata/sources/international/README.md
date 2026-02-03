@@ -1,8 +1,8 @@
 # 国际组织 | International Organizations
 
 **总数**: 100+个数据源
-**已完成**: 29个
-**进度**: 29%
+**已完成**: 30个
+**进度**: 30%
 
 ---
 
@@ -10,8 +10,8 @@
 
 ```
 总目标: 100+ 个国际组织数据源
-当前完成: 29 个
-完成度: ██████░░░░░░░░░░░░░░ 29%
+当前完成: 30 个
+完成度: ██████░░░░░░░░░░░░░░ 30%
 ```
 
 **目录结构**: ✅ 已完成
@@ -31,13 +31,13 @@
 | 🏥 健康 | 10 | 2 | 20% | Health |
 | 🌳 环境 | 12 | 2 | 17% | Environment |
 | 🌍 发展 | 13 | 5 | 38% | Development |
-| 💰 金融 | 6 | 2 | 33% | Finance |
+| 💰 金融 | 6 | 3 | 50% | Finance |
 | 📜 知识产权 | 5 | 1 | 20% | Intellectual Property |
 | 🌏 地球科学 | 8 | 2 | 25% | Earth Science |
 | 👷 劳工与社会 | 6 | 0 | 0% | Labour & Social |
 | 🚢 交通运输 | 4 | 0 | 0% | Transportation |
 | 📏 标准与计量 | 3 | 2 | 67% | Standards & Metrology |
-| **总计** | **100** | **29** | **29%** | - |
+| **总计** | **100** | **30** | **30%** | - |
 
 ---
 
@@ -235,7 +235,7 @@
 - **涵盖**: 拉美19个成员国，1970-2025年
 - **特色**: 拉美经济观察、基础设施融资、创新与数字化、可持续发展
 
-### 💰 金融 Finance (2/6)
+### 💰 金融 Finance (3/6)
 
 #### European Bank for Reconstruction and Development - 欧洲复兴开发银行
 - **文件**: [ebrd.json](finance/ebrd.json) ⭐💎
@@ -252,6 +252,14 @@
 - **访问类型**: 开放
 - **涵盖**: 22个债权国，1956-2025年
 - **特色**: 债务重组协议、债务减免、双边官方债务
+
+#### IAIS - International Association of Insurance Supervisors - 国际保险监督官协会
+- **文件**: [iais.json](finance/iais.json) ⭐💎
+- **权威等级**: international
+- **数据格式**: PDF, Excel, HTML
+- **访问类型**: 需注册
+- **涵盖**: 全球保险市场报告(GIMAR)年度评估、200+司法管辖区保险监督数据、占全球保险费的97%
+- **特色**: 保险资本标准(ICS)数据收集、全球监测演练(GME)、气候相关风险数据、网络风险评估、自然灾害保险保护缺口分析、保险核心原则(ICPs)和ComFrame实施评估
 
 ### 📜 知识产权 Intellectual Property (1/5)
 
@@ -337,7 +345,7 @@ international/
 ├── health/                 # 🏥 健康 (2/10个数据源)
 ├── environment/            # 🌳 环境 (2/12个数据源)
 ├── development/            # 🌍 发展 (5/13个数据源)
-├── finance/                # 💰 金融 (2/6个数据源)
+├── finance/                # 💰 金融 (3/6个数据源)
 ├── intellectual-property/  # 📜 知识产权 (1/5个数据源)
 ├── earth-science/          # 🌏 地球科学 (2/8个数据源)
 ├── labour-social/          # 👷 劳工与社会 (0/6个数据源)
@@ -385,6 +393,6 @@ international/
 
 **最后更新 Last Updated**: 2025-12-31
 **状态 Status**: 目录结构完成 | 数据填充进行中 (Directory Structure Complete | Data Population In Progress)
-**完成度 Completion**: 28/100 (28%)
+**完成度 Completion**: 30/100 (30%)
 
 **打造全球最全面的国际组织数据源元数据库！** 🌍🚀

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T12:15:27.079884",
-    "total_sources": 128,
+    "generated_at": "2026-02-03T14:29:07.688711",
+    "total_sources": 129,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3959,6 +3959,55 @@
         "燃料测试"
       ],
       "file_path": "international/energy/iaea-energy-data.json"
+    },
+    {
+      "id": "iais",
+      "name": {
+        "en": "IAIS - International Association of Insurance Supervisors",
+        "zh": "国际保险监督官协会"
+      },
+      "description": {
+        "en": "The International Association of Insurance Supervisors (IAIS) is the global standard-setting body for insurance supervision, bringing together insurance supervisors and regulators from over 200 jurisdictions representing 97% of the world's insurance premiums. Established in 1994, the IAIS develops principles, standards and guidance for effective insurance supervision, and publishes the Global Insurance Market Report (GIMAR) annually to monitor systemic risks and trends in the global insurance sector.",
+        "zh": "国际保险监督官协会(IAIS)是全球保险监督的标准制定机构,汇集了来自200多个司法管辖区的保险监督者和监管者,占全球保险费的97%。IAIS成立于1994年,负责制定有效保险监督的原则、标准和指南,并每年发布全球保险市场报告(GIMAR),监测全球保险行业的系统性风险和趋势。"
+      },
+      "website": "https://www.iais.org/",
+      "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "insurance",
+        "financial-stability",
+        "regulatory-standards"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "has_api": false,
+      "tags": [
+        "insurance",
+        "保险",
+        "insurance-supervision",
+        "保险监管",
+        "financial-stability",
+        "金融稳定",
+        "GIMAR",
+        "全球保险市场报告",
+        "ICS",
+        "insurance-capital-standard",
+        "保险资本标准",
+        "systemic-risk",
+        "系统性风险",
+        "ComFrame",
+        "insurance-core-principles",
+        "保险核心原则",
+        "climate-risk",
+        "气候风险",
+        "cyber-risk",
+        "网络风险",
+        "reinsurance",
+        "再保险"
+      ],
+      "file_path": "international/finance/iais.json"
     },
     {
       "id": "iea-energy-data",

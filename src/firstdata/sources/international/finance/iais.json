@@ -1,0 +1,73 @@
+{
+  "id": "iais",
+  "name": {
+    "en": "IAIS - International Association of Insurance Supervisors",
+    "zh": "国际保险监督官协会"
+  },
+  "description": {
+    "en": "The International Association of Insurance Supervisors (IAIS) is the global standard-setting body for insurance supervision, bringing together insurance supervisors and regulators from over 200 jurisdictions representing 97% of the world's insurance premiums. Established in 1994, the IAIS develops principles, standards and guidance for effective insurance supervision, and publishes the Global Insurance Market Report (GIMAR) annually to monitor systemic risks and trends in the global insurance sector.",
+    "zh": "国际保险监督官协会(IAIS)是全球保险监督的标准制定机构,汇集了来自200多个司法管辖区的保险监督者和监管者,占全球保险费的97%。IAIS成立于1994年,负责制定有效保险监督的原则、标准和指南,并每年发布全球保险市场报告(GIMAR),监测全球保险行业的系统性风险和趋势。"
+  },
+  "website": "https://www.iais.org/",
+  "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "insurance",
+    "financial-stability",
+    "regulatory-standards"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "insurance",
+    "保险",
+    "insurance-supervision",
+    "保险监管",
+    "financial-stability",
+    "金融稳定",
+    "GIMAR",
+    "全球保险市场报告",
+    "ICS",
+    "insurance-capital-standard",
+    "保险资本标准",
+    "systemic-risk",
+    "系统性风险",
+    "ComFrame",
+    "insurance-core-principles",
+    "保险核心原则",
+    "climate-risk",
+    "气候风险",
+    "cyber-risk",
+    "网络风险",
+    "reinsurance",
+    "再保险"
+  ],
+  "data_content": {
+    "en": [
+      "Global Insurance Market Report (GIMAR) - annual assessment of global insurance market trends, developments and systemic risk",
+      "Insurance Capital Standard (ICS) data collection - monitoring data for internationally active insurance groups",
+      "Global Monitoring Exercise (GME) - assessment of insurers' solvency, profitability and liquidity positions",
+      "Climate-related risk data - insurance sector exposure to climate change risks",
+      "Cyber risk assessments - cyber insurance market and cyber resilience data",
+      "Natural catastrophe (NatCat) insurance protection gaps analysis",
+      "Private credit investment data - insurers' allocation to alternative assets",
+      "Reinsurance market data - global reinsurance sector monitoring",
+      "Insurance Core Principles (ICPs) and ComFrame implementation assessments",
+      "Supervisory standards, guidance and supporting materials for insurance regulation"
+    ],
+    "zh": [
+      "全球保险市场报告(GIMAR) - 年度全球保险市场趋势、发展和系统性风险评估",
+      "保险资本标准(ICS)数据收集 - 国际活跃保险集团的监测数据",
+      "全球监测演练(GME) - 保险公司的偿付能力、盈利能力和流动性状况评估",
+      "气候相关风险数据 - 保险行业对气候变化风险的敞口",
+      "网络风险评估 - 网络保险市场和网络韧性数据",
+      "自然灾害(NatCat)保险保护缺口分析",
+      "私人信贷投资数据 - 保险公司对另类资产的配置",
+      "再保险市场数据 - 全球再保险行业监测",
+      "保险核心原则(ICPs)和ComFrame实施评估",
+      "保险监管的监管标准、指南和支持材料"
+    ]
+  }
+}

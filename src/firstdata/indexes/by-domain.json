@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T12:15:27.080135",
-    "total_domains": 577,
-    "total_sources": 128,
+    "generated_at": "2026-02-03T14:29:07.688966",
+    "total_domains": 579,
+    "total_sources": 129,
     "version": "2.0"
   },
   "domains": {
@@ -8738,6 +8738,19 @@
         "file_path": "china/finance/banking/pbc.json"
       }
     ],
+    "financial-stability": [
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json"
+      }
+    ],
     "financial_markets": [
       {
         "id": "canada-boc",
@@ -9521,6 +9534,17 @@
       }
     ],
     "insurance": [
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json"
+      },
       {
         "id": "china-nfra",
         "name": {
@@ -10602,6 +10626,19 @@
         "data_url": "https://www.nfra.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
         "has_api": false,
         "file_path": "china/finance/banking/nfra.json"
+      }
+    ],
+    "regulatory-standards": [
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json"
       }
     ],
     "remote-sensing": [

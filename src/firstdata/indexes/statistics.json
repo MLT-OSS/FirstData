@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T12:15:27.080544",
+    "generated_at": "2026-02-03T14:29:07.689366",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 128,
+    "total_sources": 129,
     "sources_with_api": 65,
     "last_updated": "2026-02-03"
   },
   "by_authority_level": {
     "research": 27,
-    "international": 32,
+    "international": 33,
     "government": 52,
     "commercial": 5,
     "market": 12
   },
   "by_geographic_scope": {
-    "global": 56,
+    "global": 57,
     "national": 57,
     "regional": 15
   },
   "by_access_level": {
-    "unknown": 128
+    "unknown": 129
   },
   "by_update_frequency": {
     "irregular": 31,
@@ -29,7 +29,7 @@
     "weekly": 6,
     "quarterly": 11,
     "monthly": 25,
-    "annual": 22,
+    "annual": 23,
     "real-time": 5
   },
   "by_domain": {
@@ -124,6 +124,7 @@
     "Crystallography": 2,
     "Governance": 2,
     "infrastructure": 2,
+    "insurance": 2,
     "securities": 2,
     "capital_markets": 2,
     "services": 2,
@@ -248,7 +249,6 @@
     "commerce": 1,
     "higher_education": 1,
     "statistics": 1,
-    "insurance": 1,
     "regulation": 1,
     "derivatives": 1,
     "digital-economy": 1,
@@ -465,6 +465,8 @@
     "Wildlife Conservation": 1,
     "Endangered Species": 1,
     "Environmental Protection": 1,
+    "financial-stability": 1,
+    "regulatory-standards": 1,
     "public health": 1,
     "disease surveillance": 1,
     "outbreak response": 1,
