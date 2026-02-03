@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T17:54:35.275648",
-    "total_sources": 126,
+    "generated_at": "2026-02-03T12:15:27.079884",
+    "total_sources": 128,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -1200,6 +1200,70 @@
         "computational linguistics"
       ],
       "file_path": "sectors/J-information-communication/bookscorpus.json"
+    },
+    {
+      "id": "brazil-ibge",
+      "name": {
+        "en": "Brazilian Institute of Geography and Statistics",
+        "zh": "巴西地理统计局"
+      },
+      "description": {
+        "en": "Brazil's official national statistical agency responsible for collection of statistical, geographic, cartographic, geodetic and environmental information. IBGE conducts the national population census every ten years, provides annual population estimates for all municipalities, and publishes comprehensive economic, social, and environmental data. Established in 1934, IBGE is the primary source of official data about Brazil's territory, population, and economy.",
+        "zh": "巴西官方国家统计机构,负责收集统计、地理、制图、大地测量和环境信息。IBGE每十年进行一次全国人口普查,为所有城市提供年度人口估算,并发布全面的经济、社会和环境数据。IBGE成立于1934年,是巴西领土、人口和经济官方数据的主要来源。"
+      },
+      "website": "https://www.ibge.gov.br/en/",
+      "data_url": "https://www.ibge.gov.br/en/indicators",
+      "api_url": "https://servicodados.ibge.gov.br/api/docs/",
+      "authority_level": "government",
+      "country": "BR",
+      "domains": [
+        "demographics",
+        "economics",
+        "geography",
+        "cartography",
+        "environment",
+        "population",
+        "census",
+        "labor",
+        "trade",
+        "agriculture",
+        "industry",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "has_api": true,
+      "tags": [
+        "brazil",
+        "巴西",
+        "national-statistics",
+        "国家统计",
+        "census",
+        "人口普查",
+        "demographics",
+        "人口统计",
+        "economic-indicators",
+        "经济指标",
+        "geographic-data",
+        "地理数据",
+        "cartography",
+        "制图",
+        "population-data",
+        "人口数据",
+        "labor-statistics",
+        "劳动统计",
+        "trade-data",
+        "贸易数据",
+        "environmental-data",
+        "环境数据",
+        "government-data",
+        "政府数据",
+        "api-available",
+        "south-america",
+        "南美洲",
+        "IBGE"
+      ],
+      "file_path": "countries/south-america/brazil-ibge.json"
     },
     {
       "id": "british-museum-collection",
@@ -3697,7 +3761,7 @@
         "zh": "中华人民共和国海关总署负责中国的海关管理。发布全面的对外贸易统计数据，包括按国家/地区、商品、海关关区、贸易方式和企业类型分类的进出口数据。涵盖商品贸易金额、数量、价格和贸易差额数据。"
       },
       "website": "http://www.customs.gov.cn",
-      "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+      "data_url": "http://www.customs.gov.cn",
       "api_url": null,
       "authority_level": "government",
       "country": "CN",
@@ -3849,6 +3913,52 @@
         "上市公司"
       ],
       "file_path": "china/finance/securities/hkex.json"
+    },
+    {
+      "id": "iaea-energy-data",
+      "name": {
+        "en": "IAEA Energy Data",
+        "zh": "国际原子能机构能源数据"
+      },
+      "description": {
+        "en": "The International Atomic Energy Agency (IAEA) provides comprehensive nuclear energy data through multiple platforms. The Power Reactor Information System (PRIS) contains detailed information on nuclear power plants worldwide, including reactor specifications, performance data, energy production, and operational statistics. The IAEA Data Platform offers access to nuclear energy research data, material properties, fuel testing results, and thermohydraulic datasets from coordinated research projects.",
+        "zh": "国际原子能机构(IAEA)通过多个平台提供全面的核能数据。动力堆信息系统(PRIS)包含全球核电站的详细信息,包括反应堆规格、性能数据、能源生产和运营统计。IAEA数据平台提供核能研究数据、材料属性、燃料测试结果以及协调研究项目的热工水力数据集。"
+      },
+      "website": "https://www.iaea.org/",
+      "data_url": "https://data.iaea.org/",
+      "api_url": "https://data.iaea.org/api/3",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "energy",
+        "nuclear-power",
+        "environment"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "monthly",
+      "has_api": true,
+      "tags": [
+        "nuclear energy",
+        "核能",
+        "power reactors",
+        "动力堆",
+        "PRIS",
+        "atomic energy",
+        "原子能",
+        "reactor data",
+        "反应堆数据",
+        "energy production",
+        "能源生产",
+        "nuclear statistics",
+        "核能统计",
+        "IAEA",
+        "国际原子能机构",
+        "nuclear research",
+        "核研究",
+        "fuel testing",
+        "燃料测试"
+      ],
+      "file_path": "international/energy/iaea-energy-data.json"
     },
     {
       "id": "iea-energy-data",

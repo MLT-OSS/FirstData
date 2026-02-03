@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T17:54:35.276171",
-    "total_sources": 126,
+    "generated_at": "2026-02-03T12:15:27.080403",
+    "total_sources": 128,
     "authority_counts": {
-      "government": 51,
-      "international": 31,
+      "government": 52,
+      "international": 32,
       "market": 12,
       "research": 27,
       "commercial": 5,
@@ -138,6 +138,18 @@
         "has_api": true,
         "geographic_scope": "national",
         "file_path": "countries/north-america/mexico/banxico.json"
+      },
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "geographic_scope": "national",
+        "file_path": "countries/south-america/brazil-ibge.json"
       },
       {
         "id": "us-bea",
@@ -331,7 +343,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "geographic_scope": "national",
         "file_path": "china/economy/trade/customs.json"
@@ -887,6 +899,18 @@
         "has_api": true,
         "geographic_scope": "global",
         "file_path": "international/agriculture/faostat.json"
+      },
+      {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "geographic_scope": "global",
+        "file_path": "international/energy/iaea-energy-data.json"
       },
       {
         "id": "iea-energy-data",

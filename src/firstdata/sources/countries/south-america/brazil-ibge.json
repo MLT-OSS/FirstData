@@ -1,0 +1,92 @@
+{
+  "id": "brazil-ibge",
+  "name": {
+    "en": "Brazilian Institute of Geography and Statistics",
+    "zh": "巴西地理统计局"
+  },
+  "description": {
+    "en": "Brazil's official national statistical agency responsible for collection of statistical, geographic, cartographic, geodetic and environmental information. IBGE conducts the national population census every ten years, provides annual population estimates for all municipalities, and publishes comprehensive economic, social, and environmental data. Established in 1934, IBGE is the primary source of official data about Brazil's territory, population, and economy.",
+    "zh": "巴西官方国家统计机构,负责收集统计、地理、制图、大地测量和环境信息。IBGE每十年进行一次全国人口普查,为所有城市提供年度人口估算,并发布全面的经济、社会和环境数据。IBGE成立于1934年,是巴西领土、人口和经济官方数据的主要来源。"
+  },
+  "website": "https://www.ibge.gov.br/en/",
+  "data_url": "https://www.ibge.gov.br/en/indicators",
+  "api_url": "https://servicodados.ibge.gov.br/api/docs/",
+  "country": "BR",
+  "domains": [
+    "demographics",
+    "economics",
+    "geography",
+    "cartography",
+    "environment",
+    "population",
+    "census",
+    "labor",
+    "trade",
+    "agriculture",
+    "industry",
+    "social"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "brazil",
+    "巴西",
+    "national-statistics",
+    "国家统计",
+    "census",
+    "人口普查",
+    "demographics",
+    "人口统计",
+    "economic-indicators",
+    "经济指标",
+    "geographic-data",
+    "地理数据",
+    "cartography",
+    "制图",
+    "population-data",
+    "人口数据",
+    "labor-statistics",
+    "劳动统计",
+    "trade-data",
+    "贸易数据",
+    "environmental-data",
+    "环境数据",
+    "government-data",
+    "政府数据",
+    "api-available",
+    "south-america",
+    "南美洲",
+    "IBGE"
+  ],
+  "data_content": {
+    "en": [
+      "Population Census - comprehensive national census conducted every 10 years (most recent: 2022)",
+      "Population Counts - simplified population counts conducted between censuses",
+      "Annual Population Estimates - population estimates for all municipalities updated yearly",
+      "Economic Indicators - GDP, inflation, trade statistics, monthly economic reports",
+      "Labor Statistics - employment, unemployment, wages, workforce surveys",
+      "Geographic and Cartographic Data - official maps, territorial boundaries, geodetic information",
+      "Environmental Statistics - environmental monitoring and conservation data",
+      "Agricultural Statistics - crop production, livestock, rural economy",
+      "Industrial Statistics - manufacturing, production, business surveys",
+      "Social Statistics - education, health, living conditions, household surveys",
+      "Trade Data - import/export statistics, international commerce",
+      "Municipal Data - comprehensive data at municipality, district, and enumeration area levels"
+    ],
+    "zh": [
+      "人口普查 - 每10年进行一次的全面国家普查（最近一次:2022年）",
+      "人口统计 - 在两次普查之间进行的简化人口统计",
+      "年度人口估算 - 每年更新所有城市的人口估算",
+      "经济指标 - GDP、通货膨胀、贸易统计、月度经济报告",
+      "劳动统计 - 就业、失业、工资、劳动力调查",
+      "地理和制图数据 - 官方地图、领土边界、大地测量信息",
+      "环境统计 - 环境监测和保护数据",
+      "农业统计 - 作物生产、畜牧业、农村经济",
+      "工业统计 - 制造业、生产、企业调查",
+      "社会统计 - 教育、健康、生活条件、家庭调查",
+      "贸易数据 - 进出口统计、国际商务",
+      "市级数据 - 市、区和统计区域级别的综合数据"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T17:54:35.275901",
-    "total_domains": 574,
-    "total_sources": 126,
+    "generated_at": "2026-02-03T12:15:27.080135",
+    "total_domains": 577,
+    "total_sources": 128,
     "version": "2.0"
   },
   "domains": {
@@ -6977,6 +6977,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-nbs",
         "name": {
           "en": "National Bureau of Statistics of China",
@@ -7329,6 +7340,32 @@
         "file_path": "china/finance/securities/hkex.json"
       }
     ],
+    "cartography": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      }
+    ],
+    "census": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      }
+    ],
     "climate": [
       {
         "id": "bureau-of-meteorology",
@@ -7519,6 +7556,17 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json"
+      },
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
       },
       {
         "id": "dhs",
@@ -7827,6 +7875,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "ebrd",
         "name": {
           "en": "European Bank for Reconstruction and Development",
@@ -7845,7 +7904,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json"
       },
@@ -8287,6 +8346,17 @@
         "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
       },
       {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "file_path": "international/energy/iaea-energy-data.json"
+      },
+      {
         "id": "iea-energy-data",
         "name": {
           "en": "IEA Energy Data",
@@ -8334,6 +8404,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "copernicus-open-access-hub",
         "name": {
           "en": "Copernicus Open Access Hub",
@@ -8343,6 +8424,17 @@
         "data_url": "https://dataspace.copernicus.eu/",
         "has_api": true,
         "file_path": "academic/environment/copernicus-open-access-hub.json"
+      },
+      {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "file_path": "international/energy/iaea-energy-data.json"
       },
       {
         "id": "iea-energy-data",
@@ -8774,6 +8866,17 @@
       }
     ],
     "geography": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
       {
         "id": "usa-census-bureau",
         "name": {
@@ -9213,6 +9316,17 @@
     ],
     "industry": [
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-software-association",
         "name": {
           "en": "China Software Industry Association",
@@ -9495,7 +9609,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json"
       }
@@ -9552,6 +9666,17 @@
       }
     ],
     "labor": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
       {
         "id": "nber-data",
         "name": {
@@ -10037,6 +10162,19 @@
         "file_path": "countries/north-america/usa/eia.json"
       }
     ],
+    "nuclear-power": [
+      {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "file_path": "international/energy/iaea-energy-data.json"
+      }
+    ],
     "ocean": [
       {
         "id": "copernicus-open-access-hub",
@@ -10232,6 +10370,17 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json"
+      },
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
       },
       {
         "id": "dhs",
@@ -10659,6 +10808,17 @@
         "file_path": "international/development/adb-data.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-nbs",
         "name": {
           "en": "National Bureau of Statistics of China",
@@ -11010,6 +11170,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-customs",
         "name": {
           "en": "General Administration of Customs of China",
@@ -11017,7 +11188,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json"
       },
