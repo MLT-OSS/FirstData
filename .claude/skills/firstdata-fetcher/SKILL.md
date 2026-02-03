@@ -77,7 +77,7 @@ description: Extract datasource information from websites and generate validated
 - **数据内容**: data_content 列表（中英双语）
 - **搜索标签**: tags (中英文关键词、同义词)
 
-**详细字段说明**: 见 [datasource-schema.json](reference/datasource-schema.json)
+**详细字段说明**: 见 [firstdata-schema.json](reference/firstdata-schema.json)
 
 **不确定信息的处理**：
 
@@ -115,7 +115,7 @@ description: Extract datasource information from websites and generate validated
 
 ### 4. 生成 JSON
 
-- 参考 schema 文件: [datasource-schema.json](reference/datasource-schema.json)
+- 参考 schema 文件: [firstdata-schema.json](reference/firstdata-schema.json)
 - 填充所有必填字段，尽可能填充可选字段
 - 确保符合JSON格式规范
 
@@ -188,10 +188,10 @@ src/firstdata/sources/{主类别}/{子类别}/{数据源ID}.json
 #### 6.1 Schema 验证 ✅ 必须
 
 ```bash
-python .claude/skills/firstdata-fetcher/scripts/validate.py src/firstdata/sources/path/to/file.json --schema .claude/skills/firstdata-fetcher/reference/datasource-schema.json
+python .claude/skills/firstdata-fetcher/scripts/validate.py src/firstdata/sources/path/to/file.json --schema .claude/skills/firstdata-fetcher/reference/firstdata-schema.json
 ```
 
-**必须通过**：JSON 格式符合 datasource-schema.json 标准
+**必须通过**：JSON 格式符合 firstdata-schema.json 标准
 
 #### 6.2 URL 可访问性验证 ✅ 必须
 
@@ -262,7 +262,7 @@ python .claude/skills/firstdata-fetcher/scripts/check_completeness.py src/firstd
 
 ## Reference 文档
 
-- [datasource-schema.json](reference/datasource-schema.json) - JSON Schema 标准
+- [firstdata-schema.json](reference/firstdata-schema.json) - JSON Schema 标准
 
 ---
 

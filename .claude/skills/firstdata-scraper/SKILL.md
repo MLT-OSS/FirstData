@@ -108,7 +108,7 @@ description: Extract or update datasource information from websites and convert 
 - **数据内容**: data_content 列表（中英双语）
 - **搜索标签**: tags (中英文关键词、同义词)
 
-**详细字段说明**: 见 [datasource-schema.json](reference/datasource-schema.json)
+**详细字段说明**: 见 [firstdata-schema.json](reference/firstdata-schema.json)
 
 **不确定信息的处理**：
 
@@ -150,7 +150,7 @@ description: Extract or update datasource information from websites and convert 
 
 ### 4. 生成 JSON
 
-- 参考 schema 文件: 见 [datasource-schema.json](reference/datasource-schema.json)
+- 参考 schema 文件: 见 [firstdata-schema.json](reference/firstdata-schema.json)
 - 填充所有必填字段，尽可能填充可选字段
 
 ---

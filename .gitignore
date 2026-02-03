@@ -57,7 +57,7 @@ batch-temp/
 # Reports (archived separately)
 *_SUMMARY.md
 *_REPORT.md
-batch-run-results*.md
+batch-results*.md
 
 # Claude Code settings (contains secrets)
 .claude/settings.local.json

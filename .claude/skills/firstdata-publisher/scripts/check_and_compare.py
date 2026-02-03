@@ -25,7 +25,7 @@ class DataSourceChecker:
         print("步骤1: 扫描实际数据源文件")
         print("=" * 80)
 
-        sources_dir = Path("sources")
+        sources_dir = Path("src/firstdata/sources")
         json_files = list(sources_dir.rglob("*.json"))
 
         by_category = defaultdict(list)
@@ -47,7 +47,7 @@ class DataSourceChecker:
                     "access_level": "open" if data.get("api_url") else "registration",
                     "update_frequency": data.get("update_frequency", ""),
                     "data_content_count": len(data.get("data_content", {}).get("zh", [])),
-                    "path": str(json_file.relative_to("sources")),
+                    "path": str(json_file.relative_to("src/firstdata/sources")),
                 }
 
                 # 确定分类
