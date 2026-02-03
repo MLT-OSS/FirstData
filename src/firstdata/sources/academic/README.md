@@ -328,18 +328,3 @@ academic/
 - 不用于商业用途（部分数据源）
 
 ---
-
-## 📞 相关链接 Related Links
-
-- [返回学术研究任务清单](../../tasks/academic.md)
-- [数据收集指南](../../docs/data-collection-guide.md)
-- [元数据标准](../../docs/metadata-standard.md)
-- [贡献指南](../../docs/CONTRIBUTING.md)
-
----
-
-**最后更新 Last Updated**: 2025-12-31
-**状态 Status**: 目录结构完成 | 数据填充进行中 (Directory Structure Complete | Data Population In Progress)
-**完成度 Completion**: 26/100+ (26%)
-
-**打造全球最全面的学术研究数据源元数据库！** 🎓🚀

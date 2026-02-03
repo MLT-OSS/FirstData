@@ -122,9 +122,9 @@ python3 .claude/skills/firstdata-publisher/scripts/check_and_compare.py
 
 **必须为每个数据源都检查并确保有条目，不可跳过！**
 
-#### 2.2 更新核心进度统计（README.md, src/firstdata/sources/*/README.md）
+#### 2.2 更新核心进度统计（README.md, src/firstdata/sources/README.md, src/firstdata/sources/*/README.md）
 
-**必须完成**：在完成2.1后，使用对比报告中的统计数字更新核心文档和分类README。
+**必须完成**：在完成2.1后，使用对比报告中的统计数字更新核心文档、数据源总览和分类README。
 
 **数据来源**：
 
@@ -138,24 +138,66 @@ cat .claude/skills/firstdata-publisher/scripts/comparison_report.json
 
 **更新内容**：
 
-**README.md** - 根目录
+**README.md** - 根目录（中文版）
 
-- 徽章（第8行）：使用 `summary` 中计算的总数（将所有分类的 `actual` 相加）
-  - `[![Data Sources](https://img.shields.io/badge/Data%20Sources-{total}%2F950+-blue.svg)]`
-- 总体统计表格（~第106-111行）：
-  - 总数据源：`{total} / 950+`（total = sum of all summary.*.actual）
+- 徽章（第12行）：使用 `summary` 中计算的总数（将所有分类的 `actual` 相加）
+  - `[![数据源数量](https://img.shields.io/badge/数据源-{total}%2F1000+-blue.svg)]`
+- 总体统计表格（~第75-82行）：
+  - 总数据源：`{total} / 1000+`（total = sum of all summary.*.actual）
   - 国际组织：`{summary.international.actual} / 100+`
   - 各国官方：`{summary.countries.actual} / 200+`
-  - 中国数据源：`{summary.china.actual} / 488`
-  - 学术研究：`{summary.academic.actual} / 50+`
-  - 行业领域：`{summary.sectors.actual} / 150+`
-- 已完成数据源标题（~第120, 142, 153, 159, 170行）：更新各分类数量
+  - 中国数据源：`{summary.china.actual} / 500+`
+  - 学术研究：`{summary.academic.actual} / 100+`
+  - 行业领域：`{summary.sectors.actual} / 100+`
+- 已完成数据源标题（~第86, 90, 94, 98, 102行）：更新各分类数量
+
+**README.en.md** - 根目录（英文版）⚠️ 必须同步更新
+
+- 徽章（第8行）：与中文版保持一致
+  - `[![Data Sources](https://img.shields.io/badge/Data%20Sources-{total}%2F1000+-blue.svg)]`
+- 总体统计表格（对应中文版的位置）：
+  - Total Data Sources: `{total} / 1000+`
+  - International Organizations: `{summary.international.actual} / 100+`
+  - Countries: `{summary.countries.actual} / 200+`
+  - China: `{summary.china.actual} / 500+`
+  - Academic: `{summary.academic.actual} / 100+`
+  - Sectors: `{summary.sectors.actual} / 100+`
+- 已完成数据源标题：与中文版对应位置保持数量一致
+
+**重要原则**：
+- README.md（中文）和 README.en.md（英文）的所有统计数字必须完全一致
+- 两个文件必须同时更新，不可只更新一个
+
+**src/firstdata/sources/README.md** - 数据源目录总览
+
+- 总体进度（第11-14行）：
+  - `当前完成: {total} 个`（total = sum of all summary.*.actual）
+  - `完成度: {progress}%`（progress = (total / 1000) * 100）
+- 分类表格（第17-24行）：
+  - 🇨🇳 中国已完成：`{summary.china.actual}`，进度：`{summary.china.actual / 500 * 100}%`
+  - 🌍 国际已完成：`{summary.international.actual}`，进度：`{summary.international.actual / 100 * 100}%`
+  - 🌎 各国已完成：`{summary.countries.actual}`，进度：`{summary.countries.actual / 200 * 100}%`
+  - 🎓 学术已完成：`{summary.academic.actual}`，进度：`{summary.academic.actual / 100 * 100}%`
+  - 🏭 行业已完成：`{summary.sectors.actual}`，进度：`{summary.sectors.actual / 100 * 100}%`
+- 各分类详细说明部分：
+  - 国际组织完成度（第44行）：`{summary.international.actual}/100+ ({percentage}%)`
+  - 中国数据源完成度（第31行）：`{summary.china.actual}/500+ ({percentage}%)`
+  - 学术研究完成度（第73行）：`{summary.academic.actual}/100+ ({percentage}%)`
+  - 行业领域完成度（第86行）：`{summary.sectors.actual}/100+ ({percentage}%)`
+
+**src/firstdata/sources/international/README.md**
+
+- 顶部统计（第3-5行）：
+  - `**已完成**: {summary.international.actual}个`
+  - `**进度**: {progress}%`（progress = (actual / 100) * 100）
+- 进度条（如有）：`当前完成: {summary.international.actual} 个`
+- 分类表格（如有）：使用实际的分类数量更新各领域的完成数和进度百分比
 
 **src/firstdata/sources/china/README.md**
 
 - 顶部统计（第3-5行）：
   - `**已完成**: {summary.china.actual}个`
-  - `**进度**: {progress}%`（progress = (actual / 415) * 100）
+  - `**进度**: {progress}%`（progress = (actual / 500) * 100）
 - 进度条（第13行）：`当前完成: {summary.china.actual} 个`
 - 分类表格（第26-45行）：使用实际的分类数量更新各领域的完成数和进度百分比
 
@@ -163,7 +205,7 @@ cat .claude/skills/firstdata-publisher/scripts/comparison_report.json
 
 - 顶部统计（第4-6行）：
   - `**已完成**: {summary.sectors.actual}个`
-  - `**进度**: {progress}%`（progress = (actual / 126) * 100）
+  - `**进度**: {progress}%`（progress = (actual / 100) * 100）
 - 进度条（第14行）：`当前完成: {summary.sectors.actual} 个`
 - ISIC分类表格（第25-46行）：使用实际的ISIC分类数量更新各行业的完成数和进度百分比
 
@@ -171,6 +213,14 @@ cat .claude/skills/firstdata-publisher/scripts/comparison_report.json
 
 - 顶部统计（第13行）：`**JSON文件**: {summary.countries.actual}个数据源已创建`
 - 进度条（第17行）：`当前完成: {summary.countries.actual} 个`
+
+**src/firstdata/sources/academic/README.md**
+
+- 顶部统计（第3-5行）：
+  - `**已完成**: {summary.academic.actual}个`
+  - `**进度**: {progress}%`（progress = (actual / 100) * 100）
+- 进度条（如有）：`当前完成: {summary.academic.actual} 个`
+- 分类表格（如有）：使用实际的分类数量更新各领域的完成数和进度百分比
 
 **重要**：确保所有文档中的数字与 `comparison_report.json` 的 `summary.*.actual` 完全一致！
 
@@ -199,7 +249,8 @@ python scripts/generate_indexes.py
 
 - [ ] **步骤1完成**：已扫描所有JSON文件，了解实际数据源情况
 - [ ] **步骤2.1完成**：src/firstdata/sources/{category}/README.md 中每个JSON文件都有对应条目
-- [ ] **步骤2.2完成**：核心文档（README.md）的统计数字已更新
+- [ ] **步骤2.2完成**：核心文档（README.md 和 README.en.md）的统计数字已更新
+- [ ] **中英文同步**：README.md 和 README.en.md 的所有统计数字完全一致
 - [ ] **数据一致性**：所有文档中的数字与实际JSON文件数量一致
 - [ ] **索引生成**：已运行 `python scripts/generate_indexes.py`
 
@@ -209,7 +260,7 @@ python scripts/generate_indexes.py
 
 ```bash
 # 只添加数据源相关文件（不添加其他文件）
-git add src/firstdata/sources/ src/firstdata/indexes/ README.md
+git add src/firstdata/sources/ src/firstdata/indexes/ README.md README.en.md
 
 # 单个数据源
 git commit -m "feat: 添加{name}数据源 ({id})
@@ -266,10 +317,18 @@ git push
 - src/firstdata/sources/sectors/README.md
 - **验证每个JSON都有对应条目**
 
-**步骤2.2** - 核心进度统计（1个）：
+**步骤2.2** - 核心进度统计（3个核心文件 + 5个分类README）：
 
-- README.md
-- **基于实际统计数字更新**
+- README.md（根目录 - 中文版）
+- README.en.md（根目录 - 英文版）⚠️ 必须同步更新
+- src/firstdata/sources/README.md（数据源总览）
+- src/firstdata/sources/international/README.md
+- src/firstdata/sources/china/README.md
+- src/firstdata/sources/countries/README.md
+- src/firstdata/sources/academic/README.md
+- src/firstdata/sources/sectors/README.md
+- **基于实际统计数字更新所有核心文档**
+- **确保 README.md 和 README.en.md 的所有数字完全一致**
 
 **步骤3** - 生成索引：
 
@@ -303,6 +362,7 @@ git push
   },
   "files_updated": [
     "README.md",
+    "README.en.md",
     "src/firstdata/sources/international/README.md"
   ],
   "git": {

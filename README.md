@@ -1,5 +1,9 @@
 # FirstData 🌐
 
+**[English](README.en.md)** | 中文
+
+---
+
 **全球最全面、最权威、最结构化的开源数据源知识库**
 
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
@@ -511,7 +515,7 @@ MCP 智能检索推荐权威数据源（港交所披露易）
 
 > **📝 重要提示**
 >
-> **申请 API Key（必需）**：在配置 MCP 服务器之前，请先访问 [https://always1172.github.io/](https://always1172.github.io/) 申请免费的 API key。所有配置中的 `your_mcp_api_key_here` 需要替换为你申请到的 API key。
+> **申请 API Key（必需）**：在配置 MCP 服务器之前，请先访问 [FirstData API 申请](https://firstdata.deepminer.com.cn/) 申请免费的 API key。将下方所有配置示例中的 `<YOUR_FIRSTDATA_API_KEY>` 替换为你申请到的实际 API key。
 
 ---
 
@@ -531,10 +535,10 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -558,16 +562,11 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
-         },
-         "disabled": false,
-         "autoApprove": [
-           "datasource_list_sources",
-           "datasource_search_keywords"
-         ]
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
+         }
        }
      }
    }
@@ -594,10 +593,10 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    {
      "context_servers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          },
          "enabled": true
        }
@@ -624,53 +623,16 @@ MCP 智能检索推荐权威数据源（港交所披露易）
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
    }
    ```
 3. **重启 Cursor** 以加载 MCP 服务器
-
-</details>
-
-<details>
-<summary><b>Docker 部署（生产环境推荐）</b></summary>
-
-如果你想部署自己的 MCP 服务器实例：
-
-```bash
-# 拉取镜像
-docker pull firstdata/mcp-server:latest
-
-# 运行服务器
-docker run -d \
-  -p 8001:8001 \
-  -e DATASOURCE_HUB_API_KEY=your_secret_key \
-  --name firstdata-mcp \
-  firstdata/mcp-server:latest
-
-# 然后在客户端使用 HTTP 配置
-```
-
-使用 HTTP 方式的配置（所有平台通用）：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
-      "headers": {
-        "Authorization": "Bearer your_secret_key"
-      }
-    }
-  }
-}
-```
 
 </details>
 
@@ -686,10 +648,10 @@ docker run -d \
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -699,7 +661,7 @@ docker run -d \
 **使用 VS Code CLI：**
 
 ```bash
-code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/mcp","headers":{"Authorization":"Bearer your_mcp_api_key_here"}}'
+code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firstdata.deepminer.com.cn/mcp","headers":{"Authorization":"Bearer <YOUR_FIRSTDATA_API_KEY>"}}'
 ```
 
 </details>
@@ -713,10 +675,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -737,10 +699,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -762,10 +724,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -786,10 +748,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -809,10 +771,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -830,10 +792,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -851,10 +813,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -873,10 +835,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
    {
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -906,10 +868,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -932,10 +894,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
      "$schema": "https://opencode.ai/config.json",
      "mcpServers": {
        "firstdata": {
-         "type": "http",
-         "url": "http://localhost:8001/mcp",
+         "type": "streamable-http",
+         "url": "https://firstdata.deepminer.com.cn/mcp",
          "headers": {
-           "Authorization": "Bearer your_mcp_api_key_here"
+           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
          }
        }
      }
@@ -955,10 +917,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -976,10 +938,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -997,10 +959,10 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 {
   "mcpServers": {
     "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
       "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
+        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
       }
     }
   }
@@ -1043,6 +1005,25 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 - ✅ 顶级学术机构和研究仓库
 - ✅ 定期更新的权威行业数据
 
+## 💬 Community and Support | 社区与支持
+
+加入我们的社区，与数据研究者、开发者和贡献者交流！
+
+**Join our community to connect with data researchers, developers, and contributors!**
+
+### 微信交流群 | WeChat Group
+
+<div align="center">
+  <img src="docs/images/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
+  <p><i>扫描二维码加入微信群 | Scan to join WeChat group</i></p>
+</div>
+
+> 💡 **提示**: 加入社区后，你可以：
+> - 讨论数据源推荐和使用经验
+> - 获取技术支持和最佳实践
+> - 参与项目开发和贡献
+> - 了解最新的数据源更新和功能发布
+
 ## 📄 许可协议
 
 本项目采用 [MIT License](LICENSE) 开源。
@@ -1061,10 +1042,9 @@ code --add-mcp '{"name":"firstdata","type":"http","url":"http://localhost:8001/m
 <p align="center">
   <a href="#-为什么选择-firstdata">为什么</a> •
   <a href="#-核心优势">核心优势</a> •
-  <a href="#-使用场景在ai时代避免幻觉基于证据推理">使用场景</a> •
+  <a href="#-数据源概览">数据源概览</a> •
   <a href="#-快速开始">快速开始</a> •
-  <a href="#-如何贡献">如何贡献</a> •
-  <a href="#-发展路线图">路线图</a>
+  <a href="#-如何贡献">如何贡献</a> 
 </p>
 
 ## Star History

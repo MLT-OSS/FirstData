@@ -2,8 +2,8 @@
   "summary": {
     "international": {
       "actual": 33,
-      "in_docs": 30,
-      "diff": 3
+      "in_docs": 33,
+      "diff": 0
     },
     "china": {
       "actual": 19,
@@ -26,113 +26,7 @@
       "diff": 0
     }
   },
-  "missing_in_docs": {
-    "international": [
-      {
-        "id": "iea-education-studies",
-        "filename_id": "iea-education-studies",
-        "name_en": "IEA Education Studies Data",
-        "name_zh": "国际教育成就评价协会教育研究数据",
-        "authority": "international",
-        "has_api": false,
-        "access_level": "registration",
-        "update_frequency": "irregular",
-        "data_content_count": 12,
-        "path": "international/education/iea-education-studies.json",
-        "category": "international",
-        "subcategory": "education"
-      },
-      {
-        "id": "icc-trade-register",
-        "filename_id": "icc-trade-register",
-        "name_en": "ICC Trade Register",
-        "name_zh": "国际商会贸易统计",
-        "authority": "international",
-        "has_api": false,
-        "access_level": "registration",
-        "update_frequency": "annual",
-        "data_content_count": 10,
-        "path": "international/trade/icc-trade-register.json",
-        "category": "international",
-        "subcategory": "trade"
-      },
-      {
-        "id": "icao-aviation-data",
-        "filename_id": "icao-aviation-data",
-        "name_en": "ICAO Aviation Data",
-        "name_zh": "国际民航组织航空数据",
-        "authority": "international",
-        "has_api": true,
-        "access_level": "open",
-        "update_frequency": "irregular",
-        "data_content_count": 16,
-        "path": "international/transportation/icao-aviation-data.json",
-        "category": "international",
-        "subcategory": "transportation"
-      }
-    ]
-  },
-  "stats_mismatch": [
-    {
-      "doc": "README.md徽章",
-      "current": 129,
-      "should_be": 132
-    }
-  ],
-  "recommendations": [
-    {
-      "action": "add_entries",
-      "file": "sources/international/README.md",
-      "count": 3,
-      "sources": [
-        {
-          "id": "iea-education-studies",
-          "filename_id": "iea-education-studies",
-          "name_en": "IEA Education Studies Data",
-          "name_zh": "国际教育成就评价协会教育研究数据",
-          "authority": "international",
-          "has_api": false,
-          "access_level": "registration",
-          "update_frequency": "irregular",
-          "data_content_count": 12,
-          "path": "international/education/iea-education-studies.json",
-          "category": "international",
-          "subcategory": "education"
-        },
-        {
-          "id": "icc-trade-register",
-          "filename_id": "icc-trade-register",
-          "name_en": "ICC Trade Register",
-          "name_zh": "国际商会贸易统计",
-          "authority": "international",
-          "has_api": false,
-          "access_level": "registration",
-          "update_frequency": "annual",
-          "data_content_count": 10,
-          "path": "international/trade/icc-trade-register.json",
-          "category": "international",
-          "subcategory": "trade"
-        },
-        {
-          "id": "icao-aviation-data",
-          "filename_id": "icao-aviation-data",
-          "name_en": "ICAO Aviation Data",
-          "name_zh": "国际民航组织航空数据",
-          "authority": "international",
-          "has_api": true,
-          "access_level": "open",
-          "update_frequency": "irregular",
-          "data_content_count": 16,
-          "path": "international/transportation/icao-aviation-data.json",
-          "category": "international",
-          "subcategory": "transportation"
-        }
-      ]
-    },
-    {
-      "action": "update_stats",
-      "file": "README.md徽章",
-      "new_total": 132
-    }
-  ]
+  "missing_in_docs": {},
+  "stats_mismatch": [],
+  "recommendations": []
 }

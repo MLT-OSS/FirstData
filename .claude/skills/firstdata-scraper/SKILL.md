@@ -343,15 +343,18 @@ python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --verbose
 
 #### 8.2 更新进度统计
 
-同步更新以下 2 个文件中的统计情况（保持所有统计一致）：
+同步更新以下 3 个文件中的统计情况（保持所有统计一致）：
 
-1. **根目录 README**（`README.md`）：Badge 徽章 + 总体统计表格 + 已完成数据源列表
-2. **一级目录 README**（`src/firstdata/sources/{category}/README.md`）：已收录数量 + 已收录数据源列表
+1. **根目录 README 中文版**（`README.md`）：Badge 徽章 + 总体统计表格 + 已完成数据源列表
+2. **根目录 README 英文版**（`README.en.md`）⚠️ 必须同步：Badge 徽章 + 总体统计表格 + 已完成数据源列表
+3. **一级目录 README**（`src/firstdata/sources/{category}/README.md`）：已收录数量 + 已收录数据源列表
 
 **更新原则**：
 
 - 所有统计数字必须同步更新，保持一致性
+- README.md 和 README.en.md 的数字必须完全一致（只有语言不同）
 - 进度百分比四舍五入到整数
+- **不可只更新中文版而忽略英文版**
 
 ---
 
@@ -368,7 +371,8 @@ python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --verbose
 #### ✅ 文档更新（必须全部完成）
 
 - [ ] 更新领域 README
-- [ ] 更新进度统计（2 个文件：README.md, src/firstdata/sources/{category}/README.md）
+- [ ] 更新进度统计（3 个文件：README.md, README.en.md, src/firstdata/sources/{category}/README.md）
+- [ ] README.md 和 README.en.md 的统计数字必须一致
 
 #### ✅ 质量检查（必须符合标准）
 
@@ -398,7 +402,7 @@ python .claude/skills/firstdata-scraper/scripts/update_all_docs.py --verbose
 
 ```bash
 # 只添加数据源相关文件（不添加其他文件）
-git add src/firstdata/sources/ src/firstdata/indexes/ README.md
+git add src/firstdata/sources/ src/firstdata/indexes/ README.md README.en.md
 
 # 创建提交（根据操作类型选择消息）
 # 新增：

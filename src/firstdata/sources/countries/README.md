@@ -348,14 +348,3 @@ sources/countries/
 - **数据内容**: 可用数据类型和内容描述
 - **搜索标签**: 中英文关键词、同义词
 
-## 贡献 Contributing
-
-如需添加新国家的数据源，请参考[贡献指南](../../docs/CONTRIBUTING.md)。
-
-To add data sources for new countries, please refer to the [Contributing Guide](../../docs/CONTRIBUTING.md).
-
----
-
-**最后更新 Last Updated**: 2025-12-31
-**状态 Status**: 目录结构完成 | 数据填充进行中 (Directory Structure Complete | Data Population In Progress)
-**完成度 Completion**: 24/200+ (12%)
