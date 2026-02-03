@@ -1,0 +1,70 @@
+{
+  "id": "iaea-energy-data",
+  "name": {
+    "en": "IAEA Energy Data",
+    "zh": "国际原子能机构能源数据"
+  },
+  "description": {
+    "en": "The International Atomic Energy Agency (IAEA) provides comprehensive nuclear energy data through multiple platforms. The Power Reactor Information System (PRIS) contains detailed information on nuclear power plants worldwide, including reactor specifications, performance data, energy production, and operational statistics. The IAEA Data Platform offers access to nuclear energy research data, material properties, fuel testing results, and thermohydraulic datasets from coordinated research projects.",
+    "zh": "国际原子能机构(IAEA)通过多个平台提供全面的核能数据。动力堆信息系统(PRIS)包含全球核电站的详细信息,包括反应堆规格、性能数据、能源生产和运营统计。IAEA数据平台提供核能研究数据、材料属性、燃料测试结果以及协调研究项目的热工水力数据集。"
+  },
+  "website": "https://www.iaea.org/",
+  "data_url": "https://data.iaea.org/",
+  "api_url": "https://data.iaea.org/api/3",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "energy",
+    "nuclear-power",
+    "environment"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "nuclear energy",
+    "核能",
+    "power reactors",
+    "动力堆",
+    "PRIS",
+    "atomic energy",
+    "原子能",
+    "reactor data",
+    "反应堆数据",
+    "energy production",
+    "能源生产",
+    "nuclear statistics",
+    "核能统计",
+    "IAEA",
+    "国际原子能机构",
+    "nuclear research",
+    "核研究",
+    "fuel testing",
+    "燃料测试"
+  ],
+  "data_content": {
+    "en": [
+      "Nuclear power plant specifications and technical characteristics",
+      "Reactor performance data including energy production and power loss",
+      "Monthly production statistics recorded since 1970",
+      "Nuclear power plant operational events and outage information",
+      "Decommissioning process data for shutdown units",
+      "International performance indicators for benchmarking and comparison",
+      "Nuclear fuel materials and testing data from coordinated research projects",
+      "Thermohydraulic boundary conditions and simulation data",
+      "Advanced technology and accident tolerant fuel materials database",
+      "Reactor type comparisons across countries and worldwide"
+    ],
+    "zh": [
+      "核电站规格和技术特征",
+      "反应堆性能数据,包括能源生产和电力损失",
+      "自1970年以来记录的月度生产统计",
+      "核电站运营事件和停机信息",
+      "已关闭机组的退役过程数据",
+      "用于基准测试和比较的国际性能指标",
+      "来自协调研究项目的核燃料材料和测试数据",
+      "热工水力边界条件和模拟数据",
+      "先进技术和事故容错燃料材料数据库",
+      "各国及全球范围内的反应堆类型比较"
+    ]
+  }
+}

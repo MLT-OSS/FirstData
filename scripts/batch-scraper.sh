@@ -125,7 +125,14 @@ while IFS= read -r datasource || [ -n "$datasource" ]; do
 
     echo "  📋 复制项目文件..."
     mkdir -p "$work_dir/.claude/skills"
-    cp -r .claude/skills/datasource-fetcher "$work_dir/.claude/skills/" 2>/dev/null || true
+
+    # 使用绝对路径复制 skill
+    if cp -r "$MAIN_DIR/.claude/skills/firstdata-fetcher" "$work_dir/.claude/skills/"; then
+        echo "  ✅ Skill 复制成功"
+    else
+        echo "  ❌ 警告: Skill 复制失败"
+    fi
+
     # cp -r scripts "$work_dir/" 2>/dev/null || true
     mkdir -p "$work_dir/sources"
 
@@ -220,9 +227,9 @@ for i in "${!work_dirs_list[@]}"; do
 
         cd "$MAIN_DIR"
 
-        # 使用rsync同步JSON文件
+        # 使用rsync同步JSON文件（从临时目录的src/firstdata/sources复制到主目录的src/firstdata/sources）
         if rsync -av --include='*.json' --include='*/' --exclude='*' \
-            "$work_dir/sources/" "./sources/" 2>&1 | grep -v "sending incremental"; then
+            "$work_dir/src/firstdata/sources/" "./src/firstdata/sources/" 2>&1 | grep -v "sending incremental"; then
 
             success=$((success + 1))
             success_sources+=("$datasource")
@@ -249,8 +256,8 @@ for i in "${!work_dirs_list[@]}"; do
     # 清理临时目录
     # ──────────────────────────────────────────────────────────────────
 
-    echo "🗑️  清理临时目录"
-    rm -rf "$work_dir"
+    # echo "🗑️  清理临时目录"
+    # rm -rf "$work_dir"
 
     # 写入结果
     {

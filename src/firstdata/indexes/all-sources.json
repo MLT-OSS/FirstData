@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T17:54:35.275648",
-    "total_sources": 126,
+    "generated_at": "2026-02-03T15:17:04.814762",
+    "total_sources": 132,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -1200,6 +1200,70 @@
         "computational linguistics"
       ],
       "file_path": "sectors/J-information-communication/bookscorpus.json"
+    },
+    {
+      "id": "brazil-ibge",
+      "name": {
+        "en": "Brazilian Institute of Geography and Statistics",
+        "zh": "巴西地理统计局"
+      },
+      "description": {
+        "en": "Brazil's official national statistical agency responsible for collection of statistical, geographic, cartographic, geodetic and environmental information. IBGE conducts the national population census every ten years, provides annual population estimates for all municipalities, and publishes comprehensive economic, social, and environmental data. Established in 1934, IBGE is the primary source of official data about Brazil's territory, population, and economy.",
+        "zh": "巴西官方国家统计机构,负责收集统计、地理、制图、大地测量和环境信息。IBGE每十年进行一次全国人口普查,为所有城市提供年度人口估算,并发布全面的经济、社会和环境数据。IBGE成立于1934年,是巴西领土、人口和经济官方数据的主要来源。"
+      },
+      "website": "https://www.ibge.gov.br/en/",
+      "data_url": "https://www.ibge.gov.br/en/indicators",
+      "api_url": "https://servicodados.ibge.gov.br/api/docs/",
+      "authority_level": "government",
+      "country": "BR",
+      "domains": [
+        "demographics",
+        "economics",
+        "geography",
+        "cartography",
+        "environment",
+        "population",
+        "census",
+        "labor",
+        "trade",
+        "agriculture",
+        "industry",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "has_api": true,
+      "tags": [
+        "brazil",
+        "巴西",
+        "national-statistics",
+        "国家统计",
+        "census",
+        "人口普查",
+        "demographics",
+        "人口统计",
+        "economic-indicators",
+        "经济指标",
+        "geographic-data",
+        "地理数据",
+        "cartography",
+        "制图",
+        "population-data",
+        "人口数据",
+        "labor-statistics",
+        "劳动统计",
+        "trade-data",
+        "贸易数据",
+        "environmental-data",
+        "环境数据",
+        "government-data",
+        "政府数据",
+        "api-available",
+        "south-america",
+        "南美洲",
+        "IBGE"
+      ],
+      "file_path": "countries/south-america/brazil-ibge.json"
     },
     {
       "id": "british-museum-collection",
@@ -3697,7 +3761,7 @@
         "zh": "中华人民共和国海关总署负责中国的海关管理。发布全面的对外贸易统计数据，包括按国家/地区、商品、海关关区、贸易方式和企业类型分类的进出口数据。涵盖商品贸易金额、数量、价格和贸易差额数据。"
       },
       "website": "http://www.customs.gov.cn",
-      "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+      "data_url": "http://www.customs.gov.cn",
       "api_url": null,
       "authority_level": "government",
       "country": "CN",
@@ -3849,6 +3913,260 @@
         "上市公司"
       ],
       "file_path": "china/finance/securities/hkex.json"
+    },
+    {
+      "id": "iaea-energy-data",
+      "name": {
+        "en": "IAEA Energy Data",
+        "zh": "国际原子能机构能源数据"
+      },
+      "description": {
+        "en": "The International Atomic Energy Agency (IAEA) provides comprehensive nuclear energy data through multiple platforms. The Power Reactor Information System (PRIS) contains detailed information on nuclear power plants worldwide, including reactor specifications, performance data, energy production, and operational statistics. The IAEA Data Platform offers access to nuclear energy research data, material properties, fuel testing results, and thermohydraulic datasets from coordinated research projects.",
+        "zh": "国际原子能机构(IAEA)通过多个平台提供全面的核能数据。动力堆信息系统(PRIS)包含全球核电站的详细信息,包括反应堆规格、性能数据、能源生产和运营统计。IAEA数据平台提供核能研究数据、材料属性、燃料测试结果以及协调研究项目的热工水力数据集。"
+      },
+      "website": "https://www.iaea.org/",
+      "data_url": "https://data.iaea.org/",
+      "api_url": "https://data.iaea.org/api/3",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "energy",
+        "nuclear-power",
+        "environment"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "monthly",
+      "has_api": true,
+      "tags": [
+        "nuclear energy",
+        "核能",
+        "power reactors",
+        "动力堆",
+        "PRIS",
+        "atomic energy",
+        "原子能",
+        "reactor data",
+        "反应堆数据",
+        "energy production",
+        "能源生产",
+        "nuclear statistics",
+        "核能统计",
+        "IAEA",
+        "国际原子能机构",
+        "nuclear research",
+        "核研究",
+        "fuel testing",
+        "燃料测试"
+      ],
+      "file_path": "international/energy/iaea-energy-data.json"
+    },
+    {
+      "id": "iais",
+      "name": {
+        "en": "IAIS - International Association of Insurance Supervisors",
+        "zh": "国际保险监督官协会"
+      },
+      "description": {
+        "en": "The International Association of Insurance Supervisors (IAIS) is the global standard-setting body for insurance supervision, bringing together insurance supervisors and regulators from over 200 jurisdictions representing 97% of the world's insurance premiums. Established in 1994, the IAIS develops principles, standards and guidance for effective insurance supervision, and publishes the Global Insurance Market Report (GIMAR) annually to monitor systemic risks and trends in the global insurance sector.",
+        "zh": "国际保险监督官协会(IAIS)是全球保险监督的标准制定机构,汇集了来自200多个司法管辖区的保险监督者和监管者,占全球保险费的97%。IAIS成立于1994年,负责制定有效保险监督的原则、标准和指南,并每年发布全球保险市场报告(GIMAR),监测全球保险行业的系统性风险和趋势。"
+      },
+      "website": "https://www.iais.org/",
+      "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "insurance",
+        "financial-stability",
+        "regulatory-standards"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "has_api": false,
+      "tags": [
+        "insurance",
+        "保险",
+        "insurance-supervision",
+        "保险监管",
+        "financial-stability",
+        "金融稳定",
+        "GIMAR",
+        "全球保险市场报告",
+        "ICS",
+        "insurance-capital-standard",
+        "保险资本标准",
+        "systemic-risk",
+        "系统性风险",
+        "ComFrame",
+        "insurance-core-principles",
+        "保险核心原则",
+        "climate-risk",
+        "气候风险",
+        "cyber-risk",
+        "网络风险",
+        "reinsurance",
+        "再保险"
+      ],
+      "file_path": "international/finance/iais.json"
+    },
+    {
+      "id": "icao-aviation-data",
+      "name": {
+        "en": "ICAO Aviation Data",
+        "zh": "国际民航组织航空数据"
+      },
+      "description": {
+        "en": "The International Civil Aviation Organization (ICAO) provides comprehensive aviation data through its API Data Service, covering airport codes, airline designators, aircraft type codes, traffic statistics, safety data, NOTAMs, accident and incident reports, and operational information from 193 member states worldwide.",
+        "zh": "国际民用航空组织(ICAO)通过其API数据服务提供全面的航空数据,涵盖机场代码、航空公司代号、飞机型号代码、交通统计、安全数据、航行通告(NOTAM)、事故和事件报告,以及来自全球193个成员国的运营信息。"
+      },
+      "website": "https://www.icao.int/",
+      "data_url": "https://dataservices.icao.int/",
+      "api_url": "https://dataservices.icao.int/",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "transportation",
+        "aviation",
+        "safety",
+        "statistics"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "has_api": true,
+      "tags": [
+        "aviation",
+        "航空",
+        "civil aviation",
+        "民用航空",
+        "airport codes",
+        "机场代码",
+        "airline codes",
+        "航空公司代码",
+        "aircraft codes",
+        "飞机代码",
+        "ICAO",
+        "国际民航组织",
+        "NOTAM",
+        "航行通告",
+        "flight data",
+        "飞行数据",
+        "air traffic",
+        "空中交通",
+        "aviation safety",
+        "航空安全",
+        "accident statistics",
+        "事故统计",
+        "DOC7910",
+        "DOC8585",
+        "DOC8643",
+        "API"
+      ],
+      "file_path": "international/transportation/icao-aviation-data.json"
+    },
+    {
+      "id": "icc-trade-register",
+      "name": {
+        "en": "ICC Trade Register",
+        "zh": "国际商会贸易统计"
+      },
+      "description": {
+        "en": "The ICC Trade Register is the world's most comprehensive benchmark for trade and supply chain finance. Backed by over a decade of aggregated data from leading global banks and over $25.7 trillion in transactions, it delivers actionable insights into risk performance, default and loss rates, and emerging market opportunities. The register examines performance and risk profiles of trade finance instruments based on aggregated data supplied by 21 global banks.",
+        "zh": "国际商会贸易统计是全球贸易和供应链金融最全面的基准数据库。依托于来自全球领先银行超过十年的聚合数据和超过25.7万亿美元的交易量,提供关于风险表现、违约率、损失率和新兴市场机会的可操作性洞察。该统计基于21家全球银行提供的贸易融资工具的表现和风险概况聚合数据。"
+      },
+      "website": "https://iccwbo.org/",
+      "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "trade",
+        "finance",
+        "banking"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "has_api": false,
+      "tags": [
+        "trade finance",
+        "贸易融资",
+        "supply chain finance",
+        "供应链金融",
+        "trade statistics",
+        "贸易统计",
+        "default rates",
+        "违约率",
+        "loss given default",
+        "违约损失率",
+        "trade register",
+        "贸易登记",
+        "ICC",
+        "国际商会",
+        "banking",
+        "银行业",
+        "risk assessment",
+        "风险评估",
+        "trade credit",
+        "贸易信贷",
+        "documentary trade",
+        "跟单贸易",
+        "letter of credit",
+        "信用证",
+        "guarantees",
+        "保函"
+      ],
+      "file_path": "international/trade/icc-trade-register.json"
+    },
+    {
+      "id": "iea-education-studies",
+      "name": {
+        "en": "IEA Education Studies Data",
+        "zh": "国际教育成就评价协会教育研究数据"
+      },
+      "description": {
+        "en": "IEA (International Association for the Evaluation of Educational Achievement) is an international cooperative of national research institutions, governmental research agencies, scholars, and analysts working to research, understand, and improve education worldwide. IEA conducts high-quality, large-scale comparative studies of education across the globe to provide educators, policymakers, and parents with insights into how students perform.",
+        "zh": "国际教育成就评价协会(IEA)是由国家研究机构、政府研究机构、学者和分析师组成的国际合作组织，致力于研究、理解和改善全球教育。IEA在全球范围内开展高质量的大规模教育比较研究，为教育工作者、政策制定者和家长提供学生表现的洞察。"
+      },
+      "website": "https://www.iea.nl",
+      "data_url": "https://www.iea.nl/data-tools/repository",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "education",
+        "international-assessment",
+        "student-achievement"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "has_api": false,
+      "tags": [
+        "education",
+        "教育",
+        "international-assessment",
+        "国际评估",
+        "student-achievement",
+        "学生成就",
+        "TIMSS",
+        "PIRLS",
+        "ICCS",
+        "ICILS",
+        "LaNA",
+        "mathematics",
+        "数学",
+        "science",
+        "科学",
+        "reading-literacy",
+        "阅读素养",
+        "civic-education",
+        "公民教育",
+        "digital-literacy",
+        "数字素养",
+        "comparative-education",
+        "比较教育",
+        "educational-research",
+        "教育研究"
+      ],
+      "file_path": "international/education/iea-education-studies.json"
     },
     {
       "id": "iea-energy-data",

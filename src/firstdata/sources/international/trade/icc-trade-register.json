@@ -1,0 +1,77 @@
+{
+  "id": "icc-trade-register",
+  "name": {
+    "en": "ICC Trade Register",
+    "zh": "国际商会贸易统计"
+  },
+  "description": {
+    "en": "The ICC Trade Register is the world's most comprehensive benchmark for trade and supply chain finance. Backed by over a decade of aggregated data from leading global banks and over $25.7 trillion in transactions, it delivers actionable insights into risk performance, default and loss rates, and emerging market opportunities. The register examines performance and risk profiles of trade finance instruments based on aggregated data supplied by 21 global banks.",
+    "zh": "国际商会贸易统计是全球贸易和供应链金融最全面的基准数据库。依托于来自全球领先银行超过十年的聚合数据和超过25.7万亿美元的交易量,提供关于风险表现、违约率、损失率和新兴市场机会的可操作性洞察。该统计基于21家全球银行提供的贸易融资工具的表现和风险概况聚合数据。"
+  },
+  "website": "https://iccwbo.org/",
+  "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "trade",
+    "finance",
+    "banking"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "trade finance",
+    "贸易融资",
+    "supply chain finance",
+    "供应链金融",
+    "trade statistics",
+    "贸易统计",
+    "default rates",
+    "违约率",
+    "loss given default",
+    "违约损失率",
+    "trade register",
+    "贸易登记",
+    "ICC",
+    "国际商会",
+    "banking",
+    "银行业",
+    "risk assessment",
+    "风险评估",
+    "trade credit",
+    "贸易信贷",
+    "documentary trade",
+    "跟单贸易",
+    "letter of credit",
+    "信用证",
+    "guarantees",
+    "保函"
+  ],
+  "data_content": {
+    "en": [
+      "Global default rate figures across all trade finance products for the last five years",
+      "Regional breakdown of default rates (Africa, APAC, Central & South America, Europe, Middle East, North America)",
+      "Absolute and weighted default rates across all trade finance products",
+      "Country-level breakdowns within each region",
+      "Loss Given Default (LGD) metrics per product",
+      "Performance and risk profiles of trade finance instruments including commercial letters of credit, performance guarantees, standbys, and supply chain finance",
+      "Analysis of over 47 million trade finance and export finance transactions",
+      "Exposure data exceeding USD 23 trillion",
+      "Capital optimization insights for financial institutions",
+      "Regulatory treatment analysis for trade finance assets"
+    ],
+    "zh": [
+      "过去五年所有贸易融资产品的全球违约率数据",
+      "区域违约率细分(非洲、亚太、中南美洲、欧洲、中东、北美)",
+      "所有贸易融资产品的绝对违约率和加权违约率",
+      "各区域内的国家级细分数据",
+      "每个产品的违约损失率(LGD)指标",
+      "贸易融资工具的表现和风险概况,包括商业信用证、履约保函、备用信用证和供应链金融",
+      "超过4700万笔贸易融资和出口融资交易的分析",
+      "超过23万亿美元的风险敞口数据",
+      "金融机构的资本优化洞察",
+      "贸易融资资产的监管处理分析"
+    ]
+  }
+}

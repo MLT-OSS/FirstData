@@ -1,8 +1,8 @@
 # 国际组织 | International Organizations
 
 **总数**: 100+个数据源
-**已完成**: 28个
-**进度**: 28%
+**已完成**: 33个
+**进度**: 33%
 
 ---
 
@@ -10,8 +10,8 @@
 
 ```
 总目标: 100+ 个国际组织数据源
-当前完成: 28 个
-完成度: ██████░░░░░░░░░░░░░░ 28%
+当前完成: 33 个
+完成度: ██████░░░░░░░░░░░░░░ 33%
 ```
 
 **目录结构**: ✅ 已完成
@@ -24,20 +24,20 @@
 | 领域 | 计划 | 完成 | 进度 | 说明 |
 |------|------|------|------|------|
 | 📈 经济 | 8 | 5 | 63% | Economics |
-| 🌐 贸易 | 6 | 3 | 50% | Trade |
-| ⚡ 能源 | 6 | 1 | 17% | Energy |
+| 🌐 贸易 | 6 | 4 | 67% | Trade |
+| ⚡ 能源 | 6 | 2 | 33% | Energy |
 | 🌾 农业 | 5 | 2 | 40% | Agriculture |
-| 🎓 教育 | 8 | 1 | 13% | Education |
+| 🎓 教育 | 8 | 2 | 25% | Education |
 | 🏥 健康 | 10 | 2 | 20% | Health |
 | 🌳 环境 | 12 | 2 | 17% | Environment |
 | 🌍 发展 | 13 | 5 | 38% | Development |
-| 💰 金融 | 6 | 2 | 33% | Finance |
+| 💰 金融 | 6 | 3 | 50% | Finance |
 | 📜 知识产权 | 5 | 1 | 20% | Intellectual Property |
 | 🌏 地球科学 | 8 | 2 | 25% | Earth Science |
 | 👷 劳工与社会 | 6 | 0 | 0% | Labour & Social |
-| 🚢 交通运输 | 4 | 0 | 0% | Transportation |
+| 🚢 交通运输 | 4 | 1 | 25% | Transportation |
 | 📏 标准与计量 | 3 | 2 | 67% | Standards & Metrology |
-| **总计** | **100** | **28** | **28%** | - |
+| **总计** | **100** | **33** | **33%** | - |
 
 ---
 
@@ -85,7 +85,7 @@
 - **涵盖**: 欧元区、欧盟，1999-2025年，1,000+指标集
 - **特色**: 货币政策、银行业、金融市场、支付统计
 
-### 🌐 贸易 Trade (3/6)
+### 🌐 贸易 Trade (4/6)
 
 #### WTO Statistics - 世界贸易组织统计
 - **文件**: [wto.json](trade/wto.json) ⭐💎
@@ -111,7 +111,15 @@
 - **涵盖**: 全球200+国家，1962-2025年，60亿+贸易记录
 - **特色**: HS分类商品贸易、双边贸易流、免费API、数据可视化
 
-### ⚡ 能源 Energy (1/6)
+#### ICC Trade Register - 国际商会贸易统计
+- **文件**: [icc-trade-register.json](trade/icc-trade-register.json) ⭐💎
+- **权威等级**: international
+- **数据格式**: PDF, Excel
+- **访问类型**: 需注册
+- **涵盖**: 全球21家领先银行，2010-2025年，超过25.7万亿美元交易，4700万+笔贸易融资交易
+- **特色**: 贸易融资基准数据、全球和区域违约率、违约损失率(LGD)、信用证和保函风险分析、供应链金融表现、资本优化洞察
+
+### ⚡ 能源 Energy (2/6)
 
 #### IEA Energy Data - 国际能源署数据
 - **文件**: [iea.json](energy/iea.json) ⭐💎
@@ -120,6 +128,14 @@
 - **访问类型**: 注册（部分开放）
 - **涵盖**: 全球150+国家，1960-2025年
 - **特色**: 能源平衡表、能源价格、电力统计、可再生能源、能源效率
+
+#### IAEA Energy Data - 国际原子能机构能源数据
+- **文件**: [iaea-energy-data.json](energy/iaea-energy-data.json) ⭐💎
+- **权威等级**: international
+- **数据格式**: JSON, API
+- **访问类型**: 开放
+- **涵盖**: 全球核电站详细信息，自1970年月度生产统计
+- **特色**: 动力堆信息系统(PRIS)、反应堆规格和性能数据、核燃料材料测试数据、热工水力数据集、国际性能指标基准
 
 ### 🌾 农业 Agriculture (2/5)
 
@@ -139,7 +155,7 @@
 - **涵盖**: 全球，1970-2025年，10,000+数据集
 - **特色**: 农业研究数据、作物改良、气候适应、土壤数据、基因组
 
-### 🎓 教育 Education (1/8)
+### 🎓 教育 Education (2/8)
 
 #### PISA - 国际学生评估项目
 - **文件**: [oecd-pisa.json](education/oecd-pisa.json) ⭐💎
@@ -148,6 +164,14 @@
 - **访问类型**: 开放
 - **涵盖**: 80+国家和地区，2000-2022年
 - **特色**: 阅读、数学、科学素养评估、教育公平、学习环境
+
+#### IEA Education Studies Data - 国际教育成就评价协会教育研究数据
+- **文件**: [iea-education-studies.json](education/iea-education-studies.json) ⭐💎
+- **权威等级**: international
+- **数据格式**: SPSS, SAS, CSV, Excel
+- **访问类型**: 需注册
+- **涵盖**: 全球60+国家和地区，1995-2025年，多项国际大规模评估研究
+- **特色**: TIMSS(数学与科学)、PIRLS(阅读素养)、ICCS(公民教育)、ICILS(数字素养)、LaNA(早期识字算术)、TEDS-M(教师教育)，包含学生成就、教师问卷、学校问卷、课程和背景变量数据
 
 ### 🏥 健康 Health (2/10)
 
@@ -227,7 +251,7 @@
 - **涵盖**: 拉美19个成员国，1970-2025年
 - **特色**: 拉美经济观察、基础设施融资、创新与数字化、可持续发展
 
-### 💰 金融 Finance (2/6)
+### 💰 金融 Finance (3/6)
 
 #### European Bank for Reconstruction and Development - 欧洲复兴开发银行
 - **文件**: [ebrd.json](finance/ebrd.json) ⭐💎
@@ -244,6 +268,14 @@
 - **访问类型**: 开放
 - **涵盖**: 22个债权国，1956-2025年
 - **特色**: 债务重组协议、债务减免、双边官方债务
+
+#### IAIS - International Association of Insurance Supervisors - 国际保险监督官协会
+- **文件**: [iais.json](finance/iais.json) ⭐💎
+- **权威等级**: international
+- **数据格式**: PDF, Excel, HTML
+- **访问类型**: 需注册
+- **涵盖**: 全球保险市场报告(GIMAR)年度评估、200+司法管辖区保险监督数据、占全球保险费的97%
+- **特色**: 保险资本标准(ICS)数据收集、全球监测演练(GME)、气候相关风险数据、网络风险评估、自然灾害保险保护缺口分析、保险核心原则(ICPs)和ComFrame实施评估
 
 ### 📜 知识产权 Intellectual Property (1/5)
 
@@ -272,6 +304,16 @@
 - **访问类型**: 注册
 - **涵盖**: 全球，2014-2025年，PB级数据
 - **特色**: Sentinel卫星、大气、海洋、陆地、气候、紧急管理
+
+### 🚢 交通运输 Transportation (1/4)
+
+#### ICAO Aviation Data - 国际民航组织航空数据
+- **文件**: [icao-aviation-data.json](transportation/icao-aviation-data.json) ⭐💎
+- **权威等级**: international
+- **数据格式**: JSON, CSV, API
+- **访问类型**: 开放
+- **涵盖**: 全球193个成员国，1970-2025年，56+ APIs
+- **特色**: 机场代码(DOC7910)、航空公司代码(DOC8585)、飞机型号代码(DOC8643)、航行通告(NOTAM)、事故和事件数据、交通统计、安全数据(USOAP/IOSA)、天气数据、PBN实施统计
 
 ### 📏 标准与计量 Standards & Metrology (2/3)
 
@@ -322,18 +364,18 @@
 ```
 international/
 ├── economics/              # 📈 经济 (5/8个数据源)
-├── trade/                  # 🌐 贸易 (3/6个数据源)
-├── energy/                 # ⚡ 能源 (1/6个数据源)
+├── trade/                  # 🌐 贸易 (4/6个数据源)
+├── energy/                 # ⚡ 能源 (2/6个数据源)
 ├── agriculture/            # 🌾 农业 (2/5个数据源)
-├── education/              # 🎓 教育 (1/8个数据源)
+├── education/              # 🎓 教育 (2/8个数据源)
 ├── health/                 # 🏥 健康 (2/10个数据源)
 ├── environment/            # 🌳 环境 (2/12个数据源)
 ├── development/            # 🌍 发展 (5/13个数据源)
-├── finance/                # 💰 金融 (2/6个数据源)
+├── finance/                # 💰 金融 (3/6个数据源)
 ├── intellectual-property/  # 📜 知识产权 (1/5个数据源)
 ├── earth-science/          # 🌏 地球科学 (2/8个数据源)
 ├── labour-social/          # 👷 劳工与社会 (0/6个数据源)
-├── transportation/         # 🚢 交通运输 (0/4个数据源)
+├── transportation/         # 🚢 交通运输 (1/4个数据源)
 ├── standards-metrology/    # 📏 标准与计量 (2/3个数据源)
 └── README.md
 ```
@@ -375,8 +417,8 @@ international/
 
 ---
 
-**最后更新 Last Updated**: 2025-12-31
+**最后更新 Last Updated**: 2026-02-03
 **状态 Status**: 目录结构完成 | 数据填充进行中 (Directory Structure Complete | Data Population In Progress)
-**完成度 Completion**: 28/100 (28%)
+**完成度 Completion**: 33/100 (33%)
 
 **打造全球最全面的国际组织数据源元数据库！** 🌍🚀

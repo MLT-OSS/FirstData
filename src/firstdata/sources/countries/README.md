@@ -9,12 +9,12 @@ This directory contains metadata for official government data sources from count
 ## 当前状态 Current Status
 
 **目录结构**: ✅ 已完成
-**JSON文件**: 24个数据源已创建
-**完成度**: 24/200+ (12%)
+**JSON文件**: 25个数据源已创建
+**完成度**: 25/200+ (12%)
 
 ```
 总目标: 200+ 个各国数据源
-当前完成: 24 个
+当前完成: 25 个
 完成度: ██░░░░░░░░░░░░░░░░░░ 12%
 ```
 
@@ -284,9 +284,9 @@ sources/countries/
 
 ### 🌎 南美洲 South America
 
-**已完成**: 1/15 (7%)
+**已完成**: 2/15 (13%)
 
-#### 🇧🇷 巴西 Brazil (1/5)
+#### 🇧🇷 巴西 Brazil (2/5)
 
 1. **Central Bank of Brazil** (`brazil-bcb`) ⭐💎
    - 权威等级：government
@@ -294,6 +294,13 @@ sources/countries/
    - 数据格式：JSON, CSV, XML, WSDL, OData, HTML, PDF
    - 访问类型：开放
    - **文件**: [brazil-bcb.json](south-america/brazil/brazil-bcb.json)
+
+2. **Brazilian Institute of Geography and Statistics** (`brazil-ibge`) ⭐💎
+   - 权威等级：government
+   - 类型：国家统计、人口普查、经济和社会数据
+   - 数据格式：CSV, Excel, JSON, API
+   - 访问类型：开放
+   - **文件**: [brazil-ibge.json](south-america/brazil-ibge.json)
 
 ---
 

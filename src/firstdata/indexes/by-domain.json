@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-01-20T17:54:35.275901",
-    "total_domains": 574,
-    "total_sources": 126,
+    "generated_at": "2026-02-03T15:17:04.815016",
+    "total_domains": 584,
+    "total_sources": 132,
     "version": "2.0"
   },
   "domains": {
@@ -6977,6 +6977,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-nbs",
         "name": {
           "en": "National Bureau of Statistics of China",
@@ -7086,6 +7097,19 @@
         "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
       }
     ],
+    "aviation": [
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
+      }
+    ],
     "balance_of_payments": [
       {
         "id": "korea-bok",
@@ -7136,6 +7160,17 @@
         "data_url": "https://www.banxico.org.mx",
         "has_api": true,
         "file_path": "countries/north-america/mexico/banxico.json"
+      },
+      {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "file_path": "international/trade/icc-trade-register.json"
       },
       {
         "id": "china-nfra",
@@ -7329,6 +7364,32 @@
         "file_path": "china/finance/securities/hkex.json"
       }
     ],
+    "cartography": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      }
+    ],
+    "census": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      }
+    ],
     "climate": [
       {
         "id": "bureau-of-meteorology",
@@ -7519,6 +7580,17 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json"
+      },
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
       },
       {
         "id": "dhs",
@@ -7827,6 +7899,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "ebrd",
         "name": {
           "en": "European Bank for Reconstruction and Development",
@@ -7845,7 +7928,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json"
       },
@@ -8105,6 +8188,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "file_path": "international/education/iea-education-studies.json"
+      },
+      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -8287,6 +8381,17 @@
         "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
       },
       {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "file_path": "international/energy/iaea-energy-data.json"
+      },
+      {
         "id": "iea-energy-data",
         "name": {
           "en": "IEA Energy Data",
@@ -8334,6 +8439,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "copernicus-open-access-hub",
         "name": {
           "en": "Copernicus Open Access Hub",
@@ -8343,6 +8459,17 @@
         "data_url": "https://dataspace.copernicus.eu/",
         "has_api": true,
         "file_path": "academic/environment/copernicus-open-access-hub.json"
+      },
+      {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "file_path": "international/energy/iaea-energy-data.json"
       },
       {
         "id": "iea-energy-data",
@@ -8587,6 +8714,17 @@
         "file_path": "china/finance/securities/hkex.json"
       },
       {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "file_path": "international/trade/icc-trade-register.json"
+      },
+      {
         "id": "imf-data",
         "name": {
           "en": "IMF Data",
@@ -8644,6 +8782,19 @@
         "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
         "has_api": false,
         "file_path": "china/finance/banking/pbc.json"
+      }
+    ],
+    "financial-stability": [
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json"
       }
     ],
     "financial_markets": [
@@ -8774,6 +8925,17 @@
       }
     ],
     "geography": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
       {
         "id": "usa-census-bureau",
         "name": {
@@ -9213,6 +9375,17 @@
     ],
     "industry": [
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-software-association",
         "name": {
           "en": "China Software Industry Association",
@@ -9408,6 +9581,17 @@
     ],
     "insurance": [
       {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json"
+      },
+      {
         "id": "china-nfra",
         "name": {
           "en": "National Financial Regulatory Administration",
@@ -9486,6 +9670,19 @@
         "file_path": "countries/asia/korea/korea-bok.json"
       }
     ],
+    "international-assessment": [
+      {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "file_path": "international/education/iea-education-studies.json"
+      }
+    ],
     "international_commerce": [
       {
         "id": "china-customs",
@@ -9495,7 +9692,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json"
       }
@@ -9552,6 +9749,17 @@
       }
     ],
     "labor": [
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
       {
         "id": "nber-data",
         "name": {
@@ -10037,6 +10245,19 @@
         "file_path": "countries/north-america/usa/eia.json"
       }
     ],
+    "nuclear-power": [
+      {
+        "id": "iaea-energy-data",
+        "name": {
+          "en": "IAEA Energy Data",
+          "zh": "国际原子能机构能源数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.iaea.org/",
+        "has_api": true,
+        "file_path": "international/energy/iaea-energy-data.json"
+      }
+    ],
     "ocean": [
       {
         "id": "copernicus-open-access-hub",
@@ -10232,6 +10453,17 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json"
+      },
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
       },
       {
         "id": "dhs",
@@ -10455,6 +10687,19 @@
         "file_path": "china/finance/banking/nfra.json"
       }
     ],
+    "regulatory-standards": [
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json"
+      }
+    ],
     "remote-sensing": [
       {
         "id": "usgs-earthexplorer",
@@ -10542,6 +10787,19 @@
         "data_url": "https://ghdx.healthdata.org/",
         "has_api": true,
         "file_path": "academic/health/ghdx.json"
+      }
+    ],
+    "safety": [
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
       }
     ],
     "science": [
@@ -10657,6 +10915,17 @@
         "data_url": "https://data.adb.org",
         "has_api": true,
         "file_path": "international/development/adb-data.json"
+      },
+      {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
       },
       {
         "id": "china-nbs",
@@ -10789,6 +11058,17 @@
     ],
     "statistics": [
       {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
+      },
+      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -10811,6 +11091,19 @@
         "data_url": "https://www.rug.nl/ggdc/",
         "has_api": false,
         "file_path": "academic/economics/ggdc-databases.json"
+      }
+    ],
+    "student-achievement": [
+      {
+        "id": "iea-education-studies",
+        "name": {
+          "en": "IEA Education Studies Data",
+          "zh": "国际教育成就评价协会教育研究数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iea.nl/data-tools/repository",
+        "has_api": false,
+        "file_path": "international/education/iea-education-studies.json"
       }
     ],
     "technology": [
@@ -11010,6 +11303,17 @@
         "file_path": "countries/oceania/australia/abs.json"
       },
       {
+        "id": "brazil-ibge",
+        "name": {
+          "en": "Brazilian Institute of Geography and Statistics",
+          "zh": "巴西地理统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ibge.gov.br/en/indicators",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil-ibge.json"
+      },
+      {
         "id": "china-customs",
         "name": {
           "en": "General Administration of Customs of China",
@@ -11017,7 +11321,7 @@
           "native": "中华人民共和国海关总署"
         },
         "authority_level": "government",
-        "data_url": "http://www.customs.gov.cn/customs/302249/302274/302277/index.html",
+        "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json"
       },
@@ -11031,6 +11335,17 @@
         "data_url": "https://www.rug.nl/ggdc/",
         "has_api": false,
         "file_path": "academic/economics/ggdc-databases.json"
+      },
+      {
+        "id": "icc-trade-register",
+        "name": {
+          "en": "ICC Trade Register",
+          "zh": "国际商会贸易统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://iccwbo.org/news-publications/policies-reports/icc-trade-register-report/",
+        "has_api": false,
+        "file_path": "international/trade/icc-trade-register.json"
       },
       {
         "id": "china-mofcom",
@@ -11114,6 +11429,19 @@
         "data_url": "https://www3.wipo.int/ipstats/",
         "has_api": false,
         "file_path": "international/intellectual-property/wipo.json"
+      }
+    ],
+    "transportation": [
+      {
+        "id": "icao-aviation-data",
+        "name": {
+          "en": "ICAO Aviation Data",
+          "zh": "国际民航组织航空数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://dataservices.icao.int/",
+        "has_api": true,
+        "file_path": "international/transportation/icao-aviation-data.json"
       }
     ],
     "water": [
