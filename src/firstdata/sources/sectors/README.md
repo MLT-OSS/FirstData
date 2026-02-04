@@ -2,8 +2,8 @@
 
 **分类标准**: 国际标准产业分类 ISIC Rev.4 (UN)
 **总数**: 100+个数据源
-**已完成**: 29个
-**进度**: 29%
+**已完成**: 32个
+**进度**: 32%
 
 ---
 
@@ -11,8 +11,8 @@
 
 ```
 总目标: 100+ 个行业领域数据源
-当前完成: 29 个
-完成度: ██████░░░░░░░░░░░░░ 29%
+当前完成: 32 个
+完成度: ██████░░░░░░░░░░░░░ 32%
 ```
 
 **目录结构**: ✅ 已完成
@@ -33,7 +33,7 @@
 | G | 批发和零售业 | 6 | 0 | 0% | Wholesale and Retail Trade |
 | H | 交通运输和仓储业 | 5 | 0 | 0% | Transportation and Storage |
 | I | 住宿和餐饮业 | 4 | 0 | 0% | Accommodation and Food Service |
-| J | 信息和通信业 | 25 | 7 | 28% | Information and Communication |
+| J | 信息和通信业 | 25 | 9 | 36% | Information and Communication |
 | K | 金融和保险业 | 6 | 4 | 67% | Financial and Insurance Activities |
 | L | 房地产业 | 5 | 0 | 0% | Real Estate Activities |
 | M | 专业、科学和技术活动 | 8 | 3 | 38% | Professional, Scientific and Technical Activities |
@@ -41,9 +41,9 @@
 | O | 公共管理和国防 | 3 | 0 | 0% | Public Administration and Defence |
 | P | 教育 | 3 | 1 | 33% | Education |
 | Q | 卫生和社会工作 | 5 | 0 | 0% | Human Health and Social Work Activities |
-| R | 艺术、娱乐和休闲 | 10 | 2 | 20% | Arts, Entertainment and Recreation |
+| R | 艺术、娱乐和休闲 | 10 | 4 | 40% | Arts, Entertainment and Recreation |
 | S | 其他服务活动 | 3 | 0 | 0% | Other Service Activities |
-| **总计** | - | **126** | **29** | **23%** | - |
+| **总计** | - | **126** | **32** | **25%** | - |
 
 ---
 
@@ -179,7 +179,18 @@
 
 ---
 
-### J - 信息和通信业 Information and Communication (8/25)
+### J - 信息和通信业 Information and Communication (9/25)
+
+#### 云计算与开放数据
+
+##### Registry of Open Data on AWS - AWS开放数据注册表
+- **文件**: [aws-open-data-registry.json](J-information-communication/computer_science_ai/aws-open-data-registry.json)
+- **权威等级**: commercial
+- **数据格式**: Multiple (cloud-optimized datasets)
+- **访问类型**: 需注册
+- **涵盖**: 超过650个数据集，涵盖机器学习、天文学、气候科学、经济学、基因组学、地理空间科学、生命科学、可持续发展等领域，托管在AWS云基础设施上
+- **特色**: AWS开放数据赞助计划承担存储成本，使全球研究人员、开发人员和数据科学家可以免费访问高价值云优化数据集，支持使用Amazon EC2、Athena、Lambda等服务进行分析
+- **更新频率**: 不定期
 
 #### 6G与通信技术
 
@@ -337,7 +348,7 @@
 
 ---
 
-### R - 艺术、娱乐和休闲 Arts, Entertainment and Recreation (2/10)
+### R - 艺术、娱乐和休闲 Arts, Entertainment and Recreation (4/10)
 
 #### 体育运动 Sports
 
@@ -350,6 +361,24 @@
 - **涵盖**: 全球职业网球，1968-2024年
 - **更新频率**: 不定期
 - **特色**: ATP/WTA排名、比赛结果、球员数据、巡回赛、挑战赛、资格赛数据
+
+##### Tennis Abstract - ATP/WTA Data - Tennis Abstract - ATP/WTA网球数据
+- **文件**: [tennis-abstract-atp-wta.json](R-arts-entertainment/sports/tennis-abstract-atp-wta.json) ⭐
+- **权威等级**: research
+- **数据格式**: CSV
+- **访问类型**: 需注册
+- **涵盖**: 公开赛时代（1968年至今）所有ATP和WTA巡回赛级别单打比赛，包含详细的比赛信息、球员传记数据、排名和比赛内统计数据
+- **特色**: 由Jeff Sackmann维护的全面开源数据库，包括比赛结果、每周排名、球员统计、比赛内统计（从1991年起）、比赛图表项目逐分数据，根据CC BY-NC-SA 4.0许可证授权
+- **更新频率**: 每周
+
+##### Tennis Abstract - ATP/WTA Match Data - 网球数据摘要 - ATP/WTA 比赛数据
+- **文件**: [tennis-sackmann.json](R-arts-entertainment/sports/tennis-sackmann.json) ⭐
+- **权威等级**: research
+- **数据格式**: CSV
+- **访问类型**: 需注册
+- **涵盖**: 1968年至2024年的ATP和WTA历史排名、比赛结果、球员传记数据和详细比赛统计，涵盖巡回赛级别赛事、资格赛、挑战赛、期货赛和ITF锦标赛
+- **特色**: 由Jeff Sackmann（Tennis Abstract）维护的综合性开源职业网球统计数据库，包含球员传记、历史排名、比赛结果、详细统计、部分大满贯逐分数据和比赛图表项目
+- **更新频率**: 不定期
 
 #### 博物馆与文化 Museums & Cultural Heritage
 

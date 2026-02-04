@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T15:17:04.815016",
-    "total_domains": 584,
-    "total_sources": 132,
+    "generated_at": "2026-02-04T23:02:13.969533",
+    "total_domains": 602,
+    "total_sources": 136,
     "version": "2.0"
   },
   "domains": {
@@ -464,6 +464,17 @@
         "data_url": "https://www.image-net.org",
         "has_api": false,
         "file_path": "sectors/J-information-communication/imagenet.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Asset Pricing": [
@@ -477,6 +488,19 @@
         "data_url": "https://www.crsp.org/",
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/crsp.json"
+      }
+    ],
+    "Astronomy": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Atmosphere Monitoring": [
@@ -690,6 +714,17 @@
     ],
     "Bioinformatics": [
       {
+        "id": "1000-genomes-project",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
+        "has_api": false,
+        "file_path": "academic/biology/1000-genomes.json"
+      },
+      {
         "id": "alphafold-db",
         "name": {
           "en": "AlphaFold Protein Structure Database",
@@ -735,6 +770,17 @@
       }
     ],
     "Biology": [
+      {
+        "id": "1000-genomes-project",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
+        "has_api": false,
+        "file_path": "academic/biology/1000-genomes.json"
+      },
       {
         "id": "pubchem",
         "name": {
@@ -1034,6 +1080,17 @@
         "data_url": "https://pubchem.ncbi.nlm.nih.gov/",
         "has_api": true,
         "file_path": "academic/chemistry/pubchem.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Chemistry and Biology": [
@@ -1200,6 +1257,19 @@
         "file_path": "international/development/caf.json"
       }
     ],
+    "Climate Science": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      }
+    ],
     "Clinical Pharmacology": [
       {
         "id": "drugbank",
@@ -1337,6 +1407,17 @@
         "data_url": "https://clarivate.com/products/derwent-innovation/",
         "has_api": true,
         "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Computer Vision": [
@@ -1361,6 +1442,17 @@
         "data_url": "https://www.image-net.org",
         "has_api": false,
         "file_path": "sectors/J-information-communication/imagenet.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Consumer": [
@@ -1972,6 +2064,19 @@
         "file_path": "countries/oceania/australia/aihw.json"
       }
     ],
+    "Disaster Response": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      }
+    ],
     "Disease Surveillance": [
       {
         "id": "us-cdc",
@@ -2268,6 +2373,17 @@
         "data_url": "https://www.bea.gov/data",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-bea.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       },
       {
         "id": "acad-conferenceboard",
@@ -3509,6 +3625,19 @@
         "file_path": "academic/social/afrobarometer.json"
       }
     ],
+    "Genetic Variation": [
+      {
+        "id": "1000-genomes-project",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
+        "has_api": false,
+        "file_path": "academic/biology/1000-genomes.json"
+      }
+    ],
     "Genetics": [
       {
         "id": "us-ncbi-genbank",
@@ -3536,6 +3665,17 @@
       }
     ],
     "Genomics": [
+      {
+        "id": "1000-genomes-project",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
+        "has_api": false,
+        "file_path": "academic/biology/1000-genomes.json"
+      },
       {
         "id": "chembl",
         "name": {
@@ -3568,6 +3708,30 @@
         "data_url": "https://www.ncbi.nlm.nih.gov/genbank/",
         "has_api": true,
         "file_path": "academic/biology/genbank.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      }
+    ],
+    "Geospatial": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Geospatial Data": [
@@ -3883,6 +4047,19 @@
         "file_path": "countries/oceania/australia/aihw.json"
       }
     ],
+    "Human Genetics": [
+      {
+        "id": "1000-genomes-project",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
+        "has_api": false,
+        "file_path": "academic/biology/1000-genomes.json"
+      }
+    ],
     "Human Rights": [
       {
         "id": "afrobarometer",
@@ -3918,6 +4095,19 @@
         "data_url": "https://www.image-net.org",
         "has_api": false,
         "file_path": "sectors/J-information-communication/imagenet.json"
+      }
+    ],
+    "Imaging": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Immunization": [
@@ -4506,6 +4696,19 @@
         "file_path": "international/standards-metrology/bipm-kcdb.json"
       }
     ],
+    "Life Sciences": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      }
+    ],
     "Liquidity": [
       {
         "id": "bis-statistics",
@@ -4624,6 +4827,17 @@
         "data_url": "https://www.image-net.org",
         "has_api": false,
         "file_path": "sectors/J-information-communication/imagenet.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Macroeconomic Statistics": [
@@ -4862,6 +5076,19 @@
         "data_url": "https://clarivate.com/products/derwent-innovation/",
         "has_api": true,
         "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json"
+      }
+    ],
+    "Medical Imaging": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Medical Technology": [
@@ -5710,6 +5937,19 @@
         "file_path": "countries/north-america/canada/canada-energy-regulator.json"
       }
     ],
+    "Player Performance": [
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+      }
+    ],
     "Player Performance Analytics": [
       {
         "id": "tennis-atp-wta-data",
@@ -5773,6 +6013,19 @@
         "data_url": "https://asianbarometer.org",
         "has_api": false,
         "file_path": "academic/social/asian-barometer.json"
+      }
+    ],
+    "Population Genetics": [
+      {
+        "id": "1000-genomes-project",
+        "name": {
+          "en": "1000 Genomes Project",
+          "zh": "千人基因组计划"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
+        "has_api": false,
+        "file_path": "academic/biology/1000-genomes.json"
       }
     ],
     "Population Health": [
@@ -6386,6 +6639,32 @@
         "file_path": "international/agriculture/cgiar-research-data.json"
       }
     ],
+    "Sports": [
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+      }
+    ],
+    "Sports Analytics": [
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+      }
+    ],
     "Sports Statistics": [
       {
         "id": "tennis-atp-wta-data",
@@ -6397,6 +6676,17 @@
         "data_url": "https://github.com/JeffSackmann/tennis_atp",
         "has_api": false,
         "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json"
+      },
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
       }
     ],
     "Stock Markets": [
@@ -6473,6 +6763,19 @@
         "file_path": "international/education/oecd-pisa.json"
       }
     ],
+    "Sustainability": [
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      }
+    ],
     "Sustainable Intensification": [
       {
         "id": "cgiar-research-data",
@@ -6536,6 +6839,17 @@
         "data_url": "https://github.com/JeffSackmann/tennis_atp",
         "has_api": false,
         "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json"
+      },
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
       }
     ],
     "Text Mining": [
@@ -6577,6 +6891,19 @@
         "data_url": "https://www.bipm.org/kcdb",
         "has_api": true,
         "file_path": "international/standards-metrology/bipm-kcdb.json"
+      }
+    ],
+    "Tournament Data": [
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
       }
     ],
     "Towns and cities": [
@@ -6726,6 +7053,17 @@
         "data_url": "https://www.caf.com/en/",
         "has_api": false,
         "file_path": "international/development/caf.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "Tuberculosis": [
@@ -6964,6 +7302,19 @@
         "file_path": "academic/social/afrobarometer.json"
       }
     ],
+    "academic research": [
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "file_path": "sectors/education/arwu.json"
+      }
+    ],
     "agriculture": [
       {
         "id": "australia-abs",
@@ -7034,6 +7385,19 @@
         "data_url": "http://www.caict.ac.cn/kxyj/qwfb/",
         "has_api": false,
         "file_path": "china/research/china-caict.json"
+      }
+    ],
+    "athletics": [
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-sackmann.json"
       }
     ],
     "atmosphere": [
@@ -7200,17 +7564,6 @@
       }
     ],
     "bioinformatics": [
-      {
-        "id": "1000-genomes",
-        "name": {
-          "en": "1000 Genomes Project",
-          "zh": "千人基因组计划"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
-        "has_api": false,
-        "file_path": "academic/biology/1000-genomes.json"
-      },
       {
         "id": "tcga",
         "name": {
@@ -8614,19 +8967,6 @@
         "file_path": "academic/biology/uk-biobank.json"
       }
     ],
-    "evolutionary biology": [
-      {
-        "id": "1000-genomes",
-        "name": {
-          "en": "1000 Genomes Project",
-          "zh": "千人基因组计划"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
-        "has_api": false,
-        "file_path": "academic/biology/1000-genomes.json"
-      }
-    ],
     "exchange_rates": [
       {
         "id": "canada-boc",
@@ -8867,17 +9207,6 @@
     ],
     "genetics": [
       {
-        "id": "1000-genomes",
-        "name": {
-          "en": "1000 Genomes Project",
-          "zh": "千人基因组计划"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
-        "has_api": false,
-        "file_path": "academic/biology/1000-genomes.json"
-      },
-      {
         "id": "uk-biobank",
         "name": {
           "en": "UK Biobank",
@@ -8890,17 +9219,6 @@
       }
     ],
     "genomics": [
-      {
-        "id": "1000-genomes",
-        "name": {
-          "en": "1000 Genomes Project",
-          "zh": "千人基因组计划"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
-        "has_api": false,
-        "file_path": "academic/biology/1000-genomes.json"
-      },
       {
         "id": "tcga",
         "name": {
@@ -9221,6 +9539,19 @@
         "file_path": "countries/north-america/canada/canada-cihi.json"
       }
     ],
+    "higher education": [
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "file_path": "sectors/education/arwu.json"
+      }
+    ],
     "higher_education": [
       {
         "id": "china-moe-higher-education",
@@ -9294,19 +9625,6 @@
         "data_url": "https://www.census.gov",
         "has_api": true,
         "file_path": "countries/north-america/usa/census-bureau.json"
-      }
-    ],
-    "human genetic variation": [
-      {
-        "id": "1000-genomes",
-        "name": {
-          "en": "1000 Genomes Project",
-          "zh": "千人基因组计划"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
-        "has_api": false,
-        "file_path": "academic/biology/1000-genomes.json"
       }
     ],
     "hydrology": [
@@ -10488,19 +10806,6 @@
         "file_path": "countries/north-america/usa/census-bureau.json"
       }
     ],
-    "population genetics": [
-      {
-        "id": "1000-genomes",
-        "name": {
-          "en": "1000 Genomes Project",
-          "zh": "千人基因组计划"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
-        "has_api": false,
-        "file_path": "academic/biology/1000-genomes.json"
-      }
-    ],
     "population_health": [
       {
         "id": "canada-cihi",
@@ -10737,6 +11042,19 @@
         "data_url": "https://service.most.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/sci_resources/china-most-rnd.json"
+      }
+    ],
+    "research performance": [
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "file_path": "sectors/education/arwu.json"
       }
     ],
     "research-infrastructure": [
@@ -11043,6 +11361,19 @@
         "file_path": "countries/oceania/australia/bureau-of-meteorology.json"
       }
     ],
+    "sports": [
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-sackmann.json"
+      }
+    ],
     "standards": [
       {
         "id": "china-sac-standards",
@@ -11078,6 +11409,17 @@
         "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
         "has_api": false,
         "file_path": "china/education/higher_education/china-moe-higher-education.json"
+      },
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-sackmann.json"
       }
     ],
     "structural-change": [
@@ -11442,6 +11784,19 @@
         "data_url": "https://dataservices.icao.int/",
         "has_api": true,
         "file_path": "international/transportation/icao-aviation-data.json"
+      }
+    ],
+    "university rankings": [
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "file_path": "sectors/education/arwu.json"
       }
     ],
     "water": [

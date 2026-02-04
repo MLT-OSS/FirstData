@@ -21,12 +21,128 @@
       "diff": 0
     },
     "sectors": {
-      "actual": 29,
+      "actual": 32,
       "in_docs": 29,
-      "diff": 0
+      "diff": 3
     }
   },
-  "missing_in_docs": {},
-  "stats_mismatch": [],
-  "recommendations": []
+  "missing_in_docs": {
+    "sectors": [
+      {
+        "id": "aws-open-data-registry",
+        "filename_id": "aws-open-data-registry",
+        "name_en": "Registry of Open Data on AWS",
+        "name_zh": "AWS开放数据注册表",
+        "authority": "commercial",
+        "has_api": false,
+        "access_level": "registration",
+        "update_frequency": "irregular",
+        "data_content_count": 12,
+        "path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "category": "sectors",
+        "subcategory": "computer_science_ai"
+      },
+      {
+        "id": "tennis-abstract-atp-wta",
+        "filename_id": "tennis-abstract-atp-wta",
+        "name_en": "Tennis Abstract - ATP/WTA Data",
+        "name_zh": "Tennis Abstract - ATP/WTA网球数据",
+        "authority": "research",
+        "has_api": false,
+        "access_level": "registration",
+        "update_frequency": "weekly",
+        "data_content_count": 9,
+        "path": "sectors/sports/tennis-abstract-atp-wta.json",
+        "category": "sectors",
+        "subcategory": "sports"
+      },
+      {
+        "id": "tennis-sackmann",
+        "filename_id": "tennis-sackmann",
+        "name_en": "Tennis Abstract - ATP/WTA Match Data",
+        "name_zh": "网球数据摘要 - ATP/WTA 比赛数据",
+        "authority": "research",
+        "has_api": false,
+        "access_level": "registration",
+        "update_frequency": "irregular",
+        "data_content_count": 9,
+        "path": "sectors/sports/tennis-sackmann.json",
+        "category": "sectors",
+        "subcategory": "sports"
+      }
+    ]
+  },
+  "stats_mismatch": [
+    {
+      "doc": "README.md徽章",
+      "current": 132,
+      "should_be": 135
+    },
+    {
+      "doc": "src/firstdata/sources/sectors/README.md",
+      "current": 29,
+      "should_be": 32
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "add_entries",
+      "file": "sources/sectors/README.md",
+      "count": 3,
+      "sources": [
+        {
+          "id": "aws-open-data-registry",
+          "filename_id": "aws-open-data-registry",
+          "name_en": "Registry of Open Data on AWS",
+          "name_zh": "AWS开放数据注册表",
+          "authority": "commercial",
+          "has_api": false,
+          "access_level": "registration",
+          "update_frequency": "irregular",
+          "data_content_count": 12,
+          "path": "sectors/computer_science_ai/aws-open-data-registry.json",
+          "category": "sectors",
+          "subcategory": "computer_science_ai"
+        },
+        {
+          "id": "tennis-abstract-atp-wta",
+          "filename_id": "tennis-abstract-atp-wta",
+          "name_en": "Tennis Abstract - ATP/WTA Data",
+          "name_zh": "Tennis Abstract - ATP/WTA网球数据",
+          "authority": "research",
+          "has_api": false,
+          "access_level": "registration",
+          "update_frequency": "weekly",
+          "data_content_count": 9,
+          "path": "sectors/sports/tennis-abstract-atp-wta.json",
+          "category": "sectors",
+          "subcategory": "sports"
+        },
+        {
+          "id": "tennis-sackmann",
+          "filename_id": "tennis-sackmann",
+          "name_en": "Tennis Abstract - ATP/WTA Match Data",
+          "name_zh": "网球数据摘要 - ATP/WTA 比赛数据",
+          "authority": "research",
+          "has_api": false,
+          "access_level": "registration",
+          "update_frequency": "irregular",
+          "data_content_count": 9,
+          "path": "sectors/sports/tennis-sackmann.json",
+          "category": "sectors",
+          "subcategory": "sports"
+        }
+      ]
+    },
+    {
+      "action": "update_stats",
+      "file": "src/firstdata/sources/sectors/README.md",
+      "new_total": 135
+    },
+    {
+      "action": "update_stats",
+      "file": "README.md徽章",
+      "new_total": 135
+    }
+  ]
 }

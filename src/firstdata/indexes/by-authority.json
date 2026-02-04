@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T15:17:04.815280",
-    "total_sources": 132,
+    "generated_at": "2026-02-04T23:02:13.970054",
+    "total_sources": 136,
     "authority_counts": {
       "government": 52,
       "international": 36,
       "market": 12,
-      "research": 27,
-      "commercial": 5,
+      "research": 30,
+      "commercial": 6,
       "other": 0
     },
     "version": "2.0"
@@ -1247,13 +1247,13 @@
     ],
     "research": [
       {
-        "id": "1000-genomes",
+        "id": "1000-genomes-project",
         "name": {
           "en": "1000 Genomes Project",
           "zh": "千人基因组计划"
         },
         "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
         "has_api": false,
         "geographic_scope": "global",
         "file_path": "academic/biology/1000-genomes.json"
@@ -1281,6 +1281,18 @@
         "has_api": false,
         "geographic_scope": "global",
         "file_path": "sectors/P-education/arwu.json"
+      },
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/education/arwu.json"
       },
       {
         "id": "afrobarometer",
@@ -1536,6 +1548,30 @@
         "file_path": "academic/biology/pdb.json"
       },
       {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+      },
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/sports/tennis-sackmann.json"
+      },
+      {
         "id": "acad-conferenceboard",
         "name": {
           "en": "The Conference Board Economic Data",
@@ -1633,6 +1669,18 @@
         "has_api": true,
         "geographic_scope": "regional",
         "file_path": "china/finance/securities/hkex.json"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
       }
     ],
     "other": []

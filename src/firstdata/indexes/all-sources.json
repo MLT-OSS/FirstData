@@ -1,56 +1,66 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T15:17:04.814762",
-    "total_sources": 132,
+    "generated_at": "2026-02-04T23:02:13.968664",
+    "total_sources": 136,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
   "sources": [
     {
-      "id": "1000-genomes",
+      "id": "1000-genomes-project",
       "name": {
         "en": "1000 Genomes Project",
         "zh": "千人基因组计划"
       },
       "description": {
-        "en": "The 1000 Genomes Project created the largest publicly available catalogue of human genetic variation, providing a comprehensive resource for background human genomic variation. The International Genome Sample Resource (IGSR) now maintains and extends this resource. The project sequenced 2,504 individuals from 26 populations across five continents to create a reference for human genetic variation with frequencies of at least 1% in the populations studied. IGSR continues to update the resources to GRCh38 assembly, adds high-coverage sequence data, and incorporates new samples with open consent to increase population diversity. The resource includes low coverage, exome, and high coverage whole genome sequencing data.",
-        "zh": "千人基因组计划创建了最大的公开可用的人类基因变异目录，为人类基因组背景变异提供了全面的资源。国际基因组样本资源库(IGSR)现在维护并扩展该资源。该项目对来自五大洲26个人群的2,504个个体进行了测序，创建了研究人群中频率至少为1%的人类基因变异参考。IGSR继续将资源更新到GRCh38组装版本，添加高覆盖度测序数据，并纳入具有开放知情同意的新样本以增加人群多样性。该资源包括低覆盖度、外显子组和高覆盖度全基因组测序数据。"
+        "en": "The 1000 Genomes Project was an international research collaboration that created the most detailed catalogue of human genetic variation. The project sequenced the genomes of 2,504 individuals from 26 populations across Africa, East Asia, Europe, South Asia, and the Americas. It characterized over 88 million variants including 84.7 million SNPs, 3.6 million indels, and 60,000 structural variants, all phased onto high-quality haplotypes. Now maintained as the International Genome Sample Resource (IGSR) by the European Bioinformatics Institute (EBI), it continues to provide one of the most comprehensive publicly available resources for human genetic variation research, supporting studies in population genetics, disease association, and methods development.",
+        "zh": "千人基因组计划是一个国际研究合作项目,创建了最详细的人类遗传变异目录。该项目对来自非洲、东亚、欧洲、南亚和美洲26个人群的2,504个个体的基因组进行了测序。它表征了超过8800万个变异,包括8470万个SNP、360万个插入缺失和6万个结构变异,所有变异都定相到高质量的单倍型上。现在由欧洲生物信息学研究所(EBI)作为国际基因组样本资源(IGSR)进行维护,继续提供最全面的人类遗传变异公开研究资源之一,支持群体遗传学、疾病关联和方法开发等研究。"
       },
       "website": "https://www.internationalgenome.org/",
-      "data_url": "https://www.internationalgenome.org/",
+      "data_url": "https://www.internationalgenome.org/data-portal/",
       "api_url": null,
       "authority_level": "research",
       "country": null,
       "domains": [
-        "genomics",
-        "genetics",
-        "human genetic variation",
-        "population genetics",
-        "evolutionary biology",
-        "bioinformatics"
+        "Genomics",
+        "Human Genetics",
+        "Population Genetics",
+        "Genetic Variation",
+        "Biology",
+        "Bioinformatics"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
       "has_api": false,
       "tags": [
         "genomics",
-        "genetics",
-        "whole genome sequencing",
-        "human genetics",
-        "population genetics",
-        "genetic variation",
-        "SNP",
-        "variant calling",
-        "reference genome",
-        "allele frequency",
-        "haplotype",
-        "VCF",
-        "BAM",
-        "open data",
-        "international collaboration",
-        "evolutionary biology",
-        "bioinformatics",
-        "precision medicine"
+        "human-genome",
+        "genetic-variation",
+        "population-genetics",
+        "snp",
+        "indel",
+        "structural-variants",
+        "haplotypes",
+        "igsr",
+        "international-genome-sample-resource",
+        "whole-genome-sequencing",
+        "exome-sequencing",
+        "vcf",
+        "bam",
+        "cram",
+        "基因组学",
+        "人类基因组",
+        "遗传变异",
+        "群体遗传学",
+        "单核苷酸多态性",
+        "千人基因组",
+        "生物信息学",
+        "academic-research",
+        "open-data",
+        "fort-lauderdale",
+        "ebi",
+        "nhgri",
+        "sanger-institute"
       ],
       "file_path": "academic/biology/1000-genomes.json"
     },
@@ -130,6 +140,62 @@
         "shanghai-ranking"
       ],
       "file_path": "sectors/P-education/arwu.json"
+    },
+    {
+      "id": "arwu",
+      "name": {
+        "en": "Academic Ranking of World Universities",
+        "zh": "世界大学学术排名"
+      },
+      "description": {
+        "en": "ARWU ranks world universities by academic and research performance indicators including Nobel Prizes, Fields Medals, highly cited researchers, and publications in Nature and Science. More than 2500 universities are ranked annually with the top 1000 published.",
+        "zh": "ARWU通过学术和研究绩效指标对世界大学进行排名，包括诺贝尔奖、菲尔兹奖、高被引研究者以及在Nature和Science上的发表。每年对2500多所大学进行排名，发布前1000名。"
+      },
+      "website": "https://www.shanghairanking.com/",
+      "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "higher education",
+        "university rankings",
+        "academic research",
+        "research performance"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annually",
+      "has_api": false,
+      "tags": {
+        "en": [
+          "university rankings",
+          "ARWU",
+          "Shanghai Ranking",
+          "academic performance",
+          "research metrics",
+          "higher education",
+          "world universities",
+          "Nobel Prize",
+          "Fields Medal",
+          "citation analysis",
+          "research excellence",
+          "global ranking"
+        ],
+        "zh": [
+          "大学排名",
+          "世界大学学术排名",
+          "软科排名",
+          "学术表现",
+          "研究指标",
+          "高等教育",
+          "世界大学",
+          "诺贝尔奖",
+          "菲尔兹奖",
+          "引用分析",
+          "研究卓越",
+          "全球排名"
+        ]
+      },
+      "file_path": "sectors/education/arwu.json"
     },
     {
       "id": "africa-cdc",
@@ -5484,6 +5550,79 @@
       "file_path": "academic/health/pubmed.json"
     },
     {
+      "id": "aws-open-data-registry",
+      "name": {
+        "en": "Registry of Open Data on AWS",
+        "zh": "AWS开放数据注册表"
+      },
+      "description": {
+        "en": "The Registry of Open Data on AWS is a comprehensive repository of publicly available datasets hosted on Amazon Web Services infrastructure. It helps people discover and share datasets that are available via AWS resources. The registry contains over 650 datasets spanning multiple domains including machine learning, astronomy, climate science, economics, genomics, geospatial sciences, life sciences, sustainability, and more. Anyone can access these datasets and build services on top of them using AWS compute and analytics services such as Amazon EC2, Amazon Athena, AWS Lambda, and Amazon EMR. The AWS Open Data Sponsorship Program covers the cost of storage for high-value, cloud-optimized datasets, making them freely accessible to researchers, developers, and data scientists worldwide.",
+        "zh": "AWS开放数据注册表是托管在亚马逊云科技基础设施上的公开可用数据集的综合存储库。它帮助人们发现和共享通过AWS资源可用的数据集。该注册表包含超过650个数据集,涵盖多个领域,包括机器学习、天文学、气候科学、经济学、基因组学、地理空间科学、生命科学、可持续发展等。任何人都可以访问这些数据集,并使用AWS计算和分析服务(如Amazon EC2、Amazon Athena、AWS Lambda和Amazon EMR)在其基础上构建服务。AWS开放数据赞助计划承担高价值、云优化数据集的存储成本,使全球研究人员、开发人员和数据科学家可以免费访问这些数据。"
+      },
+      "website": "https://aws.amazon.com/opendata/",
+      "data_url": "https://registry.opendata.aws/",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "US",
+      "domains": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Computer Science",
+        "Astronomy",
+        "Climate Science",
+        "Economics",
+        "Genomics",
+        "Geospatial",
+        "Life Sciences",
+        "Sustainability",
+        "Transportation",
+        "Chemistry",
+        "Imaging",
+        "Medical Imaging",
+        "Computer Vision",
+        "Disaster Response"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "has_api": false,
+      "tags": [
+        "aws",
+        "open-data",
+        "cloud",
+        "machine-learning",
+        "ai",
+        "artificial-intelligence",
+        "deep-learning",
+        "computer-vision",
+        "nlp",
+        "genomics",
+        "climate",
+        "satellite-imagery",
+        "geospatial",
+        "earth-observation",
+        "life-sciences",
+        "astronomy",
+        "sustainability",
+        "public-datasets",
+        "data-lake",
+        "s3",
+        "开放数据",
+        "机器学习",
+        "人工智能",
+        "深度学习",
+        "计算机视觉",
+        "基因组学",
+        "气候科学",
+        "卫星影像",
+        "地理空间",
+        "生命科学",
+        "公共数据集",
+        "云计算",
+        "数据湖"
+      ],
+      "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+    },
+    {
       "id": "china-robot-industry-alliance",
       "name": {
         "en": "Robot Branch of China Machinery Industry Federation",
@@ -5686,6 +5825,111 @@
         "bilingual"
       ],
       "file_path": "countries/north-america/canada/statcan.json"
+    },
+    {
+      "id": "tennis-abstract-atp-wta",
+      "name": {
+        "en": "Tennis Abstract - ATP/WTA Data",
+        "zh": "Tennis Abstract - ATP/WTA网球数据"
+      },
+      "description": {
+        "en": "Comprehensive open-source database of professional tennis match results, rankings, and statistics maintained by Jeff Sackmann. Covers all ATP and WTA tour-level singles matches from the Open Era (1968-present) with detailed match information, player biographical data, rankings, and in-match statistics. The dataset includes yearly CSV files with match results, rankings data, and player statistics. Data is updated weekly with new rankings and tournament results. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+        "zh": "由Jeff Sackmann维护的全面开源专业网球比赛结果、排名和统计数据库。涵盖公开赛时代（1968年至今）所有ATP和WTA巡回赛级别单打比赛，包含详细的比赛信息、球员传记数据、排名和比赛内统计数据。数据集包括按年份分类的CSV文件，包含比赛结果、排名数据和球员统计。数据每周更新，包含新的排名和锦标赛结果。根据知识共享署名-非商业性使用-相同方式共享4.0国际许可证授权。"
+      },
+      "website": "https://www.tennisabstract.com",
+      "data_url": "https://github.com/JeffSackmann/tennis_atp",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "Sports",
+        "Tennis",
+        "Sports Statistics",
+        "Sports Analytics",
+        "Player Performance",
+        "Tournament Data"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "weekly",
+      "has_api": false,
+      "tags": [
+        "tennis",
+        "网球",
+        "atp",
+        "wta",
+        "sports-data",
+        "体育数据",
+        "match-results",
+        "比赛结果",
+        "rankings",
+        "排名",
+        "sports-statistics",
+        "体育统计",
+        "tennis-analytics",
+        "网球分析",
+        "open-era",
+        "公开赛时代",
+        "grand-slam",
+        "大满贯",
+        "tennis-abstract",
+        "jeff-sackmann",
+        "player-stats",
+        "球员统计",
+        "tournament-data",
+        "锦标赛数据",
+        "historical-data",
+        "历史数据",
+        "csv-data",
+        "open-source",
+        "开源数据"
+      ],
+      "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+    },
+    {
+      "id": "tennis-sackmann",
+      "name": {
+        "en": "Tennis Abstract - ATP/WTA Match Data",
+        "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+      },
+      "description": {
+        "en": "Comprehensive open-source database of professional tennis statistics maintained by Jeff Sackmann (Tennis Abstract). Includes historical ATP and WTA rankings, match results, player biographical data, and detailed match statistics from 1968 to present. The dataset covers tour-level events, qualifying rounds, challengers, futures, and ITF tournaments, making it one of the most complete publicly available tennis databases.",
+        "zh": "由 Jeff Sackmann（Tennis Abstract）维护的综合性开源职业网球统计数据库。包含1968年至今的ATP和WTA历史排名、比赛结果、球员传记数据和详细的比赛统计。数据集涵盖巡回赛级别赛事、资格赛、挑战赛、期货赛和ITF锦标赛，是最完整的公开网球数据库之一。"
+      },
+      "website": "https://github.com/JeffSackmann",
+      "data_url": "https://github.com/JeffSackmann/tennis_atp",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "sports",
+        "statistics",
+        "athletics"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "has_api": false,
+      "tags": [
+        "tennis",
+        "网球",
+        "ATP",
+        "WTA",
+        "rankings",
+        "排名",
+        "match results",
+        "比赛结果",
+        "player statistics",
+        "球员统计",
+        "sports data",
+        "体育数据",
+        "open data",
+        "开放数据",
+        "CSV",
+        "grand slam",
+        "大满贯",
+        "professional tennis",
+        "职业网球"
+      ],
+      "file_path": "sectors/sports/tennis-sackmann.json"
     },
     {
       "id": "tcga",

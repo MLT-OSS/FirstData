@@ -9,7 +9,7 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![数据源数量](https://img.shields.io/badge/数据源-132%2F1000+-blue.svg)](tasks/README.md)
+[![数据源数量](https://img.shields.io/badge/数据源-135%2F1000+-blue.svg)](tasks/README.md)
 [![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](ROADMAP.md)
 [![权威性](https://img.shields.io/badge/权威性-政府与国际组织优先-brightgreen.svg)](#)
 [![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](firstdata-mcp/)
@@ -78,8 +78,8 @@
 | 🇨🇳**中国政府** | 19 / 500+             | 人民银行、国家统计局、海关总署、证监会... |
 | 🌎**各国官方**   | 25 / 200+             | 美国、加拿大、日本、英国、澳大利亚...     |
 | 🎓**学术机构**   | 26 / 100+             | NBER、Penn World Table、PubMed...         |
-| 🏭**行业领域**   | 29 / 100+             | 能源、金融、健康、气候...                 |
-| **合计**         | **132 / 1000+** | **完成度13%**                       |
+| 🏭**行业领域**   | 32 / 100+             | 能源、金融、健康、气候...                 |
+| **合计**         | **135 / 1000+** | **完成度13%**                       |
 
 ### 已完成数据源 | Completed Sources
 
@@ -99,7 +99,7 @@
 
 📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 行业领域 (29个)
+#### 🏭 行业领域 (32个)
 
 📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
 

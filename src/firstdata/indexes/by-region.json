@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T15:17:04.815214",
+    "generated_at": "2026-02-04T23:02:13.969929",
     "total_regions": 12,
-    "total_sources": 132,
+    "total_sources": 136,
     "version": "2.0"
   },
   "regions": {
@@ -729,13 +729,13 @@
     ],
     "global": [
       {
-        "id": "1000-genomes",
+        "id": "1000-genomes-project",
         "name": {
           "en": "1000 Genomes Project",
           "zh": "千人基因组计划"
         },
         "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
         "has_api": false,
         "geographic_scope": "global",
         "file_path": "academic/biology/1000-genomes.json"
@@ -763,6 +763,18 @@
         "has_api": false,
         "geographic_scope": "global",
         "file_path": "sectors/P-education/arwu.json"
+      },
+      {
+        "id": "arwu",
+        "name": {
+          "en": "Academic Ranking of World Universities",
+          "zh": "世界大学学术排名"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/education/arwu.json"
       },
       {
         "id": "amis",
@@ -1345,6 +1357,18 @@
         "file_path": "academic/health/pubmed.json"
       },
       {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      },
+      {
         "id": "bp-statistical-review",
         "name": {
           "en": "Statistical Review of World Energy",
@@ -1355,6 +1379,30 @@
         "has_api": false,
         "geographic_scope": "global",
         "file_path": "sectors/D-energy/bp-statistical-review.json"
+      },
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+      },
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "geographic_scope": "global",
+        "file_path": "sectors/sports/tennis-sackmann.json"
       },
       {
         "id": "acad-conferenceboard",

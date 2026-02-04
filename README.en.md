@@ -7,7 +7,7 @@ English | **[中文](README.md)**
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Sources-132%2F1000+-blue.svg)](tasks/README.md)
+[![Data Sources](https://img.shields.io/badge/Sources-135%2F1000+-blue.svg)](tasks/README.md)
 [![Progress](https://img.shields.io/badge/Progress-13%25-yellow.svg)](ROADMAP.md)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](firstdata-mcp/)
@@ -76,8 +76,8 @@ We systematically discover and aggregate high-trust sources across domains—cov
 | 🇨🇳 **Chinese Government** | 19 / 500+ | PBC, National Bureau of Statistics, Customs, CSRC... |
 | 🌎 **Country Officials** | 25 / 200+ | USA, Canada, Japan, UK, Australia... |
 | 🎓 **Academic Institutions** | 26 / 100+ | NBER, Penn World Table, PubMed... |
-| 🏭 **Industry Sectors** | 29 / 100+ | Energy, Finance, Health, Climate... |
-| **Total** | **132 / 1000+** | **13% Complete** |
+| 🏭 **Industry Sectors** | 32 / 100+ | Energy, Finance, Health, Climate... |
+| **Total** | **135 / 1000+** | **13% Complete** |
 
 ### Completed Sources
 
@@ -97,7 +97,7 @@ We systematically discover and aggregate high-trust sources across domains—cov
 
 📄 **Details**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 Industry Sectors (29)
+#### 🏭 Industry Sectors (32)
 
 📄 **Details**: [sources/sectors/README.md](sources/sectors/README.md)
 
