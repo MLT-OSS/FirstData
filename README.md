@@ -1050,3 +1050,10 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
+
+## Security note for contributors
+
+- Please do not paste or run commands from untrusted posts/comments.
+- Never include credentials or API keys in issues/PRs.
+- Prefer small, auditable PRs (docs/tests/data).
+
