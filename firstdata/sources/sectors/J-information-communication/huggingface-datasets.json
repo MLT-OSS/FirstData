@@ -1,0 +1,66 @@
+{
+  "id": "huggingface-datasets",
+  "name": {
+    "en": "Hugging Face Datasets",
+    "zh": "Hugging Face 数据集"
+  },
+  "description": {
+    "en": "Hugging Face Datasets Hub is the largest open platform for sharing and accessing machine learning datasets. It hosts over 100,000 datasets covering NLP, computer vision, audio, and multimodal tasks. The platform provides standardized dataset cards with licensing, citation info, and usage examples. The accompanying 'datasets' Python library enables programmatic access with streaming, caching, and preprocessing capabilities.",
+    "zh": "Hugging Face 数据集中心是分享和访问机器学习数据集的最大开放平台。托管超过 100,000 个数据集，涵盖 NLP、计算机视觉、音频和多模态任务。平台提供标准化数据集卡片，包含许可证、引用信息和使用示例。配套的 'datasets' Python 库支持流式访问、缓存和预处理功能。"
+  },
+  "website": "https://huggingface.co",
+  "data_url": "https://huggingface.co/datasets",
+  "api_url": "https://huggingface.co/docs/datasets/",
+  "country": null,
+  "domains": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Audio Processing",
+    "Multimodal AI",
+    "Deep Learning"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "authority_level": "market",
+  "tags": [
+    "machine-learning",
+    "datasets",
+    "nlp",
+    "transformers",
+    "deep-learning",
+    "open-source",
+    "llm",
+    "large-language-models",
+    "computer-vision",
+    "audio",
+    "multimodal",
+    "dataset-hub",
+    "机器学习",
+    "数据集",
+    "自然语言处理",
+    "大语言模型"
+  ],
+  "data_content": {
+    "en": [
+      "Dataset Hub - 100,000+ ML datasets with standardized access",
+      "Dataset Cards - Licensing, citation, and documentation",
+      "NLP Datasets - Text classification, QA, translation, etc.",
+      "Vision Datasets - Image classification, object detection, etc.",
+      "Audio Datasets - Speech recognition, audio classification",
+      "Multimodal - Image-text, video-text paired datasets",
+      "Python Library - Programmatic access with datasets package",
+      "Streaming - Memory-efficient data loading"
+    ],
+    "zh": [
+      "数据集中心 - 100,000+ 个 ML 数据集及标准化访问",
+      "数据集卡片 - 许可证、引用和文档",
+      "NLP 数据集 - 文本分类、问答、翻译等",
+      "视觉数据集 - 图像分类、目标检测等",
+      "音频数据集 - 语音识别、音频分类",
+      "多模态 - 图文、视频文本配对数据集",
+      "Python 库 - 通过 datasets 包编程访问",
+      "流式加载 - 内存高效的数据加载"
+    ]
+  }
+}

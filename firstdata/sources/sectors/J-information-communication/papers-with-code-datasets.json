@@ -1,0 +1,63 @@
+{
+  "id": "papers-with-code-datasets",
+  "name": {
+    "en": "Papers With Code Datasets",
+    "zh": "Papers With Code 数据集"
+  },
+  "description": {
+    "en": "Papers With Code is a community-curated resource linking machine learning papers with their code implementations and datasets. The datasets section catalogs over 8,000 ML datasets with standardized metadata, benchmarks, and direct links to academic papers. Each dataset includes task categories, evaluation metrics, and state-of-the-art results, making it an essential reference for ML researchers and practitioners.",
+    "zh": "Papers With Code 是一个社区策划的资源，将机器学习论文与其代码实现和数据集关联起来。数据集部分收录了超过 8,000 个 ML 数据集，提供标准化元数据、基准测试和学术论文直接链接。每个数据集都包含任务类别、评估指标和最先进的结果，是 ML 研究人员和从业者的重要参考资源。"
+  },
+  "website": "https://paperswithcode.com",
+  "data_url": "https://paperswithcode.com/datasets",
+  "api_url": "https://paperswithcode.com/api/v1/docs/",
+  "country": null,
+  "domains": [
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Reinforcement Learning"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "authority_level": "research",
+  "tags": [
+    "machine-learning",
+    "datasets",
+    "benchmarks",
+    "deep-learning",
+    "nlp",
+    "computer-vision",
+    "academic-papers",
+    "code-implementations",
+    "sota",
+    "state-of-the-art",
+    "ml-research",
+    "ai-benchmarks",
+    "机器学习",
+    "数据集",
+    "基准测试"
+  ],
+  "data_content": {
+    "en": [
+      "Dataset Catalog - 8,000+ ML datasets with standardized metadata",
+      "Task Categories - Classification, detection, generation, etc.",
+      "Benchmark Results - State-of-the-art performance comparisons",
+      "Paper Links - Direct connections to academic publications",
+      "Code Implementations - Links to GitHub repositories",
+      "Evaluation Metrics - Standard metrics for each task",
+      "Leaderboards - Ranked model performance tables"
+    ],
+    "zh": [
+      "数据集目录 - 8,000+ 个 ML 数据集及标准化元数据",
+      "任务类别 - 分类、检测、生成等",
+      "基准测试结果 - 最先进性能对比",
+      "论文链接 - 学术出版物直接链接",
+      "代码实现 - GitHub 仓库链接",
+      "评估指标 - 每个任务的标准指标",
+      "排行榜 - 模型性能排名表"
+    ]
+  }
+}
