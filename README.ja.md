@@ -68,46 +68,31 @@
 
 ## 📊 データソースの概要
 
-### 現在の統計
+### カバレッジ
 
-| カテゴリ | 件数 | カバレッジ |
-| -------- | ----- | -------- |
-| 🌍 **国際機関** | 33 / 100以上 | 世界銀行、IMF、OECD、WHO、FAO... |
-| 🇨🇳 **中国政府** | 19 / 500以上 | PBC、国家統計局、税関、CSRC... |
-| 🌎 **各国公式** | 25 / 200以上 | 米国、カナダ、日本、英国、オーストラリア... |
-| 🎓 **学術機関** | 26 / 100以上 | NBER、ペンワールドテーブル、PubMed... |
-| 🏭 **産業セクター** | 32 / 100以上 | エネルギー、金融、健康、気候... |
-| **合計** | **135 / 1000以上** | **13% 完了** |
+政府・国際機関レベルの権威あるソースを優先的に収録し、トップ学術機関・業界権威ソースも幅広くカバー：
 
-### 完了済みソース
+| カテゴリ | 代表的なソース |
+| -------- | -------------- |
+| 🌍 **国際機関** | 世界銀行、IMF、OECD、WHO、FAO... |
+| 🇨🇳 **中国政府** | PBC、国家統計局、税関、CSRC... |
+| 🌎 **各国公式機関** | 米国、カナダ、日本、英国、オーストラリア... |
+| 🎓 **学術機関** | NBER、ペンワールドテーブル、PubMed... |
+| 🏭 **産業セクター** | エネルギー、金融、健康、気候... |
 
-#### 🌍 国際機関（33）
+### データソース一覧
 
-📄 **詳細**: [sources/international/README.md](sources/international/README.md)
+📄 収録済みの全データソースを閲覧する：[firstdata/sources/README.md](firstdata/sources/README.md)
 
-#### 🇨🇳 中国データソース（19）
+### 品質基準
 
-📄 **詳細**: [sources/china/README.md](sources/china/README.md)
+収録するすべてのデータソースは以下の基準を満たしています：
 
-#### 🌎 各国公式（25）
-
-📄 **詳細**: [sources/countries/README.md](sources/countries/README.md)
-
-#### 🎓 学術研究（26）
-
-📄 **詳細**: [sources/academic/README.md](sources/academic/README.md)
-
-#### 🏭 産業セクター（32）
-
-📄 **詳細**: [sources/sectors/README.md](sources/sectors/README.md)
-
-### 品質保証：すべてのデータソースが信頼できる基盤であることを確保
-
-- ✅ **100% URL検証** - すべてのリンクをテストし、利用可能
-- ✅ **権威性を優先** - 主に政府および国際機関のデータソースを収録
-- ✅ **メタデータ検証** - すべてのJSONファイルがスキーマ検証を通過
-- ✅ **バイリンガル文書** - すべてのデータソースが中国語と英語の説明を提供
-- ✅ **完全な証拠チェーン** - クエリから元データまでの完全なパスを提供
+- ✅ **100% URL検証** — すべてのリンクをテストし、利用可能
+- ✅ **権威性を優先** — 主に政府および国際機関のデータソースを収録
+- ✅ **メタデータ検証** — すべてのJSONファイルがスキーマ検証を通過
+- ✅ **バイリンガル文書** — すべてのデータソースが中国語と英語の説明を提供
+- ✅ **完全な証拠チェーン** — クエリから元データまでの完全なパスを提供
 
 ## 📐 メタデータ構造
 
@@ -1011,7 +996,7 @@ Visual Studio MCP設定ドキュメントを参照し、以下の設定を使用
 ### WeChatグループ
 
 <div align="center">
-  <img src="docs/images/wechat-qrcode.png" alt="WeChatグループQRコード" width="300"/>
+  <img src="assets/wechat-qrcode.png" alt="WeChatグループQRコード" width="300"/>
   <p><i>スキャンしてWeChatグループに参加</i></p>
 </div>
 
@@ -1020,6 +1005,10 @@ Visual Studio MCP設定ドキュメントを参照し、以下の設定を使用
 > - テクニカルサポートとベストプラクティスを入手
 > - プロジェクトの開発と貢献に参加
 > - 最新のデータソース更新と機能リリースを把握
+
+## Star履歴
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
 
 ## 📄 ライセンス
 
@@ -1042,7 +1031,3 @@ Visual Studio MCP設定ドキュメントを参照し、以下の設定を使用
   <a href="#-クイックスタート">クイックスタート</a> •
   <a href="#-貢献方法">貢献</a>
 </p>
-
-## Star履歴
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
