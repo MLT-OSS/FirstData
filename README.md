@@ -70,46 +70,31 @@
 
 ## 📊 数据源概览
 
-### 当前统计
+### 覆盖范围
 
-| 类别                   | 数量                  | 覆盖内容                                  |
-| ---------------------- | --------------------- | ----------------------------------------- |
-| 🌍**国际组织**   | 33 / 100+             | 世界银行、IMF、OECD、WHO、FAO...          |
-| 🇨🇳**中国政府** | 19 / 500+             | 人民银行、国家统计局、海关总署、证监会... |
-| 🌎**各国官方**   | 25 / 200+             | 美国、加拿大、日本、英国、澳大利亚...     |
-| 🎓**学术机构**   | 26 / 100+             | NBER、Penn World Table、PubMed...         |
-| 🏭**行业领域**   | 32 / 100+             | 能源、金融、健康、气候...                 |
-| **合计**         | **135 / 1000+** | **完成度13%**                       |
+优先收录政府级与国际组织级权威数据源，同步覆盖顶级学术机构与行业权威来源：
 
-### 已完成数据源 | Completed Sources
+| 类别              | 典型来源                                  |
+| ----------------- | ----------------------------------------- |
+| 🌍 **国际组织**   | 世界银行、IMF、OECD、WHO、FAO...          |
+| 🇨🇳 **中国政府** | 人民银行、国家统计局、海关总署、证监会... |
+| 🌎 **各国官方**   | 美国、加拿大、日本、英国、澳大利亚...     |
+| 🎓 **学术机构**   | NBER、Penn World Table、PubMed...         |
+| 🏭 **行业领域**   | 能源、金融、健康、气候...                 |
 
-#### 🌍 国际组织 (33个)
+### 数据源列表
 
-📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
+📄 浏览已收录的所有数据源：[firstdata/sources/README.md](firstdata/sources/README.md)
 
-#### 🇨🇳 中国数据源 (19个)
+### 质量标准
 
-📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
+每个收录的数据源均满足以下标准：
 
-#### 🌎 各国官方 (25个)
-
-📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
-
-#### 🎓 学术研究 (26个)
-
-📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
-
-#### 🏭 行业领域 (32个)
-
-📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
-
-### 质量保证：确保每个数据源都是可信底座
-
-- ✅ **100% URL验证** - 每个链接都经过测试且可用
-- ✅ **权威性优先** - 主要收录政府和国际组织数据源
-- ✅ **元数据验证** - 所有JSON文件通过schema验证
-- ✅ **双语文档** - 所有数据源提供中英文说明
-- ✅ **证据链完整** - 提供从查询到原始数据的完整路径
+- ✅ **100% URL验证** — 每个链接都经过测试且可用
+- ✅ **权威性优先** — 主要收录政府和国际组织数据源
+- ✅ **元数据验证** — 所有JSON文件通过schema验证
+- ✅ **双语文档** — 所有数据源提供中英文说明
+- ✅ **证据链完整** — 提供从查询到原始数据的完整路径
 
 ## 📐 元数据结构
 
@@ -1014,7 +999,7 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 ### 微信交流群 | WeChat Group
 
 <div align="center">
-  <img src="docs/images/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
+  <img src="assets/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
   <p><i>扫描二维码加入微信群 | Scan to join WeChat group</i></p>
 </div>
 
@@ -1023,6 +1008,10 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 > - 获取技术支持和最佳实践
 > - 参与项目开发和贡献
 > - 了解最新的数据源更新和功能发布
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
 
 ## 📄 许可协议
 
@@ -1044,9 +1033,5 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
   <a href="#-核心优势">核心优势</a> •
   <a href="#-数据源概览">数据源概览</a> •
   <a href="#-快速开始">快速开始</a> •
-  <a href="#-如何贡献">如何贡献</a> 
+  <a href="#-如何贡献">如何贡献</a>
 </p>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)

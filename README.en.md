@@ -68,46 +68,31 @@ We systematically discover and aggregate high-trust sources across domains—cov
 
 ## 📊 Data Source Overview
 
-### Current Statistics
+### Coverage
 
-| Category | Count | Coverage |
-| -------- | ----- | -------- |
-| 🌍 **International Organizations** | 33 / 100+ | World Bank, IMF, OECD, WHO, FAO... |
-| 🇨🇳 **Chinese Government** | 19 / 500+ | PBC, National Bureau of Statistics, Customs, CSRC... |
-| 🌎 **Country Officials** | 25 / 200+ | USA, Canada, Japan, UK, Australia... |
-| 🎓 **Academic Institutions** | 26 / 100+ | NBER, Penn World Table, PubMed... |
-| 🏭 **Industry Sectors** | 32 / 100+ | Energy, Finance, Health, Climate... |
-| **Total** | **135 / 1000+** | **13% Complete** |
+Prioritizing government and international organization sources, with coverage extending to top academic institutions and authoritative industry sources:
 
-### Completed Sources
+| Category | Examples |
+| -------- | -------- |
+| 🌍 **International Organizations** | World Bank, IMF, OECD, WHO, FAO... |
+| 🇨🇳 **Chinese Government** | PBC, National Bureau of Statistics, Customs, CSRC... |
+| 🌎 **National Official Sources** | USA, Canada, Japan, UK, Australia... |
+| 🎓 **Academic Institutions** | NBER, Penn World Table, PubMed... |
+| 🏭 **Industry Sectors** | Energy, Finance, Health, Climate... |
 
-#### 🌍 International Organizations (33)
+### Browse Sources
 
-📄 **Details**: [sources/international/README.md](sources/international/README.md)
+📄 View all included data sources: [firstdata/sources/README.md](firstdata/sources/README.md)
 
-#### 🇨🇳 Chinese Data Sources (19)
+### Quality Standards
 
-📄 **Details**: [sources/china/README.md](sources/china/README.md)
+Every included data source meets the following criteria:
 
-#### 🌎 Country Officials (25)
-
-📄 **Details**: [sources/countries/README.md](sources/countries/README.md)
-
-#### 🎓 Academic Research (26)
-
-📄 **Details**: [sources/academic/README.md](sources/academic/README.md)
-
-#### 🏭 Industry Sectors (32)
-
-📄 **Details**: [sources/sectors/README.md](sources/sectors/README.md)
-
-### Quality Assurance: Ensuring Every Data Source is a Trusted Foundation
-
-- ✅ **100% URL Verification** - Every link is tested and available
-- ✅ **Authority First** - Primarily includes government and international organization data sources
-- ✅ **Metadata Validation** - All JSON files pass schema validation
-- ✅ **Bilingual Documentation** - All data sources provide Chinese and English descriptions
-- ✅ **Complete Evidence Chain** - Provides complete path from query to raw data
+- ✅ **100% URL Verification** — Every link is tested and available
+- ✅ **Authority First** — Primarily includes government and international organization data sources
+- ✅ **Metadata Validation** — All JSON files pass schema validation
+- ✅ **Bilingual Documentation** — All data sources provide Chinese and English descriptions
+- ✅ **Complete Evidence Chain** — Provides complete path from query to raw data
 
 ## 📐 Metadata Structure
 
@@ -1011,7 +996,7 @@ Join our community to connect with data researchers, developers, and contributor
 ### WeChat Group
 
 <div align="center">
-  <img src="docs/images/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
+  <img src="assets/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
   <p><i>Scan to join WeChat group</i></p>
 </div>
 
@@ -1020,6 +1005,10 @@ Join our community to connect with data researchers, developers, and contributor
 > - Get technical support and best practices
 > - Participate in project development and contributions
 > - Learn about latest data source updates and feature releases
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
 
 ## 📄 License
 
@@ -1042,7 +1031,3 @@ This project is open source under the [MIT License](LICENSE).
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-how-to-contribute">Contribute</a>
 </p>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
