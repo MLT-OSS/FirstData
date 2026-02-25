@@ -1,37 +1,33 @@
 {
   "metadata": {
-    "generated_at": "2026-02-04T23:02:13.970358",
+    "generated_at": "2026-02-25T11:14:27.919895+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 135,
-    "sources_with_api": 66,
-    "last_updated": "2026-02-04"
+    "total_sources": 134,
+    "sources_with_api": 65,
+    "last_updated": "2026-02-25"
   },
   "by_authority_level": {
-    "research": 30,
+    "research": 29,
     "international": 36,
-    "government": 52,
+    "government": 51,
     "commercial": 6,
     "market": 12
   },
   "by_geographic_scope": {
-    "global": 64,
+    "global": 62,
     "national": 57,
     "regional": 15
-  },
-  "by_access_level": {
-    "unknown": 135
   },
   "by_update_frequency": {
     "irregular": 35,
     "daily": 28,
     "weekly": 7,
-    "quarterly": 11,
+    "quarterly": 10,
     "monthly": 25,
     "annual": 24,
-    "real-time": 5,
-    "annually": 1
+    "real-time": 5
   },
   "by_domain": {
     "economics": 26,
@@ -60,7 +56,6 @@
     "agriculture": 5,
     "Molecular Biology": 4,
     "Pharmaceutical Sciences": 4,
-    "Payment Systems": 4,
     "population": 4,
     "Infrastructure": 4,
     "banking": 4,
@@ -83,7 +78,6 @@
     "epidemiology": 3,
     "Pharmacology": 3,
     "Toxicology": 3,
-    "Derivatives": 3,
     "Economics": 3,
     "Employment": 3,
     "productivity": 3,
@@ -95,6 +89,7 @@
     "electronics": 3,
     "Financial Markets": 3,
     "Balance of Payments": 3,
+    "Payment Systems": 3,
     "exchange_rates": 3,
     "Interest Rates": 3,
     "Financial Stability": 3,
@@ -117,7 +112,6 @@
     "Organic Chemistry": 2,
     "Inorganic Chemistry": 2,
     "Drug Development": 2,
-    "Foreign Exchange": 2,
     "Labor Markets": 2,
     "labor": 2,
     "inequality": 2,
@@ -158,6 +152,7 @@
     "Innovation": 2,
     "Environmental Sustainability": 2,
     "Climate Resilience": 2,
+    "Derivatives": 2,
     "Automotive": 2,
     "Computational Linguistics": 2,
     "Image Classification": 2,
@@ -195,13 +190,6 @@
     "Clinical Pharmacology": 1,
     "Drug Metabolism": 1,
     "Medicine": 1,
-    "International Banking": 1,
-    "Debt Securities": 1,
-    "Credit Markets": 1,
-    "Property Prices": 1,
-    "Consumer Prices": 1,
-    "Global Liquidity": 1,
-    "Central Bank Statistics": 1,
     "Business Cycles": 1,
     "Consumer Confidence": 1,
     "Economic Forecasting": 1,
@@ -569,6 +557,7 @@
     "Named Entity Recognition": 1,
     "Parsing": 1,
     "Semantic Analysis": 1,
+    "Foreign Exchange": 1,
     "Cryptocurrencies": 1,
     "Economic Indicators": 1,
     "Technical Analysis": 1,
@@ -626,10 +615,6 @@
     "Imaging": 1,
     "Medical Imaging": 1,
     "Disaster Response": 1,
-    "higher education": 1,
-    "university rankings": 1,
-    "academic research": 1,
-    "research performance": 1,
     "Sports": 1,
     "Sports Analytics": 1,
     "Player Performance": 1,
