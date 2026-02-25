@@ -59,6 +59,6 @@ jobs:
         run: |
           git config user.name "firstdata[bot]"
           git config user.email "firstdata@mininglamp.com"
-          git add firstdata/indexes/ firstdata/badges/
+          git add firstdata/indexes/ assets/badges/
           git diff --cached --quiet || git commit -m "chore(indexes): auto-update indexes"
           git push
