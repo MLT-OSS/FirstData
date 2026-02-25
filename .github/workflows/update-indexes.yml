@@ -29,6 +29,9 @@ jobs:
       - name: Check for duplicate IDs
         run: uv run python scripts/check_ids.py
 
+      - name: Check domain consistency
+        run: uv run python scripts/check_domains.py
+
       - name: Rebuild indexes
         run: uv run python scripts/build_indexes.py
 
