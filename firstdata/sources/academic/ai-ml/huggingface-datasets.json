@@ -1,0 +1,61 @@
+{
+  "id": "huggingface-datasets",
+  "name": {
+    "en": "Hugging Face Datasets Hub",
+    "zh": "Hugging Face 数据集中心"
+  },
+  "description": {
+    "en": "Hugging Face Datasets Hub is the largest open repository of machine learning datasets, hosting 100,000+ datasets from the global AI community. The platform provides standardized dataset cards with licensing, citation info, and usage statistics. Integrated with the Hugging Face ecosystem for seamless loading via the datasets library.",
+    "zh": "Hugging Face 数据集中心是最大的开放机器学习数据集仓库，托管来自全球 AI 社区的 100,000 多个数据集。平台提供标准化的数据集卡片，包含许可证、引用信息和使用统计。与 Hugging Face 生态系统集成，可通过 datasets 库无缝加载。"
+  },
+  "website": "https://huggingface.co",
+  "data_url": "https://huggingface.co/datasets",
+  "api_url": "https://huggingface.co/docs/hub/api",
+  "country": null,
+  "domains": [
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Audio Processing",
+    "Multimodal AI"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "authority_level": "research",
+  "tags": [
+    "machine-learning",
+    "datasets",
+    "huggingface",
+    "nlp",
+    "open-source",
+    "ai-community",
+    "transformers",
+    "deep-learning",
+    "dataset-hub",
+    "机器学习数据集",
+    "开源数据"
+  ],
+  "data_content": {
+    "en": [
+      "100,000+ community-contributed datasets",
+      "Standardized dataset cards with metadata",
+      "Licensing and citation information",
+      "Download statistics and trending datasets",
+      "Task-based categorization",
+      "Language and modality filters",
+      "Direct integration with datasets library",
+      "Version control and dataset revisions"
+    ],
+    "zh": [
+      "100,000+ 社区贡献的数据集",
+      "标准化数据集卡片及元数据",
+      "许可证和引用信息",
+      "下载统计和热门数据集",
+      "基于任务的分类",
+      "语言和模态筛选",
+      "与 datasets 库直接集成",
+      "版本控制和数据集修订"
+    ]
+  }
+}
