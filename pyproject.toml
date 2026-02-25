@@ -1,0 +1,11 @@
+[project]
+name = "firstdata"
+version = "0.1.0"
+description = "A curated knowledge base of global authoritative open data sources"
+authors = [
+    { name = "mininglamp", email = "firstdata@mininglamp.com" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "check-jsonschema>=0.36.2",
+]

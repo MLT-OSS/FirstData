@@ -9,8 +9,8 @@
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![数据源数量](https://img.shields.io/badge/数据源-132%2F1000+-blue.svg)](tasks/README.md)
-[![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](ROADMAP.md)
+[![数据源数量](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ningzimu/FirstData/main/firstdata/badges/sources-count.json)](firstdata/indexes/statistics.json)
+[![完成进度](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ningzimu/FirstData/main/firstdata/badges/progress.json)](firstdata/indexes/statistics.json)
 [![权威性](https://img.shields.io/badge/权威性-政府与国际组织优先-brightgreen.svg)](#)
 [![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](firstdata-mcp/)
 

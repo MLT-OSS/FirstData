@@ -59,12 +59,11 @@ batch-temp/
 *_REPORT.md
 batch-run-results*.md
 
-# Claude Code settings (contains secrets)
-.claude/settings.local.json
 .env
 
 # logs
 logs/
 
-# MCP server files
-.mcp.json
+# AI IDE
+.claude/
+**/CLAUDE.md
