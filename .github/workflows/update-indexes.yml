@@ -27,30 +27,7 @@ jobs:
             --schemafile firstdata/schemas/datasource-schema.json
 
       - name: Check for duplicate IDs
-        run: |
-          uv run python - <<'EOF'
-          import json, sys
-          from pathlib import Path
-
-          seen = {}
-          errors = []
-
-          for path in sorted(Path("firstdata/sources").rglob("*.json")):
-              data = json.loads(path.read_text(encoding="utf-8"))
-              id_ = data.get("id")
-              if id_ in seen:
-                  errors.append(f"Duplicate id '{id_}' in:\n  {seen[id_]}\n  {path}")
-              else:
-                  seen[id_] = path
-
-          if errors:
-              print("❌ Duplicate IDs found:")
-              for e in errors:
-                  print(e)
-              sys.exit(1)
-
-          print(f"✅ All {len(seen)} IDs are unique.")
-          EOF
+        run: uv run python scripts/check_ids.py
 
       - name: Rebuild indexes
         run: uv run python scripts/build_indexes.py
