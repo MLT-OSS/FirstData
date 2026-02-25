@@ -10,7 +10,7 @@ This directory contains metadata for all data sources included in FirstData.
 
 ```
 总目标: 1000+ 个数据源
-当前完成: 136 个
+当前完成: 135 个
 完成度: ████░░░░░░░░░░░░░░░░ 13%
 ```
 
@@ -21,7 +21,7 @@ This directory contains metadata for all data sources included in FirstData.
 | 🌎 各国 Countries | 200+ | 25 | 13% |
 | 🎓 学术 Academic | 100+ | 26 | 26% |
 | 🏭 行业 Sectors | 100+ | 32 | 32% |
-| **总计 Total** | **1000+** | **136** | **13%** |
+| **总计 Total** | **1000+** | **135** | **13%** |
 
 ## 目录结构 | Directory Structure
 
