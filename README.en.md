@@ -7,10 +7,10 @@ English | **[中文](README.md)** | **[日本語](README.ja.md)**
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/badge/Sources-132%2F1000+-blue.svg)](tasks/README.md)
-[![Progress](https://img.shields.io/badge/Progress-13%25-yellow.svg)](ROADMAP.md)
+[![Data Sources](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ningzimu/FirstData/main/assets/badges/sources-count.json)](firstdata/indexes/statistics.json)
+[![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ningzimu/FirstData/main/assets/badges/progress.json)](firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
-[![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](firstdata-mcp/)
+[![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
 
 ---
 

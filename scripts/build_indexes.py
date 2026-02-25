@@ -9,7 +9,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 SOURCES_DIR = REPO_ROOT / "firstdata" / "sources"
 INDEXES_DIR = REPO_ROOT / "firstdata" / "indexes"
-BADGES_DIR = REPO_ROOT / "firstdata" / "badges"
+BADGES_DIR = REPO_ROOT / "assets" / "badges"
 
 SCHEMA_VERSION = "2.0"
 TARGET_TOTAL = 1000
@@ -150,7 +150,7 @@ def build_badges(sources: list[dict]) -> list[tuple[Path, dict]]:
             BADGES_DIR / "sources-count.json",
             {
                 "schemaVersion": 1,
-                "label": "数据源",
+                "label": "sources",
                 "message": f"{total}/{TARGET_TOTAL}+",
                 "color": "blue",
             },
@@ -159,7 +159,7 @@ def build_badges(sources: list[dict]) -> list[tuple[Path, dict]]:
             BADGES_DIR / "progress.json",
             {
                 "schemaVersion": 1,
-                "label": "进度",
+                "label": "progress",
                 "message": f"{pct}%",
                 "color": color,
             },
