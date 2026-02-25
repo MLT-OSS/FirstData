@@ -1,11 +1,138 @@
 {
   "metadata": {
-    "generated_at": "2026-02-25T09:27:50.976256+00:00",
-    "total_sources": 131,
+    "generated_at": "2026-02-25T09:41:35.864828+00:00",
+    "total_sources": 133,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
   "sources": [
+    {
+      "id": "huggingface-datasets",
+      "name": {
+        "en": "Hugging Face Datasets Hub",
+        "zh": "Hugging Face 数据集中心"
+      },
+      "description": {
+        "en": "Hugging Face Datasets Hub is the largest open repository of machine learning datasets, hosting 100,000+ datasets from the global AI community. The platform provides standardized dataset cards with licensing, citation info, and usage statistics. Integrated with the Hugging Face ecosystem for seamless loading via the datasets library.",
+        "zh": "Hugging Face 数据集中心是最大的开放机器学习数据集仓库，托管来自全球 AI 社区的 100,000 多个数据集。平台提供标准化的数据集卡片，包含许可证、引用信息和使用统计。与 Hugging Face 生态系统集成，可通过 datasets 库无缝加载。"
+      },
+      "website": "https://huggingface.co",
+      "data_url": "https://huggingface.co/datasets",
+      "api_url": "https://huggingface.co/docs/hub/api",
+      "country": null,
+      "domains": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Audio Processing",
+        "Multimodal AI"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "authority_level": "research",
+      "tags": [
+        "machine-learning",
+        "datasets",
+        "huggingface",
+        "nlp",
+        "open-source",
+        "ai-community",
+        "transformers",
+        "deep-learning",
+        "dataset-hub",
+        "机器学习数据集",
+        "开源数据"
+      ],
+      "data_content": {
+        "en": [
+          "100,000+ community-contributed datasets",
+          "Standardized dataset cards with metadata",
+          "Licensing and citation information",
+          "Download statistics and trending datasets",
+          "Task-based categorization",
+          "Language and modality filters",
+          "Direct integration with datasets library",
+          "Version control and dataset revisions"
+        ],
+        "zh": [
+          "100,000+ 社区贡献的数据集",
+          "标准化数据集卡片及元数据",
+          "许可证和引用信息",
+          "下载统计和热门数据集",
+          "基于任务的分类",
+          "语言和模态筛选",
+          "与 datasets 库直接集成",
+          "版本控制和数据集修订"
+        ]
+      },
+      "has_api": true,
+      "file_path": "academic/ai-ml/huggingface-datasets.json"
+    },
+    {
+      "id": "papers-with-code-datasets",
+      "name": {
+        "en": "Papers With Code Datasets",
+        "zh": "Papers With Code 数据集"
+      },
+      "description": {
+        "en": "Papers With Code Datasets is a comprehensive repository linking 8,000+ machine learning datasets to academic papers, benchmarks, and state-of-the-art results. Each dataset entry includes associated papers, benchmark leaderboards, task categories, and modality tags. The platform serves as the authoritative source for tracking ML research progress and dataset discovery.",
+        "zh": "Papers With Code 数据集是一个综合资源库，将 8,000 多个机器学习数据集与学术论文、基准测试和最先进的结果相链接。每个数据集条目包含相关论文、基准排行榜、任务类别和模态标签。该平台是追踪机器学习研究进展和数据集发现的权威来源。"
+      },
+      "website": "https://paperswithcode.com",
+      "data_url": "https://paperswithcode.com/datasets",
+      "api_url": "https://paperswithcode.com/api/v1/",
+      "country": null,
+      "domains": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Deep Learning",
+        "Benchmark Data"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "authority_level": "research",
+      "tags": [
+        "machine-learning",
+        "datasets",
+        "benchmarks",
+        "sota",
+        "state-of-the-art",
+        "ml-datasets",
+        "ai-research",
+        "leaderboards",
+        "computer-vision",
+        "nlp",
+        "深度学习",
+        "人工智能数据集"
+      ],
+      "data_content": {
+        "en": [
+          "8,000+ machine learning datasets with metadata",
+          "Dataset-to-paper linkages",
+          "Benchmark leaderboards and SOTA tracking",
+          "Task categorization (CV, NLP, Audio, etc.)",
+          "Modality tags (image, text, video, audio)",
+          "Dataset statistics and download links",
+          "Code repository associations",
+          "Evaluation metrics per benchmark"
+        ],
+        "zh": [
+          "8,000+ 机器学习数据集及元数据",
+          "数据集与论文的关联",
+          "基准排行榜和最先进结果追踪",
+          "任务分类（计算机视觉、NLP、音频等）",
+          "模态标签（图像、文本、视频、音频）",
+          "数据集统计和下载链接",
+          "代码仓库关联",
+          "每个基准的评估指标"
+        ]
+      },
+      "has_api": true,
+      "file_path": "academic/ai-ml/papers-with-code-datasets.json"
+    },
     {
       "id": "1000-genomes",
       "name": {

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-02-25T09:27:50.976256+00:00",
-    "total_sources": 131,
+    "generated_at": "2026-02-25T09:41:35.864828+00:00",
+    "total_sources": 133,
     "authority_counts": {
-      "research": 27,
+      "research": 29,
       "international": 36,
       "government": 51,
       "commercial": 5,
@@ -13,6 +13,30 @@
   },
   "by_authority_level": {
     "research": [
+      {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "1000-genomes",
         "name": {

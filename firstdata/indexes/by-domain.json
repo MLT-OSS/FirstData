@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-25T09:27:50.976256+00:00",
-    "total_domains": 577,
-    "total_sources": 131,
+    "generated_at": "2026-02-25T09:41:35.864828+00:00",
+    "total_domains": 580,
+    "total_sources": 133,
     "version": "2.0"
   },
   "domains": {
@@ -467,6 +467,30 @@
     ],
     "Artificial Intelligence": [
       {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "cifar",
         "name": {
           "en": "CIFAR-10 and CIFAR-100",
@@ -528,6 +552,20 @@
         "data_url": "https://dataspace.copernicus.eu",
         "has_api": true,
         "file_path": "international/earth-science/copernicus-data-space.json",
+        "geographic_scope": "global"
+      }
+    ],
+    "Audio Processing": [
+      {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
         "geographic_scope": "global"
       }
     ],
@@ -675,6 +713,20 @@
         "has_api": true,
         "file_path": "international/economics/ecb-sdw.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "Benchmark Data": [
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
       }
     ],
     "Bioactivity": [
@@ -1434,6 +1486,30 @@
     ],
     "Computer Vision": [
       {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "cifar",
         "name": {
           "en": "CIFAR-10 and CIFAR-100",
@@ -1848,6 +1924,18 @@
       }
     ],
     "Deep Learning": [
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "bookscorpus",
         "name": {
@@ -4816,6 +4904,30 @@
     ],
     "Machine Learning": [
       {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "cern-open-data",
         "name": {
           "en": "CERN Open Data Portal",
@@ -5440,6 +5552,20 @@
         "geographic_scope": "national"
       }
     ],
+    "Multimodal AI": [
+      {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
+        "geographic_scope": "global"
+      }
+    ],
     "Museum Studies": [
       {
         "id": "british-museum-collection",
@@ -5523,6 +5649,30 @@
       }
     ],
     "Natural Language Processing": [
+      {
+        "id": "huggingface-datasets",
+        "name": {
+          "en": "Hugging Face Datasets Hub",
+          "zh": "Hugging Face 数据集中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://huggingface.co/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/huggingface-datasets.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "papers-with-code-datasets",
+        "name": {
+          "en": "Papers With Code Datasets",
+          "zh": "Papers With Code 数据集"
+        },
+        "authority_level": "research",
+        "data_url": "https://paperswithcode.com/datasets",
+        "has_api": true,
+        "file_path": "academic/ai-ml/papers-with-code-datasets.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "bookscorpus",
         "name": {
