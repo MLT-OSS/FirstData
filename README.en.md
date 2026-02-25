@@ -76,8 +76,8 @@ We systematically discover and aggregate high-trust sources across domains—cov
 | 🇨🇳 **Chinese Government** | 19 / 500+ | PBC, National Bureau of Statistics, Customs, CSRC... |
 | 🌎 **Country Officials** | 25 / 200+ | USA, Canada, Japan, UK, Australia... |
 | 🎓 **Academic Institutions** | 26 / 100+ | NBER, Penn World Table, PubMed... |
-| 🏭 **Industry Sectors** | 29 / 100+ | Energy, Finance, Health, Climate... |
-| **Total** | **132 / 1000+** | **13% Complete** |
+| 🏭 **Industry Sectors** | 32 / 100+ | Energy, Finance, Health, Climate... |
+| **Total** | **135 / 1000+** | **13% Complete** |
 
 ### Completed Sources
 
@@ -97,7 +97,7 @@ We systematically discover and aggregate high-trust sources across domains—cov
 
 📄 **Details**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 Industry Sectors (29)
+#### 🏭 Industry Sectors (32)
 
 📄 **Details**: [sources/sectors/README.md](sources/sectors/README.md)
 
@@ -1011,7 +1011,7 @@ Join our community to connect with data researchers, developers, and contributor
 ### WeChat Group
 
 <div align="center">
-  <img src="assets/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
+  <img src="docs/images/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
   <p><i>Scan to join WeChat group</i></p>
 </div>
 

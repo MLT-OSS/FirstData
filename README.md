@@ -78,8 +78,8 @@
 | 🇨🇳**中国政府** | 19 / 500+             | 人民银行、国家统计局、海关总署、证监会... |
 | 🌎**各国官方**   | 25 / 200+             | 美国、加拿大、日本、英国、澳大利亚...     |
 | 🎓**学术机构**   | 26 / 100+             | NBER、Penn World Table、PubMed...         |
-| 🏭**行业领域**   | 29 / 100+             | 能源、金融、健康、气候...                 |
-| **合计**         | **132 / 1000+** | **完成度13%**                       |
+| 🏭**行业领域**   | 32 / 100+             | 能源、金融、健康、气候...                 |
+| **合计**         | **135 / 1000+** | **完成度13%**                       |
 
 ### 已完成数据源 | Completed Sources
 
@@ -99,7 +99,7 @@
 
 📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
 
-#### 🏭 行业领域 (29个)
+#### 🏭 行业领域 (32个)
 
 📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
 
@@ -1014,7 +1014,7 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 ### 微信交流群 | WeChat Group
 
 <div align="center">
-  <img src="assets/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
+  <img src="docs/images/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
   <p><i>扫描二维码加入微信群 | Scan to join WeChat group</i></p>
 </div>
 
