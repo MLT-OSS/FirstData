@@ -16,11 +16,16 @@ Dependencies are managed with [uv](https://docs.astral.sh/uv/). Run the followin
 # Install dependencies (first time only)
 uv sync
 
-# Validate all source JSON files against the schema
-uv run check-jsonschema --schemafile firstdata/schemas/datasource-schema.json $(find firstdata/sources -name "*.json")
+# Run all validation checks
+make check
+
+# Or run checks individually:
+make validate       # Validate JSON schema compliance
+make check-ids      # Check for duplicate IDs
+make check-domains  # Check domain naming consistency
 ```
 
-A GitHub Action runs this same check automatically on every PR. PRs that fail validation cannot be merged.
+A GitHub Action runs these checks automatically on every PR. PRs that fail validation cannot be merged.
 
 ## The Only Thing You Need to Know: The JSON Schema
 
@@ -67,7 +72,7 @@ Every file under `firstdata/sources/` must conform to `firstdata/schemas/datasou
 | `api_url`          | API docs or endpoint URL. Use `null` if no API exists                                                                         |
 | `authority_level`  | `government` · `international` · `research` · `market` · `commercial` · `other`                                |
 | `country`          | ISO 3166-1 alpha-2 (e.g.`"CN"`, `"US"`). **Must be `null`** when `geographic_scope` is `global` or `regional` |
-| `domains`          | Array of strings, at least one. Use existing domain names for consistency                                                       |
+| `domains`          | Array of strings, at least one. **MUST use lowercase** (e.g., `"economics"` not `"Economics"`). See [DOMAINS.md](firstdata/schemas/DOMAINS.md) for standard domain list |
 | `geographic_scope` | `global` · `regional` · `national` · `subnational`                                                                   |
 | `update_frequency` | `real-time` · `daily` · `weekly` · `monthly` · `quarterly` · `annual` · `irregular`                         |
 | `tags`             | Mixed Chinese/English keywords for semantic search. Include synonyms and data type names                                        |
@@ -133,9 +138,11 @@ If a match is found, do not create a new file. Update the existing one if needed
 - [ ] `data_url` links to the actual data page, not the organization homepage
 - [ ] `api_url` is `null` only when the source truly has no API
 - [ ] `country` is `null` when `geographic_scope` is `global` or `regional`
+- [ ] `domains` uses **lowercase** (e.g., `"economics"` not `"Economics"`) - see [DOMAINS.md](firstdata/schemas/DOMAINS.md)
 - [ ] `tags` include both English and Chinese keywords where relevant
 - [ ] `id` does not already exist in `firstdata/indexes/all-sources.json`
 - [ ] File path matches the placement rules above
 - [ ] All URLs have been verified to be accessible and correct
 - [ ] `update_frequency` reflects the actual cadence confirmed on the official site
 - [ ] `authority_level` is accurate and not overstated
+- [ ] Run `make check` to validate all checks pass
