@@ -1,55 +1,14 @@
 # 行业领域 | Sector Data Sources
 
 **分类标准**: 国际标准产业分类 ISIC Rev.4 (UN)
-**总数**: 100+个数据源
-**已完成**: 32个
-**进度**: 32%
 
----
-
-## 📊 总体进度
-
-```
-总目标: 100+ 个行业领域数据源
-当前完成: 32 个
-完成度: ██████░░░░░░░░░░░░░ 32%
-```
-
-**目录结构**: ✅ 已完成
-**数据填充**: 进行中
-
----
-
-## 🎯 ISIC分类进度概览
-
-| ISIC代码 | 产业门类 | 计划 | 完成 | 进度 | 说明 |
-|---------|---------|------|------|------|------|
-| A | 农、林、牧、渔业 | 4 | 1 | 25% | Agriculture, Forestry and Fishing |
-| B | 采矿业 | 4 | 1 | 25% | Mining and Quarrying |
-| C | 制造业 | 20 | 9 | 45% | Manufacturing |
-| D | 电力、燃气、蒸汽和空调供应业 | 4 | 1 | 25% | Electricity, Gas, Steam and Air Conditioning Supply |
-| E | 水、污水处理、废弃物管理 | 3 | 0 | 0% | Water Supply; Sewerage, Waste Management |
-| F | 建筑业 | 4 | 0 | 0% | Construction |
-| G | 批发和零售业 | 6 | 0 | 0% | Wholesale and Retail Trade |
-| H | 交通运输和仓储业 | 5 | 0 | 0% | Transportation and Storage |
-| I | 住宿和餐饮业 | 4 | 0 | 0% | Accommodation and Food Service |
-| J | 信息和通信业 | 25 | 9 | 36% | Information and Communication |
-| K | 金融和保险业 | 6 | 4 | 67% | Financial and Insurance Activities |
-| L | 房地产业 | 5 | 0 | 0% | Real Estate Activities |
-| M | 专业、科学和技术活动 | 8 | 3 | 38% | Professional, Scientific and Technical Activities |
-| N | 行政和支持服务活动 | 4 | 0 | 0% | Administrative and Support Service Activities |
-| O | 公共管理和国防 | 3 | 0 | 0% | Public Administration and Defence |
-| P | 教育 | 3 | 1 | 33% | Education |
-| Q | 卫生和社会工作 | 5 | 0 | 0% | Human Health and Social Work Activities |
-| R | 艺术、娱乐和休闲 | 10 | 4 | 40% | Arts, Entertainment and Recreation |
-| S | 其他服务活动 | 3 | 0 | 0% | Other Service Activities |
-| **总计** | - | **126** | **32** | **25%** | - |
+> 📊 **最新统计**: 查看 [indexes/statistics.json](../../indexes/statistics.json) 获取实时数据源统计信息。
 
 ---
 
 ## 📚 已收录数据源
 
-### A - 农、林、牧、渔业 Agriculture, Forestry and Fishing (1/4)
+### A - 农、林、牧、渔业 Agriculture, Forestry and Fishing
 
 #### Agricultural Market Information System (AMIS) - 农业市场信息系统
 - **文件**: [amis.json](A-agriculture/amis.json) ⭐💎
@@ -63,7 +22,7 @@
 
 ---
 
-### B - 采矿业 Mining and Quarrying (1/4)
+### B - 采矿业 Mining and Quarrying
 
 #### 稀土 Rare Earth
 
@@ -77,7 +36,7 @@
 
 ---
 
-### C - 制造业 Manufacturing (10/20)
+### C - 制造业 Manufacturing
 
 #### 增材制造 Additive Manufacturing
 
@@ -165,7 +124,7 @@
 
 ---
 
-### D - 电力、燃气、蒸汽和空调供应业 Electricity, Gas, Steam and Air Conditioning Supply (1/4)
+### D - 电力、燃气、蒸汽和空调供应业 Electricity, Gas, Steam and Air Conditioning Supply
 
 #### Statistical Review of World Energy - 世界能源统计年鉴
 - **文件**: [bp-statistical-review.json](D-energy/bp-statistical-review.json) ⭐💎
@@ -179,7 +138,7 @@
 
 ---
 
-### J - 信息和通信业 Information and Communication (9/25)
+### J - 信息和通信业 Information and Communication
 
 #### 云计算与开放数据
 
@@ -264,7 +223,7 @@
 
 ---
 
-### K - 金融和保险业 Financial and Insurance Activities (4/6)
+### K - 金融和保险业 Financial and Insurance Activities
 
 #### CRSP - Center for Research in Security Prices - 证券价格研究中心
 - **文件**: [crsp.json](K-finance-insurance/crsp.json) ⭐💎
@@ -302,7 +261,7 @@
 
 ---
 
-### M - 专业、科学和技术活动 Professional, Scientific and Technical Activities (3/8)
+### M - 专业、科学和技术活动 Professional, Scientific and Technical Activities
 
 #### 仪器仪表
 
@@ -334,7 +293,7 @@
 
 ---
 
-### P - 教育 Education (1/3)
+### P - 教育 Education
 
 #### Academic Ranking of World Universities (ARWU) - 世界大学学术排名
 - **文件**: [arwu.json](P-education/arwu.json) ⭐💎
@@ -348,7 +307,7 @@
 
 ---
 
-### R - 艺术、娱乐和休闲 Arts, Entertainment and Recreation (4/10)
+### R - 艺术、娱乐和休闲 Arts, Entertainment and Recreation
 
 #### 体育运动 Sports
 
@@ -423,38 +382,36 @@
 
 ```
 sectors/
-├── A-agriculture/              # A - 农、林、牧、渔业 | Agriculture, Forestry and Fishing (1个)
-├── B-mining/                   # B - 采矿业 | Mining and Quarrying (0个)
-├── C-manufacturing/            # C - 制造业 | Manufacturing (0个)
-├── D-energy/                   # D - 电力、燃气、蒸汽和空调供应业 | Electricity, Gas, Steam (1个)
-├── E-water-waste/              # E - 水、污水处理、废弃物管理 | Water Supply; Sewerage, Waste (0个)
-├── F-construction/             # F - 建筑业 | Construction (0个)
-├── G-trade/                    # G - 批发和零售业 | Wholesale and Retail Trade (0个)
-├── H-transportation/           # H - 交通运输和仓储业 | Transportation and Storage (0个)
-├── I-hospitality/              # I - 住宿和餐饮业 | Accommodation and Food Service (0个)
-├── J-information/              # J - 信息和通信业 | Information and Communication (5个)
+├── A-agriculture/              # A - 农、林、牧、渔业 | Agriculture, Forestry and Fishing
+├── B-mining/                   # B - 采矿业 | Mining and Quarrying
+├── C-manufacturing/            # C - 制造业 | Manufacturing
+├── D-energy/                   # D - 电力、燃气、蒸汽和空调供应业 | Electricity, Gas, Steam
+├── E-water-waste/              # E - 水、污水处理、废弃物管理 | Water Supply; Sewerage, Waste
+├── F-construction/             # F - 建筑业 | Construction
+├── G-trade/                    # G - 批发和零售业 | Wholesale and Retail Trade
+├── H-transportation/           # H - 交通运输和仓储业 | Transportation and Storage
+├── I-hospitality/              # I - 住宿和餐饮业 | Accommodation and Food Service
+├── J-information/              # J - 信息和通信业 | Information and Communication
 │   ├── computer-vision/        #   计算机视觉数据集
 │   ├── nlp/                    #   自然语言处理
 │   ├── ai-ml-platforms/        #   AI/ML平台
 │   ├── social-media/           #   社交媒体与网络
 │   └── telecom/                #   电信行业
-├── K-finance/                  # K - 金融和保险业 | Financial and Insurance Activities (4个)
-├── L-real-estate/              # L - 房地产业 | Real Estate Activities (0个)
-├── M-professional/             # M - 专业、科学和技术活动 | Professional, Scientific (2个)
+├── K-finance/                  # K - 金融和保险业 | Financial and Insurance Activities
+├── L-real-estate/              # L - 房地产业 | Real Estate Activities
+├── M-professional/             # M - 专业、科学和技术活动 | Professional, Scientific
 │   ├── patents/                #   专利与知识产权
 │   └── consulting-research/    #   咨询与市场研究
-├── N-administrative/           # N - 行政和支持服务活动 | Administrative and Support Service (0个)
-├── O-public-admin/             # O - 公共管理和国防 | Public Administration and Defence (0个)
-├── P-education/                # P - 教育 | Education (1个)
-├── Q-health/                   # Q - 卫生和社会工作 | Human Health and Social Work (1个)
-├── R-arts-recreation/          # R - 艺术、娱乐和休闲 | Arts, Entertainment and Recreation (2个)
+├── N-administrative/           # N - 行政和支持服务活动 | Administrative and Support Service
+├── O-public-admin/             # O - 公共管理和国防 | Public Administration and Defence
+├── P-education/                # P - 教育 | Education
+├── Q-health/                   # Q - 卫生和社会工作 | Human Health and Social Work
+├── R-arts-recreation/          # R - 艺术、娱乐和休闲 | Arts, Entertainment and Recreation
 │   ├── sports/                 #   体育运动
 │   └── museums-culture/        #   博物馆与文化遗产
-├── S-other-services/           # S - 其他服务活动 | Other Service Activities (0个)
+├── S-other-services/           # S - 其他服务活动 | Other Service Activities
 └── README.md
 ```
-
-**总计**: 16个数据源
 
 **说明**:
 - 目录结构按照 ISIC Rev.4 分类标准组织
