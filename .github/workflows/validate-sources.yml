@@ -45,7 +45,7 @@ jobs:
 
   claude-review:
     needs: validate
-    if: github.actor_type != 'Bot'
+    if: github.event.sender.type != 'Bot'
     continue-on-error: true
     runs-on: ubuntu-latest
     permissions:
