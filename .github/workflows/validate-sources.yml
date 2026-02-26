@@ -2,6 +2,7 @@ name: Validate Data Sources
 
 on:
   pull_request:
+    types: [opened, synchronize, ready_for_review, reopened]
     paths:
       - "firstdata/sources/**/*.json"
       - "firstdata/schemas/datasource-schema.json"
@@ -41,3 +42,27 @@ jobs:
 
       - name: Check for duplicate IDs
         run: uv run python scripts/check_ids.py
+
+  claude-review:
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude Code Review
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: '--model ${{ secrets.CLAUDE_MODEL }} --max-turns 100 --allowedTools "Bash"'
+          prompt: '/review Review this PR and post your review as a PR comment using `gh pr comment`. Reply in the same language used in the PR (title, description, and comments).'
+        env:
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
