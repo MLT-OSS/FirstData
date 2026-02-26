@@ -171,7 +171,8 @@ def write_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  ✓ {path.relative_to(REPO_ROOT)}")
+        f.write("\n")  # Add trailing newline
+    print(f"  [OK] {path.relative_to(REPO_ROOT)}")
 
 
 def main() -> None:

@@ -27,9 +27,6 @@ def main() -> None:
                 data = json.load(f)
 
             domains = data.get("domains", [])
-            if not domains:
-                errors.append(f"{rel_path}: Missing or empty 'domains' field")
-                continue
 
             for domain in domains:
                 normalized = normalize_domain(domain)

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-02-25T11:14:27.919895+00:00",
+    "generated_at": "2026-02-26T01:34:35.773553+00:00",
     "total_regions": 10,
     "total_sources": 134,
     "version": "2.0"
@@ -16,7 +16,7 @@
         "authority_level": "government",
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
-        "file_path": "countries/oceania/australia/abs.json",
+        "file_path": "countries\\oceania\\australia\\abs.json",
         "geographic_scope": "national"
       },
       {
@@ -28,7 +28,7 @@
         "authority_level": "government",
         "data_url": "https://www.aihw.gov.au/",
         "has_api": true,
-        "file_path": "countries/oceania/australia/aihw.json",
+        "file_path": "countries\\oceania\\australia\\aihw.json",
         "geographic_scope": "national"
       },
       {
@@ -40,7 +40,7 @@
         "authority_level": "government",
         "data_url": "https://www.bom.gov.au",
         "has_api": true,
-        "file_path": "countries/oceania/australia/bureau-of-meteorology.json",
+        "file_path": "countries\\oceania\\australia\\bureau-of-meteorology.json",
         "geographic_scope": "national"
       }
     ],
@@ -55,7 +55,7 @@
         "authority_level": "government",
         "data_url": "https://dadosabertos.bcb.gov.br",
         "has_api": true,
-        "file_path": "countries/south-america/brazil/brazil-bcb.json",
+        "file_path": "countries\\south-america\\brazil\\brazil-bcb.json",
         "geographic_scope": "national"
       },
       {
@@ -67,7 +67,7 @@
         "authority_level": "government",
         "data_url": "https://www.ibge.gov.br/en/indicators",
         "has_api": true,
-        "file_path": "countries/south-america/brazil-ibge.json",
+        "file_path": "countries\\south-america\\brazil-ibge.json",
         "geographic_scope": "national"
       }
     ],
@@ -82,7 +82,7 @@
         "authority_level": "government",
         "data_url": "https://open.canada.ca/data/en/organization/aafc-aac",
         "has_api": true,
-        "file_path": "countries/north-america/canada/aafc.json",
+        "file_path": "countries\\north-america\\canada\\aafc.json",
         "geographic_scope": "national"
       },
       {
@@ -95,7 +95,7 @@
         "authority_level": "government",
         "data_url": "https://www.bankofcanada.ca/rates/",
         "has_api": true,
-        "file_path": "countries/north-america/canada/canada-boc.json",
+        "file_path": "countries\\north-america\\canada\\canada-boc.json",
         "geographic_scope": "national"
       },
       {
@@ -108,7 +108,7 @@
         "authority_level": "government",
         "data_url": "https://www.cihi.ca/en/access-data-and-reports",
         "has_api": true,
-        "file_path": "countries/north-america/canada/canada-cihi.json",
+        "file_path": "countries\\north-america\\canada\\canada-cihi.json",
         "geographic_scope": "national"
       },
       {
@@ -121,7 +121,7 @@
         "authority_level": "government",
         "data_url": "https://www.cer-rec.gc.ca/en/data-analysis/",
         "has_api": true,
-        "file_path": "countries/north-america/canada/canada-energy-regulator.json",
+        "file_path": "countries\\north-america\\canada\\canada-energy-regulator.json",
         "geographic_scope": "national"
       },
       {
@@ -134,7 +134,7 @@
         "authority_level": "government",
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
-        "file_path": "countries/north-america/canada/statcan.json",
+        "file_path": "countries\\north-america\\canada\\statcan.json",
         "geographic_scope": "national"
       }
     ],
@@ -148,7 +148,7 @@
         "authority_level": "government",
         "data_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202312/t20231229_1363000.html",
         "has_api": false,
-        "file_path": "china/economy/macro/china-ndrc-computing.json",
+        "file_path": "china\\economy\\macro\\china-ndrc-computing.json",
         "geographic_scope": "national"
       },
       {
@@ -161,7 +161,7 @@
         "authority_level": "government",
         "data_url": "https://www.ndrc.gov.cn/fgsj/",
         "has_api": false,
-        "file_path": "china/economy/macro/ndrc.json",
+        "file_path": "china\\economy\\macro\\ndrc.json",
         "geographic_scope": "national"
       },
       {
@@ -174,7 +174,7 @@
         "authority_level": "government",
         "data_url": "http://www.customs.gov.cn",
         "has_api": false,
-        "file_path": "china/economy/trade/customs.json",
+        "file_path": "china\\economy\\trade\\customs.json",
         "geographic_scope": "national"
       },
       {
@@ -187,7 +187,7 @@
         "authority_level": "government",
         "data_url": "https://data.mofcom.gov.cn",
         "has_api": false,
-        "file_path": "china/economy/trade/mofcom.json",
+        "file_path": "china\\economy\\trade\\mofcom.json",
         "geographic_scope": "national"
       },
       {
@@ -199,7 +199,7 @@
         "authority_level": "government",
         "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
         "has_api": false,
-        "file_path": "china/education/higher_education/china-moe-higher-education.json",
+        "file_path": "china\\education\\higher_education\\china-moe-higher-education.json",
         "geographic_scope": "national"
       },
       {
@@ -212,7 +212,7 @@
         "authority_level": "government",
         "data_url": "https://www.nfra.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
         "has_api": false,
-        "file_path": "china/finance/banking/nfra.json",
+        "file_path": "china\\finance\\banking\\nfra.json",
         "geographic_scope": "national"
       },
       {
@@ -225,7 +225,7 @@
         "authority_level": "government",
         "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
         "has_api": false,
-        "file_path": "china/finance/banking/pbc.json",
+        "file_path": "china\\finance\\banking\\pbc.json",
         "geographic_scope": "national"
       },
       {
@@ -238,7 +238,7 @@
         "authority_level": "government",
         "data_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
         "has_api": false,
-        "file_path": "china/finance/securities/csrc.json",
+        "file_path": "china\\finance\\securities\\csrc.json",
         "geographic_scope": "national"
       },
       {
@@ -251,7 +251,7 @@
         "authority_level": "government",
         "data_url": "https://www.stats.gov.cn/sj/",
         "has_api": true,
-        "file_path": "china/national/nbs.json",
+        "file_path": "china\\national\\nbs.json",
         "geographic_scope": "national"
       },
       {
@@ -263,7 +263,7 @@
         "authority_level": "research",
         "data_url": "http://www.caict.ac.cn/kxyj/qwfb/",
         "has_api": false,
-        "file_path": "china/research/china-caict.json",
+        "file_path": "china\\research\\china-caict.json",
         "geographic_scope": "national"
       },
       {
@@ -275,7 +275,7 @@
         "authority_level": "government",
         "data_url": "https://www.miit.gov.cn/jgsj/ycls/xt/index.html",
         "has_api": false,
-        "file_path": "china/resources/mineral/china-miit-rare-earth.json",
+        "file_path": "china\\resources\\mineral\\china-miit-rare-earth.json",
         "geographic_scope": "national"
       },
       {
@@ -287,7 +287,7 @@
         "authority_level": "government",
         "data_url": "https://www.mnr.gov.cn/sj/sjfw/kc_19263/",
         "has_api": false,
-        "file_path": "china/resources/mineral/china-mnr-minerals.json",
+        "file_path": "china\\resources\\mineral\\china-mnr-minerals.json",
         "geographic_scope": "national"
       },
       {
@@ -299,7 +299,7 @@
         "authority_level": "government",
         "data_url": "https://sjdj.nda.gov.cn/",
         "has_api": false,
-        "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
+        "file_path": "china\\technology\\digital_economy\\china-national-data-bureau.json",
         "geographic_scope": "national"
       },
       {
@@ -311,7 +311,7 @@
         "authority_level": "government",
         "data_url": "https://www.cnipa.gov.cn/col/col61/index.html",
         "has_api": false,
-        "file_path": "china/technology/intellectual_property/china-cnipa-patents.json",
+        "file_path": "china\\technology\\intellectual_property\\china-cnipa-patents.json",
         "geographic_scope": "national"
       },
       {
@@ -323,7 +323,7 @@
         "authority_level": "government",
         "data_url": "https://nrii.org.cn/",
         "has_api": false,
-        "file_path": "china/technology/sci_resources/china-most-infrastructure.json",
+        "file_path": "china\\technology\\sci_resources\\china-most-infrastructure.json",
         "geographic_scope": "national"
       },
       {
@@ -335,7 +335,7 @@
         "authority_level": "government",
         "data_url": "https://service.most.gov.cn/",
         "has_api": false,
-        "file_path": "china/technology/sci_resources/china-most-rnd.json",
+        "file_path": "china\\technology\\sci_resources\\china-most-rnd.json",
         "geographic_scope": "national"
       },
       {
@@ -347,7 +347,7 @@
         "authority_level": "government",
         "data_url": "https://std.samr.gov.cn/",
         "has_api": false,
-        "file_path": "china/technology/standards/china-sac-standards.json",
+        "file_path": "china\\technology\\standards\\china-sac-standards.json",
         "geographic_scope": "national"
       },
       {
@@ -359,7 +359,7 @@
         "authority_level": "government",
         "data_url": "https://www.miit.gov.cn/gxsj/index.html",
         "has_api": false,
-        "file_path": "china/technology/telecommunications/china-miit.json",
+        "file_path": "china\\technology\\telecommunications\\china-miit.json",
         "geographic_scope": "national"
       },
       {
@@ -371,7 +371,7 @@
         "authority_level": "market",
         "data_url": "https://ac-rei.org.cn",
         "has_api": false,
-        "file_path": "sectors/B-mining/rare-earth/china-rare-earth-association.json",
+        "file_path": "sectors\\B-mining\\rare-earth\\china-rare-earth-association.json",
         "geographic_scope": "national"
       },
       {
@@ -383,7 +383,7 @@
         "authority_level": "market",
         "data_url": "https://www.miit-eidc.org.cn",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/additive/china-additive-manufacturing-alliance.json",
+        "file_path": "sectors\\C-manufacturing\\additive\\china-additive-manufacturing-alliance.json",
         "geographic_scope": "national"
       },
       {
@@ -395,7 +395,7 @@
         "authority_level": "market",
         "data_url": "http://www.caam.org.cn/tjsj",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/automotive/china-auto-association.json",
+        "file_path": "sectors\\C-manufacturing\\automotive\\china-auto-association.json",
         "geographic_scope": "national"
       },
       {
@@ -407,7 +407,7 @@
         "authority_level": "market",
         "data_url": "https://evcipa.com/dataCenter/dataList",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json",
+        "file_path": "sectors\\C-manufacturing\\automotive\\china-charging-alliance.json",
         "geographic_scope": "national"
       },
       {
@@ -419,7 +419,7 @@
         "authority_level": "market",
         "data_url": "http://www.cpcif.org.cn/list/402882396610575f0166105924fe0000",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/chemicals/china-petroleum-chemical-federation.json",
+        "file_path": "sectors\\C-manufacturing\\chemicals\\china-petroleum-chemical-federation.json",
         "geographic_scope": "national"
       },
       {
@@ -431,7 +431,7 @@
         "authority_level": "market",
         "data_url": "http://www.coda.org.cn/#/details/more?type=list-info&id=61b1c9ec105e35101858fc49&bannerId=61b30eaa105e353264b3f083",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/electronics/china-lcd-association.json",
+        "file_path": "sectors\\C-manufacturing\\electronics\\china-lcd-association.json",
         "geographic_scope": "national"
       },
       {
@@ -443,7 +443,7 @@
         "authority_level": "market",
         "data_url": "https://www.coema.org.cn/research/sum",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/electronics/china-optical-association.json",
+        "file_path": "sectors\\C-manufacturing\\electronics\\china-optical-association.json",
         "geographic_scope": "national"
       },
       {
@@ -455,7 +455,7 @@
         "authority_level": "market",
         "data_url": "https://web.csia.net.cn/hyyhfx",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/electronics/china-semiconductor-association.json",
+        "file_path": "sectors\\C-manufacturing\\electronics\\china-semiconductor-association.json",
         "geographic_scope": "national"
       },
       {
@@ -467,7 +467,7 @@
         "authority_level": "market",
         "data_url": "https://www.cmtba.org.cn/web/11/list.html",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/machinery/china-machine-tool-association.json",
+        "file_path": "sectors\\C-manufacturing\\machinery\\china-machine-tool-association.json",
         "geographic_scope": "national"
       },
       {
@@ -479,7 +479,7 @@
         "authority_level": "market",
         "data_url": "http://cria.mei.net.cn/gzpt.asp?lm=/1310",
         "has_api": false,
-        "file_path": "sectors/C-manufacturing/robotics/china-robot-industry-alliance.json",
+        "file_path": "sectors\\C-manufacturing\\robotics\\china-robot-industry-alliance.json",
         "geographic_scope": "national"
       },
       {
@@ -491,7 +491,7 @@
         "authority_level": "government",
         "data_url": "https://www.imt2030.org.cn/html/default/zhongwen/chengguofabu/index.html",
         "has_api": false,
-        "file_path": "sectors/J-information-communication/china-imt2030.json",
+        "file_path": "sectors\\J-information-communication\\china-imt2030.json",
         "geographic_scope": "national"
       },
       {
@@ -503,7 +503,7 @@
         "authority_level": "market",
         "data_url": "https://www.csia.org.cn/",
         "has_api": false,
-        "file_path": "sectors/J-information-communication/china-software-association.json",
+        "file_path": "sectors\\J-information-communication\\china-software-association.json",
         "geographic_scope": "national"
       },
       {
@@ -515,7 +515,7 @@
         "authority_level": "research",
         "data_url": "https://www.cis.org.cn/post/index/162",
         "has_api": false,
-        "file_path": "sectors/M-professional-scientific/china-instrument-society.json",
+        "file_path": "sectors\\M-professional-scientific\\china-instrument-society.json",
         "geographic_scope": "national"
       }
     ],
@@ -529,7 +529,7 @@
         "authority_level": "research",
         "data_url": "https://www.ukbiobank.ac.uk/",
         "has_api": true,
-        "file_path": "academic/biology/uk-biobank.json",
+        "file_path": "academic\\biology\\uk-biobank.json",
         "geographic_scope": "national"
       },
       {
@@ -541,7 +541,7 @@
         "authority_level": "government",
         "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
         "has_api": false,
-        "file_path": "countries/europe/uk/bank-of-england.json",
+        "file_path": "countries\\europe\\uk\\bank-of-england.json",
         "geographic_scope": "national"
       },
       {
@@ -553,7 +553,7 @@
         "authority_level": "government",
         "data_url": "https://www.data.gov.uk",
         "has_api": true,
-        "file_path": "countries/europe/uk/uk-data-gov.json",
+        "file_path": "countries\\europe\\uk\\uk-data-gov.json",
         "geographic_scope": "national"
       }
     ],
@@ -567,7 +567,7 @@
         "authority_level": "government",
         "data_url": "https://www.commerce.gov.in/trade-statistics/",
         "has_api": false,
-        "file_path": "countries/asia/india/india-dgcis.json",
+        "file_path": "countries\\asia\\india\\india-dgcis.json",
         "geographic_scope": "national"
       }
     ],
@@ -582,7 +582,7 @@
         "authority_level": "government",
         "data_url": "https://www.boj.or.jp/en/statistics/index.htm",
         "has_api": false,
-        "file_path": "countries/asia/japan/boj-statistics.json",
+        "file_path": "countries\\asia\\japan\\boj-statistics.json",
         "geographic_scope": "national"
       }
     ],
@@ -597,7 +597,7 @@
         "authority_level": "government",
         "data_url": "https://www.bok.or.kr/eng/main/main.do",
         "has_api": true,
-        "file_path": "countries/asia/korea/korea-bok.json",
+        "file_path": "countries\\asia\\korea\\korea-bok.json",
         "geographic_scope": "national"
       }
     ],
@@ -612,7 +612,7 @@
         "authority_level": "government",
         "data_url": "https://www.banxico.org.mx",
         "has_api": true,
-        "file_path": "countries/north-america/mexico/banxico.json",
+        "file_path": "countries\\north-america\\mexico\\banxico.json",
         "geographic_scope": "national"
       },
       {
@@ -625,7 +625,7 @@
         "authority_level": "government",
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
-        "file_path": "countries/north-america/mexico/coneval.json",
+        "file_path": "countries\\north-america\\mexico\\coneval.json",
         "geographic_scope": "national"
       }
     ],
@@ -639,7 +639,7 @@
         "authority_level": "government",
         "data_url": "https://portal.gdc.cancer.gov/",
         "has_api": true,
-        "file_path": "academic/health/tcga.json",
+        "file_path": "academic\\health\\tcga.json",
         "geographic_scope": "national"
       },
       {
@@ -651,7 +651,7 @@
         "authority_level": "government",
         "data_url": "https://www.census.gov",
         "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
+        "file_path": "countries\\north-america\\usa\\census-bureau.json",
         "geographic_scope": "national"
       },
       {
@@ -663,7 +663,7 @@
         "authority_level": "government",
         "data_url": "https://www.eia.gov",
         "has_api": true,
-        "file_path": "countries/north-america/usa/eia.json",
+        "file_path": "countries\\north-america\\usa\\eia.json",
         "geographic_scope": "national"
       },
       {
@@ -675,7 +675,7 @@
         "authority_level": "government",
         "data_url": "https://www.bea.gov/data",
         "has_api": true,
-        "file_path": "countries/north-america/usa/us-bea.json",
+        "file_path": "countries\\north-america\\usa\\us-bea.json",
         "geographic_scope": "national"
       },
       {
@@ -687,7 +687,7 @@
         "authority_level": "government",
         "data_url": "https://www.bls.gov/data/",
         "has_api": true,
-        "file_path": "countries/north-america/usa/us-bls.json",
+        "file_path": "countries\\north-america\\usa\\us-bls.json",
         "geographic_scope": "national"
       },
       {
@@ -699,7 +699,7 @@
         "authority_level": "government",
         "data_url": "https://wonder.cdc.gov/",
         "has_api": true,
-        "file_path": "countries/north-america/usa/us-cdc.json",
+        "file_path": "countries\\north-america\\usa\\us-cdc.json",
         "geographic_scope": "national"
       },
       {
@@ -711,19 +711,7 @@
         "authority_level": "government",
         "data_url": "https://catalog.data.gov/dataset",
         "has_api": false,
-        "file_path": "countries/north-america/usa/us-data-gov.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "crsp",
-        "name": {
-          "en": "CRSP - Center for Research in Security Prices",
-          "zh": "证券价格研究中心"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.crsp.org/",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/crsp.json",
+        "file_path": "countries\\north-america\\usa\\us-data-gov.json",
         "geographic_scope": "national"
       },
       {
@@ -735,8 +723,20 @@
         "authority_level": "commercial",
         "data_url": "https://registry.opendata.aws/",
         "has_api": false,
-        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "file_path": "sectors\\computer_science_ai\\aws-open-data-registry.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "crsp",
+        "name": {
+          "en": "CRSP - Center for Research in Security Prices",
+          "zh": "证券价格研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.crsp.org/",
+        "has_api": true,
+        "file_path": "sectors\\K-finance-insurance\\crsp.json",
+        "geographic_scope": "national"
       }
     ]
   }

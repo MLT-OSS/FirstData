@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-02-25T11:14:27.919895+00:00",
+    "generated_at": "2026-02-26T01:34:35.773553+00:00",
     "total_sources": 134,
     "version": "2.0",
     "schema_version": "v2.0.0"
@@ -21,12 +21,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Genomics",
-        "Human Genetics",
-        "Population Genetics",
-        "Genetic Variation",
-        "Biology",
-        "Bioinformatics"
+        "genomics",
+        "human genetics",
+        "population genetics",
+        "genetic variation",
+        "biology",
+        "bioinformatics"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -98,7 +98,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/biology/1000-genomes.json"
+      "file_path": "academic\\biology\\1000-genomes.json"
     },
     {
       "id": "alphafold-db",
@@ -115,12 +115,12 @@
       "api_url": "https://alphafold.com/api-docs",
       "country": null,
       "domains": [
-        "Structural Biology",
-        "Proteomics",
-        "Drug Discovery",
-        "Molecular Biology",
-        "Biotechnology",
-        "Bioinformatics"
+        "structural biology",
+        "proteomics",
+        "drug discovery",
+        "molecular biology",
+        "biotechnology",
+        "bioinformatics"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -169,7 +169,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic/biology/alphafold-db.json"
+      "file_path": "academic\\biology\\alphafold-db.json"
     },
     {
       "id": "ena",
@@ -186,15 +186,15 @@
       "api_url": "https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html",
       "country": null,
       "domains": [
-        "Genomics",
-        "Transcriptomics",
-        "Metagenomics",
-        "Molecular Biology",
-        "Bioinformatics",
-        "Biodiversity",
-        "Environmental Sciences",
-        "Healthcare",
-        "Pathogen Surveillance"
+        "genomics",
+        "transcriptomics",
+        "metagenomics",
+        "molecular biology",
+        "bioinformatics",
+        "biodiversity",
+        "environmental sciences",
+        "healthcare",
+        "pathogen surveillance"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -251,7 +251,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic/biology/ena.json"
+      "file_path": "academic\\biology\\ena.json"
     },
     {
       "id": "us-ncbi-genbank",
@@ -268,10 +268,10 @@
       "api_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
       "country": null,
       "domains": [
-        "Genomics",
-        "Molecular Biology",
-        "Genetics",
-        "Bioinformatics"
+        "genomics",
+        "molecular biology",
+        "genetics",
+        "bioinformatics"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -316,7 +316,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic/biology/genbank.json"
+      "file_path": "academic\\biology\\genbank.json"
     },
     {
       "id": "intl-rcsb-pdb",
@@ -333,13 +333,13 @@
       "api_url": "https://data.rcsb.org",
       "country": null,
       "domains": [
-        "Structural Biology",
-        "Biochemistry",
-        "Molecular Biology",
-        "Computational Biology",
-        "Drug Discovery",
-        "Biotechnology",
-        "Protein Science"
+        "structural biology",
+        "biochemistry",
+        "molecular biology",
+        "computational biology",
+        "drug discovery",
+        "biotechnology",
+        "protein science"
       ],
       "geographic_scope": "global",
       "update_frequency": "weekly",
@@ -388,7 +388,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/biology/pdb.json"
+      "file_path": "academic\\biology\\pdb.json"
     },
     {
       "id": "uk-biobank",
@@ -466,7 +466,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/biology/uk-biobank.json"
+      "file_path": "academic\\biology\\uk-biobank.json"
     },
     {
       "id": "chembl",
@@ -483,17 +483,17 @@
       "api_url": "https://www.ebi.ac.uk/chembl/api/data/docs",
       "country": null,
       "domains": [
-        "Drug Discovery",
-        "Pharmaceutical Sciences",
-        "Medicinal Chemistry",
-        "Chemical Biology",
-        "Bioactivity",
-        "Pharmacology",
-        "Toxicology",
-        "ADMET",
-        "Agrochemical Research",
-        "Genomics",
-        "Proteomics"
+        "drug discovery",
+        "pharmaceutical sciences",
+        "medicinal chemistry",
+        "chemical biology",
+        "bioactivity",
+        "pharmacology",
+        "toxicology",
+        "admet",
+        "agrochemical research",
+        "genomics",
+        "proteomics"
       ],
       "geographic_scope": "global",
       "update_frequency": "quarterly",
@@ -555,7 +555,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/chemistry/chembl.json"
+      "file_path": "academic\\chemistry\\chembl.json"
     },
     {
       "id": "intl-chemspider",
@@ -572,14 +572,14 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Chemistry",
-        "Chemical Structures",
-        "Molecular Properties",
-        "Pharmaceutical Sciences",
-        "Materials Science",
-        "Organic Chemistry",
-        "Inorganic Chemistry",
-        "Chemical Information"
+        "chemistry",
+        "chemical structures",
+        "molecular properties",
+        "pharmaceutical sciences",
+        "materials science",
+        "organic chemistry",
+        "inorganic chemistry",
+        "chemical information"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -632,7 +632,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "academic/chemistry/chemspider.json"
+      "file_path": "academic\\chemistry\\chemspider.json"
     },
     {
       "id": "drugbank",
@@ -649,16 +649,16 @@
       "api_url": "https://docs.drugbank.com",
       "country": null,
       "domains": [
-        "Pharmaceutical Sciences",
-        "Drug Discovery",
-        "Drug Development",
-        "Pharmacology",
-        "Medicinal Chemistry",
-        "Bioinformatics",
-        "Cheminformatics",
-        "Clinical Pharmacology",
-        "Drug Metabolism",
-        "Toxicology"
+        "pharmaceutical sciences",
+        "drug discovery",
+        "drug development",
+        "pharmacology",
+        "medicinal chemistry",
+        "bioinformatics",
+        "cheminformatics",
+        "clinical pharmacology",
+        "drug metabolism",
+        "toxicology"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -719,7 +719,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/chemistry/drugbank.json"
+      "file_path": "academic\\chemistry\\drugbank.json"
     },
     {
       "id": "pubchem",
@@ -736,12 +736,12 @@
       "api_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
       "country": null,
       "domains": [
-        "Chemistry",
-        "Biochemistry",
-        "Pharmacology",
-        "Toxicology",
-        "Biology",
-        "Medicine"
+        "chemistry",
+        "biochemistry",
+        "pharmacology",
+        "toxicology",
+        "biology",
+        "medicine"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -797,7 +797,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic/chemistry/pubchem.json"
+      "file_path": "academic\\chemistry\\pubchem.json"
     },
     {
       "id": "acad-conferenceboard",
@@ -814,12 +814,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Economics",
-        "Business Cycles",
-        "Consumer Confidence",
-        "Labor Markets",
-        "Employment",
-        "Economic Forecasting"
+        "economics",
+        "business cycles",
+        "consumer confidence",
+        "labor markets",
+        "employment",
+        "economic forecasting"
       ],
       "geographic_scope": "global",
       "update_frequency": "monthly",
@@ -856,7 +856,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/economics/conference-board.json"
+      "file_path": "academic\\economics\\conference-board.json"
     },
     {
       "id": "ggdc-databases",
@@ -921,7 +921,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/economics/ggdc-databases.json"
+      "file_path": "academic\\economics\\ggdc-databases.json"
     },
     {
       "id": "nber-data",
@@ -985,7 +985,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/economics/nber.json"
+      "file_path": "academic\\economics\\nber.json"
     },
     {
       "id": "penn-world-table",
@@ -1047,7 +1047,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/economics/penn-world-table.json"
+      "file_path": "academic\\economics\\penn-world-table.json"
     },
     {
       "id": "world-inequality-database",
@@ -1110,7 +1110,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/economics/world-inequality-database.json"
+      "file_path": "academic\\economics\\world-inequality-database.json"
     },
     {
       "id": "copernicus-open-access-hub",
@@ -1167,7 +1167,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic/environment/copernicus-open-access-hub.json"
+      "file_path": "academic\\environment\\copernicus-open-access-hub.json"
     },
     {
       "id": "clinicaltrials-gov",
@@ -1229,7 +1229,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic/health/clinicaltrials-gov.json"
+      "file_path": "academic\\health\\clinicaltrials-gov.json"
     },
     {
       "id": "dhs",
@@ -1291,7 +1291,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic/health/dhs.json"
+      "file_path": "academic\\health\\dhs.json"
     },
     {
       "id": "ghdx",
@@ -1364,7 +1364,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/health/ghdx.json"
+      "file_path": "academic\\health\\ghdx.json"
     },
     {
       "id": "pubmed",
@@ -1426,7 +1426,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic/health/pubmed.json"
+      "file_path": "academic\\health\\pubmed.json"
     },
     {
       "id": "tcga",
@@ -1505,7 +1505,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic/health/tcga.json"
+      "file_path": "academic\\health\\tcga.json"
     },
     {
       "id": "cern-open-data",
@@ -1522,13 +1522,13 @@
       "api_url": "https://github.com/cernopendata/opendata.cern.ch",
       "country": null,
       "domains": [
-        "Particle Physics",
-        "High Energy Physics",
-        "Nuclear Physics",
-        "Experimental Physics",
-        "Computational Physics",
-        "Data Science",
-        "Machine Learning"
+        "particle physics",
+        "high energy physics",
+        "nuclear physics",
+        "experimental physics",
+        "computational physics",
+        "data science",
+        "machine learning"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -1590,7 +1590,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/physics/cern-open-data.json"
+      "file_path": "academic\\physics\\cern-open-data.json"
     },
     {
       "id": "acad-cod",
@@ -1607,11 +1607,11 @@
       "api_url": "https://wiki.crystallography.net/RESTful_API/",
       "country": null,
       "domains": [
-        "Crystallography",
-        "Materials Science",
-        "Chemistry",
-        "Physics",
-        "Mineralogy"
+        "crystallography",
+        "materials science",
+        "chemistry",
+        "physics",
+        "mineralogy"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -1655,7 +1655,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic/physics/crystallography-open-database.json"
+      "file_path": "academic\\physics\\crystallography-open-database.json"
     },
     {
       "id": "afrobarometer",
@@ -1672,21 +1672,21 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Democracy and Governance",
-        "Political Participation",
-        "Elections and Electoral Systems",
-        "Economic Development",
-        "Social Issues",
-        "Public Services",
-        "Citizen Engagement",
-        "Human Rights",
-        "Gender Equality",
-        "Corruption and Accountability",
-        "Security and Conflict",
-        "Youth Development",
-        "Health and Education",
-        "Infrastructure",
-        "Environmental Issues"
+        "democracy and governance",
+        "political participation",
+        "elections and electoral systems",
+        "economic development",
+        "social issues",
+        "public services",
+        "citizen engagement",
+        "human rights",
+        "gender equality",
+        "corruption and accountability",
+        "security and conflict",
+        "youth development",
+        "health and education",
+        "infrastructure",
+        "environmental issues"
       ],
       "geographic_scope": "regional",
       "update_frequency": "irregular",
@@ -1750,7 +1750,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/social/afrobarometer.json"
+      "file_path": "academic\\social\\afrobarometer.json"
     },
     {
       "id": "asian-barometer",
@@ -1767,13 +1767,13 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Political Science",
-        "Democracy Studies",
-        "Public Opinion",
-        "Governance",
-        "Political Values",
-        "Electoral Studies",
-        "Social Science"
+        "political science",
+        "democracy studies",
+        "public opinion",
+        "governance",
+        "political values",
+        "electoral studies",
+        "social science"
       ],
       "geographic_scope": "regional",
       "update_frequency": "irregular",
@@ -1829,7 +1829,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic/social/asian-barometer.json"
+      "file_path": "academic\\social\\asian-barometer.json"
     },
     {
       "id": "china-ndrc-computing",
@@ -1905,7 +1905,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/economy/macro/china-ndrc-computing.json"
+      "file_path": "china\\economy\\macro\\china-ndrc-computing.json"
     },
     {
       "id": "china-ndrc",
@@ -1963,7 +1963,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china/economy/macro/ndrc.json"
+      "file_path": "china\\economy\\macro\\ndrc.json"
     },
     {
       "id": "china-customs",
@@ -2023,7 +2023,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china/economy/trade/customs.json"
+      "file_path": "china\\economy\\trade\\customs.json"
     },
     {
       "id": "china-mofcom",
@@ -2084,7 +2084,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china/economy/trade/mofcom.json"
+      "file_path": "china\\economy\\trade\\mofcom.json"
     },
     {
       "id": "china-moe-higher-education",
@@ -2175,7 +2175,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/education/higher_education/china-moe-higher-education.json"
+      "file_path": "china\\education\\higher_education\\china-moe-higher-education.json"
     },
     {
       "id": "china-nfra",
@@ -2236,7 +2236,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china/finance/banking/nfra.json"
+      "file_path": "china\\finance\\banking\\nfra.json"
     },
     {
       "id": "china-pbc",
@@ -2296,7 +2296,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china/finance/banking/pbc.json"
+      "file_path": "china\\finance\\banking\\pbc.json"
     },
     {
       "id": "china-csrc",
@@ -2356,7 +2356,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china/finance/securities/csrc.json"
+      "file_path": "china\\finance\\securities\\csrc.json"
     },
     {
       "id": "hkex",
@@ -2423,7 +2423,7 @@
       },
       "authority_level": "commercial",
       "has_api": true,
-      "file_path": "china/finance/securities/hkex.json"
+      "file_path": "china\\finance\\securities\\hkex.json"
     },
     {
       "id": "china-nbs",
@@ -2486,7 +2486,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "china/national/nbs.json"
+      "file_path": "china\\national\\nbs.json"
     },
     {
       "id": "china-caict",
@@ -2557,7 +2557,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/research/china-caict.json"
+      "file_path": "china\\research\\china-caict.json"
     },
     {
       "id": "china-miit-rare-earth",
@@ -2632,7 +2632,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/resources/mineral/china-miit-rare-earth.json"
+      "file_path": "china\\resources\\mineral\\china-miit-rare-earth.json"
     },
     {
       "id": "china-mnr-minerals",
@@ -2710,7 +2710,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/resources/mineral/china-mnr-minerals.json"
+      "file_path": "china\\resources\\mineral\\china-mnr-minerals.json"
     },
     {
       "id": "china-national-data-bureau",
@@ -2784,7 +2784,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+      "file_path": "china\\technology\\digital_economy\\china-national-data-bureau.json"
     },
     {
       "id": "china-cnipa-patents",
@@ -2867,7 +2867,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/technology/intellectual_property/china-cnipa-patents.json"
+      "file_path": "china\\technology\\intellectual_property\\china-cnipa-patents.json"
     },
     {
       "id": "china-most-infrastructure",
@@ -2947,7 +2947,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/technology/sci_resources/china-most-infrastructure.json"
+      "file_path": "china\\technology\\sci_resources\\china-most-infrastructure.json"
     },
     {
       "id": "china-most-rnd",
@@ -3028,7 +3028,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/technology/sci_resources/china-most-rnd.json"
+      "file_path": "china\\technology\\sci_resources\\china-most-rnd.json"
     },
     {
       "id": "china-sac-standards",
@@ -3105,7 +3105,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/technology/standards/china-sac-standards.json"
+      "file_path": "china\\technology\\standards\\china-sac-standards.json"
     },
     {
       "id": "china-miit",
@@ -3183,7 +3183,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china/technology/telecommunications/china-miit.json"
+      "file_path": "china\\technology\\telecommunications\\china-miit.json"
     },
     {
       "id": "india-dgcis",
@@ -3200,16 +3200,16 @@
       "api_url": null,
       "country": "IN",
       "domains": [
-        "International Trade",
-        "Foreign Trade Statistics",
-        "Inland Trade",
-        "Customs Statistics",
-        "Export Statistics",
-        "Import Statistics",
-        "Shipping Statistics",
-        "Coastal Trade",
-        "Inter-State Trade",
-        "Excise Revenue"
+        "international trade",
+        "foreign trade statistics",
+        "inland trade",
+        "customs statistics",
+        "export statistics",
+        "import statistics",
+        "shipping statistics",
+        "coastal trade",
+        "inter-state trade",
+        "excise revenue"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -3259,7 +3259,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries/asia/india/india-dgcis.json"
+      "file_path": "countries\\asia\\india\\india-dgcis.json"
     },
     {
       "id": "boj-statistics",
@@ -3277,15 +3277,15 @@
       "api_url": null,
       "country": "JP",
       "domains": [
-        "Monetary Policy",
-        "Financial Markets",
-        "Banking",
-        "Flow of Funds",
-        "Economic Surveys",
-        "Prices",
-        "Balance of Payments",
-        "Public Finance",
-        "Payment Systems"
+        "monetary policy",
+        "financial markets",
+        "banking",
+        "flow of funds",
+        "economic surveys",
+        "prices",
+        "balance of payments",
+        "public finance",
+        "payment systems"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -3341,7 +3341,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries/asia/japan/boj-statistics.json"
+      "file_path": "countries\\asia\\japan\\boj-statistics.json"
     },
     {
       "id": "korea-bok",
@@ -3428,7 +3428,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/asia/korea/korea-bok.json"
+      "file_path": "countries\\asia\\korea\\korea-bok.json"
     },
     {
       "id": "uk-boe",
@@ -3445,15 +3445,15 @@
       "api_url": null,
       "country": "GB",
       "domains": [
-        "Monetary Policy",
-        "Financial Markets",
-        "Banking",
-        "Interest Rates",
-        "Exchange Rates",
-        "Credit",
-        "Financial Stability",
-        "Payment Systems",
-        "Regulatory Capital"
+        "monetary policy",
+        "financial markets",
+        "banking",
+        "interest rates",
+        "exchange rates",
+        "credit",
+        "financial stability",
+        "payment systems",
+        "regulatory capital"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -3509,7 +3509,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries/europe/uk/bank-of-england.json"
+      "file_path": "countries\\europe\\uk\\bank-of-england.json"
     },
     {
       "id": "uk-data-gov",
@@ -3526,19 +3526,19 @@
       "api_url": "https://guidance.data.gov.uk/get_data/api_documentation/",
       "country": "GB",
       "domains": [
-        "Business and economy",
-        "Crime and justice",
-        "Defence",
-        "Education",
-        "Environment",
-        "Government",
-        "Government spending",
-        "Health",
-        "Mapping",
-        "Society",
-        "Towns and cities",
-        "Transport",
-        "Digital service performance"
+        "business and economy",
+        "crime and justice",
+        "defence",
+        "education",
+        "environment",
+        "government",
+        "government spending",
+        "health",
+        "mapping",
+        "society",
+        "towns and cities",
+        "transport",
+        "digital service performance"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -3589,7 +3589,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/europe/uk/uk-data-gov.json"
+      "file_path": "countries\\europe\\uk\\uk-data-gov.json"
     },
     {
       "id": "aafc",
@@ -3607,15 +3607,15 @@
       "api_url": "https://agriculture.canada.ca/en/science/scientific-collaboration/open-data",
       "country": "CA",
       "domains": [
-        "Agriculture",
-        "Crop Production",
-        "Land Use",
-        "Geospatial Data",
-        "Environmental Monitoring",
-        "Agricultural Economics",
-        "Food Security",
-        "Agricultural Research",
-        "Market Information"
+        "agriculture",
+        "crop production",
+        "land use",
+        "geospatial data",
+        "environmental monitoring",
+        "agricultural economics",
+        "food security",
+        "agricultural research",
+        "market information"
       ],
       "geographic_scope": "national",
       "update_frequency": "annual",
@@ -3664,7 +3664,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/canada/aafc.json"
+      "file_path": "countries\\north-america\\canada\\aafc.json"
     },
     {
       "id": "canada-boc",
@@ -3741,7 +3741,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/canada/canada-boc.json"
+      "file_path": "countries\\north-america\\canada\\canada-boc.json"
     },
     {
       "id": "canada-cihi",
@@ -3830,7 +3830,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/canada/canada-cihi.json"
+      "file_path": "countries\\north-america\\canada\\canada-cihi.json"
     },
     {
       "id": "canada-cer",
@@ -3848,14 +3848,14 @@
       "api_url": "https://open.canada.ca/data/en/organization/cer-rec",
       "country": "CA",
       "domains": [
-        "Energy Infrastructure",
-        "Pipeline Regulation",
-        "Electricity Transmission",
-        "Oil and Gas",
-        "Renewable Energy",
-        "Energy Safety",
-        "Energy Markets",
-        "Energy Trade"
+        "energy infrastructure",
+        "pipeline regulation",
+        "electricity transmission",
+        "oil and gas",
+        "renewable energy",
+        "energy safety",
+        "energy markets",
+        "energy trade"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -3901,7 +3901,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/canada/canada-energy-regulator.json"
+      "file_path": "countries\\north-america\\canada\\canada-energy-regulator.json"
     },
     {
       "id": "canada-statcan",
@@ -3977,7 +3977,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/canada/statcan.json"
+      "file_path": "countries\\north-america\\canada\\statcan.json"
     },
     {
       "id": "mx-banxico",
@@ -4061,7 +4061,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/mexico/banxico.json"
+      "file_path": "countries\\north-america\\mexico\\banxico.json"
     },
     {
       "id": "mexico-coneval",
@@ -4133,7 +4133,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries/north-america/mexico/coneval.json"
+      "file_path": "countries\\north-america\\mexico\\coneval.json"
     },
     {
       "id": "usa-census-bureau",
@@ -4214,7 +4214,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/census-bureau.json"
+      "file_path": "countries\\north-america\\usa\\census-bureau.json"
     },
     {
       "id": "usa-eia",
@@ -4295,7 +4295,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/eia.json"
+      "file_path": "countries\\north-america\\usa\\eia.json"
     },
     {
       "id": "noaa-cdo",
@@ -4366,7 +4366,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/noaa-cdo.json"
+      "file_path": "countries\\north-america\\usa\\noaa-cdo.json"
     },
     {
       "id": "us-bea",
@@ -4383,16 +4383,16 @@
       "api_url": "https://apps.bea.gov/api/signup/index.cfm",
       "country": "US",
       "domains": [
-        "Economics",
-        "GDP",
-        "National Accounts",
-        "International Trade",
-        "Foreign Direct Investment",
-        "Personal Income",
-        "Consumer Spending",
-        "Corporate Profits",
-        "Regional Economics",
-        "Industry Economics"
+        "economics",
+        "gdp",
+        "national accounts",
+        "international trade",
+        "foreign direct investment",
+        "personal income",
+        "consumer spending",
+        "corporate profits",
+        "regional economics",
+        "industry economics"
       ],
       "geographic_scope": "national",
       "update_frequency": "quarterly",
@@ -4444,7 +4444,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/us-bea.json"
+      "file_path": "countries\\north-america\\usa\\us-bea.json"
     },
     {
       "id": "us-bls",
@@ -4461,18 +4461,18 @@
       "api_url": "https://www.bls.gov/developers/",
       "country": "US",
       "domains": [
-        "Employment",
-        "Unemployment",
-        "Labor Force",
-        "Wages",
-        "Earnings",
-        "Prices",
-        "Inflation",
-        "Consumer Expenditures",
-        "Productivity",
-        "Workplace Safety",
-        "Occupational Statistics",
-        "Industry Statistics"
+        "employment",
+        "unemployment",
+        "labor force",
+        "wages",
+        "earnings",
+        "prices",
+        "inflation",
+        "consumer expenditures",
+        "productivity",
+        "workplace safety",
+        "occupational statistics",
+        "industry statistics"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -4540,7 +4540,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/us-bls.json"
+      "file_path": "countries\\north-america\\usa\\us-bls.json"
     },
     {
       "id": "us-cdc",
@@ -4557,21 +4557,21 @@
       "api_url": "https://wonder.cdc.gov/wonder/help/wonder-api.html",
       "country": "US",
       "domains": [
-        "Public Health",
-        "Infectious Diseases",
-        "Chronic Diseases",
-        "Vital Statistics",
-        "Mortality",
-        "Natality",
-        "Environmental Health",
-        "Cancer",
-        "Tuberculosis",
-        "Sexually Transmitted Diseases",
-        "Vaccine Safety",
-        "Population Health",
-        "Health Equity",
-        "Disease Surveillance",
-        "Epidemiology"
+        "public health",
+        "infectious diseases",
+        "chronic diseases",
+        "vital statistics",
+        "mortality",
+        "natality",
+        "environmental health",
+        "cancer",
+        "tuberculosis",
+        "sexually transmitted diseases",
+        "vaccine safety",
+        "population health",
+        "health equity",
+        "disease surveillance",
+        "epidemiology"
       ],
       "geographic_scope": "national",
       "update_frequency": "weekly",
@@ -4626,7 +4626,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/us-cdc.json"
+      "file_path": "countries\\north-america\\usa\\us-cdc.json"
     },
     {
       "id": "us-data-gov",
@@ -4643,23 +4643,23 @@
       "api_url": null,
       "country": "US",
       "domains": [
-        "Agriculture",
-        "Business",
-        "Climate",
-        "Consumer",
-        "Education",
-        "Energy",
-        "Finance",
-        "Health",
-        "Transportation",
-        "Public Safety",
-        "Science & Research",
-        "Environment",
-        "Manufacturing",
-        "Ocean",
-        "Local Government",
-        "Maritime",
-        "Ecosystems"
+        "agriculture",
+        "business",
+        "climate",
+        "consumer",
+        "education",
+        "energy",
+        "finance",
+        "health",
+        "transportation",
+        "public safety",
+        "science & research",
+        "environment",
+        "manufacturing",
+        "ocean",
+        "local government",
+        "maritime",
+        "ecosystems"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -4709,7 +4709,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries/north-america/usa/us-data-gov.json"
+      "file_path": "countries\\north-america\\usa\\us-data-gov.json"
     },
     {
       "id": "usgs-earthexplorer",
@@ -4783,7 +4783,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/north-america/usa/usgs-earthexplorer.json"
+      "file_path": "countries\\north-america\\usa\\usgs-earthexplorer.json"
     },
     {
       "id": "australia-abs",
@@ -4869,7 +4869,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/oceania/australia/abs.json"
+      "file_path": "countries\\oceania\\australia\\abs.json"
     },
     {
       "id": "aus-aihw",
@@ -4886,19 +4886,19 @@
       "api_url": "https://www.aihw.gov.au/reports-data/myhospitals/content/api",
       "country": "AU",
       "domains": [
-        "Health",
-        "Welfare",
-        "Hospitals",
-        "Mental health",
-        "Aged care",
-        "Disability",
-        "Child protection",
-        "Homelessness",
-        "Housing",
-        "Indigenous health",
-        "Alcohol and drugs",
-        "Disease and injury",
-        "Mortality"
+        "health",
+        "welfare",
+        "hospitals",
+        "mental health",
+        "aged care",
+        "disability",
+        "child protection",
+        "homelessness",
+        "housing",
+        "indigenous health",
+        "alcohol and drugs",
+        "disease and injury",
+        "mortality"
       ],
       "geographic_scope": "national",
       "update_frequency": "irregular",
@@ -4954,7 +4954,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/oceania/australia/aihw.json"
+      "file_path": "countries\\oceania\\australia\\aihw.json"
     },
     {
       "id": "bureau-of-meteorology",
@@ -5038,7 +5038,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/oceania/australia/bureau-of-meteorology.json"
+      "file_path": "countries\\oceania\\australia\\bureau-of-meteorology.json"
     },
     {
       "id": "brazil-bcb",
@@ -5056,16 +5056,16 @@
       "api_url": "https://dadosabertos.bcb.gov.br/dataset",
       "country": "BR",
       "domains": [
-        "Monetary Policy",
-        "Financial Statistics",
-        "Banking",
-        "Payment Systems",
-        "Exchange Rates",
-        "Interest Rates",
-        "Credit Data",
-        "Balance of Payments",
-        "Financial Stability",
-        "Currency and Coins"
+        "monetary policy",
+        "financial statistics",
+        "banking",
+        "payment systems",
+        "exchange rates",
+        "interest rates",
+        "credit data",
+        "balance of payments",
+        "financial stability",
+        "currency and coins"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -5119,7 +5119,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/south-america/brazil/brazil-bcb.json"
+      "file_path": "countries\\south-america\\brazil\\brazil-bcb.json"
     },
     {
       "id": "brazil-ibge",
@@ -5213,7 +5213,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries/south-america/brazil-ibge.json"
+      "file_path": "countries\\south-america\\brazil-ibge.json"
     },
     {
       "id": "cgiar-research-data",
@@ -5230,20 +5230,20 @@
       "api_url": "https://cgspace.cgiar.org/rest",
       "country": null,
       "domains": [
-        "Agriculture",
-        "Food Security",
-        "Climate Change Adaptation",
-        "Agricultural Biodiversity",
-        "Crop Science",
-        "Livestock Systems",
-        "Water Resources Management",
-        "Soil Science",
-        "Genetics and Genomics",
-        "Sustainable Intensification",
-        "Nutrition",
-        "Agricultural Economics",
-        "Agricultural Policy",
-        "Agroforestry"
+        "agriculture",
+        "food security",
+        "climate change adaptation",
+        "agricultural biodiversity",
+        "crop science",
+        "livestock systems",
+        "water resources management",
+        "soil science",
+        "genetics and genomics",
+        "sustainable intensification",
+        "nutrition",
+        "agricultural economics",
+        "agricultural policy",
+        "agroforestry"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -5301,7 +5301,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/agriculture/cgiar-research-data.json"
+      "file_path": "international\\agriculture\\cgiar-research-data.json"
     },
     {
       "id": "faostat",
@@ -5318,20 +5318,20 @@
       "api_url": "https://www.fao.org/faostat/en/#faq",
       "country": null,
       "domains": [
-        "Agriculture",
-        "Food Security",
-        "Nutrition",
-        "Trade",
-        "Climate Change",
-        "Environment",
-        "Land Use",
-        "Forestry",
-        "Fisheries",
-        "Livestock",
-        "Crops",
-        "Investment",
-        "Employment",
-        "Prices"
+        "agriculture",
+        "food security",
+        "nutrition",
+        "trade",
+        "climate change",
+        "environment",
+        "land use",
+        "forestry",
+        "fisheries",
+        "livestock",
+        "crops",
+        "investment",
+        "employment",
+        "prices"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -5390,7 +5390,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/agriculture/faostat.json"
+      "file_path": "international\\agriculture\\faostat.json"
     },
     {
       "id": "adb-data",
@@ -5458,7 +5458,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/development/adb-data.json"
+      "file_path": "international\\development\\adb-data.json"
     },
     {
       "id": "afdb",
@@ -5475,16 +5475,16 @@
       "api_url": "http://dataportal.opendataforafrica.org/",
       "country": null,
       "domains": [
-        "Development Finance",
-        "Economic Statistics",
-        "Social Development",
-        "Infrastructure",
-        "Agriculture",
-        "Energy",
-        "Climate Change",
-        "Governance",
-        "Health",
-        "Education"
+        "development finance",
+        "economic statistics",
+        "social development",
+        "infrastructure",
+        "agriculture",
+        "energy",
+        "climate change",
+        "governance",
+        "health",
+        "education"
       ],
       "geographic_scope": "regional",
       "update_frequency": "annual",
@@ -5518,7 +5518,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/development/afdb.json"
+      "file_path": "international\\development\\afdb.json"
     },
     {
       "id": "caf",
@@ -5536,23 +5536,23 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Development Finance",
-        "Economic Development",
-        "Infrastructure",
-        "Energy Transition",
-        "Climate Finance",
-        "Social Development",
-        "Education",
-        "Health",
-        "Water Resources",
-        "Transportation",
-        "Digital Transformation",
-        "Innovation",
-        "Agriculture",
-        "Environmental Sustainability",
-        "Climate Resilience",
-        "Urban Development",
-        "Regional Integration"
+        "development finance",
+        "economic development",
+        "infrastructure",
+        "energy transition",
+        "climate finance",
+        "social development",
+        "education",
+        "health",
+        "water resources",
+        "transportation",
+        "digital transformation",
+        "innovation",
+        "agriculture",
+        "environmental sustainability",
+        "climate resilience",
+        "urban development",
+        "regional integration"
       ],
       "geographic_scope": "regional",
       "update_frequency": "annual",
@@ -5617,7 +5617,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/development/caf.json"
+      "file_path": "international\\development\\caf.json"
     },
     {
       "id": "caribbean-development-bank",
@@ -5634,16 +5634,16 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Development Finance",
-        "Economic Development",
-        "Infrastructure",
-        "Education",
-        "Health",
-        "Agriculture",
-        "Social Development",
-        "Environmental Sustainability",
-        "Climate Resilience",
-        "Poverty Reduction"
+        "development finance",
+        "economic development",
+        "infrastructure",
+        "education",
+        "health",
+        "agriculture",
+        "social development",
+        "environmental sustainability",
+        "climate resilience",
+        "poverty reduction"
       ],
       "geographic_scope": "regional",
       "update_frequency": "annual",
@@ -5694,7 +5694,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/development/caribbean-development-bank.json"
+      "file_path": "international\\development\\caribbean-development-bank.json"
     },
     {
       "id": "idb",
@@ -5711,17 +5711,17 @@
       "api_url": "https://data.iadb.org/dataset/",
       "country": null,
       "domains": [
-        "Development Finance",
-        "Macroeconomic Statistics",
-        "Fiscal Policy",
-        "Social Development",
-        "Education",
-        "Health",
-        "Labor Markets",
-        "Trade and Integration",
-        "Agriculture",
-        "Public Sector",
-        "Financial Sector"
+        "development finance",
+        "macroeconomic statistics",
+        "fiscal policy",
+        "social development",
+        "education",
+        "health",
+        "labor markets",
+        "trade and integration",
+        "agriculture",
+        "public sector",
+        "financial sector"
       ],
       "geographic_scope": "regional",
       "update_frequency": "quarterly",
@@ -5761,7 +5761,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/development/idb.json"
+      "file_path": "international\\development\\idb.json"
     },
     {
       "id": "intl-copernicus-cdse",
@@ -5778,15 +5778,15 @@
       "api_url": "https://documentation.dataspace.copernicus.eu",
       "country": null,
       "domains": [
-        "Earth Observation",
-        "Remote Sensing",
-        "Climate Change",
-        "Land Monitoring",
-        "Ocean Monitoring",
-        "Atmosphere Monitoring",
-        "Emergency Management",
-        "Agriculture",
-        "Forestry"
+        "earth observation",
+        "remote sensing",
+        "climate change",
+        "land monitoring",
+        "ocean monitoring",
+        "atmosphere monitoring",
+        "emergency management",
+        "agriculture",
+        "forestry"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -5833,7 +5833,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/earth-science/copernicus-data-space.json"
+      "file_path": "international\\earth-science\\copernicus-data-space.json"
     },
     {
       "id": "nasa-earthdata",
@@ -5900,7 +5900,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "international/earth-science/nasa-earthdata.json"
+      "file_path": "international\\earth-science\\nasa-earthdata.json"
     },
     {
       "id": "bis-statistics",
@@ -5917,17 +5917,17 @@
       "api_url": "https://stats.bis.org/api-doc/v2/",
       "country": null,
       "domains": [
-        "Banking",
-        "Finance",
-        "Securities",
-        "Credit",
-        "Liquidity",
-        "Derivatives",
-        "Real Estate",
-        "Prices",
-        "Exchange Rates",
-        "Central Banking",
-        "Payments"
+        "banking",
+        "finance",
+        "securities",
+        "credit",
+        "liquidity",
+        "derivatives",
+        "real estate",
+        "prices",
+        "exchange rates",
+        "central banking",
+        "payments"
       ],
       "geographic_scope": "global",
       "update_frequency": "quarterly",
@@ -5988,7 +5988,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "international/economics/bis.json"
+      "file_path": "international\\economics\\bis.json"
     },
     {
       "id": "ecb-sdw",
@@ -6005,16 +6005,16 @@
       "api_url": "https://data.ecb.europa.eu/help/api/overview",
       "country": null,
       "domains": [
-        "Monetary Policy",
-        "Banking Statistics",
-        "Balance of Payments",
-        "Government Finance",
-        "Financial Markets",
-        "Exchange Rates",
-        "Interest Rates",
-        "Financial Stability",
-        "Banking Supervision",
-        "National Accounts"
+        "monetary policy",
+        "banking statistics",
+        "balance of payments",
+        "government finance",
+        "financial markets",
+        "exchange rates",
+        "interest rates",
+        "financial stability",
+        "banking supervision",
+        "national accounts"
       ],
       "geographic_scope": "regional",
       "update_frequency": "daily",
@@ -6066,7 +6066,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "international/economics/ecb-sdw.json"
+      "file_path": "international\\economics\\ecb-sdw.json"
     },
     {
       "id": "imf-data",
@@ -6125,7 +6125,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/economics/imf.json"
+      "file_path": "international\\economics\\imf.json"
     },
     {
       "id": "oecd-statistics",
@@ -6191,7 +6191,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/economics/oecd.json"
+      "file_path": "international\\economics\\oecd.json"
     },
     {
       "id": "worldbank-open-data",
@@ -6253,7 +6253,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/economics/worldbank.json"
+      "file_path": "international\\economics\\worldbank.json"
     },
     {
       "id": "iea-education-studies",
@@ -6335,7 +6335,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "international/education/iea-education-studies.json"
+      "file_path": "international\\education\\iea-education-studies.json"
     },
     {
       "id": "oecd-pisa",
@@ -6352,14 +6352,14 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Education",
-        "Student Assessment",
-        "Reading Literacy",
-        "Mathematical Literacy",
-        "Scientific Literacy",
-        "Financial Literacy",
-        "Creative Thinking",
-        "Global Competence"
+        "education",
+        "student assessment",
+        "reading literacy",
+        "mathematical literacy",
+        "scientific literacy",
+        "financial literacy",
+        "creative thinking",
+        "global competence"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -6414,7 +6414,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/education/oecd-pisa.json"
+      "file_path": "international\\education\\oecd-pisa.json"
     },
     {
       "id": "iaea-energy-data",
@@ -6486,7 +6486,7 @@
         ]
       },
       "has_api": true,
-      "file_path": "international/energy/iaea-energy-data.json"
+      "file_path": "international\\energy\\iaea-energy-data.json"
     },
     {
       "id": "iea-energy-data",
@@ -6566,7 +6566,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/energy/iea.json"
+      "file_path": "international\\energy\\iea.json"
     },
     {
       "id": "basel-convention",
@@ -6583,11 +6583,11 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Environment",
-        "Waste Management",
-        "Hazardous Materials",
-        "International Trade",
-        "Environmental Law"
+        "environment",
+        "waste management",
+        "hazardous materials",
+        "international trade",
+        "environmental law"
       ],
       "geographic_scope": "global",
       "update_frequency": "annual",
@@ -6644,7 +6644,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/environment/basel-convention.json"
+      "file_path": "international\\environment\\basel-convention.json"
     },
     {
       "id": "cites-trade-database",
@@ -6661,11 +6661,11 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Wildlife Conservation",
-        "Endangered Species",
-        "International Trade",
-        "Environmental Protection",
-        "Biodiversity"
+        "wildlife conservation",
+        "endangered species",
+        "international trade",
+        "environmental protection",
+        "biodiversity"
       ],
       "geographic_scope": "global",
       "update_frequency": "annual",
@@ -6711,7 +6711,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/environment/cites-trade-database.json"
+      "file_path": "international\\environment\\cites-trade-database.json"
     },
     {
       "id": "ebrd",
@@ -6761,7 +6761,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/finance/ebrd.json"
+      "file_path": "international\\finance\\ebrd.json"
     },
     {
       "id": "iais",
@@ -6836,7 +6836,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "international/finance/iais.json"
+      "file_path": "international\\finance\\iais.json"
     },
     {
       "id": "paris-club",
@@ -6884,7 +6884,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/finance/paris-club.json"
+      "file_path": "international\\finance\\paris-club.json"
     },
     {
       "id": "africa-cdc",
@@ -6952,7 +6952,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/health/africa-cdc.json"
+      "file_path": "international\\health\\africa-cdc.json"
     },
     {
       "id": "ecdc-surveillance",
@@ -6969,16 +6969,16 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Infectious Diseases",
-        "Public Health",
-        "Epidemiology",
-        "Disease Surveillance",
-        "Antimicrobial Resistance",
-        "Immunization",
-        "Healthcare-Associated Infections",
-        "Vector-Borne Diseases",
-        "Food and Waterborne Diseases",
-        "Respiratory Diseases"
+        "infectious diseases",
+        "public health",
+        "epidemiology",
+        "disease surveillance",
+        "antimicrobial resistance",
+        "immunization",
+        "healthcare-associated infections",
+        "vector-borne diseases",
+        "food and waterborne diseases",
+        "respiratory diseases"
       ],
       "geographic_scope": "regional",
       "update_frequency": "weekly",
@@ -7037,7 +7037,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/health/ecdc-surveillance.json"
+      "file_path": "international\\health\\ecdc-surveillance.json"
     },
     {
       "id": "wipo-ip-statistics",
@@ -7116,7 +7116,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/intellectual-property/wipo.json"
+      "file_path": "international\\intellectual-property\\wipo.json"
     },
     {
       "id": "bipm-kcdb",
@@ -7134,18 +7134,18 @@
       "api_url": "https://www.bipm.org/en/cipm-mra/kcdb-api",
       "country": null,
       "domains": [
-        "Metrology",
-        "Measurement Standards",
-        "International System of Units (SI)",
-        "Time and Frequency",
-        "Mass and Related Quantities",
-        "Length",
-        "Thermometry",
-        "Electricity and Magnetism",
-        "Photometry and Radiometry",
-        "Ionizing Radiation",
-        "Chemistry and Biology",
-        "Acoustics, Ultrasound and Vibration"
+        "metrology",
+        "measurement standards",
+        "international system of units (si)",
+        "time and frequency",
+        "mass and related quantities",
+        "length",
+        "thermometry",
+        "electricity and magnetism",
+        "photometry and radiometry",
+        "ionizing radiation",
+        "chemistry and biology",
+        "acoustics, ultrasound and vibration"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -7191,7 +7191,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/standards-metrology/bipm-kcdb.json"
+      "file_path": "international\\standards-metrology\\bipm-kcdb.json"
     },
     {
       "id": "codex-alimentarius",
@@ -7208,18 +7208,18 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Food Safety",
-        "Food Standards",
-        "Food Labeling",
-        "Food Hygiene",
-        "Food Additives",
-        "Pesticide Residues",
-        "Veterinary Drug Residues",
-        "Contaminants",
-        "Food Inspection",
-        "Certification Systems",
-        "Nutrition",
-        "Food Quality"
+        "food safety",
+        "food standards",
+        "food labeling",
+        "food hygiene",
+        "food additives",
+        "pesticide residues",
+        "veterinary drug residues",
+        "contaminants",
+        "food inspection",
+        "certification systems",
+        "nutrition",
+        "food quality"
       ],
       "geographic_scope": "global",
       "update_frequency": "annual",
@@ -7264,7 +7264,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/standards-metrology/codex-alimentarius.json"
+      "file_path": "international\\standards-metrology\\codex-alimentarius.json"
     },
     {
       "id": "un-comtrade",
@@ -7312,7 +7312,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/trade/comtrade.json"
+      "file_path": "international\\trade\\comtrade.json"
     },
     {
       "id": "icc-trade-register",
@@ -7391,7 +7391,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "international/trade/icc-trade-register.json"
+      "file_path": "international\\trade\\icc-trade-register.json"
     },
     {
       "id": "unctad",
@@ -7446,7 +7446,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/trade/unctad.json"
+      "file_path": "international\\trade\\unctad.json"
     },
     {
       "id": "wto-statistics",
@@ -7502,7 +7502,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international/trade/wto.json"
+      "file_path": "international\\trade\\wto.json"
     },
     {
       "id": "icao-aviation-data",
@@ -7594,7 +7594,7 @@
         ]
       },
       "has_api": true,
-      "file_path": "international/transportation/icao-aviation-data.json"
+      "file_path": "international\\transportation\\icao-aviation-data.json"
     },
     {
       "id": "amis",
@@ -7611,13 +7611,13 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Agriculture",
-        "Food Security",
-        "Commodity Markets",
-        "Agricultural Trade",
-        "Food Prices",
-        "Market Transparency",
-        "Policy Coordination"
+        "agriculture",
+        "food security",
+        "commodity markets",
+        "agricultural trade",
+        "food prices",
+        "market transparency",
+        "policy coordination"
       ],
       "geographic_scope": "global",
       "update_frequency": "monthly",
@@ -7666,7 +7666,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "sectors/A-agriculture/amis.json"
+      "file_path": "sectors\\A-agriculture\\amis.json"
     },
     {
       "id": "china-rare-earth-association",
@@ -7683,12 +7683,12 @@
       "api_url": null,
       "country": "CN",
       "domains": [
-        "Mining",
-        "Rare Earth Industry",
-        "Metal Materials",
-        "Resource Management",
-        "Industrial Economics",
-        "Commodity Price"
+        "mining",
+        "rare earth industry",
+        "metal materials",
+        "resource management",
+        "industrial economics",
+        "commodity price"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -7745,7 +7745,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors/B-mining/rare-earth/china-rare-earth-association.json"
+      "file_path": "sectors\\B-mining\\rare-earth\\china-rare-earth-association.json"
     },
     {
       "id": "china-additive-manufacturing-alliance",
@@ -7762,13 +7762,13 @@
       "api_url": null,
       "country": "CN",
       "domains": [
-        "Additive Manufacturing",
-        "3D Printing",
-        "Advanced Manufacturing",
-        "Industrial Statistics",
-        "Manufacturing Technology",
-        "Materials Science",
-        "Equipment Manufacturing"
+        "additive manufacturing",
+        "3d printing",
+        "advanced manufacturing",
+        "industrial statistics",
+        "manufacturing technology",
+        "materials science",
+        "equipment manufacturing"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -7828,7 +7828,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/additive/china-additive-manufacturing-alliance.json"
+      "file_path": "sectors\\C-manufacturing\\additive\\china-additive-manufacturing-alliance.json"
     },
     {
       "id": "china-auto-association",
@@ -7845,11 +7845,11 @@
       "api_url": null,
       "country": "CN",
       "domains": [
-        "Automotive",
-        "Manufacturing",
-        "Transportation",
-        "New Energy Vehicles",
-        "Industrial Statistics"
+        "automotive",
+        "manufacturing",
+        "transportation",
+        "new energy vehicles",
+        "industrial statistics"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -7908,7 +7908,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/automotive/china-auto-association.json"
+      "file_path": "sectors\\C-manufacturing\\automotive\\china-auto-association.json"
     },
     {
       "id": "china-charging-alliance",
@@ -7971,7 +7971,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
+      "file_path": "sectors\\C-manufacturing\\automotive\\china-charging-alliance.json"
     },
     {
       "id": "china-petroleum-chemical-federation",
@@ -7988,14 +7988,14 @@
       "api_url": null,
       "country": "CN",
       "domains": [
-        "Chemical Industry",
-        "Petroleum Industry",
-        "Industrial Statistics",
-        "Catalysts",
-        "Chemical Materials",
-        "Petrochemicals",
-        "Industry Standards",
-        "Economic Analysis"
+        "chemical industry",
+        "petroleum industry",
+        "industrial statistics",
+        "catalysts",
+        "chemical materials",
+        "petrochemicals",
+        "industry standards",
+        "economic analysis"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -8061,7 +8061,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/chemicals/china-petroleum-chemical-federation.json"
+      "file_path": "sectors\\C-manufacturing\\chemicals\\china-petroleum-chemical-federation.json"
     },
     {
       "$schema": "https://firstdata.org/schemas/firstdata-v2.json",
@@ -8140,7 +8140,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/electronics/china-lcd-association.json"
+      "file_path": "sectors\\C-manufacturing\\electronics\\china-lcd-association.json"
     },
     {
       "id": "china-optical-association",
@@ -8226,7 +8226,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/electronics/china-optical-association.json"
+      "file_path": "sectors\\C-manufacturing\\electronics\\china-optical-association.json"
     },
     {
       "id": "china-semiconductor-association",
@@ -8293,7 +8293,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/electronics/china-semiconductor-association.json"
+      "file_path": "sectors\\C-manufacturing\\electronics\\china-semiconductor-association.json"
     },
     {
       "id": "china-machine-tool-association",
@@ -8371,7 +8371,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/machinery/china-machine-tool-association.json"
+      "file_path": "sectors\\C-manufacturing\\machinery\\china-machine-tool-association.json"
     },
     {
       "id": "china-robot-industry-alliance",
@@ -8388,11 +8388,11 @@
       "api_url": null,
       "country": "CN",
       "domains": [
-        "Robotics",
-        "Industrial Automation",
-        "Manufacturing",
-        "Industry Statistics",
-        "Technology Standards"
+        "robotics",
+        "industrial automation",
+        "manufacturing",
+        "industry statistics",
+        "technology standards"
       ],
       "geographic_scope": "national",
       "update_frequency": "annual",
@@ -8444,7 +8444,110 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors/C-manufacturing/robotics/china-robot-industry-alliance.json"
+      "file_path": "sectors\\C-manufacturing\\robotics\\china-robot-industry-alliance.json"
+    },
+    {
+      "id": "aws-open-data-registry",
+      "name": {
+        "en": "Registry of Open Data on AWS",
+        "zh": "AWS开放数据注册表"
+      },
+      "description": {
+        "en": "The Registry of Open Data on AWS is a comprehensive repository of publicly available datasets hosted on Amazon Web Services infrastructure. It helps people discover and share datasets that are available via AWS resources. The registry contains over 650 datasets spanning multiple domains including machine learning, astronomy, climate science, economics, genomics, geospatial sciences, life sciences, sustainability, and more. Anyone can access these datasets and build services on top of them using AWS compute and analytics services such as Amazon EC2, Amazon Athena, AWS Lambda, and Amazon EMR. The AWS Open Data Sponsorship Program covers the cost of storage for high-value, cloud-optimized datasets, making them freely accessible to researchers, developers, and data scientists worldwide.",
+        "zh": "AWS开放数据注册表是托管在亚马逊云科技基础设施上的公开可用数据集的综合存储库。它帮助人们发现和共享通过AWS资源可用的数据集。该注册表包含超过650个数据集,涵盖多个领域,包括机器学习、天文学、气候科学、经济学、基因组学、地理空间科学、生命科学、可持续发展等。任何人都可以访问这些数据集,并使用AWS计算和分析服务(如Amazon EC2、Amazon Athena、AWS Lambda和Amazon EMR)在其基础上构建服务。AWS开放数据赞助计划承担高价值、云优化数据集的存储成本,使全球研究人员、开发人员和数据科学家可以免费访问这些数据。"
+      },
+      "website": "https://aws.amazon.com/opendata/",
+      "data_url": "https://registry.opendata.aws/",
+      "api_url": null,
+      "country": "US",
+      "domains": [
+        "machine learning",
+        "artificial intelligence",
+        "computer science",
+        "astronomy",
+        "climate science",
+        "economics",
+        "genomics",
+        "geospatial",
+        "life sciences",
+        "sustainability",
+        "transportation",
+        "chemistry",
+        "imaging",
+        "medical imaging",
+        "computer vision",
+        "disaster response"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "aws",
+        "open-data",
+        "cloud",
+        "machine-learning",
+        "ai",
+        "artificial-intelligence",
+        "deep-learning",
+        "computer-vision",
+        "nlp",
+        "genomics",
+        "climate",
+        "satellite-imagery",
+        "geospatial",
+        "earth-observation",
+        "life-sciences",
+        "astronomy",
+        "sustainability",
+        "public-datasets",
+        "data-lake",
+        "s3",
+        "开放数据",
+        "机器学习",
+        "人工智能",
+        "深度学习",
+        "计算机视觉",
+        "基因组学",
+        "气候科学",
+        "卫星影像",
+        "地理空间",
+        "生命科学",
+        "公共数据集",
+        "云计算",
+        "数据湖"
+      ],
+      "data_content": {
+        "en": [
+          "Machine Learning & AI Datasets - Pre-processed datasets for training and testing ML/AI models including computer vision, NLP, and deep learning applications",
+          "Genomics & Life Sciences - DNA sequences, protein structures, biological datasets from NIH, Allen Institute, and other research institutions",
+          "Climate & Weather Data - Atmospheric data, climate models, weather forecasts, and environmental monitoring datasets from NOAA, NASA, and climate research centers",
+          "Satellite & Geospatial Data - Earth observation imagery, satellite data, GIS datasets from NASA, ESA, USGS, and Digital Earth Africa",
+          "Astronomy & Space Science - Astronomical observations, space mission data, and celestial object catalogs",
+          "Medical Imaging - Radiology images, pathology slides, and medical imaging datasets for healthcare AI research",
+          "Transportation & Mobility - Traffic data, autonomous vehicle datasets, and transportation network information",
+          "Economics & Social Sciences - Economic indicators, survey data, and social science research datasets",
+          "Disaster Response & Emergency Management - Real-time disaster data, emergency response datasets, and hazard mapping",
+          "Sustainability & Energy - Renewable energy data, carbon emissions tracking, and environmental sustainability datasets",
+          "Chemistry & Materials Science - Molecular structures, chemical compounds, and materials research data",
+          "Government & Public Sector Data - Open government datasets from EPA, NOAA, NASA, and other federal agencies"
+        ],
+        "zh": [
+          "机器学习与AI数据集 - 用于训练和测试ML/AI模型的预处理数据集,包括计算机视觉、自然语言处理和深度学习应用",
+          "基因组学与生命科学 - 来自NIH、艾伦研究所和其他研究机构的DNA序列、蛋白质结构、生物数据集",
+          "气候与天气数据 - 来自NOAA、NASA和气候研究中心的大气数据、气候模型、天气预报和环境监测数据集",
+          "卫星与地理空间数据 - 来自NASA、ESA、USGS和Digital Earth Africa的地球观测影像、卫星数据、GIS数据集",
+          "天文学与空间科学 - 天文观测、太空任务数据和天体目录",
+          "医学影像 - 用于医疗AI研究的放射学图像、病理切片和医学影像数据集",
+          "交通与移动出行 - 交通数据、自动驾驶车辆数据集和交通网络信息",
+          "经济学与社会科学 - 经济指标、调查数据和社会科学研究数据集",
+          "灾害响应与应急管理 - 实时灾害数据、应急响应数据集和灾害地图",
+          "可持续发展与能源 - 可再生能源数据、碳排放跟踪和环境可持续性数据集",
+          "化学与材料科学 - 分子结构、化学化合物和材料研究数据",
+          "政府与公共部门数据 - 来自EPA、NOAA、NASA和其他联邦机构的开放政府数据集"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": false,
+      "file_path": "sectors\\computer_science_ai\\aws-open-data-registry.json"
     },
     {
       "id": "bp-statistical-review",
@@ -8461,16 +8564,16 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Energy",
-        "Energy Economics",
-        "Energy Statistics",
-        "Energy Production",
-        "Energy Consumption",
-        "Energy Trade",
-        "Renewable Energy",
-        "Fossil Fuels",
-        "Climate Change",
-        "Energy Transition"
+        "energy",
+        "energy economics",
+        "energy statistics",
+        "energy production",
+        "energy consumption",
+        "energy trade",
+        "renewable energy",
+        "fossil fuels",
+        "climate change",
+        "energy transition"
       ],
       "geographic_scope": "global",
       "update_frequency": "annual",
@@ -8532,7 +8635,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors/D-energy/bp-statistical-review.json"
+      "file_path": "sectors\\D-energy\\bp-statistical-review.json"
     },
     {
       "id": "bookscorpus",
@@ -8549,11 +8652,11 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Natural Language Processing",
-        "Machine Learning",
-        "Computational Linguistics",
-        "Text Mining",
-        "Deep Learning"
+        "natural language processing",
+        "machine learning",
+        "computational linguistics",
+        "text mining",
+        "deep learning"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -8601,7 +8704,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/J-information-communication/bookscorpus.json"
+      "file_path": "sectors\\J-information-communication\\bookscorpus.json"
     },
     {
       "id": "china-imt2030",
@@ -8679,7 +8782,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/J-information-communication/china-imt2030.json"
+      "file_path": "sectors\\J-information-communication\\china-imt2030.json"
     },
     {
       "id": "china-software-association",
@@ -8743,7 +8846,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/J-information-communication/china-software-association.json"
+      "file_path": "sectors\\J-information-communication\\china-software-association.json"
     },
     {
       "id": "cifar",
@@ -8760,12 +8863,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Computer Vision",
-        "Deep Learning",
-        "Machine Learning",
-        "Image Classification",
-        "Object Recognition",
-        "Artificial Intelligence"
+        "computer vision",
+        "deep learning",
+        "machine learning",
+        "image classification",
+        "object recognition",
+        "artificial intelligence"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -8801,7 +8904,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/J-information-communication/cifar.json"
+      "file_path": "sectors\\J-information-communication\\cifar.json"
     },
     {
       "id": "common-crawl",
@@ -8818,15 +8921,15 @@
       "api_url": "https://index.commoncrawl.org",
       "country": null,
       "domains": [
-        "Web Crawling",
-        "Natural Language Processing",
-        "Machine Learning",
-        "Data Science",
-        "Information Retrieval",
-        "Web Analytics",
-        "Artificial Intelligence",
-        "Research",
-        "Large Language Models"
+        "web crawling",
+        "natural language processing",
+        "machine learning",
+        "data science",
+        "information retrieval",
+        "web analytics",
+        "artificial intelligence",
+        "research",
+        "large language models"
       ],
       "geographic_scope": "global",
       "update_frequency": "monthly",
@@ -8872,7 +8975,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "sectors/J-information-communication/common-crawl.json"
+      "file_path": "sectors\\J-information-communication\\common-crawl.json"
     },
     {
       "id": "conll-shared-tasks",
@@ -8889,12 +8992,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Natural Language Processing",
-        "Computational Linguistics",
-        "Machine Learning",
-        "Named Entity Recognition",
-        "Parsing",
-        "Semantic Analysis"
+        "natural language processing",
+        "computational linguistics",
+        "machine learning",
+        "named entity recognition",
+        "parsing",
+        "semantic analysis"
       ],
       "geographic_scope": "global",
       "update_frequency": "annual",
@@ -8941,7 +9044,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/J-information-communication/conll-shared-tasks.json"
+      "file_path": "sectors\\J-information-communication\\conll-shared-tasks.json"
     },
     {
       "id": "imagenet",
@@ -8958,12 +9061,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Computer Vision",
-        "Deep Learning",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Image Classification",
-        "Object Recognition"
+        "computer vision",
+        "deep learning",
+        "machine learning",
+        "artificial intelligence",
+        "image classification",
+        "object recognition"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -9001,7 +9104,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/J-information-communication/imagenet.json"
+      "file_path": "sectors\\J-information-communication\\imagenet.json"
     },
     {
       "id": "alpha-vantage",
@@ -9018,12 +9121,12 @@
       "api_url": "https://www.alphavantage.co/documentation/",
       "country": null,
       "domains": [
-        "Stock Markets",
-        "Foreign Exchange",
-        "Cryptocurrencies",
-        "Commodities",
-        "Economic Indicators",
-        "Technical Analysis"
+        "stock markets",
+        "foreign exchange",
+        "cryptocurrencies",
+        "commodities",
+        "economic indicators",
+        "technical analysis"
       ],
       "geographic_scope": "global",
       "update_frequency": "real-time",
@@ -9065,7 +9168,7 @@
       },
       "authority_level": "commercial",
       "has_api": true,
-      "file_path": "sectors/K-finance-insurance/alpha-vantage.json"
+      "file_path": "sectors\\K-finance-insurance\\alpha-vantage.json"
     },
     {
       "id": "bloomberg-terminal",
@@ -9082,15 +9185,15 @@
       "api_url": "https://www.bloomberg.com/professional/support/api-library/",
       "country": null,
       "domains": [
-        "Equities",
-        "Fixed Income",
-        "Currencies",
-        "Commodities",
-        "Derivatives",
-        "Economic Data",
-        "Financial News",
-        "Corporate Fundamentals",
-        "ESG Data"
+        "equities",
+        "fixed income",
+        "currencies",
+        "commodities",
+        "derivatives",
+        "economic data",
+        "financial news",
+        "corporate fundamentals",
+        "esg data"
       ],
       "geographic_scope": "global",
       "update_frequency": "real-time",
@@ -9138,7 +9241,7 @@
       },
       "authority_level": "commercial",
       "has_api": true,
-      "file_path": "sectors/K-finance-insurance/bloomberg-terminal.json"
+      "file_path": "sectors\\K-finance-insurance\\bloomberg-terminal.json"
     },
     {
       "id": "crsp",
@@ -9155,12 +9258,12 @@
       "api_url": "https://www.crsp.org/products/documentation/getting-started",
       "country": "US",
       "domains": [
-        "Stock Markets",
-        "Equities",
-        "Market Indices",
-        "Corporate Actions",
-        "Investment Research",
-        "Asset Pricing"
+        "stock markets",
+        "equities",
+        "market indices",
+        "corporate actions",
+        "investment research",
+        "asset pricing"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -9214,7 +9317,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "sectors/K-finance-insurance/crsp.json"
+      "file_path": "sectors\\K-finance-insurance\\crsp.json"
     },
     {
       "id": "cryptocurrency-data",
@@ -9231,13 +9334,13 @@
       "api_url": "https://coinmarketcap.com/api/documentation/v1/",
       "country": null,
       "domains": [
-        "Cryptocurrency Markets",
-        "Blockchain Analytics",
-        "Digital Assets",
-        "DeFi (Decentralized Finance)",
-        "NFT Markets",
-        "Trading Data",
-        "Financial Technology"
+        "cryptocurrency markets",
+        "blockchain analytics",
+        "digital assets",
+        "defi (decentralized finance)",
+        "nft markets",
+        "trading data",
+        "financial technology"
       ],
       "geographic_scope": "global",
       "update_frequency": "real-time",
@@ -9287,7 +9390,7 @@
       },
       "authority_level": "commercial",
       "has_api": true,
-      "file_path": "sectors/K-finance-insurance/cryptocurrency-data.json"
+      "file_path": "sectors\\K-finance-insurance\\cryptocurrency-data.json"
     },
     {
       "id": "cambridge-structural-database",
@@ -9304,18 +9407,18 @@
       "api_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
       "country": null,
       "domains": [
-        "Crystallography",
-        "Structural Chemistry",
-        "Pharmaceutical Sciences",
-        "Drug Discovery",
-        "Drug Development",
-        "Agrochemical Research",
-        "Materials Science",
-        "Metal-Organic Frameworks",
-        "Catalysis",
-        "Functional Materials",
-        "Organic Chemistry",
-        "Inorganic Chemistry"
+        "crystallography",
+        "structural chemistry",
+        "pharmaceutical sciences",
+        "drug discovery",
+        "drug development",
+        "agrochemical research",
+        "materials science",
+        "metal-organic frameworks",
+        "catalysis",
+        "functional materials",
+        "organic chemistry",
+        "inorganic chemistry"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -9369,7 +9472,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "sectors/M-professional-scientific/cambridge-structural-database.json"
+      "file_path": "sectors\\M-professional-scientific\\cambridge-structural-database.json"
     },
     {
       "id": "china-instrument-society",
@@ -9437,7 +9540,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/M-professional-scientific/china-instrument-society.json"
+      "file_path": "sectors\\M-professional-scientific\\china-instrument-society.json"
     },
     {
       "id": "derwent-innovation-index",
@@ -9454,21 +9557,21 @@
       "api_url": "https://developer.clarivate.com/apis",
       "country": null,
       "domains": [
-        "Patents",
-        "Innovation",
-        "Intellectual Property",
-        "Pharmaceuticals",
-        "Biotechnology",
-        "Chemistry",
-        "Electronics",
-        "Engineering",
-        "Telecommunications",
-        "Materials Science",
-        "Medical Technology",
-        "Mechanical Engineering",
-        "Computer Science",
-        "Aerospace",
-        "Automotive"
+        "patents",
+        "innovation",
+        "intellectual property",
+        "pharmaceuticals",
+        "biotechnology",
+        "chemistry",
+        "electronics",
+        "engineering",
+        "telecommunications",
+        "materials science",
+        "medical technology",
+        "mechanical engineering",
+        "computer science",
+        "aerospace",
+        "automotive"
       ],
       "geographic_scope": "global",
       "update_frequency": "weekly",
@@ -9524,7 +9627,7 @@
       },
       "authority_level": "commercial",
       "has_api": true,
-      "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json"
+      "file_path": "sectors\\M-professional-scientific\\derwent-innovation-index.json"
     },
     {
       "id": "arwu",
@@ -9541,11 +9644,11 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Higher Education",
-        "University Rankings",
-        "Research Performance",
-        "Academic Excellence",
-        "Education Assessment"
+        "higher education",
+        "university rankings",
+        "research performance",
+        "academic excellence",
+        "education assessment"
       ],
       "geographic_scope": "global",
       "update_frequency": "annual",
@@ -9587,7 +9690,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/P-education/arwu.json"
+      "file_path": "sectors\\P-education\\arwu.json"
     },
     {
       "id": "british-museum-collection",
@@ -9604,12 +9707,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Cultural Heritage",
-        "Archaeology",
-        "Art History",
-        "Anthropology",
-        "Ancient Civilizations",
-        "Museum Studies"
+        "cultural heritage",
+        "archaeology",
+        "art history",
+        "anthropology",
+        "ancient civilizations",
+        "museum studies"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -9653,7 +9756,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/R-arts-entertainment/british-museum-collection.json"
+      "file_path": "sectors\\R-arts-entertainment\\british-museum-collection.json"
     },
     {
       "id": "tennis-atp-wta-data",
@@ -9670,10 +9773,10 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Sports Statistics",
-        "Tennis",
-        "Professional Sports Data",
-        "Player Performance Analytics"
+        "sports statistics",
+        "tennis",
+        "professional sports data",
+        "player performance analytics"
       ],
       "geographic_scope": "global",
       "update_frequency": "irregular",
@@ -9721,110 +9824,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json"
-    },
-    {
-      "id": "aws-open-data-registry",
-      "name": {
-        "en": "Registry of Open Data on AWS",
-        "zh": "AWS开放数据注册表"
-      },
-      "description": {
-        "en": "The Registry of Open Data on AWS is a comprehensive repository of publicly available datasets hosted on Amazon Web Services infrastructure. It helps people discover and share datasets that are available via AWS resources. The registry contains over 650 datasets spanning multiple domains including machine learning, astronomy, climate science, economics, genomics, geospatial sciences, life sciences, sustainability, and more. Anyone can access these datasets and build services on top of them using AWS compute and analytics services such as Amazon EC2, Amazon Athena, AWS Lambda, and Amazon EMR. The AWS Open Data Sponsorship Program covers the cost of storage for high-value, cloud-optimized datasets, making them freely accessible to researchers, developers, and data scientists worldwide.",
-        "zh": "AWS开放数据注册表是托管在亚马逊云科技基础设施上的公开可用数据集的综合存储库。它帮助人们发现和共享通过AWS资源可用的数据集。该注册表包含超过650个数据集,涵盖多个领域,包括机器学习、天文学、气候科学、经济学、基因组学、地理空间科学、生命科学、可持续发展等。任何人都可以访问这些数据集,并使用AWS计算和分析服务(如Amazon EC2、Amazon Athena、AWS Lambda和Amazon EMR)在其基础上构建服务。AWS开放数据赞助计划承担高价值、云优化数据集的存储成本,使全球研究人员、开发人员和数据科学家可以免费访问这些数据。"
-      },
-      "website": "https://aws.amazon.com/opendata/",
-      "data_url": "https://registry.opendata.aws/",
-      "api_url": null,
-      "country": "US",
-      "domains": [
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Computer Science",
-        "Astronomy",
-        "Climate Science",
-        "Economics",
-        "Genomics",
-        "Geospatial",
-        "Life Sciences",
-        "Sustainability",
-        "Transportation",
-        "Chemistry",
-        "Imaging",
-        "Medical Imaging",
-        "Computer Vision",
-        "Disaster Response"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "irregular",
-      "tags": [
-        "aws",
-        "open-data",
-        "cloud",
-        "machine-learning",
-        "ai",
-        "artificial-intelligence",
-        "deep-learning",
-        "computer-vision",
-        "nlp",
-        "genomics",
-        "climate",
-        "satellite-imagery",
-        "geospatial",
-        "earth-observation",
-        "life-sciences",
-        "astronomy",
-        "sustainability",
-        "public-datasets",
-        "data-lake",
-        "s3",
-        "开放数据",
-        "机器学习",
-        "人工智能",
-        "深度学习",
-        "计算机视觉",
-        "基因组学",
-        "气候科学",
-        "卫星影像",
-        "地理空间",
-        "生命科学",
-        "公共数据集",
-        "云计算",
-        "数据湖"
-      ],
-      "data_content": {
-        "en": [
-          "Machine Learning & AI Datasets - Pre-processed datasets for training and testing ML/AI models including computer vision, NLP, and deep learning applications",
-          "Genomics & Life Sciences - DNA sequences, protein structures, biological datasets from NIH, Allen Institute, and other research institutions",
-          "Climate & Weather Data - Atmospheric data, climate models, weather forecasts, and environmental monitoring datasets from NOAA, NASA, and climate research centers",
-          "Satellite & Geospatial Data - Earth observation imagery, satellite data, GIS datasets from NASA, ESA, USGS, and Digital Earth Africa",
-          "Astronomy & Space Science - Astronomical observations, space mission data, and celestial object catalogs",
-          "Medical Imaging - Radiology images, pathology slides, and medical imaging datasets for healthcare AI research",
-          "Transportation & Mobility - Traffic data, autonomous vehicle datasets, and transportation network information",
-          "Economics & Social Sciences - Economic indicators, survey data, and social science research datasets",
-          "Disaster Response & Emergency Management - Real-time disaster data, emergency response datasets, and hazard mapping",
-          "Sustainability & Energy - Renewable energy data, carbon emissions tracking, and environmental sustainability datasets",
-          "Chemistry & Materials Science - Molecular structures, chemical compounds, and materials research data",
-          "Government & Public Sector Data - Open government datasets from EPA, NOAA, NASA, and other federal agencies"
-        ],
-        "zh": [
-          "机器学习与AI数据集 - 用于训练和测试ML/AI模型的预处理数据集,包括计算机视觉、自然语言处理和深度学习应用",
-          "基因组学与生命科学 - 来自NIH、艾伦研究所和其他研究机构的DNA序列、蛋白质结构、生物数据集",
-          "气候与天气数据 - 来自NOAA、NASA和气候研究中心的大气数据、气候模型、天气预报和环境监测数据集",
-          "卫星与地理空间数据 - 来自NASA、ESA、USGS和Digital Earth Africa的地球观测影像、卫星数据、GIS数据集",
-          "天文学与空间科学 - 天文观测、太空任务数据和天体目录",
-          "医学影像 - 用于医疗AI研究的放射学图像、病理切片和医学影像数据集",
-          "交通与移动出行 - 交通数据、自动驾驶车辆数据集和交通网络信息",
-          "经济学与社会科学 - 经济指标、调查数据和社会科学研究数据集",
-          "灾害响应与应急管理 - 实时灾害数据、应急响应数据集和灾害地图",
-          "可持续发展与能源 - 可再生能源数据、碳排放跟踪和环境可持续性数据集",
-          "化学与材料科学 - 分子结构、化学化合物和材料研究数据",
-          "政府与公共部门数据 - 来自EPA、NOAA、NASA和其他联邦机构的开放政府数据集"
-        ]
-      },
-      "authority_level": "commercial",
-      "has_api": false,
-      "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+      "file_path": "sectors\\R-arts-entertainment\\tennis-atp-wta-data.json"
     },
     {
       "id": "tennis-abstract-atp-wta",
@@ -9841,12 +9841,12 @@
       "api_url": null,
       "country": null,
       "domains": [
-        "Sports",
-        "Tennis",
-        "Sports Statistics",
-        "Sports Analytics",
-        "Player Performance",
-        "Tournament Data"
+        "sports",
+        "tennis",
+        "sports statistics",
+        "sports analytics",
+        "player performance",
+        "tournament data"
       ],
       "geographic_scope": "global",
       "update_frequency": "weekly",
@@ -9907,7 +9907,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
+      "file_path": "sectors\\sports\\tennis-abstract-atp-wta.json"
     },
     {
       "id": "tennis-sackmann",
@@ -9977,7 +9977,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors/sports/tennis-sackmann.json"
+      "file_path": "sectors\\sports\\tennis-sackmann.json"
     }
   ]
 }
