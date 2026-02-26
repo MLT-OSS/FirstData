@@ -20,30 +20,24 @@ def main() -> None:
     original_domains = data["domains"]
     print(f"Original count: {len(original_domains)}")
 
-    # Build a map from normalized -> preferred form (with spaces)
-    domain_map = {}
+    # Normalize all domains to use spaces instead of hyphens/underscores
+    normalized_domains = set()
+    changes = []
+
     for domain in original_domains:
         normalized = normalize_domain(domain)
+        normalized_domains.add(normalized)
 
-        # Prefer space-separated version
-        if normalized not in domain_map:
-            domain_map[normalized] = domain
-        else:
-            # If we already have this normalized form, prefer the one with spaces
-            existing = domain_map[normalized]
-            # Count separators: spaces=0, hyphens/underscores=1
-            domain_score = domain.count("-") + domain.count("_")
-            existing_score = existing.count("-") + existing.count("_")
+        # Track what was changed
+        if domain != normalized:
+            changes.append((domain, normalized))
 
-            # Prefer the one with fewer hyphens/underscores (more spaces)
-            if domain_score < existing_score:
-                domain_map[normalized] = domain
-
-    # Extract unique domains (prefer space-separated)
-    unique_domains = sorted(set(domain_map.values()))
+    # Extract unique normalized domains
+    unique_domains = sorted(normalized_domains)
 
     print(f"After normalization: {len(unique_domains)}")
-    print(f"Removed: {len(original_domains) - len(unique_domains)} duplicates")
+    print(f"Removed duplicates: {len(original_domains) - len(unique_domains)}")
+    print(f"Changed (hyphens/underscores to spaces): {len(changes)}")
 
     # Update and save
     data["domains"] = unique_domains
@@ -55,16 +49,11 @@ def main() -> None:
 
     print(f"\n[OK] Normalized domains saved to: {DOMAINS_FILE.name}")
 
-    # Show some examples of what was deduplicated
-    print("\nExamples of deduplicated domains:")
-    for normalized, preferred in sorted(domain_map.items())[:10]:
-        # Check if this normalized form had multiple variants in original
-        variants = [d for d in original_domains if normalize_domain(d) == normalized]
-        if len(variants) > 1:
-            print(f"  {normalized}:")
-            for v in variants:
-                marker = " [KEPT]" if v == preferred else " [removed]"
-                print(f"    - '{v}'{marker}")
+    # Show some examples of what was changed
+    if changes:
+        print(f"\nExamples of normalized domains (first 10 of {len(changes)}):")
+        for old, new in changes[:10]:
+            print(f"  '{old}' -> '{new}'")
 
 
 if __name__ == "__main__":

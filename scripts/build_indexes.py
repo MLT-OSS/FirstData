@@ -21,7 +21,7 @@ def load_sources() -> list[dict]:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
         data["has_api"] = data.get("api_url") is not None
-        data["file_path"] = str(path.relative_to(SOURCES_DIR))
+        data["file_path"] = str(path.relative_to(SOURCES_DIR)).replace(os.sep, '/')
         sources.append(data)
     return sources
 

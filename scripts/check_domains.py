@@ -1,5 +1,6 @@
 """Check for domain field inconsistencies across all source JSON files."""
 
+import argparse
 import json
 import sys
 from collections import defaultdict
@@ -14,6 +15,16 @@ def normalize_domain(domain: str) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Check for domain field inconsistencies across all source JSON files."
+    )
+    parser.add_argument(
+        "--warn",
+        action="store_true",
+        help="Print warnings only, do not exit with error code (useful during transition period)",
+    )
+    args = parser.parse_args()
+
     print("Checking domain consistency across all sources...")
 
     # Collect all domains and their files
@@ -57,7 +68,8 @@ def main() -> None:
             print(f"  - {error}")
 
     if inconsistencies:
-        print(f"\n[FAIL] Found {len(inconsistencies)} domain(s) with case inconsistencies:\n")
+        status = "[WARN]" if args.warn else "[FAIL]"
+        print(f"\n{status} Found {len(inconsistencies)} domain(s) with case inconsistencies:\n")
 
         for item in inconsistencies:
             normalized = item["normalized"]
@@ -88,7 +100,12 @@ def main() -> None:
             if non_lowercase:
                 print(f"  '{non_lowercase[0]}' -> '{item['normalized']}'")
 
-        sys.exit(1)
+        if args.warn:
+            print("\n[WARN] Running in warn mode - not failing CI")
+            print("Switch to strict mode once inconsistencies are fixed")
+            sys.exit(0)
+        else:
+            sys.exit(1)
 
     if not inconsistencies and not errors:
         print("\n[OK] All domain fields are consistent!")

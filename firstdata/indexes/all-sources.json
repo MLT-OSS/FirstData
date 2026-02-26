@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-02-26T01:34:35.773553+00:00",
+    "generated_at": "2026-02-26T08:42:39.543315+00:00",
     "total_sources": 134,
     "version": "2.0",
     "schema_version": "v2.0.0"
@@ -98,7 +98,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\biology\\1000-genomes.json"
+      "file_path": "academic/biology/1000-genomes.json"
     },
     {
       "id": "alphafold-db",
@@ -169,7 +169,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic\\biology\\alphafold-db.json"
+      "file_path": "academic/biology/alphafold-db.json"
     },
     {
       "id": "ena",
@@ -251,7 +251,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic\\biology\\ena.json"
+      "file_path": "academic/biology/ena.json"
     },
     {
       "id": "us-ncbi-genbank",
@@ -316,7 +316,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic\\biology\\genbank.json"
+      "file_path": "academic/biology/genbank.json"
     },
     {
       "id": "intl-rcsb-pdb",
@@ -388,7 +388,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\biology\\pdb.json"
+      "file_path": "academic/biology/pdb.json"
     },
     {
       "id": "uk-biobank",
@@ -466,7 +466,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\biology\\uk-biobank.json"
+      "file_path": "academic/biology/uk-biobank.json"
     },
     {
       "id": "chembl",
@@ -555,7 +555,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\chemistry\\chembl.json"
+      "file_path": "academic/chemistry/chembl.json"
     },
     {
       "id": "intl-chemspider",
@@ -632,7 +632,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "academic\\chemistry\\chemspider.json"
+      "file_path": "academic/chemistry/chemspider.json"
     },
     {
       "id": "drugbank",
@@ -719,7 +719,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\chemistry\\drugbank.json"
+      "file_path": "academic/chemistry/drugbank.json"
     },
     {
       "id": "pubchem",
@@ -797,7 +797,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic\\chemistry\\pubchem.json"
+      "file_path": "academic/chemistry/pubchem.json"
     },
     {
       "id": "acad-conferenceboard",
@@ -856,7 +856,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\economics\\conference-board.json"
+      "file_path": "academic/economics/conference-board.json"
     },
     {
       "id": "ggdc-databases",
@@ -921,7 +921,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\economics\\ggdc-databases.json"
+      "file_path": "academic/economics/ggdc-databases.json"
     },
     {
       "id": "nber-data",
@@ -985,7 +985,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\economics\\nber.json"
+      "file_path": "academic/economics/nber.json"
     },
     {
       "id": "penn-world-table",
@@ -1047,7 +1047,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\economics\\penn-world-table.json"
+      "file_path": "academic/economics/penn-world-table.json"
     },
     {
       "id": "world-inequality-database",
@@ -1110,7 +1110,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\economics\\world-inequality-database.json"
+      "file_path": "academic/economics/world-inequality-database.json"
     },
     {
       "id": "copernicus-open-access-hub",
@@ -1167,7 +1167,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic\\environment\\copernicus-open-access-hub.json"
+      "file_path": "academic/environment/copernicus-open-access-hub.json"
     },
     {
       "id": "clinicaltrials-gov",
@@ -1229,7 +1229,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic\\health\\clinicaltrials-gov.json"
+      "file_path": "academic/health/clinicaltrials-gov.json"
     },
     {
       "id": "dhs",
@@ -1291,7 +1291,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "academic\\health\\dhs.json"
+      "file_path": "academic/health/dhs.json"
     },
     {
       "id": "ghdx",
@@ -1364,7 +1364,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\health\\ghdx.json"
+      "file_path": "academic/health/ghdx.json"
     },
     {
       "id": "pubmed",
@@ -1426,7 +1426,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic\\health\\pubmed.json"
+      "file_path": "academic/health/pubmed.json"
     },
     {
       "id": "tcga",
@@ -1505,7 +1505,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "academic\\health\\tcga.json"
+      "file_path": "academic/health/tcga.json"
     },
     {
       "id": "cern-open-data",
@@ -1590,7 +1590,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\physics\\cern-open-data.json"
+      "file_path": "academic/physics/cern-open-data.json"
     },
     {
       "id": "acad-cod",
@@ -1655,7 +1655,7 @@
       },
       "authority_level": "research",
       "has_api": true,
-      "file_path": "academic\\physics\\crystallography-open-database.json"
+      "file_path": "academic/physics/crystallography-open-database.json"
     },
     {
       "id": "afrobarometer",
@@ -1750,7 +1750,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\social\\afrobarometer.json"
+      "file_path": "academic/social/afrobarometer.json"
     },
     {
       "id": "asian-barometer",
@@ -1829,7 +1829,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "academic\\social\\asian-barometer.json"
+      "file_path": "academic/social/asian-barometer.json"
     },
     {
       "id": "china-ndrc-computing",
@@ -1905,7 +1905,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\economy\\macro\\china-ndrc-computing.json"
+      "file_path": "china/economy/macro/china-ndrc-computing.json"
     },
     {
       "id": "china-ndrc",
@@ -1963,7 +1963,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china\\economy\\macro\\ndrc.json"
+      "file_path": "china/economy/macro/ndrc.json"
     },
     {
       "id": "china-customs",
@@ -2023,7 +2023,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china\\economy\\trade\\customs.json"
+      "file_path": "china/economy/trade/customs.json"
     },
     {
       "id": "china-mofcom",
@@ -2084,7 +2084,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china\\economy\\trade\\mofcom.json"
+      "file_path": "china/economy/trade/mofcom.json"
     },
     {
       "id": "china-moe-higher-education",
@@ -2175,7 +2175,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\education\\higher_education\\china-moe-higher-education.json"
+      "file_path": "china/education/higher_education/china-moe-higher-education.json"
     },
     {
       "id": "china-nfra",
@@ -2236,7 +2236,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china\\finance\\banking\\nfra.json"
+      "file_path": "china/finance/banking/nfra.json"
     },
     {
       "id": "china-pbc",
@@ -2296,7 +2296,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china\\finance\\banking\\pbc.json"
+      "file_path": "china/finance/banking/pbc.json"
     },
     {
       "id": "china-csrc",
@@ -2356,7 +2356,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "china\\finance\\securities\\csrc.json"
+      "file_path": "china/finance/securities/csrc.json"
     },
     {
       "id": "hkex",
@@ -2423,7 +2423,7 @@
       },
       "authority_level": "commercial",
       "has_api": true,
-      "file_path": "china\\finance\\securities\\hkex.json"
+      "file_path": "china/finance/securities/hkex.json"
     },
     {
       "id": "china-nbs",
@@ -2486,7 +2486,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "china\\national\\nbs.json"
+      "file_path": "china/national/nbs.json"
     },
     {
       "id": "china-caict",
@@ -2557,7 +2557,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\research\\china-caict.json"
+      "file_path": "china/research/china-caict.json"
     },
     {
       "id": "china-miit-rare-earth",
@@ -2632,7 +2632,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\resources\\mineral\\china-miit-rare-earth.json"
+      "file_path": "china/resources/mineral/china-miit-rare-earth.json"
     },
     {
       "id": "china-mnr-minerals",
@@ -2710,7 +2710,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\resources\\mineral\\china-mnr-minerals.json"
+      "file_path": "china/resources/mineral/china-mnr-minerals.json"
     },
     {
       "id": "china-national-data-bureau",
@@ -2784,7 +2784,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\technology\\digital_economy\\china-national-data-bureau.json"
+      "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
     },
     {
       "id": "china-cnipa-patents",
@@ -2867,7 +2867,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\technology\\intellectual_property\\china-cnipa-patents.json"
+      "file_path": "china/technology/intellectual_property/china-cnipa-patents.json"
     },
     {
       "id": "china-most-infrastructure",
@@ -2947,7 +2947,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\technology\\sci_resources\\china-most-infrastructure.json"
+      "file_path": "china/technology/sci_resources/china-most-infrastructure.json"
     },
     {
       "id": "china-most-rnd",
@@ -3028,7 +3028,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\technology\\sci_resources\\china-most-rnd.json"
+      "file_path": "china/technology/sci_resources/china-most-rnd.json"
     },
     {
       "id": "china-sac-standards",
@@ -3105,7 +3105,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\technology\\standards\\china-sac-standards.json"
+      "file_path": "china/technology/standards/china-sac-standards.json"
     },
     {
       "id": "china-miit",
@@ -3183,7 +3183,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "china\\technology\\telecommunications\\china-miit.json"
+      "file_path": "china/technology/telecommunications/china-miit.json"
     },
     {
       "id": "india-dgcis",
@@ -3259,7 +3259,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries\\asia\\india\\india-dgcis.json"
+      "file_path": "countries/asia/india/india-dgcis.json"
     },
     {
       "id": "boj-statistics",
@@ -3341,7 +3341,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries\\asia\\japan\\boj-statistics.json"
+      "file_path": "countries/asia/japan/boj-statistics.json"
     },
     {
       "id": "korea-bok",
@@ -3428,7 +3428,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\asia\\korea\\korea-bok.json"
+      "file_path": "countries/asia/korea/korea-bok.json"
     },
     {
       "id": "uk-boe",
@@ -3509,7 +3509,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries\\europe\\uk\\bank-of-england.json"
+      "file_path": "countries/europe/uk/bank-of-england.json"
     },
     {
       "id": "uk-data-gov",
@@ -3589,7 +3589,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\europe\\uk\\uk-data-gov.json"
+      "file_path": "countries/europe/uk/uk-data-gov.json"
     },
     {
       "id": "aafc",
@@ -3664,7 +3664,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\canada\\aafc.json"
+      "file_path": "countries/north-america/canada/aafc.json"
     },
     {
       "id": "canada-boc",
@@ -3741,7 +3741,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\canada\\canada-boc.json"
+      "file_path": "countries/north-america/canada/canada-boc.json"
     },
     {
       "id": "canada-cihi",
@@ -3830,7 +3830,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\canada\\canada-cihi.json"
+      "file_path": "countries/north-america/canada/canada-cihi.json"
     },
     {
       "id": "canada-cer",
@@ -3901,7 +3901,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\canada\\canada-energy-regulator.json"
+      "file_path": "countries/north-america/canada/canada-energy-regulator.json"
     },
     {
       "id": "canada-statcan",
@@ -3977,7 +3977,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\canada\\statcan.json"
+      "file_path": "countries/north-america/canada/statcan.json"
     },
     {
       "id": "mx-banxico",
@@ -4061,7 +4061,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\mexico\\banxico.json"
+      "file_path": "countries/north-america/mexico/banxico.json"
     },
     {
       "id": "mexico-coneval",
@@ -4133,7 +4133,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries\\north-america\\mexico\\coneval.json"
+      "file_path": "countries/north-america/mexico/coneval.json"
     },
     {
       "id": "usa-census-bureau",
@@ -4214,7 +4214,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\census-bureau.json"
+      "file_path": "countries/north-america/usa/census-bureau.json"
     },
     {
       "id": "usa-eia",
@@ -4295,7 +4295,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\eia.json"
+      "file_path": "countries/north-america/usa/eia.json"
     },
     {
       "id": "noaa-cdo",
@@ -4366,7 +4366,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\noaa-cdo.json"
+      "file_path": "countries/north-america/usa/noaa-cdo.json"
     },
     {
       "id": "us-bea",
@@ -4444,7 +4444,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\us-bea.json"
+      "file_path": "countries/north-america/usa/us-bea.json"
     },
     {
       "id": "us-bls",
@@ -4540,7 +4540,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\us-bls.json"
+      "file_path": "countries/north-america/usa/us-bls.json"
     },
     {
       "id": "us-cdc",
@@ -4626,7 +4626,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\us-cdc.json"
+      "file_path": "countries/north-america/usa/us-cdc.json"
     },
     {
       "id": "us-data-gov",
@@ -4709,7 +4709,7 @@
       },
       "authority_level": "government",
       "has_api": false,
-      "file_path": "countries\\north-america\\usa\\us-data-gov.json"
+      "file_path": "countries/north-america/usa/us-data-gov.json"
     },
     {
       "id": "usgs-earthexplorer",
@@ -4783,7 +4783,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\north-america\\usa\\usgs-earthexplorer.json"
+      "file_path": "countries/north-america/usa/usgs-earthexplorer.json"
     },
     {
       "id": "australia-abs",
@@ -4869,7 +4869,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\oceania\\australia\\abs.json"
+      "file_path": "countries/oceania/australia/abs.json"
     },
     {
       "id": "aus-aihw",
@@ -4954,7 +4954,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\oceania\\australia\\aihw.json"
+      "file_path": "countries/oceania/australia/aihw.json"
     },
     {
       "id": "bureau-of-meteorology",
@@ -5038,7 +5038,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\oceania\\australia\\bureau-of-meteorology.json"
+      "file_path": "countries/oceania/australia/bureau-of-meteorology.json"
     },
     {
       "id": "brazil-bcb",
@@ -5119,7 +5119,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\south-america\\brazil\\brazil-bcb.json"
+      "file_path": "countries/south-america/brazil/brazil-bcb.json"
     },
     {
       "id": "brazil-ibge",
@@ -5213,7 +5213,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "countries\\south-america\\brazil-ibge.json"
+      "file_path": "countries/south-america/brazil-ibge.json"
     },
     {
       "id": "cgiar-research-data",
@@ -5301,7 +5301,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\agriculture\\cgiar-research-data.json"
+      "file_path": "international/agriculture/cgiar-research-data.json"
     },
     {
       "id": "faostat",
@@ -5390,7 +5390,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\agriculture\\faostat.json"
+      "file_path": "international/agriculture/faostat.json"
     },
     {
       "id": "adb-data",
@@ -5458,7 +5458,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\development\\adb-data.json"
+      "file_path": "international/development/adb-data.json"
     },
     {
       "id": "afdb",
@@ -5518,7 +5518,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\development\\afdb.json"
+      "file_path": "international/development/afdb.json"
     },
     {
       "id": "caf",
@@ -5617,7 +5617,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\development\\caf.json"
+      "file_path": "international/development/caf.json"
     },
     {
       "id": "caribbean-development-bank",
@@ -5694,7 +5694,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\development\\caribbean-development-bank.json"
+      "file_path": "international/development/caribbean-development-bank.json"
     },
     {
       "id": "idb",
@@ -5761,7 +5761,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\development\\idb.json"
+      "file_path": "international/development/idb.json"
     },
     {
       "id": "intl-copernicus-cdse",
@@ -5833,7 +5833,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\earth-science\\copernicus-data-space.json"
+      "file_path": "international/earth-science/copernicus-data-space.json"
     },
     {
       "id": "nasa-earthdata",
@@ -5900,7 +5900,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "international\\earth-science\\nasa-earthdata.json"
+      "file_path": "international/earth-science/nasa-earthdata.json"
     },
     {
       "id": "bis-statistics",
@@ -5988,7 +5988,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "international\\economics\\bis.json"
+      "file_path": "international/economics/bis.json"
     },
     {
       "id": "ecb-sdw",
@@ -6066,7 +6066,7 @@
       },
       "authority_level": "government",
       "has_api": true,
-      "file_path": "international\\economics\\ecb-sdw.json"
+      "file_path": "international/economics/ecb-sdw.json"
     },
     {
       "id": "imf-data",
@@ -6125,7 +6125,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\economics\\imf.json"
+      "file_path": "international/economics/imf.json"
     },
     {
       "id": "oecd-statistics",
@@ -6191,7 +6191,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\economics\\oecd.json"
+      "file_path": "international/economics/oecd.json"
     },
     {
       "id": "worldbank-open-data",
@@ -6253,7 +6253,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\economics\\worldbank.json"
+      "file_path": "international/economics/worldbank.json"
     },
     {
       "id": "iea-education-studies",
@@ -6335,7 +6335,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "international\\education\\iea-education-studies.json"
+      "file_path": "international/education/iea-education-studies.json"
     },
     {
       "id": "oecd-pisa",
@@ -6414,7 +6414,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\education\\oecd-pisa.json"
+      "file_path": "international/education/oecd-pisa.json"
     },
     {
       "id": "iaea-energy-data",
@@ -6486,7 +6486,7 @@
         ]
       },
       "has_api": true,
-      "file_path": "international\\energy\\iaea-energy-data.json"
+      "file_path": "international/energy/iaea-energy-data.json"
     },
     {
       "id": "iea-energy-data",
@@ -6566,7 +6566,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\energy\\iea.json"
+      "file_path": "international/energy/iea.json"
     },
     {
       "id": "basel-convention",
@@ -6644,7 +6644,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\environment\\basel-convention.json"
+      "file_path": "international/environment/basel-convention.json"
     },
     {
       "id": "cites-trade-database",
@@ -6711,7 +6711,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\environment\\cites-trade-database.json"
+      "file_path": "international/environment/cites-trade-database.json"
     },
     {
       "id": "ebrd",
@@ -6761,7 +6761,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\finance\\ebrd.json"
+      "file_path": "international/finance/ebrd.json"
     },
     {
       "id": "iais",
@@ -6836,7 +6836,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "international\\finance\\iais.json"
+      "file_path": "international/finance/iais.json"
     },
     {
       "id": "paris-club",
@@ -6884,7 +6884,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\finance\\paris-club.json"
+      "file_path": "international/finance/paris-club.json"
     },
     {
       "id": "africa-cdc",
@@ -6952,7 +6952,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\health\\africa-cdc.json"
+      "file_path": "international/health/africa-cdc.json"
     },
     {
       "id": "ecdc-surveillance",
@@ -7037,7 +7037,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\health\\ecdc-surveillance.json"
+      "file_path": "international/health/ecdc-surveillance.json"
     },
     {
       "id": "wipo-ip-statistics",
@@ -7116,7 +7116,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\intellectual-property\\wipo.json"
+      "file_path": "international/intellectual-property/wipo.json"
     },
     {
       "id": "bipm-kcdb",
@@ -7191,7 +7191,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\standards-metrology\\bipm-kcdb.json"
+      "file_path": "international/standards-metrology/bipm-kcdb.json"
     },
     {
       "id": "codex-alimentarius",
@@ -7264,7 +7264,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international\\standards-metrology\\codex-alimentarius.json"
+      "file_path": "international/standards-metrology/codex-alimentarius.json"
     },
     {
       "id": "un-comtrade",
@@ -7312,7 +7312,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\trade\\comtrade.json"
+      "file_path": "international/trade/comtrade.json"
     },
     {
       "id": "icc-trade-register",
@@ -7391,7 +7391,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "international\\trade\\icc-trade-register.json"
+      "file_path": "international/trade/icc-trade-register.json"
     },
     {
       "id": "unctad",
@@ -7446,7 +7446,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\trade\\unctad.json"
+      "file_path": "international/trade/unctad.json"
     },
     {
       "id": "wto-statistics",
@@ -7502,7 +7502,7 @@
       },
       "authority_level": "international",
       "has_api": true,
-      "file_path": "international\\trade\\wto.json"
+      "file_path": "international/trade/wto.json"
     },
     {
       "id": "icao-aviation-data",
@@ -7594,7 +7594,7 @@
         ]
       },
       "has_api": true,
-      "file_path": "international\\transportation\\icao-aviation-data.json"
+      "file_path": "international/transportation/icao-aviation-data.json"
     },
     {
       "id": "amis",
@@ -7666,7 +7666,7 @@
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "sectors\\A-agriculture\\amis.json"
+      "file_path": "sectors/A-agriculture/amis.json"
     },
     {
       "id": "china-rare-earth-association",
@@ -7745,7 +7745,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors\\B-mining\\rare-earth\\china-rare-earth-association.json"
+      "file_path": "sectors/B-mining/rare-earth/china-rare-earth-association.json"
     },
     {
       "id": "china-additive-manufacturing-alliance",
@@ -7828,7 +7828,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\additive\\china-additive-manufacturing-alliance.json"
+      "file_path": "sectors/C-manufacturing/additive/china-additive-manufacturing-alliance.json"
     },
     {
       "id": "china-auto-association",
@@ -7908,7 +7908,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\automotive\\china-auto-association.json"
+      "file_path": "sectors/C-manufacturing/automotive/china-auto-association.json"
     },
     {
       "id": "china-charging-alliance",
@@ -7971,7 +7971,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\automotive\\china-charging-alliance.json"
+      "file_path": "sectors/C-manufacturing/automotive/china-charging-alliance.json"
     },
     {
       "id": "china-petroleum-chemical-federation",
@@ -8061,7 +8061,7 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\chemicals\\china-petroleum-chemical-federation.json"
+      "file_path": "sectors/C-manufacturing/chemicals/china-petroleum-chemical-federation.json"
     },
     {
       "$schema": "https://firstdata.org/schemas/firstdata-v2.json",
@@ -8140,7 +8140,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\electronics\\china-lcd-association.json"
+      "file_path": "sectors/C-manufacturing/electronics/china-lcd-association.json"
     },
     {
       "id": "china-optical-association",
@@ -8226,7 +8226,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\electronics\\china-optical-association.json"
+      "file_path": "sectors/C-manufacturing/electronics/china-optical-association.json"
     },
     {
       "id": "china-semiconductor-association",
@@ -8293,7 +8293,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\electronics\\china-semiconductor-association.json"
+      "file_path": "sectors/C-manufacturing/electronics/china-semiconductor-association.json"
     },
     {
       "id": "china-machine-tool-association",
@@ -8371,7 +8371,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\machinery\\china-machine-tool-association.json"
+      "file_path": "sectors/C-manufacturing/machinery/china-machine-tool-association.json"
     },
     {
       "id": "china-robot-industry-alliance",
@@ -8444,7 +8444,1284 @@
       },
       "authority_level": "market",
       "has_api": false,
-      "file_path": "sectors\\C-manufacturing\\robotics\\china-robot-industry-alliance.json"
+      "file_path": "sectors/C-manufacturing/robotics/china-robot-industry-alliance.json"
+    },
+    {
+      "id": "bp-statistical-review",
+      "name": {
+        "en": "Statistical Review of World Energy",
+        "zh": "世界能源统计年鉴"
+      },
+      "description": {
+        "en": "The Energy Institute Statistical Review of World Energy™ analyses data on world energy markets from the prior year. Previously produced by bp (British Petroleum) since 1952, the Review has been continued by the Energy Institute since 2024, providing timely, comprehensive and objective data to the energy community. The Review covers global energy statistics including production, consumption, trade, and prices across all major energy sources: coal, oil, natural gas, nuclear, hydroelectric, and renewable energy. In collaboration with KPMG, Kearney, Heriot-Watt University, and with support from S&P Global Commodity Insights and bp.",
+        "zh": "能源研究所世界能源统计年鉴™分析上一年度世界能源市场数据。该年鉴自1952年起由bp（英国石油公司）编制，自2024年起由能源研究所继续出版，为能源界提供及时、全面和客观的数据。该年鉴涵盖全球能源统计数据，包括所有主要能源的生产、消费、贸易和价格：煤炭、石油、天然气、核能、水力发电和可再生能源。与毕马威、科尔尼、赫瑞瓦特大学合作，并得到标普全球大宗商品洞察和bp的支持。"
+      },
+      "website": "https://www.energyinst.org",
+      "data_url": "https://www.energyinst.org/statistical-review",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "energy",
+        "energy economics",
+        "energy statistics",
+        "energy production",
+        "energy consumption",
+        "energy trade",
+        "renewable energy",
+        "fossil fuels",
+        "climate change",
+        "energy transition"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "energy",
+        "energy-statistics",
+        "energy-economics",
+        "coal",
+        "oil",
+        "natural-gas",
+        "nuclear-energy",
+        "renewable-energy",
+        "hydroelectric",
+        "solar-energy",
+        "wind-energy",
+        "electricity",
+        "carbon-emissions",
+        "climate-change",
+        "energy-transition",
+        "energy-security",
+        "fossil-fuels",
+        "energy-consumption",
+        "energy-production",
+        "energy-trade",
+        "bp",
+        "energy-institute"
+      ],
+      "data_content": {
+        "en": [
+          "Coal - Production, consumption, reserves, prices, and trade statistics",
+          "Oil - Production, consumption, refining capacity, reserves, prices, and trade flows",
+          "Natural Gas - Production, consumption, reserves, LNG trade, and prices",
+          "Nuclear Energy - Installed capacity, electricity generation, and consumption",
+          "Hydroelectric Power - Installed capacity and electricity generation",
+          "Renewable Energy - Solar, wind, biofuels, geothermal electricity generation and capacity",
+          "Electricity - Generation by fuel type, consumption, and access statistics",
+          "Primary Energy - Total energy supply and consumption by country and fuel type",
+          "Carbon Emissions - Energy-related CO2 emissions by country and fuel source",
+          "Energy Intensity - Energy consumption per unit of GDP",
+          "Energy Security - Import dependency, avoided fossil fuel use, and energy independence metrics",
+          "Energy Transition - Renewable energy share, fossil fuel avoidance, and system efficiency metrics",
+          "Country Transition Tracker - Country-level energy transition progress indicators"
+        ],
+        "zh": [
+          "煤炭 - 产量、消费量、储量、价格和贸易统计",
+          "石油 - 产量、消费量、炼油能力、储量、价格和贸易流量",
+          "天然气 - 产量、消费量、储量、液化天然气贸易和价格",
+          "核能 - 装机容量、发电量和消费量",
+          "水力发电 - 装机容量和发电量",
+          "可再生能源 - 太阳能、风能、生物燃料、地热发电量和装机容量",
+          "电力 - 按燃料类型分类的发电量、消费量和电力普及率统计",
+          "一次能源 - 按国家和燃料类型分类的总能源供应和消费",
+          "碳排放 - 按国家和燃料来源分类的能源相关二氧化碳排放",
+          "能源强度 - 单位GDP能源消费",
+          "能源安全 - 进口依赖度、避免使用化石燃料和能源独立性指标",
+          "能源转型 - 可再生能源份额、化石燃料避免和系统效率指标",
+          "国家转型追踪器 - 国家级能源转型进展指标"
+        ]
+      },
+      "authority_level": "market",
+      "has_api": false,
+      "file_path": "sectors/D-energy/bp-statistical-review.json"
+    },
+    {
+      "id": "bookscorpus",
+      "name": {
+        "en": "BooksCorpus",
+        "zh": "图书语料库"
+      },
+      "description": {
+        "en": "BooksCorpus is a large-scale text corpus containing over 11,000 unpublished books from various genres. Created by researchers at the University of Toronto and MIT, it has become one of the most influential datasets in natural language processing. The corpus was instrumental in training breakthrough language models like BERT, GPT, and other transformer-based architectures. It provides diverse, narrative text covering fiction, non-fiction, and multiple writing styles, making it ideal for unsupervised pre-training of language models.",
+        "zh": "图书语料库(BooksCorpus)是一个大规模文本语料库，包含超过11,000本来自不同类型的未出版书籍。由多伦多大学和麻省理工学院的研究人员创建，已成为自然语言处理领域最具影响力的数据集之一。该语料库在训练BERT、GPT等突破性语言模型和其他基于Transformer的架构中发挥了关键作用。它提供了涵盖小说、非小说和多种写作风格的丰富叙事文本，非常适合用于语言模型的无监督预训练。"
+      },
+      "website": "https://github.com/soskek/bookcorpus",
+      "data_url": "https://github.com/soskek/bookcorpus",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "natural language processing",
+        "machine learning",
+        "computational linguistics",
+        "text mining",
+        "deep learning"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "natural language processing",
+        "NLP",
+        "text corpus",
+        "language modeling",
+        "BERT",
+        "GPT",
+        "transformer",
+        "pre-training",
+        "unsupervised learning",
+        "books",
+        "narrative text",
+        "machine learning",
+        "deep learning",
+        "computational linguistics"
+      ],
+      "data_content": {
+        "en": [
+          "Over 11,000 unpublished books from Smashwords",
+          "984.5 million words total",
+          "74 million sentences",
+          "Fiction and non-fiction genres",
+          "Adventure, fantasy, romance, science fiction",
+          "Historical, thriller, young adult",
+          "Business, biography, self-help",
+          "Continuous narrative text",
+          "Diverse writing styles and vocabularies",
+          "English language only"
+        ],
+        "zh": [
+          "超过11,000本来自Smashwords的未出版书籍",
+          "总计9.845亿个单词",
+          "7400万个句子",
+          "小说和非小说类型",
+          "冒险、奇幻、浪漫、科幻",
+          "历史、惊悚、青少年读物",
+          "商业、传记、自助",
+          "连续的叙事文本",
+          "多样的写作风格和词汇",
+          "仅限英语"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/J-information-communication/bookscorpus.json"
+    },
+    {
+      "id": "china-imt2030",
+      "name": {
+        "en": "IMT-2030 (6G) Promotion Group",
+        "zh": "IMT-2030(6G)推进组"
+      },
+      "description": {
+        "en": "The IMT-2030 (6G) Promotion Group was established in June 2019 by China's Ministry of Industry and Information Technology. Built on the foundation of the IMT-2020 (5G) Promotion Group, it serves as the primary platform for aggregating China's industry-academia-research forces to advance sixth-generation mobile communication technology research and facilitate international exchanges and cooperation. The group publishes white papers, research reports, and technical standards on 6G vision, network architecture, wireless systems, typical scenarios, and key enabling technologies.",
+        "zh": "IMT-2030(6G)推进组于2019年6月由中国工业和信息化部推动成立,组织架构基于原IMT-2020(5G)推进组,成员包括中国主要的运营商、制造商、高校和研究机构。推进组是聚合中国产学研用力量、推动中国第六代移动通信技术研究和开展国际交流与合作的主要平台。该组织发布6G愿景、网络架构、无线系统、典型场景和关键技术等方面的白皮书、研究报告和技术标准。"
+      },
+      "website": "https://www.imt2030.org.cn/",
+      "data_url": "https://www.imt2030.org.cn/html/default/zhongwen/chengguofabu/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "telecommunications",
+        "wireless-communication",
+        "6g-technology",
+        "technology-research",
+        "network-architecture"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "6G",
+        "IMT-2030",
+        "sixth-generation",
+        "第六代移动通信",
+        "wireless-communication",
+        "无线通信",
+        "white-paper",
+        "白皮书",
+        "network-architecture",
+        "网络架构",
+        "telecommunications",
+        "电信",
+        "5g",
+        "next-generation",
+        "下一代通信",
+        "CAICT",
+        "中国信息通信研究院",
+        "空天地一体化",
+        "integrated-space-air-ground",
+        "technical-standards",
+        "技术标准",
+        "research-reports",
+        "研究报告"
+      ],
+      "data_content": {
+        "en": [
+          "6G Vision and Potential Key Technologies White Papers",
+          "6G Network Architecture Outlook and Key Technology Prospects",
+          "6G Typical Scenarios and Key Capabilities",
+          "6G Wireless System Design Principles and Typical Features",
+          "Research on Terminal Requirements for 6G Application Scenarios",
+          "Research on IoT Typical Scenarios and Capability Requirements for 6G",
+          "Research on Open Service Environment Requirements for 6G",
+          "Research on Scenarios and Requirements for 6G and Industrial Application Coordination",
+          "Integrated Space-Air-Ground Network Technology and Standards",
+          "6G Technical Standards and Specifications"
+        ],
+        "zh": [
+          "6G总体愿景与潜在关键技术白皮书",
+          "6G网络架构愿景与关键技术展望白皮书",
+          "6G典型场景和关键能力白皮书",
+          "6G无线系统设计原则和典型特征白皮书",
+          "面向6G应用场景的终端需求研究",
+          "面向6G的物联网典型场景及能力要求研究",
+          "面向6G的开放业务环境需求研究",
+          "6G与工业应用相互协同的场景和需求研究",
+          "空天地一体化网络技术与标准",
+          "6G技术标准和规范"
+        ]
+      },
+      "has_api": false,
+      "file_path": "sectors/J-information-communication/china-imt2030.json"
+    },
+    {
+      "id": "china-software-association",
+      "name": {
+        "en": "China Software Industry Association",
+        "zh": "中国软件行业协会"
+      },
+      "description": {
+        "en": "The China Software Industry Association (CSIA) is a national first-level industry association established in 1984, providing comprehensive data on China's software industry revenue, enterprise rankings, and market research. It publishes annual reports including the Top 100 Software Companies rankings and industry benchmark data.",
+        "zh": "中国软件行业协会成立于1984年9月6日，是在民政部注册登记的全国一级行业组织，提供中国软件产业收入统计、企业排行榜、市场研究等综合数据。协会每年发布中国软件百强企业榜单和行业基准数据报告。"
+      },
+      "website": "https://www.csia.org.cn/",
+      "data_url": "https://www.csia.org.cn/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "domains": [
+        "technology",
+        "industry",
+        "information-technology"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "software industry",
+        "软件产业",
+        "enterprise ranking",
+        "企业排行",
+        "industry revenue",
+        "产业收入",
+        "CSIA",
+        "软件百强",
+        "top 100 software",
+        "information technology",
+        "信息技术服务",
+        "software revenue",
+        "软件业务收入",
+        "industry association",
+        "行业协会",
+        "benchmark data",
+        "基准数据"
+      ],
+      "data_content": {
+        "en": [
+          "Annual software industry revenue statistics (national and regional breakdown)",
+          "Top 100 Chinese software companies ranking (high-quality development enterprises)",
+          "Software industry benchmark data reports covering government, finance, telecommunications, transportation, energy, and manufacturing sectors",
+          "Software industry market research and analysis reports",
+          "Information technology services revenue data (cloud computing, big data, embedded systems)",
+          "Software product revenue statistics by category",
+          "China Software Industry High-Quality Development Report (annual publication)"
+        ],
+        "zh": [
+          "年度软件产业收入统计数据（全国及分地区）",
+          "中国软件百强企业排行榜（高质量发展企业）",
+          "软件行业基准数据报告（涵盖政府、金融、电信、交通、能源、制造业等行业）",
+          "软件产业市场调研与分析报告",
+          "信息技术服务收入数据（云计算、大数据、嵌入式系统）",
+          "软件产品收入分类统计",
+          "中国软件产业高质量发展报告（年度发布）"
+        ]
+      },
+      "has_api": false,
+      "file_path": "sectors/J-information-communication/china-software-association.json"
+    },
+    {
+      "id": "cifar",
+      "name": {
+        "en": "CIFAR-10 and CIFAR-100",
+        "zh": "CIFAR-10 和 CIFAR-100 数据集"
+      },
+      "description": {
+        "en": "CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dataset, widely used as benchmark datasets for machine learning and computer vision research. CIFAR-10 consists of 60,000 32x32 color images in 10 classes (6,000 images per class), with 50,000 training images and 10,000 test images. CIFAR-100 contains 100 classes with 600 images each (500 training, 100 testing per class), organized into 20 superclasses. Created by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton, these datasets have become foundational benchmarks for evaluating image classification algorithms.",
+        "zh": "CIFAR-10 和 CIFAR-100 是 8000 万微小图像数据集的标注子集，广泛用作机器学习和计算机视觉研究的基准数据集。CIFAR-10 包含 60,000 张 32x32 彩色图像，分为 10 个类别（每类 6,000 张图像），其中 50,000 张训练图像和 10,000 张测试图像。CIFAR-100 包含 100 个类别，每类 600 张图像（每类 500 张训练图像，100 张测试图像），组织成 20 个超类。这些数据集由 Alex Krizhevsky、Vinod Nair 和 Geoffrey Hinton 创建，已成为评估图像分类算法的基础性基准。"
+      },
+      "website": "https://www.cs.toronto.edu",
+      "data_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "computer vision",
+        "deep learning",
+        "machine learning",
+        "image classification",
+        "object recognition",
+        "artificial intelligence"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "computer-vision",
+        "deep-learning",
+        "image-classification",
+        "machine-learning",
+        "benchmark-dataset",
+        "object-recognition",
+        "convolutional-neural-networks",
+        "academic-research",
+        "tiny-images",
+        "supervised-learning"
+      ],
+      "data_content": {
+        "en": [
+          "CIFAR-10 - 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck",
+          "CIFAR-100 - 100 fine-grained classes grouped into 20 superclasses",
+          "Training Data - 50,000 images for CIFAR-10, 50,000 images for CIFAR-100",
+          "Test Data - 10,000 images for CIFAR-10, 10,000 images for CIFAR-100",
+          "Image Format - 32x32 pixel color images (RGB)",
+          "Superclasses (CIFAR-100) - aquatic mammals, fish, flowers, food containers, fruit and vegetables, household devices, furniture, insects, carnivores, outdoor things, natural scenes, omnivores/herbivores, medium mammals, invertebrates, people, reptiles, small mammals, trees, vehicles"
+        ],
+        "zh": [
+          "CIFAR-10 - 10 个类别：飞机、汽车、鸟、猫、鹿、狗、青蛙、马、船、卡车",
+          "CIFAR-100 - 100 个细粒度类别，分为 20 个超类",
+          "训练数据 - CIFAR-10 50,000 张图像，CIFAR-100 50,000 张图像",
+          "测试数据 - CIFAR-10 10,000 张图像，CIFAR-100 10,000 张图像",
+          "图像格式 - 32x32 像素彩色图像（RGB）",
+          "超类（CIFAR-100）- 水生哺乳动物、鱼类、花卉、食品容器、水果蔬菜、家用电器、家具、昆虫、食肉动物、户外物体、自然景观、杂食/食草动物、中型哺乳动物、无脊椎动物、人类、爬行动物、小型哺乳动物、树木、交通工具"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/J-information-communication/cifar.json"
+    },
+    {
+      "id": "common-crawl",
+      "name": {
+        "en": "Common Crawl",
+        "zh": "Common Crawl 网络爬取数据"
+      },
+      "description": {
+        "en": "Common Crawl is a 501(c)(3) non-profit organization that maintains a free, open repository of web crawl data that can be used by anyone. The corpus contains petabytes of raw web page data, metadata extracts, and text extracts, regularly collected since 2008. With over 300 billion pages spanning 18 years, Common Crawl adds 3-5 billion new pages each month and has been cited in over 10,000 research papers. The data is stored on Amazon Web Services' Public Data Sets and on multiple academic cloud platforms across the world, making wholesale extraction, transformation and analysis of open web data accessible to researchers, companies and individuals at no cost.",
+        "zh": "Common Crawl 是一个 501(c)(3) 非营利组织，维护着一个免费、开放的网络爬取数据仓库，任何人都可以使用。该语料库包含PB级的原始网页数据、元数据提取和文本提取，自2008年以来定期收集。拥有超过3000亿个网页，跨越18年，Common Crawl每月新增30-50亿个网页，已被超过10,000篇研究论文引用。数据存储在亚马逊网络服务的公共数据集和全球多个学术云平台上，使研究人员、公司和个人能够免费访问、提取、转换和分析开放的网络数据。"
+      },
+      "website": "https://commoncrawl.org",
+      "data_url": "https://commoncrawl.org",
+      "api_url": "https://index.commoncrawl.org",
+      "country": null,
+      "domains": [
+        "web crawling",
+        "natural language processing",
+        "machine learning",
+        "data science",
+        "information retrieval",
+        "web analytics",
+        "artificial intelligence",
+        "research",
+        "large language models"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "monthly",
+      "tags": [
+        "web-crawling",
+        "natural-language-processing",
+        "machine-learning",
+        "large-language-models",
+        "web-data",
+        "text-corpus",
+        "open-data",
+        "research",
+        "big-data",
+        "artificial-intelligence",
+        "data-science",
+        "web-mining",
+        "nlp",
+        "internet-archive"
+      ],
+      "data_content": {
+        "en": [
+          "Raw Web Page Data - HTML, CSS, JavaScript and other web content in WARC format",
+          "Metadata Extracts - HTTP headers, response codes, content types (WAT format)",
+          "Text Extracts - Plain text extracted from web pages (WET format)",
+          "URL Index - Searchable index of all crawled URLs with CDX format",
+          "Web Graphs - Link structure and relationships between web pages",
+          "Crawl Statistics - Monthly statistics on crawl coverage and scope",
+          "Historical Data - Web data archives from 2008 to present",
+          "Multilingual Content - Web pages in hundreds of languages",
+          "Domain Coverage - Pages from millions of domains worldwide"
+        ],
+        "zh": [
+          "原始网页数据 - WARC 格式的 HTML、CSS、JavaScript 和其他网络内容",
+          "元数据提取 - HTTP 标头、响应代码、内容类型（WAT 格式）",
+          "文本提取 - 从网页提取的纯文本（WET 格式）",
+          "URL 索引 - 所有爬取 URL 的可搜索索引（CDX 格式）",
+          "网络图谱 - 网页之间的链接结构和关系",
+          "爬取统计 - 每月爬取覆盖范围和规模统计",
+          "历史数据 - 从 2008 年至今的网络数据档案",
+          "多语言内容 - 数百种语言的网页",
+          "域名覆盖 - 来自全球数百万个域名的网页"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": true,
+      "file_path": "sectors/J-information-communication/common-crawl.json"
+    },
+    {
+      "id": "conll-shared-tasks",
+      "name": {
+        "en": "CoNLL Shared Tasks Data",
+        "zh": "CoNLL共享任务数据集"
+      },
+      "description": {
+        "en": "CoNLL (Conference on Computational Natural Language Learning) has organized annual shared tasks since 1999, providing benchmark datasets for various NLP challenges including named entity recognition, chunking, parsing, semantic role labeling, coreference resolution, and more. These datasets have become standard benchmarks in the NLP research community, enabling fair comparison of different machine learning approaches across multiple languages and tasks.",
+        "zh": "CoNLL(计算自然语言学习会议)自1999年以来每年组织共享任务,为各种自然语言处理挑战提供基准数据集,包括命名实体识别、组块分析、句法分析、语义角色标注、共指消解等。这些数据集已成为NLP研究社区的标准基准,可以在多种语言和任务中公平比较不同的机器学习方法。"
+      },
+      "website": "https://www.signll.org",
+      "data_url": "https://www.conll.org/previous-tasks",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "natural language processing",
+        "computational linguistics",
+        "machine learning",
+        "named entity recognition",
+        "parsing",
+        "semantic analysis"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "NLP",
+        "natural language processing",
+        "machine learning",
+        "named entity recognition",
+        "NER",
+        "parsing",
+        "chunking",
+        "semantic role labeling",
+        "coreference resolution",
+        "multilingual",
+        "benchmark datasets",
+        "shared task",
+        "computational linguistics"
+      ],
+      "data_content": {
+        "en": [
+          "Named Entity Recognition (NER) datasets - English, German, Spanish, Dutch",
+          "Text Chunking and Phrase Recognition datasets",
+          "Dependency Parsing - multilingual datasets covering 20+ languages",
+          "Semantic Role Labeling datasets",
+          "Coreference Resolution datasets (OntoNotes)",
+          "Grammatical Error Correction datasets",
+          "Discourse Parsing datasets",
+          "Morphological Reinflection datasets",
+          "Universal Dependencies datasets",
+          "BabyLM Challenge datasets"
+        ],
+        "zh": [
+          "命名实体识别(NER)数据集 - 英语、德语、西班牙语、荷兰语",
+          "文本组块和短语识别数据集",
+          "依存句法分析 - 覆盖20多种语言的多语言数据集",
+          "语义角色标注数据集",
+          "共指消解数据集(OntoNotes)",
+          "语法错误纠正数据集",
+          "话语分析数据集",
+          "形态变化数据集",
+          "通用依存关系数据集",
+          "BabyLM挑战数据集"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/J-information-communication/conll-shared-tasks.json"
+    },
+    {
+      "id": "imagenet",
+      "name": {
+        "en": "ImageNet",
+        "zh": "ImageNet 图像数据库"
+      },
+      "description": {
+        "en": "ImageNet is a large-scale image database organized according to the WordNet hierarchy. It contains over 14 million images spanning more than 21,000 synsets (synonym sets). The most widely-used subset is the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2012-2017 dataset, which includes 1,000 object classes with 1.28 million training images, 50,000 validation images, and 100,000 test images. ImageNet has been instrumental in advancing computer vision and deep learning research.",
+        "zh": "ImageNet 是一个按照 WordNet 层次结构组织的大规模图像数据库。包含超过 1400 万张图像，涵盖 21,000 多个同义词集。最广泛使用的子集是 ImageNet 大规模视觉识别挑战赛（ILSVRC）2012-2017 数据集，包含 1,000 个对象类别，128 万训练图像、5 万验证图像和 10 万测试图像。ImageNet 在推动计算机视觉和深度学习研究方面发挥了重要作用。"
+      },
+      "website": "https://www.image-net.org",
+      "data_url": "https://www.image-net.org",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "computer vision",
+        "deep learning",
+        "machine learning",
+        "artificial intelligence",
+        "image classification",
+        "object recognition"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "computer-vision",
+        "deep-learning",
+        "image-classification",
+        "machine-learning",
+        "benchmark-dataset",
+        "object-recognition",
+        "convolutional-neural-networks",
+        "transfer-learning",
+        "academic-research",
+        "visual-recognition"
+      ],
+      "data_content": {
+        "en": [
+          "Image Classification - 1,000 object categories (ILSVRC subset)",
+          "Object Localization - Bounding box annotations for objects",
+          "Visual Recognition - 21,841 synsets covering diverse concepts",
+          "Training Data - 1,281,167 labeled training images",
+          "Validation Data - 50,000 validation images with ground truth",
+          "Test Data - 100,000 test images for benchmarking",
+          "WordNet Hierarchy - Structured organization of visual concepts"
+        ],
+        "zh": [
+          "图像分类 - 1,000 个对象类别（ILSVRC 子集）",
+          "对象定位 - 对象边界框标注",
+          "视觉识别 - 21,841 个同义词集覆盖多样化概念",
+          "训练数据 - 1,281,167 张已标注训练图像",
+          "验证数据 - 50,000 张带真实标签的验证图像",
+          "测试数据 - 100,000 张用于基准测试的测试图像",
+          "WordNet 层次结构 - 视觉概念的结构化组织"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/J-information-communication/imagenet.json"
+    },
+    {
+      "id": "alpha-vantage",
+      "name": {
+        "en": "Alpha Vantage API",
+        "zh": "Alpha Vantage API"
+      },
+      "description": {
+        "en": "Alpha Vantage provides free JSON APIs for realtime and historical stock market data, forex, cryptocurrencies, commodities, and economic indicators. The platform offers 50+ technical indicators, covering 200,000+ tickers across 20+ global exchanges with over 20 years of historical depth. Built for developers and investors, it supports multiple temporal resolutions (intraday, daily, weekly, monthly) and features eight major API categories including Core Time Series, US Options, Alpha Intelligence, Fundamental Data, and more.",
+        "zh": "Alpha Vantage 提供免费的 JSON API，用于获取实时和历史股票市场数据、外汇、加密货币、大宗商品和经济指标。该平台提供 50 多种技术指标，涵盖 20 多个全球交易所的 200,000 多个股票代码，拥有超过 20 年的历史数据深度。专为开发人员和投资者打造，支持多种时间分辨率（盘中、每日、每周、每月），包含八大主要 API 类别：核心时间序列、美国期权、Alpha Intelligence、基本面数据等。"
+      },
+      "website": "https://www.alphavantage.co/",
+      "data_url": "https://www.alphavantage.co/",
+      "api_url": "https://www.alphavantage.co/documentation/",
+      "country": null,
+      "domains": [
+        "stock markets",
+        "foreign exchange",
+        "cryptocurrencies",
+        "commodities",
+        "economic indicators",
+        "technical analysis"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "real-time",
+      "tags": [
+        "stock-market",
+        "financial-data",
+        "api",
+        "real-time",
+        "technical-indicators",
+        "forex",
+        "cryptocurrency",
+        "commodities",
+        "economic-indicators",
+        "time-series",
+        "free-tier",
+        "developer-friendly"
+      ],
+      "data_content": {
+        "en": [
+          "Core Time Series Stock Data (intraday, daily, weekly, monthly)",
+          "US Options Data",
+          "Alpha Intelligence (news sentiment, top gainers/losers)",
+          "Fundamental Data (income statements, balance sheets, cash flow)",
+          "Physical and Crypto Currencies (forex, Bitcoin, cryptocurrencies)",
+          "Commodities (WTI crude oil, natural gas, copper, wheat, corn)",
+          "Economic Indicators (GDP, inflation, interest rates, unemployment)",
+          "Technical Indicators (50+ indicators including SMA, EMA, RSI, MACD, Bollinger Bands)"
+        ],
+        "zh": [
+          "核心时间序列股票数据（盘中、每日、每周、每月）",
+          "美国期权数据",
+          "Alpha Intelligence（新闻情绪、涨跌幅排行）",
+          "基本面数据（损益表、资产负债表、现金流量表）",
+          "实物和加密货币（外汇、比特币、加密货币）",
+          "大宗商品（WTI 原油、天然气、铜、小麦、玉米）",
+          "经济指标（GDP、通货膨胀、利率、失业率）",
+          "技术指标（50 多种指标，包括 SMA、EMA、RSI、MACD、布林带）"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/alpha-vantage.json"
+    },
+    {
+      "id": "bloomberg-terminal",
+      "name": {
+        "en": "Bloomberg Terminal (Public Data)",
+        "zh": "彭博终端（部分公开数据）"
+      },
+      "description": {
+        "en": "Bloomberg Terminal is the world's leading financial data platform providing real-time and historical market data, news, analytics, and trading tools. While the full terminal requires a subscription (approximately $24,000/year), Bloomberg offers limited public access to market data through bloomberg.com including stock quotes, indices, commodities prices, currency exchange rates, and financial news. The public interface provides basic market information for global equities, bonds, currencies, and commodities, along with business news and market analysis.",
+        "zh": "彭博终端是全球领先的金融数据平台，提供实时和历史市场数据、新闻、分析和交易工具。虽然完整的终端需要订阅（约每年 24,000 美元），但彭博通过 bloomberg.com 提供有限的公共市场数据访问，包括股票报价、指数、大宗商品价格、货币汇率和金融新闻。公共界面提供全球股票、债券、货币和大宗商品的基本市场信息，以及商业新闻和市场分析。"
+      },
+      "website": "https://www.bloomberg.com",
+      "data_url": "https://www.bloomberg.com/markets",
+      "api_url": "https://www.bloomberg.com/professional/support/api-library/",
+      "country": null,
+      "domains": [
+        "equities",
+        "fixed income",
+        "currencies",
+        "commodities",
+        "derivatives",
+        "economic data",
+        "financial news",
+        "corporate fundamentals",
+        "esg data"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "real-time",
+      "tags": [
+        "financial-markets",
+        "stock-market",
+        "real-time-data",
+        "bonds",
+        "forex",
+        "commodities",
+        "derivatives",
+        "economic-data",
+        "financial-news",
+        "commercial",
+        "subscription-based",
+        "professional-trading",
+        "market-data",
+        "terminal"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time stock quotes and indices (NYSE, NASDAQ, LSE, TSE, HKEX, etc.)",
+          "Bond prices and yields (government bonds, corporate bonds, municipal bonds)",
+          "Foreign exchange rates (170+ currencies, real-time and historical)",
+          "Commodities prices (energy, metals, agriculture)",
+          "Derivatives data (options, futures, swaps)",
+          "Economic indicators (GDP, inflation, employment, trade data)",
+          "Corporate financials (income statements, balance sheets, cash flows)",
+          "Financial news and analysis (Bloomberg News, market commentary)",
+          "ESG ratings and sustainability data",
+          "Analyst estimates and recommendations"
+        ],
+        "zh": [
+          "实时股票报价和指数（纽交所、纳斯达克、伦敦证交所、东京证交所、港交所等）",
+          "债券价格和收益率（政府债券、公司债券、市政债券）",
+          "外汇汇率（170+ 种货币，实时和历史数据）",
+          "大宗商品价格（能源、金属、农产品）",
+          "衍生品数据（期权、期货、掉期）",
+          "经济指标（GDP、通货膨胀、就业、贸易数据）",
+          "企业财务数据（损益表、资产负债表、现金流量表）",
+          "金融新闻和分析（彭博新闻、市场评论）",
+          "ESG 评级和可持续发展数据",
+          "分析师预测和建议"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/bloomberg-terminal.json"
+    },
+    {
+      "id": "crsp",
+      "name": {
+        "en": "CRSP - Center for Research in Security Prices",
+        "zh": "证券价格研究中心"
+      },
+      "description": {
+        "en": "CRSP maintains the most comprehensive collection of security price, return, and volume data for the NYSE, AMEX, and NASDAQ stock markets. Founded at the University of Chicago Booth School of Business in the 1960s, CRSP provides historical data dating back to 1925 covering over 32,000 active and inactive securities. The database includes daily and monthly stock prices, returns, trading volumes, corporate actions, and indices. CRSP is the gold standard for academic financial research and is widely used by researchers, investment professionals, and asset managers. In September 2025, Morningstar, Inc. acquired CRSP from the University of Chicago for $375 million. Over $3 trillion of assets are held in funds linked to CRSP Market Indexes.",
+        "zh": "CRSP 维护着纽约证券交易所（NYSE）、美国证券交易所（AMEX）和纳斯达克（NASDAQ）股票市场最全面的证券价格、回报和交易量数据集合。CRSP 成立于 1960 年代，由芝加哥大学布斯商学院创建，提供可追溯到 1925 年的历史数据，涵盖超过 32,000 个活跃和非活跃证券。数据库包括每日和每月股票价格、回报率、交易量、公司行为和指数。CRSP 是学术金融研究的黄金标准，被研究人员、投资专业人士和资产管理公司广泛使用。2025 年 9 月，晨星公司以 3.75 亿美元从芝加哥大学收购了 CRSP。与 CRSP 市场指数挂钩的基金持有的资产超过 3 万亿美元。"
+      },
+      "website": "https://www.crsp.org",
+      "data_url": "https://www.crsp.org/",
+      "api_url": "https://www.crsp.org/products/documentation/getting-started",
+      "country": "US",
+      "domains": [
+        "stock markets",
+        "equities",
+        "market indices",
+        "corporate actions",
+        "investment research",
+        "asset pricing"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "stock-market",
+        "equities",
+        "historical-data",
+        "US-markets",
+        "NYSE",
+        "NASDAQ",
+        "AMEX",
+        "academic-research",
+        "financial-data",
+        "market-indices",
+        "time-series",
+        "asset-pricing",
+        "corporate-actions",
+        "subscription-based",
+        "WRDS",
+        "investment-research"
+      ],
+      "data_content": {
+        "en": [
+          "Daily and monthly stock prices (NYSE, AMEX, NASDAQ, NYSE Arca)",
+          "Stock returns and holding period returns",
+          "Trading volumes and shares outstanding",
+          "Market capitalization data",
+          "Stock indices and portfolio returns",
+          "Corporate actions (splits, dividends, delistings, mergers)",
+          "Beta-based and cap-based portfolios",
+          "Treasury bond rates and risk-free rates",
+          "Mutual fund data",
+          "Real estate investment trust (REIT) data",
+          "Security-level descriptive information (CUSIP, ticker, company name)",
+          "Market microstructure data"
+        ],
+        "zh": [
+          "每日和每月股票价格（纽交所、美国证交所、纳斯达克、纽交所高增长板）",
+          "股票回报率和持有期回报率",
+          "交易量和流通股数",
+          "市值数据",
+          "股票指数和投资组合回报",
+          "公司行为（拆股、分红、退市、并购）",
+          "基于贝塔和市值的投资组合",
+          "国债利率和无风险利率",
+          "共同基金数据",
+          "房地产投资信托基金（REIT）数据",
+          "证券级别描述信息（CUSIP、股票代码、公司名称）",
+          "市场微观结构数据"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/crsp.json"
+    },
+    {
+      "id": "cryptocurrency-data",
+      "name": {
+        "en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
+        "zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）"
+      },
+      "description": {
+        "en": "Comprehensive cryptocurrency market data platforms providing real-time and historical price information, market capitalizations, trading volumes, and blockchain analytics. CoinMarketCap tracks over 7,000 cryptocurrencies across 33,000+ markets and 300+ exchanges, with data dating back to 2013. CoinGecko monitors 13 million+ tokens across 240+ blockchain networks and 1,600+ exchanges, established in 2014. Both platforms offer extensive APIs, support multiple fiat currencies, and provide on-chain DEX data, NFT floor prices, and comprehensive market intelligence for cryptocurrency investors, researchers, and developers.",
+        "zh": "综合性加密货币市场数据平台，提供实时和历史价格信息、市值、交易量和区块链分析。CoinMarketCap 追踪 7,000 多种加密货币，覆盖 33,000 多个市场和 300 多个交易所，数据可追溯至 2013 年。CoinGecko 监控 1300 万以上代币，涵盖 240 多个区块链网络和 1,600 多个交易所，成立于 2014 年。两个平台均提供广泛的 API 接口，支持多种法定货币，并提供链上 DEX 数据、NFT 底价和全面的市场情报，服务于加密货币投资者、研究人员和开发者。"
+      },
+      "website": "https://coinmarketcap.com",
+      "data_url": "https://coinmarketcap.com",
+      "api_url": "https://coinmarketcap.com/api/documentation/v1/",
+      "country": null,
+      "domains": [
+        "cryptocurrency markets",
+        "blockchain analytics",
+        "digital assets",
+        "defi (decentralized finance)",
+        "nft markets",
+        "trading data",
+        "financial technology"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "real-time",
+      "tags": [
+        "cryptocurrency",
+        "blockchain",
+        "digital-assets",
+        "market-data",
+        "trading",
+        "defi",
+        "nft",
+        "real-time-data",
+        "financial-markets",
+        "crypto-exchanges",
+        "api",
+        "price-tracking"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time Cryptocurrency Prices - Live pricing for 7,000+ cryptocurrencies (CMC) and 13M+ tokens (CoinGecko)",
+          "Market Capitalizations - Total and circulating supply valuations",
+          "Trading Volumes - 24-hour and historical trading volumes across exchanges",
+          "Exchange Data - Coverage of 300+ centralized exchanges (CMC) and 1,600+ exchanges (CoinGecko)",
+          "Historical Price Data - Historical data from 2013 (CMC) and 2014 (CoinGecko)",
+          "On-chain DEX Data - 250+ blockchain networks, 1,700+ DEXes, 15M+ tokens (CoinGecko)",
+          "NFT Floor Prices - NFT collection floor price tracking",
+          "Market Metrics - Price changes, volume changes, market dominance, liquidity metrics",
+          "Blockchain Network Data - Coverage across 240+ blockchain networks",
+          "Fiat Conversion - Support for 93 fiat currencies and 4 precious metals",
+          "Token Metadata - Project information, websites, social media, whitepapers",
+          "Trading Pairs - Comprehensive trading pair information across markets"
+        ],
+        "zh": [
+          "实时加密货币价格 - 7,000+ 种加密货币（CMC）和 1300 万代币（CoinGecko）的实时价格",
+          "市值数据 - 总市值和流通市值估值",
+          "交易量 - 跨交易所的 24 小时和历史交易量",
+          "交易所数据 - 覆盖 300+ 中心化交易所（CMC）和 1,600+ 交易所（CoinGecko）",
+          "历史价格数据 - 2013 年（CMC）和 2014 年（CoinGecko）以来的历史数据",
+          "链上 DEX 数据 - 250+ 区块链网络、1,700+ DEX、1500 万代币（CoinGecko）",
+          "NFT 底价 - NFT 系列底价追踪",
+          "市场指标 - 价格变化、交易量变化、市场主导地位、流动性指标",
+          "区块链网络数据 - 覆盖 240+ 区块链网络",
+          "法币转换 - 支持 93 种法定货币和 4 种贵金属",
+          "代币元数据 - 项目信息、网站、社交媒体、白皮书",
+          "交易对 - 跨市场的综合交易对信息"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/cryptocurrency-data.json"
+    },
+    {
+      "id": "cambridge-structural-database",
+      "name": {
+        "en": "Cambridge Structural Database (CSD)",
+        "zh": "剑桥晶体结构数据库"
+      },
+      "description": {
+        "en": "The Cambridge Structural Database (CSD) is the world's largest repository for experimentally derived small-molecule organic and metal-organic crystal structures, curated since 1965. Maintained by the Cambridge Crystallographic Data Centre (CCDC), the database now contains over 1.39 million crystal structures from published literature, direct deposition, patents, and PhD theses. The CSD is CoreTrustSeal certified and recognized as a trusted data repository. It serves as a fundamental resource for pharmaceutical drug discovery and development, agrochemical research, materials science, metal-organic frameworks (MOFs), catalysis research, and academic crystallography. The database provides comprehensive structural chemistry data, software, and insights used by thousands of scientists globally in both commercial and academic research.",
+        "zh": "剑桥晶体结构数据库（CSD）是世界上最大的实验衍生小分子有机和金属有机晶体结构库，自1965年以来持续整理。该数据库由剑桥晶体学数据中心（CCDC）维护，目前包含来自发表文献、直接提交、专利和博士论文的超过139万个晶体结构。CSD 获得 CoreTrustSeal 认证，被认定为可信数据存储库。它是制药药物发现与开发、农药研究、材料科学、金属有机框架（MOFs）、催化研究和学术晶体学的基础资源。该数据库为全球数千名科学家提供全面的结构化学数据、软件和见解，广泛应用于商业和学术研究。"
+      },
+      "website": "https://www.ccdc.cam.ac.uk",
+      "data_url": "https://www.ccdc.cam.ac.uk",
+      "api_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
+      "country": null,
+      "domains": [
+        "crystallography",
+        "structural chemistry",
+        "pharmaceutical sciences",
+        "drug discovery",
+        "drug development",
+        "agrochemical research",
+        "materials science",
+        "metal-organic frameworks",
+        "catalysis",
+        "functional materials",
+        "organic chemistry",
+        "inorganic chemistry"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "tags": [
+        "crystallography",
+        "structural-chemistry",
+        "crystal-structures",
+        "small-molecules",
+        "organic-chemistry",
+        "metal-organic-frameworks",
+        "pharmaceutical",
+        "drug-discovery",
+        "drug-development",
+        "materials-science",
+        "agrochemical",
+        "catalysis",
+        "polymorphs",
+        "molecular-geometry",
+        "chemical-bonding",
+        "conformational-analysis",
+        "x-ray-crystallography",
+        "academic-research",
+        "commercial-research",
+        "coretrustseal-certified"
+      ],
+      "data_content": {
+        "en": [
+          "Organic Structures - Drugs and pharmaceuticals, agrochemicals, pigments, explosives, protein ligands",
+          "Metal-Organic Structures - Metal Organic Frameworks (MOFs), catalyst models, porous frameworks for gas storage, fundamental chemical bonding",
+          "Polymorph Families - 13,478 polymorph families",
+          "Physical Properties - 174,987 melting points, 1,075,904 crystal colours, 951,746 crystal shapes",
+          "Bioactivity Data - 30,275 bioactivity details, 13,641 natural source data",
+          "Chemical Data - >350,000 oxidation states",
+          "Data Subsets - DrugBank, Druglike, MOFs, PDB ligands, PubChem, ChemSpider, Pesticide PDB",
+          "Crystallographic Data - Full 3D atomic coordinates, unit cell parameters, space groups, bond lengths and angles",
+          "Chemical Bonds and Interactions - Hydrogen bonds, pi-pi interactions, coordination geometries",
+          "Conformational Data - Molecular conformations and torsion angles"
+        ],
+        "zh": [
+          "有机结构 - 药物和医药品、农药、颜料、爆炸物、蛋白质配体",
+          "金属有机结构 - 金属有机框架（MOFs）、催化剂模型、气体存储多孔框架、基础化学键合",
+          "多晶型家族 - 13,478 个多晶型家族",
+          "物理性质 - 174,987 个熔点、1,075,904 个晶体颜色、951,746 个晶体形状",
+          "生物活性数据 - 30,275 个生物活性详情、13,641 个天然来源数据",
+          "化学数据 - >350,000 个氧化态",
+          "数据子集 - DrugBank、类药物、MOFs、PDB配体、PubChem、ChemSpider、农药PDB",
+          "晶体学数据 - 完整的3D原子坐标、晶胞参数、空间群、键长和键角",
+          "化学键和相互作用 - 氢键、π-π相互作用、配位几何",
+          "构象数据 - 分子构象和扭转角"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": true,
+      "file_path": "sectors/M-professional-scientific/cambridge-structural-database.json"
+    },
+    {
+      "id": "china-instrument-society",
+      "name": {
+        "en": "China Instrument and Control Society",
+        "zh": "中国仪器仪表学会"
+      },
+      "description": {
+        "en": "China Instrument and Control Society (CIS) is a national academic, public welfare, and non-profit organization of instrument and control scientists and technicians in China. Founded in 1979 and supervised by the China Association for Science and Technology (CAST), CIS serves as a bridge between the government and instrument industry professionals, promoting the development of instrument and measurement control science and technology.",
+        "zh": "中国仪器仪表学会（CIS）是中国仪器仪表与测量控制科学技术工作者自愿组成并依法登记成立的学术性、公益性、非营利性社团法人。学会成立于1979年，由中国科学技术协会主管，是党和国家联系仪器仪表与测量控制科技工作者的桥梁和纽带，致力于推动中国仪器仪表与测量控制科学技术事业的发展。"
+      },
+      "website": "https://www.cis.org.cn/",
+      "data_url": "https://www.cis.org.cn/post/index/162",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "domains": [
+        "instrumentation",
+        "measurement-control",
+        "scientific-instruments",
+        "industrial-automation"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "仪器仪表",
+        "instrumentation",
+        "测量控制",
+        "measurement-control",
+        "科学仪器",
+        "scientific-instruments",
+        "仪器国产化",
+        "instrument-localization",
+        "工业自动化",
+        "industrial-automation",
+        "学术年会",
+        "academic-conference",
+        "行业统计",
+        "industry-statistics",
+        "团体标准",
+        "group-standards",
+        "科技奖励",
+        "technology-awards"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports on instrument and instrumentation industry development",
+          "Industry statistics and market analysis",
+          "Scientific instrument localization rate and domestic production data",
+          "Academic publications including Journal of Instrumentation, Optical Instruments, and other professional journals",
+          "Group standards and technical specifications for instrument industry",
+          "Technology awards and scientific achievement evaluations",
+          "Academic conference proceedings and research reports",
+          "Industry white papers on instrumentation technology"
+        ],
+        "zh": [
+          "仪器仪表行业年度发展报告",
+          "行业统计数据与市场分析",
+          "科学仪器国产化率及国产仪器数据",
+          "学术期刊出版物（包括《仪器仪表学报》、《光学仪器》等专业期刊）",
+          "团体标准与行业技术规范",
+          "科学技术奖励及成果鉴定",
+          "学术年会论文集与研究报告",
+          "仪器仪表技术产业白皮书"
+        ]
+      },
+      "has_api": false,
+      "file_path": "sectors/M-professional-scientific/china-instrument-society.json"
+    },
+    {
+      "id": "derwent-innovation-index",
+      "name": {
+        "en": "Derwent Innovation Index",
+        "zh": "德温特创新索引"
+      },
+      "description": {
+        "en": "Derwent Innovation Index is a comprehensive patent database provided by Clarivate Analytics, offering access to over 100 million patent documents from over 40 patent-issuing authorities worldwide. The database integrates Derwent World Patents Index (DWPI) enhanced patent data with patent citations from the Web of Science platform. It features value-added content including expert patent indexing, standardized patent families, chemical structure search capabilities, and enhanced English-language abstracts. Derwent Innovation Index is widely used for competitive intelligence, technology landscape analysis, patent analytics, prior art searching, freedom-to-operate analysis, and R&D decision-making across industries including pharmaceuticals, biotechnology, chemicals, electronics, engineering, and more.",
+        "zh": "德温特创新索引是科睿唯安（Clarivate Analytics）提供的综合性专利数据库，收录了来自全球40多个专利授权机构的超过1亿份专利文献。该数据库整合了德温特世界专利索引（DWPI）增强的专利数据与来自Web of Science平台的专利引用信息。其特色包括专家专利索引、标准化专利家族、化学结构检索功能和增强的英文摘要。德温特创新索引广泛用于竞争情报、技术景观分析、专利分析、现有技术检索、自由实施分析以及制药、生物技术、化学、电子、工程等行业的研发决策。"
+      },
+      "website": "https://clarivate.com",
+      "data_url": "https://clarivate.com/products/derwent-innovation/",
+      "api_url": "https://developer.clarivate.com/apis",
+      "country": null,
+      "domains": [
+        "patents",
+        "innovation",
+        "intellectual property",
+        "pharmaceuticals",
+        "biotechnology",
+        "chemistry",
+        "electronics",
+        "engineering",
+        "telecommunications",
+        "materials science",
+        "medical technology",
+        "mechanical engineering",
+        "computer science",
+        "aerospace",
+        "automotive"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "weekly",
+      "tags": [
+        "patents",
+        "intellectual-property",
+        "innovation",
+        "technology",
+        "competitive-intelligence",
+        "patent-analytics",
+        "prior-art",
+        "freedom-to-operate",
+        "patent-families",
+        "citations",
+        "chemical-structures",
+        "dwpi",
+        "technology-landscape",
+        "r-and-d",
+        "patent-classification",
+        "commercial-database",
+        "global-coverage",
+        "clarivate"
+      ],
+      "data_content": {
+        "en": [
+          "Patent Documents - Over 100 million patent documents from 40+ patent authorities worldwide",
+          "Derwent World Patents Index (DWPI) - Value-added patent information with expert indexing",
+          "Patent Families - Standardized patent family groupings across jurisdictions",
+          "Patent Citations - Citation data integrated from Web of Science",
+          "Chemical Structures - Searchable chemical structure information and Markush structures",
+          "Patent Classifications - IPC, CPC, USPC, and Derwent Manual Codes",
+          "Legal Status Information - Patent status, assignments, and litigation data",
+          "Inventor and Assignee Data - Standardized and disambiguated inventor/assignee information",
+          "Patent Abstracts - Enhanced English-language abstracts with technical details",
+          "Priority and Publication Data - Priority claims, publication dates, and filing information",
+          "Technology Codes - Derwent Class Codes for precise technology classification",
+          "Patent Analytics - Built-in analytical tools for trend analysis and competitive intelligence"
+        ],
+        "zh": [
+          "专利文献 - 来自全球40多个专利机构的超过1亿份专利文献",
+          "德温特世界专利索引（DWPI） - 具有专家索引的增值专利信息",
+          "专利家族 - 跨司法管辖区的标准化专利家族分组",
+          "专利引用 - 集成自Web of Science的引用数据",
+          "化学结构 - 可检索的化学结构信息和马库什结构",
+          "专利分类 - IPC、CPC、USPC和德温特手工代码",
+          "法律状态信息 - 专利状态、转让和诉讼数据",
+          "发明人和受让人数据 - 标准化和消歧的发明人/受让人信息",
+          "专利摘要 - 带有技术细节的增强英文摘要",
+          "优先权和公开数据 - 优先权声明、公开日期和申请信息",
+          "技术代码 - 用于精确技术分类的德温特分类代码",
+          "专利分析 - 内置分析工具用于趋势分析和竞争情报"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json"
+    },
+    {
+      "id": "arwu",
+      "name": {
+        "en": "Academic Ranking of World Universities",
+        "zh": "世界大学学术排名"
+      },
+      "description": {
+        "en": "The Academic Ranking of World Universities (ARWU), also known as Shanghai Ranking, is recognized as the precursor of global university rankings and one of the most trustworthy rankings worldwide. First published in 2003 by Shanghai Jiao Tong University and since 2009 by ShanghaiRanking Consultancy, ARWU presents the world's top 1000 research universities annually based on transparent methodology and objective third-party data. It uses six objective indicators including Nobel Prizes and Fields Medals won by alumni and staff, highly cited researchers, publications in Nature and Science, papers indexed in major citation indices, and per capita academic performance.",
+        "zh": "世界大学学术排名（ARWU），也称为上海排名，被公认为全球大学排名的先驱和最值得信赖的排名之一。首次发布于2003年由上海交通大学发起，自2009年起由软科教育信息咨询有限公司（ShanghaiRanking Consultancy）发布。ARWU基于透明的方法论和客观的第三方数据，每年发布全球前1000所研究型大学排名。排名使用六项客观指标，包括校友和教职工获得的诺贝尔奖和菲尔兹奖、高被引学者数量、在Nature和Science上发表的论文、被主要引文索引收录的论文以及师均学术表现。"
+      },
+      "website": "https://www.shanghairanking.com",
+      "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "higher education",
+        "university rankings",
+        "research performance",
+        "academic excellence",
+        "education assessment"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "university-ranking",
+        "higher-education",
+        "research-assessment",
+        "academic-excellence",
+        "global-ranking",
+        "education-evaluation",
+        "nobel-prize",
+        "citation-analysis",
+        "research-performance",
+        "shanghai-ranking"
+      ],
+      "data_content": {
+        "en": [
+          "Alumni - Nobel Prizes and Fields Medals won by alumni (10% weight)",
+          "Award - Nobel Prizes and Fields Medals won by staff (20% weight)",
+          "HiCi - Highly Cited Researchers selected by Clarivate (20% weight)",
+          "N&S - Papers published in Nature and Science journals (20% weight)",
+          "PUB - Papers indexed in SCIE and SSCI (Web of Science) (20% weight)",
+          "PCP - Per capita academic performance of institution (10% weight)",
+          "Top 1000 Universities - Annual ranking of world's best research universities",
+          "Global Coverage - Over 2500 universities evaluated annually",
+          "Historical Data - Rankings available from 2003 to present"
+        ],
+        "zh": [
+          "校友 - 校友获得的诺贝尔奖和菲尔兹奖（权重10%）",
+          "获奖 - 教职工获得的诺贝尔奖和菲尔兹奖（权重20%）",
+          "高被引 - Clarivate选出的高被引学者（权重20%）",
+          "N&S - 在Nature和Science发表的论文（权重20%）",
+          "PUB - 被SCIE和SSCI收录的论文（权重20%）",
+          "师均 - 机构的师均学术表现（权重10%）",
+          "前1000所大学 - 全球最佳研究型大学年度排名",
+          "全球覆盖 - 每年评估超过2500所大学",
+          "历史数据 - 2003年至今的排名数据"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/P-education/arwu.json"
+    },
+    {
+      "id": "british-museum-collection",
+      "name": {
+        "en": "British Museum Collection",
+        "zh": "大英博物馆馆藏"
+      },
+      "description": {
+        "en": "The British Museum Collection comprises nearly 5 million objects documenting two million years of human history and culture from across six continents. Collection online provides searchable access to over 2 million catalogued records with high-definition images, covering archaeology, art, cultural artifacts, and historical objects. The database represents over 40 years of cataloguing work and continues to expand daily.",
+        "zh": "大英博物馆馆藏包含近500万件文物，记录了来自六大洲的两百万年人类历史与文化。在线馆藏提供超过200万条可搜索的编目记录，配有高清图像，涵盖考古学、艺术、文化文物和历史物品。该数据库代表了40多年的编目工作，并持续每日扩展。"
+      },
+      "website": "https://www.britishmuseum.org",
+      "data_url": "https://www.britishmuseum.org/collection",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "cultural heritage",
+        "archaeology",
+        "art history",
+        "anthropology",
+        "ancient civilizations",
+        "museum studies"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "tags": [
+        "cultural heritage",
+        "museum",
+        "archaeology",
+        "art history",
+        "artifacts",
+        "world history",
+        "anthropology",
+        "ethnography",
+        "ancient civilizations",
+        "British Museum"
+      ],
+      "data_content": {
+        "en": [
+          "Ancient Egypt and Sudan artifacts",
+          "Greek and Roman antiquities",
+          "Middle Eastern archaeology",
+          "Asian art and culture",
+          "African art and artifacts",
+          "Americas collections",
+          "European art and archaeology",
+          "Coins and medals",
+          "Prints and drawings",
+          "Ethnographic collections"
+        ],
+        "zh": [
+          "古埃及和苏丹文物",
+          "希腊和罗马古物",
+          "中东考古",
+          "亚洲艺术与文化",
+          "非洲艺术与文物",
+          "美洲馆藏",
+          "欧洲艺术与考古",
+          "硬币和奖章",
+          "版画和素描",
+          "民族学藏品"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/R-arts-entertainment/british-museum-collection.json"
+    },
+    {
+      "id": "tennis-atp-wta-data",
+      "name": {
+        "en": "ATP/WTA Tennis Data",
+        "zh": "ATP/WTA网球数据"
+      },
+      "description": {
+        "en": "Comprehensive open-source databases containing historical tennis rankings, match results, and statistics for both men's (ATP) and women's (WTA) professional tennis. Includes match-level data from 1968 to present, player biographical information, and detailed match statistics. The datasets cover tour-level, challenger, futures, and qualifying matches with extensive historical coverage.",
+        "zh": "全面的开源数据库，包含男子（ATP）和女子（WTA）职业网球的历史排名、比赛结果和统计数据。包括从1968年至今的比赛级别数据、球员传记信息和详细的比赛统计。数据集涵盖巡回赛级别、挑战赛、未来赛和资格赛，具有广泛的历史覆盖范围。"
+      },
+      "website": "https://www.tennisabstract.com/",
+      "data_url": "https://github.com/JeffSackmann/tennis_atp",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "sports statistics",
+        "tennis",
+        "professional sports data",
+        "player performance analytics"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "sports",
+        "tennis",
+        "atp",
+        "wta",
+        "rankings",
+        "match-results",
+        "player-statistics",
+        "open-source",
+        "historical-data",
+        "professional-sports"
+      ],
+      "data_content": {
+        "en": [
+          "ATP Rankings (1973-present, with gaps in early years)",
+          "WTA Rankings (1980s-present)",
+          "Tour-level match results (singles and doubles)",
+          "Challenger and Futures match results",
+          "Qualifying match results",
+          "ITF-level match results for WTA",
+          "Player biographical data (name, birth date, country, handedness, height)",
+          "Match statistics (aces, double faults, serve percentages, break points, etc.)",
+          "Tournament information (name, level, surface, location)",
+          "Historical rankings by decade",
+          "Point-by-point data (separate repositories)",
+          "Match charting data (separate project)"
+        ],
+        "zh": [
+          "ATP排名（1973年至今，早期有缺失）",
+          "WTA排名（1980年代至今）",
+          "巡回赛级别比赛结果（单打和双打）",
+          "挑战赛和未来赛比赛结果",
+          "资格赛比赛结果",
+          "WTA的ITF级别比赛结果",
+          "球员传记数据（姓名、出生日期、国家、惯用手、身高）",
+          "比赛统计（ACE球、双误、发球百分比、破发点等）",
+          "锦标赛信息（名称、级别、场地类型、地点）",
+          "按十年划分的历史排名",
+          "逐分数据（独立存储库）",
+          "比赛图表数据（独立项目）"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json"
     },
     {
       "id": "aws-open-data-registry",
@@ -8547,1284 +9824,7 @@
       },
       "authority_level": "commercial",
       "has_api": false,
-      "file_path": "sectors\\computer_science_ai\\aws-open-data-registry.json"
-    },
-    {
-      "id": "bp-statistical-review",
-      "name": {
-        "en": "Statistical Review of World Energy",
-        "zh": "世界能源统计年鉴"
-      },
-      "description": {
-        "en": "The Energy Institute Statistical Review of World Energy™ analyses data on world energy markets from the prior year. Previously produced by bp (British Petroleum) since 1952, the Review has been continued by the Energy Institute since 2024, providing timely, comprehensive and objective data to the energy community. The Review covers global energy statistics including production, consumption, trade, and prices across all major energy sources: coal, oil, natural gas, nuclear, hydroelectric, and renewable energy. In collaboration with KPMG, Kearney, Heriot-Watt University, and with support from S&P Global Commodity Insights and bp.",
-        "zh": "能源研究所世界能源统计年鉴™分析上一年度世界能源市场数据。该年鉴自1952年起由bp（英国石油公司）编制，自2024年起由能源研究所继续出版，为能源界提供及时、全面和客观的数据。该年鉴涵盖全球能源统计数据，包括所有主要能源的生产、消费、贸易和价格：煤炭、石油、天然气、核能、水力发电和可再生能源。与毕马威、科尔尼、赫瑞瓦特大学合作，并得到标普全球大宗商品洞察和bp的支持。"
-      },
-      "website": "https://www.energyinst.org",
-      "data_url": "https://www.energyinst.org/statistical-review",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "energy",
-        "energy economics",
-        "energy statistics",
-        "energy production",
-        "energy consumption",
-        "energy trade",
-        "renewable energy",
-        "fossil fuels",
-        "climate change",
-        "energy transition"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "annual",
-      "tags": [
-        "energy",
-        "energy-statistics",
-        "energy-economics",
-        "coal",
-        "oil",
-        "natural-gas",
-        "nuclear-energy",
-        "renewable-energy",
-        "hydroelectric",
-        "solar-energy",
-        "wind-energy",
-        "electricity",
-        "carbon-emissions",
-        "climate-change",
-        "energy-transition",
-        "energy-security",
-        "fossil-fuels",
-        "energy-consumption",
-        "energy-production",
-        "energy-trade",
-        "bp",
-        "energy-institute"
-      ],
-      "data_content": {
-        "en": [
-          "Coal - Production, consumption, reserves, prices, and trade statistics",
-          "Oil - Production, consumption, refining capacity, reserves, prices, and trade flows",
-          "Natural Gas - Production, consumption, reserves, LNG trade, and prices",
-          "Nuclear Energy - Installed capacity, electricity generation, and consumption",
-          "Hydroelectric Power - Installed capacity and electricity generation",
-          "Renewable Energy - Solar, wind, biofuels, geothermal electricity generation and capacity",
-          "Electricity - Generation by fuel type, consumption, and access statistics",
-          "Primary Energy - Total energy supply and consumption by country and fuel type",
-          "Carbon Emissions - Energy-related CO2 emissions by country and fuel source",
-          "Energy Intensity - Energy consumption per unit of GDP",
-          "Energy Security - Import dependency, avoided fossil fuel use, and energy independence metrics",
-          "Energy Transition - Renewable energy share, fossil fuel avoidance, and system efficiency metrics",
-          "Country Transition Tracker - Country-level energy transition progress indicators"
-        ],
-        "zh": [
-          "煤炭 - 产量、消费量、储量、价格和贸易统计",
-          "石油 - 产量、消费量、炼油能力、储量、价格和贸易流量",
-          "天然气 - 产量、消费量、储量、液化天然气贸易和价格",
-          "核能 - 装机容量、发电量和消费量",
-          "水力发电 - 装机容量和发电量",
-          "可再生能源 - 太阳能、风能、生物燃料、地热发电量和装机容量",
-          "电力 - 按燃料类型分类的发电量、消费量和电力普及率统计",
-          "一次能源 - 按国家和燃料类型分类的总能源供应和消费",
-          "碳排放 - 按国家和燃料来源分类的能源相关二氧化碳排放",
-          "能源强度 - 单位GDP能源消费",
-          "能源安全 - 进口依赖度、避免使用化石燃料和能源独立性指标",
-          "能源转型 - 可再生能源份额、化石燃料避免和系统效率指标",
-          "国家转型追踪器 - 国家级能源转型进展指标"
-        ]
-      },
-      "authority_level": "market",
-      "has_api": false,
-      "file_path": "sectors\\D-energy\\bp-statistical-review.json"
-    },
-    {
-      "id": "bookscorpus",
-      "name": {
-        "en": "BooksCorpus",
-        "zh": "图书语料库"
-      },
-      "description": {
-        "en": "BooksCorpus is a large-scale text corpus containing over 11,000 unpublished books from various genres. Created by researchers at the University of Toronto and MIT, it has become one of the most influential datasets in natural language processing. The corpus was instrumental in training breakthrough language models like BERT, GPT, and other transformer-based architectures. It provides diverse, narrative text covering fiction, non-fiction, and multiple writing styles, making it ideal for unsupervised pre-training of language models.",
-        "zh": "图书语料库(BooksCorpus)是一个大规模文本语料库，包含超过11,000本来自不同类型的未出版书籍。由多伦多大学和麻省理工学院的研究人员创建，已成为自然语言处理领域最具影响力的数据集之一。该语料库在训练BERT、GPT等突破性语言模型和其他基于Transformer的架构中发挥了关键作用。它提供了涵盖小说、非小说和多种写作风格的丰富叙事文本，非常适合用于语言模型的无监督预训练。"
-      },
-      "website": "https://github.com/soskek/bookcorpus",
-      "data_url": "https://github.com/soskek/bookcorpus",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "natural language processing",
-        "machine learning",
-        "computational linguistics",
-        "text mining",
-        "deep learning"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "irregular",
-      "tags": [
-        "natural language processing",
-        "NLP",
-        "text corpus",
-        "language modeling",
-        "BERT",
-        "GPT",
-        "transformer",
-        "pre-training",
-        "unsupervised learning",
-        "books",
-        "narrative text",
-        "machine learning",
-        "deep learning",
-        "computational linguistics"
-      ],
-      "data_content": {
-        "en": [
-          "Over 11,000 unpublished books from Smashwords",
-          "984.5 million words total",
-          "74 million sentences",
-          "Fiction and non-fiction genres",
-          "Adventure, fantasy, romance, science fiction",
-          "Historical, thriller, young adult",
-          "Business, biography, self-help",
-          "Continuous narrative text",
-          "Diverse writing styles and vocabularies",
-          "English language only"
-        ],
-        "zh": [
-          "超过11,000本来自Smashwords的未出版书籍",
-          "总计9.845亿个单词",
-          "7400万个句子",
-          "小说和非小说类型",
-          "冒险、奇幻、浪漫、科幻",
-          "历史、惊悚、青少年读物",
-          "商业、传记、自助",
-          "连续的叙事文本",
-          "多样的写作风格和词汇",
-          "仅限英语"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\J-information-communication\\bookscorpus.json"
-    },
-    {
-      "id": "china-imt2030",
-      "name": {
-        "en": "IMT-2030 (6G) Promotion Group",
-        "zh": "IMT-2030(6G)推进组"
-      },
-      "description": {
-        "en": "The IMT-2030 (6G) Promotion Group was established in June 2019 by China's Ministry of Industry and Information Technology. Built on the foundation of the IMT-2020 (5G) Promotion Group, it serves as the primary platform for aggregating China's industry-academia-research forces to advance sixth-generation mobile communication technology research and facilitate international exchanges and cooperation. The group publishes white papers, research reports, and technical standards on 6G vision, network architecture, wireless systems, typical scenarios, and key enabling technologies.",
-        "zh": "IMT-2030(6G)推进组于2019年6月由中国工业和信息化部推动成立,组织架构基于原IMT-2020(5G)推进组,成员包括中国主要的运营商、制造商、高校和研究机构。推进组是聚合中国产学研用力量、推动中国第六代移动通信技术研究和开展国际交流与合作的主要平台。该组织发布6G愿景、网络架构、无线系统、典型场景和关键技术等方面的白皮书、研究报告和技术标准。"
-      },
-      "website": "https://www.imt2030.org.cn/",
-      "data_url": "https://www.imt2030.org.cn/html/default/zhongwen/chengguofabu/index.html",
-      "api_url": null,
-      "authority_level": "government",
-      "country": "CN",
-      "domains": [
-        "telecommunications",
-        "wireless-communication",
-        "6g-technology",
-        "technology-research",
-        "network-architecture"
-      ],
-      "geographic_scope": "national",
-      "update_frequency": "irregular",
-      "tags": [
-        "6G",
-        "IMT-2030",
-        "sixth-generation",
-        "第六代移动通信",
-        "wireless-communication",
-        "无线通信",
-        "white-paper",
-        "白皮书",
-        "network-architecture",
-        "网络架构",
-        "telecommunications",
-        "电信",
-        "5g",
-        "next-generation",
-        "下一代通信",
-        "CAICT",
-        "中国信息通信研究院",
-        "空天地一体化",
-        "integrated-space-air-ground",
-        "technical-standards",
-        "技术标准",
-        "research-reports",
-        "研究报告"
-      ],
-      "data_content": {
-        "en": [
-          "6G Vision and Potential Key Technologies White Papers",
-          "6G Network Architecture Outlook and Key Technology Prospects",
-          "6G Typical Scenarios and Key Capabilities",
-          "6G Wireless System Design Principles and Typical Features",
-          "Research on Terminal Requirements for 6G Application Scenarios",
-          "Research on IoT Typical Scenarios and Capability Requirements for 6G",
-          "Research on Open Service Environment Requirements for 6G",
-          "Research on Scenarios and Requirements for 6G and Industrial Application Coordination",
-          "Integrated Space-Air-Ground Network Technology and Standards",
-          "6G Technical Standards and Specifications"
-        ],
-        "zh": [
-          "6G总体愿景与潜在关键技术白皮书",
-          "6G网络架构愿景与关键技术展望白皮书",
-          "6G典型场景和关键能力白皮书",
-          "6G无线系统设计原则和典型特征白皮书",
-          "面向6G应用场景的终端需求研究",
-          "面向6G的物联网典型场景及能力要求研究",
-          "面向6G的开放业务环境需求研究",
-          "6G与工业应用相互协同的场景和需求研究",
-          "空天地一体化网络技术与标准",
-          "6G技术标准和规范"
-        ]
-      },
-      "has_api": false,
-      "file_path": "sectors\\J-information-communication\\china-imt2030.json"
-    },
-    {
-      "id": "china-software-association",
-      "name": {
-        "en": "China Software Industry Association",
-        "zh": "中国软件行业协会"
-      },
-      "description": {
-        "en": "The China Software Industry Association (CSIA) is a national first-level industry association established in 1984, providing comprehensive data on China's software industry revenue, enterprise rankings, and market research. It publishes annual reports including the Top 100 Software Companies rankings and industry benchmark data.",
-        "zh": "中国软件行业协会成立于1984年9月6日，是在民政部注册登记的全国一级行业组织，提供中国软件产业收入统计、企业排行榜、市场研究等综合数据。协会每年发布中国软件百强企业榜单和行业基准数据报告。"
-      },
-      "website": "https://www.csia.org.cn/",
-      "data_url": "https://www.csia.org.cn/",
-      "api_url": null,
-      "authority_level": "market",
-      "country": "CN",
-      "domains": [
-        "technology",
-        "industry",
-        "information-technology"
-      ],
-      "geographic_scope": "national",
-      "update_frequency": "annual",
-      "tags": [
-        "software industry",
-        "软件产业",
-        "enterprise ranking",
-        "企业排行",
-        "industry revenue",
-        "产业收入",
-        "CSIA",
-        "软件百强",
-        "top 100 software",
-        "information technology",
-        "信息技术服务",
-        "software revenue",
-        "软件业务收入",
-        "industry association",
-        "行业协会",
-        "benchmark data",
-        "基准数据"
-      ],
-      "data_content": {
-        "en": [
-          "Annual software industry revenue statistics (national and regional breakdown)",
-          "Top 100 Chinese software companies ranking (high-quality development enterprises)",
-          "Software industry benchmark data reports covering government, finance, telecommunications, transportation, energy, and manufacturing sectors",
-          "Software industry market research and analysis reports",
-          "Information technology services revenue data (cloud computing, big data, embedded systems)",
-          "Software product revenue statistics by category",
-          "China Software Industry High-Quality Development Report (annual publication)"
-        ],
-        "zh": [
-          "年度软件产业收入统计数据（全国及分地区）",
-          "中国软件百强企业排行榜（高质量发展企业）",
-          "软件行业基准数据报告（涵盖政府、金融、电信、交通、能源、制造业等行业）",
-          "软件产业市场调研与分析报告",
-          "信息技术服务收入数据（云计算、大数据、嵌入式系统）",
-          "软件产品收入分类统计",
-          "中国软件产业高质量发展报告（年度发布）"
-        ]
-      },
-      "has_api": false,
-      "file_path": "sectors\\J-information-communication\\china-software-association.json"
-    },
-    {
-      "id": "cifar",
-      "name": {
-        "en": "CIFAR-10 and CIFAR-100",
-        "zh": "CIFAR-10 和 CIFAR-100 数据集"
-      },
-      "description": {
-        "en": "CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dataset, widely used as benchmark datasets for machine learning and computer vision research. CIFAR-10 consists of 60,000 32x32 color images in 10 classes (6,000 images per class), with 50,000 training images and 10,000 test images. CIFAR-100 contains 100 classes with 600 images each (500 training, 100 testing per class), organized into 20 superclasses. Created by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton, these datasets have become foundational benchmarks for evaluating image classification algorithms.",
-        "zh": "CIFAR-10 和 CIFAR-100 是 8000 万微小图像数据集的标注子集，广泛用作机器学习和计算机视觉研究的基准数据集。CIFAR-10 包含 60,000 张 32x32 彩色图像，分为 10 个类别（每类 6,000 张图像），其中 50,000 张训练图像和 10,000 张测试图像。CIFAR-100 包含 100 个类别，每类 600 张图像（每类 500 张训练图像，100 张测试图像），组织成 20 个超类。这些数据集由 Alex Krizhevsky、Vinod Nair 和 Geoffrey Hinton 创建，已成为评估图像分类算法的基础性基准。"
-      },
-      "website": "https://www.cs.toronto.edu",
-      "data_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "computer vision",
-        "deep learning",
-        "machine learning",
-        "image classification",
-        "object recognition",
-        "artificial intelligence"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "irregular",
-      "tags": [
-        "computer-vision",
-        "deep-learning",
-        "image-classification",
-        "machine-learning",
-        "benchmark-dataset",
-        "object-recognition",
-        "convolutional-neural-networks",
-        "academic-research",
-        "tiny-images",
-        "supervised-learning"
-      ],
-      "data_content": {
-        "en": [
-          "CIFAR-10 - 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck",
-          "CIFAR-100 - 100 fine-grained classes grouped into 20 superclasses",
-          "Training Data - 50,000 images for CIFAR-10, 50,000 images for CIFAR-100",
-          "Test Data - 10,000 images for CIFAR-10, 10,000 images for CIFAR-100",
-          "Image Format - 32x32 pixel color images (RGB)",
-          "Superclasses (CIFAR-100) - aquatic mammals, fish, flowers, food containers, fruit and vegetables, household devices, furniture, insects, carnivores, outdoor things, natural scenes, omnivores/herbivores, medium mammals, invertebrates, people, reptiles, small mammals, trees, vehicles"
-        ],
-        "zh": [
-          "CIFAR-10 - 10 个类别：飞机、汽车、鸟、猫、鹿、狗、青蛙、马、船、卡车",
-          "CIFAR-100 - 100 个细粒度类别，分为 20 个超类",
-          "训练数据 - CIFAR-10 50,000 张图像，CIFAR-100 50,000 张图像",
-          "测试数据 - CIFAR-10 10,000 张图像，CIFAR-100 10,000 张图像",
-          "图像格式 - 32x32 像素彩色图像（RGB）",
-          "超类（CIFAR-100）- 水生哺乳动物、鱼类、花卉、食品容器、水果蔬菜、家用电器、家具、昆虫、食肉动物、户外物体、自然景观、杂食/食草动物、中型哺乳动物、无脊椎动物、人类、爬行动物、小型哺乳动物、树木、交通工具"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\J-information-communication\\cifar.json"
-    },
-    {
-      "id": "common-crawl",
-      "name": {
-        "en": "Common Crawl",
-        "zh": "Common Crawl 网络爬取数据"
-      },
-      "description": {
-        "en": "Common Crawl is a 501(c)(3) non-profit organization that maintains a free, open repository of web crawl data that can be used by anyone. The corpus contains petabytes of raw web page data, metadata extracts, and text extracts, regularly collected since 2008. With over 300 billion pages spanning 18 years, Common Crawl adds 3-5 billion new pages each month and has been cited in over 10,000 research papers. The data is stored on Amazon Web Services' Public Data Sets and on multiple academic cloud platforms across the world, making wholesale extraction, transformation and analysis of open web data accessible to researchers, companies and individuals at no cost.",
-        "zh": "Common Crawl 是一个 501(c)(3) 非营利组织，维护着一个免费、开放的网络爬取数据仓库，任何人都可以使用。该语料库包含PB级的原始网页数据、元数据提取和文本提取，自2008年以来定期收集。拥有超过3000亿个网页，跨越18年，Common Crawl每月新增30-50亿个网页，已被超过10,000篇研究论文引用。数据存储在亚马逊网络服务的公共数据集和全球多个学术云平台上，使研究人员、公司和个人能够免费访问、提取、转换和分析开放的网络数据。"
-      },
-      "website": "https://commoncrawl.org",
-      "data_url": "https://commoncrawl.org",
-      "api_url": "https://index.commoncrawl.org",
-      "country": null,
-      "domains": [
-        "web crawling",
-        "natural language processing",
-        "machine learning",
-        "data science",
-        "information retrieval",
-        "web analytics",
-        "artificial intelligence",
-        "research",
-        "large language models"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "monthly",
-      "tags": [
-        "web-crawling",
-        "natural-language-processing",
-        "machine-learning",
-        "large-language-models",
-        "web-data",
-        "text-corpus",
-        "open-data",
-        "research",
-        "big-data",
-        "artificial-intelligence",
-        "data-science",
-        "web-mining",
-        "nlp",
-        "internet-archive"
-      ],
-      "data_content": {
-        "en": [
-          "Raw Web Page Data - HTML, CSS, JavaScript and other web content in WARC format",
-          "Metadata Extracts - HTTP headers, response codes, content types (WAT format)",
-          "Text Extracts - Plain text extracted from web pages (WET format)",
-          "URL Index - Searchable index of all crawled URLs with CDX format",
-          "Web Graphs - Link structure and relationships between web pages",
-          "Crawl Statistics - Monthly statistics on crawl coverage and scope",
-          "Historical Data - Web data archives from 2008 to present",
-          "Multilingual Content - Web pages in hundreds of languages",
-          "Domain Coverage - Pages from millions of domains worldwide"
-        ],
-        "zh": [
-          "原始网页数据 - WARC 格式的 HTML、CSS、JavaScript 和其他网络内容",
-          "元数据提取 - HTTP 标头、响应代码、内容类型（WAT 格式）",
-          "文本提取 - 从网页提取的纯文本（WET 格式）",
-          "URL 索引 - 所有爬取 URL 的可搜索索引（CDX 格式）",
-          "网络图谱 - 网页之间的链接结构和关系",
-          "爬取统计 - 每月爬取覆盖范围和规模统计",
-          "历史数据 - 从 2008 年至今的网络数据档案",
-          "多语言内容 - 数百种语言的网页",
-          "域名覆盖 - 来自全球数百万个域名的网页"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": true,
-      "file_path": "sectors\\J-information-communication\\common-crawl.json"
-    },
-    {
-      "id": "conll-shared-tasks",
-      "name": {
-        "en": "CoNLL Shared Tasks Data",
-        "zh": "CoNLL共享任务数据集"
-      },
-      "description": {
-        "en": "CoNLL (Conference on Computational Natural Language Learning) has organized annual shared tasks since 1999, providing benchmark datasets for various NLP challenges including named entity recognition, chunking, parsing, semantic role labeling, coreference resolution, and more. These datasets have become standard benchmarks in the NLP research community, enabling fair comparison of different machine learning approaches across multiple languages and tasks.",
-        "zh": "CoNLL(计算自然语言学习会议)自1999年以来每年组织共享任务,为各种自然语言处理挑战提供基准数据集,包括命名实体识别、组块分析、句法分析、语义角色标注、共指消解等。这些数据集已成为NLP研究社区的标准基准,可以在多种语言和任务中公平比较不同的机器学习方法。"
-      },
-      "website": "https://www.signll.org",
-      "data_url": "https://www.conll.org/previous-tasks",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "natural language processing",
-        "computational linguistics",
-        "machine learning",
-        "named entity recognition",
-        "parsing",
-        "semantic analysis"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "annual",
-      "tags": [
-        "NLP",
-        "natural language processing",
-        "machine learning",
-        "named entity recognition",
-        "NER",
-        "parsing",
-        "chunking",
-        "semantic role labeling",
-        "coreference resolution",
-        "multilingual",
-        "benchmark datasets",
-        "shared task",
-        "computational linguistics"
-      ],
-      "data_content": {
-        "en": [
-          "Named Entity Recognition (NER) datasets - English, German, Spanish, Dutch",
-          "Text Chunking and Phrase Recognition datasets",
-          "Dependency Parsing - multilingual datasets covering 20+ languages",
-          "Semantic Role Labeling datasets",
-          "Coreference Resolution datasets (OntoNotes)",
-          "Grammatical Error Correction datasets",
-          "Discourse Parsing datasets",
-          "Morphological Reinflection datasets",
-          "Universal Dependencies datasets",
-          "BabyLM Challenge datasets"
-        ],
-        "zh": [
-          "命名实体识别(NER)数据集 - 英语、德语、西班牙语、荷兰语",
-          "文本组块和短语识别数据集",
-          "依存句法分析 - 覆盖20多种语言的多语言数据集",
-          "语义角色标注数据集",
-          "共指消解数据集(OntoNotes)",
-          "语法错误纠正数据集",
-          "话语分析数据集",
-          "形态变化数据集",
-          "通用依存关系数据集",
-          "BabyLM挑战数据集"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\J-information-communication\\conll-shared-tasks.json"
-    },
-    {
-      "id": "imagenet",
-      "name": {
-        "en": "ImageNet",
-        "zh": "ImageNet 图像数据库"
-      },
-      "description": {
-        "en": "ImageNet is a large-scale image database organized according to the WordNet hierarchy. It contains over 14 million images spanning more than 21,000 synsets (synonym sets). The most widely-used subset is the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2012-2017 dataset, which includes 1,000 object classes with 1.28 million training images, 50,000 validation images, and 100,000 test images. ImageNet has been instrumental in advancing computer vision and deep learning research.",
-        "zh": "ImageNet 是一个按照 WordNet 层次结构组织的大规模图像数据库。包含超过 1400 万张图像，涵盖 21,000 多个同义词集。最广泛使用的子集是 ImageNet 大规模视觉识别挑战赛（ILSVRC）2012-2017 数据集，包含 1,000 个对象类别，128 万训练图像、5 万验证图像和 10 万测试图像。ImageNet 在推动计算机视觉和深度学习研究方面发挥了重要作用。"
-      },
-      "website": "https://www.image-net.org",
-      "data_url": "https://www.image-net.org",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "computer vision",
-        "deep learning",
-        "machine learning",
-        "artificial intelligence",
-        "image classification",
-        "object recognition"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "irregular",
-      "tags": [
-        "computer-vision",
-        "deep-learning",
-        "image-classification",
-        "machine-learning",
-        "benchmark-dataset",
-        "object-recognition",
-        "convolutional-neural-networks",
-        "transfer-learning",
-        "academic-research",
-        "visual-recognition"
-      ],
-      "data_content": {
-        "en": [
-          "Image Classification - 1,000 object categories (ILSVRC subset)",
-          "Object Localization - Bounding box annotations for objects",
-          "Visual Recognition - 21,841 synsets covering diverse concepts",
-          "Training Data - 1,281,167 labeled training images",
-          "Validation Data - 50,000 validation images with ground truth",
-          "Test Data - 100,000 test images for benchmarking",
-          "WordNet Hierarchy - Structured organization of visual concepts"
-        ],
-        "zh": [
-          "图像分类 - 1,000 个对象类别（ILSVRC 子集）",
-          "对象定位 - 对象边界框标注",
-          "视觉识别 - 21,841 个同义词集覆盖多样化概念",
-          "训练数据 - 1,281,167 张已标注训练图像",
-          "验证数据 - 50,000 张带真实标签的验证图像",
-          "测试数据 - 100,000 张用于基准测试的测试图像",
-          "WordNet 层次结构 - 视觉概念的结构化组织"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\J-information-communication\\imagenet.json"
-    },
-    {
-      "id": "alpha-vantage",
-      "name": {
-        "en": "Alpha Vantage API",
-        "zh": "Alpha Vantage API"
-      },
-      "description": {
-        "en": "Alpha Vantage provides free JSON APIs for realtime and historical stock market data, forex, cryptocurrencies, commodities, and economic indicators. The platform offers 50+ technical indicators, covering 200,000+ tickers across 20+ global exchanges with over 20 years of historical depth. Built for developers and investors, it supports multiple temporal resolutions (intraday, daily, weekly, monthly) and features eight major API categories including Core Time Series, US Options, Alpha Intelligence, Fundamental Data, and more.",
-        "zh": "Alpha Vantage 提供免费的 JSON API，用于获取实时和历史股票市场数据、外汇、加密货币、大宗商品和经济指标。该平台提供 50 多种技术指标，涵盖 20 多个全球交易所的 200,000 多个股票代码，拥有超过 20 年的历史数据深度。专为开发人员和投资者打造，支持多种时间分辨率（盘中、每日、每周、每月），包含八大主要 API 类别：核心时间序列、美国期权、Alpha Intelligence、基本面数据等。"
-      },
-      "website": "https://www.alphavantage.co/",
-      "data_url": "https://www.alphavantage.co/",
-      "api_url": "https://www.alphavantage.co/documentation/",
-      "country": null,
-      "domains": [
-        "stock markets",
-        "foreign exchange",
-        "cryptocurrencies",
-        "commodities",
-        "economic indicators",
-        "technical analysis"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "real-time",
-      "tags": [
-        "stock-market",
-        "financial-data",
-        "api",
-        "real-time",
-        "technical-indicators",
-        "forex",
-        "cryptocurrency",
-        "commodities",
-        "economic-indicators",
-        "time-series",
-        "free-tier",
-        "developer-friendly"
-      ],
-      "data_content": {
-        "en": [
-          "Core Time Series Stock Data (intraday, daily, weekly, monthly)",
-          "US Options Data",
-          "Alpha Intelligence (news sentiment, top gainers/losers)",
-          "Fundamental Data (income statements, balance sheets, cash flow)",
-          "Physical and Crypto Currencies (forex, Bitcoin, cryptocurrencies)",
-          "Commodities (WTI crude oil, natural gas, copper, wheat, corn)",
-          "Economic Indicators (GDP, inflation, interest rates, unemployment)",
-          "Technical Indicators (50+ indicators including SMA, EMA, RSI, MACD, Bollinger Bands)"
-        ],
-        "zh": [
-          "核心时间序列股票数据（盘中、每日、每周、每月）",
-          "美国期权数据",
-          "Alpha Intelligence（新闻情绪、涨跌幅排行）",
-          "基本面数据（损益表、资产负债表、现金流量表）",
-          "实物和加密货币（外汇、比特币、加密货币）",
-          "大宗商品（WTI 原油、天然气、铜、小麦、玉米）",
-          "经济指标（GDP、通货膨胀、利率、失业率）",
-          "技术指标（50 多种指标，包括 SMA、EMA、RSI、MACD、布林带）"
-        ]
-      },
-      "authority_level": "commercial",
-      "has_api": true,
-      "file_path": "sectors\\K-finance-insurance\\alpha-vantage.json"
-    },
-    {
-      "id": "bloomberg-terminal",
-      "name": {
-        "en": "Bloomberg Terminal (Public Data)",
-        "zh": "彭博终端（部分公开数据）"
-      },
-      "description": {
-        "en": "Bloomberg Terminal is the world's leading financial data platform providing real-time and historical market data, news, analytics, and trading tools. While the full terminal requires a subscription (approximately $24,000/year), Bloomberg offers limited public access to market data through bloomberg.com including stock quotes, indices, commodities prices, currency exchange rates, and financial news. The public interface provides basic market information for global equities, bonds, currencies, and commodities, along with business news and market analysis.",
-        "zh": "彭博终端是全球领先的金融数据平台，提供实时和历史市场数据、新闻、分析和交易工具。虽然完整的终端需要订阅（约每年 24,000 美元），但彭博通过 bloomberg.com 提供有限的公共市场数据访问，包括股票报价、指数、大宗商品价格、货币汇率和金融新闻。公共界面提供全球股票、债券、货币和大宗商品的基本市场信息，以及商业新闻和市场分析。"
-      },
-      "website": "https://www.bloomberg.com",
-      "data_url": "https://www.bloomberg.com/markets",
-      "api_url": "https://www.bloomberg.com/professional/support/api-library/",
-      "country": null,
-      "domains": [
-        "equities",
-        "fixed income",
-        "currencies",
-        "commodities",
-        "derivatives",
-        "economic data",
-        "financial news",
-        "corporate fundamentals",
-        "esg data"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "real-time",
-      "tags": [
-        "financial-markets",
-        "stock-market",
-        "real-time-data",
-        "bonds",
-        "forex",
-        "commodities",
-        "derivatives",
-        "economic-data",
-        "financial-news",
-        "commercial",
-        "subscription-based",
-        "professional-trading",
-        "market-data",
-        "terminal"
-      ],
-      "data_content": {
-        "en": [
-          "Real-time stock quotes and indices (NYSE, NASDAQ, LSE, TSE, HKEX, etc.)",
-          "Bond prices and yields (government bonds, corporate bonds, municipal bonds)",
-          "Foreign exchange rates (170+ currencies, real-time and historical)",
-          "Commodities prices (energy, metals, agriculture)",
-          "Derivatives data (options, futures, swaps)",
-          "Economic indicators (GDP, inflation, employment, trade data)",
-          "Corporate financials (income statements, balance sheets, cash flows)",
-          "Financial news and analysis (Bloomberg News, market commentary)",
-          "ESG ratings and sustainability data",
-          "Analyst estimates and recommendations"
-        ],
-        "zh": [
-          "实时股票报价和指数（纽交所、纳斯达克、伦敦证交所、东京证交所、港交所等）",
-          "债券价格和收益率（政府债券、公司债券、市政债券）",
-          "外汇汇率（170+ 种货币，实时和历史数据）",
-          "大宗商品价格（能源、金属、农产品）",
-          "衍生品数据（期权、期货、掉期）",
-          "经济指标（GDP、通货膨胀、就业、贸易数据）",
-          "企业财务数据（损益表、资产负债表、现金流量表）",
-          "金融新闻和分析（彭博新闻、市场评论）",
-          "ESG 评级和可持续发展数据",
-          "分析师预测和建议"
-        ]
-      },
-      "authority_level": "commercial",
-      "has_api": true,
-      "file_path": "sectors\\K-finance-insurance\\bloomberg-terminal.json"
-    },
-    {
-      "id": "crsp",
-      "name": {
-        "en": "CRSP - Center for Research in Security Prices",
-        "zh": "证券价格研究中心"
-      },
-      "description": {
-        "en": "CRSP maintains the most comprehensive collection of security price, return, and volume data for the NYSE, AMEX, and NASDAQ stock markets. Founded at the University of Chicago Booth School of Business in the 1960s, CRSP provides historical data dating back to 1925 covering over 32,000 active and inactive securities. The database includes daily and monthly stock prices, returns, trading volumes, corporate actions, and indices. CRSP is the gold standard for academic financial research and is widely used by researchers, investment professionals, and asset managers. In September 2025, Morningstar, Inc. acquired CRSP from the University of Chicago for $375 million. Over $3 trillion of assets are held in funds linked to CRSP Market Indexes.",
-        "zh": "CRSP 维护着纽约证券交易所（NYSE）、美国证券交易所（AMEX）和纳斯达克（NASDAQ）股票市场最全面的证券价格、回报和交易量数据集合。CRSP 成立于 1960 年代，由芝加哥大学布斯商学院创建，提供可追溯到 1925 年的历史数据，涵盖超过 32,000 个活跃和非活跃证券。数据库包括每日和每月股票价格、回报率、交易量、公司行为和指数。CRSP 是学术金融研究的黄金标准，被研究人员、投资专业人士和资产管理公司广泛使用。2025 年 9 月，晨星公司以 3.75 亿美元从芝加哥大学收购了 CRSP。与 CRSP 市场指数挂钩的基金持有的资产超过 3 万亿美元。"
-      },
-      "website": "https://www.crsp.org",
-      "data_url": "https://www.crsp.org/",
-      "api_url": "https://www.crsp.org/products/documentation/getting-started",
-      "country": "US",
-      "domains": [
-        "stock markets",
-        "equities",
-        "market indices",
-        "corporate actions",
-        "investment research",
-        "asset pricing"
-      ],
-      "geographic_scope": "national",
-      "update_frequency": "monthly",
-      "tags": [
-        "stock-market",
-        "equities",
-        "historical-data",
-        "US-markets",
-        "NYSE",
-        "NASDAQ",
-        "AMEX",
-        "academic-research",
-        "financial-data",
-        "market-indices",
-        "time-series",
-        "asset-pricing",
-        "corporate-actions",
-        "subscription-based",
-        "WRDS",
-        "investment-research"
-      ],
-      "data_content": {
-        "en": [
-          "Daily and monthly stock prices (NYSE, AMEX, NASDAQ, NYSE Arca)",
-          "Stock returns and holding period returns",
-          "Trading volumes and shares outstanding",
-          "Market capitalization data",
-          "Stock indices and portfolio returns",
-          "Corporate actions (splits, dividends, delistings, mergers)",
-          "Beta-based and cap-based portfolios",
-          "Treasury bond rates and risk-free rates",
-          "Mutual fund data",
-          "Real estate investment trust (REIT) data",
-          "Security-level descriptive information (CUSIP, ticker, company name)",
-          "Market microstructure data"
-        ],
-        "zh": [
-          "每日和每月股票价格（纽交所、美国证交所、纳斯达克、纽交所高增长板）",
-          "股票回报率和持有期回报率",
-          "交易量和流通股数",
-          "市值数据",
-          "股票指数和投资组合回报",
-          "公司行为（拆股、分红、退市、并购）",
-          "基于贝塔和市值的投资组合",
-          "国债利率和无风险利率",
-          "共同基金数据",
-          "房地产投资信托基金（REIT）数据",
-          "证券级别描述信息（CUSIP、股票代码、公司名称）",
-          "市场微观结构数据"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": true,
-      "file_path": "sectors\\K-finance-insurance\\crsp.json"
-    },
-    {
-      "id": "cryptocurrency-data",
-      "name": {
-        "en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
-        "zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）"
-      },
-      "description": {
-        "en": "Comprehensive cryptocurrency market data platforms providing real-time and historical price information, market capitalizations, trading volumes, and blockchain analytics. CoinMarketCap tracks over 7,000 cryptocurrencies across 33,000+ markets and 300+ exchanges, with data dating back to 2013. CoinGecko monitors 13 million+ tokens across 240+ blockchain networks and 1,600+ exchanges, established in 2014. Both platforms offer extensive APIs, support multiple fiat currencies, and provide on-chain DEX data, NFT floor prices, and comprehensive market intelligence for cryptocurrency investors, researchers, and developers.",
-        "zh": "综合性加密货币市场数据平台，提供实时和历史价格信息、市值、交易量和区块链分析。CoinMarketCap 追踪 7,000 多种加密货币，覆盖 33,000 多个市场和 300 多个交易所，数据可追溯至 2013 年。CoinGecko 监控 1300 万以上代币，涵盖 240 多个区块链网络和 1,600 多个交易所，成立于 2014 年。两个平台均提供广泛的 API 接口，支持多种法定货币，并提供链上 DEX 数据、NFT 底价和全面的市场情报，服务于加密货币投资者、研究人员和开发者。"
-      },
-      "website": "https://coinmarketcap.com",
-      "data_url": "https://coinmarketcap.com",
-      "api_url": "https://coinmarketcap.com/api/documentation/v1/",
-      "country": null,
-      "domains": [
-        "cryptocurrency markets",
-        "blockchain analytics",
-        "digital assets",
-        "defi (decentralized finance)",
-        "nft markets",
-        "trading data",
-        "financial technology"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "real-time",
-      "tags": [
-        "cryptocurrency",
-        "blockchain",
-        "digital-assets",
-        "market-data",
-        "trading",
-        "defi",
-        "nft",
-        "real-time-data",
-        "financial-markets",
-        "crypto-exchanges",
-        "api",
-        "price-tracking"
-      ],
-      "data_content": {
-        "en": [
-          "Real-time Cryptocurrency Prices - Live pricing for 7,000+ cryptocurrencies (CMC) and 13M+ tokens (CoinGecko)",
-          "Market Capitalizations - Total and circulating supply valuations",
-          "Trading Volumes - 24-hour and historical trading volumes across exchanges",
-          "Exchange Data - Coverage of 300+ centralized exchanges (CMC) and 1,600+ exchanges (CoinGecko)",
-          "Historical Price Data - Historical data from 2013 (CMC) and 2014 (CoinGecko)",
-          "On-chain DEX Data - 250+ blockchain networks, 1,700+ DEXes, 15M+ tokens (CoinGecko)",
-          "NFT Floor Prices - NFT collection floor price tracking",
-          "Market Metrics - Price changes, volume changes, market dominance, liquidity metrics",
-          "Blockchain Network Data - Coverage across 240+ blockchain networks",
-          "Fiat Conversion - Support for 93 fiat currencies and 4 precious metals",
-          "Token Metadata - Project information, websites, social media, whitepapers",
-          "Trading Pairs - Comprehensive trading pair information across markets"
-        ],
-        "zh": [
-          "实时加密货币价格 - 7,000+ 种加密货币（CMC）和 1300 万代币（CoinGecko）的实时价格",
-          "市值数据 - 总市值和流通市值估值",
-          "交易量 - 跨交易所的 24 小时和历史交易量",
-          "交易所数据 - 覆盖 300+ 中心化交易所（CMC）和 1,600+ 交易所（CoinGecko）",
-          "历史价格数据 - 2013 年（CMC）和 2014 年（CoinGecko）以来的历史数据",
-          "链上 DEX 数据 - 250+ 区块链网络、1,700+ DEX、1500 万代币（CoinGecko）",
-          "NFT 底价 - NFT 系列底价追踪",
-          "市场指标 - 价格变化、交易量变化、市场主导地位、流动性指标",
-          "区块链网络数据 - 覆盖 240+ 区块链网络",
-          "法币转换 - 支持 93 种法定货币和 4 种贵金属",
-          "代币元数据 - 项目信息、网站、社交媒体、白皮书",
-          "交易对 - 跨市场的综合交易对信息"
-        ]
-      },
-      "authority_level": "commercial",
-      "has_api": true,
-      "file_path": "sectors\\K-finance-insurance\\cryptocurrency-data.json"
-    },
-    {
-      "id": "cambridge-structural-database",
-      "name": {
-        "en": "Cambridge Structural Database (CSD)",
-        "zh": "剑桥晶体结构数据库"
-      },
-      "description": {
-        "en": "The Cambridge Structural Database (CSD) is the world's largest repository for experimentally derived small-molecule organic and metal-organic crystal structures, curated since 1965. Maintained by the Cambridge Crystallographic Data Centre (CCDC), the database now contains over 1.39 million crystal structures from published literature, direct deposition, patents, and PhD theses. The CSD is CoreTrustSeal certified and recognized as a trusted data repository. It serves as a fundamental resource for pharmaceutical drug discovery and development, agrochemical research, materials science, metal-organic frameworks (MOFs), catalysis research, and academic crystallography. The database provides comprehensive structural chemistry data, software, and insights used by thousands of scientists globally in both commercial and academic research.",
-        "zh": "剑桥晶体结构数据库（CSD）是世界上最大的实验衍生小分子有机和金属有机晶体结构库，自1965年以来持续整理。该数据库由剑桥晶体学数据中心（CCDC）维护，目前包含来自发表文献、直接提交、专利和博士论文的超过139万个晶体结构。CSD 获得 CoreTrustSeal 认证，被认定为可信数据存储库。它是制药药物发现与开发、农药研究、材料科学、金属有机框架（MOFs）、催化研究和学术晶体学的基础资源。该数据库为全球数千名科学家提供全面的结构化学数据、软件和见解，广泛应用于商业和学术研究。"
-      },
-      "website": "https://www.ccdc.cam.ac.uk",
-      "data_url": "https://www.ccdc.cam.ac.uk",
-      "api_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
-      "country": null,
-      "domains": [
-        "crystallography",
-        "structural chemistry",
-        "pharmaceutical sciences",
-        "drug discovery",
-        "drug development",
-        "agrochemical research",
-        "materials science",
-        "metal-organic frameworks",
-        "catalysis",
-        "functional materials",
-        "organic chemistry",
-        "inorganic chemistry"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "daily",
-      "tags": [
-        "crystallography",
-        "structural-chemistry",
-        "crystal-structures",
-        "small-molecules",
-        "organic-chemistry",
-        "metal-organic-frameworks",
-        "pharmaceutical",
-        "drug-discovery",
-        "drug-development",
-        "materials-science",
-        "agrochemical",
-        "catalysis",
-        "polymorphs",
-        "molecular-geometry",
-        "chemical-bonding",
-        "conformational-analysis",
-        "x-ray-crystallography",
-        "academic-research",
-        "commercial-research",
-        "coretrustseal-certified"
-      ],
-      "data_content": {
-        "en": [
-          "Organic Structures - Drugs and pharmaceuticals, agrochemicals, pigments, explosives, protein ligands",
-          "Metal-Organic Structures - Metal Organic Frameworks (MOFs), catalyst models, porous frameworks for gas storage, fundamental chemical bonding",
-          "Polymorph Families - 13,478 polymorph families",
-          "Physical Properties - 174,987 melting points, 1,075,904 crystal colours, 951,746 crystal shapes",
-          "Bioactivity Data - 30,275 bioactivity details, 13,641 natural source data",
-          "Chemical Data - >350,000 oxidation states",
-          "Data Subsets - DrugBank, Druglike, MOFs, PDB ligands, PubChem, ChemSpider, Pesticide PDB",
-          "Crystallographic Data - Full 3D atomic coordinates, unit cell parameters, space groups, bond lengths and angles",
-          "Chemical Bonds and Interactions - Hydrogen bonds, pi-pi interactions, coordination geometries",
-          "Conformational Data - Molecular conformations and torsion angles"
-        ],
-        "zh": [
-          "有机结构 - 药物和医药品、农药、颜料、爆炸物、蛋白质配体",
-          "金属有机结构 - 金属有机框架（MOFs）、催化剂模型、气体存储多孔框架、基础化学键合",
-          "多晶型家族 - 13,478 个多晶型家族",
-          "物理性质 - 174,987 个熔点、1,075,904 个晶体颜色、951,746 个晶体形状",
-          "生物活性数据 - 30,275 个生物活性详情、13,641 个天然来源数据",
-          "化学数据 - >350,000 个氧化态",
-          "数据子集 - DrugBank、类药物、MOFs、PDB配体、PubChem、ChemSpider、农药PDB",
-          "晶体学数据 - 完整的3D原子坐标、晶胞参数、空间群、键长和键角",
-          "化学键和相互作用 - 氢键、π-π相互作用、配位几何",
-          "构象数据 - 分子构象和扭转角"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": true,
-      "file_path": "sectors\\M-professional-scientific\\cambridge-structural-database.json"
-    },
-    {
-      "id": "china-instrument-society",
-      "name": {
-        "en": "China Instrument and Control Society",
-        "zh": "中国仪器仪表学会"
-      },
-      "description": {
-        "en": "China Instrument and Control Society (CIS) is a national academic, public welfare, and non-profit organization of instrument and control scientists and technicians in China. Founded in 1979 and supervised by the China Association for Science and Technology (CAST), CIS serves as a bridge between the government and instrument industry professionals, promoting the development of instrument and measurement control science and technology.",
-        "zh": "中国仪器仪表学会（CIS）是中国仪器仪表与测量控制科学技术工作者自愿组成并依法登记成立的学术性、公益性、非营利性社团法人。学会成立于1979年，由中国科学技术协会主管，是党和国家联系仪器仪表与测量控制科技工作者的桥梁和纽带，致力于推动中国仪器仪表与测量控制科学技术事业的发展。"
-      },
-      "website": "https://www.cis.org.cn/",
-      "data_url": "https://www.cis.org.cn/post/index/162",
-      "api_url": null,
-      "authority_level": "research",
-      "country": "CN",
-      "domains": [
-        "instrumentation",
-        "measurement-control",
-        "scientific-instruments",
-        "industrial-automation"
-      ],
-      "geographic_scope": "national",
-      "update_frequency": "annual",
-      "tags": [
-        "仪器仪表",
-        "instrumentation",
-        "测量控制",
-        "measurement-control",
-        "科学仪器",
-        "scientific-instruments",
-        "仪器国产化",
-        "instrument-localization",
-        "工业自动化",
-        "industrial-automation",
-        "学术年会",
-        "academic-conference",
-        "行业统计",
-        "industry-statistics",
-        "团体标准",
-        "group-standards",
-        "科技奖励",
-        "technology-awards"
-      ],
-      "data_content": {
-        "en": [
-          "Annual reports on instrument and instrumentation industry development",
-          "Industry statistics and market analysis",
-          "Scientific instrument localization rate and domestic production data",
-          "Academic publications including Journal of Instrumentation, Optical Instruments, and other professional journals",
-          "Group standards and technical specifications for instrument industry",
-          "Technology awards and scientific achievement evaluations",
-          "Academic conference proceedings and research reports",
-          "Industry white papers on instrumentation technology"
-        ],
-        "zh": [
-          "仪器仪表行业年度发展报告",
-          "行业统计数据与市场分析",
-          "科学仪器国产化率及国产仪器数据",
-          "学术期刊出版物（包括《仪器仪表学报》、《光学仪器》等专业期刊）",
-          "团体标准与行业技术规范",
-          "科学技术奖励及成果鉴定",
-          "学术年会论文集与研究报告",
-          "仪器仪表技术产业白皮书"
-        ]
-      },
-      "has_api": false,
-      "file_path": "sectors\\M-professional-scientific\\china-instrument-society.json"
-    },
-    {
-      "id": "derwent-innovation-index",
-      "name": {
-        "en": "Derwent Innovation Index",
-        "zh": "德温特创新索引"
-      },
-      "description": {
-        "en": "Derwent Innovation Index is a comprehensive patent database provided by Clarivate Analytics, offering access to over 100 million patent documents from over 40 patent-issuing authorities worldwide. The database integrates Derwent World Patents Index (DWPI) enhanced patent data with patent citations from the Web of Science platform. It features value-added content including expert patent indexing, standardized patent families, chemical structure search capabilities, and enhanced English-language abstracts. Derwent Innovation Index is widely used for competitive intelligence, technology landscape analysis, patent analytics, prior art searching, freedom-to-operate analysis, and R&D decision-making across industries including pharmaceuticals, biotechnology, chemicals, electronics, engineering, and more.",
-        "zh": "德温特创新索引是科睿唯安（Clarivate Analytics）提供的综合性专利数据库，收录了来自全球40多个专利授权机构的超过1亿份专利文献。该数据库整合了德温特世界专利索引（DWPI）增强的专利数据与来自Web of Science平台的专利引用信息。其特色包括专家专利索引、标准化专利家族、化学结构检索功能和增强的英文摘要。德温特创新索引广泛用于竞争情报、技术景观分析、专利分析、现有技术检索、自由实施分析以及制药、生物技术、化学、电子、工程等行业的研发决策。"
-      },
-      "website": "https://clarivate.com",
-      "data_url": "https://clarivate.com/products/derwent-innovation/",
-      "api_url": "https://developer.clarivate.com/apis",
-      "country": null,
-      "domains": [
-        "patents",
-        "innovation",
-        "intellectual property",
-        "pharmaceuticals",
-        "biotechnology",
-        "chemistry",
-        "electronics",
-        "engineering",
-        "telecommunications",
-        "materials science",
-        "medical technology",
-        "mechanical engineering",
-        "computer science",
-        "aerospace",
-        "automotive"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "weekly",
-      "tags": [
-        "patents",
-        "intellectual-property",
-        "innovation",
-        "technology",
-        "competitive-intelligence",
-        "patent-analytics",
-        "prior-art",
-        "freedom-to-operate",
-        "patent-families",
-        "citations",
-        "chemical-structures",
-        "dwpi",
-        "technology-landscape",
-        "r-and-d",
-        "patent-classification",
-        "commercial-database",
-        "global-coverage",
-        "clarivate"
-      ],
-      "data_content": {
-        "en": [
-          "Patent Documents - Over 100 million patent documents from 40+ patent authorities worldwide",
-          "Derwent World Patents Index (DWPI) - Value-added patent information with expert indexing",
-          "Patent Families - Standardized patent family groupings across jurisdictions",
-          "Patent Citations - Citation data integrated from Web of Science",
-          "Chemical Structures - Searchable chemical structure information and Markush structures",
-          "Patent Classifications - IPC, CPC, USPC, and Derwent Manual Codes",
-          "Legal Status Information - Patent status, assignments, and litigation data",
-          "Inventor and Assignee Data - Standardized and disambiguated inventor/assignee information",
-          "Patent Abstracts - Enhanced English-language abstracts with technical details",
-          "Priority and Publication Data - Priority claims, publication dates, and filing information",
-          "Technology Codes - Derwent Class Codes for precise technology classification",
-          "Patent Analytics - Built-in analytical tools for trend analysis and competitive intelligence"
-        ],
-        "zh": [
-          "专利文献 - 来自全球40多个专利机构的超过1亿份专利文献",
-          "德温特世界专利索引（DWPI） - 具有专家索引的增值专利信息",
-          "专利家族 - 跨司法管辖区的标准化专利家族分组",
-          "专利引用 - 集成自Web of Science的引用数据",
-          "化学结构 - 可检索的化学结构信息和马库什结构",
-          "专利分类 - IPC、CPC、USPC和德温特手工代码",
-          "法律状态信息 - 专利状态、转让和诉讼数据",
-          "发明人和受让人数据 - 标准化和消歧的发明人/受让人信息",
-          "专利摘要 - 带有技术细节的增强英文摘要",
-          "优先权和公开数据 - 优先权声明、公开日期和申请信息",
-          "技术代码 - 用于精确技术分类的德温特分类代码",
-          "专利分析 - 内置分析工具用于趋势分析和竞争情报"
-        ]
-      },
-      "authority_level": "commercial",
-      "has_api": true,
-      "file_path": "sectors\\M-professional-scientific\\derwent-innovation-index.json"
-    },
-    {
-      "id": "arwu",
-      "name": {
-        "en": "Academic Ranking of World Universities",
-        "zh": "世界大学学术排名"
-      },
-      "description": {
-        "en": "The Academic Ranking of World Universities (ARWU), also known as Shanghai Ranking, is recognized as the precursor of global university rankings and one of the most trustworthy rankings worldwide. First published in 2003 by Shanghai Jiao Tong University and since 2009 by ShanghaiRanking Consultancy, ARWU presents the world's top 1000 research universities annually based on transparent methodology and objective third-party data. It uses six objective indicators including Nobel Prizes and Fields Medals won by alumni and staff, highly cited researchers, publications in Nature and Science, papers indexed in major citation indices, and per capita academic performance.",
-        "zh": "世界大学学术排名（ARWU），也称为上海排名，被公认为全球大学排名的先驱和最值得信赖的排名之一。首次发布于2003年由上海交通大学发起，自2009年起由软科教育信息咨询有限公司（ShanghaiRanking Consultancy）发布。ARWU基于透明的方法论和客观的第三方数据，每年发布全球前1000所研究型大学排名。排名使用六项客观指标，包括校友和教职工获得的诺贝尔奖和菲尔兹奖、高被引学者数量、在Nature和Science上发表的论文、被主要引文索引收录的论文以及师均学术表现。"
-      },
-      "website": "https://www.shanghairanking.com",
-      "data_url": "https://www.shanghairanking.com/rankings/arwu/2025",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "higher education",
-        "university rankings",
-        "research performance",
-        "academic excellence",
-        "education assessment"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "annual",
-      "tags": [
-        "university-ranking",
-        "higher-education",
-        "research-assessment",
-        "academic-excellence",
-        "global-ranking",
-        "education-evaluation",
-        "nobel-prize",
-        "citation-analysis",
-        "research-performance",
-        "shanghai-ranking"
-      ],
-      "data_content": {
-        "en": [
-          "Alumni - Nobel Prizes and Fields Medals won by alumni (10% weight)",
-          "Award - Nobel Prizes and Fields Medals won by staff (20% weight)",
-          "HiCi - Highly Cited Researchers selected by Clarivate (20% weight)",
-          "N&S - Papers published in Nature and Science journals (20% weight)",
-          "PUB - Papers indexed in SCIE and SSCI (Web of Science) (20% weight)",
-          "PCP - Per capita academic performance of institution (10% weight)",
-          "Top 1000 Universities - Annual ranking of world's best research universities",
-          "Global Coverage - Over 2500 universities evaluated annually",
-          "Historical Data - Rankings available from 2003 to present"
-        ],
-        "zh": [
-          "校友 - 校友获得的诺贝尔奖和菲尔兹奖（权重10%）",
-          "获奖 - 教职工获得的诺贝尔奖和菲尔兹奖（权重20%）",
-          "高被引 - Clarivate选出的高被引学者（权重20%）",
-          "N&S - 在Nature和Science发表的论文（权重20%）",
-          "PUB - 被SCIE和SSCI收录的论文（权重20%）",
-          "师均 - 机构的师均学术表现（权重10%）",
-          "前1000所大学 - 全球最佳研究型大学年度排名",
-          "全球覆盖 - 每年评估超过2500所大学",
-          "历史数据 - 2003年至今的排名数据"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\P-education\\arwu.json"
-    },
-    {
-      "id": "british-museum-collection",
-      "name": {
-        "en": "British Museum Collection",
-        "zh": "大英博物馆馆藏"
-      },
-      "description": {
-        "en": "The British Museum Collection comprises nearly 5 million objects documenting two million years of human history and culture from across six continents. Collection online provides searchable access to over 2 million catalogued records with high-definition images, covering archaeology, art, cultural artifacts, and historical objects. The database represents over 40 years of cataloguing work and continues to expand daily.",
-        "zh": "大英博物馆馆藏包含近500万件文物，记录了来自六大洲的两百万年人类历史与文化。在线馆藏提供超过200万条可搜索的编目记录，配有高清图像，涵盖考古学、艺术、文化文物和历史物品。该数据库代表了40多年的编目工作，并持续每日扩展。"
-      },
-      "website": "https://www.britishmuseum.org",
-      "data_url": "https://www.britishmuseum.org/collection",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "cultural heritage",
-        "archaeology",
-        "art history",
-        "anthropology",
-        "ancient civilizations",
-        "museum studies"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "daily",
-      "tags": [
-        "cultural heritage",
-        "museum",
-        "archaeology",
-        "art history",
-        "artifacts",
-        "world history",
-        "anthropology",
-        "ethnography",
-        "ancient civilizations",
-        "British Museum"
-      ],
-      "data_content": {
-        "en": [
-          "Ancient Egypt and Sudan artifacts",
-          "Greek and Roman antiquities",
-          "Middle Eastern archaeology",
-          "Asian art and culture",
-          "African art and artifacts",
-          "Americas collections",
-          "European art and archaeology",
-          "Coins and medals",
-          "Prints and drawings",
-          "Ethnographic collections"
-        ],
-        "zh": [
-          "古埃及和苏丹文物",
-          "希腊和罗马古物",
-          "中东考古",
-          "亚洲艺术与文化",
-          "非洲艺术与文物",
-          "美洲馆藏",
-          "欧洲艺术与考古",
-          "硬币和奖章",
-          "版画和素描",
-          "民族学藏品"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\R-arts-entertainment\\british-museum-collection.json"
-    },
-    {
-      "id": "tennis-atp-wta-data",
-      "name": {
-        "en": "ATP/WTA Tennis Data",
-        "zh": "ATP/WTA网球数据"
-      },
-      "description": {
-        "en": "Comprehensive open-source databases containing historical tennis rankings, match results, and statistics for both men's (ATP) and women's (WTA) professional tennis. Includes match-level data from 1968 to present, player biographical information, and detailed match statistics. The datasets cover tour-level, challenger, futures, and qualifying matches with extensive historical coverage.",
-        "zh": "全面的开源数据库，包含男子（ATP）和女子（WTA）职业网球的历史排名、比赛结果和统计数据。包括从1968年至今的比赛级别数据、球员传记信息和详细的比赛统计。数据集涵盖巡回赛级别、挑战赛、未来赛和资格赛，具有广泛的历史覆盖范围。"
-      },
-      "website": "https://www.tennisabstract.com/",
-      "data_url": "https://github.com/JeffSackmann/tennis_atp",
-      "api_url": null,
-      "country": null,
-      "domains": [
-        "sports statistics",
-        "tennis",
-        "professional sports data",
-        "player performance analytics"
-      ],
-      "geographic_scope": "global",
-      "update_frequency": "irregular",
-      "tags": [
-        "sports",
-        "tennis",
-        "atp",
-        "wta",
-        "rankings",
-        "match-results",
-        "player-statistics",
-        "open-source",
-        "historical-data",
-        "professional-sports"
-      ],
-      "data_content": {
-        "en": [
-          "ATP Rankings (1973-present, with gaps in early years)",
-          "WTA Rankings (1980s-present)",
-          "Tour-level match results (singles and doubles)",
-          "Challenger and Futures match results",
-          "Qualifying match results",
-          "ITF-level match results for WTA",
-          "Player biographical data (name, birth date, country, handedness, height)",
-          "Match statistics (aces, double faults, serve percentages, break points, etc.)",
-          "Tournament information (name, level, surface, location)",
-          "Historical rankings by decade",
-          "Point-by-point data (separate repositories)",
-          "Match charting data (separate project)"
-        ],
-        "zh": [
-          "ATP排名（1973年至今，早期有缺失）",
-          "WTA排名（1980年代至今）",
-          "巡回赛级别比赛结果（单打和双打）",
-          "挑战赛和未来赛比赛结果",
-          "资格赛比赛结果",
-          "WTA的ITF级别比赛结果",
-          "球员传记数据（姓名、出生日期、国家、惯用手、身高）",
-          "比赛统计（ACE球、双误、发球百分比、破发点等）",
-          "锦标赛信息（名称、级别、场地类型、地点）",
-          "按十年划分的历史排名",
-          "逐分数据（独立存储库）",
-          "比赛图表数据（独立项目）"
-        ]
-      },
-      "authority_level": "research",
-      "has_api": false,
-      "file_path": "sectors\\R-arts-entertainment\\tennis-atp-wta-data.json"
+      "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
     },
     {
       "id": "tennis-abstract-atp-wta",
@@ -9907,7 +9907,7 @@
       },
       "authority_level": "research",
       "has_api": false,
-      "file_path": "sectors\\sports\\tennis-abstract-atp-wta.json"
+      "file_path": "sectors/sports/tennis-abstract-atp-wta.json"
     },
     {
       "id": "tennis-sackmann",
@@ -9977,7 +9977,7 @@
         ]
       },
       "has_api": false,
-      "file_path": "sectors\\sports\\tennis-sackmann.json"
+      "file_path": "sectors/sports/tennis-sackmann.json"
     }
   ]
 }
