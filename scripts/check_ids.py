@@ -20,12 +20,12 @@ def main() -> None:
             seen[id_] = path
 
     if errors:
-        print("❌ Duplicate IDs found:")
+        print("[ERROR] Duplicate IDs found:")
         for e in errors:
             print(e)
         sys.exit(1)
 
-    print(f"✅ All {len(seen)} IDs are unique.")
+    print(f"[OK] All {len(seen)} IDs are unique.")
 
 
 if __name__ == "__main__":
