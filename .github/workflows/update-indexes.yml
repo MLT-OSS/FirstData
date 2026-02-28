@@ -12,6 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
+      S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+      ENDPOINT_URL: ${{ secrets.ENDPOINT_URL }}
+      ENABLE_DELETE: ${{ secrets.ENABLE_DELETE }}
+      TARGET_PREFIX: firstdata/github/firstdata
     steps:
       - uses: actions/checkout@v4
 
@@ -39,3 +46,25 @@ jobs:
           git add firstdata/indexes/ assets/badges/
           git diff --cached --quiet || git commit -m "chore(indexes): auto-update indexes"
           git push
+
+      - name: Configure AWS CLI for COS (S3 compatible)
+        run: |
+          aws configure set aws_access_key_id "$S3_ACCESS_KEY"
+          aws configure set aws_secret_access_key "$S3_SECRET_KEY"
+          aws configure set default.region "us-east-1"
+          aws configure set default.s3.addressing_style virtual
+
+      - name: Sync firstdata folder to COS prefix
+        run: |
+          set -euo pipefail
+          [ -n "${S3_BUCKET_NAME:-}" ] || { echo "S3_BUCKET_NAME is empty"; exit 1; }
+          [ -n "${ENDPOINT_URL:-}" ] || { echo "ENDPOINT_URL is empty"; exit 1; }
+          [ -n "${TARGET_PREFIX:-}" ] || { echo "TARGET_PREFIX is empty"; exit 1; }
+          SYNC_ARGS=(--endpoint-url "$ENDPOINT_URL")
+
+          if [ "${ENABLE_DELETE:-false}" = "true" ]; then
+            echo "ENABLE_DELETE=true, enabling --delete for sync."
+            SYNC_ARGS+=(--delete)
+          fi
+
+          aws s3 sync ./firstdata/ "s3://$S3_BUCKET_NAME/$TARGET_PREFIX/" "${SYNC_ARGS[@]}"
