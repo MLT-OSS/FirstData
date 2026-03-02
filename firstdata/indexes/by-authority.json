@@ -1,27 +1,26 @@
 {
   "metadata": {
-    "generated_at": "2026-03-02T08:05:03.494144+00:00",
-    "total_sources": 156,
+    "generated_at": "2026-02-26T08:42:39.543315+00:00",
+    "total_sources": 134,
     "authority_counts": {
-      "research": 28,
-      "international": 44,
-      "government": 59,
-      "commercial": 10,
-      "market": 14,
-      "other": 1
+      "research": 29,
+      "international": 36,
+      "government": 51,
+      "commercial": 6,
+      "market": 12
     },
     "version": "2.0"
   },
   "by_authority_level": {
     "research": [
       {
-        "id": "1000-genomes",
+        "id": "1000-genomes-project",
         "name": {
           "en": "1000 Genomes Project",
           "zh": "千人基因组计划"
         },
         "authority_level": "research",
-        "data_url": "https://www.internationalgenome.org/",
+        "data_url": "https://www.internationalgenome.org/data-portal/",
         "has_api": false,
         "file_path": "academic/biology/1000-genomes.json",
         "geographic_scope": "global"
@@ -208,18 +207,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "cdiac",
-        "name": {
-          "en": "Carbon Dioxide Information Analysis Center",
-          "zh": "碳信息分析中心"
-        },
-        "authority_level": "research",
-        "data_url": "https://data.ess-dive.lbl.gov/portals/CDIAC",
-        "has_api": true,
-        "file_path": "international/environment/cdiac.json",
-        "geographic_scope": "global"
-      },
-      {
         "id": "bookscorpus",
         "name": {
           "en": "BooksCorpus",
@@ -350,6 +337,30 @@
         "has_api": false,
         "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-sackmann.json",
+        "geographic_scope": "global"
       }
     ],
     "international": [
@@ -438,18 +449,6 @@
         "geographic_scope": "global"
       },
       {
-        "id": "adb-data-library",
-        "name": {
-          "en": "Asian Development Bank Data Library",
-          "zh": "亚洲开发银行数据库"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.adb.org",
-        "has_api": true,
-        "file_path": "international/development/adb-data-library.json",
-        "geographic_scope": "regional"
-      },
-      {
         "id": "adb-data",
         "name": {
           "en": "Asian Development Bank Data Library",
@@ -460,30 +459,6 @@
         "data_url": "https://data.adb.org",
         "has_api": true,
         "file_path": "international/development/adb-data.json",
-        "geographic_scope": "regional"
-      },
-      {
-        "id": "adb-key-indicators",
-        "name": {
-          "en": "Asian Development Bank Key Indicators",
-          "zh": "亚洲开发银行关键指标"
-        },
-        "authority_level": "international",
-        "data_url": "https://kidb.adb.org",
-        "has_api": true,
-        "file_path": "international/development/adb-key-indicators.json",
-        "geographic_scope": "regional"
-      },
-      {
-        "id": "afdb-statistics",
-        "name": {
-          "en": "African Development Bank Statistics",
-          "zh": "非洲开发银行统计数据"
-        },
-        "authority_level": "international",
-        "data_url": "https://dataportal.opendataforafrica.org",
-        "has_api": true,
-        "file_path": "international/development/afdb-statistics.json",
         "geographic_scope": "regional"
       },
       {
@@ -546,42 +521,6 @@
         "has_api": true,
         "file_path": "international/earth-science/copernicus-data-space.json",
         "geographic_scope": "global"
-      },
-      {
-        "id": "adb-ado",
-        "name": {
-          "en": "Asian Development Outlook",
-          "zh": "亚洲开发展望"
-        },
-        "authority_level": "international",
-        "data_url": "https://www.adb.org/outlook",
-        "has_api": false,
-        "file_path": "international/economics/adb-ado.json",
-        "geographic_scope": "regional"
-      },
-      {
-        "id": "adb-data-library",
-        "name": {
-          "en": "ADB Data Library",
-          "zh": "亚洲开发银行数据库"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.adb.org",
-        "has_api": true,
-        "file_path": "international/economics/adb-data-library.json",
-        "geographic_scope": "regional"
-      },
-      {
-        "id": "adb-vietnam",
-        "name": {
-          "en": "Asian Development Bank - Vietnam Country Data",
-          "zh": "亚洲开发银行越南国别数据"
-        },
-        "authority_level": "international",
-        "data_url": "https://www.adb.org/countries/viet-nam/data",
-        "has_api": false,
-        "file_path": "international/economics/adb-vietnam.json",
-        "geographic_scope": "national"
       },
       {
         "id": "imf-data",
@@ -693,30 +632,6 @@
         "data_url": "https://trade.cites.org",
         "has_api": false,
         "file_path": "international/environment/cites-trade-database.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bis-reserves",
-        "name": {
-          "en": "BIS Central Bank Reserves Statistics",
-          "zh": "国际清算银行外汇储备统计"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.bis.org/topics/CBTA",
-        "has_api": true,
-        "file_path": "international/finance/bis-reserves.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bis-statistics",
-        "name": {
-          "en": "BIS Statistics - Bank for International Settlements",
-          "zh": "国际清算银行统计数据"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.bis.org",
-        "has_api": true,
-        "file_path": "international/finance/bis-statistics.json",
         "geographic_scope": "global"
       },
       {
@@ -917,18 +832,6 @@
         "geographic_scope": "global"
       },
       {
-        "id": "bis-statistics",
-        "name": {
-          "en": "BIS Statistics",
-          "zh": "国际清算银行统计数据"
-        },
-        "authority_level": "government",
-        "data_url": "https://data.bis.org/",
-        "has_api": true,
-        "file_path": "academic/economics/bis-statistics.json",
-        "geographic_scope": "global"
-      },
-      {
         "id": "clinicaltrials-gov",
         "name": {
           "en": "ClinicalTrials.gov",
@@ -1016,42 +919,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "cscse",
-        "name": {
-          "en": "Chinese Service Center for Scholarly Exchange",
-          "zh": "教育部留学服务中心"
-        },
-        "authority_level": "government",
-        "data_url": "https://zwfw.cscse.edu.cn",
-        "has_api": false,
-        "file_path": "china/education/cscse.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "cdgdc",
-        "name": {
-          "en": "China Academic Degrees & Graduate Education Development Center",
-          "zh": "教育部学位与研究生教育发展中心"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.chinadegrees.cn/",
-        "has_api": false,
-        "file_path": "china/education/higher_education/cdgdc.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-gaokao-chsi",
-        "name": {
-          "en": "China Postgraduate Admissions Information Network",
-          "zh": "中国研究生招生信息网"
-        },
-        "authority_level": "government",
-        "data_url": "https://yz.chsi.com.cn/sch/",
-        "has_api": false,
-        "file_path": "china/education/higher_education/china-gaokao-chsi.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -1061,30 +928,6 @@
         "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
         "has_api": false,
         "file_path": "china/education/higher_education/china-moe-higher-education.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "moe-china",
-        "name": {
-          "en": "Ministry of Education of the People's Republic of China",
-          "zh": "中华人民共和国教育部"
-        },
-        "authority_level": "government",
-        "data_url": "http://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/tongji/",
-        "has_api": false,
-        "file_path": "china/education/moe-china.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "moe-gaokao",
-        "name": {
-          "en": "Sunshine Gaokao Platform",
-          "zh": "阳光高考信息平台"
-        },
-        "authority_level": "government",
-        "data_url": "https://gaokao.chsi.com.cn/",
-        "has_api": false,
-        "file_path": "china/education/moe-gaokao.json",
         "geographic_scope": "national"
       },
       {
@@ -1428,7 +1271,7 @@
         "id": "us-bea",
         "name": {
           "en": "Bureau of Economic Analysis",
-          "zh": "美国经济分析局"
+          "zh": "经济分析局"
         },
         "authority_level": "government",
         "data_url": "https://www.bea.gov/data",
@@ -1440,7 +1283,7 @@
         "id": "us-bls",
         "name": {
           "en": "Bureau of Labor Statistics",
-          "zh": "美国劳工统计局"
+          "zh": "劳工统计局"
         },
         "authority_level": "government",
         "data_url": "https://www.bls.gov/data/",
@@ -1451,11 +1294,11 @@
       {
         "id": "us-cdc",
         "name": {
-          "en": "CDC Data & Statistics",
-          "zh": "美国疾控中心数据与统计"
+          "en": "Centers for Disease Control and Prevention",
+          "zh": "美国疾病控制与预防中心"
         },
         "authority_level": "government",
-        "data_url": "https://data.cdc.gov/",
+        "data_url": "https://wonder.cdc.gov/",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-cdc.json",
         "geographic_scope": "national"
@@ -1534,18 +1377,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "brazil-conab",
-        "name": {
-          "en": "National Supply Company (CONAB)",
-          "zh": "巴西国家商品供应公司"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe",
-        "has_api": false,
-        "file_path": "countries/south-america/brazil-conab.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "brazil-ibge",
         "name": {
           "en": "Brazilian Institute of Geography and Statistics",
@@ -1594,18 +1425,6 @@
         "geographic_scope": "regional"
       },
       {
-        "id": "bea-international-trade",
-        "name": {
-          "en": "BEA International Trade in Goods and Services",
-          "zh": "美国经济分析局国际贸易数据"
-        },
-        "authority_level": "government",
-        "data_url": "https://apps.bea.gov/iTable/index_ita.cfm",
-        "has_api": true,
-        "file_path": "international/trade/bea-international-trade.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "china-imt2030",
         "name": {
           "en": "IMT-2030 (6G) Promotion Group",
@@ -1633,54 +1452,6 @@
         "geographic_scope": "regional"
       },
       {
-        "id": "ceic-china-urbanization",
-        "name": {
-          "en": "CEIC Data - China Urbanization Rate",
-          "zh": "CEIC数据库 - 中国城镇化率"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/zh-hans/china/population-urbanization-rate",
-        "has_api": true,
-        "file_path": "china/national/ceic-china-urbanization.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "cnki-population-census",
-        "name": {
-          "en": "CNKI China Population Census Database",
-          "zh": "中国人口普查数据库"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://data.cnki.net/npcd",
-        "has_api": false,
-        "file_path": "china/national/cnki-population-census.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "ceic-global-database",
-        "name": {
-          "en": "CEIC Global Database",
-          "zh": "环亚经济数据库"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/en/products/global-economic-database",
-        "has_api": true,
-        "file_path": "international/economics/ceic-global-database.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "ceic-vietnam",
-        "name": {
-          "en": "CEIC Vietnam Economic Database",
-          "zh": "环亚经济数据库 - 越南经济数据专题"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/en/country/vietnam",
-        "has_api": true,
-        "file_path": "international/economics/ceic-vietnam.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "alpha-vantage",
         "name": {
           "en": "Alpha Vantage API",
@@ -1690,18 +1461,6 @@
         "data_url": "https://www.alphavantage.co/",
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/alpha-vantage.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bloomberg-terminal-ipo",
-        "name": {
-          "en": "Bloomberg Terminal - IPO Module",
-          "zh": "彭博终端 - IPO模块"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/bloomberg-terminal-ipo.json",
         "geographic_scope": "global"
       },
       {
@@ -1739,21 +1498,21 @@
         "has_api": true,
         "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "geographic_scope": "global"
       }
     ],
     "market": [
-      {
-        "id": "brazil-cecafe",
-        "name": {
-          "en": "Brazilian Coffee Exporters Council",
-          "zh": "巴西咖啡出口商协会"
-        },
-        "authority_level": "market",
-        "data_url": "https://www.cecafe.com.br/publicacoes/relatorio-de-exportacoes/",
-        "has_api": false,
-        "file_path": "countries/south-america/brazil-cecafe.json",
-        "geographic_scope": "national"
-      },
       {
         "id": "china-rare-earth-association",
         "name": {
@@ -1897,32 +1656,6 @@
         "has_api": false,
         "file_path": "sectors/J-information-communication/china-software-association.json",
         "geographic_scope": "national"
-      },
-      {
-        "id": "qs-world-university-rankings",
-        "name": {
-          "en": "QS World University Rankings",
-          "zh": "QS世界大学排名"
-        },
-        "authority_level": "market",
-        "data_url": "https://www.topuniversities.com/world-university-rankings",
-        "has_api": false,
-        "file_path": "sectors/P-education/qs-world-university-rankings.json",
-        "geographic_scope": "global"
-      }
-    ],
-    "other": [
-      {
-        "id": "akshare",
-        "name": {
-          "en": "AKShare - Open Source Financial Data Interface Library",
-          "zh": "AKShare - 开源财经数据接口库"
-        },
-        "authority_level": "other",
-        "data_url": "https://github.com/akfamily/akshare",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/akshare.json",
-        "geographic_scope": "global"
       }
     ]
   }

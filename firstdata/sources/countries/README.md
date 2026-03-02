@@ -2,90 +2,76 @@
 
 ## 概览 Overview
 
-本目录包含全球各国政府官方数据源的元数据。涵盖北美、欧洲、亚洲、大洋洲、南美洲、非洲等六大洲，42个国家和地区的200+个官方数据源。
+本目录包含全球各国政府官方数据源的元数据，涵盖北美、欧洲、亚洲、大洋洲、南美洲、非洲等六大洲。
 
-This directory contains metadata for official government data sources from countries around the world, covering 42 countries and regions across six continents with 200+ official data sources.
+This directory contains metadata for official government data sources from countries around the world, covering six continents.
 
-## 当前状态 Current Status
-
-**目录结构**: ✅ 已完成
-**JSON文件**: 27个数据源已创建
-**完成度**: 27/200+ (13.5%)
-
-```
-总目标: 200+ 个各国数据源
-当前完成: 27 个
-完成度: ██░░░░░░░░░░░░░░░░░░ 13.5%
-```
+> 📊 **最新统计**: 查看 [indexes/statistics.json](../../indexes/statistics.json) 获取实时数据源统计信息。
 
 ## 目录结构 Directory Structure
 
 ```
 sources/countries/
-├── north-america/              # 北美洲 (3国，目标30个)
-│   ├── usa/                   # 🇺🇸 美国 (目标15个，已完成8个)
-│   ├── canada/                # 🇨🇦 加拿大 (目标10个，已完成5个)
-│   └── mexico/                # 🇲🇽 墨西哥 (目标5个，已完成2个)
+├── north-america/              # 北美洲
+│   ├── usa/                   # 🇺🇸 美国
+│   ├── canada/                # 🇨🇦 加拿大
+│   └── mexico/                # 🇲🇽 墨西哥
 │
-├── europe/                     # 欧洲 (15国，目标50个，已完成2个)
-│   ├── eu/                    # 🇪🇺 欧盟 (目标5个)
-│   ├── uk/                    # 🇬🇧 英国 (目标5个，已完成2个)
-│   ├── germany/               # 🇩🇪 德国 (目标4个)
-│   ├── france/                # 🇫🇷 法国 (目标4个)
-│   ├── italy/                 # 🇮🇹 意大利 (目标3个)
-│   ├── spain/                 # 🇪🇸 西班牙 (目标3个)
-│   ├── netherlands/           # 🇳🇱 荷兰 (目标3个)
-│   ├── sweden/                # 🇸🇪 瑞典 (目标3个)
-│   ├── switzerland/           # 🇨🇭 瑞士 (目标3个)
-│   ├── norway/                # 🇳🇴 挪威 (目标2个)
-│   ├── denmark/               # 🇩🇰 丹麦 (目标2个)
-│   ├── finland/               # 🇫🇮 芬兰 (目标2个)
-│   ├── poland/                # 🇵🇱 波兰 (目标2个)
-│   ├── russia/                # 🇷🇺 俄罗斯 (目标2个)
-│   └── turkey/                # 🇹🇷 土耳其 (目标2个)
+├── europe/                     # 欧洲
+│   ├── eu/                    # 🇪🇺 欧盟
+│   ├── uk/                    # 🇬🇧 英国
+│   ├── germany/               # 🇩🇪 德国
+│   ├── france/                # 🇫🇷 法国
+│   ├── italy/                 # 🇮🇹 意大利
+│   ├── spain/                 # 🇪🇸 西班牙
+│   ├── netherlands/           # 🇳🇱 荷兰
+│   ├── sweden/                # 🇸🇪 瑞典
+│   ├── switzerland/           # 🇨🇭 瑞士
+│   ├── norway/                # 🇳🇴 挪威
+│   ├── denmark/               # 🇩🇰 丹麦
+│   ├── finland/               # 🇫🇮 芬兰
+│   ├── poland/                # 🇵🇱 波兰
+│   ├── russia/                # 🇷🇺 俄罗斯
+│   └── turkey/                # 🇹🇷 土耳其
 │
-├── asia/                       # 亚洲 (14国，目标50个，已完成3个)
-│   ├── japan/                 # 🇯🇵 日本 (目标8个，已完成1个)
-│   ├── korea/                 # 🇰🇷 韩国 (目标5个，已完成1个)
-│   ├── india/                 # 🇮🇳 印度 (目标5个，已完成1个)
-│   ├── singapore/             # 🇸🇬 新加坡 (目标3个)
-│   ├── malaysia/              # 🇲🇾 马来西亚 (目标2个)
-│   ├── thailand/              # 🇹🇭 泰国 (目标2个)
-│   ├── indonesia/             # 🇮🇩 印度尼西亚 (目标2个)
-│   ├── philippines/           # 🇵🇭 菲律宾 (目标2个)
-│   ├── vietnam/               # 🇻🇳 越南 (目标2个)
-│   ├── pakistan/              # 🇵🇰 巴基斯坦 (目标2个)
-│   ├── bangladesh/            # 🇧🇩 孟加拉国 (目标2个)
-│   ├── israel/                # 🇮🇱 以色列 (目标2个)
-│   ├── saudi-arabia/          # 🇸🇦 沙特阿拉伯 (目标2个)
-│   └── uae/                   # 🇦🇪 阿联酋 (目标2个)
+├── asia/                       # 亚洲
+│   ├── japan/                 # 🇯🇵 日本
+│   ├── korea/                 # 🇰🇷 韩国
+│   ├── india/                 # 🇮🇳 印度
+│   ├── singapore/             # 🇸🇬 新加坡
+│   ├── malaysia/              # 🇲🇾 马来西亚
+│   ├── thailand/              # 🇹🇭 泰国
+│   ├── indonesia/             # 🇮🇩 印度尼西亚
+│   ├── philippines/           # 🇵🇭 菲律宾
+│   ├── vietnam/               # 🇻🇳 越南
+│   ├── pakistan/              # 🇵🇰 巴基斯坦
+│   ├── bangladesh/            # 🇧🇩 孟加拉国
+│   ├── israel/                # 🇮🇱 以色列
+│   ├── saudi-arabia/          # 🇸🇦 沙特阿拉伯
+│   └── uae/                   # 🇦🇪 阿联酋
 │
-├── oceania/                    # 大洋洲 (2国，目标10个，已完成3个)
-│   ├── australia/             # 🇦🇺 澳大利亚 (目标6个，已完成3个)
-│   └── new-zealand/           # 🇳🇿 新西兰 (目标4个)
+├── oceania/                    # 大洋洲
+│   ├── australia/             # 🇦🇺 澳大利亚
+│   └── new-zealand/           # 🇳🇿 新西兰
 │
-├── south-america/              # 南美洲 (4国，目标15个，已完成1个)
-│   ├── brazil/                # 🇧🇷 巴西 (目标5个，已完成1个)
-│   ├── argentina/             # 🇦🇷 阿根廷 (目标2个)
-│   ├── chile/                 # 🇨🇱 智利 (目标2个)
-│   └── colombia/              # 🇨🇴 哥伦比亚 (目标2个)
+├── south-america/              # 南美洲
+│   ├── brazil/                # 🇧🇷 巴西
+│   ├── argentina/             # 🇦🇷 阿根廷
+│   ├── chile/                 # 🇨🇱 智利
+│   └── colombia/              # 🇨🇴 哥伦比亚
 │
-└── africa/                     # 非洲 (4国，目标15个)
-    ├── south-africa/          # 🇿🇦 南非 (目标4个)
-    ├── nigeria/               # 🇳🇬 尼日利亚 (目标4个)
-    ├── egypt/                 # 🇪🇬 埃及 (目标4个)
-    └── kenya/                 # 🇰🇪 肯尼亚 (目标3个)
-
-总计: 42个国家和地区，目标200+个数据源，已完成24个
+└── africa/                     # 非洲
+    ├── south-africa/          # 🇿🇦 南非
+    ├── nigeria/               # 🇳🇬 尼日利亚
+    ├── egypt/                 # 🇪🇬 埃及
+    └── kenya/                 # 🇰🇪 肯尼亚
 ```
 
 ## 已收录数据源 Current Data Sources
 
 ### 🌎 北美洲 North America
 
-**已完成**: 11/30 (37%)
-
-#### 🇺🇸 美国 United States (6/15)
+#### 🇺🇸 美国 United States
 
 1. **US Census Bureau** (`census-bureau`) ⭐💎
    - 权威等级：government
@@ -143,7 +129,7 @@ sources/countries/
    - 访问类型：开放
    - **文件**: [eia.json](north-america/usa/eia.json)
 
-#### 🇨🇦 加拿大 Canada (4/10)
+#### 🇨🇦 加拿大 Canada
 
 1. **Statistics Canada** (`statcan`) ⭐💎
    - 权威等级：government
@@ -180,7 +166,7 @@ sources/countries/
    - 访问类型：开放
    - **文件**: [aafc.json](north-america/canada/aafc.json)
 
-#### 🇲🇽 墨西哥 Mexico (1/5)
+#### 🇲🇽 墨西哥 Mexico
 
 1. **Bank of Mexico Economic Information System** (`banxico`) ⭐💎
    - 权威等级：government
@@ -200,9 +186,7 @@ sources/countries/
 
 ### 🌍 欧洲 Europe
 
-**已完成**: 2/50 (4%)
-
-#### 🇬🇧 英国 United Kingdom (2/5)
+#### 🇬🇧 英国 United Kingdom
 
 1. **Bank of England Statistical Interactive Database** (`bank-of-england`) ⭐💎
    - 权威等级：government
@@ -222,9 +206,7 @@ sources/countries/
 
 ### 🌏 亚洲 Asia (除中国)
 
-**已完成**: 3/50 (6%)
-
-#### 🇯🇵 日本 Japan (1/8)
+#### 🇯🇵 日本 Japan
 
 1. **Bank of Japan Statistics** (`boj-statistics`) ⭐💎
    - 权威等级：government
@@ -233,7 +215,7 @@ sources/countries/
    - 访问类型：开放
    - **文件**: [boj-statistics.json](asia/japan/boj-statistics.json)
 
-#### 🇰🇷 韩国 South Korea (1/5)
+#### 🇰🇷 韩国 South Korea
 
 1. **Bank of Korea** (`korea-bok`) ⭐💎
    - 权威等级：government
@@ -242,7 +224,7 @@ sources/countries/
    - 访问类型：开放
    - **文件**: [korea-bok.json](asia/korea/korea-bok.json)
 
-#### 🇮🇳 印度 India (1/5)
+#### 🇮🇳 印度 India
 
 1. **Directorate General of Commercial Intelligence and Statistics** (`india-dgcis`) ⭐💎
    - 权威等级：government
@@ -255,9 +237,7 @@ sources/countries/
 
 ### 🌏 大洋洲 Oceania
 
-**已完成**: 3/10 (30%)
-
-#### 🇦🇺 澳大利亚 Australia (3/6)
+#### 🇦🇺 澳大利亚 Australia
 
 1. **Australian Bureau of Statistics** (`abs`) ⭐💎
    - 权威等级：government
@@ -284,9 +264,7 @@ sources/countries/
 
 ### 🌎 南美洲 South America
 
-**已完成**: 2/15 (13%)
-
-#### 🇧🇷 巴西 Brazil (2/5)
+#### 🇧🇷 巴西 Brazil
 
 1. **Central Bank of Brazil** (`brazil-bcb`) ⭐💎
    - 权威等级：government
@@ -302,45 +280,13 @@ sources/countries/
    - 访问类型：开放
    - **文件**: [brazil-ibge.json](south-america/brazil-ibge.json)
 
-3. **Brazilian Coffee Exporters Council** (`brazil-cecafe`)
-   - 权威等级：market
-   - 类型：咖啡出口统计、贸易数据、市场分析
-   - 数据格式：PDF, Excel
-   - 访问类型：需注册
-   - 涵盖：巴西咖啡出口月度统计，包括出口量、目的地国家、外汇收入、平均价格
-   - 特色：按咖啡类型（阿拉比卡、罗布斯塔/科尼隆、速溶、烘焙）分类、港口数据、特色咖啡
-   - **文件**: [brazil-cecafe.json](south-america/brazil-cecafe.json)
-
-4. **National Supply Company (CONAB)** (`brazil-conab`) ⭐💎
-   - 权威等级：government
-   - 类型：农业生产、粮食供应、市场信息
-   - 数据格式：PDF, Excel
-   - 访问类型：需注册
-   - 涵盖：咖啡产量预测、粮食作物收成、种植面积、生产力估算
-   - 特色：季度咖啡收成公报、按州和品种的产量数据、仓储设施信息、农产品定价
-   - **文件**: [brazil-conab.json](south-america/brazil-conab.json)
-
 ---
 
 ### 🌍 非洲 Africa
 
-**已完成**: 0/15 (0%)
-
 *待添加*
 
 ---
-
-## 区域统计 Regional Statistics
-
-| 区域 | 计划国家数 | 计划数据源 | 已完成 | 进度 |
-|------|----------|-----------|--------|------|
-| 北美洲 | 3 | 30 | 11 | 37% |
-| 欧洲 | 15 | 50 | 2 | 4% |
-| 亚洲（除中国） | 14 | 50 | 3 | 6% |
-| 大洋洲 | 2 | 10 | 3 | 30% |
-| 南美洲 | 4 | 15 | 1 | 7% |
-| 非洲 | 4 | 15 | 0 | 0% |
-| **总计** | **42** | **200+** | **24** | **12%** |
 
 ## 分类规则 Classification Rules
 

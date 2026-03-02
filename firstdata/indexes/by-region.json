@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-02T08:05:03.494144+00:00",
-    "total_regions": 11,
-    "total_sources": 156,
+    "generated_at": "2026-02-26T08:42:39.543315+00:00",
+    "total_regions": 10,
+    "total_sources": 134,
     "version": "2.0"
   },
   "regions": {
@@ -56,30 +56,6 @@
         "data_url": "https://dadosabertos.bcb.gov.br",
         "has_api": true,
         "file_path": "countries/south-america/brazil/brazil-bcb.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "brazil-cecafe",
-        "name": {
-          "en": "Brazilian Coffee Exporters Council",
-          "zh": "巴西咖啡出口商协会"
-        },
-        "authority_level": "market",
-        "data_url": "https://www.cecafe.com.br/publicacoes/relatorio-de-exportacoes/",
-        "has_api": false,
-        "file_path": "countries/south-america/brazil-cecafe.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "brazil-conab",
-        "name": {
-          "en": "National Supply Company (CONAB)",
-          "zh": "巴西国家商品供应公司"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe",
-        "has_api": false,
-        "file_path": "countries/south-america/brazil-conab.json",
         "geographic_scope": "national"
       },
       {
@@ -215,42 +191,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "cscse",
-        "name": {
-          "en": "Chinese Service Center for Scholarly Exchange",
-          "zh": "教育部留学服务中心"
-        },
-        "authority_level": "government",
-        "data_url": "https://zwfw.cscse.edu.cn",
-        "has_api": false,
-        "file_path": "china/education/cscse.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "cdgdc",
-        "name": {
-          "en": "China Academic Degrees & Graduate Education Development Center",
-          "zh": "教育部学位与研究生教育发展中心"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.chinadegrees.cn/",
-        "has_api": false,
-        "file_path": "china/education/higher_education/cdgdc.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-gaokao-chsi",
-        "name": {
-          "en": "China Postgraduate Admissions Information Network",
-          "zh": "中国研究生招生信息网"
-        },
-        "authority_level": "government",
-        "data_url": "https://yz.chsi.com.cn/sch/",
-        "has_api": false,
-        "file_path": "china/education/higher_education/china-gaokao-chsi.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -260,30 +200,6 @@
         "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
         "has_api": false,
         "file_path": "china/education/higher_education/china-moe-higher-education.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "moe-china",
-        "name": {
-          "en": "Ministry of Education of the People's Republic of China",
-          "zh": "中华人民共和国教育部"
-        },
-        "authority_level": "government",
-        "data_url": "http://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/tongji/",
-        "has_api": false,
-        "file_path": "china/education/moe-china.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "moe-gaokao",
-        "name": {
-          "en": "Sunshine Gaokao Platform",
-          "zh": "阳光高考信息平台"
-        },
-        "authority_level": "government",
-        "data_url": "https://gaokao.chsi.com.cn/",
-        "has_api": false,
-        "file_path": "china/education/moe-gaokao.json",
         "geographic_scope": "national"
       },
       {
@@ -323,30 +239,6 @@
         "data_url": "https://www.csrc.gov.cn/csrc/c100103/common_list.shtml",
         "has_api": false,
         "file_path": "china/finance/securities/csrc.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "ceic-china-urbanization",
-        "name": {
-          "en": "CEIC Data - China Urbanization Rate",
-          "zh": "CEIC数据库 - 中国城镇化率"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/zh-hans/china/population-urbanization-rate",
-        "has_api": true,
-        "file_path": "china/national/ceic-china-urbanization.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "cnki-population-census",
-        "name": {
-          "en": "CNKI China Population Census Database",
-          "zh": "中国人口普查数据库"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://data.cnki.net/npcd",
-        "has_api": false,
-        "file_path": "china/national/cnki-population-census.json",
         "geographic_scope": "national"
       },
       {
@@ -778,7 +670,7 @@
         "id": "us-bea",
         "name": {
           "en": "Bureau of Economic Analysis",
-          "zh": "美国经济分析局"
+          "zh": "经济分析局"
         },
         "authority_level": "government",
         "data_url": "https://www.bea.gov/data",
@@ -790,7 +682,7 @@
         "id": "us-bls",
         "name": {
           "en": "Bureau of Labor Statistics",
-          "zh": "美国劳工统计局"
+          "zh": "劳工统计局"
         },
         "authority_level": "government",
         "data_url": "https://www.bls.gov/data/",
@@ -801,11 +693,11 @@
       {
         "id": "us-cdc",
         "name": {
-          "en": "CDC Data & Statistics",
-          "zh": "美国疾控中心数据与统计"
+          "en": "Centers for Disease Control and Prevention",
+          "zh": "美国疾病控制与预防中心"
         },
         "authority_level": "government",
-        "data_url": "https://data.cdc.gov/",
+        "data_url": "https://wonder.cdc.gov/",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-cdc.json",
         "geographic_scope": "national"
@@ -823,18 +715,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "bea-international-trade",
-        "name": {
-          "en": "BEA International Trade in Goods and Services",
-          "zh": "美国经济分析局国际贸易数据"
-        },
-        "authority_level": "government",
-        "data_url": "https://apps.bea.gov/iTable/index_ita.cfm",
-        "has_api": true,
-        "file_path": "international/trade/bea-international-trade.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "crsp",
         "name": {
           "en": "CRSP - Center for Research in Security Prices",
@@ -845,32 +725,18 @@
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/crsp.json",
         "geographic_scope": "national"
-      }
-    ],
-    "VN": [
-      {
-        "id": "adb-vietnam",
-        "name": {
-          "en": "Asian Development Bank - Vietnam Country Data",
-          "zh": "亚洲开发银行越南国别数据"
-        },
-        "authority_level": "international",
-        "data_url": "https://www.adb.org/countries/viet-nam/data",
-        "has_api": false,
-        "file_path": "international/economics/adb-vietnam.json",
-        "geographic_scope": "national"
       },
       {
-        "id": "ceic-vietnam",
+        "id": "aws-open-data-registry",
         "name": {
-          "en": "CEIC Vietnam Economic Database",
-          "zh": "环亚经济数据库 - 越南经济数据专题"
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
         },
         "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/en/country/vietnam",
-        "has_api": true,
-        "file_path": "international/economics/ceic-vietnam.json",
-        "geographic_scope": "national"
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "geographic_scope": "global"
       }
     ]
   }

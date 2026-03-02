@@ -1,55 +1,14 @@
 # 行业领域 | Sector Data Sources
 
 **分类标准**: 国际标准产业分类 ISIC Rev.4 (UN)
-**总数**: 100+个数据源
-**已完成**: 31个
-**进度**: 31%
 
----
-
-## 📊 总体进度
-
-```
-总目标: 100+ 个行业领域数据源
-当前完成: 31 个
-完成度: ██████░░░░░░░░░░░░░ 31%
-```
-
-**目录结构**: ✅ 已完成
-**数据填充**: 进行中
-
----
-
-## 🎯 ISIC分类进度概览
-
-| ISIC代码 | 产业门类 | 计划 | 完成 | 进度 | 说明 |
-|---------|---------|------|------|------|------|
-| A | 农、林、牧、渔业 | 4 | 1 | 25% | Agriculture, Forestry and Fishing |
-| B | 采矿业 | 4 | 1 | 25% | Mining and Quarrying |
-| C | 制造业 | 20 | 9 | 45% | Manufacturing |
-| D | 电力、燃气、蒸汽和空调供应业 | 4 | 1 | 25% | Electricity, Gas, Steam and Air Conditioning Supply |
-| E | 水、污水处理、废弃物管理 | 3 | 0 | 0% | Water Supply; Sewerage, Waste Management |
-| F | 建筑业 | 4 | 0 | 0% | Construction |
-| G | 批发和零售业 | 6 | 0 | 0% | Wholesale and Retail Trade |
-| H | 交通运输和仓储业 | 5 | 0 | 0% | Transportation and Storage |
-| I | 住宿和餐饮业 | 4 | 0 | 0% | Accommodation and Food Service |
-| J | 信息和通信业 | 25 | 7 | 28% | Information and Communication |
-| K | 金融和保险业 | 6 | 4 | 67% | Financial and Insurance Activities |
-| L | 房地产业 | 5 | 0 | 0% | Real Estate Activities |
-| M | 专业、科学和技术活动 | 8 | 3 | 38% | Professional, Scientific and Technical Activities |
-| N | 行政和支持服务活动 | 4 | 0 | 0% | Administrative and Support Service Activities |
-| O | 公共管理和国防 | 3 | 0 | 0% | Public Administration and Defence |
-| P | 教育 | 3 | 1 | 33% | Education |
-| Q | 卫生和社会工作 | 5 | 0 | 0% | Human Health and Social Work Activities |
-| R | 艺术、娱乐和休闲 | 10 | 2 | 20% | Arts, Entertainment and Recreation |
-| S | 其他服务活动 | 3 | 0 | 0% | Other Service Activities |
-| **总计** | - | **126** | **29** | **23%** | - |
+> 📊 **最新统计**: 查看 [indexes/statistics.json](../../indexes/statistics.json) 获取实时数据源统计信息。
 
 ---
 
 ## 📚 已收录数据源
 
-### A - 农、林、牧、渔业 Agriculture, Forestry and Fishing (1/4)
+### A - 农、林、牧、渔业 Agriculture, Forestry and Fishing
 
 #### Agricultural Market Information System (AMIS) - 农业市场信息系统
 - **文件**: [amis.json](A-agriculture/amis.json) ⭐💎
@@ -63,7 +22,7 @@
 
 ---
 
-### B - 采矿业 Mining and Quarrying (1/4)
+### B - 采矿业 Mining and Quarrying
 
 #### 稀土 Rare Earth
 
@@ -77,7 +36,7 @@
 
 ---
 
-### C - 制造业 Manufacturing (10/20)
+### C - 制造业 Manufacturing
 
 #### 增材制造 Additive Manufacturing
 
@@ -165,7 +124,7 @@
 
 ---
 
-### D - 电力、燃气、蒸汽和空调供应业 Electricity, Gas, Steam and Air Conditioning Supply (1/4)
+### D - 电力、燃气、蒸汽和空调供应业 Electricity, Gas, Steam and Air Conditioning Supply
 
 #### Statistical Review of World Energy - 世界能源统计年鉴
 - **文件**: [bp-statistical-review.json](D-energy/bp-statistical-review.json) ⭐💎
@@ -179,7 +138,18 @@
 
 ---
 
-### J - 信息和通信业 Information and Communication (8/25)
+### J - 信息和通信业 Information and Communication
+
+#### 云计算与开放数据
+
+##### Registry of Open Data on AWS - AWS开放数据注册表
+- **文件**: [aws-open-data-registry.json](J-information-communication/computer_science_ai/aws-open-data-registry.json)
+- **权威等级**: commercial
+- **数据格式**: Multiple (cloud-optimized datasets)
+- **访问类型**: 需注册
+- **涵盖**: 超过650个数据集，涵盖机器学习、天文学、气候科学、经济学、基因组学、地理空间科学、生命科学、可持续发展等领域，托管在AWS云基础设施上
+- **特色**: AWS开放数据赞助计划承担存储成本，使全球研究人员、开发人员和数据科学家可以免费访问高价值云优化数据集，支持使用Amazon EC2、Athena、Lambda等服务进行分析
+- **更新频率**: 不定期
 
 #### 6G与通信技术
 
@@ -253,7 +223,7 @@
 
 ---
 
-### K - 金融和保险业 Financial and Insurance Activities (4/6)
+### K - 金融和保险业 Financial and Insurance Activities
 
 #### CRSP - Center for Research in Security Prices - 证券价格研究中心
 - **文件**: [crsp.json](K-finance-insurance/crsp.json) ⭐💎
@@ -289,29 +259,9 @@
 - **访问类型**: 免费+付费API
 - **特色**: 实时和历史股票数据、外汇汇率、技术指标、基本面数据
 
-#### AKShare - Open Source Financial Data Interface Library - AKShare - 开源财经数据接口库
-- **文件**: [akshare.json](K-finance-insurance/akshare.json)
-- **权威等级**: other
-- **类型**: 开源项目 | Python财经数据接口库
-- **数据格式**: Python API
-- **访问类型**: 开放
-- **涵盖**: 全球金融市场数据，包括股票、期货、期权、基金、外汇、债券、指数、加密货币
-- **特色**: 优雅简洁的Python接口库，聚合东方财富、新浪财经等权威财经网站数据，支持学术研究和量化分析，"代码更少，数据更多"
-- **更新频率**: 每日
-
-#### Bloomberg Terminal - IPO Module - 彭博终端 - IPO模块
-- **文件**: [bloomberg-terminal-ipo.json](K-finance-insurance/bloomberg-terminal-ipo.json)
-- **权威等级**: commercial
-- **类型**: 彭博社 | IPO和股票发行数据
-- **数据格式**: Proprietary (Bloomberg Terminal)
-- **访问类型**: 开放
-- **涵盖**: 全球IPO交易概览、初始定价、历史交易数据、交易结构、上市后表现
-- **特色**: 全球主要交易所IPO数据（NYSE、NASDAQ、LSE、HKEX等）、可定制筛选器、承销商排行榜、Excel导出功能
-- **更新频率**: 实时
-
 ---
 
-### M - 专业、科学和技术活动 Professional, Scientific and Technical Activities (3/8)
+### M - 专业、科学和技术活动 Professional, Scientific and Technical Activities
 
 #### 仪器仪表
 
@@ -343,7 +293,7 @@
 
 ---
 
-### P - 教育 Education (1/3)
+### P - 教育 Education
 
 #### Academic Ranking of World Universities (ARWU) - 世界大学学术排名
 - **文件**: [arwu.json](P-education/arwu.json) ⭐💎
@@ -357,7 +307,7 @@
 
 ---
 
-### R - 艺术、娱乐和休闲 Arts, Entertainment and Recreation (2/10)
+### R - 艺术、娱乐和休闲 Arts, Entertainment and Recreation
 
 #### 体育运动 Sports
 
@@ -370,6 +320,24 @@
 - **涵盖**: 全球职业网球，1968-2024年
 - **更新频率**: 不定期
 - **特色**: ATP/WTA排名、比赛结果、球员数据、巡回赛、挑战赛、资格赛数据
+
+##### Tennis Abstract - ATP/WTA Data - Tennis Abstract - ATP/WTA网球数据
+- **文件**: [tennis-abstract-atp-wta.json](R-arts-entertainment/sports/tennis-abstract-atp-wta.json) ⭐
+- **权威等级**: research
+- **数据格式**: CSV
+- **访问类型**: 需注册
+- **涵盖**: 公开赛时代（1968年至今）所有ATP和WTA巡回赛级别单打比赛，包含详细的比赛信息、球员传记数据、排名和比赛内统计数据
+- **特色**: 由Jeff Sackmann维护的全面开源数据库，包括比赛结果、每周排名、球员统计、比赛内统计（从1991年起）、比赛图表项目逐分数据，根据CC BY-NC-SA 4.0许可证授权
+- **更新频率**: 每周
+
+##### Tennis Abstract - ATP/WTA Match Data - 网球数据摘要 - ATP/WTA 比赛数据
+- **文件**: [tennis-sackmann.json](R-arts-entertainment/sports/tennis-sackmann.json) ⭐
+- **权威等级**: research
+- **数据格式**: CSV
+- **访问类型**: 需注册
+- **涵盖**: 1968年至2024年的ATP和WTA历史排名、比赛结果、球员传记数据和详细比赛统计，涵盖巡回赛级别赛事、资格赛、挑战赛、期货赛和ITF锦标赛
+- **特色**: 由Jeff Sackmann（Tennis Abstract）维护的综合性开源职业网球统计数据库，包含球员传记、历史排名、比赛结果、详细统计、部分大满贯逐分数据和比赛图表项目
+- **更新频率**: 不定期
 
 #### 博物馆与文化 Museums & Cultural Heritage
 
@@ -414,38 +382,36 @@
 
 ```
 sectors/
-├── A-agriculture/              # A - 农、林、牧、渔业 | Agriculture, Forestry and Fishing (1个)
-├── B-mining/                   # B - 采矿业 | Mining and Quarrying (0个)
-├── C-manufacturing/            # C - 制造业 | Manufacturing (0个)
-├── D-energy/                   # D - 电力、燃气、蒸汽和空调供应业 | Electricity, Gas, Steam (1个)
-├── E-water-waste/              # E - 水、污水处理、废弃物管理 | Water Supply; Sewerage, Waste (0个)
-├── F-construction/             # F - 建筑业 | Construction (0个)
-├── G-trade/                    # G - 批发和零售业 | Wholesale and Retail Trade (0个)
-├── H-transportation/           # H - 交通运输和仓储业 | Transportation and Storage (0个)
-├── I-hospitality/              # I - 住宿和餐饮业 | Accommodation and Food Service (0个)
-├── J-information/              # J - 信息和通信业 | Information and Communication (5个)
+├── A-agriculture/              # A - 农、林、牧、渔业 | Agriculture, Forestry and Fishing
+├── B-mining/                   # B - 采矿业 | Mining and Quarrying
+├── C-manufacturing/            # C - 制造业 | Manufacturing
+├── D-energy/                   # D - 电力、燃气、蒸汽和空调供应业 | Electricity, Gas, Steam
+├── E-water-waste/              # E - 水、污水处理、废弃物管理 | Water Supply; Sewerage, Waste
+├── F-construction/             # F - 建筑业 | Construction
+├── G-trade/                    # G - 批发和零售业 | Wholesale and Retail Trade
+├── H-transportation/           # H - 交通运输和仓储业 | Transportation and Storage
+├── I-hospitality/              # I - 住宿和餐饮业 | Accommodation and Food Service
+├── J-information/              # J - 信息和通信业 | Information and Communication
 │   ├── computer-vision/        #   计算机视觉数据集
 │   ├── nlp/                    #   自然语言处理
 │   ├── ai-ml-platforms/        #   AI/ML平台
 │   ├── social-media/           #   社交媒体与网络
 │   └── telecom/                #   电信行业
-├── K-finance/                  # K - 金融和保险业 | Financial and Insurance Activities (4个)
-├── L-real-estate/              # L - 房地产业 | Real Estate Activities (0个)
-├── M-professional/             # M - 专业、科学和技术活动 | Professional, Scientific (2个)
+├── K-finance/                  # K - 金融和保险业 | Financial and Insurance Activities
+├── L-real-estate/              # L - 房地产业 | Real Estate Activities
+├── M-professional/             # M - 专业、科学和技术活动 | Professional, Scientific
 │   ├── patents/                #   专利与知识产权
 │   └── consulting-research/    #   咨询与市场研究
-├── N-administrative/           # N - 行政和支持服务活动 | Administrative and Support Service (0个)
-├── O-public-admin/             # O - 公共管理和国防 | Public Administration and Defence (0个)
-├── P-education/                # P - 教育 | Education (1个)
-├── Q-health/                   # Q - 卫生和社会工作 | Human Health and Social Work (1个)
-├── R-arts-recreation/          # R - 艺术、娱乐和休闲 | Arts, Entertainment and Recreation (2个)
+├── N-administrative/           # N - 行政和支持服务活动 | Administrative and Support Service
+├── O-public-admin/             # O - 公共管理和国防 | Public Administration and Defence
+├── P-education/                # P - 教育 | Education
+├── Q-health/                   # Q - 卫生和社会工作 | Human Health and Social Work
+├── R-arts-recreation/          # R - 艺术、娱乐和休闲 | Arts, Entertainment and Recreation
 │   ├── sports/                 #   体育运动
 │   └── museums-culture/        #   博物馆与文化遗产
-├── S-other-services/           # S - 其他服务活动 | Other Service Activities (0个)
+├── S-other-services/           # S - 其他服务活动 | Other Service Activities
 └── README.md
 ```
-
-**总计**: 16个数据源
 
 **说明**:
 - 目录结构按照 ISIC Rev.4 分类标准组织
