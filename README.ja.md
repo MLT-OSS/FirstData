@@ -7,8 +7,8 @@
 **世界最も包括的・権威的・構造化されたオープンデータソースリポジトリ**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Sources](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/sources-count.json)](./firstdata/sources/README.md)
-[![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/progress.json)](./firstdata/indexes/statistics.json)
+[![Data Sources](https://img.shields.io/badge/データソース-150%2F1000+-blue.svg)](./firstdata/sources/README.md)
+[![Progress](https://img.shields.io/badge/進捗-13%25-yellow.svg)](./firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
 
