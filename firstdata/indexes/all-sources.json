@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-02T07:39:18.857130+00:00",
-    "total_sources": 150,
+    "generated_at": "2026-03-02T08:05:03.494144+00:00",
+    "total_sources": 156,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2145,6 +2145,206 @@
       "file_path": "china/economy/trade/mofcom.json"
     },
     {
+      "id": "cscse",
+      "name": {
+        "en": "Chinese Service Center for Scholarly Exchange",
+        "zh": "教育部留学服务中心"
+      },
+      "description": {
+        "en": "CSCSE is a directly affiliated institution under the Ministry of Education of China, primarily engaged in services related to studying abroad, returning from overseas studies, and international educational exchanges. It provides comprehensive services including overseas academic credential evaluation, international cooperation programs, and study abroad consulting.",
+        "zh": "教育部留学服务中心是教育部直属事业单位,主要从事出国留学、留学回国和来华留学以及教育国际交流与合作的有关服务。提供国(境)外学历学位认证、国际合作项目、留学咨询等综合性服务。"
+      },
+      "website": "https://portal.cscse.edu.cn/",
+      "data_url": "https://zwfw.cscse.edu.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "education",
+        "international-exchange",
+        "credential-verification"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "留学服务",
+        "学历认证",
+        "credential-verification",
+        "overseas-education",
+        "study-abroad",
+        "留学回国",
+        "国际教育",
+        "international-education",
+        "CSCSE",
+        "教育部",
+        "Ministry of Education"
+      ],
+      "data_content": {
+        "en": [
+          "Overseas academic credential and degree verification for international students",
+          "Database of recognized foreign universities and institutions",
+          "International cooperation program information (e.g., CSCSE-SQA programs)",
+          "Study abroad service records and consultation data",
+          "Returning scholar services and employment information",
+          "Credential verification dishonest behavior records"
+        ],
+        "zh": [
+          "国(境)外学历学位认证服务数据",
+          "认证院校数据库(覆盖全球各国高等教育机构)",
+          "国际合作项目信息(如中英SQA项目等)",
+          "留学服务记录和咨询数据",
+          "留学回国人员服务与就业信息",
+          "学历认证失信行为公示记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/cscse.json"
+    },
+    {
+      "id": "cdgdc",
+      "name": {
+        "en": "China Academic Degrees & Graduate Education Development Center",
+        "zh": "教育部学位与研究生教育发展中心"
+      },
+      "description": {
+        "en": "The China Academic Degrees & Graduate Education Development Center (CDGDC) is a public institution directly under the Ministry of Education of China. It is responsible for degree and discipline evaluation, quality monitoring of graduate education, thesis sampling inspection, and professional degree evaluation. The center provides comprehensive information services for China's degree and graduate education system.",
+        "zh": "教育部学位与研究生教育发展中心是教育部直属事业单位,负责学位与学科评估、研究生教育质量监测、学位论文抽检、专业学位评估等工作。中心为中国学位与研究生教育体系提供全面的信息服务和质量评估。"
+      },
+      "website": "https://www.chinadegrees.cn/",
+      "data_url": "https://www.chinadegrees.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "education",
+        "academic-degrees",
+        "graduate-education"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "学位",
+        "研究生教育",
+        "academic degrees",
+        "graduate education",
+        "学科评估",
+        "discipline evaluation",
+        "论文抽检",
+        "thesis inspection",
+        "教育质量",
+        "education quality",
+        "专业学位",
+        "professional degree",
+        "博士",
+        "硕士",
+        "PhD",
+        "master",
+        "学位认证",
+        "degree certification"
+      ],
+      "data_content": {
+        "en": [
+          "Discipline evaluation results and rankings",
+          "Degree authorization information",
+          "Graduate thesis sampling inspection results",
+          "Professional degree evaluation data",
+          "Graduate education quality monitoring data",
+          "Academic degree certification services",
+          "Graduate student party building data",
+          "Journal and publication information"
+        ],
+        "zh": [
+          "学科评估结果与排名",
+          "学位授权点信息",
+          "学位论文抽检结果",
+          "专业学位评估数据",
+          "研究生教育质量监测数据",
+          "学位认证服务",
+          "研究生党建数据",
+          "期刊与出版物信息"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/higher_education/cdgdc.json"
+    },
+    {
+      "id": "china-gaokao-chsi",
+      "name": {
+        "en": "China Postgraduate Admissions Information Network",
+        "zh": "中国研究生招生信息网"
+      },
+      "description": {
+        "en": "China Postgraduate Admissions Information Network (CHSI Graduate Admissions) is the official platform designated by the Ministry of Education for postgraduate entrance examination online registration and admission adjustment. Operated by the Student Service and Development Center of the Ministry of Education, it provides authoritative services including online registration, adjustment system, institution inquiry, program directory, admission policy releases, and examination score queries for national master's and doctoral degree programs.",
+        "zh": "中国研究生招生信息网是教育部指定的研究生入学考试网上报名及调剂的唯一官方网站。由教育部学生服务与素质发展中心主办,提供全国硕士、博士研究生招生网上报名、调剂服务系统、院校信息查询、专业目录查询、招生政策发布、考试成绩查询等权威服务。"
+      },
+      "website": "https://yz.chsi.com.cn/",
+      "data_url": "https://yz.chsi.com.cn/sch/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "education",
+        "postgraduate-admissions",
+        "higher-education"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "研招网",
+        "postgraduate admissions",
+        "考研",
+        "graduate entrance exam",
+        "硕士招生",
+        "master's admissions",
+        "博士招生",
+        "doctoral admissions",
+        "网上报名",
+        "online registration",
+        "调剂系统",
+        "adjustment system",
+        "院校查询",
+        "institution search",
+        "专业目录",
+        "program directory",
+        "成绩查询",
+        "score inquiry",
+        "教育部",
+        "Ministry of Education",
+        "学信网",
+        "CHSI",
+        "研究生入学考试",
+        "postgraduate entrance examination",
+        "推免服务",
+        "exemption recommendation"
+      ],
+      "data_content": {
+        "en": [
+          "Postgraduate Entrance Exam Registration - online registration system for national master's and doctoral entrance examinations",
+          "Admission Adjustment System - adjustment intention collection and adjustment service system for postgraduate admissions",
+          "Institution Information Database - detailed information on recruiting institutions, including contact info, admission policies, and enrollment plans",
+          "Program Directory - comprehensive catalog of master's and doctoral programs by institution and discipline",
+          "Admission Policies - releases of Ministry of Education policies, management regulations, and institutional admission guidelines",
+          "Exam Score Queries - initial exam score inquiries and recheck applications",
+          "Exemption Recommendation Services - recommendation and admission services for exempt students (推免生)",
+          "Information Disclosure Platform - admission information disclosure including admission lists and enrollment statistics",
+          "Consultation Services - online Q&A platform for admissions policies and procedures"
+        ],
+        "zh": [
+          "研究生入学考试报名 - 全国硕士、博士研究生入学考试网上报名系统",
+          "调剂服务系统 - 研究生招生调剂意向采集和调剂服务系统",
+          "招生单位信息库 - 各招生单位详细信息,包括联系方式、招生政策、招生计划等",
+          "专业目录查询 - 按招生单位和学科门类的硕士、博士专业目录",
+          "招生政策发布 - 教育部政策文件、招生管理规定、各单位招生简章等",
+          "考试成绩查询 - 初试成绩查询及成绩复核申请",
+          "推免服务 - 推荐免试研究生推荐和接收服务",
+          "信息公开平台 - 招生信息公开,包括录取名单、招生统计等",
+          "在线咨询服务 - 招生政策和流程的在线问答平台"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/higher_education/china-gaokao-chsi.json"
+    },
+    {
       "id": "china-moe-higher-education",
       "name": {
         "en": "Ministry of Education of China - Higher Education Statistics",
@@ -2234,6 +2434,171 @@
       },
       "has_api": false,
       "file_path": "china/education/higher_education/china-moe-higher-education.json"
+    },
+    {
+      "id": "moe-china",
+      "name": {
+        "en": "Ministry of Education of the People's Republic of China",
+        "zh": "中华人民共和国教育部"
+      },
+      "description": {
+        "en": "The Ministry of Education of the People's Republic of China (MOE) is the government department responsible for comprehensive education management nationwide. It formulates education policies, publishes education statistics, supervises educational institutions at all levels, and provides authoritative data on education development including enrollment, teacher staffing, infrastructure, and educational expenditure across China.",
+        "zh": "中华人民共和国教育部是主管全国教育事业的国务院组成部门。负责制定教育政策、发布教育统计数据、监督管理各级各类教育机构,提供包括学生入学、师资配备、基础设施建设、教育经费等方面的权威教育发展数据。"
+      },
+      "website": "http://www.moe.gov.cn/",
+      "data_url": "http://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/tongji/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "education",
+        "education-statistics",
+        "education-policy",
+        "higher-education",
+        "basic-education"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "教育部",
+        "ministry-of-education",
+        "教育统计",
+        "education-statistics",
+        "教育事业发展",
+        "education-development",
+        "学校统计",
+        "school-statistics",
+        "学生数据",
+        "student-data",
+        "教师数据",
+        "teacher-data",
+        "教育经费",
+        "education-expenditure",
+        "高等教育",
+        "higher-education",
+        "基础教育",
+        "basic-education",
+        "职业教育",
+        "vocational-education",
+        "学前教育",
+        "preschool-education",
+        "教育政策",
+        "education-policy",
+        "教育法规",
+        "education-regulations"
+      ],
+      "data_content": {
+        "en": [
+          "National education development statistics bulletin (annual comprehensive education data)",
+          "Education statistics data (enrollment, graduates, school count, teacher staffing across all levels)",
+          "China Education Monitoring and Evaluation Statistical Indicator System",
+          "School (institution) code management data",
+          "National education expenditure statistics (annual education funding execution data)",
+          "Annual data on students studying abroad and international students in China",
+          "Education policy documents and regulations",
+          "Administrative licensing information",
+          "Financial budgets and final accounts",
+          "Government procurement information",
+          "Personnel work information",
+          "Education information disclosure annual reports",
+          "Ministry of Education bulletins and briefings"
+        ],
+        "zh": [
+          "全国教育事业发展统计公报(年度综合教育数据)",
+          "教育统计数据(各级各类学校招生、毕业生、学校数量、教师配备等)",
+          "中国教育监测与评价统计指标体系",
+          "学校(机构)代码管理数据",
+          "全国教育经费执行情况统计公告(年度教育经费投入数据)",
+          "年度出国留学、来华留学数据",
+          "教育政策文件与法规",
+          "行政许可信息",
+          "财政预算、决算信息",
+          "政府采购信息",
+          "人事工作信息",
+          "教育信息公开年度报告",
+          "教育部公报、简报"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/moe-china.json"
+    },
+    {
+      "id": "moe-gaokao",
+      "name": {
+        "en": "Sunshine Gaokao Platform",
+        "zh": "阳光高考信息平台"
+      },
+      "description": {
+        "en": "The Sunshine Gaokao Information Platform is the official platform designated by China's Ministry of Education for the 'Sunshine Project' in higher education admissions. Launched on May 10, 2005, it is operated by the Ministry of Education's Student Service and Quality Development Center. The platform provides comprehensive services including admissions announcements, university information, online consultation, enrollment plans, Gaokao updates, and volunteer application guidance. In 2024, it introduced the 'Sunshine Volunteer' information service system, offering data-driven services such as major recommendations, career assessments, and employment prospects based on big data analysis.",
+        "zh": "阳光高考信息平台是教育部高校招生阳光工程指定信息发布平台,由教育部学生服务与素质发展中心主办。平台于2005年5月10日正式开通,集招生公示、院校信息、在线咨询、招生计划、高考动态、志愿参考等内容于一体。2024年,平台开通\"阳光志愿\"信息服务系统,基于招生、就业、调查、测评等大数据,结合深度专业和职业解读,提供志愿推荐、专业介绍、心理测评、就业去向及前景查询等服务。"
+      },
+      "website": "https://gaokao.chsi.com.cn/",
+      "data_url": "https://gaokao.chsi.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "education",
+        "higher-education",
+        "admissions"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "阳光高考",
+        "Sunshine Gaokao",
+        "高考",
+        "Gaokao",
+        "college entrance examination",
+        "大学招生",
+        "university admissions",
+        "志愿填报",
+        "volunteer application",
+        "阳光志愿",
+        "Sunshine Volunteer",
+        "招生计划",
+        "enrollment plan",
+        "院校信息",
+        "university information",
+        "专业介绍",
+        "major introduction",
+        "就业前景",
+        "employment prospects",
+        "教育部",
+        "Ministry of Education",
+        "学信网",
+        "CHSI",
+        "高校招生",
+        "higher education enrollment",
+        "招生章程",
+        "admission regulations"
+      ],
+      "data_content": {
+        "en": [
+          "University Admissions Information - comprehensive enrollment plans, admission scores, and admission regulations for Chinese universities",
+          "Major and Specialty Database - detailed introductions to university majors, curriculum, and career prospects",
+          "Gaokao Policies and Updates - latest national and provincial Gaokao policies, examination schedules, and reform updates",
+          "Sunshine Volunteer Service - AI-powered volunteer application recommendations based on scores, preferences, and employment data",
+          "Online Consultation Services - direct Q&A with university admissions offices and education authorities",
+          "Admissions Announcements - official public notices of special admissions, self-enrollment, and admission results",
+          "Employment and Career Data - employment rates, salary trends, and career paths for different majors and universities",
+          "Psychological Assessment Tools - career interest tests and aptitude evaluations for major selection",
+          "Provincial Gaokao Information - region-specific examination requirements, score lines, and admission policies"
+        ],
+        "zh": [
+          "高校招生信息 - 全国高校招生计划、录取分数线、招生章程等综合信息",
+          "专业与学科数据库 - 大学专业详细介绍、课程设置、就业前景等信息",
+          "高考政策与动态 - 最新国家及各省高考政策、考试安排、改革动态",
+          "阳光志愿服务 - 基于分数、偏好和就业数据的智能志愿填报推荐系统",
+          "在线咨询服务 - 与高校招生办和教育主管部门的直接问答平台",
+          "招生公示信息 - 特殊类型招生、自主招生、录取结果等官方公示",
+          "就业与职业数据 - 不同专业和高校的就业率、薪资趋势、职业发展路径",
+          "心理测评工具 - 职业兴趣测试、能力评估等专业选择辅助工具",
+          "各省高考信息 - 分省考试要求、分数线、录取政策等区域性信息"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/moe-gaokao.json"
     },
     {
       "id": "china-nfra",
@@ -11251,6 +11616,94 @@
       "authority_level": "research",
       "has_api": false,
       "file_path": "sectors/P-education/arwu.json"
+    },
+    {
+      "id": "qs-world-university-rankings",
+      "name": {
+        "en": "QS World University Rankings",
+        "zh": "QS世界大学排名"
+      },
+      "description": {
+        "en": "QS World University Rankings is an annual publication of university rankings by Quacquarelli Symonds (QS). First published in 2004, it is one of the most widely consulted international university rankings globally. The rankings evaluate over 1,500 universities from 104 locations based on research quality, employability outcomes, learning experience, global engagement, and sustainability. QS uses six key indicators: Academic Reputation (30%), Citations per Faculty (20%), Employer Reputation (15%), Faculty Student Ratio (10%), International Faculty Ratio (5%), International Student Ratio (5%), and Sustainability (5%). The rankings are trusted by students, employers, and educational institutions worldwide for their comprehensive methodology and emphasis on employability and real-world impact.",
+        "zh": "QS世界大学排名是由Quacquarelli Symonds (QS)发布的年度大学排名。该排名首次发布于2004年,是全球最广泛参考的国际大学排名之一。排名评估来自104个地区的1500多所大学,基于研究质量、就业能力成果、学习体验、全球参与度和可持续发展等维度。QS使用六大核心指标:学术声誉(30%)、师均引用率(20%)、雇主声誉(15%)、师生比(10%)、国际教师比例(5%)、国际学生比例(5%)和可持续发展(5%)。该排名因其全面的方法论以及对就业能力和实际影响力的强调而受到全球学生、雇主和教育机构的信赖。"
+      },
+      "website": "https://www.topuniversities.com",
+      "data_url": "https://www.topuniversities.com/world-university-rankings",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "Higher Education",
+        "Education Assessment",
+        "University Rankings",
+        "Education Quality",
+        "Academic Research",
+        "Student Outcomes",
+        "Education Statistics",
+        "Global Education"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "university-rankings",
+        "大学排名",
+        "higher-education",
+        "高等教育",
+        "qs-rankings",
+        "education-assessment",
+        "教育评估",
+        "academic-reputation",
+        "学术声誉",
+        "employability",
+        "就业能力",
+        "research-quality",
+        "研究质量",
+        "global-universities",
+        "世界大学",
+        "education-statistics",
+        "教育统计",
+        "student-outcomes",
+        "学生成果",
+        "university-comparison",
+        "大学比较",
+        "sustainability",
+        "可持续发展",
+        "topuniversities"
+      ],
+      "data_content": {
+        "en": [
+          "Overall University Rankings - Global rankings of 1,500+ universities across 104 locations",
+          "Academic Reputation - Peer review assessments from academics worldwide",
+          "Citations per Faculty - Research impact measured by faculty-normalized citations",
+          "Employer Reputation - Graduate employability ratings from employer surveys",
+          "Faculty Student Ratio - Teaching quality indicator based on student-faculty ratios",
+          "International Faculty Ratio - Proportion of international academic staff",
+          "International Student Ratio - Proportion of international students enrolled",
+          "International Research Network - Global research collaboration metrics",
+          "Sustainability Rankings - Environmental and social responsibility indicators",
+          "Employment Outcomes - Graduate employment rates and career success metrics",
+          "Subject Rankings - Rankings by academic discipline and field of study",
+          "Regional Rankings - University rankings by geographic region",
+          "QS Stars Ratings - Detailed institutional performance assessments beyond rankings"
+        ],
+        "zh": [
+          "综合大学排名 - 覆盖104个地区1500多所大学的全球排名",
+          "学术声誉 - 来自全球学者的同行评审评估",
+          "师均引用率 - 通过教师标准化引用衡量研究影响力",
+          "雇主声誉 - 基于雇主调查的毕业生就业能力评级",
+          "师生比 - 基于学生与教师比例的教学质量指标",
+          "国际教师比例 - 国际学术人员占比",
+          "国际学生比例 - 国际学生入学占比",
+          "国际研究网络 - 全球研究合作指标",
+          "可持续发展排名 - 环境和社会责任指标",
+          "就业成果 - 毕业生就业率和职业成功指标",
+          "学科排名 - 按学科和研究领域的排名",
+          "地区排名 - 按地理区域的大学排名",
+          "QS星级评定 - 超越排名的详细院校绩效评估"
+        ]
+      },
+      "authority_level": "market",
+      "has_api": false,
+      "file_path": "sectors/P-education/qs-world-university-rankings.json"
     },
     {
       "id": "british-museum-collection",

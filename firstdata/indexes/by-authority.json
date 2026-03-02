@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-02T07:39:18.857130+00:00",
-    "total_sources": 150,
+    "generated_at": "2026-03-02T08:05:03.494144+00:00",
+    "total_sources": 156,
     "authority_counts": {
       "research": 28,
       "international": 44,
-      "government": 54,
+      "government": 59,
       "commercial": 10,
-      "market": 13,
+      "market": 14,
       "other": 1
     },
     "version": "2.0"
@@ -1016,6 +1016,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "cscse",
+        "name": {
+          "en": "Chinese Service Center for Scholarly Exchange",
+          "zh": "教育部留学服务中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://zwfw.cscse.edu.cn",
+        "has_api": false,
+        "file_path": "china/education/cscse.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "cdgdc",
+        "name": {
+          "en": "China Academic Degrees & Graduate Education Development Center",
+          "zh": "教育部学位与研究生教育发展中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinadegrees.cn/",
+        "has_api": false,
+        "file_path": "china/education/higher_education/cdgdc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gaokao-chsi",
+        "name": {
+          "en": "China Postgraduate Admissions Information Network",
+          "zh": "中国研究生招生信息网"
+        },
+        "authority_level": "government",
+        "data_url": "https://yz.chsi.com.cn/sch/",
+        "has_api": false,
+        "file_path": "china/education/higher_education/china-gaokao-chsi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -1025,6 +1061,30 @@
         "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
         "has_api": false,
         "file_path": "china/education/higher_education/china-moe-higher-education.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "moe-china",
+        "name": {
+          "en": "Ministry of Education of the People's Republic of China",
+          "zh": "中华人民共和国教育部"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/tongji/",
+        "has_api": false,
+        "file_path": "china/education/moe-china.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "moe-gaokao",
+        "name": {
+          "en": "Sunshine Gaokao Platform",
+          "zh": "阳光高考信息平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://gaokao.chsi.com.cn/",
+        "has_api": false,
+        "file_path": "china/education/moe-gaokao.json",
         "geographic_scope": "national"
       },
       {
@@ -1837,6 +1897,18 @@
         "has_api": false,
         "file_path": "sectors/J-information-communication/china-software-association.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "qs-world-university-rankings",
+        "name": {
+          "en": "QS World University Rankings",
+          "zh": "QS世界大学排名"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.topuniversities.com/world-university-rankings",
+        "has_api": false,
+        "file_path": "sectors/P-education/qs-world-university-rankings.json",
+        "geographic_scope": "global"
       }
     ],
     "other": [

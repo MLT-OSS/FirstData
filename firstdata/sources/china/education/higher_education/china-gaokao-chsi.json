@@ -1,0 +1,75 @@
+{
+  "id": "china-gaokao-chsi",
+  "name": {
+    "en": "China Postgraduate Admissions Information Network",
+    "zh": "中国研究生招生信息网"
+  },
+  "description": {
+    "en": "China Postgraduate Admissions Information Network (CHSI Graduate Admissions) is the official platform designated by the Ministry of Education for postgraduate entrance examination online registration and admission adjustment. Operated by the Student Service and Development Center of the Ministry of Education, it provides authoritative services including online registration, adjustment system, institution inquiry, program directory, admission policy releases, and examination score queries for national master's and doctoral degree programs.",
+    "zh": "中国研究生招生信息网是教育部指定的研究生入学考试网上报名及调剂的唯一官方网站。由教育部学生服务与素质发展中心主办,提供全国硕士、博士研究生招生网上报名、调剂服务系统、院校信息查询、专业目录查询、招生政策发布、考试成绩查询等权威服务。"
+  },
+  "website": "https://yz.chsi.com.cn/",
+  "data_url": "https://yz.chsi.com.cn/sch/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "education",
+    "postgraduate-admissions",
+    "higher-education"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "研招网",
+    "postgraduate admissions",
+    "考研",
+    "graduate entrance exam",
+    "硕士招生",
+    "master's admissions",
+    "博士招生",
+    "doctoral admissions",
+    "网上报名",
+    "online registration",
+    "调剂系统",
+    "adjustment system",
+    "院校查询",
+    "institution search",
+    "专业目录",
+    "program directory",
+    "成绩查询",
+    "score inquiry",
+    "教育部",
+    "Ministry of Education",
+    "学信网",
+    "CHSI",
+    "研究生入学考试",
+    "postgraduate entrance examination",
+    "推免服务",
+    "exemption recommendation"
+  ],
+  "data_content": {
+    "en": [
+      "Postgraduate Entrance Exam Registration - online registration system for national master's and doctoral entrance examinations",
+      "Admission Adjustment System - adjustment intention collection and adjustment service system for postgraduate admissions",
+      "Institution Information Database - detailed information on recruiting institutions, including contact info, admission policies, and enrollment plans",
+      "Program Directory - comprehensive catalog of master's and doctoral programs by institution and discipline",
+      "Admission Policies - releases of Ministry of Education policies, management regulations, and institutional admission guidelines",
+      "Exam Score Queries - initial exam score inquiries and recheck applications",
+      "Exemption Recommendation Services - recommendation and admission services for exempt students (推免生)",
+      "Information Disclosure Platform - admission information disclosure including admission lists and enrollment statistics",
+      "Consultation Services - online Q&A platform for admissions policies and procedures"
+    ],
+    "zh": [
+      "研究生入学考试报名 - 全国硕士、博士研究生入学考试网上报名系统",
+      "调剂服务系统 - 研究生招生调剂意向采集和调剂服务系统",
+      "招生单位信息库 - 各招生单位详细信息,包括联系方式、招生政策、招生计划等",
+      "专业目录查询 - 按招生单位和学科门类的硕士、博士专业目录",
+      "招生政策发布 - 教育部政策文件、招生管理规定、各单位招生简章等",
+      "考试成绩查询 - 初试成绩查询及成绩复核申请",
+      "推免服务 - 推荐免试研究生推荐和接收服务",
+      "信息公开平台 - 招生信息公开,包括录取名单、招生统计等",
+      "在线咨询服务 - 招生政策和流程的在线问答平台"
+    ]
+  }
+}

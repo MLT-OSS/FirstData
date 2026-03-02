@@ -1,0 +1,76 @@
+{
+  "id": "moe-gaokao",
+  "name": {
+    "en": "Sunshine Gaokao Platform",
+    "zh": "阳光高考信息平台"
+  },
+  "description": {
+    "en": "The Sunshine Gaokao Information Platform is the official platform designated by China's Ministry of Education for the 'Sunshine Project' in higher education admissions. Launched on May 10, 2005, it is operated by the Ministry of Education's Student Service and Quality Development Center. The platform provides comprehensive services including admissions announcements, university information, online consultation, enrollment plans, Gaokao updates, and volunteer application guidance. In 2024, it introduced the 'Sunshine Volunteer' information service system, offering data-driven services such as major recommendations, career assessments, and employment prospects based on big data analysis.",
+    "zh": "阳光高考信息平台是教育部高校招生阳光工程指定信息发布平台,由教育部学生服务与素质发展中心主办。平台于2005年5月10日正式开通,集招生公示、院校信息、在线咨询、招生计划、高考动态、志愿参考等内容于一体。2024年,平台开通\"阳光志愿\"信息服务系统,基于招生、就业、调查、测评等大数据,结合深度专业和职业解读,提供志愿推荐、专业介绍、心理测评、就业去向及前景查询等服务。"
+  },
+  "website": "https://gaokao.chsi.com.cn/",
+  "data_url": "https://gaokao.chsi.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "education",
+    "higher-education",
+    "admissions"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "阳光高考",
+    "Sunshine Gaokao",
+    "高考",
+    "Gaokao",
+    "college entrance examination",
+    "大学招生",
+    "university admissions",
+    "志愿填报",
+    "volunteer application",
+    "阳光志愿",
+    "Sunshine Volunteer",
+    "招生计划",
+    "enrollment plan",
+    "院校信息",
+    "university information",
+    "专业介绍",
+    "major introduction",
+    "就业前景",
+    "employment prospects",
+    "教育部",
+    "Ministry of Education",
+    "学信网",
+    "CHSI",
+    "高校招生",
+    "higher education enrollment",
+    "招生章程",
+    "admission regulations"
+  ],
+  "data_content": {
+    "en": [
+      "University Admissions Information - comprehensive enrollment plans, admission scores, and admission regulations for Chinese universities",
+      "Major and Specialty Database - detailed introductions to university majors, curriculum, and career prospects",
+      "Gaokao Policies and Updates - latest national and provincial Gaokao policies, examination schedules, and reform updates",
+      "Sunshine Volunteer Service - AI-powered volunteer application recommendations based on scores, preferences, and employment data",
+      "Online Consultation Services - direct Q&A with university admissions offices and education authorities",
+      "Admissions Announcements - official public notices of special admissions, self-enrollment, and admission results",
+      "Employment and Career Data - employment rates, salary trends, and career paths for different majors and universities",
+      "Psychological Assessment Tools - career interest tests and aptitude evaluations for major selection",
+      "Provincial Gaokao Information - region-specific examination requirements, score lines, and admission policies"
+    ],
+    "zh": [
+      "高校招生信息 - 全国高校招生计划、录取分数线、招生章程等综合信息",
+      "专业与学科数据库 - 大学专业详细介绍、课程设置、就业前景等信息",
+      "高考政策与动态 - 最新国家及各省高考政策、考试安排、改革动态",
+      "阳光志愿服务 - 基于分数、偏好和就业数据的智能志愿填报推荐系统",
+      "在线咨询服务 - 与高校招生办和教育主管部门的直接问答平台",
+      "招生公示信息 - 特殊类型招生、自主招生、录取结果等官方公示",
+      "就业与职业数据 - 不同专业和高校的就业率、薪资趋势、职业发展路径",
+      "心理测评工具 - 职业兴趣测试、能力评估等专业选择辅助工具",
+      "各省高考信息 - 分省考试要求、分数线、录取政策等区域性信息"
+    ]
+  }
+}
