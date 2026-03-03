@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-03-02T08:05:03.494144+00:00",
-    "total_sources": 156,
+    "generated_at": "2026-03-03T12:07:27.301957+00:00",
+    "total_sources": 157,
     "authority_counts": {
-      "research": 28,
-      "international": 44,
+      "research": 30,
+      "international": 42,
       "government": 59,
-      "commercial": 10,
+      "commercial": 11,
       "market": 14,
       "other": 1
     },
@@ -350,6 +350,30 @@
         "has_api": false,
         "file_path": "sectors/R-arts-entertainment/tennis-atp-wta-data.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "tennis-abstract-atp-wta",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Data",
+          "zh": "Tennis Abstract - ATP/WTA网球数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-abstract-atp-wta.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "tennis-sackmann",
+        "name": {
+          "en": "Tennis Abstract - ATP/WTA Match Data",
+          "zh": "网球数据摘要 - ATP/WTA 比赛数据"
+        },
+        "authority_level": "research",
+        "data_url": "https://github.com/JeffSackmann/tennis_atp",
+        "has_api": false,
+        "file_path": "sectors/sports/tennis-sackmann.json",
+        "geographic_scope": "global"
       }
     ],
     "international": [
@@ -560,18 +584,6 @@
         "geographic_scope": "regional"
       },
       {
-        "id": "adb-data-library",
-        "name": {
-          "en": "ADB Data Library",
-          "zh": "亚洲开发银行数据库"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.adb.org",
-        "has_api": true,
-        "file_path": "international/economics/adb-data-library.json",
-        "geographic_scope": "regional"
-      },
-      {
         "id": "adb-vietnam",
         "name": {
           "en": "Asian Development Bank - Vietnam Country Data",
@@ -705,18 +717,6 @@
         "data_url": "https://data.bis.org/topics/CBTA",
         "has_api": true,
         "file_path": "international/finance/bis-reserves.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bis-statistics",
-        "name": {
-          "en": "BIS Statistics - Bank for International Settlements",
-          "zh": "国际清算银行统计数据"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.bis.org",
-        "has_api": true,
-        "file_path": "international/finance/bis-statistics.json",
         "geographic_scope": "global"
       },
       {
@@ -1111,6 +1111,19 @@
         "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
         "has_api": false,
         "file_path": "china/finance/banking/pbc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mof",
+        "name": {
+          "en": "Ministry of Finance of the People's Republic of China",
+          "zh": "中华人民共和国财政部",
+          "native": "中华人民共和国财政部"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengshuju/",
+        "has_api": false,
+        "file_path": "china/finance/fiscal/china-mof.json",
         "geographic_scope": "national"
       },
       {
@@ -1570,18 +1583,6 @@
         "geographic_scope": "global"
       },
       {
-        "id": "bis-statistics",
-        "name": {
-          "en": "BIS Statistics - Bank for International Settlements",
-          "zh": "国际清算银行统计数据"
-        },
-        "authority_level": "government",
-        "data_url": "https://data.bis.org/",
-        "has_api": true,
-        "file_path": "international/economics/bis.json",
-        "geographic_scope": "global"
-      },
-      {
         "id": "ecb-sdw",
         "name": {
           "en": "ECB Statistical Data Warehouse (ECB Data Portal)",
@@ -1738,6 +1739,18 @@
         "data_url": "https://clarivate.com/products/derwent-innovation/",
         "has_api": true,
         "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
         "geographic_scope": "global"
       }
     ],

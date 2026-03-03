@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-02T08:05:03.494144+00:00",
+    "generated_at": "2026-03-03T12:07:27.301957+00:00",
     "total_regions": 11,
-    "total_sources": 156,
+    "total_sources": 157,
     "version": "2.0"
   },
   "regions": {
@@ -310,6 +310,19 @@
         "data_url": "http://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
         "has_api": false,
         "file_path": "china/finance/banking/pbc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mof",
+        "name": {
+          "en": "Ministry of Finance of the People's Republic of China",
+          "zh": "中华人民共和国财政部",
+          "native": "中华人民共和国财政部"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengshuju/",
+        "has_api": false,
+        "file_path": "china/finance/fiscal/china-mof.json",
         "geographic_scope": "national"
       },
       {
@@ -845,6 +858,18 @@
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/crsp.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "geographic_scope": "global"
       }
     ],
     "VN": [
