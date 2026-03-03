@@ -1,0 +1,71 @@
+{
+  "id": "china-mof",
+  "name": {
+    "en": "Ministry of Finance of the People's Republic of China",
+    "zh": "中华人民共和国财政部",
+    "native": "中华人民共和国财政部"
+  },
+  "description": {
+    "en": "The Ministry of Finance (MOF) of China is the executive agency of the State Council responsible for fiscal policy, government revenue and expenditure, taxation policy, government procurement, and financial regulation of state-owned assets. MOF publishes comprehensive fiscal data including national and local government budgets, public finance revenue and expenditure statistics, government debt data, transfer payment details, lottery fund statistics, and accounting industry reports. The ministry also releases monthly fiscal revenue and expenditure reports, annual fiscal settlement data, and government bond issuance information. As the primary fiscal authority, MOF data is essential for analyzing China's fiscal policy, government spending priorities, and public finance health.",
+    "zh": "中华人民共和国财政部是国务院负责财政收支、税收政策、政府采购和国有资产财务监管的行政机构。财政部发布全面的财政数据，包括全国及地方政府预算、公共财政收支统计、政府债务数据、转移支付明细、彩票公益金统计和会计行业报告等。财政部还发布月度财政收支报告、年度财政决算数据和国债发行信息。作为国家财政主管部门，财政部数据是分析中国财政政策、政府支出优先级和公共财政健康状况的核心来源。"
+  },
+  "website": "http://www.mof.gov.cn",
+  "data_url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengshuju/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "economics",
+    "government"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "ministry of finance",
+    "MOF",
+    "fiscal policy",
+    "government budget",
+    "public finance",
+    "government revenue",
+    "government expenditure",
+    "government debt",
+    "transfer payments",
+    "taxation",
+    "government bonds",
+    "treasury bonds",
+    "fiscal settlement",
+    "财政部",
+    "财政收支",
+    "政府预算",
+    "公共财政",
+    "政府债务",
+    "国债",
+    "转移支付",
+    "财政决算",
+    "税收政策",
+    "政府采购"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly fiscal revenue and expenditure reports - national and local government fiscal performance",
+      "Annual government budget and settlement data - detailed budget execution reports",
+      "Government debt statistics - central and local government bond issuance and outstanding balances",
+      "Transfer payment data - central to local government fiscal transfers",
+      "Government procurement statistics - public procurement spending and categories",
+      "Lottery fund and public welfare statistics",
+      "Accounting industry development reports",
+      "State-owned capital operation budget data"
+    ],
+    "zh": [
+      "月度财政收支报告 - 全国及地方政府财政收支情况",
+      "年度政府预算及决算数据 - 详细预算执行报告",
+      "政府债务统计 - 中央和地方政府债券发行及余额",
+      "转移支付数据 - 中央对地方财政转移支付",
+      "政府采购统计 - 公共采购支出及分类",
+      "彩票公益金及公益事业统计",
+      "会计行业发展报告",
+      "国有资本经营预算数据"
+    ]
+  }
+}
