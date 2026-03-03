@@ -1,73 +1,12 @@
 # 中国数据源 | China Data Sources
 
-**总数**: 500+个数据源
-**已完成**: 21个
-**进度**: 4%
-
----
-
-## 📊 总体进度
-
-```
-总目标: 500+ 个中国权威数据源
-当前完成: 21 个
-完成度: █░░░░░░░░░░░░░░░░░░░ 4%
-```
-
-**目录结构**: ✅ 已完成
-**数据填充**: 进行中
-
----
-
-## 🎯 领域分类与完成情况
-
-### 国家级部委数据源（345个）
-
-| 领域 | 数量 | 完成 | 进度 | 说明 |
-|------|------|------|------|------|
-| 📍 国家级综合 | 1 | 1 | 100% | 国家统计局 |
-| 💰 金融财政 | 36 | 4 | 11% | 银行、证券、债券、保险、基金、财政、外汇 |
-| 📈 经济贸易 | 24 | 4 | 17% | 宏观经济、对外贸易、工业、市场监管、国企 |
-| 🚂 交通运输 | 27 | 0 | 0% | 综合、铁路、公路、航空、水路 |
-| 🎭 文化旅游 | 26 | 0 | 0% | 旅游、文化产业、文化遗产、媒体、出版 |
-| 💻 科技创新 | 24 | 6 | 25% | 知识产权、数字经济、通信、高新技术、科技资源 |
-| 🎓 教育科研 | 24 | 1 | 4% | 基础教育、高等教育、职业教育、科研、资助、机构 |
-| ⚖️ 公安司法 | 21 | 0 | 0% | 公安、司法、检察、法律服务 |
-| 👷 人力社保 | 20 | 0 | 0% | 就业、社保、工资、劳动关系、人才 |
-| 🏠 住房建设 | 20 | 0 | 0% | 房地产、建筑、城市规划、保障房 |
-| 🌦️ 气象地震 | 19 | 0 | 0% | 天气、气候、地震、灾害 |
-| 🤝 民政社会 | 19 | 0 | 0% | 社会服务、慈善、殡葬、社区 |
-| 🌾 农业农村 | 18 | 0 | 0% | 种植、畜牧、林业、渔业、农村发展 |
-| ⛰️ 自然资源 | 18 | 2 | 11% | 土地、矿产、海洋、测绘 |
-| 🏥 卫生健康 | 18 | 0 | 0% | 医疗、疾控、医药、中医药 |
-| 📊 审计税务 | 17 | 0 | 0% | 审计、税务、海关、会计 |
-| 🌳 生态环境 | 13 | 0 | 0% | 污染防治、生态保护、气候变化 |
-| **小计** | **345** | **18** | **5%** | - |
-
-### 省级数据源（49个）
-
-| 类别 | 数量 | 完成 | 进度 |
-|------|------|------|------|
-| 📍 省级数据源 | 49 | 0 | 0% |
-| - 直辖市 | 4 | 0 | 0% |
-| - 省 | 23 | 0 | 0% |
-| - 自治区 | 5 | 0 | 0% |
-| - 特别行政区 | 2 | 0 | 0% |
-| - 重点城市 | 15 | 0 | 0% |
-
-### 研究机构和特色数据（21个）
-
-| 类别 | 数量 | 完成 | 进度 |
-|------|------|------|------|
-| 🔬 研究机构 | 6 | 0 | 0% |
-| 🏢 行业协会 | 7 | 0 | 0% |
-| ⭐ 特色数据 | 8 | 0 | 0% |
+> 📊 **最新统计**: 查看 [indexes/statistics.json](../../indexes/statistics.json) 获取实时数据源统计信息。
 
 ---
 
 ## 📚 已收录数据源
 
-### 📍 国家级综合统计 (1/1)
+### 📍 国家级综合统计
 
 #### 国家统计局 - National Bureau of Statistics
 - **文件**: [nbs.json](national/nbs.json)
@@ -75,27 +14,9 @@
 - **涵盖**: GDP、人口、工业、投资、消费等全面统计
 - **更新频率**: 月度
 
-#### CEIC Data - China Urbanization Rate - CEIC数据库 - 中国城镇化率
-- **文件**: [ceic-china-urbanization.json](national/ceic-china-urbanization.json)
-- **权威等级**: commercial
-- **数据格式**: CSV, Excel, API
-- **访问类型**: 开放
-- **涵盖**: 中国1949-2025年城镇化率历史数据，包括常住人口和户籍人口统计
-- **特色**: 国家级、省级和地级市城镇化率，来自国家统计局的权威数据，展示中国从21.1%(1982年)到67.9%(2025年)的城镇化进程
-- **更新频率**: 年度
+### 💰 金融财政
 
-#### CNKI China Population Census Database - 中国人口普查数据库
-- **文件**: [cnki-population-census.json](national/cnki-population-census.json)
-- **权威等级**: commercial
-- **数据格式**: Excel, PDF
-- **访问类型**: 需注册
-- **涵盖**: 1953年以来历次人口普查资料，196种、411册，56,838个普查指标，7,651,466笔统计数据
-- **特色**: 原版普查公报全文、人口统计、教育程度、就业职业、迁移流动、住房情况、社会保障、婚姻生育数据
-- **更新频率**: 不定期
-
-### 💰 金融财政 (4/36)
-
-#### 银行系统 (2/7)
+#### 银行系统
 
 ##### 中国人民银行 - People's Bank of China
 - **文件**: [pbc.json](finance/banking/pbc.json)
@@ -109,7 +30,7 @@
 - **涵盖**: 银行业、保险业监管数据、金融机构统计
 - **更新频率**: 季度
 
-#### 证券市场 (2/8)
+#### 证券市场
 
 ##### 证监会 - China Securities Regulatory Commission
 - **文件**: [csrc.json](finance/securities/csrc.json)
@@ -123,9 +44,9 @@
 - **涵盖**: 证券交易数据、衍生品数据、上市公司信息、市场指数
 - **更新频率**: 实时
 
-### 📈 经济贸易 (3/24)
+### 📈 经济贸易
 
-#### 对外贸易 (2/7)
+#### 对外贸易
 
 ##### 海关总署 - General Administration of Customs
 - **文件**: [customs.json](economy/trade/customs.json)
@@ -139,7 +60,7 @@
 - **涵盖**: FDI、ODI、零售、电商、服务贸易
 - **更新频率**: 月度
 
-#### 宏观经济 (2/5)
+#### 宏观经济
 
 ##### 国家发改委 - National Development and Reform Commission
 - **文件**: [ndrc.json](economy/macro/ndrc.json) ⭐💎
@@ -155,9 +76,9 @@
 - **特色**: 覆盖京津冀、长三角、粤港澳大湾区、成渝等8个枢纽节点，统筹推进通用算力、智能算力、超级算力协同建设，构建全国一体化算力网络体系
 - **更新频率**: 不定期
 
-### 🎓 教育科研 (1/24)
+### 🎓 教育科研
 
-#### 高等教育 (1/5)
+#### 高等教育
 
 ##### 中华人民共和国教育部高等教育统计 - Ministry of Education of China - Higher Education Statistics
 - **文件**: [china-moe-higher-education.json](education/higher_education/china-moe-higher-education.json) ⭐💎
@@ -167,9 +88,9 @@
 - **特色**: 年度全国高等教育事业发展统计公报，提供本科、硕士、博士等各层次教育的详细分类数据（2005年至今）
 - **更新频率**: 年度
 
-### ⛰️ 自然资源 (2/18)
+### ⛰️ 自然资源
 
-#### 矿产资源 (2/4)
+#### 矿产资源
 
 ##### 工业和信息化部稀土办公室 - MIIT Rare Earth Office - Rare Earth Industry Regulation and Production Quotas
 - **文件**: [china-miit-rare-earth.json](resources/mineral/china-miit-rare-earth.json) ⭐💎
@@ -187,9 +108,9 @@
 - **特色**: 覆盖能源矿产、金属矿产、非金属矿产等全类别矿产资源的权威统计数据
 - **更新频率**: 年度
 
-### 💻 科技创新 (7/24)
+### 💻 科技创新
 
-#### 数字经济 (1/6)
+#### 数字经济
 
 ##### 国家数据局 - National Data Administration of China
 - **文件**: [china-national-data-bureau.json](technology/digital_economy/china-national-data-bureau.json) ⭐💎
@@ -199,7 +120,7 @@
 - **特色**: 国家数据管理机构，负责协调推进数据基础制度建设、统筹数据资源整合共享和开发利用
 - **更新频率**: 不定期
 
-#### 知识产权 (1/7)
+#### 知识产权
 
 ##### 国家知识产权局专利统计 - China National Intellectual Property Administration - Patent Statistics
 - **文件**: [china-cnipa-patents.json](technology/intellectual_property/china-cnipa-patents.json) ⭐💎
@@ -209,7 +130,7 @@
 - **特色**: 月度更新，提供从1985年至今的历史数据，涵盖国内外专利申请全貌，支持按地区、行业、技术领域多维度分析
 - **更新频率**: 月度
 
-#### 科技资源 (2/4)
+#### 科技资源
 
 ##### 重大科研基础设施和大型科研仪器国家网络管理平台 - National Platform for Research Infrastructure and Large-scale Scientific Instruments
 - **文件**: [china-most-infrastructure.json](technology/sci_resources/china-most-infrastructure.json) ⭐💎
@@ -227,7 +148,7 @@
 - **特色**: 聚焦工业软件及16个国家战略重点领域（新一代信息技术、高端装备、新材料等），支撑关键核心技术攻关
 - **更新频率**: 年度
 
-#### 标准化 (1/?)
+#### 标准化
 
 ##### 国家标准化管理委员会 - Standardization Administration of China (SAC)
 - **文件**: [china-sac-standards.json](technology/standards/china-sac-standards.json) ⭐💎
@@ -237,7 +158,7 @@
 - **特色**: 国家标准化工作主管部门，管理全国标准化工作，覆盖所有行业和领域的标准信息
 - **更新频率**: 不定期
 
-#### 通信产业 (1/6)
+#### 通信产业
 
 ##### 中华人民共和国工业和信息化部 - Ministry of Industry and Information Technology of the People's Republic of China
 - **文件**: [china-miit.json](technology/telecommunications/china-miit.json) ⭐💎
@@ -247,7 +168,7 @@
 - **特色**: 工业和信息化领域主管部门，提供工业经济运行、信息通信业发展、软件和信息技术服务业等多维度权威统计数据
 - **更新频率**: 月度
 
-### 🔬 研究机构 (1/6)
+### 🔬 研究机构
 
 ##### 中国信息通信研究院 - China Academy of Information and Communications Technology
 - **文件**: [china-caict.json](research/china-caict.json) ⭐
@@ -264,7 +185,6 @@
 ### 全球领先的深度覆盖
 FirstData 提供**全球最全面**的中国官方数据源知识库：
 
-- **数据源数量**: 415个（已规划，持续扩充中）
 - **覆盖深度**: 国家级 + 省级 + 行业
 - **元数据详细度**: 40+字段专业级
 - **权威等级**: 6维度评分系统
@@ -299,136 +219,134 @@ FirstData 提供**全球最全面**的中国官方数据源知识库：
 
 ```
 sources/china/
-├── national/                   # 国家级综合统计 (1/1 个数据源)
+├── national/                   # 国家级综合统计
 │   └── nbs.json
-├── finance/                    # 金融财政 (4/36 个数据源)
-│   ├── banking/                # 银行系统 (7个)
+├── finance/                    # 金融财政
+│   ├── banking/                # 银行系统
 │   │   ├── pbc.json
 │   │   └── nfra.json
-│   ├── securities/             # 证券市场 (8个)
+│   ├── securities/             # 证券市场
 │   │   ├── csrc.json
 │   │   └── hkex.json
-│   ├── bonds/                  # 债券市场 (3个)
-│   ├── insurance/              # 保险行业 (2个)
-│   ├── funds/                  # 基金行业 (3个)
-│   ├── fiscal/                 # 财政税收 (6个)
-│   ├── forex/                  # 外汇管理 (7个)
+│   ├── bonds/                  # 债券市场
+│   ├── insurance/              # 保险行业
+│   ├── funds/                  # 基金行业
+│   ├── fiscal/                 # 财政税收
+│   ├── forex/                  # 外汇管理
 │   └── monetary-policy/        # 货币政策
-├── economy/                    # 经济贸易 (3/24 个数据源)
-│   ├── macro/                  # 宏观经济 (5个)
+├── economy/                    # 经济贸易
+│   ├── macro/                  # 宏观经济
 │   │   └── ndrc.json
-│   ├── trade/                  # 对外贸易 (7个)
+│   ├── trade/                  # 对外贸易
 │   │   ├── customs.json
 │   │   └── mofcom.json
-│   ├── industry/               # 工业制造 (5个)
-│   ├── market/                 # 市场监管 (4个)
-│   ├── soe/                    # 国有企业 (3个)
+│   ├── industry/               # 工业制造
+│   ├── market/                 # 市场监管
+│   ├── soe/                    # 国有企业
 │   └── consumption/            # 消费市场
-├── transport/                  # 交通运输 (0/27 个数据源)
-│   ├── comprehensive/          # 综合运输 (5个)
-│   ├── railway/                # 铁路运输 (6个)
-│   ├── highway/                # 公路运输 (5个)
-│   ├── aviation/               # 民航运输 (6个)
-│   └── waterway/               # 水路运输 (5个)
-├── culture/                    # 文化旅游 (0/26 个数据源)
-│   ├── tourism/                # 旅游产业 (6个)
-│   ├── cultural_industry/      # 文化产业 (6个)
-│   ├── heritage/               # 文化遗产 (5个)
-│   ├── media/                  # 媒体广播 (5个)
-│   └── publishing/             # 新闻出版 (4个)
-├── technology/                 # 科技创新 (0/24 个数据源)
-│   ├── intellectual_property/  # 知识产权 (5个)
-│   ├── digital_economy/        # 数字经济 (5个)
-│   ├── telecommunications/     # 通信产业 (5个)
-│   ├── high_tech/              # 高新技术 (5个)
-│   └── sci_resources/          # 科技资源 (4个)
-├── education/                  # 教育科研 (0/24 个数据源)
-│   ├── basic_education/        # 基础教育 (4个)
-│   ├── higher_education/       # 高等教育 (5个)
-│   ├── vocational/             # 职业教育 (4个)
-│   ├── research/               # 科学研究 (5个)
-│   ├── funding/                # 科研资助 (3个)
-│   └── institutions/           # 科研机构 (3个)
-├── justice/                    # 公安司法 (0/21 个数据源)
-│   ├── public_security/        # 公安部门 (6个)
-│   ├── judiciary/              # 司法系统 (6个)
-│   ├── procuratorate/          # 检察系统 (5个)
-│   └── legal_services/         # 法律服务 (4个)
-├── labor/                      # 人力社保 (0/20 个数据源)
-│   ├── employment/             # 就业统计 (5个)
-│   ├── social_security/        # 社会保障 (5个)
-│   ├── wages/                  # 工资收入 (4个)
-│   ├── labor_relations/        # 劳动关系 (3个)
-│   └── talent/                 # 人才发展 (3个)
-├── housing/                    # 住房建设 (0/20 个数据源)
-│   ├── real_estate/            # 房地产市场 (6个)
-│   ├── construction/           # 建筑业 (6个)
-│   ├── urban_planning/         # 城市规划 (4个)
-│   └── public_housing/         # 保障性住房 (4个)
-├── meteorology/                # 气象地震 (0/19 个数据源)
-│   ├── weather/                # 天气气象 (6个)
-│   ├── climate/                # 气候监测 (5个)
-│   ├── earthquake/             # 地震监测 (4个)
-│   └── disaster/               # 灾害预警 (4个)
-├── civil-affairs/              # 民政社会 (0/19 个数据源)
-│   ├── social_services/        # 社会服务 (5个)
-│   ├── charity/                # 慈善公益 (5个)
-│   ├── funeral/                # 殡葬管理 (4个)
-│   └── community/              # 社区治理 (5个)
-├── agriculture/                # 农业农村 (0/18 个数据源)
-│   ├── crop/                   # 种植业 (4个)
-│   ├── livestock/              # 畜牧业 (4个)
-│   ├── forestry/               # 林业 (3个)
-│   ├── fishery/                # 渔业 (4个)
-│   └── rural/                  # 农村发展 (3个)
-├── resources/                  # 自然资源 (0/18 个数据源)
-│   ├── land/                   # 土地资源 (5个)
-│   ├── mineral/                # 矿产资源 (4个)
-│   ├── ocean/                  # 海洋资源 (5个)
-│   └── surveying/              # 测绘地理 (4个)
-├── health/                     # 卫生健康 (0/18 个数据源)
-│   ├── healthcare/             # 医疗卫生 (6个)
-│   ├── disease_control/        # 疾病防控 (5个)
-│   ├── pharma/                 # 医药监管 (4个)
-│   └── tcm/                    # 中医药 (3个)
-├── audit/                      # 审计税务 (0/17 个数据源)
-│   ├── audit/                  # 审计监督 (5个)
-│   ├── taxation/               # 税务征管 (5个)
-│   ├── customs/                # 海关监管 (4个)
-│   └── accounting/             # 会计管理 (3个)
-├── environment/                # 生态环境 (0/13 个数据源)
-│   ├── pollution_control/      # 污染防治 (5个)
-│   ├── ecology/                # 生态保护 (4个)
-│   └── climate/                # 气候变化 (4个)
-├── provincial/                 # 省级数据源 (0/49 个数据源)
-│   ├── municipalities/         # 直辖市 (4个)
+├── transport/                  # 交通运输
+│   ├── comprehensive/          # 综合运输
+│   ├── railway/                # 铁路运输
+│   ├── highway/                # 公路运输
+│   ├── aviation/               # 民航运输
+│   └── waterway/               # 水路运输
+├── culture/                    # 文化旅游
+│   ├── tourism/                # 旅游产业
+│   ├── cultural_industry/      # 文化产业
+│   ├── heritage/               # 文化遗产
+│   ├── media/                  # 媒体广播
+│   └── publishing/             # 新闻出版
+├── technology/                 # 科技创新
+│   ├── intellectual_property/  # 知识产权
+│   ├── digital_economy/        # 数字经济
+│   ├── telecommunications/     # 通信产业
+│   ├── high_tech/              # 高新技术
+│   └── sci_resources/          # 科技资源
+├── education/                  # 教育科研
+│   ├── basic_education/        # 基础教育
+│   ├── higher_education/       # 高等教育
+│   ├── vocational/             # 职业教育
+│   ├── research/               # 科学研究
+│   ├── funding/                # 科研资助
+│   └── institutions/           # 科研机构
+├── justice/                    # 公安司法
+│   ├── public_security/        # 公安部门
+│   ├── judiciary/              # 司法系统
+│   ├── procuratorate/          # 检察系统
+│   └── legal_services/         # 法律服务
+├── labor/                      # 人力社保
+│   ├── employment/             # 就业统计
+│   ├── social_security/        # 社会保障
+│   ├── wages/                  # 工资收入
+│   ├── labor_relations/        # 劳动关系
+│   └── talent/                 # 人才发展
+├── housing/                    # 住房建设
+│   ├── real_estate/            # 房地产市场
+│   ├── construction/           # 建筑业
+│   ├── urban_planning/         # 城市规划
+│   └── public_housing/         # 保障性住房
+├── meteorology/                # 气象地震
+│   ├── weather/                # 天气气象
+│   ├── climate/                # 气候监测
+│   ├── earthquake/             # 地震监测
+│   └── disaster/               # 灾害预警
+├── civil-affairs/              # 民政社会
+│   ├── social_services/        # 社会服务
+│   ├── charity/                # 慈善公益
+│   ├── funeral/                # 殡葬管理
+│   └── community/              # 社区治理
+├── agriculture/                # 农业农村
+│   ├── crop/                   # 种植业
+│   ├── livestock/              # 畜牧业
+│   ├── forestry/               # 林业
+│   ├── fishery/                # 渔业
+│   └── rural/                  # 农村发展
+├── resources/                  # 自然资源
+│   ├── land/                   # 土地资源
+│   ├── mineral/                # 矿产资源
+│   ├── ocean/                  # 海洋资源
+│   └── surveying/              # 测绘地理
+├── health/                     # 卫生健康
+│   ├── healthcare/             # 医疗卫生
+│   ├── disease_control/        # 疾病防控
+│   ├── pharma/                 # 医药监管
+│   └── tcm/                    # 中医药
+├── audit/                      # 审计税务
+│   ├── audit/                  # 审计监督
+│   ├── taxation/               # 税务征管
+│   ├── customs/                # 海关监管
+│   └── accounting/             # 会计管理
+├── environment/                # 生态环境
+│   ├── pollution_control/      # 污染防治
+│   ├── ecology/                # 生态保护
+│   └── climate/                # 气候变化
+├── provincial/                 # 省级数据源
+│   ├── municipalities/         # 直辖市
 │   │   ├── beijing/
 │   │   ├── shanghai/
 │   │   ├── tianjin/
 │   │   └── chongqing/
-│   ├── provinces/              # 省份 (23个)
-│   ├── autonomous_regions/     # 自治区 (5个)
+│   ├── provinces/              # 省份
+│   ├── autonomous_regions/     # 自治区
 │   │   ├── inner_mongolia/
 │   │   ├── guangxi/
 │   │   ├── tibet/
 │   │   ├── ningxia/
 │   │   └── xinjiang/
-│   ├── special_admin_regions/  # 特别行政区 (2个)
+│   ├── special_admin_regions/  # 特别行政区
 │   │   ├── hong_kong/
 │   │   └── macau/
-│   └── major_cities/           # 重点城市 (15个)
-├── research/                   # 研究机构 (0/6 个数据源)
+│   └── major_cities/           # 重点城市
+├── research/                   # 研究机构
 │   # 中国社会科学院、国务院发展研究中心、北京大学经济研究中心
 │   # 清华大学经济管理学院、中国人民大学经济研究所、中国科学院
-├── industry/                   # 行业协会 (0/7 个数据源)
+├── industry/                   # 行业协会
 │   # 中国工业协会、汽车工业协会、钢铁工业协会
 │   # 石油化工协会、纺织工业协会、电子信息产业协会、医药行业协会
-├── special/                    # 特色数据 (0/8 个数据源)
+├── special/                    # 特色数据
 │   # 人口普查、经济普查、农业普查、投入产出表
 │   # 分省GDP、县域统计、行业分类标准、扶贫脱贫数据
 └── README.md
-
-总计: 20个一级领域，8个JSON文件，目标415个数据源
 ```
 
 ## 领域分类说明 Domain Classification

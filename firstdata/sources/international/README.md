@@ -1,49 +1,12 @@
 # 国际组织 | International Organizations
 
-**总数**: 100+个数据源
-**已完成**: 45个
-**进度**: 45%
-
----
-
-## 📊 总体进度
-
-```
-总目标: 100+ 个国际组织数据源
-当前完成: 45 个
-完成度: █████████░░░░░░░░░░░ 45%
-```
-
-**目录结构**: ✅ 已完成
-**数据填充**: 进行中
-
----
-
-## 🎯 分类进度概览
-
-| 领域 | 计划 | 完成 | 进度 | 说明 |
-|------|------|------|------|------|
-| 📈 经济 | 8 | 5 | 63% | Economics |
-| 🌐 贸易 | 6 | 4 | 67% | Trade |
-| ⚡ 能源 | 6 | 2 | 33% | Energy |
-| 🌾 农业 | 5 | 2 | 40% | Agriculture |
-| 🎓 教育 | 8 | 2 | 25% | Education |
-| 🏥 健康 | 10 | 2 | 20% | Health |
-| 🌳 环境 | 12 | 2 | 17% | Environment |
-| 🌍 发展 | 13 | 5 | 38% | Development |
-| 💰 金融 | 6 | 3 | 50% | Finance |
-| 📜 知识产权 | 5 | 1 | 20% | Intellectual Property |
-| 🌏 地球科学 | 8 | 2 | 25% | Earth Science |
-| 👷 劳工与社会 | 6 | 0 | 0% | Labour & Social |
-| 🚢 交通运输 | 4 | 1 | 25% | Transportation |
-| 📏 标准与计量 | 3 | 2 | 67% | Standards & Metrology |
-| **总计** | **100** | **33** | **33%** | - |
+> 📊 **最新统计**: 查看 [indexes/statistics.json](../../indexes/statistics.json) 获取实时数据源统计信息。
 
 ---
 
 ## 📚 已收录数据源
 
-### 📈 经济 Economics (5/8)
+### 📈 经济 Economics
 
 #### World Bank Open Data - 世界银行开放数据
 - **文件**: [worldbank.json](economics/worldbank.json) ⭐💎
@@ -85,47 +48,7 @@
 - **涵盖**: 欧元区、欧盟，1999-2025年，1,000+指标集
 - **特色**: 货币政策、银行业、金融市场、支付统计
 
-#### Asian Development Outlook - 亚洲开发展望
-- **文件**: [adb-ado.json](economics/adb-ado.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: PDF, Excel, CSV
-- **访问类型**: 需注册
-- **涵盖**: 46个亚行发展中成员经济体的季度GDP增长预测、通胀率预测和经济分析
-- **特色**: 覆盖五个次区域（高加索和中亚、东亚、南亚、东南亚、太平洋），提供宏观经济指标、政策建议和风险评估
-
-#### ADB Data Library - 亚洲开发银行数据库
-- **文件**: [adb-data-library.json](economics/adb-data-library.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, JSON, SDMX
-- **访问类型**: 开放
-- **涵盖**: 亚太国家GDP和经济增长指标、贫困和收入分配统计、人口数据
-- **特色**: 来自《亚洲发展展望》(ADO)、《亚太地区关键指标》等旗舰出版物的宏观经济和社会数据
-
-#### Asian Development Bank - Vietnam Country Data - 亚洲开发银行越南国别数据
-- **文件**: [adb-vietnam.json](economics/adb-vietnam.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, PDF
-- **访问类型**: 需注册
-- **涵盖**: 越南GDP增长（2025年6.7%，2026年6.0%）、通胀率、人口、劳动力、贫困统计
-- **特色**: 政府财政、国民账户、银行货币统计、贸易和国际收支、可持续发展目标(SDG)指标
-
-#### CEIC Global Database - 环亚经济数据库
-- **文件**: [ceic-global-database.json](economics/ceic-global-database.json)
-- **权威等级**: commercial
-- **数据格式**: CSV, Excel, API
-- **访问类型**: 开放
-- **涵盖**: 全球200+国家超过420万个时间序列，来自2500多个数据源
-- **特色**: 宏观经济指标、18个宏观部门和14个工业部门数据、高频替代数据、ESG数据、县级粒度经济数据
-
-#### CEIC Vietnam Economic Database - 环亚经济数据库 - 越南经济数据专题
-- **文件**: [ceic-vietnam.json](economics/ceic-vietnam.json)
-- **权威等级**: commercial
-- **数据格式**: CSV, Excel, API
-- **访问类型**: 开放
-- **涵盖**: 越南1955-2030年宏观经济指标、工业生产、贸易统计、劳动力市场数据
-- **特色**: 来自越南统计总局(GSO)的结构化数据，包括GDP、CPI、就业、贸易、政府财政和金融市场月度/季度/年度更新
-
-### 🌐 贸易 Trade (4/6)
+### 🌐 贸易 Trade
 
 #### WTO Statistics - 世界贸易组织统计
 - **文件**: [wto.json](trade/wto.json) ⭐💎
@@ -159,15 +82,7 @@
 - **涵盖**: 全球21家领先银行，2010-2025年，超过25.7万亿美元交易，4700万+笔贸易融资交易
 - **特色**: 贸易融资基准数据、全球和区域违约率、违约损失率(LGD)、信用证和保函风险分析、供应链金融表现、资本优化洞察
 
-#### BEA International Trade in Goods and Services - 美国经济分析局国际贸易数据
-- **文件**: [bea-international-trade.json](trade/bea-international-trade.json) ⭐💎
-- **权威等级**: government
-- **数据格式**: CSV, Excel, JSON
-- **访问类型**: 开放
-- **涵盖**: 美国1960年至今的国际货物和服务贸易月度统计，包括总出口、进口和贸易差额
-- **特色**: 按国家和地理区域的双边贸易数据（1999年起）、货物贸易详细产品类别、服务贸易、国际投资头寸、API支持
-
-### ⚡ 能源 Energy (2/6)
+### ⚡ 能源 Energy
 
 #### IEA Energy Data - 国际能源署数据
 - **文件**: [iea.json](energy/iea.json) ⭐💎
@@ -185,7 +100,7 @@
 - **涵盖**: 全球核电站详细信息，自1970年月度生产统计
 - **特色**: 动力堆信息系统(PRIS)、反应堆规格和性能数据、核燃料材料测试数据、热工水力数据集、国际性能指标基准
 
-### 🌾 农业 Agriculture (2/5)
+### 🌾 农业 Agriculture
 
 #### FAOSTAT - 联合国粮农组织统计
 - **文件**: [faostat.json](agriculture/faostat.json) ⭐💎
@@ -203,7 +118,7 @@
 - **涵盖**: 全球，1970-2025年，10,000+数据集
 - **特色**: 农业研究数据、作物改良、气候适应、土壤数据、基因组
 
-### 🎓 教育 Education (2/8)
+### 🎓 教育 Education
 
 #### PISA - 国际学生评估项目
 - **文件**: [oecd-pisa.json](education/oecd-pisa.json) ⭐💎
@@ -221,7 +136,7 @@
 - **涵盖**: 全球60+国家和地区，1995-2025年，多项国际大规模评估研究
 - **特色**: TIMSS(数学与科学)、PIRLS(阅读素养)、ICCS(公民教育)、ICILS(数字素养)、LaNA(早期识字算术)、TEDS-M(教师教育)，包含学生成就、教师问卷、学校问卷、课程和背景变量数据
 
-### 🏥 健康 Health (2/10)
+### 🏥 健康 Health
 
 #### ECDC Surveillance Data - 欧洲疾病预防控制中心监测数据
 - **文件**: [ecdc-surveillance.json](health/ecdc-surveillance.json) ⭐💎
@@ -239,7 +154,7 @@
 - **涵盖**: 55个非盟成员国，2016-2025年
 - **特色**: 传染病监测、实验室网络、应急响应、COVID-19数据
 
-### 🌳 环境 Environment (2/12)
+### 🌳 环境 Environment
 
 #### Basel Convention Data - 巴塞尔公约数据
 - **文件**: [basel-convention.json](environment/basel-convention.json) ⭐💎
@@ -257,42 +172,7 @@
 - **涵盖**: 184个缔约方，1975-2025年，2000万+贸易记录
 - **特色**: 濒危物种贸易监测、许可证数据、物种保护状况
 
-#### Carbon Dioxide Information Analysis Center - 碳信息分析中心
-- **文件**: [cdiac.json](environment/cdiac.json) ⭐
-- **权威等级**: research
-- **数据格式**: CSV, NetCDF, HDF, Text
-- **访问类型**: 开放
-- **涵盖**: 全球、区域和国家化石燃料CO2排放数据，1751-2017年
-- **特色**: 固体/液体/气体燃料消费排放、水泥生产排放、大气CO2浓度、痕量气体测量、土地利用变化排放数据
-
-### 🌍 发展 Development (5/13)
-
-
-#### Asian Development Bank Data Library - 亚洲开发银行数据库
-- **文件**: [adb-data-library.json](development/adb-data-library.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: JSON, CSV, Excel
-- **访问类型**: 开放
-- **涵盖**: 亚洲开发银行数据库是亚洲开发银行所有公共数据的中央存储库，为亚太地区提供经济、金融、社会和环境数据的全面访问。该平台由亚洲开发银行建立，亚行是成立于1966年的
-- **特色**: National Accounts - GDP, GNI, consumption, investment, savings, and economic growth indicators by co
-
-
-#### Asian Development Bank Key Indicators - 亚洲开发银行关键指标
-- **文件**: [adb-key-indicators.json](development/adb-key-indicators.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: JSON, CSV, Excel
-- **访问类型**: 开放
-- **涵盖**: 《亚洲及太平洋地区关键指标》是亚洲开发银行(ADB)的旗舰年度统计出版物。它提供亚行49个区域成员经济体的经济、金融、社会、环境和可持续发展目标(SDG)指标的
-- **特色**: People - Population, demographic structure, labor force, employment, and education statistics
-
-
-#### African Development Bank Statistics - 非洲开发银行统计数据
-- **文件**: [afdb-statistics.json](development/afdb-statistics.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: JSON, CSV, Excel
-- **访问类型**: 开放
-- **涵盖**: 非洲开发银行统计数据门户通过非洲信息高速公路(AIH)为非洲国家提供全面的统计数据和发展指标。该门户建立于2011年,是一个连接所有非洲国家和16个区域组织的开
-- **特色**: Socio-Economic Database (1960-2024): Comprehensive data on agriculture, debt, economic indicators, e
+### 🌍 发展 Development
 
 #### Asian Development Bank Data Library - 亚洲开发银行数据库
 - **文件**: [adb-data.json](development/adb-data.json) ⭐💎
@@ -334,31 +214,7 @@
 - **涵盖**: 拉美19个成员国，1970-2025年
 - **特色**: 拉美经济观察、基础设施融资、创新与数字化、可持续发展
 
-#### Asian Development Bank Data Library - 亚洲开发银行数据库
-- **文件**: [adb-data-library.json](development/adb-data-library.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, JSON, XML, SDMX
-- **访问类型**: 开放
-- **涵盖**: 亚太地区69个成员经济体，提供284个数据集、67个仪表板和14个数据故事
-- **特色**: 宏观经济指标、发展统计、气候变化融资、基础设施投资、社会指标、可持续发展目标监测
-
-#### Asian Development Bank Key Indicators - 亚洲开发银行关键指标
-- **文件**: [adb-key-indicators.json](development/adb-key-indicators.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, JSON, SDMX
-- **访问类型**: 开放
-- **涵盖**: 亚行49个区域成员经济体的经济、金融、社会、环境和SDG指标
-- **特色**: 人口、经济与产出、货币金融与价格、全球化、交通通信、能源电力、环境、政府治理八大主题领域
-
-#### African Development Bank Statistics - 非洲开发银行统计数据
-- **文件**: [afdb-statistics.json](development/afdb-statistics.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, JSON, SDMX
-- **访问类型**: 开放
-- **涵盖**: 非洲所有国家和16个区域组织，1960-2024年社会经济数据
-- **特色**: 非洲信息高速公路(AIH)、农业、债务、经济指标、能源、金融流动、治理、ICT、基础设施、国民账户
-
-### 💰 金融 Finance (3/6)
+### 💰 金融 Finance
 
 #### European Bank for Reconstruction and Development - 欧洲复兴开发银行
 - **文件**: [ebrd.json](finance/ebrd.json) ⭐💎
@@ -384,23 +240,7 @@
 - **涵盖**: 全球保险市场报告(GIMAR)年度评估、200+司法管辖区保险监督数据、占全球保险费的97%
 - **特色**: 保险资本标准(ICS)数据收集、全球监测演练(GME)、气候相关风险数据、网络风险评估、自然灾害保险保护缺口分析、保险核心原则(ICPs)和ComFrame实施评估
 
-#### BIS Central Bank Reserves Statistics - 国际清算银行外汇储备统计
-- **文件**: [bis-reserves.json](finance/bis-reserves.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, SDMX
-- **访问类型**: 开放
-- **涵盖**: 全球50+中央银行资产负债表数据，年度数据平均覆盖约一个世纪
-- **特色**: 中央银行总资产、外汇储备、黄金储备、对政府和金融部门债权、多种计价单位（本币、GDP百分比、美元）
-
-#### BIS Statistics - Bank for International Settlements - 国际清算银行统计数据
-- **文件**: [bis-statistics.json](finance/bis-statistics.json) ⭐💎
-- **权威等级**: international
-- **数据格式**: CSV, Excel, SDMX, JSON
-- **访问类型**: 开放
-- **涵盖**: 与全球63家中央银行和国家当局合作编制的综合全球金融和货币统计数据
-- **特色**: 国际银行业、债务证券、信贷、全球流动性、衍生品、房地产价格、汇率、中央银行统计、支付统计
-
-### 📜 知识产权 Intellectual Property (1/5)
+### 📜 知识产权 Intellectual Property
 
 #### WIPO IP Statistics - 世界知识产权组织统计
 - **文件**: [wipo.json](intellectual-property/wipo.json) ⭐💎
@@ -410,7 +250,7 @@
 - **涵盖**: 全球193个成员国，1883-2025年
 - **特色**: 专利、商标、工业品外观设计、植物品种、地理标志
 
-### 🌏 地球科学 Earth Science (2/8)
+### 🌏 地球科学 Earth Science
 
 #### NASA Earthdata - 美国航空航天局地球数据
 - **文件**: [nasa-earthdata.json](earth-science/nasa-earthdata.json) ⭐💎
@@ -428,7 +268,7 @@
 - **涵盖**: 全球，2014-2025年，PB级数据
 - **特色**: Sentinel卫星、大气、海洋、陆地、气候、紧急管理
 
-### 🚢 交通运输 Transportation (1/4)
+### 🚢 交通运输 Transportation
 
 #### ICAO Aviation Data - 国际民航组织航空数据
 - **文件**: [icao-aviation-data.json](transportation/icao-aviation-data.json) ⭐💎
@@ -438,7 +278,7 @@
 - **涵盖**: 全球193个成员国，1970-2025年，56+ APIs
 - **特色**: 机场代码(DOC7910)、航空公司代码(DOC8585)、飞机型号代码(DOC8643)、航行通告(NOTAM)、事故和事件数据、交通统计、安全数据(USOAP/IOSA)、天气数据、PBN实施统计
 
-### 📏 标准与计量 Standards & Metrology (2/3)
+### 📏 标准与计量 Standards & Metrology
 
 #### BIPM Key Comparison Database - 国际度量衡局关键比对数据库
 - **文件**: [bipm-kcdb.json](standards-metrology/bipm-kcdb.json) ⭐💎
@@ -486,20 +326,20 @@
 
 ```
 international/
-├── economics/              # 📈 经济 (5/8个数据源)
-├── trade/                  # 🌐 贸易 (4/6个数据源)
-├── energy/                 # ⚡ 能源 (2/6个数据源)
-├── agriculture/            # 🌾 农业 (2/5个数据源)
-├── education/              # 🎓 教育 (2/8个数据源)
-├── health/                 # 🏥 健康 (2/10个数据源)
-├── environment/            # 🌳 环境 (2/12个数据源)
-├── development/            # 🌍 发展 (5/13个数据源)
-├── finance/                # 💰 金融 (3/6个数据源)
-├── intellectual-property/  # 📜 知识产权 (1/5个数据源)
-├── earth-science/          # 🌏 地球科学 (2/8个数据源)
-├── labour-social/          # 👷 劳工与社会 (0/6个数据源)
-├── transportation/         # 🚢 交通运输 (1/4个数据源)
-├── standards-metrology/    # 📏 标准与计量 (2/3个数据源)
+├── economics/              # 📈 经济
+├── trade/                  # 🌐 贸易
+├── energy/                 # ⚡ 能源
+├── agriculture/            # 🌾 农业
+├── education/              # 🎓 教育
+├── health/                 # 🏥 健康
+├── environment/            # 🌳 环境
+├── development/            # 🌍 发展
+├── finance/                # 💰 金融
+├── intellectual-property/  # 📜 知识产权
+├── earth-science/          # 🌏 地球科学
+├── labour-social/          # 👷 劳工与社会
+├── transportation/         # 🚢 交通运输
+├── standards-metrology/    # 📏 标准与计量
 └── README.md
 ```
 
