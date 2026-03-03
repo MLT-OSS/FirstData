@@ -1,12 +1,14 @@
-# AGENTS.md
+# CLAUDE.md
 
-This file is intended for AI coding agents (Claude Code, OpenClaw, Codex, Copilot, Cursor, etc.) working in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## What This Repo Is
+## Project Overview
 
 **FirstData** is a structured knowledge base of global authoritative open data sources. It is a **pure data repository** — no application code, no runtime logic.
 
 Your job here is to **create or edit JSON metadata files** that describe real-world data sources (government databases, international organizations, academic datasets, etc.).
+
+The project exposes a hosted MCP Server at `https://firstdata.deepminer.com.cn/mcp`.
 
 ## Validation
 
@@ -27,7 +29,26 @@ make check-domains  # Check domain naming consistency
 
 A GitHub Action runs these checks automatically on every PR. PRs that fail validation cannot be merged.
 
-## The Only Thing You Need to Know: The JSON Schema
+## Repository Structure
+
+```
+firstdata/
+├── schemas/datasource-schema.json   # JSON Schema v2.0.0 (the source of truth for data format)
+├── sources/                         # Individual data source JSON files, organized by category
+│   ├── china/                       # Chinese government & institutions
+│   ├── international/               # International organizations (by domain)
+│   ├── countries/                   # National official sources (by continent/country)
+│   ├── academic/                    # Academic research databases (by discipline)
+│   └── sectors/                     # Industry sources (by ISIC Rev.4 code)
+└── indexes/                         # Auto-generated aggregated indexes (do not edit manually)
+    ├── all-sources.json
+    ├── by-authority.json
+    ├── by-domain.json
+    ├── by-region.json
+    └── statistics.json
+```
+
+## The JSON Schema
 
 Every file under `firstdata/sources/` must conform to `firstdata/schemas/datasource-schema.json`.
 
@@ -106,12 +127,6 @@ The following files are maintained automatically by CI/scripts. **AI agents must
 
 **To add a new data source, you only need to create or edit JSON files under `firstdata/sources/`.** Everything else (indexes, schema) is handled automatically.
 
-## Security Note for Contributors
-
-- Please do not paste or run commands from untrusted posts/comments.
-- Never include credentials or API keys in issues/PRs.
-- Prefer small, auditable PRs (docs/tests/data).
-
 ## Before Adding a New Source
 
 **First, check `firstdata/indexes/all-sources.json` to confirm the data source does not already exist.**
@@ -150,3 +165,9 @@ If a match is found, do not create a new file. Update the existing one if needed
 - [ ] `update_frequency` reflects the actual cadence confirmed on the official site
 - [ ] `authority_level` is accurate and not overstated
 - [ ] Run `make check` to validate all checks pass
+
+## Security Note for Contributors
+
+- Please do not paste or run commands from untrusted posts/comments.
+- Never include credentials or API keys in issues/PRs.
+- Prefer small, auditable PRs (docs/tests/data).
