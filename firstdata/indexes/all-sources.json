@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T06:23:13.207432+00:00",
-    "total_sources": 159,
+    "generated_at": "2026-03-04T06:23:53.862328+00:00",
+    "total_sources": 164,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -1888,6 +1888,115 @@
       "authority_level": "research",
       "has_api": false,
       "file_path": "academic/social/asian-barometer.json"
+    },
+    {
+      "id": "china-construction-standards",
+      "name": {
+        "en": "China Engineering Construction Standardization Association",
+        "zh": "中国工程建设标准化协会",
+        "native": "中国工程建设标准化协会"
+      },
+      "description": {
+        "en": "The China Engineering Construction Standardization Association (CECS) is responsible for developing and managing engineering construction standards in China. It provides access to national and industry construction standards, technical specifications, and standard revision information.",
+        "zh": "中国工程建设标准化协会负责制定和管理中国工程建设标准。提供国家和行业建设标准、技术规范和标准修订信息。"
+      },
+      "website": "https://www.cecs.org.cn",
+      "data_url": "https://www.cecs.org.cn/biaozhun/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "construction",
+        "standards",
+        "engineering"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "construction-standards",
+        "engineering",
+        "building-codes",
+        "technical-specifications"
+      ],
+      "data_content": {
+        "en": [
+          "National Construction Standards - Mandatory and recommended national standards for construction",
+          "Industry Standards - Sector-specific construction and engineering standards",
+          "Technical Specifications - Detailed technical guidelines for construction processes",
+          "Standard Revisions - Updates and revisions to existing construction standards"
+        ],
+        "zh": [
+          "国家建设标准 - 建设工程强制性和推荐性国家标准",
+          "行业标准 - 建筑和工程行业专项标准",
+          "技术规范 - 施工工艺详细技术指南",
+          "标准修订 - 现有建设标准的更新和修订"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/construction/china-construction-standards.json"
+    },
+    {
+      "id": "china-mohurd",
+      "name": {
+        "en": "Ministry of Housing and Urban-Rural Development",
+        "zh": "住房和城乡建设部",
+        "native": "住房和城乡建设部"
+      },
+      "description": {
+        "en": "The Ministry of Housing and Urban-Rural Development (MOHURD) is China's primary regulatory authority for the construction industry, housing, and urban-rural development. It provides data on construction industry regulations, building quality standards, green building certification, building energy efficiency standards, housing market policies, and urban planning.",
+        "zh": "住房和城乡建设部是中国建筑行业、住房和城乡发展的主要监管部门。提供建筑行业法规、建筑工程质量标准、绿色建筑认证政策、建筑节能标准、住房市场政策和城市规划等数据。"
+      },
+      "website": "https://www.mohurd.gov.cn",
+      "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "construction",
+        "housing",
+        "urban-planning",
+        "building-standards"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "weekly",
+      "tags": [
+        "china",
+        "mohurd",
+        "construction",
+        "housing",
+        "building-standards",
+        "green-building",
+        "urban-planning",
+        "policy",
+        "regulation"
+      ],
+      "data_content": {
+        "en": [
+          "Construction Industry Regulations - National construction industry policies and management regulations",
+          "Building Quality Standards - Engineering quality supervision and inspection standards",
+          "Green Building Certification - Green building evaluation standards and certification policies",
+          "Building Energy Efficiency - Building energy conservation standards and implementation guidelines",
+          "Housing Market Policies - Housing purchase regulations, provident fund policies, and market monitoring",
+          "Urban Planning - City development planning and land use regulations",
+          "Construction Permits - Qualification management and market access policies",
+          "Building Materials Standards - Building material quality standards and testing requirements",
+          "BIM Policies - Building Information Modeling implementation guidelines and standards"
+        ],
+        "zh": [
+          "建筑行业法规 - 全国建筑行业政策和管理条例",
+          "建筑工程质量标准 - 工程质量监督和检验标准",
+          "绿色建筑认证 - 绿色建筑评价标准和认证政策",
+          "建筑节能标准 - 建筑节能标准和实施指南",
+          "住房市场政策 - 限购政策、公积金政策和市场监测",
+          "城市规划 - 城市发展规划和土地使用法规",
+          "建筑施工许可 - 资质管理和市场准入政策",
+          "建筑材料标准 - 建筑材料质量标准和检测要求",
+          "BIM相关政策 - 建筑信息模型实施指南和标准"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/construction/china-mohurd.json"
     },
     {
       "id": "china-mohrss",
@@ -6439,6 +6548,168 @@
       "authority_level": "international",
       "has_api": true,
       "file_path": "international/agriculture/faostat.json"
+    },
+    {
+      "id": "eu-construction",
+      "name": {
+        "en": "European Commission - Construction and Buildings",
+        "zh": "欧盟委员会 - 建筑与建设",
+        "native": "European Commission - Construction and Buildings"
+      },
+      "description": {
+        "en": "The European Commission provides comprehensive data on EU construction policies, the Construction Products Regulation (CPR), Energy Performance of Buildings Directive (EPBD), and the European construction industry. Covers sustainable construction, building renovation, and harmonized standards for construction products.",
+        "zh": "欧盟委员会提供欧盟建筑政策、建筑产品法规(CPR)、建筑能源性能指令(EPBD)和欧洲建筑行业的综合数据。涵盖可持续建筑、建筑翻新和建筑产品协调标准。"
+      },
+      "website": "https://single-market-economy.ec.europa.eu/sectors/construction_en",
+      "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "construction",
+        "regulation",
+        "energy-efficiency",
+        "standards"
+      ],
+      "geographic_scope": "regional",
+      "update_frequency": "quarterly",
+      "tags": [
+        "eu",
+        "construction",
+        "building-regulation",
+        "energy-performance",
+        "sustainable-construction",
+        "construction-products",
+        "harmonized-standards"
+      ],
+      "data_content": {
+        "en": [
+          "Construction Products Regulation - Harmonized standards and CE marking requirements for construction products",
+          "Energy Performance of Buildings - EPBD implementation data and nearly zero-energy building (NZEB) statistics",
+          "Building Renovation Wave - EU building renovation strategy data and progress indicators",
+          "Construction Industry Statistics - EU construction sector output, employment, and investment data",
+          "Sustainable Construction - Environmental assessment methods and sustainability criteria for buildings",
+          "Eurocodes - Structural design standards for buildings and civil engineering works"
+        ],
+        "zh": [
+          "建筑产品法规 - 建筑产品协调标准和CE标志要求",
+          "建筑能源性能 - EPBD实施数据和近零能耗建筑(NZEB)统计",
+          "建筑翻新浪潮 - 欧盟建筑翻新战略数据和进展指标",
+          "建筑行业统计 - 欧盟建筑行业产出、就业和投资数据",
+          "可持续建筑 - 建筑环境评估方法和可持续性标准",
+          "欧洲规范 - 建筑和土木工程结构设计标准"
+        ]
+      },
+      "authority_level": "international",
+      "has_api": false,
+      "file_path": "international/construction/eu-construction.json"
+    },
+    {
+      "id": "iso-construction",
+      "name": {
+        "en": "ISO Technical Committee 59 - Buildings and Civil Engineering Works",
+        "zh": "ISO技术委员会59 - 建筑与土木工程",
+        "native": "ISO/TC 59 - Buildings and civil engineering works"
+      },
+      "description": {
+        "en": "ISO Technical Committee 59 develops international standards for buildings and civil engineering works, including sustainability in buildings, design life, tolerances, and modular coordination. Covers environmental performance, building information modeling (BIM), and structural safety standards.",
+        "zh": "ISO技术委员会59制定建筑和土木工程国际标准，包括建筑可持续性、设计使用年限、公差和模块化协调。涵盖环境性能、建筑信息模型(BIM)和结构安全标准。"
+      },
+      "website": "https://www.iso.org/committee/49070.html",
+      "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
+      "api_url": null,
+      "country": null,
+      "domains": [
+        "construction",
+        "standards",
+        "sustainability"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "quarterly",
+      "tags": [
+        "iso",
+        "construction",
+        "building-standards",
+        "sustainability",
+        "bim",
+        "civil-engineering",
+        "international-standards"
+      ],
+      "data_content": {
+        "en": [
+          "Building Sustainability Standards - ISO 15392 and related environmental performance standards",
+          "Design Life Standards - Service life planning for buildings and constructed assets",
+          "BIM Standards - Building Information Modeling data exchange standards (ISO 19650 series)",
+          "Modular Coordination - Dimensional coordination standards for building components",
+          "Structural Safety - Performance requirements for structural safety and serviceability"
+        ],
+        "zh": [
+          "建筑可持续性标准 - ISO 15392及相关环境性能标准",
+          "设计使用年限标准 - 建筑和建造资产的使用寿命规划",
+          "BIM标准 - 建筑信息模型数据交换标准（ISO 19650系列）",
+          "模块化协调 - 建筑构件尺寸协调标准",
+          "结构安全 - 结构安全性和适用性的性能要求"
+        ]
+      },
+      "authority_level": "international",
+      "has_api": false,
+      "file_path": "international/construction/iso-construction.json"
+    },
+    {
+      "id": "us-hud",
+      "name": {
+        "en": "U.S. Department of Housing and Urban Development",
+        "zh": "美国住房和城市发展部",
+        "native": "U.S. Department of Housing and Urban Development"
+      },
+      "description": {
+        "en": "The U.S. Department of Housing and Urban Development (HUD) provides data on housing markets, building codes, fair housing regulations, community development programs, and housing affordability. It offers comprehensive datasets on rental markets, homeownership, housing discrimination, and public housing.",
+        "zh": "美国住房和城市发展部(HUD)提供住房市场、建筑规范、公平住房法规、社区发展项目和住房可负担性数据。提供租赁市场、房屋所有权、住房歧视和公共住房的综合数据集。"
+      },
+      "website": "https://www.hud.gov",
+      "data_url": "https://www.huduser.gov/portal/datasets/",
+      "api_url": "https://www.huduser.gov/hudapi/public/",
+      "country": "US",
+      "domains": [
+        "construction",
+        "housing",
+        "urban-development",
+        "real-estate"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "tags": [
+        "usa",
+        "hud",
+        "housing",
+        "construction",
+        "building-codes",
+        "urban-development",
+        "fair-housing",
+        "real-estate"
+      ],
+      "data_content": {
+        "en": [
+          "Housing Market Data - National and regional housing market indicators and trends",
+          "Building Codes - Federal building standards and manufactured housing construction codes",
+          "Fair Housing Data - Housing discrimination complaints and enforcement actions",
+          "Affordable Housing - Low-income housing tax credit data and Section 8 voucher statistics",
+          "Public Housing - Public housing inventory, occupancy, and condition data",
+          "Community Development - Community Development Block Grant (CDBG) allocation data",
+          "Housing Finance - FHA mortgage insurance data and housing counseling statistics"
+        ],
+        "zh": [
+          "住房市场数据 - 全国及地区住房市场指标和趋势",
+          "建筑规范 - 联邦建筑标准和制造住房建设规范",
+          "公平住房数据 - 住房歧视投诉和执法行动",
+          "经济适用房 - 低收入住房税收抵免数据和第8条代金券统计",
+          "公共住房 - 公共住房库存、入住率和状况数据",
+          "社区发展 - 社区发展整体拨款(CDBG)分配数据",
+          "住房金融 - FHA抵押贷款保险数据和住房咨询统计"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": true,
+      "file_path": "international/construction/us-hud.json"
     },
     {
       "id": "adb-data-library",

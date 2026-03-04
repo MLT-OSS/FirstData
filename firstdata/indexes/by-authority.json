@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T06:23:13.207432+00:00",
-    "total_sources": 159,
+    "generated_at": "2026-03-04T06:23:53.862328+00:00",
+    "total_sources": 164,
     "authority_counts": {
       "research": 30,
-      "international": 42,
-      "government": 61,
+      "international": 44,
+      "government": 64,
       "commercial": 11,
       "market": 14,
       "other": 1
@@ -459,6 +459,32 @@
         "data_url": "https://www.fao.org/faostat/en/",
         "has_api": true,
         "file_path": "international/agriculture/faostat.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "eu-construction",
+        "name": {
+          "en": "European Commission - Construction and Buildings",
+          "zh": "欧盟委员会 - 建筑与建设",
+          "native": "European Commission - Construction and Buildings"
+        },
+        "authority_level": "international",
+        "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+        "has_api": false,
+        "file_path": "international/construction/eu-construction.json",
+        "geographic_scope": "regional"
+      },
+      {
+        "id": "iso-construction",
+        "name": {
+          "en": "ISO Technical Committee 59 - Buildings and Civil Engineering Works",
+          "zh": "ISO技术委员会59 - 建筑与土木工程",
+          "native": "ISO/TC 59 - Buildings and civil engineering works"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
+        "has_api": false,
+        "file_path": "international/construction/iso-construction.json",
         "geographic_scope": "global"
       },
       {
@@ -962,6 +988,32 @@
         "data_url": "https://portal.gdc.cancer.gov/",
         "has_api": true,
         "file_path": "academic/health/tcga.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-construction-standards",
+        "name": {
+          "en": "China Engineering Construction Standardization Association",
+          "zh": "中国工程建设标准化协会",
+          "native": "中国工程建设标准化协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cecs.org.cn/biaozhun/",
+        "has_api": false,
+        "file_path": "china/construction/china-construction-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mohurd",
+        "name": {
+          "en": "Ministry of Housing and Urban-Rural Development",
+          "zh": "住房和城乡建设部",
+          "native": "住房和城乡建设部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+        "has_api": false,
+        "file_path": "china/construction/china-mohurd.json",
         "geographic_scope": "national"
       },
       {
@@ -1592,6 +1644,19 @@
         "data_url": "https://www.ibge.gov.br/en/indicators",
         "has_api": true,
         "file_path": "countries/south-america/brazil-ibge.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-hud",
+        "name": {
+          "en": "U.S. Department of Housing and Urban Development",
+          "zh": "美国住房和城市发展部",
+          "native": "U.S. Department of Housing and Urban Development"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.huduser.gov/portal/datasets/",
+        "has_api": true,
+        "file_path": "international/construction/us-hud.json",
         "geographic_scope": "national"
       },
       {

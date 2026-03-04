@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T06:23:13.207432+00:00",
+    "generated_at": "2026-03-04T06:23:53.862328+00:00",
     "total_regions": 11,
-    "total_sources": 159,
+    "total_sources": 164,
     "version": "2.0"
   },
   "regions": {
@@ -163,6 +163,32 @@
       }
     ],
     "CN": [
+      {
+        "id": "china-construction-standards",
+        "name": {
+          "en": "China Engineering Construction Standardization Association",
+          "zh": "中国工程建设标准化协会",
+          "native": "中国工程建设标准化协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cecs.org.cn/biaozhun/",
+        "has_api": false,
+        "file_path": "china/construction/china-construction-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mohurd",
+        "name": {
+          "en": "Ministry of Housing and Urban-Rural Development",
+          "zh": "住房和城乡建设部",
+          "native": "住房和城乡建设部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+        "has_api": false,
+        "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-mohrss",
         "name": {
@@ -857,6 +883,19 @@
         "data_url": "https://catalog.data.gov/dataset",
         "has_api": false,
         "file_path": "countries/north-america/usa/us-data-gov.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-hud",
+        "name": {
+          "en": "U.S. Department of Housing and Urban Development",
+          "zh": "美国住房和城市发展部",
+          "native": "U.S. Department of Housing and Urban Development"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.huduser.gov/portal/datasets/",
+        "has_api": true,
+        "file_path": "international/construction/us-hud.json",
         "geographic_scope": "national"
       },
       {

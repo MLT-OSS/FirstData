@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T06:23:13.207432+00:00",
-    "total_domains": 603,
-    "total_sources": 159,
+    "generated_at": "2026-03-04T06:23:53.862328+00:00",
+    "total_domains": 609,
+    "total_sources": 164,
     "version": "2.0"
   },
   "domains": {
@@ -1347,6 +1347,21 @@
         "geographic_scope": "global"
       }
     ],
+    "building-standards": [
+      {
+        "id": "china-mohurd",
+        "name": {
+          "en": "Ministry of Housing and Urban-Rural Development",
+          "zh": "住房和城乡建设部",
+          "native": "住房和城乡建设部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+        "has_api": false,
+        "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
+      }
+    ],
     "business": [
       {
         "id": "canada-statcan",
@@ -2350,6 +2365,73 @@
         "has_api": false,
         "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
         "geographic_scope": "global"
+      }
+    ],
+    "construction": [
+      {
+        "id": "china-construction-standards",
+        "name": {
+          "en": "China Engineering Construction Standardization Association",
+          "zh": "中国工程建设标准化协会",
+          "native": "中国工程建设标准化协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cecs.org.cn/biaozhun/",
+        "has_api": false,
+        "file_path": "china/construction/china-construction-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mohurd",
+        "name": {
+          "en": "Ministry of Housing and Urban-Rural Development",
+          "zh": "住房和城乡建设部",
+          "native": "住房和城乡建设部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+        "has_api": false,
+        "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "eu-construction",
+        "name": {
+          "en": "European Commission - Construction and Buildings",
+          "zh": "欧盟委员会 - 建筑与建设",
+          "native": "European Commission - Construction and Buildings"
+        },
+        "authority_level": "international",
+        "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+        "has_api": false,
+        "file_path": "international/construction/eu-construction.json",
+        "geographic_scope": "regional"
+      },
+      {
+        "id": "iso-construction",
+        "name": {
+          "en": "ISO Technical Committee 59 - Buildings and Civil Engineering Works",
+          "zh": "ISO技术委员会59 - 建筑与土木工程",
+          "native": "ISO/TC 59 - Buildings and civil engineering works"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
+        "has_api": false,
+        "file_path": "international/construction/iso-construction.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "us-hud",
+        "name": {
+          "en": "U.S. Department of Housing and Urban Development",
+          "zh": "美国住房和城市发展部",
+          "native": "U.S. Department of Housing and Urban Development"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.huduser.gov/portal/datasets/",
+        "has_api": true,
+        "file_path": "international/construction/us-hud.json",
+        "geographic_scope": "national"
       }
     ],
     "consumer": [
@@ -5260,7 +5342,35 @@
         "geographic_scope": "global"
       }
     ],
+    "energy-efficiency": [
+      {
+        "id": "eu-construction",
+        "name": {
+          "en": "European Commission - Construction and Buildings",
+          "zh": "欧盟委员会 - 建筑与建设",
+          "native": "European Commission - Construction and Buildings"
+        },
+        "authority_level": "international",
+        "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+        "has_api": false,
+        "file_path": "international/construction/eu-construction.json",
+        "geographic_scope": "regional"
+      }
+    ],
     "engineering": [
+      {
+        "id": "china-construction-standards",
+        "name": {
+          "en": "China Engineering Construction Standardization Association",
+          "zh": "中国工程建设标准化协会",
+          "native": "中国工程建设标准化协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cecs.org.cn/biaozhun/",
+        "has_api": false,
+        "file_path": "china/construction/china-construction-standards.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "derwent-innovation-index",
         "name": {
@@ -7895,6 +8005,19 @@
     ],
     "housing": [
       {
+        "id": "china-mohurd",
+        "name": {
+          "en": "Ministry of Housing and Urban-Rural Development",
+          "zh": "住房和城乡建设部",
+          "native": "住房和城乡建设部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+        "has_api": false,
+        "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "cnki-population-census",
         "name": {
           "en": "CNKI China Population Census Database",
@@ -7966,6 +8089,19 @@
         "data_url": "https://www.aihw.gov.au/",
         "has_api": true,
         "file_path": "countries/oceania/australia/aihw.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-hud",
+        "name": {
+          "en": "U.S. Department of Housing and Urban Development",
+          "zh": "美国住房和城市发展部",
+          "native": "U.S. Department of Housing and Urban Development"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.huduser.gov/portal/datasets/",
+        "has_api": true,
+        "file_path": "international/construction/us-hud.json",
         "geographic_scope": "national"
       }
     ],
@@ -12150,6 +12286,21 @@
         "geographic_scope": "global"
       }
     ],
+    "real-estate": [
+      {
+        "id": "us-hud",
+        "name": {
+          "en": "U.S. Department of Housing and Urban Development",
+          "zh": "美国住房和城市发展部",
+          "native": "U.S. Department of Housing and Urban Development"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.huduser.gov/portal/datasets/",
+        "has_api": true,
+        "file_path": "international/construction/us-hud.json",
+        "geographic_scope": "national"
+      }
+    ],
     "regional economics": [
       {
         "id": "us-bea",
@@ -12216,6 +12367,19 @@
         "has_api": false,
         "file_path": "china/finance/banking/nfra.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "eu-construction",
+        "name": {
+          "en": "European Commission - Construction and Buildings",
+          "zh": "欧盟委员会 - 建筑与建设",
+          "native": "European Commission - Construction and Buildings"
+        },
+        "authority_level": "international",
+        "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+        "has_api": false,
+        "file_path": "international/construction/eu-construction.json",
+        "geographic_scope": "regional"
       }
     ],
     "regulatory capital": [
@@ -13084,6 +13248,19 @@
     ],
     "standards": [
       {
+        "id": "china-construction-standards",
+        "name": {
+          "en": "China Engineering Construction Standardization Association",
+          "zh": "中国工程建设标准化协会",
+          "native": "中国工程建设标准化协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cecs.org.cn/biaozhun/",
+        "has_api": false,
+        "file_path": "china/construction/china-construction-standards.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sac-standards",
         "name": {
           "en": "Standardization Administration of China (SAC)",
@@ -13094,6 +13271,32 @@
         "has_api": false,
         "file_path": "china/technology/standards/china-sac-standards.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "eu-construction",
+        "name": {
+          "en": "European Commission - Construction and Buildings",
+          "zh": "欧盟委员会 - 建筑与建设",
+          "native": "European Commission - Construction and Buildings"
+        },
+        "authority_level": "international",
+        "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+        "has_api": false,
+        "file_path": "international/construction/eu-construction.json",
+        "geographic_scope": "regional"
+      },
+      {
+        "id": "iso-construction",
+        "name": {
+          "en": "ISO Technical Committee 59 - Buildings and Civil Engineering Works",
+          "zh": "ISO技术委员会59 - 建筑与土木工程",
+          "native": "ISO/TC 59 - Buildings and civil engineering works"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
+        "has_api": false,
+        "file_path": "international/construction/iso-construction.json",
+        "geographic_scope": "global"
       }
     ],
     "statistics": [
@@ -13271,6 +13474,19 @@
       }
     ],
     "sustainability": [
+      {
+        "id": "iso-construction",
+        "name": {
+          "en": "ISO Technical Committee 59 - Buildings and Civil Engineering Works",
+          "zh": "ISO技术委员会59 - 建筑与土木工程",
+          "native": "ISO/TC 59 - Buildings and civil engineering works"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
+        "has_api": false,
+        "file_path": "international/construction/iso-construction.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "aws-open-data-registry",
         "name": {
@@ -14135,6 +14351,36 @@
         "has_api": false,
         "file_path": "international/development/caf.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "urban-development": [
+      {
+        "id": "us-hud",
+        "name": {
+          "en": "U.S. Department of Housing and Urban Development",
+          "zh": "美国住房和城市发展部",
+          "native": "U.S. Department of Housing and Urban Development"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.huduser.gov/portal/datasets/",
+        "has_api": true,
+        "file_path": "international/construction/us-hud.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "urban-planning": [
+      {
+        "id": "china-mohurd",
+        "name": {
+          "en": "Ministry of Housing and Urban-Rural Development",
+          "zh": "住房和城乡建设部",
+          "native": "住房和城乡建设部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+        "has_api": false,
+        "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
       }
     ],
     "urbanization": [
