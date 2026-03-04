@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-04T06:23:53.862328+00:00",
+    "generated_at": "2026-03-04T09:06:49.843570+00:00",
     "total_sources": 164,
     "version": "2.0",
     "schema_version": "v2.0.0"
@@ -3269,7 +3269,7 @@
       },
       "website": "http://www.stats.gov.cn",
       "data_url": "https://www.stats.gov.cn/sj/",
-      "api_url": "http://data.stats.gov.cn/api.htm",
+      "api_url": "https://data.stats.gov.cn/",
       "country": "CN",
       "domains": [
         "economics",
@@ -7952,7 +7952,7 @@
       },
       "website": "https://www.imf.org",
       "data_url": "https://data.imf.org",
-      "api_url": "https://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service",
+      "api_url": "https://www.imf.org/external/datamapper/api/v1/",
       "country": null,
       "domains": [
         "economics",
@@ -9493,7 +9493,7 @@
       },
       "website": "https://unctad.org",
       "data_url": "https://unctadstat.unctad.org",
-      "api_url": "https://unctadstat.unctad.org/EN/api.html",
+      "api_url": "https://unctadstat-api.unctad.org/",
       "country": null,
       "domains": [
         "trade",
