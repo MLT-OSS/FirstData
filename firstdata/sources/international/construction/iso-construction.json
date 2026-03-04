@@ -1,0 +1,49 @@
+{
+    "id": "iso-construction",
+    "name": {
+        "en": "ISO Technical Committee 59 - Buildings and Civil Engineering Works",
+        "zh": "ISO技术委员会59 - 建筑与土木工程",
+        "native": "ISO/TC 59 - Buildings and civil engineering works"
+    },
+    "description": {
+        "en": "ISO Technical Committee 59 develops international standards for buildings and civil engineering works, including sustainability in buildings, design life, tolerances, and modular coordination. Covers environmental performance, building information modeling (BIM), and structural safety standards.",
+        "zh": "ISO技术委员会59制定建筑和土木工程国际标准，包括建筑可持续性、设计使用年限、公差和模块化协调。涵盖环境性能、建筑信息模型(BIM)和结构安全标准。"
+    },
+    "website": "https://www.iso.org/committee/49070.html",
+    "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
+    "api_url": null,
+    "country": null,
+    "domains": [
+        "construction",
+        "standards",
+        "sustainability"
+    ],
+    "geographic_scope": "global",
+    "update_frequency": "quarterly",
+    "tags": [
+        "iso",
+        "construction",
+        "building-standards",
+        "sustainability",
+        "bim",
+        "civil-engineering",
+        "international-standards"
+    ],
+    "data_content": {
+        "en": [
+            "Building Sustainability Standards - ISO 15392 and related environmental performance standards",
+            "Design Life Standards - Service life planning for buildings and constructed assets",
+            "BIM Standards - Building Information Modeling data exchange standards (ISO 19650 series)",
+            "Modular Coordination - Dimensional coordination standards for building components",
+            "Structural Safety - Performance requirements for structural safety and serviceability"
+        ],
+        "zh": [
+            "建筑可持续性标准 - ISO 15392及相关环境性能标准",
+            "设计使用年限标准 - 建筑和建造资产的使用寿命规划",
+            "BIM标准 - 建筑信息模型数据交换标准（ISO 19650系列）",
+            "模块化协调 - 建筑构件尺寸协调标准",
+            "结构安全 - 结构安全性和适用性的性能要求"
+        ]
+    },
+    "authority_level": "international"
+}

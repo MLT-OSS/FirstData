@@ -1,0 +1,45 @@
+{
+    "id": "china-construction-standards",
+    "name": {
+        "en": "China Engineering Construction Standardization Association",
+        "zh": "中国工程建设标准化协会",
+        "native": "中国工程建设标准化协会"
+    },
+    "description": {
+        "en": "The China Engineering Construction Standardization Association (CECS) is responsible for developing and managing engineering construction standards in China. It provides access to national and industry construction standards, technical specifications, and standard revision information.",
+        "zh": "中国工程建设标准化协会负责制定和管理中国工程建设标准。提供国家和行业建设标准、技术规范和标准修订信息。"
+    },
+    "website": "https://www.cecs.org.cn",
+    "data_url": "https://www.cecs.org.cn/biaozhun/",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "construction",
+        "standards",
+        "engineering"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "monthly",
+    "tags": [
+        "china",
+        "construction-standards",
+        "engineering",
+        "building-codes",
+        "technical-specifications"
+    ],
+    "data_content": {
+        "en": [
+            "National Construction Standards - Mandatory and recommended national standards for construction",
+            "Industry Standards - Sector-specific construction and engineering standards",
+            "Technical Specifications - Detailed technical guidelines for construction processes",
+            "Standard Revisions - Updates and revisions to existing construction standards"
+        ],
+        "zh": [
+            "国家建设标准 - 建设工程强制性和推荐性国家标准",
+            "行业标准 - 建筑和工程行业专项标准",
+            "技术规范 - 施工工艺详细技术指南",
+            "标准修订 - 现有建设标准的更新和修订"
+        ]
+    },
+    "authority_level": "government"
+}

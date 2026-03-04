@@ -1,0 +1,52 @@
+{
+    "id": "eu-construction",
+    "name": {
+        "en": "European Commission - Construction and Buildings",
+        "zh": "欧盟委员会 - 建筑与建设",
+        "native": "European Commission - Construction and Buildings"
+    },
+    "description": {
+        "en": "The European Commission provides comprehensive data on EU construction policies, the Construction Products Regulation (CPR), Energy Performance of Buildings Directive (EPBD), and the European construction industry. Covers sustainable construction, building renovation, and harmonized standards for construction products.",
+        "zh": "欧盟委员会提供欧盟建筑政策、建筑产品法规(CPR)、建筑能源性能指令(EPBD)和欧洲建筑行业的综合数据。涵盖可持续建筑、建筑翻新和建筑产品协调标准。"
+    },
+    "website": "https://single-market-economy.ec.europa.eu/sectors/construction_en",
+    "data_url": "https://ec.europa.eu/growth/sectors/construction_en",
+    "api_url": null,
+    "country": null,
+    "domains": [
+        "construction",
+        "regulation",
+        "energy-efficiency",
+        "standards"
+    ],
+    "geographic_scope": "regional",
+    "update_frequency": "quarterly",
+    "tags": [
+        "eu",
+        "construction",
+        "building-regulation",
+        "energy-performance",
+        "sustainable-construction",
+        "construction-products",
+        "harmonized-standards"
+    ],
+    "data_content": {
+        "en": [
+            "Construction Products Regulation - Harmonized standards and CE marking requirements for construction products",
+            "Energy Performance of Buildings - EPBD implementation data and nearly zero-energy building (NZEB) statistics",
+            "Building Renovation Wave - EU building renovation strategy data and progress indicators",
+            "Construction Industry Statistics - EU construction sector output, employment, and investment data",
+            "Sustainable Construction - Environmental assessment methods and sustainability criteria for buildings",
+            "Eurocodes - Structural design standards for buildings and civil engineering works"
+        ],
+        "zh": [
+            "建筑产品法规 - 建筑产品协调标准和CE标志要求",
+            "建筑能源性能 - EPBD实施数据和近零能耗建筑(NZEB)统计",
+            "建筑翻新浪潮 - 欧盟建筑翻新战略数据和进展指标",
+            "建筑行业统计 - 欧盟建筑行业产出、就业和投资数据",
+            "可持续建筑 - 建筑环境评估方法和可持续性标准",
+            "欧洲规范 - 建筑和土木工程结构设计标准"
+        ]
+    },
+    "authority_level": "international"
+}

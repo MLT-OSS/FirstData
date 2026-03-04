@@ -1,0 +1,55 @@
+{
+    "id": "us-hud",
+    "name": {
+        "en": "U.S. Department of Housing and Urban Development",
+        "zh": "美国住房和城市发展部",
+        "native": "U.S. Department of Housing and Urban Development"
+    },
+    "description": {
+        "en": "The U.S. Department of Housing and Urban Development (HUD) provides data on housing markets, building codes, fair housing regulations, community development programs, and housing affordability. It offers comprehensive datasets on rental markets, homeownership, housing discrimination, and public housing.",
+        "zh": "美国住房和城市发展部(HUD)提供住房市场、建筑规范、公平住房法规、社区发展项目和住房可负担性数据。提供租赁市场、房屋所有权、住房歧视和公共住房的综合数据集。"
+    },
+    "website": "https://www.hud.gov",
+    "data_url": "https://www.huduser.gov/portal/datasets/",
+    "api_url": "https://www.huduser.gov/hudapi/public/",
+    "country": "US",
+    "domains": [
+        "construction",
+        "housing",
+        "urban-development",
+        "real-estate"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "quarterly",
+    "tags": [
+        "usa",
+        "hud",
+        "housing",
+        "construction",
+        "building-codes",
+        "urban-development",
+        "fair-housing",
+        "real-estate"
+    ],
+    "data_content": {
+        "en": [
+            "Housing Market Data - National and regional housing market indicators and trends",
+            "Building Codes - Federal building standards and manufactured housing construction codes",
+            "Fair Housing Data - Housing discrimination complaints and enforcement actions",
+            "Affordable Housing - Low-income housing tax credit data and Section 8 voucher statistics",
+            "Public Housing - Public housing inventory, occupancy, and condition data",
+            "Community Development - Community Development Block Grant (CDBG) allocation data",
+            "Housing Finance - FHA mortgage insurance data and housing counseling statistics"
+        ],
+        "zh": [
+            "住房市场数据 - 全国及地区住房市场指标和趋势",
+            "建筑规范 - 联邦建筑标准和制造住房建设规范",
+            "公平住房数据 - 住房歧视投诉和执法行动",
+            "经济适用房 - 低收入住房税收抵免数据和第8条代金券统计",
+            "公共住房 - 公共住房库存、入住率和状况数据",
+            "社区发展 - 社区发展整体拨款(CDBG)分配数据",
+            "住房金融 - FHA抵押贷款保险数据和住房咨询统计"
+        ]
+    },
+    "authority_level": "government"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "china-mohurd",
+    "name": {
+        "en": "Ministry of Housing and Urban-Rural Development",
+        "zh": "住房和城乡建设部",
+        "native": "住房和城乡建设部"
+    },
+    "description": {
+        "en": "The Ministry of Housing and Urban-Rural Development (MOHURD) is China's primary regulatory authority for the construction industry, housing, and urban-rural development. It provides data on construction industry regulations, building quality standards, green building certification, building energy efficiency standards, housing market policies, and urban planning.",
+        "zh": "住房和城乡建设部是中国建筑行业、住房和城乡发展的主要监管部门。提供建筑行业法规、建筑工程质量标准、绿色建筑认证政策、建筑节能标准、住房市场政策和城市规划等数据。"
+    },
+    "website": "https://www.mohurd.gov.cn",
+    "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "construction",
+        "housing",
+        "urban-planning",
+        "building-standards"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "weekly",
+    "tags": [
+        "china",
+        "mohurd",
+        "construction",
+        "housing",
+        "building-standards",
+        "green-building",
+        "urban-planning",
+        "policy",
+        "regulation"
+    ],
+    "data_content": {
+        "en": [
+            "Construction Industry Regulations - National construction industry policies and management regulations",
+            "Building Quality Standards - Engineering quality supervision and inspection standards",
+            "Green Building Certification - Green building evaluation standards and certification policies",
+            "Building Energy Efficiency - Building energy conservation standards and implementation guidelines",
+            "Housing Market Policies - Housing purchase regulations, provident fund policies, and market monitoring",
+            "Urban Planning - City development planning and land use regulations",
+            "Construction Permits - Qualification management and market access policies",
+            "Building Materials Standards - Building material quality standards and testing requirements",
+            "BIM Policies - Building Information Modeling implementation guidelines and standards"
+        ],
+        "zh": [
+            "建筑行业法规 - 全国建筑行业政策和管理条例",
+            "建筑工程质量标准 - 工程质量监督和检验标准",
+            "绿色建筑认证 - 绿色建筑评价标准和认证政策",
+            "建筑节能标准 - 建筑节能标准和实施指南",
+            "住房市场政策 - 限购政策、公积金政策和市场监测",
+            "城市规划 - 城市发展规划和土地使用法规",
+            "建筑施工许可 - 资质管理和市场准入政策",
+            "建筑材料标准 - 建筑材料质量标准和检测要求",
+            "BIM相关政策 - 建筑信息模型实施指南和标准"
+        ]
+    },
+    "authority_level": "government"
+}
