@@ -1,0 +1,84 @@
+{
+  "id": "china-mohrss",
+  "name": {
+    "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
+    "zh": "人力资源和社会保障部统计数据"
+  },
+  "description": {
+    "en": "Official employment, labor market, and social security statistics from China's Ministry of Human Resources and Social Security (MOHRSS). Covers national employment and unemployment data, labor force surveys, social insurance (pension, medical, unemployment, work injury, maternity), vocational training, civil servant management, labor dispute resolution, and wage statistics. Publishes quarterly statistical bulletins, annual human resources and social security development reports, and specialized survey results.",
+    "zh": "中国人力资源和社会保障部发布的官方就业、劳动力市场和社会保障统计数据。涵盖全国就业与失业数据、劳动力调查、社会保险（养老、医疗、失业、工伤、生育）、职业培训、公务员管理、劳动争议处理和工资统计。发布季度统计公报、年度人力资源和社会保障事业发展统计公报及专项调查结果。"
+  },
+  "website": "https://www.mohrss.gov.cn/",
+  "data_url": "http://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/szrs/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "employment",
+    "social_security",
+    "economics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "就业",
+    "employment",
+    "失业率",
+    "unemployment rate",
+    "社会保障",
+    "social security",
+    "养老保险",
+    "pension insurance",
+    "医疗保险",
+    "medical insurance",
+    "工伤保险",
+    "work injury insurance",
+    "失业保险",
+    "unemployment insurance",
+    "劳动力市场",
+    "labor market",
+    "职业培训",
+    "vocational training",
+    "工资",
+    "wage",
+    "salary",
+    "劳动争议",
+    "labor dispute",
+    "公务员",
+    "civil servant",
+    "人力资源",
+    "human resources",
+    "人社部",
+    "MOHRSS"
+  ],
+  "data_content": {
+    "en": [
+      "National urban employment and registered unemployment statistics",
+      "Urban labor force survey unemployment rate (monthly/quarterly)",
+      "Social insurance coverage data: pension, medical, unemployment, work injury, and maternity insurance participants",
+      "Social insurance fund revenues, expenditures, and accumulated balances",
+      "Vocational skills training and certification statistics",
+      "Labor dispute arbitration and mediation case statistics",
+      "Average wage statistics by sector and region",
+      "Minimum wage standards by province and city",
+      "Civil servant recruitment and management statistics",
+      "Migrant worker employment monitoring survey results",
+      "Human resources service industry development statistics",
+      "Annual Human Resources and Social Security Development Statistical Bulletin"
+    ],
+    "zh": [
+      "全国城镇就业和登记失业统计数据",
+      "城镇调查失业率（月度/季度）",
+      "社会保险参保人数：养老、医疗、失业、工伤、生育保险",
+      "社会保险基金收入、支出和累计结余",
+      "职业技能培训和职业资格认证统计",
+      "劳动争议仲裁和调解案件统计",
+      "分行业分地区平均工资统计",
+      "各省市最低工资标准",
+      "公务员录用和管理统计",
+      "农民工就业监测调查结果",
+      "人力资源服务业发展统计",
+      "年度人力资源和社会保障事业发展统计公报"
+    ]
+  }
+}
