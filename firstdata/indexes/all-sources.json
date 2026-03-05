@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-05T08:34:20.032340+00:00",
-    "total_sources": 166,
+    "generated_at": "2026-03-05T08:40:55.015523+00:00",
+    "total_sources": 196,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2919,71 +2919,68 @@
     {
       "id": "china-mof",
       "name": {
-        "en": "Ministry of Finance of the People's Republic of China",
-        "zh": "中华人民共和国财政部",
-        "native": "中华人民共和国财政部"
+        "en": "Ministry of Finance of China",
+        "zh": "中华人民共和国财政部"
       },
       "description": {
-        "en": "The Ministry of Finance (MOF) of China is the executive agency of the State Council responsible for fiscal policy, government revenue and expenditure, taxation policy, government procurement, and financial regulation of state-owned assets. MOF publishes comprehensive fiscal data including national and local government budgets, public finance revenue and expenditure statistics, government debt data, transfer payment details, lottery fund statistics, and accounting industry reports. The ministry also releases monthly fiscal revenue and expenditure reports, annual fiscal settlement data, and government bond issuance information. As the primary fiscal authority, MOF data is essential for analyzing China's fiscal policy, government spending priorities, and public finance health.",
-        "zh": "中华人民共和国财政部是国务院负责财政收支、税收政策、政府采购和国有资产财务监管的行政机构。财政部发布全面的财政数据，包括全国及地方政府预算、公共财政收支统计、政府债务数据、转移支付明细、彩票公益金统计和会计行业报告等。财政部还发布月度财政收支报告、年度财政决算数据和国债发行信息。作为国家财政主管部门，财政部数据是分析中国财政政策、政府支出优先级和公共财政健康状况的核心来源。"
+        "en": "The Ministry of Finance (MOF) is a constituent department of the State Council responsible for fiscal policy formulation, budget management, tax administration, and government financial regulation. It provides comprehensive data on national budgets, fiscal revenues and expenditures, government debt, tax statistics, accounting standards, and fiscal policy implementation across all levels of government.",
+        "zh": "中华人民共和国财政部是国务院组成部门,负责财政政策制定、预算管理、税收管理和政府财务监管。提供包括国家预算、财政收支、政府债务、税收统计、会计准则以及各级政府财政政策执行等全面的财政数据。"
       },
-      "website": "http://www.mof.gov.cn",
-      "data_url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengshuju/",
+      "website": "https://www.mof.gov.cn",
+      "data_url": "https://www.mof.gov.cn/gkml/",
       "api_url": null,
       "authority_level": "government",
       "country": "CN",
+      "geographic_scope": "national",
       "domains": [
         "finance",
         "economics",
-        "government"
+        "fiscal-policy",
+        "taxation",
+        "government-budget"
       ],
-      "geographic_scope": "national",
       "update_frequency": "monthly",
       "tags": [
-        "ministry of finance",
-        "MOF",
-        "fiscal policy",
-        "government budget",
-        "public finance",
-        "government revenue",
-        "government expenditure",
-        "government debt",
-        "transfer payments",
+        "china",
+        "finance",
+        "fiscal-policy",
+        "budget",
         "taxation",
-        "government bonds",
-        "treasury bonds",
-        "fiscal settlement",
-        "财政部",
+        "government-revenue",
+        "government-expenditure",
+        "public-debt",
+        "财政",
+        "预算",
+        "税收",
         "财政收支",
-        "政府预算",
-        "公共财政",
         "政府债务",
-        "国债",
-        "转移支付",
-        "财政决算",
-        "税收政策",
-        "政府采购"
+        "财政部",
+        "中央财政",
+        "地方财政",
+        "财政政策"
       ],
       "data_content": {
         "en": [
-          "Monthly fiscal revenue and expenditure reports - national and local government fiscal performance",
-          "Annual government budget and settlement data - detailed budget execution reports",
-          "Government debt statistics - central and local government bond issuance and outstanding balances",
-          "Transfer payment data - central to local government fiscal transfers",
-          "Government procurement statistics - public procurement spending and categories",
-          "Lottery fund and public welfare statistics",
-          "Accounting industry development reports",
-          "State-owned capital operation budget data"
+          "National Budget - Annual central and local government budgets, budget execution reports, and fiscal year planning",
+          "Fiscal Revenue and Expenditure - Monthly and annual fiscal revenue by source (taxes, fees), and government expenditure by function and department",
+          "Tax Statistics - Tax revenue data by category (VAT, corporate income tax, individual income tax, etc.), tax collection efficiency",
+          "Government Debt - Central and local government debt data, bond issuance, debt service ratios, and debt sustainability analysis",
+          "Transfer Payments - Central-to-local fiscal transfers, special-purpose transfers, and equalization mechanisms",
+          "State-Owned Assets - Financial performance of central state-owned enterprises, asset management, and dividend policies",
+          "Accounting Standards - Government accounting standards, financial reporting requirements, and compliance data",
+          "Fiscal Policy - Policy documents, reform initiatives, and implementation reports on fiscal reforms",
+          "International Fiscal Cooperation - Bilateral and multilateral fiscal agreements, foreign aid, and international financial commitments"
         ],
         "zh": [
-          "月度财政收支报告 - 全国及地方政府财政收支情况",
-          "年度政府预算及决算数据 - 详细预算执行报告",
-          "政府债务统计 - 中央和地方政府债券发行及余额",
-          "转移支付数据 - 中央对地方财政转移支付",
-          "政府采购统计 - 公共采购支出及分类",
-          "彩票公益金及公益事业统计",
-          "会计行业发展报告",
-          "国有资本经营预算数据"
+          "国家预算 - 年度中央和地方政府预算、预算执行报告和财政年度规划",
+          "财政收支 - 按来源分类的月度和年度财政收入(税收、费用)及按功能和部门分类的政府支出",
+          "税收统计 - 按类别分类的税收收入数据(增值税、企业所得税、个人所得税等)、税收征管效率",
+          "政府债务 - 中央和地方政府债务数据、债券发行、偿债率和债务可持续性分析",
+          "转移支付 - 中央对地方财政转移支付、专项转移支付和均衡性转移支付机制",
+          "国有资产 - 中央国有企业财务绩效、资产管理和分红政策",
+          "会计准则 - 政府会计准则、财务报告要求和合规数据",
+          "财政政策 - 财政改革政策文件、改革举措和执行报告",
+          "国际财政合作 - 双边和多边财政协定、对外援助和国际财政承诺"
         ]
       },
       "has_api": false,
@@ -3423,7 +3420,7 @@
       },
       "website": "http://www.stats.gov.cn",
       "data_url": "https://www.stats.gov.cn/sj/",
-      "api_url": "https://data.stats.gov.cn/",
+      "api_url": "http://data.stats.gov.cn/api.htm",
       "country": "CN",
       "domains": [
         "economics",
@@ -4255,6 +4252,331 @@
       "file_path": "china/technology/telecommunications/china-miit.json"
     },
     {
+      "id": "dosm",
+      "name": {
+        "en": "Department of Statistics Malaysia",
+        "zh": "马来西亚统计局"
+      },
+      "description": {
+        "en": "The Department of Statistics Malaysia (DOSM) is the main government agency responsible for collecting, interpreting and disseminating official statistics for monitoring Malaysia's economic performance and social development. It provides comprehensive data on economy, population, society and environment.",
+        "zh": "马来西亚统计局(DOSM)是马来西亚主要的政府统计机构,负责收集、解释和发布官方统计数据,用于监测马来西亚的经济表现和社会发展。该局提供涵盖经济、人口、社会和环境的综合数据。"
+      },
+      "website": "https://www.dosm.gov.my/",
+      "data_url": "https://open.dosm.gov.my/",
+      "api_url": "https://developer.data.gov.my/static-api/opendosm",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "country": "MY",
+      "domains": [
+        "economic statistics",
+        "social statistics",
+        "demographic statistics",
+        "population & census",
+        "national accounts",
+        "labour market",
+        "prices & inflation",
+        "manufacturing & industry",
+        "agriculture",
+        "external trade",
+        "household income & expenditure"
+      ],
+      "update_frequency": "irregular",
+      "data_formats": [
+        "CSV",
+        "JSON",
+        "Parquet"
+      ],
+      "license": "Open Data",
+      "contact": {
+        "email": "info@dosm.gov.my",
+        "phone": "+60 3-8885 7000"
+      },
+      "data_content": {
+        "en": [
+          "Economic Statistics - GDP, manufacturing output, industrial production, wholesale & retail trade, services sector, construction, mining & quarrying",
+          "Demographic Statistics - Population data by state, district, sex, age group and ethnicity from 1970 to present",
+          "Social Statistics - Household income & expenditure, education, labour force, employment & unemployment",
+          "Price Statistics - Consumer Price Index (CPI), Producer Price Index (PPI), inflation data",
+          "External Sector Statistics - International trade, balance of payments, external debt",
+          "Agricultural Statistics - Crop production, livestock, fisheries, forestry",
+          "Census Data - Population and housing census, economic census (MyCensus 2020)"
+        ],
+        "zh": [
+          "经济统计 - GDP、制造业产出、工业生产、批发零售贸易、服务业、建筑业、采矿业",
+          "人口统计 - 按州、区、性别、年龄组和种族分类的人口数据,从1970年至今",
+          "社会统计 - 家庭收入与支出、教育、劳动力、就业与失业",
+          "价格统计 - 消费者价格指数(CPI)、生产者价格指数(PPI)、通货膨胀数据",
+          "对外部门统计 - 国际贸易、国际收支、外债",
+          "农业统计 - 农作物生产、畜牧业、渔业、林业",
+          "普查数据 - 人口与住房普查、经济普查(MyCensus 2020)"
+        ]
+      },
+      "tags": [
+        "Malaysia",
+        "马来西亚",
+        "Official Statistics",
+        "官方统计",
+        "DOSM",
+        "OpenDOSM",
+        "Government Data",
+        "政府数据",
+        "Economic Data",
+        "经济数据",
+        "Population",
+        "人口",
+        "Census",
+        "普查",
+        "GDP",
+        "国内生产总值",
+        "CPI",
+        "消费者价格指数",
+        "Labour Statistics",
+        "劳动统计",
+        "Social Statistics",
+        "社会统计",
+        "Open Data",
+        "开放数据",
+        "API"
+      ],
+      "has_api": true,
+      "file_path": "countries/asia/dosm.json"
+    },
+    {
+      "id": "hk-companies-registry",
+      "name": {
+        "en": "Hong Kong Companies Registry",
+        "zh": "香港公司注册处"
+      },
+      "description": {
+        "en": "The Companies Registry is a government department under the Financial Services and the Treasury Bureau of the Hong Kong Special Administrative Region. It provides comprehensive company registration and business registration services, maintaining a centralized database of all registered companies in Hong Kong through the Integrated Companies Registry Information System (ICRIS).",
+        "zh": "香港公司注册处是香港特别行政区财经事务及库务局辖下的政府部门，负责公司注册及商业登记事务，通过公司注册处综合资讯系统（ICRIS）维护香港所有注册公司的集中数据库。"
+      },
+      "website": "https://www.cr.gov.hk/",
+      "data_url": "https://www.cr.gov.hk/en/services/obtain-company-info.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "HK",
+      "domains": [
+        "business",
+        "commerce",
+        "corporate-registry",
+        "legal"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "hong kong",
+        "香港",
+        "companies registry",
+        "公司注册处",
+        "ICRIS",
+        "company registration",
+        "公司注册",
+        "business registration",
+        "商业登记",
+        "corporate information",
+        "企业信息",
+        "company search",
+        "公司查册",
+        "statutory filings",
+        "法定文件",
+        "directors",
+        "董事",
+        "shareholders",
+        "股东",
+        "registered office",
+        "注册地址"
+      ],
+      "data_content": {
+        "en": [
+          "Company registration information: company name (English and Chinese), registration number, incorporation date, company type, and legal status",
+          "Registered office address and principal place of business",
+          "Directors and secretaries information",
+          "Shareholders and share capital structure",
+          "Statutory documents and filings: annual returns (NAR1), changes in directors (ND2A), changes in registered office (NM1)",
+          "Company incorporation certificates and business registration certificates",
+          "Charge and mortgage registrations",
+          "Company deregistration and winding-up records",
+          "Non-Hong Kong company registrations",
+          "Historical changes and updates to company information"
+        ],
+        "zh": [
+          "公司注册资料：公司名称（中英文）、注册编号、成立日期、公司类型及法律状态",
+          "注册办事处地址及主要营业地点",
+          "董事及公司秘书资料",
+          "股东及股本结构",
+          "法定文件及申报表：周年申报表（NAR1）、董事变更（ND2A）、注册办事处变更（NM1）",
+          "公司注册证书及商业登记证",
+          "押记及抵押登记",
+          "公司撤销注册及清盘记录",
+          "非香港公司注册",
+          "公司资料的历史变更记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/hk-companies-registry.json"
+    },
+    {
+      "id": "hk-sfc",
+      "name": {
+        "en": "Securities and Futures Commission of Hong Kong",
+        "zh": "香港证券及期货事务监察委员会"
+      },
+      "description": {
+        "en": "The Securities and Futures Commission (SFC) is an independent statutory body responsible for regulating Hong Kong's securities and futures markets. Established in 1989, the SFC oversees market participants, ensures market integrity, protects investors, and maintains fair and transparent trading environments. It provides comprehensive regulatory data, licensing information, market surveillance reports, and enforcement actions.",
+        "zh": "香港证券及期货事务监察委员会（证监会）是独立的法定机构，负责监管香港的证券及期货市场。证监会成立于1989年，监督市场参与者，确保市场诚信，保护投资者权益，维持公平透明的交易环境。证监会提供全面的监管数据、持牌资料、市场监察报告及执法行动信息。"
+      },
+      "website": "https://www.sfc.hk/",
+      "data_url": "https://www.sfc.hk/en/Regulatory-functions/Products",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "HK",
+      "domains": [
+        "finance",
+        "securities",
+        "capital-markets",
+        "regulation"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "hong kong",
+        "香港",
+        "SFC",
+        "证监会",
+        "securities",
+        "证券",
+        "futures",
+        "期货",
+        "market regulation",
+        "市场监管",
+        "investor protection",
+        "投资者保护",
+        "licensing",
+        "持牌",
+        "enforcement",
+        "执法",
+        "disclosure",
+        "披露",
+        "capital markets",
+        "资本市场",
+        "fund management",
+        "基金管理",
+        "intermediaries",
+        "中介机构"
+      ],
+      "data_content": {
+        "en": [
+          "Licensed corporations and registered institutions: licenses for dealing in securities, futures contracts, asset management, and advisory services",
+          "Licensed individuals: responsible officers, licensed representatives, and approved persons",
+          "Product authorization: authorized collective investment schemes, SFC-authorized funds, and other investment products",
+          "Regulatory announcements and circulars: guidance notes, codes and guidelines, consultation papers",
+          "Enforcement actions: disciplinary proceedings, prosecution cases, reprimands, and sanctions",
+          "Market surveillance data: suspicious trading alerts, market manipulation cases, insider dealing investigations",
+          "Corporate disclosure: substantial shareholder notices, takeover and merger documents, listing applications",
+          "Statistical data: market turnover, derivatives trading volume, fund industry statistics",
+          "Regulatory reports: annual reports, quarterly bulletins, thematic reviews",
+          "Rules and standards: Securities and Futures Ordinance, subsidiary legislation, codes of conduct"
+        ],
+        "zh": [
+          "持牌法团及注册机构：证券交易、期货合约交易、资产管理及提供意见的牌照资料",
+          "持牌个人：负责人员、持牌代表及获核准人士",
+          "产品认可：认可集体投资计划、证监会认可基金及其他投资产品",
+          "监管公告及通函：指引、守则及指引、谘询文件",
+          "执法行动：纪律处分程序、检控个案、谴责及制裁",
+          "市场监察数据：可疑交易警报、市场操纵个案、内幕交易调查",
+          "企业披露：主要股东权益通知、收购及合并文件、上市申请",
+          "统计数据：市场成交额、衍生产品交易量、基金业统计数字",
+          "监管报告：年报、季度通讯、专题审查",
+          "规则及标准：证券及期货条例、附属法例、操守准则"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/hk-sfc.json"
+    },
+    {
+      "id": "hkma",
+      "name": {
+        "en": "Hong Kong Monetary Authority",
+        "zh": "香港金融管理局"
+      },
+      "description": {
+        "en": "The Hong Kong Monetary Authority (HKMA) is the de facto central bank of Hong Kong, established on April 1, 1993. Its mission is to maintain monetary and financial stability, promote the integrity and efficiency of the financial system, and safeguard the interests of depositors. The HKMA provides comprehensive economic and financial data including monetary statistics, banking system data, financial stability reports, and daily market data through its open data portal and API.",
+        "zh": "香港金融管理局（金管局）是香港的实际中央银行，成立于1993年4月1日。其使命是维持货币与金融稳定、促进金融体系的健全与发展，以及保障存款人的利益。金管局通过开放数据门户和API提供全面的经济及金融数据，包括货币统计、银行体系数据、金融稳定报告及每日市场数据。"
+      },
+      "website": "https://www.hkma.gov.hk/",
+      "data_url": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/",
+      "api_url": "https://apidocs.hkma.gov.hk/",
+      "authority_level": "government",
+      "country": "HK",
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "domains": [
+        "finance",
+        "economics",
+        "banking",
+        "monetary_policy"
+      ],
+      "tags": [
+        "monetary authority",
+        "central bank",
+        "financial statistics",
+        "monetary statistics",
+        "banking data",
+        "financial stability",
+        "exchange fund",
+        "Hong Kong",
+        "HKMA",
+        "linked exchange rate",
+        "payment systems",
+        "banking supervision",
+        "interest rates",
+        "exchange rates",
+        "money supply",
+        "金融管理局",
+        "中央银行",
+        "金融统计",
+        "货币统计",
+        "银行数据",
+        "金融稳定",
+        "外汇基金",
+        "香港",
+        "金管局",
+        "联系汇率",
+        "支付系统",
+        "银行监管",
+        "利率",
+        "汇率",
+        "货币供应"
+      ],
+      "data_content": {
+        "en": [
+          "Monetary statistics (money supply, exchange rates, interest rates)",
+          "Banking system statistics (assets, liabilities, capital adequacy)",
+          "Financial stability indicators and reports",
+          "Exchange Fund statistics",
+          "Payment systems data",
+          "Economic and financial data for Hong Kong",
+          "Daily market data (exchange rates, interbank rates)",
+          "Monthly Statistical Bulletin",
+          "Half-Yearly Monetary and Financial Stability Report"
+        ],
+        "zh": [
+          "货币统计（货币供应、汇率、利率）",
+          "银行体系统计（资产、负债、资本充足率）",
+          "金融稳定指标及报告",
+          "外汇基金统计",
+          "支付系统数据",
+          "香港经济及金融数据",
+          "每日市场数据（汇率、银行同业拆息率）",
+          "金融数据月报",
+          "货币与金融稳定情况半年度报告"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/asia/hkma.json"
+    },
+    {
       "id": "india-dgcis",
       "name": {
         "en": "Directorate General of Commercial Intelligence and Statistics",
@@ -4500,6 +4822,1135 @@
       "file_path": "countries/asia/korea/korea-bok.json"
     },
     {
+      "id": "kostat-cpi",
+      "name": {
+        "en": "Statistics Korea (KOSTAT) - Consumer Price Index",
+        "zh": "韩国统计局 - 消费者物价指数",
+        "ko": "통계청 - 소비자물가지수"
+      },
+      "description": {
+        "en": "Statistics Korea (KOSTAT), officially renamed as the Ministry of Data and Statistics since October 2025, is the national statistical agency of South Korea responsible for collecting, compiling, and disseminating official statistics. The Consumer Price Index (CPI) measures the average change over time in prices paid by consumers for a market basket of goods and services, covering approximately 26,000 retail stores and 11,000 tenant households nationwide (excluding farming and fishery households), representing about 92.9% of total Korean households.",
+        "zh": "韩国统计局（KOSTAT），自2025年10月起正式更名为国家数据处，是韩国国家统计机构，负责收集、编制和发布官方统计数据。消费者物价指数（CPI）衡量消费者购买一篮子商品和服务价格随时间的平均变化，覆盖全国约26,000家零售店和11,000户租户家庭（不包括农渔业家庭），代表约92.9%的韩国家庭。",
+        "ko": "통계청(KOSTAT)은 2025년 10월부터 국가데이터처로 새롭게 출발한 대한민국의 국가통계기관으로, 공식 통계 자료의 수집, 편제 및 배포를 담당합니다. 소비자물가지수(CPI)는 가구에서 일상생활을 영위하기 위해 구입하는 상품과 서비스의 평균적인 가격변동을 측정한 지수입니다."
+      },
+      "website": "https://kosis.kr",
+      "data_url": "https://kosis.kr/eng/",
+      "api_url": "https://kosis.kr/openapi/index/index.jsp",
+      "country": "KR",
+      "domains": [
+        "economics",
+        "prices",
+        "inflation",
+        "consumer price index",
+        "economic indicators",
+        "statistics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "authority_level": "government",
+      "tags": [
+        "consumer-price-index",
+        "cpi",
+        "소비자물가지수",
+        "inflation",
+        "인플레이션",
+        "통화膨胀",
+        "south-korea",
+        "korea",
+        "한국",
+        "韩国",
+        "prices",
+        "물가",
+        "物价",
+        "economic-indicators",
+        "경제지표",
+        "经济指标",
+        "kostat",
+        "통계청",
+        "统计局",
+        "statistics",
+        "통계",
+        "统计",
+        "cost-of-living",
+        "생활비",
+        "生活成本"
+      ],
+      "data_content": {
+        "en": [
+          "Consumer Price Index (CPI) - overall and by category",
+          "Monthly and annual inflation rates",
+          "Price indices by region (provincial and metropolitan)",
+          "Price trends for goods and services categories",
+          "Core inflation indicators"
+        ],
+        "zh": [
+          "消费者物价指数（CPI）- 总体及分类指数",
+          "月度和年度通胀率",
+          "按地区的物价指数（省级和都市级）",
+          "商品和服务类别的价格趋势",
+          "核心通胀指标"
+        ],
+        "ko": [
+          "소비자물가지수(CPI) - 전체 및 부문별",
+          "월별 및 연간 인플레이션율",
+          "지역별 물가지수(광역시·도)",
+          "상품 및 서비스 부문별 가격 추이",
+          "근원인플레이션 지표"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/asia/kostat-cpi.json"
+    },
+    {
+      "id": "kostat",
+      "name": {
+        "en": "Statistics Korea (KOSTAT)",
+        "zh": "韩国统计厅"
+      },
+      "description": {
+        "en": "Statistics Korea (KOSTAT), officially known as the Ministry of Data and Statistics, is South Korea's central government agency responsible for managing national statistics. Operating directly under the Prime Minister, KOSTAT coordinates, produces and disseminates official statistics in a decentralized statistical system, covering economic, demographic, social and other statistical domains.",
+        "zh": "韩国统计厅（KOSTAT），正式名称为数据与统计部，是韩国负责管理国家统计的中央政府机构。KOSTAT直接隶属于总理办公室，在分散式统计系统中协调、生成和传播官方统计数据，涵盖经济、人口、社会等统计领域。"
+      },
+      "website": "https://mods.go.kr/anse",
+      "data_url": "https://kosis.kr/eng/",
+      "api_url": "https://kosis.kr/openapi/index/index.jsp",
+      "authority_level": "government",
+      "country": "KR",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "demographics",
+        "labor",
+        "prices",
+        "social",
+        "population",
+        "household",
+        "employment",
+        "trade",
+        "industry",
+        "agriculture",
+        "environment"
+      ],
+      "update_frequency": "monthly",
+      "data_content": {
+        "en": [
+          "Population and Household Statistics - census data, demographic trends, birth/death statistics",
+          "Labor Force Statistics - economically active population survey, employment, unemployment",
+          "Price Statistics - Consumer Price Index (CPI), Producer Price Index",
+          "Economic Statistics - GDP, national accounts, economic census",
+          "Social Statistics - education, health, welfare, culture",
+          "Business Statistics - industry, trade, services, online shopping",
+          "Agriculture and Environment Statistics - agricultural census, environmental indicators"
+        ],
+        "zh": [
+          "人口与家庭统计 - 人口普查数据、人口趋势、出生/死亡统计",
+          "劳动力统计 - 经济活动人口调查、就业、失业",
+          "价格统计 - 消费者价格指数(CPI)、生产者价格指数",
+          "经济统计 - GDP、国民账户、经济普查",
+          "社会统计 - 教育、健康、福利、文化",
+          "企业统计 - 工业、贸易、服务业、网络购物",
+          "农业与环境统计 - 农业普查、环境指标"
+        ]
+      },
+      "tags": [
+        "korea statistics",
+        "kostat",
+        "south korea",
+        "economic data",
+        "population census",
+        "labor statistics",
+        "price index",
+        "kosis",
+        "korean statistical information service",
+        "government statistics",
+        "national statistics",
+        "demographic data",
+        "韩国统计",
+        "韩国统计厅",
+        "韩国数据",
+        "经济数据",
+        "人口普查",
+        "劳动统计",
+        "价格指数",
+        "政府统计",
+        "国家统计",
+        "人口数据"
+      ],
+      "has_api": true,
+      "file_path": "countries/asia/kostat.json"
+    },
+    {
+      "id": "philippines-psa",
+      "name": {
+        "en": "Philippine Statistics Authority",
+        "zh": "菲律宾统计局"
+      },
+      "description": {
+        "en": "The Philippine Statistics Authority (PSA) is the central statistical authority of the Philippine government, responsible for collecting, compiling, analyzing, and publishing official statistics on economic, social, demographic, political affairs, and general welfare of the Filipino people. Created by Republic Act No. 10625 (Philippine Statistical Act of 2013), PSA conducts national censuses and surveys, maintains civil registration systems, and provides comprehensive data through its OpenStat, QuickStat, and interactive map platforms.",
+        "zh": "菲律宾统计局(PSA)是菲律宾政府的中央统计机构,负责收集、编制、分析和发布关于经济、社会、人口、政治事务和菲律宾人民总体福祉的官方统计数据。根据第10625号共和国法(2013年菲律宾统计法)设立,PSA进行全国性普查和调查,维护民事登记系统,并通过OpenStat、QuickStat和交互式地图平台提供综合数据。"
+      },
+      "website": "https://psa.gov.ph",
+      "data_url": "https://openstat.psa.gov.ph",
+      "api_url": null,
+      "country": "PH",
+      "domains": [
+        "demographics",
+        "economics",
+        "social",
+        "population",
+        "employment",
+        "agriculture",
+        "trade",
+        "health",
+        "education",
+        "environment",
+        "government-finance",
+        "business",
+        "civil-registration"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "philippines",
+        "菲律宾",
+        "national-statistics",
+        "国家统计",
+        "census",
+        "普查",
+        "demographics",
+        "人口统计",
+        "economic-indicators",
+        "经济指标",
+        "openstat",
+        "quickstat",
+        "government-data",
+        "政府数据",
+        "civil-registration",
+        "民事登记",
+        "psa",
+        "southeast-asia",
+        "东南亚",
+        "philippine-statistics",
+        "official-statistics",
+        "官方统计"
+      ],
+      "data_content": {
+        "en": [
+          "Census of Population and Housing - comprehensive national census",
+          "National accounts and economic statistics - GDP, inflation, trade balance",
+          "Demographic and social statistics - population estimates, vital statistics",
+          "Labour force statistics - employment, unemployment, wages",
+          "Agricultural statistics - crop production, livestock, fisheries",
+          "Industry and trade statistics - manufacturing, construction, services",
+          "Environmental and multi-domain statistics",
+          "Civil registration services - birth, marriage, death certificates",
+          "Business and enterprise statistics",
+          "Education statistics - enrollment, literacy",
+          "Health statistics and surveys",
+          "Government finance and public sector data",
+          "Regional and provincial statistics"
+        ],
+        "zh": [
+          "人口和住房普查 - 全面的全国性普查",
+          "国民账户和经济统计 - GDP、通货膨胀、贸易差额",
+          "人口和社会统计 - 人口估计、生命统计",
+          "劳动力统计 - 就业、失业、工资",
+          "农业统计 - 作物生产、畜牧业、渔业",
+          "工业和贸易统计 - 制造业、建筑业、服务业",
+          "环境和多领域统计",
+          "民事登记服务 - 出生、婚姻、死亡证明",
+          "商业和企业统计",
+          "教育统计 - 入学率、识字率",
+          "健康统计和调查",
+          "政府财政和公共部门数据",
+          "地区和省级统计"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "countries/asia/philippines/psa.json"
+    },
+    {
+      "id": "fia-fdi",
+      "name": {
+        "en": "Foreign Investment Agency - FDI Statistics",
+        "zh": "越南外国投资局 - FDI统计数据"
+      },
+      "description": {
+        "en": "The Foreign Investment Agency (FIA) under the Ministry of Planning and Investment of Vietnam is the official government agency responsible for publishing comprehensive statistics on foreign direct investment (FDI) in Vietnam and Vietnam's overseas investment. The agency provides detailed monthly, quarterly, and annual reports covering FDI registered capital, disbursed capital, by sector, by source country/territory, and by province.",
+        "zh": "越南计划投资部下属的外国投资局（FIA）是负责发布越南外国直接投资（FDI）及越南海外投资综合统计数据的官方政府机构。该机构提供详细的月度、季度和年度报告,涵盖FDI注册资本、实际到位资本、按行业分类、按来源国/地区分类以及按省份分类的数据。"
+      },
+      "website": "https://www.mpi.gov.vn/",
+      "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "VN",
+      "domains": [
+        "foreign direct investment",
+        "international investment",
+        "economic statistics",
+        "investment statistics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "Vietnam",
+        "越南",
+        "FDI",
+        "Foreign Direct Investment",
+        "外国直接投资",
+        "Investment Statistics",
+        "投资统计",
+        "Economic Data",
+        "经济数据",
+        "Ministry of Planning and Investment",
+        "计划投资部",
+        "FIA",
+        "Foreign Investment Agency",
+        "外国投资局",
+        "Overseas Investment",
+        "对外投资",
+        "Capital Flows",
+        "资本流动",
+        "Registered Capital",
+        "注册资本",
+        "Disbursed Capital",
+        "实际到位资本",
+        "Investment by Sector",
+        "行业投资",
+        "Investment by Province",
+        "省份投资",
+        "Investment by Country",
+        "国别投资"
+      ],
+      "data_content": {
+        "en": [
+          "FDI registered capital and disbursed capital statistics",
+          "FDI by economic sector (manufacturing, real estate, electricity, etc.)",
+          "FDI by source country and territory (90+ countries)",
+          "FDI by province and locality",
+          "Number of FDI projects by category (new projects, additional investment, capital contribution)",
+          "Vietnam's overseas investment statistics",
+          "Monthly, quarterly, and annual FDI reports"
+        ],
+        "zh": [
+          "FDI注册资本和实际到位资本统计",
+          "按经济部门分类的FDI（制造业、房地产、电力等）",
+          "按来源国家和地区分类的FDI（90多个国家）",
+          "按省份和地区分类的FDI",
+          "按类别分类的FDI项目数量（新项目、追加投资、出资购股）",
+          "越南对外投资统计",
+          "月度、季度和年度FDI报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/fia-fdi.json"
+    },
+    {
+      "id": "gdvc",
+      "name": {
+        "en": "General Department of Vietnam Customs",
+        "zh": "越南海关总局"
+      },
+      "description": {
+        "en": "The General Department of Vietnam Customs (GDVC) is a government agency under the Ministry of Finance, responsible for customs management, revenue protection, and trade facilitation. GDVC manages import and export activities, fights against smuggling and commercial fraud, and operates the Vietnam National Single Window system. The department provides 181 online public services and maintains comprehensive customs statistics and trade data.",
+        "zh": "越南海关总局（GDVC）是财政部下属的政府机构，负责海关管理、收入保护和贸易便利化。GDVC管理进出口活动，打击走私和商业欺诈，并运营越南国家单一窗口系统。该部门提供181项在线公共服务，并维护全面的海关统计和贸易数据。"
+      },
+      "website": "https://www.customs.gov.vn",
+      "data_url": "https://www.customs.gov.vn",
+      "api_url": null,
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "country": "VN",
+      "domains": [
+        "customs",
+        "trade",
+        "import-export",
+        "tariffs",
+        "revenue",
+        "border control"
+      ],
+      "update_frequency": "daily",
+      "data_content": {
+        "en": [
+          "Import and export customs declarations and statistics",
+          "Tariff classification and HS code database",
+          "Customs duty and tax collection data",
+          "Trade statistics by commodity, country, and port",
+          "E-commerce customs management data",
+          "Customs clearance procedures and processing times",
+          "Customs revenue and enforcement statistics",
+          "Cross-border trade facilitation metrics",
+          "Single Window transaction data",
+          "Anti-smuggling and trade fraud investigation reports"
+        ],
+        "zh": [
+          "进出口海关申报与统计",
+          "关税分类与HS编码数据库",
+          "关税和税收征收数据",
+          "按商品、国家和港口分类的贸易统计",
+          "电子商务海关管理数据",
+          "海关清关程序与处理时间",
+          "海关收入与执法统计",
+          "跨境贸易便利化指标",
+          "单一窗口交易数据",
+          "反走私与贸易欺诈调查报告"
+        ]
+      },
+      "tags": [
+        "Vietnam",
+        "越南",
+        "customs",
+        "海关",
+        "import-export",
+        "进出口",
+        "trade statistics",
+        "贸易统计",
+        "tariffs",
+        "关税",
+        "HS code",
+        "HS编码",
+        "customs clearance",
+        "海关清关",
+        "trade facilitation",
+        "贸易便利化",
+        "single window",
+        "单一窗口",
+        "GDVC",
+        "Tổng cục Hải Quan",
+        "government data",
+        "政府数据",
+        "Southeast Asia",
+        "东南亚",
+        "ASEAN",
+        "customs revenue",
+        "海关收入",
+        "border control",
+        "边境管控",
+        "e-commerce",
+        "电子商务",
+        "VNACCS"
+      ],
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/gdvc.json"
+    },
+    {
+      "id": "gso-vietnam",
+      "name": {
+        "en": "General Statistics Office of Vietnam",
+        "zh": "越南国家统计局"
+      },
+      "description": {
+        "en": "The General Statistics Office of Vietnam (GSO) is a government agency under the Ministry of Planning and Investment, responsible for state management of statistics and providing comprehensive social and economic information. GSO operates a vertical system with headquarters, 63 provincial statistical offices, and 713 district branch offices, serving over 5,300 employees nationwide.",
+        "zh": "越南国家统计局（GSO）是隶属于计划与投资部的政府机构，负责国家统计管理职能，提供全面的社会经济信息。GSO采用垂直管理体系，包括总部、63个省级统计办公室和713个区级分支机构，在全国拥有超过5,300名员工。"
+      },
+      "website": "https://www.gso.gov.vn",
+      "data_url": "https://www.gso.gov.vn/en/data-and-statistics/",
+      "api_url": null,
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "country": "VN",
+      "domains": [
+        "national accounts",
+        "population and employment",
+        "agriculture and rural development",
+        "industry and construction",
+        "trade and services",
+        "investment and finance",
+        "price indices",
+        "social statistics",
+        "education and health",
+        "transport and telecommunications",
+        "environmental statistics"
+      ],
+      "update_frequency": "monthly",
+      "data_content": {
+        "en": [
+          "National Accounts and GDP statistics",
+          "Population and Housing Census data",
+          "Industrial Production Index",
+          "Consumer Price Index (CPI)",
+          "Employment and Labor Force statistics",
+          "Agriculture, Forestry, and Fishery statistics",
+          "Trade, Investment and Construction data",
+          "Transport, Postal Services and Telecommunications statistics",
+          "Education, Health and Culture indicators",
+          "Income, Poverty and Living Standards data",
+          "Provincial and Regional statistical data",
+          "State Budget and Public Finance statistics"
+        ],
+        "zh": [
+          "国民账户与GDP统计",
+          "人口与住房普查数据",
+          "工业生产指数",
+          "消费者价格指数（CPI）",
+          "就业与劳动力统计",
+          "农业、林业和渔业统计",
+          "贸易、投资与建设数据",
+          "交通、邮政与电信统计",
+          "教育、卫生与文化指标",
+          "收入、贫困与生活水平数据",
+          "省级与区域统计数据",
+          "国家预算与公共财政统计"
+        ]
+      },
+      "tags": [
+        "Vietnam",
+        "越南",
+        "national statistics",
+        "国家统计",
+        "economic data",
+        "经济数据",
+        "population census",
+        "人口普查",
+        "GDP",
+        "CPI",
+        "industrial production",
+        "工业生产",
+        "labor statistics",
+        "劳动力统计",
+        "trade data",
+        "贸易数据",
+        "government statistics",
+        "政府统计",
+        "GSO",
+        "Tổng cục Thống kê",
+        "Southeast Asia",
+        "东南亚",
+        "ASEAN",
+        "statistical yearbook",
+        "统计年鉴"
+      ],
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/gso-vietnam.json"
+    },
+    {
+      "id": "vietnam-gso",
+      "name": {
+        "en": "General Statistics Office of Vietnam",
+        "zh": "越南统计总局"
+      },
+      "description": {
+        "en": "Vietnam's national statistical agency providing authoritative official statistics on economic, social, population, and environmental matters. The GSO publishes comprehensive data including GDP, CPI, FDI, population, trade, industry, and employment through quarterly and annual reports, statistical yearbooks, and online databases.",
+        "zh": "越南国家统计局,提供涵盖经济、社会、人口和环境事务的权威官方统计数据。GSO发布包括GDP、CPI、FDI、人口、贸易、工业和就业在内的全面数据,通过季度和年度报告、统计年鉴和在线数据库提供。"
+      },
+      "website": "https://www.nso.gov.vn",
+      "data_url": "https://www.nso.gov.vn/en/statistical-data/",
+      "api_url": null,
+      "country": "VN",
+      "domains": [
+        "economics",
+        "demographics",
+        "population",
+        "employment",
+        "trade",
+        "industry",
+        "agriculture",
+        "construction",
+        "education",
+        "health",
+        "environment",
+        "government-finance",
+        "investment"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "vietnam",
+        "越南",
+        "national-statistics",
+        "国家统计",
+        "gdp",
+        "cpi",
+        "fdi",
+        "foreign-direct-investment",
+        "外商直接投资",
+        "population",
+        "人口",
+        "employment",
+        "就业",
+        "trade",
+        "贸易",
+        "economic-indicators",
+        "经济指标",
+        "census",
+        "人口普查",
+        "quarterly-data",
+        "季度数据",
+        "annual-statistics",
+        "年度统计",
+        "statistical-yearbook",
+        "统计年鉴",
+        "government-data",
+        "政府数据",
+        "southeast-asia",
+        "东南亚"
+      ],
+      "data_content": {
+        "en": [
+          "National accounts - GDP at current prices, GDP growth rates, GDP per capita",
+          "Consumer Price Index (CPI) - monthly and annual inflation data",
+          "Foreign Direct Investment (FDI) - inbound investment statistics",
+          "Population and demographics - census data, population estimates and projections",
+          "Labour force statistics - employment, unemployment, wages",
+          "International trade - exports, imports, trade balance",
+          "Industrial production - manufacturing and mining statistics",
+          "Agriculture, forestry and fishery statistics",
+          "Investment and construction data",
+          "Transport, postal services and telecommunications",
+          "Education and training statistics",
+          "Health statistics and social indicators",
+          "Energy and environmental data",
+          "Government finance statistics",
+          "Business and enterprise statistics",
+          "Statistical Yearbook - comprehensive annual publication with socio-economic data"
+        ],
+        "zh": [
+          "国民账户 - 现价GDP、GDP增长率、人均GDP",
+          "居民消费价格指数(CPI) - 月度和年度通胀数据",
+          "外商直接投资(FDI) - 外资流入统计",
+          "人口和人口统计 - 人口普查数据、人口估计和预测",
+          "劳动力统计 - 就业、失业、工资",
+          "国际贸易 - 出口、进口、贸易差额",
+          "工业生产 - 制造业和采矿业统计",
+          "农业、林业和渔业统计",
+          "投资和建筑数据",
+          "交通、邮政和电信服务",
+          "教育和培训统计",
+          "健康统计和社会指标",
+          "能源和环境数据",
+          "政府财政统计",
+          "商业和企业统计",
+          "统计年鉴 - 包含社会经济数据的年度综合出版物"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/gso.json"
+    },
+    {
+      "id": "mpi-fdi",
+      "name": {
+        "en": "Ministry of Planning and Investment - FDI Statistics",
+        "zh": "越南计划投资部 - 外国直接投资统计",
+        "vi": "Bộ Kế hoạch và Đầu tư - Thống kê FDI"
+      },
+      "description": {
+        "en": "Official source for Foreign Direct Investment (FDI) statistics and reports in Vietnam. The Ministry of Planning and Investment (MPI) provides comprehensive data on FDI inflows, registered capital, disbursed capital, investment projects by sector, and investor country breakdowns. Reports are published monthly and annually, covering both FDI attraction in Vietnam and Vietnamese overseas investment.",
+        "zh": "越南外国直接投资（FDI）统计数据和报告的官方来源。越南计划投资部提供全面的FDI流入数据、注册资本、实际到位资本、按行业分类的投资项目以及投资来源国分布等信息。报告按月度和年度发布，涵盖越南吸引FDI和越南对外投资两个方面。",
+        "vi": "Nguồn thông tin chính thức về thống kê và báo cáo Đầu tư Trực tiếp Nước ngoài (FDI) tại Việt Nam. Bộ Kế hoạch và Đầu tư cung cấp dữ liệu toàn diện về dòng vốn FDI, vốn đăng ký, vốn giải ngân, các dự án đầu tư theo ngành và phân bổ theo quốc gia đầu tư."
+      },
+      "website": "https://www.mpi.gov.vn",
+      "data_url": "https://www.mpi.gov.vn/en/Pages/Report-on-Foreign-Direct-Investment-1740.aspx",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "VN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "investment",
+        "trade",
+        "finance"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "FDI",
+        "foreign direct investment",
+        "Vietnam investment",
+        "越南投资",
+        "investment statistics",
+        "投资统计",
+        "capital flows",
+        "资本流动",
+        "investment projects",
+        "投资项目",
+        "OFDI",
+        "overseas investment",
+        "对外直接投资",
+        "海外投资",
+        "registered capital",
+        "注册资本",
+        "disbursed capital",
+        "实际到位资本",
+        "government statistics",
+        "政府统计",
+        "Bộ Kế hoạch và Đầu tư",
+        "đầu tư trực tiếp nước ngoài",
+        "vốn đăng ký",
+        "vốn giải ngân"
+      ],
+      "data_content": {
+        "en": [
+          "FDI registered capital and disbursed capital statistics",
+          "New FDI projects and additional capital adjustments",
+          "FDI breakdown by sector and industry",
+          "FDI breakdown by investor country/region",
+          "FDI distribution by province and locality",
+          "Vietnamese overseas investment (OFDI) statistics",
+          "Monthly and annual FDI reports",
+          "Cumulative FDI data since 1988"
+        ],
+        "zh": [
+          "FDI注册资本和实际到位资本统计",
+          "新注册FDI项目和增资调整",
+          "按行业和部门分类的FDI数据",
+          "按投资来源国/地区分类的FDI数据",
+          "按省份和地区分布的FDI数据",
+          "越南对外投资（OFDI）统计",
+          "月度和年度FDI报告",
+          "1988年以来的累计FDI数据"
+        ],
+        "vi": [
+          "Thống kê vốn đăng ký và vốn giải ngân FDI",
+          "Dự án FDI mới và điều chỉnh vốn bổ sung",
+          "Phân loại FDI theo ngành và lĩnh vực",
+          "Phân loại FDI theo quốc gia/khu vực đầu tư",
+          "Phân bố FDI theo tỉnh thành và địa phương",
+          "Thống kê đầu tư ra nước ngoài của Việt Nam (OFDI)",
+          "Báo cáo FDI hàng tháng và hàng năm",
+          "Dữ liệu FDI tích lũy từ năm 1988"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/mpi-fdi.json"
+    },
+    {
+      "id": "sbv",
+      "name": {
+        "en": "State Bank of Vietnam",
+        "zh": "越南国家银行"
+      },
+      "description": {
+        "en": "The State Bank of Vietnam (SBV) is the central bank of Vietnam, organized as a ministry-level body under the Government of Vietnam. As the sole issuer of the Vietnamese đồng, the SBV performs State management of monetary and banking activities. The bank's primary objective is to maintain price stability and promote sustainable economic growth through monetary policy tools including interest rate management, money supply control, and credit growth regulation. The SBV collects and disseminates comprehensive statistical data related to Vietnam's financial sector, covering money supply, credit growth, interest rates, inflation, balance of payments, total liquidity, and national payment system transactions.",
+        "zh": "越南国家银行（SBV）是越南的中央银行，在越南政府下属的部级机构。作为越南盾的唯一发行者，越南国家银行负责货币和银行活动的国家管理。该银行的主要目标是通过利率管理、货币供应控制和信贷增长监管等货币政策工具维持价格稳定和促进可持续经济增长。越南国家银行收集和发布与越南金融部门相关的综合统计数据，涵盖外汇储备、货币供应量、FDI资金流向、信贷增长、利率、通货膨胀、国际收支、总流动性和国家支付系统交易。"
+      },
+      "website": "https://www.sbv.gov.vn",
+      "data_url": "https://www.sbv.gov.vn/webcenter/portal/en/home/rm/public",
+      "api_url": null,
+      "country": "VN",
+      "domains": [
+        "monetary policy",
+        "banking statistics",
+        "financial sector",
+        "interest rates",
+        "money supply",
+        "credit growth",
+        "inflation",
+        "balance of payments",
+        "payment systems",
+        "foreign exchange",
+        "financial stability"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "central-bank",
+        "vietnam",
+        "monetary-policy",
+        "banking-statistics",
+        "interest-rates",
+        "money-supply",
+        "credit-growth",
+        "inflation",
+        "balance-of-payments",
+        "payment-systems",
+        "foreign-exchange",
+        "financial-stability",
+        "vietnamese-dong",
+        "liquidity",
+        "financial-sector",
+        "sbv",
+        "越南央行",
+        "货币政策",
+        "银行统计",
+        "利率",
+        "货币供应",
+        "信贷增长",
+        "国际收支",
+        "支付系统",
+        "外汇"
+      ],
+      "data_content": {
+        "en": [
+          "Monetary Policy - Interest rates (rediscount rate, refinance rate), policy decisions, and monetary policy reports",
+          "Money Supply - Total liquidity, M0, M1, M2, and monetary aggregates",
+          "Foreign Exchange Reserves - International reserves, foreign currency holdings, and reserve asset composition",
+          "FDI Capital Flows - Foreign direct investment inflows, outflows, and sectoral distribution",
+          "Credit Statistics - Credit growth by sector, credit institutions statistics, loan classifications",
+          "Interest Rates - Deposit rates, lending rates, interbank rates, and policy rates",
+          "Balance of Payments - International payments, foreign exchange reserves, trade balance",
+          "Payment Systems - National payment system transactions, electronic payment statistics",
+          "Banking Sector - Number of credit institutions, branch networks, banking sector performance",
+          "Foreign Exchange - Exchange rate data, foreign currency reserves, foreign investment",
+          "Annual Reports - Comprehensive yearly reports on monetary policy implementation and banking sector developments",
+          "Financial Stability - Banking system health indicators, regulatory compliance, risk assessments"
+        ],
+        "zh": [
+          "货币政策 - 利率（再贴现率、再融资率）、政策决定和货币政策报告",
+          "货币供应量 - 总流动性、M0、M1、M2和货币总量",
+          "外汇储备 - 国际储备、外币持有量和储备资产构成",
+          "FDI资金流向 - 外国直接投资流入、流出及行业分布",
+          "信贷统计 - 按部门分类的信贷增长、信贷机构统计、贷款分类",
+          "利率 - 存款利率、贷款利率、银行间利率和政策利率",
+          "国际收支 - 国际支付、外汇储备、贸易平衡",
+          "支付系统 - 国家支付系统交易、电子支付统计",
+          "银行部门 - 信贷机构数量、分支网络、银行部门绩效",
+          "外汇 - 汇率数据、外汇储备、外国投资",
+          "年度报告 - 关于货币政策实施和银行部门发展的综合年度报告",
+          "金融稳定 - 银行系统健康指标、监管合规、风险评估"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/sbv.json"
+    },
+    {
+      "id": "vicofa",
+      "name": {
+        "en": "Vietnam Coffee and Cocoa Association",
+        "zh": "越南咖啡与可可协会"
+      },
+      "description": {
+        "en": "Vietnam Coffee and Cocoa Association (VICOFA) is the leading industry association representing coffee and cocoa producers, processors, and exporters in Vietnam. Established in 1990, VICOFA played a key role in Vietnam's membership in the International Coffee Organization (ICO) in 1991. The association has over 100 members including enterprises, production and processing companies, research centers and institutes across both Robusta and Arabica coffee regions throughout Vietnam.",
+        "zh": "越南咖啡与可可协会(VICOFA)是代表越南咖啡和可可生产商、加工商和出口商的主要行业协会。成立于1990年，VICOFA在越南于1991年加入国际咖啡组织(ICO)的过程中发挥了关键作用。该协会拥有超过100个成员，包括遍布越南罗布斯塔和阿拉比卡咖啡产区的企业、生产加工公司、研究中心和研究机构。"
+      },
+      "website": "https://vicofa.org.vn/",
+      "data_url": "https://vicofa.org.vn/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "VN",
+      "domains": [
+        "agriculture",
+        "commodities",
+        "trade",
+        "coffee",
+        "cocoa"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "coffee",
+        "咖啡",
+        "cocoa",
+        "可可",
+        "Vietnam",
+        "越南",
+        "agriculture",
+        "农业",
+        "commodities",
+        "大宗商品",
+        "exports",
+        "出口",
+        "Robusta",
+        "罗布斯塔",
+        "Arabica",
+        "阿拉比卡",
+        "trade association",
+        "行业协会",
+        "ICO",
+        "国际咖啡组织"
+      ],
+      "data_content": {
+        "en": [
+          "Coffee production and export statistics for Vietnam",
+          "Cocoa industry production and trade data",
+          "Member directory of coffee and cocoa enterprises",
+          "Market analysis and industry reports",
+          "Coffee price trends and forecasts",
+          "Robusta and Arabica cultivation data"
+        ],
+        "zh": [
+          "越南咖啡生产和出口统计",
+          "可可产业生产和贸易数据",
+          "咖啡和可可企业成员名录",
+          "市场分析和行业报告",
+          "咖啡价格趋势和预测",
+          "罗布斯塔和阿拉比卡种植数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/vicofa.json"
+    },
+    {
+      "id": "vietnam-fia",
+      "name": {
+        "en": "Foreign Investment Agency - Ministry of Planning and Investment",
+        "zh": "越南计划投资部外国投资局"
+      },
+      "description": {
+        "en": "The Foreign Investment Agency (FIA) operates under Vietnam's Ministry of Planning and Investment as the country's primary agency for investment promotion and foreign direct investment (FDI) management. FIA provides comprehensive data on foreign investment projects, investment trends, sectoral analysis, and regional distribution of FDI in Vietnam.",
+        "zh": "越南计划投资部外国投资局(FIA)是越南投资促进和外商直接投资(FDI)管理的主要政府机构。FIA提供关于外国投资项目、投资趋势、行业分析以及越南FDI区域分布的综合数据。"
+      },
+      "website": "https://www.mpi.gov.vn/en/pages/default.aspx",
+      "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
+      "authority_level": "government",
+      "country": "VN",
+      "domains": [
+        "foreign_direct_investment",
+        "investment_policy",
+        "economic_development",
+        "trade",
+        "business_registration"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "Vietnam",
+        "越南",
+        "FDI",
+        "Foreign Direct Investment",
+        "外商直接投资",
+        "Investment",
+        "投资",
+        "Ministry of Planning and Investment",
+        "计划投资部",
+        "Economic Development",
+        "经济发展",
+        "Southeast Asia",
+        "东南亚",
+        "Government Statistics",
+        "政府统计"
+      ],
+      "data_content": {
+        "en": [
+          "Foreign Direct Investment Statistics",
+          "Investment Project Database",
+          "Sectoral Investment Analysis",
+          "Regional FDI Distribution",
+          "Investment Trends and Reports",
+          "Investment Policies and Regulations"
+        ],
+        "zh": [
+          "外商直接投资统计数据",
+          "投资项目数据库",
+          "行业投资分析",
+          "FDI区域分布",
+          "投资趋势和报告",
+          "投资政策和法规"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/vietnam-fia.json"
+    },
+    {
+      "id": "vietnam-mof",
+      "name": {
+        "en": "Ministry of Finance of Vietnam",
+        "zh": "越南财政部"
+      },
+      "description": {
+        "en": "The Ministry of Finance (MOF) is the government ministry responsible for the finances of Vietnam, including managing the national budget, tax revenue, state assets, national financial reserves and the finances of state corporations. The Ministry manages the work of national accounting, state borrowing, the activities of stock markets, and the Department of Customs. It provides comprehensive financial data, budget reports, tax statistics, and economic indicators for Vietnam.",
+        "zh": "越南财政部是负责越南财政事务的政府部门，包括管理国家预算、税收收入、国有资产、国家金融储备和国有企业财务。财政部管理国家会计工作、国家借贷、股票市场活动和海关部门。它提供越南的综合财政数据、预算报告、税收统计和经济指标。"
+      },
+      "website": "https://www.mof.gov.vn",
+      "data_url": "https://www.mof.gov.vn/webcenter/portal/btcen/pages_r/m/statistics",
+      "api_url": null,
+      "country": "VN",
+      "domains": [
+        "finance",
+        "government budget",
+        "taxation",
+        "fiscal policy",
+        "public finance",
+        "national accounting",
+        "customs",
+        "state assets",
+        "financial markets",
+        "economic statistics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "vietnam",
+        "finance",
+        "ministry-of-finance",
+        "government-budget",
+        "tax-revenue",
+        "taxation",
+        "fiscal-policy",
+        "public-finance",
+        "state-budget",
+        "customs",
+        "financial-statistics",
+        "economic-indicators",
+        "national-accounting",
+        "state-assets",
+        "financial-markets",
+        "越南",
+        "财政部",
+        "政府预算",
+        "税收",
+        "财政政策",
+        "公共财政",
+        "国家预算",
+        "海关",
+        "财政统计",
+        "经济指标",
+        "国家会计",
+        "国有资产",
+        "金融市场"
+      ],
+      "data_content": {
+        "en": [
+          "State Budget Revenue - Total revenue collection, tax revenue, non-tax revenue by type and source",
+          "State Budget Expenditure - Government spending by sector, ministry, and program",
+          "Tax Statistics - Income tax, corporate tax, VAT, import/export duties collection data",
+          "National Debt - Public debt levels, external debt, domestic debt statistics",
+          "State Assets - State-owned enterprise financial performance and asset management",
+          "Customs Statistics - Import and export data, customs revenue, trade statistics",
+          "Financial Market Data - Stock market oversight, securities market statistics",
+          "Fiscal Policy Documents - Budget proposals, fiscal reports, policy announcements",
+          "National Accounting - Government financial statements and accounting standards",
+          "Economic Indicators - GDP contribution, fiscal balance, revenue-to-GDP ratios"
+        ],
+        "zh": [
+          "国家预算收入 - 总收入、税收收入、按类型和来源分类的非税收入",
+          "国家预算支出 - 按部门、部委和项目分类的政府支出",
+          "税收统计 - 个人所得税、企业所得税、增值税、进出口关税征收数据",
+          "国家债务 - 公共债务水平、外债、内债统计",
+          "国有资产 - 国有企业财务绩效和资产管理",
+          "海关统计 - 进出口数据、海关收入、贸易统计",
+          "金融市场数据 - 股票市场监管、证券市场统计",
+          "财政政策文件 - 预算提案、财政报告、政策公告",
+          "国家会计 - 政府财务报表和会计准则",
+          "经济指标 - GDP贡献、财政平衡、收入占GDP比率"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "countries/asia/vietnam/vietnam-mof.json"
+    },
+    {
+      "id": "bank-of-england-statistics",
+      "name": {
+        "en": "Bank of England Statistical Database",
+        "zh": "英格兰银行统计数据库"
+      },
+      "description": {
+        "en": "The Bank of England's official statistical database providing comprehensive data on monetary policy, financial markets, banking sector balance sheets, money and lending, interest rates, exchange rates, and financial derivatives. The database includes time series data on monetary financial institutions, public sector debt, capital issuance, and international reserves.",
+        "zh": "英格兰银行官方统计数据库，提供货币政策、金融市场、银行业资产负债表、货币与信贷、利率、汇率和金融衍生品的综合数据。数据库包含货币金融机构、公共部门债务、资本发行和国际储备的时间序列数据。"
+      },
+      "website": "https://www.bankofengland.co.uk",
+      "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
+      "api_url": "https://www.bankofengland.co.uk/boeapps/database/help.asp",
+      "authority_level": "government",
+      "country": "GB",
+      "domains": [
+        "finance",
+        "economics",
+        "monetary_policy"
+      ],
+      "organization": {
+        "name": {
+          "en": "Bank of England",
+          "zh": "英格兰银行"
+        },
+        "type": "central_bank",
+        "country": "GB"
+      },
+      "geographic_scope": "national",
+      "data_access": {
+        "methods": [
+          "web_download",
+          "database_query",
+          "api"
+        ],
+        "formats": [
+          "CSV",
+          "Excel",
+          "JSON"
+        ],
+        "requires_registration": false
+      },
+      "temporal_coverage": {
+        "start_year": null,
+        "coverage_notes": {
+          "en": "Historical time series with varying start dates depending on data series",
+          "zh": "历史时间序列数据，起始日期因数据系列而异"
+        }
+      },
+      "data_content": {
+        "en": [
+          "Money and lending statistics",
+          "Monetary financial institutions' balance sheets, income and expenditure",
+          "Deposits and lending detailed analysis",
+          "External business of UK banks",
+          "Public sector debt and money markets operations",
+          "International reserves and foreign exchange",
+          "Capital issuance and securities",
+          "Financial derivatives",
+          "Interest rates and exchange rates",
+          "SONIA (Sterling Overnight Index Average) benchmark"
+        ],
+        "zh": [
+          "货币与信贷统计",
+          "货币金融机构资产负债表、收入与支出",
+          "存款与贷款详细分析",
+          "英国银行的境外业务",
+          "公共部门债务与货币市场操作",
+          "国际储备与外汇",
+          "资本发行与证券",
+          "金融衍生品",
+          "利率与汇率",
+          "SONIA（英镑隔夜指数平均利率）基准"
+        ]
+      },
+      "update_frequency": "daily",
+      "update_frequency_notes": {
+        "en": "Varies by dataset: Daily (exchange rates, SONIA), Weekly (money markets), Monthly (lending, deposits), Quarterly (detailed breakdowns)",
+        "zh": "因数据集而异：每日（汇率、SONIA）、每周（货币市场）、每月（信贷、存款）、每季度（详细分类）"
+      },
+      "license": {
+        "type": "Open Government Licence",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "notes": {
+          "en": "Most data published under UK Open Government Licence v3.0, allowing free reuse with attribution. Some exchange rate data excluded due to third-party licensing.",
+          "zh": "大部分数据根据英国开放政府许可证 v3.0 发布，允许署名后自由使用。部分汇率数据因第三方许可而不包含在内。"
+        }
+      },
+      "support": {
+        "email": "BEEDSQueries@bankofengland.co.uk"
+      },
+      "tags": [
+        "central bank",
+        "中央银行",
+        "monetary policy",
+        "货币政策",
+        "financial statistics",
+        "金融统计",
+        "banking data",
+        "银行数据",
+        "interest rates",
+        "利率",
+        "exchange rates",
+        "汇率",
+        "money supply",
+        "货币供应",
+        "lending",
+        "信贷",
+        "deposits",
+        "存款",
+        "Bank of England",
+        "英格兰银行",
+        "UK finance",
+        "英国金融",
+        "SONIA",
+        "financial derivatives",
+        "金融衍生品",
+        "reserves",
+        "储备",
+        "BoE"
+      ],
+      "metadata": {
+        "last_verified": "2026-03-04",
+        "data_portal_url": "https://www.bankofengland.co.uk/boeapps/database/",
+        "statistical_releases_url": "https://www.bankofengland.co.uk/news/statistics",
+        "research_datasets_url": "https://www.bankofengland.co.uk/statistics/research-datasets"
+      },
+      "has_api": true,
+      "file_path": "countries/europe/bank-of-england-statistics.json"
+    },
+    {
       "id": "uk-boe",
       "name": {
         "en": "Bank of England Statistical Interactive Database",
@@ -4659,6 +6110,80 @@
       "authority_level": "government",
       "has_api": true,
       "file_path": "countries/europe/uk/uk-data-gov.json"
+    },
+    {
+      "id": "uk-ons-cpi-rpi",
+      "name": {
+        "en": "UK Office for National Statistics - Consumer Price Index and Retail Prices Index",
+        "zh": "英国国家统计局 - 消费者价格指数和零售价格指数"
+      },
+      "description": {
+        "en": "The Office for National Statistics (ONS) is the UK's largest independent producer of official statistics and the recognised national statistical institute of the United Kingdom. The ONS publishes comprehensive inflation measures including the Consumer Prices Index (CPI), Consumer Prices Index including owner occupiers' housing costs (CPIH), and Retail Prices Index (RPI). The CPI is the UK's primary measure of inflation used for monetary policy decisions by the Bank of England. The ONS provides monthly data on price changes for goods and services, detailed breakdowns by category, and extensive time series data dating back decades. Note: RPI and its subcomponents do not meet the required standard for designation as accredited official statistics but continue to be published due to widespread use in contracts.",
+        "zh": "英国国家统计局(ONS)是英国最大的独立官方统计生产机构,是英国公认的国家统计机构。ONS发布全面的通货膨胀指标,包括消费者价格指数(CPI)、包含自有住房成本的消费者价格指数(CPIH)和零售价格指数(RPI)。CPI是英国央行用于货币政策决策的主要通胀指标。ONS提供商品和服务价格变化的月度数据、按类别的详细分类以及可追溯数十年的广泛时间序列数据。注:RPI及其子指标不符合官方统计认证标准,但由于在合同中广泛使用而继续发布。"
+      },
+      "website": "https://www.ons.gov.uk/",
+      "data_url": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+      "api_url": null,
+      "country": "GB",
+      "domains": [
+        "economics",
+        "price statistics",
+        "inflation",
+        "consumer prices",
+        "monetary policy",
+        "economic indicators"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "cpi",
+        "rpi",
+        "cpih",
+        "inflation",
+        "consumer-prices",
+        "retail-prices",
+        "price-index",
+        "uk-statistics",
+        "ons",
+        "消费者价格指数",
+        "零售价格指数",
+        "通货膨胀",
+        "物价指数",
+        "英国统计",
+        "price-statistics",
+        "economic-indicators",
+        "monetary-policy",
+        "价格统计",
+        "经济指标",
+        "货币政策"
+      ],
+      "data_content": {
+        "en": [
+          "Consumer Prices Index (CPI) - Monthly inflation rate measuring changes in prices of goods and services purchased by households",
+          "Consumer Prices Index including owner occupiers' housing costs (CPIH) - Most comprehensive measure of inflation including housing costs",
+          "Retail Prices Index (RPI) - Legacy inflation measure still widely used in contracts and indexation",
+          "Detailed price indices by product category - Food, housing, transport, recreation, clothing, etc.",
+          "Historical time series data - CPI data from 1988, RPI from 1947, extensive historical records",
+          "Index numbers and percentage changes - Month-on-month, year-on-year, and average annual rates",
+          "Weights and basket composition - Annual updates to the basket of goods and services used in calculations",
+          "Regional price statistics - Price variations across different UK regions",
+          "International comparisons - UK inflation in context of European and global measures"
+        ],
+        "zh": [
+          "消费者价格指数(CPI) - 衡量家庭购买的商品和服务价格变化的月度通胀率",
+          "包含自有住房成本的消费者价格指数(CPIH) - 包含住房成本的最全面通胀指标",
+          "零售价格指数(RPI) - 在合同和指数化中仍广泛使用的传统通胀指标",
+          "按产品类别的详细价格指数 - 食品、住房、交通、娱乐、服装等",
+          "历史时间序列数据 - 自1988年起的CPI数据、自1947年起的RPI数据及广泛的历史记录",
+          "指数数值和百分比变化 - 环比、同比和年平均增长率",
+          "权重和商品篮子构成 - 计算中使用的商品和服务篮子的年度更新",
+          "区域价格统计 - 英国不同地区的价格差异",
+          "国际比较 - 英国通胀在欧洲和全球指标背景下的表现"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "countries/europe/uk-ons-cpi-rpi.json"
     },
     {
       "id": "aafc",
@@ -5441,15 +6966,15 @@
       "id": "us-bea",
       "name": {
         "en": "Bureau of Economic Analysis",
-        "zh": "美国经济分析局"
+        "zh": "经济分析局"
       },
       "description": {
-        "en": "The Bureau of Economic Analysis (BEA) is an agency of the U.S. Department of Commerce that produces critical economic statistics including GDP, personal income, corporate profits, international trade and investment, and regional economic data. BEA's data provides a comprehensive picture of the U.S. economy and its interaction with the world economy. The agency serves government and business decision makers, researchers, and the public to help them understand the performance of the U.S. economy.",
-        "zh": "美国经济分析局（BEA）是美国商务部下属机构,负责编制包括GDP、个人收入、企业利润、国际贸易与投资、区域经济数据在内的关键经济统计数据。BEA的数据全面反映了美国经济及其与全球经济的互动情况。该机构为政府和企业决策者、研究人员以及公众提供服务,帮助他们了解美国经济的运行状况。"
+        "en": "The Bureau of Economic Analysis (BEA) is an agency of the U.S. Department of Commerce that produces critical economic statistics including GDP, personal income, corporate profits, international trade and investment, and regional economic data. BEA's data provides a comprehensive picture of the U.S. economy and its interaction with the world economy.",
+        "zh": "美国经济分析局（BEA）是美国商务部下属机构，负责编制包括GDP、个人收入、企业利润、国际贸易与投资、区域经济数据在内的关键经济统计数据。BEA的数据全面反映了美国经济及其与全球经济的互动情况。"
       },
       "website": "https://www.bea.gov",
       "data_url": "https://www.bea.gov/data",
-      "api_url": "https://apps.bea.gov/API/signup/",
+      "api_url": "https://apps.bea.gov/api/signup/index.cfm",
       "country": "US",
       "domains": [
         "economics",
@@ -5461,80 +6986,54 @@
         "consumer spending",
         "corporate profits",
         "regional economics",
-        "industry economics",
-        "input-output tables",
-        "fixed assets"
+        "industry economics"
       ],
       "geographic_scope": "national",
-      "update_frequency": "monthly",
+      "update_frequency": "quarterly",
       "tags": [
         "economics",
-        "经济统计",
         "gdp",
-        "国内生产总值",
         "national-accounts",
-        "国民账户",
         "united-states",
-        "美国",
         "trade",
-        "贸易",
         "investment",
-        "投资",
         "official-statistics",
-        "官方统计",
         "government",
-        "政府",
         "time-series",
-        "时间序列",
         "macroeconomics",
-        "宏观经济",
         "regional-data",
-        "区域数据",
-        "industry-data",
-        "行业数据",
-        "personal-income",
-        "个人收入",
-        "bea",
-        "经济分析局"
+        "industry-data"
       ],
       "data_content": {
         "en": [
-          "Gross Domestic Product (GDP) - Real GDP estimates released quarterly, covering national, regional, and industry-level data",
+          "Gross Domestic Product (GDP) - National, regional, and industry-level GDP data",
           "National Income and Product Accounts (NIPAs) - Comprehensive income, spending, and saving statistics",
-          "Personal Income and Outlays - Monthly data on income, consumption, and saving by region",
-          "International Trade in Goods and Services - Monthly trade statistics covering 237 countries and areas",
-          "International Transactions - Quarterly balance of payments data (ITA)",
+          "Personal Income and Outlays - Monthly data on income, consumption, and saving",
+          "International Trade in Goods and Services - Monthly trade balance data",
+          "International Transactions - Quarterly balance of payments data",
           "Foreign Direct Investment - U.S. direct investment abroad and foreign investment in the U.S.",
-          "International Investment Position (IIP) - Cross-border investment positions",
-          "Multinational Enterprises (MNE) - Activities and operations of multinational companies",
-          "Regional Economic Accounts - State, county, and metropolitan area economic data",
-          "GDP by Industry - Value added by industry with underlying details",
-          "Input-Output Tables - Industry interrelationships and economic flows",
-          "Fixed Assets - Investment in structures, equipment, and intellectual property products",
-          "Consumer Spending - Personal consumption expenditures by product and region",
+          "Multinational Enterprises - Activities of multinational companies",
+          "Regional Economic Accounts - State, county, and metropolitan area data",
+          "GDP by Industry - Value added by industry",
+          "Fixed Assets - Investment in structures, equipment, and intellectual property",
+          "Consumer Spending - Personal consumption expenditures by product",
           "Corporate Profits - Quarterly corporate profit data",
-          "Price Indexes - GDP deflators and PCE price indexes",
-          "Research and Development - R&D satellite account tracking innovation investment",
-          "Distribution of Personal Income - Nowcast and forecast data"
+          "Price Indexes - GDP deflators and PCE price indexes"
         ],
         "zh": [
-          "国内生产总值（GDP）- 季度发布的实际GDP估算,涵盖国家、地区和行业层面数据",
+          "国内生产总值（GDP）- 国家、地区和行业层面的GDP数据",
           "国民收入和产品账户（NIPAs）- 综合性收入、支出和储蓄统计",
-          "个人收入和支出 - 按地区分类的月度收入、消费和储蓄数据",
-          "商品和服务国际贸易 - 涵盖237个国家和地区的月度贸易统计",
-          "国际交易 - 季度国际收支数据（ITA）",
+          "个人收入和支出 - 月度收入、消费和储蓄数据",
+          "商品和服务国际贸易 - 月度贸易平衡数据",
+          "国际交易 - 季度国际收支数据",
           "外国直接投资 - 美国对外直接投资和外国对美投资",
-          "国际投资头寸（IIP）- 跨境投资头寸数据",
-          "跨国企业（MNE）- 跨国公司的活动和运营数据",
-          "区域经济账户 - 州、县和都市区经济数据",
-          "按行业划分的GDP - 按行业增加值及基础明细",
-          "投入产出表 - 行业间关系和经济流动",
-          "固定资产 - 结构、设备和知识产权产品投资",
-          "消费支出 - 按产品和地区分类的个人消费支出",
+          "跨国企业 - 跨国公司活动数据",
+          "区域经济账户 - 州、县和都市区数据",
+          "按行业划分的GDP - 按行业增加值",
+          "固定资产 - 结构、设备和知识产权投资",
+          "消费支出 - 按产品分类的个人消费支出",
           "企业利润 - 季度企业利润数据",
-          "价格指数 - GDP平减指数和PCE价格指数",
-          "研究与开发 - 跟踪创新投资的研发卫星账户",
-          "个人收入分配 - 即时预测和预测数据"
+          "价格指数 - GDP平减指数和PCE价格指数"
         ]
       },
       "authority_level": "government",
@@ -5545,18 +7044,16 @@
       "id": "us-bls",
       "name": {
         "en": "Bureau of Labor Statistics",
-        "zh": "美国劳工统计局"
+        "zh": "劳工统计局"
       },
       "description": {
         "en": "The Bureau of Labor Statistics (BLS) is the principal federal agency responsible for measuring labor market activity, working conditions, and price changes in the economy of the United States. BLS collects, processes, analyzes, and disseminates essential statistical data to the American public, Congress, other Federal agencies, State and local governments, business, and labor. The BLS also serves as a statistical resource to the U.S. Department of Labor and conducts research into employment, labor economics, and price levels.",
-        "zh": "美国劳工统计局（BLS）是负责衡量美国经济中劳动力市场活动、工作条件和价格变化的主要联邦机构。BLS收集、处理、分析并向美国公众、国会、其他联邦机构、州和地方政府、企业和劳工组织传播重要的统计数据。BLS还为美国劳工部提供统计资源服务,并开展就业、劳动经济学和价格水平方面的研究。"
+        "zh": "美国劳工统计局（BLS）是负责衡量美国经济中劳动力市场活动、工作条件和价格变化的主要联邦机构。BLS收集、处理、分析并向美国公众、国会、其他联邦机构、州和地方政府、企业和劳工组织传播重要的统计数据。BLS还为美国劳工部提供统计资源服务，并开展就业、劳动经济学和价格水平方面的研究。"
       },
       "website": "https://www.bls.gov",
       "data_url": "https://www.bls.gov/data/",
       "api_url": "https://www.bls.gov/developers/",
-      "authority_level": "government",
       "country": "US",
-      "geographic_scope": "national",
       "domains": [
         "employment",
         "unemployment",
@@ -5571,6 +7068,7 @@
         "occupational statistics",
         "industry statistics"
       ],
+      "geographic_scope": "national",
       "update_frequency": "monthly",
       "tags": [
         "employment",
@@ -5594,15 +7092,7 @@
         "labor-force",
         "employment-projections",
         "us-government",
-        "economic-indicators",
-        "美国劳工",
-        "就业数据",
-        "失业率",
-        "通货膨胀",
-        "消费者物价指数",
-        "生产者物价指数",
-        "工资统计",
-        "劳动力市场"
+        "economic-indicators"
       ],
       "data_content": {
         "en": [
@@ -5642,26 +7132,26 @@
           "企业就业动态 - 就业创造和破坏、企业新生和死亡"
         ]
       },
+      "authority_level": "government",
       "has_api": true,
       "file_path": "countries/north-america/usa/us-bls.json"
     },
     {
       "id": "us-cdc",
       "name": {
-        "en": "CDC Data & Statistics",
-        "zh": "美国疾控中心数据与统计"
+        "en": "Centers for Disease Control and Prevention",
+        "zh": "美国疾病控制与预防中心"
       },
       "description": {
-        "en": "The Centers for Disease Control and Prevention (CDC) is the nation's leading public health institute. CDC provides comprehensive public health data through multiple platforms: data.cdc.gov (open data portal with datasets across health topics), CDC WONDER (Wide-ranging Online Data for Epidemiologic Research with ad-hoc query system), and NCHS (National Center for Health Statistics - the nation's official source for health statistics). The data covers vital statistics, disease surveillance, environmental health, vaccine safety, cancer registries, and over 180 health topics. CDC data supports research, policy development, and public health practice across infectious diseases, chronic diseases, injuries, environmental health, and health equity.",
-        "zh": "美国疾病控制与预防中心(CDC)是美国领先的公共卫生机构。CDC通过多个平台提供全面的公共卫生数据:data.cdc.gov(涵盖各健康主题的开放数据门户)、CDC WONDER(流行病学研究广泛在线数据,具有即席查询系统)和NCHS(国家健康统计中心-美国官方健康统计来源)。数据涵盖生命统计、疾病监测、环境健康、疫苗安全、癌症登记和超过180个健康主题。CDC数据支持传染病、慢性病、伤害、环境健康和健康公平等领域的研究、政策制定和公共卫生实践。"
+        "en": "CDC is the nation's leading science-based, data-driven, service organization that protects the public's health. CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Through its WONDER (Wide-ranging Online Data for Epidemiologic Research) online databases and other data systems, CDC provides public access to comprehensive health surveillance data, vital statistics, disease reporting, environmental health data, and population health information. The data supports research, policy development, and public health practice across infectious diseases, chronic diseases, injuries, environmental health, and health equity.",
+        "zh": "CDC是美国领先的基于科学、数据驱动的公共卫生服务机构。CDC全天候保护美国免受国内外健康、安全和安全威胁。通过其WONDER（流行病学研究广泛在线数据）在线数据库和其他数据系统，CDC提供公众访问全面的健康监测数据、生命统计、疾病报告、环境健康数据和人口健康信息。这些数据支持传染病、慢性病、伤害、环境健康和健康公平等领域的研究、政策制定和公共卫生实践。"
       },
       "website": "https://www.cdc.gov/",
-      "data_url": "https://data.cdc.gov/",
-      "api_url": "https://dev.socrata.com/foundry/data.cdc.gov",
+      "data_url": "https://wonder.cdc.gov/",
+      "api_url": "https://wonder.cdc.gov/wonder/help/wonder-api.html",
       "country": "US",
       "domains": [
         "public health",
-        "health statistics",
         "infectious diseases",
         "chronic diseases",
         "vital statistics",
@@ -5675,96 +7165,57 @@
         "population health",
         "health equity",
         "disease surveillance",
-        "epidemiology",
-        "healthcare access",
-        "nutrition"
+        "epidemiology"
       ],
       "geographic_scope": "national",
       "update_frequency": "weekly",
       "tags": [
-        "cdc",
-        "疾控中心",
         "public-health",
-        "公共卫生",
         "health-statistics",
-        "健康统计",
         "mortality",
-        "死亡率",
         "natality",
-        "出生率",
         "infectious-diseases",
-        "传染病",
         "chronic-diseases",
-        "慢性病",
         "vital-statistics",
-        "生命统计",
         "epidemiology",
-        "流行病学",
         "disease-surveillance",
-        "疾病监测",
         "cancer",
-        "癌症",
         "tuberculosis",
-        "结核病",
         "std",
-        "性病",
         "vaccine-safety",
-        "疫苗安全",
         "environmental-health",
-        "环境健康",
+        "climate-health",
         "population-health",
-        "人口健康",
         "health-equity",
-        "健康公平",
+        "us-government",
         "cdc-wonder",
-        "nchs",
         "births",
-        "出生",
-        "deaths",
-        "死亡",
-        "covid-19",
-        "新冠",
-        "vaccination",
-        "疫苗接种",
-        "healthcare",
-        "医疗保健",
-        "nutrition",
-        "营养"
+        "deaths"
       ],
       "data_content": {
         "en": [
-          "Vital Statistics - Birth and death certificates, infant mortality, fetal deaths, maternal health indicators",
-          "Mortality Data - Underlying and multiple causes of death, compressed mortality files by age, race, geography",
-          "Natality Data - Birth statistics, maternal characteristics, infant health, birth trends and demographics",
-          "Cancer Surveillance - Incidence, mortality, survival rates from SEER and NPCR cancer registries",
-          "Infectious Disease Surveillance - COVID-19, tuberculosis, sexually transmitted diseases, HIV/AIDS, national notifiable conditions",
-          "Chronic Disease Data - Heart disease, diabetes, obesity, asthma prevalence and risk factors",
-          "Vaccine Safety - Vaccine Adverse Event Reporting System (VAERS), immunization coverage data",
-          "Environmental Health - Air quality (PM2.5), temperature, heat waves, climate-related health impacts",
-          "National Health Surveys - NHIS (health interview), NHANES (nutrition examination), NSFG (family growth)",
-          "Healthcare Statistics - Healthcare utilization, access to care, insurance coverage, ambulatory care visits",
-          "Population Estimates - Bridged-race and single-race populations, demographic projections through 2060",
-          "NNDSS Data - National Notifiable Diseases Surveillance System with weekly and annual reporting",
-          "Injury & Violence - Motor vehicle crashes, traumatic brain injury, firearm injuries, overdose deaths",
-          "Behavioral Risk Factors - Smoking, tobacco use, physical activity, nutrition behaviors",
-          "Geographic Health Data - State, county, metropolitan area health statistics and health disparities"
+          "Mortality Data - Underlying and multiple causes of death, infant deaths, fetal deaths, compressed mortality files",
+          "Natality - Birth statistics including maternal health, infant characteristics, and birth trends",
+          "Cancer Statistics - Incidence, mortality, and survival data from cancer registries",
+          "Infectious Disease Surveillance - AIDS, tuberculosis, sexually transmitted diseases, national notifiable conditions",
+          "Environmental Health - Heat wave days, air temperatures, land surface temperatures, fine particulate matter, precipitation, sunlight exposure",
+          "Vaccine Safety - Vaccine Adverse Event Reporting System (VAERS) data",
+          "Population Estimates - Bridged-race population, single-race population, population projections",
+          "National Notifiable Diseases Surveillance System (NNDSS) - Weekly and annual disease reporting data",
+          "Climate and Health - Temperature, precipitation, air quality data linked to health outcomes",
+          "Geographic Health Data - State, county, and metropolitan area health statistics"
         ],
         "zh": [
-          "生命统计 - 出生和死亡证明、婴儿死亡率、胎儿死亡、孕产妇健康指标",
-          "死亡率数据 - 按年龄、种族、地理位置分类的基础和多重死因、压缩死亡率档案",
-          "出生统计数据 - 出生统计、孕产妇特征、婴儿健康、出生趋势和人口统计",
-          "癌症监测 - 来自SEER和NPCR癌症登记处的发病率、死亡率、存活率",
-          "传染病监测 - COVID-19、结核病、性传播疾病、HIV/艾滋病、国家应报告疾病",
-          "慢性病数据 - 心脏病、糖尿病、肥胖、哮喘患病率和风险因素",
-          "疫苗安全 - 疫苗不良事件报告系统(VAERS)、免疫接种覆盖率数据",
-          "环境健康 - 空气质量(PM2.5)、温度、热浪、气候相关健康影响",
-          "国家健康调查 - NHIS(健康访谈)、NHANES(营养检查)、NSFG(家庭成长)",
-          "医疗保健统计 - 医疗保健利用、就医机会、保险覆盖、门诊就诊",
-          "人口估计 - 桥接种族和单一种族人口、到2060年的人口预测",
-          "NNDSS数据 - 国家应报告疾病监测系统,包含每周和年度报告",
-          "伤害与暴力 - 机动车事故、创伤性脑损伤、枪支伤害、过量死亡",
-          "行为风险因素 - 吸烟、烟草使用、体育活动、营养行为",
-          "地理健康数据 - 州、县、都市区健康统计和健康差异"
+          "死亡率数据 - 基础和多重死因、婴儿死亡、胎儿死亡、压缩死亡率档案",
+          "出生统计 - 包括孕产妇健康、婴儿特征和出生趋势",
+          "癌症统计 - 来自癌症登记处的发病率、死亡率和存活数据",
+          "传染病监测 - 艾滋病、结核病、性传播疾病、国家应报告疾病",
+          "环境健康 - 热浪天数、气温、地表温度、细颗粒物、降水、阳光暴露",
+          "疫苗安全 - 疫苗不良事件报告系统(VAERS)数据",
+          "人口估计 - 桥接种族人口、单一种族人口、人口预测",
+          "国家应报告疾病监测系统(NNDSS) - 每周和年度疾病报告数据",
+          "气候与健康 - 与健康结果相关的温度、降水、空气质量数据",
+          "地理健康数据 - 州、县和都市区健康统计"
         ]
       },
       "authority_level": "government",
@@ -6538,7 +7989,7 @@
       },
       "website": "https://www.cgiar.org",
       "data_url": "https://gardian.cgiar.org/",
-      "api_url": null,
+      "api_url": "https://cgspace.cgiar.org/rest",
       "country": null,
       "domains": [
         "agriculture",
@@ -6611,7 +8062,7 @@
         ]
       },
       "authority_level": "international",
-      "has_api": false,
+      "has_api": true,
       "file_path": "international/agriculture/cgiar-research-data.json"
     },
     {
@@ -6864,6 +8315,204 @@
       "authority_level": "government",
       "has_api": true,
       "file_path": "international/construction/us-hud.json"
+    },
+    {
+      "id": "unfpa-china",
+      "name": {
+        "en": "UNFPA China",
+        "zh": "联合国人口基金驻华代表处"
+      },
+      "description": {
+        "en": "UNFPA is the United Nations sexual and reproductive health agency. UNFPA China works to ensure that every pregnancy is wanted, every childbirth is safe and every young person's potential is fulfilled. Since 1979, UNFPA has contributed to strengthened capacity for demographic analyses, policy planning, and addressing priorities related to population dynamics, youth empowerment, gender equality, and sexual and reproductive health.",
+        "zh": "联合国人口基金是联合国性与生殖健康机构。联合国人口基金驻华代表处致力于确保每个妊娠都是自愿的，每次分娩都是安全的，每个年轻人的潜力都能得到充分发挥。自1979年以来，联合国人口基金为加强人口分析、政策规划能力做出贡献，并致力于解决人口动态、青年赋能、性别平等以及性与生殖健康等重点问题。"
+      },
+      "website": "https://china.unfpa.org/en",
+      "data_url": "https://china.unfpa.org/en/publications",
+      "api_url": null,
+      "authority_level": "international",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "population",
+        "demographics",
+        "health",
+        "reproductive_health",
+        "gender_equality",
+        "youth_development",
+        "sustainable_development"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "population",
+        "人口",
+        "demographics",
+        "人口统计",
+        "census",
+        "人口普查",
+        "fertility",
+        "生育率",
+        "reproductive health",
+        "生殖健康",
+        "maternal health",
+        "孕产妇健康",
+        "gender equality",
+        "性别平等",
+        "youth",
+        "青年",
+        "aging",
+        "老龄化",
+        "urbanization",
+        "城镇化",
+        "sustainable development",
+        "可持续发展",
+        "SDG",
+        "United Nations",
+        "联合国",
+        "UNFPA",
+        "人口基金",
+        "population dynamics",
+        "人口动态",
+        "sex ratio",
+        "性别比",
+        "migration",
+        "人口迁移",
+        "poverty",
+        "贫困"
+      ],
+      "data_content": {
+        "en": [
+          "Population census data and analysis from China's National Population Censuses (including the Seventh Census in 2020)",
+          "Demographic trends including fertility rates, sex ratio at birth, aging population, and urbanization",
+          "Sexual and reproductive health data and indicators",
+          "Gender equality and women's empowerment statistics",
+          "Youth development and adolescent health data",
+          "State of World Population reports with China-specific analysis",
+          "Population data for sustainable development goals (SDG) tracking",
+          "Multi-dimensional poverty and migration data"
+        ],
+        "zh": [
+          "中国人口普查数据和分析（包括2020年第七次人口普查）",
+          "人口趋势数据，包括生育率、出生性别比、人口老龄化和城镇化",
+          "性与生殖健康数据和指标",
+          "性别平等和妇女赋权统计数据",
+          "青年发展和青少年健康数据",
+          "世界人口状况报告及中国专题分析",
+          "可持续发展目标（SDG）追踪的人口数据",
+          "多维贫困和人口迁移数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/demographics/unfpa-china.json"
+    },
+    {
+      "id": "unfpa-urbanization",
+      "name": {
+        "zh": "联合国人口基金 - 城镇化数据",
+        "en": "UNFPA - Urbanization Data"
+      },
+      "description": {
+        "zh": "联合国人口基金（UNFPA）提供全球及中国城镇化趋势分析报告和数据。涵盖全球城市化进程、贫民窟人口、城市增长预测等主题，支持各国制定有效的城市发展政策和人口健康项目。UNFPA自1979年起在中国开展合作，提供人口分析、城镇化、老龄化、性别比等领域的数据支持。",
+        "en": "The United Nations Population Fund (UNFPA) provides global and China urbanization trend analysis reports and data. Covering topics such as global urbanization processes, slum populations, urban growth projections, and supporting countries in developing effective urban development policies and population health programs. UNFPA has been working in China since 1979, providing data support in areas such as demographic analysis, urbanization, aging, and sex ratios."
+      },
+      "website": "https://www.unfpa.org",
+      "data_url": "https://www.unfpa.org/urbanization",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "domains": [
+        "demographics",
+        "urbanization",
+        "population-development",
+        "slums",
+        "reproductive-health",
+        "gender-equality"
+      ],
+      "data_content": {
+        "zh": [
+          "全球城镇化趋势和预测（2007-2050年）",
+          "中国人口中长期变动趋势预测（2021-2050年）",
+          "贫民窟人口统计（1990-2020年，全球约11亿人）",
+          "城市人口占比数据（2007年首次超过50%，2050年预计达68%）",
+          "中国流动人口报告（2018）",
+          "世界人口状况报告（年度）",
+          "中国城镇化率数据（2020年达63.9%）",
+          "青少年人口状况统计",
+          "性别比失衡分析",
+          "生殖健康服务数据"
+        ],
+        "en": [
+          "Global urbanization trends and projections (2007-2050)",
+          "China population projection (2021-2050)",
+          "Slum population statistics (1990-2020, globally ~1.1 billion people)",
+          "Urban population percentage (crossed 50% in 2007, projected 68% by 2050)",
+          "China internal migration report (2018)",
+          "State of World Population reports (annual)",
+          "China urbanization rate (63.9% in 2020)",
+          "Adolescent population statistics",
+          "Sex ratio imbalance analysis",
+          "Reproductive health service data"
+        ]
+      },
+      "tags": [
+        "联合国",
+        "人口基金",
+        "UNFPA",
+        "United Nations",
+        "Population Fund",
+        "城镇化",
+        "城市化",
+        "urbanization",
+        "贫民窟",
+        "slums",
+        "人口预测",
+        "population projections",
+        "中国人口",
+        "China population",
+        "流动人口",
+        "migration",
+        "internal migration",
+        "老龄化",
+        "aging",
+        "世界人口状况",
+        "State of World Population",
+        "人口发展",
+        "demographic trends",
+        "性别比",
+        "sex ratio",
+        "生殖健康",
+        "reproductive health",
+        "gender equality",
+        "性别平等",
+        "青少年",
+        "adolescents"
+      ],
+      "organization": {
+        "name": {
+          "zh": "联合国人口基金",
+          "en": "United Nations Population Fund"
+        },
+        "abbreviation": "UNFPA",
+        "type": "international_organization"
+      },
+      "access": {
+        "requires_registration": false,
+        "cost": "free"
+      },
+      "formats": [
+        "PDF",
+        "HTML",
+        "Excel"
+      ],
+      "related_links": {
+        "unfpa_china": "https://china.unfpa.org/zh-Hans",
+        "world_urbanization_prospects": "https://population.un.org/wup/",
+        "publications": "https://www.unfpa.org/publications",
+        "china_publications": "https://china.unfpa.org/zh-Hans/publications"
+      },
+      "has_api": false,
+      "file_path": "international/demographics/unfpa-urbanization.json"
     },
     {
       "id": "adb-data-library",
@@ -7665,101 +9314,150 @@
       "id": "adb-ado",
       "name": {
         "en": "Asian Development Outlook",
-        "zh": "亚洲开发展望"
+        "zh": "亚洲发展展望"
       },
       "description": {
-        "en": "The Asian Development Outlook (ADO) is the flagship economic analysis publication of the Asian Development Bank. Published quarterly (April, July, September, and December), it provides comprehensive GDP growth forecasts, inflation rate projections, and economic analysis for 46 ADB developing member economies across five subregions: Caucasus and Central Asia, East Asia, South Asia, Southeast Asia, and The Pacific. The ADO delivers evidence-based policy recommendations for policymakers to address economic and development challenges in the Asia-Pacific region.",
-        "zh": "亚洲开发展望(ADO)是亚洲开发银行的旗舰经济分析出版物。该报告每季度发布一次(4月、7月、9月和12月),为亚行46个发展中成员经济体提供全面的GDP增长预测、通货膨胀率预测和经济分析,涵盖五个次区域:高加索和中亚、东亚、南亚、东南亚和太平洋地区。ADO为政策制定者提供基于证据的政策建议,以应对亚太地区的经济和发展挑战。"
+        "en": "The Asian Development Outlook (ADO) is the Asian Development Bank's flagship annual economic publication that analyzes economic and development issues in developing countries across Asia and the Pacific. It provides comprehensive GDP growth and inflation forecasts, examines social development issues, and offers policy recommendations for regional economies. Published quarterly with editions in April, July, September, and December.",
+        "zh": "亚洲发展展望（ADO）是亚洲开发银行的旗舰年度经济出版物，分析亚洲及太平洋地区发展中国家的经济和发展问题。它提供全面的GDP增长和通货膨胀预测，考察社会发展问题，并为区域经济提供政策建议。每年发布四次，分别在4月、7月、9月和12月出版。"
       },
-      "website": "https://www.adb.org",
-      "data_url": "https://www.adb.org/outlook",
+      "website": "https://www.adb.org/",
+      "data_url": "https://www.adb.org/publications/series/asian-development-outlook",
       "api_url": null,
+      "authority_level": "international",
       "country": null,
       "domains": [
         "economics",
-        "economic forecasting",
-        "macroeconomics",
         "finance",
-        "development economics",
-        "gdp growth",
-        "inflation",
-        "poverty analysis",
-        "regional economics",
-        "public sector management"
+        "development",
+        "social"
       ],
       "geographic_scope": "regional",
       "update_frequency": "quarterly",
       "tags": [
-        "asian-development-bank",
-        "adb",
-        "ado",
-        "asian-development-outlook",
+        "ADB",
+        "Asian Development Bank",
         "亚洲开发银行",
-        "亚洲开发展望",
-        "economic-forecasting",
-        "经济预测",
-        "gdp-growth",
-        "gdp",
-        "国内生产总值",
-        "经济增长",
+        "ADO",
+        "economic outlook",
+        "经济展望",
+        "GDP growth",
+        "GDP增长",
         "inflation",
         "通货膨胀",
-        "asia-pacific",
+        "economic forecast",
+        "经济预测",
+        "Asia Pacific",
         "亚太地区",
-        "developing-economies",
-        "发展中经济体",
-        "macroeconomic-indicators",
-        "宏观经济指标",
-        "economic-outlook",
-        "经济展望",
-        "regional-economics",
-        "区域经济",
-        "development-analysis",
-        "发展分析",
-        "poverty",
-        "贫困",
-        "china",
-        "中国",
-        "india",
-        "印度",
-        "southeast-asia",
-        "东南亚",
-        "central-asia",
-        "中亚",
-        "caucasus",
-        "高加索",
-        "pacific-islands",
-        "太平洋岛国"
+        "developing countries",
+        "发展中国家",
+        "economic analysis",
+        "经济分析",
+        "development policy",
+        "发展政策"
       ],
       "data_content": {
         "en": [
-          "GDP Growth Forecasts - Quarterly projections for 46 developing member economies across the Asia-Pacific region",
-          "Inflation Rate Projections - Consumer price index forecasts and inflation analysis",
-          "Economic Analysis by Subregion - Detailed analysis for Caucasus and Central Asia (11 countries), East Asia (2 countries), South Asia (6 countries), Southeast Asia (8 countries), and The Pacific (15 countries)",
-          "Macroeconomic Indicators - Comprehensive economic statistics including fiscal policy, monetary policy, trade balance, and current account data",
-          "Development Trends - Analysis of poverty reduction, inclusive growth, and sustainable development progress",
-          "Risk Assessment - Evaluation of economic risks including global conditions, commodity prices, financial market volatility, and geopolitical factors",
-          "Policy Recommendations - Evidence-based policy guidance for economic development and crisis response for policymakers",
-          "Country-Specific Forecasts - Individual economic outlooks for major economies including China, India, and other developing Asian countries",
-          "Regional Economic Integration - Analysis of trade flows, investment patterns, and regional cooperation initiatives",
-          "Statistical Tables - Downloadable economic data linked to ADB Data Library"
+          "GDP growth forecasts for developing Asian economies",
+          "Inflation rate projections and analysis",
+          "Subregional economic assessments (5 subregions)",
+          "Country-level economic indicators and trends",
+          "Social development indicators and analysis",
+          "Development policy recommendations",
+          "Economic risk assessments",
+          "Macroeconomic statistics and historical data"
         ],
         "zh": [
-          "GDP增长预测 - 亚太地区46个发展中成员经济体的季度增长预测",
-          "通货膨胀率预测 - 消费者价格指数预测和通胀分析",
-          "分次区域经济分析 - 高加索和中亚(11国)、东亚(2国)、南亚(6国)、东南亚(8国)和太平洋地区(15国)的详细分析",
-          "宏观经济指标 - 包括财政政策、货币政策、贸易平衡和经常账户数据在内的综合经济统计",
-          "发展趋势 - 减贫、包容性增长和可持续发展进展分析",
-          "风险评估 - 经济风险评估,包括全球环境、大宗商品价格、金融市场波动和地缘政治因素",
-          "政策建议 - 为政策制定者提供基于证据的经济发展和危机应对政策指导",
-          "国别预测 - 包括中国、印度等主要经济体的单独经济展望",
-          "区域经济一体化 - 贸易流动、投资模式和区域合作倡议分析",
-          "统计表格 - 可下载的经济数据,链接到亚行数据库"
+          "亚洲发展中经济体的GDP增长预测",
+          "通货膨胀率预测和分析",
+          "次区域经济评估（5个次区域）",
+          "国家级经济指标和趋势",
+          "社会发展指标和分析",
+          "发展政策建议",
+          "经济风险评估",
+          "宏观经济统计和历史数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/economics/adb-ado.json"
+    },
+    {
+      "id": "adb-vietnam-data",
+      "name": {
+        "en": "Asian Development Bank - Vietnam Country Data",
+        "zh": "亚洲开发银行越南国别数据"
+      },
+      "description": {
+        "en": "Comprehensive economic development data and statistics for Vietnam provided by the Asian Development Bank (ADB). The platform provides country-specific economic indicators including GDP growth forecasts, inflation rates, poverty statistics, development project performance metrics, key economic and social indicators, and cofinancing data. ADB's Vietnam data supports policy analysis and tracks the country's economic performance and development progress across multiple sectors.",
+        "zh": "亚洲开发银行(ADB)提供的越南综合经济发展数据和统计资料。该平台提供特定国家的经济指标，包括GDP增长预测、通货膨胀率、贫困统计、发展项目绩效指标、关键经济和社会指标，以及联合融资数据。亚行的越南数据支持政策分析，跟踪该国在多个部门的经济表现和发展进展。"
+      },
+      "website": "https://www.adb.org",
+      "data_url": "https://www.adb.org/countries/viet-nam/data",
+      "api_url": null,
+      "country": "VN",
+      "domains": [
+        "economics",
+        "development",
+        "finance",
+        "poverty",
+        "social development",
+        "infrastructure"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "tags": [
+        "asian-development-bank",
+        "adb",
+        "vietnam",
+        "viet-nam",
+        "economic-indicators",
+        "gdp-forecast",
+        "inflation",
+        "poverty-statistics",
+        "development-projects",
+        "economic-growth",
+        "key-indicators",
+        "country-data",
+        "quarterly-data",
+        "亚洲开发银行",
+        "亚行",
+        "越南",
+        "经济指标",
+        "GDP预测",
+        "通货膨胀",
+        "贫困统计",
+        "发展项目",
+        "经济增长",
+        "关键指标",
+        "国别数据",
+        "季度数据"
+      ],
+      "data_content": {
+        "en": [
+          "Economic Forecasts - GDP growth projections (6.7% in 2025, 6.0% in 2026), inflation forecasts (3.9% in 2025, 3.8% in 2026)",
+          "Key Economic Indicators - Comprehensive economic, financial, social, environmental, and SDG indicators for Vietnam",
+          "Poverty Statistics - Poverty levels, trends, and poverty reduction metrics",
+          "Development Project Performance - Success rates database (2000-2018), results tracking of ADB-supported operations",
+          "Cofinancing Data - Information on projects cofinanced during 2014-2018",
+          "Country Dashboard - Latest selected data on Vietnam's economy, poverty, socioeconomic development, and cumulative ADB assistance",
+          "Input-Output Economic Indicators - Statistics for analyzing cross-border production arrangements at local, regional, and global levels",
+          "GNI per capita - National income measurements",
+          "Asian Development Outlook Data - Regular economic analysis and forecasts specific to Vietnam"
+        ],
+        "zh": [
+          "经济预测 - GDP增长预测（2025年6.7%，2026年6.0%）、通货膨胀预测（2025年3.9%，2026年3.8%）",
+          "关键经济指标 - 越南的综合经济、金融、社会、环境和可持续发展目标指标",
+          "贫困统计 - 贫困水平、趋势和减贫指标",
+          "发展项目绩效 - 成功率数据库（2000-2018）、亚行支持项目的成果跟踪",
+          "联合融资数据 - 2014-2018年期间联合融资项目信息",
+          "国家仪表板 - 越南经济、贫困、社会经济发展和亚行累计援助的最新精选数据",
+          "投入产出经济指标 - 用于分析地方、区域和全球层面跨境生产安排的统计数据",
+          "人均国民总收入 - 国民收入测量",
+          "亚洲发展展望数据 - 针对越南的定期经济分析和预测"
         ]
       },
       "authority_level": "international",
       "has_api": false,
-      "file_path": "international/economics/adb-ado.json"
+      "file_path": "international/economics/adb-vietnam-data.json"
     },
     {
       "id": "adb-vietnam",
@@ -7853,6 +9551,118 @@
       },
       "has_api": false,
       "file_path": "international/economics/adb-vietnam.json"
+    },
+    {
+      "id": "adb",
+      "name": {
+        "en": "Asian Development Bank Data",
+        "zh": "亚洲开发银行数据"
+      },
+      "description": {
+        "en": "Asian Development Bank (ADB) is a leading multilateral development bank supporting inclusive, resilient, and sustainable growth across Asia and the Pacific. Established in 1966 with 69 member countries, ADB provides comprehensive economic, financial, social, and environmental data through multiple platforms including the ADB Data Library, Key Indicators Database (KIDB), and AsianBondsOnline. The data covers macroeconomic indicators, development statistics, project information, and sector-specific data across Asia-Pacific region.",
+        "zh": "亚洲开发银行(ADB)是支持亚太地区包容性、韧性和可持续增长的领先多边开发银行。成立于1966年,拥有69个成员国,亚行通过多个平台提供全面的经济、金融、社会和环境数据,包括亚行数据库、关键指标数据库(KIDB)和亚洲债券在线等。数据涵盖亚太地区的宏观经济指标、发展统计、项目信息和行业特定数据。"
+      },
+      "website": "https://www.adb.org",
+      "data_url": "https://www.adb.org/what-we-do/data",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "economics",
+        "finance",
+        "development",
+        "infrastructure",
+        "agriculture",
+        "education",
+        "health",
+        "environment",
+        "climate change",
+        "energy",
+        "transport",
+        "water",
+        "urban development",
+        "gender equality",
+        "social development",
+        "governance",
+        "regional cooperation",
+        "trade",
+        "digital technology"
+      ],
+      "geographic_scope": "regional",
+      "update_frequency": "quarterly",
+      "tags": [
+        "asian-development-bank",
+        "adb",
+        "multilateral-development-bank",
+        "asia",
+        "pacific",
+        "asia-pacific",
+        "economic-indicators",
+        "development-finance",
+        "infrastructure-investment",
+        "sustainable-development",
+        "sdg",
+        "climate-finance",
+        "poverty-reduction",
+        "macroeconomic-data",
+        "gdp-forecasts",
+        "asian-development-outlook",
+        "ado",
+        "key-indicators",
+        "kidb",
+        "regional-cooperation",
+        "bond-market",
+        "亚洲开发银行",
+        "亚行",
+        "多边开发银行",
+        "亚太地区",
+        "经济指标",
+        "发展融资",
+        "基础设施投资",
+        "可持续发展",
+        "气候融资",
+        "减贫",
+        "宏观经济数据",
+        "GDP预测",
+        "亚洲发展展望",
+        "关键指标",
+        "区域合作",
+        "债券市场"
+      ],
+      "data_content": {
+        "en": [
+          "Macroeconomic Indicators - GDP growth, inflation, fiscal balance, current account balance, exchange rates for 50 regional member countries",
+          "Asian Development Outlook (ADO) - Economic forecasts and analysis released regularly with growth projections for Asia-Pacific economies",
+          "Key Indicators for Asia and the Pacific - Annual comprehensive statistical compilation covering economic, social, and environmental indicators",
+          "Key Indicators Database (KIDB) - One of the world's most comprehensive resources for macroeconomic and social indicators from across Asia and the Pacific",
+          "Development Finance Data - ADB project financing information, loan disbursements, technical assistance, and grant allocations",
+          "Infrastructure Statistics - Infrastructure investment needs, project data, and sector-specific infrastructure indicators",
+          "Climate Change Data - Climate financing metrics, emissions data, environmental indicators, and climate vulnerability assessments",
+          "Asian Economic Integration Report - Regional integration trends, trade flows, and cross-border investment statistics",
+          "AsianBondsOnline - Bond market information and statistics for emerging East Asian markets",
+          "Sustainable Development Goals (SDG) Indicators - Progress monitoring and tracking for Asia-Pacific region",
+          "Social Development Data - Education, health, gender equality, poverty, and employment statistics",
+          "Sector-Specific Data - Agriculture, energy, transport, water, urban development, and digital technology statistics",
+          "Country Economic Profiles - Comprehensive country-level economic and development data for member countries"
+        ],
+        "zh": [
+          "宏观经济指标 - 50个区域成员国的GDP增长、通货膨胀、财政平衡、经常账户余额、汇率",
+          "亚洲发展展望(ADO) - 定期发布的经济预测和分析,包含亚太经济体的增长预测",
+          "亚洲及太平洋地区关键指标 - 年度综合统计汇编,涵盖经济、社会和环境指标",
+          "关键指标数据库(KIDB) - 全球最全面的亚太地区宏观经济和社会指标资源之一",
+          "发展融资数据 - 亚行项目融资信息、贷款支付、技术援助和赠款分配",
+          "基础设施统计 - 基础设施投资需求、项目数据和特定部门基础设施指标",
+          "气候变化数据 - 气候融资指标、排放数据、环境指标和气候脆弱性评估",
+          "亚洲经济一体化报告 - 区域一体化趋势、贸易流量和跨境投资统计",
+          "亚洲债券在线 - 新兴东亚市场的债券市场信息和统计",
+          "可持续发展目标(SDG)指标 - 亚太地区的进展监测和跟踪",
+          "社会发展数据 - 教育、卫生、性别平等、贫困和就业统计",
+          "行业特定数据 - 农业、能源、交通、水资源、城市发展和数字技术统计",
+          "国家经济概况 - 成员国的全面国家级经济和发展数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/economics/adb.json"
     },
     {
       "id": "ceic-global-database",
@@ -8106,7 +9916,7 @@
       },
       "website": "https://www.imf.org",
       "data_url": "https://data.imf.org",
-      "api_url": "https://www.imf.org/external/datamapper/api/v1/",
+      "api_url": "https://datahelp.imf.org/knowledgebase/articles/667681-using-json-restful-web-service",
       "country": null,
       "domains": [
         "economics",
@@ -8217,6 +10027,79 @@
       "authority_level": "international",
       "has_api": true,
       "file_path": "international/economics/oecd.json"
+    },
+    {
+      "id": "unsd-national-accounts",
+      "name": {
+        "en": "UN National Accounts Database",
+        "zh": "联合国统计司国民账户数据库"
+      },
+      "description": {
+        "en": "The United Nations Statistics Division (UNSD) National Accounts Database provides comprehensive national accounts statistics for over 200 countries and territories worldwide. The database includes main aggregates, detailed tables, and analytical indicators following the System of National Accounts (SNA) framework. Data covers GDP, national income, consumption, investment, government finance, and other macroeconomic indicators from 1970 onwards, updated annually in December.",
+        "zh": "联合国统计司(UNSD)国民账户数据库为全球200多个国家和地区提供全面的国民账户统计数据。该数据库包括主要总量、详细表格和分析指标,遵循国民账户体系(SNA)框架。数据涵盖GDP、国民收入、消费、投资、政府财政和其他宏观经济指标,时间跨度从1970年至今,每年12月更新。"
+      },
+      "website": "https://unstats.un.org",
+      "data_url": "https://unstats.un.org/unsd/snaama",
+      "api_url": "http://data.un.org/Host.aspx?Content=API",
+      "authority_level": "international",
+      "country": null,
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "domains": [
+        "economics",
+        "finance"
+      ],
+      "tags": [
+        "national-accounts",
+        "gdp",
+        "经济统计",
+        "国民账户",
+        "宏观经济",
+        "SNA",
+        "国民生产总值",
+        "macroeconomic-indicators",
+        "UN",
+        "UNSD",
+        "联合国",
+        "economic-growth",
+        "government-finance",
+        "consumption",
+        "investment",
+        "per-capita-gdp",
+        "人均gdp",
+        "gni",
+        "人均gni"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and GDP per capita by expenditure approach (current and constant prices)",
+          "National income and gross national income (GNI)",
+          "Final consumption expenditure by households and government",
+          "Gross capital formation and fixed capital formation",
+          "Exports and imports of goods and services",
+          "Government revenue and expenditure",
+          "Compensation of employees and operating surplus",
+          "Value added by economic activity",
+          "Population and employment data",
+          "National accounts main aggregates following SNA 2008 framework",
+          "Detailed national accounts tables for UN member states"
+        ],
+        "zh": [
+          "按支出法计算的GDP和人均GDP(现价和不变价格)",
+          "国民收入和国民总收入(GNI)",
+          "住户和政府最终消费支出",
+          "资本形成总额和固定资本形成",
+          "货物和服务的进出口",
+          "政府收入和支出",
+          "雇员报酬和营业盈余",
+          "按经济活动分类的增加值",
+          "人口和就业数据",
+          "遵循SNA 2008框架的国民账户主要总量",
+          "联合国会员国详细国民账户表"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/economics/unsd-national-accounts.json"
     },
     {
       "id": "worldbank-open-data",
@@ -8818,6 +10701,67 @@
       "file_path": "international/environment/cites-trade-database.json"
     },
     {
+      "id": "bis-cbta",
+      "name": {
+        "en": "BIS Central Bank Total Assets",
+        "zh": "国际清算银行中央银行总资产统计"
+      },
+      "description": {
+        "en": "The BIS Central Bank Total Assets dataset tracks the evolution of central bank balance sheets across more than 50 advanced and emerging market economies. Financial assets include gold, foreign exchange reserves, and claims on government, financial and non-financial sectors. The dataset features long historical series, with annual data averaging approximately 100 years and some series extending back to the 19th century.",
+        "zh": "国际清算银行中央银行总资产数据集追踪全球50多个发达和新兴市场经济体的中央银行资产负债表变化。金融资产包括黄金、外汇储备以及对政府、金融和非金融部门的债权。该数据集提供长期历史序列，年度数据平均约100年，部分序列可追溯至19世纪。"
+      },
+      "website": "https://www.bis.org",
+      "data_url": "https://data.bis.org/topics/CBTA",
+      "api_url": "https://stats.bis.org/api-doc/v2/",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "finance",
+        "monetary-policy",
+        "central-banking"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "quarterly",
+      "tags": [
+        "central-bank",
+        "中央银行",
+        "foreign-exchange-reserves",
+        "外汇储备",
+        "balance-sheet",
+        "资产负债表",
+        "monetary-statistics",
+        "货币统计",
+        "gold-reserves",
+        "黄金储备",
+        "BIS",
+        "国际清算银行",
+        "official-reserves",
+        "官方储备",
+        "total-assets",
+        "总资产"
+      ],
+      "data_content": {
+        "en": [
+          "Central bank total assets for 50+ countries",
+          "Gold and foreign exchange reserves holdings",
+          "Claims on government, financial and non-financial sectors",
+          "Monthly, quarterly, and annual time series",
+          "Historical data extending back to the 19th century for some countries",
+          "Data available in domestic currency, percentage of GDP, and US dollars"
+        ],
+        "zh": [
+          "50多个国家的中央银行总资产",
+          "黄金和外汇储备持有量",
+          "对政府、金融和非金融部门的债权",
+          "月度、季度和年度时间序列",
+          "部分国家的历史数据可追溯至19世纪",
+          "提供本币、GDP百分比和美元三种计量单位"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/finance/bis-cbta.json"
+    },
+    {
       "id": "bis-reserves",
       "name": {
         "en": "BIS Central Bank Reserves Statistics",
@@ -9213,6 +11157,80 @@
       "file_path": "international/health/ecdc-surveillance.json"
     },
     {
+      "id": "unctad-infrastructure-statistics",
+      "name": {
+        "en": "UNCTAD Infrastructure Statistics Database",
+        "zh": "联合国贸发会议基础设施统计数据库"
+      },
+      "description": {
+        "en": "UNCTADstat provides comprehensive infrastructure statistics covering transport, telecommunications, electricity, and water sectors as part of its Production Capacity Index (PCI). The database harmonizes and integrates infrastructure-related indicators for 193 economies, including both developed and developing countries, with particular focus on developing nations and transition economies.",
+        "zh": "联合国贸发会议统计数据库(UNCTADstat)提供涵盖运输、电信、电力和水利等部门的全面基础设施统计数据,作为其生产能力指数(PCI)的一部分。该数据库整合了193个经济体的基础设施相关指标,包括发达国家和发展中国家,特别关注发展中国家和转型经济体。"
+      },
+      "website": "https://unctad.org",
+      "data_url": "https://unctadstat.unctad.org/datacentre",
+      "api_url": "https://unctadstat.unctad.org/EN/Documentation.html",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "infrastructure",
+        "transport",
+        "telecommunications",
+        "energy",
+        "water_utilities",
+        "ict"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "infrastructure",
+        "基础设施",
+        "transport",
+        "运输",
+        "telecommunications",
+        "电信",
+        "ICT",
+        "信息通信技术",
+        "electricity",
+        "电力",
+        "water utilities",
+        "水利",
+        "production capacity",
+        "生产能力",
+        "development indicators",
+        "发展指标",
+        "UNCTAD",
+        "贸发会议",
+        "UN statistics",
+        "联合国统计",
+        "trade and development",
+        "贸易与发展",
+        "developing countries",
+        "发展中国家",
+        "global infrastructure",
+        "全球基础设施"
+      ],
+      "data_content": {
+        "en": [
+          "Transport infrastructure indicators (roads, railways, ports, airports)",
+          "Telecommunications and ICT infrastructure statistics",
+          "Electricity generation and distribution infrastructure data",
+          "Water utilities and infrastructure indicators",
+          "Production Capacity Index (PCI) with 46 indicators across 8 components",
+          "Infrastructure investment and development statistics"
+        ],
+        "zh": [
+          "运输基础设施指标(道路、铁路、港口、机场)",
+          "电信和信息通信技术基础设施统计",
+          "电力生产和配送基础设施数据",
+          "水利公用事业和基础设施指标",
+          "生产能力指数(PCI),涵盖8个组成部分的46个指标",
+          "基础设施投资和发展统计"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/infrastructure/unctad-infrastructure-statistics.json"
+    },
+    {
       "id": "wipo-ip-statistics",
       "name": {
         "en": "WIPO IP Statistics",
@@ -9302,7 +11320,7 @@
         "en": "The Bureau International des Poids et Mesures (BIPM) is the international organization through which Member States work together on matters related to metrology. Established by the Metre Convention in 1875, the BIPM maintains the Key Comparison Database (KCDB), which provides public access to measurement comparison results and calibration and measurement capabilities (CMCs) under the CIPM Mutual Recognition Arrangement (CIPM MRA). The KCDB contains peer-reviewed and approved data on measurement standards, ensuring global comparability and traceability of measurements for scientific discovery, industrial manufacturing, international trade, quality of life, and environmental sustainability.",
         "zh": "国际度量衡局（BIPM）是成员国在计量事务上开展合作的国际组织。BIPM于1875年根据米制公约建立，维护着关键比对数据库（KCDB），该数据库在国际计量委员会相互承认协议（CIPM MRA）框架下提供公开访问测量比对结果和校准测量能力（CMCs）的服务。KCDB包含经过同行评审和批准的测量标准数据，确保测量的全球可比性和可追溯性，服务于科学发现、工业制造、国际贸易、生活质量提升和环境可持续发展。"
       },
-      "website": "https://www.bipm.org/kcdb/",
+      "website": "https://www.bipm.org",
       "data_url": "https://www.bipm.org/kcdb",
       "api_url": "https://www.bipm.org/en/cipm-mra/kcdb-api",
       "country": null,
@@ -9442,17 +11460,16 @@
     {
       "id": "bea-international-trade",
       "name": {
-        "en": "BEA International Trade in Goods and Services",
-        "zh": "美国经济分析局国际贸易数据"
+        "en": "BEA Interactive Data - International Trade",
+        "zh": "美国经济分析局国际贸易互动数据"
       },
       "description": {
-        "en": "The U.S. Bureau of Economic Analysis (BEA) provides comprehensive monthly statistics on U.S. international trade in goods and services. The dataset includes detailed historical data from 1960 to present, covering exports and imports by country and product category, with both seasonally adjusted and unadjusted figures. Data is accessible through interactive tables, API, and downloadable formats.",
-        "zh": "美国经济分析局(BEA)提供全面的美国国际货物和服务贸易月度统计数据。数据集包含从1960年至今的详细历史数据，涵盖按国家和产品类别分类的出口和进口数据，提供季节性调整和未调整数据。数据可通过交互式表格、API和可下载格式访问。"
+        "en": "The Bureau of Economic Analysis (BEA) Interactive Data application provides comprehensive U.S. international trade statistics including goods and services trade, bilateral trade flows, and services supplied through affiliates. Features customizable time ranges from 1960 to present with monthly and annual data releases.",
+        "zh": "美国经济分析局（BEA）互动数据应用提供全面的美国国际贸易统计数据，包括商品和服务贸易、双边贸易流以及通过附属机构提供的服务。提供从1960年至今的可自定义时间范围，包含月度和年度数据发布。"
       },
       "website": "https://www.bea.gov",
       "data_url": "https://apps.bea.gov/iTable/index_ita.cfm",
-      "api_url": "https://apps.bea.gov/API/signup/index.html",
-      "authority_level": "government",
+      "api_url": "https://apps.bea.gov/API/docs/index.htm",
       "country": "US",
       "domains": [
         "trade",
@@ -9463,48 +11480,45 @@
       "update_frequency": "monthly",
       "tags": [
         "international_trade",
-        "国际贸易",
-        "exports",
-        "出口",
-        "imports",
-        "进口",
-        "trade_balance",
-        "贸易差额",
-        "goods_trade",
-        "货物贸易",
-        "services_trade",
-        "服务贸易",
-        "us_trade",
-        "美国贸易",
+        "美国贸易数据",
+        "us_trade_statistics",
+        "goods_and_services",
         "bilateral_trade",
         "双边贸易",
-        "trade_statistics",
-        "贸易统计",
-        "bea",
-        "bureau_of_economic_analysis"
+        "trade_balance",
+        "贸易平衡",
+        "services_trade",
+        "服务贸易",
+        "BEA",
+        "economic_analysis",
+        "trade_deficit",
+        "贸易逆差",
+        "export_import",
+        "进出口",
+        "international_transactions",
+        "国际交易",
+        "trade_in_value_added",
+        "增加值贸易"
       ],
       "data_content": {
         "en": [
-          "Monthly U.S. international trade in goods and services from 1960 to present, including total exports, imports, and trade balance",
-          "Bilateral trade data by country and geographic area (available from 1999 onwards) covering major trading partners",
-          "Trade in goods with detailed product category breakdowns (seasonally adjusted and unadjusted)",
-          "Trade in services including categories such as travel, transport, intellectual property, financial services, and other business services",
-          "International Transactions Balance of Payments - comprehensive U.S. transactions in goods, services, income, and investment with other countries",
-          "International Services Expanded Detail - detailed service sector information including multinational enterprise activities",
-          "International Investment Position - financial asset and liability records between the U.S. and other nations",
-          "Direct Investment by Country and Industry - investment data involving business control or significant influence"
+          "International Trade in Goods and Services - Monthly and annual U.S. trade data including goods trade deficit, services surplus, and geographic breakdowns by country and region (1960-present)",
+          "International Transactions Accounts - Comprehensive data on all transactions between U.S. and foreign residents including trade, investment income, and financial flows",
+          "International Services Trade - Detailed annual statistics on U.S. trade in services by type of service for 90+ countries and areas, including ICT-related services",
+          "Trade by Country and Area - Bilateral trade statistics with selected countries and geographic regions from 1999 onwards",
+          "Trade in Value Added (TiVA) - Analysis of domestic and foreign value-added content in exports and imports",
+          "International Services Supplied Through Affiliates - Data on services supplied by affiliates of multinational enterprises operating across borders"
         ],
         "zh": [
-          "从1960年至今的美国国际货物和服务贸易月度数据，包括总出口、进口和贸易差额",
-          "按国家和地理区域分类的双边贸易数据（1999年起可用），涵盖主要贸易伙伴",
-          "货物贸易详细产品类别细分（包含季节性调整和未调整数据）",
-          "服务贸易，包括旅行、运输、知识产权、金融服务和其他商业服务等类别",
-          "国际交易收支平衡表 - 美国与其他国家在货物、服务、收入和投资方面的全面交易数据",
-          "国际服务扩展详细信息 - 详细的服务业信息，包括跨国企业活动",
-          "国际投资头寸 - 美国与其他国家之间的金融资产和负债记录",
-          "按国家和行业分类的直接投资 - 涉及企业控制权或重大影响力的投资数据"
+          "国际商品和服务贸易 - 月度和年度美国贸易数据，包括商品贸易逆差、服务顺差以及按国家和地区的地理细分（1960年至今）",
+          "国际交易账户 - 美国与外国居民之间所有交易的综合数据，包括贸易、投资收入和金融流动",
+          "国际服务贸易 - 按服务类型分类的美国与90多个国家和地区的服务贸易详细年度统计，包括信息通信技术相关服务",
+          "按国家和地区分类的贸易 - 1999年以来与特定国家和地理区域的双边贸易统计",
+          "增加值贸易（TiVA） - 分析出口和进口中的国内和国外增加值含量",
+          "通过附属机构提供的国际服务 - 跨国企业附属机构跨境提供服务的数据"
         ]
       },
+      "authority_level": "government",
       "has_api": true,
       "file_path": "international/trade/bea-international-trade.json"
     },
@@ -9636,6 +11650,89 @@
       "file_path": "international/trade/icc-trade-register.json"
     },
     {
+      "id": "unctad-trade-transport",
+      "name": {
+        "en": "UNCTAD Trade-and-Transport Dataset",
+        "zh": "联合国贸发会议贸易与运输数据集"
+      },
+      "description": {
+        "en": "The Trade-and-Transport Dataset, developed by UNCTAD and the World Bank, provides comprehensive data on merchandise trade value and volume, freight transport costs, and transport work required per shipment between over 170 economies from 2016 to 2021. Data is broken down by commodity group and mode of transport, offering derived indicators such as freight rates and transport cost intensities.",
+        "zh": "贸易与运输数据集由联合国贸发会议(UNCTAD)和世界银行联合开发,提供2016-2021年间170多个经济体的货物贸易价值和数量、货运成本以及每次装运所需运输工作量的综合数据。数据按商品组和运输方式细分,提供运费率和运输成本强度等衍生指标。"
+      },
+      "website": "https://unctad.org",
+      "data_url": "https://unctadstat.unctad.org/EN/TransportCost.html",
+      "api_url": "https://unctadstat.unctad.org/datacentre",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "trade",
+        "transportation",
+        "logistics",
+        "economics"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "UNCTAD",
+        "联合国贸发会议",
+        "trade",
+        "贸易",
+        "transport",
+        "运输",
+        "logistics",
+        "物流",
+        "freight cost",
+        "运费成本",
+        "shipping",
+        "海运",
+        "transport cost",
+        "运输成本",
+        "merchandise trade",
+        "货物贸易",
+        "freight rates",
+        "运费率",
+        "UNCTADstat",
+        "trade statistics",
+        "贸易统计",
+        "transport statistics",
+        "运输统计",
+        "global trade",
+        "全球贸易",
+        "supply chain",
+        "供应链",
+        "World Bank",
+        "世界银行"
+      ],
+      "data_content": {
+        "en": [
+          "Merchandise trade value and volume for 170+ economies (2016-2021)",
+          "Freight transport costs per shipment by commodity group",
+          "Transport work required (ton-kilometers) by mode of transport",
+          "Freight rates by commodity and transport mode",
+          "Transport cost intensities by value and volume",
+          "Trade flows broken down by mode of transport (sea, air, land, rail)",
+          "Liner shipping connectivity index",
+          "Maritime transport costs and seaborne trade statistics",
+          "Country-pair bilateral trade and transport data",
+          "Data available via UNCTADstat portal, API, and bulk file downloads"
+        ],
+        "zh": [
+          "170多个经济体的货物贸易价值和数量(2016-2021年)",
+          "按商品组分类的每次装运货运成本",
+          "按运输方式分类的所需运输工作量(吨公里)",
+          "按商品和运输方式分类的运费率",
+          "按价值和数量分类的运输成本强度",
+          "按运输方式(海运、空运、陆运、铁路)细分的贸易流量",
+          "班轮航运连通性指数",
+          "海运成本和海运贸易统计",
+          "国家对之间的双边贸易和运输数据",
+          "通过UNCTADstat门户、API和批量文件下载提供数据"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/trade/unctad-trade-transport.json"
+    },
+    {
       "id": "unctad",
       "name": {
         "en": "UNCTAD - United Nations Conference on Trade and Development",
@@ -9647,7 +11744,7 @@
       },
       "website": "https://unctad.org",
       "data_url": "https://unctadstat.unctad.org",
-      "api_url": "https://unctadstat-api.unctad.org/",
+      "api_url": "https://unctadstat.unctad.org/EN/api.html",
       "country": null,
       "domains": [
         "trade",
@@ -11248,20 +13345,19 @@
     {
       "id": "akshare",
       "name": {
-        "en": "AKShare - Open Source Financial Data Interface Library",
-        "zh": "AKShare - 开源财经数据接口库"
+        "en": "AkShare",
+        "zh": "AkShare"
       },
       "description": {
-        "en": "AKShare is an elegant and simple financial data interface library for Python, built for human beings. It provides comprehensive access to financial data including stocks, futures, options, funds, forex, bonds, indices, and cryptocurrencies. The library aggregates data from authoritative financial websites and is designed for academic research and quantitative analysis. Emphasizing the philosophy of 'Write less, get more!', it enables users to obtain complex financial data with simple one-line commands.",
-        "zh": "AKShare 是一个优雅简洁的 Python 财经数据接口库，专为人类设计。它提供对股票、期货、期权、基金、外汇、债券、指数和加密货币等金融数据的全面访问。该库聚合了来自权威财经网站的数据，专为学术研究和量化分析设计。秉承'代码更少，数据更多'的理念，用户可以用简单的单行命令获取复杂的财经数据。"
+        "en": "AkShare is an elegant and simple financial data interface library for Python, built for human beings. It provides a comprehensive collection of financial data APIs covering stocks, futures, options, funds, forex, bonds, indices, cryptocurrencies, and macroeconomic indicators. The library aims to simplify the process of acquiring financial data from authoritative sources and is primarily designed for academic research purposes. AkShare aggregates data from over 25 major financial data providers and exchanges, offering unified, well-documented Python interfaces with consistent naming conventions.",
+        "zh": "AkShare 是一个优雅而简洁的 Python 财经数据接口库,为人类而生。它提供了全面的金融数据 API 集合,覆盖股票、期货、期权、基金、外汇、债券、指数、加密货币和宏观经济指标。该库旨在简化从权威来源获取金融数据的过程,主要用于学术研究目的。AkShare 聚合了超过 25 个主要金融数据提供商和交易所的数据,提供统一的、文档完善的 Python 接口,具有一致的命名规范。"
       },
       "website": "https://akshare.akfamily.xyz/",
       "data_url": "https://github.com/akfamily/akshare",
-      "api_url": "https://akshare.akfamily.xyz/",
+      "api_url": "https://akshare.akfamily.xyz/introduction.html",
       "country": null,
       "domains": [
         "finance",
-        "financial markets",
         "stock market",
         "futures",
         "options",
@@ -11270,8 +13366,9 @@
         "bonds",
         "indices",
         "cryptocurrency",
-        "macroeconomic data",
-        "quantitative finance"
+        "macroeconomics",
+        "economic indicators",
+        "financial data"
       ],
       "geographic_scope": "global",
       "update_frequency": "daily",
@@ -11279,59 +13376,62 @@
         "akshare",
         "python",
         "financial-data",
-        "stock-data",
+        "stock-market",
+        "股票",
+        "期货",
         "futures",
         "options",
+        "期权",
         "funds",
-        "forex",
-        "bonds",
-        "cryptocurrency",
-        "quantitative-finance",
-        "open-source",
-        "数据接口",
-        "财经数据",
-        "股票数据",
-        "期货",
         "基金",
+        "forex",
         "外汇",
+        "bonds",
         "债券",
+        "indices",
+        "指数",
+        "cryptocurrency",
         "加密货币",
+        "macroeconomics",
+        "宏观经济",
+        "quantitative-finance",
         "量化金融",
-        "开源库",
-        "金融API",
-        "数据聚合",
         "financial-api",
-        "data-aggregation",
-        "market-data",
-        "东方财富",
-        "新浪财经"
+        "open-source",
+        "开源",
+        "data-interface",
+        "数据接口",
+        "financial-research",
+        "金融研究"
       ],
       "data_content": {
         "en": [
-          "Stock Market Data - Real-time and historical stock prices, trading volumes, market indices from major exchanges",
-          "Futures Market - Commodity futures, financial futures, options data and derivatives pricing",
-          "Bond Market - Government bonds, corporate bonds, bond indices and fixed income securities",
-          "Fund Data - Mutual funds, ETFs, private funds, fund net values and performance metrics",
-          "Foreign Exchange - Currency exchange rates, forex trading data and currency pairs",
-          "Cryptocurrency - Digital currency prices, trading volumes, and blockchain data",
-          "Macroeconomic Indicators - GDP, CPI, interest rates, employment data and economic statistics",
-          "Market Indices - Stock indices, commodity indices, volatility indices from global markets",
-          "Alternative Data - Migration data, natural language processing, high-frequency data, policy uncertainty indices",
-          "Energy Data - Energy consumption, production and pricing information",
-          "Multi-factor Data - Quantitative factors for investment analysis and portfolio construction"
+          "Stock Market Data - Real-time and historical quotes, trading volumes, market depth, IPO data, and corporate fundamentals from major exchanges including Shanghai, Shenzhen, Beijing, Hong Kong, and international markets",
+          "Futures Data - Futures prices, trading volumes, open interest, and contract specifications for commodity futures, financial futures, and index futures",
+          "Options Data - Options chains, Greeks, implied volatility, and trading statistics for equity and index options",
+          "Fund Data - Mutual funds, ETFs, private equity funds performance, NAV, holdings, and fund manager information",
+          "Foreign Exchange - Spot rates, forward rates, and historical exchange rates for major currency pairs",
+          "Bond Market - Government bonds, corporate bonds, convertible bonds prices, yields, and issuance data",
+          "Market Indices - Price levels, composition, and historical data for domestic and international indices",
+          "Cryptocurrency - Real-time and historical prices, trading volumes, and market capitalization for major cryptocurrencies",
+          "Macroeconomic Indicators - GDP, CPI, PPI, unemployment rate, money supply, and other economic statistics from various countries",
+          "Interest Rates - Central bank rates, interbank rates (SHIBOR, LIBOR), and benchmark lending rates",
+          "Commodity Prices - Spot and futures prices for energy, metals, agricultural products, and other commodities",
+          "Financial News and Sentiment - News feeds, financial reports, and market sentiment indicators"
         ],
         "zh": [
-          "股票市场数据 - 主要交易所的实时和历史股价、交易量、市场指数",
-          "期货市场 - 商品期货、金融期货、期权数据和衍生品定价",
-          "债券市场 - 国债、企业债券、债券指数和固定收益证券",
-          "基金数据 - 公募基金、ETF、私募基金、基金净值和业绩指标",
-          "外汇市场 - 货币汇率、外汇交易数据和货币对",
-          "加密货币 - 数字货币价格、交易量和区块链数据",
-          "宏观经济指标 - GDP、CPI、利率、就业数据和经济统计",
-          "市场指数 - 全球市场的股票指数、商品指数、波动率指数",
-          "另类数据 - 迁徙数据、自然语言处理、高频数据、政策不确定性指数",
-          "能源数据 - 能源消费、生产和价格信息",
-          "多因子数据 - 用于投资分析和组合构建的量化因子"
+          "股票市场数据 - 来自上海、深圳、北京、香港等主要交易所的实时和历史行情、成交量、盘口数据、IPO 数据和公司基本面信息",
+          "期货数据 - 商品期货、金融期货和指数期货的价格、成交量、持仓量和合约规格",
+          "期权数据 - 股票和指数期权的期权链、希腊字母、隐含波动率和交易统计",
+          "基金数据 - 公募基金、ETF、私募基金的业绩、净值、持仓和基金经理信息",
+          "外汇数据 - 主要货币对的即期汇率、远期汇率和历史汇率",
+          "债券市场 - 国债、公司债、可转债的价格、收益率和发行数据",
+          "市场指数 - 国内外指数的价格水平、成份股和历史数据",
+          "加密货币 - 主要加密货币的实时和历史价格、交易量和市值",
+          "宏观经济指标 - 来自各国的 GDP、CPI、PPI、失业率、货币供应量等经济统计数据",
+          "利率数据 - 央行利率、银行间拆借利率(SHIBOR、LIBOR)和基准贷款利率",
+          "大宗商品价格 - 能源、金属、农产品等大宗商品的现货和期货价格",
+          "金融新闻和情绪 - 新闻源、财经报告和市场情绪指标"
         ]
       },
       "authority_level": "other",
@@ -11401,6 +13501,90 @@
       "authority_level": "commercial",
       "has_api": true,
       "file_path": "sectors/K-finance-insurance/alpha-vantage.json"
+    },
+    {
+      "id": "bloomberg-ipo-database",
+      "name": {
+        "en": "Bloomberg IPO Database",
+        "zh": "彭博IPO数据库"
+      },
+      "description": {
+        "en": "Bloomberg IPO Database is a comprehensive database of Initial Public Offering (IPO) data accessible through the Bloomberg Terminal (Bloomberg Professional Service). The database provides detailed information on equity offerings globally, including IPO announcements, pricing, underwriters, deal structure, and post-IPO performance. Users can search and filter IPO data by offer type, date range, equity index, and other criteria, with results exportable to Excel. The database is part of Bloomberg L.P.'s financial data ecosystem, serving institutional investors, research analysts, and academic institutions worldwide.",
+        "zh": "彭博IPO数据库是通过彭博终端(Bloomberg Professional Service)访问的全面的首次公开募股(IPO)数据库。该数据库提供全球股权发行的详细信息,包括IPO公告、定价、承销商、交易结构和上市后表现。用户可以按发行类型、日期范围、股票指数和其他标准搜索和筛选IPO数据,结果可导出至Excel。该数据库是彭博有限合伙公司(Bloomberg L.P.)金融数据生态系统的一部分,为全球机构投资者、研究分析师和学术机构提供服务。"
+      },
+      "website": "https://www.bloomberg.com",
+      "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
+      "api_url": "https://www.bloomberg.com/professional/support/api-library/",
+      "country": null,
+      "domains": [
+        "finance",
+        "capital markets",
+        "equity markets",
+        "ipo",
+        "corporate finance",
+        "investment banking",
+        "securities"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "real-time",
+      "tags": [
+        "ipo",
+        "initial-public-offering",
+        "首次公开募股",
+        "equity-offerings",
+        "股权发行",
+        "capital-markets",
+        "资本市场",
+        "bloomberg",
+        "彭博",
+        "bloomberg-terminal",
+        "彭博终端",
+        "underwriters",
+        "承销商",
+        "prospectus",
+        "招股书",
+        "ipo-pricing",
+        "IPO定价",
+        "listing",
+        "上市",
+        "stock-exchange",
+        "证券交易所",
+        "financial-data",
+        "金融数据",
+        "investment-banking",
+        "投资银行",
+        "securities",
+        "证券"
+      ],
+      "data_content": {
+        "en": [
+          "IPO Announcements - Initial public offering announcements and filing dates",
+          "IPO Pricing - Offer price, price range, and final pricing details",
+          "Deal Structure - Share quantity, deal size, and offering structure",
+          "Underwriters - Lead underwriters, syndicate members, and banking fees",
+          "Company Information - Issuer details, industry sector, and business description",
+          "Index Membership - Coverage of major equity indices (S&P 500, FTSE, etc.)",
+          "Historical Data - Historical IPO records and time series data",
+          "Post-IPO Performance - First-day trading performance and aftermarket metrics",
+          "Geographic Coverage - Global IPO data across major stock exchanges",
+          "Export Capabilities - Simple and advanced export options to Excel"
+        ],
+        "zh": [
+          "IPO公告 - 首次公开募股公告和申报日期",
+          "IPO定价 - 发行价格、价格区间和最终定价详情",
+          "交易结构 - 股份数量、交易规模和发行结构",
+          "承销商 - 主承销商、辛迪加成员和银行费用",
+          "公司信息 - 发行人详情、行业部门和业务描述",
+          "指数成分 - 主要股票指数成分(标普500、富时等)",
+          "历史数据 - 历史IPO记录和时间序列数据",
+          "上市后表现 - 首日交易表现和后市指标",
+          "地理覆盖 - 全球主要证券交易所的IPO数据",
+          "导出功能 - 简单和高级导出选项至Excel"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/bloomberg-ipo-database.json"
     },
     {
       "id": "bloomberg-terminal-ipo",
@@ -11707,6 +13891,210 @@
       "authority_level": "commercial",
       "has_api": true,
       "file_path": "sectors/K-finance-insurance/cryptocurrency-data.json"
+    },
+    {
+      "id": "hundsun-juyuan",
+      "name": {
+        "en": "Hundsun JuYuan Financial Data",
+        "zh": "恒生聚源金融数据"
+      },
+      "description": {
+        "en": "Shanghai Hundsun JuYuan Data Service Co., Ltd., established in 2000 and a wholly-owned subsidiary of Hundsun Technologies since 2010, is a leading financial and industrial data and information service provider in China. The company has established extensive business partnerships with domestic securities, funds, insurance, trusts, banks, futures, and asset management companies, serving over 700 financial institutions. JuYuan offers comprehensive financial databases, terminals, and intelligent analytics tools covering A-shares, Hong Kong stocks, New Third Board, bonds, funds, wealth management products, macroeconomic data, industry data, and indices.",
+        "zh": "上海恒生聚源数据服务有限公司成立于2000年9月，2010年1月起成为恒生电子全资子公司，是中国领先的金融、产业数据资讯服务提供商。公司与国内券商、基金、保险、信托、银行、期货、资产管理公司等700多家金融机构建立了广泛的业务合作。聚源拥有金融数据库、金融终端、智能分析工具等产品线，涵盖A股、港股、新三板、债券、基金、理财、宏观、行业、指数等全方位金融数据。"
+      },
+      "website": "https://www.gildata.com/",
+      "data_url": "https://gildata.hs.net/",
+      "api_url": "https://gildata.hs.net/wiki",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "securities",
+        "funds",
+        "insurance",
+        "banking",
+        "futures",
+        "asset management",
+        "bonds",
+        "macroeconomics",
+        "financial markets"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "real-time",
+      "tags": [
+        "finance",
+        "金融数据",
+        "financial-data",
+        "securities",
+        "证券",
+        "funds",
+        "基金",
+        "bonds",
+        "债券",
+        "insurance",
+        "保险",
+        "banking",
+        "银行",
+        "futures",
+        "期货",
+        "asset-management",
+        "资产管理",
+        "stock-market",
+        "股票市场",
+        "a-shares",
+        "A股",
+        "hong-kong-stocks",
+        "港股",
+        "new-third-board",
+        "新三板",
+        "macroeconomic-data",
+        "宏观经济",
+        "financial-terminal",
+        "金融终端",
+        "hundsun",
+        "恒生",
+        "juyuan",
+        "聚源",
+        "gildata",
+        "financial-database",
+        "金融数据库",
+        "market-data",
+        "行情数据",
+        "financial-analytics",
+        "金融分析"
+      ],
+      "data_content": {
+        "en": [
+          "A-Share Market Data - Stock prices, trading volumes, corporate actions, and market indices",
+          "Hong Kong Stocks - HKEX listed securities data, prices, and trading information",
+          "New Third Board - NEEQ (National Equities Exchange and Quotations) data",
+          "Bond Markets - Government bonds, corporate bonds, convertible bonds, and bond indices",
+          "Funds Data - Mutual funds, ETFs, private equity funds performance and holdings",
+          "Wealth Management - Bank wealth management products, trust products, and asset management plans",
+          "Macroeconomic Indicators - GDP, CPI, PMI, and other key economic statistics",
+          "Industry Data - Sector-specific data, industry indices, and industry analysis",
+          "Financial News & Announcements - Real-time market news, company announcements, and regulatory filings",
+          "Research Reports - Analyst reports, investment research, and market analysis",
+          "Alternative Data - AI-friendly financial database (AIDB) for large language model applications",
+          "Smart Analytics - Intelligent tools including Gil-GPT for financial information generation"
+        ],
+        "zh": [
+          "A股市场数据 - 股票价格、交易量、公司行为和市场指数",
+          "港股数据 - 香港交易所上市证券数据、价格和交易信息",
+          "新三板数据 - 全国中小企业股份转让系统数据",
+          "债券市场 - 国债、企业债、可转债和债券指数",
+          "基金数据 - 公募基金、ETF、私募基金业绩和持仓",
+          "理财产品 - 银行理财产品、信托产品和资管计划",
+          "宏观经济指标 - GDP、CPI、PMI等关键经济统计数据",
+          "行业数据 - 行业专项数据、行业指数和行业分析",
+          "金融资讯与公告 - 实时市场新闻、公司公告和监管文件",
+          "研究报告 - 分析师报告、投资研究和市场分析",
+          "AI友好型数据 - 为大模型金融业务场景提供的高精准底层数据(AIDB)",
+          "智能分析工具 - 包括Gil-GPT金融资讯生成等智能工具"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/hundsun-juyuan.json"
+    },
+    {
+      "id": "refinitiv-lseg",
+      "name": {
+        "en": "LSEG Data & Analytics (Refinitiv)",
+        "zh": "伦敦证交所数据分析(路孚特)"
+      },
+      "description": {
+        "en": "LSEG Data & Analytics, formerly known as Refinitiv, is a global provider of financial markets data and infrastructure. Originally the Financial & Risk division of Thomson Reuters, it became independent in 2018 and was acquired by London Stock Exchange Group (LSEG) in 2021. The platform provides comprehensive financial data, analytics, trading platforms, and risk management solutions to over 40,000 institutions across 190+ countries. Key products include LSEG Workspace (formerly Eikon), Datastream for historical financial data, real-time market data via Elektron, and the Refinitiv Data Platform APIs for programmatic access.",
+        "zh": "伦敦证交所数据分析(原路孚特)是全球领先的金融市场数据和基础设施提供商。最初为汤森路透金融与风险部门,2018年独立,2021年被伦敦证券交易所集团(LSEG)收购。该平台为全球190多个国家的40,000多家机构提供全面的金融数据、分析、交易平台和风险管理解决方案。主要产品包括LSEG Workspace(原Eikon)、Datastream历史金融数据库、Elektron实时市场数据服务,以及用于程序化访问的Refinitiv数据平台API。"
+      },
+      "website": "https://www.lseg.com/en/data-analytics",
+      "data_url": "https://www.lseg.com/en/data-analytics/products/workspace",
+      "api_url": "https://developers.lseg.com/en/api-catalog/refinitiv-data-platform/refinitiv-data-platform-apis",
+      "country": null,
+      "domains": [
+        "financial markets",
+        "financial data",
+        "market data",
+        "economic data",
+        "trading",
+        "risk management",
+        "investment analysis",
+        "fixed income",
+        "equities",
+        "foreign exchange",
+        "commodities",
+        "derivatives",
+        "esg data",
+        "alternative data"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "real-time",
+      "tags": [
+        "financial-data",
+        "market-data",
+        "real-time-data",
+        "historical-data",
+        "refinitiv",
+        "lseg",
+        "eikon",
+        "datastream",
+        "workspace",
+        "trading-platform",
+        "financial-analytics",
+        "risk-management",
+        "equities",
+        "fixed-income",
+        "forex",
+        "fx",
+        "commodities",
+        "derivatives",
+        "bonds",
+        "stocks",
+        "economic-indicators",
+        "company-financials",
+        "esg",
+        "api",
+        "路孚特",
+        "金融数据",
+        "市场数据",
+        "实时数据"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time market data - Live prices, quotes, and trades across global exchanges",
+          "Equities - Company fundamentals, financial statements, analyst estimates, ownership data",
+          "Fixed Income - Bond prices, yields, ratings, issuance data for government and corporate bonds",
+          "Foreign Exchange - Real-time and historical FX rates, forwards, options across 180+ currencies",
+          "Commodities - Prices and analytics for energy, metals, agriculture commodities",
+          "Derivatives - Futures, options, swaps data across asset classes",
+          "Economic Data - Macroeconomic indicators, GDP, inflation, employment from 200+ countries",
+          "Company Financials - Income statements, balance sheets, cash flows dating back to 1960s",
+          "News & Research - Real-time financial news, analyst reports, research from global sources",
+          "ESG Data - Environmental, Social, Governance scores and metrics for companies worldwide",
+          "Reference Data - Security master data, corporate actions, dividends, splits",
+          "Time Series Data - Historical price and volume data via Datastream",
+          "Analytics - Valuation models, risk analytics, portfolio analytics, screening tools",
+          "Alternative Data - Sentiment analysis, supply chain data, satellite imagery insights"
+        ],
+        "zh": [
+          "实时市场数据 - 全球交易所的实时价格、报价和交易数据",
+          "股票 - 公司基本面、财务报表、分析师预测、持股数据",
+          "固定收益 - 政府和企业债券的价格、收益率、评级、发行数据",
+          "外汇 - 180多种货币的实时和历史汇率、远期、期权数据",
+          "大宗商品 - 能源、金属、农产品的价格和分析",
+          "衍生品 - 跨资产类别的期货、期权、掉期数据",
+          "经济数据 - 来自200多个国家的宏观经济指标、GDP、通胀、就业数据",
+          "公司财务 - 可追溯至1960年代的损益表、资产负债表、现金流量表",
+          "新闻与研究 - 来自全球来源的实时金融新闻、分析师报告、研究",
+          "ESG数据 - 全球公司的环境、社会、治理评分和指标",
+          "参考数据 - 证券主数据、公司行为、股息、拆股信息",
+          "时间序列数据 - 通过Datastream提供的历史价格和成交量数据",
+          "分析工具 - 估值模型、风险分析、投资组合分析、筛选工具",
+          "另类数据 - 情绪分析、供应链数据、卫星图像洞察"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": true,
+      "file_path": "sectors/K-finance-insurance/refinitiv-lseg.json"
     },
     {
       "id": "cambridge-structural-database",
@@ -12332,6 +14720,87 @@
       "authority_level": "commercial",
       "has_api": false,
       "file_path": "sectors/computer_science_ai/aws-open-data-registry.json"
+    },
+    {
+      "id": "joinquant",
+      "name": {
+        "zh": "聚宽量化交易平台",
+        "en": "JoinQuant Quantitative Trading Platform"
+      },
+      "description": {
+        "zh": "聚宽是中国领先的量化投资交易服务平台，成立于2015年，由北京小龙虾科技有限公司运营。平台提供经过专业清洗的A股、期货、期权、基金、宏观等全面的金融数据，支持策略研究、历史回测、模拟交易和实盘交易。用户可通过Web平台或本地SDK（jqdatasdk）访问数据，日均免费调用量达100万条记录。平台注册用户近50万，是国内量化交易领域的先行者之一，已获得国家高新技术企业、北京市专精特新企业等认证。",
+        "en": "JoinQuant is a leading quantitative investment and trading platform in China, founded in 2015 and operated by Beijing Xiaolongxia Technology Co., Ltd. The platform offers professionally cleaned financial data including A-shares, futures, options, funds, and macroeconomic data, supporting strategy research, historical backtesting, simulated trading, and live trading. Users can access data through the web platform or local SDK (jqdatasdk), with up to 1 million free API calls per day. With nearly 500,000 registered users, it is one of the pioneers in China's quantitative trading industry and has been certified as a National High-Tech Enterprise and Beijing Specialized and Innovative Enterprise."
+      },
+      "website": "https://www.joinquant.com/",
+      "data_url": "https://www.joinquant.com/data",
+      "api_url": "https://www.joinquant.com/help/api/doc?name=JQDatadoc",
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "securities",
+        "quantitative-trading"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "量化交易",
+        "quantitative-trading",
+        "A股数据",
+        "a-share-data",
+        "期货数据",
+        "futures-data",
+        "基金数据",
+        "fund-data",
+        "回测平台",
+        "backtesting-platform",
+        "策略研发",
+        "strategy-research",
+        "金融数据",
+        "financial-data",
+        "JoinQuant",
+        "聚宽",
+        "量化投资",
+        "quantitative-investing",
+        "python-sdk",
+        "jqdatasdk",
+        "财务数据",
+        "financial-statements",
+        "宏观数据",
+        "macroeconomic-data",
+        "期权",
+        "options",
+        "ETF",
+        "LOF",
+        "融资融券",
+        "margin-trading"
+      ],
+      "data_content": {
+        "zh": [
+          "A股股票行情数据（日线、分钟线、Tick级）",
+          "上市公司财务数据（2005年以来）",
+          "期货行情数据（中金所金融期货产品）",
+          "基金数据（ETF、LOF、分级基金、货币基金等600+品种）",
+          "股票指数数据（近600种指数及成分股）",
+          "期权数据（行情与基本信息）",
+          "宏观经济数据",
+          "融资融券数据",
+          "数百个量化因子库"
+        ],
+        "en": [
+          "A-share stock market data (daily, minute, tick-level)",
+          "Listed company financial data (since 2005)",
+          "Futures market data (CFFEX financial futures products)",
+          "Fund data (ETF, LOF, structured funds, money market funds, 600+ varieties)",
+          "Stock index data (nearly 600 indexes and constituents)",
+          "Options data (market data and basic information)",
+          "Macroeconomic data",
+          "Margin trading data",
+          "Hundreds of quantitative factor libraries"
+        ]
+      },
+      "has_api": true,
+      "file_path": "sectors/finance_markets/joinquant.json"
     },
     {
       "id": "tennis-abstract-atp-wta",

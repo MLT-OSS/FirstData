@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-05T08:34:20.032340+00:00",
-    "total_regions": 11,
-    "total_sources": 166,
+    "generated_at": "2026-03-05T08:40:55.015523+00:00",
+    "total_regions": 14,
+    "total_sources": 196,
     "version": "2.0"
   },
   "regions": {
@@ -353,12 +353,11 @@
       {
         "id": "china-mof",
         "name": {
-          "en": "Ministry of Finance of the People's Republic of China",
-          "zh": "中华人民共和国财政部",
-          "native": "中华人民共和国财政部"
+          "en": "Ministry of Finance of China",
+          "zh": "中华人民共和国财政部"
         },
         "authority_level": "government",
-        "data_url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengshuju/",
+        "data_url": "https://www.mof.gov.cn/gkml/",
         "has_api": false,
         "file_path": "china/finance/fiscal/china-mof.json",
         "geographic_scope": "national"
@@ -560,6 +559,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "unfpa-china",
+        "name": {
+          "en": "UNFPA China",
+          "zh": "联合国人口基金驻华代表处"
+        },
+        "authority_level": "international",
+        "data_url": "https://china.unfpa.org/en/publications",
+        "has_api": false,
+        "file_path": "international/demographics/unfpa-china.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-rare-earth-association",
         "name": {
           "en": "Association of China Rare Earth Industry",
@@ -704,6 +715,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "hundsun-juyuan",
+        "name": {
+          "en": "Hundsun JuYuan Financial Data",
+          "zh": "恒生聚源金融数据"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://gildata.hs.net/",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/hundsun-juyuan.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-instrument-society",
         "name": {
           "en": "China Instrument and Control Society",
@@ -713,6 +736,18 @@
         "data_url": "https://www.cis.org.cn/post/index/162",
         "has_api": false,
         "file_path": "sectors/M-professional-scientific/china-instrument-society.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "joinquant",
+        "name": {
+          "zh": "聚宽量化交易平台",
+          "en": "JoinQuant Quantitative Trading Platform"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.joinquant.com/data",
+        "has_api": true,
+        "file_path": "sectors/finance_markets/joinquant.json",
         "geographic_scope": "national"
       }
     ],
@@ -727,6 +762,18 @@
         "data_url": "https://www.ukbiobank.ac.uk/",
         "has_api": true,
         "file_path": "academic/biology/uk-biobank.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "bank-of-england-statistics",
+        "name": {
+          "en": "Bank of England Statistical Database",
+          "zh": "英格兰银行统计数据库"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
+        "has_api": true,
+        "file_path": "countries/europe/bank-of-england-statistics.json",
         "geographic_scope": "national"
       },
       {
@@ -751,6 +798,56 @@
         "data_url": "https://www.data.gov.uk",
         "has_api": true,
         "file_path": "countries/europe/uk/uk-data-gov.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "uk-ons-cpi-rpi",
+        "name": {
+          "en": "UK Office for National Statistics - Consumer Price Index and Retail Prices Index",
+          "zh": "英国国家统计局 - 消费者价格指数和零售价格指数"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+        "has_api": false,
+        "file_path": "countries/europe/uk-ons-cpi-rpi.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "HK": [
+      {
+        "id": "hk-companies-registry",
+        "name": {
+          "en": "Hong Kong Companies Registry",
+          "zh": "香港公司注册处"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cr.gov.hk/en/services/obtain-company-info.htm",
+        "has_api": false,
+        "file_path": "countries/asia/hk-companies-registry.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "hk-sfc",
+        "name": {
+          "en": "Securities and Futures Commission of Hong Kong",
+          "zh": "香港证券及期货事务监察委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sfc.hk/en/Regulatory-functions/Products",
+        "has_api": false,
+        "file_path": "countries/asia/hk-sfc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "hkma",
+        "name": {
+          "en": "Hong Kong Monetary Authority",
+          "zh": "香港金融管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/",
+        "has_api": true,
+        "file_path": "countries/asia/hkma.json",
         "geographic_scope": "national"
       }
     ],
@@ -796,6 +893,31 @@
         "has_api": true,
         "file_path": "countries/asia/korea/korea-bok.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "kostat-cpi",
+        "name": {
+          "en": "Statistics Korea (KOSTAT) - Consumer Price Index",
+          "zh": "韩国统计局 - 消费者物价指数",
+          "ko": "통계청 - 소비자물가지수"
+        },
+        "authority_level": "government",
+        "data_url": "https://kosis.kr/eng/",
+        "has_api": true,
+        "file_path": "countries/asia/kostat-cpi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "kostat",
+        "name": {
+          "en": "Statistics Korea (KOSTAT)",
+          "zh": "韩国统计厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://kosis.kr/eng/",
+        "has_api": true,
+        "file_path": "countries/asia/kostat.json",
+        "geographic_scope": "national"
       }
     ],
     "MX": [
@@ -823,6 +945,34 @@
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "MY": [
+      {
+        "id": "dosm",
+        "name": {
+          "en": "Department of Statistics Malaysia",
+          "zh": "马来西亚统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://open.dosm.gov.my/",
+        "has_api": true,
+        "file_path": "countries/asia/dosm.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "PH": [
+      {
+        "id": "philippines-psa",
+        "name": {
+          "en": "Philippine Statistics Authority",
+          "zh": "菲律宾统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://openstat.psa.gov.ph",
+        "has_api": false,
+        "file_path": "countries/asia/philippines/psa.json",
         "geographic_scope": "national"
       }
     ],
@@ -867,7 +1017,7 @@
         "id": "us-bea",
         "name": {
           "en": "Bureau of Economic Analysis",
-          "zh": "美国经济分析局"
+          "zh": "经济分析局"
         },
         "authority_level": "government",
         "data_url": "https://www.bea.gov/data",
@@ -879,7 +1029,7 @@
         "id": "us-bls",
         "name": {
           "en": "Bureau of Labor Statistics",
-          "zh": "美国劳工统计局"
+          "zh": "劳工统计局"
         },
         "authority_level": "government",
         "data_url": "https://www.bls.gov/data/",
@@ -890,11 +1040,11 @@
       {
         "id": "us-cdc",
         "name": {
-          "en": "CDC Data & Statistics",
-          "zh": "美国疾控中心数据与统计"
+          "en": "Centers for Disease Control and Prevention",
+          "zh": "美国疾病控制与预防中心"
         },
         "authority_level": "government",
-        "data_url": "https://data.cdc.gov/",
+        "data_url": "https://wonder.cdc.gov/",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-cdc.json",
         "geographic_scope": "national"
@@ -927,8 +1077,8 @@
       {
         "id": "bea-international-trade",
         "name": {
-          "en": "BEA International Trade in Goods and Services",
-          "zh": "美国经济分析局国际贸易数据"
+          "en": "BEA Interactive Data - International Trade",
+          "zh": "美国经济分析局国际贸易互动数据"
         },
         "authority_level": "government",
         "data_url": "https://apps.bea.gov/iTable/index_ita.cfm",
@@ -962,6 +1112,127 @@
       }
     ],
     "VN": [
+      {
+        "id": "fia-fdi",
+        "name": {
+          "en": "Foreign Investment Agency - FDI Statistics",
+          "zh": "越南外国投资局 - FDI统计数据"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/fia-fdi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "gdvc",
+        "name": {
+          "en": "General Department of Vietnam Customs",
+          "zh": "越南海关总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.customs.gov.vn",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/gdvc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "gso-vietnam",
+        "name": {
+          "en": "General Statistics Office of Vietnam",
+          "zh": "越南国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.gso.gov.vn/en/data-and-statistics/",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/gso-vietnam.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "vietnam-gso",
+        "name": {
+          "en": "General Statistics Office of Vietnam",
+          "zh": "越南统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nso.gov.vn/en/statistical-data/",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/gso.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mpi-fdi",
+        "name": {
+          "en": "Ministry of Planning and Investment - FDI Statistics",
+          "zh": "越南计划投资部 - 外国直接投资统计",
+          "vi": "Bộ Kế hoạch và Đầu tư - Thống kê FDI"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mpi.gov.vn/en/Pages/Report-on-Foreign-Direct-Investment-1740.aspx",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/mpi-fdi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "sbv",
+        "name": {
+          "en": "State Bank of Vietnam",
+          "zh": "越南国家银行"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sbv.gov.vn/webcenter/portal/en/home/rm/public",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/sbv.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "vicofa",
+        "name": {
+          "en": "Vietnam Coffee and Cocoa Association",
+          "zh": "越南咖啡与可可协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://vicofa.org.vn/",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/vicofa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "vietnam-fia",
+        "name": {
+          "en": "Foreign Investment Agency - Ministry of Planning and Investment",
+          "zh": "越南计划投资部外国投资局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/vietnam-fia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "vietnam-mof",
+        "name": {
+          "en": "Ministry of Finance of Vietnam",
+          "zh": "越南财政部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mof.gov.vn/webcenter/portal/btcen/pages_r/m/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/vietnam/vietnam-mof.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "adb-vietnam-data",
+        "name": {
+          "en": "Asian Development Bank - Vietnam Country Data",
+          "zh": "亚洲开发银行越南国别数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.adb.org/countries/viet-nam/data",
+        "has_api": false,
+        "file_path": "international/economics/adb-vietnam-data.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "adb-vietnam",
         "name": {
