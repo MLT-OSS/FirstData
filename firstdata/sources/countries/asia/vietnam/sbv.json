@@ -1,0 +1,88 @@
+{
+  "id": "sbv",
+  "name": {
+    "en": "State Bank of Vietnam",
+    "zh": "越南国家银行"
+  },
+  "description": {
+    "en": "The State Bank of Vietnam (SBV) is the central bank of Vietnam, organized as a ministry-level body under the Government of Vietnam. As the sole issuer of the Vietnamese đồng, the SBV performs State management of monetary and banking activities. The bank's primary objective is to maintain price stability and promote sustainable economic growth through monetary policy tools including interest rate management, money supply control, and credit growth regulation. The SBV collects and disseminates comprehensive statistical data related to Vietnam's financial sector, covering money supply, credit growth, interest rates, inflation, balance of payments, total liquidity, and national payment system transactions.",
+    "zh": "越南国家银行（SBV）是越南的中央银行，在越南政府下属的部级机构。作为越南盾的唯一发行者，越南国家银行负责货币和银行活动的国家管理。该银行的主要目标是通过利率管理、货币供应控制和信贷增长监管等货币政策工具维持价格稳定和促进可持续经济增长。越南国家银行收集和发布与越南金融部门相关的综合统计数据，涵盖外汇储备、货币供应量、FDI资金流向、信贷增长、利率、通货膨胀、国际收支、总流动性和国家支付系统交易。"
+  },
+  "website": "https://www.sbv.gov.vn",
+  "data_url": "https://www.sbv.gov.vn/webcenter/portal/en/home/rm/public",
+  "api_url": null,
+  "country": "VN",
+  "domains": [
+    "monetary policy",
+    "banking statistics",
+    "financial sector",
+    "interest rates",
+    "money supply",
+    "credit growth",
+    "inflation",
+    "balance of payments",
+    "payment systems",
+    "foreign exchange",
+    "financial stability"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "central-bank",
+    "vietnam",
+    "monetary-policy",
+    "banking-statistics",
+    "interest-rates",
+    "money-supply",
+    "credit-growth",
+    "inflation",
+    "balance-of-payments",
+    "payment-systems",
+    "foreign-exchange",
+    "financial-stability",
+    "vietnamese-dong",
+    "liquidity",
+    "financial-sector",
+    "sbv",
+    "越南央行",
+    "货币政策",
+    "银行统计",
+    "利率",
+    "货币供应",
+    "信贷增长",
+    "国际收支",
+    "支付系统",
+    "外汇"
+  ],
+  "data_content": {
+    "en": [
+      "Monetary Policy - Interest rates (rediscount rate, refinance rate), policy decisions, and monetary policy reports",
+      "Money Supply - Total liquidity, M0, M1, M2, and monetary aggregates",
+      "Foreign Exchange Reserves - International reserves, foreign currency holdings, and reserve asset composition",
+      "FDI Capital Flows - Foreign direct investment inflows, outflows, and sectoral distribution",
+      "Credit Statistics - Credit growth by sector, credit institutions statistics, loan classifications",
+      "Interest Rates - Deposit rates, lending rates, interbank rates, and policy rates",
+      "Balance of Payments - International payments, foreign exchange reserves, trade balance",
+      "Payment Systems - National payment system transactions, electronic payment statistics",
+      "Banking Sector - Number of credit institutions, branch networks, banking sector performance",
+      "Foreign Exchange - Exchange rate data, foreign currency reserves, foreign investment",
+      "Annual Reports - Comprehensive yearly reports on monetary policy implementation and banking sector developments",
+      "Financial Stability - Banking system health indicators, regulatory compliance, risk assessments"
+    ],
+    "zh": [
+      "货币政策 - 利率（再贴现率、再融资率）、政策决定和货币政策报告",
+      "货币供应量 - 总流动性、M0、M1、M2和货币总量",
+      "外汇储备 - 国际储备、外币持有量和储备资产构成",
+      "FDI资金流向 - 外国直接投资流入、流出及行业分布",
+      "信贷统计 - 按部门分类的信贷增长、信贷机构统计、贷款分类",
+      "利率 - 存款利率、贷款利率、银行间利率和政策利率",
+      "国际收支 - 国际支付、外汇储备、贸易平衡",
+      "支付系统 - 国家支付系统交易、电子支付统计",
+      "银行部门 - 信贷机构数量、分支网络、银行部门绩效",
+      "外汇 - 汇率数据、外汇储备、外国投资",
+      "年度报告 - 关于货币政策实施和银行部门发展的综合年度报告",
+      "金融稳定 - 银行系统健康指标、监管合规、风险评估"
+    ]
+  },
+  "authority_level": "government"
+}

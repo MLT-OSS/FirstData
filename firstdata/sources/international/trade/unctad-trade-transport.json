@@ -1,0 +1,81 @@
+{
+  "id": "unctad-trade-transport",
+  "name": {
+    "en": "UNCTAD Trade-and-Transport Dataset",
+    "zh": "联合国贸发会议贸易与运输数据集"
+  },
+  "description": {
+    "en": "The Trade-and-Transport Dataset, developed by UNCTAD and the World Bank, provides comprehensive data on merchandise trade value and volume, freight transport costs, and transport work required per shipment between over 170 economies from 2016 to 2021. Data is broken down by commodity group and mode of transport, offering derived indicators such as freight rates and transport cost intensities.",
+    "zh": "贸易与运输数据集由联合国贸发会议(UNCTAD)和世界银行联合开发,提供2016-2021年间170多个经济体的货物贸易价值和数量、货运成本以及每次装运所需运输工作量的综合数据。数据按商品组和运输方式细分,提供运费率和运输成本强度等衍生指标。"
+  },
+  "website": "https://unctad.org",
+  "data_url": "https://unctadstat.unctad.org/EN/TransportCost.html",
+  "api_url": "https://unctadstat.unctad.org/datacentre",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "trade",
+    "transportation",
+    "logistics",
+    "economics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "UNCTAD",
+    "联合国贸发会议",
+    "trade",
+    "贸易",
+    "transport",
+    "运输",
+    "logistics",
+    "物流",
+    "freight cost",
+    "运费成本",
+    "shipping",
+    "海运",
+    "transport cost",
+    "运输成本",
+    "merchandise trade",
+    "货物贸易",
+    "freight rates",
+    "运费率",
+    "UNCTADstat",
+    "trade statistics",
+    "贸易统计",
+    "transport statistics",
+    "运输统计",
+    "global trade",
+    "全球贸易",
+    "supply chain",
+    "供应链",
+    "World Bank",
+    "世界银行"
+  ],
+  "data_content": {
+    "en": [
+      "Merchandise trade value and volume for 170+ economies (2016-2021)",
+      "Freight transport costs per shipment by commodity group",
+      "Transport work required (ton-kilometers) by mode of transport",
+      "Freight rates by commodity and transport mode",
+      "Transport cost intensities by value and volume",
+      "Trade flows broken down by mode of transport (sea, air, land, rail)",
+      "Liner shipping connectivity index",
+      "Maritime transport costs and seaborne trade statistics",
+      "Country-pair bilateral trade and transport data",
+      "Data available via UNCTADstat portal, API, and bulk file downloads"
+    ],
+    "zh": [
+      "170多个经济体的货物贸易价值和数量(2016-2021年)",
+      "按商品组分类的每次装运货运成本",
+      "按运输方式分类的所需运输工作量(吨公里)",
+      "按商品和运输方式分类的运费率",
+      "按价值和数量分类的运输成本强度",
+      "按运输方式(海运、空运、陆运、铁路)细分的贸易流量",
+      "班轮航运连通性指数",
+      "海运成本和海运贸易统计",
+      "国家对之间的双边贸易和运输数据",
+      "通过UNCTADstat门户、API和批量文件下载提供数据"
+    ]
+  }
+}

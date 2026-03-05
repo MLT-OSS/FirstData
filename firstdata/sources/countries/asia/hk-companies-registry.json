@@ -1,0 +1,73 @@
+{
+  "id": "hk-companies-registry",
+  "name": {
+    "en": "Hong Kong Companies Registry",
+    "zh": "香港公司注册处"
+  },
+  "description": {
+    "en": "The Companies Registry is a government department under the Financial Services and the Treasury Bureau of the Hong Kong Special Administrative Region. It provides comprehensive company registration and business registration services, maintaining a centralized database of all registered companies in Hong Kong through the Integrated Companies Registry Information System (ICRIS).",
+    "zh": "香港公司注册处是香港特别行政区财经事务及库务局辖下的政府部门，负责公司注册及商业登记事务，通过公司注册处综合资讯系统（ICRIS）维护香港所有注册公司的集中数据库。"
+  },
+  "website": "https://www.cr.gov.hk/",
+  "data_url": "https://www.cr.gov.hk/en/services/obtain-company-info.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "HK",
+  "domains": [
+    "business",
+    "commerce",
+    "corporate-registry",
+    "legal"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "hong kong",
+    "香港",
+    "companies registry",
+    "公司注册处",
+    "ICRIS",
+    "company registration",
+    "公司注册",
+    "business registration",
+    "商业登记",
+    "corporate information",
+    "企业信息",
+    "company search",
+    "公司查册",
+    "statutory filings",
+    "法定文件",
+    "directors",
+    "董事",
+    "shareholders",
+    "股东",
+    "registered office",
+    "注册地址"
+  ],
+  "data_content": {
+    "en": [
+      "Company registration information: company name (English and Chinese), registration number, incorporation date, company type, and legal status",
+      "Registered office address and principal place of business",
+      "Directors and secretaries information",
+      "Shareholders and share capital structure",
+      "Statutory documents and filings: annual returns (NAR1), changes in directors (ND2A), changes in registered office (NM1)",
+      "Company incorporation certificates and business registration certificates",
+      "Charge and mortgage registrations",
+      "Company deregistration and winding-up records",
+      "Non-Hong Kong company registrations",
+      "Historical changes and updates to company information"
+    ],
+    "zh": [
+      "公司注册资料：公司名称（中英文）、注册编号、成立日期、公司类型及法律状态",
+      "注册办事处地址及主要营业地点",
+      "董事及公司秘书资料",
+      "股东及股本结构",
+      "法定文件及申报表：周年申报表（NAR1）、董事变更（ND2A）、注册办事处变更（NM1）",
+      "公司注册证书及商业登记证",
+      "押记及抵押登记",
+      "公司撤销注册及清盘记录",
+      "非香港公司注册",
+      "公司资料的历史变更记录"
+    ]
+  }
+}

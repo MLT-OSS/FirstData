@@ -1,0 +1,88 @@
+{
+  "id": "dosm",
+  "name": {
+    "en": "Department of Statistics Malaysia",
+    "zh": "马来西亚统计局"
+  },
+  "description": {
+    "en": "The Department of Statistics Malaysia (DOSM) is the main government agency responsible for collecting, interpreting and disseminating official statistics for monitoring Malaysia's economic performance and social development. It provides comprehensive data on economy, population, society and environment.",
+    "zh": "马来西亚统计局(DOSM)是马来西亚主要的政府统计机构,负责收集、解释和发布官方统计数据,用于监测马来西亚的经济表现和社会发展。该局提供涵盖经济、人口、社会和环境的综合数据。"
+  },
+  "website": "https://www.dosm.gov.my/",
+  "data_url": "https://open.dosm.gov.my/",
+  "api_url": "https://developer.data.gov.my/static-api/opendosm",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "country": "MY",
+  "domains": [
+    "economic statistics",
+    "social statistics",
+    "demographic statistics",
+    "population & census",
+    "national accounts",
+    "labour market",
+    "prices & inflation",
+    "manufacturing & industry",
+    "agriculture",
+    "external trade",
+    "household income & expenditure"
+  ],
+  "update_frequency": "irregular",
+  "data_formats": [
+    "CSV",
+    "JSON",
+    "Parquet"
+  ],
+  "license": "Open Data",
+  "contact": {
+    "email": "info@dosm.gov.my",
+    "phone": "+60 3-8885 7000"
+  },
+  "data_content": {
+    "en": [
+      "Economic Statistics - GDP, manufacturing output, industrial production, wholesale & retail trade, services sector, construction, mining & quarrying",
+      "Demographic Statistics - Population data by state, district, sex, age group and ethnicity from 1970 to present",
+      "Social Statistics - Household income & expenditure, education, labour force, employment & unemployment",
+      "Price Statistics - Consumer Price Index (CPI), Producer Price Index (PPI), inflation data",
+      "External Sector Statistics - International trade, balance of payments, external debt",
+      "Agricultural Statistics - Crop production, livestock, fisheries, forestry",
+      "Census Data - Population and housing census, economic census (MyCensus 2020)"
+    ],
+    "zh": [
+      "经济统计 - GDP、制造业产出、工业生产、批发零售贸易、服务业、建筑业、采矿业",
+      "人口统计 - 按州、区、性别、年龄组和种族分类的人口数据,从1970年至今",
+      "社会统计 - 家庭收入与支出、教育、劳动力、就业与失业",
+      "价格统计 - 消费者价格指数(CPI)、生产者价格指数(PPI)、通货膨胀数据",
+      "对外部门统计 - 国际贸易、国际收支、外债",
+      "农业统计 - 农作物生产、畜牧业、渔业、林业",
+      "普查数据 - 人口与住房普查、经济普查(MyCensus 2020)"
+    ]
+  },
+  "tags": [
+    "Malaysia",
+    "马来西亚",
+    "Official Statistics",
+    "官方统计",
+    "DOSM",
+    "OpenDOSM",
+    "Government Data",
+    "政府数据",
+    "Economic Data",
+    "经济数据",
+    "Population",
+    "人口",
+    "Census",
+    "普查",
+    "GDP",
+    "国内生产总值",
+    "CPI",
+    "消费者价格指数",
+    "Labour Statistics",
+    "劳动统计",
+    "Social Statistics",
+    "社会统计",
+    "Open Data",
+    "开放数据",
+    "API"
+  ]
+}

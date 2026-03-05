@@ -1,0 +1,76 @@
+{
+  "id": "kostat",
+  "name": {
+    "en": "Statistics Korea (KOSTAT)",
+    "zh": "韩国统计厅"
+  },
+  "description": {
+    "en": "Statistics Korea (KOSTAT), officially known as the Ministry of Data and Statistics, is South Korea's central government agency responsible for managing national statistics. Operating directly under the Prime Minister, KOSTAT coordinates, produces and disseminates official statistics in a decentralized statistical system, covering economic, demographic, social and other statistical domains.",
+    "zh": "韩国统计厅（KOSTAT），正式名称为数据与统计部，是韩国负责管理国家统计的中央政府机构。KOSTAT直接隶属于总理办公室，在分散式统计系统中协调、生成和传播官方统计数据，涵盖经济、人口、社会等统计领域。"
+  },
+  "website": "https://mods.go.kr/anse",
+  "data_url": "https://kosis.kr/eng/",
+  "api_url": "https://kosis.kr/openapi/index/index.jsp",
+  "authority_level": "government",
+  "country": "KR",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "demographics",
+    "labor",
+    "prices",
+    "social",
+    "population",
+    "household",
+    "employment",
+    "trade",
+    "industry",
+    "agriculture",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "data_content": {
+    "en": [
+      "Population and Household Statistics - census data, demographic trends, birth/death statistics",
+      "Labor Force Statistics - economically active population survey, employment, unemployment",
+      "Price Statistics - Consumer Price Index (CPI), Producer Price Index",
+      "Economic Statistics - GDP, national accounts, economic census",
+      "Social Statistics - education, health, welfare, culture",
+      "Business Statistics - industry, trade, services, online shopping",
+      "Agriculture and Environment Statistics - agricultural census, environmental indicators"
+    ],
+    "zh": [
+      "人口与家庭统计 - 人口普查数据、人口趋势、出生/死亡统计",
+      "劳动力统计 - 经济活动人口调查、就业、失业",
+      "价格统计 - 消费者价格指数(CPI)、生产者价格指数",
+      "经济统计 - GDP、国民账户、经济普查",
+      "社会统计 - 教育、健康、福利、文化",
+      "企业统计 - 工业、贸易、服务业、网络购物",
+      "农业与环境统计 - 农业普查、环境指标"
+    ]
+  },
+  "tags": [
+    "korea statistics",
+    "kostat",
+    "south korea",
+    "economic data",
+    "population census",
+    "labor statistics",
+    "price index",
+    "kosis",
+    "korean statistical information service",
+    "government statistics",
+    "national statistics",
+    "demographic data",
+    "韩国统计",
+    "韩国统计厅",
+    "韩国数据",
+    "经济数据",
+    "人口普查",
+    "劳动统计",
+    "价格指数",
+    "政府统计",
+    "国家统计",
+    "人口数据"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "bloomberg-ipo-database",
+  "name": {
+    "en": "Bloomberg IPO Database",
+    "zh": "彭博IPO数据库"
+  },
+  "description": {
+    "en": "Bloomberg IPO Database is a comprehensive database of Initial Public Offering (IPO) data accessible through the Bloomberg Terminal (Bloomberg Professional Service). The database provides detailed information on equity offerings globally, including IPO announcements, pricing, underwriters, deal structure, and post-IPO performance. Users can search and filter IPO data by offer type, date range, equity index, and other criteria, with results exportable to Excel. The database is part of Bloomberg L.P.'s financial data ecosystem, serving institutional investors, research analysts, and academic institutions worldwide.",
+    "zh": "彭博IPO数据库是通过彭博终端(Bloomberg Professional Service)访问的全面的首次公开募股(IPO)数据库。该数据库提供全球股权发行的详细信息,包括IPO公告、定价、承销商、交易结构和上市后表现。用户可以按发行类型、日期范围、股票指数和其他标准搜索和筛选IPO数据,结果可导出至Excel。该数据库是彭博有限合伙公司(Bloomberg L.P.)金融数据生态系统的一部分,为全球机构投资者、研究分析师和学术机构提供服务。"
+  },
+  "website": "https://www.bloomberg.com",
+  "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
+  "api_url": "https://www.bloomberg.com/professional/support/api-library/",
+  "country": null,
+  "domains": [
+    "finance",
+    "capital markets",
+    "equity markets",
+    "ipo",
+    "corporate finance",
+    "investment banking",
+    "securities"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "real-time",
+  "tags": [
+    "ipo",
+    "initial-public-offering",
+    "首次公开募股",
+    "equity-offerings",
+    "股权发行",
+    "capital-markets",
+    "资本市场",
+    "bloomberg",
+    "彭博",
+    "bloomberg-terminal",
+    "彭博终端",
+    "underwriters",
+    "承销商",
+    "prospectus",
+    "招股书",
+    "ipo-pricing",
+    "IPO定价",
+    "listing",
+    "上市",
+    "stock-exchange",
+    "证券交易所",
+    "financial-data",
+    "金融数据",
+    "investment-banking",
+    "投资银行",
+    "securities",
+    "证券"
+  ],
+  "data_content": {
+    "en": [
+      "IPO Announcements - Initial public offering announcements and filing dates",
+      "IPO Pricing - Offer price, price range, and final pricing details",
+      "Deal Structure - Share quantity, deal size, and offering structure",
+      "Underwriters - Lead underwriters, syndicate members, and banking fees",
+      "Company Information - Issuer details, industry sector, and business description",
+      "Index Membership - Coverage of major equity indices (S&P 500, FTSE, etc.)",
+      "Historical Data - Historical IPO records and time series data",
+      "Post-IPO Performance - First-day trading performance and aftermarket metrics",
+      "Geographic Coverage - Global IPO data across major stock exchanges",
+      "Export Capabilities - Simple and advanced export options to Excel"
+    ],
+    "zh": [
+      "IPO公告 - 首次公开募股公告和申报日期",
+      "IPO定价 - 发行价格、价格区间和最终定价详情",
+      "交易结构 - 股份数量、交易规模和发行结构",
+      "承销商 - 主承销商、辛迪加成员和银行费用",
+      "公司信息 - 发行人详情、行业部门和业务描述",
+      "指数成分 - 主要股票指数成分(标普500、富时等)",
+      "历史数据 - 历史IPO记录和时间序列数据",
+      "上市后表现 - 首日交易表现和后市指标",
+      "地理覆盖 - 全球主要证券交易所的IPO数据",
+      "导出功能 - 简单和高级导出选项至Excel"
+    ]
+  },
+  "authority_level": "commercial"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "unsd-national-accounts",
+  "name": {
+    "en": "UN National Accounts Database",
+    "zh": "联合国统计司国民账户数据库"
+  },
+  "description": {
+    "en": "The United Nations Statistics Division (UNSD) National Accounts Database provides comprehensive national accounts statistics for over 200 countries and territories worldwide. The database includes main aggregates, detailed tables, and analytical indicators following the System of National Accounts (SNA) framework. Data covers GDP, national income, consumption, investment, government finance, and other macroeconomic indicators from 1970 onwards, updated annually in December.",
+    "zh": "联合国统计司(UNSD)国民账户数据库为全球200多个国家和地区提供全面的国民账户统计数据。该数据库包括主要总量、详细表格和分析指标,遵循国民账户体系(SNA)框架。数据涵盖GDP、国民收入、消费、投资、政府财政和其他宏观经济指标,时间跨度从1970年至今,每年12月更新。"
+  },
+  "website": "https://unstats.un.org",
+  "data_url": "https://unstats.un.org/unsd/snaama",
+  "api_url": "http://data.un.org/Host.aspx?Content=API",
+  "authority_level": "international",
+  "country": null,
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "domains": [
+    "economics",
+    "finance"
+  ],
+  "tags": [
+    "national-accounts",
+    "gdp",
+    "经济统计",
+    "国民账户",
+    "宏观经济",
+    "SNA",
+    "国民生产总值",
+    "macroeconomic-indicators",
+    "UN",
+    "UNSD",
+    "联合国",
+    "economic-growth",
+    "government-finance",
+    "consumption",
+    "investment",
+    "per-capita-gdp",
+    "人均gdp",
+    "gni",
+    "人均gni"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and GDP per capita by expenditure approach (current and constant prices)",
+      "National income and gross national income (GNI)",
+      "Final consumption expenditure by households and government",
+      "Gross capital formation and fixed capital formation",
+      "Exports and imports of goods and services",
+      "Government revenue and expenditure",
+      "Compensation of employees and operating surplus",
+      "Value added by economic activity",
+      "Population and employment data",
+      "National accounts main aggregates following SNA 2008 framework",
+      "Detailed national accounts tables for UN member states"
+    ],
+    "zh": [
+      "按支出法计算的GDP和人均GDP(现价和不变价格)",
+      "国民收入和国民总收入(GNI)",
+      "住户和政府最终消费支出",
+      "资本形成总额和固定资本形成",
+      "货物和服务的进出口",
+      "政府收入和支出",
+      "雇员报酬和营业盈余",
+      "按经济活动分类的增加值",
+      "人口和就业数据",
+      "遵循SNA 2008框架的国民账户主要总量",
+      "联合国会员国详细国民账户表"
+    ]
+  }
+}

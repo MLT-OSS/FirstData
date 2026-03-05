@@ -1,0 +1,77 @@
+{
+  "id": "adb-vietnam-data",
+  "name": {
+    "en": "Asian Development Bank - Vietnam Country Data",
+    "zh": "亚洲开发银行越南国别数据"
+  },
+  "description": {
+    "en": "Comprehensive economic development data and statistics for Vietnam provided by the Asian Development Bank (ADB). The platform provides country-specific economic indicators including GDP growth forecasts, inflation rates, poverty statistics, development project performance metrics, key economic and social indicators, and cofinancing data. ADB's Vietnam data supports policy analysis and tracks the country's economic performance and development progress across multiple sectors.",
+    "zh": "亚洲开发银行(ADB)提供的越南综合经济发展数据和统计资料。该平台提供特定国家的经济指标，包括GDP增长预测、通货膨胀率、贫困统计、发展项目绩效指标、关键经济和社会指标，以及联合融资数据。亚行的越南数据支持政策分析，跟踪该国在多个部门的经济表现和发展进展。"
+  },
+  "website": "https://www.adb.org",
+  "data_url": "https://www.adb.org/countries/viet-nam/data",
+  "api_url": null,
+  "country": "VN",
+  "domains": [
+    "economics",
+    "development",
+    "finance",
+    "poverty",
+    "social development",
+    "infrastructure"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "asian-development-bank",
+    "adb",
+    "vietnam",
+    "viet-nam",
+    "economic-indicators",
+    "gdp-forecast",
+    "inflation",
+    "poverty-statistics",
+    "development-projects",
+    "economic-growth",
+    "key-indicators",
+    "country-data",
+    "quarterly-data",
+    "亚洲开发银行",
+    "亚行",
+    "越南",
+    "经济指标",
+    "GDP预测",
+    "通货膨胀",
+    "贫困统计",
+    "发展项目",
+    "经济增长",
+    "关键指标",
+    "国别数据",
+    "季度数据"
+  ],
+  "data_content": {
+    "en": [
+      "Economic Forecasts - GDP growth projections (6.7% in 2025, 6.0% in 2026), inflation forecasts (3.9% in 2025, 3.8% in 2026)",
+      "Key Economic Indicators - Comprehensive economic, financial, social, environmental, and SDG indicators for Vietnam",
+      "Poverty Statistics - Poverty levels, trends, and poverty reduction metrics",
+      "Development Project Performance - Success rates database (2000-2018), results tracking of ADB-supported operations",
+      "Cofinancing Data - Information on projects cofinanced during 2014-2018",
+      "Country Dashboard - Latest selected data on Vietnam's economy, poverty, socioeconomic development, and cumulative ADB assistance",
+      "Input-Output Economic Indicators - Statistics for analyzing cross-border production arrangements at local, regional, and global levels",
+      "GNI per capita - National income measurements",
+      "Asian Development Outlook Data - Regular economic analysis and forecasts specific to Vietnam"
+    ],
+    "zh": [
+      "经济预测 - GDP增长预测（2025年6.7%，2026年6.0%）、通货膨胀预测（2025年3.9%，2026年3.8%）",
+      "关键经济指标 - 越南的综合经济、金融、社会、环境和可持续发展目标指标",
+      "贫困统计 - 贫困水平、趋势和减贫指标",
+      "发展项目绩效 - 成功率数据库（2000-2018）、亚行支持项目的成果跟踪",
+      "联合融资数据 - 2014-2018年期间联合融资项目信息",
+      "国家仪表板 - 越南经济、贫困、社会经济发展和亚行累计援助的最新精选数据",
+      "投入产出经济指标 - 用于分析地方、区域和全球层面跨境生产安排的统计数据",
+      "人均国民总收入 - 国民收入测量",
+      "亚洲发展展望数据 - 针对越南的定期经济分析和预测"
+    ]
+  },
+  "authority_level": "international"
+}

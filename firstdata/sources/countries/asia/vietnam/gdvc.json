@@ -1,0 +1,86 @@
+{
+  "id": "gdvc",
+  "name": {
+    "en": "General Department of Vietnam Customs",
+    "zh": "越南海关总局"
+  },
+  "description": {
+    "en": "The General Department of Vietnam Customs (GDVC) is a government agency under the Ministry of Finance, responsible for customs management, revenue protection, and trade facilitation. GDVC manages import and export activities, fights against smuggling and commercial fraud, and operates the Vietnam National Single Window system. The department provides 181 online public services and maintains comprehensive customs statistics and trade data.",
+    "zh": "越南海关总局（GDVC）是财政部下属的政府机构，负责海关管理、收入保护和贸易便利化。GDVC管理进出口活动，打击走私和商业欺诈，并运营越南国家单一窗口系统。该部门提供181项在线公共服务，并维护全面的海关统计和贸易数据。"
+  },
+  "website": "https://www.customs.gov.vn",
+  "data_url": "https://www.customs.gov.vn",
+  "api_url": null,
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "country": "VN",
+  "domains": [
+    "customs",
+    "trade",
+    "import-export",
+    "tariffs",
+    "revenue",
+    "border control"
+  ],
+  "update_frequency": "daily",
+  "data_content": {
+    "en": [
+      "Import and export customs declarations and statistics",
+      "Tariff classification and HS code database",
+      "Customs duty and tax collection data",
+      "Trade statistics by commodity, country, and port",
+      "E-commerce customs management data",
+      "Customs clearance procedures and processing times",
+      "Customs revenue and enforcement statistics",
+      "Cross-border trade facilitation metrics",
+      "Single Window transaction data",
+      "Anti-smuggling and trade fraud investigation reports"
+    ],
+    "zh": [
+      "进出口海关申报与统计",
+      "关税分类与HS编码数据库",
+      "关税和税收征收数据",
+      "按商品、国家和港口分类的贸易统计",
+      "电子商务海关管理数据",
+      "海关清关程序与处理时间",
+      "海关收入与执法统计",
+      "跨境贸易便利化指标",
+      "单一窗口交易数据",
+      "反走私与贸易欺诈调查报告"
+    ]
+  },
+  "tags": [
+    "Vietnam",
+    "越南",
+    "customs",
+    "海关",
+    "import-export",
+    "进出口",
+    "trade statistics",
+    "贸易统计",
+    "tariffs",
+    "关税",
+    "HS code",
+    "HS编码",
+    "customs clearance",
+    "海关清关",
+    "trade facilitation",
+    "贸易便利化",
+    "single window",
+    "单一窗口",
+    "GDVC",
+    "Tổng cục Hải Quan",
+    "government data",
+    "政府数据",
+    "Southeast Asia",
+    "东南亚",
+    "ASEAN",
+    "customs revenue",
+    "海关收入",
+    "border control",
+    "边境管控",
+    "e-commerce",
+    "电子商务",
+    "VNACCS"
+  ]
+}

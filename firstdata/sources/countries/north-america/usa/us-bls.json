@@ -2,32 +2,31 @@
   "id": "us-bls",
   "name": {
     "en": "Bureau of Labor Statistics",
-    "zh": "美国劳工统计局"
+    "zh": "劳工统计局"
   },
   "description": {
     "en": "The Bureau of Labor Statistics (BLS) is the principal federal agency responsible for measuring labor market activity, working conditions, and price changes in the economy of the United States. BLS collects, processes, analyzes, and disseminates essential statistical data to the American public, Congress, other Federal agencies, State and local governments, business, and labor. The BLS also serves as a statistical resource to the U.S. Department of Labor and conducts research into employment, labor economics, and price levels.",
-    "zh": "美国劳工统计局（BLS）是负责衡量美国经济中劳动力市场活动、工作条件和价格变化的主要联邦机构。BLS收集、处理、分析并向美国公众、国会、其他联邦机构、州和地方政府、企业和劳工组织传播重要的统计数据。BLS还为美国劳工部提供统计资源服务,并开展就业、劳动经济学和价格水平方面的研究。"
+    "zh": "美国劳工统计局（BLS）是负责衡量美国经济中劳动力市场活动、工作条件和价格变化的主要联邦机构。BLS收集、处理、分析并向美国公众、国会、其他联邦机构、州和地方政府、企业和劳工组织传播重要的统计数据。BLS还为美国劳工部提供统计资源服务，并开展就业、劳动经济学和价格水平方面的研究。"
   },
   "website": "https://www.bls.gov",
   "data_url": "https://www.bls.gov/data/",
   "api_url": "https://www.bls.gov/developers/",
-  "authority_level": "government",
   "country": "US",
-  "geographic_scope": "national",
   "domains": [
-    "employment",
-    "unemployment",
-    "labor force",
-    "wages",
-    "earnings",
-    "prices",
-    "inflation",
-    "consumer expenditures",
-    "productivity",
-    "workplace safety",
-    "occupational statistics",
-    "industry statistics"
+    "Employment",
+    "Unemployment",
+    "Labor Force",
+    "Wages",
+    "Earnings",
+    "Prices",
+    "Inflation",
+    "Consumer Expenditures",
+    "Productivity",
+    "Workplace Safety",
+    "Occupational Statistics",
+    "Industry Statistics"
   ],
+  "geographic_scope": "national",
   "update_frequency": "monthly",
   "tags": [
     "employment",
@@ -51,15 +50,7 @@
     "labor-force",
     "employment-projections",
     "us-government",
-    "economic-indicators",
-    "美国劳工",
-    "就业数据",
-    "失业率",
-    "通货膨胀",
-    "消费者物价指数",
-    "生产者物价指数",
-    "工资统计",
-    "劳动力市场"
+    "economic-indicators"
   ],
   "data_content": {
     "en": [
@@ -98,5 +89,6 @@
       "进出口价格指数 - 国际贸易商品和服务的价格变化",
       "企业就业动态 - 就业创造和破坏、企业新生和死亡"
     ]
-  }
+  },
+  "authority_level": "government"
 }

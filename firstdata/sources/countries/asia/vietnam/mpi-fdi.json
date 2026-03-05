@@ -1,0 +1,84 @@
+{
+  "id": "mpi-fdi",
+  "name": {
+    "en": "Ministry of Planning and Investment - FDI Statistics",
+    "zh": "越南计划投资部 - 外国直接投资统计",
+    "vi": "Bộ Kế hoạch và Đầu tư - Thống kê FDI"
+  },
+  "description": {
+    "en": "Official source for Foreign Direct Investment (FDI) statistics and reports in Vietnam. The Ministry of Planning and Investment (MPI) provides comprehensive data on FDI inflows, registered capital, disbursed capital, investment projects by sector, and investor country breakdowns. Reports are published monthly and annually, covering both FDI attraction in Vietnam and Vietnamese overseas investment.",
+    "zh": "越南外国直接投资（FDI）统计数据和报告的官方来源。越南计划投资部提供全面的FDI流入数据、注册资本、实际到位资本、按行业分类的投资项目以及投资来源国分布等信息。报告按月度和年度发布，涵盖越南吸引FDI和越南对外投资两个方面。",
+    "vi": "Nguồn thông tin chính thức về thống kê và báo cáo Đầu tư Trực tiếp Nước ngoài (FDI) tại Việt Nam. Bộ Kế hoạch và Đầu tư cung cấp dữ liệu toàn diện về dòng vốn FDI, vốn đăng ký, vốn giải ngân, các dự án đầu tư theo ngành và phân bổ theo quốc gia đầu tư."
+  },
+  "website": "https://www.mpi.gov.vn",
+  "data_url": "https://www.mpi.gov.vn/en/Pages/Report-on-Foreign-Direct-Investment-1740.aspx",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "VN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "investment",
+    "trade",
+    "finance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "FDI",
+    "foreign direct investment",
+    "Vietnam investment",
+    "越南投资",
+    "investment statistics",
+    "投资统计",
+    "capital flows",
+    "资本流动",
+    "investment projects",
+    "投资项目",
+    "OFDI",
+    "overseas investment",
+    "对外直接投资",
+    "海外投资",
+    "registered capital",
+    "注册资本",
+    "disbursed capital",
+    "实际到位资本",
+    "government statistics",
+    "政府统计",
+    "Bộ Kế hoạch và Đầu tư",
+    "đầu tư trực tiếp nước ngoài",
+    "vốn đăng ký",
+    "vốn giải ngân"
+  ],
+  "data_content": {
+    "en": [
+      "FDI registered capital and disbursed capital statistics",
+      "New FDI projects and additional capital adjustments",
+      "FDI breakdown by sector and industry",
+      "FDI breakdown by investor country/region",
+      "FDI distribution by province and locality",
+      "Vietnamese overseas investment (OFDI) statistics",
+      "Monthly and annual FDI reports",
+      "Cumulative FDI data since 1988"
+    ],
+    "zh": [
+      "FDI注册资本和实际到位资本统计",
+      "新注册FDI项目和增资调整",
+      "按行业和部门分类的FDI数据",
+      "按投资来源国/地区分类的FDI数据",
+      "按省份和地区分布的FDI数据",
+      "越南对外投资（OFDI）统计",
+      "月度和年度FDI报告",
+      "1988年以来的累计FDI数据"
+    ],
+    "vi": [
+      "Thống kê vốn đăng ký và vốn giải ngân FDI",
+      "Dự án FDI mới và điều chỉnh vốn bổ sung",
+      "Phân loại FDI theo ngành và lĩnh vực",
+      "Phân loại FDI theo quốc gia/khu vực đầu tư",
+      "Phân bố FDI theo tỉnh thành và địa phương",
+      "Thống kê đầu tư ra nước ngoài của Việt Nam (OFDI)",
+      "Báo cáo FDI hàng tháng và hàng năm",
+      "Dữ liệu FDI tích lũy từ năm 1988"
+    ]
+  }
+}

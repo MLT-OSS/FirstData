@@ -1,0 +1,59 @@
+{
+  "id": "bis-cbta",
+  "name": {
+    "en": "BIS Central Bank Total Assets",
+    "zh": "国际清算银行中央银行总资产统计"
+  },
+  "description": {
+    "en": "The BIS Central Bank Total Assets dataset tracks the evolution of central bank balance sheets across more than 50 advanced and emerging market economies. Financial assets include gold, foreign exchange reserves, and claims on government, financial and non-financial sectors. The dataset features long historical series, with annual data averaging approximately 100 years and some series extending back to the 19th century.",
+    "zh": "国际清算银行中央银行总资产数据集追踪全球50多个发达和新兴市场经济体的中央银行资产负债表变化。金融资产包括黄金、外汇储备以及对政府、金融和非金融部门的债权。该数据集提供长期历史序列，年度数据平均约100年，部分序列可追溯至19世纪。"
+  },
+  "website": "https://www.bis.org",
+  "data_url": "https://data.bis.org/topics/CBTA",
+  "api_url": "https://stats.bis.org/api-doc/v2/",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "finance",
+    "monetary-policy",
+    "central-banking"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "central-bank",
+    "中央银行",
+    "foreign-exchange-reserves",
+    "外汇储备",
+    "balance-sheet",
+    "资产负债表",
+    "monetary-statistics",
+    "货币统计",
+    "gold-reserves",
+    "黄金储备",
+    "BIS",
+    "国际清算银行",
+    "official-reserves",
+    "官方储备",
+    "total-assets",
+    "总资产"
+  ],
+  "data_content": {
+    "en": [
+      "Central bank total assets for 50+ countries",
+      "Gold and foreign exchange reserves holdings",
+      "Claims on government, financial and non-financial sectors",
+      "Monthly, quarterly, and annual time series",
+      "Historical data extending back to the 19th century for some countries",
+      "Data available in domestic currency, percentage of GDP, and US dollars"
+    ],
+    "zh": [
+      "50多个国家的中央银行总资产",
+      "黄金和外汇储备持有量",
+      "对政府、金融和非金融部门的债权",
+      "月度、季度和年度时间序列",
+      "部分国家的历史数据可追溯至19世纪",
+      "提供本币、GDP百分比和美元三种计量单位"
+    ]
+  }
+}

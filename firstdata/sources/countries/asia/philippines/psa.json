@@ -1,0 +1,89 @@
+{
+  "id": "philippines-psa",
+  "name": {
+    "en": "Philippine Statistics Authority",
+    "zh": "菲律宾统计局"
+  },
+  "description": {
+    "en": "The Philippine Statistics Authority (PSA) is the central statistical authority of the Philippine government, responsible for collecting, compiling, analyzing, and publishing official statistics on economic, social, demographic, political affairs, and general welfare of the Filipino people. Created by Republic Act No. 10625 (Philippine Statistical Act of 2013), PSA conducts national censuses and surveys, maintains civil registration systems, and provides comprehensive data through its OpenStat, QuickStat, and interactive map platforms.",
+    "zh": "菲律宾统计局(PSA)是菲律宾政府的中央统计机构,负责收集、编制、分析和发布关于经济、社会、人口、政治事务和菲律宾人民总体福祉的官方统计数据。根据第10625号共和国法(2013年菲律宾统计法)设立,PSA进行全国性普查和调查,维护民事登记系统,并通过OpenStat、QuickStat和交互式地图平台提供综合数据。"
+  },
+  "website": "https://psa.gov.ph",
+  "data_url": "https://openstat.psa.gov.ph",
+  "api_url": null,
+  "country": "PH",
+  "domains": [
+    "demographics",
+    "economics",
+    "social",
+    "population",
+    "employment",
+    "agriculture",
+    "trade",
+    "health",
+    "education",
+    "environment",
+    "government-finance",
+    "business",
+    "civil-registration"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "philippines",
+    "菲律宾",
+    "national-statistics",
+    "国家统计",
+    "census",
+    "普查",
+    "demographics",
+    "人口统计",
+    "economic-indicators",
+    "经济指标",
+    "openstat",
+    "quickstat",
+    "government-data",
+    "政府数据",
+    "civil-registration",
+    "民事登记",
+    "psa",
+    "southeast-asia",
+    "东南亚",
+    "philippine-statistics",
+    "official-statistics",
+    "官方统计"
+  ],
+  "data_content": {
+    "en": [
+      "Census of Population and Housing - comprehensive national census",
+      "National accounts and economic statistics - GDP, inflation, trade balance",
+      "Demographic and social statistics - population estimates, vital statistics",
+      "Labour force statistics - employment, unemployment, wages",
+      "Agricultural statistics - crop production, livestock, fisheries",
+      "Industry and trade statistics - manufacturing, construction, services",
+      "Environmental and multi-domain statistics",
+      "Civil registration services - birth, marriage, death certificates",
+      "Business and enterprise statistics",
+      "Education statistics - enrollment, literacy",
+      "Health statistics and surveys",
+      "Government finance and public sector data",
+      "Regional and provincial statistics"
+    ],
+    "zh": [
+      "人口和住房普查 - 全面的全国性普查",
+      "国民账户和经济统计 - GDP、通货膨胀、贸易差额",
+      "人口和社会统计 - 人口估计、生命统计",
+      "劳动力统计 - 就业、失业、工资",
+      "农业统计 - 作物生产、畜牧业、渔业",
+      "工业和贸易统计 - 制造业、建筑业、服务业",
+      "环境和多领域统计",
+      "民事登记服务 - 出生、婚姻、死亡证明",
+      "商业和企业统计",
+      "教育统计 - 入学率、识字率",
+      "健康统计和调查",
+      "政府财政和公共部门数据",
+      "地区和省级统计"
+    ]
+  },
+  "authority_level": "government"
+}

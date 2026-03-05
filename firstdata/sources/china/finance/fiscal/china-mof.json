@@ -1,71 +1,68 @@
 {
   "id": "china-mof",
   "name": {
-    "en": "Ministry of Finance of the People's Republic of China",
-    "zh": "中华人民共和国财政部",
-    "native": "中华人民共和国财政部"
+    "en": "Ministry of Finance of China",
+    "zh": "中华人民共和国财政部"
   },
   "description": {
-    "en": "The Ministry of Finance (MOF) of China is the executive agency of the State Council responsible for fiscal policy, government revenue and expenditure, taxation policy, government procurement, and financial regulation of state-owned assets. MOF publishes comprehensive fiscal data including national and local government budgets, public finance revenue and expenditure statistics, government debt data, transfer payment details, lottery fund statistics, and accounting industry reports. The ministry also releases monthly fiscal revenue and expenditure reports, annual fiscal settlement data, and government bond issuance information. As the primary fiscal authority, MOF data is essential for analyzing China's fiscal policy, government spending priorities, and public finance health.",
-    "zh": "中华人民共和国财政部是国务院负责财政收支、税收政策、政府采购和国有资产财务监管的行政机构。财政部发布全面的财政数据，包括全国及地方政府预算、公共财政收支统计、政府债务数据、转移支付明细、彩票公益金统计和会计行业报告等。财政部还发布月度财政收支报告、年度财政决算数据和国债发行信息。作为国家财政主管部门，财政部数据是分析中国财政政策、政府支出优先级和公共财政健康状况的核心来源。"
+    "en": "The Ministry of Finance (MOF) is a constituent department of the State Council responsible for fiscal policy formulation, budget management, tax administration, and government financial regulation. It provides comprehensive data on national budgets, fiscal revenues and expenditures, government debt, tax statistics, accounting standards, and fiscal policy implementation across all levels of government.",
+    "zh": "中华人民共和国财政部是国务院组成部门,负责财政政策制定、预算管理、税收管理和政府财务监管。提供包括国家预算、财政收支、政府债务、税收统计、会计准则以及各级政府财政政策执行等全面的财政数据。"
   },
-  "website": "http://www.mof.gov.cn",
-  "data_url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengshuju/",
+  "website": "https://www.mof.gov.cn",
+  "data_url": "https://www.mof.gov.cn/gkml/",
   "api_url": null,
   "authority_level": "government",
   "country": "CN",
+  "geographic_scope": "national",
   "domains": [
     "finance",
     "economics",
-    "government"
+    "fiscal-policy",
+    "taxation",
+    "government-budget"
   ],
-  "geographic_scope": "national",
   "update_frequency": "monthly",
   "tags": [
-    "ministry of finance",
-    "MOF",
-    "fiscal policy",
-    "government budget",
-    "public finance",
-    "government revenue",
-    "government expenditure",
-    "government debt",
-    "transfer payments",
+    "china",
+    "finance",
+    "fiscal-policy",
+    "budget",
     "taxation",
-    "government bonds",
-    "treasury bonds",
-    "fiscal settlement",
-    "财政部",
+    "government-revenue",
+    "government-expenditure",
+    "public-debt",
+    "财政",
+    "预算",
+    "税收",
     "财政收支",
-    "政府预算",
-    "公共财政",
     "政府债务",
-    "国债",
-    "转移支付",
-    "财政决算",
-    "税收政策",
-    "政府采购"
+    "财政部",
+    "中央财政",
+    "地方财政",
+    "财政政策"
   ],
   "data_content": {
     "en": [
-      "Monthly fiscal revenue and expenditure reports - national and local government fiscal performance",
-      "Annual government budget and settlement data - detailed budget execution reports",
-      "Government debt statistics - central and local government bond issuance and outstanding balances",
-      "Transfer payment data - central to local government fiscal transfers",
-      "Government procurement statistics - public procurement spending and categories",
-      "Lottery fund and public welfare statistics",
-      "Accounting industry development reports",
-      "State-owned capital operation budget data"
+      "National Budget - Annual central and local government budgets, budget execution reports, and fiscal year planning",
+      "Fiscal Revenue and Expenditure - Monthly and annual fiscal revenue by source (taxes, fees), and government expenditure by function and department",
+      "Tax Statistics - Tax revenue data by category (VAT, corporate income tax, individual income tax, etc.), tax collection efficiency",
+      "Government Debt - Central and local government debt data, bond issuance, debt service ratios, and debt sustainability analysis",
+      "Transfer Payments - Central-to-local fiscal transfers, special-purpose transfers, and equalization mechanisms",
+      "State-Owned Assets - Financial performance of central state-owned enterprises, asset management, and dividend policies",
+      "Accounting Standards - Government accounting standards, financial reporting requirements, and compliance data",
+      "Fiscal Policy - Policy documents, reform initiatives, and implementation reports on fiscal reforms",
+      "International Fiscal Cooperation - Bilateral and multilateral fiscal agreements, foreign aid, and international financial commitments"
     ],
     "zh": [
-      "月度财政收支报告 - 全国及地方政府财政收支情况",
-      "年度政府预算及决算数据 - 详细预算执行报告",
-      "政府债务统计 - 中央和地方政府债券发行及余额",
-      "转移支付数据 - 中央对地方财政转移支付",
-      "政府采购统计 - 公共采购支出及分类",
-      "彩票公益金及公益事业统计",
-      "会计行业发展报告",
-      "国有资本经营预算数据"
+      "国家预算 - 年度中央和地方政府预算、预算执行报告和财政年度规划",
+      "财政收支 - 按来源分类的月度和年度财政收入(税收、费用)及按功能和部门分类的政府支出",
+      "税收统计 - 按类别分类的税收收入数据(增值税、企业所得税、个人所得税等)、税收征管效率",
+      "政府债务 - 中央和地方政府债务数据、债券发行、偿债率和债务可持续性分析",
+      "转移支付 - 中央对地方财政转移支付、专项转移支付和均衡性转移支付机制",
+      "国有资产 - 中央国有企业财务绩效、资产管理和分红政策",
+      "会计准则 - 政府会计准则、财务报告要求和合规数据",
+      "财政政策 - 财政改革政策文件、改革举措和执行报告",
+      "国际财政合作 - 双边和多边财政协定、对外援助和国际财政承诺"
     ]
   }
 }

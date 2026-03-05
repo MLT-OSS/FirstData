@@ -1,0 +1,76 @@
+{
+  "id": "hk-sfc",
+  "name": {
+    "en": "Securities and Futures Commission of Hong Kong",
+    "zh": "香港证券及期货事务监察委员会"
+  },
+  "description": {
+    "en": "The Securities and Futures Commission (SFC) is an independent statutory body responsible for regulating Hong Kong's securities and futures markets. Established in 1989, the SFC oversees market participants, ensures market integrity, protects investors, and maintains fair and transparent trading environments. It provides comprehensive regulatory data, licensing information, market surveillance reports, and enforcement actions.",
+    "zh": "香港证券及期货事务监察委员会（证监会）是独立的法定机构，负责监管香港的证券及期货市场。证监会成立于1989年，监督市场参与者，确保市场诚信，保护投资者权益，维持公平透明的交易环境。证监会提供全面的监管数据、持牌资料、市场监察报告及执法行动信息。"
+  },
+  "website": "https://www.sfc.hk/",
+  "data_url": "https://www.sfc.hk/en/Regulatory-functions/Products",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "HK",
+  "domains": [
+    "finance",
+    "securities",
+    "capital-markets",
+    "regulation"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "hong kong",
+    "香港",
+    "SFC",
+    "证监会",
+    "securities",
+    "证券",
+    "futures",
+    "期货",
+    "market regulation",
+    "市场监管",
+    "investor protection",
+    "投资者保护",
+    "licensing",
+    "持牌",
+    "enforcement",
+    "执法",
+    "disclosure",
+    "披露",
+    "capital markets",
+    "资本市场",
+    "fund management",
+    "基金管理",
+    "intermediaries",
+    "中介机构"
+  ],
+  "data_content": {
+    "en": [
+      "Licensed corporations and registered institutions: licenses for dealing in securities, futures contracts, asset management, and advisory services",
+      "Licensed individuals: responsible officers, licensed representatives, and approved persons",
+      "Product authorization: authorized collective investment schemes, SFC-authorized funds, and other investment products",
+      "Regulatory announcements and circulars: guidance notes, codes and guidelines, consultation papers",
+      "Enforcement actions: disciplinary proceedings, prosecution cases, reprimands, and sanctions",
+      "Market surveillance data: suspicious trading alerts, market manipulation cases, insider dealing investigations",
+      "Corporate disclosure: substantial shareholder notices, takeover and merger documents, listing applications",
+      "Statistical data: market turnover, derivatives trading volume, fund industry statistics",
+      "Regulatory reports: annual reports, quarterly bulletins, thematic reviews",
+      "Rules and standards: Securities and Futures Ordinance, subsidiary legislation, codes of conduct"
+    ],
+    "zh": [
+      "持牌法团及注册机构：证券交易、期货合约交易、资产管理及提供意见的牌照资料",
+      "持牌个人：负责人员、持牌代表及获核准人士",
+      "产品认可：认可集体投资计划、证监会认可基金及其他投资产品",
+      "监管公告及通函：指引、守则及指引、谘询文件",
+      "执法行动：纪律处分程序、检控个案、谴责及制裁",
+      "市场监察数据：可疑交易警报、市场操纵个案、内幕交易调查",
+      "企业披露：主要股东权益通知、收购及合并文件、上市申请",
+      "统计数据：市场成交额、衍生产品交易量、基金业统计数字",
+      "监管报告：年报、季度通讯、专题审查",
+      "规则及标准：证券及期货条例、附属法例、操守准则"
+    ]
+  }
+}

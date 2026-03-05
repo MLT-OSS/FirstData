@@ -1,0 +1,86 @@
+{
+  "id": "vietnam-mof",
+  "name": {
+    "en": "Ministry of Finance of Vietnam",
+    "zh": "越南财政部"
+  },
+  "description": {
+    "en": "The Ministry of Finance (MOF) is the government ministry responsible for the finances of Vietnam, including managing the national budget, tax revenue, state assets, national financial reserves and the finances of state corporations. The Ministry manages the work of national accounting, state borrowing, the activities of stock markets, and the Department of Customs. It provides comprehensive financial data, budget reports, tax statistics, and economic indicators for Vietnam.",
+    "zh": "越南财政部是负责越南财政事务的政府部门，包括管理国家预算、税收收入、国有资产、国家金融储备和国有企业财务。财政部管理国家会计工作、国家借贷、股票市场活动和海关部门。它提供越南的综合财政数据、预算报告、税收统计和经济指标。"
+  },
+  "website": "https://www.mof.gov.vn",
+  "data_url": "https://www.mof.gov.vn/webcenter/portal/btcen/pages_r/m/statistics",
+  "api_url": null,
+  "country": "VN",
+  "domains": [
+    "finance",
+    "government budget",
+    "taxation",
+    "fiscal policy",
+    "public finance",
+    "national accounting",
+    "customs",
+    "state assets",
+    "financial markets",
+    "economic statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "vietnam",
+    "finance",
+    "ministry-of-finance",
+    "government-budget",
+    "tax-revenue",
+    "taxation",
+    "fiscal-policy",
+    "public-finance",
+    "state-budget",
+    "customs",
+    "financial-statistics",
+    "economic-indicators",
+    "national-accounting",
+    "state-assets",
+    "financial-markets",
+    "越南",
+    "财政部",
+    "政府预算",
+    "税收",
+    "财政政策",
+    "公共财政",
+    "国家预算",
+    "海关",
+    "财政统计",
+    "经济指标",
+    "国家会计",
+    "国有资产",
+    "金融市场"
+  ],
+  "data_content": {
+    "en": [
+      "State Budget Revenue - Total revenue collection, tax revenue, non-tax revenue by type and source",
+      "State Budget Expenditure - Government spending by sector, ministry, and program",
+      "Tax Statistics - Income tax, corporate tax, VAT, import/export duties collection data",
+      "National Debt - Public debt levels, external debt, domestic debt statistics",
+      "State Assets - State-owned enterprise financial performance and asset management",
+      "Customs Statistics - Import and export data, customs revenue, trade statistics",
+      "Financial Market Data - Stock market oversight, securities market statistics",
+      "Fiscal Policy Documents - Budget proposals, fiscal reports, policy announcements",
+      "National Accounting - Government financial statements and accounting standards",
+      "Economic Indicators - GDP contribution, fiscal balance, revenue-to-GDP ratios"
+    ],
+    "zh": [
+      "国家预算收入 - 总收入、税收收入、按类型和来源分类的非税收入",
+      "国家预算支出 - 按部门、部委和项目分类的政府支出",
+      "税收统计 - 个人所得税、企业所得税、增值税、进出口关税征收数据",
+      "国家债务 - 公共债务水平、外债、内债统计",
+      "国有资产 - 国有企业财务绩效和资产管理",
+      "海关统计 - 进出口数据、海关收入、贸易统计",
+      "金融市场数据 - 股票市场监管、证券市场统计",
+      "财政政策文件 - 预算提案、财政报告、政策公告",
+      "国家会计 - 政府财务报表和会计准则",
+      "经济指标 - GDP贡献、财政平衡、收入占GDP比率"
+    ]
+  },
+  "authority_level": "government"
+}

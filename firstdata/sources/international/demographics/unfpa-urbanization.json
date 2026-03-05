@@ -1,0 +1,104 @@
+{
+  "id": "unfpa-urbanization",
+  "name": {
+    "zh": "联合国人口基金 - 城镇化数据",
+    "en": "UNFPA - Urbanization Data"
+  },
+  "description": {
+    "zh": "联合国人口基金（UNFPA）提供全球及中国城镇化趋势分析报告和数据。涵盖全球城市化进程、贫民窟人口、城市增长预测等主题，支持各国制定有效的城市发展政策和人口健康项目。UNFPA自1979年起在中国开展合作，提供人口分析、城镇化、老龄化、性别比等领域的数据支持。",
+    "en": "The United Nations Population Fund (UNFPA) provides global and China urbanization trend analysis reports and data. Covering topics such as global urbanization processes, slum populations, urban growth projections, and supporting countries in developing effective urban development policies and population health programs. UNFPA has been working in China since 1979, providing data support in areas such as demographic analysis, urbanization, aging, and sex ratios."
+  },
+  "website": "https://www.unfpa.org",
+  "data_url": "https://www.unfpa.org/urbanization",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "domains": [
+    "demographics",
+    "urbanization",
+    "population-development",
+    "slums",
+    "reproductive-health",
+    "gender-equality"
+  ],
+  "data_content": {
+    "zh": [
+      "全球城镇化趋势和预测（2007-2050年）",
+      "中国人口中长期变动趋势预测（2021-2050年）",
+      "贫民窟人口统计（1990-2020年，全球约11亿人）",
+      "城市人口占比数据（2007年首次超过50%，2050年预计达68%）",
+      "中国流动人口报告（2018）",
+      "世界人口状况报告（年度）",
+      "中国城镇化率数据（2020年达63.9%）",
+      "青少年人口状况统计",
+      "性别比失衡分析",
+      "生殖健康服务数据"
+    ],
+    "en": [
+      "Global urbanization trends and projections (2007-2050)",
+      "China population projection (2021-2050)",
+      "Slum population statistics (1990-2020, globally ~1.1 billion people)",
+      "Urban population percentage (crossed 50% in 2007, projected 68% by 2050)",
+      "China internal migration report (2018)",
+      "State of World Population reports (annual)",
+      "China urbanization rate (63.9% in 2020)",
+      "Adolescent population statistics",
+      "Sex ratio imbalance analysis",
+      "Reproductive health service data"
+    ]
+  },
+  "tags": [
+    "联合国",
+    "人口基金",
+    "UNFPA",
+    "United Nations",
+    "Population Fund",
+    "城镇化",
+    "城市化",
+    "urbanization",
+    "贫民窟",
+    "slums",
+    "人口预测",
+    "population projections",
+    "中国人口",
+    "China population",
+    "流动人口",
+    "migration",
+    "internal migration",
+    "老龄化",
+    "aging",
+    "世界人口状况",
+    "State of World Population",
+    "人口发展",
+    "demographic trends",
+    "性别比",
+    "sex ratio",
+    "生殖健康",
+    "reproductive health",
+    "gender equality",
+    "性别平等",
+    "青少年",
+    "adolescents"
+  ],
+  "organization": {
+    "name": {
+      "zh": "联合国人口基金",
+      "en": "United Nations Population Fund"
+    },
+    "abbreviation": "UNFPA",
+    "type": "international_organization"
+  },
+  "access": {
+    "requires_registration": false,
+    "cost": "free"
+  },
+  "formats": ["PDF", "HTML", "Excel"],
+  "related_links": {
+    "unfpa_china": "https://china.unfpa.org/zh-Hans",
+    "world_urbanization_prospects": "https://population.un.org/wup/",
+    "publications": "https://www.unfpa.org/publications",
+    "china_publications": "https://china.unfpa.org/zh-Hans/publications"
+  }
+}
