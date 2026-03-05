@@ -1,0 +1,72 @@
+{
+  "id": "unctad-infrastructure-statistics",
+  "name": {
+    "en": "UNCTAD Infrastructure Statistics Database",
+    "zh": "联合国贸发会议基础设施统计数据库"
+  },
+  "description": {
+    "en": "UNCTADstat provides comprehensive infrastructure statistics covering transport, telecommunications, electricity, and water sectors as part of its Production Capacity Index (PCI). The database harmonizes and integrates infrastructure-related indicators for 193 economies, including both developed and developing countries, with particular focus on developing nations and transition economies.",
+    "zh": "联合国贸发会议统计数据库(UNCTADstat)提供涵盖运输、电信、电力和水利等部门的全面基础设施统计数据,作为其生产能力指数(PCI)的一部分。该数据库整合了193个经济体的基础设施相关指标,包括发达国家和发展中国家,特别关注发展中国家和转型经济体。"
+  },
+  "website": "https://unctad.org",
+  "data_url": "https://unctadstat.unctad.org/datacentre",
+  "api_url": "https://unctadstat.unctad.org/EN/Documentation.html",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "infrastructure",
+    "transport",
+    "telecommunications",
+    "energy",
+    "water_utilities",
+    "ict"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "infrastructure",
+    "基础设施",
+    "transport",
+    "运输",
+    "telecommunications",
+    "电信",
+    "ICT",
+    "信息通信技术",
+    "electricity",
+    "电力",
+    "water utilities",
+    "水利",
+    "production capacity",
+    "生产能力",
+    "development indicators",
+    "发展指标",
+    "UNCTAD",
+    "贸发会议",
+    "UN statistics",
+    "联合国统计",
+    "trade and development",
+    "贸易与发展",
+    "developing countries",
+    "发展中国家",
+    "global infrastructure",
+    "全球基础设施"
+  ],
+  "data_content": {
+    "en": [
+      "Transport infrastructure indicators (roads, railways, ports, airports)",
+      "Telecommunications and ICT infrastructure statistics",
+      "Electricity generation and distribution infrastructure data",
+      "Water utilities and infrastructure indicators",
+      "Production Capacity Index (PCI) with 46 indicators across 8 components",
+      "Infrastructure investment and development statistics"
+    ],
+    "zh": [
+      "运输基础设施指标(道路、铁路、港口、机场)",
+      "电信和信息通信技术基础设施统计",
+      "电力生产和配送基础设施数据",
+      "水利公用事业和基础设施指标",
+      "生产能力指数(PCI),涵盖8个组成部分的46个指标",
+      "基础设施投资和发展统计"
+    ]
+  }
+}

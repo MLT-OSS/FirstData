@@ -1,0 +1,59 @@
+{
+  "id": "vietnam-fia",
+  "name": {
+    "en": "Foreign Investment Agency - Ministry of Planning and Investment",
+    "zh": "越南计划投资部外国投资局"
+  },
+  "description": {
+    "en": "The Foreign Investment Agency (FIA) operates under Vietnam's Ministry of Planning and Investment as the country's primary agency for investment promotion and foreign direct investment (FDI) management. FIA provides comprehensive data on foreign investment projects, investment trends, sectoral analysis, and regional distribution of FDI in Vietnam.",
+    "zh": "越南计划投资部外国投资局(FIA)是越南投资促进和外商直接投资(FDI)管理的主要政府机构。FIA提供关于外国投资项目、投资趋势、行业分析以及越南FDI区域分布的综合数据。"
+  },
+  "website": "https://www.mpi.gov.vn/en/pages/default.aspx",
+  "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
+  "authority_level": "government",
+  "country": "VN",
+  "domains": [
+    "foreign_direct_investment",
+    "investment_policy",
+    "economic_development",
+    "trade",
+    "business_registration"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "Vietnam",
+    "越南",
+    "FDI",
+    "Foreign Direct Investment",
+    "外商直接投资",
+    "Investment",
+    "投资",
+    "Ministry of Planning and Investment",
+    "计划投资部",
+    "Economic Development",
+    "经济发展",
+    "Southeast Asia",
+    "东南亚",
+    "Government Statistics",
+    "政府统计"
+  ],
+  "data_content": {
+    "en": [
+      "Foreign Direct Investment Statistics",
+      "Investment Project Database",
+      "Sectoral Investment Analysis",
+      "Regional FDI Distribution",
+      "Investment Trends and Reports",
+      "Investment Policies and Regulations"
+    ],
+    "zh": [
+      "外商直接投资统计数据",
+      "投资项目数据库",
+      "行业投资分析",
+      "FDI区域分布",
+      "投资趋势和报告",
+      "投资政策和法规"
+    ]
+  }
+}

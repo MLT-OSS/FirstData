@@ -1,0 +1,72 @@
+{
+  "id": "uk-ons-cpi-rpi",
+  "name": {
+    "en": "UK Office for National Statistics - Consumer Price Index and Retail Prices Index",
+    "zh": "英国国家统计局 - 消费者价格指数和零售价格指数"
+  },
+  "description": {
+    "en": "The Office for National Statistics (ONS) is the UK's largest independent producer of official statistics and the recognised national statistical institute of the United Kingdom. The ONS publishes comprehensive inflation measures including the Consumer Prices Index (CPI), Consumer Prices Index including owner occupiers' housing costs (CPIH), and Retail Prices Index (RPI). The CPI is the UK's primary measure of inflation used for monetary policy decisions by the Bank of England. The ONS provides monthly data on price changes for goods and services, detailed breakdowns by category, and extensive time series data dating back decades. Note: RPI and its subcomponents do not meet the required standard for designation as accredited official statistics but continue to be published due to widespread use in contracts.",
+    "zh": "英国国家统计局(ONS)是英国最大的独立官方统计生产机构,是英国公认的国家统计机构。ONS发布全面的通货膨胀指标,包括消费者价格指数(CPI)、包含自有住房成本的消费者价格指数(CPIH)和零售价格指数(RPI)。CPI是英国央行用于货币政策决策的主要通胀指标。ONS提供商品和服务价格变化的月度数据、按类别的详细分类以及可追溯数十年的广泛时间序列数据。注:RPI及其子指标不符合官方统计认证标准,但由于在合同中广泛使用而继续发布。"
+  },
+  "website": "https://www.ons.gov.uk/",
+  "data_url": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+  "api_url": null,
+  "country": "GB",
+  "domains": [
+    "economics",
+    "price statistics",
+    "inflation",
+    "consumer prices",
+    "monetary policy",
+    "economic indicators"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "cpi",
+    "rpi",
+    "cpih",
+    "inflation",
+    "consumer-prices",
+    "retail-prices",
+    "price-index",
+    "uk-statistics",
+    "ons",
+    "消费者价格指数",
+    "零售价格指数",
+    "通货膨胀",
+    "物价指数",
+    "英国统计",
+    "price-statistics",
+    "economic-indicators",
+    "monetary-policy",
+    "价格统计",
+    "经济指标",
+    "货币政策"
+  ],
+  "data_content": {
+    "en": [
+      "Consumer Prices Index (CPI) - Monthly inflation rate measuring changes in prices of goods and services purchased by households",
+      "Consumer Prices Index including owner occupiers' housing costs (CPIH) - Most comprehensive measure of inflation including housing costs",
+      "Retail Prices Index (RPI) - Legacy inflation measure still widely used in contracts and indexation",
+      "Detailed price indices by product category - Food, housing, transport, recreation, clothing, etc.",
+      "Historical time series data - CPI data from 1988, RPI from 1947, extensive historical records",
+      "Index numbers and percentage changes - Month-on-month, year-on-year, and average annual rates",
+      "Weights and basket composition - Annual updates to the basket of goods and services used in calculations",
+      "Regional price statistics - Price variations across different UK regions",
+      "International comparisons - UK inflation in context of European and global measures"
+    ],
+    "zh": [
+      "消费者价格指数(CPI) - 衡量家庭购买的商品和服务价格变化的月度通胀率",
+      "包含自有住房成本的消费者价格指数(CPIH) - 包含住房成本的最全面通胀指标",
+      "零售价格指数(RPI) - 在合同和指数化中仍广泛使用的传统通胀指标",
+      "按产品类别的详细价格指数 - 食品、住房、交通、娱乐、服装等",
+      "历史时间序列数据 - 自1988年起的CPI数据、自1947年起的RPI数据及广泛的历史记录",
+      "指数数值和百分比变化 - 环比、同比和年平均增长率",
+      "权重和商品篮子构成 - 计算中使用的商品和服务篮子的年度更新",
+      "区域价格统计 - 英国不同地区的价格差异",
+      "国际比较 - 英国通胀在欧洲和全球指标背景下的表现"
+    ]
+  },
+  "authority_level": "government"
+}

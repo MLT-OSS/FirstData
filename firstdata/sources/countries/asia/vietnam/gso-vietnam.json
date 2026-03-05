@@ -1,0 +1,88 @@
+{
+  "id": "gso-vietnam",
+  "name": {
+    "en": "General Statistics Office of Vietnam",
+    "zh": "越南国家统计局"
+  },
+  "description": {
+    "en": "The General Statistics Office of Vietnam (GSO) is a government agency under the Ministry of Planning and Investment, responsible for state management of statistics and providing comprehensive social and economic information. GSO operates a vertical system with headquarters, 63 provincial statistical offices, and 713 district branch offices, serving over 5,300 employees nationwide.",
+    "zh": "越南国家统计局（GSO）是隶属于计划与投资部的政府机构，负责国家统计管理职能，提供全面的社会经济信息。GSO采用垂直管理体系，包括总部、63个省级统计办公室和713个区级分支机构，在全国拥有超过5,300名员工。"
+  },
+  "website": "https://www.gso.gov.vn",
+  "data_url": "https://www.gso.gov.vn/en/data-and-statistics/",
+  "api_url": null,
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "country": "VN",
+  "domains": [
+    "national accounts",
+    "population and employment",
+    "agriculture and rural development",
+    "industry and construction",
+    "trade and services",
+    "investment and finance",
+    "price indices",
+    "social statistics",
+    "education and health",
+    "transport and telecommunications",
+    "environmental statistics"
+  ],
+  "update_frequency": "monthly",
+  "data_content": {
+    "en": [
+      "National Accounts and GDP statistics",
+      "Population and Housing Census data",
+      "Industrial Production Index",
+      "Consumer Price Index (CPI)",
+      "Employment and Labor Force statistics",
+      "Agriculture, Forestry, and Fishery statistics",
+      "Trade, Investment and Construction data",
+      "Transport, Postal Services and Telecommunications statistics",
+      "Education, Health and Culture indicators",
+      "Income, Poverty and Living Standards data",
+      "Provincial and Regional statistical data",
+      "State Budget and Public Finance statistics"
+    ],
+    "zh": [
+      "国民账户与GDP统计",
+      "人口与住房普查数据",
+      "工业生产指数",
+      "消费者价格指数（CPI）",
+      "就业与劳动力统计",
+      "农业、林业和渔业统计",
+      "贸易、投资与建设数据",
+      "交通、邮政与电信统计",
+      "教育、卫生与文化指标",
+      "收入、贫困与生活水平数据",
+      "省级与区域统计数据",
+      "国家预算与公共财政统计"
+    ]
+  },
+  "tags": [
+    "Vietnam",
+    "越南",
+    "national statistics",
+    "国家统计",
+    "economic data",
+    "经济数据",
+    "population census",
+    "人口普查",
+    "GDP",
+    "CPI",
+    "industrial production",
+    "工业生产",
+    "labor statistics",
+    "劳动力统计",
+    "trade data",
+    "贸易数据",
+    "government statistics",
+    "政府统计",
+    "GSO",
+    "Tổng cục Thống kê",
+    "Southeast Asia",
+    "东南亚",
+    "ASEAN",
+    "statistical yearbook",
+    "统计年鉴"
+  ]
+}

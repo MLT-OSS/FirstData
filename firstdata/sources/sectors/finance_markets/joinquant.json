@@ -1,0 +1,79 @@
+{
+  "id": "joinquant",
+  "name": {
+    "zh": "聚宽量化交易平台",
+    "en": "JoinQuant Quantitative Trading Platform"
+  },
+  "description": {
+    "zh": "聚宽是中国领先的量化投资交易服务平台，成立于2015年，由北京小龙虾科技有限公司运营。平台提供经过专业清洗的A股、期货、期权、基金、宏观等全面的金融数据，支持策略研究、历史回测、模拟交易和实盘交易。用户可通过Web平台或本地SDK（jqdatasdk）访问数据，日均免费调用量达100万条记录。平台注册用户近50万，是国内量化交易领域的先行者之一，已获得国家高新技术企业、北京市专精特新企业等认证。",
+    "en": "JoinQuant is a leading quantitative investment and trading platform in China, founded in 2015 and operated by Beijing Xiaolongxia Technology Co., Ltd. The platform offers professionally cleaned financial data including A-shares, futures, options, funds, and macroeconomic data, supporting strategy research, historical backtesting, simulated trading, and live trading. Users can access data through the web platform or local SDK (jqdatasdk), with up to 1 million free API calls per day. With nearly 500,000 registered users, it is one of the pioneers in China's quantitative trading industry and has been certified as a National High-Tech Enterprise and Beijing Specialized and Innovative Enterprise."
+  },
+  "website": "https://www.joinquant.com/",
+  "data_url": "https://www.joinquant.com/data",
+  "api_url": "https://www.joinquant.com/help/api/doc?name=JQDatadoc",
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "securities",
+    "quantitative-trading"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "量化交易",
+    "quantitative-trading",
+    "A股数据",
+    "a-share-data",
+    "期货数据",
+    "futures-data",
+    "基金数据",
+    "fund-data",
+    "回测平台",
+    "backtesting-platform",
+    "策略研发",
+    "strategy-research",
+    "金融数据",
+    "financial-data",
+    "JoinQuant",
+    "聚宽",
+    "量化投资",
+    "quantitative-investing",
+    "python-sdk",
+    "jqdatasdk",
+    "财务数据",
+    "financial-statements",
+    "宏观数据",
+    "macroeconomic-data",
+    "期权",
+    "options",
+    "ETF",
+    "LOF",
+    "融资融券",
+    "margin-trading"
+  ],
+  "data_content": {
+    "zh": [
+      "A股股票行情数据（日线、分钟线、Tick级）",
+      "上市公司财务数据（2005年以来）",
+      "期货行情数据（中金所金融期货产品）",
+      "基金数据（ETF、LOF、分级基金、货币基金等600+品种）",
+      "股票指数数据（近600种指数及成分股）",
+      "期权数据（行情与基本信息）",
+      "宏观经济数据",
+      "融资融券数据",
+      "数百个量化因子库"
+    ],
+    "en": [
+      "A-share stock market data (daily, minute, tick-level)",
+      "Listed company financial data (since 2005)",
+      "Futures market data (CFFEX financial futures products)",
+      "Fund data (ETF, LOF, structured funds, money market funds, 600+ varieties)",
+      "Stock index data (nearly 600 indexes and constituents)",
+      "Options data (market data and basic information)",
+      "Macroeconomic data",
+      "Margin trading data",
+      "Hundreds of quantitative factor libraries"
+    ]
+  }
+}

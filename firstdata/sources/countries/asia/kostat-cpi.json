@@ -1,0 +1,78 @@
+{
+  "id": "kostat-cpi",
+  "name": {
+    "en": "Statistics Korea (KOSTAT) - Consumer Price Index",
+    "zh": "韩国统计局 - 消费者物价指数",
+    "ko": "통계청 - 소비자물가지수"
+  },
+  "description": {
+    "en": "Statistics Korea (KOSTAT), officially renamed as the Ministry of Data and Statistics since October 2025, is the national statistical agency of South Korea responsible for collecting, compiling, and disseminating official statistics. The Consumer Price Index (CPI) measures the average change over time in prices paid by consumers for a market basket of goods and services, covering approximately 26,000 retail stores and 11,000 tenant households nationwide (excluding farming and fishery households), representing about 92.9% of total Korean households.",
+    "zh": "韩国统计局（KOSTAT），自2025年10月起正式更名为国家数据处，是韩国国家统计机构，负责收集、编制和发布官方统计数据。消费者物价指数（CPI）衡量消费者购买一篮子商品和服务价格随时间的平均变化，覆盖全国约26,000家零售店和11,000户租户家庭（不包括农渔业家庭），代表约92.9%的韩国家庭。",
+    "ko": "통계청(KOSTAT)은 2025년 10월부터 국가데이터처로 새롭게 출발한 대한민국의 국가통계기관으로, 공식 통계 자료의 수집, 편제 및 배포를 담당합니다. 소비자물가지수(CPI)는 가구에서 일상생활을 영위하기 위해 구입하는 상품과 서비스의 평균적인 가격변동을 측정한 지수입니다."
+  },
+  "website": "https://kosis.kr",
+  "data_url": "https://kosis.kr/eng/",
+  "api_url": "https://kosis.kr/openapi/index/index.jsp",
+  "country": "KR",
+  "domains": [
+    "economics",
+    "prices",
+    "inflation",
+    "consumer price index",
+    "economic indicators",
+    "statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "authority_level": "government",
+  "tags": [
+    "consumer-price-index",
+    "cpi",
+    "소비자물가지수",
+    "inflation",
+    "인플레이션",
+    "통화膨胀",
+    "south-korea",
+    "korea",
+    "한국",
+    "韩国",
+    "prices",
+    "물가",
+    "物价",
+    "economic-indicators",
+    "경제지표",
+    "经济指标",
+    "kostat",
+    "통계청",
+    "统计局",
+    "statistics",
+    "통계",
+    "统计",
+    "cost-of-living",
+    "생활비",
+    "生活成本"
+  ],
+  "data_content": {
+    "en": [
+      "Consumer Price Index (CPI) - overall and by category",
+      "Monthly and annual inflation rates",
+      "Price indices by region (provincial and metropolitan)",
+      "Price trends for goods and services categories",
+      "Core inflation indicators"
+    ],
+    "zh": [
+      "消费者物价指数（CPI）- 总体及分类指数",
+      "月度和年度通胀率",
+      "按地区的物价指数（省级和都市级）",
+      "商品和服务类别的价格趋势",
+      "核心通胀指标"
+    ],
+    "ko": [
+      "소비자물가지수(CPI) - 전체 및 부문별",
+      "월별 및 연간 인플레이션율",
+      "지역별 물가지수(광역시·도)",
+      "상품 및 서비스 부문별 가격 추이",
+      "근원인플레이션 지표"
+    ]
+  }
+}

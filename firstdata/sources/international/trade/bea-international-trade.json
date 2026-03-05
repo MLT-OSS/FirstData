@@ -1,17 +1,16 @@
 {
   "id": "bea-international-trade",
   "name": {
-    "en": "BEA International Trade in Goods and Services",
-    "zh": "美国经济分析局国际贸易数据"
+    "en": "BEA Interactive Data - International Trade",
+    "zh": "美国经济分析局国际贸易互动数据"
   },
   "description": {
-    "en": "The U.S. Bureau of Economic Analysis (BEA) provides comprehensive monthly statistics on U.S. international trade in goods and services. The dataset includes detailed historical data from 1960 to present, covering exports and imports by country and product category, with both seasonally adjusted and unadjusted figures. Data is accessible through interactive tables, API, and downloadable formats.",
-    "zh": "美国经济分析局(BEA)提供全面的美国国际货物和服务贸易月度统计数据。数据集包含从1960年至今的详细历史数据，涵盖按国家和产品类别分类的出口和进口数据，提供季节性调整和未调整数据。数据可通过交互式表格、API和可下载格式访问。"
+    "en": "The Bureau of Economic Analysis (BEA) Interactive Data application provides comprehensive U.S. international trade statistics including goods and services trade, bilateral trade flows, and services supplied through affiliates. Features customizable time ranges from 1960 to present with monthly and annual data releases.",
+    "zh": "美国经济分析局（BEA）互动数据应用提供全面的美国国际贸易统计数据，包括商品和服务贸易、双边贸易流以及通过附属机构提供的服务。提供从1960年至今的可自定义时间范围，包含月度和年度数据发布。"
   },
   "website": "https://www.bea.gov",
   "data_url": "https://apps.bea.gov/iTable/index_ita.cfm",
-  "api_url": "https://apps.bea.gov/API/signup/index.html",
-  "authority_level": "government",
+  "api_url": "https://apps.bea.gov/API/docs/index.htm",
   "country": "US",
   "domains": [
     "trade",
@@ -22,46 +21,43 @@
   "update_frequency": "monthly",
   "tags": [
     "international_trade",
-    "国际贸易",
-    "exports",
-    "出口",
-    "imports",
-    "进口",
-    "trade_balance",
-    "贸易差额",
-    "goods_trade",
-    "货物贸易",
-    "services_trade",
-    "服务贸易",
-    "us_trade",
-    "美国贸易",
+    "美国贸易数据",
+    "us_trade_statistics",
+    "goods_and_services",
     "bilateral_trade",
     "双边贸易",
-    "trade_statistics",
-    "贸易统计",
-    "bea",
-    "bureau_of_economic_analysis"
+    "trade_balance",
+    "贸易平衡",
+    "services_trade",
+    "服务贸易",
+    "BEA",
+    "economic_analysis",
+    "trade_deficit",
+    "贸易逆差",
+    "export_import",
+    "进出口",
+    "international_transactions",
+    "国际交易",
+    "trade_in_value_added",
+    "增加值贸易"
   ],
   "data_content": {
     "en": [
-      "Monthly U.S. international trade in goods and services from 1960 to present, including total exports, imports, and trade balance",
-      "Bilateral trade data by country and geographic area (available from 1999 onwards) covering major trading partners",
-      "Trade in goods with detailed product category breakdowns (seasonally adjusted and unadjusted)",
-      "Trade in services including categories such as travel, transport, intellectual property, financial services, and other business services",
-      "International Transactions Balance of Payments - comprehensive U.S. transactions in goods, services, income, and investment with other countries",
-      "International Services Expanded Detail - detailed service sector information including multinational enterprise activities",
-      "International Investment Position - financial asset and liability records between the U.S. and other nations",
-      "Direct Investment by Country and Industry - investment data involving business control or significant influence"
+      "International Trade in Goods and Services - Monthly and annual U.S. trade data including goods trade deficit, services surplus, and geographic breakdowns by country and region (1960-present)",
+      "International Transactions Accounts - Comprehensive data on all transactions between U.S. and foreign residents including trade, investment income, and financial flows",
+      "International Services Trade - Detailed annual statistics on U.S. trade in services by type of service for 90+ countries and areas, including ICT-related services",
+      "Trade by Country and Area - Bilateral trade statistics with selected countries and geographic regions from 1999 onwards",
+      "Trade in Value Added (TiVA) - Analysis of domestic and foreign value-added content in exports and imports",
+      "International Services Supplied Through Affiliates - Data on services supplied by affiliates of multinational enterprises operating across borders"
     ],
     "zh": [
-      "从1960年至今的美国国际货物和服务贸易月度数据，包括总出口、进口和贸易差额",
-      "按国家和地理区域分类的双边贸易数据（1999年起可用），涵盖主要贸易伙伴",
-      "货物贸易详细产品类别细分（包含季节性调整和未调整数据）",
-      "服务贸易，包括旅行、运输、知识产权、金融服务和其他商业服务等类别",
-      "国际交易收支平衡表 - 美国与其他国家在货物、服务、收入和投资方面的全面交易数据",
-      "国际服务扩展详细信息 - 详细的服务业信息，包括跨国企业活动",
-      "国际投资头寸 - 美国与其他国家之间的金融资产和负债记录",
-      "按国家和行业分类的直接投资 - 涉及企业控制权或重大影响力的投资数据"
+      "国际商品和服务贸易 - 月度和年度美国贸易数据，包括商品贸易逆差、服务顺差以及按国家和地区的地理细分（1960年至今）",
+      "国际交易账户 - 美国与外国居民之间所有交易的综合数据，包括贸易、投资收入和金融流动",
+      "国际服务贸易 - 按服务类型分类的美国与90多个国家和地区的服务贸易详细年度统计，包括信息通信技术相关服务",
+      "按国家和地区分类的贸易 - 1999年以来与特定国家和地理区域的双边贸易统计",
+      "增加值贸易（TiVA） - 分析出口和进口中的国内和国外增加值含量",
+      "通过附属机构提供的国际服务 - 跨国企业附属机构跨境提供服务的数据"
     ]
-  }
+  },
+  "authority_level": "government"
 }

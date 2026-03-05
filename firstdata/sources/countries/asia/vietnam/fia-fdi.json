@@ -1,0 +1,74 @@
+{
+  "id": "fia-fdi",
+  "name": {
+    "en": "Foreign Investment Agency - FDI Statistics",
+    "zh": "越南外国投资局 - FDI统计数据"
+  },
+  "description": {
+    "en": "The Foreign Investment Agency (FIA) under the Ministry of Planning and Investment of Vietnam is the official government agency responsible for publishing comprehensive statistics on foreign direct investment (FDI) in Vietnam and Vietnam's overseas investment. The agency provides detailed monthly, quarterly, and annual reports covering FDI registered capital, disbursed capital, by sector, by source country/territory, and by province.",
+    "zh": "越南计划投资部下属的外国投资局（FIA）是负责发布越南外国直接投资（FDI）及越南海外投资综合统计数据的官方政府机构。该机构提供详细的月度、季度和年度报告,涵盖FDI注册资本、实际到位资本、按行业分类、按来源国/地区分类以及按省份分类的数据。"
+  },
+  "website": "https://www.mpi.gov.vn/",
+  "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "VN",
+  "domains": [
+    "foreign direct investment",
+    "international investment",
+    "economic statistics",
+    "investment statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "Vietnam",
+    "越南",
+    "FDI",
+    "Foreign Direct Investment",
+    "外国直接投资",
+    "Investment Statistics",
+    "投资统计",
+    "Economic Data",
+    "经济数据",
+    "Ministry of Planning and Investment",
+    "计划投资部",
+    "FIA",
+    "Foreign Investment Agency",
+    "外国投资局",
+    "Overseas Investment",
+    "对外投资",
+    "Capital Flows",
+    "资本流动",
+    "Registered Capital",
+    "注册资本",
+    "Disbursed Capital",
+    "实际到位资本",
+    "Investment by Sector",
+    "行业投资",
+    "Investment by Province",
+    "省份投资",
+    "Investment by Country",
+    "国别投资"
+  ],
+  "data_content": {
+    "en": [
+      "FDI registered capital and disbursed capital statistics",
+      "FDI by economic sector (manufacturing, real estate, electricity, etc.)",
+      "FDI by source country and territory (90+ countries)",
+      "FDI by province and locality",
+      "Number of FDI projects by category (new projects, additional investment, capital contribution)",
+      "Vietnam's overseas investment statistics",
+      "Monthly, quarterly, and annual FDI reports"
+    ],
+    "zh": [
+      "FDI注册资本和实际到位资本统计",
+      "按经济部门分类的FDI（制造业、房地产、电力等）",
+      "按来源国家和地区分类的FDI（90多个国家）",
+      "按省份和地区分类的FDI",
+      "按类别分类的FDI项目数量（新项目、追加投资、出资购股）",
+      "越南对外投资统计",
+      "月度、季度和年度FDI报告"
+    ]
+  }
+}

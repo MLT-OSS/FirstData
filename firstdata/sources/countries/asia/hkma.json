@@ -1,0 +1,80 @@
+{
+  "id": "hkma",
+  "name": {
+    "en": "Hong Kong Monetary Authority",
+    "zh": "香港金融管理局"
+  },
+  "description": {
+    "en": "The Hong Kong Monetary Authority (HKMA) is the de facto central bank of Hong Kong, established on April 1, 1993. Its mission is to maintain monetary and financial stability, promote the integrity and efficiency of the financial system, and safeguard the interests of depositors. The HKMA provides comprehensive economic and financial data including monetary statistics, banking system data, financial stability reports, and daily market data through its open data portal and API.",
+    "zh": "香港金融管理局（金管局）是香港的实际中央银行，成立于1993年4月1日。其使命是维持货币与金融稳定、促进金融体系的健全与发展，以及保障存款人的利益。金管局通过开放数据门户和API提供全面的经济及金融数据，包括货币统计、银行体系数据、金融稳定报告及每日市场数据。"
+  },
+  "website": "https://www.hkma.gov.hk/",
+  "data_url": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/",
+  "api_url": "https://apidocs.hkma.gov.hk/",
+  "authority_level": "government",
+  "country": "HK",
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "domains": [
+    "finance",
+    "economics",
+    "banking",
+    "monetary_policy"
+  ],
+  "tags": [
+    "monetary authority",
+    "central bank",
+    "financial statistics",
+    "monetary statistics",
+    "banking data",
+    "financial stability",
+    "exchange fund",
+    "Hong Kong",
+    "HKMA",
+    "linked exchange rate",
+    "payment systems",
+    "banking supervision",
+    "interest rates",
+    "exchange rates",
+    "money supply",
+    "金融管理局",
+    "中央银行",
+    "金融统计",
+    "货币统计",
+    "银行数据",
+    "金融稳定",
+    "外汇基金",
+    "香港",
+    "金管局",
+    "联系汇率",
+    "支付系统",
+    "银行监管",
+    "利率",
+    "汇率",
+    "货币供应"
+  ],
+  "data_content": {
+    "en": [
+      "Monetary statistics (money supply, exchange rates, interest rates)",
+      "Banking system statistics (assets, liabilities, capital adequacy)",
+      "Financial stability indicators and reports",
+      "Exchange Fund statistics",
+      "Payment systems data",
+      "Economic and financial data for Hong Kong",
+      "Daily market data (exchange rates, interbank rates)",
+      "Monthly Statistical Bulletin",
+      "Half-Yearly Monetary and Financial Stability Report"
+    ],
+    "zh": [
+      "货币统计（货币供应、汇率、利率）",
+      "银行体系统计（资产、负债、资本充足率）",
+      "金融稳定指标及报告",
+      "外汇基金统计",
+      "支付系统数据",
+      "香港经济及金融数据",
+      "每日市场数据（汇率、银行同业拆息率）",
+      "金融数据月报",
+      "货币与金融稳定情况半年度报告"
+    ]
+  }
+}

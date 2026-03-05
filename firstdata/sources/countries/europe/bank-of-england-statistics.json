@@ -1,0 +1,128 @@
+{
+  "id": "bank-of-england-statistics",
+  "name": {
+    "en": "Bank of England Statistical Database",
+    "zh": "英格兰银行统计数据库"
+  },
+  "description": {
+    "en": "The Bank of England's official statistical database providing comprehensive data on monetary policy, financial markets, banking sector balance sheets, money and lending, interest rates, exchange rates, and financial derivatives. The database includes time series data on monetary financial institutions, public sector debt, capital issuance, and international reserves.",
+    "zh": "英格兰银行官方统计数据库，提供货币政策、金融市场、银行业资产负债表、货币与信贷、利率、汇率和金融衍生品的综合数据。数据库包含货币金融机构、公共部门债务、资本发行和国际储备的时间序列数据。"
+  },
+  "website": "https://www.bankofengland.co.uk",
+  "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
+  "api_url": "https://www.bankofengland.co.uk/boeapps/database/help.asp",
+  "authority_level": "government",
+  "country": "GB",
+  "domains": [
+    "finance",
+    "economics",
+    "monetary_policy"
+  ],
+  "organization": {
+    "name": {
+      "en": "Bank of England",
+      "zh": "英格兰银行"
+    },
+    "type": "central_bank",
+    "country": "GB"
+  },
+  "geographic_scope": "national",
+  "data_access": {
+    "methods": [
+      "web_download",
+      "database_query",
+      "api"
+    ],
+    "formats": [
+      "CSV",
+      "Excel",
+      "JSON"
+    ],
+    "requires_registration": false
+  },
+  "temporal_coverage": {
+    "start_year": null,
+    "coverage_notes": {
+      "en": "Historical time series with varying start dates depending on data series",
+      "zh": "历史时间序列数据，起始日期因数据系列而异"
+    }
+  },
+  "data_content": {
+    "en": [
+      "Money and lending statistics",
+      "Monetary financial institutions' balance sheets, income and expenditure",
+      "Deposits and lending detailed analysis",
+      "External business of UK banks",
+      "Public sector debt and money markets operations",
+      "International reserves and foreign exchange",
+      "Capital issuance and securities",
+      "Financial derivatives",
+      "Interest rates and exchange rates",
+      "SONIA (Sterling Overnight Index Average) benchmark"
+    ],
+    "zh": [
+      "货币与信贷统计",
+      "货币金融机构资产负债表、收入与支出",
+      "存款与贷款详细分析",
+      "英国银行的境外业务",
+      "公共部门债务与货币市场操作",
+      "国际储备与外汇",
+      "资本发行与证券",
+      "金融衍生品",
+      "利率与汇率",
+      "SONIA（英镑隔夜指数平均利率）基准"
+    ]
+  },
+  "update_frequency": "daily",
+  "update_frequency_notes": {
+    "en": "Varies by dataset: Daily (exchange rates, SONIA), Weekly (money markets), Monthly (lending, deposits), Quarterly (detailed breakdowns)",
+    "zh": "因数据集而异：每日（汇率、SONIA）、每周（货币市场）、每月（信贷、存款）、每季度（详细分类）"
+  },
+  "license": {
+    "type": "Open Government Licence",
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "notes": {
+      "en": "Most data published under UK Open Government Licence v3.0, allowing free reuse with attribution. Some exchange rate data excluded due to third-party licensing.",
+      "zh": "大部分数据根据英国开放政府许可证 v3.0 发布，允许署名后自由使用。部分汇率数据因第三方许可而不包含在内。"
+    }
+  },
+  "support": {
+    "email": "BEEDSQueries@bankofengland.co.uk"
+  },
+  "tags": [
+    "central bank",
+    "中央银行",
+    "monetary policy",
+    "货币政策",
+    "financial statistics",
+    "金融统计",
+    "banking data",
+    "银行数据",
+    "interest rates",
+    "利率",
+    "exchange rates",
+    "汇率",
+    "money supply",
+    "货币供应",
+    "lending",
+    "信贷",
+    "deposits",
+    "存款",
+    "Bank of England",
+    "英格兰银行",
+    "UK finance",
+    "英国金融",
+    "SONIA",
+    "financial derivatives",
+    "金融衍生品",
+    "reserves",
+    "储备",
+    "BoE"
+  ],
+  "metadata": {
+    "last_verified": "2026-03-04",
+    "data_portal_url": "https://www.bankofengland.co.uk/boeapps/database/",
+    "statistical_releases_url": "https://www.bankofengland.co.uk/news/statistics",
+    "research_datasets_url": "https://www.bankofengland.co.uk/statistics/research-datasets"
+  }
+}
