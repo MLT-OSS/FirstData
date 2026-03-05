@@ -1,0 +1,74 @@
+{
+  "id": "china-mca",
+  "name": {
+    "en": "Ministry of Civil Affairs of China",
+    "zh": "中华人民共和国民政部",
+    "native": "中华人民共和国民政部"
+  },
+  "description": {
+    "en": "The Ministry of Civil Affairs (MCA) is responsible for social welfare, social organization management, grassroots governance, administrative divisions, marriage registration, and disaster relief in China. It publishes comprehensive statistical data through the China Civil Affairs Statistical Yearbook and quarterly statistical bulletins, covering social services, social organizations, community governance, and welfare institutions.",
+    "zh": "中华人民共和国民政部负责社会福利、社会组织管理、基层治理、行政区划、婚姻登记和救灾救济等工作。通过《中国民政统计年鉴》和季度统计公报发布全面的统计数据，涵盖社会服务、社会组织、社区治理和福利机构等领域。"
+  },
+  "website": "https://www.mca.gov.cn",
+  "data_url": "https://www.mca.gov.cn/n156/n2679/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "social",
+    "demographics",
+    "governance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "民政部",
+    "civil affairs",
+    "社会福利",
+    "social welfare",
+    "社会组织",
+    "social organizations",
+    "行政区划",
+    "administrative divisions",
+    "婚姻登记",
+    "marriage registration",
+    "救灾",
+    "disaster relief",
+    "养老",
+    "elderly care",
+    "社区治理",
+    "community governance",
+    "低保",
+    "minimum living standard",
+    "NGO",
+    "民间组织",
+    "MCA",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Social service statistics - Total expenditures, institutions, beds, and personnel in social services",
+      "Social organizations - Registration and management of social groups, foundations, and private non-enterprise units",
+      "Community governance - Urban and rural community statistics, residents' committees, villagers' committees",
+      "Administrative divisions - County-level and above administrative division codes and changes",
+      "Marriage registration - Marriage and divorce registration statistics by region",
+      "Disaster relief - Natural disaster statistics, affected populations, relief expenditures",
+      "Elderly care services - Nursing homes, elderly care institutions, beds, and residents",
+      "Minimum living standard guarantee (Dibao) - Urban and rural subsistence allowance recipients and expenditures",
+      "Orphan care and child welfare - Child welfare institutions, orphans, and adoption statistics",
+      "Funeral and burial services - Cremation rates, funeral service institutions"
+    ],
+    "zh": [
+      "社会服务统计 - 社会服务事业费支出、机构数、床位数和从业人员",
+      "社会组织 - 社会团体、基金会和民办非企业单位的登记管理统计",
+      "社区治理 - 城乡社区统计、居委会、村委会数据",
+      "行政区划 - 县级以上行政区划代码和变更情况",
+      "婚姻登记 - 分地区结婚和离婚登记统计",
+      "救灾 - 自然灾害统计、受灾人口、救灾支出",
+      "养老服务 - 养老院、养老机构、床位数和入住人数",
+      "最低生活保障(低保) - 城乡低保对象人数和支出",
+      "孤儿和儿童福利 - 儿童福利机构、孤儿和收养统计",
+      "殡葬服务 - 火化率、殡葬服务机构统计"
+    ]
+  }
+}

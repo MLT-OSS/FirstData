@@ -1,0 +1,76 @@
+{
+  "id": "china-mot",
+  "name": {
+    "en": "Ministry of Transport of China",
+    "zh": "中华人民共和国交通运输部",
+    "native": "中华人民共和国交通运输部"
+  },
+  "description": {
+    "en": "The Ministry of Transport (MOT) is responsible for planning, policy, and regulation of transportation in China, covering highways, waterways, civil aviation coordination, and postal services. It publishes comprehensive transportation statistics through annual statistical bulletins and monthly reports, including data on road and waterway infrastructure, passenger and freight volumes, vehicle registrations, port throughput, and transportation safety.",
+    "zh": "中华人民共和国交通运输部负责中国交通运输的规划、政策和监管，涵盖公路、水路、民航协调和邮政等领域。通过年度统计公报和月度报告发布全面的交通运输统计数据，包括公路和水路基础设施、客货运量、车辆登记、港口吞吐量和交通安全数据。"
+  },
+  "website": "https://www.mot.gov.cn",
+  "data_url": "https://www.mot.gov.cn/shuju/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "transportation",
+    "infrastructure",
+    "logistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "交通运输部",
+    "ministry of transport",
+    "公路",
+    "highway",
+    "水路",
+    "waterway",
+    "港口",
+    "port",
+    "客运量",
+    "passenger volume",
+    "货运量",
+    "freight volume",
+    "物流",
+    "logistics",
+    "交通基础设施",
+    "transport infrastructure",
+    "高速公路",
+    "expressway",
+    "内河航运",
+    "inland waterway",
+    "春运",
+    "Spring Festival travel",
+    "MOT",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Highway infrastructure - Total mileage, expressway length, road grades, bridges, and tunnels",
+      "Waterway infrastructure - Navigable inland waterway mileage, berths, port facilities",
+      "Passenger transport - Passenger volumes and turnover by highway, waterway, and urban transit",
+      "Freight transport - Freight volumes and turnover by highway and waterway",
+      "Port throughput - Cargo and container throughput for major coastal and inland ports",
+      "Vehicle statistics - Registered commercial vehicles, vessels, and urban transit vehicles",
+      "Transportation safety - Accident statistics, casualties, and safety indicators",
+      "Urban public transport - Bus routes, metro lines, ridership, and operational data",
+      "Fixed asset investment - Investment in transportation infrastructure by sector",
+      "Spring Festival travel rush (Chunyun) - Daily cross-regional passenger flow statistics"
+    ],
+    "zh": [
+      "公路基础设施 - 公路总里程、高速公路里程、公路等级、桥梁和隧道",
+      "水路基础设施 - 内河航道里程、泊位数、港口设施",
+      "客运 - 按公路、水路和城市公交分类的客运量和旅客周转量",
+      "货运 - 按公路和水路分类的货运量和货物周转量",
+      "港口吞吐量 - 主要沿海和内河港口的货物和集装箱吞吐量",
+      "车辆统计 - 营运车辆、船舶和城市公交车辆登记数",
+      "交通安全 - 事故统计、伤亡人数和安全指标",
+      "城市公共交通 - 公交线路、地铁线路、客运量和运营数据",
+      "固定资产投资 - 按行业分类的交通基础设施投资",
+      "春运 - 每日跨区域人员流动量统计"
+    ]
+  }
+}
