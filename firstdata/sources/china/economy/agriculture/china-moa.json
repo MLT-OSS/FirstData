@@ -1,0 +1,88 @@
+{
+  "id": "china-moa",
+  "name": {
+    "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
+    "zh": "中华人民共和国农业农村部农业统计"
+  },
+  "description": {
+    "en": "Official agricultural statistics and rural economy data published by China's Ministry of Agriculture and Rural Affairs (MARA), covering crop production, livestock and aquaculture, agricultural inputs, rural household income, and agricultural mechanization. Includes annual China Agricultural Development Reports and statistical yearbooks on agriculture and rural development.",
+    "zh": "中华人民共和国农业农村部发布的官方农业统计和农村经济数据，涵盖农作物产量、畜牧水产、农业投入品、农村居民收入及农业机械化水平。包括年度《中国农业发展报告》和农业农村统计年报。"
+  },
+  "website": "http://www.moa.gov.cn/",
+  "data_url": "http://www.moa.gov.cn/nybgb/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "agriculture",
+    "economics",
+    "statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "农业农村部",
+    "农业统计",
+    "agriculture statistics",
+    "Ministry of Agriculture and Rural Affairs",
+    "MARA",
+    "粮食产量",
+    "grain production",
+    "农业发展报告",
+    "agricultural development report",
+    "农村经济",
+    "rural economy",
+    "农作物",
+    "crops",
+    "畜牧业",
+    "livestock",
+    "水产品",
+    "aquaculture",
+    "农民收入",
+    "farmer income",
+    "化肥",
+    "fertilizer",
+    "农药",
+    "pesticides",
+    "农业机械化",
+    "agricultural mechanization",
+    "耕地面积",
+    "arable land",
+    "农业生产",
+    "agricultural production",
+    "乡村振兴",
+    "rural revitalization",
+    "农业年报",
+    "agricultural yearbook"
+  ],
+  "data_content": {
+    "en": [
+      "Annual crop production data - grain, cotton, oilseeds, vegetables, fruits by province",
+      "Livestock statistics - pigs, cattle, sheep, poultry breeding and slaughter data",
+      "Aquaculture and fishery production statistics",
+      "Agricultural input usage - fertilizers, pesticides, seeds, agricultural film",
+      "Agricultural mechanization - tractor and machinery ownership and usage",
+      "Rural household income and expenditure statistics",
+      "Arable land and cultivated area by crop type",
+      "Agricultural disaster and crop loss statistics",
+      "Rural labor force and agricultural employment data",
+      "Agricultural product prices and market monitoring",
+      "China Agricultural Development Report (annual)",
+      "Agricultural and Rural Statistics Annual Report"
+    ],
+    "zh": [
+      "年度农作物产量数据 - 粮食、棉花、油料、蔬菜、水果分省统计",
+      "畜牧业统计 - 生猪、牛、羊、禽类存栏和出栏数据",
+      "水产养殖和捕捞产量统计",
+      "农业投入品使用 - 化肥、农药、种子、农膜",
+      "农业机械化 - 拖拉机和农机拥有量及使用情况",
+      "农村居民收入与支出统计",
+      "耕地面积和分作物播种面积",
+      "农业灾害和农作物损失统计",
+      "农村劳动力和农业就业数据",
+      "农产品价格和市场监测",
+      "年度《中国农业发展报告》",
+      "农业农村统计年报"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "china-mwr",
+  "name": {
+    "en": "Ministry of Water Resources of China - Water Resources Statistics",
+    "zh": "中华人民共和国水利部水资源统计"
+  },
+  "description": {
+    "en": "Official water resources statistics published by China's Ministry of Water Resources, covering water resources assessment, water supply and consumption, flood control, drought relief, irrigation, and hydraulic engineering development. Includes annual China Water Resources Bulletins and comprehensive statistical yearbooks on water conservancy.",
+    "zh": "中华人民共和国水利部发布的官方水资源统计数据，涵盖水资源调查评价、供用水量、防洪抗旱、灌溉面积及水利工程建设发展状况。包括年度《中国水资源公报》和水利统计年鉴。"
+  },
+  "website": "http://www.mwr.gov.cn/",
+  "data_url": "http://www.mwr.gov.cn/sj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "environment",
+    "infrastructure",
+    "statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "水利部",
+    "水资源",
+    "water resources",
+    "Ministry of Water Resources",
+    "MWR",
+    "水资源公报",
+    "water resources bulletin",
+    "供水",
+    "water supply",
+    "用水量",
+    "water consumption",
+    "防洪",
+    "flood control",
+    "灌溉",
+    "irrigation",
+    "水利工程",
+    "hydraulic engineering",
+    "水库",
+    "reservoirs",
+    "河流",
+    "rivers",
+    "地下水",
+    "groundwater",
+    "降水量",
+    "precipitation",
+    "水利统计年鉴",
+    "water conservancy yearbook",
+    "旱情",
+    "drought",
+    "水文",
+    "hydrology"
+  ],
+  "data_content": {
+    "en": [
+      "Annual China Water Resources Bulletin - total water resources volume by region",
+      "Surface water and groundwater resources assessment",
+      "Water supply statistics by source type (surface water, groundwater, other)",
+      "Water consumption by sector (agriculture, industry, household, ecological)",
+      "Irrigation area and farmland irrigation statistics",
+      "Reservoir and dam statistics by type and capacity",
+      "Flood control and disaster relief data",
+      "Drought monitoring and relief statistics",
+      "Hydraulic engineering construction investment and progress",
+      "Rural water supply coverage and safe drinking water data",
+      "Water conservancy statistical yearbook (annual)"
+    ],
+    "zh": [
+      "年度《中国水资源公报》- 各地区水资源总量",
+      "地表水和地下水资源评价数据",
+      "分水源供水量统计（地表水、地下水、其他水源）",
+      "分行业用水量（农业、工业、生活、生态用水）",
+      "灌溉面积和耕地灌溉统计",
+      "水库大坝分类型和库容统计",
+      "防洪减灾数据",
+      "旱情监测与抗旱统计",
+      "水利工程建设投资与进度",
+      "农村供水覆盖率和安全饮水数据",
+      "水利统计年鉴（年度）"
+    ]
+  }
+}
