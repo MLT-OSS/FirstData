@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-05T08:40:55.015523+00:00",
-    "total_domains": 668,
-    "total_sources": 196,
+    "generated_at": "2026-03-06T01:02:50.127824+00:00",
+    "total_domains": 681,
+    "total_sources": 200,
     "version": "2.0"
   },
   "domains": {
@@ -1297,6 +1297,18 @@
         "has_api": false,
         "file_path": "international/environment/cites-trade-database.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "gbif",
+        "name": {
+          "en": "Global Biodiversity Information Facility (GBIF)",
+          "zh": "全球生物多样性信息设施"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gbif.org/occurrence/search",
+        "has_api": true,
+        "file_path": "international/paleontology/gbif.json",
+        "geographic_scope": "global"
       }
     ],
     "bioinformatics": [
@@ -1384,6 +1396,30 @@
         "data_url": "https://pubchem.ncbi.nlm.nih.gov/",
         "has_api": true,
         "file_path": "academic/chemistry/pubchem.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "gbif",
+        "name": {
+          "en": "Global Biodiversity Information Facility (GBIF)",
+          "zh": "全球生物多样性信息设施"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gbif.org/occurrence/search",
+        "has_api": true,
+        "file_path": "international/paleontology/gbif.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "paleobiodb",
+        "name": {
+          "en": "Paleobiology Database (PBDB)",
+          "zh": "古生物学数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://paleobiodb.org/navigator/",
+        "has_api": true,
+        "file_path": "international/paleontology/paleobiodb.json",
         "geographic_scope": "global"
       }
     ],
@@ -2720,6 +2756,20 @@
         "data_url": "https://registry.opendata.aws/",
         "has_api": false,
         "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "geographic_scope": "global"
+      }
+    ],
+    "conservation": [
+      {
+        "id": "gbif",
+        "name": {
+          "en": "Global Biodiversity Information Facility (GBIF)",
+          "zh": "全球生物多样性信息设施"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gbif.org/occurrence/search",
+        "has_api": true,
+        "file_path": "international/paleontology/gbif.json",
         "geographic_scope": "global"
       }
     ],
@@ -4335,6 +4385,18 @@
     ],
     "earth-science": [
       {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "nasa-earthdata",
         "name": {
           "en": "NASA Earthdata",
@@ -4344,6 +4406,34 @@
         "data_url": "https://www.earthdata.nasa.gov",
         "has_api": true,
         "file_path": "international/earth-science/nasa-earthdata.json",
+        "geographic_scope": "global"
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "ecology": [
+      {
+        "id": "gbif",
+        "name": {
+          "en": "Global Biodiversity Information Facility (GBIF)",
+          "zh": "全球生物多样性信息设施"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gbif.org/occurrence/search",
+        "has_api": true,
+        "file_path": "international/paleontology/gbif.json",
         "geographic_scope": "global"
       }
     ],
@@ -6928,6 +7018,20 @@
         "geographic_scope": "global"
       }
     ],
+    "evolution": [
+      {
+        "id": "paleobiodb",
+        "name": {
+          "en": "Paleobiology Database (PBDB)",
+          "zh": "古生物学数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://paleobiodb.org/navigator/",
+        "has_api": true,
+        "file_path": "international/paleontology/paleobiodb.json",
+        "geographic_scope": "global"
+      }
+    ],
     "evolutionary biology": [
       {
         "id": "1000-genomes",
@@ -8562,6 +8666,58 @@
         "geographic_scope": "national"
       }
     ],
+    "geological-hazards": [
+      {
+        "id": "china-cgs",
+        "name": {
+          "en": "China Geological Survey (CGS)",
+          "zh": "中国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://geocloud.cgs.gov.cn",
+        "has_api": false,
+        "file_path": "countries/cn/geology/cgs.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "geology": [
+      {
+        "id": "china-cgs",
+        "name": {
+          "en": "China Geological Survey (CGS)",
+          "zh": "中国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://geocloud.cgs.gov.cn",
+        "has_api": false,
+        "file_path": "countries/cn/geology/cgs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "paleobiodb",
+        "name": {
+          "en": "Paleobiology Database (PBDB)",
+          "zh": "古生物学数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://paleobiodb.org/navigator/",
+        "has_api": true,
+        "file_path": "international/paleontology/paleobiodb.json",
+        "geographic_scope": "global"
+      }
+    ],
     "geospatial": [
       {
         "id": "usgs-earthexplorer",
@@ -9639,6 +9795,20 @@
         "has_api": false,
         "file_path": "academic/social/afrobarometer.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "hydrogeology": [
+      {
+        "id": "china-cgs",
+        "name": {
+          "en": "China Geological Survey (CGS)",
+          "zh": "中国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://geocloud.cgs.gov.cn",
+        "has_api": false,
+        "file_path": "countries/cn/geology/cgs.json",
+        "geographic_scope": "national"
       }
     ],
     "hydrology": [
@@ -11811,6 +11981,20 @@
         "geographic_scope": "national"
       }
     ],
+    "marine-geology": [
+      {
+        "id": "china-cgs",
+        "name": {
+          "en": "China Geological Survey (CGS)",
+          "zh": "中国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://geocloud.cgs.gov.cn",
+        "has_api": false,
+        "file_path": "countries/cn/geology/cgs.json",
+        "geographic_scope": "national"
+      }
+    ],
     "maritime": [
       {
         "id": "us-data-gov",
@@ -12290,6 +12474,32 @@
         "data_url": "https://www.miit.gov.cn/jgsj/ycls/xt/index.html",
         "has_api": false,
         "file_path": "china/resources/mineral/china-miit-rare-earth.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "mineral-resources": [
+      {
+        "id": "china-cgs",
+        "name": {
+          "en": "China Geological Survey (CGS)",
+          "zh": "中国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://geocloud.cgs.gov.cn",
+        "has_api": false,
+        "file_path": "countries/cn/geology/cgs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
         "geographic_scope": "national"
       }
     ],
@@ -12816,6 +13026,20 @@
         "geographic_scope": "global"
       }
     ],
+    "natural-hazards": [
+      {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
+        "geographic_scope": "national"
+      }
+    ],
     "network-architecture": [
       {
         "id": "china-imt2030",
@@ -13167,6 +13391,32 @@
         "has_api": false,
         "file_path": "international/health/africa-cdc.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "paleontology": [
+      {
+        "id": "gbif",
+        "name": {
+          "en": "Global Biodiversity Information Facility (GBIF)",
+          "zh": "全球生物多样性信息设施"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gbif.org/occurrence/search",
+        "has_api": true,
+        "file_path": "international/paleontology/gbif.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "paleobiodb",
+        "name": {
+          "en": "Paleobiology Database (PBDB)",
+          "zh": "古生物学数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://paleobiodb.org/navigator/",
+        "has_api": true,
+        "file_path": "international/paleontology/paleobiodb.json",
+        "geographic_scope": "global"
       }
     ],
     "parsing": [
@@ -17136,6 +17386,20 @@
         "geographic_scope": "national"
       }
     ],
+    "volcanoes": [
+      {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
+        "geographic_scope": "national"
+      }
+    ],
     "wages": [
       {
         "id": "us-bls",
@@ -17217,6 +17481,20 @@
         "has_api": true,
         "file_path": "international/agriculture/cgiar-research-data.json",
         "geographic_scope": "global"
+      }
+    ],
+    "water-resources": [
+      {
+        "id": "usgs",
+        "name": {
+          "en": "U.S. Geological Survey (USGS)",
+          "zh": "美国地质调查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.usgs.gov/products/data",
+        "has_api": true,
+        "file_path": "countries/us/geology/usgs.json",
+        "geographic_scope": "national"
       }
     ],
     "water_utilities": [

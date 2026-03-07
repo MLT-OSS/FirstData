@@ -1,0 +1,55 @@
+{
+  "id": "gbif",
+  "name": {
+    "en": "Global Biodiversity Information Facility (GBIF)",
+    "zh": "全球生物多样性信息设施"
+  },
+  "description": {
+    "en": "GBIF is an international network and data infrastructure providing open access to biodiversity data from around the world. It aggregates over 2.6 billion species occurrence records from thousands of institutions, including museum specimens, citizen science observations, and environmental DNA samples. Essential for research in ecology, conservation, paleontology, and evolution.",
+    "zh": "GBIF是一个国际网络和数据基础设施，提供全球生物多样性数据的开放访问。汇聚来自数千家机构的超过26亿条物种记录，包括博物馆标本、公民科学观测和环境DNA样本。是生态学、保护、古生物学和进化研究的重要资源。"
+  },
+  "website": "https://www.gbif.org",
+  "data_url": "https://www.gbif.org/occurrence/search",
+  "api_url": "https://www.gbif.org/developer/summary",
+  "country": null,
+  "domains": [
+    "biodiversity",
+    "ecology",
+    "paleontology",
+    "biology",
+    "conservation"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "biodiversity",
+    "species",
+    "ecology",
+    "conservation",
+    "specimens",
+    "citizen-science",
+    "open-data",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "Species occurrences - Over 2.6 billion georeferenced records worldwide",
+      "Taxonomy backbone - Standardized species classification and nomenclature",
+      "Museum specimens - Digitized natural history collections from global institutions",
+      "Citizen science data - Observations from platforms like iNaturalist, eBird",
+      "Environmental DNA - Metabarcoding and eDNA sampling records",
+      "Fossil records - Paleontological specimen data from natural history museums",
+      "Species checklists - Regional and thematic species inventories"
+    ],
+    "zh": [
+      "物种记录 - 全球超过26亿条地理参考记录",
+      "分类学骨架 - 标准化物种分类和命名",
+      "博物馆标本 - 全球机构数字化自然历史收藏",
+      "公民科学数据 - 来自 iNaturalist、eBird 等平台的观测",
+      "环境DNA - 宏条形码和eDNA采样记录",
+      "化石记录 - 自然历史博物馆的古生物标本数据",
+      "物种名录 - 区域和专题物种清单"
+    ]
+  },
+  "authority_level": "international"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "usgs",
+  "name": {
+    "en": "U.S. Geological Survey (USGS)",
+    "zh": "美国地质调查局"
+  },
+  "description": {
+    "en": "The U.S. Geological Survey is a scientific agency of the United States government providing reliable scientific information on natural hazards, natural resources, ecosystems, environmental health, and climate change. USGS provides extensive geospatial, geological, hydrological, and biological datasets covering earthquakes, volcanoes, minerals, water resources, and land use.",
+    "zh": "美国地质调查局是美国政府科学机构，提供有关自然灾害、自然资源、生态系统、环境健康和气候变化的可靠科学信息。USGS提供广泛的地理空间、地质、水文和生物数据集，涵盖地震、火山、矿产、水资源和土地利用。"
+  },
+  "website": "https://www.usgs.gov",
+  "data_url": "https://www.usgs.gov/products/data",
+  "api_url": "https://www.usgs.gov/products/web-tools/apis",
+  "country": "US",
+  "domains": [
+    "geology",
+    "earthquakes",
+    "volcanoes",
+    "water-resources",
+    "mineral-resources",
+    "natural-hazards",
+    "earth-science"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "geology",
+    "earthquakes",
+    "volcanoes",
+    "water",
+    "minerals",
+    "natural-hazards",
+    "geospatial",
+    "open-data",
+    "api",
+    "government-data"
+  ],
+  "data_content": {
+    "en": [
+      "Earthquake data - Real-time and historical earthquake catalog, seismic hazard maps",
+      "Volcano monitoring - Eruption alerts, volcanic activity data, ash advisories",
+      "Mineral resources - Mineral commodity data, mine locations, resource assessments",
+      "Water resources - Streamflow, groundwater, water quality monitoring",
+      "Geologic maps - National and regional geologic mapping products",
+      "Land cover / Land use - NLCD, remote sensing, land change monitoring",
+      "Natural hazards - Landslide, flood, wildfire, coastal erosion data",
+      "Topographic maps - National Map, elevation data, lidar surveys"
+    ],
+    "zh": [
+      "地震数据 - 实时和历史地震目录、地震危险性图",
+      "火山监测 - 喷发预警、火山活动数据、火山灰通报",
+      "矿产资源 - 矿产商品数据、矿点位置、资源评估",
+      "水资源 - 径流、地下水、水质监测",
+      "地质图 - 全国和区域地质制图产品",
+      "土地覆盖/利用 - 国家土地覆盖数据库、遥感、土地变化监测",
+      "自然灾害 - 滑坡、洪水、野火、海岸侵蚀数据",
+      "地形图 - 国家地图、高程数据、激光雷达测量"
+    ]
+  },
+  "authority_level": "government"
+}

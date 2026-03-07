@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-05T08:40:55.015523+00:00",
-    "total_sources": 196,
+    "generated_at": "2026-03-06T01:02:50.127824+00:00",
+    "total_sources": 200,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5821,6 +5821,62 @@
       "file_path": "countries/asia/vietnam/vietnam-mof.json"
     },
     {
+      "id": "china-cgs",
+      "name": {
+        "en": "China Geological Survey (CGS)",
+        "zh": "中国地质调查局"
+      },
+      "description": {
+        "en": "The China Geological Survey is a public institution under the Ministry of Natural Resources responsible for unified geological survey and mineral exploration nationwide. It provides authoritative geological data including geological maps, mineral resource assessments, hydrogeological surveys, geological hazard monitoring, and marine geological investigations.",
+        "zh": "中国地质调查局是自然资源部直属事业单位，负责统一管理全国地质调查和矿产勘查工作。提供权威的地质数据，包括地质图、矿产资源评估、水文地质调查、地质灾害监测和海洋地质调查。"
+      },
+      "website": "https://www.cgs.gov.cn",
+      "data_url": "https://geocloud.cgs.gov.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "geology",
+        "mineral-resources",
+        "hydrogeology",
+        "geological-hazards",
+        "marine-geology"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "tags": [
+        "geology",
+        "minerals",
+        "geological-hazards",
+        "hydrogeology",
+        "marine-geology",
+        "geologic-maps",
+        "government-data"
+      ],
+      "data_content": {
+        "en": [
+          "Geological maps - National and regional geological mapping data",
+          "Mineral resources - Mineral exploration results, resource reserves, mine locations",
+          "Geological hazards - Landslide, debris flow, ground subsidence monitoring",
+          "Hydrogeology - Groundwater surveys, water resource assessments",
+          "Marine geology - Offshore geological surveys, submarine topography",
+          "Geochemical data - Regional geochemical survey results",
+          "Remote sensing geology - Satellite-based geological interpretation"
+        ],
+        "zh": [
+          "地质图 - 全国和区域地质制图数据",
+          "矿产资源 - 矿产勘查成果、资源储量、矿点位置",
+          "地质灾害 - 滑坡、泥石流、地面沉降监测",
+          "水文地质 - 地下水调查、水资源评估",
+          "海洋地质 - 近海地质调查、海底地形",
+          "地球化学数据 - 区域地球化学调查成果",
+          "遥感地质 - 卫星地质解译"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "countries/cn/geology/cgs.json"
+    },
+    {
       "id": "bank-of-england-statistics",
       "name": {
         "en": "Bank of England Statistical Database",
@@ -7976,6 +8032,69 @@
       "authority_level": "government",
       "has_api": true,
       "file_path": "countries/south-america/brazil-ibge.json"
+    },
+    {
+      "id": "usgs",
+      "name": {
+        "en": "U.S. Geological Survey (USGS)",
+        "zh": "美国地质调查局"
+      },
+      "description": {
+        "en": "The U.S. Geological Survey is a scientific agency of the United States government providing reliable scientific information on natural hazards, natural resources, ecosystems, environmental health, and climate change. USGS provides extensive geospatial, geological, hydrological, and biological datasets covering earthquakes, volcanoes, minerals, water resources, and land use.",
+        "zh": "美国地质调查局是美国政府科学机构，提供有关自然灾害、自然资源、生态系统、环境健康和气候变化的可靠科学信息。USGS提供广泛的地理空间、地质、水文和生物数据集，涵盖地震、火山、矿产、水资源和土地利用。"
+      },
+      "website": "https://www.usgs.gov",
+      "data_url": "https://www.usgs.gov/products/data",
+      "api_url": "https://www.usgs.gov/products/web-tools/apis",
+      "country": "US",
+      "domains": [
+        "geology",
+        "earthquakes",
+        "volcanoes",
+        "water-resources",
+        "mineral-resources",
+        "natural-hazards",
+        "earth-science"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "geology",
+        "earthquakes",
+        "volcanoes",
+        "water",
+        "minerals",
+        "natural-hazards",
+        "geospatial",
+        "open-data",
+        "api",
+        "government-data"
+      ],
+      "data_content": {
+        "en": [
+          "Earthquake data - Real-time and historical earthquake catalog, seismic hazard maps",
+          "Volcano monitoring - Eruption alerts, volcanic activity data, ash advisories",
+          "Mineral resources - Mineral commodity data, mine locations, resource assessments",
+          "Water resources - Streamflow, groundwater, water quality monitoring",
+          "Geologic maps - National and regional geologic mapping products",
+          "Land cover / Land use - NLCD, remote sensing, land change monitoring",
+          "Natural hazards - Landslide, flood, wildfire, coastal erosion data",
+          "Topographic maps - National Map, elevation data, lidar surveys"
+        ],
+        "zh": [
+          "地震数据 - 实时和历史地震目录、地震危险性图",
+          "火山监测 - 喷发预警、火山活动数据、火山灰通报",
+          "矿产资源 - 矿产商品数据、矿点位置、资源评估",
+          "水资源 - 径流、地下水、水质监测",
+          "地质图 - 全国和区域地质制图产品",
+          "土地覆盖/利用 - 国家土地覆盖数据库、遥感、土地变化监测",
+          "自然灾害 - 滑坡、洪水、野火、海岸侵蚀数据",
+          "地形图 - 国家地图、高程数据、激光雷达测量"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": true,
+      "file_path": "countries/us/geology/usgs.json"
     },
     {
       "id": "cgiar-research-data",
@@ -11308,6 +11427,119 @@
       "authority_level": "international",
       "has_api": false,
       "file_path": "international/intellectual-property/wipo.json"
+    },
+    {
+      "id": "gbif",
+      "name": {
+        "en": "Global Biodiversity Information Facility (GBIF)",
+        "zh": "全球生物多样性信息设施"
+      },
+      "description": {
+        "en": "GBIF is an international network and data infrastructure providing open access to biodiversity data from around the world. It aggregates over 2.6 billion species occurrence records from thousands of institutions, including museum specimens, citizen science observations, and environmental DNA samples. Essential for research in ecology, conservation, paleontology, and evolution.",
+        "zh": "GBIF是一个国际网络和数据基础设施，提供全球生物多样性数据的开放访问。汇聚来自数千家机构的超过26亿条物种记录，包括博物馆标本、公民科学观测和环境DNA样本。是生态学、保护、古生物学和进化研究的重要资源。"
+      },
+      "website": "https://www.gbif.org",
+      "data_url": "https://www.gbif.org/occurrence/search",
+      "api_url": "https://www.gbif.org/developer/summary",
+      "country": null,
+      "domains": [
+        "biodiversity",
+        "ecology",
+        "paleontology",
+        "biology",
+        "conservation"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "tags": [
+        "biodiversity",
+        "species",
+        "ecology",
+        "conservation",
+        "specimens",
+        "citizen-science",
+        "open-data",
+        "api"
+      ],
+      "data_content": {
+        "en": [
+          "Species occurrences - Over 2.6 billion georeferenced records worldwide",
+          "Taxonomy backbone - Standardized species classification and nomenclature",
+          "Museum specimens - Digitized natural history collections from global institutions",
+          "Citizen science data - Observations from platforms like iNaturalist, eBird",
+          "Environmental DNA - Metabarcoding and eDNA sampling records",
+          "Fossil records - Paleontological specimen data from natural history museums",
+          "Species checklists - Regional and thematic species inventories"
+        ],
+        "zh": [
+          "物种记录 - 全球超过26亿条地理参考记录",
+          "分类学骨架 - 标准化物种分类和命名",
+          "博物馆标本 - 全球机构数字化自然历史收藏",
+          "公民科学数据 - 来自 iNaturalist、eBird 等平台的观测",
+          "环境DNA - 宏条形码和eDNA采样记录",
+          "化石记录 - 自然历史博物馆的古生物标本数据",
+          "物种名录 - 区域和专题物种清单"
+        ]
+      },
+      "authority_level": "international",
+      "has_api": true,
+      "file_path": "international/paleontology/gbif.json"
+    },
+    {
+      "id": "paleobiodb",
+      "name": {
+        "en": "Paleobiology Database (PBDB)",
+        "zh": "古生物学数据库"
+      },
+      "description": {
+        "en": "The Paleobiology Database is a public resource for paleontological data, providing information on the fossil record of plants, animals, and microorganisms. It contains over 1.5 million fossil occurrences from more than 80,000 collections worldwide, spanning the entire Phanerozoic eon. The database supports research on biodiversity, extinction, evolution, and paleoecology.",
+        "zh": "古生物学数据库是古生物数据的公共资源，提供植物、动物和微生物的化石记录信息。包含全球超过80,000个采集点的150多万条化石记录，时间跨度涵盖整个显生宙。支持生物多样性、灭绝、进化和古生态学研究。"
+      },
+      "website": "https://paleobiodb.org",
+      "data_url": "https://paleobiodb.org/navigator/",
+      "api_url": "https://paleobiodb.org/data1.2/",
+      "country": null,
+      "domains": [
+        "paleontology",
+        "biology",
+        "geology",
+        "evolution"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "weekly",
+      "tags": [
+        "paleontology",
+        "fossils",
+        "biodiversity",
+        "evolution",
+        "extinction",
+        "stratigraphy",
+        "open-data",
+        "api"
+      ],
+      "data_content": {
+        "en": [
+          "Fossil occurrences - Over 1.5 million records with taxonomic, geographic, and stratigraphic data",
+          "Taxonomic database - Classification of fossil organisms across all major groups",
+          "Geologic time scale - Temporal framework for fossil record analysis",
+          "Paleogeographic data - Ancient plate positions and continental configurations",
+          "Collection records - Locality, lithology, and environmental information",
+          "Diversity curves - Biodiversity trends through geological time",
+          "Mass extinction data - Records of major extinction events"
+        ],
+        "zh": [
+          "化石记录 - 超过150万条含分类学、地理和地层信息的记录",
+          "分类数据库 - 所有主要类群化石生物的分类",
+          "地质年代表 - 化石记录分析的时间框架",
+          "古地理数据 - 古板块位置和大陆构型",
+          "采集记录 - 产地、岩性和环境信息",
+          "多样性曲线 - 地质时期生物多样性趋势",
+          "大灭绝数据 - 主要灭绝事件记录"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": true,
+      "file_path": "international/paleontology/paleobiodb.json"
     },
     {
       "id": "bipm-kcdb",

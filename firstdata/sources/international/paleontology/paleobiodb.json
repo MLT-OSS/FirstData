@@ -1,0 +1,54 @@
+{
+  "id": "paleobiodb",
+  "name": {
+    "en": "Paleobiology Database (PBDB)",
+    "zh": "古生物学数据库"
+  },
+  "description": {
+    "en": "The Paleobiology Database is a public resource for paleontological data, providing information on the fossil record of plants, animals, and microorganisms. It contains over 1.5 million fossil occurrences from more than 80,000 collections worldwide, spanning the entire Phanerozoic eon. The database supports research on biodiversity, extinction, evolution, and paleoecology.",
+    "zh": "古生物学数据库是古生物数据的公共资源，提供植物、动物和微生物的化石记录信息。包含全球超过80,000个采集点的150多万条化石记录，时间跨度涵盖整个显生宙。支持生物多样性、灭绝、进化和古生态学研究。"
+  },
+  "website": "https://paleobiodb.org",
+  "data_url": "https://paleobiodb.org/navigator/",
+  "api_url": "https://paleobiodb.org/data1.2/",
+  "country": null,
+  "domains": [
+    "paleontology",
+    "biology",
+    "geology",
+    "evolution"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "weekly",
+  "tags": [
+    "paleontology",
+    "fossils",
+    "biodiversity",
+    "evolution",
+    "extinction",
+    "stratigraphy",
+    "open-data",
+    "api"
+  ],
+  "data_content": {
+    "en": [
+      "Fossil occurrences - Over 1.5 million records with taxonomic, geographic, and stratigraphic data",
+      "Taxonomic database - Classification of fossil organisms across all major groups",
+      "Geologic time scale - Temporal framework for fossil record analysis",
+      "Paleogeographic data - Ancient plate positions and continental configurations",
+      "Collection records - Locality, lithology, and environmental information",
+      "Diversity curves - Biodiversity trends through geological time",
+      "Mass extinction data - Records of major extinction events"
+    ],
+    "zh": [
+      "化石记录 - 超过150万条含分类学、地理和地层信息的记录",
+      "分类数据库 - 所有主要类群化石生物的分类",
+      "地质年代表 - 化石记录分析的时间框架",
+      "古地理数据 - 古板块位置和大陆构型",
+      "采集记录 - 产地、岩性和环境信息",
+      "多样性曲线 - 地质时期生物多样性趋势",
+      "大灭绝数据 - 主要灭绝事件记录"
+    ]
+  },
+  "authority_level": "research"
+}

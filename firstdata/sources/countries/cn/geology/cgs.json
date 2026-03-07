@@ -1,0 +1,54 @@
+{
+  "id": "china-cgs",
+  "name": {
+    "en": "China Geological Survey (CGS)",
+    "zh": "中国地质调查局"
+  },
+  "description": {
+    "en": "The China Geological Survey is a public institution under the Ministry of Natural Resources responsible for unified geological survey and mineral exploration nationwide. It provides authoritative geological data including geological maps, mineral resource assessments, hydrogeological surveys, geological hazard monitoring, and marine geological investigations.",
+    "zh": "中国地质调查局是自然资源部直属事业单位，负责统一管理全国地质调查和矿产勘查工作。提供权威的地质数据，包括地质图、矿产资源评估、水文地质调查、地质灾害监测和海洋地质调查。"
+  },
+  "website": "https://www.cgs.gov.cn",
+  "data_url": "https://geocloud.cgs.gov.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "geology",
+    "mineral-resources",
+    "hydrogeology",
+    "geological-hazards",
+    "marine-geology"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "geology",
+    "minerals",
+    "geological-hazards",
+    "hydrogeology",
+    "marine-geology",
+    "geologic-maps",
+    "government-data"
+  ],
+  "data_content": {
+    "en": [
+      "Geological maps - National and regional geological mapping data",
+      "Mineral resources - Mineral exploration results, resource reserves, mine locations",
+      "Geological hazards - Landslide, debris flow, ground subsidence monitoring",
+      "Hydrogeology - Groundwater surveys, water resource assessments",
+      "Marine geology - Offshore geological surveys, submarine topography",
+      "Geochemical data - Regional geochemical survey results",
+      "Remote sensing geology - Satellite-based geological interpretation"
+    ],
+    "zh": [
+      "地质图 - 全国和区域地质制图数据",
+      "矿产资源 - 矿产勘查成果、资源储量、矿点位置",
+      "地质灾害 - 滑坡、泥石流、地面沉降监测",
+      "水文地质 - 地下水调查、水资源评估",
+      "海洋地质 - 近海地质调查、海底地形",
+      "地球化学数据 - 区域地球化学调查成果",
+      "遥感地质 - 卫星地质解译"
+    ]
+  },
+  "authority_level": "government"
+}
