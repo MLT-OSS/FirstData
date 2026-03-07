@@ -1,0 +1,60 @@
+{
+  "id": "china-nhc",
+  "name": {
+    "en": "National Health Commission of China",
+    "zh": "国家卫生健康委员会",
+    "native": "国家卫生健康委员会"
+  },
+  "description": {
+    "en": "The National Health Commission (NHC) of China is the government body responsible for national health administration. It publishes comprehensive health statistics including population health indicators, disease surveillance, medical resources, maternal and child health, chronic disease prevalence, and public health emergency data through its statistical information center.",
+    "zh": "国家卫生健康委员会是负责全国卫生健康工作的国务院组成部门。通过统计信息中心发布综合性卫生健康统计数据，包括人口健康指标、疾病监测、卫生资源、妇幼健康、慢性病患病率及突发公共卫生事件数据。"
+  },
+  "website": "https://www.nhc.gov.cn",
+  "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "health",
+    "demographics",
+    "epidemiology",
+    "social"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "nhc",
+    "health",
+    "healthcare",
+    "medical",
+    "disease",
+    "public health",
+    "卫生健康",
+    "国家卫健委",
+    "卫生统计",
+    "疾病监测",
+    "医疗资源",
+    "妇幼健康"
+  ],
+  "data_content": {
+    "en": [
+      "China Health Statistical Yearbook - Comprehensive annual health statistics",
+      "Medical Resources - Number of hospitals, beds, health workers by region",
+      "Disease Surveillance - Notifiable infectious disease reports and monitoring",
+      "Maternal and Child Health - Maternal mortality, infant mortality, birth rates",
+      "Chronic Disease Statistics - Prevalence of hypertension, diabetes, cancer",
+      "Health Expenditure - National and household health spending data",
+      "Life Expectancy - Population health indicators by province and age group"
+    ],
+    "zh": [
+      "中国卫生健康统计年鉴 - 全面的年度卫生健康统计数据",
+      "卫生资源 - 按地区分类的医院数量、床位数、卫生工作者统计",
+      "疾病监测 - 法定传染病报告与监测数据",
+      "妇幼健康 - 孕产妇死亡率、婴儿死亡率、出生率",
+      "慢性病统计 - 高血压、糖尿病、癌症患病率",
+      "卫生费用 - 全国及居民卫生支出数据",
+      "人均预期寿命 - 按省份和年龄段分类的人口健康指标"
+    ]
+  },
+  "authority_level": "government"
+}
