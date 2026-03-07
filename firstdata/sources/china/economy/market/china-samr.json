@@ -1,0 +1,62 @@
+{
+  "id": "china-samr",
+  "name": {
+    "en": "State Administration for Market Regulation",
+    "zh": "国家市场监督管理总局",
+    "native": "国家市场监督管理总局"
+  },
+  "description": {
+    "en": "The State Administration for Market Regulation (SAMR) is China's primary market regulator responsible for business registration, anti-monopoly enforcement, product quality supervision, food safety, and consumer protection. It publishes statistics on enterprise registration, market supervision, quality certification, and food and drug safety across China.",
+    "zh": "国家市场监督管理总局是中国主要的市场监管机构，负责企业登记注册、反垄断执法、产品质量监督、食品安全和消费者保护。发布全国企业登记注册、市场监管、质量认证、食品药品安全等统计数据。"
+  },
+  "website": "https://www.samr.gov.cn",
+  "data_url": "https://www.samr.gov.cn/zw/tjsj/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "economics",
+    "industry",
+    "social",
+    "trade"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "samr",
+    "market regulation",
+    "enterprise registration",
+    "business registration",
+    "quality",
+    "food safety",
+    "anti-monopoly",
+    "consumer protection",
+    "市场监管",
+    "市场监管总局",
+    "企业登记",
+    "质量统计",
+    "食品安全",
+    "工商登记"
+  ],
+  "data_content": {
+    "en": [
+      "Enterprise Registration Statistics - Number of registered businesses by type, industry, and region",
+      "Market Supervision Reports - Annual reports on market order and law enforcement",
+      "Product Quality Statistics - Quality inspection results, certification data",
+      "Food Safety Annual Report - Food safety supervision and sampling statistics",
+      "Anti-Monopoly Enforcement - Merger reviews and monopoly case statistics",
+      "Consumer Complaint Statistics - Consumer rights protection and complaint resolution data",
+      "Special Equipment Safety - Statistics on boilers, pressure vessels, lifts, and other special equipment"
+    ],
+    "zh": [
+      "企业登记注册统计 - 按类型、行业和地区分类的注册企业数量",
+      "市场监管报告 - 市场秩序和执法年度报告",
+      "产品质量统计 - 质量检验结果、认证数据",
+      "食品安全年报 - 食品安全监督和抽检统计",
+      "反垄断执法 - 经营者集中审查和垄断案件统计",
+      "消费者投诉统计 - 消费者权益保护和投诉处理数据",
+      "特种设备安全 - 锅炉、压力容器、电梯等特种设备统计"
+    ]
+  },
+  "authority_level": "government"
+}
