@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-06T01:02:50.127824+00:00",
+    "generated_at": "2026-03-07T04:10:08.979203+00:00",
     "total_domains": 681,
-    "total_sources": 200,
+    "total_sources": 204,
     "version": "2.0"
   },
   "domains": {
@@ -260,6 +260,18 @@
       }
     ],
     "agriculture": [
+      {
+        "id": "china-moa",
+        "name": {
+          "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
+          "zh": "中华人民共和国农业农村部农业统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.moa.gov.cn/nybgb/",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-moa.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-nbs",
         "name": {
@@ -3599,6 +3611,19 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-nhc",
+        "name": {
+          "en": "National Health Commission of China",
+          "zh": "国家卫生健康委员会",
+          "native": "国家卫生健康委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
+        "has_api": false,
+        "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ceic-china-urbanization",
         "name": {
           "en": "CEIC Data - China Urbanization Rate",
@@ -4738,6 +4763,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-moa",
+        "name": {
+          "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
+          "zh": "中华人民共和国农业农村部农业统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.moa.gov.cn/nybgb/",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-moa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mohrss",
         "name": {
           "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
@@ -4772,6 +4809,19 @@
         "data_url": "https://www.ndrc.gov.cn/fgsj/",
         "has_api": false,
         "file_path": "china/economy/macro/ndrc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-samr",
+        "name": {
+          "en": "State Administration for Market Regulation",
+          "zh": "国家市场监督管理总局",
+          "native": "国家市场监督管理总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.samr.gov.cn/zw/sj/sjzx/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-samr.json",
         "geographic_scope": "national"
       },
       {
@@ -6452,6 +6502,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-mwr",
+        "name": {
+          "en": "Ministry of Water Resources of China - Water Resources Statistics",
+          "zh": "中华人民共和国水利部水资源统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.mwr.gov.cn/sj/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-mwr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -6874,6 +6936,19 @@
         "has_api": true,
         "file_path": "academic/health/ghdx.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-nhc",
+        "name": {
+          "en": "National Health Commission of China",
+          "zh": "国家卫生健康委员会",
+          "native": "国家卫生健康委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
+        "has_api": false,
+        "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
       },
       {
         "id": "us-cdc",
@@ -9113,6 +9188,19 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-nhc",
+        "name": {
+          "en": "National Health Commission of China",
+          "zh": "国家卫生健康委员会",
+          "native": "国家卫生健康委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
+        "has_api": false,
+        "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "philippines-psa",
         "name": {
           "en": "Philippine Statistics Authority",
@@ -10072,6 +10160,19 @@
     ],
     "industry": [
       {
+        "id": "china-samr",
+        "name": {
+          "en": "State Administration for Market Regulation",
+          "zh": "国家市场监督管理总局",
+          "native": "国家市场监督管理总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.samr.gov.cn/zw/sj/sjzx/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-samr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nbs",
         "name": {
           "en": "National Bureau of Statistics of China",
@@ -10443,6 +10544,18 @@
         "data_url": "https://www.mot.gov.cn/shuju/",
         "has_api": false,
         "file_path": "china/infrastructure/china-mot.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mwr",
+        "name": {
+          "en": "Ministry of Water Resources of China - Water Resources Statistics",
+          "zh": "中华人民共和国水利部水资源统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.mwr.gov.cn/sj/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-mwr.json",
         "geographic_scope": "national"
       },
       {
@@ -15367,6 +15480,32 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-samr",
+        "name": {
+          "en": "State Administration for Market Regulation",
+          "zh": "国家市场监督管理总局",
+          "native": "国家市场监督管理总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.samr.gov.cn/zw/sj/sjzx/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-samr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nhc",
+        "name": {
+          "en": "National Health Commission of China",
+          "zh": "国家卫生健康委员会",
+          "native": "国家卫生健康委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
+        "has_api": false,
+        "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ceic-china-urbanization",
         "name": {
           "en": "CEIC Data - China Urbanization Rate",
@@ -15931,6 +16070,18 @@
     ],
     "statistics": [
       {
+        "id": "china-moa",
+        "name": {
+          "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
+          "zh": "中华人民共和国农业农村部农业统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.moa.gov.cn/nybgb/",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-moa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-moe-higher-education",
         "name": {
           "en": "Ministry of Education of China - Higher Education Statistics",
@@ -15940,6 +16091,18 @@
         "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
         "has_api": false,
         "file_path": "china/education/higher_education/china-moe-higher-education.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mwr",
+        "name": {
+          "en": "Ministry of Water Resources of China - Water Resources Statistics",
+          "zh": "中华人民共和国水利部水资源统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.mwr.gov.cn/sj/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-mwr.json",
         "geographic_scope": "national"
       },
       {
@@ -16625,6 +16788,19 @@
         "has_api": false,
         "file_path": "academic/economics/ggdc-databases.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-samr",
+        "name": {
+          "en": "State Administration for Market Regulation",
+          "zh": "国家市场监督管理总局",
+          "native": "国家市场监督管理总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.samr.gov.cn/zw/sj/sjzx/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-samr.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-customs",

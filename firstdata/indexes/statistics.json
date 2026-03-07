@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "generated_at": "2026-03-06T01:02:50.127824+00:00",
+    "generated_at": "2026-03-07T04:10:08.979203+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 200,
+    "total_sources": 204,
     "sources_with_api": 93,
-    "last_updated": "2026-03-06"
+    "last_updated": "2026-03-07"
   },
   "by_authority_level": {
     "research": 31,
     "international": 53,
-    "government": 85,
+    "government": 89,
     "commercial": 15,
     "market": 15,
     "other": 1
   },
   "by_geographic_scope": {
     "global": 78,
-    "national": 101,
+    "national": 105,
     "regional": 21
   },
   "by_update_frequency": {
@@ -27,26 +27,26 @@
     "weekly": 9,
     "quarterly": 23,
     "monthly": 43,
-    "annual": 34,
+    "annual": 38,
     "real-time": 10
   },
   "by_domain": {
-    "economics": 52,
+    "economics": 54,
     "finance": 31,
-    "trade": 28,
+    "trade": 29,
+    "health": 26,
     "education": 26,
-    "health": 25,
-    "agriculture": 24,
-    "environment": 23,
-    "demographics": 17,
-    "social": 14,
-    "infrastructure": 13,
+    "agriculture": 25,
+    "environment": 24,
+    "demographics": 18,
+    "social": 16,
+    "infrastructure": 14,
     "energy": 13,
     "development": 12,
     "technology": 12,
     "employment": 10,
+    "industry": 10,
     "banking": 9,
-    "industry": 9,
     "manufacturing": 9,
     "population": 8,
     "housing": 8,
@@ -59,7 +59,9 @@
     "climate change": 7,
     "social development": 7,
     "bioinformatics": 6,
+    "epidemiology": 6,
     "construction": 6,
+    "statistics": 6,
     "investment": 6,
     "prices": 6,
     "monetary_policy": 6,
@@ -70,7 +72,6 @@
     "commodities": 6,
     "drug discovery": 5,
     "molecular biology": 5,
-    "epidemiology": 5,
     "chemistry": 5,
     "materials science": 5,
     "foreign exchange": 5,
@@ -84,7 +85,6 @@
     "derivatives": 4,
     "productivity": 4,
     "standards": 4,
-    "statistics": 4,
     "electronics": 4,
     "economic statistics": 4,
     "national accounts": 4,
