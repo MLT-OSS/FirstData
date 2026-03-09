@@ -1,0 +1,62 @@
+{
+  "id": "china-safe",
+  "name": {
+    "en": "State Administration of Foreign Exchange of China",
+    "zh": "国家外汇管理局",
+    "native": "国家外汇管理局"
+  },
+  "description": {
+    "en": "The State Administration of Foreign Exchange (SAFE) is China's foreign exchange regulatory authority responsible for drafting regulations on foreign exchange market supervision and managing China's foreign exchange reserves. It publishes authoritative statistics on foreign exchange reserves, balance of payments, international investment position, cross-border capital flows, and exchange rate data.",
+    "zh": "国家外汇管理局（外汇局）是中国外汇市场的监管机构，负责管理国家外汇储备。发布外汇储备规模、国际收支、国际投资头寸、跨境资本流动和汇率等权威统计数据。"
+  },
+  "website": "http://www.safe.gov.cn",
+  "data_url": "http://www.safe.gov.cn/safe/tjsj/index.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "economics",
+    "international_trade"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "authority_level": "government",
+  "tags": [
+    "china",
+    "foreign-exchange",
+    "forex",
+    "reserves",
+    "balance-of-payments",
+    "international-investment",
+    "cross-border",
+    "capital-flows",
+    "exchange-rate",
+    "外汇",
+    "外汇储备",
+    "国际收支",
+    "跨境资本",
+    "人民币"
+  ],
+  "data_content": {
+    "en": [
+      "Foreign Exchange Reserves - Monthly data on China's official foreign exchange reserve levels",
+      "Balance of Payments - Current account, capital account, and financial account statistics",
+      "International Investment Position - China's external assets and liabilities",
+      "Cross-border Capital Flows - FDI inflows/outflows, portfolio investment, and other capital flows",
+      "Exchange Rate Data - RMB central parity rates and exchange rate statistics",
+      "Foreign Exchange Market - Trading volumes and market structure data",
+      "Banks' Foreign Exchange Assets and Liabilities - Banking sector foreign exchange positions",
+      "External Debt Statistics - China's total external debt by sector and maturity"
+    ],
+    "zh": [
+      "外汇储备规模 - 中国官方外汇储备月度数据",
+      "国际收支 - 经常账户、资本账户和金融账户统计",
+      "国际投资头寸 - 中国对外资产和负债状况",
+      "跨境资本流动 - 外商直接投资、证券投资和其他资本流动",
+      "汇率数据 - 人民币中间价和汇率统计",
+      "外汇市场 - 外汇市场交易量和市场结构数据",
+      "银行业外汇资产负债 - 银行业外汇头寸",
+      "外债统计 - 按部门和期限分类的中国外债总量"
+    ]
+  }
+}

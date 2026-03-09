@@ -1,0 +1,65 @@
+{
+  "id": "china-sse",
+  "name": {
+    "en": "Shanghai Stock Exchange",
+    "zh": "上海证券交易所",
+    "native": "上海证券交易所"
+  },
+  "description": {
+    "en": "The Shanghai Stock Exchange (SSE) is one of China's two major stock exchanges and one of the largest in the world by market capitalization. It provides comprehensive real-time and historical market data including equity trading, bond markets, funds, derivatives, and company disclosure information. SSE hosts the main board and the STAR Market (Science and Technology Innovation Board) for high-tech enterprises.",
+    "zh": "上海证券交易所（上交所）是中国两大证券交易所之一，也是全球市值最大的证券交易所之一。提供股票交易、债券市场、基金、衍生品及上市公司信息披露的全面实时和历史市场数据。上交所设有主板和面向科创企业的科创板。"
+  },
+  "website": "http://www.sse.com.cn",
+  "data_url": "http://www.sse.com.cn/market/stockdata/statistic/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "securities",
+    "capital_markets"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "authority_level": "market",
+  "tags": [
+    "china",
+    "stock-exchange",
+    "shanghai",
+    "A-shares",
+    "equities",
+    "bonds",
+    "ETF",
+    "STAR-market",
+    "market-data",
+    "listed-companies",
+    "securities",
+    "上交所",
+    "上海证券交易所",
+    "A股",
+    "股票",
+    "科创板",
+    "债券"
+  ],
+  "data_content": {
+    "en": [
+      "Equity Market Statistics - Daily trading volume, market capitalization, and price indices (SSE Composite, SSE 50, SSE 180)",
+      "Listed Companies - Total number, sector breakdown, financial disclosures, and annual reports",
+      "Bond Market - Government bonds, corporate bonds, convertible bonds trading data",
+      "Fund Market - ETFs, mutual funds, REITs listing and trading statistics",
+      "STAR Market - Science and Technology Innovation Board company listings and trading data",
+      "Derivatives - Stock options trading volumes and open interest",
+      "Market Overview - Total accounts, investor structure, and market activity",
+      "Historical Data - Daily, monthly, and annual historical market statistics"
+    ],
+    "zh": [
+      "股票市场统计 - 日交易量、市值和价格指数（上证综指、上证50、上证180）",
+      "上市公司 - 总数、行业分布、财务披露和年报",
+      "债券市场 - 国债、公司债、可转债交易数据",
+      "基金市场 - ETF、公募基金、REITs上市和交易统计",
+      "科创板 - 科技创新企业上市和交易数据",
+      "衍生品 - 股票期权交易量和持仓量",
+      "市场概况 - 账户总数、投资者结构和市场活跃度",
+      "历史数据 - 每日、每月、每年历史市场统计数据"
+    ]
+  }
+}
