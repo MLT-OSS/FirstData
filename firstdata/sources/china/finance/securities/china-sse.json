@@ -9,14 +9,13 @@
     "en": "The Shanghai Stock Exchange (SSE) is one of China's two major stock exchanges and one of the largest in the world by market capitalization. It provides comprehensive real-time and historical market data including equity trading, bond markets, funds, derivatives, and company disclosure information. SSE hosts the main board and the STAR Market (Science and Technology Innovation Board) for high-tech enterprises.",
     "zh": "上海证券交易所（上交所）是中国两大证券交易所之一，也是全球市值最大的证券交易所之一。提供股票交易、债券市场、基金、衍生品及上市公司信息披露的全面实时和历史市场数据。上交所设有主板和面向科创企业的科创板。"
   },
-  "website": "http://www.sse.com.cn",
-  "data_url": "http://www.sse.com.cn/market/stockdata/statistic/",
+  "website": "https://www.sse.com.cn",
+  "data_url": "https://www.sse.com.cn/market/stockdata/statistic/",
   "api_url": null,
   "country": "CN",
   "domains": [
     "finance",
-    "securities",
-    "capital_markets"
+    "securities"
   ],
   "geographic_scope": "national",
   "update_frequency": "daily",
