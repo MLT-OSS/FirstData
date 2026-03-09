@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-09T02:57:34.462668+00:00",
+    "generated_at": "2026-03-09T10:44:18.474748+00:00",
     "total_sources": 208,
     "version": "2.0",
     "schema_version": "v2.0.0"
@@ -3151,14 +3151,14 @@
         "en": "The State Administration of Foreign Exchange (SAFE) is China's foreign exchange regulatory authority responsible for drafting regulations on foreign exchange market supervision and managing China's foreign exchange reserves. It publishes authoritative statistics on foreign exchange reserves, balance of payments, international investment position, cross-border capital flows, and exchange rate data.",
         "zh": "国家外汇管理局（外汇局）是中国外汇市场的监管机构，负责管理国家外汇储备。发布外汇储备规模、国际收支、国际投资头寸、跨境资本流动和汇率等权威统计数据。"
       },
-      "website": "http://www.safe.gov.cn",
-      "data_url": "http://www.safe.gov.cn/safe/tjsj/index.html",
+      "website": "https://www.safe.gov.cn",
+      "data_url": "https://www.safe.gov.cn/safe/tjsj1/index.html",
       "api_url": null,
       "country": "CN",
       "domains": [
         "finance",
         "economics",
-        "international_trade"
+        "trade"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -3215,14 +3215,13 @@
         "en": "The Shanghai Stock Exchange (SSE) is one of China's two major stock exchanges and one of the largest in the world by market capitalization. It provides comprehensive real-time and historical market data including equity trading, bond markets, funds, derivatives, and company disclosure information. SSE hosts the main board and the STAR Market (Science and Technology Innovation Board) for high-tech enterprises.",
         "zh": "上海证券交易所（上交所）是中国两大证券交易所之一，也是全球市值最大的证券交易所之一。提供股票交易、债券市场、基金、衍生品及上市公司信息披露的全面实时和历史市场数据。上交所设有主板和面向科创企业的科创板。"
       },
-      "website": "http://www.sse.com.cn",
-      "data_url": "http://www.sse.com.cn/market/stockdata/statistic/",
+      "website": "https://www.sse.com.cn",
+      "data_url": "https://www.sse.com.cn/market/stockdata/statistic/",
       "api_url": null,
       "country": "CN",
       "domains": [
         "finance",
-        "securities",
-        "capital_markets"
+        "securities"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -3416,8 +3415,7 @@
       "country": "CN",
       "domains": [
         "finance",
-        "securities",
-        "capital_markets"
+        "securities"
       ],
       "geographic_scope": "national",
       "update_frequency": "daily",
@@ -4446,14 +4444,13 @@
         "zh": "中国互联网络信息中心（CNNIC）是工业和信息化部下属的国家互联网络信息中心。每年发布两次《中国互联网络发展状况统计报告》，覆盖中国网民规模、宽带普及率、移动互联网、电子商务、网络服务和域名注册统计数据。"
       },
       "website": "https://www.cnnic.cn",
-      "data_url": "https://www.cnnic.cn/hlwfzyj/hlwxzbg/",
+      "data_url": "https://www.cnnic.cn/11/38/326/index.html",
       "api_url": null,
       "authority_level": "government",
       "country": "CN",
       "domains": [
         "technology",
-        "telecommunications",
-        "digital_economy"
+        "telecommunications"
       ],
       "geographic_scope": "national",
       "update_frequency": "irregular",
