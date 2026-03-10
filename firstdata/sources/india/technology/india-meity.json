@@ -1,0 +1,20 @@
+{
+  "id": "india-meity",
+  "name": {
+    "en": "Ministry of Electronics and Information Technology of India",
+    "zh": "印度电子和信息技术部"
+  },
+  "description": {
+    "en": "MeitY is the Indian government ministry responsible for IT policy, electronics manufacturing (including PLI scheme), digital governance, and cybersecurity. It publishes data on electronics production, exports, and digital infrastructure.",
+    "zh": "印度电子和信息技术部是负责IT政策、电子制造（包括PLI计划）、数字治理和网络安全的印度政府部门。发布电子产品生产、出口和数字基础设施数据。"
+  },
+  "website": "https://www.meity.gov.in",
+  "data_url": "https://www.meity.gov.in/content/annual-report",
+  "country": "IN",
+  "domains": ["technology", "manufacturing", "trade"],
+  "tags": ["electronics", "IT-policy", "PLI-scheme", "digital-governance"],
+  "authority_level": "government",
+  "update_frequency": "annual",
+  "access_level": "free",
+  "has_api": false
+}

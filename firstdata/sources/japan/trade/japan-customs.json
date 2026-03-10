@@ -1,0 +1,22 @@
+{
+  "id": "japan-customs",
+  "name": {
+    "en": "Japan Customs Trade Statistics",
+    "zh": "日本财务省贸易统计",
+    "native": "貿易統計"
+  },
+  "description": {
+    "en": "Trade Statistics of Japan, compiled by the Ministry of Finance, provides detailed import and export data by commodity, country, and customs district. Covers all goods crossing Japanese borders.",
+    "zh": "日本贸易统计由财务省编制，提供按商品、国家和海关辖区分类的详细进出口数据。覆盖所有进出日本国境的商品。"
+  },
+  "website": "https://www.customs.go.jp",
+  "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
+  "api_url": "https://www.e-stat.go.jp/api/",
+  "country": "JP",
+  "domains": ["trade", "economics"],
+  "tags": ["customs", "imports", "exports", "trade-statistics"],
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "access_level": "free",
+  "has_api": true
+}

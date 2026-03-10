@@ -1,0 +1,21 @@
+{
+  "id": "china-gacc",
+  "name": {
+    "en": "General Administration of Customs of China",
+    "zh": "中华人民共和国海关总署",
+    "native": "中华人民共和国海关总署"
+  },
+  "description": {
+    "en": "The General Administration of Customs (GACC) is responsible for China's customs administration. It publishes detailed import/export statistics by HS code, country, and commodity category.",
+    "zh": "海关总署是中国海关管理的主管机构。发布按HS编码、国家和商品类别分类的详细进出口统计数据。"
+  },
+  "website": "https://www.customs.gov.cn",
+  "data_url": "https://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html",
+  "country": "CN",
+  "domains": ["trade", "economics"],
+  "tags": ["customs", "imports", "exports", "HS-code", "trade-statistics"],
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "access_level": "free",
+  "has_api": false
+}

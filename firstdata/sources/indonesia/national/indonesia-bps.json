@@ -1,0 +1,22 @@
+{
+  "id": "indonesia-bps",
+  "name": {
+    "en": "Statistics Indonesia",
+    "zh": "印度尼西亚统计局",
+    "native": "Badan Pusat Statistik"
+  },
+  "description": {
+    "en": "BPS-Statistics Indonesia is the government agency responsible for statistical activities in Indonesia. It provides data on GDP, population, trade, manufacturing, and social indicators.",
+    "zh": "印度尼西亚中央统计局是印尼负责统计活动的政府机构。提供GDP、人口、贸易、制造业和社会指标数据。"
+  },
+  "website": "https://www.bps.go.id",
+  "data_url": "https://www.bps.go.id/en/statistics-table",
+  "api_url": "https://webapi.bps.go.id/developer/",
+  "country": "ID",
+  "domains": ["economics", "demographics", "trade", "manufacturing"],
+  "tags": ["statistics", "GDP", "population", "industry"],
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "access_level": "free",
+  "has_api": true
+}

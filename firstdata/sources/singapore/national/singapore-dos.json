@@ -1,0 +1,21 @@
+{
+  "id": "singapore-dos",
+  "name": {
+    "en": "Department of Statistics Singapore",
+    "zh": "新加坡统计局"
+  },
+  "description": {
+    "en": "The Department of Statistics Singapore (DOS) is the national statistical authority providing official statistics on population, economy, trade, digital economy, and social indicators.",
+    "zh": "新加坡统计局是新加坡国家统计机构，提供人口、经济、贸易、数字经济和社会指标的官方统计数据。"
+  },
+  "website": "https://www.singstat.gov.sg",
+  "data_url": "https://www.singstat.gov.sg/find-data",
+  "api_url": "https://tablebuilder.singstat.gov.sg/api",
+  "country": "SG",
+  "domains": ["economics", "demographics", "trade", "technology"],
+  "tags": ["statistics", "GDP", "population", "digital-economy"],
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "access_level": "free",
+  "has_api": true
+}

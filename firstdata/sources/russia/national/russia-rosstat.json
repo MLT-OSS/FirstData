@@ -1,0 +1,21 @@
+{
+  "id": "russia-rosstat",
+  "name": {
+    "en": "Federal State Statistics Service of Russia",
+    "zh": "俄罗斯联邦统计局",
+    "native": "Федеральная служба государственной статистики"
+  },
+  "description": {
+    "en": "Rosstat is the Russian government agency responsible for official statistics. It provides data on GDP, demographics, trade, industrial production, e-commerce, and retail.",
+    "zh": "俄罗斯联邦统计局是俄罗斯政府负责官方统计数据的机构。提供GDP、人口、贸易、工业生产、电子商务和零售等数据。"
+  },
+  "website": "https://rosstat.gov.ru",
+  "data_url": "https://rosstat.gov.ru/statistic",
+  "country": "RU",
+  "domains": ["economics", "demographics", "trade", "industry"],
+  "tags": ["statistics", "GDP", "population", "e-commerce", "retail"],
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "access_level": "free",
+  "has_api": false
+}

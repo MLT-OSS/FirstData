@@ -1,0 +1,31 @@
+{
+  "id": "asean-stats",
+  "name": {
+    "en": "ASEAN Statistics",
+    "zh": "东盟统计局",
+    "native": "ASEANstats"
+  },
+  "description": {
+    "en": "ASEANstats is the statistical division of the ASEAN Secretariat, providing harmonized statistics on trade, investment, tourism, demographics, and economic indicators for the 10 ASEAN member states.",
+    "zh": "东盟统计局是东盟秘书处的统计部门，提供10个东盟成员国贸易、投资、旅游、人口和经济指标的统一口径统计数据。"
+  },
+  "website": "https://www.aseanstats.org",
+  "data_url": "https://data.aseanstats.org",
+  "country": null,
+  "domains": [
+    "economics",
+    "trade",
+    "demographics",
+    "tourism"
+  ],
+  "tags": [
+    "ASEAN",
+    "regional-statistics",
+    "trade",
+    "investment"
+  ],
+  "authority_level": "international",
+  "update_frequency": "annual",
+  "access_level": "free",
+  "has_api": false
+}
