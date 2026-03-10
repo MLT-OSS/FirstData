@@ -1,0 +1,62 @@
+{
+  "id": "china-caac",
+  "name": {
+    "en": "Civil Aviation Administration of China",
+    "zh": "中国民用航空局",
+    "native": "中国民用航空局"
+  },
+  "description": {
+    "en": "The Civil Aviation Administration of China (CAAC) is the government body responsible for civil aviation regulation and oversight in China. It publishes comprehensive civil aviation statistics including passenger and freight traffic, airline operations, airport throughput, flight safety records, and industry development data.",
+    "zh": "中国民用航空局（CAAC）是负责中国民用航空监管和管理的政府机构。发布全面的民航统计数据，包括旅客和货邮运输量、航空公司运营、机场吞吐量、飞行安全记录和行业发展数据。"
+  },
+  "website": "https://www.caac.gov.cn",
+  "data_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/index.html",
+  "api_url": null,
+  "country": "CN",
+  "authority_level": "government",
+  "domains": [
+    "transportation",
+    "aviation",
+    "statistics",
+    "economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "civil-aviation",
+    "caac",
+    "民航",
+    "航空统计",
+    "passenger-traffic",
+    "freight-traffic",
+    "airport",
+    "airline",
+    "aviation-safety",
+    "government"
+  ],
+  "data_content": {
+    "en": [
+      "Passenger Traffic - Total civil aviation passenger volume, load factor, and passenger kilometers",
+      "Freight and Mail Traffic - Air cargo and mail transport volumes and ton-kilometers",
+      "Airport Throughput - Passenger, cargo, and aircraft movements at major airports",
+      "Airline Operations - Fleet size, routes, flight frequency, and on-time performance",
+      "Flight Safety - Accident and incident statistics, safety inspection records",
+      "Civil Aviation Industry Statistics - Revenue, investment, and employment in the sector",
+      "International Routes - Cross-border passenger and cargo traffic by country",
+      "General Aviation - Non-commercial aviation operations and fleet data",
+      "Annual Civil Aviation Development Statistics Bulletin - comprehensive yearly report"
+    ],
+    "zh": [
+      "旅客运输 - 民航旅客总运输量、客座率和旅客周转量",
+      "货邮运输 - 航空货物和邮件运输量及货邮周转量",
+      "机场吞吐量 - 主要机场旅客、货物和飞机起降量",
+      "航空公司运营 - 机队规模、航线、航班频次和正点率",
+      "飞行安全 - 事故和事件统计、安全检查记录",
+      "民航行业统计 - 行业营收、投资和就业情况",
+      "国际航线 - 按国家分类的跨境旅客和货运交通",
+      "通用航空 - 非商业性航空运营和机队数据",
+      "民航发展统计公报 - 综合年度报告"
+    ]
+  }
+}

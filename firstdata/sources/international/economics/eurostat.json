@@ -1,0 +1,77 @@
+{
+  "id": "eurostat",
+  "name": {
+    "en": "Eurostat - Statistical Office of the European Union",
+    "zh": "欧盟统计局",
+    "native": "Eurostat"
+  },
+  "description": {
+    "en": "Eurostat is the statistical office of the European Union, providing high-quality statistics on Europe. It produces comparable statistical information at European level and promotes the use of common statistical methods across EU member states. Data covers economics, population, social conditions, industry, trade, environment, and regional statistics for all 27 EU member states.",
+    "zh": "欧盟统计局（Eurostat）是欧盟的统计机构，提供有关欧洲的高质量统计数据。制作欧洲层面的可比统计信息，并推动欧盟成员国使用共同的统计方法。数据涵盖全部27个欧盟成员国的经济、人口、社会状况、工业、贸易、环境和区域统计。"
+  },
+  "website": "https://ec.europa.eu/eurostat",
+  "data_url": "https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes",
+  "api_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/",
+  "country": null,
+  "authority_level": "international",
+  "domains": [
+    "economics",
+    "demographics",
+    "social",
+    "trade",
+    "environment",
+    "industry",
+    "agriculture"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "monthly",
+  "tags": [
+    "europe",
+    "eu",
+    "eurostat",
+    "欧盟",
+    "欧洲统计",
+    "gdp",
+    "inflation",
+    "employment",
+    "trade",
+    "population",
+    "official-statistics",
+    "government",
+    "regional-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and National Accounts - Gross domestic product, national income, and expenditure accounts for EU member states",
+      "Population and Demographics - Population size, age structure, fertility, mortality, and migration statistics",
+      "Employment and Labor Market - Employment rates, unemployment, working conditions, and labor costs by country",
+      "Prices and Inflation - Harmonised Index of Consumer Prices (HICP), producer prices, and purchasing power parities",
+      "International Trade - Intra-EU and extra-EU trade in goods and services by country and product",
+      "Industry and Energy - Industrial production indices, energy consumption, and production statistics",
+      "Agriculture and Food - Agricultural output, land use, farm structure, and food safety data",
+      "Environment and Climate - Greenhouse gas emissions, waste, water, and biodiversity indicators",
+      "Education and Training - Educational attainment, enrollment rates, and lifelong learning statistics",
+      "Health Statistics - Healthcare expenditure, life expectancy, causes of death, and health behaviors",
+      "Regional Statistics - NUTS-level data for sub-national regions across Europe",
+      "Digital Economy - Internet usage, e-commerce, and ICT adoption statistics",
+      "Government Finance - Public deficit, debt, revenue, and expenditure by country",
+      "Science and Technology - R&D expenditure, patent statistics, and innovation indicators"
+    ],
+    "zh": [
+      "GDP与国民账户 - 欧盟成员国国内生产总值、国民收入和支出账户",
+      "人口与人口统计 - 人口规模、年龄结构、生育率、死亡率和移民统计",
+      "就业与劳动市场 - 各国就业率、失业率、劳动条件和劳动力成本",
+      "价格与通货膨胀 - 协调消费者价格指数(HICP)、生产者价格和购买力平价",
+      "国际贸易 - 欧盟内部和对外商品及服务贸易（按国家和产品分类）",
+      "工业与能源 - 工业生产指数、能源消耗和生产统计",
+      "农业与食品 - 农业产值、土地利用、农场结构和食品安全数据",
+      "环境与气候 - 温室气体排放、废物、水资源和生物多样性指标",
+      "教育与培训 - 教育程度、入学率和终身学习统计",
+      "健康统计 - 医疗支出、预期寿命、死亡原因和健康行为",
+      "区域统计 - 欧洲各次国家地区的NUTS级数据",
+      "数字经济 - 互联网使用、电子商务和信息通信技术普及统计",
+      "政府财政 - 各国公共赤字、债务、收入和支出",
+      "科学与技术 - 研发支出、专利统计和创新指标"
+    ]
+  }
+}
