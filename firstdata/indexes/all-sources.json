@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-11T02:07:55.553748+00:00",
-    "total_sources": 212,
+    "generated_at": "2026-03-11T02:44:43.074140+00:00",
+    "total_sources": 222,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2153,6 +2153,52 @@
       "file_path": "china/economy/china-caac.json"
     },
     {
+      "id": "china-mct",
+      "name": {
+        "en": "Ministry of Culture and Tourism of China",
+        "zh": "中华人民共和国文化和旅游部",
+        "native": "中华人民共和国文化和旅游部"
+      },
+      "description": {
+        "en": "The Ministry of Culture and Tourism publishes statistics on domestic and international tourism, cultural industry development, and online travel market regulation in China.",
+        "zh": "文化和旅游部发布国内外旅游统计、文化产业发展和在线旅游市场监管数据。"
+      },
+      "website": "https://www.mct.gov.cn",
+      "data_url": "https://www.mct.gov.cn/zwgk/tjsj/",
+      "country": "CN",
+      "domains": [
+        "tourism",
+        "culture",
+        "economics"
+      ],
+      "tags": [
+        "tourism-statistics",
+        "cultural-industry",
+        "inbound-tourism",
+        "outbound-tourism"
+      ],
+      "authority_level": "government",
+      "update_frequency": "annual",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "Tourism Statistics - Domestic and international tourist arrivals, revenue, and expenditure",
+          "Cultural Industry - Cultural enterprise statistics, revenue, and employment",
+          "Online Travel - Online travel market regulation and platform data",
+          "Heritage Sites - Cultural heritage and scenic area visitor statistics"
+        ],
+        "zh": [
+          "旅游统计 - 国内外游客人次、收入和支出",
+          "文化产业 - 文化企业统计、营收和就业",
+          "在线旅游 - 在线旅游市场监管和平台数据",
+          "文化遗产 - 文化遗产和景区游客统计"
+        ]
+      },
+      "api_url": null,
+      "has_api": false,
+      "file_path": "china/economy/china-mct.json"
+    },
+    {
       "id": "china-mohrss",
       "name": {
         "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
@@ -2435,6 +2481,52 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/economy/market/china-samr.json"
+    },
+    {
+      "id": "china-gacc",
+      "name": {
+        "en": "General Administration of Customs of China",
+        "zh": "中华人民共和国海关总署",
+        "native": "中华人民共和国海关总署"
+      },
+      "description": {
+        "en": "The General Administration of Customs (GACC) is responsible for China's customs administration. It publishes detailed import/export statistics by HS code, country, and commodity category.",
+        "zh": "海关总署是中国海关管理的主管机构。发布按HS编码、国家和商品类别分类的详细进出口统计数据。"
+      },
+      "website": "https://www.customs.gov.cn",
+      "data_url": "https://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html",
+      "country": "CN",
+      "domains": [
+        "trade",
+        "economics"
+      ],
+      "tags": [
+        "customs",
+        "imports",
+        "exports",
+        "hs-code",
+        "trade-statistics"
+      ],
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "Import/Export Statistics - Detailed trade data by HS code, country, and commodity category",
+          "Customs Revenue - National customs duty and tax collection data",
+          "Trade Balance - Monthly and annual trade surplus/deficit figures",
+          "Cross-border E-commerce - Cross-border online shopping import/export statistics"
+        ],
+        "zh": [
+          "进出口统计 - 按HS编码、国家和商品类别分类的详细贸易数据",
+          "海关税收 - 全国海关关税和税收征收数据",
+          "贸易差额 - 月度和年度贸易顺差/逆差数据",
+          "跨境电商 - 跨境网购进出口统计"
+        ]
+      },
+      "api_url": null,
+      "has_api": false,
+      "file_path": "china/economy/trade/china-gacc.json"
     },
     {
       "id": "china-customs",
@@ -8808,6 +8900,98 @@
       "file_path": "countries/us/geology/usgs.json"
     },
     {
+      "id": "india-meity",
+      "name": {
+        "en": "Ministry of Electronics and Information Technology of India",
+        "zh": "印度电子和信息技术部"
+      },
+      "description": {
+        "en": "MeitY is the Indian government ministry responsible for IT policy, electronics manufacturing (including PLI scheme), digital governance, and cybersecurity. It publishes data on electronics production, exports, and digital infrastructure.",
+        "zh": "印度电子和信息技术部是负责IT政策、电子制造（包括PLI计划）、数字治理和网络安全的印度政府部门。发布电子产品生产、出口和数字基础设施数据。"
+      },
+      "website": "https://www.meity.gov.in",
+      "data_url": "https://www.meity.gov.in/content/annual-report",
+      "country": "IN",
+      "domains": [
+        "technology",
+        "manufacturing",
+        "trade"
+      ],
+      "tags": [
+        "electronics",
+        "it-policy",
+        "pli-scheme",
+        "digital-governance"
+      ],
+      "authority_level": "government",
+      "update_frequency": "annual",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "Electronics Production - Domestic electronics manufacturing output and growth",
+          "IT Exports - Software and IT services export revenue",
+          "PLI Scheme - Production Linked Incentive scheme progress and investments",
+          "Digital Infrastructure - Internet penetration, digital payment, and e-governance metrics"
+        ],
+        "zh": [
+          "电子产品生产 - 国内电子制造产值和增长",
+          "IT出口 - 软件和IT服务出口收入",
+          "PLI计划 - 生产挂钩激励计划进展和投资",
+          "数字基础设施 - 互联网普及率、数字支付和电子政务指标"
+        ]
+      },
+      "api_url": null,
+      "has_api": false,
+      "file_path": "india/technology/india-meity.json"
+    },
+    {
+      "id": "indonesia-bps",
+      "name": {
+        "en": "Statistics Indonesia",
+        "zh": "印度尼西亚统计局",
+        "native": "Badan Pusat Statistik"
+      },
+      "description": {
+        "en": "BPS-Statistics Indonesia is the government agency responsible for statistical activities in Indonesia. It provides data on GDP, population, trade, manufacturing, and social indicators.",
+        "zh": "印度尼西亚中央统计局是印尼负责统计活动的政府机构。提供GDP、人口、贸易、制造业和社会指标数据。"
+      },
+      "website": "https://www.bps.go.id",
+      "data_url": "https://www.bps.go.id/en/statistics-table",
+      "api_url": "https://webapi.bps.go.id/developer/",
+      "country": "ID",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "manufacturing"
+      ],
+      "tags": [
+        "statistics",
+        "gdp",
+        "population",
+        "industry"
+      ],
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "GDP and Economic Growth - Quarterly and annual national accounts",
+          "Population Census - Demographics, urbanization, and labor force",
+          "Trade Statistics - Import/export by commodity and trading partner",
+          "Manufacturing - Industrial production index and manufacturing output"
+        ],
+        "zh": [
+          "GDP和经济增长 - 季度和年度国民账户",
+          "人口普查 - 人口、城镇化和劳动力",
+          "贸易统计 - 按商品和贸易伙伴分类的进出口",
+          "制造业 - 工业生产指数和制造业产值"
+        ]
+      },
+      "has_api": true,
+      "file_path": "indonesia/national/indonesia-bps.json"
+    },
+    {
       "id": "cgiar-research-data",
       "name": {
         "en": "CGIAR Research Data",
@@ -10493,6 +10677,53 @@
       },
       "has_api": false,
       "file_path": "international/economics/adb.json"
+    },
+    {
+      "id": "asean-stats",
+      "name": {
+        "en": "ASEAN Statistics",
+        "zh": "东盟统计局",
+        "native": "ASEANstats"
+      },
+      "description": {
+        "en": "ASEANstats is the statistical division of the ASEAN Secretariat, providing harmonized statistics on trade, investment, tourism, demographics, and economic indicators for the 10 ASEAN member states.",
+        "zh": "东盟统计局是东盟秘书处的统计部门，提供10个东盟成员国贸易、投资、旅游、人口和经济指标的统一口径统计数据。"
+      },
+      "website": "https://www.aseanstats.org",
+      "data_url": "https://data.aseanstats.org",
+      "country": null,
+      "domains": [
+        "economics",
+        "trade",
+        "demographics",
+        "tourism"
+      ],
+      "tags": [
+        "asean",
+        "regional-statistics",
+        "trade",
+        "investment"
+      ],
+      "authority_level": "international",
+      "update_frequency": "annual",
+      "geographic_scope": "regional",
+      "data_content": {
+        "en": [
+          "Trade Statistics - Intra-ASEAN and external trade flows",
+          "Investment - FDI inflows by source country and sector",
+          "Tourism - International visitor arrivals to ASEAN member states",
+          "Economic Indicators - GDP, inflation, employment across 10 member states"
+        ],
+        "zh": [
+          "贸易统计 - 东盟内部和对外贸易流向",
+          "投资 - 按来源国和行业分类的FDI流入",
+          "旅游 - 东盟成员国国际游客人次",
+          "经济指标 - 10个成员国GDP、通胀、就业"
+        ]
+      },
+      "api_url": null,
+      "has_api": false,
+      "file_path": "international/economics/asean-stats.json"
     },
     {
       "id": "ceic-global-database",
@@ -13034,6 +13265,146 @@
       },
       "has_api": true,
       "file_path": "international/transportation/itf-transport.json"
+    },
+    {
+      "id": "japan-customs",
+      "name": {
+        "en": "Japan Customs Trade Statistics",
+        "zh": "日本财务省贸易统计",
+        "native": "貿易統計"
+      },
+      "description": {
+        "en": "Trade Statistics of Japan, compiled by the Ministry of Finance, provides detailed import and export data by commodity, country, and customs district. Covers all goods crossing Japanese borders.",
+        "zh": "日本贸易统计由财务省编制，提供按商品、国家和海关辖区分类的详细进出口数据。覆盖所有进出日本国境的商品。"
+      },
+      "website": "https://www.customs.go.jp",
+      "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
+      "api_url": "https://www.e-stat.go.jp/api/",
+      "country": "JP",
+      "domains": [
+        "trade",
+        "economics"
+      ],
+      "tags": [
+        "customs",
+        "imports",
+        "exports",
+        "trade-statistics"
+      ],
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "Trade Statistics - Monthly import/export by commodity and country",
+          "Customs District Data - Trade volumes by port and customs office",
+          "HS Code Analysis - Detailed commodity-level trade classification",
+          "Trade Trends - Year-over-year trade value and volume changes"
+        ],
+        "zh": [
+          "贸易统计 - 按商品和国家分类的月度进出口",
+          "海关辖区数据 - 按港口和海关办事处分类的贸易量",
+          "HS编码分析 - 详细商品级贸易分类",
+          "贸易趋势 - 贸易额和贸易量同比变化"
+        ]
+      },
+      "has_api": true,
+      "file_path": "japan/trade/japan-customs.json"
+    },
+    {
+      "id": "mexico-inegi",
+      "name": {
+        "en": "National Institute of Statistics and Geography of Mexico",
+        "zh": "墨西哥国家统计与地理研究所",
+        "native": "Instituto Nacional de Estadística y Geografía"
+      },
+      "description": {
+        "en": "INEGI is Mexico's autonomous public body responsible for national statistics and geographic information. It provides data on GDP, population, trade, employment, and transportation.",
+        "zh": "墨西哥国家统计与地理研究所是负责国家统计和地理信息的自治公共机构。提供GDP、人口、贸易、就业和交通运输数据。"
+      },
+      "website": "https://www.inegi.org.mx",
+      "data_url": "https://www.inegi.org.mx/datos/",
+      "api_url": "https://www.inegi.org.mx/servicios/api_indicadores.html",
+      "country": "MX",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "transportation"
+      ],
+      "tags": [
+        "statistics",
+        "gdp",
+        "census",
+        "employment"
+      ],
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "GDP and Economic Activity - National accounts and economic activity indicators",
+          "Population Census - Demographics, housing, and migration data",
+          "Employment - Labor force participation, unemployment, and wages",
+          "Trade and Transportation - Foreign trade statistics and transport infrastructure"
+        ],
+        "zh": [
+          "GDP和经济活动 - 国民账户和经济活动指标",
+          "人口普查 - 人口、住房和迁移数据",
+          "就业 - 劳动力参与率、失业率和工资",
+          "贸易和交通 - 对外贸易统计和运输基础设施"
+        ]
+      },
+      "has_api": true,
+      "file_path": "mexico/national/mexico-inegi.json"
+    },
+    {
+      "id": "russia-rosstat",
+      "name": {
+        "en": "Federal State Statistics Service of Russia",
+        "zh": "俄罗斯联邦统计局",
+        "native": "Федеральная служба государственной статистики"
+      },
+      "description": {
+        "en": "Rosstat is the Russian government agency responsible for official statistics. It provides data on GDP, demographics, trade, industrial production, e-commerce, and retail.",
+        "zh": "俄罗斯联邦统计局是俄罗斯政府负责官方统计数据的机构。提供GDP、人口、贸易、工业生产、电子商务和零售等数据。"
+      },
+      "website": "https://rosstat.gov.ru",
+      "data_url": "https://rosstat.gov.ru/statistic",
+      "country": "RU",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "industry"
+      ],
+      "tags": [
+        "statistics",
+        "gdp",
+        "population",
+        "e-commerce",
+        "retail"
+      ],
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "GDP and National Accounts - Quarterly and annual economic output",
+          "Demographics - Population, births, deaths, and migration",
+          "Industrial Production - Manufacturing and mining output indices",
+          "Retail and E-commerce - Consumer spending and online retail statistics"
+        ],
+        "zh": [
+          "GDP和国民账户 - 季度和年度经济产出",
+          "人口统计 - 人口、出生、死亡和迁移",
+          "工业生产 - 制造业和采矿业产出指数",
+          "零售和电商 - 消费支出和网上零售统计"
+        ]
+      },
+      "api_url": null,
+      "has_api": false,
+      "file_path": "russia/national/russia-rosstat.json"
     },
     {
       "id": "amis",
@@ -16054,6 +16425,99 @@
       },
       "has_api": false,
       "file_path": "sectors/sports/tennis-sackmann.json"
+    },
+    {
+      "id": "singapore-dos",
+      "name": {
+        "en": "Department of Statistics Singapore",
+        "zh": "新加坡统计局"
+      },
+      "description": {
+        "en": "The Department of Statistics Singapore (DOS) is the national statistical authority providing official statistics on population, economy, trade, digital economy, and social indicators.",
+        "zh": "新加坡统计局是新加坡国家统计机构，提供人口、经济、贸易、数字经济和社会指标的官方统计数据。"
+      },
+      "website": "https://www.singstat.gov.sg",
+      "data_url": "https://www.singstat.gov.sg/find-data",
+      "api_url": "https://tablebuilder.singstat.gov.sg/api",
+      "country": "SG",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "technology"
+      ],
+      "tags": [
+        "statistics",
+        "gdp",
+        "population",
+        "digital-economy"
+      ],
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "GDP and Economic Performance - Quarterly national accounts and growth forecasts",
+          "Population and Demographics - Resident population, age structure, and labor force",
+          "Trade Statistics - Merchandise and services trade by partner and commodity",
+          "Digital Economy - ICT sector performance and digital adoption metrics"
+        ],
+        "zh": [
+          "GDP和经济表现 - 季度国民账户和增长预测",
+          "人口和人口统计 - 常住人口、年龄结构和劳动力",
+          "贸易统计 - 按伙伴和商品分类的货物和服务贸易",
+          "数字经济 - ICT部门表现和数字化采用指标"
+        ]
+      },
+      "has_api": true,
+      "file_path": "singapore/national/singapore-dos.json"
+    },
+    {
+      "id": "thailand-nso",
+      "name": {
+        "en": "National Statistical Office of Thailand",
+        "zh": "泰国国家统计局",
+        "native": "สำนักงานสถิติแห่งชาติ"
+      },
+      "description": {
+        "en": "The National Statistical Office (NSO) is Thailand's central government agency for statistical data. It provides data on demographics, economy, labor, trade, and social indicators.",
+        "zh": "泰国国家统计局是泰国统计数据的中央政府机构。提供人口、经济、劳动力、贸易和社会指标数据。"
+      },
+      "website": "https://www.nso.go.th",
+      "data_url": "https://www.nso.go.th/nsoweb/nso/statistics",
+      "country": "TH",
+      "domains": [
+        "economics",
+        "demographics",
+        "labor",
+        "trade"
+      ],
+      "tags": [
+        "statistics",
+        "gdp",
+        "population",
+        "employment"
+      ],
+      "authority_level": "government",
+      "update_frequency": "quarterly",
+      "geographic_scope": "national",
+      "data_content": {
+        "en": [
+          "Population Census - Demographics, households, and urbanization",
+          "Labor Force Survey - Employment, unemployment, and wage statistics",
+          "Economic Statistics - GDP components, prices, and business surveys",
+          "Social Indicators - Education, health, and income distribution"
+        ],
+        "zh": [
+          "人口普查 - 人口、家庭和城镇化",
+          "劳动力调查 - 就业、失业和工资统计",
+          "经济统计 - GDP构成、价格和企业调查",
+          "社会指标 - 教育、卫生和收入分配"
+        ]
+      },
+      "api_url": null,
+      "has_api": false,
+      "file_path": "thailand/national/thailand-nso.json"
     }
   ]
 }

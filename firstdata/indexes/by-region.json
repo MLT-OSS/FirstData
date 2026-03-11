@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-11T02:07:55.553748+00:00",
-    "total_regions": 14,
-    "total_sources": 212,
+    "generated_at": "2026-03-11T02:44:43.074140+00:00",
+    "total_regions": 18,
+    "total_sources": 222,
     "version": "2.0"
   },
   "regions": {
@@ -215,6 +215,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-mct",
+        "name": {
+          "en": "Ministry of Culture and Tourism of China",
+          "zh": "中华人民共和国文化和旅游部",
+          "native": "中华人民共和国文化和旅游部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mct.gov.cn/zwgk/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/china-mct.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mohrss",
         "name": {
           "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
@@ -262,6 +275,19 @@
         "data_url": "https://www.samr.gov.cn/zw/sj/sjzx/",
         "has_api": false,
         "file_path": "china/economy/market/china-samr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gacc",
+        "name": {
+          "en": "General Administration of Customs of China",
+          "zh": "中华人民共和国海关总署",
+          "native": "中华人民共和国海关总署"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-gacc.json",
         "geographic_scope": "national"
       },
       {
@@ -978,6 +1004,21 @@
         "geographic_scope": "national"
       }
     ],
+    "ID": [
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia",
+          "zh": "印度尼西亚统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "indonesia/national/indonesia-bps.json",
+        "geographic_scope": "national"
+      }
+    ],
     "IN": [
       {
         "id": "india-dgcis",
@@ -989,6 +1030,18 @@
         "data_url": "https://www.commerce.gov.in/trade-statistics/",
         "has_api": false,
         "file_path": "countries/asia/india/india-dgcis.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "india-meity",
+        "name": {
+          "en": "Ministry of Electronics and Information Technology of India",
+          "zh": "印度电子和信息技术部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.meity.gov.in/content/annual-report",
+        "has_api": false,
+        "file_path": "india/technology/india-meity.json",
         "geographic_scope": "national"
       }
     ],
@@ -1017,6 +1070,19 @@
         "data_url": "https://www.e-stat.go.jp/en/stat-search",
         "has_api": true,
         "file_path": "countries/asia/japan/japan-estat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "japan-customs",
+        "name": {
+          "en": "Japan Customs Trade Statistics",
+          "zh": "日本财务省贸易统计",
+          "native": "貿易統計"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
+        "has_api": true,
+        "file_path": "japan/trade/japan-customs.json",
         "geographic_scope": "national"
       }
     ],
@@ -1086,6 +1152,19 @@
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography of Mexico",
+          "zh": "墨西哥国家统计与地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "mexico/national/mexico-inegi.json",
+        "geographic_scope": "national"
       }
     ],
     "MY": [
@@ -1113,6 +1192,50 @@
         "data_url": "https://openstat.psa.gov.ph",
         "has_api": false,
         "file_path": "countries/asia/philippines/psa.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "RU": [
+      {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service of Russia",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistic",
+        "has_api": false,
+        "file_path": "russia/national/russia-rosstat.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "SG": [
+      {
+        "id": "singapore-dos",
+        "name": {
+          "en": "Department of Statistics Singapore",
+          "zh": "新加坡统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.singstat.gov.sg/find-data",
+        "has_api": true,
+        "file_path": "singapore/national/singapore-dos.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "TH": [
+      {
+        "id": "thailand-nso",
+        "name": {
+          "en": "National Statistical Office of Thailand",
+          "zh": "泰国国家统计局",
+          "native": "สำนักงานสถิติแห่งชาติ"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nso.go.th/nsoweb/nso/statistics",
+        "has_api": false,
+        "file_path": "thailand/national/thailand-nso.json",
         "geographic_scope": "national"
       }
     ],
