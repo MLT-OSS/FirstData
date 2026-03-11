@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-10T02:04:41.274926+00:00",
+    "generated_at": "2026-03-11T02:07:55.553748+00:00",
     "total_regions": 14,
-    "total_sources": 210,
+    "total_sources": 212,
     "version": "2.0"
   },
   "regions": {
@@ -1004,6 +1004,19 @@
         "data_url": "https://www.boj.or.jp/en/statistics/index.htm",
         "has_api": false,
         "file_path": "countries/asia/japan/boj-statistics.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "japan-estat",
+        "name": {
+          "en": "Japan e-Stat (Portal Site of Official Statistics)",
+          "zh": "日本统计局 e-Stat（政府统计综合窗口）",
+          "native": "政府統計の総合窓口 e-Stat"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.e-stat.go.jp/en/stat-search",
+        "has_api": true,
+        "file_path": "countries/asia/japan/japan-estat.json",
         "geographic_scope": "national"
       }
     ],

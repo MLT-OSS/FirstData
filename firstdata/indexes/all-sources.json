@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-10T02:04:41.274926+00:00",
-    "total_sources": 210,
+    "generated_at": "2026-03-11T02:07:55.553748+00:00",
+    "total_sources": 212,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5359,6 +5359,91 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "countries/asia/japan/boj-statistics.json"
+    },
+    {
+      "id": "japan-estat",
+      "name": {
+        "en": "Japan e-Stat (Portal Site of Official Statistics)",
+        "zh": "日本统计局 e-Stat（政府统计综合窗口）",
+        "native": "政府統計の総合窓口 e-Stat"
+      },
+      "description": {
+        "en": "e-Stat is Japan's official statistics portal operated by the Statistics Bureau of Japan under the Ministry of Internal Affairs and Communications. It provides unified access to statistical data published by all Japanese government ministries and agencies, covering population, economy, industry, agriculture, education, health, and more. The platform offers a comprehensive REST API for data retrieval.",
+        "zh": "e-Stat 是日本总务省统计局运营的官方统计数据门户，提供对日本各政府部委和机构发布的统计数据的统一访问，涵盖人口、经济、产业、农业、教育、卫生等领域。该平台提供完整的 REST API 用于数据检索。"
+      },
+      "website": "https://www.e-stat.go.jp/en",
+      "data_url": "https://www.e-stat.go.jp/en/stat-search",
+      "api_url": "https://www.e-stat.go.jp/en/developer",
+      "authority_level": "government",
+      "country": "JP",
+      "domains": [
+        "statistics",
+        "economics",
+        "demographics",
+        "social",
+        "education",
+        "health"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "Japan",
+        "日本",
+        "e-Stat",
+        "statistics",
+        "统计",
+        "census",
+        "人口普查",
+        "population",
+        "人口",
+        "economy",
+        "经济",
+        "Ministry of Internal Affairs",
+        "总务省",
+        "Statistics Bureau",
+        "统计局",
+        "government data",
+        "政府数据",
+        "industrial statistics",
+        "产业统计",
+        "national accounts",
+        "国民账户",
+        "labor force",
+        "劳动力",
+        "API"
+      ],
+      "data_content": {
+        "en": [
+          "Population Census (every 5 years) — national and regional population, households, age structure",
+          "National Accounts (GDP, income, expenditure) from Cabinet Office",
+          "Consumer Price Index (CPI) and Producer Price Index",
+          "Labour Force Survey — employment, unemployment rate, working hours",
+          "Family Income and Expenditure Survey",
+          "Industrial Statistics — manufacturing output, number of establishments",
+          "Agricultural, Forestry and Fisheries Census",
+          "School Basic Survey — student enrolment, graduates, schools by level",
+          "Patient Survey and Medical Facility Survey",
+          "Housing and Land Survey",
+          "Retail Trade Statistics and Wholesale Statistics",
+          "Over 100,000 statistical tables accessible via REST API"
+        ],
+        "zh": [
+          "人口普查（每5年一次）——全国及地区人口、家庭数量、年龄结构",
+          "国民账户（GDP、收入、支出）——来自内阁府",
+          "消费者价格指数（CPI）和生产者价格指数",
+          "劳动力调查——就业人数、失业率、工作时长",
+          "家庭收支调查",
+          "工业统计——制造业产出、企业数量",
+          "农林渔业普查",
+          "学校基本调查——各级学校学生注册人数、毕业生数量",
+          "患者调查和医疗机构调查",
+          "住宅和土地调查",
+          "零售业和批发业统计",
+          "超过10万张统计表可通过 REST API 访问"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/asia/japan/japan-estat.json"
     },
     {
       "id": "korea-bok",
@@ -12871,6 +12956,84 @@
       },
       "has_api": true,
       "file_path": "international/transportation/icao-aviation-data.json"
+    },
+    {
+      "id": "itf-transport",
+      "name": {
+        "en": "ITF Transport Statistics",
+        "zh": "国际交通论坛交通统计"
+      },
+      "description": {
+        "en": "The International Transport Forum (ITF), an intergovernmental organisation with 68 member countries affiliated with the OECD, publishes comprehensive global transport statistics covering road safety, infrastructure investment, passenger and freight transport volumes, CO2 emissions from transport, and modal split across all transport modes including road, rail, aviation, and maritime.",
+        "zh": "国际交通论坛(ITF)是附属于经合组织的政府间国际组织，拥有68个成员国，发布涵盖道路安全、基础设施投资、客货运量、交通碳排放以及公路、铁路、航空和海运等各运输方式运量份额的综合全球交通统计数据。"
+      },
+      "website": "https://www.itf-oecd.org/",
+      "data_url": "https://www.itf-oecd.org/transport-statistics",
+      "api_url": "https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=ITF_INDICATORS&df[ag]=ITF",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "transportation",
+        "infrastructure",
+        "environment",
+        "statistics"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "transport",
+        "交通",
+        "road safety",
+        "道路安全",
+        "freight",
+        "货运",
+        "passenger transport",
+        "客运",
+        "infrastructure investment",
+        "基础设施投资",
+        "CO2 emissions",
+        "碳排放",
+        "modal split",
+        "运输方式结构",
+        "ITF",
+        "国际交通论坛",
+        "OECD",
+        "经合组织",
+        "rail",
+        "铁路",
+        "maritime",
+        "海运",
+        "logistics",
+        "物流"
+      ],
+      "data_content": {
+        "en": [
+          "Road fatalities and injury statistics by country and year",
+          "Passenger transport volumes by mode (road, rail, air, waterborne)",
+          "Freight transport volumes by mode (road, rail, inland waterways, maritime)",
+          "Transport infrastructure investment and maintenance expenditure",
+          "CO2 emissions from transport sector by country and mode",
+          "Vehicle fleet size and composition statistics",
+          "Transport network length (road, rail, waterways) by country",
+          "Urban public transport statistics",
+          "Port and maritime shipping traffic data",
+          "Transport price indices and economic indicators"
+        ],
+        "zh": [
+          "各国历年道路死亡和受伤统计数据",
+          "各运输方式客运量（公路、铁路、航空、水运）",
+          "各运输方式货运量（公路、铁路、内河航运、海运）",
+          "交通基础设施投资和维护支出",
+          "各国各运输方式交通碳排放量",
+          "车辆保有量及结构统计",
+          "各国交通网络里程（公路、铁路、内河航道）",
+          "城市公共交通统计数据",
+          "港口和海上航运流量数据",
+          "交通价格指数和经济指标"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/transportation/itf-transport.json"
     },
     {
       "id": "amis",
