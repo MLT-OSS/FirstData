@@ -1,0 +1,46 @@
+{
+  "id": "korea-kostat",
+  "name": {
+    "en": "Statistics Korea (KOSTAT)",
+    "zh": "韩国统计厅"
+  },
+  "description": {
+    "en": "The national statistical office of South Korea providing comprehensive statistical data on population, economy, society, and environment through the Korean Statistical Information Service (KOSIS).",
+    "zh": "韩国国家统计机构，通过韩国统计信息服务(KOSIS)提供人口、经济、社会和环境的综合统计数据。"
+  },
+  "website": "https://kostat.go.kr/english/",
+  "data_url": "https://kosis.kr/eng/",
+  "api_url": "https://kosis.kr/openapi/",
+  "authority_level": "government",
+  "country": "KR",
+  "domains": [
+    "economics",
+    "demographics"
+  ],
+  "tags": [
+    "statistics",
+    "GDP",
+    "population",
+    "CPI",
+    "employment",
+    "south-korea"
+  ],
+  "update_frequency": "monthly",
+  "data_content": {
+    "en": [
+      "GDP and national accounts",
+      "Consumer price index",
+      "Population census",
+      "Employment statistics",
+      "Industrial production"
+    ],
+    "zh": [
+      "GDP和国民账户",
+      "消费者价格指数",
+      "人口普查",
+      "就业统计",
+      "工业生产"
+    ]
+  },
+  "geographic_scope": "national"
+}

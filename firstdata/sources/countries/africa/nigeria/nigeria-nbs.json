@@ -1,0 +1,47 @@
+{
+  "id": "nigeria-nbs",
+  "name": {
+    "en": "National Bureau of Statistics Nigeria (NBS)",
+    "zh": "尼日利亚国家统计局"
+  },
+  "description": {
+    "en": "The main national agency for official statistics in Nigeria, providing data on GDP, inflation, trade, employment, and poverty.",
+    "zh": "尼日利亚官方统计机构，提供GDP、通胀、贸易、就业和贫困数据。"
+  },
+  "website": "https://www.nigerianstat.gov.ng/",
+  "data_url": "https://www.nigerianstat.gov.ng/elibrary",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "NG",
+  "domains": [
+    "economics",
+    "demographics"
+  ],
+  "tags": [
+    "statistics",
+    "GDP",
+    "inflation",
+    "trade",
+    "poverty",
+    "nigeria",
+    "africa"
+  ],
+  "update_frequency": "quarterly",
+  "data_content": {
+    "en": [
+      "GDP reports",
+      "Consumer price index",
+      "Trade statistics",
+      "Poverty and inequality",
+      "Employment data"
+    ],
+    "zh": [
+      "GDP报告",
+      "消费者价格指数",
+      "贸易统计",
+      "贫困与不平等",
+      "就业数据"
+    ]
+  },
+  "geographic_scope": "national"
+}

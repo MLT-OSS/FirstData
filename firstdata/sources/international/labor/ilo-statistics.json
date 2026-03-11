@@ -1,0 +1,46 @@
+{
+  "id": "ilo-statistics",
+  "name": {
+    "en": "International Labour Organization Statistics (ILOSTAT)",
+    "zh": "国际劳工组织统计数据库"
+  },
+  "description": {
+    "en": "The world's leading source for international labour statistics, providing comprehensive data on employment, wages, working conditions, and social protection across 230+ countries.",
+    "zh": "世界领先的国际劳工统计来源，提供230多个国家的就业、工资、工作条件和社会保障数据。"
+  },
+  "website": "https://ilostat.ilo.org/",
+  "data_url": "https://ilostat.ilo.org/data/",
+  "api_url": "https://ilostat.ilo.org/resources/sdmx-tools/",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "labor",
+    "economics"
+  ],
+  "tags": [
+    "employment",
+    "wages",
+    "labor-market",
+    "unemployment",
+    "social-protection",
+    "ILO"
+  ],
+  "update_frequency": "annual",
+  "data_content": {
+    "en": [
+      "Employment and unemployment rates",
+      "Wages and earnings",
+      "Working conditions",
+      "Child labour statistics",
+      "Social protection coverage"
+    ],
+    "zh": [
+      "就业和失业率",
+      "工资和收入",
+      "工作条件",
+      "童工统计",
+      "社会保障覆盖"
+    ]
+  },
+  "geographic_scope": "global"
+}

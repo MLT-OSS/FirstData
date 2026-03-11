@@ -1,0 +1,47 @@
+{
+  "id": "malaysia-dosm",
+  "name": {
+    "en": "Department of Statistics Malaysia (DOSM)",
+    "zh": "马来西亚统计局"
+  },
+  "description": {
+    "en": "Malaysia's national statistical agency providing comprehensive data on population, economy, and social indicators through the OpenDOSM platform.",
+    "zh": "马来西亚国家统计机构，通过OpenDOSM平台提供人口、经济和社会指标的综合数据。"
+  },
+  "website": "https://www.dosm.gov.my/",
+  "data_url": "https://open.dosm.gov.my/",
+  "api_url": "https://api.dosm.gov.my/",
+  "authority_level": "government",
+  "country": "MY",
+  "domains": [
+    "economics",
+    "demographics"
+  ],
+  "tags": [
+    "statistics",
+    "GDP",
+    "population",
+    "trade",
+    "CPI",
+    "malaysia",
+    "open-data"
+  ],
+  "update_frequency": "monthly",
+  "data_content": {
+    "en": [
+      "GDP and national accounts",
+      "Population demographics",
+      "Consumer price index",
+      "Labour force statistics",
+      "External trade"
+    ],
+    "zh": [
+      "GDP和国民账户",
+      "人口统计",
+      "消费者价格指数",
+      "劳动力统计",
+      "对外贸易"
+    ]
+  },
+  "geographic_scope": "national"
+}

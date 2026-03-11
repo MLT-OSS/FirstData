@@ -1,0 +1,47 @@
+{
+  "id": "south-africa-statssa",
+  "name": {
+    "en": "Statistics South Africa (Stats SA)",
+    "zh": "南非统计局"
+  },
+  "description": {
+    "en": "South Africa's national statistical service providing comprehensive demographic, economic, and social data including census, GDP, and labour force surveys.",
+    "zh": "南非国家统计服务机构，提供全面的人口、经济和社会数据。"
+  },
+  "website": "https://www.statssa.gov.za/",
+  "data_url": "https://www.statssa.gov.za/?page_id=1854",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "ZA",
+  "domains": [
+    "economics",
+    "demographics"
+  ],
+  "tags": [
+    "statistics",
+    "GDP",
+    "population",
+    "census",
+    "poverty",
+    "south-africa",
+    "africa"
+  ],
+  "update_frequency": "quarterly",
+  "data_content": {
+    "en": [
+      "GDP and national accounts",
+      "Population census",
+      "Labour force survey",
+      "Consumer price index",
+      "Poverty and inequality"
+    ],
+    "zh": [
+      "GDP和国民账户",
+      "人口普查",
+      "劳动力调查",
+      "消费者价格指数",
+      "贫困与不平等"
+    ]
+  },
+  "geographic_scope": "national"
+}

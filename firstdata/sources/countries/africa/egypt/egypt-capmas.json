@@ -1,0 +1,47 @@
+{
+  "id": "egypt-capmas",
+  "name": {
+    "en": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
+    "zh": "埃及中央公共动员与统计局"
+  },
+  "description": {
+    "en": "The official statistical agency of Egypt responsible for statistical data collection, census operations, and dissemination of national statistics.",
+    "zh": "埃及官方统计机构，负责统计数据收集、人口普查和国家统计发布。"
+  },
+  "website": "https://www.capmas.gov.eg/",
+  "data_url": "https://www.capmas.gov.eg/Pages/Publications.aspx",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "EG",
+  "domains": [
+    "economics",
+    "demographics"
+  ],
+  "tags": [
+    "statistics",
+    "GDP",
+    "population",
+    "census",
+    "trade",
+    "egypt",
+    "africa"
+  ],
+  "update_frequency": "monthly",
+  "data_content": {
+    "en": [
+      "Population census",
+      "GDP and national accounts",
+      "Consumer price index",
+      "Trade statistics",
+      "Employment data"
+    ],
+    "zh": [
+      "人口普查",
+      "GDP和国民账户",
+      "消费者价格指数",
+      "贸易统计",
+      "就业数据"
+    ]
+  },
+  "geographic_scope": "national"
+}

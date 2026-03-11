@@ -1,0 +1,45 @@
+{
+  "id": "sec-edgar",
+  "name": {
+    "en": "SEC EDGAR",
+    "zh": "美国证券交易委员会EDGAR系统"
+  },
+  "description": {
+    "en": "U.S. Securities and Exchange Commission's Electronic Data Gathering, Analysis, and Retrieval system. Provides free public access to corporate filings including 10-K, 10-Q, 8-K, proxy statements, and insider trading reports for all publicly traded companies in the United States.",
+    "zh": "美国证券交易委员会的电子数据收集、分析和检索系统，提供所有美国上市公司的10-K、10-Q、8-K等财务报告的免费公开访问。"
+  },
+  "website": "https://www.sec.gov/edgar",
+  "data_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany",
+  "api_url": "https://efts.sec.gov/LATEST/search-index?q=",
+  "authority_level": "government",
+  "country": "US",
+  "domains": [
+    "finance",
+    "economics"
+  ],
+  "tags": [
+    "securities",
+    "corporate-filings",
+    "financial-reporting",
+    "stock-market",
+    "SEC"
+  ],
+  "update_frequency": "daily",
+  "data_content": {
+    "en": [
+      "Corporate annual reports (10-K)",
+      "Quarterly reports (10-Q)",
+      "Current reports (8-K)",
+      "Proxy statements",
+      "Insider trading reports"
+    ],
+    "zh": [
+      "企业年度报告(10-K)",
+      "季度报告(10-Q)",
+      "临时报告(8-K)",
+      "代理声明",
+      "内幕交易报告"
+    ]
+  },
+  "geographic_scope": "national"
+}
