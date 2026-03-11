@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-11T02:44:43.074140+00:00",
-    "total_regions": 18,
-    "total_sources": 222,
+    "generated_at": "2026-03-11T03:51:15.523123+00:00",
+    "total_regions": 22,
+    "total_sources": 230,
     "version": "2.0"
   },
   "regions": {
@@ -904,6 +904,20 @@
         "geographic_scope": "national"
       }
     ],
+    "EG": [
+      {
+        "id": "egypt-capmas",
+        "name": {
+          "en": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
+          "zh": "埃及中央公共动员与统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.capmas.gov.eg/Pages/Publications.aspx",
+        "has_api": false,
+        "file_path": "countries/africa/egypt/egypt-capmas.json",
+        "geographic_scope": "national"
+      }
+    ],
     "GB": [
       {
         "id": "uk-biobank",
@@ -1124,6 +1138,18 @@
         "has_api": true,
         "file_path": "countries/asia/kostat.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "korea-kostat",
+        "name": {
+          "en": "Statistics Korea (KOSTAT)",
+          "zh": "韩国统计厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://kosis.kr/eng/",
+        "has_api": true,
+        "file_path": "countries/asia/south-korea/korea-kostat.json",
+        "geographic_scope": "national"
       }
     ],
     "MX": [
@@ -1178,6 +1204,32 @@
         "data_url": "https://open.dosm.gov.my/",
         "has_api": true,
         "file_path": "countries/asia/dosm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "malaysia-dosm",
+        "name": {
+          "en": "Department of Statistics Malaysia (DOSM)",
+          "zh": "马来西亚统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://open.dosm.gov.my/",
+        "has_api": true,
+        "file_path": "countries/asia/malaysia/malaysia-dosm.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "NG": [
+      {
+        "id": "nigeria-nbs",
+        "name": {
+          "en": "National Bureau of Statistics Nigeria (NBS)",
+          "zh": "尼日利亚国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nigerianstat.gov.ng/elibrary",
+        "has_api": false,
+        "file_path": "countries/africa/nigeria/nigeria-nbs.json",
         "geographic_scope": "national"
       }
     ],
@@ -1236,6 +1288,20 @@
         "data_url": "https://www.nso.go.th/nsoweb/nso/statistics",
         "has_api": false,
         "file_path": "thailand/national/thailand-nso.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "TW": [
+      {
+        "id": "taiwan-dgbas",
+        "name": {
+          "en": "Directorate-General of Budget, Accounting and Statistics (DGBAS)",
+          "zh": "台湾主计总处"
+        },
+        "authority_level": "government",
+        "data_url": "https://eng.stat.gov.tw/",
+        "has_api": false,
+        "file_path": "countries/asia/taiwan/taiwan-dgbas.json",
         "geographic_scope": "national"
       }
     ],
@@ -1384,6 +1450,18 @@
         "has_api": false,
         "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "sec-edgar",
+        "name": {
+          "en": "SEC EDGAR",
+          "zh": "美国证券交易委员会EDGAR系统"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany",
+        "has_api": true,
+        "file_path": "usa/finance/sec-edgar.json",
+        "geographic_scope": "national"
       }
     ],
     "VN": [
@@ -1530,6 +1608,20 @@
         "data_url": "https://www.ceicdata.com/en/country/vietnam",
         "has_api": true,
         "file_path": "international/economics/ceic-vietnam.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "ZA": [
+      {
+        "id": "south-africa-statssa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1854",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/south-africa-statssa.json",
         "geographic_scope": "national"
       }
     ]

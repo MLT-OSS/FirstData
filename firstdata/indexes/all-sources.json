@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-11T02:44:43.074140+00:00",
-    "total_sources": 222,
+    "generated_at": "2026-03-11T03:51:15.523123+00:00",
+    "total_sources": 230,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4970,6 +4970,153 @@
       "file_path": "china/technology/telecommunications/china-miit.json"
     },
     {
+      "id": "egypt-capmas",
+      "name": {
+        "en": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
+        "zh": "埃及中央公共动员与统计局"
+      },
+      "description": {
+        "en": "The official statistical agency of Egypt responsible for statistical data collection, census operations, and dissemination of national statistics.",
+        "zh": "埃及官方统计机构，负责统计数据收集、人口普查和国家统计发布。"
+      },
+      "website": "https://www.capmas.gov.eg/",
+      "data_url": "https://www.capmas.gov.eg/Pages/Publications.aspx",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "EG",
+      "domains": [
+        "economics",
+        "demographics"
+      ],
+      "tags": [
+        "statistics",
+        "GDP",
+        "population",
+        "census",
+        "trade",
+        "egypt",
+        "africa"
+      ],
+      "update_frequency": "monthly",
+      "data_content": {
+        "en": [
+          "Population census",
+          "GDP and national accounts",
+          "Consumer price index",
+          "Trade statistics",
+          "Employment data"
+        ],
+        "zh": [
+          "人口普查",
+          "GDP和国民账户",
+          "消费者价格指数",
+          "贸易统计",
+          "就业数据"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": false,
+      "file_path": "countries/africa/egypt/egypt-capmas.json"
+    },
+    {
+      "id": "nigeria-nbs",
+      "name": {
+        "en": "National Bureau of Statistics Nigeria (NBS)",
+        "zh": "尼日利亚国家统计局"
+      },
+      "description": {
+        "en": "The main national agency for official statistics in Nigeria, providing data on GDP, inflation, trade, employment, and poverty.",
+        "zh": "尼日利亚官方统计机构，提供GDP、通胀、贸易、就业和贫困数据。"
+      },
+      "website": "https://www.nigerianstat.gov.ng/",
+      "data_url": "https://www.nigerianstat.gov.ng/elibrary",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "NG",
+      "domains": [
+        "economics",
+        "demographics"
+      ],
+      "tags": [
+        "statistics",
+        "GDP",
+        "inflation",
+        "trade",
+        "poverty",
+        "nigeria",
+        "africa"
+      ],
+      "update_frequency": "quarterly",
+      "data_content": {
+        "en": [
+          "GDP reports",
+          "Consumer price index",
+          "Trade statistics",
+          "Poverty and inequality",
+          "Employment data"
+        ],
+        "zh": [
+          "GDP报告",
+          "消费者价格指数",
+          "贸易统计",
+          "贫困与不平等",
+          "就业数据"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": false,
+      "file_path": "countries/africa/nigeria/nigeria-nbs.json"
+    },
+    {
+      "id": "south-africa-statssa",
+      "name": {
+        "en": "Statistics South Africa (Stats SA)",
+        "zh": "南非统计局"
+      },
+      "description": {
+        "en": "South Africa's national statistical service providing comprehensive demographic, economic, and social data including census, GDP, and labour force surveys.",
+        "zh": "南非国家统计服务机构，提供全面的人口、经济和社会数据。"
+      },
+      "website": "https://www.statssa.gov.za/",
+      "data_url": "https://www.statssa.gov.za/?page_id=1854",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "ZA",
+      "domains": [
+        "economics",
+        "demographics"
+      ],
+      "tags": [
+        "statistics",
+        "GDP",
+        "population",
+        "census",
+        "poverty",
+        "south-africa",
+        "africa"
+      ],
+      "update_frequency": "quarterly",
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Population census",
+          "Labour force survey",
+          "Consumer price index",
+          "Poverty and inequality"
+        ],
+        "zh": [
+          "GDP和国民账户",
+          "人口普查",
+          "劳动力调查",
+          "消费者价格指数",
+          "贫困与不平等"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": false,
+      "file_path": "countries/africa/south-africa/south-africa-statssa.json"
+    },
+    {
       "id": "dosm",
       "name": {
         "en": "Department of Statistics Malaysia",
@@ -5783,6 +5930,55 @@
       "file_path": "countries/asia/kostat.json"
     },
     {
+      "id": "malaysia-dosm",
+      "name": {
+        "en": "Department of Statistics Malaysia (DOSM)",
+        "zh": "马来西亚统计局"
+      },
+      "description": {
+        "en": "Malaysia's national statistical agency providing comprehensive data on population, economy, and social indicators through the OpenDOSM platform.",
+        "zh": "马来西亚国家统计机构，通过OpenDOSM平台提供人口、经济和社会指标的综合数据。"
+      },
+      "website": "https://www.dosm.gov.my/",
+      "data_url": "https://open.dosm.gov.my/",
+      "api_url": "https://api.dosm.gov.my/",
+      "authority_level": "government",
+      "country": "MY",
+      "domains": [
+        "economics",
+        "demographics"
+      ],
+      "tags": [
+        "statistics",
+        "GDP",
+        "population",
+        "trade",
+        "CPI",
+        "malaysia",
+        "open-data"
+      ],
+      "update_frequency": "monthly",
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Population demographics",
+          "Consumer price index",
+          "Labour force statistics",
+          "External trade"
+        ],
+        "zh": [
+          "GDP和国民账户",
+          "人口统计",
+          "消费者价格指数",
+          "劳动力统计",
+          "对外贸易"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": true,
+      "file_path": "countries/asia/malaysia/malaysia-dosm.json"
+    },
+    {
       "id": "philippines-psa",
       "name": {
         "en": "Philippine Statistics Authority",
@@ -5872,6 +6068,102 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "countries/asia/philippines/psa.json"
+    },
+    {
+      "id": "korea-kostat",
+      "name": {
+        "en": "Statistics Korea (KOSTAT)",
+        "zh": "韩国统计厅"
+      },
+      "description": {
+        "en": "The national statistical office of South Korea providing comprehensive statistical data on population, economy, society, and environment through the Korean Statistical Information Service (KOSIS).",
+        "zh": "韩国国家统计机构，通过韩国统计信息服务(KOSIS)提供人口、经济、社会和环境的综合统计数据。"
+      },
+      "website": "https://kostat.go.kr/english/",
+      "data_url": "https://kosis.kr/eng/",
+      "api_url": "https://kosis.kr/openapi/",
+      "authority_level": "government",
+      "country": "KR",
+      "domains": [
+        "economics",
+        "demographics"
+      ],
+      "tags": [
+        "statistics",
+        "GDP",
+        "population",
+        "CPI",
+        "employment",
+        "south-korea"
+      ],
+      "update_frequency": "monthly",
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Consumer price index",
+          "Population census",
+          "Employment statistics",
+          "Industrial production"
+        ],
+        "zh": [
+          "GDP和国民账户",
+          "消费者价格指数",
+          "人口普查",
+          "就业统计",
+          "工业生产"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": true,
+      "file_path": "countries/asia/south-korea/korea-kostat.json"
+    },
+    {
+      "id": "taiwan-dgbas",
+      "name": {
+        "en": "Directorate-General of Budget, Accounting and Statistics (DGBAS)",
+        "zh": "台湾主计总处"
+      },
+      "description": {
+        "en": "The principal government statistics agency of Taiwan responsible for national statistics including GDP, CPI, population census, and household surveys.",
+        "zh": "台湾主要政府统计机构，负责GDP、CPI、人口普查和家庭调查等国家统计。"
+      },
+      "website": "https://eng.dgbas.gov.tw/",
+      "data_url": "https://eng.stat.gov.tw/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "TW",
+      "domains": [
+        "economics",
+        "demographics"
+      ],
+      "tags": [
+        "statistics",
+        "GDP",
+        "CPI",
+        "population",
+        "census",
+        "taiwan"
+      ],
+      "update_frequency": "monthly",
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Consumer price index",
+          "Population census",
+          "Household income and expenditure",
+          "Employment statistics"
+        ],
+        "zh": [
+          "GDP和国民账户",
+          "消费者价格指数",
+          "人口普查",
+          "家庭收支",
+          "就业统计"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": false,
+      "file_path": "countries/asia/taiwan/taiwan-dgbas.json"
     },
     {
       "id": "fia-fdi",
@@ -12450,6 +12742,54 @@
       "file_path": "international/intellectual-property/wipo.json"
     },
     {
+      "id": "ilo-statistics",
+      "name": {
+        "en": "International Labour Organization Statistics (ILOSTAT)",
+        "zh": "国际劳工组织统计数据库"
+      },
+      "description": {
+        "en": "The world's leading source for international labour statistics, providing comprehensive data on employment, wages, working conditions, and social protection across 230+ countries.",
+        "zh": "世界领先的国际劳工统计来源，提供230多个国家的就业、工资、工作条件和社会保障数据。"
+      },
+      "website": "https://ilostat.ilo.org/",
+      "data_url": "https://ilostat.ilo.org/data/",
+      "api_url": "https://ilostat.ilo.org/resources/sdmx-tools/",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "labor",
+        "economics"
+      ],
+      "tags": [
+        "employment",
+        "wages",
+        "labor-market",
+        "unemployment",
+        "social-protection",
+        "ILO"
+      ],
+      "update_frequency": "annual",
+      "data_content": {
+        "en": [
+          "Employment and unemployment rates",
+          "Wages and earnings",
+          "Working conditions",
+          "Child labour statistics",
+          "Social protection coverage"
+        ],
+        "zh": [
+          "就业和失业率",
+          "工资和收入",
+          "工作条件",
+          "童工统计",
+          "社会保障覆盖"
+        ]
+      },
+      "geographic_scope": "global",
+      "has_api": true,
+      "file_path": "international/labor/ilo-statistics.json"
+    },
+    {
       "id": "gbif",
       "name": {
         "en": "Global Biodiversity Information Facility (GBIF)",
@@ -16518,6 +16858,53 @@
       "api_url": null,
       "has_api": false,
       "file_path": "thailand/national/thailand-nso.json"
+    },
+    {
+      "id": "sec-edgar",
+      "name": {
+        "en": "SEC EDGAR",
+        "zh": "美国证券交易委员会EDGAR系统"
+      },
+      "description": {
+        "en": "U.S. Securities and Exchange Commission's Electronic Data Gathering, Analysis, and Retrieval system. Provides free public access to corporate filings including 10-K, 10-Q, 8-K, proxy statements, and insider trading reports for all publicly traded companies in the United States.",
+        "zh": "美国证券交易委员会的电子数据收集、分析和检索系统，提供所有美国上市公司的10-K、10-Q、8-K等财务报告的免费公开访问。"
+      },
+      "website": "https://www.sec.gov/edgar",
+      "data_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany",
+      "api_url": "https://efts.sec.gov/LATEST/search-index?q=",
+      "authority_level": "government",
+      "country": "US",
+      "domains": [
+        "finance",
+        "economics"
+      ],
+      "tags": [
+        "securities",
+        "corporate-filings",
+        "financial-reporting",
+        "stock-market",
+        "SEC"
+      ],
+      "update_frequency": "daily",
+      "data_content": {
+        "en": [
+          "Corporate annual reports (10-K)",
+          "Quarterly reports (10-Q)",
+          "Current reports (8-K)",
+          "Proxy statements",
+          "Insider trading reports"
+        ],
+        "zh": [
+          "企业年度报告(10-K)",
+          "季度报告(10-Q)",
+          "临时报告(8-K)",
+          "代理声明",
+          "内幕交易报告"
+        ]
+      },
+      "geographic_scope": "national",
+      "has_api": true,
+      "file_path": "usa/finance/sec-edgar.json"
     }
   ]
 }

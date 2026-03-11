@@ -1,42 +1,42 @@
 {
   "metadata": {
-    "generated_at": "2026-03-11T02:44:43.074140+00:00",
+    "generated_at": "2026-03-11T03:51:15.523123+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 222,
-    "sources_with_api": 101,
+    "total_sources": 230,
+    "sources_with_api": 105,
     "last_updated": "2026-03-11"
   },
   "by_authority_level": {
     "research": 31,
-    "international": 56,
-    "government": 103,
+    "international": 57,
+    "government": 110,
     "market": 16,
     "commercial": 15,
     "other": 1
   },
   "by_geographic_scope": {
-    "global": 79,
-    "national": 120,
+    "global": 80,
+    "national": 127,
     "regional": 23
   },
   "by_update_frequency": {
     "irregular": 43,
-    "daily": 42,
+    "daily": 43,
     "weekly": 9,
-    "quarterly": 24,
-    "monthly": 52,
-    "annual": 42,
+    "quarterly": 26,
+    "monthly": 56,
+    "annual": 43,
     "real-time": 10
   },
   "by_domain": {
-    "economics": 67,
+    "economics": 75,
     "trade": 40,
-    "finance": 34,
+    "finance": 35,
+    "demographics": 32,
     "health": 27,
     "education": 27,
-    "demographics": 26,
     "environment": 26,
     "agriculture": 26,
     "social": 18,
@@ -54,6 +54,7 @@
     "housing": 8,
     "securities": 8,
     "genomics": 7,
+    "labor": 7,
     "climate": 7,
     "machine learning": 7,
     "monetary policy": 7,
@@ -62,7 +63,6 @@
     "social development": 7,
     "bioinformatics": 6,
     "epidemiology": 6,
-    "labor": 6,
     "construction": 6,
     "investment": 6,
     "prices": 6,
