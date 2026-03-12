@@ -1,0 +1,62 @@
+{
+  "id": "germany-destatis",
+  "name": {
+    "en": "Federal Statistical Office of Germany (Destatis)",
+    "zh": "德国联邦统计局",
+    "native": "Statistisches Bundesamt (Destatis)"
+  },
+  "description": {
+    "en": "Destatis (Statistisches Bundesamt) is the Federal Statistical Office of Germany, the central institution for official German statistics. It collects, processes, and publishes data on German society, economy, environment, and public administration. The GENESIS-Online database provides free access to over 30,000 statistical tables. Destatis also coordinates the German statistical system comprising the federal and state statistical offices.",
+    "zh": "Destatis（联邦统计局）是德国联邦统计局，是德国官方统计的核心机构。它收集、处理和发布德国社会、经济、环境和公共行政数据。GENESIS-Online数据库免费提供超过30,000张统计表。Destatis还协调由联邦和州统计局组成的德国统计系统。"
+  },
+  "website": "https://www.destatis.de/EN/",
+  "data_url": "https://www.destatis.de/EN/Themes/_node.html",
+  "api_url": "https://www-genesis.destatis.de/genesis/online",
+  "authority_level": "government",
+  "country": "DE",
+  "domains": ["demographics", "economics", "social", "employment", "trade", "manufacturing", "environment", "health", "education", "housing"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "germany", "destatis", "federal-statistics", "bundesamt",
+    "population", "gdp", "employment", "genesis-online",
+    "national-statistics", "official-statistics", "open-data", "eurostat",
+    "德国统计局", "联邦统计", "德国数据"
+  ],
+  "data_content": {
+    "en": [
+      "Population - population census, births, deaths, migration, life expectancy",
+      "National Accounts - GDP, value added, household income and expenditure",
+      "Labour Market - employment, unemployment, wages, working hours, strikes",
+      "Prices - CPI, PPI, import/export prices, construction prices",
+      "Foreign Trade - imports, exports by country and commodity (SITC, CN)",
+      "Industry and Crafts - industrial production, turnover, new orders",
+      "Construction and Housing - building permits, housing completions, rents",
+      "Agriculture - crop yields, livestock numbers, farm structures",
+      "Environment and Energy - greenhouse gas emissions, energy consumption, waste",
+      "Health - hospitals, causes of death, healthcare expenditure",
+      "Education and Science - students, graduates, R&D expenditure",
+      "Transport - road freight, passenger traffic, accidents",
+      "Public Finance - government revenue, expenditure, debt",
+      "Business Registrations - business start-ups and closures",
+      "Tourism - accommodation statistics, overnight stays"
+    ],
+    "zh": [
+      "人口 - 人口普查、出生、死亡、移民、预期寿命",
+      "国民账户 - GDP、增加值、家庭收入和支出",
+      "劳动力市场 - 就业、失业、工资、工时、罢工",
+      "价格 - CPI、PPI、进出口价格、建筑价格",
+      "对外贸易 - 按国家和商品分类的进出口（SITC、CN）",
+      "工业与手工业 - 工业生产、营业额、新订单",
+      "建筑与住房 - 建筑许可、竣工住房、租金",
+      "农业 - 农作物产量、牲畜数量、农场结构",
+      "环境与能源 - 温室气体排放、能源消耗、废物",
+      "卫生 - 医院、死因统计、医疗支出",
+      "教育与科学 - 学生、毕业生、研发支出",
+      "交通运输 - 公路货运、旅客运输、交通事故",
+      "公共财政 - 政府收入、支出、债务",
+      "企业注册 - 企业创立和关闭",
+      "旅游业 - 住宿统计、过夜人数"
+    ]
+  }
+}
