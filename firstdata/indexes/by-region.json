@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-12T02:07:20.843685+00:00",
+    "generated_at": "2026-03-12T02:17:17.141950+00:00",
     "total_regions": 23,
     "total_sources": 236,
     "version": "2.0"
@@ -421,7 +421,7 @@
           "zh": "中国证券投资基金业协会"
         },
         "authority_level": "government",
-        "data_url": "https://www.amac.org.cn/researchstatistics/",
+        "data_url": "https://www.amac.org.cn/informationpublicity/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-amac.json",
         "geographic_scope": "national"
@@ -433,7 +433,7 @@
           "zh": "中国银行间市场交易商协会"
         },
         "authority_level": "government",
-        "data_url": "https://www.nafmii.org.cn/scyjfx/",
+        "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
         "geographic_scope": "national"
