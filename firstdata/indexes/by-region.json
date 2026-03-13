@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-12T02:17:17.141950+00:00",
-    "total_regions": 23,
-    "total_sources": 236,
+    "generated_at": "2026-03-13T02:05:17.902545+00:00",
+    "total_regions": 24,
+    "total_sources": 238,
     "version": "2.0"
   },
   "regions": {
@@ -993,6 +993,21 @@
         "geographic_scope": "national"
       }
     ],
+    "FR": [
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
+        "geographic_scope": "national"
+      }
+    ],
     "GB": [
       {
         "id": "uk-biobank",
@@ -1119,6 +1134,19 @@
         "data_url": "https://www.commerce.gov.in/trade-statistics/",
         "has_api": false,
         "file_path": "countries/asia/india/india-dgcis.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
         "geographic_scope": "national"
       },
       {

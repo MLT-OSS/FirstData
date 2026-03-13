@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-12T02:17:17.141950+00:00",
+    "generated_at": "2026-03-13T02:05:17.902545+00:00",
     "total_domains": 688,
-    "total_sources": 236,
+    "total_sources": 238,
     "version": "2.0"
   },
   "domains": {
@@ -310,6 +310,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -355,6 +368,19 @@
         "data_url": "https://vicofa.org.vn/",
         "has_api": false,
         "file_path": "countries/asia/vietnam/vicofa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -3839,6 +3865,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-estat",
         "name": {
           "en": "Japan e-Stat (Portal Site of Official Statistics)",
@@ -3921,6 +3960,19 @@
         "data_url": "https://www.nso.gov.vn/en/statistical-data/",
         "has_api": false,
         "file_path": "countries/asia/vietnam/gso.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -5378,6 +5430,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-estat",
         "name": {
           "en": "Japan e-Stat (Portal Site of Official Statistics)",
@@ -5498,6 +5563,19 @@
         "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
         "has_api": true,
         "file_path": "countries/europe/bank-of-england-statistics.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -6108,6 +6186,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-estat",
         "name": {
           "en": "Japan e-Stat (Portal Site of Official Statistics)",
@@ -6666,6 +6757,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -6699,6 +6803,19 @@
         "data_url": "https://www.nso.gov.vn/en/statistical-data/",
         "has_api": false,
         "file_path": "countries/asia/vietnam/gso.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -8214,6 +8331,19 @@
         "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
         "has_api": true,
         "file_path": "countries/europe/bank-of-england-statistics.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -10059,6 +10189,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-estat",
         "name": {
           "en": "Japan e-Stat (Portal Site of Official Statistics)",
@@ -10666,6 +10809,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "germany-destatis",
         "name": {
           "en": "Federal Statistical Office of Germany (Destatis)",
@@ -11119,6 +11275,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -11140,6 +11309,19 @@
         "data_url": "https://www.nso.gov.vn/en/statistical-data/",
         "has_api": false,
         "file_path": "countries/asia/vietnam/gso.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -15382,6 +15564,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "boj-statistics",
         "name": {
           "en": "Bank of Japan Statistics",
@@ -15417,6 +15612,19 @@
         "data_url": "https://kosis.kr/eng/",
         "has_api": true,
         "file_path": "countries/asia/kostat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -16618,6 +16826,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-estat",
         "name": {
           "en": "Japan e-Stat (Portal Site of Official Statistics)",
@@ -16652,6 +16873,19 @@
         "data_url": "https://openstat.psa.gov.ph",
         "has_api": false,
         "file_path": "countries/asia/philippines/psa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {
@@ -18072,6 +18306,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "india-mospi",
+        "name": {
+          "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+          "zh": "印度统计与计划实施部",
+          "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+        },
+        "authority_level": "government",
+        "data_url": "https://mospi.gov.in/data",
+        "has_api": false,
+        "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -18154,6 +18401,19 @@
         "data_url": "https://www.mpi.gov.vn/en/Pages/FDI-1637.aspx",
         "has_api": false,
         "file_path": "countries/asia/vietnam/vietnam-fia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "france-insee",
+        "name": {
+          "en": "INSEE - National Institute of Statistics and Economic Studies",
+          "zh": "法国国家统计与经济研究所",
+          "native": "Institut national de la statistique et des études économiques"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.insee.fr/en/statistiques",
+        "has_api": true,
+        "file_path": "countries/europe/fr/france-insee.json",
         "geographic_scope": "national"
       },
       {

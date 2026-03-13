@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-12T02:17:17.141950+00:00",
-    "total_sources": 236,
+    "generated_at": "2026-03-13T02:05:17.902545+00:00",
+    "total_sources": 238,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5794,6 +5794,92 @@
       "file_path": "countries/asia/india/india-dgcis.json"
     },
     {
+      "id": "india-mospi",
+      "name": {
+        "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
+        "zh": "印度统计与计划实施部",
+        "native": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+      },
+      "description": {
+        "en": "The Ministry of Statistics and Programme Implementation (MoSPI) is the apex body for official statistics in India. It coordinates the Indian Statistical System and publishes a wide range of national statistical products including GDP estimates, Consumer Price Index, industrial production, employment surveys, social statistics, and the National Sample Survey. MoSPI also oversees the Central Statistics Office (CSO) and the National Sample Survey Office (NSSO).",
+        "zh": "印度统计与计划实施部（MoSPI）是印度官方统计的最高机构，协调印度统计体系，发布广泛的国家统计产品，包括GDP估算、消费者价格指数、工业生产、就业调查、社会统计和国家样本调查。MoSPI还负责监管中央统计局（CSO）和国家样本调查局（NSSO）。"
+      },
+      "website": "https://www.mospi.gov.in",
+      "data_url": "https://mospi.gov.in/data",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "IN",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment",
+        "prices",
+        "industry",
+        "agriculture",
+        "social",
+        "trade",
+        "education",
+        "health"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "India",
+        "MoSPI",
+        "official statistics",
+        "GDP",
+        "CPI",
+        "IIP",
+        "NSS",
+        "NSSO",
+        "CSO",
+        "national accounts",
+        "employment",
+        "population",
+        "census",
+        "social statistics",
+        "印度",
+        "官方统计",
+        "国民账户",
+        "消费者价格指数",
+        "工业生产",
+        "就业统计",
+        "人口普查"
+      ],
+      "data_content": {
+        "en": [
+          "National Accounts Statistics (GDP, GVA by sector)",
+          "Consumer Price Index (CPI) - Rural, Urban, Combined",
+          "Index of Industrial Production (IIP)",
+          "National Sample Survey (NSS) - employment, household expenditure",
+          "Annual Survey of Industries (ASI)",
+          "Economic Census data",
+          "Social Statistics (poverty, education, health indicators)",
+          "Time Use Survey",
+          "Sustainable Development Goals (SDG) India Index",
+          "Periodic Labour Force Survey (PLFS)",
+          "Price Statistics (WPI, CPI)",
+          "State-level GDP and economic statistics"
+        ],
+        "zh": [
+          "国民账户统计（GDP、分行业GVA）",
+          "消费者价格指数（CPI）——农村、城市、综合",
+          "工业生产指数（IIP）",
+          "国家样本调查（NSS）——就业、家庭支出",
+          "工业年度调查（ASI）",
+          "经济普查数据",
+          "社会统计（贫困、教育、卫生指标）",
+          "时间使用调查",
+          "可持续发展目标（SDG）印度指数",
+          "定期劳动力调查（PLFS）",
+          "价格统计（WPI、CPI）",
+          "各邦GDP和经济统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/india/india-mospi.json"
+    },
+    {
       "id": "boj-statistics",
       "name": {
         "en": "Bank of Japan Statistics",
@@ -7376,6 +7462,90 @@
       },
       "has_api": true,
       "file_path": "countries/europe/bank-of-england-statistics.json"
+    },
+    {
+      "id": "france-insee",
+      "name": {
+        "en": "INSEE - National Institute of Statistics and Economic Studies",
+        "zh": "法国国家统计与经济研究所",
+        "native": "Institut national de la statistique et des études économiques"
+      },
+      "description": {
+        "en": "INSEE (Institut national de la statistique et des études économiques) is the national statistics institute of France, responsible for the production and dissemination of official statistics on the French economy and society. It publishes data on GDP, inflation, employment, demographics, trade, industry, agriculture, and social indicators. INSEE provides the reference source for French official statistics and maintains the BDM (Banque de données macroéconomiques) time-series database.",
+        "zh": "INSEE（法国国家统计与经济研究所）是法国的国家统计机构，负责生产和发布有关法国经济和社会的官方统计数据。它发布GDP、通货膨胀、就业、人口统计、贸易、工业、农业和社会指标等数据。INSEE是法国官方统计数据的权威来源，并维护BDM（宏观经济数据库）时间序列数据库。"
+      },
+      "website": "https://www.insee.fr",
+      "data_url": "https://www.insee.fr/en/statistiques",
+      "api_url": "https://api.insee.fr/series/BDM/V1/",
+      "authority_level": "government",
+      "country": "FR",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment",
+        "prices",
+        "trade",
+        "industry",
+        "agriculture",
+        "social",
+        "housing",
+        "finance"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "France",
+        "INSEE",
+        "official statistics",
+        "GDP",
+        "inflation",
+        "employment",
+        "population",
+        "census",
+        "CPI",
+        "trade",
+        "national accounts",
+        "法国",
+        "国家统计",
+        "GDP",
+        "通货膨胀",
+        "就业",
+        "人口统计",
+        "价格指数",
+        "宏观经济"
+      ],
+      "data_content": {
+        "en": [
+          "National Accounts (GDP, GNP, value added by sector)",
+          "Consumer Price Index (CPI) and inflation measures",
+          "Employment and unemployment statistics (Labor Force Survey)",
+          "Population and census data",
+          "Industrial production indices",
+          "Foreign trade statistics",
+          "Business surveys and economic climate indicators",
+          "Household income and consumption",
+          "Housing and construction statistics",
+          "Agricultural production statistics",
+          "Regional and local statistics",
+          "BDM macroeconomic time-series database"
+        ],
+        "zh": [
+          "国民账户（GDP、GNP、分行业增加值）",
+          "消费者价格指数（CPI）和通胀指标",
+          "就业和失业统计（劳动力调查）",
+          "人口和普查数据",
+          "工业生产指数",
+          "对外贸易统计",
+          "企业调查和经济景气指标",
+          "家庭收入和消费",
+          "住房和建筑统计",
+          "农业生产统计",
+          "地区和地方统计",
+          "BDM宏观经济时间序列数据库"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/fr/france-insee.json"
     },
     {
       "id": "germany-destatis",
