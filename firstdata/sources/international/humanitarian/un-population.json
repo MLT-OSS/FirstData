@@ -1,0 +1,42 @@
+{
+  "id": "un-population",
+  "name": {
+    "en": "UN Population Division",
+    "zh": "联合国人口司"
+  },
+  "description": {
+    "en": "The UN Population Division provides authoritative estimates and projections of world population, fertility, mortality, and migration.",
+    "zh": "联合国人口司提供权威的全球人口估计和预测，涵盖生育率、死亡率和迁移数据。"
+  },
+  "website": "https://population.un.org",
+  "data_url": "https://population.un.org/wpp/",
+  "api_url": "https://population.un.org/dataportalapi/api/v1",
+  "data_content": {
+    "en": [
+      "World population prospects",
+      "population estimates",
+      "fertility rates",
+      "life expectancy",
+      "migration flows",
+      "urbanization projections"
+    ],
+    "zh": [
+      "世界人口展望、人口估计、生育率、预期寿命、迁移流动、城市化预测"
+    ]
+  },
+  "authority_level": "international",
+  "update_frequency": "irregular",
+  "coverage": "global",
+  "country_code": null,
+  "domains": [
+    "demographics"
+  ],
+  "tags": [
+    "population",
+    "fertility",
+    "mortality",
+    "migration",
+    "urbanization"
+  ],
+  "license": "open"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "japan-jma",
+  "name": {
+    "en": "Japan Meteorological Agency",
+    "zh": "日本气象厅"
+  },
+  "description": {
+    "en": "Japan's national meteorological agency providing weather forecasts, earthquake/tsunami monitoring, and climate data for the Asia-Pacific region.",
+    "zh": "日本国家气象机构，提供天气预报、地震/海啸监测和亚太地区气候数据。"
+  },
+  "website": "https://www.jma.go.jp",
+  "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+  "api_url": null,
+  "data_content": {
+    "en": [
+      "Weather observations",
+      "earthquake records",
+      "tsunami warnings",
+      "climate statistics",
+      "satellite imagery",
+      "volcanic activity data"
+    ],
+    "zh": [
+      "天气观测、地震记录、海啸预警、气候统计、卫星图像、火山活动数据"
+    ]
+  },
+  "authority_level": "government",
+  "update_frequency": "daily",
+  "coverage": "national",
+  "country_code": "JP",
+  "domains": [
+    "climate",
+    "environment",
+    "geoscience"
+  ],
+  "tags": [
+    "weather",
+    "earthquake",
+    "tsunami",
+    "japan",
+    "climate"
+  ],
+  "license": "open"
+}

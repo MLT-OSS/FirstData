@@ -1,0 +1,43 @@
+{
+  "id": "unhcr",
+  "name": {
+    "en": "UNHCR Refugee Data Finder",
+    "zh": "联合国难民署难民数据查询"
+  },
+  "description": {
+    "en": "UNHCR's statistical database on refugees, asylum-seekers, internally displaced persons, and stateless people worldwide.",
+    "zh": "联合国难民署关于全球难民、寻求庇护者、境内流离失所者和无国籍人的统计数据库。"
+  },
+  "website": "https://www.unhcr.org",
+  "data_url": "https://www.unhcr.org/refugee-statistics/",
+  "api_url": "https://api.unhcr.org/population/v1/",
+  "data_content": {
+    "en": [
+      "Refugee populations",
+      "asylum applications",
+      "internally displaced persons",
+      "stateless persons",
+      "resettlement data",
+      "country of origin/asylum statistics"
+    ],
+    "zh": [
+      "难民人口、庇护申请、境内流离失所者、无国籍人、重新安置数据、来源国/庇护国统计"
+    ]
+  },
+  "authority_level": "international",
+  "update_frequency": "annual",
+  "coverage": "global",
+  "country_code": null,
+  "domains": [
+    "demographics",
+    "humanitarian"
+  ],
+  "tags": [
+    "unhcr",
+    "refugees",
+    "asylum",
+    "displacement",
+    "humanitarian"
+  ],
+  "license": "open"
+}

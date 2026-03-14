@@ -1,0 +1,42 @@
+{
+  "id": "china-cbirc",
+  "name": {
+    "en": "China Banking and Insurance Regulatory Commission",
+    "zh": "中国银行保险监督管理委员会"
+  },
+  "description": {
+    "en": "China's financial regulatory authority overseeing banks and insurance companies, publishing credit, banking sector, and insurance industry statistics.",
+    "zh": "中国金融监管机构，监管银行和保险公司，发布信贷、银行业和保险业统计数据。"
+  },
+  "website": "https://www.cbirc.gov.cn",
+  "data_url": "https://www.cbirc.gov.cn/cn/view/pages/tongjishuju/tongjishuju.html",
+  "api_url": null,
+  "data_content": {
+    "en": [
+      "Banking sector statistics",
+      "insurance industry data",
+      "credit structure",
+      "social financing scale",
+      "financial institution balance sheets"
+    ],
+    "zh": [
+      "银行业统计、保险业数据、信贷结构、社会融资规模、金融机构资产负债表"
+    ]
+  },
+  "authority_level": "government",
+  "update_frequency": "quarterly",
+  "coverage": "national",
+  "country_code": "CN",
+  "domains": [
+    "finance",
+    "economics"
+  ],
+  "tags": [
+    "banking",
+    "insurance",
+    "financial-regulation",
+    "credit",
+    "china"
+  ],
+  "license": "open"
+}

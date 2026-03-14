@@ -1,0 +1,41 @@
+{
+  "id": "china-nea",
+  "name": {
+    "en": "National Energy Administration of China",
+    "zh": "国家能源局"
+  },
+  "description": {
+    "en": "China's National Energy Administration publishes energy production, consumption, and renewable energy statistics.",
+    "zh": "中国国家能源局发布能源生产、消费和可再生能源统计数据。"
+  },
+  "website": "https://www.nea.gov.cn",
+  "data_url": "https://www.nea.gov.cn/sjzz/",
+  "api_url": null,
+  "data_content": {
+    "en": [
+      "Electricity generation",
+      "energy consumption",
+      "renewable energy capacity",
+      "power grid statistics",
+      "oil and gas production"
+    ],
+    "zh": [
+      "发电量、能源消费、可再生能源装机、电网统计、油气生产"
+    ]
+  },
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "coverage": "national",
+  "country_code": "CN",
+  "domains": [
+    "energy"
+  ],
+  "tags": [
+    "energy",
+    "electricity",
+    "renewable",
+    "power",
+    "china"
+  ],
+  "license": "open"
+}

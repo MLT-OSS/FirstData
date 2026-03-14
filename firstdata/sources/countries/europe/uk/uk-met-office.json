@@ -1,0 +1,42 @@
+{
+  "id": "uk-met-office",
+  "name": {
+    "en": "UK Met Office",
+    "zh": "英国气象局"
+  },
+  "description": {
+    "en": "The UK's national weather service providing weather forecasts, climate data, and atmospheric research datasets.",
+    "zh": "英国国家气象服务机构，提供天气预报、气候数据和大气研究数据集。"
+  },
+  "website": "https://www.metoffice.gov.uk",
+  "data_url": "https://www.metoffice.gov.uk/research/climate/maps-and-data",
+  "api_url": "https://data.hub.api.metoffice.gov.uk",
+  "data_content": {
+    "en": [
+      "UK climate observations",
+      "global climate projections",
+      "HadCRUT temperature records",
+      "weather warnings",
+      "historical weather data"
+    ],
+    "zh": [
+      "英国气候观测、全球气候预测、HadCRUT温度记录、天气预警、历史天气数据"
+    ]
+  },
+  "authority_level": "government",
+  "update_frequency": "daily",
+  "coverage": "national",
+  "country_code": "GB",
+  "domains": [
+    "climate",
+    "environment"
+  ],
+  "tags": [
+    "weather",
+    "climate",
+    "temperature",
+    "hadcrut",
+    "uk"
+  ],
+  "license": "open"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ecmwf",
+  "name": {
+    "en": "European Centre for Medium-Range Weather Forecasts",
+    "zh": "欧洲中期天气预报中心"
+  },
+  "description": {
+    "en": "ECMWF is an independent intergovernmental organisation producing global numerical weather predictions and reanalysis datasets including ERA5.",
+    "zh": "ECMWF是独立的政府间组织，生产全球数值天气预报和再分析数据集（包括ERA5）。"
+  },
+  "website": "https://www.ecmwf.int",
+  "data_url": "https://cds.climate.copernicus.eu",
+  "api_url": "https://cds.climate.copernicus.eu/api",
+  "data_content": {
+    "en": [
+      "Global weather forecasts",
+      "ERA5 reanalysis",
+      "seasonal predictions",
+      "atmospheric composition data",
+      "ocean wave data"
+    ],
+    "zh": [
+      "全球天气预报、ERA5再分析数据、季节预测、大气成分数据、海洋波浪数据"
+    ]
+  },
+  "authority_level": "international",
+  "update_frequency": "daily",
+  "coverage": "global",
+  "country_code": null,
+  "domains": [
+    "climate",
+    "environment"
+  ],
+  "tags": [
+    "weather",
+    "era5",
+    "reanalysis",
+    "forecast",
+    "climate"
+  ],
+  "license": "open"
+}

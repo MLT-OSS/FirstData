@@ -1,0 +1,42 @@
+{
+  "id": "ipcc",
+  "name": {
+    "en": "IPCC Data Distribution Centre",
+    "zh": "政府间气候变化专门委员会数据分发中心"
+  },
+  "description": {
+    "en": "The IPCC Data Distribution Centre provides climate, socio-economic, and environmental data, both from the past and projected, to facilitate climate change research.",
+    "zh": "IPCC数据分发中心提供历史和预测的气候、社会经济及环境数据，用于促进气候变化研究。"
+  },
+  "website": "https://www.ipcc-data.org",
+  "data_url": "https://www.ipcc-data.org/observ/index.html",
+  "api_url": null,
+  "data_content": {
+    "en": [
+      "Climate model outputs",
+      "observed climate data",
+      "socio-economic scenarios",
+      "emission scenarios",
+      "sea level projections"
+    ],
+    "zh": [
+      "气候模型输出、观测气候数据、社会经济情景、排放情景、海平面预测"
+    ]
+  },
+  "authority_level": "international",
+  "update_frequency": "irregular",
+  "coverage": "global",
+  "country_code": null,
+  "domains": [
+    "climate",
+    "environment"
+  ],
+  "tags": [
+    "ipcc",
+    "climate-change",
+    "greenhouse-gas",
+    "temperature",
+    "sea-level"
+  ],
+  "license": "open"
+}

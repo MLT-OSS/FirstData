@@ -1,0 +1,44 @@
+{
+  "id": "who-gho",
+  "name": {
+    "en": "WHO Global Health Observatory",
+    "zh": "世界卫生组织全球卫生观察站"
+  },
+  "description": {
+    "en": "WHO's Global Health Observatory provides access to health statistics for WHO member states, including disease burden, health systems, and risk factors.",
+    "zh": "世界卫生组织全球卫生观察站提供成员国的卫生统计数据，包括疾病负担、卫生系统和风险因素。"
+  },
+  "website": "https://www.who.int/data/gho",
+  "data_url": "https://www.who.int/data/gho/data/indicators",
+  "api_url": "https://ghoapi.azureedge.net/api",
+  "data_content": {
+    "en": [
+      "Mortality",
+      "disease incidence",
+      "health workforce",
+      "immunization coverage",
+      "environmental health",
+      "NCDs",
+      "infectious diseases",
+      "UHC indicators"
+    ],
+    "zh": [
+      "死亡率、疾病发病率、卫生人力、免疫覆盖率、环境卫生、非传染性疾病、传染病、全民健康覆盖指标"
+    ]
+  },
+  "authority_level": "international",
+  "update_frequency": "annual",
+  "coverage": "global",
+  "country_code": null,
+  "domains": [
+    "health"
+  ],
+  "tags": [
+    "who",
+    "health",
+    "mortality",
+    "disease",
+    "immunization"
+  ],
+  "license": "open"
+}
