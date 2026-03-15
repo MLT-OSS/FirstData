@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "generated_at": "2026-03-14T02:05:04.067877+00:00",
+    "generated_at": "2026-03-15T01:06:02.490073+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 243,
-    "sources_with_api": 111,
-    "last_updated": "2026-03-14"
+    "total_sources": 252,
+    "sources_with_api": 117,
+    "last_updated": "2026-03-15"
   },
   "by_authority_level": {
     "research": 33,
-    "international": 59,
-    "government": 119,
+    "international": 65,
+    "government": 122,
     "market": 16,
     "commercial": 15,
     "other": 1
@@ -22,33 +22,33 @@
     "regional": 24
   },
   "by_update_frequency": {
-    "irregular": 45,
-    "daily": 45,
+    "irregular": 47,
+    "daily": 48,
     "weekly": 9,
     "quarterly": 26,
-    "monthly": 63,
-    "annual": 45,
+    "monthly": 64,
+    "annual": 48,
     "real-time": 10
   },
   "by_domain": {
     "economics": 83,
     "trade": 46,
+    "demographics": 40,
     "finance": 40,
-    "demographics": 37,
-    "health": 30,
-    "environment": 30,
-    "education": 30,
+    "environment": 34,
+    "health": 32,
+    "education": 31,
     "agriculture": 29,
     "social": 24,
     "employment": 15,
     "infrastructure": 15,
+    "energy": 15,
     "technology": 15,
-    "energy": 14,
+    "climate": 14,
     "industry": 14,
     "development": 13,
     "manufacturing": 12,
     "transportation": 11,
-    "climate": 10,
     "housing": 10,
     "statistics": 9,
     "banking": 9,
@@ -341,6 +341,7 @@
     "excise revenue": 1,
     "flow of funds": 1,
     "economic surveys": 1,
+    "geoscience": 1,
     "financial_statistics": 1,
     "national_accounts": 1,
     "price_indices": 1,
@@ -571,6 +572,7 @@
     "vector-borne diseases": 1,
     "food and waterborne diseases": 1,
     "respiratory diseases": 1,
+    "humanitarian": 1,
     "water_utilities": 1,
     "ict": 1,
     "trademarks": 1,

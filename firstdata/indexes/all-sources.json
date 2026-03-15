@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-14T02:05:04.067877+00:00",
-    "total_sources": 243,
+    "generated_at": "2026-03-15T01:06:02.490073+00:00",
+    "total_sources": 252,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -1888,6 +1888,49 @@
       "authority_level": "research",
       "has_api": false,
       "file_path": "academic/social/asian-barometer.json"
+    },
+    {
+      "id": "china-nea",
+      "name": {
+        "en": "National Energy Administration of China",
+        "zh": "国家能源局"
+      },
+      "description": {
+        "en": "China's National Energy Administration publishes energy production, consumption, and renewable energy statistics.",
+        "zh": "中国国家能源局发布能源生产、消费和可再生能源统计数据。"
+      },
+      "website": "https://www.nea.gov.cn",
+      "data_url": "https://www.nea.gov.cn/sjzz/",
+      "api_url": null,
+      "data_content": {
+        "en": [
+          "Electricity generation",
+          "energy consumption",
+          "renewable energy capacity",
+          "power grid statistics",
+          "oil and gas production"
+        ],
+        "zh": [
+          "发电量、能源消费、可再生能源装机、电网统计、油气生产"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "CN",
+      "domains": [
+        "energy"
+      ],
+      "tags": [
+        "energy",
+        "electricity",
+        "renewable",
+        "power",
+        "china"
+      ],
+      "license": "open",
+      "has_api": false,
+      "file_path": "china/china-nea.json"
     },
     {
       "id": "china-construction-standards",
@@ -6047,6 +6090,52 @@
       "file_path": "countries/asia/japan/japan-estat.json"
     },
     {
+      "id": "japan-jma",
+      "name": {
+        "en": "Japan Meteorological Agency",
+        "zh": "日本气象厅"
+      },
+      "description": {
+        "en": "Japan's national meteorological agency providing weather forecasts, earthquake/tsunami monitoring, and climate data for the Asia-Pacific region.",
+        "zh": "日本国家气象机构，提供天气预报、地震/海啸监测和亚太地区气候数据。"
+      },
+      "website": "https://www.jma.go.jp",
+      "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+      "api_url": null,
+      "data_content": {
+        "en": [
+          "Weather observations",
+          "earthquake records",
+          "tsunami warnings",
+          "climate statistics",
+          "satellite imagery",
+          "volcanic activity data"
+        ],
+        "zh": [
+          "天气观测、地震记录、海啸预警、气候统计、卫星图像、火山活动数据"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "daily",
+      "coverage": "national",
+      "country_code": "JP",
+      "domains": [
+        "climate",
+        "environment",
+        "geoscience"
+      ],
+      "tags": [
+        "weather",
+        "earthquake",
+        "tsunami",
+        "japan",
+        "climate"
+      ],
+      "license": "open",
+      "has_api": false,
+      "file_path": "countries/asia/japan/japan-jma.json"
+    },
+    {
       "id": "korea-bok",
       "name": {
         "en": "Bank of Korea",
@@ -7933,6 +8022,50 @@
       "authority_level": "government",
       "has_api": true,
       "file_path": "countries/europe/uk/uk-data-gov.json"
+    },
+    {
+      "id": "uk-met-office",
+      "name": {
+        "en": "UK Met Office",
+        "zh": "英国气象局"
+      },
+      "description": {
+        "en": "The UK's national weather service providing weather forecasts, climate data, and atmospheric research datasets.",
+        "zh": "英国国家气象服务机构，提供天气预报、气候数据和大气研究数据集。"
+      },
+      "website": "https://www.metoffice.gov.uk",
+      "data_url": "https://www.metoffice.gov.uk/research/climate/maps-and-data",
+      "api_url": "https://data.hub.api.metoffice.gov.uk",
+      "data_content": {
+        "en": [
+          "UK climate observations",
+          "global climate projections",
+          "HadCRUT temperature records",
+          "weather warnings",
+          "historical weather data"
+        ],
+        "zh": [
+          "英国气候观测、全球气候预测、HadCRUT温度记录、天气预警、历史天气数据"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "daily",
+      "coverage": "national",
+      "country_code": "GB",
+      "domains": [
+        "climate",
+        "environment"
+      ],
+      "tags": [
+        "weather",
+        "climate",
+        "temperature",
+        "hadcrut",
+        "uk"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/uk/uk-met-office.json"
     },
     {
       "id": "uk-ons-cpi-rpi",
@@ -10131,6 +10264,94 @@
       "authority_level": "international",
       "has_api": true,
       "file_path": "international/agriculture/faostat.json"
+    },
+    {
+      "id": "ecmwf",
+      "name": {
+        "en": "European Centre for Medium-Range Weather Forecasts",
+        "zh": "欧洲中期天气预报中心"
+      },
+      "description": {
+        "en": "ECMWF is an independent intergovernmental organisation producing global numerical weather predictions and reanalysis datasets including ERA5.",
+        "zh": "ECMWF是独立的政府间组织，生产全球数值天气预报和再分析数据集（包括ERA5）。"
+      },
+      "website": "https://www.ecmwf.int",
+      "data_url": "https://cds.climate.copernicus.eu",
+      "api_url": "https://cds.climate.copernicus.eu/api",
+      "data_content": {
+        "en": [
+          "Global weather forecasts",
+          "ERA5 reanalysis",
+          "seasonal predictions",
+          "atmospheric composition data",
+          "ocean wave data"
+        ],
+        "zh": [
+          "全球天气预报、ERA5再分析数据、季节预测、大气成分数据、海洋波浪数据"
+        ]
+      },
+      "authority_level": "international",
+      "update_frequency": "daily",
+      "coverage": "global",
+      "country_code": null,
+      "domains": [
+        "climate",
+        "environment"
+      ],
+      "tags": [
+        "weather",
+        "era5",
+        "reanalysis",
+        "forecast",
+        "climate"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "international/climate/ecmwf.json"
+    },
+    {
+      "id": "ipcc",
+      "name": {
+        "en": "IPCC Data Distribution Centre",
+        "zh": "政府间气候变化专门委员会数据分发中心"
+      },
+      "description": {
+        "en": "The IPCC Data Distribution Centre provides climate, socio-economic, and environmental data, both from the past and projected, to facilitate climate change research.",
+        "zh": "IPCC数据分发中心提供历史和预测的气候、社会经济及环境数据，用于促进气候变化研究。"
+      },
+      "website": "https://www.ipcc-data.org",
+      "data_url": "https://www.ipcc-data.org/observ/index.html",
+      "api_url": null,
+      "data_content": {
+        "en": [
+          "Climate model outputs",
+          "observed climate data",
+          "socio-economic scenarios",
+          "emission scenarios",
+          "sea level projections"
+        ],
+        "zh": [
+          "气候模型输出、观测气候数据、社会经济情景、排放情景、海平面预测"
+        ]
+      },
+      "authority_level": "international",
+      "update_frequency": "irregular",
+      "coverage": "global",
+      "country_code": null,
+      "domains": [
+        "climate",
+        "environment"
+      ],
+      "tags": [
+        "ipcc",
+        "climate-change",
+        "greenhouse-gas",
+        "temperature",
+        "sea-level"
+      ],
+      "license": "open",
+      "has_api": false,
+      "file_path": "international/climate/ipcc.json"
     },
     {
       "id": "eu-construction",
@@ -13393,6 +13614,188 @@
       "authority_level": "international",
       "has_api": false,
       "file_path": "international/health/ecdc-surveillance.json"
+    },
+    {
+      "id": "who-gho",
+      "name": {
+        "en": "WHO Global Health Observatory",
+        "zh": "世界卫生组织全球卫生观察站"
+      },
+      "description": {
+        "en": "WHO's Global Health Observatory provides access to health statistics for WHO member states, including disease burden, health systems, and risk factors.",
+        "zh": "世界卫生组织全球卫生观察站提供成员国的卫生统计数据，包括疾病负担、卫生系统和风险因素。"
+      },
+      "website": "https://www.who.int/data/gho",
+      "data_url": "https://www.who.int/data/gho/data/indicators",
+      "api_url": "https://ghoapi.azureedge.net/api",
+      "data_content": {
+        "en": [
+          "Mortality",
+          "disease incidence",
+          "health workforce",
+          "immunization coverage",
+          "environmental health",
+          "NCDs",
+          "infectious diseases",
+          "UHC indicators"
+        ],
+        "zh": [
+          "死亡率、疾病发病率、卫生人力、免疫覆盖率、环境卫生、非传染性疾病、传染病、全民健康覆盖指标"
+        ]
+      },
+      "authority_level": "international",
+      "update_frequency": "annual",
+      "coverage": "global",
+      "country_code": null,
+      "domains": [
+        "health"
+      ],
+      "tags": [
+        "who",
+        "health",
+        "mortality",
+        "disease",
+        "immunization"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "international/health/who-gho.json"
+    },
+    {
+      "id": "un-population",
+      "name": {
+        "en": "UN Population Division",
+        "zh": "联合国人口司"
+      },
+      "description": {
+        "en": "The UN Population Division provides authoritative estimates and projections of world population, fertility, mortality, and migration.",
+        "zh": "联合国人口司提供权威的全球人口估计和预测，涵盖生育率、死亡率和迁移数据。"
+      },
+      "website": "https://population.un.org",
+      "data_url": "https://population.un.org/wpp/",
+      "api_url": "https://population.un.org/dataportalapi/api/v1",
+      "data_content": {
+        "en": [
+          "World population prospects",
+          "population estimates",
+          "fertility rates",
+          "life expectancy",
+          "migration flows",
+          "urbanization projections"
+        ],
+        "zh": [
+          "世界人口展望、人口估计、生育率、预期寿命、迁移流动、城市化预测"
+        ]
+      },
+      "authority_level": "international",
+      "update_frequency": "irregular",
+      "coverage": "global",
+      "country_code": null,
+      "domains": [
+        "demographics"
+      ],
+      "tags": [
+        "population",
+        "fertility",
+        "mortality",
+        "migration",
+        "urbanization"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "international/humanitarian/un-population.json"
+    },
+    {
+      "id": "unhcr",
+      "name": {
+        "en": "UNHCR Refugee Data Finder",
+        "zh": "联合国难民署难民数据查询"
+      },
+      "description": {
+        "en": "UNHCR's statistical database on refugees, asylum-seekers, internally displaced persons, and stateless people worldwide.",
+        "zh": "联合国难民署关于全球难民、寻求庇护者、境内流离失所者和无国籍人的统计数据库。"
+      },
+      "website": "https://www.unhcr.org",
+      "data_url": "https://www.unhcr.org/refugee-statistics/",
+      "api_url": "https://api.unhcr.org/population/v1/",
+      "data_content": {
+        "en": [
+          "Refugee populations",
+          "asylum applications",
+          "internally displaced persons",
+          "stateless persons",
+          "resettlement data",
+          "country of origin/asylum statistics"
+        ],
+        "zh": [
+          "难民人口、庇护申请、境内流离失所者、无国籍人、重新安置数据、来源国/庇护国统计"
+        ]
+      },
+      "authority_level": "international",
+      "update_frequency": "annual",
+      "coverage": "global",
+      "country_code": null,
+      "domains": [
+        "demographics",
+        "humanitarian"
+      ],
+      "tags": [
+        "unhcr",
+        "refugees",
+        "asylum",
+        "displacement",
+        "humanitarian"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "international/humanitarian/unhcr.json"
+    },
+    {
+      "id": "unicef",
+      "name": {
+        "en": "UNICEF Data",
+        "zh": "联合国儿童基金会数据"
+      },
+      "description": {
+        "en": "UNICEF collects and disseminates data on the situation of children and women worldwide, including health, education, and child protection indicators.",
+        "zh": "联合国儿童基金会收集和发布全球儿童和妇女状况数据，包括健康、教育和儿童保护指标。"
+      },
+      "website": "https://data.unicef.org",
+      "data_url": "https://data.unicef.org/resources/resource-type/datasets/",
+      "api_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest",
+      "data_content": {
+        "en": [
+          "Child mortality",
+          "immunization",
+          "nutrition",
+          "education",
+          "child protection",
+          "water and sanitation",
+          "HIV/AIDS indicators"
+        ],
+        "zh": [
+          "儿童死亡率、免疫接种、营养、教育、儿童保护、水与卫生、艾滋病指标"
+        ]
+      },
+      "authority_level": "international",
+      "update_frequency": "annual",
+      "coverage": "global",
+      "country_code": null,
+      "domains": [
+        "health",
+        "demographics",
+        "education"
+      ],
+      "tags": [
+        "unicef",
+        "children",
+        "health",
+        "education",
+        "development"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "international/humanitarian/unicef.json"
     },
     {
       "id": "unctad-infrastructure-statistics",

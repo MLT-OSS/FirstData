@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-14T02:05:04.067877+00:00",
-    "total_domains": 688,
-    "total_sources": 243,
+    "generated_at": "2026-03-15T01:06:02.490073+00:00",
+    "total_domains": 690,
+    "total_sources": 252,
     "version": "2.0"
   },
   "domains": {
@@ -2336,6 +2336,28 @@
         "geographic_scope": "national"
       },
       {
+        "id": "japan-jma",
+        "name": {
+          "en": "Japan Meteorological Agency",
+          "zh": "日本气象厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-jma.json"
+      },
+      {
+        "id": "uk-met-office",
+        "name": {
+          "en": "UK Met Office",
+          "zh": "英国气象局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.metoffice.gov.uk/research/climate/maps-and-data",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-met-office.json"
+      },
+      {
         "id": "noaa-cdo",
         "name": {
           "en": "NOAA Climate Data Online (CDO)",
@@ -2370,6 +2392,28 @@
         "has_api": true,
         "file_path": "countries/oceania/australia/bureau-of-meteorology.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "ecmwf",
+        "name": {
+          "en": "European Centre for Medium-Range Weather Forecasts",
+          "zh": "欧洲中期天气预报中心"
+        },
+        "authority_level": "international",
+        "data_url": "https://cds.climate.copernicus.eu",
+        "has_api": true,
+        "file_path": "international/climate/ecmwf.json"
+      },
+      {
+        "id": "ipcc",
+        "name": {
+          "en": "IPCC Data Distribution Centre",
+          "zh": "政府间气候变化专门委员会数据分发中心"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ipcc-data.org/observ/index.html",
+        "has_api": false,
+        "file_path": "international/climate/ipcc.json"
       },
       {
         "id": "nasa-earthdata",
@@ -4162,6 +4206,39 @@
         "has_api": true,
         "file_path": "international/economics/eurostat.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "un-population",
+        "name": {
+          "en": "UN Population Division",
+          "zh": "联合国人口司"
+        },
+        "authority_level": "international",
+        "data_url": "https://population.un.org/wpp/",
+        "has_api": true,
+        "file_path": "international/humanitarian/un-population.json"
+      },
+      {
+        "id": "unhcr",
+        "name": {
+          "en": "UNHCR Refugee Data Finder",
+          "zh": "联合国难民署难民数据查询"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.unhcr.org/refugee-statistics/",
+        "has_api": true,
+        "file_path": "international/humanitarian/unhcr.json"
+      },
+      {
+        "id": "unicef",
+        "name": {
+          "en": "UNICEF Data",
+          "zh": "联合国儿童基金会数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.unicef.org/resources/resource-type/datasets/",
+        "has_api": true,
+        "file_path": "international/humanitarian/unicef.json"
       },
       {
         "id": "mexico-inegi",
@@ -6593,6 +6670,17 @@
         "has_api": false,
         "file_path": "international/education/oecd-pisa.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "unicef",
+        "name": {
+          "en": "UNICEF Data",
+          "zh": "联合国儿童基金会数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.unicef.org/resources/resource-type/datasets/",
+        "has_api": true,
+        "file_path": "international/humanitarian/unicef.json"
       }
     ],
     "education and health": [
@@ -7059,6 +7147,17 @@
     ],
     "energy": [
       {
+        "id": "china-nea",
+        "name": {
+          "en": "National Energy Administration of China",
+          "zh": "国家能源局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nea.gov.cn/sjzz/",
+        "has_api": false,
+        "file_path": "china/china-nea.json"
+      },
+      {
         "id": "china-ndrc-computing",
         "name": {
           "en": "NDRC East-to-West Computing Resources Project",
@@ -7511,6 +7610,17 @@
         "geographic_scope": "national"
       },
       {
+        "id": "japan-jma",
+        "name": {
+          "en": "Japan Meteorological Agency",
+          "zh": "日本气象厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-jma.json"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -7570,6 +7680,17 @@
         "has_api": true,
         "file_path": "countries/europe/uk/uk-data-gov.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "uk-met-office",
+        "name": {
+          "en": "UK Met Office",
+          "zh": "英国气象局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.metoffice.gov.uk/research/climate/maps-and-data",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-met-office.json"
       },
       {
         "id": "canada-statcan",
@@ -7643,6 +7764,28 @@
         "has_api": true,
         "file_path": "international/agriculture/faostat.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "ecmwf",
+        "name": {
+          "en": "European Centre for Medium-Range Weather Forecasts",
+          "zh": "欧洲中期天气预报中心"
+        },
+        "authority_level": "international",
+        "data_url": "https://cds.climate.copernicus.eu",
+        "has_api": true,
+        "file_path": "international/climate/ecmwf.json"
+      },
+      {
+        "id": "ipcc",
+        "name": {
+          "en": "IPCC Data Distribution Centre",
+          "zh": "政府间气候变化专门委员会数据分发中心"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ipcc-data.org/observ/index.html",
+        "has_api": false,
+        "file_path": "international/climate/ipcc.json"
       },
       {
         "id": "adb-data-library",
@@ -9967,6 +10110,19 @@
         "geographic_scope": "global"
       }
     ],
+    "geoscience": [
+      {
+        "id": "japan-jma",
+        "name": {
+          "en": "Japan Meteorological Agency",
+          "zh": "日本气象厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-jma.json"
+      }
+    ],
     "geospatial": [
       {
         "id": "china-resdc",
@@ -10683,6 +10839,28 @@
         "has_api": true,
         "file_path": "international/economics/worldbank.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "who-gho",
+        "name": {
+          "en": "WHO Global Health Observatory",
+          "zh": "世界卫生组织全球卫生观察站"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.who.int/data/gho/data/indicators",
+        "has_api": true,
+        "file_path": "international/health/who-gho.json"
+      },
+      {
+        "id": "unicef",
+        "name": {
+          "en": "UNICEF Data",
+          "zh": "联合国儿童基金会数据"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.unicef.org/resources/resource-type/datasets/",
+        "has_api": true,
+        "file_path": "international/humanitarian/unicef.json"
       }
     ],
     "health and education": [
@@ -11160,6 +11338,19 @@
         "has_api": false,
         "file_path": "academic/social/afrobarometer.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "humanitarian": [
+      {
+        "id": "unhcr",
+        "name": {
+          "en": "UNHCR Refugee Data Finder",
+          "zh": "联合国难民署难民数据查询"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.unhcr.org/refugee-statistics/",
+        "has_api": true,
+        "file_path": "international/humanitarian/unhcr.json"
       }
     ],
     "hydrogeology": [
