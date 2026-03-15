@@ -1,0 +1,47 @@
+{
+  "id": "spain-ine",
+  "name": {
+    "en": "Instituto Nacional de Estadística (INE Spain)",
+    "zh": "西班牙国家统计局",
+    "native": "Instituto Nacional de Estadística"
+  },
+  "description": {
+    "en": "Spain's official national statistics institute, responsible for producing and disseminating economic, demographic, social, and environmental statistics. Covers census data, population surveys, CPI, industrial output, labor market statistics, and more.",
+    "zh": "西班牙官方国家统计机构，负责生产和传播经济、人口、社会和环境统计数据，涵盖人口普查、消费者价格指数、工业产出、劳动市场统计等。"
+  },
+  "website": "https://www.ine.es/en/index.htm",
+  "data_url": "https://www.ine.es/en/prensa/prensa_encuesta_en.htm",
+  "api_url": "https://servicios.ine.es/wstempus/js/en/OPERACIONES_DISPONIBLES",
+  "authority_level": "government",
+  "country": "ES",
+  "domains": ["economics", "demographics", "social", "environment", "labor"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "INE", "Spain", "España", "statistics", "census", "CPI", "inflation",
+    "population", "employment", "GDP", "西班牙", "统计", "人口", "通胀",
+    "劳动市场", "国家统计", "欧盟"
+  ],
+  "data_content": {
+    "en": [
+      "Population census and projections",
+      "Consumer Price Index (CPI) and inflation",
+      "Labor force survey and unemployment",
+      "Industrial production index",
+      "GDP and national accounts",
+      "Agricultural, fishery, and forestry statistics",
+      "Health and social surveys",
+      "Environmental accounts"
+    ],
+    "zh": [
+      "人口普查与预测",
+      "消费者价格指数（CPI）与通货膨胀",
+      "劳动力调查与失业率",
+      "工业生产指数",
+      "GDP与国民账户",
+      "农业、渔业和林业统计",
+      "卫生与社会调查",
+      "环境账户"
+    ]
+  }
+}

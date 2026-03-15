@@ -1,0 +1,47 @@
+{
+  "id": "italy-istat",
+  "name": {
+    "en": "Italian National Institute of Statistics (ISTAT)",
+    "zh": "意大利国家统计局",
+    "native": "Istituto Nazionale di Statistica"
+  },
+  "description": {
+    "en": "Italy's official national statistics institute, producing authoritative data on population, economy, society, and environment. Provides census data, national accounts, labor market statistics, consumer prices, and cross-sectoral surveys for Italy and its regions.",
+    "zh": "意大利官方国家统计机构，提供人口、经济、社会和环境领域的权威统计数据，包括人口普查、国民账户、劳动市场、消费者价格及跨部门调查。"
+  },
+  "website": "https://www.istat.it/en/",
+  "data_url": "https://esploradati.istat.it/databrowser/",
+  "api_url": "https://sdmx.istat.it/SDMXWS/rest/",
+  "authority_level": "government",
+  "country": "IT",
+  "domains": ["economics", "demographics", "social", "environment", "labor"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "ISTAT", "Italy", "Italia", "statistics", "census", "CPI", "inflation",
+    "population", "employment", "GDP", "意大利", "统计", "人口", "通胀",
+    "劳动市场", "国民账户", "欧盟", "SDMX"
+  ],
+  "data_content": {
+    "en": [
+      "Population census and demographic projections",
+      "National accounts and GDP",
+      "Consumer price index and inflation",
+      "Labor force survey and employment",
+      "Industrial and construction output",
+      "External trade statistics",
+      "Environmental accounts",
+      "Regional statistics by Italian provinces"
+    ],
+    "zh": [
+      "人口普查与人口预测",
+      "国民账户与GDP",
+      "消费者价格指数与通货膨胀",
+      "劳动力调查与就业",
+      "工业与建筑产出",
+      "对外贸易统计",
+      "环境账户",
+      "意大利各省区域统计"
+    ]
+  }
+}
