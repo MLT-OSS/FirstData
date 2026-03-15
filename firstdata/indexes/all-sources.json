@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T01:06:02.490073+00:00",
-    "total_sources": 252,
+    "generated_at": "2026-03-15T02:07:17.077611+00:00",
+    "total_sources": 254,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -7791,6 +7791,104 @@
       },
       "has_api": true,
       "file_path": "countries/europe/germany/germany-destatis.json"
+    },
+    {
+      "id": "italy-istat",
+      "name": {
+        "en": "Italian National Institute of Statistics",
+        "zh": "意大利国家统计局"
+      },
+      "description": {
+        "en": "Italy's official statistical agency producing national accounts, population census, labor market, and regional statistics.",
+        "zh": "意大利官方统计机构，发布国民账户、人口普查、劳动力市场和区域统计数据。"
+      },
+      "website": "https://www.istat.it",
+      "data_url": "https://esploradati.istat.it/databrowser/",
+      "api_url": "https://esploradati.istat.it/SDMXWS/rest",
+      "data_content": {
+        "en": [
+          "National accounts and GDP",
+          "Population census",
+          "Labor market statistics",
+          "Consumer price index",
+          "Regional economic indicators"
+        ],
+        "zh": [
+          "国民账户与GDP",
+          "人口普查",
+          "劳动力市场统计",
+          "消费者价格指数",
+          "区域经济指标"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "IT",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment"
+      ],
+      "tags": [
+        "italy",
+        "statistics",
+        "gdp",
+        "census",
+        "labor"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/italy/italy-istat.json"
+    },
+    {
+      "id": "spain-ine",
+      "name": {
+        "en": "National Statistics Institute of Spain",
+        "zh": "西班牙国家统计局"
+      },
+      "description": {
+        "en": "Spain's national statistical office producing official statistics on demographics, economy, labor market, and social conditions.",
+        "zh": "西班牙国家统计机构，发布人口、经济、劳动力市场和社会状况的官方统计数据。"
+      },
+      "website": "https://www.ine.es",
+      "data_url": "https://www.ine.es/dyngs/INEbase/listaoperaciones.htm",
+      "api_url": "https://servicios.ine.es/wstempus/js",
+      "data_content": {
+        "en": [
+          "CPI and inflation",
+          "Labor force survey",
+          "Population census",
+          "GDP and national accounts",
+          "Industrial production index"
+        ],
+        "zh": [
+          "消费者价格指数与通胀",
+          "劳动力调查",
+          "人口普查",
+          "GDP与国民账户",
+          "工业生产指数"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "ES",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment"
+      ],
+      "tags": [
+        "spain",
+        "statistics",
+        "cpi",
+        "labor",
+        "gdp"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/spain/spain-ine.json"
     },
     {
       "id": "turkey-tuik",

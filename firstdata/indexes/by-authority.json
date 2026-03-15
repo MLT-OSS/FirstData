@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T01:06:02.490073+00:00",
-    "total_sources": 252,
+    "generated_at": "2026-03-15T02:07:17.077611+00:00",
+    "total_sources": 254,
     "authority_counts": {
       "research": 33,
       "international": 65,
-      "government": 122,
+      "government": 124,
       "market": 16,
       "commercial": 15,
       "other": 1
@@ -2199,6 +2199,28 @@
         "has_api": true,
         "file_path": "countries/europe/germany/germany-destatis.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "italy-istat",
+        "name": {
+          "en": "Italian National Institute of Statistics",
+          "zh": "意大利国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://esploradati.istat.it/databrowser/",
+        "has_api": true,
+        "file_path": "countries/europe/italy/italy-istat.json"
+      },
+      {
+        "id": "spain-ine",
+        "name": {
+          "en": "National Statistics Institute of Spain",
+          "zh": "西班牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.es/dyngs/INEbase/listaoperaciones.htm",
+        "has_api": true,
+        "file_path": "countries/europe/spain/spain-ine.json"
       },
       {
         "id": "turkey-tuik",
