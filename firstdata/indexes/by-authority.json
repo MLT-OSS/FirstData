@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T02:07:17.077611+00:00",
-    "total_sources": 254,
+    "generated_at": "2026-03-16T02:08:40.047224+00:00",
+    "total_sources": 256,
     "authority_counts": {
       "research": 33,
       "international": 65,
-      "government": 124,
+      "government": 126,
       "market": 16,
       "commercial": 15,
       "other": 1
@@ -2212,6 +2212,17 @@
         "file_path": "countries/europe/italy/italy-istat.json"
       },
       {
+        "id": "netherlands-cbs",
+        "name": {
+          "en": "Statistics Netherlands (CBS)",
+          "zh": "荷兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://opendata.cbs.nl/statline/",
+        "has_api": true,
+        "file_path": "countries/europe/netherlands/netherlands-cbs.json"
+      },
+      {
         "id": "spain-ine",
         "name": {
           "en": "National Statistics Institute of Spain",
@@ -2221,6 +2232,17 @@
         "data_url": "https://www.ine.es/dyngs/INEbase/listaoperaciones.htm",
         "has_api": true,
         "file_path": "countries/europe/spain/spain-ine.json"
+      },
+      {
+        "id": "sweden-scb",
+        "name": {
+          "en": "Statistics Sweden (SCB)",
+          "zh": "瑞典统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statistikdatabasen.scb.se",
+        "has_api": true,
+        "file_path": "countries/europe/sweden/sweden-scb.json"
       },
       {
         "id": "turkey-tuik",

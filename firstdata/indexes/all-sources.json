@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T02:07:17.077611+00:00",
-    "total_sources": 254,
+    "generated_at": "2026-03-16T02:08:40.047224+00:00",
+    "total_sources": 256,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -7842,6 +7842,63 @@
       "file_path": "countries/europe/italy/italy-istat.json"
     },
     {
+      "id": "netherlands-cbs",
+      "name": {
+        "en": "Statistics Netherlands (CBS)",
+        "zh": "荷兰统计局"
+      },
+      "description": {
+        "en": "The Dutch national statistical office providing comprehensive statistics on population, economy, trade, and society.",
+        "zh": "荷兰国家统计机构，提供人口、经济、贸易和社会的综合统计数据。"
+      },
+      "website": "https://www.cbs.nl",
+      "data_url": "https://opendata.cbs.nl/statline/",
+      "api_url": "https://odata4.cbs.nl/CBS/Datasets",
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Population demographics",
+          "International trade",
+          "Labor market statistics",
+          "Consumer price index",
+          "Housing and construction",
+          "Environment and energy"
+        ],
+        "zh": [
+          "GDP与国民账户",
+          "人口统计",
+          "国际贸易",
+          "劳动力市场",
+          "消费者价格指数",
+          "住房与建设",
+          "环境与能源"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "NL",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "employment",
+        "environment",
+        "housing",
+        "energy"
+      ],
+      "tags": [
+        "netherlands",
+        "statistics",
+        "cbs",
+        "odata",
+        "gdp"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/netherlands/netherlands-cbs.json"
+    },
+    {
       "id": "spain-ine",
       "name": {
         "en": "National Statistics Institute of Spain",
@@ -7889,6 +7946,63 @@
       "license": "open",
       "has_api": true,
       "file_path": "countries/europe/spain/spain-ine.json"
+    },
+    {
+      "id": "sweden-scb",
+      "name": {
+        "en": "Statistics Sweden (SCB)",
+        "zh": "瑞典统计局"
+      },
+      "description": {
+        "en": "Sweden's central government authority for official statistics covering population, economy, labor market, and living conditions.",
+        "zh": "瑞典中央统计局，提供人口、经济、劳动力市场和生活条件的官方统计数据。"
+      },
+      "website": "https://www.scb.se",
+      "data_url": "https://www.statistikdatabasen.scb.se",
+      "api_url": "https://api.scb.se/OV0104/v1/doris/en",
+      "data_content": {
+        "en": [
+          "Population statistics",
+          "GDP and economic indicators",
+          "Labor force surveys",
+          "Foreign trade",
+          "Consumer price index",
+          "Education statistics",
+          "Environmental accounts"
+        ],
+        "zh": [
+          "人口统计",
+          "GDP与经济指标",
+          "劳动力调查",
+          "对外贸易",
+          "消费者价格指数",
+          "教育统计",
+          "环境账户"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "SE",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "employment",
+        "education",
+        "environment",
+        "energy"
+      ],
+      "tags": [
+        "sweden",
+        "statistics",
+        "scb",
+        "gdp",
+        "population"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/sweden/sweden-scb.json"
     },
     {
       "id": "turkey-tuik",
