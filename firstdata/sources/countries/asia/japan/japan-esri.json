@@ -1,0 +1,25 @@
+{
+  "id": "japan-esri",
+  "name": {
+    "en": "Economic and Social Research Institute, Cabinet Office of Japan",
+    "zh": "日本内阁府经济社会综合研究所"
+  },
+  "description": {
+    "en": "Japan's Cabinet Office institute responsible for national accounts (GDP/SNA), economic indicators, and business cycle research.",
+    "zh": "日本内阁府下属机构，负责国民账户（GDP/SNA）、经济指标和景气循环研究。"
+  },
+  "website": "https://www.esri.cao.go.jp",
+  "data_url": "https://www.esri.cao.go.jp/en/sna/menu.html",
+  "api_url": null,
+  "data_content": {
+    "en": ["GDP and System of National Accounts", "Quarterly GDP estimates", "Business cycle indicators", "Consumer confidence survey", "Economic outlook forecasts"],
+    "zh": ["GDP与国民经济计算体系", "季度GDP估算", "景气循环指标", "消费者信心调查", "经济展望预测"]
+  },
+  "authority_level": "government",
+  "update_frequency": "quarterly",
+  "coverage": "national",
+  "country_code": "JP",
+  "domains": ["economics"],
+  "tags": ["japan", "gdp", "sna", "national-accounts", "business-cycle"],
+  "license": "open"
+}
