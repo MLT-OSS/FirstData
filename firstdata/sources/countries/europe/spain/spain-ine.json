@@ -12,14 +12,35 @@
   "data_url": "https://www.ine.es/dyngs/INEbase/listaoperaciones.htm",
   "api_url": "https://servicios.ine.es/wstempus/js",
   "data_content": {
-    "en": ["CPI and inflation", "Labor force survey", "Population census", "GDP and national accounts", "Industrial production index"],
-    "zh": ["消费者价格指数与通胀", "劳动力调查", "人口普查", "GDP与国民账户", "工业生产指数"]
+    "en": [
+      "CPI and inflation",
+      "Labor force survey",
+      "Population census",
+      "GDP and national accounts",
+      "Industrial production index"
+    ],
+    "zh": [
+      "消费者价格指数与通胀",
+      "劳动力调查",
+      "人口普查",
+      "GDP与国民账户",
+      "工业生产指数"
+    ]
   },
   "authority_level": "government",
   "update_frequency": "monthly",
-  "coverage": "national",
-  "country_code": "ES",
-  "domains": ["economics", "demographics", "employment"],
-  "tags": ["spain", "statistics", "cpi", "labor", "gdp"],
-  "license": "open"
+  "domains": [
+    "economics",
+    "demographics",
+    "employment"
+  ],
+  "tags": [
+    "spain",
+    "statistics",
+    "cpi",
+    "labor",
+    "gdp"
+  ],
+  "country": "ES",
+  "geographic_scope": "national"
 }

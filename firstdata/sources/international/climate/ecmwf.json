@@ -25,8 +25,6 @@
   },
   "authority_level": "international",
   "update_frequency": "daily",
-  "coverage": "global",
-  "country_code": null,
   "domains": [
     "climate",
     "environment"
@@ -38,5 +36,6 @@
     "forecast",
     "climate"
   ],
-  "license": "open"
+  "country": null,
+  "geographic_scope": "global"
 }

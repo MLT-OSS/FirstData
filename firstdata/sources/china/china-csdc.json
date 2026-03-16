@@ -12,14 +12,33 @@
   "data_url": "https://www.chinaclear.cn/zdjs/tjyb/center_tjbg.shtml",
   "api_url": null,
   "data_content": {
-    "en": ["Investor account statistics", "Securities settlement data", "Market capitalization reports", "Bond custody data", "Monthly statistical bulletins"],
-    "zh": ["投资者账户统计", "证券结算数据", "市值报告", "债券托管数据", "月度统计公报"]
+    "en": [
+      "Investor account statistics",
+      "Securities settlement data",
+      "Market capitalization reports",
+      "Bond custody data",
+      "Monthly statistical bulletins"
+    ],
+    "zh": [
+      "投资者账户统计",
+      "证券结算数据",
+      "市值报告",
+      "债券托管数据",
+      "月度统计公报"
+    ]
   },
   "authority_level": "other",
   "update_frequency": "monthly",
-  "coverage": "national",
-  "country_code": "CN",
-  "domains": ["finance"],
-  "tags": ["securities", "clearing", "settlement", "investor", "china"],
-  "license": "open"
+  "domains": [
+    "finance"
+  ],
+  "tags": [
+    "securities",
+    "clearing",
+    "settlement",
+    "investor",
+    "china"
+  ],
+  "country": "CN",
+  "geographic_scope": "national"
 }

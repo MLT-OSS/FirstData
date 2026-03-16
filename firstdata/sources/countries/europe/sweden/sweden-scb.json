@@ -12,14 +12,43 @@
   "data_url": "https://www.statistikdatabasen.scb.se",
   "api_url": "https://api.scb.se/OV0104/v1/doris/en",
   "data_content": {
-    "en": ["Population statistics", "GDP and economic indicators", "Labor force surveys", "Foreign trade", "Consumer price index", "Education statistics", "Environmental accounts"],
-    "zh": ["人口统计", "GDP与经济指标", "劳动力调查", "对外贸易", "消费者价格指数", "教育统计", "环境账户"]
+    "en": [
+      "Population statistics",
+      "GDP and economic indicators",
+      "Labor force surveys",
+      "Foreign trade",
+      "Consumer price index",
+      "Education statistics",
+      "Environmental accounts"
+    ],
+    "zh": [
+      "人口统计",
+      "GDP与经济指标",
+      "劳动力调查",
+      "对外贸易",
+      "消费者价格指数",
+      "教育统计",
+      "环境账户"
+    ]
   },
   "authority_level": "government",
   "update_frequency": "monthly",
-  "coverage": "national",
-  "country_code": "SE",
-  "domains": ["economics", "demographics", "trade", "employment", "education", "environment", "energy"],
-  "tags": ["sweden", "statistics", "scb", "gdp", "population"],
-  "license": "open"
+  "domains": [
+    "economics",
+    "demographics",
+    "trade",
+    "employment",
+    "education",
+    "environment",
+    "energy"
+  ],
+  "tags": [
+    "sweden",
+    "statistics",
+    "scb",
+    "gdp",
+    "population"
+  ],
+  "country": "SE",
+  "geographic_scope": "national"
 }

@@ -78,14 +78,6 @@
     "en": "Varies by dataset: Daily (exchange rates, SONIA), Weekly (money markets), Monthly (lending, deposits), Quarterly (detailed breakdowns)",
     "zh": "因数据集而异：每日（汇率、SONIA）、每周（货币市场）、每月（信贷、存款）、每季度（详细分类）"
   },
-  "license": {
-    "type": "Open Government Licence",
-    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-    "notes": {
-      "en": "Most data published under UK Open Government Licence v3.0, allowing free reuse with attribution. Some exchange rate data excluded due to third-party licensing.",
-      "zh": "大部分数据根据英国开放政府许可证 v3.0 发布，允许署名后自由使用。部分汇率数据因第三方许可而不包含在内。"
-    }
-  },
   "support": {
     "email": "BEEDSQueries@bankofengland.co.uk"
   },

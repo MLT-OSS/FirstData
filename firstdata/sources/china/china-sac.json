@@ -12,14 +12,33 @@
   "data_url": "https://www.sac.net.cn/hysj/",
   "api_url": null,
   "data_content": {
-    "en": ["Securities broker rankings", "Industry revenue statistics", "Member firm data", "Practitioner registration", "Securities market overview"],
-    "zh": ["券商排名", "行业营收统计", "会员公司数据", "从业人员注册", "证券市场概览"]
+    "en": [
+      "Securities broker rankings",
+      "Industry revenue statistics",
+      "Member firm data",
+      "Practitioner registration",
+      "Securities market overview"
+    ],
+    "zh": [
+      "券商排名",
+      "行业营收统计",
+      "会员公司数据",
+      "从业人员注册",
+      "证券市场概览"
+    ]
   },
   "authority_level": "other",
   "update_frequency": "quarterly",
-  "coverage": "national",
-  "country_code": "CN",
-  "domains": ["finance"],
-  "tags": ["securities", "broker", "china", "sac", "ranking"],
-  "license": "open"
+  "domains": [
+    "finance"
+  ],
+  "tags": [
+    "securities",
+    "broker",
+    "china",
+    "sac",
+    "ranking"
+  ],
+  "country": "CN",
+  "geographic_scope": "national"
 }

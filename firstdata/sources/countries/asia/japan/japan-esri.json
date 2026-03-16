@@ -12,14 +12,33 @@
   "data_url": "https://www.esri.cao.go.jp/en/sna/menu.html",
   "api_url": null,
   "data_content": {
-    "en": ["GDP and System of National Accounts", "Quarterly GDP estimates", "Business cycle indicators", "Consumer confidence survey", "Economic outlook forecasts"],
-    "zh": ["GDP与国民经济计算体系", "季度GDP估算", "景气循环指标", "消费者信心调查", "经济展望预测"]
+    "en": [
+      "GDP and System of National Accounts",
+      "Quarterly GDP estimates",
+      "Business cycle indicators",
+      "Consumer confidence survey",
+      "Economic outlook forecasts"
+    ],
+    "zh": [
+      "GDP与国民经济计算体系",
+      "季度GDP估算",
+      "景气循环指标",
+      "消费者信心调查",
+      "经济展望预测"
+    ]
   },
   "authority_level": "government",
   "update_frequency": "quarterly",
-  "coverage": "national",
-  "country_code": "JP",
-  "domains": ["economics"],
-  "tags": ["japan", "gdp", "sna", "national-accounts", "business-cycle"],
-  "license": "open"
+  "domains": [
+    "economics"
+  ],
+  "tags": [
+    "japan",
+    "gdp",
+    "sna",
+    "national-accounts",
+    "business-cycle"
+  ],
+  "country": "JP",
+  "geographic_scope": "national"
 }

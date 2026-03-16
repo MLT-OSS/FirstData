@@ -26,8 +26,6 @@
   },
   "authority_level": "government",
   "update_frequency": "daily",
-  "coverage": "national",
-  "country_code": "JP",
   "domains": [
     "climate",
     "environment",
@@ -40,5 +38,6 @@
     "japan",
     "climate"
   ],
-  "license": "open"
+  "country": "JP",
+  "geographic_scope": "national"
 }
