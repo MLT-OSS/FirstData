@@ -1,0 +1,58 @@
+{
+  "id": "cninfo",
+  "name": {
+    "en": "CNInfo (Giant Tide Information Network)",
+    "zh": "巨潮资讯网",
+    "native": "巨潮资讯网"
+  },
+  "description": {
+    "en": "CNInfo (cninfo.com.cn) is China's official securities information disclosure platform designated by the China Securities Regulatory Commission (CSRC). Operated by Shenzhen Securities Information Co., Ltd., it serves as the authoritative source for all listed company announcements across the Shanghai and Shenzhen stock exchanges, covering IPO prospectuses, annual and interim reports, material event disclosures, and regulatory filings.",
+    "zh": "巨潮资讯网（cninfo.com.cn）是中国证监会指定的信息披露平台，由深圳证券信息有限公司运营，是沪深两市所有上市公司公告的权威来源，涵盖招股说明书、年报中报、重大事项披露及监管文件。"
+  },
+  "website": "http://www.cninfo.com.cn",
+  "data_url": "http://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/notice",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "securities"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "authority_level": "government",
+  "tags": [
+    "china",
+    "disclosure",
+    "listed-companies",
+    "announcements",
+    "CSRC-designated",
+    "prospectus",
+    "annual-report",
+    "巨潮资讯网",
+    "信息披露",
+    "上市公司公告",
+    "招股说明书",
+    "年报",
+    "中报",
+    "深交所",
+    "上交所"
+  ],
+  "data_content": {
+    "en": [
+      "Listed Company Announcements - Full text of all announcements from Shanghai and Shenzhen exchanges",
+      "IPO Prospectuses - Initial public offering documents and listing filings",
+      "Periodic Reports - Annual reports, semi-annual reports, and quarterly reports",
+      "Material Events - Major asset restructuring, related party transactions, equity changes",
+      "Board Resolutions - Board and shareholder meeting announcements and resolutions",
+      "Regulatory Filings - Compliance reports, inquiry letters, and regulatory actions"
+    ],
+    "zh": [
+      "上市公司公告 - 沪深两市所有公告全文",
+      "招股说明书 - 首次公开发行文件和上市申报材料",
+      "定期报告 - 年报、半年报和季报",
+      "重大事项 - 重大资产重组、关联交易、股权变动",
+      "董事会决议 - 董事会和股东大会公告及决议",
+      "监管文件 - 合规报告、问询函和监管措施"
+    ]
+  }
+}

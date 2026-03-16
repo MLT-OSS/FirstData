@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T02:07:17.077611+00:00",
-    "total_sources": 254,
+    "generated_at": "2026-03-16T02:05:28.680786+00:00",
+    "total_sources": 260,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3513,6 +3513,122 @@
       "file_path": "china/finance/forex/china-safe.json"
     },
     {
+      "id": "china-csdc",
+      "name": {
+        "en": "China Securities Depository and Clearing Corporation Limited",
+        "zh": "中国证券登记结算有限责任公司",
+        "native": "中国证券登记结算有限责任公司"
+      },
+      "description": {
+        "en": "China Securities Depository and Clearing Corporation Limited (CSDC, also known as ChinaClear) is the sole securities depository and clearing institution in China, established with the approval of the State Council. It provides centralized securities registration, depository, settlement, and clearing services for the Shanghai and Shenzhen stock exchanges, including equity registration, rights issue payments, and tender offer transfers.",
+        "zh": "中国证券登记结算有限责任公司（中国结算）是经国务院批准设立的中国唯一的证券登记结算机构，为上海和深圳证券交易所提供集中统一的证券登记、存管、结算和清算服务，涵盖股权登记、配股缴款、要约收购过户等业务。"
+      },
+      "website": "https://www.chinaclear.cn",
+      "data_url": "https://www.chinaclear.cn/zdjs/tjyb/center_tjbg.shtml",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "finance",
+        "securities"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "authority_level": "market",
+      "tags": [
+        "china",
+        "securities-depository",
+        "clearing",
+        "settlement",
+        "ChinaClear",
+        "investor-accounts",
+        "equity-registration",
+        "中国结算",
+        "证券登记",
+        "结算",
+        "清算",
+        "股权登记",
+        "投资者账户"
+      ],
+      "data_content": {
+        "en": [
+          "Statistical Monthly Report - Securities accounts, custody, clearing, and settlement statistics",
+          "Investor Statistics - Total number of investors, new account openings, and investor structure",
+          "Securities Custody - Total custody value and volume by security type",
+          "Clearing and Settlement - Transaction settlement volumes and values",
+          "Equity Registration - Share registration and ownership transfer records",
+          "Cross-border Services - Stock Connect (Shanghai-Hong Kong, Shenzhen-Hong Kong) settlement data"
+        ],
+        "zh": [
+          "统计月报 - 证券账户、托管、清算和结算统计数据",
+          "投资者统计 - 投资者总数、新开户数和投资者结构",
+          "证券托管 - 按证券类型统计的托管市值和数量",
+          "清算结算 - 交易结算量和金额",
+          "股权登记 - 股权登记和所有权转移记录",
+          "跨境服务 - 沪港通、深港通结算数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/securities/china-csdc.json"
+    },
+    {
+      "id": "china-sac",
+      "name": {
+        "en": "Securities Association of China",
+        "zh": "中国证券业协会",
+        "native": "中国证券业协会"
+      },
+      "description": {
+        "en": "The Securities Association of China (SAC) is a self-regulatory organization for the securities industry under the guidance of the China Securities Regulatory Commission (CSRC). It publishes industry statistics, securities firm rankings, practitioner registration data, and regulatory announcements including broker filings, tender offers, and major asset restructurings.",
+        "zh": "中国证券业协会（SAC）是在中国证监会指导下的证券行业自律组织。发布行业统计数据、证券公司排名、从业人员注册信息及监管公告，包括券商备案、要约收购、重大资产重组等信息。"
+      },
+      "website": "https://www.sac.net.cn",
+      "data_url": "https://www.sac.net.cn/hysj/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "finance",
+        "securities"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "authority_level": "government",
+      "tags": [
+        "china",
+        "securities",
+        "self-regulatory",
+        "broker",
+        "tender-offer",
+        "asset-restructuring",
+        "practitioner-registration",
+        "中国证券业协会",
+        "券商",
+        "证券公司",
+        "从业人员",
+        "要约收购",
+        "重大资产重组"
+      ],
+      "data_content": {
+        "en": [
+          "Securities Industry Statistics - Aggregate revenue, net income, and asset data of securities firms",
+          "Securities Firm Rankings - Annual rankings by total assets, revenue, and brokerage volume",
+          "Practitioner Registration - Registered securities professionals database",
+          "Regulatory Announcements - Broker filings, tender offers, major asset restructurings",
+          "Industry Reports - Annual and special reports on securities industry development",
+          "Self-Regulatory Rules - Industry standards and compliance guidelines"
+        ],
+        "zh": [
+          "证券行业统计 - 证券公司营收、净利润和资产汇总数据",
+          "证券公司排名 - 按总资产、营收和经纪业务量的年度排名",
+          "从业人员注册 - 证券从业人员注册数据库",
+          "监管公告 - 券商备案、要约收购、重大资产重组",
+          "行业报告 - 证券行业发展年度报告和专题报告",
+          "自律规则 - 行业标准和合规指南"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/securities/china-sac.json"
+    },
+    {
       "id": "china-sse",
       "name": {
         "en": "Shanghai Stock Exchange",
@@ -3577,6 +3693,66 @@
       },
       "has_api": false,
       "file_path": "china/finance/securities/china-sse.json"
+    },
+    {
+      "id": "cninfo",
+      "name": {
+        "en": "CNInfo (Giant Tide Information Network)",
+        "zh": "巨潮资讯网",
+        "native": "巨潮资讯网"
+      },
+      "description": {
+        "en": "CNInfo (cninfo.com.cn) is China's official securities information disclosure platform designated by the China Securities Regulatory Commission (CSRC). Operated by Shenzhen Securities Information Co., Ltd., it serves as the authoritative source for all listed company announcements across the Shanghai and Shenzhen stock exchanges, covering IPO prospectuses, annual and interim reports, material event disclosures, and regulatory filings.",
+        "zh": "巨潮资讯网（cninfo.com.cn）是中国证监会指定的信息披露平台，由深圳证券信息有限公司运营，是沪深两市所有上市公司公告的权威来源，涵盖招股说明书、年报中报、重大事项披露及监管文件。"
+      },
+      "website": "http://www.cninfo.com.cn",
+      "data_url": "http://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/notice",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "finance",
+        "securities"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "authority_level": "government",
+      "tags": [
+        "china",
+        "disclosure",
+        "listed-companies",
+        "announcements",
+        "CSRC-designated",
+        "prospectus",
+        "annual-report",
+        "巨潮资讯网",
+        "信息披露",
+        "上市公司公告",
+        "招股说明书",
+        "年报",
+        "中报",
+        "深交所",
+        "上交所"
+      ],
+      "data_content": {
+        "en": [
+          "Listed Company Announcements - Full text of all announcements from Shanghai and Shenzhen exchanges",
+          "IPO Prospectuses - Initial public offering documents and listing filings",
+          "Periodic Reports - Annual reports, semi-annual reports, and quarterly reports",
+          "Material Events - Major asset restructuring, related party transactions, equity changes",
+          "Board Resolutions - Board and shareholder meeting announcements and resolutions",
+          "Regulatory Filings - Compliance reports, inquiry letters, and regulatory actions"
+        ],
+        "zh": [
+          "上市公司公告 - 沪深两市所有公告全文",
+          "招股说明书 - 首次公开发行文件和上市申报材料",
+          "定期报告 - 年报、半年报和季报",
+          "重大事项 - 重大资产重组、关联交易、股权变动",
+          "董事会决议 - 董事会和股东大会公告及决议",
+          "监管文件 - 合规报告、问询函和监管措施"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/securities/cninfo.json"
     },
     {
       "id": "china-csrc",
@@ -7842,6 +8018,63 @@
       "file_path": "countries/europe/italy/italy-istat.json"
     },
     {
+      "id": "netherlands-cbs",
+      "name": {
+        "en": "Statistics Netherlands (CBS)",
+        "zh": "荷兰统计局"
+      },
+      "description": {
+        "en": "The Dutch national statistical office providing comprehensive statistics on population, economy, trade, and society.",
+        "zh": "荷兰国家统计机构，提供人口、经济、贸易和社会的综合统计数据。"
+      },
+      "website": "https://www.cbs.nl",
+      "data_url": "https://opendata.cbs.nl/statline/",
+      "api_url": "https://odata4.cbs.nl/CBS/Datasets",
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Population demographics",
+          "International trade",
+          "Labor market statistics",
+          "Consumer price index",
+          "Housing and construction",
+          "Environment and energy"
+        ],
+        "zh": [
+          "GDP与国民账户",
+          "人口统计",
+          "国际贸易",
+          "劳动力市场",
+          "消费者价格指数",
+          "住房与建设",
+          "环境与能源"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "NL",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "employment",
+        "environment",
+        "housing",
+        "energy"
+      ],
+      "tags": [
+        "netherlands",
+        "statistics",
+        "cbs",
+        "odata",
+        "gdp"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/netherlands/netherlands-cbs.json"
+    },
+    {
       "id": "spain-ine",
       "name": {
         "en": "National Statistics Institute of Spain",
@@ -7889,6 +8122,63 @@
       "license": "open",
       "has_api": true,
       "file_path": "countries/europe/spain/spain-ine.json"
+    },
+    {
+      "id": "sweden-scb",
+      "name": {
+        "en": "Statistics Sweden (SCB)",
+        "zh": "瑞典统计局"
+      },
+      "description": {
+        "en": "Sweden's central government authority for official statistics covering population, economy, labor market, and living conditions.",
+        "zh": "瑞典中央统计局，提供人口、经济、劳动力市场和生活条件的官方统计数据。"
+      },
+      "website": "https://www.scb.se",
+      "data_url": "https://www.statistikdatabasen.scb.se",
+      "api_url": "https://api.scb.se/OV0104/v1/doris/en",
+      "data_content": {
+        "en": [
+          "Population statistics",
+          "GDP and economic indicators",
+          "Labor force surveys",
+          "Foreign trade",
+          "Consumer price index",
+          "Education statistics",
+          "Environmental accounts"
+        ],
+        "zh": [
+          "人口统计",
+          "GDP与经济指标",
+          "劳动力调查",
+          "对外贸易",
+          "消费者价格指数",
+          "教育统计",
+          "环境账户"
+        ]
+      },
+      "authority_level": "government",
+      "update_frequency": "monthly",
+      "coverage": "national",
+      "country_code": "SE",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "employment",
+        "education",
+        "environment",
+        "energy"
+      ],
+      "tags": [
+        "sweden",
+        "statistics",
+        "scb",
+        "gdp",
+        "population"
+      ],
+      "license": "open",
+      "has_api": true,
+      "file_path": "countries/europe/sweden/sweden-scb.json"
     },
     {
       "id": "turkey-tuik",
@@ -14912,6 +15202,64 @@
       },
       "has_api": true,
       "file_path": "international/transportation/itf-transport.json"
+    },
+    {
+      "id": "japan-esri",
+      "name": {
+        "en": "Economic and Social Research Institute, Cabinet Office of Japan",
+        "zh": "日本内阁府经济社会综合研究所",
+        "native": "内閣府経済社会総合研究所"
+      },
+      "description": {
+        "en": "The Economic and Social Research Institute (ESRI) is an organ of the Cabinet Office of Japan responsible for compiling GDP and national accounts, economic assessment, and policy research. It publishes quarterly GDP estimates, System of National Accounts (SNA), Monthly Economic Report, and various economic indicators that serve as the backbone of Japan's macroeconomic statistics.",
+        "zh": "经济社会综合研究所（ESRI）是日本内阁府下属机构，负责编制GDP和国民经济核算、经济形势评估及政策研究。发布季度GDP估算、国民经济核算体系（SNA）、月度经济报告及各类经济指标，是日本宏观经济统计的核心来源。"
+      },
+      "website": "https://www.esri.cao.go.jp",
+      "data_url": "https://www.esri.cao.go.jp/en/sna/menu.html",
+      "api_url": null,
+      "country": "JP",
+      "domains": [
+        "economics",
+        "statistics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "authority_level": "government",
+      "tags": [
+        "japan",
+        "gdp",
+        "national-accounts",
+        "SNA",
+        "macroeconomics",
+        "economic-indicators",
+        "cabinet-office",
+        "日本",
+        "内閣府",
+        "経済社会総合研究所",
+        "国民経済計算",
+        "GDP",
+        "国内总产值"
+      ],
+      "data_content": {
+        "en": [
+          "Quarterly Estimates of GDP - Preliminary and revised GDP figures with expenditure and production approaches",
+          "Annual Report on National Accounts (SNA) - Comprehensive national accounts including income, capital, and financial accounts",
+          "Monthly Economic Report - Cabinet Office assessment of current economic conditions",
+          "Business Condition Indices - Composite and diffusion indices of business cycle indicators",
+          "Consumer Confidence Survey - Monthly consumer sentiment and spending outlook",
+          "Corporate Behavior Survey - Annual survey of corporate investment and business plans"
+        ],
+        "zh": [
+          "季度GDP估算 - 初步和修正GDP数据，含支出法和生产法",
+          "国民经济核算年报（SNA）- 包括收入、资本和金融账户的综合国民账户",
+          "月度经济报告 - 内阁府对当前经济形势的评估",
+          "景气指标 - 综合指数和扩散指数",
+          "消费者信心调查 - 月度消费者情绪和支出展望",
+          "企业行为调查 - 年度企业投资和经营计划调查"
+        ]
+      },
+      "has_api": false,
+      "file_path": "japan/economics/japan-esri.json"
     },
     {
       "id": "japan-customs",

@@ -1,0 +1,56 @@
+{
+  "id": "japan-esri",
+  "name": {
+    "en": "Economic and Social Research Institute, Cabinet Office of Japan",
+    "zh": "日本内阁府经济社会综合研究所",
+    "native": "内閣府経済社会総合研究所"
+  },
+  "description": {
+    "en": "The Economic and Social Research Institute (ESRI) is an organ of the Cabinet Office of Japan responsible for compiling GDP and national accounts, economic assessment, and policy research. It publishes quarterly GDP estimates, System of National Accounts (SNA), Monthly Economic Report, and various economic indicators that serve as the backbone of Japan's macroeconomic statistics.",
+    "zh": "经济社会综合研究所（ESRI）是日本内阁府下属机构，负责编制GDP和国民经济核算、经济形势评估及政策研究。发布季度GDP估算、国民经济核算体系（SNA）、月度经济报告及各类经济指标，是日本宏观经济统计的核心来源。"
+  },
+  "website": "https://www.esri.cao.go.jp",
+  "data_url": "https://www.esri.cao.go.jp/en/sna/menu.html",
+  "api_url": null,
+  "country": "JP",
+  "domains": [
+    "economics",
+    "statistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "authority_level": "government",
+  "tags": [
+    "japan",
+    "gdp",
+    "national-accounts",
+    "SNA",
+    "macroeconomics",
+    "economic-indicators",
+    "cabinet-office",
+    "日本",
+    "内閣府",
+    "経済社会総合研究所",
+    "国民経済計算",
+    "GDP",
+    "国内总产值"
+  ],
+  "data_content": {
+    "en": [
+      "Quarterly Estimates of GDP - Preliminary and revised GDP figures with expenditure and production approaches",
+      "Annual Report on National Accounts (SNA) - Comprehensive national accounts including income, capital, and financial accounts",
+      "Monthly Economic Report - Cabinet Office assessment of current economic conditions",
+      "Business Condition Indices - Composite and diffusion indices of business cycle indicators",
+      "Consumer Confidence Survey - Monthly consumer sentiment and spending outlook",
+      "Corporate Behavior Survey - Annual survey of corporate investment and business plans"
+    ],
+    "zh": [
+      "季度GDP估算 - 初步和修正GDP数据，含支出法和生产法",
+      "国民经济核算年报（SNA）- 包括收入、资本和金融账户的综合国民账户",
+      "月度经济报告 - 内阁府对当前经济形势的评估",
+      "景气指标 - 综合指数和扩散指数",
+      "消费者信心调查 - 月度消费者情绪和支出展望",
+      "企业行为调查 - 年度企业投资和经营计划调查"
+    ]
+  }
+}

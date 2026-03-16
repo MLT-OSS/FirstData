@@ -1,0 +1,56 @@
+{
+  "id": "china-csdc",
+  "name": {
+    "en": "China Securities Depository and Clearing Corporation Limited",
+    "zh": "中国证券登记结算有限责任公司",
+    "native": "中国证券登记结算有限责任公司"
+  },
+  "description": {
+    "en": "China Securities Depository and Clearing Corporation Limited (CSDC, also known as ChinaClear) is the sole securities depository and clearing institution in China, established with the approval of the State Council. It provides centralized securities registration, depository, settlement, and clearing services for the Shanghai and Shenzhen stock exchanges, including equity registration, rights issue payments, and tender offer transfers.",
+    "zh": "中国证券登记结算有限责任公司（中国结算）是经国务院批准设立的中国唯一的证券登记结算机构，为上海和深圳证券交易所提供集中统一的证券登记、存管、结算和清算服务，涵盖股权登记、配股缴款、要约收购过户等业务。"
+  },
+  "website": "https://www.chinaclear.cn",
+  "data_url": "https://www.chinaclear.cn/zdjs/tjyb/center_tjbg.shtml",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "securities"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "authority_level": "market",
+  "tags": [
+    "china",
+    "securities-depository",
+    "clearing",
+    "settlement",
+    "ChinaClear",
+    "investor-accounts",
+    "equity-registration",
+    "中国结算",
+    "证券登记",
+    "结算",
+    "清算",
+    "股权登记",
+    "投资者账户"
+  ],
+  "data_content": {
+    "en": [
+      "Statistical Monthly Report - Securities accounts, custody, clearing, and settlement statistics",
+      "Investor Statistics - Total number of investors, new account openings, and investor structure",
+      "Securities Custody - Total custody value and volume by security type",
+      "Clearing and Settlement - Transaction settlement volumes and values",
+      "Equity Registration - Share registration and ownership transfer records",
+      "Cross-border Services - Stock Connect (Shanghai-Hong Kong, Shenzhen-Hong Kong) settlement data"
+    ],
+    "zh": [
+      "统计月报 - 证券账户、托管、清算和结算统计数据",
+      "投资者统计 - 投资者总数、新开户数和投资者结构",
+      "证券托管 - 按证券类型统计的托管市值和数量",
+      "清算结算 - 交易结算量和金额",
+      "股权登记 - 股权登记和所有权转移记录",
+      "跨境服务 - 沪港通、深港通结算数据"
+    ]
+  }
+}

@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T02:07:17.077611+00:00",
-    "total_sources": 254,
+    "generated_at": "2026-03-16T02:05:28.680786+00:00",
+    "total_sources": 260,
     "authority_counts": {
       "research": 33,
       "international": 65,
-      "government": 124,
-      "market": 16,
+      "government": 129,
+      "market": 17,
       "commercial": 15,
       "other": 1
     },
@@ -1586,6 +1586,32 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sac",
+        "name": {
+          "en": "Securities Association of China",
+          "zh": "中国证券业协会",
+          "native": "中国证券业协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sac.net.cn/hysj/",
+        "has_api": false,
+        "file_path": "china/finance/securities/china-sac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "cninfo",
+        "name": {
+          "en": "CNInfo (Giant Tide Information Network)",
+          "zh": "巨潮资讯网",
+          "native": "巨潮资讯网"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/notice",
+        "has_api": false,
+        "file_path": "china/finance/securities/cninfo.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-csrc",
         "name": {
           "en": "China Securities Regulatory Commission",
@@ -2212,6 +2238,17 @@
         "file_path": "countries/europe/italy/italy-istat.json"
       },
       {
+        "id": "netherlands-cbs",
+        "name": {
+          "en": "Statistics Netherlands (CBS)",
+          "zh": "荷兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://opendata.cbs.nl/statline/",
+        "has_api": true,
+        "file_path": "countries/europe/netherlands/netherlands-cbs.json"
+      },
+      {
         "id": "spain-ine",
         "name": {
           "en": "National Statistics Institute of Spain",
@@ -2221,6 +2258,17 @@
         "data_url": "https://www.ine.es/dyngs/INEbase/listaoperaciones.htm",
         "has_api": true,
         "file_path": "countries/europe/spain/spain-ine.json"
+      },
+      {
+        "id": "sweden-scb",
+        "name": {
+          "en": "Statistics Sweden (SCB)",
+          "zh": "瑞典统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statistikdatabasen.scb.se",
+        "has_api": true,
+        "file_path": "countries/europe/sweden/sweden-scb.json"
       },
       {
         "id": "turkey-tuik",
@@ -2629,6 +2677,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "japan-esri",
+        "name": {
+          "en": "Economic and Social Research Institute, Cabinet Office of Japan",
+          "zh": "日本内阁府经济社会综合研究所",
+          "native": "内閣府経済社会総合研究所"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.esri.cao.go.jp/en/sna/menu.html",
+        "has_api": false,
+        "file_path": "japan/economics/japan-esri.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-customs",
         "name": {
           "en": "Japan Customs Trade Statistics",
@@ -2730,6 +2791,19 @@
       }
     ],
     "market": [
+      {
+        "id": "china-csdc",
+        "name": {
+          "en": "China Securities Depository and Clearing Corporation Limited",
+          "zh": "中国证券登记结算有限责任公司",
+          "native": "中国证券登记结算有限责任公司"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.chinaclear.cn/zdjs/tjyb/center_tjbg.shtml",
+        "has_api": false,
+        "file_path": "china/finance/securities/china-csdc.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-sse",
         "name": {

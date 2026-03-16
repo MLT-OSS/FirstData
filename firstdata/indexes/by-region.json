@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-15T02:07:17.077611+00:00",
+    "generated_at": "2026-03-16T02:05:28.680786+00:00",
     "total_regions": 25,
-    "total_sources": 254,
+    "total_sources": 260,
     "version": "2.0"
   },
   "regions": {
@@ -464,6 +464,32 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csdc",
+        "name": {
+          "en": "China Securities Depository and Clearing Corporation Limited",
+          "zh": "中国证券登记结算有限责任公司",
+          "native": "中国证券登记结算有限责任公司"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.chinaclear.cn/zdjs/tjyb/center_tjbg.shtml",
+        "has_api": false,
+        "file_path": "china/finance/securities/china-csdc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sac",
+        "name": {
+          "en": "Securities Association of China",
+          "zh": "中国证券业协会",
+          "native": "中国证券业协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sac.net.cn/hysj/",
+        "has_api": false,
+        "file_path": "china/finance/securities/china-sac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sse",
         "name": {
           "en": "Shanghai Stock Exchange",
@@ -474,6 +500,19 @@
         "data_url": "https://www.sse.com.cn/market/stockdata/statistic/",
         "has_api": false,
         "file_path": "china/finance/securities/china-sse.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "cninfo",
+        "name": {
+          "en": "CNInfo (Giant Tide Information Network)",
+          "zh": "巨潮资讯网",
+          "native": "巨潮资讯网"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/notice",
+        "has_api": false,
+        "file_path": "china/finance/securities/cninfo.json",
         "geographic_scope": "national"
       },
       {
@@ -1187,6 +1226,19 @@
         "data_url": "https://www.e-stat.go.jp/en/stat-search",
         "has_api": true,
         "file_path": "countries/asia/japan/japan-estat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "japan-esri",
+        "name": {
+          "en": "Economic and Social Research Institute, Cabinet Office of Japan",
+          "zh": "日本内阁府经济社会综合研究所",
+          "native": "内閣府経済社会総合研究所"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.esri.cao.go.jp/en/sna/menu.html",
+        "has_api": false,
+        "file_path": "japan/economics/japan-esri.json",
         "geographic_scope": "national"
       },
       {

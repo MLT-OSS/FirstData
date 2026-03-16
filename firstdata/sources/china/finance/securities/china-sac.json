@@ -1,0 +1,56 @@
+{
+  "id": "china-sac",
+  "name": {
+    "en": "Securities Association of China",
+    "zh": "中国证券业协会",
+    "native": "中国证券业协会"
+  },
+  "description": {
+    "en": "The Securities Association of China (SAC) is a self-regulatory organization for the securities industry under the guidance of the China Securities Regulatory Commission (CSRC). It publishes industry statistics, securities firm rankings, practitioner registration data, and regulatory announcements including broker filings, tender offers, and major asset restructurings.",
+    "zh": "中国证券业协会（SAC）是在中国证监会指导下的证券行业自律组织。发布行业统计数据、证券公司排名、从业人员注册信息及监管公告，包括券商备案、要约收购、重大资产重组等信息。"
+  },
+  "website": "https://www.sac.net.cn",
+  "data_url": "https://www.sac.net.cn/hysj/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "finance",
+    "securities"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "authority_level": "government",
+  "tags": [
+    "china",
+    "securities",
+    "self-regulatory",
+    "broker",
+    "tender-offer",
+    "asset-restructuring",
+    "practitioner-registration",
+    "中国证券业协会",
+    "券商",
+    "证券公司",
+    "从业人员",
+    "要约收购",
+    "重大资产重组"
+  ],
+  "data_content": {
+    "en": [
+      "Securities Industry Statistics - Aggregate revenue, net income, and asset data of securities firms",
+      "Securities Firm Rankings - Annual rankings by total assets, revenue, and brokerage volume",
+      "Practitioner Registration - Registered securities professionals database",
+      "Regulatory Announcements - Broker filings, tender offers, major asset restructurings",
+      "Industry Reports - Annual and special reports on securities industry development",
+      "Self-Regulatory Rules - Industry standards and compliance guidelines"
+    ],
+    "zh": [
+      "证券行业统计 - 证券公司营收、净利润和资产汇总数据",
+      "证券公司排名 - 按总资产、营收和经纪业务量的年度排名",
+      "从业人员注册 - 证券从业人员注册数据库",
+      "监管公告 - 券商备案、要约收购、重大资产重组",
+      "行业报告 - 证券行业发展年度报告和专题报告",
+      "自律规则 - 行业标准和合规指南"
+    ]
+  }
+}
