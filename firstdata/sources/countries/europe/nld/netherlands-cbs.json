@@ -1,0 +1,45 @@
+{
+  "id": "netherlands-cbs",
+  "name": {
+    "en": "Statistics Netherlands (CBS)",
+    "zh": "荷兰统计局",
+    "native": "Centraal Bureau voor de Statistiek (CBS)"
+  },
+  "description": {
+    "en": "Statistics Netherlands (CBS) is the Dutch national statistical institute, providing high-quality statistical information about the Netherlands covering economy, population, health, education, environment, and society. CBS offers open data through its StatLine database and OData API.",
+    "zh": "荷兰统计局（CBS）是荷兰国家统计机构，提供涵盖经济、人口、健康、教育、环境和社会等领域的权威统计数据，通过StatLine数据库和OData API开放访问。"
+  },
+  "website": "https://www.cbs.nl",
+  "data_url": "https://opendata.cbs.nl",
+  "api_url": "https://opendata.cbs.nl/ODataApi/OData/",
+  "authority_level": "government",
+  "country": "NL",
+  "domains": ["economics", "demographics", "health", "education", "environment", "employment", "social"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": ["netherlands", "holland", "cbs", "statistics netherlands", "dutch statistics", "statline", "odata", "荷兰", "荷兰统计局", "人口统计", "经济统计", "欧盟"],
+  "data_content": {
+    "en": [
+      "Population and demographics",
+      "GDP and national accounts",
+      "Employment and labor market",
+      "Health and healthcare statistics",
+      "Education and science",
+      "Environmental and energy statistics",
+      "Housing and construction",
+      "Trade and industry",
+      "Safety and crime statistics"
+    ],
+    "zh": [
+      "人口与人口统计",
+      "GDP与国民账户",
+      "就业与劳动力市场",
+      "卫生与医疗统计",
+      "教育与科学",
+      "环境与能源统计",
+      "住房与建筑",
+      "贸易与工业",
+      "安全与犯罪统计"
+    ]
+  }
+}

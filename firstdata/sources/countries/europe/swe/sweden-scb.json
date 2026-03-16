@@ -1,0 +1,45 @@
+{
+  "id": "sweden-scb",
+  "name": {
+    "en": "Statistics Sweden (SCB)",
+    "zh": "瑞典统计局",
+    "native": "Statistiska centralbyrån (SCB)"
+  },
+  "description": {
+    "en": "Statistics Sweden (SCB) is Sweden's national statistical agency, responsible for developing, producing and disseminating statistics for decision-making, debate and research. SCB covers a broad range of topics including economy, population, environment, labor market, and public sector, with open data available via its Statistical Database API.",
+    "zh": "瑞典统计局（SCB）是瑞典国家统计机构，负责为决策、辩论和研究开发、生产和传播统计数据，涵盖经济、人口、环境、劳动力市场和公共部门等领域，通过统计数据库API提供开放数据。"
+  },
+  "website": "https://www.scb.se",
+  "data_url": "https://www.scb.se/en/finding-statistics/",
+  "api_url": "https://api.scb.se/OV0104/v1/doris/en/ssd",
+  "authority_level": "government",
+  "country": "SE",
+  "domains": ["economics", "demographics", "environment", "employment", "social", "education", "health"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": ["sweden", "scb", "statistics sweden", "swedish statistics", "nordic", "skandinavien", "瑞典", "瑞典统计局", "北欧", "人口统计", "经济统计", "欧盟"],
+  "data_content": {
+    "en": [
+      "Population and demographic statistics",
+      "GDP and national accounts",
+      "Labor market and employment",
+      "Foreign trade statistics",
+      "Environmental and energy accounts",
+      "Education and research statistics",
+      "Health and medical statistics",
+      "Public finance and taxes",
+      "Regional and municipal statistics"
+    ],
+    "zh": [
+      "人口与人口统计",
+      "GDP与国民账户",
+      "劳动力市场与就业",
+      "对外贸易统计",
+      "环境与能源账户",
+      "教育与研究统计",
+      "卫生与医疗统计",
+      "公共财政与税收",
+      "区域与市级统计"
+    ]
+  }
+}
