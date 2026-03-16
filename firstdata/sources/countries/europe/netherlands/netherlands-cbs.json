@@ -1,0 +1,25 @@
+{
+  "id": "netherlands-cbs",
+  "name": {
+    "en": "Statistics Netherlands (CBS)",
+    "zh": "荷兰统计局"
+  },
+  "description": {
+    "en": "The Dutch national statistical office providing comprehensive statistics on population, economy, trade, and society.",
+    "zh": "荷兰国家统计机构，提供人口、经济、贸易和社会的综合统计数据。"
+  },
+  "website": "https://www.cbs.nl",
+  "data_url": "https://opendata.cbs.nl/statline/",
+  "api_url": "https://odata4.cbs.nl/CBS/Datasets",
+  "data_content": {
+    "en": ["GDP and national accounts", "Population demographics", "International trade", "Labor market statistics", "Consumer price index", "Housing and construction", "Environment and energy"],
+    "zh": ["GDP与国民账户", "人口统计", "国际贸易", "劳动力市场", "消费者价格指数", "住房与建设", "环境与能源"]
+  },
+  "authority_level": "government",
+  "update_frequency": "monthly",
+  "coverage": "national",
+  "country_code": "NL",
+  "domains": ["economics", "demographics", "trade", "employment", "environment", "housing", "energy"],
+  "tags": ["netherlands", "statistics", "cbs", "odata", "gdp"],
+  "license": "open"
+}
