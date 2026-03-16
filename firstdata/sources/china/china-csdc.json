@@ -1,0 +1,25 @@
+{
+  "id": "china-csdc",
+  "name": {
+    "en": "China Securities Depository and Clearing Corporation",
+    "zh": "中国证券登记结算有限公司"
+  },
+  "description": {
+    "en": "China's central securities depository providing investor account statistics, settlement data, and securities registration services.",
+    "zh": "中国中央证券存管机构，提供投资者账户统计、清算结算数据和证券登记服务。"
+  },
+  "website": "https://www.chinaclear.cn",
+  "data_url": "https://www.chinaclear.cn/zdjs/tjyb/center_tjbg.shtml",
+  "api_url": null,
+  "data_content": {
+    "en": ["Investor account statistics", "Securities settlement data", "Market capitalization reports", "Bond custody data", "Monthly statistical bulletins"],
+    "zh": ["投资者账户统计", "证券结算数据", "市值报告", "债券托管数据", "月度统计公报"]
+  },
+  "authority_level": "other",
+  "update_frequency": "monthly",
+  "coverage": "national",
+  "country_code": "CN",
+  "domains": ["finance"],
+  "tags": ["securities", "clearing", "settlement", "investor", "china"],
+  "license": "open"
+}

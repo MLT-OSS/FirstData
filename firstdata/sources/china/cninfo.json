@@ -1,0 +1,25 @@
+{
+  "id": "cninfo",
+  "name": {
+    "en": "CNINFO (Shenzhen Stock Exchange Information)",
+    "zh": "巨潮资讯网"
+  },
+  "description": {
+    "en": "CSRC-designated information disclosure platform for listed companies on Shenzhen and Shanghai exchanges, providing financial reports, announcements, and market data.",
+    "zh": "证监会指定信息披露平台，提供深沪上市公司财务报告、公告和市场数据。"
+  },
+  "website": "https://www.cninfo.com.cn",
+  "data_url": "https://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/search",
+  "api_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "data_content": {
+    "en": ["Listed company financial reports", "Regulatory announcements", "IPO prospectuses", "Bond information", "Market statistics"],
+    "zh": ["上市公司财务报告", "监管公告", "IPO招股说明书", "债券信息", "市场统计"]
+  },
+  "authority_level": "government",
+  "update_frequency": "daily",
+  "coverage": "national",
+  "country_code": "CN",
+  "domains": ["finance"],
+  "tags": ["cninfo", "disclosure", "listed-company", "financial-report", "china"],
+  "license": "open"
+}
