@@ -81,24 +81,5 @@
     "性别平等",
     "青少年",
     "adolescents"
-  ],
-  "organization": {
-    "name": {
-      "zh": "联合国人口基金",
-      "en": "United Nations Population Fund"
-    },
-    "abbreviation": "UNFPA",
-    "type": "international_organization"
-  },
-  "access": {
-    "requires_registration": false,
-    "cost": "free"
-  },
-  "formats": ["PDF", "HTML", "Excel"],
-  "related_links": {
-    "unfpa_china": "https://china.unfpa.org/zh-Hans",
-    "world_urbanization_prospects": "https://population.un.org/wup/",
-    "publications": "https://www.unfpa.org/publications",
-    "china_publications": "https://china.unfpa.org/zh-Hans/publications"
-  }
+  ]
 }

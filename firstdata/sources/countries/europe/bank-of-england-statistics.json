@@ -18,35 +18,7 @@
     "economics",
     "monetary_policy"
   ],
-  "organization": {
-    "name": {
-      "en": "Bank of England",
-      "zh": "英格兰银行"
-    },
-    "type": "central_bank",
-    "country": "GB"
-  },
   "geographic_scope": "national",
-  "data_access": {
-    "methods": [
-      "web_download",
-      "database_query",
-      "api"
-    ],
-    "formats": [
-      "CSV",
-      "Excel",
-      "JSON"
-    ],
-    "requires_registration": false
-  },
-  "temporal_coverage": {
-    "start_year": null,
-    "coverage_notes": {
-      "en": "Historical time series with varying start dates depending on data series",
-      "zh": "历史时间序列数据，起始日期因数据系列而异"
-    }
-  },
   "data_content": {
     "en": [
       "Money and lending statistics",
@@ -74,13 +46,6 @@
     ]
   },
   "update_frequency": "daily",
-  "update_frequency_notes": {
-    "en": "Varies by dataset: Daily (exchange rates, SONIA), Weekly (money markets), Monthly (lending, deposits), Quarterly (detailed breakdowns)",
-    "zh": "因数据集而异：每日（汇率、SONIA）、每周（货币市场）、每月（信贷、存款）、每季度（详细分类）"
-  },
-  "support": {
-    "email": "BEEDSQueries@bankofengland.co.uk"
-  },
   "tags": [
     "central bank",
     "中央银行",
@@ -110,11 +75,5 @@
     "reserves",
     "储备",
     "BoE"
-  ],
-  "metadata": {
-    "last_verified": "2026-03-04",
-    "data_portal_url": "https://www.bankofengland.co.uk/boeapps/database/",
-    "statistical_releases_url": "https://www.bankofengland.co.uk/news/statistics",
-    "research_datasets_url": "https://www.bankofengland.co.uk/statistics/research-datasets"
-  }
+  ]
 }
