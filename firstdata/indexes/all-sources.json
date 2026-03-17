@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-16T03:18:14.621977+00:00",
-    "total_sources": 260,
+    "generated_at": "2026-03-17T02:04:27.861295+00:00",
+    "total_sources": 262,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -8020,6 +8020,72 @@
       "file_path": "countries/europe/netherlands/netherlands-cbs.json"
     },
     {
+      "id": "norway-ssb",
+      "name": {
+        "en": "Statistics Norway (SSB)",
+        "zh": "挪威统计局",
+        "native": "Statistisk sentralbyrå (SSB)"
+      },
+      "description": {
+        "en": "Statistics Norway (SSB) is Norway's official statistics agency, responsible for collecting, processing, and publishing statistics on Norwegian society, economy, population, and environment. SSB provides comprehensive data through its StatBank platform and open API.",
+        "zh": "挪威统计局（SSB）是挪威官方统计机构，负责收集、处理和发布挪威社会、经济、人口和环境统计数据。SSB通过其StatBank平台和开放API提供全面的数据访问服务。"
+      },
+      "website": "https://www.ssb.no/en",
+      "data_url": "https://www.ssb.no/en/statbank",
+      "api_url": "https://data.ssb.no/api/v0/en/table/",
+      "authority_level": "government",
+      "country": "NO",
+      "domains": [
+        "economics",
+        "demographics",
+        "environment",
+        "health",
+        "education",
+        "labor"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "tags": [
+        "norway",
+        "ssb",
+        "statistics norway",
+        "nordic",
+        "挪威",
+        "统计局",
+        "人口",
+        "经济",
+        "北欧",
+        "statbank",
+        "open data"
+      ],
+      "data_content": {
+        "en": [
+          "Population and migration statistics",
+          "National accounts and GDP",
+          "Labor market and employment data",
+          "Prices and consumer price index",
+          "Energy and environment statistics",
+          "Education and research data",
+          "Health and welfare statistics",
+          "Business and industry data",
+          "Foreign trade statistics"
+        ],
+        "zh": [
+          "人口与移民统计",
+          "国民账户与GDP",
+          "劳动力市场与就业数据",
+          "物价与消费者价格指数",
+          "能源与环境统计",
+          "教育与科研数据",
+          "卫生与福利统计",
+          "工商业数据",
+          "对外贸易统计"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/norway/norway-ssb.json"
+    },
+    {
       "id": "spain-ine",
       "name": {
         "en": "National Statistics Institute of Spain",
@@ -8122,6 +8188,73 @@
       "geographic_scope": "national",
       "has_api": true,
       "file_path": "countries/europe/sweden/sweden-scb.json"
+    },
+    {
+      "id": "switzerland-fso",
+      "name": {
+        "en": "Swiss Federal Statistical Office (FSO)",
+        "zh": "瑞士联邦统计局",
+        "native": "Bundesamt für Statistik (BFS)"
+      },
+      "description": {
+        "en": "The Swiss Federal Statistical Office (FSO) is Switzerland's national statistics authority. It produces and publishes official statistics on Swiss economy, society, population, environment, and politics. FSO provides data through its STAT-TAB interactive database and PX-Web API.",
+        "zh": "瑞士联邦统计局（FSO/BFS）是瑞士国家统计机构，负责生产和发布关于瑞士经济、社会、人口、环境和政治的官方统计数据，通过STAT-TAB交互式数据库和PX-Web API提供数据访问。"
+      },
+      "website": "https://www.bfs.admin.ch/bfs/en/home.html",
+      "data_url": "https://www.bfs.admin.ch/bfs/en/home/statistics.html",
+      "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/en",
+      "authority_level": "government",
+      "country": "CH",
+      "domains": [
+        "economics",
+        "demographics",
+        "environment",
+        "health",
+        "education",
+        "labor"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "switzerland",
+        "fso",
+        "bfs",
+        "swiss statistics",
+        "瑞士",
+        "联邦统计局",
+        "人口",
+        "经济",
+        "欧洲",
+        "stat-tab",
+        "px-web",
+        "open data"
+      ],
+      "data_content": {
+        "en": [
+          "Population and household statistics",
+          "National accounts and GDP",
+          "Labor market and wages data",
+          "Prices and purchasing power",
+          "Health and social security statistics",
+          "Education and science data",
+          "Environment and energy statistics",
+          "Agriculture and forestry data",
+          "Foreign trade and balance of payments"
+        ],
+        "zh": [
+          "人口与家庭统计",
+          "国民账户与GDP",
+          "劳动力市场与工资数据",
+          "物价与购买力",
+          "卫生与社会保障统计",
+          "教育与科学数据",
+          "环境与能源统计",
+          "农业与林业数据",
+          "对外贸易与国际收支"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/switzerland/switzerland-fso.json"
     },
     {
       "id": "turkey-tuik",

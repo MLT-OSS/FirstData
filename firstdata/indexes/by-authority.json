@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-16T03:18:14.621977+00:00",
-    "total_sources": 260,
+    "generated_at": "2026-03-17T02:04:27.861295+00:00",
+    "total_sources": 262,
     "authority_counts": {
       "research": 33,
       "international": 65,
-      "government": 128,
+      "government": 130,
       "other": 3,
       "market": 16,
       "commercial": 15
@@ -2257,6 +2257,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "norway-ssb",
+        "name": {
+          "en": "Statistics Norway (SSB)",
+          "zh": "挪威统计局",
+          "native": "Statistisk sentralbyrå (SSB)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ssb.no/en/statbank",
+        "has_api": true,
+        "file_path": "countries/europe/norway/norway-ssb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "spain-ine",
         "name": {
           "en": "National Statistics Institute of Spain",
@@ -2278,6 +2291,19 @@
         "data_url": "https://www.statistikdatabasen.scb.se",
         "has_api": true,
         "file_path": "countries/europe/sweden/sweden-scb.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "switzerland-fso",
+        "name": {
+          "en": "Swiss Federal Statistical Office (FSO)",
+          "zh": "瑞士联邦统计局",
+          "native": "Bundesamt für Statistik (BFS)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bfs.admin.ch/bfs/en/home/statistics.html",
+        "has_api": true,
+        "file_path": "countries/europe/switzerland/switzerland-fso.json",
         "geographic_scope": "national"
       },
       {

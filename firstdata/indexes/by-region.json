@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-16T03:18:14.621977+00:00",
-    "total_regions": 29,
-    "total_sources": 260,
+    "generated_at": "2026-03-17T02:04:27.861295+00:00",
+    "total_regions": 31,
+    "total_sources": 262,
     "version": "2.0"
   },
   "regions": {
@@ -159,6 +159,21 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "CH": [
+      {
+        "id": "switzerland-fso",
+        "name": {
+          "en": "Swiss Federal Statistical Office (FSO)",
+          "zh": "瑞士联邦统计局",
+          "native": "Bundesamt für Statistik (BFS)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bfs.admin.ch/bfs/en/home/statistics.html",
+        "has_api": true,
+        "file_path": "countries/europe/switzerland/switzerland-fso.json",
         "geographic_scope": "national"
       }
     ],
@@ -1459,6 +1474,21 @@
         "data_url": "https://opendata.cbs.nl/statline/",
         "has_api": true,
         "file_path": "countries/europe/netherlands/netherlands-cbs.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "NO": [
+      {
+        "id": "norway-ssb",
+        "name": {
+          "en": "Statistics Norway (SSB)",
+          "zh": "挪威统计局",
+          "native": "Statistisk sentralbyrå (SSB)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ssb.no/en/statbank",
+        "has_api": true,
+        "file_path": "countries/europe/norway/norway-ssb.json",
         "geographic_scope": "national"
       }
     ],
