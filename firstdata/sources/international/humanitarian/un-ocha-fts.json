@@ -1,0 +1,34 @@
+{
+  "id": "un-ocha-fts",
+  "name": {
+    "en": "UN OCHA Financial Tracking Service",
+    "zh": "联合国人道主义事务协调厅资金追踪系统"
+  },
+  "description": {
+    "en": "The Financial Tracking Service (FTS) is a centralized platform maintained by the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) that records all reported humanitarian aid contributions and pledges worldwide. It tracks funding flows from donors to implementing organizations across humanitarian emergencies, providing real-time transparency on humanitarian financing.",
+    "zh": "资金追踪系统（FTS）是联合国人道主义事务协调厅（OCHA）维护的全球人道主义援助资金追踪平台，记录所有已报告的人道主义捐款和承诺，追踪从捐助方到执行组织的资金流向，为人道主义融资提供实时透明度。"
+  },
+  "website": "https://www.unocha.org",
+  "data_url": "https://fts.unocha.org",
+  "api_url": "https://fts.unocha.org/content/fts-public-api",
+  "authority_level": "international",
+  "country": null,
+  "domains": ["humanitarian", "development", "finance"],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": ["humanitarian-aid", "人道主义援助", "funding", "资金追踪", "OCHA", "联合国", "emergency-response", "donor-contributions", "development-assistance", "人道主义融资"],
+  "data_content": {
+    "en": [
+      "Humanitarian aid contributions and pledges by donor country and organization",
+      "Funding flows by emergency, sector, and recipient organization",
+      "Appeals and response plans funding status",
+      "Historical humanitarian financing data from 1992 to present"
+    ],
+    "zh": [
+      "按捐助国和组织分类的人道主义援助捐款和承诺",
+      "按紧急事件、部门和受援组织分类的资金流向",
+      "呼吁和应对计划的资金状况",
+      "1992年至今的历史人道主义融资数据"
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-17T02:04:27.861295+00:00",
+    "generated_at": "2026-03-17T02:06:56.707844+00:00",
     "total_domains": 690,
-    "total_sources": 262,
+    "total_sources": 267,
     "version": "2.0"
   },
   "domains": {
@@ -603,6 +603,18 @@
         "has_api": true,
         "file_path": "international/economics/eurostat.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "isric-world-soil",
+        "name": {
+          "en": "ISRIC World Soil Information",
+          "zh": "ISRIC世界土壤信息中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.isric.org/explore",
+        "has_api": true,
+        "file_path": "international/environment/isric-world-soil.json",
+        "geographic_scope": "global"
       },
       {
         "id": "amis",
@@ -2408,6 +2420,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "ember-climate",
+        "name": {
+          "en": "Ember Global Electricity Data",
+          "zh": "Ember全球电力数据平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://ember-climate.org/data/",
+        "has_api": true,
+        "file_path": "international/climate/ember-climate.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "ipcc",
         "name": {
           "en": "IPCC Data Distribution Centre",
@@ -2417,6 +2441,18 @@
         "data_url": "https://www.ipcc-data.org/observ/index.html",
         "has_api": false,
         "file_path": "international/climate/ipcc.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "unfccc",
+        "name": {
+          "en": "UNFCCC - United Nations Framework Convention on Climate Change",
+          "zh": "联合国气候变化框架公约"
+        },
+        "authority_level": "international",
+        "data_url": "https://di.unfccc.int",
+        "has_api": true,
+        "file_path": "international/climate/unfccc.json",
         "geographic_scope": "global"
       },
       {
@@ -4488,6 +4524,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "aiddata",
+        "name": {
+          "en": "AidData - Global Development Finance",
+          "zh": "AidData全球发展援助数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aiddata.org/datasets",
+        "has_api": false,
+        "file_path": "international/development/aiddata.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "undp-hdr",
         "name": {
           "en": "UNDP Human Development Reports",
@@ -4570,6 +4618,18 @@
         "has_api": false,
         "file_path": "international/finance/paris-club.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "un-ocha-fts",
+        "name": {
+          "en": "UN OCHA Financial Tracking Service",
+          "zh": "联合国人道主义事务协调厅资金追踪系统"
+        },
+        "authority_level": "international",
+        "data_url": "https://fts.unocha.org",
+        "has_api": true,
+        "file_path": "international/humanitarian/un-ocha-fts.json",
+        "geographic_scope": "global"
       },
       {
         "id": "unctad",
@@ -5057,6 +5117,18 @@
         "data_url": "https://www.earthdata.nasa.gov",
         "has_api": true,
         "file_path": "international/earth-science/nasa-earthdata.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "isric-world-soil",
+        "name": {
+          "en": "ISRIC World Soil Information",
+          "zh": "ISRIC世界土壤信息中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.isric.org/explore",
+        "has_api": true,
+        "file_path": "international/environment/isric-world-soil.json",
         "geographic_scope": "global"
       }
     ],
@@ -6070,6 +6142,18 @@
         "has_api": true,
         "file_path": "international/development/afdb-statistics.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "aiddata",
+        "name": {
+          "en": "AidData - Global Development Finance",
+          "zh": "AidData全球发展援助数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aiddata.org/datasets",
+        "has_api": false,
+        "file_path": "international/development/aiddata.json",
+        "geographic_scope": "global"
       },
       {
         "id": "undp-hdr",
@@ -7473,6 +7557,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "ember-climate",
+        "name": {
+          "en": "Ember Global Electricity Data",
+          "zh": "Ember全球电力数据平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://ember-climate.org/data/",
+        "has_api": true,
+        "file_path": "international/climate/ember-climate.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "unfccc",
+        "name": {
+          "en": "UNFCCC - United Nations Framework Convention on Climate Change",
+          "zh": "联合国气候变化框架公约"
+        },
+        "authority_level": "international",
+        "data_url": "https://di.unfccc.int",
+        "has_api": true,
+        "file_path": "international/climate/unfccc.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "adb-data-library",
         "name": {
           "en": "Asian Development Bank Data Library",
@@ -8109,6 +8217,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "ember-climate",
+        "name": {
+          "en": "Ember Global Electricity Data",
+          "zh": "Ember全球电力数据平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://ember-climate.org/data/",
+        "has_api": true,
+        "file_path": "international/climate/ember-climate.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "ipcc",
         "name": {
           "en": "IPCC Data Distribution Centre",
@@ -8118,6 +8238,18 @@
         "data_url": "https://www.ipcc-data.org/observ/index.html",
         "has_api": false,
         "file_path": "international/climate/ipcc.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "unfccc",
+        "name": {
+          "en": "UNFCCC - United Nations Framework Convention on Climate Change",
+          "zh": "联合国气候变化框架公约"
+        },
+        "authority_level": "international",
+        "data_url": "https://di.unfccc.int",
+        "has_api": true,
+        "file_path": "international/climate/unfccc.json",
         "geographic_scope": "global"
       },
       {
@@ -8266,6 +8398,18 @@
         "data_url": "https://data.ess-dive.lbl.gov/portals/CDIAC",
         "has_api": true,
         "file_path": "international/environment/cdiac.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "isric-world-soil",
+        "name": {
+          "en": "ISRIC World Soil Information",
+          "zh": "ISRIC世界土壤信息中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.isric.org/explore",
+        "has_api": true,
+        "file_path": "international/environment/isric-world-soil.json",
         "geographic_scope": "global"
       },
       {
@@ -9108,6 +9252,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "aiddata",
+        "name": {
+          "en": "AidData - Global Development Finance",
+          "zh": "AidData全球发展援助数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aiddata.org/datasets",
+        "has_api": false,
+        "file_path": "international/development/aiddata.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "adb-ado",
         "name": {
           "en": "Asian Development Outlook",
@@ -9239,6 +9395,18 @@
         "has_api": false,
         "file_path": "international/finance/paris-club.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "un-ocha-fts",
+        "name": {
+          "en": "UN OCHA Financial Tracking Service",
+          "zh": "联合国人道主义事务协调厅资金追踪系统"
+        },
+        "authority_level": "international",
+        "data_url": "https://fts.unocha.org",
+        "has_api": true,
+        "file_path": "international/humanitarian/un-ocha-fts.json",
+        "geographic_scope": "global"
       },
       {
         "id": "icc-trade-register",
@@ -11751,6 +11919,18 @@
       }
     ],
     "humanitarian": [
+      {
+        "id": "un-ocha-fts",
+        "name": {
+          "en": "UN OCHA Financial Tracking Service",
+          "zh": "联合国人道主义事务协调厅资金追踪系统"
+        },
+        "authority_level": "international",
+        "data_url": "https://fts.unocha.org",
+        "has_api": true,
+        "file_path": "international/humanitarian/un-ocha-fts.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "unhcr",
         "name": {

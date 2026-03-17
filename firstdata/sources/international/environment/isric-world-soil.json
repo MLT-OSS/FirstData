@@ -1,0 +1,34 @@
+{
+  "id": "isric-world-soil",
+  "name": {
+    "en": "ISRIC World Soil Information",
+    "zh": "ISRIC世界土壤信息中心"
+  },
+  "description": {
+    "en": "ISRIC - World Soil Information is an independent foundation established in 1966, serving as the global reference center for soil data and information. It hosts SoilGrids, a global gridded soil information system providing predictions of soil properties at 250m resolution, and the World Soil Reference Collection. ISRIC supports sustainable land management and food security through standardized soil data.",
+    "zh": "ISRIC世界土壤信息中心成立于1966年，是全球土壤数据和信息的参考中心。托管SoilGrids全球网格化土壤信息系统，提供250米分辨率的土壤属性预测，以及世界土壤参考收藏。通过标准化土壤数据支持可持续土地管理和粮食安全。"
+  },
+  "website": "https://www.isric.org",
+  "data_url": "https://www.isric.org/explore",
+  "api_url": "https://rest.isric.org",
+  "authority_level": "research",
+  "country": null,
+  "domains": ["environment", "agriculture", "earth-science"],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": ["soil", "土壤", "land-degradation", "土地退化", "soil-carbon", "土壤碳", "SoilGrids", "erosion", "侵蚀", "food-security", "粮食安全", "land-management"],
+  "data_content": {
+    "en": [
+      "SoilGrids: global soil property maps at 250m resolution (organic carbon, pH, texture, etc.)",
+      "World Soil Reference Collection with 1,000+ soil profiles",
+      "Soil erosion risk assessments and land degradation indicators",
+      "Harmonized soil property databases (WoSIS)"
+    ],
+    "zh": [
+      "SoilGrids：250米分辨率的全球土壤属性图（有机碳、pH、质地等）",
+      "包含1000多个土壤剖面的世界土壤参考收藏",
+      "土壤侵蚀风险评估和土地退化指标",
+      "统一的土壤属性数据库（WoSIS）"
+    ]
+  }
+}

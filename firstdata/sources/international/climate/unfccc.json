@@ -1,0 +1,34 @@
+{
+  "id": "unfccc",
+  "name": {
+    "en": "UNFCCC - United Nations Framework Convention on Climate Change",
+    "zh": "联合国气候变化框架公约"
+  },
+  "description": {
+    "en": "The UNFCCC is the international treaty framework for climate change governance. Its data portal provides access to national greenhouse gas inventories, Nationally Determined Contributions (NDCs), climate finance reports, and adaptation communications submitted by parties to the Convention and the Paris Agreement.",
+    "zh": "联合国气候变化框架公约是气候变化治理的国际条约框架。其数据门户提供国家温室气体清单、国家自主贡献（NDC）、气候融资报告和缔约方提交的适应通讯。"
+  },
+  "website": "https://unfccc.int",
+  "data_url": "https://di.unfccc.int",
+  "api_url": "https://di.unfccc.int/api",
+  "authority_level": "international",
+  "country": null,
+  "domains": ["climate", "environment", "energy"],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": ["climate-change", "气候变化", "greenhouse-gas", "温室气体", "NDC", "国家自主贡献", "Paris-Agreement", "巴黎协定", "carbon-neutrality", "碳中和", "emissions-inventory", "排放清单"],
+  "data_content": {
+    "en": [
+      "National greenhouse gas inventory data reported by 197 parties",
+      "Nationally Determined Contributions (NDCs) and implementation progress",
+      "Climate finance flows from developed to developing countries",
+      "National adaptation plans and communications"
+    ],
+    "zh": [
+      "197个缔约方报告的国家温室气体清单数据",
+      "国家自主贡献（NDC）及实施进展",
+      "发达国家向发展中国家的气候融资流量",
+      "国家适应计划和通讯"
+    ]
+  }
+}

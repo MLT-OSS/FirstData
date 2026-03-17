@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-17T02:04:27.861295+00:00",
-    "total_sources": 262,
+    "generated_at": "2026-03-17T02:06:56.707844+00:00",
+    "total_sources": 267,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -10772,6 +10772,59 @@
       "file_path": "international/climate/ecmwf.json"
     },
     {
+      "id": "ember-climate",
+      "name": {
+        "en": "Ember Global Electricity Data",
+        "zh": "Ember全球电力数据平台"
+      },
+      "description": {
+        "en": "Ember is an independent energy think tank that provides open, transparent data on global electricity generation and carbon emissions from the power sector. It publishes the annual Global Electricity Review and maintains comprehensive datasets covering electricity generation by source, power sector CO2 emissions, and clean energy transition progress for over 200 countries.",
+        "zh": "Ember是一家独立能源智库，提供全球电力生产和电力部门碳排放的开放透明数据。发布年度《全球电力评估》报告，维护覆盖200多个国家的电力生产来源、电力部门二氧化碳排放和清洁能源转型进展的综合数据集。"
+      },
+      "website": "https://ember-climate.org",
+      "data_url": "https://ember-climate.org/data/",
+      "api_url": "https://ember-climate.org/data/data-tools/data-explorer/",
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "energy",
+        "climate",
+        "environment"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "monthly",
+      "tags": [
+        "electricity",
+        "电力",
+        "carbon-emissions",
+        "碳排放",
+        "renewable-energy",
+        "可再生能源",
+        "power-sector",
+        "clean-energy",
+        "energy-transition",
+        "能源转型",
+        "coal",
+        "煤电"
+      ],
+      "data_content": {
+        "en": [
+          "Electricity generation by source (coal, gas, nuclear, wind, solar, hydro, etc.) for 200+ countries",
+          "Power sector CO2 emissions and carbon intensity of electricity",
+          "Clean energy share of electricity generation trends",
+          "Annual Global Electricity Review and regional analysis reports"
+        ],
+        "zh": [
+          "200多个国家按来源分类的发电量（煤、气、核、风、光、水等）",
+          "电力部门二氧化碳排放和电力碳强度",
+          "清洁能源占发电量比例趋势",
+          "年度全球电力评估和区域分析报告"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/climate/ember-climate.json"
+    },
+    {
       "id": "ipcc",
       "name": {
         "en": "IPCC Data Distribution Centre",
@@ -10813,6 +10866,59 @@
       "geographic_scope": "global",
       "has_api": false,
       "file_path": "international/climate/ipcc.json"
+    },
+    {
+      "id": "unfccc",
+      "name": {
+        "en": "UNFCCC - United Nations Framework Convention on Climate Change",
+        "zh": "联合国气候变化框架公约"
+      },
+      "description": {
+        "en": "The UNFCCC is the international treaty framework for climate change governance. Its data portal provides access to national greenhouse gas inventories, Nationally Determined Contributions (NDCs), climate finance reports, and adaptation communications submitted by parties to the Convention and the Paris Agreement.",
+        "zh": "联合国气候变化框架公约是气候变化治理的国际条约框架。其数据门户提供国家温室气体清单、国家自主贡献（NDC）、气候融资报告和缔约方提交的适应通讯。"
+      },
+      "website": "https://unfccc.int",
+      "data_url": "https://di.unfccc.int",
+      "api_url": "https://di.unfccc.int/api",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "climate",
+        "environment",
+        "energy"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "climate-change",
+        "气候变化",
+        "greenhouse-gas",
+        "温室气体",
+        "NDC",
+        "国家自主贡献",
+        "Paris-Agreement",
+        "巴黎协定",
+        "carbon-neutrality",
+        "碳中和",
+        "emissions-inventory",
+        "排放清单"
+      ],
+      "data_content": {
+        "en": [
+          "National greenhouse gas inventory data reported by 197 parties",
+          "Nationally Determined Contributions (NDCs) and implementation progress",
+          "Climate finance flows from developed to developing countries",
+          "National adaptation plans and communications"
+        ],
+        "zh": [
+          "197个缔约方报告的国家温室气体清单数据",
+          "国家自主贡献（NDC）及实施进展",
+          "发达国家向发展中国家的气候融资流量",
+          "国家适应计划和通讯"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/climate/unfccc.json"
     },
     {
       "id": "eu-construction",
@@ -11564,6 +11670,59 @@
       "authority_level": "international",
       "has_api": true,
       "file_path": "international/development/afdb.json"
+    },
+    {
+      "id": "aiddata",
+      "name": {
+        "en": "AidData - Global Development Finance",
+        "zh": "AidData全球发展援助数据库"
+      },
+      "description": {
+        "en": "AidData is a research lab at William & Mary's Global Research Institute that tracks and geocodes international development finance from major bilateral and multilateral donors. It provides the most comprehensive dataset on Chinese overseas development finance and publishes project-level data covering aid, debt, and investment flows to developing countries.",
+        "zh": "AidData是威廉与玛丽学院全球研究所的研究实验室，追踪和地理编码主要双边及多边捐助方的国际发展融资。提供最全面的中国海外发展融资数据集，发布覆盖对发展中国家援助、债务和投资流向的项目级数据。"
+      },
+      "website": "https://www.aiddata.org",
+      "data_url": "https://www.aiddata.org/datasets",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "development",
+        "economics",
+        "finance"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "development-aid",
+        "发展援助",
+        "ODA",
+        "foreign-aid",
+        "对外援助",
+        "geocoded",
+        "地理编码",
+        "China-overseas-finance",
+        "中国海外融资",
+        "Belt-and-Road",
+        "一带一路",
+        "development-finance"
+      ],
+      "data_content": {
+        "en": [
+          "Geocoded project-level data on international development finance from 2000 to present",
+          "Chinese overseas development finance tracking (loans, grants, technical assistance)",
+          "Bilateral and multilateral aid flow data with geographic coordinates",
+          "Development effectiveness research and impact evaluations"
+        ],
+        "zh": [
+          "2000年至今的地理编码项目级国际发展融资数据",
+          "中国海外发展融资追踪（贷款、赠款、技术援助）",
+          "带有地理坐标的双边及多边援助流量数据",
+          "发展有效性研究和影响评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/development/aiddata.json"
     },
     {
       "id": "caf",
@@ -13598,6 +13757,59 @@
       "file_path": "international/environment/cites-trade-database.json"
     },
     {
+      "id": "isric-world-soil",
+      "name": {
+        "en": "ISRIC World Soil Information",
+        "zh": "ISRIC世界土壤信息中心"
+      },
+      "description": {
+        "en": "ISRIC - World Soil Information is an independent foundation established in 1966, serving as the global reference center for soil data and information. It hosts SoilGrids, a global gridded soil information system providing predictions of soil properties at 250m resolution, and the World Soil Reference Collection. ISRIC supports sustainable land management and food security through standardized soil data.",
+        "zh": "ISRIC世界土壤信息中心成立于1966年，是全球土壤数据和信息的参考中心。托管SoilGrids全球网格化土壤信息系统，提供250米分辨率的土壤属性预测，以及世界土壤参考收藏。通过标准化土壤数据支持可持续土地管理和粮食安全。"
+      },
+      "website": "https://www.isric.org",
+      "data_url": "https://www.isric.org/explore",
+      "api_url": "https://rest.isric.org",
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "environment",
+        "agriculture",
+        "earth-science"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "soil",
+        "土壤",
+        "land-degradation",
+        "土地退化",
+        "soil-carbon",
+        "土壤碳",
+        "SoilGrids",
+        "erosion",
+        "侵蚀",
+        "food-security",
+        "粮食安全",
+        "land-management"
+      ],
+      "data_content": {
+        "en": [
+          "SoilGrids: global soil property maps at 250m resolution (organic carbon, pH, texture, etc.)",
+          "World Soil Reference Collection with 1,000+ soil profiles",
+          "Soil erosion risk assessments and land degradation indicators",
+          "Harmonized soil property databases (WoSIS)"
+        ],
+        "zh": [
+          "SoilGrids：250米分辨率的全球土壤属性图（有机碳、pH、质地等）",
+          "包含1000多个土壤剖面的世界土壤参考收藏",
+          "土壤侵蚀风险评估和土地退化指标",
+          "统一的土壤属性数据库（WoSIS）"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/environment/isric-world-soil.json"
+    },
+    {
       "id": "bis-cbta",
       "name": {
         "en": "BIS Central Bank Total Assets",
@@ -14097,6 +14309,57 @@
       "geographic_scope": "global",
       "has_api": true,
       "file_path": "international/health/who-gho.json"
+    },
+    {
+      "id": "un-ocha-fts",
+      "name": {
+        "en": "UN OCHA Financial Tracking Service",
+        "zh": "联合国人道主义事务协调厅资金追踪系统"
+      },
+      "description": {
+        "en": "The Financial Tracking Service (FTS) is a centralized platform maintained by the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) that records all reported humanitarian aid contributions and pledges worldwide. It tracks funding flows from donors to implementing organizations across humanitarian emergencies, providing real-time transparency on humanitarian financing.",
+        "zh": "资金追踪系统（FTS）是联合国人道主义事务协调厅（OCHA）维护的全球人道主义援助资金追踪平台，记录所有已报告的人道主义捐款和承诺，追踪从捐助方到执行组织的资金流向，为人道主义融资提供实时透明度。"
+      },
+      "website": "https://www.unocha.org",
+      "data_url": "https://fts.unocha.org",
+      "api_url": "https://fts.unocha.org/content/fts-public-api",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "humanitarian",
+        "development",
+        "finance"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "tags": [
+        "humanitarian-aid",
+        "人道主义援助",
+        "funding",
+        "资金追踪",
+        "OCHA",
+        "联合国",
+        "emergency-response",
+        "donor-contributions",
+        "development-assistance",
+        "人道主义融资"
+      ],
+      "data_content": {
+        "en": [
+          "Humanitarian aid contributions and pledges by donor country and organization",
+          "Funding flows by emergency, sector, and recipient organization",
+          "Appeals and response plans funding status",
+          "Historical humanitarian financing data from 1992 to present"
+        ],
+        "zh": [
+          "按捐助国和组织分类的人道主义援助捐款和承诺",
+          "按紧急事件、部门和受援组织分类的资金流向",
+          "呼吁和应对计划的资金状况",
+          "1992年至今的历史人道主义融资数据"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/humanitarian/un-ocha-fts.json"
     },
     {
       "id": "un-population",

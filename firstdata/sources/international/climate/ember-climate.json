@@ -1,0 +1,34 @@
+{
+  "id": "ember-climate",
+  "name": {
+    "en": "Ember Global Electricity Data",
+    "zh": "Ember全球电力数据平台"
+  },
+  "description": {
+    "en": "Ember is an independent energy think tank that provides open, transparent data on global electricity generation and carbon emissions from the power sector. It publishes the annual Global Electricity Review and maintains comprehensive datasets covering electricity generation by source, power sector CO2 emissions, and clean energy transition progress for over 200 countries.",
+    "zh": "Ember是一家独立能源智库，提供全球电力生产和电力部门碳排放的开放透明数据。发布年度《全球电力评估》报告，维护覆盖200多个国家的电力生产来源、电力部门二氧化碳排放和清洁能源转型进展的综合数据集。"
+  },
+  "website": "https://ember-climate.org",
+  "data_url": "https://ember-climate.org/data/",
+  "api_url": "https://ember-climate.org/data/data-tools/data-explorer/",
+  "authority_level": "research",
+  "country": null,
+  "domains": ["energy", "climate", "environment"],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": ["electricity", "电力", "carbon-emissions", "碳排放", "renewable-energy", "可再生能源", "power-sector", "clean-energy", "energy-transition", "能源转型", "coal", "煤电"],
+  "data_content": {
+    "en": [
+      "Electricity generation by source (coal, gas, nuclear, wind, solar, hydro, etc.) for 200+ countries",
+      "Power sector CO2 emissions and carbon intensity of electricity",
+      "Clean energy share of electricity generation trends",
+      "Annual Global Electricity Review and regional analysis reports"
+    ],
+    "zh": [
+      "200多个国家按来源分类的发电量（煤、气、核、风、光、水等）",
+      "电力部门二氧化碳排放和电力碳强度",
+      "清洁能源占发电量比例趋势",
+      "年度全球电力评估和区域分析报告"
+    ]
+  }
+}

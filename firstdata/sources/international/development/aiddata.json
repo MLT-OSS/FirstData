@@ -1,0 +1,34 @@
+{
+  "id": "aiddata",
+  "name": {
+    "en": "AidData - Global Development Finance",
+    "zh": "AidData全球发展援助数据库"
+  },
+  "description": {
+    "en": "AidData is a research lab at William & Mary's Global Research Institute that tracks and geocodes international development finance from major bilateral and multilateral donors. It provides the most comprehensive dataset on Chinese overseas development finance and publishes project-level data covering aid, debt, and investment flows to developing countries.",
+    "zh": "AidData是威廉与玛丽学院全球研究所的研究实验室，追踪和地理编码主要双边及多边捐助方的国际发展融资。提供最全面的中国海外发展融资数据集，发布覆盖对发展中国家援助、债务和投资流向的项目级数据。"
+  },
+  "website": "https://www.aiddata.org",
+  "data_url": "https://www.aiddata.org/datasets",
+  "api_url": null,
+  "authority_level": "research",
+  "country": null,
+  "domains": ["development", "economics", "finance"],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": ["development-aid", "发展援助", "ODA", "foreign-aid", "对外援助", "geocoded", "地理编码", "China-overseas-finance", "中国海外融资", "Belt-and-Road", "一带一路", "development-finance"],
+  "data_content": {
+    "en": [
+      "Geocoded project-level data on international development finance from 2000 to present",
+      "Chinese overseas development finance tracking (loans, grants, technical assistance)",
+      "Bilateral and multilateral aid flow data with geographic coordinates",
+      "Development effectiveness research and impact evaluations"
+    ],
+    "zh": [
+      "2000年至今的地理编码项目级国际发展融资数据",
+      "中国海外发展融资追踪（贷款、赠款、技术援助）",
+      "带有地理坐标的双边及多边援助流量数据",
+      "发展有效性研究和影响评估"
+    ]
+  }
+}
