@@ -1,0 +1,47 @@
+{
+  "id": "denmark-dst",
+  "name": {
+    "en": "Statistics Denmark",
+    "zh": "丹麦统计局",
+    "native": "Danmarks Statistik"
+  },
+  "description": {
+    "en": "Statistics Denmark (Danmarks Statistik) is the national statistical institute of Denmark, responsible for collecting, compiling, and publishing official statistics on Danish society. It covers a wide range of topics including population, economy, business, trade, and social conditions, and provides open access via its StatBank API.",
+    "zh": "丹麦统计局（Danmarks Statistik）是丹麦官方国家统计机构，负责收集、整理和发布丹麦社会各方面的官方统计数据，涵盖人口、经济、商业、贸易和社会状况，并通过StatBank API提供开放数据访问。"
+  },
+  "website": "https://www.dst.dk",
+  "data_url": "https://www.dst.dk/en/Statistik",
+  "api_url": "https://api.statbank.dk/v1/",
+  "authority_level": "government",
+  "country": "DK",
+  "domains": ["demographics", "economics", "trade", "social", "employment", "prices"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "denmark", "danmarks statistik", "statistics denmark", "StatBank", "official statistics",
+    "population", "GDP", "national accounts", "trade", "labor market", "CPI",
+    "丹麦", "丹麦统计局", "人口统计", "经济统计", "贸易", "就业", "国民账户", "统计银行"
+  ],
+  "data_content": {
+    "en": [
+      "Population and vital statistics",
+      "GDP and national accounts",
+      "Foreign trade and balance of payments",
+      "Employment and labor market indicators",
+      "Consumer price index and inflation",
+      "Business and enterprise statistics",
+      "Social conditions and welfare",
+      "Environmental accounts and energy statistics"
+    ],
+    "zh": [
+      "人口与生命统计",
+      "GDP与国民账户",
+      "对外贸易与国际收支",
+      "就业与劳动力市场指标",
+      "消费者价格指数与通货膨胀",
+      "企业与工商统计",
+      "社会状况与福利",
+      "环境账户与能源统计"
+    ]
+  }
+}

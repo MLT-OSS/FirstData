@@ -1,0 +1,47 @@
+{
+  "id": "austria-statistik",
+  "name": {
+    "en": "Statistics Austria",
+    "zh": "奥地利统计局",
+    "native": "Statistik Austria"
+  },
+  "description": {
+    "en": "Statistics Austria is the national statistical office of Austria, providing official statistics on population, economy, society, environment, and regional development. It serves as the primary source for national accounts, demographic data, labor market statistics, and social indicators.",
+    "zh": "奥地利统计局是奥地利官方国家统计机构，提供人口、经济、社会、环境和区域发展等方面的官方统计数据，是国民账户、人口统计、劳动力市场统计和社会指标的主要来源。"
+  },
+  "website": "https://www.statistik.at",
+  "data_url": "https://www.statistik.at/statistiken",
+  "api_url": "https://api.statistik.at/stat/rest/v1/",
+  "authority_level": "government",
+  "country": "AT",
+  "domains": ["demographics", "economics", "social", "employment", "prices"],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "austria", "statistik austria", "official statistics", "population", "census",
+    "GDP", "national accounts", "labor market", "inflation", "social statistics",
+    "奥地利", "奥地利统计局", "人口统计", "经济统计", "就业", "国民账户", "通货膨胀"
+  ],
+  "data_content": {
+    "en": [
+      "Population and census data",
+      "GDP and national accounts",
+      "Employment and unemployment statistics",
+      "Consumer price index and inflation",
+      "Housing and construction statistics",
+      "Education and training indicators",
+      "Health and social welfare data",
+      "Regional and municipal statistics"
+    ],
+    "zh": [
+      "人口与普查数据",
+      "GDP与国民账户",
+      "就业与失业统计",
+      "消费者价格指数与通货膨胀",
+      "住房与建筑统计",
+      "教育与培训指标",
+      "卫生与社会福利数据",
+      "区域与市政统计"
+    ]
+  }
+}
