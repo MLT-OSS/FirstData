@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-18T02:10:13.281407+00:00",
+    "generated_at": "2026-03-18T17:14:53.638932+00:00",
     "total_regions": 33,
     "total_sources": 274,
     "version": "2.0"
@@ -928,7 +928,7 @@
           "zh": "中国光学光电子行业协会液晶分会"
         },
         "authority_level": "market",
-        "data_url": "http://www.coda.org.cn/#/details/more?type=list-info&id=61b1c9ec105e35101858fc49&bannerId=61b30eaa105e353264b3f083",
+        "data_url": "https://www.coda.org.cn",
         "has_api": false,
         "file_path": "sectors/C-manufacturing/electronics/china-lcd-association.json",
         "geographic_scope": "national"
@@ -1341,7 +1341,7 @@
           "zh": "日本气象厅"
         },
         "authority_level": "government",
-        "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+        "data_url": "https://www.data.jma.go.jp/risk/obsdl/index.php",
         "has_api": false,
         "file_path": "countries/asia/japan/japan-jma.json",
         "geographic_scope": "national"
@@ -1586,7 +1586,7 @@
           "zh": "新加坡统计局"
         },
         "authority_level": "government",
-        "data_url": "https://www.singstat.gov.sg/find-data",
+        "data_url": "https://tablebuilder.singstat.gov.sg",
         "has_api": true,
         "file_path": "singapore/national/singapore-dos.json",
         "geographic_scope": "national"
@@ -1601,7 +1601,7 @@
           "native": "สำนักงานสถิติแห่งชาติ"
         },
         "authority_level": "government",
-        "data_url": "https://www.nso.go.th/nsoweb/nso/statistics",
+        "data_url": "https://www.nso.go.th/nsoweb/officialStatistics",
         "has_api": false,
         "file_path": "thailand/national/thailand-nso.json",
         "geographic_scope": "national"

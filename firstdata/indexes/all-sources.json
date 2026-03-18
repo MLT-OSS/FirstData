@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-18T02:10:13.281407+00:00",
+    "generated_at": "2026-03-18T17:14:53.638932+00:00",
     "total_sources": 274,
     "version": "2.0",
     "schema_version": "v2.0.0"
@@ -6339,7 +6339,7 @@
         "zh": "日本国家气象机构，提供天气预报、地震/海啸监测和亚太地区气候数据。"
       },
       "website": "https://www.jma.go.jp",
-      "data_url": "https://www.data.jma.go.jp/gmd/risk/obsdl/index.php",
+      "data_url": "https://www.data.jma.go.jp/risk/obsdl/index.php",
       "api_url": null,
       "data_content": {
         "en": [
@@ -6838,7 +6838,7 @@
         "en": "The national statistical office of South Korea providing comprehensive statistical data on population, economy, society, and environment through the Korean Statistical Information Service (KOSIS).",
         "zh": "韩国国家统计机构，通过韩国统计信息服务(KOSIS)提供人口、经济、社会和环境的综合统计数据。"
       },
-      "website": "https://kostat.go.kr/english/",
+      "website": "https://kostat.go.kr/",
       "data_url": "https://kosis.kr/eng/",
       "api_url": "https://kosis.kr/openapi/",
       "authority_level": "government",
@@ -16585,8 +16585,8 @@
         "en": "CODA is the national industry association for China's display industry, established in 1996 under the guidance of the Ministry of Industry and Information Technology. It provides authoritative data and analysis on LCD, OLED, and Micro-LED panel capacity, production value, market trends, and technology development. CODA publishes regular industry reports, market forecasts, and coordinates international cooperation through the World Display Industry Cooperation Committee (WDICC). The association serves over 500 member companies including major panel manufacturers, materials suppliers, equipment makers, research institutions, and universities.",
         "zh": "中国光学光电子行业协会液晶分会（CODA）是中国显示行业唯一的国家级行业协会，成立于1996年7月，由工业和信息化部作为业务指导单位。协会提供LCD、OLED和Micro-LED面板产能、产值、市场趋势和技术发展的权威数据与分析。CODA定期发布行业报告、市场预测，并通过世界显示产业合作委员会（WDICC）协调国际合作。协会服务超过500家会员单位，包括大中型显示器件制造厂商、材料制造商、设备制造商、科研机构和高等院校。"
       },
-      "website": "http://www.coda.org.cn/",
-      "data_url": "http://www.coda.org.cn/#/details/more?type=list-info&id=61b1c9ec105e35101858fc49&bannerId=61b30eaa105e353264b3f083",
+      "website": "https://www.coda.org.cn/",
+      "data_url": "https://www.coda.org.cn",
       "api_url": null,
       "authority_level": "market",
       "country": "CN",
@@ -19138,7 +19138,7 @@
         "zh": "新加坡统计局是新加坡国家统计机构，提供人口、经济、贸易、数字经济和社会指标的官方统计数据。"
       },
       "website": "https://www.singstat.gov.sg",
-      "data_url": "https://www.singstat.gov.sg/find-data",
+      "data_url": "https://tablebuilder.singstat.gov.sg",
       "api_url": "https://tablebuilder.singstat.gov.sg/api",
       "country": "SG",
       "domains": [
@@ -19185,7 +19185,7 @@
         "zh": "泰国国家统计局是泰国统计数据的中央政府机构。提供人口、经济、劳动力、贸易和社会指标数据。"
       },
       "website": "https://www.nso.go.th",
-      "data_url": "https://www.nso.go.th/nsoweb/nso/statistics",
+      "data_url": "https://www.nso.go.th/nsoweb/officialStatistics",
       "country": "TH",
       "domains": [
         "economics",
