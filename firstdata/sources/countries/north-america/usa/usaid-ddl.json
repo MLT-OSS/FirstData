@@ -1,0 +1,62 @@
+{
+  "id": "usaid-ddl",
+  "name": {
+    "en": "USAID Development Data Library",
+    "zh": "美国国际开发署发展数据库"
+  },
+  "description": {
+    "en": "The USAID Development Data Library (DDL) is the U.S. Agency for International Development's public repository for USAID-funded, machine-readable data. It provides open access to datasets across all sectors of international development, including health, education, agriculture, economic growth, democracy, and humanitarian assistance. The DDL supports USAID's open data policy and makes development data freely available to researchers, policymakers, and the public.",
+    "zh": "美国国际开发署发展数据库（DDL）是美国国际开发署资助的机器可读数据的公共存储库。它提供国际发展各领域的开放数据访问，包括卫生、教育、农业、经济增长、民主治理和人道主义援助。DDL支持USAID的开放数据政策，向研究人员、政策制定者和公众免费提供发展数据。"
+  },
+  "website": "https://www.usaid.gov",
+  "data_url": "https://data.usaid.gov",
+  "api_url": "https://data.usaid.gov/developers",
+  "country": "US",
+  "domains": [
+    "international development",
+    "foreign aid",
+    "health",
+    "education",
+    "agriculture",
+    "economic growth",
+    "humanitarian assistance",
+    "democracy and governance"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "usaid",
+    "development",
+    "foreign-aid",
+    "international-development",
+    "open-data",
+    "humanitarian",
+    "对外援助",
+    "国际发展",
+    "美国援助",
+    "发展数据"
+  ],
+  "data_content": {
+    "en": [
+      "Foreign Aid - U.S. government foreign assistance data by country and sector",
+      "Health Programs - Global health initiative datasets including HIV/AIDS, malaria, maternal health",
+      "Education - Education program data across developing countries",
+      "Agriculture and Food Security - Feed the Future and food security datasets",
+      "Economic Growth - Trade, investment, and economic development data",
+      "Democracy and Governance - Democratic institution and governance program data",
+      "Humanitarian Assistance - Disaster response and humanitarian aid data",
+      "Gender - Gender equality and women's empowerment datasets"
+    ],
+    "zh": [
+      "对外援助 - 按国家和行业分类的美国政府对外援助数据",
+      "卫生项目 - 全球卫生倡议数据集，包括艾滋病、疟疾、母婴健康",
+      "教育 - 发展中国家教育项目数据",
+      "农业与粮食安全 - 粮食安全数据集",
+      "经济增长 - 贸易、投资和经济发展数据",
+      "民主治理 - 民主制度和治理项目数据",
+      "人道主义援助 - 灾害响应和人道主义援助数据",
+      "性别 - 性别平等和妇女赋权数据集"
+    ]
+  },
+  "authority_level": "government"
+}

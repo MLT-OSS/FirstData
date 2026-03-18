@@ -1,0 +1,62 @@
+{
+  "id": "us-treasury",
+  "name": {
+    "en": "U.S. Department of the Treasury",
+    "zh": "美国财政部"
+  },
+  "description": {
+    "en": "The U.S. Department of the Treasury provides comprehensive data on federal finances, government debt, treasury securities, and economic policy. Key datasets include daily treasury statements, monthly treasury statements, treasury securities auction data, TIPS (Treasury Inflation-Protected Securities), international capital flows (TIC), and sanctions data. The Treasury is the authoritative source for U.S. government fiscal data and sovereign debt information.",
+    "zh": "美国财政部提供联邦财政、政府债务、国债证券和经济政策的综合数据。主要数据集包括每日国库报告、月度国库报告、国债拍卖数据、通胀保值国债（TIPS）、国际资本流动（TIC）和制裁数据。财政部是美国政府财政数据和主权债务信息的权威来源。"
+  },
+  "website": "https://home.treasury.gov",
+  "data_url": "https://fiscaldata.treasury.gov",
+  "api_url": "https://fiscaldata.treasury.gov/api-documentation/",
+  "country": "US",
+  "domains": [
+    "finance",
+    "fiscal policy",
+    "government debt",
+    "treasury securities",
+    "international capital flows",
+    "sanctions"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "treasury",
+    "fiscal-data",
+    "government-debt",
+    "treasury-securities",
+    "TIPS",
+    "TIC",
+    "sanctions",
+    "federal-budget",
+    "美国财政部",
+    "国债",
+    "财政数据",
+    "通胀保值债券"
+  ],
+  "data_content": {
+    "en": [
+      "Daily Treasury Statement - Daily cash and debt operations of the U.S. Treasury",
+      "Monthly Treasury Statement - Monthly receipts, outlays, and deficit/surplus",
+      "Treasury Securities - Auction results, yield curves, outstanding debt",
+      "TIPS - Treasury Inflation-Protected Securities data",
+      "TIC Data - International capital flows, foreign holdings of U.S. securities",
+      "Federal Debt - Total public debt outstanding, debt to the penny",
+      "OFAC Sanctions - Sanctions lists and compliance data",
+      "Interest Rates - Treasury bill, note, and bond rates"
+    ],
+    "zh": [
+      "每日国库报告 - 美国国库每日现金和债务操作",
+      "月度国库报告 - 月度收入、支出和赤字/盈余",
+      "国债证券 - 拍卖结果、收益率曲线、未偿债务",
+      "通胀保值国债 - TIPS数据",
+      "国际资本流动 - TIC数据、外国持有美国证券",
+      "联邦债务 - 公共债务总额",
+      "OFAC制裁 - 制裁名单和合规数据",
+      "利率 - 国库券、票据和债券利率"
+    ]
+  },
+  "authority_level": "government"
+}

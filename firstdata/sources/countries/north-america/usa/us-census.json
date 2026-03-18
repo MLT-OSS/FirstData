@@ -1,0 +1,63 @@
+{
+  "id": "us-census",
+  "name": {
+    "en": "U.S. Census Bureau",
+    "zh": "美国人口普查局"
+  },
+  "description": {
+    "en": "The U.S. Census Bureau is the principal agency of the U.S. Federal Statistical System responsible for producing data about the American people and economy. It conducts the decennial census, the American Community Survey, and over 130 other surveys and censuses. The Bureau provides critical economic indicators including retail sales, housing starts, international trade, construction spending, and manufacturing data, serving as the primary source for U.S. demographic and economic statistics.",
+    "zh": "美国人口普查局是美国联邦统计系统的主要机构，负责生产关于美国人口和经济的数据。它进行十年一次的人口普查、美国社区调查以及130多项其他调查和普查。该局提供关键经济指标，包括零售销售、住房开工、国际贸易、建设支出和制造业数据，是美国人口和经济统计数据的主要来源。"
+  },
+  "website": "https://www.census.gov",
+  "data_url": "https://data.census.gov",
+  "api_url": "https://www.census.gov/data/developers.html",
+  "country": "US",
+  "domains": [
+    "demographics",
+    "economics",
+    "trade",
+    "housing",
+    "business",
+    "manufacturing",
+    "retail"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "census",
+    "demographics",
+    "population",
+    "retail-sales",
+    "housing",
+    "international-trade",
+    "manufacturing",
+    "economic-indicators",
+    "美国人口普查",
+    "人口统计",
+    "零售销售",
+    "住房数据"
+  ],
+  "data_content": {
+    "en": [
+      "Decennial Census - Complete count of U.S. population every 10 years",
+      "American Community Survey - Annual demographics, housing, economic data",
+      "Economic Indicators - Retail sales, housing starts, construction spending",
+      "International Trade - Monthly import/export statistics by commodity and country",
+      "Manufacturing - Manufacturers' shipments, inventories, and orders",
+      "Business Formation - New business applications and formations",
+      "Population Estimates - Annual intercensal population estimates",
+      "Housing - New residential construction, home ownership rates"
+    ],
+    "zh": [
+      "十年普查 - 每10年一次的美国人口完整统计",
+      "美国社区调查 - 年度人口、住房、经济数据",
+      "经济指标 - 零售销售、住房开工、建设支出",
+      "国际贸易 - 按商品和国家分类的月度进出口统计",
+      "制造业 - 制造商出货量、库存和订单",
+      "企业创设 - 新企业申请和创设",
+      "人口估计 - 年度人口估计",
+      "住房 - 新住宅建设、住房拥有率"
+    ]
+  },
+  "authority_level": "government"
+}

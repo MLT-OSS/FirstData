@@ -1,0 +1,64 @@
+{
+  "id": "owid",
+  "name": {
+    "en": "Our World in Data",
+    "zh": "用数据看世界"
+  },
+  "description": {
+    "en": "Our World in Data (OWID) is a scientific online publication by the University of Oxford that presents research and data on the world's largest problems — poverty, disease, hunger, climate change, war, existential risks, and inequality. All visualizations, data, and code are open-source and freely accessible. OWID aggregates data from authoritative sources (UN, World Bank, WHO, etc.) and presents it through interactive charts and downloadable datasets, making complex global data accessible to everyone.",
+    "zh": "Our World in Data（OWID）是牛津大学的科学在线出版物，提供关于全球最大挑战的研究和数据——贫困、疾病、饥饿、气候变化、战争、生存风险和不平等。所有可视化、数据和代码均为开源且免费访问。OWID汇集来自权威来源（联合国、世界银行、世卫组织等）的数据，通过交互式图表和可下载数据集呈现，使复杂的全球数据人人可及。"
+  },
+  "website": "https://ourworldindata.org",
+  "data_url": "https://github.com/owid/owid-datasets",
+  "api_url": "https://docs.owid.io/projects/etl/api/",
+  "country": null,
+  "domains": [
+    "global development",
+    "health",
+    "energy",
+    "environment",
+    "education",
+    "poverty",
+    "demographics",
+    "economics"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "owid",
+    "our-world-in-data",
+    "global-development",
+    "oxford",
+    "open-data",
+    "covid-19",
+    "vaccination",
+    "poverty",
+    "climate-change",
+    "全球发展",
+    "数据可视化",
+    "开放数据"
+  ],
+  "data_content": {
+    "en": [
+      "Health - COVID-19 vaccinations, disease burden, life expectancy, causes of death",
+      "Energy - Energy mix, renewable energy, fossil fuels, CO2 emissions",
+      "Environment - Climate change, air pollution, deforestation, biodiversity",
+      "Population - Demographics, fertility, migration, urbanization",
+      "Poverty - Extreme poverty, inequality, economic development",
+      "Education - Literacy, school enrollment, educational attainment",
+      "Technology - Internet access, technology adoption",
+      "Food - Hunger, agricultural production, food supply"
+    ],
+    "zh": [
+      "健康 - COVID-19疫苗接种、疾病负担、预期寿命、死亡原因",
+      "能源 - 能源结构、可再生能源、化石燃料、碳排放",
+      "环境 - 气候变化、空气污染、森林砍伐、生物多样性",
+      "人口 - 人口统计、生育率、移民、城市化",
+      "贫困 - 极端贫困、不平等、经济发展",
+      "教育 - 识字率、入学率、教育程度",
+      "技术 - 互联网接入、技术采用",
+      "食品 - 饥饿、农业生产、食品供应"
+    ]
+  },
+  "authority_level": "research"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gavi",
+  "name": {
+    "en": "GAVI, the Vaccine Alliance",
+    "zh": "全球疫苗免疫联盟"
+  },
+  "description": {
+    "en": "GAVI, the Vaccine Alliance is an international organisation that brings together public and private sectors to create equal access to new and underused vaccines for children in the world's poorest countries. GAVI provides data on global immunization coverage, vaccine supply and procurement, COVAX facility allocations, country-level vaccination programs, and financing for immunization. It is the primary data source for equitable vaccine distribution in developing countries.",
+    "zh": "全球疫苗免疫联盟（GAVI）是一个国际组织，汇集公共和私营部门，为世界最贫穷国家的儿童创造平等获取新型和未充分使用疫苗的机会。GAVI提供全球免疫覆盖、疫苗供应和采购、COVAX分配、国家级疫苗接种计划和免疫融资数据。它是发展中国家公平疫苗分配的主要数据来源。"
+  },
+  "website": "https://www.gavi.org",
+  "data_url": "https://www.gavi.org/programmes-impact/our-impact/facts-and-figures",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "health",
+    "immunization",
+    "vaccines",
+    "global health",
+    "development"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "quarterly",
+  "tags": [
+    "gavi",
+    "vaccines",
+    "immunization",
+    "covax",
+    "global-health",
+    "疫苗",
+    "免疫接种",
+    "全球卫生",
+    "疫苗联盟"
+  ],
+  "data_content": {
+    "en": [
+      "Immunization Coverage - Country-level vaccination coverage rates",
+      "COVAX Facility - COVID-19 vaccine allocation and delivery data",
+      "Vaccine Supply - Procurement, supply chain, and market data",
+      "Financing - Donor contributions and co-financing data",
+      "Programme Impact - Lives saved, future deaths averted estimates",
+      "Country Profiles - Individual country immunization programme data"
+    ],
+    "zh": [
+      "免疫覆盖 - 国家级疫苗接种覆盖率",
+      "COVAX设施 - COVID-19疫苗分配和交付数据",
+      "疫苗供应 - 采购、供应链和市场数据",
+      "融资 - 捐助方贡献和联合融资数据",
+      "项目影响 - 挽救生命和避免死亡估计",
+      "国家概况 - 各国免疫项目数据"
+    ]
+  },
+  "authority_level": "international"
+}
