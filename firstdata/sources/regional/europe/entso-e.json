@@ -1,0 +1,64 @@
+{
+  "id": "entso-e",
+  "name": {
+    "en": "ENTSO-E Transparency Platform",
+    "zh": "欧洲输电系统运营商联盟透明平台"
+  },
+  "description": {
+    "en": "The European Network of Transmission System Operators for Electricity (ENTSO-E) Transparency Platform provides free, continuous access to pan-European electricity market data. Mandated by EU Regulation 543/2013, it publishes data from 42 TSOs across 36 countries covering generation, load, transmission, balancing, and outages. It is the authoritative source for European electricity market transparency, serving policymakers, researchers, traders, and the public.",
+    "zh": "欧洲输电系统运营商联盟（ENTSO-E）透明平台提供泛欧电力市场数据的免费持续访问。根据欧盟法规543/2013的要求，该平台发布来自36个国家42个输电系统运营商的数据，涵盖发电、负荷、输电、平衡和停运信息。这是欧洲电力市场透明度的权威数据来源，服务于政策制定者、研究人员、交易商和公众。"
+  },
+  "website": "https://www.entsoe.eu",
+  "data_url": "https://transparency.entsoe.eu",
+  "api_url": "https://transparency.entsoe.eu/content/static_content/Static%20content/web%20api/Guide.html",
+  "country": null,
+  "domains": [
+    "energy",
+    "infrastructure"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "real-time",
+  "tags": [
+    "entso-e",
+    "electricity",
+    "power-grid",
+    "european-energy",
+    "电力市场",
+    "欧洲电力",
+    "transmission",
+    "输电",
+    "generation",
+    "发电",
+    "energy-market",
+    "renewable-energy",
+    "cross-border-flow",
+    "day-ahead-prices"
+  ],
+  "data_content": {
+    "en": [
+      "Actual generation output per generation unit and type",
+      "Day-ahead and intraday electricity prices",
+      "Cross-border physical flows between countries",
+      "Total load (actual and forecast)",
+      "Installed generation capacity by fuel type",
+      "Transmission capacity and congestion data",
+      "Balancing market data",
+      "Planned and forced outages (generation and transmission)",
+      "Wind and solar generation forecasts",
+      "Net transfer capacity (NTC) between bidding zones"
+    ],
+    "zh": [
+      "各发电机组和类型的实际发电量",
+      "日前和日内电力价格",
+      "跨境物理电力流",
+      "总负荷（实际和预测）",
+      "按燃料类型的装机容量",
+      "输电容量和拥塞数据",
+      "平衡市场数据",
+      "计划和非计划停运（发电和输电）",
+      "风电和光伏发电预测",
+      "竞价区域间的净传输容量（NTC）"
+    ]
+  },
+  "authority_level": "international"
+}

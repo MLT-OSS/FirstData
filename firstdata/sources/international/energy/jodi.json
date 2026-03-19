@@ -1,0 +1,56 @@
+{
+  "id": "jodi",
+  "name": {
+    "en": "JODI - Joint Organisations Data Initiative",
+    "zh": "联合组织数据倡议"
+  },
+  "description": {
+    "en": "The Joint Organisations Data Initiative (JODI) is a concrete outcome of international efforts to improve the availability and reliability of energy data. It collects and disseminates data on oil and natural gas from over 100 countries, representing approximately 90% of global supply and demand. JODI is supported by seven international organizations (APEC, Eurostat, IEA, IEF, OLADE, OPEC, UNSD) and provides timely, transparent, and freely accessible energy statistics to enhance market transparency and reduce price volatility.",
+    "zh": "联合组织数据倡议（JODI）是国际社会提高能源数据可用性和可靠性的重要成果。它收集并发布来自100多个国家的石油和天然气数据，覆盖全球约90%的供需量。JODI由七个国际组织（APEC、Eurostat、IEA、IEF、OLADE、OPEC、UNSD）支持，提供及时、透明和免费的能源统计数据，以增强市场透明度并降低价格波动。"
+  },
+  "website": "https://www.jodidata.org",
+  "data_url": "https://www.jodidata.org/oil/database/data-downloads.aspx",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "energy",
+    "commodities"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "jodi",
+    "oil",
+    "natural-gas",
+    "energy-data",
+    "energy-transparency",
+    "石油数据",
+    "天然气",
+    "能源统计",
+    "international-organization",
+    "market-transparency",
+    "energy-supply",
+    "energy-demand"
+  ],
+  "data_content": {
+    "en": [
+      "JODI Oil World Database - monthly oil statistics from 100+ countries",
+      "JODI Gas World Database - monthly natural gas statistics",
+      "Production, imports, exports, refinery intake/output data",
+      "Stock levels and stock changes",
+      "Demand/consumption data by product category",
+      "Country-level data with historical time series",
+      "Data quality assessments and timeliness indicators"
+    ],
+    "zh": [
+      "JODI石油世界数据库 - 100多个国家的月度石油统计",
+      "JODI天然气世界数据库 - 月度天然气统计",
+      "生产、进口、出口、炼油进出料数据",
+      "库存水平和库存变化",
+      "按产品类别的需求/消费数据",
+      "国家级数据及历史时间序列",
+      "数据质量评估和时效性指标"
+    ]
+  },
+  "authority_level": "international"
+}

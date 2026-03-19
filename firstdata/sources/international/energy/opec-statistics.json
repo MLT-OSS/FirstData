@@ -1,0 +1,65 @@
+{
+  "id": "opec-statistics",
+  "name": {
+    "en": "OPEC Statistics",
+    "zh": "石油输出国组织统计数据"
+  },
+  "description": {
+    "en": "The Organization of the Petroleum Exporting Countries (OPEC) provides authoritative data on global oil markets, including crude oil production, exports, prices, and demand forecasts. OPEC publishes the Monthly Oil Market Report (MOMR) and the Annual Statistical Bulletin (ASB), covering oil supply/demand balances, refinery operations, tanker markets, and macroeconomic indicators for its 13 member countries and beyond. Founded in 1960, OPEC coordinates petroleum policies among member states and is a primary source for global oil market intelligence.",
+    "zh": "石油输出国组织（OPEC）提供全球石油市场的权威数据，包括原油产量、出口量、价格和需求预测。OPEC发布月度石油市场报告（MOMR）和年度统计公报（ASB），涵盖石油供需平衡、炼油作业、油轮市场和13个成员国及全球宏观经济指标。OPEC成立于1960年，负责协调成员国的石油政策，是全球石油市场情报的主要来源。"
+  },
+  "website": "https://www.opec.org",
+  "data_url": "https://asb.opec.org",
+  "api_url": null,
+  "country": null,
+  "domains": [
+    "energy",
+    "economics",
+    "commodities"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "opec",
+    "oil",
+    "petroleum",
+    "crude-oil",
+    "石油",
+    "原油",
+    "energy",
+    "能源",
+    "oil-production",
+    "oil-prices",
+    "oil-market",
+    "international-organization",
+    "commodities",
+    "大宗商品"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly Oil Market Report (MOMR) - oil supply/demand analysis and forecasts",
+      "Annual Statistical Bulletin (ASB) - comprehensive oil and energy statistics",
+      "Crude oil production data by member country",
+      "Oil exports and import data",
+      "OPEC Reference Basket price tracking",
+      "World oil demand and supply estimates",
+      "Refinery throughput and capacity data",
+      "Natural gas production statistics for member countries",
+      "Macroeconomic indicators for oil-producing nations",
+      "Tanker and freight market data"
+    ],
+    "zh": [
+      "月度石油市场报告（MOMR）- 石油供需分析与预测",
+      "年度统计公报（ASB）- 综合石油和能源统计",
+      "成员国原油产量数据",
+      "石油进出口数据",
+      "OPEC参考篮子价格跟踪",
+      "全球石油需求和供应估计",
+      "炼油产能和加工量数据",
+      "成员国天然气生产统计",
+      "产油国宏观经济指标",
+      "油轮和运费市场数据"
+    ]
+  },
+  "authority_level": "international"
+}
