@@ -1,0 +1,45 @@
+{
+  "id": "portugal-ine",
+  "name": {
+    "en": "Statistics Portugal (INE)",
+    "zh": "葡萄牙国家统计局"
+  },
+  "description": {
+    "en": "National statistical institute of Portugal providing comprehensive socioeconomic data",
+    "zh": "葡萄牙国家统计机构，提供全面的社会经济数据"
+  },
+  "url": "https://www.ine.pt",
+  "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+  "api_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_api",
+  "api_docs": null,
+  "authority_level": "government",
+  "country": "PT",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "social",
+    "trade",
+    "housing"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts - GDP, GVA, productivity indicators",
+      "Population census and demographic statistics",
+      "Labour force survey - employment, unemployment rates",
+      "Social indicators - education, health, culture",
+      "International trade statistics by product and partner",
+      "Housing and construction statistics"
+    ],
+    "zh": [
+      "国民账户 - GDP、GVA、生产力指标",
+      "人口普查和人口统计",
+      "劳动力调查 - 就业率、失业率",
+      "社会指标 - 教育、卫生、文化",
+      "按产品和伙伴分类的国际贸易统计",
+      "住房和建筑统计"
+    ]
+  }
+}
