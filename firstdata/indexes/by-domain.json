@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-20T01:20:20.927917+00:00",
+    "generated_at": "2026-03-20T02:11:03.403028+00:00",
     "total_domains": 702,
-    "total_sources": 278,
+    "total_sources": 280,
     "version": "2.0"
   },
   "domains": {
@@ -368,6 +368,18 @@
         "data_url": "https://vicofa.org.vn/",
         "has_api": false,
         "file_path": "countries/asia/vietnam/vicofa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
         "geographic_scope": "national"
       },
       {
@@ -4158,6 +4170,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "denmark-dst",
         "name": {
           "en": "Statistics Denmark",
@@ -4231,6 +4255,18 @@
         "data_url": "https://www.ssb.no/en/statbank",
         "has_api": true,
         "file_path": "countries/europe/norway/norway-ssb.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       },
       {
@@ -6021,6 +6057,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "denmark-dst",
         "name": {
           "en": "Statistics Denmark",
@@ -6120,6 +6168,18 @@
         "data_url": "https://bdl.stat.gov.pl/BDL/start",
         "has_api": true,
         "file_path": "countries/europe/poland/poland-gus.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       },
       {
@@ -7559,6 +7619,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "denmark-dst",
         "name": {
           "en": "Statistics Denmark",
@@ -7619,6 +7691,18 @@
         "data_url": "https://opendata.cbs.nl/statline/",
         "has_api": true,
         "file_path": "countries/europe/netherlands/netherlands-cbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       },
       {
@@ -12252,6 +12336,18 @@
         "data_url": "https://opendata.cbs.nl/statline/",
         "has_api": true,
         "file_path": "countries/europe/netherlands/netherlands-cbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       },
       {
@@ -18558,6 +18654,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "denmark-dst",
         "name": {
           "en": "Statistics Denmark",
@@ -18594,6 +18702,18 @@
         "data_url": "https://www.destatis.de/EN/Themes/_node.html",
         "has_api": true,
         "file_path": "countries/europe/germany/germany-destatis.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       },
       {
@@ -20163,6 +20283,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "denmark-dst",
         "name": {
           "en": "Statistics Denmark",
@@ -20211,6 +20343,18 @@
         "data_url": "https://opendata.cbs.nl/statline/",
         "has_api": true,
         "file_path": "countries/europe/netherlands/netherlands-cbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       },
       {

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-20T01:20:20.927917+00:00",
-    "total_regions": 35,
-    "total_sources": 278,
+    "generated_at": "2026-03-20T02:11:03.403028+00:00",
+    "total_regions": 37,
+    "total_sources": 280,
     "version": "2.0"
   },
   "regions": {
@@ -56,6 +56,20 @@
         "data_url": "https://www.bom.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/bureau-of-meteorology.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "BE": [
+      {
+        "id": "belgium-statbel",
+        "name": {
+          "en": "Statbel - Belgian Statistical Office",
+          "zh": "比利时统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statbel.fgov.be/en/open-data",
+        "has_api": false,
+        "file_path": "countries/europe/belgium/belgium-statbel.json",
         "geographic_scope": "national"
       }
     ],
@@ -1563,6 +1577,20 @@
         "data_url": "https://bdl.stat.gov.pl/BDL/start",
         "has_api": true,
         "file_path": "countries/europe/poland/poland-gus.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "PT": [
+      {
+        "id": "portugal-ine",
+        "name": {
+          "en": "Statistics Portugal (INE)",
+          "zh": "葡萄牙国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+        "has_api": true,
+        "file_path": "countries/europe/portugal/portugal-ine.json",
         "geographic_scope": "national"
       }
     ],

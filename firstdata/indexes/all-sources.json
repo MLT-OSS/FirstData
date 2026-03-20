@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-20T01:20:20.927917+00:00",
-    "total_sources": 278,
+    "generated_at": "2026-03-20T02:11:03.403028+00:00",
+    "total_sources": 280,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -7881,6 +7881,59 @@
       "file_path": "countries/europe/bank-of-england-statistics.json"
     },
     {
+      "id": "belgium-statbel",
+      "name": {
+        "en": "Statbel - Belgian Statistical Office",
+        "zh": "比利时统计局"
+      },
+      "description": {
+        "en": "Official statistical office of Belgium providing demographic, economic, and social statistics",
+        "zh": "比利时官方统计机构，提供人口、经济和社会统计数据"
+      },
+      "data_url": "https://statbel.fgov.be/en/open-data",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "BE",
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment",
+        "agriculture",
+        "social",
+        "trade"
+      ],
+      "data_content": {
+        "en": [
+          "Population statistics - demographics, migration, households",
+          "Economic indicators - GDP, inflation, business statistics",
+          "Labour market - employment, unemployment, wages",
+          "Agriculture - crop production, livestock, farm structures",
+          "Social statistics - poverty, income distribution, living conditions",
+          "Foreign trade - import/export by commodity and partner country"
+        ],
+        "zh": [
+          "人口统计 - 人口、移民、家庭",
+          "经济指标 - GDP、通胀、企业统计",
+          "劳动力市场 - 就业、失业、工资",
+          "农业 - 作物产量、畜牧业、农场结构",
+          "社会统计 - 贫困、收入分配、生活条件",
+          "对外贸易 - 按商品和伙伴国分类的进出口"
+        ]
+      },
+      "website": "https://statbel.fgov.be/en",
+      "tags": [
+        "statistics",
+        "belgium",
+        "europe",
+        "government-data",
+        "open-data"
+      ],
+      "has_api": false,
+      "file_path": "countries/europe/belgium/belgium-statbel.json"
+    },
+    {
       "id": "denmark-dst",
       "name": {
         "en": "Statistics Denmark",
@@ -8426,6 +8479,58 @@
       },
       "has_api": true,
       "file_path": "countries/europe/poland/poland-gus.json"
+    },
+    {
+      "id": "portugal-ine",
+      "name": {
+        "en": "Statistics Portugal (INE)",
+        "zh": "葡萄牙国家统计局"
+      },
+      "description": {
+        "en": "National statistical institute of Portugal providing comprehensive socioeconomic data",
+        "zh": "葡萄牙国家统计机构，提供全面的社会经济数据"
+      },
+      "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+      "api_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_api",
+      "authority_level": "government",
+      "country": "PT",
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment",
+        "social",
+        "trade",
+        "housing"
+      ],
+      "data_content": {
+        "en": [
+          "National accounts - GDP, GVA, productivity indicators",
+          "Population census and demographic statistics",
+          "Labour force survey - employment, unemployment rates",
+          "Social indicators - education, health, culture",
+          "International trade statistics by product and partner",
+          "Housing and construction statistics"
+        ],
+        "zh": [
+          "国民账户 - GDP、GVA、生产力指标",
+          "人口普查和人口统计",
+          "劳动力调查 - 就业率、失业率",
+          "社会指标 - 教育、卫生、文化",
+          "按产品和伙伴分类的国际贸易统计",
+          "住房和建筑统计"
+        ]
+      },
+      "website": "https://www.ine.pt",
+      "tags": [
+        "statistics",
+        "portugal",
+        "europe",
+        "government-data"
+      ],
+      "has_api": true,
+      "file_path": "countries/europe/portugal/portugal-ine.json"
     },
     {
       "id": "spain-ine",
