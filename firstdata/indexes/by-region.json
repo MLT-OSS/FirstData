@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-19T02:09:05.808099+00:00",
+    "generated_at": "2026-03-20T01:20:20.927917+00:00",
     "total_regions": 35,
-    "total_sources": 279,
+    "total_sources": 278,
     "version": "2.0"
   },
   "regions": {
@@ -1677,18 +1677,6 @@
         "data_url": "https://portal.gdc.cancer.gov/",
         "has_api": true,
         "file_path": "academic/health/tcga.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
         "geographic_scope": "national"
       },
       {

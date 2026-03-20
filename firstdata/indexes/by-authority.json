@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-19T02:09:05.808099+00:00",
-    "total_sources": 279,
+    "generated_at": "2026-03-20T01:20:20.927917+00:00",
+    "total_sources": 278,
     "authority_counts": {
       "research": 37,
       "international": 71,
-      "government": 137,
+      "government": 136,
       "other": 3,
       "market": 16,
       "commercial": 15
@@ -2628,18 +2628,6 @@
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
         "geographic_scope": "national"
       },
       {

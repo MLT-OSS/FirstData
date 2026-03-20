@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-19T02:09:05.808099+00:00",
+    "generated_at": "2026-03-20T01:20:20.927917+00:00",
     "total_domains": 702,
-    "total_sources": 279,
+    "total_sources": 278,
     "version": "2.0"
   },
   "domains": {
@@ -1751,18 +1751,6 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
         "geographic_scope": "national"
       },
       {
@@ -4309,18 +4297,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "us-census",
         "name": {
           "en": "U.S. Census Bureau",
@@ -6222,18 +6198,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "usa-eia",
         "name": {
           "en": "U.S. Energy Information Administration",
@@ -7014,15 +6978,15 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
+        "id": "us-census",
         "name": {
-          "en": "United States Census Bureau",
+          "en": "U.S. Census Bureau",
           "zh": "美国人口普查局"
         },
         "authority_level": "government",
-        "data_url": "https://www.census.gov",
+        "data_url": "https://data.census.gov",
         "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
+        "file_path": "countries/north-america/usa/us-census.json",
         "geographic_scope": "national"
       },
       {
@@ -7695,18 +7659,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "us-bls",
         "name": {
           "en": "Bureau of Labor Statistics",
@@ -7716,6 +7668,18 @@
         "data_url": "https://www.bls.gov/data/",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-bls.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-census",
+        "name": {
+          "en": "U.S. Census Bureau",
+          "zh": "美国人口普查局"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.census.gov",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/us-census.json",
         "geographic_scope": "national"
       },
       {
@@ -10969,15 +10933,15 @@
     ],
     "geography": [
       {
-        "id": "usa-census-bureau",
+        "id": "us-census",
         "name": {
-          "en": "United States Census Bureau",
+          "en": "U.S. Census Bureau",
           "zh": "美国人口普查局"
         },
         "authority_level": "government",
-        "data_url": "https://www.census.gov",
+        "data_url": "https://data.census.gov",
         "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
+        "file_path": "countries/north-america/usa/us-census.json",
         "geographic_scope": "national"
       },
       {
@@ -11273,15 +11237,15 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
+        "id": "us-census",
         "name": {
-          "en": "United States Census Bureau",
+          "en": "U.S. Census Bureau",
           "zh": "美国人口普查局"
         },
         "authority_level": "government",
-        "data_url": "https://www.census.gov",
+        "data_url": "https://data.census.gov",
         "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
+        "file_path": "countries/north-america/usa/us-census.json",
         "geographic_scope": "national"
       }
     ],
@@ -11674,15 +11638,15 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
+        "id": "us-census",
         "name": {
-          "en": "United States Census Bureau",
+          "en": "U.S. Census Bureau",
           "zh": "美国人口普查局"
         },
         "authority_level": "government",
-        "data_url": "https://www.census.gov",
+        "data_url": "https://data.census.gov",
         "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
+        "file_path": "countries/north-america/usa/us-census.json",
         "geographic_scope": "national"
       },
       {
@@ -12317,18 +12281,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "us-census",
         "name": {
           "en": "U.S. Census Bureau",
@@ -12606,18 +12558,6 @@
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
         "geographic_scope": "national"
       }
     ],
@@ -16952,18 +16892,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "australia-abs",
         "name": {
           "en": "Australian Bureau of Statistics",
@@ -20321,18 +20249,6 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "usa-census-bureau",
-        "name": {
-          "en": "United States Census Bureau",
-          "zh": "美国人口普查局"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.census.gov",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/census-bureau.json",
         "geographic_scope": "national"
       },
       {

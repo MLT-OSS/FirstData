@@ -1,28 +1,28 @@
 {
   "metadata": {
-    "generated_at": "2026-03-19T02:09:05.808099+00:00",
+    "generated_at": "2026-03-20T01:20:20.927917+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 279,
-    "sources_with_api": 137,
-    "last_updated": "2026-03-19"
+    "total_sources": 278,
+    "sources_with_api": 136,
+    "last_updated": "2026-03-20"
   },
   "by_authority_level": {
     "research": 37,
     "international": 71,
-    "government": 137,
+    "government": 136,
     "other": 3,
     "market": 16,
     "commercial": 15
   },
   "by_geographic_scope": {
     "global": 98,
-    "national": 156,
+    "national": 155,
     "regional": 25
   },
   "by_update_frequency": {
-    "irregular": 49,
+    "irregular": 48,
     "daily": 52,
     "weekly": 9,
     "quarterly": 30,
@@ -31,9 +31,9 @@
     "real-time": 11
   },
   "by_domain": {
-    "economics": 98,
-    "demographics": 50,
-    "trade": 50,
+    "economics": 97,
+    "demographics": 49,
+    "trade": 49,
     "finance": 46,
     "environment": 44,
     "health": 37,
@@ -49,17 +49,16 @@
     "industry": 14,
     "manufacturing": 13,
     "labor": 12,
-    "housing": 12,
+    "housing": 11,
     "transportation": 11,
-    "population": 10,
     "prices": 10,
+    "population": 9,
     "statistics": 9,
     "banking": 9,
     "securities": 8,
     "commodities": 8,
     "genomics": 7,
     "machine learning": 7,
-    "business": 7,
     "monetary policy": 7,
     "financial markets": 7,
     "climate change": 7,
@@ -72,6 +71,7 @@
     "earth-science": 6,
     "telecommunications": 6,
     "innovation": 6,
+    "business": 6,
     "inflation": 6,
     "drug discovery": 5,
     "molecular biology": 5,
@@ -176,10 +176,9 @@
     "pharmaceuticals": 2,
     "energy trade": 2,
     "welfare": 2,
-    "income": 2,
-    "geography": 2,
     "industry statistics": 2,
     "infectious diseases": 2,
+    "geography": 2,
     "water": 2,
     "forestry": 2,
     "sustainability": 2,
@@ -428,6 +427,7 @@
     "social-policy": 1,
     "food-security": 1,
     "social-services": 1,
+    "income": 1,
     "petroleum": 1,
     "natural gas": 1,
     "coal": 1,
