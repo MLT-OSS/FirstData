@@ -1,0 +1,41 @@
+{
+  "id": "portugal-ine",
+  "name": {
+    "en": "Statistics Portugal (INE)",
+    "zh": "葡萄牙国家统计局（INE）",
+    "native": "Instituto Nacional de Estatística (INE Portugal)"
+  },
+  "description": {
+    "en": "Statistics Portugal (INE – Instituto Nacional de Estatística) is the official national statistical authority of Portugal. It produces and disseminates official statistics on the Portuguese economy, society, population, labour market, prices, and regional development, providing open access to databases and microdata.",
+    "zh": "葡萄牙国家统计局（INE）是葡萄牙官方统计机构，负责生产和发布有关葡萄牙经济、社会、人口、劳动力市场、价格和区域发展的官方统计数据，并提供对数据库和微数据的开放访问。"
+  },
+  "website": "https://www.ine.pt",
+  "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
+  "api_url": "https://www.ine.pt/ine/json_indicador/paginaTab.action",
+  "authority_level": "government",
+  "country": "PT",
+  "domains": ["economics", "demographics", "employment", "social", "trade", "housing"],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": ["portugal", "INE", "葡萄牙", "统计局", "人口", "经济", "就业", "GDP", "census", "population", "employment", "prices", "regional statistics"],
+  "data_content": {
+    "en": [
+      "Population census and demographic statistics",
+      "GDP and national accounts",
+      "Employment and unemployment statistics",
+      "Consumer prices and inflation",
+      "International trade data",
+      "Housing and construction statistics",
+      "Regional and municipal statistics"
+    ],
+    "zh": [
+      "人口普查与人口统计",
+      "GDP与国民账户",
+      "就业与失业统计",
+      "消费者价格与通货膨胀",
+      "国际贸易数据",
+      "住房与建筑统计",
+      "区域与市政统计"
+    ]
+  }
+}

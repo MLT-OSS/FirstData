@@ -1,0 +1,39 @@
+{
+  "id": "belgium-statbel",
+  "name": {
+    "en": "Statbel – Belgian Statistical Office",
+    "zh": "比利时统计局（Statbel）",
+    "native": "Statbel – Belgisch Statistisch Bureau"
+  },
+  "description": {
+    "en": "Statbel is the Belgian statistical office, responsible for collecting, processing, and publishing official statistics on the Belgian economy, population, labour market, agriculture, and society. It publishes open data covering census, price indices, employment, trade, and more.",
+    "zh": "Statbel 是比利时官方统计机构，负责收集、处理和发布比利时经济、人口、劳动力市场、农业和社会领域的官方统计数据，提供人口普查、价格指数、就业、贸易等多类开放数据集。"
+  },
+  "website": "https://statbel.fgov.be/en",
+  "data_url": "https://statbel.fgov.be/en/open-data",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "BE",
+  "domains": ["economics", "demographics", "employment", "agriculture", "social", "trade"],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": ["belgium", "statbel", "比利时", "统计局", "人口", "经济", "就业", "census", "population", "labour market", "prix", "open data"],
+  "data_content": {
+    "en": [
+      "Population and census statistics",
+      "Consumer price index and inflation",
+      "Labour market and employment data",
+      "Agricultural production statistics",
+      "Trade and industry statistics",
+      "Social and welfare indicators"
+    ],
+    "zh": [
+      "人口与人口普查统计",
+      "消费者价格指数与通货膨胀",
+      "劳动力市场与就业数据",
+      "农业生产统计",
+      "贸易与工业统计",
+      "社会与福利指标"
+    ]
+  }
+}
