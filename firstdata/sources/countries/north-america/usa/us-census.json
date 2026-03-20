@@ -15,11 +15,16 @@
   "domains": [
     "demographics",
     "economics",
-    "trade",
     "housing",
     "business",
+    "trade",
+    "government",
+    "geography",
     "manufacturing",
-    "retail"
+    "retail",
+    "employment",
+    "education",
+    "health"
   ],
   "geographic_scope": "national",
   "update_frequency": "monthly",
@@ -46,7 +51,15 @@
       "Manufacturing - Manufacturers' shipments, inventories, and orders",
       "Business Formation - New business applications and formations",
       "Population Estimates - Annual intercensal population estimates",
-      "Housing - New residential construction, home ownership rates"
+      "Housing - New residential construction, home ownership rates",
+      "Current Population Survey (CPS) - monthly employment and labor statistics",
+      "American Housing Survey - housing characteristics and costs",
+      "Government finance statistics",
+      "Cartographic boundary files and geographic data",
+      "Income, poverty, and wealth statistics",
+      "Educational attainment and school enrollment data",
+      "Health insurance coverage statistics",
+      "Migration and mobility data"
     ],
     "zh": [
       "十年普查 - 每10年一次的美国人口完整统计",
@@ -56,7 +69,15 @@
       "制造业 - 制造商出货量、库存和订单",
       "企业创设 - 新企业申请和创设",
       "人口估计 - 年度人口估计",
-      "住房 - 新住宅建设、住房拥有率"
+      "住房 - 新住宅建设、住房拥有率",
+      "当前人口调查(CPS) - 月度就业和劳动力统计",
+      "美国住房调查 - 住房特征和成本",
+      "政府财政统计",
+      "地图边界文件和地理数据",
+      "收入、贫困和财富统计",
+      "教育程度和入学数据",
+      "健康保险覆盖统计",
+      "迁移和流动性数据"
     ]
   },
   "authority_level": "government"
