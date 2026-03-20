@@ -1,0 +1,51 @@
+{
+  "id": "belgium-statbel",
+  "name": {
+    "en": "Statbel - Belgian Statistical Office",
+    "zh": "比利时统计局"
+  },
+  "description": {
+    "en": "Official statistical office of Belgium providing demographic, economic, and social statistics",
+    "zh": "比利时官方统计机构，提供人口、经济和社会统计数据"
+  },
+  "data_url": "https://statbel.fgov.be/en/open-data",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "BE",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "agriculture",
+    "social",
+    "trade"
+  ],
+  "data_content": {
+    "en": [
+      "Population statistics - demographics, migration, households",
+      "Economic indicators - GDP, inflation, business statistics",
+      "Labour market - employment, unemployment, wages",
+      "Agriculture - crop production, livestock, farm structures",
+      "Social statistics - poverty, income distribution, living conditions",
+      "Foreign trade - import/export by commodity and partner country"
+    ],
+    "zh": [
+      "人口统计 - 人口、移民、家庭",
+      "经济指标 - GDP、通胀、企业统计",
+      "劳动力市场 - 就业、失业、工资",
+      "农业 - 作物产量、畜牧业、农场结构",
+      "社会统计 - 贫困、收入分配、生活条件",
+      "对外贸易 - 按商品和伙伴国分类的进出口"
+    ]
+  },
+  "website": "https://statbel.fgov.be/en",
+  "tags": [
+    "statistics",
+    "belgium",
+    "europe",
+    "government-data",
+    "open-data"
+  ]
+}
