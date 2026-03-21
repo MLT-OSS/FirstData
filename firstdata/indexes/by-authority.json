@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T01:17:44.554355+00:00",
-    "total_sources": 282,
+    "generated_at": "2026-03-21T02:11:37.710129+00:00",
+    "total_sources": 284,
     "authority_counts": {
       "research": 37,
       "international": 71,
-      "government": 140,
+      "government": 142,
       "other": 3,
       "market": 16,
       "commercial": 15
@@ -2352,6 +2352,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "czechia-czso",
+        "name": {
+          "en": "Czech Statistical Office (CZSO)",
+          "zh": "捷克统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://vdb.czso.cz",
+        "has_api": true,
+        "file_path": "countries/europe/czechia/czechia-czso.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "denmark-dst",
         "name": {
           "en": "Statistics Denmark",
@@ -2401,6 +2413,18 @@
         "data_url": "https://www.destatis.de/EN/Themes/_node.html",
         "has_api": true,
         "file_path": "countries/europe/germany/germany-destatis.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "ireland-cso",
+        "name": {
+          "en": "Central Statistics Office (CSO)",
+          "zh": "爱尔兰中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.cso.ie",
+        "has_api": true,
+        "file_path": "countries/europe/ireland/ireland-cso.json",
         "geographic_scope": "national"
       },
       {

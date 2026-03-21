@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T01:17:44.554355+00:00",
+    "generated_at": "2026-03-21T02:11:37.710129+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 282,
-    "sources_with_api": 138,
+    "total_sources": 284,
+    "sources_with_api": 140,
     "last_updated": "2026-03-21"
   },
   "by_authority_level": {
     "research": 37,
     "international": 71,
-    "government": 140,
+    "government": 142,
     "other": 3,
     "market": 16,
     "commercial": 15
   },
   "by_geographic_scope": {
     "global": 98,
-    "national": 159,
+    "national": 161,
     "regional": 25
   },
   "by_update_frequency": {
@@ -26,30 +26,30 @@
     "daily": 52,
     "weekly": 9,
     "quarterly": 30,
-    "monthly": 78,
+    "monthly": 80,
     "annual": 54,
     "real-time": 11
   },
   "by_domain": {
-    "economics": 101,
-    "demographics": 53,
-    "trade": 52,
+    "economics": 103,
+    "demographics": 55,
+    "trade": 54,
     "finance": 46,
-    "environment": 45,
-    "health": 37,
+    "environment": 46,
+    "health": 38,
     "education": 36,
-    "agriculture": 32,
+    "agriculture": 33,
     "social": 30,
-    "employment": 25,
+    "employment": 27,
     "energy": 23,
     "development": 16,
     "climate": 16,
     "infrastructure": 16,
     "technology": 15,
     "industry": 14,
+    "housing": 13,
     "manufacturing": 13,
     "labor": 12,
-    "housing": 12,
     "transportation": 11,
     "prices": 10,
     "population": 9,
@@ -384,6 +384,7 @@
     "hydrogeology": 1,
     "geological-hazards": 1,
     "marine-geology": 1,
+    "crime-and-justice": 1,
     "credit": 1,
     "regulatory capital": 1,
     "business and economy": 1,

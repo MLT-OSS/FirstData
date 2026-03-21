@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T01:17:44.554355+00:00",
-    "total_regions": 39,
-    "total_sources": 282,
+    "generated_at": "2026-03-21T02:11:37.710129+00:00",
+    "total_regions": 41,
+    "total_sources": 284,
     "version": "2.0"
   },
   "regions": {
@@ -1084,6 +1084,20 @@
         "geographic_scope": "national"
       }
     ],
+    "CZ": [
+      {
+        "id": "czechia-czso",
+        "name": {
+          "en": "Czech Statistical Office (CZSO)",
+          "zh": "捷克统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://vdb.czso.cz",
+        "has_api": true,
+        "file_path": "countries/europe/czechia/czechia-czso.json",
+        "geographic_scope": "national"
+      }
+    ],
     "DE": [
       {
         "id": "germany-destatis",
@@ -1296,6 +1310,20 @@
         "data_url": "https://www.bps.go.id/en/statistics-table",
         "has_api": true,
         "file_path": "indonesia/national/indonesia-bps.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "IE": [
+      {
+        "id": "ireland-cso",
+        "name": {
+          "en": "Central Statistics Office (CSO)",
+          "zh": "爱尔兰中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.cso.ie",
+        "has_api": true,
+        "file_path": "countries/europe/ireland/ireland-cso.json",
         "geographic_scope": "national"
       }
     ],
