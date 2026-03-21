@@ -1,0 +1,64 @@
+{
+  "id": "china-mps",
+  "name": {
+    "en": "Ministry of Public Security of China",
+    "zh": "中华人民共和国公安部"
+  },
+  "description": {
+    "en": "The Ministry of Public Security (MPS) of the People's Republic of China is the principal government department responsible for public security, law enforcement, and household registration (hukou) management. MPS publishes statistical data on population registration, migration, public safety, traffic management, and crime statistics. Its household registration data is a primary source for China's population demographics and urbanization metrics.",
+    "zh": "中华人民共和国公安部是负责公共安全、执法和户籍管理的主要政府部门。公安部发布人口登记、人口迁移、公共安全、交通管理和犯罪统计数据。其户籍登记数据是中国人口统计和城镇化指标的主要来源之一。"
+  },
+  "website": "https://www.mps.gov.cn",
+  "data_url": "https://www.mps.gov.cn/n6557558/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "demographics",
+    "public safety",
+    "migration",
+    "social"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "population",
+    "hukou",
+    "户籍",
+    "人口",
+    "公安",
+    "public-safety",
+    "migration",
+    "urbanization",
+    "crime-statistics",
+    "traffic",
+    "demographics",
+    "household-registration",
+    "城镇化",
+    "人口迁移",
+    "犯罪统计",
+    "交通管理"
+  ],
+  "data_content": {
+    "en": [
+      "Household Registration (Hukou) Statistics - Registered population by province, urban/rural classification, and demographic characteristics",
+      "Population Migration Data - Inter-provincial and intra-provincial population movements, temporary residence registrations",
+      "Urbanization Metrics - Hukou-based urbanization rates by province, urban population growth trends",
+      "Public Safety Statistics - Crime rates, case filing and resolution statistics by category",
+      "Traffic Management Data - Motor vehicle registrations, driver's license statistics, traffic accident data",
+      "Exit and Entry Statistics - Passport issuance, visa processing, cross-border travel volumes",
+      "Cybersecurity Data - Internet security incidents, cybercrime statistics and enforcement actions",
+      "Fire Safety Statistics - Fire incidents, casualties, property losses, and fire department response data"
+    ],
+    "zh": [
+      "户籍登记统计 - 按省份、城乡分类和人口特征的户籍人口数据",
+      "人口迁移数据 - 省际和省内人口流动、暂住登记",
+      "城镇化指标 - 按省份分类的户籍城镇化率、城镇人口增长趋势",
+      "公共安全统计 - 犯罪率、按类别分类的立案和破案统计",
+      "交通管理数据 - 机动车保有量、驾驶证统计、交通事故数据",
+      "出入境统计 - 护照签发、签证办理、跨境出行量",
+      "网络安全数据 - 网络安全事件、网络犯罪统计和执法行动",
+      "消防安全统计 - 火灾事故、伤亡人数、财产损失和消防救援数据"
+    ]
+  }
+}

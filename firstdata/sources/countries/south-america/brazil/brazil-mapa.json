@@ -1,0 +1,69 @@
+{
+  "id": "brazil-mapa",
+  "name": {
+    "en": "Brazil Ministry of Agriculture and Livestock",
+    "zh": "巴西农业和畜牧部"
+  },
+  "description": {
+    "en": "The Ministry of Agriculture and Livestock (MAPA) of Brazil is the federal government body responsible for formulating and implementing policies for the development of agriculture, livestock, and agribusiness. MAPA publishes comprehensive statistics on Brazilian agricultural production, crop forecasts, phytosanitary data, animal health, rural credit, and agricultural trade. Brazil is the world's largest producer and exporter of coffee, soybeans, sugar, and orange juice, making MAPA a critical global data source for agricultural commodities.",
+    "zh": "巴西农业和畜牧部（MAPA）是负责制定和实施农业、畜牧业和农业综合企业发展政策的联邦政府机构。MAPA发布巴西农业生产、作物预测、植物检疫、动物卫生、农村信贷和农业贸易的综合统计数据。巴西是全球最大的咖啡、大豆、糖和橙汁生产国和出口国，使MAPA成为农产品领域的关键全球数据源。"
+  },
+  "website": "https://www.gov.br/agricultura",
+  "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "BR",
+  "domains": [
+    "agriculture",
+    "livestock",
+    "trade",
+    "food safety"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "agriculture",
+    "livestock",
+    "coffee",
+    "soybean",
+    "sugar",
+    "corn",
+    "beef",
+    "poultry",
+    "crop-forecast",
+    "rural-credit",
+    "agribusiness",
+    "agrostat",
+    "brazil",
+    "巴西农业",
+    "咖啡",
+    "大豆",
+    "农产品"
+  ],
+  "data_content": {
+    "en": [
+      "Crop Production Statistics - Area planted, harvested, and production volumes for major crops (soybeans, corn, coffee, sugar cane, cotton)",
+      "AgroStat Trade Data - Brazilian agricultural export and import statistics by product, country, and state of origin",
+      "Coffee Statistics - Production, exports, domestic consumption, and stocks of Brazilian coffee by variety and state",
+      "Livestock Data - Cattle herd size, beef and poultry production, slaughter volumes, and animal health indicators",
+      "Crop Forecasts - Monthly crop production forecasts and harvest estimates",
+      "Rural Credit - Agricultural financing data, credit disbursements by program, region, and crop",
+      "Phytosanitary Data - Plant health surveillance, pest and disease monitoring, quarantine statistics",
+      "Organic Agriculture - Certified organic producers, area, and product categories",
+      "Agricultural Insurance - Crop insurance coverage, claims, and indemnity data by state and product",
+      "Grain Stocks - Official grain stock positions and storage capacity by region"
+    ],
+    "zh": [
+      "作物生产统计 - 主要作物（大豆、玉米、咖啡、甘蔗、棉花）的种植面积、收获面积和产量",
+      "AgroStat贸易数据 - 按产品、国家和产地州分类的巴西农产品进出口统计",
+      "咖啡统计 - 按品种和州分类的巴西咖啡产量、出口、国内消费和库存",
+      "畜牧数据 - 牛群规模、牛肉和家禽产量、屠宰量和动物卫生指标",
+      "作物预测 - 月度作物产量预测和收成估算",
+      "农村信贷 - 按项目、地区和作物分类的农业融资数据和信贷发放",
+      "植物检疫数据 - 植物健康监测、病虫害监测、检疫统计",
+      "有机农业 - 认证有机生产者、面积和产品类别",
+      "农业保险 - 按州和产品分类的作物保险覆盖、索赔和赔偿数据",
+      "粮食库存 - 按地区分类的官方粮食库存状况和仓储容量"
+    ]
+  }
+}

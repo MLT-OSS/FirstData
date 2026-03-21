@@ -1,0 +1,74 @@
+{
+  "id": "usda-fas",
+  "name": {
+    "en": "USDA Foreign Agricultural Service",
+    "zh": "美国农业部对外农业局"
+  },
+  "description": {
+    "en": "The Foreign Agricultural Service (FAS) of the U.S. Department of Agriculture links U.S. agriculture to the world to enhance export opportunities and global food security. FAS maintains a global network of agricultural attachés and provides comprehensive data on international agricultural production, supply, demand, and trade through its Production, Supply, and Distribution (PSD) database and Global Agricultural Trade System (GATS).",
+    "zh": "美国农业部对外农业局（FAS）是连接美国农业与世界的桥梁，致力于增强出口机会和全球粮食安全。FAS在全球维护农业参赞网络，通过其生产、供应和分配（PSD）数据库及全球农业贸易系统（GATS）提供全面的国际农业生产、供应、需求和贸易数据。"
+  },
+  "website": "https://www.fas.usda.gov",
+  "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+  "api_url": "https://apps.fas.usda.gov/opendata/swagger/ui/index",
+  "authority_level": "government",
+  "country": "US",
+  "domains": [
+    "agriculture",
+    "trade",
+    "food security",
+    "commodity markets",
+    "international trade"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "agriculture",
+    "trade",
+    "export",
+    "import",
+    "commodity",
+    "grain",
+    "oilseed",
+    "coffee",
+    "cotton",
+    "sugar",
+    "livestock",
+    "dairy",
+    "food-security",
+    "crop-production",
+    "psd-database",
+    "gats",
+    "global-agriculture",
+    "usda",
+    "美国农业部",
+    "农产品贸易",
+    "国际农业"
+  ],
+  "data_content": {
+    "en": [
+      "Production, Supply, and Distribution (PSD) - Global production, supply, demand, and trade data for major agricultural commodities",
+      "Global Agricultural Trade System (GATS) - U.S. agricultural import and export statistics by commodity and country",
+      "World Agricultural Production Reports - Monthly circulars on global crop and livestock production estimates",
+      "Grain and Feed Data - Global grain production, consumption, trade, and stocks data",
+      "Oilseeds Data - World oilseed and products production, crush, trade, and stocks",
+      "Coffee Market Data - Global coffee production, consumption, trade, and stocks by country",
+      "Cotton Data - World cotton production, mill use, trade, and ending stocks",
+      "Sugar and Sweeteners Data - Global sugar production, consumption, trade, and prices",
+      "Livestock and Poultry Data - International meat and dairy production, consumption, and trade",
+      "Commodity Intelligence Reports - Analysis of agricultural conditions and market developments worldwide"
+    ],
+    "zh": [
+      "生产、供应和分配（PSD）- 主要农产品的全球生产、供应、需求和贸易数据",
+      "全球农业贸易系统（GATS）- 按商品和国家分类的美国农产品进出口统计",
+      "世界农业生产报告 - 全球作物和畜产品产量估算月度通报",
+      "谷物和饲料数据 - 全球谷物生产、消费、贸易和库存数据",
+      "油籽数据 - 世界油籽及制品的生产、压榨、贸易和库存",
+      "咖啡市场数据 - 全球咖啡生产、消费、贸易和库存（按国家）",
+      "棉花数据 - 世界棉花生产、纺织消费、贸易和期末库存",
+      "糖和甜味剂数据 - 全球糖的生产、消费、贸易和价格",
+      "畜牧和家禽数据 - 国际肉类和乳制品的生产、消费和贸易",
+      "商品情报报告 - 全球农业状况和市场发展分析"
+    ]
+  }
+}

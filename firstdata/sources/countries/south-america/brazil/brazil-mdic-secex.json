@@ -1,0 +1,61 @@
+{
+  "id": "brazil-mdic-secex",
+  "name": {
+    "en": "Brazil Ministry of Development, Industry, Commerce and Services - Foreign Trade Secretariat",
+    "zh": "巴西发展、工业、商业和服务部外贸秘书处"
+  },
+  "description": {
+    "en": "The Foreign Trade Secretariat (SECEX) under Brazil's Ministry of Development, Industry, Commerce and Services (MDIC) is the official source for Brazilian foreign trade statistics. Through its ComexStat platform, SECEX provides comprehensive and granular data on Brazil's international trade, including exports and imports by product (NCM/HS codes), country, state, port of entry, and transportation mode. The data covers all officially registered foreign trade transactions and is widely used for economic analysis and trade policy research.",
+    "zh": "巴西发展、工业、商业和服务部（MDIC）下属的外贸秘书处（SECEX）是巴西外贸统计的官方来源。通过其ComexStat平台，SECEX提供全面细致的巴西国际贸易数据，包括按产品（NCM/HS编码）、国家、州、入境口岸和运输方式分类的进出口数据。数据涵盖所有官方登记的外贸交易，广泛用于经济分析和贸易政策研究。"
+  },
+  "website": "https://www.gov.br/mdic",
+  "data_url": "https://comexstat.mdic.gov.br/en/home",
+  "api_url": "https://comexstat.mdic.gov.br/en/about/api",
+  "authority_level": "government",
+  "country": "BR",
+  "domains": [
+    "trade",
+    "economics",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "foreign-trade",
+    "export",
+    "import",
+    "comexstat",
+    "trade-balance",
+    "hs-code",
+    "ncm",
+    "customs",
+    "brazil",
+    "trade-statistics",
+    "巴西贸易",
+    "进出口",
+    "外贸统计",
+    "贸易平衡"
+  ],
+  "data_content": {
+    "en": [
+      "Export Statistics - Brazilian exports by product (NCM/HS), destination country, state of origin, port, and transportation mode",
+      "Import Statistics - Imports by product, country of origin, state of destination, entry port, and transportation mode",
+      "Trade Balance - Monthly and annual trade balance data with breakdown by major trading partners",
+      "Historical Trade Series - Long-term foreign trade time series dating back to 1997",
+      "Trade by Economic Block - Export and import data aggregated by economic blocs (Mercosur, EU, NAFTA, BRICS, etc.)",
+      "Trade by Factor Aggregate - Exports classified by technology intensity and factor content (basic, semi-manufactured, manufactured)",
+      "State-Level Trade Data - Foreign trade statistics disaggregated by Brazilian state",
+      "Commodity Trade Detail - Detailed product-level trade data at 8-digit NCM code granularity"
+    ],
+    "zh": [
+      "出口统计 - 按产品（NCM/HS）、目的地国家、产地州、港口和运输方式分类的巴西出口数据",
+      "进口统计 - 按产品、原产国、目的地州、入境港口和运输方式分类的进口数据",
+      "贸易平衡 - 按主要贸易伙伴细分的月度和年度贸易平衡数据",
+      "历史贸易序列 - 可追溯至1997年的长期外贸时间序列",
+      "按经济集团贸易 - 按经济集团（南方共同市场、欧盟、北美自贸区、金砖国家等）汇总的进出口数据",
+      "按要素分类贸易 - 按技术密度和要素含量（初级、半制成品、制成品）分类的出口",
+      "州级贸易数据 - 按巴西各州细分的外贸统计",
+      "商品贸易明细 - 8位NCM编码粒度的详细产品级贸易数据"
+    ]
+  }
+}

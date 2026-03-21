@@ -1,0 +1,64 @@
+{
+  "id": "ico-coffee",
+  "name": {
+    "en": "International Coffee Organization",
+    "zh": "国际咖啡组织"
+  },
+  "description": {
+    "en": "The International Coffee Organization (ICO) is the main intergovernmental organization for coffee, bringing together exporting and importing countries to address challenges facing the world coffee sector through international cooperation. Established in 1963 under the auspices of the United Nations, ICO collects and publishes comprehensive statistics on global coffee production, trade, consumption, and prices, serving as the authoritative source for the international coffee market.",
+    "zh": "国际咖啡组织（ICO）是咖啡领域的主要政府间国际组织，汇集出口国和进口国，通过国际合作应对全球咖啡行业面临的挑战。ICO于1963年在联合国主持下成立，收集并发布全球咖啡生产、贸易、消费和价格的综合统计数据，是国际咖啡市场的权威数据来源。"
+  },
+  "website": "https://www.ico.org",
+  "data_url": "https://www.ico.org/trade_statistics.asp",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "agriculture",
+    "commodity markets",
+    "trade",
+    "food and beverage"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "monthly",
+  "tags": [
+    "coffee",
+    "咖啡",
+    "commodity",
+    "agriculture",
+    "trade",
+    "production",
+    "consumption",
+    "export",
+    "import",
+    "coffee-prices",
+    "arabica",
+    "robusta",
+    "ico-composite-indicator",
+    "国际咖啡组织",
+    "咖啡贸易",
+    "大宗商品"
+  ],
+  "data_content": {
+    "en": [
+      "Coffee Production - Annual and monthly production data by country, broken down by Arabica and Robusta varieties",
+      "Coffee Trade Statistics - Exports and imports by country, form (green, roasted, soluble), and destination/origin",
+      "Coffee Consumption - Per capita and total consumption by country and region",
+      "ICO Composite Indicator Price - Daily and monthly composite and group indicator prices for coffee",
+      "Coffee Inventories - Certified stocks in importing countries and port stocks",
+      "Historical Data Series - Long-term time series dating back to the 1960s for production, trade, and prices",
+      "Country Coffee Profiles - Detailed statistical profiles for major producing and consuming countries",
+      "Market Reports - Monthly and annual coffee market reports with analysis and forecasts"
+    ],
+    "zh": [
+      "咖啡产量 - 按国家和阿拉比卡/罗布斯塔品种分类的年度和月度产量数据",
+      "咖啡贸易统计 - 按国家、形态（生豆、烘焙、速溶）和目的地/产地分类的进出口数据",
+      "咖啡消费 - 按国家和地区分类的人均和总消费量",
+      "ICO综合指标价格 - 咖啡的每日和每月综合及分组指标价格",
+      "咖啡库存 - 进口国认证库存和港口库存",
+      "历史数据系列 - 可追溯至1960年代的产量、贸易和价格长期时间序列",
+      "国家咖啡概况 - 主要生产国和消费国的详细统计概况",
+      "市场报告 - 附带分析和预测的月度和年度咖啡市场报告"
+    ]
+  }
+}

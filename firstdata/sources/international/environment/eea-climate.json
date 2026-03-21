@@ -1,0 +1,72 @@
+{
+  "id": "eea-climate",
+  "name": {
+    "en": "European Environment Agency",
+    "zh": "欧洲环境署"
+  },
+  "description": {
+    "en": "The European Environment Agency (EEA) is an agency of the European Union whose task is to provide sound, independent information on the environment. The EEA collects, manages, and publishes comprehensive data on Europe's environment, including climate change indicators, greenhouse gas emissions, air quality, biodiversity, and resource use. It supports EU environmental policy development and public awareness through its data portal and indicator assessments.",
+    "zh": "欧洲环境署（EEA）是欧盟的一个机构，其任务是提供关于环境的可靠、独立的信息。EEA收集、管理和发布关于欧洲环境的综合数据，包括气候变化指标、温室气体排放、空气质量、生物多样性和资源利用。通过其数据门户和指标评估，支持欧盟环境政策制定和公众意识提升。"
+  },
+  "website": "https://www.eea.europa.eu",
+  "data_url": "https://www.eea.europa.eu/en/datahub",
+  "api_url": "https://discodata.eea.europa.eu/",
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "environment",
+    "climate",
+    "energy",
+    "air quality",
+    "biodiversity",
+    "water"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "annual",
+  "tags": [
+    "climate-change",
+    "greenhouse-gas",
+    "emissions",
+    "air-quality",
+    "biodiversity",
+    "environment",
+    "europe",
+    "eu",
+    "carbon",
+    "renewable-energy",
+    "water-quality",
+    "waste",
+    "pollution",
+    "eea",
+    "气候变化",
+    "温室气体",
+    "欧洲环境",
+    "空气质量"
+  ],
+  "data_content": {
+    "en": [
+      "Greenhouse Gas Emissions - National and EU-level GHG emission inventories, trends, and projections by sector",
+      "Climate Change Indicators - Temperature anomalies, sea level rise, glacier retreat, extreme weather events across Europe",
+      "Air Quality Data - Real-time and historical air pollutant concentrations (PM2.5, PM10, NO2, O3) from monitoring stations across Europe",
+      "Renewable Energy Statistics - Share of renewable energy in gross final energy consumption by country and sector",
+      "EU Emissions Trading System (ETS) - Verified emissions, allowances, and compliance data from EU ETS installations",
+      "Biodiversity Indicators - Species population trends, habitat conservation status, protected area coverage",
+      "Water Quality and Quantity - Bathing water quality, river and lake ecological status, water exploitation index",
+      "Waste Generation and Recycling - Municipal waste generation, recycling rates, and circular economy indicators by country",
+      "Land Use and Land Cover - CORINE Land Cover data and land use change statistics across Europe",
+      "Transport and Environment - Transport-related emissions, fuel consumption, and modal split data"
+    ],
+    "zh": [
+      "温室气体排放 - 国家和欧盟层面的温室气体排放清单、趋势和按部门分类的预测",
+      "气候变化指标 - 欧洲各地的温度异常、海平面上升、冰川退缩、极端天气事件",
+      "空气质量数据 - 欧洲各监测站的实时和历史空气污染物浓度（PM2.5、PM10、NO2、O3）",
+      "可再生能源统计 - 按国家和部门分类的可再生能源在最终能源消费总量中的占比",
+      "欧盟排放交易体系（ETS）- 来自EU ETS设施的核实排放量、配额和合规数据",
+      "生物多样性指标 - 物种种群趋势、栖息地保护状况、保护区覆盖率",
+      "水质和水量 - 浴场水质、河流和湖泊生态状况、水资源开发指数",
+      "废物产生和回收 - 按国家分类的城市废物产生量、回收率和循环经济指标",
+      "土地利用和土地覆盖 - CORINE土地覆盖数据和欧洲各地的土地利用变化统计",
+      "交通与环境 - 交通相关排放、燃料消耗和运输方式分担率数据"
+    ]
+  }
+}

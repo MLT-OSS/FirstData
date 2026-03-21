@@ -1,7 +1,12 @@
 {
   "metadata": {
+<<<<<<< HEAD
+    "generated_at": "2026-03-21T02:14:40.509447+00:00",
+    "total_sources": 288,
+=======
     "generated_at": "2026-03-21T02:11:37.710129+00:00",
     "total_sources": 284,
+>>>>>>> origin/main
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4253,6 +4258,72 @@
       },
       "has_api": false,
       "file_path": "china/national/china-mca.json"
+    },
+    {
+      "id": "china-mps",
+      "name": {
+        "en": "Ministry of Public Security of China",
+        "zh": "中华人民共和国公安部"
+      },
+      "description": {
+        "en": "The Ministry of Public Security (MPS) of the People's Republic of China is the principal government department responsible for public security, law enforcement, and household registration (hukou) management. MPS publishes statistical data on population registration, migration, public safety, traffic management, and crime statistics. Its household registration data is a primary source for China's population demographics and urbanization metrics.",
+        "zh": "中华人民共和国公安部是负责公共安全、执法和户籍管理的主要政府部门。公安部发布人口登记、人口迁移、公共安全、交通管理和犯罪统计数据。其户籍登记数据是中国人口统计和城镇化指标的主要来源之一。"
+      },
+      "website": "https://www.mps.gov.cn",
+      "data_url": "https://www.mps.gov.cn/n6557558/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "demographics",
+        "public safety",
+        "migration",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "population",
+        "hukou",
+        "户籍",
+        "人口",
+        "公安",
+        "public-safety",
+        "migration",
+        "urbanization",
+        "crime-statistics",
+        "traffic",
+        "demographics",
+        "household-registration",
+        "城镇化",
+        "人口迁移",
+        "犯罪统计",
+        "交通管理"
+      ],
+      "data_content": {
+        "en": [
+          "Household Registration (Hukou) Statistics - Registered population by province, urban/rural classification, and demographic characteristics",
+          "Population Migration Data - Inter-provincial and intra-provincial population movements, temporary residence registrations",
+          "Urbanization Metrics - Hukou-based urbanization rates by province, urban population growth trends",
+          "Public Safety Statistics - Crime rates, case filing and resolution statistics by category",
+          "Traffic Management Data - Motor vehicle registrations, driver's license statistics, traffic accident data",
+          "Exit and Entry Statistics - Passport issuance, visa processing, cross-border travel volumes",
+          "Cybersecurity Data - Internet security incidents, cybercrime statistics and enforcement actions",
+          "Fire Safety Statistics - Fire incidents, casualties, property losses, and fire department response data"
+        ],
+        "zh": [
+          "户籍登记统计 - 按省份、城乡分类和人口特征的户籍人口数据",
+          "人口迁移数据 - 省际和省内人口流动、暂住登记",
+          "城镇化指标 - 按省份分类的户籍城镇化率、城镇人口增长趋势",
+          "公共安全统计 - 犯罪率、按类别分类的立案和破案统计",
+          "交通管理数据 - 机动车保有量、驾驶证统计、交通事故数据",
+          "出入境统计 - 护照签发、签证办理、跨境出行量",
+          "网络安全数据 - 网络安全事件、网络犯罪统计和执法行动",
+          "消防安全统计 - 火灾事故、伤亡人数、财产损失和消防救援数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/national/china-mps.json"
     },
     {
       "id": "cnki-population-census",
@@ -10440,6 +10511,82 @@
       "file_path": "countries/north-america/usa/usaid-ddl.json"
     },
     {
+      "id": "usda-fas",
+      "name": {
+        "en": "USDA Foreign Agricultural Service",
+        "zh": "美国农业部对外农业局"
+      },
+      "description": {
+        "en": "The Foreign Agricultural Service (FAS) of the U.S. Department of Agriculture links U.S. agriculture to the world to enhance export opportunities and global food security. FAS maintains a global network of agricultural attachés and provides comprehensive data on international agricultural production, supply, demand, and trade through its Production, Supply, and Distribution (PSD) database and Global Agricultural Trade System (GATS).",
+        "zh": "美国农业部对外农业局（FAS）是连接美国农业与世界的桥梁，致力于增强出口机会和全球粮食安全。FAS在全球维护农业参赞网络，通过其生产、供应和分配（PSD）数据库及全球农业贸易系统（GATS）提供全面的国际农业生产、供应、需求和贸易数据。"
+      },
+      "website": "https://www.fas.usda.gov",
+      "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+      "api_url": "https://apps.fas.usda.gov/opendata/swagger/ui/index",
+      "authority_level": "government",
+      "country": "US",
+      "domains": [
+        "agriculture",
+        "trade",
+        "food security",
+        "commodity markets",
+        "international trade"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "agriculture",
+        "trade",
+        "export",
+        "import",
+        "commodity",
+        "grain",
+        "oilseed",
+        "coffee",
+        "cotton",
+        "sugar",
+        "livestock",
+        "dairy",
+        "food-security",
+        "crop-production",
+        "psd-database",
+        "gats",
+        "global-agriculture",
+        "usda",
+        "美国农业部",
+        "农产品贸易",
+        "国际农业"
+      ],
+      "data_content": {
+        "en": [
+          "Production, Supply, and Distribution (PSD) - Global production, supply, demand, and trade data for major agricultural commodities",
+          "Global Agricultural Trade System (GATS) - U.S. agricultural import and export statistics by commodity and country",
+          "World Agricultural Production Reports - Monthly circulars on global crop and livestock production estimates",
+          "Grain and Feed Data - Global grain production, consumption, trade, and stocks data",
+          "Oilseeds Data - World oilseed and products production, crush, trade, and stocks",
+          "Coffee Market Data - Global coffee production, consumption, trade, and stocks by country",
+          "Cotton Data - World cotton production, mill use, trade, and ending stocks",
+          "Sugar and Sweeteners Data - Global sugar production, consumption, trade, and prices",
+          "Livestock and Poultry Data - International meat and dairy production, consumption, and trade",
+          "Commodity Intelligence Reports - Analysis of agricultural conditions and market developments worldwide"
+        ],
+        "zh": [
+          "生产、供应和分配（PSD）- 主要农产品的全球生产、供应、需求和贸易数据",
+          "全球农业贸易系统（GATS）- 按商品和国家分类的美国农产品进出口统计",
+          "世界农业生产报告 - 全球作物和畜产品产量估算月度通报",
+          "谷物和饲料数据 - 全球谷物生产、消费、贸易和库存数据",
+          "油籽数据 - 世界油籽及制品的生产、压榨、贸易和库存",
+          "咖啡市场数据 - 全球咖啡生产、消费、贸易和库存（按国家）",
+          "棉花数据 - 世界棉花生产、纺织消费、贸易和期末库存",
+          "糖和甜味剂数据 - 全球糖的生产、消费、贸易和价格",
+          "畜牧和家禽数据 - 国际肉类和乳制品的生产、消费和贸易",
+          "商品情报报告 - 全球农业状况和市场发展分析"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/north-america/usa/usda-fas.json"
+    },
+    {
       "id": "usgs-earthexplorer",
       "name": {
         "en": "USGS EarthExplorer",
@@ -10900,6 +11047,140 @@
       "authority_level": "government",
       "has_api": true,
       "file_path": "countries/south-america/brazil/brazil-bcb.json"
+    },
+    {
+      "id": "brazil-mapa",
+      "name": {
+        "en": "Brazil Ministry of Agriculture and Livestock",
+        "zh": "巴西农业和畜牧部"
+      },
+      "description": {
+        "en": "The Ministry of Agriculture and Livestock (MAPA) of Brazil is the federal government body responsible for formulating and implementing policies for the development of agriculture, livestock, and agribusiness. MAPA publishes comprehensive statistics on Brazilian agricultural production, crop forecasts, phytosanitary data, animal health, rural credit, and agricultural trade. Brazil is the world's largest producer and exporter of coffee, soybeans, sugar, and orange juice, making MAPA a critical global data source for agricultural commodities.",
+        "zh": "巴西农业和畜牧部（MAPA）是负责制定和实施农业、畜牧业和农业综合企业发展政策的联邦政府机构。MAPA发布巴西农业生产、作物预测、植物检疫、动物卫生、农村信贷和农业贸易的综合统计数据。巴西是全球最大的咖啡、大豆、糖和橙汁生产国和出口国，使MAPA成为农产品领域的关键全球数据源。"
+      },
+      "website": "https://www.gov.br/agricultura",
+      "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "BR",
+      "domains": [
+        "agriculture",
+        "livestock",
+        "trade",
+        "food safety"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "agriculture",
+        "livestock",
+        "coffee",
+        "soybean",
+        "sugar",
+        "corn",
+        "beef",
+        "poultry",
+        "crop-forecast",
+        "rural-credit",
+        "agribusiness",
+        "agrostat",
+        "brazil",
+        "巴西农业",
+        "咖啡",
+        "大豆",
+        "农产品"
+      ],
+      "data_content": {
+        "en": [
+          "Crop Production Statistics - Area planted, harvested, and production volumes for major crops (soybeans, corn, coffee, sugar cane, cotton)",
+          "AgroStat Trade Data - Brazilian agricultural export and import statistics by product, country, and state of origin",
+          "Coffee Statistics - Production, exports, domestic consumption, and stocks of Brazilian coffee by variety and state",
+          "Livestock Data - Cattle herd size, beef and poultry production, slaughter volumes, and animal health indicators",
+          "Crop Forecasts - Monthly crop production forecasts and harvest estimates",
+          "Rural Credit - Agricultural financing data, credit disbursements by program, region, and crop",
+          "Phytosanitary Data - Plant health surveillance, pest and disease monitoring, quarantine statistics",
+          "Organic Agriculture - Certified organic producers, area, and product categories",
+          "Agricultural Insurance - Crop insurance coverage, claims, and indemnity data by state and product",
+          "Grain Stocks - Official grain stock positions and storage capacity by region"
+        ],
+        "zh": [
+          "作物生产统计 - 主要作物（大豆、玉米、咖啡、甘蔗、棉花）的种植面积、收获面积和产量",
+          "AgroStat贸易数据 - 按产品、国家和产地州分类的巴西农产品进出口统计",
+          "咖啡统计 - 按品种和州分类的巴西咖啡产量、出口、国内消费和库存",
+          "畜牧数据 - 牛群规模、牛肉和家禽产量、屠宰量和动物卫生指标",
+          "作物预测 - 月度作物产量预测和收成估算",
+          "农村信贷 - 按项目、地区和作物分类的农业融资数据和信贷发放",
+          "植物检疫数据 - 植物健康监测、病虫害监测、检疫统计",
+          "有机农业 - 认证有机生产者、面积和产品类别",
+          "农业保险 - 按州和产品分类的作物保险覆盖、索赔和赔偿数据",
+          "粮食库存 - 按地区分类的官方粮食库存状况和仓储容量"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/south-america/brazil/brazil-mapa.json"
+    },
+    {
+      "id": "brazil-mdic-secex",
+      "name": {
+        "en": "Brazil Ministry of Development, Industry, Commerce and Services - Foreign Trade Secretariat",
+        "zh": "巴西发展、工业、商业和服务部外贸秘书处"
+      },
+      "description": {
+        "en": "The Foreign Trade Secretariat (SECEX) under Brazil's Ministry of Development, Industry, Commerce and Services (MDIC) is the official source for Brazilian foreign trade statistics. Through its ComexStat platform, SECEX provides comprehensive and granular data on Brazil's international trade, including exports and imports by product (NCM/HS codes), country, state, port of entry, and transportation mode. The data covers all officially registered foreign trade transactions and is widely used for economic analysis and trade policy research.",
+        "zh": "巴西发展、工业、商业和服务部（MDIC）下属的外贸秘书处（SECEX）是巴西外贸统计的官方来源。通过其ComexStat平台，SECEX提供全面细致的巴西国际贸易数据，包括按产品（NCM/HS编码）、国家、州、入境口岸和运输方式分类的进出口数据。数据涵盖所有官方登记的外贸交易，广泛用于经济分析和贸易政策研究。"
+      },
+      "website": "https://www.gov.br/mdic",
+      "data_url": "http://comexstat.mdic.gov.br/en/home",
+      "api_url": "http://comexstat.mdic.gov.br/en/about/api",
+      "authority_level": "government",
+      "country": "BR",
+      "domains": [
+        "trade",
+        "economics",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "foreign-trade",
+        "export",
+        "import",
+        "comexstat",
+        "trade-balance",
+        "hs-code",
+        "ncm",
+        "customs",
+        "brazil",
+        "trade-statistics",
+        "巴西贸易",
+        "进出口",
+        "外贸统计",
+        "贸易平衡"
+      ],
+      "data_content": {
+        "en": [
+          "Export Statistics - Brazilian exports by product (NCM/HS), destination country, state of origin, port, and transportation mode",
+          "Import Statistics - Imports by product, country of origin, state of destination, entry port, and transportation mode",
+          "Trade Balance - Monthly and annual trade balance data with breakdown by major trading partners",
+          "Historical Trade Series - Long-term foreign trade time series dating back to 1997",
+          "Trade by Economic Block - Export and import data aggregated by economic blocs (Mercosur, EU, NAFTA, BRICS, etc.)",
+          "Trade by Factor Aggregate - Exports classified by technology intensity and factor content (basic, semi-manufactured, manufactured)",
+          "State-Level Trade Data - Foreign trade statistics disaggregated by Brazilian state",
+          "Commodity Trade Detail - Detailed product-level trade data at 8-digit NCM code granularity"
+        ],
+        "zh": [
+          "出口统计 - 按产品（NCM/HS）、目的地国家、产地州、港口和运输方式分类的巴西出口数据",
+          "进口统计 - 按产品、原产国、目的地州、入境港口和运输方式分类的进口数据",
+          "贸易平衡 - 按主要贸易伙伴细分的月度和年度贸易平衡数据",
+          "历史贸易序列 - 可追溯至1997年的长期外贸时间序列",
+          "按经济集团贸易 - 按经济集团（南方共同市场、欧盟、北美自贸区、金砖国家等）汇总的进出口数据",
+          "按要素分类贸易 - 按技术密度和要素含量（初级、半制成品、制成品）分类的出口",
+          "州级贸易数据 - 按巴西各州细分的外贸统计",
+          "商品贸易明细 - 8位NCM编码粒度的详细产品级贸易数据"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/south-america/brazil/brazil-mdic-secex.json"
     },
     {
       "id": "brazil-cecafe",
@@ -11545,6 +11826,72 @@
       "authority_level": "international",
       "has_api": true,
       "file_path": "international/agriculture/faostat.json"
+    },
+    {
+      "id": "ico-coffee",
+      "name": {
+        "en": "International Coffee Organization",
+        "zh": "国际咖啡组织"
+      },
+      "description": {
+        "en": "The International Coffee Organization (ICO) is the main intergovernmental organization for coffee, bringing together exporting and importing countries to address challenges facing the world coffee sector through international cooperation. Established in 1963 under the auspices of the United Nations, ICO collects and publishes comprehensive statistics on global coffee production, trade, consumption, and prices, serving as the authoritative source for the international coffee market.",
+        "zh": "国际咖啡组织（ICO）是咖啡领域的主要政府间国际组织，汇集出口国和进口国，通过国际合作应对全球咖啡行业面临的挑战。ICO于1963年在联合国主持下成立，收集并发布全球咖啡生产、贸易、消费和价格的综合统计数据，是国际咖啡市场的权威数据来源。"
+      },
+      "website": "https://www.ico.org",
+      "data_url": "https://www.ico.org/trade_statistics.asp",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "agriculture",
+        "commodity markets",
+        "trade",
+        "food and beverage"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "monthly",
+      "tags": [
+        "coffee",
+        "咖啡",
+        "commodity",
+        "agriculture",
+        "trade",
+        "production",
+        "consumption",
+        "export",
+        "import",
+        "coffee-prices",
+        "arabica",
+        "robusta",
+        "ico-composite-indicator",
+        "国际咖啡组织",
+        "咖啡贸易",
+        "大宗商品"
+      ],
+      "data_content": {
+        "en": [
+          "Coffee Production - Annual and monthly production data by country, broken down by Arabica and Robusta varieties",
+          "Coffee Trade Statistics - Exports and imports by country, form (green, roasted, soluble), and destination/origin",
+          "Coffee Consumption - Per capita and total consumption by country and region",
+          "ICO Composite Indicator Price - Daily and monthly composite and group indicator prices for coffee",
+          "Coffee Inventories - Certified stocks in importing countries and port stocks",
+          "Historical Data Series - Long-term time series dating back to the 1960s for production, trade, and prices",
+          "Country Coffee Profiles - Detailed statistical profiles for major producing and consuming countries",
+          "Market Reports - Monthly and annual coffee market reports with analysis and forecasts"
+        ],
+        "zh": [
+          "咖啡产量 - 按国家和阿拉比卡/罗布斯塔品种分类的年度和月度产量数据",
+          "咖啡贸易统计 - 按国家、形态（生豆、烘焙、速溶）和目的地/产地分类的进出口数据",
+          "咖啡消费 - 按国家和地区分类的人均和总消费量",
+          "ICO综合指标价格 - 咖啡的每日和每月综合及分组指标价格",
+          "咖啡库存 - 进口国认证库存和港口库存",
+          "历史数据系列 - 可追溯至1960年代的产量、贸易和价格长期时间序列",
+          "国家咖啡概况 - 主要生产国和消费国的详细统计概况",
+          "市场报告 - 附带分析和预测的月度和年度咖啡市场报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/agriculture/ico-coffee.json"
     },
     {
       "id": "ecmwf",
@@ -14698,6 +15045,80 @@
       "authority_level": "international",
       "has_api": false,
       "file_path": "international/environment/cites-trade-database.json"
+    },
+    {
+      "id": "eea-climate",
+      "name": {
+        "en": "European Environment Agency",
+        "zh": "欧洲环境署"
+      },
+      "description": {
+        "en": "The European Environment Agency (EEA) is an agency of the European Union whose task is to provide sound, independent information on the environment. The EEA collects, manages, and publishes comprehensive data on Europe's environment, including climate change indicators, greenhouse gas emissions, air quality, biodiversity, and resource use. It supports EU environmental policy development and public awareness through its data portal and indicator assessments.",
+        "zh": "欧洲环境署（EEA）是欧盟的一个机构，其任务是提供关于环境的可靠、独立的信息。EEA收集、管理和发布关于欧洲环境的综合数据，包括气候变化指标、温室气体排放、空气质量、生物多样性和资源利用。通过其数据门户和指标评估，支持欧盟环境政策制定和公众意识提升。"
+      },
+      "website": "https://www.eea.europa.eu",
+      "data_url": "https://www.eea.europa.eu/en/datahub",
+      "api_url": "https://discodata.eea.europa.eu/",
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "environment",
+        "climate",
+        "energy",
+        "air quality",
+        "biodiversity",
+        "water"
+      ],
+      "geographic_scope": "regional",
+      "update_frequency": "annual",
+      "tags": [
+        "climate-change",
+        "greenhouse-gas",
+        "emissions",
+        "air-quality",
+        "biodiversity",
+        "environment",
+        "europe",
+        "eu",
+        "carbon",
+        "renewable-energy",
+        "water-quality",
+        "waste",
+        "pollution",
+        "eea",
+        "气候变化",
+        "温室气体",
+        "欧洲环境",
+        "空气质量"
+      ],
+      "data_content": {
+        "en": [
+          "Greenhouse Gas Emissions - National and EU-level GHG emission inventories, trends, and projections by sector",
+          "Climate Change Indicators - Temperature anomalies, sea level rise, glacier retreat, extreme weather events across Europe",
+          "Air Quality Data - Real-time and historical air pollutant concentrations (PM2.5, PM10, NO2, O3) from monitoring stations across Europe",
+          "Renewable Energy Statistics - Share of renewable energy in gross final energy consumption by country and sector",
+          "EU Emissions Trading System (ETS) - Verified emissions, allowances, and compliance data from EU ETS installations",
+          "Biodiversity Indicators - Species population trends, habitat conservation status, protected area coverage",
+          "Water Quality and Quantity - Bathing water quality, river and lake ecological status, water exploitation index",
+          "Waste Generation and Recycling - Municipal waste generation, recycling rates, and circular economy indicators by country",
+          "Land Use and Land Cover - CORINE Land Cover data and land use change statistics across Europe",
+          "Transport and Environment - Transport-related emissions, fuel consumption, and modal split data"
+        ],
+        "zh": [
+          "温室气体排放 - 国家和欧盟层面的温室气体排放清单、趋势和按部门分类的预测",
+          "气候变化指标 - 欧洲各地的温度异常、海平面上升、冰川退缩、极端天气事件",
+          "空气质量数据 - 欧洲各监测站的实时和历史空气污染物浓度（PM2.5、PM10、NO2、O3）",
+          "可再生能源统计 - 按国家和部门分类的可再生能源在最终能源消费总量中的占比",
+          "欧盟排放交易体系（ETS）- 来自EU ETS设施的核实排放量、配额和合规数据",
+          "生物多样性指标 - 物种种群趋势、栖息地保护状况、保护区覆盖率",
+          "水质和水量 - 浴场水质、河流和湖泊生态状况、水资源开发指数",
+          "废物产生和回收 - 按国家分类的城市废物产生量、回收率和循环经济指标",
+          "土地利用和土地覆盖 - CORINE土地覆盖数据和欧洲各地的土地利用变化统计",
+          "交通与环境 - 交通相关排放、燃料消耗和运输方式分担率数据"
+        ]
+      },
+      "has_api": true,
+      "file_path": "international/environment/eea-climate.json"
     },
     {
       "id": "isric-world-soil",

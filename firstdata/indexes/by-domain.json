@@ -1,8 +1,14 @@
 {
   "metadata": {
+<<<<<<< HEAD
+    "generated_at": "2026-03-21T02:14:40.509447+00:00",
+    "total_domains": 705,
+    "total_sources": 288,
+=======
     "generated_at": "2026-03-21T02:11:37.710129+00:00",
     "total_domains": 703,
     "total_sources": 284,
+>>>>>>> origin/main
     "version": "2.0"
   },
   "domains": {
@@ -471,6 +477,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "usda-fas",
+        "name": {
+          "en": "USDA Foreign Agricultural Service",
+          "zh": "美国农业部对外农业局"
+        },
+        "authority_level": "government",
+        "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/usda-fas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "australia-abs",
         "name": {
           "en": "Australian Bureau of Statistics",
@@ -480,6 +498,18 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "brazil-mapa",
+        "name": {
+          "en": "Brazil Ministry of Agriculture and Livestock",
+          "zh": "巴西农业和畜牧部"
+        },
+        "authority_level": "government",
+        "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
+        "has_api": false,
+        "file_path": "countries/south-america/brazil/brazil-mapa.json",
         "geographic_scope": "national"
       },
       {
@@ -540,6 +570,18 @@
         "data_url": "https://www.fao.org/faostat/en/",
         "has_api": true,
         "file_path": "international/agriculture/faostat.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "ico-coffee",
+        "name": {
+          "en": "International Coffee Organization",
+          "zh": "国际咖啡组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ico.org/trade_statistics.asp",
+        "has_api": false,
+        "file_path": "international/agriculture/ico-coffee.json",
         "geographic_scope": "global"
       },
       {
@@ -717,6 +759,20 @@
         "has_api": true,
         "file_path": "international/agriculture/cgiar-research-data.json",
         "geographic_scope": "global"
+      }
+    ],
+    "air quality": [
+      {
+        "id": "eea-climate",
+        "name": {
+          "en": "European Environment Agency",
+          "zh": "欧洲环境署"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.eea.europa.eu/en/datahub",
+        "has_api": true,
+        "file_path": "international/environment/eea-climate.json",
+        "geographic_scope": "regional"
       }
     ],
     "alcohol and drugs": [
@@ -1436,6 +1492,18 @@
         "has_api": false,
         "file_path": "international/environment/cites-trade-database.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "eea-climate",
+        "name": {
+          "en": "European Environment Agency",
+          "zh": "欧洲环境署"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.eea.europa.eu/en/datahub",
+        "has_api": true,
+        "file_path": "international/environment/eea-climate.json",
+        "geographic_scope": "regional"
       },
       {
         "id": "gbif",
@@ -2527,6 +2595,18 @@
         "has_api": true,
         "file_path": "international/energy/irena.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "eea-climate",
+        "name": {
+          "en": "European Environment Agency",
+          "zh": "欧洲环境署"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.eea.europa.eu/en/datahub",
+        "has_api": true,
+        "file_path": "international/environment/eea-climate.json",
+        "geographic_scope": "regional"
       }
     ],
     "climate change": [
@@ -2909,6 +2989,30 @@
       }
     ],
     "commodity markets": [
+      {
+        "id": "usda-fas",
+        "name": {
+          "en": "USDA Foreign Agricultural Service",
+          "zh": "美国农业部对外农业局"
+        },
+        "authority_level": "government",
+        "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/usda-fas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "ico-coffee",
+        "name": {
+          "en": "International Coffee Organization",
+          "zh": "国际咖啡组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ico.org/trade_statistics.asp",
+        "has_api": false,
+        "file_path": "international/agriculture/ico-coffee.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "amis",
         "name": {
@@ -4008,6 +4112,18 @@
         "data_url": "https://www.mca.gov.cn/n156/n2679/index.html",
         "has_api": false,
         "file_path": "china/national/china-mca.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mps",
+        "name": {
+          "en": "Ministry of Public Security of China",
+          "zh": "中华人民共和国公安部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mps.gov.cn/n6557558/index.html",
+        "has_api": false,
+        "file_path": "china/national/china-mps.json",
         "geographic_scope": "national"
       },
       {
@@ -6416,6 +6532,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "brazil-mdic-secex",
+        "name": {
+          "en": "Brazil Ministry of Development, Industry, Commerce and Services - Foreign Trade Secretariat",
+          "zh": "巴西发展、工业、商业和服务部外贸秘书处"
+        },
+        "authority_level": "government",
+        "data_url": "http://comexstat.mdic.gov.br/en/home",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil/brazil-mdic-secex.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "brazil-ibge",
         "name": {
           "en": "Brazilian Institute of Geography and Statistics",
@@ -8206,6 +8334,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "eea-climate",
+        "name": {
+          "en": "European Environment Agency",
+          "zh": "欧洲环境署"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.eea.europa.eu/en/datahub",
+        "has_api": true,
+        "file_path": "international/environment/eea-climate.json",
+        "geographic_scope": "regional"
+      },
+      {
         "id": "unctad-infrastructure-statistics",
         "name": {
           "en": "UNCTAD Infrastructure Statistics Database",
@@ -9001,6 +9141,18 @@
         "has_api": true,
         "file_path": "international/environment/cdiac.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "eea-climate",
+        "name": {
+          "en": "European Environment Agency",
+          "zh": "欧洲环境署"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.eea.europa.eu/en/datahub",
+        "has_api": true,
+        "file_path": "international/environment/eea-climate.json",
+        "geographic_scope": "regional"
       },
       {
         "id": "isric-world-soil",
@@ -10547,6 +10699,20 @@
         "geographic_scope": "global"
       }
     ],
+    "food and beverage": [
+      {
+        "id": "ico-coffee",
+        "name": {
+          "en": "International Coffee Organization",
+          "zh": "国际咖啡组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ico.org/trade_statistics.asp",
+        "has_api": false,
+        "file_path": "international/agriculture/ico-coffee.json",
+        "geographic_scope": "global"
+      }
+    ],
     "food and waterborne diseases": [
       {
         "id": "ecdc-surveillance",
@@ -10633,6 +10799,18 @@
     ],
     "food safety": [
       {
+        "id": "brazil-mapa",
+        "name": {
+          "en": "Brazil Ministry of Agriculture and Livestock",
+          "zh": "巴西农业和畜牧部"
+        },
+        "authority_level": "government",
+        "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
+        "has_api": false,
+        "file_path": "countries/south-america/brazil/brazil-mapa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "codex-alimentarius",
         "name": {
           "en": "Codex Alimentarius Standards",
@@ -10657,6 +10835,18 @@
         "data_url": "https://open.canada.ca/data/en/organization/aafc-aac",
         "has_api": true,
         "file_path": "countries/north-america/canada/aafc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "usda-fas",
+        "name": {
+          "en": "USDA Foreign Agricultural Service",
+          "zh": "美国农业部对外农业局"
+        },
+        "authority_level": "government",
+        "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/usda-fas.json",
         "geographic_scope": "national"
       },
       {
@@ -13099,6 +13289,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "brazil-mdic-secex",
+        "name": {
+          "en": "Brazil Ministry of Development, Industry, Commerce and Services - Foreign Trade Secretariat",
+          "zh": "巴西发展、工业、商业和服务部外贸秘书处"
+        },
+        "authority_level": "government",
+        "data_url": "http://comexstat.mdic.gov.br/en/home",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil/brazil-mdic-secex.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "brazil-ibge",
         "name": {
           "en": "Brazilian Institute of Geography and Statistics",
@@ -14037,6 +14239,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "usda-fas",
+        "name": {
+          "en": "USDA Foreign Agricultural Service",
+          "zh": "美国农业部对外农业局"
+        },
+        "authority_level": "government",
+        "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/usda-fas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "basel-convention",
         "name": {
           "en": "Basel Convention Data",
@@ -14766,6 +14980,18 @@
       }
     ],
     "livestock": [
+      {
+        "id": "brazil-mapa",
+        "name": {
+          "en": "Brazil Ministry of Agriculture and Livestock",
+          "zh": "巴西农业和畜牧部"
+        },
+        "authority_level": "government",
+        "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
+        "has_api": false,
+        "file_path": "countries/south-america/brazil/brazil-mapa.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "faostat",
         "name": {
@@ -15668,6 +15894,20 @@
         "has_api": true,
         "file_path": "international/standards-metrology/bipm-kcdb.json",
         "geographic_scope": "global"
+      }
+    ],
+    "migration": [
+      {
+        "id": "china-mps",
+        "name": {
+          "en": "Ministry of Public Security of China",
+          "zh": "中华人民共和国公安部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mps.gov.cn/n6557558/index.html",
+        "has_api": false,
+        "file_path": "china/national/china-mps.json",
+        "geographic_scope": "national"
       }
     ],
     "mineral": [
@@ -17847,6 +18087,18 @@
     ],
     "public safety": [
       {
+        "id": "china-mps",
+        "name": {
+          "en": "Ministry of Public Security of China",
+          "zh": "中华人民共和国公安部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mps.gov.cn/n6557558/index.html",
+        "has_api": false,
+        "file_path": "china/national/china-mps.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-data-gov",
         "name": {
           "en": "Data.gov",
@@ -18768,6 +19020,18 @@
         "data_url": "https://www.mca.gov.cn/n156/n2679/index.html",
         "has_api": false,
         "file_path": "china/national/china-mca.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mps",
+        "name": {
+          "en": "Ministry of Public Security of China",
+          "zh": "中华人民共和国公安部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mps.gov.cn/n6557558/index.html",
+        "has_api": false,
+        "file_path": "china/national/china-mps.json",
         "geographic_scope": "national"
       },
       {
@@ -20674,6 +20938,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "usda-fas",
+        "name": {
+          "en": "USDA Foreign Agricultural Service",
+          "zh": "美国农业部对外农业局"
+        },
+        "authority_level": "government",
+        "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/usda-fas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "australia-abs",
         "name": {
           "en": "Australian Bureau of Statistics",
@@ -20695,6 +20971,30 @@
         "data_url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-35",
         "has_api": true,
         "file_path": "countries/south-america/argentina/argentina-indec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "brazil-mapa",
+        "name": {
+          "en": "Brazil Ministry of Agriculture and Livestock",
+          "zh": "巴西农业和畜牧部"
+        },
+        "authority_level": "government",
+        "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
+        "has_api": false,
+        "file_path": "countries/south-america/brazil/brazil-mapa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "brazil-mdic-secex",
+        "name": {
+          "en": "Brazil Ministry of Development, Industry, Commerce and Services - Foreign Trade Secretariat",
+          "zh": "巴西发展、工业、商业和服务部外贸秘书处"
+        },
+        "authority_level": "government",
+        "data_url": "http://comexstat.mdic.gov.br/en/home",
+        "has_api": true,
+        "file_path": "countries/south-america/brazil/brazil-mdic-secex.json",
         "geographic_scope": "national"
       },
       {
@@ -20768,6 +21068,18 @@
         "data_url": "https://www.fao.org/faostat/en/",
         "has_api": true,
         "file_path": "international/agriculture/faostat.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "ico-coffee",
+        "name": {
+          "en": "International Coffee Organization",
+          "zh": "国际咖啡组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.ico.org/trade_statistics.asp",
+        "has_api": false,
+        "file_path": "international/agriculture/ico-coffee.json",
         "geographic_scope": "global"
       },
       {
@@ -21567,6 +21879,18 @@
         "data_url": "https://www.adb.org/what-we-do/data",
         "has_api": false,
         "file_path": "international/economics/adb.json",
+        "geographic_scope": "regional"
+      },
+      {
+        "id": "eea-climate",
+        "name": {
+          "en": "European Environment Agency",
+          "zh": "欧洲环境署"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.eea.europa.eu/en/datahub",
+        "has_api": true,
+        "file_path": "international/environment/eea-climate.json",
         "geographic_scope": "regional"
       }
     ],
