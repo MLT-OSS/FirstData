@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T02:14:40.509447+00:00",
-    "total_regions": 39,
-    "total_sources": 288,
+    "generated_at": "2026-03-21T02:11:37.710129+00:00",
+    "total_regions": 41,
+    "total_sources": 284,
     "version": "2.0"
   },
   "regions": {
@@ -99,30 +99,6 @@
         "data_url": "https://dadosabertos.bcb.gov.br",
         "has_api": true,
         "file_path": "countries/south-america/brazil/brazil-bcb.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "brazil-mapa",
-        "name": {
-          "en": "Brazil Ministry of Agriculture and Livestock",
-          "zh": "巴西农业和畜牧部"
-        },
-        "authority_level": "government",
-        "data_url": "https://indicadores.agricultura.gov.br/agrostat/index.htm",
-        "has_api": false,
-        "file_path": "countries/south-america/brazil/brazil-mapa.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "brazil-mdic-secex",
-        "name": {
-          "en": "Brazil Ministry of Development, Industry, Commerce and Services - Foreign Trade Secretariat",
-          "zh": "巴西发展、工业、商业和服务部外贸秘书处"
-        },
-        "authority_level": "government",
-        "data_url": "http://comexstat.mdic.gov.br/en/home",
-        "has_api": true,
-        "file_path": "countries/south-america/brazil/brazil-mdic-secex.json",
         "geographic_scope": "national"
       },
       {
@@ -698,18 +674,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "china-mps",
-        "name": {
-          "en": "Ministry of Public Security of China",
-          "zh": "中华人民共和国公安部"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.mps.gov.cn/n6557558/index.html",
-        "has_api": false,
-        "file_path": "china/national/china-mps.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "cnki-population-census",
         "name": {
           "en": "CNKI China Population Census Database",
@@ -1120,6 +1084,20 @@
         "geographic_scope": "national"
       }
     ],
+    "CZ": [
+      {
+        "id": "czechia-czso",
+        "name": {
+          "en": "Czech Statistical Office (CZSO)",
+          "zh": "捷克统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://vdb.czso.cz",
+        "has_api": true,
+        "file_path": "countries/europe/czechia/czechia-czso.json",
+        "geographic_scope": "national"
+      }
+    ],
     "DE": [
       {
         "id": "germany-destatis",
@@ -1332,6 +1310,20 @@
         "data_url": "https://www.bps.go.id/en/statistics-table",
         "has_api": true,
         "file_path": "indonesia/national/indonesia-bps.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "IE": [
+      {
+        "id": "ireland-cso",
+        "name": {
+          "en": "Central Statistics Office (CSO)",
+          "zh": "爱尔兰中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.cso.ie",
+        "has_api": true,
+        "file_path": "countries/europe/ireland/ireland-cso.json",
         "geographic_scope": "national"
       }
     ],
@@ -1866,18 +1858,6 @@
         "has_api": true,
         "file_path": "countries/north-america/usa/usaid-ddl.json",
         "geographic_scope": "global"
-      },
-      {
-        "id": "usda-fas",
-        "name": {
-          "en": "USDA Foreign Agricultural Service",
-          "zh": "美国农业部对外农业局"
-        },
-        "authority_level": "government",
-        "data_url": "https://apps.fas.usda.gov/psdonline/app/index.html",
-        "has_api": true,
-        "file_path": "countries/north-america/usa/usda-fas.json",
-        "geographic_scope": "national"
       },
       {
         "id": "usgs",
