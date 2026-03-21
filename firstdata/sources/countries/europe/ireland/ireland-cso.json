@@ -1,0 +1,67 @@
+{
+  "id": "ireland-cso",
+  "name": {
+    "en": "Central Statistics Office (CSO)",
+    "zh": "爱尔兰中央统计局"
+  },
+  "description": {
+    "en": "Ireland's national statistical office established under the Statistics Act 1993, providing comprehensive socioeconomic data",
+    "zh": "依据1993年《统计法》成立的爱尔兰国家统计机构，提供全面的社会经济数据"
+  },
+  "website": "https://www.cso.ie",
+  "data_url": "https://data.cso.ie",
+  "api_url": "https://data.cso.ie",
+  "authority_level": "government",
+  "country": "IE",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "demographics",
+    "economics",
+    "employment",
+    "trade",
+    "housing",
+    "health",
+    "crime-and-justice"
+  ],
+  "tags": [
+    "statistics",
+    "ireland",
+    "europe",
+    "government-data",
+    "json-stat",
+    "爱尔兰统计"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts - GDP, GNI, Modified GNI",
+      "Population census and demographic projections",
+      "Labour force survey - employment, unemployment",
+      "Consumer Price Index and inflation",
+      "Foreign trade - merchandise and services",
+      "Housing and construction statistics",
+      "Health statistics and vital events",
+      "Crime and justice statistics",
+      "Tourism and transport data",
+      "Agriculture, forestry, and fishing",
+      "Environmental indicators",
+      "Business demographics and enterprise statistics",
+      "Education and training statistics"
+    ],
+    "zh": [
+      "国民账户 - GDP、GNI、修正GNI",
+      "人口普查和人口预测",
+      "劳动力调查 - 就业、失业",
+      "消费者价格指数和通胀",
+      "对外贸易 - 货物和服务",
+      "住房和建筑统计",
+      "卫生统计和生命事件",
+      "犯罪和司法统计",
+      "旅游和交通数据",
+      "农林渔业",
+      "环境指标",
+      "企业人口统计和企业统计",
+      "教育和培训统计"
+    ]
+  }
+}

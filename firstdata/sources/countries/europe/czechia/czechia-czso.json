@@ -1,0 +1,64 @@
+{
+  "id": "czechia-czso",
+  "name": {
+    "en": "Czech Statistical Office (CZSO)",
+    "zh": "捷克统计局"
+  },
+  "description": {
+    "en": "Official statistical office of the Czech Republic providing comprehensive demographic, economic, and social data since 1969",
+    "zh": "捷克共和国官方统计机构，自1969年起提供全面的人口、经济和社会数据"
+  },
+  "website": "https://csu.gov.cz",
+  "data_url": "https://vdb.czso.cz",
+  "api_url": "https://data.gov.cz",
+  "authority_level": "government",
+  "country": "CZ",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "demographics",
+    "economics",
+    "employment",
+    "trade",
+    "agriculture",
+    "environment"
+  ],
+  "tags": [
+    "statistics",
+    "czechia",
+    "europe",
+    "government-data",
+    "open-data",
+    "捷克统计"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts - GDP, GVA, productivity",
+      "Population census and demographic statistics",
+      "Labour force survey - employment, unemployment, wages",
+      "Consumer Price Index and inflation",
+      "Foreign trade statistics by product and partner",
+      "Agricultural census and crop statistics",
+      "Industrial production index",
+      "Regional statistics by NUTS classification",
+      "Environmental accounts and waste statistics",
+      "Tourism and hospitality statistics",
+      "Science, technology, and innovation indicators",
+      "Housing and construction statistics"
+    ],
+    "zh": [
+      "国民账户 - GDP、GVA、生产力",
+      "人口普查和人口统计",
+      "劳动力调查 - 就业、失业、工资",
+      "消费者价格指数和通胀",
+      "按产品和伙伴分类的对外贸易统计",
+      "农业普查和作物统计",
+      "工业生产指数",
+      "按NUTS分类的区域统计",
+      "环境账户和废物统计",
+      "旅游和酒店统计",
+      "科技创新指标",
+      "住房和建筑统计"
+    ]
+  }
+}
