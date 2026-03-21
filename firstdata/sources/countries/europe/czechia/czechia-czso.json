@@ -1,0 +1,80 @@
+{
+  "id": "czechia-czso",
+  "name": {
+    "en": "Czech Statistical Office (CZSO)",
+    "zh": "捷克统计局",
+    "native": "Český statistický úřad (ČSÚ)"
+  },
+  "description": {
+    "en": "The Czech Statistical Office (CZSO, Czech: ČSÚ) is the central state body for state statistics in the Czech Republic. Established in 1969, it is responsible for collecting, processing and disseminating statistical information about the economic, social, demographic and environmental situation of the country. The Office coordinates the statistical activities of other ministries and government bodies, conducts the Population and Housing Census, and publishes a wide range of official statistics covering national accounts, labour market, prices, trade, agriculture, industry, social conditions and demographics. CZSO is a member of Eurostat and follows European Statistical System standards. Its statistical database (VDB) provides free online access to thousands of time series and data tables, and it also maintains an open data catalogue conforming to international standards.",
+    "zh": "捷克统计局（CZSO，捷克语：ČSÚ）是捷克共和国国家统计工作的中央主管机构。成立于1969年，负责收集、处理和发布有关该国经济、社会、人口和环境状况的统计信息。统计局协调其他部委和政府机构的统计活动，开展人口和住房普查，并发布涵盖国民账户、劳动力市场、物价、贸易、农业、工业、社会状况和人口统计等广泛领域的官方统计数据。捷克统计局是欧盟统计局（Eurostat）成员，遵循欧洲统计系统标准。其统计数据库（VDB）提供对数千个时间序列和数据表的免费在线访问，并维护符合国际标准的开放数据目录。"
+  },
+  "website": "https://csu.gov.cz",
+  "data_url": "https://vdb.czso.cz/vdbvo2/faces/en/index.jsf",
+  "api_url": "https://data.gov.cz",
+  "country": "CZ",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "social",
+    "health",
+    "education",
+    "prices",
+    "trade",
+    "agriculture",
+    "environment",
+    "industry",
+    "housing"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "czech republic",
+    "czechia",
+    "czso",
+    "csu",
+    "statistics",
+    "national statistics",
+    "gdp",
+    "population",
+    "census",
+    "labour market",
+    "inflation",
+    "捷克统计局",
+    "捷克共和国",
+    "人口普查",
+    "国民经济"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts and GDP (gross domestic product, gross value added by sector)",
+      "Population and demographic statistics (births, deaths, migration, census data)",
+      "Labour market statistics (employment, unemployment, wages and salaries)",
+      "Price indices (consumer price index, producer price index, construction prices)",
+      "Foreign trade statistics (imports, exports by commodity and partner country)",
+      "Agricultural statistics (crop production, livestock, agricultural structure)",
+      "Industrial production statistics (manufacturing output, construction activity)",
+      "Social statistics (income and living conditions, social protection, poverty)",
+      "Education statistics (schools, pupils, graduates, tertiary education)",
+      "Health statistics (healthcare utilisation, morbidity, hospital capacities)",
+      "Environmental statistics (waste, emissions, water usage, land use)",
+      "Regional statistics (data disaggregated by NUTS regions and municipalities)"
+    ],
+    "zh": [
+      "国民账户和GDP（国内生产总值、按部门增加值）",
+      "人口与人口统计数据（出生、死亡、移民、人口普查数据）",
+      "劳动力市场统计（就业、失业、工资和薪酬）",
+      "价格指数（消费者价格指数、生产者价格指数、建筑价格）",
+      "对外贸易统计（按商品和贸易伙伴国的进出口数据）",
+      "农业统计（农作物产量、牲畜、农业结构）",
+      "工业生产统计（制造业产出、建筑业活动）",
+      "社会统计（收入和生活条件、社会保障、贫困状况）",
+      "教育统计（学校、学生、毕业生、高等教育）",
+      "卫生统计（医疗服务利用、发病率、医院容量）",
+      "环境统计（废物、排放、用水量、土地使用）",
+      "地区统计（按NUTS地区和市镇分类的数据）"
+    ]
+  },
+  "authority_level": "government"
+}

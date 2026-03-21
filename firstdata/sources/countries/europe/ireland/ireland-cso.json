@@ -1,0 +1,85 @@
+{
+  "id": "ireland-cso",
+  "name": {
+    "en": "Central Statistics Office Ireland (CSO)",
+    "zh": "爱尔兰中央统计局",
+    "native": "An Phríomh-Oifig Staidrimh (POS)"
+  },
+  "description": {
+    "en": "The Central Statistics Office (CSO) is the national statistical agency of Ireland, established under the Statistics Act 1993. As an independent office under the Department of the Taoiseach, the CSO is responsible for collecting, compiling, extracting and disseminating information for statistical purposes across all sectors of Irish society and economy. The CSO produces and publishes a comprehensive range of official statistics in areas including national accounts, population and migration, labour market, prices, external trade, health, crime, agriculture, housing, and business statistics. Its online statistical database StatBank provides free access to a vast collection of time series data. The CSO also maintains an open data portal with downloadable datasets in machine-readable formats, and offers a JSON-stat based API. Ireland is a member of Eurostat and the OECD, and the CSO aligns its methodologies with European and international standards.",
+    "zh": "爱尔兰中央统计局（CSO）是爱尔兰的国家统计机构，依据1993年《统计法》成立。作为爱尔兰总理部门下的独立机构，中央统计局负责为统计目的收集、整理、提取和发布爱尔兰社会和经济各领域的信息。统计局在国民账户、人口与移民、劳动力市场、物价、对外贸易、卫生、犯罪、农业、住房和企业统计等领域编制并发布全面的官方统计数据。其在线统计数据库StatBank提供对大量时间序列数据的免费访问。统计局还维护一个开放数据门户，提供机器可读格式的可下载数据集，并提供基于JSON-stat的API。爱尔兰是欧盟统计局和经合组织成员，统计局的方法论与欧洲和国际标准保持一致。"
+  },
+  "website": "https://www.cso.ie",
+  "data_url": "https://statbank.cso.ie",
+  "api_url": "https://data.cso.ie",
+  "country": "IE",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "social",
+    "health",
+    "trade",
+    "agriculture",
+    "housing",
+    "crime and justice",
+    "prices",
+    "industry",
+    "education"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "ireland",
+    "irish",
+    "cso",
+    "central statistics office",
+    "national statistics",
+    "statbank",
+    "gdp",
+    "gni",
+    "population",
+    "census",
+    "labour force survey",
+    "inflation",
+    "cpih",
+    "爱尔兰统计局",
+    "爱尔兰",
+    "国民账户",
+    "人口普查",
+    "劳动力调查"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts (GDP, GNI, GNI*, modified GNI, national income and expenditure)",
+      "Population and migration statistics (census data, population estimates, immigration)",
+      "Labour force survey (employment, unemployment, participation rates by sector)",
+      "Consumer price index and inflation statistics",
+      "External trade statistics (goods and services exports and imports by partner)",
+      "Agriculture statistics (crop output, livestock numbers, agricultural income)",
+      "Business demography and enterprise statistics (births, deaths, employment by sector)",
+      "Earnings and labour costs statistics (average weekly earnings by industry)",
+      "Health statistics (hospital in-patient enquiry, vital statistics, disability)",
+      "Crime and justice statistics (recorded crime, courts, prisons)",
+      "Housing statistics (new dwelling completions, planning permissions, house prices)",
+      "Tourism and travel statistics (overseas travel, accommodation nights)",
+      "Information society statistics (ICT usage by households and enterprises)"
+    ],
+    "zh": [
+      "国民账户（GDP、GNI、修正GNI、国民收入与支出）",
+      "人口与移民统计（人口普查数据、人口估算、移民数据）",
+      "劳动力调查（按部门就业、失业率、参与率）",
+      "消费者价格指数与通胀统计",
+      "对外贸易统计（按伙伴国的商品和服务进出口）",
+      "农业统计（农作物产量、牲畜数量、农业收入）",
+      "企业统计（企业诞生、死亡、按部门就业情况）",
+      "收入与劳动力成本统计（按行业平均周薪）",
+      "卫生统计（住院患者查询、生命统计、残疾数据）",
+      "犯罪与司法统计（记录犯罪、法院、监狱数据）",
+      "住房统计（新住宅竣工、规划许可、房价统计）",
+      "旅游统计（海外旅行、住宿夜数）",
+      "信息社会统计（家庭和企业ICT使用情况）"
+    ]
+  },
+  "authority_level": "government"
+}
