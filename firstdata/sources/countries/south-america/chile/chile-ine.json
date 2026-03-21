@@ -1,0 +1,49 @@
+{
+  "id": "chile-ine",
+  "name": {
+    "en": "National Statistics Institute of Chile (INE)",
+    "zh": "智利国家统计局"
+  },
+  "description": {
+    "en": "Official statistical agency of Chile providing demographic, economic, and social statistics",
+    "zh": "智利官方统计机构，提供人口、经济和社会统计数据"
+  },
+  "website": "https://www.ine.gob.cl",
+  "data_url": "https://www.ine.gob.cl/estadisticas",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CL",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "demographics",
+    "economics",
+    "employment",
+    "social",
+    "environment"
+  ],
+  "tags": [
+    "statistics",
+    "chile",
+    "south-america",
+    "government-data"
+  ],
+  "data_content": {
+    "en": [
+      "Population Census and demographic projections",
+      "Consumer Price Index (IPC) and inflation",
+      "Employment and labour force surveys",
+      "Economic activity indicators",
+      "Environmental statistics",
+      "Gender and social statistics"
+    ],
+    "zh": [
+      "人口普查和人口预测",
+      "消费者价格指数(IPC)和通胀",
+      "就业和劳动力调查",
+      "经济活动指标",
+      "环境统计",
+      "性别和社会统计"
+    ]
+  }
+}

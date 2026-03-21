@@ -1,0 +1,50 @@
+{
+  "id": "argentina-indec",
+  "name": {
+    "en": "National Institute of Statistics and Censuses (INDEC)",
+    "zh": "阿根廷国家统计与普查局"
+  },
+  "description": {
+    "en": "Official statistical agency of Argentina providing demographic, economic, and social data",
+    "zh": "阿根廷官方统计机构，提供人口、经济和社会数据"
+  },
+  "website": "https://www.indec.gob.ar",
+  "data_url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-35",
+  "api_url": "https://apis.datos.gob.ar/series/api/",
+  "authority_level": "government",
+  "country": "AR",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "demographics",
+    "economics",
+    "trade",
+    "employment",
+    "social"
+  ],
+  "tags": [
+    "statistics",
+    "argentina",
+    "south-america",
+    "government-data",
+    "census"
+  ],
+  "data_content": {
+    "en": [
+      "National Census - population, housing, economic census",
+      "Consumer Price Index (IPC) and inflation statistics",
+      "Foreign trade - imports and exports by product and partner",
+      "Labour market - employment, unemployment, wages",
+      "National accounts - GDP, industrial production",
+      "Poverty and income distribution"
+    ],
+    "zh": [
+      "国家普查 - 人口、住房、经济普查",
+      "消费者价格指数(IPC)和通胀统计",
+      "对外贸易 - 按产品和伙伴分类的进出口",
+      "劳动力市场 - 就业、失业、工资",
+      "国民账户 - GDP、工业生产",
+      "贫困和收入分配"
+    ]
+  }
+}
