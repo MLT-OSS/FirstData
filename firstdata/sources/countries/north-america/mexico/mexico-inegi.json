@@ -1,0 +1,79 @@
+{
+  "id": "mexico-inegi",
+  "name": {
+    "en": "National Institute of Statistics and Geography (INEGI)",
+    "zh": "墨西哥国家统计和地理研究所",
+    "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+  },
+  "description": {
+    "en": "Mexico's national statistics office responsible for collecting, processing, and disseminating geographic, statistical and economic information about the country. INEGI conducts population and housing censuses, agricultural censuses, and economic censuses, and provides comprehensive data on demographics, economy, geography, environment, and social conditions. It offers an open data API (INEGI Indicators API) with over 1,000 economic, demographic, and social indicators.",
+    "zh": "墨西哥国家统计机构，负责收集、处理和传播国家地理、统计和经济信息。INEGI开展人口与住房普查、农业普查和经济普查，提供涵盖人口、经济、地理、环境和社会状况的全面数据，并通过开放数据API（INEGI指标API）提供逾1000项经济、人口和社会指标。"
+  },
+  "website": "https://www.inegi.org.mx",
+  "data_url": "https://www.inegi.org.mx/datos/",
+  "api_url": "https://www.inegi.org.mx/servicios/api_indicadores.html",
+  "authority_level": "government",
+  "country": "MX",
+  "domains": [
+    "demographics",
+    "economics",
+    "geography",
+    "environment",
+    "employment",
+    "agriculture",
+    "trade",
+    "prices",
+    "housing",
+    "social"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "INEGI",
+    "Mexico",
+    "statistics",
+    "census",
+    "demographics",
+    "GDP",
+    "inflation",
+    "employment",
+    "geography",
+    "open data",
+    "API",
+    "墨西哥",
+    "国家统计",
+    "人口普查",
+    "经济普查",
+    "拉丁美洲"
+  ],
+  "data_content": {
+    "en": [
+      "Population and Housing Census (Censos de Población y Vivienda) - conducted every 10 years",
+      "National Survey of Occupation and Employment (ENOE) - quarterly labor market data",
+      "National Consumer Price Index (INPC) - monthly inflation indicators",
+      "Economic Activity Indicator (IGAE) - monthly GDP proxy",
+      "Economic Census (Censos Económicos) - comprehensive business and industry data",
+      "Agricultural, Livestock, Forestry and Fishing Census",
+      "National Income and Expenditure Survey (ENIGH) - household income and spending",
+      "Foreign trade statistics - imports and exports by product and country",
+      "Industrial production index and manufacturing statistics",
+      "Geographic data and cartography - national geographic information system",
+      "Environment and natural resources statistics",
+      "Business Confidence Index and economic expectations surveys"
+    ],
+    "zh": [
+      "人口与住房普查（每10年一次）",
+      "全国就业调查（ENOE）- 季度劳动力市场数据",
+      "全国消费者价格指数（INPC）- 月度通货膨胀指标",
+      "经济活动指标（IGAE）- 月度GDP代理指标",
+      "经济普查（每5年一次）- 全面的企业和行业数据",
+      "农业、畜牧业、林业和渔业普查",
+      "全国收入与支出调查（ENIGH）- 家庭收入与消费",
+      "外贸统计 - 按产品和国家分类的进出口数据",
+      "工业生产指数和制造业统计",
+      "地理数据和制图 - 国家地理信息系统",
+      "环境与自然资源统计",
+      "企业信心指数和经济预期调查"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "stats-sa",
+  "name": {
+    "en": "Statistics South Africa (Stats SA)",
+    "zh": "南非统计局",
+    "native": "Statistics South Africa (Stats SA)"
+  },
+  "description": {
+    "en": "South Africa's national statistics agency responsible for producing timely, accurate and official statistics that are relevant to all people in the country. Stats SA conducts population censuses, household surveys, and produces key economic indicators including GDP, inflation, employment, and trade statistics. It serves as the primary source of official statistics in Africa's most industrialized economy.",
+    "zh": "南非国家统计机构，负责为全体国民提供及时、准确的官方统计数据。南非统计局开展人口普查和住户调查，发布包括GDP、通货膨胀、就业和贸易统计在内的主要经济指标，是非洲工业化程度最高经济体的主要官方统计数据来源。"
+  },
+  "website": "https://www.statssa.gov.za",
+  "data_url": "https://www.statssa.gov.za/?page_id=1521",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "ZA",
+  "domains": [
+    "demographics",
+    "economics",
+    "employment",
+    "prices",
+    "housing",
+    "health",
+    "education",
+    "agriculture",
+    "trade",
+    "social"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "Stats SA",
+    "South Africa",
+    "statistics",
+    "census",
+    "demographics",
+    "GDP",
+    "inflation",
+    "CPI",
+    "employment",
+    "poverty",
+    "inequality",
+    "Gini coefficient",
+    "Africa",
+    "南非",
+    "国家统计",
+    "人口普查",
+    "非洲"
+  ],
+  "data_content": {
+    "en": [
+      "Census of Population (National Census) - most recent in 2022",
+      "Community Survey - mid-decade population sample survey",
+      "Quarterly Labour Force Survey (QLFS) - employment and unemployment data",
+      "Consumer Price Index (CPI) - monthly inflation measurement",
+      "Gross Domestic Product (GDP) - quarterly national accounts",
+      "General Household Survey (GHS) - access to services, poverty, education",
+      "Income and Expenditure Survey - household income, spending and poverty",
+      "Living Conditions Survey - poverty and inequality measures including Gini coefficient",
+      "Agricultural census and survey data",
+      "Tourism statistics and international arrivals",
+      "Manufacturing production and sales statistics",
+      "Financial statistics of municipalities and national government",
+      "Recorded crime statistics and safety surveys",
+      "Mortality and causes of death statistics"
+    ],
+    "zh": [
+      "全国人口普查（最近一次为2022年）",
+      "社区调查 - 十年期间人口抽样调查",
+      "季度劳动力调查（QLFS）- 就业和失业数据",
+      "消费者价格指数（CPI）- 月度通胀测量",
+      "国内生产总值（GDP）- 季度国民账户",
+      "一般家庭调查（GHS）- 服务获取、贫困、教育",
+      "收入与支出调查 - 家庭收入、消费和贫困状况",
+      "生活条件调查 - 贫困和不平等指标，含基尼系数",
+      "农业普查和调查数据",
+      "旅游统计和国际入境人数",
+      "制造业生产和销售统计",
+      "市政和国家政府财政统计",
+      "记录犯罪统计和安全调查",
+      "死亡率和死亡原因统计"
+    ]
+  }
+}
