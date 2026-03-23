@@ -13,7 +13,8 @@ English | **[中文](README.md)** | **[日本語](README.ja.md)**
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/progress.json)](firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
-[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/SKILL.md)
+[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/firstdata/SKILL.md)
+[![ClawHub](https://img.shields.io/badge/ClawHub-firstdata-orange.svg)](https://clawhub.ai/ningzimu/firstdata)
 
 ---
 
@@ -497,19 +498,15 @@ FirstData offers two onboarding paths: **AI Agent auto-onboarding** (recommended
 
 ### Path 1: AI Agent Auto-Onboarding (Recommended)
 
-If you're using an AI Agent that supports Skills (e.g., Claude Code, Cline), the Agent can **automatically** register, activate, and configure MCP — no human action needed.
+If you're using an AI Agent that supports Skills (e.g., Claude Code + OpenClaw), install the FirstData Skill with one command:
 
-**Skill definition**: [`skills/SKILL.md`](skills/SKILL.md)
-
-The Agent follows the Skill to automatically complete:
-
-```text
-1. Call API to register and obtain a token
-2. Auto-solve the challenge to activate
-3. Configure MCP connection and start using
+```bash
+clawhub install ningzimu/firstdata
 ```
 
-> For detailed token registration and activation flow, see [`skills/references/firstdata-token-setup.md`](skills/references/firstdata-token-setup.md)
+Once installed, the Agent can automatically register, activate, and configure MCP — no human action needed.
+
+> Skill definition: [`skills/firstdata/SKILL.md`](skills/firstdata/SKILL.md) | ClawHub page: [clawhub.ai/ningzimu/firstdata](https://clawhub.ai/ningzimu/firstdata)
 
 ---
 

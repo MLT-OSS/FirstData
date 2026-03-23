@@ -13,7 +13,8 @@
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/progress.json)](firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
-[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/SKILL.md)
+[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/firstdata/SKILL.md)
+[![ClawHub](https://img.shields.io/badge/ClawHub-firstdata-orange.svg)](https://clawhub.ai/ningzimu/firstdata)
 
 ---
 
@@ -497,19 +498,15 @@ FirstData は2つのオンボーディングパスを提供します：**AI Agen
 
 ### パス1：AI Agent 自動オンボーディング（推奨）
 
-Skill をサポートする AI Agent（Claude Code、Cline など）を使用している場合、Agent が登録・アクティベーション・MCP 設定を**自動で完了**します。人手は不要です。
+Skill をサポートする AI Agent（Claude Code + OpenClaw など）を使用している場合、ワンコマンドで FirstData Skill をインストールできます：
 
-**Skill 定義ファイル**：[`skills/SKILL.md`](skills/SKILL.md)
-
-Agent は Skill の指示に従い、以下のフローを自動で完了します：
-
-```text
-1. API を呼び出してトークンを登録・取得
-2. challenge を自動で解答してアクティベーション
-3. MCP 接続を設定して利用開始
+```bash
+clawhub install ningzimu/firstdata
 ```
 
-> トークン登録・アクティベーションの詳細は [`skills/references/firstdata-token-setup.md`](skills/references/firstdata-token-setup.md) を参照
+インストール後、Agent が登録・アクティベーション・MCP 設定を**自動で完了**します。人手は不要です。
+
+> Skill 定義ファイル：[`skills/firstdata/SKILL.md`](skills/firstdata/SKILL.md) ｜ ClawHub ページ：[clawhub.ai/ningzimu/firstdata](https://clawhub.ai/ningzimu/firstdata)
 
 ---
 
