@@ -4,13 +4,16 @@ English | **[中文](README.md)** | **[日本語](README.ja.md)**
 
 ---
 
-**The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
+**The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository — Agent First**
+
+> **Agent First**: FirstData is designed with AI Agents as the primary user. Agents can automatically register, activate, and configure MCP via standardized Skills — zero human intervention required.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data Sources](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/sources-count.json)](firstdata/indexes/statistics.json)
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/progress.json)](firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
+[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/SKILL.md)
 
 ---
 
@@ -61,6 +64,7 @@ We systematically discover and aggregate high-trust sources across domains—cov
 | ⭐ **Authority Level Classification** | Six authority levels: government, international organizations, research institutions, market, commercial, and others | Scientifically assess data source credibility, provide quality filtering basis for AI |
 | 🤖 **AI Smart Search** | LLM-driven data source query Agent that understands complex multi-dimensional queries | Get authoritative data sources through natural language, no manual filtering needed |
 | 🔌 **MCP Protocol Integration** | Provides standard MCP Server, integrable with Claude Desktop, Cline, and other AI applications | Enable any AI application to access the authoritative data source knowledge base |
+| 🤖 **Agent Skill Distribution** | Standardized Skill definition — Agents can auto-register tokens, auto-configure MCP, zero human intervention | Agent First — Let Agents access authoritative data like a built-in capability |
 | 🌍 **Bilingual Support** | All metadata provided in both Chinese and English | Connect global data ecosystems, break language barriers |
 | 🔍 **100% Verification** | Every URL tested, every data source with complete documentation, every authority level with justification | Ensure data sources are genuinely available, avoid broken links and hallucinated citations |
 
@@ -487,290 +491,39 @@ All Conclusions Traceable to Original Documents for Verification
 
 ## 🚀 Quick Start
 
-### Integrate FirstData MCP
-
-**Configure FirstData MCP to your AI application for intelligent search of authoritative data sources and operation manual navigation**
-
-Supports multiple platforms: Claude Desktop, Cline (VS Code), Zed, Cursor, and all AI applications compatible with MCP protocol.
+FirstData offers two onboarding paths: **AI Agent auto-onboarding** (recommended) and **manual MCP configuration**.
 
 ---
 
-#### Configuration Guide: Choose Based on Your Platform
+### Path 1: AI Agent Auto-Onboarding (Recommended)
 
-> **📝 Important Note**
->
-> **Apply for API Key (Required)**: Before configuring the MCP server, please visit [FirstData API Application](https://firstdata.deepminer.com.cn/) to apply for a free API key. Replace all `<YOUR_FIRSTDATA_API_KEY>` in the configuration examples below with your actual API key.
+If you're using an AI Agent that supports Skills (e.g., Claude Code, Cline), the Agent can **automatically** register, activate, and configure MCP — no human action needed.
+
+**Skill definition**: [`skills/SKILL.md`](skills/SKILL.md)
+
+The Agent follows the Skill to automatically complete:
+
+```text
+1. Call API to register and obtain a token
+2. Auto-solve the challenge to activate
+3. Configure MCP connection and start using
+```
+
+> For detailed token registration and activation flow, see [`skills/references/firstdata-token-setup.md`](skills/references/firstdata-token-setup.md)
 
 ---
 
-<details>
-<summary><b>Claude Desktop</b></summary>
+### Path 2: Manual MCP Configuration
 
-**Manual JSON Configuration**
+For manual setup. Supports Claude Desktop, Cline, Cursor, Zed, and all MCP-compatible AI applications.
 
-1. **Find Configuration File**:
+#### Step 1: Get an API Key
 
-   - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
-   - Linux: `~/.config/Claude/claude_desktop_config.json`
-2. **Add Configuration**:
+Visit [FirstData API Application](https://firstdata.deepminer.com.cn/) to apply for a free API Key.
 
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-3. **Restart Claude Desktop** to apply configuration
+#### Step 2: Add MCP Configuration
 
-</details>
-
-<details>
-<summary><b>Cline (VS Code Extension)</b></summary>
-
-1. **Open Cline MCP Settings**:
-
-   - Open Cline in VS Code
-   - Click settings icon → **Advanced MCP settings**
-   - Or directly edit `cline_mcp_settings.json`
-2. **Add Configuration**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-   > **Tip**: The `autoApprove` field allows commonly used read-only tools to execute automatically without confirmation each time.
-   >
-3. **After saving configuration**, Cline will automatically load the MCP server
-
-Reference: [Cline MCP Configuration Docs](https://docs.cline.bot/mcp/configuring-mcp-servers)
-
-</details>
-
-<details>
-<summary><b>Zed Editor</b></summary>
-
-1. **Create Configuration File**:
-
-   - Create `.zed/settings.json` in project root directory
-   - Or use global configuration: `~/.config/zed/settings.json`
-2. **Add Configuration**:
-
-   ```json
-   {
-     "context_servers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         },
-         "enabled": true
-       }
-     }
-   }
-   ```
-
-   > **Note**: Zed uses `context_servers` instead of `mcpServers`
-   >
-3. **Reload Zed** or restart project to apply configuration
-
-</details>
-
-<details>
-<summary><b>Cursor Editor</b></summary>
-
-1. **Open Cursor Settings**:
-
-   - `Cmd/Ctrl + Shift + P` → Search "MCP Settings"
-   - Or go to `Cursor Settings` → `MCP` → `New MCP Server`
-2. **Add Configuration**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-3. **Restart Cursor** to load MCP server
-
-</details>
-
-<details>
-<summary><b>Copilot / VS Code</b></summary>
-
-**Recommended Method: HTTP Server**
-
-1. Reference [VS Code MCP Configuration Guide](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server)
-2. Add configuration to VS Code MCP settings:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-**Using VS Code CLI:**
-
-```bash
-code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firstdata.deepminer.com.cn/mcp","headers":{"Authorization":"Bearer <YOUR_FIRSTDATA_API_KEY>"}}'
-```
-
-</details>
-
-<details>
-<summary><b>Copilot CLI</b></summary>
-
-Use HTTP server method to connect:
-
-```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-```
-
-</details>
-
-<details>
-<summary><b>Windsurf</b></summary>
-
-1. **Open Windsurf MCP Configuration**:
-
-   - Reference [Windsurf MCP Configuration Guide](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json)
-2. **Add Configuration**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-</details>
-
-<details>
-<summary><b>JetBrains AI Assistant & Junie</b></summary>
-
-1. **Open JetBrains IDE Settings**:
-
-   - Go to `Settings | Tools | AI Assistant | Model Context Protocol (MCP)`
-   - Or `Settings | Tools | Junie | MCP Settings`
-2. **Click `Add` and add the following configuration**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-</details>
-
-<details>
-<summary><b>Warp Terminal</b></summary>
-
-1. **Open Warp Settings**:
-
-   - Go to `Settings | AI | Manage MCP Servers`
-2. **Click `+ Add` to add MCP server**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-Reference: [Warp MCP Configuration Docs](https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server)
-
-</details>
-
-<details>
-<summary><b>Gemini CLI</b></summary>
-
-Reference [Gemini CLI MCP Configuration Guide](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md), use the following configuration:
-
-```json
-    {
-      "mcpServers": {
-        "firstdata": {
-          "type": "streamable-http",
-          "url": "https://firstdata.deepminer.com.cn/mcp",
-          "headers": {
-            "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-          }
-        }
-      }
-    }
-```
-
-</details>
-
-<details>
-<summary><b>Gemini Code Assist</b></summary>
-
-Reference [Gemini Code Assist MCP Configuration Guide](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers), use the following configuration:
+The core configuration is the same for all platforms. Add the following JSON to your platform's MCP config file:
 
 ```json
 {
@@ -786,172 +539,32 @@ Reference [Gemini Code Assist MCP Configuration Guide](https://cloud.google.com/
 }
 ```
 
-</details>
+> **Note**: Zed uses `context_servers` instead of `mcpServers` as the top-level key.
+
+#### Step 3: Find Your Platform's Config File
 
 <details>
-<summary><b>Factory CLI (Droid)</b></summary>
+<summary><b>Platform config file locations</b></summary>
 
-Reference [Factory CLI MCP Configuration Docs](https://docs.factory.ai/cli/configuration/mcp), use the following configuration:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Qoder & Qoder CLI</b></summary>
-
-1. Open **Qoder Settings**
-2. Go to `MCP Server` → `+ Add`
-3. Add the following configuration:
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-Reference: [Qoder MCP Configuration Docs](https://docs.qoder.com/user-guide/chat/model-context-protocol)
-
-</details>
-
-<details>
-<summary><b>Kiro</b></summary>
-
-**Method 1: Via Kiro Settings**
-
-1. Open **Kiro Settings**
-2. Go to `Configure MCP` → `Open Workspace or User MCP Config`
-
-**Method 2: Via Activity Bar**
-
-1. Select `Kiro` from IDE **Activity Bar**
-2. Go to `MCP Servers` → `Click Open MCP Config`
-
-**Configuration Content:**
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>OpenCode</b></summary>
-
-1. **Create or edit configuration file**:
-
-   - Path: `~/.config/opencode/opencode.json`
-   - Create it if the file doesn't exist
-2. **Add the following configuration**:
-
-   ```json
-   {
-     "$schema": "https://opencode.ai/config.json",
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-Reference: [OpenCode MCP Configuration Docs](https://opencode.ai/docs/mcp-servers)
-
-</details>
-
-<details>
-<summary><b>Visual Studio</b></summary>
-
-Reference Visual Studio MCP configuration documentation, use the following configuration:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Codex</b></summary>
-
-Reference [Codex MCP Configuration Guide](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp), use the following configuration:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Amp</b></summary>
-
-Reference [Amp MCP Configuration Docs](https://ampcode.com/manual#mcp), use the following configuration:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
-      "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
-      }
-    }
-  }
-}
-```
+| Platform | Config File Location | Reference |
+|----------|---------------------|-----------|
+| **Claude Desktop** | macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`<br>Windows: `%APPDATA%\Claude\claude_desktop_config.json`<br>Linux: `~/.config/Claude/claude_desktop_config.json` | — |
+| **Cline (VS Code)** | Cline → Settings → Advanced MCP settings, or `cline_mcp_settings.json` | [Docs](https://docs.cline.bot/mcp/configuring-mcp-servers) |
+| **Cursor** | `Cmd/Ctrl+Shift+P` → "MCP Settings", or Cursor Settings → MCP | — |
+| **Copilot / VS Code** | VS Code MCP settings, or CLI: `code --add-mcp '{...}'` | [Docs](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server) |
+| **Zed** | `.zed/settings.json` or `~/.config/zed/settings.json` (uses `context_servers`) | — |
+| **JetBrains** | Settings → Tools → AI Assistant → MCP, or Junie → MCP Settings | — |
+| **Windsurf** | Windsurf MCP config | [Docs](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json) |
+| **Warp** | Settings → AI → Manage MCP Servers | [Docs](https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server) |
+| **Gemini CLI** | Gemini CLI MCP config | [Docs](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md) |
+| **Gemini Code Assist** | Gemini Code Assist MCP config | [Docs](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers) |
+| **Factory CLI (Droid)** | Factory CLI config | [Docs](https://docs.factory.ai/cli/configuration/mcp) |
+| **Qoder** | Qoder Settings → MCP Server → + Add | [Docs](https://docs.qoder.com/user-guide/chat/model-context-protocol) |
+| **Kiro** | Kiro Settings → Configure MCP, or Activity Bar → MCP Servers | — |
+| **OpenCode** | `~/.config/opencode/opencode.json` | [Docs](https://opencode.ai/docs/mcp-servers) |
+| **Visual Studio** | Visual Studio MCP config | — |
+| **Codex** | Codex MCP config | [Docs](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp) |
+| **Amp** | Amp MCP config | [Docs](https://ampcode.com/manual#mcp) |
 
 </details>
 

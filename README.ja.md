@@ -4,13 +4,16 @@
 
 ---
 
-**世界最も包括的・権威的・構造化されたオープンデータソースリポジトリ**
+**世界最も包括的・権威的・構造化されたオープンデータソースリポジトリ — Agent First**
+
+> **Agent First**：FirstData は AI Agent を第一優先ユーザーとして設計されています。Agent は標準化された Skill を通じて登録・アクティベーション・MCP 設定を自動で完了でき、人手を介する必要はありません。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data Sources](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/sources-count.json)](firstdata/indexes/statistics.json)
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/progress.json)](firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
+[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/SKILL.md)
 
 ---
 
@@ -61,6 +64,7 @@
 | ⭐ **権威レベル分類** | 政府、国際機関、研究機関、市場、商業、その他の6つの権威レベル | データソースの信頼性を科学的に評価し、AIの品質フィルタリング基準を提供 |
 | 🤖 **AIスマート検索** | 複雑な多次元クエリを理解するLLM駆動のデータソースクエリエージェント | 自然言語で権威あるデータソースを取得し、手動フィルタリング不要 |
 | 🔌 **MCPプロトコル統合** | 標準MCPサーバーを提供、Claude Desktop、Clineなどのアプリケーションと統合可能 | 任意のAIアプリケーションが権威あるデータソースのナレッジベースにアクセス可能 |
+| 🤖 **Agent Skill 配信** | 標準化された Skill 定義 — Agent が自動でトークン登録・MCP設定を完了、人手不要 | Agent First — Agent が組み込み機能のように権威データにアクセス |
 | 🌍 **バイリンガルサポート** | すべてのメタデータを中国語と英語で提供 | グローバルなデータエコシステムを繋ぎ、言語の壁を打ち破る |
 | 🔍 **100%検証** | すべてのURLをテスト済み、すべてのデータソースに完全な文書、すべての権威レベルに根拠あり | データソースが本当に利用可能であることを確保し、リンク切れや幻覚的な引用を回避 |
 
@@ -487,290 +491,39 @@ MCPスマート検索が権威あるデータソースを推奨（HKEX）
 
 ## 🚀 クイックスタート
 
-### FirstData MCPの統合
-
-**FirstData MCPをAIアプリケーションに設定し、権威あるデータソースのインテリジェント検索と操作マニュアルナビゲーションを利用しましょう**
-
-複数のプラットフォームをサポート：Claude Desktop、Cline（VS Code）、Zed、Cursor、およびMCPプロトコルと互換性のあるすべてのAIアプリケーション。
+FirstData は2つのオンボーディングパスを提供します：**AI Agent 自動オンボーディング**（推奨）と**手動 MCP 設定**。
 
 ---
 
-#### 設定ガイド：お使いのプラットフォームに応じて選択
+### パス1：AI Agent 自動オンボーディング（推奨）
 
-> **📝 重要なメモ**
->
-> **APIキーの申請（必須）**: MCPサーバーを設定する前に、[FirstData API申請](https://firstdata.deepminer.com.cn/) にアクセスして無料のAPIキーを申請してください。以下の設定例の `<YOUR_FIRSTDATA_API_KEY>` をすべて実際のAPIキーに置き換えてください。
+Skill をサポートする AI Agent（Claude Code、Cline など）を使用している場合、Agent が登録・アクティベーション・MCP 設定を**自動で完了**します。人手は不要です。
+
+**Skill 定義ファイル**：[`skills/SKILL.md`](skills/SKILL.md)
+
+Agent は Skill の指示に従い、以下のフローを自動で完了します：
+
+```text
+1. API を呼び出してトークンを登録・取得
+2. challenge を自動で解答してアクティベーション
+3. MCP 接続を設定して利用開始
+```
+
+> トークン登録・アクティベーションの詳細は [`skills/references/firstdata-token-setup.md`](skills/references/firstdata-token-setup.md) を参照
 
 ---
 
-<details>
-<summary><b>Claude Desktop</b></summary>
+### パス2：手動 MCP 設定
 
-**手動JSON設定**
+手動設定が必要な場合。Claude Desktop、Cline、Cursor、Zed など、MCP 対応のすべての AI アプリケーションをサポートします。
 
-1. **設定ファイルの場所を確認**:
+#### ステップ1：API キーの取得
 
-   - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
-   - Linux: `~/.config/Claude/claude_desktop_config.json`
-2. **設定を追加**:
+[FirstData API 申請](https://firstdata.deepminer.com.cn/) にアクセスして無料の API キーを申請してください。
 
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-3. **Claude Desktopを再起動**して設定を適用
+#### ステップ2：MCP 設定の追加
 
-</details>
-
-<details>
-<summary><b>Cline (VS Code拡張機能)</b></summary>
-
-1. **Cline MCP設定を開く**:
-
-   - VS CodeでClineを開く
-   - 設定アイコンをクリック → **高度なMCP設定**
-   - または直接 `cline_mcp_settings.json` を編集
-2. **設定を追加**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-   > **ヒント**: `autoApprove` フィールドを使用すると、よく使われる読み取り専用ツールが毎回確認なしに自動実行されます。
-   >
-3. **設定を保存後**、ClineがMCPサーバーを自動的にロード
-
-参考: [Cline MCP設定ドキュメント](https://docs.cline.bot/mcp/configuring-mcp-servers)
-
-</details>
-
-<details>
-<summary><b>Zed Editor</b></summary>
-
-1. **設定ファイルを作成**:
-
-   - プロジェクトのルートディレクトリに `.zed/settings.json` を作成
-   - またはグローバル設定を使用: `~/.config/zed/settings.json`
-2. **設定を追加**:
-
-   ```json
-   {
-     "context_servers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         },
-         "enabled": true
-       }
-     }
-   }
-   ```
-
-   > **注意**: Zedは `mcpServers` の代わりに `context_servers` を使用
-   >
-3. **Zedをリロード**またはプロジェクトを再起動して設定を適用
-
-</details>
-
-<details>
-<summary><b>Cursor Editor</b></summary>
-
-1. **Cursor設定を開く**:
-
-   - `Cmd/Ctrl + Shift + P` → "MCP Settings"を検索
-   - または `Cursor Settings` → `MCP` → `New MCP Server` に移動
-2. **設定を追加**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-3. **Cursorを再起動**してMCPサーバーをロード
-
-</details>
-
-<details>
-<summary><b>Copilot / VS Code</b></summary>
-
-**推奨方法: HTTPサーバー**
-
-1. [VS Code MCP設定ガイド](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server) を参照
-2. VS Code MCP設定に以下の設定を追加:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-**VS Code CLIを使用：**
-
-```bash
-code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firstdata.deepminer.com.cn/mcp","headers":{"Authorization":"Bearer <YOUR_FIRSTDATA_API_KEY>"}}'
-```
-
-</details>
-
-<details>
-<summary><b>Copilot CLI</b></summary>
-
-HTTPサーバー方式を使用して接続:
-
-```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-```
-
-</details>
-
-<details>
-<summary><b>Windsurf</b></summary>
-
-1. **Windsurf MCP設定を開く**:
-
-   - [Windsurf MCP設定ガイド](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json) を参照
-2. **設定を追加**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-</details>
-
-<details>
-<summary><b>JetBrains AI Assistant & Junie</b></summary>
-
-1. **JetBrains IDE設定を開く**:
-
-   - `Settings | Tools | AI Assistant | Model Context Protocol (MCP)` に移動
-   - または `Settings | Tools | Junie | MCP Settings`
-2. **`Add` をクリックして以下の設定を追加**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-</details>
-
-<details>
-<summary><b>Warp Terminal</b></summary>
-
-1. **Warp設定を開く**:
-
-   - `Settings | AI | Manage MCP Servers` に移動
-2. **`+ Add` をクリックしてMCPサーバーを追加**:
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-参考: [Warp MCP設定ドキュメント](https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server)
-
-</details>
-
-<details>
-<summary><b>Gemini CLI</b></summary>
-
-[Gemini CLI MCP設定ガイド](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md) を参照し、以下の設定を使用:
-
-```json
-    {
-      "mcpServers": {
-        "firstdata": {
-          "type": "streamable-http",
-          "url": "https://firstdata.deepminer.com.cn/mcp",
-          "headers": {
-            "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-          }
-        }
-      }
-    }
-```
-
-</details>
-
-<details>
-<summary><b>Gemini Code Assist</b></summary>
-
-[Gemini Code Assist MCP設定ガイド](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers) を参照し、以下の設定を使用:
+すべてのプラットフォームで共通の設定です。以下の JSON をお使いのプラットフォームの MCP 設定ファイルに追加してください：
 
 ```json
 {
@@ -786,172 +539,32 @@ HTTPサーバー方式を使用して接続:
 }
 ```
 
-</details>
+> **注意**：Zed はトップレベルキーとして `mcpServers` ではなく `context_servers` を使用します。
+
+#### ステップ3：プラットフォームの設定ファイルを見つける
 
 <details>
-<summary><b>Factory CLI (Droid)</b></summary>
+<summary><b>各プラットフォームの設定ファイル位置</b></summary>
 
-[Factory CLI MCP設定ドキュメント](https://docs.factory.ai/cli/configuration/mcp) を参照し、以下の設定を使用:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Qoder & Qoder CLI</b></summary>
-
-1. **Qoder設定**を開く
-2. `MCP Server` → `+ Add` に移動
-3. 以下の設定を追加:
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-参考: [Qoder MCP設定ドキュメント](https://docs.qoder.com/user-guide/chat/model-context-protocol)
-
-</details>
-
-<details>
-<summary><b>Kiro</b></summary>
-
-**方法1：Kiro設定経由**
-
-1. **Kiro設定**を開く
-2. `Configure MCP` → `Open Workspace or User MCP Config` に移動
-
-**方法2：アクティビティバー経由**
-
-1. IDE**アクティビティバー**から `Kiro` を選択
-2. `MCP Servers` → `Click Open MCP Config` に移動
-
-**設定内容：**
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>OpenCode</b></summary>
-
-1. **設定ファイルを作成または編集**:
-
-   - パス: `~/.config/opencode/opencode.json`
-   - ファイルが存在しない場合は作成
-2. **以下の設定を追加**:
-
-   ```json
-   {
-     "$schema": "https://opencode.ai/config.json",
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-参考: [OpenCode MCP設定ドキュメント](https://opencode.ai/docs/mcp-servers)
-
-</details>
-
-<details>
-<summary><b>Visual Studio</b></summary>
-
-Visual Studio MCP設定ドキュメントを参照し、以下の設定を使用:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Codex</b></summary>
-
-[Codex MCP設定ガイド](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp) を参照し、以下の設定を使用:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Amp</b></summary>
-
-[Amp MCP設定ドキュメント](https://ampcode.com/manual#mcp) を参照し、以下の設定を使用:
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "http",
-      "url": "http://localhost:8001/mcp",
-      "headers": {
-        "Authorization": "Bearer your_mcp_api_key_here"
-      }
-    }
-  }
-}
-```
+| プラットフォーム | 設定ファイルの場所 | 参考ドキュメント |
+|----------|---------------------|-----------|
+| **Claude Desktop** | macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`<br>Windows: `%APPDATA%\Claude\claude_desktop_config.json`<br>Linux: `~/.config/Claude/claude_desktop_config.json` | — |
+| **Cline (VS Code)** | Cline → 設定 → Advanced MCP settings、または `cline_mcp_settings.json` | [ドキュメント](https://docs.cline.bot/mcp/configuring-mcp-servers) |
+| **Cursor** | `Cmd/Ctrl+Shift+P` → "MCP Settings"、または Cursor Settings → MCP | — |
+| **Copilot / VS Code** | VS Code MCP 設定、または CLI：`code --add-mcp '{...}'` | [ドキュメント](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server) |
+| **Zed** | `.zed/settings.json` または `~/.config/zed/settings.json`（`context_servers` を使用） | — |
+| **JetBrains** | Settings → Tools → AI Assistant → MCP、または Junie → MCP Settings | — |
+| **Windsurf** | Windsurf MCP 設定 | [ドキュメント](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json) |
+| **Warp** | Settings → AI → Manage MCP Servers | [ドキュメント](https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server) |
+| **Gemini CLI** | Gemini CLI MCP 設定 | [ドキュメント](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md) |
+| **Gemini Code Assist** | Gemini Code Assist MCP 設定 | [ドキュメント](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers) |
+| **Factory CLI (Droid)** | Factory CLI 設定 | [ドキュメント](https://docs.factory.ai/cli/configuration/mcp) |
+| **Qoder** | Qoder Settings → MCP Server → + Add | [ドキュメント](https://docs.qoder.com/user-guide/chat/model-context-protocol) |
+| **Kiro** | Kiro Settings → Configure MCP、または Activity Bar → MCP Servers | — |
+| **OpenCode** | `~/.config/opencode/opencode.json` | [ドキュメント](https://opencode.ai/docs/mcp-servers) |
+| **Visual Studio** | Visual Studio MCP 設定 | — |
+| **Codex** | Codex MCP 設定 | [ドキュメント](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp) |
+| **Amp** | Amp MCP 設定 | [ドキュメント](https://ampcode.com/manual#mcp) |
 
 </details>
 

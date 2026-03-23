@@ -4,15 +4,18 @@
 
 ---
 
-**全球最全面、最权威、最结构化的开源数据源知识库**
+**全球最全面、最权威、最结构化的开源数据源知识库 — Agent First**
 
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
+
+> **Agent First**：FirstData 以 AI Agent 为第一优先用户设计。Agent 可通过标准化 Skill 自动完成注册、激活和 MCP 配置，零人工介入即可接入权威数据源知识库。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data Sources](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/sources-count.json)](firstdata/indexes/statistics.json)
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/progress.json)](firstdata/indexes/statistics.json)
 [![Authority](https://img.shields.io/badge/Authority-Government%20%26%20International%20First-brightgreen.svg)](#)
 [![MCP Server](https://img.shields.io/badge/MCP-AI%20Smart%20Search-purple.svg)](https://firstdata.deepminer.com.cn/)
+[![Skill](https://img.shields.io/badge/Skill-Agent%20First-blue.svg)](skills/SKILL.md)
 
 ---
 
@@ -63,6 +66,7 @@
 | ⭐**权威等级分类**         | 政府、国际组织、研究机构、市场、商业等六类权威等级                             | 科学评估数据源可信度，为AI提供质量过滤依据                 |
 | 🤖**AI智能搜索**           | 基于LLM驱动的数据源查询Agent，理解复杂多维度查询                               | 自然语言即可获取权威数据源，无需人工筛选                   |
 | 🔌**MCP协议集成**          | 提供标准MCP Server，可集成到Claude Desktop、Cline等AI应用                      | 让任何AI应用都能访问权威数据源知识库                       |
+| 🤖**Agent Skill 分发**     | 标准化 Skill 定义，Agent 可自动注册 token、自动配置 MCP，零人工介入             | Agent First — 让 Agent 像调用内置能力一样接入权威数据      |
 | 🌍**中英双语支持**         | 所有元数据提供中英文版本                                                       | 连接全球数据生态，打破语言壁垒                             |
 | 🔍**100%验证**             | 每个URL经过测试，每个数据源有完整文档，每个权威等级有依据                      | 确保数据源真实可用，避免断链和幻觉引用                     |
 
@@ -488,173 +492,39 @@ MCP 智能检索推荐权威数据源（港交所披露易）
 
 ## 🚀 快速开始
 
-### 集成 FirstData MCP
-
-**将FirstData MCP配置到您的AI应用中，实现智能检索权威数据源和操作说明书导航**
-
-支持多个平台：Claude Desktop、Cline (VS Code)、Zed、Cursor 等所有兼容 MCP 协议的 AI 应用。
+FirstData 提供两条接入路径：**AI Agent 自动接入**（推荐）和**手动配置 MCP**。
 
 ---
 
-#### 配置指南：根据你使用的平台选择
+### 路径一：AI Agent 自动接入（推荐）
 
-> **📝 重要提示**
->
-> **申请 API Key（必需）**：在配置 MCP 服务器之前，请先访问 [FirstData API 申请](https://firstdata.deepminer.com.cn/) 申请免费的 API key。将下方所有配置示例中的 `<YOUR_FIRSTDATA_API_KEY>` 替换为你申请到的实际 API key。
+如果你正在使用支持 Skill 的 AI Agent（如 Claude Code、Cline 等），Agent 可以**自动完成**注册、激活和 MCP 配置，无需人工操作。
+
+**Skill 定义文件**：[`skills/SKILL.md`](skills/SKILL.md)
+
+Agent 会按照 Skill 指引自动完成以下流程：
+
+```text
+1. 调用 API 注册并获取 token
+2. 自动解答 challenge 完成激活
+3. 配置 MCP 连接并开始使用
+```
+
+> 详细的 token 注册与激活流程参见 [`skills/references/firstdata-token-setup.md`](skills/references/firstdata-token-setup.md)
 
 ---
 
-<details>
-<summary><b>Claude Desktop</b></summary>
+### 路径二：手动配置 MCP
 
-**手动 JSON 配置**
+适用于人工配置场景。支持 Claude Desktop、Cline、Cursor、Zed 等所有兼容 MCP 协议的 AI 应用。
 
-1. **找到配置文件**：
+#### 第 1 步：获取 API Key
 
-   - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
-   - Linux: `~/.config/Claude/claude_desktop_config.json`
-2. **添加配置**：
+访问 [FirstData API 申请](https://firstdata.deepminer.com.cn/) 申请免费的 API Key。
 
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-3. **重启 Claude Desktop** 使配置生效
+#### 第 2 步：添加 MCP 配置
 
-</details>
-
-<details>
-<summary><b>Cline (VS Code 扩展)</b></summary>
-
-1. **打开 Cline MCP 设置**：
-
-   - 在 VS Code 中打开 Cline
-   - 点击设置图标 → **Advanced MCP settings**
-   - 或直接编辑 `cline_mcp_settings.json`
-2. **添加配置**：
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-   > **提示**：`autoApprove` 字段可以让常用的只读工具自动执行，无需每次确认。
-   >
-3. **保存配置**后，Cline 会自动加载 MCP 服务器
-
-参考：[Cline MCP 配置文档](https://docs.cline.bot/mcp/configuring-mcp-servers)
-
-</details>
-
-<details>
-<summary><b>Zed 编辑器</b></summary>
-
-1. **创建配置文件**：
-
-   - 在项目根目录创建 `.zed/settings.json`
-   - 或使用全局配置：`~/.config/zed/settings.json`
-2. **添加配置**：
-
-   ```json
-   {
-     "context_servers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         },
-         "enabled": true
-       }
-     }
-   }
-   ```
-
-   > **注意**：Zed 使用 `context_servers` 而不是 `mcpServers`
-   >
-3. **重新加载 Zed** 或重启项目以应用配置
-
-</details>
-
-<details>
-<summary><b>Cursor 编辑器</b></summary>
-
-1. **打开 Cursor 设置**：
-
-   - `Cmd/Ctrl + Shift + P` → 搜索 "MCP Settings"
-   - 或进入 `Cursor Settings` → `MCP` → `New MCP Server`
-2. **添加配置**：
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-3. **重启 Cursor** 以加载 MCP 服务器
-
-</details>
-
-<details>
-<summary><b>Copilot / VS Code</b></summary>
-
-**推荐方式：HTTP 服务器**
-
-1. 参考 [VS Code MCP 配置指南](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server)
-2. 添加配置到 VS Code MCP 设置：
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-**使用 VS Code CLI：**
-
-```bash
-code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firstdata.deepminer.com.cn/mcp","headers":{"Authorization":"Bearer <YOUR_FIRSTDATA_API_KEY>"}}'
-```
-
-</details>
-
-<details>
-<summary><b>Copilot CLI</b></summary>
-
-使用 HTTP 服务器方式连接：
+所有平台的核心配置相同，将以下 JSON 添加到你所用平台的 MCP 配置文件中：
 
 ```json
 {
@@ -670,289 +540,32 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 }
 ```
 
-</details>
+> **注意**：Zed 使用 `context_servers` 而非 `mcpServers` 作为顶层 key。
+
+#### 第 3 步：找到你的平台配置文件
 
 <details>
-<summary><b>Windsurf</b></summary>
+<summary><b>各平台配置文件位置</b></summary>
 
-1. **打开 Windsurf MCP 配置**：
-
-   - 参考 [Windsurf MCP 配置指南](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json)
-2. **添加配置**：
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-</details>
-
-<details>
-<summary><b>JetBrains AI Assistant & Junie</b></summary>
-
-1. **打开 JetBrains IDE 设置**：
-
-   - 进入 `Settings | Tools | AI Assistant | Model Context Protocol (MCP)`
-   - 或 `Settings | Tools | Junie | MCP Settings`
-2. **点击 `Add` 并添加以下配置**：
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-</details>
-
-<details>
-<summary><b>Warp Terminal</b></summary>
-
-1. **打开 Warp 设置**：
-
-   - 进入 `Settings | AI | Manage MCP Servers`
-2. **点击 `+ Add` 添加 MCP 服务器**：
-
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-参考：[Warp MCP 配置文档](https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server)
-
-</details>
-
-<details>
-<summary><b>Gemini CLI</b></summary>
-
-参考 [Gemini CLI MCP 配置指南](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md)，使用以下配置：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Gemini Code Assist</b></summary>
-
-参考 [Gemini Code Assist MCP 配置指南](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers)，使用以下配置：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Factory CLI (Droid)</b></summary>
-
-参考 [Factory CLI MCP 配置文档](https://docs.factory.ai/cli/configuration/mcp)，使用以下配置：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Qoder & Qoder CLI</b></summary>
-
-1. 打开 **Qoder Settings**
-2. 进入 `MCP Server` → `+ Add`
-3. 添加以下配置：
-   ```json
-   {
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-参考：[Qoder MCP 配置文档](https://docs.qoder.com/user-guide/chat/model-context-protocol)
-
-</details>
-
-<details>
-<summary><b>Kiro</b></summary>
-
-**方式一：通过 Kiro Settings**
-
-1. 打开 **Kiro Settings**
-2. 进入 `Configure MCP` → `Open Workspace or User MCP Config`
-
-**方式二：通过 Activity Bar**
-
-1. 从 IDE **Activity Bar** 选择 `Kiro`
-2. 进入 `MCP Servers` → `Click Open MCP Config`
-
-**配置内容：**
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>OpenCode</b></summary>
-
-1. **创建或编辑配置文件**：
-
-   - 路径：`~/.config/opencode/opencode.json`
-   - 如果文件不存在，请创建它
-2. **添加以下配置**：
-
-   ```json
-   {
-     "$schema": "https://opencode.ai/config.json",
-     "mcpServers": {
-       "firstdata": {
-         "type": "streamable-http",
-         "url": "https://firstdata.deepminer.com.cn/mcp",
-         "headers": {
-           "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-         }
-       }
-     }
-   }
-   ```
-
-参考：[OpenCode MCP 配置文档](https://opencode.ai/docs/mcp-servers)
-
-</details>
-
-<details>
-<summary><b>Visual Studio</b></summary>
-
-参考 Visual Studio MCP 配置文档，使用以下配置：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Codex</b></summary>
-
-参考 [Codex MCP 配置指南](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp)，使用以下配置：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Amp</b></summary>
-
-参考 [Amp MCP 配置文档](https://ampcode.com/manual#mcp)，使用以下配置：
-
-```json
-{
-  "mcpServers": {
-    "firstdata": {
-      "type": "streamable-http",
-      "url": "https://firstdata.deepminer.com.cn/mcp",
-      "headers": {
-        "Authorization": "Bearer <YOUR_FIRSTDATA_API_KEY>"
-      }
-    }
-  }
-}
-```
+| 平台 | 配置文件位置 | 参考文档 |
+|------|-------------|---------|
+| **Claude Desktop** | macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`<br>Windows: `%APPDATA%\Claude\claude_desktop_config.json`<br>Linux: `~/.config/Claude/claude_desktop_config.json` | — |
+| **Cline (VS Code)** | Cline → 设置 → Advanced MCP settings，或 `cline_mcp_settings.json` | [文档](https://docs.cline.bot/mcp/configuring-mcp-servers) |
+| **Cursor** | `Cmd/Ctrl+Shift+P` → "MCP Settings"，或 Cursor Settings → MCP | — |
+| **Copilot / VS Code** | VS Code MCP 设置，或 CLI：`code --add-mcp '{...}'` | [文档](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server) |
+| **Zed** | `.zed/settings.json` 或 `~/.config/zed/settings.json`（使用 `context_servers`） | — |
+| **JetBrains** | Settings → Tools → AI Assistant → MCP，或 Junie → MCP Settings | — |
+| **Windsurf** | Windsurf MCP 配置 | [文档](https://docs.windsurf.com/windsurf/cascade/mcp#mcp-config-json) |
+| **Warp** | Settings → AI → Manage MCP Servers | [文档](https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server) |
+| **Gemini CLI** | Gemini CLI MCP 配置 | [文档](https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md) |
+| **Gemini Code Assist** | Gemini Code Assist MCP 配置 | [文档](https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers) |
+| **Factory CLI (Droid)** | Factory CLI 配置 | [文档](https://docs.factory.ai/cli/configuration/mcp) |
+| **Qoder** | Qoder Settings → MCP Server → + Add | [文档](https://docs.qoder.com/user-guide/chat/model-context-protocol) |
+| **Kiro** | Kiro Settings → Configure MCP，或 Activity Bar → MCP Servers | — |
+| **OpenCode** | `~/.config/opencode/opencode.json` | [文档](https://opencode.ai/docs/mcp-servers) |
+| **Visual Studio** | Visual Studio MCP 配置 | — |
+| **Codex** | Codex MCP 配置 | [文档](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp) |
+| **Amp** | Amp MCP 配置 | [文档](https://ampcode.com/manual#mcp) |
 
 </details>
 
