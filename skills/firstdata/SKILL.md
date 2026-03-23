@@ -3,11 +3,15 @@ name: firstdata
 description: Find official portals, APIs, and download paths for authoritative primary data sources (governments, international organizations, research institutions, etc.). Use when users need to know "where to find this data from an official source", "which source is more authoritative", or "how to cite primary data". Covers 1000+ global data sources with authority comparison and site navigation guidance.
 version: 0.0.1
 metadata:
-  homepage: https://github.com/MLT-OSS/FirstData
-  primaryEnv: FIRSTDATA_API_KEY
-  requires:
-    bins:
-      - curl
+  openclaw:
+    homepage: https://github.com/MLT-OSS/FirstData
+    primaryEnv: FIRSTDATA_API_KEY
+    emoji: "📊"
+    requires:
+      env:
+        - FIRSTDATA_API_KEY
+      bins:
+        - curl
 ---
 # FirstData
 
@@ -54,16 +58,33 @@ Full project background and feature documentation: [README](https://raw.githubus
 
 ## Quick Start
 
-```text
-1. Check if a firstdata MCP connection is already available (run npx mcporter config list to check)
-   → If available, skip to step 3
-2. If no MCP connection exists:
-   - FIRSTDATA_API_KEY is set → Read the MCP Configuration section in references/firstdata-register.md to complete setup
-   - FIRSTDATA_API_KEY is not set → Read references/firstdata-register.md from the beginning to complete registration, activation, and MCP configuration
-3. Browse the tool list provided by the firstdata MCP, read each tool's description, and select the appropriate tool based on user needs
+This skill connects to the FirstData MCP server (`firstdata.deepminer.com.cn`), the project's official hosted API endpoint. An API key (`FIRSTDATA_API_KEY`) is required for authentication.
+
+**If you already have `FIRSTDATA_API_KEY` set**, configure the MCP connection:
+
+```bash
+npx mcporter config add firstdata https://firstdata.deepminer.com.cn/mcp --header 'Authorization=Bearer ${FIRSTDATA_API_KEY}'
 ```
 
-- [firstdata-register.md](references/firstdata-register.md) — Registration, activation, MCP configuration, rate limits, and error handling
+Or add manually to your MCP config:
+
+```json
+{
+  "mcpServers": {
+    "firstdata": {
+      "type": "streamable-http",
+      "url": "https://firstdata.deepminer.com.cn/mcp",
+      "headers": {
+        "Authorization": "Bearer <FIRSTDATA_API_KEY>"
+      }
+    }
+  }
+}
+```
+
+**If you don't have an API key**, see [firstdata-register.md](references/firstdata-register.md) for the registration process (two API calls to the FirstData server to obtain a JWT token).
+
+Once connected, browse the tool list provided by the firstdata MCP and select the appropriate tool based on your needs.
 
 ## Community
 
