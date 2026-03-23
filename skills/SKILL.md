@@ -3,12 +3,11 @@ name: firstdata
 description: Find official portals, APIs, and download paths for authoritative primary data sources (governments, international organizations, research institutions, etc.). Use when users need to know "where to find this data from an official source", "which source is more authoritative", or "how to cite primary data". Covers 1000+ global data sources with authority comparison and site navigation guidance.
 version: 0.0.1
 metadata:
-  openclaw:
-    homepage: https://github.com/MLT-OSS/FirstData
-    primaryEnv: FIRSTDATA_API_KEY
-    requires:
-      bins:
-        - curl
+  homepage: https://github.com/MLT-OSS/FirstData
+  primaryEnv: FIRSTDATA_API_KEY
+  requires:
+    bins:
+      - curl
 ---
 # FirstData
 
