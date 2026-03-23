@@ -501,7 +501,7 @@ FirstData offers two onboarding paths: **AI Agent auto-onboarding** (recommended
 If you're using an AI Agent that supports Skills (e.g., Claude Code + OpenClaw), install the FirstData Skill with one command:
 
 ```bash
-clawhub install ningzimu/firstdata
+clawhub install firstdata
 ```
 
 Once installed, the Agent can automatically register, activate, and configure MCP — no human action needed.

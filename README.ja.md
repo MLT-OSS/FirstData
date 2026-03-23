@@ -501,7 +501,7 @@ FirstData は2つのオンボーディングパスを提供します：**AI Agen
 Skill をサポートする AI Agent（Claude Code + OpenClaw など）を使用している場合、ワンコマンドで FirstData Skill をインストールできます：
 
 ```bash
-clawhub install ningzimu/firstdata
+clawhub install firstdata
 ```
 
 インストール後、Agent が登録・アクティベーション・MCP 設定を**自動で完了**します。人手は不要です。
