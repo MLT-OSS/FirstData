@@ -1,7 +1,7 @@
 ---
 name: firstdata
 description: Find official portals, APIs, and download paths for authoritative primary data sources (governments, international organizations, research institutions, etc.). Use when users need to know "where to find this data from an official source", "which source is more authoritative", or "how to cite primary data". Covers 1000+ global data sources with authority comparison and site navigation guidance.
-version: 0.0.1
+version: 0.0.2
 metadata:
   openclaw:
     homepage: https://github.com/MLT-OSS/FirstData
@@ -46,13 +46,13 @@ Each data source includes structured metadata: authority level (`government` / `
 
 Typical query scenarios when agents call FirstData via MCP:
 
-| User Need | Query Direction | Expected Output |
-|-----------|----------------|-----------------|
-| "Which official source should I cite for China's 2023 NEV export volume?" | China Customs, National Bureau of Statistics | Official source + authority level + data page URL |
-| "Where to download IPO prospectus for a Hong Kong-listed company?" | HKEXnews | Official platform + step-by-step navigation |
-| "World Bank vs IMF GDP data — which is better for academic citation?" | World Bank WDI, IMF WEO | Source comparison + authority differences + API docs |
-| "Need global climate data with API access" | NASA Earthdata, NOAA CDO | Data source + API docs + access methods |
-| "Where is the official data for China's M2 money supply?" | People's Bank of China | Official data portal + update frequency + historical coverage |
+| User Need                                                                 | Query Direction                              | Expected Output                                               |
+| ------------------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------- |
+| "Which official source should I cite for China's 2023 NEV export volume?" | China Customs, National Bureau of Statistics | Official source + authority level + data page URL             |
+| "Where to download IPO prospectus for a Hong Kong-listed company?"        | HKEXnews                                     | Official platform + step-by-step navigation                   |
+| "World Bank vs IMF GDP data — which is better for academic citation?"    | World Bank WDI, IMF WEO                      | Source comparison + authority differences + API docs          |
+| "Need global climate data with API access"                                | NASA Earthdata, NOAA CDO                     | Data source + API docs + access methods                       |
+| "Where is the official data for China's M2 money supply?"                 | People's Bank of China                       | Official data portal + update frequency + historical coverage |
 
 Full project background and feature documentation: [README](https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/README.md)
 
