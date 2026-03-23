@@ -8,7 +8,7 @@
     "en": "CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dataset, widely used as benchmark datasets for machine learning and computer vision research. CIFAR-10 consists of 60,000 32x32 color images in 10 classes (6,000 images per class), with 50,000 training images and 10,000 test images. CIFAR-100 contains 100 classes with 600 images each (500 training, 100 testing per class), organized into 20 superclasses. Created by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton, these datasets have become foundational benchmarks for evaluating image classification algorithms.",
     "zh": "CIFAR-10 和 CIFAR-100 是 8000 万微小图像数据集的标注子集，广泛用作机器学习和计算机视觉研究的基准数据集。CIFAR-10 包含 60,000 张 32x32 彩色图像，分为 10 个类别（每类 6,000 张图像），其中 50,000 张训练图像和 10,000 张测试图像。CIFAR-100 包含 100 个类别，每类 600 张图像（每类 500 张训练图像，100 张测试图像），组织成 20 个超类。这些数据集由 Alex Krizhevsky、Vinod Nair 和 Geoffrey Hinton 创建，已成为评估图像分类算法的基础性基准。"
   },
-  "website": "https://www.cs.toronto.edu",
+  "website": "https://web.cs.toronto.edu",
   "data_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
   "api_url": null,
   "country": null,
