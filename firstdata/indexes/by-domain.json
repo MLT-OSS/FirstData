@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T02:23:37.010995+00:00",
+    "generated_at": "2026-03-23T02:22:02.283625+00:00",
     "total_domains": 706,
-    "total_sources": 290,
+    "total_sources": 292,
     "version": "2.0"
   },
   "domains": {
@@ -298,6 +298,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "dosm",
         "name": {
           "en": "Department of Statistics Malaysia",
@@ -320,6 +333,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -408,6 +434,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "turkey-tuik",
         "name": {
           "en": "Turkish Statistical Institute (TurkStat)",
@@ -444,6 +483,19 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -4182,6 +4234,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "india-mospi",
         "name": {
           "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
@@ -4192,6 +4257,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -4430,6 +4508,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "spain-ine",
         "name": {
           "en": "National Statistics Institute of Spain",
@@ -4493,6 +4584,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-census",
         "name": {
           "en": "U.S. Census Bureau",
@@ -4550,19 +4654,6 @@
         "data_url": "https://www.ine.gob.cl/estadisticas",
         "has_api": false,
         "file_path": "countries/south-america/chile/chile-ine.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "indonesia-bps",
-        "name": {
-          "en": "Statistics Indonesia",
-          "zh": "印度尼西亚统计局",
-          "native": "Badan Pusat Statistik"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.bps.go.id/en/statistics-table",
-        "has_api": true,
-        "file_path": "indonesia/national/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -4674,19 +4765,6 @@
         "data_url": "https://www.inegi.org.mx/datos/",
         "has_api": true,
         "file_path": "mexico/national/mexico-inegi.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "russia-rosstat",
-        "name": {
-          "en": "Federal State Statistics Service of Russia",
-          "zh": "俄罗斯联邦统计局",
-          "native": "Федеральная служба государственной статистики"
-        },
-        "authority_level": "government",
-        "data_url": "https://rosstat.gov.ru/statistic",
-        "has_api": false,
-        "file_path": "russia/national/russia-rosstat.json",
         "geographic_scope": "national"
       },
       {
@@ -6055,6 +6133,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "hkma",
         "name": {
           "en": "Hong Kong Monetary Authority",
@@ -6077,6 +6168,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -6391,6 +6495,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "spain-ine",
         "name": {
           "en": "National Statistics Institute of Spain",
@@ -6463,6 +6580,19 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -6559,19 +6689,6 @@
         "data_url": "https://www.ine.gob.cl/estadisticas",
         "has_api": false,
         "file_path": "countries/south-america/chile/chile-ine.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "indonesia-bps",
-        "name": {
-          "en": "Statistics Indonesia",
-          "zh": "印度尼西亚统计局",
-          "native": "Badan Pusat Statistik"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.bps.go.id/en/statistics-table",
-        "has_api": true,
-        "file_path": "indonesia/national/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -6957,19 +7074,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "russia-rosstat",
-        "name": {
-          "en": "Federal State Statistics Service of Russia",
-          "zh": "俄罗斯联邦统计局",
-          "native": "Федеральная служба государственной статистики"
-        },
-        "authority_level": "government",
-        "data_url": "https://rosstat.gov.ru/statistic",
-        "has_api": false,
-        "file_path": "russia/national/russia-rosstat.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "aws-open-data-registry",
         "name": {
           "en": "Registry of Open Data on AWS",
@@ -7140,6 +7244,19 @@
         "data_url": "https://data.cnki.net/npcd",
         "has_api": false,
         "file_path": "china/national/cnki-population-census.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
         "geographic_scope": "national"
       },
       {
@@ -7788,6 +7905,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "india-mospi",
         "name": {
           "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
@@ -7798,6 +7928,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -7974,6 +8117,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "spain-ine",
         "name": {
           "en": "National Statistics Institute of Spain",
@@ -8008,6 +8164,19 @@
         "data_url": "https://data.tuik.gov.tr",
         "has_api": true,
         "file_path": "countries/europe/turkey/turkey-tuik.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -8807,6 +8976,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "sweden-scb",
         "name": {
           "en": "Statistics Sweden (SCB)",
@@ -8866,6 +9048,19 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -11395,6 +11590,19 @@
     ],
     "geography": [
       {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-census",
         "name": {
           "en": "U.S. Census Bureau",
@@ -11970,6 +12178,19 @@
         "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
         "has_api": false,
         "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
         "geographic_scope": "national"
       },
       {
@@ -12691,6 +12912,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "france-insee",
         "name": {
           "en": "INSEE - National Institute of Statistics and Economic Studies",
@@ -12753,6 +12987,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "canada-statcan",
         "name": {
           "en": "Statistics Canada",
@@ -12776,6 +13023,19 @@
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -13246,6 +13506,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kostat",
         "name": {
           "en": "Statistics Korea (KOSTAT)",
@@ -13280,6 +13553,19 @@
         "data_url": "https://www.insee.fr/en/statistiques",
         "has_api": true,
         "file_path": "countries/europe/fr/france-insee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
         "geographic_scope": "national"
       },
       {
@@ -13342,19 +13628,6 @@
         "has_api": true,
         "file_path": "international/economics/eurostat.json",
         "geographic_scope": "regional"
-      },
-      {
-        "id": "russia-rosstat",
-        "name": {
-          "en": "Federal State Statistics Service of Russia",
-          "zh": "俄罗斯联邦统计局",
-          "native": "Федеральная служба государственной статистики"
-        },
-        "authority_level": "government",
-        "data_url": "https://rosstat.gov.ru/statistic",
-        "has_api": false,
-        "file_path": "russia/national/russia-rosstat.json",
-        "geographic_scope": "national"
       },
       {
         "id": "china-software-association",
@@ -15278,19 +15551,6 @@
         "data_url": "https://www.meity.gov.in/content/annual-report",
         "has_api": false,
         "file_path": "india/technology/india-meity.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "indonesia-bps",
-        "name": {
-          "en": "Statistics Indonesia",
-          "zh": "印度尼西亚统计局",
-          "native": "Badan Pusat Statistik"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.bps.go.id/en/statistics-table",
-        "has_api": true,
-        "file_path": "indonesia/national/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -17589,6 +17849,19 @@
         "geographic_scope": "global"
       },
       {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "mexico-coneval",
         "name": {
           "en": "National Council for the Evaluation of Social Development Policy",
@@ -17714,6 +17987,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "india-mospi",
         "name": {
           "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
@@ -17724,6 +18010,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -17801,6 +18100,32 @@
         "data_url": "https://www.insee.fr/en/statistiques",
         "has_api": true,
         "file_path": "countries/europe/fr/france-insee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -19054,6 +19379,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "india-mospi",
         "name": {
           "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
@@ -19064,6 +19402,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -19193,6 +19544,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "turkey-tuik",
         "name": {
           "en": "Turkish Statistical Institute (TurkStat)",
@@ -19203,6 +19567,19 @@
         "data_url": "https://data.tuik.gov.tr",
         "has_api": true,
         "file_path": "countries/europe/turkey/turkey-tuik.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -20672,6 +21049,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "india-mospi",
         "name": {
           "en": "Ministry of Statistics and Programme Implementation (MoSPI)",
@@ -20682,6 +21072,19 @@
         "data_url": "https://mospi.gov.in/data",
         "has_api": false,
         "file_path": "countries/asia/india/india-mospi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "indonesia-bps",
+        "name": {
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
+          "native": "Badan Pusat Statistik"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bps.go.id/en/statistics-table",
+        "has_api": true,
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -20882,6 +21285,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "russia-rosstat",
+        "name": {
+          "en": "Federal State Statistics Service (Rosstat)",
+          "zh": "俄罗斯联邦统计局",
+          "native": "Федеральная служба государственной статистики (Росстат)"
+        },
+        "authority_level": "government",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "sweden-scb",
         "name": {
           "en": "Statistics Sweden (SCB)",
@@ -20917,6 +21333,19 @@
         "data_url": "https://www.statcan.gc.ca/en/start",
         "has_api": true,
         "file_path": "countries/north-america/canada/statcan.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
         "geographic_scope": "national"
       },
       {
@@ -21037,19 +21466,6 @@
         "data_url": "https://www.meity.gov.in/content/annual-report",
         "has_api": false,
         "file_path": "india/technology/india-meity.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "indonesia-bps",
-        "name": {
-          "en": "Statistics Indonesia",
-          "zh": "印度尼西亚统计局",
-          "native": "Badan Pusat Statistik"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.bps.go.id/en/statistics-table",
-        "has_api": true,
-        "file_path": "indonesia/national/indonesia-bps.json",
         "geographic_scope": "national"
       },
       {
@@ -21259,19 +21675,6 @@
         "data_url": "https://www.inegi.org.mx/datos/",
         "has_api": true,
         "file_path": "mexico/national/mexico-inegi.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "russia-rosstat",
-        "name": {
-          "en": "Federal State Statistics Service of Russia",
-          "zh": "俄罗斯联邦统计局",
-          "native": "Федеральная служба государственной статистики"
-        },
-        "authority_level": "government",
-        "data_url": "https://rosstat.gov.ru/statistic",
-        "has_api": false,
-        "file_path": "russia/national/russia-rosstat.json",
         "geographic_scope": "national"
       },
       {

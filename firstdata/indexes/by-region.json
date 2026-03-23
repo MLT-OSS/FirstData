@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T02:23:37.010995+00:00",
+    "generated_at": "2026-03-23T02:22:02.283625+00:00",
     "total_regions": 41,
-    "total_sources": 290,
+    "total_sources": 292,
     "version": "2.0"
   },
   "regions": {
@@ -1338,14 +1338,14 @@
       {
         "id": "indonesia-bps",
         "name": {
-          "en": "Statistics Indonesia",
-          "zh": "印度尼西亚统计局",
+          "en": "Statistics Indonesia (BPS)",
+          "zh": "印度尼西亚中央统计局",
           "native": "Badan Pusat Statistik"
         },
         "authority_level": "government",
         "data_url": "https://www.bps.go.id/en/statistics-table",
         "has_api": true,
-        "file_path": "indonesia/national/indonesia-bps.json",
+        "file_path": "countries/asia/indonesia/indonesia-bps.json",
         "geographic_scope": "national"
       }
     ],
@@ -1563,6 +1563,19 @@
       {
         "id": "mexico-inegi",
         "name": {
+          "en": "National Institute of Statistics and Geography (INEGI)",
+          "zh": "墨西哥国家统计和地理研究所",
+          "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.inegi.org.mx/datos/",
+        "has_api": true,
+        "file_path": "countries/north-america/mexico/mexico-inegi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "mexico-inegi",
+        "name": {
           "en": "National Institute of Statistics and Geography of Mexico",
           "zh": "墨西哥国家统计与地理研究所",
           "native": "Instituto Nacional de Estadística y Geografía"
@@ -1690,14 +1703,14 @@
       {
         "id": "russia-rosstat",
         "name": {
-          "en": "Federal State Statistics Service of Russia",
+          "en": "Federal State Statistics Service (Rosstat)",
           "zh": "俄罗斯联邦统计局",
-          "native": "Федеральная служба государственной статистики"
+          "native": "Федеральная служба государственной статистики (Росстат)"
         },
         "authority_level": "government",
-        "data_url": "https://rosstat.gov.ru/statistic",
-        "has_api": false,
-        "file_path": "russia/national/russia-rosstat.json",
+        "data_url": "https://rosstat.gov.ru/statistics",
+        "has_api": true,
+        "file_path": "countries/europe/russia/russia-rosstat.json",
         "geographic_scope": "national"
       }
     ],
@@ -2151,6 +2164,19 @@
         "data_url": "https://www.statssa.gov.za/?page_id=1854",
         "has_api": false,
         "file_path": "countries/africa/south-africa/south-africa-statssa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "stats-sa",
+        "name": {
+          "en": "Statistics South Africa (Stats SA)",
+          "zh": "南非统计局",
+          "native": "Statistics South Africa (Stats SA)"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.statssa.gov.za/?page_id=1521",
+        "has_api": false,
+        "file_path": "countries/africa/south-africa/stats-sa.json",
         "geographic_scope": "national"
       }
     ]

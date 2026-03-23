@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T02:23:37.010995+00:00",
-    "total_sources": 290,
+    "generated_at": "2026-03-23T02:22:02.283625+00:00",
+    "total_sources": 292,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5705,6 +5705,92 @@
       "file_path": "countries/africa/south-africa/south-africa-statssa.json"
     },
     {
+      "id": "stats-sa",
+      "name": {
+        "en": "Statistics South Africa (Stats SA)",
+        "zh": "南非统计局",
+        "native": "Statistics South Africa (Stats SA)"
+      },
+      "description": {
+        "en": "South Africa's national statistics agency responsible for producing timely, accurate and official statistics that are relevant to all people in the country. Stats SA conducts population censuses, household surveys, and produces key economic indicators including GDP, inflation, employment, and trade statistics. It serves as the primary source of official statistics in Africa's most industrialized economy.",
+        "zh": "南非国家统计机构，负责为全体国民提供及时、准确的官方统计数据。南非统计局开展人口普查和住户调查，发布包括GDP、通货膨胀、就业和贸易统计在内的主要经济指标，是非洲工业化程度最高经济体的主要官方统计数据来源。"
+      },
+      "website": "https://www.statssa.gov.za",
+      "data_url": "https://www.statssa.gov.za/?page_id=1521",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "ZA",
+      "domains": [
+        "demographics",
+        "economics",
+        "employment",
+        "prices",
+        "housing",
+        "health",
+        "education",
+        "agriculture",
+        "trade",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "tags": [
+        "Stats SA",
+        "South Africa",
+        "statistics",
+        "census",
+        "demographics",
+        "GDP",
+        "inflation",
+        "CPI",
+        "employment",
+        "poverty",
+        "inequality",
+        "Gini coefficient",
+        "Africa",
+        "南非",
+        "国家统计",
+        "人口普查",
+        "非洲"
+      ],
+      "data_content": {
+        "en": [
+          "Census of Population (National Census) - most recent in 2022",
+          "Community Survey - mid-decade population sample survey",
+          "Quarterly Labour Force Survey (QLFS) - employment and unemployment data",
+          "Consumer Price Index (CPI) - monthly inflation measurement",
+          "Gross Domestic Product (GDP) - quarterly national accounts",
+          "General Household Survey (GHS) - access to services, poverty, education",
+          "Income and Expenditure Survey - household income, spending and poverty",
+          "Living Conditions Survey - poverty and inequality measures including Gini coefficient",
+          "Agricultural census and survey data",
+          "Tourism statistics and international arrivals",
+          "Manufacturing production and sales statistics",
+          "Financial statistics of municipalities and national government",
+          "Recorded crime statistics and safety surveys",
+          "Mortality and causes of death statistics"
+        ],
+        "zh": [
+          "全国人口普查（最近一次为2022年）",
+          "社区调查 - 十年期间人口抽样调查",
+          "季度劳动力调查（QLFS）- 就业和失业数据",
+          "消费者价格指数（CPI）- 月度通胀测量",
+          "国内生产总值（GDP）- 季度国民账户",
+          "一般家庭调查（GHS）- 服务获取、贫困、教育",
+          "收入与支出调查 - 家庭收入、消费和贫困状况",
+          "生活条件调查 - 贫困和不平等指标，含基尼系数",
+          "农业普查和调查数据",
+          "旅游统计和国际入境人数",
+          "制造业生产和销售统计",
+          "市政和国家政府财政统计",
+          "记录犯罪统计和安全调查",
+          "死亡率和死亡原因统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/africa/south-africa/stats-sa.json"
+    },
+    {
       "id": "dosm",
       "name": {
         "en": "Department of Statistics Malaysia",
@@ -6180,6 +6266,101 @@
       },
       "has_api": false,
       "file_path": "countries/asia/india/india-mospi.json"
+    },
+    {
+      "id": "indonesia-bps",
+      "name": {
+        "en": "Statistics Indonesia (BPS)",
+        "zh": "印度尼西亚中央统计局",
+        "native": "Badan Pusat Statistik"
+      },
+      "description": {
+        "en": "Statistics Indonesia (BPS — Badan Pusat Statistik) is the official national statistical agency of Indonesia, responsible for providing high-quality statistical data to support evidence-based policymaking. Established in 1960 and reorganized under Law No. 16 of 1997, BPS covers all aspects of Indonesian society and economy, including population, poverty, economic growth, inflation, trade, agriculture, and social indicators. BPS conducts the national population census every ten years and the agricultural census every ten years, and publishes a wide range of regular statistical reports through its website and open data portal.",
+        "zh": "印度尼西亚中央统计局（BPS — Badan Pusat Statistik）是印度尼西亚官方国家统计机构，负责提供高质量统计数据以支持基于证据的政策制定。BPS成立于1960年，并根据1997年第16号法律重组，覆盖印度尼西亚社会和经济的各个方面，包括人口、贫困、经济增长、通货膨胀、贸易、农业和社会指标。BPS每十年进行一次全国人口普查和农业普查，并通过其网站和开放数据门户发布各种定期统计报告。"
+      },
+      "website": "https://www.bps.go.id",
+      "data_url": "https://www.bps.go.id/en/statistics-table",
+      "api_url": "https://webapi.bps.go.id/",
+      "authority_level": "government",
+      "country": "ID",
+      "domains": [
+        "demographics",
+        "economics",
+        "social",
+        "employment",
+        "agriculture",
+        "prices",
+        "trade",
+        "industry",
+        "poverty"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "indonesia",
+        "印度尼西亚",
+        "bps",
+        "badan pusat statistik",
+        "statistics indonesia",
+        "population",
+        "人口",
+        "gdp",
+        "国内生产总值",
+        "poverty",
+        "贫困",
+        "inflation",
+        "通货膨胀",
+        "census",
+        "人口普查",
+        "employment",
+        "就业",
+        "agriculture",
+        "农业",
+        "southeast asia",
+        "东南亚",
+        "open data",
+        "开放数据",
+        "government statistics",
+        "政府统计",
+        "asean",
+        "东盟"
+      ],
+      "data_content": {
+        "en": [
+          "Population Census - decennial census data on population size, distribution, and characteristics",
+          "Economic Growth - GDP and Gross Regional Domestic Product (GRDP) by province",
+          "Poverty Statistics - poverty rate, poverty line, poverty depth and severity indices",
+          "Inflation and Prices - Consumer Price Index (CPI), food prices, housing price index",
+          "Labor Force Survey (SAKERNAS) - employment, unemployment, underemployment, wages",
+          "National Income - national accounts, sectoral value added, household income",
+          "Foreign Trade - exports and imports by commodity, country, and province",
+          "Agricultural Census - farming households, land use, crop production, livestock",
+          "Manufacturing Industry - large and medium enterprise statistics, production output",
+          "Social Statistics - education participation, health indicators, welfare programs",
+          "Village Potential Data (PODES) - village-level infrastructure, facilities, and economy",
+          "Population Projection - future population estimates by age group and province",
+          "Household Income and Expenditure Survey (SUSENAS) - consumption and living standards",
+          "Indonesia in Figures - annual statistical compendium for quick reference"
+        ],
+        "zh": [
+          "人口普查 - 人口规模、分布和特征的十年一次普查数据",
+          "经济增长 - 按省份划分的GDP和地区国内生产总值（GRDP）",
+          "贫困统计 - 贫困率、贫困线、贫困深度和严重程度指数",
+          "通胀与价格 - 消费者价格指数（CPI）、食品价格、房价指数",
+          "劳动力调查（SAKERNAS）- 就业、失业、不充分就业、工资",
+          "国民收入 - 国民账户、各部门增加值、家庭收入",
+          "对外贸易 - 按商品、国家和省份划分的出口和进口",
+          "农业普查 - 农业家庭、土地利用、粮食产量、畜牧业",
+          "制造业 - 大中型企业统计、生产产出",
+          "社会统计 - 教育参与率、健康指标、福利计划",
+          "村庄潜力数据（PODES）- 村级基础设施、设施和经济",
+          "人口预测 - 按年龄组和省份划分的未来人口估算",
+          "家庭收入和支出调查（SUSENAS）- 消费和生活水平",
+          "印度尼西亚数字 - 用于快速参考的年度统计汇编"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/asia/indonesia/indonesia-bps.json"
     },
     {
       "id": "boj-statistics",
@@ -8734,6 +8915,100 @@
       "file_path": "countries/europe/portugal/portugal-ine.json"
     },
     {
+      "id": "russia-rosstat",
+      "name": {
+        "en": "Federal State Statistics Service (Rosstat)",
+        "zh": "俄罗斯联邦统计局",
+        "native": "Федеральная служба государственной статистики (Росстат)"
+      },
+      "description": {
+        "en": "The Federal State Statistics Service (Rosstat) is Russia's central statistical authority responsible for collecting, processing, and publishing official statistics on the socio-economic, demographic, environmental, and other aspects of life in the Russian Federation. Rosstat maintains a comprehensive statistical database covering population, economy, industry, agriculture, trade, social welfare, housing, and environmental indicators. It publishes the official Statistical Yearbook of Russia and provides open data through its official portal.",
+        "zh": "俄罗斯联邦统计局（Rosstat）是俄罗斯的中央统计机构，负责收集、处理和发布俄罗斯联邦社会经济、人口、环境等各方面的官方统计数据。Rosstat维护着覆盖人口、经济、工业、农业、贸易、社会福利、住房和环境指标的综合统计数据库，发布官方《俄罗斯统计年鉴》，并通过官方门户网站提供开放数据。"
+      },
+      "website": "https://rosstat.gov.ru",
+      "data_url": "https://rosstat.gov.ru/statistics",
+      "api_url": "https://rosstat.gov.ru/opendata",
+      "authority_level": "government",
+      "country": "RU",
+      "domains": [
+        "demographics",
+        "economics",
+        "social",
+        "employment",
+        "prices",
+        "industry",
+        "agriculture",
+        "trade",
+        "housing",
+        "environment"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "russia",
+        "俄罗斯",
+        "rosstat",
+        "federal statistics",
+        "联邦统计",
+        "population",
+        "人口",
+        "gdp",
+        "国内生产总值",
+        "inflation",
+        "通货膨胀",
+        "employment",
+        "就业",
+        "industry",
+        "工业",
+        "census",
+        "人口普查",
+        "statistical yearbook",
+        "统计年鉴",
+        "eastern europe",
+        "东欧",
+        "open data",
+        "开放数据",
+        "government statistics",
+        "政府统计"
+      ],
+      "data_content": {
+        "en": [
+          "Population and Demography - census data, population dynamics, births, deaths, migration",
+          "National Accounts - GDP, GNP, value added by sector, input-output tables",
+          "Industry and Manufacturing - industrial production indices, output by sector",
+          "Agriculture - crop production, livestock, food industry statistics",
+          "Labor Market - employment, unemployment, wages, working hours",
+          "Prices - Consumer Price Index (CPI), Producer Price Index (PPI), housing prices",
+          "Foreign Trade - exports, imports, trade balance by commodity and country",
+          "Finance and Banking - federal budget, government debt, banking sector indicators",
+          "Social Statistics - education, healthcare, social protection, poverty",
+          "Housing and Construction - housing stock, new construction, utility services",
+          "Environment - emissions, waste, water resources, protected areas",
+          "Regional Statistics - socio-economic indicators broken down by federal subjects",
+          "Russia in Figures - annual compact statistical handbook",
+          "Statistical Yearbook of Russia - comprehensive annual statistical compendium"
+        ],
+        "zh": [
+          "人口与人口统计 - 人口普查数据、人口动态、出生、死亡、移民",
+          "国民账户 - GDP、GNP、各部门增加值、投入产出表",
+          "工业和制造业 - 工业生产指数、各部门产出",
+          "农业 - 粮食产量、畜牧业、食品工业统计",
+          "劳动力市场 - 就业、失业、工资、工时",
+          "价格 - 消费者价格指数（CPI）、生产者价格指数（PPI）、房价",
+          "对外贸易 - 按商品和国家分类的出口、进口、贸易差额",
+          "金融与银行 - 联邦预算、政府债务、银行业指标",
+          "社会统计 - 教育、医疗、社会保障、贫困",
+          "住房与建筑 - 住房存量、新建筑、公用服务",
+          "环境 - 排放、废物、水资源、保护区",
+          "地区统计 - 按联邦主体划分的社会经济指标",
+          "俄罗斯数字 - 年度简明统计手册",
+          "俄罗斯统计年鉴 - 综合年度统计汇编"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/russia/russia-rosstat.json"
+    },
+    {
       "id": "spain-ine",
       "name": {
         "en": "National Statistics Institute of Spain",
@@ -9795,6 +10070,87 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "countries/north-america/mexico/coneval.json"
+    },
+    {
+      "id": "mexico-inegi",
+      "name": {
+        "en": "National Institute of Statistics and Geography (INEGI)",
+        "zh": "墨西哥国家统计和地理研究所",
+        "native": "Instituto Nacional de Estadística y Geografía (INEGI)"
+      },
+      "description": {
+        "en": "Mexico's national statistics office responsible for collecting, processing, and disseminating geographic, statistical and economic information about the country. INEGI conducts population and housing censuses, agricultural censuses, and economic censuses, and provides comprehensive data on demographics, economy, geography, environment, and social conditions. It offers an open data API (INEGI Indicators API) with over 1,000 economic, demographic, and social indicators.",
+        "zh": "墨西哥国家统计机构，负责收集、处理和传播国家地理、统计和经济信息。INEGI开展人口与住房普查、农业普查和经济普查，提供涵盖人口、经济、地理、环境和社会状况的全面数据，并通过开放数据API（INEGI指标API）提供逾1000项经济、人口和社会指标。"
+      },
+      "website": "https://www.inegi.org.mx",
+      "data_url": "https://www.inegi.org.mx/datos/",
+      "api_url": "https://www.inegi.org.mx/servicios/api_indicadores.html",
+      "authority_level": "government",
+      "country": "MX",
+      "domains": [
+        "demographics",
+        "economics",
+        "geography",
+        "environment",
+        "employment",
+        "agriculture",
+        "trade",
+        "prices",
+        "housing",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "INEGI",
+        "Mexico",
+        "statistics",
+        "census",
+        "demographics",
+        "GDP",
+        "inflation",
+        "employment",
+        "geography",
+        "open data",
+        "API",
+        "墨西哥",
+        "国家统计",
+        "人口普查",
+        "经济普查",
+        "拉丁美洲"
+      ],
+      "data_content": {
+        "en": [
+          "Population and Housing Census (Censos de Población y Vivienda) - conducted every 10 years",
+          "National Survey of Occupation and Employment (ENOE) - quarterly labor market data",
+          "National Consumer Price Index (INPC) - monthly inflation indicators",
+          "Economic Activity Indicator (IGAE) - monthly GDP proxy",
+          "Economic Census (Censos Económicos) - comprehensive business and industry data",
+          "Agricultural, Livestock, Forestry and Fishing Census",
+          "National Income and Expenditure Survey (ENIGH) - household income and spending",
+          "Foreign trade statistics - imports and exports by product and country",
+          "Industrial production index and manufacturing statistics",
+          "Geographic data and cartography - national geographic information system",
+          "Environment and natural resources statistics",
+          "Business Confidence Index and economic expectations surveys"
+        ],
+        "zh": [
+          "人口与住房普查（每10年一次）",
+          "全国就业调查（ENOE）- 季度劳动力市场数据",
+          "全国消费者价格指数（INPC）- 月度通货膨胀指标",
+          "经济活动指标（IGAE）- 月度GDP代理指标",
+          "经济普查（每5年一次）- 全面的企业和行业数据",
+          "农业、畜牧业、林业和渔业普查",
+          "全国收入与支出调查（ENIGH）- 家庭收入与消费",
+          "外贸统计 - 按产品和国家分类的进出口数据",
+          "工业生产指数和制造业统计",
+          "地理数据和制图 - 国家地理信息系统",
+          "环境与自然资源统计",
+          "企业信心指数和经济预期调查"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/north-america/mexico/mexico-inegi.json"
     },
     {
       "id": "usa-eia",
@@ -11597,53 +11953,6 @@
       "api_url": null,
       "has_api": false,
       "file_path": "india/technology/india-meity.json"
-    },
-    {
-      "id": "indonesia-bps",
-      "name": {
-        "en": "Statistics Indonesia",
-        "zh": "印度尼西亚统计局",
-        "native": "Badan Pusat Statistik"
-      },
-      "description": {
-        "en": "BPS-Statistics Indonesia is the government agency responsible for statistical activities in Indonesia. It provides data on GDP, population, trade, manufacturing, and social indicators.",
-        "zh": "印度尼西亚中央统计局是印尼负责统计活动的政府机构。提供GDP、人口、贸易、制造业和社会指标数据。"
-      },
-      "website": "https://www.bps.go.id",
-      "data_url": "https://www.bps.go.id/en/statistics-table",
-      "api_url": "https://webapi.bps.go.id/developer/",
-      "country": "ID",
-      "domains": [
-        "economics",
-        "demographics",
-        "trade",
-        "manufacturing"
-      ],
-      "tags": [
-        "statistics",
-        "gdp",
-        "population",
-        "industry"
-      ],
-      "authority_level": "government",
-      "update_frequency": "monthly",
-      "geographic_scope": "national",
-      "data_content": {
-        "en": [
-          "GDP and Economic Growth - Quarterly and annual national accounts",
-          "Population Census - Demographics, urbanization, and labor force",
-          "Trade Statistics - Import/export by commodity and trading partner",
-          "Manufacturing - Industrial production index and manufacturing output"
-        ],
-        "zh": [
-          "GDP和经济增长 - 季度和年度国民账户",
-          "人口普查 - 人口、城镇化和劳动力",
-          "贸易统计 - 按商品和贸易伙伴分类的进出口",
-          "制造业 - 工业生产指数和制造业产值"
-        ]
-      },
-      "has_api": true,
-      "file_path": "indonesia/national/indonesia-bps.json"
     },
     {
       "id": "cgiar-research-data",
@@ -17084,54 +17393,6 @@
       "authority_level": "international",
       "has_api": true,
       "file_path": "regional/europe/entso-e.json"
-    },
-    {
-      "id": "russia-rosstat",
-      "name": {
-        "en": "Federal State Statistics Service of Russia",
-        "zh": "俄罗斯联邦统计局",
-        "native": "Федеральная служба государственной статистики"
-      },
-      "description": {
-        "en": "Rosstat is the Russian government agency responsible for official statistics. It provides data on GDP, demographics, trade, industrial production, e-commerce, and retail.",
-        "zh": "俄罗斯联邦统计局是俄罗斯政府负责官方统计数据的机构。提供GDP、人口、贸易、工业生产、电子商务和零售等数据。"
-      },
-      "website": "https://rosstat.gov.ru",
-      "data_url": "https://rosstat.gov.ru/statistic",
-      "country": "RU",
-      "domains": [
-        "economics",
-        "demographics",
-        "trade",
-        "industry"
-      ],
-      "tags": [
-        "statistics",
-        "gdp",
-        "population",
-        "e-commerce",
-        "retail"
-      ],
-      "authority_level": "government",
-      "update_frequency": "monthly",
-      "geographic_scope": "national",
-      "data_content": {
-        "en": [
-          "GDP and National Accounts - Quarterly and annual economic output",
-          "Demographics - Population, births, deaths, and migration",
-          "Industrial Production - Manufacturing and mining output indices",
-          "Retail and E-commerce - Consumer spending and online retail statistics"
-        ],
-        "zh": [
-          "GDP和国民账户 - 季度和年度经济产出",
-          "人口统计 - 人口、出生、死亡和迁移",
-          "工业生产 - 制造业和采矿业产出指数",
-          "零售和电商 - 消费支出和网上零售统计"
-        ]
-      },
-      "api_url": null,
-      "has_api": false,
-      "file_path": "russia/national/russia-rosstat.json"
     },
     {
       "id": "amis",
