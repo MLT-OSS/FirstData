@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T01:07:24.570387+00:00",
+    "generated_at": "2026-03-24T02:07:15.889866+00:00",
     "total_domains": 706,
-    "total_sources": 291,
+    "total_sources": 293,
     "version": "2.0"
   },
   "domains": {
@@ -373,6 +373,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "vietnam-gso",
         "name": {
           "en": "General Statistics Office of Vietnam",
@@ -544,6 +556,18 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -4322,6 +4346,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "singapore-singstat",
         "name": {
           "en": "Singapore Department of Statistics (SingStat)",
@@ -4618,6 +4654,18 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -6245,6 +6293,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "singapore-singstat",
         "name": {
           "en": "Singapore Department of Statistics (SingStat)",
@@ -6628,6 +6688,18 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -7421,6 +7493,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "adb-data-library",
         "name": {
           "en": "Asian Development Bank Data Library",
@@ -7942,6 +8026,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "singapore-singstat",
         "name": {
           "en": "Singapore Department of Statistics (SingStat)",
@@ -8190,6 +8286,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "argentina-indec",
         "name": {
           "en": "National Institute of Statistics and Censuses (INDEC)",
@@ -8275,6 +8383,18 @@
         "data_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202312/t20231229_1363000.html",
         "has_api": false,
         "file_path": "china/economy/macro/china-ndrc-computing.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
         "geographic_scope": "national"
       },
       {
@@ -9071,6 +9191,18 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -12206,6 +12338,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "vietnam-gso",
         "name": {
           "en": "General Statistics Office of Vietnam",
@@ -12364,6 +12508,18 @@
         "data_url": "https://www.aihw.gov.au/",
         "has_api": true,
         "file_path": "countries/oceania/australia/aihw.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -12899,6 +13055,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "france-insee",
         "name": {
           "en": "INSEE - National Institute of Statistics and Economic Studies",
@@ -13046,6 +13214,18 @@
         "data_url": "https://www.aihw.gov.au/",
         "has_api": true,
         "file_path": "countries/oceania/australia/aihw.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -13502,6 +13682,18 @@
         "data_url": "https://kosis.kr/eng/",
         "has_api": true,
         "file_path": "countries/asia/kostat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
         "geographic_scope": "national"
       },
       {
@@ -18038,6 +18230,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "austria-statistik",
         "name": {
           "en": "Statistics Austria",
@@ -18112,6 +18316,18 @@
         "data_url": "https://www.bls.gov/data/",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-bls.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -19429,6 +19645,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "singapore-singstat",
         "name": {
           "en": "Singapore Department of Statistics (SingStat)",
@@ -19554,6 +19782,18 @@
         "data_url": "https://www.inegi.org.mx/datos/",
         "has_api": true,
         "file_path": "countries/north-america/mexico/mexico-inegi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
@@ -21086,6 +21326,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "singapore-singstat",
         "name": {
           "en": "Singapore Department of Statistics (SingStat)",
@@ -21356,6 +21608,18 @@
         "data_url": "https://www.abs.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/abs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {

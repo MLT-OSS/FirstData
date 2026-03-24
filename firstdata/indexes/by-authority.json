@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T01:07:24.570387+00:00",
-    "total_sources": 291,
+    "generated_at": "2026-03-24T02:07:15.889866+00:00",
+    "total_sources": 293,
     "authority_counts": {
       "research": 37,
       "international": 73,
-      "government": 147,
+      "government": 149,
       "other": 3,
       "market": 16,
       "commercial": 15
@@ -2231,6 +2231,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "saudi-gastat",
+        "name": {
+          "en": "General Authority for Statistics (GASTAT)",
+          "zh": "沙特阿拉伯统计总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stats.gov.sa/statistics",
+        "has_api": false,
+        "file_path": "countries/asia/saudi-arabia/saudi-gastat.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "singapore-singstat",
         "name": {
           "en": "Singapore Department of Statistics (SingStat)",
@@ -2932,6 +2944,18 @@
         "data_url": "https://www.bom.gov.au",
         "has_api": true,
         "file_path": "countries/oceania/australia/bureau-of-meteorology.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "nz-stats",
+        "name": {
+          "en": "Statistics New Zealand (Stats NZ)",
+          "zh": "新西兰统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://infoshare.stats.govt.nz",
+        "has_api": false,
+        "file_path": "countries/oceania/new-zealand/nz-stats.json",
         "geographic_scope": "national"
       },
       {
