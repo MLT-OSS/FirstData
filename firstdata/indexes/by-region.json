@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T02:22:02.283625+00:00",
+    "generated_at": "2026-03-24T01:07:24.570387+00:00",
     "total_regions": 41,
-    "total_sources": 292,
+    "total_sources": 291,
     "version": "2.0"
   },
   "regions": {
@@ -1054,7 +1054,7 @@
           "zh": "中国机械工业联合会机器人分会"
         },
         "authority_level": "market",
-        "data_url": "http://cria.mei.net.cn/gzpt.asp?lm=/1310",
+        "data_url": "https://cria.mei.net.cn/gzpt.asp?lm=/1310",
         "has_api": false,
         "file_path": "sectors/C-manufacturing/robotics/china-robot-industry-alliance.json",
         "geographic_scope": "national"
@@ -1571,19 +1571,6 @@
         "data_url": "https://www.inegi.org.mx/datos/",
         "has_api": true,
         "file_path": "countries/north-america/mexico/mexico-inegi.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "mexico-inegi",
-        "name": {
-          "en": "National Institute of Statistics and Geography of Mexico",
-          "zh": "墨西哥国家统计与地理研究所",
-          "native": "Instituto Nacional de Estadística y Geografía"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.inegi.org.mx/datos/",
-        "has_api": true,
-        "file_path": "mexico/national/mexico-inegi.json",
         "geographic_scope": "national"
       }
     ],
