@@ -1,0 +1,52 @@
+{
+  "id": "greece-elstat",
+  "name": {
+    "en": "Hellenic Statistical Authority (ELSTAT)",
+    "zh": "希腊统计局",
+    "native": "Ελληνική Στατιστική Αρχή (ΕΛΣΤΑΤ)"
+  },
+  "description": {
+    "en": "The Hellenic Statistical Authority (ELSTAT) is the official national statistical authority of Greece, responsible for the collection, processing, and dissemination of official statistics covering the Greek economy, population, society, and environment. ELSTAT coordinates the national statistical system and produces data compliant with Eurostat and EU standards, providing open access to statistical tables, publications, and databases.",
+    "zh": "希腊统计局（ELSTAT）是希腊官方国家统计机构，负责收集、处理和发布涵盖希腊经济、人口、社会与环境的官方统计数据。ELSTAT协调国家统计体系，生产符合欧盟统计局（Eurostat）标准的数据，并通过统计数据库和出版物提供开放访问。"
+  },
+  "website": "https://www.statistics.gr",
+  "data_url": "https://www.statistics.gr/en/statistics",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "GR",
+  "domains": ["economics", "demographics", "trade", "social", "employment", "prices", "environment"],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "greece", "elstat", "hellenic statistical authority", "ΕΛΣΤΑΤ", "official statistics",
+    "population", "GDP", "national accounts", "CPI", "inflation", "labor market",
+    "trade", "business", "census", "eurostat", "EU statistics",
+    "希腊", "希腊统计局", "人口统计", "经济统计", "GDP", "国民账户", "贸易", "就业", "欧盟"
+  ],
+  "data_content": {
+    "en": [
+      "Population census and vital statistics",
+      "GDP and national accounts",
+      "Consumer price index and inflation",
+      "Foreign trade and balance of payments",
+      "Labor force and employment survey",
+      "Business and enterprise statistics",
+      "Agricultural and fisheries statistics",
+      "Income and living conditions (EU-SILC)",
+      "Tourism and accommodation statistics",
+      "Environmental and energy statistics"
+    ],
+    "zh": [
+      "人口普查与生命统计",
+      "GDP与国民账户",
+      "消费者价格指数与通货膨胀",
+      "对外贸易与国际收支",
+      "劳动力与就业调查",
+      "企业与工商统计",
+      "农业与渔业统计",
+      "收入与生活条件（EU-SILC）",
+      "旅游与住宿统计",
+      "环境与能源统计"
+    ]
+  }
+}
