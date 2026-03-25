@@ -1,0 +1,52 @@
+{
+  "id": "colombia-dane",
+  "name": {
+    "en": "National Administrative Department of Statistics (DANE)",
+    "zh": "哥伦比亚国家统计局",
+    "native": "Departamento Administrativo Nacional de Estadística (DANE)"
+  },
+  "description": {
+    "en": "The National Administrative Department of Statistics (DANE) is Colombia's official national statistics agency, responsible for the production and dissemination of official statistics on population, economy, industry, agriculture, and social conditions. DANE conducts national censuses, household surveys, and economic censuses, and provides open data access through its statistics portal and microdata repository.",
+    "zh": "哥伦比亚国家统计局（DANE）是哥伦比亚官方国家统计机构，负责生产和发布有关人口、经济、工业、农业和社会状况的官方统计数据。DANE开展全国人口普查、住户调查和经济普查，并通过其统计门户网站和微观数据库提供开放数据访问。"
+  },
+  "website": "https://www.dane.gov.co",
+  "data_url": "https://www.dane.gov.co/index.php/estadisticas-por-tema",
+  "api_url": "https://microdatos.dane.gov.co/",
+  "authority_level": "government",
+  "country": "CO",
+  "domains": ["economics", "demographics", "agriculture", "social", "employment", "prices", "trade"],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "colombia", "dane", "estadisticas", "national statistics", "official statistics",
+    "population", "census", "GDP", "CPI", "inflation", "labor market", "employment",
+    "household survey", "encuesta", "agriculture", "trade", "microdata",
+    "哥伦比亚", "哥伦比亚统计局", "人口普查", "经济统计", "GDP", "就业", "物价", "农业", "南美洲"
+  ],
+  "data_content": {
+    "en": [
+      "Population census and demographic statistics",
+      "GDP and national accounts",
+      "Consumer price index and inflation",
+      "Labor market and employment (GEIH survey)",
+      "Foreign trade statistics (imports and exports)",
+      "Agricultural production and crop surveys",
+      "Industrial and manufacturing census",
+      "Housing and quality of life surveys",
+      "Income distribution and poverty indicators",
+      "Microdata repository for research access"
+    ],
+    "zh": [
+      "人口普查与人口统计",
+      "GDP与国民账户",
+      "消费者价格指数与通货膨胀",
+      "劳动力市场与就业（GEIH调查）",
+      "对外贸易统计（进出口）",
+      "农业生产与作物调查",
+      "工业与制造业普查",
+      "住房与生活质量调查",
+      "收入分配与贫困指标",
+      "供研究使用的微观数据库"
+    ]
+  }
+}
