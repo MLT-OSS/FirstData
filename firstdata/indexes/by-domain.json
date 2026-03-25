@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T02:10:18.763045+00:00",
-    "total_domains": 710,
+    "generated_at": "2026-03-25T02:07:10.276295+00:00",
+    "total_domains": 711,
     "total_sources": 298,
     "version": "2.0"
   },
@@ -1239,19 +1239,6 @@
     ],
     "balance of payments": [
       {
-        "id": "india-rbi",
-        "name": {
-          "en": "Reserve Bank of India",
-          "zh": "印度储备银行",
-          "native": "भारतीय रिज़र्व बैंक"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
-        "has_api": true,
-        "file_path": "countries/asia/india/india-rbi.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "boj-statistics",
         "name": {
           "en": "Bank of Japan Statistics",
@@ -1312,6 +1299,21 @@
         "has_api": true,
         "file_path": "international/economics/ecb-sdw.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "balance-of-payments": [
+      {
+        "id": "india-rbi",
+        "name": {
+          "en": "Reserve Bank of India",
+          "zh": "印度储备银行",
+          "native": "भारतीय रिज़र्व बैंक"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
+        "has_api": true,
+        "file_path": "countries/asia/india/india-rbi.json",
+        "geographic_scope": "national"
       }
     ],
     "balance_of_payments": [
@@ -3185,7 +3187,7 @@
         },
         "authority_level": "international",
         "data_url": "https://data.uis.unesco.org/",
-        "has_api": true,
+        "has_api": false,
         "file_path": "international/education/unesco-uis.json",
         "geographic_scope": "global"
       }
@@ -3443,20 +3445,6 @@
         "geographic_scope": "global"
       }
     ],
-    "consumer credit": [
-      {
-        "id": "us-federalreserve",
-        "name": {
-          "en": "Federal Reserve Board",
-          "zh": "美联储理事会"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.federalreserve.gov/data.htm",
-        "has_api": false,
-        "file_path": "countries/north-america/usa/us-federalreserve.json",
-        "geographic_scope": "national"
-      }
-    ],
     "consumer expenditures": [
       {
         "id": "us-bls",
@@ -3523,6 +3511,20 @@
         "data_url": "https://www.bea.gov/data",
         "has_api": true,
         "file_path": "countries/north-america/usa/us-bea.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "consumer-credit": [
+      {
+        "id": "us-federalreserve",
+        "name": {
+          "en": "Federal Reserve Board",
+          "zh": "美联储理事会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.federalreserve.gov/data.htm",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-federalreserve.json",
         "geographic_scope": "national"
       }
     ],
@@ -3941,7 +3943,7 @@
         },
         "authority_level": "international",
         "data_url": "https://data.uis.unesco.org/",
-        "has_api": true,
+        "has_api": false,
         "file_path": "international/education/unesco-uis.json",
         "geographic_scope": "global"
       }
@@ -7816,7 +7818,7 @@
         },
         "authority_level": "international",
         "data_url": "https://data.uis.unesco.org/",
-        "has_api": true,
+        "has_api": false,
         "file_path": "international/education/unesco-uis.json",
         "geographic_scope": "global"
       },
@@ -10021,19 +10023,6 @@
     ],
     "exchange rates": [
       {
-        "id": "india-rbi",
-        "name": {
-          "en": "Reserve Bank of India",
-          "zh": "印度储备银行",
-          "native": "भारतीय रिज़र्व बैंक"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
-        "has_api": true,
-        "file_path": "countries/asia/india/india-rbi.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "uk-boe",
         "name": {
           "en": "Bank of England Statistical Interactive Database",
@@ -10069,6 +10058,21 @@
         "has_api": true,
         "file_path": "international/economics/ecb-sdw.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "exchange-rates": [
+      {
+        "id": "india-rbi",
+        "name": {
+          "en": "Reserve Bank of India",
+          "zh": "印度储备银行",
+          "native": "भारतीय रिज़र्व बैंक"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
+        "has_api": true,
+        "file_path": "countries/asia/india/india-rbi.json",
+        "geographic_scope": "national"
       }
     ],
     "exchange_rates": [
@@ -10967,18 +10971,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "us-federalreserve",
-        "name": {
-          "en": "Federal Reserve Board",
-          "zh": "美联储理事会"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.federalreserve.gov/data.htm",
-        "has_api": false,
-        "file_path": "countries/north-america/usa/us-federalreserve.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "brazil-bcb",
         "name": {
           "en": "Central Bank of Brazil",
@@ -11034,6 +11026,18 @@
       }
     ],
     "financial-stability": [
+      {
+        "id": "us-federalreserve",
+        "name": {
+          "en": "Federal Reserve Board",
+          "zh": "美联储理事会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.federalreserve.gov/data.htm",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-federalreserve.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "iais",
         "name": {
@@ -12287,19 +12291,6 @@
     ],
     "government finance": [
       {
-        "id": "india-rbi",
-        "name": {
-          "en": "Reserve Bank of India",
-          "zh": "印度储备银行",
-          "native": "भारतीय रिज़र्व बैंक"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
-        "has_api": true,
-        "file_path": "countries/asia/india/india-rbi.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "adb-key-indicators",
         "name": {
           "en": "Asian Development Bank Key Indicators",
@@ -12353,6 +12344,19 @@
       }
     ],
     "government-finance": [
+      {
+        "id": "india-rbi",
+        "name": {
+          "en": "Reserve Bank of India",
+          "zh": "印度储备银行",
+          "native": "भारतीय रिज़र्व बैंक"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
+        "has_api": true,
+        "file_path": "countries/asia/india/india-rbi.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "philippines-psa",
         "name": {
@@ -14560,7 +14564,7 @@
         },
         "authority_level": "international",
         "data_url": "https://data.uis.unesco.org/",
-        "has_api": true,
+        "has_api": false,
         "file_path": "international/education/unesco-uis.json",
         "geographic_scope": "global"
       },
@@ -16189,21 +16193,6 @@
         "geographic_scope": "national"
       }
     ],
-    "market research": [
-      {
-        "id": "japan-jetro",
-        "name": {
-          "en": "Japan External Trade Organization",
-          "zh": "日本贸易振兴机构",
-          "native": "日本貿易振興機構"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.jetro.go.jp/en/reports/statistics.html",
-        "has_api": false,
-        "file_path": "countries/asia/japan/japan-jetro.json",
-        "geographic_scope": "national"
-      }
-    ],
     "market transparency": [
       {
         "id": "amis",
@@ -16219,6 +16208,19 @@
       }
     ],
     "market-research": [
+      {
+        "id": "japan-jetro",
+        "name": {
+          "en": "Japan External Trade Organization",
+          "zh": "日本贸易振兴机构",
+          "native": "日本貿易振興機構"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.jetro.go.jp/en/reports/statistics.html",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-jetro.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-lcd-association",
         "name": {
@@ -16801,19 +16803,6 @@
     ],
     "monetary policy": [
       {
-        "id": "india-rbi",
-        "name": {
-          "en": "Reserve Bank of India",
-          "zh": "印度储备银行",
-          "native": "भारतीय रिज़र्व बैंक"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
-        "has_api": true,
-        "file_path": "countries/asia/india/india-rbi.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "boj-statistics",
         "name": {
           "en": "Bank of Japan Statistics",
@@ -16863,18 +16852,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "us-federalreserve",
-        "name": {
-          "en": "Federal Reserve Board",
-          "zh": "美联储理事会"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.federalreserve.gov/data.htm",
-        "has_api": false,
-        "file_path": "countries/north-america/usa/us-federalreserve.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "brazil-bcb",
         "name": {
           "en": "Central Bank of Brazil",
@@ -16913,6 +16890,31 @@
       }
     ],
     "monetary-policy": [
+      {
+        "id": "india-rbi",
+        "name": {
+          "en": "Reserve Bank of India",
+          "zh": "印度储备银行",
+          "native": "भारतीय रिज़र्व बैंक"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
+        "has_api": true,
+        "file_path": "countries/asia/india/india-rbi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-federalreserve",
+        "name": {
+          "en": "Federal Reserve Board",
+          "zh": "美联储理事会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.federalreserve.gov/data.htm",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-federalreserve.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "bis-cbta",
         "name": {
@@ -19529,7 +19531,7 @@
         },
         "authority_level": "international",
         "data_url": "https://data.uis.unesco.org/",
-        "has_api": true,
+        "has_api": false,
         "file_path": "international/education/unesco-uis.json",
         "geographic_scope": "global"
       }
@@ -21211,7 +21213,7 @@
         },
         "authority_level": "international",
         "data_url": "https://data.uis.unesco.org/",
-        "has_api": true,
+        "has_api": false,
         "file_path": "international/education/unesco-uis.json",
         "geographic_scope": "global"
       },

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T02:10:18.763045+00:00",
+    "generated_at": "2026-03-25T02:07:10.276295+00:00",
     "total_sources": 298,
     "version": "2.0",
     "schema_version": "v2.0.0"
@@ -6283,13 +6283,13 @@
       "api_url": "https://api.rbi.org.in/",
       "country": "IN",
       "domains": [
-        "monetary policy",
+        "monetary-policy",
         "banking",
         "finance",
         "economics",
-        "exchange rates",
-        "balance of payments",
-        "government finance"
+        "exchange-rates",
+        "balance-of-payments",
+        "government-finance"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -6669,7 +6669,7 @@
         "trade",
         "investment",
         "economics",
-        "market research",
+        "market-research",
         "FDI"
       ],
       "geographic_scope": "national",
@@ -11066,12 +11066,12 @@
       "api_url": null,
       "country": "US",
       "domains": [
-        "monetary policy",
+        "monetary-policy",
         "banking",
         "finance",
         "economics",
-        "financial stability",
-        "consumer credit"
+        "financial-stability",
+        "consumer-credit"
       ],
       "geographic_scope": "national",
       "update_frequency": "monthly",
@@ -15291,7 +15291,7 @@
       },
       "website": "https://uis.unesco.org/",
       "data_url": "https://data.uis.unesco.org/",
-      "api_url": "https://api.uis.unesco.org/sdmx/",
+      "api_url": null,
       "country": null,
       "domains": [
         "education",
@@ -15351,7 +15351,7 @@
         ]
       },
       "authority_level": "international",
-      "has_api": true,
+      "has_api": false,
       "file_path": "international/education/unesco-uis.json"
     },
     {
