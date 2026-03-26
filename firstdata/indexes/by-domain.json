@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-25T02:07:45.434384+00:00",
+    "generated_at": "2026-03-26T01:09:53.494718+00:00",
     "total_domains": 711,
-    "total_sources": 300,
+    "total_sources": 301,
     "version": "2.0"
   },
   "domains": {
@@ -4617,6 +4617,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ireland-cso",
         "name": {
           "en": "Central Statistics Office (CSO)",
@@ -6667,6 +6679,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ireland-cso",
         "name": {
           "en": "Central Statistics Office (CSO)",
@@ -7593,6 +7617,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "norway-ssb",
         "name": {
           "en": "Statistics Norway (SSB)",
@@ -8385,6 +8421,18 @@
         "data_url": "https://www.statistics.gr/en/statistics",
         "has_api": false,
         "file_path": "countries/europe/greece/greece-elstat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
         "geographic_scope": "national"
       },
       {
@@ -12728,6 +12776,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ireland-cso",
         "name": {
           "en": "Central Statistics Office (CSO)",
@@ -14085,6 +14145,18 @@
         "data_url": "https://www.insee.fr/en/statistiques",
         "has_api": true,
         "file_path": "countries/europe/fr/france-insee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
         "geographic_scope": "national"
       },
       {
@@ -22029,6 +22101,18 @@
         "data_url": "https://www.statistics.gr/en/statistics",
         "has_api": false,
         "file_path": "countries/europe/greece/greece-elstat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "hungary-ksh",
+        "name": {
+          "en": "Hungarian Central Statistical Office",
+          "zh": "匈牙利中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ksh.hu/engstadat",
+        "has_api": true,
+        "file_path": "countries/europe/hungary/hungary-ksh.json",
         "geographic_scope": "national"
       },
       {
