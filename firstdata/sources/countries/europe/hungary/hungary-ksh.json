@@ -1,0 +1,55 @@
+{
+  "id": "hungary-ksh",
+  "name": {
+    "en": "Hungarian Central Statistical Office",
+    "zh": "匈牙利中央统计局"
+  },
+  "country": "HU",
+  "description": {
+    "en": "Hungary's official national statistical office responsible for collecting, processing, and disseminating statistical data. KSH publishes comprehensive statistics covering GDP, population census, CPI, employment, industrial production, foreign trade, education, and health.",
+    "zh": "匈牙利官方国家统计机构，负责收集、处理和发布统计数据。KSH发布涵盖GDP、人口普查、CPI、就业、工业生产、对外贸易、教育和卫生的综合统计数据。"
+  },
+  "website": "https://www.ksh.hu",
+  "data_url": "https://www.ksh.hu/engstadat",
+  "api_url": "https://statinfo.ksh.hu/Statinfo/haViewer.jsp",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "trade",
+    "education",
+    "health",
+    "industry"
+  ],
+  "tags": [
+    "eu-member",
+    "eurostat-partner",
+    "national-statistics",
+    "v4-country"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and national accounts",
+      "Population census and vital statistics",
+      "Consumer price index",
+      "Labour force survey",
+      "Industrial production index",
+      "Foreign trade statistics",
+      "Education statistics",
+      "Health statistics"
+    ],
+    "zh": [
+      "GDP与国民账户",
+      "人口普查与生命统计",
+      "消费者价格指数",
+      "劳动力调查",
+      "工业生产指数",
+      "对外贸易统计",
+      "教育统计",
+      "卫生统计"
+    ]
+  }
+}
