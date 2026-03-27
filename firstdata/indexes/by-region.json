@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:25:29.779418+00:00",
-    "total_regions": 53,
-    "total_sources": 310,
+    "generated_at": "2026-03-27T20:24:07.746395+00:00",
+    "total_regions": 54,
+    "total_sources": 311,
     "version": "2.0"
   },
   "regions": {
@@ -1681,6 +1681,20 @@
         "data_url": "https://laosis.lsb.gov.la/",
         "has_api": false,
         "file_path": "countries/asia/laos/laos-lsb.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "MM": [
+      {
+        "id": "myanmar-cso",
+        "name": {
+          "en": "Central Statistical Organization (Myanmar)",
+          "zh": "缅甸中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csostat.gov.mm",
+        "has_api": false,
+        "file_path": "countries/asia/myanmar/myanmar-cso.json",
         "geographic_scope": "national"
       }
     ],

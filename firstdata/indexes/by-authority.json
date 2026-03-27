@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:25:29.779418+00:00",
-    "total_sources": 310,
+    "generated_at": "2026-03-27T20:24:07.746395+00:00",
+    "total_sources": 311,
     "authority_counts": {
       "research": 37,
       "international": 74,
-      "government": 165,
+      "government": 166,
       "other": 3,
       "market": 16,
       "commercial": 15
@@ -2315,6 +2315,18 @@
         "data_url": "https://open.dosm.gov.my/",
         "has_api": true,
         "file_path": "countries/asia/malaysia/malaysia-dosm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "myanmar-cso",
+        "name": {
+          "en": "Central Statistical Organization (Myanmar)",
+          "zh": "缅甸中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csostat.gov.mm",
+        "has_api": false,
+        "file_path": "countries/asia/myanmar/myanmar-cso.json",
         "geographic_scope": "national"
       },
       {

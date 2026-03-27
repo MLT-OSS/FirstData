@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:25:29.779418+00:00",
+    "generated_at": "2026-03-27T20:24:07.746395+00:00",
     "total_domains": 711,
-    "total_sources": 310,
+    "total_sources": 311,
     "version": "2.0"
   },
   "domains": {
@@ -373,6 +373,18 @@
         "data_url": "https://kosis.kr/eng/",
         "has_api": true,
         "file_path": "countries/asia/kostat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "myanmar-cso",
+        "name": {
+          "en": "Central Statistical Organization (Myanmar)",
+          "zh": "缅甸中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csostat.gov.mm",
+        "has_api": false,
+        "file_path": "countries/asia/myanmar/myanmar-cso.json",
         "geographic_scope": "national"
       },
       {
@@ -4539,6 +4551,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "myanmar-cso",
+        "name": {
+          "en": "Central Statistical Organization (Myanmar)",
+          "zh": "缅甸中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csostat.gov.mm",
+        "has_api": false,
+        "file_path": "countries/asia/myanmar/myanmar-cso.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "philippines-psa",
         "name": {
           "en": "Philippine Statistics Authority",
@@ -6644,6 +6668,18 @@
         "data_url": "https://open.dosm.gov.my/",
         "has_api": true,
         "file_path": "countries/asia/malaysia/malaysia-dosm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "myanmar-cso",
+        "name": {
+          "en": "Central Statistical Organization (Myanmar)",
+          "zh": "缅甸中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csostat.gov.mm",
+        "has_api": false,
+        "file_path": "countries/asia/myanmar/myanmar-cso.json",
         "geographic_scope": "national"
       },
       {
@@ -22443,6 +22479,18 @@
         "data_url": "https://kosis.kr/eng/",
         "has_api": true,
         "file_path": "countries/asia/kostat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "myanmar-cso",
+        "name": {
+          "en": "Central Statistical Organization (Myanmar)",
+          "zh": "缅甸中央统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csostat.gov.mm",
+        "has_api": false,
+        "file_path": "countries/asia/myanmar/myanmar-cso.json",
         "geographic_scope": "national"
       },
       {

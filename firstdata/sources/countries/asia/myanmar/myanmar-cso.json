@@ -1,0 +1,57 @@
+{
+  "id": "myanmar-cso",
+  "name": {
+    "en": "Central Statistical Organization (Myanmar)",
+    "zh": "缅甸中央统计局"
+  },
+  "description": {
+    "en": "Myanmar's principal government agency responsible for collecting, processing, and disseminating official statistics including GDP, population census, CPI, labor force surveys, foreign trade, industrial production, and agricultural statistics.",
+    "zh": "缅甸主要政府统计机构，负责收集、处理和发布官方统计数据，包括GDP、人口普查、消费者价格指数、劳动力调查、对外贸易、工业生产和农业统计。"
+  },
+  "website": "https://www.csostat.gov.mm",
+  "data_url": "https://www.csostat.gov.mm",
+  "api_url": null,
+  "country": "MM",
+  "geographic_scope": "national",
+  "authority_level": "government",
+  "domains": [
+    "economics",
+    "demographics",
+    "trade",
+    "agriculture"
+  ],
+  "update_frequency": "annual",
+  "data_content": {
+    "en": [
+      "GDP and national accounts",
+      "Population and housing census",
+      "Consumer price index (CPI)",
+      "Labor force survey",
+      "Foreign trade statistics",
+      "Industrial production index",
+      "Agricultural statistics",
+      "Social and vital statistics"
+    ],
+    "zh": [
+      "GDP与国民账户",
+      "人口与住房普查",
+      "消费者价格指数",
+      "劳动力调查",
+      "对外贸易统计",
+      "工业生产指数",
+      "农业统计",
+      "社会与人口动态统计"
+    ]
+  },
+  "tags": [
+    "myanmar",
+    "缅甸",
+    "statistics",
+    "统计局",
+    "ASEAN",
+    "东盟",
+    "GDP",
+    "census",
+    "CPI"
+  ]
+}
