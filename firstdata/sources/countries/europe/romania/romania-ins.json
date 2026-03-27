@@ -1,0 +1,83 @@
+{
+  "id": "romania-ins",
+  "name": {
+    "en": "National Institute of Statistics (Romania)",
+    "zh": "罗马尼亚国家统计局"
+  },
+  "description": {
+    "en": "The National Institute of Statistics (INS) is the official national statistical authority of Romania, responsible for the collection, processing, and dissemination of official statistics on the Romanian economy, population, and society. INS produces data compliant with Eurostat and EU standards, covering GDP, population census, consumer prices, employment, trade, and agricultural statistics.",
+    "zh": "罗马尼亚国家统计局（INS）是罗马尼亚官方国家统计机构，负责收集、处理和发布有关罗马尼亚经济、人口和社会的官方统计数据。INS生产符合欧盟统计局（Eurostat）标准的数据，涵盖GDP、人口普查、消费价格、就业、贸易和农业统计。"
+  },
+  "website": "https://insse.ro",
+  "data_url": "https://insse.ro/cms/en/statistici-2",
+  "api_url": "https://statistici.insse.ro:8077/tempo-online/",
+  "authority_level": "government",
+  "country": "RO",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "trade",
+    "social",
+    "prices",
+    "agriculture",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "romania",
+    "INS",
+    "insse",
+    "institutul national de statistica",
+    "romanian statistics",
+    "population census",
+    "GDP",
+    "national accounts",
+    "CPI",
+    "inflation",
+    "labor market",
+    "foreign trade",
+    "agriculture",
+    "industry",
+    "eurostat",
+    "EU statistics",
+    "罗马尼亚",
+    "罗马尼亚统计局",
+    "国家统计局",
+    "人口普查",
+    "经济统计",
+    "GDP",
+    "消费价格",
+    "就业",
+    "贸易",
+    "农业",
+    "欧盟"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and national accounts",
+      "Population census and vital statistics",
+      "Consumer price index and inflation",
+      "Labour force survey and employment",
+      "Foreign trade statistics",
+      "Industrial production index",
+      "Agricultural statistics",
+      "Business and enterprise statistics",
+      "Income and living conditions (EU-SILC)",
+      "Tourism statistics"
+    ],
+    "zh": [
+      "GDP与国民账户",
+      "人口普查与生命统计",
+      "消费者价格指数与通货膨胀",
+      "劳动力调查与就业统计",
+      "对外贸易统计",
+      "工业生产指数",
+      "农业统计",
+      "企业与工商统计",
+      "收入与生活条件（EU-SILC）",
+      "旅游统计"
+    ]
+  }
+}

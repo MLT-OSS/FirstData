@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:08:04.067233+00:00",
-    "total_regions": 48,
-    "total_sources": 303,
+    "generated_at": "2026-03-27T02:18:08.430594+00:00",
+    "total_regions": 50,
+    "total_sources": 305,
     "version": "2.0"
   },
   "regions": {
@@ -1797,6 +1797,20 @@
         "geographic_scope": "national"
       }
     ],
+    "RO": [
+      {
+        "id": "romania-ins",
+        "name": {
+          "en": "National Institute of Statistics (Romania)",
+          "zh": "罗马尼亚国家统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://insse.ro/cms/en/statistici-2",
+        "has_api": true,
+        "file_path": "countries/europe/romania/romania-ins.json",
+        "geographic_scope": "national"
+      }
+    ],
     "RU": [
       {
         "id": "russia-rosstat",
@@ -1864,6 +1878,20 @@
         "data_url": "https://tablebuilder.singstat.gov.sg",
         "has_api": true,
         "file_path": "singapore/national/singapore-dos.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "SI": [
+      {
+        "id": "slovenia-surs",
+        "name": {
+          "en": "Statistical Office of the Republic of Slovenia (SURS)",
+          "zh": "斯洛文尼亚共和国统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.stat.si/StatWeb/en",
+        "has_api": true,
+        "file_path": "countries/europe/slovenia/slovenia-surs.json",
         "geographic_scope": "national"
       }
     ],

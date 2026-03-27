@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:08:04.067233+00:00",
-    "total_sources": 303,
+    "generated_at": "2026-03-27T02:18:08.430594+00:00",
+    "total_sources": 305,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -9445,6 +9445,91 @@
       "file_path": "countries/europe/portugal/portugal-ine.json"
     },
     {
+      "id": "romania-ins",
+      "name": {
+        "en": "National Institute of Statistics (Romania)",
+        "zh": "罗马尼亚国家统计局"
+      },
+      "description": {
+        "en": "The National Institute of Statistics (INS) is the official national statistical authority of Romania, responsible for the collection, processing, and dissemination of official statistics on the Romanian economy, population, and society. INS produces data compliant with Eurostat and EU standards, covering GDP, population census, consumer prices, employment, trade, and agricultural statistics.",
+        "zh": "罗马尼亚国家统计局（INS）是罗马尼亚官方国家统计机构，负责收集、处理和发布有关罗马尼亚经济、人口和社会的官方统计数据。INS生产符合欧盟统计局（Eurostat）标准的数据，涵盖GDP、人口普查、消费价格、就业、贸易和农业统计。"
+      },
+      "website": "https://insse.ro",
+      "data_url": "https://insse.ro/cms/en/statistici-2",
+      "api_url": "https://statistici.insse.ro:8077/tempo-online/",
+      "authority_level": "government",
+      "country": "RO",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment",
+        "trade",
+        "social",
+        "prices",
+        "agriculture",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "romania",
+        "INS",
+        "insse",
+        "institutul national de statistica",
+        "romanian statistics",
+        "population census",
+        "GDP",
+        "national accounts",
+        "CPI",
+        "inflation",
+        "labor market",
+        "foreign trade",
+        "agriculture",
+        "industry",
+        "eurostat",
+        "EU statistics",
+        "罗马尼亚",
+        "罗马尼亚统计局",
+        "国家统计局",
+        "人口普查",
+        "经济统计",
+        "GDP",
+        "消费价格",
+        "就业",
+        "贸易",
+        "农业",
+        "欧盟"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Population census and vital statistics",
+          "Consumer price index and inflation",
+          "Labour force survey and employment",
+          "Foreign trade statistics",
+          "Industrial production index",
+          "Agricultural statistics",
+          "Business and enterprise statistics",
+          "Income and living conditions (EU-SILC)",
+          "Tourism statistics"
+        ],
+        "zh": [
+          "GDP与国民账户",
+          "人口普查与生命统计",
+          "消费者价格指数与通货膨胀",
+          "劳动力调查与就业统计",
+          "对外贸易统计",
+          "工业生产指数",
+          "农业统计",
+          "企业与工商统计",
+          "收入与生活条件（EU-SILC）",
+          "旅游统计"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/romania/romania-ins.json"
+    },
+    {
       "id": "russia-rosstat",
       "name": {
         "en": "Federal State Statistics Service (Rosstat)",
@@ -9611,6 +9696,92 @@
       },
       "has_api": false,
       "file_path": "countries/europe/slovakia/slovakia-susr.json"
+    },
+    {
+      "id": "slovenia-surs",
+      "name": {
+        "en": "Statistical Office of the Republic of Slovenia (SURS)",
+        "zh": "斯洛文尼亚共和国统计局"
+      },
+      "description": {
+        "en": "The Statistical Office of the Republic of Slovenia (SURS) is the official national statistical authority of Slovenia, responsible for the collection, processing, and publication of official statistics covering the Slovenian economy, society, population, and environment. SURS produces data in compliance with Eurostat and European Statistical System standards, providing open access through its SiStat database.",
+        "zh": "斯洛文尼亚共和国统计局（SURS）是斯洛文尼亚官方国家统计机构，负责收集、处理和发布涵盖斯洛文尼亚经济、社会、人口和环境的官方统计数据。SURS依照欧盟统计局（Eurostat）和欧洲统计系统标准生产数据，并通过SiStat数据库提供开放访问。"
+      },
+      "website": "https://www.stat.si",
+      "data_url": "https://www.stat.si/StatWeb/en",
+      "api_url": "https://pxweb.stat.si/SiStatData/api/v1/en/",
+      "authority_level": "government",
+      "country": "SI",
+      "domains": [
+        "economics",
+        "demographics",
+        "employment",
+        "trade",
+        "social",
+        "environment",
+        "prices",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "slovenia",
+        "SURS",
+        "statisticni urad",
+        "sistat",
+        "slovenian statistics",
+        "population census",
+        "GDP",
+        "national accounts",
+        "CPI",
+        "inflation",
+        "labour market",
+        "foreign trade",
+        "environment",
+        "industry",
+        "eurostat",
+        "EU statistics",
+        "pxweb",
+        "斯洛文尼亚",
+        "斯洛文尼亚统计局",
+        "国家统计局",
+        "人口普查",
+        "经济统计",
+        "GDP",
+        "消费价格",
+        "就业",
+        "贸易",
+        "环境",
+        "欧盟"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and national accounts",
+          "Population census and vital statistics",
+          "Consumer price index and inflation",
+          "Labour force survey and employment",
+          "Foreign trade statistics",
+          "Industrial production index",
+          "Environmental statistics",
+          "Business and enterprise statistics",
+          "Income and living conditions (EU-SILC)",
+          "Tourism and accommodation statistics"
+        ],
+        "zh": [
+          "GDP与国民账户",
+          "人口普查与生命统计",
+          "消费者价格指数与通货膨胀",
+          "劳动力调查与就业统计",
+          "对外贸易统计",
+          "工业生产指数",
+          "环境统计",
+          "企业与工商统计",
+          "收入与生活条件（EU-SILC）",
+          "旅游与住宿统计"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/slovenia/slovenia-surs.json"
     },
     {
       "id": "spain-ine",
