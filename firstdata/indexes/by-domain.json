@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:08:04.098375+00:00",
+    "generated_at": "2026-03-27T02:19:54.136922+00:00",
     "total_domains": 711,
-    "total_sources": 307,
+    "total_sources": 306,
     "version": "2.0"
   },
   "domains": {
@@ -458,19 +458,6 @@
         "data_url": "https://www.insee.fr/en/statistiques",
         "has_api": true,
         "file_path": "countries/europe/fr/france-insee.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {
@@ -1426,8 +1413,7 @@
         "id": "romania-bnr",
         "name": {
           "en": "National Bank of Romania (BNR)",
-          "zh": "罗马尼亚国家银行",
-          "native": "Banca Națională a României"
+          "zh": "罗马尼亚国家银行"
         },
         "authority_level": "government",
         "data_url": "https://www.bnr.ro/Statistics-702.aspx",
@@ -4421,8 +4407,7 @@
         "id": "brunei-deps",
         "name": {
           "en": "Department of Economic Planning and Statistics, Brunei (DEPS)",
-          "zh": "文莱经济规划与统计局",
-          "native": "Jabatan Perancangan dan Kemajuan Ekonomi"
+          "zh": "文莱经济规划与统计局"
         },
         "authority_level": "government",
         "data_url": "https://deps.mofe.gov.bn/SitePages/Statistics.aspx",
@@ -4434,11 +4419,10 @@
         "id": "cambodia-nis",
         "name": {
           "en": "National Institute of Statistics of Cambodia (NIS)",
-          "zh": "柬埔寨国家统计局",
-          "native": "វិទ្យាស្ថានជាតិស្ថិតិ"
+          "zh": "柬埔寨国家统计局"
         },
         "authority_level": "government",
-        "data_url": "https://www.nis.gov.kh/index.php/km/2-uncategorised/39-cameroon-dhs-and-other-surveys",
+        "data_url": "https://camstat.nis.gov.kh/",
         "has_api": false,
         "file_path": "countries/asia/cambodia/cambodia-nis.json",
         "geographic_scope": "national"
@@ -4498,8 +4482,7 @@
         "id": "laos-lsb",
         "name": {
           "en": "Lao Statistics Bureau (LSB)",
-          "zh": "老挝统计局",
-          "native": "ສູນສະຖິຕິແຫ່ງຊາດ"
+          "zh": "老挝统计局"
         },
         "authority_level": "government",
         "data_url": "https://laosis.lsb.gov.la/",
@@ -4752,19 +4735,6 @@
         "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
         "has_api": true,
         "file_path": "countries/europe/portugal/portugal-ine.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {
@@ -6421,8 +6391,7 @@
         "id": "brunei-deps",
         "name": {
           "en": "Department of Economic Planning and Statistics, Brunei (DEPS)",
-          "zh": "文莱经济规划与统计局",
-          "native": "Jabatan Perancangan dan Kemajuan Ekonomi"
+          "zh": "文莱经济规划与统计局"
         },
         "authority_level": "government",
         "data_url": "https://deps.mofe.gov.bn/SitePages/Statistics.aspx",
@@ -6434,11 +6403,10 @@
         "id": "cambodia-nis",
         "name": {
           "en": "National Institute of Statistics of Cambodia (NIS)",
-          "zh": "柬埔寨国家统计局",
-          "native": "វិទ្យាស្ថានជាតិស្ថិតិ"
+          "zh": "柬埔寨国家统计局"
         },
         "authority_level": "government",
-        "data_url": "https://www.nis.gov.kh/index.php/km/2-uncategorised/39-cameroon-dhs-and-other-surveys",
+        "data_url": "https://camstat.nis.gov.kh/",
         "has_api": false,
         "file_path": "countries/asia/cambodia/cambodia-nis.json",
         "geographic_scope": "national"
@@ -6574,8 +6542,7 @@
         "id": "laos-lsb",
         "name": {
           "en": "Lao Statistics Bureau (LSB)",
-          "zh": "老挝统计局",
-          "native": "ສູນສະຖິຕິແຫ່ງຊາດ"
+          "zh": "老挝统计局"
         },
         "authority_level": "government",
         "data_url": "https://laosis.lsb.gov.la/",
@@ -6885,26 +6852,12 @@
         "id": "romania-bnr",
         "name": {
           "en": "National Bank of Romania (BNR)",
-          "zh": "罗马尼亚国家银行",
-          "native": "Banca Națională a României"
+          "zh": "罗马尼亚国家银行"
         },
         "authority_level": "government",
         "data_url": "https://www.bnr.ro/Statistics-702.aspx",
         "has_api": true,
         "file_path": "countries/europe/romania/romania-bnr.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {
@@ -10699,8 +10652,7 @@
         "id": "japan-mof",
         "name": {
           "en": "Ministry of Finance Japan",
-          "zh": "日本财务省",
-          "native": "財務省"
+          "zh": "日本财务省"
         },
         "authority_level": "government",
         "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
@@ -10775,8 +10727,7 @@
         "id": "romania-bnr",
         "name": {
           "en": "National Bank of Romania (BNR)",
-          "zh": "罗马尼亚国家银行",
-          "native": "Banca Națională a României"
+          "zh": "罗马尼亚国家银行"
         },
         "authority_level": "government",
         "data_url": "https://www.bnr.ro/Statistics-702.aspx",
@@ -11470,8 +11421,7 @@
         "id": "japan-mof",
         "name": {
           "en": "Ministry of Finance Japan",
-          "zh": "日本财务省",
-          "native": "財務省"
+          "zh": "日本财务省"
         },
         "authority_level": "government",
         "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
@@ -17265,8 +17215,7 @@
         "id": "romania-bnr",
         "name": {
           "en": "National Bank of Romania (BNR)",
-          "zh": "罗马尼亚国家银行",
-          "native": "Banca Națională a României"
+          "zh": "罗马尼亚国家银行"
         },
         "authority_level": "government",
         "data_url": "https://www.bnr.ro/Statistics-702.aspx",
@@ -20332,11 +20281,10 @@
         "id": "cambodia-nis",
         "name": {
           "en": "National Institute of Statistics of Cambodia (NIS)",
-          "zh": "柬埔寨国家统计局",
-          "native": "វិទ្យាស្ថានជាតិស្ថិតិ"
+          "zh": "柬埔寨国家统计局"
         },
         "authority_level": "government",
-        "data_url": "https://www.nis.gov.kh/index.php/km/2-uncategorised/39-cameroon-dhs-and-other-surveys",
+        "data_url": "https://camstat.nis.gov.kh/",
         "has_api": false,
         "file_path": "countries/asia/cambodia/cambodia-nis.json",
         "geographic_scope": "national"
@@ -20396,8 +20344,7 @@
         "id": "laos-lsb",
         "name": {
           "en": "Lao Statistics Bureau (LSB)",
-          "zh": "老挝统计局",
-          "native": "ສູນສະຖິຕິແຫ່ງຊາດ"
+          "zh": "老挝统计局"
         },
         "authority_level": "government",
         "data_url": "https://laosis.lsb.gov.la/",
@@ -20529,19 +20476,6 @@
         "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
         "has_api": true,
         "file_path": "countries/europe/portugal/portugal-ine.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {
@@ -21223,32 +21157,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "brunei-deps",
-        "name": {
-          "en": "Department of Economic Planning and Statistics, Brunei (DEPS)",
-          "zh": "文莱经济规划与统计局",
-          "native": "Jabatan Perancangan dan Kemajuan Ekonomi"
-        },
-        "authority_level": "government",
-        "data_url": "https://deps.mofe.gov.bn/SitePages/Statistics.aspx",
-        "has_api": false,
-        "file_path": "countries/asia/brunei/brunei-deps.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "cambodia-nis",
-        "name": {
-          "en": "National Institute of Statistics of Cambodia (NIS)",
-          "zh": "柬埔寨国家统计局",
-          "native": "វិទ្យាស្ថានជាតិស្ថិតិ"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.nis.gov.kh/index.php/km/2-uncategorised/39-cameroon-dhs-and-other-surveys",
-        "has_api": false,
-        "file_path": "countries/asia/cambodia/cambodia-nis.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "japan-estat",
         "name": {
           "en": "Japan e-Stat (Portal Site of Official Statistics)",
@@ -21272,32 +21180,6 @@
         "data_url": "https://kosis.kr/eng/",
         "has_api": true,
         "file_path": "countries/asia/kostat-cpi.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "laos-lsb",
-        "name": {
-          "en": "Lao Statistics Bureau (LSB)",
-          "zh": "老挝统计局",
-          "native": "ສູນສະຖິຕິແຫ່ງຊາດ"
-        },
-        "authority_level": "government",
-        "data_url": "https://laosis.lsb.gov.la/",
-        "has_api": false,
-        "file_path": "countries/asia/laos/laos-lsb.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {
@@ -21573,8 +21455,7 @@
         "id": "japan-mof",
         "name": {
           "en": "Ministry of Finance Japan",
-          "zh": "日本财务省",
-          "native": "財務省"
+          "zh": "日本财务省"
         },
         "authority_level": "government",
         "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
@@ -22168,8 +22049,7 @@
         "id": "brunei-deps",
         "name": {
           "en": "Department of Economic Planning and Statistics, Brunei (DEPS)",
-          "zh": "文莱经济规划与统计局",
-          "native": "Jabatan Perancangan dan Kemajuan Ekonomi"
+          "zh": "文莱经济规划与统计局"
         },
         "authority_level": "government",
         "data_url": "https://deps.mofe.gov.bn/SitePages/Statistics.aspx",
@@ -22233,8 +22113,7 @@
         "id": "japan-mof",
         "name": {
           "en": "Ministry of Finance Japan",
-          "zh": "日本财务省",
-          "native": "財務省"
+          "zh": "日本财务省"
         },
         "authority_level": "government",
         "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
@@ -22474,19 +22353,6 @@
         "data_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados",
         "has_api": true,
         "file_path": "countries/europe/portugal/portugal-ine.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:08:04.098375+00:00",
-    "total_sources": 307,
+    "generated_at": "2026-03-27T02:19:54.136922+00:00",
+    "total_sources": 306,
     "authority_counts": {
       "research": 37,
       "international": 74,
-      "government": 162,
+      "government": 161,
       "other": 3,
       "market": 16,
       "commercial": 15
@@ -2048,8 +2048,7 @@
         "id": "brunei-deps",
         "name": {
           "en": "Department of Economic Planning and Statistics, Brunei (DEPS)",
-          "zh": "文莱经济规划与统计局",
-          "native": "Jabatan Perancangan dan Kemajuan Ekonomi"
+          "zh": "文莱经济规划与统计局"
         },
         "authority_level": "government",
         "data_url": "https://deps.mofe.gov.bn/SitePages/Statistics.aspx",
@@ -2061,11 +2060,10 @@
         "id": "cambodia-nis",
         "name": {
           "en": "National Institute of Statistics of Cambodia (NIS)",
-          "zh": "柬埔寨国家统计局",
-          "native": "វិទ្យាស្ថានជាតិស្ថិតិ"
+          "zh": "柬埔寨国家统计局"
         },
         "authority_level": "government",
-        "data_url": "https://www.nis.gov.kh/index.php/km/2-uncategorised/39-cameroon-dhs-and-other-surveys",
+        "data_url": "https://camstat.nis.gov.kh/",
         "has_api": false,
         "file_path": "countries/asia/cambodia/cambodia-nis.json",
         "geographic_scope": "national"
@@ -2249,8 +2247,7 @@
         "id": "japan-mof",
         "name": {
           "en": "Ministry of Finance Japan",
-          "zh": "日本财务省",
-          "native": "財務省"
+          "zh": "日本财务省"
         },
         "authority_level": "government",
         "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
@@ -2300,8 +2297,7 @@
         "id": "laos-lsb",
         "name": {
           "en": "Lao Statistics Bureau (LSB)",
-          "zh": "老挝统计局",
-          "native": "ສູນສະຖິຕິແຫ່ງຊາດ"
+          "zh": "老挝统计局"
         },
         "authority_level": "government",
         "data_url": "https://laosis.lsb.gov.la/",
@@ -2695,26 +2691,12 @@
         "id": "romania-bnr",
         "name": {
           "en": "National Bank of Romania (BNR)",
-          "zh": "罗马尼亚国家银行",
-          "native": "Banca Națională a României"
+          "zh": "罗马尼亚国家银行"
         },
         "authority_level": "government",
         "data_url": "https://www.bnr.ro/Statistics-702.aspx",
         "has_api": true,
         "file_path": "countries/europe/romania/romania-bnr.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       },
       {

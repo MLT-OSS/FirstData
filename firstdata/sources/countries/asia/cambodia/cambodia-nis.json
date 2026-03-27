@@ -2,20 +2,18 @@
   "id": "cambodia-nis",
   "name": {
     "en": "National Institute of Statistics of Cambodia (NIS)",
-    "zh": "柬埔寨国家统计局",
-    "native": "វិទ្យាស្ថានជាតិស្ថិតិ"
+    "zh": "柬埔寨国家统计局"
   },
   "description": {
     "en": "The National Institute of Statistics (NIS) is the principal government agency responsible for official statistics in Cambodia, operating under the Ministry of Planning. It conducts the national population census, socio-economic surveys, and publishes key economic and social indicators including GDP, CPI, trade, and demographic data.",
     "zh": "柬埔寨国家统计局（NIS）是隶属于计划部的负责官方统计的主要政府机构。开展全国人口普查、社会经济调查，发布GDP、CPI、贸易和人口等关键经济社会指标。"
   },
   "website": "https://www.nis.gov.kh/",
-  "data_url": "https://www.nis.gov.kh/index.php/km/2-uncategorised/39-cameroon-dhs-and-other-surveys",
+  "data_url": "https://camstat.nis.gov.kh/",
   "api_url": null,
   "authority_level": "government",
   "country": "KH",
   "domains": [
-    "statistics",
     "economics",
     "demographics",
     "social"
