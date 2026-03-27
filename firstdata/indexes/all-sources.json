@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T01:09:53.494718+00:00",
-    "total_sources": 301,
+    "generated_at": "2026-03-27T02:08:04.067233+00:00",
+    "total_sources": 303,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -8499,6 +8499,78 @@
       "file_path": "countries/europe/belgium/belgium-statbel.json"
     },
     {
+      "id": "croatia-dzs",
+      "name": {
+        "en": "Croatian Bureau of Statistics (DZS)",
+        "zh": "克罗地亚统计局"
+      },
+      "description": {
+        "en": "Official national statistical office of the Republic of Croatia, responsible for collecting, processing, and disseminating official statistics on demographics, economy, social affairs, and the environment. Operating under the DZS (Državni zavod za statistiku), it covers EU-harmonized statistics following EUROSTAT standards.",
+        "zh": "克罗地亚共和国官方国家统计机构（Državni zavod za statistiku，DZS），负责收集、处理和发布人口、经济、社会和环境方面的官方统计数据，遵循欧盟EUROSTAT标准。"
+      },
+      "website": "https://dzs.gov.hr",
+      "data_url": "https://dzs.gov.hr/en/data-and-statistics",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "HR",
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "domains": [
+        "demographics",
+        "economics",
+        "employment",
+        "trade",
+        "agriculture",
+        "environment",
+        "social"
+      ],
+      "tags": [
+        "croatia",
+        "克罗地亚统计",
+        "DZS",
+        "eu-member",
+        "europe",
+        "official-statistics",
+        "population",
+        "gdp",
+        "eurostat-harmonized",
+        "balkans",
+        "国家统计"
+      ],
+      "data_content": {
+        "en": [
+          "National accounts - GDP, GVA by economic activity",
+          "Population census and demographic statistics",
+          "Labour force survey - employment, unemployment, wages",
+          "Consumer Price Index and harmonized inflation (HICP)",
+          "Foreign trade statistics by product and partner country",
+          "Agricultural production and land use statistics",
+          "Industrial production index and manufacturing output",
+          "Regional statistics at NUTS 2 and NUTS 3 level",
+          "Tourism statistics - arrivals, nights, receipts",
+          "Education and culture statistics",
+          "Health and social protection statistics",
+          "Transport and infrastructure statistics"
+        ],
+        "zh": [
+          "国民账户 - 按经济活动分类的GDP、GVA",
+          "人口普查和人口统计数据",
+          "劳动力调查 - 就业、失业率和工资",
+          "消费者价格指数和欧盟协调通胀率（HICP）",
+          "按产品和伙伴国分类的对外贸易统计",
+          "农业生产和土地利用统计",
+          "工业生产指数和制造业产出",
+          "NUTS 2和NUTS 3级别的区域统计",
+          "旅游统计 - 抵达人数、住宿夜数和旅游收入",
+          "教育和文化统计",
+          "卫生和社会保障统计",
+          "交通运输和基础设施统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/europe/croatia/croatia-dzs.json"
+    },
+    {
       "id": "czechia-czso",
       "name": {
         "en": "Czech Statistical Office (CZSO)",
@@ -9465,6 +9537,80 @@
       },
       "has_api": true,
       "file_path": "countries/europe/russia/russia-rosstat.json"
+    },
+    {
+      "id": "slovakia-susr",
+      "name": {
+        "en": "Statistical Office of the Slovak Republic (SUSR)",
+        "zh": "斯洛伐克共和国统计局"
+      },
+      "description": {
+        "en": "Official statistical authority of the Slovak Republic (Štatistický úrad Slovenskej republiky, ŠÚSR), responsible for coordinating and producing official national statistics in areas such as economics, social conditions, demographics, and the environment. Publishes EU-harmonized data in compliance with EUROSTAT requirements.",
+        "zh": "斯洛伐克共和国官方统计机构（Štatistický úrad Slovenskej republiky，ŠÚSR），负责协调和生产经济、社会状况、人口和环境领域的官方国家统计数据，遵循欧盟EUROSTAT要求发布协调统计。"
+      },
+      "website": "https://statistics.sk",
+      "data_url": "https://datacube.statistics.sk",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "SK",
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "domains": [
+        "demographics",
+        "economics",
+        "employment",
+        "trade",
+        "agriculture",
+        "environment",
+        "social"
+      ],
+      "tags": [
+        "slovakia",
+        "斯洛伐克统计",
+        "SUSR",
+        "ŠÚSR",
+        "eu-member",
+        "europe",
+        "official-statistics",
+        "datacube",
+        "population",
+        "gdp",
+        "eurostat-harmonized",
+        "central-europe",
+        "国家统计"
+      ],
+      "data_content": {
+        "en": [
+          "National accounts - GDP, GVA, productivity and output",
+          "Population census and demographic projections",
+          "Labour force survey - employment, unemployment, wages and earnings",
+          "Consumer Price Index and harmonized inflation (HICP)",
+          "Foreign trade statistics by commodity and partner country",
+          "Agricultural production, livestock and land use",
+          "Industrial production index and business statistics",
+          "Regional statistics at NUTS 2 and NUTS 3 level",
+          "Tourism, accommodation and hospitality statistics",
+          "Education indicators and research & development data",
+          "Health, social protection and poverty statistics",
+          "Environment and sustainable development indicators"
+        ],
+        "zh": [
+          "国民账户 - GDP、GVA、生产力和产出",
+          "人口普查和人口预测",
+          "劳动力调查 - 就业、失业率、工资和薪酬",
+          "消费者价格指数和欧盟协调通胀率（HICP）",
+          "按商品和伙伴国分类的对外贸易统计",
+          "农业生产、牲畜和土地利用",
+          "工业生产指数和商业统计",
+          "NUTS 2和NUTS 3级别的区域统计",
+          "旅游、住宿和酒店业统计",
+          "教育指标和研发数据",
+          "卫生、社会保障和贫困统计",
+          "环境和可持续发展指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/europe/slovakia/slovakia-susr.json"
     },
     {
       "id": "spain-ine",

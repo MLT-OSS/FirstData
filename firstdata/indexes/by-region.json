@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T01:09:53.494718+00:00",
-    "total_regions": 46,
-    "total_sources": 301,
+    "generated_at": "2026-03-27T02:08:04.067233+00:00",
+    "total_regions": 48,
+    "total_sources": 303,
     "version": "2.0"
   },
   "regions": {
@@ -1364,6 +1364,20 @@
         "geographic_scope": "national"
       }
     ],
+    "HR": [
+      {
+        "id": "croatia-dzs",
+        "name": {
+          "en": "Croatian Bureau of Statistics (DZS)",
+          "zh": "克罗地亚统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://dzs.gov.hr/en/data-and-statistics",
+        "has_api": false,
+        "file_path": "countries/europe/croatia/croatia-dzs.json",
+        "geographic_scope": "national"
+      }
+    ],
     "HU": [
       {
         "id": "hungary-ksh",
@@ -1850,6 +1864,20 @@
         "data_url": "https://tablebuilder.singstat.gov.sg",
         "has_api": true,
         "file_path": "singapore/national/singapore-dos.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "SK": [
+      {
+        "id": "slovakia-susr",
+        "name": {
+          "en": "Statistical Office of the Slovak Republic (SUSR)",
+          "zh": "斯洛伐克共和国统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://datacube.statistics.sk",
+        "has_api": false,
+        "file_path": "countries/europe/slovakia/slovakia-susr.json",
         "geographic_scope": "national"
       }
     ],
