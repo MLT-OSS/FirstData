@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T02:07:06.826814+00:00",
+    "generated_at": "2026-03-27T02:18:08.430594+00:00",
     "total_sources": 305,
     "authority_counts": {
       "research": 37,
@@ -2220,19 +2220,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "japan-mof",
-        "name": {
-          "en": "Ministry of Finance Japan",
-          "zh": "日本财务省",
-          "native": "財務省"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
-        "has_api": false,
-        "file_path": "countries/asia/japan/japan-mof.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "korea-bok",
         "name": {
           "en": "Bank of Korea",
@@ -2490,6 +2477,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "croatia-dzs",
+        "name": {
+          "en": "Croatian Bureau of Statistics (DZS)",
+          "zh": "克罗地亚统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://dzs.gov.hr/en/data-and-statistics",
+        "has_api": false,
+        "file_path": "countries/europe/croatia/croatia-dzs.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "czechia-czso",
         "name": {
           "en": "Czech Statistical Office (CZSO)",
@@ -2665,19 +2664,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "romania-insse",
-        "name": {
-          "en": "National Institute of Statistics of Romania (INSSE)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică"
-        },
-        "authority_level": "government",
-        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
-        "has_api": false,
-        "file_path": "countries/europe/romania/romania-insse.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "russia-rosstat",
         "name": {
           "en": "Federal State Statistics Service (Rosstat)",
@@ -2688,6 +2674,18 @@
         "data_url": "https://rosstat.gov.ru/statistics",
         "has_api": true,
         "file_path": "countries/europe/russia/russia-rosstat.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "slovakia-susr",
+        "name": {
+          "en": "Statistical Office of the Slovak Republic (SUSR)",
+          "zh": "斯洛伐克共和国统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://datacube.statistics.sk",
+        "has_api": false,
+        "file_path": "countries/europe/slovakia/slovakia-susr.json",
         "geographic_scope": "national"
       },
       {

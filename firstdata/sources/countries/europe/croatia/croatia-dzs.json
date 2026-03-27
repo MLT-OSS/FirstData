@@ -1,0 +1,70 @@
+{
+  "id": "croatia-dzs",
+  "name": {
+    "en": "Croatian Bureau of Statistics (DZS)",
+    "zh": "克罗地亚统计局"
+  },
+  "description": {
+    "en": "Official national statistical office of the Republic of Croatia, responsible for collecting, processing, and disseminating official statistics on demographics, economy, social affairs, and the environment. Operating under the DZS (Državni zavod za statistiku), it covers EU-harmonized statistics following EUROSTAT standards.",
+    "zh": "克罗地亚共和国官方国家统计机构（Državni zavod za statistiku，DZS），负责收集、处理和发布人口、经济、社会和环境方面的官方统计数据，遵循欧盟EUROSTAT标准。"
+  },
+  "website": "https://dzs.gov.hr",
+  "data_url": "https://dzs.gov.hr/en/data-and-statistics",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "HR",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "demographics",
+    "economics",
+    "employment",
+    "trade",
+    "agriculture",
+    "environment",
+    "social"
+  ],
+  "tags": [
+    "croatia",
+    "克罗地亚统计",
+    "DZS",
+    "eu-member",
+    "europe",
+    "official-statistics",
+    "population",
+    "gdp",
+    "eurostat-harmonized",
+    "balkans",
+    "国家统计"
+  ],
+  "data_content": {
+    "en": [
+      "National accounts - GDP, GVA by economic activity",
+      "Population census and demographic statistics",
+      "Labour force survey - employment, unemployment, wages",
+      "Consumer Price Index and harmonized inflation (HICP)",
+      "Foreign trade statistics by product and partner country",
+      "Agricultural production and land use statistics",
+      "Industrial production index and manufacturing output",
+      "Regional statistics at NUTS 2 and NUTS 3 level",
+      "Tourism statistics - arrivals, nights, receipts",
+      "Education and culture statistics",
+      "Health and social protection statistics",
+      "Transport and infrastructure statistics"
+    ],
+    "zh": [
+      "国民账户 - 按经济活动分类的GDP、GVA",
+      "人口普查和人口统计数据",
+      "劳动力调查 - 就业、失业率和工资",
+      "消费者价格指数和欧盟协调通胀率（HICP）",
+      "按产品和伙伴国分类的对外贸易统计",
+      "农业生产和土地利用统计",
+      "工业生产指数和制造业产出",
+      "NUTS 2和NUTS 3级别的区域统计",
+      "旅游统计 - 抵达人数、住宿夜数和旅游收入",
+      "教育和文化统计",
+      "卫生和社会保障统计",
+      "交通运输和基础设施统计"
+    ]
+  }
+}
