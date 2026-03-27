@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T02:03:10.118652+00:00",
-    "total_sources": 303,
+    "generated_at": "2026-03-27T02:07:06.826814+00:00",
+    "total_sources": 305,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -6835,6 +6835,67 @@
       "file_path": "countries/asia/japan/japan-meti.json"
     },
     {
+      "id": "japan-mof",
+      "name": {
+        "en": "Ministry of Finance Japan",
+        "zh": "日本财务省",
+        "native": "財務省"
+      },
+      "description": {
+        "en": "The Ministry of Finance (MOF) of Japan is responsible for fiscal policy, taxation, customs, and government debt management. It publishes detailed trade statistics, government bond data, budget and fiscal reports, and international financial cooperation data. MOF's Trade Statistics of Japan provides monthly and annual import/export data by commodity and country.",
+        "zh": "日本财务省负责财政政策、税收、关税和政府债务管理。发布详细的贸易统计数据、国债数据、预算和财政报告以及国际金融合作数据。财务省的贸易统计提供按商品和国家分类的月度和年度进出口数据。"
+      },
+      "website": "https://www.mof.go.jp/english/",
+      "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "JP",
+      "domains": [
+        "trade",
+        "finance",
+        "fiscal-policy",
+        "taxation"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "Japan",
+        "日本",
+        "财务省",
+        "Ministry of Finance",
+        "MOF",
+        "trade statistics",
+        "贸易统计",
+        "government bonds",
+        "国債",
+        "fiscal policy",
+        "税収",
+        "customs",
+        "関税",
+        "import",
+        "export",
+        "輸出入"
+      ],
+      "data_content": {
+        "en": [
+          "Trade Statistics of Japan: monthly/annual import and export data by commodity and country",
+          "Government bond issuance, outstanding amounts, and auction results",
+          "Budget and fiscal investment/loan program data",
+          "Tax revenue statistics and tax system information",
+          "International financial cooperation and exchange rate policy"
+        ],
+        "zh": [
+          "日本贸易统计：按商品和国家分类的月度/年度进出口数据",
+          "国债发行、余额和拍卖结果",
+          "预算和财政投融资计划数据",
+          "税收收入统计和税制信息",
+          "国际金融合作与汇率政策"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/japan/japan-mof.json"
+    },
+    {
       "id": "korea-bok",
       "name": {
         "en": "Bank of Korea",
@@ -9376,8 +9437,7 @@
       "id": "romania-ins",
       "name": {
         "en": "National Institute of Statistics (Romania)",
-        "zh": "罗马尼亚国家统计局",
-        "native": "Institutul Național de Statistică (INS)"
+        "zh": "罗马尼亚国家统计局"
       },
       "description": {
         "en": "The National Institute of Statistics (INS) is the official national statistical authority of Romania, responsible for the collection, processing, and dissemination of official statistics on the Romanian economy, population, and society. INS produces data compliant with Eurostat and EU standards, covering GDP, population census, consumer prices, employment, trade, and agricultural statistics.",
@@ -9457,6 +9517,76 @@
       },
       "has_api": true,
       "file_path": "countries/europe/romania/romania-ins.json"
+    },
+    {
+      "id": "romania-insse",
+      "name": {
+        "en": "National Institute of Statistics of Romania (INSSE)",
+        "zh": "罗马尼亚国家统计局",
+        "native": "Institutul Național de Statistică"
+      },
+      "description": {
+        "en": "The National Institute of Statistics (INSSE) is Romania's principal government agency responsible for collecting, processing, and disseminating official statistical data. It provides comprehensive national statistics covering demographics, economic indicators, industrial production, agriculture, trade, education, health, and living standards through the TEMPO Online interactive database.",
+        "zh": "罗马尼亚国家统计局（INSSE）是负责收集、处理和发布官方统计数据的主要政府机构。通过TEMPO Online交互式数据库提供涵盖人口、经济指标、工业生产、农业、贸易、教育、卫生和生活水平的全面国家统计数据。"
+      },
+      "website": "https://insse.ro/cms/en",
+      "data_url": "http://statistici.insse.ro:8077/tempo-online/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "RO",
+      "domains": [
+        "statistics",
+        "economics",
+        "demographics",
+        "trade",
+        "agriculture",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "Romania",
+        "罗马尼亚",
+        "INSSE",
+        "statistics",
+        "统计局",
+        "TEMPO Online",
+        "GDP",
+        "CPI",
+        "population",
+        "人口",
+        "industrial production",
+        "trade",
+        "贸易",
+        "agriculture",
+        "Eastern Europe",
+        "東欧",
+        "EU member"
+      ],
+      "data_content": {
+        "en": [
+          "National accounts and GDP statistics",
+          "Consumer Price Index (CPI) and inflation data",
+          "Population census and demographic statistics",
+          "Industrial production and construction indices",
+          "Foreign trade statistics by commodity and partner country",
+          "Labor market and employment data",
+          "Agriculture, forestry, and fishery statistics",
+          "Education and health statistics"
+        ],
+        "zh": [
+          "国民账户和GDP统计",
+          "消费者价格指数（CPI）和通胀数据",
+          "人口普查和人口统计数据",
+          "工业生产和建筑业指数",
+          "按商品和伙伴国分类的对外贸易统计",
+          "劳动力市场和就业数据",
+          "农业、林业和渔业统计",
+          "教育和卫生统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/europe/romania/romania-insse.json"
     },
     {
       "id": "russia-rosstat",
@@ -9556,8 +9686,7 @@
       "id": "slovenia-surs",
       "name": {
         "en": "Statistical Office of the Republic of Slovenia (SURS)",
-        "zh": "斯洛文尼亚共和国统计局",
-        "native": "Statistični urad Republike Slovenije (SURS)"
+        "zh": "斯洛文尼亚共和国统计局"
       },
       "description": {
         "en": "The Statistical Office of the Republic of Slovenia (SURS) is the official national statistical authority of Slovenia, responsible for the collection, processing, and publication of official statistics covering the Slovenian economy, society, population, and environment. SURS produces data in compliance with Eurostat and European Statistical System standards, providing open access through its SiStat database.",

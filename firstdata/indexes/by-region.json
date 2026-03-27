@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T02:03:10.118652+00:00",
+    "generated_at": "2026-03-27T02:07:06.826814+00:00",
     "total_regions": 48,
-    "total_sources": 303,
+    "total_sources": 305,
     "version": "2.0"
   },
   "regions": {
@@ -1551,6 +1551,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "japan-mof",
+        "name": {
+          "en": "Ministry of Finance Japan",
+          "zh": "日本财务省",
+          "native": "財務省"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.customs.go.jp/toukei/info/index_e.htm",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-mof.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-customs",
         "name": {
           "en": "Japan Customs Trade Statistics",
@@ -1788,13 +1801,25 @@
         "id": "romania-ins",
         "name": {
           "en": "National Institute of Statistics (Romania)",
-          "zh": "罗马尼亚国家统计局",
-          "native": "Institutul Național de Statistică (INS)"
+          "zh": "罗马尼亚国家统计局"
         },
         "authority_level": "government",
         "data_url": "https://insse.ro/cms/en/statistici-2",
         "has_api": true,
         "file_path": "countries/europe/romania/romania-ins.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "romania-insse",
+        "name": {
+          "en": "National Institute of Statistics of Romania (INSSE)",
+          "zh": "罗马尼亚国家统计局",
+          "native": "Institutul Național de Statistică"
+        },
+        "authority_level": "government",
+        "data_url": "http://statistici.insse.ro:8077/tempo-online/",
+        "has_api": false,
+        "file_path": "countries/europe/romania/romania-insse.json",
         "geographic_scope": "national"
       }
     ],
@@ -1873,8 +1898,7 @@
         "id": "slovenia-surs",
         "name": {
           "en": "Statistical Office of the Republic of Slovenia (SURS)",
-          "zh": "斯洛文尼亚共和国统计局",
-          "native": "Statistični urad Republike Slovenije (SURS)"
+          "zh": "斯洛文尼亚共和国统计局"
         },
         "authority_level": "government",
         "data_url": "https://www.stat.si/StatWeb/en",
