@@ -1,0 +1,72 @@
+{
+  "id": "china-nmpa",
+  "name": {
+    "en": "National Medical Products Administration of China",
+    "zh": "国家药品监督管理局"
+  },
+  "description": {
+    "en": "Official pharmaceutical and medical product regulatory data from China's National Medical Products Administration (NMPA). Covers drug registration and approval records, medical device certification, cosmetics regulation, pharmaceutical enterprise licensing, drug adverse reaction reports, inspection and enforcement actions, and import/export pharmaceutical data. NMPA is responsible for ensuring the safety, efficacy, and quality of drugs, medical devices, and cosmetics in China.",
+    "zh": "国家药品监督管理局（NMPA）发布的官方药品与医疗产品监管数据，涵盖药品注册与审批记录、医疗器械认证、化妆品监管、药品企业许可、药品不良反应报告、检查与执法行动及进出口药品数据。NMPA负责保障中国药品、医疗器械和化妆品的安全性、有效性和质量。"
+  },
+  "website": "https://www.nmpa.gov.cn/",
+  "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "public-health",
+    "pharmaceutical",
+    "regulation"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "药品",
+    "drug",
+    "医疗器械",
+    "medical device",
+    "化妆品",
+    "cosmetics",
+    "药品审批",
+    "drug approval",
+    "药品注册",
+    "drug registration",
+    "不良反应",
+    "adverse reaction",
+    "药品安全",
+    "drug safety",
+    "药品检验",
+    "drug inspection",
+    "NMPA",
+    "药监",
+    "pharmaceutical regulation",
+    "仿制药",
+    "generic drug",
+    "进口药品",
+    "imported drug"
+  ],
+  "data_content": {
+    "en": [
+      "Drug approval database: approved domestic and imported drugs, including active ingredients, dosage forms, manufacturers",
+      "Medical device registration database: Class I, II, and III medical devices with registration numbers and specifications",
+      "Cosmetics registration and filing database: domestic and imported products",
+      "Pharmaceutical enterprise license registry: GMP-certified manufacturers and distributors",
+      "Annual Drug Adverse Reaction Monitoring Report: ADR cases by drug type, severity, and outcome",
+      "Drug recall and safety alert announcements",
+      "Inspection and enforcement actions: unqualified product announcements and penalty records",
+      "Import drug and medical device approval statistics",
+      "Traditional Chinese medicine (TCM) product registration and standards data"
+    ],
+    "zh": [
+      "药品批准数据库：已批准的国内及进口药品，含活性成分、剂型、生产企业",
+      "医疗器械注册数据库：一、二、三类医疗器械注册号与规格参数",
+      "化妆品注册与备案数据库：国内及进口产品",
+      "药品企业许可证注册：GMP认证生产企业及经营企业",
+      "年度药品不良反应监测报告：按药品类别、严重程度和结果分类的ADR案例",
+      "药品召回与安全警示公告",
+      "检查与执法行动：不合格产品公告与处罚记录",
+      "进口药品与医疗器械审批统计",
+      "中药产品注册与标准数据"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "china-mem",
+  "name": {
+    "en": "Ministry of Emergency Management of China",
+    "zh": "中华人民共和国应急管理部"
+  },
+  "description": {
+    "en": "Official emergency management data from China's Ministry of Emergency Management (MEM). Covers natural disaster statistics, production safety accidents, fire incidents, earthquake damage assessments, flood and drought disaster records, and emergency response outcomes. Publishes annual statistical reports on disasters and safety incidents across all provinces, with data on casualties, economic losses, rescue operations, and post-disaster recovery.",
+    "zh": "中国应急管理部发布的官方应急管理数据，涵盖自然灾害统计、生产安全事故、火灾事故、地震灾害评估、洪涝干旱灾害记录及应急救援情况。发布全国及各省年度灾害与安全事故统计报告，包括人员伤亡、经济损失、救援行动及灾后恢复数据。"
+  },
+  "website": "https://www.mem.gov.cn/",
+  "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "public-safety",
+    "environment",
+    "social"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "应急管理",
+    "emergency management",
+    "自然灾害",
+    "natural disaster",
+    "生产安全",
+    "production safety",
+    "火灾",
+    "fire",
+    "地震",
+    "earthquake",
+    "洪涝",
+    "flood",
+    "干旱",
+    "drought",
+    "矿难",
+    "mining accident",
+    "救援",
+    "rescue",
+    "灾情统计",
+    "disaster statistics",
+    "MEM",
+    "安全生产",
+    "work safety"
+  ],
+  "data_content": {
+    "en": [
+      "Annual national natural disaster statistics: affected population, deaths, missing persons, evacuated people, economic losses",
+      "Production safety accident data by industry: mining, construction, transportation, chemical, fireworks",
+      "Fire incident statistics: number of fires, casualties, property losses by region and fire type",
+      "Flood and drought disaster assessment reports with provincial breakdowns",
+      "Emergency response and disaster relief operation records",
+      "Earthquake damage assessment and post-earthquake reconstruction data",
+      "Safety inspection and enforcement records for high-risk industries",
+      "National emergency preparedness and response capability assessments"
+    ],
+    "zh": [
+      "全国年度自然灾害统计：受灾人口、死亡失踪人数、转移安置人员、直接经济损失",
+      "各行业生产安全事故数据：矿山、建筑、交通、化工、烟花爆竹等",
+      "火灾事故统计：全国及各地区火灾起数、伤亡人数、财产损失",
+      "洪涝干旱灾害评估报告（含分省数据）",
+      "应急救援与抗灾救灾行动记录",
+      "地震灾害评估与震后重建数据",
+      "高危行业安全检查与执法记录",
+      "全国应急备灾与应急能力建设评估"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "china-gas",
+  "name": {
+    "en": "General Administration of Sport of China",
+    "zh": "国家体育总局"
+  },
+  "description": {
+    "en": "Official sports and physical fitness data from China's General Administration of Sport (GAS). Covers national physical fitness survey results, sports industry statistics, competitive sports performance records, sporting event registrations, sports facility infrastructure data, and national fitness program participation rates. Publishes reports on the development of China's sports industry, athlete management, professional leagues, and public physical fitness standards.",
+    "zh": "国家体育总局发布的官方体育与全民健身数据，涵盖全国体质调研结果、体育产业统计、竞技体育成绩记录、体育赛事注册、体育设施基础设施数据及全民健身计划参与情况。发布中国体育产业发展报告、运动员管理、职业联赛及全民体质标准数据。"
+  },
+  "website": "https://www.sport.gov.cn/",
+  "data_url": "https://www.sport.gov.cn/n315/n329/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "sports",
+    "social",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "体育",
+    "sports",
+    "全民健身",
+    "national fitness",
+    "体质调研",
+    "physical fitness survey",
+    "体育产业",
+    "sports industry",
+    "竞技体育",
+    "competitive sports",
+    "运动员",
+    "athlete",
+    "体育设施",
+    "sports facilities",
+    "奥运",
+    "Olympics",
+    "职业联赛",
+    "professional league",
+    "GAS",
+    "国家体育",
+    "体育统计",
+    "sports statistics"
+  ],
+  "data_content": {
+    "en": [
+      "National Physical Fitness Monitoring Report: body composition, physical capacity, and fitness levels by age group and region (conducted every 5 years)",
+      "Sports industry statistical data: total output value, employment, sports services, sporting goods manufacturing",
+      "Competitive sports medal tally and performance records at national and international competitions",
+      "Registered athletes, coaches, and sports organizations by sport and province",
+      "Sports facility census: gymnasiums, swimming pools, sports fields, fitness centers nationwide",
+      "National Fitness Program participation rates and community sports activity data",
+      "Professional league attendance and viewership statistics (football, basketball, volleyball)",
+      "Youth sports development programs and school physical education statistics"
+    ],
+    "zh": [
+      "全国体质监测报告：按年龄组和地区划分的体成分、体能和健康水平（每5年开展一次）",
+      "体育产业统计数据：总产出、就业人数、体育服务业、体育用品制造业",
+      "全国及国际比赛竞技体育奖牌与成绩记录",
+      "按项目和省份分类的注册运动员、教练员和体育组织",
+      "体育设施普查：全国体育馆、游泳池、运动场及健身中心",
+      "全民健身计划参与率和社区体育活动数据",
+      "职业联赛上座率与收视统计（足球、篮球、排球）",
+      "青少年体育发展计划与学校体育统计"
+    ]
+  }
+}

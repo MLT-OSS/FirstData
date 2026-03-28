@@ -1,0 +1,70 @@
+{
+  "id": "china-sta",
+  "name": {
+    "en": "State Taxation Administration of China",
+    "zh": "国家税务总局"
+  },
+  "description": {
+    "en": "Official tax revenue and fiscal data from China's State Taxation Administration (STA). Covers national and provincial tax revenue statistics by tax category (VAT, corporate income tax, individual income tax, consumption tax, etc.), taxpayer registration data, invoice and electronic invoicing statistics, tax preferential policy beneficiaries, and cross-border tax information. The STA is the primary government agency responsible for tax collection, administration, and enforcement across China.",
+    "zh": "国家税务总局发布的官方税收与财政数据，涵盖全国及各省按税种（增值税、企业所得税、个人所得税、消费税等）分类的税收收入统计、纳税人登记信息、发票与电子发票统计、税收优惠政策受惠情况及跨境税收信息。国家税务总局是负责全国税收征收、管理和执法的主要政府机构。"
+  },
+  "website": "https://www.chinatax.gov.cn/",
+  "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/n810780/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "governance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "税收",
+    "tax revenue",
+    "增值税",
+    "VAT",
+    "企业所得税",
+    "corporate income tax",
+    "个人所得税",
+    "individual income tax",
+    "消费税",
+    "consumption tax",
+    "财政收入",
+    "fiscal revenue",
+    "纳税人",
+    "taxpayer",
+    "电子发票",
+    "e-invoice",
+    "税收优惠",
+    "tax incentive",
+    "STA",
+    "国税",
+    "taxation",
+    "跨境税收",
+    "cross-border tax"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly and annual national tax revenue by tax category: VAT, corporate income tax, individual income tax, consumption tax, customs duties",
+      "Provincial tax revenue breakdown and year-on-year growth rates",
+      "Taxpayer registration statistics: number of registered enterprises, individuals, and organizations",
+      "Tax preferential policy data: beneficiary count and amount of tax reductions for R&D, small enterprises, manufacturing",
+      "Invoice issuance statistics: volume of paper and electronic invoices by industry",
+      "Export tax rebate data by industry and province",
+      "Cross-border e-commerce tax collection statistics",
+      "Tax enforcement and compliance data: audits, penalties, tax arrears recovery"
+    ],
+    "zh": [
+      "按税种分类的全国月度及年度税收收入：增值税、企业所得税、个人所得税、消费税、关税",
+      "各省税收收入分解及同比增速",
+      "纳税人登记统计：注册企业、个人及机构数量",
+      "税收优惠政策数据：研发、小微企业、制造业减税受益数量与金额",
+      "发票开具统计：各行业纸质与电子发票量",
+      "出口退税数据（按行业及省份）",
+      "跨境电子商务税收征管统计",
+      "税收执法与合规数据：稽查、处罚、欠税追缴"
+    ]
+  }
+}

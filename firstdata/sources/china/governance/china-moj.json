@@ -1,0 +1,70 @@
+{
+  "id": "china-moj",
+  "name": {
+    "en": "Ministry of Justice of China",
+    "zh": "中华人民共和国司法部"
+  },
+  "description": {
+    "en": "Official legal and judicial statistics from China's Ministry of Justice (MOJ). Covers data on lawyers and law firms, notarization services, legal aid, judicial expertise, community corrections, prison populations, and rule-of-law construction. Publishes annual statistical bulletins on the justice system, including the number of registered attorneys, legal aid recipients, arbitration cases, and administrative law enforcement activities.",
+    "zh": "中国司法部发布的官方法制与司法统计数据，涵盖律师与律师事务所、公证服务、法律援助、司法鉴定、社区矫正、监狱人口及法治建设情况。发布年度司法行政统计公报，包括注册律师人数、法律援助受援人数、仲裁案件及行政执法活动等数据。"
+  },
+  "website": "https://www.moj.gov.cn/",
+  "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgk/tjxx/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "legal",
+    "social"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "司法",
+    "justice",
+    "律师",
+    "lawyer",
+    "法律援助",
+    "legal aid",
+    "公证",
+    "notarization",
+    "司法鉴定",
+    "judicial expertise",
+    "社区矫正",
+    "community corrections",
+    "监狱",
+    "prison",
+    "法治",
+    "rule of law",
+    "仲裁",
+    "arbitration",
+    "行政执法",
+    "administrative enforcement",
+    "MOJ",
+    "司法行政",
+    "judicial administration"
+  ],
+  "data_content": {
+    "en": [
+      "Annual statistics on registered lawyers, law firms, and legal practitioners across China",
+      "Legal aid case volume: criminal defense, civil litigation, administrative cases by province",
+      "Notarization service statistics: number of notarizations, types, and regional distribution",
+      "Judicial expertise institutions and appraisal case statistics",
+      "Community corrections data: persons under supervision, offense types, rehabilitation outcomes",
+      "Prison population statistics: incarcerated persons, types of offenses, release records",
+      "Administrative law enforcement inspection and penalty records",
+      "Legal education and rule-of-law publicity campaign data"
+    ],
+    "zh": [
+      "全国注册律师、律师事务所及法律从业人员年度统计",
+      "法律援助案件量：刑事辩护、民事诉讼、行政案件（含分省数据）",
+      "公证服务统计：公证件数、类别及地区分布",
+      "司法鉴定机构与鉴定案件数量统计",
+      "社区矫正数据：在矫人员数量、犯罪类型、矫正效果",
+      "监狱人口统计：服刑人员数量、犯罪类型、释放记录",
+      "行政执法检查与处罚记录",
+      "法治宣传教育活动数据"
+    ]
+  }
+}
