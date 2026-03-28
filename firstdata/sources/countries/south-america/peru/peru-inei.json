@@ -1,0 +1,85 @@
+{
+  "id": "peru-inei",
+  "name": {
+    "en": "National Institute of Statistics and Informatics of Peru (INEI)",
+    "zh": "秘鲁国家统计和信息学研究所"
+  },
+  "description": {
+    "en": "The National Institute of Statistics and Informatics (Instituto Nacional de Estadística e Informática, INEI) is the official statistical agency of Peru, responsible for producing and disseminating official national statistics covering economic activity, population, employment, prices, trade, and social conditions. INEI conducts national censuses, household surveys, and compiles key macroeconomic indicators for Peru.",
+    "zh": "秘鲁国家统计和信息学研究所（INEI）是秘鲁官方统计机构，负责生产和发布涵盖经济活动、人口、就业、价格、贸易和社会状况的官方国家统计数据。INEI开展全国人口普查、家庭调查，并编制秘鲁主要宏观经济指标。"
+  },
+  "website": "https://www.inei.gob.pe",
+  "data_url": "https://www.inei.gob.pe/estadisticas/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "PE",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "demographics",
+    "economics",
+    "employment",
+    "prices",
+    "trade",
+    "social",
+    "agriculture",
+    "industry"
+  ],
+  "tags": [
+    "peru",
+    "INEI",
+    "peru statistics",
+    "instituto nacional estadistica",
+    "population census",
+    "south-america",
+    "latin-america",
+    "GDP",
+    "national accounts",
+    "CPI",
+    "inflation",
+    "employment",
+    "household survey",
+    "poverty",
+    "秘鲁",
+    "秘鲁统计局",
+    "国家统计",
+    "人口普查",
+    "经济统计",
+    "GDP",
+    "消费价格",
+    "就业",
+    "家庭调查",
+    "贫困",
+    "拉丁美洲"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and national accounts by sector",
+      "Population census and demographic projections",
+      "Consumer price index (IPC) and inflation",
+      "National household survey (ENAHO) - poverty and living conditions",
+      "Employment and labour force survey",
+      "Foreign trade statistics by product and partner country",
+      "Industrial production and manufacturing output",
+      "Agricultural production statistics",
+      "Business and enterprise statistics",
+      "Health and education indicators",
+      "Regional and subnational statistics by department",
+      "Social and welfare statistics"
+    ],
+    "zh": [
+      "按行业GDP与国民账户",
+      "人口普查与人口预测",
+      "消费者价格指数（IPC）与通货膨胀",
+      "全国家庭调查（ENAHO）- 贫困与生活条件",
+      "就业与劳动力调查",
+      "按产品和伙伴国分类的对外贸易统计",
+      "工业生产与制造业产出",
+      "农业生产统计",
+      "企业与工商统计",
+      "卫生和教育指标",
+      "按省份的地区和次国家统计",
+      "社会和福利统计"
+    ]
+  }
+}

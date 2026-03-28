@@ -1,0 +1,89 @@
+{
+  "id": "bulgaria-nsi",
+  "name": {
+    "en": "National Statistical Institute of Bulgaria (NSI)",
+    "zh": "保加利亚国家统计局"
+  },
+  "description": {
+    "en": "The National Statistical Institute (NSI / Национален статистически институт, НСИ) is the official national statistical authority of Bulgaria, responsible for the collection, processing, and publication of official statistics on the Bulgarian economy, population, and society. NSI produces data harmonized with Eurostat and EU standards, covering GDP, population census, consumer prices, employment, trade, and social statistics.",
+    "zh": "保加利亚国家统计局（NSI / Национален статистически институт，НСИ）是保加利亚官方国家统计机构，负责收集、处理和发布有关保加利亚经济、人口和社会的官方统计数据。NSI生产与欧盟统计局（Eurostat）标准协调的数据，涵盖GDP、人口普查、消费价格、就业、贸易和社会统计。"
+  },
+  "website": "https://www.nsi.bg",
+  "data_url": "https://www.nsi.bg/en/content/2666/statisticsdatabases",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "BG",
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "domains": [
+    "economics",
+    "demographics",
+    "employment",
+    "trade",
+    "prices",
+    "social",
+    "agriculture",
+    "industry",
+    "environment"
+  ],
+  "tags": [
+    "bulgaria",
+    "NSI",
+    "НСИ",
+    "national statistical institute",
+    "balkan",
+    "eastern-europe",
+    "eu-member",
+    "eurostat-harmonized",
+    "population census",
+    "GDP",
+    "national accounts",
+    "CPI",
+    "inflation",
+    "employment",
+    "foreign trade",
+    "official-statistics",
+    "保加利亚",
+    "保加利亚统计局",
+    "国家统计",
+    "人口普查",
+    "经济统计",
+    "GDP",
+    "消费价格",
+    "就业",
+    "贸易",
+    "欧盟"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and national accounts by sector and expenditure",
+      "Population census and demographic projections",
+      "Consumer price index and harmonized inflation (HICP)",
+      "Labour force survey - employment, unemployment, and wages",
+      "Foreign trade statistics by commodity and partner country",
+      "Industrial production index and manufacturing statistics",
+      "Agricultural production, livestock, and land use",
+      "Business and enterprise statistics",
+      "Regional statistics at NUTS 2 and NUTS 3 level",
+      "Tourism and hospitality statistics",
+      "Social protection and poverty statistics",
+      "Education and research & development indicators",
+      "Environment and energy statistics"
+    ],
+    "zh": [
+      "按行业和支出GDP与国民账户",
+      "人口普查与人口预测",
+      "消费者价格指数和欧盟协调通胀率（HICP）",
+      "劳动力调查 - 就业、失业率和工资",
+      "按商品和伙伴国分类的对外贸易统计",
+      "工业生产指数和制造业统计",
+      "农业生产、牲畜和土地利用",
+      "企业与工商统计",
+      "NUTS 2和NUTS 3级别的区域统计",
+      "旅游和酒店业统计",
+      "社会保障和贫困统计",
+      "教育与研发指标",
+      "环境与能源统计"
+    ]
+  }
+}
