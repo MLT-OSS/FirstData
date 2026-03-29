@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-28T18:59:30.613275+00:00",
-    "total_domains": 711,
+    "generated_at": "2026-03-29T17:17:09.284112+00:00",
+    "total_domains": 703,
     "total_sources": 313,
     "version": "2.0"
   },
@@ -1243,7 +1243,7 @@
         "geographic_scope": "global"
       }
     ],
-    "atmospheric_science": [
+    "atmospheric-science": [
       {
         "id": "noaa-cdo",
         "name": {
@@ -1399,9 +1399,7 @@
         "has_api": true,
         "file_path": "countries/asia/india/india-rbi.json",
         "geographic_scope": "national"
-      }
-    ],
-    "balance_of_payments": [
+      },
       {
         "id": "korea-bok",
         "name": {
@@ -1621,7 +1619,7 @@
         "geographic_scope": "regional"
       }
     ],
-    "banking_statistics": [
+    "banking-statistics": [
       {
         "id": "korea-bok",
         "name": {
@@ -2132,7 +2130,7 @@
         "geographic_scope": "global"
       }
     ],
-    "business_registration": [
+    "business-registration": [
       {
         "id": "vietnam-fia",
         "name": {
@@ -2146,7 +2144,7 @@
         "geographic_scope": "national"
       }
     ],
-    "business_surveys": [
+    "business-surveys": [
       {
         "id": "korea-bok",
         "name": {
@@ -2241,20 +2239,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "hk-sfc",
-        "name": {
-          "en": "Securities and Futures Commission of Hong Kong",
-          "zh": "香港证券及期货事务监察委员会"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.sfc.hk/en/Regulatory-functions/Products",
-        "has_api": false,
-        "file_path": "countries/asia/hk-sfc.json",
-        "geographic_scope": "national"
-      }
-    ],
-    "capital_markets": [
-      {
         "id": "china-csrc",
         "name": {
           "en": "China Securities Regulatory Commission",
@@ -2279,6 +2263,18 @@
         "has_api": true,
         "file_path": "china/finance/securities/hkex.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "hk-sfc",
+        "name": {
+          "en": "Securities and Futures Commission of Hong Kong",
+          "zh": "香港证券及期货事务监察委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sfc.hk/en/Regulatory-functions/Products",
+        "has_api": false,
+        "file_path": "countries/asia/hk-sfc.json",
+        "geographic_scope": "national"
       }
     ],
     "carbon emissions": [
@@ -3001,7 +2997,7 @@
         "geographic_scope": "global"
       }
     ],
-    "clinical_research": [
+    "clinical-research": [
       {
         "id": "clinicaltrials-gov",
         "name": {
@@ -3625,7 +3621,7 @@
         "geographic_scope": "national"
       }
     ],
-    "consumer_surveys": [
+    "consumer-surveys": [
       {
         "id": "korea-bok",
         "name": {
@@ -3654,7 +3650,7 @@
         "geographic_scope": "global"
       }
     ],
-    "continuing_care": [
+    "continuing-care": [
       {
         "id": "canada-cihi",
         "name": {
@@ -4140,7 +4136,7 @@
         "geographic_scope": "global"
       }
     ],
-    "data_governance": [
+    "data-governance": [
       {
         "id": "china-national-data-bureau",
         "name": {
@@ -5570,9 +5566,7 @@
         "has_api": false,
         "file_path": "china/research/china-caict.json",
         "geographic_scope": "national"
-      }
-    ],
-    "digital_economy": [
+      },
       {
         "id": "china-national-data-bureau",
         "name": {
@@ -5586,7 +5580,7 @@
         "geographic_scope": "national"
       }
     ],
-    "digital_infrastructure": [
+    "digital-infrastructure": [
       {
         "id": "china-national-data-bureau",
         "name": {
@@ -5628,7 +5622,7 @@
         "geographic_scope": "global"
       }
     ],
-    "disaster_management": [
+    "disaster-management": [
       {
         "id": "copernicus-open-access-hub",
         "name": {
@@ -6189,7 +6183,7 @@
         "geographic_scope": "national"
       }
     ],
-    "economic_development": [
+    "economic-development": [
       {
         "id": "vietnam-fia",
         "name": {
@@ -6203,7 +6197,7 @@
         "geographic_scope": "national"
       }
     ],
-    "economic_indicators": [
+    "economic-indicators": [
       {
         "id": "canada-boc",
         "name": {
@@ -8518,7 +8512,7 @@
         "geographic_scope": "global"
       }
     ],
-    "emergency_care": [
+    "emergency-care": [
       {
         "id": "canada-cihi",
         "name": {
@@ -10406,7 +10400,7 @@
         "geographic_scope": "global"
       }
     ],
-    "environmental_science": [
+    "environmental-science": [
       {
         "id": "noaa-cdo",
         "name": {
@@ -10681,9 +10675,7 @@
         "has_api": true,
         "file_path": "countries/asia/india/india-rbi.json",
         "geographic_scope": "national"
-      }
-    ],
-    "exchange_rates": [
+      },
       {
         "id": "korea-bok",
         "name": {
@@ -11657,33 +11649,7 @@
         "geographic_scope": "global"
       }
     ],
-    "financial-stability": [
-      {
-        "id": "us-federalreserve",
-        "name": {
-          "en": "Federal Reserve Board",
-          "zh": "美联储理事会"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.federalreserve.gov/data.htm",
-        "has_api": false,
-        "file_path": "countries/north-america/usa/us-federalreserve.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "iais",
-        "name": {
-          "en": "IAIS - International Association of Insurance Supervisors",
-          "zh": "国际保险监督官协会"
-        },
-        "authority_level": "international",
-        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
-        "has_api": false,
-        "file_path": "international/finance/iais.json",
-        "geographic_scope": "global"
-      }
-    ],
-    "financial_markets": [
+    "financial-markets": [
       {
         "id": "canada-boc",
         "name": {
@@ -11711,7 +11677,33 @@
         "geographic_scope": "national"
       }
     ],
-    "financial_statistics": [
+    "financial-stability": [
+      {
+        "id": "us-federalreserve",
+        "name": {
+          "en": "Federal Reserve Board",
+          "zh": "美联储理事会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.federalreserve.gov/data.htm",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-federalreserve.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "iais",
+        "name": {
+          "en": "IAIS - International Association of Insurance Supervisors",
+          "zh": "国际保险监督官协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.iais.org/activities-topics/financial-stability/gimar/",
+        "has_api": false,
+        "file_path": "international/finance/iais.json",
+        "geographic_scope": "global"
+      }
+    ],
+    "financial-statistics": [
       {
         "id": "korea-bok",
         "name": {
@@ -11845,7 +11837,7 @@
         "geographic_scope": "national"
       }
     ],
-    "flow_of_funds": [
+    "flow-of-funds": [
       {
         "id": "korea-bok",
         "name": {
@@ -12234,7 +12226,7 @@
         "geographic_scope": "national"
       }
     ],
-    "foreign_direct_investment": [
+    "foreign-direct-investment": [
       {
         "id": "vietnam-fia",
         "name": {
@@ -12410,20 +12402,6 @@
     ],
     "gender-equality": [
       {
-        "id": "unfpa-urbanization",
-        "name": {
-          "zh": "联合国人口基金 - 城镇化数据",
-          "en": "UNFPA - Urbanization Data"
-        },
-        "authority_level": "international",
-        "data_url": "https://www.unfpa.org/urbanization",
-        "has_api": false,
-        "file_path": "international/demographics/unfpa-urbanization.json",
-        "geographic_scope": "global"
-      }
-    ],
-    "gender_equality": [
-      {
         "id": "unfpa-china",
         "name": {
           "en": "UNFPA China",
@@ -12434,6 +12412,18 @@
         "has_api": false,
         "file_path": "international/demographics/unfpa-china.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "unfpa-urbanization",
+        "name": {
+          "zh": "联合国人口基金 - 城镇化数据",
+          "en": "UNFPA - Urbanization Data"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.unfpa.org/urbanization",
+        "has_api": false,
+        "file_path": "international/demographics/unfpa-urbanization.json",
+        "geographic_scope": "global"
       }
     ],
     "genetics": [
@@ -13669,7 +13659,7 @@
         "geographic_scope": "global"
       }
     ],
-    "health_care": [
+    "health-care": [
       {
         "id": "canada-cihi",
         "name": {
@@ -13684,7 +13674,7 @@
         "geographic_scope": "national"
       }
     ],
-    "health_spending": [
+    "health-spending": [
       {
         "id": "canada-cihi",
         "name": {
@@ -13699,7 +13689,7 @@
         "geographic_scope": "national"
       }
     ],
-    "health_system_performance": [
+    "health-system-performance": [
       {
         "id": "canada-cihi",
         "name": {
@@ -13714,7 +13704,7 @@
         "geographic_scope": "national"
       }
     ],
-    "health_workforce": [
+    "health-workforce": [
       {
         "id": "canada-cihi",
         "name": {
@@ -13811,6 +13801,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-moe-higher-education",
+        "name": {
+          "en": "Ministry of Education of China - Higher Education Statistics",
+          "zh": "中华人民共和国教育部高等教育统计"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
+        "has_api": false,
+        "file_path": "china/education/higher_education/china-moe-higher-education.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "moe-china",
         "name": {
           "en": "Ministry of Education of the People's Republic of China",
@@ -13835,20 +13837,6 @@
         "geographic_scope": "national"
       }
     ],
-    "higher_education": [
-      {
-        "id": "china-moe-higher-education",
-        "name": {
-          "en": "Ministry of Education of China - Higher Education Statistics",
-          "zh": "中华人民共和国教育部高等教育统计"
-        },
-        "authority_level": "government",
-        "data_url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
-        "has_api": false,
-        "file_path": "china/education/higher_education/china-moe-higher-education.json",
-        "geographic_scope": "national"
-      }
-    ],
     "homelessness": [
       {
         "id": "aus-aihw",
@@ -13863,7 +13851,7 @@
         "geographic_scope": "national"
       }
     ],
-    "hospital_services": [
+    "hospital-services": [
       {
         "id": "canada-cihi",
         "name": {
@@ -15430,7 +15418,7 @@
         "geographic_scope": "global"
       }
     ],
-    "intellectual_property": [
+    "intellectual-property": [
       {
         "id": "china-cnipa-patents",
         "name": {
@@ -15509,7 +15497,7 @@
         "geographic_scope": "regional"
       }
     ],
-    "interest_rates": [
+    "interest-rates": [
       {
         "id": "korea-bok",
         "name": {
@@ -15712,21 +15700,7 @@
         "geographic_scope": "global"
       }
     ],
-    "international-exchange": [
-      {
-        "id": "cscse",
-        "name": {
-          "en": "Chinese Service Center for Scholarly Exchange",
-          "zh": "教育部留学服务中心"
-        },
-        "authority_level": "government",
-        "data_url": "https://zwfw.cscse.edu.cn",
-        "has_api": false,
-        "file_path": "china/education/cscse.json",
-        "geographic_scope": "national"
-      }
-    ],
-    "international_commerce": [
+    "international-commerce": [
       {
         "id": "china-customs",
         "name": {
@@ -15738,6 +15712,20 @@
         "data_url": "http://www.customs.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/customs.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "international-exchange": [
+      {
+        "id": "cscse",
+        "name": {
+          "en": "Chinese Service Center for Scholarly Exchange",
+          "zh": "教育部留学服务中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://zwfw.cscse.edu.cn",
+        "has_api": false,
+        "file_path": "china/education/cscse.json",
         "geographic_scope": "national"
       }
     ],
@@ -15913,7 +15901,7 @@
         "geographic_scope": "national"
       }
     ],
-    "investment_policy": [
+    "investment-policy": [
       {
         "id": "vietnam-fia",
         "name": {
@@ -16189,7 +16177,7 @@
         "geographic_scope": "regional"
       }
     ],
-    "labor_market": [
+    "labor-market": [
       {
         "id": "mx-banxico",
         "name": {
@@ -16387,7 +16375,7 @@
         "geographic_scope": "global"
       }
     ],
-    "life_sciences": [
+    "life-sciences": [
       {
         "id": "pubmed",
         "name": {
@@ -17138,7 +17126,7 @@
         "geographic_scope": "global"
       }
     ],
-    "medical_imaging": [
+    "medical-imaging": [
       {
         "id": "canada-cihi",
         "name": {
@@ -17153,7 +17141,7 @@
         "geographic_scope": "national"
       }
     ],
-    "medical_trials": [
+    "medical-trials": [
       {
         "id": "clinicaltrials-gov",
         "name": {
@@ -17221,7 +17209,7 @@
         "geographic_scope": "national"
       }
     ],
-    "mental_health": [
+    "mental-health": [
       {
         "id": "canada-cihi",
         "name": {
@@ -17607,57 +17595,6 @@
     ],
     "monetary-policy": [
       {
-        "id": "india-rbi",
-        "name": {
-          "en": "Reserve Bank of India",
-          "zh": "印度储备银行",
-          "native": "भारतीय रिज़र्व बैंक"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
-        "has_api": true,
-        "file_path": "countries/asia/india/india-rbi.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "romania-bnr",
-        "name": {
-          "en": "National Bank of Romania (BNR)",
-          "zh": "罗马尼亚国家银行"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.bnr.ro/Statistics-702.aspx",
-        "has_api": true,
-        "file_path": "countries/europe/romania/romania-bnr.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "us-federalreserve",
-        "name": {
-          "en": "Federal Reserve Board",
-          "zh": "美联储理事会"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.federalreserve.gov/data.htm",
-        "has_api": false,
-        "file_path": "countries/north-america/usa/us-federalreserve.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "bis-cbta",
-        "name": {
-          "en": "BIS Central Bank Total Assets",
-          "zh": "国际清算银行中央银行总资产统计"
-        },
-        "authority_level": "international",
-        "data_url": "https://data.bis.org/topics/CBTA",
-        "has_api": true,
-        "file_path": "international/finance/bis-cbta.json",
-        "geographic_scope": "global"
-      }
-    ],
-    "monetary_policy": [
-      {
         "id": "china-pbc",
         "name": {
           "en": "People's Bank of China",
@@ -17680,6 +17617,19 @@
         "data_url": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/",
         "has_api": true,
         "file_path": "countries/asia/hkma.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "india-rbi",
+        "name": {
+          "en": "Reserve Bank of India",
+          "zh": "印度储备银行",
+          "native": "भारतीय रिज़र्व बैंक"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rbi.org.in/Scripts/Statistics.aspx",
+        "has_api": true,
+        "file_path": "countries/asia/india/india-rbi.json",
         "geographic_scope": "national"
       },
       {
@@ -17708,6 +17658,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "romania-bnr",
+        "name": {
+          "en": "National Bank of Romania (BNR)",
+          "zh": "罗马尼亚国家银行"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.bnr.ro/Statistics-702.aspx",
+        "has_api": true,
+        "file_path": "countries/europe/romania/romania-bnr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "canada-boc",
         "name": {
           "en": "Bank of Canada",
@@ -17732,6 +17694,30 @@
         "has_api": true,
         "file_path": "countries/north-america/mexico/banxico.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "us-federalreserve",
+        "name": {
+          "en": "Federal Reserve Board",
+          "zh": "美联储理事会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.federalreserve.gov/data.htm",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-federalreserve.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "bis-cbta",
+        "name": {
+          "en": "BIS Central Bank Total Assets",
+          "zh": "国际清算银行中央银行总资产统计"
+        },
+        "authority_level": "international",
+        "data_url": "https://data.bis.org/topics/CBTA",
+        "has_api": true,
+        "file_path": "international/finance/bis-cbta.json",
+        "geographic_scope": "global"
       }
     ],
     "money supply": [
@@ -17892,7 +17878,7 @@
         "geographic_scope": "regional"
       }
     ],
-    "national_accounts": [
+    "national-accounts": [
       {
         "id": "korea-bok",
         "name": {
@@ -18435,7 +18421,7 @@
         "geographic_scope": "global"
       }
     ],
-    "patient_outcomes": [
+    "patient-outcomes": [
       {
         "id": "canada-cihi",
         "name": {
@@ -18514,7 +18500,7 @@
         "geographic_scope": "national"
       }
     ],
-    "payment_systems": [
+    "payment-systems": [
       {
         "id": "mx-banxico",
         "name": {
@@ -19038,7 +19024,7 @@
         "geographic_scope": "global"
       }
     ],
-    "population_health": [
+    "population-health": [
       {
         "id": "canada-cihi",
         "name": {
@@ -19189,7 +19175,7 @@
         "geographic_scope": "national"
       }
     ],
-    "price_indices": [
+    "price-indices": [
       {
         "id": "korea-bok",
         "name": {
@@ -19788,7 +19774,7 @@
         "geographic_scope": "regional"
       }
     ],
-    "public_finance": [
+    "public-finance": [
       {
         "id": "mx-banxico",
         "name": {
@@ -19803,7 +19789,7 @@
         "geographic_scope": "national"
       }
     ],
-    "public_health": [
+    "public-health": [
       {
         "id": "china-mee",
         "name": {
@@ -20080,20 +20066,6 @@
     ],
     "reproductive-health": [
       {
-        "id": "unfpa-urbanization",
-        "name": {
-          "zh": "联合国人口基金 - 城镇化数据",
-          "en": "UNFPA - Urbanization Data"
-        },
-        "authority_level": "international",
-        "data_url": "https://www.unfpa.org/urbanization",
-        "has_api": false,
-        "file_path": "international/demographics/unfpa-urbanization.json",
-        "geographic_scope": "global"
-      }
-    ],
-    "reproductive_health": [
-      {
         "id": "unfpa-china",
         "name": {
           "en": "UNFPA China",
@@ -20104,6 +20076,18 @@
         "has_api": false,
         "file_path": "international/demographics/unfpa-china.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "unfpa-urbanization",
+        "name": {
+          "zh": "联合国人口基金 - 城镇化数据",
+          "en": "UNFPA - Urbanization Data"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.unfpa.org/urbanization",
+        "has_api": false,
+        "file_path": "international/demographics/unfpa-urbanization.json",
+        "geographic_scope": "global"
       }
     ],
     "research": [
@@ -21390,6 +21374,20 @@
         "geographic_scope": "national"
       }
     ],
+    "social-security": [
+      {
+        "id": "china-mohrss",
+        "name": {
+          "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
+          "zh": "人力资源和社会保障部统计数据"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/szrs/",
+        "has_api": false,
+        "file_path": "china/economy/labor/china-mohrss.json",
+        "geographic_scope": "national"
+      }
+    ],
     "social-services": [
       {
         "id": "mexico-coneval",
@@ -21402,20 +21400,6 @@
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
-        "geographic_scope": "national"
-      }
-    ],
-    "social_security": [
-      {
-        "id": "china-mohrss",
-        "name": {
-          "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
-          "zh": "人力资源和社会保障部统计数据"
-        },
-        "authority_level": "government",
-        "data_url": "http://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/szrs/",
-        "has_api": false,
-        "file_path": "china/economy/labor/china-mohrss.json",
         "geographic_scope": "national"
       }
     ],
@@ -21938,7 +21922,7 @@
         "geographic_scope": "global"
       }
     ],
-    "sustainable_development": [
+    "sustainable-development": [
       {
         "id": "unfpa-china",
         "name": {
@@ -24016,7 +24000,7 @@
         "geographic_scope": "national"
       }
     ],
-    "water_utilities": [
+    "water-utilities": [
       {
         "id": "unctad-infrastructure-statistics",
         "name": {
@@ -24155,7 +24139,7 @@
         "geographic_scope": "regional"
       }
     ],
-    "youth_development": [
+    "youth-development": [
       {
         "id": "unfpa-china",
         "name": {

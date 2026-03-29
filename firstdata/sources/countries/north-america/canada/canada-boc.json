@@ -14,13 +14,13 @@
   "api_url": "https://www.bankofcanada.ca/valet/docs",
   "country": "CA",
   "domains": [
-    "monetary_policy",
-    "exchange_rates",
-    "interest_rates",
+    "monetary-policy",
+    "exchange-rates",
+    "interest-rates",
     "inflation",
     "banking",
-    "financial_markets",
-    "economic_indicators"
+    "financial-markets",
+    "economic-indicators"
   ],
   "geographic_scope": "national",
   "update_frequency": "daily",

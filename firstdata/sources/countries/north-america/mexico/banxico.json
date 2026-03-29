@@ -14,16 +14,16 @@
   "api_url": "https://www.banxico.org.mx/SieAPIRest/service/v1/",
   "country": "MX",
   "domains": [
-    "monetary_policy",
-    "financial_markets",
+    "monetary-policy",
+    "financial-markets",
     "banking",
-    "payment_systems",
-    "exchange_rates",
+    "payment-systems",
+    "exchange-rates",
     "inflation",
-    "balance_of_payments",
-    "public_finance",
+    "balance-of-payments",
+    "public-finance",
     "production",
-    "labor_market"
+    "labor-market"
   ],
   "geographic_scope": "national",
   "update_frequency": "daily",
