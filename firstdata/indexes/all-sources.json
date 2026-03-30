@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T01:20:49.628126+00:00",
-    "total_sources": 315,
+    "generated_at": "2026-03-30T06:11:42.065505+00:00",
+    "total_sources": 320,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3974,6 +3974,233 @@
       "file_path": "china/finance/securities/szse.json"
     },
     {
+      "id": "china-chinatax",
+      "name": {
+        "en": "State Taxation Administration of China",
+        "zh": "国家税务总局"
+      },
+      "description": {
+        "en": "Official tax statistics and fiscal revenue data from China's State Taxation Administration (STA). Covers national tax revenue collection data, tax category breakdowns (VAT, corporate income tax, personal income tax, consumption tax, tariffs), monthly and annual tax revenue bulletins, tax compliance and enforcement statistics, taxpayer registration data, tax refund and drawback records, and regional tax revenue distribution. The STA administers and collects all taxes and social insurance contributions in China except for customs duties.",
+        "zh": "国家税务总局发布的官方税收统计与财政收入数据，涵盖全国税收收入征管数据、税种分类明细（增值税、企业所得税、个人所得税、消费税、关税等）、月度及年度税收收入公告、税务合规与执法统计、纳税人登记数据、退税与退库记录及地区税收收入分布。税务总局负责征管全国除关税外的各类税收及社会保险费。"
+      },
+      "website": "https://www.chinatax.gov.cn/",
+      "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "governance"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "税收",
+        "taxation",
+        "国家税务总局",
+        "State Taxation Administration",
+        "增值税",
+        "VAT",
+        "企业所得税",
+        "corporate income tax",
+        "个人所得税",
+        "personal income tax",
+        "消费税",
+        "consumption tax",
+        "税收收入",
+        "tax revenue",
+        "财政收入",
+        "fiscal revenue",
+        "纳税人",
+        "taxpayer",
+        "税收统计",
+        "tax statistics",
+        "STA",
+        "税收征管",
+        "tax administration",
+        "出口退税",
+        "export tax refund"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly and annual national tax revenue reports: total collection by tax category",
+          "Value-Added Tax (VAT) revenue: by industry sector, region, and enterprise size",
+          "Corporate Income Tax (CIT) revenue statistics: collected from domestic enterprises and foreign-invested companies",
+          "Personal Income Tax (PIT) data: wage income, business income, dividend income and withholding statistics",
+          "Consumption tax collection: tobacco, alcohol, petroleum products, luxury goods",
+          "Taxpayer registration data: number of registered taxpayers by type (general VAT, small-scale, individual business)",
+          "Export tax refund (VAT drawback) statistics by industry and province",
+          "Social insurance contribution collection data (unified collection since 2019)",
+          "Tax enforcement and compliance statistics: audits, penalties, and tax evasion cases",
+          "Regional tax revenue distribution: provincial breakdowns of major tax categories"
+        ],
+        "zh": [
+          "月度及年度全国税收收入报告：各税种征收总量",
+          "增值税收入：按行业、地区及企业规模分类",
+          "企业所得税收入统计：内资企业和外资企业征收情况",
+          "个人所得税数据：工资薪金、经营所得、股息所得及代扣代缴统计",
+          "消费税征收：烟草、酒类、石油制品、奢侈品等",
+          "纳税人登记数据：一般纳税人、小规模纳税人、个体工商户数量",
+          "出口退税（增值税退税）统计：按行业及省份分类",
+          "社会保险费征收数据（2019年起统一征收）",
+          "税收执法与合规统计：稽查、处罚及逃税案件",
+          "地区税收收入分布：主要税种省级分类数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/taxation/china-chinatax.json"
+    },
+    {
+      "id": "china-mem",
+      "name": {
+        "en": "Ministry of Emergency Management of China",
+        "zh": "中华人民共和国应急管理部"
+      },
+      "description": {
+        "en": "Official emergency management and disaster statistics from China's Ministry of Emergency Management (MEM). Covers natural disaster statistics (floods, droughts, earthquakes, geological hazards, typhoons, low-temperature events), production safety accident data, fire statistics, rescue operations records, emergency response reports, and national emergency resource reserves. Established in 2018 by merging multiple agencies, MEM is responsible for disaster prevention, mitigation, relief, and production safety supervision across China.",
+        "zh": "中华人民共和国应急管理部发布的官方应急管理与灾害统计数据，涵盖自然灾害统计（洪涝、干旱、地震、地质灾害、台风、低温等）、生产安全事故数据、火灾统计、救援行动记录、应急响应报告及国家应急物资储备情况。应急管理部于2018年整合多部门职能组建，负责全国防灾减灾救灾和安全生产监管工作。"
+      },
+      "website": "https://www.mem.gov.cn/",
+      "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "public-health",
+        "governance",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "应急管理",
+        "emergency management",
+        "自然灾害",
+        "natural disaster",
+        "防灾减灾",
+        "disaster prevention",
+        "洪涝",
+        "flood",
+        "地震灾害",
+        "earthquake disaster",
+        "台风",
+        "typhoon",
+        "生产安全",
+        "production safety",
+        "火灾",
+        "fire statistics",
+        "救援",
+        "rescue",
+        "应急响应",
+        "emergency response",
+        "灾情统计",
+        "disaster statistics",
+        "MEM",
+        "应急管理部"
+      ],
+      "data_content": {
+        "en": [
+          "Natural disaster annual and monthly statistics: affected population, deaths, missing persons, direct economic losses by disaster type",
+          "Flood and drought disaster data: affected farmland, collapsed houses, emergency resettlement figures",
+          "Production safety accident statistics: total accidents, deaths, injuries by industry sector (mining, construction, transportation, etc.)",
+          "Fire statistics: fire incidents, casualties, property losses by region and cause",
+          "Geological hazard monitoring data: landslides, mudslides, ground subsidence events",
+          "Typhoon impact records: landfall events, casualties, and economic damage",
+          "Emergency rescue operations data: dispatched personnel, rescue teams, and equipment deployment",
+          "National emergency material reserves: types, quantities, and distribution of strategic reserves",
+          "Disaster relief fund allocation and usage reports"
+        ],
+        "zh": [
+          "自然灾害年度及月度统计：各类灾害受灾人口、死亡、失踪及直接经济损失",
+          "洪涝和干旱灾害数据：受灾耕地、倒塌房屋、紧急转移安置人数",
+          "生产安全事故统计：各行业（矿山、建筑、交通运输等）事故总数、死亡及受伤情况",
+          "火灾统计：各地区火灾起数、伤亡人员及财产损失及原因分析",
+          "地质灾害监测数据：滑坡、泥石流、地面沉降事件",
+          "台风影响记录：登陆台风、伤亡人员及经济损失",
+          "应急救援行动数据：出动人员、救援队伍及装备部署情况",
+          "国家应急物资储备：战略储备物资种类、数量与分布",
+          "灾害救助资金拨付与使用报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-mem.json"
+    },
+    {
+      "id": "china-moj",
+      "name": {
+        "en": "Ministry of Justice of China",
+        "zh": "中华人民共和国司法部"
+      },
+      "description": {
+        "en": "Official legal and judicial statistics from China's Ministry of Justice (MOJ). Covers national justice administration statistics, attorney and notary registration data, legal aid service records, prison management and offender rehabilitation data, community corrections statistics, mediation and arbitration data, and legislative affairs information. The Ministry of Justice is responsible for managing legal services, prison affairs, community corrections, legal aid, notarization, and promoting the rule of law in China.",
+        "zh": "中华人民共和国司法部发布的官方法律与司法行政统计数据，涵盖全国司法行政统计、律师与公证员注册信息、法律援助服务记录、监狱管理与罪犯改造数据、社区矫正统计、调解与仲裁数据及立法事务信息。司法部负责管理法律服务、监狱事务、社区矫正、法律援助、公证工作，并推进法治建设。"
+      },
+      "website": "https://www.moj.gov.cn/",
+      "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgkzl/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "law",
+        "social"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "司法",
+        "justice",
+        "法律援助",
+        "legal aid",
+        "律师",
+        "attorney",
+        "公证",
+        "notary",
+        "监狱",
+        "prison",
+        "社区矫正",
+        "community corrections",
+        "调解",
+        "mediation",
+        "仲裁",
+        "arbitration",
+        "法治",
+        "rule of law",
+        "司法行政",
+        "justice administration",
+        "司法统计",
+        "justice statistics",
+        "MOJ",
+        "司法部"
+      ],
+      "data_content": {
+        "en": [
+          "National justice administration statistics: annual reports on attorney counts, law firm registrations, and legal professionals",
+          "Legal aid service data: case counts, beneficiaries, types of aid provided by region",
+          "Notarization statistics: national and provincial notary registrations and certified document counts",
+          "Prison management data: offender population, rehabilitation programs, education and vocational training outcomes",
+          "Community corrections statistics: people under community supervision, types of corrections, recidivism rates",
+          "People's mediation data: mediation organizations, mediators, and disputes resolved nationwide",
+          "Administrative law enforcement supervision reports",
+          "Legislative affairs information: laws, regulations, and normative documents managed by MOJ"
+        ],
+        "zh": [
+          "全国司法行政统计：律师人数、律师事务所注册及法律职业人员年度报告",
+          "法律援助服务数据：各地区案件数量、受益人及援助类型",
+          "公证统计：全国及分省公证机构注册数与公证书出具数量",
+          "监狱管理数据：在押人员规模、改造项目、教育与职业培训成效",
+          "社区矫正统计：社区矫正人员、矫正类型及再犯率",
+          "人民调解数据：全国调解组织、调解员及纠纷化解情况",
+          "行政执法监督报告",
+          "立法事务信息：司法部管理的法律法规及规范性文件"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-moj.json"
+    },
+    {
       "id": "china-nhc",
       "name": {
         "en": "National Health Commission of China",
@@ -4034,6 +4261,85 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/health/china-nhc.json"
+    },
+    {
+      "id": "china-nmpa",
+      "name": {
+        "en": "National Medical Products Administration of China",
+        "zh": "国家药品监督管理局"
+      },
+      "description": {
+        "en": "Official drug, medical device, and cosmetic regulatory data from China's National Medical Products Administration (NMPA). Covers approved drug registrations, new drug approvals, medical device certifications, cosmetic filings, adverse drug reaction reports, drug recall notices, pharmaceutical enterprise inspections, drug quality sampling results, clinical trial registrations, and import/export pharmaceutical data. The NMPA regulates drugs, medical devices, and cosmetics in China, ensuring product safety, efficacy, and quality.",
+        "zh": "国家药品监督管理局发布的官方药品、医疗器械与化妆品监管数据，涵盖批准药品注册信息、新药审批、医疗器械认证、化妆品备案、药品不良反应报告、药品召回公告、药品生产企业检查、药品质量抽检结果、临床试验登记及药品进出口数据。药监局负责对全国药品、医疗器械和化妆品实施监管，保障产品的安全性、有效性和质量。"
+      },
+      "website": "https://www.nmpa.gov.cn/",
+      "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "public-health",
+        "science",
+        "governance"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "药品监管",
+        "drug regulation",
+        "医疗器械",
+        "medical device",
+        "化妆品",
+        "cosmetics",
+        "新药审批",
+        "drug approval",
+        "药品注册",
+        "drug registration",
+        "不良反应",
+        "adverse drug reaction",
+        "药品召回",
+        "drug recall",
+        "临床试验",
+        "clinical trial",
+        "药品质量",
+        "drug quality",
+        "NMPA",
+        "药监局",
+        "食品药品",
+        "pharmaceutical",
+        "仿制药",
+        "generic drug",
+        "GMP",
+        "GSP"
+      ],
+      "data_content": {
+        "en": [
+          "Drug registration database: approved chemical drugs, biological products, traditional Chinese medicines, and their specifications",
+          "New drug approvals and marketing authorizations: first approvals, supplemental approvals, and imported drug registrations",
+          "Medical device registration and filing database: Class I, II, III medical devices by product category",
+          "Cosmetic product registration and filing records: domestic and imported cosmetics",
+          "Adverse drug reaction (ADR) annual reports: nationwide ADR case counts, severe reactions, and trend analysis",
+          "Drug quality sampling results: pass/fail rates for sampled drugs by category and manufacturer",
+          "Drug recall notices: voluntary and mandatory recall announcements and scope",
+          "GMP/GSP compliance inspections: pharmaceutical manufacturing and distribution enterprise inspection results",
+          "Clinical trial registration data: trials being conducted in China, phases, and indications",
+          "Pharmaceutical import and export approval records"
+        ],
+        "zh": [
+          "药品注册数据库：已批准化学药品、生物制品、中药及其规格说明",
+          "新药审批与上市许可：首次批准、补充批准及进口药品注册",
+          "医疗器械注册与备案数据库：一类、二类、三类医疗器械分类",
+          "化妆品注册与备案记录：国产及进口化妆品",
+          "药品不良反应（ADR）年度报告：全国ADR病例数量、严重不良反应及趋势分析",
+          "药品质量抽检结果：各类药品按品种和生产企业的合格率",
+          "药品召回公告：主动召回与责令召回公告及范围",
+          "GMP/GSP合规检查：药品生产和流通企业检查结果",
+          "临床试验登记数据：在中国开展的试验信息、阶段及适应症",
+          "药品进出口审批记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-nmpa.json"
     },
     {
       "id": "china-mot",
@@ -4779,6 +5085,86 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-mee.json"
+    },
+    {
+      "id": "china-nfga",
+      "name": {
+        "en": "National Forestry and Grassland Administration of China",
+        "zh": "国家林业和草原局"
+      },
+      "description": {
+        "en": "Official forestry, grassland, wetland, and wildlife data from China's National Forestry and Grassland Administration (NFGA). Covers national forest resources inventory results, forest coverage rates, grassland quality and degradation monitoring, wetland area and health assessments, wildlife population surveys, desert and desertification monitoring, nature reserve and national park data, carbon sequestration estimates, and forestry economic statistics. The NFGA, established in 2018, also oversees national parks and manages China's first national park system.",
+        "zh": "国家林业和草原局发布的官方林业、草地、湿地与野生动植物数据，涵盖全国森林资源清查结果、森林覆盖率、草地质量与退化监测、湿地面积与健康评估、野生动植物种群调查、荒漠化监测、自然保护区与国家公园数据、碳汇估算及林业经济统计。国家林业和草原局于2018年组建，同时负责国家公园体制建设和管理工作。"
+      },
+      "website": "https://www.forestry.gov.cn/",
+      "data_url": "https://www.forestry.gov.cn/gjlcj/5462/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "agriculture"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "林业",
+        "forestry",
+        "草原",
+        "grassland",
+        "湿地",
+        "wetland",
+        "森林资源",
+        "forest resources",
+        "森林覆盖率",
+        "forest coverage rate",
+        "野生动物",
+        "wildlife",
+        "国家公园",
+        "national park",
+        "荒漠化",
+        "desertification",
+        "自然保护区",
+        "nature reserve",
+        "碳汇",
+        "carbon sink",
+        "生物多样性",
+        "biodiversity",
+        "NFGA",
+        "国家林草局",
+        "沙漠化",
+        "砍伐",
+        "deforestation"
+      ],
+      "data_content": {
+        "en": [
+          "National forest resources inventory: forest area, forest stock volume, forest coverage rate by province",
+          "Grassland resources and condition monitoring: grassland area, quality grades, utilization and degradation rates",
+          "Wetland survey data: wetland area, types, ecosystem health assessments, and changes over time",
+          "Desert and desertification monitoring: desertified land area, sandy land dynamics, restoration progress",
+          "Wildlife population surveys: key protected species counts, habitat assessments (giant panda, Siberian tiger, etc.)",
+          "Nature reserve and national park statistics: reserve counts, areas, management effectiveness",
+          "Forestry economic data: timber production, non-timber forest products output, forestry GDP contribution",
+          "Forest carbon sequestration estimates: annual CO2 absorption by forest ecosystems",
+          "Afforestation and ecological restoration data: planted forest area, survival rates, key ecological programs",
+          "Forest fire statistics: fire incidents, affected area, suppression outcomes"
+        ],
+        "zh": [
+          "全国森林资源清查：各省森林面积、蓄积量及森林覆盖率",
+          "草地资源与状况监测：草地面积、质量等级、利用与退化率",
+          "湿地调查数据：湿地面积、类型、生态系统健康评估及动态变化",
+          "荒漠化监测：沙化土地面积、沙地动态及治理进展",
+          "野生动植物种群调查：重点保护物种数量及栖息地评估（大熊猫、东北虎等）",
+          "自然保护区与国家公园统计：保护区数量、面积及管理成效",
+          "林业经济数据：木材产量、非木质林产品产量及林业GDP贡献",
+          "森林碳汇估算：森林生态系统年度CO2吸收量",
+          "造林与生态修复数据：人工造林面积、成活率及重点生态工程",
+          "森林火灾统计：火灾起数、受害面积及扑救情况"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/forestry/china-nfga.json"
     },
     {
       "id": "china-miit-rare-earth",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T01:20:49.628126+00:00",
+    "generated_at": "2026-03-30T06:11:42.065505+00:00",
     "total_regions": 58,
-    "total_sources": 315,
+    "total_sources": 320,
     "version": "2.0"
   },
   "regions": {
@@ -675,6 +675,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinatax",
+        "name": {
+          "en": "State Taxation Administration of China",
+          "zh": "国家税务总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
+        "has_api": false,
+        "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mem",
+        "name": {
+          "en": "Ministry of Emergency Management of China",
+          "zh": "中华人民共和国应急管理部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-mem.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-moj",
+        "name": {
+          "en": "Ministry of Justice of China",
+          "zh": "中华人民共和国司法部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgkzl/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-moj.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nhc",
         "name": {
           "en": "National Health Commission of China",
@@ -685,6 +721,18 @@
         "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
         "has_api": false,
         "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nmpa",
+        "name": {
+          "en": "National Medical Products Administration of China",
+          "zh": "国家药品监督管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nmpa.json",
         "geographic_scope": "national"
       },
       {
@@ -820,6 +868,18 @@
         "data_url": "https://www.mee.gov.cn/hjzl/",
         "has_api": false,
         "file_path": "china/resources/environment/china-mee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nfga",
+        "name": {
+          "en": "National Forestry and Grassland Administration of China",
+          "zh": "国家林业和草原局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.forestry.gov.cn/gjlcj/5462/index.html",
+        "has_api": false,
+        "file_path": "china/resources/forestry/china-nfga.json",
         "geographic_scope": "national"
       },
       {

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T01:20:49.628126+00:00",
-    "total_domains": 703,
-    "total_sources": 315,
+    "generated_at": "2026-03-30T06:11:42.065505+00:00",
+    "total_domains": 704,
+    "total_sources": 320,
     "version": "2.0"
   },
   "domains": {
@@ -298,6 +298,18 @@
         "data_url": "https://www.stats.gov.cn/sj/",
         "has_api": true,
         "file_path": "china/national/nbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nfga",
+        "name": {
+          "en": "National Forestry and Grassland Administration of China",
+          "zh": "国家林业和草原局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.forestry.gov.cn/gjlcj/5462/index.html",
+        "has_api": false,
+        "file_path": "china/resources/forestry/china-nfga.json",
         "geographic_scope": "national"
       },
       {
@@ -2691,6 +2703,18 @@
         "data_url": "https://www.mee.gov.cn/hjzl/",
         "has_api": false,
         "file_path": "china/resources/environment/china-mee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nfga",
+        "name": {
+          "en": "National Forestry and Grassland Administration of China",
+          "zh": "国家林业和草原局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.forestry.gov.cn/gjlcj/5462/index.html",
+        "has_api": false,
+        "file_path": "china/resources/forestry/china-nfga.json",
         "geographic_scope": "national"
       },
       {
@@ -6500,6 +6524,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinatax",
+        "name": {
+          "en": "State Taxation Administration of China",
+          "zh": "国家税务总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
+        "has_api": false,
+        "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ceic-china-urbanization",
         "name": {
           "en": "CEIC Data - China Urbanization Rate",
@@ -9683,6 +9719,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-mem",
+        "name": {
+          "en": "Ministry of Emergency Management of China",
+          "zh": "中华人民共和国应急管理部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-mem.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cma",
         "name": {
           "en": "China Meteorological Administration",
@@ -9716,6 +9764,18 @@
         "data_url": "https://www.mee.gov.cn/hjzl/",
         "has_api": false,
         "file_path": "china/resources/environment/china-mee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nfga",
+        "name": {
+          "en": "National Forestry and Grassland Administration of China",
+          "zh": "国家林业和草原局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.forestry.gov.cn/gjlcj/5462/index.html",
+        "has_api": false,
+        "file_path": "china/resources/forestry/china-nfga.json",
         "geographic_scope": "national"
       },
       {
@@ -11033,6 +11093,18 @@
         "data_url": "https://www.szse.cn/market/trend/index.html",
         "has_api": true,
         "file_path": "china/finance/securities/szse.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinatax",
+        "name": {
+          "en": "State Taxation Administration of China",
+          "zh": "国家税务总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
+        "has_api": false,
+        "file_path": "china/finance/taxation/china-chinatax.json",
         "geographic_scope": "national"
       },
       {
@@ -12890,6 +12962,54 @@
         "has_api": false,
         "file_path": "academic/social/asian-barometer.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-chinatax",
+        "name": {
+          "en": "State Taxation Administration of China",
+          "zh": "国家税务总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
+        "has_api": false,
+        "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mem",
+        "name": {
+          "en": "Ministry of Emergency Management of China",
+          "zh": "中华人民共和国应急管理部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-mem.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-moj",
+        "name": {
+          "en": "Ministry of Justice of China",
+          "zh": "中华人民共和国司法部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgkzl/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-moj.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nmpa",
+        "name": {
+          "en": "National Medical Products Administration of China",
+          "zh": "国家药品监督管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nmpa.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-mca",
@@ -16416,6 +16536,20 @@
         "geographic_scope": "global"
       }
     ],
+    "law": [
+      {
+        "id": "china-moj",
+        "name": {
+          "en": "Ministry of Justice of China",
+          "zh": "中华人民共和国司法部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgkzl/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-moj.json",
+        "geographic_scope": "national"
+      }
+    ],
     "legal": [
       {
         "id": "hk-companies-registry",
@@ -19875,6 +20009,30 @@
     ],
     "public-health": [
       {
+        "id": "china-mem",
+        "name": {
+          "en": "Ministry of Emergency Management of China",
+          "zh": "中华人民共和国应急管理部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-mem.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nmpa",
+        "name": {
+          "en": "National Medical Products Administration of China",
+          "zh": "国家药品监督管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nmpa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mee",
         "name": {
           "en": "Ministry of Ecology and Environment of China - Environmental Data",
@@ -20382,6 +20540,18 @@
     ],
     "science": [
       {
+        "id": "china-nmpa",
+        "name": {
+          "en": "National Medical Products Administration of China",
+          "zh": "国家药品监督管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nmpa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-most-infrastructure",
         "name": {
           "en": "National Platform for Research Infrastructure and Large-scale Scientific Instruments",
@@ -20711,6 +20881,30 @@
         "data_url": "https://www.samr.gov.cn/zw/sj/sjzx/",
         "has_api": false,
         "file_path": "china/economy/market/china-samr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-mem",
+        "name": {
+          "en": "Ministry of Emergency Management of China",
+          "zh": "中华人民共和国应急管理部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-mem.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-moj",
+        "name": {
+          "en": "Ministry of Justice of China",
+          "zh": "中华人民共和国司法部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgkzl/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-moj.json",
         "geographic_scope": "national"
       },
       {
