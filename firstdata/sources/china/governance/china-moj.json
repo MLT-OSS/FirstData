@@ -1,0 +1,71 @@
+{
+  "id": "china-moj",
+  "name": {
+    "en": "Ministry of Justice of China",
+    "zh": "中华人民共和国司法部"
+  },
+  "description": {
+    "en": "Official legal and judicial statistics from China's Ministry of Justice (MOJ). Covers national justice administration statistics, attorney and notary registration data, legal aid service records, prison management and offender rehabilitation data, community corrections statistics, mediation and arbitration data, and legislative affairs information. The Ministry of Justice is responsible for managing legal services, prison affairs, community corrections, legal aid, notarization, and promoting the rule of law in China.",
+    "zh": "中华人民共和国司法部发布的官方法律与司法行政统计数据，涵盖全国司法行政统计、律师与公证员注册信息、法律援助服务记录、监狱管理与罪犯改造数据、社区矫正统计、调解与仲裁数据及立法事务信息。司法部负责管理法律服务、监狱事务、社区矫正、法律援助、公证工作，并推进法治建设。"
+  },
+  "website": "https://www.moj.gov.cn/",
+  "data_url": "https://www.moj.gov.cn/pub/sfbgw/zwgkzl/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "law",
+    "social"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "司法",
+    "justice",
+    "法律援助",
+    "legal aid",
+    "律师",
+    "attorney",
+    "公证",
+    "notary",
+    "监狱",
+    "prison",
+    "社区矫正",
+    "community corrections",
+    "调解",
+    "mediation",
+    "仲裁",
+    "arbitration",
+    "法治",
+    "rule of law",
+    "司法行政",
+    "justice administration",
+    "司法统计",
+    "justice statistics",
+    "MOJ",
+    "司法部"
+  ],
+  "data_content": {
+    "en": [
+      "National justice administration statistics: annual reports on attorney counts, law firm registrations, and legal professionals",
+      "Legal aid service data: case counts, beneficiaries, types of aid provided by region",
+      "Notarization statistics: national and provincial notary registrations and certified document counts",
+      "Prison management data: offender population, rehabilitation programs, education and vocational training outcomes",
+      "Community corrections statistics: people under community supervision, types of corrections, recidivism rates",
+      "People's mediation data: mediation organizations, mediators, and disputes resolved nationwide",
+      "Administrative law enforcement supervision reports",
+      "Legislative affairs information: laws, regulations, and normative documents managed by MOJ"
+    ],
+    "zh": [
+      "全国司法行政统计：律师人数、律师事务所注册及法律职业人员年度报告",
+      "法律援助服务数据：各地区案件数量、受益人及援助类型",
+      "公证统计：全国及分省公证机构注册数与公证书出具数量",
+      "监狱管理数据：在押人员规模、改造项目、教育与职业培训成效",
+      "社区矫正统计：社区矫正人员、矫正类型及再犯率",
+      "人民调解数据：全国调解组织、调解员及纠纷化解情况",
+      "行政执法监督报告",
+      "立法事务信息：司法部管理的法律法规及规范性文件"
+    ]
+  }
+}

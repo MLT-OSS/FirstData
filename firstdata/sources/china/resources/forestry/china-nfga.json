@@ -1,0 +1,78 @@
+{
+  "id": "china-nfga",
+  "name": {
+    "en": "National Forestry and Grassland Administration of China",
+    "zh": "国家林业和草原局"
+  },
+  "description": {
+    "en": "Official forestry, grassland, wetland, and wildlife data from China's National Forestry and Grassland Administration (NFGA). Covers national forest resources inventory results, forest coverage rates, grassland quality and degradation monitoring, wetland area and health assessments, wildlife population surveys, desert and desertification monitoring, nature reserve and national park data, carbon sequestration estimates, and forestry economic statistics. The NFGA, established in 2018, also oversees national parks and manages China's first national park system.",
+    "zh": "国家林业和草原局发布的官方林业、草地、湿地与野生动植物数据，涵盖全国森林资源清查结果、森林覆盖率、草地质量与退化监测、湿地面积与健康评估、野生动植物种群调查、荒漠化监测、自然保护区与国家公园数据、碳汇估算及林业经济统计。国家林业和草原局于2018年组建，同时负责国家公园体制建设和管理工作。"
+  },
+  "website": "https://www.forestry.gov.cn/",
+  "data_url": "https://www.forestry.gov.cn/gjlcj/5462/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "agriculture"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "林业",
+    "forestry",
+    "草原",
+    "grassland",
+    "湿地",
+    "wetland",
+    "森林资源",
+    "forest resources",
+    "森林覆盖率",
+    "forest coverage rate",
+    "野生动物",
+    "wildlife",
+    "国家公园",
+    "national park",
+    "荒漠化",
+    "desertification",
+    "自然保护区",
+    "nature reserve",
+    "碳汇",
+    "carbon sink",
+    "生物多样性",
+    "biodiversity",
+    "NFGA",
+    "国家林草局",
+    "沙漠化",
+    "砍伐",
+    "deforestation"
+  ],
+  "data_content": {
+    "en": [
+      "National forest resources inventory: forest area, forest stock volume, forest coverage rate by province",
+      "Grassland resources and condition monitoring: grassland area, quality grades, utilization and degradation rates",
+      "Wetland survey data: wetland area, types, ecosystem health assessments, and changes over time",
+      "Desert and desertification monitoring: desertified land area, sandy land dynamics, restoration progress",
+      "Wildlife population surveys: key protected species counts, habitat assessments (giant panda, Siberian tiger, etc.)",
+      "Nature reserve and national park statistics: reserve counts, areas, management effectiveness",
+      "Forestry economic data: timber production, non-timber forest products output, forestry GDP contribution",
+      "Forest carbon sequestration estimates: annual CO2 absorption by forest ecosystems",
+      "Afforestation and ecological restoration data: planted forest area, survival rates, key ecological programs",
+      "Forest fire statistics: fire incidents, affected area, suppression outcomes"
+    ],
+    "zh": [
+      "全国森林资源清查：各省森林面积、蓄积量及森林覆盖率",
+      "草地资源与状况监测：草地面积、质量等级、利用与退化率",
+      "湿地调查数据：湿地面积、类型、生态系统健康评估及动态变化",
+      "荒漠化监测：沙化土地面积、沙地动态及治理进展",
+      "野生动植物种群调查：重点保护物种数量及栖息地评估（大熊猫、东北虎等）",
+      "自然保护区与国家公园统计：保护区数量、面积及管理成效",
+      "林业经济数据：木材产量、非木质林产品产量及林业GDP贡献",
+      "森林碳汇估算：森林生态系统年度CO2吸收量",
+      "造林与生态修复数据：人工造林面积、成活率及重点生态工程",
+      "森林火灾统计：火灾起数、受害面积及扑救情况"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "china-chinatax",
+  "name": {
+    "en": "State Taxation Administration of China",
+    "zh": "国家税务总局"
+  },
+  "description": {
+    "en": "Official tax statistics and fiscal revenue data from China's State Taxation Administration (STA). Covers national tax revenue collection data, tax category breakdowns (VAT, corporate income tax, personal income tax, consumption tax, tariffs), monthly and annual tax revenue bulletins, tax compliance and enforcement statistics, taxpayer registration data, tax refund and drawback records, and regional tax revenue distribution. The STA administers and collects all taxes and social insurance contributions in China except for customs duties.",
+    "zh": "国家税务总局发布的官方税收统计与财政收入数据，涵盖全国税收收入征管数据、税种分类明细（增值税、企业所得税、个人所得税、消费税、关税等）、月度及年度税收收入公告、税务合规与执法统计、纳税人登记数据、退税与退库记录及地区税收收入分布。税务总局负责征管全国除关税外的各类税收及社会保险费。"
+  },
+  "website": "https://www.chinatax.gov.cn/",
+  "data_url": "https://www.chinatax.gov.cn/chinatax/n384/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "governance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "税收",
+    "taxation",
+    "国家税务总局",
+    "State Taxation Administration",
+    "增值税",
+    "VAT",
+    "企业所得税",
+    "corporate income tax",
+    "个人所得税",
+    "personal income tax",
+    "消费税",
+    "consumption tax",
+    "税收收入",
+    "tax revenue",
+    "财政收入",
+    "fiscal revenue",
+    "纳税人",
+    "taxpayer",
+    "税收统计",
+    "tax statistics",
+    "STA",
+    "税收征管",
+    "tax administration",
+    "出口退税",
+    "export tax refund"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly and annual national tax revenue reports: total collection by tax category",
+      "Value-Added Tax (VAT) revenue: by industry sector, region, and enterprise size",
+      "Corporate Income Tax (CIT) revenue statistics: collected from domestic enterprises and foreign-invested companies",
+      "Personal Income Tax (PIT) data: wage income, business income, dividend income and withholding statistics",
+      "Consumption tax collection: tobacco, alcohol, petroleum products, luxury goods",
+      "Taxpayer registration data: number of registered taxpayers by type (general VAT, small-scale, individual business)",
+      "Export tax refund (VAT drawback) statistics by industry and province",
+      "Social insurance contribution collection data (unified collection since 2019)",
+      "Tax enforcement and compliance statistics: audits, penalties, and tax evasion cases",
+      "Regional tax revenue distribution: provincial breakdowns of major tax categories"
+    ],
+    "zh": [
+      "月度及年度全国税收收入报告：各税种征收总量",
+      "增值税收入：按行业、地区及企业规模分类",
+      "企业所得税收入统计：内资企业和外资企业征收情况",
+      "个人所得税数据：工资薪金、经营所得、股息所得及代扣代缴统计",
+      "消费税征收：烟草、酒类、石油制品、奢侈品等",
+      "纳税人登记数据：一般纳税人、小规模纳税人、个体工商户数量",
+      "出口退税（增值税退税）统计：按行业及省份分类",
+      "社会保险费征收数据（2019年起统一征收）",
+      "税收执法与合规统计：稽查、处罚及逃税案件",
+      "地区税收收入分布：主要税种省级分类数据"
+    ]
+  }
+}

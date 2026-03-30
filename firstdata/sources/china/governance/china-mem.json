@@ -1,0 +1,74 @@
+{
+  "id": "china-mem",
+  "name": {
+    "en": "Ministry of Emergency Management of China",
+    "zh": "中华人民共和国应急管理部"
+  },
+  "description": {
+    "en": "Official emergency management and disaster statistics from China's Ministry of Emergency Management (MEM). Covers natural disaster statistics (floods, droughts, earthquakes, geological hazards, typhoons, low-temperature events), production safety accident data, fire statistics, rescue operations records, emergency response reports, and national emergency resource reserves. Established in 2018 by merging multiple agencies, MEM is responsible for disaster prevention, mitigation, relief, and production safety supervision across China.",
+    "zh": "中华人民共和国应急管理部发布的官方应急管理与灾害统计数据，涵盖自然灾害统计（洪涝、干旱、地震、地质灾害、台风、低温等）、生产安全事故数据、火灾统计、救援行动记录、应急响应报告及国家应急物资储备情况。应急管理部于2018年整合多部门职能组建，负责全国防灾减灾救灾和安全生产监管工作。"
+  },
+  "website": "https://www.mem.gov.cn/",
+  "data_url": "https://www.mem.gov.cn/gk/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "public-health",
+    "governance",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "应急管理",
+    "emergency management",
+    "自然灾害",
+    "natural disaster",
+    "防灾减灾",
+    "disaster prevention",
+    "洪涝",
+    "flood",
+    "地震灾害",
+    "earthquake disaster",
+    "台风",
+    "typhoon",
+    "生产安全",
+    "production safety",
+    "火灾",
+    "fire statistics",
+    "救援",
+    "rescue",
+    "应急响应",
+    "emergency response",
+    "灾情统计",
+    "disaster statistics",
+    "MEM",
+    "应急管理部"
+  ],
+  "data_content": {
+    "en": [
+      "Natural disaster annual and monthly statistics: affected population, deaths, missing persons, direct economic losses by disaster type",
+      "Flood and drought disaster data: affected farmland, collapsed houses, emergency resettlement figures",
+      "Production safety accident statistics: total accidents, deaths, injuries by industry sector (mining, construction, transportation, etc.)",
+      "Fire statistics: fire incidents, casualties, property losses by region and cause",
+      "Geological hazard monitoring data: landslides, mudslides, ground subsidence events",
+      "Typhoon impact records: landfall events, casualties, and economic damage",
+      "Emergency rescue operations data: dispatched personnel, rescue teams, and equipment deployment",
+      "National emergency material reserves: types, quantities, and distribution of strategic reserves",
+      "Disaster relief fund allocation and usage reports"
+    ],
+    "zh": [
+      "自然灾害年度及月度统计：各类灾害受灾人口、死亡、失踪及直接经济损失",
+      "洪涝和干旱灾害数据：受灾耕地、倒塌房屋、紧急转移安置人数",
+      "生产安全事故统计：各行业（矿山、建筑、交通运输等）事故总数、死亡及受伤情况",
+      "火灾统计：各地区火灾起数、伤亡人员及财产损失及原因分析",
+      "地质灾害监测数据：滑坡、泥石流、地面沉降事件",
+      "台风影响记录：登陆台风、伤亡人员及经济损失",
+      "应急救援行动数据：出动人员、救援队伍及装备部署情况",
+      "国家应急物资储备：战略储备物资种类、数量与分布",
+      "灾害救助资金拨付与使用报告"
+    ]
+  }
+}
