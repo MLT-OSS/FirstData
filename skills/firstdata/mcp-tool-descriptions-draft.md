@@ -23,7 +23,7 @@
 ```
 **Limitations:**
 - Invalid source_id does NOT set isError=true. Returns {"id": "xxx", "error": "Not found"} in the result array. Callers must check individual items for error fields
-- No schema-level limit on source_ids count, but recommended ≤20 per request for reliable performance
+- No schema-level limit on source_ids count, but large batch performance is unverified. Practical guideline (not a hard limit): batch in groups of ~20
 - Subject to daily API call quota per token
 ```
 

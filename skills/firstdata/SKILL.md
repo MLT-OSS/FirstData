@@ -114,7 +114,7 @@ The FirstData MCP server provides 5 tools. Below is a reference with usage guide
 
 **Limitations**:
 - Invalid `source_id` values do NOT cause an error response (`isError: false`). Instead, the result array includes `{"id": "xxx", "error": "Not found"}` for each invalid ID alongside valid results. Callers must check individual items for `error` fields rather than relying solely on `isError`.
-- No schema-level limit on the number of `source_ids` per request, but performance with large batches (50+) is unverified. Recommended: ≤20 IDs per request.
+- No schema-level limit on the number of `source_ids` per request, but performance with large batches (50+) is unverified. As a practical guideline (not a hard limit), consider batching in groups of ~20.
 - The `fields` parameter filters returned fields; when omitted, all fields are returned.
 
 ### Tool: `ask_agent`
