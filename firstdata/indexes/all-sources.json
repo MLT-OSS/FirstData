@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T06:12:29.777864+00:00",
-    "total_sources": 329,
+    "generated_at": "2026-03-31T06:15:52.155749+00:00",
+    "total_sources": 327,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5043,61 +5043,6 @@
       "file_path": "china/national/cnki-population-census.json"
     },
     {
-      "id": "jiangsu-stats",
-      "name": {
-        "en": "Jiangsu Provincial Bureau of Statistics",
-        "zh": "江苏省统计局"
-      },
-      "description": {
-        "en": "The Jiangsu Provincial Bureau of Statistics is the provincial government agency responsible for collecting, processing, and publishing statistical data for Jiangsu Province, one of China's most economically developed provinces. It provides comprehensive economic, demographic, and social statistics covering GDP, industrial output, investment, trade, population, and living standards at the provincial and municipal levels.",
-        "zh": "江苏省统计局是负责收集、处理和发布江苏省统计数据的省级政府机构。江苏是中国经济最发达的省份之一，该局提供涵盖GDP、工业产值、投资、贸易、人口和生活水平等全面的经济、人口和社会统计数据，覆盖省级和市级层面。"
-      },
-      "website": "https://tj.jiangsu.gov.cn",
-      "data_url": "https://tj.jiangsu.gov.cn/col/col85263/index.html",
-      "api_url": null,
-      "country": "CN",
-      "domains": [
-        "economics",
-        "demographics",
-        "social",
-        "industry",
-        "agriculture"
-      ],
-      "geographic_scope": "subnational",
-      "update_frequency": "monthly",
-      "tags": [
-        "jiangsu",
-        "江苏",
-        "statistics",
-        "统计",
-        "provincial",
-        "government",
-        "gdp",
-        "population",
-        "china",
-        "subnational"
-      ],
-      "data_content": {
-        "en": [
-          "Progress Data - Monthly and quarterly key economic indicators for Jiangsu Province",
-          "Statistical Yearbook - Jiangsu Statistical Yearbook with comprehensive annual data",
-          "Statistical Communiqué - Annual national economic and social development communiqué",
-          "Census Data - Population and economic census results at provincial and municipal levels",
-          "Data Releases - Periodic statistical bulletins covering GDP, industrial output, investment, and consumption"
-        ],
-        "zh": [
-          "进度数据 - 江苏省月度和季度主要经济指标",
-          "统计年鉴 - 江苏统计年鉴，包含全面的年度数据",
-          "统计公报 - 年度国民经济和社会发展统计公报",
-          "普查数据 - 省级和市级人口普查及经济普查结果",
-          "数据发布 - 涵盖GDP、工业产值、投资和消费的定期统计公告"
-        ]
-      },
-      "authority_level": "government",
-      "has_api": false,
-      "file_path": "china/national/jiangsu-stats.json"
-    },
-    {
       "id": "china-cma",
       "name": {
         "en": "China Meteorological Administration",
@@ -5153,64 +5098,6 @@
       },
       "has_api": false,
       "file_path": "china/national/meteorology/china-cma.json"
-    },
-    {
-      "id": "nanjing-stats",
-      "name": {
-        "en": "Nanjing Municipal Bureau of Statistics",
-        "zh": "南京市统计局"
-      },
-      "description": {
-        "en": "The Nanjing Municipal Bureau of Statistics is the city-level government agency responsible for collecting, processing, and publishing statistical data for Nanjing, the capital city of Jiangsu Province. It provides comprehensive municipal economic, demographic, and social statistics covering GDP, industrial production, fixed asset investment, consumer prices, population, and quality-of-life indicators.",
-        "zh": "南京市统计局是负责收集、处理和发布南京市统计数据的市级政府机构。南京是江苏省省会城市，该局提供涵盖GDP、工业生产、固定资产投资、消费价格、人口和生活质量指标等全面的市级经济、人口和社会统计数据。"
-      },
-      "website": "https://tjj.nanjing.gov.cn",
-      "data_url": "https://tjj.nanjing.gov.cn/bmfw/njsj/",
-      "api_url": null,
-      "country": "CN",
-      "domains": [
-        "economics",
-        "demographics",
-        "social",
-        "industry"
-      ],
-      "geographic_scope": "subnational",
-      "update_frequency": "monthly",
-      "tags": [
-        "nanjing",
-        "南京",
-        "statistics",
-        "统计",
-        "municipal",
-        "government",
-        "gdp",
-        "population",
-        "china",
-        "subnational",
-        "jiangsu",
-        "江苏"
-      ],
-      "data_content": {
-        "en": [
-          "Nanjing Data - Key municipal economic indicators including GDP, industrial output, and investment",
-          "National Data - Comparative national-level statistical data",
-          "Provincial Data - Jiangsu provincial comparative statistics",
-          "Municipal Comparison Data - Cross-city comparison within Jiangsu Province",
-          "Jiangsu Statistical Yearbook - Nanjing section of the provincial yearbook",
-          "Nanjing Statistical Yearbook - Comprehensive annual statistics for Nanjing city"
-        ],
-        "zh": [
-          "南京数据 - 主要市级经济指标，包括GDP、工业产值和投资",
-          "全国数据 - 全国层面的对比统计数据",
-          "全省数据 - 江苏省级对比统计数据",
-          "省辖市数据 - 江苏省内各城市对比数据",
-          "江苏统计年鉴 - 省级统计年鉴中的南京部分",
-          "南京统计年鉴 - 南京市全面的年度统计数据"
-        ]
-      },
-      "authority_level": "government",
-      "has_api": false,
-      "file_path": "china/national/nanjing-stats.json"
     },
     {
       "id": "china-nbs",
