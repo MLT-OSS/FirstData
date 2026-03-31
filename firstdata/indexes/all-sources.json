@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T02:06:31.319314+00:00",
-    "total_sources": 322,
+    "generated_at": "2026-03-31T06:12:40.486241+00:00",
+    "total_sources": 327,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2729,6 +2729,212 @@
       "file_path": "china/economy/market/china-samr.json"
     },
     {
+      "id": "china-fj-stats",
+      "name": {
+        "en": "Fujian Bureau of Statistics",
+        "zh": "福建省统计局"
+      },
+      "description": {
+        "en": "The Fujian Bureau of Statistics is the official statistical authority for Fujian Province, a coastal province in southeastern China known for its strong private economy, cross-strait trade with Taiwan, and significant overseas Chinese diaspora connections. It publishes official statistics on Fujian's economic and social development, including GDP, industrial output, cross-strait trade, foreign investment, tourism, population, and household income. The bureau issues the Fujian Statistical Yearbook and regular economic analyses that reflect the province's unique economic characteristics and policy context.",
+        "zh": "福建省统计局是福建省官方统计机构，福建是中国东南沿海省份，以发达的民营经济、对台贸易和与海外华人的紧密联系而著称。统计局发布福建省经济社会发展的官方数据，涵盖GDP、工业产值、两岸贸易、外商投资、旅游业、人口和居民收入等。统计局出版《福建统计年鉴》和定期经济分析报告，反映该省独特的经济特征和政策环境。"
+      },
+      "website": "https://tjj.fujian.gov.cn/",
+      "data_url": "https://tjj.fujian.gov.cn/xxgk/tjxx/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "trade",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "福建统计",
+        "Fujian statistics",
+        "福建GDP",
+        "Fujian GDP",
+        "省级统计",
+        "provincial statistics",
+        "对台贸易",
+        "cross-strait trade",
+        "民营经济",
+        "private economy",
+        "外商投资",
+        "foreign investment",
+        "旅游统计",
+        "tourism statistics",
+        "人口",
+        "population",
+        "统计年鉴",
+        "statistical yearbook",
+        "海峡西岸",
+        "West Taiwan Strait Economic Zone"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: annual and quarterly gross domestic product by industry sector for Fujian Province",
+          "Industrial output: production data for major industries including electronics, petrochemicals, machinery, and textiles",
+          "Cross-strait trade: import and export data with Taiwan, cross-strait investment statistics",
+          "Foreign trade and investment: total imports and exports by commodity and trading partner, FDI by industry",
+          "Tourism statistics: visitor arrivals (domestic and overseas Chinese), tourism revenue, hotel occupancy",
+          "Population and migration: census results, household registration data, overseas Chinese population connection data",
+          "Private sector economy: statistics on private enterprises, individual businesses, and non-state-owned economy",
+          "Fujian Statistical Yearbook: annual comprehensive compilation of provincial economic and social statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：福建省按产业分类的年度及季度地区生产总值",
+          "工业产值：电子、石化、机械、纺织等主要行业生产数据",
+          "两岸贸易：对台进出口数据及两岸投资统计",
+          "对外贸易与投资：按商品类别和贸易伙伴分类的进出口总额、按行业分外商直接投资",
+          "旅游统计：国内游客及海外华人入境情况、旅游收入、酒店入住率",
+          "人口与迁移：普查结果、户籍数据、海外华人关联数据",
+          "民营经济：私营企业、个体工商户及非公有制经济统计",
+          "福建统计年鉴：省级经济社会统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-fj-stats.json"
+    },
+    {
+      "id": "china-gd-stats",
+      "name": {
+        "en": "Guangdong Bureau of Statistics",
+        "zh": "广东省统计局"
+      },
+      "description": {
+        "en": "The Guangdong Bureau of Statistics is the official statistical authority for Guangdong Province, China's most economically productive province and home to the Pearl River Delta manufacturing hub. It publishes comprehensive socioeconomic statistics including GDP, industrial output, trade, population, employment, consumer prices, and retail sales for Guangdong. The bureau also releases the Guangdong Statistical Yearbook and monthly/quarterly economic bulletins, making it a critical source for understanding China's leading provincial economy.",
+        "zh": "广东省统计局是广东省官方统计机构，广东是中国经济总量最大的省份，珠三角制造业中心所在地。统计局发布广东省GDP、工业产值、对外贸易、人口、就业、居民消费价格指数和社会消费品零售总额等全面的社会经济统计数据，并出版《广东统计年鉴》及月度/季度经济运行情况报告，是了解中国最大省级经济体的重要数据来源。"
+      },
+      "website": "https://stats.gd.gov.cn/",
+      "data_url": "https://stats.gd.gov.cn/tjsj186/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "广东统计",
+        "Guangdong statistics",
+        "广东GDP",
+        "Guangdong GDP",
+        "珠三角",
+        "Pearl River Delta",
+        "省级统计",
+        "provincial statistics",
+        "工业产值",
+        "industrial output",
+        "对外贸易",
+        "foreign trade",
+        "人口普查",
+        "population census",
+        "居民收入",
+        "household income",
+        "统计年鉴",
+        "statistical yearbook"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Guangdong Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance",
+          "Foreign trade: import and export value by commodity, trading partner, and prefecture-level city",
+          "Population statistics: census data, household registration, birth and death rates, urbanization",
+          "Employment and wages: employed persons, unemployment rate, average wages by sector and region",
+          "Consumer prices: CPI, PPI, housing price indices for Guangdong and its major cities",
+          "Social development: education enrollment, healthcare resources, social security coverage",
+          "Guangdong Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：广东省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+          "对外贸易：按商品类别、贸易伙伴和地级市分类的进出口数据",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+          "就业与工资：从业人员数、失业率、各行业和地区平均工资",
+          "消费价格：广东省及主要城市的居民消费价格指数、工业品出厂价格、房价指数",
+          "社会发展：教育招生情况、医疗卫生资源、社会保障覆盖率",
+          "广东统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-gd-stats.json"
+    },
+    {
+      "id": "china-js-stats",
+      "name": {
+        "en": "Jiangsu Bureau of Statistics",
+        "zh": "江苏省统计局"
+      },
+      "description": {
+        "en": "The Jiangsu Bureau of Statistics is the official statistical agency for Jiangsu Province, China's second-largest provincial economy by GDP and a key manufacturing, technology, and export hub in the Yangtze River Delta region. It publishes authoritative statistics on Jiangsu's economic performance, including GDP, industrial output, fixed asset investment, retail consumption, foreign direct investment, rural and urban household income, and demographic indicators. The Jiangsu Statistical Yearbook and regular economic bulletins provide comprehensive coverage of one of China's wealthiest and most dynamic provinces.",
+        "zh": "江苏省统计局是江苏省官方统计机构，江苏是中国GDP总量第二大省份，是长三角地区重要的制造业、科技和出口基地。统计局发布江苏经济运行权威数据，涵盖GDP、工业产值、固定资产投资、社会消费品零售总额、外商直接投资、城乡居民收入及人口指标。《江苏统计年鉴》和定期经济运行公报全面展示了中国最富裕、最具活力省份之一的发展情况。"
+      },
+      "website": "https://tj.jiangsu.gov.cn/",
+      "data_url": "https://tj.jiangsu.gov.cn/col/col85273/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "江苏统计",
+        "Jiangsu statistics",
+        "江苏GDP",
+        "Jiangsu GDP",
+        "长三角",
+        "Yangtze River Delta",
+        "省级统计",
+        "provincial statistics",
+        "制造业",
+        "manufacturing",
+        "固定资产投资",
+        "fixed asset investment",
+        "外商投资",
+        "FDI",
+        "居民收入",
+        "household income",
+        "统计年鉴",
+        "statistical yearbook"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and value-added output: quarterly and annual gross domestic product by industry and expenditure approach for Jiangsu",
+          "Industrial enterprises: output value, profits, assets, and liabilities of industrial enterprises above designated size",
+          "Fixed asset investment: total investment, by sector, source of funding, and construction type",
+          "Foreign trade and investment: import/export statistics, FDI inflows by industry and country of origin",
+          "Retail and services: total retail sales of consumer goods, e-commerce, and services sector growth",
+          "Population and labor: census data, labor force participation, registered unemployment, migrant workers",
+          "Urban-rural income: per capita disposable income, consumption expenditure by urban and rural households",
+          "Jiangsu Statistical Yearbook: annual comprehensive statistical publication covering all provincial data"
+        ],
+        "zh": [
+          "GDP与增加值：江苏省按产业和支出法核算的季度和年度地区生产总值",
+          "工业企业：规模以上工业企业的产值、利润、资产及负债情况",
+          "固定资产投资：按行业、资金来源和建设类型分类的总投资情况",
+          "对外贸易与投资：进出口统计、按行业和来源国分类的外商直接投资",
+          "消费与服务：社会消费品零售总额、电子商务及服务业增长",
+          "人口与劳动力：普查数据、劳动力参与率、登记失业率、外来务工人员",
+          "城乡收入：城乡居民人均可支配收入、消费支出情况",
+          "江苏统计年鉴：涵盖全省各类数据的综合年度统计出版物"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-js-stats.json"
+    },
+    {
       "id": "china-gacc",
       "name": {
         "en": "General Administration of Customs of China",
@@ -4272,6 +4478,70 @@
       "file_path": "china/governance/china-moj.json"
     },
     {
+      "id": "china-gas",
+      "name": {
+        "en": "General Administration of Sport of China",
+        "zh": "国家体育总局"
+      },
+      "description": {
+        "en": "The General Administration of Sport of China (GAS) is the national government agency responsible for sports administration, sports industry regulation, and sports statistics. It publishes official data on national fitness participation, competitive sports performance, sports industry output, lottery revenues, and the development of sports infrastructure across China. Key publications include the National Fitness Development Statistics Bulletin and China Sports Industry Statistics.",
+        "zh": "国家体育总局是负责体育行政管理、体育产业监管和体育统计的国家政府机构，发布全民健身参与情况、竞技体育成绩、体育产业产出、体育彩票收入及全国体育设施建设等官方数据。主要出版物包括全民健身活动状况调查公报和中国体育产业统计年鉴。"
+      },
+      "website": "https://www.sport.gov.cn/",
+      "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "sports",
+        "social",
+        "economics",
+        "statistics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "体育总局",
+        "GAS",
+        "sports statistics",
+        "体育统计",
+        "national fitness",
+        "全民健身",
+        "sports industry",
+        "体育产业",
+        "competitive sports",
+        "竞技体育",
+        "sports lottery",
+        "体育彩票",
+        "sports infrastructure",
+        "体育设施",
+        "China sports",
+        "中国体育"
+      ],
+      "data_content": {
+        "en": [
+          "National Fitness Activity Status Survey: participation rates, exercise frequency, preferred sports types by age and region",
+          "Sports industry statistics: total output value, added value, employment, and sub-sector breakdown of China's sports industry",
+          "Sports lottery sales data: annual and monthly revenue by lottery type (Zhucai and Ticai), regional distribution",
+          "Competitive sports achievement data: national games results, international competition medals, athlete registration statistics",
+          "Sports facility census: number and distribution of sports venues, per capita sports area by province",
+          "Mass sports development: sports clubs, sports associations, community fitness centers nationwide",
+          "China Sports Yearbook: comprehensive annual statistical compilation of all sports-related data"
+        ],
+        "zh": [
+          "全民健身活动状况调查：各年龄段及地区的参与率、锻炼频率、偏好运动项目",
+          "体育产业统计：中国体育产业总产出、增加值、就业人数及各细分行业数据",
+          "体育彩票销售数据：竞彩和体彩各类彩票年度及月度收入、地区分布",
+          "竞技体育成绩数据：全国运动会成绩、国际赛事奖牌、运动员注册统计",
+          "体育场地普查：各省体育场馆数量与分布、人均体育用地面积",
+          "群众体育发展：全国体育俱乐部、体育协会、社区健身中心情况",
+          "中国体育年鉴：各类体育数据的综合年度统计汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/sports/china-gas.json"
+    },
+    {
       "id": "china-nhc",
       "name": {
         "en": "National Health Commission of China",
@@ -5072,6 +5342,72 @@
       },
       "has_api": false,
       "file_path": "china/research/china-tpdc.json"
+    },
+    {
+      "id": "china-wanfang",
+      "name": {
+        "en": "Wanfang Data",
+        "zh": "万方数据"
+      },
+      "description": {
+        "en": "Wanfang Data is one of China's largest academic and scientific information databases, operated by Wanfang Data Co., Ltd. (a subsidiary of the China Institute of Scientific and Technical Information, ISTIC). It aggregates millions of academic journals, dissertations, conference papers, patents, standards, and scientific reports from Chinese institutions. Wanfang is widely used by researchers, universities, and enterprises for literature retrieval and scientific intelligence across all major disciplines.",
+        "zh": "万方数据是中国最大的学术和科技信息数据库之一，由万方数据股份有限公司（中国科学技术信息研究所旗下子公司）运营，汇聚了来自中国各科研机构的数百万篇学术期刊论文、学位论文、会议论文、专利、标准和科技报告，广泛服务于高校、科研院所和企业的文献检索与科技情报工作。"
+      },
+      "website": "https://www.wanfangdata.com.cn/",
+      "data_url": "https://www.wanfangdata.com.cn/",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "education",
+        "research",
+        "science",
+        "technology"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "万方数据",
+        "Wanfang",
+        "academic database",
+        "学术数据库",
+        "Chinese journals",
+        "中文期刊",
+        "dissertations",
+        "学位论文",
+        "scientific literature",
+        "科技文献",
+        "patents",
+        "专利",
+        "conference papers",
+        "会议论文",
+        "ISTIC",
+        "中国科学技术信息研究所",
+        "research database",
+        "科研数据库"
+      ],
+      "data_content": {
+        "en": [
+          "Academic journals: over 8,000 Chinese academic periodicals covering science, engineering, medicine, agriculture, humanities, and social sciences",
+          "Dissertations: doctoral and master's theses from Chinese universities and research institutions, dating back to 1980",
+          "Conference papers: proceedings from major Chinese and international conferences held in or related to China",
+          "Patents: Chinese patent documents including invention patents, utility models, and design patents",
+          "Standards: Chinese national standards (GB), industry standards, local standards, and some international standards",
+          "Scientific and technical reports: research reports from Chinese government agencies and research institutes",
+          "Science and technology achievements: records of technology awards, registered scientific achievements, and transformation outcomes"
+        ],
+        "zh": [
+          "学术期刊：涵盖理工、医学、农业、人文和社会科学的8000余种中文学术期刊",
+          "学位论文：1980年至今中国高校及科研机构的博士、硕士学位论文",
+          "会议论文：在中国举办或与中国相关的重大国内外会议论文集",
+          "专利文献：中国发明专利、实用新型专利和外观设计专利文件",
+          "标准文献：中国国家标准（GB）、行业标准、地方标准及部分国际标准",
+          "科技报告：中国政府部门和科研院所的研究报告",
+          "科技成果：科技奖励记录、登记科技成果及成果转化情况"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-wanfang.json"
     },
     {
       "id": "china-mee",

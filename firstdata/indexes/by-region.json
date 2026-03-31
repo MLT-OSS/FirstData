@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T02:06:31.319314+00:00",
+    "generated_at": "2026-03-31T06:12:40.486241+00:00",
     "total_regions": 58,
-    "total_sources": 322,
+    "total_sources": 327,
     "version": "2.0"
   },
   "regions": {
@@ -450,6 +450,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-fj-stats",
+        "name": {
+          "en": "Fujian Bureau of Statistics",
+          "zh": "福建省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.fujian.gov.cn/xxgk/tjxx/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-fj-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-gd-stats",
+        "name": {
+          "en": "Guangdong Bureau of Statistics",
+          "zh": "广东省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://stats.gd.gov.cn/tjsj186/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-gd-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-js-stats",
+        "name": {
+          "en": "Jiangsu Bureau of Statistics",
+          "zh": "江苏省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tj.jiangsu.gov.cn/col/col85273/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-js-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-gacc",
         "name": {
           "en": "General Administration of Customs of China",
@@ -723,6 +759,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-gas",
+        "name": {
+          "en": "General Administration of Sport of China",
+          "zh": "国家体育总局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
+        "has_api": false,
+        "file_path": "china/governance/sports/china-gas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nhc",
         "name": {
           "en": "National Health Commission of China",
@@ -869,6 +917,18 @@
         "has_api": false,
         "file_path": "china/research/china-tpdc.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-wanfang",
+        "name": {
+          "en": "Wanfang Data",
+          "zh": "万方数据"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.wanfangdata.com.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-wanfang.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-mee",
