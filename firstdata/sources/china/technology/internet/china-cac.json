@@ -1,0 +1,71 @@
+{
+  "id": "china-cac",
+  "name": {
+    "en": "Cyberspace Administration of China",
+    "zh": "国家互联网信息办公室"
+  },
+  "description": {
+    "en": "Official internet governance and digital economy data from China's Cyberspace Administration of China (CAC). Covers internet industry statistics, data security regulations, online platform compliance data, digital content oversight reports, cybersecurity policy documents, and the digital economy regulatory framework. The CAC is China's central internet regulatory and governance authority responsible for online content management, data security, personal information protection, and cybersecurity supervision.",
+    "zh": "国家互联网信息办公室（网信办）发布的官方互联网治理与数字经济数据，涵盖互联网行业统计、数据安全法规、在线平台合规数据、数字内容监管报告、网络安全政策文件及数字经济监管框架。网信办是中国互联网监管与治理的核心机构，负责网络内容管理、数据安全、个人信息保护及网络安全监管。"
+  },
+  "website": "https://www.cac.gov.cn/",
+  "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "governance",
+    "economics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "网信办",
+    "CAC",
+    "网络安全",
+    "cybersecurity",
+    "数据安全",
+    "data security",
+    "互联网监管",
+    "internet regulation",
+    "数字经济",
+    "digital economy",
+    "个人信息保护",
+    "personal information protection",
+    "在线平台",
+    "online platform",
+    "互联网治理",
+    "internet governance",
+    "网络内容",
+    "online content",
+    "数字化",
+    "digitalization",
+    "信息安全",
+    "information security",
+    "互联网统计",
+    "internet statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Internet industry statistics: market size, user counts, revenue, and growth rates of China's internet sector",
+      "Data security regulations: laws, regulations, and standards for data protection and cybersecurity in China",
+      "Online platform compliance reports: platform governance, content moderation, and algorithmic recommendation oversight",
+      "Personal information protection enforcement: cases, penalties, and compliance requirements under PIPL",
+      "Digital economy policy documents: regulatory frameworks for e-commerce, fintech, and platform economy",
+      "Cybersecurity supervision reports: network infrastructure security assessments and incident statistics",
+      "Internet content governance: illegal content takedowns, user account suspensions, and content policy updates",
+      "Cross-border data flow regulations: data export security assessments and certification requirements"
+    ],
+    "zh": [
+      "互联网行业统计：中国互联网行业市场规模、用户数量、收入及增长率",
+      "数据安全法规：中国数据保护与网络安全的法律法规及标准",
+      "在线平台合规报告：平台治理、内容审核及算法推荐监管情况",
+      "个人信息保护执法：个人信息保护法（PIPL）下的案例、处罚及合规要求",
+      "数字经济政策文件：电子商务、金融科技及平台经济的监管框架",
+      "网络安全监管报告：网络基础设施安全评估及事件统计",
+      "互联网内容治理：违法内容清理、用户账号封禁及内容政策更新",
+      "跨境数据流动法规：数据出境安全评估及认证要求"
+    ]
+  }
+}
