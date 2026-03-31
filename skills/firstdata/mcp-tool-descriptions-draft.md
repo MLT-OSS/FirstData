@@ -15,6 +15,7 @@
 - Keyword matching is substring-based, not semantic search
 - domain parameter uses substring matching, not exact enum matching
 - No boolean operators (AND/OR/NOT). Multiple keywords use OR logic (results matching any keyword are returned, deduplicated)
+- Response time: typically ~1 second
 - Subject to daily API call quota per token. MCP tool calls do not return remaining quota; use Token verification API (POST /api/token/verify, returns remaining_daily) to check
 ```
 
