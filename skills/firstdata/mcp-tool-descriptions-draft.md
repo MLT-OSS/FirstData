@@ -11,11 +11,11 @@
 ```
 **Limitations:**
 - Maximum 200 results per query (limit range: 1–200, default: 20)
-- Keywords are NOT auto-tokenized by spaces. Each keyword is matched as an exact substring. ["中国 GDP"] returns 0 results — use ["中国", "GDP"] instead
+- Each keyword is matched as an independent substring — pass each search term as a separate array element. Use ["中国", "GDP"] instead of ["中国 GDP"]. This preserves multi-word terms like "New Zealand" or "World Bank"
 - Keyword matching is substring-based, not semantic search
 - domain parameter uses substring matching, not exact enum matching
 - No boolean operators (AND/OR/NOT). Multiple keywords use AND logic
-- Subject to daily API call quota per token
+- Subject to daily API call quota per token (no client-facing API to query remaining quota)
 ```
 
 ## get_source — Add to description

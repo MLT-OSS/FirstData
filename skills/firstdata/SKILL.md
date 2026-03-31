@@ -93,7 +93,7 @@ The FirstData MCP server provides 5 tools. Below is a reference with usage guide
 ### Common Limitations (all tools)
 
 - **Authentication required**: All tools require a valid API key (JWT token) via `Authorization: Bearer <token>` header.
-- **Daily call quota**: API usage is subject to a per-token daily call quota. Remaining quota is tracked server-side; exceeding the limit will result in rejected requests.
+- **Daily call quota**: API usage is subject to a per-token daily call quota. Quota varies by API key tier (trial accounts: 30 calls/day). There is currently no client-facing API to query remaining quota at runtime — callers should implement their own usage tracking if quota management is needed.
 - **Network dependency**: All tools make HTTP calls to the FirstData server (`firstdata.deepminer.com.cn`). Network latency and server availability affect response times.
 
 ### Tool: `search_source`
@@ -102,7 +102,7 @@ The FirstData MCP server provides 5 tools. Below is a reference with usage guide
 
 **Limitations**:
 - Maximum **200** results per query (`limit` parameter range: 1–200, default: 20).
-- ⚠️ **Keywords are NOT auto-tokenized by spaces.** Each keyword in the array is matched as an exact substring. `["中国 GDP"]` returns 0 results — use `["中国", "GDP"]` instead.
+- ⚠️ **Each keyword is matched as an independent substring — pass each search term as a separate array element.** For example, use `["中国", "GDP"]` (173 results) instead of `["中国 GDP"]` (0 results). This is by design to preserve multi-word terms like `"New Zealand"` or `"World Bank"`.
 - Keyword matching is **substring-based**, not semantic search. Keywords are matched against source metadata fields (name, description, tags, content).
 - The `domain` parameter uses **substring matching**, not exact enum matching (e.g., `"finance"` matches `"public-finance"`, `"finance"`, `"financial-markets"`).
 - No boolean operators (AND/OR/NOT). Multiple keywords in the array are combined with AND logic.
