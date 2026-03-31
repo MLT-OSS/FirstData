@@ -15,7 +15,7 @@
 - Keyword matching is substring-based, not semantic search
 - domain parameter uses substring matching, not exact enum matching
 - No boolean operators (AND/OR/NOT). Multiple keywords use AND logic
-- Subject to daily API call quota per token (no client-facing API to query remaining quota)
+- Subject to daily API call quota per token. MCP tool calls do not return remaining quota; use Token verification API (POST /api/token/verify, returns remaining_daily) to check
 ```
 
 ## get_source — Add to description
@@ -59,8 +59,8 @@
 - Subject to daily API call quota per token
 
 **示例:**
-- 链接失效反馈: feedback_message="链接失效：数据源 china-pbc 的 data_url (https://www.pbc.gov.cn/diaochatongjisi/116219/index.html) 返回 404，无法访问数据页面。检索关键词：中国货币供应量"
-- 数据过时反馈: feedback_message="数据内容过时：数据源 worldbank-open-data 的 update_frequency 标注为 quarterly，但实际数据页面显示最近更新日期为 2024-06-30，已超过 6 个月未更新。建议核实并修正更新频率或标注数据滞后情况"
+- 链接失效反馈: feedback_message="链接失效：数据源 china-pbc 的 data_url 返回 404，无法访问数据页面。检索关键词：中国货币供应量"
+- 数据过时反馈: feedback_message="数据内容过时：数据源 worldbank-open-data 的 update_frequency 标注为 quarterly，但实际已超过 6 个月未更新"
 ```
 
 ---

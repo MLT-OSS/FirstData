@@ -93,7 +93,7 @@ The FirstData MCP server provides 5 tools. Below is a reference with usage guide
 ### Common Limitations (all tools)
 
 - **Authentication required**: All tools require a valid API key (JWT token) via `Authorization: Bearer <token>` header.
-- **Daily call quota**: API usage is subject to a per-token daily call quota. Quota varies by API key tier (trial accounts: 30 calls/day). There is currently no client-facing API to query remaining quota at runtime — callers should implement their own usage tracking if quota management is needed.
+- **Daily call quota**: API usage is subject to a per-token daily call quota. Quota varies by API key tier (trial accounts: 30 calls/day). MCP tool calls do not return remaining quota information. To check quota, use the Token verification API (`POST /api/token/verify`) which returns `remaining_daily` in the response — this is a separate HTTP call, not available through MCP tool invocation.
 - **Network dependency**: All tools make HTTP calls to the FirstData server (`firstdata.deepminer.com.cn`). Network latency and server availability affect response times.
 
 ### Tool: `search_source`
@@ -153,10 +153,10 @@ The FirstData MCP server provides 5 tools. Below is a reference with usage guide
 
 ```
 # Example 1: Broken link
-feedback_message="链接失效：数据源 china-pbc 的 data_url (https://www.pbc.gov.cn/diaochatongjisi/116219/index.html) 返回 404，无法访问数据页面。检索关键词：中国货币供应量"
+feedback_message="链接失效：数据源 china-pbc 的 data_url 返回 404，无法访问数据页面。检索关键词：中国货币供应量"
 
-# Example 2: Outdated or inaccurate content
-feedback_message="数据内容过时：数据源 worldbank-open-data 的 update_frequency 标注为 quarterly，但实际数据页面显示最近更新日期为 2024-06-30，已超过 6 个月未更新。建议核实并修正更新频率或标注数据滞后情况"
+# Example 2: Outdated content
+feedback_message="数据内容过时：数据源 worldbank-open-data 的 update_frequency 标注为 quarterly，但实际已超过 6 个月未更新"
 ```
 
 ## Description Quality Guidelines
