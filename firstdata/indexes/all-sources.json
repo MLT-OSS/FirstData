@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T06:11:42.065505+00:00",
-    "total_sources": 320,
+    "generated_at": "2026-03-31T02:06:31.319314+00:00",
+    "total_sources": 322,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4128,6 +4128,77 @@
       "file_path": "china/governance/china-mem.json"
     },
     {
+      "id": "china-mofa",
+      "name": {
+        "en": "Ministry of Foreign Affairs of China",
+        "zh": "中华人民共和国外交部"
+      },
+      "description": {
+        "en": "Official diplomatic and foreign policy data from China's Ministry of Foreign Affairs (MOFA). Covers China's bilateral and multilateral treaty database, diplomatic relations statistics, embassy and consulate information worldwide, official foreign policy statements, and international agreements. The Ministry of Foreign Affairs is responsible for managing China's foreign relations, treaty affairs, consular services, and international cooperation.",
+        "zh": "中华人民共和国外交部发布的官方外交与对外政策数据，涵盖中国双边及多边条约数据库、外交关系统计、全球大使馆与领事馆信息、官方外交政策声明及国际协议。外交部负责管理中国对外关系、条约事务、领事服务及国际合作。"
+      },
+      "website": "https://www.mfa.gov.cn/",
+      "data_url": "https://www.mfa.gov.cn/web/system/index_17321.shtml",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "international",
+        "law"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "外交",
+        "diplomacy",
+        "条约",
+        "treaty",
+        "外交关系",
+        "diplomatic relations",
+        "大使馆",
+        "embassy",
+        "领事馆",
+        "consulate",
+        "双边协议",
+        "bilateral agreement",
+        "多边协议",
+        "multilateral agreement",
+        "外交政策",
+        "foreign policy",
+        "国际合作",
+        "international cooperation",
+        "领事服务",
+        "consular services",
+        "MOFA",
+        "外交部",
+        "国际条约",
+        "international treaty"
+      ],
+      "data_content": {
+        "en": [
+          "Treaty database: bilateral and multilateral treaties, agreements, and conventions signed by China",
+          "Diplomatic relations data: countries with which China maintains diplomatic relations, dates of establishment",
+          "Embassy and consulate directory: locations, contacts, and jurisdictions of Chinese diplomatic missions worldwide",
+          "Foreign policy documents: official white papers, position papers, and statements on international affairs",
+          "Consular affairs statistics: visa, passport, and overseas Chinese affairs data",
+          "International agreements: memoranda of understanding, cooperation frameworks, and joint communiqués",
+          "Bilateral exchange records: state visits, diplomatic meetings, and joint declarations"
+        ],
+        "zh": [
+          "条约数据库：中国签署的双边及多边条约、协定与公约",
+          "外交关系数据：与中国建立外交关系的国家及建交日期",
+          "大使馆与领事馆名录：中国驻外外交机构的位置、联系方式及管辖范围",
+          "外交政策文件：官方白皮书、立场文件及国际事务声明",
+          "领事事务统计：签证、护照及海外华人事务数据",
+          "国际协议：谅解备忘录、合作框架及联合公报",
+          "双边往来记录：国事访问、外交会谈及联合声明"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-mofa.json"
+    },
+    {
       "id": "china-moj",
       "name": {
         "en": "Ministry of Justice of China",
@@ -5561,6 +5632,79 @@
       },
       "has_api": false,
       "file_path": "china/technology/intellectual_property/china-cnipa-patents.json"
+    },
+    {
+      "id": "china-cac",
+      "name": {
+        "en": "Cyberspace Administration of China",
+        "zh": "国家互联网信息办公室"
+      },
+      "description": {
+        "en": "Official internet governance and digital economy data from China's Cyberspace Administration of China (CAC). Covers internet industry statistics, data security regulations, online platform compliance data, digital content oversight reports, cybersecurity policy documents, and the digital economy regulatory framework. The CAC is China's central internet regulatory and governance authority responsible for online content management, data security, personal information protection, and cybersecurity supervision.",
+        "zh": "国家互联网信息办公室（网信办）发布的官方互联网治理与数字经济数据，涵盖互联网行业统计、数据安全法规、在线平台合规数据、数字内容监管报告、网络安全政策文件及数字经济监管框架。网信办是中国互联网监管与治理的核心机构，负责网络内容管理、数据安全、个人信息保护及网络安全监管。"
+      },
+      "website": "https://www.cac.gov.cn/",
+      "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "governance",
+        "economics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "网信办",
+        "CAC",
+        "网络安全",
+        "cybersecurity",
+        "数据安全",
+        "data security",
+        "互联网监管",
+        "internet regulation",
+        "数字经济",
+        "digital economy",
+        "个人信息保护",
+        "personal information protection",
+        "在线平台",
+        "online platform",
+        "互联网治理",
+        "internet governance",
+        "网络内容",
+        "online content",
+        "数字化",
+        "digitalization",
+        "信息安全",
+        "information security",
+        "互联网统计",
+        "internet statistics"
+      ],
+      "data_content": {
+        "en": [
+          "Internet industry statistics: market size, user counts, revenue, and growth rates of China's internet sector",
+          "Data security regulations: laws, regulations, and standards for data protection and cybersecurity in China",
+          "Online platform compliance reports: platform governance, content moderation, and algorithmic recommendation oversight",
+          "Personal information protection enforcement: cases, penalties, and compliance requirements under PIPL",
+          "Digital economy policy documents: regulatory frameworks for e-commerce, fintech, and platform economy",
+          "Cybersecurity supervision reports: network infrastructure security assessments and incident statistics",
+          "Internet content governance: illegal content takedowns, user account suspensions, and content policy updates",
+          "Cross-border data flow regulations: data export security assessments and certification requirements"
+        ],
+        "zh": [
+          "互联网行业统计：中国互联网行业市场规模、用户数量、收入及增长率",
+          "数据安全法规：中国数据保护与网络安全的法律法规及标准",
+          "在线平台合规报告：平台治理、内容审核及算法推荐监管情况",
+          "个人信息保护执法：个人信息保护法（PIPL）下的案例、处罚及合规要求",
+          "数字经济政策文件：电子商务、金融科技及平台经济的监管框架",
+          "网络安全监管报告：网络基础设施安全评估及事件统计",
+          "互联网内容治理：违法内容清理、用户账号封禁及内容政策更新",
+          "跨境数据流动法规：数据出境安全评估及认证要求"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/internet/china-cac.json"
     },
     {
       "id": "china-cinic",

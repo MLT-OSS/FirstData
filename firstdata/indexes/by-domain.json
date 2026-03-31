@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T06:11:42.065505+00:00",
+    "generated_at": "2026-03-31T02:06:31.319314+00:00",
     "total_domains": 704,
-    "total_sources": 320,
+    "total_sources": 322,
     "version": "2.0"
   },
   "domains": {
@@ -6573,6 +6573,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cac",
+        "name": {
+          "en": "Cyberspace Administration of China",
+          "zh": "国家互联网信息办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "egypt-capmas",
         "name": {
           "en": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
@@ -12988,6 +13000,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-mofa",
+        "name": {
+          "en": "Ministry of Foreign Affairs of China",
+          "zh": "中华人民共和国外交部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mfa.gov.cn/web/system/index_17321.shtml",
+        "has_api": false,
+        "file_path": "china/governance/china-mofa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-moj",
         "name": {
           "en": "Ministry of Justice of China",
@@ -13022,6 +13046,18 @@
         "data_url": "https://www.mca.gov.cn/n156/n2679/index.html",
         "has_api": false,
         "file_path": "china/national/china-mca.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cac",
+        "name": {
+          "en": "Cyberspace Administration of China",
+          "zh": "国家互联网信息办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cac.json",
         "geographic_scope": "national"
       },
       {
@@ -15731,6 +15767,18 @@
     ],
     "international": [
       {
+        "id": "china-mofa",
+        "name": {
+          "en": "Ministry of Foreign Affairs of China",
+          "zh": "中华人民共和国外交部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mfa.gov.cn/web/system/index_17321.shtml",
+        "has_api": false,
+        "file_path": "china/governance/china-mofa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "bea-international-trade",
         "name": {
           "en": "BEA Interactive Data - International Trade",
@@ -16537,6 +16585,18 @@
       }
     ],
     "law": [
+      {
+        "id": "china-mofa",
+        "name": {
+          "en": "Ministry of Foreign Affairs of China",
+          "zh": "中华人民共和国外交部"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mfa.gov.cn/web/system/index_17321.shtml",
+        "has_api": false,
+        "file_path": "china/governance/china-mofa.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-moj",
         "name": {
@@ -22315,6 +22375,18 @@
         "data_url": "https://www.cnipa.gov.cn/col/col61/index.html",
         "has_api": false,
         "file_path": "china/technology/intellectual_property/china-cnipa-patents.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cac",
+        "name": {
+          "en": "Cyberspace Administration of China",
+          "zh": "国家互联网信息办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cac.json",
         "geographic_scope": "national"
       },
       {

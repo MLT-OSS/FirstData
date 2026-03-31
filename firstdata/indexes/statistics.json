@@ -1,28 +1,28 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T06:11:42.065505+00:00",
+    "generated_at": "2026-03-31T02:06:31.319314+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 320,
+    "total_sources": 322,
     "sources_with_api": 150,
-    "last_updated": "2026-03-30"
+    "last_updated": "2026-03-31"
   },
   "by_authority_level": {
     "research": 37,
     "international": 74,
-    "government": 175,
+    "government": 177,
     "other": 3,
     "market": 16,
     "commercial": 15
   },
   "by_geographic_scope": {
     "global": 100,
-    "national": 194,
+    "national": 196,
     "regional": 26
   },
   "by_update_frequency": {
-    "irregular": 48,
+    "irregular": 50,
     "daily": 52,
     "weekly": 9,
     "quarterly": 33,
@@ -31,7 +31,7 @@
     "real-time": 11
   },
   "by_domain": {
-    "economics": 128,
+    "economics": 129,
     "trade": 77,
     "demographics": 74,
     "environment": 57,
@@ -46,16 +46,16 @@
     "prices": 22,
     "climate": 18,
     "housing": 18,
+    "technology": 17,
     "development": 16,
     "infrastructure": 16,
-    "technology": 16,
     "manufacturing": 13,
     "labor": 12,
     "banking": 12,
+    "governance": 11,
     "transportation": 10,
     "monetary-policy": 10,
     "population": 9,
-    "governance": 9,
     "statistics": 9,
     "securities": 8,
     "commodities": 8,
@@ -160,6 +160,8 @@
     "aviation": 2,
     "tourism": 2,
     "fiscal-policy": 2,
+    "international": 2,
+    "law": 2,
     "logistics": 2,
     "urbanization": 2,
     "public safety": 2,
@@ -317,7 +319,6 @@
     "bond-market": 1,
     "debt-financing": 1,
     "government-budget": 1,
-    "law": 1,
     "migration": 1,
     "cloud-computing": 1,
     "artificial-intelligence": 1,
@@ -617,7 +618,6 @@
     "food inspection": 1,
     "certification systems": 1,
     "food quality": 1,
-    "international": 1,
     "safety": 1,
     "agricultural trade": 1,
     "food prices": 1,
