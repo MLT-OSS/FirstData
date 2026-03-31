@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T06:12:29.777864+00:00",
+    "generated_at": "2026-03-31T06:15:52.155749+00:00",
     "total_regions": 58,
-    "total_sources": 329,
+    "total_sources": 327,
     "version": "2.0"
   },
   "regions": {
@@ -858,18 +858,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "jiangsu-stats",
-        "name": {
-          "en": "Jiangsu Provincial Bureau of Statistics",
-          "zh": "江苏省统计局"
-        },
-        "authority_level": "government",
-        "data_url": "https://tj.jiangsu.gov.cn/col/col85263/index.html",
-        "has_api": false,
-        "file_path": "china/national/jiangsu-stats.json",
-        "geographic_scope": "subnational"
-      },
-      {
         "id": "china-cma",
         "name": {
           "en": "China Meteorological Administration",
@@ -880,18 +868,6 @@
         "has_api": false,
         "file_path": "china/national/meteorology/china-cma.json",
         "geographic_scope": "national"
-      },
-      {
-        "id": "nanjing-stats",
-        "name": {
-          "en": "Nanjing Municipal Bureau of Statistics",
-          "zh": "南京市统计局"
-        },
-        "authority_level": "government",
-        "data_url": "https://tjj.nanjing.gov.cn/bmfw/njsj/",
-        "has_api": false,
-        "file_path": "china/national/nanjing-stats.json",
-        "geographic_scope": "subnational"
       },
       {
         "id": "china-nbs",
