@@ -1,8 +1,8 @@
 # MCP Tool Descriptions — Server-Side Draft
 
-> **Purpose**: This file contains the exact text to be added to each tool's description in the MCP server Python code.
+> **Purpose**: This file contains the text to be added to each tool's description in the MCP server Python code.
 > After PR review approval, copy these Limitations sections into the server-side tool description strings.
-> These texts must remain **identical** to the corresponding sections in `SKILL.md`.
+> Content is condensed from `SKILL.md` for server-side use. Semantics must match; formatting may differ slightly for plain-text context.
 
 ---
 
@@ -14,7 +14,7 @@
 - Each keyword is matched as an independent substring — pass each search term as a separate array element. Use ["中国", "GDP"] instead of ["中国 GDP"]. This preserves multi-word terms like "New Zealand" or "World Bank"
 - Keyword matching is substring-based, not semantic search
 - domain parameter uses substring matching, not exact enum matching
-- No boolean operators (AND/OR/NOT). Multiple keywords use AND logic
+- No boolean operators (AND/OR/NOT). Multiple keywords use OR logic (results matching any keyword are returned, deduplicated)
 - Subject to daily API call quota per token. MCP tool calls do not return remaining quota; use Token verification API (POST /api/token/verify, returns remaining_daily) to check
 ```
 
@@ -73,6 +73,7 @@ Each limitation is backed by one of these sources:
 |---|---|
 | search_source limit: 1–200 | inputSchema `maximum: 200, minimum: 1` |
 | Keywords not auto-tokenized | Tested: `["中国 GDP"]` → 0 results; `["中国", "GDP"]` → 173 results |
+| Multiple keywords use OR logic | Tested: `["GDP"]`→100, `["health"]`→78, `["GDP","health"]`→138 (>max, confirmed OR) |
 | Substring matching | Tested: `["中国GDP"]` → 1 result (exact substring); `["GDP"]` → 100 results |
 | domain substring matching | inputSchema description: "领域关键词，子串匹配" |
 | get_source silent error | Tested: invalid ID returns `{"id":"xxx","error":"Not found"}` with `isError: false` |

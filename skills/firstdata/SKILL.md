@@ -105,7 +105,7 @@ The FirstData MCP server provides 5 tools. Below is a reference with usage guide
 - ⚠️ **Each keyword is matched as an independent substring — pass each search term as a separate array element.** For example, use `["中国", "GDP"]` (173 results) instead of `["中国 GDP"]` (0 results). This is by design to preserve multi-word terms like `"New Zealand"` or `"World Bank"`.
 - Keyword matching is **substring-based**, not semantic search. Keywords are matched against source metadata fields (name, description, tags, content).
 - The `domain` parameter uses **substring matching**, not exact enum matching (e.g., `"finance"` matches `"public-finance"`, `"finance"`, `"financial-markets"`).
-- No boolean operators (AND/OR/NOT). Multiple keywords in the array are combined with AND logic.
+- No boolean operators (AND/OR/NOT). Multiple keywords in the array are combined with **OR logic** (results matching any keyword are returned, deduplicated).
 - Response time: typically **~1 second**.
 
 ### Tool: `get_source`
