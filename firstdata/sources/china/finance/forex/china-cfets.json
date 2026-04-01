@@ -1,0 +1,63 @@
+{
+  "id": "china-cfets",
+  "name": {
+    "en": "China Foreign Exchange Trade System",
+    "zh": "中国外汇交易中心"
+  },
+  "description": {
+    "en": "China Foreign Exchange Trade System (CFETS), also known as China Money, is the institution authorized by the People's Bank of China to organize and operate the national interbank foreign exchange market, money market, and bond market. It publishes authoritative RMB exchange rate central parity rates, interbank market trading data, bond yields, and money market benchmark rates including SHIBOR and LPR.",
+    "zh": "中国外汇交易中心（CFETS）是经中国人民银行授权，负责组织运营全国银行间外汇市场、货币市场和债券市场的机构。发布人民币汇率中间价、银行间市场交易数据、债券收益率曲线、SHIBOR和LPR等货币市场基准利率等权威数据。"
+  },
+  "website": "https://www.chinamoney.com.cn",
+  "data_url": "https://www.chinamoney.com.cn/chinese/bkccpr/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "china",
+    "cfets",
+    "foreign-exchange",
+    "forex",
+    "exchange-rate",
+    "interbank",
+    "money-market",
+    "bond-market",
+    "shibor",
+    "lpr",
+    "rmb",
+    "人民币汇率",
+    "中间价",
+    "银行间市场",
+    "货币市场",
+    "债券市场",
+    "利率"
+  ],
+  "data_content": {
+    "en": [
+      "RMB Central Parity Rate - Daily central parity rates for RMB against USD and other major currencies",
+      "Interbank FX Market Data - Foreign exchange spot, forward, and swap trading volumes and rates",
+      "SHIBOR - Shanghai Interbank Offered Rate across multiple tenors",
+      "LPR - Loan Prime Rate published monthly",
+      "Bond Market Data - Interbank bond trading volumes, yields, and yield curves",
+      "Money Market Rates - Pledged repo rates, outright repo rates, and interbank lending rates",
+      "Gold Market Data - Interbank gold trading prices and volumes",
+      "CFETS RMB Index - Trade-weighted RMB exchange rate index"
+    ],
+    "zh": [
+      "人民币汇率中间价 - 人民币对美元等主要货币的每日中间价",
+      "银行间外汇市场数据 - 外汇即期、远期、掉期交易量和汇率",
+      "SHIBOR - 上海银行间同业拆放利率（多期限）",
+      "LPR - 贷款市场报价利率（每月发布）",
+      "债券市场数据 - 银行间债券交易量、收益率和收益率曲线",
+      "货币市场利率 - 质押式回购利率、买断式回购利率、同业拆借利率",
+      "黄金市场数据 - 银行间黄金交易价格和成交量",
+      "CFETS人民币汇率指数 - 贸易加权人民币汇率指数"
+    ]
+  }
+}
