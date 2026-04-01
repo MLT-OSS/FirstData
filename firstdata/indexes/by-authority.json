@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-04-01T02:13:47.628978+00:00",
-    "total_sources": 330,
+    "generated_at": "2026-04-01T06:12:37.340499+00:00",
+    "total_sources": 335,
     "authority_counts": {
       "research": 37,
       "international": 74,
-      "government": 184,
-      "other": 3,
+      "government": 188,
+      "other": 4,
       "market": 16,
       "commercial": 16
     },
@@ -1611,6 +1611,42 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-ha-stats",
+        "name": {
+          "en": "Henan Bureau of Statistics",
+          "zh": "河南省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.henan.gov.cn/tjfw/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-ha-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-hb-stats",
+        "name": {
+          "en": "Hubei Bureau of Statistics",
+          "zh": "湖北省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.hubei.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-hb-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-hn-stats",
+        "name": {
+          "en": "Hunan Bureau of Statistics",
+          "zh": "湖南省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.hunan.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-hn-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-js-stats",
         "name": {
           "en": "Jiangsu Bureau of Statistics",
@@ -1620,6 +1656,18 @@
         "data_url": "https://tj.jiangsu.gov.cn/col/col85273/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-js-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-sd-stats",
+        "name": {
+          "en": "Shandong Bureau of Statistics",
+          "zh": "山东省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.shandong.gov.cn/col/col8456/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-sd-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -3651,6 +3699,18 @@
         "data_url": "https://www.sac.net.cn/hysj/",
         "has_api": false,
         "file_path": "china/china-sac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-isc",
+        "name": {
+          "en": "Internet Society of China",
+          "zh": "中国互联网协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.isc.org.cn/yanjiu/index.html",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-isc.json",
         "geographic_scope": "national"
       },
       {

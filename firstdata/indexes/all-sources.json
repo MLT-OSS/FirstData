@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-01T02:13:47.628978+00:00",
-    "total_sources": 330,
+    "generated_at": "2026-04-01T06:12:37.340499+00:00",
+    "total_sources": 335,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2941,6 +2941,222 @@
       "file_path": "china/economy/provincial/china-gd-stats.json"
     },
     {
+      "id": "china-ha-stats",
+      "name": {
+        "en": "Henan Bureau of Statistics",
+        "zh": "河南省统计局"
+      },
+      "description": {
+        "en": "The Henan Bureau of Statistics is the official statistical authority for Henan Province, China's most populous province and a major agricultural and industrial hub in central China. It publishes comprehensive socioeconomic statistics including GDP, industrial output, agricultural production, population, employment, and consumer prices for Henan. The bureau releases the Henan Statistical Yearbook and regular economic bulletins, making it an essential data source for understanding one of China's largest provincial economies.",
+        "zh": "河南省统计局是河南省官方统计机构，河南是中国人口最多的省份，也是中国中部重要的农业和工业重镇。统计局发布河南省GDP、工业产值、农业生产、人口、就业和居民消费价格指数等全面的社会经济统计数据，并出版《河南统计年鉴》及定期经济运行情况报告，是了解中国最大省级经济体之一的重要数据来源。"
+      },
+      "website": "https://tjj.henan.gov.cn/",
+      "data_url": "https://tjj.henan.gov.cn/tjfw/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "agriculture"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "河南统计",
+        "Henan statistics",
+        "河南GDP",
+        "Henan GDP",
+        "中原经济区",
+        "Central Plains Economic Zone",
+        "省级统计",
+        "provincial statistics",
+        "人口大省",
+        "most populous province",
+        "农业大省",
+        "agricultural province",
+        "工业产值",
+        "industrial output",
+        "人口统计",
+        "population statistics",
+        "统计年鉴",
+        "statistical yearbook",
+        "粮食产量",
+        "grain output"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Henan Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance",
+          "Agricultural statistics: crop output (grain, cotton, oil), livestock, agricultural income",
+          "Population statistics: census data, household registration, birth and death rates, urbanization — Henan is China's most populous province",
+          "Employment and wages: employed persons, labor export statistics, average wages by sector",
+          "Consumer prices: CPI, PPI for Henan Province and its prefecture-level cities",
+          "Fixed asset investment: total investment, real estate development, infrastructure construction",
+          "Retail and commerce: social consumer goods retail total, market data",
+          "Henan Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：河南省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+          "农业统计：粮食（粮棉油）产量、畜牧业、农民收入",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率——河南是全国人口最多的省份",
+          "就业与工资：从业人员数、劳动力转移输出统计、各行业平均工资",
+          "消费价格：河南省及各地级市居民消费价格指数、工业品出厂价格",
+          "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+          "商贸消费：社会消费品零售总额、市场数据",
+          "河南统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-ha-stats.json"
+    },
+    {
+      "id": "china-hb-stats",
+      "name": {
+        "en": "Hubei Bureau of Statistics",
+        "zh": "湖北省统计局"
+      },
+      "description": {
+        "en": "The Hubei Bureau of Statistics is the official statistical authority for Hubei Province, a major industrial and agricultural province in central China and home to the Three Gorges Dam. It publishes comprehensive socioeconomic statistics including GDP, industrial output, population, employment, consumer prices, and investment data for Hubei. The bureau also releases the Hubei Statistical Yearbook and regular economic bulletins, serving as the authoritative source for understanding central China's economic dynamics.",
+        "zh": "湖北省统计局是湖北省官方统计机构，湖北是中国中部重要的工业和农业省份，三峡大坝所在地。统计局发布湖北省GDP、工业产值、人口、就业、居民消费价格指数和固定资产投资等全面的社会经济统计数据，并出版《湖北统计年鉴》及定期经济运行情况报告，是了解中部地区经济发展的权威数据来源。"
+      },
+      "website": "https://tjj.hubei.gov.cn/",
+      "data_url": "https://tjj.hubei.gov.cn/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "湖北统计",
+        "Hubei statistics",
+        "湖北GDP",
+        "Hubei GDP",
+        "中部崛起",
+        "central China",
+        "省级统计",
+        "provincial statistics",
+        "工业产值",
+        "industrial output",
+        "三峡",
+        "Three Gorges",
+        "固定资产投资",
+        "fixed asset investment",
+        "人口统计",
+        "population statistics",
+        "统计年鉴",
+        "statistical yearbook",
+        "经济运行",
+        "economic performance"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Hubei Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance",
+          "Fixed asset investment: total investment, real estate development, infrastructure investment",
+          "Population statistics: census data, household registration, birth and death rates, urbanization",
+          "Employment and wages: employed persons, unemployment rate, average wages by sector",
+          "Consumer prices: CPI, PPI for Hubei Province and major cities",
+          "Agricultural statistics: crop output, livestock, agricultural income",
+          "Social development: education, healthcare resources, social security coverage",
+          "Hubei Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：湖北省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+          "固定资产投资：全省投资总额、房地产开发、基础设施投资",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+          "就业与工资：从业人员数、失业率、各行业平均工资",
+          "消费价格：湖北省及主要城市居民消费价格指数、工业品出厂价格",
+          "农业统计：粮食产量、畜牧业、农民收入",
+          "社会发展：教育、医疗卫生资源、社会保障覆盖率",
+          "湖北统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-hb-stats.json"
+    },
+    {
+      "id": "china-hn-stats",
+      "name": {
+        "en": "Hunan Bureau of Statistics",
+        "zh": "湖南省统计局"
+      },
+      "description": {
+        "en": "The Hunan Bureau of Statistics is the official statistical authority for Hunan Province, a major agricultural and increasingly industrial province in south-central China. It publishes comprehensive socioeconomic statistics including GDP, industrial output, agricultural production, population, employment, and consumer prices for Hunan. The bureau also releases the Hunan Statistical Yearbook and monthly economic bulletins, serving as the primary data source for understanding Hunan's economic transformation and development.",
+        "zh": "湖南省统计局是湖南省官方统计机构，湖南是中国中南部重要的农业省份，工业化进程持续推进。统计局发布湖南省GDP、工业产值、农业生产、人口、就业和居民消费价格指数等全面的社会经济统计数据，并出版《湖南统计年鉴》及月度经济运行情况报告，是了解湖南经济转型与发展的重要数据来源。"
+      },
+      "website": "https://tjj.hunan.gov.cn/",
+      "data_url": "https://tjj.hunan.gov.cn/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "agriculture"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "湖南统计",
+        "Hunan statistics",
+        "湖南GDP",
+        "Hunan GDP",
+        "中南地区",
+        "south-central China",
+        "省级统计",
+        "provincial statistics",
+        "农业统计",
+        "agricultural statistics",
+        "工业产值",
+        "industrial output",
+        "人口统计",
+        "population statistics",
+        "就业数据",
+        "employment data",
+        "统计年鉴",
+        "statistical yearbook",
+        "消费价格指数",
+        "CPI"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Hunan Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance",
+          "Agricultural statistics: crop output, farmland usage, livestock, agricultural household income",
+          "Population statistics: census data, household registration, birth and death rates, urbanization",
+          "Employment and wages: employed persons, urban unemployment rate, average wages by sector",
+          "Consumer prices: CPI, PPI for Hunan Province and its prefecture-level cities",
+          "Fixed asset investment: total investment, real estate development, infrastructure construction",
+          "Retail sales: social consumer goods retail total, e-commerce data",
+          "Hunan Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：湖南省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+          "农业统计：粮食产量、耕地使用、畜牧业、农村居民收入",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+          "就业与工资：从业人员数、城镇失业率、各行业平均工资",
+          "消费价格：湖南省及各地级市居民消费价格指数、工业品出厂价格",
+          "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+          "社会消费：社会消费品零售总额、电子商务数据",
+          "湖南统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-hn-stats.json"
+    },
+    {
       "id": "china-js-stats",
       "name": {
         "en": "Jiangsu Bureau of Statistics",
@@ -3007,6 +3223,78 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-js-stats.json"
+    },
+    {
+      "id": "china-sd-stats",
+      "name": {
+        "en": "Shandong Bureau of Statistics",
+        "zh": "山东省统计局"
+      },
+      "description": {
+        "en": "The Shandong Bureau of Statistics is the official statistical authority for Shandong Province, one of China's most economically significant provinces and a leading hub for manufacturing, agriculture, and coastal trade. It publishes comprehensive socioeconomic statistics including GDP, industrial output, agricultural production, trade, and population data for Shandong. The bureau also releases the Shandong Statistical Yearbook and regular economic bulletins, serving as a critical data source for understanding one of China's top-three provincial economies.",
+        "zh": "山东省统计局是山东省官方统计机构，山东是中国经济总量前三的重要省份，制造业、农业和沿海贸易的重要枢纽。统计局发布山东省GDP、工业产值、农业生产、对外贸易和人口统计等全面数据，并出版《山东统计年鉴》及定期经济运行情况报告，是了解中国最重要省级经济体之一的权威数据来源。"
+      },
+      "website": "https://tjj.shandong.gov.cn/",
+      "data_url": "https://tjj.shandong.gov.cn/col/col8456/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "山东统计",
+        "Shandong statistics",
+        "山东GDP",
+        "Shandong GDP",
+        "黄河流域",
+        "Yellow River Basin",
+        "省级统计",
+        "provincial statistics",
+        "制造业",
+        "manufacturing",
+        "农业统计",
+        "agricultural statistics",
+        "对外贸易",
+        "foreign trade",
+        "人口统计",
+        "population statistics",
+        "统计年鉴",
+        "statistical yearbook",
+        "工业产值",
+        "industrial output"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Shandong Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance",
+          "Agricultural statistics: crop output, aquaculture, livestock, agricultural household income",
+          "Foreign trade: import and export value by commodity and trading partner",
+          "Population statistics: census data, household registration, birth and death rates, urbanization",
+          "Employment and wages: employed persons, urban unemployment rate, average wages by sector",
+          "Consumer prices: CPI, PPI for Shandong Province and its prefecture-level cities",
+          "Fixed asset investment: total investment, real estate development, infrastructure construction",
+          "Shandong Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：山东省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+          "农业统计：粮食产量、水产养殖、畜牧业、农民收入",
+          "对外贸易：按商品类别和贸易伙伴分类的进出口数据",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+          "就业与工资：从业人员数、城镇失业率、各行业平均工资",
+          "消费价格：山东省及各地级市居民消费价格指数、工业品出厂价格",
+          "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+          "山东统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-sd-stats.json"
     },
     {
       "id": "china-shanghai-stats",
@@ -6101,6 +6389,78 @@
       },
       "has_api": false,
       "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+    },
+    {
+      "id": "china-isc",
+      "name": {
+        "en": "Internet Society of China",
+        "zh": "中国互联网协会"
+      },
+      "description": {
+        "en": "The Internet Society of China (ISC) is a national industry association supervised by the Ministry of Industry and Information Technology, representing China's internet industry ecosystem. It publishes authoritative research reports on internet industry development, cybersecurity, digital economy, and internet governance. ISC's annual China Internet Industry Report and thematic research reports on topics such as mobile internet, cloud computing, artificial intelligence, and e-commerce are widely cited by industry practitioners, regulators, and researchers.",
+        "zh": "中国互联网协会（ISC）是工业和信息化部主管的全国性行业协会，代表中国互联网产业生态。协会发布互联网产业发展、网络安全、数字经济和互联网治理等权威研究报告。协会年度《中国互联网行业发展报告》及移动互联网、云计算、人工智能、电子商务等专题研究报告，被业界从业者、监管机构和研究人员广泛引用。"
+      },
+      "website": "https://www.isc.org.cn/",
+      "data_url": "https://www.isc.org.cn/yanjiu/index.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "economics",
+        "statistics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国互联网协会",
+        "Internet Society of China",
+        "ISC",
+        "互联网行业",
+        "internet industry",
+        "数字经济",
+        "digital economy",
+        "网络安全",
+        "cybersecurity",
+        "云计算",
+        "cloud computing",
+        "人工智能",
+        "artificial intelligence",
+        "电子商务",
+        "e-commerce",
+        "互联网治理",
+        "internet governance",
+        "行业报告",
+        "industry report",
+        "移动互联网",
+        "mobile internet"
+      ],
+      "data_content": {
+        "en": [
+          "China Internet Industry Report: annual overview of China's internet industry development, key metrics, and trends",
+          "Digital Economy: data on China's digital economy scale, contribution to GDP, and sector breakdown",
+          "Cybersecurity: reports on China's cybersecurity landscape, threats, policy developments",
+          "Mobile Internet: mobile app ecosystem, user behavior, smartphone penetration statistics",
+          "Cloud Computing: cloud adoption rates, market size, major service provider analysis",
+          "Artificial Intelligence: AI industry development, application scenarios, investment data in China",
+          "E-Commerce: online retail data, cross-border e-commerce statistics, platform economy",
+          "Internet Governance: regulatory environment, policy developments, compliance data",
+          "Thematic Research Reports: in-depth analyses of specific internet subsectors and emerging technologies"
+        ],
+        "zh": [
+          "中国互联网行业发展报告：年度互联网行业发展综览、关键指标与发展趋势",
+          "数字经济：中国数字经济规模、对GDP贡献及行业结构数据",
+          "网络安全：中国网络安全态势、威胁情报及政策发展报告",
+          "移动互联网：移动应用生态、用户行为、智能手机普及率统计",
+          "云计算：云服务采用率、市场规模、主要服务商分析",
+          "人工智能：AI产业发展、应用场景、国内投资数据",
+          "电子商务：网络零售数据、跨境电商统计、平台经济情况",
+          "互联网治理：监管环境、政策动态、合规数据",
+          "专题研究报告：互联网细分领域及新兴技术的深度分析报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-isc.json"
     },
     {
       "id": "china-cnipa-patents",
