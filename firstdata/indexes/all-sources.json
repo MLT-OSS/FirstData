@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-01T06:12:37.340499+00:00",
-    "total_sources": 335,
+    "generated_at": "2026-04-02T02:11:03.069368+00:00",
+    "total_sources": 340,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2729,6 +2729,80 @@
       "file_path": "china/economy/market/china-samr.json"
     },
     {
+      "id": "china-ah-stats",
+      "name": {
+        "en": "Anhui Bureau of Statistics",
+        "zh": "安徽省统计局"
+      },
+      "description": {
+        "en": "The Anhui Bureau of Statistics is the official statistical authority for Anhui Province, a central-eastern China province experiencing rapid economic transformation driven by emerging industries, high-tech manufacturing, and its integration into the Yangtze River Delta economic region. It publishes comprehensive socioeconomic statistics including GDP, industrial output, agricultural production, population, employment, and consumer prices for Anhui. The bureau releases the Anhui Statistical Yearbook and regular economic bulletins, serving as the authoritative data source for one of China's fastest-growing provincial economies.",
+        "zh": "安徽省统计局是安徽省官方统计机构，安徽是中国中东部省份，正经历以新兴产业、高新技术制造业和长三角一体化为驱动的快速经济转型。统计局发布安徽省GDP、工业产值、农业生产、人口、就业和居民消费价格指数等全面的社会经济统计数据，并出版《安徽统计年鉴》及定期经济运行情况报告，是了解中国增速最快省级经济体之一的权威数据来源。"
+      },
+      "website": "https://tj.ah.gov.cn/",
+      "data_url": "https://tj.ah.gov.cn/tjyw/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "安徽统计",
+        "Anhui statistics",
+        "安徽GDP",
+        "Anhui GDP",
+        "长三角一体化",
+        "Yangtze River Delta integration",
+        "省级统计",
+        "provincial statistics",
+        "新兴产业",
+        "emerging industries",
+        "高新技术",
+        "high-tech manufacturing",
+        "工业产值",
+        "industrial output",
+        "人口统计",
+        "population statistics",
+        "统计年鉴",
+        "statistical yearbook",
+        "新能源汽车",
+        "new energy vehicles"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Anhui Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance including emerging industries",
+          "High-tech and strategic industries: new energy vehicles, semiconductor, artificial intelligence, quantum computing output data",
+          "Agricultural statistics: crop output, livestock, tea production — Anhui is a major agricultural province",
+          "Fixed asset investment: total investment, real estate development, infrastructure construction",
+          "Population statistics: census data, household registration, urbanization — significant labor-exporting province",
+          "Employment and wages: employed persons, migrant labor statistics, average wages by sector",
+          "Consumer prices: CPI, PPI for Anhui Province and Hefei metropolitan area",
+          "Foreign trade and investment: import/export, utilized foreign direct investment",
+          "Anhui Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：安徽省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况，包括新兴产业",
+          "高新技术与战略性新兴产业：新能源汽车、半导体、人工智能、量子计算产值数据",
+          "农业统计：粮食产量、畜牧业、茶叶产量——安徽是重要农业大省",
+          "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+          "人口统计：人口普查数据、户籍人口、城镇化率——重要劳动力输出省份",
+          "就业与工资：从业人员数、外出务工统计、各行业平均工资",
+          "消费价格：安徽省及合肥都市圈居民消费价格指数、工业品出厂价格",
+          "对外贸易与投资：进出口统计、实际利用外资",
+          "安徽统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-ah-stats.json"
+    },
+    {
       "id": "china-beijing-stats",
       "name": {
         "en": "Beijing Bureau of Statistics",
@@ -3225,6 +3299,78 @@
       "file_path": "china/economy/provincial/china-js-stats.json"
     },
     {
+      "id": "china-sc-stats",
+      "name": {
+        "en": "Sichuan Bureau of Statistics",
+        "zh": "四川省统计局"
+      },
+      "description": {
+        "en": "The Sichuan Bureau of Statistics is the official statistical authority for Sichuan Province, a major western China province known for its large population, significant industrial base, and strategic importance as a gateway to southwest China. It publishes comprehensive socioeconomic statistics including GDP, industrial output, agricultural production, population, employment, and consumer prices for Sichuan. The bureau releases the Sichuan Statistical Yearbook and regular economic bulletins, making it a key data source for understanding western China's largest provincial economy.",
+        "zh": "四川省统计局是四川省官方统计机构，四川是西部大省，以庞大的人口规模、重要的工业基础和作为西南地区门户的战略地位而著称。统计局发布四川省GDP、工业产值、农业生产、人口、就业和居民消费价格指数等全面的社会经济统计数据，并出版《四川统计年鉴》及定期经济运行情况报告，是了解西部最大省级经济体的重要数据来源。"
+      },
+      "website": "https://tjj.sc.gov.cn/",
+      "data_url": "https://tjj.sc.gov.cn/scstjj/c112124/sjcx.shtml",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "四川统计",
+        "Sichuan statistics",
+        "四川GDP",
+        "Sichuan GDP",
+        "西部大开发",
+        "western China development",
+        "省级统计",
+        "provincial statistics",
+        "成都经济圈",
+        "Chengdu economic circle",
+        "工业产值",
+        "industrial output",
+        "农业统计",
+        "agricultural statistics",
+        "人口统计",
+        "population statistics",
+        "统计年鉴",
+        "statistical yearbook",
+        "成渝地区双城经济圈",
+        "Chengdu-Chongqing dual city economic circle"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Sichuan Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance including defense and aerospace industries",
+          "Agricultural statistics: crop output, livestock, agricultural income — Sichuan is a major grain and pork producer",
+          "Fixed asset investment: total investment, real estate development, infrastructure construction",
+          "Population statistics: census data, household registration, birth and death rates, urbanization — Sichuan is one of China's most populous provinces",
+          "Employment and wages: employed persons, labor migration, average wages by sector",
+          "Consumer prices: CPI, PPI for Sichuan Province and Chengdu metropolitan area",
+          "Energy and resources: natural gas production and consumption, hydropower statistics",
+          "Sichuan Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：四川省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况，包括国防和航空航天产业",
+          "农业统计：粮食产量、畜牧业（四川是主要粮食和生猪产地）、农民收入",
+          "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率——四川是全国人口大省之一",
+          "就业与工资：从业人员数、劳动力转移统计、各行业平均工资",
+          "消费价格：四川省及成都都市圈居民消费价格指数、工业品出厂价格",
+          "能源与资源：天然气生产和消费、水电统计数据",
+          "四川统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-sc-stats.json"
+    },
+    {
       "id": "china-sd-stats",
       "name": {
         "en": "Shandong Bureau of Statistics",
@@ -3372,6 +3518,80 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-shanghai-stats.json"
+    },
+    {
+      "id": "china-zj-stats",
+      "name": {
+        "en": "Zhejiang Bureau of Statistics",
+        "zh": "浙江省统计局"
+      },
+      "description": {
+        "en": "The Zhejiang Bureau of Statistics is the official statistical authority for Zhejiang Province, one of China's most economically dynamic coastal provinces and a powerhouse of private enterprise and digital economy. It publishes comprehensive socioeconomic statistics including GDP, industrial output, trade, investment, population, employment, consumer prices, and e-commerce data for Zhejiang. The bureau releases the Zhejiang Statistical Yearbook and regular economic bulletins, serving as the authoritative data source for understanding one of China's wealthiest and most innovative provincial economies.",
+        "zh": "浙江省统计局是浙江省官方统计机构，浙江是中国经济最活跃的沿海省份之一，也是民营经济和数字经济的重要高地。统计局发布浙江省GDP、工业产值、对外贸易、投资、人口、就业、居民消费价格指数和电子商务等全面的社会经济统计数据，并出版《浙江统计年鉴》及定期经济运行情况报告，是了解中国最富裕、最具创新活力省级经济体的权威数据来源。"
+      },
+      "website": "https://tjj.zj.gov.cn/",
+      "data_url": "https://tjj.zj.gov.cn/col/col1525563/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "浙江统计",
+        "Zhejiang statistics",
+        "浙江GDP",
+        "Zhejiang GDP",
+        "民营经济",
+        "private economy",
+        "数字经济",
+        "digital economy",
+        "省级统计",
+        "provincial statistics",
+        "电子商务",
+        "e-commerce",
+        "工业产值",
+        "industrial output",
+        "对外贸易",
+        "foreign trade",
+        "统计年鉴",
+        "statistical yearbook",
+        "长三角",
+        "Yangtze River Delta"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Zhejiang Province",
+          "Industrial production: output value by industry, major products output, industrial enterprise performance",
+          "Private economy: statistics on private enterprises, self-employed businesses, and non-public economy",
+          "Digital economy: e-commerce transactions, digital industry output, internet economy indicators",
+          "Fixed asset investment: total investment, real estate development, infrastructure construction",
+          "Foreign trade: import and export statistics for Zhejiang Province",
+          "Population statistics: census data, household registration, birth and death rates, urbanization",
+          "Employment and wages: employed persons, unemployment rate, average wages by sector",
+          "Consumer prices: CPI, PPI for Zhejiang Province and major cities including Hangzhou, Ningbo",
+          "Zhejiang Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：浙江省季度和年度GDP数据，按产业分类",
+          "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+          "民营经济：民营企业、个体工商户和非公有制经济统计数据",
+          "数字经济：电子商务交易额、数字产业产值、互联网经济指标",
+          "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+          "对外贸易：浙江省进出口统计数据",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+          "就业与工资：从业人员数、失业率、各行业平均工资",
+          "消费价格：浙江省及杭州、宁波等主要城市居民消费价格指数、工业品出厂价格",
+          "浙江统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-zj-stats.json"
     },
     {
       "id": "china-gacc",
@@ -4762,6 +4982,76 @@
       "file_path": "china/finance/taxation/china-chinatax.json"
     },
     {
+      "id": "china-cnao",
+      "name": {
+        "en": "National Audit Office of China",
+        "zh": "中华人民共和国审计署"
+      },
+      "description": {
+        "en": "The National Audit Office of China (CNAO) is the supreme audit institution of the People's Republic of China, responsible for auditing the fiscal revenues and expenditures of central government agencies, state-owned enterprises, and financial institutions. It publishes official audit reports, audit findings on government budget execution, special audit investigations, and national audit work reports submitted to the Standing Committee of the National People's Congress. CNAO's disclosures provide unique transparency into public finance, state asset management, and government accountability in China.",
+        "zh": "中华人民共和国审计署是中国最高审计机关，负责对中央政府机关、国有企业和金融机构的财政收支进行审计监督。审计署发布官方审计报告、政府预算执行审计结果、专项审计调查报告，以及向全国人民代表大会常务委员会提交的国家审计工作报告。审计署的信息披露为了解中国公共财政、国有资产管理和政府问责提供了独特的透明度视角。"
+      },
+      "website": "https://www.cnao.gov.cn/",
+      "data_url": "https://www.cnao.gov.cn/col/col1705/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "finance",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "审计署",
+        "National Audit Office",
+        "审计报告",
+        "audit report",
+        "政府预算",
+        "government budget",
+        "财政审计",
+        "fiscal audit",
+        "国有企业审计",
+        "SOE audit",
+        "公共财政",
+        "public finance",
+        "政府问责",
+        "government accountability",
+        "审计结果",
+        "audit findings",
+        "CNAO",
+        "中央预算执行",
+        "central budget execution",
+        "国有资产",
+        "state-owned assets"
+      ],
+      "data_content": {
+        "en": [
+          "Annual audit work reports to the National People's Congress: summary of national audit findings and government budget execution",
+          "Central budget execution audit reports: examination of central government agencies' revenue and expenditure compliance",
+          "State-owned enterprise audit reports: financial audit results for major central SOEs",
+          "Special audit investigation reports: targeted audits on specific sectors (social security funds, education funds, infrastructure projects)",
+          "Government debt audit results: audit findings on local government debt, hidden debt, and financing platform obligations",
+          "Financial institution audit reports: audits of state-owned banks and policy financial institutions",
+          "National natural resource asset audit reports: accountability audits for local leaders on environmental assets",
+          "Audit rectification tracking: implementation status of previous audit recommendations and corrections"
+        ],
+        "zh": [
+          "向全国人民代表大会提交的年度审计工作报告：全国审计结果汇总及政府预算执行情况",
+          "中央预算执行审计报告：对中央政府机关收支合规性的检查结果",
+          "国有企业审计报告：主要中央国有企业财务审计结果",
+          "专项审计调查报告：对特定领域的专项审计（社会保险基金、教育经费、基础设施项目）",
+          "政府债务审计结果：地方政府债务、隐性债务及融资平台义务审计发现",
+          "金融机构审计报告：国有银行和政策性金融机构审计情况",
+          "自然资源资产离任审计报告：地方领导干部自然资源资产管理情况问责审计",
+          "审计整改追踪：历次审计建议落实情况及问题整改进展"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cnao.json"
+    },
+    {
       "id": "china-mem",
       "name": {
         "en": "Ministry of Emergency Management of China",
@@ -5263,6 +5553,78 @@
       },
       "has_api": false,
       "file_path": "china/infrastructure/china-mot.json"
+    },
+    {
+      "id": "china-spb",
+      "name": {
+        "en": "State Post Bureau of China",
+        "zh": "国家邮政局"
+      },
+      "description": {
+        "en": "The State Post Bureau of China (SPB) is the national regulatory authority overseeing the postal and express delivery industry in China. It publishes official statistics on China's postal and courier services, including parcel volumes, revenue, business entities, and delivery network capacity. With China being the world's largest express delivery market, SPB's data provides critical insights into the country's e-commerce logistics backbone, consumer demand trends, and the rapid growth of domestic and cross-border express services.",
+        "zh": "国家邮政局是负责监管中国邮政和快递业的国家级监管机构。国家邮政局发布中国邮政和快递服务的官方统计数据，包括快件业务量、业务收入、企业数量和配送网络能力。中国是全球最大的快递市场，国家邮政局的数据为了解中国电子商务物流支撑体系、消费需求趋势以及国内外快递服务的快速增长提供了关键参考。"
+      },
+      "website": "https://www.spb.gov.cn/",
+      "data_url": "https://www.spb.gov.cn/gjyzj/c100009/c100014/xxgk_index.shtml",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "infrastructure"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "国家邮政局",
+        "State Post Bureau",
+        "快递统计",
+        "express delivery statistics",
+        "邮政业务",
+        "postal services",
+        "快件业务量",
+        "parcel volume",
+        "电商物流",
+        "e-commerce logistics",
+        "快递行业",
+        "courier industry",
+        "跨境快递",
+        "cross-border express",
+        "SPB",
+        "业务收入",
+        "postal revenue",
+        "配送网络",
+        "delivery network",
+        "邮政行业",
+        "postal industry"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly express delivery volume: total number of parcels handled, year-on-year growth rates",
+          "Postal and express revenue statistics: total industry revenue, breakdown by service type",
+          "Enterprise data: number of postal and express delivery enterprises by type and region",
+          "Cross-border e-commerce logistics: international express parcel volumes and key trade lanes",
+          "Delivery network capacity: courier stations, delivery vehicles, employees, and sorting center data",
+          "Regional parcel statistics: express volume and revenue by province and major cities",
+          "Postal savings bank and financial services data",
+          "Complaint and service quality reports: consumer complaint statistics, delivery timeliness rates",
+          "China Postal Industry Annual Report: comprehensive annual review of the postal and courier sector"
+        ],
+        "zh": [
+          "月度快递业务量：处理快件总量及同比增长率",
+          "邮政和快递收入统计：行业总收入及按服务类型分类数据",
+          "企业数据：各类型和地区的邮政和快递企业数量",
+          "跨境电商物流：国际快递包裹量及主要贸易通道数据",
+          "配送网络能力：快递网点、配送车辆、从业人员及分拣中心数据",
+          "各地区快递统计：各省市快递业务量及收入",
+          "邮政储蓄银行及金融服务数据",
+          "申诉及服务质量报告：消费者投诉统计、配送时效率",
+          "中国邮政行业年度报告：邮政和快递行业综合年度回顾"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-spb.json"
     },
     {
       "id": "ceic-china-urbanization",

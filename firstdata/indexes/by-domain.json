@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-01T06:12:37.340499+00:00",
+    "generated_at": "2026-04-02T02:11:03.069368+00:00",
     "total_domains": 704,
-    "total_sources": 335,
+    "total_sources": 340,
     "version": "2.0"
   },
   "domains": {
@@ -6483,6 +6483,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ah-stats",
+        "name": {
+          "en": "Anhui Bureau of Statistics",
+          "zh": "安徽省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tj.ah.gov.cn/tjyw/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-ah-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-beijing-stats",
         "name": {
           "en": "Beijing Bureau of Statistics",
@@ -6567,6 +6579,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-sc-stats",
+        "name": {
+          "en": "Sichuan Bureau of Statistics",
+          "zh": "四川省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sc.gov.cn/scstjj/c112124/sjcx.shtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-sc-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-sd-stats",
         "name": {
           "en": "Shandong Bureau of Statistics",
@@ -6588,6 +6612,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-zj-stats",
+        "name": {
+          "en": "Zhejiang Bureau of Statistics",
+          "zh": "浙江省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zj.gov.cn/col/col1525563/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zj-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -6692,6 +6728,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnao",
+        "name": {
+          "en": "National Audit Office of China",
+          "zh": "中华人民共和国审计署"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnao.gov.cn/col/col1705/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnao.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gas",
         "name": {
           "en": "General Administration of Sport of China",
@@ -6701,6 +6749,18 @@
         "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
         "has_api": false,
         "file_path": "china/governance/sports/china-gas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-spb",
+        "name": {
+          "en": "State Post Bureau of China",
+          "zh": "国家邮政局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.spb.gov.cn/gjyzj/c100009/c100014/xxgk_index.shtml",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-spb.json",
         "geographic_scope": "national"
       },
       {
@@ -11336,6 +11396,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnao",
+        "name": {
+          "en": "National Audit Office of China",
+          "zh": "中华人民共和国审计署"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnao.gov.cn/col/col1705/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnao.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "hk-sfc",
         "name": {
           "en": "Securities and Futures Commission of Hong Kong",
@@ -13204,6 +13276,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnao",
+        "name": {
+          "en": "National Audit Office of China",
+          "zh": "中华人民共和国审计署"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnao.gov.cn/col/col1705/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnao.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mem",
         "name": {
           "en": "Ministry of Emergency Management of China",
@@ -14959,6 +15043,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ah-stats",
+        "name": {
+          "en": "Anhui Bureau of Statistics",
+          "zh": "安徽省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tj.ah.gov.cn/tjyw/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-ah-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-hb-stats",
         "name": {
           "en": "Hubei Bureau of Statistics",
@@ -14981,6 +15077,42 @@
         "has_api": false,
         "file_path": "china/economy/provincial/china-js-stats.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-sc-stats",
+        "name": {
+          "en": "Sichuan Bureau of Statistics",
+          "zh": "四川省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sc.gov.cn/scstjj/c112124/sjcx.shtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-sc-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-zj-stats",
+        "name": {
+          "en": "Zhejiang Bureau of Statistics",
+          "zh": "浙江省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zj.gov.cn/col/col1525563/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zj-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-spb",
+        "name": {
+          "en": "State Post Bureau of China",
+          "zh": "国家邮政局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.spb.gov.cn/gjyzj/c100009/c100014/xxgk_index.shtml",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-spb.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-nbs",
@@ -15516,6 +15648,18 @@
         "data_url": "https://www.mot.gov.cn/shuju/",
         "has_api": false,
         "file_path": "china/infrastructure/china-mot.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-spb",
+        "name": {
+          "en": "State Post Bureau of China",
+          "zh": "国家邮政局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.spb.gov.cn/gjyzj/c100009/c100014/xxgk_index.shtml",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-spb.json",
         "geographic_scope": "national"
       },
       {
@@ -21208,6 +21352,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ah-stats",
+        "name": {
+          "en": "Anhui Bureau of Statistics",
+          "zh": "安徽省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tj.ah.gov.cn/tjyw/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-ah-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-beijing-stats",
         "name": {
           "en": "Beijing Bureau of Statistics",
@@ -21292,6 +21448,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-sc-stats",
+        "name": {
+          "en": "Sichuan Bureau of Statistics",
+          "zh": "四川省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sc.gov.cn/scstjj/c112124/sjcx.shtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-sc-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-sd-stats",
         "name": {
           "en": "Shandong Bureau of Statistics",
@@ -21313,6 +21481,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-zj-stats",
+        "name": {
+          "en": "Zhejiang Bureau of Statistics",
+          "zh": "浙江省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zj.gov.cn/col/col1525563/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zj-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -22379,6 +22559,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ah-stats",
+        "name": {
+          "en": "Anhui Bureau of Statistics",
+          "zh": "安徽省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tj.ah.gov.cn/tjyw/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-ah-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-beijing-stats",
         "name": {
           "en": "Beijing Bureau of Statistics",
@@ -22463,6 +22655,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-sc-stats",
+        "name": {
+          "en": "Sichuan Bureau of Statistics",
+          "zh": "四川省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sc.gov.cn/scstjj/c112124/sjcx.shtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-sc-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-sd-stats",
         "name": {
           "en": "Shandong Bureau of Statistics",
@@ -22484,6 +22688,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-zj-stats",
+        "name": {
+          "en": "Zhejiang Bureau of Statistics",
+          "zh": "浙江省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zj.gov.cn/col/col1525563/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zj-stats.json",
         "geographic_scope": "subnational"
       },
       {
