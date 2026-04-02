@@ -1,0 +1,68 @@
+{
+  "id": "china-cnao",
+  "name": {
+    "en": "National Audit Office of China",
+    "zh": "中华人民共和国审计署"
+  },
+  "description": {
+    "en": "The National Audit Office of China (CNAO) is the supreme audit institution of the People's Republic of China, responsible for auditing the fiscal revenues and expenditures of central government agencies, state-owned enterprises, and financial institutions. It publishes official audit reports, audit findings on government budget execution, special audit investigations, and national audit work reports submitted to the Standing Committee of the National People's Congress. CNAO's disclosures provide unique transparency into public finance, state asset management, and government accountability in China.",
+    "zh": "中华人民共和国审计署是中国最高审计机关，负责对中央政府机关、国有企业和金融机构的财政收支进行审计监督。审计署发布官方审计报告、政府预算执行审计结果、专项审计调查报告，以及向全国人民代表大会常务委员会提交的国家审计工作报告。审计署的信息披露为了解中国公共财政、国有资产管理和政府问责提供了独特的透明度视角。"
+  },
+  "website": "https://www.cnao.gov.cn/",
+  "data_url": "https://www.cnao.gov.cn/col/col1705/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "finance",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "审计署",
+    "National Audit Office",
+    "审计报告",
+    "audit report",
+    "政府预算",
+    "government budget",
+    "财政审计",
+    "fiscal audit",
+    "国有企业审计",
+    "SOE audit",
+    "公共财政",
+    "public finance",
+    "政府问责",
+    "government accountability",
+    "审计结果",
+    "audit findings",
+    "CNAO",
+    "中央预算执行",
+    "central budget execution",
+    "国有资产",
+    "state-owned assets"
+  ],
+  "data_content": {
+    "en": [
+      "Annual audit work reports to the National People's Congress: summary of national audit findings and government budget execution",
+      "Central budget execution audit reports: examination of central government agencies' revenue and expenditure compliance",
+      "State-owned enterprise audit reports: financial audit results for major central SOEs",
+      "Special audit investigation reports: targeted audits on specific sectors (social security funds, education funds, infrastructure projects)",
+      "Government debt audit results: audit findings on local government debt, hidden debt, and financing platform obligations",
+      "Financial institution audit reports: audits of state-owned banks and policy financial institutions",
+      "National natural resource asset audit reports: accountability audits for local leaders on environmental assets",
+      "Audit rectification tracking: implementation status of previous audit recommendations and corrections"
+    ],
+    "zh": [
+      "向全国人民代表大会提交的年度审计工作报告：全国审计结果汇总及政府预算执行情况",
+      "中央预算执行审计报告：对中央政府机关收支合规性的检查结果",
+      "国有企业审计报告：主要中央国有企业财务审计结果",
+      "专项审计调查报告：对特定领域的专项审计（社会保险基金、教育经费、基础设施项目）",
+      "政府债务审计结果：地方政府债务、隐性债务及融资平台义务审计发现",
+      "金融机构审计报告：国有银行和政策性金融机构审计情况",
+      "自然资源资产离任审计报告：地方领导干部自然资源资产管理情况问责审计",
+      "审计整改追踪：历次审计建议落实情况及问题整改进展"
+    ]
+  }
+}

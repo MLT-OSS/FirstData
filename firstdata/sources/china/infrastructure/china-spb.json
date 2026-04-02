@@ -1,0 +1,70 @@
+{
+  "id": "china-spb",
+  "name": {
+    "en": "State Post Bureau of China",
+    "zh": "国家邮政局"
+  },
+  "description": {
+    "en": "The State Post Bureau of China (SPB) is the national regulatory authority overseeing the postal and express delivery industry in China. It publishes official statistics on China's postal and courier services, including parcel volumes, revenue, business entities, and delivery network capacity. With China being the world's largest express delivery market, SPB's data provides critical insights into the country's e-commerce logistics backbone, consumer demand trends, and the rapid growth of domestic and cross-border express services.",
+    "zh": "国家邮政局是负责监管中国邮政和快递业的国家级监管机构。国家邮政局发布中国邮政和快递服务的官方统计数据，包括快件业务量、业务收入、企业数量和配送网络能力。中国是全球最大的快递市场，国家邮政局的数据为了解中国电子商务物流支撑体系、消费需求趋势以及国内外快递服务的快速增长提供了关键参考。"
+  },
+  "website": "https://www.spb.gov.cn/",
+  "data_url": "https://www.spb.gov.cn/gjyzj/c100009/c100014/xxgk_index.shtml",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "infrastructure"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "国家邮政局",
+    "State Post Bureau",
+    "快递统计",
+    "express delivery statistics",
+    "邮政业务",
+    "postal services",
+    "快件业务量",
+    "parcel volume",
+    "电商物流",
+    "e-commerce logistics",
+    "快递行业",
+    "courier industry",
+    "跨境快递",
+    "cross-border express",
+    "SPB",
+    "业务收入",
+    "postal revenue",
+    "配送网络",
+    "delivery network",
+    "邮政行业",
+    "postal industry"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly express delivery volume: total number of parcels handled, year-on-year growth rates",
+      "Postal and express revenue statistics: total industry revenue, breakdown by service type",
+      "Enterprise data: number of postal and express delivery enterprises by type and region",
+      "Cross-border e-commerce logistics: international express parcel volumes and key trade lanes",
+      "Delivery network capacity: courier stations, delivery vehicles, employees, and sorting center data",
+      "Regional parcel statistics: express volume and revenue by province and major cities",
+      "Postal savings bank and financial services data",
+      "Complaint and service quality reports: consumer complaint statistics, delivery timeliness rates",
+      "China Postal Industry Annual Report: comprehensive annual review of the postal and courier sector"
+    ],
+    "zh": [
+      "月度快递业务量：处理快件总量及同比增长率",
+      "邮政和快递收入统计：行业总收入及按服务类型分类数据",
+      "企业数据：各类型和地区的邮政和快递企业数量",
+      "跨境电商物流：国际快递包裹量及主要贸易通道数据",
+      "配送网络能力：快递网点、配送车辆、从业人员及分拣中心数据",
+      "各地区快递统计：各省市快递业务量及收入",
+      "邮政储蓄银行及金融服务数据",
+      "申诉及服务质量报告：消费者投诉统计、配送时效率",
+      "中国邮政行业年度报告：邮政和快递行业综合年度回顾"
+    ]
+  }
+}

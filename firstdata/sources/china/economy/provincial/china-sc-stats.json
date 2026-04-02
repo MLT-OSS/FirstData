@@ -1,0 +1,70 @@
+{
+  "id": "china-sc-stats",
+  "name": {
+    "en": "Sichuan Bureau of Statistics",
+    "zh": "四川省统计局"
+  },
+  "description": {
+    "en": "The Sichuan Bureau of Statistics is the official statistical authority for Sichuan Province, a major western China province known for its large population, significant industrial base, and strategic importance as a gateway to southwest China. It publishes comprehensive socioeconomic statistics including GDP, industrial output, agricultural production, population, employment, and consumer prices for Sichuan. The bureau releases the Sichuan Statistical Yearbook and regular economic bulletins, making it a key data source for understanding western China's largest provincial economy.",
+    "zh": "四川省统计局是四川省官方统计机构，四川是西部大省，以庞大的人口规模、重要的工业基础和作为西南地区门户的战略地位而著称。统计局发布四川省GDP、工业产值、农业生产、人口、就业和居民消费价格指数等全面的社会经济统计数据，并出版《四川统计年鉴》及定期经济运行情况报告，是了解西部最大省级经济体的重要数据来源。"
+  },
+  "website": "https://tjj.sc.gov.cn/",
+  "data_url": "https://tjj.sc.gov.cn/scstjj/c112124/sjcx.shtml",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "四川统计",
+    "Sichuan statistics",
+    "四川GDP",
+    "Sichuan GDP",
+    "西部大开发",
+    "western China development",
+    "省级统计",
+    "provincial statistics",
+    "成都经济圈",
+    "Chengdu economic circle",
+    "工业产值",
+    "industrial output",
+    "农业统计",
+    "agricultural statistics",
+    "人口统计",
+    "population statistics",
+    "统计年鉴",
+    "statistical yearbook",
+    "成渝地区双城经济圈",
+    "Chengdu-Chongqing dual city economic circle"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Sichuan Province",
+      "Industrial production: output value by industry, major products output, industrial enterprise performance including defense and aerospace industries",
+      "Agricultural statistics: crop output, livestock, agricultural income — Sichuan is a major grain and pork producer",
+      "Fixed asset investment: total investment, real estate development, infrastructure construction",
+      "Population statistics: census data, household registration, birth and death rates, urbanization — Sichuan is one of China's most populous provinces",
+      "Employment and wages: employed persons, labor migration, average wages by sector",
+      "Consumer prices: CPI, PPI for Sichuan Province and Chengdu metropolitan area",
+      "Energy and resources: natural gas production and consumption, hydropower statistics",
+      "Sichuan Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：四川省季度和年度GDP数据，按产业分类",
+      "工业生产：各行业工业产值、主要产品产量、工业企业经营情况，包括国防和航空航天产业",
+      "农业统计：粮食产量、畜牧业（四川是主要粮食和生猪产地）、农民收入",
+      "固定资产投资：全省投资总额、房地产开发、基础设施建设",
+      "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率——四川是全国人口大省之一",
+      "就业与工资：从业人员数、劳动力转移统计、各行业平均工资",
+      "消费价格：四川省及成都都市圈居民消费价格指数、工业品出厂价格",
+      "能源与资源：天然气生产和消费、水电统计数据",
+      "四川统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}
