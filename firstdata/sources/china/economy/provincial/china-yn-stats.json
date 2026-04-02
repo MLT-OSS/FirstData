@@ -1,0 +1,72 @@
+{
+  "id": "china-yn-stats",
+  "name": {
+    "en": "Yunnan Bureau of Statistics",
+    "zh": "云南省统计局"
+  },
+  "description": {
+    "en": "The Yunnan Bureau of Statistics is the official statistical authority for Yunnan Province, a biodiversity hotspot and frontier province bordering Myanmar, Laos, and Vietnam. It publishes comprehensive socioeconomic data covering GDP, agricultural production, tourism, mineral resources, cross-border trade, and ethnic minority demographics. Yunnan is strategically important as a gateway to Southeast Asia under China's Belt and Road Initiative and as a major producer of non-ferrous metals, tobacco, and flowers. The bureau releases monthly economic bulletins, the Yunnan Statistical Yearbook, and thematic reports on tourism and ecological development.",
+    "zh": "云南省统计局是云南省官方统计机构。云南是生物多样性热点地区，与缅甸、老挝、越南接壤。统计局发布涵盖云南省GDP、农业生产、旅游业、矿产资源、跨境贸易及少数民族人口等全面社会经济数据。云南在「一带一路」框架下战略地位重要，是连接东南亚的重要门户，也是中国有色金属、烟草和鲜花的重要产区。统计局定期发布月度经济运行情况、《云南统计年鉴》及旅游与生态发展专题报告。"
+  },
+  "website": "https://tjj.yn.gov.cn/",
+  "data_url": "https://tjj.yn.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "agriculture",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "云南统计",
+    "Yunnan statistics",
+    "云南GDP",
+    "Yunnan GDP",
+    "西南边境",
+    "southwestern border",
+    "省级统计",
+    "provincial statistics",
+    "旅游业",
+    "tourism",
+    "有色金属",
+    "non-ferrous metals",
+    "烟草",
+    "tobacco",
+    "跨境贸易",
+    "cross-border trade",
+    "一带一路",
+    "Belt and Road",
+    "少数民族",
+    "ethnic minorities",
+    "生物多样性",
+    "biodiversity",
+    "统计年鉴",
+    "statistical yearbook"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Yunnan Province",
+      "Agricultural production: crop output, tea, flowers, tropical fruits; Yunnan is China's top flower producer",
+      "Tourism: domestic and international visitor arrivals, tourism revenue, key scenic area data",
+      "Mineral resources: non-ferrous metals output (copper, tin, zinc, lead), phosphate production",
+      "Cross-border trade: import and export data through Yunnan's border crossings with ASEAN countries",
+      "Population and ethnicity: demographic data for Yunnan's 26 ethnic minority groups",
+      "Energy: hydropower generation data, clean energy development statistics",
+      "Yunnan Statistical Yearbook: comprehensive annual compilation covering all socioeconomic statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：云南省季度和年度GDP数据，按产业分类",
+      "农业生产：粮食产量、茶叶、鲜花、热带水果（云南是中国最大鲜花产区）",
+      "旅游业：国内外游客接待量、旅游收入、重要景区数据",
+      "矿产资源：有色金属产量（铜、锡、锌、铅）、磷化工生产情况",
+      "跨境贸易：通过云南口岸与东盟国家的进出口数据",
+      "人口与民族：云南省26个少数民族人口统计数据",
+      "能源：水电发电量数据、清洁能源发展统计",
+      "云南统计年鉴：涵盖所有社会经济统计的综合年度汇编"
+    ]
+  }
+}

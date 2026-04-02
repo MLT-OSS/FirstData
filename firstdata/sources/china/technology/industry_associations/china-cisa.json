@@ -1,0 +1,78 @@
+{
+  "id": "china-cisa",
+  "name": {
+    "en": "China Iron and Steel Association",
+    "zh": "中国钢铁工业协会"
+  },
+  "description": {
+    "en": "The China Iron and Steel Association (CISA) is the national industry association representing China's iron and steel sector, the world's largest steel producer accounting for over 50% of global output. CISA publishes authoritative monthly and annual statistics on crude steel production, pig iron output, steel product consumption, iron ore imports, coking coal usage, and steel prices. Its data is essential for global commodity markets, supply chain analysis, and industrial policy research. CISA also tracks enterprise-level performance indicators, capacity utilization rates, and environmental compliance metrics for major steel mills across China.",
+    "zh": "中国钢铁工业协会（中钢协）是代表中国钢铁行业的全国性行业组织。中国是全球最大钢铁生产国，产量占全球总量的50%以上。协会发布粗钢产量、生铁产量、钢材消费、铁矿石进口、炼焦煤使用及钢材价格等权威月度和年度统计数据，是全球大宗商品市场、供应链分析和产业政策研究的重要数据来源。协会还追踪全国主要钢铁企业的运营绩效指标、产能利用率及环保合规情况。"
+  },
+  "website": "https://www.chinaisa.org.cn/",
+  "data_url": "https://www.chinaisa.org.cn/gxplatform/gjzx/portal/articleList.html",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "trade",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国钢铁工业协会",
+    "CISA",
+    "中国钢铁产量",
+    "China steel production",
+    "粗钢",
+    "crude steel",
+    "生铁",
+    "pig iron",
+    "铁矿石",
+    "iron ore",
+    "钢材价格",
+    "steel prices",
+    "炼焦煤",
+    "coking coal",
+    "钢铁行业",
+    "steel industry",
+    "产能利用率",
+    "capacity utilization",
+    "钢铁出口",
+    "steel exports",
+    "冶金",
+    "metallurgy",
+    "大宗商品",
+    "commodities",
+    "宝钢",
+    "Baosteel",
+    "碳排放",
+    "carbon emissions"
+  ],
+  "data_content": {
+    "en": [
+      "Crude steel production: monthly and annual output by province, enterprise type, and major mill",
+      "Pig iron and iron ore: monthly pig iron production and iron ore import volumes by origin country (Australia, Brazil, etc.)",
+      "Steel product consumption: downstream demand by sector (construction, machinery, automotive, shipbuilding)",
+      "Steel prices: composite price indices for major steel products (rebar, hot-rolled coil, plate, wire rod)",
+      "Enterprise performance: profitability, revenue, and loss data for key steel enterprises",
+      "Capacity and utilization: installed steelmaking capacity and utilization rates",
+      "Coking coal and coke: monthly consumption and price data for raw material inputs",
+      "Environmental metrics: energy consumption per ton of steel, emission reduction progress",
+      "Steel export and import: monthly trade volumes and values by product category and destination"
+    ],
+    "zh": [
+      "粗钢产量：按省份、企业性质和主要钢厂分类的月度和年度产量",
+      "生铁与铁矿石：月度生铁产量及按来源国（澳大利亚、巴西等）分类的铁矿石进口量",
+      "钢材消费：按下游行业（建筑、机械、汽车、造船）分类的消费需求",
+      "钢材价格：主要钢铁产品（螺纹钢、热轧卷板、中厚板、线材）的综合价格指数",
+      "企业绩效：重点钢铁企业盈利情况、营收及亏损数据",
+      "产能与利用率：炼钢产能及产能利用率",
+      "炼焦煤与焦炭：原料月度消耗量及价格数据",
+      "环保指标：吨钢能耗、减排进展数据",
+      "钢铁进出口：按产品类别和目的地分类的月度贸易量及贸易额"
+    ]
+  }
+}

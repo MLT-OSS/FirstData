@@ -1,0 +1,68 @@
+{
+  "id": "china-tj-stats",
+  "name": {
+    "en": "Tianjin Bureau of Statistics",
+    "zh": "天津市统计局"
+  },
+  "description": {
+    "en": "The Tianjin Bureau of Statistics is the official statistical authority for Tianjin, one of China's four direct-controlled municipalities and a major port city in the Bohai Economic Rim. It publishes comprehensive socioeconomic data covering GDP, industrial output, foreign trade, port logistics, population, and fixed asset investment. Tianjin serves as the gateway port for Beijing and a key logistics hub in northern China, making its trade and industrial statistics especially valuable. The bureau releases monthly economic bulletins, statistical communiqués, and the annual Tianjin Statistical Yearbook, providing essential data for the Beijing-Tianjin-Hebei (Jing-Jin-Ji) regional integration analysis.",
+    "zh": "天津市统计局是天津市官方统计机构。天津是中国四个直辖市之一，环渤海经济圈的重要港口城市。统计局发布涵盖天津市GDP、工业产值、对外贸易、港口物流、人口及固定资产投资等全面社会经济数据。天津作为北京的出海口和华北重要物流枢纽，其贸易与工业统计数据尤具价值。统计局定期发布月度经济运行情况、统计公报及年度《天津统计年鉴》，为京津冀协同发展研究提供重要数据支撑。"
+  },
+  "website": "https://stats.tj.gov.cn/",
+  "data_url": "https://stats.tj.gov.cn/tjsj_52032/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "trade",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "天津统计",
+    "Tianjin statistics",
+    "天津GDP",
+    "Tianjin GDP",
+    "京津冀",
+    "Beijing-Tianjin-Hebei",
+    "环渤海",
+    "Bohai Economic Rim",
+    "省级统计",
+    "provincial statistics",
+    "港口物流",
+    "port logistics",
+    "对外贸易",
+    "foreign trade",
+    "工业产值",
+    "industrial output",
+    "统计年鉴",
+    "statistical yearbook",
+    "直辖市",
+    "municipality"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Tianjin Municipality",
+      "Industrial production: output value by sector, petrochemicals, aerospace, advanced manufacturing statistics",
+      "Foreign trade: import and export data via Tianjin Port, trading partner breakdown",
+      "Port logistics: Tianjin Port cargo throughput, container volume, shipping routes",
+      "Fixed asset investment: total investment, industrial projects, infrastructure expenditure",
+      "Population statistics: permanent resident population, urbanization rate, demographic structure",
+      "Employment and wages: employed persons by sector, unemployment rate, average wages",
+      "Tianjin Statistical Yearbook: comprehensive annual compilation covering all socioeconomic statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：天津市季度和年度GDP数据，按产业分类",
+      "工业生产：各行业工业产值，石油化工、航空航天、先进制造业统计",
+      "对外贸易：通过天津港的进出口数据，贸易伙伴分类",
+      "港口物流：天津港货物吞吐量、集装箱量、航运线路数据",
+      "固定资产投资：投资总额、工业项目、基础设施投入",
+      "人口统计：常住人口、城镇化率、人口结构",
+      "就业与工资：各行业从业人员数、失业率、平均工资水平",
+      "天津统计年鉴：涵盖所有社会经济统计的综合年度汇编"
+    ]
+  }
+}

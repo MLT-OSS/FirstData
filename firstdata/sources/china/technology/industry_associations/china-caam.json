@@ -1,0 +1,74 @@
+{
+  "id": "china-caam",
+  "name": {
+    "en": "China Association of Automobile Manufacturers",
+    "zh": "中国汽车工业协会"
+  },
+  "description": {
+    "en": "The China Association of Automobile Manufacturers (CAAM) is the national industry association representing China's automotive sector, overseen by the Ministry of Industry and Information Technology. As the authoritative voice of the world's largest automobile market, CAAM publishes monthly and annual production and sales statistics for passenger cars, commercial vehicles, new energy vehicles (NEVs), and motorcycles. Its data covers output by manufacturer, vehicle category, fuel type, and region, making it the primary reference for tracking China's automotive industry trends. CAAM also releases NEV adoption statistics, export data, and policy research reports.",
+    "zh": "中国汽车工业协会（中汽协）是工业和信息化部主管的全国性汽车行业组织，代表全球最大汽车市场的利益。协会发布乘用车、商用车、新能源汽车及摩托车的月度和年度产销统计数据，按厂商、车型类别、动力类型和地区分类，是追踪中国汽车行业发展趋势的主要数据来源。协会同时发布新能源汽车渗透率、出口数据及行业政策研究报告。"
+  },
+  "website": "http://www.caam.org.cn/",
+  "data_url": "http://www.caam.org.cn/chn/4/cate_39/index.html",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "technology",
+    "trade"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国汽车工业协会",
+    "CAAM",
+    "中国汽车产销",
+    "China auto production sales",
+    "新能源汽车",
+    "new energy vehicles",
+    "NEV",
+    "乘用车",
+    "passenger cars",
+    "商用车",
+    "commercial vehicles",
+    "汽车出口",
+    "auto exports",
+    "汽车行业",
+    "automobile industry",
+    "电动车",
+    "electric vehicles",
+    "EV",
+    "汽车产量",
+    "vehicle production",
+    "汽车市场",
+    "auto market",
+    "比亚迪",
+    "BYD",
+    "新能源渗透率",
+    "NEV penetration rate"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly production and sales: total vehicle output and sales by manufacturer, including all major domestic and joint venture brands",
+      "New energy vehicles (NEV): monthly NEV production, sales, and market penetration rate by vehicle type (BEV, PHEV, FCEV)",
+      "Passenger car segment data: sedan, SUV, MPV, crossover production and sales statistics",
+      "Commercial vehicle data: trucks, buses, and special purpose vehicles output and sales",
+      "Automobile exports: monthly vehicle export volume and value by destination country",
+      "Market share rankings: top-selling models and manufacturer market share by category",
+      "Industry annual report: comprehensive overview of China's automotive sector performance, trends, and outlook",
+      "Policy research: analysis of automotive industry policies, emission standards, and electrification targets"
+    ],
+    "zh": [
+      "月度产销数据：按厂商分类的汽车总产量和销量，涵盖所有主要自主品牌和合资品牌",
+      "新能源汽车：月度新能源汽车产量、销量及市场渗透率（按纯电动、插混、燃料电池分类）",
+      "乘用车分类数据：轿车、SUV、MPV、越野车产销统计",
+      "商用车数据：货车、客车及专用车产销情况",
+      "汽车出口：月度汽车出口量及出口额，按目标国家分类",
+      "市场排名：热销车型及各细分市场厂商份额",
+      "行业年度报告：中国汽车产业全年运行综述、发展趋势与展望",
+      "政策研究：汽车产业政策、排放标准及电动化目标分析"
+    ]
+  }
+}

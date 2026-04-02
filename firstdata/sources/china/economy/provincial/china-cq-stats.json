@@ -1,0 +1,68 @@
+{
+  "id": "china-cq-stats",
+  "name": {
+    "en": "Chongqing Bureau of Statistics",
+    "zh": "重庆市统计局"
+  },
+  "description": {
+    "en": "The Chongqing Bureau of Statistics is the official statistical authority for Chongqing, China's largest municipality by area and a major economic hub in the upper Yangtze River region. It publishes comprehensive socioeconomic data covering GDP, industrial output, fixed asset investment, retail sales, population, and employment for Chongqing Municipality. As one of China's four direct-controlled municipalities and a key node in the Chengdu-Chongqing Economic Circle, Chongqing's statistical data is critical for understanding western China's economic development and urbanization trends. The bureau releases monthly economic bulletins, quarterly reports, and the annual Chongqing Statistical Yearbook.",
+    "zh": "重庆市统计局是重庆市官方统计机构。重庆是中国面积最大的直辖市，也是长江上游地区重要的经济中心。统计局发布涵盖重庆市GDP、工业产值、固定资产投资、社会消费品零售总额、人口及就业等全面社会经济数据。作为中国四个直辖市之一及成渝地区双城经济圈的重要节点，重庆统计数据对于了解西部地区经济发展与城镇化进程具有重要价值。统计局定期发布月度经济运行情况、季度统计公报及年度《重庆统计年鉴》。"
+  },
+  "website": "https://tjj.cq.gov.cn/",
+  "data_url": "https://tjj.cq.gov.cn/zwgk_233040/zfxxgkml/tjxx/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "infrastructure"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "重庆统计",
+    "Chongqing statistics",
+    "重庆GDP",
+    "Chongqing GDP",
+    "成渝经济圈",
+    "Chengdu-Chongqing Economic Circle",
+    "省级统计",
+    "provincial statistics",
+    "工业产值",
+    "industrial output",
+    "固定资产投资",
+    "fixed asset investment",
+    "西部开发",
+    "western development",
+    "城镇化",
+    "urbanization",
+    "统计年鉴",
+    "statistical yearbook",
+    "直辖市",
+    "municipality"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Chongqing Municipality",
+      "Industrial production: output value by sector, major products, automobile manufacturing output (Chongqing is a major auto hub)",
+      "Fixed asset investment: total investment by sector, real estate development, infrastructure projects",
+      "Consumer prices: CPI and PPI data for Chongqing and major districts",
+      "Population statistics: permanent resident population, urbanization rate, migration data",
+      "Employment and wages: employed persons by sector, unemployment rate, average wages",
+      "Retail and services: total retail sales, e-commerce data, service industry growth",
+      "Chongqing Statistical Yearbook: comprehensive annual compilation covering all socioeconomic statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：重庆市季度和年度GDP数据，按产业分类",
+      "工业生产：各行业工业产值、主要产品产量（重庆是重要汽车制造基地）",
+      "固定资产投资：按行业分类的投资总额、房地产开发、基础设施项目",
+      "消费价格：重庆市及主要区县的居民消费价格指数和工业品出厂价格",
+      "人口统计：常住人口、城镇化率、人口流动数据",
+      "就业与工资：各行业从业人员数、失业率、平均工资水平",
+      "零售与服务：社会消费品零售总额、电子商务数据、服务业增长情况",
+      "重庆统计年鉴：涵盖所有社会经济统计的综合年度汇编"
+    ]
+  }
+}
