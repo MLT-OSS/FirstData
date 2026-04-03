@@ -1,0 +1,76 @@
+{
+  "id": "china-jl-stats",
+  "name": {
+    "en": "Jilin Bureau of Statistics",
+    "zh": "吉林省统计局"
+  },
+  "description": {
+    "en": "The Jilin Bureau of Statistics is the official statistical authority for Jilin Province, located in northeastern China. Jilin is a critical grain-producing province (China's corn belt), home to China's leading automotive manufacturer FAW Group in Changchun, and a hub for the petrochemical industry. The bureau publishes comprehensive socioeconomic statistics including GDP, grain production, automotive output, industrial performance, population, employment, and trade data. It also releases the Jilin Statistical Yearbook and periodic economic bulletins covering the province's agricultural, industrial, and service sectors.",
+    "zh": "吉林省统计局是吉林省官方统计机构，吉林位于中国东北，是中国重要的粮食主产区（玉米带），拥有中国最大的汽车制造商一汽集团（长春）和重要的石化工业基地。统计局发布吉林省GDP、粮食产量、汽车产量、工业运行、人口、就业和贸易等全面的社会经济统计数据，并出版《吉林统计年鉴》和定期经济运行报告，涵盖全省农业、工业和服务业发展情况。"
+  },
+  "website": "https://tjj.jl.gov.cn/",
+  "data_url": "https://tjj.jl.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "agriculture"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "吉林统计",
+    "Jilin statistics",
+    "吉林GDP",
+    "Jilin GDP",
+    "东北振兴",
+    "northeast China revitalization",
+    "省级统计",
+    "provincial statistics",
+    "粮食生产",
+    "grain production",
+    "玉米",
+    "corn",
+    "汽车制造",
+    "automotive manufacturing",
+    "一汽",
+    "FAW Group",
+    "长春",
+    "Changchun",
+    "统计年鉴",
+    "statistical yearbook",
+    "人口统计",
+    "population statistics",
+    "经济运行",
+    "economic performance"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Jilin Province",
+      "Agricultural production: grain output, corn production, livestock, and agricultural income data",
+      "Industrial production: automotive output, petrochemical industry, output value by sector",
+      "Fixed asset investment: total investment, real estate development, infrastructure",
+      "Population statistics: census data, household registration, birth and death rates, urbanization",
+      "Employment and wages: employed persons, unemployment rate, average wages by sector",
+      "Consumer prices: CPI and PPI for Jilin Province and major cities",
+      "Foreign trade: exports, imports, and economic cooperation with Russia and Northeast Asia",
+      "Social development: education, healthcare resources, social security coverage",
+      "Jilin Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：吉林省季度和年度GDP数据，按产业分类",
+      "农业生产：粮食产量、玉米产量、畜牧业及农民收入数据",
+      "工业生产：汽车产量、石化工业、各行业工业产值",
+      "固定资产投资：全省投资总额、房地产开发、基础设施投资",
+      "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+      "就业与工资：从业人员数、失业率、各行业平均工资",
+      "消费价格：吉林省及主要城市居民消费价格指数、工业品出厂价格",
+      "对外贸易：进出口数据及与俄罗斯、东北亚经济合作情况",
+      "社会发展：教育、医疗卫生资源、社会保障覆盖率",
+      "吉林统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}

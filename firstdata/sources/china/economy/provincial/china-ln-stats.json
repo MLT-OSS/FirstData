@@ -1,0 +1,78 @@
+{
+  "id": "china-ln-stats",
+  "name": {
+    "en": "Liaoning Bureau of Statistics",
+    "zh": "辽宁省统计局"
+  },
+  "description": {
+    "en": "The Liaoning Bureau of Statistics is the official statistical authority for Liaoning Province, a major northeastern industrial base in China known for heavy industry, steel production, petrochemicals, and defense manufacturing. Key cities include Shenyang and Dalian. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, fixed asset investment, trade, employment, and population data for Liaoning. It also releases the Liaoning Statistical Yearbook, monthly economic bulletins, and special thematic reports on industrial and urban development.",
+    "zh": "辽宁省统计局是辽宁省官方统计机构，辽宁是中国重要的东北老工业基地，以重工业、钢铁、石化和国防工业著称，主要城市包括沈阳和大连。统计局发布辽宁省GDP、工业产值、固定资产投资、进出口贸易、就业和人口等全面的社会经济统计数据，并出版《辽宁统计年鉴》、每月经济运行报告及专项统计报告。"
+  },
+  "website": "https://tjj.ln.gov.cn/",
+  "data_url": "https://tjj.ln.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "辽宁统计",
+    "Liaoning statistics",
+    "辽宁GDP",
+    "Liaoning GDP",
+    "东北振兴",
+    "northeast China revitalization",
+    "省级统计",
+    "provincial statistics",
+    "重工业",
+    "heavy industry",
+    "钢铁生产",
+    "steel production",
+    "石化工业",
+    "petrochemical industry",
+    "固定资产投资",
+    "fixed asset investment",
+    "人口统计",
+    "population statistics",
+    "统计年鉴",
+    "statistical yearbook",
+    "经济运行",
+    "economic performance",
+    "沈阳",
+    "Shenyang",
+    "大连",
+    "Dalian"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Liaoning Province",
+      "Industrial production: output value by industry, major products output, industrial enterprise performance",
+      "Fixed asset investment: total investment, real estate development, infrastructure investment",
+      "Foreign trade: exports and imports data for Liaoning's open ports and special economic zones",
+      "Population statistics: census data, household registration, birth and death rates, urbanization",
+      "Employment and wages: employed persons, unemployment rate, average wages by sector",
+      "Consumer prices: CPI, PPI for Liaoning Province and major cities",
+      "Agricultural statistics: crop output, livestock, fishery production",
+      "Social development: education, healthcare resources, social security coverage",
+      "Liaoning Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：辽宁省季度和年度GDP数据，按产业分类",
+      "工业生产：各行业工业产值、主要产品产量、工业企业经营情况",
+      "固定资产投资：全省投资总额、房地产开发、基础设施投资",
+      "对外贸易：辽宁省各开放口岸和特殊经济区进出口数据",
+      "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+      "就业与工资：从业人员数、失业率、各行业平均工资",
+      "消费价格：辽宁省及主要城市居民消费价格指数、工业品出厂价格",
+      "农业统计：粮食产量、畜牧业、渔业生产",
+      "社会发展：教育、医疗卫生资源、社会保障覆盖率",
+      "辽宁统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}

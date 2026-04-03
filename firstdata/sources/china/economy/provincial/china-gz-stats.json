@@ -1,0 +1,80 @@
+{
+  "id": "china-gz-stats",
+  "name": {
+    "en": "Guizhou Bureau of Statistics",
+    "zh": "贵州省统计局"
+  },
+  "description": {
+    "en": "The Guizhou Bureau of Statistics is the official statistical authority for Guizhou Province, a mountainous province in southwestern China that has experienced remarkable transformation from one of China's poorest regions to a leading hub for big data, cloud computing, and digital economy. Guizhou is also renowned for Maotai liquor production and tourism. The bureau publishes comprehensive socioeconomic statistics covering GDP, digital economy indicators, poverty alleviation outcomes, tourism revenue, industrial output, population, and agricultural data. It also releases the Guizhou Statistical Yearbook and thematic reports on big data industry development.",
+    "zh": "贵州省统计局是贵州省官方统计机构，贵州是中国西南部山区省份，从中国最贫困地区之一成功转型为大数据、云计算和数字经济的重要枢纽，同时以茅台酒生产和旅游业著称。统计局发布贵州省GDP、数字经济指标、脱贫攻坚成效、旅游收入、工业产值、人口和农业数据等全面社会经济统计，并出版《贵州统计年鉴》及大数据产业发展专题报告。"
+  },
+  "website": "https://tjj.gz.gov.cn/",
+  "data_url": "https://stjj.guizhou.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "technology"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "贵州统计",
+    "Guizhou statistics",
+    "贵州GDP",
+    "Guizhou GDP",
+    "西部大开发",
+    "western China development",
+    "省级统计",
+    "provincial statistics",
+    "大数据",
+    "big data",
+    "数字经济",
+    "digital economy",
+    "云计算",
+    "cloud computing",
+    "茅台",
+    "Maotai",
+    "白酒",
+    "baijiu",
+    "旅游",
+    "tourism",
+    "脱贫攻坚",
+    "poverty alleviation",
+    "统计年鉴",
+    "statistical yearbook",
+    "人口统计",
+    "population statistics",
+    "贵阳",
+    "Guiyang"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Guizhou Province",
+      "Digital economy indicators: big data industry revenue, cloud computing capacity, data center statistics",
+      "Poverty alleviation outcomes: rural income growth, poverty reduction metrics, village revitalization data",
+      "Tourism statistics: visitor arrivals, tourism revenue, scenic area performance by region",
+      "Industrial production: liquor output (Maotai), phosphate chemicals, energy production statistics",
+      "Agricultural statistics: crop output, tobacco production, agricultural income",
+      "Fixed asset investment: infrastructure investment, industrial parks, tech hub development",
+      "Population statistics: census data, household registration, birth and death rates, urbanization",
+      "Employment and wages: employed persons, unemployment rate, average wages by sector",
+      "Guizhou Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：贵州省季度和年度GDP数据，按产业分类",
+      "数字经济指标：大数据产业收入、云计算容量、数据中心统计",
+      "脱贫攻坚成效：农村居民收入增长、减贫指标、乡村振兴数据",
+      "旅游统计：游客人次、旅游收入、各地景区经营情况",
+      "工业生产：白酒（茅台）产量、磷化工、能源生产统计",
+      "农业统计：粮食产量、烟草生产、农民收入",
+      "固定资产投资：基础设施投资、工业园区、科技园区发展",
+      "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+      "就业与工资：从业人员数、失业率、各行业平均工资",
+      "贵州统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}

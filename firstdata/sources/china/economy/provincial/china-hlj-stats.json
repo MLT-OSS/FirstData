@@ -1,0 +1,78 @@
+{
+  "id": "china-hlj-stats",
+  "name": {
+    "en": "Heilongjiang Bureau of Statistics",
+    "zh": "黑龙江省统计局"
+  },
+  "description": {
+    "en": "The Heilongjiang Bureau of Statistics is the official statistical authority for Heilongjiang Province, China's northernmost province bordering Russia. Heilongjiang is known for its rich black soil farmland (China's key grain reserve base), the Daqing oilfield (one of China's largest petroleum bases), extensive forestry resources, and growing cross-border trade with Russia. The bureau publishes comprehensive socioeconomic statistics covering GDP, grain production, petroleum output, forestry, foreign trade, population, and employment. It also releases the Heilongjiang Statistical Yearbook and periodic economic bulletins.",
+    "zh": "黑龙江省统计局是黑龙江省官方统计机构，黑龙江是中国最北省份，与俄罗斯接壤，以肥沃黑土地（中国重要粮食储备基地）、大庆油田（中国最大石油基地之一）、丰富的森林资源及日益增长的对俄边境贸易著称。统计局发布黑龙江省GDP、粮食产量、石油产量、林业、进出口贸易、人口和就业等全面社会经济统计数据，并出版《黑龙江统计年鉴》和定期经济运行报告。"
+  },
+  "website": "https://tjj.hlj.gov.cn/",
+  "data_url": "https://tjj.hlj.gov.cn/tjj/c106777/common_zfxxgk.shtml?tab=tjxx",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "agriculture"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "黑龙江统计",
+    "Heilongjiang statistics",
+    "黑龙江GDP",
+    "Heilongjiang GDP",
+    "东北振兴",
+    "northeast China revitalization",
+    "省级统计",
+    "provincial statistics",
+    "粮食生产",
+    "grain production",
+    "黑土地",
+    "black soil",
+    "大庆油田",
+    "Daqing oilfield",
+    "石油",
+    "petroleum",
+    "林业",
+    "forestry",
+    "对俄贸易",
+    "Russia trade",
+    "统计年鉴",
+    "statistical yearbook",
+    "人口统计",
+    "population statistics",
+    "哈尔滨",
+    "Harbin"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Heilongjiang Province",
+      "Agricultural production: grain output, soybean and rice production, black soil farmland utilization",
+      "Energy production: Daqing oilfield output, natural gas production, coal mining statistics",
+      "Forestry statistics: timber output, forest area, forest industry performance",
+      "Industrial production: output value by industry, enterprise performance, major product output",
+      "Foreign trade: cross-border trade with Russia via Harbin and border ports",
+      "Population statistics: census data, household registration, birth and death rates, urbanization",
+      "Employment and wages: employed persons, unemployment rate, average wages by sector",
+      "Consumer prices: CPI and PPI for Heilongjiang Province and major cities",
+      "Heilongjiang Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：黑龙江省季度和年度GDP数据，按产业分类",
+      "农业生产：粮食产量、大豆和水稻产量、黑土地利用数据",
+      "能源生产：大庆油田产量、天然气产量、煤炭开采统计",
+      "林业统计：木材产量、森林面积、林业企业经营情况",
+      "工业生产：各行业工业产值、企业经营情况、主要产品产量",
+      "对外贸易：哈尔滨及各边境口岸对俄边境贸易数据",
+      "人口统计：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+      "就业与工资：从业人员数、失业率、各行业平均工资",
+      "消费价格：黑龙江省及主要城市居民消费价格指数、工业品出厂价格",
+      "黑龙江统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}

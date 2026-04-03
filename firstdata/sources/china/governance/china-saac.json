@@ -1,0 +1,68 @@
+{
+  "id": "china-saac",
+  "name": {
+    "en": "National Archives Administration of China",
+    "zh": "中华人民共和国国家档案局"
+  },
+  "description": {
+    "en": "The National Archives Administration of China (SAAC) is the central government authority responsible for managing China's national archives system, overseeing archival work across all levels of government, and setting standards for records management. SAAC administers the Central Archives, which holds important historical records of the Communist Party of China and the People's Republic of China including declassified documents, historical treaties, and rare manuscripts. The agency publishes national archives statistics, archival legislation, standards for electronic records management, and thematic document releases on significant historical events.",
+    "zh": "中华人民共和国国家档案局（国家档案局）是负责管理中国国家档案体系、监督各级政府档案工作、制定档案管理标准的中央政府主管部门。国家档案局管辖中央档案馆，保存有中国共产党和中华人民共和国的重要历史档案，包括解密文件、历史条约和珍贵手稿。该机构发布全国档案统计数据、档案法规标准、电子档案管理规范，以及重大历史事件的专题档案文献。"
+  },
+  "website": "https://www.saac.gov.cn/",
+  "data_url": "https://www.saac.gov.cn/daj/fzgz/lmlist.shtml",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "history",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家档案局",
+    "National Archives Administration",
+    "SAAC",
+    "中央档案馆",
+    "Central Archives",
+    "档案统计",
+    "archives statistics",
+    "历史文献",
+    "historical documents",
+    "档案法规",
+    "archival legislation",
+    "电子档案",
+    "electronic records",
+    "档案管理",
+    "records management",
+    "解密档案",
+    "declassified documents",
+    "政府信息公开",
+    "government information disclosure",
+    "档案年鉴",
+    "archives yearbook",
+    "标准规范",
+    "standards and specifications"
+  ],
+  "data_content": {
+    "en": [
+      "National archives statistics: annual reports on archives institutions, archival holdings volume, and staff nationwide",
+      "Archival legislation: laws, regulations, and administrative rules governing archives management in China",
+      "Electronic records management: standards and specifications for digital archives and e-government records",
+      "Historical document releases: declassified files on significant historical events, including wartime records and diplomatic archives",
+      "Archives yearbook: comprehensive annual compilation of national archival sector statistics",
+      "Planning and development: strategic plans for archives modernization, informatization progress indicators",
+      "Standards library: technical standards for archives preservation, digitization, and metadata management"
+    ],
+    "zh": [
+      "全国档案统计数据：全国档案机构、馆藏数量和从业人员年度统计报告",
+      "档案法规：中国档案管理的法律、法规和行政规章",
+      "电子档案管理：数字档案馆和电子政务档案的标准与规范",
+      "历史档案发布：重大历史事件的解密档案，包括战时档案和外交档案",
+      "档案年鉴：全国档案事业统计数据综合年度汇编",
+      "规划与发展：档案现代化战略规划、信息化进展指标",
+      "标准规范库：档案保护、数字化和元数据管理的技术标准"
+    ]
+  }
+}
