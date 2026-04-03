@@ -1,0 +1,73 @@
+{
+  "id": "china-cflp",
+  "name": {
+    "en": "China Federation of Logistics and Purchasing",
+    "zh": "中国物流与采购联合会"
+  },
+  "description": {
+    "en": "The China Federation of Logistics and Purchasing (CFLP) is the national industry association representing China's logistics and supply chain sector. CFLP is internationally recognized as the publisher of the China Logistics PMI (Purchasing Managers' Index) and the China Manufacturing PMI (in conjunction with the National Bureau of Statistics), which are among the most closely watched leading economic indicators for China. The federation publishes monthly logistics PMI data, warehousing index, logistics industry revenue statistics, and annual logistics development reports. Its data is widely used by global investors, policymakers, and researchers to gauge the health of China's supply chains and manufacturing activity.",
+    "zh": "中国物流与采购联合会（中物联）是代表中国物流和供应链行业的全国性行业组织。中物联作为中国物流业采购经理人指数（PMI）的发布机构享誉国际，同时与国家统计局联合发布中国制造业PMI，这些指数是全球最受关注的中国经济先行指标之一。联合会发布月度物流业PMI、仓储指数、物流行业营收统计及年度物流发展报告，其数据被全球投资者、政策制定者和研究人员广泛用于评估中国供应链和制造业的运行状况。"
+  },
+  "website": "https://www.chinawuliu.com.cn/",
+  "data_url": "https://www.chinawuliu.com.cn/lhhzq/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "trade",
+    "infrastructure"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国物流与采购联合会",
+    "CFLP",
+    "中物联",
+    "物流PMI",
+    "Logistics PMI",
+    "采购经理人指数",
+    "Purchasing Managers Index",
+    "中国制造业PMI",
+    "China Manufacturing PMI",
+    "供应链",
+    "supply chain",
+    "物流行业",
+    "logistics industry",
+    "仓储指数",
+    "warehousing index",
+    "物流成本",
+    "logistics cost",
+    "运输",
+    "transportation",
+    "经济先行指标",
+    "leading economic indicator",
+    "采购",
+    "procurement",
+    "社会物流总额",
+    "total social logistics"
+  ],
+  "data_content": {
+    "en": [
+      "China Logistics PMI: monthly composite index measuring activity across transportation, warehousing, and supply chain sectors, including sub-indices for business volume, new orders, inventory, and employment",
+      "China Manufacturing PMI: co-published with the National Bureau of Statistics, this flagship index tracks monthly changes in manufacturing activity through surveys of purchasing managers",
+      "Warehousing and storage index: monthly index tracking warehouse utilization rates, storage volumes, and throughput",
+      "Social logistics total volume: annual data on the total value of goods passing through China's logistics system, a key macro indicator",
+      "Logistics cost ratio: annual analysis of logistics costs as a percentage of GDP, used to benchmark China's supply chain efficiency",
+      "Freight transport data: volume and value of goods transported by road, rail, waterway, and air within China",
+      "Cold chain logistics statistics: annual data on the development of refrigerated transport and storage capacity",
+      "Annual logistics development report: comprehensive review of China's logistics sector including infrastructure, enterprises, and policy developments"
+    ],
+    "zh": [
+      "中国物流业采购经理人指数（PMI）：月度综合指数，涵盖运输、仓储和供应链各环节，包含业务量、新订单、库存和从业人员等分项指数",
+      "中国制造业PMI：与国家统计局联合发布，通过对采购经理的问卷调查追踪制造业月度活动变化的旗舰指数",
+      "仓储业务景气指数：月度跟踪仓库利用率、存储量和吞吐量的指数",
+      "社会物流总额：全国物流系统商品流转总值年度数据，是重要的宏观经济指标",
+      "物流费用占GDP比率：物流成本占GDP比重的年度分析，用于衡量中国供应链效率水平",
+      "货运量数据：公路、铁路、水运和航空运输的货物量和货物价值",
+      "冷链物流统计：冷藏运输和冷库容量发展情况年度数据",
+      "年度物流发展报告：中国物流行业基础设施、企业经营和政策发展的综合评述"
+    ]
+  }
+}

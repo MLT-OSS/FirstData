@@ -1,0 +1,71 @@
+{
+  "id": "china-stma",
+  "name": {
+    "en": "State Tobacco Monopoly Administration of China",
+    "zh": "国家烟草专卖局"
+  },
+  "description": {
+    "en": "The State Tobacco Monopoly Administration (STMA) is the central government agency responsible for overseeing and regulating China's tobacco industry under a state monopoly system. China is the world's largest tobacco producer and consumer, and STMA controls all aspects of tobacco production, distribution, and sales in the country. It publishes annual and periodic statistics on cigarette output, tobacco leaf production by province, industry revenue, tax contributions, and export data. STMA data is essential for global tobacco market analysis, public health policy research, and understanding China's agricultural and fiscal landscape, as tobacco taxation contributes significantly to government revenue.",
+    "zh": "国家烟草专卖局（国家局）是负责监管中国烟草行业的中央政府机构，实行国家专卷制度。中国是全球最大的烟草生产国和消费国，国家烟草专卖局统一管理全国烟草的生产、流通和销售。局方发布卷烟产量、各省烟叶生产、行业营收、税利贡献及出口等年度和阶段性统计数据。国家烟草专卖局的数据对于全球烟草市场分析、公共卫生政策研究以及了解中国农业和财税格局至关重要，烟草税是政府财政收入的重要来源。"
+  },
+  "website": "https://www.tobacco.gov.cn/",
+  "data_url": "https://www.tobacco.gov.cn/html/42/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "agriculture",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家烟草专卖局",
+    "STMA",
+    "State Tobacco Monopoly Administration",
+    "烟草行业",
+    "tobacco industry",
+    "卷烟产量",
+    "cigarette production",
+    "烟叶产量",
+    "tobacco leaf production",
+    "烟草税利",
+    "tobacco tax revenue",
+    "中国烟草",
+    "China tobacco",
+    "烟草专卖",
+    "tobacco monopoly",
+    "烟草出口",
+    "tobacco export",
+    "行业统计",
+    "industry statistics",
+    "公共卫生",
+    "public health",
+    "农业生产",
+    "agricultural production"
+  ],
+  "data_content": {
+    "en": [
+      "Cigarette production: annual and periodic output volumes by major brand group and manufacturing enterprise",
+      "Tobacco leaf: provincial production data for flue-cured tobacco, covering major growing areas such as Yunnan, Guizhou, Henan, and Hunan",
+      "Industry revenue and taxes: total industry revenue, profit, and tobacco tax contributions to central and local government budgets",
+      "Sales and distribution: domestic cigarette sales volumes, retail sales by region, and wholesale distribution data",
+      "Export statistics: cigarette and tobacco leaf export volumes and values by destination country",
+      "Enterprise performance: operational data for major state-owned tobacco groups (e.g., China Tobacco Yunnan Industrial Co.)",
+      "Import data: imported tobacco leaf and cigarette volumes and declared values",
+      "Industry overview reports: annual industry development reports summarizing production, revenue, and policy priorities"
+    ],
+    "zh": [
+      "卷烟产量：主要品牌集团和生产企业的年度及阶段性卷烟产量",
+      "烟叶生产：烤烟各省产量数据，涵盖云南、贵州、河南、湖南等主产区",
+      "行业税利：行业总营收、利润及烟草税对中央和地方财政的贡献",
+      "销售与流通：国内卷烟销量、各地区零售销售额和批发流通数据",
+      "出口统计：按目的地国家分类的卷烟和烟叶出口量及出口额",
+      "企业经营：主要国有烟草集团（如云南中烟工业有限责任公司）运营数据",
+      "进口数据：进口烟叶和卷烟数量及申报价值",
+      "行业综述报告：汇总生产、税利和政策重点的年度行业发展报告"
+    ]
+  }
+}

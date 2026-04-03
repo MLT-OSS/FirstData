@@ -1,0 +1,74 @@
+{
+  "id": "china-jx-stats",
+  "name": {
+    "en": "Jiangxi Bureau of Statistics",
+    "zh": "江西省统计局"
+  },
+  "description": {
+    "en": "The Jiangxi Bureau of Statistics is the official statistical authority for Jiangxi Province, a landlocked province in southeastern China known for its rare earth resources, copper mining, and growing manufacturing sector. It publishes comprehensive socioeconomic data including GDP, industrial output, fixed-asset investment, agricultural production, population, employment, and consumer prices for Jiangxi Province. The bureau releases the Jiangxi Statistical Yearbook and regular economic bulletins, providing key data for tracking the province's economic transformation from a resource-based economy toward advanced manufacturing, electronics, and logistics.",
+    "zh": "江西省统计局是江西省官方统计机构，江西省位于中国东南内陆，以稀土资源、铜矿采掘和新兴制造业著称。统计局发布江西省GDP、工业产值、固定资产投资、农业生产、人口、就业及居民消费价格指数等全面的社会经济数据，并出版《江西统计年鉴》及定期经济情况报告，为追踪江西省从资源型经济向先进制造业、电子产业和物流业转型提供关键数据。"
+  },
+  "website": "https://tjj.jiangxi.gov.cn/",
+  "data_url": "https://tjj.jiangxi.gov.cn/jxstjj/col/col40939/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "resources"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "江西统计",
+    "Jiangxi statistics",
+    "江西GDP",
+    "Jiangxi GDP",
+    "省级统计",
+    "provincial statistics",
+    "稀土",
+    "rare earth",
+    "铜矿",
+    "copper mining",
+    "统计年鉴",
+    "statistical yearbook",
+    "固定资产投资",
+    "fixed-asset investment",
+    "工业经济",
+    "industrial economy",
+    "先进制造业",
+    "advanced manufacturing",
+    "电子信息产业",
+    "electronics industry",
+    "居民收入",
+    "household income",
+    "农业产值",
+    "agricultural output"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Jiangxi Province",
+      "Industrial production: output value by industry including key sectors such as rare earth processing, copper smelting, electronics, and automotive parts",
+      "Fixed-asset investment: total investment by sector and ownership type, including infrastructure, manufacturing, and real estate",
+      "Agricultural production: crop output, forestry, livestock, and aquaculture data for this traditional agricultural province",
+      "Population and demographics: census data, household registration, birth and death rates, urbanization rate",
+      "Employment and wages: employed persons by industry, urban unemployment rate, average wages by sector",
+      "Consumer prices: CPI and PPI indices for Jiangxi and major cities including Nanchang, Ganzhou, and Jingdezhen",
+      "Foreign trade and investment: import and export values, foreign direct investment by sector",
+      "Jiangxi Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：江西省季度和年度GDP数据，按三次产业分类",
+      "工业生产：各行业工业产值，涵盖稀土加工、铜冶炼、电子信息、汽车零部件等重点行业产量",
+      "固定资产投资：按行业和所有制分类的投资总额，包括基础设施、制造业和房地产投资",
+      "农业生产：农作物产量、林业、畜牧业和水产养殖数据，江西是传统农业大省",
+      "人口与人口结构：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+      "就业与工资：按行业分类的从业人员数、城镇失业率、各行业平均工资",
+      "消费价格：江西省及南昌、赣州、景德镇等主要城市的居民消费价格指数和工业品出厂价格",
+      "对外贸易与投资：进出口总额、按行业分类的外商直接投资",
+      "江西统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "china-gx-stats",
+  "name": {
+    "en": "Guangxi Bureau of Statistics",
+    "zh": "广西壮族自治区统计局"
+  },
+  "description": {
+    "en": "The Guangxi Bureau of Statistics is the official statistical authority for the Guangxi Zhuang Autonomous Region, a southern Chinese region bordering Vietnam with strategic importance as China's gateway to Southeast Asia. It publishes comprehensive socioeconomic data including GDP, industrial output, agricultural production, trade, tourism, and population statistics for Guangxi. The bureau releases the Guangxi Statistical Yearbook and regular economic bulletins, offering critical data for analyzing the region's role in the China-ASEAN trade relationship, the New International Land-Sea Trade Corridor (ILSTC), and its sugar cane, nonferrous metals, and tourism industries.",
+    "zh": "广西壮族自治区统计局是广西的官方统计机构，广西位于中国南部，与越南接壤，是中国面向东南亚的重要门户。统计局发布广西GDP、工业产值、农业生产、贸易、旅游和人口等全面的社会经济数据，并出版《广西统计年鉴》及定期经济情况报告，为分析广西在中国-东盟贸易关系、西部陆海新通道及甘蔗、有色金属和旅游产业中的地位提供重要数据支撑。"
+  },
+  "website": "https://tjj.gxzf.gov.cn/",
+  "data_url": "https://tjj.gxzf.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "trade",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "广西统计",
+    "Guangxi statistics",
+    "广西GDP",
+    "Guangxi GDP",
+    "广西壮族自治区",
+    "Guangxi Zhuang Autonomous Region",
+    "省级统计",
+    "provincial statistics",
+    "中国-东盟",
+    "China-ASEAN",
+    "西部陆海新通道",
+    "ILSTC",
+    "甘蔗",
+    "sugar cane",
+    "有色金属",
+    "nonferrous metals",
+    "旅游",
+    "tourism",
+    "统计年鉴",
+    "statistical yearbook",
+    "边境贸易",
+    "border trade",
+    "固定资产投资",
+    "fixed-asset investment",
+    "居民收入",
+    "household income"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Guangxi Zhuang Autonomous Region",
+      "Industrial production: output value by industry including key sectors such as sugar processing, nonferrous metal smelting, machinery, and petrochemicals",
+      "Agricultural production: sugar cane output (China's largest producing region), grain, fruits, aquaculture, and forestry data",
+      "Trade and commerce: import and export values, China-ASEAN trade flows, border trade with Vietnam, and port throughput at Beibu Gulf ports",
+      "Tourism statistics: visitor arrivals, tourism revenue, cross-border tourism data, hotel occupancy rates",
+      "Population and demographics: census data for the Zhuang and other ethnic minorities, urbanization rate, household registration",
+      "Fixed-asset investment: infrastructure including the New International Land-Sea Trade Corridor projects, real estate",
+      "Consumer prices: CPI and PPI indices for Guangxi and major cities including Nanning, Guilin, and Liuzhou",
+      "Guangxi Statistical Yearbook: comprehensive annual compilation of all regional statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：广西壮族自治区季度和年度GDP数据，按三次产业分类",
+      "工业生产：各行业工业产值，涵盖制糖业、有色金属冶炼、机械制造和石油化工等重点行业",
+      "农业生产：甘蔗产量（全国最大甘蔗产区）、粮食、水果、水产养殖和林业数据",
+      "贸易与商业：进出口总额、中国-东盟贸易流量、中越边境贸易及北部湾港口吞吐量",
+      "旅游统计：游客人数、旅游收入、跨境旅游数据和酒店入住率",
+      "人口与人口结构：壮族及其他少数民族人口普查数据、城镇化率、户籍人口",
+      "固定资产投资：西部陆海新通道建设等基础设施投资和房地产投资",
+      "消费价格：广西及南宁、桂林、柳州等主要城市的居民消费价格指数和工业品出厂价格",
+      "广西统计年鉴：全区各类统计数据的综合年度汇编"
+    ]
+  }
+}

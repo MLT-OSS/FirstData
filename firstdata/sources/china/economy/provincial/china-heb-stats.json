@@ -1,0 +1,73 @@
+{
+  "id": "china-heb-stats",
+  "name": {
+    "en": "Hebei Bureau of Statistics",
+    "zh": "河北省统计局"
+  },
+  "description": {
+    "en": "The Hebei Bureau of Statistics is the official statistical authority for Hebei Province, which surrounds Beijing and Tianjin and is a major industrial, agricultural, and steel-producing region in northern China. It publishes comprehensive socioeconomic data including GDP, industrial output, fixed-asset investment, agricultural production, population, employment, consumer prices, and retail sales for Hebei Province. The bureau releases the Hebei Statistical Yearbook and regular monthly and quarterly economic bulletins, providing essential data for understanding the economy of this strategically important province in the Beijing-Tianjin-Hebei (Jing-Jin-Ji) integrated development region.",
+    "zh": "河北省统计局是河北省官方统计机构，河北省环绕北京和天津，是中国北方重要的工业、农业和钢铁生产基地。统计局发布河北省GDP、工业产值、固定资产投资、农业生产、人口、就业、居民消费价格指数和社会消费品零售总额等全面的社会经济数据，并出版《河北统计年鉴》及月度/季度经济运行情况报告，是了解京津冀一体化发展区域重要省份经济情况的关键数据来源。"
+  },
+  "website": "https://tjj.hebei.gov.cn/",
+  "data_url": "https://tjj.hebei.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "social",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "河北统计",
+    "Hebei statistics",
+    "河北GDP",
+    "Hebei GDP",
+    "京津冀",
+    "Beijing-Tianjin-Hebei",
+    "Jing-Jin-Ji",
+    "省级统计",
+    "provincial statistics",
+    "钢铁生产",
+    "steel production",
+    "固定资产投资",
+    "fixed-asset investment",
+    "农业产值",
+    "agricultural output",
+    "统计年鉴",
+    "statistical yearbook",
+    "工业经济",
+    "industrial economy",
+    "居民收入",
+    "household income",
+    "城镇化",
+    "urbanization"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Hebei Province",
+      "Industrial production: output value by industry, major product volumes, enterprise performance for key sectors including steel, chemicals, and equipment manufacturing",
+      "Fixed-asset investment: total investment by sector, region, and ownership type, including infrastructure and real estate",
+      "Agricultural production: crop output, livestock, aquaculture, and agricultural income for this major farming province",
+      "Population statistics: census data, household registration, birth and death rates, rural-urban migration",
+      "Employment and wages: employed persons by sector, urban unemployment rate, average wages",
+      "Consumer prices: CPI and PPI indices for Hebei and its major cities including Shijiazhuang, Tangshan, and Baoding",
+      "Social development: education, healthcare resources, social security coverage across the province",
+      "Hebei Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：河北省季度和年度GDP数据，按三次产业分类",
+      "工业生产：各行业工业产值、主要产品产量及企业运营情况，涵盖钢铁、化工、装备制造等重点行业",
+      "固定资产投资：按行业、地区和所有制性质分类的投资总额，包括基础设施和房地产投资",
+      "农业生产：主要农作物产量、畜牧业、水产养殖及农民收入，河北是中国重要的农业大省",
+      "人口统计：人口普查数据、户籍人口、出生率和死亡率、城乡人口流动",
+      "就业与工资：按行业分类的从业人员数、城镇失业率、平均工资水平",
+      "消费价格：河北省及石家庄、唐山、保定等主要城市的居民消费价格指数和工业品出厂价格",
+      "社会发展：全省教育、医疗卫生资源和社会保障覆盖情况",
+      "河北统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}
