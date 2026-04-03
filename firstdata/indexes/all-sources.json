@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-03T02:19:47.345794+00:00",
-    "total_sources": 350,
+    "generated_at": "2026-04-03T06:11:57.138292+00:00",
+    "total_sources": 355,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3085,6 +3085,84 @@
       "file_path": "china/economy/provincial/china-gd-stats.json"
     },
     {
+      "id": "china-gx-stats",
+      "name": {
+        "en": "Guangxi Bureau of Statistics",
+        "zh": "广西壮族自治区统计局"
+      },
+      "description": {
+        "en": "The Guangxi Bureau of Statistics is the official statistical authority for the Guangxi Zhuang Autonomous Region, a southern Chinese region bordering Vietnam with strategic importance as China's gateway to Southeast Asia. It publishes comprehensive socioeconomic data including GDP, industrial output, agricultural production, trade, tourism, and population statistics for Guangxi. The bureau releases the Guangxi Statistical Yearbook and regular economic bulletins, offering critical data for analyzing the region's role in the China-ASEAN trade relationship, the New International Land-Sea Trade Corridor (ILSTC), and its sugar cane, nonferrous metals, and tourism industries.",
+        "zh": "广西壮族自治区统计局是广西的官方统计机构，广西位于中国南部，与越南接壤，是中国面向东南亚的重要门户。统计局发布广西GDP、工业产值、农业生产、贸易、旅游和人口等全面的社会经济数据，并出版《广西统计年鉴》及定期经济情况报告，为分析广西在中国-东盟贸易关系、西部陆海新通道及甘蔗、有色金属和旅游产业中的地位提供重要数据支撑。"
+      },
+      "website": "https://tjj.gxzf.gov.cn/",
+      "data_url": "https://tjj.gxzf.gov.cn/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "trade",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "广西统计",
+        "Guangxi statistics",
+        "广西GDP",
+        "Guangxi GDP",
+        "广西壮族自治区",
+        "Guangxi Zhuang Autonomous Region",
+        "省级统计",
+        "provincial statistics",
+        "中国-东盟",
+        "China-ASEAN",
+        "西部陆海新通道",
+        "ILSTC",
+        "甘蔗",
+        "sugar cane",
+        "有色金属",
+        "nonferrous metals",
+        "旅游",
+        "tourism",
+        "统计年鉴",
+        "statistical yearbook",
+        "边境贸易",
+        "border trade",
+        "固定资产投资",
+        "fixed-asset investment",
+        "居民收入",
+        "household income"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Guangxi Zhuang Autonomous Region",
+          "Industrial production: output value by industry including key sectors such as sugar processing, nonferrous metal smelting, machinery, and petrochemicals",
+          "Agricultural production: sugar cane output (China's largest producing region), grain, fruits, aquaculture, and forestry data",
+          "Trade and commerce: import and export values, China-ASEAN trade flows, border trade with Vietnam, and port throughput at Beibu Gulf ports",
+          "Tourism statistics: visitor arrivals, tourism revenue, cross-border tourism data, hotel occupancy rates",
+          "Population and demographics: census data for the Zhuang and other ethnic minorities, urbanization rate, household registration",
+          "Fixed-asset investment: infrastructure including the New International Land-Sea Trade Corridor projects, real estate",
+          "Consumer prices: CPI and PPI indices for Guangxi and major cities including Nanning, Guilin, and Liuzhou",
+          "Guangxi Statistical Yearbook: comprehensive annual compilation of all regional statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：广西壮族自治区季度和年度GDP数据，按三次产业分类",
+          "工业生产：各行业工业产值，涵盖制糖业、有色金属冶炼、机械制造和石油化工等重点行业",
+          "农业生产：甘蔗产量（全国最大甘蔗产区）、粮食、水果、水产养殖和林业数据",
+          "贸易与商业：进出口总额、中国-东盟贸易流量、中越边境贸易及北部湾港口吞吐量",
+          "旅游统计：游客人数、旅游收入、跨境旅游数据和酒店入住率",
+          "人口与人口结构：壮族及其他少数民族人口普查数据、城镇化率、户籍人口",
+          "固定资产投资：西部陆海新通道建设等基础设施投资和房地产投资",
+          "消费价格：广西及南宁、桂林、柳州等主要城市的居民消费价格指数和工业品出厂价格",
+          "广西统计年鉴：全区各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-gx-stats.json"
+    },
+    {
       "id": "china-gz-stats",
       "name": {
         "en": "Guizhou Bureau of Statistics",
@@ -3309,6 +3387,81 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-hb-stats.json"
+    },
+    {
+      "id": "china-heb-stats",
+      "name": {
+        "en": "Hebei Bureau of Statistics",
+        "zh": "河北省统计局"
+      },
+      "description": {
+        "en": "The Hebei Bureau of Statistics is the official statistical authority for Hebei Province, which surrounds Beijing and Tianjin and is a major industrial, agricultural, and steel-producing region in northern China. It publishes comprehensive socioeconomic data including GDP, industrial output, fixed-asset investment, agricultural production, population, employment, consumer prices, and retail sales for Hebei Province. The bureau releases the Hebei Statistical Yearbook and regular monthly and quarterly economic bulletins, providing essential data for understanding the economy of this strategically important province in the Beijing-Tianjin-Hebei (Jing-Jin-Ji) integrated development region.",
+        "zh": "河北省统计局是河北省官方统计机构，河北省环绕北京和天津，是中国北方重要的工业、农业和钢铁生产基地。统计局发布河北省GDP、工业产值、固定资产投资、农业生产、人口、就业、居民消费价格指数和社会消费品零售总额等全面的社会经济数据，并出版《河北统计年鉴》及月度/季度经济运行情况报告，是了解京津冀一体化发展区域重要省份经济情况的关键数据来源。"
+      },
+      "website": "https://tjj.hebei.gov.cn/",
+      "data_url": "https://tjj.hebei.gov.cn/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "河北统计",
+        "Hebei statistics",
+        "河北GDP",
+        "Hebei GDP",
+        "京津冀",
+        "Beijing-Tianjin-Hebei",
+        "Jing-Jin-Ji",
+        "省级统计",
+        "provincial statistics",
+        "钢铁生产",
+        "steel production",
+        "固定资产投资",
+        "fixed-asset investment",
+        "农业产值",
+        "agricultural output",
+        "统计年鉴",
+        "statistical yearbook",
+        "工业经济",
+        "industrial economy",
+        "居民收入",
+        "household income",
+        "城镇化",
+        "urbanization"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Hebei Province",
+          "Industrial production: output value by industry, major product volumes, enterprise performance for key sectors including steel, chemicals, and equipment manufacturing",
+          "Fixed-asset investment: total investment by sector, region, and ownership type, including infrastructure and real estate",
+          "Agricultural production: crop output, livestock, aquaculture, and agricultural income for this major farming province",
+          "Population statistics: census data, household registration, birth and death rates, rural-urban migration",
+          "Employment and wages: employed persons by sector, urban unemployment rate, average wages",
+          "Consumer prices: CPI and PPI indices for Hebei and its major cities including Shijiazhuang, Tangshan, and Baoding",
+          "Social development: education, healthcare resources, social security coverage across the province",
+          "Hebei Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：河北省季度和年度GDP数据，按三次产业分类",
+          "工业生产：各行业工业产值、主要产品产量及企业运营情况，涵盖钢铁、化工、装备制造等重点行业",
+          "固定资产投资：按行业、地区和所有制性质分类的投资总额，包括基础设施和房地产投资",
+          "农业生产：主要农作物产量、畜牧业、水产养殖及农民收入，河北是中国重要的农业大省",
+          "人口统计：人口普查数据、户籍人口、出生率和死亡率、城乡人口流动",
+          "就业与工资：按行业分类的从业人员数、城镇失业率、平均工资水平",
+          "消费价格：河北省及石家庄、唐山、保定等主要城市的居民消费价格指数和工业品出厂价格",
+          "社会发展：全省教育、医疗卫生资源和社会保障覆盖情况",
+          "河北统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-heb-stats.json"
     },
     {
       "id": "china-hlj-stats",
@@ -3607,6 +3760,82 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-js-stats.json"
+    },
+    {
+      "id": "china-jx-stats",
+      "name": {
+        "en": "Jiangxi Bureau of Statistics",
+        "zh": "江西省统计局"
+      },
+      "description": {
+        "en": "The Jiangxi Bureau of Statistics is the official statistical authority for Jiangxi Province, a landlocked province in southeastern China known for its rare earth resources, copper mining, and growing manufacturing sector. It publishes comprehensive socioeconomic data including GDP, industrial output, fixed-asset investment, agricultural production, population, employment, and consumer prices for Jiangxi Province. The bureau releases the Jiangxi Statistical Yearbook and regular economic bulletins, providing key data for tracking the province's economic transformation from a resource-based economy toward advanced manufacturing, electronics, and logistics.",
+        "zh": "江西省统计局是江西省官方统计机构，江西省位于中国东南内陆，以稀土资源、铜矿采掘和新兴制造业著称。统计局发布江西省GDP、工业产值、固定资产投资、农业生产、人口、就业及居民消费价格指数等全面的社会经济数据，并出版《江西统计年鉴》及定期经济情况报告，为追踪江西省从资源型经济向先进制造业、电子产业和物流业转型提供关键数据。"
+      },
+      "website": "https://tjj.jiangxi.gov.cn/",
+      "data_url": "https://tjj.jiangxi.gov.cn/jxstjj/col/col40939/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "social",
+        "resources"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "江西统计",
+        "Jiangxi statistics",
+        "江西GDP",
+        "Jiangxi GDP",
+        "省级统计",
+        "provincial statistics",
+        "稀土",
+        "rare earth",
+        "铜矿",
+        "copper mining",
+        "统计年鉴",
+        "statistical yearbook",
+        "固定资产投资",
+        "fixed-asset investment",
+        "工业经济",
+        "industrial economy",
+        "先进制造业",
+        "advanced manufacturing",
+        "电子信息产业",
+        "electronics industry",
+        "居民收入",
+        "household income",
+        "农业产值",
+        "agricultural output"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Jiangxi Province",
+          "Industrial production: output value by industry including key sectors such as rare earth processing, copper smelting, electronics, and automotive parts",
+          "Fixed-asset investment: total investment by sector and ownership type, including infrastructure, manufacturing, and real estate",
+          "Agricultural production: crop output, forestry, livestock, and aquaculture data for this traditional agricultural province",
+          "Population and demographics: census data, household registration, birth and death rates, urbanization rate",
+          "Employment and wages: employed persons by industry, urban unemployment rate, average wages by sector",
+          "Consumer prices: CPI and PPI indices for Jiangxi and major cities including Nanchang, Ganzhou, and Jingdezhen",
+          "Foreign trade and investment: import and export values, foreign direct investment by sector",
+          "Jiangxi Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：江西省季度和年度GDP数据，按三次产业分类",
+          "工业生产：各行业工业产值，涵盖稀土加工、铜冶炼、电子信息、汽车零部件等重点行业产量",
+          "固定资产投资：按行业和所有制分类的投资总额，包括基础设施、制造业和房地产投资",
+          "农业生产：农作物产量、林业、畜牧业和水产养殖数据，江西是传统农业大省",
+          "人口与人口结构：人口普查数据、户籍人口、出生率和死亡率、城镇化率",
+          "就业与工资：按行业分类的从业人员数、城镇失业率、各行业平均工资",
+          "消费价格：江西省及南昌、赣州、景德镇等主要城市的居民消费价格指数和工业品出厂价格",
+          "对外贸易与投资：进出口总额、按行业分类的外商直接投资",
+          "江西统计年鉴：全省各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-jx-stats.json"
     },
     {
       "id": "china-ln-stats",
@@ -4126,6 +4355,81 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-zj-stats.json"
+    },
+    {
+      "id": "china-cflp",
+      "name": {
+        "en": "China Federation of Logistics and Purchasing",
+        "zh": "中国物流与采购联合会"
+      },
+      "description": {
+        "en": "The China Federation of Logistics and Purchasing (CFLP) is the national industry association representing China's logistics and supply chain sector. CFLP is internationally recognized as the publisher of the China Logistics PMI (Purchasing Managers' Index) and the China Manufacturing PMI (in conjunction with the National Bureau of Statistics), which are among the most closely watched leading economic indicators for China. The federation publishes monthly logistics PMI data, warehousing index, logistics industry revenue statistics, and annual logistics development reports. Its data is widely used by global investors, policymakers, and researchers to gauge the health of China's supply chains and manufacturing activity.",
+        "zh": "中国物流与采购联合会（中物联）是代表中国物流和供应链行业的全国性行业组织。中物联作为中国物流业采购经理人指数（PMI）的发布机构享誉国际，同时与国家统计局联合发布中国制造业PMI，这些指数是全球最受关注的中国经济先行指标之一。联合会发布月度物流业PMI、仓储指数、物流行业营收统计及年度物流发展报告，其数据被全球投资者、政策制定者和研究人员广泛用于评估中国供应链和制造业的运行状况。"
+      },
+      "website": "https://www.chinawuliu.com.cn/",
+      "data_url": "https://www.chinawuliu.com.cn/lhhzq/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "trade",
+        "infrastructure"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国物流与采购联合会",
+        "CFLP",
+        "中物联",
+        "物流PMI",
+        "Logistics PMI",
+        "采购经理人指数",
+        "Purchasing Managers Index",
+        "中国制造业PMI",
+        "China Manufacturing PMI",
+        "供应链",
+        "supply chain",
+        "物流行业",
+        "logistics industry",
+        "仓储指数",
+        "warehousing index",
+        "物流成本",
+        "logistics cost",
+        "运输",
+        "transportation",
+        "经济先行指标",
+        "leading economic indicator",
+        "采购",
+        "procurement",
+        "社会物流总额",
+        "total social logistics"
+      ],
+      "data_content": {
+        "en": [
+          "China Logistics PMI: monthly composite index measuring activity across transportation, warehousing, and supply chain sectors, including sub-indices for business volume, new orders, inventory, and employment",
+          "China Manufacturing PMI: co-published with the National Bureau of Statistics, this flagship index tracks monthly changes in manufacturing activity through surveys of purchasing managers",
+          "Warehousing and storage index: monthly index tracking warehouse utilization rates, storage volumes, and throughput",
+          "Social logistics total volume: annual data on the total value of goods passing through China's logistics system, a key macro indicator",
+          "Logistics cost ratio: annual analysis of logistics costs as a percentage of GDP, used to benchmark China's supply chain efficiency",
+          "Freight transport data: volume and value of goods transported by road, rail, waterway, and air within China",
+          "Cold chain logistics statistics: annual data on the development of refrigerated transport and storage capacity",
+          "Annual logistics development report: comprehensive review of China's logistics sector including infrastructure, enterprises, and policy developments"
+        ],
+        "zh": [
+          "中国物流业采购经理人指数（PMI）：月度综合指数，涵盖运输、仓储和供应链各环节，包含业务量、新订单、库存和从业人员等分项指数",
+          "中国制造业PMI：与国家统计局联合发布，通过对采购经理的问卷调查追踪制造业月度活动变化的旗舰指数",
+          "仓储业务景气指数：月度跟踪仓库利用率、存储量和吞吐量的指数",
+          "社会物流总额：全国物流系统商品流转总值年度数据，是重要的宏观经济指标",
+          "物流费用占GDP比率：物流成本占GDP比重的年度分析，用于衡量中国供应链效率水平",
+          "货运量数据：公路、铁路、水运和航空运输的货物量和货物价值",
+          "冷链物流统计：冷藏运输和冷库容量发展情况年度数据",
+          "年度物流发展报告：中国物流行业基础设施、企业经营和政策发展的综合评述"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/trade/china-cflp.json"
     },
     {
       "id": "china-gacc",
@@ -5874,6 +6178,79 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-saac.json"
+    },
+    {
+      "id": "china-stma",
+      "name": {
+        "en": "State Tobacco Monopoly Administration of China",
+        "zh": "国家烟草专卖局"
+      },
+      "description": {
+        "en": "The State Tobacco Monopoly Administration (STMA) is the central government agency responsible for overseeing and regulating China's tobacco industry under a state monopoly system. China is the world's largest tobacco producer and consumer, and STMA controls all aspects of tobacco production, distribution, and sales in the country. It publishes annual and periodic statistics on cigarette output, tobacco leaf production by province, industry revenue, tax contributions, and export data. STMA data is essential for global tobacco market analysis, public health policy research, and understanding China's agricultural and fiscal landscape, as tobacco taxation contributes significantly to government revenue.",
+        "zh": "国家烟草专卖局（国家局）是负责监管中国烟草行业的中央政府机构，实行国家专卷制度。中国是全球最大的烟草生产国和消费国，国家烟草专卖局统一管理全国烟草的生产、流通和销售。局方发布卷烟产量、各省烟叶生产、行业营收、税利贡献及出口等年度和阶段性统计数据。国家烟草专卖局的数据对于全球烟草市场分析、公共卫生政策研究以及了解中国农业和财税格局至关重要，烟草税是政府财政收入的重要来源。"
+      },
+      "website": "https://www.tobacco.gov.cn/",
+      "data_url": "https://www.tobacco.gov.cn/html/42/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "agriculture",
+        "governance"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "国家烟草专卖局",
+        "STMA",
+        "State Tobacco Monopoly Administration",
+        "烟草行业",
+        "tobacco industry",
+        "卷烟产量",
+        "cigarette production",
+        "烟叶产量",
+        "tobacco leaf production",
+        "烟草税利",
+        "tobacco tax revenue",
+        "中国烟草",
+        "China tobacco",
+        "烟草专卖",
+        "tobacco monopoly",
+        "烟草出口",
+        "tobacco export",
+        "行业统计",
+        "industry statistics",
+        "公共卫生",
+        "public health",
+        "农业生产",
+        "agricultural production"
+      ],
+      "data_content": {
+        "en": [
+          "Cigarette production: annual and periodic output volumes by major brand group and manufacturing enterprise",
+          "Tobacco leaf: provincial production data for flue-cured tobacco, covering major growing areas such as Yunnan, Guizhou, Henan, and Hunan",
+          "Industry revenue and taxes: total industry revenue, profit, and tobacco tax contributions to central and local government budgets",
+          "Sales and distribution: domestic cigarette sales volumes, retail sales by region, and wholesale distribution data",
+          "Export statistics: cigarette and tobacco leaf export volumes and values by destination country",
+          "Enterprise performance: operational data for major state-owned tobacco groups (e.g., China Tobacco Yunnan Industrial Co.)",
+          "Import data: imported tobacco leaf and cigarette volumes and declared values",
+          "Industry overview reports: annual industry development reports summarizing production, revenue, and policy priorities"
+        ],
+        "zh": [
+          "卷烟产量：主要品牌集团和生产企业的年度及阶段性卷烟产量",
+          "烟叶生产：烤烟各省产量数据，涵盖云南、贵州、河南、湖南等主产区",
+          "行业税利：行业总营收、利润及烟草税对中央和地方财政的贡献",
+          "销售与流通：国内卷烟销量、各地区零售销售额和批发流通数据",
+          "出口统计：按目的地国家分类的卷烟和烟叶出口量及出口额",
+          "企业经营：主要国有烟草集团（如云南中烟工业有限责任公司）运营数据",
+          "进口数据：进口烟叶和卷烟数量及申报价值",
+          "行业综述报告：汇总生产、税利和政策重点的年度行业发展报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-stma.json"
     },
     {
       "id": "china-gas",

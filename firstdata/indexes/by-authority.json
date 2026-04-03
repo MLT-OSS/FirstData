@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-04-03T02:19:47.345794+00:00",
-    "total_sources": 350,
+    "generated_at": "2026-04-03T06:11:57.138292+00:00",
+    "total_sources": 355,
     "authority_counts": {
       "research": 37,
       "international": 74,
-      "government": 201,
-      "other": 6,
+      "government": 205,
+      "other": 7,
       "market": 16,
       "commercial": 16
     },
@@ -1635,6 +1635,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-gx-stats",
+        "name": {
+          "en": "Guangxi Bureau of Statistics",
+          "zh": "广西壮族自治区统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.gxzf.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-gx-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-gz-stats",
         "name": {
           "en": "Guizhou Bureau of Statistics",
@@ -1668,6 +1680,18 @@
         "data_url": "https://tjj.hubei.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-hb-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-heb-stats",
+        "name": {
+          "en": "Hebei Bureau of Statistics",
+          "zh": "河北省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.hebei.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-heb-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -1716,6 +1740,18 @@
         "data_url": "https://tj.jiangsu.gov.cn/col/col85273/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-js-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-jx-stats",
+        "name": {
+          "en": "Jiangxi Bureau of Statistics",
+          "zh": "江西省统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.jiangxi.gov.cn/jxstjj/col/col40939/index.html",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-jx-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -2096,6 +2132,18 @@
         "data_url": "https://www.saac.gov.cn/daj/fzgz/lmlist.shtml",
         "has_api": false,
         "file_path": "china/governance/china-saac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-stma",
+        "name": {
+          "en": "State Tobacco Monopoly Administration of China",
+          "zh": "国家烟草专卖局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.tobacco.gov.cn/html/42/index.html",
+        "has_api": false,
+        "file_path": "china/governance/china-stma.json",
         "geographic_scope": "national"
       },
       {
@@ -3855,6 +3903,18 @@
         "data_url": "https://www.sac.net.cn/hysj/",
         "has_api": false,
         "file_path": "china/china-sac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cflp",
+        "name": {
+          "en": "China Federation of Logistics and Purchasing",
+          "zh": "中国物流与采购联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinawuliu.com.cn/lhhzq/",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-cflp.json",
         "geographic_scope": "national"
       },
       {
