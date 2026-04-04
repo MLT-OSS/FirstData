@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T02:11:49.782675+00:00",
+    "generated_at": "2026-04-04T06:17:31.585206+00:00",
     "total_domains": 705,
-    "total_sources": 360,
+    "total_sources": 365,
     "version": "2.0"
   },
   "domains": {
@@ -357,6 +357,18 @@
         "data_url": "https://tjj.xinjiang.gov.cn/tjj/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-xj-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-xz-stats",
+        "name": {
+          "en": "Xizang (Tibet) Bureau of Statistics",
+          "zh": "西藏自治区统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-xz-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -6855,6 +6867,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-xz-stats",
+        "name": {
+          "en": "Xizang (Tibet) Bureau of Statistics",
+          "zh": "西藏自治区统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-xz-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-yn-stats",
         "name": {
           "en": "Yunnan Bureau of Statistics",
@@ -6940,6 +6964,30 @@
         "data_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
         "has_api": false,
         "file_path": "china/finance/banking/pbc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cfa",
+        "name": {
+          "en": "China Futures Association",
+          "zh": "中国期货业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-cfa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iac",
+        "name": {
+          "en": "Insurance Association of China",
+          "zh": "中国保险业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iachina.cn/col/col4479/",
+        "has_api": false,
+        "file_path": "china/finance/china-iac.json",
         "geographic_scope": "national"
       },
       {
@@ -11667,6 +11715,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cfa",
+        "name": {
+          "en": "China Futures Association",
+          "zh": "中国期货业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-cfa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nafmii",
         "name": {
           "en": "National Association of Financial Market Institutional Investors",
@@ -11676,6 +11736,18 @@
         "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iac",
+        "name": {
+          "en": "Insurance Association of China",
+          "zh": "中国保险业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iachina.cn/col/col4479/",
+        "has_api": false,
+        "file_path": "china/finance/china-iac.json",
         "geographic_scope": "national"
       },
       {
@@ -11789,6 +11861,18 @@
         "data_url": "https://www.cnao.gov.cn/col/col1705/",
         "has_api": false,
         "file_path": "china/governance/china-cnao.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nhsa",
+        "name": {
+          "en": "National Healthcare Security Administration of China",
+          "zh": "国家医疗保障局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nhsa.json",
         "geographic_scope": "national"
       },
       {
@@ -13708,6 +13792,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nia",
+        "name": {
+          "en": "National Immigration Administration of China",
+          "zh": "国家移民管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nia.gov.cn/n741440/n741547/index.html",
+        "has_api": false,
+        "file_path": "china/governance/china-nia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-saac",
         "name": {
           "en": "National Archives Administration of China",
@@ -14103,6 +14199,18 @@
         "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
         "has_api": false,
         "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nhsa",
+        "name": {
+          "en": "National Healthcare Security Administration of China",
+          "zh": "国家医疗保障局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nhsa.json",
         "geographic_scope": "national"
       },
       {
@@ -22146,6 +22254,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-xz-stats",
+        "name": {
+          "en": "Xizang (Tibet) Bureau of Statistics",
+          "zh": "西藏自治区统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-xz-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-yn-stats",
         "name": {
           "en": "Yunnan Bureau of Statistics",
@@ -22194,6 +22314,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nia",
+        "name": {
+          "en": "National Immigration Administration of China",
+          "zh": "国家移民管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nia.gov.cn/n741440/n741547/index.html",
+        "has_api": false,
+        "file_path": "china/governance/china-nia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gas",
         "name": {
           "en": "General Administration of Sport of China",
@@ -22216,6 +22348,18 @@
         "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
         "has_api": false,
         "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nhsa",
+        "name": {
+          "en": "National Healthcare Security Administration of China",
+          "zh": "国家医疗保障局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nhsa.json",
         "geographic_scope": "national"
       },
       {
@@ -23533,6 +23677,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-xz-stats",
+        "name": {
+          "en": "Xizang (Tibet) Bureau of Statistics",
+          "zh": "西藏自治区统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-xz-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-yn-stats",
         "name": {
           "en": "Yunnan Bureau of Statistics",
@@ -23569,6 +23725,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cfa",
+        "name": {
+          "en": "China Futures Association",
+          "zh": "中国期货业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-cfa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iac",
+        "name": {
+          "en": "Insurance Association of China",
+          "zh": "中国保险业协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iachina.cn/col/col4479/",
+        "has_api": false,
+        "file_path": "china/finance/china-iac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nia",
+        "name": {
+          "en": "National Immigration Administration of China",
+          "zh": "国家移民管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nia.gov.cn/n741440/n741547/index.html",
+        "has_api": false,
+        "file_path": "china/governance/china-nia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-saac",
         "name": {
           "en": "National Archives Administration of China",
@@ -23590,6 +23782,18 @@
         "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
         "has_api": false,
         "file_path": "china/governance/sports/china-gas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nhsa",
+        "name": {
+          "en": "National Healthcare Security Administration of China",
+          "zh": "国家医疗保障局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-nhsa.json",
         "geographic_scope": "national"
       },
       {

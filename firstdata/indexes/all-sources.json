@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T02:11:49.782675+00:00",
-    "total_sources": 360,
+    "generated_at": "2026-04-04T06:17:31.585206+00:00",
+    "total_sources": 365,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4621,6 +4621,85 @@
       "file_path": "china/economy/provincial/china-xj-stats.json"
     },
     {
+      "id": "china-xz-stats",
+      "name": {
+        "en": "Xizang (Tibet) Bureau of Statistics",
+        "zh": "西藏自治区统计局"
+      },
+      "description": {
+        "en": "The Xizang (Tibet) Bureau of Statistics is the official statistical authority for the Xizang Autonomous Region, China's highest-altitude province-level administrative division. It publishes comprehensive socioeconomic data covering GDP, population, agriculture, animal husbandry, tourism, fixed asset investment, and social development indicators for the plateau region. The bureau releases the Xizang Statistical Yearbook, monthly economic briefings, and regular reports on key industries including traditional Tibetan medicine, yak farming, barley cultivation, and the growing tourism sector. Xizang's unique geography and demographic profile make its statistics essential for research on high-altitude economies, rural poverty alleviation, and ecological conservation on the Tibetan Plateau.",
+        "zh": "西藏自治区统计局是西藏自治区的官方统计机构，西藏是中国海拔最高的省级行政区划。统计局发布涵盖西藏GDP、人口、农牧业、旅游、固定资产投资及社会发展指标的全面社会经济数据。定期出版《西藏统计年鉴》、月度经济运行简报及藏医药、牦牛养殖、青稞种植、旅游业等重点产业专项报告。西藏独特的地理和人口特征使其统计数据成为研究高原经济、农村脱贫攻坚和青藏高原生态保护的重要参考依据。"
+      },
+      "website": "https://tjj.xizang.gov.cn/",
+      "data_url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "agriculture",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "西藏统计",
+        "Tibet statistics",
+        "Xizang statistics",
+        "西藏GDP",
+        "Tibet GDP",
+        "省级统计",
+        "provincial statistics",
+        "青藏高原",
+        "Tibetan Plateau",
+        "牦牛",
+        "yak farming",
+        "青稞",
+        "highland barley",
+        "藏医药",
+        "traditional Tibetan medicine",
+        "西藏旅游",
+        "Tibet tourism",
+        "高原经济",
+        "plateau economy",
+        "统计年鉴",
+        "statistical yearbook",
+        "脱贫攻坚",
+        "poverty alleviation",
+        "人口统计",
+        "population statistics"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: annual and quarterly GDP data for Xizang by sector, including primary, secondary, and tertiary industries",
+          "Agriculture and animal husbandry: highland barley (qingke) output, yak and sheep numbers, dairy production, and crop acreage statistics",
+          "Population and social indicators: census data, household registration, ethnic composition, birth rates, life expectancy",
+          "Fixed asset investment: infrastructure investment, transportation (Qinghai-Tibet Railway impacts), urban construction",
+          "Tourism statistics: domestic and international visitor arrivals, tourism revenue, hotel occupancy rates",
+          "Employment and wages: employed persons, wage levels, rural income, poverty alleviation progress",
+          "Energy statistics: electricity generation and consumption, solar and clean energy development on the plateau",
+          "Consumer prices: CPI and PPI for Xizang Autonomous Region and Lhasa city",
+          "Foreign trade: export and import volumes, cross-border trade with neighboring countries",
+          "Xizang Statistical Yearbook: comprehensive annual compilation of all regional statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：西藏自治区分季度和年度GDP数据，按第一、二、三产业分类",
+          "农牧业生产：青稞产量、牦牛和羊存栏数、乳制品产量及农作物播种面积统计",
+          "人口与社会指标：人口普查数据、户籍人口、民族构成、出生率、人均寿命",
+          "固定资产投资：基础设施投资、交通建设（青藏铁路影响）、城市建设数据",
+          "旅游统计：国内外游客到访人次、旅游收入、酒店住宿率",
+          "就业与工资：从业人员、工资水平、农村居民收入、脱贫攻坚进展",
+          "能源统计：发电量和用电量、高原太阳能及清洁能源发展情况",
+          "消费价格：西藏自治区及拉萨市居民消费价格指数、工业品出厂价格",
+          "对外贸易：进出口总额、与周边国家边境贸易量",
+          "西藏统计年鉴：全区各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-xz-stats.json"
+    },
+    {
       "id": "china-yn-stats",
       "name": {
         "en": "Yunnan Bureau of Statistics",
@@ -5642,6 +5721,81 @@
       "file_path": "china/finance/capital-markets/china-amac.json"
     },
     {
+      "id": "china-cfa",
+      "name": {
+        "en": "China Futures Association",
+        "zh": "中国期货业协会"
+      },
+      "description": {
+        "en": "The China Futures Association (CFA) is the national self-regulatory organization for China's futures and derivatives market, operating under the guidance of the China Securities Regulatory Commission (CSRC). CFA publishes authoritative statistics on futures market trading volumes, open interest, number of accounts, client funds, and brokerage firm financials. China operates some of the world's most liquid commodity futures markets, including iron ore, rebar steel, crude oil, soybeans, copper, and coal futures. CFA data covers all domestic futures exchanges (SHFE, DCE, CZCE, CFFEX, INE) and is the primary reference for understanding China's commodity price discovery and derivatives hedging activity.",
+        "zh": "中国期货业协会（期货协会）是中国期货和衍生品市场的全国性自律组织，在中国证券监督管理委员会指导下运作。协会发布期货市场成交量、持仓量、开户数量、客户权益及期货公司财务数据等权威统计。中国拥有全球流动性最强的大宗商品期货市场，涵盖铁矿石、螺纹钢、原油、大豆、铜、煤炭等品种。期货协会数据覆盖全国各期货交易所（上期所、大商所、郑商所、中金所、能源中心），是了解中国大宗商品价格发现和衍生品套期保值活动的主要参考依据。"
+      },
+      "website": "https://www.cfachina.org/",
+      "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "期货市场",
+        "futures market",
+        "大宗商品",
+        "commodities",
+        "期货成交量",
+        "futures trading volume",
+        "持仓量",
+        "open interest",
+        "螺纹钢期货",
+        "rebar futures",
+        "铁矿石期货",
+        "iron ore futures",
+        "原油期货",
+        "crude oil futures",
+        "大豆期货",
+        "soybean futures",
+        "铜期货",
+        "copper futures",
+        "衍生品",
+        "derivatives",
+        "套期保值",
+        "hedging",
+        "期货公司",
+        "futures brokerage"
+      ],
+      "data_content": {
+        "en": [
+          "Trading volume and turnover: monthly futures contracts traded across all domestic exchanges (SHFE, DCE, CZCE, CFFEX, INE) by commodity",
+          "Open interest: position data by commodity category including agricultural, metals, energy, and financial futures",
+          "Account statistics: number of futures trading accounts, institutional vs retail investor composition",
+          "Client funds: total funds deposited in futures margin accounts, indicating market participation scale",
+          "Futures brokerage financials: net capital, revenue, and profit data for licensed futures companies",
+          "Commodity price indices: futures price indices for agricultural products, metals, and energy",
+          "Options market data: options trading volumes, open interest, and volatility data for listed options",
+          "Cross-border trading: qualified foreign investor participation statistics in China's futures markets",
+          "Annual futures market report: comprehensive review of China's futures and derivatives market development"
+        ],
+        "zh": [
+          "成交量与成交额：全国各期货交易所（上期所、大商所、郑商所、中金所、能源中心）按品种分类的月度期货合约成交情况",
+          "持仓量：农产品、金属、能源及金融期货各品种持仓数据",
+          "开户统计：期货交易账户数量、机构与散户投资者构成",
+          "客户权益：期货保证金账户总资金量，反映市场参与规模",
+          "期货公司财务数据：持牌期货公司净资本、营业收入和利润",
+          "大宗商品价格指数：农产品、金属、能源期货价格指数",
+          "期权市场数据：各上市期权品种成交量、持仓及波动率数据",
+          "境外交易：合格境外投资者参与中国期货市场统计",
+          "期货市场年度报告：中国期货和衍生品市场发展全面综述"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-cfa.json"
+    },
+    {
       "id": "china-nafmii",
       "name": {
         "en": "National Association of Financial Market Institutional Investors",
@@ -5695,6 +5849,81 @@
       },
       "has_api": false,
       "file_path": "china/finance/capital-markets/china-nafmii.json"
+    },
+    {
+      "id": "china-iac",
+      "name": {
+        "en": "Insurance Association of China",
+        "zh": "中国保险业协会"
+      },
+      "description": {
+        "en": "The Insurance Association of China (IAC) is the national self-regulatory organization for China's insurance industry, representing insurance companies operating in China under the guidance of the National Financial Regulatory Administration (NFRA). IAC publishes authoritative insurance market statistics including total premium income, claims paid, insurance density, insurance penetration rate, and sector breakdowns for life, property, health, and agricultural insurance. It also releases research reports on industry trends, insurance products innovation, and market development data. IAC data is the primary source for understanding China's rapidly expanding insurance market, one of the largest in the world.",
+        "zh": "中国保险业协会（保险协会）是全国保险行业自律组织，在国家金融监督管理总局指导下代表在华保险公司。协会发布包括保费收入总量、赔付支出、保险密度、保险深度及寿险、财险、健康险、农业保险等分行业统计数据等权威保险市场统计。同时发布行业发展趋势研究报告、保险产品创新及市场发展数据。保险协会数据是了解中国这一全球最大保险市场之一快速扩张态势的主要来源。"
+      },
+      "website": "https://www.iachina.cn/",
+      "data_url": "https://www.iachina.cn/col/col4479/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "保险统计",
+        "insurance statistics",
+        "保费收入",
+        "premium income",
+        "保险密度",
+        "insurance density",
+        "保险深度",
+        "insurance penetration",
+        "寿险",
+        "life insurance",
+        "财险",
+        "property insurance",
+        "健康险",
+        "health insurance",
+        "农业保险",
+        "agricultural insurance",
+        "再保险",
+        "reinsurance",
+        "保险行业",
+        "insurance industry",
+        "理赔",
+        "insurance claims"
+      ],
+      "data_content": {
+        "en": [
+          "Premium income: monthly and annual total premium income by insurance type (life, property, health, accident)",
+          "Insurance penetration and density: insurance premiums as percentage of GDP and per capita premium data",
+          "Claims and compensation: total claims paid by sector, major catastrophe loss statistics",
+          "Life insurance data: new policy sales, policy in-force reserves, annuity and pension insurance statistics",
+          "Property and casualty: auto insurance, home insurance, liability, and cargo insurance market data",
+          "Health insurance: commercial health insurance enrollment, benefit payments, and chronic disease coverage",
+          "Agricultural insurance: crop insurance coverage area, livestock insured, and agricultural indemnity paid",
+          "Market structure: number of licensed insurers, market share by company, foreign insurer penetration",
+          "Internet insurance: online insurance sales volumes and product categories",
+          "Annual insurance industry report: comprehensive yearly review of China's insurance market performance"
+        ],
+        "zh": [
+          "保费收入：按险种（寿险、财险、健康险、意外险）分类的月度及年度保费总额",
+          "保险密度与深度：保费占GDP比例及人均保费数据",
+          "理赔与赔付：各险种赔付总额、重大灾害损失统计",
+          "寿险数据：新单销售、有效保单准备金、年金和养老保险统计",
+          "财产险：车险、家财险、责任险和货运险市场数据",
+          "健康险：商业健康保险参保人数、给付金额及慢性病保障情况",
+          "农业保险：农作物承保面积、牲畜承保数量及农业赔偿支出",
+          "市场结构：持牌保险公司数量、各公司市场份额、外资保险公司渗透率",
+          "互联网保险：网络保险销售规模和产品类别",
+          "保险行业年度报告：中国保险市场全年运行综合综述"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-iac.json"
     },
     {
       "id": "china-mof",
@@ -6522,6 +6751,77 @@
       "file_path": "china/governance/china-moj.json"
     },
     {
+      "id": "china-nia",
+      "name": {
+        "en": "National Immigration Administration of China",
+        "zh": "国家移民管理局"
+      },
+      "description": {
+        "en": "The National Immigration Administration (NIA) of China is the central government authority responsible for immigration management, border control, and exit-entry administration. Established in 2018 as a reform of the former Exit-Entry Administration Bureau, the NIA publishes official statistics on border crossings, passport and visa issuance, foreign nationals entering and exiting China, overseas Chinese affairs, and emigration trends. The NIA manages China's frontier inspection system and oversees the growing outbound tourism and overseas study flows. Its data is essential for analyzing China's international mobility, immigration policy, and border security statistics.",
+        "zh": "国家移民管理局是中国负责移民管理、边境管控和出入境行政的中央政府机构，2018年在原出入境管理局基础上改革设立。国家移民管理局发布边境通关、护照和签证签发量、外国人入出境、华侨华人事务及移民趋势等官方统计数据，管理中国边检系统并监管不断增长的出境旅游和出国留学流量。其数据是分析中国国际人口流动、移民政策和边境安全的重要参考。"
+      },
+      "website": "https://www.nia.gov.cn/",
+      "data_url": "https://www.nia.gov.cn/n741440/n741547/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "social",
+        "statistics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "移民管理",
+        "immigration",
+        "出入境",
+        "exit-entry",
+        "边境管控",
+        "border control",
+        "护照签证",
+        "passport visa",
+        "外籍人员",
+        "foreign nationals",
+        "出境旅游",
+        "outbound tourism",
+        "华侨华人",
+        "overseas Chinese",
+        "国际移动",
+        "international mobility",
+        "边检",
+        "frontier inspection",
+        "出国留学",
+        "overseas study"
+      ],
+      "data_content": {
+        "en": [
+          "Border crossing statistics: total entry and exit volumes at land, air, and sea ports across China",
+          "Passport issuance: numbers of ordinary passports, official passports, and diplomatic passports issued annually",
+          "Visa and permit data: foreign visas approved, residence permits for foreigners, work permit statistics",
+          "Foreign nationals in China: registered foreign residents by nationality, purpose of stay, and region",
+          "Emigration trends: number of Chinese nationals emigrating abroad, emigration destinations, and returning overseas Chinese",
+          "Outbound tourism: Chinese outbound traveler counts by destination country and travel purpose",
+          "Illegal immigration and enforcement: border enforcement actions, overstay violations, deportation cases",
+          "Exit-entry administration reform: implementation statistics on China's new exit-entry management system",
+          "Overseas Chinese affairs: registered overseas Chinese population and related welfare statistics"
+        ],
+        "zh": [
+          "边境通关统计：全国各陆路、空港、水运口岸入出境人次总量",
+          "护照签发：普通护照、公务护照、外交护照年度签发量",
+          "签证和居留许可数据：外国人签证审批量、外国人居留许可、工作许可统计",
+          "在华外籍人员：按国籍、居留目的和地区划分的外国常住人口统计",
+          "移民趋势：出国定居中国公民数量、移居目的地、归国华侨华人统计",
+          "出境旅游：按目的地国家和旅行目的分类的中国公民出境旅游人次",
+          "非法移民与执法：边境执法行动、逾期逗留违法、遣返案例",
+          "出入境管理改革：中国新出入境管理制度实施统计数据",
+          "华侨华人事务：境外注册华侨华人人口及相关福利保障统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-nia.json"
+    },
+    {
       "id": "china-saac",
       "name": {
         "en": "National Archives Administration of China",
@@ -6789,6 +7089,80 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/health/china-nhc.json"
+    },
+    {
+      "id": "china-nhsa",
+      "name": {
+        "en": "National Healthcare Security Administration of China",
+        "zh": "国家医疗保障局"
+      },
+      "description": {
+        "en": "The National Healthcare Security Administration (NHSA) is China's central government body responsible for managing the national medical insurance system, including basic medical insurance, maternity insurance, and medical assistance programs. Established in 2018, the NHSA consolidated functions previously spread across multiple departments to create a unified medical security management system. NHSA publishes authoritative statistics on health insurance fund revenues and expenditures, enrollment numbers for urban and rural residents, reimbursement rates, drug pricing through the national negotiation mechanism, and DRG payment reform progress. Its data covers over 1.3 billion insured persons, making it one of the world's largest healthcare financing datasets.",
+        "zh": "国家医疗保障局是负责管理全国医疗保障体系的中央政府机构，涵盖基本医疗保险、生育保险及医疗救助项目。2018年成立，整合了原分散于多个部门的医疗保障职能，建立统一的医疗保障管理体制。国家医疗保障局发布医保基金收支、城乡居民参保人数、报销比例、国家医保谈判药品价格及DRG支付改革进展等权威统计数据。其数据覆盖超过13亿参保人员，是全球最大的医疗筹资数据集之一。"
+      },
+      "website": "https://www.nhsa.gov.cn/",
+      "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "finance",
+        "social",
+        "statistics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "医疗保障",
+        "healthcare security",
+        "医疗保险",
+        "medical insurance",
+        "医保基金",
+        "medical insurance fund",
+        "参保人数",
+        "enrollment statistics",
+        "医保报销",
+        "medical reimbursement",
+        "药品价格谈判",
+        "drug price negotiation",
+        "DRG支付",
+        "DRG payment",
+        "生育保险",
+        "maternity insurance",
+        "医疗救助",
+        "medical assistance",
+        "全民医保",
+        "universal health coverage"
+      ],
+      "data_content": {
+        "en": [
+          "Insurance fund financials: annual revenue and expenditure of basic medical insurance fund, balance and reserve data",
+          "Enrollment statistics: number of insured persons by scheme (employee basic medical insurance, urban-rural resident insurance) and by province",
+          "Reimbursement data: average reimbursement rates for inpatient and outpatient services by insurance type and region",
+          "Drug pricing: negotiated drug prices from national medical insurance negotiations, coverage lists and pricing updates",
+          "DRG payment reform: diagnostic-related groups implementation statistics, hospital payment reform progress",
+          "Pharmaceutical benefits management: national medical insurance drug list (NRDL) coverage and utilization",
+          "Medical assistance: government-funded medical assistance recipients, spending, and poverty health protection data",
+          "Maternity insurance: maternity insurance fund revenue, benefit payments, and number of claimants",
+          "Healthcare cost trends: per capita medical expenditure, hospitalization rates, and cost growth indicators",
+          "Annual national healthcare security statistical bulletin: comprehensive insurance system performance review"
+        ],
+        "zh": [
+          "医保基金财务：基本医疗保险基金年度收入、支出、结余及累计结存数据",
+          "参保统计：按险种（职工基本医疗保险、城乡居民医疗保险）和省份分类的参保人数",
+          "报销数据：按险种和地区分类的住院和门诊平均报销比例",
+          "药品价格：国家医保谈判药品价格、医保目录收录情况及价格调整",
+          "DRG支付改革：按疾病诊断相关分组实施统计、医院支付改革进展",
+          "药品保障管理：国家医保药品目录（NRDL）覆盖品种及使用情况",
+          "医疗救助：政府医疗救助受益人数、资金支出及贫困人口健康保障数据",
+          "生育保险：生育保险基金收入、待遇支出及享受待遇人数",
+          "医疗费用趋势：人均医疗费用、住院率及费用增长指标",
+          "全国医疗保障事业统计公报：保险体系运行年度综合述评"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-nhsa.json"
     },
     {
       "id": "china-nmpa",
