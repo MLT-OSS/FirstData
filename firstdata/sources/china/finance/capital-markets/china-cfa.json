@@ -1,0 +1,73 @@
+{
+  "id": "china-cfa",
+  "name": {
+    "en": "China Futures Association",
+    "zh": "中国期货业协会"
+  },
+  "description": {
+    "en": "The China Futures Association (CFA) is the national self-regulatory organization for China's futures and derivatives market, operating under the guidance of the China Securities Regulatory Commission (CSRC). CFA publishes authoritative statistics on futures market trading volumes, open interest, number of accounts, client funds, and brokerage firm financials. China operates some of the world's most liquid commodity futures markets, including iron ore, rebar steel, crude oil, soybeans, copper, and coal futures. CFA data covers all domestic futures exchanges (SHFE, DCE, CZCE, CFFEX, INE) and is the primary reference for understanding China's commodity price discovery and derivatives hedging activity.",
+    "zh": "中国期货业协会（期货协会）是中国期货和衍生品市场的全国性自律组织，在中国证券监督管理委员会指导下运作。协会发布期货市场成交量、持仓量、开户数量、客户权益及期货公司财务数据等权威统计。中国拥有全球流动性最强的大宗商品期货市场，涵盖铁矿石、螺纹钢、原油、大豆、铜、煤炭等品种。期货协会数据覆盖全国各期货交易所（上期所、大商所、郑商所、中金所、能源中心），是了解中国大宗商品价格发现和衍生品套期保值活动的主要参考依据。"
+  },
+  "website": "https://www.cfachina.org/",
+  "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "期货市场",
+    "futures market",
+    "大宗商品",
+    "commodities",
+    "期货成交量",
+    "futures trading volume",
+    "持仓量",
+    "open interest",
+    "螺纹钢期货",
+    "rebar futures",
+    "铁矿石期货",
+    "iron ore futures",
+    "原油期货",
+    "crude oil futures",
+    "大豆期货",
+    "soybean futures",
+    "铜期货",
+    "copper futures",
+    "衍生品",
+    "derivatives",
+    "套期保值",
+    "hedging",
+    "期货公司",
+    "futures brokerage"
+  ],
+  "data_content": {
+    "en": [
+      "Trading volume and turnover: monthly futures contracts traded across all domestic exchanges (SHFE, DCE, CZCE, CFFEX, INE) by commodity",
+      "Open interest: position data by commodity category including agricultural, metals, energy, and financial futures",
+      "Account statistics: number of futures trading accounts, institutional vs retail investor composition",
+      "Client funds: total funds deposited in futures margin accounts, indicating market participation scale",
+      "Futures brokerage financials: net capital, revenue, and profit data for licensed futures companies",
+      "Commodity price indices: futures price indices for agricultural products, metals, and energy",
+      "Options market data: options trading volumes, open interest, and volatility data for listed options",
+      "Cross-border trading: qualified foreign investor participation statistics in China's futures markets",
+      "Annual futures market report: comprehensive review of China's futures and derivatives market development"
+    ],
+    "zh": [
+      "成交量与成交额：全国各期货交易所（上期所、大商所、郑商所、中金所、能源中心）按品种分类的月度期货合约成交情况",
+      "持仓量：农产品、金属、能源及金融期货各品种持仓数据",
+      "开户统计：期货交易账户数量、机构与散户投资者构成",
+      "客户权益：期货保证金账户总资金量，反映市场参与规模",
+      "期货公司财务数据：持牌期货公司净资本、营业收入和利润",
+      "大宗商品价格指数：农产品、金属、能源期货价格指数",
+      "期权市场数据：各上市期权品种成交量、持仓及波动率数据",
+      "境外交易：合格境外投资者参与中国期货市场统计",
+      "期货市场年度报告：中国期货和衍生品市场发展全面综述"
+    ]
+  }
+}

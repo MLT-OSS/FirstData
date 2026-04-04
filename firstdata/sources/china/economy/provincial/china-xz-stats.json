@@ -1,0 +1,77 @@
+{
+  "id": "china-xz-stats",
+  "name": {
+    "en": "Xizang (Tibet) Bureau of Statistics",
+    "zh": "西藏自治区统计局"
+  },
+  "description": {
+    "en": "The Xizang (Tibet) Bureau of Statistics is the official statistical authority for the Xizang Autonomous Region, China's highest-altitude province-level administrative division. It publishes comprehensive socioeconomic data covering GDP, population, agriculture, animal husbandry, tourism, fixed asset investment, and social development indicators for the plateau region. The bureau releases the Xizang Statistical Yearbook, monthly economic briefings, and regular reports on key industries including traditional Tibetan medicine, yak farming, barley cultivation, and the growing tourism sector. Xizang's unique geography and demographic profile make its statistics essential for research on high-altitude economies, rural poverty alleviation, and ecological conservation on the Tibetan Plateau.",
+    "zh": "西藏自治区统计局是西藏自治区的官方统计机构，西藏是中国海拔最高的省级行政区划。统计局发布涵盖西藏GDP、人口、农牧业、旅游、固定资产投资及社会发展指标的全面社会经济数据。定期出版《西藏统计年鉴》、月度经济运行简报及藏医药、牦牛养殖、青稞种植、旅游业等重点产业专项报告。西藏独特的地理和人口特征使其统计数据成为研究高原经济、农村脱贫攻坚和青藏高原生态保护的重要参考依据。"
+  },
+  "website": "https://tjj.xizang.gov.cn/",
+  "data_url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "agriculture",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "西藏统计",
+    "Tibet statistics",
+    "Xizang statistics",
+    "西藏GDP",
+    "Tibet GDP",
+    "省级统计",
+    "provincial statistics",
+    "青藏高原",
+    "Tibetan Plateau",
+    "牦牛",
+    "yak farming",
+    "青稞",
+    "highland barley",
+    "藏医药",
+    "traditional Tibetan medicine",
+    "西藏旅游",
+    "Tibet tourism",
+    "高原经济",
+    "plateau economy",
+    "统计年鉴",
+    "statistical yearbook",
+    "脱贫攻坚",
+    "poverty alleviation",
+    "人口统计",
+    "population statistics"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: annual and quarterly GDP data for Xizang by sector, including primary, secondary, and tertiary industries",
+      "Agriculture and animal husbandry: highland barley (qingke) output, yak and sheep numbers, dairy production, and crop acreage statistics",
+      "Population and social indicators: census data, household registration, ethnic composition, birth rates, life expectancy",
+      "Fixed asset investment: infrastructure investment, transportation (Qinghai-Tibet Railway impacts), urban construction",
+      "Tourism statistics: domestic and international visitor arrivals, tourism revenue, hotel occupancy rates",
+      "Employment and wages: employed persons, wage levels, rural income, poverty alleviation progress",
+      "Energy statistics: electricity generation and consumption, solar and clean energy development on the plateau",
+      "Consumer prices: CPI and PPI for Xizang Autonomous Region and Lhasa city",
+      "Foreign trade: export and import volumes, cross-border trade with neighboring countries",
+      "Xizang Statistical Yearbook: comprehensive annual compilation of all regional statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：西藏自治区分季度和年度GDP数据，按第一、二、三产业分类",
+      "农牧业生产：青稞产量、牦牛和羊存栏数、乳制品产量及农作物播种面积统计",
+      "人口与社会指标：人口普查数据、户籍人口、民族构成、出生率、人均寿命",
+      "固定资产投资：基础设施投资、交通建设（青藏铁路影响）、城市建设数据",
+      "旅游统计：国内外游客到访人次、旅游收入、酒店住宿率",
+      "就业与工资：从业人员、工资水平、农村居民收入、脱贫攻坚进展",
+      "能源统计：发电量和用电量、高原太阳能及清洁能源发展情况",
+      "消费价格：西藏自治区及拉萨市居民消费价格指数、工业品出厂价格",
+      "对外贸易：进出口总额、与周边国家边境贸易量",
+      "西藏统计年鉴：全区各类统计数据的综合年度汇编"
+    ]
+  }
+}

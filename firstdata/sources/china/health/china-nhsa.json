@@ -1,0 +1,72 @@
+{
+  "id": "china-nhsa",
+  "name": {
+    "en": "National Healthcare Security Administration of China",
+    "zh": "国家医疗保障局"
+  },
+  "description": {
+    "en": "The National Healthcare Security Administration (NHSA) is China's central government body responsible for managing the national medical insurance system, including basic medical insurance, maternity insurance, and medical assistance programs. Established in 2018, the NHSA consolidated functions previously spread across multiple departments to create a unified medical security management system. NHSA publishes authoritative statistics on health insurance fund revenues and expenditures, enrollment numbers for urban and rural residents, reimbursement rates, drug pricing through the national negotiation mechanism, and DRG payment reform progress. Its data covers over 1.3 billion insured persons, making it one of the world's largest healthcare financing datasets.",
+    "zh": "国家医疗保障局是负责管理全国医疗保障体系的中央政府机构，涵盖基本医疗保险、生育保险及医疗救助项目。2018年成立，整合了原分散于多个部门的医疗保障职能，建立统一的医疗保障管理体制。国家医疗保障局发布医保基金收支、城乡居民参保人数、报销比例、国家医保谈判药品价格及DRG支付改革进展等权威统计数据。其数据覆盖超过13亿参保人员，是全球最大的医疗筹资数据集之一。"
+  },
+  "website": "https://www.nhsa.gov.cn/",
+  "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "finance",
+    "social",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "医疗保障",
+    "healthcare security",
+    "医疗保险",
+    "medical insurance",
+    "医保基金",
+    "medical insurance fund",
+    "参保人数",
+    "enrollment statistics",
+    "医保报销",
+    "medical reimbursement",
+    "药品价格谈判",
+    "drug price negotiation",
+    "DRG支付",
+    "DRG payment",
+    "生育保险",
+    "maternity insurance",
+    "医疗救助",
+    "medical assistance",
+    "全民医保",
+    "universal health coverage"
+  ],
+  "data_content": {
+    "en": [
+      "Insurance fund financials: annual revenue and expenditure of basic medical insurance fund, balance and reserve data",
+      "Enrollment statistics: number of insured persons by scheme (employee basic medical insurance, urban-rural resident insurance) and by province",
+      "Reimbursement data: average reimbursement rates for inpatient and outpatient services by insurance type and region",
+      "Drug pricing: negotiated drug prices from national medical insurance negotiations, coverage lists and pricing updates",
+      "DRG payment reform: diagnostic-related groups implementation statistics, hospital payment reform progress",
+      "Pharmaceutical benefits management: national medical insurance drug list (NRDL) coverage and utilization",
+      "Medical assistance: government-funded medical assistance recipients, spending, and poverty health protection data",
+      "Maternity insurance: maternity insurance fund revenue, benefit payments, and number of claimants",
+      "Healthcare cost trends: per capita medical expenditure, hospitalization rates, and cost growth indicators",
+      "Annual national healthcare security statistical bulletin: comprehensive insurance system performance review"
+    ],
+    "zh": [
+      "医保基金财务：基本医疗保险基金年度收入、支出、结余及累计结存数据",
+      "参保统计：按险种（职工基本医疗保险、城乡居民医疗保险）和省份分类的参保人数",
+      "报销数据：按险种和地区分类的住院和门诊平均报销比例",
+      "药品价格：国家医保谈判药品价格、医保目录收录情况及价格调整",
+      "DRG支付改革：按疾病诊断相关分组实施统计、医院支付改革进展",
+      "药品保障管理：国家医保药品目录（NRDL）覆盖品种及使用情况",
+      "医疗救助：政府医疗救助受益人数、资金支出及贫困人口健康保障数据",
+      "生育保险：生育保险基金收入、待遇支出及享受待遇人数",
+      "医疗费用趋势：人均医疗费用、住院率及费用增长指标",
+      "全国医疗保障事业统计公报：保险体系运行年度综合述评"
+    ]
+  }
+}

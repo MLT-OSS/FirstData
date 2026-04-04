@@ -1,0 +1,73 @@
+{
+  "id": "china-iac",
+  "name": {
+    "en": "Insurance Association of China",
+    "zh": "中国保险业协会"
+  },
+  "description": {
+    "en": "The Insurance Association of China (IAC) is the national self-regulatory organization for China's insurance industry, representing insurance companies operating in China under the guidance of the National Financial Regulatory Administration (NFRA). IAC publishes authoritative insurance market statistics including total premium income, claims paid, insurance density, insurance penetration rate, and sector breakdowns for life, property, health, and agricultural insurance. It also releases research reports on industry trends, insurance products innovation, and market development data. IAC data is the primary source for understanding China's rapidly expanding insurance market, one of the largest in the world.",
+    "zh": "中国保险业协会（保险协会）是全国保险行业自律组织，在国家金融监督管理总局指导下代表在华保险公司。协会发布包括保费收入总量、赔付支出、保险密度、保险深度及寿险、财险、健康险、农业保险等分行业统计数据等权威保险市场统计。同时发布行业发展趋势研究报告、保险产品创新及市场发展数据。保险协会数据是了解中国这一全球最大保险市场之一快速扩张态势的主要来源。"
+  },
+  "website": "https://www.iachina.cn/",
+  "data_url": "https://www.iachina.cn/col/col4479/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "保险统计",
+    "insurance statistics",
+    "保费收入",
+    "premium income",
+    "保险密度",
+    "insurance density",
+    "保险深度",
+    "insurance penetration",
+    "寿险",
+    "life insurance",
+    "财险",
+    "property insurance",
+    "健康险",
+    "health insurance",
+    "农业保险",
+    "agricultural insurance",
+    "再保险",
+    "reinsurance",
+    "保险行业",
+    "insurance industry",
+    "理赔",
+    "insurance claims"
+  ],
+  "data_content": {
+    "en": [
+      "Premium income: monthly and annual total premium income by insurance type (life, property, health, accident)",
+      "Insurance penetration and density: insurance premiums as percentage of GDP and per capita premium data",
+      "Claims and compensation: total claims paid by sector, major catastrophe loss statistics",
+      "Life insurance data: new policy sales, policy in-force reserves, annuity and pension insurance statistics",
+      "Property and casualty: auto insurance, home insurance, liability, and cargo insurance market data",
+      "Health insurance: commercial health insurance enrollment, benefit payments, and chronic disease coverage",
+      "Agricultural insurance: crop insurance coverage area, livestock insured, and agricultural indemnity paid",
+      "Market structure: number of licensed insurers, market share by company, foreign insurer penetration",
+      "Internet insurance: online insurance sales volumes and product categories",
+      "Annual insurance industry report: comprehensive yearly review of China's insurance market performance"
+    ],
+    "zh": [
+      "保费收入：按险种（寿险、财险、健康险、意外险）分类的月度及年度保费总额",
+      "保险密度与深度：保费占GDP比例及人均保费数据",
+      "理赔与赔付：各险种赔付总额、重大灾害损失统计",
+      "寿险数据：新单销售、有效保单准备金、年金和养老保险统计",
+      "财产险：车险、家财险、责任险和货运险市场数据",
+      "健康险：商业健康保险参保人数、给付金额及慢性病保障情况",
+      "农业保险：农作物承保面积、牲畜承保数量及农业赔偿支出",
+      "市场结构：持牌保险公司数量、各公司市场份额、外资保险公司渗透率",
+      "互联网保险：网络保险销售规模和产品类别",
+      "保险行业年度报告：中国保险市场全年运行综合综述"
+    ]
+  }
+}

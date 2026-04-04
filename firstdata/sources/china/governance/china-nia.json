@@ -1,0 +1,69 @@
+{
+  "id": "china-nia",
+  "name": {
+    "en": "National Immigration Administration of China",
+    "zh": "国家移民管理局"
+  },
+  "description": {
+    "en": "The National Immigration Administration (NIA) of China is the central government authority responsible for immigration management, border control, and exit-entry administration. Established in 2018 as a reform of the former Exit-Entry Administration Bureau, the NIA publishes official statistics on border crossings, passport and visa issuance, foreign nationals entering and exiting China, overseas Chinese affairs, and emigration trends. The NIA manages China's frontier inspection system and oversees the growing outbound tourism and overseas study flows. Its data is essential for analyzing China's international mobility, immigration policy, and border security statistics.",
+    "zh": "国家移民管理局是中国负责移民管理、边境管控和出入境行政的中央政府机构，2018年在原出入境管理局基础上改革设立。国家移民管理局发布边境通关、护照和签证签发量、外国人入出境、华侨华人事务及移民趋势等官方统计数据，管理中国边检系统并监管不断增长的出境旅游和出国留学流量。其数据是分析中国国际人口流动、移民政策和边境安全的重要参考。"
+  },
+  "website": "https://www.nia.gov.cn/",
+  "data_url": "https://www.nia.gov.cn/n741440/n741547/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "social",
+    "statistics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "移民管理",
+    "immigration",
+    "出入境",
+    "exit-entry",
+    "边境管控",
+    "border control",
+    "护照签证",
+    "passport visa",
+    "外籍人员",
+    "foreign nationals",
+    "出境旅游",
+    "outbound tourism",
+    "华侨华人",
+    "overseas Chinese",
+    "国际移动",
+    "international mobility",
+    "边检",
+    "frontier inspection",
+    "出国留学",
+    "overseas study"
+  ],
+  "data_content": {
+    "en": [
+      "Border crossing statistics: total entry and exit volumes at land, air, and sea ports across China",
+      "Passport issuance: numbers of ordinary passports, official passports, and diplomatic passports issued annually",
+      "Visa and permit data: foreign visas approved, residence permits for foreigners, work permit statistics",
+      "Foreign nationals in China: registered foreign residents by nationality, purpose of stay, and region",
+      "Emigration trends: number of Chinese nationals emigrating abroad, emigration destinations, and returning overseas Chinese",
+      "Outbound tourism: Chinese outbound traveler counts by destination country and travel purpose",
+      "Illegal immigration and enforcement: border enforcement actions, overstay violations, deportation cases",
+      "Exit-entry administration reform: implementation statistics on China's new exit-entry management system",
+      "Overseas Chinese affairs: registered overseas Chinese population and related welfare statistics"
+    ],
+    "zh": [
+      "边境通关统计：全国各陆路、空港、水运口岸入出境人次总量",
+      "护照签发：普通护照、公务护照、外交护照年度签发量",
+      "签证和居留许可数据：外国人签证审批量、外国人居留许可、工作许可统计",
+      "在华外籍人员：按国籍、居留目的和地区划分的外国常住人口统计",
+      "移民趋势：出国定居中国公民数量、移居目的地、归国华侨华人统计",
+      "出境旅游：按目的地国家和旅行目的分类的中国公民出境旅游人次",
+      "非法移民与执法：边境执法行动、逾期逗留违法、遣返案例",
+      "出入境管理改革：中国新出入境管理制度实施统计数据",
+      "华侨华人事务：境外注册华侨华人人口及相关福利保障统计"
+    ]
+  }
+}
