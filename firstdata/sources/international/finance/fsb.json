@@ -1,0 +1,76 @@
+{
+  "id": "fsb",
+  "name": {
+    "en": "FSB - Financial Stability Board",
+    "zh": "金融稳定理事会"
+  },
+  "description": {
+    "en": "The Financial Stability Board (FSB) is an international body established in 2009 by G20 leaders that monitors and makes recommendations about the global financial system. Hosted by the Bank for International Settlements in Basel, the FSB coordinates financial regulation across national boundaries, identifies vulnerabilities in the global financial system, and develops policies to address systemic risks. It publishes comprehensive data on global financial stability, shadow banking, OTC derivatives, cross-border payments, and climate-related financial risks.",
+    "zh": "金融稳定理事会(FSB)是2009年由G20领导人设立的国际机构,负责监测全球金融体系并提出建议。FSB由国际清算银行在巴塞尔托管,协调跨国金融监管,识别全球金融系统脆弱性,制定应对系统性风险的政策。FSB发布关于全球金融稳定、影子银行、场外衍生品、跨境支付和气候相关金融风险的综合数据。"
+  },
+  "website": "https://www.fsb.org/",
+  "data_url": "https://www.fsb.org/data/",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "financial-stability",
+    "finance",
+    "regulatory-standards"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "financial-stability",
+    "金融稳定",
+    "G20",
+    "systemic-risk",
+    "系统性风险",
+    "shadow-banking",
+    "影子银行",
+    "non-bank-financial-intermediation",
+    "非银行金融中介",
+    "NBFI",
+    "OTC-derivatives",
+    "场外衍生品",
+    "cross-border-payments",
+    "跨境支付",
+    "climate-risk",
+    "气候风险",
+    "global-systemically-important-banks",
+    "全球系统重要性银行",
+    "G-SIBs",
+    "crypto-assets",
+    "加密资产",
+    "resolution",
+    "处置",
+    "macroprudential",
+    "宏观审慎"
+  ],
+  "data_content": {
+    "en": [
+      "Global Monitoring Report on Non-Bank Financial Intermediation (NBFI) - annual data on shadow banking sector size, composition and trends across jurisdictions",
+      "OTC Derivatives Statistics - semi-annual data on outstanding notional amounts and market values of OTC derivatives globally",
+      "Cross-border Payments Monitoring - data on cost, speed, access and transparency of cross-border payment systems",
+      "Global Systemically Important Banks (G-SIBs) list and assessment methodology data",
+      "Climate-related Financial Risk data - reports on climate vulnerability assessments and transition planning",
+      "Implementation monitoring reports - progress of G20 financial regulatory reforms across member jurisdictions",
+      "Crypto-asset and stablecoin monitoring data - market developments and regulatory responses",
+      "Resolution planning and total loss-absorbing capacity (TLAC) data for systemically important financial institutions",
+      "Correspondent banking data - trends in correspondent banking relationships globally",
+      "Financial stability vulnerability assessments and early warning indicators"
+    ],
+    "zh": [
+      "全球非银行金融中介(NBFI)监测报告 - 各司法管辖区影子银行部门规模、构成和趋势的年度数据",
+      "场外衍生品统计 - 全球场外衍生品未平仓名义金额和市场价值的半年度数据",
+      "跨境支付监测 - 跨境支付系统的成本、速度、可及性和透明度数据",
+      "全球系统重要性银行(G-SIBs)名单和评估方法论数据",
+      "气候相关金融风险数据 - 气候脆弱性评估和转型计划报告",
+      "实施监测报告 - G20金融监管改革在各成员辖区的推进情况",
+      "加密资产和稳定币监测数据 - 市场动态和监管应对",
+      "系统重要性金融机构的处置规划和总损失吸收能力(TLAC)数据",
+      "代理行数据 - 全球代理行关系趋势",
+      "金融稳定脆弱性评估和预警指标"
+    ]
+  }
+}
