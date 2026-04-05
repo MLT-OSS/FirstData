@@ -1,0 +1,78 @@
+{
+  "id": "china-nfsra",
+  "name": {
+    "en": "National Food and Strategic Reserves Administration of China",
+    "zh": "国家粮食和物资储备局"
+  },
+  "description": {
+    "en": "The National Food and Strategic Reserves Administration (NFSRA) is the central government body responsible for overseeing China's national food security, grain storage, and strategic material reserves. Established under the National Development and Reform Commission in 2018 through institutional reform, NFSRA manages the world's largest grain reserves, oversees grain quality and food safety supervision, regulates the grain market, and manages emergency material reserves for disaster response. NFSRA publishes data on national grain production procurement, storage capacity and warehouse inventory levels, grain market price monitoring, food quality inspection results, and strategic reserve stock rotation. Its data is critical for understanding China's food security strategy, domestic grain market dynamics, and national emergency preparedness.",
+    "zh": "国家粮食和物资储备局是负责全国粮食安全、粮食储存和物资储备的中央政府机构，2018年通过机构改革在国家发展和改革委员会框架下组建。国家粮食和物资储备局管理着全球最大规模的粮食储备，监管粮食质量和食品安全，调控粮食市场，并管理用于灾害应急的国家物资储备。局方发布粮食收购情况、仓储能力和库存水平、粮食市场价格监测、粮食质量检测结果及战略储备轮换数据，是了解中国粮食安全战略、国内粮食市场动态和应急保障体系的重要数据来源。"
+  },
+  "website": "https://lswz.gov.cn/",
+  "data_url": "https://lswz.gov.cn/html/xwzx/sjfb/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "agriculture",
+    "governance",
+    "statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "国家粮食和物资储备局",
+    "NFSRA",
+    "粮食储备",
+    "grain reserves",
+    "粮食安全",
+    "food security",
+    "粮食收购",
+    "grain procurement",
+    "库存水平",
+    "inventory levels",
+    "粮食价格",
+    "grain prices",
+    "物资储备",
+    "strategic material reserves",
+    "粮食质量",
+    "grain quality",
+    "国家战略储备",
+    "national strategic reserves",
+    "粮食市场",
+    "grain market",
+    "仓储能力",
+    "storage capacity",
+    "应急储备",
+    "emergency reserves",
+    "粮食流通",
+    "grain circulation"
+  ],
+  "data_content": {
+    "en": [
+      "Grain procurement statistics: annual and seasonal data on government grain purchases by variety (rice, wheat, corn, soybeans) across provinces",
+      "National grain reserve inventory: warehouse inventory levels for state grain reserves, including reserve turnover and rotation records",
+      "Storage capacity data: total and available grain warehouse capacity by region, including data on modern storage facility construction progress",
+      "Grain market price monitoring: weekly and monthly price indices for major grain varieties at key wholesale markets and production areas",
+      "Grain quality inspection: annual national grain quality survey results, covering protein content, moisture, impurity rates, and safety indicators",
+      "Strategic material reserves: stock levels and rotation plans for emergency material reserves including pharmaceuticals, energy materials, and industrial supplies",
+      "Grain and oil processing: statistical data on grain and oil processing enterprises, output volumes, and capacity utilization",
+      "Loss reduction and storage technology: data on grain loss rates, storage technology adoption, and post-harvest loss prevention programs",
+      "Emergency reserve deployment: records of strategic reserve releases and deployments during price spikes or disaster events",
+      "Grain security assessment: annual reports on China's food security status, self-sufficiency rates, and import dependency indicators"
+    ],
+    "zh": [
+      "粮食收购统计：分省分品种（水稻、小麦、玉米、大豆）年度和季节性政策性粮食收购数据",
+      "国家粮食储备库存：国家粮食储备仓库库存水平，包括储备周转和轮换记录",
+      "仓储能力数据：分地区粮食仓库总容量和可用容量，包括现代化仓储设施建设进展",
+      "粮食市场价格监测：主要粮食品种在主要批发市场和产地的周报和月报价格指数",
+      "粮食质量检测：全国粮食质量调查年度结果，涵盖蛋白质含量、水分、杂质率及安全指标",
+      "物资储备：应急物资储备（含药品、能源材料、工业用品）库存水平和轮换计划",
+      "粮油加工：粮油加工企业统计数据、产量及产能利用率",
+      "节粮减损与仓储技术：粮食损耗率、仓储技术推广及产后损耗防控项目数据",
+      "应急储备动用：价格异常波动或灾害事件期间战略储备动用和投放记录",
+      "粮食安全评估：中国粮食安全状况、自给率及进口依赖度指标年度报告"
+    ]
+  }
+}

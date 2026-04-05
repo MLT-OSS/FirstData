@@ -1,0 +1,76 @@
+{
+  "id": "china-sasac",
+  "name": {
+    "en": "State-owned Assets Supervision and Administration Commission of the State Council",
+    "zh": "国务院国有资产监督管理委员会"
+  },
+  "description": {
+    "en": "The State-owned Assets Supervision and Administration Commission (SASAC) is the central government body responsible for managing and supervising China's central state-owned enterprises (central SOEs). Established in 2003, SASAC oversees approximately 98 central SOEs across strategic sectors including energy, telecommunications, transportation, aviation, aerospace, finance, and heavy industry. SASAC publishes quarterly and annual operational performance reports for central SOEs, covering total assets, revenue, profit, tax contributions, employee numbers, and investment in fixed assets. These publications are the authoritative source for understanding the scale and performance of China's state-owned economy, which accounts for a major share of national economic output. SASAC also releases data on SOE reform progress, mixed-ownership reform pilots, and state capital allocation statistics.",
+    "zh": "国务院国有资产监督管理委员会（国资委）是负责管理和监督中央国有企业的国家政府机构，于2003年正式组建。国资委监管约98家中央企业，涵盖能源、电信、交通、航空、航天、金融、重工业等战略性领域。国资委定期发布中央企业运营绩效季报和年报，内容包括资产总量、营业收入、利润总额、税收贡献、用工人数及固定资产投资等数据，是了解中国国有经济规模和绩效的权威数据来源。国有经济在全国经济总量中占有重要比重。国资委还发布国企改革进展、混合所有制改革试点情况及国有资本布局优化统计数据。"
+  },
+  "website": "https://www.sasac.gov.cn/",
+  "data_url": "https://www.sasac.gov.cn/n2588030/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "governance",
+    "statistics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "国资委",
+    "SASAC",
+    "央企",
+    "central SOEs",
+    "国有企业",
+    "state-owned enterprises",
+    "央企运营数据",
+    "central enterprise performance",
+    "国有资产",
+    "state-owned assets",
+    "企业利润",
+    "enterprise profit",
+    "混合所有制",
+    "mixed-ownership reform",
+    "国企改革",
+    "SOE reform",
+    "国有资本",
+    "state capital",
+    "央企收入",
+    "central enterprise revenue",
+    "资产总量",
+    "total assets",
+    "经济统计",
+    "economic statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Central SOE operational performance: quarterly and annual total assets, operating revenue, total profit, and tax contributions of central enterprises as a group",
+      "Enterprise-level data: individual performance indicators for major central SOEs including SINOPEC, CNPC, SGCC, and other key groups",
+      "Employment statistics: total workforce of central SOEs, new recruitment, and labor productivity metrics",
+      "Fixed asset investment: annual capital expenditure and investment data across central SOE sectors",
+      "Mixed-ownership reform: progress reports on pilot programs introducing private capital into state-owned enterprises",
+      "State capital allocation: data on strategic restructuring of central SOE portfolios, mergers, and asset disposals",
+      "SOE reform progress: annual reports on reform implementation under the State-owned Enterprise Reform Deepening Action Plan",
+      "Industry breakdown: performance data disaggregated by sector including energy, telecommunications, manufacturing, and services",
+      "Financial indicators: return on equity, asset-liability ratios, and other financial health metrics for central SOEs",
+      "Innovation investment: R&D expenditure and technology investment statistics for central SOEs"
+    ],
+    "zh": [
+      "央企运营绩效：中央企业整体季度和年度资产总量、营业收入、利润总额及税收贡献",
+      "企业个体数据：中石化、中石油、国家电网等主要央企的单项绩效指标",
+      "用工统计：央企职工总数、新增招录及劳动生产率指标",
+      "固定资产投资：央企各领域年度资本支出和投资数据",
+      "混合所有制改革：引入民间资本的国企改革试点进展报告",
+      "国有资本布局：中央企业战略性重组、合并及资产处置相关数据",
+      "国企改革进展：国有企业改革深化提升行动年度报告",
+      "行业分类数据：能源、电信、制造业、服务业等各领域绩效分类统计",
+      "财务指标：央企净资产收益率、资产负债率及其他财务健康指标",
+      "创新投入：央企研发投入和科技投资统计数据"
+    ]
+  }
+}

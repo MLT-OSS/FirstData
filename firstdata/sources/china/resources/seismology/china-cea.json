@@ -1,0 +1,79 @@
+{
+  "id": "china-cea",
+  "name": {
+    "en": "China Earthquake Administration",
+    "zh": "中国地震局"
+  },
+  "description": {
+    "en": "The China Earthquake Administration (CEA) is the national government agency responsible for earthquake monitoring, disaster prevention, and seismic risk management in China. China lies on several major tectonic plates and fault systems, making it one of the world's most seismically active countries. CEA operates the China Seismograph Network — one of the largest in the world — and publishes authoritative earthquake catalog data, seismic intensity maps, ground motion parameters, and probabilistic seismic hazard assessments. It releases official reports on significant seismic events, maintains China's national seismic ground motion parameter zoning map (GB 18306), and provides historical earthquake data for scientific and engineering research. CEA is also responsible for earthquake early warning systems and publishes disaster assessment reports following major events.",
+    "zh": "中国地震局是负责全国地震监测、防震减灾和地震风险管理的国家政府机构。中国位于多条主要构造板块和断裂带之上，是全球地震活动最频繁的国家之一。中国地震局运营着全球规模最大的地震台网之一，发布权威地震目录数据、地震烈度图、地面运动参数及概率性地震危险性评估结果。局方发布重大地震事件官方报告，维护中国国家地震动参数区划图（GB 18306），并为科学研究和工程应用提供历史地震数据。中国地震局还负责地震预警系统建设，并在重大地震发生后发布灾害评估报告。"
+  },
+  "website": "https://www.cea.gov.cn/",
+  "data_url": "https://www.cea.gov.cn/cea/dzpd/dzzt/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "statistics",
+    "governance"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "中国地震局",
+    "China Earthquake Administration",
+    "CEA",
+    "地震监测",
+    "earthquake monitoring",
+    "地震目录",
+    "earthquake catalog",
+    "地震烈度",
+    "seismic intensity",
+    "地震预警",
+    "earthquake early warning",
+    "震源参数",
+    "source parameters",
+    "地震动参数区划",
+    "seismic ground motion zoning",
+    "防震减灾",
+    "earthquake disaster prevention",
+    "地震危险性",
+    "seismic hazard",
+    "地震活动性",
+    "seismicity",
+    "地震台网",
+    "seismograph network",
+    "地质灾害",
+    "geological disaster",
+    "断层数据",
+    "fault data"
+  ],
+  "data_content": {
+    "en": [
+      "Earthquake catalog: real-time and historical records of earthquakes in China and surrounding regions, including magnitude, depth, epicenter location, and origin time",
+      "Seismic intensity maps: observed and modeled intensity maps for significant earthquake events across China",
+      "Ground motion parameters: peak ground acceleration (PGA), peak ground velocity, and spectral acceleration data for engineering applications",
+      "National seismic ground motion parameter zoning map (GB 18306): official seismic zoning standard used in building codes and infrastructure design",
+      "Probabilistic seismic hazard analysis: regional seismic hazard assessments and exceedance probability maps",
+      "Earthquake early warning data: performance metrics of the national earthquake early warning network",
+      "Fault database: geological and geophysical data on major active faults in China",
+      "Disaster assessment reports: post-earthquake rapid assessment reports for major events (M≥5.0)",
+      "Strong-motion records: acceleration time series from strong-motion seismograph stations across China",
+      "Seismic monitoring network: station inventory, coverage maps, and technical specifications of the China Seismograph Network"
+    ],
+    "zh": [
+      "地震目录：中国及周边地区地震的实时和历史记录，包括震级、深度、震中位置和发震时刻",
+      "地震烈度图：中国重大地震事件的观测和模拟烈度分布图",
+      "地震动参数：工程应用中的地峰加速度（PGA）、峰值地面速度及反应谱加速度数据",
+      "国家地震动参数区划图（GB 18306）：用于建筑法规和基础设施设计的官方地震区划标准",
+      "概率性地震危险性分析：区域地震危险性评估及超越概率图",
+      "地震预警数据：全国地震预警网络绩效指标",
+      "断层数据库：中国主要活动断层的地质和地球物理数据",
+      "灾害评估报告：重大地震事件（M≥5.0）震后快速评估报告",
+      "强震动记录：全国强震动台站加速度时程序列",
+      "地震监测台网：中国地震台网台站目录、覆盖范围图及技术规格"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "china-cba",
+  "name": {
+    "en": "China Banking Association",
+    "zh": "中国银行业协会"
+  },
+  "description": {
+    "en": "The China Banking Association (CBA) is the national self-regulatory and industry organization for China's banking sector, operating under the guidance of the National Financial Regulatory Administration (NFRA). China's banking system is the world's largest by total assets, and CBA serves as the primary voice for over 4,000 banking institutions. CBA publishes authoritative annual reports on China's banking industry development, covering total bank assets and liabilities, deposit and loan balances, non-performing loan ratios, capital adequacy indicators, digital banking progress, green finance volumes, and banking service reach statistics. CBA's flagship publication, the China Banking Industry Development Report, provides the most comprehensive annual snapshot of China's banking sector and is widely used by policymakers, investors, and researchers globally.",
+    "zh": "中国银行业协会（银行业协会）是全国性银行业自律和行业组织，在国家金融监督管理总局指导下运营，服务对象超过4000家银行业金融机构。中国银行业资产规模全球最大，中国银行业协会是业界主要代言机构。协会发布权威年度银行业发展报告，内容涵盖银行业资产负债总量、存贷款余额、不良贷款率、资本充足率、数字金融进展、绿色金融规模及银行服务覆盖等统计数据。协会旗舰出版物《中国银行业发展报告》是全面反映中国银行业年度状况的最权威资料，被全球政策制定者、投资者和研究人员广泛参考。"
+  },
+  "website": "https://www.china-cba.net/",
+  "data_url": "https://www.china-cba.net/Index/lists/catid/268.html",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国银行业协会",
+    "China Banking Association",
+    "CBA",
+    "银行业统计",
+    "banking statistics",
+    "银行资产",
+    "bank assets",
+    "存贷款",
+    "deposits and loans",
+    "不良贷款率",
+    "non-performing loan ratio",
+    "资本充足率",
+    "capital adequacy ratio",
+    "数字银行",
+    "digital banking",
+    "绿色金融",
+    "green finance",
+    "银行业发展报告",
+    "banking industry development report",
+    "普惠金融",
+    "inclusive finance",
+    "银行服务覆盖",
+    "banking service reach",
+    "中国银行业",
+    "China banking sector",
+    "金融统计",
+    "financial statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Banking sector total assets: annual total assets of China's banking institutions broken down by bank type (state-owned, joint-stock, city commercial, rural, foreign)",
+      "Deposit and loan balances: total deposits and outstanding loan balances by category, including corporate, personal, and mortgage loans",
+      "Non-performing loan (NPL) data: industry NPL ratios and absolute volumes, NPL disposition and write-off statistics",
+      "Capital adequacy: capital adequacy ratios, core tier-1 capital, and leverage ratios across major bank categories",
+      "Profitability indicators: net profit, return on assets, return on equity, and net interest margins for China's banking industry",
+      "Digital banking progress: number of online banking users, mobile banking transaction volumes, fintech lending data",
+      "Green finance: green credit outstanding balances, green bond issuance by banks, and ESG-linked lending",
+      "Inclusive finance (普惠金融): small and micro enterprise loan volumes, agricultural credit extension, and financial service coverage in rural areas",
+      "Banking network: number of bank branches, ATMs, and electronic banking terminals by province",
+      "Annual China Banking Industry Development Report: flagship publication covering comprehensive banking industry analysis, trends, and policy assessments"
+    ],
+    "zh": [
+      "银行业资产总量：按银行类型（国有大行、股份制银行、城商行、农村金融机构、外资银行）分类的年度资产总量",
+      "存贷款余额：各类存款和贷款余额，包括企业贷款、个人贷款及按揭贷款",
+      "不良贷款（NPL）数据：行业不良贷款率和绝对规模，不良贷款处置和核销统计",
+      "资本充足：主要银行类别的资本充足率、核心一级资本及杠杆率",
+      "盈利能力指标：中国银行业净利润、资产收益率、净资产收益率及净息差",
+      "数字银行进展：网银用户数量、手机银行交易量、金融科技贷款数据",
+      "绿色金融：绿色信贷余额、银行绿色债券发行量及ESG关联贷款",
+      "普惠金融：小微企业贷款规模、农业信贷投放及农村地区金融服务覆盖率",
+      "银行网络：分省银行网点、ATM机及电子银行终端数量",
+      "中国银行业发展报告：覆盖银行业综合分析、趋势研判和政策评估的旗舰出版物"
+    ]
+  }
+}

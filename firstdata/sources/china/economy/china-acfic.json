@@ -1,0 +1,78 @@
+{
+  "id": "china-acfic",
+  "name": {
+    "en": "All-China Federation of Industry and Commerce",
+    "zh": "中华全国工商业联合会"
+  },
+  "description": {
+    "en": "The All-China Federation of Industry and Commerce (ACFIC), also known as the China Chamber of Commerce, is the national organization representing non-public economic entities — primarily private enterprises and self-employed businesses — in China. Founded in 1953, ACFIC serves as a bridge between the government and China's vast private sector, which accounts for over 60% of GDP, 70% of technological innovation, 80% of urban employment, and 90% of new businesses. ACFIC publishes influential research reports on China's private economy development, annual surveys of private enterprise business conditions, the prestigious China Top 500 Private Enterprises ranking, and policy research on private sector competitiveness, innovation capacity, and domestic market dynamics. Its data and rankings are among the most authoritative sources for understanding China's private business sector.",
+    "zh": "中华全国工商业联合会（全国工商联）是代表非公有制经济主体——以民营企业和个体工商户为主——的全国性组织，又称中国工商业联合会。全国工商联成立于1953年，是政府与中国庞大民营经济之间的纽带。民营经济贡献了超过60%的GDP、70%的技术创新、80%的城镇就业和90%的新增企业。全国工商联发布具有重要影响力的中国民营经济发展研究报告、民营企业经营状况年度调查、中国民营企业500强榜单，以及民营经济竞争力、创新能力和国内市场动态政策研究，是了解中国民营经济的最权威数据来源之一。"
+  },
+  "website": "https://www.acfic.org.cn/",
+  "data_url": "https://www.acfic.org.cn/myjjsj/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "statistics",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "全国工商联",
+    "ACFIC",
+    "中华全国工商业联合会",
+    "All-China Federation of Industry and Commerce",
+    "民营经济",
+    "private economy",
+    "民营企业500强",
+    "China Top 500 Private Enterprises",
+    "非公有制经济",
+    "non-public economy",
+    "民营企业",
+    "private enterprises",
+    "商业环境",
+    "business environment",
+    "民营经济调查",
+    "private enterprise survey",
+    "中小企业",
+    "SMEs",
+    "个体工商户",
+    "self-employed businesses",
+    "民营经济发展",
+    "private economy development",
+    "企业竞争力",
+    "enterprise competitiveness",
+    "产业投资",
+    "industrial investment"
+  ],
+  "data_content": {
+    "en": [
+      "China Top 500 Private Enterprises ranking: annual list of the 500 largest private companies in China by revenue, with financial performance data",
+      "Private enterprise business survey: annual nationwide survey of tens of thousands of private enterprises covering business confidence, financing conditions, operating costs, and employment expectations",
+      "Private economy development report: comprehensive annual analysis of the contribution, structure, and development trends of China's non-public economy",
+      "Private enterprise financing data: SME loan availability, credit conditions, financing costs, and alternative financing channel usage",
+      "Innovation and R&D investment: private enterprise R&D spending, patent applications, and technology adoption statistics",
+      "Employment and labor: private sector employment volumes, wage levels, and labor market conditions across industries",
+      "Industry structure of private economy: breakdown of private enterprise activity by sector, region, and enterprise scale",
+      "Private enterprise operating costs: data on land costs, labor costs, tax burdens, and regulatory compliance costs facing private businesses",
+      "Policy response tracking: surveys on private business response to government policies including tax cuts, financial support, and regulatory reforms",
+      "Cross-regional competitiveness: provincial and city-level rankings of private economy development based on output, growth, and business environment indicators"
+    ],
+    "zh": [
+      "中国民营企业500强：按营业收入排列的500强民营企业年度榜单及财务绩效数据",
+      "民营企业经营状况年度调查：覆盖数万家民营企业的全国年度调查，涵盖经营信心、融资状况、运营成本及用工预期",
+      "民营经济发展报告：中国非公有制经济贡献、结构和发展趋势的综合年度分析",
+      "民营企业融资数据：中小企业贷款可得性、信贷条件、融资成本及替代融资渠道使用情况",
+      "创新与研发投入：民营企业研发支出、专利申请及技术采用统计数据",
+      "就业与劳动力：分行业民营部门就业规模、工资水平及劳动力市场状况",
+      "民营经济行业结构：按领域、地区和企业规模分类的民营经济活动分布",
+      "民营企业运营成本：民营企业面临的土地成本、人工成本、税负及监管合规成本数据",
+      "政策响应追踪：民营企业对减税降费、金融支持和监管改革等政府政策响应情况调查",
+      "跨区域竞争力：基于产出、增长和营商环境指标的省市民营经济发展水平排名"
+    ]
+  }
+}

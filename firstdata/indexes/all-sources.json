@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T02:39:40.271198+00:00",
-    "total_sources": 369,
+    "generated_at": "2026-04-05T06:05:59.245426+00:00",
+    "total_sources": 374,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2335,6 +2335,166 @@
       "file_path": "china/economy/agriculture/china-moa.json"
     },
     {
+      "id": "china-nfsra",
+      "name": {
+        "en": "National Food and Strategic Reserves Administration of China",
+        "zh": "国家粮食和物资储备局"
+      },
+      "description": {
+        "en": "The National Food and Strategic Reserves Administration (NFSRA) is the central government body responsible for overseeing China's national food security, grain storage, and strategic material reserves. Established under the National Development and Reform Commission in 2018 through institutional reform, NFSRA manages the world's largest grain reserves, oversees grain quality and food safety supervision, regulates the grain market, and manages emergency material reserves for disaster response. NFSRA publishes data on national grain production procurement, storage capacity and warehouse inventory levels, grain market price monitoring, food quality inspection results, and strategic reserve stock rotation. Its data is critical for understanding China's food security strategy, domestic grain market dynamics, and national emergency preparedness.",
+        "zh": "国家粮食和物资储备局是负责全国粮食安全、粮食储存和物资储备的中央政府机构，2018年通过机构改革在国家发展和改革委员会框架下组建。国家粮食和物资储备局管理着全球最大规模的粮食储备，监管粮食质量和食品安全，调控粮食市场，并管理用于灾害应急的国家物资储备。局方发布粮食收购情况、仓储能力和库存水平、粮食市场价格监测、粮食质量检测结果及战略储备轮换数据，是了解中国粮食安全战略、国内粮食市场动态和应急保障体系的重要数据来源。"
+      },
+      "website": "https://lswz.gov.cn/",
+      "data_url": "https://lswz.gov.cn/html/xwzx/sjfb/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "agriculture",
+        "governance",
+        "statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "国家粮食和物资储备局",
+        "NFSRA",
+        "粮食储备",
+        "grain reserves",
+        "粮食安全",
+        "food security",
+        "粮食收购",
+        "grain procurement",
+        "库存水平",
+        "inventory levels",
+        "粮食价格",
+        "grain prices",
+        "物资储备",
+        "strategic material reserves",
+        "粮食质量",
+        "grain quality",
+        "国家战略储备",
+        "national strategic reserves",
+        "粮食市场",
+        "grain market",
+        "仓储能力",
+        "storage capacity",
+        "应急储备",
+        "emergency reserves",
+        "粮食流通",
+        "grain circulation"
+      ],
+      "data_content": {
+        "en": [
+          "Grain procurement statistics: annual and seasonal data on government grain purchases by variety (rice, wheat, corn, soybeans) across provinces",
+          "National grain reserve inventory: warehouse inventory levels for state grain reserves, including reserve turnover and rotation records",
+          "Storage capacity data: total and available grain warehouse capacity by region, including data on modern storage facility construction progress",
+          "Grain market price monitoring: weekly and monthly price indices for major grain varieties at key wholesale markets and production areas",
+          "Grain quality inspection: annual national grain quality survey results, covering protein content, moisture, impurity rates, and safety indicators",
+          "Strategic material reserves: stock levels and rotation plans for emergency material reserves including pharmaceuticals, energy materials, and industrial supplies",
+          "Grain and oil processing: statistical data on grain and oil processing enterprises, output volumes, and capacity utilization",
+          "Loss reduction and storage technology: data on grain loss rates, storage technology adoption, and post-harvest loss prevention programs",
+          "Emergency reserve deployment: records of strategic reserve releases and deployments during price spikes or disaster events",
+          "Grain security assessment: annual reports on China's food security status, self-sufficiency rates, and import dependency indicators"
+        ],
+        "zh": [
+          "粮食收购统计：分省分品种（水稻、小麦、玉米、大豆）年度和季节性政策性粮食收购数据",
+          "国家粮食储备库存：国家粮食储备仓库库存水平，包括储备周转和轮换记录",
+          "仓储能力数据：分地区粮食仓库总容量和可用容量，包括现代化仓储设施建设进展",
+          "粮食市场价格监测：主要粮食品种在主要批发市场和产地的周报和月报价格指数",
+          "粮食质量检测：全国粮食质量调查年度结果，涵盖蛋白质含量、水分、杂质率及安全指标",
+          "物资储备：应急物资储备（含药品、能源材料、工业用品）库存水平和轮换计划",
+          "粮油加工：粮油加工企业统计数据、产量及产能利用率",
+          "节粮减损与仓储技术：粮食损耗率、仓储技术推广及产后损耗防控项目数据",
+          "应急储备动用：价格异常波动或灾害事件期间战略储备动用和投放记录",
+          "粮食安全评估：中国粮食安全状况、自给率及进口依赖度指标年度报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-nfsra.json"
+    },
+    {
+      "id": "china-acfic",
+      "name": {
+        "en": "All-China Federation of Industry and Commerce",
+        "zh": "中华全国工商业联合会"
+      },
+      "description": {
+        "en": "The All-China Federation of Industry and Commerce (ACFIC), also known as the China Chamber of Commerce, is the national organization representing non-public economic entities — primarily private enterprises and self-employed businesses — in China. Founded in 1953, ACFIC serves as a bridge between the government and China's vast private sector, which accounts for over 60% of GDP, 70% of technological innovation, 80% of urban employment, and 90% of new businesses. ACFIC publishes influential research reports on China's private economy development, annual surveys of private enterprise business conditions, the prestigious China Top 500 Private Enterprises ranking, and policy research on private sector competitiveness, innovation capacity, and domestic market dynamics. Its data and rankings are among the most authoritative sources for understanding China's private business sector.",
+        "zh": "中华全国工商业联合会（全国工商联）是代表非公有制经济主体——以民营企业和个体工商户为主——的全国性组织，又称中国工商业联合会。全国工商联成立于1953年，是政府与中国庞大民营经济之间的纽带。民营经济贡献了超过60%的GDP、70%的技术创新、80%的城镇就业和90%的新增企业。全国工商联发布具有重要影响力的中国民营经济发展研究报告、民营企业经营状况年度调查、中国民营企业500强榜单，以及民营经济竞争力、创新能力和国内市场动态政策研究，是了解中国民营经济的最权威数据来源之一。"
+      },
+      "website": "https://www.acfic.org.cn/",
+      "data_url": "https://www.acfic.org.cn/ktyj/index.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "statistics",
+        "governance"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "全国工商联",
+        "ACFIC",
+        "中华全国工商业联合会",
+        "All-China Federation of Industry and Commerce",
+        "民营经济",
+        "private economy",
+        "民营企业500强",
+        "China Top 500 Private Enterprises",
+        "非公有制经济",
+        "non-public economy",
+        "民营企业",
+        "private enterprises",
+        "商业环境",
+        "business environment",
+        "民营经济调查",
+        "private enterprise survey",
+        "中小企业",
+        "SMEs",
+        "个体工商户",
+        "self-employed businesses",
+        "民营经济发展",
+        "private economy development",
+        "企业竞争力",
+        "enterprise competitiveness",
+        "产业投资",
+        "industrial investment"
+      ],
+      "data_content": {
+        "en": [
+          "China Top 500 Private Enterprises ranking: annual list of the 500 largest private companies in China by revenue, with financial performance data",
+          "Private enterprise business survey: annual nationwide survey of tens of thousands of private enterprises covering business confidence, financing conditions, operating costs, and employment expectations",
+          "Private economy development report: comprehensive annual analysis of the contribution, structure, and development trends of China's non-public economy",
+          "Private enterprise financing data: SME loan availability, credit conditions, financing costs, and alternative financing channel usage",
+          "Innovation and R&D investment: private enterprise R&D spending, patent applications, and technology adoption statistics",
+          "Employment and labor: private sector employment volumes, wage levels, and labor market conditions across industries",
+          "Industry structure of private economy: breakdown of private enterprise activity by sector, region, and enterprise scale",
+          "Private enterprise operating costs: data on land costs, labor costs, tax burdens, and regulatory compliance costs facing private businesses",
+          "Policy response tracking: surveys on private business response to government policies including tax cuts, financial support, and regulatory reforms",
+          "Cross-regional competitiveness: provincial and city-level rankings of private economy development based on output, growth, and business environment indicators"
+        ],
+        "zh": [
+          "中国民营企业500强：按营业收入排列的500强民营企业年度榜单及财务绩效数据",
+          "民营企业经营状况年度调查：覆盖数万家民营企业的全国年度调查，涵盖经营信心、融资状况、运营成本及用工预期",
+          "民营经济发展报告：中国非公有制经济贡献、结构和发展趋势的综合年度分析",
+          "民营企业融资数据：中小企业贷款可得性、信贷条件、融资成本及替代融资渠道使用情况",
+          "创新与研发投入：民营企业研发支出、专利申请及技术采用统计数据",
+          "就业与劳动力：分行业民营部门就业规模、工资水平及劳动力市场状况",
+          "民营经济行业结构：按领域、地区和企业规模分类的民营经济活动分布",
+          "民营企业运营成本：民营企业面临的土地成本、人工成本、税负及监管合规成本数据",
+          "政策响应追踪：民营企业对减税降费、金融支持和监管改革等政府政策响应情况调查",
+          "跨区域竞争力：基于产出、增长和营商环境指标的省市民营经济发展水平排名"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/china-acfic.json"
+    },
+    {
       "id": "china-caac",
       "name": {
         "en": "Civil Aviation Administration of China",
@@ -2605,6 +2765,84 @@
       },
       "has_api": false,
       "file_path": "china/economy/macro/china-ndrc-computing.json"
+    },
+    {
+      "id": "china-sasac",
+      "name": {
+        "en": "State-owned Assets Supervision and Administration Commission of the State Council",
+        "zh": "国务院国有资产监督管理委员会"
+      },
+      "description": {
+        "en": "The State-owned Assets Supervision and Administration Commission (SASAC) is the central government body responsible for managing and supervising China's central state-owned enterprises (central SOEs). Established in 2003, SASAC oversees approximately 98 central SOEs across strategic sectors including energy, telecommunications, transportation, aviation, aerospace, finance, and heavy industry. SASAC publishes quarterly and annual operational performance reports for central SOEs, covering total assets, revenue, profit, tax contributions, employee numbers, and investment in fixed assets. These publications are the authoritative source for understanding the scale and performance of China's state-owned economy, which accounts for a major share of national economic output. SASAC also releases data on SOE reform progress, mixed-ownership reform pilots, and state capital allocation statistics.",
+        "zh": "国务院国有资产监督管理委员会（国资委）是负责管理和监督中央国有企业的国家政府机构，于2003年正式组建。国资委监管约98家中央企业，涵盖能源、电信、交通、航空、航天、金融、重工业等战略性领域。国资委定期发布中央企业运营绩效季报和年报，内容包括资产总量、营业收入、利润总额、税收贡献、用工人数及固定资产投资等数据，是了解中国国有经济规模和绩效的权威数据来源。国有经济在全国经济总量中占有重要比重。国资委还发布国企改革进展、混合所有制改革试点情况及国有资本布局优化统计数据。"
+      },
+      "website": "https://www.sasac.gov.cn/",
+      "data_url": "https://www.sasac.gov.cn/n2588030/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "governance",
+        "statistics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "国资委",
+        "SASAC",
+        "央企",
+        "central SOEs",
+        "国有企业",
+        "state-owned enterprises",
+        "央企运营数据",
+        "central enterprise performance",
+        "国有资产",
+        "state-owned assets",
+        "企业利润",
+        "enterprise profit",
+        "混合所有制",
+        "mixed-ownership reform",
+        "国企改革",
+        "SOE reform",
+        "国有资本",
+        "state capital",
+        "央企收入",
+        "central enterprise revenue",
+        "资产总量",
+        "total assets",
+        "经济统计",
+        "economic statistics"
+      ],
+      "data_content": {
+        "en": [
+          "Central SOE operational performance: quarterly and annual total assets, operating revenue, total profit, and tax contributions of central enterprises as a group",
+          "Enterprise-level data: individual performance indicators for major central SOEs including SINOPEC, CNPC, SGCC, and other key groups",
+          "Employment statistics: total workforce of central SOEs, new recruitment, and labor productivity metrics",
+          "Fixed asset investment: annual capital expenditure and investment data across central SOE sectors",
+          "Mixed-ownership reform: progress reports on pilot programs introducing private capital into state-owned enterprises",
+          "State capital allocation: data on strategic restructuring of central SOE portfolios, mergers, and asset disposals",
+          "SOE reform progress: annual reports on reform implementation under the State-owned Enterprise Reform Deepening Action Plan",
+          "Industry breakdown: performance data disaggregated by sector including energy, telecommunications, manufacturing, and services",
+          "Financial indicators: return on equity, asset-liability ratios, and other financial health metrics for central SOEs",
+          "Innovation investment: R&D expenditure and technology investment statistics for central SOEs"
+        ],
+        "zh": [
+          "央企运营绩效：中央企业整体季度和年度资产总量、营业收入、利润总额及税收贡献",
+          "企业个体数据：中石化、中石油、国家电网等主要央企的单项绩效指标",
+          "用工统计：央企职工总数、新增招录及劳动生产率指标",
+          "固定资产投资：央企各领域年度资本支出和投资数据",
+          "混合所有制改革：引入民间资本的国企改革试点进展报告",
+          "国有资本布局：中央企业战略性重组、合并及资产处置相关数据",
+          "国企改革进展：国有企业改革深化提升行动年度报告",
+          "行业分类数据：能源、电信、制造业、服务业等各领域绩效分类统计",
+          "财务指标：央企净资产收益率、资产负债率及其他财务健康指标",
+          "创新投入：央企研发投入和科技投资统计数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-sasac.json"
     },
     {
       "id": "china-ndrc",
@@ -5780,6 +6018,86 @@
       "file_path": "china/education/moe-gaokao.json"
     },
     {
+      "id": "china-cba",
+      "name": {
+        "en": "China Banking Association",
+        "zh": "中国银行业协会"
+      },
+      "description": {
+        "en": "The China Banking Association (CBA) is the national self-regulatory and industry organization for China's banking sector, operating under the guidance of the National Financial Regulatory Administration (NFRA). China's banking system is the world's largest by total assets, and CBA serves as the primary voice for over 4,000 banking institutions. CBA publishes authoritative annual reports on China's banking industry development, covering total bank assets and liabilities, deposit and loan balances, non-performing loan ratios, capital adequacy indicators, digital banking progress, green finance volumes, and banking service reach statistics. CBA's flagship publication, the China Banking Industry Development Report, provides the most comprehensive annual snapshot of China's banking sector and is widely used by policymakers, investors, and researchers globally.",
+        "zh": "中国银行业协会（银行业协会）是全国性银行业自律和行业组织，在国家金融监督管理总局指导下运营，服务对象超过4000家银行业金融机构。中国银行业资产规模全球最大，中国银行业协会是业界主要代言机构。协会发布权威年度银行业发展报告，内容涵盖银行业资产负债总量、存贷款余额、不良贷款率、资本充足率、数字金融进展、绿色金融规模及银行服务覆盖等统计数据。协会旗舰出版物《中国银行业发展报告》是全面反映中国银行业年度状况的最权威资料，被全球政策制定者、投资者和研究人员广泛参考。"
+      },
+      "website": "https://www.china-cba.net/",
+      "data_url": "https://www.china-cba.net/index.php?m=content&c=index&a=lists&catid=78",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "statistics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国银行业协会",
+        "China Banking Association",
+        "CBA",
+        "银行业统计",
+        "banking statistics",
+        "银行资产",
+        "bank assets",
+        "存贷款",
+        "deposits and loans",
+        "不良贷款率",
+        "non-performing loan ratio",
+        "资本充足率",
+        "capital adequacy ratio",
+        "数字银行",
+        "digital banking",
+        "绿色金融",
+        "green finance",
+        "银行业发展报告",
+        "banking industry development report",
+        "普惠金融",
+        "inclusive finance",
+        "银行服务覆盖",
+        "banking service reach",
+        "中国银行业",
+        "China banking sector",
+        "金融统计",
+        "financial statistics"
+      ],
+      "data_content": {
+        "en": [
+          "Banking sector total assets: annual total assets of China's banking institutions broken down by bank type (state-owned, joint-stock, city commercial, rural, foreign)",
+          "Deposit and loan balances: total deposits and outstanding loan balances by category, including corporate, personal, and mortgage loans",
+          "Non-performing loan (NPL) data: industry NPL ratios and absolute volumes, NPL disposition and write-off statistics",
+          "Capital adequacy: capital adequacy ratios, core tier-1 capital, and leverage ratios across major bank categories",
+          "Profitability indicators: net profit, return on assets, return on equity, and net interest margins for China's banking industry",
+          "Digital banking progress: number of online banking users, mobile banking transaction volumes, fintech lending data",
+          "Green finance: green credit outstanding balances, green bond issuance by banks, and ESG-linked lending",
+          "Inclusive finance (普惠金融): small and micro enterprise loan volumes, agricultural credit extension, and financial service coverage in rural areas",
+          "Banking network: number of bank branches, ATMs, and electronic banking terminals by province",
+          "Annual China Banking Industry Development Report: flagship publication covering comprehensive banking industry analysis, trends, and policy assessments"
+        ],
+        "zh": [
+          "银行业资产总量：按银行类型（国有大行、股份制银行、城商行、农村金融机构、外资银行）分类的年度资产总量",
+          "存贷款余额：各类存款和贷款余额，包括企业贷款、个人贷款及按揭贷款",
+          "不良贷款（NPL）数据：行业不良贷款率和绝对规模，不良贷款处置和核销统计",
+          "资本充足：主要银行类别的资本充足率、核心一级资本及杠杆率",
+          "盈利能力指标：中国银行业净利润、资产收益率、净资产收益率及净息差",
+          "数字银行进展：网银用户数量、手机银行交易量、金融科技贷款数据",
+          "绿色金融：绿色信贷余额、银行绿色债券发行量及ESG关联贷款",
+          "普惠金融：小微企业贷款规模、农业信贷投放及农村地区金融服务覆盖率",
+          "银行网络：分省银行网点、ATM机及电子银行终端数量",
+          "中国银行业发展报告：覆盖银行业综合分析、趋势研判和政策评估的旗舰出版物"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-cba.json"
+    },
+    {
       "id": "china-nfra",
       "name": {
         "en": "National Financial Regulatory Administration",
@@ -8659,6 +8977,87 @@
       },
       "has_api": false,
       "file_path": "china/resources/mineral/china-mnr-minerals.json"
+    },
+    {
+      "id": "china-cea",
+      "name": {
+        "en": "China Earthquake Administration",
+        "zh": "中国地震局"
+      },
+      "description": {
+        "en": "The China Earthquake Administration (CEA) is the national government agency responsible for earthquake monitoring, disaster prevention, and seismic risk management in China. China lies on several major tectonic plates and fault systems, making it one of the world's most seismically active countries. CEA operates the China Seismograph Network — one of the largest in the world — and publishes authoritative earthquake catalog data, seismic intensity maps, ground motion parameters, and probabilistic seismic hazard assessments. It releases official reports on significant seismic events, maintains China's national seismic ground motion parameter zoning map (GB 18306), and provides historical earthquake data for scientific and engineering research. CEA is also responsible for earthquake early warning systems and publishes disaster assessment reports following major events.",
+        "zh": "中国地震局是负责全国地震监测、防震减灾和地震风险管理的国家政府机构。中国位于多条主要构造板块和断裂带之上，是全球地震活动最频繁的国家之一。中国地震局运营着全球规模最大的地震台网之一，发布权威地震目录数据、地震烈度图、地面运动参数及概率性地震危险性评估结果。局方发布重大地震事件官方报告，维护中国国家地震动参数区划图（GB 18306），并为科学研究和工程应用提供历史地震数据。中国地震局还负责地震预警系统建设，并在重大地震发生后发布灾害评估报告。"
+      },
+      "website": "https://www.cea.gov.cn/",
+      "data_url": "https://www.cea.gov.cn/cea/dzpd/dzzt/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "statistics",
+        "governance"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "中国地震局",
+        "China Earthquake Administration",
+        "CEA",
+        "地震监测",
+        "earthquake monitoring",
+        "地震目录",
+        "earthquake catalog",
+        "地震烈度",
+        "seismic intensity",
+        "地震预警",
+        "earthquake early warning",
+        "震源参数",
+        "source parameters",
+        "地震动参数区划",
+        "seismic ground motion zoning",
+        "防震减灾",
+        "earthquake disaster prevention",
+        "地震危险性",
+        "seismic hazard",
+        "地震活动性",
+        "seismicity",
+        "地震台网",
+        "seismograph network",
+        "地质灾害",
+        "geological disaster",
+        "断层数据",
+        "fault data"
+      ],
+      "data_content": {
+        "en": [
+          "Earthquake catalog: real-time and historical records of earthquakes in China and surrounding regions, including magnitude, depth, epicenter location, and origin time",
+          "Seismic intensity maps: observed and modeled intensity maps for significant earthquake events across China",
+          "Ground motion parameters: peak ground acceleration (PGA), peak ground velocity, and spectral acceleration data for engineering applications",
+          "National seismic ground motion parameter zoning map (GB 18306): official seismic zoning standard used in building codes and infrastructure design",
+          "Probabilistic seismic hazard analysis: regional seismic hazard assessments and exceedance probability maps",
+          "Earthquake early warning data: performance metrics of the national earthquake early warning network",
+          "Fault database: geological and geophysical data on major active faults in China",
+          "Disaster assessment reports: post-earthquake rapid assessment reports for major events (M≥5.0)",
+          "Strong-motion records: acceleration time series from strong-motion seismograph stations across China",
+          "Seismic monitoring network: station inventory, coverage maps, and technical specifications of the China Seismograph Network"
+        ],
+        "zh": [
+          "地震目录：中国及周边地区地震的实时和历史记录，包括震级、深度、震中位置和发震时刻",
+          "地震烈度图：中国重大地震事件的观测和模拟烈度分布图",
+          "地震动参数：工程应用中的地峰加速度（PGA）、峰值地面速度及反应谱加速度数据",
+          "国家地震动参数区划图（GB 18306）：用于建筑法规和基础设施设计的官方地震区划标准",
+          "概率性地震危险性分析：区域地震危险性评估及超越概率图",
+          "地震预警数据：全国地震预警网络绩效指标",
+          "断层数据库：中国主要活动断层的地质和地球物理数据",
+          "灾害评估报告：重大地震事件（M≥5.0）震后快速评估报告",
+          "强震动记录：全国强震动台站加速度时程序列",
+          "地震监测台网：中国地震台网台站目录、覆盖范围图及技术规格"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/seismology/china-cea.json"
     },
     {
       "id": "china-mwr",
