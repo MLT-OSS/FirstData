@@ -1,0 +1,76 @@
+{
+  "id": "china-hi-stats",
+  "name": {
+    "en": "Hainan Bureau of Statistics",
+    "zh": "海南省统计局"
+  },
+  "description": {
+    "en": "The Hainan Bureau of Statistics is the official statistical authority for Hainan Province, China's southernmost and smallest province by land area, located on the tropical island of Hainan. Since 2018, Hainan has been designated as China's largest free trade zone (Hainan Free Trade Port), making it a unique economic policy experiment. The bureau publishes comprehensive socioeconomic statistics covering GDP, tourism (a pillar industry), tropical agriculture, international trade, real estate, and population data. It releases the Hainan Statistical Yearbook and economic bulletins reflecting the province's rapid development as a free trade hub.",
+    "zh": "海南省统计局是海南省官方统计机构，海南是中国最南端、陆地面积最小的省份，位于热带岛屿。2018年以来，海南被设立为中国最大的自由贸易区（海南自由贸易港），成为独特的经济政策试验区。统计局发布海南省GDP、旅游（支柱产业）、热带农业、国际贸易、房地产和人口等全面社会经济统计数据，并出版《海南统计年鉴》及经济运行情况报告，反映该省作为自由贸易港的快速发展动态。"
+  },
+  "website": "http://stats.hainan.gov.cn/",
+  "data_url": "http://stats.hainan.gov.cn/hntjj/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "trade",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "海南统计",
+    "Hainan statistics",
+    "海南GDP",
+    "Hainan GDP",
+    "省级统计",
+    "provincial statistics",
+    "海南自由贸易港",
+    "Hainan Free Trade Port",
+    "旅游统计",
+    "tourism statistics",
+    "热带农业",
+    "tropical agriculture",
+    "国际贸易",
+    "international trade",
+    "三亚",
+    "Sanya",
+    "海口",
+    "Haikou",
+    "统计年鉴",
+    "statistical yearbook",
+    "免税购物",
+    "duty-free shopping",
+    "房地产",
+    "real estate"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Hainan Province",
+      "Tourism statistics: visitor arrivals (domestic and international), tourism revenue, hotel occupancy — tourism is Hainan's pillar industry",
+      "Free Trade Port data: import/export volumes, duty-free retail sales, foreign investment, pilot policies statistics",
+      "Tropical agriculture: rubber, coconut, pepper, tropical fruit production, fishery output",
+      "Real estate: property development, sales area, housing prices in Haikou, Sanya, and other cities",
+      "Population statistics: resident population, household registration, floating population, birth and death rates",
+      "Consumer prices: CPI and PPI for Hainan Province and its major cities",
+      "Employment and wages: employed persons, service sector employment, average wages by sector",
+      "Fixed asset investment: infrastructure construction, industrial development zones, tourism resort investment",
+      "Hainan Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：海南省季度和年度GDP数据，按产业分类",
+      "旅游统计：国内外游客人次、旅游收入、酒店入住率——旅游是海南的支柱产业",
+      "自由贸易港数据：进出口量、免税零售额、外商投资、试点政策统计数据",
+      "热带农业：橡胶、椰子、胡椒、热带水果产量、渔业产值",
+      "房地产：开发面积、销售面积、海口、三亚等城市房价",
+      "人口统计：常住人口、户籍人口、流动人口、出生率和死亡率",
+      "消费价格：海南省及主要城市居民消费价格指数和工业品出厂价格",
+      "就业与工资：从业人员数、服务业就业情况、各行业平均工资",
+      "固定资产投资：基础设施建设、产业开发区、旅游度假区投资",
+      "海南统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}

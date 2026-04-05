@@ -1,0 +1,65 @@
+{
+  "id": "china-mva",
+  "name": {
+    "en": "Ministry of Veterans Affairs of China",
+    "zh": "中华人民共和国退役军人事务部"
+  },
+  "description": {
+    "en": "The Ministry of Veterans Affairs (MVA) is China's central government ministry responsible for veterans' affairs, established in March 2018 under the State Council institutional reform. It manages policies, benefits, placement, education, and social services for China's millions of retired military personnel and their families. The MVA publishes annual statistical summaries (退役军人事务统计汇要) covering veteran registration, placement outcomes, vocational training participation, pension and disability benefit recipients, and commemorative facility management. Its data is essential for understanding China's military personnel transition system and social welfare for former service members.",
+    "zh": "退役军人事务部是中国负责退役军人工作的中央政府部门，于2018年3月国务院机构改革中组建成立。主要负责退役军人政策制定、安置就业、优抚保障、职业培训及社会服务等工作，服务对象为中国数百万退役军人及其家属。退役军人事务部发布年度《退役军人事务统计汇要》，内容涵盖退役军人登记注册、安置就业情况、职业技能培训参与情况、抚恤补助金领取人数及烈士纪念设施管理情况，是了解中国军人转业安置体系和退役军人社会保障的重要数据来源。"
+  },
+  "website": "https://www.mva.gov.cn/",
+  "data_url": "https://www.mva.gov.cn/gongkai/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "social",
+    "governance",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "退役军人事务部",
+    "Ministry of Veterans Affairs",
+    "退役军人",
+    "veterans",
+    "军人安置",
+    "military placement",
+    "优抚",
+    "preferential treatment",
+    "烈士纪念",
+    "martyr commemoration",
+    "职业技能培训",
+    "vocational training",
+    "抚恤金",
+    "pension",
+    "退役军人统计",
+    "veterans statistics",
+    "国防社会化",
+    "military-civilian integration",
+    "中国军人",
+    "Chinese military personnel"
+  ],
+  "data_content": {
+    "en": [
+      "Veteran registration: total number of registered retired military personnel by province and category (officers, non-commissioned officers, soldiers)",
+      "Placement outcomes: annual statistics on veteran employment placement, including government job assignments, college enrollment, and self-employment support",
+      "Vocational and educational training: number of veterans enrolled in vocational skills training programs and higher education",
+      "Pension and disability benefits: number of recipients of military disability pensions, living allowances for family members of deceased soldiers",
+      "Commemorative facilities: number of national martyrs' cemeteries, memorial halls, and monuments managed or registered",
+      "Housing and living support: veterans receiving housing subsidies, emergency living assistance statistics",
+      "Annual statistical summary (退役军人事务统计汇要): comprehensive yearly report on veterans affairs nationwide"
+    ],
+    "zh": [
+      "退役军人登记注册：按省份和类别（军官、士官、义务兵）分类的退役军人登记总数",
+      "安置就业情况：年度退役军人安置数据，包括政府机关安置、大学录取和自主创业支持",
+      "职业技能与教育培训：参加职业技能培训和高等学历教育的退役军人人数",
+      "抚恤金与伤残补助：军人伤残抚恤金领取人数、烈士家属优待金发放情况",
+      "纪念设施：纳入管理和登记的国家烈士陵园、纪念馆和纪念碑数量",
+      "住房与生活保障：享受住房补贴、紧急生活救助的退役军人统计数据",
+      "退役军人事务统计汇要：全国退役军人工作综合年度报告"
+    ]
+  }
+}

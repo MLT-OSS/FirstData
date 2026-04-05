@@ -1,0 +1,76 @@
+{
+  "id": "china-sx-stats",
+  "name": {
+    "en": "Shanxi Bureau of Statistics",
+    "zh": "山西省统计局"
+  },
+  "description": {
+    "en": "The Shanxi Bureau of Statistics is the official statistical authority for Shanxi Province, China's most important coal-producing province and a major energy base. Located in northern China, Shanxi holds the largest verified coal reserves in the country and has historically supplied a substantial portion of China's national coal output. The bureau publishes comprehensive socioeconomic statistics covering GDP, coal production and mining industry data, energy output, coke and chemical industry figures, population, employment, and investment. It releases the Shanxi Statistical Yearbook and regular economic bulletins critical for energy market analysis and industrial policy research.",
+    "zh": "山西省统计局是山西省官方统计机构，山西是中国最重要的产煤省份和重要能源基地，位于中国北部。山西拥有全国最大的已探明煤炭储量，历史上承担了中国煤炭总产量的大部分供应。统计局发布山西省GDP、煤炭产量与采矿业数据、能源产出、焦化和化工行业数据、人口、就业和投资等全面社会经济统计，并出版《山西统计年鉴》及定期经济运行情况报告，是能源市场分析和产业政策研究的重要数据来源。"
+  },
+  "website": "http://tjj.shanxi.gov.cn/",
+  "data_url": "http://tjj.shanxi.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "energy",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "山西统计",
+    "Shanxi statistics",
+    "山西GDP",
+    "Shanxi GDP",
+    "省级统计",
+    "provincial statistics",
+    "煤炭",
+    "coal",
+    "能源基地",
+    "energy base",
+    "采矿业",
+    "mining industry",
+    "焦炭",
+    "coke",
+    "煤炭储量",
+    "coal reserves",
+    "太原",
+    "Taiyuan",
+    "工业产值",
+    "industrial output",
+    "统计年鉴",
+    "statistical yearbook",
+    "大宗商品",
+    "commodities"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Shanxi Province",
+      "Coal production: monthly and annual raw coal output, China's largest coal-producing province data",
+      "Mining industry: total coal mine output by prefecture, major mining enterprise performance, coal reserves",
+      "Coking and chemicals: coke production volumes, coal chemical industry output, coal-to-chemicals data",
+      "Energy output: electricity generation (including coal-fired power), energy consumption statistics",
+      "Fixed asset investment: coal mining investment, infrastructure construction, industrial diversification",
+      "Population statistics: census data, household registration, urbanization, rural-to-urban migration",
+      "Employment and wages: mining sector employment, average wages, occupational injury statistics",
+      "Consumer prices: CPI and PPI for Shanxi Province and its prefecture-level cities including Taiyuan",
+      "Shanxi Statistical Yearbook: comprehensive annual compilation of all provincial statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：山西省季度和年度GDP数据，按产业分类",
+      "煤炭产量：月度和年度原煤产量，全国最大产煤省数据",
+      "采矿业：各地级市煤矿产量、大型矿业企业绩效、煤炭储量数据",
+      "焦化与化工：焦炭产量、煤化工行业产值、煤制化学品数据",
+      "能源产出：发电量（含燃煤电力）、能源消耗统计",
+      "固定资产投资：煤矿投资、基础设施建设、工业多元化发展",
+      "人口统计：普查数据、户籍人口、城镇化率、农村劳动力转移",
+      "就业与工资：采矿业从业人员数量、平均工资、工伤事故统计",
+      "消费价格：山西省及太原等各地级市居民消费价格指数和工业品出厂价格",
+      "山西统计年鉴：全省各类统计数据的综合年度汇编"
+    ]
+  }
+}
