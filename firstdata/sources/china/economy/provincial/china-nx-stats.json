@@ -1,0 +1,76 @@
+{
+  "id": "china-nx-stats",
+  "name": {
+    "en": "Ningxia Bureau of Statistics",
+    "zh": "宁夏回族自治区统计局"
+  },
+  "description": {
+    "en": "The Ningxia Bureau of Statistics is the official statistical authority for the Ningxia Hui Autonomous Region, China's only provincial-level administrative region for the Hui Muslim ethnic group. Located in northwestern China along the upper Yellow River, Ningxia is a key producer of coal, natural gas, and chemicals, and is also emerging as a major wine region (Helan Mountain). The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output (especially energy and chemicals), agricultural production (including wolfberry cultivation), population, employment, and consumer prices. It releases the Ningxia Statistical Yearbook and regular economic bulletins.",
+    "zh": "宁夏回族自治区统计局是宁夏回族自治区的官方统计机构，宁夏是中国唯一的回族省级行政区划，位于中国西北部黄河上游地区。宁夏是重要的煤炭、天然气和化工产品生产基地，同时也是新兴葡萄酒产区（贺兰山东麓）。统计局发布宁夏GDP、工业产值（尤其是能源和化工）、农业生产（包括枸杞种植）、人口、就业和居民消费价格指数等全面社会经济统计，并出版《宁夏统计年鉴》及定期经济运行情况报告。"
+  },
+  "website": "https://tj.nx.gov.cn/",
+  "data_url": "https://tj.nx.gov.cn/tjsj_htr/jdsj_htr/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "energy",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "宁夏统计",
+    "Ningxia statistics",
+    "宁夏GDP",
+    "Ningxia GDP",
+    "省级统计",
+    "provincial statistics",
+    "回族自治区",
+    "Hui Autonomous Region",
+    "能源生产",
+    "energy production",
+    "煤炭",
+    "coal",
+    "化工",
+    "chemicals",
+    "枸杞",
+    "wolfberry",
+    "贺兰山葡萄酒",
+    "Helan Mountain wine",
+    "黄河流域",
+    "Yellow River basin",
+    "统计年鉴",
+    "statistical yearbook",
+    "西部大开发",
+    "western China development"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Ningxia Hui Autonomous Region",
+      "Energy production: coal output, natural gas extraction, electricity generation, and renewable energy data",
+      "Industrial output: chemical industry, non-ferrous metals, equipment manufacturing, and energy sector statistics",
+      "Agricultural statistics: wolfberry (Ningxia is the world's largest wolfberry producer), grain output, livestock, wine grapes",
+      "Population and ethnic statistics: census data including Hui Muslim population, household registration, urbanization rates",
+      "Employment and wages: employed persons, unemployment rate, average wages by sector",
+      "Consumer prices: CPI and PPI for Ningxia and its prefecture-level cities (Yinchuan, Shizuishan, Wuzhong, etc.)",
+      "Fixed asset investment: total investment by sector, infrastructure construction, industry development zones",
+      "Trade and commerce: imports and exports through border ports, social consumer goods retail total",
+      "Ningxia Statistical Yearbook: comprehensive annual compilation of all regional statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：宁夏回族自治区季度和年度GDP数据，按产业分类",
+      "能源生产：煤炭产量、天然气开采量、发电量及新能源数据",
+      "工业产值：化工、有色金属、装备制造、能源行业统计数据",
+      "农业统计：枸杞产量（宁夏是全球最大枸杞产区）、粮食产量、畜牧业、酿酒葡萄",
+      "人口与民族统计：含回族人口数量的普查数据、户籍人口、城镇化率",
+      "就业与工资：从业人员数、失业率、各行业平均工资",
+      "消费价格：宁夏及各地级市（银川、石嘴山、吴忠等）居民消费价格指数和工业品出厂价格",
+      "固定资产投资：各行业投资总额、基础设施建设、产业开发区发展",
+      "贸易与商业：口岸进出口数据、社会消费品零售总额",
+      "宁夏统计年鉴：全区各类统计数据的综合年度汇编"
+    ]
+  }
+}
