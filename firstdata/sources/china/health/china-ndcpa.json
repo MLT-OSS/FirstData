@@ -1,0 +1,72 @@
+{
+  "id": "china-ndcpa",
+  "name": {
+    "en": "National Disease Control and Prevention Administration of China",
+    "zh": "国家疾病预防控制局"
+  },
+  "description": {
+    "en": "The National Disease Control and Prevention Administration (NDCPA) is China's central government authority for public health surveillance, disease prevention and control, established in May 2021 under the National Health Commission as a vice-ministerial-level agency. It took over core functions from the Chinese Center for Disease Control and Prevention (China CDC) to strengthen national biosecurity and epidemic response governance following COVID-19 lessons. NDCPA oversees national communicable disease surveillance and reporting, national immunization program management, chronic disease prevention, environmental health monitoring, and health emergency preparedness. It publishes statutory infectious disease case reports (法定传染病疫情), vaccination coverage data, and health risk assessment reports, making it the authoritative source for China's epidemiological data and public health indicators.",
+    "zh": "国家疾病预防控制局是中国公共卫生监测、疾病预防与控制的中央主管部门，2021年5月在国家卫生健康委领导下正式组建，为副部级机构。在汲取新冠疫情防控经验教训后，承接中国疾病预防控制中心核心职能，以强化国家生物安全和疫情应对治理体系。疾控局负责全国传染病监测报告、国家免疫规划管理、慢性病防控、环境卫生监测和卫生应急准备。定期发布法定传染病疫情通报、疫苗接种覆盖率数据和健康风险评估报告，是中国流行病学数据和公共卫生指标的权威来源。"
+  },
+  "website": "https://www.ndcpa.gov.cn/",
+  "data_url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/second/list.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "governance",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "国家疾病预防控制局",
+    "NDCPA",
+    "National Disease Control",
+    "疾控局",
+    "CDC China",
+    "传染病报告",
+    "infectious disease reporting",
+    "法定传染病",
+    "statutory infectious disease",
+    "疫情监测",
+    "epidemic surveillance",
+    "公共卫生",
+    "public health",
+    "疫苗接种",
+    "vaccination",
+    "免疫规划",
+    "immunization program",
+    "慢性病",
+    "chronic disease",
+    "生物安全",
+    "biosafety",
+    "卫生应急",
+    "health emergency",
+    "流行病学",
+    "epidemiology",
+    "疾病预防",
+    "disease prevention"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly statutory infectious disease reports: case counts for 40 nationally notifiable diseases by category (Class A, B, C), province, and pathogen type",
+      "Annual immunization program statistics: vaccination coverage rates for BCG, hepatitis B, polio, DTP, measles-rubella, Japanese encephalitis, and other EPI vaccines by age group and province",
+      "Communicable disease surveillance bulletins: real-time and periodic epidemiological bulletins on influenza, dengue fever, hand-foot-mouth disease, and emerging infectious diseases",
+      "Chronic disease prevalence data: nationwide surveys and monitoring results for hypertension, diabetes, cancer, cardiovascular disease, and obesity",
+      "Environmental health monitoring: reports on ambient air quality health impacts, drinking water safety surveillance, and occupational disease statistics",
+      "Health risk assessments: rapid risk assessments and technical guidance documents for public health events of potential concern",
+      "Biosafety laboratory statistics: data on pathogen detection capacity, biosafety laboratory accreditation, and national reference laboratory networks"
+    ],
+    "zh": [
+      "月度法定传染病疫情通报：按类别（甲乙丙类）、省份和病原体分类的40种法定报告传染病病例数",
+      "年度国家免疫规划统计：按年龄组和省份分类的卡介苗、乙肝、脊髓灰质炎、百白破、麻疹风疹、乙脑等EPI疫苗接种覆盖率",
+      "传染病监测简报：流感、登革热、手足口病及新发传染病实时和定期流行病学通报",
+      "慢性病患病率数据：高血压、糖尿病、癌症、心脑血管疾病和肥胖症全国调查及监测结果",
+      "环境卫生监测：环境空气质量健康影响报告、饮用水安全监测及职业病统计",
+      "健康风险评估：针对潜在突发公共卫生事件的快速风险评估和技术指导文件",
+      "生物安全实验室统计：病原体检测能力、实验室生物安全认证及国家参比实验室网络数据"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "china-nrta",
+  "name": {
+    "en": "National Radio and Television Administration of China",
+    "zh": "国家广播电视总局"
+  },
+  "description": {
+    "en": "The National Radio and Television Administration (NRTA) is China's primary government authority responsible for regulating the radio and television broadcasting industry, including content supervision, licensing, technical standards, and industry development. Established in 2018 by merging the former State Administration of Press, Publication, Radio, Film and Television (SAPPRFT) functions, NRTA publishes annual statistical bulletins on China's broadcasting sector covering the number of licensed radio and TV stations, broadcast hours, cable and satellite subscriber data, program production volume, internet audio-visual service platforms, and smart TV penetration rates. Its data is essential for analyzing China's media landscape, digital broadcasting transition, and content regulation environment.",
+    "zh": "国家广播电视总局是中国广播电视行业的主管部门，负责广播电视内容监管、行业许可、技术标准制定和产业发展规划。2018年由原国家新闻出版广播电影电视总局相关职能重组而来。广电总局每年发布全国广播电视统计公报，涵盖持证广播电视播出机构数量、播出时长、有线及卫星用户数据、节目制作播出量、互联网视听服务平台许可情况及智能电视普及率等核心数据，是研究中国媒体格局、数字广播转型和内容监管环境的重要参考。"
+  },
+  "website": "https://www.nrta.gov.cn/",
+  "data_url": "https://www.nrta.gov.cn/col/col2040/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "media",
+    "governance",
+    "technology"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "广播电视总局",
+    "NRTA",
+    "National Radio Television Administration",
+    "广播电视",
+    "broadcasting",
+    "电视台",
+    "television station",
+    "广播电台",
+    "radio station",
+    "有线电视",
+    "cable TV",
+    "卫星电视",
+    "satellite TV",
+    "互联网视听",
+    "internet audiovisual",
+    "流媒体",
+    "streaming",
+    "内容监管",
+    "content regulation",
+    "广播电视统计公报",
+    "broadcasting statistics",
+    "节目制作",
+    "program production",
+    "智能电视",
+    "smart TV",
+    "传媒产业",
+    "media industry"
+  ],
+  "data_content": {
+    "en": [
+      "Annual broadcasting statistics bulletin: total number of licensed radio stations, TV stations, cable and satellite operators nationwide",
+      "Broadcasting coverage rates: radio and television signal coverage by province and rural-urban breakdown",
+      "Cable and IPTV subscribers: number of subscribers to cable TV, satellite direct-to-home, and IPTV services",
+      "Program production volume: hours of original programming produced by category (news, drama, variety, documentary, animation)",
+      "Internet audiovisual platforms: number of licensed platforms offering video-on-demand, live streaming, and online radio services",
+      "Smart TV and connected devices: penetration rates and active users of internet-connected television sets",
+      "Advertising revenue: total advertising income of radio and TV broadcasters",
+      "Industry employment: number of employees in the broadcasting and audiovisual production sector"
+    ],
+    "zh": [
+      "广播电视统计公报：全国持证广播电台、电视台及有线电视、卫星运营机构总量",
+      "广播电视覆盖率：按省份及城乡分类的广播电视信号覆盖情况",
+      "有线及IPTV用户：有线电视、直播卫星和IPTV用户订阅数量",
+      "节目制作播出量：按类别（新闻、电视剧、综艺、纪录片、动画片）分类的原创节目时长",
+      "互联网视听平台：持证视频点播、网络直播和网络广播平台数量",
+      "智能电视与联网终端：互联网电视机普及率和活跃用户数",
+      "广告收入：广播电视播出机构广告经营总收入",
+      "行业就业：广播电视及视听节目制作行业从业人员数量"
+    ]
+  }
+}

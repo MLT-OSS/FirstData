@@ -1,0 +1,75 @@
+{
+  "id": "china-nra",
+  "name": {
+    "en": "National Railway Administration of China",
+    "zh": "国家铁路局"
+  },
+  "description": {
+    "en": "The National Railway Administration (NRA) is China's government regulatory authority for the railway industry, responsible for safety supervision, licensing, technical standards, and industry monitoring across all rail operations including high-speed rail, conventional rail, and urban transit. Established in 2013 under the Ministry of Transport, NRA publishes the Annual Statistical Bulletin on Railway Transportation (铁道统计公报) containing comprehensive data on railway network length, passenger volume, freight tonnage, locomotive and rolling stock inventory, safety incidents, fixed asset investment, and employment. As China operates the world's largest high-speed rail network, NRA's data is critical for understanding China's transportation infrastructure, logistics capacity, and regional economic connectivity.",
+    "zh": "国家铁路局是中国铁路行业的政府监管机构，负责涵盖高铁、普铁和城市轨道交通在内的全路网安全监管、行政许可、技术标准制定和行业监测。2013年在交通运输部领导下组建成立。铁路局每年发布《铁道统计公报》，收录铁路网里程、旅客发送量、货物发送量、机车车辆保有量、安全事故、固定资产投资及从业人员等全面数据。中国已建成全球最大高铁网络，铁路局数据对于研究中国交通基础设施、物流能力和区域经济互联互通具有重要价值。"
+  },
+  "website": "https://www.nra.gov.cn/",
+  "data_url": "https://www.nra.gov.cn/xxgk/gkml/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "infrastructure",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家铁路局",
+    "NRA",
+    "National Railway Administration",
+    "铁道统计公报",
+    "railway statistics",
+    "高铁",
+    "high-speed rail",
+    "HSR",
+    "铁路里程",
+    "railway mileage",
+    "旅客发送量",
+    "passenger volume",
+    "货物运输",
+    "freight transport",
+    "铁路投资",
+    "railway investment",
+    "铁路安全",
+    "railway safety",
+    "动车组",
+    "EMU trains",
+    "高铁网络",
+    "HSR network",
+    "铁路运营",
+    "railway operation",
+    "轨道交通",
+    "rail transit",
+    "物流",
+    "logistics"
+  ],
+  "data_content": {
+    "en": [
+      "Railway network length: total operating mileage of national railways, broken down by high-speed rail (250km/h+), electrified lines, double-track lines, and regional distribution",
+      "Passenger statistics: total passenger trips, passenger-kilometers, average trip distance, and breakdown by high-speed vs. conventional rail",
+      "Freight statistics: total freight volume (tonnes), tonne-kilometers, cargo types (coal, grain, steel, containers), and major corridor flows",
+      "Rolling stock inventory: number of locomotives, EMU (high-speed) trainsets, passenger cars, and freight wagons in service",
+      "Fixed asset investment: annual capital expenditure on new line construction, electrification, and infrastructure upgrades",
+      "Station and facility data: number of operating railway stations, maintenance depots, and freight terminals",
+      "Safety statistics: number of railway accidents, casualties, and near-miss incidents by category",
+      "Industry employment: total workforce in the national railway system by function"
+    ],
+    "zh": [
+      "铁路网里程：全国铁路营业里程，按高铁（250公里/小时及以上）、电气化铁路、复线及区域分布细分",
+      "旅客统计：旅客发送量、旅客周转量、平均运距，以及高铁与普铁分类数据",
+      "货物统计：货物发送量（万吨）、货物周转量、货物品类（煤炭、粮食、钢铁、集装箱）及主要通道运量",
+      "机车车辆保有量：在役机车、动车组、客车和货车数量",
+      "固定资产投资：新线建设、电气化改造和基础设施提升年度资本支出",
+      "车站及设施数据：运营铁路客站、维修基地和货运站数量",
+      "安全统计：按类别分类的铁路事故数量、人员伤亡及险情情况",
+      "行业就业：全国铁路系统按职能分类的从业人员总数"
+    ]
+  }
+}
