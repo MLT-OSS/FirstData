@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T02:10:49.420691+00:00",
+    "generated_at": "2026-04-06T06:18:51.069756+00:00",
     "total_domains": 706,
-    "total_sources": 379,
+    "total_sources": 383,
     "version": "2.0"
   },
   "domains": {
@@ -2380,6 +2380,18 @@
         "data_url": "https://www.amac.org.cn/informationpublicity/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-amac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cffex",
+        "name": {
+          "en": "China Financial Futures Exchange",
+          "zh": "中国金融期货交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cffex.com.cn/sjzx/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-cffex.json",
         "geographic_scope": "national"
       },
       {
@@ -7233,6 +7245,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnia",
+        "name": {
+          "en": "China Nonferrous Metals Industry Association",
+          "zh": "中国有色金属工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mnr-minerals",
         "name": {
           "en": "Ministry of Natural Resources - Mineral Resources Data",
@@ -11907,6 +11931,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cffex",
+        "name": {
+          "en": "China Financial Futures Exchange",
+          "zh": "中国金融期货交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cffex.com.cn/sjzx/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-cffex.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nafmii",
         "name": {
           "en": "National Association of Financial Market Institutional Investors",
@@ -14020,6 +14056,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ncac",
+        "name": {
+          "en": "National Copyright Administration of China",
+          "zh": "国家版权局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ncac.gov.cn/chinacopyright/channels/634.html",
+        "has_api": false,
+        "file_path": "china/governance/china-ncac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nia",
         "name": {
           "en": "National Immigration Administration of China",
@@ -14451,6 +14499,18 @@
         "has_api": true,
         "file_path": "academic/multidisciplinary/owid.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-natcm",
+        "name": {
+          "en": "National Administration of Traditional Chinese Medicine",
+          "zh": "国家中医药管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.natcm.gov.cn/guihuacaiwusi/gongzuodongtai/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-natcm.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-ndcpa",
@@ -16018,6 +16078,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnia",
+        "name": {
+          "en": "China Nonferrous Metals Industry Association",
+          "zh": "中国有色金属工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-miit-rare-earth",
         "name": {
           "en": "MIIT Rare Earth Office - Rare Earth Industry Regulation and Production Quotas",
@@ -16993,6 +17065,18 @@
       }
     ],
     "intellectual-property": [
+      {
+        "id": "china-ncac",
+        "name": {
+          "en": "National Copyright Administration of China",
+          "zh": "国家版权局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ncac.gov.cn/chinacopyright/channels/634.html",
+        "has_api": false,
+        "file_path": "china/governance/china-ncac.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-cnipa-patents",
         "name": {
@@ -21858,6 +21942,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-cnia",
+        "name": {
+          "en": "China Nonferrous Metals Industry Association",
+          "zh": "中国有色金属工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-miit-rare-earth",
         "name": {
           "en": "MIIT Rare Earth Office - Rare Earth Industry Regulation and Production Quotas",
@@ -22757,6 +22853,18 @@
         "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
         "has_api": false,
         "file_path": "china/governance/sports/china-gas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-natcm",
+        "name": {
+          "en": "National Administration of Traditional Chinese Medicine",
+          "zh": "国家中医药管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.natcm.gov.cn/guihuacaiwusi/gongzuodongtai/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-natcm.json",
         "geographic_scope": "national"
       },
       {
@@ -24720,6 +24828,18 @@
         "has_api": false,
         "file_path": "china/economy/provincial/china-gz-stats.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-ncac",
+        "name": {
+          "en": "National Copyright Administration of China",
+          "zh": "国家版权局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ncac.gov.cn/chinacopyright/channels/634.html",
+        "has_api": false,
+        "file_path": "china/governance/china-ncac.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-nrta",

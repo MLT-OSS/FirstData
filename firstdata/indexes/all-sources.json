@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T02:10:49.420691+00:00",
-    "total_sources": 379,
+    "generated_at": "2026-04-06T06:18:51.069756+00:00",
+    "total_sources": 383,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -6348,6 +6348,84 @@
       "file_path": "china/finance/capital-markets/china-cfa.json"
     },
     {
+      "id": "china-cffex",
+      "name": {
+        "en": "China Financial Futures Exchange",
+        "zh": "中国金融期货交易所"
+      },
+      "description": {
+        "en": "The China Financial Futures Exchange (CFFEX) is the sole financial futures exchange in mainland China, established in 2006 under the supervision of the China Securities Regulatory Commission. CFFEX lists and trades stock index futures (CSI 300, CSI 500, CSI 1000, SSE 50), treasury bond futures (2-year, 5-year, 10-year, 30-year), and stock index options. It publishes daily trading data, open interest, settlement prices, and position reports for all listed contracts. CFFEX's market data is essential for institutional investors, risk management practitioners, hedging strategy research, and macro financial analysis of China's capital markets.",
+        "zh": "中国金融期货交易所（中金所）是中国内地唯一的金融期货交易所，2006年在中国证券监督管理委员会监管下成立。中金所上市并交易股指期货（沪深300、中证500、中证1000、上证50）、国债期货（2年期、5年期、10年期、30年期）和股指期权合约，每日发布所有上市合约的成交数据、持仓量、结算价及持仓报告。中金所市场数据对机构投资者、风险管理从业者、套期保值策略研究及中国资本市场宏观金融分析具有重要价值。"
+      },
+      "website": "https://www.cffex.com.cn/",
+      "data_url": "https://www.cffex.com.cn/sjzx/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "中国金融期货交易所",
+        "CFFEX",
+        "China Financial Futures Exchange",
+        "中金所",
+        "股指期货",
+        "stock index futures",
+        "国债期货",
+        "treasury bond futures",
+        "沪深300",
+        "CSI 300",
+        "中证500",
+        "CSI 500",
+        "上证50",
+        "SSE 50",
+        "股指期权",
+        "stock index options",
+        "期货",
+        "futures",
+        "金融衍生品",
+        "financial derivatives",
+        "持仓量",
+        "open interest",
+        "结算价",
+        "settlement price",
+        "资本市场",
+        "capital markets",
+        "风险对冲",
+        "hedging"
+      ],
+      "data_content": {
+        "en": [
+          "Daily trading statistics - trading volume, open interest, and settlement prices for all listed futures and options contracts",
+          "Stock index futures - CSI 300, CSI 500, CSI 1000, SSE 50 index futures daily data and historical series",
+          "Treasury bond futures - 2-year, 5-year, 10-year, and 30-year government bond futures prices and volumes",
+          "Stock index options - CSI 300 options open interest, implied volatility, and put-call ratio data",
+          "Participant position reports - top 20 long and short position holders by contract",
+          "Market statistics reports - monthly and annual summaries of trading activity",
+          "Contract specifications and margin requirements - official rules and parameters for all listed products",
+          "Delivery and settlement data - physical delivery records and final settlement prices",
+          "Historical data downloads - tick-by-tick and daily OHLCV data for all expired and active contracts"
+        ],
+        "zh": [
+          "每日交易统计 - 所有上市期货和期权合约的成交量、持仓量及结算价",
+          "股指期货 - 沪深300、中证500、中证1000、上证50股指期货每日数据及历史序列",
+          "国债期货 - 2年期、5年期、10年期和30年期国债期货价格及成交量",
+          "股指期权 - 沪深300期权持仓量、隐含波动率和认购/认沽比率数据",
+          "持仓报告 - 各合约前20名多空头持仓数据",
+          "市场统计报告 - 交易活动月度和年度汇总",
+          "合约规格及保证金要求 - 所有上市产品的官方规则及参数",
+          "交割与结算数据 - 实物交割记录及最终结算价",
+          "历史数据下载 - 所有已摘牌及活跃合约的逐笔和日频OHLCV数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-cffex.json"
+    },
+    {
       "id": "china-nafmii",
       "name": {
         "en": "National Association of Financial Market Institutional Investors",
@@ -7370,6 +7448,78 @@
       "file_path": "china/governance/china-mva.json"
     },
     {
+      "id": "china-ncac",
+      "name": {
+        "en": "National Copyright Administration of China",
+        "zh": "国家版权局"
+      },
+      "description": {
+        "en": "The National Copyright Administration of China (NCAC) is the central government authority responsible for copyright protection, administration, and enforcement. NCAC oversees the registration of copyrights for literary, artistic, and software works, handles copyright complaints and anti-piracy actions, and participates in international copyright treaties. It publishes annual statistics on copyright registrations, software copyright grants, copyright protection actions, and the copyright industry's contribution to the national economy. NCAC's China Copyright Protection Center (CCPC) operates the national copyright registration database and issues official copyright certificates.",
+        "zh": "国家版权局是负责版权保护、管理和执法的中央政府主管部门。版权局主管文学、艺术和软件作品的版权登记，受理版权投诉，开展打击侵权盗版行动，并参与国际版权条约事务。版权局发布版权登记、软件著作权授权、版权保护行动及版权产业对国民经济贡献的年度统计数据。国家版权局下属的中国版权保护中心负责运营全国版权登记数据库并颁发版权登记证书。"
+      },
+      "website": "https://www.ncac.gov.cn/",
+      "data_url": "https://www.ncac.gov.cn/chinacopyright/channels/634.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "intellectual-property",
+        "governance",
+        "technology"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "国家版权局",
+        "NCAC",
+        "National Copyright Administration",
+        "版权登记",
+        "copyright registration",
+        "软件著作权",
+        "software copyright",
+        "著作权",
+        "copyright",
+        "知识产权",
+        "intellectual property",
+        "版权保护",
+        "copyright protection",
+        "反盗版",
+        "anti-piracy",
+        "版权产业",
+        "copyright industry",
+        "中国版权保护中心",
+        "CCPC",
+        "版权执法",
+        "copyright enforcement",
+        "文化产业",
+        "cultural industry"
+      ],
+      "data_content": {
+        "en": [
+          "Annual copyright registration statistics - total registrations by work type (literary, artistic, musical, cinematographic, software)",
+          "Software copyright grant statistics - number of software copyright certificates issued by industry and region",
+          "Copyright protection enforcement - anti-piracy campaign results, cases investigated, infringing goods seized",
+          "Copyright industry economic contribution - value-added output, employment, and share of GDP",
+          "International copyright affairs - bilateral copyright agreements, enforcement cooperation data",
+          "Copyright complaint and dispute statistics - number of administrative complaints and adjudications",
+          "Online copyright monitoring reports - infringement detection across digital platforms and e-commerce",
+          "Annual China Copyright Development Report (中国版权年度报告)"
+        ],
+        "zh": [
+          "年度版权登记统计 - 按作品类别（文字、美术、音乐、电影、软件）分类的登记总量",
+          "软件著作权授权统计 - 按行业和地区分类的软件著作权证书发放量",
+          "版权保护执法 - 打击侵权盗版专项行动成果、案件查处及查获侵权品数量",
+          "版权产业经济贡献 - 增加值产出、就业人数及占GDP比重",
+          "国际版权事务 - 双边版权协议及执法合作数据",
+          "版权投诉及争议统计 - 行政投诉和裁决数量",
+          "网络版权监测报告 - 数字平台和电商侵权监测情况",
+          "年度中国版权发展报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-ncac.json"
+    },
+    {
       "id": "china-nia",
       "name": {
         "en": "National Immigration Administration of China",
@@ -7722,6 +7872,82 @@
       },
       "has_api": false,
       "file_path": "china/governance/sports/china-gas.json"
+    },
+    {
+      "id": "china-natcm",
+      "name": {
+        "en": "National Administration of Traditional Chinese Medicine",
+        "zh": "国家中医药管理局"
+      },
+      "description": {
+        "en": "The National Administration of Traditional Chinese Medicine (NATCM) is China's government authority for regulating, developing, and promoting Traditional Chinese Medicine (TCM) and ethnic minority medicine. NATCM publishes official statistics on TCM institutions, practitioners, hospital visits, and industry development through its annual National TCM Statistics Yearbook (全国中医药统计摘编). It oversees TCM education standards, clinical practice guidelines, and international TCM cooperation. As TCM plays an increasingly important role in China's healthcare system and global health diplomacy, NATCM's data is essential for understanding TCM's integration into mainstream healthcare and its contributions to China's health economy.",
+        "zh": "国家中医药管理局是负责监管、发展和推广中医药及民族医药的中国政府主管部门。管理局通过《全国中医药统计摘编》发布中医医疗机构、中医执业人员、中医就诊人次及产业发展等官方统计数据，并负责中医药教育标准制定、临床实践规范和国际中医药合作。随着中医药在中国医疗卫生体系和全球卫生外交中的地位日益凸显，管理局数据对了解中医药融入主流医疗体系及其对中国卫生经济的贡献具有重要价值。"
+      },
+      "website": "https://www.natcm.gov.cn/",
+      "data_url": "https://www.natcm.gov.cn/guihuacaiwusi/gongzuodongtai/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "social"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "国家中医药管理局",
+        "NATCM",
+        "National Administration of Traditional Chinese Medicine",
+        "中医药",
+        "traditional Chinese medicine",
+        "TCM",
+        "中医医院",
+        "TCM hospitals",
+        "中医执业医师",
+        "TCM practitioners",
+        "中药",
+        "Chinese herbal medicine",
+        "针灸",
+        "acupuncture",
+        "民族医药",
+        "ethnic minority medicine",
+        "中医药产业",
+        "TCM industry",
+        "中医教育",
+        "TCM education",
+        "中医统计",
+        "TCM statistics",
+        "中医就诊",
+        "TCM visits",
+        "中医科研",
+        "TCM research"
+      ],
+      "data_content": {
+        "en": [
+          "TCM medical institutions - number of TCM hospitals, clinics, and integrated Chinese-Western medicine hospitals by type and region",
+          "TCM workforce statistics - licensed TCM physicians, pharmacists, nurses, and other health workers",
+          "TCM service utilization - outpatient visits, inpatient admissions, and bed occupancy at TCM facilities",
+          "TCM education and training - TCM university enrollment, graduates, and continuing education statistics",
+          "TCM pharmaceutical industry - output value of Chinese patent medicines, herbal preparations, and related products",
+          "TCM scientific research - national R&D projects, publications, and key laboratory statistics",
+          "International TCM cooperation - overseas TCM centers, medical teams dispatched, and treaty agreements",
+          "TCM standardization - number of TCM clinical practice guidelines and quality standards issued",
+          "Annual National TCM Statistics Yearbook (全国中医药统计摘编)"
+        ],
+        "zh": [
+          "中医医疗机构 - 按类型和地区分类的中医医院、中医诊所和中西医结合医院数量",
+          "中医药从业人员统计 - 执业中医师、药师、护士及其他卫生人员数量",
+          "中医服务利用 - 中医医疗机构门诊量、住院人次及床位使用率",
+          "中医药教育培训 - 中医药院校在校生、毕业生及继续教育统计",
+          "中医药产业 - 中成药、中药饮片及相关产品产值",
+          "中医药科研 - 国家科研项目、发表论文及重点实验室统计",
+          "国际中医药合作 - 海外中医中心、派遣医疗队及协议情况",
+          "中医药标准化 - 发布的中医临床实践指南和质量标准数量",
+          "全国中医药统计摘编年鉴"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-natcm.json"
     },
     {
       "id": "china-ndcpa",
@@ -9202,6 +9428,90 @@
       },
       "has_api": false,
       "file_path": "china/resources/forestry/china-nfga.json"
+    },
+    {
+      "id": "china-cnia",
+      "name": {
+        "en": "China Nonferrous Metals Industry Association",
+        "zh": "中国有色金属工业协会"
+      },
+      "description": {
+        "en": "The China Nonferrous Metals Industry Association (CNIA) is the national industry association representing China's nonferrous metals sector, the world's largest producer of aluminium, copper, zinc, lead, nickel, tin, and rare earths. CNIA publishes authoritative monthly and annual statistics on production volumes, consumption, imports and exports, prices, and enterprise performance for 10 major nonferrous metals. It tracks smelting capacity, energy consumption per unit of output, and environmental compliance across the sector. CNIA's data is essential for global commodity pricing, supply chain analysis, EV battery materials tracking, and green energy transition research.",
+        "zh": "中国有色金属工业协会是代表中国有色金属行业的全国性行业组织。中国是全球最大的铝、铜、锌、铅、镍、锡和稀土生产国。协会发布10种主要有色金属的产量、消费量、进出口量、价格及企业运营情况等权威月度和年度统计数据，并追踪全行业冶炼产能、单位产品能耗和环保合规情况。协会数据对全球大宗商品定价、供应链分析、新能源汽车电池材料追踪及绿色能源转型研究具有重要价值。"
+      },
+      "website": "https://www.chinania.org.cn/",
+      "data_url": "https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "resources",
+        "industry",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国有色金属工业协会",
+        "CNIA",
+        "China Nonferrous Metals Industry Association",
+        "有色金属",
+        "nonferrous metals",
+        "铝",
+        "aluminium",
+        "铜",
+        "copper",
+        "锌",
+        "zinc",
+        "铅",
+        "lead",
+        "镍",
+        "nickel",
+        "锡",
+        "tin",
+        "稀土",
+        "rare earth",
+        "钴",
+        "cobalt",
+        "锂",
+        "lithium",
+        "新能源电池",
+        "EV battery materials",
+        "冶炼产能",
+        "smelting capacity",
+        "有色金属价格",
+        "nonferrous metal prices",
+        "大宗商品",
+        "commodity"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly production statistics - output of 10 major nonferrous metals: aluminium, copper, zinc, lead, nickel, tin, antimony, magnesium, titanium, and cobalt",
+          "Consumption data - domestic consumption of nonferrous metals by end-use sector (construction, electronics, automotive, packaging)",
+          "Import and export volumes - trade data for primary metals, alloys, scrap, and semi-finished products",
+          "Price indices - SHFE spot prices, long-term contract prices, and CNIA price benchmarks",
+          "Enterprise performance - revenue, profit, and capacity utilization of major smelters and fabricators",
+          "Energy consumption - unit energy intensity per tonne of metal produced, electrolysis efficiency",
+          "Environmental compliance - emissions, solid waste, and wastewater discharge statistics by sub-sector",
+          "Rare earth production and export quotas - monthly output by compound type and producing region",
+          "Lithium and battery materials - lithium carbonate, cobalt, and nickel sulfate supply chain data",
+          "Annual China Nonferrous Metals Industry Yearbook (中国有色金属工业年鉴)"
+        ],
+        "zh": [
+          "月度产量统计 - 铝、铜、锌、铅、镍、锡、锑、镁、钛、钴等10种主要有色金属产量",
+          "消费数据 - 按最终用途行业（建筑、电子、汽车、包装）分类的有色金属国内消费量",
+          "进出口量 - 原生金属、合金、废料和半成品贸易数据",
+          "价格指数 - 上期所现货价格、长期合同价格及中国有色金属工业协会价格基准",
+          "企业运营 - 主要冶炼商和加工商的营业收入、利润及产能利用率",
+          "能耗数据 - 单位金属产品能耗强度、电解槽效率",
+          "环保合规 - 按子行业分类的排放量、固体废物及废水排放统计",
+          "稀土产量及出口配额 - 按化合物类型和产区分类的月度产量",
+          "锂和电池材料 - 碳酸锂、钴、硫酸镍供应链数据",
+          "中国有色金属工业年鉴"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/mineral/china-cnia.json"
     },
     {
       "id": "china-miit-rare-earth",
