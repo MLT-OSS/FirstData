@@ -1,0 +1,76 @@
+{
+  "id": "china-cfpa",
+  "name": {
+    "en": "Chinese Academy of Fiscal Sciences",
+    "zh": "中国财政科学研究院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Fiscal Sciences (CFPA), formerly the Research Institute for Fiscal Science under the Ministry of Finance, is China's premier government-affiliated research institution for fiscal and tax policy. CFPA conducts authoritative research on fiscal policy, tax system reform, government debt, local government finance, and public expenditure efficiency. It publishes flagship annual reports including the China Fiscal Development Report (中国财政发展报告) and tax blue books, as well as policy briefs and working papers widely cited by policymakers and academics. CFPA's research directly informs China's fiscal reform agenda and budget management innovations.",
+    "zh": "中国财政科学研究院（原财政部财政科学研究所）是中国财政税收政策领域最权威的政府附属科研机构。研究院开展财政政策、税制改革、政府债务、地方政府财政及公共支出效率等方面的权威研究，发布《中国财政发展报告》和税收蓝皮书等旗舰年度报告，以及被政策制定者和学术界广泛引用的政策简报和工作论文。研究院的研究成果直接服务于中国财政改革议程和预算管理创新。"
+  },
+  "website": "https://www.cfpa.org.cn/",
+  "data_url": "https://www.cfpa.org.cn/cgsyj/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国财政科学研究院",
+    "CFPA",
+    "Chinese Academy of Fiscal Sciences",
+    "财政政策",
+    "fiscal policy",
+    "税制改革",
+    "tax reform",
+    "政府债务",
+    "government debt",
+    "地方政府财政",
+    "local government finance",
+    "公共支出",
+    "public expenditure",
+    "财政发展报告",
+    "China Fiscal Development Report",
+    "税收蓝皮书",
+    "tax blue book",
+    "预算管理",
+    "budget management",
+    "转移支付",
+    "transfer payments",
+    "土地财政",
+    "land finance",
+    "地方政府融资",
+    "local government financing",
+    "财政研究",
+    "fiscal research"
+  ],
+  "data_content": {
+    "en": [
+      "Annual China Fiscal Development Report - comprehensive analysis of fiscal revenue, expenditure, deficits, and policy direction",
+      "Tax blue books - in-depth analysis of China's tax system, VAT reform progress, corporate and individual tax trends",
+      "Government debt monitoring - local government debt levels, financing platform (LGFV) risks, and debt sustainability analysis",
+      "Public expenditure efficiency studies - sector-by-sector assessment of education, health, and social security spending",
+      "Intergovernmental fiscal relations - central-local transfer payments, tax sharing arrangements, and equalization data",
+      "Land finance research - land transfer revenues, their role in local budgets, and reform implications",
+      "Fiscal policy simulation models - revenue forecasting and multiplier effect analysis",
+      "Working papers and policy briefs on tax reform, fiscal decentralization, and budget transparency",
+      "Surveys of enterprise tax burden and compliance costs"
+    ],
+    "zh": [
+      "中国财政发展报告 - 财政收入、支出、赤字及政策走向综合分析",
+      "税收蓝皮书 - 中国税制深度分析、增值税改革进展、企业和个人税收趋势",
+      "政府债务监测 - 地方政府债务水平、融资平台风险及债务可持续性分析",
+      "公共支出效率研究 - 教育、卫生和社会保障支出的逐行业评估",
+      "政府间财政关系 - 中央对地方转移支付、税收分成及均等化数据",
+      "土地财政研究 - 土地出让收入、其在地方预算中的作用及改革影响",
+      "财政政策模拟模型 - 收入预测及乘数效应分析",
+      "税制改革、财政分权和预算透明度工作论文及政策简报",
+      "企业税负及合规成本调查"
+    ]
+  }
+}

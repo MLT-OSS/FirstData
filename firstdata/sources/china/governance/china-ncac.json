@@ -1,0 +1,70 @@
+{
+  "id": "china-ncac",
+  "name": {
+    "en": "National Copyright Administration of China",
+    "zh": "国家版权局"
+  },
+  "description": {
+    "en": "The National Copyright Administration of China (NCAC) is the central government authority responsible for copyright protection, administration, and enforcement. NCAC oversees the registration of copyrights for literary, artistic, and software works, handles copyright complaints and anti-piracy actions, and participates in international copyright treaties. It publishes annual statistics on copyright registrations, software copyright grants, copyright protection actions, and the copyright industry's contribution to the national economy. NCAC's China Copyright Protection Center (CCPC) operates the national copyright registration database and issues official copyright certificates.",
+    "zh": "国家版权局是负责版权保护、管理和执法的中央政府主管部门。版权局主管文学、艺术和软件作品的版权登记，受理版权投诉，开展打击侵权盗版行动，并参与国际版权条约事务。版权局发布版权登记、软件著作权授权、版权保护行动及版权产业对国民经济贡献的年度统计数据。国家版权局下属的中国版权保护中心负责运营全国版权登记数据库并颁发版权登记证书。"
+  },
+  "website": "https://www.ncac.gov.cn/",
+  "data_url": "https://www.ncac.gov.cn/chinacopyright/channels/634.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "intellectual-property",
+    "governance",
+    "technology"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家版权局",
+    "NCAC",
+    "National Copyright Administration",
+    "版权登记",
+    "copyright registration",
+    "软件著作权",
+    "software copyright",
+    "著作权",
+    "copyright",
+    "知识产权",
+    "intellectual property",
+    "版权保护",
+    "copyright protection",
+    "反盗版",
+    "anti-piracy",
+    "版权产业",
+    "copyright industry",
+    "中国版权保护中心",
+    "CCPC",
+    "版权执法",
+    "copyright enforcement",
+    "文化产业",
+    "cultural industry"
+  ],
+  "data_content": {
+    "en": [
+      "Annual copyright registration statistics - total registrations by work type (literary, artistic, musical, cinematographic, software)",
+      "Software copyright grant statistics - number of software copyright certificates issued by industry and region",
+      "Copyright protection enforcement - anti-piracy campaign results, cases investigated, infringing goods seized",
+      "Copyright industry economic contribution - value-added output, employment, and share of GDP",
+      "International copyright affairs - bilateral copyright agreements, enforcement cooperation data",
+      "Copyright complaint and dispute statistics - number of administrative complaints and adjudications",
+      "Online copyright monitoring reports - infringement detection across digital platforms and e-commerce",
+      "Annual China Copyright Development Report (中国版权年度报告)"
+    ],
+    "zh": [
+      "年度版权登记统计 - 按作品类别（文字、美术、音乐、电影、软件）分类的登记总量",
+      "软件著作权授权统计 - 按行业和地区分类的软件著作权证书发放量",
+      "版权保护执法 - 打击侵权盗版专项行动成果、案件查处及查获侵权品数量",
+      "版权产业经济贡献 - 增加值产出、就业人数及占GDP比重",
+      "国际版权事务 - 双边版权协议及执法合作数据",
+      "版权投诉及争议统计 - 行政投诉和裁决数量",
+      "网络版权监测报告 - 数字平台和电商侵权监测情况",
+      "年度中国版权发展报告"
+    ]
+  }
+}
