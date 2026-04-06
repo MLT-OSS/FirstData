@@ -1,0 +1,82 @@
+{
+  "id": "china-cnia",
+  "name": {
+    "en": "China Nonferrous Metals Industry Association",
+    "zh": "中国有色金属工业协会"
+  },
+  "description": {
+    "en": "The China Nonferrous Metals Industry Association (CNIA) is the national industry association representing China's nonferrous metals sector, the world's largest producer of aluminium, copper, zinc, lead, nickel, tin, and rare earths. CNIA publishes authoritative monthly and annual statistics on production volumes, consumption, imports and exports, prices, and enterprise performance for 10 major nonferrous metals. It tracks smelting capacity, energy consumption per unit of output, and environmental compliance across the sector. CNIA's data is essential for global commodity pricing, supply chain analysis, EV battery materials tracking, and green energy transition research.",
+    "zh": "中国有色金属工业协会是代表中国有色金属行业的全国性行业组织。中国是全球最大的铝、铜、锌、铅、镍、锡和稀土生产国。协会发布10种主要有色金属的产量、消费量、进出口量、价格及企业运营情况等权威月度和年度统计数据，并追踪全行业冶炼产能、单位产品能耗和环保合规情况。协会数据对全球大宗商品定价、供应链分析、新能源汽车电池材料追踪及绿色能源转型研究具有重要价值。"
+  },
+  "website": "https://www.chinania.org.cn/",
+  "data_url": "https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "resources",
+    "industry",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国有色金属工业协会",
+    "CNIA",
+    "China Nonferrous Metals Industry Association",
+    "有色金属",
+    "nonferrous metals",
+    "铝",
+    "aluminium",
+    "铜",
+    "copper",
+    "锌",
+    "zinc",
+    "铅",
+    "lead",
+    "镍",
+    "nickel",
+    "锡",
+    "tin",
+    "稀土",
+    "rare earth",
+    "钴",
+    "cobalt",
+    "锂",
+    "lithium",
+    "新能源电池",
+    "EV battery materials",
+    "冶炼产能",
+    "smelting capacity",
+    "有色金属价格",
+    "nonferrous metal prices",
+    "大宗商品",
+    "commodity"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly production statistics - output of 10 major nonferrous metals: aluminium, copper, zinc, lead, nickel, tin, antimony, magnesium, titanium, and cobalt",
+      "Consumption data - domestic consumption of nonferrous metals by end-use sector (construction, electronics, automotive, packaging)",
+      "Import and export volumes - trade data for primary metals, alloys, scrap, and semi-finished products",
+      "Price indices - SHFE spot prices, long-term contract prices, and CNIA price benchmarks",
+      "Enterprise performance - revenue, profit, and capacity utilization of major smelters and fabricators",
+      "Energy consumption - unit energy intensity per tonne of metal produced, electrolysis efficiency",
+      "Environmental compliance - emissions, solid waste, and wastewater discharge statistics by sub-sector",
+      "Rare earth production and export quotas - monthly output by compound type and producing region",
+      "Lithium and battery materials - lithium carbonate, cobalt, and nickel sulfate supply chain data",
+      "Annual China Nonferrous Metals Industry Yearbook (中国有色金属工业年鉴)"
+    ],
+    "zh": [
+      "月度产量统计 - 铝、铜、锌、铅、镍、锡、锑、镁、钛、钴等10种主要有色金属产量",
+      "消费数据 - 按最终用途行业（建筑、电子、汽车、包装）分类的有色金属国内消费量",
+      "进出口量 - 原生金属、合金、废料和半成品贸易数据",
+      "价格指数 - 上期所现货价格、长期合同价格及中国有色金属工业协会价格基准",
+      "企业运营 - 主要冶炼商和加工商的营业收入、利润及产能利用率",
+      "能耗数据 - 单位金属产品能耗强度、电解槽效率",
+      "环保合规 - 按子行业分类的排放量、固体废物及废水排放统计",
+      "稀土产量及出口配额 - 按化合物类型和产区分类的月度产量",
+      "锂和电池材料 - 碳酸锂、钴、硫酸镍供应链数据",
+      "中国有色金属工业年鉴"
+    ]
+  }
+}

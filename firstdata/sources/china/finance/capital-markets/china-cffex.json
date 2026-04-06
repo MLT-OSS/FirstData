@@ -1,0 +1,76 @@
+{
+  "id": "china-cffex",
+  "name": {
+    "en": "China Financial Futures Exchange",
+    "zh": "中国金融期货交易所"
+  },
+  "description": {
+    "en": "The China Financial Futures Exchange (CFFEX) is the sole financial futures exchange in mainland China, established in 2006 under the supervision of the China Securities Regulatory Commission. CFFEX lists and trades stock index futures (CSI 300, CSI 500, CSI 1000, SSE 50), treasury bond futures (2-year, 5-year, 10-year, 30-year), and stock index options. It publishes daily trading data, open interest, settlement prices, and position reports for all listed contracts. CFFEX's market data is essential for institutional investors, risk management practitioners, hedging strategy research, and macro financial analysis of China's capital markets.",
+    "zh": "中国金融期货交易所（中金所）是中国内地唯一的金融期货交易所，2006年在中国证券监督管理委员会监管下成立。中金所上市并交易股指期货（沪深300、中证500、中证1000、上证50）、国债期货（2年期、5年期、10年期、30年期）和股指期权合约，每日发布所有上市合约的成交数据、持仓量、结算价及持仓报告。中金所市场数据对机构投资者、风险管理从业者、套期保值策略研究及中国资本市场宏观金融分析具有重要价值。"
+  },
+  "website": "https://www.cffex.com.cn/",
+  "data_url": "https://www.cffex.com.cn/sjzx/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "中国金融期货交易所",
+    "CFFEX",
+    "China Financial Futures Exchange",
+    "中金所",
+    "股指期货",
+    "stock index futures",
+    "国债期货",
+    "treasury bond futures",
+    "沪深300",
+    "CSI 300",
+    "中证500",
+    "CSI 500",
+    "上证50",
+    "SSE 50",
+    "股指期权",
+    "stock index options",
+    "期货",
+    "futures",
+    "金融衍生品",
+    "financial derivatives",
+    "持仓量",
+    "open interest",
+    "结算价",
+    "settlement price",
+    "资本市场",
+    "capital markets",
+    "风险对冲",
+    "hedging"
+  ],
+  "data_content": {
+    "en": [
+      "Daily trading statistics - trading volume, open interest, and settlement prices for all listed futures and options contracts",
+      "Stock index futures - CSI 300, CSI 500, CSI 1000, SSE 50 index futures daily data and historical series",
+      "Treasury bond futures - 2-year, 5-year, 10-year, and 30-year government bond futures prices and volumes",
+      "Stock index options - CSI 300 options open interest, implied volatility, and put-call ratio data",
+      "Participant position reports - top 20 long and short position holders by contract",
+      "Market statistics reports - monthly and annual summaries of trading activity",
+      "Contract specifications and margin requirements - official rules and parameters for all listed products",
+      "Delivery and settlement data - physical delivery records and final settlement prices",
+      "Historical data downloads - tick-by-tick and daily OHLCV data for all expired and active contracts"
+    ],
+    "zh": [
+      "每日交易统计 - 所有上市期货和期权合约的成交量、持仓量及结算价",
+      "股指期货 - 沪深300、中证500、中证1000、上证50股指期货每日数据及历史序列",
+      "国债期货 - 2年期、5年期、10年期和30年期国债期货价格及成交量",
+      "股指期权 - 沪深300期权持仓量、隐含波动率和认购/认沽比率数据",
+      "持仓报告 - 各合约前20名多空头持仓数据",
+      "市场统计报告 - 交易活动月度和年度汇总",
+      "合约规格及保证金要求 - 所有上市产品的官方规则及参数",
+      "交割与结算数据 - 实物交割记录及最终结算价",
+      "历史数据下载 - 所有已摘牌及活跃合约的逐笔和日频OHLCV数据"
+    ]
+  }
+}

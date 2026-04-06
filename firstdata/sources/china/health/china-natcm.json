@@ -1,0 +1,74 @@
+{
+  "id": "china-natcm",
+  "name": {
+    "en": "National Administration of Traditional Chinese Medicine",
+    "zh": "国家中医药管理局"
+  },
+  "description": {
+    "en": "The National Administration of Traditional Chinese Medicine (NATCM) is China's government authority for regulating, developing, and promoting Traditional Chinese Medicine (TCM) and ethnic minority medicine. NATCM publishes official statistics on TCM institutions, practitioners, hospital visits, and industry development through its annual National TCM Statistics Yearbook (全国中医药统计摘编). It oversees TCM education standards, clinical practice guidelines, and international TCM cooperation. As TCM plays an increasingly important role in China's healthcare system and global health diplomacy, NATCM's data is essential for understanding TCM's integration into mainstream healthcare and its contributions to China's health economy.",
+    "zh": "国家中医药管理局是负责监管、发展和推广中医药及民族医药的中国政府主管部门。管理局通过《全国中医药统计摘编》发布中医医疗机构、中医执业人员、中医就诊人次及产业发展等官方统计数据，并负责中医药教育标准制定、临床实践规范和国际中医药合作。随着中医药在中国医疗卫生体系和全球卫生外交中的地位日益凸显，管理局数据对了解中医药融入主流医疗体系及其对中国卫生经济的贡献具有重要价值。"
+  },
+  "website": "https://www.natcm.gov.cn/",
+  "data_url": "https://www.natcm.gov.cn/guihuacaiwusi/gongzuodongtai/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "social"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家中医药管理局",
+    "NATCM",
+    "National Administration of Traditional Chinese Medicine",
+    "中医药",
+    "traditional Chinese medicine",
+    "TCM",
+    "中医医院",
+    "TCM hospitals",
+    "中医执业医师",
+    "TCM practitioners",
+    "中药",
+    "Chinese herbal medicine",
+    "针灸",
+    "acupuncture",
+    "民族医药",
+    "ethnic minority medicine",
+    "中医药产业",
+    "TCM industry",
+    "中医教育",
+    "TCM education",
+    "中医统计",
+    "TCM statistics",
+    "中医就诊",
+    "TCM visits",
+    "中医科研",
+    "TCM research"
+  ],
+  "data_content": {
+    "en": [
+      "TCM medical institutions - number of TCM hospitals, clinics, and integrated Chinese-Western medicine hospitals by type and region",
+      "TCM workforce statistics - licensed TCM physicians, pharmacists, nurses, and other health workers",
+      "TCM service utilization - outpatient visits, inpatient admissions, and bed occupancy at TCM facilities",
+      "TCM education and training - TCM university enrollment, graduates, and continuing education statistics",
+      "TCM pharmaceutical industry - output value of Chinese patent medicines, herbal preparations, and related products",
+      "TCM scientific research - national R&D projects, publications, and key laboratory statistics",
+      "International TCM cooperation - overseas TCM centers, medical teams dispatched, and treaty agreements",
+      "TCM standardization - number of TCM clinical practice guidelines and quality standards issued",
+      "Annual National TCM Statistics Yearbook (全国中医药统计摘编)"
+    ],
+    "zh": [
+      "中医医疗机构 - 按类型和地区分类的中医医院、中医诊所和中西医结合医院数量",
+      "中医药从业人员统计 - 执业中医师、药师、护士及其他卫生人员数量",
+      "中医服务利用 - 中医医疗机构门诊量、住院人次及床位使用率",
+      "中医药教育培训 - 中医药院校在校生、毕业生及继续教育统计",
+      "中医药产业 - 中成药、中药饮片及相关产品产值",
+      "中医药科研 - 国家科研项目、发表论文及重点实验室统计",
+      "国际中医药合作 - 海外中医中心、派遣医疗队及协议情况",
+      "中医药标准化 - 发布的中医临床实践指南和质量标准数量",
+      "全国中医药统计摘编年鉴"
+    ]
+  }
+}
