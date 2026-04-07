@@ -1,0 +1,79 @@
+{
+  "id": "china-spp",
+  "name": {
+    "en": "Supreme People's Procuratorate of China",
+    "zh": "最高人民检察院"
+  },
+  "description": {
+    "en": "The Supreme People's Procuratorate (SPP) is China's highest procuratorial authority, responsible for legal supervision of the entire criminal justice system including investigation, prosecution, trial, and sentence execution. The SPP publishes comprehensive annual procuratorial statistics covering the full spectrum of criminal cases handled by prosecutors at all levels — district, intermediate, and provincial — across China's 31 provincial jurisdictions. Its statistical releases include data on criminal arrests, prosecutions, non-prosecution decisions, public interest litigation, and supervision of public officials. The SPP also issues white papers on specific crime types, anti-corruption prosecution outcomes, juvenile crime, and environmental protection enforcement. Through its public prosecution database and annual work report presented to the National People's Congress, the SPP provides authoritative data on China's criminal justice trends, enforcement priorities, and rule-of-law development.",
+    "zh": "最高人民检察院（最高检）是中国最高检察机关，负责对侦查、起诉、审判和刑罚执行全过程进行法律监督。最高检每年发布覆盖全国31个省级行政区各级（基层、中级、高级）检察院办理刑事案件情况的全面检察统计数据，内容涵盖逮捕、提起公诉、不起诉决定、公益诉讼和对公职人员的监督。最高检还就特定犯罪类型、反腐败起诉结果、未成年人犯罪和环境保护执法发布白皮书。通过公开的检察数据库和每年向全国人民代表大会提交的工作报告，最高检提供关于中国刑事司法趋势、执法重点和法治建设的权威数据。"
+  },
+  "website": "https://www.spp.gov.cn/",
+  "data_url": "https://www.spp.gov.cn/spp/jcdt/jcgzdt/index_1.shtml",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "law",
+    "social",
+    "regulatory"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "最高人民检察院",
+    "SPP",
+    "Supreme People's Procuratorate",
+    "检察统计",
+    "procuratorial statistics",
+    "刑事起诉",
+    "criminal prosecution",
+    "逮捕数据",
+    "arrest data",
+    "不起诉",
+    "non-prosecution",
+    "公益诉讼",
+    "public interest litigation",
+    "反腐败",
+    "anti-corruption",
+    "职务犯罪",
+    "duty crimes",
+    "未成年人犯罪",
+    "juvenile crime",
+    "环境违法",
+    "environmental enforcement",
+    "检察白皮书",
+    "procuratorial white paper",
+    "检察工作报告",
+    "procuratorial work report",
+    "刑事司法",
+    "criminal justice",
+    "法律监督",
+    "legal supervision",
+    "司法数据",
+    "judicial data"
+  ],
+  "data_content": {
+    "en": [
+      "Annual procuratorial statistics: case counts for arrests approved, prosecutions initiated, and non-prosecution decisions by crime category and provincial jurisdiction",
+      "Anti-corruption prosecution data: number of officials investigated and prosecuted for corruption, bribery, and dereliction of duty, including senior official cases",
+      "Criminal justice pipeline: data on cases transferred from public security to prosecution, prosecution rates, and conviction outcomes from court proceedings",
+      "Public interest litigation statistics: civil and administrative public interest cases filed by procuratorates in environmental, food safety, land, and state asset protection domains",
+      "Juvenile crime statistics: cases involving minors as offenders or victims, including trends in internet-related offenses and campus safety incidents",
+      "Environmental enforcement: prosecutions of illegal dumping, pollution discharge, poaching, and other environmental crimes under the Criminal Law",
+      "Financial and securities crimes: prosecution data on fraud, money laundering, securities manipulation, and corporate crime",
+      "Annual work reports to NPC: official annual reports to the National People's Congress summarizing prosecution outcomes, reform priorities, and rule-of-law indicators"
+    ],
+    "zh": [
+      "年度检察统计：按犯罪类型和省级行政区分列的批准逮捕、提起公诉和不起诉案件数量",
+      "反腐败起诉数据：被侦查和起诉的腐败、受贿及渎职公职人员数量，包括高级别案件",
+      "刑事司法流程：公安机关移送审查起诉案件数、起诉率和法院审判结果",
+      "公益诉讼统计：检察机关在环境、食品安全、土地和国有资产保护领域提起的民事和行政公益诉讼案件",
+      "未成年人犯罪统计：未成年人涉案（作为加害人或被害人）案件，包括网络犯罪和校园安全事件趋势",
+      "环境违法执法：依据《刑法》对非法排污、非法狩猎等环境犯罪的起诉数据",
+      "金融和证券犯罪：欺诈、洗钱、证券操纵和企业犯罪起诉数据",
+      "向全国人大工作报告：关于起诉结果、改革重点和法治指标的年度官方报告"
+    ]
+  }
+}

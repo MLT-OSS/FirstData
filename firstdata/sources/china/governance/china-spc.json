@@ -1,0 +1,77 @@
+{
+  "id": "china-spc",
+  "name": {
+    "en": "Supreme People's Court of China",
+    "zh": "最高人民法院"
+  },
+  "description": {
+    "en": "The Supreme People's Court (SPC) is China's highest judicial authority, responsible for supervising the administration of justice across all courts nationwide. The SPC publishes annual judicial statistics covering the entire Chinese court system, including case filings, disposals, and outcomes at the district, intermediate, and high court levels across all 31 provincial jurisdictions. Its public data includes criminal, civil, administrative, and enforcement case volumes; trial efficiency indicators; appeal rates; and the breakdown of disputes by type. The SPC also operates China Judgments Online (中国裁判文书网), the world's largest public database of court decisions, containing over 100 million judicial documents. Additionally, the SPC issues binding judicial interpretations that function as quasi-legislation, shaping the application of law throughout the judicial system.",
+    "zh": "最高人民法院是中国最高司法机关，负责监督全国各级法院的司法工作。最高人民法院每年发布覆盖全国法院体系的司法统计数据，包括全国31个省级行政区基层法院、中级法院和高级法院的案件受理、办结和裁判结果。公开数据涵盖刑事、民事、行政和执行案件数量、审判效率指标、上诉率及纠纷类型分布。最高人民法院还运营“中国裁判文书网”，这是全球最大的裁判文书公开数据库，收录逾1亿份司法文书。此外，最高人民法院发布具有约束力的司法解释，其效力准同法律，对全司法系统的法律适用产生重要影响。"
+  },
+  "website": "https://www.court.gov.cn/",
+  "data_url": "https://www.court.gov.cn/sfsj.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "law",
+    "social",
+    "regulatory"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "最高人民法院",
+    "SPC",
+    "Supreme People's Court",
+    "司法统计",
+    "judicial statistics",
+    "裁判文书",
+    "court decisions",
+    "中国裁判文书网",
+    "China Judgments Online",
+    "案件数据",
+    "case data",
+    "刑事案件",
+    "criminal cases",
+    "民事案件",
+    "civil cases",
+    "行政诉讼",
+    "administrative litigation",
+    "执行案件",
+    "enforcement cases",
+    "审判效率",
+    "trial efficiency",
+    "司法解释",
+    "judicial interpretations",
+    "法院数据",
+    "court data",
+    "诉讼统计",
+    "litigation statistics",
+    "司法公开",
+    "judicial transparency"
+  ],
+  "data_content": {
+    "en": [
+      "Annual judicial statistics: case filings, disposals, and backlogs for all courts (district/basic, intermediate, high, and supreme) nationwide",
+      "Case type breakdown: criminal, civil, commercial, intellectual property, administrative, maritime, and enforcement case volumes by jurisdiction",
+      "Trial outcomes: conviction rates, acquittal rates, mediation rates, and appeal rates for major case categories",
+      "Enforcement statistics: number and value of enforcement cases, enforcement success rates, and listing of dishonest debtors",
+      "China Judgments Online: full-text database of court decisions from all levels of Chinese courts (100M+ documents)",
+      "Judicial interpretation texts: all binding SPC interpretations and replies, with effective dates and subject matter",
+      "Court efficiency indicators: average case resolution time, case clearance rates, and cross-jurisdictional comparison data",
+      "People's assessors data: participation rates of lay assessors (人民陪审员) in trials across China"
+    ],
+    "zh": [
+      "年度司法统计：全国各级法院（基层法院、中级法院、高级法院和最高法院）案件受理、办结及待结数据",
+      "案件类型分布：按管辖区域分列的刑事、民事、商事、知识产权、行政、海事和执行案件数量",
+      "裁判结果：主要案件类型的定罪率、无罪率、调解率和上诉率",
+      "执行统计：执行案件数量和标的额、执行到位率及失信被执行人名单",
+      "中国裁判文书网：全国各级法院裁判文书全文数据库（逾1亿份文书）",
+      "司法解释文本：最高人民法院全部具有约束力的解释和批复，含施行日期和主题",
+      "审判效率指标：平均结案时间、结案率及跨辖区比较数据",
+      "人民陪审员数据：人民陪审员在全国各地法院审判活动中的参与情况"
+    ]
+  }
+}

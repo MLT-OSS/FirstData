@@ -1,0 +1,77 @@
+{
+  "id": "china-nsfc",
+  "name": {
+    "en": "National Natural Science Foundation of China",
+    "zh": "国家自然科学基金委员会"
+  },
+  "description": {
+    "en": "The National Natural Science Foundation of China (NSFC) is the primary government agency responsible for funding basic and applied research in natural sciences in China. Established in 1986, NSFC manages over 40 billion RMB in annual grants across disciplines including mathematics, physics, chemistry, life sciences, earth sciences, engineering, information sciences, and management. NSFC publishes comprehensive annual reports detailing funded projects, grant recipients, research outcomes, and strategic funding priorities. Its project database covers hundreds of thousands of funded research grants since inception, serving as a key indicator of China's scientific research investment, emerging disciplines, and talent development in academia. NSFC also collaborates with foreign counterparts to fund bilateral research programs, producing comparative data on international science cooperation.",
+    "zh": "国家自然科学基金委员会（自然科学基金委）是负责资助中国自然科学基础研究和应用基础研究的主要政府机构，成立于1986年。基金委每年管理超过400亿元人民币的资助经费，覆盖数学、物理、化学、生命科学、地球科学、工程科学、信息科学和管理科学等学科。基金委发布详尽的年度报告，包括资助项目、获资助研究人员、研究成果及战略资助重点。其项目数据库收录自成立以来数十万个资助研究项目，是衡量中国科研投入、新兴学科发展和学术人才培养的重要指标。基金委还与境外同行合作开展双边研究资助计划，产出国际科技合作比较数据。"
+  },
+  "website": "https://www.nsfc.gov.cn/",
+  "data_url": "https://www.nsfc.gov.cn/publish/portal0/tab434/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "research",
+    "science",
+    "technology",
+    "education"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家自然科学基金",
+    "NSFC",
+    "National Natural Science Foundation of China",
+    "自然科学基金",
+    "natural science fund",
+    "科研立项",
+    "research grants",
+    "基础研究",
+    "basic research",
+    "应用基础研究",
+    "applied basic research",
+    "科学资助",
+    "science funding",
+    "立项数据",
+    "project database",
+    "科研人才",
+    "research talent",
+    "学科前沿",
+    "disciplinary frontiers",
+    "中国科研投入",
+    "China R&D investment",
+    "国际合作",
+    "international cooperation",
+    "年度报告",
+    "annual report",
+    "杰出青年基金",
+    "outstanding young scientist fund",
+    "重大项目",
+    "major projects"
+  ],
+  "data_content": {
+    "en": [
+      "Annual funded projects database: searchable records of all NSFC-funded grants by year, discipline, institution, and principal investigator",
+      "Science funding statistics: total annual appropriations, grant counts, and funding rates by discipline and grant type (General Program, Key Program, Major Program, etc.)",
+      "Talent development data: statistics on funded young scientists, outstanding youth, and distinguished senior researchers",
+      "Research outcomes: publication counts, patents, and other outputs attributed to NSFC-funded projects",
+      "Institutional rankings: university and research institute performance in NSFC funding competition by discipline",
+      "International cooperation projects: bilateral grant programs with foreign funding agencies including NSF, DFG, ANR, and others",
+      "Annual reports: comprehensive yearly overview of NSFC strategy, priorities, funded science, and policy direction",
+      "Disciplinary planning: medium and long-term development plans for each major scientific discipline funded by NSFC"
+    ],
+    "zh": [
+      "年度资助项目数据库：按年度、学科、承担单位和项目负责人可检索的全部资助项目记录",
+      "科学资助统计：按学科和项目类型（面上项目、重点项目、重大项目等）分列的年度总经费、资助数量和资助率",
+      "人才培养数据：青年科学家、优秀青年科学基金和杰出青年科学基金获资助者统计",
+      "研究成果：归属于基金委资助项目的论文发表数量、专利及其他产出",
+      "机构排名：各高校和科研院所按学科在基金委资助竞争中的表现",
+      "国际合作项目：与美国NSF、德国DFG、法国ANR等境外资助机构开展的双边资助计划",
+      "年度报告：基金委战略、重点、资助科学和政策方向的全面年度综述",
+      "学科规划：基金委各重大资助科学学科的中长期发展规划"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "china-npc-law",
+  "name": {
+    "en": "National People's Congress Law Database",
+    "zh": "全国人大法律法规数据库"
+  },
+  "description": {
+    "en": "The National People's Congress (NPC) Law Database (法律法规库) is the official repository for China's national legislation, maintained by the Standing Committee of the NPC. It provides the full text of all laws enacted by the NPC and its Standing Committee, administrative regulations issued by the State Council, local regulations from provincial legislatures, judicial interpretations, and Party regulations. This database is the authoritative reference for China's statutory law and enables tracking of legislative history, amendments, and repeal dates for every piece of enacted national legislation. Updated continuously as new laws are passed, it serves as the primary legal data source for government agencies, courts, law firms, academic institutions, and compliance teams operating in China. The platform also offers structured metadata enabling systematic analysis of China's legislative output and regulatory trends.",
+    "zh": "全国人民代表大会法律法规数据库（法律法规库）是由全国人民代表大会常务委员会维护的中国国家立法官方数据库。该数据库收录全国人大及其常委会通过的全部法律全文、国务院发布的行政法规、省级立法机关制定的地方性法规、司法解释及党内法规。该数据库是中国成文法的权威参考，可追溯每部现行国家立法的立法历史、修订情况和废止日期。随新法通过持续更新，是在华政府机关、法院、律师事务所、学术机构和合规团队的主要法律数据来源。该平台还提供结构化元数据，支持对中国立法产出和法规趋势进行系统分析。"
+  },
+  "website": "https://www.npc.gov.cn/",
+  "data_url": "https://flk.npc.gov.cn/",
+  "api_url": "https://flk.npc.gov.cn/api/",
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "law",
+    "policy",
+    "regulatory"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "全国人大",
+    "NPC",
+    "National People's Congress",
+    "法律法规库",
+    "law database",
+    "中国法律",
+    "Chinese law",
+    "国家立法",
+    "national legislation",
+    "行政法规",
+    "administrative regulations",
+    "地方性法规",
+    "local regulations",
+    "司法解释",
+    "judicial interpretations",
+    "立法历史",
+    "legislative history",
+    "全文检索",
+    "full-text search",
+    "法律全文",
+    "law full text",
+    "党内法规",
+    "Party regulations",
+    "法规修订",
+    "law amendments",
+    "合规数据",
+    "compliance data",
+    "法制",
+    "rule of law",
+    "人民代表大会",
+    "People's Congress"
+  ],
+  "data_content": {
+    "en": [
+      "Full text of national laws: complete text of all laws enacted by the NPC and Standing Committee since the founding of the PRC, with amendment history",
+      "Administrative regulations: full text of State Council regulations (行政法规) with enactment and effective dates",
+      "Local regulations: provincial and municipal legislative acts (地方性法规) from all 31 provincial-level jurisdictions",
+      "Judicial interpretations: official interpretations by the Supreme People's Court and Supreme People's Procuratorate",
+      "Party regulations: selected regulations issued by the Central Committee of the Communist Party of China",
+      "Legislative metadata: law number, enactment authority, adoption date, effective date, revision history, and repeal status for each document",
+      "Thematic law collections: curated sets of laws by topic area including civil law, criminal law, economic law, environmental law, and administrative law",
+      "Legislative statistics: annual counts of laws passed, amended, and repealed by the NPC and Standing Committee"
+    ],
+    "zh": [
+      "国家法律全文：中华人民共和国成立以来全国人大及其常委会通过的全部法律完整文本及修订历史",
+      "行政法规：国务院行政法规全文及颁布日期和施行日期",
+      "地方性法规：全国31个省级行政区的地方性立法（地方性法规）",
+      "司法解释：最高人民法院和最高人民检察院发布的正式司法解释",
+      "党内法规：中国共产党中央委员会颁布的部分党内法规",
+      "立法元数据：各文件的法规编号、制定机关、通过日期、施行日期、修订历史和废止状态",
+      "专题法律汇编：按民法、刑法、经济法、环境法、行政法等专题整理的法律文件集",
+      "立法统计：全国人大及常委会年度立法、修订和废止法律的数量统计"
+    ]
+  }
+}

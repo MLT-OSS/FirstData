@@ -1,0 +1,81 @@
+{
+  "id": "china-nmdis",
+  "name": {
+    "en": "National Marine Data and Information Service",
+    "zh": "国家海洋信息中心"
+  },
+  "description": {
+    "en": "The National Marine Data and Information Service (NMDIS) is China's official national center for marine data collection, management, and dissemination, operating under the Ministry of Natural Resources. NMDIS manages the national ocean database integrating data from China's oceanographic survey vessels, coastal observation stations, Argo floats, ocean buoys, and satellite remote sensing systems. Its data holdings encompass sea surface and sub-surface temperature, salinity, currents, wave heights, sea ice extent, marine biodiversity observations, ocean pollution monitoring, and seabed topography. NMDIS publishes the China Ocean Yearbook and Marine Environmental Status Bulletin, providing annual comprehensive overviews of China's maritime environment, marine resources, and ocean economy. It also hosts the marine data sharing platform for research institutions and provides ocean data services to support navigation safety, climate research, disaster early warning, and marine resource management.",
+    "zh": "国家海洋信息中心（NMDIS）是自然资源部下属的中国官方海洋数据收集、管理和发布机构。NMDIS运营整合了中国海洋调查船、沿海观测站、Argo浮标、海洋浮标和卫星遥感系统数据的国家海洋数据库。数据资源涵盖海面和次表层温度、盐度、流速、浪高、海冰范围、海洋生物多样性观测、海洋污染监测和海底地形。NMDIS出版《中国海洋年鉴》和《中国海洋生态环境状况公报》，对中国海洋环境、海洋资源和海洋经济进行年度综合评估。NMDIS还为科研机构提供海洋数据共享平台，并提供海洋数据服务，支撑航行安全、气候研究、灾害预警和海洋资源管理。"
+  },
+  "website": "https://www.nmdis.org.cn/",
+  "data_url": "https://mds.nmdis.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "ocean",
+    "climate",
+    "resources"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "国家海洋信息中心",
+    "NMDIS",
+    "National Marine Data",
+    "海洋数据",
+    "ocean data",
+    "海洋环境",
+    "marine environment",
+    "海洋年鉴",
+    "China Ocean Yearbook",
+    "海水温度",
+    "sea surface temperature",
+    "盐度",
+    "salinity",
+    "海浪",
+    "wave height",
+    "海冰",
+    "sea ice",
+    "海洋生物多样性",
+    "marine biodiversity",
+    "海洋污染",
+    "marine pollution",
+    "Argo浮标",
+    "Argo floats",
+    "海洋观测",
+    "ocean observation",
+    "海底地形",
+    "seabed topography",
+    "海洋气候",
+    "ocean climate",
+    "海洋经济",
+    "marine economy",
+    "海洋灾害",
+    "marine disasters"
+  ],
+  "data_content": {
+    "en": [
+      "Ocean temperature and salinity profiles: historical and real-time vertical profiles from research vessels, XBT casts, CTD sensors, and Argo floats across China's seas",
+      "Sea surface observations: gridded datasets of sea surface temperature (SST), sea surface height, and surface current velocity from satellite and buoy networks",
+      "Wave and tide data: significant wave height, wave period, and tidal level time series from coastal stations and offshore buoys",
+      "Sea ice data: annual and seasonal extent, concentration, and thickness of sea ice in the Bohai Sea, Yellow Sea, and polar regions from Chinese expeditions",
+      "Marine biodiversity: species distribution records, phytoplankton and zooplankton community surveys, and fishery resource assessments",
+      "Marine pollution monitoring: concentrations of inorganic nitrogen, phosphates, petroleum hydrocarbons, heavy metals, and plastics in Chinese coastal and offshore waters",
+      "China Ocean Yearbook: annual compendium of ocean economy statistics, marine industry output, port throughput, and maritime shipping data",
+      "Marine Environmental Status Bulletin: annual assessment of seawater quality grades, ecological health of coastal wetlands, and red tide/harmful algal bloom events"
+    ],
+    "zh": [
+      "海洋温盐剖面：来自科考船、XBT投放、CTD传感器和Argo浮标的中国各海域历史及实时垂直剖面数据",
+      "海面观测：来自卫星和浮标网络的海面温度（SST）、海面高度和表层流速格点数据集",
+      "浪潮数据：沿海站和近海浮标的有效波高、波周期和潮位时间序列",
+      "海冰数据：来自中国极地科考的渤海、黄海海冰年度和季节性范围、密集度和厚度数据",
+      "海洋生物多样性：物种分布记录、浮游植物和浮游动物群落调查及渔业资源评估",
+      "海洋污染监测：中国近岸和近海水体中无机氮、磷酸盐、石油烃、重金属和塑料浓度",
+      "中国海洋年鉴：海洋经济统计、海洋产业产值、港口吞吐量和海上运输数据的年度汇编",
+      "中国海洋生态环境状况公报：海水水质等级、滨海湿地生态健康状况及赤潮/有害藻华事件年度评估"
+    ]
+  }
+}
