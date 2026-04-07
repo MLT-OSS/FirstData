@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T06:18:51.069756+00:00",
-    "total_sources": 383,
+    "generated_at": "2026-04-07T02:14:51.926989+00:00",
+    "total_sources": 386,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -9090,6 +9090,83 @@
       "file_path": "china/research/china-cas.json"
     },
     {
+      "id": "china-cast",
+      "name": {
+        "en": "China Association for Science and Technology",
+        "zh": "中国科学技术协会"
+      },
+      "description": {
+        "en": "The China Association for Science and Technology (CAST) is China's largest national mass organization of scientific and technological workers, with over 10 million individual members and more than 200 affiliated national-level academic societies. CAST plays a central role in bridging the scientific community with government policymaking, publishing annual science and technology policy reports, assessments of disciplinary frontiers, and surveys of scientific talent. CAST's affiliated societies publish peer-reviewed journals, discipline-specific statistics, and research benchmark data across engineering, natural sciences, agriculture, and medicine. CAST also produces the annual China Science and Technology Development Report, surveys the status of scientific literacy among the Chinese public, and manages the Blue Book series on science and technology policy. It coordinates international scientific exchanges and jointly produces comparative datasets with UNESCO and major global science organizations.",
+        "zh": "中国科学技术协会（科协）是中国规模最大的科技工作者全国性群众团体，拥有逾千万名个人会员和200余个全国性学会。科协在科技界与政府决策之间发挥重要桥梁作用，出版年度科技政策报告、学科前沿评估和科技人才调查报告。科协所属学会在工程、自然科学、农业和医学等领域出版学术期刊、学科统计数据和研究基准数据。科协还出版年度《中国科技发展报告》，开展全国公民科学素质调查，管理科技政策蓝皮书系列，协调国际科技交流，并与联合国教科文组织及全球主要科学组织联合制作比较数据集。"
+      },
+      "website": "https://www.cast.org.cn/",
+      "data_url": "https://www.cast.org.cn/xw/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "research",
+        "science",
+        "education"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国科学技术协会",
+        "CAST",
+        "China Association for Science and Technology",
+        "科技政策",
+        "science and technology policy",
+        "科学素质",
+        "scientific literacy",
+        "科技人才",
+        "scientific talent",
+        "学术学会",
+        "academic societies",
+        "科技报告",
+        "science report",
+        "学科前沿",
+        "research frontiers",
+        "蓝皮书",
+        "blue book",
+        "中国科研",
+        "China research",
+        "科技创新",
+        "science and technology innovation",
+        "学术期刊",
+        "academic journals",
+        "国际科技合作",
+        "international science cooperation",
+        "公民科学",
+        "citizen science"
+      ],
+      "data_content": {
+        "en": [
+          "China Science and Technology Development Report: annual statistical overview of R&D investment, patent filings, scientific publications, and technology transfer outcomes",
+          "Scientific literacy surveys: nationally representative survey data on public understanding of science and technology, conducted every five years",
+          "Science and technology workforce: surveys of scientists, engineers, and technical workers by sector, age group, gender, and geographic distribution",
+          "Disciplinary frontier assessments: annual reports identifying breakthrough research areas and emerging fields across key scientific disciplines",
+          "Academic society statistics: membership counts, journal output, conference activity, and citation metrics for CAST's 200+ affiliated national societies",
+          "Science policy blue books: policy analysis and recommendations on innovation ecosystems, talent development, and technology transfer",
+          "International science indicators: comparative data on China's global research output, collaboration networks, and citation impact benchmarked against major countries",
+          "Youth science education data: participation rates in science competitions, technology activity engagement, and STEM education outcomes"
+        ],
+        "zh": [
+          "中国科技发展报告：研发投入、专利申请、科学论文发表及技术转移成果的年度统计综述",
+          "科学素质调查：每五年开展一次的全国公民科学技术素质代表性调查数据",
+          "科技人才状况：按行业、年龄、性别和地域分布的科学家、工程师及技术人员调查数据",
+          "学科前沿评估：各重点科学领域突破性研究方向和新兴领域的年度报告",
+          "学术学会统计：科协200余个所属全国学会的会员人数、期刊产出、会议活动及引用指标",
+          "科技政策蓝皮书：关于创新生态系统、人才培养和技术转移的政策分析与建议",
+          "国际科学指标：与主要国家基准比较的中国全球科研产出、合作网络及引用影响力数据",
+          "青少年科学教育数据：科技竞赛参与率、科技活动参与情况和STEM教育成果"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cast.json"
+    },
+    {
       "id": "china-resdc",
       "name": {
         "en": "Resource and Environment Science and Data Center, Chinese Academy of Sciences",
@@ -9834,6 +9911,84 @@
       "file_path": "china/resources/water/china-mwr.json"
     },
     {
+      "id": "china-cnsa",
+      "name": {
+        "en": "China National Space Administration",
+        "zh": "国家航天局"
+      },
+      "description": {
+        "en": "The China National Space Administration (CNSA) is China's national space agency responsible for civil space activities, including satellite launches, deep space exploration, and international space cooperation. CNSA manages China's major space programs such as the Chang'e lunar exploration mission, Tianwen Mars mission, and Beidou Navigation Satellite System. It publishes open scientific data from space missions, satellite remote sensing data, lunar and planetary exploration results, and space science experiment datasets. CNSA also oversees the China Space Science Data Center and coordinates with the National Remote Sensing Center of China (NRSCC) to provide earth observation data for resource management, disaster monitoring, and environmental protection applications.",
+        "zh": "国家航天局（CNSA）是中国负责民用航天活动的国家航天机构，业务涵盖卫星发射、深空探测及国际航天合作。国家航天局主管嫦娥月球探测、天问火星探测和北斗导航卫星系统等重大航天工程，发布航天任务开放科学数据、卫星遥感数据、月球和行星探测成果及空间科学实验数据集。同时，国家航天局负责监管中国空间科学数据中心，并与国家遥感中心协作，为资源管理、灾害监测和环境保护提供对地观测数据。"
+      },
+      "website": "https://www.cnsa.gov.cn/",
+      "data_url": "https://www.cnsa.gov.cn/n6758823/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "aerospace",
+        "environment"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家航天局",
+        "CNSA",
+        "China National Space Administration",
+        "航天数据",
+        "space data",
+        "嫦娥",
+        "Chang'e",
+        "月球探测",
+        "lunar exploration",
+        "天问",
+        "Tianwen",
+        "火星探测",
+        "Mars mission",
+        "卫星遥感",
+        "satellite remote sensing",
+        "北斗",
+        "Beidou",
+        "深空探测",
+        "deep space exploration",
+        "对地观测",
+        "earth observation",
+        "空间科学",
+        "space science",
+        "航天工程",
+        "space engineering",
+        "遥感数据",
+        "remote sensing data",
+        "中国航天",
+        "China space program"
+      ],
+      "data_content": {
+        "en": [
+          "Lunar exploration data: scientific datasets from Chang'e missions including topographic maps, mineral composition surveys, and regolith samples analysis",
+          "Mars exploration data: surface imagery, atmospheric and geological data from Tianwen-1 and Zhurong rover",
+          "Satellite remote sensing data: multispectral and hyperspectral imagery from China's resource, environment, and ocean observation satellites",
+          "Earth observation products: land use mapping, disaster assessment imagery, and environmental monitoring data from NRSCC",
+          "Space science experiments: microgravity research data and life science experiment results from China's space station (Tiangong)",
+          "Navigation satellite data: Beidou system performance metrics, positioning accuracy reports, and open service interface documents",
+          "Deep space mission telemetry: mission status, trajectory data, and engineering parameters for ongoing and completed missions",
+          "International cooperation datasets: jointly produced data from bilateral agreements with ESA, ROSCOSMOS, and other space agencies"
+        ],
+        "zh": [
+          "月球探测数据：嫦娥系列任务科学数据集，包括地形图、矿物成分调查和月壤样品分析",
+          "火星探测数据：天问一号和祝融号火星车的地表图像、大气和地质数据",
+          "卫星遥感数据：中国资源、环境和海洋观测卫星的多光谱和高光谱图像",
+          "对地观测产品：国家遥感中心提供的土地利用制图、灾害评估影像和环境监测数据",
+          "空间科学实验：中国空间站（天宫）的微重力研究数据和生命科学实验成果",
+          "导航卫星数据：北斗系统性能指标、定位精度报告和开放服务接口文档",
+          "深空任务遥测：在轨和已完成任务的状态、轨道数据及工程参数",
+          "国际合作数据集：与欧空局、俄罗斯航天国家集团等航天机构双边协议共同产出的数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-cnsa.json"
+    },
+    {
       "id": "china-national-data-bureau",
       "name": {
         "en": "National Data Administration of China",
@@ -10062,6 +10217,88 @@
       },
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-cisa.json"
+    },
+    {
+      "id": "china-cntac",
+      "name": {
+        "en": "China National Textile and Apparel Council",
+        "zh": "中国纺织工业联合会"
+      },
+      "description": {
+        "en": "The China National Textile and Apparel Council (CNTAC) is the national industry association representing China's textile, apparel, and fashion manufacturing sector — the world's largest, accounting for over one-third of global textile and apparel exports. CNTAC publishes authoritative monthly and annual statistics on textile and apparel production volumes, export values, raw material prices (cotton, chemical fibers, wool, silk), enterprise profitability, and workforce employment. Its data covers the full supply chain from fiber production to finished garments, tracking key segments including cotton spinning, chemical fiber manufacturing, weaving, printing and dyeing, knitting, and apparel. CNTAC also monitors sustainability indicators such as energy consumption per unit output, wastewater discharge, and progress toward green manufacturing standards. The council publishes the China Textile Industry Development Report and coordinates international standards alignment with ISO and other global bodies.",
+        "zh": "中国纺织工业联合会（中纺联）是代表中国纺织、服装和时尚制造业的全国性行业组织。中国是全球最大的纺织服装生产国和出口国，出口量占全球总量的三分之一以上。协会发布权威的月度和年度统计数据，涵盖纺织服装产量、出口额、原料价格（棉花、化纤、羊毛、蚕丝）、企业盈利和从业人员情况，覆盖从纤维生产到成品服装的完整供应链，追踪棉纺、化纤、织造、印染、针织和服装等关键细分领域。协会还监测单位产量能耗、废水排放等可持续发展指标及绿色制造标准推进情况，出版《中国纺织工业发展报告》，并协调与ISO等国际机构的标准对接工作。"
+      },
+      "website": "https://www.cntac.org.cn/",
+      "data_url": "https://www.cntac.org.cn/jinghua",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "trade",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国纺织工业联合会",
+        "CNTAC",
+        "China National Textile and Apparel Council",
+        "纺织产量",
+        "textile production",
+        "服装出口",
+        "apparel exports",
+        "棉花价格",
+        "cotton prices",
+        "化纤",
+        "chemical fiber",
+        "纺织行业",
+        "textile industry",
+        "时尚产业",
+        "fashion industry",
+        "纱线",
+        "yarn",
+        "面料",
+        "fabric",
+        "印染",
+        "dyeing and printing",
+        "绿色制造",
+        "green manufacturing",
+        "纺织贸易",
+        "textile trade",
+        "纺织年鉴",
+        "textile yearbook",
+        "快时尚",
+        "fast fashion",
+        "供应链",
+        "supply chain"
+      ],
+      "data_content": {
+        "en": [
+          "Textile and apparel production: monthly output volumes for yarn, fabric, chemical fiber, and finished garments by product category and province",
+          "Export and import trade: monthly textile and apparel trade values and volumes by product type and destination/origin country",
+          "Raw material prices: spot and futures price indices for cotton (Zhengzhou Cotton Exchange reference), polyester, viscose, nylon, wool, and silk",
+          "Enterprise performance: revenue, profit margins, and loss data for major textile and apparel enterprises by sub-sector",
+          "Employment and workforce: number of employees in the textile and apparel sector, wage levels, and labor productivity metrics",
+          "Energy and resource consumption: energy consumption per unit of output, water usage, and wastewater discharge for key sub-sectors",
+          "Retail and consumption: domestic apparel retail sales values and consumer spending trends from major cities",
+          "China Textile Industry Development Report: comprehensive annual analysis of production, trade, technology, and policy trends",
+          "Sustainability indicators: progress on green manufacturing certifications, chemical safety compliance, and low-carbon transition metrics"
+        ],
+        "zh": [
+          "纺织服装产量：按产品类别和省份分类的纱线、面料、化纤和成品服装月度产量",
+          "进出口贸易：按产品类型和目的地/来源国分类的月度纺织服装贸易额和贸易量",
+          "原料价格：棉花（郑州棉花交易所参考价）、涤纶、粘胶、锦纶、羊毛和蚕丝的现货及期货价格指数",
+          "企业绩效：按细分行业分类的主要纺织服装企业营收、利润率和亏损数据",
+          "从业人员：纺织服装行业就业人数、工资水平和劳动生产率指标",
+          "能源和资源消耗：主要细分行业单位产量能耗、用水量和废水排放量",
+          "零售与消费：国内服装零售额和主要城市消费支出趋势",
+          "中国纺织工业发展报告：生产、贸易、技术和政策趋势的综合年度分析",
+          "可持续发展指标：绿色制造认证进展、化学品安全合规情况和低碳转型指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-cntac.json"
     },
     {
       "id": "china-isc",

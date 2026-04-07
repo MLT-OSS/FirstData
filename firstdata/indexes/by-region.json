@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T06:18:51.069756+00:00",
+    "generated_at": "2026-04-07T02:14:51.926989+00:00",
     "total_regions": 58,
-    "total_sources": 383,
+    "total_sources": 386,
     "version": "2.0"
   },
   "regions": {
@@ -1507,6 +1507,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cast",
+        "name": {
+          "en": "China Association for Science and Technology",
+          "zh": "中国科学技术协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cast.org.cn/xw/",
+        "has_api": false,
+        "file_path": "china/research/china-cast.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-resdc",
         "name": {
           "en": "Resource and Environment Science and Data Center, Chinese Academy of Sciences",
@@ -1627,6 +1639,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnsa",
+        "name": {
+          "en": "China National Space Administration",
+          "zh": "国家航天局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnsa.gov.cn/n6758823/index.html",
+        "has_api": false,
+        "file_path": "china/technology/china-cnsa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-national-data-bureau",
         "name": {
           "en": "National Data Administration of China",
@@ -1660,6 +1684,18 @@
         "data_url": "https://www.chinaisa.org.cn/gxportal/xfgl/portal/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cisa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cntac",
+        "name": {
+          "en": "China National Textile and Apparel Council",
+          "zh": "中国纺织工业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cntac.org.cn/jinghua",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cntac.json",
         "geographic_scope": "national"
       },
       {
