@@ -1,0 +1,76 @@
+{
+  "id": "china-cnsa",
+  "name": {
+    "en": "China National Space Administration",
+    "zh": "国家航天局"
+  },
+  "description": {
+    "en": "The China National Space Administration (CNSA) is China's national space agency responsible for civil space activities, including satellite launches, deep space exploration, and international space cooperation. CNSA manages China's major space programs such as the Chang'e lunar exploration mission, Tianwen Mars mission, and Beidou Navigation Satellite System. It publishes open scientific data from space missions, satellite remote sensing data, lunar and planetary exploration results, and space science experiment datasets. CNSA also oversees the China Space Science Data Center and coordinates with the National Remote Sensing Center of China (NRSCC) to provide earth observation data for resource management, disaster monitoring, and environmental protection applications.",
+    "zh": "国家航天局（CNSA）是中国负责民用航天活动的国家航天机构，业务涵盖卫星发射、深空探测及国际航天合作。国家航天局主管嫦娥月球探测、天问火星探测和北斗导航卫星系统等重大航天工程，发布航天任务开放科学数据、卫星遥感数据、月球和行星探测成果及空间科学实验数据集。同时，国家航天局负责监管中国空间科学数据中心，并与国家遥感中心协作，为资源管理、灾害监测和环境保护提供对地观测数据。"
+  },
+  "website": "https://www.cnsa.gov.cn/",
+  "data_url": "https://www.cnsa.gov.cn/n6758823/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "aerospace",
+    "environment"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家航天局",
+    "CNSA",
+    "China National Space Administration",
+    "航天数据",
+    "space data",
+    "嫦娥",
+    "Chang'e",
+    "月球探测",
+    "lunar exploration",
+    "天问",
+    "Tianwen",
+    "火星探测",
+    "Mars mission",
+    "卫星遥感",
+    "satellite remote sensing",
+    "北斗",
+    "Beidou",
+    "深空探测",
+    "deep space exploration",
+    "对地观测",
+    "earth observation",
+    "空间科学",
+    "space science",
+    "航天工程",
+    "space engineering",
+    "遥感数据",
+    "remote sensing data",
+    "中国航天",
+    "China space program"
+  ],
+  "data_content": {
+    "en": [
+      "Lunar exploration data: scientific datasets from Chang'e missions including topographic maps, mineral composition surveys, and regolith samples analysis",
+      "Mars exploration data: surface imagery, atmospheric and geological data from Tianwen-1 and Zhurong rover",
+      "Satellite remote sensing data: multispectral and hyperspectral imagery from China's resource, environment, and ocean observation satellites",
+      "Earth observation products: land use mapping, disaster assessment imagery, and environmental monitoring data from NRSCC",
+      "Space science experiments: microgravity research data and life science experiment results from China's space station (Tiangong)",
+      "Navigation satellite data: Beidou system performance metrics, positioning accuracy reports, and open service interface documents",
+      "Deep space mission telemetry: mission status, trajectory data, and engineering parameters for ongoing and completed missions",
+      "International cooperation datasets: jointly produced data from bilateral agreements with ESA, ROSCOSMOS, and other space agencies"
+    ],
+    "zh": [
+      "月球探测数据：嫦娥系列任务科学数据集，包括地形图、矿物成分调查和月壤样品分析",
+      "火星探测数据：天问一号和祝融号火星车的地表图像、大气和地质数据",
+      "卫星遥感数据：中国资源、环境和海洋观测卫星的多光谱和高光谱图像",
+      "对地观测产品：国家遥感中心提供的土地利用制图、灾害评估影像和环境监测数据",
+      "空间科学实验：中国空间站（天宫）的微重力研究数据和生命科学实验成果",
+      "导航卫星数据：北斗系统性能指标、定位精度报告和开放服务接口文档",
+      "深空任务遥测：在轨和已完成任务的状态、轨道数据及工程参数",
+      "国际合作数据集：与欧空局、俄罗斯航天国家集团等航天机构双边协议共同产出的数据"
+    ]
+  }
+}

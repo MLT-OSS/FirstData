@@ -1,0 +1,80 @@
+{
+  "id": "china-cntac",
+  "name": {
+    "en": "China National Textile and Apparel Council",
+    "zh": "中国纺织工业联合会"
+  },
+  "description": {
+    "en": "The China National Textile and Apparel Council (CNTAC) is the national industry association representing China's textile, apparel, and fashion manufacturing sector — the world's largest, accounting for over one-third of global textile and apparel exports. CNTAC publishes authoritative monthly and annual statistics on textile and apparel production volumes, export values, raw material prices (cotton, chemical fibers, wool, silk), enterprise profitability, and workforce employment. Its data covers the full supply chain from fiber production to finished garments, tracking key segments including cotton spinning, chemical fiber manufacturing, weaving, printing and dyeing, knitting, and apparel. CNTAC also monitors sustainability indicators such as energy consumption per unit output, wastewater discharge, and progress toward green manufacturing standards. The council publishes the China Textile Industry Development Report and coordinates international standards alignment with ISO and other global bodies.",
+    "zh": "中国纺织工业联合会（中纺联）是代表中国纺织、服装和时尚制造业的全国性行业组织。中国是全球最大的纺织服装生产国和出口国，出口量占全球总量的三分之一以上。协会发布权威的月度和年度统计数据，涵盖纺织服装产量、出口额、原料价格（棉花、化纤、羊毛、蚕丝）、企业盈利和从业人员情况，覆盖从纤维生产到成品服装的完整供应链，追踪棉纺、化纤、织造、印染、针织和服装等关键细分领域。协会还监测单位产量能耗、废水排放等可持续发展指标及绿色制造标准推进情况，出版《中国纺织工业发展报告》，并协调与ISO等国际机构的标准对接工作。"
+  },
+  "website": "https://www.cntac.org.cn/",
+  "data_url": "https://www.cntac.org.cn/jinghua",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "trade",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国纺织工业联合会",
+    "CNTAC",
+    "China National Textile and Apparel Council",
+    "纺织产量",
+    "textile production",
+    "服装出口",
+    "apparel exports",
+    "棉花价格",
+    "cotton prices",
+    "化纤",
+    "chemical fiber",
+    "纺织行业",
+    "textile industry",
+    "时尚产业",
+    "fashion industry",
+    "纱线",
+    "yarn",
+    "面料",
+    "fabric",
+    "印染",
+    "dyeing and printing",
+    "绿色制造",
+    "green manufacturing",
+    "纺织贸易",
+    "textile trade",
+    "纺织年鉴",
+    "textile yearbook",
+    "快时尚",
+    "fast fashion",
+    "供应链",
+    "supply chain"
+  ],
+  "data_content": {
+    "en": [
+      "Textile and apparel production: monthly output volumes for yarn, fabric, chemical fiber, and finished garments by product category and province",
+      "Export and import trade: monthly textile and apparel trade values and volumes by product type and destination/origin country",
+      "Raw material prices: spot and futures price indices for cotton (Zhengzhou Cotton Exchange reference), polyester, viscose, nylon, wool, and silk",
+      "Enterprise performance: revenue, profit margins, and loss data for major textile and apparel enterprises by sub-sector",
+      "Employment and workforce: number of employees in the textile and apparel sector, wage levels, and labor productivity metrics",
+      "Energy and resource consumption: energy consumption per unit of output, water usage, and wastewater discharge for key sub-sectors",
+      "Retail and consumption: domestic apparel retail sales values and consumer spending trends from major cities",
+      "China Textile Industry Development Report: comprehensive annual analysis of production, trade, technology, and policy trends",
+      "Sustainability indicators: progress on green manufacturing certifications, chemical safety compliance, and low-carbon transition metrics"
+    ],
+    "zh": [
+      "纺织服装产量：按产品类别和省份分类的纱线、面料、化纤和成品服装月度产量",
+      "进出口贸易：按产品类型和目的地/来源国分类的月度纺织服装贸易额和贸易量",
+      "原料价格：棉花（郑州棉花交易所参考价）、涤纶、粘胶、锦纶、羊毛和蚕丝的现货及期货价格指数",
+      "企业绩效：按细分行业分类的主要纺织服装企业营收、利润率和亏损数据",
+      "从业人员：纺织服装行业就业人数、工资水平和劳动生产率指标",
+      "能源和资源消耗：主要细分行业单位产量能耗、用水量和废水排放量",
+      "零售与消费：国内服装零售额和主要城市消费支出趋势",
+      "中国纺织工业发展报告：生产、贸易、技术和政策趋势的综合年度分析",
+      "可持续发展指标：绿色制造认证进展、化学品安全合规情况和低碳转型指标"
+    ]
+  }
+}

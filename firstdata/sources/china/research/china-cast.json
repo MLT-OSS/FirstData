@@ -1,0 +1,75 @@
+{
+  "id": "china-cast",
+  "name": {
+    "en": "China Association for Science and Technology",
+    "zh": "中国科学技术协会"
+  },
+  "description": {
+    "en": "The China Association for Science and Technology (CAST) is China's largest national mass organization of scientific and technological workers, with over 10 million individual members and more than 200 affiliated national-level academic societies. CAST plays a central role in bridging the scientific community with government policymaking, publishing annual science and technology policy reports, assessments of disciplinary frontiers, and surveys of scientific talent. CAST's affiliated societies publish peer-reviewed journals, discipline-specific statistics, and research benchmark data across engineering, natural sciences, agriculture, and medicine. CAST also produces the annual China Science and Technology Development Report, surveys the status of scientific literacy among the Chinese public, and manages the Blue Book series on science and technology policy. It coordinates international scientific exchanges and jointly produces comparative datasets with UNESCO and major global science organizations.",
+    "zh": "中国科学技术协会（科协）是中国规模最大的科技工作者全国性群众团体，拥有逾千万名个人会员和200余个全国性学会。科协在科技界与政府决策之间发挥重要桥梁作用，出版年度科技政策报告、学科前沿评估和科技人才调查报告。科协所属学会在工程、自然科学、农业和医学等领域出版学术期刊、学科统计数据和研究基准数据。科协还出版年度《中国科技发展报告》，开展全国公民科学素质调查，管理科技政策蓝皮书系列，协调国际科技交流，并与联合国教科文组织及全球主要科学组织联合制作比较数据集。"
+  },
+  "website": "https://www.cast.org.cn/",
+  "data_url": "https://www.cast.org.cn/xw/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "research",
+    "science",
+    "education"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国科学技术协会",
+    "CAST",
+    "China Association for Science and Technology",
+    "科技政策",
+    "science and technology policy",
+    "科学素质",
+    "scientific literacy",
+    "科技人才",
+    "scientific talent",
+    "学术学会",
+    "academic societies",
+    "科技报告",
+    "science report",
+    "学科前沿",
+    "research frontiers",
+    "蓝皮书",
+    "blue book",
+    "中国科研",
+    "China research",
+    "科技创新",
+    "science and technology innovation",
+    "学术期刊",
+    "academic journals",
+    "国际科技合作",
+    "international science cooperation",
+    "公民科学",
+    "citizen science"
+  ],
+  "data_content": {
+    "en": [
+      "China Science and Technology Development Report: annual statistical overview of R&D investment, patent filings, scientific publications, and technology transfer outcomes",
+      "Scientific literacy surveys: nationally representative survey data on public understanding of science and technology, conducted every five years",
+      "Science and technology workforce: surveys of scientists, engineers, and technical workers by sector, age group, gender, and geographic distribution",
+      "Disciplinary frontier assessments: annual reports identifying breakthrough research areas and emerging fields across key scientific disciplines",
+      "Academic society statistics: membership counts, journal output, conference activity, and citation metrics for CAST's 200+ affiliated national societies",
+      "Science policy blue books: policy analysis and recommendations on innovation ecosystems, talent development, and technology transfer",
+      "International science indicators: comparative data on China's global research output, collaboration networks, and citation impact benchmarked against major countries",
+      "Youth science education data: participation rates in science competitions, technology activity engagement, and STEM education outcomes"
+    ],
+    "zh": [
+      "中国科技发展报告：研发投入、专利申请、科学论文发表及技术转移成果的年度统计综述",
+      "科学素质调查：每五年开展一次的全国公民科学技术素质代表性调查数据",
+      "科技人才状况：按行业、年龄、性别和地域分布的科学家、工程师及技术人员调查数据",
+      "学科前沿评估：各重点科学领域突破性研究方向和新兴领域的年度报告",
+      "学术学会统计：科协200余个所属全国学会的会员人数、期刊产出、会议活动及引用指标",
+      "科技政策蓝皮书：关于创新生态系统、人才培养和技术转移的政策分析与建议",
+      "国际科学指标：与主要国家基准比较的中国全球科研产出、合作网络及引用影响力数据",
+      "青少年科学教育数据：科技竞赛参与率、科技活动参与情况和STEM教育成果"
+    ]
+  }
+}
