@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-04-08T02:16:15.820389+00:00",
-    "total_sources": 397,
+    "generated_at": "2026-04-08T06:17:53.303133+00:00",
+    "total_sources": 402,
     "authority_counts": {
-      "research": 39,
+      "research": 41,
       "international": 74,
-      "government": 232,
-      "other": 16,
+      "government": 234,
+      "other": 17,
       "market": 20,
       "commercial": 16
     },
@@ -266,6 +266,30 @@
         "has_api": false,
         "file_path": "china/research/china-tpdc.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-caai",
+        "name": {
+          "en": "Chinese Association for Artificial Intelligence",
+          "zh": "中国人工智能学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caai.cn/index.php?s=/home/article/lists/category/baokan.html",
+        "has_api": false,
+        "file_path": "china/technology/china-caai.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccf",
+        "name": {
+          "en": "China Computer Federation",
+          "zh": "中国计算机学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "has_api": false,
+        "file_path": "china/technology/china-ccf.json",
+        "geographic_scope": "national"
       },
       {
         "id": "ember-climate",
@@ -2315,6 +2339,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ncha",
+        "name": {
+          "en": "National Cultural Heritage Administration of China",
+          "zh": "国家文物局"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.ncha.gov.cn/col/col2276/index.html",
+        "has_api": false,
+        "file_path": "china/governance/china-ncha.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nia",
         "name": {
           "en": "National Immigration Administration of China",
@@ -2556,6 +2592,18 @@
         "data_url": "https://www.stats.gov.cn/sj/",
         "has_api": true,
         "file_path": "china/national/nbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-drc",
+        "name": {
+          "en": "Development Research Center of the State Council of China",
+          "zh": "国务院发展研究中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.drc.gov.cn/yjcg.htm",
+        "has_api": false,
+        "file_path": "china/research/china-drc.json",
         "geographic_scope": "national"
       },
       {
@@ -4359,6 +4407,18 @@
         "data_url": "https://www.cntac.org.cn/jinghua",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cntac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cpcif",
+        "name": {
+          "en": "China Petroleum and Chemical Industry Federation",
+          "zh": "中国石油和化学工业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cpcif.org.cn/list/stats",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cpcif.json",
         "geographic_scope": "national"
       },
       {

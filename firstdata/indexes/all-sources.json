@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-08T02:16:15.820389+00:00",
-    "total_sources": 397,
+    "generated_at": "2026-04-08T06:17:53.303133+00:00",
+    "total_sources": 402,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -7605,6 +7605,78 @@
       "file_path": "china/governance/china-ncac.json"
     },
     {
+      "id": "china-ncha",
+      "name": {
+        "en": "National Cultural Heritage Administration of China",
+        "zh": "国家文物局"
+      },
+      "description": {
+        "en": "The National Cultural Heritage Administration of China (NCHA) is the central government agency responsible for the protection, management, and utilization of cultural heritage across China. It oversees the registration and conservation of immovable cultural relics, museums, archaeological excavations, and the export control of cultural artifacts. NCHA publishes the National Survey of Immovable Cultural Relics, annual museum statistics, lists of nationally protected cultural heritage sites, and archaeological discovery reports. With over 770,000 registered immovable cultural relics and more than 6,000 registered museums, NCHA data serves as the authoritative reference for China's cultural heritage landscape, including UNESCO World Heritage Sites and national key cultural relics protection units.",
+        "zh": "国家文物局是负责全国文物保护、管理和利用工作的中央政府机构，主管不可移动文物登记保护、博物馆管理、考古发掘审批和文物出境监管。国家文物局发布全国不可移动文物普查成果、年度博物馆统计数据、全国重点文物保护单位名单和考古重要发现报告。全国登记不可移动文物逾77万处，注册博物馆超过6000家，国家文物局数据是了解中国文化遗产状况（含世界遗产和全国重点文物保护单位）的权威来源。"
+      },
+      "website": "http://www.ncha.gov.cn",
+      "data_url": "http://www.ncha.gov.cn/col/col2276/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "culture",
+        "education",
+        "governance"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "国家文物局",
+        "NCHA",
+        "National Cultural Heritage Administration",
+        "文物保护",
+        "cultural heritage protection",
+        "不可移动文物",
+        "immovable cultural relics",
+        "全国重点文物保护单位",
+        "national key cultural relics",
+        "博物馆统计",
+        "museum statistics",
+        "考古发现",
+        "archaeological discoveries",
+        "世界遗产",
+        "World Heritage Sites",
+        "文物普查",
+        "cultural relics survey",
+        "历史文化遗址",
+        "historical cultural sites",
+        "非物质文化遗产",
+        "intangible cultural heritage",
+        "文物出境",
+        "cultural artifacts export"
+      ],
+      "data_content": {
+        "en": [
+          "National survey of immovable cultural relics: comprehensive registry of over 770,000 registered cultural relics sites across China, categorized by type, era, protection level, and geographic distribution",
+          "Annual museum statistics: number of registered museums, visitor counts, collections size, and revenue data by province and museum type",
+          "National key cultural relics protection units: official list of state-protected heritage sites with classification details, dating, and location information",
+          "Archaeological excavation reports: annual summaries of major archaeological finds and excavation project approvals",
+          "UNESCO World Heritage Sites in China: data on China's 57 World Heritage Sites including natural, cultural, and mixed sites",
+          "Cultural relics law enforcement: statistics on illegal excavation cases, artifact smuggling, and law enforcement actions",
+          "Heritage conservation funding: government investment in cultural heritage protection projects by region and project type",
+          "Museum development report: annual assessment of China's museum sector development, including thematic museums and community museums"
+        ],
+        "zh": [
+          "全国不可移动文物普查成果：全国77万余处登记文物点综合名录，按类型、年代、保护级别和地区分类",
+          "年度博物馆统计：全国登记博物馆数量、参观人次、馆藏规模及收入数据，按省份和博物馆类型分类",
+          "全国重点文物保护单位名单：国家级文物保护单位官方名录，含分类详情、年代鉴定和位置信息",
+          "考古发掘报告：年度重大考古发现及考古发掘项目审批情况综述",
+          "中国世界遗产数据：中国57处世界遗产（含自然、文化和混合遗产）基本信息",
+          "文物执法统计：非法盗掘案件、文物走私及执法行动数据",
+          "文化遗产保护经费：各地区、各类项目政府文物保护投入情况",
+          "博物馆事业发展报告：全国博物馆事业发展年度评估，含主题博物馆和社区博物馆"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-ncha.json"
+    },
+    {
       "id": "china-nia",
       "name": {
         "en": "National Immigration Administration of China",
@@ -9493,6 +9565,86 @@
       "file_path": "china/research/china-cast.json"
     },
     {
+      "id": "china-drc",
+      "name": {
+        "en": "Development Research Center of the State Council of China",
+        "zh": "国务院发展研究中心"
+      },
+      "description": {
+        "en": "The Development Research Center of the State Council (DRC) is China's premier government think tank, directly under the State Council. Founded in 1981, DRC conducts policy research and provides strategic advisory services on macroeconomics, rural development, industry and technology, market economy, social development, regional economy, open economy, and resource and environmental policy. DRC publishes influential research reports including the China Development Report, annual economic outlook assessments, and sector-specific policy analyses that directly inform national economic planning and State Council decision-making. Its research covers medium- and long-term development strategies, major reform initiatives, and international economic trends.",
+        "zh": "国务院发展研究中心是国务院直属的综合性政策研究机构，成立于1981年，承担宏观经济、农村发展、产业与技术、市场经济、社会发展、区域经济、开放经济、资源与环境政策等领域的研究工作，为国务院决策提供战略咨询服务。发展研究中心发布《中国发展报告》、年度经济形势研判报告及行业政策分析，直接服务于国家经济规划和国务院重大决策。研究领域涵盖中长期发展战略、重大改革举措和国际经济形势。"
+      },
+      "website": "https://www.drc.gov.cn",
+      "data_url": "https://www.drc.gov.cn/yjcg.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "governance",
+        "environment",
+        "agriculture",
+        "science"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "国务院发展研究中心",
+        "DRC",
+        "Development Research Center",
+        "国家智库",
+        "national think tank",
+        "中国发展报告",
+        "China Development Report",
+        "宏观经济",
+        "macroeconomics",
+        "经济政策",
+        "economic policy",
+        "农村发展",
+        "rural development",
+        "产业政策",
+        "industrial policy",
+        "区域经济",
+        "regional economy",
+        "资源环境政策",
+        "resource environmental policy",
+        "改革研究",
+        "reform research",
+        "中长期发展战略",
+        "medium-long term development strategy",
+        "国际经济",
+        "international economy",
+        "经济形势",
+        "economic outlook"
+      ],
+      "data_content": {
+        "en": [
+          "China Development Report: annual comprehensive assessment of China's economic and social development progress, challenges, and policy recommendations",
+          "Macroeconomic outlook reports: quarterly and annual economic growth forecasts, inflation analysis, and fiscal and monetary policy assessments",
+          "Rural development research: reports on agricultural modernization, rural income, land policy, and urbanization trends",
+          "Industrial policy studies: sector-specific analyses on manufacturing transformation, strategic emerging industries, and industrial upgrade strategies",
+          "Regional economic research: studies on balanced regional development, urbanization, and major regional strategies such as the Belt and Road Initiative",
+          "Resource and environmental policy: research on energy transition, carbon neutrality pathways, green development, and ecological civilization policies",
+          "Reform policy assessments: evaluations of major reform initiatives in state-owned enterprises, financial systems, and market regulation",
+          "International economic analysis: research on global economic trends, trade policy, and China's foreign economic relations",
+          "Social development studies: research on income distribution, social security systems, pension reform, and public services"
+        ],
+        "zh": [
+          "中国发展报告：中国经济社会发展进展、挑战及政策建议年度综合评估",
+          "宏观经济形势报告：季度和年度经济增长预测、通胀分析及财政货币政策评估",
+          "农村发展研究：农业现代化、农村居民收入、土地政策和城镇化趋势研究",
+          "产业政策研究：制造业转型、战略性新兴产业和产业升级策略的行业专项分析",
+          "区域经济研究：区域协调发展、城镇化及「一带一路」等重大区域战略研究",
+          "资源与环境政策：能源转型、碳中和路径、绿色发展和生态文明政策研究",
+          "改革政策评估：国有企业、金融体系和市场监管等重大改革举措评估",
+          "国际经济分析：全球经济形势、贸易政策及中国对外经济关系研究",
+          "社会发展研究：收入分配、社会保障体系、养老金改革和公共服务研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-drc.json"
+    },
+    {
       "id": "china-nsfc",
       "name": {
         "en": "National Natural Science Foundation of China",
@@ -10399,6 +10551,170 @@
       "file_path": "china/resources/water/china-mwr.json"
     },
     {
+      "id": "china-caai",
+      "name": {
+        "en": "Chinese Association for Artificial Intelligence",
+        "zh": "中国人工智能学会"
+      },
+      "description": {
+        "en": "The Chinese Association for Artificial Intelligence (CAAI) is China's national academic organization for artificial intelligence research, established in 1981 and supervised by the China Association for Science and Technology. CAAI represents over 40,000 individual members and more than 200 institutional members spanning academia, research institutes, and industry. It publishes the China Artificial Intelligence Development Report, AI industry statistics, and research on AI technology trends, policy frameworks, and application domains including computer vision, natural language processing, robotics, and intelligent systems. CAAI also maintains rankings of AI research outputs and talent concentration, and organizes China's premier AI academic conferences and competitions.",
+        "zh": "中国人工智能学会（CAAI）成立于1981年，是中国科学技术协会主管的全国性人工智能学术组织，拥有个人会员4万余名、团体会员200余家，覆盖高校、科研院所和企业。学会发布《中国人工智能发展报告》、AI产业统计数据及计算机视觉、自然语言处理、机器人、智能系统等AI技术趋势与政策研究报告。CAAI还维护人工智能科研成果和人才集聚排名，组织国内顶级AI学术会议和竞赛。"
+      },
+      "website": "https://www.caai.cn",
+      "data_url": "https://www.caai.cn/index.php?s=/home/article/lists/category/baokan.html",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "science",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国人工智能学会",
+        "CAAI",
+        "Chinese Association for Artificial Intelligence",
+        "人工智能",
+        "artificial intelligence",
+        "AI发展报告",
+        "AI development report",
+        "计算机视觉",
+        "computer vision",
+        "自然语言处理",
+        "natural language processing",
+        "NLP",
+        "机器人",
+        "robotics",
+        "深度学习",
+        "deep learning",
+        "机器学习",
+        "machine learning",
+        "AI产业",
+        "AI industry",
+        "智能系统",
+        "intelligent systems",
+        "AI政策",
+        "AI policy",
+        "AI人才",
+        "AI talent",
+        "AI研究排名",
+        "AI research rankings",
+        "大模型",
+        "large language models",
+        "LLM"
+      ],
+      "data_content": {
+        "en": [
+          "China Artificial Intelligence Development Report: annual comprehensive assessment of China's AI research output, industry development, talent ecosystem, and policy environment",
+          "AI research rankings: institutional rankings by AI publication volume, patent counts, and citation impact across Chinese universities, research institutes, and companies",
+          "AI talent statistics: data on AI researchers, graduate students, and workforce distribution by region, specialization, and institution type",
+          "AI industry data: market size estimates, investment statistics, and enterprise distribution across key AI application domains",
+          "Technology trend reports: analyses of emerging AI technologies including large language models, computer vision, robotics, and autonomous systems in the Chinese context",
+          "AI competition results: outcomes and participant statistics from major Chinese AI competitions and benchmarks",
+          "AI academic conference proceedings: research papers from CAAI-organized conferences covering all major AI sub-fields",
+          "AI policy research: analysis of national AI development plans, regulatory frameworks, and standards initiatives",
+          "International AI cooperation: data on China's international AI research collaborations, co-publications, and technology exchange programs"
+        ],
+        "zh": [
+          "中国人工智能发展报告：中国AI科研产出、产业发展、人才生态和政策环境年度综合评估",
+          "AI研究机构排名：中国高校、科研院所和企业AI论文发表量、专利数量及引用影响力排名",
+          "AI人才统计：AI研究人员、在读研究生及劳动力分布数据，按地区、专业方向和机构类型分类",
+          "AI产业数据：主要AI应用领域市场规模估算、投资统计和企业分布情况",
+          "技术趋势报告：大语言模型、计算机视觉、机器人及自动驾驶等新兴AI技术在中国的发展分析",
+          "AI竞赛成果：国内主要AI竞赛和基准测试成绩及参赛者统计",
+          "AI学术会议论文集：CAAI主办会议发表的涵盖AI各子领域的研究论文",
+          "AI政策研究：国家AI发展规划、监管框架和标准化工作分析",
+          "国际AI合作：中国国际AI研究合作、联合发表和技术交流项目数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-caai.json"
+    },
+    {
+      "id": "china-ccf",
+      "name": {
+        "en": "China Computer Federation",
+        "zh": "中国计算机学会"
+      },
+      "description": {
+        "en": "The China Computer Federation (CCF) is China's leading academic society for the computing field, established in 1962 under the China Association for Science and Technology. CCF serves over 100,000 members including researchers, engineers, and students across computer science and technology disciplines. CCF is best known internationally for the CCF Recommended International Academic Conference and Journal List (CCF-List), the authoritative grading system used by Chinese universities and research institutions to evaluate computer science publications. CCF also publishes the China Computer Science Almanac, annual computing talent reports, computing industry white papers, and the CCF Big Data report series, providing critical reference data for China's computing and IT research ecosystem.",
+        "zh": "中国计算机学会（CCF）是中国科学技术协会主管的计算领域权威学术组织，成立于1962年，拥有个人会员逾10万名，涵盖计算机科学与技术各学科的科研人员、工程师和学生。CCF在国际上以《中国计算机学会推荐国际学术会议和期刊目录》（CCF目录）著称，该目录是中国高校和科研机构评价计算机科学论文质量的权威分级体系。CCF还发布《中国计算机科学年鉴》、年度计算人才报告、计算产业白皮书和CCF大数据报告系列，为中国计算和IT研究生态系统提供重要参考数据。"
+      },
+      "website": "https://www.ccf.org.cn",
+      "data_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "science",
+        "education"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国计算机学会",
+        "CCF",
+        "China Computer Federation",
+        "CCF推荐目录",
+        "CCF recommended list",
+        "计算机科学",
+        "computer science",
+        "计算领域",
+        "computing",
+        "学术评价",
+        "academic evaluation",
+        "期刊分级",
+        "journal ranking",
+        "会议分级",
+        "conference ranking",
+        "计算机科学年鉴",
+        "computer science almanac",
+        "IT人才",
+        "IT talent",
+        "大数据",
+        "big data",
+        "信息技术",
+        "information technology",
+        "软件工程",
+        "software engineering",
+        "网络安全",
+        "cybersecurity",
+        "计算产业",
+        "computing industry",
+        "中国IT",
+        "China IT"
+      ],
+      "data_content": {
+        "en": [
+          "CCF Recommended International Academic Conference and Journal List (CCF-List): authoritative tiered ranking (A/B/C) of international CS conferences and journals used system-wide by Chinese academia for tenure, promotion, and funding decisions",
+          "China Computer Science Almanac: annual comprehensive statistics on computing research outputs, publications, patents, and academic workforce in China",
+          "Computing talent report: annual data on computer science education enrollment, graduation rates, postgraduate research students, and employment outcomes in China's computing sector",
+          "CCF Big Data report: analysis of big data technology adoption, market size, and industry applications in China",
+          "Computing industry white papers: assessments of key computing sub-fields including cloud computing, cybersecurity, chip design, operating systems, and open-source software in China",
+          "Top computer science institution rankings: institutional rankings for Chinese universities and research institutes based on publication quality and output using the CCF classification",
+          "Annual conference proceedings: collections of research papers from CCF-organized academic conferences covering all major computing disciplines",
+          "Open source ecosystem report: data on Chinese contributions to international open-source projects and domestic open-source community development",
+          "Technology roadmaps: strategic assessments of China's computing technology development priorities and innovation gaps"
+        ],
+        "zh": [
+          "CCF推荐国际学术会议和期刊目录（CCF目录）：国际计算机科学会议和期刊权威分级（A/B/C类），全面应用于中国高校和科研机构的职称评定、晋升考核和科研经费申请",
+          "中国计算机科学年鉴：中国计算机科研成果、论文发表、专利和学术人才年度综合统计",
+          "计算人才报告：中国计算机科学专业招生、毕业率、研究生及计算行业就业去向年度数据",
+          "CCF大数据报告：中国大数据技术应用、市场规模和产业应用分析",
+          "计算产业白皮书：云计算、网络安全、芯片设计、操作系统、开源软件等计算子领域评估",
+          "顶级计算机科学机构排名：基于CCF分类体系的中国高校和科研院所论文质量与产出排名",
+          "年度学术会议论文集：CCF主办的涵盖各主要计算学科的学术会议研究论文汇编",
+          "开源生态报告：中国对国际开源项目的贡献及国内开源社区发展情况数据",
+          "技术路线图：中国计算技术发展优先领域和创新差距战略评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-ccf.json"
+    },
+    {
       "id": "china-cnsa",
       "name": {
         "en": "China National Space Administration",
@@ -10867,6 +11183,87 @@
       },
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-cntac.json"
+    },
+    {
+      "id": "china-cpcif",
+      "name": {
+        "en": "China Petroleum and Chemical Industry Federation",
+        "zh": "中国石油和化学工业联合会"
+      },
+      "description": {
+        "en": "The China Petroleum and Chemical Industry Federation (CPCIF) is the national industry association representing China's petroleum refining, petrochemical, basic chemical, and specialty chemical sectors. Supervised by the Ministry of Industry and Information Technology, CPCIF serves over 8,000 member enterprises and publishes authoritative statistics on China's chemical industry output, trade, energy consumption, and investment. Its data covers crude oil processing, chemical fertilizers, pesticides, synthetic resins, synthetic rubber, and specialty chemicals production and pricing. CPCIF also releases the annual China Chemical Industry Report and monthly industry economic monitoring reports, making it the primary reference for tracking one of the world's largest chemical industries.",
+        "zh": "中国石油和化学工业联合会（中国石化联合会）是代表中国石油炼制、石油化工、基础化工和精细化工行业的全国性行业组织，工业和信息化部主管，拥有会员企业8000余家。联合会发布化工行业产量、进出口、能源消耗和投资等权威统计数据，覆盖原油加工、化肥、农药、合成树脂、合成橡胶及精细化工等产品的生产和价格信息。联合会还发布年度《中国化学工业年度报告》和月度行业经济运行监测报告，是追踪全球最大化工产业之一的主要数据来源。"
+      },
+      "website": "http://www.cpcif.org.cn",
+      "data_url": "http://www.cpcif.org.cn/list/stats",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "energy",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国石油和化学工业联合会",
+        "CPCIF",
+        "China Petroleum Chemical Industry Federation",
+        "石化行业",
+        "petrochemical industry",
+        "化工产品",
+        "chemical products",
+        "原油加工",
+        "crude oil processing",
+        "化肥产量",
+        "chemical fertilizer production",
+        "合成树脂",
+        "synthetic resins",
+        "合成橡胶",
+        "synthetic rubber",
+        "精细化工",
+        "specialty chemicals",
+        "化工出口",
+        "chemical exports",
+        "石化投资",
+        "petrochemical investment",
+        "化工能耗",
+        "chemical industry energy consumption",
+        "塑料",
+        "plastics",
+        "农药",
+        "pesticides",
+        "化工经济运行",
+        "chemical industry economic performance"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly chemical industry output: production volume of major chemical products including synthetic resins, synthetic rubber, chemical fertilizers, pesticides, dyes, and coatings",
+          "Crude oil processing data: monthly crude oil input volume, utilization rates of refineries, and refined product yields by type",
+          "Industry economic monitoring: monthly revenue, profit, investment, and employment statistics for the petroleum and chemical sector",
+          "Import and export statistics: trade data for petroleum products, chemical raw materials, and finished chemical goods by product category and trading partner",
+          "Energy consumption: energy use intensity and total energy consumption of the chemical industry by fuel type and sub-sector",
+          "Chemical product prices: monthly price indices for key chemical commodities including ethylene, propylene, methanol, and polyethylene",
+          "Annual China chemical industry report: comprehensive yearly assessment of industry development, capacity changes, market trends, and policy outlook",
+          "Safety statistics: accident reports, fatality rates, and workplace safety performance indicators for the sector",
+          "Regional distribution: chemical industry output and investment by province and major industrial clusters"
+        ],
+        "zh": [
+          "月度化工产品产量：合成树脂、合成橡胶、化肥、农药、染料、涂料等主要化工产品产量",
+          "原油加工数据：月度原油加工量、炼油厂开工率及成品油产量结构",
+          "行业经济运行：石油和化工行业月度营业收入、利润总额、固定资产投资和从业人员统计",
+          "进出口统计：石化产品、化工原料和成品的贸易数据，按品类和贸易伙伴分类",
+          "能源消耗：化工行业能耗强度及分燃料品种、分子行业能源消耗总量",
+          "化工产品价格：乙烯、丙烯、甲醇、聚乙烯等主要化工大宗商品月度价格指数",
+          "中国化学工业年度报告：行业发展综合评估、产能变化、市场趋势及政策展望",
+          "安全生产统计：行业事故报告、死亡率及安全生产绩效指标",
+          "区域分布：各省份及主要化工产业集群产量和投资情况"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-cpcif.json"
     },
     {
       "id": "china-cpia",
