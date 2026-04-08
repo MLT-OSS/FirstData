@@ -12,12 +12,28 @@
   "data_url": "http://www.cs-re.org.cn/c50",
   "country": "CN",
   "geographic_scope": "national",
-  "authority_level": "commercial",
-  "domains": ["resources", "industry"],
+  "authority_level": "other",
+  "domains": [
+    "resources",
+    "industry"
+  ],
   "update_frequency": "monthly",
-  "tags": ["rare-earth", "minerals", "strategic-resources", "industry-statistics"],
+  "tags": [
+    "rare-earth",
+    "minerals",
+    "strategic-resources",
+    "industry-statistics"
+  ],
   "data_content": {
-    "en": ["rare earth production statistics", "rare earth export data", "rare earth pricing information"],
-    "zh": ["稀土产量统计", "稀土出口数据", "稀土价格信息"]
+    "en": [
+      "rare earth production statistics",
+      "rare earth export data",
+      "rare earth pricing information"
+    ],
+    "zh": [
+      "稀土产量统计",
+      "稀土出口数据",
+      "稀土价格信息"
+    ]
   }
 }

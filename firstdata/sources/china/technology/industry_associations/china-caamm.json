@@ -12,12 +12,27 @@
   "data_url": "http://www.caamm.org.cn/member/qytj.jspx",
   "country": "CN",
   "geographic_scope": "national",
-  "authority_level": "commercial",
-  "domains": ["agriculture", "industry"],
+  "authority_level": "other",
+  "domains": [
+    "agriculture",
+    "industry"
+  ],
   "update_frequency": "monthly",
-  "tags": ["agricultural-machinery", "farming-equipment", "industry-statistics"],
+  "tags": [
+    "agricultural-machinery",
+    "farming-equipment",
+    "industry-statistics"
+  ],
   "data_content": {
-    "en": ["agricultural machinery production statistics", "farming equipment enterprise data", "agricultural machinery market analysis"],
-    "zh": ["农业机械产量统计", "农机企业数据", "农业机械市场分析"]
+    "en": [
+      "agricultural machinery production statistics",
+      "farming equipment enterprise data",
+      "agricultural machinery market analysis"
+    ],
+    "zh": [
+      "农业机械产量统计",
+      "农机企业数据",
+      "农业机械市场分析"
+    ]
   }
 }
