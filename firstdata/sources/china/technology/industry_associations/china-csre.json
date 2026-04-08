@@ -1,0 +1,39 @@
+{
+  "id": "china-csre",
+  "name": {
+    "en": "China Society of Rare Earths",
+    "zh": "中国稀土学会"
+  },
+  "description": {
+    "en": "Industry association for China's rare earth sector, publishing production statistics, export data, pricing information, and industry policy analysis for rare earth elements.",
+    "zh": "中国稀土学会组织，发布稀土产量统计、出口数据、价格信息和行业政策分析。"
+  },
+  "website": "http://www.cs-re.org.cn/",
+  "data_url": "http://www.cs-re.org.cn/c50",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": [
+    "resources",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "rare-earth",
+    "minerals",
+    "strategic-resources",
+    "industry-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "rare earth production statistics",
+      "rare earth export data",
+      "rare earth pricing information"
+    ],
+    "zh": [
+      "稀土产量统计",
+      "稀土出口数据",
+      "稀土价格信息"
+    ]
+  }
+}

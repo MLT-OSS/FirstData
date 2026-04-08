@@ -1,0 +1,39 @@
+{
+  "id": "china-cwea",
+  "name": {
+    "en": "Chinese Wind Energy Association",
+    "zh": "中国可再生能源学会风能专业委员会"
+  },
+  "description": {
+    "en": "Professional committee under the Chinese Renewable Energy Society focused on wind energy, publishing wind power installation data, industry statistics, and market analysis.",
+    "zh": "中国可再生能源学会下属风能专业委员会，发布风电装机数据、行业统计和市场分析。"
+  },
+  "website": "http://www.cwea.org.cn/",
+  "data_url": "http://www.cwea.org.cn/news_lastest.html",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": [
+    "energy",
+    "industry"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "wind-energy",
+    "renewable-energy",
+    "wind-power",
+    "industry-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "wind power installation statistics",
+      "wind turbine capacity data",
+      "wind energy market analysis"
+    ],
+    "zh": [
+      "风电装机统计",
+      "风力发电容量数据",
+      "风能市场分析"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "china-cpia",
+  "name": {
+    "en": "China Photovoltaic Industry Association",
+    "zh": "中国光伏行业协会"
+  },
+  "description": {
+    "en": "Industry association for China's photovoltaic sector, publishing solar capacity installations, production data, export statistics, and industry development reports.",
+    "zh": "中国光伏行业协会，发布太阳能装机容量、产量数据、出口统计和行业发展报告。"
+  },
+  "website": "https://www.chinapv.org.cn/",
+  "data_url": "https://www.chinapv.org.cn/StaticPage/association_page1.html",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": [
+    "energy",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "photovoltaic",
+    "solar-energy",
+    "renewable-energy",
+    "industry-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "solar PV installation statistics",
+      "photovoltaic production data",
+      "solar equipment export statistics"
+    ],
+    "zh": [
+      "光伏装机统计",
+      "光伏产量数据",
+      "太阳能设备出口统计"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "china-cnfia",
+  "name": {
+    "en": "China National Food Industry Association",
+    "zh": "中国食品工业协会"
+  },
+  "description": {
+    "en": "National association for China's food industry, publishing industry statistics, production data, and market analysis reports covering food manufacturing and processing sectors.",
+    "zh": "中国食品工业全国性行业组织，发布食品工业统计、产量数据和市场分析报告，涵盖食品制造和加工行业。"
+  },
+  "website": "https://www.cnfia.cn/",
+  "data_url": "https://www.cnfia.cn/archives/category/hangyetongji",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": [
+    "agriculture",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "food-industry",
+    "food-manufacturing",
+    "industry-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "food industry production statistics",
+      "food manufacturing data",
+      "food market analysis"
+    ],
+    "zh": [
+      "食品工业产量统计",
+      "食品制造数据",
+      "食品市场分析"
+    ]
+  }
+}
