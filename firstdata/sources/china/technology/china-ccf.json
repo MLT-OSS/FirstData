@@ -1,0 +1,80 @@
+{
+  "id": "china-ccf",
+  "name": {
+    "en": "China Computer Federation",
+    "zh": "中国计算机学会"
+  },
+  "description": {
+    "en": "The China Computer Federation (CCF) is China's leading academic society for the computing field, established in 1962 under the China Association for Science and Technology. CCF serves over 100,000 members including researchers, engineers, and students across computer science and technology disciplines. CCF is best known internationally for the CCF Recommended International Academic Conference and Journal List (CCF-List), the authoritative grading system used by Chinese universities and research institutions to evaluate computer science publications. CCF also publishes the China Computer Science Almanac, annual computing talent reports, computing industry white papers, and the CCF Big Data report series, providing critical reference data for China's computing and IT research ecosystem.",
+    "zh": "中国计算机学会（CCF）是中国科学技术协会主管的计算领域权威学术组织，成立于1962年，拥有个人会员逾10万名，涵盖计算机科学与技术各学科的科研人员、工程师和学生。CCF在国际上以《中国计算机学会推荐国际学术会议和期刊目录》（CCF目录）著称，该目录是中国高校和科研机构评价计算机科学论文质量的权威分级体系。CCF还发布《中国计算机科学年鉴》、年度计算人才报告、计算产业白皮书和CCF大数据报告系列，为中国计算和IT研究生态系统提供重要参考数据。"
+  },
+  "website": "https://www.ccf.org.cn",
+  "data_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "science",
+    "education"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国计算机学会",
+    "CCF",
+    "China Computer Federation",
+    "CCF推荐目录",
+    "CCF recommended list",
+    "计算机科学",
+    "computer science",
+    "计算领域",
+    "computing",
+    "学术评价",
+    "academic evaluation",
+    "期刊分级",
+    "journal ranking",
+    "会议分级",
+    "conference ranking",
+    "计算机科学年鉴",
+    "computer science almanac",
+    "IT人才",
+    "IT talent",
+    "大数据",
+    "big data",
+    "信息技术",
+    "information technology",
+    "软件工程",
+    "software engineering",
+    "网络安全",
+    "cybersecurity",
+    "计算产业",
+    "computing industry",
+    "中国IT",
+    "China IT"
+  ],
+  "data_content": {
+    "en": [
+      "CCF Recommended International Academic Conference and Journal List (CCF-List): authoritative tiered ranking (A/B/C) of international CS conferences and journals used system-wide by Chinese academia for tenure, promotion, and funding decisions",
+      "China Computer Science Almanac: annual comprehensive statistics on computing research outputs, publications, patents, and academic workforce in China",
+      "Computing talent report: annual data on computer science education enrollment, graduation rates, postgraduate research students, and employment outcomes in China's computing sector",
+      "CCF Big Data report: analysis of big data technology adoption, market size, and industry applications in China",
+      "Computing industry white papers: assessments of key computing sub-fields including cloud computing, cybersecurity, chip design, operating systems, and open-source software in China",
+      "Top computer science institution rankings: institutional rankings for Chinese universities and research institutes based on publication quality and output using the CCF classification",
+      "Annual conference proceedings: collections of research papers from CCF-organized academic conferences covering all major computing disciplines",
+      "Open source ecosystem report: data on Chinese contributions to international open-source projects and domestic open-source community development",
+      "Technology roadmaps: strategic assessments of China's computing technology development priorities and innovation gaps"
+    ],
+    "zh": [
+      "CCF推荐国际学术会议和期刊目录（CCF目录）：国际计算机科学会议和期刊权威分级（A/B/C类），全面应用于中国高校和科研机构的职称评定、晋升考核和科研经费申请",
+      "中国计算机科学年鉴：中国计算机科研成果、论文发表、专利和学术人才年度综合统计",
+      "计算人才报告：中国计算机科学专业招生、毕业率、研究生及计算行业就业去向年度数据",
+      "CCF大数据报告：中国大数据技术应用、市场规模和产业应用分析",
+      "计算产业白皮书：云计算、网络安全、芯片设计、操作系统、开源软件等计算子领域评估",
+      "顶级计算机科学机构排名：基于CCF分类体系的中国高校和科研院所论文质量与产出排名",
+      "年度学术会议论文集：CCF主办的涵盖各主要计算学科的学术会议研究论文汇编",
+      "开源生态报告：中国对国际开源项目的贡献及国内开源社区发展情况数据",
+      "技术路线图：中国计算技术发展优先领域和创新差距战略评估"
+    ]
+  }
+}

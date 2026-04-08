@@ -1,0 +1,70 @@
+{
+  "id": "china-ncha",
+  "name": {
+    "en": "National Cultural Heritage Administration of China",
+    "zh": "国家文物局"
+  },
+  "description": {
+    "en": "The National Cultural Heritage Administration of China (NCHA) is the central government agency responsible for the protection, management, and utilization of cultural heritage across China. It oversees the registration and conservation of immovable cultural relics, museums, archaeological excavations, and the export control of cultural artifacts. NCHA publishes the National Survey of Immovable Cultural Relics, annual museum statistics, lists of nationally protected cultural heritage sites, and archaeological discovery reports. With over 770,000 registered immovable cultural relics and more than 6,000 registered museums, NCHA data serves as the authoritative reference for China's cultural heritage landscape, including UNESCO World Heritage Sites and national key cultural relics protection units.",
+    "zh": "国家文物局是负责全国文物保护、管理和利用工作的中央政府机构，主管不可移动文物登记保护、博物馆管理、考古发掘审批和文物出境监管。国家文物局发布全国不可移动文物普查成果、年度博物馆统计数据、全国重点文物保护单位名单和考古重要发现报告。全国登记不可移动文物逾77万处，注册博物馆超过6000家，国家文物局数据是了解中国文化遗产状况（含世界遗产和全国重点文物保护单位）的权威来源。"
+  },
+  "website": "http://www.ncha.gov.cn",
+  "data_url": "http://www.ncha.gov.cn/col/col2276/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "culture",
+    "education",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家文物局",
+    "NCHA",
+    "National Cultural Heritage Administration",
+    "文物保护",
+    "cultural heritage protection",
+    "不可移动文物",
+    "immovable cultural relics",
+    "全国重点文物保护单位",
+    "national key cultural relics",
+    "博物馆统计",
+    "museum statistics",
+    "考古发现",
+    "archaeological discoveries",
+    "世界遗产",
+    "World Heritage Sites",
+    "文物普查",
+    "cultural relics survey",
+    "历史文化遗址",
+    "historical cultural sites",
+    "非物质文化遗产",
+    "intangible cultural heritage",
+    "文物出境",
+    "cultural artifacts export"
+  ],
+  "data_content": {
+    "en": [
+      "National survey of immovable cultural relics: comprehensive registry of over 770,000 registered cultural relics sites across China, categorized by type, era, protection level, and geographic distribution",
+      "Annual museum statistics: number of registered museums, visitor counts, collections size, and revenue data by province and museum type",
+      "National key cultural relics protection units: official list of state-protected heritage sites with classification details, dating, and location information",
+      "Archaeological excavation reports: annual summaries of major archaeological finds and excavation project approvals",
+      "UNESCO World Heritage Sites in China: data on China's 57 World Heritage Sites including natural, cultural, and mixed sites",
+      "Cultural relics law enforcement: statistics on illegal excavation cases, artifact smuggling, and law enforcement actions",
+      "Heritage conservation funding: government investment in cultural heritage protection projects by region and project type",
+      "Museum development report: annual assessment of China's museum sector development, including thematic museums and community museums"
+    ],
+    "zh": [
+      "全国不可移动文物普查成果：全国77万余处登记文物点综合名录，按类型、年代、保护级别和地区分类",
+      "年度博物馆统计：全国登记博物馆数量、参观人次、馆藏规模及收入数据，按省份和博物馆类型分类",
+      "全国重点文物保护单位名单：国家级文物保护单位官方名录，含分类详情、年代鉴定和位置信息",
+      "考古发掘报告：年度重大考古发现及考古发掘项目审批情况综述",
+      "中国世界遗产数据：中国57处世界遗产（含自然、文化和混合遗产）基本信息",
+      "文物执法统计：非法盗掘案件、文物走私及执法行动数据",
+      "文化遗产保护经费：各地区、各类项目政府文物保护投入情况",
+      "博物馆事业发展报告：全国博物馆事业发展年度评估，含主题博物馆和社区博物馆"
+    ]
+  }
+}
