@@ -1,0 +1,83 @@
+{
+  "id": "china-ccpit",
+  "name": {
+    "en": "China Council for the Promotion of International Trade",
+    "zh": "中国国际贸易促进委员会"
+  },
+  "description": {
+    "en": "The China Council for the Promotion of International Trade (CCPIT), also known as the China Chamber of International Commerce (CCOIC), is China's primary government-affiliated body for trade promotion and international business facilitation, founded in 1952. CCPIT publishes authoritative data and research reports on China's foreign trade environment, business climate surveys among foreign-invested enterprises, trade dispute statistics, certificate of origin issuance volumes, international exhibition and trade fair data, and foreign direct investment attraction by region and industry. Its quarterly and annual surveys on the business confidence of multinational corporations operating in China are widely referenced by policymakers, investors, and economic researchers. CCPIT also publishes trade and investment legal guides, bilateral trade statistics with key partner countries, and reports on China's free trade zone policies.",
+    "zh": "中国国际贸易促进委员会（贸促会），又称中国国际商会，是中国主要的政府关联贸易促进和国际商务便利化机构，成立于1952年。贸促会发布权威数据和研究报告，涵盖中国外贸环境、外资企业商业环境调查、贸易争端统计、原产地证书签发量、国际展览和商品交易会数据，以及按地区和行业划分的引进外商直接投资情况。其关于在华跨国公司商业信心的季度和年度调查报告被政策制定者、投资者和经济研究人员广泛引用。贸促会还发布贸易和投资法律指南、与主要伙伴国的双边贸易统计数据，以及中国自由贸易区政策报告。"
+  },
+  "website": "https://www.ccpit.org/",
+  "data_url": "https://www.ccpit.org/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "trade",
+    "economics",
+    "finance",
+    "governance"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "中国国际贸易促进委员会",
+    "CCPIT",
+    "China Council for the Promotion of International Trade",
+    "贸促会",
+    "中国国际商会",
+    "CCOIC",
+    "国际贸易",
+    "international trade",
+    "贸易促进",
+    "trade promotion",
+    "原产地证书",
+    "certificate of origin",
+    "外商直接投资",
+    "foreign direct investment",
+    "FDI",
+    "商业环境",
+    "business environment",
+    "贸易争端",
+    "trade disputes",
+    "商事调解",
+    "commercial mediation",
+    "国际展览",
+    "international exhibitions",
+    "贸易博览会",
+    "trade fairs",
+    "跨国公司",
+    "multinational corporations",
+    "自由贸易区",
+    "free trade zone",
+    "营商信心",
+    "business confidence",
+    "双边贸易",
+    "bilateral trade"
+  ],
+  "data_content": {
+    "en": [
+      "Business climate surveys: quarterly and annual surveys on operating conditions, confidence indices, and challenges faced by foreign-invested enterprises in China",
+      "Certificate of origin: monthly issuance volumes of CCPIT and CCOIC certificates of origin by country and product category",
+      "Trade dispute statistics: arbitration and mediation cases handled, resolution outcomes, and dispute types by trading partner",
+      "International exhibitions: number and scale of exhibitions organized or facilitated, exhibitor and visitor statistics",
+      "Foreign direct investment attraction: FDI inflows by region, industry, and source country, supplementing MOFCOM data",
+      "Bilateral trade data: trade volumes and growth rates between China and major partner countries and economic blocs",
+      "Free trade zone reports: operational data and policy updates on China's FTZs, including Shanghai, Guangdong, and Hainan FTZs",
+      "Trade legal environment: annual reports on trade remedy cases (anti-dumping, safeguards) affecting Chinese enterprises abroad",
+      "Multinational enterprise surveys: investment intentions, localization trends, and policy feedback from MNCs operating in China"
+    ],
+    "zh": [
+      "商业环境调查：关于外资企业在华经营状况、信心指数和挑战的季度和年度调查数据",
+      "原产地证书：按国家和产品类别划分的贸促会和中国国际商会原产地证书月度签发量",
+      "贸易争端统计：仲裁和调解案件数量、结案情况及按贸易伙伴划分的争端类型",
+      "国际展览：组织或参与的展览数量及规模、参展商和观众统计",
+      "引进外商直接投资：按地区、行业和来源国划分的外商直接投资流入情况",
+      "双边贸易数据：中国与主要伙伴国和经济体的贸易量及增长率",
+      "自由贸易区报告：中国自贸区（上海、广东、海南等）的运营数据和政策动态",
+      "贸易法律环境：影响海外中国企业的贸易救济案件（反倾销、保障措施）年度报告",
+      "跨国企业调查：在华跨国公司的投资意向、本土化趋势及政策反馈"
+    ]
+  }
+}
