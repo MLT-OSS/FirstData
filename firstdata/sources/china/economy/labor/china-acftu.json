@@ -1,0 +1,81 @@
+{
+  "id": "china-acftu",
+  "name": {
+    "en": "All-China Federation of Trade Unions",
+    "zh": "中华全国总工会"
+  },
+  "description": {
+    "en": "The All-China Federation of Trade Unions (ACFTU) is the largest trade union federation in the world, with over 300 million members across more than 2.8 million grassroots trade union organizations in China. ACFTU publishes statistics and reports on union membership and organizational development, worker rights protection cases, collective bargaining agreements, occupational health and safety incidents, labor dispute mediation outcomes, and employee welfare programs including housing provident funds, medical benefits, and skills training participation. As the sole national trade union federation recognized in China, ACFTU data provides unique insights into China's labor relations, workforce conditions, and the implementation of labor laws across industries and regions. Its annual reports and research publications are essential for labor economics research, social policy analysis, and corporate compliance studies.",
+    "zh": "中华全国总工会（全总）是全球规模最大的工会联合会，拥有超过3亿名会员，覆盖全国280余万个基层工会组织。全总发布工会会员数量和组织发展、工人权益保障案例、集体协商合同、职业健康与安全事故、劳动争议调解结果，以及职工住房公积金、医疗福利和职业技能培训参与情况等统计数据和报告。作为中国唯一受认可的全国性工会联合会，全总数据为研究中国劳动关系、劳动力状况及各行业和地区劳动法律法规执行情况提供了独特视角，其年度报告和研究成果对劳动经济学研究、社会政策分析和企业合规研究具有重要参考价值。"
+  },
+  "website": "https://www.acftu.org.cn/",
+  "data_url": "https://www.acftu.org.cn/gonghui/dongtai/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "labor",
+    "social",
+    "economics",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中华全国总工会",
+    "ACFTU",
+    "All-China Federation of Trade Unions",
+    "工会",
+    "trade unions",
+    "工会会员",
+    "union membership",
+    "劳动关系",
+    "labor relations",
+    "集体协商",
+    "collective bargaining",
+    "劳动争议",
+    "labor disputes",
+    "职业健康",
+    "occupational health",
+    "工人权益",
+    "worker rights",
+    "劳动法",
+    "labor law",
+    "职工福利",
+    "employee welfare",
+    "住房公积金",
+    "housing provident fund",
+    "职业技能",
+    "vocational skills",
+    "安全生产",
+    "work safety",
+    "工资集体协商",
+    "wage collective negotiation",
+    "劳动保护",
+    "labor protection"
+  ],
+  "data_content": {
+    "en": [
+      "Union membership: total members, growth rates, and distribution by industry, enterprise type, and province",
+      "Organizational development: number of grassroots union organizations, enterprise coverage rates",
+      "Collective bargaining: number of collective contracts signed, workers covered, and contract renewal rates",
+      "Labor dispute mediation: cases handled, resolution rates, and types of labor disputes by category",
+      "Occupational safety: work-related accidents, injuries, fatalities, and major safety incident statistics",
+      "Worker welfare: housing provident fund contributions, medical benefit coverage, and social insurance participation rates",
+      "Skills training: vocational training participation, certification rates, and skills competition outcomes",
+      "Rights protection: labor rights cases handled, outcomes, and legal assistance provided to workers",
+      "Wage and income: collective wage negotiation outcomes and minimum wage tracking across regions"
+    ],
+    "zh": [
+      "工会会员：总人数、增长率及按行业、企业性质和省份的分布情况",
+      "组织发展：基层工会组织数量、企业覆盖率",
+      "集体协商：签订集体合同数量、覆盖职工人数及合同续签率",
+      "劳动争议调解：处理案件数、调解成功率和按类别划分的劳动争议类型",
+      "职业安全：工伤事故、伤亡人员及重大安全事故统计",
+      "职工福利：住房公积金缴存情况、医疗福利覆盖率和社会保险参保率",
+      "技能培训：职业技能培训参与情况、获证率及职业技能竞赛成果",
+      "权益保障：劳动权益案例处理、结案情况及为职工提供的法律援助",
+      "工资收入：集体工资协商结果和各地区最低工资标准追踪"
+    ]
+  }
+}

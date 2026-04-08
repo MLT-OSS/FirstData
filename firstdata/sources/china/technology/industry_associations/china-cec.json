@@ -1,0 +1,85 @@
+{
+  "id": "china-cec",
+  "name": {
+    "en": "China Electricity Council",
+    "zh": "中国电力企业联合会"
+  },
+  "description": {
+    "en": "The China Electricity Council (CEC) is the national industry organization representing China's power generation, transmission, and distribution enterprises. China operates the world's largest electricity system, with total installed capacity exceeding 3,000 GW. CEC publishes authoritative monthly and annual statistics on total power generation by energy source (coal, gas, hydro, nuclear, wind, solar, and biomass), installed capacity additions, electricity consumption by sector (industry, agriculture, residential, commercial), grid transmission losses, inter-provincial power flows, and electricity prices. Its data is critical for energy transition research, renewable energy policy assessment, and carbon market analysis. CEC also monitors the performance of major utilities and tracks progress toward China's carbon neutrality goals.",
+    "zh": "中国电力企业联合会（中电联）是代表中国发电、输电和配电企业的全国性行业组织。中国拥有全球最大的电力系统，总装机容量超过3000吉瓦。协会发布权威的月度和年度统计数据，涵盖分能源类型发电量（煤电、气电、水电、核电、风电、太阳能和生物质能）、新增装机容量、分行业用电量（工业、农业、居民、商业）、电网线路损耗、跨省电力流量及电价。其数据对能源转型研究、可再生能源政策评估和碳市场分析至关重要。协会还监测主要电力企业的运营绩效，并追踪中国碳中和目标的实现进展。"
+  },
+  "website": "https://www.cec.org.cn/",
+  "data_url": "https://www.cec.org.cn/detail/index.html?3-336812",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "industry",
+    "environment",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国电力企业联合会",
+    "CEC",
+    "China Electricity Council",
+    "发电量",
+    "power generation",
+    "装机容量",
+    "installed capacity",
+    "用电量",
+    "electricity consumption",
+    "火电",
+    "thermal power",
+    "水电",
+    "hydropower",
+    "核电",
+    "nuclear power",
+    "风电",
+    "wind power",
+    "太阳能发电",
+    "solar power",
+    "电力结构",
+    "power mix",
+    "可再生能源",
+    "renewable energy",
+    "碳中和",
+    "carbon neutrality",
+    "电价",
+    "electricity prices",
+    "跨省输电",
+    "inter-provincial power transmission",
+    "能源转型",
+    "energy transition",
+    "电网",
+    "power grid",
+    "清洁能源",
+    "clean energy"
+  ],
+  "data_content": {
+    "en": [
+      "Power generation: monthly and annual total electricity output by energy source (coal, gas, hydro, nuclear, wind, solar, biomass)",
+      "Installed capacity: cumulative and new additions of generating capacity by technology type and province",
+      "Electricity consumption: total and sectoral demand (industry, agriculture, residential, commercial) by province",
+      "Grid metrics: transmission and distribution losses, power factor, grid reliability indices",
+      "Renewable energy output: wind and solar generation, capacity factors, and curtailment rates",
+      "Inter-provincial power flows: electricity exchange volumes between provinces and regions",
+      "Electricity prices: benchmark on-grid tariffs, residential block pricing, industrial peak/off-peak rates",
+      "Enterprise performance: key financial and operational metrics for major power generation and grid companies",
+      "Carbon and environmental data: coal consumption per unit of power, emissions intensity, and clean energy progress"
+    ],
+    "zh": [
+      "发电量：分能源类型（煤电、气电、水电、核电、风电、太阳能、生物质能）的月度和年度发电量",
+      "装机容量：分技术类型和省份的累计及新增发电装机容量",
+      "用电量：全国及分省份的总用电量和分行业需求（工业、农业、居民、商业）",
+      "电网指标：输配电损耗、功率因数、电网可靠性指标",
+      "可再生能源发电：风电和光伏发电量、容量系数和弃电率",
+      "跨省电力流量：各省和区域间的电力交换量",
+      "电价数据：标杆上网电价、居民阶梯电价、工业峰谷电价",
+      "企业绩效：主要发电和电网企业的核心财务和运营指标",
+      "碳排放与环保数据：单位发电量煤耗、排放强度和清洁能源进展"
+    ]
+  }
+}

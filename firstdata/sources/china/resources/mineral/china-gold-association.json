@@ -1,0 +1,83 @@
+{
+  "id": "china-gold-association",
+  "name": {
+    "en": "China Gold Association",
+    "zh": "中国黄金协会"
+  },
+  "description": {
+    "en": "The China Gold Association (CGA) is the national industry organization representing China's gold mining, smelting, processing, and trading sector. China has been the world's largest gold producer for over 15 consecutive years and one of the largest consumers of gold globally. CGA publishes authoritative monthly and annual statistics on domestic gold mine production by province and enterprise, gold consumption by application (jewelry, investment bars and coins, industrial uses, central bank reserves), gold imports and exports, and gold price benchmarks at the Shanghai Gold Exchange. Its data is essential for commodity market research, precious metals investment analysis, jewelry industry studies, and monetary policy research. CGA also covers silver production and consumption, given the co-production of silver in gold mining operations.",
+    "zh": "中国黄金协会（中金协）是代表中国黄金开采、冶炼、加工和贸易行业的全国性行业组织。中国已连续15年以上位居全球最大黄金生产国，也是全球最大的黄金消费国之一。协会发布权威的月度和年度统计数据，涵盖按省份和企业划分的国内矿产黄金产量、分用途黄金消费量（珠宝首饰、投资金条金币、工业用途、央行储备）、黄金进出口及上海黄金交易所基准金价。其数据对大宗商品市场研究、贵金属投资分析、珠宝行业研究和货币政策研究至关重要。鉴于黄金采矿中伴生白银的开采，协会数据还涵盖白银产量和消费情况。"
+  },
+  "website": "https://www.cga.org.cn/",
+  "data_url": "https://www.cga.org.cn/statistics/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "mineral-resources",
+    "industry",
+    "economics",
+    "finance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国黄金协会",
+    "CGA",
+    "China Gold Association",
+    "黄金产量",
+    "gold production",
+    "黄金消费",
+    "gold consumption",
+    "黄金价格",
+    "gold prices",
+    "上海黄金交易所",
+    "Shanghai Gold Exchange",
+    "珠宝首饰",
+    "jewelry",
+    "投资金",
+    "investment gold",
+    "黄金储备",
+    "gold reserves",
+    "矿产黄金",
+    "mine-produced gold",
+    "金条金币",
+    "gold bars coins",
+    "白银",
+    "silver",
+    "贵金属",
+    "precious metals",
+    "大宗商品",
+    "commodities",
+    "黄金进出口",
+    "gold trade",
+    "黄金开采",
+    "gold mining",
+    "采矿业",
+    "mining industry"
+  ],
+  "data_content": {
+    "en": [
+      "Gold mine production: monthly and annual domestic output by province, enterprise, and mining method",
+      "Gold consumption: total consumption broken down by end use — jewelry, gold bars and coins, industrial applications, and official sector",
+      "Gold prices: domestic benchmark prices at Shanghai Gold Exchange (SGE), daily spot and futures price data",
+      "Gold trade: monthly import and export volumes and values of gold bullion, unwrought gold, and semi-fabricated products",
+      "Central bank gold reserves: People's Bank of China official gold reserve levels and changes",
+      "Enterprise performance: output, revenue, and profitability of major gold mining and refining companies",
+      "Silver production: co-produced silver output from gold mining and dedicated silver mines, by province",
+      "Industry structure: number of gold mining enterprises, production capacity, and reserve base estimates",
+      "Recycled and scrap gold: secondary supply volumes from gold recycling and scrap recovery"
+    ],
+    "zh": [
+      "矿产黄金产量：按省份、企业和采矿方式划分的月度和年度国内产量",
+      "黄金消费量：按终端用途分类的总消费量——珠宝首饰、金条金币、工业用途和官方用金",
+      "黄金价格：上海黄金交易所国内基准价、日度现货和期货价格",
+      "黄金贸易：金锭、未锻造黄金及半制成品的月度进出口量及贸易额",
+      "央行黄金储备：中国人民银行官方黄金储备规模及变动情况",
+      "企业绩效：主要黄金开采和冶炼企业的产量、营收和盈利情况",
+      "白银产量：黄金采矿伴生白银及专业银矿的分省份产量",
+      "行业结构：黄金采矿企业数量、生产能力及储量基础估算",
+      "再生黄金：黄金回收和废料回收的二次供应量"
+    ]
+  }
+}
