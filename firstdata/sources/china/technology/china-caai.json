@@ -1,0 +1,80 @@
+{
+  "id": "china-caai",
+  "name": {
+    "en": "Chinese Association for Artificial Intelligence",
+    "zh": "中国人工智能学会"
+  },
+  "description": {
+    "en": "The Chinese Association for Artificial Intelligence (CAAI) is China's national academic organization for artificial intelligence research, established in 1981 and supervised by the China Association for Science and Technology. CAAI represents over 40,000 individual members and more than 200 institutional members spanning academia, research institutes, and industry. It publishes the China Artificial Intelligence Development Report, AI industry statistics, and research on AI technology trends, policy frameworks, and application domains including computer vision, natural language processing, robotics, and intelligent systems. CAAI also maintains rankings of AI research outputs and talent concentration, and organizes China's premier AI academic conferences and competitions.",
+    "zh": "中国人工智能学会（CAAI）成立于1981年，是中国科学技术协会主管的全国性人工智能学术组织，拥有个人会员4万余名、团体会员200余家，覆盖高校、科研院所和企业。学会发布《中国人工智能发展报告》、AI产业统计数据及计算机视觉、自然语言处理、机器人、智能系统等AI技术趋势与政策研究报告。CAAI还维护人工智能科研成果和人才集聚排名，组织国内顶级AI学术会议和竞赛。"
+  },
+  "website": "https://www.caai.cn",
+  "data_url": "https://www.caai.cn/index.php?s=/home/article/lists/category/baokan.html",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "science",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国人工智能学会",
+    "CAAI",
+    "Chinese Association for Artificial Intelligence",
+    "人工智能",
+    "artificial intelligence",
+    "AI发展报告",
+    "AI development report",
+    "计算机视觉",
+    "computer vision",
+    "自然语言处理",
+    "natural language processing",
+    "NLP",
+    "机器人",
+    "robotics",
+    "深度学习",
+    "deep learning",
+    "机器学习",
+    "machine learning",
+    "AI产业",
+    "AI industry",
+    "智能系统",
+    "intelligent systems",
+    "AI政策",
+    "AI policy",
+    "AI人才",
+    "AI talent",
+    "AI研究排名",
+    "AI research rankings",
+    "大模型",
+    "large language models",
+    "LLM"
+  ],
+  "data_content": {
+    "en": [
+      "China Artificial Intelligence Development Report: annual comprehensive assessment of China's AI research output, industry development, talent ecosystem, and policy environment",
+      "AI research rankings: institutional rankings by AI publication volume, patent counts, and citation impact across Chinese universities, research institutes, and companies",
+      "AI talent statistics: data on AI researchers, graduate students, and workforce distribution by region, specialization, and institution type",
+      "AI industry data: market size estimates, investment statistics, and enterprise distribution across key AI application domains",
+      "Technology trend reports: analyses of emerging AI technologies including large language models, computer vision, robotics, and autonomous systems in the Chinese context",
+      "AI competition results: outcomes and participant statistics from major Chinese AI competitions and benchmarks",
+      "AI academic conference proceedings: research papers from CAAI-organized conferences covering all major AI sub-fields",
+      "AI policy research: analysis of national AI development plans, regulatory frameworks, and standards initiatives",
+      "International AI cooperation: data on China's international AI research collaborations, co-publications, and technology exchange programs"
+    ],
+    "zh": [
+      "中国人工智能发展报告：中国AI科研产出、产业发展、人才生态和政策环境年度综合评估",
+      "AI研究机构排名：中国高校、科研院所和企业AI论文发表量、专利数量及引用影响力排名",
+      "AI人才统计：AI研究人员、在读研究生及劳动力分布数据，按地区、专业方向和机构类型分类",
+      "AI产业数据：主要AI应用领域市场规模估算、投资统计和企业分布情况",
+      "技术趋势报告：大语言模型、计算机视觉、机器人及自动驾驶等新兴AI技术在中国的发展分析",
+      "AI竞赛成果：国内主要AI竞赛和基准测试成绩及参赛者统计",
+      "AI学术会议论文集：CAAI主办会议发表的涵盖AI各子领域的研究论文",
+      "AI政策研究：国家AI发展规划、监管框架和标准化工作分析",
+      "国际AI合作：中国国际AI研究合作、联合发表和技术交流项目数据"
+    ]
+  }
+}

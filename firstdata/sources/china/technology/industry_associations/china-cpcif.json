@@ -1,0 +1,79 @@
+{
+  "id": "china-cpcif",
+  "name": {
+    "en": "China Petroleum and Chemical Industry Federation",
+    "zh": "中国石油和化学工业联合会"
+  },
+  "description": {
+    "en": "The China Petroleum and Chemical Industry Federation (CPCIF) is the national industry association representing China's petroleum refining, petrochemical, basic chemical, and specialty chemical sectors. Supervised by the Ministry of Industry and Information Technology, CPCIF serves over 8,000 member enterprises and publishes authoritative statistics on China's chemical industry output, trade, energy consumption, and investment. Its data covers crude oil processing, chemical fertilizers, pesticides, synthetic resins, synthetic rubber, and specialty chemicals production and pricing. CPCIF also releases the annual China Chemical Industry Report and monthly industry economic monitoring reports, making it the primary reference for tracking one of the world's largest chemical industries.",
+    "zh": "中国石油和化学工业联合会（中国石化联合会）是代表中国石油炼制、石油化工、基础化工和精细化工行业的全国性行业组织，工业和信息化部主管，拥有会员企业8000余家。联合会发布化工行业产量、进出口、能源消耗和投资等权威统计数据，覆盖原油加工、化肥、农药、合成树脂、合成橡胶及精细化工等产品的生产和价格信息。联合会还发布年度《中国化学工业年度报告》和月度行业经济运行监测报告，是追踪全球最大化工产业之一的主要数据来源。"
+  },
+  "website": "http://www.cpcif.org.cn",
+  "data_url": "http://www.cpcif.org.cn/detail/stats",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "energy",
+    "trade"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国石油和化学工业联合会",
+    "CPCIF",
+    "China Petroleum Chemical Industry Federation",
+    "石化行业",
+    "petrochemical industry",
+    "化工产品",
+    "chemical products",
+    "原油加工",
+    "crude oil processing",
+    "化肥产量",
+    "chemical fertilizer production",
+    "合成树脂",
+    "synthetic resins",
+    "合成橡胶",
+    "synthetic rubber",
+    "精细化工",
+    "specialty chemicals",
+    "化工出口",
+    "chemical exports",
+    "石化投资",
+    "petrochemical investment",
+    "化工能耗",
+    "chemical industry energy consumption",
+    "塑料",
+    "plastics",
+    "农药",
+    "pesticides",
+    "化工经济运行",
+    "chemical industry economic performance"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly chemical industry output: production volume of major chemical products including synthetic resins, synthetic rubber, chemical fertilizers, pesticides, dyes, and coatings",
+      "Crude oil processing data: monthly crude oil input volume, utilization rates of refineries, and refined product yields by type",
+      "Industry economic monitoring: monthly revenue, profit, investment, and employment statistics for the petroleum and chemical sector",
+      "Import and export statistics: trade data for petroleum products, chemical raw materials, and finished chemical goods by product category and trading partner",
+      "Energy consumption: energy use intensity and total energy consumption of the chemical industry by fuel type and sub-sector",
+      "Chemical product prices: monthly price indices for key chemical commodities including ethylene, propylene, methanol, and polyethylene",
+      "Annual China chemical industry report: comprehensive yearly assessment of industry development, capacity changes, market trends, and policy outlook",
+      "Safety statistics: accident reports, fatality rates, and workplace safety performance indicators for the sector",
+      "Regional distribution: chemical industry output and investment by province and major industrial clusters"
+    ],
+    "zh": [
+      "月度化工产品产量：合成树脂、合成橡胶、化肥、农药、染料、涂料等主要化工产品产量",
+      "原油加工数据：月度原油加工量、炼油厂开工率及成品油产量结构",
+      "行业经济运行：石油和化工行业月度营业收入、利润总额、固定资产投资和从业人员统计",
+      "进出口统计：石化产品、化工原料和成品的贸易数据，按品类和贸易伙伴分类",
+      "能源消耗：化工行业能耗强度及分燃料品种、分子行业能源消耗总量",
+      "化工产品价格：乙烯、丙烯、甲醇、聚乙烯等主要化工大宗商品月度价格指数",
+      "中国化学工业年度报告：行业发展综合评估、产能变化、市场趋势及政策展望",
+      "安全生产统计：行业事故报告、死亡率及安全生产绩效指标",
+      "区域分布：各省份及主要化工产业集群产量和投资情况"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "china-drc",
+  "name": {
+    "en": "Development Research Center of the State Council of China",
+    "zh": "国务院发展研究中心"
+  },
+  "description": {
+    "en": "The Development Research Center of the State Council (DRC) is China's premier government think tank, directly under the State Council. Founded in 1981, DRC conducts policy research and provides strategic advisory services on macroeconomics, rural development, industry and technology, market economy, social development, regional economy, open economy, and resource and environmental policy. DRC publishes influential research reports including the China Development Report, annual economic outlook assessments, and sector-specific policy analyses that directly inform national economic planning and State Council decision-making. Its research covers medium- and long-term development strategies, major reform initiatives, and international economic trends.",
+    "zh": "国务院发展研究中心是国务院直属的综合性政策研究机构，成立于1981年，承担宏观经济、农村发展、产业与技术、市场经济、社会发展、区域经济、开放经济、资源与环境政策等领域的研究工作，为国务院决策提供战略咨询服务。发展研究中心发布《中国发展报告》、年度经济形势研判报告及行业政策分析，直接服务于国家经济规划和国务院重大决策。研究领域涵盖中长期发展战略、重大改革举措和国际经济形势。"
+  },
+  "website": "https://www.drc.gov.cn",
+  "data_url": "https://www.drc.gov.cn/yjcg.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "governance",
+    "environment",
+    "agriculture",
+    "science"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "国务院发展研究中心",
+    "DRC",
+    "Development Research Center",
+    "国家智库",
+    "national think tank",
+    "中国发展报告",
+    "China Development Report",
+    "宏观经济",
+    "macroeconomics",
+    "经济政策",
+    "economic policy",
+    "农村发展",
+    "rural development",
+    "产业政策",
+    "industrial policy",
+    "区域经济",
+    "regional economy",
+    "资源环境政策",
+    "resource environmental policy",
+    "改革研究",
+    "reform research",
+    "中长期发展战略",
+    "medium-long term development strategy",
+    "国际经济",
+    "international economy",
+    "经济形势",
+    "economic outlook"
+  ],
+  "data_content": {
+    "en": [
+      "China Development Report: annual comprehensive assessment of China's economic and social development progress, challenges, and policy recommendations",
+      "Macroeconomic outlook reports: quarterly and annual economic growth forecasts, inflation analysis, and fiscal and monetary policy assessments",
+      "Rural development research: reports on agricultural modernization, rural income, land policy, and urbanization trends",
+      "Industrial policy studies: sector-specific analyses on manufacturing transformation, strategic emerging industries, and industrial upgrade strategies",
+      "Regional economic research: studies on balanced regional development, urbanization, and major regional strategies such as the Belt and Road Initiative",
+      "Resource and environmental policy: research on energy transition, carbon neutrality pathways, green development, and ecological civilization policies",
+      "Reform policy assessments: evaluations of major reform initiatives in state-owned enterprises, financial systems, and market regulation",
+      "International economic analysis: research on global economic trends, trade policy, and China's foreign economic relations",
+      "Social development studies: research on income distribution, social security systems, pension reform, and public services"
+    ],
+    "zh": [
+      "中国发展报告：中国经济社会发展进展、挑战及政策建议年度综合评估",
+      "宏观经济形势报告：季度和年度经济增长预测、通胀分析及财政货币政策评估",
+      "农村发展研究：农业现代化、农村居民收入、土地政策和城镇化趋势研究",
+      "产业政策研究：制造业转型、战略性新兴产业和产业升级策略的行业专项分析",
+      "区域经济研究：区域协调发展、城镇化及「一带一路」等重大区域战略研究",
+      "资源与环境政策：能源转型、碳中和路径、绿色发展和生态文明政策研究",
+      "改革政策评估：国有企业、金融体系和市场监管等重大改革举措评估",
+      "国际经济分析：全球经济形势、贸易政策及中国对外经济关系研究",
+      "社会发展研究：收入分配、社会保障体系、养老金改革和公共服务研究"
+    ]
+  }
+}
