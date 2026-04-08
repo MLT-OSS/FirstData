@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-08T01:19:36.538244+00:00",
+    "generated_at": "2026-04-08T02:16:15.820389+00:00",
     "total_regions": 58,
-    "total_sources": 396,
+    "total_sources": 397,
     "version": "2.0"
   },
   "regions": {
@@ -856,6 +856,18 @@
         "has_api": false,
         "file_path": "china/economy/provincial/china-zj-stats.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-ccpit",
+        "name": {
+          "en": "China Council for the Promotion of International Trade",
+          "zh": "中国国际贸易促进委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccpit.org/",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-ccpit.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-cflp",
