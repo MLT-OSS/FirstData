@@ -153,11 +153,17 @@ def check_illegitimate_l1(sources):
     """
     Find L1 directories that violate R4 consensus.
 
-    R4 consensus: final top-level structure = country dirs + international/
-    Only `countries/` and `international/` are legitimate L1 directories.
+    R4 three-party consensus (taxonomy design study round 4):
+      Decision: academic/ and sectors/ do NOT remain as top-level directories;
+      they should be dispersed into country directories by geographic affiliation.
+      Final top-level structure: country directories + international/
+      Only `countries/` and `international/` are legitimate L1 directories.
+
     Everything else (academic/, sectors/, china/, india/, etc.) should be
     dispersed into the country tree.
     """
+    # See R4 consensus above. This is NOT arbitrary — changing this set
+    # requires a new three-party decision.
     LEGITIMATE_L1 = {"countries", "international"}
 
     l1_counts = defaultdict(list)
