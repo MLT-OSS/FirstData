@@ -1,0 +1,23 @@
+{
+  "id": "china-trustee-association",
+  "name": {
+    "en": "China Trustee Association",
+    "zh": "中国信托业协会"
+  },
+  "description": {
+    "en": "Industry association for China's trust sector, publishing trust asset management data, quarterly reports, and industry statistics for 68 trust companies.",
+    "zh": "中国信托行业协会，发布信托资产管理数据、季度报告和68家信托公司行业统计。"
+  },
+  "website": "http://www.xtxh.net/",
+  "data_url": "http://www.xtxh.net/xtyxh/hyyj/tjsj/index.html",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": ["finance"],
+  "update_frequency": "quarterly",
+  "tags": ["trust", "asset-management", "financial-statistics"],
+  "data_content": {
+    "en": ["trust asset management statistics", "quarterly industry reports", "trust company data"],
+    "zh": ["信托资产管理统计", "季度行业报告", "信托公司数据"]
+  }
+}
