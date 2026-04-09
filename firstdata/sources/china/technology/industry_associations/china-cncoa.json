@@ -1,0 +1,76 @@
+{
+  "id": "china-cncoa",
+  "name": {
+    "en": "China National Coal Association",
+    "zh": "中国煤炭工业协会"
+  },
+  "description": {
+    "en": "The China National Coal Association (CNCOA) is the national industry association representing China's coal sector, the world's largest coal producer and consumer. CNCOA publishes authoritative monthly and annual statistics on coal production, consumption, imports and exports, pricing, and safety indicators. It tracks output by major coal-producing provinces (Inner Mongolia, Shanxi, Shaanxi, Xinjiang), enterprise-level performance, coal mine safety incidents, and environmental compliance across the sector. CNCOA's data is essential for China's energy security analysis, global coal market research, and carbon neutrality policy tracking.",
+    "zh": "中国煤炭工业协会是代表中国煤炭行业的全国性行业组织。中国是全球最大的煤炭生产国和消费国。协会发布权威的月度和年度统计数据，涵盖煤炭产量、消费量、进出口量、价格及安全生产指标，追踪主要产煤省份（内蒙古、山西、陕西、新疆）产量、重点企业经营情况、煤矿安全事故及行业环保合规情况，是能源安全分析、全球煤炭市场研究和碳中和政策追踪的重要数据来源。"
+  },
+  "website": "https://www.coalchina.org.cn",
+  "data_url": "https://www.coalchina.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "industry",
+    "economics",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国煤炭工业协会",
+    "CNCOA",
+    "China National Coal Association",
+    "煤炭产量",
+    "coal production",
+    "煤炭消费",
+    "coal consumption",
+    "煤炭进出口",
+    "coal trade",
+    "煤炭价格",
+    "coal prices",
+    "煤矿安全",
+    "coal mine safety",
+    "动力煤",
+    "thermal coal",
+    "焦煤",
+    "coking coal",
+    "内蒙古煤炭",
+    "山西煤炭",
+    "陕西煤炭",
+    "能源安全",
+    "energy security",
+    "碳中和",
+    "carbon neutrality",
+    "煤炭行业",
+    "coal industry"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly coal production statistics: output by province (Inner Mongolia, Shanxi, Shaanxi, Xinjiang) and by coal type (thermal, coking, anthracite)",
+      "Coal consumption data: power generation, steel, cement, chemical, and heating sector demand",
+      "Import and export volumes: monthly coal trade data by origin/destination country and coal grade",
+      "Coal price indices: major benchmark prices including Qinhuangdao thermal coal price, coking coal spot prices",
+      "Coal mine safety: accident statistics, fatality rates, major incident reports, and safety compliance indicators",
+      "Enterprise performance: revenue, profit, and production data for key coal enterprises (China Coal Energy, Shenhua, etc.)",
+      "Capacity and reserves: installed mining capacity and proven coal reserve data by region",
+      "Environmental metrics: methane emissions, water usage, reclamation rates for coal mines",
+      "Annual China Coal Industry Development Report (中国煤炭工业发展年度报告)"
+    ],
+    "zh": [
+      "月度煤炭产量统计：按省份（内蒙古、山西、陕西、新疆）和煤种（动力煤、炼焦煤、无烟煤）分类产量",
+      "煤炭消费数据：发电、钢铁、水泥、化工、供暖等行业需求",
+      "进出口量：按来源/目的地国家和煤质分类的月度煤炭贸易数据",
+      "煤炭价格指数：主要基准价格，包括秦皇岛动力煤价格、炼焦煤现货价格",
+      "煤矿安全：事故统计、死亡率、重大事故报告及安全合规指标",
+      "企业经营：主要煤炭企业（中国中煤能源、神华等）营收、利润及产量数据",
+      "产能与储量：按地区分类的已安装采矿产能及探明储量数据",
+      "环保指标：煤矿甲烷排放、用水量、复垦率",
+      "中国煤炭工业发展年度报告"
+    ]
+  }
+}

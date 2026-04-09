@@ -1,0 +1,79 @@
+{
+  "id": "china-clii",
+  "name": {
+    "en": "China Light Industry Council",
+    "zh": "中国轻工业联合会"
+  },
+  "description": {
+    "en": "The China Light Industry Council (CLII) is the national industry association representing China's light industry sector, encompassing food and beverage, household appliances, furniture, paper, plastics, leather, hardware, and over 20 other sub-sectors. CLII publishes authoritative monthly and annual statistics on light industry output, revenue, exports, and investment covering more than 100,000 enterprises. China's light industry generates approximately 25% of the country's total industrial output value, and CLII's data is essential for consumer goods market analysis, Chinese export competitiveness research, and industrial policy formulation. CLII coordinates industry standards, publishes the China Light Industry Yearbook, and monitors quality and safety compliance.",
+    "zh": "中国轻工业联合会是代表中国轻工业的全国性行业组织，覆盖食品饮料、家用电器、家具、造纸、塑料、皮革、五金及20余个子行业，会员企业超过10万家。联合会发布轻工业产值、营收、出口及投资等权威月度和年度统计数据。中国轻工业约占全国工业总产值的25%，联合会数据是消费品市场分析、中国出口竞争力研究和产业政策制定的重要依据。联合会还负责行业标准协调、发布中国轻工业年鉴，并监测质量和安全合规情况。"
+  },
+  "website": "http://www.clii.com.cn",
+  "data_url": "http://www.clii.com.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "economics",
+    "trade",
+    "consumer-goods"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国轻工业联合会",
+    "CLII",
+    "China Light Industry Council",
+    "轻工业",
+    "light industry",
+    "消费品",
+    "consumer goods",
+    "家用电器",
+    "household appliances",
+    "食品饮料",
+    "food and beverage",
+    "家具",
+    "furniture",
+    "造纸",
+    "paper industry",
+    "皮革",
+    "leather",
+    "塑料",
+    "plastics",
+    "五金",
+    "hardware",
+    "轻工业出口",
+    "light industry exports",
+    "中国轻工业年鉴",
+    "China Light Industry Yearbook",
+    "行业标准",
+    "industry standards"
+  ],
+  "data_content": {
+    "en": [
+      "Light industry output: monthly and annual production value and volume for 100+ light industry sub-sectors",
+      "Revenue and profit: operating income and profitability of light industry enterprises above designated size",
+      "Export statistics: monthly export value and volume of light industrial products by category and destination market",
+      "Investment data: fixed asset investment in light industry by sub-sector and region",
+      "Household appliances: production and sales data for major appliances (refrigerators, washing machines, air conditioners, TVs)",
+      "Food and beverage: output statistics for processed food, beverages, dairy products, edible oils, and sugar",
+      "Paper and paperboard: production, consumption, and trade statistics for paper and paperboard products",
+      "Furniture production: output value and volume for furniture manufacturing by material type and province",
+      "Quality and safety monitoring: product quality inspection results, safety recall data, and compliance rates",
+      "Annual China Light Industry Yearbook (中国轻工业年鉴)"
+    ],
+    "zh": [
+      "轻工业产值：100余个轻工业子行业的月度和年度产值及产量",
+      "营收与利润：规模以上轻工业企业的营业收入和盈利情况",
+      "出口统计：按类别和目的地市场分类的轻工产品月度出口额及出口量",
+      "投资数据：按子行业和地区分类的轻工业固定资产投资",
+      "家用电器：主要家电（冰箱、洗衣机、空调、彩电）产销数据",
+      "食品饮料：加工食品、饮料、乳制品、食用油和食糖产量统计",
+      "纸张和纸板：纸及纸板产量、消费量及贸易统计",
+      "家具生产：按材质和省份分类的家具制造产值及产量",
+      "质量安全监测：产品质量抽检结果、安全召回数据及合规率",
+      "中国轻工业年鉴"
+    ]
+  }
+}

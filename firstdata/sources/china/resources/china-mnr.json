@@ -1,0 +1,77 @@
+{
+  "id": "china-mnr",
+  "name": {
+    "en": "Ministry of Natural Resources of China",
+    "zh": "中华人民共和国自然资源部"
+  },
+  "description": {
+    "en": "The Ministry of Natural Resources (MNR) of China is the central government agency responsible for the unified management of land, sea, and geological resources, including terrestrial natural resources, marine resources, and geographic information. MNR publishes authoritative statistics and reports on land use, sea area management, marine environment, geological surveys, geographic information, and natural resource accounting. Its data underpins China's land use planning, marine economic development, national territory management, and natural resource balance sheet compilation. MNR oversees the national land survey (third national land survey completed in 2021), marine environment monitoring, and mineral resource registration.",
+    "zh": "中华人民共和国自然资源部是统一行使全民所有自然资源资产所有者职责、统一行使所有国土空间用途管制和生态保护修复职责的国务院组成部门，负责管理陆地自然资源、海洋资源和测绘地理信息。自然资源部发布土地利用、海域使用、海洋环境、地质调查、地理信息及自然资源资产统计等权威数据报告，支撑国土空间规划、海洋经济发展和自然资源资产负债表编制。部门主导完成第三次全国国土调查（2021年），并负责海洋环境监测和矿业权登记管理。"
+  },
+  "website": "https://www.mnr.gov.cn",
+  "data_url": "https://www.mnr.gov.cn/sj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "resources",
+    "environment",
+    "geography",
+    "marine"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "自然资源部",
+    "MNR",
+    "Ministry of Natural Resources",
+    "国土资源",
+    "land resources",
+    "土地利用",
+    "land use",
+    "海洋资源",
+    "marine resources",
+    "海域使用",
+    "sea area management",
+    "地质调查",
+    "geological survey",
+    "测绘地理信息",
+    "geographic information",
+    "自然资源统计",
+    "natural resource statistics",
+    "国土三调",
+    "third national land survey",
+    "海洋环境",
+    "marine environment",
+    "矿业权",
+    "mining rights",
+    "国土空间规划",
+    "territorial spatial planning",
+    "自然资源资产",
+    "natural resource assets"
+  ],
+  "data_content": {
+    "en": [
+      "Land Use Data: results of the Third National Land Survey (2021), covering 18.65 billion mu of cultivated land, forests, grasslands, water bodies, and construction land by type and province",
+      "Sea Area Management: approved sea area utilization plans, sea area use rights statistics, and marine functional zoning data",
+      "Marine Environment Status Report: annual China Marine Ecological Environment Status Report covering seawater quality, marine biodiversity, and pollution discharge",
+      "Geological Survey Data: national geological data repository, geohazard risk mapping, and geological survey reports by region",
+      "Geographic Information and Mapping: national surveying and mapping achievements, administrative boundary data, and national geographic conditions monitoring",
+      "Natural Resource Assets Statistics: natural resource accounting framework including balance sheets for land, water, forest, and mineral resources",
+      "Mineral Resource Registration: mining rights registration data for major minerals including coal, iron ore, copper, and strategic resources",
+      "Marine Economy Statistics: national marine economy survey data, marine GDP contribution by province and sector",
+      "China Land and Resources Yearbook: annual compilation of comprehensive natural resource statistics"
+    ],
+    "zh": [
+      "土地利用数据：第三次全国国土调查成果（2021年），覆盖耕地18.65亿亩、林地、草地、水域及建设用地按类型和省份分类",
+      "海域使用管理：已批准海域使用方案、海域使用权统计及海洋功能区划数据",
+      "海洋生态环境状况报告：年度《中国海洋生态环境状况公报》，涵盖海水质量、海洋生物多样性及污染物入海情况",
+      "地质调查数据：全国地质资料数据库、地质灾害风险图和分地区地质调查报告",
+      "测绘地理信息：全国测绘成果、行政区划界线数据及全国地理国情监测",
+      "自然资源资产统计：覆盖土地、水、森林、矿产资源的自然资源资产负债表编制框架",
+      "矿业权登记：煤炭、铁矿石、铜矿等主要矿产及战略性矿产矿业权登记数据",
+      "海洋经济统计：全国海洋经济调查数据、各省份及行业海洋GDP贡献",
+      "中国自然资源统计年鉴：综合自然资源统计年度汇编"
+    ]
+  }
+}

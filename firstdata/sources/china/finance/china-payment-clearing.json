@@ -1,0 +1,23 @@
+{
+  "id": "china-payment-clearing",
+  "name": {
+    "en": "Payment & Clearing Association of China",
+    "zh": "中国支付清算协会"
+  },
+  "description": {
+    "en": "Industry association for China's payment and clearing sector, publishing payment transaction statistics, reserve fund data, and clearing market analysis.",
+    "zh": "中国支付清算行业协会，发布支付交易量统计、备付金余额数据和清算市场分析。"
+  },
+  "website": "https://www.pcac.org.cn/",
+  "data_url": "https://www.pcac.org.cn/eportal/ui?pageId=477883",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": ["finance"],
+  "update_frequency": "quarterly",
+  "tags": ["payment", "clearing", "fintech", "industry-statistics"],
+  "data_content": {
+    "en": ["payment transaction volume statistics", "reserve fund balance data", "clearing market analysis"],
+    "zh": ["支付交易量统计", "备付金余额数据", "清算市场分析"]
+  }
+}

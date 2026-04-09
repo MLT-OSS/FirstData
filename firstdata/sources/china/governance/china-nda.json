@@ -1,0 +1,73 @@
+{
+  "id": "china-nda",
+  "name": {
+    "en": "National Data Administration of China",
+    "zh": "国家数据局"
+  },
+  "description": {
+    "en": "The National Data Administration (NDA) of China, established in March 2023, is the central government agency responsible for coordinating the development and utilization of data resources, promoting the construction of digital China, and building the data foundation for a digital economy. NDA oversees national data policies, cross-department data sharing and opening, data element market development, and digital infrastructure planning. It publishes policy documents, guidelines, digital economy statistics, and progress reports on China's Data Element × Action Plans across 12 sectors including finance, health, education, transportation, and industrial manufacturing.",
+    "zh": "国家数据局于2023年3月挂牌成立，是负责协调推进数据资源整合共享和开发利用、推动数字中国、数字经济、数字社会规划和建设的中央政府机构。国家数据局统筹推进数字基础设施建设，协调推动数据共享开放，培育数据要素市场，发布数据政策文件、数字经济统计数据及'数据要素×'三年行动计划在金融、医疗、教育、交通、工业制造等12个领域的推进情况报告。"
+  },
+  "website": "https://www.nda.gov.cn",
+  "data_url": "https://www.nda.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "economics",
+    "governance",
+    "digital-economy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家数据局",
+    "NDA",
+    "National Data Administration",
+    "数字经济",
+    "digital economy",
+    "数据要素",
+    "data element",
+    "数据共享",
+    "data sharing",
+    "数字中国",
+    "Digital China",
+    "数字基础设施",
+    "digital infrastructure",
+    "数据开放",
+    "data opening",
+    "数据治理",
+    "data governance",
+    "数字化转型",
+    "digital transformation",
+    "数据要素市场",
+    "data element market",
+    "数字政府",
+    "digital government",
+    "政务数据",
+    "government data"
+  ],
+  "data_content": {
+    "en": [
+      "Digital Economy Statistics: indicators covering digital economy scale, digital industries, and digital transformation of traditional sectors",
+      "Data Element × Action Plans: progress reports on data applications across 12 sectors (finance, health, education, transportation, manufacturing, etc.)",
+      "National Data Sharing Catalog: cross-department government data sharing and opening catalog",
+      "Digital China Development Report: annual assessment of digital China construction progress across 8 dimensions",
+      "Policy Documents and Guidelines: regulations, standards, and guidelines on data security, data classification, and data element transactions",
+      "Government Data Opening Index: evaluation of central and local government data opening quality and quantity",
+      "Digital Infrastructure Planning: national computing power network, data centers, and smart city development plans",
+      "Cross-border Data Flow Regulations: rules for outbound data transfers and pilot zone data governance frameworks"
+    ],
+    "zh": [
+      "数字经济统计：覆盖数字经济规模、数字产业化和产业数字化等核心指标",
+      "'数据要素×'行动计划进展：金融、医疗、教育、交通、制造等12个领域数据应用推进报告",
+      "全国数据共享目录：跨部门政府数据共享开放目录",
+      "数字中国发展报告：数字中国建设'2522'整体框架8个维度年度评估",
+      "政策法规文件：数据安全、数据分类分级、数据要素流通交易相关法规和标准",
+      "政府数据开放指数：中央和地方政府数据开放质量与数量评估",
+      "数字基础设施规划：国家算力网络、数据中心、智慧城市等建设规划",
+      "数据跨境流动规范：数据出境规则和自贸区数据治理制度框架"
+    ]
+  }
+}

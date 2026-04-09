@@ -1,0 +1,23 @@
+{
+  "id": "china-csrc-futures",
+  "name": {
+    "en": "China Futures Association",
+    "zh": "中国期货业协会"
+  },
+  "description": {
+    "en": "Self-regulatory organization for China's futures industry, publishing futures market statistics, company rankings, trading volume data, and investor protection reports.",
+    "zh": "中国期货行业自律组织，发布期货市场统计、公司排名、交易量数据和投资者保护报告。"
+  },
+  "website": "https://www.cfachina.org/",
+  "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+  "country": "CN",
+  "geographic_scope": "national",
+  "authority_level": "other",
+  "domains": ["finance", "capital-markets"],
+  "update_frequency": "monthly",
+  "tags": ["futures", "derivatives", "capital-markets", "industry-statistics"],
+  "data_content": {
+    "en": ["futures market trading statistics", "futures company rankings", "investor protection data"],
+    "zh": ["期货市场交易统计", "期货公司排名", "投资者保护数据"]
+  }
+}
