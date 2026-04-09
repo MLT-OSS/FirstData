@@ -1,0 +1,83 @@
+{
+  "id": "china-cbmf",
+  "name": {
+    "en": "China Building Materials Federation",
+    "zh": "中国建筑材料联合会"
+  },
+  "description": {
+    "en": "The China Building Materials Federation (CBMF) is the national industry organization representing China's building materials manufacturing sector. China is the world's largest producer and consumer of construction materials, including cement, flat glass, ceramics, stone products, waterproofing materials, insulation materials, and composite panels. The building materials industry is a foundational input for China's massive infrastructure and real estate development, and its production data closely tracks fixed asset investment cycles. CBMF publishes monthly and annual statistics on cement production, plate glass output, ceramic tile and sanitary ware manufacturing, stone processing, and other building material categories. The association also releases industry development reports, energy consumption data, export statistics, and policy analysis relevant to China's construction and green building transition. CBMF data is essential for construction industry supply chain analysis, commodity market research, and tracking China's urbanization and infrastructure build-out.",
+    "zh": "中国建筑材料联合会（中国建材联合会）是代表中国建筑材料制造行业的全国性行业组织。中国是全球最大的建筑材料生产国和消费国，产品涵盖水泥、平板玻璃、陶瓷、石材、防水材料、绝热材料和复合板材等。建材行业是中国大规模基础设施和房地产开发建设的基础投入，其产量数据与固定资产投资周期紧密相关。联合会发布水泥、平板玻璃、陶瓷砖和卫生洁具、石材加工等各建材品类的月度和年度统计数据，同时发布行业发展报告、能源消耗数据、出口统计及与中国建筑业绿色转型相关的政策分析。联合会数据对建筑行业供应链分析、大宗商品市场研究和追踪中国城镇化与基础设施建设进程具有重要价值。"
+  },
+  "website": "https://www.cbmf.org/",
+  "data_url": "https://www.cbmf.org/yxjc/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "economics",
+    "infrastructure",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国建筑材料联合会",
+    "CBMF",
+    "China building materials",
+    "建筑材料",
+    "building materials",
+    "水泥",
+    "cement",
+    "平板玻璃",
+    "flat glass",
+    "陶瓷",
+    "ceramics",
+    "陶瓷砖",
+    "ceramic tile",
+    "卫生洁具",
+    "sanitary ware",
+    "石材",
+    "stone products",
+    "防水材料",
+    "waterproofing",
+    "建材产量",
+    "building materials production",
+    "建材出口",
+    "building materials exports",
+    "绿色建材",
+    "green building materials",
+    "建筑业",
+    "construction industry",
+    "房地产材料",
+    "real estate materials",
+    "基础设施建设",
+    "infrastructure construction"
+  ],
+  "data_content": {
+    "en": [
+      "Cement production: monthly and annual cement output by province and major enterprise group, including clinker and finished cement",
+      "Flat glass: monthly production of float glass, processed glass, and specialty glass by thickness and product category",
+      "Ceramic tile and sanitary ware: output statistics for floor tiles, wall tiles, polished tiles, and bathroom fixtures",
+      "Stone products: production of granite, marble, and engineered stone slabs by major producing region",
+      "Waterproofing and insulation: production data for waterproofing membranes, thermal insulation boards, and related products",
+      "Composite panels: output of fiber cement boards, calcium silicate boards, and gypsum board",
+      "Export statistics: monthly export volume and value for cement, glass, ceramics, and stone products by destination",
+      "Energy consumption: industry energy intensity data supporting green building materials and carbon reduction policy analysis",
+      "Enterprise performance: production, revenue, and profit data for major listed and unlisted building materials companies",
+      "Industry development report: annual overview of China's building materials sector covering production, trade, technology, and policy"
+    ],
+    "zh": [
+      "水泥产量：按省份和主要企业集团统计的月度和年度水泥产量，包含熟料和成品水泥",
+      "平板玻璃：按厚度和产品类别统计的浮法玻璃、深加工玻璃和特种玻璃月度产量",
+      "陶瓷砖和卫生洁具：地砖、墙砖、抛光砖及卫浴洁具产量统计",
+      "石材制品：主要产区花岗岩、大理石和工程石板材产量",
+      "防水与绝热材料：防水卷材、保温板及相关产品产量",
+      "复合板材：纤维水泥板、硅钙板和石膏板产量",
+      "出口统计：水泥、玻璃、陶瓷和石材按目的地统计的月度出口量和出口额",
+      "能耗数据：行业能耗强度数据，支撑绿色建材和碳减排政策分析",
+      "企业经营数据：主要上市和非上市建材企业的产量、营收和利润",
+      "行业发展报告：涵盖产量、贸易、技术和政策的中国建材行业年度综合报告"
+    ]
+  }
+}
