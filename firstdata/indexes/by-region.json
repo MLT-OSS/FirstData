@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T02:33:12.490382+00:00",
+    "generated_at": "2026-04-09T06:19:52.603225+00:00",
     "total_regions": 58,
-    "total_sources": 405,
+    "total_sources": 410,
     "version": "2.0"
   },
   "regions": {
@@ -421,6 +421,66 @@
         "data_url": "https://www.mct.gov.cn/zwgk/tjsj/",
         "has_api": false,
         "file_path": "china/economy/china-mct.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cansi",
+        "name": {
+          "en": "China Association of the National Shipbuilding Industry",
+          "zh": "中国船舶工业行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cansi.org.cn/cms/document/show/43.html",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cansi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cbmf",
+        "name": {
+          "en": "China Building Materials Federation",
+          "zh": "中国建筑材料联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cbmf.org/yxjc/",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cbmf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccfa",
+        "name": {
+          "en": "China Chemical Fiber Industry Association",
+          "zh": "中国化学纤维工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ccfa.com.cn/19/index.html",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-ccfa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cheaa",
+        "name": {
+          "en": "China Household Electrical Appliances Association",
+          "zh": "中国家用电器协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cheaa.org/channels/116.html",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cheaa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cria",
+        "name": {
+          "en": "China Rubber Industry Association",
+          "zh": "中国橡胶工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cria.org.cn/c/id/1760910256413655041",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cria.json",
         "geographic_scope": "national"
       },
       {

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T02:33:12.490382+00:00",
-    "total_sources": 405,
+    "generated_at": "2026-04-09T06:19:52.603225+00:00",
+    "total_sources": 410,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2603,6 +2603,421 @@
       "api_url": null,
       "has_api": false,
       "file_path": "china/economy/china-mct.json"
+    },
+    {
+      "id": "china-cansi",
+      "name": {
+        "en": "China Association of the National Shipbuilding Industry",
+        "zh": "中国船舶工业行业协会"
+      },
+      "description": {
+        "en": "The China Association of the National Shipbuilding Industry (CANSI) is the national industry organization representing China's shipbuilding sector. China is the world's largest shipbuilding nation by output, consistently accounting for over 50% of global new ship orders (by compensated gross tonnage). CANSI publishes monthly and annual statistics on vessel completions, new orders, and the orderbook backlog across all major vessel types including bulk carriers, tankers, container ships, LNG carriers, and naval vessels. The association also releases data on steel consumption by shipbuilders, employment in the sector, and shipyard-level performance. CANSI data is the primary reference for global shipping market participants, port operators, financial analysts, and trade economists tracking China's maritime industrial capacity.",
+        "zh": "中国船舶工业行业协会（中船协）是代表中国船舶工业的全国性行业组织。中国是全球最大的造船国，按修正总吨计新接订单长期占全球50%以上。中船协发布散货船、油船、集装箱船、LNG船及军船等各类船型的月度和年度完工量、新接订单量及手持订单统计数据，同时发布造船业钢材消耗量、行业从业人员规模及船厂经营情况数据。中船协数据是全球航运市场参与者、港口运营商、金融分析师和贸易经济学家追踪中国船舶工业产能的主要数据来源。"
+      },
+      "website": "https://www.cansi.org.cn/",
+      "data_url": "https://www.cansi.org.cn/cms/document/show/43.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "trade",
+        "economics",
+        "infrastructure"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国船舶工业行业协会",
+        "CANSI",
+        "China shipbuilding",
+        "造船",
+        "船舶工业",
+        "shipbuilding industry",
+        "新船订单",
+        "new ship orders",
+        "手持订单",
+        "orderbook",
+        "完工量",
+        "vessel completions",
+        "散货船",
+        "bulk carrier",
+        "油船",
+        "tanker",
+        "集装箱船",
+        "container ship",
+        "LNG船",
+        "LNG carrier",
+        "CGT",
+        "修正总吨",
+        "compensated gross tonnage",
+        "全球造船市场",
+        "global shipbuilding market",
+        "航运",
+        "shipping",
+        "造船产能",
+        "shipbuilding capacity",
+        "船厂",
+        "shipyard"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly shipbuilding completions: total vessel output by tonnage (DWT, CGT) and number of ships, broken down by vessel type",
+          "New orders received: monthly new shipbuilding contracts by vessel type, tonnage, and value",
+          "Orderbook backlog: total outstanding orders at Chinese shipyards by vessel type and delivery schedule",
+          "Market share data: China's share of global shipbuilding output versus South Korea, Japan, and other major shipbuilding nations",
+          "Vessel type breakdown: detailed statistics for bulk carriers, crude/product tankers, container ships, LNG carriers, and other specialized vessels",
+          "Steel consumption: steel plate and section consumption by major shipyards, linking shipbuilding to steel industry demand",
+          "Industry employment: total workforce in China's shipbuilding and ship repair sector",
+          "Annual industry report: comprehensive overview of China's shipbuilding industry performance, technology, and market outlook",
+          "Export data: vessels built in China for foreign buyers and export value"
+        ],
+        "zh": [
+          "月度造船完工量：按载重吨（DWT）、修正总吨（CGT）和艘数统计的船舶总产量，并按船型细分",
+          "新接订单：按船型、吨位和金额统计的月度新增造船合同",
+          "手持订单：按船型和交付计划统计的中国各船厂未完工订单合计",
+          "市场份额：中国造船产量在全球的占比及与韩国、日本等主要造船国的对比",
+          "船型细分：散货船、原油/成品油船、集装箱船、LNG船及其他特种船详细统计",
+          "钢材消耗：主要船厂船用钢板和型钢消耗量，体现造船业对钢铁行业的拉动",
+          "行业就业：中国造船和船舶修理业从业人员总规模",
+          "年度行业报告：中国船舶工业经营状况、技术进展和市场展望综合报告",
+          "出口数据：中国为境外买家建造的船舶及出口金额"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cansi.json"
+    },
+    {
+      "id": "china-cbmf",
+      "name": {
+        "en": "China Building Materials Federation",
+        "zh": "中国建筑材料联合会"
+      },
+      "description": {
+        "en": "The China Building Materials Federation (CBMF) is the national industry organization representing China's building materials manufacturing sector. China is the world's largest producer and consumer of construction materials, including cement, flat glass, ceramics, stone products, waterproofing materials, insulation materials, and composite panels. The building materials industry is a foundational input for China's massive infrastructure and real estate development, and its production data closely tracks fixed asset investment cycles. CBMF publishes monthly and annual statistics on cement production, plate glass output, ceramic tile and sanitary ware manufacturing, stone processing, and other building material categories. The association also releases industry development reports, energy consumption data, export statistics, and policy analysis relevant to China's construction and green building transition. CBMF data is essential for construction industry supply chain analysis, commodity market research, and tracking China's urbanization and infrastructure build-out.",
+        "zh": "中国建筑材料联合会（中国建材联合会）是代表中国建筑材料制造行业的全国性行业组织。中国是全球最大的建筑材料生产国和消费国，产品涵盖水泥、平板玻璃、陶瓷、石材、防水材料、绝热材料和复合板材等。建材行业是中国大规模基础设施和房地产开发建设的基础投入，其产量数据与固定资产投资周期紧密相关。联合会发布水泥、平板玻璃、陶瓷砖和卫生洁具、石材加工等各建材品类的月度和年度统计数据，同时发布行业发展报告、能源消耗数据、出口统计及与中国建筑业绿色转型相关的政策分析。联合会数据对建筑行业供应链分析、大宗商品市场研究和追踪中国城镇化与基础设施建设进程具有重要价值。"
+      },
+      "website": "https://www.cbmf.org/",
+      "data_url": "https://www.cbmf.org/yxjc/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "economics",
+        "infrastructure",
+        "environment"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国建筑材料联合会",
+        "CBMF",
+        "China building materials",
+        "建筑材料",
+        "building materials",
+        "水泥",
+        "cement",
+        "平板玻璃",
+        "flat glass",
+        "陶瓷",
+        "ceramics",
+        "陶瓷砖",
+        "ceramic tile",
+        "卫生洁具",
+        "sanitary ware",
+        "石材",
+        "stone products",
+        "防水材料",
+        "waterproofing",
+        "建材产量",
+        "building materials production",
+        "建材出口",
+        "building materials exports",
+        "绿色建材",
+        "green building materials",
+        "建筑业",
+        "construction industry",
+        "房地产材料",
+        "real estate materials",
+        "基础设施建设",
+        "infrastructure construction"
+      ],
+      "data_content": {
+        "en": [
+          "Cement production: monthly and annual cement output by province and major enterprise group, including clinker and finished cement",
+          "Flat glass: monthly production of float glass, processed glass, and specialty glass by thickness and product category",
+          "Ceramic tile and sanitary ware: output statistics for floor tiles, wall tiles, polished tiles, and bathroom fixtures",
+          "Stone products: production of granite, marble, and engineered stone slabs by major producing region",
+          "Waterproofing and insulation: production data for waterproofing membranes, thermal insulation boards, and related products",
+          "Composite panels: output of fiber cement boards, calcium silicate boards, and gypsum board",
+          "Export statistics: monthly export volume and value for cement, glass, ceramics, and stone products by destination",
+          "Energy consumption: industry energy intensity data supporting green building materials and carbon reduction policy analysis",
+          "Enterprise performance: production, revenue, and profit data for major listed and unlisted building materials companies",
+          "Industry development report: annual overview of China's building materials sector covering production, trade, technology, and policy"
+        ],
+        "zh": [
+          "水泥产量：按省份和主要企业集团统计的月度和年度水泥产量，包含熟料和成品水泥",
+          "平板玻璃：按厚度和产品类别统计的浮法玻璃、深加工玻璃和特种玻璃月度产量",
+          "陶瓷砖和卫生洁具：地砖、墙砖、抛光砖及卫浴洁具产量统计",
+          "石材制品：主要产区花岗岩、大理石和工程石板材产量",
+          "防水与绝热材料：防水卷材、保温板及相关产品产量",
+          "复合板材：纤维水泥板、硅钙板和石膏板产量",
+          "出口统计：水泥、玻璃、陶瓷和石材按目的地统计的月度出口量和出口额",
+          "能耗数据：行业能耗强度数据，支撑绿色建材和碳减排政策分析",
+          "企业经营数据：主要上市和非上市建材企业的产量、营收和利润",
+          "行业发展报告：涵盖产量、贸易、技术和政策的中国建材行业年度综合报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cbmf.json"
+    },
+    {
+      "id": "china-ccfa",
+      "name": {
+        "en": "China Chemical Fiber Industry Association",
+        "zh": "中国化学纤维工业协会"
+      },
+      "description": {
+        "en": "The China Chemical Fiber Industry Association (CCFA) is the national industry organization representing China's chemical fiber sector. China is by far the world's largest producer of chemical fibers, accounting for approximately 70% of global output. Chemical fibers—including polyester, nylon, acrylic, spandex, viscose, and lyocell—are foundational inputs for textiles, apparel, automotive interiors, construction composites, and industrial applications. CCFA publishes monthly and annual production statistics for all major fiber categories, as well as data on capacity additions, enterprise performance, import/export volumes, and fiber price trends. The association also releases industry development reports, technology roadmaps, and data on emerging sustainable fibers. CCFA data is essential for textile supply chain analysis, fashion industry forecasting, raw material pricing, and trade policy research.",
+        "zh": "中国化学纤维工业协会（中国化纤协会）是代表中国化学纤维行业的全国性行业组织。中国是全球最大的化学纤维生产国，产量约占全球总产量的70%。化学纤维涵盖涤纶、锦纶、腈纶、氨纶、粘胶纤维和莱赛尔纤维等，是纺织服装、汽车内饰、建筑复合材料和工业用材的基础原料。协会发布各主要纤维品种的月度和年度产量统计，以及产能扩张、企业经营、进出口量和纤维价格走势数据，同时发布行业发展报告、技术路线图和新兴可持续纤维数据。中国化纤协会的数据对纺织供应链分析、时尚行业预测、原料定价研究和贸易政策研究具有重要价值。"
+      },
+      "website": "https://www.ccfa.com.cn/",
+      "data_url": "https://www.ccfa.com.cn/19/index.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "economics",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国化学纤维工业协会",
+        "CCFA",
+        "China chemical fiber",
+        "化学纤维",
+        "chemical fiber",
+        "涤纶",
+        "polyester",
+        "锦纶",
+        "nylon",
+        "腈纶",
+        "acrylic",
+        "氨纶",
+        "spandex",
+        "粘胶纤维",
+        "viscose",
+        "莱赛尔",
+        "lyocell",
+        "纤维产量",
+        "fiber production",
+        "化纤工业",
+        "chemical fiber industry",
+        "纺织原料",
+        "textile raw materials",
+        "化纤进出口",
+        "fiber trade",
+        "化纤价格",
+        "fiber prices",
+        "可持续纤维",
+        "sustainable fibers",
+        "纺织供应链",
+        "textile supply chain"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly fiber production: output statistics for all major chemical fiber categories (polyester filament and staple, nylon, acrylic, spandex, viscose/modal/lyocell, and others)",
+          "Annual capacity data: total installed capacity by fiber type and major production enterprise",
+          "Price indices: monthly price trends for key chemical fiber products and their upstream raw materials (PTA, MEG, caprolactam, acrylonitrile)",
+          "Import and export volumes: monthly trade data for chemical fiber products by type and destination country",
+          "Enterprise performance: production, revenue, profit, and export data for major chemical fiber companies",
+          "Industry investment: annual fixed asset investment in chemical fiber sector and new capacity additions",
+          "Fiber flow trend report: annual report on fashion and color trends driving demand for specific fiber types",
+          "Sustainability data: production statistics for bio-based, recycled, and functional high-performance fibers",
+          "Industry development report: annual overview of China's chemical fiber industry performance and outlook"
+        ],
+        "zh": [
+          "月度纤维产量：涤纶长丝和短纤、锦纶、腈纶、氨纶、粘胶/莫代尔/莱赛尔等各主要化纤品种产量统计",
+          "年度产能数据：按纤维品种和主要生产企业统计的在产产能",
+          "价格指数：主要化纤产品及上游原料（PTA、MEG、己内酰胺、丙烯腈）月度价格走势",
+          "进出口量：按品种和目的地国家统计的化纤产品月度贸易数据",
+          "企业经营数据：主要化纤企业的产量、营收、利润和出口数据",
+          "行业投资：化纤行业年度固定资产投资及新增产能",
+          "中国纤维流行趋势报告：驱动特定纤维品种需求的年度时尚与色彩趋势报告",
+          "可持续发展数据：生物基、再生和功能性高性能纤维的产量统计",
+          "行业发展报告：中国化纤工业年度运行情况及展望"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-ccfa.json"
+    },
+    {
+      "id": "china-cheaa",
+      "name": {
+        "en": "China Household Electrical Appliances Association",
+        "zh": "中国家用电器协会"
+      },
+      "description": {
+        "en": "The China Household Electrical Appliances Association (CHEAA) is the national industry organization representing China's home appliance manufacturing sector. China is the world's largest producer and exporter of household electrical appliances, manufacturing over 60% of global appliance output including air conditioners, refrigerators, washing machines, televisions, kitchen appliances, and small household devices. CHEAA publishes monthly and annual production and sales statistics for all major appliance categories, export data by product and destination market, energy efficiency compliance data, and enterprise performance metrics. The association produces the authoritative annual China Household Appliance Industry Development Report and conducts joint research on smart home and IoT appliance trends. CHEAA data is the primary reference for global consumer electronics supply chain analysis, trade policy research, and retail market forecasting.",
+        "zh": "中国家用电器协会（家电协会）是代表中国家电制造行业的全国性行业组织。中国是全球最大的家用电器生产和出口国，生产的空调、冰箱、洗衣机、电视机、厨房电器和小家电占全球产量60%以上。家电协会发布各主要家电品类的月度和年度产销统计数据、按产品和目的地市场分类的出口数据、节能合规数据及企业经营指标，出版权威的年度《中国家用电器行业发展报告》，并开展智能家居和物联网家电趋势联合研究。家电协会数据是全球消费电子供应链分析、贸易政策研究和零售市场预测的主要参考来源。"
+      },
+      "website": "https://www.cheaa.org/",
+      "data_url": "https://www.cheaa.org/channels/116.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "economics",
+        "trade",
+        "technology"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国家用电器协会",
+        "CHEAA",
+        "China home appliances",
+        "家用电器",
+        "household appliances",
+        "空调",
+        "air conditioner",
+        "冰箱",
+        "refrigerator",
+        "洗衣机",
+        "washing machine",
+        "电视机",
+        "television",
+        "TV",
+        "小家电",
+        "small appliances",
+        "家电产量",
+        "appliance production",
+        "家电出口",
+        "appliance exports",
+        "家电销售",
+        "appliance sales",
+        "节能家电",
+        "energy-efficient appliances",
+        "智能家居",
+        "smart home",
+        "家电行业",
+        "appliance industry",
+        "消费电子",
+        "consumer electronics",
+        "家电供应链",
+        "appliance supply chain"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly production statistics: output for all major appliance categories including air conditioners, refrigerators, washing machines, televisions, and range hoods",
+          "Domestic sales data: monthly retail sales volume and value for major appliance categories in China",
+          "Export statistics: monthly export volume and value by appliance type and destination country/region",
+          "Energy efficiency data: production share of high-efficiency (energy-star equivalent) appliances by category",
+          "Enterprise performance: production, revenue, and profit data for major listed and unlisted appliance manufacturers",
+          "Small appliance data: production and sales statistics for cooking appliances, floor care, personal care, and seasonal products",
+          "Smart home data: production and shipment statistics for connected/IoT-enabled appliance categories",
+          "Annual industry development report: comprehensive review of China's household appliance industry covering production, trade, technology, and company rankings",
+          "Market analysis: domestic market penetration rates, urban vs. rural appliance ownership, and replacement demand trends"
+        ],
+        "zh": [
+          "月度产量统计：空调、冰箱、洗衣机、电视机、吸油烟机等主要家电品类产量",
+          "国内销售数据：主要家电品类月度零售量和零售额",
+          "出口统计：按家电品类和目的地国家/地区统计的月度出口量和出口额",
+          "节能数据：各品类高能效家电（相当于能源之星级别）在产品中的占比",
+          "企业经营数据：主要上市和非上市家电制造商的产量、营收和利润",
+          "小家电数据：烹饪电器、地面清洁、个人护理和季节性产品的产销统计",
+          "智能家居数据：联网/物联网家电品类的产量和出货统计",
+          "年度行业发展报告：涵盖产量、贸易、技术和企业排名的中国家电行业综合报告",
+          "市场分析：国内市场普及率、城乡家电拥有量及更新换代需求趋势"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cheaa.json"
+    },
+    {
+      "id": "china-cria",
+      "name": {
+        "en": "China Rubber Industry Association",
+        "zh": "中国橡胶工业协会"
+      },
+      "description": {
+        "en": "The China Rubber Industry Association (CRIA) is the national industry organization representing China's rubber manufacturing sector. China is the world's largest consumer and producer of rubber products, including tires, industrial rubber goods, rubber belts, hoses, seals, and latex products. As the backbone of the automotive, construction, and industrial machinery supply chains, China's rubber industry data is critical for global commodity market analysis. CRIA publishes monthly and annual production statistics for all major rubber product categories, tire production and export data, natural and synthetic rubber consumption, enterprise performance metrics, and industry development reports. The association also maintains a dedicated statistical platform providing detailed industry data accessible to members and researchers.",
+        "zh": "中国橡胶工业协会（中橡协）是代表中国橡胶制造行业的全国性行业组织。中国是全球最大的橡胶产品消费和生产国，产品涵盖轮胎、工业橡胶制品、橡胶输送带、胶管、密封件和乳胶制品。作为汽车、建筑和工业机械供应链的重要支撑，中国橡胶工业数据对全球大宗商品市场分析具有关键价值。中橡协发布各主要橡胶产品类别的月度和年度产量统计、轮胎产量和出口数据、天然橡胶和合成橡胶消耗量、企业经营指标及行业发展报告，并维护统计平台，向会员和研究人员提供详细行业数据。"
+      },
+      "website": "https://www.cria.org.cn/",
+      "data_url": "https://www.cria.org.cn/c/id/1760910256413655041",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "economics",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国橡胶工业协会",
+        "CRIA",
+        "China rubber industry",
+        "橡胶工业",
+        "rubber industry",
+        "轮胎",
+        "tire",
+        "tyre",
+        "橡胶产量",
+        "rubber production",
+        "天然橡胶",
+        "natural rubber",
+        "合成橡胶",
+        "synthetic rubber",
+        "橡胶消耗",
+        "rubber consumption",
+        "轮胎出口",
+        "tire exports",
+        "工业橡胶",
+        "industrial rubber",
+        "橡胶带",
+        "rubber belt",
+        "胶管",
+        "rubber hose",
+        "乳胶",
+        "latex",
+        "汽车配套",
+        "automotive supply chain",
+        "橡胶价格",
+        "rubber prices"
+      ],
+      "data_content": {
+        "en": [
+          "Tire production: monthly and annual output of all tire categories including passenger car tires, truck and bus tires, motorcycle tires, agricultural tires, and specialty tires",
+          "Tire exports: monthly export volume and value by product type and destination country",
+          "Natural rubber consumption: domestic consumption of natural rubber by end-use sector",
+          "Synthetic rubber data: production and consumption of major synthetic rubber types (SBR, BR, NBR, EPDM, CR, etc.)",
+          "Rubber product production: output of industrial rubber goods, conveyor belts, hoses, seals, and latex products",
+          "Enterprise performance: revenue, profit, and production data for major rubber manufacturing enterprises",
+          "Industry investment: fixed asset investment in rubber sector and capacity changes",
+          "Raw material price data: price trends for natural rubber, carbon black, and key synthetic rubber monomers",
+          "Annual industry report: comprehensive overview of China's rubber industry development, technology trends, and market outlook"
+        ],
+        "zh": [
+          "轮胎产量：乘用车轮胎、卡客车轮胎、摩托车轮胎、农用轮胎及特种轮胎的月度和年度产量",
+          "轮胎出口：按产品类别和目的地国家统计的月度出口量和出口额",
+          "天然橡胶消耗：按下游行业分类的国内天然橡胶消耗量",
+          "合成橡胶数据：SBR、BR、NBR、EPDM、CR等主要合成橡胶品种产量与消耗量",
+          "橡胶制品产量：工业橡胶制品、输送带、胶管、密封件和乳胶制品产量",
+          "企业经营数据：主要橡胶制造企业的营收、利润和产量数据",
+          "行业投资：橡胶行业固定资产投资及产能变化",
+          "原料价格数据：天然橡胶、炭黑和主要合成橡胶单体价格走势",
+          "年度行业报告：中国橡胶行业发展、技术趋势和市场展望综合报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cria.json"
     },
     {
       "id": "china-mohrss",
