@@ -83,18 +83,19 @@ def check_duplicate_paths(sources):
         "uk": "united-kingdom",
     }
 
-    # Known non-country L1 dirs (subject/org categories — not duplicates)
-    NON_COUNTRY_L1 = {
-        "academic", "international", "sectors", "regional", "countries",
-    }
+    # R4 consensus: final top-level = country dirs + international/
+    # academic/ and sectors/ are NOT legitimate L1 — should be dispersed
+    # into country directories. Only countries/ and international/ survive.
+    LEGITIMATE_L1 = {"countries", "international"}
 
     # Step 1: Build country → {path_prefix: [files]} from L1 dirs
     l1_dirs = set()
     for s in sources:
         l1_dirs.add(s["path_parts"][0])
 
-    # Candidate country L1s: top-level dirs not in NON_COUNTRY_L1
-    candidate_countries = l1_dirs - NON_COUNTRY_L1
+    # Candidate country L1s: top-level dirs not in LEGITIMATE_L1
+    candidate_countries = {d for d in l1_dirs - LEGITIMATE_L1
+                          if d not in ("academic", "sectors", "regional")}
 
     # Step 2: For each candidate, find all paths where this country appears
     duplicates = []
@@ -148,22 +149,47 @@ def check_duplicate_paths(sources):
     return duplicates
 
 
-def check_orphan_l1(sources):
-    """Find L1 categories with very few files (≤2), indicating misplacement."""
+def check_illegitimate_l1(sources):
+    """
+    Find L1 directories that violate R4 consensus.
+
+    R4 consensus: final top-level structure = country dirs + international/
+    Only `countries/` and `international/` are legitimate L1 directories.
+    Everything else (academic/, sectors/, china/, india/, etc.) should be
+    dispersed into the country tree.
+    """
+    LEGITIMATE_L1 = {"countries", "international"}
+
     l1_counts = defaultdict(list)
     for s in sources:
         l1 = s["path_parts"][0]
         l1_counts[l1].append(s["file"])
 
-    orphans = []
+    illegitimate = []
     for l1, files in sorted(l1_counts.items()):
-        if len(files) <= 2:
-            orphans.append({
+        if l1 not in LEGITIMATE_L1:
+            illegitimate.append({
                 "l1": l1,
                 "file_count": len(files),
-                "files": sorted(files)
+                "category": _classify_l1(l1),
+                "files": sorted(files) if len(files) <= 5 else sorted(files)[:5] + [f"... and {len(files)-5} more"]
             })
-    return orphans
+    return illegitimate
+
+
+def _classify_l1(l1_name):
+    """Classify why an L1 directory is illegitimate."""
+    country_names = {
+        "china", "india", "japan", "singapore", "thailand",
+        "us", "usa", "cn", "hk", "uk",
+    }
+    if l1_name in country_names:
+        return "country-orphan"
+    if l1_name in ("academic", "sectors"):
+        return "non-geographic-axis"
+    if l1_name == "regional":
+        return "scope-axis"
+    return "unknown"
 
 
 def check_directory_underscores(sources_dir):
@@ -239,12 +265,17 @@ def main():
 
     # Run all checks
     duplicate_paths = check_duplicate_paths(sources)
-    orphan_l1 = check_orphan_l1(sources)
+    illegitimate_l1 = check_illegitimate_l1(sources)
     dir_underscores = check_directory_underscores(sources_dir)
     domain_conflicts, domain_stats = check_domain_format_conflicts(sources)
 
+    # Count misplaced files
+    misplaced_files = sum(item["file_count"] for item in illegitimate_l1)
+
     # Build report
+    import datetime
     report = {
+        "scan_date": datetime.date.today().isoformat(),
         "total_sources": len(sources),
         "checks": {
             "duplicate_paths": {
@@ -252,10 +283,12 @@ def main():
                 "severity": "warning",
                 "items": duplicate_paths
             },
-            "orphan_l1": {
-                "count": len(orphan_l1),
-                "severity": "warning",
-                "items": orphan_l1
+            "illegitimate_l1": {
+                "count": len(illegitimate_l1),
+                "severity": "error",
+                "description": "L1 dirs violating R4 consensus (only countries/ + international/ are legitimate)",
+                "misplaced_files": misplaced_files,
+                "items": illegitimate_l1
             },
             "directory_underscores": {
                 "count": len(dir_underscores),
@@ -270,10 +303,10 @@ def main():
             }
         },
         "summary": {
-            "errors": len(dir_underscores),
-            "warnings": len(duplicate_paths) + len(orphan_l1),
+            "errors": len(dir_underscores) + len(illegitimate_l1),
+            "warnings": len(duplicate_paths),
             "info": len(domain_conflicts),
-            "pass": len(dir_underscores) == 0
+            "pass": len(dir_underscores) == 0 and len(illegitimate_l1) == 0
         }
     }
 
@@ -293,10 +326,13 @@ def main():
             for path, info in dp["paths"].items():
                 print(f"    {path} → {info['count']} file(s)")
 
-        # Check 2: Orphan L1
-        print(f"\n🟡 Orphan L1 Categories: {len(orphan_l1)}")
-        for o in orphan_l1:
-            print(f"  {o['l1']}/ → {o['file_count']} file(s): {o['files']}")
+        # Check 2: Illegitimate L1 (R4 consensus)
+        print(f"\n🔴 Illegitimate L1 Directories: {len(illegitimate_l1)} ({misplaced_files} files misplaced)")
+        print(f"   R4 consensus: only countries/ + international/ are legitimate")
+        for item in illegitimate_l1:
+            tag = {"country-orphan": "🌍", "non-geographic-axis": "📁", "scope-axis": "🔲"}.get(item["category"], "❓")
+            files_display = item["files"] if item["file_count"] <= 5 else f"{item['files'][:3]}... ({item['file_count']} total)"
+            print(f"  {tag} {item['l1']}/ → {item['file_count']} file(s) [{item['category']}]")
 
         # Check 3: Directory underscores
         print(f"\n🔴 Directory Underscore Violations: {len(dir_underscores)}")
