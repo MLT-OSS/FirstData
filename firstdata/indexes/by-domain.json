@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-08T06:17:53.303133+00:00",
+    "generated_at": "2026-04-09T02:33:12.490382+00:00",
     "total_domains": 708,
-    "total_sources": 402,
+    "total_sources": 405,
     "version": "2.0"
   },
   "domains": {
@@ -2452,6 +2452,18 @@
         "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csrc-futures",
+        "name": {
+          "en": "China Futures Association",
+          "zh": "中国期货业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+        "has_api": false,
+        "file_path": "china/finance/china-csrc-futures.json",
         "geographic_scope": "national"
       },
       {
@@ -12219,6 +12231,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csrc-futures",
+        "name": {
+          "en": "China Futures Association",
+          "zh": "中国期货业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+        "has_api": false,
+        "file_path": "china/finance/china-csrc-futures.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-iac",
         "name": {
           "en": "Insurance Association of China",
@@ -12228,6 +12252,30 @@
         "data_url": "https://www.iachina.cn/col/col4479/",
         "has_api": false,
         "file_path": "china/finance/china-iac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-payment-clearing",
+        "name": {
+          "en": "Payment & Clearing Association of China",
+          "zh": "中国支付清算协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.pcac.org.cn/eportal/ui?pageId=477883",
+        "has_api": false,
+        "file_path": "china/finance/china-payment-clearing.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-trustee-association",
+        "name": {
+          "en": "China Trustee Association",
+          "zh": "中国信托业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.xtxh.net/xtyxh/hyyj/tjsj/index.html",
+        "has_api": false,
+        "file_path": "china/finance/china-trustee-association.json",
         "geographic_scope": "national"
       },
       {

@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "generated_at": "2026-04-08T06:17:53.303133+00:00",
+    "generated_at": "2026-04-09T02:33:12.490382+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 402,
+    "total_sources": 405,
     "sources_with_api": 151,
-    "last_updated": "2026-04-08"
+    "last_updated": "2026-04-09"
   },
   "by_authority_level": {
     "research": 41,
     "international": 74,
     "government": 234,
-    "other": 17,
+    "other": 20,
     "market": 20,
     "commercial": 16
   },
   "by_geographic_scope": {
     "global": 100,
-    "national": 245,
+    "national": 248,
     "regional": 26,
     "subnational": 31
   },
@@ -26,8 +26,8 @@
     "irregular": 54,
     "daily": 56,
     "weekly": 9,
-    "quarterly": 37,
-    "monthly": 149,
+    "quarterly": 39,
+    "monthly": 150,
     "annual": 85,
     "real-time": 12
   },
@@ -38,7 +38,7 @@
     "demographics": 75,
     "agriculture": 65,
     "environment": 64,
-    "finance": 60,
+    "finance": 63,
     "statistics": 53,
     "health": 46,
     "industry": 46,
@@ -64,6 +64,7 @@
     "genomics": 7,
     "machine learning": 7,
     "investment": 7,
+    "capital-markets": 7,
     "research": 7,
     "innovation": 7,
     "monetary policy": 7,
@@ -74,7 +75,6 @@
     "epidemiology": 6,
     "construction": 6,
     "resources": 6,
-    "capital-markets": 6,
     "earth-science": 6,
     "telecommunications": 6,
     "business": 6,

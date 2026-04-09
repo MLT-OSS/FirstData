@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-08T06:17:53.303133+00:00",
-    "total_sources": 402,
+    "generated_at": "2026-04-09T02:33:12.490382+00:00",
+    "total_sources": 405,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -6566,6 +6566,47 @@
       "file_path": "china/finance/capital-markets/china-nafmii.json"
     },
     {
+      "id": "china-csrc-futures",
+      "name": {
+        "en": "China Futures Association",
+        "zh": "中国期货业协会"
+      },
+      "description": {
+        "en": "Self-regulatory organization for China's futures industry, publishing futures market statistics, company rankings, trading volume data, and investor protection reports.",
+        "zh": "中国期货行业自律组织，发布期货市场统计、公司排名、交易量数据和投资者保护报告。"
+      },
+      "website": "https://www.cfachina.org/",
+      "data_url": "https://www.cfachina.org/servicesupport/researchandpublishin/statisticalsdata/",
+      "country": "CN",
+      "geographic_scope": "national",
+      "authority_level": "other",
+      "domains": [
+        "finance",
+        "capital-markets"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "futures",
+        "derivatives",
+        "capital-markets",
+        "industry-statistics"
+      ],
+      "data_content": {
+        "en": [
+          "futures market trading statistics",
+          "futures company rankings",
+          "investor protection data"
+        ],
+        "zh": [
+          "期货市场交易统计",
+          "期货公司排名",
+          "投资者保护数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-csrc-futures.json"
+    },
+    {
       "id": "china-iac",
       "name": {
         "en": "Insurance Association of China",
@@ -6639,6 +6680,85 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-iac.json"
+    },
+    {
+      "id": "china-payment-clearing",
+      "name": {
+        "en": "Payment & Clearing Association of China",
+        "zh": "中国支付清算协会"
+      },
+      "description": {
+        "en": "Industry association for China's payment and clearing sector, publishing payment transaction statistics, reserve fund data, and clearing market analysis.",
+        "zh": "中国支付清算行业协会，发布支付交易量统计、备付金余额数据和清算市场分析。"
+      },
+      "website": "https://www.pcac.org.cn/",
+      "data_url": "https://www.pcac.org.cn/eportal/ui?pageId=477883",
+      "country": "CN",
+      "geographic_scope": "national",
+      "authority_level": "other",
+      "domains": [
+        "finance"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "payment",
+        "clearing",
+        "fintech",
+        "industry-statistics"
+      ],
+      "data_content": {
+        "en": [
+          "payment transaction volume statistics",
+          "reserve fund balance data",
+          "clearing market analysis"
+        ],
+        "zh": [
+          "支付交易量统计",
+          "备付金余额数据",
+          "清算市场分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-payment-clearing.json"
+    },
+    {
+      "id": "china-trustee-association",
+      "name": {
+        "en": "China Trustee Association",
+        "zh": "中国信托业协会"
+      },
+      "description": {
+        "en": "Industry association for China's trust sector, publishing trust asset management data, quarterly reports, and industry statistics for 68 trust companies.",
+        "zh": "中国信托行业协会，发布信托资产管理数据、季度报告和68家信托公司行业统计。"
+      },
+      "website": "http://www.xtxh.net/",
+      "data_url": "http://www.xtxh.net/xtyxh/hyyj/tjsj/index.html",
+      "country": "CN",
+      "geographic_scope": "national",
+      "authority_level": "other",
+      "domains": [
+        "finance"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "trust",
+        "asset-management",
+        "financial-statistics"
+      ],
+      "data_content": {
+        "en": [
+          "trust asset management statistics",
+          "quarterly industry reports",
+          "trust company data"
+        ],
+        "zh": [
+          "信托资产管理统计",
+          "季度行业报告",
+          "信托公司数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-trustee-association.json"
     },
     {
       "id": "china-mof",
