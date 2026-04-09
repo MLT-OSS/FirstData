@@ -1,0 +1,81 @@
+{
+  "id": "china-cansi",
+  "name": {
+    "en": "China Association of the National Shipbuilding Industry",
+    "zh": "中国船舶工业行业协会"
+  },
+  "description": {
+    "en": "The China Association of the National Shipbuilding Industry (CANSI) is the national industry organization representing China's shipbuilding sector. China is the world's largest shipbuilding nation by output, consistently accounting for over 50% of global new ship orders (by compensated gross tonnage). CANSI publishes monthly and annual statistics on vessel completions, new orders, and the orderbook backlog across all major vessel types including bulk carriers, tankers, container ships, LNG carriers, and naval vessels. The association also releases data on steel consumption by shipbuilders, employment in the sector, and shipyard-level performance. CANSI data is the primary reference for global shipping market participants, port operators, financial analysts, and trade economists tracking China's maritime industrial capacity.",
+    "zh": "中国船舶工业行业协会（中船协）是代表中国船舶工业的全国性行业组织。中国是全球最大的造船国，按修正总吨计新接订单长期占全球50%以上。中船协发布散货船、油船、集装箱船、LNG船及军船等各类船型的月度和年度完工量、新接订单量及手持订单统计数据，同时发布造船业钢材消耗量、行业从业人员规模及船厂经营情况数据。中船协数据是全球航运市场参与者、港口运营商、金融分析师和贸易经济学家追踪中国船舶工业产能的主要数据来源。"
+  },
+  "website": "https://www.cansi.org.cn/",
+  "data_url": "https://www.cansi.org.cn/cms/document/show/43.html",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "trade",
+    "economics",
+    "infrastructure"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国船舶工业行业协会",
+    "CANSI",
+    "China shipbuilding",
+    "造船",
+    "船舶工业",
+    "shipbuilding industry",
+    "新船订单",
+    "new ship orders",
+    "手持订单",
+    "orderbook",
+    "完工量",
+    "vessel completions",
+    "散货船",
+    "bulk carrier",
+    "油船",
+    "tanker",
+    "集装箱船",
+    "container ship",
+    "LNG船",
+    "LNG carrier",
+    "CGT",
+    "修正总吨",
+    "compensated gross tonnage",
+    "全球造船市场",
+    "global shipbuilding market",
+    "航运",
+    "shipping",
+    "造船产能",
+    "shipbuilding capacity",
+    "船厂",
+    "shipyard"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly shipbuilding completions: total vessel output by tonnage (DWT, CGT) and number of ships, broken down by vessel type",
+      "New orders received: monthly new shipbuilding contracts by vessel type, tonnage, and value",
+      "Orderbook backlog: total outstanding orders at Chinese shipyards by vessel type and delivery schedule",
+      "Market share data: China's share of global shipbuilding output versus South Korea, Japan, and other major shipbuilding nations",
+      "Vessel type breakdown: detailed statistics for bulk carriers, crude/product tankers, container ships, LNG carriers, and other specialized vessels",
+      "Steel consumption: steel plate and section consumption by major shipyards, linking shipbuilding to steel industry demand",
+      "Industry employment: total workforce in China's shipbuilding and ship repair sector",
+      "Annual industry report: comprehensive overview of China's shipbuilding industry performance, technology, and market outlook",
+      "Export data: vessels built in China for foreign buyers and export value"
+    ],
+    "zh": [
+      "月度造船完工量：按载重吨（DWT）、修正总吨（CGT）和艘数统计的船舶总产量，并按船型细分",
+      "新接订单：按船型、吨位和金额统计的月度新增造船合同",
+      "手持订单：按船型和交付计划统计的中国各船厂未完工订单合计",
+      "市场份额：中国造船产量在全球的占比及与韩国、日本等主要造船国的对比",
+      "船型细分：散货船、原油/成品油船、集装箱船、LNG船及其他特种船详细统计",
+      "钢材消耗：主要船厂船用钢板和型钢消耗量，体现造船业对钢铁行业的拉动",
+      "行业就业：中国造船和船舶修理业从业人员总规模",
+      "年度行业报告：中国船舶工业经营状况、技术进展和市场展望综合报告",
+      "出口数据：中国为境外买家建造的船舶及出口金额"
+    ]
+  }
+}
