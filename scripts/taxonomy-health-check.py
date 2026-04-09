@@ -4,7 +4,7 @@ Taxonomy Health Check for FirstData
 ====================================
 Detects structural issues in the sources/ taxonomy:
   1. Duplicate paths — same country/entity in multiple L1 locations
-  2. Orphan L1 — top-level categories with ≤2 files (likely misplaced)
+  2. Illegitimate L1 — top-level dirs violating R4 consensus (allowlist: countries/ + international/)
   3. Directory underscore violations — should be kebab-case
   4. Domain format inconsistency — same concept in different formats
 
@@ -17,6 +17,7 @@ Usage:
   --ci     Exit with code 1 if any blocking issues found
 """
 
+import datetime
 import json
 import sys
 import os
@@ -195,7 +196,9 @@ def _classify_l1(l1_name):
         return "non-geographic-axis"
     if l1_name == "regional":
         return "scope-axis"
-    return "unknown"
+    # Default to country-orphan: academic/sectors/regional have explicit
+    # branches above, so anything else is most likely a country directory.
+    return "country-orphan"
 
 
 def check_directory_underscores(sources_dir):
@@ -248,9 +251,6 @@ def check_domain_format_conflicts(sources):
     has_space = sum(1 for d in all_domains if " " in d)
     has_hyphen = sum(1 for d in all_domains if "-" in d)
     has_underscore = sum(1 for d in all_domains if "_" in d)
-    single_word = total - has_space - has_hyphen - has_underscore + \
-                  sum(1 for d in all_domains if " " in d and "-" in d)
-
     format_stats = {
         "total_entries": total,
         "with_spaces": has_space,
@@ -279,7 +279,6 @@ def main():
     misplaced_files = sum(item["file_count"] for item in illegitimate_l1)
 
     # Build report
-    import datetime
     report = {
         "scan_date": datetime.date.today().isoformat(),
         "total_sources": len(sources),
