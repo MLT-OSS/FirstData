@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T06:19:52.603225+00:00",
-    "total_sources": 410,
+    "generated_at": "2026-04-10T02:26:13.930085+00:00",
+    "total_sources": 415,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2245,6 +2245,89 @@
       "file_path": "china/construction/china-mohurd.json"
     },
     {
+      "id": "china-cfeed",
+      "name": {
+        "en": "China Feed Industry Association",
+        "zh": "中国饲料工业协会"
+      },
+      "description": {
+        "en": "The China Feed Industry Association (CFIA) is the national industry organization representing China's animal feed manufacturing, feed additive, and veterinary pharmaceutical sectors, supervised by the Ministry of Agriculture and Rural Affairs. China is the world's second-largest feed producer, with annual output exceeding 300 million tonnes. CFIA publishes monthly production statistics on compound feed, concentrated feed, and premix feed by animal type (poultry, swine, aquaculture, ruminants), as well as feed price indices and raw material (corn, soybean meal, fishmeal) supply-demand balances. Its data is essential for tracking livestock sector dynamics, agricultural input costs, food security assessments, and commodity market analysis in the world's largest producer of pork and farmed fish.",
+        "zh": "中国饲料工业协会（中国饲料协会）是代表中国配合饲料生产、饲料添加剂和兽药行业的全国性行业组织，主管单位为农业农村部。中国是全球第二大饲料生产国，年产量超过3亿吨。协会发布按动物类别（家禽、猪、水产、反刍动物）分类的配合饲料、浓缩饲料和预混合饲料月度产量统计，以及饲料价格指数和原料（玉米、豆粕、鱼粉）供需平衡数据。这些数据是追踪畜牧业动态、农业投入成本、粮食安全评估，以及分析全球最大猪肉和养殖鱼类生产国大宗商品市场的重要依据。"
+      },
+      "website": "https://www.chinafeed.org.cn",
+      "data_url": "https://www.chinafeed.org.cn/hyfx/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "economics",
+        "industry",
+        "food-security"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国饲料工业协会",
+        "CFIA",
+        "China Feed Industry Association",
+        "饲料产量",
+        "feed production",
+        "配合饲料",
+        "compound feed",
+        "浓缩饲料",
+        "concentrated feed",
+        "预混合饲料",
+        "premix feed",
+        "饲料价格",
+        "feed prices",
+        "豆粕",
+        "soybean meal",
+        "玉米",
+        "corn",
+        "鱼粉",
+        "fishmeal",
+        "猪饲料",
+        "swine feed",
+        "禽类饲料",
+        "poultry feed",
+        "水产饲料",
+        "aquaculture feed",
+        "饲料添加剂",
+        "feed additives",
+        "畜牧业",
+        "livestock industry",
+        "农业投入",
+        "agricultural inputs",
+        "粮食安全",
+        "food security"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly feed production by type: output volumes of compound feed, concentrated feed, and premix feed broken down by animal category (poultry, swine, aquaculture, ruminants, other)",
+          "Feed price indices: monthly price trends for major feed products and key raw materials including corn, soybean meal, wheat bran, rapeseed meal, and fishmeal",
+          "Raw material supply-demand balance: monthly assessment of corn and soybean meal availability, import dependency, and price drivers",
+          "Industry enterprise data: annual statistics on number of licensed feed enterprises, production capacity, employment, and output by province",
+          "Feed additive production: annual output of amino acids (lysine, methionine, threonine), vitamins, enzymes, and other feed additives by type",
+          "Aquaculture feed statistics: production volumes segmented by fish species and shrimp/shellfish categories, tracking China's dominant role in global aquaculture",
+          "Monthly production situation reports: narrative analysis of feed industry performance, raw material market conditions, and policy impacts",
+          "Annual China feed industry report: comprehensive review of sector development, capacity changes, technological advances, and regulatory environment"
+        ],
+        "zh": [
+          "月度饲料分类产量：按动物类别（家禽、猪、水产、反刍动物、其他）细分的配合饲料、浓缩饲料和预混合饲料产量",
+          "饲料价格指数：主要饲料产品及玉米、豆粕、麦麸、菜粕、鱼粉等主要原料月度价格走势",
+          "原料供需平衡：玉米和豆粕月度供应量、进口依存度及价格驱动因素评估",
+          "行业企业数据：按省份分类的持证饲料企业数量、生产能力、从业人员及产量年度统计",
+          "饲料添加剂产量：氨基酸（赖氨酸、蛋氨酸、苏氨酸）、维生素、酶制剂等各类添加剂年度产量",
+          "水产饲料统计：按鱼类品种和虾贝类别细分的产量，追踪中国在全球水产养殖中的主导地位",
+          "月度生产形势报告：饲料行业运行、原料市场行情及政策影响的叙述性分析",
+          "中国饲料工业年度报告：行业发展、产能变化、技术进步和监管环境综合述评"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-cfeed.json"
+    },
+    {
       "id": "china-moa",
       "name": {
         "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
@@ -2557,6 +2640,89 @@
       },
       "has_api": false,
       "file_path": "china/economy/china-caac.json"
+    },
+    {
+      "id": "china-cada",
+      "name": {
+        "en": "China Automobile Dealers Association",
+        "zh": "中国汽车流通协会"
+      },
+      "description": {
+        "en": "The China Automobile Dealers Association (CADA) is the national trade organization representing China's automobile dealerships, used-car dealers, and automotive retail sector, supervised by the Ministry of Commerce. China is the world's largest auto market, with annual retail sales exceeding 25 million vehicles. CADA operates a comprehensive statistical system tracking monthly new-vehicle retail sales by brand, segment, and region through its network of over 10,000 dealer members. The association publishes the CADA Dealer Confidence Index (DCI) and the China Used Car Market Report, providing authoritative demand-side data that complements supply-side data from the China Association of Automobile Manufacturers (CAAM). CADA also monitors dealer profitability, inventory levels, financing penetration rates, and consumer satisfaction, making it essential for automotive industry analysis, investment research, and consumer trend studies.",
+        "zh": "中国汽车流通协会（中汽协流通）是代表中国整车经销商、二手车经销商和汽车零售行业的全国性行业组织，主管单位为商务部。中国是全球最大的汽车市场，年零售销量超过2500万辆。协会通过10000余家经销商会员网络，构建了完整的统计体系，按品牌、细分市场和地区追踪月度新车零售销量。协会发布经销商信心指数（DCI）和中国二手车市场报告，提供权威的需求侧数据，与中国汽车工业协会（中汽协）的供给侧数据形成互补。协会还监测经销商盈利能力、库存系数、金融服务渗透率和消费者满意度，是汽车行业分析、投资研究和消费趋势研究的重要数据来源。"
+      },
+      "website": "http://www.cada.cn",
+      "data_url": "http://data.cada.cn/main/overview.do",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "trade",
+        "consumer"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国汽车流通协会",
+        "CADA",
+        "China Automobile Dealers Association",
+        "汽车零售",
+        "automobile retail sales",
+        "新车销量",
+        "new vehicle sales",
+        "二手车",
+        "used car market",
+        "经销商信心指数",
+        "Dealer Confidence Index",
+        "DCI",
+        "库存系数",
+        "dealer inventory",
+        "汽车金融",
+        "auto financing",
+        "消费者满意度",
+        "consumer satisfaction",
+        "乘用车",
+        "passenger vehicles",
+        "商用车",
+        "commercial vehicles",
+        "新能源汽车",
+        "new energy vehicles",
+        "NEV",
+        "品牌销量",
+        "brand sales",
+        "汽车市场",
+        "auto market",
+        "经销商盈利",
+        "dealer profitability"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly new vehicle retail sales: passenger car and commercial vehicle retail volumes by brand, model segment (sedan, SUV, MPV), and province/city",
+          "CADA Dealer Confidence Index (DCI): monthly survey-based sentiment indicator covering dealer expectations for sales, inventory, and profitability across vehicle segments",
+          "Used car market statistics: monthly transaction volumes, average transaction prices, and regional distribution of used vehicle sales in China",
+          "Dealer inventory index: monthly days-of-supply and stock-to-sales ratio by brand and dealership tier, indicating supply-demand balance in the retail channel",
+          "Auto financing penetration: monthly share of vehicle purchases financed, average loan-to-value ratios, and financing product mix by brand tier",
+          "Consumer satisfaction survey: annual JD Power-style satisfaction rankings for dealership sales, service quality, and after-sales experience by brand",
+          "Dealership financial health: quarterly survey of dealer profitability, revenue per unit, and profit margin by brand authorization tier",
+          "New energy vehicle retail tracking: monthly battery electric vehicle (BEV) and plug-in hybrid (PHEV) retail sales with charging infrastructure data",
+          "Annual China auto dealer blue book: comprehensive review of retail market trends, dealer network changes, and outlook for the coming year"
+        ],
+        "zh": [
+          "月度新车零售销量：按品牌、车型细分（轿车、SUV、MPV）和省市分类的乘用车和商用车零售量",
+          "经销商信心指数（DCI）：月度调查型情绪指标，涵盖各细分市场销量预期、库存及盈利能力",
+          "二手车市场统计：中国二手车月度交易量、平均成交价格和区域分布",
+          "库存系数：按品牌和经销商层级的月度库存销售天数和库存销售比，反映零售渠道供需平衡状况",
+          "汽车金融渗透率：月度融资购车占比、平均贷款价值比和按品牌层级的金融产品结构",
+          "消费者满意度调查：各品牌经销商销售、服务质量和售后体验的年度JD Power式满意度排名",
+          "经销商财务健康状况：按品牌授权层级的经销商盈利能力、单车收益和利润率季度调查",
+          "新能源汽车零售追踪：纯电动汽车（BEV）和插电混合动力汽车（PHEV）月度零售量及充电基础设施数据",
+          "中国汽车流通蓝皮书：年度零售市场趋势、经销商网络变化及下一年度展望综合述评"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/china-cada.json"
     },
     {
       "id": "china-mct",
@@ -13873,6 +14039,128 @@
       "file_path": "countries/asia/japan/japan-estat.json"
     },
     {
+      "id": "japan-fsa",
+      "name": {
+        "en": "Japan Financial Services Agency",
+        "zh": "日本金融厅"
+      },
+      "description": {
+        "en": "The Financial Services Agency (FSA) is the Japanese government body responsible for overseeing banking, securities, exchange, and insurance sectors. It publishes regulatory data, financial institution statistics, corporate disclosure filings (EDINET), inspection results, and policy documents essential for understanding Japan's financial regulatory landscape.",
+        "zh": "日本金融厅（FSA）是负责监管日本银行、证券、交易所和保险行业的政府机构。发布监管数据、金融机构统计、企业信息披露文件（EDINET）、检查结果和政策文件，是了解日本金融监管环境的关键数据源。"
+      },
+      "website": "https://www.fsa.go.jp/en/",
+      "data_url": "https://www.fsa.go.jp/en/refer/index.html",
+      "api_url": null,
+      "country": "JP",
+      "authority_level": "government",
+      "domains": [
+        "finance",
+        "banking",
+        "securities",
+        "insurance",
+        "regulation"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "Japan",
+        "financial-regulation",
+        "banking-supervision",
+        "securities",
+        "insurance",
+        "EDINET",
+        "corporate-disclosure",
+        "金融厅",
+        "金融監管",
+        "日本金融"
+      ],
+      "data_content": {
+        "en": [
+          "Banking sector statistics and supervision reports",
+          "Securities and exchange regulation data",
+          "Insurance industry statistics",
+          "EDINET corporate disclosure filings",
+          "Financial institution inspection results",
+          "Anti-money laundering and compliance data",
+          "Financial system stability reports",
+          "Policy and regulatory documents"
+        ],
+        "zh": [
+          "银行业统计和监管报告",
+          "证券和交易所监管数据",
+          "保险行业统计",
+          "EDINET企业信息披露文件",
+          "金融机构检查结果",
+          "反洗钱和合规数据",
+          "金融系统稳定性报告",
+          "政策和监管文件"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/japan/japan-fsa.json"
+    },
+    {
+      "id": "japan-gpif",
+      "name": {
+        "en": "Government Pension Investment Fund",
+        "zh": "日本政府养老投资基金"
+      },
+      "description": {
+        "en": "The Government Pension Investment Fund (GPIF) is the world's largest pension fund, managing Japan's public pension reserves. It publishes detailed investment performance data, asset allocation reports, ESG investment activities, stewardship reports, and research on long-term investment strategies. GPIF's portfolio movements significantly influence global financial markets.",
+        "zh": "日本政府养老投资基金（GPIF）是全球最大的养老基金，管理日本公共养老金储备。发布详细的投资业绩数据、资产配置报告、ESG投资活动、管理责任报告以及长期投资策略研究。GPIF的组合变动对全球金融市场有重大影响。"
+      },
+      "website": "https://www.gpif.go.jp/en/",
+      "data_url": "https://www.gpif.go.jp/en/performance/",
+      "api_url": null,
+      "country": "JP",
+      "authority_level": "government",
+      "domains": [
+        "finance",
+        "pension",
+        "investment",
+        "esg"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "quarterly",
+      "tags": [
+        "Japan",
+        "pension-fund",
+        "GPIF",
+        "sovereign-wealth",
+        "asset-allocation",
+        "ESG",
+        "investment-performance",
+        "public-pension",
+        "年金",
+        "养老基金",
+        "资产配置"
+      ],
+      "data_content": {
+        "en": [
+          "Quarterly and annual investment performance reports",
+          "Asset allocation by domestic/foreign bonds and equities",
+          "Benchmark return comparisons",
+          "ESG activity reports and initiatives",
+          "Stewardship responsibility reports",
+          "Alternative investment portfolio data",
+          "Investment manager selection and evaluation",
+          "Long-term investment strategy research papers"
+        ],
+        "zh": [
+          "季度和年度投资业绩报告",
+          "国内外债券和股票资产配置",
+          "基准收益对比",
+          "ESG活动报告和倡议",
+          "管理责任报告",
+          "另类投资组合数据",
+          "投资管理人选择和评估",
+          "长期投资策略研究论文"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/japan/japan-gpif.json"
+    },
+    {
       "id": "japan-jetro",
       "name": {
         "en": "Japan External Trade Organization",
@@ -14115,6 +14403,72 @@
       },
       "has_api": false,
       "file_path": "countries/asia/japan/japan-mof.json"
+    },
+    {
+      "id": "jpx",
+      "name": {
+        "en": "Japan Exchange Group",
+        "zh": "日本交易所集团"
+      },
+      "description": {
+        "en": "Japan Exchange Group (JPX) operates the Tokyo Stock Exchange (TSE) and Osaka Exchange (OSE), forming one of the world's largest exchange groups. It provides comprehensive market statistics including equity trading data, listed company information, market indices (TOPIX, Nikkei), derivatives statistics, IPO data, and corporate governance reports.",
+        "zh": "日本交易所集团（JPX）运营东京证券交易所（TSE）和大阪交易所（OSE），是全球最大的交易所集团之一。提供全面的市场统计数据，包括股票交易数据、上市公司信息、市场指数（TOPIX、日经）、衍生品统计、IPO数据和公司治理报告。"
+      },
+      "website": "https://www.jpx.co.jp/english/",
+      "data_url": "https://www.jpx.co.jp/english/markets/statistics-equities/index.html",
+      "api_url": null,
+      "country": "JP",
+      "authority_level": "market",
+      "domains": [
+        "finance",
+        "securities",
+        "stock-market",
+        "derivatives"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "Japan",
+        "stock-exchange",
+        "TSE",
+        "Tokyo-Stock-Exchange",
+        "TOPIX",
+        "Nikkei",
+        "equities",
+        "derivatives",
+        "IPO",
+        "market-data",
+        "東京証券取引所",
+        "日本交易所"
+      ],
+      "data_content": {
+        "en": [
+          "Equity market trading statistics (volume, value, turnover)",
+          "Listed company information and filings",
+          "Market indices (TOPIX, JPX-Nikkei Index 400)",
+          "Derivatives trading statistics (futures, options)",
+          "IPO and new listing data",
+          "Corporate governance reports",
+          "Foreign investor trading statistics",
+          "Short selling reports",
+          "Margin trading statistics",
+          "ETF and REIT market data"
+        ],
+        "zh": [
+          "股票市场交易统计（成交量、成交额、换手率）",
+          "上市公司信息和公告文件",
+          "市场指数（TOPIX、JPX日经400指数）",
+          "衍生品交易统计（期货、期权）",
+          "IPO和新上市数据",
+          "公司治理报告",
+          "外国投资者交易统计",
+          "卖空报告",
+          "融资融券统计",
+          "ETF和REIT市场数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/japan/jpx.json"
     },
     {
       "id": "korea-bok",
