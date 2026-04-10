@@ -1,0 +1,81 @@
+{
+  "id": "china-cfeed",
+  "name": {
+    "en": "China Feed Industry Association",
+    "zh": "中国饲料工业协会"
+  },
+  "description": {
+    "en": "The China Feed Industry Association (CFIA) is the national industry organization representing China's animal feed manufacturing, feed additive, and veterinary pharmaceutical sectors, supervised by the Ministry of Agriculture and Rural Affairs. China is the world's second-largest feed producer, with annual output exceeding 300 million tonnes. CFIA publishes monthly production statistics on compound feed, concentrated feed, and premix feed by animal type (poultry, swine, aquaculture, ruminants), as well as feed price indices and raw material (corn, soybean meal, fishmeal) supply-demand balances. Its data is essential for tracking livestock sector dynamics, agricultural input costs, food security assessments, and commodity market analysis in the world's largest producer of pork and farmed fish.",
+    "zh": "中国饲料工业协会（中国饲料协会）是代表中国配合饲料生产、饲料添加剂和兽药行业的全国性行业组织，主管单位为农业农村部。中国是全球第二大饲料生产国，年产量超过3亿吨。协会发布按动物类别（家禽、猪、水产、反刍动物）分类的配合饲料、浓缩饲料和预混合饲料月度产量统计，以及饲料价格指数和原料（玉米、豆粕、鱼粉）供需平衡数据。这些数据是追踪畜牧业动态、农业投入成本、粮食安全评估，以及分析全球最大猪肉和养殖鱼类生产国大宗商品市场的重要依据。"
+  },
+  "website": "https://www.chinafeed.org.cn",
+  "data_url": "https://www.chinafeed.org.cn/hyfx/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "economics",
+    "industry",
+    "food-security"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国饲料工业协会",
+    "CFIA",
+    "China Feed Industry Association",
+    "饲料产量",
+    "feed production",
+    "配合饲料",
+    "compound feed",
+    "浓缩饲料",
+    "concentrated feed",
+    "预混合饲料",
+    "premix feed",
+    "饲料价格",
+    "feed prices",
+    "豆粕",
+    "soybean meal",
+    "玉米",
+    "corn",
+    "鱼粉",
+    "fishmeal",
+    "猪饲料",
+    "swine feed",
+    "禽类饲料",
+    "poultry feed",
+    "水产饲料",
+    "aquaculture feed",
+    "饲料添加剂",
+    "feed additives",
+    "畜牧业",
+    "livestock industry",
+    "农业投入",
+    "agricultural inputs",
+    "粮食安全",
+    "food security"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly feed production by type: output volumes of compound feed, concentrated feed, and premix feed broken down by animal category (poultry, swine, aquaculture, ruminants, other)",
+      "Feed price indices: monthly price trends for major feed products and key raw materials including corn, soybean meal, wheat bran, rapeseed meal, and fishmeal",
+      "Raw material supply-demand balance: monthly assessment of corn and soybean meal availability, import dependency, and price drivers",
+      "Industry enterprise data: annual statistics on number of licensed feed enterprises, production capacity, employment, and output by province",
+      "Feed additive production: annual output of amino acids (lysine, methionine, threonine), vitamins, enzymes, and other feed additives by type",
+      "Aquaculture feed statistics: production volumes segmented by fish species and shrimp/shellfish categories, tracking China's dominant role in global aquaculture",
+      "Monthly production situation reports: narrative analysis of feed industry performance, raw material market conditions, and policy impacts",
+      "Annual China feed industry report: comprehensive review of sector development, capacity changes, technological advances, and regulatory environment"
+    ],
+    "zh": [
+      "月度饲料分类产量：按动物类别（家禽、猪、水产、反刍动物、其他）细分的配合饲料、浓缩饲料和预混合饲料产量",
+      "饲料价格指数：主要饲料产品及玉米、豆粕、麦麸、菜粕、鱼粉等主要原料月度价格走势",
+      "原料供需平衡：玉米和豆粕月度供应量、进口依存度及价格驱动因素评估",
+      "行业企业数据：按省份分类的持证饲料企业数量、生产能力、从业人员及产量年度统计",
+      "饲料添加剂产量：氨基酸（赖氨酸、蛋氨酸、苏氨酸）、维生素、酶制剂等各类添加剂年度产量",
+      "水产饲料统计：按鱼类品种和虾贝类别细分的产量，追踪中国在全球水产养殖中的主导地位",
+      "月度生产形势报告：饲料行业运行、原料市场行情及政策影响的叙述性分析",
+      "中国饲料工业年度报告：行业发展、产能变化、技术进步和监管环境综合述评"
+    ]
+  }
+}
