@@ -1,0 +1,78 @@
+{
+  "id": "china-cgcc",
+  "name": {
+    "en": "China General Chamber of Commerce",
+    "zh": "中国商业联合会"
+  },
+  "description": {
+    "en": "The China General Chamber of Commerce (CGCC), also known as the China Commercial Federation, is the national industry organization representing China's commercial and retail sector, supervised by the Ministry of Commerce. China is the world's second-largest retail market, with total retail sales of consumer goods exceeding 47 trillion yuan annually, and is rapidly approaching the United States as the world's largest consumer market. CGCC represents department stores, supermarkets, specialty retailers, wholesale markets, and modern logistics operators, covering both traditional brick-and-mortar and integrated online-offline retail formats. The chamber publishes the China Retail Industry Prosperity Index (中国零售业景气指数), which provides monthly survey-based sentiment data on sales performance, inventory levels, employment trends, and business confidence across the retail sector. CGCC also releases annual retail industry development reports, consumer spending trend analysis, and data on the transformation of China's commercial districts and shopping center ecosystems. Its research on the integration of online and offline retail (新零售 / New Retail) is widely cited in studies of China's consumer economy and digital commerce evolution.",
+    "zh": "中国商业联合会（中国商联）是代表中国商业零售行业的全国性行业组织，主管单位为商务部。中国是全球第二大零售市场，社会消费品零售总额年超47万亿元，正快速向全球最大消费市场迈进。商联会员涵盖百货商场、超市、专卖店、批发市场和现代物流运营商，覆盖传统实体和线上线下融合零售业态。商联发布中国零售业景气指数，基于月度调查提供零售行业销售业绩、库存水平、从业人员趋势和企业信心等情绪数据，同时发布零售行业年度发展报告、消费趋势分析，以及商业街区和购物中心生态系统演变数据。商联关于线上线下融合（新零售）的研究，在中国消费经济和数字商业演进研究领域被广泛引用。"
+  },
+  "website": "https://www.cgcc.org.cn/",
+  "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "consumer",
+    "industry",
+    "trade"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国商业联合会",
+    "CGCC",
+    "China General Chamber of Commerce",
+    "China Commercial Federation",
+    "零售业",
+    "retail industry",
+    "中国零售业景气指数",
+    "China Retail Industry Prosperity Index",
+    "社会消费品零售总额",
+    "total retail sales of consumer goods",
+    "消费市场",
+    "consumer market",
+    "百货商场",
+    "department stores",
+    "超市",
+    "supermarkets",
+    "购物中心",
+    "shopping centers",
+    "新零售",
+    "new retail",
+    "线上线下融合",
+    "online-offline integration",
+    "批发市场",
+    "wholesale markets",
+    "商业地产",
+    "commercial real estate",
+    "消费升级",
+    "consumption upgrade",
+    "商业景气",
+    "commercial prosperity"
+  ],
+  "data_content": {
+    "en": [
+      "China Retail Industry Prosperity Index: monthly survey-based composite indicator measuring sales performance, order volumes, inventory levels, employment conditions, and forward-looking business confidence across retail sub-sectors",
+      "Annual retail market report: comprehensive overview of China's commercial and retail sector performance, consumer spending patterns, channel shift dynamics, and competitive landscape",
+      "Department store and shopping center data: operating metrics including footfall, tenant mix, vacancy rates, and average transaction values for China's major commercial real estate formats",
+      "Supermarket and hypermarket statistics: sales volumes, SKU turnover, fresh food penetration, and supply chain efficiency for grocery retail chains",
+      "Wholesale market monitoring: commodity prices, transaction volumes, and operational data from China's major agricultural and industrial wholesale market hubs",
+      "Online-offline integration (New Retail): tracking the hybridization of physical and digital retail formats, including click-and-collect adoption, live commerce penetration, and private label growth",
+      "Consumer spending trend analysis: purchasing power changes, discretionary vs. essential spending ratios, regional consumption disparities, and emerging consumer segments",
+      "Commercial district health index: foot traffic, vacancy, new opening, and closure data for major commercial street zones and city-center retail districts across China"
+    ],
+    "zh": [
+      "中国零售业景气指数：月度综合调查指标，衡量零售各子行业的销售业绩、订单量、库存水平、就业状况和前瞻性经营信心",
+      "零售市场年度报告：中国商业零售行业运行全面述评，涵盖消费支出格局、渠道转移动态和竞争格局",
+      "百货商场和购物中心数据：客流量、租户结构、空置率和主要商业地产业态的平均交易价值等经营指标",
+      "超市和大型卖场统计：连锁超市的销售量、SKU周转率、生鲜渗透率和供应链效率",
+      "批发市场监测：中国主要农业和工业批发市场的商品价格、成交量和运营数据",
+      "线上线下融合（新零售）：实体与数字零售业态融合追踪，包括到店自提、直播电商渗透率和自有品牌增长",
+      "消费趋势分析：购买力变化、可选与必选消费占比、区域消费差异及新兴消费群体",
+      "商业街区健康指数：中国主要商业街区和城市核心商业区的客流量、空置率、新开业和关闭数据"
+    ]
+  }
+}
