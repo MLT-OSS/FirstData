@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T02:26:13.930085+00:00",
-    "total_sources": 415,
+    "generated_at": "2026-04-10T06:31:10.615890+00:00",
+    "total_sources": 417,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3484,6 +3484,86 @@
       "file_path": "china/economy/macro/ndrc.json"
     },
     {
+      "id": "china-cgcc",
+      "name": {
+        "en": "China General Chamber of Commerce",
+        "zh": "中国商业联合会"
+      },
+      "description": {
+        "en": "The China General Chamber of Commerce (CGCC), also known as the China Commercial Federation, is the national industry organization representing China's commercial and retail sector, supervised by the Ministry of Commerce. China is the world's second-largest retail market, with total retail sales of consumer goods exceeding 47 trillion yuan annually, and is rapidly approaching the United States as the world's largest consumer market. CGCC represents department stores, supermarkets, specialty retailers, wholesale markets, and modern logistics operators, covering both traditional brick-and-mortar and integrated online-offline retail formats. The chamber publishes the China Retail Industry Prosperity Index (中国零售业景气指数), which provides monthly survey-based sentiment data on sales performance, inventory levels, employment trends, and business confidence across the retail sector. CGCC also releases annual retail industry development reports, consumer spending trend analysis, and data on the transformation of China's commercial districts and shopping center ecosystems. Its research on the integration of online and offline retail (新零售 / New Retail) is widely cited in studies of China's consumer economy and digital commerce evolution.",
+        "zh": "中国商业联合会（中国商联）是代表中国商业零售行业的全国性行业组织，主管单位为商务部。中国是全球第二大零售市场，社会消费品零售总额年超47万亿元，正快速向全球最大消费市场迈进。商联会员涵盖百货商场、超市、专卖店、批发市场和现代物流运营商，覆盖传统实体和线上线下融合零售业态。商联发布中国零售业景气指数，基于月度调查提供零售行业销售业绩、库存水平、从业人员趋势和企业信心等情绪数据，同时发布零售行业年度发展报告、消费趋势分析，以及商业街区和购物中心生态系统演变数据。商联关于线上线下融合（新零售）的研究，在中国消费经济和数字商业演进研究领域被广泛引用。"
+      },
+      "website": "https://www.cgcc.org.cn/",
+      "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "consumer",
+        "industry",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国商业联合会",
+        "CGCC",
+        "China General Chamber of Commerce",
+        "China Commercial Federation",
+        "零售业",
+        "retail industry",
+        "中国零售业景气指数",
+        "China Retail Industry Prosperity Index",
+        "社会消费品零售总额",
+        "total retail sales of consumer goods",
+        "消费市场",
+        "consumer market",
+        "百货商场",
+        "department stores",
+        "超市",
+        "supermarkets",
+        "购物中心",
+        "shopping centers",
+        "新零售",
+        "new retail",
+        "线上线下融合",
+        "online-offline integration",
+        "批发市场",
+        "wholesale markets",
+        "商业地产",
+        "commercial real estate",
+        "消费升级",
+        "consumption upgrade",
+        "商业景气",
+        "commercial prosperity"
+      ],
+      "data_content": {
+        "en": [
+          "China Retail Industry Prosperity Index: monthly survey-based composite indicator measuring sales performance, order volumes, inventory levels, employment conditions, and forward-looking business confidence across retail sub-sectors",
+          "Annual retail market report: comprehensive overview of China's commercial and retail sector performance, consumer spending patterns, channel shift dynamics, and competitive landscape",
+          "Department store and shopping center data: operating metrics including footfall, tenant mix, vacancy rates, and average transaction values for China's major commercial real estate formats",
+          "Supermarket and hypermarket statistics: sales volumes, SKU turnover, fresh food penetration, and supply chain efficiency for grocery retail chains",
+          "Wholesale market monitoring: commodity prices, transaction volumes, and operational data from China's major agricultural and industrial wholesale market hubs",
+          "Online-offline integration (New Retail): tracking the hybridization of physical and digital retail formats, including click-and-collect adoption, live commerce penetration, and private label growth",
+          "Consumer spending trend analysis: purchasing power changes, discretionary vs. essential spending ratios, regional consumption disparities, and emerging consumer segments",
+          "Commercial district health index: foot traffic, vacancy, new opening, and closure data for major commercial street zones and city-center retail districts across China"
+        ],
+        "zh": [
+          "中国零售业景气指数：月度综合调查指标，衡量零售各子行业的销售业绩、订单量、库存水平、就业状况和前瞻性经营信心",
+          "零售市场年度报告：中国商业零售行业运行全面述评，涵盖消费支出格局、渠道转移动态和竞争格局",
+          "百货商场和购物中心数据：客流量、租户结构、空置率和主要商业地产业态的平均交易价值等经营指标",
+          "超市和大型卖场统计：连锁超市的销售量、SKU周转率、生鲜渗透率和供应链效率",
+          "批发市场监测：中国主要农业和工业批发市场的商品价格、成交量和运营数据",
+          "线上线下融合（新零售）：实体与数字零售业态融合追踪，包括到店自提、直播电商渗透率和自有品牌增长",
+          "消费趋势分析：购买力变化、可选与必选消费占比、区域消费差异及新兴消费群体",
+          "商业街区健康指数：中国主要商业街区和城市核心商业区的客流量、空置率、新开业和关闭数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/market/china-cgcc.json"
+    },
+    {
       "id": "china-samr",
       "name": {
         "en": "State Administration for Market Regulation",
@@ -5899,6 +5979,86 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-zj-stats.json"
+    },
+    {
+      "id": "china-cccme",
+      "name": {
+        "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
+        "zh": "中国机电产品进出口商会"
+      },
+      "description": {
+        "en": "The China Chamber of Commerce for Import and Export of Machinery and Electronic Products (CCCME) is the largest and most influential trade association in China's foreign trade sector, representing over 12,000 member enterprises engaged in the import and export of mechanical and electrical products. Supervised by the Ministry of Commerce, CCCME covers products ranging from power equipment, industrial machinery, transport vehicles, and electronic components to consumer electronics and medical devices. China is the world's largest exporter of machinery and electronic products, which collectively account for nearly 60% of total merchandise exports. CCCME publishes authoritative monthly and annual trade statistics on export volumes and values by product category and destination market, import data, and bilateral trade analysis. The association operates trade remedy research, hosts major trade exhibitions, and serves as a key coordinator in Sino-foreign trade dispute mechanisms. CCCME's statistical reports are widely referenced by industry analysts, customs authorities, and international trade economists tracking China's manufacturing and export competitiveness.",
+        "zh": "中国机电产品进出口商会（机电商会）是中国对外贸易领域规模最大、影响力最强的行业组织，会员企业逾12000家，涵盖电力设备、工业机械、运输工具、电子元器件、消费电子及医疗器械等机电产品的进出口企业，主管单位为商务部。中国是全球最大的机电产品出口国，机电产品约占中国商品出口总额的近60%。商会发布各品类机电产品出口量、出口额、进口数据及双边贸易分析等权威月度和年度统计，并开展贸易救济研究、主办大型展会、参与中外贸易争端协调机制。商会统计报告被行业分析师、海关机构及追踪中国制造业和出口竞争力的国际贸易经济学家广泛引用。"
+      },
+      "website": "https://www.cccme.org.cn/",
+      "data_url": "https://www.cccme.org.cn/shop/cccme-stat/index.aspx",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "trade",
+        "industry",
+        "economics",
+        "technology"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国机电产品进出口商会",
+        "CCCME",
+        "机电产品",
+        "mechanical and electrical products",
+        "机电出口",
+        "machinery exports",
+        "电子产品出口",
+        "electronics exports",
+        "中国出口",
+        "China exports",
+        "贸易统计",
+        "trade statistics",
+        "进出口商会",
+        "import export chamber",
+        "电力设备",
+        "power equipment",
+        "工业机械",
+        "industrial machinery",
+        "消费电子",
+        "consumer electronics",
+        "医疗器械",
+        "medical devices",
+        "贸易救济",
+        "trade remedy",
+        "双边贸易",
+        "bilateral trade",
+        "贸易摩擦",
+        "trade friction",
+        "出口竞争力",
+        "export competitiveness"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly export statistics: machinery and electronic product export volumes and values by 8-digit HS code category, including power generation equipment, industrial machines, automobiles, ships, and consumer electronics",
+          "Import data: monthly machinery and electronic product import volumes and values, tracking China's technology acquisition and supply chain integration",
+          "Top exporting enterprises: rankings of leading export enterprises by product category and destination, reflecting concentration in China's manufacturing sector",
+          "Destination market analysis: bilateral trade flows and market share analysis for major trading partners including the US, EU, ASEAN, and emerging markets",
+          "Trade remedy monitoring: anti-dumping, countervailing duty, and safeguard investigations involving Chinese machinery and electronics exports in key markets",
+          "Annual China Machinery and Electronics Trade Report: comprehensive review of annual export performance, market share changes, product mix shifts, and policy environment",
+          "Exhibition and fair data: visitor and transaction statistics from major trade events including the China Import and Export Fair (Canton Fair)",
+          "Policy analysis: reports on trade policy developments, tariff changes, and regulatory updates affecting China's machinery and electronics trade"
+        ],
+        "zh": [
+          "月度出口统计：按8位HS编码分类的机电产品出口量和出口额，包括发电设备、工业机械、汽车、船舶和消费电子",
+          "进口数据：月度机电产品进口量和进口额，追踪中国的技术引进和供应链整合",
+          "出口企业排名：按产品类别和目的地排列的主要出口企业，反映中国制造业的集中度",
+          "目的市场分析：与美国、欧盟、东盟及新兴市场等主要贸易伙伴的双边贸易流量和市场份额分析",
+          "贸易救济监测：主要市场针对中国机电产品出口的反倾销、反补贴税和保障措施调查",
+          "中国机电产品进出口年度报告：年度出口业绩、市场份额变化、产品结构调整和政策环境综合述评",
+          "展会数据：广交会等重大贸易展会的参展规模和成交统计",
+          "政策分析：影响中国机电产品贸易的贸易政策动态、关税变化及法规更新报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/trade/china-cccme.json"
     },
     {
       "id": "china-ccpit",

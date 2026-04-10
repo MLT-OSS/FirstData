@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T02:26:13.930085+00:00",
+    "generated_at": "2026-04-10T06:31:10.615890+00:00",
     "total_domains": 711,
-    "total_sources": 415,
+    "total_sources": 417,
     "version": "2.0"
   },
   "domains": {
@@ -3812,6 +3812,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cgcc",
+        "name": {
+          "en": "China General Chamber of Commerce",
+          "zh": "中国商业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-cgcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-data-gov",
         "name": {
           "en": "Data.gov",
@@ -6842,6 +6854,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cgcc",
+        "name": {
+          "en": "China General Chamber of Commerce",
+          "zh": "中国商业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-cgcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-samr",
         "name": {
           "en": "State Administration for Market Regulation",
@@ -7225,6 +7249,18 @@
         "has_api": false,
         "file_path": "china/economy/provincial/china-zj-stats.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-cccme",
+        "name": {
+          "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
+          "zh": "中国机电产品进出口商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cccme.org.cn/shop/cccme-stat/index.aspx",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-cccme.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-ccpit",
@@ -16594,6 +16630,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cgcc",
+        "name": {
+          "en": "China General Chamber of Commerce",
+          "zh": "中国商业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-cgcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-samr",
         "name": {
           "en": "State Administration for Market Regulation",
@@ -16701,6 +16749,18 @@
         "has_api": false,
         "file_path": "china/economy/provincial/china-zj-stats.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-cccme",
+        "name": {
+          "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
+          "zh": "中国机电产品进出口商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cccme.org.cn/shop/cccme-stat/index.aspx",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-cccme.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-cflp",
@@ -25944,6 +26004,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-cccme",
+        "name": {
+          "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
+          "zh": "中国机电产品进出口商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cccme.org.cn/shop/cccme-stat/index.aspx",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-cccme.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ncac",
         "name": {
           "en": "National Copyright Administration of China",
@@ -26612,6 +26684,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cgcc",
+        "name": {
+          "en": "China General Chamber of Commerce",
+          "zh": "中国商业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-cgcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-samr",
         "name": {
           "en": "State Administration for Market Regulation",
@@ -26707,6 +26791,18 @@
         "has_api": false,
         "file_path": "china/economy/provincial/china-tj-stats.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-cccme",
+        "name": {
+          "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
+          "zh": "中国机电产品进出口商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cccme.org.cn/shop/cccme-stat/index.aspx",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-cccme.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-ccpit",

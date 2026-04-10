@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T02:26:13.930085+00:00",
+    "generated_at": "2026-04-10T06:31:10.615890+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 415,
+    "total_sources": 417,
     "sources_with_api": 151,
     "last_updated": "2026-04-10"
   },
@@ -12,13 +12,13 @@
     "research": 41,
     "international": 74,
     "government": 236,
-    "other": 27,
+    "other": 29,
     "market": 21,
     "commercial": 16
   },
   "by_geographic_scope": {
     "global": 100,
-    "national": 258,
+    "national": 260,
     "regional": 26,
     "subnational": 31
   },
@@ -27,25 +27,25 @@
     "daily": 57,
     "weekly": 9,
     "quarterly": 40,
-    "monthly": 158,
+    "monthly": 160,
     "annual": 85,
     "real-time": 12
   },
   "by_domain": {
-    "economics": 189,
-    "trade": 95,
+    "economics": 191,
+    "trade": 97,
     "social": 84,
     "demographics": 75,
     "finance": 66,
     "agriculture": 66,
     "environment": 65,
-    "industry": 53,
+    "industry": 55,
     "statistics": 53,
     "health": 46,
     "education": 45,
     "employment": 42,
     "energy": 36,
-    "technology": 30,
+    "technology": 31,
     "governance": 29,
     "infrastructure": 22,
     "prices": 22,
@@ -119,6 +119,7 @@
     "atmosphere": 3,
     "mortality": 3,
     "economic development": 3,
+    "consumer": 3,
     "commerce": 3,
     "taxation": 3,
     "public-health": 3,
@@ -165,7 +166,6 @@
     "engineering": 2,
     "food-security": 2,
     "aviation": 2,
-    "consumer": 2,
     "tourism": 2,
     "fiscal-policy": 2,
     "international": 2,
