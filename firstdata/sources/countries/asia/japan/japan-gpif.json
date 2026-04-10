@@ -1,0 +1,59 @@
+{
+  "id": "japan-gpif",
+  "name": {
+    "en": "Government Pension Investment Fund",
+    "zh": "日本政府养老投资基金"
+  },
+  "description": {
+    "en": "The Government Pension Investment Fund (GPIF) is the world's largest pension fund, managing Japan's public pension reserves. It publishes detailed investment performance data, asset allocation reports, ESG investment activities, stewardship reports, and research on long-term investment strategies. GPIF's portfolio movements significantly influence global financial markets.",
+    "zh": "日本政府养老投资基金（GPIF）是全球最大的养老基金，管理日本公共养老金储备。发布详细的投资业绩数据、资产配置报告、ESG投资活动、管理责任报告以及长期投资策略研究。GPIF的组合变动对全球金融市场有重大影响。"
+  },
+  "website": "https://www.gpif.go.jp/en/",
+  "data_url": "https://www.gpif.go.jp/en/performance/",
+  "api_url": null,
+  "country": "JP",
+  "authority_level": "government",
+  "domains": [
+    "finance",
+    "pension",
+    "investment",
+    "esg"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "quarterly",
+  "tags": [
+    "Japan",
+    "pension-fund",
+    "GPIF",
+    "sovereign-wealth",
+    "asset-allocation",
+    "ESG",
+    "investment-performance",
+    "public-pension",
+    "年金",
+    "养老基金",
+    "资产配置"
+  ],
+  "data_content": {
+    "en": [
+      "Quarterly and annual investment performance reports",
+      "Asset allocation by domestic/foreign bonds and equities",
+      "Benchmark return comparisons",
+      "ESG activity reports and initiatives",
+      "Stewardship responsibility reports",
+      "Alternative investment portfolio data",
+      "Investment manager selection and evaluation",
+      "Long-term investment strategy research papers"
+    ],
+    "zh": [
+      "季度和年度投资业绩报告",
+      "国内外债券和股票资产配置",
+      "基准收益对比",
+      "ESG活动报告和倡议",
+      "管理责任报告",
+      "另类投资组合数据",
+      "投资管理人选择和评估",
+      "长期投资策略研究论文"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "japan-fsa",
+  "name": {
+    "en": "Japan Financial Services Agency",
+    "zh": "日本金融厅"
+  },
+  "description": {
+    "en": "The Financial Services Agency (FSA) is the Japanese government body responsible for overseeing banking, securities, exchange, and insurance sectors. It publishes regulatory data, financial institution statistics, corporate disclosure filings (EDINET), inspection results, and policy documents essential for understanding Japan's financial regulatory landscape.",
+    "zh": "日本金融厅（FSA）是负责监管日本银行、证券、交易所和保险行业的政府机构。发布监管数据、金融机构统计、企业信息披露文件（EDINET）、检查结果和政策文件，是了解日本金融监管环境的关键数据源。"
+  },
+  "website": "https://www.fsa.go.jp/en/",
+  "data_url": "https://www.fsa.go.jp/en/refer/index.html",
+  "api_url": null,
+  "country": "JP",
+  "authority_level": "government",
+  "domains": [
+    "finance",
+    "banking",
+    "securities",
+    "insurance",
+    "regulation"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "Japan",
+    "financial-regulation",
+    "banking-supervision",
+    "securities",
+    "insurance",
+    "EDINET",
+    "corporate-disclosure",
+    "金融厅",
+    "金融監管",
+    "日本金融"
+  ],
+  "data_content": {
+    "en": [
+      "Banking sector statistics and supervision reports",
+      "Securities and exchange regulation data",
+      "Insurance industry statistics",
+      "EDINET corporate disclosure filings",
+      "Financial institution inspection results",
+      "Anti-money laundering and compliance data",
+      "Financial system stability reports",
+      "Policy and regulatory documents"
+    ],
+    "zh": [
+      "银行业统计和监管报告",
+      "证券和交易所监管数据",
+      "保险行业统计",
+      "EDINET企业信息披露文件",
+      "金融机构检查结果",
+      "反洗钱和合规数据",
+      "金融系统稳定性报告",
+      "政策和监管文件"
+    ]
+  }
+}
