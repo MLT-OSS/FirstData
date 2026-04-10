@@ -1,0 +1,64 @@
+{
+  "id": "jpx",
+  "name": {
+    "en": "Japan Exchange Group",
+    "zh": "日本交易所集团"
+  },
+  "description": {
+    "en": "Japan Exchange Group (JPX) operates the Tokyo Stock Exchange (TSE) and Osaka Exchange (OSE), forming one of the world's largest exchange groups. It provides comprehensive market statistics including equity trading data, listed company information, market indices (TOPIX, Nikkei), derivatives statistics, IPO data, and corporate governance reports.",
+    "zh": "日本交易所集团（JPX）运营东京证券交易所（TSE）和大阪交易所（OSE），是全球最大的交易所集团之一。提供全面的市场统计数据，包括股票交易数据、上市公司信息、市场指数（TOPIX、日经）、衍生品统计、IPO数据和公司治理报告。"
+  },
+  "website": "https://www.jpx.co.jp/english/",
+  "data_url": "https://www.jpx.co.jp/english/markets/statistics-equities/index.html",
+  "api_url": null,
+  "country": "JP",
+  "authority_level": "market",
+  "domains": [
+    "finance",
+    "securities",
+    "stock-market",
+    "derivatives"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "Japan",
+    "stock-exchange",
+    "TSE",
+    "Tokyo-Stock-Exchange",
+    "TOPIX",
+    "Nikkei",
+    "equities",
+    "derivatives",
+    "IPO",
+    "market-data",
+    "東京証券取引所",
+    "日本交易所"
+  ],
+  "data_content": {
+    "en": [
+      "Equity market trading statistics (volume, value, turnover)",
+      "Listed company information and filings",
+      "Market indices (TOPIX, JPX-Nikkei Index 400)",
+      "Derivatives trading statistics (futures, options)",
+      "IPO and new listing data",
+      "Corporate governance reports",
+      "Foreign investor trading statistics",
+      "Short selling reports",
+      "Margin trading statistics",
+      "ETF and REIT market data"
+    ],
+    "zh": [
+      "股票市场交易统计（成交量、成交额、换手率）",
+      "上市公司信息和公告文件",
+      "市场指数（TOPIX、JPX日经400指数）",
+      "衍生品交易统计（期货、期权）",
+      "IPO和新上市数据",
+      "公司治理报告",
+      "外国投资者交易统计",
+      "卖空报告",
+      "融资融券统计",
+      "ETF和REIT市场数据"
+    ]
+  }
+}

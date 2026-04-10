@@ -1,0 +1,81 @@
+{
+  "id": "china-cada",
+  "name": {
+    "en": "China Automobile Dealers Association",
+    "zh": "中国汽车流通协会"
+  },
+  "description": {
+    "en": "The China Automobile Dealers Association (CADA) is the national trade organization representing China's automobile dealerships, used-car dealers, and automotive retail sector, supervised by the Ministry of Commerce. China is the world's largest auto market, with annual retail sales exceeding 25 million vehicles. CADA operates a comprehensive statistical system tracking monthly new-vehicle retail sales by brand, segment, and region through its network of over 10,000 dealer members. The association publishes the CADA Dealer Confidence Index (DCI) and the China Used Car Market Report, providing authoritative demand-side data that complements supply-side data from the China Association of Automobile Manufacturers (CAAM). CADA also monitors dealer profitability, inventory levels, financing penetration rates, and consumer satisfaction, making it essential for automotive industry analysis, investment research, and consumer trend studies.",
+    "zh": "中国汽车流通协会（中汽协流通）是代表中国整车经销商、二手车经销商和汽车零售行业的全国性行业组织，主管单位为商务部。中国是全球最大的汽车市场，年零售销量超过2500万辆。协会通过10000余家经销商会员网络，构建了完整的统计体系，按品牌、细分市场和地区追踪月度新车零售销量。协会发布经销商信心指数（DCI）和中国二手车市场报告，提供权威的需求侧数据，与中国汽车工业协会（中汽协）的供给侧数据形成互补。协会还监测经销商盈利能力、库存系数、金融服务渗透率和消费者满意度，是汽车行业分析、投资研究和消费趋势研究的重要数据来源。"
+  },
+  "website": "http://www.cada.cn",
+  "data_url": "http://data.cada.cn/main/overview.do",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "trade",
+    "consumer"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国汽车流通协会",
+    "CADA",
+    "China Automobile Dealers Association",
+    "汽车零售",
+    "automobile retail sales",
+    "新车销量",
+    "new vehicle sales",
+    "二手车",
+    "used car market",
+    "经销商信心指数",
+    "Dealer Confidence Index",
+    "DCI",
+    "库存系数",
+    "dealer inventory",
+    "汽车金融",
+    "auto financing",
+    "消费者满意度",
+    "consumer satisfaction",
+    "乘用车",
+    "passenger vehicles",
+    "商用车",
+    "commercial vehicles",
+    "新能源汽车",
+    "new energy vehicles",
+    "NEV",
+    "品牌销量",
+    "brand sales",
+    "汽车市场",
+    "auto market",
+    "经销商盈利",
+    "dealer profitability"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly new vehicle retail sales: passenger car and commercial vehicle retail volumes by brand, model segment (sedan, SUV, MPV), and province/city",
+      "CADA Dealer Confidence Index (DCI): monthly survey-based sentiment indicator covering dealer expectations for sales, inventory, and profitability across vehicle segments",
+      "Used car market statistics: monthly transaction volumes, average transaction prices, and regional distribution of used vehicle sales in China",
+      "Dealer inventory index: monthly days-of-supply and stock-to-sales ratio by brand and dealership tier, indicating supply-demand balance in the retail channel",
+      "Auto financing penetration: monthly share of vehicle purchases financed, average loan-to-value ratios, and financing product mix by brand tier",
+      "Consumer satisfaction survey: annual JD Power-style satisfaction rankings for dealership sales, service quality, and after-sales experience by brand",
+      "Dealership financial health: quarterly survey of dealer profitability, revenue per unit, and profit margin by brand authorization tier",
+      "New energy vehicle retail tracking: monthly battery electric vehicle (BEV) and plug-in hybrid (PHEV) retail sales with charging infrastructure data",
+      "Annual China auto dealer blue book: comprehensive review of retail market trends, dealer network changes, and outlook for the coming year"
+    ],
+    "zh": [
+      "月度新车零售销量：按品牌、车型细分（轿车、SUV、MPV）和省市分类的乘用车和商用车零售量",
+      "经销商信心指数（DCI）：月度调查型情绪指标，涵盖各细分市场销量预期、库存及盈利能力",
+      "二手车市场统计：中国二手车月度交易量、平均成交价格和区域分布",
+      "库存系数：按品牌和经销商层级的月度库存销售天数和库存销售比，反映零售渠道供需平衡状况",
+      "汽车金融渗透率：月度融资购车占比、平均贷款价值比和按品牌层级的金融产品结构",
+      "消费者满意度调查：各品牌经销商销售、服务质量和售后体验的年度JD Power式满意度排名",
+      "经销商财务健康状况：按品牌授权层级的经销商盈利能力、单车收益和利润率季度调查",
+      "新能源汽车零售追踪：纯电动汽车（BEV）和插电混合动力汽车（PHEV）月度零售量及充电基础设施数据",
+      "中国汽车流通蓝皮书：年度零售市场趋势、经销商网络变化及下一年度展望综合述评"
+    ]
+  }
+}
