@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T02:26:54.573838+00:00",
-    "total_domains": 711,
-    "total_sources": 419,
+    "generated_at": "2026-04-11T06:07:46.152381+00:00",
+    "total_domains": 712,
+    "total_sources": 425,
     "version": "2.0"
   },
   "domains": {
@@ -4696,6 +4696,30 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-guangzhou-stats",
+        "name": {
+          "en": "Guangzhou Bureau of Statistics",
+          "zh": "广州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.gz.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-guangzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-shenzhen-stats",
+        "name": {
+          "en": "Shenzhen Bureau of Statistics",
+          "zh": "深圳市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-shenzhen-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-cdpf",
         "name": {
           "en": "China Disabled Persons' Federation",
@@ -4780,6 +4804,18 @@
         "data_url": "https://www.stats.gov.cn/sj/",
         "has_api": true,
         "file_path": "china/national/nbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cass",
+        "name": {
+          "en": "Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cass.cn/zkcg/",
+        "has_api": false,
+        "file_path": "china/research/china-cass.json",
         "geographic_scope": "national"
       },
       {
@@ -6683,6 +6719,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-ccia",
+        "name": {
+          "en": "China Construction Industry Association",
+          "zh": "中国建筑业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
+        "has_api": false,
+        "file_path": "china/construction/china-ccia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cfeed",
         "name": {
           "en": "China Feed Industry Association",
@@ -6975,6 +7023,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-guangzhou-stats",
+        "name": {
+          "en": "Guangzhou Bureau of Statistics",
+          "zh": "广州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.gz.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-guangzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-gx-stats",
         "name": {
           "en": "Guangxi Bureau of Statistics",
@@ -7188,6 +7248,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-shenzhen-stats",
+        "name": {
+          "en": "Shenzhen Bureau of Statistics",
+          "zh": "深圳市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-shenzhen-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -7533,6 +7605,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cass",
+        "name": {
+          "en": "Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cass.cn/zkcg/",
+        "has_api": false,
+        "file_path": "china/research/china-cass.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-drc",
         "name": {
           "en": "Development Research Center of the State Council of China",
@@ -7542,6 +7626,18 @@
         "data_url": "https://www.drc.gov.cn/yjcg.htm",
         "has_api": false,
         "file_path": "china/research/china-drc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Coal Association",
+          "zh": "中国煤炭工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=118",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnca.json",
         "geographic_scope": "national"
       },
       {
@@ -7590,6 +7686,18 @@
         "data_url": "http://www.caam.org.cn/chn/4/cate_39/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-caam.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cec",
+        "name": {
+          "en": "China Electricity Council",
+          "zh": "中国电力企业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cec.json",
         "geographic_scope": "national"
       },
       {
@@ -10442,6 +10550,30 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Coal Association",
+          "zh": "中国煤炭工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=118",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnca.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cec",
+        "name": {
+          "en": "China Electricity Council",
+          "zh": "中国电力企业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cec.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cpcif",
         "name": {
           "en": "China Petroleum and Chemical Industry Federation",
@@ -11099,6 +11231,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Coal Association",
+          "zh": "中国煤炭工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=118",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnca.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mnr-minerals",
         "name": {
           "en": "Ministry of Natural Resources - Mineral Resources Data",
@@ -11156,6 +11300,18 @@
         "data_url": "https://www.cnsa.gov.cn/n6758823/index.html",
         "has_api": false,
         "file_path": "china/technology/china-cnsa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cec",
+        "name": {
+          "en": "China Electricity Council",
+          "zh": "中国电力企业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cec.json",
         "geographic_scope": "national"
       },
       {
@@ -16570,6 +16726,18 @@
     ],
     "industry": [
       {
+        "id": "china-ccia",
+        "name": {
+          "en": "China Construction Industry Association",
+          "zh": "中国建筑业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
+        "has_api": false,
+        "file_path": "china/construction/china-ccia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cfeed",
         "name": {
           "en": "China Feed Industry Association",
@@ -16860,6 +17028,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Coal Association",
+          "zh": "中国煤炭工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=118",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cnca.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnia",
         "name": {
           "en": "China Nonferrous Metals Industry Association",
@@ -16905,6 +17085,18 @@
         "data_url": "http://www.caamm.org.cn/member/qytj.jspx",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-caamm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cec",
+        "name": {
+          "en": "China Electricity Council",
+          "zh": "中国电力企业联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cec.json",
         "geographic_scope": "national"
       },
       {
@@ -17476,6 +17668,18 @@
         "has_api": false,
         "file_path": "academic/social/afrobarometer.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-ccia",
+        "name": {
+          "en": "China Construction Industry Association",
+          "zh": "中国建筑业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
+        "has_api": false,
+        "file_path": "china/construction/china-ccia.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-cansi",
@@ -21542,6 +21746,20 @@
         "geographic_scope": "regional"
       }
     ],
+    "politics": [
+      {
+        "id": "china-cass",
+        "name": {
+          "en": "Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cass.cn/zkcg/",
+        "has_api": false,
+        "file_path": "china/research/china-cass.json",
+        "geographic_scope": "national"
+      }
+    ],
     "population": [
       {
         "id": "dhs",
@@ -22902,6 +23120,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cass",
+        "name": {
+          "en": "Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cass.cn/zkcg/",
+        "has_api": false,
+        "file_path": "china/research/china-cass.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cast",
         "name": {
           "en": "China Association for Science and Technology",
@@ -23728,6 +23958,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-guangzhou-stats",
+        "name": {
+          "en": "Guangzhou Bureau of Statistics",
+          "zh": "广州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.gz.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-guangzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-gx-stats",
         "name": {
           "en": "Guangxi Bureau of Statistics",
@@ -24184,6 +24426,18 @@
         "data_url": "https://www.stats.gov.cn/sj/",
         "has_api": true,
         "file_path": "china/national/nbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cass",
+        "name": {
+          "en": "Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cass.cn/zkcg/",
+        "has_api": false,
+        "file_path": "china/research/china-cass.json",
         "geographic_scope": "national"
       },
       {
@@ -25114,6 +25368,18 @@
     ],
     "statistics": [
       {
+        "id": "china-ccia",
+        "name": {
+          "en": "China Construction Industry Association",
+          "zh": "中国建筑业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
+        "has_api": false,
+        "file_path": "china/construction/china-ccia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-moa",
         "name": {
           "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
@@ -25244,6 +25510,18 @@
         "data_url": "https://tjj.gansu.gov.cn/tjj/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-gs-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-guangzhou-stats",
+        "name": {
+          "en": "Guangzhou Bureau of Statistics",
+          "zh": "广州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.gz.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-guangzhou-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -25460,6 +25738,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-shenzhen-stats",
+        "name": {
+          "en": "Shenzhen Bureau of Statistics",
+          "zh": "深圳市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-shenzhen-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -26073,6 +26363,18 @@
         "data_url": "https://stjj.guizhou.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-gz-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-shenzhen-stats",
+        "name": {
+          "en": "Shenzhen Bureau of Statistics",
+          "zh": "深圳市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-shenzhen-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -26805,6 +27107,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-guangzhou-stats",
+        "name": {
+          "en": "Guangzhou Bureau of Statistics",
+          "zh": "广州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.gz.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-guangzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-gx-stats",
         "name": {
           "en": "Guangxi Bureau of Statistics",
@@ -26850,6 +27164,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-shenzhen-stats",
+        "name": {
+          "en": "Shenzhen Bureau of Statistics",
+          "zh": "深圳市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-shenzhen-stats.json",
         "geographic_scope": "subnational"
       },
       {

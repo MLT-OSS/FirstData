@@ -1,0 +1,72 @@
+{
+  "id": "china-cass",
+  "name": {
+    "en": "Chinese Academy of Social Sciences",
+    "zh": "中国社会科学院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Social Sciences (CASS) is China's highest academic institution and comprehensive research center in the fields of philosophy and social sciences. Directly under the State Council, CASS publishes influential research reports, economic outlook analyses, and statistical datasets covering economics, sociology, political science, law, history, literature, and international studies. Its flagship publications include the annual Economic Blue Book (China's Economic Situation Analysis and Forecast), Social Blue Book (China's Society), and Rural Green Book, which serve as authoritative references for China's social and economic development. CASS also maintains several open data portals and research databases covering Chinese social surveys, economic indicators, and policy research.",
+    "zh": "中国社会科学院是国家在哲学社会科学领域的最高学术机构和综合研究中心，直属国务院。社科院发布涵盖经济、社会、政治、法律、历史、文学及国际研究等领域的重要研究报告、经济展望分析和统计数据集。其旗舰出版物包括年度《经济蓝皮书》（中国经济形势分析与预测）、《社会蓝皮书》（中国社会形势分析与预测）及《农村绿皮书》，是中国社会经济发展的权威参考资料。社科院还维护多个开放数据门户和研究数据库，覆盖中国社会调查、经济指标和政策研究。"
+  },
+  "website": "https://www.cass.cn",
+  "data_url": "https://www.cass.cn/zkcg/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "social",
+    "politics",
+    "demographics",
+    "research"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国社会科学院",
+    "CASS",
+    "Chinese Academy of Social Sciences",
+    "经济蓝皮书",
+    "Economic Blue Book",
+    "社会蓝皮书",
+    "Social Blue Book",
+    "农村绿皮书",
+    "Rural Green Book",
+    "中国经济预测",
+    "China economic forecast",
+    "中国社会发展",
+    "China social development",
+    "蓝皮书",
+    "blue book",
+    "社科院报告",
+    "CASS report",
+    "中国经济形势",
+    "China economic situation",
+    "国务院直属",
+    "State Council",
+    "皮书数据库",
+    "Pishu database"
+  ],
+  "data_content": {
+    "en": [
+      "Economic Blue Book: annual analysis and forecast of China's macroeconomic situation, GDP growth outlook, and major economic indicators",
+      "Social Blue Book: comprehensive annual report on China's social development, social structure, and key social issues",
+      "Rural Green Book: annual analysis of China's agricultural economy, rural income, and food security",
+      "World Economy Yellow Book: analysis of global economic trends and their impact on China",
+      "China Social Survey (CSS): large-scale national survey data covering household income, social mobility, and living standards",
+      "Chinese economic indicator databases: compiled data on wages, prices, investment, and consumption",
+      "Policy research reports: assessments of fiscal, monetary, trade, and industrial policies",
+      "International studies reports: analyses of major economies and geopolitical developments affecting China"
+    ],
+    "zh": [
+      "《经济蓝皮书》：中国宏观经济形势年度分析与预测，含GDP增长展望及主要经济指标",
+      "《社会蓝皮书》：中国社会发展综合年度报告，涵盖社会结构与重大社会议题",
+      "《农村绿皮书》：中国农业经济、农村居民收入及粮食安全年度分析",
+      "《世界经济黄皮书》：全球经济趋势及其对中国影响的分析",
+      "中国社会状况综合调查（CSS）：涵盖家庭收入、社会流动性和生活水平的大规模全国调查数据",
+      "中国经济指标数据库：工资、价格、投资和消费汇编数据",
+      "政策研究报告：财政、货币、贸易和产业政策评估",
+      "国际问题研究报告：影响中国的主要经济体及地缘政治动态分析"
+    ]
+  }
+}

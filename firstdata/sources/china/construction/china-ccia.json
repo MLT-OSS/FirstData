@@ -1,0 +1,72 @@
+{
+  "id": "china-ccia",
+  "name": {
+    "en": "China Construction Industry Association",
+    "zh": "中国建筑业协会"
+  },
+  "description": {
+    "en": "The China Construction Industry Association (CCIA) is the national industry organization representing China's construction and contracting enterprises. As the world's largest construction market, China's building sector contributes roughly 7% of GDP and employs tens of millions of workers. CCIA publishes the Annual Statistical Report on China's Construction Industry, which provides comprehensive data on total output value, number of enterprises, workforce, contract value, housing construction area, and safety incidents. It also releases rankings of China's top construction enterprises, construction technology innovation data, and industry development reports. CCIA data is essential for tracking infrastructure investment execution, real estate development activity, and the competitiveness of Chinese construction firms in domestic and overseas markets.",
+    "zh": "中国建筑业协会（中建协）是代表中国建筑和承包企业的全国性行业组织。中国是全球最大的建筑市场，建筑业约占GDP的7%，吸纳数千万就业人员。中建协发布《建筑业统计年报》，提供建筑业总产值、企业数量、从业人数、合同额、房屋建筑面积及安全生产事故等综合数据。协会同时发布中国建筑业综合实力百强企业排名、建筑技术创新数据及行业发展报告。中建协数据对追踪基础设施投资执行情况、房地产开发活动以及中国建筑企业在国内外市场竞争力具有重要参考价值。"
+  },
+  "website": "https://www.zgjzy.org.cn",
+  "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "infrastructure",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国建筑业",
+    "China construction industry",
+    "中建协",
+    "CCIA",
+    "建筑业统计年报",
+    "construction statistical report",
+    "建筑业总产值",
+    "construction output value",
+    "建筑企业",
+    "construction enterprises",
+    "百强建筑企业",
+    "top 100 contractors",
+    "房屋建筑面积",
+    "building construction area",
+    "基础设施投资",
+    "infrastructure investment",
+    "工程承包",
+    "engineering contracting",
+    "建筑业就业",
+    "construction employment",
+    "安全生产",
+    "safety production",
+    "海外工程",
+    "overseas construction"
+  ],
+  "data_content": {
+    "en": [
+      "Annual construction industry statistics: total output value, number of enterprises, workforce size, and contract value by province",
+      "Enterprise rankings: China's top 100 construction enterprises by revenue, including state-owned and private contractors",
+      "Housing construction area: floor space under construction, completed, and newly started by building type",
+      "Overseas contracting: Chinese construction companies' overseas project contract value and completion by region",
+      "Safety statistics: construction site accidents, fatalities, and safety compliance metrics",
+      "Technology and innovation: adoption of BIM, green building, and prefabrication in China's construction sector",
+      "Workforce data: employment, wages, and migrant worker statistics in the construction industry",
+      "Industry development reports: analysis of construction market trends, policy impact, and enterprise competitiveness"
+    ],
+    "zh": [
+      "建筑业年度统计：按省份分类的总产值、企业数量、从业人数及合同额",
+      "企业排名：按营业收入排列的中国建筑业综合实力百强企业，含国有和民营承包商",
+      "房屋建筑面积：按建筑类型分类的在建、竣工及新开工面积",
+      "海外承包工程：中国建筑企业按地区分类的海外工程合同额和完成额",
+      "安全生产统计：建筑工地事故、死亡人数及安全合规指标",
+      "技术与创新：BIM、绿色建筑和装配式建筑在中国建筑业的应用情况",
+      "从业人员数据：建筑业就业人数、工资及农民工统计",
+      "行业发展报告：建筑市场趋势、政策影响及企业竞争力分析"
+    ]
+  }
+}

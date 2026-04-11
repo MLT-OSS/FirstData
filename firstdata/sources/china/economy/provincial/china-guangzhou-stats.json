@@ -1,0 +1,75 @@
+{
+  "id": "china-guangzhou-stats",
+  "name": {
+    "en": "Guangzhou Bureau of Statistics",
+    "zh": "广州市统计局"
+  },
+  "description": {
+    "en": "The Guangzhou Bureau of Statistics is the official statistical authority for Guangzhou, the capital of Guangdong Province and one of China's largest cities, serving as the country's premier trade and manufacturing hub in South China. Guangzhou's statistics cover GDP, industrial production, foreign trade, fixed asset investment, retail consumption, consumer prices, real estate, employment, and population. The bureau publishes the Guangzhou Statistical Yearbook and regular monthly and quarterly economic data releases. As the host of the biannual Canton Fair—the world's largest trade fair—Guangzhou's data is essential for understanding China's domestic consumption patterns, manufacturing output, and international trade flows in the Pearl River Delta region.",
+    "zh": "广州市统计局是广州市官方统计机构。广州是广东省省会，中国最大城市之一，也是华南地区重要的贸易和制造业中心。统计数据涵盖GDP、工业生产、对外贸易、固定资产投资、社会消费品零售总额、居民消费价格、房地产、就业和人口等。统计局定期发布《广州统计年鉴》及月度、季度经济数据。作为全球最大贸易博览会——广交会的举办地，广州统计数据对了解中国国内消费趋势、制造业产出及珠三角地区国际贸易格局具有重要价值。"
+  },
+  "website": "https://tjj.gz.gov.cn",
+  "data_url": "https://tjj.gz.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "trade",
+    "demographics",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "广州统计",
+    "Guangzhou statistics",
+    "广州GDP",
+    "Guangzhou GDP",
+    "广州经济",
+    "Guangzhou economy",
+    "广州统计年鉴",
+    "Guangzhou Statistical Yearbook",
+    "珠三角",
+    "Pearl River Delta",
+    "粤港澳大湾区",
+    "Greater Bay Area",
+    "广交会",
+    "Canton Fair",
+    "广州制造业",
+    "Guangzhou manufacturing",
+    "广州贸易",
+    "Guangzhou trade",
+    "固定资产投资",
+    "fixed asset investment",
+    "华南经济",
+    "South China economy"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP by sector, per capita GDP, and growth rates compared to national average",
+      "Industrial production: monthly output of major industries including automobile manufacturing, petrochemicals, and electronics",
+      "Foreign trade: monthly import and export data with Pearl River Delta breakdown and major trading partners",
+      "Fixed asset investment: investment flows in infrastructure, real estate, manufacturing, and services",
+      "Retail and consumption: monthly retail sales index and consumer price index (CPI) for Guangzhou",
+      "Real estate market: property sales area, transaction volume, and price indices",
+      "Employment and wages: employed population, unemployment rate, and average wage statistics",
+      "Population and demographics: resident population, household size, and urbanization rate",
+      "Canton Fair trade data: export turnover from China Import and Export Fair sessions",
+      "Guangzhou Statistical Yearbook: comprehensive annual publication covering all socioeconomic dimensions"
+    ],
+    "zh": [
+      "GDP与经济增长：按行业分类的季度和年度GDP数据、人均GDP及与全国的增速对比",
+      "工业生产：主要行业月度产值，包括汽车制造、石化和电子产业",
+      "对外贸易：珠三角及主要贸易伙伴的月度进出口数据",
+      "固定资产投资：基础设施、房地产、制造业和服务业的投资流向",
+      "零售与消费：广州月度社会消费品零售总额及居民消费价格指数（CPI）",
+      "房地产市场：商品房销售面积、成交量及价格指数",
+      "就业与工资：从业人员数量、失业率及平均工资统计",
+      "人口与人口结构：常住人口、家庭规模及城镇化率",
+      "广交会贸易数据：中国进出口商品交易会各届出口成交额",
+      "《广州统计年鉴》：涵盖所有社会经济维度的综合性年度出版物"
+    ]
+  }
+}

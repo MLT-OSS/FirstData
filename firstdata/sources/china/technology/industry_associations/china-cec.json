@@ -1,0 +1,80 @@
+{
+  "id": "china-cec",
+  "name": {
+    "en": "China Electricity Council",
+    "zh": "中国电力企业联合会"
+  },
+  "description": {
+    "en": "The China Electricity Council (CEC) is the national industry association representing China's power enterprises, covering generation, transmission, distribution, and supply of electricity. As the world's largest electricity market, China's power sector data is critical for understanding energy security, carbon neutrality progress, and industrial demand. CEC publishes monthly and annual statistics on electricity generation by source (thermal, hydro, nuclear, wind, solar), total power consumption by sector, installed capacity, transmission infrastructure, and electricity supply-demand balance. CEC's data is the primary reference for tracking China's energy transition, renewable energy deployment, and the electrification of industry and transportation.",
+    "zh": "中国电力企业联合会（中电联）是代表中国电力企业的全国性行业组织，涵盖发电、输电、配电和供电企业。作为全球最大的电力市场，中国电力行业数据对理解能源安全、碳中和进程及工业需求至关重要。中电联定期发布月度和年度统计数据，内容包括分能源类型（火电、水电、核电、风电、光伏）的发电量、分行业用电量、装机容量、输电基础设施及电力供需平衡情况。中电联数据是追踪中国能源转型、可再生能源部署及工业和交通电气化进程的主要参考来源。"
+  },
+  "website": "https://www.cec.org.cn",
+  "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "economics",
+    "environment",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国电力",
+    "China electricity",
+    "中电联",
+    "CEC",
+    "电力统计",
+    "electricity statistics",
+    "发电量",
+    "power generation",
+    "用电量",
+    "electricity consumption",
+    "装机容量",
+    "installed capacity",
+    "可再生能源",
+    "renewable energy",
+    "火电",
+    "thermal power",
+    "水电",
+    "hydropower",
+    "风电",
+    "wind power",
+    "光伏",
+    "solar power",
+    "核电",
+    "nuclear power",
+    "能源转型",
+    "energy transition",
+    "碳中和",
+    "carbon neutrality",
+    "电力供需",
+    "power supply demand"
+  ],
+  "data_content": {
+    "en": [
+      "Power generation by source: monthly total electricity generation broken down by thermal, hydropower, nuclear, wind, and solar power",
+      "Electricity consumption: monthly total electricity consumption by sector (industry, services, agriculture, residential)",
+      "Installed capacity: cumulative installed capacity by generation type, including new additions per period",
+      "Renewable energy statistics: wind and solar power capacity additions, generation volume, and utilization hours",
+      "Electricity supply-demand balance: regional power surplus/deficit analysis and peak load statistics",
+      "Power transmission: length of transmission lines and transformer capacity by voltage level",
+      "Annual Electric Power Industry Statistics: comprehensive yearbook covering all aspects of China's power sector",
+      "Carbon emission factors: electricity emission factors for China's regional power grids",
+      "Investment in power sector: capital expenditure on generation, transmission, and distribution infrastructure"
+    ],
+    "zh": [
+      "分类发电量：按火电、水电、核电、风电、光伏分类的月度总发电量",
+      "分行业用电量：按工业、服务业、农业、居民生活分类的月度总用电量",
+      "装机容量：按发电类型分类的累计装机容量，含各期新增装机量",
+      "可再生能源统计：风电和光伏装机新增容量、发电量及利用小时数",
+      "电力供需平衡：区域电力盈缺分析和尖峰负荷统计",
+      "电力输送：按电压等级分类的输电线路长度和变压器容量",
+      "《电力工业统计年报》：涵盖中国电力行业各方面的综合年度数据",
+      "碳排放因子：中国区域电网的电力碳排放因子",
+      "电力行业投资：发电、输电和配电基础设施资本支出情况"
+    ]
+  }
+}
