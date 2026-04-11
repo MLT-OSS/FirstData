@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T02:15:03.758028+00:00",
+    "generated_at": "2026-04-11T02:26:54.573838+00:00",
     "total_regions": 58,
-    "total_sources": 420,
+    "total_sources": 419,
     "version": "2.0"
   },
   "regions": {
@@ -1196,18 +1196,6 @@
         "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-cia",
-        "name": {
-          "en": "China Insurance Association",
-          "zh": "中国保险行业协会"
-        },
-        "authority_level": "other",
-        "data_url": "https://www.iachina.cn/col/col3428/index.html",
-        "has_api": false,
-        "file_path": "china/finance/china-cia.json",
         "geographic_scope": "national"
       },
       {
