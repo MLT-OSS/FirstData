@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T06:07:46.152381+00:00",
-    "total_sources": 425,
+    "generated_at": "2026-04-11T02:26:54.573838+00:00",
+    "total_sources": 419,
     "authority_counts": {
-      "research": 42,
+      "research": 41,
       "international": 74,
-      "government": 240,
-      "other": 32,
+      "government": 238,
+      "other": 29,
       "market": 21,
       "commercial": 16
     },
@@ -241,18 +241,6 @@
         "data_url": "https://www.scidb.cn/",
         "has_api": false,
         "file_path": "china/research/china-cas.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-cass",
-        "name": {
-          "en": "Chinese Academy of Social Sciences",
-          "zh": "中国社会科学院"
-        },
-        "authority_level": "research",
-        "data_url": "https://www.cass.cn/zkcg/",
-        "has_api": false,
-        "file_path": "china/research/china-cass.json",
         "geographic_scope": "national"
       },
       {
@@ -1731,18 +1719,6 @@
         "geographic_scope": "subnational"
       },
       {
-        "id": "china-guangzhou-stats",
-        "name": {
-          "en": "Guangzhou Bureau of Statistics",
-          "zh": "广州市统计局"
-        },
-        "authority_level": "government",
-        "data_url": "https://tjj.gz.gov.cn/tjsj/",
-        "has_api": false,
-        "file_path": "china/economy/provincial/china-guangzhou-stats.json",
-        "geographic_scope": "subnational"
-      },
-      {
         "id": "china-gx-stats",
         "name": {
           "en": "Guangxi Bureau of Statistics",
@@ -1956,18 +1932,6 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
-        "geographic_scope": "subnational"
-      },
-      {
-        "id": "china-shenzhen-stats",
-        "name": {
-          "en": "Shenzhen Bureau of Statistics",
-          "zh": "深圳市统计局"
-        },
-        "authority_level": "government",
-        "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
-        "has_api": false,
-        "file_path": "china/economy/provincial/china-shenzhen-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -4386,18 +4350,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "china-ccia",
-        "name": {
-          "en": "China Construction Industry Association",
-          "zh": "中国建筑业协会"
-        },
-        "authority_level": "other",
-        "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
-        "has_api": false,
-        "file_path": "china/construction/china-ccia.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "china-cfeed",
         "name": {
           "en": "China Feed Industry Association",
@@ -4578,18 +4530,6 @@
         "geographic_scope": "national"
       },
       {
-        "id": "china-cnca",
-        "name": {
-          "en": "China National Coal Association",
-          "zh": "中国煤炭工业协会"
-        },
-        "authority_level": "other",
-        "data_url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=118",
-        "has_api": false,
-        "file_path": "china/resources/mineral/china-cnca.json",
-        "geographic_scope": "national"
-      },
-      {
         "id": "china-cnia",
         "name": {
           "en": "China Nonferrous Metals Industry Association",
@@ -4623,18 +4563,6 @@
         "data_url": "http://www.caamm.org.cn/member/qytj.jspx",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-caamm.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-cec",
-        "name": {
-          "en": "China Electricity Council",
-          "zh": "中国电力企业联合会"
-        },
-        "authority_level": "other",
-        "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
-        "has_api": false,
-        "file_path": "china/technology/industry_associations/china-cec.json",
         "geographic_scope": "national"
       },
       {
