@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T06:31:10.615890+00:00",
+    "generated_at": "2026-04-11T02:15:03.758028+00:00",
     "total_regions": 58,
-    "total_sources": 417,
+    "total_sources": 420,
     "version": "2.0"
   },
   "regions": {
@@ -1029,6 +1029,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nlc",
+        "name": {
+          "en": "National Library of China",
+          "zh": "中国国家图书馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nlc.cn/pcab/",
+        "has_api": false,
+        "file_path": "china/education/china-nlc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "cscse",
         "name": {
           "en": "Chinese Service Center for Scholarly Exchange",
@@ -1187,6 +1199,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cia",
+        "name": {
+          "en": "China Insurance Association",
+          "zh": "中国保险行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.iachina.cn/col/col3428/index.html",
+        "has_api": false,
+        "file_path": "china/finance/china-cia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-csrc-futures",
         "name": {
           "en": "China Futures Association",
@@ -1320,6 +1344,18 @@
         "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
         "has_api": false,
         "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cdpf",
+        "name": {
+          "en": "China Disabled Persons' Federation",
+          "zh": "中国残疾人联合会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cdpf.org.cn/zwgk/index.htm",
+        "has_api": false,
+        "file_path": "china/governance/china-cdpf.json",
         "geographic_scope": "national"
       },
       {

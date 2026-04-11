@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T06:31:10.615890+00:00",
-    "total_sources": 417,
+    "generated_at": "2026-04-11T02:15:03.758028+00:00",
+    "total_sources": 420,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -6388,6 +6388,87 @@
       "file_path": "china/economy/trade/mofcom.json"
     },
     {
+      "id": "china-nlc",
+      "name": {
+        "en": "National Library of China",
+        "zh": "中国国家图书馆"
+      },
+      "description": {
+        "en": "The National Library of China (NLC) is China's largest and highest-level comprehensive library, functioning as the national center for bibliographic information, document preservation, and cultural heritage. Established in 1909, it holds over 40 million items covering books, periodicals, newspapers, ancient manuscripts, digital resources, and audiovisual materials. NLC operates the National Digital Library of China (NDLC), providing open access to bibliographic metadata, historical archives, and digitized cultural relics. It also serves as the national ISSN and ISBN agency for China and publishes authoritative library statistics, cultural heritage digital resources, and reading behavior research reports that support policy, education, and humanities research.",
+        "zh": "中国国家图书馆是中国最大、最高级别的综合性图书馆，也是全国书目信息、文献保障和文化遗产保护的中心机构。国家图书馆建于1909年，馆藏超过4000万件，涵盖图书、期刊、报纸、古籍善本、数字资源及音像资料等。依托国家数字图书馆平台，提供书目元数据、历史档案和数字文化遗产的开放获取服务。国图还担任中国ISSN和ISBN国家中心，发布权威的图书馆统计数据、文化遗产数字资源及阅读行为研究报告，支持政策制定、教育研究和人文学科发展。"
+      },
+      "website": "https://www.nlc.cn",
+      "data_url": "https://www.nlc.cn/pcab/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "education",
+        "culture",
+        "research"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "国家图书馆",
+        "National Library of China",
+        "NLC",
+        "国家数字图书馆",
+        "National Digital Library",
+        "古籍",
+        "ancient manuscripts",
+        "书目数据",
+        "bibliographic data",
+        "ISBN",
+        "ISSN",
+        "文化遗产",
+        "cultural heritage",
+        "数字资源",
+        "digital resources",
+        "图书馆统计",
+        "library statistics",
+        "阅读研究",
+        "reading research",
+        "文献保障",
+        "document preservation",
+        "开放获取",
+        "open access",
+        "期刊",
+        "periodicals",
+        "学术数据",
+        "academic data",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "National bibliographic catalog: metadata for books, periodicals, newspapers, and multimedia holdings",
+          "Ancient books and manuscripts: digitized rare books, classical texts, and historical documents from imperial collections",
+          "Cultural heritage digital resources: digitized paintings, calligraphy, rubbings, maps, and photographs",
+          "ISBN and ISSN registry: national book and serial publication registration records",
+          "Library statistics yearbook: annual data on public libraries, collections, services, and staffing nationwide",
+          "National reading survey: annual report on Chinese citizens' reading habits, formats, and preferences",
+          "Interlibrary loan data: cross-library document delivery and resource sharing statistics",
+          "Academic and research journals: access to Chinese core journals and scholarly databases",
+          "Digital archives: historical newspapers, government gazettes, and official publications",
+          "Open data catalog: selected datasets and bibliographic records available for public download"
+        ],
+        "zh": [
+          "全国书目联合目录：图书、期刊、报纸及多媒体馆藏的元数据",
+          "古籍善本：数字化珍贵古籍、经典文献及皇家收藏历史文献",
+          "文化遗产数字资源：数字化绘画、书法、拓片、地图及历史图片",
+          "ISBN与ISSN注册中心：全国图书及连续出版物登记记录",
+          "图书馆统计年报：全国公共图书馆馆藏、服务及人员年度统计",
+          "全国阅读调查：中国公民阅读习惯、阅读载体及偏好年度报告",
+          "馆际互借数据：图书馆间文献传递及资源共享统计",
+          "学术期刊：中文核心期刊及学术数据库访问",
+          "数字档案：历史报纸、政府公报及官方出版物",
+          "开放数据目录：可公开下载的精选数据集及书目记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/china-nlc.json"
+    },
+    {
       "id": "cscse",
       "name": {
         "en": "Chinese Service Center for Scholarly Exchange",
@@ -7307,6 +7388,89 @@
       "file_path": "china/finance/capital-markets/china-nafmii.json"
     },
     {
+      "id": "china-cia",
+      "name": {
+        "en": "China Insurance Association",
+        "zh": "中国保险行业协会"
+      },
+      "description": {
+        "en": "The China Insurance Association (CIA) is the national self-regulatory organization of China's insurance industry, established under the supervision of the China Financial Regulatory Commission. It represents insurance companies, insurance intermediaries, and other insurance-related institutions operating in China. CIA publishes comprehensive statistical data on China's insurance market, including premium income by product line, insurance density and depth, claims data, investment assets, and industry financial summaries. Its annual China Insurance Yearbook and regular statistical bulletins are authoritative references for analyzing trends in life insurance, property insurance, reinsurance, and the health insurance sector.",
+        "zh": "中国保险行业协会（保险业协会）是中国保险行业的全国性自律组织，在国家金融监督管理总局的监督指导下开展工作。协会汇聚国内各保险公司、保险中介机构及相关机构，发布中国保险市场的全面统计数据，包括各险种保费收入、保险密度与深度、理赔数据、投资资产规模及行业财务概况。《中国保险年鉴》及定期统计公报是分析人身险、财产险、再保险和健康险市场趋势的权威参考。"
+      },
+      "website": "https://www.iachina.cn",
+      "data_url": "https://www.iachina.cn/col/col3428/index.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "insurance",
+        "statistics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "中国保险行业协会",
+        "China Insurance Association",
+        "CIA",
+        "保险统计",
+        "insurance statistics",
+        "保费收入",
+        "premium income",
+        "人身险",
+        "life insurance",
+        "财产险",
+        "property insurance",
+        "健康险",
+        "health insurance",
+        "再保险",
+        "reinsurance",
+        "保险深度",
+        "insurance depth",
+        "保险密度",
+        "insurance density",
+        "赔付",
+        "claims",
+        "保险投资",
+        "insurance investment",
+        "中国保险年鉴",
+        "China Insurance Yearbook",
+        "行业自律",
+        "self-regulatory",
+        "金融监管总局",
+        "NFRA",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Premium income: total and by product line (life, property, health, accident), national and provincial breakdown",
+          "Insurance density and depth: per-capita premium and premium-to-GDP ratio by region and year",
+          "Claims and indemnity: total claims paid, claim ratios, catastrophe payouts",
+          "Insurance company financial data: assets, liabilities, solvency ratios, investment returns",
+          "Market structure: number of insurers, market share by company, premium ranking",
+          "Policy counts: number of policies in force and new policies by insurance category",
+          "Reinsurance: domestic and cross-border reinsurance premium ceded and assumed",
+          "Health insurance: medical, critical illness, and long-term care insurance statistics",
+          "Agricultural insurance: policy coverage and premium income from crop and livestock insurance",
+          "China Insurance Yearbook: comprehensive annual statistical compilation of the insurance industry"
+        ],
+        "zh": [
+          "保费收入：各险种（人身险、财产险、健康险、意外险）保费总量及分省数据",
+          "保险深度与密度：各地区人均保费及保费占GDP比例的历年数据",
+          "理赔与赔付：已决赔款总额、赔付率、重大灾害赔付情况",
+          "保险公司财务数据：总资产、负债、偿付能力充足率、投资收益率",
+          "市场结构：保险公司数量、市场份额、保费收入排名",
+          "保单数量：各险种有效保单数量及新增保单量",
+          "再保险：国内及跨境再保险分出分入保费情况",
+          "健康险：医疗险、重大疾病险、长期护理险等健康保险统计数据",
+          "农业保险：农业（种植业、养殖业）保险覆盖及保费收入",
+          "中国保险年鉴：保险业全面年度统计汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-cia.json"
+    },
+    {
       "id": "china-csrc-futures",
       "name": {
         "en": "China Futures Association",
@@ -8035,6 +8199,85 @@
       },
       "has_api": false,
       "file_path": "china/finance/taxation/china-chinatax.json"
+    },
+    {
+      "id": "china-cdpf",
+      "name": {
+        "en": "China Disabled Persons' Federation",
+        "zh": "中国残疾人联合会"
+      },
+      "description": {
+        "en": "The China Disabled Persons' Federation (CDPF) is the national mass organization representing the rights and interests of persons with disabilities in China. Founded in 1988 and chaired by a standing member of the National People's Congress, CDPF operates under the guidance of the State Council and coordinates disability policy, rehabilitation, employment, education, and welfare programs across the country. CDPF publishes authoritative statistics on China's disabled population, including disability prevalence by type and severity, employment rates, rehabilitation coverage, welfare benefits, and special education enrollment. Its China Yearbook of People with Disabilities and periodic statistical bulletins serve as the primary national data source on disability affairs and social inclusion indicators.",
+        "zh": "中国残疾人联合会（中国残联）是代表全国残疾人权益的全国性群众组织，成立于1988年，在国务院领导下开展工作，统筹协调残疾人政策、康复、就业、教育及福利保障工作。中国残联发布权威的残疾人统计数据，涵盖各类别和等级残疾人数量、就业率、康复服务覆盖率、社会保障待遇及特殊教育入学情况。《中国残疾人事业统计年鉴》及定期统计公报是全国残疾人事务和社会融合指标的主要国家级数据来源。"
+      },
+      "website": "https://www.cdpf.org.cn",
+      "data_url": "https://www.cdpf.org.cn/zwgk/index.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "social",
+        "demographics",
+        "governance"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "中国残疾人联合会",
+        "China Disabled Persons' Federation",
+        "CDPF",
+        "残疾人统计",
+        "disability statistics",
+        "残疾人口",
+        "disabled population",
+        "残疾类型",
+        "disability types",
+        "康复服务",
+        "rehabilitation services",
+        "残疾人就业",
+        "disability employment",
+        "特殊教育",
+        "special education",
+        "社会保障",
+        "social security",
+        "无障碍",
+        "accessibility",
+        "残疾年鉴",
+        "disability yearbook",
+        "社会融合",
+        "social inclusion",
+        "残疾补贴",
+        "disability allowance",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Disability prevalence: number and share of persons with disabilities by type (visual, hearing, speech, physical, intellectual, psychiatric) and severity grade",
+          "Employment statistics: employment rate, job placement programs, supported employment, and sheltered workshop data",
+          "Rehabilitation coverage: persons receiving rehabilitation services by disability type and service category",
+          "Special education: enrollment in special schools and inclusive education programs for children with disabilities",
+          "Social welfare and benefits: disability allowance recipients, subsistence allowance (dibao), nursing care subsidies",
+          "Assistive devices: distribution of prosthetics, orthotics, hearing aids, wheelchairs, and other assistive technology",
+          "Poverty alleviation: disabled persons in poverty, targeted assistance programs, and poverty exit rates",
+          "Cultural and sports activities: participation of persons with disabilities in cultural events and para-sports",
+          "Legal rights protection: disability rights complaints, legal aid cases, and policy implementation data",
+          "China Yearbook of People with Disabilities: annual compilation of all disability affairs statistics"
+        ],
+        "zh": [
+          "残疾人口规模：各类别（视力、听力、语言、肢体、智力、精神）和各等级残疾人数量及比例",
+          "就业统计：残疾人就业率、就业援助项目、支持性就业及辅助性就业机构数据",
+          "康复服务覆盖：按残疾类别和服务类型统计的获得康复服务人数",
+          "特殊教育：残疾儿童特殊学校入学及随班就读情况",
+          "社会福利保障：残疾人两项补贴（困难残疾人生活补贴及重度残疾人护理补贴）发放情况",
+          "辅助器具：假肢、矫形器、助听器、轮椅及其他辅助技术发放数量",
+          "脱贫攻坚：残疾人贫困规模、精准帮扶项目及脱贫数据",
+          "文化体育活动：残疾人参与文化活动及残疾人体育运动情况",
+          "权益保障：残疾人权益投诉、法律援助及政策执行数据",
+          "中国残疾人事业统计年鉴：残疾人事业各项统计数据年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cdpf.json"
     },
     {
       "id": "china-cnao",
