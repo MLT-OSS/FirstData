@@ -1,0 +1,79 @@
+{
+  "id": "china-ccia",
+  "name": {
+    "en": "China Coal Industry Association",
+    "zh": "中国煤炭工业协会"
+  },
+  "description": {
+    "en": "The China Coal Industry Association (CCIA) is the national industry organization representing China's coal mining, coal processing, and related industries. China is the world's largest coal producer and consumer, and CCIA serves as the authoritative source for coal sector statistical data. It publishes the China Coal Industry Yearbook, monthly and annual production and market reports, coal reserve and resource data, and safety statistics. CCIA's data covers raw coal output by province and mine type, coal consumption by end-use sector, coal prices, import and export volumes, employment, and coal mine accident statistics. It works closely with the National Energy Administration, National Mine Safety Administration, and China National Coal Group.",
+    "zh": "中国煤炭工业协会（中国煤炭工业协会）是代表中国煤炭开采、煤炭加工及相关行业的全国性行业组织。中国是全球最大的煤炭生产国和消费国，中国煤炭工业协会是煤炭行业统计数据的权威来源，发布《中国煤炭工业年鉴》、月度及年度生产与市场报告、煤炭储量与资源数据以及安全生产统计。协会数据涵盖分省及矿型原煤产量、各终端用途煤炭消费量、煤炭价格、进出口量、从业人员及煤矿事故统计，与国家能源局、国家矿山安全监察局、中国煤炭集团等机构紧密合作。"
+  },
+  "website": "http://www.coalchina.org.cn",
+  "data_url": "http://www.coalchina.org.cn/page/tjsj.html",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "domains": [
+    "energy",
+    "statistics",
+    "economy"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "中国煤炭工业协会",
+    "China Coal Industry Association",
+    "CCIA",
+    "煤炭统计",
+    "coal statistics",
+    "原煤产量",
+    "raw coal production",
+    "煤炭消费",
+    "coal consumption",
+    "煤炭价格",
+    "coal prices",
+    "煤炭进出口",
+    "coal trade",
+    "煤矿安全",
+    "mine safety",
+    "煤炭储量",
+    "coal reserves",
+    "焦煤",
+    "coking coal",
+    "动力煤",
+    "thermal coal",
+    "煤炭年鉴",
+    "coal yearbook",
+    "能源",
+    "energy",
+    "碳排放",
+    "carbon emissions",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Coal production: monthly and annual raw coal output by province, mine type (state-owned, local, private), and coal category",
+      "Coal consumption: sectoral breakdown by power generation, steel, cement, chemical industry, and household use",
+      "Coal prices: pit-mouth prices, port prices (Qinhuangdao benchmark), and spot market price indices",
+      "Coal trade: import and export volumes by country of origin/destination and coal type",
+      "Coal reserves and resources: estimated recoverable reserves and resource base by province",
+      "Mine safety: coal mine accidents, fatalities, and injury rates; major incident investigations",
+      "Employment: total workforce in coal mining and related industries",
+      "Economic performance: revenue, profits, and investment in the coal sector",
+      "Coal washing and processing: clean coal output and beneficiation capacity statistics",
+      "China Coal Industry Yearbook: annual comprehensive statistical compilation of the coal sector"
+    ],
+    "zh": [
+      "煤炭生产：分省、矿型（国有、地方、民营）及煤种的月度和年度原煤产量",
+      "煤炭消费：分行业（发电、钢铁、水泥、化工、居民用煤）的消费量",
+      "煤炭价格：坑口价格、港口价格（秦皇岛基准价）及现货市场价格指数",
+      "煤炭进出口：按来源国/目的国及煤种统计的进出口量",
+      "煤炭储量与资源：分省可采储量及资源量估算",
+      "矿山安全：煤矿事故、死亡人数及伤亡率；重大事故调查",
+      "从业人员：煤炭采掘及相关行业总从业人数",
+      "行业经济运行：煤炭行业营业收入、利润及投资情况",
+      "洗选加工：精煤产量及选煤能力统计",
+      "中国煤炭工业年鉴：煤炭行业全面统计数据年度汇编"
+    ]
+  }
+}

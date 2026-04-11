@@ -1,0 +1,77 @@
+{
+  "id": "china-cdpf",
+  "name": {
+    "en": "China Disabled Persons' Federation",
+    "zh": "中国残疾人联合会"
+  },
+  "description": {
+    "en": "The China Disabled Persons' Federation (CDPF) is the national mass organization representing the rights and interests of persons with disabilities in China. Founded in 1988 and chaired by a standing member of the National People's Congress, CDPF operates under the guidance of the State Council and coordinates disability policy, rehabilitation, employment, education, and welfare programs across the country. CDPF publishes authoritative statistics on China's disabled population, including disability prevalence by type and severity, employment rates, rehabilitation coverage, welfare benefits, and special education enrollment. Its China Yearbook of People with Disabilities and periodic statistical bulletins serve as the primary national data source on disability affairs and social inclusion indicators.",
+    "zh": "中国残疾人联合会（中国残联）是代表全国残疾人权益的全国性群众组织，成立于1988年，在国务院领导下开展工作，统筹协调残疾人政策、康复、就业、教育及福利保障工作。中国残联发布权威的残疾人统计数据，涵盖各类别和等级残疾人数量、就业率、康复服务覆盖率、社会保障待遇及特殊教育入学情况。《中国残疾人事业统计年鉴》及定期统计公报是全国残疾人事务和社会融合指标的主要国家级数据来源。"
+  },
+  "website": "https://www.cdpf.org.cn",
+  "data_url": "https://www.cdpf.org.cn/zwgk/index.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "social",
+    "demographics",
+    "governance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "中国残疾人联合会",
+    "China Disabled Persons' Federation",
+    "CDPF",
+    "残疾人统计",
+    "disability statistics",
+    "残疾人口",
+    "disabled population",
+    "残疾类型",
+    "disability types",
+    "康复服务",
+    "rehabilitation services",
+    "残疾人就业",
+    "disability employment",
+    "特殊教育",
+    "special education",
+    "社会保障",
+    "social security",
+    "无障碍",
+    "accessibility",
+    "残疾年鉴",
+    "disability yearbook",
+    "社会融合",
+    "social inclusion",
+    "残疾补贴",
+    "disability allowance",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Disability prevalence: number and share of persons with disabilities by type (visual, hearing, speech, physical, intellectual, psychiatric) and severity grade",
+      "Employment statistics: employment rate, job placement programs, supported employment, and sheltered workshop data",
+      "Rehabilitation coverage: persons receiving rehabilitation services by disability type and service category",
+      "Special education: enrollment in special schools and inclusive education programs for children with disabilities",
+      "Social welfare and benefits: disability allowance recipients, subsistence allowance (dibao), nursing care subsidies",
+      "Assistive devices: distribution of prosthetics, orthotics, hearing aids, wheelchairs, and other assistive technology",
+      "Poverty alleviation: disabled persons in poverty, targeted assistance programs, and poverty exit rates",
+      "Cultural and sports activities: participation of persons with disabilities in cultural events and para-sports",
+      "Legal rights protection: disability rights complaints, legal aid cases, and policy implementation data",
+      "China Yearbook of People with Disabilities: annual compilation of all disability affairs statistics"
+    ],
+    "zh": [
+      "残疾人口规模：各类别（视力、听力、语言、肢体、智力、精神）和各等级残疾人数量及比例",
+      "就业统计：残疾人就业率、就业援助项目、支持性就业及辅助性就业机构数据",
+      "康复服务覆盖：按残疾类别和服务类型统计的获得康复服务人数",
+      "特殊教育：残疾儿童特殊学校入学及随班就读情况",
+      "社会福利保障：残疾人两项补贴（困难残疾人生活补贴及重度残疾人护理补贴）发放情况",
+      "辅助器具：假肢、矫形器、助听器、轮椅及其他辅助技术发放数量",
+      "脱贫攻坚：残疾人贫困规模、精准帮扶项目及脱贫数据",
+      "文化体育活动：残疾人参与文化活动及残疾人体育运动情况",
+      "权益保障：残疾人权益投诉、法律援助及政策执行数据",
+      "中国残疾人事业统计年鉴：残疾人事业各项统计数据年度汇编"
+    ]
+  }
+}
