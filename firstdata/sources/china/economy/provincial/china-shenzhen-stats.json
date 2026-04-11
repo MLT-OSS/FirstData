@@ -1,0 +1,77 @@
+{
+  "id": "china-shenzhen-stats",
+  "name": {
+    "en": "Shenzhen Bureau of Statistics",
+    "zh": "深圳市统计局"
+  },
+  "description": {
+    "en": "The Shenzhen Bureau of Statistics is the official statistical authority for Shenzhen, China's leading technology and innovation hub and a major special economic zone. As one of China's fastest-growing and most economically dynamic cities, Shenzhen's statistics cover GDP, industrial output, high-tech industry performance, foreign investment, exports, fixed asset investment, retail sales, consumer prices, employment, and household income. The bureau publishes the Shenzhen Statistical Yearbook, monthly economic bulletins, and special reports on the technology and innovation economy. Shenzhen's data is particularly valuable for tracking trends in China's high-tech manufacturing, fintech, and consumer electronics sectors.",
+    "zh": "深圳市统计局是深圳市官方统计机构。深圳是中国领先的科技创新中心和重要的经济特区，其统计数据涵盖GDP、工业产值、高新技术产业表现、外商投资、出口贸易、固定资产投资、社会消费品零售总额、居民消费价格、就业和居民收入等方面。统计局定期发布《深圳统计年鉴》、月度经济运行情况报告及科技创新经济专题报告。深圳统计数据对追踪中国高新技术制造业、金融科技和消费电子产业趋势具有重要参考价值。"
+  },
+  "website": "https://tjj.sz.gov.cn",
+  "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "technology",
+    "trade",
+    "demographics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "深圳统计",
+    "Shenzhen statistics",
+    "深圳GDP",
+    "Shenzhen GDP",
+    "深圳经济",
+    "Shenzhen economy",
+    "高新技术产业",
+    "high-tech industry",
+    "深圳统计年鉴",
+    "Shenzhen Statistical Yearbook",
+    "经济特区",
+    "special economic zone",
+    "深圳制造业",
+    "Shenzhen manufacturing",
+    "粤港澳大湾区",
+    "Greater Bay Area",
+    "科技创新",
+    "technology innovation",
+    "外商投资",
+    "foreign investment",
+    "深圳出口",
+    "Shenzhen exports",
+    "固定资产投资",
+    "fixed asset investment"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector, per capita GDP, and growth rate",
+      "Industrial output: monthly output of major industries including electronics, telecommunications equipment, and high-tech manufacturing",
+      "High-tech industry: revenue, profit, employment, and output of Shenzhen's high-tech enterprises",
+      "Trade data: monthly import and export statistics by commodity type and trading partner",
+      "Fixed asset investment: investment by sector including real estate, infrastructure, and industry",
+      "Retail and consumption: monthly retail sales of consumer goods and consumer price index (CPI)",
+      "Foreign direct investment: FDI inflow statistics by source country and industry",
+      "Employment and wages: employed population, registered unemployment rate, and average wage levels",
+      "Population: resident population, household registration data, and migration statistics",
+      "Shenzhen Statistical Yearbook: comprehensive annual compendium of Shenzhen's socioeconomic indicators"
+    ],
+    "zh": [
+      "GDP与经济增长：按行业分类的季度和年度GDP数据、人均GDP及增长率",
+      "工业总产值：主要行业月度产值，包括电子、通信设备及高新技术制造业",
+      "高新技术产业：深圳高新技术企业的营业收入、利润、就业人数及产值",
+      "贸易数据：按商品类别和贸易伙伴分类的月度进出口统计",
+      "固定资产投资：按行业分类的投资数据，包括房地产、基础设施和工业",
+      "零售与消费：月度社会消费品零售总额和居民消费价格指数（CPI）",
+      "外商直接投资：按来源地和行业分类的FDI流入统计",
+      "就业与工资：从业人员数量、登记失业率及平均工资水平",
+      "人口：常住人口、户籍人口及流动人口统计",
+      "《深圳统计年鉴》：深圳市社会经济指标综合年度数据汇编"
+    ]
+  }
+}
