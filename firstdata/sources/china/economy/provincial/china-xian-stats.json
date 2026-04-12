@@ -1,0 +1,74 @@
+{
+  "id": "china-xian-stats",
+  "name": {
+    "en": "Xi'an Bureau of Statistics",
+    "zh": "西安市统计局"
+  },
+  "description": {
+    "en": "The Xi'an Bureau of Statistics is the official statistical authority for Xi'an (Shaanxi Province capital), one of China's most ancient capitals and now a rapidly modernizing city at the heart of the Belt and Road Initiative. Xi'an is a major center for aerospace, defense, high-tech manufacturing, and tourism. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial production, aerospace and defense output, tourism, employment, and population for Xi'an. It releases the Xi'an Statistical Yearbook and periodic economic reports, providing authoritative data for this growing western China hub and the core city of the Guanzhong Plain urban agglomeration.",
+    "zh": "西安市统计局是西安市官方统计机构。西安是陕西省省会，中国最重要的历史古都之一，也是\"一带一路\"倡议的核心城市，现已成为快速现代化的重要城市。西安是航空航天、国防、高新技术制造和旅游业的重要中心。统计局发布西安市GDP、工业生产、航空航天与国防产值、旅游业、就业及人口等全面的社会经济统计数据，出版《西安统计年鉴》及定期经济运行情况报告，是了解关中平原城市群核心城市和西部重要增长极的权威数据来源。"
+  },
+  "website": "http://tjj.xa.gov.cn/",
+  "data_url": "http://tjj.xa.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "西安统计",
+    "Xi'an statistics",
+    "西安GDP",
+    "Xian GDP",
+    "关中平原城市群",
+    "Guanzhong urban agglomeration",
+    "西部大开发",
+    "Western China development",
+    "一带一路",
+    "Belt and Road Initiative",
+    "西安统计年鉴",
+    "Xian Statistical Yearbook",
+    "航空航天",
+    "aerospace",
+    "军工产业",
+    "defense industry",
+    "旅游经济",
+    "tourism economy",
+    "半导体",
+    "semiconductor",
+    "高新区",
+    "high-tech zone"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Xi'an",
+      "Industrial production: output from key sectors including aerospace, defense, electronics, and semiconductor manufacturing",
+      "High-tech industries: Xi'an High-tech Zone output, new energy, artificial intelligence, biopharmaceuticals",
+      "Tourism statistics: domestic and international tourist arrivals, tourism revenue — Xi'an is a top global heritage destination",
+      "Fixed asset investment: total investment, infrastructure projects including Silk Road-related corridors",
+      "Retail and consumption: total retail sales of consumer goods, consumer price index",
+      "Employment and higher education: employed persons, university enrollment — Xi'an has China's highest density of universities per capita",
+      "Population: resident population, household registration, urbanization rate",
+      "Foreign trade: export/import volumes, cross-border e-commerce, FDI",
+      "Xi'an Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：西安市按产业分类的季度和年度GDP数据",
+      "工业生产：航空航天、国防、电子、半导体制造等关键行业产值",
+      "高新技术产业：西安高新区产值、新能源、人工智能、生物医药产业",
+      "旅游统计：国内外游客接待量、旅游收入——西安是全球顶级文化遗产旅游目的地",
+      "固定资产投资：全市总投资额、丝路相关走廊等基础设施项目",
+      "消费与零售：社会消费品零售总额、居民消费价格指数",
+      "就业与高等教育：从业人员数、高校在校生人数——西安人均高校密度居全国前列",
+      "人口：常住人口、户籍人口、城镇化率",
+      "对外贸易：进出口总量、跨境电商、外商直接投资",
+      "西安统计年鉴：全市各类统计数据的综合年度汇编"
+    ]
+  }
+}

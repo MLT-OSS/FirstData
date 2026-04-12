@@ -1,0 +1,75 @@
+{
+  "id": "china-suzhou-stats",
+  "name": {
+    "en": "Suzhou Bureau of Statistics",
+    "zh": "苏州市统计局"
+  },
+  "description": {
+    "en": "The Suzhou Bureau of Statistics is the official statistical authority for Suzhou, a prefecture-level city in Jiangsu Province and one of China's most economically powerful cities. Despite not being a provincial capital, Suzhou consistently ranks among China's top five cities by GDP. It is a global manufacturing powerhouse — particularly for electronics, semiconductors, and precision manufacturing — and home to the Suzhou Industrial Park (SIP), a flagship China-Singapore cooperation project. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, foreign investment, trade, and population for Suzhou, and releases the Suzhou Statistical Yearbook as the authoritative data source for this export-oriented economic giant.",
+    "zh": "苏州市统计局是苏州市官方统计机构。苏州是江苏省地级市，也是中国经济最强劲的城市之一。尽管不是省会城市，苏州的GDP长期位居全国前五。苏州是全球重要的制造业基地，尤其在电子、半导体和精密制造领域举足轻重，拥有中国-新加坡合作旗舰项目苏州工业园区（SIP）。统计局发布苏州市GDP、工业产值、外商投资、贸易及人口等全面的社会经济统计数据，出版《苏州统计年鉴》，是了解这一出口导向型经济强市的权威数据来源。"
+  },
+  "website": "http://tjj.suzhou.gov.cn/",
+  "data_url": "http://tjj.suzhou.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "trade"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "苏州统计",
+    "Suzhou statistics",
+    "苏州GDP",
+    "Suzhou GDP",
+    "苏州工业园区",
+    "Suzhou Industrial Park",
+    "SIP",
+    "中新合作",
+    "China-Singapore cooperation",
+    "制造业",
+    "manufacturing",
+    "电子产业",
+    "electronics industry",
+    "半导体",
+    "semiconductor",
+    "长三角",
+    "Yangtze River Delta",
+    "苏州统计年鉴",
+    "Suzhou Statistical Yearbook",
+    "外资企业",
+    "foreign-invested enterprises",
+    "精密制造",
+    "precision manufacturing"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Suzhou — one of China's highest-GDP non-capital cities",
+      "Industrial production: output from core industries including electronics, semiconductor, precision manufacturing, and biomedicine",
+      "Suzhou Industrial Park (SIP): dedicated statistics on China's flagship China-Singapore cooperation development zone",
+      "Foreign investment: actual utilized FDI, number of foreign-invested enterprises, investment by source country",
+      "Foreign trade: import/export volumes — Suzhou is one of China's top export cities",
+      "Fixed asset investment: total investment, industrial parks investment, infrastructure projects",
+      "Retail and consumption: total retail sales of consumer goods, consumer price index",
+      "Employment and wages: employed persons, urban unemployment rate, average wages by sector",
+      "Population: resident population, household registration, urbanization — significant migrant worker population",
+      "Suzhou Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：苏州市按产业分类的季度和年度GDP数据——中国GDP最高的非省会城市之一",
+      "工业生产：电子、半导体、精密制造、生物医药等核心行业产值",
+      "苏州工业园区（SIP）：中国旗舰中新合作开发区专项统计数据",
+      "外商投资：实际利用外商直接投资、外资企业数量、按来源国分类的投资",
+      "对外贸易：进出口总量——苏州是中国出口重镇之一",
+      "固定资产投资：全市总投资额、工业园区投资、基础设施项目",
+      "消费与零售：社会消费品零售总额、居民消费价格指数",
+      "就业与工资：从业人员数、城镇登记失业率、各行业平均工资",
+      "人口：常住人口、户籍人口、城镇化率——外来务工人员规模庞大",
+      "苏州统计年鉴：全市各类统计数据的综合年度汇编"
+    ]
+  }
+}

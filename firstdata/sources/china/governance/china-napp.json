@@ -1,0 +1,70 @@
+{
+  "id": "china-napp",
+  "name": {
+    "en": "National Administration of Press and Publication",
+    "zh": "国家新闻出版署"
+  },
+  "description": {
+    "en": "The National Administration of Press and Publication (NAPP) is China's central government authority responsible for regulating and overseeing the press, publication, copyright, and online publishing industries. Established under the State Council and merged with the General Administration of Press and Publication in 2018, NAPP issues statistics and regulatory data on books, newspapers, periodicals, digital publications, game approvals, and copyright registrations in China. It provides authoritative data on the scale and structure of China's publishing industry, the number of licensed publications, video game approval lists, and copyright protection enforcement — essential reference for China's content and media market research.",
+    "zh": "国家新闻出版署（NAPP）是中国负责监管新闻出版、版权及网络出版产业的中央政府机构。根据国务院机构改革，原国家新闻出版广电总局出版职能并入，2018年重新组建。国家新闻出版署发布图书、报纸、期刊、数字出版物、游戏版号审批及版权登记等统计数据，是中国出版业规模与结构、持证出版单位数量、电子游戏审批名单及版权保护执法的权威数据来源，是研究中国内容产业和媒体市场的重要参考。"
+  },
+  "website": "https://www.nppa.gov.cn/",
+  "data_url": "https://www.nppa.gov.cn/xxfb/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "media",
+    "culture",
+    "governance",
+    "technology"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "新闻出版",
+    "press and publication",
+    "游戏版号",
+    "game approval",
+    "版权登记",
+    "copyright registration",
+    "图书出版",
+    "book publishing",
+    "数字出版",
+    "digital publishing",
+    "期刊",
+    "periodicals",
+    "报纸",
+    "newspapers",
+    "网络游戏",
+    "online games",
+    "内容产业",
+    "content industry",
+    "出版统计",
+    "publishing statistics",
+    "媒体监管",
+    "media regulation"
+  ],
+  "data_content": {
+    "en": [
+      "Video game approvals: monthly and annual lists of approved domestic and imported video games (版号) — critical data for China gaming market analysis",
+      "Book publication statistics: number of new titles, total print runs, revenue by category and publisher",
+      "Newspaper and periodical data: count of licensed newspapers and magazines, circulation statistics, industry revenue",
+      "Digital publishing: total output value of digital publishing industry, e-book, online audio/video, and mobile reading data",
+      "Copyright registration: annual copyright registrations, enforcement actions, anti-piracy statistics",
+      "Publishing license information: lists of licensed publishers, distribution enterprises, and printing companies",
+      "Industry annual reports: comprehensive reports on China's press and publication industry development",
+      "Import/export of publications: statistics on imported and exported books, periodicals, and digital content"
+    ],
+    "zh": [
+      "游戏版号审批：每月及年度国产及进口游戏版号审批名单——中国游戏市场分析的关键数据",
+      "图书出版统计：新书品种数、总印数、按类别和出版社分类的出版收入",
+      "报纸期刊数据：持证报纸和期刊数量、发行量统计、行业收入",
+      "数字出版：数字出版产业总产出、电子书、网络音视频和移动阅读数据",
+      "版权登记：年度版权登记数量、执法行动、打击盗版统计",
+      "出版许可信息：持证出版单位、发行企业和印刷公司名单",
+      "行业年度报告：中国新闻出版业发展综合报告",
+      "出版物进出口：图书、期刊及数字内容进出口统计数据"
+    ]
+  }
+}
