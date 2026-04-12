@@ -1,0 +1,74 @@
+{
+  "id": "china-cmdc",
+  "name": {
+    "en": "Chinese Center for Disease Control and Prevention",
+    "zh": "中国疾病预防控制中心"
+  },
+  "description": {
+    "en": "The Chinese Center for Disease Control and Prevention (China CDC) is the national public health institution under the National Health Commission, responsible for disease surveillance, outbreak investigation, prevention science, and public health emergency response across China. China CDC operates the National Notifiable Disease Reporting System covering 40+ statutory infectious diseases and publishes official epidemiological data, outbreak investigation reports, immunization coverage statistics, chronic disease prevalence surveys, and environmental health assessments. It coordinates national immunization programs, infectious disease monitoring networks spanning 31 provinces, and rapid response teams for public health emergencies. China CDC data is the primary source for WHO reporting on disease trends in China and is widely used in global epidemiological research.",
+    "zh": "中国疾病预防控制中心（中国疾控中心）是国家卫生健康委员会直属的国家公共卫生机构，负责全国疾病监测、疫情调查、预防科学和突发公共卫生事件应对。运营覆盖40余种法定传染病的全国传染病报告管理系统，发布官方流行病学数据、疫情调查报告、免疫规划覆盖率统计、慢性病患病率调查和环境健康评估。协调覆盖31个省份的国家免疫规划和传染病监测网络，以及突发公共卫生事件快速响应队伍。中国疾控中心数据是向世卫组织报告中国疾病趋势的主要来源，在全球流行病学研究中被广泛使用。"
+  },
+  "website": "http://www.chinacdc.cn/",
+  "data_url": "http://www.chinacdc.cn/jbczfz/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "demographics",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国疾控中心",
+    "China CDC",
+    "CMDC",
+    "疾病预防控制",
+    "disease control",
+    "传染病监测",
+    "infectious disease surveillance",
+    "法定传染病",
+    "notifiable diseases",
+    "免疫规划",
+    "national immunization program",
+    "疫情报告",
+    "outbreak report",
+    "慢性病",
+    "chronic disease",
+    "公共卫生",
+    "public health",
+    "流行病学",
+    "epidemiology",
+    "疫苗接种率",
+    "vaccination coverage",
+    "突发公共卫生事件",
+    "public health emergency",
+    "结核病",
+    "tuberculosis",
+    "艾滋病",
+    "HIV-AIDS"
+  ],
+  "data_content": {
+    "en": [
+      "National Notifiable Disease Reporting System (NNDRS): monthly incidence and mortality statistics for 40+ statutory infectious diseases including tuberculosis, hepatitis A-E, HIV/AIDS, influenza, dengue fever, hand-foot-mouth disease, and others reported by hospitals nationwide",
+      "Immunization coverage surveys: annual national and provincial vaccination coverage rates for childhood vaccines in the Expanded Program on Immunization, tracking 14 vaccine-preventable diseases",
+      "Chronic disease prevalence surveys: data on hypertension, diabetes, cancer, cardiovascular disease, stroke, and chronic respiratory disease from the China Chronic Disease and Risk Factor Surveillance (CCDRFS) system",
+      "Influenza surveillance bulletin: weekly influenza-like illness rates from 554 sentinel hospitals, virus type and subtype distribution, antigenic characterization, and antiviral resistance data",
+      "Outbreak investigation reports: field epidemiology reports on disease clusters and outbreaks including source identification, transmission dynamics, attack rates, and public health response measures",
+      "National Nutrition and Health Survey (CNNHS): periodic nationwide surveys on dietary intake, nutritional status, obesity prevalence, micronutrient deficiencies, and food safety indicators",
+      "Environmental health monitoring: data on ambient air quality health impacts, drinking water safety compliance, soil contamination risks, and occupational disease incidence by industry",
+      "Behavioral risk factor surveillance: population-based survey data on smoking prevalence, alcohol consumption, physical inactivity, and other modifiable risk factors stratified by age, sex, and region"
+    ],
+    "zh": [
+      "全国传染病报告管理系统（NNDRS）：全国医院上报的结核病、甲乙丙型肝炎、艾滋病、流感、登革热、手足口病等40余种法定传染病月度发病率和死亡率统计",
+      "免疫规划覆盖率调查：国家扩大免疫规划14种疫苗可预防疾病儿童疫苗年度全国及省级接种率数据",
+      "慢性病患病率调查：来自中国慢性病及其危险因素监测（CCDRFS）系统的高血压、糖尿病、癌症、心血管病、脑卒中和慢性呼吸系统疾病患病率数据",
+      "全国流感监测周报：554家哨点医院流感样病例比例、病毒型别和亚型分布、抗原特征及抗病毒药物耐药性数据",
+      "疫情调查报告：包括病源识别、传播动态、罹患率和公共卫生应对措施的聚集性病例和疫情现场流行病学调查报告",
+      "全国营养与健康调查（CNNHS）：全国定期调查膳食摄入、营养状况、肥胖患病率、微量营养素缺乏和食品安全指标",
+      "环境健康监测：大气质量健康影响、生活饮用水卫生达标情况、土壤污染风险和按行业分类的职业病发病率数据",
+      "行为危险因素监测：按年龄、性别和地区分层的吸烟率、饮酒量、体力活动不足和其他可改变危险因素人群调查数据"
+    ]
+  }
+}

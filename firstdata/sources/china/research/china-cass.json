@@ -1,0 +1,75 @@
+{
+  "id": "china-cass",
+  "name": {
+    "en": "Chinese Academy of Social Sciences",
+    "zh": "中国社会科学院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Social Sciences (CASS) is China's highest research institution in philosophy and social sciences, directly under the State Council. CASS comprises 40 research institutes and 45 centers covering economics, law, political science, sociology, history, literature, and international studies. Its flagship publications include over 50 annual blue books (皮书) such as the China Economic Situation Analysis and Forecast (经济蓝皮书), China Society Situation Analysis and Forecast (社会蓝皮书), and China Rural Development Report. CASS manages the China Social Sciences Net (CSSN) and publishes authoritative social science research, demographic forecasts, income inequality data, and policy analysis that inform central government decision-making on major domestic and international issues.",
+    "zh": "中国社会科学院是国务院直属的全国最高哲学社会科学研究机构，下设40个研究所和45个研究中心，涵盖经济、法律、政治学、社会学、历史、文学和国际研究等领域。旗舰出版物包括50余本年度皮书，如《经济蓝皮书：中国经济形势分析与预测》《社会蓝皮书：中国社会形势分析与预测》和《中国农村发展报告》。中国社会科学院管理中国社会科学网（CSSN），发布权威社会科学研究、人口预测、收入不平等数据和政策分析，为中央政府就重大国内外问题决策提供依据。"
+  },
+  "website": "https://www.cass.cn/",
+  "data_url": "https://www.cssn.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "social",
+    "demographics",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国社会科学院",
+    "CASS",
+    "Chinese Academy of Social Sciences",
+    "经济蓝皮书",
+    "economic blue book",
+    "社会蓝皮书",
+    "social blue book",
+    "皮书系列",
+    "blue book series",
+    "社会科学",
+    "social sciences",
+    "中国经济预测",
+    "China economic forecast",
+    "收入不平等",
+    "income inequality",
+    "社会发展",
+    "social development",
+    "人口趋势",
+    "demographic trends",
+    "农村发展",
+    "rural development",
+    "城镇化研究",
+    "urbanization research",
+    "国际关系",
+    "international relations",
+    "政策研究",
+    "policy research"
+  ],
+  "data_content": {
+    "en": [
+      "China Economic Blue Book: annual GDP growth forecast, economic structure analysis, inflation projections, employment outlook, and consumption trend analysis for the following year",
+      "China Social Blue Book: annual survey data on social harmony, public satisfaction, income distribution, social stratification, education attainment, and health outcomes",
+      "China Rural Development Blue Book: data on agricultural income, rural-urban migration, land use policy implementation, rural governance quality, and poverty alleviation outcomes",
+      "China Urban Development Blue Book: city competitiveness rankings, urbanization rates, housing affordability metrics, infrastructure investment, and smart city development indicators",
+      "China Legal Development Blue Book: analysis of legislative developments, judicial reform progress, rule of law indices, and crime and litigation statistics",
+      "World Economy Blue Book: annual global economic outlook forecasts, major economy assessments, international trade trends, and geopolitical risk analysis",
+      "Population projection data: long-range demographic projections including working-age population trends, aging population statistics, total fertility rate estimates, and migration forecasts",
+      "China Social Sciences Net (CSSN): comprehensive academic database providing access to social science journal articles, working papers, and policy briefs from CASS's 40+ research institutes"
+    ],
+    "zh": [
+      "经济蓝皮书：下一年度GDP增长预测、经济结构分析、通胀预期、就业展望和消费趋势分析",
+      "社会蓝皮书：社会和谐、民众满意度、收入分配、社会分层、教育程度和健康结果年度调查数据",
+      "农村发展蓝皮书：农业收入、农村人口流动、土地利用政策执行、农村治理质量和脱贫攻坚成果数据",
+      "城市发展蓝皮书：城市竞争力排名、城镇化率、住房可负担性指标、基础设施投资和智慧城市发展指数",
+      "法治蓝皮书：立法动态、司法改革进展、法治指数及犯罪和诉讼统计分析",
+      "世界经济蓝皮书：全球经济展望年度预测、主要经济体评估、国际贸易趋势和地缘政治风险分析",
+      "人口预测数据：劳动年龄人口趋势、老龄化人口统计、总和生育率估算和人口迁移预测等长期人口预测",
+      "中国社会科学网（CSSN）：提供来自社科院40余家研究所的社会科学期刊论文、工作论文和政策简报的综合学术数据库"
+    ]
+  }
+}

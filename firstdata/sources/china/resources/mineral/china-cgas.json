@@ -1,0 +1,74 @@
+{
+  "id": "china-cgas",
+  "name": {
+    "en": "China Geological Survey",
+    "zh": "中国地质调查局"
+  },
+  "description": {
+    "en": "The China Geological Survey (CGS) is the national geological survey agency under the Ministry of Natural Resources, responsible for conducting systematic geological investigations across China's territory and exclusive economic zone. CGS carries out national basic geological surveys, regional geological mapping at 1:250,000 scale, mineral resource exploration, hydrogeological assessments, and geological hazard surveys. It manages the National Geological Data Repository and publishes authoritative data on land resources, geological hazards, groundwater, mineral resource potential, and geochemical distribution. CGS findings directly support national land use planning, mineral resource policy, disaster prevention, and environmental protection strategies.",
+    "zh": "中国地质调查局是自然资源部直属的国家地质调查机构，承担全国陆域及专属经济区系统性地质调查工作。负责开展国家基础地质调查、1:25万区域地质测量、矿产资源勘查、水文地质评价和地质灾害调查，管理全国地质资料馆，发布土地资源、地质灾害、地下水、矿产资源潜力和地球化学分布等权威数据。中国地质调查局成果直接支撑国家国土空间规划、矿产资源政策、灾害防治和环境保护战略。"
+  },
+  "website": "https://www.cgs.gov.cn/",
+  "data_url": "https://www.ngac.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "resources",
+    "environment",
+    "science"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国地质调查局",
+    "China Geological Survey",
+    "CGS",
+    "地质调查",
+    "geological survey",
+    "矿产资源勘查",
+    "mineral exploration",
+    "地质灾害",
+    "geological hazards",
+    "地下水",
+    "groundwater",
+    "水文地质",
+    "hydrogeology",
+    "区域地质",
+    "regional geology",
+    "全国地质资料馆",
+    "national geological data repository",
+    "土地资源",
+    "land resources",
+    "地球化学",
+    "geochemistry",
+    "地质图",
+    "geological map",
+    "地质构造",
+    "tectonic structure",
+    "自然资源部",
+    "Ministry of Natural Resources"
+  ],
+  "data_content": {
+    "en": [
+      "National basic geological surveys: systematic coverage of China's territory including regional geological mapping at 1:250,000 scale and 1:50,000 scale for key economic zones",
+      "Mineral resource potential assessments: evaluation reports on national mineral resource potential, reserve grades, and exploration findings organized by commodity type",
+      "Geological hazard inventory: national database of landslides, mudflows, collapses, ground subsidence, and land erosion risk zones by county",
+      "Hydrogeological surveys: groundwater resource assessments, aquifer mapping, spring discharge data, and groundwater quality monitoring results",
+      "Environmental geology reports: geological impacts on soil contamination, land degradation, coastal erosion, and urban geological risk assessment",
+      "National geological data repository (NGAC): comprehensive archive of geological survey data, drilling logs, geophysical exploration results, and geological maps accessible online",
+      "Geochemical baseline surveys: systematic soil and stream sediment geochemical data across 73 major drainage basins covering economic development zones",
+      "Marine geological surveys: seafloor topography, sediment distribution, gas hydrates, and marine mineral resource assessments in China's exclusive economic zone"
+    ],
+    "zh": [
+      "国家基础地质调查：系统覆盖全国国土的地质调查，包括1:25万区域地质测量和重点经济区1:5万测量",
+      "矿产资源潜力评价：按矿种组织的全国矿产资源潜力、储量品级和勘查成果评价报告",
+      "地质灾害清单：按县分类的全国滑坡、泥石流、崩塌、地面沉降和水土流失风险区数据库",
+      "水文地质调查：地下水资源评价、含水层分布、泉流量数据和地下水水质监测结果",
+      "环境地质报告：土壤污染、土地退化、海岸侵蚀地质影响及城市地质风险评估",
+      "全国地质资料馆（NGAC）：地质调查资料、钻孔记录、地球物理勘探成果和地质图在线综合档案",
+      "地球化学基准调查：覆盖73个主要流域和经济发展区的土壤及水系沉积物地球化学系统数据",
+      "海洋地质调查：中国专属经济区海底地形、沉积物分布、天然气水合物和海洋矿产资源评价"
+    ]
+  }
+}

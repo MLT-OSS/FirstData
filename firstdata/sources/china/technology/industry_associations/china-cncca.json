@@ -1,0 +1,72 @@
+{
+  "id": "china-cncca",
+  "name": {
+    "en": "China National Coal Association",
+    "zh": "中国煤炭工业协会"
+  },
+  "description": {
+    "en": "The China National Coal Association (CNCA) is the national industry association representing China's coal sector, the world's largest coal producer and consumer. China produces 3.5–4.0 billion tons of raw coal annually, accounting for over 50% of global output and approximately 55% of domestic primary energy consumption. CNCA publishes authoritative monthly and annual statistics on raw coal production, coal imports and exports, coal price indices, coking coal output, key enterprise financial performance, and coal industry safety metrics. Its data is widely used in global energy market analysis, carbon emissions accounting, climate policy research, and China's energy security and transition assessments.",
+    "zh": "中国煤炭工业协会是代表中国煤炭行业的全国性行业组织。中国是全球最大煤炭生产国和消费国，年产原煤35-40亿吨，占全球产量的50%以上，约占国内一次能源消费的55%。协会发布原煤产量、进出口、煤炭价格指数、焦煤产量、重点企业财务经营和煤炭行业安全指标等权威月度和年度统计数据，广泛应用于全球能源市场分析、碳排放核算、气候政策研究和中国能源安全与转型评估。"
+  },
+  "website": "http://www.coalchina.org.cn/",
+  "data_url": "http://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=10",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "economics",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国煤炭工业协会",
+    "CNCA",
+    "China National Coal Association",
+    "煤炭产量",
+    "coal production",
+    "原煤",
+    "raw coal",
+    "焦煤",
+    "coking coal",
+    "动力煤",
+    "thermal coal",
+    "煤炭价格",
+    "coal price index",
+    "煤炭进出口",
+    "coal trade",
+    "能源统计",
+    "energy statistics",
+    "碳排放",
+    "carbon emissions",
+    "能源转型",
+    "energy transition",
+    "煤矿安全",
+    "coal mine safety",
+    "秦皇岛基准价",
+    "Qinhuangdao benchmark price"
+  ],
+  "data_content": {
+    "en": [
+      "National raw coal production statistics: monthly and annual raw coal output data disaggregated by province and by enterprise ownership type (state-owned, private, joint ventures)",
+      "Coal import and export data: monthly import volumes of thermal coal and coking coal by origin country (Australia, Indonesia, Mongolia, Russia), and export volumes by destination",
+      "Coal price indices: monthly spot prices for thermal coal (Qinhuangdao 5,500 kcal/kg benchmark), coking coal, anthracite, and lignite at major domestic trading hubs",
+      "Coking coal supply-demand balance: monthly production, import, consumption, and port inventory data for metallurgical coking coal serving China's steel industry",
+      "Coal enterprise financial performance: annual data for top 50 coal companies including output, revenue, total profit, total assets, and capital investment",
+      "Coal industry safety statistics: annual data on coal mine accidents, fatalities by accident type, and improvement trends in safety performance across mine categories",
+      "Coal consumption by end-use sector: data on coal consumed by power generation, steel and coking, cement, chemicals, and residential/commercial sectors",
+      "Coal washing and processing data: annual clean coal yield rates, coking coal processing volumes, and coal quality grading statistics from major washing facilities"
+    ],
+    "zh": [
+      "全国原煤产量统计：按省份和所有制类型（国有、民营、合资）分类的月度和年度原煤产量数据",
+      "煤炭进出口数据：按来源国（澳大利亚、印度尼西亚、蒙古、俄罗斯）分类的动力煤和炼焦煤月度进口量及按目的地分类的出口量",
+      "煤炭价格指数：主要国内交易枢纽动力煤（秦皇岛5500千卡/千克基准价）、炼焦煤、无烟煤和褐煤月度现货价格",
+      "炼焦煤供需平衡：服务中国钢铁行业的冶金炼焦煤月度生产、进口、消费和港口库存数据",
+      "煤炭企业财务绩效：前50家煤炭企业产量、营收、利润总额、总资产和资本投资年度数据",
+      "煤炭行业安全统计：按事故类型分类的煤矿事故和死亡人数年度数据及各类矿井安全绩效改善趋势",
+      "分行业煤炭消费：发电、钢铁与炼焦、水泥、化工和居民/商业部门煤炭消费终端用途数据",
+      "洗煤和加工数据：主要洗煤厂年度精煤回收率、炼焦煤加工量和煤炭品质分级统计"
+    ]
+  }
+}
