@@ -1,0 +1,71 @@
+{
+  "id": "china-cfsmc",
+  "name": {
+    "en": "All-China Federation of Supply and Marketing Cooperatives",
+    "zh": "中华全国供销合作总社"
+  },
+  "description": {
+    "en": "The All-China Federation of Supply and Marketing Cooperatives (ACFSMC) is a state-controlled cooperative organization directly under the State Council, operating China's largest rural distribution and procurement network. Spanning 31 provinces with over 200,000 cooperative member organizations, ACFSMC manages agricultural input supply (fertilizers, pesticides, seeds), rural consumer goods distribution, agricultural product procurement, cold chain logistics, and rural e-commerce services. It publishes annual statistical yearbooks and periodic data on agricultural materials distribution, rural consumption, cooperative enterprise financial performance, and rural market development, covering China's vast rural population across 2,800 county-level cooperative organizations.",
+    "zh": "中华全国供销合作总社是国务院直属的国家级联合合作组织，拥有全国最大的农村流通和购销网络。覆盖31个省份、200余万个基层合作组织，负责农业生产资料（化肥、农药、种子）供应、农村消费品流通、农产品购销、冷链物流和农村电商服务。发布年度统计年鉴和阶段性农业生产资料流通、农村消费、合作社企业财务经营和农村市场发展数据，服务覆盖全国2800余个县级供销合作社组织体系。"
+  },
+  "website": "https://www.chinacoop.gov.cn/",
+  "data_url": "https://www.chinacoop.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "trade",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "全国供销合作总社",
+    "ACFSMC",
+    "供销合作社",
+    "supply-marketing cooperatives",
+    "农业生产资料",
+    "agricultural inputs",
+    "化肥流通",
+    "fertilizer distribution",
+    "农村流通",
+    "rural distribution",
+    "农产品购销",
+    "agricultural procurement",
+    "农村电商",
+    "rural e-commerce",
+    "合作社统计",
+    "cooperative statistics",
+    "农村消费",
+    "rural consumption",
+    "冷链物流",
+    "cold chain logistics",
+    "农资供应链",
+    "agricultural supply chain",
+    "县域经济",
+    "county economy"
+  ],
+  "data_content": {
+    "en": [
+      "Agricultural inputs distribution statistics: monthly and annual data on fertilizer, pesticide, seed, and farm machinery sales volume and prices through cooperative retail networks across 31 provinces",
+      "Rural consumer goods distribution: sales data for daily necessities, household goods, and processed food sold through county-level and township cooperative stores",
+      "Agricultural product procurement: annual volume and value of grain, cotton, oil crops, vegetables, fruits, and other agricultural products purchased through cooperative channels",
+      "Cooperative enterprise financial performance: revenue, profit, total assets, fixed asset investment, and employment figures for ACFSMC's nationwide enterprise network",
+      "Rural e-commerce statistics: annual online sales volume, platform usage rates, and last-mile logistics metrics for cooperative-operated e-commerce services in rural townships",
+      "Cooperative organizational data: number of county-level cooperatives, primary cooperative organizations, registered members, retail outlets, and warehousing capacity by province",
+      "Cold chain logistics capacity: refrigerated storage volume, cold-chain vehicles, and fresh agricultural product handling capacity across the cooperative distribution network",
+      "Rural market development indicators: market coverage rates, supply chain modernization progress, and service accessibility metrics for China's rural population"
+    ],
+    "zh": [
+      "农业生产资料流通统计：31省合作社零售网络化肥、农药、种子和农机具月度及年度销售量和价格数据",
+      "农村消费品流通：县乡合作社门店日用品、家用商品和加工食品销售数据",
+      "农产品购销：合作社渠道粮食、棉花、油料、蔬菜、水果等农产品年度收购量和金额",
+      "合作社企业财务绩效：全国供销系统企业网络营收、利润、总资产、固定资产投资和就业数据",
+      "农村电商统计：合作社运营电商服务年度网络销售量、平台使用率和农村乡镇最后一公里物流指标",
+      "合作社组织数据：各省县级供销合作社数量、基层合作社组织、注册社员、零售网点和仓储容量",
+      "冷链物流能力：合作社流通网络冷库容量、冷链车辆和鲜活农产品处理能力",
+      "农村市场发展指标：农村人口市场覆盖率、供应链现代化进展和服务可及性指标"
+    ]
+  }
+}
