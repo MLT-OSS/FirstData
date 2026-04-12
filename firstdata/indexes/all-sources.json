@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T06:14:09.545859+00:00",
-    "total_sources": 422,
+    "generated_at": "2026-04-12T10:03:06.297038+00:00",
+    "total_sources": 429,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5053,6 +5053,80 @@
       "file_path": "china/economy/provincial/china-ln-stats.json"
     },
     {
+      "id": "china-nanjing-stats",
+      "name": {
+        "en": "Nanjing Bureau of Statistics",
+        "zh": "南京市统计局"
+      },
+      "description": {
+        "en": "The Nanjing Bureau of Statistics is the official statistical authority for Nanjing, the capital of Jiangsu Province and one of China's most historically significant cities. As a key node of the Yangtze River Delta economic cluster, Nanjing is a major center for advanced manufacturing, higher education, and digital economy. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, innovation indicators, employment, and population for Nanjing. It releases the Nanjing Statistical Yearbook and periodic economic bulletins, serving as the authoritative source for this rapidly growing new-economy metropolis in eastern China.",
+        "zh": "南京市统计局是南京市官方统计机构。南京是江苏省省会，是中国历史最悠久的城市之一，也是长三角城市群的重要节点。南京是先进制造业、高等教育和数字经济的重要中心。统计局发布南京市GDP、工业产值、创新指标、就业及人口等全面的社会经济统计数据，出版《南京统计年鉴》及定期经济运行情况报告，是了解华东地区这一快速发展新经济都市的权威数据来源。"
+      },
+      "website": "https://tjj.nanjing.gov.cn/",
+      "data_url": "https://tjj.nanjing.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "南京统计",
+        "Nanjing statistics",
+        "南京GDP",
+        "Nanjing GDP",
+        "长三角",
+        "Yangtze River Delta",
+        "江苏经济",
+        "Jiangsu economy",
+        "南京统计年鉴",
+        "Nanjing Statistical Yearbook",
+        "数字经济",
+        "digital economy",
+        "集成电路",
+        "integrated circuits",
+        "新能源汽车",
+        "new energy vehicles",
+        "高校城市",
+        "university city",
+        "先进制造业",
+        "advanced manufacturing"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Nanjing",
+          "Industrial production: output from strategic industries including integrated circuits, new energy vehicles, biomedicine, and aerospace",
+          "Digital economy: software and information technology services revenue, digital industry output",
+          "Innovation indicators: R&D expenditure, patents granted, high-tech enterprise count",
+          "Fixed asset investment: total investment, infrastructure, real estate development, industrial projects",
+          "Retail and consumption: total retail sales of consumer goods, consumer price index",
+          "Employment and wages: employed persons, urban unemployment rate, average wages by sector",
+          "Population: resident population, household registration, urbanization rate",
+          "Foreign trade and investment: export/import volumes, actually utilized FDI",
+          "Nanjing Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：南京市按产业分类的季度和年度GDP数据",
+          "工业生产：集成电路、新能源汽车、生物医药、航空航天等战略性产业产值",
+          "数字经济：软件和信息技术服务业营业收入、数字产业产值",
+          "创新指标：研发经费支出、专利授权量、高新技术企业数量",
+          "固定资产投资：全市总投资额、基础设施、房地产开发、工业项目投资",
+          "消费与零售：社会消费品零售总额、居民消费价格指数",
+          "就业与工资：从业人员数、城镇登记失业率、各行业平均工资",
+          "人口：常住人口、户籍人口、城镇化率",
+          "对外贸易与投资：进出口总额、实际利用外商直接投资",
+          "南京统计年鉴：全市各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-nanjing-stats.json"
+    },
+    {
       "id": "china-nm-stats",
       "name": {
         "en": "Inner Mongolia Bureau of Statistics",
@@ -5679,6 +5753,83 @@
       "file_path": "china/economy/provincial/china-sn-stats.json"
     },
     {
+      "id": "china-suzhou-stats",
+      "name": {
+        "en": "Suzhou Bureau of Statistics",
+        "zh": "苏州市统计局"
+      },
+      "description": {
+        "en": "The Suzhou Bureau of Statistics is the official statistical authority for Suzhou, a prefecture-level city in Jiangsu Province and one of China's most economically powerful cities. Despite not being a provincial capital, Suzhou consistently ranks among China's top five cities by GDP. It is a global manufacturing powerhouse — particularly for electronics, semiconductors, and precision manufacturing — and home to the Suzhou Industrial Park (SIP), a flagship China-Singapore cooperation project. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, foreign investment, trade, and population for Suzhou, and releases the Suzhou Statistical Yearbook as the authoritative data source for this export-oriented economic giant.",
+        "zh": "苏州市统计局是苏州市官方统计机构。苏州是江苏省地级市，也是中国经济最强劲的城市之一。尽管不是省会城市，苏州的GDP长期位居全国前五。苏州是全球重要的制造业基地，尤其在电子、半导体和精密制造领域举足轻重，拥有中国-新加坡合作旗舰项目苏州工业园区（SIP）。统计局发布苏州市GDP、工业产值、外商投资、贸易及人口等全面的社会经济统计数据，出版《苏州统计年鉴》，是了解这一出口导向型经济强市的权威数据来源。"
+      },
+      "website": "http://tjj.suzhou.gov.cn/",
+      "data_url": "http://tjj.suzhou.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "苏州统计",
+        "Suzhou statistics",
+        "苏州GDP",
+        "Suzhou GDP",
+        "苏州工业园区",
+        "Suzhou Industrial Park",
+        "SIP",
+        "中新合作",
+        "China-Singapore cooperation",
+        "制造业",
+        "manufacturing",
+        "电子产业",
+        "electronics industry",
+        "半导体",
+        "semiconductor",
+        "长三角",
+        "Yangtze River Delta",
+        "苏州统计年鉴",
+        "Suzhou Statistical Yearbook",
+        "外资企业",
+        "foreign-invested enterprises",
+        "精密制造",
+        "precision manufacturing"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Suzhou — one of China's highest-GDP non-capital cities",
+          "Industrial production: output from core industries including electronics, semiconductor, precision manufacturing, and biomedicine",
+          "Suzhou Industrial Park (SIP): dedicated statistics on China's flagship China-Singapore cooperation development zone",
+          "Foreign investment: actual utilized FDI, number of foreign-invested enterprises, investment by source country",
+          "Foreign trade: import/export volumes — Suzhou is one of China's top export cities",
+          "Fixed asset investment: total investment, industrial parks investment, infrastructure projects",
+          "Retail and consumption: total retail sales of consumer goods, consumer price index",
+          "Employment and wages: employed persons, urban unemployment rate, average wages by sector",
+          "Population: resident population, household registration, urbanization — significant migrant worker population",
+          "Suzhou Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：苏州市按产业分类的季度和年度GDP数据——中国GDP最高的非省会城市之一",
+          "工业生产：电子、半导体、精密制造、生物医药等核心行业产值",
+          "苏州工业园区（SIP）：中国旗舰中新合作开发区专项统计数据",
+          "外商投资：实际利用外商直接投资、外资企业数量、按来源国分类的投资",
+          "对外贸易：进出口总量——苏州是中国出口重镇之一",
+          "固定资产投资：全市总投资额、工业园区投资、基础设施项目",
+          "消费与零售：社会消费品零售总额、居民消费价格指数",
+          "就业与工资：从业人员数、城镇登记失业率、各行业平均工资",
+          "人口：常住人口、户籍人口、城镇化率——外来务工人员规模庞大",
+          "苏州统计年鉴：全市各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-suzhou-stats.json"
+    },
+    {
       "id": "china-sx-stats",
       "name": {
         "en": "Shanxi Bureau of Statistics",
@@ -5825,6 +5976,156 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-tj-stats.json"
+    },
+    {
+      "id": "china-wuhan-stats",
+      "name": {
+        "en": "Wuhan Bureau of Statistics",
+        "zh": "武汉市统计局"
+      },
+      "description": {
+        "en": "The Wuhan Bureau of Statistics is the official statistical authority for Wuhan, the capital of Hubei Province and the largest city in Central China. Strategically located at the confluence of the Han and Yangtze Rivers, Wuhan is a major industrial, scientific, and transportation hub. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, high-tech industries, higher education indicators, employment, and population for Wuhan. It releases the Wuhan Statistical Yearbook and monthly economic reports, providing authoritative data on one of China's most significant inland metropolises and a key node of the Yangtze River Economic Belt.",
+        "zh": "武汉市统计局是武汉市官方统计机构。武汉是湖北省省会，华中地区最大城市，地处汉江与长江交汇处，是中国重要的工业、科教和交通枢纽。统计局发布武汉市GDP、工业产值、高新技术产业、高等教育指标、就业及人口等全面的社会经济统计数据，出版《武汉统计年鉴》及月度经济运行情况报告，是了解长江经济带重要节点城市——武汉的权威数据来源。"
+      },
+      "website": "https://tjj.wuhan.gov.cn/",
+      "data_url": "https://tjj.wuhan.gov.cn/zfxxgk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "武汉统计",
+        "Wuhan statistics",
+        "武汉GDP",
+        "Wuhan GDP",
+        "华中经济",
+        "Central China economy",
+        "长江经济带",
+        "Yangtze River Economic Belt",
+        "武汉统计年鉴",
+        "Wuhan Statistical Yearbook",
+        "高新技术产业",
+        "high-tech industries",
+        "光谷",
+        "Optics Valley",
+        "汽车产业",
+        "automobile industry",
+        "钢铁工业",
+        "steel industry",
+        "武汉大学城",
+        "university city"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Wuhan",
+          "Industrial production: output from major sectors including automobiles, steel, electronics, and optoelectronics (Optics Valley)",
+          "High-tech industries: output and investment in high-tech manufacturing, semiconductor, biopharmaceutical, and AI industries",
+          "Fixed asset investment: total investment, infrastructure projects, real estate development",
+          "Retail and consumption: total retail sales, consumer price index for Wuhan",
+          "Employment and wages: employed persons, urban unemployment, average wages across sectors",
+          "Population and education: resident population, higher education enrollment — Wuhan has one of China's largest university populations",
+          "Foreign trade and investment: export/import, FDI inflows from overseas enterprises",
+          "Fiscal revenue: general public budget revenue and expenditure for Wuhan municipality",
+          "Wuhan Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：武汉市按产业分类的季度和年度GDP数据",
+          "工业生产：汽车、钢铁、电子、光电子（光谷）等主要行业产值",
+          "高新技术产业：高新技术制造业、半导体、生物医药、人工智能产业产值及投资",
+          "固定资产投资：全市总投资额、基础设施项目、房地产开发",
+          "消费与零售：社会消费品零售总额、武汉市居民消费价格指数",
+          "就业与工资：从业人员数、城镇登记失业率、各行业平均工资",
+          "人口与教育：常住人口、高等院校在校生数——武汉是中国在校大学生规模最大的城市之一",
+          "对外贸易与投资：进出口总额、外商直接投资",
+          "财政收入：武汉市一般公共预算收入和支出",
+          "武汉统计年鉴：全市各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-wuhan-stats.json"
+    },
+    {
+      "id": "china-xian-stats",
+      "name": {
+        "en": "Xi'an Bureau of Statistics",
+        "zh": "西安市统计局"
+      },
+      "description": {
+        "en": "The Xi'an Bureau of Statistics is the official statistical authority for Xi'an (Shaanxi Province capital), one of China's most ancient capitals and now a rapidly modernizing city at the heart of the Belt and Road Initiative. Xi'an is a major center for aerospace, defense, high-tech manufacturing, and tourism. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial production, aerospace and defense output, tourism, employment, and population for Xi'an. It releases the Xi'an Statistical Yearbook and periodic economic reports, providing authoritative data for this growing western China hub and the core city of the Guanzhong Plain urban agglomeration.",
+        "zh": "西安市统计局是西安市官方统计机构。西安是陕西省省会，中国最重要的历史古都之一，也是\"一带一路\"倡议的核心城市，现已成为快速现代化的重要城市。西安是航空航天、国防、高新技术制造和旅游业的重要中心。统计局发布西安市GDP、工业生产、航空航天与国防产值、旅游业、就业及人口等全面的社会经济统计数据，出版《西安统计年鉴》及定期经济运行情况报告，是了解关中平原城市群核心城市和西部重要增长极的权威数据来源。"
+      },
+      "website": "http://tjj.xa.gov.cn/",
+      "data_url": "http://tjj.xa.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "西安统计",
+        "Xi'an statistics",
+        "西安GDP",
+        "Xian GDP",
+        "关中平原城市群",
+        "Guanzhong urban agglomeration",
+        "西部大开发",
+        "Western China development",
+        "一带一路",
+        "Belt and Road Initiative",
+        "西安统计年鉴",
+        "Xian Statistical Yearbook",
+        "航空航天",
+        "aerospace",
+        "军工产业",
+        "defense industry",
+        "旅游经济",
+        "tourism economy",
+        "半导体",
+        "semiconductor",
+        "高新区",
+        "high-tech zone"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Xi'an",
+          "Industrial production: output from key sectors including aerospace, defense, electronics, and semiconductor manufacturing",
+          "High-tech industries: Xi'an High-tech Zone output, new energy, artificial intelligence, biopharmaceuticals",
+          "Tourism statistics: domestic and international tourist arrivals, tourism revenue — Xi'an is a top global heritage destination",
+          "Fixed asset investment: total investment, infrastructure projects including Silk Road-related corridors",
+          "Retail and consumption: total retail sales of consumer goods, consumer price index",
+          "Employment and higher education: employed persons, university enrollment — Xi'an has China's highest density of universities per capita",
+          "Population: resident population, household registration, urbanization rate",
+          "Foreign trade: export/import volumes, cross-border e-commerce, FDI",
+          "Xi'an Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：西安市按产业分类的季度和年度GDP数据",
+          "工业生产：航空航天、国防、电子、半导体制造等关键行业产值",
+          "高新技术产业：西安高新区产值、新能源、人工智能、生物医药产业",
+          "旅游统计：国内外游客接待量、旅游收入——西安是全球顶级文化遗产旅游目的地",
+          "固定资产投资：全市总投资额、丝路相关走廊等基础设施项目",
+          "消费与零售：社会消费品零售总额、居民消费价格指数",
+          "就业与高等教育：从业人员数、高校在校生人数——西安人均高校密度居全国前列",
+          "人口：常住人口、户籍人口、城镇化率",
+          "对外贸易：进出口总量、跨境电商、外商直接投资",
+          "西安统计年鉴：全市各类统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-xian-stats.json"
     },
     {
       "id": "china-xj-stats",
@@ -6372,6 +6673,79 @@
       },
       "has_api": false,
       "file_path": "china/economy/trade/china-cflp.json"
+    },
+    {
+      "id": "china-cfsmc",
+      "name": {
+        "en": "All-China Federation of Supply and Marketing Cooperatives",
+        "zh": "中华全国供销合作总社"
+      },
+      "description": {
+        "en": "The All-China Federation of Supply and Marketing Cooperatives (ACFSMC) is a state-controlled cooperative organization directly under the State Council, operating China's largest rural distribution and procurement network. Spanning 31 provinces with over 200,000 cooperative member organizations, ACFSMC manages agricultural input supply (fertilizers, pesticides, seeds), rural consumer goods distribution, agricultural product procurement, cold chain logistics, and rural e-commerce services. It publishes annual statistical yearbooks and periodic data on agricultural materials distribution, rural consumption, cooperative enterprise financial performance, and rural market development, covering China's vast rural population across 2,800 county-level cooperative organizations.",
+        "zh": "中华全国供销合作总社是国务院直属的国家级联合合作组织，拥有全国最大的农村流通和购销网络。覆盖31个省份、200余万个基层合作组织，负责农业生产资料（化肥、农药、种子）供应、农村消费品流通、农产品购销、冷链物流和农村电商服务。发布年度统计年鉴和阶段性农业生产资料流通、农村消费、合作社企业财务经营和农村市场发展数据，服务覆盖全国2800余个县级供销合作社组织体系。"
+      },
+      "website": "https://www.chinacoop.gov.cn/",
+      "data_url": "https://www.chinacoop.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "trade",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "全国供销合作总社",
+        "ACFSMC",
+        "供销合作社",
+        "supply-marketing cooperatives",
+        "农业生产资料",
+        "agricultural inputs",
+        "化肥流通",
+        "fertilizer distribution",
+        "农村流通",
+        "rural distribution",
+        "农产品购销",
+        "agricultural procurement",
+        "农村电商",
+        "rural e-commerce",
+        "合作社统计",
+        "cooperative statistics",
+        "农村消费",
+        "rural consumption",
+        "冷链物流",
+        "cold chain logistics",
+        "农资供应链",
+        "agricultural supply chain",
+        "县域经济",
+        "county economy"
+      ],
+      "data_content": {
+        "en": [
+          "Agricultural inputs distribution statistics: monthly and annual data on fertilizer, pesticide, seed, and farm machinery sales volume and prices through cooperative retail networks across 31 provinces",
+          "Rural consumer goods distribution: sales data for daily necessities, household goods, and processed food sold through county-level and township cooperative stores",
+          "Agricultural product procurement: annual volume and value of grain, cotton, oil crops, vegetables, fruits, and other agricultural products purchased through cooperative channels",
+          "Cooperative enterprise financial performance: revenue, profit, total assets, fixed asset investment, and employment figures for ACFSMC's nationwide enterprise network",
+          "Rural e-commerce statistics: annual online sales volume, platform usage rates, and last-mile logistics metrics for cooperative-operated e-commerce services in rural townships",
+          "Cooperative organizational data: number of county-level cooperatives, primary cooperative organizations, registered members, retail outlets, and warehousing capacity by province",
+          "Cold chain logistics capacity: refrigerated storage volume, cold-chain vehicles, and fresh agricultural product handling capacity across the cooperative distribution network",
+          "Rural market development indicators: market coverage rates, supply chain modernization progress, and service accessibility metrics for China's rural population"
+        ],
+        "zh": [
+          "农业生产资料流通统计：31省合作社零售网络化肥、农药、种子和农机具月度及年度销售量和价格数据",
+          "农村消费品流通：县乡合作社门店日用品、家用商品和加工食品销售数据",
+          "农产品购销：合作社渠道粮食、棉花、油料、蔬菜、水果等农产品年度收购量和金额",
+          "合作社企业财务绩效：全国供销系统企业网络营收、利润、总资产、固定资产投资和就业数据",
+          "农村电商统计：合作社运营电商服务年度网络销售量、平台使用率和农村乡镇最后一公里物流指标",
+          "合作社组织数据：各省县级供销合作社数量、基层合作社组织、注册社员、零售网点和仓储容量",
+          "冷链物流能力：合作社流通网络冷库容量、冷链车辆和鲜活农产品处理能力",
+          "农村市场发展指标：农村人口市场覆盖率、供应链现代化进展和服务可及性指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/trade/china-cfsmc.json"
     },
     {
       "id": "china-gacc",
@@ -8705,6 +9079,78 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-mva.json"
+    },
+    {
+      "id": "china-napp",
+      "name": {
+        "en": "National Administration of Press and Publication",
+        "zh": "国家新闻出版署"
+      },
+      "description": {
+        "en": "The National Administration of Press and Publication (NAPP) is China's central government authority responsible for regulating and overseeing the press, publication, copyright, and online publishing industries. Established under the State Council and merged with the General Administration of Press and Publication in 2018, NAPP issues statistics and regulatory data on books, newspapers, periodicals, digital publications, game approvals, and copyright registrations in China. It provides authoritative data on the scale and structure of China's publishing industry, the number of licensed publications, video game approval lists, and copyright protection enforcement — essential reference for China's content and media market research.",
+        "zh": "国家新闻出版署（NAPP）是中国负责监管新闻出版、版权及网络出版产业的中央政府机构。根据国务院机构改革，原国家新闻出版广电总局出版职能并入，2018年重新组建。国家新闻出版署发布图书、报纸、期刊、数字出版物、游戏版号审批及版权登记等统计数据，是中国出版业规模与结构、持证出版单位数量、电子游戏审批名单及版权保护执法的权威数据来源，是研究中国内容产业和媒体市场的重要参考。"
+      },
+      "website": "https://www.nppa.gov.cn/",
+      "data_url": "https://www.nppa.gov.cn/xxfb/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "media",
+        "culture",
+        "governance",
+        "technology"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "新闻出版",
+        "press and publication",
+        "游戏版号",
+        "game approval",
+        "版权登记",
+        "copyright registration",
+        "图书出版",
+        "book publishing",
+        "数字出版",
+        "digital publishing",
+        "期刊",
+        "periodicals",
+        "报纸",
+        "newspapers",
+        "网络游戏",
+        "online games",
+        "内容产业",
+        "content industry",
+        "出版统计",
+        "publishing statistics",
+        "媒体监管",
+        "media regulation"
+      ],
+      "data_content": {
+        "en": [
+          "Video game approvals: monthly and annual lists of approved domestic and imported video games (版号) — critical data for China gaming market analysis",
+          "Book publication statistics: number of new titles, total print runs, revenue by category and publisher",
+          "Newspaper and periodical data: count of licensed newspapers and magazines, circulation statistics, industry revenue",
+          "Digital publishing: total output value of digital publishing industry, e-book, online audio/video, and mobile reading data",
+          "Copyright registration: annual copyright registrations, enforcement actions, anti-piracy statistics",
+          "Publishing license information: lists of licensed publishers, distribution enterprises, and printing companies",
+          "Industry annual reports: comprehensive reports on China's press and publication industry development",
+          "Import/export of publications: statistics on imported and exported books, periodicals, and digital content"
+        ],
+        "zh": [
+          "游戏版号审批：每月及年度国产及进口游戏版号审批名单——中国游戏市场分析的关键数据",
+          "图书出版统计：新书品种数、总印数、按类别和出版社分类的出版收入",
+          "报纸期刊数据：持证报纸和期刊数量、发行量统计、行业收入",
+          "数字出版：数字出版产业总产出、电子书、网络音视频和移动阅读数据",
+          "版权登记：年度版权登记数量、执法行动、打击盗版统计",
+          "出版许可信息：持证出版单位、发行企业和印刷公司名单",
+          "行业年度报告：中国新闻出版业发展综合报告",
+          "出版物进出口：图书、期刊及数字内容进出口统计数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-napp.json"
     },
     {
       "id": "china-ncac",
@@ -11236,6 +11682,82 @@
       },
       "has_api": false,
       "file_path": "china/resources/forestry/china-nfga.json"
+    },
+    {
+      "id": "china-cgas",
+      "name": {
+        "en": "China Geological Survey",
+        "zh": "中国地质调查局"
+      },
+      "description": {
+        "en": "The China Geological Survey (CGS) is the national geological survey agency under the Ministry of Natural Resources, responsible for conducting systematic geological investigations across China's territory and exclusive economic zone. CGS carries out national basic geological surveys, regional geological mapping at 1:250,000 scale, mineral resource exploration, hydrogeological assessments, and geological hazard surveys. It manages the National Geological Data Repository and publishes authoritative data on land resources, geological hazards, groundwater, mineral resource potential, and geochemical distribution. CGS findings directly support national land use planning, mineral resource policy, disaster prevention, and environmental protection strategies.",
+        "zh": "中国地质调查局是自然资源部直属的国家地质调查机构，承担全国陆域及专属经济区系统性地质调查工作。负责开展国家基础地质调查、1:25万区域地质测量、矿产资源勘查、水文地质评价和地质灾害调查，管理全国地质资料馆，发布土地资源、地质灾害、地下水、矿产资源潜力和地球化学分布等权威数据。中国地质调查局成果直接支撑国家国土空间规划、矿产资源政策、灾害防治和环境保护战略。"
+      },
+      "website": "https://www.cgs.gov.cn/",
+      "data_url": "https://www.cgs.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "resources",
+        "environment",
+        "science"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国地质调查局",
+        "China Geological Survey",
+        "CGS",
+        "地质调查",
+        "geological survey",
+        "矿产资源勘查",
+        "mineral exploration",
+        "地质灾害",
+        "geological hazards",
+        "地下水",
+        "groundwater",
+        "水文地质",
+        "hydrogeology",
+        "区域地质",
+        "regional geology",
+        "全国地质资料馆",
+        "national geological data repository",
+        "土地资源",
+        "land resources",
+        "地球化学",
+        "geochemistry",
+        "地质图",
+        "geological map",
+        "地质构造",
+        "tectonic structure",
+        "自然资源部",
+        "Ministry of Natural Resources"
+      ],
+      "data_content": {
+        "en": [
+          "National basic geological surveys: systematic coverage of China's territory including regional geological mapping at 1:250,000 scale and 1:50,000 scale for key economic zones",
+          "Mineral resource potential assessments: evaluation reports on national mineral resource potential, reserve grades, and exploration findings organized by commodity type",
+          "Geological hazard inventory: national database of landslides, mudflows, collapses, ground subsidence, and land erosion risk zones by county",
+          "Hydrogeological surveys: groundwater resource assessments, aquifer mapping, spring discharge data, and groundwater quality monitoring results",
+          "Environmental geology reports: geological impacts on soil contamination, land degradation, coastal erosion, and urban geological risk assessment",
+          "National geological data repository (NGAC): comprehensive archive of geological survey data, drilling logs, geophysical exploration results, and geological maps accessible online",
+          "Geochemical baseline surveys: systematic soil and stream sediment geochemical data across 73 major drainage basins covering economic development zones",
+          "Marine geological surveys: seafloor topography, sediment distribution, gas hydrates, and marine mineral resource assessments in China's exclusive economic zone"
+        ],
+        "zh": [
+          "国家基础地质调查：系统覆盖全国国土的地质调查，包括1:25万区域地质测量和重点经济区1:5万测量",
+          "矿产资源潜力评价：按矿种组织的全国矿产资源潜力、储量品级和勘查成果评价报告",
+          "地质灾害清单：按县分类的全国滑坡、泥石流、崩塌、地面沉降和水土流失风险区数据库",
+          "水文地质调查：地下水资源评价、含水层分布、泉流量数据和地下水水质监测结果",
+          "环境地质报告：土壤污染、土地退化、海岸侵蚀地质影响及城市地质风险评估",
+          "全国地质资料馆（NGAC）：地质调查资料、钻孔记录、地球物理勘探成果和地质图在线综合档案",
+          "地球化学基准调查：覆盖73个主要流域和经济发展区的土壤及水系沉积物地球化学系统数据",
+          "海洋地质调查：中国专属经济区海底地形、沉积物分布、天然气水合物和海洋矿产资源评价"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/mineral/china-cgas.json"
     },
     {
       "id": "china-cnia",
