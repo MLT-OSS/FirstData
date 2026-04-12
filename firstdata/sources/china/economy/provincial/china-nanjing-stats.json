@@ -1,0 +1,72 @@
+{
+  "id": "china-nanjing-stats",
+  "name": {
+    "en": "Nanjing Bureau of Statistics",
+    "zh": "南京市统计局"
+  },
+  "description": {
+    "en": "The Nanjing Bureau of Statistics is the official statistical authority for Nanjing, the capital of Jiangsu Province and one of China's most historically significant cities. As a key node of the Yangtze River Delta economic cluster, Nanjing is a major center for advanced manufacturing, higher education, and digital economy. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, innovation indicators, employment, and population for Nanjing. It releases the Nanjing Statistical Yearbook and periodic economic bulletins, serving as the authoritative source for this rapidly growing new-economy metropolis in eastern China.",
+    "zh": "南京市统计局是南京市官方统计机构。南京是江苏省省会，是中国历史最悠久的城市之一，也是长三角城市群的重要节点。南京是先进制造业、高等教育和数字经济的重要中心。统计局发布南京市GDP、工业产值、创新指标、就业及人口等全面的社会经济统计数据，出版《南京统计年鉴》及定期经济运行情况报告，是了解华东地区这一快速发展新经济都市的权威数据来源。"
+  },
+  "website": "https://tjj.nanjing.gov.cn/",
+  "data_url": "https://tjj.nanjing.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "南京统计",
+    "Nanjing statistics",
+    "南京GDP",
+    "Nanjing GDP",
+    "长三角",
+    "Yangtze River Delta",
+    "江苏经济",
+    "Jiangsu economy",
+    "南京统计年鉴",
+    "Nanjing Statistical Yearbook",
+    "数字经济",
+    "digital economy",
+    "集成电路",
+    "integrated circuits",
+    "新能源汽车",
+    "new energy vehicles",
+    "高校城市",
+    "university city",
+    "先进制造业",
+    "advanced manufacturing"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Nanjing",
+      "Industrial production: output from strategic industries including integrated circuits, new energy vehicles, biomedicine, and aerospace",
+      "Digital economy: software and information technology services revenue, digital industry output",
+      "Innovation indicators: R&D expenditure, patents granted, high-tech enterprise count",
+      "Fixed asset investment: total investment, infrastructure, real estate development, industrial projects",
+      "Retail and consumption: total retail sales of consumer goods, consumer price index",
+      "Employment and wages: employed persons, urban unemployment rate, average wages by sector",
+      "Population: resident population, household registration, urbanization rate",
+      "Foreign trade and investment: export/import volumes, actually utilized FDI",
+      "Nanjing Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：南京市按产业分类的季度和年度GDP数据",
+      "工业生产：集成电路、新能源汽车、生物医药、航空航天等战略性产业产值",
+      "数字经济：软件和信息技术服务业营业收入、数字产业产值",
+      "创新指标：研发经费支出、专利授权量、高新技术企业数量",
+      "固定资产投资：全市总投资额、基础设施、房地产开发、工业项目投资",
+      "消费与零售：社会消费品零售总额、居民消费价格指数",
+      "就业与工资：从业人员数、城镇登记失业率、各行业平均工资",
+      "人口：常住人口、户籍人口、城镇化率",
+      "对外贸易与投资：进出口总额、实际利用外商直接投资",
+      "南京统计年鉴：全市各类统计数据的综合年度汇编"
+    ]
+  }
+}

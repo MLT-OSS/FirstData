@@ -1,0 +1,72 @@
+{
+  "id": "china-wuhan-stats",
+  "name": {
+    "en": "Wuhan Bureau of Statistics",
+    "zh": "武汉市统计局"
+  },
+  "description": {
+    "en": "The Wuhan Bureau of Statistics is the official statistical authority for Wuhan, the capital of Hubei Province and the largest city in Central China. Strategically located at the confluence of the Han and Yangtze Rivers, Wuhan is a major industrial, scientific, and transportation hub. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, high-tech industries, higher education indicators, employment, and population for Wuhan. It releases the Wuhan Statistical Yearbook and monthly economic reports, providing authoritative data on one of China's most significant inland metropolises and a key node of the Yangtze River Economic Belt.",
+    "zh": "武汉市统计局是武汉市官方统计机构。武汉是湖北省省会，华中地区最大城市，地处汉江与长江交汇处，是中国重要的工业、科教和交通枢纽。统计局发布武汉市GDP、工业产值、高新技术产业、高等教育指标、就业及人口等全面的社会经济统计数据，出版《武汉统计年鉴》及月度经济运行情况报告，是了解长江经济带重要节点城市——武汉的权威数据来源。"
+  },
+  "website": "https://tjj.wuhan.gov.cn/",
+  "data_url": "https://tjj.wuhan.gov.cn/zfxxgk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "武汉统计",
+    "Wuhan statistics",
+    "武汉GDP",
+    "Wuhan GDP",
+    "华中经济",
+    "Central China economy",
+    "长江经济带",
+    "Yangtze River Economic Belt",
+    "武汉统计年鉴",
+    "Wuhan Statistical Yearbook",
+    "高新技术产业",
+    "high-tech industries",
+    "光谷",
+    "Optics Valley",
+    "汽车产业",
+    "automobile industry",
+    "钢铁工业",
+    "steel industry",
+    "武汉大学城",
+    "university city"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Wuhan",
+      "Industrial production: output from major sectors including automobiles, steel, electronics, and optoelectronics (Optics Valley)",
+      "High-tech industries: output and investment in high-tech manufacturing, semiconductor, biopharmaceutical, and AI industries",
+      "Fixed asset investment: total investment, infrastructure projects, real estate development",
+      "Retail and consumption: total retail sales, consumer price index for Wuhan",
+      "Employment and wages: employed persons, urban unemployment, average wages across sectors",
+      "Population and education: resident population, higher education enrollment — Wuhan has one of China's largest university populations",
+      "Foreign trade and investment: export/import, FDI inflows from overseas enterprises",
+      "Fiscal revenue: general public budget revenue and expenditure for Wuhan municipality",
+      "Wuhan Statistical Yearbook: comprehensive annual compilation of all municipal statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：武汉市按产业分类的季度和年度GDP数据",
+      "工业生产：汽车、钢铁、电子、光电子（光谷）等主要行业产值",
+      "高新技术产业：高新技术制造业、半导体、生物医药、人工智能产业产值及投资",
+      "固定资产投资：全市总投资额、基础设施项目、房地产开发",
+      "消费与零售：社会消费品零售总额、武汉市居民消费价格指数",
+      "就业与工资：从业人员数、城镇登记失业率、各行业平均工资",
+      "人口与教育：常住人口、高等院校在校生数——武汉是中国在校大学生规模最大的城市之一",
+      "对外贸易与投资：进出口总额、外商直接投资",
+      "财政收入：武汉市一般公共预算收入和支出",
+      "武汉统计年鉴：全市各类统计数据的综合年度汇编"
+    ]
+  }
+}
