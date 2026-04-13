@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T10:04:17.439164+00:00",
-    "total_sources": 434,
+    "generated_at": "2026-04-13T10:04:52.513862+00:00",
+    "total_sources": 438,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3498,6 +3498,81 @@
       },
       "has_api": false,
       "file_path": "china/economy/macro/china-sasac.json"
+    },
+    {
+      "id": "china-sic",
+      "name": {
+        "en": "State Information Center of China",
+        "zh": "国家信息中心"
+      },
+      "description": {
+        "en": "The State Information Center (SIC) of China is a government think tank directly under the National Development and Reform Commission (NDRC). Established in 1987, SIC plays a central role in macroeconomic monitoring, forecasting, and policy research for the Chinese government. It publishes authoritative economic analysis including the China Macroeconomic Outlook reports, the China Big Data Index on Economic Conditions, monthly economic situation analyses, and the Sharing Economy Development Report. SIC operates the National Comprehensive Information Platform for Economic Decision-Making and contributes to the government's five-year planning process. Its data and analysis are widely cited by Chinese policymakers, central government agencies, and international researchers studying China's economy.",
+        "zh": "国家信息中心是国家发展和改革委员会直属的政府智库，成立于1987年，在宏观经济监测、预测和政策研究方面发挥核心作用。国家信息中心发布权威经济分析报告，包括《中国宏观经济形势分析与预测》、中国经济景气监测及大数据指数、月度经济形势分析和《中国分享经济发展报告》。信息中心运营国家经济决策综合信息平台，并参与政府五年规划的编制工作，其数据和分析被中国政策制定者、中央政府各部门及国际经济研究机构广泛引用。"
+      },
+      "website": "https://www.sic.gov.cn/",
+      "data_url": "https://www.sic.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "statistics",
+        "research"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "宏观经济",
+        "macroeconomics",
+        "经济预测",
+        "economic forecast",
+        "景气监测",
+        "economic monitoring",
+        "经济形势分析",
+        "economic situation analysis",
+        "大数据指数",
+        "big data index",
+        "分享经济",
+        "sharing economy",
+        "政策研究",
+        "policy research",
+        "五年规划",
+        "five-year plan",
+        "国家信息中心",
+        "SIC",
+        "NDRC",
+        "发改委",
+        "经济决策",
+        "economic decision-making",
+        "GDP预测",
+        "GDP forecast"
+      ],
+      "data_content": {
+        "en": [
+          "China Macroeconomic Outlook: semi-annual forecast reports on GDP growth, inflation, investment, and consumption trends",
+          "Monthly economic situation analysis: near-real-time monitoring of key economic indicators including industrial output, retail sales, and fixed-asset investment",
+          "China Big Data Economic Conditions Index: data-driven composite index tracking economic sentiment from online and administrative data",
+          "Sharing Economy Development Report: annual statistics on platform economy scale, participants, and transaction volumes across ride-hailing, housing, finance, and knowledge sharing sectors",
+          "Price monitoring data: producer price index (PPI), consumer price index (CPI), and commodity price trend analysis",
+          "Regional economic analysis: comparative economic performance assessments across China's provinces and major city clusters",
+          "Five-year plan monitoring: progress tracking and evaluation data on national development targets and key indicator achievement",
+          "Energy and resource consumption forecasts: projections for coal, oil, gas, and electricity demand under different economic scenarios",
+          "Poverty alleviation and rural development statistics: rural income growth, poverty headcount reduction, and regional development gap data"
+        ],
+        "zh": [
+          "中国宏观经济展望：GDP增长、通货膨胀、投资和消费趋势半年度预测报告",
+          "月度经济形势分析：工业产出、零售额和固定资产投资等关键经济指标的近实时监测",
+          "中国大数据经济景气指数：基于网络和行政数据的经济景气复合追踪指数",
+          "分享经济发展报告：网约车、住宿、金融、知识共享等领域平台经济规模、参与人数和交易额年度统计",
+          "价格监测数据：生产者价格指数（PPI）、消费者价格指数（CPI）及大宗商品价格趋势分析",
+          "区域经济分析：全国各省份及主要城市群经济表现比较评估",
+          "五年规划监测：国家发展目标和关键指标完成情况的进展跟踪与评估数据",
+          "能源资源消耗预测：不同经济情景下煤炭、石油、天然气和电力需求预测",
+          "脱贫攻坚和农村发展统计：农村居民收入增长、贫困人口减少及区域发展差距数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-sic.json"
     },
     {
       "id": "china-ndrc",
@@ -10691,6 +10766,82 @@
       "file_path": "china/health/china-nmpa.json"
     },
     {
+      "id": "china-cata",
+      "name": {
+        "en": "China Air Transport Association",
+        "zh": "中国航空运输协会"
+      },
+      "description": {
+        "en": "The China Air Transport Association (CATA) is the national industry association representing China's civil aviation sector. Founded in 2005, CATA serves airlines, airports, aviation service providers, and related enterprises in China's rapidly growing civil aviation market. CATA publishes industry reports and statistical data covering airline passenger and cargo volumes, operational performance, aviation safety, airport throughput, ticket pricing trends, and the financial health of China's carriers. It also advocates for policy positions on behalf of the civil aviation industry and organizes capacity-building programs. CATA's data complements official CAAC statistics by providing industry-level analysis and benchmarking across China's aviation ecosystem, making it a key reference for investors, airlines, and transport policy researchers.",
+        "zh": "中国航空运输协会（CATA）是代表中国民航业的全国性行业协会，成立于2005年，为航空公司、机场、航空服务提供商及相关企业服务。CATA发布涵盖航空公司旅客和货物运输量、运营绩效、航空安全、机场吞吐量、机票价格趋势和中国航空公司财务状况的行业报告和统计数据，并代表民航业进行政策倡导、组织能力建设项目。CATA数据通过提供行业层面分析和基准对比，对官方民航局统计数据形成有效补充，是投资机构、航空公司和交通政策研究人员的重要参考。"
+      },
+      "website": "https://www.cata.org.cn/",
+      "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "transportation",
+        "industry",
+        "statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "民航",
+        "civil aviation",
+        "航空运输",
+        "air transport",
+        "航空公司",
+        "airline",
+        "机场",
+        "airport",
+        "旅客吞吐量",
+        "passenger throughput",
+        "货运量",
+        "cargo volume",
+        "航班",
+        "flight",
+        "CATA",
+        "中国航空",
+        "China aviation",
+        "机票价格",
+        "airfare",
+        "航空安全",
+        "aviation safety",
+        "运输总周转量",
+        "total traffic volume",
+        "load factor",
+        "座位利用率"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly airline passenger statistics: domestic and international passenger volumes for all Chinese carriers by route and airport",
+          "Cargo and mail traffic: air freight and mail transport volumes, growth rates, and major cargo hub performance",
+          "Total traffic volume (RTK): revenue tonne-kilometers broken down by airline, route type, and domestic versus international operations",
+          "Airline operational performance: on-time departure and arrival rates, load factors, and capacity utilization metrics",
+          "Airport throughput ranking: China's major airports ranked by annual passenger and cargo volumes",
+          "Ticket price trend analysis: average domestic and international airfare indices, seasonal fluctuation reports",
+          "Airline financial health: industry-level revenue, profit, cost structure, and fuel expenditure statistics",
+          "Aviation safety incident statistics: accident and incident reports compiled from national regulatory data",
+          "Annual China Civil Aviation Development Report: comprehensive overview of industry scale, structure, and outlook"
+        ],
+        "zh": [
+          "月度航空公司旅客统计：全国各航空公司按航线和机场分类的国内外旅客运输量",
+          "货邮运输量：航空货物和邮件运输量、增长率及主要货运枢纽表现",
+          "运输总周转量（RTK）：按航空公司、航线类型及国内外业务分类的收入吨公里数",
+          "航空公司运营绩效：准点率、客座率及运力利用率指标",
+          "机场吞吐量排名：全国主要机场年度旅客吞吐量和货运量排行",
+          "机票价格趋势分析：国内外平均票价指数及季节性波动报告",
+          "航空公司财务状况：行业整体营收、利润、成本结构和燃油支出统计",
+          "航空安全事故统计：汇编自国家监管数据的事故和事件报告",
+          "年度中国民航发展报告：行业规模、结构及发展前景综合概览"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-cata.json"
+    },
+    {
       "id": "china-mot",
       "name": {
         "en": "Ministry of Transport of China",
@@ -10767,6 +10918,84 @@
       },
       "has_api": false,
       "file_path": "china/infrastructure/china-mot.json"
+    },
+    {
+      "id": "china-msa",
+      "name": {
+        "en": "China Maritime Safety Administration",
+        "zh": "中国海事局"
+      },
+      "description": {
+        "en": "The China Maritime Safety Administration (MSA), operating under the Ministry of Transport, is the principal authority responsible for maritime safety supervision, vessel registration and inspection, seafarer certification, port state control, and navigation aid management in China. MSA publishes authoritative statistics on China's inland and coastal maritime activities, including vessel registration volumes, maritime accident statistics, seafarer certificate issuance, port state control inspection results, and pollution incident records. China operates one of the world's largest merchant fleets and busiest port systems; MSA data is therefore essential for understanding maritime safety trends, shipping industry compliance, and China's evolving role in global maritime trade. MSA also manages the Ship Automatic Identification System (AIS) data infrastructure for Chinese waters.",
+        "zh": "中国海事局隶属于交通运输部，是负责中国海事安全监管、船舶登记检验、船员证书管理、港口国监督检查和航标管理的主要权威机构。海事局发布内河和沿海航运活动权威统计数据，包括船舶登记数量、海事事故统计、船员证书签发、港口国监督检查结果和污染事故记录。中国拥有世界上最大的商船队之一和最繁忙的港口体系，因此海事局数据是了解海事安全趋势、航运行业合规状况及中国在全球海上贸易中作用的重要参考。海事局还管理中国水域的船舶自动识别系统（AIS）数据基础设施。"
+      },
+      "website": "https://www.msa.gov.cn/",
+      "data_url": "https://www.msa.gov.cn/page/zxgk/tjsj.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "transportation",
+        "safety",
+        "statistics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "海事",
+        "maritime",
+        "海事安全",
+        "maritime safety",
+        "船舶",
+        "vessel",
+        "船舶登记",
+        "ship registration",
+        "港口国监督",
+        "port state control",
+        "船员",
+        "seafarer",
+        "航运",
+        "shipping",
+        "海事事故",
+        "maritime accident",
+        "海上污染",
+        "marine pollution",
+        "AIS",
+        "内河航运",
+        "inland waterway",
+        "商船队",
+        "merchant fleet",
+        "中国海事局",
+        "MSA",
+        "海上交通",
+        "maritime traffic"
+      ],
+      "data_content": {
+        "en": [
+          "Vessel registration statistics: number and tonnage of registered ships by type (cargo, tanker, passenger, fishing) and flag",
+          "Maritime accident records: annual statistics on ship collisions, groundings, fires, sinkings, and casualties by vessel type and water area",
+          "Port state control (PSC) inspection results: deficiency rates, detention statistics, and compliance performance of foreign vessels in Chinese ports",
+          "Seafarer certification data: number of maritime professional certificates issued by grade and certificate type",
+          "Inland waterway traffic statistics: cargo volumes, vessel trips, and throughput on major Chinese rivers including the Yangtze and Pearl River systems",
+          "Coastal shipping statistics: domestic short-sea shipping volumes and major cargo route performance",
+          "Marine pollution incidents: oil spill, hazardous substance discharge, and other pollution event statistics",
+          "Navigation aid and channel data: lighthouse, buoy, and fairway maintenance statistics for Chinese waters",
+          "Annual China Maritime Development Report: comprehensive overview of China's maritime safety environment and shipping industry"
+        ],
+        "zh": [
+          "船舶登记统计：按类型（货船、油轮、客船、渔船）和船旗分类的登记船舶数量和吨位",
+          "海事事故记录：按船型和水域分类的年度船舶碰撞、搁浅、火灾、沉没及人员伤亡统计",
+          "港口国监督（PSC）检查结果：外国船舶在中国港口的缺陷率、滞留统计和合规表现",
+          "船员证书数据：按等级和证书类型颁发的水上专业证书数量",
+          "内河航运统计：长江、珠江等主要水系的货运量、船次和吞吐量",
+          "沿海航运统计：国内短程海运运量和主要货运航线表现",
+          "海洋污染事故：溢油、危险物质泄漏及其他污染事故统计",
+          "航标和航道数据：中国水域灯塔、浮标和航道维护统计",
+          "年度中国航运发展报告：中国海事安全环境和航运行业综合概览"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-msa.json"
     },
     {
       "id": "china-nra",
@@ -13827,6 +14056,81 @@
       },
       "has_api": false,
       "file_path": "china/technology/internet/china-cac.json"
+    },
+    {
+      "id": "china-cncert",
+      "name": {
+        "en": "National Computer Network Emergency Response Technical Team/Coordination Center of China",
+        "zh": "国家互联网应急中心"
+      },
+      "description": {
+        "en": "The National Computer Network Emergency Response Technical Team/Coordination Center of China (CNCERT/CC), also known as CNCERT, is China's national cybersecurity coordination body. Established in 2002 and operating under the Ministry of Industry and Information Technology, CNCERT monitors and coordinates responses to cybersecurity incidents on a national scale. It publishes authoritative annual and quarterly reports on China's internet security landscape, including statistics on malware, distributed denial-of-service (DDoS) attacks, network intrusions, phishing websites, data breaches, and vulnerability disclosures. CNCERT's annual China Internet Security Report and quarterly bulletins are key references for cybersecurity researchers, enterprises, and policymakers assessing China's cyber threat environment.",
+        "zh": "国家互联网应急中心（CNCERT/CC）是中国国家级网络安全协调机构，2002年成立，隶属于工业和信息化部，负责在全国范围内监测和协调网络安全事件响应。CNCERT发布权威的年度和季度互联网安全报告，内容涵盖恶意程序、DDoS攻击、网络入侵、仿冒网站、数据泄露和漏洞披露等统计数据。其年度《中国互联网网络安全报告》及季度通报是网络安全研究人员、企业和政策制定者评估中国网络威胁环境的重要参考。"
+      },
+      "website": "https://www.cert.org.cn/",
+      "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "security",
+        "statistics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "网络安全",
+        "cybersecurity",
+        "互联网安全",
+        "internet security",
+        "应急响应",
+        "emergency response",
+        "CNCERT",
+        "CERT",
+        "恶意程序",
+        "malware",
+        "DDoS攻击",
+        "DDoS",
+        "网络入侵",
+        "network intrusion",
+        "数据泄露",
+        "data breach",
+        "漏洞",
+        "vulnerability",
+        "网络犯罪",
+        "cybercrime",
+        "信息安全",
+        "information security",
+        "网络威胁",
+        "cyber threat"
+      ],
+      "data_content": {
+        "en": [
+          "Annual China Internet Security Report: comprehensive overview of cyber threats, incidents, and trends in China",
+          "Malware statistics: number of malicious programs detected, propagation vectors, and affected systems by type",
+          "DDoS attack data: frequency, scale, targets, and geographic distribution of distributed denial-of-service attacks",
+          "Phishing and fraud websites: monthly counts of phishing sites, fraudulent domains, and takedown statistics",
+          "Vulnerability disclosures: national vulnerability database (CNVD) statistics on software and hardware vulnerabilities reported",
+          "Network intrusion incidents: government, enterprise, and critical infrastructure breaches reported and handled",
+          "Mobile security threats: malicious apps, smartphone malware, and mobile fraud statistics",
+          "Industrial control system (ICS) security: vulnerability and incident data for critical infrastructure sectors",
+          "Quarterly internet security bulletins: near-real-time threat intelligence summaries for the Chinese internet"
+        ],
+        "zh": [
+          "年度《中国互联网网络安全报告》：全面呈现中国网络威胁、事件和趋势",
+          "恶意程序统计：按类型分类的检测到的恶意程序数量、传播途径和受影响系统",
+          "DDoS攻击数据：分布式拒绝服务攻击的频率、规模、目标及地理分布",
+          "钓鱼和欺诈网站：每月仿冒网站数量、欺诈域名及关停统计",
+          "漏洞披露：国家信息安全漏洞共享平台（CNVD）软硬件漏洞上报统计",
+          "网络入侵事件：政府、企业和关键基础设施遭受侵害及处置情况",
+          "移动安全威胁：恶意应用、手机恶意软件和移动欺诈统计",
+          "工业控制系统（ICS）安全：关键基础设施行业的漏洞和事件数据",
+          "季度互联网安全通报：中国互联网近实时威胁情报摘要"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/internet/china-cncert.json"
     },
     {
       "id": "china-cinic",

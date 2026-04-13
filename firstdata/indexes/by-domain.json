@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T10:04:17.439164+00:00",
-    "total_domains": 711,
-    "total_sources": 434,
+    "generated_at": "2026-04-13T10:04:52.513862+00:00",
+    "total_domains": 712,
+    "total_sources": 438,
     "version": "2.0"
   },
   "domains": {
@@ -6970,6 +6970,18 @@
         "data_url": "https://www.sasac.gov.cn/n2588030/index.html",
         "has_api": false,
         "file_path": "china/economy/macro/china-sasac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sic",
+        "name": {
+          "en": "State Information Center of China",
+          "zh": "国家信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sic.gov.cn/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-sic.json",
         "geographic_scope": "national"
       },
       {
@@ -17279,6 +17291,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cata",
+        "name": {
+          "en": "China Air Transport Association",
+          "zh": "中国航空运输协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-cata.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-spb",
         "name": {
           "en": "State Post Bureau of China",
@@ -23346,6 +23370,18 @@
     ],
     "research": [
       {
+        "id": "china-sic",
+        "name": {
+          "en": "State Information Center of China",
+          "zh": "国家信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sic.gov.cn/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-sic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nlc",
         "name": {
           "en": "National Library of China",
@@ -23655,6 +23691,18 @@
       }
     ],
     "safety": [
+      {
+        "id": "china-msa",
+        "name": {
+          "en": "China Maritime Safety Administration",
+          "zh": "中国海事局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.msa.gov.cn/page/zxgk/tjsj.html",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-msa.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "icao-aviation-data",
         "name": {
@@ -24020,6 +24068,20 @@
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/bloomberg-terminal-ipo.json",
         "geographic_scope": "global"
+      }
+    ],
+    "security": [
+      {
+        "id": "china-cncert",
+        "name": {
+          "en": "National Computer Network Emergency Response Technical Team/Coordination Center of China",
+          "zh": "国家互联网应急中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cncert.json",
+        "geographic_scope": "national"
       }
     ],
     "security and conflict": [
@@ -25739,6 +25801,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sic",
+        "name": {
+          "en": "State Information Center of China",
+          "zh": "国家信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sic.gov.cn/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-sic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ah-stats",
         "name": {
           "en": "Anhui Bureau of Statistics",
@@ -26303,6 +26377,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cata",
+        "name": {
+          "en": "China Air Transport Association",
+          "zh": "中国航空运输协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-cata.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-msa",
+        "name": {
+          "en": "China Maritime Safety Administration",
+          "zh": "中国海事局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.msa.gov.cn/page/zxgk/tjsj.html",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-msa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cea",
         "name": {
           "en": "China Earthquake Administration",
@@ -26336,6 +26434,18 @@
         "data_url": "https://www.isc.org.cn/yanjiu/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-isc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cncert",
+        "name": {
+          "en": "National Computer Network Emergency Response Technical Team/Coordination Center of China",
+          "zh": "国家互联网应急中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cncert.json",
         "geographic_scope": "national"
       },
       {
@@ -26925,6 +27035,18 @@
         "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
         "has_api": false,
         "file_path": "china/technology/internet/china-cac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cncert",
+        "name": {
+          "en": "National Computer Network Emergency Response Technical Team/Coordination Center of China",
+          "zh": "国家互联网应急中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cncert.json",
         "geographic_scope": "national"
       },
       {
@@ -28734,6 +28856,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cata",
+        "name": {
+          "en": "China Air Transport Association",
+          "zh": "中国航空运输协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-cata.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mot",
         "name": {
           "en": "Ministry of Transport of China",
@@ -28744,6 +28878,18 @@
         "data_url": "https://www.mot.gov.cn/shuju/",
         "has_api": false,
         "file_path": "china/infrastructure/china-mot.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-msa",
+        "name": {
+          "en": "China Maritime Safety Administration",
+          "zh": "中国海事局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.msa.gov.cn/page/zxgk/tjsj.html",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-msa.json",
         "geographic_scope": "national"
       },
       {
