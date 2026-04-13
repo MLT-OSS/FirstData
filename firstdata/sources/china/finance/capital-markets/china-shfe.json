@@ -1,0 +1,90 @@
+{
+  "id": "china-shfe",
+  "name": {
+    "en": "Shanghai Futures Exchange",
+    "zh": "上海期货交易所"
+  },
+  "description": {
+    "en": "The Shanghai Futures Exchange (SHFE) is one of China's three commodity futures exchanges and the world's largest by trading volume for several key commodities. Supervised by the China Securities Regulatory Commission, SHFE lists futures and options contracts for base metals (copper, aluminum, zinc, lead, nickel, tin), precious metals (gold, silver), energy products (crude oil, fuel oil, natural gas, bitumen), and industrial materials (natural rubber, rebar, hot-rolled coil, wire rod). SHFE's daily market data — including settlement prices, trading volumes, and warehouse inventory reports — serve as benchmark price references for global commodity markets. The exchange publishes comprehensive statistics on contract trading activity, warehouse receipts, and position data that are essential for commodity traders, industrial hedgers, and macro investors tracking Chinese demand for raw materials.",
+    "zh": "上海期货交易所（上期所）是中国三大商品期货交易所之一，在多个主要大宗商品的成交量上居全球首位。上期所受中国证券监督管理委员会监管，上市有色金属（铜、铝、锌、铅、镍、锡）、贵金属（黄金、白银）、能源（原油、燃料油、天然气、沥青）及工业原材料（天然橡胶、螺纹钢、热轧卷板、线材）等期货和期权合约。上期所每日发布的市场数据——包括结算价、成交量及仓单报告——是全球大宗商品市场的重要基准价格参考。交易所发布的合约交易统计、标准仓单及持仓数据，对追踪中国原材料需求的大宗商品交易商、套期保值企业和宏观投资者具有重要价值。"
+  },
+  "website": "https://www.shfe.com.cn/",
+  "data_url": "https://www.shfe.com.cn/statements/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "economics",
+    "industry"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "上海期货交易所",
+    "SHFE",
+    "Shanghai Futures Exchange",
+    "上期所",
+    "商品期货",
+    "commodity futures",
+    "铜期货",
+    "copper futures",
+    "铝期货",
+    "aluminum futures",
+    "锌期货",
+    "zinc futures",
+    "镍期货",
+    "nickel futures",
+    "黄金期货",
+    "gold futures",
+    "白银期货",
+    "silver futures",
+    "原油期货",
+    "crude oil futures",
+    "天然橡胶",
+    "natural rubber",
+    "螺纹钢",
+    "rebar",
+    "热轧卷板",
+    "hot-rolled coil",
+    "仓单",
+    "warehouse receipt",
+    "结算价",
+    "settlement price",
+    "大宗商品",
+    "commodities",
+    "期权",
+    "options",
+    "有色金属",
+    "base metals",
+    "贵金属",
+    "precious metals"
+  ],
+  "data_content": {
+    "en": [
+      "Daily market data: settlement prices, trading volumes, open interest, and OHLC prices for all listed futures and options contracts",
+      "Copper futures: global benchmark pricing for SHFE copper contracts, widely referenced by LME copper arbitrage traders",
+      "Aluminum, zinc, lead, nickel, tin futures: base metal contracts with daily settlement and position data",
+      "Gold and silver futures: precious metal futures settlement prices and trading statistics",
+      "Crude oil futures: Shanghai International Energy Exchange (INE) crude oil contract data, China's primary oil price benchmark",
+      "Natural rubber futures: RSS3 and TSR20 rubber futures, key price reference for automotive and industrial sectors",
+      "Rebar and hot-rolled coil futures: steel product futures widely used for construction and manufacturing hedging",
+      "Warehouse inventory reports: registered warehouse receipts and physical inventory levels for all deliverable commodities",
+      "Position reports: top 20 long and short position holders by contract (published daily)",
+      "Historical data: complete daily trading records for all active and expired contracts"
+    ],
+    "zh": [
+      "每日市场数据：所有上市期货和期权合约的结算价、成交量、持仓量及OHLC价格",
+      "铜期货：上期所铜合约是全球基准价格之一，被伦敦金属交易所套利交易者广泛参考",
+      "铝、锌、铅、镍、锡期货：有色金属合约每日结算及持仓数据",
+      "黄金和白银期货：贵金属期货结算价及交易统计",
+      "原油期货：上海国际能源交易中心（INE）原油合约数据，中国主要石油价格基准",
+      "天然橡胶期货：RSS3和TSR20橡胶期货，汽车和工业领域的重要价格参考",
+      "螺纹钢和热轧卷板期货：建筑和制造业广泛用于套期保值的钢材期货",
+      "仓单报告：所有可交割品种的注册仓单及实物库存水平",
+      "持仓报告：按合约每日发布的前20名多空头持仓数据",
+      "历史数据：所有活跃及已摘牌合约的完整每日交易记录"
+    ]
+  }
+}

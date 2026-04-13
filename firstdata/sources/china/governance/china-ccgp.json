@@ -1,0 +1,81 @@
+{
+  "id": "china-ccgp",
+  "name": {
+    "en": "China Government Procurement Network",
+    "zh": "中国政府采购网"
+  },
+  "description": {
+    "en": "The China Government Procurement Network (CCGP) is the official national portal operated by the Ministry of Finance for government procurement transparency. It is the authoritative platform for disclosing public procurement announcements, bid results, contract awards, and supplier qualification information across all levels of Chinese government — central, provincial, and municipal. China's government procurement market exceeds 3 trillion RMB annually, making CCGP one of the world's most comprehensive public procurement databases. The platform covers goods procurement, engineering projects, and service contracts tendered by government agencies, public institutions, and state-funded organizations. CCGP publishes standardized procurement notices, evaluation results, and contract performance disclosures, providing critical transparency data for market analysis, anti-corruption research, supply chain intelligence, and comparative public finance studies.",
+    "zh": "中国政府采购网（CCGP）是由财政部运营的全国政府采购信息公开官方门户网站，是覆盖中央、省、市各级政府的政府采购公告、中标结果、合同授予及供应商资质信息的权威公开平台。中国政府采购市场年规模超过3万亿元人民币，CCGP是全球最全面的公共采购数据库之一。平台涵盖政府机关、事业单位和国家出资机构招标的货物采购、工程项目和服务合同。CCGP发布标准化采购公告、评审结果和合同履行公示，为市场分析、反腐研究、供应链情报及公共财政比较研究提供重要的透明度数据。"
+  },
+  "website": "https://www.ccgp.gov.cn/",
+  "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "governance",
+    "finance",
+    "statistics"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "中国政府采购网",
+    "CCGP",
+    "China government procurement",
+    "政府采购",
+    "government procurement",
+    "公开招标",
+    "public bidding",
+    "中标公告",
+    "bid award announcement",
+    "采购公告",
+    "procurement notice",
+    "财政部",
+    "Ministry of Finance",
+    "合同公告",
+    "contract notice",
+    "政府支出",
+    "government spending",
+    "供应商",
+    "supplier",
+    "公共采购",
+    "public procurement",
+    "招投标",
+    "bidding and tendering",
+    "政府透明度",
+    "government transparency",
+    "财政支出",
+    "fiscal expenditure",
+    "央企采购",
+    "SOE procurement"
+  ],
+  "data_content": {
+    "en": [
+      "Procurement announcements: tender notices for goods, engineering works, and services from all levels of Chinese government",
+      "Bid result disclosures: winning supplier names, contract values, and evaluation scores for completed tenders",
+      "Contract award notices: official contract execution announcements including parties, amounts, and performance terms",
+      "Supplier qualification lists: approved vendor registries and disqualification records for government procurement participants",
+      "Framework agreement data: standing agreements and catalog pricing for commonly procured items",
+      "Regional procurement data: procurement volumes and contract awards by province, city, and government agency",
+      "Sector spending analysis: procurement by category (IT equipment, construction, consulting, vehicles, office supplies)",
+      "Single-source procurement: non-competitive procurement disclosures required for transparency under Chinese law",
+      "Annual government procurement statistics: national summary of total procurement value, category breakdown, and savings",
+      "Inquiry and complaint records: public documentation of procurement disputes and regulatory responses"
+    ],
+    "zh": [
+      "采购公告：各级政府货物、工程和服务的招标公告",
+      "中标结果公示：已完成招标的中标供应商名称、合同金额和评审得分",
+      "合同授予公告：包括合同方、金额和履约条款的正式合同签订公告",
+      "供应商资质名单：政府采购参与者的合格供应商注册库及取消资格记录",
+      "框架协议数据：常用采购品目的框架协议和目录价格",
+      "分地区采购数据：按省、市和政府机构统计的采购规模和合同授予情况",
+      "分行业支出分析：按品类（IT设备、建设工程、咨询、车辆、办公用品）统计的采购情况",
+      "单一来源采购：依据中国法律要求公开披露的非竞争性采购信息",
+      "年度政府采购统计：全国采购总额、品类分布和节支情况汇总",
+      "质疑与投诉记录：采购争议和监管回应的公开记录"
+    ]
+  }
+}

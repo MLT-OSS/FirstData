@@ -1,0 +1,90 @@
+{
+  "id": "china-dce",
+  "name": {
+    "en": "Dalian Commodity Exchange",
+    "zh": "大连商品交易所"
+  },
+  "description": {
+    "en": "The Dalian Commodity Exchange (DCE) is one of China's three commodity futures exchanges and the world's largest agricultural futures exchange by trading volume. Established in 1993 and supervised by the China Securities Regulatory Commission, DCE lists futures and options for agricultural products (soybeans, soybean oil, soybean meal, corn, corn starch, palm oil, eggs, live hogs) and industrial commodities (iron ore, coking coal, coke, LLDPE, PVC, polypropylene, methanol, ethylene glycol, liquid petroleum gas). DCE's iron ore futures are the global benchmark for seaborne iron ore pricing, and its soybean complex contracts are pivotal references for global oilseed and vegetable oil markets. The exchange publishes daily settlement prices, trading volumes, warehouse inventory data, and position reports that are indispensable for commodity market participants worldwide.",
+    "zh": "大连商品交易所（大商所）是中国三大商品期货交易所之一，也是全球成交量最大的农产品期货交易所。大商所成立于1993年，受中国证券监督管理委员会监管，上市农产品（大豆、豆油、豆粕、玉米、玉米淀粉、棕榈油、鸡蛋、生猪）和工业品（铁矿石、焦煤、焦炭、线型低密度聚乙烯/LLDPE、聚氯乙烯/PVC、聚丙烯、甲醇、乙二醇、液化石油气）等期货和期权合约。大商所铁矿石期货是全球海运铁矿石定价的重要基准，大豆系列合约是全球油籽和植物油市场的关键价格参考。交易所每日发布结算价、成交量、仓单及持仓报告，是全球大宗商品市场参与者不可或缺的数据来源。"
+  },
+  "website": "https://www.dce.com.cn/",
+  "data_url": "https://www.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "economics",
+    "agriculture"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "大连商品交易所",
+    "DCE",
+    "Dalian Commodity Exchange",
+    "大商所",
+    "商品期货",
+    "commodity futures",
+    "铁矿石期货",
+    "iron ore futures",
+    "大豆期货",
+    "soybean futures",
+    "豆粕期货",
+    "soybean meal futures",
+    "豆油期货",
+    "soybean oil futures",
+    "玉米期货",
+    "corn futures",
+    "棕榈油期货",
+    "palm oil futures",
+    "焦炭期货",
+    "coke futures",
+    "焦煤期货",
+    "coking coal futures",
+    "LLDPE期货",
+    "LLDPE futures",
+    "聚丙烯期货",
+    "polypropylene futures",
+    "生猪期货",
+    "live hog futures",
+    "大宗商品",
+    "commodities",
+    "结算价",
+    "settlement price",
+    "农产品",
+    "agricultural commodities",
+    "钢铁原料",
+    "steel raw materials"
+  ],
+  "data_content": {
+    "en": [
+      "Daily market data: settlement prices, trading volumes, open interest, and OHLC prices for all listed futures and options contracts",
+      "Iron ore futures: global benchmark for 62% Fe grade iron ore (PB fines equivalent), widely referenced for Australian and Brazilian mine pricing",
+      "Soybean complex: soybean, soybean meal, and soybean oil futures — primary price discovery for China's massive soy import market",
+      "Corn and corn starch futures: domestic grain price benchmarks tracking China's feed grain consumption and ethanol demand",
+      "Palm oil futures: complementary to CZCE rapeseed oil for vegetable oil market analysis",
+      "Coking coal and coke futures: upstream steel raw material price benchmarks for China's blast furnace industry",
+      "Plastics complex: LLDPE, PVC, and polypropylene futures for petrochemical feedstock price tracking",
+      "Live hog futures: pork price benchmark reflecting China's largest protein market",
+      "Egg futures: fresh egg price tracking for China's agricultural and food processing sectors",
+      "Warehouse inventory reports: registered warehouse receipts and physical inventory for all deliverable commodities",
+      "Position reports: daily top-holder long/short position data by contract"
+    ],
+    "zh": [
+      "每日市场数据：所有上市期货和期权合约的结算价、成交量、持仓量及OHLC价格",
+      "铁矿石期货：62%品位铁矿石（PB粉矿当量）全球基准价格，被澳大利亚和巴西矿山定价广泛参考",
+      "大豆系列：大豆、豆粕和豆油期货——中国庞大大豆进口市场的主要价格发现机制",
+      "玉米和玉米淀粉期货：追踪中国饲料粮消费和乙醇需求的国内粮食价格基准",
+      "棕榈油期货：与郑商所菜籽油期货互补，用于植物油市场分析",
+      "焦煤和焦炭期货：中国高炉炼铁行业上游钢铁原料价格基准",
+      "塑料系列：LLDPE、PVC和聚丙烯期货，用于追踪石化原料价格",
+      "生猪期货：反映中国最大蛋白质市场的猪肉价格基准",
+      "鸡蛋期货：中国农业和食品加工领域鲜蛋价格跟踪",
+      "仓单报告：所有可交割品种的注册仓单及实物库存",
+      "持仓报告：按合约每日发布的多空头持仓大户数据"
+    ]
+  }
+}
