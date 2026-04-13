@@ -1,0 +1,74 @@
+{
+  "id": "china-cata",
+  "name": {
+    "en": "China Air Transport Association",
+    "zh": "中国航空运输协会"
+  },
+  "description": {
+    "en": "The China Air Transport Association (CATA) is the national industry association representing China's civil aviation sector. Founded in 2005, CATA serves airlines, airports, aviation service providers, and related enterprises in China's rapidly growing civil aviation market. CATA publishes industry reports and statistical data covering airline passenger and cargo volumes, operational performance, aviation safety, airport throughput, ticket pricing trends, and the financial health of China's carriers. It also advocates for policy positions on behalf of the civil aviation industry and organizes capacity-building programs. CATA's data complements official CAAC statistics by providing industry-level analysis and benchmarking across China's aviation ecosystem, making it a key reference for investors, airlines, and transport policy researchers.",
+    "zh": "中国航空运输协会（CATA）是代表中国民航业的全国性行业协会，成立于2005年，为航空公司、机场、航空服务提供商及相关企业服务。CATA发布涵盖航空公司旅客和货物运输量、运营绩效、航空安全、机场吞吐量、机票价格趋势和中国航空公司财务状况的行业报告和统计数据，并代表民航业进行政策倡导、组织能力建设项目。CATA数据通过提供行业层面分析和基准对比，对官方民航局统计数据形成有效补充，是投资机构、航空公司和交通政策研究人员的重要参考。"
+  },
+  "website": "https://www.cata.org.cn/",
+  "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "industry",
+    "statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "民航",
+    "civil aviation",
+    "航空运输",
+    "air transport",
+    "航空公司",
+    "airline",
+    "机场",
+    "airport",
+    "旅客吞吐量",
+    "passenger throughput",
+    "货运量",
+    "cargo volume",
+    "航班",
+    "flight",
+    "CATA",
+    "中国航空",
+    "China aviation",
+    "机票价格",
+    "airfare",
+    "航空安全",
+    "aviation safety",
+    "运输总周转量",
+    "total traffic volume",
+    "load factor",
+    "座位利用率"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly airline passenger statistics: domestic and international passenger volumes for all Chinese carriers by route and airport",
+      "Cargo and mail traffic: air freight and mail transport volumes, growth rates, and major cargo hub performance",
+      "Total traffic volume (RTK): revenue tonne-kilometers broken down by airline, route type, and domestic versus international operations",
+      "Airline operational performance: on-time departure and arrival rates, load factors, and capacity utilization metrics",
+      "Airport throughput ranking: China's major airports ranked by annual passenger and cargo volumes",
+      "Ticket price trend analysis: average domestic and international airfare indices, seasonal fluctuation reports",
+      "Airline financial health: industry-level revenue, profit, cost structure, and fuel expenditure statistics",
+      "Aviation safety incident statistics: accident and incident reports compiled from national regulatory data",
+      "Annual China Civil Aviation Development Report: comprehensive overview of industry scale, structure, and outlook"
+    ],
+    "zh": [
+      "月度航空公司旅客统计：全国各航空公司按航线和机场分类的国内外旅客运输量",
+      "货邮运输量：航空货物和邮件运输量、增长率及主要货运枢纽表现",
+      "运输总周转量（RTK）：按航空公司、航线类型及国内外业务分类的收入吨公里数",
+      "航空公司运营绩效：准点率、客座率及运力利用率指标",
+      "机场吞吐量排名：全国主要机场年度旅客吞吐量和货运量排行",
+      "机票价格趋势分析：国内外平均票价指数及季节性波动报告",
+      "航空公司财务状况：行业整体营收、利润、成本结构和燃油支出统计",
+      "航空安全事故统计：汇编自国家监管数据的事故和事件报告",
+      "年度中国民航发展报告：行业规模、结构及发展前景综合概览"
+    ]
+  }
+}

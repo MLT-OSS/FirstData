@@ -1,0 +1,76 @@
+{
+  "id": "china-msa",
+  "name": {
+    "en": "China Maritime Safety Administration",
+    "zh": "中国海事局"
+  },
+  "description": {
+    "en": "The China Maritime Safety Administration (MSA), operating under the Ministry of Transport, is the principal authority responsible for maritime safety supervision, vessel registration and inspection, seafarer certification, port state control, and navigation aid management in China. MSA publishes authoritative statistics on China's inland and coastal maritime activities, including vessel registration volumes, maritime accident statistics, seafarer certificate issuance, port state control inspection results, and pollution incident records. China operates one of the world's largest merchant fleets and busiest port systems; MSA data is therefore essential for understanding maritime safety trends, shipping industry compliance, and China's evolving role in global maritime trade. MSA also manages the Ship Automatic Identification System (AIS) data infrastructure for Chinese waters.",
+    "zh": "中国海事局隶属于交通运输部，是负责中国海事安全监管、船舶登记检验、船员证书管理、港口国监督检查和航标管理的主要权威机构。海事局发布内河和沿海航运活动权威统计数据，包括船舶登记数量、海事事故统计、船员证书签发、港口国监督检查结果和污染事故记录。中国拥有世界上最大的商船队之一和最繁忙的港口体系，因此海事局数据是了解海事安全趋势、航运行业合规状况及中国在全球海上贸易中作用的重要参考。海事局还管理中国水域的船舶自动识别系统（AIS）数据基础设施。"
+  },
+  "website": "https://www.msa.gov.cn/",
+  "data_url": "https://www.msa.gov.cn/page/zxgk/tjsj.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "safety",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "海事",
+    "maritime",
+    "海事安全",
+    "maritime safety",
+    "船舶",
+    "vessel",
+    "船舶登记",
+    "ship registration",
+    "港口国监督",
+    "port state control",
+    "船员",
+    "seafarer",
+    "航运",
+    "shipping",
+    "海事事故",
+    "maritime accident",
+    "海上污染",
+    "marine pollution",
+    "AIS",
+    "内河航运",
+    "inland waterway",
+    "商船队",
+    "merchant fleet",
+    "中国海事局",
+    "MSA",
+    "海上交通",
+    "maritime traffic"
+  ],
+  "data_content": {
+    "en": [
+      "Vessel registration statistics: number and tonnage of registered ships by type (cargo, tanker, passenger, fishing) and flag",
+      "Maritime accident records: annual statistics on ship collisions, groundings, fires, sinkings, and casualties by vessel type and water area",
+      "Port state control (PSC) inspection results: deficiency rates, detention statistics, and compliance performance of foreign vessels in Chinese ports",
+      "Seafarer certification data: number of maritime professional certificates issued by grade and certificate type",
+      "Inland waterway traffic statistics: cargo volumes, vessel trips, and throughput on major Chinese rivers including the Yangtze and Pearl River systems",
+      "Coastal shipping statistics: domestic short-sea shipping volumes and major cargo route performance",
+      "Marine pollution incidents: oil spill, hazardous substance discharge, and other pollution event statistics",
+      "Navigation aid and channel data: lighthouse, buoy, and fairway maintenance statistics for Chinese waters",
+      "Annual China Maritime Development Report: comprehensive overview of China's maritime safety environment and shipping industry"
+    ],
+    "zh": [
+      "船舶登记统计：按类型（货船、油轮、客船、渔船）和船旗分类的登记船舶数量和吨位",
+      "海事事故记录：按船型和水域分类的年度船舶碰撞、搁浅、火灾、沉没及人员伤亡统计",
+      "港口国监督（PSC）检查结果：外国船舶在中国港口的缺陷率、滞留统计和合规表现",
+      "船员证书数据：按等级和证书类型颁发的水上专业证书数量",
+      "内河航运统计：长江、珠江等主要水系的货运量、船次和吞吐量",
+      "沿海航运统计：国内短程海运运量和主要货运航线表现",
+      "海洋污染事故：溢油、危险物质泄漏及其他污染事故统计",
+      "航标和航道数据：中国水域灯塔、浮标和航道维护统计",
+      "年度中国航运发展报告：中国海事安全环境和航运行业综合概览"
+    ]
+  }
+}

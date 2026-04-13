@@ -1,0 +1,73 @@
+{
+  "id": "china-sic",
+  "name": {
+    "en": "State Information Center of China",
+    "zh": "国家信息中心"
+  },
+  "description": {
+    "en": "The State Information Center (SIC) of China is a government think tank directly under the National Development and Reform Commission (NDRC). Established in 1987, SIC plays a central role in macroeconomic monitoring, forecasting, and policy research for the Chinese government. It publishes authoritative economic analysis including the China Macroeconomic Outlook reports, the China Big Data Index on Economic Conditions, monthly economic situation analyses, and the Sharing Economy Development Report. SIC operates the National Comprehensive Information Platform for Economic Decision-Making and contributes to the government's five-year planning process. Its data and analysis are widely cited by Chinese policymakers, central government agencies, and international researchers studying China's economy.",
+    "zh": "国家信息中心是国家发展和改革委员会直属的政府智库，成立于1987年，在宏观经济监测、预测和政策研究方面发挥核心作用。国家信息中心发布权威经济分析报告，包括《中国宏观经济形势分析与预测》、中国经济景气监测及大数据指数、月度经济形势分析和《中国分享经济发展报告》。信息中心运营国家经济决策综合信息平台，并参与政府五年规划的编制工作，其数据和分析被中国政策制定者、中央政府各部门及国际经济研究机构广泛引用。"
+  },
+  "website": "https://www.sic.gov.cn/",
+  "data_url": "https://www.sic.gov.cn/News_economic.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "statistics",
+    "research"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "宏观经济",
+    "macroeconomics",
+    "经济预测",
+    "economic forecast",
+    "景气监测",
+    "economic monitoring",
+    "经济形势分析",
+    "economic situation analysis",
+    "大数据指数",
+    "big data index",
+    "分享经济",
+    "sharing economy",
+    "政策研究",
+    "policy research",
+    "五年规划",
+    "five-year plan",
+    "国家信息中心",
+    "SIC",
+    "NDRC",
+    "发改委",
+    "经济决策",
+    "economic decision-making",
+    "GDP预测",
+    "GDP forecast"
+  ],
+  "data_content": {
+    "en": [
+      "China Macroeconomic Outlook: semi-annual forecast reports on GDP growth, inflation, investment, and consumption trends",
+      "Monthly economic situation analysis: near-real-time monitoring of key economic indicators including industrial output, retail sales, and fixed-asset investment",
+      "China Big Data Economic Conditions Index: data-driven composite index tracking economic sentiment from online and administrative data",
+      "Sharing Economy Development Report: annual statistics on platform economy scale, participants, and transaction volumes across ride-hailing, housing, finance, and knowledge sharing sectors",
+      "Price monitoring data: producer price index (PPI), consumer price index (CPI), and commodity price trend analysis",
+      "Regional economic analysis: comparative economic performance assessments across China's provinces and major city clusters",
+      "Five-year plan monitoring: progress tracking and evaluation data on national development targets and key indicator achievement",
+      "Energy and resource consumption forecasts: projections for coal, oil, gas, and electricity demand under different economic scenarios",
+      "Poverty alleviation and rural development statistics: rural income growth, poverty headcount reduction, and regional development gap data"
+    ],
+    "zh": [
+      "中国宏观经济展望：GDP增长、通货膨胀、投资和消费趋势半年度预测报告",
+      "月度经济形势分析：工业产出、零售额和固定资产投资等关键经济指标的近实时监测",
+      "中国大数据经济景气指数：基于网络和行政数据的经济景气复合追踪指数",
+      "分享经济发展报告：网约车、住宿、金融、知识共享等领域平台经济规模、参与人数和交易额年度统计",
+      "价格监测数据：生产者价格指数（PPI）、消费者价格指数（CPI）及大宗商品价格趋势分析",
+      "区域经济分析：全国各省份及主要城市群经济表现比较评估",
+      "五年规划监测：国家发展目标和关键指标完成情况的进展跟踪与评估数据",
+      "能源资源消耗预测：不同经济情景下煤炭、石油、天然气和电力需求预测",
+      "脱贫攻坚和农村发展统计：农村居民收入增长、贫困人口减少及区域发展差距数据"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "china-cncert",
+  "name": {
+    "en": "National Computer Network Emergency Response Technical Team/Coordination Center of China",
+    "zh": "国家互联网应急中心"
+  },
+  "description": {
+    "en": "The National Computer Network Emergency Response Technical Team/Coordination Center of China (CNCERT/CC), also known as CNCERT, is China's national cybersecurity coordination body. Established in 2002 and operating under the Ministry of Industry and Information Technology, CNCERT monitors and coordinates responses to cybersecurity incidents on a national scale. It publishes authoritative annual and quarterly reports on China's internet security landscape, including statistics on malware, distributed denial-of-service (DDoS) attacks, network intrusions, phishing websites, data breaches, and vulnerability disclosures. CNCERT's annual China Internet Security Report and quarterly bulletins are key references for cybersecurity researchers, enterprises, and policymakers assessing China's cyber threat environment.",
+    "zh": "国家互联网应急中心（CNCERT/CC）是中国国家级网络安全协调机构，2002年成立，隶属于工业和信息化部，负责在全国范围内监测和协调网络安全事件响应。CNCERT发布权威的年度和季度互联网安全报告，内容涵盖恶意程序、DDoS攻击、网络入侵、仿冒网站、数据泄露和漏洞披露等统计数据。其年度《中国互联网网络安全报告》及季度通报是网络安全研究人员、企业和政策制定者评估中国网络威胁环境的重要参考。"
+  },
+  "website": "https://www.cert.org.cn/",
+  "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "security",
+    "statistics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "网络安全",
+    "cybersecurity",
+    "互联网安全",
+    "internet security",
+    "应急响应",
+    "emergency response",
+    "CNCERT",
+    "CERT",
+    "恶意程序",
+    "malware",
+    "DDoS攻击",
+    "DDoS",
+    "网络入侵",
+    "network intrusion",
+    "数据泄露",
+    "data breach",
+    "漏洞",
+    "vulnerability",
+    "网络犯罪",
+    "cybercrime",
+    "信息安全",
+    "information security",
+    "网络威胁",
+    "cyber threat"
+  ],
+  "data_content": {
+    "en": [
+      "Annual China Internet Security Report: comprehensive overview of cyber threats, incidents, and trends in China",
+      "Malware statistics: number of malicious programs detected, propagation vectors, and affected systems by type",
+      "DDoS attack data: frequency, scale, targets, and geographic distribution of distributed denial-of-service attacks",
+      "Phishing and fraud websites: monthly counts of phishing sites, fraudulent domains, and takedown statistics",
+      "Vulnerability disclosures: national vulnerability database (CNVD) statistics on software and hardware vulnerabilities reported",
+      "Network intrusion incidents: government, enterprise, and critical infrastructure breaches reported and handled",
+      "Mobile security threats: malicious apps, smartphone malware, and mobile fraud statistics",
+      "Industrial control system (ICS) security: vulnerability and incident data for critical infrastructure sectors",
+      "Quarterly internet security bulletins: near-real-time threat intelligence summaries for the Chinese internet"
+    ],
+    "zh": [
+      "年度《中国互联网网络安全报告》：全面呈现中国网络威胁、事件和趋势",
+      "恶意程序统计：按类型分类的检测到的恶意程序数量、传播途径和受影响系统",
+      "DDoS攻击数据：分布式拒绝服务攻击的频率、规模、目标及地理分布",
+      "钓鱼和欺诈网站：每月仿冒网站数量、欺诈域名及关停统计",
+      "漏洞披露：国家信息安全漏洞共享平台（CNVD）软硬件漏洞上报统计",
+      "网络入侵事件：政府、企业和关键基础设施遭受侵害及处置情况",
+      "移动安全威胁：恶意应用、手机恶意软件和移动欺诈统计",
+      "工业控制系统（ICS）安全：关键基础设施行业的漏洞和事件数据",
+      "季度互联网安全通报：中国互联网近实时威胁情报摘要"
+    ]
+  }
+}
