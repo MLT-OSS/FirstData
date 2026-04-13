@@ -1,52 +1,52 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T10:03:06.297038+00:00",
+    "generated_at": "2026-04-13T10:04:17.439164+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 429,
+    "total_sources": 434,
     "sources_with_api": 151,
-    "last_updated": "2026-04-12"
+    "last_updated": "2026-04-13"
   },
   "by_authority_level": {
     "research": 41,
     "international": 74,
-    "government": 246,
+    "government": 248,
     "other": 31,
-    "market": 21,
+    "market": 24,
     "commercial": 16
   },
   "by_geographic_scope": {
     "global": 100,
-    "national": 267,
+    "national": 271,
     "regional": 26,
-    "subnational": 36
+    "subnational": 37
   },
   "by_update_frequency": {
     "irregular": 54,
-    "daily": 57,
+    "daily": 61,
     "weekly": 9,
     "quarterly": 40,
-    "monthly": 167,
+    "monthly": 168,
     "annual": 90,
     "real-time": 12
   },
   "by_domain": {
-    "economics": 199,
+    "economics": 204,
     "trade": 100,
-    "social": 88,
+    "social": 89,
     "demographics": 77,
+    "finance": 70,
+    "agriculture": 69,
     "environment": 67,
-    "agriculture": 67,
-    "finance": 66,
-    "industry": 61,
-    "statistics": 59,
+    "industry": 63,
+    "statistics": 61,
     "health": 46,
     "education": 46,
     "employment": 42,
     "energy": 37,
     "technology": 33,
-    "governance": 31,
+    "governance": 32,
     "infrastructure": 23,
     "prices": 22,
     "climate": 20,
@@ -58,6 +58,7 @@
     "science": 12,
     "transportation": 11,
     "monetary-policy": 10,
+    "capital-markets": 10,
     "securities": 10,
     "population": 9,
     "investment": 8,
@@ -66,7 +67,6 @@
     "genomics": 7,
     "machine learning": 7,
     "resources": 7,
-    "capital-markets": 7,
     "innovation": 7,
     "monetary policy": 7,
     "financial markets": 7,

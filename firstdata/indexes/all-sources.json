@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T10:03:06.297038+00:00",
-    "total_sources": 429,
+    "generated_at": "2026-04-13T10:04:17.439164+00:00",
+    "total_sources": 434,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4229,7 +4229,7 @@
         "en": "The Guizhou Bureau of Statistics is the official statistical authority for Guizhou Province, a mountainous province in southwestern China that has experienced remarkable transformation from one of China's poorest regions to a leading hub for big data, cloud computing, and digital economy. Guizhou is also renowned for Maotai liquor production and tourism. The bureau publishes comprehensive socioeconomic statistics covering GDP, digital economy indicators, poverty alleviation outcomes, tourism revenue, industrial output, population, and agricultural data. It also releases the Guizhou Statistical Yearbook and thematic reports on big data industry development.",
         "zh": "贵州省统计局是贵州省官方统计机构，贵州是中国西南部山区省份，从中国最贫困地区之一成功转型为大数据、云计算和数字经济的重要枢纽，同时以茅台酒生产和旅游业著称。统计局发布贵州省GDP、数字经济指标、脱贫攻坚成效、旅游收入、工业产值、人口和农业数据等全面社会经济统计，并出版《贵州统计年鉴》及大数据产业发展专题报告。"
       },
-      "website": "https://tjj.gz.gov.cn/",
+      "website": "https://stjj.guizhou.gov.cn/",
       "data_url": "https://stjj.guizhou.gov.cn/tjsj/",
       "api_url": null,
       "authority_level": "government",
@@ -6361,6 +6361,83 @@
       "file_path": "china/economy/provincial/china-yn-stats.json"
     },
     {
+      "id": "china-zhengzhou-stats",
+      "name": {
+        "en": "Zhengzhou Bureau of Statistics",
+        "zh": "郑州市统计局"
+      },
+      "description": {
+        "en": "The Zhengzhou Bureau of Statistics is the official statistical authority for Zhengzhou, the capital of Henan Province and the most populous province in China. Zhengzhou is a national transportation hub at the intersection of China's major rail corridors, and a rising manufacturing center home to Foxconn's largest iPhone assembly operations. The city's economic profile encompasses advanced manufacturing, logistics, modern services, and a rapidly growing digital economy. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, logistics volume, fixed asset investment, employment, and population for Zhengzhou municipality, along with the Zhengzhou Statistical Yearbook and monthly economic reports.",
+        "zh": "郑州市统计局是郑州市官方统计机构。郑州是河南省省会，河南是中国人口最多的省份。郑州地处中国主要铁路干线交汇处，是国家综合交通枢纽，也是重要的制造业中心，富士康全球最大的iPhone组装工厂坐落于此。郑州经济涵盖先进制造、物流、现代服务业和快速发展的数字经济。统计局发布涵盖GDP、工业产值、物流量、固定资产投资、就业及人口等全面的社会经济统计数据，同时出版《郑州统计年鉴》及月度经济运行报告。"
+      },
+      "website": "https://tjj.zhengzhou.gov.cn/",
+      "data_url": "https://tjj.zhengzhou.gov.cn/tjsj/index.jhtml",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "郑州统计",
+        "Zhengzhou statistics",
+        "郑州GDP",
+        "Zhengzhou GDP",
+        "河南经济",
+        "Henan economy",
+        "郑州统计年鉴",
+        "Zhengzhou Statistical Yearbook",
+        "郑州制造业",
+        "Zhengzhou manufacturing",
+        "物流枢纽",
+        "logistics hub",
+        "富士康",
+        "Foxconn",
+        "iPhone",
+        "中原城市群",
+        "Central Plains urban agglomeration",
+        "跨境电商",
+        "cross-border e-commerce",
+        "郑州航空港",
+        "Zhengzhou Airport Economy Zone",
+        "固定资产投资",
+        "fixed asset investment"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Zhengzhou municipality",
+          "Industrial output: value-added production from major sectors including electronics assembly, food processing, aluminum, and automotive parts",
+          "Logistics and transportation: freight volumes, air cargo statistics for Xinzheng International Airport, railway cargo data",
+          "Cross-border e-commerce: Zhengzhou's bonded zone cross-border transaction volumes and parcel throughput",
+          "Fixed asset investment: infrastructure, manufacturing, and real estate investment statistics",
+          "Employment and wages: employed persons, urban unemployment rate, and average wage data",
+          "Population: resident population, household registration, and labor migration into Henan's provincial capital",
+          "Consumer market: retail sales, consumer price index, and e-commerce growth data",
+          "Fiscal data: general public budget revenue and expenditure for Zhengzhou",
+          "Zhengzhou Statistical Yearbook: comprehensive annual compilation of all municipal socioeconomic statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：按产业分类的郑州市季度和年度GDP数据",
+          "工业产值：电子装配、食品加工、铝业和汽车零部件等主要行业增加值",
+          "物流与交通：货运量、新郑国际机场航空货运统计、铁路货运数据",
+          "跨境电商：郑州保税区跨境交易量及快件吞吐量",
+          "固定资产投资：基础设施、制造业和房地产投资统计",
+          "就业与工资：从业人员数、城镇登记失业率及平均工资数据",
+          "人口：常住人口、户籍人口及流入河南省会的劳动力迁移数据",
+          "消费市场：社会消费品零售总额、居民消费价格指数及电商增长数据",
+          "财政数据：郑州市一般公共预算收入和支出",
+          "郑州统计年鉴：全市社会经济统计数据的综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-zhengzhou-stats.json"
+    },
+    {
       "id": "china-zj-stats",
       "name": {
         "en": "Zhejiang Bureau of Statistics",
@@ -7860,6 +7937,188 @@
       "file_path": "china/finance/capital-markets/china-cffex.json"
     },
     {
+      "id": "china-czce",
+      "name": {
+        "en": "Zhengzhou Commodity Exchange",
+        "zh": "郑州商品交易所"
+      },
+      "description": {
+        "en": "The Zhengzhou Commodity Exchange (CZCE) is one of China's three commodity futures exchanges, established in 1990 as China's first futures exchange. Supervised by the China Securities Regulatory Commission, CZCE lists futures and options contracts for agricultural commodities (wheat, cotton, rapeseed oil, rapeseed meal, sugar, peanuts, dates, apples, red dates) and industrial materials (methanol, ethylene glycol, purified terephthalic acid/PTA, urea, glass, ferrosilicon, silicon manganese). CZCE is the price discovery center for China's agricultural commodity markets and key chemical feedstocks. Daily market data including settlement prices, trading volumes, warehouse inventory, and open interest from CZCE are essential references for China's agricultural supply chain, textile industry, chemical producers, and commodity traders worldwide.",
+        "zh": "郑州商品交易所（郑商所）是中国三大商品期货交易所之一，成立于1990年，是中国第一家期货交易所。郑商所受中国证券监督管理委员会监管，上市农产品（小麦、棉花、菜籽油、菜粕、白砂糖、花生、红枣、苹果）及工业品（甲醇、乙二醇、精对苯二甲酸/PTA、尿素、玻璃、硅铁、锰硅）期货和期权合约。郑商所是中国农产品市场及重要化工原料的价格发现中心。郑商所每日发布的结算价、成交量、仓单及持仓量数据，是中国农业供应链、纺织行业、化工生产企业及全球大宗商品交易商的重要参考。"
+      },
+      "website": "https://www.czce.com.cn/",
+      "data_url": "https://www.czce.com.cn/cn/exchange/daily_data/index.htm",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "economics",
+        "agriculture"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "郑州商品交易所",
+        "CZCE",
+        "Zhengzhou Commodity Exchange",
+        "郑商所",
+        "商品期货",
+        "commodity futures",
+        "小麦期货",
+        "wheat futures",
+        "棉花期货",
+        "cotton futures",
+        "白糖期货",
+        "sugar futures",
+        "菜籽油",
+        "rapeseed oil",
+        "PTA期货",
+        "PTA futures",
+        "甲醇期货",
+        "methanol futures",
+        "乙二醇期货",
+        "ethylene glycol futures",
+        "尿素期货",
+        "urea futures",
+        "玻璃期货",
+        "glass futures",
+        "农产品",
+        "agricultural commodities",
+        "化工品",
+        "chemical products",
+        "结算价",
+        "settlement price",
+        "仓单",
+        "warehouse receipt",
+        "期权",
+        "options"
+      ],
+      "data_content": {
+        "en": [
+          "Daily market data: settlement prices, trading volumes, open interest, and OHLC prices for all listed futures and options contracts",
+          "Wheat futures: hard white winter wheat contract, key benchmark for China's domestic grain market",
+          "Cotton futures: China's primary cotton price benchmark, widely tracked by global textile and apparel supply chains",
+          "Sugar futures: white sugar futures serving as price reference for China's domestic sugar market",
+          "Rapeseed oil and meal futures: key agricultural input price references for China's oilseed processing industry",
+          "PTA futures: purified terephthalic acid — upstream feedstock for polyester and PET production widely used in textiles and packaging",
+          "Methanol and ethylene glycol futures: key chemical feedstock prices for China's petrochemical industry",
+          "Urea futures: fertilizer market price benchmark for China's agricultural sector",
+          "Glass futures: industrial glass price reference tracking construction and solar panel demand",
+          "Warehouse inventory: registered warehouse receipts and physical stock levels for all deliverable commodities",
+          "Position reports: daily top-holder position data for major contracts"
+        ],
+        "zh": [
+          "每日市场数据：所有上市期货和期权合约的结算价、成交量、持仓量及OHLC价格",
+          "小麦期货：硬冬白小麦合约，中国国内粮食市场的重要基准价格",
+          "棉花期货：中国主要棉花价格基准，被全球纺织和服装供应链广泛追踪",
+          "白砂糖期货：中国国内糖市的价格参考基准",
+          "菜籽油和菜粕期货：中国油籽加工业的关键农业投入品价格参考",
+          "PTA期货：精对苯二甲酸——纺织和包装领域广泛使用的聚酯和PET生产上游原料价格基准",
+          "甲醇和乙二醇期货：中国石化行业关键化工原料价格",
+          "尿素期货：中国农业领域化肥市场价格基准",
+          "玻璃期货：追踪建筑和太阳能电池板需求的工业玻璃价格参考",
+          "仓单：所有可交割品种的注册仓单及实物库存水平",
+          "持仓报告：主要合约的每日持仓大户数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-czce.json"
+    },
+    {
+      "id": "china-dce",
+      "name": {
+        "en": "Dalian Commodity Exchange",
+        "zh": "大连商品交易所"
+      },
+      "description": {
+        "en": "The Dalian Commodity Exchange (DCE) is one of China's three commodity futures exchanges and the world's largest agricultural futures exchange by trading volume. Established in 1993 and supervised by the China Securities Regulatory Commission, DCE lists futures and options for agricultural products (soybeans, soybean oil, soybean meal, corn, corn starch, palm oil, eggs, live hogs) and industrial commodities (iron ore, coking coal, coke, LLDPE, PVC, polypropylene, methanol, ethylene glycol, liquid petroleum gas). DCE's iron ore futures are the global benchmark for seaborne iron ore pricing, and its soybean complex contracts are pivotal references for global oilseed and vegetable oil markets. The exchange publishes daily settlement prices, trading volumes, warehouse inventory data, and position reports that are indispensable for commodity market participants worldwide.",
+        "zh": "大连商品交易所（大商所）是中国三大商品期货交易所之一，也是全球成交量最大的农产品期货交易所。大商所成立于1993年，受中国证券监督管理委员会监管，上市农产品（大豆、豆油、豆粕、玉米、玉米淀粉、棕榈油、鸡蛋、生猪）和工业品（铁矿石、焦煤、焦炭、线型低密度聚乙烯/LLDPE、聚氯乙烯/PVC、聚丙烯、甲醇、乙二醇、液化石油气）等期货和期权合约。大商所铁矿石期货是全球海运铁矿石定价的重要基准，大豆系列合约是全球油籽和植物油市场的关键价格参考。交易所每日发布结算价、成交量、仓单及持仓报告，是全球大宗商品市场参与者不可或缺的数据来源。"
+      },
+      "website": "https://www.dce.com.cn/",
+      "data_url": "https://www.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "economics",
+        "agriculture"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "大连商品交易所",
+        "DCE",
+        "Dalian Commodity Exchange",
+        "大商所",
+        "商品期货",
+        "commodity futures",
+        "铁矿石期货",
+        "iron ore futures",
+        "大豆期货",
+        "soybean futures",
+        "豆粕期货",
+        "soybean meal futures",
+        "豆油期货",
+        "soybean oil futures",
+        "玉米期货",
+        "corn futures",
+        "棕榈油期货",
+        "palm oil futures",
+        "焦炭期货",
+        "coke futures",
+        "焦煤期货",
+        "coking coal futures",
+        "LLDPE期货",
+        "LLDPE futures",
+        "聚丙烯期货",
+        "polypropylene futures",
+        "生猪期货",
+        "live hog futures",
+        "大宗商品",
+        "commodities",
+        "结算价",
+        "settlement price",
+        "农产品",
+        "agricultural commodities",
+        "钢铁原料",
+        "steel raw materials"
+      ],
+      "data_content": {
+        "en": [
+          "Daily market data: settlement prices, trading volumes, open interest, and OHLC prices for all listed futures and options contracts",
+          "Iron ore futures: global benchmark for 62% Fe grade iron ore (PB fines equivalent), widely referenced for Australian and Brazilian mine pricing",
+          "Soybean complex: soybean, soybean meal, and soybean oil futures — primary price discovery for China's massive soy import market",
+          "Corn and corn starch futures: domestic grain price benchmarks tracking China's feed grain consumption and ethanol demand",
+          "Palm oil futures: complementary to CZCE rapeseed oil for vegetable oil market analysis",
+          "Coking coal and coke futures: upstream steel raw material price benchmarks for China's blast furnace industry",
+          "Plastics complex: LLDPE, PVC, and polypropylene futures for petrochemical feedstock price tracking",
+          "Live hog futures: pork price benchmark reflecting China's largest protein market",
+          "Egg futures: fresh egg price tracking for China's agricultural and food processing sectors",
+          "Warehouse inventory reports: registered warehouse receipts and physical inventory for all deliverable commodities",
+          "Position reports: daily top-holder long/short position data by contract"
+        ],
+        "zh": [
+          "每日市场数据：所有上市期货和期权合约的结算价、成交量、持仓量及OHLC价格",
+          "铁矿石期货：62%品位铁矿石（PB粉矿当量）全球基准价格，被澳大利亚和巴西矿山定价广泛参考",
+          "大豆系列：大豆、豆粕和豆油期货——中国庞大大豆进口市场的主要价格发现机制",
+          "玉米和玉米淀粉期货：追踪中国饲料粮消费和乙醇需求的国内粮食价格基准",
+          "棕榈油期货：与郑商所菜籽油期货互补，用于植物油市场分析",
+          "焦煤和焦炭期货：中国高炉炼铁行业上游钢铁原料价格基准",
+          "塑料系列：LLDPE、PVC和聚丙烯期货，用于追踪石化原料价格",
+          "生猪期货：反映中国最大蛋白质市场的猪肉价格基准",
+          "鸡蛋期货：中国农业和食品加工领域鲜蛋价格跟踪",
+          "仓单报告：所有可交割品种的注册仓单及实物库存",
+          "持仓报告：按合约每日发布的多空头持仓大户数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-dce.json"
+    },
+    {
       "id": "china-nafmii",
       "name": {
         "en": "National Association of Financial Market Institutional Investors",
@@ -7913,6 +8172,98 @@
       },
       "has_api": false,
       "file_path": "china/finance/capital-markets/china-nafmii.json"
+    },
+    {
+      "id": "china-shfe",
+      "name": {
+        "en": "Shanghai Futures Exchange",
+        "zh": "上海期货交易所"
+      },
+      "description": {
+        "en": "The Shanghai Futures Exchange (SHFE) is one of China's three commodity futures exchanges and the world's largest by trading volume for several key commodities. Supervised by the China Securities Regulatory Commission, SHFE lists futures and options contracts for base metals (copper, aluminum, zinc, lead, nickel, tin), precious metals (gold, silver), energy products (crude oil, fuel oil, natural gas, bitumen), and industrial materials (natural rubber, rebar, hot-rolled coil, wire rod). SHFE's daily market data — including settlement prices, trading volumes, and warehouse inventory reports — serve as benchmark price references for global commodity markets. The exchange publishes comprehensive statistics on contract trading activity, warehouse receipts, and position data that are essential for commodity traders, industrial hedgers, and macro investors tracking Chinese demand for raw materials.",
+        "zh": "上海期货交易所（上期所）是中国三大商品期货交易所之一，在多个主要大宗商品的成交量上居全球首位。上期所受中国证券监督管理委员会监管，上市有色金属（铜、铝、锌、铅、镍、锡）、贵金属（黄金、白银）、能源（原油、燃料油、天然气、沥青）及工业原材料（天然橡胶、螺纹钢、热轧卷板、线材）等期货和期权合约。上期所每日发布的市场数据——包括结算价、成交量及仓单报告——是全球大宗商品市场的重要基准价格参考。交易所发布的合约交易统计、标准仓单及持仓数据，对追踪中国原材料需求的大宗商品交易商、套期保值企业和宏观投资者具有重要价值。"
+      },
+      "website": "https://www.shfe.com.cn/",
+      "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "economics",
+        "industry"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "上海期货交易所",
+        "SHFE",
+        "Shanghai Futures Exchange",
+        "上期所",
+        "商品期货",
+        "commodity futures",
+        "铜期货",
+        "copper futures",
+        "铝期货",
+        "aluminum futures",
+        "锌期货",
+        "zinc futures",
+        "镍期货",
+        "nickel futures",
+        "黄金期货",
+        "gold futures",
+        "白银期货",
+        "silver futures",
+        "原油期货",
+        "crude oil futures",
+        "天然橡胶",
+        "natural rubber",
+        "螺纹钢",
+        "rebar",
+        "热轧卷板",
+        "hot-rolled coil",
+        "仓单",
+        "warehouse receipt",
+        "结算价",
+        "settlement price",
+        "大宗商品",
+        "commodities",
+        "期权",
+        "options",
+        "有色金属",
+        "base metals",
+        "贵金属",
+        "precious metals"
+      ],
+      "data_content": {
+        "en": [
+          "Daily market data: settlement prices, trading volumes, open interest, and OHLC prices for all listed futures and options contracts",
+          "Copper futures: global benchmark pricing for SHFE copper contracts, widely referenced by LME copper arbitrage traders",
+          "Aluminum, zinc, lead, nickel, tin futures: base metal contracts with daily settlement and position data",
+          "Gold and silver futures: precious metal futures settlement prices and trading statistics",
+          "Crude oil futures: Shanghai International Energy Exchange (INE) crude oil contract data, China's primary oil price benchmark",
+          "Natural rubber futures: RSS3 and TSR20 rubber futures, key price reference for automotive and industrial sectors",
+          "Rebar and hot-rolled coil futures: steel product futures widely used for construction and manufacturing hedging",
+          "Warehouse inventory reports: registered warehouse receipts and physical inventory levels for all deliverable commodities",
+          "Position reports: top 20 long and short position holders by contract (published daily)",
+          "Historical data: complete daily trading records for all active and expired contracts"
+        ],
+        "zh": [
+          "每日市场数据：所有上市期货和期权合约的结算价、成交量、持仓量及OHLC价格",
+          "铜期货：上期所铜合约是全球基准价格之一，被伦敦金属交易所套利交易者广泛参考",
+          "铝、锌、铅、镍、锡期货：有色金属合约每日结算及持仓数据",
+          "黄金和白银期货：贵金属期货结算价及交易统计",
+          "原油期货：上海国际能源交易中心（INE）原油合约数据，中国主要石油价格基准",
+          "天然橡胶期货：RSS3和TSR20橡胶期货，汽车和工业领域的重要价格参考",
+          "螺纹钢和热轧卷板期货：建筑和制造业广泛用于套期保值的钢材期货",
+          "仓单报告：所有可交割品种的注册仓单及实物库存水平",
+          "持仓报告：按合约每日发布的前20名多空头持仓数据",
+          "历史数据：所有活跃及已摘牌合约的完整每日交易记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-shfe.json"
     },
     {
       "id": "china-csrc-futures",
@@ -8643,6 +8994,89 @@
       },
       "has_api": false,
       "file_path": "china/finance/taxation/china-chinatax.json"
+    },
+    {
+      "id": "china-ccgp",
+      "name": {
+        "en": "China Government Procurement Network",
+        "zh": "中国政府采购网"
+      },
+      "description": {
+        "en": "The China Government Procurement Network (CCGP) is the official national portal operated by the Ministry of Finance for government procurement transparency. It is the authoritative platform for disclosing public procurement announcements, bid results, contract awards, and supplier qualification information across all levels of Chinese government — central, provincial, and municipal. China's government procurement market exceeds 3 trillion RMB annually, making CCGP one of the world's most comprehensive public procurement databases. The platform covers goods procurement, engineering projects, and service contracts tendered by government agencies, public institutions, and state-funded organizations. CCGP publishes standardized procurement notices, evaluation results, and contract performance disclosures, providing critical transparency data for market analysis, anti-corruption research, supply chain intelligence, and comparative public finance studies.",
+        "zh": "中国政府采购网（CCGP）是由财政部运营的全国政府采购信息公开官方门户网站，是覆盖中央、省、市各级政府的政府采购公告、中标结果、合同授予及供应商资质信息的权威公开平台。中国政府采购市场年规模超过3万亿元人民币，CCGP是全球最全面的公共采购数据库之一。平台涵盖政府机关、事业单位和国家出资机构招标的货物采购、工程项目和服务合同。CCGP发布标准化采购公告、评审结果和合同履行公示，为市场分析、反腐研究、供应链情报及公共财政比较研究提供重要的透明度数据。"
+      },
+      "website": "https://www.ccgp.gov.cn/",
+      "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "governance",
+        "finance",
+        "statistics"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "中国政府采购网",
+        "CCGP",
+        "China government procurement",
+        "政府采购",
+        "government procurement",
+        "公开招标",
+        "public bidding",
+        "中标公告",
+        "bid award announcement",
+        "采购公告",
+        "procurement notice",
+        "财政部",
+        "Ministry of Finance",
+        "合同公告",
+        "contract notice",
+        "政府支出",
+        "government spending",
+        "供应商",
+        "supplier",
+        "公共采购",
+        "public procurement",
+        "招投标",
+        "bidding and tendering",
+        "政府透明度",
+        "government transparency",
+        "财政支出",
+        "fiscal expenditure",
+        "央企采购",
+        "SOE procurement"
+      ],
+      "data_content": {
+        "en": [
+          "Procurement announcements: tender notices for goods, engineering works, and services from all levels of Chinese government",
+          "Bid result disclosures: winning supplier names, contract values, and evaluation scores for completed tenders",
+          "Contract award notices: official contract execution announcements including parties, amounts, and performance terms",
+          "Supplier qualification lists: approved vendor registries and disqualification records for government procurement participants",
+          "Framework agreement data: standing agreements and catalog pricing for commonly procured items",
+          "Regional procurement data: procurement volumes and contract awards by province, city, and government agency",
+          "Sector spending analysis: procurement by category (IT equipment, construction, consulting, vehicles, office supplies)",
+          "Single-source procurement: non-competitive procurement disclosures required for transparency under Chinese law",
+          "Annual government procurement statistics: national summary of total procurement value, category breakdown, and savings",
+          "Inquiry and complaint records: public documentation of procurement disputes and regulatory responses"
+        ],
+        "zh": [
+          "采购公告：各级政府货物、工程和服务的招标公告",
+          "中标结果公示：已完成招标的中标供应商名称、合同金额和评审得分",
+          "合同授予公告：包括合同方、金额和履约条款的正式合同签订公告",
+          "供应商资质名单：政府采购参与者的合格供应商注册库及取消资格记录",
+          "框架协议数据：常用采购品目的框架协议和目录价格",
+          "分地区采购数据：按省、市和政府机构统计的采购规模和合同授予情况",
+          "分行业支出分析：按品类（IT设备、建设工程、咨询、车辆、办公用品）统计的采购情况",
+          "单一来源采购：依据中国法律要求公开披露的非竞争性采购信息",
+          "年度政府采购统计：全国采购总额、品类分布和节支情况汇总",
+          "质疑与投诉记录：采购争议和监管回应的公开记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-ccgp.json"
     },
     {
       "id": "china-cdpf",

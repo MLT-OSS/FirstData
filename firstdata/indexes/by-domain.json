@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T10:03:06.297038+00:00",
+    "generated_at": "2026-04-13T10:04:17.439164+00:00",
     "total_domains": 711,
-    "total_sources": 429,
+    "total_sources": 434,
     "version": "2.0"
   },
   "domains": {
@@ -429,6 +429,30 @@
         "data_url": "https://www.chinacoop.gov.cn/",
         "has_api": false,
         "file_path": "china/economy/trade/china-cfsmc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-czce",
+        "name": {
+          "en": "Zhengzhou Commodity Exchange",
+          "zh": "郑州商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.czce.com.cn/cn/exchange/daily_data/index.htm",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-czce.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-dce",
+        "name": {
+          "en": "Dalian Commodity Exchange",
+          "zh": "大连商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-dce.json",
         "geographic_scope": "national"
       },
       {
@@ -2479,6 +2503,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-czce",
+        "name": {
+          "en": "Zhengzhou Commodity Exchange",
+          "zh": "郑州商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.czce.com.cn/cn/exchange/daily_data/index.htm",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-czce.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-dce",
+        "name": {
+          "en": "Dalian Commodity Exchange",
+          "zh": "大连商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-dce.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nafmii",
         "name": {
           "en": "National Association of Financial Market Institutional Investors",
@@ -2488,6 +2536,18 @@
         "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-shfe",
+        "name": {
+          "en": "Shanghai Futures Exchange",
+          "zh": "上海期货交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-shfe.json",
         "geographic_scope": "national"
       },
       {
@@ -7371,6 +7431,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-zhengzhou-stats",
+        "name": {
+          "en": "Zhengzhou Bureau of Statistics",
+          "zh": "郑州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zhengzhou.gov.cn/tjsj/index.jhtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zhengzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-zj-stats",
         "name": {
           "en": "Zhejiang Bureau of Statistics",
@@ -7507,6 +7579,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-czce",
+        "name": {
+          "en": "Zhengzhou Commodity Exchange",
+          "zh": "郑州商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.czce.com.cn/cn/exchange/daily_data/index.htm",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-czce.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-dce",
+        "name": {
+          "en": "Dalian Commodity Exchange",
+          "zh": "大连商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-dce.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-shfe",
+        "name": {
+          "en": "Shanghai Futures Exchange",
+          "zh": "上海期货交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-shfe.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-iac",
         "name": {
           "en": "Insurance Association of China",
@@ -7565,6 +7673,18 @@
         "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
         "has_api": false,
         "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccgp",
+        "name": {
+          "en": "China Government Procurement Network",
+          "zh": "中国政府采购网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
+        "has_api": false,
+        "file_path": "china/governance/china-ccgp.json",
         "geographic_scope": "national"
       },
       {
@@ -12617,6 +12737,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-czce",
+        "name": {
+          "en": "Zhengzhou Commodity Exchange",
+          "zh": "郑州商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.czce.com.cn/cn/exchange/daily_data/index.htm",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-czce.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-dce",
+        "name": {
+          "en": "Dalian Commodity Exchange",
+          "zh": "大连商品交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-dce.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nafmii",
         "name": {
           "en": "National Association of Financial Market Institutional Investors",
@@ -12626,6 +12770,18 @@
         "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-shfe",
+        "name": {
+          "en": "Shanghai Futures Exchange",
+          "zh": "上海期货交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-shfe.json",
         "geographic_scope": "national"
       },
       {
@@ -12775,6 +12931,18 @@
         "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
         "has_api": false,
         "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccgp",
+        "name": {
+          "en": "China Government Procurement Network",
+          "zh": "中国政府采购网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
+        "has_api": false,
+        "file_path": "china/governance/china-ccgp.json",
         "geographic_scope": "national"
       },
       {
@@ -14763,6 +14931,18 @@
         "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
         "has_api": false,
         "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccgp",
+        "name": {
+          "en": "China Government Procurement Network",
+          "zh": "中国政府采购网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
+        "has_api": false,
+        "file_path": "china/governance/china-ccgp.json",
         "geographic_scope": "national"
       },
       {
@@ -17027,6 +17207,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-zhengzhou-stats",
+        "name": {
+          "en": "Zhengzhou Bureau of Statistics",
+          "zh": "郑州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zhengzhou.gov.cn/tjsj/index.jhtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zhengzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-zj-stats",
         "name": {
           "en": "Zhejiang Bureau of Statistics",
@@ -17060,6 +17252,18 @@
         "data_url": "https://www.chinawuliu.com.cn/lhhzq/",
         "has_api": false,
         "file_path": "china/economy/trade/china-cflp.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-shfe",
+        "name": {
+          "en": "Shanghai Futures Exchange",
+          "zh": "上海期货交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-shfe.json",
         "geographic_scope": "national"
       },
       {
@@ -24304,6 +24508,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-zhengzhou-stats",
+        "name": {
+          "en": "Zhengzhou Bureau of Statistics",
+          "zh": "郑州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zhengzhou.gov.cn/tjsj/index.jhtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zhengzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-zj-stats",
         "name": {
           "en": "Zhejiang Bureau of Statistics",
@@ -25943,6 +26159,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-zhengzhou-stats",
+        "name": {
+          "en": "Zhengzhou Bureau of Statistics",
+          "zh": "郑州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.zhengzhou.gov.cn/tjsj/index.jhtml",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-zhengzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-zj-stats",
         "name": {
           "en": "Zhejiang Bureau of Statistics",
@@ -26000,6 +26228,18 @@
         "data_url": "https://www.iachina.cn/col/col4479/",
         "has_api": false,
         "file_path": "china/finance/china-iac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccgp",
+        "name": {
+          "en": "China Government Procurement Network",
+          "zh": "中国政府采购网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
+        "has_api": false,
+        "file_path": "china/governance/china-ccgp.json",
         "geographic_scope": "national"
       },
       {
