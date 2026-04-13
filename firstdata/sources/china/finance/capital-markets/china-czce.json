@@ -1,0 +1,88 @@
+{
+  "id": "china-czce",
+  "name": {
+    "en": "Zhengzhou Commodity Exchange",
+    "zh": "郑州商品交易所"
+  },
+  "description": {
+    "en": "The Zhengzhou Commodity Exchange (CZCE) is one of China's three commodity futures exchanges, established in 1990 as China's first futures exchange. Supervised by the China Securities Regulatory Commission, CZCE lists futures and options contracts for agricultural commodities (wheat, cotton, rapeseed oil, rapeseed meal, sugar, peanuts, dates, apples, red dates) and industrial materials (methanol, ethylene glycol, purified terephthalic acid/PTA, urea, glass, ferrosilicon, silicon manganese). CZCE is the price discovery center for China's agricultural commodity markets and key chemical feedstocks. Daily market data including settlement prices, trading volumes, warehouse inventory, and open interest from CZCE are essential references for China's agricultural supply chain, textile industry, chemical producers, and commodity traders worldwide.",
+    "zh": "郑州商品交易所（郑商所）是中国三大商品期货交易所之一，成立于1990年，是中国第一家期货交易所。郑商所受中国证券监督管理委员会监管，上市农产品（小麦、棉花、菜籽油、菜粕、白砂糖、花生、红枣、苹果）及工业品（甲醇、乙二醇、精对苯二甲酸/PTA、尿素、玻璃、硅铁、锰硅）期货和期权合约。郑商所是中国农产品市场及重要化工原料的价格发现中心。郑商所每日发布的结算价、成交量、仓单及持仓量数据，是中国农业供应链、纺织行业、化工生产企业及全球大宗商品交易商的重要参考。"
+  },
+  "website": "https://www.czce.com.cn/",
+  "data_url": "https://www.czce.com.cn/cn/exchange/daily_data/index.htm",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "economics",
+    "agriculture"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "郑州商品交易所",
+    "CZCE",
+    "Zhengzhou Commodity Exchange",
+    "郑商所",
+    "商品期货",
+    "commodity futures",
+    "小麦期货",
+    "wheat futures",
+    "棉花期货",
+    "cotton futures",
+    "白糖期货",
+    "sugar futures",
+    "菜籽油",
+    "rapeseed oil",
+    "PTA期货",
+    "PTA futures",
+    "甲醇期货",
+    "methanol futures",
+    "乙二醇期货",
+    "ethylene glycol futures",
+    "尿素期货",
+    "urea futures",
+    "玻璃期货",
+    "glass futures",
+    "农产品",
+    "agricultural commodities",
+    "化工品",
+    "chemical products",
+    "结算价",
+    "settlement price",
+    "仓单",
+    "warehouse receipt",
+    "期权",
+    "options"
+  ],
+  "data_content": {
+    "en": [
+      "Daily market data: settlement prices, trading volumes, open interest, and OHLC prices for all listed futures and options contracts",
+      "Wheat futures: hard white winter wheat contract, key benchmark for China's domestic grain market",
+      "Cotton futures: China's primary cotton price benchmark, widely tracked by global textile and apparel supply chains",
+      "Sugar futures: white sugar futures serving as price reference for China's domestic sugar market",
+      "Rapeseed oil and meal futures: key agricultural input price references for China's oilseed processing industry",
+      "PTA futures: purified terephthalic acid — upstream feedstock for polyester and PET production widely used in textiles and packaging",
+      "Methanol and ethylene glycol futures: key chemical feedstock prices for China's petrochemical industry",
+      "Urea futures: fertilizer market price benchmark for China's agricultural sector",
+      "Glass futures: industrial glass price reference tracking construction and solar panel demand",
+      "Warehouse inventory: registered warehouse receipts and physical stock levels for all deliverable commodities",
+      "Position reports: daily top-holder position data for major contracts"
+    ],
+    "zh": [
+      "每日市场数据：所有上市期货和期权合约的结算价、成交量、持仓量及OHLC价格",
+      "小麦期货：硬冬白小麦合约，中国国内粮食市场的重要基准价格",
+      "棉花期货：中国主要棉花价格基准，被全球纺织和服装供应链广泛追踪",
+      "白砂糖期货：中国国内糖市的价格参考基准",
+      "菜籽油和菜粕期货：中国油籽加工业的关键农业投入品价格参考",
+      "PTA期货：精对苯二甲酸——纺织和包装领域广泛使用的聚酯和PET生产上游原料价格基准",
+      "甲醇和乙二醇期货：中国石化行业关键化工原料价格",
+      "尿素期货：中国农业领域化肥市场价格基准",
+      "玻璃期货：追踪建筑和太阳能电池板需求的工业玻璃价格参考",
+      "仓单：所有可交割品种的注册仓单及实物库存水平",
+      "持仓报告：主要合约的每日持仓大户数据"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "china-zhengzhou-stats",
+  "name": {
+    "en": "Zhengzhou Bureau of Statistics",
+    "zh": "郑州市统计局"
+  },
+  "description": {
+    "en": "The Zhengzhou Bureau of Statistics is the official statistical authority for Zhengzhou, the capital of Henan Province and the most populous province in China. Zhengzhou is a national transportation hub at the intersection of China's major rail corridors, and a rising manufacturing center home to Foxconn's largest iPhone assembly operations. The city's economic profile encompasses advanced manufacturing, logistics, modern services, and a rapidly growing digital economy. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, logistics volume, fixed asset investment, employment, and population for Zhengzhou municipality, along with the Zhengzhou Statistical Yearbook and monthly economic reports.",
+    "zh": "郑州市统计局是郑州市官方统计机构。郑州是河南省省会，河南是中国人口最多的省份。郑州地处中国主要铁路干线交汇处，是国家综合交通枢纽，也是重要的制造业中心，富士康全球最大的iPhone组装工厂坐落于此。郑州经济涵盖先进制造、物流、现代服务业和快速发展的数字经济。统计局发布涵盖GDP、工业产值、物流量、固定资产投资、就业及人口等全面的社会经济统计数据，同时出版《郑州统计年鉴》及月度经济运行报告。"
+  },
+  "website": "https://tjj.zhengzhou.gov.cn/",
+  "data_url": "https://tjj.zhengzhou.gov.cn/tjsj/index.jhtml",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "郑州统计",
+    "Zhengzhou statistics",
+    "郑州GDP",
+    "Zhengzhou GDP",
+    "河南经济",
+    "Henan economy",
+    "郑州统计年鉴",
+    "Zhengzhou Statistical Yearbook",
+    "郑州制造业",
+    "Zhengzhou manufacturing",
+    "物流枢纽",
+    "logistics hub",
+    "富士康",
+    "Foxconn",
+    "iPhone",
+    "中原城市群",
+    "Central Plains urban agglomeration",
+    "跨境电商",
+    "cross-border e-commerce",
+    "郑州航空港",
+    "Zhengzhou Airport Economy Zone",
+    "固定资产投资",
+    "fixed asset investment"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Zhengzhou municipality",
+      "Industrial output: value-added production from major sectors including electronics assembly, food processing, aluminum, and automotive parts",
+      "Logistics and transportation: freight volumes, air cargo statistics for Xinzheng International Airport, railway cargo data",
+      "Cross-border e-commerce: Zhengzhou's bonded zone cross-border transaction volumes and parcel throughput",
+      "Fixed asset investment: infrastructure, manufacturing, and real estate investment statistics",
+      "Employment and wages: employed persons, urban unemployment rate, and average wage data",
+      "Population: resident population, household registration, and labor migration into Henan's provincial capital",
+      "Consumer market: retail sales, consumer price index, and e-commerce growth data",
+      "Fiscal data: general public budget revenue and expenditure for Zhengzhou",
+      "Zhengzhou Statistical Yearbook: comprehensive annual compilation of all municipal socioeconomic statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：按产业分类的郑州市季度和年度GDP数据",
+      "工业产值：电子装配、食品加工、铝业和汽车零部件等主要行业增加值",
+      "物流与交通：货运量、新郑国际机场航空货运统计、铁路货运数据",
+      "跨境电商：郑州保税区跨境交易量及快件吞吐量",
+      "固定资产投资：基础设施、制造业和房地产投资统计",
+      "就业与工资：从业人员数、城镇登记失业率及平均工资数据",
+      "人口：常住人口、户籍人口及流入河南省会的劳动力迁移数据",
+      "消费市场：社会消费品零售总额、居民消费价格指数及电商增长数据",
+      "财政数据：郑州市一般公共预算收入和支出",
+      "郑州统计年鉴：全市社会经济统计数据的综合年度汇编"
+    ]
+  }
+}
