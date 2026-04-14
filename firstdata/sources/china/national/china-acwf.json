@@ -1,0 +1,58 @@
+{
+  "id": "china-acwf",
+  "name": {
+    "en": "All-China Women's Federation",
+    "zh": "中华全国妇女联合会"
+  },
+  "description": {
+    "en": "The All-China Women's Federation (ACWF) is China's national women's organization operating under the Chinese Communist Party. It publishes research reports, periodic surveys, and statistics on the social status of women, gender equality, women's employment, marriage and family trends, and women's rights protection across China.",
+    "zh": "中华全国妇女联合会（全国妇联）是在中国共产党领导下的全国性妇女组织，发布有关中国妇女社会地位、性别平等、妇女就业、婚姻家庭动态和妇女权益保护的研究报告、定期调查和统计资料。"
+  },
+  "website": "https://www.women.org.cn",
+  "data_url": "https://www.women.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "social",
+    "demographics",
+    "gender-equality"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "women",
+    "gender",
+    "gender-equality",
+    "social-status",
+    "marriage",
+    "family",
+    "employment",
+    "妇女",
+    "性别平等",
+    "妇联",
+    "社会地位",
+    "women-rights",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Chinese Women's Social Status Survey (periodic national survey)",
+      "Women's employment and labor market participation statistics",
+      "Marriage and family structure data",
+      "Women's education attainment statistics",
+      "Domestic violence and rights protection reports",
+      "Women's health and reproductive rights data",
+      "Gender gap indicators across provinces"
+    ],
+    "zh": [
+      "中国妇女社会地位调查（定期全国调查）",
+      "妇女就业和劳动参与率统计",
+      "婚姻和家庭结构数据",
+      "妇女受教育程度统计",
+      "家庭暴力和权益保护报告",
+      "妇女健康和生育权利数据",
+      "各省性别差距指标"
+    ]
+  }
+}

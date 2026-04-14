@@ -1,0 +1,57 @@
+{
+  "id": "china-adbc",
+  "name": {
+    "en": "Agricultural Development Bank of China",
+    "zh": "中国农业发展银行"
+  },
+  "description": {
+    "en": "The Agricultural Development Bank of China (ADBC) is China's state-owned agricultural policy bank, directly supervised by the State Council. Established in 1994, it provides policy-based financial support for agriculture, rural development, and food security. It publishes annual reports, bond issuance data, financial statements, and loan statistics related to rural development and food supply chain financing.",
+    "zh": "中国农业发展银行是中国国家出资、直属国务院领导的农业政策性银行，成立于1994年，为农业农村发展和粮食安全提供政策性金融支持。发布年度报告、债券发行数据、财务报表及涉农贷款和粮食供应链融资统计数据。"
+  },
+  "website": "https://www.adbc.com.cn",
+  "data_url": "https://www.adbc.com.cn/en/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "agriculture",
+    "banking"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "agricultural-bank",
+    "policy-bank",
+    "rural-finance",
+    "agriculture-loans",
+    "adbc",
+    "农业发展银行",
+    "农发行",
+    "涉农贷款",
+    "三农金融",
+    "food-security",
+    "rural-development",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports and audited financial statements",
+      "Agricultural policy loan portfolio statistics",
+      "Rural development and infrastructure financing data",
+      "Bond issuance and yield curve information",
+      "Food security and grain reserve financing statistics",
+      "Regional rural credit allocation data",
+      "Small and micro agricultural enterprise lending"
+    ],
+    "zh": [
+      "年度报告和经审计财务报表",
+      "农业政策性贷款组合统计",
+      "农村发展和基础设施融资数据",
+      "债券发行和收益率曲线信息",
+      "粮食安全和储备融资统计",
+      "区域农村信贷配置数据",
+      "小微农业企业贷款数据"
+    ]
+  }
+}

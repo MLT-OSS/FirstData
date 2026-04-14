@@ -1,0 +1,57 @@
+{
+  "id": "china-cpharma",
+  "name": {
+    "en": "Chinese Pharmaceutical Association",
+    "zh": "中国药学会"
+  },
+  "description": {
+    "en": "The Chinese Pharmaceutical Association (CPA), founded in 1907, is China's oldest and most authoritative national pharmaceutical academic organization. It publishes pharmaceutical science research, drug safety reports, clinical pharmacy standards, pharmaceutical industry development data, and continuing education materials for pharmacists.",
+    "zh": "中国药学会成立于1907年，是中国历史最悠久、最具权威的全国性药学学术团体。发布药学研究成果、药品安全报告、临床药学标准、医药产业发展数据及药师继续教育资料。"
+  },
+  "website": "https://www.cpa.org.cn",
+  "data_url": "https://www.cpa.org.cn/?do=class&classid=250",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "domains": [
+    "health",
+    "pharmaceuticals",
+    "research"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "pharmaceutical-association",
+    "drug-safety",
+    "clinical-pharmacy",
+    "pharmacy-standards",
+    "cpa",
+    "中国药学会",
+    "药学",
+    "药品安全",
+    "临床药学",
+    "医药产业",
+    "pharmacology",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Pharmaceutical science research publications",
+      "Drug safety and pharmacovigilance reports",
+      "Clinical pharmacy practice guidelines and standards",
+      "Pharmaceutical industry development statistics",
+      "Pharmacist education and certification data",
+      "Drug utilization and rational use of medicines data",
+      "Traditional Chinese medicine pharmacology research"
+    ],
+    "zh": [
+      "药学科学研究出版物",
+      "药品安全和药物警戒报告",
+      "临床药学实践指南和标准",
+      "医药产业发展统计数据",
+      "药师教育和执业资格数据",
+      "药物使用和合理用药数据",
+      "中药药理学研究"
+    ]
+  }
+}
