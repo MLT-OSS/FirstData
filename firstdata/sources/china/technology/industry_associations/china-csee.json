@@ -1,0 +1,77 @@
+{
+  "id": "china-csee",
+  "name": {
+    "en": "Chinese Society for Electrical Engineering",
+    "zh": "中国电机工程学会"
+  },
+  "description": {
+    "en": "The Chinese Society for Electrical Engineering (CSEE), founded in 1934, is China's leading national academic and professional society for electrical engineering, power systems, and energy. With over 100,000 members and affiliated with the China Association for Science and Technology (CAST), CSEE publishes technical standards, research reports, and industry statistics covering power generation, transmission, distribution, smart grids, renewable energy integration, and electrical equipment. It also serves as China's national member in the International Electrotechnical Commission (IEC) and the Union Internationale d'Electrothermie (UIE).",
+    "zh": "中国电机工程学会（CSEE）成立于1934年，是中国电气工程、电力系统和能源领域最重要的全国性学术和专业组织，会员逾10万人，隶属于中国科学技术协会。发布涵盖发电、输电、配电、智能电网、可再生能源并网和电气设备的技术标准、研究报告和行业统计。同时是国际电工委员会（IEC）和国际电热联合会（UIE）的中国全国会员。"
+  },
+  "website": "https://www.csee.org.cn",
+  "data_url": "https://www.csee.org.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "technology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "电力",
+    "power",
+    "电气工程",
+    "electrical engineering",
+    "智能电网",
+    "smart grid",
+    "可再生能源",
+    "renewable energy",
+    "电力系统",
+    "power system",
+    "CSEE",
+    "中国电机工程学会",
+    "发电",
+    "generation",
+    "输电",
+    "transmission",
+    "配电",
+    "distribution",
+    "新能源",
+    "new energy",
+    "储能",
+    "energy storage",
+    "电力技术",
+    "power technology",
+    "IEC",
+    "标准",
+    "standards"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Power Industry Reports - Comprehensive statistics on China's electricity generation, consumption, and grid infrastructure",
+      "Renewable Energy Integration - Data on wind, solar, and hydro power connectivity and curtailment rates",
+      "Smart Grid Development - Reports on advanced metering infrastructure, EV charging, and grid automation progress",
+      "Power Equipment Statistics - Installed capacity by generation type (thermal, hydro, nuclear, wind, solar)",
+      "Grid Investment Data - Annual capital expenditure data for transmission and distribution infrastructure",
+      "Carbon Emission Factors - Power sector CO2 emission intensity by regional grid",
+      "Technical Standards - CSEE-published electrical engineering standards and technical guidelines",
+      "Academic Publications - Peer-reviewed journals including Proceedings of the CSEE (中国电机工程学报)",
+      "Conference Proceedings - Technical papers from major power engineering conferences in China",
+      "Industry Talent Reports - Annual statistics on electrical engineering workforce and education"
+    ],
+    "zh": [
+      "年度电力行业报告 - 中国发电量、用电量和电网基础设施综合统计",
+      "新能源并网 - 风电、光伏和水电接入及弃能率数据",
+      "智能电网发展 - 高级计量设施、电动汽车充电桩和电网自动化进展报告",
+      "电力装备统计 - 按发电类型（火电、水电、核电、风电、光伏）划分的装机容量",
+      "电网投资数据 - 输电和配电基础设施年度资本支出",
+      "碳排放因子 - 各区域电网电力行业CO2排放强度",
+      "技术标准 - 中国电机工程学会发布的电气工程标准和技术规范",
+      "学术出版物 - 《中国电机工程学报》等同行评审期刊",
+      "会议论文集 - 中国主要电力工程会议技术论文",
+      "行业人才报告 - 电气工程从业人员和教育情况年度统计"
+    ]
+  }
+}

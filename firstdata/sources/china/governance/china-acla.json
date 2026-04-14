@@ -1,0 +1,71 @@
+{
+  "id": "china-acla",
+  "name": {
+    "en": "All China Lawyers Association",
+    "zh": "中华全国律师协会"
+  },
+  "description": {
+    "en": "The All China Lawyers Association (ACLA) is the national self-regulatory organization for the legal profession in China, established in 1986. Under the supervision of the Ministry of Justice, ACLA represents and manages approximately 650,000 licensed lawyers and over 40,000 law firms across China. It publishes annual statistics on the legal profession including lawyer counts by region, law firm distribution, legal aid cases, and industry growth trends, serving as the authoritative data source for China's legal services market.",
+    "zh": "中华全国律师协会（全国律协/ACLA）成立于1986年，是中国法律职业的全国性自律组织，受司法部监管。代表和管理全国约65万名执业律师和4万余家律师事务所。发布全国律师行业年度统计数据，包括各地区律师人数、律师事务所分布、法律援助案件情况和行业发展趋势，是中国法律服务市场的权威数据来源。"
+  },
+  "website": "https://www.acla.org.cn",
+  "data_url": "https://www.acla.org.cn/acla/tjxx/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "legal",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "律师",
+    "lawyer",
+    "法律服务",
+    "legal services",
+    "律师事务所",
+    "law firm",
+    "全国律协",
+    "ACLA",
+    "司法",
+    "judicial",
+    "法律援助",
+    "legal aid",
+    "律师统计",
+    "lawyer statistics",
+    "中国法律",
+    "China legal",
+    "执业律师",
+    "licensed attorney",
+    "法律职业",
+    "legal profession",
+    "律师行业",
+    "律师人数",
+    "律师分布"
+  ],
+  "data_content": {
+    "en": [
+      "Lawyer Statistics - Annual count of licensed lawyers nationwide and by province/city",
+      "Law Firm Distribution - Number and size of law firms across provinces, cities, and counties",
+      "Legal Aid Data - Legal aid cases handled, recipients served, and geographic distribution",
+      "Professional Development - New admissions, annual continuing education completion rates",
+      "Specialization Areas - Distribution of lawyers across practice areas (criminal, civil, commercial, IP, etc.)",
+      "Industry Revenue - Total revenue of China's legal services industry and per-lawyer metrics",
+      "Foreign Law Firms - Number and distribution of foreign law firm representative offices in China",
+      "Disciplinary Actions - Lawyer disciplinary cases and outcomes by category",
+      "International Cooperation - Cross-border legal service statistics and bilateral agreements"
+    ],
+    "zh": [
+      "律师统计 - 全国及各省市执业律师年度人数",
+      "律师事务所分布 - 全国各省市县律师事务所数量和规模",
+      "法律援助数据 - 法律援助案件办理数量、受援对象和地域分布",
+      "队伍建设 - 新增执业律师数量、年度继续教育完成情况",
+      "业务领域分布 - 律师在刑事、民事、商事、知识产权等领域的分布",
+      "行业收入 - 法律服务行业总收入和人均创收指标",
+      "外国律师事务所 - 外国律师事务所在华代表机构数量和分布",
+      "惩戒处分 - 按类型分类的律师惩戒案件和处理结果",
+      "国际合作 - 跨境法律服务统计和双边合作协议情况"
+    ]
+  }
+}

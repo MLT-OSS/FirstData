@@ -1,0 +1,74 @@
+{
+  "id": "china-neeq",
+  "name": {
+    "en": "National Equities Exchange and Quotations (New Third Board)",
+    "zh": "全国中小企业股份转让系统（新三板）"
+  },
+  "description": {
+    "en": "The National Equities Exchange and Quotations (NEEQ), commonly known as the New Third Board (新三板), is China's national OTC securities market for small and medium-sized enterprises (SMEs). Established in 2013 and supervised by the China Securities Regulatory Commission (CSRC), NEEQ provides a capital market platform for innovative SMEs that do not yet meet requirements for listing on the main exchanges. It publishes real-time quotation data, company disclosure information, and market statistics for thousands of listed companies.",
+    "zh": "全国中小企业股份转让系统（NEEQ），俗称新三板，是中国为中小企业设立的全国性场外证券市场。成立于2013年，受中国证券监督管理委员会监管，为尚不满足主板上市要求的创新型中小企业提供资本市场平台。提供数千家挂牌公司的实时行情数据、信息披露和市场统计数据。"
+  },
+  "website": "https://www.neeq.com.cn",
+  "data_url": "https://www.neeq.com.cn/issuanceList.html",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "securities"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "新三板",
+    "New Third Board",
+    "NEEQ",
+    "全国股转",
+    "中小企业",
+    "SME",
+    "场外市场",
+    "OTC market",
+    "挂牌公司",
+    "listed companies",
+    "股票行情",
+    "stock quotations",
+    "证券",
+    "securities",
+    "中国资本市场",
+    "China capital market",
+    "做市商",
+    "market maker",
+    "精选层",
+    "创新层",
+    "基础层",
+    "北交所",
+    "信息披露",
+    "disclosure"
+  ],
+  "data_content": {
+    "en": [
+      "Market Overview - Total listed companies, market capitalization, and trading volume statistics",
+      "Real-time Quotations - Bid/ask prices, last trade prices, and volume for all listed stocks",
+      "Company Disclosure - Annual reports, interim reports, prospectuses, and material event announcements",
+      "Listing Information - New listings, de-listings, and transfer-to-exchange records",
+      "Fundraising Statistics - Equity financing amounts and deal counts by period",
+      "Industry Distribution - Listed company counts and market cap by CSRC industry classification",
+      "Regional Distribution - Listed company statistics by province and city",
+      "Market Maker Data - Market maker quotes, spreads, and turnover for designated stocks",
+      "Index Data - NEEQ composite index and selected tier indices",
+      "Annual Market Reports - Comprehensive annual statistics on SME equity financing in China"
+    ],
+    "zh": [
+      "市场概况 - 挂牌公司总数、市值和成交量统计",
+      "实时行情 - 所有挂牌股票的买卖报价、最新成交价和成交量",
+      "信息披露 - 年报、半年报、招股说明书和重大事项公告",
+      "挂牌信息 - 新增挂牌、摘牌和转板记录",
+      "融资统计 - 各期间股权融资金额和交易笔数",
+      "行业分布 - 按证监会行业分类的挂牌公司数量和市值",
+      "地区分布 - 按省市划分的挂牌公司统计",
+      "做市商数据 - 做市股票的做市商报价、价差和成交数据",
+      "指数数据 - 新三板综合指数及各层次选取指数",
+      "年度市场报告 - 中国中小企业股权融资年度综合统计"
+    ]
+  }
+}
