@@ -1,0 +1,73 @@
+{
+  "id": "china-istic",
+  "name": {
+    "en": "Institute of Scientific and Technical Information of China",
+    "zh": "中国科学技术信息研究所"
+  },
+  "description": {
+    "en": "The Institute of Scientific and Technical Information of China (ISTIC), founded in 1956 and operating under the Ministry of Science and Technology, is China's leading government agency for scientific and technical information research and data publishing. ISTIC produces authoritative bibliometric analyses, including the Chinese Science Citation Database (CSCD), Chinese Scientific Journal Citation Reports, and annual rankings of China's most-cited journals and researchers. It publishes the Chinese S&T Journal Impact Factor (中国科技期刊引证报告), the ISTIC Discipline Assessment Reports, and China's performance in global scientific publications. ISTIC data is essential for evaluating research output, journal quality, academic influence, and China's position in the global science system.",
+    "zh": "中国科学技术信息研究所（中信所，ISTIC）成立于1956年，隶属科学技术部，是中国权威的科技信息研究与数据发布机构。中信所承担中文科学引文数据库（CSCD）建设、中国科技期刊引证报告编制及年度高被引期刊和研究者排名发布。主要出版物包括《中国科技期刊引证报告》（核心版）、学科评价报告以及中国在全球科学出版物中的表现分析。中信所数据是评估科研产出、期刊质量、学术影响力及中国在全球科学体系中地位的重要依据。"
+  },
+  "website": "https://www.istic.ac.cn",
+  "data_url": "https://www.istic.ac.cn/tabid/1140/Default.aspx",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "research",
+    "education",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中信所",
+    "ISTIC",
+    "科技信息",
+    "scientific information",
+    "科学引文",
+    "science citation",
+    "CSCD",
+    "中文科学引文数据库",
+    "Chinese Science Citation Database",
+    "期刊引证",
+    "journal citation",
+    "影响因子",
+    "impact factor",
+    "科技期刊",
+    "scientific journal",
+    "学术评价",
+    "academic evaluation",
+    "科研产出",
+    "research output",
+    "高被引",
+    "highly cited",
+    "科技部",
+    "Ministry of Science and Technology",
+    "中国科技",
+    "China science and technology"
+  ],
+  "data_content": {
+    "en": [
+      "Chinese S&T Journal Citation Reports: impact factors, total citations, and h-index for thousands of Chinese scientific journals",
+      "CSCD database: comprehensive citation index for China's core scientific journals across all disciplines",
+      "Annual journal rankings: top Chinese journals by impact factor, citation frequency, and international influence",
+      "Chinese researcher citation analysis: highly cited Chinese scientists and their publication metrics",
+      "China's global scientific output: comparison of China's publications and citations with major scientific nations",
+      "Discipline assessment reports: bibliometric analysis by academic discipline and research institution",
+      "Science and technology information resources: statistical reports on library collections and digital resources in China",
+      "National sci-tech award statistics: data on China's national science and technology prize winners and research areas"
+    ],
+    "zh": [
+      "中国科技期刊引证报告：数千种中国科技期刊的影响因子、总被引频次及h指数",
+      "CSCD数据库：覆盖各学科的中国核心科技期刊综合引文索引",
+      "年度期刊排名：按影响因子、被引频次和国际影响力排列的中国顶级期刊",
+      "中国学者被引分析：高被引中国科学家及其发表成果计量指标",
+      "中国全球科学产出：中国论文发表和引文数量与主要科学大国的比较",
+      "学科评价报告：按学术学科和科研机构的文献计量分析",
+      "科技信息资源：中国图书馆馆藏和数字资源统计报告",
+      "国家科技奖励统计：国家科学技术奖获奖者及研究领域数据"
+    ]
+  }
+}

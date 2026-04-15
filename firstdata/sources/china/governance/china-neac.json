@@ -1,0 +1,75 @@
+{
+  "id": "china-neac",
+  "name": {
+    "en": "National Ethnic Affairs Commission of China",
+    "zh": "国家民族事务委员会"
+  },
+  "description": {
+    "en": "The National Ethnic Affairs Commission (NEAC), also known as the State Ethnic Affairs Commission (SEAC), is China's central government body responsible for ethnic minority affairs, policy implementation, and statistical monitoring of China's 55 recognized ethnic minority groups. NEAC publishes data on ethnic minority population distribution, economic development in minority regions, poverty alleviation progress, preservation of minority languages and cultures, ethnic education, and regional autonomy governance. Key publications include ethnic minority population census data, annual statistical bulletins on minority areas development, and reports on the implementation of ethnic regional autonomy. NEAC data is essential for understanding demographic diversity, regional development disparities, and social policy in China's autonomous regions.",
+    "zh": "国家民族事务委员会（民委）是中国负责民族事务管理、政策实施及55个少数民族统计监测的国家中央政府机构。民委发布少数民族人口分布、民族地区经济发展、脱贫攻坚进展、少数民族语言文化保护、民族教育及民族区域自治治理等数据。主要出版物包括少数民族人口普查数据、民族地区年度发展统计公报及民族区域自治制度实施报告。民委数据对了解中国的人口多样性、区域发展差异及自治区社会政策具有重要意义。"
+  },
+  "website": "https://www.neac.gov.cn",
+  "data_url": "https://www.neac.gov.cn/seac/xxgk/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "demographics",
+    "governance",
+    "economics",
+    "social"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "民委",
+    "NEAC",
+    "SEAC",
+    "ethnic minority",
+    "少数民族",
+    "民族地区",
+    "minority regions",
+    "民族人口",
+    "ethnic population",
+    "民族区域自治",
+    "ethnic regional autonomy",
+    "少数民族发展",
+    "minority development",
+    "民族文化",
+    "ethnic culture",
+    "民族教育",
+    "ethnic education",
+    "脱贫攻坚",
+    "poverty alleviation",
+    "自治区",
+    "autonomous regions",
+    "西藏",
+    "Tibet",
+    "新疆",
+    "Xinjiang",
+    "民族统计",
+    "ethnic statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Ethnic minority population: census data on population size, distribution, and demographic characteristics of 55 ethnic minority groups",
+      "Regional development statistics: GDP, per capita income, poverty rate, and infrastructure in ethnic autonomous regions",
+      "Poverty alleviation data: poverty reduction progress in ethnic minority areas under national rural revitalization strategy",
+      "Education indicators: school enrollment rates, literacy, higher education participation among ethnic minorities",
+      "Language and culture: number of schools teaching minority languages, cultural heritage preservation programs",
+      "Economic autonomy: fiscal transfers to autonomous regions, special development funds for minority areas",
+      "Social indicators: life expectancy, maternal mortality, healthcare access in ethnic minority communities",
+      "Annual bulletin on ethnic minority areas development: comprehensive report on socioeconomic progress across autonomous regions"
+    ],
+    "zh": [
+      "少数民族人口：55个少数民族人口规模、分布及人口特征普查数据",
+      "地区发展统计：民族自治区域的GDP、人均收入、贫困率及基础设施情况",
+      "脱贫攻坚数据：农村振兴战略下少数民族地区减贫进展",
+      "教育指标：少数民族的入学率、文化程度及高等教育参与率",
+      "语言与文化：少数民族语言教学学校数量、文化遗产保护项目",
+      "经济自治：对自治区的财政转移支付及民族地区特殊发展基金",
+      "社会指标：少数民族聚居地区人均寿命、孕产妇死亡率及医疗可及性",
+      "少数民族地区年度发展统计公报：自治区社会经济进展综合报告"
+    ]
+  }
+}
