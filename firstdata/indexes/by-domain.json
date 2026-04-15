@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-15T01:04:28.090517+00:00",
+    "generated_at": "2026-04-15T01:05:01.474636+00:00",
     "total_domains": 712,
-    "total_sources": 443,
+    "total_sources": 448,
     "version": "2.0"
   },
   "domains": {
@@ -2992,6 +2992,18 @@
         "has_api": false,
         "file_path": "china/national/meteorology/china-cma.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-nsmc",
+        "name": {
+          "en": "National Satellite Meteorological Center of China",
+          "zh": "国家卫星气象中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nsmc.org.cn/nsmc/cn/satellite/index.html",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-nsmc.json",
+        "geographic_scope": "global"
       },
       {
         "id": "china-tpdc",
@@ -10790,6 +10802,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csee",
+        "name": {
+          "en": "Chinese Society for Electrical Engineering",
+          "zh": "中国电机工程学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csee.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-csee.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cwea",
         "name": {
           "en": "Chinese Wind Energy Association",
@@ -11396,6 +11420,18 @@
         "data_url": "https://www.resdc.cn",
         "has_api": false,
         "file_path": "china/research/china-resdc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnemc",
+        "name": {
+          "en": "China National Environmental Monitoring Centre",
+          "zh": "中国环境监测总站"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnemc.cn/sssj/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cnemc.json",
         "geographic_scope": "national"
       },
       {
@@ -12939,6 +12975,18 @@
         "data_url": "https://www.safe.gov.cn/safe/tjsj1/index.html",
         "has_api": false,
         "file_path": "china/finance/forex/china-safe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-neeq",
+        "name": {
+          "en": "National Equities Exchange and Quotations (New Third Board)",
+          "zh": "全国中小企业股份转让系统（新三板）"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.neeq.com.cn/issuanceList.html",
+        "has_api": false,
+        "file_path": "china/finance/securities/china-neeq.json",
         "geographic_scope": "national"
       },
       {
@@ -15015,6 +15063,18 @@
         "data_url": "https://www.chinatax.gov.cn/chinatax/n810219/",
         "has_api": false,
         "file_path": "china/finance/taxation/china-chinatax.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-acla",
+        "name": {
+          "en": "All China Lawyers Association",
+          "zh": "中华全国律师协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.acla.org.cn/acla/tjxx/",
+        "has_api": false,
+        "file_path": "china/governance/china-acla.json",
         "geographic_scope": "national"
       },
       {
@@ -19568,6 +19628,18 @@
     ],
     "legal": [
       {
+        "id": "china-acla",
+        "name": {
+          "en": "All China Lawyers Association",
+          "zh": "中华全国律师协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.acla.org.cn/acla/tjxx/",
+        "has_api": false,
+        "file_path": "china/governance/china-acla.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "hk-companies-registry",
         "name": {
           "en": "Hong Kong Companies Registry",
@@ -20552,6 +20624,18 @@
         "has_api": false,
         "file_path": "china/national/meteorology/china-cma.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-nsmc",
+        "name": {
+          "en": "National Satellite Meteorological Center of China",
+          "zh": "国家卫星气象中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nsmc.org.cn/nsmc/cn/satellite/index.html",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-nsmc.json",
+        "geographic_scope": "global"
       },
       {
         "id": "noaa-cdo",
@@ -23139,6 +23223,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnemc",
+        "name": {
+          "en": "China National Environmental Monitoring Centre",
+          "zh": "中国环境监测总站"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnemc.cn/sssj/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cnemc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mee",
         "name": {
           "en": "Ministry of Ecology and Environment of China - Environmental Data",
@@ -23410,6 +23506,18 @@
       }
     ],
     "remote-sensing": [
+      {
+        "id": "china-nsmc",
+        "name": {
+          "en": "National Satellite Meteorological Center of China",
+          "zh": "国家卫星气象中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nsmc.org.cn/nsmc/cn/satellite/index.html",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-nsmc.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "usgs-earthexplorer",
         "name": {
@@ -24087,6 +24195,18 @@
       }
     ],
     "securities": [
+      {
+        "id": "china-neeq",
+        "name": {
+          "en": "National Equities Exchange and Quotations (New Third Board)",
+          "zh": "全国中小企业股份转让系统（新三板）"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.neeq.com.cn/issuanceList.html",
+        "has_api": false,
+        "file_path": "china/finance/securities/china-neeq.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-sse",
         "name": {
@@ -27167,6 +27287,18 @@
         "data_url": "http://www.caam.org.cn/chn/4/cate_39/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-caam.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csee",
+        "name": {
+          "en": "Chinese Society for Electrical Engineering",
+          "zh": "中国电机工程学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csee.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-csee.json",
         "geographic_scope": "national"
       },
       {
