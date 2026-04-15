@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T10:04:52.513862+00:00",
-    "total_sources": 438,
+    "generated_at": "2026-04-15T01:04:28.090517+00:00",
+    "total_sources": 443,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -7604,6 +7604,65 @@
       "file_path": "china/education/moe-gaokao.json"
     },
     {
+      "id": "china-adbc",
+      "name": {
+        "en": "Agricultural Development Bank of China",
+        "zh": "中国农业发展银行"
+      },
+      "description": {
+        "en": "The Agricultural Development Bank of China (ADBC) is China's state-owned agricultural policy bank, directly supervised by the State Council. Established in 1994, it provides policy-based financial support for agriculture, rural development, and food security. It publishes annual reports, bond issuance data, financial statements, and loan statistics related to rural development and food supply chain financing.",
+        "zh": "中国农业发展银行是中国国家出资、直属国务院领导的农业政策性银行，成立于1994年，为农业农村发展和粮食安全提供政策性金融支持。发布年度报告、债券发行数据、财务报表及涉农贷款和粮食供应链融资统计数据。"
+      },
+      "website": "https://www.adbc.com.cn",
+      "data_url": "https://www.adbc.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "agriculture",
+        "banking"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "agricultural-bank",
+        "policy-bank",
+        "rural-finance",
+        "agriculture-loans",
+        "adbc",
+        "农业发展银行",
+        "农发行",
+        "涉农贷款",
+        "三农金融",
+        "food-security",
+        "rural-development",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports and audited financial statements",
+          "Agricultural policy loan portfolio statistics",
+          "Rural development and infrastructure financing data",
+          "Bond issuance and yield curve information",
+          "Food security and grain reserve financing statistics",
+          "Regional rural credit allocation data",
+          "Small and micro agricultural enterprise lending"
+        ],
+        "zh": [
+          "年度报告和经审计财务报表",
+          "农业政策性贷款组合统计",
+          "农村发展和基础设施融资数据",
+          "债券发行和收益率曲线信息",
+          "粮食安全和储备融资统计",
+          "区域农村信贷配置数据",
+          "小微农业企业贷款数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-adbc.json"
+    },
+    {
       "id": "china-cba",
       "name": {
         "en": "China Banking Association",
@@ -10401,6 +10460,122 @@
       "file_path": "china/governance/sports/china-gas.json"
     },
     {
+      "id": "china-cpharma",
+      "name": {
+        "en": "Chinese Pharmaceutical Association",
+        "zh": "中国药学会"
+      },
+      "description": {
+        "en": "The Chinese Pharmaceutical Association (CPA), founded in 1907, is China's oldest and most authoritative national pharmaceutical academic organization. It publishes pharmaceutical science research, drug safety reports, clinical pharmacy standards, pharmaceutical industry development data, and continuing education materials for pharmacists.",
+        "zh": "中国药学会成立于1907年，是中国历史最悠久、最具权威的全国性药学学术团体。发布药学研究成果、药品安全报告、临床药学标准、医药产业发展数据及药师继续教育资料。"
+      },
+      "website": "https://www.cpa.org.cn",
+      "data_url": "https://www.cpa.org.cn/?do=class&classid=250",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "domains": [
+        "health",
+        "pharmaceuticals",
+        "research"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "pharmaceutical-association",
+        "drug-safety",
+        "clinical-pharmacy",
+        "pharmacy-standards",
+        "cpa",
+        "中国药学会",
+        "药学",
+        "药品安全",
+        "临床药学",
+        "医药产业",
+        "pharmacology",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Pharmaceutical science research publications",
+          "Drug safety and pharmacovigilance reports",
+          "Clinical pharmacy practice guidelines and standards",
+          "Pharmaceutical industry development statistics",
+          "Pharmacist education and certification data",
+          "Drug utilization and rational use of medicines data",
+          "Traditional Chinese medicine pharmacology research"
+        ],
+        "zh": [
+          "药学科学研究出版物",
+          "药品安全和药物警戒报告",
+          "临床药学实践指南和标准",
+          "医药产业发展统计数据",
+          "药师教育和执业资格数据",
+          "药物使用和合理用药数据",
+          "中药药理学研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cpharma.json"
+    },
+    {
+      "id": "china-medical-association",
+      "name": {
+        "en": "Chinese Medical Association",
+        "zh": "中华医学会"
+      },
+      "description": {
+        "en": "The Chinese Medical Association (CMA), founded in 1915, is China's largest and most authoritative national medical academic organization. With 89 specialty branches and over 600,000 members, it publishes 150+ peer-reviewed medical journals, clinical practice guidelines, disease epidemiology reports, and public health data covering all major medical specialties.",
+        "zh": "中华医学会成立于1915年，是中国最大、最具权威的全国性医学学术团体，拥有89个专科分会和60余万会员。出版150余种医学期刊，发布各主要医学专科的临床诊疗指南、疾病流行病学报告和公共卫生数据。"
+      },
+      "website": "https://www.cma.org.cn",
+      "data_url": "https://www.cma.org.cn/col/col5601/index.html",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "domains": [
+        "health",
+        "research"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "medical-association",
+        "clinical-guidelines",
+        "medical-journals",
+        "public-health",
+        "cma",
+        "中华医学会",
+        "临床指南",
+        "医学期刊",
+        "医学教育",
+        "disease-epidemiology",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Clinical practice guidelines across 89 medical specialties",
+          "Peer-reviewed medical journal publications (150+ titles)",
+          "Disease epidemiology and public health reports",
+          "Medical education and training standards",
+          "Healthcare quality and patient safety data",
+          "Medical technology and innovation reports",
+          "National continuing medical education program data"
+        ],
+        "zh": [
+          "89个医学专科临床诊疗指南",
+          "同行评审医学期刊出版物（150余种）",
+          "疾病流行病学和公共卫生报告",
+          "医学教育和培训标准",
+          "医疗质量和患者安全数据",
+          "医疗技术和创新报告",
+          "全国继续医学教育项目数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-medical-association.json"
+    },
+    {
       "id": "china-natcm",
       "name": {
         "en": "National Administration of Traditional Chinese Medicine",
@@ -11210,6 +11385,66 @@
       },
       "has_api": true,
       "file_path": "china/national/ceic-china-urbanization.json"
+    },
+    {
+      "id": "china-acwf",
+      "name": {
+        "en": "All-China Women's Federation",
+        "zh": "中华全国妇女联合会"
+      },
+      "description": {
+        "en": "The All-China Women's Federation (ACWF) is China's national women's organization operating under the Chinese Communist Party. It publishes research reports, periodic surveys, and statistics on the social status of women, gender equality, women's employment, marriage and family trends, and women's rights protection across China.",
+        "zh": "中华全国妇女联合会（全国妇联）是在中国共产党领导下的全国性妇女组织，发布有关中国妇女社会地位、性别平等、妇女就业、婚姻家庭动态和妇女权益保护的研究报告、定期调查和统计资料。"
+      },
+      "website": "https://www.women.org.cn",
+      "data_url": "https://www.women.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "social",
+        "demographics",
+        "gender-equality"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "women",
+        "gender",
+        "gender-equality",
+        "social-status",
+        "marriage",
+        "family",
+        "employment",
+        "妇女",
+        "性别平等",
+        "妇联",
+        "社会地位",
+        "women-rights",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Chinese Women's Social Status Survey (periodic national survey)",
+          "Women's employment and labor market participation statistics",
+          "Marriage and family structure data",
+          "Women's education attainment statistics",
+          "Domestic violence and rights protection reports",
+          "Women's health and reproductive rights data",
+          "Gender gap indicators across provinces"
+        ],
+        "zh": [
+          "中国妇女社会地位调查（定期全国调查）",
+          "妇女就业和劳动参与率统计",
+          "婚姻和家庭结构数据",
+          "妇女受教育程度统计",
+          "家庭暴力和权益保护报告",
+          "妇女健康和生育权利数据",
+          "各省性别差距指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/national/china-acwf.json"
     },
     {
       "id": "china-mca",
@@ -12658,6 +12893,64 @@
       },
       "has_api": false,
       "file_path": "china/resources/mineral/china-mnr-minerals.json"
+    },
+    {
+      "id": "china-nmsa",
+      "name": {
+        "en": "National Mine Safety Administration of China",
+        "zh": "国家矿山安全监察局"
+      },
+      "description": {
+        "en": "China's National Mine Safety Administration (NMSA) is the central government authority responsible for mine safety inspection, accident investigation, and safety statistics for coal and non-coal mining operations nationwide. It publishes accident statistics, safety inspection reports, regulatory compliance data, and annual mine safety situation reports.",
+        "zh": "国家矿山安全监察局是负责矿山安全监察的中央政府机构，承担全国煤矿和非煤矿山的安全检查、事故调查和安全统计职责。发布矿山安全事故统计、安全检查报告、监管合规数据和年度矿山安全形势报告。"
+      },
+      "website": "https://www.chinamine-safety.gov.cn",
+      "data_url": "https://www.chinamine-safety.gov.cn/zfxxgk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "safety",
+        "mining",
+        "energy"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "mine-safety",
+        "coal-mining",
+        "accident-statistics",
+        "safety-inspection",
+        "nmsa",
+        "矿山安全",
+        "煤矿",
+        "事故统计",
+        "安全监察",
+        "workplace-safety",
+        "china"
+      ],
+      "data_content": {
+        "en": [
+          "Mine accident statistics (coal and non-coal mining)",
+          "Safety inspection results and compliance data",
+          "Major accident investigation reports",
+          "Safety license and certification data",
+          "Regional mine safety performance statistics",
+          "Annual mine safety situation report",
+          "Hazardous gas and dust monitoring reports"
+        ],
+        "zh": [
+          "矿山事故统计（煤矿和非煤矿山）",
+          "安全检查结果和合规数据",
+          "重大事故调查报告",
+          "安全许可和资质数据",
+          "各地区矿山安全绩效统计",
+          "年度矿山安全形势报告",
+          "有害气体和粉尘监测报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/mineral/china-nmsa.json"
     },
     {
       "id": "china-nmdis",

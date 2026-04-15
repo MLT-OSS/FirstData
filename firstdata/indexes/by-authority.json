@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T10:04:52.513862+00:00",
-    "total_sources": 438,
+    "generated_at": "2026-04-15T01:04:28.090517+00:00",
+    "total_sources": 443,
     "authority_counts": {
-      "research": 41,
+      "research": 43,
       "international": 74,
-      "government": 251,
+      "government": 254,
       "other": 32,
       "market": 24,
       "commercial": 16
@@ -206,6 +206,30 @@
         "has_api": false,
         "file_path": "academic/social/asian-barometer.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-cpharma",
+        "name": {
+          "en": "Chinese Pharmaceutical Association",
+          "zh": "中国药学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpa.org.cn/?do=class&classid=250",
+        "has_api": false,
+        "file_path": "china/health/china-cpharma.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-medical-association",
+        "name": {
+          "en": "Chinese Medical Association",
+          "zh": "中华医学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cma.org.cn/col/col5601/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-medical-association.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-cae",
@@ -2250,6 +2274,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-adbc",
+        "name": {
+          "en": "Agricultural Development Bank of China",
+          "zh": "中国农业发展银行"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.adbc.com.cn/",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-adbc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nfra",
         "name": {
           "en": "National Financial Regulatory Administration",
@@ -2701,6 +2737,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-acwf",
+        "name": {
+          "en": "All-China Women's Federation",
+          "zh": "中华全国妇女联合会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.women.org.cn/",
+        "has_api": false,
+        "file_path": "china/national/china-acwf.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mca",
         "name": {
           "en": "Ministry of Civil Affairs of China",
@@ -2832,6 +2880,18 @@
         "data_url": "https://www.mnr.gov.cn/sj/sjfw/kc_19263/",
         "has_api": false,
         "file_path": "china/resources/mineral/china-mnr-minerals.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nmsa",
+        "name": {
+          "en": "National Mine Safety Administration of China",
+          "zh": "国家矿山安全监察局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinamine-safety.gov.cn/zfxxgk/",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-nmsa.json",
         "geographic_scope": "national"
       },
       {
