@@ -1,0 +1,55 @@
+{
+  "id": "china-medical-association",
+  "name": {
+    "en": "Chinese Medical Association",
+    "zh": "中华医学会"
+  },
+  "description": {
+    "en": "The Chinese Medical Association (CMA), founded in 1915, is China's largest and most authoritative national medical academic organization. With 89 specialty branches and over 600,000 members, it publishes 150+ peer-reviewed medical journals, clinical practice guidelines, disease epidemiology reports, and public health data covering all major medical specialties.",
+    "zh": "中华医学会成立于1915年，是中国最大、最具权威的全国性医学学术团体，拥有89个专科分会和60余万会员。出版150余种医学期刊，发布各主要医学专科的临床诊疗指南、疾病流行病学报告和公共卫生数据。"
+  },
+  "website": "https://www.cma.org.cn",
+  "data_url": "https://www.cma.org.cn/col/col5601/index.html",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "domains": [
+    "health",
+    "research"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "medical-association",
+    "clinical-guidelines",
+    "medical-journals",
+    "public-health",
+    "cma",
+    "中华医学会",
+    "临床指南",
+    "医学期刊",
+    "医学教育",
+    "disease-epidemiology",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Clinical practice guidelines across 89 medical specialties",
+      "Peer-reviewed medical journal publications (150+ titles)",
+      "Disease epidemiology and public health reports",
+      "Medical education and training standards",
+      "Healthcare quality and patient safety data",
+      "Medical technology and innovation reports",
+      "National continuing medical education program data"
+    ],
+    "zh": [
+      "89个医学专科临床诊疗指南",
+      "同行评审医学期刊出版物（150余种）",
+      "疾病流行病学和公共卫生报告",
+      "医学教育和培训标准",
+      "医疗质量和患者安全数据",
+      "医疗技术和创新报告",
+      "全国继续医学教育项目数据"
+    ]
+  }
+}

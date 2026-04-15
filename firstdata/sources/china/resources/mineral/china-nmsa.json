@@ -1,0 +1,56 @@
+{
+  "id": "china-nmsa",
+  "name": {
+    "en": "National Mine Safety Administration of China",
+    "zh": "国家矿山安全监察局"
+  },
+  "description": {
+    "en": "China's National Mine Safety Administration (NMSA) is the central government authority responsible for mine safety inspection, accident investigation, and safety statistics for coal and non-coal mining operations nationwide. It publishes accident statistics, safety inspection reports, regulatory compliance data, and annual mine safety situation reports.",
+    "zh": "国家矿山安全监察局是负责矿山安全监察的中央政府机构，承担全国煤矿和非煤矿山的安全检查、事故调查和安全统计职责。发布矿山安全事故统计、安全检查报告、监管合规数据和年度矿山安全形势报告。"
+  },
+  "website": "https://www.chinamine-safety.gov.cn",
+  "data_url": "https://www.chinamine-safety.gov.cn/zfxxgk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "safety",
+    "mining",
+    "energy"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "mine-safety",
+    "coal-mining",
+    "accident-statistics",
+    "safety-inspection",
+    "nmsa",
+    "矿山安全",
+    "煤矿",
+    "事故统计",
+    "安全监察",
+    "workplace-safety",
+    "china"
+  ],
+  "data_content": {
+    "en": [
+      "Mine accident statistics (coal and non-coal mining)",
+      "Safety inspection results and compliance data",
+      "Major accident investigation reports",
+      "Safety license and certification data",
+      "Regional mine safety performance statistics",
+      "Annual mine safety situation report",
+      "Hazardous gas and dust monitoring reports"
+    ],
+    "zh": [
+      "矿山事故统计（煤矿和非煤矿山）",
+      "安全检查结果和合规数据",
+      "重大事故调查报告",
+      "安全许可和资质数据",
+      "各地区矿山安全绩效统计",
+      "年度矿山安全形势报告",
+      "有害气体和粉尘监测报告"
+    ]
+  }
+}
