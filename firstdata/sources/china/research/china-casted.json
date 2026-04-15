@@ -1,0 +1,63 @@
+{
+  "id": "china-casted",
+  "name": {
+    "en": "China Academy of Science and Technology for Development",
+    "zh": "中国科学技术发展战略研究院"
+  },
+  "description": {
+    "en": "The China Academy of Science and Technology for Development (CASTED) is a government-affiliated research institute under the Ministry of Science and Technology. It serves as a national think tank specializing in science and technology policy research, innovation system analysis, and technology development strategy. CASTED produces the National Innovation Index, technology competitiveness rankings, R&D investment analysis reports, innovation ecosystem assessments, and science policy evaluations. Its annual publications on China's regional innovation capacity and global science and technology competitiveness are widely referenced by policymakers, researchers, and international organizations.",
+    "zh": "中国科学技术发展战略研究院是科学技术部下属的政府直属研究机构，专注于科技政策研究、创新体系分析和技术发展战略，是国家级科技政策智库。研究院编制国家创新指数、技术竞争力排名、研发投入分析报告、创新生态系统评估和科学政策评价，每年发布的中国区域创新能力和全球科技竞争力系列报告被政策制定者、研究人员和国际组织广泛引用。"
+  },
+  "website": "http://www.casted.org.cn",
+  "data_url": "http://www.casted.org.cn/channel/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science-technology",
+    "innovation",
+    "research",
+    "economics",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "science-technology",
+    "innovation",
+    "R&D",
+    "technology-policy",
+    "national-innovation-index",
+    "research-development",
+    "science-policy",
+    "competitiveness",
+    "科技政策",
+    "创新指数",
+    "研发投入",
+    "科技竞争力",
+    "区域创新",
+    "科技发展战略",
+    "科技部"
+  ],
+  "data_content": {
+    "en": [
+      "National Innovation Index - Composite index measuring China's overall innovation capabilities and global ranking trends",
+      "R&D Investment Analysis - Gross expenditure on R&D (GERD), R&D intensity, sectoral and regional breakdowns",
+      "Regional Innovation Capacity - Province-level rankings of innovation inputs, outputs, and ecosystem quality",
+      "Technology Competitiveness - China's position in global technology rankings, patent analysis, and scientific output metrics",
+      "Science and Technology Statistics - Basic S&T statistics on personnel, funding, outputs, and enterprise innovation",
+      "Innovation Policy Evaluation - Assessment of major science and technology policies and their implementation outcomes",
+      "Global S&T Comparison - Benchmarking China's innovation performance against major economies"
+    ],
+    "zh": [
+      "国家创新指数 - 衡量中国整体创新能力的综合指数及全球排名趋势",
+      "研发投入分析 - 研发总支出（GERD）、研发强度、行业和区域分类数据",
+      "区域创新能力 - 省级创新投入、产出和生态系统质量排名",
+      "科技竞争力 - 中国在全球科技排名中的地位、专利分析和科学产出指标",
+      "科技统计数据 - 关于科技人才、经费、产出和企业创新的基础科技统计数据",
+      "创新政策评价 - 重大科技政策及其实施成效的评估",
+      "全球科技对比 - 中国创新绩效与主要经济体的基准比较"
+    ]
+  }
+}
