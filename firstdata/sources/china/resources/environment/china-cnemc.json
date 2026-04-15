@@ -1,0 +1,76 @@
+{
+  "id": "china-cnemc",
+  "name": {
+    "en": "China National Environmental Monitoring Centre",
+    "zh": "中国环境监测总站"
+  },
+  "description": {
+    "en": "The China National Environmental Monitoring Centre (CNEMC) is the national technical support agency under the Ministry of Ecology and Environment (MEE), responsible for operating China's national environmental monitoring network. CNEMC publishes real-time and historical data on air quality, surface water quality, soil, and acoustic environment across more than 1,600 monitoring stations nationwide. It provides authoritative environmental quality data supporting policy decisions, public health protection, and pollution control enforcement.",
+    "zh": "中国环境监测总站（CNEMC）是生态环境部下属的国家环境监测技术支撑机构，负责运营覆盖全国1600余个站点的国家环境监测网络。发布空气质量、地表水质、土壤和声环境的实时及历史监测数据，为政策决策、公众健康保护和污染防治执法提供权威环境质量数据。"
+  },
+  "website": "https://www.cnemc.cn",
+  "data_url": "https://www.cnemc.cn/sssj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "public-health"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "环境监测",
+    "environmental monitoring",
+    "空气质量",
+    "air quality",
+    "AQI",
+    "PM2.5",
+    "PM10",
+    "水质监测",
+    "water quality",
+    "地表水",
+    "surface water",
+    "土壤监测",
+    "soil monitoring",
+    "声环境",
+    "noise monitoring",
+    "实时数据",
+    "real-time data",
+    "CNEMC",
+    "中国环境监测总站",
+    "生态环境部",
+    "国控站",
+    "national monitoring station",
+    "污染",
+    "pollution",
+    "六项污染物",
+    "six pollutants"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time Air Quality Index (AQI) - Hourly AQI values for 338+ cities and 1,600+ monitoring stations nationwide",
+      "Six Criteria Pollutants - Real-time concentrations of PM2.5, PM10, SO2, NO2, CO, and O3",
+      "Air Quality Rankings - Daily and monthly city rankings by air quality",
+      "Historical Air Quality Data - Hourly, daily, and monthly historical pollutant data by city and station",
+      "Surface Water Quality - Real-time monitoring at key river basins including Yangtze, Yellow, Pearl, and Hai Rivers",
+      "Groundwater Quality - Monitoring data from national groundwater quality assessment network",
+      "Drinking Water Source Quality - Surveillance data for municipal drinking water sources",
+      "Acoustic Environment Monitoring - Urban noise levels at functional zone monitoring points",
+      "Annual Environmental Quality Bulletins - Comprehensive national environmental quality reports",
+      "Soil Pollution Monitoring - Results from national soil pollution status surveys"
+    ],
+    "zh": [
+      "实时空气质量指数（AQI）- 全国338个城市及1600余个监测站的逐时AQI数据",
+      "六项大气污染物 - PM2.5、PM10、SO2、NO2、CO、O3实时浓度",
+      "空气质量排名 - 城市日排名和月排名",
+      "历史空气质量数据 - 按城市和站点的逐时、日均、月均历史污染物数据",
+      "地表水水质 - 长江、黄河、珠江、海河等重点流域实时监测",
+      "地下水水质 - 国家地下水水质评估网络监测数据",
+      "集中式饮用水水源地水质 - 城市饮用水水源地监测数据",
+      "声环境监测 - 各功能区城市噪声监测数据",
+      "年度环境质量公报 - 综合性国家环境质量年度报告",
+      "土壤污染监测 - 全国土壤污染状况详查结果"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "china-nsmc",
+  "name": {
+    "en": "National Satellite Meteorological Center of China",
+    "zh": "国家卫星气象中心"
+  },
+  "description": {
+    "en": "The National Satellite Meteorological Center (NSMC), under the China Meteorological Administration, is responsible for operating China's FengYun (FY) series of meteorological satellites and providing satellite-derived meteorological and environmental data products. NSMC operates both geostationary satellites (FY-2, FY-4) and polar-orbiting satellites (FY-1, FY-3), providing global and regional data for weather forecasting, climate monitoring, disaster warning, and environmental surveillance.",
+    "zh": "国家卫星气象中心（NSMC）隶属于中国气象局，负责运营中国风云系列气象卫星并提供卫星遥感气象与环境数据产品。中心运营静止轨道卫星（风云二号、风云四号）和极轨卫星（风云一号、风云三号），为天气预报、气候监测、灾害预警和环境监测提供全球和区域数据。"
+  },
+  "website": "https://www.nsmc.org.cn",
+  "data_url": "https://www.nsmc.org.cn/nsmc/cn/satellite/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "meteorology",
+    "climate",
+    "remote-sensing"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "风云卫星",
+    "FengYun",
+    "气象卫星",
+    "meteorological satellite",
+    "卫星遥感",
+    "satellite remote sensing",
+    "气象数据",
+    "weather data",
+    "气候监测",
+    "climate monitoring",
+    "灾害预警",
+    "disaster warning",
+    "FY-2",
+    "FY-3",
+    "FY-4",
+    "NSMC",
+    "国家卫星气象中心",
+    "云图",
+    "satellite imagery",
+    "大气探测",
+    "atmospheric sounding"
+  ],
+  "data_content": {
+    "en": [
+      "FengYun Satellite Products - Real-time and archived satellite imagery from FY-2, FY-3, and FY-4 series",
+      "Cloud Analysis Products - Cloud top temperature, cloud type classification, and cloud cover maps",
+      "Precipitation Estimation - Satellite-derived rainfall and snowfall estimates at national and global scale",
+      "Land Surface Temperature - Daily and composite land surface temperature products",
+      "Sea Surface Temperature - Ocean surface temperature monitoring using FY satellite data",
+      "Vegetation Index (NDVI) - National and global vegetation health monitoring products",
+      "Snow and Ice Cover - Extent and depth monitoring for polar and mountain regions",
+      "Atmospheric Motion Vectors - Upper-level wind field data derived from consecutive satellite images",
+      "Fire Detection Products - Active fire points and burned area estimates from satellite thermal channels",
+      "Dust and Aerosol Products - Sand-dust storm tracking, aerosol optical depth mapping",
+      "Typhoon Monitoring - Real-time typhoon track, intensity, and structural analysis"
+    ],
+    "zh": [
+      "风云卫星产品 - 风云二号、三号、四号系列卫星实时和存档遥感图像",
+      "云分析产品 - 云顶温度、云型分类和云覆盖图",
+      "降水估算 - 国家和全球尺度卫星遥感降雨和降雪估算",
+      "地表温度 - 日产品和合成地表温度产品",
+      "海面温度 - 基于风云卫星数据的海洋表面温度监测",
+      "植被指数（NDVI）- 国家和全球植被健康监测产品",
+      "雪冰覆盖 - 极地和山区雪冰范围与厚度监测",
+      "大气运动矢量 - 基于连续卫星图像的高层风场数据",
+      "火点探测产品 - 卫星热通道主动火点和过火面积估算",
+      "沙尘与气溶胶产品 - 沙尘暴路径追踪、气溶胶光学厚度制图",
+      "台风监测 - 台风路径、强度和结构实时分析"
+    ]
+  }
+}
