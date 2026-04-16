@@ -1,0 +1,71 @@
+{
+  "id": "china-wenshu",
+  "name": {
+    "en": "China Judgments Online",
+    "zh": "中国裁判文书网"
+  },
+  "description": {
+    "en": "China Judgments Online (Wenshu) is the official public disclosure platform for judicial documents operated by the Supreme People's Court of China. Launched in 2013, it is one of the world's largest databases of court judgments, hosting hundreds of millions of judicial documents from courts at all levels across China — from the Supreme People's Court down to district courts. The platform provides full-text access to civil, criminal, administrative, enforcement, and state compensation rulings, and is a critical resource for legal research, compliance due diligence, litigation analytics, and empirical legal studies. The database reflects China's judicial transparency initiative and is widely used by lawyers, academics, and corporate legal teams to research case precedents, litigation trends, and judicial interpretations.",
+    "zh": "中国裁判文书网是最高人民法院运营的司法文书官方公开平台。该平台于2013年上线，是全球最大的裁判文书数据库之一，收录了从最高人民法院到基层法院各级法院的数亿份司法文书。平台提供民事、刑事、行政、执行及国家赔偿裁判文书的全文访问，是法律研究、合规尽调、诉讼分析及实证法学研究的重要资源。该数据库是中国司法公开改革的重要体现，被律师、学者及企业法务广泛用于研究案例先例、诉讼趋势及司法解释。"
+  },
+  "website": "https://wenshu.court.gov.cn",
+  "data_url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "legal",
+    "governance"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "裁判文书",
+    "court judgment",
+    "司法文书",
+    "judicial document",
+    "最高人民法院",
+    "Supreme People's Court",
+    "民事判决",
+    "civil judgment",
+    "刑事判决",
+    "criminal judgment",
+    "行政诉讼",
+    "administrative litigation",
+    "法律研究",
+    "legal research",
+    "案例数据库",
+    "case database",
+    "司法透明",
+    "judicial transparency",
+    "诉讼分析",
+    "litigation analytics",
+    "合规尽调",
+    "compliance due diligence",
+    "法律科技",
+    "legal tech",
+    "中国法院",
+    "Chinese courts",
+    "审判公开"
+  ],
+  "data_content": {
+    "en": [
+      "Civil judgments: first, second, and retrial instance decisions on civil disputes including contracts, property, family, labor, and corporate matters",
+      "Criminal judgments: rulings in criminal cases at all court levels covering the full range of criminal offenses",
+      "Administrative judgments: decisions in cases where citizens or entities sue government bodies for administrative actions",
+      "Enforcement rulings: court orders and decisions related to the enforcement of judgments",
+      "State compensation rulings: decisions on claims for state compensation for wrongful government acts",
+      "Full-text search: keyword and structured search across hundreds of millions of judicial documents by case type, court level, region, and year",
+      "Judicial statistics: aggregate data on caseload trends, case types, and court-level distribution"
+    ],
+    "zh": [
+      "民事判决：涵盖合同、物权、家事、劳动、公司等事项的一审、二审及再审裁判文书",
+      "刑事判决：各级法院对全部刑事罪名的刑事裁判文书",
+      "行政判决：公民或机构就行政行为起诉政府机关的裁判文书",
+      "执行裁定：与判决执行相关的法院命令及裁定",
+      "国家赔偿裁定：对政府违法行为提出国家赔偿请求的裁定",
+      "全文检索：通过案件类型、法院层级、地区、年份等对数亿份司法文书进行关键词和结构化检索",
+      "司法统计：案件数量趋势、案件类型及法院层级分布的汇总数据"
+    ]
+  }
+}

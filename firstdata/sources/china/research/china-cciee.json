@@ -1,0 +1,72 @@
+{
+  "id": "china-cciee",
+  "name": {
+    "en": "China Center for International Economic Exchanges",
+    "zh": "中国国际经济交流中心"
+  },
+  "description": {
+    "en": "The China Center for International Economic Exchanges (CCIEE) is a high-level government think tank established in 2009 under the State Council's Development Research Center, led by senior government officials and economists. CCIEE conducts strategic policy research on major international and domestic economic issues, publishes influential research reports on global economic governance, trade policy, the Belt and Road Initiative, financial opening, and China's macroeconomic outlook. It hosts the annual China Development Forum supplement sessions and produces widely cited macroeconomic forecasts and policy recommendations. CCIEE serves as a key advisory body for China's economic policymaking and international economic diplomacy, and its research outputs are used by government agencies, international organizations, and financial institutions.",
+    "zh": "中国国际经济交流中心（CCIEE）是2009年成立的高级别国家智库，隶属于国务院发展研究中心，由资深政府官员和经济学家领导。CCIEE就重大国际和国内经济问题开展战略政策研究，发布全球经济治理、贸易政策、一带一路、金融开放及中国宏观经济展望等方面的权威研究报告。CCIEE主办中国发展论坛配套会议，发布广泛引用的宏观经济预测及政策建议。作为中国经济决策和国际经济外交的重要咨询机构，其研究成果被政府机构、国际组织和金融机构广泛使用。"
+  },
+  "website": "https://www.cciee.org.cn",
+  "data_url": "https://www.cciee.org.cn/ktcglistall.aspx?clmId=650",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "trade",
+    "finance"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国经济",
+    "China economy",
+    "宏观经济",
+    "macroeconomics",
+    "经济预测",
+    "economic forecast",
+    "全球经济治理",
+    "global economic governance",
+    "贸易政策",
+    "trade policy",
+    "一带一路",
+    "Belt and Road",
+    "BRI",
+    "金融开放",
+    "financial opening",
+    "中国发展论坛",
+    "China Development Forum",
+    "政策研究",
+    "policy research",
+    "国际贸易",
+    "international trade",
+    "人民币国际化",
+    "RMB internationalization",
+    "智库",
+    "think tank",
+    "CCIEE",
+    "国务院智库"
+  ],
+  "data_content": {
+    "en": [
+      "Macroeconomic forecasts: quarterly and annual forecasts for China's GDP growth, inflation, trade balance, and key economic indicators",
+      "Policy research reports: strategic analysis on trade policy, financial regulation, industrial policy, and international economic cooperation",
+      "Belt and Road Initiative research: investment flows, infrastructure project data, and economic impact assessments along BRI corridors",
+      "Global economic governance: analysis of G20, WTO, IMF, and other multilateral economic governance frameworks from a Chinese perspective",
+      "Financial opening research: reports on capital account liberalization, RMB internationalization, and China's financial sector reform",
+      "Blue book publications: annual China economic outlook and strategic economic reports",
+      "Conference proceedings: summaries and keynote content from CCIEE-hosted international economic forums"
+    ],
+    "zh": [
+      "宏观经济预测：中国GDP增长、通货膨胀、贸易差额及主要经济指标的季度和年度预测",
+      "政策研究报告：贸易政策、金融监管、产业政策及国际经济合作战略分析",
+      "一带一路研究：沿线投资流量、基础设施项目数据及经济影响评估",
+      "全球经济治理：从中国视角分析G20、WTO、IMF等多边经济治理框架",
+      "金融开放研究：资本账户自由化、人民币国际化及中国金融部门改革报告",
+      "蓝皮书出版物：年度中国经济展望及战略经济报告",
+      "会议文集：CCIEE主办国际经济论坛的摘要及主旨内容"
+    ]
+  }
+}

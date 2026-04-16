@@ -1,0 +1,71 @@
+{
+  "id": "china-cnis",
+  "name": {
+    "en": "China National Institute of Standardization",
+    "zh": "中国标准化研究院"
+  },
+  "description": {
+    "en": "The China National Institute of Standardization (CNIS) is a central public research institution under the State Administration for Market Regulation (SAMR), dedicated to standardization research, standard development, and conformity assessment in China. CNIS serves as a key technical support body for China's national standardization system and participates in international standardization work through ISO and IEC. It conducts applied research on emerging technology standards including artificial intelligence, smart manufacturing, consumer safety, and green/low-carbon standards, and publishes authoritative research reports, standard interpretations, and policy consultations on China's standardization strategy.",
+    "zh": "中国标准化研究院（CNIS）是国家市场监督管理总局（市场监管总局）下属的中央公益性科研机构，专注于标准化研究、标准制定及合格评定工作。CNIS是中国国家标准化体系的重要技术支撑机构，并通过ISO和IEC参与国际标准化工作。研究院开展人工智能、智能制造、消费者安全、绿色低碳等新兴技术领域的应用研究，发布权威研究报告、标准解读及中国标准化战略政策咨询。"
+  },
+  "website": "https://www.cnis.ac.cn",
+  "data_url": "https://www.cnis.ac.cn/kycg/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "economics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "标准化研究",
+    "standardization research",
+    "国家标准",
+    "national standard",
+    "GB标准",
+    "GB standard",
+    "ISO",
+    "IEC",
+    "合格评定",
+    "conformity assessment",
+    "人工智能标准",
+    "AI standards",
+    "智能制造",
+    "smart manufacturing",
+    "消费品安全",
+    "consumer safety",
+    "绿色标准",
+    "green standards",
+    "低碳",
+    "low-carbon",
+    "标准化战略",
+    "standardization strategy",
+    "市场监管",
+    "market regulation",
+    "SAMR",
+    "CNIS"
+  ],
+  "data_content": {
+    "en": [
+      "Standardization research reports: policy research on national and international standardization strategies, technical reports on emerging technology standards",
+      "Standard development data: statistics on national standards (GB) in development, revision, and adoption by sector",
+      "Conformity assessment research: research on testing, inspection, and certification systems aligned with international best practices",
+      "AI and digital standards: technical frameworks and research for artificial intelligence, big data, and smart manufacturing standardization",
+      "Green and low-carbon standards: research outputs supporting China's dual-carbon goals through standardization of energy, emissions, and circular economy",
+      "Consumer product safety: research and standards development for product safety requirements and testing methods",
+      "International standardization: Chinese participation in ISO/IEC technical committees and outcomes of international standard votes"
+    ],
+    "zh": [
+      "标准化研究报告：国内外标准化战略政策研究、新兴技术标准技术报告",
+      "标准制定数据：按行业分类的国家标准（GB）制定、修订和采标统计",
+      "合格评定研究：与国际最佳实践接轨的检测、检验和认证体系研究",
+      "人工智能与数字标准：人工智能、大数据和智能制造标准化技术框架与研究",
+      "绿色低碳标准：支持中国双碳目标的能源、排放及循环经济标准化研究成果",
+      "消费品安全：产品安全要求和测试方法的研究与标准制定",
+      "国际标准化：中国参与ISO/IEC技术委员会情况及国际标准投票结果"
+    ]
+  }
+}
