@@ -1,0 +1,72 @@
+{
+  "id": "china-cicpa",
+  "name": {
+    "en": "Chinese Institute of Certified Public Accountants",
+    "zh": "中国注册会计师协会"
+  },
+  "description": {
+    "en": "The Chinese Institute of Certified Public Accountants (CICPA) is the national professional organization and self-regulatory body for the CPA profession in China, operating under the Ministry of Finance. CICPA maintains authoritative registries and statistical databases on China's certified public accountant population, accounting firms, and audit market. It publishes annual reports on the scale and structure of China's accounting profession, market concentration among audit firms, earnings of the Big Four and top domestic firms, and the results of CPA qualification examinations. CICPA data is essential for assessing financial audit quality, auditor independence, and the governance standards of China's listed companies and state-owned enterprises.",
+    "zh": "中国注册会计师协会（中注协）是全国注册会计师行业的全国性专业组织和自律机构，在财政部指导下运行。中注协维护权威的注册会计师执业人员、会计师事务所及审计市场统计数据库，并发布年度报告，涵盖中国会计职业规模与结构、审计市场集中度、四大及国内头部事务所业务收入、注册会计师资格考试结果等信息。中注协数据是评估财务审计质量、审计师独立性以及上市公司和国有企业治理水平的重要依据。"
+  },
+  "website": "https://www.cicpa.org.cn",
+  "data_url": "https://www.cicpa.org.cn/xxcx/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "governance",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "注册会计师",
+    "certified public accountant",
+    "会计师事务所",
+    "accounting firm",
+    "审计市场",
+    "audit market",
+    "CPA考试",
+    "CPA examination",
+    "财务审计",
+    "financial audit",
+    "四大",
+    "Big Four",
+    "审计质量",
+    "audit quality",
+    "会计行业",
+    "accounting profession",
+    "财政部",
+    "Ministry of Finance",
+    "执业注册",
+    "professional registration",
+    "事务所收入",
+    "firm revenue",
+    "行业统计",
+    "industry statistics",
+    "CICPA"
+  ],
+  "data_content": {
+    "en": [
+      "CPA population statistics: total number of registered CPAs, practicing CPAs, and non-practicing CPAs in China by province and city, with historical growth trends and demographic breakdown by age and gender",
+      "Accounting firm registry and rankings: annual revenue, employee counts, partner numbers, and service structure for the top 100 accounting firms in China, including Big Four, mid-tier, and domestic firms",
+      "Audit market concentration data: market share analysis by firm size, industry sector, and listed company audit assignments, including percentage of A-share, H-share, and SOE audit engagements by firm tier",
+      "CPA qualification examination results: annual pass rates, registration numbers, subject-level performance, and score distributions for China's national CPA examination across provinces",
+      "Professional discipline and enforcement: annual reports on disciplinary actions against firms and individual CPAs, audit failures, regulatory sanctions, and enforcement patterns by the Ministry of Finance and CSRC",
+      "Continuing education compliance: registered CPAs' annual continuing professional education (CPE) completion rates, accredited training programs, and online learning statistics",
+      "International audit standards adoption: data on the adoption of Chinese audit standards aligned with International Standards on Auditing (ISA) and progress in cross-border audit cooperation frameworks",
+      "Firm organizational structure data: number of limited liability partnerships versus general partnerships, branch office networks, and geographic distribution of accounting firms across China's provinces"
+    ],
+    "zh": [
+      "注册会计师人数统计：全国各省市注册会计师总数、执业会计师和非执业会计师数量，含历史增长趋势及按年龄和性别的人口特征分析",
+      "会计师事务所名册与排名：全国百强事务所年度收入、从业人员数量、合伙人人数及业务结构，涵盖四大、中型及本土事务所",
+      "审计市场集中度数据：按事务所规模、行业领域及上市公司审计委托的市场份额分析，包括各层级事务所承接A股、H股及国有企业审计业务的比例",
+      "注册会计师资格考试结果：全国注册会计师考试各省通过率、报名人数、各科目表现及分数分布情况",
+      "职业纪律与执法：财政部和中国证监会对事务所和个人会计师的年度纪律处分、审计失败、监管处罚及执法规律报告",
+      "继续教育合规情况：注册会计师年度继续职业教育（CPE）完成率、认可培训项目及在线学习统计数据",
+      "国际审计准则采用：与国际审计准则（ISA）接轨的中国审计准则采用情况数据及跨境审计合作框架进展",
+      "事务所组织结构数据：有限责任合伙与普通合伙的数量，分支机构网络及会计师事务所在全国各省市的地域分布"
+    ]
+  }
+}

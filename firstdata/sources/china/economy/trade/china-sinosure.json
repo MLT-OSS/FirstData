@@ -1,0 +1,73 @@
+{
+  "id": "china-sinosure",
+  "name": {
+    "en": "China Export & Credit Insurance Corporation",
+    "zh": "中国出口信用保险公司"
+  },
+  "description": {
+    "en": "China Export & Credit Insurance Corporation (Sinosure) is a state-owned policy insurance company established by the Chinese government to support China's foreign trade, investment, and economic cooperation by providing export credit insurance and investment guarantee services. As China's sole provider of policy-based export credit insurance, Sinosure publishes annual reports containing authoritative data on export credit insurance coverage by country, industry, and enterprise type, as well as country risk assessments, loss and compensation data, and overseas investment insurance statistics. Sinosure's country risk classifications and export data coverage represent unique intelligence on the credit risk landscape of China's global trade partners.",
+    "zh": "中国出口信用保险公司（中国信保）是国家出资设立的政策性保险机构，通过提供出口信用保险和投资保证服务，支持中国的对外贸易、投资和经济合作。作为中国唯一的政策性出口信用保险机构，中国信保发布年度报告，提供按国家、行业和企业类型分类的出口信用保险承保数据，以及国家风险评级、损失赔偿数据和境外投资保险统计。中国信保的国家风险分类和出口数据覆盖情况，是了解中国全球贸易伙伴信用风险状况的独特信息来源。"
+  },
+  "website": "https://www.sinosure.com.cn",
+  "data_url": "https://www.sinosure.com.cn/gywm/gsjj/xxpl/index.shtml",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "trade",
+    "finance",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "出口信用保险",
+    "export credit insurance",
+    "国家风险",
+    "country risk",
+    "出口保障",
+    "export guarantee",
+    "境外投资",
+    "overseas investment",
+    "贸易融资",
+    "trade finance",
+    "短期险",
+    "short-term insurance",
+    "中长期险",
+    "medium-long term insurance",
+    "债务人风险",
+    "buyer risk",
+    "赔偿数据",
+    "claims data",
+    "信用评级",
+    "credit rating",
+    "对外贸易",
+    "foreign trade",
+    "政策性保险",
+    "policy insurance",
+    "Sinosure",
+    "中国信保"
+  ],
+  "data_content": {
+    "en": [
+      "Export credit insurance coverage statistics: annual premium income, total insured export value, and number of insured exporters by policy type (short-term, medium-to-long-term, overseas investment insurance) with historical comparison",
+      "Country risk assessments and classifications: Sinosure's proprietary country risk ratings covering 200+ countries and territories, categorized by political risk, transfer risk, and commercial risk with annual updates",
+      "Geographic distribution of export insurance coverage: insured export value broken down by destination country and region, highlighting coverage in Belt and Road Initiative countries, African markets, and emerging economies",
+      "Industry sector coverage data: export insurance penetration rates and insured value by major export sectors including machinery, electronics, textiles, chemicals, and infrastructure project financing",
+      "Loss and compensation data: annual claims paid, loss ratios by country and industry, recovery rates, and compensation trends indicating stress in China's export credit portfolio",
+      "Overseas investment insurance statistics: coverage for Chinese outbound direct investment (ODI) projects by country and industry, including infrastructure, energy, mining, and manufacturing investments",
+      "Enterprise type breakdown: insurance coverage distributed among large SOEs, mid-sized private exporters, SMEs, and cross-border e-commerce enterprises, with policy support metrics for each segment",
+      "Annual report financial data: Sinosure's own financial performance including total assets, underwriting profits, investment income, reserve levels, and solvency ratios as a policy insurance entity"
+    ],
+    "zh": [
+      "出口信用保险承保统计：年度保费收入、出口保险金额和承保出口商数量，按险种（短期险、中长期险、境外投资险）分类，并附历史对比数据",
+      "国家风险评估与分类：中国信保对200余个国家和地区的自有国家风险评级，按政治风险、转移风险和商业风险分类，每年更新",
+      "出口保险承保的地区分布：按目的国和地区分类的承保出口金额，重点突出一带一路沿线国家、非洲市场和新兴经济体的覆盖情况",
+      "行业领域覆盖数据：机械、电子、纺织、化工和基础设施项目融资等主要出口行业的保险渗透率和承保金额",
+      "损失与赔偿数据：年度赔偿金额、按国家和行业的赔付率、追偿率及赔偿趋势，反映中国出口信用组合的压力状况",
+      "境外投资保险统计：中国对外直接投资（ODI）项目按国家和行业的承保情况，含基础设施、能源、矿业和制造业投资",
+      "企业类型分布：大型国有企业、中型民营出口商、中小企业及跨境电商企业的保险覆盖情况，及各细分市场的政策支持指标",
+      "年度报告财务数据：中国信保作为政策性保险机构的自身财务状况，包括总资产、承保利润、投资收益、准备金水平和偿付能力比率"
+    ]
+  }
+}

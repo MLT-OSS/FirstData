@@ -1,0 +1,74 @@
+{
+  "id": "china-ngcc",
+  "name": {
+    "en": "National Geomatics Center of China",
+    "zh": "国家基础地理信息中心"
+  },
+  "description": {
+    "en": "The National Geomatics Center of China (NGCC) is the primary national agency responsible for surveying, mapping, and maintaining China's national geographic information infrastructure. Under the Ministry of Natural Resources, NGCC manages the National Basic Geographic Database, the most authoritative source of fundamental geographic data in China, including topographic maps, digital elevation models (DEM), satellite imagery, administrative boundaries, and land use data. NGCC provides public access to standardized geographic datasets at multiple scales (1:50,000 to 1:1,000,000) used in urban planning, environmental monitoring, disaster response, infrastructure development, and national census operations. It also coordinates China's geodetic reference systems and national mapping standards.",
+    "zh": "国家基础地理信息中心是负责中国国家地理信息基础设施测绘、制图和维护的主要国家机构，隶属于自然资源部。中心管理国家基础地理信息数据库，是全国最权威的基础地理数据来源，包括地形图、数字高程模型（DEM）、卫星影像、行政区划边界和土地利用数据。中心提供多比例尺（1:5万至1:100万）标准化地理数据集，广泛应用于城市规划、环境监测、灾害救援、基础设施建设和全国人口普查。同时负责协调中国大地测量参考系统和全国测绘标准。"
+  },
+  "website": "https://www.ngcc.cn",
+  "data_url": "https://www.ngcc.cn/dlxxzy/gjjcdlxxsjk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "geography",
+    "environmental-science",
+    "infrastructure"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "基础地理信息",
+    "basic geographic information",
+    "国家地理数据库",
+    "national geographic database",
+    "数字高程模型",
+    "digital elevation model",
+    "地形图",
+    "topographic map",
+    "行政区划",
+    "administrative boundary",
+    "土地利用",
+    "land use",
+    "地理信息系统",
+    "GIS",
+    "测绘",
+    "surveying and mapping",
+    "卫星影像",
+    "satellite imagery",
+    "国家测绘",
+    "national mapping",
+    "空间数据",
+    "spatial data",
+    "大地测量",
+    "geodesy",
+    "NGCC",
+    "自然资源部",
+    "Ministry of Natural Resources"
+  ],
+  "data_content": {
+    "en": [
+      "National Basic Geographic Database: fundamental geographic datasets at 1:50,000, 1:250,000, and 1:1,000,000 scales including terrain, hydrography, transportation networks, settlements, and administrative boundaries for all of China",
+      "Digital elevation model (DEM) data: national digital terrain models derived from topographic surveys and satellite imagery, providing elevation data at 25m and 90m resolutions for terrain analysis and hydrological modeling",
+      "Administrative boundary data: official authoritative datasets of county-level, prefecture-level, and provincial administrative boundaries with regularly updated polygon and line features for China's 34 provincial-level units",
+      "Satellite and aerial imagery archives: multi-temporal satellite image datasets for China including optical and synthetic aperture radar (SAR) imagery used for land cover classification and change detection",
+      "Land use and land cover data: national land use classification datasets at 1:50,000 scale including cultivated land, forest, grassland, water bodies, built-up areas, and unused land based on remote sensing interpretation",
+      "Geodetic reference network data: China's national coordinate reference system (CGCS2000), gravity network benchmarks, and height datum information supporting precise positioning and engineering surveys",
+      "Urban geographic database: large-scale urban geographic datasets at 1:2,000 and 1:5,000 scales for major cities, including building footprints, road networks, utility infrastructure, and points of interest",
+      "Geographic names database: national standardized database of geographic place names including mountains, rivers, lakes, villages, and administrative areas with official Chinese and romanized designations"
+    ],
+    "zh": [
+      "国家基础地理信息数据库：1:5万、1:25万、1:100万比例尺全国基础地理数据集，包含地形、水系、交通网络、居民地和行政区划要素",
+      "数字高程模型（DEM）数据：基于地形测量和卫星影像生成的全国数字地形模型，提供25米和90米分辨率高程数据，用于地形分析和水文建模",
+      "行政区划数据：县级、地级和省级行政区划的权威官方数据集，含定期更新的34个省级行政单位矢量面和线要素",
+      "卫星和航空影像档案：全国多时相卫星影像数据集，包括光学和合成孔径雷达（SAR）影像，用于土地覆盖分类和变化检测",
+      "土地利用和土地覆盖数据：1:5万比例尺全国土地利用分类数据，基于遥感解译，涵盖耕地、林地、草地、水体、建设用地和未利用地",
+      "大地测量参考网数据：中国国家坐标参考系（CGCS2000）、重力网基准点和高程基准信息，支持精密定位和工程测量",
+      "城市地理数据库：主要城市1:2000和1:5000比例尺大比例尺城市地理数据集，含建筑轮廓、道路网络、公共设施基础设施和兴趣点",
+      "地名数据库：全国标准化地名数据库，包含山脉、河流、湖泊、村庄和行政区的官方中文及罗马化名称"
+    ]
+  }
+}
