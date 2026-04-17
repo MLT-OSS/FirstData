@@ -1,0 +1,76 @@
+{
+  "id": "china-ngeos",
+  "name": {
+    "en": "National Earth System Science Data Center",
+    "zh": "国家地球系统科学数据中心"
+  },
+  "description": {
+    "en": "The National Earth System Science Data Center (NGEOS) is one of China's 20 national science data centers, hosted by the Institute of Geographic Sciences and Natural Resources Research at the Chinese Academy of Sciences (CAS). NGEOS is the primary national repository for earth system science datasets in China, integrating multidisciplinary data on the atmosphere, hydrosphere, lithosphere, biosphere, and cryosphere. It provides open access to climate, hydrology, ecology, land use, remote sensing, and socioeconomic data for China and the Asia-Pacific region, supporting research on global change, carbon cycles, disaster risk, and sustainable development. NGEOS serves as a hub for sharing field observation data from research stations across China.",
+    "zh": "国家地球系统科学数据中心（NGEOS）是中国20个国家科学数据中心之一，依托中国科学院地理科学与资源研究所建设。该中心是中国地球系统科学数据的主要国家存储库，整合大气圈、水圈、岩石圈、生物圈和冰冻圈多学科数据。开放共享中国及亚太地区气候、水文、生态、土地利用、遥感和社会经济数据，支持全球变化、碳循环、灾害风险和可持续发展研究。中心是汇聚全国各地野外观测站实地观测数据共享的重要平台。"
+  },
+  "website": "https://www.geodata.cn",
+  "data_url": "https://www.geodata.cn/data/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environmental-science",
+    "earth-science",
+    "climate"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "地球系统科学",
+    "earth system science",
+    "气候数据",
+    "climate data",
+    "水文数据",
+    "hydrological data",
+    "生态数据",
+    "ecological data",
+    "土地利用",
+    "land use",
+    "遥感数据",
+    "remote sensing data",
+    "碳循环",
+    "carbon cycle",
+    "全球变化",
+    "global change",
+    "冰冻圈",
+    "cryosphere",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "野外台站",
+    "field research station",
+    "开放数据",
+    "open data",
+    "资源环境",
+    "resources and environment",
+    "可持续发展",
+    "sustainable development",
+    "NGEOS"
+  ],
+  "data_content": {
+    "en": [
+      "Climate and meteorological datasets: long-term surface temperature, precipitation, wind speed, humidity, and solar radiation records from China's meteorological observation network, including gridded datasets at multiple resolutions from 1951 to present",
+      "Hydrological data: river discharge, groundwater levels, lake area and depth, evapotranspiration, and basin-scale water balance datasets for China's major river systems including Yangtze, Yellow, Pearl, and inland rivers",
+      "Land use and land cover change data: multi-temporal national land use classification at 100m and 1km resolutions from 1980-2020, tracking urbanization, deforestation, wetland loss, and agricultural land changes across China",
+      "Ecological and biodiversity datasets: vegetation coverage (NDVI) time series, species distribution models, forest biomass, grassland productivity, and biodiversity indices for China's major ecosystems",
+      "Cryosphere data: glacier area and volume changes, permafrost distribution and active layer depth, snow cover extent and snow water equivalent from the Qinghai-Tibetan Plateau and high-altitude regions",
+      "Socioeconomic geographic data: spatial datasets on population distribution, GDP per capita by county, poverty mapping, agricultural production zones, and infrastructure accessibility across China",
+      "Carbon flux and greenhouse gas data: ecosystem carbon uptake and release measurements from flux tower networks, soil respiration rates, and methane emissions from wetlands and rice paddies across China",
+      "Remote sensing satellite products: derived Earth observation products from Chinese satellites (FY, HJ, GF series) including land surface temperature, vegetation indices, aerosol optical depth, and soil moisture"
+    ],
+    "zh": [
+      "气候和气象数据集：来自中国气象观测网络的长期地表温度、降水量、风速、湿度和太阳辐射记录，包含1951年至今不同分辨率的格网化数据集",
+      "水文数据：长江、黄河、珠江及内陆河等中国主要流域的河流径流量、地下水位、湖泊面积和深度、蒸散量及流域水量平衡数据集",
+      "土地利用与土地覆盖变化数据：1980—2020年100米和1千米分辨率的全国多时相土地利用分类，追踪全国城镇化、森林减少、湿地消失和农业用地变化",
+      "生态和生物多样性数据集：植被覆盖度（NDVI）时间序列、物种分布模型、森林生物量、草地生产力及中国主要生态系统生物多样性指数",
+      "冰冻圈数据：青藏高原和高海拔地区冰川面积和体积变化、多年冻土分布及活动层深度、积雪范围和雪水当量",
+      "社会经济地理数据：全国人口分布、各县GDP、贫困地图、农业生产区划和基础设施可达性空间数据集",
+      "碳通量和温室气体数据：通量塔网络生态系统碳吸收和释放测量值、土壤呼吸速率及全国湿地和稻田甲烷排放量",
+      "遥感卫星产品：中国卫星（风云、环境、高分系列）衍生的地球观测产品，包括地表温度、植被指数、气溶胶光学厚度和土壤湿度"
+    ]
+  }
+}
