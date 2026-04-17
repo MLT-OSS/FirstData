@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-17T04:21:02.135277+00:00",
-    "total_domains": 716,
-    "total_sources": 469,
+    "generated_at": "2026-04-17T06:24:24.757175+00:00",
+    "total_domains": 717,
+    "total_sources": 474,
     "version": "2.0"
   },
   "domains": {
@@ -7085,6 +7085,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-acftu",
+        "name": {
+          "en": "All-China Federation of Trade Unions",
+          "zh": "中华全国总工会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.acftu.org",
+        "has_api": false,
+        "file_path": "china/economy/labor/china-acftu.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mohrss",
         "name": {
           "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
@@ -7228,6 +7240,18 @@
         "data_url": "https://tjj.fujian.gov.cn/xxgk/tjxx/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-fj-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-fuzhou-stats",
+        "name": {
+          "en": "Fuzhou Bureau of Statistics",
+          "zh": "福州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.fuzhou.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-fuzhou-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -7396,6 +7420,18 @@
         "data_url": "https://tjj.ln.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-ln-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-nanchang-stats",
+        "name": {
+          "en": "Nanchang Bureau of Statistics",
+          "zh": "南昌市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "http://tjj.nc.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-nanchang-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -10381,6 +10417,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-acftu",
+        "name": {
+          "en": "All-China Federation of Trade Unions",
+          "zh": "中华全国总工会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.acftu.org",
+        "has_api": false,
+        "file_path": "china/economy/labor/china-acftu.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mohrss",
         "name": {
           "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
@@ -10935,6 +10983,18 @@
         "data_url": "https://www.china-nea.cn/",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-cnea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gas-association",
+        "name": {
+          "en": "China Gas Association",
+          "zh": "中国燃气协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinagas.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-gas-association.json",
         "geographic_scope": "national"
       },
       {
@@ -17702,6 +17762,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-gas-association",
+        "name": {
+          "en": "China Gas Association",
+          "zh": "中国燃气协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinagas.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-gas-association.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sasac",
         "name": {
           "en": "State-owned Assets Supervision and Administration Commission of the State Council",
@@ -17763,6 +17835,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-fuzhou-stats",
+        "name": {
+          "en": "Fuzhou Bureau of Statistics",
+          "zh": "福州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.fuzhou.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-fuzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-hb-stats",
         "name": {
           "en": "Hubei Bureau of Statistics",
@@ -17808,6 +17892,18 @@
         "data_url": "https://tjj.ln.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-ln-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-nanchang-stats",
+        "name": {
+          "en": "Nanchang Bureau of Statistics",
+          "zh": "南昌市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "http://tjj.nc.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-nanchang-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -17940,6 +18036,18 @@
         "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-shfe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国国家认证认可监督管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnca.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cnca.json",
         "geographic_scope": "national"
       },
       {
@@ -18679,6 +18787,18 @@
         "data_url": "https://www.cbmf.org/yxjc/",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-cbmf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gas-association",
+        "name": {
+          "en": "China Gas Association",
+          "zh": "中国燃气协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinagas.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-gas-association.json",
         "geographic_scope": "national"
       },
       {
@@ -19798,6 +19918,18 @@
         "has_api": false,
         "file_path": "academic/economics/nber.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-acftu",
+        "name": {
+          "en": "All-China Federation of Trade Unions",
+          "zh": "中华全国总工会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.acftu.org",
+        "has_api": false,
+        "file_path": "china/economy/labor/china-acftu.json",
+        "geographic_scope": "national"
       },
       {
         "id": "kostat",
@@ -23853,6 +23985,20 @@
         "geographic_scope": "national"
       }
     ],
+    "quality": [
+      {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国国家认证认可监督管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnca.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cnca.json",
+        "geographic_scope": "national"
+      }
+    ],
     "quality-management": [
       {
         "id": "china-sac-standards",
@@ -25165,6 +25311,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-acftu",
+        "name": {
+          "en": "All-China Federation of Trade Unions",
+          "zh": "中华全国总工会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.acftu.org",
+        "has_api": false,
+        "file_path": "china/economy/labor/china-acftu.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-samr",
         "name": {
           "en": "State Administration for Market Regulation",
@@ -25235,6 +25393,18 @@
         "data_url": "https://tjj.fujian.gov.cn/xxgk/tjxx/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-fj-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-fuzhou-stats",
+        "name": {
+          "en": "Fuzhou Bureau of Statistics",
+          "zh": "福州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.fuzhou.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-fuzhou-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -25403,6 +25573,18 @@
         "data_url": "https://tjj.ln.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-ln-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-nanchang-stats",
+        "name": {
+          "en": "Nanchang Bureau of Statistics",
+          "zh": "南昌市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "http://tjj.nc.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-nanchang-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -26702,6 +26884,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国国家认证认可监督管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnca.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cnca.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sac-standards",
         "name": {
           "en": "Standardization Administration of China (SAC)",
@@ -26901,6 +27095,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-fuzhou-stats",
+        "name": {
+          "en": "Fuzhou Bureau of Statistics",
+          "zh": "福州市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "https://tjj.fuzhou.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-fuzhou-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-gd-stats",
         "name": {
           "en": "Guangdong Bureau of Statistics",
@@ -27066,6 +27272,18 @@
         "data_url": "https://tjj.ln.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-ln-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-nanchang-stats",
+        "name": {
+          "en": "Nanchang Bureau of Statistics",
+          "zh": "南昌市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "http://tjj.nc.gov.cn/tjsj/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-nanchang-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -28952,6 +29170,18 @@
         "data_url": "https://www.safe.gov.cn/safe/tjsj1/index.html",
         "has_api": false,
         "file_path": "china/finance/forex/china-safe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnca",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国国家认证认可监督管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnca.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cnca.json",
         "geographic_scope": "national"
       },
       {

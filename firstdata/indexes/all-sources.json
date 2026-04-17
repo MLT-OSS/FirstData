@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-17T04:21:02.135277+00:00",
-    "total_sources": 469,
+    "generated_at": "2026-04-17T06:24:24.757175+00:00",
+    "total_sources": 474,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3336,6 +3336,145 @@
       "file_path": "china/economy/industry_associations/china-cria.json"
     },
     {
+      "id": "china-gas-association",
+      "name": {
+        "en": "China Gas Association",
+        "zh": "中国燃气协会"
+      },
+      "description": {
+        "en": "The China Gas Association (CGA) is the national industry organization representing China's gas sector, including natural gas, liquefied petroleum gas (LPG), and liquefied natural gas (LNG) distribution enterprises. It publishes industry statistics, market reports, safety data, and policy research covering gas consumption, urban gas infrastructure, pipeline networks, gas supply enterprises, and end-user distribution across China. Its data are key references for energy planning, market analysis, and regulatory policy in the gas sector.",
+        "zh": "中国燃气协会是代表中国燃气行业的全国性行业组织，成员涵盖天然气、液化石油气（LPG）和液化天然气（LNG）配送企业。协会发布行业统计、市场报告、安全数据和政策研究，内容涉及全国燃气消费量、城市燃气基础设施、管道网络、燃气供应企业和终端用户配送情况，是燃气行业能源规划、市场分析和监管政策的重要数据参考。"
+      },
+      "website": "https://www.chinagas.org.cn",
+      "data_url": "https://www.chinagas.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "domains": [
+        "energy",
+        "industry",
+        "infrastructure"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "燃气",
+        "natural gas",
+        "gas industry",
+        "天然气",
+        "液化石油气",
+        "LPG",
+        "LNG",
+        "液化天然气",
+        "城市燃气",
+        "urban gas",
+        "管道燃气",
+        "pipeline gas",
+        "燃气消费",
+        "gas consumption",
+        "能源",
+        "energy",
+        "燃气安全",
+        "gas safety",
+        "燃气企业",
+        "gas enterprises",
+        "中国燃气协会",
+        "CGA"
+      ],
+      "data_content": {
+        "en": [
+          "Annual China Gas Industry Development Report: comprehensive industry statistics and trend analysis",
+          "Urban gas supply: number of gas users, pipeline network length, coverage rates by city and province",
+          "Gas consumption data: total consumption by end-use sector (residential, commercial, industrial, power generation)",
+          "LNG and LPG market: import volumes, spot prices, storage capacity statistics",
+          "Gas enterprise data: number of licensed operators, business scale, market concentration",
+          "Gas safety statistics: accident reports, inspection outcomes, safety compliance rates",
+          "Infrastructure investment: new pipeline construction, gas station development data",
+          "Policy and standards: industry standards, regulatory compliance updates"
+        ],
+        "zh": [
+          "中国燃气行业发展年度报告：全面的行业统计数据与趋势分析",
+          "城市燃气供应：分城市和省份的燃气用户数量、管道长度、覆盖率",
+          "燃气消费数据：按终端用途（居民、商业、工业、发电）分类的总消费量",
+          "LNG和LPG市场：进口量、现货价格、储气能力统计",
+          "燃气企业数据：持证运营商数量、经营规模、市场集中度",
+          "燃气安全统计：事故报告、检查结果、安全合规率",
+          "基础设施投资：新建管道、加气站发展数据",
+          "政策与标准：行业标准、监管合规动态"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-gas-association.json"
+    },
+    {
+      "id": "china-acftu",
+      "name": {
+        "en": "All-China Federation of Trade Unions",
+        "zh": "中华全国总工会"
+      },
+      "description": {
+        "en": "The All-China Federation of Trade Unions (ACFTU) is the sole national trade union federation in China, representing over 300 million union members across all industries and sectors. As the world's largest trade union organization, ACFTU publishes annual reports, survey data, and statistical information on labor relations, workers' rights, collective bargaining, wage levels, occupational safety, and union membership across China's workforce.",
+        "zh": "中华全国总工会（全总）是中国唯一的全国性工会联合组织，代表全国各行各业逾3亿工会会员。作为全球规模最大的工会组织，全总发布有关劳动关系、工人权益、集体协商、工资水平、劳动安全及全国工会会员情况的年度报告、调查数据和统计资料。"
+      },
+      "website": "https://www.acftu.org",
+      "data_url": "https://www.acftu.org",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "labor",
+        "social",
+        "employment",
+        "economics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "工会",
+        "trade-union",
+        "labor",
+        "劳动关系",
+        "labor-relations",
+        "工资",
+        "wages",
+        "集体协商",
+        "collective-bargaining",
+        "劳动安全",
+        "occupational-safety",
+        "工会会员",
+        "union-membership",
+        "职工",
+        "workers",
+        "全总",
+        "ACFTU",
+        "china-labor"
+      ],
+      "data_content": {
+        "en": [
+          "Union membership statistics: total union members by province, industry, and enterprise type",
+          "Labor relations: collective contract coverage rates, labor dispute arbitration data",
+          "Wage and income: average wages by industry, minimum wage standards across regions",
+          "Occupational safety: workplace accident statistics, occupational disease data",
+          "Workers' rights: labor inspection outcomes, rights protection cases",
+          "Trade union organization: number of primary-level trade unions, union establishment rates",
+          "Annual survey on workers' living conditions and job satisfaction",
+          "Reports on new forms of employment and platform economy workers"
+        ],
+        "zh": [
+          "工会会员统计：按省份、行业和企业类型分类的工会会员总数",
+          "劳动关系：集体合同覆盖率、劳动争议仲裁数据",
+          "工资与收入：各行业平均工资、各地区最低工资标准",
+          "劳动安全：工作场所事故统计、职业病数据",
+          "工人权益：劳动监察成果、权益保障案例",
+          "工会组织建设：基层工会数量、工会组建率",
+          "职工生活状况与工作满意度年度调查",
+          "新就业形态和平台经济从业者相关报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/labor/china-acftu.json"
+    },
+    {
       "id": "china-mohrss",
       "name": {
         "en": "Ministry of Human Resources and Social Security of China - Employment and Social Security Statistics",
@@ -4217,6 +4356,82 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-fj-stats.json"
+    },
+    {
+      "id": "china-fuzhou-stats",
+      "name": {
+        "en": "Fuzhou Bureau of Statistics",
+        "zh": "福州市统计局"
+      },
+      "description": {
+        "en": "The Fuzhou Bureau of Statistics is the official statistical authority for Fuzhou, the capital of Fujian Province on China's southeastern coast. Fuzhou is a key digital economy hub, major port city, and center of cross-strait economic cooperation with Taiwan. The bureau publishes comprehensive socioeconomic data including GDP, industrial output, digital economy indicators, investment, consumption, employment, and population, and releases the Fuzhou Statistical Yearbook and regular economic bulletins.",
+        "zh": "福州市统计局是福州市官方统计机构，福州是福建省省会，位于中国东南沿海。福州是重要的数字经济中心、主要港口城市，也是两岸经济合作的重要枢纽。统计局发布涵盖GDP、工业产值、数字经济指标、投资、消费、就业和人口等全面的社会经济数据，出版《福州统计年鉴》及定期经济运行报告。"
+      },
+      "website": "https://tjj.fuzhou.gov.cn",
+      "data_url": "https://tjj.fuzhou.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "social"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "monthly",
+      "tags": [
+        "福州统计",
+        "Fuzhou statistics",
+        "福州GDP",
+        "Fuzhou GDP",
+        "福建经济",
+        "Fujian economy",
+        "福州统计年鉴",
+        "Fuzhou Statistical Yearbook",
+        "数字经济",
+        "digital economy",
+        "海上丝绸之路",
+        "Maritime Silk Road",
+        "两岸经济合作",
+        "cross-strait economic cooperation",
+        "自贸区",
+        "free trade zone",
+        "港口",
+        "port",
+        "海洋经济",
+        "marine economy",
+        "21世纪海上丝绸之路",
+        "21st century maritime silk road"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Fuzhou",
+          "Digital economy indicators: software and information technology services, digital industry output",
+          "Port and trade: cargo throughput, container volumes, cross-strait trade statistics",
+          "Industrial production: output from electronics, machinery, and advanced manufacturing sectors",
+          "Fixed asset investment: total investment by industry, infrastructure, and real estate development",
+          "Retail and consumption: total retail sales of consumer goods, consumer price index",
+          "Employment and wages: employed persons by sector, urban unemployment rate, average wages",
+          "Population: resident population, household registration data, urbanization rate",
+          "Foreign investment: utilized FDI, cross-strait investment flows",
+          "Fuzhou Statistical Yearbook: comprehensive annual compilation of municipal statistics"
+        ],
+        "zh": [
+          "GDP与经济增长：福州市按产业分类的季度和年度GDP数据",
+          "数字经济指标：软件和信息技术服务业、数字产业产值",
+          "港口与贸易：货物吞吐量、集装箱量、两岸贸易统计",
+          "工业生产：电子、机械和先进制造业产值",
+          "固定资产投资：按行业分类的总投资额、基础设施和房地产开发",
+          "消费与零售：社会消费品零售总额、居民消费价格指数",
+          "就业与工资：分行业从业人员数、城镇登记失业率、平均工资",
+          "人口：常住人口、户籍人口数据、城镇化率",
+          "外资利用：实际利用外商直接投资、两岸投资流向",
+          "福州统计年鉴：全市各类统计数据综合年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-fuzhou-stats.json"
     },
     {
       "id": "china-gd-stats",
@@ -5280,6 +5495,78 @@
       },
       "has_api": false,
       "file_path": "china/economy/provincial/china-ln-stats.json"
+    },
+    {
+      "id": "china-nanchang-stats",
+      "name": {
+        "en": "Nanchang Bureau of Statistics",
+        "zh": "南昌市统计局"
+      },
+      "description": {
+        "en": "The Nanchang Bureau of Statistics is the official statistical authority for Nanchang, the capital of Jiangxi Province in southeastern China. Nanchang is a major industrial and transportation hub known for its aviation, electronics, and automobile manufacturing sectors. The bureau publishes comprehensive socioeconomic data including GDP, industrial output, investment, consumption, employment, and population statistics for Nanchang Municipality, and releases the Nanchang Statistical Yearbook and periodic economic bulletins.",
+        "zh": "南昌市统计局是南昌市官方统计机构，南昌是江西省省会，位于中国东南部，是重要的工业和交通枢纽，以航空、电子和汽车制造业著称。统计局发布南昌市GDP、工业产值、投资、消费、就业和人口等全面的社会经济数据，出版《南昌统计年鉴》及定期经济运行情况报告。"
+      },
+      "website": "http://tjj.nc.gov.cn",
+      "data_url": "http://tjj.nc.gov.cn/tjsj/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "economics",
+        "statistics",
+        "industry",
+        "social"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "monthly",
+      "tags": [
+        "南昌统计",
+        "Nanchang statistics",
+        "南昌GDP",
+        "Nanchang GDP",
+        "江西经济",
+        "Jiangxi economy",
+        "南昌统计年鉴",
+        "Nanchang Statistical Yearbook",
+        "航空产业",
+        "aviation industry",
+        "汽车制造",
+        "automobile manufacturing",
+        "电子产业",
+        "electronics industry",
+        "固定资产投资",
+        "fixed asset investment",
+        "城镇化",
+        "urbanization",
+        "中部崛起",
+        "central China rise"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and economic growth: quarterly and annual GDP data by industry sector for Nanchang",
+          "Industrial production: output from key sectors including aviation, electronics, and automobile manufacturing",
+          "Fixed asset investment: total investment by industry, infrastructure, and real estate development",
+          "Retail and consumption: total retail sales of consumer goods, consumer price index",
+          "Employment and wages: employed persons, urban unemployment rate, average wages",
+          "Population: resident population, household registration data, urbanization rate",
+          "Foreign trade and investment: export/import volumes, utilized FDI",
+          "Nanchang Statistical Yearbook: comprehensive annual compilation of municipal statistics",
+          "Monthly economic bulletins: key economic indicators and trend analysis"
+        ],
+        "zh": [
+          "GDP与经济增长：南昌市按产业分类的季度和年度GDP数据",
+          "工业生产：航空、电子和汽车制造等重点产业产值",
+          "固定资产投资：分行业、基础设施和房地产开发总投资额",
+          "消费与零售：社会消费品零售总额、居民消费价格指数",
+          "就业与工资：从业人员数、城镇登记失业率、平均工资",
+          "人口：常住人口、户籍人口数据、城镇化率",
+          "对外贸易与投资：进出口总额、实际利用外商直接投资",
+          "南昌统计年鉴：全市各类统计数据综合年度汇编",
+          "月度经济形势报告：主要经济指标及趋势分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/provincial/china-nanchang-stats.json"
     },
     {
       "id": "china-nanjing-stats",
@@ -10092,6 +10379,77 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-cnao.json"
+    },
+    {
+      "id": "china-cnca",
+      "name": {
+        "en": "China National Accreditation Service for Conformity Assessment",
+        "zh": "中国国家认证认可监督管理委员会"
+      },
+      "description": {
+        "en": "The China National Accreditation Service for Conformity Assessment (CNCA) is a government body under the State Administration for Market Regulation (SAMR) responsible for managing China's certification, accreditation, inspection, and testing (CAIT) system. CNCA oversees compulsory product certification (CCC), voluntary certification schemes, laboratory accreditation, and inspection body accreditation. It publishes data on certified products, accredited laboratories, inspection agencies, and certification body registrations across China, providing authoritative information for trade facilitation, product safety, and quality oversight.",
+        "zh": "中国国家认证认可监督管理委员会（国家认监委，CNCA）是国家市场监督管理总局（市场监管总局）下设的政府机构，负责管理中国认证认可检验检测（CAIT）体系。国家认监委负责强制性产品认证（3C认证）、自愿性认证、实验室认可和检验机构认可等工作，发布全国认证产品、认可实验室、检验机构及认证机构注册等数据，为贸易便利化、产品安全和质量监督提供权威信息。"
+      },
+      "website": "https://www.cnca.gov.cn",
+      "data_url": "https://www.cnca.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "quality",
+        "standards",
+        "trade",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "认证认可",
+        "certification",
+        "accreditation",
+        "3C认证",
+        "CCC certification",
+        "实验室认可",
+        "laboratory accreditation",
+        "检验机构",
+        "inspection body",
+        "产品认证",
+        "product certification",
+        "质量监督",
+        "quality supervision",
+        "合格评定",
+        "conformity assessment",
+        "CNCA",
+        "国家认监委",
+        "强制认证",
+        "compulsory certification",
+        "贸易便利化",
+        "trade facilitation"
+      ],
+      "data_content": {
+        "en": [
+          "CCC (China Compulsory Certification) database: certified products, certificates, and manufacturers",
+          "Accredited laboratory directory: CNAS-accredited testing and calibration laboratories by sector",
+          "Inspection body registry: accredited inspection and certification bodies operating in China",
+          "Certification body list: approved certification organizations and their scope of accreditation",
+          "Annual certification and accreditation statistical report: industry-wide CAIT data",
+          "Import/export commodity inspection data: inspection outcomes for trade-related goods",
+          "Organic product certification database: certified organic producers and products",
+          "Food safety management system certifications: HACCP, ISO 22000 certified enterprises"
+        ],
+        "zh": [
+          "3C认证数据库：认证产品、证书及制造商信息",
+          "认可实验室目录：按行业分类的CNAS认可检测和校准实验室",
+          "检验机构注册：在华运营的认可检验和认证机构",
+          "认证机构名单：经批准的认证组织及其认证范围",
+          "认证认可年度统计报告：全行业CAIT数据",
+          "进出口商品检验数据：贸易相关商品的检验结果",
+          "有机产品认证数据库：认证有机生产者和产品",
+          "食品安全管理体系认证：HACCP、ISO 22000认证企业"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cnca.json"
     },
     {
       "id": "china-mem",
