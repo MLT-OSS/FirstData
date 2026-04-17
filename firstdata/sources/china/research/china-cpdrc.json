@@ -1,0 +1,76 @@
+{
+  "id": "china-cpdrc",
+  "name": {
+    "en": "China Population and Development Research Center",
+    "zh": "中国人口与发展研究中心"
+  },
+  "description": {
+    "en": "The China Population and Development Research Center (CPDRC) is a specialized public research institution under the National Health Commission (NHC) of China, dedicated to research on population dynamics, reproductive health, aging, family planning policy, and the relationship between population and sustainable development. As the principal national think tank for population policy, CPDRC provides data analysis, policy evaluation, and demographic projections that directly inform China's population strategy — including the historic shifts from the one-child policy to the two-child and three-child policies. It publishes research on birth rates, mortality, population aging, migration, gender ratios, and fertility trends, and maintains databases on reproductive health and family planning statistics essential for understanding China's demographic transition.",
+    "zh": "中国人口与发展研究中心（CPDRC）是国家卫生健康委员会（国家卫健委）下属的专业公益性科研机构，专注于人口动态、生育健康、人口老龄化、计划生育政策及人口与可持续发展关系研究。作为国家人口政策的主要智库，CPDRC提供数据分析、政策评估和人口预测，直接为中国人口战略提供决策支撑——包括从独生子女政策向二孩、三孩政策历史性转变的决策。研究中心发布出生率、死亡率、人口老龄化、人口迁移、性别比例和生育趋势等方面的研究成果，并维护生育健康和计划生育统计数据库，对理解中国人口转型至关重要。"
+  },
+  "website": "https://www.cpdrc.org.cn",
+  "data_url": "https://www.cpdrc.org.cn/sjzw/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "social",
+    "health",
+    "statistics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "人口研究",
+    "population research",
+    "人口动态",
+    "population dynamics",
+    "生育率",
+    "fertility rate",
+    "出生率",
+    "birth rate",
+    "人口老龄化",
+    "population aging",
+    "计划生育",
+    "family planning",
+    "三孩政策",
+    "three-child policy",
+    "生育健康",
+    "reproductive health",
+    "人口预测",
+    "demographic projection",
+    "人口迁移",
+    "population migration",
+    "人口转型",
+    "demographic transition",
+    "国家卫健委",
+    "NHC",
+    "人口政策",
+    "population policy",
+    "性别比",
+    "sex ratio",
+    "人口统计"
+  ],
+  "data_content": {
+    "en": [
+      "Fertility and birth data: annual birth rates, total fertility rates (TFR), and fertility trends by province and demographic group",
+      "Population aging statistics: elderly population ratios, dependency ratios, aging trends by region, and projections",
+      "Population projections: short- and long-term demographic forecasts for China under different policy scenarios",
+      "Reproductive health data: maternal and child health indicators, contraceptive use rates, and reproductive health service coverage",
+      "Family planning policy evaluation: data-driven assessments of the effects of two-child and three-child policies on birth rates",
+      "Population migration research: inter-provincial migration flows, rural-urban migration patterns, and floating population statistics",
+      "Gender and sex ratio analysis: sex ratio at birth trends, causes, and demographic consequences",
+      "International comparison: China's demographic indicators benchmarked against other countries and global averages"
+    ],
+    "zh": [
+      "生育与出生数据：按省份和人口群体分类的年度出生率、总和生育率及生育趋势",
+      "人口老龄化统计：老年人口比例、抚养比、区域老龄化趋势及预测",
+      "人口预测：不同政策情景下中国人口的中长期预测",
+      "生育健康数据：母婴健康指标、避孕使用率及生育健康服务覆盖率",
+      "计划生育政策评估：基于数据的二孩、三孩政策对出生率影响评估",
+      "人口迁移研究：省际迁移流动、城乡迁移模式及流动人口统计",
+      "性别与性别比分析：出生性别比趋势、成因及人口后果",
+      "国际比较：中国人口指标与其他国家及全球平均水平的比较分析"
+    ]
+  }
+}

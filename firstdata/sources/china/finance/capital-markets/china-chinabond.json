@@ -1,0 +1,68 @@
+{
+  "id": "china-chinabond",
+  "name": {
+    "en": "China Bond Information Network",
+    "zh": "中国债券信息网"
+  },
+  "description": {
+    "en": "China Bond Information Network (Chinabond) is the official information disclosure and data platform operated by China Central Depository & Clearing Co., Ltd. (CCDC), the central securities depository for China's interbank bond market supervised by the People's Bank of China. It serves as the authoritative source for bond yield curves, bond issuance prospectuses, bond market statistics, and credit rating disclosures for the Chinese bond market - the world's second-largest bond market. Chinabond publishes the widely referenced ChinaBond yield curve series covering government bonds, policy bank bonds, corporate bonds, and asset-backed securities, and provides transparency data for all bonds registered in the interbank market.",
+    "zh": "中国债券信息网（Chinabond）是中央国债登记结算有限责任公司（中债登）运营的官方信息披露与数据平台。中债登受中国人民银行监管，是中国银行间债券市场的中央证券托管机构。该平台是中国债券市场（全球第二大债券市场）债券收益率曲线、债券发行说明书、债券市场统计数据及信用评级披露的权威来源。中国债券信息网发布广泛引用的中债收益率曲线系列，涵盖国债、政策性银行债、企业债及资产支持证券，并为银行间市场登记的所有债券提供透明度数据。"
+  },
+  "website": "https://www.chinabond.com.cn",
+  "data_url": "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "债券收益率",
+    "bond yield",
+    "中债收益率曲线",
+    "ChinaBond yield curve",
+    "国债",
+    "government bond",
+    "政策性银行债",
+    "policy bank bond",
+    "企业债",
+    "corporate bond",
+    "资产支持证券",
+    "ABS",
+    "银行间债券市场",
+    "interbank bond market",
+    "债券发行",
+    "bond issuance",
+    "信用评级",
+    "credit rating",
+    "中央国债登记结算",
+    "CCDC",
+    "固定收益",
+    "fixed income",
+    "债券市场统计",
+    "bond market statistics"
+  ],
+  "data_content": {
+    "en": [
+      "ChinaBond yield curves: daily benchmark yield curves for government bonds, policy bank bonds, corporate bonds, and ABS across various maturities",
+      "Bond issuance disclosures: prospectuses, offering documents, and registration materials for all interbank market bonds",
+      "Bond market statistics: monthly and annual data on bond issuance volume, outstanding balance, and market structure",
+      "Credit rating disclosures: rating reports and rating change announcements for rated bonds",
+      "Bond trading and settlement data: interbank market secondary trading statistics",
+      "Asset-backed securities: ABS issuance documents, servicer reports, and trustee disclosures",
+      "Green bond registry: labeled green bond issuance information and use-of-proceeds reports"
+    ],
+    "zh": [
+      "中债收益率曲线：国债、政策性银行债、企业债及资产支持证券各期限的每日基准收益率曲线",
+      "债券发行披露：银行间市场所有债券的募集说明书、发行文件及登记材料",
+      "债券市场统计：债券发行量、存量余额及市场结构的月度和年度数据",
+      "信用评级披露：已评级债券的评级报告及评级变化公告",
+      "债券交易与结算数据：银行间市场二级交易统计",
+      "资产支持证券：ABS发行文件、服务机构报告及受托机构披露",
+      "绿色债券注册：标注绿色债券的发行信息及募集资金用途报告"
+    ]
+  }
+}
