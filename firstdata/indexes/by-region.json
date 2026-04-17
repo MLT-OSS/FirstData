@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-15T01:05:01.474636+00:00",
+    "generated_at": "2026-04-17T03:55:44.188009+00:00",
     "total_regions": 58,
-    "total_sources": 448,
+    "total_sources": 453,
     "version": "2.0"
   },
   "regions": {
@@ -1415,6 +1415,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nssf",
+        "name": {
+          "en": "National Social Security Fund Council of China",
+          "zh": "全国社会保障基金理事会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.ssf.gov.cn/",
+        "has_api": false,
+        "file_path": "china/finance/fiscal/china-nssf.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cfets",
         "name": {
           "en": "China Foreign Exchange Trade System",
@@ -1635,6 +1647,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-neac",
+        "name": {
+          "en": "National Ethnic Affairs Commission of China",
+          "zh": "国家民族事务委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.neac.gov.cn/seac/xxgk/tjsj/",
+        "has_api": false,
+        "file_path": "china/governance/china-neac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nia",
         "name": {
           "en": "National Immigration Administration of China",
@@ -1728,6 +1752,18 @@
         "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
         "has_api": false,
         "file_path": "china/governance/sports/china-gas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cpdrc",
+        "name": {
+          "en": "China Population and Development Research Center",
+          "zh": "中国人口与发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpdrc.org.cn/sjzw/",
+        "has_api": false,
+        "file_path": "china/health/china-cpdrc.json",
         "geographic_scope": "national"
       },
       {
@@ -2032,6 +2068,30 @@
         "data_url": "https://www.drc.gov.cn/yjcg.htm",
         "has_api": false,
         "file_path": "china/research/china-drc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gscloud",
+        "name": {
+          "en": "Geospatial Data Cloud - Computer Network Information Center, CAS",
+          "zh": "地理空间数据云（中国科学院计算机网络信息中心）"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.gscloud.cn/search",
+        "has_api": false,
+        "file_path": "china/research/china-gscloud.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "china-istic",
+        "name": {
+          "en": "Institute of Scientific and Technical Information of China",
+          "zh": "中国科学技术信息研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.istic.ac.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-istic.json",
         "geographic_scope": "national"
       },
       {
