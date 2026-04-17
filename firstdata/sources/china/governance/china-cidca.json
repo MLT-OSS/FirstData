@@ -1,0 +1,59 @@
+{
+  "id": "china-cidca",
+  "name": {
+    "en": "China International Development Cooperation Agency",
+    "zh": "国家国际发展合作署"
+  },
+  "description": {
+    "en": "The China International Development Cooperation Agency (CIDCA) is a vice-ministerial government body established in 2018 to oversee China's foreign aid and international development cooperation. It formulates strategic guidelines and plans for foreign assistance, coordinates and supervises aid implementation, and reports on cooperation outcomes. CIDCA publishes data on China's foreign aid programs, country-specific assistance allocations, completed aid projects, technical cooperation, humanitarian assistance, and South-South cooperation initiatives. Its reports and white papers are primary official sources for understanding the scale, scope, and priorities of China's global development engagement.",
+    "zh": "国家国际发展合作署是2018年设立的副部级政府机构，负责统筹协调中国对外援助与国际发展合作工作。该机构负责制定对外援助战略方针和规划，协调监督援助实施，并报告合作成果。国际发展合作署发布中国对外援助项目、国别援助分配、已竣工援助项目、技术合作、人道主义援助及南南合作举措等方面的数据，其报告和白皮书是了解中国全球发展参与规模、范围和重点的主要官方数据来源。"
+  },
+  "website": "http://www.cidca.gov.cn",
+  "data_url": "http://www.cidca.gov.cn/ywgz.htm",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "development-aid",
+    "international-relations",
+    "governance",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "foreign-aid",
+    "development-cooperation",
+    "south-south",
+    "international-relations",
+    "belt-and-road",
+    "humanitarian-aid",
+    "technical-assistance",
+    "对外援助",
+    "国际发展合作",
+    "南南合作",
+    "人道主义援助",
+    "技术援助",
+    "国际合作",
+    "发展合作署"
+  ],
+  "data_content": {
+    "en": [
+      "Foreign Aid Programs - Country-by-country breakdown of aid projects, grant allocations, and concessional loans",
+      "White Papers on Foreign Aid - Comprehensive official reports on China's foreign aid philosophy, scope, and outcomes",
+      "Technical Cooperation - Expert dispatching, training programs, and technology transfer project data",
+      "Humanitarian Assistance - Emergency relief operations, disaster response, and food aid statistics",
+      "South-South Cooperation - Data on developing country partnerships, mutual learning programs, and joint projects",
+      "BRI Development Projects - Infrastructure and development cooperation projects under the Belt and Road Initiative"
+    ],
+    "zh": [
+      "对外援助项目 - 按国家分类的援助项目、无偿援助及优惠贷款分配情况",
+      "对外援助白皮书 - 关于中国对外援助理念、规模和成果的综合性官方报告",
+      "技术合作 - 专家派遣、培训项目和技术转让项目数据",
+      "人道主义援助 - 紧急救援行动、灾害应急响应和粮食援助统计",
+      "南南合作 - 发展中国家伙伴关系、互学互鉴项目和联合项目数据",
+      "\"一带一路\"发展项目 - \"一带一路\"倡议框架下的基础设施和发展合作项目"
+    ]
+  }
+}

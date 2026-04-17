@@ -1,0 +1,63 @@
+{
+  "id": "china-cta",
+  "name": {
+    "en": "China Tourism Academy",
+    "zh": "中国旅游研究院"
+  },
+  "description": {
+    "en": "The China Tourism Academy (CTA) is the national-level research institution under the Ministry of Culture and Tourism, serving as China's authoritative think tank for tourism industry data and policy research. CTA publishes comprehensive statistical reports on domestic and inbound tourism, including visitor numbers, tourism revenue, hotel occupancy rates, destination rankings, travel patterns, and consumer spending. Its annual China Tourism Statistical Bulletin and thematic reports on rural tourism, red tourism, and international visitor flows are official primary sources for understanding China's tourism economy and industry trends.",
+    "zh": "中国旅游研究院是文化和旅游部直属的国家级研究机构，是中国旅游行业数据和政策研究的权威智库。研究院发布国内旅游和入境旅游的综合统计报告，涵盖游客数量、旅游收入、酒店入住率、目的地排名、出行规律和消费支出等数据。年度《中国旅游统计公报》及乡村旅游、红色旅游和入境客流等专题报告，是了解中国旅游经济和行业趋势的官方一手数据来源。"
+  },
+  "website": "https://www.ctaweb.org.cn",
+  "data_url": "https://www.ctaweb.org.cn/index.php?m=home&c=Lists&a=index&tid=21",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "tourism",
+    "economics",
+    "statistics",
+    "consumer-behavior"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "china",
+    "tourism",
+    "travel",
+    "visitor-statistics",
+    "hotel",
+    "domestic-tourism",
+    "inbound-tourism",
+    "outbound-tourism",
+    "destination",
+    "旅游统计",
+    "旅游收入",
+    "旅游研究院",
+    "国内旅游",
+    "入境旅游",
+    "出境旅游",
+    "乡村旅游",
+    "文化旅游"
+  ],
+  "data_content": {
+    "en": [
+      "Domestic Tourism Statistics - Annual and quarterly domestic visitor trips, tourism revenue, and average spending per trip",
+      "Inbound Tourism - International visitor arrivals by country of origin, purpose of visit, and port of entry",
+      "Outbound Tourism - Chinese outbound travelers, top destination countries, and spending abroad",
+      "Hotel Industry - Star-rated hotel occupancy rates, revenue per available room (RevPAR), and regional hotel performance",
+      "Destination Rankings - Top domestic tourist destinations by visitor volume, revenue, and satisfaction index",
+      "Rural and Red Tourism - Statistics on rural tourism revenue, visitors, and employment impact; red tourism site visit data",
+      "Tourism Economy Forecast - Quarterly and annual forecasts for China's tourism industry growth and recovery indicators"
+    ],
+    "zh": [
+      "国内旅游统计 - 年度和季度国内旅游人次、旅游收入和人均消费",
+      "入境旅游 - 按客源地、出行目的和入境口岸分类的国际游客入境情况",
+      "出境旅游 - 中国出境旅游人数、热门目的地国家和境外消费情况",
+      "住宿业 - 星级酒店入住率、每间可售房收入（RevPAR）和各地区酒店业绩",
+      "目的地排名 - 按游客量、旅游收入和满意度指数排名的国内热门旅游目的地",
+      "乡村和红色旅游 - 乡村旅游收入、游客数量和就业带动统计；红色旅游景区参观数据",
+      "旅游经济预测 - 中国旅游行业增长与复苏指标的季度和年度预测"
+    ]
+  }
+}
