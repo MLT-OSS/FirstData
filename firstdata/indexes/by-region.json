@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-17T03:55:44.188009+00:00",
+    "generated_at": "2026-04-17T04:21:02.135277+00:00",
     "total_regions": 58,
-    "total_sources": 453,
+    "total_sources": 469,
     "version": "2.0"
   },
   "regions": {
@@ -508,6 +508,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnea",
+        "name": {
+          "en": "China Nuclear Energy Association",
+          "zh": "中国核能行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-nea.cn/",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cnea.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cria",
         "name": {
           "en": "China Rubber Industry Association",
@@ -627,6 +639,18 @@
         "data_url": "https://tjj.beijing.gov.cn/tjsj_31433/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-beijing-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-chengdu-stats",
+        "name": {
+          "en": "Chengdu Bureau of Statistics",
+          "zh": "成都市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "http://cdstats.chengdu.gov.cn/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-chengdu-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -867,6 +891,18 @@
         "data_url": "https://tjj.qinghai.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-qh-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-qingdao-stats",
+        "name": {
+          "en": "Qingdao Bureau of Statistics",
+          "zh": "青岛市统计局"
+        },
+        "authority_level": "government",
+        "data_url": "http://qdtj.qingdao.gov.cn/",
+        "has_api": false,
+        "file_path": "china/economy/provincial/china-qingdao-stats.json",
         "geographic_scope": "subnational"
       },
       {
@@ -1111,6 +1147,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sinosure",
+        "name": {
+          "en": "China Export & Credit Insurance Corporation",
+          "zh": "中国出口信用保险公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sinosure.com.cn/gywm/gsjj/xxpl/index.shtml",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-sinosure.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-customs",
         "name": {
           "en": "General Administration of Customs of China",
@@ -1307,6 +1355,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinabond",
+        "name": {
+          "en": "China Bond Information Network",
+          "zh": "中国债券信息网"
+        },
+        "authority_level": "market",
+        "data_url": "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-chinabond.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-czce",
         "name": {
           "en": "Zhengzhou Commodity Exchange",
@@ -1352,6 +1412,18 @@
         "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-shfe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cicpa",
+        "name": {
+          "en": "Chinese Institute of Certified Public Accountants",
+          "zh": "中国注册会计师协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cicpa.org.cn/xxcx/",
+        "has_api": false,
+        "file_path": "china/finance/china-cicpa.json",
         "geographic_scope": "national"
       },
       {
@@ -1551,6 +1623,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cidca",
+        "name": {
+          "en": "China International Development Cooperation Agency",
+          "zh": "国家国际发展合作署"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cidca.gov.cn/ywgz.htm",
+        "has_api": false,
+        "file_path": "china/governance/china-cidca.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-cnao",
         "name": {
           "en": "National Audit Office of China",
@@ -1743,6 +1827,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-wenshu",
+        "name": {
+          "en": "China Judgments Online",
+          "zh": "中国裁判文书网"
+        },
+        "authority_level": "government",
+        "data_url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html",
+        "has_api": false,
+        "file_path": "china/governance/china-wenshu.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gas",
         "name": {
           "en": "General Administration of Sport of China",
@@ -1864,6 +1960,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-crta",
+        "name": {
+          "en": "China Road Transport Association",
+          "zh": "中国道路运输协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.crta.org.cn/news.html?id=42",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crta.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mot",
         "name": {
           "en": "Ministry of Transport of China",
@@ -1934,6 +2042,18 @@
         "data_url": "https://www.women.org.cn/",
         "has_api": false,
         "file_path": "china/national/china-acwf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cta",
+        "name": {
+          "en": "China Tourism Academy",
+          "zh": "中国旅游研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ctaweb.org.cn/index.php?m=home&c=Lists&a=index&tid=21",
+        "has_api": false,
+        "file_path": "china/national/china-cta.json",
         "geographic_scope": "national"
       },
       {
@@ -2059,6 +2179,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-casted",
+        "name": {
+          "en": "China Academy of Science and Technology for Development",
+          "zh": "中国科学技术发展战略研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.casted.org.cn/channel/",
+        "has_api": false,
+        "file_path": "china/research/china-casted.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cciee",
+        "name": {
+          "en": "China Center for International Economic Exchanges",
+          "zh": "中国国际经济交流中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cciee.org.cn/ktcglistall.aspx?clmId=650",
+        "has_api": false,
+        "file_path": "china/research/china-cciee.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-drc",
         "name": {
           "en": "Development Research Center of the State Council of China",
@@ -2092,6 +2236,18 @@
         "data_url": "https://www.istic.ac.cn/",
         "has_api": false,
         "file_path": "china/research/china-istic.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ngeos",
+        "name": {
+          "en": "National Earth System Science Data Center",
+          "zh": "国家地球系统科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.geodata.cn/data/",
+        "has_api": false,
+        "file_path": "china/research/china-ngeos.json",
         "geographic_scope": "national"
       },
       {
@@ -2140,6 +2296,30 @@
         "data_url": "https://www.wanfangdata.com.cn/",
         "has_api": false,
         "file_path": "china/research/china-wanfang.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ngcc",
+        "name": {
+          "en": "National Geomatics Center of China",
+          "zh": "国家基础地理信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ngcc.cn/dlxxzy/gjjcdlxxsjk/",
+        "has_api": false,
+        "file_path": "china/resources/china-ngcc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cace",
+        "name": {
+          "en": "China Association of Circular Economy",
+          "zh": "中国循环经济协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinacace.org/patents/cycle_economy_report/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cace.json",
         "geographic_scope": "national"
       },
       {
@@ -2537,6 +2717,18 @@
         "data_url": "https://service.most.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/sci_resources/china-most-rnd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnis",
+        "name": {
+          "en": "China National Institute of Standardization",
+          "zh": "中国标准化研究院"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnis.ac.cn/kycg/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cnis.json",
         "geographic_scope": "national"
       },
       {
