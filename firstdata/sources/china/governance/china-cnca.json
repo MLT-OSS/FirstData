@@ -1,0 +1,69 @@
+{
+  "id": "china-cnca",
+  "name": {
+    "en": "China National Accreditation Service for Conformity Assessment",
+    "zh": "中国国家认证认可监督管理委员会"
+  },
+  "description": {
+    "en": "The China National Accreditation Service for Conformity Assessment (CNCA) is a government body under the State Administration for Market Regulation (SAMR) responsible for managing China's certification, accreditation, inspection, and testing (CAIT) system. CNCA oversees compulsory product certification (CCC), voluntary certification schemes, laboratory accreditation, and inspection body accreditation. It publishes data on certified products, accredited laboratories, inspection agencies, and certification body registrations across China, providing authoritative information for trade facilitation, product safety, and quality oversight.",
+    "zh": "中国国家认证认可监督管理委员会（国家认监委，CNCA）是国家市场监督管理总局（市场监管总局）下设的政府机构，负责管理中国认证认可检验检测（CAIT）体系。国家认监委负责强制性产品认证（3C认证）、自愿性认证、实验室认可和检验机构认可等工作，发布全国认证产品、认可实验室、检验机构及认证机构注册等数据，为贸易便利化、产品安全和质量监督提供权威信息。"
+  },
+  "website": "https://www.cnca.gov.cn",
+  "data_url": "https://www.cnca.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "quality",
+    "standards",
+    "trade",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "认证认可",
+    "certification",
+    "accreditation",
+    "3C认证",
+    "CCC certification",
+    "实验室认可",
+    "laboratory accreditation",
+    "检验机构",
+    "inspection body",
+    "产品认证",
+    "product certification",
+    "质量监督",
+    "quality supervision",
+    "合格评定",
+    "conformity assessment",
+    "CNCA",
+    "国家认监委",
+    "强制认证",
+    "compulsory certification",
+    "贸易便利化",
+    "trade facilitation"
+  ],
+  "data_content": {
+    "en": [
+      "CCC (China Compulsory Certification) database: certified products, certificates, and manufacturers",
+      "Accredited laboratory directory: CNAS-accredited testing and calibration laboratories by sector",
+      "Inspection body registry: accredited inspection and certification bodies operating in China",
+      "Certification body list: approved certification organizations and their scope of accreditation",
+      "Annual certification and accreditation statistical report: industry-wide CAIT data",
+      "Import/export commodity inspection data: inspection outcomes for trade-related goods",
+      "Organic product certification database: certified organic producers and products",
+      "Food safety management system certifications: HACCP, ISO 22000 certified enterprises"
+    ],
+    "zh": [
+      "3C认证数据库：认证产品、证书及制造商信息",
+      "认可实验室目录：按行业分类的CNAS认可检测和校准实验室",
+      "检验机构注册：在华运营的认可检验和认证机构",
+      "认证机构名单：经批准的认证组织及其认证范围",
+      "认证认可年度统计报告：全行业CAIT数据",
+      "进出口商品检验数据：贸易相关商品的检验结果",
+      "有机产品认证数据库：认证有机生产者和产品",
+      "食品安全管理体系认证：HACCP、ISO 22000认证企业"
+    ]
+  }
+}

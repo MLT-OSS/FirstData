@@ -1,0 +1,70 @@
+{
+  "id": "china-nanchang-stats",
+  "name": {
+    "en": "Nanchang Bureau of Statistics",
+    "zh": "南昌市统计局"
+  },
+  "description": {
+    "en": "The Nanchang Bureau of Statistics is the official statistical authority for Nanchang, the capital of Jiangxi Province in southeastern China. Nanchang is a major industrial and transportation hub known for its aviation, electronics, and automobile manufacturing sectors. The bureau publishes comprehensive socioeconomic data including GDP, industrial output, investment, consumption, employment, and population statistics for Nanchang Municipality, and releases the Nanchang Statistical Yearbook and periodic economic bulletins.",
+    "zh": "南昌市统计局是南昌市官方统计机构，南昌是江西省省会，位于中国东南部，是重要的工业和交通枢纽，以航空、电子和汽车制造业著称。统计局发布南昌市GDP、工业产值、投资、消费、就业和人口等全面的社会经济数据，出版《南昌统计年鉴》及定期经济运行情况报告。"
+  },
+  "website": "http://tjj.nc.gov.cn",
+  "data_url": "http://tjj.nc.gov.cn/tjsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "monthly",
+  "tags": [
+    "南昌统计",
+    "Nanchang statistics",
+    "南昌GDP",
+    "Nanchang GDP",
+    "江西经济",
+    "Jiangxi economy",
+    "南昌统计年鉴",
+    "Nanchang Statistical Yearbook",
+    "航空产业",
+    "aviation industry",
+    "汽车制造",
+    "automobile manufacturing",
+    "电子产业",
+    "electronics industry",
+    "固定资产投资",
+    "fixed asset investment",
+    "城镇化",
+    "urbanization",
+    "中部崛起",
+    "central China rise"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Nanchang",
+      "Industrial production: output from key sectors including aviation, electronics, and automobile manufacturing",
+      "Fixed asset investment: total investment by industry, infrastructure, and real estate development",
+      "Retail and consumption: total retail sales of consumer goods, consumer price index",
+      "Employment and wages: employed persons, urban unemployment rate, average wages",
+      "Population: resident population, household registration data, urbanization rate",
+      "Foreign trade and investment: export/import volumes, utilized FDI",
+      "Nanchang Statistical Yearbook: comprehensive annual compilation of municipal statistics",
+      "Monthly economic bulletins: key economic indicators and trend analysis"
+    ],
+    "zh": [
+      "GDP与经济增长：南昌市按产业分类的季度和年度GDP数据",
+      "工业生产：航空、电子和汽车制造等重点产业产值",
+      "固定资产投资：分行业、基础设施和房地产开发总投资额",
+      "消费与零售：社会消费品零售总额、居民消费价格指数",
+      "就业与工资：从业人员数、城镇登记失业率、平均工资",
+      "人口：常住人口、户籍人口数据、城镇化率",
+      "对外贸易与投资：进出口总额、实际利用外商直接投资",
+      "南昌统计年鉴：全市各类统计数据综合年度汇编",
+      "月度经济形势报告：主要经济指标及趋势分析"
+    ]
+  }
+}
