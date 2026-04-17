@@ -1,0 +1,74 @@
+{
+  "id": "china-cnea",
+  "name": {
+    "en": "China Nuclear Energy Association",
+    "zh": "中国核能行业协会"
+  },
+  "description": {
+    "en": "The China Nuclear Energy Association (CNEA) is the national industry organization representing China's nuclear energy sector, covering nuclear power generation, nuclear fuel cycle, radiation technology, and nuclear equipment manufacturing. China operates the world's largest nuclear power expansion program and is the dominant force in global nuclear construction. CNEA publishes annual reports, monthly operating statistics, and industry development data on nuclear power installed capacity, electricity generation, reactor construction progress, fuel consumption, safety performance, and workforce figures. It also tracks China's nuclear equipment exports, international cooperation, and the development of advanced reactor technologies including Generation III and IV designs. CNEA data is indispensable for energy analysts, investors, and policymakers tracking China's low-carbon energy transition and global nuclear industry trends.",
+    "zh": "中国核能行业协会（CNEA）是代表中国核能行业的全国性行业组织，涵盖核电发电、核燃料循环、辐射技术和核设备制造等领域。中国拥有全球最大规模的核电扩张计划，是全球核电建设的主导力量。中国核能行业协会发布核电装机容量、发电量、反应堆建设进度、燃料消耗、安全业绩及从业人员等年度报告、月度运行统计和行业发展数据，同时追踪中国核设备出口、国际合作及三代、四代反应堆技术研发进展。协会数据是能源分析师、投资者和政策制定者追踪中国低碳能源转型及全球核能行业趋势的重要参考。"
+  },
+  "website": "https://www.china-nea.cn/",
+  "data_url": "https://www.china-nea.cn/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "industry",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "核能",
+    "nuclear energy",
+    "核电",
+    "nuclear power",
+    "核电站",
+    "nuclear power plant",
+    "装机容量",
+    "installed capacity",
+    "发电量",
+    "electricity generation",
+    "反应堆",
+    "reactor",
+    "核燃料",
+    "nuclear fuel",
+    "铀",
+    "uranium",
+    "CNEA",
+    "核安全",
+    "nuclear safety",
+    "碳中和",
+    "carbon neutrality",
+    "清洁能源",
+    "clean energy",
+    "华龙一号",
+    "Hualong One",
+    "核设备",
+    "nuclear equipment"
+  ],
+  "data_content": {
+    "en": [
+      "Nuclear power installed capacity: operational, under-construction, and planned reactor units with MW capacity by plant",
+      "Monthly electricity generation: nuclear power output (TWh) and share of national power mix",
+      "Reactor construction progress: new unit groundbreaking, grid connection milestones, and construction timelines",
+      "Nuclear fuel cycle data: uranium ore production, enrichment capacity, and fuel fabrication volumes",
+      "Safety performance indicators: unplanned shutdowns, radiation exposure, and WANO performance index",
+      "Annual nuclear energy development report: comprehensive sector overview including investment, employment, and technology progress",
+      "Nuclear equipment manufacturing: domestic content ratios, key component production, and export statistics",
+      "Advanced reactor development: status of Gen III+ (Hualong One, CAP1400) and Gen IV (HTR, CFETR) programs"
+    ],
+    "zh": [
+      "核电装机容量：按电站统计的在役、在建及规划机组数量及MW容量",
+      "月度发电量：核电发电量（TWh）及占全国电力结构的比例",
+      "反应堆建设进度：新机组开工、并网里程碑及建设时间进度",
+      "核燃料循环数据：铀矿石产量、浓缩能力和燃料组件制造量",
+      "安全业绩指标：非计划停机次数、辐射剂量和WANO性能指数",
+      "核能年度发展报告：包括投资、从业人员和技术进展的行业综合概述",
+      "核设备制造：国产化率、关键部件产量和出口统计",
+      "先进堆型研发：三代及三代+（华龙一号、CAP1400）和四代堆（高温气冷堆、聚变堆）项目进展"
+    ]
+  }
+}

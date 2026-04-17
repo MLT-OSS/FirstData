@@ -1,0 +1,76 @@
+{
+  "id": "china-chengdu-stats",
+  "name": {
+    "en": "Chengdu Bureau of Statistics",
+    "zh": "成都市统计局"
+  },
+  "description": {
+    "en": "The Chengdu Bureau of Statistics is the official statistical authority for Chengdu, the capital of Sichuan Province and the economic hub of western China. Chengdu is one of China's four first-tier cities by influence and a major center for electronics manufacturing, aerospace, finance, and the digital economy. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, fixed asset investment, retail sales, foreign trade, population, and employment for Chengdu municipality. It releases the Chengdu Statistical Yearbook, monthly economic bulletins, and thematic reports on the city's development as a national center city and New Economy hub in China's western development strategy.",
+    "zh": "成都市统计局是成都市的官方统计机构，成都是四川省省会、中国西部地区经济中心，也是中国新一线城市之一，是电子制造、航空航天、金融和数字经济的重要基地。统计局发布成都市GDP、工业产值、固定资产投资、社会消费品零售总额、对外贸易、人口和就业等全面的社会经济统计数据，出版《成都统计年鉴》、月度经济简报及成都作为国家中心城市、新经济之都和西部大开发重要节点城市的专题报告。"
+  },
+  "website": "http://cdstats.chengdu.gov.cn/",
+  "data_url": "http://cdstats.chengdu.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "成都统计",
+    "Chengdu statistics",
+    "成都GDP",
+    "Chengdu GDP",
+    "西部大开发",
+    "western China development",
+    "四川经济",
+    "Sichuan economy",
+    "成都统计年鉴",
+    "Chengdu Statistical Yearbook",
+    "数字经济",
+    "digital economy",
+    "新经济",
+    "new economy",
+    "电子制造",
+    "electronics manufacturing",
+    "航空航天",
+    "aerospace",
+    "国家中心城市",
+    "national center city",
+    "消费城市",
+    "consumer city",
+    "成都新区",
+    "Chengdu New Area"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Chengdu municipality",
+      "Industrial production: output from key industries including electronics, auto parts, food processing, and aerospace",
+      "Digital and new economy: software revenue, digital industry output, and new economy enterprise data",
+      "Fixed asset investment: total investment, real estate development, infrastructure, and industrial projects",
+      "Retail and consumption: total retail sales, consumer price index, and e-commerce data",
+      "Foreign trade and investment: export/import volumes, actually utilized FDI by source country",
+      "Employment and wages: employed persons, urban unemployment rate, and average wages by sector",
+      "Population: resident population, household registration, migration, and urbanization indicators",
+      "Chengdu Statistical Yearbook: comprehensive annual compilation of all municipal statistics across economic and social domains",
+      "Monthly economic briefings: short-term economic performance indicators and trend analysis"
+    ],
+    "zh": [
+      "GDP与经济增长：成都市按产业分类的季度和年度GDP数据",
+      "工业生产：电子、汽车零部件、食品加工和航空航天等重点产业产值",
+      "数字经济与新经济：软件业营业收入、数字产业产值和新经济企业数据",
+      "固定资产投资：全市总投资额、房地产开发、基础设施和工业项目投资",
+      "消费与零售：社会消费品零售总额、居民消费价格指数和电子商务数据",
+      "对外贸易与投资：进出口总额、按来源地统计的实际利用外商直接投资",
+      "就业与工资：从业人员数、城镇登记失业率和各行业平均工资",
+      "人口：常住人口、户籍人口、人口迁移和城镇化指标",
+      "成都统计年鉴：经济和社会各领域全市统计数据综合年度汇编",
+      "月度经济简报：短期经济运行指标和趋势分析"
+    ]
+  }
+}

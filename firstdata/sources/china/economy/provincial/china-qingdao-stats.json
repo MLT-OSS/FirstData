@@ -1,0 +1,76 @@
+{
+  "id": "china-qingdao-stats",
+  "name": {
+    "en": "Qingdao Bureau of Statistics",
+    "zh": "青岛市统计局"
+  },
+  "description": {
+    "en": "The Qingdao Bureau of Statistics is the official statistical authority for Qingdao, a coastal metropolis in Shandong Province and one of China's most important port cities. Qingdao is a major hub for maritime trade, advanced manufacturing, marine research, and digital economy, home to major global companies including Haier and Hisense. The bureau publishes comprehensive socioeconomic statistics covering GDP, industrial output, port throughput, foreign trade, fixed asset investment, consumption, population, and employment. It releases the Qingdao Statistical Yearbook and periodic reports on the city's development as a pilot free trade zone and key node in China's maritime economy and Blue Economy strategy.",
+    "zh": "青岛市统计局是青岛市的官方统计机构，青岛是山东省的沿海大城市，是中国重要的港口城市之一，也是海洋贸易、先进制造业、海洋科研和数字经济的重要枢纽，海尔、海信等全球知名企业的总部均设于此。统计局发布青岛市GDP、工业产值、港口吞吐量、对外贸易、固定资产投资、消费、人口和就业等全面的社会经济统计数据，出版《青岛统计年鉴》及青岛作为自由贸易试验区、海洋经济和蓝色经济发展战略重要节点城市的定期报告。"
+  },
+  "website": "http://qdtj.qingdao.gov.cn/",
+  "data_url": "http://qdtj.qingdao.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "statistics",
+    "trade",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "青岛统计",
+    "Qingdao statistics",
+    "青岛GDP",
+    "Qingdao GDP",
+    "山东经济",
+    "Shandong economy",
+    "青岛统计年鉴",
+    "Qingdao Statistical Yearbook",
+    "港口",
+    "port",
+    "海洋经济",
+    "marine economy",
+    "蓝色经济",
+    "blue economy",
+    "自由贸易区",
+    "free trade zone",
+    "海尔",
+    "Haier",
+    "先进制造",
+    "advanced manufacturing",
+    "对外贸易",
+    "foreign trade",
+    "港口吞吐量",
+    "port throughput"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Qingdao municipality",
+      "Industrial production: output from key industries including home appliances, rail transit equipment, new energy vehicles, and biomedicine",
+      "Port and trade statistics: cargo throughput, container volumes, and foreign trade import/export data",
+      "Marine economy: output value of marine industries, fisheries production, and marine science and technology indicators",
+      "Fixed asset investment: total investment, infrastructure, real estate development, and industrial project data",
+      "Retail and consumption: total retail sales of consumer goods, consumer price index, and e-commerce",
+      "Employment and wages: employed persons, urban unemployment rate, and average wages by sector",
+      "Population: resident population, household registration, and urbanization indicators",
+      "Qingdao Statistical Yearbook: comprehensive annual compilation covering all economic and social statistics",
+      "Free trade zone data: Qingdao Pilot Free Trade Zone economic performance and trade facilitation indicators"
+    ],
+    "zh": [
+      "GDP与经济增长：青岛市按产业分类的季度和年度GDP数据",
+      "工业生产：家电、轨道交通装备、新能源汽车、生物医药等重点产业产值",
+      "港口与贸易统计：货物吞吐量、集装箱量和进出口贸易数据",
+      "海洋经济：海洋产业总产值、渔业生产量和海洋科技指标",
+      "固定资产投资：全市总投资、基础设施、房地产开发和工业项目数据",
+      "消费与零售：社会消费品零售总额、居民消费价格指数和电子商务",
+      "就业与工资：从业人员数、城镇登记失业率和各行业平均工资",
+      "人口：常住人口、户籍人口和城镇化指标",
+      "青岛统计年鉴：涵盖所有经济和社会统计数据的综合年度汇编",
+      "自由贸易区数据：中国（山东）自由贸易试验区青岛片区经济运行及贸易便利化指标"
+    ]
+  }
+}
