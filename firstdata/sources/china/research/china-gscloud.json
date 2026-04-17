@@ -1,0 +1,79 @@
+{
+  "id": "china-gscloud",
+  "name": {
+    "en": "Geospatial Data Cloud - Computer Network Information Center, CAS",
+    "zh": "地理空间数据云（中国科学院计算机网络信息中心）"
+  },
+  "description": {
+    "en": "The Geospatial Data Cloud (GSCloud) is China's premier free geospatial and remote sensing data platform, operated by the Computer Network Information Center (CNIC) of the Chinese Academy of Sciences (CAS). It provides global and China-specific satellite imagery, digital elevation models, land cover data, and environmental remote sensing datasets. Key datasets include Landsat series (1-9), Sentinel-1/2, MODIS, NOAA satellite data, ASTER Global DEM, SRTM DEM, and China-specific high-resolution imagery from domestic satellites. GSCloud serves over 2 million registered users globally and is the primary access point for freely available geospatial data in China. It supports research in land use change, urban expansion, disaster monitoring, agricultural assessment, climate change, and ecosystem monitoring.",
+    "zh": "地理空间数据云（GSCloud）是中国领先的免费地理空间和遥感数据平台，由中国科学院计算机网络信息中心（CNIC）运营。平台提供全球及中国特定地区的卫星影像、数字高程模型、土地覆盖数据及环境遥感数据集。主要数据集包括Landsat系列（1-9）、Sentinel-1/2、MODIS、NOAA卫星数据、ASTER全球数字高程模型、SRTM数字高程模型及国产卫星高分辨率影像。GSCloud全球注册用户超200万，是中国免费地理空间数据的主要获取渠道，支持土地利用变化、城市扩张、灾害监测、农业评估、气候变化和生态系统监测研究。"
+  },
+  "website": "https://www.gscloud.cn",
+  "data_url": "https://www.gscloud.cn/search",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "environment",
+    "science",
+    "geography",
+    "climate",
+    "research"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "地理空间数据云",
+    "GSCloud",
+    "遥感数据",
+    "remote sensing",
+    "卫星影像",
+    "satellite imagery",
+    "Landsat",
+    "Sentinel",
+    "MODIS",
+    "数字高程模型",
+    "DEM",
+    "土地覆盖",
+    "land cover",
+    "LUCC",
+    "中科院",
+    "CAS",
+    "CNIC",
+    "计算机网络信息中心",
+    "土地利用",
+    "land use",
+    "城市扩张",
+    "urban expansion",
+    "生态监测",
+    "ecosystem monitoring",
+    "气候变化",
+    "climate change",
+    "灾害监测",
+    "disaster monitoring",
+    "免费数据",
+    "free data"
+  ],
+  "data_content": {
+    "en": [
+      "Landsat imagery series (1-9): historical and current 30-meter resolution multispectral satellite imagery dating back to 1972, global coverage",
+      "Sentinel-1 and Sentinel-2: ESA Copernicus satellite data including SAR and multispectral imagery at 10-meter resolution",
+      "MODIS datasets: daily, 8-day, and monthly global land surface products including NDVI, land surface temperature, and fire detection",
+      "Digital Elevation Models: SRTM (30m/90m), ASTER GDEM, and TanDEM-X global elevation datasets",
+      "NOAA satellite data: weather and environmental monitoring data from NOAA meteorological satellites",
+      "China high-resolution imagery: data from China's domestic earth observation satellites including HJ, GF series",
+      "Land use and land cover change (LUCC): China and global LUCC datasets at multiple spatial resolutions and time periods",
+      "Hydrological data: river basin boundaries, watershed delineations, and hydrological remote sensing products"
+    ],
+    "zh": [
+      "Landsat系列影像（1-9）：全球覆盖、30米分辨率多光谱卫星影像，历史数据追溯至1972年",
+      "Sentinel-1和Sentinel-2：欧空局哥白尼卫星数据，包括10米分辨率SAR和多光谱影像",
+      "MODIS数据集：日度、8天和月度全球陆地产品，包含NDVI、地表温度和火点监测",
+      "数字高程模型：SRTM（30m/90m）、ASTER GDEM及TanDEM-X全球高程数据集",
+      "NOAA卫星数据：来自NOAA气象卫星的天气和环境监测数据",
+      "中国高分辨率影像：环境卫星（HJ）、高分（GF）系列等国产对地观测卫星数据",
+      "土地利用/覆盖变化（LUCC）：中国及全球多空间分辨率和时间序列的土地利用变化数据集",
+      "水文数据：流域边界、集水区划定及水文遥感产品"
+    ]
+  }
+}

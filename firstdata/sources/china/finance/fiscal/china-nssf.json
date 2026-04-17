@@ -1,0 +1,69 @@
+{
+  "id": "china-nssf",
+  "name": {
+    "en": "National Social Security Fund Council of China",
+    "zh": "全国社会保障基金理事会"
+  },
+  "description": {
+    "en": "The National Social Security Fund Council (NSSF) manages China's national social security reserve fund, established by the State Council in 2000 to supplement the basic pension system and address future social security funding gaps. The NSSF publishes annual reports disclosing fund size, investment portfolio allocation, asset returns, equity holdings, and long-term performance benchmarks. As of 2023, the fund manages over 3 trillion RMB in assets across domestic and overseas equities, bonds, alternative investments, and private equity. NSSF data is essential for analyzing China's sovereign wealth management strategy, pension system sustainability, and capital market influence.",
+    "zh": "全国社会保障基金理事会（社保基金）是国务院于2000年设立的国家社会保障战略储备基金管理机构，用于补充基本养老保险并应对未来社会保障资金缺口。理事会每年发布年度报告，披露基金规模、投资组合配置、资产收益、权益持仓及长期绩效基准。截至2023年，基金管理规模超过3万亿元人民币，涵盖境内外股票、债券、另类投资及私募股权。社保基金数据对分析中国主权财富管理策略、养老金体系可持续性及资本市场影响力具有重要价值。"
+  },
+  "website": "http://www.ssf.gov.cn",
+  "data_url": "http://www.ssf.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "social-security",
+    "investment",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "社保基金",
+    "NSSF",
+    "national social security fund",
+    "养老金",
+    "pension",
+    "社会保障储备",
+    "social security reserve",
+    "基金规模",
+    "fund size",
+    "投资组合",
+    "investment portfolio",
+    "资产收益",
+    "asset returns",
+    "主权基金",
+    "sovereign fund",
+    "资本市场",
+    "capital market",
+    "国家战略储备",
+    "national strategic reserve",
+    "年度报告",
+    "annual report"
+  ],
+  "data_content": {
+    "en": [
+      "Annual fund size and growth: total assets under management, cumulative investment returns since inception",
+      "Portfolio allocation: breakdown of assets across domestic equities, fixed income, overseas investments, alternative assets, and private equity",
+      "Investment returns: annual and cumulative return rates by asset class and overall portfolio",
+      "Equity holdings: major stock holdings in domestic A-share market and overseas listed companies",
+      "Social security transfer receipts: funds transferred from state-owned enterprise equity and other sources",
+      "Entrusted investment performance: performance of funds managed by external investment managers",
+      "Overseas investment: allocation to overseas markets by region and asset type",
+      "Annual statistical bulletin: comprehensive financial summary and key performance indicators"
+    ],
+    "zh": [
+      "年度基金规模与增长：受托管理资产总规模、自成立以来累计投资收益",
+      "资产配置：国内股票、固定收益、境外投资、另类资产及私募股权的资产分布",
+      "投资收益：各资产类别及整体组合的年度和累计收益率",
+      "权益持仓：国内A股市场及境外上市公司主要股票持仓",
+      "社会保障基金转入：国有股权划转及其他来源的资金转入情况",
+      "委托投资绩效：外部投资管理人受托管理资金的绩效表现",
+      "境外投资：按地区和资产类别分类的境外市场配置情况",
+      "年度统计公报：综合财务摘要及关键绩效指标"
+    ]
+  }
+}

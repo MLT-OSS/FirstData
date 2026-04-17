@@ -1,0 +1,76 @@
+{
+  "id": "china-cpdrc",
+  "name": {
+    "en": "China Population and Development Research Center",
+    "zh": "中国人口与发展研究中心"
+  },
+  "description": {
+    "en": "The China Population and Development Research Center (CPDRC) is a national public welfare research institution under the National Health Commission (NHC), specializing in population science, demographic research, and public health data. CPDRC conducts China's national fertility surveys, tracks population aging trends, monitors reproductive health indicators, and produces demographic projections. Key outputs include the China Population and Development Research Report, national fertility status surveys, population aging studies, and data on contraception, maternal and child health, and family planning policy outcomes. CPDRC is China's primary institution for demographic intelligence, providing the empirical foundation for population policy decisions including the transition from one-child to three-child policies.",
+    "zh": "中国人口与发展研究中心（中国人发中心）是国家卫生健康委员会直属的国家级公益性研究机构，专注于人口科学、人口学研究和公共卫生数据。中国人发中心承担全国生育状况抽样调查、人口老龄化趋势追踪、生殖健康指标监测及人口预测工作。主要成果包括《中国人口与发展研究》报告、全国生育调查数据、人口老龄化研究成果以及避孕、妇幼保健和生育政策效果评估数据。中国人发中心是中国人口情报的核心机构，为人口政策决策（包括从独生子女到三孩政策的转变）提供实证依据。"
+  },
+  "website": "https://www.cpdrc.org.cn",
+  "data_url": "https://www.cpdrc.org.cn/sjzw/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "demographics",
+    "health",
+    "social",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国人口",
+    "China population",
+    "人口与发展",
+    "population and development",
+    "生育率",
+    "fertility rate",
+    "生育调查",
+    "fertility survey",
+    "人口老龄化",
+    "population aging",
+    "生育政策",
+    "fertility policy",
+    "三孩政策",
+    "three-child policy",
+    "计划生育",
+    "family planning",
+    "人口预测",
+    "population projection",
+    "妇幼健康",
+    "maternal and child health",
+    "避孕",
+    "contraception",
+    "出生率",
+    "birth rate",
+    "人口结构",
+    "population structure",
+    "卫生健康委",
+    "NHC"
+  ],
+  "data_content": {
+    "en": [
+      "National fertility status surveys: comprehensive national surveys on fertility intentions, birth rates, and reproductive behavior by age, region, and socioeconomic status",
+      "Fertility rate statistics: total fertility rate (TFR), age-specific fertility rates, and birth rate trends by province",
+      "Population aging data: proportion of elderly population, dependency ratios, aging projections by region",
+      "Contraception statistics: modern contraceptive prevalence rates, method distribution, and family planning service coverage",
+      "Maternal and child health: maternal mortality rates, infant mortality, prenatal care coverage, and breastfeeding statistics",
+      "Population projections: medium and long-term demographic forecasts by age structure, urbanization, and migration",
+      "Reproductive health indicators: infertility rates, assisted reproduction statistics, and reproductive disease prevalence",
+      "Policy evaluation research: impact assessment of fertility policy changes (one-child, two-child, three-child) on birth rates and population structure"
+    ],
+    "zh": [
+      "全国生育状况抽样调查：按年龄、地区及社会经济状况分类的生育意愿、出生率及生育行为综合调查",
+      "生育率统计：总和生育率（TFR）、年龄别生育率及各省出生率趋势",
+      "人口老龄化数据：老年人口比例、抚养比及各地区老龄化预测",
+      "避孕统计：现代避孕方法使用率、方法分布及计划生育服务覆盖率",
+      "妇幼健康：孕产妇死亡率、婴儿死亡率、产前检查覆盖率及母乳喂养统计",
+      "人口预测：按年龄结构、城镇化程度及流动人口的中长期人口预测",
+      "生殖健康指标：不孕不育率、辅助生殖技术统计及生殖系统疾病患病率",
+      "政策评估研究：生育政策变化（独生子女、二孩、三孩政策）对出生率和人口结构的影响评估"
+    ]
+  }
+}
