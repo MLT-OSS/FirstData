@@ -1,0 +1,66 @@
+{
+  "id": "china-acftu",
+  "name": {
+    "en": "All-China Federation of Trade Unions",
+    "zh": "中华全国总工会"
+  },
+  "description": {
+    "en": "The All-China Federation of Trade Unions (ACFTU) is the sole national trade union federation in China, representing over 300 million union members across all industries and sectors. As the world's largest trade union organization, ACFTU publishes annual reports, survey data, and statistical information on labor relations, workers' rights, collective bargaining, wage levels, occupational safety, and union membership across China's workforce.",
+    "zh": "中华全国总工会（全总）是中国唯一的全国性工会联合组织，代表全国各行各业逾3亿工会会员。作为全球规模最大的工会组织，全总发布有关劳动关系、工人权益、集体协商、工资水平、劳动安全及全国工会会员情况的年度报告、调查数据和统计资料。"
+  },
+  "website": "https://www.acftu.org",
+  "data_url": "https://www.acftu.org",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "labor",
+    "social",
+    "employment",
+    "economics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "工会",
+    "trade-union",
+    "labor",
+    "劳动关系",
+    "labor-relations",
+    "工资",
+    "wages",
+    "集体协商",
+    "collective-bargaining",
+    "劳动安全",
+    "occupational-safety",
+    "工会会员",
+    "union-membership",
+    "职工",
+    "workers",
+    "全总",
+    "ACFTU",
+    "china-labor"
+  ],
+  "data_content": {
+    "en": [
+      "Union membership statistics: total union members by province, industry, and enterprise type",
+      "Labor relations: collective contract coverage rates, labor dispute arbitration data",
+      "Wage and income: average wages by industry, minimum wage standards across regions",
+      "Occupational safety: workplace accident statistics, occupational disease data",
+      "Workers' rights: labor inspection outcomes, rights protection cases",
+      "Trade union organization: number of primary-level trade unions, union establishment rates",
+      "Annual survey on workers' living conditions and job satisfaction",
+      "Reports on new forms of employment and platform economy workers"
+    ],
+    "zh": [
+      "工会会员统计：按省份、行业和企业类型分类的工会会员总数",
+      "劳动关系：集体合同覆盖率、劳动争议仲裁数据",
+      "工资与收入：各行业平均工资、各地区最低工资标准",
+      "劳动安全：工作场所事故统计、职业病数据",
+      "工人权益：劳动监察成果、权益保障案例",
+      "工会组织建设：基层工会数量、工会组建率",
+      "职工生活状况与工作满意度年度调查",
+      "新就业形态和平台经济从业者相关报告"
+    ]
+  }
+}

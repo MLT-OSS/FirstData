@@ -1,0 +1,74 @@
+{
+  "id": "china-fuzhou-stats",
+  "name": {
+    "en": "Fuzhou Bureau of Statistics",
+    "zh": "福州市统计局"
+  },
+  "description": {
+    "en": "The Fuzhou Bureau of Statistics is the official statistical authority for Fuzhou, the capital of Fujian Province on China's southeastern coast. Fuzhou is a key digital economy hub, major port city, and center of cross-strait economic cooperation with Taiwan. The bureau publishes comprehensive socioeconomic data including GDP, industrial output, digital economy indicators, investment, consumption, employment, and population, and releases the Fuzhou Statistical Yearbook and regular economic bulletins.",
+    "zh": "福州市统计局是福州市官方统计机构，福州是福建省省会，位于中国东南沿海。福州是重要的数字经济中心、主要港口城市，也是两岸经济合作的重要枢纽。统计局发布涵盖GDP、工业产值、数字经济指标、投资、消费、就业和人口等全面的社会经济数据，出版《福州统计年鉴》及定期经济运行报告。"
+  },
+  "website": "https://tjj.fuzhou.gov.cn",
+  "data_url": "https://tjj.fuzhou.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "economics",
+    "statistics",
+    "industry",
+    "social"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "monthly",
+  "tags": [
+    "福州统计",
+    "Fuzhou statistics",
+    "福州GDP",
+    "Fuzhou GDP",
+    "福建经济",
+    "Fujian economy",
+    "福州统计年鉴",
+    "Fuzhou Statistical Yearbook",
+    "数字经济",
+    "digital economy",
+    "海上丝绸之路",
+    "Maritime Silk Road",
+    "两岸经济合作",
+    "cross-strait economic cooperation",
+    "自贸区",
+    "free trade zone",
+    "港口",
+    "port",
+    "海洋经济",
+    "marine economy",
+    "21世纪海上丝绸之路",
+    "21st century maritime silk road"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and economic growth: quarterly and annual GDP data by industry sector for Fuzhou",
+      "Digital economy indicators: software and information technology services, digital industry output",
+      "Port and trade: cargo throughput, container volumes, cross-strait trade statistics",
+      "Industrial production: output from electronics, machinery, and advanced manufacturing sectors",
+      "Fixed asset investment: total investment by industry, infrastructure, and real estate development",
+      "Retail and consumption: total retail sales of consumer goods, consumer price index",
+      "Employment and wages: employed persons by sector, urban unemployment rate, average wages",
+      "Population: resident population, household registration data, urbanization rate",
+      "Foreign investment: utilized FDI, cross-strait investment flows",
+      "Fuzhou Statistical Yearbook: comprehensive annual compilation of municipal statistics"
+    ],
+    "zh": [
+      "GDP与经济增长：福州市按产业分类的季度和年度GDP数据",
+      "数字经济指标：软件和信息技术服务业、数字产业产值",
+      "港口与贸易：货物吞吐量、集装箱量、两岸贸易统计",
+      "工业生产：电子、机械和先进制造业产值",
+      "固定资产投资：按行业分类的总投资额、基础设施和房地产开发",
+      "消费与零售：社会消费品零售总额、居民消费价格指数",
+      "就业与工资：分行业从业人员数、城镇登记失业率、平均工资",
+      "人口：常住人口、户籍人口数据、城镇化率",
+      "外资利用：实际利用外商直接投资、两岸投资流向",
+      "福州统计年鉴：全市各类统计数据综合年度汇编"
+    ]
+  }
+}

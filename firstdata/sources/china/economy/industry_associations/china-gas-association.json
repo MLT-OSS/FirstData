@@ -1,0 +1,69 @@
+{
+  "id": "china-gas-association",
+  "name": {
+    "en": "China Gas Association",
+    "zh": "中国燃气协会"
+  },
+  "description": {
+    "en": "The China Gas Association (CGA) is the national industry organization representing China's gas sector, including natural gas, liquefied petroleum gas (LPG), and liquefied natural gas (LNG) distribution enterprises. It publishes industry statistics, market reports, safety data, and policy research covering gas consumption, urban gas infrastructure, pipeline networks, gas supply enterprises, and end-user distribution across China. Its data are key references for energy planning, market analysis, and regulatory policy in the gas sector.",
+    "zh": "中国燃气协会是代表中国燃气行业的全国性行业组织，成员涵盖天然气、液化石油气（LPG）和液化天然气（LNG）配送企业。协会发布行业统计、市场报告、安全数据和政策研究，内容涉及全国燃气消费量、城市燃气基础设施、管道网络、燃气供应企业和终端用户配送情况，是燃气行业能源规划、市场分析和监管政策的重要数据参考。"
+  },
+  "website": "https://www.chinagas.org.cn",
+  "data_url": "https://www.chinagas.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "domains": [
+    "energy",
+    "industry",
+    "infrastructure"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "燃气",
+    "natural gas",
+    "gas industry",
+    "天然气",
+    "液化石油气",
+    "LPG",
+    "LNG",
+    "液化天然气",
+    "城市燃气",
+    "urban gas",
+    "管道燃气",
+    "pipeline gas",
+    "燃气消费",
+    "gas consumption",
+    "能源",
+    "energy",
+    "燃气安全",
+    "gas safety",
+    "燃气企业",
+    "gas enterprises",
+    "中国燃气协会",
+    "CGA"
+  ],
+  "data_content": {
+    "en": [
+      "Annual China Gas Industry Development Report: comprehensive industry statistics and trend analysis",
+      "Urban gas supply: number of gas users, pipeline network length, coverage rates by city and province",
+      "Gas consumption data: total consumption by end-use sector (residential, commercial, industrial, power generation)",
+      "LNG and LPG market: import volumes, spot prices, storage capacity statistics",
+      "Gas enterprise data: number of licensed operators, business scale, market concentration",
+      "Gas safety statistics: accident reports, inspection outcomes, safety compliance rates",
+      "Infrastructure investment: new pipeline construction, gas station development data",
+      "Policy and standards: industry standards, regulatory compliance updates"
+    ],
+    "zh": [
+      "中国燃气行业发展年度报告：全面的行业统计数据与趋势分析",
+      "城市燃气供应：分城市和省份的燃气用户数量、管道长度、覆盖率",
+      "燃气消费数据：按终端用途（居民、商业、工业、发电）分类的总消费量",
+      "LNG和LPG市场：进口量、现货价格、储气能力统计",
+      "燃气企业数据：持证运营商数量、经营规模、市场集中度",
+      "燃气安全统计：事故报告、检查结果、安全合规率",
+      "基础设施投资：新建管道、加气站发展数据",
+      "政策与标准：行业标准、监管合规动态"
+    ]
+  }
+}
