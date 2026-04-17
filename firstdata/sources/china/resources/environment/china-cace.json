@@ -1,0 +1,73 @@
+{
+  "id": "china-cace",
+  "name": {
+    "en": "China Association of Circular Economy",
+    "zh": "中国循环经济协会"
+  },
+  "description": {
+    "en": "The China Association of Circular Economy (CACE) is a national industry organization approved by the Ministry of Civil Affairs, evolved from the former China Resources Comprehensive Utilization Association. It represents China's circular economy sector, encompassing recycling, waste resource utilization, urban mining, and low-carbon industrial transformation. CACE publishes annual development reports on circular economy, including data on resource recycling volumes, waste utilization rates, urban mining output, industrial symbiosis, and policy implementation progress. It also releases thematic reports on specific sectors such as waste textiles, electronic waste, and renewable resources. As China pursues carbon neutrality by 2060, CACE's data is essential for tracking progress in circular economy transitions, green manufacturing, and resource efficiency across China's industrial landscape.",
+    "zh": "中国循环经济协会是经民政部批准，由原中国资源综合利用协会更名成立的全国性社团组织，代表中国循环经济行业，涵盖再生资源利用、废物资源化、城市矿产和低碳产业转型等领域。协会发布循环经济年度发展报告，包括再生资源回收量、废物利用率、城市矿产产量、产业共生及政策落实进展等数据，同时发布废旧纺织品、电子废物、再生资源等专题报告。在中国实现2060年碳中和目标的进程中，中国循环经济协会的数据是追踪循环经济转型、绿色制造和工业资源效率进展的重要依据。"
+  },
+  "website": "https://www.chinacace.org/",
+  "data_url": "https://www.chinacace.org/patents/cycle_economy_report/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "industry",
+    "economics",
+    "energy"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "循环经济",
+    "circular economy",
+    "再生资源",
+    "renewable resources",
+    "废物利用",
+    "waste utilization",
+    "城市矿产",
+    "urban mining",
+    "碳中和",
+    "carbon neutrality",
+    "绿色制造",
+    "green manufacturing",
+    "资源回收",
+    "resource recycling",
+    "废旧纺织品",
+    "waste textiles",
+    "电子废物",
+    "e-waste",
+    "产业共生",
+    "industrial symbiosis",
+    "CACE",
+    "资源综合利用",
+    "comprehensive resource utilization",
+    "低碳",
+    "low carbon"
+  ],
+  "data_content": {
+    "en": [
+      "China Circular Economy Development Report: annual assessment of national circular economy progress, policy implementation, and key performance indicators",
+      "Resource recycling volumes: statistics on collection and processing of scrap metals, waste paper, plastics, glass, and rubber",
+      "Urban mining output: secondary resource recovery from electronic waste, end-of-life vehicles, and construction demolition",
+      "Waste textile utilization: production, collection, and reuse rates for waste clothing and fiber materials",
+      "Industrial symbiosis data: resource exchange and waste heat utilization within industrial parks",
+      "Circular economy enterprise directory: registered companies engaged in recycling and resource recovery businesses",
+      "Policy tracking reports: implementation of national circular economy promotion laws and five-year plan targets",
+      "Carbon reduction contributions: estimated emissions reductions attributable to circular economy activities"
+    ],
+    "zh": [
+      "中国循环经济发展报告：循环经济国家进展年度评估、政策落实情况及关键绩效指标",
+      "再生资源回收量：废金属、废纸、废塑料、废玻璃和废橡胶的回收和加工统计数据",
+      "城市矿产产量：来自电子废物、报废汽车和建筑拆除的再生资源回收情况",
+      "废旧纺织品利用：废旧服装和纤维材料的产量、回收量和再利用率",
+      "产业共生数据：工业园区内的资源交换和余热利用情况",
+      "循环经济企业名录：从事再生资源回收利用业务的注册企业信息",
+      "政策追踪报告：国家循环经济促进法及五年规划目标的落实进展",
+      "碳减排贡献：循环经济活动带来的温室气体减排量估算"
+    ]
+  }
+}

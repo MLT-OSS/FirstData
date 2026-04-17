@@ -1,0 +1,76 @@
+{
+  "id": "china-crta",
+  "name": {
+    "en": "China Road Transport Association",
+    "zh": "中国道路运输协会"
+  },
+  "description": {
+    "en": "The China Road Transport Association (CRTA) is the national industry organization representing China's road transport sector, including passenger transport, freight logistics, bus and coach services, and road-based supply chain businesses. China operates the world's largest road transport network by volume, and CRTA serves as the authoritative voice for the industry's 30 million-plus practitioners. The association publishes statistical reports on road passenger and freight volumes, vehicle fleet composition, fuel consumption, road safety data, new energy vehicle adoption in transport fleets, and industry revenue. CRTA also tracks emerging trends in logistics digitization, platform economy in transport, and cross-border freight. Its data is essential for supply chain analysts, logistics operators, transport policy researchers, and investors tracking China's vast land-based transport economy.",
+    "zh": "中国道路运输协会（CRTA）是代表中国道路运输行业的全国性行业组织，涵盖旅客运输、货运物流、公路客车及公路供应链等业务。中国拥有全球运量最大的道路运输网络，中国道路运输协会是代表行业3000万余名从业人员的权威机构。协会发布公路客货运量、车辆结构、燃料消耗、道路安全、运输车队新能源汽车普及率及行业营收等统计报告，同时追踪物流数字化、平台经济在运输领域的发展及跨境货运新趋势。其数据对于供应链分析师、物流运营商、交通政策研究人员以及追踪中国陆路运输经济的投资者具有重要参考价值。"
+  },
+  "website": "https://www.crta.org.cn/",
+  "data_url": "https://www.crta.org.cn/news.html?id=42",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "logistics",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "道路运输",
+    "road transport",
+    "货运",
+    "freight transport",
+    "旅客运输",
+    "passenger transport",
+    "物流",
+    "logistics",
+    "运输统计",
+    "transport statistics",
+    "新能源商用车",
+    "new energy commercial vehicles",
+    "公路货运量",
+    "road freight volume",
+    "供应链",
+    "supply chain",
+    "跨境货运",
+    "cross-border freight",
+    "CRTA",
+    "运输平台",
+    "transport platform",
+    "货车",
+    "trucks",
+    "道路安全",
+    "road safety"
+  ],
+  "data_content": {
+    "en": [
+      "Road freight volume: total road freight tonnage and ton-kilometer data at national and regional levels",
+      "Road passenger transport: passenger trips and passenger-kilometer data by service type",
+      "Vehicle fleet statistics: registered commercial vehicle counts by category (trucks, buses, coaches, taxis)",
+      "New energy vehicle adoption: penetration rate of electric and alternative fuel vehicles in road transport fleets",
+      "Industry revenue and operators: total business revenue and count of road transport enterprises",
+      "Fuel consumption and energy: diesel and gasoline consumption by road transport sector",
+      "Road safety data: traffic accident rates, fatalities, and injury statistics for commercial transport",
+      "Cross-border freight: China-Europe land freight volumes, China-ASEAN road cargo data",
+      "Logistics platform economy: data on digital freight matching platforms and transport sharing economy",
+      "Annual industry development report: comprehensive overview of China road transport sector trends and outlook"
+    ],
+    "zh": [
+      "公路货运量：全国及分地区公路货运总量和货物周转量（吨公里）数据",
+      "公路旅客运输：按服务类型分类的旅客出行次数和旅客周转量数据",
+      "车辆结构统计：按类型（货车、公共汽车、长途客车、出租车）统计的营运车辆注册数量",
+      "新能源汽车普及：电动及替代燃料车辆在道路运输车队中的渗透率",
+      "行业营收与经营者：道路运输企业总营业收入和数量",
+      "燃料消耗与能源：道路运输行业柴油和汽油消耗量",
+      "道路安全数据：营运交通的交通事故率、死亡人数和伤亡统计",
+      "跨境货运：中欧陆路货运量、中国—东盟公路货运数据",
+      "物流平台经济：数字货运匹配平台和运输共享经济数据",
+      "年度行业发展报告：中国道路运输行业趋势与展望综合报告"
+    ]
+  }
+}
