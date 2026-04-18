@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T02:21:13.283432+00:00",
-    "total_sources": 479,
+    "generated_at": "2026-04-18T06:22:53.197950+00:00",
+    "total_sources": 484,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -11700,6 +11700,83 @@
       "file_path": "china/governance/sports/china-gas.json"
     },
     {
+      "id": "china-cams",
+      "name": {
+        "en": "Chinese Academy of Medical Sciences (CAMS)",
+        "zh": "中国医学科学院"
+      },
+      "description": {
+        "en": "The Chinese Academy of Medical Sciences (CAMS), together with its affiliated Peking Union Medical College (PUMC), is China's premier national medical research institution, established in 1956 and headquartered in Beijing. CAMS oversees 18 research institutes, 6 hospitals, and multiple national key laboratories covering clinical medicine, basic medical research, biomedical engineering, pharmacology, oncology, and infectious disease. As a national-level authority, CAMS produces authoritative data on medical research outputs, drug development pipelines, disease burden studies, clinical trial registrations, genomic research, and population health surveys. CAMS hosts the Chinese Health Statistics Yearbook data and major disease surveillance programs, providing essential datasets for public health policy, pharmaceutical research, and clinical practice.",
+        "zh": "中国医学科学院（CAMS）是中国最高医学研究机构，与北京协和医学院实行院校合一管理体制，成立于1956年，总部位于北京。中国医学科学院下设18个研究所、6所附属医院和多个国家重点实验室，覆盖临床医学、基础医学、生物医学工程、药理学、肿瘤学和传染病学等领域。作为国家级机构，中国医学科学院产出权威的医学研究成果数据、药物研发管线、疾病负担研究、临床试验注册、基因组研究及人群健康调查数据。院校还承担《中国卫生统计年鉴》数据汇编及重要疾病监测项目，为公共卫生政策、医药研究和临床实践提供核心数据集。"
+      },
+      "website": "https://www.cams.cn",
+      "data_url": "https://www.cams.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "research",
+        "pharmaceuticals"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国医学科学院",
+        "CAMS",
+        "协和医学院",
+        "PUMC",
+        "医学研究",
+        "medical research",
+        "药物研发",
+        "drug development",
+        "临床试验",
+        "clinical trials",
+        "肿瘤学",
+        "oncology",
+        "传染病",
+        "infectious disease",
+        "基因组学",
+        "genomics",
+        "公共卫生",
+        "public health",
+        "疾病监测",
+        "disease surveillance",
+        "国家重点实验室",
+        "national key laboratory",
+        "医学数据",
+        "medical data"
+      ],
+      "data_content": {
+        "en": [
+          "Medical research publications and datasets from 18 research institutes covering all major biomedical fields",
+          "Oncology data: cancer incidence, mortality, survival rates from affiliated cancer hospitals and national tumor registries",
+          "Infectious disease research: epidemiological data, pathogen surveillance, vaccine efficacy studies",
+          "Drug development pipeline: clinical trial registration data, pharmacological research, drug safety monitoring",
+          "Genomic and proteomics research data from national platforms affiliated with CAMS",
+          "Population health surveys: chronic disease prevalence, risk factor surveillance, health behavior studies",
+          "Medical device and biomedical engineering research data",
+          "Disease burden studies: DALYs, mortality statistics, disability-adjusted life year analyses",
+          "Health technology assessment reports supporting national essential medicine list updates",
+          "Chinese Pharmacopoeia data and quality standards for pharmaceuticals"
+        ],
+        "zh": [
+          "18个研究所涵盖所有主要生物医学领域的科研成果和数据集",
+          "肿瘤数据：来自附属肿瘤医院和全国肿瘤登记处的癌症发病率、死亡率和生存率",
+          "传染病研究：流行病学数据、病原体监测、疫苗效力研究",
+          "药物研发管线：临床试验注册数据、药理学研究、药物安全监测",
+          "与中国医学科学院相关联的国家平台的基因组和蛋白质组研究数据",
+          "人群健康调查：慢性病患病率、危险因素监测、健康行为研究",
+          "医疗器械和生物医学工程研究数据",
+          "疾病负担研究：伤残调整寿命年分析、死亡率统计",
+          "支持国家基本药物目录更新的卫生技术评估报告",
+          "《中华人民共和国药典》数据及药品质量标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cams.json"
+    },
+    {
       "id": "china-class",
       "name": {
         "en": "China Longitudinal Aging Social Survey (CLASS)",
@@ -12340,6 +12417,84 @@
       },
       "has_api": false,
       "file_path": "china/health/china-nmpa.json"
+    },
+    {
+      "id": "china-camet",
+      "name": {
+        "en": "China Association of Metros (CAMET)",
+        "zh": "中国城市轨道交通协会"
+      },
+      "description": {
+        "en": "The China Association of Metros (CAMET) is the national industry association for urban rail transit in China, established in 2000 and headquartered in Beijing. CAMET represents subway, light rail, monorail, and automated guideway transit operators across all major Chinese cities. The association publishes the authoritative annual Urban Rail Transit Statistical Report, which is the primary national data source for the industry, covering total network mileage, number of lines, passenger volumes, operating revenues, investment, and ridership trends across China's urban rail systems. As of 2023, China operates the world's largest urban rail network with over 10,000 kilometers of routes across 55 cities. CAMET data are essential for urban transport planning, smart city investment analysis, and benchmarking China's transit expansion against global peers.",
+        "zh": "中国城市轨道交通协会（CAMET）是全国性城市轨道交通行业协会，2000年在北京成立，代表全国各大城市的地铁、轻轨、单轨和自动导轨交通运营商。协会每年发布权威的《城市轨道交通统计和分析报告》，是该行业最主要的全国数据来源，涵盖全国城市轨道交通总里程、线路数量、客运量、运营收入、投资规模和客流趋势等数据。截至2023年，中国已运营全球最大规模的城市轨道交通网络，在55个城市运营总里程超过1万公里。CAMET数据是城市交通规划、智慧城市投资分析及与全球同行进行基准比较的重要参考。"
+      },
+      "website": "https://www.camet.org.cn",
+      "data_url": "https://www.camet.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "infrastructure",
+        "transportation",
+        "urban",
+        "statistics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国城市轨道交通协会",
+        "CAMET",
+        "地铁",
+        "metro",
+        "城市轨道交通",
+        "urban rail transit",
+        "轻轨",
+        "light rail",
+        "客运量",
+        "passenger volume",
+        "运营里程",
+        "operating mileage",
+        "地铁统计",
+        "metro statistics",
+        "城市交通",
+        "urban transportation",
+        "轨道交通投资",
+        "rail transit investment",
+        "智慧交通",
+        "smart transportation",
+        "城市建设",
+        "urban construction",
+        "公共交通",
+        "public transit"
+      ],
+      "data_content": {
+        "en": [
+          "Annual urban rail transit statistical report: comprehensive industry-wide data published each year for all operating cities",
+          "Network scale: total route mileage, number of lines, number of stations by city and nationwide aggregate",
+          "Passenger volume: annual and monthly ridership, passenger-kilometers, peak-hour loads by city and system",
+          "Operating revenues: fare revenue, ancillary income, operating costs, and subsidy data for urban rail operators",
+          "Infrastructure investment: annual capital expenditure on new lines, extensions, and renovation projects",
+          "Fleet and equipment: number of vehicles, train composition, average train age, and energy consumption",
+          "Line-by-line statistics: mileage, station count, daily ridership, and opening year for each urban rail line in China",
+          "City-level comparison: cross-city benchmarking of network size, efficiency, and ridership density",
+          "Expansion plans: data on under-construction mileage and approved future projects by city",
+          "Safety and punctuality: key performance indicators including on-time rate and incident statistics"
+        ],
+        "zh": [
+          "年度城市轨道交通统计分析报告：每年发布，涵盖所有运营城市的全行业数据",
+          "网络规模：按城市和全国汇总的总运营里程、线路数量和车站数量",
+          "客运量：各城市和系统的年度及月度客运量、旅客周转量和高峰小时负荷",
+          "运营收入：城市轨道交通运营商的票务收入、附属收入、运营成本和补贴数据",
+          "基础设施投资：新线、延伸线和改造项目的年度资本支出",
+          "车辆装备：车辆数量、列车编组、平均车龄和能耗数据",
+          "分线统计：中国每条城市轨道交通线路的里程、车站数、日均客流和开通年份",
+          "城市横向比较：各城市网络规模、运营效率和客流密度的跨城市基准分析",
+          "建设规划：各城市在建里程和已批未建项目数据",
+          "安全与准点率：准点率和事故统计等关键绩效指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-camet.json"
     },
     {
       "id": "china-cata",
@@ -14245,6 +14400,56 @@
       "file_path": "china/research/china-gscloud.json"
     },
     {
+      "id": "china-igsnrr",
+      "name": {
+        "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+        "zh": "中国科学院地理科学与资源研究所"
+      },
+      "description": {
+        "en": "The Institute of Geographic Sciences and Natural Resources Research (IGSNRR) is a leading research institution under the Chinese Academy of Sciences, focusing on geography, natural resources, and ecosystem studies. It provides open datasets on land use, remote sensing, population distribution, and natural resource assessments across China.",
+        "zh": "中国科学院地理科学与资源研究所（地理资源所）是中国科学院下属的重要研究机构，专注于地理学、自然资源和生态系统研究。研究所提供土地利用、遥感、人口分布和自然资源评估等领域的开放数据集。"
+      },
+      "data_content": {
+        "en": [
+          "land use and land cover data",
+          "remote sensing datasets",
+          "population distribution data",
+          "natural resource assessments",
+          "ecosystem observation data",
+          "geographic information datasets"
+        ],
+        "zh": [
+          "土地利用与地表覆盖数据",
+          "遥感数据集",
+          "人口分布数据",
+          "自然资源评估",
+          "生态系统观测数据",
+          "地理信息数据集"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "http://www.igsnrr.ac.cn",
+      "data_url": "http://www.igsnrr.ac.cn",
+      "domains": [
+        "geography",
+        "environment",
+        "remote-sensing"
+      ],
+      "tags": [
+        "geography",
+        "natural-resources",
+        "land-use",
+        "remote-sensing",
+        "ecosystem",
+        "chinese-academy-of-sciences"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-igsnrr.json"
+    },
+    {
       "id": "china-istic",
       "name": {
         "en": "Institute of Scientific and Technical Information of China",
@@ -14878,6 +15083,88 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-ceads.json"
+    },
+    {
+      "id": "china-cern",
+      "name": {
+        "en": "Chinese Ecosystem Research Network (CERN)",
+        "zh": "中国生态系统研究网络"
+      },
+      "description": {
+        "en": "The Chinese Ecosystem Research Network (CERN) is a national ecosystem monitoring and research network operated by the Chinese Academy of Sciences. Established in 1988, CERN comprises over 40 ecosystem research stations distributed across China's major biomes including forests, grasslands, wetlands, croplands, deserts, and coastal ecosystems. Each station conducts systematic, long-term monitoring of soil, water, atmosphere, and biodiversity, following standardized protocols for cross-site comparability. CERN data are accessible through its dedicated data sharing platform, providing researchers with decades of ecosystem dynamics records. The network is China's primary source for integrated terrestrial ecosystem observation data, supporting national carbon sink assessments, biodiversity conservation planning, land degradation monitoring, and responses to climate change. CERN collaborates with global networks including ILTER (International Long-Term Ecological Research) and FLUXNET.",
+        "zh": "中国生态系统研究网络（CERN）是由中国科学院主管的国家生态系统监测与研究网络，成立于1988年，由分布于中国各主要生态系统类型（包括森林、草地、湿地、农田、荒漠和海岸带）的40余个生态系统研究站组成。各站点按照统一规范对土壤、水体、大气和生物多样性进行系统性长期监测，确保跨站点数据的可比性。CERN通过专属数据共享平台开放数据，为研究人员提供数十年的生态系统动态记录。CERN是中国陆地生态系统综合观测数据的主要来源，支持国家碳汇评估、生物多样性保护规划、土地退化监测和气候变化响应研究。CERN参与国际长期生态研究（ILTER）和FLUXNET等全球监测网络合作。"
+      },
+      "website": "https://cern.ac.cn",
+      "data_url": "https://cern.ac.cn/0index/index.asp",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "ecology",
+        "biodiversity",
+        "climate"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国生态系统研究网络",
+        "CERN",
+        "生态监测",
+        "ecosystem monitoring",
+        "长期生态研究",
+        "long-term ecological research",
+        "土壤数据",
+        "soil data",
+        "碳通量",
+        "carbon flux",
+        "生物多样性",
+        "biodiversity",
+        "草地生态",
+        "grassland ecology",
+        "森林生态",
+        "forest ecology",
+        "湿地",
+        "wetland",
+        "荒漠化",
+        "desertification",
+        "气候变化",
+        "climate change",
+        "ILTER",
+        "FLUXNET",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "碳汇",
+        "carbon sink"
+      ],
+      "data_content": {
+        "en": [
+          "Soil monitoring data: soil organic carbon, nitrogen, phosphorus, bulk density, moisture, and texture from 40+ stations",
+          "Water quality and hydrology: streamflow, groundwater level, water chemistry, precipitation chemistry at each station",
+          "Atmosphere: precipitation amount and chemistry, air temperature, humidity, wind speed, net radiation, CO2 concentration",
+          "Biological community data: plant biomass, species diversity, phenology, leaf area index across major biome types",
+          "Carbon and energy flux: eddy covariance measurements of carbon, water, and energy exchange between ecosystems and atmosphere",
+          "Land use and vegetation change: long-term time series of vegetation structure and land cover at station sites",
+          "Desert and dryland ecosystem data: wind erosion, sand transport, soil crusting processes from arid zone stations",
+          "Cropland ecosystem data: crop yield, nutrient cycling, irrigation water use, soil health from agricultural stations",
+          "Coastal and marine ecosystem data: coastal erosion, mangrove, and seagrass dynamics from coastal stations",
+          "Synthesis datasets: integrated multi-station trend analyses for China's national ecosystem assessments"
+        ],
+        "zh": [
+          "土壤监测数据：40余个站点的土壤有机碳、氮、磷、容重、水分和质地",
+          "水质与水文：各站点的径流量、地下水位、水体化学成分和降水化学",
+          "大气数据：降水量及化学组成、气温、湿度、风速、净辐射、CO2浓度",
+          "生物群落数据：主要生态系统类型的植物生物量、物种多样性、物候和叶面积指数",
+          "碳与能量通量：生态系统与大气之间碳、水和能量交换的涡度协方差测量",
+          "土地利用与植被变化：站点尺度的植被结构和土地覆盖长期时间序列",
+          "荒漠及旱地生态系统数据：来自干旱区站点的风蚀、沙尘输运和土壤结皮过程",
+          "农田生态系统数据：来自农业站点的作物产量、养分循环、灌溉用水和土壤健康",
+          "海岸带与海洋生态系统数据：来自海岸站点的海岸侵蚀、红树林和海草动态",
+          "综合数据集：面向全国生态系统评估的多站点综合趋势分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-cern.json"
     },
     {
       "id": "china-cnemc",
@@ -17269,6 +17556,84 @@
       },
       "has_api": false,
       "file_path": "china/technology/sci_resources/china-most-rnd.json"
+    },
+    {
+      "id": "china-naoc",
+      "name": {
+        "en": "National Astronomical Observatories of China (NAOC)",
+        "zh": "中国科学院国家天文台"
+      },
+      "description": {
+        "en": "The National Astronomical Observatories of China (NAOC), under the Chinese Academy of Sciences (CAS), is China's leading astronomical research institution. Founded in 2001 by merging four CAS observatories, NAOC operates major facilities including FAST (the world's largest single-dish radio telescope), the Guoshoujing Telescope (LAMOST) — the world's largest optical survey telescope — and the Beijing Spectral Telescope. Through its affiliated National Astronomical Data Center (NADC), NAOC provides open access to vast astronomy datasets including the LAMOST stellar spectral survey (over 20 million spectra), FAST pulsar and fast radio burst observations, sky survey catalogs, solar observation data, and space science mission data. The NADC is China's primary open astronomy data platform, facilitating reproducible research and international collaboration.",
+        "zh": "中国科学院国家天文台（NAOC）是中国主要的天文研究机构，隶属于中国科学院。国家天文台于2001年由中科院四个天文台整合成立，主要运行设施包括FAST（全球最大单口径射电望远镜）、郭守敬望远镜（LAMOST，全球最大光学巡天望远镜）和北京天体物理观测站。通过下属的国家天文科学数据中心（NADC），国家天文台对外开放天文数据集，包括LAMOST恒星光谱巡天（超2000万条光谱）、FAST脉冲星和快速射电暴观测数据、巡天星表、太阳观测数据及空间科学任务数据。NADC是中国最主要的开放天文数据平台，促进可重复研究和国际合作。"
+      },
+      "website": "http://www.nao.cas.cn",
+      "data_url": "https://nadc.china-vo.org",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "science",
+        "astronomy",
+        "space"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家天文台",
+        "NAOC",
+        "FAST",
+        "LAMOST",
+        "郭守敬望远镜",
+        "天文数据",
+        "astronomy data",
+        "恒星光谱",
+        "stellar spectra",
+        "射电天文",
+        "radio astronomy",
+        "脉冲星",
+        "pulsar",
+        "快速射电暴",
+        "fast radio burst",
+        "巡天星表",
+        "sky survey catalog",
+        "太阳观测",
+        "solar observation",
+        "国家天文科学数据中心",
+        "NADC",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "开放天文数据",
+        "open astronomy data"
+      ],
+      "data_content": {
+        "en": [
+          "LAMOST spectral survey: over 20 million stellar spectra from the Guoshoujing Telescope, accessible via NADC",
+          "FAST observatory data: pulsar timing, fast radio burst (FRB) detections, neutral hydrogen (HI) surveys",
+          "Sky survey catalogs: photometric and astrometric catalogs from multiple all-sky and deep-field surveys",
+          "Solar observation data: solar activity, sunspot records, solar radio bursts from Huairou Solar Observing Station",
+          "Variable star and transient event catalogs from NAOC monitoring programs",
+          "Space mission science data: planetary science and lunar exploration mission data products",
+          "High-energy astrophysics data: X-ray and gamma-ray source catalogs contributed to international archives",
+          "Historical astronomical records: digitized ancient Chinese star catalogs and eclipse records",
+          "Virtual observatory (VO) compliant data services through the China-VO platform",
+          "NADC open data archive: multi-wavelength datasets for reproducible astronomical research"
+        ],
+        "zh": [
+          "LAMOST光谱巡天：郭守敬望远镜超2000万条恒星光谱，通过NADC开放获取",
+          "FAST天文台数据：脉冲星计时、快速射电暴（FRB）探测、中性氢（HI）巡天",
+          "巡天星表：来自多项全天和深场巡天项目的测光和天体测量星表",
+          "太阳观测数据：来自怀柔太阳观测基地的太阳活动、黑子记录和太阳射电爆发数据",
+          "国家天文台监测项目的变星和暂现天体星表",
+          "空间任务科学数据：行星科学和探月任务数据产品",
+          "高能天体物理数据：贡献至国际档案的X射线和伽马射线源星表",
+          "历史天文记录：中国古代星表和日食记录的数字化资料",
+          "通过中国-VO平台提供的虚拟天文台（VO）标准数据服务",
+          "NADC开放数据档案：支持天文学可重复研究的多波段数据集"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/sci_resources/china-naoc.json"
     },
     {
       "id": "china-cnis",

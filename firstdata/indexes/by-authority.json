@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T02:21:13.283432+00:00",
-    "total_sources": 479,
+    "generated_at": "2026-04-18T06:22:53.197950+00:00",
+    "total_sources": 484,
     "authority_counts": {
-      "research": 56,
+      "research": 60,
       "international": 74,
       "government": 269,
-      "other": 37,
+      "other": 38,
       "market": 27,
       "commercial": 16
     },
@@ -208,6 +208,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "china-cams",
+        "name": {
+          "en": "Chinese Academy of Medical Sciences (CAMS)",
+          "zh": "中国医学科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cams.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cams.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-class",
         "name": {
           "en": "China Longitudinal Aging Social Survey (CLASS)",
@@ -376,6 +388,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-igsnrr",
+        "name": {
+          "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+          "zh": "中国科学院地理科学与资源研究所"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.igsnrr.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-igsnrr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-istic",
         "name": {
           "en": "Institute of Scientific and Technical Information of China",
@@ -436,6 +460,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cern",
+        "name": {
+          "en": "Chinese Ecosystem Research Network (CERN)",
+          "zh": "中国生态系统研究网络"
+        },
+        "authority_level": "research",
+        "data_url": "https://cern.ac.cn/0index/index.asp",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cern.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-caai",
         "name": {
           "en": "Chinese Association for Artificial Intelligence",
@@ -469,6 +505,18 @@
         "data_url": "https://www.csee.org.cn/",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-csee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-naoc",
+        "name": {
+          "en": "National Astronomical Observatories of China (NAOC)",
+          "zh": "中国科学院国家天文台"
+        },
+        "authority_level": "research",
+        "data_url": "https://nadc.china-vo.org",
+        "has_api": false,
+        "file_path": "china/technology/sci_resources/china-naoc.json",
         "geographic_scope": "national"
       },
       {
@@ -5115,6 +5163,18 @@
         "data_url": "https://www.acla.org.cn/acla/tjxx/",
         "has_api": false,
         "file_path": "china/governance/china-acla.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-camet",
+        "name": {
+          "en": "China Association of Metros (CAMET)",
+          "zh": "中国城市轨道交通协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.camet.org.cn",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-camet.json",
         "geographic_scope": "national"
       },
       {
