@@ -1,0 +1,78 @@
+{
+  "id": "china-cgss",
+  "name": {
+    "en": "Chinese General Social Survey (CGSS)",
+    "zh": "中国综合社会调查（CGSS）"
+  },
+  "description": {
+    "en": "The Chinese General Social Survey (CGSS) is China's first nationally representative, continuous academic social survey, conducted annually by the National Survey Research Center at Renmin University of China (NSRC@RUC). Launched in 2003, CGSS collects data from over 10,000 households across urban and rural China on demographic characteristics, economic behavior, social attitudes, education, employment, health, political participation, family structure, and values. The survey is freely available to registered academic researchers and is widely cited in Chinese social science research.",
+    "zh": "中国综合社会调查（CGSS）是中国第一个全国性、综合性、连续性学术调查项目，由中国人民大学中国调查与数据中心（NSRC@RUC）负责执行。CGSS自2003年起每年对全国城乡1万余户家庭开展调查，收集人口特征、经济行为、社会态度、教育就业、健康状况、政治参与、家庭结构和价值观念等数据，是中国社会科学研究中被引用最广泛的数据集之一，向注册学术用户免费开放。"
+  },
+  "website": "http://cgss.ruc.edu.cn/",
+  "data_url": "http://cgss.ruc.edu.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "social",
+    "demographics",
+    "economics",
+    "health",
+    "education"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "综合社会调查",
+    "CGSS",
+    "social survey",
+    "社会调查",
+    "人民大学",
+    "Renmin University",
+    "household survey",
+    "家庭调查",
+    "social attitudes",
+    "社会态度",
+    "education",
+    "教育",
+    "employment",
+    "就业",
+    "income",
+    "收入",
+    "social stratification",
+    "社会分层",
+    "political participation",
+    "政治参与",
+    "family structure",
+    "家庭结构",
+    "panel data",
+    "longitudinal",
+    "中国社会"
+  ],
+  "data_content": {
+    "en": [
+      "Demographic data: age, gender, ethnicity, marital status, household composition",
+      "Education: highest education level attained, educational history, school type",
+      "Employment: employment status, occupation, work unit type, income sources",
+      "Income and consumption: household income, expenditure, savings, assets",
+      "Health: self-rated health, chronic conditions, disability, healthcare utilization",
+      "Social attitudes: trust in institutions, subjective well-being, political attitudes, values",
+      "Religion and culture: religious beliefs, cultural practices, media consumption",
+      "Migration: residential history, rural-to-urban migration patterns",
+      "Social networks: social capital, community participation, voluntary associations",
+      "Annual survey waves from 2003 to present covering all provinces of China"
+    ],
+    "zh": [
+      "人口学数据：年龄、性别、民族、婚姻状况、家庭成员构成",
+      "教育：最高学历、教育经历、就读学校类型",
+      "就业：就业状况、职业类型、工作单位性质、收入来源",
+      "收入与消费：家庭收入、支出、储蓄、资产",
+      "健康：自评健康状况、慢性病、残疾、医疗服务利用",
+      "社会态度：对机构的信任、主观幸福感、政治态度、价值观念",
+      "宗教与文化：宗教信仰、文化习俗、媒体使用",
+      "人口流动：居住历史、农村人口城镇化迁移",
+      "社会网络：社会资本、社区参与、志愿组织",
+      "2003年至今各年度调查波次数据，覆盖全国各省份"
+    ]
+  }
+}

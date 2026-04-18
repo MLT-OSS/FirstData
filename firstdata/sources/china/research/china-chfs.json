@@ -1,0 +1,80 @@
+{
+  "id": "china-chfs",
+  "name": {
+    "en": "China Household Finance Survey (CHFS)",
+    "zh": "中国家庭金融调查（CHFS）"
+  },
+  "description": {
+    "en": "The China Household Finance Survey (CHFS) is a large-scale, nationally representative longitudinal survey conducted by the Survey and Research Center for China Household Finance at Southwestern University of Finance and Economics (SWUFE). Launched in 2011, CHFS covers approximately 40,000 households across 29 provinces and provides comprehensive data on household assets, liabilities, income, consumption, insurance, and financial behavior. CHFS is China's leading household finance dataset and is freely accessible to qualified academic researchers, widely used to analyze wealth distribution, financial inclusion, and housing market dynamics in China.",
+    "zh": "中国家庭金融调查（CHFS）是由西南财经大学中国家庭金融调查与研究中心负责执行的大规模全国性追踪调查，自2011年启动，覆盖全国29个省约40000户家庭，收集家庭资产、负债、收入、消费、保险和金融行为等综合数据。CHFS是中国最权威的家庭金融数据集，向合格的学术研究者免费开放，广泛用于研究中国财富分配、普惠金融和房地产市场动态。"
+  },
+  "website": "https://chfs.swufe.edu.cn",
+  "data_url": "https://chfs.swufe.edu.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "social",
+    "housing"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "家庭金融调查",
+    "CHFS",
+    "household finance",
+    "家庭金融",
+    "西南财经大学",
+    "SWUFE",
+    "household wealth",
+    "家庭财富",
+    "asset allocation",
+    "资产配置",
+    "housing",
+    "住房",
+    "real estate",
+    "房地产",
+    "income distribution",
+    "收入分配",
+    "wealth inequality",
+    "财富不平等",
+    "financial inclusion",
+    "普惠金融",
+    "insurance",
+    "保险",
+    "savings",
+    "储蓄",
+    "debt",
+    "负债",
+    "investment",
+    "投资"
+  ],
+  "data_content": {
+    "en": [
+      "Household assets: financial assets (stocks, bonds, deposits, funds), real estate, business assets, durable goods",
+      "Household liabilities: mortgage loans, consumer loans, business loans, informal borrowing",
+      "Income: wage income, business income, transfer income, investment returns by source",
+      "Consumption expenditure: food, education, healthcare, housing, and major categories",
+      "Financial behavior: stock market participation, insurance purchase, wealth management products",
+      "Housing: ownership status, purchase price, mortgage details, rental income",
+      "Social security and insurance: pension participation, medical insurance, commercial insurance coverage",
+      "Demographic characteristics: age, education, employment, household structure",
+      "Wealth distribution and Gini coefficient analysis at provincial and national level",
+      "Survey waves: 2011, 2013, 2015, 2017, 2019, 2021 covering 29 provinces"
+    ],
+    "zh": [
+      "家庭资产：金融资产（股票、债券、存款、基金）、房产、工商业资产、耐用品",
+      "家庭负债：住房贷款、消费贷款、工商业贷款、民间借贷",
+      "收入：工资性收入、工商业收入、转移性收入、投资性收入",
+      "消费支出：食品、教育、医疗、住房及主要类别消费",
+      "金融行为：股市参与、保险购买、理财产品投资",
+      "住房：拥有状况、购买价格、贷款详情、租金收入",
+      "社会保障与保险：养老金参保、医疗保险、商业保险覆盖情况",
+      "人口特征：年龄、教育程度、就业状况、家庭结构",
+      "省级和全国财富分布与基尼系数分析",
+      "调查波次：2011、2013、2015、2017、2019、2021年，覆盖29个省份"
+    ]
+  }
+}
