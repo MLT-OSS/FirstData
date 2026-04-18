@@ -1,0 +1,78 @@
+{
+  "id": "china-cfps",
+  "name": {
+    "en": "China Family Panel Studies (CFPS)",
+    "zh": "中国家庭追踪调查（CFPS）"
+  },
+  "description": {
+    "en": "The China Family Panel Studies (CFPS) is a nationally representative longitudinal survey of Chinese communities, families, and individuals, conducted biennially by the Institute of Social Science Survey (ISSS) at Peking University. Launched in 2010, CFPS tracks approximately 15,000 households across 25 provinces and collects multi-dimensional data on economic activities, education, health, and family dynamics. CFPS is one of China's most influential household panel surveys, freely accessible to registered academic users via Peking University's Open Research Data platform.",
+    "zh": "中国家庭追踪调查（CFPS）是由北京大学中国社会科学调查中心（ISSS）负责执行的全国性、综合性大型追踪调查，每两年开展一次，追踪约15000户家庭，涵盖全国25个省份。CFPS自2010年启动，收集经济活动、教育、健康和家庭动态等多维度数据，是中国最具影响力的家庭追踪调查之一，通过北京大学开放研究数据平台向注册学术用户免费开放。"
+  },
+  "website": "https://www.isss.pku.edu.cn/cfps/",
+  "data_url": "https://opendata.pku.edu.cn/dataverse/CFPS",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "social",
+    "economics",
+    "health",
+    "education",
+    "demographics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "家庭追踪调查",
+    "CFPS",
+    "panel study",
+    "追踪调查",
+    "北京大学",
+    "Peking University",
+    "household panel",
+    "家庭调查",
+    "longitudinal survey",
+    "education",
+    "教育",
+    "health",
+    "健康",
+    "income",
+    "收入",
+    "migration",
+    "人口流动",
+    "intergenerational",
+    "代际",
+    "family dynamics",
+    "家庭动态",
+    "child development",
+    "儿童发展",
+    "cognitive ability",
+    "认知能力"
+  ],
+  "data_content": {
+    "en": [
+      "Individual and household economic data: income, assets, liabilities, expenditures",
+      "Education: school enrollment, educational attainment, cognitive assessments for children and adults",
+      "Health: physical health, mental health, chronic disease, disability, healthcare access",
+      "Family dynamics: marriage, fertility, intergenerational transfers, parenting",
+      "Labor market: employment, wages, job characteristics, labor market transitions",
+      "Subjective well-being and life satisfaction measures",
+      "Social relationships and networks: trust, social participation, community ties",
+      "Migration and residential history: urban-rural migration, return migration",
+      "Community-level data: local infrastructure, public services, economic environment",
+      "Survey waves: 2010, 2012, 2014, 2016, 2018, 2020 (biennial, covering 25 provinces)"
+    ],
+    "zh": [
+      "个人和家庭经济数据：收入、资产、负债、消费支出",
+      "教育：在校情况、教育程度、儿童和成人认知能力测试",
+      "健康：身体健康、心理健康、慢性病、残障、医疗卫生服务获取",
+      "家庭动态：婚姻、生育、代际转移、育儿行为",
+      "劳动力市场：就业状况、工资收入、工作特征、职业转换",
+      "主观幸福感和生活满意度测量",
+      "社会关系与网络：社会信任、社会参与、社区联系",
+      "流动与居住历史：城乡流动、回流迁移",
+      "社区层面数据：基础设施、公共服务、经济环境",
+      "调查波次：2010、2012、2014、2016、2018、2020年（每两年一次，覆盖25个省份）"
+    ]
+  }
+}

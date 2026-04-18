@@ -1,0 +1,81 @@
+{
+  "id": "china-class",
+  "name": {
+    "en": "China Longitudinal Aging Social Survey (CLASS)",
+    "zh": "中国老年社会追踪调查（CLASS）"
+  },
+  "description": {
+    "en": "The China Longitudinal Aging Social Survey (CLASS) is a nationally representative longitudinal survey of Chinese elderly population aged 60 and above, conducted by the China Survey and Data Center at Renmin University of China. Launched in 2012, CLASS follows over 11,000 elderly individuals across 28 provinces and collects comprehensive data on physical and mental health, economic status, social participation, intergenerational relationships, and eldercare needs. CLASS is China's leading longitudinal aging dataset and is freely accessible to academic researchers, providing critical evidence for aging policy and social welfare research.",
+    "zh": "中国老年社会追踪调查（CLASS）是由中国人民大学中国调查与数据中心（CSDC）负责执行的全国性老年人追踪调查，覆盖28个省份60岁及以上老年人11000余人。CLASS自2012年启动，追踪老年群体的身心健康、经济状况、社会参与、代际关系和养老需求等综合数据，是中国最权威的老龄化追踪数据集，向学术研究者免费开放，为老龄化政策和社会福利研究提供关键依据。"
+  },
+  "website": "http://class.ruc.edu.cn/",
+  "data_url": "http://class.ruc.edu.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "social",
+    "demographics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "老年社会调查",
+    "CLASS",
+    "aging",
+    "老龄化",
+    "elderly",
+    "老年人",
+    "longitudinal",
+    "追踪调查",
+    "人民大学",
+    "Renmin University",
+    "eldercare",
+    "养老",
+    "老年健康",
+    "elderly health",
+    "mental health",
+    "心理健康",
+    "social participation",
+    "社会参与",
+    "intergenerational",
+    "代际关系",
+    "pension",
+    "养老金",
+    "long-term care",
+    "长期照护",
+    "cognitive decline",
+    "认知衰退",
+    "retirement",
+    "退休",
+    "老年政策",
+    "aging policy"
+  ],
+  "data_content": {
+    "en": [
+      "Physical health: chronic disease status, functional limitations, disability, Activities of Daily Living (ADL)",
+      "Mental health: depression screening, cognitive function tests, subjective well-being",
+      "Economic status: pension income, other income sources, asset ownership, economic hardship",
+      "Social participation: community activities, volunteering, social networks, club membership",
+      "Intergenerational support: financial transfers from/to children, emotional support, co-residence patterns",
+      "Care needs and provision: formal and informal caregiving arrangements, care preferences",
+      "Healthcare utilization: hospital visits, medication use, traditional Chinese medicine",
+      "Living arrangements: co-residence with children, household composition, housing conditions",
+      "Life satisfaction and quality of life measures for the elderly population",
+      "Survey waves: 2012, 2014, 2016, 2018 covering 28 provinces (11,511 elderly respondents in 2012)"
+    ],
+    "zh": [
+      "身体健康：慢性病状况、功能限制、残障、日常生活活动能力（ADL）",
+      "心理健康：抑郁筛查、认知功能测试、主观幸福感",
+      "经济状况：养老金收入、其他收入来源、资产拥有、经济困难",
+      "社会参与：社区活动、志愿服务、社会网络、社团会员资格",
+      "代际支持：与子女间的经济转移、情感支持、同住模式",
+      "照护需求与提供：正式与非正式照护安排、照护偏好",
+      "医疗卫生利用：就医情况、用药状况、中医服务使用",
+      "居住安排：与子女同住、家庭成员构成、住房条件",
+      "老年人生活满意度和生活质量测量",
+      "调查波次：2012、2014、2016、2018年，覆盖28个省份（2012年首波调查11511名老年受访者）"
+    ]
+  }
+}

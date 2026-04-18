@@ -1,0 +1,74 @@
+{
+  "id": "china-ceads",
+  "name": {
+    "en": "Carbon Emission Accounts and Datasets for China (CEADs)",
+    "zh": "中国碳排放核算数据库（CEADs）"
+  },
+  "description": {
+    "en": "The Carbon Emission Accounts and Datasets (CEADs) for China is a leading open-access research database providing comprehensive, peer-reviewed carbon dioxide (CO2) and greenhouse gas emission inventories for China. Developed by a consortium of Chinese universities and research institutions, CEADs offers province-level, city-level, and sector-level CO2 emission estimates, consumption-based carbon accounts, and multi-regional input-output tables for China. It is widely used in climate policy research, environmental economics, and carbon neutrality target analysis.",
+    "zh": "中国碳排放核算数据库（CEADs）是由中国多所高校和科研机构联合开发的开放获取碳排放数据库，提供经过同行评审的中国CO2及温室气体排放清单。CEADs涵盖省级、城市级和行业级CO2排放估算、基于消费的碳账户以及中国多区域投入产出表，广泛应用于气候政策研究、环境经济学分析以及碳中和目标研究。"
+  },
+  "website": "https://www.ceads.net.cn",
+  "data_url": "https://ceads.net.cn/data/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "energy",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "碳排放",
+    "carbon emissions",
+    "CO2",
+    "温室气体",
+    "greenhouse gas",
+    "碳核算",
+    "carbon accounting",
+    "省级排放",
+    "provincial emissions",
+    "城市碳排放",
+    "city-level emissions",
+    "投入产出",
+    "input-output",
+    "能源消费",
+    "energy consumption",
+    "碳中和",
+    "carbon neutrality",
+    "气候变化",
+    "climate change",
+    "双碳",
+    "net-zero",
+    "emission inventory",
+    "排放清单",
+    "CEADs"
+  ],
+  "data_content": {
+    "en": [
+      "National and provincial CO2 emission inventories by energy type and economic sector (1997–present)",
+      "City-level carbon emission estimates for 340+ Chinese prefecture-level cities",
+      "Consumption-based carbon accounts: emissions embedded in domestic trade and final demand",
+      "China multi-regional input-output (MRIO) tables for emissions attribution analysis",
+      "Sector-level emissions: industry, transport, residential, agriculture, and waste",
+      "Energy balance tables: fossil fuel consumption, electricity generation, and energy mix",
+      "CO2 emission factors for Chinese energy products and industrial processes",
+      "Emission data supporting China's NDC and carbon peaking/neutrality commitments",
+      "Peer-reviewed datasets published in Nature, Science, and high-impact journals"
+    ],
+    "zh": [
+      "全国及省级分能源类型和经济部门CO2排放清单（1997年至今）",
+      "340余个地级城市的碳排放估算数据",
+      "基于消费的碳账户：国内贸易和最终需求中隐含的碳排放",
+      "中国多区域投入产出（MRIO）表，用于碳排放归因分析",
+      "分部门排放：工业、交通、居民、农业和废弃物",
+      "能源平衡表：化石燃料消费、发电量和能源结构",
+      "中国能源产品和工业过程的CO2排放因子",
+      "支撑中国国家自主贡献（NDC）和碳达峰碳中和目标的排放数据",
+      "发表于《自然》、《科学》等高影响力期刊的同行评审数据集"
+    ]
+  }
+}
