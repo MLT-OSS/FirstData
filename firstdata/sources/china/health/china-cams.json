@@ -1,0 +1,75 @@
+{
+  "id": "china-cams",
+  "name": {
+    "en": "Chinese Academy of Medical Sciences (CAMS)",
+    "zh": "中国医学科学院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Medical Sciences (CAMS), together with its affiliated Peking Union Medical College (PUMC), is China's premier national medical research institution, established in 1956 and headquartered in Beijing. CAMS oversees 18 research institutes, 6 hospitals, and multiple national key laboratories covering clinical medicine, basic medical research, biomedical engineering, pharmacology, oncology, and infectious disease. As a national-level authority, CAMS produces authoritative data on medical research outputs, drug development pipelines, disease burden studies, clinical trial registrations, genomic research, and population health surveys. CAMS hosts the Chinese Health Statistics Yearbook data and major disease surveillance programs, providing essential datasets for public health policy, pharmaceutical research, and clinical practice.",
+    "zh": "中国医学科学院（CAMS）是中国最高医学研究机构，与北京协和医学院实行院校合一管理体制，成立于1956年，总部位于北京。中国医学科学院下设18个研究所、6所附属医院和多个国家重点实验室，覆盖临床医学、基础医学、生物医学工程、药理学、肿瘤学和传染病学等领域。作为国家级机构，中国医学科学院产出权威的医学研究成果数据、药物研发管线、疾病负担研究、临床试验注册、基因组研究及人群健康调查数据。院校还承担《中国卫生统计年鉴》数据汇编及重要疾病监测项目，为公共卫生政策、医药研究和临床实践提供核心数据集。"
+  },
+  "website": "https://www.cams.cn",
+  "data_url": "https://www.cams.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "research",
+    "pharmaceuticals"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国医学科学院",
+    "CAMS",
+    "协和医学院",
+    "PUMC",
+    "医学研究",
+    "medical research",
+    "药物研发",
+    "drug development",
+    "临床试验",
+    "clinical trials",
+    "肿瘤学",
+    "oncology",
+    "传染病",
+    "infectious disease",
+    "基因组学",
+    "genomics",
+    "公共卫生",
+    "public health",
+    "疾病监测",
+    "disease surveillance",
+    "国家重点实验室",
+    "national key laboratory",
+    "医学数据",
+    "medical data"
+  ],
+  "data_content": {
+    "en": [
+      "Medical research publications and datasets from 18 research institutes covering all major biomedical fields",
+      "Oncology data: cancer incidence, mortality, survival rates from affiliated cancer hospitals and national tumor registries",
+      "Infectious disease research: epidemiological data, pathogen surveillance, vaccine efficacy studies",
+      "Drug development pipeline: clinical trial registration data, pharmacological research, drug safety monitoring",
+      "Genomic and proteomics research data from national platforms affiliated with CAMS",
+      "Population health surveys: chronic disease prevalence, risk factor surveillance, health behavior studies",
+      "Medical device and biomedical engineering research data",
+      "Disease burden studies: DALYs, mortality statistics, disability-adjusted life year analyses",
+      "Health technology assessment reports supporting national essential medicine list updates",
+      "Chinese Pharmacopoeia data and quality standards for pharmaceuticals"
+    ],
+    "zh": [
+      "18个研究所涵盖所有主要生物医学领域的科研成果和数据集",
+      "肿瘤数据：来自附属肿瘤医院和全国肿瘤登记处的癌症发病率、死亡率和生存率",
+      "传染病研究：流行病学数据、病原体监测、疫苗效力研究",
+      "药物研发管线：临床试验注册数据、药理学研究、药物安全监测",
+      "与中国医学科学院相关联的国家平台的基因组和蛋白质组研究数据",
+      "人群健康调查：慢性病患病率、危险因素监测、健康行为研究",
+      "医疗器械和生物医学工程研究数据",
+      "疾病负担研究：伤残调整寿命年分析、死亡率统计",
+      "支持国家基本药物目录更新的卫生技术评估报告",
+      "《中华人民共和国药典》数据及药品质量标准"
+    ]
+  }
+}

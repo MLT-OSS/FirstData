@@ -1,0 +1,80 @@
+{
+  "id": "china-cern",
+  "name": {
+    "en": "Chinese Ecosystem Research Network (CERN)",
+    "zh": "中国生态系统研究网络"
+  },
+  "description": {
+    "en": "The Chinese Ecosystem Research Network (CERN) is a national ecosystem monitoring and research network operated by the Chinese Academy of Sciences. Established in 1988, CERN comprises over 40 ecosystem research stations distributed across China's major biomes including forests, grasslands, wetlands, croplands, deserts, and coastal ecosystems. Each station conducts systematic, long-term monitoring of soil, water, atmosphere, and biodiversity, following standardized protocols for cross-site comparability. CERN data are accessible through its dedicated data sharing platform, providing researchers with decades of ecosystem dynamics records. The network is China's primary source for integrated terrestrial ecosystem observation data, supporting national carbon sink assessments, biodiversity conservation planning, land degradation monitoring, and responses to climate change. CERN collaborates with global networks including ILTER (International Long-Term Ecological Research) and FLUXNET.",
+    "zh": "中国生态系统研究网络（CERN）是由中国科学院主管的国家生态系统监测与研究网络，成立于1988年，由分布于中国各主要生态系统类型（包括森林、草地、湿地、农田、荒漠和海岸带）的40余个生态系统研究站组成。各站点按照统一规范对土壤、水体、大气和生物多样性进行系统性长期监测，确保跨站点数据的可比性。CERN通过专属数据共享平台开放数据，为研究人员提供数十年的生态系统动态记录。CERN是中国陆地生态系统综合观测数据的主要来源，支持国家碳汇评估、生物多样性保护规划、土地退化监测和气候变化响应研究。CERN参与国际长期生态研究（ILTER）和FLUXNET等全球监测网络合作。"
+  },
+  "website": "https://cern.ac.cn",
+  "data_url": "https://cern.ac.cn/0index/index.asp",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "ecology",
+    "biodiversity",
+    "climate"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国生态系统研究网络",
+    "CERN",
+    "生态监测",
+    "ecosystem monitoring",
+    "长期生态研究",
+    "long-term ecological research",
+    "土壤数据",
+    "soil data",
+    "碳通量",
+    "carbon flux",
+    "生物多样性",
+    "biodiversity",
+    "草地生态",
+    "grassland ecology",
+    "森林生态",
+    "forest ecology",
+    "湿地",
+    "wetland",
+    "荒漠化",
+    "desertification",
+    "气候变化",
+    "climate change",
+    "ILTER",
+    "FLUXNET",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "碳汇",
+    "carbon sink"
+  ],
+  "data_content": {
+    "en": [
+      "Soil monitoring data: soil organic carbon, nitrogen, phosphorus, bulk density, moisture, and texture from 40+ stations",
+      "Water quality and hydrology: streamflow, groundwater level, water chemistry, precipitation chemistry at each station",
+      "Atmosphere: precipitation amount and chemistry, air temperature, humidity, wind speed, net radiation, CO2 concentration",
+      "Biological community data: plant biomass, species diversity, phenology, leaf area index across major biome types",
+      "Carbon and energy flux: eddy covariance measurements of carbon, water, and energy exchange between ecosystems and atmosphere",
+      "Land use and vegetation change: long-term time series of vegetation structure and land cover at station sites",
+      "Desert and dryland ecosystem data: wind erosion, sand transport, soil crusting processes from arid zone stations",
+      "Cropland ecosystem data: crop yield, nutrient cycling, irrigation water use, soil health from agricultural stations",
+      "Coastal and marine ecosystem data: coastal erosion, mangrove, and seagrass dynamics from coastal stations",
+      "Synthesis datasets: integrated multi-station trend analyses for China's national ecosystem assessments"
+    ],
+    "zh": [
+      "土壤监测数据：40余个站点的土壤有机碳、氮、磷、容重、水分和质地",
+      "水质与水文：各站点的径流量、地下水位、水体化学成分和降水化学",
+      "大气数据：降水量及化学组成、气温、湿度、风速、净辐射、CO2浓度",
+      "生物群落数据：主要生态系统类型的植物生物量、物种多样性、物候和叶面积指数",
+      "碳与能量通量：生态系统与大气之间碳、水和能量交换的涡度协方差测量",
+      "土地利用与植被变化：站点尺度的植被结构和土地覆盖长期时间序列",
+      "荒漠及旱地生态系统数据：来自干旱区站点的风蚀、沙尘输运和土壤结皮过程",
+      "农田生态系统数据：来自农业站点的作物产量、养分循环、灌溉用水和土壤健康",
+      "海岸带与海洋生态系统数据：来自海岸站点的海岸侵蚀、红树林和海草动态",
+      "综合数据集：面向全国生态系统评估的多站点综合趋势分析"
+    ]
+  }
+}

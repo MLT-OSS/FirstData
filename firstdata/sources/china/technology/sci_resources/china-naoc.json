@@ -1,0 +1,76 @@
+{
+  "id": "china-naoc",
+  "name": {
+    "en": "National Astronomical Observatories of China (NAOC)",
+    "zh": "中国科学院国家天文台"
+  },
+  "description": {
+    "en": "The National Astronomical Observatories of China (NAOC), under the Chinese Academy of Sciences (CAS), is China's leading astronomical research institution. Founded in 2001 by merging four CAS observatories, NAOC operates major facilities including FAST (the world's largest single-dish radio telescope), the Guoshoujing Telescope (LAMOST) — the world's largest optical survey telescope — and the Beijing Spectral Telescope. Through its affiliated National Astronomical Data Center (NADC), NAOC provides open access to vast astronomy datasets including the LAMOST stellar spectral survey (over 20 million spectra), FAST pulsar and fast radio burst observations, sky survey catalogs, solar observation data, and space science mission data. The NADC is China's primary open astronomy data platform, facilitating reproducible research and international collaboration.",
+    "zh": "中国科学院国家天文台（NAOC）是中国主要的天文研究机构，隶属于中国科学院。国家天文台于2001年由中科院四个天文台整合成立，主要运行设施包括FAST（全球最大单口径射电望远镜）、郭守敬望远镜（LAMOST，全球最大光学巡天望远镜）和北京天体物理观测站。通过下属的国家天文科学数据中心（NADC），国家天文台对外开放天文数据集，包括LAMOST恒星光谱巡天（超2000万条光谱）、FAST脉冲星和快速射电暴观测数据、巡天星表、太阳观测数据及空间科学任务数据。NADC是中国最主要的开放天文数据平台，促进可重复研究和国际合作。"
+  },
+  "website": "http://www.nao.cas.cn",
+  "data_url": "https://nadc.china-vo.org",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "astronomy",
+    "space"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家天文台",
+    "NAOC",
+    "FAST",
+    "LAMOST",
+    "郭守敬望远镜",
+    "天文数据",
+    "astronomy data",
+    "恒星光谱",
+    "stellar spectra",
+    "射电天文",
+    "radio astronomy",
+    "脉冲星",
+    "pulsar",
+    "快速射电暴",
+    "fast radio burst",
+    "巡天星表",
+    "sky survey catalog",
+    "太阳观测",
+    "solar observation",
+    "国家天文科学数据中心",
+    "NADC",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "开放天文数据",
+    "open astronomy data"
+  ],
+  "data_content": {
+    "en": [
+      "LAMOST spectral survey: over 20 million stellar spectra from the Guoshoujing Telescope, accessible via NADC",
+      "FAST observatory data: pulsar timing, fast radio burst (FRB) detections, neutral hydrogen (HI) surveys",
+      "Sky survey catalogs: photometric and astrometric catalogs from multiple all-sky and deep-field surveys",
+      "Solar observation data: solar activity, sunspot records, solar radio bursts from Huairou Solar Observing Station",
+      "Variable star and transient event catalogs from NAOC monitoring programs",
+      "Space mission science data: planetary science and lunar exploration mission data products",
+      "High-energy astrophysics data: X-ray and gamma-ray source catalogs contributed to international archives",
+      "Historical astronomical records: digitized ancient Chinese star catalogs and eclipse records",
+      "Virtual observatory (VO) compliant data services through the China-VO platform",
+      "NADC open data archive: multi-wavelength datasets for reproducible astronomical research"
+    ],
+    "zh": [
+      "LAMOST光谱巡天：郭守敬望远镜超2000万条恒星光谱，通过NADC开放获取",
+      "FAST天文台数据：脉冲星计时、快速射电暴（FRB）探测、中性氢（HI）巡天",
+      "巡天星表：来自多项全天和深场巡天项目的测光和天体测量星表",
+      "太阳观测数据：来自怀柔太阳观测基地的太阳活动、黑子记录和太阳射电爆发数据",
+      "国家天文台监测项目的变星和暂现天体星表",
+      "空间任务科学数据：行星科学和探月任务数据产品",
+      "高能天体物理数据：贡献至国际档案的X射线和伽马射线源星表",
+      "历史天文记录：中国古代星表和日食记录的数字化资料",
+      "通过中国-VO平台提供的虚拟天文台（VO）标准数据服务",
+      "NADC开放数据档案：支持天文学可重复研究的多波段数据集"
+    ]
+  }
+}
