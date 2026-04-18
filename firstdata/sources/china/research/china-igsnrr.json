@@ -1,0 +1,23 @@
+{
+  "id": "china-igsnrr",
+  "name": {
+    "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+    "zh": "中国科学院地理科学与资源研究所"
+  },
+  "description": {
+    "en": "The Institute of Geographic Sciences and Natural Resources Research (IGSNRR) is a leading research institution under the Chinese Academy of Sciences, focusing on geography, natural resources, and ecosystem studies. It provides open datasets on land use, remote sensing, population distribution, and natural resource assessments across China.",
+    "zh": "中国科学院地理科学与资源研究所（地理资源所）是中国科学院下属的重要研究机构，专注于地理学、自然资源和生态系统研究。研究所提供土地利用、遥感、人口分布和自然资源评估等领域的开放数据集。"
+  },
+  "data_content": {
+    "en": ["land use and land cover data", "remote sensing datasets", "population distribution data", "natural resource assessments", "ecosystem observation data", "geographic information datasets"],
+    "zh": ["土地利用与地表覆盖数据", "遥感数据集", "人口分布数据", "自然资源评估", "生态系统观测数据", "地理信息数据集"]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "http://www.igsnrr.ac.cn",
+  "data_url": "http://www.igsnrr.ac.cn",
+  "domains": ["geography", "environment", "remote-sensing"],
+  "tags": ["geography", "natural-resources", "land-use", "remote-sensing", "ecosystem", "chinese-academy-of-sciences"],
+  "update_frequency": "irregular"
+}

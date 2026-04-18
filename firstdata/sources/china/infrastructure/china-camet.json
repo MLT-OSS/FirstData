@@ -1,0 +1,76 @@
+{
+  "id": "china-camet",
+  "name": {
+    "en": "China Association of Metros (CAMET)",
+    "zh": "中国城市轨道交通协会"
+  },
+  "description": {
+    "en": "The China Association of Metros (CAMET) is the national industry association for urban rail transit in China, established in 2000 and headquartered in Beijing. CAMET represents subway, light rail, monorail, and automated guideway transit operators across all major Chinese cities. The association publishes the authoritative annual Urban Rail Transit Statistical Report, which is the primary national data source for the industry, covering total network mileage, number of lines, passenger volumes, operating revenues, investment, and ridership trends across China's urban rail systems. As of 2023, China operates the world's largest urban rail network with over 10,000 kilometers of routes across 55 cities. CAMET data are essential for urban transport planning, smart city investment analysis, and benchmarking China's transit expansion against global peers.",
+    "zh": "中国城市轨道交通协会（CAMET）是全国性城市轨道交通行业协会，2000年在北京成立，代表全国各大城市的地铁、轻轨、单轨和自动导轨交通运营商。协会每年发布权威的《城市轨道交通统计和分析报告》，是该行业最主要的全国数据来源，涵盖全国城市轨道交通总里程、线路数量、客运量、运营收入、投资规模和客流趋势等数据。截至2023年，中国已运营全球最大规模的城市轨道交通网络，在55个城市运营总里程超过1万公里。CAMET数据是城市交通规划、智慧城市投资分析及与全球同行进行基准比较的重要参考。"
+  },
+  "website": "https://www.camet.org.cn",
+  "data_url": "https://www.camet.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "infrastructure",
+    "transportation",
+    "urban",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国城市轨道交通协会",
+    "CAMET",
+    "地铁",
+    "metro",
+    "城市轨道交通",
+    "urban rail transit",
+    "轻轨",
+    "light rail",
+    "客运量",
+    "passenger volume",
+    "运营里程",
+    "operating mileage",
+    "地铁统计",
+    "metro statistics",
+    "城市交通",
+    "urban transportation",
+    "轨道交通投资",
+    "rail transit investment",
+    "智慧交通",
+    "smart transportation",
+    "城市建设",
+    "urban construction",
+    "公共交通",
+    "public transit"
+  ],
+  "data_content": {
+    "en": [
+      "Annual urban rail transit statistical report: comprehensive industry-wide data published each year for all operating cities",
+      "Network scale: total route mileage, number of lines, number of stations by city and nationwide aggregate",
+      "Passenger volume: annual and monthly ridership, passenger-kilometers, peak-hour loads by city and system",
+      "Operating revenues: fare revenue, ancillary income, operating costs, and subsidy data for urban rail operators",
+      "Infrastructure investment: annual capital expenditure on new lines, extensions, and renovation projects",
+      "Fleet and equipment: number of vehicles, train composition, average train age, and energy consumption",
+      "Line-by-line statistics: mileage, station count, daily ridership, and opening year for each urban rail line in China",
+      "City-level comparison: cross-city benchmarking of network size, efficiency, and ridership density",
+      "Expansion plans: data on under-construction mileage and approved future projects by city",
+      "Safety and punctuality: key performance indicators including on-time rate and incident statistics"
+    ],
+    "zh": [
+      "年度城市轨道交通统计分析报告：每年发布，涵盖所有运营城市的全行业数据",
+      "网络规模：按城市和全国汇总的总运营里程、线路数量和车站数量",
+      "客运量：各城市和系统的年度及月度客运量、旅客周转量和高峰小时负荷",
+      "运营收入：城市轨道交通运营商的票务收入、附属收入、运营成本和补贴数据",
+      "基础设施投资：新线、延伸线和改造项目的年度资本支出",
+      "车辆装备：车辆数量、列车编组、平均车龄和能耗数据",
+      "分线统计：中国每条城市轨道交通线路的里程、车站数、日均客流和开通年份",
+      "城市横向比较：各城市网络规模、运营效率和客流密度的跨城市基准分析",
+      "建设规划：各城市在建里程和已批未建项目数据",
+      "安全与准点率：准点率和事故统计等关键绩效指标"
+    ]
+  }
+}
