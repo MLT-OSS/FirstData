@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-17T06:24:24.757175+00:00",
-    "total_sources": 474,
+    "generated_at": "2026-04-18T02:21:13.283432+00:00",
+    "total_sources": 479,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -11700,6 +11700,89 @@
       "file_path": "china/governance/sports/china-gas.json"
     },
     {
+      "id": "china-class",
+      "name": {
+        "en": "China Longitudinal Aging Social Survey (CLASS)",
+        "zh": "中国老年社会追踪调查（CLASS）"
+      },
+      "description": {
+        "en": "The China Longitudinal Aging Social Survey (CLASS) is a nationally representative longitudinal survey of Chinese elderly population aged 60 and above, conducted by the China Survey and Data Center at Renmin University of China. Launched in 2012, CLASS follows over 11,000 elderly individuals across 28 provinces and collects comprehensive data on physical and mental health, economic status, social participation, intergenerational relationships, and eldercare needs. CLASS is China's leading longitudinal aging dataset and is freely accessible to academic researchers, providing critical evidence for aging policy and social welfare research.",
+        "zh": "中国老年社会追踪调查（CLASS）是由中国人民大学中国调查与数据中心（CSDC）负责执行的全国性老年人追踪调查，覆盖28个省份60岁及以上老年人11000余人。CLASS自2012年启动，追踪老年群体的身心健康、经济状况、社会参与、代际关系和养老需求等综合数据，是中国最权威的老龄化追踪数据集，向学术研究者免费开放，为老龄化政策和社会福利研究提供关键依据。"
+      },
+      "website": "http://class.ruc.edu.cn/",
+      "data_url": "http://class.ruc.edu.cn/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "social",
+        "demographics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "老年社会调查",
+        "CLASS",
+        "aging",
+        "老龄化",
+        "elderly",
+        "老年人",
+        "longitudinal",
+        "追踪调查",
+        "人民大学",
+        "Renmin University",
+        "eldercare",
+        "养老",
+        "老年健康",
+        "elderly health",
+        "mental health",
+        "心理健康",
+        "social participation",
+        "社会参与",
+        "intergenerational",
+        "代际关系",
+        "pension",
+        "养老金",
+        "long-term care",
+        "长期照护",
+        "cognitive decline",
+        "认知衰退",
+        "retirement",
+        "退休",
+        "老年政策",
+        "aging policy"
+      ],
+      "data_content": {
+        "en": [
+          "Physical health: chronic disease status, functional limitations, disability, Activities of Daily Living (ADL)",
+          "Mental health: depression screening, cognitive function tests, subjective well-being",
+          "Economic status: pension income, other income sources, asset ownership, economic hardship",
+          "Social participation: community activities, volunteering, social networks, club membership",
+          "Intergenerational support: financial transfers from/to children, emotional support, co-residence patterns",
+          "Care needs and provision: formal and informal caregiving arrangements, care preferences",
+          "Healthcare utilization: hospital visits, medication use, traditional Chinese medicine",
+          "Living arrangements: co-residence with children, household composition, housing conditions",
+          "Life satisfaction and quality of life measures for the elderly population",
+          "Survey waves: 2012, 2014, 2016, 2018 covering 28 provinces (11,511 elderly respondents in 2012)"
+        ],
+        "zh": [
+          "身体健康：慢性病状况、功能限制、残障、日常生活活动能力（ADL）",
+          "心理健康：抑郁筛查、认知功能测试、主观幸福感",
+          "经济状况：养老金收入、其他收入来源、资产拥有、经济困难",
+          "社会参与：社区活动、志愿服务、社会网络、社团会员资格",
+          "代际支持：与子女间的经济转移、情感支持、同住模式",
+          "照护需求与提供：正式与非正式照护安排、照护偏好",
+          "医疗卫生利用：就医情况、用药状况、中医服务使用",
+          "居住安排：与子女同住、家庭成员构成、住房条件",
+          "老年人生活满意度和生活质量测量",
+          "调查波次：2012、2014、2016、2018年，覆盖28个省份（2012年首波调查11511名老年受访者）"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-class.json"
+    },
+    {
       "id": "china-cpdrc",
       "name": {
         "en": "China Population and Development Research Center",
@@ -13759,6 +13842,248 @@
       "file_path": "china/research/china-cciee.json"
     },
     {
+      "id": "china-cfps",
+      "name": {
+        "en": "China Family Panel Studies (CFPS)",
+        "zh": "中国家庭追踪调查（CFPS）"
+      },
+      "description": {
+        "en": "The China Family Panel Studies (CFPS) is a nationally representative longitudinal survey of Chinese communities, families, and individuals, conducted biennially by the Institute of Social Science Survey (ISSS) at Peking University. Launched in 2010, CFPS tracks approximately 15,000 households across 25 provinces and collects multi-dimensional data on economic activities, education, health, and family dynamics. CFPS is one of China's most influential household panel surveys, freely accessible to registered academic users via Peking University's Open Research Data platform.",
+        "zh": "中国家庭追踪调查（CFPS）是由北京大学中国社会科学调查中心（ISSS）负责执行的全国性、综合性大型追踪调查，每两年开展一次，追踪约15000户家庭，涵盖全国25个省份。CFPS自2010年启动，收集经济活动、教育、健康和家庭动态等多维度数据，是中国最具影响力的家庭追踪调查之一，通过北京大学开放研究数据平台向注册学术用户免费开放。"
+      },
+      "website": "https://www.isss.pku.edu.cn/cfps/",
+      "data_url": "https://opendata.pku.edu.cn/dataverse/CFPS",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "social",
+        "economics",
+        "health",
+        "education",
+        "demographics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "家庭追踪调查",
+        "CFPS",
+        "panel study",
+        "追踪调查",
+        "北京大学",
+        "Peking University",
+        "household panel",
+        "家庭调查",
+        "longitudinal survey",
+        "education",
+        "教育",
+        "health",
+        "健康",
+        "income",
+        "收入",
+        "migration",
+        "人口流动",
+        "intergenerational",
+        "代际",
+        "family dynamics",
+        "家庭动态",
+        "child development",
+        "儿童发展",
+        "cognitive ability",
+        "认知能力"
+      ],
+      "data_content": {
+        "en": [
+          "Individual and household economic data: income, assets, liabilities, expenditures",
+          "Education: school enrollment, educational attainment, cognitive assessments for children and adults",
+          "Health: physical health, mental health, chronic disease, disability, healthcare access",
+          "Family dynamics: marriage, fertility, intergenerational transfers, parenting",
+          "Labor market: employment, wages, job characteristics, labor market transitions",
+          "Subjective well-being and life satisfaction measures",
+          "Social relationships and networks: trust, social participation, community ties",
+          "Migration and residential history: urban-rural migration, return migration",
+          "Community-level data: local infrastructure, public services, economic environment",
+          "Survey waves: 2010, 2012, 2014, 2016, 2018, 2020 (biennial, covering 25 provinces)"
+        ],
+        "zh": [
+          "个人和家庭经济数据：收入、资产、负债、消费支出",
+          "教育：在校情况、教育程度、儿童和成人认知能力测试",
+          "健康：身体健康、心理健康、慢性病、残障、医疗卫生服务获取",
+          "家庭动态：婚姻、生育、代际转移、育儿行为",
+          "劳动力市场：就业状况、工资收入、工作特征、职业转换",
+          "主观幸福感和生活满意度测量",
+          "社会关系与网络：社会信任、社会参与、社区联系",
+          "流动与居住历史：城乡流动、回流迁移",
+          "社区层面数据：基础设施、公共服务、经济环境",
+          "调查波次：2010、2012、2014、2016、2018、2020年（每两年一次，覆盖25个省份）"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cfps.json"
+    },
+    {
+      "id": "china-cgss",
+      "name": {
+        "en": "Chinese General Social Survey (CGSS)",
+        "zh": "中国综合社会调查（CGSS）"
+      },
+      "description": {
+        "en": "The Chinese General Social Survey (CGSS) is China's first nationally representative, continuous academic social survey, conducted annually by the National Survey Research Center at Renmin University of China (NSRC@RUC). Launched in 2003, CGSS collects data from over 10,000 households across urban and rural China on demographic characteristics, economic behavior, social attitudes, education, employment, health, political participation, family structure, and values. The survey is freely available to registered academic researchers and is widely cited in Chinese social science research.",
+        "zh": "中国综合社会调查（CGSS）是中国第一个全国性、综合性、连续性学术调查项目，由中国人民大学中国调查与数据中心（NSRC@RUC）负责执行。CGSS自2003年起每年对全国城乡1万余户家庭开展调查，收集人口特征、经济行为、社会态度、教育就业、健康状况、政治参与、家庭结构和价值观念等数据，是中国社会科学研究中被引用最广泛的数据集之一，向注册学术用户免费开放。"
+      },
+      "website": "http://cgss.ruc.edu.cn/",
+      "data_url": "http://cgss.ruc.edu.cn/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "social",
+        "demographics",
+        "economics",
+        "health",
+        "education"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "综合社会调查",
+        "CGSS",
+        "social survey",
+        "社会调查",
+        "人民大学",
+        "Renmin University",
+        "household survey",
+        "家庭调查",
+        "social attitudes",
+        "社会态度",
+        "education",
+        "教育",
+        "employment",
+        "就业",
+        "income",
+        "收入",
+        "social stratification",
+        "社会分层",
+        "political participation",
+        "政治参与",
+        "family structure",
+        "家庭结构",
+        "panel data",
+        "longitudinal",
+        "中国社会"
+      ],
+      "data_content": {
+        "en": [
+          "Demographic data: age, gender, ethnicity, marital status, household composition",
+          "Education: highest education level attained, educational history, school type",
+          "Employment: employment status, occupation, work unit type, income sources",
+          "Income and consumption: household income, expenditure, savings, assets",
+          "Health: self-rated health, chronic conditions, disability, healthcare utilization",
+          "Social attitudes: trust in institutions, subjective well-being, political attitudes, values",
+          "Religion and culture: religious beliefs, cultural practices, media consumption",
+          "Migration: residential history, rural-to-urban migration patterns",
+          "Social networks: social capital, community participation, voluntary associations",
+          "Annual survey waves from 2003 to present covering all provinces of China"
+        ],
+        "zh": [
+          "人口学数据：年龄、性别、民族、婚姻状况、家庭成员构成",
+          "教育：最高学历、教育经历、就读学校类型",
+          "就业：就业状况、职业类型、工作单位性质、收入来源",
+          "收入与消费：家庭收入、支出、储蓄、资产",
+          "健康：自评健康状况、慢性病、残疾、医疗服务利用",
+          "社会态度：对机构的信任、主观幸福感、政治态度、价值观念",
+          "宗教与文化：宗教信仰、文化习俗、媒体使用",
+          "人口流动：居住历史、农村人口城镇化迁移",
+          "社会网络：社会资本、社区参与、志愿组织",
+          "2003年至今各年度调查波次数据，覆盖全国各省份"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cgss.json"
+    },
+    {
+      "id": "china-chfs",
+      "name": {
+        "en": "China Household Finance Survey (CHFS)",
+        "zh": "中国家庭金融调查（CHFS）"
+      },
+      "description": {
+        "en": "The China Household Finance Survey (CHFS) is a large-scale, nationally representative longitudinal survey conducted by the Survey and Research Center for China Household Finance at Southwestern University of Finance and Economics (SWUFE). Launched in 2011, CHFS covers approximately 40,000 households across 29 provinces and provides comprehensive data on household assets, liabilities, income, consumption, insurance, and financial behavior. CHFS is China's leading household finance dataset and is freely accessible to qualified academic researchers, widely used to analyze wealth distribution, financial inclusion, and housing market dynamics in China.",
+        "zh": "中国家庭金融调查（CHFS）是由西南财经大学中国家庭金融调查与研究中心负责执行的大规模全国性追踪调查，自2011年启动，覆盖全国29个省约40000户家庭，收集家庭资产、负债、收入、消费、保险和金融行为等综合数据。CHFS是中国最权威的家庭金融数据集，向合格的学术研究者免费开放，广泛用于研究中国财富分配、普惠金融和房地产市场动态。"
+      },
+      "website": "https://chfs.swufe.edu.cn",
+      "data_url": "https://chfs.swufe.edu.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "social",
+        "housing"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "家庭金融调查",
+        "CHFS",
+        "household finance",
+        "家庭金融",
+        "西南财经大学",
+        "SWUFE",
+        "household wealth",
+        "家庭财富",
+        "asset allocation",
+        "资产配置",
+        "housing",
+        "住房",
+        "real estate",
+        "房地产",
+        "income distribution",
+        "收入分配",
+        "wealth inequality",
+        "财富不平等",
+        "financial inclusion",
+        "普惠金融",
+        "insurance",
+        "保险",
+        "savings",
+        "储蓄",
+        "debt",
+        "负债",
+        "investment",
+        "投资"
+      ],
+      "data_content": {
+        "en": [
+          "Household assets: financial assets (stocks, bonds, deposits, funds), real estate, business assets, durable goods",
+          "Household liabilities: mortgage loans, consumer loans, business loans, informal borrowing",
+          "Income: wage income, business income, transfer income, investment returns by source",
+          "Consumption expenditure: food, education, healthcare, housing, and major categories",
+          "Financial behavior: stock market participation, insurance purchase, wealth management products",
+          "Housing: ownership status, purchase price, mortgage details, rental income",
+          "Social security and insurance: pension participation, medical insurance, commercial insurance coverage",
+          "Demographic characteristics: age, education, employment, household structure",
+          "Wealth distribution and Gini coefficient analysis at provincial and national level",
+          "Survey waves: 2011, 2013, 2015, 2017, 2019, 2021 covering 29 provinces"
+        ],
+        "zh": [
+          "家庭资产：金融资产（股票、债券、存款、基金）、房产、工商业资产、耐用品",
+          "家庭负债：住房贷款、消费贷款、工商业贷款、民间借贷",
+          "收入：工资性收入、工商业收入、转移性收入、投资性收入",
+          "消费支出：食品、教育、医疗、住房及主要类别消费",
+          "金融行为：股市参与、保险购买、理财产品投资",
+          "住房：拥有状况、购买价格、贷款详情、租金收入",
+          "社会保障与保险：养老金参保、医疗保险、商业保险覆盖情况",
+          "人口特征：年龄、教育程度、就业状况、家庭结构",
+          "省级和全国财富分布与基尼系数分析",
+          "调查波次：2011、2013、2015、2017、2019、2021年，覆盖29个省份"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-chfs.json"
+    },
+    {
       "id": "china-drc",
       "name": {
         "en": "Development Research Center of the State Council of China",
@@ -14477,6 +14802,82 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-cace.json"
+    },
+    {
+      "id": "china-ceads",
+      "name": {
+        "en": "Carbon Emission Accounts and Datasets for China (CEADs)",
+        "zh": "中国碳排放核算数据库（CEADs）"
+      },
+      "description": {
+        "en": "The Carbon Emission Accounts and Datasets (CEADs) for China is a leading open-access research database providing comprehensive, peer-reviewed carbon dioxide (CO2) and greenhouse gas emission inventories for China. Developed by a consortium of Chinese universities and research institutions, CEADs offers province-level, city-level, and sector-level CO2 emission estimates, consumption-based carbon accounts, and multi-regional input-output tables for China. It is widely used in climate policy research, environmental economics, and carbon neutrality target analysis.",
+        "zh": "中国碳排放核算数据库（CEADs）是由中国多所高校和科研机构联合开发的开放获取碳排放数据库，提供经过同行评审的中国CO2及温室气体排放清单。CEADs涵盖省级、城市级和行业级CO2排放估算、基于消费的碳账户以及中国多区域投入产出表，广泛应用于气候政策研究、环境经济学分析以及碳中和目标研究。"
+      },
+      "website": "https://www.ceads.net.cn",
+      "data_url": "https://ceads.net.cn/data/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "energy",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "碳排放",
+        "carbon emissions",
+        "CO2",
+        "温室气体",
+        "greenhouse gas",
+        "碳核算",
+        "carbon accounting",
+        "省级排放",
+        "provincial emissions",
+        "城市碳排放",
+        "city-level emissions",
+        "投入产出",
+        "input-output",
+        "能源消费",
+        "energy consumption",
+        "碳中和",
+        "carbon neutrality",
+        "气候变化",
+        "climate change",
+        "双碳",
+        "net-zero",
+        "emission inventory",
+        "排放清单",
+        "CEADs"
+      ],
+      "data_content": {
+        "en": [
+          "National and provincial CO2 emission inventories by energy type and economic sector (1997–present)",
+          "City-level carbon emission estimates for 340+ Chinese prefecture-level cities",
+          "Consumption-based carbon accounts: emissions embedded in domestic trade and final demand",
+          "China multi-regional input-output (MRIO) tables for emissions attribution analysis",
+          "Sector-level emissions: industry, transport, residential, agriculture, and waste",
+          "Energy balance tables: fossil fuel consumption, electricity generation, and energy mix",
+          "CO2 emission factors for Chinese energy products and industrial processes",
+          "Emission data supporting China's NDC and carbon peaking/neutrality commitments",
+          "Peer-reviewed datasets published in Nature, Science, and high-impact journals"
+        ],
+        "zh": [
+          "全国及省级分能源类型和经济部门CO2排放清单（1997年至今）",
+          "340余个地级城市的碳排放估算数据",
+          "基于消费的碳账户：国内贸易和最终需求中隐含的碳排放",
+          "中国多区域投入产出（MRIO）表，用于碳排放归因分析",
+          "分部门排放：工业、交通、居民、农业和废弃物",
+          "能源平衡表：化石燃料消费、发电量和能源结构",
+          "中国能源产品和工业过程的CO2排放因子",
+          "支撑中国国家自主贡献（NDC）和碳达峰碳中和目标的排放数据",
+          "发表于《自然》、《科学》等高影响力期刊的同行评审数据集"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-ceads.json"
     },
     {
       "id": "china-cnemc",

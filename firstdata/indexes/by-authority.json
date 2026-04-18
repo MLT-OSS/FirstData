@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-04-17T06:24:24.757175+00:00",
-    "total_sources": 474,
+    "generated_at": "2026-04-18T02:21:13.283432+00:00",
+    "total_sources": 479,
     "authority_counts": {
-      "research": 51,
+      "research": 56,
       "international": 74,
       "government": 269,
       "other": 37,
@@ -208,6 +208,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "china-class",
+        "name": {
+          "en": "China Longitudinal Aging Social Survey (CLASS)",
+          "zh": "中国老年社会追踪调查（CLASS）"
+        },
+        "authority_level": "research",
+        "data_url": "http://class.ruc.edu.cn/",
+        "has_api": false,
+        "file_path": "china/health/china-class.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cpdrc",
         "name": {
           "en": "China Population and Development Research Center",
@@ -316,6 +328,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cfps",
+        "name": {
+          "en": "China Family Panel Studies (CFPS)",
+          "zh": "中国家庭追踪调查（CFPS）"
+        },
+        "authority_level": "research",
+        "data_url": "https://opendata.pku.edu.cn/dataverse/CFPS",
+        "has_api": false,
+        "file_path": "china/research/china-cfps.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cgss",
+        "name": {
+          "en": "Chinese General Social Survey (CGSS)",
+          "zh": "中国综合社会调查（CGSS）"
+        },
+        "authority_level": "research",
+        "data_url": "http://cgss.ruc.edu.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-cgss.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chfs",
+        "name": {
+          "en": "China Household Finance Survey (CHFS)",
+          "zh": "中国家庭金融调查（CHFS）"
+        },
+        "authority_level": "research",
+        "data_url": "https://chfs.swufe.edu.cn",
+        "has_api": false,
+        "file_path": "china/research/china-chfs.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gscloud",
         "name": {
           "en": "Geospatial Data Cloud - Computer Network Information Center, CAS",
@@ -374,6 +422,18 @@
         "has_api": false,
         "file_path": "china/research/china-tpdc.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-ceads",
+        "name": {
+          "en": "Carbon Emission Accounts and Datasets for China (CEADs)",
+          "zh": "中国碳排放核算数据库（CEADs）"
+        },
+        "authority_level": "research",
+        "data_url": "https://ceads.net.cn/data/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ceads.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-caai",
