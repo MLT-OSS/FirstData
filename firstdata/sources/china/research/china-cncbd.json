@@ -1,0 +1,23 @@
+{
+  "id": "china-cncbd",
+  "name": {
+    "en": "China National Center for Biotechnology Development",
+    "zh": "中国生物技术发展中心"
+  },
+  "description": {
+    "en": "The China National Center for Biotechnology Development (CNCBD) is a public institution under the Ministry of Science and Technology, responsible for biotechnology policy research, project management, and biosafety assessment. It publishes annual biotechnology development reports and manages national key biotech programs.",
+    "zh": "中国生物技术发展中心是科技部直属事业单位，负责生物技术政策研究、项目管理和生物安全评估。发布年度生物技术发展报告，管理国家重点生物技术计划。"
+  },
+  "data_content": {
+    "en": ["biotechnology development reports", "biosafety assessments", "biotech project data", "pharmaceutical R&D statistics", "gene technology policies"],
+    "zh": ["生物技术发展报告", "生物安全评估", "生物技术项目数据", "医药研发统计", "基因技术政策"]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.cncbd.org.cn",
+  "data_url": "https://www.cncbd.org.cn",
+  "domains": ["science", "health"],
+  "tags": ["biotechnology", "biosafety", "pharmaceutical", "most", "science-policy"],
+  "update_frequency": "annual"
+}

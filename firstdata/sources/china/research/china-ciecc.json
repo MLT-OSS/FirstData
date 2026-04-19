@@ -1,0 +1,23 @@
+{
+  "id": "china-ciecc",
+  "name": {
+    "en": "China International Engineering Consulting Corporation",
+    "zh": "中国国际工程咨询有限公司"
+  },
+  "description": {
+    "en": "The China International Engineering Consulting Corporation (CIECC) is a state-owned consulting firm under the State Council, providing engineering consulting, project evaluation, and policy research services. It publishes investment analysis reports and infrastructure development assessments for national-level projects.",
+    "zh": "中国国际工程咨询有限公司是国务院国资委直属的国有咨询企业，提供工程咨询、项目评估和政策研究服务。发布投资分析报告和国家级项目基础设施发展评估。"
+  },
+  "data_content": {
+    "en": ["infrastructure project evaluations", "investment analysis reports", "engineering consulting data", "policy research publications", "economic feasibility studies"],
+    "zh": ["基础设施项目评估", "投资分析报告", "工程咨询数据", "政策研究出版物", "经济可行性研究"]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.ciecc.com.cn",
+  "data_url": "https://www.ciecc.com.cn",
+  "domains": ["infrastructure", "economics"],
+  "tags": ["engineering", "consulting", "infrastructure", "investment", "state-council"],
+  "update_frequency": "irregular"
+}
