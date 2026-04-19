@@ -1,0 +1,46 @@
+{
+  "id": "china-ces",
+  "name": {
+    "en": "China Electrotechnical Society",
+    "zh": "中国电工技术学会"
+  },
+  "description": {
+    "en": "The China Electrotechnical Society (CES) is a national academic organization founded in 1981, affiliated with the China Association for Science and Technology. It is the premier professional society for electrical engineering, power electronics, and electrotechnical research in China. CES publishes technical research reports, industry whitepapers, and statistical analyses covering power generation equipment, electric motors, transformers, power electronics, and emerging areas such as new energy vehicles, energy storage systems, and smart grid technologies. Its publications serve as authoritative references for China's electrical and energy equipment industries.",
+    "zh": "中国电工技术学会（CES）成立于1981年，隶属于中国科学技术协会，是中国电气工程、电力电子和电工技术研究领域最重要的专业学术团体。学会发布技术研究报告、行业白皮书及统计分析，涵盖发电设备、电动机、变压器、电力电子，以及新能源汽车、储能系统和智能电网等新兴领域，其出版物是中国电气和能源装备行业的权威参考资料。"
+  },
+  "data_content": {
+    "en": [
+      "power generation equipment statistics",
+      "electric motor and transformer industry data",
+      "power electronics technology reports",
+      "new energy vehicle charging equipment data",
+      "energy storage system statistics",
+      "smart grid technology research",
+      "electrical industry market analysis",
+      "technical standards and whitepapers",
+      "renewable energy integration data",
+      "industrial electrical equipment output"
+    ],
+    "zh": [
+      "发电设备统计数据",
+      "电动机和变压器行业数据",
+      "电力电子技术报告",
+      "新能源汽车充电设备数据",
+      "储能系统统计数据",
+      "智能电网技术研究",
+      "电气行业市场分析",
+      "技术标准与白皮书",
+      "可再生能源并网数据",
+      "工业电气设备产量"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "https://www.ces.org.cn",
+  "data_url": "https://www.ces.org.cn",
+  "api_url": null,
+  "domains": ["energy", "manufacturing"],
+  "tags": ["electrical-engineering", "power-electronics", "smart-grid", "energy-storage", "electric-motors", "电工", "电气工程", "电力电子", "智能电网", "储能", "新能源", "CES", "中国电工技术学会", "transformers"],
+  "update_frequency": "irregular"
+}
