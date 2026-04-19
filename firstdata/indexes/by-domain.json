@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-19T01:28:38.214220+00:00",
-    "total_domains": 720,
-    "total_sources": 489,
+    "generated_at": "2026-04-19T06:15:24.048925+00:00",
+    "total_domains": 721,
+    "total_sources": 494,
     "version": "2.0"
   },
   "domains": {
@@ -321,6 +321,18 @@
         "data_url": "https://lswz.gov.cn/html/xwzx/sjfb/index.html",
         "has_api": false,
         "file_path": "china/economy/agriculture/china-nfsra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cei",
+        "name": {
+          "en": "China Economic Information Service",
+          "zh": "中国经济信息社"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cei.cn/category/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cei.json",
         "geographic_scope": "national"
       },
       {
@@ -6290,6 +6302,18 @@
         "has_api": false,
         "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccsa",
+        "name": {
+          "en": "China Communication Standards Association",
+          "zh": "中国通信标准化协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ccsa.org.cn/webadmin/",
+        "has_api": false,
+        "file_path": "china/technology/telecommunications/china-ccsa.json",
+        "geographic_scope": "national"
       }
     ],
     "digital-infrastructure": [
@@ -7214,6 +7238,18 @@
         "data_url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/szrs/",
         "has_api": false,
         "file_path": "china/economy/labor/china-mohrss.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cei",
+        "name": {
+          "en": "China Economic Information Service",
+          "zh": "中国经济信息社"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cei.cn/category/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cei.json",
         "geographic_scope": "national"
       },
       {
@@ -9731,6 +9767,20 @@
         "geographic_scope": "national"
       }
     ],
+    "economy": [
+      {
+        "id": "china-caq",
+        "name": {
+          "en": "China Association for Quality",
+          "zh": "中国质量协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caq.org.cn/html/zltj",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-caq.json",
+        "geographic_scope": "national"
+      }
+    ],
     "ecosystems": [
       {
         "id": "us-data-gov",
@@ -11199,6 +11249,18 @@
         "data_url": "https://www.chinagas.org.cn",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-gas-association.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cei",
+        "name": {
+          "en": "China Economic Information Service",
+          "zh": "中国经济信息社"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cei.cn/category/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cei.json",
         "geographic_scope": "national"
       },
       {
@@ -13384,6 +13446,18 @@
         "data_url": "https://www.cninfo.com.cn/new/commonUrl?url=disclosure/list/search",
         "has_api": true,
         "file_path": "china/cninfo.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cei",
+        "name": {
+          "en": "China Economic Information Service",
+          "zh": "中国经济信息社"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cei.cn/category/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cei.json",
         "geographic_scope": "national"
       },
       {
@@ -15802,6 +15876,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-caq",
+        "name": {
+          "en": "China Association for Quality",
+          "zh": "中国质量协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caq.org.cn/html/zltj",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-caq.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sasac",
         "name": {
           "en": "State-owned Assets Supervision and Administration Commission of the State Council",
@@ -16172,6 +16258,18 @@
         "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
         "has_api": false,
         "file_path": "china/technology/internet/china-cac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nim",
+        "name": {
+          "en": "National Institute of Metrology China",
+          "zh": "中国计量科学研究院"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nim.ac.cn/nim_time",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-nim.json",
         "geographic_scope": "national"
       },
       {
@@ -21066,6 +21164,18 @@
     ],
     "manufacturing": [
       {
+        "id": "china-ctic",
+        "name": {
+          "en": "China Textile Information Center",
+          "zh": "中国纺织信息中心"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ctic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-ctic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-most-rnd",
         "name": {
           "en": "National Key R&D Program of China - Industrial Software and 16 Key Special Projects",
@@ -25396,6 +25506,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nim",
+        "name": {
+          "en": "National Institute of Metrology China",
+          "zh": "中国计量科学研究院"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nim.ac.cn/nim_time",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-nim.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "unesco-uis",
         "name": {
           "en": "UNESCO Institute for Statistics",
@@ -25765,6 +25887,18 @@
         "has_api": true,
         "file_path": "academic/economics/world-inequality-database.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-caq",
+        "name": {
+          "en": "China Association for Quality",
+          "zh": "中国质量协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caq.org.cn/html/zltj",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-caq.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-acftu",
@@ -28985,6 +29119,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nim",
+        "name": {
+          "en": "National Institute of Metrology China",
+          "zh": "中国计量科学研究院"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nim.ac.cn/nim_time",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-nim.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sac-standards",
         "name": {
           "en": "Standardization Administration of China (SAC)",
@@ -28994,6 +29140,18 @@
         "data_url": "https://std.samr.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/standards/china-sac-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccsa",
+        "name": {
+          "en": "China Communication Standards Association",
+          "zh": "中国通信标准化协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ccsa.org.cn/webadmin/",
+        "has_api": false,
+        "file_path": "china/technology/telecommunications/china-ccsa.json",
         "geographic_scope": "national"
       },
       {
@@ -29159,6 +29317,18 @@
         "data_url": "https://www.cnnic.cn/11/38/326/index.html",
         "has_api": false,
         "file_path": "china/technology/internet/cnnic.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccsa",
+        "name": {
+          "en": "China Communication Standards Association",
+          "zh": "中国通信标准化协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ccsa.org.cn/webadmin/",
+        "has_api": false,
+        "file_path": "china/technology/telecommunications/china-ccsa.json",
         "geographic_scope": "national"
       },
       {
@@ -29457,6 +29627,18 @@
         "data_url": "https://www.cria.org.cn/c/id/1760910256413655041",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-cria.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ctic",
+        "name": {
+          "en": "China Textile Information Center",
+          "zh": "中国纺织信息中心"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ctic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-ctic.json",
         "geographic_scope": "national"
       },
       {

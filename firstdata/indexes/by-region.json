@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-19T01:28:38.214220+00:00",
+    "generated_at": "2026-04-19T06:15:24.048925+00:00",
     "total_regions": 58,
-    "total_sources": 489,
+    "total_sources": 494,
     "version": "2.0"
   },
   "regions": {
@@ -472,6 +472,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-caq",
+        "name": {
+          "en": "China Association for Quality",
+          "zh": "中国质量协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caq.org.cn/html/zltj",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-caq.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cbmf",
         "name": {
           "en": "China Building Materials Federation",
@@ -532,6 +544,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ctic",
+        "name": {
+          "en": "China Textile Information Center",
+          "zh": "中国纺织信息中心"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ctic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-ctic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gas-association",
         "name": {
           "en": "China Gas Association",
@@ -565,6 +589,18 @@
         "data_url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/szrs/",
         "has_api": false,
         "file_path": "china/economy/labor/china-mohrss.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cei",
+        "name": {
+          "en": "China Economic Information Service",
+          "zh": "中国经济信息社"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cei.cn/category/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cei.json",
         "geographic_scope": "national"
       },
       {
@@ -2972,6 +3008,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nim",
+        "name": {
+          "en": "National Institute of Metrology China",
+          "zh": "中国计量科学研究院"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nim.ac.cn/nim_time",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-nim.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sac-standards",
         "name": {
           "en": "Standardization Administration of China (SAC)",
@@ -2981,6 +3029,18 @@
         "data_url": "https://std.samr.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/standards/china-sac-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccsa",
+        "name": {
+          "en": "China Communication Standards Association",
+          "zh": "中国通信标准化协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ccsa.org.cn/webadmin/",
+        "has_api": false,
+        "file_path": "china/technology/telecommunications/china-ccsa.json",
         "geographic_scope": "national"
       },
       {

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-19T01:28:38.214220+00:00",
-    "total_sources": 489,
+    "generated_at": "2026-04-19T06:15:24.048925+00:00",
+    "total_sources": 494,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2928,6 +2928,73 @@
       "file_path": "china/economy/industry_associations/china-cansi.json"
     },
     {
+      "id": "china-caq",
+      "name": {
+        "en": "China Association for Quality",
+        "zh": "中国质量协会"
+      },
+      "description": {
+        "en": "The China Association for Quality (CAQ) is the national professional organization for quality management in China, founded in 1979. Operating under the State Administration for Market Regulation (SAMR), CAQ promotes quality improvement across Chinese industries through research, training, certification, and awards programs. CAQ publishes China's authoritative quality statistics including the China Quality Report, enterprise quality benchmark data, and consumer satisfaction indices. The association administers the China Quality Award (中国质量奖), the nation's highest quality honor modeled on the Baldrige Award framework. CAQ also manages China's official user satisfaction surveys covering major product and service categories, providing data essential for understanding quality trends, product recalls, and corporate quality performance across Chinese manufacturing and service industries.",
+        "zh": "中国质量协会（CAQ）是全国性质量管理专业组织，成立于1979年，隶属国家市场监督管理总局。协会通过研究、培训、认证和奖励项目推动中国各行业质量提升，发布中国权威质量统计数据，包括中国质量报告、企业质量标杆数据及消费者满意度指数。协会负责管理中国质量奖（全国最高质量荣誉，参照波多里奇奖框架设立），并组织开展主要产品和服务类别的中国用户满意度官方调查，为了解中国制造业和服务业质量趋势、产品召回及企业质量绩效提供重要数据支撑。"
+      },
+      "website": "https://www.caq.org.cn/",
+      "data_url": "https://www.caq.org.cn/html/zltj",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economy",
+        "governance",
+        "social"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "质量管理",
+        "quality management",
+        "消费者满意度",
+        "consumer satisfaction",
+        "产品质量",
+        "product quality",
+        "质量奖",
+        "quality award",
+        "中国质量报告",
+        "China Quality Report",
+        "用户满意度",
+        "user satisfaction",
+        "质量标准",
+        "quality standards",
+        "质量认证",
+        "quality certification",
+        "企业质量",
+        "enterprise quality",
+        "产品召回",
+        "product recall"
+      ],
+      "data_content": {
+        "en": [
+          "China Quality Report: annual comprehensive assessment of quality conditions across industries and regions",
+          "Consumer satisfaction index: national survey results by product category (electronics, automobiles, household goods, etc.)",
+          "Enterprise quality benchmarks: performance data for China Quality Award applicants and winners",
+          "Quality training statistics: certification exam pass rates and professional qualification data",
+          "Product complaint and recall data: quality incident reports from member organizations",
+          "Quality cost surveys: industry-level data on internal and external quality failure costs",
+          "Service quality index: satisfaction scores for financial, telecoms, logistics, and healthcare services"
+        ],
+        "zh": [
+          "中国质量报告：各行业及地区质量状况年度综合评估",
+          "消费者满意度指数：各品类（电子产品、汽车、家居用品等）全国调查结果",
+          "企业质量标杆：中国质量奖申请单位及获奖单位绩效数据",
+          "质量培训统计：认证考试通过率及专业资格数据",
+          "产品投诉及召回数据：成员单位质量事件报告",
+          "质量成本调查：各行业内外部质量损失成本数据",
+          "服务质量指数：金融、电信、物流及医疗服务满意度评分"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-caq.json"
+    },
+    {
       "id": "china-cbmf",
       "name": {
         "en": "China Building Materials Federation",
@@ -3336,6 +3403,52 @@
       "file_path": "china/economy/industry_associations/china-cria.json"
     },
     {
+      "id": "china-ctic",
+      "name": {
+        "en": "China Textile Information Center",
+        "zh": "中国纺织信息中心"
+      },
+      "description": {
+        "en": "The China Textile Information Center (CTIC) is a public institution under the China National Textile and Apparel Council, responsible for textile industry information services, trend research, and standard testing. It publishes textile market data, fashion trend reports, and industry statistics.",
+        "zh": "中国纺织信息中心是中国纺织工业联合会下属事业单位，负责纺织行业信息服务、趋势研究和标准检测。发布纺织市场数据、时尚趋势报告和行业统计。"
+      },
+      "data_content": {
+        "en": [
+          "textile market statistics",
+          "fashion trend reports",
+          "industry production data",
+          "trade statistics",
+          "standard testing results"
+        ],
+        "zh": [
+          "纺织市场统计",
+          "时尚趋势报告",
+          "行业生产数据",
+          "贸易统计",
+          "标准检测结果"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "other",
+      "geographic_scope": "national",
+      "website": "https://www.ctic.org.cn",
+      "data_url": "https://www.ctic.org.cn",
+      "domains": [
+        "manufacturing",
+        "trade"
+      ],
+      "tags": [
+        "textile",
+        "fashion",
+        "manufacturing",
+        "trade",
+        "industry-data"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-ctic.json"
+    },
+    {
       "id": "china-gas-association",
       "name": {
         "en": "China Gas Association",
@@ -3559,6 +3672,78 @@
       },
       "has_api": false,
       "file_path": "china/economy/labor/china-mohrss.json"
+    },
+    {
+      "id": "china-cei",
+      "name": {
+        "en": "China Economic Information Service",
+        "zh": "中国经济信息社"
+      },
+      "description": {
+        "en": "The China Economic Information Service (CEI) is a subsidiary of Xinhua News Agency, China's official state news agency, providing authoritative economic data, analysis, and information services. Founded in 1988, CEI operates as a central information hub for macroeconomic indicators, industry statistics, commodity prices, and financial market data. CEI publishes the Xinhua Finance indices, commodity price indices for key bulk materials (crude oil, natural gas, coal, steel, agricultural products), and real estate price monitoring data. The service compiles China's New Economy Index (NEI) and regularly produces economic forecasts, industry analysis reports, and regional economic assessments. CEI data is widely used by government policy analysts, financial institutions, researchers, and international organizations monitoring China's economic performance.",
+        "zh": "中国经济信息社（CEI）是中国官方通讯社新华社旗下子机构，提供权威经济数据、分析及信息服务。CEI成立于1988年，是宏观经济指标、行业统计、大宗商品价格及金融市场数据的核心信息枢纽，发布新华财经指数及主要大宗商品（原油、天然气、煤炭、钢铁、农产品）价格指数，并提供房地产价格监测数据。该机构编制中国新经济指数（NEI），定期发布经济预测报告、行业分析及区域经济评估。CEI数据广泛应用于政府政策分析、金融机构、科研机构及监测中国经济表现的国际组织。"
+      },
+      "website": "https://www.cei.cn/",
+      "data_url": "https://www.cei.cn/category/",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "finance",
+        "energy",
+        "agriculture"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "宏观经济",
+        "macroeconomics",
+        "大宗商品价格",
+        "commodity prices",
+        "新华财经",
+        "Xinhua Finance",
+        "新经济指数",
+        "New Economy Index",
+        "经济预测",
+        "economic forecast",
+        "行业分析",
+        "industry analysis",
+        "钢铁价格",
+        "steel prices",
+        "煤炭价格",
+        "coal prices",
+        "农产品",
+        "agricultural products",
+        "房地产",
+        "real estate",
+        "经济信息",
+        "economic information",
+        "新华社",
+        "Xinhua"
+      ],
+      "data_content": {
+        "en": [
+          "Xinhua commodity price indices: daily and weekly prices for crude oil, coal, steel, copper, agricultural products",
+          "China New Economy Index (NEI): monthly composite index tracking digital economy transition",
+          "Real estate market data: residential and commercial property price trends by city and region",
+          "Macroeconomic forecasting: quarterly GDP growth projections and economic indicator forecasts",
+          "Industry economic analysis: sector-level performance data for manufacturing, services, and agriculture",
+          "Import and export price indices: trade-weighted price changes for major commodities",
+          "Regional economic assessments: provincial economic performance comparisons and investment climate reports"
+        ],
+        "zh": [
+          "新华大宗商品价格指数：原油、煤炭、钢铁、铜、农产品日度及周度价格",
+          "中国新经济指数（NEI）：跟踪数字经济转型的月度综合指数",
+          "房地产市场数据：各城市及地区住宅和商业地产价格趋势",
+          "宏观经济预测：季度GDP增长预测及经济指标展望",
+          "行业经济分析：制造业、服务业及农业各行业绩效数据",
+          "进出口价格指数：主要大宗商品贸易加权价格变动",
+          "区域经济评估：省级经济绩效比较及投资环境报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-cei.json"
     },
     {
       "id": "china-ndrc-computing",
@@ -17939,6 +18124,75 @@
       "file_path": "china/technology/standards/china-cnis.json"
     },
     {
+      "id": "china-nim",
+      "name": {
+        "en": "National Institute of Metrology China",
+        "zh": "中国计量科学研究院"
+      },
+      "description": {
+        "en": "The National Institute of Metrology (NIM) is China's highest-level national metrology institution, responsible for establishing and maintaining China's national measurement standards. Established in 1955 and operating under the State Administration for Market Regulation (SAMR), NIM develops primary measurement standards for the seven SI base units (length, mass, time, temperature, amount of substance, luminous intensity, and electric current) and derived measurement units. NIM provides China's official traceability infrastructure for scientific measurement, industrial calibration, and legal metrology. The institute conducts research on advanced measurement science and hosts the NIM Time Service, providing China's official time standard and frequency calibration. NIM also participates in the International Bureau of Weights and Measures (BIPM) key comparisons, validating China's measurement capabilities on the global stage.",
+        "zh": "中国计量科学研究院（NIM）是中国最高级别的国家计量机构，负责建立和维护国家测量标准。研究院成立于1955年，隶属国家市场监督管理总局（市场监管总局），负责建立国际单位制（SI）七个基本量（长度、质量、时间、温度、物质的量、发光强度和电流）及导出量的基准测量标准。NIM为科学测量、工业校准和法制计量提供中国官方量值溯源体系，同时开展先进测量科学研究，并运营NIM时间服务，提供中国官方时间标准和频率校准。研究院积极参与国际计量局（BIPM）关键比对，在国际层面验证中国测量能力。"
+      },
+      "website": "https://www.nim.ac.cn/",
+      "data_url": "https://www.nim.ac.cn/nim_time",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "science",
+        "governance"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "计量",
+        "metrology",
+        "测量标准",
+        "measurement standards",
+        "校准",
+        "calibration",
+        "时间标准",
+        "time standard",
+        "频率标准",
+        "frequency standard",
+        "SI单位",
+        "SI units",
+        "量值溯源",
+        "measurement traceability",
+        "法制计量",
+        "legal metrology",
+        "BIPM",
+        "NIM",
+        "国家标准",
+        "national standard",
+        "精密测量",
+        "precision measurement"
+      ],
+      "data_content": {
+        "en": [
+          "National time standard: real-time UTC(NIM) time signal and frequency calibration service",
+          "Primary measurement standards: maintained reference standards for SI base units",
+          "Calibration certificates: official traceable calibration records for scientific and industrial instruments",
+          "Key comparison results: international measurement comparison data with BIPM and national metrology institutes",
+          "Measurement uncertainty reports: documented uncertainty budgets for national measurement standards",
+          "Research publications: measurement science advances in quantum metrology, nanometrology, and precision instrumentation",
+          "Legal metrology data: type approval and verification data for measuring instruments used in trade and safety"
+        ],
+        "zh": [
+          "国家时间标准：UTC(NIM)实时时间信号及频率校准服务",
+          "基准测量标准：SI基本单位维持参考标准",
+          "校准证书：科学及工业仪器官方可溯源校准记录",
+          "关键比对结果：与BIPM及各国国家计量机构的国际测量比对数据",
+          "测量不确定度报告：国家测量标准不确定度溯源文件",
+          "科研成果：量子计量学、纳米计量学及精密仪器测量科学进展",
+          "法制计量数据：贸易及安全领域用计量器具型式批准和检定数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/standards/china-nim.json"
+    },
+    {
       "id": "china-sac-standards",
       "name": {
         "en": "Standardization Administration of China (SAC)",
@@ -18014,6 +18268,74 @@
       },
       "has_api": false,
       "file_path": "china/technology/standards/china-sac-standards.json"
+    },
+    {
+      "id": "china-ccsa",
+      "name": {
+        "en": "China Communication Standards Association",
+        "zh": "中国通信标准化协会"
+      },
+      "description": {
+        "en": "The China Communication Standards Association (CCSA) is the national standardization organization for China's telecommunications and information technology sectors, operating under the Ministry of Industry and Information Technology (MIIT). CCSA coordinates the development and release of telecommunications standards across 5G, broadband networks, internet, IoT, cloud computing, cybersecurity, and intelligent transportation. With over 600 corporate members including China's major telecom operators (China Telecom, China Mobile, China Unicom) and equipment manufacturers, CCSA represents the primary venue for Chinese telecom industry standardization. It actively participates in international standards bodies including ITU-T, ITU-R, ISO, and IEC, and has contributed significantly to global 5G standards. CCSA publishes technical reports, standard specifications, and industry white papers on emerging communications technologies.",
+        "zh": "中国通信标准化协会（CCSA）是在工业和信息化部指导下，负责中国电信和信息技术领域标准化工作的全国性行业组织。协会协调5G、宽带网络、互联网、物联网、云计算、网络安全及智能交通等领域电信标准的制定与发布。CCSA拥有600余家团体会员，涵盖中国三大电信运营商（中国电信、中国移动、中国联通）及主要设备制造商，是中国电信行业标准化的核心平台。协会积极参与ITU-T、ITU-R、ISO、IEC等国际标准化机构的工作，并在全球5G标准制定中作出重要贡献，同时发布新兴通信技术领域的技术报告、标准规范和行业白皮书。"
+      },
+      "website": "https://www.ccsa.org.cn/",
+      "data_url": "https://www.ccsa.org.cn/webadmin/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "telecommunications",
+        "digital-economy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "通信标准",
+        "telecommunications standards",
+        "5G",
+        "物联网",
+        "IoT",
+        "云计算",
+        "cloud computing",
+        "网络安全",
+        "cybersecurity",
+        "宽带",
+        "broadband",
+        "行业标准",
+        "industry standards",
+        "ITU",
+        "CCSA",
+        "通信协议",
+        "communication protocol",
+        "信息技术",
+        "information technology",
+        "工业互联网",
+        "industrial internet"
+      ],
+      "data_content": {
+        "en": [
+          "Telecommunications standard specifications: 5G, LTE, broadband, fixed and mobile network protocols",
+          "Technical committee reports: working group outputs from TC1 to TC12 covering different technology domains",
+          "Industry white papers: emerging technology assessments for IoT, cloud computing, AI, and smart city",
+          "Standard development plans: annual work program for new and revised telecommunications standards",
+          "International liaison documents: Chinese contributions to ITU-T and ITU-R study groups",
+          "Conformance testing reports: test specifications for equipment certification and interoperability",
+          "Cybersecurity standards: network security baselines, threat assessments, and protection specifications"
+        ],
+        "zh": [
+          "电信标准规范：5G、LTE、宽带、固定及移动网络协议标准",
+          "技术委员会报告：TC1至TC12各技术领域工作组输出成果",
+          "行业白皮书：物联网、云计算、人工智能及智慧城市新兴技术评估",
+          "标准制定计划：电信新标准及修订标准年度工作计划",
+          "国际联络文件：向ITU-T和ITU-R研究组提交的中国贡献文稿",
+          "符合性测试报告：设备认证及互操作性测试规范",
+          "网络安全标准：网络安全基线、威胁评估及防护规范"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/telecommunications/china-ccsa.json"
     },
     {
       "id": "china-miit",
