@@ -1,0 +1,66 @@
+{
+  "id": "china-ccsa",
+  "name": {
+    "en": "China Communication Standards Association",
+    "zh": "中国通信标准化协会"
+  },
+  "description": {
+    "en": "The China Communication Standards Association (CCSA) is the national standardization organization for China's telecommunications and information technology sectors, operating under the Ministry of Industry and Information Technology (MIIT). CCSA coordinates the development and release of telecommunications standards across 5G, broadband networks, internet, IoT, cloud computing, cybersecurity, and intelligent transportation. With over 600 corporate members including China's major telecom operators (China Telecom, China Mobile, China Unicom) and equipment manufacturers, CCSA represents the primary venue for Chinese telecom industry standardization. It actively participates in international standards bodies including ITU-T, ITU-R, ISO, and IEC, and has contributed significantly to global 5G standards. CCSA publishes technical reports, standard specifications, and industry white papers on emerging communications technologies.",
+    "zh": "中国通信标准化协会（CCSA）是在工业和信息化部指导下，负责中国电信和信息技术领域标准化工作的全国性行业组织。协会协调5G、宽带网络、互联网、物联网、云计算、网络安全及智能交通等领域电信标准的制定与发布。CCSA拥有600余家团体会员，涵盖中国三大电信运营商（中国电信、中国移动、中国联通）及主要设备制造商，是中国电信行业标准化的核心平台。协会积极参与ITU-T、ITU-R、ISO、IEC等国际标准化机构的工作，并在全球5G标准制定中作出重要贡献，同时发布新兴通信技术领域的技术报告、标准规范和行业白皮书。"
+  },
+  "website": "https://www.ccsa.org.cn/",
+  "data_url": "https://www.ccsa.org.cn/webadmin/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "telecommunications",
+    "digital-economy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "通信标准",
+    "telecommunications standards",
+    "5G",
+    "物联网",
+    "IoT",
+    "云计算",
+    "cloud computing",
+    "网络安全",
+    "cybersecurity",
+    "宽带",
+    "broadband",
+    "行业标准",
+    "industry standards",
+    "ITU",
+    "CCSA",
+    "通信协议",
+    "communication protocol",
+    "信息技术",
+    "information technology",
+    "工业互联网",
+    "industrial internet"
+  ],
+  "data_content": {
+    "en": [
+      "Telecommunications standard specifications: 5G, LTE, broadband, fixed and mobile network protocols",
+      "Technical committee reports: working group outputs from TC1 to TC12 covering different technology domains",
+      "Industry white papers: emerging technology assessments for IoT, cloud computing, AI, and smart city",
+      "Standard development plans: annual work program for new and revised telecommunications standards",
+      "International liaison documents: Chinese contributions to ITU-T and ITU-R study groups",
+      "Conformance testing reports: test specifications for equipment certification and interoperability",
+      "Cybersecurity standards: network security baselines, threat assessments, and protection specifications"
+    ],
+    "zh": [
+      "电信标准规范：5G、LTE、宽带、固定及移动网络协议标准",
+      "技术委员会报告：TC1至TC12各技术领域工作组输出成果",
+      "行业白皮书：物联网、云计算、人工智能及智慧城市新兴技术评估",
+      "标准制定计划：电信新标准及修订标准年度工作计划",
+      "国际联络文件：向ITU-T和ITU-R研究组提交的中国贡献文稿",
+      "符合性测试报告：设备认证及互操作性测试规范",
+      "网络安全标准：网络安全基线、威胁评估及防护规范"
+    ]
+  }
+}

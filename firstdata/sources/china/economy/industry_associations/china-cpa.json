@@ -1,0 +1,66 @@
+{
+  "id": "china-cpa",
+  "name": {
+    "en": "China Packaging Association",
+    "zh": "中国包装联合会"
+  },
+  "description": {
+    "en": "The China Packaging Association (CPA), also known as China Packaging Federation, is the national industry organization representing China's packaging industry — the world's second-largest packaging market. Founded in 1980 and operating under the Ministry of Industry and Information Technology, CPA covers all packaging sectors including paper, plastics, metal, glass, and composite materials, serving over 100,000 enterprises employing more than 3 million workers. CPA publishes the authoritative China Packaging Industry Annual Report with comprehensive data on output value, export volumes, employment, and green packaging adoption rates. The association promotes sustainable packaging through the China Green Packaging Award and tracks regulatory compliance with China's plastic restriction policies. CPA data is essential for global brand owners, consumer goods companies, logistics providers, and sustainability analysts tracking China's packaging supply chain.",
+    "zh": "中国包装联合会（CPA）是代表中国包装行业的全国性行业组织，中国是全球第二大包装市场。中国包装联合会成立于1980年，隶属工业和信息化部，覆盖纸质、塑料、金属、玻璃及复合材料等全部包装门类，服务超过10万家企业、300余万从业人员。协会发布权威的《中国包装行业年鉴》，涵盖产值、出口量、就业及绿色包装采用率等全面数据，并通过中国绿色包装奖推动可持续包装发展，同时追踪中国限塑政策合规情况。CPA数据对全球品牌商、消费品企业、物流服务商及追踪中国包装供应链的可持续发展分析师具有重要参考价值。"
+  },
+  "website": "https://www.cpa.org.cn/",
+  "data_url": "https://www.cpa.org.cn/?do=infolist&classid=213",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economy",
+    "environment",
+    "trade"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "包装行业",
+    "packaging industry",
+    "绿色包装",
+    "green packaging",
+    "限塑令",
+    "plastic restrictions",
+    "可持续包装",
+    "sustainable packaging",
+    "纸包装",
+    "paper packaging",
+    "塑料包装",
+    "plastic packaging",
+    "包装出口",
+    "packaging exports",
+    "行业产值",
+    "industry output",
+    "包装材料",
+    "packaging materials",
+    "CPA",
+    "供应链",
+    "supply chain"
+  ],
+  "data_content": {
+    "en": [
+      "China Packaging Industry Annual Report: total output value, production volumes, and employment by packaging sub-sector",
+      "Export statistics: packaging product export volumes, values, and major destination markets",
+      "Green packaging index: adoption rates for recyclable, biodegradable, and eco-labeled packaging",
+      "Plastic restriction compliance data: industry-level data on single-use plastic bans and alternatives",
+      "Raw material price tracking: paper pulp, plastic resin, aluminum, and glass prices affecting packaging costs",
+      "Regional packaging cluster data: output and investment data for major packaging industrial zones (Wenzhou, Pearl River Delta, etc.)",
+      "Packaging standard updates: new national and industry standards for food safety, labeling, and material performance"
+    ],
+    "zh": [
+      "中国包装行业年鉴：各包装子行业总产值、产量及就业数据",
+      "出口统计：包装产品出口量、出口额及主要目标市场",
+      "绿色包装指数：可回收、可降解及生态标签包装采用率",
+      "限塑合规数据：一次性塑料禁令及替代品的行业数据",
+      "原材料价格追踪：影响包装成本的纸浆、塑料树脂、铝及玻璃价格",
+      "区域包装产业集群数据：主要包装工业园区（温州、珠三角等）产出及投资数据",
+      "包装标准更新：食品安全、标签及材料性能国家及行业新标准"
+    ]
+  }
+}

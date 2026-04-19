@@ -1,0 +1,70 @@
+{
+  "id": "china-cei",
+  "name": {
+    "en": "China Economic Information Service",
+    "zh": "中国经济信息社"
+  },
+  "description": {
+    "en": "The China Economic Information Service (CEI) is a subsidiary of Xinhua News Agency, China's official state news agency, providing authoritative economic data, analysis, and information services. Founded in 1988, CEI operates as a central information hub for macroeconomic indicators, industry statistics, commodity prices, and financial market data. CEI publishes the Xinhua Finance indices, commodity price indices for key bulk materials (crude oil, natural gas, coal, steel, agricultural products), and real estate price monitoring data. The service compiles China's New Economy Index (NEI) and regularly produces economic forecasts, industry analysis reports, and regional economic assessments. CEI data is widely used by government policy analysts, financial institutions, researchers, and international organizations monitoring China's economic performance.",
+    "zh": "中国经济信息社（CEI）是中国官方通讯社新华社旗下子机构，提供权威经济数据、分析及信息服务。CEI成立于1988年，是宏观经济指标、行业统计、大宗商品价格及金融市场数据的核心信息枢纽，发布新华财经指数及主要大宗商品（原油、天然气、煤炭、钢铁、农产品）价格指数，并提供房地产价格监测数据。该机构编制中国新经济指数（NEI），定期发布经济预测报告、行业分析及区域经济评估。CEI数据广泛应用于政府政策分析、金融机构、科研机构及监测中国经济表现的国际组织。"
+  },
+  "website": "https://www.cei.cn/",
+  "data_url": "https://www.cei.cn/category/",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "finance",
+    "energy",
+    "agriculture"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "宏观经济",
+    "macroeconomics",
+    "大宗商品价格",
+    "commodity prices",
+    "新华财经",
+    "Xinhua Finance",
+    "新经济指数",
+    "New Economy Index",
+    "经济预测",
+    "economic forecast",
+    "行业分析",
+    "industry analysis",
+    "钢铁价格",
+    "steel prices",
+    "煤炭价格",
+    "coal prices",
+    "农产品",
+    "agricultural products",
+    "房地产",
+    "real estate",
+    "经济信息",
+    "economic information",
+    "新华社",
+    "Xinhua"
+  ],
+  "data_content": {
+    "en": [
+      "Xinhua commodity price indices: daily and weekly prices for crude oil, coal, steel, copper, agricultural products",
+      "China New Economy Index (NEI): monthly composite index tracking digital economy transition",
+      "Real estate market data: residential and commercial property price trends by city and region",
+      "Macroeconomic forecasting: quarterly GDP growth projections and economic indicator forecasts",
+      "Industry economic analysis: sector-level performance data for manufacturing, services, and agriculture",
+      "Import and export price indices: trade-weighted price changes for major commodities",
+      "Regional economic assessments: provincial economic performance comparisons and investment climate reports"
+    ],
+    "zh": [
+      "新华大宗商品价格指数：原油、煤炭、钢铁、铜、农产品日度及周度价格",
+      "中国新经济指数（NEI）：跟踪数字经济转型的月度综合指数",
+      "房地产市场数据：各城市及地区住宅和商业地产价格趋势",
+      "宏观经济预测：季度GDP增长预测及经济指标展望",
+      "行业经济分析：制造业、服务业及农业各行业绩效数据",
+      "进出口价格指数：主要大宗商品贸易加权价格变动",
+      "区域经济评估：省级经济绩效比较及投资环境报告"
+    ]
+  }
+}
