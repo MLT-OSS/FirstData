@@ -1,0 +1,42 @@
+{
+  "id": "china-cste",
+  "name": {
+    "en": "China Society for Technology Economics",
+    "zh": "中国技术经济学会"
+  },
+  "description": {
+    "en": "The China Society for Technology Economics (CSTE) is a national academic society founded in 1981, affiliated with the China Association for Science and Technology and supervised by the National Development and Reform Commission (NDRC). It is China's leading professional organization specializing in the intersection of technology and economic analysis, focusing on technology innovation economics, science and technology investment evaluation, industrial policy research, and the economic impact of technological progress. CSTE publishes research reports, policy analyses, and academic papers on innovation-driven development, technology commercialization, and the economic returns of R&D investment in China.",
+    "zh": "中国技术经济学会（CSTE）成立于1981年，是中国科学技术协会所属、国家发展和改革委员会指导的全国性学术团体，是中国技术与经济交叉分析领域最重要的专业机构，专注于技术创新经济学、科技投资评估、产业政策研究及技术进步的经济影响。学会发布创新驱动发展、技术商业化及中国研发投资经济效益等方面的研究报告、政策分析和学术论文。"
+  },
+  "data_content": {
+    "en": [
+      "technology innovation economics research reports",
+      "science and technology investment evaluation data",
+      "industrial technology policy analysis",
+      "R&D investment returns and efficiency studies",
+      "technology commercialization statistics",
+      "innovation-driven development indicators",
+      "technology economics academic publications",
+      "enterprise technology innovation surveys"
+    ],
+    "zh": [
+      "技术创新经济学研究报告",
+      "科技投资评估数据",
+      "产业技术政策分析",
+      "研发投资回报与效率研究",
+      "技术商业化统计数据",
+      "创新驱动发展指标",
+      "技术经济学学术出版物",
+      "企业技术创新调查"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "https://www.cste.org.cn",
+  "data_url": "https://www.cste.org.cn",
+  "api_url": null,
+  "domains": ["economics", "science"],
+  "tags": ["technology-economics", "innovation", "R&D", "科技经济", "技术创新", "技术经济", "创新经济学", "NDRC", "CSTE", "中国技术经济学会", "industrial-policy", "science-technology-policy"],
+  "update_frequency": "irregular"
+}

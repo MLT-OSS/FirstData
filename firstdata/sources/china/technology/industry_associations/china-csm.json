@@ -1,0 +1,42 @@
+{
+  "id": "china-csm",
+  "name": {
+    "en": "Chinese Society for Metals",
+    "zh": "中国金属学会"
+  },
+  "description": {
+    "en": "The Chinese Society for Metals (CSM) is a national academic organization founded in 1956, operating under the China Association for Science and Technology. It is the leading professional society for metallurgical science and technology in China, representing scientists and engineers in iron and steel, non-ferrous metals, functional materials, and advanced manufacturing. CSM publishes key industry statistics, technical standards, research reports, and academic journals covering China's metals and materials industries. It plays a central role in bridging scientific research and industrial applications for China's steel and metals sector.",
+    "zh": "中国金属学会（CSM）成立于1956年，是中国科学技术协会下属的全国性学术团体，是中国金属学和材料科技领域最重要的专业学会，代表钢铁、有色金属、功能材料和先进制造领域的科学家和工程师。学会发布主要行业统计数据、技术标准、研究报告及学术期刊，覆盖中国金属和材料工业，在中国钢铁和金属行业的科学研究与产业应用对接中发挥核心作用。"
+  },
+  "data_content": {
+    "en": [
+      "iron and steel production statistics",
+      "non-ferrous metals industry data",
+      "metallurgical technology research reports",
+      "materials science academic publications",
+      "industry technical standards",
+      "steel consumption and market data",
+      "advanced manufacturing statistics",
+      "academic conference proceedings and papers"
+    ],
+    "zh": [
+      "钢铁生产统计数据",
+      "有色金属行业数据",
+      "冶金技术研究报告",
+      "材料科学学术出版物",
+      "行业技术标准",
+      "钢铁消费与市场数据",
+      "先进制造业统计数据",
+      "学术会议论文集"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "https://www.csm.org.cn",
+  "data_url": "https://www.csm.org.cn",
+  "api_url": null,
+  "domains": ["manufacturing", "science"],
+  "tags": ["steel", "metals", "metallurgy", "materials-science", "iron", "非铁金属", "钢铁", "金属", "冶金", "材料科学", "CSM", "中国金属学会", "中国钢铁", "advanced-manufacturing"],
+  "update_frequency": "irregular"
+}
