@@ -1,0 +1,65 @@
+{
+  "id": "china-caq",
+  "name": {
+    "en": "China Association for Quality",
+    "zh": "中国质量协会"
+  },
+  "description": {
+    "en": "The China Association for Quality (CAQ) is the national professional organization for quality management in China, founded in 1979. Operating under the State Administration for Market Regulation (SAMR), CAQ promotes quality improvement across Chinese industries through research, training, certification, and awards programs. CAQ publishes China's authoritative quality statistics including the China Quality Report, enterprise quality benchmark data, and consumer satisfaction indices. The association administers the China Quality Award (中国质量奖), the nation's highest quality honor modeled on the Baldrige Award framework. CAQ also manages China's official user satisfaction surveys covering major product and service categories, providing data essential for understanding quality trends, product recalls, and corporate quality performance across Chinese manufacturing and service industries.",
+    "zh": "中国质量协会（CAQ）是全国性质量管理专业组织，成立于1979年，隶属国家市场监督管理总局。协会通过研究、培训、认证和奖励项目推动中国各行业质量提升，发布中国权威质量统计数据，包括中国质量报告、企业质量标杆数据及消费者满意度指数。协会负责管理中国质量奖（全国最高质量荣誉，参照波多里奇奖框架设立），并组织开展主要产品和服务类别的中国用户满意度官方调查，为了解中国制造业和服务业质量趋势、产品召回及企业质量绩效提供重要数据支撑。"
+  },
+  "website": "https://www.caq.org.cn/",
+  "data_url": "https://www.caq.org.cn/html/zltj",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economy",
+    "governance",
+    "social"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "质量管理",
+    "quality management",
+    "消费者满意度",
+    "consumer satisfaction",
+    "产品质量",
+    "product quality",
+    "质量奖",
+    "quality award",
+    "中国质量报告",
+    "China Quality Report",
+    "用户满意度",
+    "user satisfaction",
+    "质量标准",
+    "quality standards",
+    "质量认证",
+    "quality certification",
+    "企业质量",
+    "enterprise quality",
+    "产品召回",
+    "product recall"
+  ],
+  "data_content": {
+    "en": [
+      "China Quality Report: annual comprehensive assessment of quality conditions across industries and regions",
+      "Consumer satisfaction index: national survey results by product category (electronics, automobiles, household goods, etc.)",
+      "Enterprise quality benchmarks: performance data for China Quality Award applicants and winners",
+      "Quality training statistics: certification exam pass rates and professional qualification data",
+      "Product complaint and recall data: quality incident reports from member organizations",
+      "Quality cost surveys: industry-level data on internal and external quality failure costs",
+      "Service quality index: satisfaction scores for financial, telecoms, logistics, and healthcare services"
+    ],
+    "zh": [
+      "中国质量报告：各行业及地区质量状况年度综合评估",
+      "消费者满意度指数：各品类（电子产品、汽车、家居用品等）全国调查结果",
+      "企业质量标杆：中国质量奖申请单位及获奖单位绩效数据",
+      "质量培训统计：认证考试通过率及专业资格数据",
+      "产品投诉及召回数据：成员单位质量事件报告",
+      "质量成本调查：各行业内外部质量损失成本数据",
+      "服务质量指数：金融、电信、物流及医疗服务满意度评分"
+    ]
+  }
+}

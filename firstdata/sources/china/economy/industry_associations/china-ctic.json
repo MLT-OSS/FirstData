@@ -1,0 +1,23 @@
+{
+  "id": "china-ctic",
+  "name": {
+    "en": "China Textile Information Center",
+    "zh": "中国纺织信息中心"
+  },
+  "description": {
+    "en": "The China Textile Information Center (CTIC) is a public institution under the China National Textile and Apparel Council, responsible for textile industry information services, trend research, and standard testing. It publishes textile market data, fashion trend reports, and industry statistics.",
+    "zh": "中国纺织信息中心是中国纺织工业联合会下属事业单位，负责纺织行业信息服务、趋势研究和标准检测。发布纺织市场数据、时尚趋势报告和行业统计。"
+  },
+  "data_content": {
+    "en": ["textile market statistics", "fashion trend reports", "industry production data", "trade statistics", "standard testing results"],
+    "zh": ["纺织市场统计", "时尚趋势报告", "行业生产数据", "贸易统计", "标准检测结果"]
+  },
+  "country": "CN",
+  "authority_level": "other",
+  "geographic_scope": "national",
+  "website": "https://www.ctic.org.cn",
+  "data_url": "https://www.ctic.org.cn",
+  "domains": ["manufacturing", "trade"],
+  "tags": ["textile", "fashion", "manufacturing", "trade", "industry-data"],
+  "update_frequency": "irregular"
+}
