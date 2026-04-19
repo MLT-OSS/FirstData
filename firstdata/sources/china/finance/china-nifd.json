@@ -1,0 +1,23 @@
+{
+  "id": "china-nifd",
+  "name": {
+    "en": "National Institution for Finance and Development",
+    "zh": "国家金融与发展实验室"
+  },
+  "description": {
+    "en": "The National Institution for Finance and Development (NIFD) is a national-level research think tank affiliated with the Chinese Academy of Social Sciences, focusing on macroeconomic analysis, financial market research, government debt tracking, and systemic risk assessment.",
+    "zh": "国家金融与发展实验室是中国社会科学院下属的国家级研究智库，专注于宏观经济分析、金融市场研究、政府债务跟踪和系统性风险评估。"
+  },
+  "data_content": {
+    "en": ["macroeconomic analysis reports", "financial market data", "government debt statistics", "systemic risk assessments", "quarterly economic reviews"],
+    "zh": ["宏观经济分析报告", "金融市场数据", "政府债务统计", "系统性风险评估", "季度经济评论"]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "http://www.nifd.cn",
+  "data_url": "http://www.nifd.cn",
+  "domains": ["finance", "economics"],
+  "tags": ["finance", "macroeconomics", "debt", "risk-assessment", "cass", "think-tank"],
+  "update_frequency": "quarterly"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "china-csic",
+  "name": {
+    "en": "Institute of Sociology, Chinese Academy of Social Sciences",
+    "zh": "中国社会科学院社会学研究所"
+  },
+  "description": {
+    "en": "The Institute of Sociology at the Chinese Academy of Social Sciences (CASS) is China's leading research institution for sociological studies. It conducts large-scale national surveys and publishes authoritative reports on social stratification, urbanization, family dynamics, and social governance.",
+    "zh": "中国社会科学院社会学研究所是中国社会学研究的核心机构，开展大规模全国性调查并发布社会分层、城镇化、家庭变迁和社会治理等领域的权威报告。"
+  },
+  "data_content": {
+    "en": ["social stratification surveys", "urbanization research data", "family dynamics studies", "social governance reports", "community development data"],
+    "zh": ["社会分层调查", "城镇化研究数据", "家庭变迁研究", "社会治理报告", "社区发展数据"]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "https://sociology.cssn.cn",
+  "data_url": "https://sociology.cssn.cn",
+  "domains": ["social-sciences"],
+  "tags": ["sociology", "social-sciences", "surveys", "urbanization", "cass"],
+  "update_frequency": "irregular"
+}
