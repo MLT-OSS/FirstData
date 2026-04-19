@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T06:22:53.197950+00:00",
-    "total_domains": 719,
-    "total_sources": 484,
+    "generated_at": "2026-04-19T01:28:38.214220+00:00",
+    "total_domains": 720,
+    "total_sources": 489,
     "version": "2.0"
   },
   "domains": {
@@ -5073,6 +5073,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cipd",
+        "name": {
+          "en": "China Population and Development Research Center",
+          "zh": "中国人口与发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpirc.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cipd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "egypt-capmas",
         "name": {
           "en": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
@@ -7967,6 +7979,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nifd",
+        "name": {
+          "en": "National Institution for Finance and Development",
+          "zh": "国家金融与发展实验室"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.nifd.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-nifd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mof",
         "name": {
           "en": "Ministry of Finance of China",
@@ -8230,6 +8254,18 @@
         "data_url": "https://chfs.swufe.edu.cn",
         "has_api": false,
         "file_path": "china/research/china-chfs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ciecc",
+        "name": {
+          "en": "China International Engineering Consulting Corporation",
+          "zh": "中国国际工程咨询有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ciecc.com.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ciecc.json",
         "geographic_scope": "national"
       },
       {
@@ -13569,6 +13605,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nifd",
+        "name": {
+          "en": "National Institution for Finance and Development",
+          "zh": "国家金融与发展实验室"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.nifd.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-nifd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-payment-clearing",
         "name": {
           "en": "Payment & Clearing Association of China",
@@ -16584,6 +16632,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cipd",
+        "name": {
+          "en": "China Population and Development Research Center",
+          "zh": "中国人口与发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpirc.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cipd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cncbd",
+        "name": {
+          "en": "China National Center for Biotechnology Development",
+          "zh": "中国生物技术发展中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cncbd.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cncbd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "kenya-knbs",
         "name": {
           "en": "Kenya National Bureau of Statistics",
@@ -19184,6 +19256,18 @@
         "data_url": "https://www.spb.gov.cn/gjyzj/c100009/c100014/xxgk_index.shtml",
         "has_api": false,
         "file_path": "china/infrastructure/china-spb.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ciecc",
+        "name": {
+          "en": "China International Engineering Consulting Corporation",
+          "zh": "中国国际工程咨询有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ciecc.com.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ciecc.json",
         "geographic_scope": "national"
       },
       {
@@ -25180,6 +25264,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cncbd",
+        "name": {
+          "en": "China National Center for Biotechnology Development",
+          "zh": "中国生物技术发展中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cncbd.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cncbd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-drc",
         "name": {
           "en": "Development Research Center of the State Council of China",
@@ -27073,6 +27169,20 @@
         "data_url": "https://www.coneval.org.mx",
         "has_api": false,
         "file_path": "countries/north-america/mexico/coneval.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "social-sciences": [
+      {
+        "id": "china-csic",
+        "name": {
+          "en": "Institute of Sociology, Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院社会学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://sociology.cssn.cn",
+        "has_api": false,
+        "file_path": "china/research/china-csic.json",
         "geographic_scope": "national"
       }
     ],

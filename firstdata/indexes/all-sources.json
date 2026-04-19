@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T06:22:53.197950+00:00",
-    "total_sources": 484,
+    "generated_at": "2026-04-19T01:28:38.214220+00:00",
+    "total_sources": 489,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -9254,6 +9254,53 @@
       "file_path": "china/finance/china-iac.json"
     },
     {
+      "id": "china-nifd",
+      "name": {
+        "en": "National Institution for Finance and Development",
+        "zh": "国家金融与发展实验室"
+      },
+      "description": {
+        "en": "The National Institution for Finance and Development (NIFD) is a national-level research think tank affiliated with the Chinese Academy of Social Sciences, focusing on macroeconomic analysis, financial market research, government debt tracking, and systemic risk assessment.",
+        "zh": "国家金融与发展实验室是中国社会科学院下属的国家级研究智库，专注于宏观经济分析、金融市场研究、政府债务跟踪和系统性风险评估。"
+      },
+      "data_content": {
+        "en": [
+          "macroeconomic analysis reports",
+          "financial market data",
+          "government debt statistics",
+          "systemic risk assessments",
+          "quarterly economic reviews"
+        ],
+        "zh": [
+          "宏观经济分析报告",
+          "金融市场数据",
+          "政府债务统计",
+          "系统性风险评估",
+          "季度经济评论"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "http://www.nifd.cn",
+      "data_url": "http://www.nifd.cn",
+      "domains": [
+        "finance",
+        "economics"
+      ],
+      "tags": [
+        "finance",
+        "macroeconomics",
+        "debt",
+        "risk-assessment",
+        "cass",
+        "think-tank"
+      ],
+      "update_frequency": "quarterly",
+      "has_api": false,
+      "file_path": "china/finance/china-nifd.json"
+    },
+    {
       "id": "china-payment-clearing",
       "name": {
         "en": "Payment & Clearing Association of China",
@@ -14237,6 +14284,189 @@
       },
       "has_api": false,
       "file_path": "china/research/china-chfs.json"
+    },
+    {
+      "id": "china-ciecc",
+      "name": {
+        "en": "China International Engineering Consulting Corporation",
+        "zh": "中国国际工程咨询有限公司"
+      },
+      "description": {
+        "en": "The China International Engineering Consulting Corporation (CIECC) is a state-owned consulting firm under the State Council, providing engineering consulting, project evaluation, and policy research services. It publishes investment analysis reports and infrastructure development assessments for national-level projects.",
+        "zh": "中国国际工程咨询有限公司是国务院国资委直属的国有咨询企业，提供工程咨询、项目评估和政策研究服务。发布投资分析报告和国家级项目基础设施发展评估。"
+      },
+      "data_content": {
+        "en": [
+          "infrastructure project evaluations",
+          "investment analysis reports",
+          "engineering consulting data",
+          "policy research publications",
+          "economic feasibility studies"
+        ],
+        "zh": [
+          "基础设施项目评估",
+          "投资分析报告",
+          "工程咨询数据",
+          "政策研究出版物",
+          "经济可行性研究"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.ciecc.com.cn",
+      "data_url": "https://www.ciecc.com.cn",
+      "domains": [
+        "infrastructure",
+        "economics"
+      ],
+      "tags": [
+        "engineering",
+        "consulting",
+        "infrastructure",
+        "investment",
+        "state-council"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-ciecc.json"
+    },
+    {
+      "id": "china-cipd",
+      "name": {
+        "en": "China Population and Development Research Center",
+        "zh": "中国人口与发展研究中心"
+      },
+      "description": {
+        "en": "The China Population and Development Research Center (CPDRC) is a national-level research institution under the National Health Commission, focusing on population dynamics, demographic trends, family planning evaluation, and population forecasting models for policy support.",
+        "zh": "中国人口与发展研究中心是国家卫健委直属的国家级研究机构，专注于人口动态、人口趋势、计划生育评估和人口预测模型等领域的研究，为政策制定提供支撑。"
+      },
+      "data_content": {
+        "en": [
+          "population statistics",
+          "demographic projections",
+          "fertility surveys",
+          "family planning data",
+          "population development reports"
+        ],
+        "zh": [
+          "人口统计数据",
+          "人口预测",
+          "生育调查",
+          "计划生育数据",
+          "人口发展报告"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.cpirc.org.cn",
+      "data_url": "https://www.cpirc.org.cn",
+      "domains": [
+        "demographics",
+        "health"
+      ],
+      "tags": [
+        "population",
+        "demographics",
+        "fertility",
+        "family-planning",
+        "health-commission"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-cipd.json"
+    },
+    {
+      "id": "china-cncbd",
+      "name": {
+        "en": "China National Center for Biotechnology Development",
+        "zh": "中国生物技术发展中心"
+      },
+      "description": {
+        "en": "The China National Center for Biotechnology Development (CNCBD) is a public institution under the Ministry of Science and Technology, responsible for biotechnology policy research, project management, and biosafety assessment. It publishes annual biotechnology development reports and manages national key biotech programs.",
+        "zh": "中国生物技术发展中心是科技部直属事业单位，负责生物技术政策研究、项目管理和生物安全评估。发布年度生物技术发展报告，管理国家重点生物技术计划。"
+      },
+      "data_content": {
+        "en": [
+          "biotechnology development reports",
+          "biosafety assessments",
+          "biotech project data",
+          "pharmaceutical R&D statistics",
+          "gene technology policies"
+        ],
+        "zh": [
+          "生物技术发展报告",
+          "生物安全评估",
+          "生物技术项目数据",
+          "医药研发统计",
+          "基因技术政策"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.cncbd.org.cn",
+      "data_url": "https://www.cncbd.org.cn",
+      "domains": [
+        "science",
+        "health"
+      ],
+      "tags": [
+        "biotechnology",
+        "biosafety",
+        "pharmaceutical",
+        "most",
+        "science-policy"
+      ],
+      "update_frequency": "annual",
+      "has_api": false,
+      "file_path": "china/research/china-cncbd.json"
+    },
+    {
+      "id": "china-csic",
+      "name": {
+        "en": "Institute of Sociology, Chinese Academy of Social Sciences",
+        "zh": "中国社会科学院社会学研究所"
+      },
+      "description": {
+        "en": "The Institute of Sociology at the Chinese Academy of Social Sciences (CASS) is China's leading research institution for sociological studies. It conducts large-scale national surveys and publishes authoritative reports on social stratification, urbanization, family dynamics, and social governance.",
+        "zh": "中国社会科学院社会学研究所是中国社会学研究的核心机构，开展大规模全国性调查并发布社会分层、城镇化、家庭变迁和社会治理等领域的权威报告。"
+      },
+      "data_content": {
+        "en": [
+          "social stratification surveys",
+          "urbanization research data",
+          "family dynamics studies",
+          "social governance reports",
+          "community development data"
+        ],
+        "zh": [
+          "社会分层调查",
+          "城镇化研究数据",
+          "家庭变迁研究",
+          "社会治理报告",
+          "社区发展数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://sociology.cssn.cn",
+      "data_url": "https://sociology.cssn.cn",
+      "domains": [
+        "social-sciences"
+      ],
+      "tags": [
+        "sociology",
+        "social-sciences",
+        "surveys",
+        "urbanization",
+        "cass"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-csic.json"
     },
     {
       "id": "china-drc",

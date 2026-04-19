@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T06:22:53.197950+00:00",
-    "total_sources": 484,
+    "generated_at": "2026-04-19T01:28:38.214220+00:00",
+    "total_sources": 489,
     "authority_counts": {
-      "research": 60,
+      "research": 63,
       "international": 74,
-      "government": 269,
+      "government": 271,
       "other": 38,
       "market": 27,
       "commercial": 16
@@ -208,6 +208,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "china-nifd",
+        "name": {
+          "en": "National Institution for Finance and Development",
+          "zh": "国家金融与发展实验室"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.nifd.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-nifd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cams",
         "name": {
           "en": "Chinese Academy of Medical Sciences (CAMS)",
@@ -373,6 +385,30 @@
         "data_url": "https://chfs.swufe.edu.cn",
         "has_api": false,
         "file_path": "china/research/china-chfs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cipd",
+        "name": {
+          "en": "China Population and Development Research Center",
+          "zh": "中国人口与发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpirc.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cipd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csic",
+        "name": {
+          "en": "Institute of Sociology, Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院社会学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://sociology.cssn.cn",
+        "has_api": false,
+        "file_path": "china/research/china-csic.json",
         "geographic_scope": "national"
       },
       {
@@ -3144,6 +3180,30 @@
         "data_url": "https://www.stats.gov.cn/sj/",
         "has_api": true,
         "file_path": "china/national/nbs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ciecc",
+        "name": {
+          "en": "China International Engineering Consulting Corporation",
+          "zh": "中国国际工程咨询有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ciecc.com.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ciecc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cncbd",
+        "name": {
+          "en": "China National Center for Biotechnology Development",
+          "zh": "中国生物技术发展中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cncbd.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cncbd.json",
         "geographic_scope": "national"
       },
       {
