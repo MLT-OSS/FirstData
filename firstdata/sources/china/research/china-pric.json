@@ -1,0 +1,87 @@
+{
+  "id": "china-pric",
+  "name": {
+    "en": "Polar Research Institute of China",
+    "zh": "中国极地研究中心"
+  },
+  "description": {
+    "en": "The Polar Research Institute of China (PRIC), also known as the Chinese Arctic and Antarctic Administration Research Institute, is China's principal organization for polar research under the Ministry of Natural Resources. PRIC operates and maintains China's polar research stations including Zhongshan Station and Great Wall Station in Antarctica, and Yellow River Station in the Arctic (Svalbard, Norway). PRIC manages the National Cryosphere Desert Data Center, which provides multi-decadal observational datasets on ice sheet dynamics, sea ice extent, permafrost, glacier mass balance, polar meteorology, and atmospheric chemistry in both polar regions. PRIC also coordinates China's National Arctic and Antarctic Expeditions (CHINAREs), archiving expedition data, biological samples, ice core records, and oceanographic observations spanning over 40 years of polar exploration. The institute publishes annual Chinese Antarctic Expedition Reports and Arctic Research Progress Reports that are primary references for global polar science.",
+    "zh": "中国极地研究中心（PRIC，又称中国极地研究所）是自然资源部下属的极地研究主体机构，负责建设和维护中国在南极的中山站、长城站以及北极黄河站（位于挪威斯瓦尔巴群岛）。中心管理国家冰冻圈沙漠数据中心，提供南北极冰盖动力学、海冰范围、多年冻土、冰川物质平衡、极地气象及大气化学的多年代际观测数据集。PRIC还统筹协调中国南北极科学考察（CHINAREs），归档跨越40余年极地探索的科考数据、生物样本、冰芯记录及海洋观测资料。中心发布年度中国南极考察报告和北极研究进展报告，是全球极地科学研究的重要参考来源。"
+  },
+  "website": "https://www.pric.org.cn/",
+  "data_url": "https://www.pric.org.cn/detail/News.aspx?id=11",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "environment",
+    "climate",
+    "ocean",
+    "science"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国极地研究中心",
+    "PRIC",
+    "Polar Research Institute of China",
+    "南极",
+    "Antarctica",
+    "北极",
+    "Arctic",
+    "冰盖",
+    "ice sheet",
+    "海冰",
+    "sea ice",
+    "多年冻土",
+    "permafrost",
+    "冰川",
+    "glacier",
+    "极地气象",
+    "polar meteorology",
+    "中山站",
+    "Zhongshan Station",
+    "长城站",
+    "Great Wall Station",
+    "黄河站",
+    "Yellow River Station",
+    "中国南极科学考察",
+    "CHINARE",
+    "冰芯",
+    "ice core",
+    "极地海洋",
+    "polar ocean",
+    "气候变化",
+    "climate change",
+    "冰冻圈",
+    "cryosphere",
+    "自然资源部",
+    "Ministry of Natural Resources"
+  ],
+  "data_content": {
+    "en": [
+      "Sea ice extent data: long-term records of Arctic and Antarctic sea ice area, concentration, and thickness derived from satellite remote sensing and in-situ observations",
+      "Ice sheet dynamics: mass balance measurements, ice velocity, and surface elevation change data for Antarctic ice sheets from Chinese expedition surveys",
+      "Polar meteorological observations: surface and upper-atmosphere temperature, pressure, wind, humidity, and radiation data from China's polar stations dating back to 1985",
+      "Glacier and snow datasets: glacier mass balance, snow depth, and snowpack water equivalent measurements from polar and high-altitude monitoring programs",
+      "Permafrost data: active layer thickness, permafrost temperature profiles, and thaw settlement measurements from Arctic and sub-Antarctic sites",
+      "Ice core records: chemical, isotopic, and physical properties of ice cores from Antarctic inland drilling projects, providing paleoclimate proxies spanning centuries",
+      "Oceanographic observations: water temperature, salinity, current, and biogeochemical profiles from polar ocean expedition cruises",
+      "Atmospheric chemistry: trace gas (CO2, CH4, N2O) and aerosol data from polar stations, contributing to global baseline monitoring",
+      "Annual Antarctic expedition reports: comprehensive documentation of each Chinese National Antarctic Research Expedition including scientific findings, logistics, and environmental data",
+      "Polar biodiversity: biological sample data from Antarctic marine ecosystems, penguins, krill populations, and microbial communities"
+    ],
+    "zh": [
+      "海冰范围数据：基于卫星遥感和现场观测的南北极海冰面积、密集度和厚度长时间序列记录",
+      "冰盖动力学：中国科考队对南极冰盖物质平衡测量、冰流速度及表面高程变化数据",
+      "极地气象观测：中国极地考察站1985年以来的地面和高空温度、气压、风速、湿度及辐射数据",
+      "冰川和积雪数据集：极地及高海拔监测项目的冰川物质平衡、雪深和雪水当量测量数据",
+      "多年冻土数据：北极和亚南极地区活动层厚度、冻土温度剖面及融化沉降测量",
+      "冰芯记录：南极内陆钻探项目冰芯的化学、同位素和物理特性数据，提供跨越数百年的古气候代用指标",
+      "海洋观测：极地科考航次的水温、盐度、洋流和生物地球化学剖面数据",
+      "大气化学：极地考察站温室气体（CO2、CH4、N2O）和气溶胶数据，为全球基线监测提供贡献",
+      "年度南极科考报告：中国历次南极科学考察的科学发现、后勤保障和环境数据综合记录",
+      "极地生物多样性：南极海洋生态系统、企鹅、磷虾种群及微生物群落生物样本数据"
+    ]
+  }
+}

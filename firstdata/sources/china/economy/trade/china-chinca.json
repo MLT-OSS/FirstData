@@ -1,0 +1,80 @@
+{
+  "id": "china-chinca",
+  "name": {
+    "en": "China International Contractors Association",
+    "zh": "中国对外承包工程商会"
+  },
+  "description": {
+    "en": "The China International Contractors Association (CHINCA) is the national industry organization representing Chinese enterprises engaged in international contracting, overseas investment, and project-related services. Operating under the supervision of the Ministry of Commerce, CHINCA represents over 1,500 member companies involved in infrastructure construction, engineering services, and overseas project financing across more than 180 countries. CHINCA publishes the authoritative annual Survey of China's International Contractors, which covers total overseas contracting revenue, newly signed contract value, project completions by sector (transportation, housing, energy, telecoms, industrial), geographic distribution, and enterprise rankings. The association also reports data on labor export, overseas engineering equipment value, and projects under Belt and Road Initiative (BRI) countries. CHINCA's statistics are the primary reference for tracking China's overseas construction footprint, infrastructure diplomacy, and international engineering services market share.",
+    "zh": "中国对外承包工程商会（CHINCA）是代表从事国际工程承包、境外投资及相关服务中国企业的全国性行业组织，在商务部指导下运作，会员企业超过1500家，业务覆盖180多个国家的基础设施建设、工程服务和境外项目融资领域。CHINCA发布权威年度《中国对外承包工程商会行业报告》，涵盖境外承包工程营业额、新签合同额、按行业（交通、房建、能源、通信、工业）分类的项目完成情况、地域分布及企业排名。商会还发布劳务输出、境外工程机械设备价值以及《一带一路》沿线国家项目数据。CHINCA统计数据是追踪中国境外建设足迹、基础设施外交及国际工程服务市场份额的主要参考来源。"
+  },
+  "website": "https://www.chinca.org/",
+  "data_url": "https://www.chinca.org/CICA/info/20-1/index.html",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "trade",
+    "economics",
+    "infrastructure",
+    "construction"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国对外承包工程商会",
+    "CHINCA",
+    "China International Contractors Association",
+    "对外承包工程",
+    "overseas contracting",
+    "国际工程",
+    "international engineering",
+    "境外投资",
+    "overseas investment",
+    "新签合同额",
+    "newly signed contracts",
+    "营业额",
+    "contracting revenue",
+    "一带一路",
+    "Belt and Road Initiative",
+    "BRI",
+    "基础设施建设",
+    "infrastructure construction",
+    "工程承包",
+    "engineering contracting",
+    "劳务输出",
+    "labor export",
+    "交通基础设施",
+    "transportation infrastructure",
+    "能源工程",
+    "energy engineering",
+    "企业排名",
+    "enterprise ranking",
+    "MOFCOM",
+    "商务部"
+  ],
+  "data_content": {
+    "en": [
+      "Annual overseas contracting revenue: total revenue earned by Chinese contractors from overseas projects, disaggregated by sector and geographic region",
+      "Newly signed contracts value: annual value of new international project contracts signed by Chinese companies, by country and sector",
+      "Project sector breakdown: overseas contract values for transportation, housing and real estate, energy and power, telecommunications, industrial, and other sectors",
+      "Geographic distribution: value and project count by region (Africa, Asia, Europe, Latin America, Middle East, Oceania) and top 50 destination countries",
+      "BRI country statistics: dedicated data on Chinese overseas contracting in Belt and Road Initiative partner countries, tracking growth trends since 2013",
+      "Top contractor rankings: annual list of China's top 100 international contractors by revenue and newly signed contracts, enabling trend analysis",
+      "Labor services: statistics on overseas labor export by Chinese companies linked to contracting projects",
+      "Equipment and materials export: value of engineering machinery and equipment exported as part of overseas construction projects",
+      "Annual industry survey report: comprehensive analysis of industry trends, challenges, policy environment, and outlook for Chinese overseas contractors"
+    ],
+    "zh": [
+      "年度境外承包工程营业额：中国承包商境外项目收入总额，按行业和地理区域细分",
+      "新签合同额：中国企业年度新签国际项目合同总额，按国家和行业分类",
+      "项目行业分布：交通运输、房屋建筑、能源电力、通信、工业及其他领域的境外合同额",
+      "地区分布：按区域（非洲、亚洲、欧洲、拉美、中东、大洋洲）及前50目的地国统计的合同额和项目数量",
+      "\"一带一路\"国家统计：中国在\"一带一路\"沿线国家境外承包工程专项数据，追踪2013年以来增长趋势",
+      "承包商排名：按营业额和新签合同额列出的年度中国对外承包工程企业百强名单",
+      "劳务输出：与承包工程项目相关的中国企业境外劳务统计",
+      "设备材料出口：境外建设项目带动出口的工程机械设备价值",
+      "年度行业调查报告：中国对外承包工程行业趋势、挑战、政策环境及展望综合分析"
+    ]
+  }
+}
