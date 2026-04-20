@@ -1,0 +1,83 @@
+{
+  "id": "china-automation-association",
+  "name": {
+    "en": "Chinese Association of Automation",
+    "zh": "中国自动化学会"
+  },
+  "description": {
+    "en": "The Chinese Association of Automation (CAA) is a national academic society under the China Association for Science and Technology (CAST) that represents researchers and practitioners in automation, control systems, robotics, and intelligent manufacturing. Founded in 1961, CAA has over 40,000 members across academia, research institutes, and industry. CAA publishes the Journal of Automation (自动化学报), IEEE/CAA Journal of Automatica Sinica (an international SCI journal), and periodical reports on China's automation technology development, intelligent manufacturing standards, and robotics industry statistics. The association organizes the annual China Automation Congress (CAC), the largest automation academic conference in China, and compiles industry white papers on artificial intelligence in manufacturing, industrial Internet of Things (IIoT), and autonomous systems. CAA data and reports are primary references for tracking China's industrial automation penetration, R&D investment in control technology, and the diffusion of smart manufacturing across sectors.",
+    "zh": "中国自动化学会（CAA）是中国科学技术协会下属的全国性学术团体，代表自动化、控制系统、机器人及智能制造领域的科研人员和从业者。成立于1961年的CAA拥有超过40000名来自学界、科研机构和产业界的会员。CAA出版《自动化学报》《IEEE/CAA控制与信息学报》（国际SCI期刊）及中国自动化技术发展、智能制造标准和机器人行业统计定期报告。学会主办中国最大的自动化学术会议——中国自动化大会（CAC），并编制人工智能在制造业中的应用、工业物联网（IIoT）及自主系统领域白皮书。CAA的数据和报告是追踪中国工业自动化普及率、控制技术研发投入及智能制造跨行业扩散情况的主要参考。"
+  },
+  "website": "https://www.caa.org.cn/",
+  "data_url": "https://www.caa.org.cn/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "robotics",
+    "manufacturing"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国自动化学会",
+    "CAA",
+    "Chinese Association of Automation",
+    "自动化",
+    "automation",
+    "控制系统",
+    "control systems",
+    "机器人",
+    "robotics",
+    "智能制造",
+    "intelligent manufacturing",
+    "自动化学报",
+    "Journal of Automation",
+    "IEEE/CAA",
+    "工业物联网",
+    "Industrial Internet of Things",
+    "IIoT",
+    "人工智能",
+    "artificial intelligence",
+    "AI",
+    "中国自动化大会",
+    "China Automation Congress",
+    "CAC",
+    "自主系统",
+    "autonomous systems",
+    "中国科学技术协会",
+    "CAST",
+    "工业自动化",
+    "industrial automation",
+    "智能控制",
+    "intelligent control",
+    "机器视觉",
+    "machine vision"
+  ],
+  "data_content": {
+    "en": [
+      "China automation technology development reports: annual assessment of automation technology R&D progress, industrialization levels, and market penetration by manufacturing sector",
+      "Robotics industry white papers: statistics on industrial robot density (robots per 10,000 workers), adoption rates by industry, and domestic vs. imported robot market share",
+      "Intelligent manufacturing standards tracking: status of China's national and industry standards for intelligent manufacturing, IIoT protocols, and cyber-physical systems",
+      "Academic publication data: citation metrics, research output volumes, and key research themes from Journal of Automatica Sinica and CAA member publications",
+      "China Automation Congress proceedings: annual conference abstracts and technical topics reflecting cutting-edge research in control, AI, robotics, and autonomous systems",
+      "AI in manufacturing surveys: enterprise adoption rates of AI-powered quality control, predictive maintenance, and process optimization across Chinese industrial sectors",
+      "Control system market analysis: market size and growth data for distributed control systems (DCS), programmable logic controllers (PLC), and SCADA systems in China",
+      "Member institution data: geographic and sector distribution of CAA member universities, research institutes, and enterprises active in automation R&D",
+      "International collaboration metrics: data on joint research projects, international standard participation, and academic exchange programs involving Chinese automation researchers"
+    ],
+    "zh": [
+      "中国自动化技术发展报告：按制造行业分类的自动化技术研发进展、产业化水平和市场渗透率年度评估",
+      "机器人行业白皮书：工业机器人密度（每万名工人机器人数量）、各行业采用率及国产与进口机器人市场份额统计",
+      "智能制造标准追踪：中国智能制造、工业物联网协议及信息物理系统国家标准和行业标准制定进展",
+      "学术出版数据：《IEEE/CAA控制与信息学报》及CAA会员出版物的引用指标、研究产出量和主要研究方向",
+      "中国自动化大会论文集：年度会议摘要及控制、人工智能、机器人和自主系统前沿研究技术专题",
+      "制造业人工智能应用调查：中国各工业行业AI驱动质量控制、预测性维护和流程优化的企业采用率",
+      "控制系统市场分析：中国分布式控制系统（DCS）、可编程逻辑控制器（PLC）和SCADA系统市场规模及增长数据",
+      "会员机构数据：CAA会员高校、科研机构和企业在自动化研发领域的地域分布和行业分布",
+      "国际合作指标：中国自动化领域研究人员参与联合研究项目、国际标准制定和学术交流的数据"
+    ]
+  }
+}

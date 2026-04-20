@@ -1,0 +1,80 @@
+{
+  "id": "china-cnas",
+  "name": {
+    "en": "China National Accreditation Service for Conformity Assessment",
+    "zh": "中国合格评定国家认可委员会"
+  },
+  "description": {
+    "en": "The China National Accreditation Service for Conformity Assessment (CNAS) is the sole national accreditation body in China authorized by the government to operate under the Regulations on Certification and Accreditation. CNAS accredits testing laboratories, calibration laboratories, inspection bodies, certification bodies, and proficiency testing providers according to international standards (ISO/IEC 17000 series). As of 2024, CNAS has accredited over 17,000 laboratories and hundreds of certification and inspection bodies, covering fields including food safety, environmental monitoring, medical devices, electronics, and construction materials. CNAS publishes official accreditation directories, accreditation criteria, statistical reports on accredited entities by type and sector, and annual accreditation development reports. CNAS accreditation is internationally recognized through mutual recognition arrangements (MRA) with ILAC and IAF, making it the authoritative source for China's conformity assessment ecosystem data.",
+    "zh": "中国合格评定国家认可委员会（CNAS）是经国务院授权、依据《认证认可条例》设立的中国唯一国家级认可机构。CNAS依据ISO/IEC 17000系列国际标准，对检测实验室、校准实验室、检验机构、认证机构及能力验证提供者开展认可活动。截至2024年，CNAS已认可超过17000家实验室及数百家认证和检验机构，覆盖食品安全、环境监测、医疗器械、电子电器、建筑材料等领域。CNAS发布认可机构名录、认可准则、分行业认可机构统计报告及年度认可工作报告。CNAS认可结果通过与国际实验室认可合作组织（ILAC）和国际认可论坛（IAF）签订的多边互认协议（MRA）获得国际认可，是中国合格评定生态系统数据的权威来源。"
+  },
+  "website": "https://www.cnas.org.cn/",
+  "data_url": "https://www.cnas.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "technology",
+    "standards",
+    "quality"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国合格评定国家认可委员会",
+    "CNAS",
+    "China National Accreditation Service",
+    "实验室认可",
+    "laboratory accreditation",
+    "认证机构",
+    "certification body",
+    "检验机构",
+    "inspection body",
+    "合格评定",
+    "conformity assessment",
+    "ISO/IEC 17025",
+    "校准实验室",
+    "calibration laboratory",
+    "食品安全检测",
+    "food safety testing",
+    "环境检测",
+    "environmental testing",
+    "医疗器械检验",
+    "medical device inspection",
+    "ILAC",
+    "IAF",
+    "互认协议",
+    "mutual recognition",
+    "质量认证",
+    "quality certification",
+    "能力验证",
+    "proficiency testing",
+    "计量认可",
+    "metrology accreditation"
+  ],
+  "data_content": {
+    "en": [
+      "Accredited laboratory directory: searchable database of over 17,000 CNAS-accredited testing and calibration laboratories in China, with scope of accreditation by test type and field",
+      "Certification body directory: list of CNAS-accredited certification bodies authorized to issue product, system, and personnel certifications",
+      "Inspection body directory: accredited inspection organizations with scopes covering construction, food, environment, transportation, and industrial sectors",
+      "Proficiency testing providers: organizations authorized to conduct proficiency testing programs for laboratory competence assessment",
+      "Accreditation statistics: annual and periodic statistics on accredited entity count, growth trends, and distribution by sector and province",
+      "Annual accreditation development report: comprehensive report on CNAS activities, accreditation numbers, international cooperation, and policy developments",
+      "Accreditation criteria and documents: technical criteria, assessment procedures, and guidance documents for laboratories and certification bodies",
+      "International MRA scope: details of mutual recognition arrangement coverage with ILAC and IAF, specifying which accreditation categories are internationally recognized",
+      "Suspension and withdrawal records: publicly disclosed cases of suspended or withdrawn accreditation for non-compliant entities"
+    ],
+    "zh": [
+      "认可实验室名录：超过17000家CNAS认可检测和校准实验室的可检索数据库，含按检测类型和领域分类的认可范围",
+      "认证机构名录：CNAS认可的产品、体系、人员认证机构列表",
+      "检验机构名录：覆盖建筑、食品、环境、交通、工业等领域的认可检验机构",
+      "能力验证提供者：获授权开展实验室能力验证计划的机构",
+      "认可统计数据：认可机构数量、增长趋势及按行业、省份分布的年度和定期统计",
+      "年度认可工作报告：涵盖CNAS活动、认可数量、国际合作及政策进展的综合报告",
+      "认可准则和文件：实验室和认证机构的技术准则、评审程序和指导文件",
+      "国际互认范围：与ILAC和IAF互认协议覆盖情况及各认可类别的国际认可详情",
+      "暂停和撤销记录：不符合要求机构被暂停或撤销认可的公示记录"
+    ]
+  }
+}

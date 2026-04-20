@@ -1,0 +1,85 @@
+{
+  "id": "china-hk-censtatd",
+  "name": {
+    "en": "Hong Kong Census and Statistics Department",
+    "zh": "香港政府统计处"
+  },
+  "description": {
+    "en": "The Census and Statistics Department (C&SD) of the Hong Kong Special Administrative Region is the principal government agency responsible for compiling and analyzing official statistics for Hong Kong. C&SD produces comprehensive statistical data on Hong Kong's economy, population, trade, labor market, prices, and social conditions. As an internationally recognized statistical office, C&SD adheres to the IMF's Special Data Dissemination Standard (SDDS) and publishes quarterly GDP estimates, monthly consumer price indices, external trade statistics, labor force surveys, and the population census conducted every ten years. Hong Kong's role as a major global financial hub and Asia's largest offshore RMB settlement center makes C&SD data critical for tracking SAR economic performance, cross-border trade flows, RMB internationalization, and the integration of Hong Kong with the Greater Bay Area (GBA). C&SD operates the online data portal HK Statistics, providing free access to over 100 statistical tables and time series datasets.",
+    "zh": "香港特别行政区政府统计处（统计处）是负责编制和分析香港官方统计数据的主要政府机构。统计处提供涵盖香港经济、人口、贸易、劳动力市场、物价及社会状况的全面统计数据。作为国际认可的统计机构，统计处遵循国际货币基金组织数据公布特殊标准（SDDS），发布季度本地生产总值估算、月度消费物价指数、对外贸易统计、劳动力调查及每十年一次的人口普查数据。香港作为全球主要金融中心和亚洲最大离岸人民币结算中心，统计处数据对追踪香港特区经济表现、跨境贸易流量、人民币国际化进程以及香港与粤港澳大湾区融合具有重要意义。统计处运营《香港统计数字一览》在线数据门户，免费提供100多个统计表格和时间序列数据集。"
+  },
+  "website": "https://www.censtatd.gov.hk/",
+  "data_url": "https://www.censtatd.gov.hk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "demographics",
+    "trade",
+    "statistics",
+    "finance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "香港政府统计处",
+    "Census and Statistics Department",
+    "C&SD",
+    "CENSTATD",
+    "香港",
+    "Hong Kong",
+    "特别行政区",
+    "Special Administrative Region",
+    "SAR",
+    "香港GDP",
+    "Hong Kong GDP",
+    "消费物价指数",
+    "Consumer Price Index",
+    "CPI",
+    "对外贸易",
+    "external trade",
+    "劳动力调查",
+    "labor force survey",
+    "人口普查",
+    "census",
+    "离岸人民币",
+    "offshore RMB",
+    "大湾区",
+    "Greater Bay Area",
+    "GBA",
+    "IMF SDDS",
+    "零售销售",
+    "retail sales",
+    "工业生产",
+    "industrial production",
+    "房屋统计",
+    "housing statistics"
+  ],
+  "data_content": {
+    "en": [
+      "GDP and national accounts: quarterly GDP estimates, expenditure-based national accounts, and GDP by major economic activity for Hong Kong SAR",
+      "Consumer Price Index: monthly CPI by category (composite, category A/B/C households), inflation trends, and comparison with historical baselines",
+      "External trade statistics: monthly merchandise trade data including total imports, domestic exports, re-exports by commodity group and trading partner",
+      "Labor force survey: quarterly unemployment rate, underemployment rate, labor force participation, employment by industry, and median wage data",
+      "Population statistics: mid-year population estimates, demographic projections, birth and death rates, and migration data for Hong Kong",
+      "Retail sales: monthly retail sales value and volume by retail outlet type (food, clothing, electronics, jewelry, etc.) and year-on-year changes",
+      "Industrial production: quarterly index of industrial production for Hong Kong's manufacturing sector",
+      "Business statistics: enterprise counts, business registration trends, and establishment-based employment surveys by industry",
+      "Housing and construction: property prices, rental indices, number of housing units, construction output, and vacancy rates in Hong Kong",
+      "Social statistics: household income distribution, poverty statistics, Gini coefficient, education attainment, and social welfare expenditure data from household surveys"
+    ],
+    "zh": [
+      "GDP和国民账户：香港特区季度本地生产总值估算、支出法国民账户及按主要经济活动分类的GDP",
+      "消费物价指数：月度综合消费物价指数及甲乙丙类住户分类指数、通胀趋势及历史基准比较",
+      "对外贸易统计：月度货品贸易数据，包括按商品类别和贸易伙伴分类的总进口、本地出口和转口数据",
+      "劳动力调查：季度失业率、就业不足率、劳动参与率、分行业就业及工资中位数",
+      "人口统计：年中人口估算、人口预测、出生和死亡率及香港移民数据",
+      "零售业销售：按零售点类别（食品、服装、电子、珠宝等）统计的月度零售销售额和销售量及同比变化",
+      "工业生产：香港制造业季度工业生产指数",
+      "商业统计：按行业统计的企业数量、商业登记趋势及就业调查",
+      "房屋和建造：香港楼价、租金指数、住宅单位数量、建造产值及空置率",
+      "社会统计：住户收入分布、贫穷统计、基尼系数、教育程度及家庭住户调查的社会福利支出数据"
+    ]
+  }
+}
