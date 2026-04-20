@@ -1,0 +1,79 @@
+{
+  "id": "china-ndrcc",
+  "name": {
+    "en": "National Disaster Reduction Center of China",
+    "zh": "国家减灾中心"
+  },
+  "description": {
+    "en": "The National Disaster Reduction Center of China (NDRCC) is a key technical and operational institution under the Ministry of Emergency Management (MEM), responsible for comprehensive disaster risk assessment, satellite-based disaster monitoring, and disaster information management at the national level. NDRCC operates the National Disaster Reduction and Relief Coordination Platform and integrates data from multiple hazard monitoring systems to provide authoritative disaster statistics, risk maps, and impact assessments. It manages the national disaster loss assessment system, conducts post-disaster rapid assessment using satellite remote sensing, and publishes disaster risk and vulnerability data for all provinces and counties in China. NDRCC also supports China's international disaster reduction cooperation under the Sendai Framework for Disaster Risk Reduction.",
+    "zh": "国家减灾中心是应急管理部下属负责综合灾害风险评估、卫星灾情监测和国家级灾害信息管理的重要技术与业务机构。国家减灾中心运行国家减灾救灾综合协调平台，整合多灾种监测系统数据，提供权威灾害统计数据、风险区划图和影响评估报告。其职责包括管理国家自然灾害损失评估体系、利用卫星遥感开展灾后快速评估，并发布全国省县两级灾害风险和脆弱性数据。国家减灾中心亦支持中国在《仙台减灾框架》下开展的国际减灾合作。"
+  },
+  "website": "https://www.ndrcc.org.cn/",
+  "data_url": "https://www.ndrcc.org.cn/ndrcc/dhsj/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "governance",
+    "statistics",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "国家减灾中心",
+    "NDRCC",
+    "National Disaster Reduction Center",
+    "灾害风险",
+    "disaster risk",
+    "自然灾害",
+    "natural disaster",
+    "减灾救灾",
+    "disaster reduction",
+    "卫星遥感",
+    "satellite remote sensing",
+    "灾情监测",
+    "disaster monitoring",
+    "灾害损失评估",
+    "disaster loss assessment",
+    "灾害风险区划",
+    "disaster risk zoning",
+    "应急管理部",
+    "MEM",
+    "防灾减灾",
+    "disaster prevention",
+    "灾害数据",
+    "disaster data",
+    "仙台框架",
+    "Sendai Framework",
+    "综合减灾",
+    "integrated disaster reduction"
+  ],
+  "data_content": {
+    "en": [
+      "National natural disaster statistics: monthly and annual loss data for all major disaster types including floods, droughts, earthquakes, geological hazards, and typhoons, with breakdowns by region",
+      "Disaster risk assessment maps: national and provincial risk maps for multiple hazard types, including hazard exposure, vulnerability, and composite risk indices",
+      "Satellite disaster monitoring reports: near-real-time satellite remote sensing analysis of disaster-affected areas, crop damage, and infrastructure impacts",
+      "Disaster loss assessment reports: post-disaster rapid assessment results for major events, including affected population, casualties, economic losses, and damaged infrastructure",
+      "County-level disaster risk data: fine-scale risk and vulnerability metrics for all counties in China used for disaster prevention planning",
+      "Disaster event database: historical records of significant disaster events in China with standardized damage and loss data",
+      "Agricultural disaster statistics: crop loss data and farmland damage statistics by disaster type and growing season",
+      "Housing damage records: data on collapsed and damaged residential structures following major disasters by province",
+      "Emergency relocation data: statistics on displaced populations requiring emergency resettlement and shelter assistance",
+      "International disaster reduction cooperation reports: documentation of China's participation in Sendai Framework monitoring and bilateral disaster risk reduction partnerships"
+    ],
+    "zh": [
+      "全国自然灾害统计：各类主要灾害（洪涝、干旱、地震、地质灾害、台风等）月度和年度损失数据，按地区细分",
+      "灾害风险评估区划图：多灾种全国和省级风险图，包括致灾因子危险性、承灾体脆弱性及综合风险指数",
+      "卫星灾情监测报告：对灾害受损区域、农作物受损及基础设施影响的近实时卫星遥感分析",
+      "灾害损失评估报告：重大灾害事件的快速评估结果，包括受灾人口、人员伤亡、经济损失及基础设施受损情况",
+      "县级灾害风险数据：用于防灾规划的全国各县细粒度风险和脆弱性指标",
+      "灾害事件数据库：中国重大灾害事件历史记录及标准化受损数据",
+      "农业灾害统计：按灾害类型和农时季节分类的农作物损失及耕地受损数据",
+      "住房受损记录：省级重大灾害后倒塌和损坏民房数据",
+      "应急转移安置数据：需紧急转移安置和临时庇护援助受灾人口统计",
+      "国际减灾合作报告：中国参与仙台框架监测及双边减灾合作的文件记录"
+    ]
+  }
+}

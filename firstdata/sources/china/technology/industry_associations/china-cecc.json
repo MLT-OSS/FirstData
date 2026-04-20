@@ -1,0 +1,78 @@
+{
+  "id": "china-cecc",
+  "name": {
+    "en": "China Electronics Chamber of Commerce",
+    "zh": "中国电子商会"
+  },
+  "description": {
+    "en": "The China Electronics Chamber of Commerce (CECC) is a national industry association established in 1988, operating under the guidance of the Ministry of Industry and Information Technology (MIIT). CECC represents enterprises engaged in manufacturing, trading, and distributing electronic information products across China, with over 8,000 member companies spanning 21 regional branches, 19 professional committees, and 6 industry alliances. The chamber publishes authoritative market statistics, industry development reports, and pricing indices for consumer electronics, home appliances, IT products, and emerging tech categories. It tracks domestic and export trends, conducts industry surveys, and releases data on production output, market share, and enterprise performance in China's electronics sector.",
+    "zh": "中国电子商会（CECC）是于1988年成立的全国性行业协会，业务受工业和信息化部指导。商会代表全国生产经营电子信息产品的企业，拥有8000余家会员单位，下设21个地方电子商会、19个专业委员会和6个产业联盟。商会发布消费电子、家电、IT产品及新兴技术品类的权威市场统计数据、行业发展报告及价格指数，追踪国内外销售趋势，开展行业调查，并发布中国电子行业生产产值、市场份额及企业经营表现数据。"
+  },
+  "website": "http://www.cecc.org.cn/",
+  "data_url": "http://www.cecc.org.cn/hangye/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "economics",
+    "trade",
+    "statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国电子商会",
+    "CECC",
+    "消费电子",
+    "consumer electronics",
+    "家电",
+    "home appliances",
+    "电子行业",
+    "electronics industry",
+    "IT产品",
+    "IT products",
+    "市场统计",
+    "market statistics",
+    "行业报告",
+    "industry report",
+    "电子产品出口",
+    "electronics exports",
+    "智能家居",
+    "smart home",
+    "价格指数",
+    "price index",
+    "电子商务",
+    "e-commerce",
+    "工业和信息化部",
+    "MIIT",
+    "电子行业产值",
+    "electronics output"
+  ],
+  "data_content": {
+    "en": [
+      "Consumer electronics market statistics: monthly and annual sales volume, value, and growth rates for major product categories including TVs, smartphones, tablets, and wearables",
+      "Home appliances market data: production output, domestic sales, and export figures for white goods and kitchen appliances by brand and region",
+      "IT products industry report: market size, shipment data, and price trends for computers, peripherals, and networking equipment in China",
+      "Electronics industry export data: export volumes, values, and destination markets for Chinese electronic products",
+      "Retail price monitoring: price indices and price comparison data across key consumer electronics categories",
+      "Enterprise performance statistics: revenue, profit margins, and R&D investment data for major electronics companies",
+      "New energy vehicle electronics data: demand and supply statistics for automotive electronics and smart cockpit components",
+      "Smart home and IoT market analysis: adoption rates, shipment data, and market penetration for smart home devices",
+      "E-waste and recycling statistics: data on electronic waste collection volumes and recycling rates in China",
+      "Industry development reports: annual white papers on China's electronics industry trends, investment flows, and policy impacts"
+    ],
+    "zh": [
+      "消费电子市场统计：主要产品品类（电视、智能手机、平板电脑、可穿戴设备等）的月度和年度销量、销售额及增长率",
+      "家电市场数据：白色家电和厨房电器的生产产值、国内销售及出口数据，按品牌和地区分类",
+      "IT产品行业报告：中国计算机、外设及网络设备的市场规模、出货数据和价格趋势",
+      "电子产品出口数据：中国电子产品出口数量、出口额及目的市场",
+      "零售价格监测：主要消费电子品类的价格指数和比价数据",
+      "企业经营统计：主要电子企业的营收、利润率及研发投入数据",
+      "新能源汽车电子数据：汽车电子及智能座舱零部件的供需统计",
+      "智能家居和物联网市场分析：智能家居设备的普及率、出货数据和市场渗透率",
+      "电子废弃物和回收统计：中国电子废物回收数量和回收率数据",
+      "行业发展报告：中国电子行业趋势、投资流向及政策影响年度白皮书"
+    ]
+  }
+}
