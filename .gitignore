@@ -65,4 +65,5 @@ batch-run-results*.md
 logs/
 
 # AI IDE
-.claude/server.json
+.claude/
+server.json
