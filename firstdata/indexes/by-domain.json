@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-20T01:07:42.597254+00:00",
+    "generated_at": "2026-04-20T02:33:02.247411+00:00",
     "total_domains": 721,
-    "total_sources": 494,
+    "total_sources": 499,
     "version": "2.0"
   },
   "domains": {
@@ -3066,6 +3066,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-pric",
+        "name": {
+          "en": "Polar Research Institute of China",
+          "zh": "中国极地研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pric.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pric.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-tpdc",
         "name": {
           "en": "National Tibetan Plateau Data Center",
@@ -3936,6 +3948,18 @@
         "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
         "has_api": false,
         "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinca",
+        "name": {
+          "en": "China International Contractors Association",
+          "zh": "中国对外承包工程商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinca.org/CICA/info/20-1/index.html",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-chinca.json",
         "geographic_scope": "national"
       },
       {
@@ -4923,6 +4947,18 @@
         "data_url": "https://tjj.sz.gov.cn/zwgk/zfxxgkml/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shenzhen-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-hk-censtatd",
+        "name": {
+          "en": "Hong Kong Census and Statistics Department",
+          "zh": "香港政府统计处"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.censtatd.gov.hk/",
+        "has_api": false,
+        "file_path": "china/economy/special_admin_regions/china-hk-censtatd.json",
         "geographic_scope": "subnational"
       },
       {
@@ -7819,6 +7855,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-hk-censtatd",
+        "name": {
+          "en": "Hong Kong Census and Statistics Department",
+          "zh": "香港政府统计处"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.censtatd.gov.hk/",
+        "has_api": false,
+        "file_path": "china/economy/special_admin_regions/china-hk-censtatd.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-cccme",
         "name": {
           "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
@@ -7864,6 +7912,18 @@
         "data_url": "https://www.chinacoop.gov.cn/",
         "has_api": false,
         "file_path": "china/economy/trade/china-cfsmc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinca",
+        "name": {
+          "en": "China International Contractors Association",
+          "zh": "中国对外承包工程商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinca.org/CICA/info/20-1/index.html",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-chinca.json",
         "geographic_scope": "national"
       },
       {
@@ -12065,6 +12125,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-pric",
+        "name": {
+          "en": "Polar Research Institute of China",
+          "zh": "中国极地研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pric.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pric.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-resdc",
         "name": {
           "en": "Resource and Environment Science and Data Center, Chinese Academy of Sciences",
@@ -13470,6 +13542,18 @@
         "data_url": "https://tjj.sh.gov.cn/sjxx/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-shanghai-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-hk-censtatd",
+        "name": {
+          "en": "Hong Kong Census and Statistics Department",
+          "zh": "香港政府统计处"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.censtatd.gov.hk/",
+        "has_api": false,
+        "file_path": "china/economy/special_admin_regions/china-hk-censtatd.json",
         "geographic_scope": "subnational"
       },
       {
@@ -18509,6 +18593,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnas",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国合格评定国家认可委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnas.org.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnca",
         "name": {
           "en": "China National Accreditation Service for Conformity Assessment",
@@ -18603,6 +18699,18 @@
         "data_url": "https://www.miit.gov.cn/jgsj/ycls/xt/index.html",
         "has_api": false,
         "file_path": "china/resources/mineral/china-miit-rare-earth.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-automation-association",
+        "name": {
+          "en": "Chinese Association of Automation",
+          "zh": "中国自动化学会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caa.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-automation-association.json",
         "geographic_scope": "national"
       },
       {
@@ -19305,6 +19413,18 @@
         "data_url": "https://www.chinawuliu.com.cn/lhhzq/",
         "has_api": false,
         "file_path": "china/economy/trade/china-cflp.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinca",
+        "name": {
+          "en": "China International Contractors Association",
+          "zh": "中国对外承包工程商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinca.org/CICA/info/20-1/index.html",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-chinca.json",
         "geographic_scope": "national"
       },
       {
@@ -21176,6 +21296,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-automation-association",
+        "name": {
+          "en": "Chinese Association of Automation",
+          "zh": "中国自动化学会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caa.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-automation-association.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-most-rnd",
         "name": {
           "en": "National Key R&D Program of China - Industrial Software and 16 Key Special Projects",
@@ -22746,6 +22878,18 @@
         "data_url": "https://dataspace.copernicus.eu/",
         "has_api": true,
         "file_path": "academic/environment/copernicus-open-access-hub.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "china-pric",
+        "name": {
+          "en": "Polar Research Institute of China",
+          "zh": "中国极地研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pric.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pric.json",
         "geographic_scope": "global"
       },
       {
@@ -24505,6 +24649,18 @@
     ],
     "quality": [
       {
+        "id": "china-cnas",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国合格评定国家认可委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnas.org.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnca",
         "name": {
           "en": "China National Accreditation Service for Conformity Assessment",
@@ -25260,6 +25416,18 @@
     ],
     "robotics": [
       {
+        "id": "china-automation-association",
+        "name": {
+          "en": "Chinese Association of Automation",
+          "zh": "中国自动化学会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caa.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-automation-association.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-robot-industry-alliance",
         "name": {
           "en": "Robot Branch of China Machinery Industry Federation",
@@ -25432,6 +25600,18 @@
         "has_api": false,
         "file_path": "china/research/china-nsfc.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-pric",
+        "name": {
+          "en": "Polar Research Institute of China",
+          "zh": "中国极地研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pric.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pric.json",
+        "geographic_scope": "global"
       },
       {
         "id": "china-wanfang",
@@ -27550,6 +27730,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnas",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国合格评定国家认可委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnas.org.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnca",
         "name": {
           "en": "China National Accreditation Service for Conformity Assessment",
@@ -28190,6 +28382,18 @@
         "data_url": "https://tjj.zj.gov.cn/col/col1525563/index.html",
         "has_api": false,
         "file_path": "china/economy/provincial/china-zj-stats.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-hk-censtatd",
+        "name": {
+          "en": "Hong Kong Census and Statistics Department",
+          "zh": "香港政府统计处"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.censtatd.gov.hk/",
+        "has_api": false,
+        "file_path": "china/economy/special_admin_regions/china-hk-censtatd.json",
         "geographic_scope": "subnational"
       },
       {
@@ -28866,6 +29070,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnas",
+        "name": {
+          "en": "China National Accreditation Service for Conformity Assessment",
+          "zh": "中国合格评定国家认可委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnas.org.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cnas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-napp",
         "name": {
           "en": "National Administration of Press and Publication",
@@ -28995,6 +29211,18 @@
         "data_url": "https://www.cnsa.gov.cn/n6758823/index.html",
         "has_api": false,
         "file_path": "china/technology/china-cnsa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-automation-association",
+        "name": {
+          "en": "Chinese Association of Automation",
+          "zh": "中国自动化学会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caa.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-automation-association.json",
         "geographic_scope": "national"
       },
       {
@@ -29787,6 +30015,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-hk-censtatd",
+        "name": {
+          "en": "Hong Kong Census and Statistics Department",
+          "zh": "香港政府统计处"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.censtatd.gov.hk/",
+        "has_api": false,
+        "file_path": "china/economy/special_admin_regions/china-hk-censtatd.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-cccme",
         "name": {
           "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
@@ -29832,6 +30072,18 @@
         "data_url": "https://www.chinacoop.gov.cn/",
         "has_api": false,
         "file_path": "china/economy/trade/china-cfsmc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinca",
+        "name": {
+          "en": "China International Contractors Association",
+          "zh": "中国对外承包工程商会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinca.org/CICA/info/20-1/index.html",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-chinca.json",
         "geographic_scope": "national"
       },
       {

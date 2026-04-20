@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-20T01:07:42.597254+00:00",
-    "total_sources": 494,
+    "generated_at": "2026-04-20T02:33:02.247411+00:00",
+    "total_sources": 499,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -7291,6 +7291,93 @@
       "file_path": "china/economy/provincial/china-zj-stats.json"
     },
     {
+      "id": "china-hk-censtatd",
+      "name": {
+        "en": "Hong Kong Census and Statistics Department",
+        "zh": "香港政府统计处"
+      },
+      "description": {
+        "en": "The Census and Statistics Department (C&SD) of the Hong Kong Special Administrative Region is the principal government agency responsible for compiling and analyzing official statistics for Hong Kong. C&SD produces comprehensive statistical data on Hong Kong's economy, population, trade, labor market, prices, and social conditions. As an internationally recognized statistical office, C&SD adheres to the IMF's Special Data Dissemination Standard (SDDS) and publishes quarterly GDP estimates, monthly consumer price indices, external trade statistics, labor force surveys, and the population census conducted every ten years. Hong Kong's role as a major global financial hub and Asia's largest offshore RMB settlement center makes C&SD data critical for tracking SAR economic performance, cross-border trade flows, RMB internationalization, and the integration of Hong Kong with the Greater Bay Area (GBA). C&SD operates the online data portal HK Statistics, providing free access to over 100 statistical tables and time series datasets.",
+        "zh": "香港特别行政区政府统计处（统计处）是负责编制和分析香港官方统计数据的主要政府机构。统计处提供涵盖香港经济、人口、贸易、劳动力市场、物价及社会状况的全面统计数据。作为国际认可的统计机构，统计处遵循国际货币基金组织数据公布特殊标准（SDDS），发布季度本地生产总值估算、月度消费物价指数、对外贸易统计、劳动力调查及每十年一次的人口普查数据。香港作为全球主要金融中心和亚洲最大离岸人民币结算中心，统计处数据对追踪香港特区经济表现、跨境贸易流量、人民币国际化进程以及香港与粤港澳大湾区融合具有重要意义。统计处运营《香港统计数字一览》在线数据门户，免费提供100多个统计表格和时间序列数据集。"
+      },
+      "website": "https://www.censtatd.gov.hk/",
+      "data_url": "https://www.censtatd.gov.hk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "demographics",
+        "trade",
+        "statistics",
+        "finance"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "香港政府统计处",
+        "Census and Statistics Department",
+        "C&SD",
+        "CENSTATD",
+        "香港",
+        "Hong Kong",
+        "特别行政区",
+        "Special Administrative Region",
+        "SAR",
+        "香港GDP",
+        "Hong Kong GDP",
+        "消费物价指数",
+        "Consumer Price Index",
+        "CPI",
+        "对外贸易",
+        "external trade",
+        "劳动力调查",
+        "labor force survey",
+        "人口普查",
+        "census",
+        "离岸人民币",
+        "offshore RMB",
+        "大湾区",
+        "Greater Bay Area",
+        "GBA",
+        "IMF SDDS",
+        "零售销售",
+        "retail sales",
+        "工业生产",
+        "industrial production",
+        "房屋统计",
+        "housing statistics"
+      ],
+      "data_content": {
+        "en": [
+          "GDP and national accounts: quarterly GDP estimates, expenditure-based national accounts, and GDP by major economic activity for Hong Kong SAR",
+          "Consumer Price Index: monthly CPI by category (composite, category A/B/C households), inflation trends, and comparison with historical baselines",
+          "External trade statistics: monthly merchandise trade data including total imports, domestic exports, re-exports by commodity group and trading partner",
+          "Labor force survey: quarterly unemployment rate, underemployment rate, labor force participation, employment by industry, and median wage data",
+          "Population statistics: mid-year population estimates, demographic projections, birth and death rates, and migration data for Hong Kong",
+          "Retail sales: monthly retail sales value and volume by retail outlet type (food, clothing, electronics, jewelry, etc.) and year-on-year changes",
+          "Industrial production: quarterly index of industrial production for Hong Kong's manufacturing sector",
+          "Business statistics: enterprise counts, business registration trends, and establishment-based employment surveys by industry",
+          "Housing and construction: property prices, rental indices, number of housing units, construction output, and vacancy rates in Hong Kong",
+          "Social statistics: household income distribution, poverty statistics, Gini coefficient, education attainment, and social welfare expenditure data from household surveys"
+        ],
+        "zh": [
+          "GDP和国民账户：香港特区季度本地生产总值估算、支出法国民账户及按主要经济活动分类的GDP",
+          "消费物价指数：月度综合消费物价指数及甲乙丙类住户分类指数、通胀趋势及历史基准比较",
+          "对外贸易统计：月度货品贸易数据，包括按商品类别和贸易伙伴分类的总进口、本地出口和转口数据",
+          "劳动力调查：季度失业率、就业不足率、劳动参与率、分行业就业及工资中位数",
+          "人口统计：年中人口估算、人口预测、出生和死亡率及香港移民数据",
+          "零售业销售：按零售点类别（食品、服装、电子、珠宝等）统计的月度零售销售额和销售量及同比变化",
+          "工业生产：香港制造业季度工业生产指数",
+          "商业统计：按行业统计的企业数量、商业登记趋势及就业调查",
+          "房屋和建造：香港楼价、租金指数、住宅单位数量、建造产值及空置率",
+          "社会统计：住户收入分布、贫穷统计、基尼系数、教育程度及家庭住户调查的社会福利支出数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/special_admin_regions/china-hk-censtatd.json"
+    },
+    {
       "id": "china-cccme",
       "name": {
         "en": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products",
@@ -7602,6 +7689,88 @@
       },
       "has_api": false,
       "file_path": "china/economy/trade/china-cfsmc.json"
+    },
+    {
+      "id": "china-chinca",
+      "name": {
+        "en": "China International Contractors Association",
+        "zh": "中国对外承包工程商会"
+      },
+      "description": {
+        "en": "The China International Contractors Association (CHINCA) is the national industry organization representing Chinese enterprises engaged in international contracting, overseas investment, and project-related services. Operating under the supervision of the Ministry of Commerce, CHINCA represents over 1,500 member companies involved in infrastructure construction, engineering services, and overseas project financing across more than 180 countries. CHINCA publishes the authoritative annual Survey of China's International Contractors, which covers total overseas contracting revenue, newly signed contract value, project completions by sector (transportation, housing, energy, telecoms, industrial), geographic distribution, and enterprise rankings. The association also reports data on labor export, overseas engineering equipment value, and projects under Belt and Road Initiative (BRI) countries. CHINCA's statistics are the primary reference for tracking China's overseas construction footprint, infrastructure diplomacy, and international engineering services market share.",
+        "zh": "中国对外承包工程商会（CHINCA）是代表从事国际工程承包、境外投资及相关服务中国企业的全国性行业组织，在商务部指导下运作，会员企业超过1500家，业务覆盖180多个国家的基础设施建设、工程服务和境外项目融资领域。CHINCA发布权威年度《中国对外承包工程商会行业报告》，涵盖境外承包工程营业额、新签合同额、按行业（交通、房建、能源、通信、工业）分类的项目完成情况、地域分布及企业排名。商会还发布劳务输出、境外工程机械设备价值以及《一带一路》沿线国家项目数据。CHINCA统计数据是追踪中国境外建设足迹、基础设施外交及国际工程服务市场份额的主要参考来源。"
+      },
+      "website": "https://www.chinca.org/",
+      "data_url": "https://www.chinca.org/CICA/info/20-1/index.html",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "trade",
+        "economics",
+        "infrastructure",
+        "construction"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国对外承包工程商会",
+        "CHINCA",
+        "China International Contractors Association",
+        "对外承包工程",
+        "overseas contracting",
+        "国际工程",
+        "international engineering",
+        "境外投资",
+        "overseas investment",
+        "新签合同额",
+        "newly signed contracts",
+        "营业额",
+        "contracting revenue",
+        "一带一路",
+        "Belt and Road Initiative",
+        "BRI",
+        "基础设施建设",
+        "infrastructure construction",
+        "工程承包",
+        "engineering contracting",
+        "劳务输出",
+        "labor export",
+        "交通基础设施",
+        "transportation infrastructure",
+        "能源工程",
+        "energy engineering",
+        "企业排名",
+        "enterprise ranking",
+        "MOFCOM",
+        "商务部"
+      ],
+      "data_content": {
+        "en": [
+          "Annual overseas contracting revenue: total revenue earned by Chinese contractors from overseas projects, disaggregated by sector and geographic region",
+          "Newly signed contracts value: annual value of new international project contracts signed by Chinese companies, by country and sector",
+          "Project sector breakdown: overseas contract values for transportation, housing and real estate, energy and power, telecommunications, industrial, and other sectors",
+          "Geographic distribution: value and project count by region (Africa, Asia, Europe, Latin America, Middle East, Oceania) and top 50 destination countries",
+          "BRI country statistics: dedicated data on Chinese overseas contracting in Belt and Road Initiative partner countries, tracking growth trends since 2013",
+          "Top contractor rankings: annual list of China's top 100 international contractors by revenue and newly signed contracts, enabling trend analysis",
+          "Labor services: statistics on overseas labor export by Chinese companies linked to contracting projects",
+          "Equipment and materials export: value of engineering machinery and equipment exported as part of overseas construction projects",
+          "Annual industry survey report: comprehensive analysis of industry trends, challenges, policy environment, and outlook for Chinese overseas contractors"
+        ],
+        "zh": [
+          "年度境外承包工程营业额：中国承包商境外项目收入总额，按行业和地理区域细分",
+          "新签合同额：中国企业年度新签国际项目合同总额，按国家和行业分类",
+          "项目行业分布：交通运输、房屋建筑、能源电力、通信、工业及其他领域的境外合同额",
+          "地区分布：按区域（非洲、亚洲、欧洲、拉美、中东、大洋洲）及前50目的地国统计的合同额和项目数量",
+          "\"一带一路\"国家统计：中国在\"一带一路\"沿线国家境外承包工程专项数据，追踪2013年以来增长趋势",
+          "承包商排名：按营业额和新签合同额列出的年度中国对外承包工程企业百强名单",
+          "劳务输出：与承包工程项目相关的中国企业境外劳务统计",
+          "设备材料出口：境外建设项目带动出口的工程机械设备价值",
+          "年度行业调查报告：中国对外承包工程行业趋势、挑战、政策环境及展望综合分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/trade/china-chinca.json"
     },
     {
       "id": "china-gacc",
@@ -10611,6 +10780,88 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-cnao.json"
+    },
+    {
+      "id": "china-cnas",
+      "name": {
+        "en": "China National Accreditation Service for Conformity Assessment",
+        "zh": "中国合格评定国家认可委员会"
+      },
+      "description": {
+        "en": "The China National Accreditation Service for Conformity Assessment (CNAS) is the sole national accreditation body in China authorized by the government to operate under the Regulations on Certification and Accreditation. CNAS accredits testing laboratories, calibration laboratories, inspection bodies, certification bodies, and proficiency testing providers according to international standards (ISO/IEC 17000 series). As of 2024, CNAS has accredited over 17,000 laboratories and hundreds of certification and inspection bodies, covering fields including food safety, environmental monitoring, medical devices, electronics, and construction materials. CNAS publishes official accreditation directories, accreditation criteria, statistical reports on accredited entities by type and sector, and annual accreditation development reports. CNAS accreditation is internationally recognized through mutual recognition arrangements (MRA) with ILAC and IAF, making it the authoritative source for China's conformity assessment ecosystem data.",
+        "zh": "中国合格评定国家认可委员会（CNAS）是经国务院授权、依据《认证认可条例》设立的中国唯一国家级认可机构。CNAS依据ISO/IEC 17000系列国际标准，对检测实验室、校准实验室、检验机构、认证机构及能力验证提供者开展认可活动。截至2024年，CNAS已认可超过17000家实验室及数百家认证和检验机构，覆盖食品安全、环境监测、医疗器械、电子电器、建筑材料等领域。CNAS发布认可机构名录、认可准则、分行业认可机构统计报告及年度认可工作报告。CNAS认可结果通过与国际实验室认可合作组织（ILAC）和国际认可论坛（IAF）签订的多边互认协议（MRA）获得国际认可，是中国合格评定生态系统数据的权威来源。"
+      },
+      "website": "https://www.cnas.org.cn/",
+      "data_url": "https://www.cnas.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "technology",
+        "standards",
+        "quality"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国合格评定国家认可委员会",
+        "CNAS",
+        "China National Accreditation Service",
+        "实验室认可",
+        "laboratory accreditation",
+        "认证机构",
+        "certification body",
+        "检验机构",
+        "inspection body",
+        "合格评定",
+        "conformity assessment",
+        "ISO/IEC 17025",
+        "校准实验室",
+        "calibration laboratory",
+        "食品安全检测",
+        "food safety testing",
+        "环境检测",
+        "environmental testing",
+        "医疗器械检验",
+        "medical device inspection",
+        "ILAC",
+        "IAF",
+        "互认协议",
+        "mutual recognition",
+        "质量认证",
+        "quality certification",
+        "能力验证",
+        "proficiency testing",
+        "计量认可",
+        "metrology accreditation"
+      ],
+      "data_content": {
+        "en": [
+          "Accredited laboratory directory: searchable database of over 17,000 CNAS-accredited testing and calibration laboratories in China, with scope of accreditation by test type and field",
+          "Certification body directory: list of CNAS-accredited certification bodies authorized to issue product, system, and personnel certifications",
+          "Inspection body directory: accredited inspection organizations with scopes covering construction, food, environment, transportation, and industrial sectors",
+          "Proficiency testing providers: organizations authorized to conduct proficiency testing programs for laboratory competence assessment",
+          "Accreditation statistics: annual and periodic statistics on accredited entity count, growth trends, and distribution by sector and province",
+          "Annual accreditation development report: comprehensive report on CNAS activities, accreditation numbers, international cooperation, and policy developments",
+          "Accreditation criteria and documents: technical criteria, assessment procedures, and guidance documents for laboratories and certification bodies",
+          "International MRA scope: details of mutual recognition arrangement coverage with ILAC and IAF, specifying which accreditation categories are internationally recognized",
+          "Suspension and withdrawal records: publicly disclosed cases of suspended or withdrawn accreditation for non-compliant entities"
+        ],
+        "zh": [
+          "认可实验室名录：超过17000家CNAS认可检测和校准实验室的可检索数据库，含按检测类型和领域分类的认可范围",
+          "认证机构名录：CNAS认可的产品、体系、人员认证机构列表",
+          "检验机构名录：覆盖建筑、食品、环境、交通、工业等领域的认可检验机构",
+          "能力验证提供者：获授权开展实验室能力验证计划的机构",
+          "认可统计数据：认可机构数量、增长趋势及按行业、省份分布的年度和定期统计",
+          "年度认可工作报告：涵盖CNAS活动、认可数量、国际合作及政策进展的综合报告",
+          "认可准则和文件：实验室和认证机构的技术准则、评审程序和指导文件",
+          "国际互认范围：与ILAC和IAF互认协议覆盖情况及各认可类别的国际认可详情",
+          "暂停和撤销记录：不符合要求机构被暂停或撤销认可的公示记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cnas.json"
     },
     {
       "id": "china-cnca",
@@ -15097,6 +15348,95 @@
       "file_path": "china/research/china-nsfc.json"
     },
     {
+      "id": "china-pric",
+      "name": {
+        "en": "Polar Research Institute of China",
+        "zh": "中国极地研究中心"
+      },
+      "description": {
+        "en": "The Polar Research Institute of China (PRIC), also known as the Chinese Arctic and Antarctic Administration Research Institute, is China's principal organization for polar research under the Ministry of Natural Resources. PRIC operates and maintains China's polar research stations including Zhongshan Station and Great Wall Station in Antarctica, and Yellow River Station in the Arctic (Svalbard, Norway). PRIC manages the National Cryosphere Desert Data Center, which provides multi-decadal observational datasets on ice sheet dynamics, sea ice extent, permafrost, glacier mass balance, polar meteorology, and atmospheric chemistry in both polar regions. PRIC also coordinates China's National Arctic and Antarctic Expeditions (CHINAREs), archiving expedition data, biological samples, ice core records, and oceanographic observations spanning over 40 years of polar exploration. The institute publishes annual Chinese Antarctic Expedition Reports and Arctic Research Progress Reports that are primary references for global polar science.",
+        "zh": "中国极地研究中心（PRIC，又称中国极地研究所）是自然资源部下属的极地研究主体机构，负责建设和维护中国在南极的中山站、长城站以及北极黄河站（位于挪威斯瓦尔巴群岛）。中心管理国家冰冻圈沙漠数据中心，提供南北极冰盖动力学、海冰范围、多年冻土、冰川物质平衡、极地气象及大气化学的多年代际观测数据集。PRIC还统筹协调中国南北极科学考察（CHINAREs），归档跨越40余年极地探索的科考数据、生物样本、冰芯记录及海洋观测资料。中心发布年度中国南极考察报告和北极研究进展报告，是全球极地科学研究的重要参考来源。"
+      },
+      "website": "https://www.pric.org.cn/",
+      "data_url": "https://www.pric.org.cn/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "global",
+      "domains": [
+        "environment",
+        "climate",
+        "ocean",
+        "science"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国极地研究中心",
+        "PRIC",
+        "Polar Research Institute of China",
+        "南极",
+        "Antarctica",
+        "北极",
+        "Arctic",
+        "冰盖",
+        "ice sheet",
+        "海冰",
+        "sea ice",
+        "多年冻土",
+        "permafrost",
+        "冰川",
+        "glacier",
+        "极地气象",
+        "polar meteorology",
+        "中山站",
+        "Zhongshan Station",
+        "长城站",
+        "Great Wall Station",
+        "黄河站",
+        "Yellow River Station",
+        "中国南极科学考察",
+        "CHINARE",
+        "冰芯",
+        "ice core",
+        "极地海洋",
+        "polar ocean",
+        "气候变化",
+        "climate change",
+        "冰冻圈",
+        "cryosphere",
+        "自然资源部",
+        "Ministry of Natural Resources"
+      ],
+      "data_content": {
+        "en": [
+          "Sea ice extent data: long-term records of Arctic and Antarctic sea ice area, concentration, and thickness derived from satellite remote sensing and in-situ observations",
+          "Ice sheet dynamics: mass balance measurements, ice velocity, and surface elevation change data for Antarctic ice sheets from Chinese expedition surveys",
+          "Polar meteorological observations: surface and upper-atmosphere temperature, pressure, wind, humidity, and radiation data from China's polar stations dating back to 1985",
+          "Glacier and snow datasets: glacier mass balance, snow depth, and snowpack water equivalent measurements from polar and high-altitude monitoring programs",
+          "Permafrost data: active layer thickness, permafrost temperature profiles, and thaw settlement measurements from Arctic and sub-Antarctic sites",
+          "Ice core records: chemical, isotopic, and physical properties of ice cores from Antarctic inland drilling projects, providing paleoclimate proxies spanning centuries",
+          "Oceanographic observations: water temperature, salinity, current, and biogeochemical profiles from polar ocean expedition cruises",
+          "Atmospheric chemistry: trace gas (CO2, CH4, N2O) and aerosol data from polar stations, contributing to global baseline monitoring",
+          "Annual Antarctic expedition reports: comprehensive documentation of each Chinese National Antarctic Research Expedition including scientific findings, logistics, and environmental data",
+          "Polar biodiversity: biological sample data from Antarctic marine ecosystems, penguins, krill populations, and microbial communities"
+        ],
+        "zh": [
+          "海冰范围数据：基于卫星遥感和现场观测的南北极海冰面积、密集度和厚度长时间序列记录",
+          "冰盖动力学：中国科考队对南极冰盖物质平衡测量、冰流速度及表面高程变化数据",
+          "极地气象观测：中国极地考察站1985年以来的地面和高空温度、气压、风速、湿度及辐射数据",
+          "冰川和积雪数据集：极地及高海拔监测项目的冰川物质平衡、雪深和雪水当量测量数据",
+          "多年冻土数据：北极和亚南极地区活动层厚度、冻土温度剖面及融化沉降测量",
+          "冰芯记录：南极内陆钻探项目冰芯的化学、同位素和物理特性数据，提供跨越数百年的古气候代用指标",
+          "海洋观测：极地科考航次的水温、盐度、洋流和生物地球化学剖面数据",
+          "大气化学：极地考察站温室气体（CO2、CH4、N2O）和气溶胶数据，为全球基线监测提供贡献",
+          "年度南极科考报告：中国历次南极科学考察的科学发现、后勤保障和环境数据综合记录",
+          "极地生物多样性：南极海洋生态系统、企鹅、磷虾种群及微生物群落生物样本数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-pric.json"
+    },
+    {
       "id": "china-resdc",
       "name": {
         "en": "Resource and Environment Science and Data Center, Chinese Academy of Sciences",
@@ -16759,6 +17099,91 @@
       },
       "has_api": false,
       "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+    },
+    {
+      "id": "china-automation-association",
+      "name": {
+        "en": "Chinese Association of Automation",
+        "zh": "中国自动化学会"
+      },
+      "description": {
+        "en": "The Chinese Association of Automation (CAA) is a national academic society under the China Association for Science and Technology (CAST) that represents researchers and practitioners in automation, control systems, robotics, and intelligent manufacturing. Founded in 1961, CAA has over 40,000 members across academia, research institutes, and industry. CAA publishes the Journal of Automation (自动化学报), IEEE/CAA Journal of Automatica Sinica (an international SCI journal), and periodical reports on China's automation technology development, intelligent manufacturing standards, and robotics industry statistics. The association organizes the annual China Automation Congress (CAC), the largest automation academic conference in China, and compiles industry white papers on artificial intelligence in manufacturing, industrial Internet of Things (IIoT), and autonomous systems. CAA data and reports are primary references for tracking China's industrial automation penetration, R&D investment in control technology, and the diffusion of smart manufacturing across sectors.",
+        "zh": "中国自动化学会（CAA）是中国科学技术协会下属的全国性学术团体，代表自动化、控制系统、机器人及智能制造领域的科研人员和从业者。成立于1961年的CAA拥有超过40000名来自学界、科研机构和产业界的会员。CAA出版《自动化学报》《IEEE/CAA控制与信息学报》（国际SCI期刊）及中国自动化技术发展、智能制造标准和机器人行业统计定期报告。学会主办中国最大的自动化学术会议——中国自动化大会（CAC），并编制人工智能在制造业中的应用、工业物联网（IIoT）及自主系统领域白皮书。CAA的数据和报告是追踪中国工业自动化普及率、控制技术研发投入及智能制造跨行业扩散情况的主要参考。"
+      },
+      "website": "https://www.caa.org.cn/",
+      "data_url": "https://www.caa.org.cn/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "industry",
+        "robotics",
+        "manufacturing"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国自动化学会",
+        "CAA",
+        "Chinese Association of Automation",
+        "自动化",
+        "automation",
+        "控制系统",
+        "control systems",
+        "机器人",
+        "robotics",
+        "智能制造",
+        "intelligent manufacturing",
+        "自动化学报",
+        "Journal of Automation",
+        "IEEE/CAA",
+        "工业物联网",
+        "Industrial Internet of Things",
+        "IIoT",
+        "人工智能",
+        "artificial intelligence",
+        "AI",
+        "中国自动化大会",
+        "China Automation Congress",
+        "CAC",
+        "自主系统",
+        "autonomous systems",
+        "中国科学技术协会",
+        "CAST",
+        "工业自动化",
+        "industrial automation",
+        "智能控制",
+        "intelligent control",
+        "机器视觉",
+        "machine vision"
+      ],
+      "data_content": {
+        "en": [
+          "China automation technology development reports: annual assessment of automation technology R&D progress, industrialization levels, and market penetration by manufacturing sector",
+          "Robotics industry white papers: statistics on industrial robot density (robots per 10,000 workers), adoption rates by industry, and domestic vs. imported robot market share",
+          "Intelligent manufacturing standards tracking: status of China's national and industry standards for intelligent manufacturing, IIoT protocols, and cyber-physical systems",
+          "Academic publication data: citation metrics, research output volumes, and key research themes from Journal of Automatica Sinica and CAA member publications",
+          "China Automation Congress proceedings: annual conference abstracts and technical topics reflecting cutting-edge research in control, AI, robotics, and autonomous systems",
+          "AI in manufacturing surveys: enterprise adoption rates of AI-powered quality control, predictive maintenance, and process optimization across Chinese industrial sectors",
+          "Control system market analysis: market size and growth data for distributed control systems (DCS), programmable logic controllers (PLC), and SCADA systems in China",
+          "Member institution data: geographic and sector distribution of CAA member universities, research institutes, and enterprises active in automation R&D",
+          "International collaboration metrics: data on joint research projects, international standard participation, and academic exchange programs involving Chinese automation researchers"
+        ],
+        "zh": [
+          "中国自动化技术发展报告：按制造行业分类的自动化技术研发进展、产业化水平和市场渗透率年度评估",
+          "机器人行业白皮书：工业机器人密度（每万名工人机器人数量）、各行业采用率及国产与进口机器人市场份额统计",
+          "智能制造标准追踪：中国智能制造、工业物联网协议及信息物理系统国家标准和行业标准制定进展",
+          "学术出版数据：《IEEE/CAA控制与信息学报》及CAA会员出版物的引用指标、研究产出量和主要研究方向",
+          "中国自动化大会论文集：年度会议摘要及控制、人工智能、机器人和自主系统前沿研究技术专题",
+          "制造业人工智能应用调查：中国各工业行业AI驱动质量控制、预测性维护和流程优化的企业采用率",
+          "控制系统市场分析：中国分布式控制系统（DCS）、可编程逻辑控制器（PLC）和SCADA系统市场规模及增长数据",
+          "会员机构数据：CAA会员高校、科研机构和企业在自动化研发领域的地域分布和行业分布",
+          "国际合作指标：中国自动化领域研究人员参与联合研究项目、国际标准制定和学术交流的数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-automation-association.json"
     },
     {
       "id": "china-caam",
