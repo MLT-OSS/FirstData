@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-19T06:15:24.048925+00:00",
+    "generated_at": "2026-04-20T01:07:42.597254+00:00",
     "total_sources": 494,
     "authority_counts": {
       "research": 63,
@@ -1941,7 +1941,7 @@
           "zh": "安徽省统计局"
         },
         "authority_level": "government",
-        "data_url": "https://tj.ah.gov.cn/tjyw/tjsj/",
+        "data_url": "https://tjj.ah.gov.cn/tjsj/",
         "has_api": false,
         "file_path": "china/economy/provincial/china-ah-stats.json",
         "geographic_scope": "subnational"
@@ -2205,7 +2205,7 @@
           "zh": "内蒙古自治区统计局"
         },
         "authority_level": "government",
-        "data_url": "https://tjj.nmg.gov.cn/tjsj/",
+        "data_url": "http://tj.nmg.gov.cn",
         "has_api": false,
         "file_path": "china/economy/provincial/china-nm-stats.json",
         "geographic_scope": "subnational"
@@ -2397,7 +2397,7 @@
           "zh": "云南省统计局"
         },
         "authority_level": "government",
-        "data_url": "https://tjj.yn.gov.cn/tjsj/",
+        "data_url": "http://stats.yn.gov.cn",
         "has_api": false,
         "file_path": "china/economy/provincial/china-yn-stats.json",
         "geographic_scope": "subnational"
@@ -2777,7 +2777,7 @@
           "zh": "中华人民共和国审计署"
         },
         "authority_level": "government",
-        "data_url": "https://www.cnao.gov.cn/col/col1705/",
+        "data_url": "https://www.audit.gov.cn",
         "has_api": false,
         "file_path": "china/governance/china-cnao.json",
         "geographic_scope": "national"
