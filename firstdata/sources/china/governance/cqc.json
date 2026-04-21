@@ -1,0 +1,66 @@
+{
+  "id": "china-cqc",
+  "name": {
+    "en": "China Quality Certification Centre",
+    "zh": "中国质量认证中心"
+  },
+  "description": {
+    "en": "China Quality Certification Centre (CQC) is China's largest and most authoritative third-party certification body, authorized by the State Administration for Market Regulation (SAMR). It administers China Compulsory Certification (CCC/3C), voluntary product quality certifications, management system certifications (ISO 9001, ISO 14001, ISO 45001), and publishes public databases of certified products, certification statistics, and certification status queries for domestic and export products.",
+    "zh": "中国质量认证中心（CQC）是中国最大、最权威的第三方认证机构，由国家市场监督管理总局授权。负责实施中国强制认证（CCC/3C认证）、自愿性产品质量认证、管理体系认证（ISO 9001、ISO 14001、ISO 45001），并发布认证产品公开数据库、认证统计数据及境内外产品认证状态查询服务。"
+  },
+  "website": "https://www.cqc.com.cn",
+  "data_url": "https://www.cqc.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "standards",
+    "governance",
+    "trade"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "certification",
+    "CCC",
+    "3C认证",
+    "quality-certification",
+    "product-safety",
+    "iso-9001",
+    "iso-14001",
+    "management-system",
+    "compulsory-certification",
+    "中国质量认证中心",
+    "强制认证",
+    "产品认证",
+    "质量认证",
+    "认证查询",
+    "市场监管",
+    "合规",
+    "product-compliance",
+    "samr"
+  ],
+  "data_content": {
+    "en": [
+      "CCC Certificate Database - Public query system for China Compulsory Certification (3C) certificates by product, manufacturer, or certificate number",
+      "Voluntary Product Certifications - Safety mark (CQC Mark) certificates for non-mandatory product categories",
+      "Management System Certifications - ISO 9001, 14001, 45001, and other management system certificate status",
+      "Certification Statistics - Annual certification issuance counts by product category, industry, and region",
+      "Suspended and Revoked Certificates - Public list of suspended, revoked, or invalid certification records",
+      "Certified Manufacturer Directory - Database of manufacturers holding valid CQC certifications",
+      "Green Product Certification - Environmental and energy-efficiency certification data",
+      "Export Certification Data - Certification data for Chinese products destined for foreign markets"
+    ],
+    "zh": [
+      "CCC证书数据库 - 按产品、生产商或证书编号查询中国强制认证（3C）证书的公开查询系统",
+      "自愿性产品认证 - 非强制性产品类别的CQC标志安全认证证书",
+      "管理体系认证 - ISO 9001、14001、45001及其他管理体系认证状态",
+      "认证统计数据 - 按产品类别、行业和地区划分的年度认证颁证数量",
+      "暂停和撤销证书 - 已暂停、撤销或失效认证记录的公开清单",
+      "获证厂商目录 - 持有有效CQC认证的生产商数据库",
+      "绿色产品认证 - 环保和节能认证数据",
+      "出口认证数据 - 中国出口产品认证数据"
+    ]
+  }
+}

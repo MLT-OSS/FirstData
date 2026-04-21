@@ -1,0 +1,66 @@
+{
+  "id": "china-eximbank",
+  "name": {
+    "en": "Export-Import Bank of China",
+    "zh": "中国进出口银行"
+  },
+  "description": {
+    "en": "The Export-Import Bank of China (EXIM China) is a state-owned policy bank directly under the State Council, established in 1994. It is the sole Chinese government agency bank mandated to provide policy financial services to support China's foreign trade, overseas investment, and international economic cooperation. It publishes annual reports, financial statements, bond issuance data, country loan data, and statistics on export seller's credit, import buyer's credit, and overseas investment loans.",
+    "zh": "中国进出口银行是直属国务院领导的国家政策性银行，成立于1994年，是唯一被授权承担政策性对外贸易金融业务的政府直属机构，主要支持中国对外贸易、境外投资和国际经济合作。发布年度报告、财务报表、债券发行数据、国别贷款数据及出口买方信贷、进口买方信贷和境外投资贷款统计数据。"
+  },
+  "website": "http://www.eximbank.gov.cn",
+  "data_url": "http://www.eximbank.gov.cn/cn/index/information/annual/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "trade",
+    "banking"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "policy-bank",
+    "export-credit",
+    "import-credit",
+    "trade-finance",
+    "foreign-trade",
+    "overseas-investment",
+    "belt-and-road",
+    "中国进出口银行",
+    "政策性银行",
+    "出口信贷",
+    "进口信贷",
+    "对外贸易",
+    "境外投资",
+    "一带一路",
+    "国际合作",
+    "债券",
+    "annual-report",
+    "development-finance"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Reports - Financial statements, business overview, key operational indicators and risk management data",
+      "Export Seller's Credit - Credit data for Chinese enterprises exporting goods, technology, and services",
+      "Export Buyer's Credit - Loans to foreign importers purchasing Chinese products and services",
+      "Overseas Investment Loans - Financing data for Chinese enterprises investing abroad",
+      "Foreign Government Loans - Concessional loans and preferential export buyer's credit to developing countries",
+      "Bond Issuances - Domestic and international bond offering data, prospectuses",
+      "Country Exposure - Loan exposure data by country and region",
+      "Belt and Road Initiative - Project financing statistics for BRI partner countries"
+    ],
+    "zh": [
+      "年度报告 - 财务报表、业务概况、主要经营指标及风险管理数据",
+      "出口卖方信贷 - 中国企业出口商品、技术和服务的信贷数据",
+      "出口买方信贷 - 向境外进口商提供的采购中国产品和服务的贷款",
+      "境外投资贷款 - 中国企业境外投资的融资数据",
+      "对外优惠贷款 - 向发展中国家提供的优惠贷款和优惠出口买方信贷",
+      "债券发行 - 境内外债券发行数据、募集说明书",
+      "国别敞口 - 按国家和地区划分的贷款风险敞口数据",
+      "一带一路 - 共建\"一带一路\"伙伴国家项目融资统计数据"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "china-ngdc",
+  "name": {
+    "en": "National Genomics Data Center",
+    "zh": "国家基因组科学数据中心"
+  },
+  "description": {
+    "en": "The National Genomics Data Center (NGDC) is China's national repository for genomics and bioinformatics data, operated by the Beijing Institute of Genomics, Chinese Academy of Sciences (China National Center for Bioinformation). It hosts the Genome Sequence Archive (GSA), BIG Data Center databases, and provides comprehensive resources for genomic sequences, gene expression, population genetics, and related omics data from Chinese and international research projects.",
+    "zh": "国家基因组科学数据中心（NGDC）是中国国家级基因组与生物信息学数据仓库，由中国科学院北京基因组研究所（国家生物信息中心）运营。托管基因组序列档案（GSA）和BIG数据中心数据库，为来自中国及国际研究项目的基因组序列、基因表达、群体遗传学及相关组学数据提供全面资源支持。"
+  },
+  "website": "https://ngdc.cncb.ac.cn",
+  "data_url": "https://ngdc.cncb.ac.cn/gsub/",
+  "api_url": "https://ngdc.cncb.ac.cn/api/",
+  "authority_level": "research",
+  "country": "CN",
+  "domains": [
+    "health",
+    "science",
+    "research"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "genomics",
+    "bioinformatics",
+    "dna-sequence",
+    "gene-expression",
+    "population-genetics",
+    "omics",
+    "cas",
+    "gsa",
+    "genome-archive",
+    "国家基因组科学数据中心",
+    "中国科学院",
+    "基因组学",
+    "生物信息学",
+    "基因序列",
+    "基因表达",
+    "群体遗传",
+    "组学数据",
+    "生命科学",
+    "ncbi-equivalent"
+  ],
+  "data_content": {
+    "en": [
+      "Genome Sequence Archive (GSA) - Raw sequencing data repository for nucleotide sequences from China and globally",
+      "BioProject - Project-level metadata for genomic research studies",
+      "BioSample - Biological sample metadata linked to sequence data",
+      "Gene Expression Nebulas (GEN) - Single-cell and bulk RNA-seq gene expression datasets",
+      "Genome Variation Map (GVM) - Human genomic variation data including SNPs and structural variants",
+      "GWAS Atlas - Curated genome-wide association study data and results",
+      "Integrated Microbial Genomes - Microbial genome sequences and functional annotation",
+      "Population Genomics Data - Large-scale human population sequencing datasets from Chinese cohort studies",
+      "Proteomics and Metabolomics - Mass spectrometry-based protein and metabolite datasets"
+    ],
+    "zh": [
+      "基因组序列档案（GSA） - 来自中国及全球的核苷酸序列原始数据仓库",
+      "BioProject - 基因组研究项目的项目级元数据",
+      "BioSample - 与序列数据关联的生物样本元数据",
+      "基因表达星云（GEN） - 单细胞和bulk RNA-seq基因表达数据集",
+      "基因组变异图谱（GVM） - 人类基因组变异数据，包括SNP和结构变异",
+      "GWAS图集 - 已审编的全基因组关联研究数据及结果",
+      "整合微生物基因组 - 微生物基因组序列和功能注释",
+      "群体基因组数据 - 来自中国队列研究的大规模人群测序数据集",
+      "蛋白质组与代谢组 - 基于质谱的蛋白质和代谢物数据集"
+    ]
+  }
+}
