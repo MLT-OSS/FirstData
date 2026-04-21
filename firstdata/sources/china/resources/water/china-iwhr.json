@@ -1,0 +1,73 @@
+{
+  "id": "china-iwhr",
+  "name": {
+    "en": "China Institute of Water Resources and Hydropower Research",
+    "zh": "中国水利水电科学研究院"
+  },
+  "description": {
+    "en": "The China Institute of Water Resources and Hydropower Research (IWHR) is China's leading national research institution for water resources and hydropower engineering, directly affiliated with the Ministry of Water Resources. Founded in 1958, IWHR conducts authoritative research on flood control, drought mitigation, water supply, hydropower engineering, dam safety, and water ecology. The institute maintains comprehensive databases on China's river systems, reservoir operations, flood events, and water quality monitoring. IWHR publishes research data, technical standards, and annual reports on China's water resources situation, serving as the primary scientific authority for hydraulic engineering data in China.",
+    "zh": "中国水利水电科学研究院（IWHR）是中国水利部直属的国家级水利水电科研权威机构，成立于1958年。研究院在防洪抗旱、城乡供水、水电工程、大坝安全及水生态保护等领域开展系统性研究，维护着中国河流水系、水库运行、洪涝灾害及水质监测的综合数据库。IWHR发布科研数据、技术标准及中国水资源状况年度报告，是中国水利工程数据的主要科学权威来源。"
+  },
+  "website": "http://www.iwhr.com/",
+  "data_url": "http://www.iwhr.com/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "hydrology",
+    "water",
+    "environment",
+    "engineering"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "水利水电",
+    "water resources",
+    "hydropower",
+    "防洪",
+    "flood control",
+    "水库",
+    "reservoir",
+    "河流",
+    "river systems",
+    "大坝安全",
+    "dam safety",
+    "水质",
+    "water quality",
+    "水资源年报",
+    "water resources annual report",
+    "水利工程",
+    "hydraulic engineering",
+    "旱涝灾害",
+    "drought flood",
+    "水生态",
+    "water ecology"
+  ],
+  "data_content": {
+    "en": [
+      "River and basin hydrology: flow rates, runoff, and discharge data for major Chinese river systems",
+      "Reservoir operations: storage capacity, water levels, and operational data for major reservoirs",
+      "Flood and drought monitoring: historical and real-time event data, frequency analysis",
+      "Dam safety assessment: structural monitoring data and risk evaluation reports",
+      "Water quality: chemical and biological indicators for rivers and reservoirs",
+      "Hydropower statistics: installed capacity, power generation by hydro plants",
+      "Water resources allocation: inter-basin transfer data, water use efficiency metrics",
+      "Technical standards: hydraulic engineering standards and specifications",
+      "Research publications: peer-reviewed papers and technical reports on water science",
+      "Annual China Water Resources Bulletin: comprehensive national water resources assessment"
+    ],
+    "zh": [
+      "河流流域水文：中国主要河流水系的流量、径流及排水数据",
+      "水库运行：主要水库库容、水位及运行数据",
+      "洪旱监测：历史及实时洪旱事件数据、频率分析",
+      "大坝安全评估：结构监测数据及风险评估报告",
+      "水质：河流与水库的理化指标及生物指标",
+      "水电统计：水电站装机容量及发电量数据",
+      "水资源配置：跨流域调水数据、用水效率指标",
+      "技术标准：水利工程标准与规范",
+      "科研成果：水利科学领域同行评审论文及技术报告",
+      "中国水资源公报：全国水资源状况综合年度评估"
+    ]
+  }
+}

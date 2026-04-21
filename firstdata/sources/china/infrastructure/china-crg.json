@@ -1,0 +1,74 @@
+{
+  "id": "china-crg",
+  "name": {
+    "en": "China State Railway Group",
+    "zh": "中国国家铁路集团有限公司"
+  },
+  "description": {
+    "en": "China State Railway Group Co., Ltd. (China Railway, CRG) is the state-owned enterprise responsible for operating and managing China's national railway network, the world's largest high-speed rail system. As the sole operator of China's national rail network, CRG publishes official statistics on railway passenger traffic, freight volumes, operating mileage, infrastructure investment, high-speed rail operations, and network expansion. Its annual statistical bulletins are the authoritative source for China's rail transportation data, covering over 155,000 km of railway lines including more than 45,000 km of high-speed rail.",
+    "zh": "中国国家铁路集团有限公司（国铁集团，CRG）是负责运营管理中国国家铁路网的国有企业，运营着全球最大的高速铁路系统。作为全国铁路网唯一运营主体，国铁集团发布铁路旅客运输量、货物运输量、营业里程、基础设施投资、高铁运营及路网扩建等官方统计数据。其年度统计公报是中国铁路运输数据的权威来源，覆盖超过15.5万公里铁路线路，其中高速铁路超过4.5万公里。"
+  },
+  "website": "http://www.china-railway.com.cn/",
+  "data_url": "http://www.china-railway.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "logistics",
+    "infrastructure",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "铁路",
+    "railway",
+    "高铁",
+    "high-speed rail",
+    "铁路运输统计",
+    "railway transport statistics",
+    "旅客发送量",
+    "passenger traffic",
+    "货物运输",
+    "freight volume",
+    "铁路里程",
+    "railway mileage",
+    "高速铁路",
+    "HSR",
+    "春运",
+    "spring festival travel",
+    "铁路基础设施",
+    "railway infrastructure",
+    "轨道交通",
+    "rail transit",
+    "铁路投资",
+    "railway investment"
+  ],
+  "data_content": {
+    "en": [
+      "Passenger traffic statistics: monthly and annual railway passenger volume by line and region",
+      "Freight transport data: goods volume, turnover, and commodity breakdown by rail",
+      "High-speed rail operations: HSR ridership, punctuality rates, and fleet statistics",
+      "Railway network mileage: total operating length, by speed class and electrification",
+      "Infrastructure investment: fixed asset investment in railway construction by year and region",
+      "Station and line data: number of stations, route lengths, and service frequencies",
+      "Spring Festival (Chunyun) travel statistics: annual peak travel period passenger data",
+      "Locomotive and rolling stock: fleet composition, utilization rates",
+      "Operating revenue and efficiency indicators: ton-kilometers, passenger-kilometers",
+      "Annual Railway Statistical Bulletin: comprehensive review of national rail system performance"
+    ],
+    "zh": [
+      "旅客运输统计：按线路和地区划分的月度及年度铁路旅客发送量",
+      "货物运输数据：铁路货运量、换算周转量及分品类货物统计",
+      "高速铁路运营：高铁客运量、正点率及车辆编组统计",
+      "铁路网里程：按速度等级及电气化程度划分的运营总里程",
+      "基础设施投资：按年度及地区划分的铁路建设固定资产投资",
+      "车站与线路数据：车站数量、线路长度及运营频次",
+      "春运旅客统计：年度春运高峰期旅客发送量数据",
+      "机车车辆：车辆编组构成、使用效率",
+      "运营收入与效率指标：换算吨公里、旅客公里",
+      "铁路统计年报：全国铁路系统运营绩效综合报告"
+    ]
+  }
+}

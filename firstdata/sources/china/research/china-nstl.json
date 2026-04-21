@@ -1,0 +1,72 @@
+{
+  "id": "china-nstl",
+  "name": {
+    "en": "National Science and Technology Library of China",
+    "zh": "国家科技图书文献中心"
+  },
+  "description": {
+    "en": "The National Science and Technology Library (NSTL) is China's national-level science and technology document resource sharing service institution, established by the Ministry of Science and Technology. NSTL provides authoritative access to global scientific and technological literature including journal articles, conference papers, dissertations, standards, and patents. It maintains one of China's largest collections of foreign-language scientific literature, with over 24 million records. NSTL serves as a critical data source for China's science and technology information system, supporting research institutions, universities, and government agencies with comprehensive bibliographic and full-text document services.",
+    "zh": "国家科技图书文献中心（NSTL）是科学技术部建立的国家级科技文献资源共享服务机构，提供涵盖期刊论文、会议论文、学位论文、标准及专利的全球科技文献权威检索服务。NSTL是中国规模最大的外文科技文献馆藏之一，收录超过2400万条记录，是中国科技信息体系的核心数据来源，为科研机构、高校及政府部门提供全面的文献检索和全文服务。"
+  },
+  "website": "https://www.nstl.gov.cn/",
+  "data_url": "https://www.nstl.gov.cn/search.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "technology",
+    "research",
+    "education"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "科技文献",
+    "science and technology literature",
+    "期刊论文",
+    "journal articles",
+    "学位论文",
+    "dissertations",
+    "专利文献",
+    "patent literature",
+    "技术标准",
+    "technical standards",
+    "科技信息",
+    "S&T information",
+    "文献检索",
+    "document retrieval",
+    "外文文献",
+    "foreign-language literature",
+    "科研数据",
+    "research data",
+    "科技部",
+    "Ministry of Science and Technology"
+  ],
+  "data_content": {
+    "en": [
+      "Journal articles: full-text and bibliographic access to international and Chinese scientific journals",
+      "Conference papers: proceedings from major scientific and engineering conferences worldwide",
+      "Dissertations: Chinese and selected international doctoral and master's theses",
+      "Technical standards: national and international standards (GB, ISO, ANSI, etc.)",
+      "Patent documents: Chinese and international patent databases and full texts",
+      "Science and technology statistics: R&D expenditure, publication counts, and citation metrics for China",
+      "Research reports: government-commissioned S&T research and evaluation reports",
+      "Foreign-language literature collection: over 24 million records from global publications",
+      "Preprints and working papers: emerging research documents across scientific disciplines",
+      "Annual S&T Document Resource Report: summary of national scientific literature acquisition"
+    ],
+    "zh": [
+      "期刊论文：国内外科技期刊全文及文献检索服务",
+      "会议论文：全球主要科技工程会议论文集",
+      "学位论文：中国及部分国际博士、硕士学位论文",
+      "技术标准：国家及国际标准（GB、ISO、ANSI等）",
+      "专利文献：中国及国际专利数据库及全文",
+      "科技统计：中国研发经费、论文发表数量及引用指标",
+      "科研报告：政府委托科技研究及评估报告",
+      "外文馆藏：来自全球出版物的2400余万条文献记录",
+      "预印本及工作文件：各科学领域最新研究文档",
+      "科技文献资源年报：国家科技文献资源采集年度综述"
+    ]
+  }
+}

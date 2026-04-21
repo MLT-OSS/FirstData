@@ -1,0 +1,74 @@
+{
+  "id": "china-post-group",
+  "name": {
+    "en": "China Post Group Corporation",
+    "zh": "中国邮政集团有限公司"
+  },
+  "description": {
+    "en": "China Post Group Corporation is China's state-owned postal and logistics enterprise, operating under the supervision of the State Post Bureau. As the national postal service operator, China Post Group collects and publishes comprehensive statistics on postal services, express delivery, e-commerce logistics, savings banking, and insurance. Its statistical data, together with reports from the State Post Bureau, form the authoritative source for China's postal industry metrics, covering mail volumes, express parcel counts, rural postal coverage, and postal savings balances. China Post operates the world's most extensive postal network and is a key indicator of China's consumer economy and e-commerce growth.",
+    "zh": "中国邮政集团有限公司是国家邮政局监管的国有邮政和物流企业，是全国邮政业务运营主体。中国邮政集团收集并发布邮政服务、快递、电商物流、储蓄银行及保险业务的综合统计数据，与国家邮政局统计报告共同构成中国邮政行业指标的权威来源，涵盖函件量、快递包裹量、农村邮政覆盖率及邮政储蓄余额等数据。中国邮政运营着全球规模最大的邮政网络，是反映中国消费经济和电商增长的重要指标。"
+  },
+  "website": "https://www.chinapost.com.cn/",
+  "data_url": "https://www.chinapost.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "logistics",
+    "transportation",
+    "economics",
+    "finance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "邮政",
+    "postal service",
+    "快递",
+    "express delivery",
+    "邮政统计",
+    "postal statistics",
+    "包裹量",
+    "parcel volume",
+    "电商物流",
+    "e-commerce logistics",
+    "邮政储蓄",
+    "postal savings",
+    "农村邮政",
+    "rural postal",
+    "物流",
+    "logistics",
+    "邮政年报",
+    "postal annual report",
+    "国家邮政局",
+    "State Post Bureau",
+    "寄递服务",
+    "delivery services"
+  ],
+  "data_content": {
+    "en": [
+      "Mail volumes: letters, parcels, and printed matter by class and destination",
+      "Express delivery statistics: parcel counts, weight, and revenue from express services",
+      "E-commerce logistics: online shopping-driven parcel volumes and regional distribution",
+      "Postal network coverage: number of postal outlets, rural coverage ratio, delivery routes",
+      "Postal Savings Bank: deposit balances, loan data, and customer counts",
+      "Revenue and financial data: total postal service revenue, breakdown by business line",
+      "Rural postal services: coverage of administrative villages, delivery frequency statistics",
+      "International mail: cross-border postal flows, international express volumes",
+      "Postal industry employment: workforce size and distribution across service types",
+      "Annual Report: comprehensive review of China Post Group's business and financial performance"
+    ],
+    "zh": [
+      "函件量：按类别和目的地划分的信函、包裹及印刷品数据",
+      "快递统计：快递包裹数量、重量及收入",
+      "电商物流：网购驱动的包裹量及地区分布",
+      "邮政网络覆盖：邮政网点数量、农村覆盖率及投递路线",
+      "邮政储蓄银行：存款余额、贷款数据及客户数量",
+      "收入与财务数据：邮政服务总收入及各业务线分类",
+      "农村邮政服务：行政村覆盖率、投递频次统计",
+      "国际邮件：跨境邮政流量及国际快递量",
+      "邮政行业就业：各类服务类型的从业人员规模及分布",
+      "年度报告：中国邮政集团业务与财务绩效综合报告"
+    ]
+  }
+}
