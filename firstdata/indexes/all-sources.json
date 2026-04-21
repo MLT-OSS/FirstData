@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-20T02:33:02.247411+00:00",
-    "total_sources": 499,
+    "generated_at": "2026-04-21T06:28:23.103195+00:00",
+    "total_sources": 504,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -13056,6 +13056,82 @@
       "file_path": "china/infrastructure/china-cata.json"
     },
     {
+      "id": "china-crg",
+      "name": {
+        "en": "China State Railway Group",
+        "zh": "中国国家铁路集团有限公司"
+      },
+      "description": {
+        "en": "China State Railway Group Co., Ltd. (China Railway, CRG) is the state-owned enterprise responsible for operating and managing China's national railway network, the world's largest high-speed rail system. As the sole operator of China's national rail network, CRG publishes official statistics on railway passenger traffic, freight volumes, operating mileage, infrastructure investment, high-speed rail operations, and network expansion. Its annual statistical bulletins are the authoritative source for China's rail transportation data, covering over 155,000 km of railway lines including more than 45,000 km of high-speed rail.",
+        "zh": "中国国家铁路集团有限公司（国铁集团，CRG）是负责运营管理中国国家铁路网的国有企业，运营着全球最大的高速铁路系统。作为全国铁路网唯一运营主体，国铁集团发布铁路旅客运输量、货物运输量、营业里程、基础设施投资、高铁运营及路网扩建等官方统计数据。其年度统计公报是中国铁路运输数据的权威来源，覆盖超过15.5万公里铁路线路，其中高速铁路超过4.5万公里。"
+      },
+      "website": "http://www.china-railway.com.cn/",
+      "data_url": "http://www.china-railway.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "transportation",
+        "logistics",
+        "infrastructure",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "铁路",
+        "railway",
+        "高铁",
+        "high-speed rail",
+        "铁路运输统计",
+        "railway transport statistics",
+        "旅客发送量",
+        "passenger traffic",
+        "货物运输",
+        "freight volume",
+        "铁路里程",
+        "railway mileage",
+        "高速铁路",
+        "HSR",
+        "春运",
+        "spring festival travel",
+        "铁路基础设施",
+        "railway infrastructure",
+        "轨道交通",
+        "rail transit",
+        "铁路投资",
+        "railway investment"
+      ],
+      "data_content": {
+        "en": [
+          "Passenger traffic statistics: monthly and annual railway passenger volume by line and region",
+          "Freight transport data: goods volume, turnover, and commodity breakdown by rail",
+          "High-speed rail operations: HSR ridership, punctuality rates, and fleet statistics",
+          "Railway network mileage: total operating length, by speed class and electrification",
+          "Infrastructure investment: fixed asset investment in railway construction by year and region",
+          "Station and line data: number of stations, route lengths, and service frequencies",
+          "Spring Festival (Chunyun) travel statistics: annual peak travel period passenger data",
+          "Locomotive and rolling stock: fleet composition, utilization rates",
+          "Operating revenue and efficiency indicators: ton-kilometers, passenger-kilometers",
+          "Annual Railway Statistical Bulletin: comprehensive review of national rail system performance"
+        ],
+        "zh": [
+          "旅客运输统计：按线路和地区划分的月度及年度铁路旅客发送量",
+          "货物运输数据：铁路货运量、换算周转量及分品类货物统计",
+          "高速铁路运营：高铁客运量、正点率及车辆编组统计",
+          "铁路网里程：按速度等级及电气化程度划分的运营总里程",
+          "基础设施投资：按年度及地区划分的铁路建设固定资产投资",
+          "车站与线路数据：车站数量、线路长度及运营频次",
+          "春运旅客统计：年度春运高峰期旅客发送量数据",
+          "机车车辆：车辆编组构成、使用效率",
+          "运营收入与效率指标：换算吨公里、旅客公里",
+          "铁路统计年报：全国铁路系统运营绩效综合报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-crg.json"
+    },
+    {
       "id": "china-crta",
       "name": {
         "en": "China Road Transport Association",
@@ -13365,6 +13441,82 @@
       },
       "has_api": false,
       "file_path": "china/infrastructure/china-nra.json"
+    },
+    {
+      "id": "china-post-group",
+      "name": {
+        "en": "China Post Group Corporation",
+        "zh": "中国邮政集团有限公司"
+      },
+      "description": {
+        "en": "China Post Group Corporation is China's state-owned postal and logistics enterprise, operating under the supervision of the State Post Bureau. As the national postal service operator, China Post Group collects and publishes comprehensive statistics on postal services, express delivery, e-commerce logistics, savings banking, and insurance. Its statistical data, together with reports from the State Post Bureau, form the authoritative source for China's postal industry metrics, covering mail volumes, express parcel counts, rural postal coverage, and postal savings balances. China Post operates the world's most extensive postal network and is a key indicator of China's consumer economy and e-commerce growth.",
+        "zh": "中国邮政集团有限公司是国家邮政局监管的国有邮政和物流企业，是全国邮政业务运营主体。中国邮政集团收集并发布邮政服务、快递、电商物流、储蓄银行及保险业务的综合统计数据，与国家邮政局统计报告共同构成中国邮政行业指标的权威来源，涵盖函件量、快递包裹量、农村邮政覆盖率及邮政储蓄余额等数据。中国邮政运营着全球规模最大的邮政网络，是反映中国消费经济和电商增长的重要指标。"
+      },
+      "website": "https://www.chinapost.com.cn/",
+      "data_url": "https://www.chinapost.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "logistics",
+        "transportation",
+        "economics",
+        "finance"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "邮政",
+        "postal service",
+        "快递",
+        "express delivery",
+        "邮政统计",
+        "postal statistics",
+        "包裹量",
+        "parcel volume",
+        "电商物流",
+        "e-commerce logistics",
+        "邮政储蓄",
+        "postal savings",
+        "农村邮政",
+        "rural postal",
+        "物流",
+        "logistics",
+        "邮政年报",
+        "postal annual report",
+        "国家邮政局",
+        "State Post Bureau",
+        "寄递服务",
+        "delivery services"
+      ],
+      "data_content": {
+        "en": [
+          "Mail volumes: letters, parcels, and printed matter by class and destination",
+          "Express delivery statistics: parcel counts, weight, and revenue from express services",
+          "E-commerce logistics: online shopping-driven parcel volumes and regional distribution",
+          "Postal network coverage: number of postal outlets, rural coverage ratio, delivery routes",
+          "Postal Savings Bank: deposit balances, loan data, and customer counts",
+          "Revenue and financial data: total postal service revenue, breakdown by business line",
+          "Rural postal services: coverage of administrative villages, delivery frequency statistics",
+          "International mail: cross-border postal flows, international express volumes",
+          "Postal industry employment: workforce size and distribution across service types",
+          "Annual Report: comprehensive review of China Post Group's business and financial performance"
+        ],
+        "zh": [
+          "函件量：按类别和目的地划分的信函、包裹及印刷品数据",
+          "快递统计：快递包裹数量、重量及收入",
+          "电商物流：网购驱动的包裹量及地区分布",
+          "邮政网络覆盖：邮政网点数量、农村覆盖率及投递路线",
+          "邮政储蓄银行：存款余额、贷款数据及客户数量",
+          "收入与财务数据：邮政服务总收入及各业务线分类",
+          "农村邮政服务：行政村覆盖率、投递频次统计",
+          "国际邮件：跨境邮政流量及国际快递量",
+          "邮政行业就业：各类服务类型的从业人员规模及分布",
+          "年度报告：中国邮政集团业务与财务绩效综合报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-post-group.json"
     },
     {
       "id": "china-spb",
@@ -15348,6 +15500,80 @@
       "file_path": "china/research/china-nsfc.json"
     },
     {
+      "id": "china-nstl",
+      "name": {
+        "en": "National Science and Technology Library of China",
+        "zh": "国家科技图书文献中心"
+      },
+      "description": {
+        "en": "The National Science and Technology Library (NSTL) is China's national-level science and technology document resource sharing service institution, established by the Ministry of Science and Technology. NSTL provides authoritative access to global scientific and technological literature including journal articles, conference papers, dissertations, standards, and patents. It maintains one of China's largest collections of foreign-language scientific literature, with over 24 million records. NSTL serves as a critical data source for China's science and technology information system, supporting research institutions, universities, and government agencies with comprehensive bibliographic and full-text document services.",
+        "zh": "国家科技图书文献中心（NSTL）是科学技术部建立的国家级科技文献资源共享服务机构，提供涵盖期刊论文、会议论文、学位论文、标准及专利的全球科技文献权威检索服务。NSTL是中国规模最大的外文科技文献馆藏之一，收录超过2400万条记录，是中国科技信息体系的核心数据来源，为科研机构、高校及政府部门提供全面的文献检索和全文服务。"
+      },
+      "website": "https://www.nstl.gov.cn/",
+      "data_url": "https://www.nstl.gov.cn/search.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "science",
+        "technology",
+        "research",
+        "education"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "科技文献",
+        "science and technology literature",
+        "期刊论文",
+        "journal articles",
+        "学位论文",
+        "dissertations",
+        "专利文献",
+        "patent literature",
+        "技术标准",
+        "technical standards",
+        "科技信息",
+        "S&T information",
+        "文献检索",
+        "document retrieval",
+        "外文文献",
+        "foreign-language literature",
+        "科研数据",
+        "research data",
+        "科技部",
+        "Ministry of Science and Technology"
+      ],
+      "data_content": {
+        "en": [
+          "Journal articles: full-text and bibliographic access to international and Chinese scientific journals",
+          "Conference papers: proceedings from major scientific and engineering conferences worldwide",
+          "Dissertations: Chinese and selected international doctoral and master's theses",
+          "Technical standards: national and international standards (GB, ISO, ANSI, etc.)",
+          "Patent documents: Chinese and international patent databases and full texts",
+          "Science and technology statistics: R&D expenditure, publication counts, and citation metrics for China",
+          "Research reports: government-commissioned S&T research and evaluation reports",
+          "Foreign-language literature collection: over 24 million records from global publications",
+          "Preprints and working papers: emerging research documents across scientific disciplines",
+          "Annual S&T Document Resource Report: summary of national scientific literature acquisition"
+        ],
+        "zh": [
+          "期刊论文：国内外科技期刊全文及文献检索服务",
+          "会议论文：全球主要科技工程会议论文集",
+          "学位论文：中国及部分国际博士、硕士学位论文",
+          "技术标准：国家及国际标准（GB、ISO、ANSI等）",
+          "专利文献：中国及国际专利数据库及全文",
+          "科技统计：中国研发经费、论文发表数量及引用指标",
+          "科研报告：政府委托科技研究及评估报告",
+          "外文馆藏：来自全球出版物的2400余万条文献记录",
+          "预印本及工作文件：各科学领域最新研究文档",
+          "科技文献资源年报：国家科技文献资源采集年度综述"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-nstl.json"
+    },
+    {
       "id": "china-pric",
       "name": {
         "en": "Polar Research Institute of China",
@@ -15920,6 +16146,82 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-cern.json"
+    },
+    {
+      "id": "china-cigem",
+      "name": {
+        "en": "China Institute of Geo-Environment Monitoring",
+        "zh": "中国地质环境监测院"
+      },
+      "description": {
+        "en": "The China Institute of Geo-Environment Monitoring (CIGEM) is the national authority for geological environment monitoring in China, operating under the China Geological Survey (Ministry of Natural Resources). Established to safeguard public safety and natural resource management, CIGEM maintains the country's most comprehensive network for monitoring geological hazards (landslides, debris flows, ground subsidence, karst collapse), groundwater dynamics, and geological environment quality. The institute produces authoritative annual reports on China's geological hazard situation, groundwater resources, and land subsidence, and operates the national early-warning system for geological disasters.",
+        "zh": "中国地质环境监测院（CIGEM）是中国地质调查局（自然资源部）下属的国家地质环境监测权威机构。CIGEM建立了全国最完善的地质灾害监测网络，覆盖滑坡、泥石流、地面沉降及岩溶塌陷等灾害类型，同时监测地下水动态和地质环境质量。该机构发布权威的年度地质灾害通报、地下水资源报告和地面沉降报告，并运营全国地质灾害气象预警系统。"
+      },
+      "website": "http://www.cigem.cgs.gov.cn/",
+      "data_url": "http://www.cigem.cgs.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "geology",
+        "environment",
+        "earth-sciences",
+        "water"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "地质环境",
+        "geo-environment",
+        "地质灾害",
+        "geological hazards",
+        "滑坡",
+        "landslide",
+        "泥石流",
+        "debris flow",
+        "地面沉降",
+        "land subsidence",
+        "地下水",
+        "groundwater",
+        "岩溶",
+        "karst",
+        "地质灾害预警",
+        "early warning",
+        "地质环境监测",
+        "geological monitoring",
+        "地质环境年报",
+        "geological environment report",
+        "中国地质调查局",
+        "China Geological Survey"
+      ],
+      "data_content": {
+        "en": [
+          "Geological hazard inventory: comprehensive database of landslides, debris flows, collapses, and ground fissures across China",
+          "Groundwater monitoring: water table levels, quality, and dynamic changes in major aquifer systems",
+          "Land subsidence: deformation measurements for major cities including Beijing, Shanghai, and Xi'an",
+          "Karst collapse: distribution and occurrence data for karst geological collapse events",
+          "Geological disaster meteorological early warning: risk forecasting data by region and season",
+          "Annual China Geological Hazard Bulletin: national assessment of geological disaster occurrence and losses",
+          "Mine geological environment: monitoring data for mining-induced geological changes and restoration",
+          "Geo-environment quality assessment: regional evaluations of geological environment conditions",
+          "Soil erosion: data on water-induced and wind-induced soil loss by watershed",
+          "Geological environment database: integrated GIS data on national geo-environment status"
+        ],
+        "zh": [
+          "地质灾害数据库：全国滑坡、泥石流、崩塌及地裂缝综合数据库",
+          "地下水监测：主要含水层系统的水位、水质及动态变化",
+          "地面沉降：北京、上海、西安等主要城市形变监测数据",
+          "岩溶塌陷：岩溶地质塌陷事件的分布与发生数据",
+          "地质灾害气象预警：分地区、分季节的风险预报数据",
+          "中国地质灾害通报：全国地质灾害发生及损失年度评估",
+          "矿山地质环境：采矿引发地质变化及修复监测数据",
+          "地质环境质量评估：区域地质环境状况综合评价",
+          "水土流失：各流域水力与风力侵蚀土壤流失数据",
+          "地质环境数据库：全国地质环境状况综合GIS数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-cigem.json"
     },
     {
       "id": "china-cnemc",
@@ -16697,6 +16999,81 @@
       },
       "has_api": false,
       "file_path": "china/resources/seismology/china-cea.json"
+    },
+    {
+      "id": "china-iwhr",
+      "name": {
+        "en": "China Institute of Water Resources and Hydropower Research",
+        "zh": "中国水利水电科学研究院"
+      },
+      "description": {
+        "en": "The China Institute of Water Resources and Hydropower Research (IWHR) is China's leading national research institution for water resources and hydropower engineering, directly affiliated with the Ministry of Water Resources. Founded in 1958, IWHR conducts authoritative research on flood control, drought mitigation, water supply, hydropower engineering, dam safety, and water ecology. The institute maintains comprehensive databases on China's river systems, reservoir operations, flood events, and water quality monitoring. IWHR publishes research data, technical standards, and annual reports on China's water resources situation, serving as the primary scientific authority for hydraulic engineering data in China.",
+        "zh": "中国水利水电科学研究院（IWHR）是中国水利部直属的国家级水利水电科研权威机构，成立于1958年。研究院在防洪抗旱、城乡供水、水电工程、大坝安全及水生态保护等领域开展系统性研究，维护着中国河流水系、水库运行、洪涝灾害及水质监测的综合数据库。IWHR发布科研数据、技术标准及中国水资源状况年度报告，是中国水利工程数据的主要科学权威来源。"
+      },
+      "website": "http://www.iwhr.com/",
+      "data_url": "http://www.iwhr.com/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "hydrology",
+        "water",
+        "environment",
+        "engineering"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "水利水电",
+        "water resources",
+        "hydropower",
+        "防洪",
+        "flood control",
+        "水库",
+        "reservoir",
+        "河流",
+        "river systems",
+        "大坝安全",
+        "dam safety",
+        "水质",
+        "water quality",
+        "水资源年报",
+        "water resources annual report",
+        "水利工程",
+        "hydraulic engineering",
+        "旱涝灾害",
+        "drought flood",
+        "水生态",
+        "water ecology"
+      ],
+      "data_content": {
+        "en": [
+          "River and basin hydrology: flow rates, runoff, and discharge data for major Chinese river systems",
+          "Reservoir operations: storage capacity, water levels, and operational data for major reservoirs",
+          "Flood and drought monitoring: historical and real-time event data, frequency analysis",
+          "Dam safety assessment: structural monitoring data and risk evaluation reports",
+          "Water quality: chemical and biological indicators for rivers and reservoirs",
+          "Hydropower statistics: installed capacity, power generation by hydro plants",
+          "Water resources allocation: inter-basin transfer data, water use efficiency metrics",
+          "Technical standards: hydraulic engineering standards and specifications",
+          "Research publications: peer-reviewed papers and technical reports on water science",
+          "Annual China Water Resources Bulletin: comprehensive national water resources assessment"
+        ],
+        "zh": [
+          "河流流域水文：中国主要河流水系的流量、径流及排水数据",
+          "水库运行：主要水库库容、水位及运行数据",
+          "洪旱监测：历史及实时洪旱事件数据、频率分析",
+          "大坝安全评估：结构监测数据及风险评估报告",
+          "水质：河流与水库的理化指标及生物指标",
+          "水电统计：水电站装机容量及发电量数据",
+          "水资源配置：跨流域调水数据、用水效率指标",
+          "技术标准：水利工程标准与规范",
+          "科研成果：水利科学领域同行评审论文及技术报告",
+          "中国水资源公报：全国水资源状况综合年度评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/water/china-iwhr.json"
     },
     {
       "id": "china-mwr",

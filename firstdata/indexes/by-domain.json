@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-20T02:33:02.247411+00:00",
-    "total_domains": 721,
-    "total_sources": 499,
+    "generated_at": "2026-04-21T06:28:23.103195+00:00",
+    "total_domains": 722,
+    "total_sources": 504,
     "version": "2.0"
   },
   "domains": {
@@ -6704,6 +6704,20 @@
         "geographic_scope": "global"
       }
     ],
+    "earth-sciences": [
+      {
+        "id": "china-cigem",
+        "name": {
+          "en": "China Institute of Geo-Environment Monitoring",
+          "zh": "中国地质环境监测院"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cigem.cgs.gov.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cigem.json",
+        "geographic_scope": "national"
+      }
+    ],
     "earthquakes": [
       {
         "id": "usgs",
@@ -8220,6 +8234,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-crg",
+        "name": {
+          "en": "China State Railway Group",
+          "zh": "中国国家铁路集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.china-railway.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crg.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-crta",
         "name": {
           "en": "China Road Transport Association",
@@ -8241,6 +8267,18 @@
         "data_url": "https://www.nra.gov.cn/xxgk/gkml/",
         "has_api": false,
         "file_path": "china/infrastructure/china-nra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-post-group",
+        "name": {
+          "en": "China Post Group Corporation",
+          "zh": "中国邮政集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinapost.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-post-group.json",
         "geographic_scope": "national"
       },
       {
@@ -10034,6 +10072,18 @@
         "data_url": "https://www.nsfc.gov.cn/p1/2961/2964/3655/cg.html",
         "has_api": false,
         "file_path": "china/research/china-nsfc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nstl",
+        "name": {
+          "en": "National Science and Technology Library of China",
+          "zh": "国家科技图书文献中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nstl.gov.cn/search.html",
+        "has_api": false,
+        "file_path": "china/research/china-nstl.json",
         "geographic_scope": "national"
       },
       {
@@ -11991,6 +12041,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-iwhr",
+        "name": {
+          "en": "China Institute of Water Resources and Hydropower Research",
+          "zh": "中国水利水电科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.iwhr.com/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-iwhr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "derwent-innovation-index",
         "name": {
           "en": "Derwent Innovation Index",
@@ -12185,6 +12247,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cigem",
+        "name": {
+          "en": "China Institute of Geo-Environment Monitoring",
+          "zh": "中国地质环境监测院"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cigem.cgs.gov.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cigem.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnemc",
         "name": {
           "en": "China National Environmental Monitoring Centre",
@@ -12266,6 +12340,18 @@
         "data_url": "https://www.cea.gov.cn/cea/dzpd/dzzt/index.html",
         "has_api": false,
         "file_path": "china/resources/seismology/china-cea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iwhr",
+        "name": {
+          "en": "China Institute of Water Resources and Hydropower Research",
+          "zh": "中国水利水电科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.iwhr.com/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-iwhr.json",
         "geographic_scope": "national"
       },
       {
@@ -13957,6 +14043,18 @@
         "data_url": "https://www.nhsa.gov.cn/col/col7/index.html",
         "has_api": false,
         "file_path": "china/health/china-nhsa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-post-group",
+        "name": {
+          "en": "China Post Group Corporation",
+          "zh": "中国邮政集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinapost.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-post-group.json",
         "geographic_scope": "national"
       },
       {
@@ -15734,6 +15832,18 @@
       }
     ],
     "geology": [
+      {
+        "id": "china-cigem",
+        "name": {
+          "en": "China Institute of Geo-Environment Monitoring",
+          "zh": "中国地质环境监测院"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cigem.cgs.gov.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cigem.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-cgs",
         "name": {
@@ -17937,6 +18047,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "china-iwhr",
+        "name": {
+          "en": "China Institute of Water Resources and Hydropower Research",
+          "zh": "中国水利水电科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.iwhr.com/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-iwhr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "bureau-of-meteorology",
         "name": {
           "en": "Bureau of Meteorology",
@@ -19437,6 +19559,18 @@
         "data_url": "https://www.camet.org.cn",
         "has_api": false,
         "file_path": "china/infrastructure/china-camet.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crg",
+        "name": {
+          "en": "China State Railway Group",
+          "zh": "中国国家铁路集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.china-railway.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crg.json",
         "geographic_scope": "national"
       },
       {
@@ -21105,6 +21239,18 @@
     ],
     "logistics": [
       {
+        "id": "china-crg",
+        "name": {
+          "en": "China State Railway Group",
+          "zh": "中国国家铁路集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.china-railway.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crg.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-crta",
         "name": {
           "en": "China Road Transport Association",
@@ -21127,6 +21273,18 @@
         "data_url": "https://www.mot.gov.cn/shuju/",
         "has_api": false,
         "file_path": "china/infrastructure/china-mot.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-post-group",
+        "name": {
+          "en": "China Post Group Corporation",
+          "zh": "中国邮政集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinapost.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-post-group.json",
         "geographic_scope": "national"
       },
       {
@@ -25180,6 +25338,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nstl",
+        "name": {
+          "en": "National Science and Technology Library of China",
+          "zh": "国家科技图书文献中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nstl.gov.cn/search.html",
+        "has_api": false,
+        "file_path": "china/research/china-nstl.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-wanfang",
         "name": {
           "en": "Wanfang Data",
@@ -25599,6 +25769,18 @@
         "data_url": "https://www.nsfc.gov.cn/p1/2961/2964/3655/cg.html",
         "has_api": false,
         "file_path": "china/research/china-nsfc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nstl",
+        "name": {
+          "en": "National Science and Technology Library of China",
+          "zh": "国家科技图书文献中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nstl.gov.cn/search.html",
+        "has_api": false,
+        "file_path": "china/research/china-nstl.json",
         "geographic_scope": "national"
       },
       {
@@ -29166,6 +29348,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nstl",
+        "name": {
+          "en": "National Science and Technology Library of China",
+          "zh": "国家科技图书文献中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nstl.gov.cn/search.html",
+        "has_api": false,
+        "file_path": "china/research/china-nstl.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-wanfang",
         "name": {
           "en": "Wanfang Data",
@@ -31272,6 +31466,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-crg",
+        "name": {
+          "en": "China State Railway Group",
+          "zh": "中国国家铁路集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.china-railway.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crg.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-crta",
         "name": {
           "en": "China Road Transport Association",
@@ -31318,6 +31524,18 @@
         "data_url": "https://www.nra.gov.cn/xxgk/gkml/",
         "has_api": false,
         "file_path": "china/infrastructure/china-nra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-post-group",
+        "name": {
+          "en": "China Post Group Corporation",
+          "zh": "中国邮政集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinapost.com.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-post-group.json",
         "geographic_scope": "national"
       },
       {
@@ -31696,6 +31914,30 @@
       }
     ],
     "water": [
+      {
+        "id": "china-cigem",
+        "name": {
+          "en": "China Institute of Geo-Environment Monitoring",
+          "zh": "中国地质环境监测院"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cigem.cgs.gov.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cigem.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iwhr",
+        "name": {
+          "en": "China Institute of Water Resources and Hydropower Research",
+          "zh": "中国水利水电科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.iwhr.com/",
+        "has_api": false,
+        "file_path": "china/resources/water/china-iwhr.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "bureau-of-meteorology",
         "name": {
