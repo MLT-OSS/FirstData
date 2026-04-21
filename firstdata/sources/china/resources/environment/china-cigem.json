@@ -1,0 +1,74 @@
+{
+  "id": "china-cigem",
+  "name": {
+    "en": "China Institute of Geo-Environment Monitoring",
+    "zh": "中国地质环境监测院"
+  },
+  "description": {
+    "en": "The China Institute of Geo-Environment Monitoring (CIGEM) is the national authority for geological environment monitoring in China, operating under the China Geological Survey (Ministry of Natural Resources). Established to safeguard public safety and natural resource management, CIGEM maintains the country's most comprehensive network for monitoring geological hazards (landslides, debris flows, ground subsidence, karst collapse), groundwater dynamics, and geological environment quality. The institute produces authoritative annual reports on China's geological hazard situation, groundwater resources, and land subsidence, and operates the national early-warning system for geological disasters.",
+    "zh": "中国地质环境监测院（CIGEM）是中国地质调查局（自然资源部）下属的国家地质环境监测权威机构。CIGEM建立了全国最完善的地质灾害监测网络，覆盖滑坡、泥石流、地面沉降及岩溶塌陷等灾害类型，同时监测地下水动态和地质环境质量。该机构发布权威的年度地质灾害通报、地下水资源报告和地面沉降报告，并运营全国地质灾害气象预警系统。"
+  },
+  "website": "http://www.cigem.cgs.gov.cn/",
+  "data_url": "http://www.cigem.cgs.gov.cn/sjcx/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "geology",
+    "environment",
+    "earth-sciences",
+    "water"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "地质环境",
+    "geo-environment",
+    "地质灾害",
+    "geological hazards",
+    "滑坡",
+    "landslide",
+    "泥石流",
+    "debris flow",
+    "地面沉降",
+    "land subsidence",
+    "地下水",
+    "groundwater",
+    "岩溶",
+    "karst",
+    "地质灾害预警",
+    "early warning",
+    "地质环境监测",
+    "geological monitoring",
+    "地质环境年报",
+    "geological environment report",
+    "中国地质调查局",
+    "China Geological Survey"
+  ],
+  "data_content": {
+    "en": [
+      "Geological hazard inventory: comprehensive database of landslides, debris flows, collapses, and ground fissures across China",
+      "Groundwater monitoring: water table levels, quality, and dynamic changes in major aquifer systems",
+      "Land subsidence: deformation measurements for major cities including Beijing, Shanghai, and Xi'an",
+      "Karst collapse: distribution and occurrence data for karst geological collapse events",
+      "Geological disaster meteorological early warning: risk forecasting data by region and season",
+      "Annual China Geological Hazard Bulletin: national assessment of geological disaster occurrence and losses",
+      "Mine geological environment: monitoring data for mining-induced geological changes and restoration",
+      "Geo-environment quality assessment: regional evaluations of geological environment conditions",
+      "Soil erosion: data on water-induced and wind-induced soil loss by watershed",
+      "Geological environment database: integrated GIS data on national geo-environment status"
+    ],
+    "zh": [
+      "地质灾害数据库：全国滑坡、泥石流、崩塌及地裂缝综合数据库",
+      "地下水监测：主要含水层系统的水位、水质及动态变化",
+      "地面沉降：北京、上海、西安等主要城市形变监测数据",
+      "岩溶塌陷：岩溶地质塌陷事件的分布与发生数据",
+      "地质灾害气象预警：分地区、分季节的风险预报数据",
+      "中国地质灾害通报：全国地质灾害发生及损失年度评估",
+      "矿山地质环境：采矿引发地质变化及修复监测数据",
+      "地质环境质量评估：区域地质环境状况综合评价",
+      "水土流失：各流域水力与风力侵蚀土壤流失数据",
+      "地质环境数据库：全国地质环境状况综合GIS数据"
+    ]
+  }
+}
