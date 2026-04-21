@@ -1,0 +1,23 @@
+{
+  "id": "china-catarc",
+  "name": {
+    "en": "China Automotive Technology and Research Center",
+    "zh": "中国汽车技术研究中心"
+  },
+  "description": {
+    "en": "The China Automotive Technology and Research Center (CATARC) is a national-level research institution under SASAC, providing automotive industry testing, certification, standards development, and policy research. It publishes vehicle sales data, new energy vehicle statistics, and automotive safety reports.",
+    "zh": "中国汽车技术研究中心（中汽中心）是国资委直属的国家级研究机构，提供汽车行业测试、认证、标准制定和政策研究服务。发布汽车销量数据、新能源汽车统计和汽车安全报告。"
+  },
+  "data_content": {
+    "en": ["vehicle sales statistics", "new energy vehicle data", "automotive safety reports", "emission standards data", "vehicle certification records"],
+    "zh": ["汽车销量统计", "新能源汽车数据", "汽车安全报告", "排放标准数据", "车辆认证记录"]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "https://www.catarc.ac.cn",
+  "data_url": "https://www.catarc.ac.cn",
+  "domains": ["transportation", "manufacturing"],
+  "tags": ["automotive", "vehicles", "new-energy", "safety", "certification", "sasac"],
+  "update_frequency": "monthly"
+}
