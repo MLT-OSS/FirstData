@@ -1,0 +1,74 @@
+{
+  "id": "china-catas",
+  "name": {
+    "en": "Chinese Academy of Tropical Agricultural Sciences",
+    "zh": "中国热带农业科学院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Tropical Agricultural Sciences (CATAS) is China's only national-level research institution dedicated to tropical and subtropical agriculture. Founded in 1954 and headquartered in Danzhou, Hainan Province, CATAS operates research centers and experiment stations across Hainan, Yunnan, Guangdong, Guangxi, and Fujian. The academy focuses on natural rubber, tropical fruits, spice crops, tropical cash crops, and livestock production systems suited to China's tropical zones. CATAS publishes research findings on rubber tree genetics, coconut, palm oil, pepper, tea, tropical vegetables, and integrated pest management. It maintains germplasm banks for tropical crop varieties and provides data on tropical agricultural resources, yields, and crop improvement programs. CATAS plays a central role in China's agricultural development strategy for Hainan Free Trade Port and tropical regions.",
+    "zh": "中国热带农业科学院是中国唯一的国家级热带农业综合性科研机构，1954年成立，总部设在海南省儋州市，并在海南、云南、广东、广西、福建等地设有研究中心和试验站。该院重点研究天然橡胶、热带水果、香料作物、热带经济作物和适合中国热区的畜牧生产系统，发布橡胶树遗传育种、椰子、棕榈油、胡椒、茶叶、热带蔬菜和病虫害综合防控等领域的研究成果，保存热带作物种质资源库，并提供热带农业资源、产量及作物改良计划相关数据。热科院在中国海南自由贸易港和热带地区农业发展战略中居核心地位。"
+  },
+  "website": "https://www.catas.cn",
+  "data_url": "https://www.catas.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "science",
+    "environment"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国热带农业科学院",
+    "CATAS",
+    "Chinese Academy of Tropical Agricultural Sciences",
+    "热带农业",
+    "tropical agriculture",
+    "天然橡胶",
+    "natural rubber",
+    "橡胶树",
+    "rubber tree",
+    "热带作物",
+    "tropical crops",
+    "椰子",
+    "coconut",
+    "棕榈油",
+    "palm oil",
+    "胡椒",
+    "pepper",
+    "香料作物",
+    "spice crops",
+    "热带水果",
+    "tropical fruits",
+    "种质资源",
+    "germplasm resources",
+    "海南",
+    "Hainan",
+    "热区农业",
+    "tropical zone agriculture",
+    "作物改良",
+    "crop improvement"
+  ],
+  "data_content": {
+    "en": [
+      "Natural rubber production data: annual planting area, yield per hectare, total output, and quality grading statistics for rubber trees in China's tropical regions",
+      "Tropical crop germplasm resources: catalog and genetic data for preserved accessions of rubber, coconut, palm, pepper, spice, and tropical fruit varieties",
+      "Tropical agricultural research publications: peer-reviewed findings on crop genetics, pest resistance, soil management, and cultivation techniques for tropical crops",
+      "Crop disease and pest monitoring: surveillance data on major diseases and pests affecting rubber, tropical fruits, and cash crops in China's tropical zones",
+      "Hainan agricultural development data: statistics and assessments on tropical agriculture development in Hainan Free Trade Port zone",
+      "Tropical livestock data: research on animal husbandry systems adapted to tropical climates including cattle, goats, and poultry breeds",
+      "Agrometeorological data: climate suitability assessments and agroclimatic monitoring for tropical agricultural regions of China"
+    ],
+    "zh": [
+      "天然橡胶生产数据：中国热区橡胶树年度种植面积、单产、总产量及质量分级统计",
+      "热带作物种质资源：橡胶、椰子、棕榈、胡椒、香料和热带水果品种保存目录及遗传数据",
+      "热带农业研究出版物：热带作物遗传育种、抗病性、土壤管理和栽培技术同行评审研究成果",
+      "作物病虫害监测：中国热区橡胶、热带水果和经济作物主要病虫害监测数据",
+      "海南农业发展数据：海南自由贸易港热带农业发展统计与评估",
+      "热带畜牧数据：适应热带气候的牛、羊、家禽品种畜牧系统研究",
+      "农业气象数据：中国热带农业区气候适宜性评估和农业气候监测"
+    ]
+  }
+}

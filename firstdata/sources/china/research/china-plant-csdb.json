@@ -1,0 +1,79 @@
+{
+  "id": "china-plant-csdb",
+  "name": {
+    "en": "China Plant Thematic Database (CAS Science Database)",
+    "zh": "中国植物主题数据库"
+  },
+  "description": {
+    "en": "The China Plant Thematic Database is part of the Chinese Academy of Sciences Science Database (CSDB) system, maintained by CAS and accessible through plant.csdb.cn. It is one of China's most comprehensive authoritative databases for plant taxonomy, distribution, and botanical information. The database integrates data from major herbaria, botanical gardens, and field surveys across China, covering vascular plants, bryophytes, algae, fungi, and lichens found in China. It provides species occurrence records, taxonomic classification, morphological descriptions, distribution maps, ecological habitat information, and nomenclature references. The China Plant Thematic Database is a key resource for biodiversity conservation planning, ecological impact assessments, and floristic research on China's exceptionally rich plant diversity — China harbors approximately 35,000 higher plant species, the third highest in the world.",
+    "zh": "中国植物主题数据库是中国科学院科学数据库（CSDB）体系的重要组成部分，由中科院维护，通过plant.csdb.cn访问，是中国最全面的权威植物分类学、分布和植物学信息综合数据库之一。该数据库整合了中国各大标本馆、植物园和野外调查的数据，收录中国产维管束植物、苔藓植物、藻类、真菌和地衣。数据库提供物种分布记录、分类学归属、形态描述、分布图、生态生境信息和命名参考资料，是生物多样性保护规划、生态影响评估和中国丰富植物多样性区系研究的关键资源。中国约有高等植物35,000种，位居全球第三。"
+  },
+  "website": "https://www.plant.csdb.cn",
+  "data_url": "https://www.plant.csdb.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "biodiversity",
+    "environment",
+    "science",
+    "ecology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国植物主题数据库",
+    "China Plant Database",
+    "植物分类学",
+    "plant taxonomy",
+    "植物多样性",
+    "plant diversity",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "CSDB",
+    "科学数据库",
+    "Science Database",
+    "维管束植物",
+    "vascular plants",
+    "苔藓植物",
+    "bryophytes",
+    "物种分布",
+    "species distribution",
+    "植物标本",
+    "herbarium specimens",
+    "植物区系",
+    "flora",
+    "生物多样性",
+    "biodiversity",
+    "植物园",
+    "botanical garden",
+    "濒危植物",
+    "endangered plants",
+    "植物命名",
+    "plant nomenclature",
+    "生态调查",
+    "ecological survey"
+  ],
+  "data_content": {
+    "en": [
+      "Plant species records: taxonomic information for vascular plants, mosses, algae, fungi, and lichens native to or naturalized in China, with scientific names, synonyms, and authority citations",
+      "Species distribution data: georeferenced occurrence records and distribution maps showing plant species ranges across China's provinces and ecological zones",
+      "Morphological descriptions: standardized botanical descriptions of plant families, genera, and species including diagnostic characters, growth forms, and phenological data",
+      "Herbarium specimen data: digitized specimen records from major Chinese herbaria including the PE Herbarium of the Institute of Botany CAS, with collection localities, dates, and collectors",
+      "Ecological habitat information: vegetation community associations, altitudinal ranges, soil preferences, and biome affiliations for plant species",
+      "Conservation status data: information on nationally protected plant species, IUCN Red List assessments, and endemic species of China",
+      "Floristic diversity statistics: species richness data by region, family, and ecosystem type across China's 31 provinces and major ecological regions",
+      "Economic and medicinal plant data: records of plants with documented economic, medicinal, or agricultural significance in China"
+    ],
+    "zh": [
+      "植物物种记录：中国原产或归化的维管束植物、苔藓、藻类、真菌和地衣分类信息，含学名、异名和命名引证",
+      "物种分布数据：带地理坐标的物种分布记录和分布图，呈现植物物种在各省和生态区的分布范围",
+      "形态描述：植物科、属、种的标准化植物学描述，包括鉴别特征、生长型和物候数据",
+      "标本数据：中国各大标本馆（含中科院植物研究所PE标本馆）的数字化标本记录，含采集地、采集日期和采集人",
+      "生态生境信息：植物物种的植被群落关联、海拔范围、土壤偏好和生物群系归属",
+      "保护状况数据：国家保护植物物种信息、IUCN红色名录评估和中国特有植物",
+      "植物区系多样性统计：中国31个省及主要生态区的物种丰富度分科、按生态系统类型统计数据",
+      "经济与药用植物数据：具有记录在案经济、药用或农业价值的中国植物记录"
+    ]
+  }
+}
