@@ -1,0 +1,23 @@
+{
+  "id": "china-csia",
+  "name": {
+    "en": "China Semiconductor Industry Association",
+    "zh": "中国半导体行业协会"
+  },
+  "description": {
+    "en": "The China Semiconductor Industry Association (CSIA) is the national industry body representing China's semiconductor sector. It publishes IC industry statistics, market reports, and semiconductor trade data.",
+    "zh": "中国半导体行业协会是代表中国半导体产业的全国性行业组织。发布集成电路产业统计数据、市场报告和半导体贸易数据。"
+  },
+  "data_content": {
+    "en": ["IC industry statistics", "semiconductor market reports", "chip trade data", "industry development reports", "member enterprise data"],
+    "zh": ["集成电路产业统计", "半导体市场报告", "芯片贸易数据", "产业发展报告", "会员企业数据"]
+  },
+  "country": "CN",
+  "authority_level": "other",
+  "geographic_scope": "national",
+  "website": "https://web.csia.net.cn",
+  "data_url": "https://web.csia.net.cn",
+  "domains": ["technology", "manufacturing"],
+  "tags": ["semiconductor", "ic", "chip", "electronics"],
+  "update_frequency": "quarterly"
+}
