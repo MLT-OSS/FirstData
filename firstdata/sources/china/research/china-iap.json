@@ -1,0 +1,78 @@
+{
+  "id": "china-iap",
+  "name": {
+    "en": "Institute of Atmospheric Physics, Chinese Academy of Sciences",
+    "zh": "中国科学院大气物理研究所"
+  },
+  "description": {
+    "en": "The Institute of Atmospheric Physics (IAP) under the Chinese Academy of Sciences is China's premier research institution for atmospheric science and climate change. Founded in 1928 and reorganized under CAS in 1950, IAP leads China's research in atmospheric dynamics, physical climatology, atmospheric chemistry, boundary layer meteorology, and middle atmosphere research. IAP operates key observational facilities including China's tallest meteorological tower in Beijing and contributes to multiple international climate observation networks. The institute develops and maintains China's leading climate models, produces authoritative climate change assessments, and publishes major research findings on global warming, East Asian monsoon dynamics, air pollution meteorology, and atmospheric composition. IAP's data products are widely used in IPCC assessments and international climate science.",
+    "zh": "中国科学院大气物理研究所是中国大气科学和气候变化领域的最高研究机构，1928年创建，1950年并入中国科学院。大气所在大气动力学、物理气候学、大气化学、边界层气象和中层大气研究方面引领中国研究前沿，运营北京325米气象铁塔等核心观测设施，参与多个国际气候观测网络。研究所开发维护中国主流气候模式，发布气候变化权威评估报告，在全球变暖、东亚季风动力学、大气污染气象学和大气成分等方面发表重要研究成果。大气所数据产品被IPCC评估报告和国际气候科学界广泛引用。"
+  },
+  "website": "https://www.iap.ac.cn",
+  "data_url": "https://www.iap.ac.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "climate",
+    "environment",
+    "science",
+    "weather"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国科学院大气物理研究所",
+    "IAP",
+    "Institute of Atmospheric Physics",
+    "大气物理",
+    "atmospheric physics",
+    "气候变化",
+    "climate change",
+    "大气科学",
+    "atmospheric science",
+    "东亚季风",
+    "East Asian monsoon",
+    "气候模式",
+    "climate model",
+    "全球变暖",
+    "global warming",
+    "大气化学",
+    "atmospheric chemistry",
+    "边界层气象",
+    "boundary layer meteorology",
+    "大气污染",
+    "air pollution meteorology",
+    "气象观测",
+    "meteorological observation",
+    "IPCC",
+    "气候评估",
+    "climate assessment",
+    "中层大气",
+    "middle atmosphere",
+    "海洋热含量",
+    "ocean heat content"
+  ],
+  "data_content": {
+    "en": [
+      "Climate model output: simulation data from IAP's Earth System Models (CAS-ESM) contributed to CMIP6 for global and East Asian climate projections",
+      "Atmospheric observation data: long-term measurements from Beijing 325m meteorological tower including temperature, humidity, wind profiles, and turbulence",
+      "Ocean heat content datasets: authoritative global ocean warming records maintained by IAP, widely referenced for tracking long-term climate change",
+      "East Asian monsoon research: historical and projected changes in monsoon onset, intensity, precipitation patterns, and teleconnections",
+      "Atmospheric chemistry data: observations and model outputs on aerosol composition, trace gas concentrations, and air quality impacts on climate",
+      "Climate change assessment reports: China National Assessment Reports on Climate Change and contributions to IPCC Working Group I assessment reports",
+      "Stratosphere and middle atmosphere data: observations of ozone layer, upper atmosphere dynamics, and solar-climate interactions",
+      "Boundary layer meteorology data: surface energy budget, turbulent flux measurements, and urban heat island research"
+    ],
+    "zh": [
+      "气候模式输出：大气所地球系统模式（CAS-ESM）参与CMIP6的全球及东亚气候预测模拟数据",
+      "大气观测数据：北京325米气象铁塔长期气温、湿度、风廓线及湍流观测数据",
+      "海洋热含量数据集：大气所维护的全球海洋变暖权威记录，被广泛用于长期气候变化追踪",
+      "东亚季风研究：季风开始时间、强度、降水型态和遥相关的历史变化及预测研究",
+      "大气化学数据：气溶胶成分、微量气体浓度和大气污染对气候影响的观测与模拟数据",
+      "气候变化评估报告：《中国气候变化国家评估报告》及参与IPCC第一工作组评估报告",
+      "平流层与中层大气数据：臭氧层、高层大气动力学和太阳-气候相互作用观测",
+      "边界层气象数据：地表能量收支、湍流通量观测和城市热岛研究"
+    ]
+  }
+}

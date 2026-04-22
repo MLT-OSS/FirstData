@@ -1,0 +1,78 @@
+{
+  "id": "china-cass",
+  "name": {
+    "en": "Chinese Academy of Social Sciences",
+    "zh": "中国社会科学院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Social Sciences (CASS) is China's highest academic institution and national-level comprehensive research center in philosophy and social sciences. Founded in 1977 as a spin-off from the Chinese Academy of Sciences, CASS operates more than 40 research institutes covering economics, sociology, political science, law, history, literature, philosophy, international studies, regional studies, and ethnic studies. CASS publishes the authoritative China Social Sciences yearbook and numerous research reports that inform national policy. Its affiliated institutes produce major economic forecasts, social development assessments, and international relations analyses. CASS data and publications are widely referenced in government policymaking and academic research both within China and internationally.",
+    "zh": "中国社会科学院是中国哲学社会科学领域最高学术机构和综合性全国研究中心，1977年从中国科学院独立组建。社科院下设40余个研究所，覆盖经济学、社会学、政治学、法学、历史学、文学、哲学、国际问题、区域研究和民族学等领域。社科院发布权威性的《中国社会科学年鉴》及大量研究报告，直接服务国家政策制定。各附属研究所出具重要的经济预测、社会发展评估和国际关系分析报告，研究成果在国内外政府决策和学术研究中被广泛引用。"
+  },
+  "website": "http://www.cass.ac.cn",
+  "data_url": "http://www.cass.ac.cn/list/zw_sscp.html",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "social",
+    "political-science",
+    "law",
+    "history"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国社会科学院",
+    "CASS",
+    "Chinese Academy of Social Sciences",
+    "社会科学",
+    "social sciences",
+    "哲学",
+    "philosophy",
+    "经济学",
+    "economics",
+    "社会学",
+    "sociology",
+    "政治学",
+    "political science",
+    "法学",
+    "law",
+    "历史学",
+    "history",
+    "国际问题",
+    "international studies",
+    "区域研究",
+    "regional studies",
+    "社科院蓝皮书",
+    "CASS bluebook",
+    "社会科学年鉴",
+    "social sciences yearbook",
+    "中国经济形势分析",
+    "China economic outlook",
+    "社会发展报告",
+    "social development report"
+  ],
+  "data_content": {
+    "en": [
+      "China Social Sciences Yearbook: comprehensive annual overview of developments across all social science disciplines in China",
+      "Economic outlook reports: macroeconomic forecasts and analysis of China's economic trends, growth drivers, and structural transformation",
+      "Social development blue books: annual assessments of social stability, inequality, urbanization, public services, and quality of life in China",
+      "International relations research: analytical reports on China's foreign policy, bilateral relations, and global geopolitical dynamics",
+      "Legal studies publications: research on Chinese law, judicial system, and law reform covering civil, criminal, commercial, and constitutional law",
+      "Historical research data: archives, primary sources, and research output covering Chinese and world history",
+      "Ethnic and regional studies: data and research on minority nationalities, regional development, and border area studies",
+      "Philosophy and cultural research: studies on Chinese and comparative philosophy, literary theory, and cultural policy"
+    ],
+    "zh": [
+      "《中国社会科学年鉴》：中国各社会科学学科年度发展综合概览",
+      "经济形势报告：中国宏观经济预测分析，涵盖经济趋势、增长动力和结构转型",
+      "社会发展蓝皮书：社会稳定、不平等、城镇化、公共服务和生活质量年度评估",
+      "国际问题研究：中国外交政策、双边关系和全球地缘政治动态分析报告",
+      "法学研究出版物：涵盖民商法、刑法、宪法和法制改革的中国法律与司法制度研究",
+      "历史研究资料：中国史与世界史档案、原始史料和研究成果",
+      "民族与区域研究：少数民族、区域发展和边疆研究数据与研究成果",
+      "哲学与文化研究：中国哲学、比较哲学、文艺理论和文化政策研究"
+    ]
+  }
+}
