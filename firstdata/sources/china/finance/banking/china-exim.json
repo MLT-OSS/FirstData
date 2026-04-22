@@ -1,0 +1,63 @@
+{
+  "id": "china-exim",
+  "name": {
+    "en": "Export-Import Bank of China",
+    "zh": "中国进出口银行"
+  },
+  "description": {
+    "en": "The Export-Import Bank of China (China Eximbank) is a state policy bank established in 1994 under the direct jurisdiction of the State Council. It is the sole Chinese government agency responsible for providing government concessional loans and preferential export buyer's credit. China Eximbank publishes annual reports, financial data, and lending statistics covering overseas infrastructure project financing, trade credit, and Belt and Road Initiative-related loans. Its disclosure data provides insight into China's overseas development finance flows, recipient countries, and sectoral distribution of international lending.",
+    "zh": "中国进出口银行是1994年成立的国家政策性银行，直属国务院领导。它是中国唯一承担政府优惠贷款和出口优惠买方信贷职能的政府机构。进出口银行发布年度报告、财务数据和贷款统计，涵盖海外基础设施项目融资、贸易信贷及一带一路相关贷款。其披露数据为中国对外发展融资流量、受援国分布及国际贷款行业结构提供了重要参考。"
+  },
+  "website": "http://www.eximbank.gov.cn",
+  "data_url": "http://www.eximbank.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "trade",
+    "international-development",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国进出口银行",
+    "Eximbank",
+    "Export-Import Bank",
+    "policy bank",
+    "政策性银行",
+    "concessional loan",
+    "优惠贷款",
+    "Belt and Road",
+    "一带一路",
+    "overseas development finance",
+    "对外发展融资",
+    "trade finance",
+    "贸易融资",
+    "infrastructure lending",
+    "基础设施贷款",
+    "annual report",
+    "年度报告",
+    "international lending",
+    "国际贷款"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Report - Comprehensive financial statements, loan portfolio breakdown, and operational data",
+      "Concessional Loan Portfolio - Data on government concessional loans by recipient country and sector",
+      "Export Buyer's Credit - Statistics on preferential export credit extended to overseas borrowers",
+      "Belt and Road Initiative Lending - Overview of financing provided to BRI countries and projects",
+      "Financial Indicators - Capital adequacy, non-performing loan ratios, and balance sheet data",
+      "Trade Finance Statistics - Volume and structure of trade credit and guarantee products"
+    ],
+    "zh": [
+      "年度报告 - 综合财务报表、贷款组合构成及运营数据",
+      "政府优惠贷款组合 - 按受援国和行业划分的政府优惠贷款数据",
+      "出口优惠买方信贷 - 向境外借款方发放优惠出口信贷的统计数据",
+      "一带一路融资概况 - 向一带一路沿线国家和项目提供融资的总览",
+      "财务指标 - 资本充足率、不良贷款率及资产负债表数据",
+      "贸易融资统计 - 贸易信贷和担保产品的规模与结构"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "china-cacms",
+  "name": {
+    "en": "China Academy of Chinese Medical Sciences",
+    "zh": "中国中医科学院"
+  },
+  "description": {
+    "en": "The China Academy of Chinese Medical Sciences (CACMS) is China's highest academic and research institution dedicated to traditional Chinese medicine (TCM). Established in 1955, CACMS operates research institutes covering basic TCM theory, clinical medicine, acupuncture-moxibustion, Chinese materia medica, and TCM history. CACMS publishes research findings on TCM treatment efficacy, Chinese herb pharmacology, and integrative medicine. It also hosts the China TCM Data Center which maintains databases on medicinal plant resources, classical formulas, clinical trial data, and TCM literature, serving as the authoritative repository for TCM scientific knowledge in China.",
+    "zh": "中国中医科学院是中国最高级别的中医药学术与研究机构，成立于1955年。院下设多个研究所，涵盖中医基础理论、临床医学、针灸推拿、中药学和中医史学。院内发布中医疗效、中药药理及中西医结合的研究成果。院内还设有中国中医药数据中心，维护药用植物资源、经典方剂、临床试验数据及中医药文献数据库，是中国中医药科学知识的权威存储库。"
+  },
+  "website": "https://www.cacms.ac.cn",
+  "data_url": "https://www.cacms.ac.cn/index.html",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "traditional-medicine",
+    "pharmacology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国中医科学院",
+    "CACMS",
+    "traditional Chinese medicine",
+    "中医",
+    "TCM",
+    "acupuncture",
+    "针灸",
+    "Chinese materia medica",
+    "中药",
+    "herbal medicine",
+    "草药",
+    "integrative medicine",
+    "中西医结合",
+    "medicinal plants",
+    "药用植物",
+    "classical formulas",
+    "经典方剂",
+    "TCM research",
+    "中医研究",
+    "pharmacology",
+    "药理学"
+  ],
+  "data_content": {
+    "en": [
+      "TCM Clinical Research Data - Results from clinical trials on traditional Chinese medicine treatments for various conditions",
+      "Chinese Materia Medica Database - Comprehensive data on Chinese medicinal herbs including composition, efficacy, and safety",
+      "Classical Formula Repository - Systematic documentation of traditional prescription formulas and their clinical applications",
+      "Medicinal Plant Resource Data - Distribution, species classification, and resource assessment of medicinal plants in China",
+      "Acupuncture Research Findings - Evidence-based research publications on acupuncture and moxibustion treatments",
+      "TCM Literature Database - Digitized classical texts and modern research papers on traditional Chinese medicine",
+      "Annual TCM Industry Report - Statistical overview of the TCM research, production, and clinical application landscape"
+    ],
+    "zh": [
+      "中医临床研究数据 - 中医药治疗各类疾病的临床试验结果",
+      "中药资源数据库 - 中药材成分、功效及安全性综合数据",
+      "经典方剂库 - 传统处方的系统文献整理及临床应用记录",
+      "药用植物资源数据 - 中国药用植物的分布、种类及资源评估",
+      "针灸研究成果 - 针灸及艾灸治疗的循证医学研究成果",
+      "中医文献数据库 - 中医经典古籍数字化文本及现代研究论文",
+      "中医药产业年度报告 - 中医药研究、生产及临床应用发展概况统计"
+    ]
+  }
+}
