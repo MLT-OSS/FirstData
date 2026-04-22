@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-04-21T06:28:23.103195+00:00",
-    "total_sources": 504,
+    "generated_at": "2026-04-22T02:21:32.977189+00:00",
+    "total_sources": 509,
     "authority_counts": {
-      "research": 65,
+      "research": 70,
       "international": 74,
       "government": 278,
       "other": 43,
@@ -208,6 +208,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "china-catas",
+        "name": {
+          "en": "Chinese Academy of Tropical Agricultural Sciences",
+          "zh": "中国热带农业科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.catas.cn",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-catas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nifd",
         "name": {
           "en": "National Institution for Finance and Development",
@@ -328,6 +340,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cass",
+        "name": {
+          "en": "Chinese Academy of Social Sciences",
+          "zh": "中国社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cass.ac.cn/list/zw_sscp.html",
+        "has_api": false,
+        "file_path": "china/research/china-cass.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-casted",
         "name": {
           "en": "China Academy of Science and Technology for Development",
@@ -424,6 +448,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-iap",
+        "name": {
+          "en": "Institute of Atmospheric Physics, Chinese Academy of Sciences",
+          "zh": "中国科学院大气物理研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iap.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-iap.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-igsnrr",
         "name": {
           "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
@@ -433,6 +469,18 @@
         "data_url": "http://www.igsnrr.ac.cn",
         "has_api": false,
         "file_path": "china/research/china-igsnrr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ioz",
+        "name": {
+          "en": "Institute of Zoology, Chinese Academy of Sciences",
+          "zh": "中国科学院动物研究所"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ioz.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ioz.json",
         "geographic_scope": "national"
       },
       {
@@ -457,6 +505,18 @@
         "data_url": "https://www.geodata.cn/data/",
         "has_api": false,
         "file_path": "china/research/china-ngeos.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-plant-csdb",
+        "name": {
+          "en": "China Plant Thematic Database (CAS Science Database)",
+          "zh": "中国植物主题数据库"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.plant.csdb.cn",
+        "has_api": false,
+        "file_path": "china/research/china-plant-csdb.json",
         "geographic_scope": "national"
       },
       {

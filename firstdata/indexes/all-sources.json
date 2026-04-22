@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-21T06:28:23.103195+00:00",
-    "total_sources": 504,
+    "generated_at": "2026-04-22T02:21:32.977189+00:00",
+    "total_sources": 509,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2317,6 +2317,82 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/construction/china-mohurd.json"
+    },
+    {
+      "id": "china-catas",
+      "name": {
+        "en": "Chinese Academy of Tropical Agricultural Sciences",
+        "zh": "中国热带农业科学院"
+      },
+      "description": {
+        "en": "The Chinese Academy of Tropical Agricultural Sciences (CATAS) is China's only national-level research institution dedicated to tropical and subtropical agriculture. Founded in 1954 and headquartered in Danzhou, Hainan Province, CATAS operates research centers and experiment stations across Hainan, Yunnan, Guangdong, Guangxi, and Fujian. The academy focuses on natural rubber, tropical fruits, spice crops, tropical cash crops, and livestock production systems suited to China's tropical zones. CATAS publishes research findings on rubber tree genetics, coconut, palm oil, pepper, tea, tropical vegetables, and integrated pest management. It maintains germplasm banks for tropical crop varieties and provides data on tropical agricultural resources, yields, and crop improvement programs. CATAS plays a central role in China's agricultural development strategy for Hainan Free Trade Port and tropical regions.",
+        "zh": "中国热带农业科学院是中国唯一的国家级热带农业综合性科研机构，1954年成立，总部设在海南省儋州市，并在海南、云南、广东、广西、福建等地设有研究中心和试验站。该院重点研究天然橡胶、热带水果、香料作物、热带经济作物和适合中国热区的畜牧生产系统，发布橡胶树遗传育种、椰子、棕榈油、胡椒、茶叶、热带蔬菜和病虫害综合防控等领域的研究成果，保存热带作物种质资源库，并提供热带农业资源、产量及作物改良计划相关数据。热科院在中国海南自由贸易港和热带地区农业发展战略中居核心地位。"
+      },
+      "website": "https://www.catas.cn",
+      "data_url": "https://www.catas.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "science",
+        "environment"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国热带农业科学院",
+        "CATAS",
+        "Chinese Academy of Tropical Agricultural Sciences",
+        "热带农业",
+        "tropical agriculture",
+        "天然橡胶",
+        "natural rubber",
+        "橡胶树",
+        "rubber tree",
+        "热带作物",
+        "tropical crops",
+        "椰子",
+        "coconut",
+        "棕榈油",
+        "palm oil",
+        "胡椒",
+        "pepper",
+        "香料作物",
+        "spice crops",
+        "热带水果",
+        "tropical fruits",
+        "种质资源",
+        "germplasm resources",
+        "海南",
+        "Hainan",
+        "热区农业",
+        "tropical zone agriculture",
+        "作物改良",
+        "crop improvement"
+      ],
+      "data_content": {
+        "en": [
+          "Natural rubber production data: annual planting area, yield per hectare, total output, and quality grading statistics for rubber trees in China's tropical regions",
+          "Tropical crop germplasm resources: catalog and genetic data for preserved accessions of rubber, coconut, palm, pepper, spice, and tropical fruit varieties",
+          "Tropical agricultural research publications: peer-reviewed findings on crop genetics, pest resistance, soil management, and cultivation techniques for tropical crops",
+          "Crop disease and pest monitoring: surveillance data on major diseases and pests affecting rubber, tropical fruits, and cash crops in China's tropical zones",
+          "Hainan agricultural development data: statistics and assessments on tropical agriculture development in Hainan Free Trade Port zone",
+          "Tropical livestock data: research on animal husbandry systems adapted to tropical climates including cattle, goats, and poultry breeds",
+          "Agrometeorological data: climate suitability assessments and agroclimatic monitoring for tropical agricultural regions of China"
+        ],
+        "zh": [
+          "天然橡胶生产数据：中国热区橡胶树年度种植面积、单产、总产量及质量分级统计",
+          "热带作物种质资源：橡胶、椰子、棕榈、胡椒、香料和热带水果品种保存目录及遗传数据",
+          "热带农业研究出版物：热带作物遗传育种、抗病性、土壤管理和栽培技术同行评审研究成果",
+          "作物病虫害监测：中国热区橡胶、热带水果和经济作物主要病虫害监测数据",
+          "海南农业发展数据：海南自由贸易港热带农业发展统计与评估",
+          "热带畜牧数据：适应热带气候的牛、羊、家禽品种畜牧系统研究",
+          "农业气象数据：中国热带农业区气候适宜性评估和农业气候监测"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-catas.json"
     },
     {
       "id": "china-cfeed",
@@ -14416,6 +14492,86 @@
       "file_path": "china/research/china-cas.json"
     },
     {
+      "id": "china-cass",
+      "name": {
+        "en": "Chinese Academy of Social Sciences",
+        "zh": "中国社会科学院"
+      },
+      "description": {
+        "en": "The Chinese Academy of Social Sciences (CASS) is China's highest academic institution and national-level comprehensive research center in philosophy and social sciences. Founded in 1977 as a spin-off from the Chinese Academy of Sciences, CASS operates more than 40 research institutes covering economics, sociology, political science, law, history, literature, philosophy, international studies, regional studies, and ethnic studies. CASS publishes the authoritative China Social Sciences yearbook and numerous research reports that inform national policy. Its affiliated institutes produce major economic forecasts, social development assessments, and international relations analyses. CASS data and publications are widely referenced in government policymaking and academic research both within China and internationally.",
+        "zh": "中国社会科学院是中国哲学社会科学领域最高学术机构和综合性全国研究中心，1977年从中国科学院独立组建。社科院下设40余个研究所，覆盖经济学、社会学、政治学、法学、历史学、文学、哲学、国际问题、区域研究和民族学等领域。社科院发布权威性的《中国社会科学年鉴》及大量研究报告，直接服务国家政策制定。各附属研究所出具重要的经济预测、社会发展评估和国际关系分析报告，研究成果在国内外政府决策和学术研究中被广泛引用。"
+      },
+      "website": "http://www.cass.ac.cn",
+      "data_url": "http://www.cass.ac.cn/list/zw_sscp.html",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "social",
+        "political-science",
+        "law",
+        "history"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国社会科学院",
+        "CASS",
+        "Chinese Academy of Social Sciences",
+        "社会科学",
+        "social sciences",
+        "哲学",
+        "philosophy",
+        "经济学",
+        "economics",
+        "社会学",
+        "sociology",
+        "政治学",
+        "political science",
+        "法学",
+        "law",
+        "历史学",
+        "history",
+        "国际问题",
+        "international studies",
+        "区域研究",
+        "regional studies",
+        "社科院蓝皮书",
+        "CASS bluebook",
+        "社会科学年鉴",
+        "social sciences yearbook",
+        "中国经济形势分析",
+        "China economic outlook",
+        "社会发展报告",
+        "social development report"
+      ],
+      "data_content": {
+        "en": [
+          "China Social Sciences Yearbook: comprehensive annual overview of developments across all social science disciplines in China",
+          "Economic outlook reports: macroeconomic forecasts and analysis of China's economic trends, growth drivers, and structural transformation",
+          "Social development blue books: annual assessments of social stability, inequality, urbanization, public services, and quality of life in China",
+          "International relations research: analytical reports on China's foreign policy, bilateral relations, and global geopolitical dynamics",
+          "Legal studies publications: research on Chinese law, judicial system, and law reform covering civil, criminal, commercial, and constitutional law",
+          "Historical research data: archives, primary sources, and research output covering Chinese and world history",
+          "Ethnic and regional studies: data and research on minority nationalities, regional development, and border area studies",
+          "Philosophy and cultural research: studies on Chinese and comparative philosophy, literary theory, and cultural policy"
+        ],
+        "zh": [
+          "《中国社会科学年鉴》：中国各社会科学学科年度发展综合概览",
+          "经济形势报告：中国宏观经济预测分析，涵盖经济趋势、增长动力和结构转型",
+          "社会发展蓝皮书：社会稳定、不平等、城镇化、公共服务和生活质量年度评估",
+          "国际问题研究：中国外交政策、双边关系和全球地缘政治动态分析报告",
+          "法学研究出版物：涵盖民商法、刑法、宪法和法制改革的中国法律与司法制度研究",
+          "历史研究资料：中国史与世界史档案、原始史料和研究成果",
+          "民族与区域研究：少数民族、区域发展和边疆研究数据与研究成果",
+          "哲学与文化研究：中国哲学、比较哲学、文艺理论和文化政策研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cass.json"
+    },
+    {
       "id": "china-cast",
       "name": {
         "en": "China Association for Science and Technology",
@@ -15218,6 +15374,86 @@
       "file_path": "china/research/china-gscloud.json"
     },
     {
+      "id": "china-iap",
+      "name": {
+        "en": "Institute of Atmospheric Physics, Chinese Academy of Sciences",
+        "zh": "中国科学院大气物理研究所"
+      },
+      "description": {
+        "en": "The Institute of Atmospheric Physics (IAP) under the Chinese Academy of Sciences is China's premier research institution for atmospheric science and climate change. Founded in 1928 and reorganized under CAS in 1950, IAP leads China's research in atmospheric dynamics, physical climatology, atmospheric chemistry, boundary layer meteorology, and middle atmosphere research. IAP operates key observational facilities including China's tallest meteorological tower in Beijing and contributes to multiple international climate observation networks. The institute develops and maintains China's leading climate models, produces authoritative climate change assessments, and publishes major research findings on global warming, East Asian monsoon dynamics, air pollution meteorology, and atmospheric composition. IAP's data products are widely used in IPCC assessments and international climate science.",
+        "zh": "中国科学院大气物理研究所是中国大气科学和气候变化领域的最高研究机构，1928年创建，1950年并入中国科学院。大气所在大气动力学、物理气候学、大气化学、边界层气象和中层大气研究方面引领中国研究前沿，运营北京325米气象铁塔等核心观测设施，参与多个国际气候观测网络。研究所开发维护中国主流气候模式，发布气候变化权威评估报告，在全球变暖、东亚季风动力学、大气污染气象学和大气成分等方面发表重要研究成果。大气所数据产品被IPCC评估报告和国际气候科学界广泛引用。"
+      },
+      "website": "https://www.iap.ac.cn",
+      "data_url": "https://www.iap.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "climate",
+        "environment",
+        "science",
+        "weather"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国科学院大气物理研究所",
+        "IAP",
+        "Institute of Atmospheric Physics",
+        "大气物理",
+        "atmospheric physics",
+        "气候变化",
+        "climate change",
+        "大气科学",
+        "atmospheric science",
+        "东亚季风",
+        "East Asian monsoon",
+        "气候模式",
+        "climate model",
+        "全球变暖",
+        "global warming",
+        "大气化学",
+        "atmospheric chemistry",
+        "边界层气象",
+        "boundary layer meteorology",
+        "大气污染",
+        "air pollution meteorology",
+        "气象观测",
+        "meteorological observation",
+        "IPCC",
+        "气候评估",
+        "climate assessment",
+        "中层大气",
+        "middle atmosphere",
+        "海洋热含量",
+        "ocean heat content"
+      ],
+      "data_content": {
+        "en": [
+          "Climate model output: simulation data from IAP's Earth System Models (CAS-ESM) contributed to CMIP6 for global and East Asian climate projections",
+          "Atmospheric observation data: long-term measurements from Beijing 325m meteorological tower including temperature, humidity, wind profiles, and turbulence",
+          "Ocean heat content datasets: authoritative global ocean warming records maintained by IAP, widely referenced for tracking long-term climate change",
+          "East Asian monsoon research: historical and projected changes in monsoon onset, intensity, precipitation patterns, and teleconnections",
+          "Atmospheric chemistry data: observations and model outputs on aerosol composition, trace gas concentrations, and air quality impacts on climate",
+          "Climate change assessment reports: China National Assessment Reports on Climate Change and contributions to IPCC Working Group I assessment reports",
+          "Stratosphere and middle atmosphere data: observations of ozone layer, upper atmosphere dynamics, and solar-climate interactions",
+          "Boundary layer meteorology data: surface energy budget, turbulent flux measurements, and urban heat island research"
+        ],
+        "zh": [
+          "气候模式输出：大气所地球系统模式（CAS-ESM）参与CMIP6的全球及东亚气候预测模拟数据",
+          "大气观测数据：北京325米气象铁塔长期气温、湿度、风廓线及湍流观测数据",
+          "海洋热含量数据集：大气所维护的全球海洋变暖权威记录，被广泛用于长期气候变化追踪",
+          "东亚季风研究：季风开始时间、强度、降水型态和遥相关的历史变化及预测研究",
+          "大气化学数据：气溶胶成分、微量气体浓度和大气污染对气候影响的观测与模拟数据",
+          "气候变化评估报告：《中国气候变化国家评估报告》及参与IPCC第一工作组评估报告",
+          "平流层与中层大气数据：臭氧层、高层大气动力学和太阳-气候相互作用观测",
+          "边界层气象数据：地表能量收支、湍流通量观测和城市热岛研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-iap.json"
+    },
+    {
       "id": "china-igsnrr",
       "name": {
         "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
@@ -15266,6 +15502,52 @@
       "update_frequency": "irregular",
       "has_api": false,
       "file_path": "china/research/china-igsnrr.json"
+    },
+    {
+      "id": "china-ioz",
+      "name": {
+        "en": "Institute of Zoology, Chinese Academy of Sciences",
+        "zh": "中国科学院动物研究所"
+      },
+      "description": {
+        "en": "The Institute of Zoology (IOZ) under the Chinese Academy of Sciences is a leading research institution focused on animal taxonomy, evolutionary biology, reproductive biology, and pest management. It maintains major biodiversity databases and species catalogues.",
+        "zh": "中国科学院动物研究所是从事动物分类学、进化生物学、生殖生物学和害虫防治研究的顶级机构。维护重要的生物多样性数据库和物种名录。"
+      },
+      "data_content": {
+        "en": [
+          "species catalogues",
+          "biodiversity surveys",
+          "animal genome data",
+          "pest monitoring data",
+          "evolutionary biology research"
+        ],
+        "zh": [
+          "物种名录",
+          "生物多样性调查",
+          "动物基因组数据",
+          "害虫监测数据",
+          "进化生物学研究"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "http://www.ioz.ac.cn",
+      "data_url": "http://www.ioz.ac.cn",
+      "domains": [
+        "biology",
+        "environment"
+      ],
+      "tags": [
+        "zoology",
+        "biodiversity",
+        "species",
+        "genome",
+        "cas"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-ioz.json"
     },
     {
       "id": "china-istic",
@@ -15572,6 +15854,87 @@
       },
       "has_api": false,
       "file_path": "china/research/china-nstl.json"
+    },
+    {
+      "id": "china-plant-csdb",
+      "name": {
+        "en": "China Plant Thematic Database (CAS Science Database)",
+        "zh": "中国植物主题数据库"
+      },
+      "description": {
+        "en": "The China Plant Thematic Database is part of the Chinese Academy of Sciences Science Database (CSDB) system, maintained by CAS and accessible through plant.csdb.cn. It is one of China's most comprehensive authoritative databases for plant taxonomy, distribution, and botanical information. The database integrates data from major herbaria, botanical gardens, and field surveys across China, covering vascular plants, bryophytes, algae, fungi, and lichens found in China. It provides species occurrence records, taxonomic classification, morphological descriptions, distribution maps, ecological habitat information, and nomenclature references. The China Plant Thematic Database is a key resource for biodiversity conservation planning, ecological impact assessments, and floristic research on China's exceptionally rich plant diversity — China harbors approximately 35,000 higher plant species, the third highest in the world.",
+        "zh": "中国植物主题数据库是中国科学院科学数据库（CSDB）体系的重要组成部分，由中科院维护，通过plant.csdb.cn访问，是中国最全面的权威植物分类学、分布和植物学信息综合数据库之一。该数据库整合了中国各大标本馆、植物园和野外调查的数据，收录中国产维管束植物、苔藓植物、藻类、真菌和地衣。数据库提供物种分布记录、分类学归属、形态描述、分布图、生态生境信息和命名参考资料，是生物多样性保护规划、生态影响评估和中国丰富植物多样性区系研究的关键资源。中国约有高等植物35,000种，位居全球第三。"
+      },
+      "website": "https://www.plant.csdb.cn",
+      "data_url": "https://www.plant.csdb.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "biodiversity",
+        "environment",
+        "science",
+        "ecology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国植物主题数据库",
+        "China Plant Database",
+        "植物分类学",
+        "plant taxonomy",
+        "植物多样性",
+        "plant diversity",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "CSDB",
+        "科学数据库",
+        "Science Database",
+        "维管束植物",
+        "vascular plants",
+        "苔藓植物",
+        "bryophytes",
+        "物种分布",
+        "species distribution",
+        "植物标本",
+        "herbarium specimens",
+        "植物区系",
+        "flora",
+        "生物多样性",
+        "biodiversity",
+        "植物园",
+        "botanical garden",
+        "濒危植物",
+        "endangered plants",
+        "植物命名",
+        "plant nomenclature",
+        "生态调查",
+        "ecological survey"
+      ],
+      "data_content": {
+        "en": [
+          "Plant species records: taxonomic information for vascular plants, mosses, algae, fungi, and lichens native to or naturalized in China, with scientific names, synonyms, and authority citations",
+          "Species distribution data: georeferenced occurrence records and distribution maps showing plant species ranges across China's provinces and ecological zones",
+          "Morphological descriptions: standardized botanical descriptions of plant families, genera, and species including diagnostic characters, growth forms, and phenological data",
+          "Herbarium specimen data: digitized specimen records from major Chinese herbaria including the PE Herbarium of the Institute of Botany CAS, with collection localities, dates, and collectors",
+          "Ecological habitat information: vegetation community associations, altitudinal ranges, soil preferences, and biome affiliations for plant species",
+          "Conservation status data: information on nationally protected plant species, IUCN Red List assessments, and endemic species of China",
+          "Floristic diversity statistics: species richness data by region, family, and ecosystem type across China's 31 provinces and major ecological regions",
+          "Economic and medicinal plant data: records of plants with documented economic, medicinal, or agricultural significance in China"
+        ],
+        "zh": [
+          "植物物种记录：中国原产或归化的维管束植物、苔藓、藻类、真菌和地衣分类信息，含学名、异名和命名引证",
+          "物种分布数据：带地理坐标的物种分布记录和分布图，呈现植物物种在各省和生态区的分布范围",
+          "形态描述：植物科、属、种的标准化植物学描述，包括鉴别特征、生长型和物候数据",
+          "标本数据：中国各大标本馆（含中科院植物研究所PE标本馆）的数字化标本记录，含采集地、采集日期和采集人",
+          "生态生境信息：植物物种的植被群落关联、海拔范围、土壤偏好和生物群系归属",
+          "保护状况数据：国家保护植物物种信息、IUCN红色名录评估和中国特有植物",
+          "植物区系多样性统计：中国31个省及主要生态区的物种丰富度分科、按生态系统类型统计数据",
+          "经济与药用植物数据：具有记录在案经济、药用或农业价值的中国植物记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-plant-csdb.json"
     },
     {
       "id": "china-pric",
