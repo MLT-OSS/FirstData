@@ -1,0 +1,68 @@
+{
+  "id": "china-nphsd",
+  "name": {
+    "en": "National Population and Health Science Data Center",
+    "zh": "国家人口与健康科学数据中心"
+  },
+  "description": {
+    "en": "The National Population and Health Science Data Center (NPHSD) is China's national platform for sharing public health and population science data, established under the National Basic Science Data Sharing Service Program led by the Ministry of Science and Technology. It aggregates and provides access to health survey datasets, epidemiological study data, clinical research data, and demographic health statistics from national research programs. NPHSD covers domains including chronic disease surveillance, maternal and child health surveys, nutrition and health data, and infectious disease monitoring, making it a key open data repository for researchers in public health, medicine, and population sciences in China.",
+    "zh": "国家人口与健康科学数据中心（NPHSD）是中国国家科学数据共享工程框架下，由科学技术部主导建立的公共卫生与人口科学数据共享国家平台。该中心汇聚并开放来自国家科研项目的健康调查数据集、流行病学研究数据、临床研究数据及人口健康统计数据。覆盖领域包括慢性病监测、妇幼健康调查、营养与健康数据以及传染病监测，是中国公共卫生、医学和人口科学研究人员的重要开放数据平台。"
+  },
+  "website": "https://www.phsciencedata.cn",
+  "data_url": "https://www.phsciencedata.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "epidemiology",
+    "demographics",
+    "social"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家人口与健康科学数据中心",
+    "NPHSD",
+    "public health data",
+    "公共卫生数据",
+    "population health",
+    "人口健康",
+    "epidemiology",
+    "流行病学",
+    "chronic disease",
+    "慢性病",
+    "maternal health",
+    "妇幼健康",
+    "nutrition",
+    "营养",
+    "health survey",
+    "健康调查",
+    "infectious disease",
+    "传染病",
+    "science data sharing",
+    "科学数据共享",
+    "clinical research data",
+    "临床研究数据"
+  ],
+  "data_content": {
+    "en": [
+      "Chronic Disease Surveillance Data - National monitoring datasets on hypertension, diabetes, cardiovascular disease, and cancer",
+      "Maternal and Child Health Survey Data - Nationwide survey data on maternal mortality, child nutrition, and reproductive health",
+      "Nutrition and Health Survey - Results from national nutrition and health examination surveys by age group and region",
+      "Infectious Disease Monitoring Data - Epidemiological datasets on notifiable infectious diseases and outbreak investigations",
+      "Clinical Research Datasets - Anonymized patient data from national clinical trials and cohort studies",
+      "Population Health Statistics - Demographic and vital statistics datasets including mortality, morbidity, and disability data",
+      "Aging and Geriatric Data - Health status, functional ability, and care needs data for elderly populations"
+    ],
+    "zh": [
+      "慢性病监测数据 - 全国高血压、糖尿病、心血管疾病和癌症监测数据集",
+      "妇幼健康调查数据 - 全国孕产妇死亡率、儿童营养及生殖健康调查数据",
+      "营养与健康调查 - 按年龄组和地区划分的全国营养与健康体检调查结果",
+      "传染病监测数据 - 法定传染病及疫情调查流行病学数据集",
+      "临床研究数据集 - 国家临床试验和队列研究的脱敏患者数据",
+      "人口健康统计 - 包含死亡率、发病率和残疾数据的人口与生命统计数据集",
+      "老龄化与老年医学数据 - 老年人群健康状况、功能能力和照护需求数据"
+    ]
+  }
+}
