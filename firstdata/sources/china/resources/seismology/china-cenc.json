@@ -1,0 +1,79 @@
+{
+  "id": "china-cenc",
+  "name": {
+    "en": "China Earthquake Networks Center",
+    "zh": "中国地震台网中心"
+  },
+  "description": {
+    "en": "The China Earthquake Networks Center (CENC) is the operational hub of China's national seismic monitoring network, operating under the China Earthquake Administration (CEA). CENC manages the National Seismic Network (NSN), one of the most extensive seismograph networks in the world, comprising over 1,000 broadband seismic stations across China. It provides real-time earthquake monitoring, rapid earthquake parameter determination, and official earthquake notifications for earthquakes occurring in China and globally. CENC maintains China's authoritative earthquake catalog, including historical seismicity records dating back centuries, instrumental records since 1900, and real-time data for current seismic events. The center is the official source for earthquake early warning dissemination in China and supports national earthquake disaster prevention and emergency response.",
+    "zh": "中国地震台网中心（CENC）是中国地震局下属的国家地震监测网络运行中心，管理着全国地震监测网（NSN）——全球规模最大的宽频带地震台网之一，在全国设有逾千个台站。中心提供实时地震监测、快速地震参数测定，并对发生在中国及全球的地震发布官方地震通报。台网中心维护中国权威地震目录，收录数百年历史地震记录、1900年以来仪器记录及当前地震事件实时数据，是中国官方地震预警信息发布机构，同时支持国家防震减灾和应急响应工作。"
+  },
+  "website": "https://www.cenc.ac.cn/",
+  "data_url": "https://www.cenc.ac.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "statistics",
+    "governance"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "中国地震台网中心",
+    "CENC",
+    "China Earthquake Networks Center",
+    "地震目录",
+    "earthquake catalog",
+    "实时地震监测",
+    "real-time earthquake monitoring",
+    "地震预警",
+    "earthquake early warning",
+    "地震台网",
+    "seismic network",
+    "宽频带地震仪",
+    "broadband seismograph",
+    "地震参数",
+    "earthquake parameters",
+    "震源机制",
+    "focal mechanism",
+    "地震烈度速报",
+    "rapid intensity report",
+    "历史地震",
+    "historical earthquake",
+    "地震数据",
+    "seismic data",
+    "防震减灾",
+    "earthquake disaster prevention",
+    "中国地震局",
+    "CEA"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time earthquake catalog: continuously updated records of seismic events in China and worldwide, including magnitude, depth, epicenter coordinates, and origin time",
+      "Earthquake early warning alerts: automated rapid notification data for earthquakes above threshold magnitudes with estimated ground shaking intensity by region",
+      "Historical earthquake database: comprehensive catalog of felt earthquakes in China from historical records (pre-1900) and instrumental records (1900-present)",
+      "Seismic wave forms: raw and processed waveform data from national broadband seismic stations available for scientific research",
+      "Focal mechanism solutions: fault plane solutions and moment tensor data for moderate and strong earthquakes in China",
+      "Earthquake intensity rapid reports: ShakeMap-style rapid intensity assessment maps for significant earthquake events",
+      "National Seismic Network station data: real-time station status, seismograph performance metrics, and station location inventory",
+      "Seismicity statistics: monthly and annual earthquake frequency statistics by magnitude range, depth, and geographic region",
+      "Major earthquake event reports: official post-event summaries for significant earthquakes (M≥5.0) including sequence analysis and aftershock monitoring",
+      "Seismotectonic data: active fault mapping and seismic belt delineation for China's major tectonic zones"
+    ],
+    "zh": [
+      "实时地震目录：持续更新的中国及全球地震事件记录，包括震级、深度、震中坐标和发震时刻",
+      "地震预警信息：超过预警震级阈值地震的自动快速通报数据，含分地区预估地面震动强度",
+      "历史地震数据库：中国有记录地震完整目录，涵盖历史文献记录（1900年前）和仪器记录（1900年至今）",
+      "地震波形数据：来自全国宽频带地震台站的原始和处理波形数据，可用于科学研究",
+      "震源机制解：中国中强地震的断层面解和矩张量数据",
+      "地震烈度速报：重大地震事件的ShakeMap式快速烈度评估图",
+      "全国地震台网台站数据：台站实时状态、地震计性能指标及台站位置目录",
+      "地震活动统计：按震级范围、深度和地理区域分类的月度和年度地震频次统计",
+      "重大地震事件报告：重大地震（M≥5.0）发震后官方总结，含序列分析和余震监测",
+      "地震构造数据：中国主要构造带活动断层分布和地震带划分"
+    ]
+  }
+}

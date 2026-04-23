@@ -1,0 +1,77 @@
+{
+  "id": "china-cqc",
+  "name": {
+    "en": "China Quality Certification Centre",
+    "zh": "中国质量认证中心"
+  },
+  "description": {
+    "en": "The China Quality Certification Centre (CQC) is an authoritative third-party certification body established under the State Administration for Market Regulation (SAMR) and the Standardization Administration of China (SAC). CQC operates as the primary certification organization implementing mandatory China Compulsory Certification (CCC) for products sold in the Chinese market, covering electrical safety, electromagnetic compatibility, and related requirements. CQC also administers voluntary quality certifications including the CQC Mark for safety, energy efficiency, environmental protection, and product quality. The center maintains a comprehensive public database of certified products, publishes annual certification statistics, and issues technical standards guidance applicable to domestic manufacturers and international exporters targeting China's market.",
+    "zh": "中国质量认证中心（CQC）是在国家市场监督管理总局和国家标准化管理委员会指导下设立的权威第三方认证机构。CQC是实施中国强制性产品认证（CCC认证）的主要认证机构，面向在中国市场销售的产品，涵盖电气安全、电磁兼容等强制要求。中国质量认证中心同时开展自愿性CQC标志认证，涉及安全、能效、环保及产品质量等领域。该中心维护完整的公开认证产品数据库，发布年度认证统计数据，并向国内生产企业及面向中国市场的国际出口商提供技术标准指导。"
+  },
+  "website": "https://www.cqc.com.cn/",
+  "data_url": "https://www.cqc.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "statistics",
+    "trade",
+    "technology"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国质量认证中心",
+    "CQC",
+    "China Compulsory Certification",
+    "CCC认证",
+    "3C认证",
+    "质量认证",
+    "quality certification",
+    "产品认证",
+    "product certification",
+    "能效认证",
+    "energy efficiency certification",
+    "CQC标志",
+    "CQC Mark",
+    "安全认证",
+    "safety certification",
+    "环保认证",
+    "environmental certification",
+    "认证统计",
+    "certification statistics",
+    "国家市场监督管理总局",
+    "SAMR",
+    "标准化",
+    "standardization",
+    "进口产品认证",
+    "import product certification"
+  ],
+  "data_content": {
+    "en": [
+      "CCC certificate database: publicly searchable database of mandatory China Compulsory Certification (3C) certificates, including product scope, certificate holder, validity period, and certification status",
+      "Certified products directory: comprehensive catalog of all products bearing the CQC Mark or CCC mark, searchable by product category, manufacturer, and certification type",
+      "Annual certification statistics: number of certificates issued, renewed, suspended, and revoked by product category and certification scheme",
+      "Energy efficiency certificate data: list of certified energy-efficient products with corresponding energy efficiency grades and performance metrics",
+      "Environmental certification records: green product certifications for electronics, appliances, and building materials meeting environmental standards",
+      "Factory inspection reports: summary results of mandatory post-market surveillance factory inspections for CCC-certified manufacturers",
+      "Technical standard updates: notifications of changes to CCC technical requirements and testing standards affecting product certification",
+      "Recall and revocation notices: official notices of certificate suspensions, revocations, and product safety recalls linked to certification non-compliance",
+      "Certification fee schedules: official pricing for CCC and voluntary certification services",
+      "International mutual recognition data: information on bilateral/multilateral certification recognition agreements between China and other countries"
+    ],
+    "zh": [
+      "CCC证书数据库：中国强制性产品认证（3C认证）证书公开查询库，包括产品范围、证书持有人、有效期和认证状态",
+      "认证产品目录：所有持有CQC标志或CCC标志产品的完整目录，可按产品类别、生产企业和认证类型检索",
+      "年度认证统计：按产品类别和认证方案分类的证书颁发、续期、暂停和撤销数量",
+      "能效证书数据：认证节能产品清单及相应能效等级和性能指标",
+      "环保认证记录：符合环保标准的电子产品、家电和建材绿色产品认证",
+      "工厂检查报告：对CCC认证生产企业实施强制性市场后监督工厂检查的汇总结果",
+      "技术标准更新：影响产品认证的CCC技术要求和检测标准变更通知",
+      "召回和撤销公告：因认证不合规而暂停、撤销证书及产品安全召回的官方公告",
+      "认证费用表：CCC和自愿性认证服务官方收费标准",
+      "国际互认数据：中国与其他国家双边/多边认证互认协议信息"
+    ]
+  }
+}
