@@ -1,0 +1,46 @@
+{
+  "id": "china-chinawater",
+  "name": {
+    "en": "China Water Resources Portal",
+    "zh": "中国水利网"
+  },
+  "description": {
+    "en": "China Water Resources Portal (chinawater.com.cn) is the official online information platform affiliated with the Ministry of Water Resources of China, operated by China Water Resources Press (中国水利报社). It serves as a comprehensive data and information portal for China's water sector, publishing water resources bulletins, river basin management reports, flood and drought statistics, irrigation area data, hydraulic engineering project records, and policy documents. The portal provides public access to official water resources statistics and thematic data covering China's rivers, lakes, reservoirs, and water conservancy infrastructure.",
+    "zh": "中国水利网（chinawater.com.cn）是水利部主管、中国水利报社主办的官方水利行业信息平台，是中国水利领域综合数据与信息门户，发布水资源公报、流域管理报告、洪涝旱情统计、灌溉面积数据、水利工程项目记录及政策文件，为公众提供涵盖中国河流、湖泊、水库及水利基础设施的官方水资源统计与专题数据。"
+  },
+  "data_content": {
+    "en": [
+      "national water resources bulletins",
+      "flood and drought monitoring statistics",
+      "river basin management reports",
+      "irrigation area and water use data",
+      "hydraulic engineering project data",
+      "groundwater monitoring data",
+      "water quality assessment reports",
+      "reservoir storage statistics",
+      "water conservancy investment data",
+      "rural water supply data"
+    ],
+    "zh": [
+      "全国水资源公报",
+      "洪涝旱情监测统计",
+      "流域管理报告",
+      "灌溉面积与用水数据",
+      "水利工程项目数据",
+      "地下水监测数据",
+      "水质评估报告",
+      "水库蓄水量统计",
+      "水利投资数据",
+      "农村供水数据"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.chinawater.com.cn",
+  "data_url": "https://www.chinawater.com.cn",
+  "api_url": null,
+  "domains": ["environment", "infrastructure"],
+  "tags": ["water-resources", "hydrology", "flood", "drought", "irrigation", "水资源", "水利", "洪水", "干旱", "灌溉", "水库", "流域", "水文", "MWR", "水利部", "water-quality", "groundwater"],
+  "update_frequency": "irregular"
+}
