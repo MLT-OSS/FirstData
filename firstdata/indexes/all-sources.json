@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T08:37:51.753864+00:00",
-    "total_sources": 535,
+    "generated_at": "2026-04-23T09:10:16.880423+00:00",
+    "total_sources": 540,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2792,6 +2792,52 @@
       "file_path": "china/economy/china-acfic.json"
     },
     {
+      "id": "china-alibaba-auction",
+      "name": {
+        "en": "Alibaba Judicial Auction Platform",
+        "zh": "阿里拍卖·司法"
+      },
+      "description": {
+        "en": "Alibaba Judicial Auction (sf.taobao.com) is the largest online judicial auction platform in China, designated by the Supreme People's Court as an authorized network judicial auction platform. It hosts court-ordered auctions of seized assets including residential and commercial real estate, vehicles, land use rights, equity stakes, machinery, and other properties. The platform provides detailed property information, auction schedules, reserve prices, assessment reports, and real-time bidding. It covers auctions from courts at all levels across all provinces, making it the most comprehensive source for judicial auction market data in China.",
+        "zh": "阿里拍卖·司法（sf.taobao.com）是中国最大的网络司法拍卖平台，经最高人民法院指定为网络司法拍卖平台。平台承载法院裁定的查封资产拍卖，包括住宅和商业房产、车辆、土地使用权、股权、机械设备等。提供详细的标的物信息、拍卖时间、起拍价、评估报告和实时竞价。覆盖全国各省各级法院拍卖，是中国司法拍卖市场数据最全面的来源。"
+      },
+      "website": "https://sf.taobao.com",
+      "data_url": "https://sf.taobao.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "domains": [
+        "judicial-auction",
+        "real-estate",
+        "asset-disposal"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "judicial-auction",
+        "real-estate",
+        "property",
+        "alibaba",
+        "court-auction"
+      ],
+      "data_content": {
+        "en": [
+          "Court-ordered auction listings for real estate, vehicles, land, equity, and other seized assets",
+          "Property details, assessment reports, reserve prices, and real-time bidding data",
+          "Auction results and transaction records from courts across all provinces",
+          "Market statistics on judicial auction volumes, categories, and price trends"
+        ],
+        "zh": [
+          "法院裁定的房产、车辆、土地、股权等查封资产拍卖信息",
+          "标的物详情、评估报告、起拍价和实时竞价数据",
+          "全国各省法院拍卖结果和成交记录",
+          "司法拍卖成交量、品类和价格趋势等市场统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/china-alibaba-auction.json"
+    },
+    {
       "id": "china-caac",
       "name": {
         "en": "Civil Aviation Administration of China",
@@ -2937,6 +2983,96 @@
       },
       "has_api": false,
       "file_path": "china/economy/china-cada.json"
+    },
+    {
+      "id": "china-gpai",
+      "name": {
+        "en": "China Public Auction Network",
+        "zh": "公拍网"
+      },
+      "description": {
+        "en": "The China Public Auction Network (gpai.net) is a comprehensive online auction platform for judicial auctions, public resource transactions, and government asset disposals. Designated by the Supreme People's Court as an authorized network judicial auction platform, it handles court-ordered property auctions alongside public resource trading including state-owned asset transfers, bankruptcy asset disposals, and government procurement auctions. The platform serves as both a judicial auction channel and a public resource transaction hub, particularly active in eastern China regions.",
+        "zh": "公拍网（gpai.net）是综合性网络拍卖平台，涵盖司法拍卖、公共资源交易和政府资产处置。经最高人民法院指定为网络司法拍卖平台，承载法院裁定的财产拍卖，同时处理国有资产转让、破产资产处置和政府采购拍卖等公共资源交易。平台兼具司法拍卖渠道和公共资源交易枢纽功能，在华东地区尤为活跃。"
+      },
+      "website": "https://www.gpai.net",
+      "data_url": "https://www.gpai.net/sf/",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "domains": [
+        "judicial-auction",
+        "real-estate",
+        "public-resource-trading"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "judicial-auction",
+        "public-auction",
+        "real-estate",
+        "state-asset",
+        "property"
+      ],
+      "data_content": {
+        "en": [
+          "Judicial auction listings for court-ordered property disposals",
+          "Public resource transaction records including state-owned asset transfers",
+          "Bankruptcy asset disposal and government procurement auction data",
+          "Auction results, bidding statistics, and property valuation records"
+        ],
+        "zh": [
+          "法院裁定的司法拍卖标的信息",
+          "国有资产转让等公共资源交易记录",
+          "破产资产处置和政府采购拍卖数据",
+          "拍卖结果、竞价统计和资产评估记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/china-gpai.json"
+    },
+    {
+      "id": "china-jd-auction",
+      "name": {
+        "en": "JD.com Judicial Auction Platform",
+        "zh": "京东拍卖·司法"
+      },
+      "description": {
+        "en": "JD.com Judicial Auction (auction.jd.com) is one of China's major online judicial auction platforms, designated by the Supreme People's Court as an authorized network judicial auction platform. It hosts court-ordered auctions of seized assets including real estate, vehicles, land use rights, and equity stakes. The platform leverages JD.com's e-commerce infrastructure to provide property listings, auction schedules, bidding services, and transaction records. It serves as a significant supplementary channel to Alibaba's judicial auction platform for court-ordered asset dispositions.",
+        "zh": "京东拍卖·司法（auction.jd.com）是中国主要的网络司法拍卖平台之一，经最高人民法院指定为网络司法拍卖平台。平台承载法院裁定的查封资产拍卖，包括房产、车辆、土地使用权和股权等。依托京东电商基础设施，提供标的物展示、拍卖安排、竞价服务和成交记录。是阿里司法拍卖之外法院资产处置的重要补充渠道。"
+      },
+      "website": "https://auction.jd.com",
+      "data_url": "https://auction.jd.com/sifa.html",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "domains": [
+        "judicial-auction",
+        "real-estate",
+        "asset-disposal"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "judicial-auction",
+        "real-estate",
+        "property",
+        "jd",
+        "court-auction"
+      ],
+      "data_content": {
+        "en": [
+          "Court-ordered auction listings for real estate, vehicles, land use rights, and equity",
+          "Property information, auction schedules, reserve prices, and bidding records",
+          "Transaction results and auction statistics by region and asset category"
+        ],
+        "zh": [
+          "法院裁定的房产、车辆、土地使用权、股权等拍卖信息",
+          "标的物信息、拍卖安排、起拍价和竞价记录",
+          "按地区和资产类别分类的成交结果和拍卖统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/china-jd-auction.json"
     },
     {
       "id": "china-mct",
@@ -11327,6 +11463,96 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-cnca.json"
+    },
+    {
+      "id": "china-court-auction",
+      "name": {
+        "en": "People's Court Litigation Assets Network",
+        "zh": "人民法院诉讼资产网"
+      },
+      "description": {
+        "en": "The People's Court Litigation Assets Network is the official judicial auction platform operated by the Supreme People's Court of China. It publishes court-ordered asset dispositions including real estate, vehicles, land use rights, equity stakes, and other seized properties. The platform aggregates judicial auction listings from courts at all levels nationwide, providing standardized information on auction schedules, reserve prices, property details, and bidding results. As the authoritative government platform for judicial asset disposal, it serves as the primary reference for tracking court-ordered property sales across China's judicial system.",
+        "zh": "人民法院诉讼资产网是最高人民法院运营的官方司法拍卖平台，发布法院裁定的资产处置信息，包括房产、车辆、土地使用权、股权及其他查封财产。平台汇集全国各级法院的司法拍卖信息，提供拍卖时间、起拍价、标的物详情和竞价结果等标准化信息。作为司法资产处置的权威政府平台，是追踪中国司法系统法院强制拍卖的首要参考来源。"
+      },
+      "website": "https://www.rmfysszc.gov.cn",
+      "data_url": "https://www.rmfysszc.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "judicial-auction",
+        "real-estate",
+        "asset-disposal"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "judicial-auction",
+        "real-estate",
+        "court",
+        "asset-disposal",
+        "property"
+      ],
+      "data_content": {
+        "en": [
+          "Court-ordered judicial auction listings for real estate, vehicles, land use rights, and equity",
+          "Auction schedules, reserve prices, and bidding results from courts nationwide",
+          "Seized property details and disposal records from all court levels"
+        ],
+        "zh": [
+          "法院裁定的房产、车辆、土地使用权、股权等司法拍卖信息",
+          "全国各级法院拍卖时间、起拍价和竞价结果",
+          "各级法院查封财产详情和处置记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-court-auction.json"
+    },
+    {
+      "id": "china-court-execution",
+      "name": {
+        "en": "China Court Execution Information Disclosure Network",
+        "zh": "全国法院被执行人信息查询平台"
+      },
+      "description": {
+        "en": "The China Court Execution Information Disclosure Network, operated by the Supreme People's Court, is the official platform for publicizing court execution case information. It provides searchable databases of judgment debtors (被执行人), dishonest persons subject to enforcement (失信被执行人/老赖), consumption restriction orders (限制消费令), and terminated execution cases. The platform also publishes judicial auction information and enforcement case progress. It is the authoritative source for credit risk assessment related to court judgments and the primary tool for China's social credit enforcement system.",
+        "zh": "全国法院被执行人信息查询平台由最高人民法院运营，是公开法院执行案件信息的官方平台。提供被执行人、失信被执行人（老赖）、限制消费令、终本案件等可查询数据库，同时发布司法拍卖信息和执行案件进展。是涉诉信用风险评估的权威来源，也是中国社会信用执行体系的核心工具。"
+      },
+      "website": "https://zxgk.court.gov.cn",
+      "data_url": "https://zxgk.court.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "judicial-execution",
+        "credit-risk",
+        "social-credit"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "court-execution",
+        "dishonest-debtor",
+        "credit-risk",
+        "judicial",
+        "social-credit"
+      ],
+      "data_content": {
+        "en": [
+          "Judgment debtor (被执行人) database searchable by name and ID",
+          "Dishonest persons subject to enforcement (失信被执行人/老赖) blacklist",
+          "Consumption restriction orders and terminated execution case records",
+          "Judicial auction listings and enforcement case progress tracking"
+        ],
+        "zh": [
+          "按姓名和证件号可查询的被执行人数据库",
+          "失信被执行人（老赖）黑名单",
+          "限制消费令和终本案件记录",
+          "司法拍卖信息和执行案件进展追踪"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-court-execution.json"
     },
     {
       "id": "china-cqc",

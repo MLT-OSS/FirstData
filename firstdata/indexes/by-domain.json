@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T08:37:51.753864+00:00",
-    "total_domains": 730,
-    "total_sources": 535,
+    "generated_at": "2026-04-23T09:10:16.880423+00:00",
+    "total_domains": 736,
+    "total_sources": 540,
     "version": "2.0"
   },
   "domains": {
@@ -1446,6 +1446,44 @@
         "data_url": "https://www.crsp.org/",
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/crsp.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "asset-disposal": [
+      {
+        "id": "china-alibaba-auction",
+        "name": {
+          "en": "Alibaba Judicial Auction Platform",
+          "zh": "阿里拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://sf.taobao.com",
+        "has_api": false,
+        "file_path": "china/economy/china-alibaba-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-jd-auction",
+        "name": {
+          "en": "JD.com Judicial Auction Platform",
+          "zh": "京东拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://auction.jd.com/sifa.html",
+        "has_api": false,
+        "file_path": "china/economy/china-jd-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-court-auction",
+        "name": {
+          "en": "People's Court Litigation Assets Network",
+          "zh": "人民法院诉讼资产网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rmfysszc.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-court-auction.json",
         "geographic_scope": "national"
       }
     ],
@@ -4510,6 +4548,20 @@
         "has_api": true,
         "file_path": "academic/economics/bis-statistics.json",
         "geographic_scope": "global"
+      }
+    ],
+    "credit-risk": [
+      {
+        "id": "china-court-execution",
+        "name": {
+          "en": "China Court Execution Information Disclosure Network",
+          "zh": "全国法院被执行人信息查询平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://zxgk.court.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-court-execution.json",
+        "geographic_scope": "national"
       }
     ],
     "crime and justice": [
@@ -21330,6 +21382,70 @@
         "geographic_scope": "global"
       }
     ],
+    "judicial-auction": [
+      {
+        "id": "china-alibaba-auction",
+        "name": {
+          "en": "Alibaba Judicial Auction Platform",
+          "zh": "阿里拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://sf.taobao.com",
+        "has_api": false,
+        "file_path": "china/economy/china-alibaba-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gpai",
+        "name": {
+          "en": "China Public Auction Network",
+          "zh": "公拍网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.gpai.net/sf/",
+        "has_api": false,
+        "file_path": "china/economy/china-gpai.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-jd-auction",
+        "name": {
+          "en": "JD.com Judicial Auction Platform",
+          "zh": "京东拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://auction.jd.com/sifa.html",
+        "has_api": false,
+        "file_path": "china/economy/china-jd-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-court-auction",
+        "name": {
+          "en": "People's Court Litigation Assets Network",
+          "zh": "人民法院诉讼资产网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rmfysszc.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-court-auction.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "judicial-execution": [
+      {
+        "id": "china-court-execution",
+        "name": {
+          "en": "China Court Execution Information Disclosure Network",
+          "zh": "全国法院被执行人信息查询平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://zxgk.court.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-court-execution.json",
+        "geographic_scope": "national"
+      }
+    ],
     "justice": [
       {
         "id": "canada-statcan",
@@ -25621,6 +25737,20 @@
         "geographic_scope": "national"
       }
     ],
+    "public-resource-trading": [
+      {
+        "id": "china-gpai",
+        "name": {
+          "en": "China Public Auction Network",
+          "zh": "公拍网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.gpai.net/sf/",
+        "has_api": false,
+        "file_path": "china/economy/china-gpai.json",
+        "geographic_scope": "national"
+      }
+    ],
     "quality": [
       {
         "id": "china-cnas",
@@ -25704,6 +25834,54 @@
       }
     ],
     "real-estate": [
+      {
+        "id": "china-alibaba-auction",
+        "name": {
+          "en": "Alibaba Judicial Auction Platform",
+          "zh": "阿里拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://sf.taobao.com",
+        "has_api": false,
+        "file_path": "china/economy/china-alibaba-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gpai",
+        "name": {
+          "en": "China Public Auction Network",
+          "zh": "公拍网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.gpai.net/sf/",
+        "has_api": false,
+        "file_path": "china/economy/china-gpai.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-jd-auction",
+        "name": {
+          "en": "JD.com Judicial Auction Platform",
+          "zh": "京东拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://auction.jd.com/sifa.html",
+        "has_api": false,
+        "file_path": "china/economy/china-jd-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-court-auction",
+        "name": {
+          "en": "People's Court Litigation Assets Network",
+          "zh": "人民法院诉讼资产网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.rmfysszc.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-court-auction.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "us-hud",
         "name": {
@@ -28608,6 +28786,20 @@
         "has_api": true,
         "file_path": "international/development/adb-data-library.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "social-credit": [
+      {
+        "id": "china-court-execution",
+        "name": {
+          "en": "China Court Execution Information Disclosure Network",
+          "zh": "全国法院被执行人信息查询平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://zxgk.court.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-court-execution.json",
+        "geographic_scope": "national"
       }
     ],
     "social-development": [

@@ -1,30 +1,30 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T08:37:51.753864+00:00",
+    "generated_at": "2026-04-23T09:10:16.880423+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 535,
+    "total_sources": 540,
     "sources_with_api": 152,
     "last_updated": "2026-04-23"
   },
   "by_authority_level": {
     "research": 80,
     "international": 74,
-    "government": 287,
+    "government": 289,
     "other": 49,
-    "commercial": 17,
+    "commercial": 20,
     "market": 28
   },
   "by_geographic_scope": {
     "global": 104,
-    "national": 363,
+    "national": 368,
     "regional": 26,
     "subnational": 42
   },
   "by_update_frequency": {
     "irregular": 87,
-    "daily": 69,
+    "daily": 74,
     "weekly": 9,
     "quarterly": 44,
     "monthly": 188,
@@ -92,6 +92,7 @@
     "derivatives": 5,
     "payment systems": 5,
     "ocean": 5,
+    "real-estate": 5,
     "digital-economy": 5,
     "logistics": 5,
     "water": 5,
@@ -105,6 +106,7 @@
     "productivity": 4,
     "poverty": 4,
     "engineering": 4,
+    "judicial-auction": 4,
     "consumer": 4,
     "higher-education": 4,
     "insurance": 4,
@@ -130,6 +132,7 @@
     "atmosphere": 3,
     "mortality": 3,
     "economic development": 3,
+    "asset-disposal": 3,
     "tourism": 3,
     "market-research": 3,
     "commerce": 3,
@@ -325,6 +328,7 @@
     "urban-planning": 1,
     "building-standards": 1,
     "land-use": 1,
+    "public-resource-trading": 1,
     "economy": 1,
     "internet": 1,
     "international-commerce": 1,
@@ -346,6 +350,9 @@
     "transparency": 1,
     "development-aid": 1,
     "international-relations": 1,
+    "judicial-execution": 1,
+    "credit-risk": 1,
+    "social-credit": 1,
     "policy": 1,
     "heritage": 1,
     "traditional-medicine": 1,
@@ -560,7 +567,6 @@
     "crops": 1,
     "food and beverage": 1,
     "energy-efficiency": 1,
-    "real-estate": 1,
     "youth-development": 1,
     "sustainable-development": 1,
     "population-development": 1,
