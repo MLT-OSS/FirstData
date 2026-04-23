@@ -1,0 +1,52 @@
+{
+    "id": "china-ciia",
+    "name": {
+        "en": "China Information Association",
+        "zh": "中国信息协会"
+    },
+    "description": {
+        "en": "The China Information Association (CIIA) is a national-level industry organization under the National Development and Reform Commission, promoting the development of China's information industry. It publishes research reports, industry statistics, and policy recommendations on digital economy, informatization, and the information technology sector.",
+        "zh": "中国信息协会（CIIA）是国家发展和改革委员会主管的全国性行业组织，致力于推动中国信息产业发展，发布数字经济、信息化和信息技术行业的研究报告、行业统计数据及政策建议。"
+    },
+    "website": "https://www.ciia.org.cn",
+    "data_url": "https://www.ciia.org.cn",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "information-technology",
+        "digital-economy",
+        "industry"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "monthly",
+    "tags": [
+        "china",
+        "信息协会",
+        "information-industry",
+        "信息产业",
+        "digital-economy",
+        "数字经济",
+        "informatization",
+        "信息化",
+        "IT",
+        "industry-association",
+        "行业协会"
+    ],
+    "data_content": {
+        "en": [
+            "Industry Research Reports - Analysis and forecasts for China's information technology and digital sectors",
+            "Informatization Indexes - Statistical indexes measuring China's informatization progress",
+            "Policy Research - Policy recommendations and analysis for digital economy development",
+            "Sector Statistics - Data on information industry enterprise scale, revenue, and growth",
+            "Digital Governance - Reports on e-government and public service digitalization"
+        ],
+        "zh": [
+            "行业研究报告 - 中国信息技术和数字行业的分析与预测",
+            "信息化指数 - 衡量中国信息化进程的统计指标",
+            "政策研究 - 数字经济发展的政策建议和分析",
+            "行业统计 - 信息行业企业规模、营收和增长数据",
+            "数字治理 - 电子政务和公共服务数字化报告"
+        ]
+    },
+    "authority_level": "other"
+}
