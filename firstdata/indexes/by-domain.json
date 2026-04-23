@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-22T02:21:32.977189+00:00",
-    "total_domains": 723,
-    "total_sources": 509,
+    "generated_at": "2026-04-23T02:10:31.534560+00:00",
+    "total_domains": 727,
+    "total_sources": 514,
     "version": "2.0"
   },
   "domains": {
@@ -163,6 +163,18 @@
       }
     ],
     "aerospace": [
+      {
+        "id": "china-cmse",
+        "name": {
+          "en": "China Manned Space Engineering Office",
+          "zh": "中国载人航天工程办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmse.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cmse.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-cnsa",
         "name": {
@@ -1287,6 +1299,20 @@
         "has_api": false,
         "file_path": "sectors/R-arts-entertainment/british-museum-collection.json",
         "geographic_scope": "global"
+      }
+    ],
+    "anti-corruption": [
+      {
+        "id": "china-ccdi",
+        "name": {
+          "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+          "zh": "中央纪律检查委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccdi.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/governance/china-ccdi.json",
+        "geographic_scope": "national"
       }
     ],
     "antimicrobial resistance": [
@@ -4088,6 +4114,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-iresearch",
+        "name": {
+          "en": "iResearch Consulting Group",
+          "zh": "艾瑞咨询"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iresearch.com.cn/report.shtml",
+        "has_api": false,
+        "file_path": "china/economy/market/china-iresearch.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-data-gov",
         "name": {
           "en": "Data.gov",
@@ -4639,6 +4677,18 @@
         "data_url": "http://www.ncha.gov.cn/col/col2276/index.html",
         "has_api": false,
         "file_path": "china/governance/china-ncha.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-national-museum",
+        "name": {
+          "en": "National Museum of China",
+          "zh": "中国国家博物馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-national-museum.json",
         "geographic_scope": "national"
       },
       {
@@ -6364,6 +6414,18 @@
     ],
     "digital-economy": [
       {
+        "id": "china-iresearch",
+        "name": {
+          "en": "iResearch Consulting Group",
+          "zh": "艾瑞咨询"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iresearch.com.cn/report.shtml",
+        "has_api": false,
+        "file_path": "china/economy/market/china-iresearch.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-caict",
         "name": {
           "en": "China Academy of Information and Communications Technology",
@@ -6385,6 +6447,18 @@
         "data_url": "https://sjdj.nda.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ciia",
+        "name": {
+          "en": "China Information Association",
+          "zh": "中国信息协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ciia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciia.json",
         "geographic_scope": "national"
       },
       {
@@ -16262,6 +16336,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ccdi",
+        "name": {
+          "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+          "zh": "中央纪律检查委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccdi.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/governance/china-ccdi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ccgp",
         "name": {
           "en": "China Government Procurement Network",
@@ -17657,6 +17743,20 @@
         "geographic_scope": "regional"
       }
     ],
+    "heritage": [
+      {
+        "id": "china-national-museum",
+        "name": {
+          "en": "National Museum of China",
+          "zh": "中国国家博物馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-national-museum.json",
+        "geographic_scope": "national"
+      }
+    ],
     "high energy physics": [
       {
         "id": "cern-open-data",
@@ -17758,6 +17858,18 @@
         "data_url": "https://www.saac.gov.cn/daj/fzgz/lmlist.shtml",
         "has_api": false,
         "file_path": "china/governance/china-saac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-national-museum",
+        "name": {
+          "en": "National Museum of China",
+          "zh": "中国国家博物馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-national-museum.json",
         "geographic_scope": "national"
       },
       {
@@ -19004,6 +19116,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ciia",
+        "name": {
+          "en": "China Information Association",
+          "zh": "中国信息协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ciia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cisa",
         "name": {
           "en": "China Iron and Steel Association",
@@ -19559,6 +19683,18 @@
       }
     ],
     "information-technology": [
+      {
+        "id": "china-ciia",
+        "name": {
+          "en": "China Information Association",
+          "zh": "中国信息协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ciia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciia.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-software-association",
         "name": {
@@ -20517,6 +20653,20 @@
         "has_api": false,
         "file_path": "china/governance/china-cidca.json",
         "geographic_scope": "global"
+      }
+    ],
+    "internet": [
+      {
+        "id": "china-iresearch",
+        "name": {
+          "en": "iResearch Consulting Group",
+          "zh": "艾瑞咨询"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iresearch.com.cn/report.shtml",
+        "has_api": false,
+        "file_path": "china/economy/market/china-iresearch.json",
+        "geographic_scope": "national"
       }
     ],
     "investment": [
@@ -21896,6 +22046,18 @@
       }
     ],
     "market-research": [
+      {
+        "id": "china-iresearch",
+        "name": {
+          "en": "iResearch Consulting Group",
+          "zh": "艾瑞咨询"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iresearch.com.cn/report.shtml",
+        "has_api": false,
+        "file_path": "china/economy/market/china-iresearch.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "japan-jetro",
         "name": {
@@ -26038,6 +26200,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cmse",
+        "name": {
+          "en": "China Manned Space Engineering Office",
+          "zh": "中国载人航天工程办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmse.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cmse.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-most-infrastructure",
         "name": {
           "en": "National Platform for Research Infrastructure and Large-scale Scientific Instruments",
@@ -27999,6 +28173,18 @@
     ],
     "space": [
       {
+        "id": "china-cmse",
+        "name": {
+          "en": "China Manned Space Engineering Office",
+          "zh": "中国载人航天工程办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmse.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cmse.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-naoc",
         "name": {
           "en": "National Astronomical Observatories of China (NAOC)",
@@ -29599,6 +29785,18 @@
         "data_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
         "has_api": false,
         "file_path": "china/technology/china-ccf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmse",
+        "name": {
+          "en": "China Manned Space Engineering Office",
+          "zh": "中国载人航天工程办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmse.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cmse.json",
         "geographic_scope": "national"
       },
       {
@@ -31579,6 +31777,20 @@
         "has_api": true,
         "file_path": "academic/biology/ena.json",
         "geographic_scope": "global"
+      }
+    ],
+    "transparency": [
+      {
+        "id": "china-ccdi",
+        "name": {
+          "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+          "zh": "中央纪律检查委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccdi.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/governance/china-ccdi.json",
+        "geographic_scope": "national"
       }
     ],
     "transport": [

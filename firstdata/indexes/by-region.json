@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-22T02:21:32.977189+00:00",
+    "generated_at": "2026-04-23T02:10:31.534560+00:00",
     "total_regions": 58,
-    "total_sources": 509,
+    "total_sources": 514,
     "version": "2.0"
   },
   "regions": {
@@ -674,6 +674,18 @@
         "data_url": "https://www.cgcc.org.cn/hyfz/zglsyfzzs/",
         "has_api": false,
         "file_path": "china/economy/market/china-cgcc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iresearch",
+        "name": {
+          "en": "iResearch Consulting Group",
+          "zh": "艾瑞咨询"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iresearch.com.cn/report.shtml",
+        "has_api": false,
+        "file_path": "china/economy/market/china-iresearch.json",
         "geographic_scope": "national"
       },
       {
@@ -1731,6 +1743,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ccdi",
+        "name": {
+          "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+          "zh": "中央纪律检查委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccdi.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/governance/china-ccdi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ccgp",
         "name": {
           "en": "China Government Procurement Network",
@@ -1992,6 +2016,18 @@
         "data_url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html",
         "has_api": false,
         "file_path": "china/governance/china-wenshu.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-national-museum",
+        "name": {
+          "en": "National Museum of China",
+          "zh": "中国国家博物馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-national-museum.json",
         "geographic_scope": "national"
       },
       {
@@ -2911,6 +2947,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cmse",
+        "name": {
+          "en": "China Manned Space Engineering Office",
+          "zh": "中国载人航天工程办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmse.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cmse.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnsa",
         "name": {
           "en": "China National Space Administration",
@@ -2980,6 +3028,18 @@
         "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ciia",
+        "name": {
+          "en": "China Information Association",
+          "zh": "中国信息协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ciia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciia.json",
         "geographic_scope": "national"
       },
       {

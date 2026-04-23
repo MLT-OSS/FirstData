@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-22T02:21:32.977189+00:00",
-    "total_sources": 509,
+    "generated_at": "2026-04-23T02:10:31.534560+00:00",
+    "total_sources": 514,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4187,6 +4187,67 @@
       },
       "has_api": false,
       "file_path": "china/economy/market/china-cgcc.json"
+    },
+    {
+      "id": "china-iresearch",
+      "name": {
+        "en": "iResearch Consulting Group",
+        "zh": "艾瑞咨询"
+      },
+      "description": {
+        "en": "iResearch Consulting Group is China's leading internet and technology market research firm. It provides authoritative data, industry reports, and market sizing on China's digital economy, internet industries, e-commerce, fintech, digital advertising, and consumer behavior. iResearch is widely cited by government agencies, investors, and corporations as a primary source for China's digital market intelligence.",
+        "zh": "艾瑞咨询是中国领先的互联网与科技市场研究机构，提供中国数字经济、互联网行业、电商、金融科技、数字广告及消费者行为的权威数据、行业报告和市场规模分析，被政府机构、投资者和企业广泛引用。"
+      },
+      "website": "https://www.iresearch.com.cn",
+      "data_url": "https://www.iresearch.com.cn/report.shtml",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "market-research",
+        "digital-economy",
+        "internet",
+        "consumer"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "艾瑞咨询",
+        "iresearch",
+        "market-research",
+        "market-size",
+        "互联网",
+        "internet",
+        "e-commerce",
+        "电商",
+        "fintech",
+        "金融科技",
+        "digital-advertising",
+        "数字广告",
+        "consumer-behavior",
+        "消费者研究",
+        "industry-report",
+        "行业报告"
+      ],
+      "data_content": {
+        "en": [
+          "Industry Reports - In-depth research reports on China's internet, e-commerce, fintech, and digital sectors",
+          "Market Sizing Data - Total addressable market (TAM) estimates for major Chinese digital industries",
+          "User Behavior Analysis - Consumer behavior surveys and digital usage statistics",
+          "Digital Advertising Market - China online advertising spend and market share data",
+          "Quarterly Trackers - Ongoing tracking data for key metrics in mobile, social, and e-commerce"
+        ],
+        "zh": [
+          "行业深度报告 - 中国互联网、电商、金融科技和数字行业的深度研究报告",
+          "市场规模数据 - 中国主要数字行业的市场规模测算",
+          "用户行为分析 - 消费者行为调研与数字化使用统计",
+          "数字广告市场 - 中国网络广告投入和市场份额数据",
+          "季度追踪 - 移动、社交和电商核心指标的持续跟踪数据"
+        ]
+      },
+      "authority_level": "market",
+      "has_api": false,
+      "file_path": "china/economy/market/china-iresearch.json"
     },
     {
       "id": "china-samr",
@@ -10565,6 +10626,64 @@
       "file_path": "china/governance/china-acla.json"
     },
     {
+      "id": "china-ccdi",
+      "name": {
+        "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+        "zh": "中央纪律检查委员会"
+      },
+      "description": {
+        "en": "The Central Commission for Discipline Inspection (CCDI) is the highest internal-control institution of the Chinese Communist Party, responsible for anti-corruption enforcement and party discipline oversight. Its website publishes official investigation results, disciplinary action statistics, anti-corruption campaign data, and transparency disclosures on disciplinary cases at all levels of government and party organizations.",
+        "zh": "中央纪律检查委员会（中央纪委）是中国共产党最高纪律检查机关，负责反腐败执纪和党纪监督。其官方网站发布案件查处结果、纪律处分统计、反腐败专项行动数据，以及各级党政机关纪律案件的透明度信息。"
+      },
+      "website": "https://www.ccdi.gov.cn",
+      "data_url": "https://www.ccdi.gov.cn/xxgk/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "governance",
+        "anti-corruption",
+        "transparency"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "china",
+        "中央纪委",
+        "anti-corruption",
+        "反腐败",
+        "discipline-inspection",
+        "纪律检查",
+        "party-discipline",
+        "党纪",
+        "governance",
+        "transparency",
+        "信息公开",
+        "disciplinary-cases",
+        "纪律处分",
+        "rule-of-law",
+        "法治"
+      ],
+      "data_content": {
+        "en": [
+          "Disciplinary Case Disclosures - Official announcements on investigated and disciplined party and government officials",
+          "Anti-Corruption Statistics - Annual and periodic statistics on corruption cases, recovered assets, and enforcement actions",
+          "Campaign Reports - Data from centralized anti-corruption campaigns including 'Tigers and Flies'",
+          "Policy Documents - Regulations, guidelines, and internal control documents for party discipline",
+          "Transparency Index - Public disclosure data on government and party compliance and enforcement"
+        ],
+        "zh": [
+          "纪律案件公告 - 受查处党政干部的官方通报",
+          "反腐败统计 - 腐败案件、追缴资产和执纪数量的年度及阶段性统计",
+          "专项行动报告 - '打虎拍蝇'等集中反腐专项行动数据",
+          "政策文件 - 党纪法规、内部监控指南和相关制度文件",
+          "透明度数据 - 党政机关合规与执纪公开信息"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/governance/china-ccdi.json"
+    },
+    {
       "id": "china-ccgp",
       "name": {
         "en": "China Government Procurement Network",
@@ -12193,6 +12312,65 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-wenshu.json"
+    },
+    {
+      "id": "china-national-museum",
+      "name": {
+        "en": "National Museum of China",
+        "zh": "中国国家博物馆"
+      },
+      "description": {
+        "en": "The National Museum of China (NMC) is the premier national museum under the Ministry of Culture and Tourism, housing over 1.4 million artifacts spanning 5,000 years of Chinese history and culture. It publishes authoritative data on cultural relics, historical exhibitions, archaeological discoveries, and cultural heritage collections in China.",
+        "zh": "中国国家博物馆（国博）是文化和旅游部直属的最高历史文化艺术殿堂，馆藏逾140万件文物，涵盖5000年中国历史与文化，发布文物典藏、历史展览、考古发现及中国文化遗产的权威数据。"
+      },
+      "website": "https://www.chnmuseum.cn",
+      "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "culture",
+        "history",
+        "heritage"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "国家博物馆",
+        "national-museum",
+        "cultural-relics",
+        "文物",
+        "cultural-heritage",
+        "文化遗产",
+        "archaeology",
+        "考古",
+        "history",
+        "历史",
+        "collections",
+        "藏品",
+        "exhibitions",
+        "展览",
+        "art"
+      ],
+      "data_content": {
+        "en": [
+          "Collection Catalog - Searchable database of over 1.4 million artifacts with high-resolution images and descriptions",
+          "Exhibition Records - Historical and current exhibition information and catalogs",
+          "Archaeological Reports - Data on major archaeological discoveries and excavations in China",
+          "Cultural Relic Categories - Classification and provenance data for bronzes, ceramics, calligraphy, paintings, and more",
+          "Digital Resources - Digitized collection items, 3D models, and virtual exhibitions"
+        ],
+        "zh": [
+          "藏品目录 - 逾140万件文物的可检索数据库，含高清图像和文字说明",
+          "展览记录 - 历史和现有展览信息及目录",
+          "考古报告 - 中国重大考古发现和发掘数据",
+          "文物分类 - 青铜器、陶瓷、书法、绘画等文物的分类和来源数据",
+          "数字资源 - 数字化藏品、三维模型和虚拟展览"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/governance/culture/china-national-museum.json"
     },
     {
       "id": "china-gas",
@@ -17689,6 +17867,63 @@
       "file_path": "china/technology/china-ccf.json"
     },
     {
+      "id": "china-cmse",
+      "name": {
+        "en": "China Manned Space Engineering Office",
+        "zh": "中国载人航天工程办公室"
+      },
+      "description": {
+        "en": "The China Manned Space Engineering Office (CMSE) is the official government body overseeing China's manned space program. It publishes authoritative announcements, mission data, technical reports, and statistics on China's crewed spaceflight missions, space station operations, and astronaut activities.",
+        "zh": "中国载人航天工程办公室（CMSE）是负责统筹管理中国载人航天工程的政府机构，发布载人航天任务、空间站运营、航天员活动的权威公告、任务数据和技术报告。"
+      },
+      "website": "https://www.cmse.gov.cn",
+      "data_url": "https://www.cmse.gov.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "aerospace",
+        "space",
+        "technology",
+        "science"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "manned-space",
+        "载人航天",
+        "space-station",
+        "中国空间站",
+        "shenzhou",
+        "神舟",
+        "tiangong",
+        "天宫",
+        "astronaut",
+        "航天员",
+        "spaceflight",
+        "aerospace"
+      ],
+      "data_content": {
+        "en": [
+          "Mission Announcements - Official releases on crewed spaceflight missions including launch and return data",
+          "Space Station Operations - Status updates on China Space Station (Tiangong) modules and experiments",
+          "Astronaut Information - Profiles and activity reports for Chinese taikonauts",
+          "Technical Reports - Engineering and scientific reports from manned space missions",
+          "Statistics - Cumulative data on China's manned spaceflight program since 1992"
+        ],
+        "zh": [
+          "任务公告 - 载人航天飞行任务（包括发射和返回数据）的官方发布",
+          "空间站运营 - 天宫空间站舱段和实验项目的状态更新",
+          "航天员信息 - 中国航天员档案和在轨活动报告",
+          "技术报告 - 载人航天任务工程和科学报告",
+          "统计数据 - 1992年以来中国载人航天工程的累积数据"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/technology/china-cmse.json"
+    },
+    {
       "id": "china-cnsa",
       "name": {
         "en": "China National Space Administration",
@@ -18122,6 +18357,60 @@
       },
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-cec.json"
+    },
+    {
+      "id": "china-ciia",
+      "name": {
+        "en": "China Information Association",
+        "zh": "中国信息协会"
+      },
+      "description": {
+        "en": "The China Information Association (CIIA) is a national-level industry organization under the National Development and Reform Commission, promoting the development of China's information industry. It publishes research reports, industry statistics, and policy recommendations on digital economy, informatization, and the information technology sector.",
+        "zh": "中国信息协会（CIIA）是国家发展和改革委员会主管的全国性行业组织，致力于推动中国信息产业发展，发布数字经济、信息化和信息技术行业的研究报告、行业统计数据及政策建议。"
+      },
+      "website": "https://www.ciia.org.cn",
+      "data_url": "https://www.ciia.org.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "information-technology",
+        "digital-economy",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "信息协会",
+        "information-industry",
+        "信息产业",
+        "digital-economy",
+        "数字经济",
+        "informatization",
+        "信息化",
+        "IT",
+        "industry-association",
+        "行业协会"
+      ],
+      "data_content": {
+        "en": [
+          "Industry Research Reports - Analysis and forecasts for China's information technology and digital sectors",
+          "Informatization Indexes - Statistical indexes measuring China's informatization progress",
+          "Policy Research - Policy recommendations and analysis for digital economy development",
+          "Sector Statistics - Data on information industry enterprise scale, revenue, and growth",
+          "Digital Governance - Reports on e-government and public service digitalization"
+        ],
+        "zh": [
+          "行业研究报告 - 中国信息技术和数字行业的分析与预测",
+          "信息化指数 - 衡量中国信息化进程的统计指标",
+          "政策研究 - 数字经济发展的政策建议和分析",
+          "行业统计 - 信息行业企业规模、营收和增长数据",
+          "数字治理 - 电子政务和公共服务数字化报告"
+        ]
+      },
+      "authority_level": "other",
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-ciia.json"
     },
     {
       "id": "china-cisa",

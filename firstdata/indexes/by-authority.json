@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-04-22T02:21:32.977189+00:00",
-    "total_sources": 509,
+    "generated_at": "2026-04-23T02:10:31.534560+00:00",
+    "total_sources": 514,
     "authority_counts": {
       "research": 70,
       "international": 74,
-      "government": 278,
-      "other": 43,
+      "government": 281,
+      "other": 44,
       "commercial": 17,
-      "market": 27
+      "market": 28
     },
     "version": "2.0"
   },
@@ -2831,6 +2831,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ccdi",
+        "name": {
+          "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+          "zh": "中央纪律检查委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccdi.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/governance/china-ccdi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ccgp",
         "name": {
           "en": "China Government Procurement Network",
@@ -3092,6 +3104,18 @@
         "data_url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html",
         "has_api": false,
         "file_path": "china/governance/china-wenshu.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-national-museum",
+        "name": {
+          "en": "National Museum of China",
+          "zh": "中国国家博物馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-national-museum.json",
         "geographic_scope": "national"
       },
       {
@@ -3516,6 +3540,18 @@
         "data_url": "http://www.mwr.gov.cn/sj/",
         "has_api": false,
         "file_path": "china/resources/water/china-mwr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmse",
+        "name": {
+          "en": "China Manned Space Engineering Office",
+          "zh": "中国载人航天工程办公室"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmse.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cmse.json",
         "geographic_scope": "national"
       },
       {
@@ -5550,6 +5586,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ciia",
+        "name": {
+          "en": "China Information Association",
+          "zh": "中国信息协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.ciia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cisa",
         "name": {
           "en": "China Iron and Steel Association",
@@ -5878,6 +5926,18 @@
       }
     ],
     "market": [
+      {
+        "id": "china-iresearch",
+        "name": {
+          "en": "iResearch Consulting Group",
+          "zh": "艾瑞咨询"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.iresearch.com.cn/report.shtml",
+        "has_api": false,
+        "file_path": "china/economy/market/china-iresearch.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-cba",
         "name": {
