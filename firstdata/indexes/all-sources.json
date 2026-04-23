@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T02:10:31.534560+00:00",
-    "total_sources": 514,
+    "generated_at": "2026-04-23T06:15:24.042155+00:00",
+    "total_sources": 519,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2317,6 +2317,70 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/construction/china-mohurd.json"
+    },
+    {
+      "id": "china-urban-planning",
+      "name": {
+        "en": "Chinese Society for Urban Studies",
+        "zh": "中国城市规划学会"
+      },
+      "description": {
+        "en": "The Chinese Society for Urban Studies (CSUS), also known as the Urban Planning Society of China, is the national academic and professional organization for urban planning research and practice in China. Founded in 1956 and under the Ministry of Natural Resources, CSUS publishes research papers, planning standards, and urban development reports. The society's journal Urban Planning Forum and its annual conference proceedings are key references for China's urban development policies, spatial planning methodologies, housing statistics, and smart city development. CSUS data and publications inform national urban planning strategies, land use policies, and city cluster development plans.",
+        "zh": "中国城市规划学会是中国城市规划研究与实践领域的全国性学术团体，成立于1956年，主管单位为自然资源部。学会出版学术论文、规划标准和城市发展报告，旗下《城市规划》学术期刊及年会论文集是了解中国城市发展政策、空间规划方法、住房统计和智慧城市发展的重要参考资料，为国家城市规划战略、土地利用政策和城市群发展规划提供研究支撑。"
+      },
+      "website": "https://www.planning.org.cn",
+      "data_url": "https://www.planning.org.cn/paper",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "urban-development",
+        "land-use",
+        "demographics",
+        "governance"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "urban-planning",
+        "城市规划",
+        "中国城市规划学会",
+        "urbanization",
+        "城镇化",
+        "land-use",
+        "土地利用",
+        "housing",
+        "住房",
+        "smart-city",
+        "智慧城市",
+        "spatial-planning",
+        "国土空间规划",
+        "city-cluster",
+        "城市群"
+      ],
+      "data_content": {
+        "en": [
+          "Urban Planning Research Papers - Peer-reviewed research on Chinese urban development and planning",
+          "National Urban Development Reports - Annual and special reports on China's urbanization progress",
+          "Planning Standards and Guidelines - Technical standards for urban and rural planning practice",
+          "City Case Studies - Detailed spatial planning studies for cities across China",
+          "Smart City Research - Data and analysis on China's smart city development initiatives",
+          "Urban Housing Studies - Research on housing policy, affordability, and market dynamics",
+          "Annual Conference Proceedings - Research outputs from China's leading urban planning symposium"
+        ],
+        "zh": [
+          "城市规划学术论文 - 中国城市发展与规划经同行评审的研究成果",
+          "国家城市发展报告 - 中国城镇化进程年度及专题报告",
+          "规划标准与指南 - 城乡规划实践技术标准",
+          "城市案例研究 - 全国各地城市空间规划详细研究",
+          "智慧城市研究 - 中国智慧城市建设数据与分析",
+          "城市住房研究 - 住房政策、可负担性和市场动态研究",
+          "年会论文集 - 中国城市规划领域年度学术会议研究成果"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "china/construction/china-urban-planning.json"
     },
     {
       "id": "china-catas",
@@ -12734,6 +12798,69 @@
       "file_path": "china/health/china-cpharma.json"
     },
     {
+      "id": "china-hospital-association",
+      "name": {
+        "en": "Chinese Hospital Association",
+        "zh": "中国医院协会"
+      },
+      "description": {
+        "en": "The Chinese Hospital Association (CHA) is the national industry organization representing China's hospital sector, with over 30,000 member institutions. CHA publishes annual hospital industry reports, quality assessment data, hospital management standards, and patient safety statistics. Its data covers hospital bed capacity, service volumes, medical quality indicators, hospital grading evaluations, and healthcare workforce statistics. CHA is a key source for understanding the scale, structure, and performance of China's inpatient healthcare system, which includes over 35,000 hospitals providing services to the world's largest patient population.",
+        "zh": "中国医院协会是代表中国医院行业的全国性行业组织，会员单位逾3万家。协会发布年度医院行业发展报告、质量评估数据、医院管理标准和患者安全统计，数据涵盖医院床位、服务量、医疗质量指标、医院等级评审及卫生人力资源统计，是了解中国住院医疗体系规模、结构和绩效的重要数据来源。"
+      },
+      "website": "https://www.cha.org.cn",
+      "data_url": "https://www.cha.org.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "health",
+        "healthcare",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "hospital",
+        "医院",
+        "中国医院协会",
+        "healthcare",
+        "医疗",
+        "hospital-management",
+        "医院管理",
+        "patient-safety",
+        "患者安全",
+        "hospital-quality",
+        "医疗质量",
+        "health-workforce",
+        "卫生人力",
+        "inpatient",
+        "住院服务"
+      ],
+      "data_content": {
+        "en": [
+          "China Hospital Industry Annual Report - Comprehensive annual statistics on China's hospital sector",
+          "Hospital Bed Capacity Data - National and provincial data on hospital bed numbers by type and level",
+          "Medical Quality Indicators - Clinical quality metrics, surgical outcomes, and safety event data",
+          "Hospital Grading Evaluation Results - Assessment scores for tertiary and secondary hospitals",
+          "Patient Service Volume Statistics - Outpatient visits, inpatient admissions, and surgical case numbers",
+          "Healthcare Workforce Data - Doctors, nurses, and allied health professionals in hospital settings",
+          "Hospital Management Standards - Guidelines and benchmarks for hospital operations and governance"
+        ],
+        "zh": [
+          "中国医院行业年度报告 - 中国医院行业全面年度统计数据",
+          "医院床位数据 - 按类型和等级分类的全国及省级医院床位数量",
+          "医疗质量指标 - 临床质量指标、手术结果和安全事件数据",
+          "医院等级评审结果 - 三级和二级医院评审分数",
+          "患者服务量统计 - 门诊量、住院人次和手术例数",
+          "卫生人力数据 - 医院中的医生、护士和医技人员统计",
+          "医院管理标准 - 医院运营和管理指南与基准"
+        ]
+      },
+      "authority_level": "other",
+      "has_api": false,
+      "file_path": "china/health/china-hospital-association.json"
+    },
+    {
       "id": "china-medical-association",
       "name": {
         "en": "Chinese Medical Association",
@@ -16843,6 +16970,136 @@
       "file_path": "china/resources/environment/china-cnemc.json"
     },
     {
+      "id": "china-cnesa",
+      "name": {
+        "en": "China Energy Storage Alliance",
+        "zh": "中关村储能产业技术联盟"
+      },
+      "description": {
+        "en": "The China Energy Storage Alliance (CNESA), officially the Zhongguancun Energy Storage Industry Technology Alliance, is China's leading national industry organization for the energy storage sector, established in 2011. CNESA publishes authoritative annual white papers and market reports tracking the deployment of grid-scale, commercial, and residential energy storage systems, covering electrochemical batteries (lithium-ion, flow batteries), pumped hydro, thermal storage, and compressed air energy storage. As China is the world's largest and fastest-growing energy storage market, CNESA's Global Energy Storage Database and annual market reports are primary references for energy transition research, investment analysis, and policy development.",
+        "zh": "中关村储能产业技术联盟（CNESA）是中国储能行业领先的全国性行业组织，成立于2011年。联盟发布权威年度白皮书和市场报告，追踪电网侧、用户侧和户用储能系统的装机情况，涵盖电化学储能（锂离子、液流电池）、抽水蓄能、热储能和压缩空气储能。中国是全球最大、增速最快的储能市场，CNESA全球储能数据库和年度市场报告是能源转型研究、投资分析和政策制定的重要参考来源。"
+      },
+      "website": "https://www.cnesa.org",
+      "data_url": "https://www.cnesa.org",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "energy",
+        "technology",
+        "environment",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "energy-storage",
+        "储能",
+        "中关村储能联盟",
+        "CNESA",
+        "battery",
+        "电池",
+        "lithium-ion",
+        "锂离子",
+        "grid-storage",
+        "电网储能",
+        "pumped-hydro",
+        "抽水蓄能",
+        "renewable-energy",
+        "可再生能源",
+        "energy-transition",
+        "能源转型"
+      ],
+      "data_content": {
+        "en": [
+          "China Energy Storage Market Annual White Paper - Comprehensive annual market data on installed capacity by technology and application",
+          "Global Energy Storage Database - Worldwide project-level energy storage installation data",
+          "Electrochemical Storage Statistics - Lithium-ion, flow battery, and sodium-ion deployment data",
+          "Grid-Scale Storage Data - Utility-scale storage projects by province, capacity, and grid function",
+          "Commercial and Industrial Storage Reports - Behind-the-meter storage deployment and economics",
+          "Policy Research Reports - Analysis of energy storage incentive policies and market mechanisms",
+          "Cost and Performance Tracking - Battery cost trends and technology performance benchmarks"
+        ],
+        "zh": [
+          "中国储能市场年度白皮书 - 按技术和应用分类的年度装机容量市场数据",
+          "全球储能数据库 - 全球储能项目级装机数据",
+          "电化学储能统计 - 锂离子、液流电池、钠离子电池装机数据",
+          "电网侧储能数据 - 按省份、容量和电网功能分类的电网侧储能项目",
+          "工商业储能报告 - 工商业用户侧储能装机量和经济性",
+          "政策研究报告 - 储能激励政策和市场机制分析",
+          "成本和性能跟踪 - 电池成本趋势和技术性能基准"
+        ]
+      },
+      "authority_level": "other",
+      "has_api": false,
+      "file_path": "china/resources/environment/china-cnesa.json"
+    },
+    {
+      "id": "china-crra",
+      "name": {
+        "en": "China Association of Circular Economy",
+        "zh": "中国再生资源回收利用协会"
+      },
+      "description": {
+        "en": "The China Association of Circular Economy (CRRA), formally known as the China Renewable Resources Recycling Association, is the national industry organization for China's recycling and circular economy sector. CRRA publishes annual reports and statistics on the recovery and recycling of key materials including scrap metal (steel, copper, aluminum), waste paper, waste plastics, waste rubber, waste glass, and electronic waste. As China is the world's largest producer and recycler of secondary materials, CRRA data provides essential insights into global commodity supply chains, resource sustainability, and China's transition to a circular economy.",
+        "zh": "中国再生资源回收利用协会是中国再生资源回收利用行业的全国性行业组织，发布废钢铁、废铜铝、废纸、废塑料、废橡胶、废玻璃、电子废弃物等主要再生资源的回收量和利用量年度统计报告。中国是全球最大的再生资源生产国和利用国，协会数据对全球大宗商品供应链、资源可持续性以及中国循环经济转型研究具有重要参考价值。"
+      },
+      "website": "https://www.crra.org.cn",
+      "data_url": "https://www.crra.org.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "environment",
+        "circular-economy",
+        "industry",
+        "resources"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "recycling",
+        "再生资源",
+        "循环经济",
+        "circular-economy",
+        "废旧物资",
+        "waste-recycling",
+        "scrap-metal",
+        "废钢铁",
+        "waste-paper",
+        "废纸",
+        "plastics-recycling",
+        "废塑料",
+        "e-waste",
+        "电子废弃物",
+        "sustainability",
+        "资源化利用"
+      ],
+      "data_content": {
+        "en": [
+          "Recycling Volume Statistics - Annual recovery volumes for major secondary materials by type and region",
+          "Scrap Metal Data - Collection, processing, and utilization of waste steel, copper, and aluminum",
+          "Waste Paper and Plastics - Recovery rates and utilization for paper, plastics, and rubber",
+          "Electronic Waste Statistics - Collection and recycling data for end-of-life electronics",
+          "China Recycling Industry Annual Report - Comprehensive review of sector scale, structure, and development",
+          "Market Price Monitoring - Price trends for major recycled materials",
+          "Policy Research Reports - Analysis of circular economy policies and regulatory developments"
+        ],
+        "zh": [
+          "再生资源回收量统计 - 按品种和地区分类的主要再生资源年度回收量",
+          "废金属数据 - 废钢铁、废铜、废铝的回收、加工和利用情况",
+          "废纸和废塑料 - 废纸、废塑料、废橡胶回收率和利用情况",
+          "电子废弃物统计 - 废旧电器电子产品回收和拆解利用数据",
+          "中国再生资源行业年度报告 - 行业规模、结构和发展全面综述",
+          "市场价格监测 - 主要再生资源品种价格走势",
+          "政策研究报告 - 循环经济政策和监管动态分析"
+        ]
+      },
+      "authority_level": "other",
+      "has_api": false,
+      "file_path": "china/resources/environment/china-crra.json"
+    },
+    {
       "id": "china-mee",
       "name": {
         "en": "Ministry of Ecology and Environment of China - Environmental Data",
@@ -18491,6 +18748,70 @@
       },
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-cisa.json"
+    },
+    {
+      "id": "china-cmes",
+      "name": {
+        "en": "Chinese Mechanical Engineering Society",
+        "zh": "中国机械工程学会"
+      },
+      "description": {
+        "en": "The Chinese Mechanical Engineering Society (CMES) is China's largest national academic society in engineering, with over 800,000 members. Founded in 1936 and affiliated with the China Association for Science and Technology, CMES promotes research and development in mechanical engineering, manufacturing, and advanced equipment. The society publishes academic journals, industry reports, and technology roadmaps covering robotics, intelligent manufacturing, green manufacturing, additive manufacturing, and precision engineering. CMES data and publications are key references for China's manufacturing policy, Made in China 2025 implementation, and industrial technology development.",
+        "zh": "中国机械工程学会是中国最大的工程类全国性学术团体，会员逾80万人，1936年成立，主管单位为中国科学技术协会。学会致力于推动机械工程、制造业和高端装备领域的研究与发展，出版学术期刊、行业报告和技术路线图，涵盖机器人、智能制造、绿色制造、增材制造和精密工程等领域，是中国制造业政策、《中国制造2025》落实情况和工业技术发展的重要参考来源。"
+      },
+      "website": "https://www.cmes.org",
+      "data_url": "https://www.cmes.org",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "manufacturing",
+        "technology",
+        "engineering",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "mechanical-engineering",
+        "机械工程",
+        "中国机械工程学会",
+        "manufacturing",
+        "制造业",
+        "intelligent-manufacturing",
+        "智能制造",
+        "robotics",
+        "机器人",
+        "advanced-equipment",
+        "高端装备",
+        "additive-manufacturing",
+        "增材制造",
+        "made-in-china-2025",
+        "中国制造2025"
+      ],
+      "data_content": {
+        "en": [
+          "Academic Journals - Research publications including Chinese Journal of Mechanical Engineering",
+          "Manufacturing Technology Roadmaps - Forward-looking technology development plans for key sectors",
+          "Intelligent Manufacturing Reports - Data and analysis on China's smart factory and automation progress",
+          "Industry Standards Research - Technical standards development in mechanical engineering",
+          "Robotics and Automation Data - Statistics and trends for industrial robots and automation",
+          "Green Manufacturing Reports - Sustainability metrics for China's manufacturing industry",
+          "Annual Academic Conference Proceedings - Cutting-edge research from China's leading mechanical engineering symposium"
+        ],
+        "zh": [
+          "学术期刊 - 包括《中国机械工程》等研究出版物",
+          "制造业技术路线图 - 关键领域前瞻性技术发展规划",
+          "智能制造报告 - 中国智能工厂和自动化进展数据与分析",
+          "行业标准研究 - 机械工程领域技术标准制定",
+          "机器人与自动化数据 - 工业机器人和自动化统计及趋势",
+          "绿色制造报告 - 中国制造业可持续发展指标",
+          "年度学术会议论文集 - 中国机械工程领域顶级学术会议最新研究成果"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-cmes.json"
     },
     {
       "id": "china-cnfia",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T02:10:31.534560+00:00",
+    "generated_at": "2026-04-23T06:15:24.042155+00:00",
     "total_regions": 58,
-    "total_sources": 514,
+    "total_sources": 519,
     "version": "2.0"
   },
   "regions": {
@@ -371,6 +371,18 @@
         "data_url": "https://www.mohurd.gov.cn/gongkai/zhengce/",
         "has_api": false,
         "file_path": "china/construction/china-mohurd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-urban-planning",
+        "name": {
+          "en": "Chinese Society for Urban Studies",
+          "zh": "中国城市规划学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.planning.org.cn/paper",
+        "has_api": false,
+        "file_path": "china/construction/china-urban-planning.json",
         "geographic_scope": "national"
       },
       {
@@ -2091,6 +2103,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-hospital-association",
+        "name": {
+          "en": "Chinese Hospital Association",
+          "zh": "中国医院协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cha.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-hospital-association.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-medical-association",
         "name": {
           "en": "Chinese Medical Association",
@@ -2791,6 +2815,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnesa",
+        "name": {
+          "en": "China Energy Storage Alliance",
+          "zh": "中关村储能产业技术联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cnesa.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cnesa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crra",
+        "name": {
+          "en": "China Association of Circular Economy",
+          "zh": "中国再生资源回收利用协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.crra.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-crra.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mee",
         "name": {
           "en": "Ministry of Ecology and Environment of China - Environmental Data",
@@ -3052,6 +3100,18 @@
         "data_url": "https://www.chinaisa.org.cn/gxportal/xfgl/portal/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cisa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmes",
+        "name": {
+          "en": "Chinese Mechanical Engineering Society",
+          "zh": "中国机械工程学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cmes.org",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cmes.json",
         "geographic_scope": "national"
       },
       {

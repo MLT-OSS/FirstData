@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T02:10:31.534560+00:00",
-    "total_sources": 514,
+    "generated_at": "2026-04-23T06:15:24.042155+00:00",
+    "total_sources": 519,
     "authority_counts": {
-      "research": 70,
+      "research": 72,
       "international": 74,
       "government": 281,
-      "other": 44,
+      "other": 47,
       "commercial": 17,
       "market": 28
     },
@@ -206,6 +206,18 @@
         "has_api": false,
         "file_path": "academic/social/asian-barometer.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "china-urban-planning",
+        "name": {
+          "en": "Chinese Society for Urban Studies",
+          "zh": "中国城市规划学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.planning.org.cn/paper",
+        "has_api": false,
+        "file_path": "china/construction/china-urban-planning.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-catas",
@@ -613,6 +625,18 @@
         "data_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
         "has_api": false,
         "file_path": "china/technology/china-ccf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmes",
+        "name": {
+          "en": "Chinese Mechanical Engineering Society",
+          "zh": "中国机械工程学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cmes.org",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cmes.json",
         "geographic_scope": "national"
       },
       {
@@ -5466,6 +5490,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-hospital-association",
+        "name": {
+          "en": "Chinese Hospital Association",
+          "zh": "中国医院协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cha.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-hospital-association.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-camet",
         "name": {
           "en": "China Association of Metros (CAMET)",
@@ -5523,6 +5559,30 @@
         "data_url": "https://www.chinacace.org/patents/cycle_economy_report/",
         "has_api": false,
         "file_path": "china/resources/environment/china-cace.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnesa",
+        "name": {
+          "en": "China Energy Storage Alliance",
+          "zh": "中关村储能产业技术联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cnesa.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cnesa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crra",
+        "name": {
+          "en": "China Association of Circular Economy",
+          "zh": "中国再生资源回收利用协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.crra.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-crra.json",
         "geographic_scope": "national"
       },
       {
