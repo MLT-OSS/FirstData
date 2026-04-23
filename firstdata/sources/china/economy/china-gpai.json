@@ -1,0 +1,34 @@
+{
+  "id": "china-gpai",
+  "name": {
+    "en": "China Public Auction Network",
+    "zh": "公拍网"
+  },
+  "description": {
+    "en": "The China Public Auction Network (gpai.net) is a comprehensive online auction platform for judicial auctions, public resource transactions, and government asset disposals. Designated by the Supreme People's Court as an authorized network judicial auction platform, it handles court-ordered property auctions alongside public resource trading including state-owned asset transfers, bankruptcy asset disposals, and government procurement auctions. The platform serves as both a judicial auction channel and a public resource transaction hub, particularly active in eastern China regions.",
+    "zh": "公拍网（gpai.net）是综合性网络拍卖平台，涵盖司法拍卖、公共资源交易和政府资产处置。经最高人民法院指定为网络司法拍卖平台，承载法院裁定的财产拍卖，同时处理国有资产转让、破产资产处置和政府采购拍卖等公共资源交易。平台兼具司法拍卖渠道和公共资源交易枢纽功能，在华东地区尤为活跃。"
+  },
+  "website": "https://www.gpai.net",
+  "data_url": "https://www.gpai.net/sf/",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "domains": ["judicial-auction", "real-estate", "public-resource-trading"],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": ["judicial-auction", "public-auction", "real-estate", "state-asset", "property"],
+  "data_content": {
+    "en": [
+      "Judicial auction listings for court-ordered property disposals",
+      "Public resource transaction records including state-owned asset transfers",
+      "Bankruptcy asset disposal and government procurement auction data",
+      "Auction results, bidding statistics, and property valuation records"
+    ],
+    "zh": [
+      "法院裁定的司法拍卖标的信息",
+      "国有资产转让等公共资源交易记录",
+      "破产资产处置和政府采购拍卖数据",
+      "拍卖结果、竞价统计和资产评估记录"
+    ]
+  }
+}

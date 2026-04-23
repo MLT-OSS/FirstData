@@ -1,0 +1,32 @@
+{
+  "id": "china-jd-auction",
+  "name": {
+    "en": "JD.com Judicial Auction Platform",
+    "zh": "京东拍卖·司法"
+  },
+  "description": {
+    "en": "JD.com Judicial Auction (auction.jd.com) is one of China's major online judicial auction platforms, designated by the Supreme People's Court as an authorized network judicial auction platform. It hosts court-ordered auctions of seized assets including real estate, vehicles, land use rights, and equity stakes. The platform leverages JD.com's e-commerce infrastructure to provide property listings, auction schedules, bidding services, and transaction records. It serves as a significant supplementary channel to Alibaba's judicial auction platform for court-ordered asset dispositions.",
+    "zh": "京东拍卖·司法（auction.jd.com）是中国主要的网络司法拍卖平台之一，经最高人民法院指定为网络司法拍卖平台。平台承载法院裁定的查封资产拍卖，包括房产、车辆、土地使用权和股权等。依托京东电商基础设施，提供标的物展示、拍卖安排、竞价服务和成交记录。是阿里司法拍卖之外法院资产处置的重要补充渠道。"
+  },
+  "website": "https://auction.jd.com",
+  "data_url": "https://auction.jd.com/sifa.html",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "domains": ["judicial-auction", "real-estate", "asset-disposal"],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": ["judicial-auction", "real-estate", "property", "jd", "court-auction"],
+  "data_content": {
+    "en": [
+      "Court-ordered auction listings for real estate, vehicles, land use rights, and equity",
+      "Property information, auction schedules, reserve prices, and bidding records",
+      "Transaction results and auction statistics by region and asset category"
+    ],
+    "zh": [
+      "法院裁定的房产、车辆、土地使用权、股权等拍卖信息",
+      "标的物信息、拍卖安排、起拍价和竞价记录",
+      "按地区和资产类别分类的成交结果和拍卖统计"
+    ]
+  }
+}
