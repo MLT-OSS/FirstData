@@ -1,0 +1,63 @@
+{
+  "id": "china-cnesa",
+  "name": {
+    "en": "China Energy Storage Alliance",
+    "zh": "中关村储能产业技术联盟"
+  },
+  "description": {
+    "en": "The China Energy Storage Alliance (CNESA), officially the Zhongguancun Energy Storage Industry Technology Alliance, is China's leading national industry organization for the energy storage sector, established in 2011. CNESA publishes authoritative annual white papers and market reports tracking the deployment of grid-scale, commercial, and residential energy storage systems, covering electrochemical batteries (lithium-ion, flow batteries), pumped hydro, thermal storage, and compressed air energy storage. As China is the world's largest and fastest-growing energy storage market, CNESA's Global Energy Storage Database and annual market reports are primary references for energy transition research, investment analysis, and policy development.",
+    "zh": "中关村储能产业技术联盟（CNESA）是中国储能行业领先的全国性行业组织，成立于2011年。联盟发布权威年度白皮书和市场报告，追踪电网侧、用户侧和户用储能系统的装机情况，涵盖电化学储能（锂离子、液流电池）、抽水蓄能、热储能和压缩空气储能。中国是全球最大、增速最快的储能市场，CNESA全球储能数据库和年度市场报告是能源转型研究、投资分析和政策制定的重要参考来源。"
+  },
+  "website": "https://www.cnesa.org",
+  "data_url": "https://www.cnesa.org",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "energy",
+    "technology",
+    "environment",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "energy-storage",
+    "储能",
+    "中关村储能联盟",
+    "CNESA",
+    "battery",
+    "电池",
+    "lithium-ion",
+    "锂离子",
+    "grid-storage",
+    "电网储能",
+    "pumped-hydro",
+    "抽水蓄能",
+    "renewable-energy",
+    "可再生能源",
+    "energy-transition",
+    "能源转型"
+  ],
+  "data_content": {
+    "en": [
+      "China Energy Storage Market Annual White Paper - Comprehensive annual market data on installed capacity by technology and application",
+      "Global Energy Storage Database - Worldwide project-level energy storage installation data",
+      "Electrochemical Storage Statistics - Lithium-ion, flow battery, and sodium-ion deployment data",
+      "Grid-Scale Storage Data - Utility-scale storage projects by province, capacity, and grid function",
+      "Commercial and Industrial Storage Reports - Behind-the-meter storage deployment and economics",
+      "Policy Research Reports - Analysis of energy storage incentive policies and market mechanisms",
+      "Cost and Performance Tracking - Battery cost trends and technology performance benchmarks"
+    ],
+    "zh": [
+      "中国储能市场年度白皮书 - 按技术和应用分类的年度装机容量市场数据",
+      "全球储能数据库 - 全球储能项目级装机数据",
+      "电化学储能统计 - 锂离子、液流电池、钠离子电池装机数据",
+      "电网侧储能数据 - 按省份、容量和电网功能分类的电网侧储能项目",
+      "工商业储能报告 - 工商业用户侧储能装机量和经济性",
+      "政策研究报告 - 储能激励政策和市场机制分析",
+      "成本和性能跟踪 - 电池成本趋势和技术性能基准"
+    ]
+  },
+  "authority_level": "other"
+}

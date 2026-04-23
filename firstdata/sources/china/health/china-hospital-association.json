@@ -1,0 +1,61 @@
+{
+  "id": "china-hospital-association",
+  "name": {
+    "en": "Chinese Hospital Association",
+    "zh": "中国医院协会"
+  },
+  "description": {
+    "en": "The Chinese Hospital Association (CHA) is the national industry organization representing China's hospital sector, with over 30,000 member institutions. CHA publishes annual hospital industry reports, quality assessment data, hospital management standards, and patient safety statistics. Its data covers hospital bed capacity, service volumes, medical quality indicators, hospital grading evaluations, and healthcare workforce statistics. CHA is a key source for understanding the scale, structure, and performance of China's inpatient healthcare system, which includes over 35,000 hospitals providing services to the world's largest patient population.",
+    "zh": "中国医院协会是代表中国医院行业的全国性行业组织，会员单位逾3万家。协会发布年度医院行业发展报告、质量评估数据、医院管理标准和患者安全统计，数据涵盖医院床位、服务量、医疗质量指标、医院等级评审及卫生人力资源统计，是了解中国住院医疗体系规模、结构和绩效的重要数据来源。"
+  },
+  "website": "https://www.cha.org.cn",
+  "data_url": "https://www.cha.org.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "health",
+    "healthcare",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "hospital",
+    "医院",
+    "中国医院协会",
+    "healthcare",
+    "医疗",
+    "hospital-management",
+    "医院管理",
+    "patient-safety",
+    "患者安全",
+    "hospital-quality",
+    "医疗质量",
+    "health-workforce",
+    "卫生人力",
+    "inpatient",
+    "住院服务"
+  ],
+  "data_content": {
+    "en": [
+      "China Hospital Industry Annual Report - Comprehensive annual statistics on China's hospital sector",
+      "Hospital Bed Capacity Data - National and provincial data on hospital bed numbers by type and level",
+      "Medical Quality Indicators - Clinical quality metrics, surgical outcomes, and safety event data",
+      "Hospital Grading Evaluation Results - Assessment scores for tertiary and secondary hospitals",
+      "Patient Service Volume Statistics - Outpatient visits, inpatient admissions, and surgical case numbers",
+      "Healthcare Workforce Data - Doctors, nurses, and allied health professionals in hospital settings",
+      "Hospital Management Standards - Guidelines and benchmarks for hospital operations and governance"
+    ],
+    "zh": [
+      "中国医院行业年度报告 - 中国医院行业全面年度统计数据",
+      "医院床位数据 - 按类型和等级分类的全国及省级医院床位数量",
+      "医疗质量指标 - 临床质量指标、手术结果和安全事件数据",
+      "医院等级评审结果 - 三级和二级医院评审分数",
+      "患者服务量统计 - 门诊量、住院人次和手术例数",
+      "卫生人力数据 - 医院中的医生、护士和医技人员统计",
+      "医院管理标准 - 医院运营和管理指南与基准"
+    ]
+  },
+  "authority_level": "other"
+}

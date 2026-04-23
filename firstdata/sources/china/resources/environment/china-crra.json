@@ -1,0 +1,63 @@
+{
+  "id": "china-crra",
+  "name": {
+    "en": "China Association of Circular Economy",
+    "zh": "中国再生资源回收利用协会"
+  },
+  "description": {
+    "en": "The China Association of Circular Economy (CRRA), formally known as the China Renewable Resources Recycling Association, is the national industry organization for China's recycling and circular economy sector. CRRA publishes annual reports and statistics on the recovery and recycling of key materials including scrap metal (steel, copper, aluminum), waste paper, waste plastics, waste rubber, waste glass, and electronic waste. As China is the world's largest producer and recycler of secondary materials, CRRA data provides essential insights into global commodity supply chains, resource sustainability, and China's transition to a circular economy.",
+    "zh": "中国再生资源回收利用协会是中国再生资源回收利用行业的全国性行业组织，发布废钢铁、废铜铝、废纸、废塑料、废橡胶、废玻璃、电子废弃物等主要再生资源的回收量和利用量年度统计报告。中国是全球最大的再生资源生产国和利用国，协会数据对全球大宗商品供应链、资源可持续性以及中国循环经济转型研究具有重要参考价值。"
+  },
+  "website": "https://www.crra.org.cn",
+  "data_url": "https://www.crra.org.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "environment",
+    "circular-economy",
+    "industry",
+    "resources"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "recycling",
+    "再生资源",
+    "循环经济",
+    "circular-economy",
+    "废旧物资",
+    "waste-recycling",
+    "scrap-metal",
+    "废钢铁",
+    "waste-paper",
+    "废纸",
+    "plastics-recycling",
+    "废塑料",
+    "e-waste",
+    "电子废弃物",
+    "sustainability",
+    "资源化利用"
+  ],
+  "data_content": {
+    "en": [
+      "Recycling Volume Statistics - Annual recovery volumes for major secondary materials by type and region",
+      "Scrap Metal Data - Collection, processing, and utilization of waste steel, copper, and aluminum",
+      "Waste Paper and Plastics - Recovery rates and utilization for paper, plastics, and rubber",
+      "Electronic Waste Statistics - Collection and recycling data for end-of-life electronics",
+      "China Recycling Industry Annual Report - Comprehensive review of sector scale, structure, and development",
+      "Market Price Monitoring - Price trends for major recycled materials",
+      "Policy Research Reports - Analysis of circular economy policies and regulatory developments"
+    ],
+    "zh": [
+      "再生资源回收量统计 - 按品种和地区分类的主要再生资源年度回收量",
+      "废金属数据 - 废钢铁、废铜、废铝的回收、加工和利用情况",
+      "废纸和废塑料 - 废纸、废塑料、废橡胶回收率和利用情况",
+      "电子废弃物统计 - 废旧电器电子产品回收和拆解利用数据",
+      "中国再生资源行业年度报告 - 行业规模、结构和发展全面综述",
+      "市场价格监测 - 主要再生资源品种价格走势",
+      "政策研究报告 - 循环经济政策和监管动态分析"
+    ]
+  },
+  "authority_level": "other"
+}

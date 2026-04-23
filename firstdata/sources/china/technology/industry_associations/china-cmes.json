@@ -1,0 +1,62 @@
+{
+  "id": "china-cmes",
+  "name": {
+    "en": "Chinese Mechanical Engineering Society",
+    "zh": "中国机械工程学会"
+  },
+  "description": {
+    "en": "The Chinese Mechanical Engineering Society (CMES) is China's largest national academic society in engineering, with over 800,000 members. Founded in 1936 and affiliated with the China Association for Science and Technology, CMES promotes research and development in mechanical engineering, manufacturing, and advanced equipment. The society publishes academic journals, industry reports, and technology roadmaps covering robotics, intelligent manufacturing, green manufacturing, additive manufacturing, and precision engineering. CMES data and publications are key references for China's manufacturing policy, Made in China 2025 implementation, and industrial technology development.",
+    "zh": "中国机械工程学会是中国最大的工程类全国性学术团体，会员逾80万人，1936年成立，主管单位为中国科学技术协会。学会致力于推动机械工程、制造业和高端装备领域的研究与发展，出版学术期刊、行业报告和技术路线图，涵盖机器人、智能制造、绿色制造、增材制造和精密工程等领域，是中国制造业政策、《中国制造2025》落实情况和工业技术发展的重要参考来源。"
+  },
+  "website": "https://www.cmes.org",
+  "data_url": "https://www.cmes.org",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "manufacturing",
+    "technology",
+    "engineering",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "mechanical-engineering",
+    "机械工程",
+    "中国机械工程学会",
+    "manufacturing",
+    "制造业",
+    "intelligent-manufacturing",
+    "智能制造",
+    "robotics",
+    "机器人",
+    "advanced-equipment",
+    "高端装备",
+    "additive-manufacturing",
+    "增材制造",
+    "made-in-china-2025",
+    "中国制造2025"
+  ],
+  "data_content": {
+    "en": [
+      "Academic Journals - Research publications including Chinese Journal of Mechanical Engineering",
+      "Manufacturing Technology Roadmaps - Forward-looking technology development plans for key sectors",
+      "Intelligent Manufacturing Reports - Data and analysis on China's smart factory and automation progress",
+      "Industry Standards Research - Technical standards development in mechanical engineering",
+      "Robotics and Automation Data - Statistics and trends for industrial robots and automation",
+      "Green Manufacturing Reports - Sustainability metrics for China's manufacturing industry",
+      "Annual Academic Conference Proceedings - Cutting-edge research from China's leading mechanical engineering symposium"
+    ],
+    "zh": [
+      "学术期刊 - 包括《中国机械工程》等研究出版物",
+      "制造业技术路线图 - 关键领域前瞻性技术发展规划",
+      "智能制造报告 - 中国智能工厂和自动化进展数据与分析",
+      "行业标准研究 - 机械工程领域技术标准制定",
+      "机器人与自动化数据 - 工业机器人和自动化统计及趋势",
+      "绿色制造报告 - 中国制造业可持续发展指标",
+      "年度学术会议论文集 - 中国机械工程领域顶级学术会议最新研究成果"
+    ]
+  },
+  "authority_level": "research"
+}

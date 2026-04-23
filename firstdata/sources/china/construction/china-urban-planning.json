@@ -1,0 +1,62 @@
+{
+  "id": "china-urban-planning",
+  "name": {
+    "en": "Chinese Society for Urban Studies",
+    "zh": "中国城市规划学会"
+  },
+  "description": {
+    "en": "The Chinese Society for Urban Studies (CSUS), also known as the Urban Planning Society of China, is the national academic and professional organization for urban planning research and practice in China. Founded in 1956 and under the Ministry of Natural Resources, CSUS publishes research papers, planning standards, and urban development reports. The society's journal Urban Planning Forum and its annual conference proceedings are key references for China's urban development policies, spatial planning methodologies, housing statistics, and smart city development. CSUS data and publications inform national urban planning strategies, land use policies, and city cluster development plans.",
+    "zh": "中国城市规划学会是中国城市规划研究与实践领域的全国性学术团体，成立于1956年，主管单位为自然资源部。学会出版学术论文、规划标准和城市发展报告，旗下《城市规划》学术期刊及年会论文集是了解中国城市发展政策、空间规划方法、住房统计和智慧城市发展的重要参考资料，为国家城市规划战略、土地利用政策和城市群发展规划提供研究支撑。"
+  },
+  "website": "https://www.planning.org.cn",
+  "data_url": "https://www.planning.org.cn/paper",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "urban-development",
+    "land-use",
+    "demographics",
+    "governance"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "urban-planning",
+    "城市规划",
+    "中国城市规划学会",
+    "urbanization",
+    "城镇化",
+    "land-use",
+    "土地利用",
+    "housing",
+    "住房",
+    "smart-city",
+    "智慧城市",
+    "spatial-planning",
+    "国土空间规划",
+    "city-cluster",
+    "城市群"
+  ],
+  "data_content": {
+    "en": [
+      "Urban Planning Research Papers - Peer-reviewed research on Chinese urban development and planning",
+      "National Urban Development Reports - Annual and special reports on China's urbanization progress",
+      "Planning Standards and Guidelines - Technical standards for urban and rural planning practice",
+      "City Case Studies - Detailed spatial planning studies for cities across China",
+      "Smart City Research - Data and analysis on China's smart city development initiatives",
+      "Urban Housing Studies - Research on housing policy, affordability, and market dynamics",
+      "Annual Conference Proceedings - Research outputs from China's leading urban planning symposium"
+    ],
+    "zh": [
+      "城市规划学术论文 - 中国城市发展与规划经同行评审的研究成果",
+      "国家城市发展报告 - 中国城镇化进程年度及专题报告",
+      "规划标准与指南 - 城乡规划实践技术标准",
+      "城市案例研究 - 全国各地城市空间规划详细研究",
+      "智慧城市研究 - 中国智慧城市建设数据与分析",
+      "城市住房研究 - 住房政策、可负担性和市场动态研究",
+      "年会论文集 - 中国城市规划领域年度学术会议研究成果"
+    ]
+  },
+  "authority_level": "research"
+}
