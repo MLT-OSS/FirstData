@@ -1,0 +1,32 @@
+{
+  "id": "china-court-auction",
+  "name": {
+    "en": "People's Court Litigation Assets Network",
+    "zh": "人民法院诉讼资产网"
+  },
+  "description": {
+    "en": "The People's Court Litigation Assets Network is the official judicial auction platform operated by the Supreme People's Court of China. It publishes court-ordered asset dispositions including real estate, vehicles, land use rights, equity stakes, and other seized properties. The platform aggregates judicial auction listings from courts at all levels nationwide, providing standardized information on auction schedules, reserve prices, property details, and bidding results. As the authoritative government platform for judicial asset disposal, it serves as the primary reference for tracking court-ordered property sales across China's judicial system.",
+    "zh": "人民法院诉讼资产网是最高人民法院运营的官方司法拍卖平台，发布法院裁定的资产处置信息，包括房产、车辆、土地使用权、股权及其他查封财产。平台汇集全国各级法院的司法拍卖信息，提供拍卖时间、起拍价、标的物详情和竞价结果等标准化信息。作为司法资产处置的权威政府平台，是追踪中国司法系统法院强制拍卖的首要参考来源。"
+  },
+  "website": "https://www.rmfysszc.gov.cn",
+  "data_url": "https://www.rmfysszc.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": ["judicial-auction", "real-estate", "asset-disposal"],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": ["judicial-auction", "real-estate", "court", "asset-disposal", "property"],
+  "data_content": {
+    "en": [
+      "Court-ordered judicial auction listings for real estate, vehicles, land use rights, and equity",
+      "Auction schedules, reserve prices, and bidding results from courts nationwide",
+      "Seized property details and disposal records from all court levels"
+    ],
+    "zh": [
+      "法院裁定的房产、车辆、土地使用权、股权等司法拍卖信息",
+      "全国各级法院拍卖时间、起拍价和竞价结果",
+      "各级法院查封财产详情和处置记录"
+    ]
+  }
+}

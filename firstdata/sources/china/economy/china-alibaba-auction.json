@@ -1,0 +1,34 @@
+{
+  "id": "china-alibaba-auction",
+  "name": {
+    "en": "Alibaba Judicial Auction Platform",
+    "zh": "阿里拍卖·司法"
+  },
+  "description": {
+    "en": "Alibaba Judicial Auction (sf.taobao.com) is the largest online judicial auction platform in China, designated by the Supreme People's Court as an authorized network judicial auction platform. It hosts court-ordered auctions of seized assets including residential and commercial real estate, vehicles, land use rights, equity stakes, machinery, and other properties. The platform provides detailed property information, auction schedules, reserve prices, assessment reports, and real-time bidding. It covers auctions from courts at all levels across all provinces, making it the most comprehensive source for judicial auction market data in China.",
+    "zh": "阿里拍卖·司法（sf.taobao.com）是中国最大的网络司法拍卖平台，经最高人民法院指定为网络司法拍卖平台。平台承载法院裁定的查封资产拍卖，包括住宅和商业房产、车辆、土地使用权、股权、机械设备等。提供详细的标的物信息、拍卖时间、起拍价、评估报告和实时竞价。覆盖全国各省各级法院拍卖，是中国司法拍卖市场数据最全面的来源。"
+  },
+  "website": "https://sf.taobao.com",
+  "data_url": "https://sf.taobao.com",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "domains": ["judicial-auction", "real-estate", "asset-disposal"],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": ["judicial-auction", "real-estate", "property", "alibaba", "court-auction"],
+  "data_content": {
+    "en": [
+      "Court-ordered auction listings for real estate, vehicles, land, equity, and other seized assets",
+      "Property details, assessment reports, reserve prices, and real-time bidding data",
+      "Auction results and transaction records from courts across all provinces",
+      "Market statistics on judicial auction volumes, categories, and price trends"
+    ],
+    "zh": [
+      "法院裁定的房产、车辆、土地、股权等查封资产拍卖信息",
+      "标的物详情、评估报告、起拍价和实时竞价数据",
+      "全国各省法院拍卖结果和成交记录",
+      "司法拍卖成交量、品类和价格趋势等市场统计"
+    ]
+  }
+}

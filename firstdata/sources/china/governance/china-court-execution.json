@@ -1,0 +1,34 @@
+{
+  "id": "china-court-execution",
+  "name": {
+    "en": "China Court Execution Information Disclosure Network",
+    "zh": "全国法院被执行人信息查询平台"
+  },
+  "description": {
+    "en": "The China Court Execution Information Disclosure Network, operated by the Supreme People's Court, is the official platform for publicizing court execution case information. It provides searchable databases of judgment debtors (被执行人), dishonest persons subject to enforcement (失信被执行人/老赖), consumption restriction orders (限制消费令), and terminated execution cases. The platform also publishes judicial auction information and enforcement case progress. It is the authoritative source for credit risk assessment related to court judgments and the primary tool for China's social credit enforcement system.",
+    "zh": "全国法院被执行人信息查询平台由最高人民法院运营，是公开法院执行案件信息的官方平台。提供被执行人、失信被执行人（老赖）、限制消费令、终本案件等可查询数据库，同时发布司法拍卖信息和执行案件进展。是涉诉信用风险评估的权威来源，也是中国社会信用执行体系的核心工具。"
+  },
+  "website": "https://zxgk.court.gov.cn",
+  "data_url": "https://zxgk.court.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": ["judicial-execution", "credit-risk", "social-credit"],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": ["court-execution", "dishonest-debtor", "credit-risk", "judicial", "social-credit"],
+  "data_content": {
+    "en": [
+      "Judgment debtor (被执行人) database searchable by name and ID",
+      "Dishonest persons subject to enforcement (失信被执行人/老赖) blacklist",
+      "Consumption restriction orders and terminated execution case records",
+      "Judicial auction listings and enforcement case progress tracking"
+    ],
+    "zh": [
+      "按姓名和证件号可查询的被执行人数据库",
+      "失信被执行人（老赖）黑名单",
+      "限制消费令和终本案件记录",
+      "司法拍卖信息和执行案件进展追踪"
+    ]
+  }
+}
