@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T06:15:24.042155+00:00",
-    "total_domains": 729,
-    "total_sources": 519,
+    "generated_at": "2026-04-23T08:37:51.753864+00:00",
+    "total_domains": 730,
+    "total_sources": 535,
     "version": "2.0"
   },
   "domains": {
@@ -1755,6 +1755,18 @@
     ],
     "banking": [
       {
+        "id": "china-cdb",
+        "name": {
+          "en": "China Development Bank",
+          "zh": "国家开发银行"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cdb.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/banking/cdb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-adbc",
         "name": {
           "en": "Agricultural Development Bank of China",
@@ -1764,6 +1776,18 @@
         "data_url": "https://www.adbc.com.cn/",
         "has_api": false,
         "file_path": "china/finance/banking/china-adbc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-eximbank",
+        "name": {
+          "en": "Export-Import Bank of China",
+          "zh": "中国进出口银行"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.eximbank.gov.cn/cn/index/information/annual/index.html",
+        "has_api": false,
+        "file_path": "china/finance/banking/eximbank.json",
         "geographic_scope": "national"
       },
       {
@@ -3247,6 +3271,18 @@
         "data_url": "https://www.cea.gov.cn/cea/dzpd/dzzt/index.html",
         "has_api": false,
         "file_path": "china/resources/seismology/china-cea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cenc",
+        "name": {
+          "en": "China Earthquake Networks Center",
+          "zh": "中国地震台网中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cenc.ac.cn/",
+        "has_api": false,
+        "file_path": "china/resources/seismology/china-cenc.json",
         "geographic_scope": "national"
       },
       {
@@ -5144,6 +5180,18 @@
         "data_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s7967/new_list.shtml",
         "has_api": false,
         "file_path": "china/health/china-nhc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nphsd",
+        "name": {
+          "en": "National Population and Health Science Data Center",
+          "zh": "国家人口与健康科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.phsciencedata.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nphsd.json",
         "geographic_scope": "national"
       },
       {
@@ -8575,6 +8623,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cste",
+        "name": {
+          "en": "China Society for Technology Economics",
+          "zh": "中国技术经济学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cste.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cste.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-drc",
         "name": {
           "en": "Development Research Center of the State Council of China",
@@ -8668,6 +8728,18 @@
         "data_url": "https://www.cec.org.cn/detail/index.html?3-302929",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cecc",
+        "name": {
+          "en": "China Electronics Chamber of Commerce",
+          "zh": "中国电子商会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cecc.org.cn/hangye/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cecc.json",
         "geographic_scope": "national"
       },
       {
@@ -11702,6 +11774,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ces",
+        "name": {
+          "en": "China Electrotechnical Society",
+          "zh": "中国电工技术学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ces.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ces.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cpcif",
         "name": {
           "en": "China Petroleum and Chemical Industry Federation",
@@ -12551,6 +12635,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ndrcc",
+        "name": {
+          "en": "National Disaster Reduction Center of China",
+          "zh": "国家减灾中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ndrcc.org.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ndrcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nfga",
         "name": {
           "en": "National Forestry and Grassland Administration of China",
@@ -12608,6 +12704,30 @@
         "data_url": "https://www.cea.gov.cn/cea/dzpd/dzzt/index.html",
         "has_api": false,
         "file_path": "china/resources/seismology/china-cea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cenc",
+        "name": {
+          "en": "China Earthquake Networks Center",
+          "zh": "中国地震台网中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cenc.ac.cn/",
+        "has_api": false,
+        "file_path": "china/resources/seismology/china-cenc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinawater",
+        "name": {
+          "en": "China Water Resources Portal",
+          "zh": "中国水利网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinawater.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-chinawater.json",
         "geographic_scope": "national"
       },
       {
@@ -13477,6 +13597,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nphsd",
+        "name": {
+          "en": "National Population and Health Science Data Center",
+          "zh": "国家人口与健康科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.phsciencedata.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nphsd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-cdc",
         "name": {
           "en": "Centers for Disease Control and Prevention",
@@ -13935,6 +14067,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cdb",
+        "name": {
+          "en": "China Development Bank",
+          "zh": "国家开发银行"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cdb.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/banking/cdb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-adbc",
         "name": {
           "en": "Agricultural Development Bank of China",
@@ -13956,6 +14100,18 @@
         "data_url": "https://www.china-cba.net/Index/lists/catid/268.html",
         "has_api": false,
         "file_path": "china/finance/banking/china-cba.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-eximbank",
+        "name": {
+          "en": "Export-Import Bank of China",
+          "zh": "中国进出口银行"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.eximbank.gov.cn/cn/index/information/annual/index.html",
+        "has_api": false,
+        "file_path": "china/finance/banking/eximbank.json",
         "geographic_scope": "national"
       },
       {
@@ -16482,6 +16638,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cqc",
+        "name": {
+          "en": "China Quality Certification Centre",
+          "zh": "中国质量认证中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cqc.com.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mem",
         "name": {
           "en": "Ministry of Emergency Management of China",
@@ -16723,6 +16891,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ndrcc",
+        "name": {
+          "en": "National Disaster Reduction Center of China",
+          "zh": "国家减灾中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ndrcc.org.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ndrcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cea",
         "name": {
           "en": "China Earthquake Administration",
@@ -16732,6 +16912,18 @@
         "data_url": "https://www.cea.gov.cn/cea/dzpd/dzzt/index.html",
         "has_api": false,
         "file_path": "china/resources/seismology/china-cea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cenc",
+        "name": {
+          "en": "China Earthquake Networks Center",
+          "zh": "中国地震台网中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cenc.ac.cn/",
+        "has_api": false,
+        "file_path": "china/resources/seismology/china-cenc.json",
         "geographic_scope": "national"
       },
       {
@@ -17083,6 +17275,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-cacms",
+        "name": {
+          "en": "China Academy of Chinese Medical Sciences",
+          "zh": "中国中医科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cacms.ac.cn/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-cacms.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cams",
         "name": {
           "en": "Chinese Academy of Medical Sciences (CAMS)",
@@ -17204,6 +17408,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nphsd",
+        "name": {
+          "en": "National Population and Health Science Data Center",
+          "zh": "国家人口与健康科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.phsciencedata.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nphsd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cfps",
         "name": {
           "en": "China Family Panel Studies (CFPS)",
@@ -17249,6 +17465,18 @@
         "data_url": "https://www.cncbd.org.cn",
         "has_api": false,
         "file_path": "china/research/china-cncbd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ngdc",
+        "name": {
+          "en": "National Genomics Data Center",
+          "zh": "国家基因组科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://ngdc.cncb.ac.cn/gsub/",
+        "has_api": true,
+        "file_path": "china/research/ngdc.json",
         "geographic_scope": "national"
       },
       {
@@ -19976,6 +20204,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cdb",
+        "name": {
+          "en": "China Development Bank",
+          "zh": "国家开发银行"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cdb.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/banking/cdb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-camet",
         "name": {
           "en": "China Association of Metros (CAMET)",
@@ -20058,6 +20298,18 @@
         "data_url": "https://www.ngcc.cn/dlxxzy/gjjcdlxxsjk/",
         "has_api": false,
         "file_path": "china/resources/china-ngcc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinawater",
+        "name": {
+          "en": "China Water Resources Portal",
+          "zh": "中国水利网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinawater.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-chinawater.json",
         "geographic_scope": "national"
       },
       {
@@ -21920,6 +22172,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csia",
+        "name": {
+          "en": "China Semiconductor Industry Association",
+          "zh": "中国半导体行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://web.csia.net.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-csia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-catarc",
+        "name": {
+          "en": "China Automotive Technology and Research Center",
+          "zh": "中国汽车技术研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.catarc.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-catarc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-automation-association",
         "name": {
           "en": "Chinese Association of Automation",
@@ -21932,6 +22208,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ces",
+        "name": {
+          "en": "China Electrotechnical Society",
+          "zh": "中国电工技术学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ces.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ces.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cmes",
         "name": {
           "en": "Chinese Mechanical Engineering Society",
@@ -21941,6 +22229,18 @@
         "data_url": "https://www.cmes.org",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cmes.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csm",
+        "name": {
+          "en": "Chinese Society for Metals",
+          "zh": "中国金属学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csm.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-csm.json",
         "geographic_scope": "national"
       },
       {
@@ -24140,6 +24440,18 @@
         "has_api": true,
         "file_path": "academic/chemistry/pubchem.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-cacms",
+        "name": {
+          "en": "China Academy of Chinese Medical Sciences",
+          "zh": "中国中医科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cacms.ac.cn/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-cacms.json",
+        "geographic_scope": "national"
       }
     ],
     "photometry and radiometry": [
@@ -25866,6 +26178,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ngdc",
+        "name": {
+          "en": "National Genomics Data Center",
+          "zh": "国家基因组科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://ngdc.cncb.ac.cn/gsub/",
+        "has_api": true,
+        "file_path": "china/research/ngdc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-most-rnd",
         "name": {
           "en": "National Key R&D Program of China - Industrial Software and 16 Key Special Projects",
@@ -26252,6 +26576,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cste",
+        "name": {
+          "en": "China Society for Technology Economics",
+          "zh": "中国技术经济学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cste.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cste.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-drc",
         "name": {
           "en": "Development Research Center of the State Council of China",
@@ -26297,6 +26633,18 @@
         "data_url": "https://www.istic.ac.cn/",
         "has_api": false,
         "file_path": "china/research/china-istic.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ncsti",
+        "name": {
+          "en": "National Center for Science and Technology Information",
+          "zh": "中国科学技术信息研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ncsti.gov.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ncsti.json",
         "geographic_scope": "national"
       },
       {
@@ -26360,6 +26708,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ngdc",
+        "name": {
+          "en": "National Genomics Data Center",
+          "zh": "国家基因组科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://ngdc.cncb.ac.cn/gsub/",
+        "has_api": true,
+        "file_path": "china/research/ngdc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cgas",
         "name": {
           "en": "China Geological Survey",
@@ -26405,6 +26765,18 @@
         "data_url": "https://www.cmse.gov.cn",
         "has_api": false,
         "file_path": "china/technology/china-cmse.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csm",
+        "name": {
+          "en": "Chinese Society for Metals",
+          "zh": "中国金属学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csm.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-csm.json",
         "geographic_scope": "national"
       },
       {
@@ -27453,6 +27825,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nphsd",
+        "name": {
+          "en": "National Population and Health Science Data Center",
+          "zh": "国家人口与健康科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.phsciencedata.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nphsd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "ceic-china-urbanization",
         "name": {
           "en": "CEIC Data - China Urbanization Rate",
@@ -27572,6 +27956,18 @@
         "data_url": "https://chfs.swufe.edu.cn",
         "has_api": false,
         "file_path": "china/research/china-chfs.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ndrcc",
+        "name": {
+          "en": "National Disaster Reduction Center of China",
+          "zh": "国家减灾中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ndrcc.org.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ndrcc.json",
         "geographic_scope": "national"
       },
       {
@@ -29239,6 +29635,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cqc",
+        "name": {
+          "en": "China Quality Certification Centre",
+          "zh": "中国质量认证中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cqc.com.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mva",
         "name": {
           "en": "Ministry of Veterans Affairs of China",
@@ -29383,6 +29791,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ndrcc",
+        "name": {
+          "en": "National Disaster Reduction Center of China",
+          "zh": "国家减灾中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ndrcc.org.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ndrcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cea",
         "name": {
           "en": "China Earthquake Administration",
@@ -29395,6 +29815,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cenc",
+        "name": {
+          "en": "China Earthquake Networks Center",
+          "zh": "中国地震台网中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cenc.ac.cn/",
+        "has_api": false,
+        "file_path": "china/resources/seismology/china-cenc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mwr",
         "name": {
           "en": "Ministry of Water Resources of China - Water Resources Statistics",
@@ -29404,6 +29836,18 @@
         "data_url": "http://www.mwr.gov.cn/sj/",
         "has_api": false,
         "file_path": "china/resources/water/china-mwr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cecc",
+        "name": {
+          "en": "China Electronics Chamber of Commerce",
+          "zh": "中国电子商会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cecc.org.cn/hangye/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cecc.json",
         "geographic_scope": "national"
       },
       {
@@ -29852,6 +30296,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cqc",
+        "name": {
+          "en": "China Quality Certification Centre",
+          "zh": "中国质量认证中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cqc.com.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-napp",
         "name": {
           "en": "National Administration of Press and Publication",
@@ -29888,6 +30344,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csia",
+        "name": {
+          "en": "China Semiconductor Industry Association",
+          "zh": "中国半导体行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://web.csia.net.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-csia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cae",
         "name": {
           "en": "Chinese Academy of Engineering",
@@ -29921,6 +30389,18 @@
         "data_url": "https://www.cast.org.cn/xw/",
         "has_api": false,
         "file_path": "china/research/china-cast.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ncsti",
+        "name": {
+          "en": "National Center for Science and Technology Information",
+          "zh": "中国科学技术信息研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ncsti.gov.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ncsti.json",
         "geographic_scope": "national"
       },
       {
@@ -30041,6 +30521,18 @@
         "data_url": "http://www.caam.org.cn/chn/4/cate_39/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-caam.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cecc",
+        "name": {
+          "en": "China Electronics Chamber of Commerce",
+          "zh": "中国电子商会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cecc.org.cn/hangye/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cecc.json",
         "geographic_scope": "national"
       },
       {
@@ -30956,6 +31448,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-eximbank",
+        "name": {
+          "en": "Export-Import Bank of China",
+          "zh": "中国进出口银行"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.eximbank.gov.cn/cn/index/information/annual/index.html",
+        "has_api": false,
+        "file_path": "china/finance/banking/eximbank.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-safe",
         "name": {
           "en": "State Administration of Foreign Exchange of China",
@@ -30981,6 +31485,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cqc",
+        "name": {
+          "en": "China Quality Certification Centre",
+          "zh": "中国质量认证中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cqc.com.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cciee",
         "name": {
           "en": "China Center for International Economic Exchanges",
@@ -31002,6 +31518,18 @@
         "data_url": "http://www.caam.org.cn/chn/4/cate_39/index.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-caam.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cecc",
+        "name": {
+          "en": "China Electronics Chamber of Commerce",
+          "zh": "中国电子商会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cecc.org.cn/hangye/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cecc.json",
         "geographic_scope": "national"
       },
       {
@@ -31985,6 +32513,20 @@
         "geographic_scope": "global"
       }
     ],
+    "traditional-medicine": [
+      {
+        "id": "china-cacms",
+        "name": {
+          "en": "China Academy of Chinese Medical Sciences",
+          "zh": "中国中医科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cacms.ac.cn/index.html",
+        "has_api": false,
+        "file_path": "china/health/china-cacms.json",
+        "geographic_scope": "national"
+      }
+    ],
     "transcriptomics": [
       {
         "id": "ena",
@@ -32174,6 +32716,18 @@
         "data_url": "https://www.chinapost.com.cn/",
         "has_api": false,
         "file_path": "china/infrastructure/china-post-group.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-catarc",
+        "name": {
+          "en": "China Automotive Technology and Research Center",
+          "zh": "中国汽车技术研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.catarc.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-catarc.json",
         "geographic_scope": "national"
       },
       {

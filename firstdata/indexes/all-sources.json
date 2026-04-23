@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-23T06:15:24.042155+00:00",
-    "total_sources": 519,
+    "generated_at": "2026-04-23T08:37:51.753864+00:00",
+    "total_sources": 535,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -8753,6 +8753,73 @@
       "file_path": "china/education/moe-gaokao.json"
     },
     {
+      "id": "china-cdb",
+      "name": {
+        "en": "China Development Bank",
+        "zh": "国家开发银行"
+      },
+      "description": {
+        "en": "The China Development Bank (CDB) is China's largest policy bank and development finance institution, directly supervised by the State Council. Established in 1994, it provides medium- and long-term financing for major national strategic projects in infrastructure, basic industries, and pillar industries. CDB publishes annual reports, financial statements, bond issuance data, and statistics on lending to key sectors including transportation, energy, water resources, urban development, and international cooperation.",
+        "zh": "国家开发银行是中国最大的政策性银行和开发性金融机构，直属国务院监管，成立于1994年，为基础设施、基础产业和支柱产业等国家重大战略项目提供中长期融资。发布年度报告、财务报表、债券发行数据及交通、能源、水利、城镇化建设和国际合作等重点领域贷款统计数据。"
+      },
+      "website": "https://www.cdb.com.cn",
+      "data_url": "https://www.cdb.com.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "banking",
+        "infrastructure"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "development-bank",
+        "policy-bank",
+        "infrastructure-finance",
+        "long-term-lending",
+        "bond-issuance",
+        "国家开发银行",
+        "政策性银行",
+        "开发性金融",
+        "基础设施",
+        "中长期贷款",
+        "债券",
+        "能源贷款",
+        "交通贷款",
+        "城镇化",
+        "national-development",
+        "cdb",
+        "annual-report"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Full financial statements, business review, capital adequacy, and risk management disclosure",
+          "Bond Issuances - Domestic and international bond prospectuses, rates, and maturity schedules",
+          "Sector Lending Data - Loans outstanding by sector: transportation, energy, water, urban, education, agriculture",
+          "Infrastructure Finance - Financing volume for highways, railways, airports, and urban infrastructure",
+          "Poverty Alleviation Finance - Targeted lending statistics for poverty reduction and rural revitalization",
+          "International Cooperation - Overseas lending statistics and development finance for BRI projects",
+          "Green Finance - Green bonds and environmental lending statistics",
+          "Information Disclosure (ZWGK) - Regulatory filings, business reports, and governance documents"
+        ],
+        "zh": [
+          "年度报告 - 完整财务报表、业务回顾、资本充足率及风险管理披露",
+          "债券发行 - 境内外债券募集说明书、利率及到期安排",
+          "行业贷款数据 - 按行业划分的贷款余额：交通、能源、水利、城镇、教育、农业",
+          "基础设施融资 - 公路、铁路、机场及城市基础设施的融资规模",
+          "脱贫攻坚金融 - 精准扶贫和乡村振兴的专项贷款统计",
+          "国际合作 - 境外贷款统计数据及一带一路项目开发性融资",
+          "绿色金融 - 绿色债券和环保领域贷款统计",
+          "政务公开（ZWGK） - 监管报备、业务报告及公司治理文件"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/cdb.json"
+    },
+    {
       "id": "china-adbc",
       "name": {
         "en": "Agricultural Development Bank of China",
@@ -8890,6 +8957,74 @@
       },
       "has_api": false,
       "file_path": "china/finance/banking/china-cba.json"
+    },
+    {
+      "id": "china-eximbank",
+      "name": {
+        "en": "Export-Import Bank of China",
+        "zh": "中国进出口银行"
+      },
+      "description": {
+        "en": "The Export-Import Bank of China (EXIM China) is a state-owned policy bank directly under the State Council, established in 1994. It is the sole Chinese government agency bank mandated to provide policy financial services to support China's foreign trade, overseas investment, and international economic cooperation. It publishes annual reports, financial statements, bond issuance data, country loan data, and statistics on export seller's credit, import buyer's credit, and overseas investment loans.",
+        "zh": "中国进出口银行是直属国务院领导的国家政策性银行，成立于1994年，是唯一被授权承担政策性对外贸易金融业务的政府直属机构，主要支持中国对外贸易、境外投资和国际经济合作。发布年度报告、财务报表、债券发行数据、国别贷款数据及出口买方信贷、进口买方信贷和境外投资贷款统计数据。"
+      },
+      "website": "http://www.eximbank.gov.cn",
+      "data_url": "http://www.eximbank.gov.cn/cn/index/information/annual/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "trade",
+        "banking"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "policy-bank",
+        "export-credit",
+        "import-credit",
+        "trade-finance",
+        "foreign-trade",
+        "overseas-investment",
+        "belt-and-road",
+        "中国进出口银行",
+        "政策性银行",
+        "出口信贷",
+        "进口信贷",
+        "对外贸易",
+        "境外投资",
+        "一带一路",
+        "国际合作",
+        "债券",
+        "annual-report",
+        "development-finance"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Financial statements, business overview, key operational indicators and risk management data",
+          "Export Seller's Credit - Credit data for Chinese enterprises exporting goods, technology, and services",
+          "Export Buyer's Credit - Loans to foreign importers purchasing Chinese products and services",
+          "Overseas Investment Loans - Financing data for Chinese enterprises investing abroad",
+          "Foreign Government Loans - Concessional loans and preferential export buyer's credit to developing countries",
+          "Bond Issuances - Domestic and international bond offering data, prospectuses",
+          "Country Exposure - Loan exposure data by country and region",
+          "Belt and Road Initiative - Project financing statistics for BRI partner countries"
+        ],
+        "zh": [
+          "年度报告 - 财务报表、业务概况、主要经营指标及风险管理数据",
+          "出口卖方信贷 - 中国企业出口商品、技术和服务的信贷数据",
+          "出口买方信贷 - 向境外进口商提供的采购中国产品和服务的贷款",
+          "境外投资贷款 - 中国企业境外投资的融资数据",
+          "对外优惠贷款 - 向发展中国家提供的优惠贷款和优惠出口买方信贷",
+          "债券发行 - 境内外债券发行数据、募集说明书",
+          "国别敞口 - 按国家和地区划分的贷款风险敞口数据",
+          "一带一路 - 共建\"一带一路\"伙伴国家项目融资统计数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/eximbank.json"
     },
     {
       "id": "china-nfra",
@@ -11194,6 +11329,85 @@
       "file_path": "china/governance/china-cnca.json"
     },
     {
+      "id": "china-cqc",
+      "name": {
+        "en": "China Quality Certification Centre",
+        "zh": "中国质量认证中心"
+      },
+      "description": {
+        "en": "The China Quality Certification Centre (CQC) is an authoritative third-party certification body established under the State Administration for Market Regulation (SAMR) and the Standardization Administration of China (SAC). CQC operates as the primary certification organization implementing mandatory China Compulsory Certification (CCC) for products sold in the Chinese market, covering electrical safety, electromagnetic compatibility, and related requirements. CQC also administers voluntary quality certifications including the CQC Mark for safety, energy efficiency, environmental protection, and product quality. The center maintains a comprehensive public database of certified products, publishes annual certification statistics, and issues technical standards guidance applicable to domestic manufacturers and international exporters targeting China's market.",
+        "zh": "中国质量认证中心（CQC）是在国家市场监督管理总局和国家标准化管理委员会指导下设立的权威第三方认证机构。CQC是实施中国强制性产品认证（CCC认证）的主要认证机构，面向在中国市场销售的产品，涵盖电气安全、电磁兼容等强制要求。中国质量认证中心同时开展自愿性CQC标志认证，涉及安全、能效、环保及产品质量等领域。该中心维护完整的公开认证产品数据库，发布年度认证统计数据，并向国内生产企业及面向中国市场的国际出口商提供技术标准指导。"
+      },
+      "website": "https://www.cqc.com.cn/",
+      "data_url": "https://www.cqc.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "statistics",
+        "trade",
+        "technology"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国质量认证中心",
+        "CQC",
+        "China Compulsory Certification",
+        "CCC认证",
+        "3C认证",
+        "质量认证",
+        "quality certification",
+        "产品认证",
+        "product certification",
+        "能效认证",
+        "energy efficiency certification",
+        "CQC标志",
+        "CQC Mark",
+        "安全认证",
+        "safety certification",
+        "环保认证",
+        "environmental certification",
+        "认证统计",
+        "certification statistics",
+        "国家市场监督管理总局",
+        "SAMR",
+        "标准化",
+        "standardization",
+        "进口产品认证",
+        "import product certification"
+      ],
+      "data_content": {
+        "en": [
+          "CCC certificate database: publicly searchable database of mandatory China Compulsory Certification (3C) certificates, including product scope, certificate holder, validity period, and certification status",
+          "Certified products directory: comprehensive catalog of all products bearing the CQC Mark or CCC mark, searchable by product category, manufacturer, and certification type",
+          "Annual certification statistics: number of certificates issued, renewed, suspended, and revoked by product category and certification scheme",
+          "Energy efficiency certificate data: list of certified energy-efficient products with corresponding energy efficiency grades and performance metrics",
+          "Environmental certification records: green product certifications for electronics, appliances, and building materials meeting environmental standards",
+          "Factory inspection reports: summary results of mandatory post-market surveillance factory inspections for CCC-certified manufacturers",
+          "Technical standard updates: notifications of changes to CCC technical requirements and testing standards affecting product certification",
+          "Recall and revocation notices: official notices of certificate suspensions, revocations, and product safety recalls linked to certification non-compliance",
+          "Certification fee schedules: official pricing for CCC and voluntary certification services",
+          "International mutual recognition data: information on bilateral/multilateral certification recognition agreements between China and other countries"
+        ],
+        "zh": [
+          "CCC证书数据库：中国强制性产品认证（3C认证）证书公开查询库，包括产品范围、证书持有人、有效期和认证状态",
+          "认证产品目录：所有持有CQC标志或CCC标志产品的完整目录，可按产品类别、生产企业和认证类型检索",
+          "年度认证统计：按产品类别和认证方案分类的证书颁发、续期、暂停和撤销数量",
+          "能效证书数据：认证节能产品清单及相应能效等级和性能指标",
+          "环保认证记录：符合环保标准的电子产品、家电和建材绿色产品认证",
+          "工厂检查报告：对CCC认证生产企业实施强制性市场后监督工厂检查的汇总结果",
+          "技术标准更新：影响产品认证的CCC技术要求和检测标准变更通知",
+          "召回和撤销公告：因认证不合规而暂停、撤销证书及产品安全召回的官方公告",
+          "认证费用表：CCC和自愿性认证服务官方收费标准",
+          "国际互认数据：中国与其他国家双边/多边认证互认协议信息"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cqc.json"
+    },
+    {
       "id": "china-mem",
       "name": {
         "en": "Ministry of Emergency Management of China",
@@ -12501,6 +12715,74 @@
       "file_path": "china/governance/sports/china-gas.json"
     },
     {
+      "id": "china-cacms",
+      "name": {
+        "en": "China Academy of Chinese Medical Sciences",
+        "zh": "中国中医科学院"
+      },
+      "description": {
+        "en": "The China Academy of Chinese Medical Sciences (CACMS) is China's highest academic and research institution dedicated to traditional Chinese medicine (TCM). Established in 1955, CACMS operates research institutes covering basic TCM theory, clinical medicine, acupuncture-moxibustion, Chinese materia medica, and TCM history. CACMS publishes research findings on TCM treatment efficacy, Chinese herb pharmacology, and integrative medicine. It also hosts the China TCM Data Center which maintains databases on medicinal plant resources, classical formulas, clinical trial data, and TCM literature, serving as the authoritative repository for TCM scientific knowledge in China.",
+        "zh": "中国中医科学院是中国最高级别的中医药学术与研究机构，成立于1955年。院下设多个研究所，涵盖中医基础理论、临床医学、针灸推拿、中药学和中医史学。院内发布中医疗效、中药药理及中西医结合的研究成果。院内还设有中国中医药数据中心，维护药用植物资源、经典方剂、临床试验数据及中医药文献数据库，是中国中医药科学知识的权威存储库。"
+      },
+      "website": "https://www.cacms.ac.cn",
+      "data_url": "https://www.cacms.ac.cn/index.html",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "traditional-medicine",
+        "pharmacology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国中医科学院",
+        "CACMS",
+        "traditional Chinese medicine",
+        "中医",
+        "TCM",
+        "acupuncture",
+        "针灸",
+        "Chinese materia medica",
+        "中药",
+        "herbal medicine",
+        "草药",
+        "integrative medicine",
+        "中西医结合",
+        "medicinal plants",
+        "药用植物",
+        "classical formulas",
+        "经典方剂",
+        "TCM research",
+        "中医研究",
+        "pharmacology",
+        "药理学"
+      ],
+      "data_content": {
+        "en": [
+          "TCM Clinical Research Data - Results from clinical trials on traditional Chinese medicine treatments for various conditions",
+          "Chinese Materia Medica Database - Comprehensive data on Chinese medicinal herbs including composition, efficacy, and safety",
+          "Classical Formula Repository - Systematic documentation of traditional prescription formulas and their clinical applications",
+          "Medicinal Plant Resource Data - Distribution, species classification, and resource assessment of medicinal plants in China",
+          "Acupuncture Research Findings - Evidence-based research publications on acupuncture and moxibustion treatments",
+          "TCM Literature Database - Digitized classical texts and modern research papers on traditional Chinese medicine",
+          "Annual TCM Industry Report - Statistical overview of the TCM research, production, and clinical application landscape"
+        ],
+        "zh": [
+          "中医临床研究数据 - 中医药治疗各类疾病的临床试验结果",
+          "中药资源数据库 - 中药材成分、功效及安全性综合数据",
+          "经典方剂库 - 传统处方的系统文献整理及临床应用记录",
+          "药用植物资源数据 - 中国药用植物的分布、种类及资源评估",
+          "针灸研究成果 - 针灸及艾灸治疗的循证医学研究成果",
+          "中医文献数据库 - 中医经典古籍数字化文本及现代研究论文",
+          "中医药产业年度报告 - 中医药研究、生产及临床应用发展概况统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cacms.json"
+    },
+    {
       "id": "china-cams",
       "name": {
         "en": "Chinese Academy of Medical Sciences (CAMS)",
@@ -13281,6 +13563,121 @@
       },
       "has_api": false,
       "file_path": "china/health/china-nmpa.json"
+    },
+    {
+      "id": "china-nphsd",
+      "name": {
+        "en": "National Population and Health Science Data Center",
+        "zh": "国家人口与健康科学数据中心"
+      },
+      "description": {
+        "en": "The National Population and Health Science Data Center (NPHSD) is China's national platform for sharing public health and population science data, established under the National Basic Science Data Sharing Service Program led by the Ministry of Science and Technology. It aggregates and provides access to health survey datasets, epidemiological study data, clinical research data, and demographic health statistics from national research programs. NPHSD covers domains including chronic disease surveillance, maternal and child health surveys, nutrition and health data, and infectious disease monitoring, making it a key open data repository for researchers in public health, medicine, and population sciences in China.",
+        "zh": "国家人口与健康科学数据中心（NPHSD）是中国国家科学数据共享工程框架下，由科学技术部主导建立的公共卫生与人口科学数据共享国家平台。该中心汇聚并开放来自国家科研项目的健康调查数据集、流行病学研究数据、临床研究数据及人口健康统计数据。覆盖领域包括慢性病监测、妇幼健康调查、营养与健康数据以及传染病监测，是中国公共卫生、医学和人口科学研究人员的重要开放数据平台。"
+      },
+      "website": "https://www.phsciencedata.cn",
+      "data_url": "https://www.phsciencedata.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "epidemiology",
+        "demographics",
+        "social"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家人口与健康科学数据中心",
+        "NPHSD",
+        "public health data",
+        "公共卫生数据",
+        "population health",
+        "人口健康",
+        "epidemiology",
+        "流行病学",
+        "chronic disease",
+        "慢性病",
+        "maternal health",
+        "妇幼健康",
+        "nutrition",
+        "营养",
+        "health survey",
+        "健康调查",
+        "infectious disease",
+        "传染病",
+        "science data sharing",
+        "科学数据共享",
+        "clinical research data",
+        "临床研究数据"
+      ],
+      "data_content": {
+        "en": [
+          "Chronic Disease Surveillance Data - National monitoring datasets on hypertension, diabetes, cardiovascular disease, and cancer",
+          "Maternal and Child Health Survey Data - Nationwide survey data on maternal mortality, child nutrition, and reproductive health",
+          "Nutrition and Health Survey - Results from national nutrition and health examination surveys by age group and region",
+          "Infectious Disease Monitoring Data - Epidemiological datasets on notifiable infectious diseases and outbreak investigations",
+          "Clinical Research Datasets - Anonymized patient data from national clinical trials and cohort studies",
+          "Population Health Statistics - Demographic and vital statistics datasets including mortality, morbidity, and disability data",
+          "Aging and Geriatric Data - Health status, functional ability, and care needs data for elderly populations"
+        ],
+        "zh": [
+          "慢性病监测数据 - 全国高血压、糖尿病、心血管疾病和癌症监测数据集",
+          "妇幼健康调查数据 - 全国孕产妇死亡率、儿童营养及生殖健康调查数据",
+          "营养与健康调查 - 按年龄组和地区划分的全国营养与健康体检调查结果",
+          "传染病监测数据 - 法定传染病及疫情调查流行病学数据集",
+          "临床研究数据集 - 国家临床试验和队列研究的脱敏患者数据",
+          "人口健康统计 - 包含死亡率、发病率和残疾数据的人口与生命统计数据集",
+          "老龄化与老年医学数据 - 老年人群健康状况、功能能力和照护需求数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-nphsd.json"
+    },
+    {
+      "id": "china-csia",
+      "name": {
+        "en": "China Semiconductor Industry Association",
+        "zh": "中国半导体行业协会"
+      },
+      "description": {
+        "en": "The China Semiconductor Industry Association (CSIA) is the national industry body representing China's semiconductor sector. It publishes IC industry statistics, market reports, and semiconductor trade data.",
+        "zh": "中国半导体行业协会是代表中国半导体产业的全国性行业组织。发布集成电路产业统计数据、市场报告和半导体贸易数据。"
+      },
+      "data_content": {
+        "en": [
+          "IC industry statistics",
+          "semiconductor market reports",
+          "chip trade data",
+          "industry development reports",
+          "member enterprise data"
+        ],
+        "zh": [
+          "集成电路产业统计",
+          "半导体市场报告",
+          "芯片贸易数据",
+          "产业发展报告",
+          "会员企业数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "other",
+      "geographic_scope": "national",
+      "website": "https://web.csia.net.cn",
+      "data_url": "https://web.csia.net.cn",
+      "domains": [
+        "technology",
+        "manufacturing"
+      ],
+      "tags": [
+        "semiconductor",
+        "ic",
+        "chip",
+        "electronics"
+      ],
+      "update_frequency": "quarterly",
+      "has_api": false,
+      "file_path": "china/industry/china-csia.json"
     },
     {
       "id": "china-camet",
@@ -15019,6 +15416,53 @@
       "file_path": "china/research/china-casted.json"
     },
     {
+      "id": "china-catarc",
+      "name": {
+        "en": "China Automotive Technology and Research Center",
+        "zh": "中国汽车技术研究中心"
+      },
+      "description": {
+        "en": "The China Automotive Technology and Research Center (CATARC) is a national-level research institution under SASAC, providing automotive industry testing, certification, standards development, and policy research. It publishes vehicle sales data, new energy vehicle statistics, and automotive safety reports.",
+        "zh": "中国汽车技术研究中心（中汽中心）是国资委直属的国家级研究机构，提供汽车行业测试、认证、标准制定和政策研究服务。发布汽车销量数据、新能源汽车统计和汽车安全报告。"
+      },
+      "data_content": {
+        "en": [
+          "vehicle sales statistics",
+          "new energy vehicle data",
+          "automotive safety reports",
+          "emission standards data",
+          "vehicle certification records"
+        ],
+        "zh": [
+          "汽车销量统计",
+          "新能源汽车数据",
+          "汽车安全报告",
+          "排放标准数据",
+          "车辆认证记录"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.catarc.ac.cn",
+      "data_url": "https://www.catarc.ac.cn",
+      "domains": [
+        "transportation",
+        "manufacturing"
+      ],
+      "tags": [
+        "automotive",
+        "vehicles",
+        "new-energy",
+        "safety",
+        "certification",
+        "sasac"
+      ],
+      "update_frequency": "monthly",
+      "has_api": false,
+      "file_path": "china/research/china-catarc.json"
+    },
+    {
       "id": "china-cciee",
       "name": {
         "en": "China Center for International Economic Exchanges",
@@ -15518,6 +15962,66 @@
       "file_path": "china/research/china-csic.json"
     },
     {
+      "id": "china-cste",
+      "name": {
+        "en": "China Society for Technology Economics",
+        "zh": "中国技术经济学会"
+      },
+      "description": {
+        "en": "The China Society for Technology Economics (CSTE) is a national academic society founded in 1981, affiliated with the China Association for Science and Technology and supervised by the National Development and Reform Commission (NDRC). It is China's leading professional organization specializing in the intersection of technology and economic analysis, focusing on technology innovation economics, science and technology investment evaluation, industrial policy research, and the economic impact of technological progress. CSTE publishes research reports, policy analyses, and academic papers on innovation-driven development, technology commercialization, and the economic returns of R&D investment in China.",
+        "zh": "中国技术经济学会（CSTE）成立于1981年，是中国科学技术协会所属、国家发展和改革委员会指导的全国性学术团体，是中国技术与经济交叉分析领域最重要的专业机构，专注于技术创新经济学、科技投资评估、产业政策研究及技术进步的经济影响。学会发布创新驱动发展、技术商业化及中国研发投资经济效益等方面的研究报告、政策分析和学术论文。"
+      },
+      "data_content": {
+        "en": [
+          "technology innovation economics research reports",
+          "science and technology investment evaluation data",
+          "industrial technology policy analysis",
+          "R&D investment returns and efficiency studies",
+          "technology commercialization statistics",
+          "innovation-driven development indicators",
+          "technology economics academic publications",
+          "enterprise technology innovation surveys"
+        ],
+        "zh": [
+          "技术创新经济学研究报告",
+          "科技投资评估数据",
+          "产业技术政策分析",
+          "研发投资回报与效率研究",
+          "技术商业化统计数据",
+          "创新驱动发展指标",
+          "技术经济学学术出版物",
+          "企业技术创新调查"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.cste.org.cn",
+      "data_url": "https://www.cste.org.cn",
+      "api_url": null,
+      "domains": [
+        "economics",
+        "science"
+      ],
+      "tags": [
+        "technology-economics",
+        "innovation",
+        "R&D",
+        "科技经济",
+        "技术创新",
+        "技术经济",
+        "创新经济学",
+        "NDRC",
+        "CSTE",
+        "中国技术经济学会",
+        "industrial-policy",
+        "science-technology-policy"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-cste.json"
+    },
+    {
       "id": "china-drc",
       "name": {
         "en": "Development Research Center of the State Council of China",
@@ -15928,6 +16432,51 @@
       },
       "has_api": false,
       "file_path": "china/research/china-istic.json"
+    },
+    {
+      "id": "china-ncsti",
+      "name": {
+        "en": "National Center for Science and Technology Information",
+        "zh": "中国科学技术信息研究所"
+      },
+      "description": {
+        "en": "NCSTI is a national research institution under the Ministry of Science and Technology, providing science and technology information services, bibliometric analysis, and S&T statistics including the Chinese Science Citation Database.",
+        "zh": "中国科学技术信息研究所是科技部直属国家级科技信息研究机构，提供科技信息服务、文献计量分析和科技统计数据，包括中国科技论文统计数据库。"
+      },
+      "data_content": {
+        "en": [
+          "science citation database",
+          "bibliometric analysis",
+          "S&T statistics",
+          "technology transfer data",
+          "research output reports"
+        ],
+        "zh": [
+          "科技论文统计数据库",
+          "文献计量分析",
+          "科技统计数据",
+          "技术转移数据",
+          "科研产出报告"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.ncsti.gov.cn",
+      "data_url": "https://www.ncsti.gov.cn",
+      "domains": [
+        "science",
+        "technology"
+      ],
+      "tags": [
+        "bibliometrics",
+        "citation",
+        "research-output",
+        "most"
+      ],
+      "update_frequency": "annual",
+      "has_api": false,
+      "file_path": "china/research/china-ncsti.json"
     },
     {
       "id": "china-ngeos",
@@ -16505,6 +17054,77 @@
       },
       "has_api": false,
       "file_path": "china/research/china-wanfang.json"
+    },
+    {
+      "id": "china-ngdc",
+      "name": {
+        "en": "National Genomics Data Center",
+        "zh": "国家基因组科学数据中心"
+      },
+      "description": {
+        "en": "The National Genomics Data Center (NGDC) is China's national repository for genomics and bioinformatics data, operated by the Beijing Institute of Genomics, Chinese Academy of Sciences (China National Center for Bioinformation). It hosts the Genome Sequence Archive (GSA), BIG Data Center databases, and provides comprehensive resources for genomic sequences, gene expression, population genetics, and related omics data from Chinese and international research projects.",
+        "zh": "国家基因组科学数据中心（NGDC）是中国国家级基因组与生物信息学数据仓库，由中国科学院北京基因组研究所（国家生物信息中心）运营。托管基因组序列档案（GSA）和BIG数据中心数据库，为来自中国及国际研究项目的基因组序列、基因表达、群体遗传学及相关组学数据提供全面资源支持。"
+      },
+      "website": "https://ngdc.cncb.ac.cn",
+      "data_url": "https://ngdc.cncb.ac.cn/gsub/",
+      "api_url": "https://ngdc.cncb.ac.cn/api/",
+      "authority_level": "research",
+      "country": "CN",
+      "domains": [
+        "health",
+        "science",
+        "research"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "genomics",
+        "bioinformatics",
+        "dna-sequence",
+        "gene-expression",
+        "population-genetics",
+        "omics",
+        "cas",
+        "gsa",
+        "genome-archive",
+        "国家基因组科学数据中心",
+        "中国科学院",
+        "基因组学",
+        "生物信息学",
+        "基因序列",
+        "基因表达",
+        "群体遗传",
+        "组学数据",
+        "生命科学",
+        "ncbi-equivalent"
+      ],
+      "data_content": {
+        "en": [
+          "Genome Sequence Archive (GSA) - Raw sequencing data repository for nucleotide sequences from China and globally",
+          "BioProject - Project-level metadata for genomic research studies",
+          "BioSample - Biological sample metadata linked to sequence data",
+          "Gene Expression Nebulas (GEN) - Single-cell and bulk RNA-seq gene expression datasets",
+          "Genome Variation Map (GVM) - Human genomic variation data including SNPs and structural variants",
+          "GWAS Atlas - Curated genome-wide association study data and results",
+          "Integrated Microbial Genomes - Microbial genome sequences and functional annotation",
+          "Population Genomics Data - Large-scale human population sequencing datasets from Chinese cohort studies",
+          "Proteomics and Metabolomics - Mass spectrometry-based protein and metabolite datasets"
+        ],
+        "zh": [
+          "基因组序列档案（GSA） - 来自中国及全球的核苷酸序列原始数据仓库",
+          "BioProject - 基因组研究项目的项目级元数据",
+          "BioSample - 与序列数据关联的生物样本元数据",
+          "基因表达星云（GEN） - 单细胞和bulk RNA-seq基因表达数据集",
+          "基因组变异图谱（GVM） - 人类基因组变异数据，包括SNP和结构变异",
+          "GWAS图集 - 已审编的全基因组关联研究数据及结果",
+          "整合微生物基因组 - 微生物基因组序列和功能注释",
+          "群体基因组数据 - 来自中国队列研究的大规模人群测序数据集",
+          "蛋白质组与代谢组 - 基于质谱的蛋白质和代谢物数据集"
+        ]
+      },
+      "has_api": true,
+      "file_path": "china/research/ngdc.json"
     },
     {
       "id": "china-ngcc",
@@ -17184,6 +17804,87 @@
       "file_path": "china/resources/environment/china-mee.json"
     },
     {
+      "id": "china-ndrcc",
+      "name": {
+        "en": "National Disaster Reduction Center of China",
+        "zh": "国家减灾中心"
+      },
+      "description": {
+        "en": "The National Disaster Reduction Center of China (NDRCC) is a key technical and operational institution under the Ministry of Emergency Management (MEM), responsible for comprehensive disaster risk assessment, satellite-based disaster monitoring, and disaster information management at the national level. NDRCC operates the National Disaster Reduction and Relief Coordination Platform and integrates data from multiple hazard monitoring systems to provide authoritative disaster statistics, risk maps, and impact assessments. It manages the national disaster loss assessment system, conducts post-disaster rapid assessment using satellite remote sensing, and publishes disaster risk and vulnerability data for all provinces and counties in China. NDRCC also supports China's international disaster reduction cooperation under the Sendai Framework for Disaster Risk Reduction.",
+        "zh": "国家减灾中心是应急管理部下属负责综合灾害风险评估、卫星灾情监测和国家级灾害信息管理的重要技术与业务机构。国家减灾中心运行国家减灾救灾综合协调平台，整合多灾种监测系统数据，提供权威灾害统计数据、风险区划图和影响评估报告。其职责包括管理国家自然灾害损失评估体系、利用卫星遥感开展灾后快速评估，并发布全国省县两级灾害风险和脆弱性数据。国家减灾中心亦支持中国在《仙台减灾框架》下开展的国际减灾合作。"
+      },
+      "website": "https://www.ndrcc.org.cn/",
+      "data_url": "https://www.ndrcc.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "governance",
+        "statistics",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "国家减灾中心",
+        "NDRCC",
+        "National Disaster Reduction Center",
+        "灾害风险",
+        "disaster risk",
+        "自然灾害",
+        "natural disaster",
+        "减灾救灾",
+        "disaster reduction",
+        "卫星遥感",
+        "satellite remote sensing",
+        "灾情监测",
+        "disaster monitoring",
+        "灾害损失评估",
+        "disaster loss assessment",
+        "灾害风险区划",
+        "disaster risk zoning",
+        "应急管理部",
+        "MEM",
+        "防灾减灾",
+        "disaster prevention",
+        "灾害数据",
+        "disaster data",
+        "仙台框架",
+        "Sendai Framework",
+        "综合减灾",
+        "integrated disaster reduction"
+      ],
+      "data_content": {
+        "en": [
+          "National natural disaster statistics: monthly and annual loss data for all major disaster types including floods, droughts, earthquakes, geological hazards, and typhoons, with breakdowns by region",
+          "Disaster risk assessment maps: national and provincial risk maps for multiple hazard types, including hazard exposure, vulnerability, and composite risk indices",
+          "Satellite disaster monitoring reports: near-real-time satellite remote sensing analysis of disaster-affected areas, crop damage, and infrastructure impacts",
+          "Disaster loss assessment reports: post-disaster rapid assessment results for major events, including affected population, casualties, economic losses, and damaged infrastructure",
+          "County-level disaster risk data: fine-scale risk and vulnerability metrics for all counties in China used for disaster prevention planning",
+          "Disaster event database: historical records of significant disaster events in China with standardized damage and loss data",
+          "Agricultural disaster statistics: crop loss data and farmland damage statistics by disaster type and growing season",
+          "Housing damage records: data on collapsed and damaged residential structures following major disasters by province",
+          "Emergency relocation data: statistics on displaced populations requiring emergency resettlement and shelter assistance",
+          "International disaster reduction cooperation reports: documentation of China's participation in Sendai Framework monitoring and bilateral disaster risk reduction partnerships"
+        ],
+        "zh": [
+          "全国自然灾害统计：各类主要灾害（洪涝、干旱、地震、地质灾害、台风等）月度和年度损失数据，按地区细分",
+          "灾害风险评估区划图：多灾种全国和省级风险图，包括致灾因子危险性、承灾体脆弱性及综合风险指数",
+          "卫星灾情监测报告：对灾害受损区域、农作物受损及基础设施影响的近实时卫星遥感分析",
+          "灾害损失评估报告：重大灾害事件的快速评估结果，包括受灾人口、人员伤亡、经济损失及基础设施受损情况",
+          "县级灾害风险数据：用于防灾规划的全国各县细粒度风险和脆弱性指标",
+          "灾害事件数据库：中国重大灾害事件历史记录及标准化受损数据",
+          "农业灾害统计：按灾害类型和农时季节分类的农作物损失及耕地受损数据",
+          "住房受损记录：省级重大灾害后倒塌和损坏民房数据",
+          "应急转移安置数据：需紧急转移安置和临时庇护援助受灾人口统计",
+          "国际减灾合作报告：中国参与仙台框架监测及双边减灾合作的文件记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-ndrcc.json"
+    },
+    {
       "id": "china-nfga",
       "name": {
         "en": "National Forestry and Grassland Administration of China",
@@ -17797,6 +18498,156 @@
       },
       "has_api": false,
       "file_path": "china/resources/seismology/china-cea.json"
+    },
+    {
+      "id": "china-cenc",
+      "name": {
+        "en": "China Earthquake Networks Center",
+        "zh": "中国地震台网中心"
+      },
+      "description": {
+        "en": "The China Earthquake Networks Center (CENC) is the operational hub of China's national seismic monitoring network, operating under the China Earthquake Administration (CEA). CENC manages the National Seismic Network (NSN), one of the most extensive seismograph networks in the world, comprising over 1,000 broadband seismic stations across China. It provides real-time earthquake monitoring, rapid earthquake parameter determination, and official earthquake notifications for earthquakes occurring in China and globally. CENC maintains China's authoritative earthquake catalog, including historical seismicity records dating back centuries, instrumental records since 1900, and real-time data for current seismic events. The center is the official source for earthquake early warning dissemination in China and supports national earthquake disaster prevention and emergency response.",
+        "zh": "中国地震台网中心（CENC）是中国地震局下属的国家地震监测网络运行中心，管理着全国地震监测网（NSN）——全球规模最大的宽频带地震台网之一，在全国设有逾千个台站。中心提供实时地震监测、快速地震参数测定，并对发生在中国及全球的地震发布官方地震通报。台网中心维护中国权威地震目录，收录数百年历史地震记录、1900年以来仪器记录及当前地震事件实时数据，是中国官方地震预警信息发布机构，同时支持国家防震减灾和应急响应工作。"
+      },
+      "website": "https://www.cenc.ac.cn/",
+      "data_url": "https://www.cenc.ac.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "statistics",
+        "governance"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "中国地震台网中心",
+        "CENC",
+        "China Earthquake Networks Center",
+        "地震目录",
+        "earthquake catalog",
+        "实时地震监测",
+        "real-time earthquake monitoring",
+        "地震预警",
+        "earthquake early warning",
+        "地震台网",
+        "seismic network",
+        "宽频带地震仪",
+        "broadband seismograph",
+        "地震参数",
+        "earthquake parameters",
+        "震源机制",
+        "focal mechanism",
+        "地震烈度速报",
+        "rapid intensity report",
+        "历史地震",
+        "historical earthquake",
+        "地震数据",
+        "seismic data",
+        "防震减灾",
+        "earthquake disaster prevention",
+        "中国地震局",
+        "CEA"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time earthquake catalog: continuously updated records of seismic events in China and worldwide, including magnitude, depth, epicenter coordinates, and origin time",
+          "Earthquake early warning alerts: automated rapid notification data for earthquakes above threshold magnitudes with estimated ground shaking intensity by region",
+          "Historical earthquake database: comprehensive catalog of felt earthquakes in China from historical records (pre-1900) and instrumental records (1900-present)",
+          "Seismic wave forms: raw and processed waveform data from national broadband seismic stations available for scientific research",
+          "Focal mechanism solutions: fault plane solutions and moment tensor data for moderate and strong earthquakes in China",
+          "Earthquake intensity rapid reports: ShakeMap-style rapid intensity assessment maps for significant earthquake events",
+          "National Seismic Network station data: real-time station status, seismograph performance metrics, and station location inventory",
+          "Seismicity statistics: monthly and annual earthquake frequency statistics by magnitude range, depth, and geographic region",
+          "Major earthquake event reports: official post-event summaries for significant earthquakes (M≥5.0) including sequence analysis and aftershock monitoring",
+          "Seismotectonic data: active fault mapping and seismic belt delineation for China's major tectonic zones"
+        ],
+        "zh": [
+          "实时地震目录：持续更新的中国及全球地震事件记录，包括震级、深度、震中坐标和发震时刻",
+          "地震预警信息：超过预警震级阈值地震的自动快速通报数据，含分地区预估地面震动强度",
+          "历史地震数据库：中国有记录地震完整目录，涵盖历史文献记录（1900年前）和仪器记录（1900年至今）",
+          "地震波形数据：来自全国宽频带地震台站的原始和处理波形数据，可用于科学研究",
+          "震源机制解：中国中强地震的断层面解和矩张量数据",
+          "地震烈度速报：重大地震事件的ShakeMap式快速烈度评估图",
+          "全国地震台网台站数据：台站实时状态、地震计性能指标及台站位置目录",
+          "地震活动统计：按震级范围、深度和地理区域分类的月度和年度地震频次统计",
+          "重大地震事件报告：重大地震（M≥5.0）发震后官方总结，含序列分析和余震监测",
+          "地震构造数据：中国主要构造带活动断层分布和地震带划分"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/seismology/china-cenc.json"
+    },
+    {
+      "id": "china-chinawater",
+      "name": {
+        "en": "China Water Resources Portal",
+        "zh": "中国水利网"
+      },
+      "description": {
+        "en": "China Water Resources Portal (chinawater.com.cn) is the official online information platform affiliated with the Ministry of Water Resources of China, operated by China Water Resources Press (中国水利报社). It serves as a comprehensive data and information portal for China's water sector, publishing water resources bulletins, river basin management reports, flood and drought statistics, irrigation area data, hydraulic engineering project records, and policy documents. The portal provides public access to official water resources statistics and thematic data covering China's rivers, lakes, reservoirs, and water conservancy infrastructure.",
+        "zh": "中国水利网（chinawater.com.cn）是水利部主管、中国水利报社主办的官方水利行业信息平台，是中国水利领域综合数据与信息门户，发布水资源公报、流域管理报告、洪涝旱情统计、灌溉面积数据、水利工程项目记录及政策文件，为公众提供涵盖中国河流、湖泊、水库及水利基础设施的官方水资源统计与专题数据。"
+      },
+      "data_content": {
+        "en": [
+          "national water resources bulletins",
+          "flood and drought monitoring statistics",
+          "river basin management reports",
+          "irrigation area and water use data",
+          "hydraulic engineering project data",
+          "groundwater monitoring data",
+          "water quality assessment reports",
+          "reservoir storage statistics",
+          "water conservancy investment data",
+          "rural water supply data"
+        ],
+        "zh": [
+          "全国水资源公报",
+          "洪涝旱情监测统计",
+          "流域管理报告",
+          "灌溉面积与用水数据",
+          "水利工程项目数据",
+          "地下水监测数据",
+          "水质评估报告",
+          "水库蓄水量统计",
+          "水利投资数据",
+          "农村供水数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.chinawater.com.cn",
+      "data_url": "https://www.chinawater.com.cn",
+      "api_url": null,
+      "domains": [
+        "environment",
+        "infrastructure"
+      ],
+      "tags": [
+        "water-resources",
+        "hydrology",
+        "flood",
+        "drought",
+        "irrigation",
+        "水资源",
+        "水利",
+        "洪水",
+        "干旱",
+        "灌溉",
+        "水库",
+        "流域",
+        "水文",
+        "MWR",
+        "水利部",
+        "water-quality",
+        "groundwater"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/resources/water/china-chinawater.json"
     },
     {
       "id": "china-iwhr",
@@ -18616,6 +19467,152 @@
       "file_path": "china/technology/industry_associations/china-cec.json"
     },
     {
+      "id": "china-cecc",
+      "name": {
+        "en": "China Electronics Chamber of Commerce",
+        "zh": "中国电子商会"
+      },
+      "description": {
+        "en": "The China Electronics Chamber of Commerce (CECC) is a national industry association established in 1988, operating under the guidance of the Ministry of Industry and Information Technology (MIIT). CECC represents enterprises engaged in manufacturing, trading, and distributing electronic information products across China, with over 8,000 member companies spanning 21 regional branches, 19 professional committees, and 6 industry alliances. The chamber publishes authoritative market statistics, industry development reports, and pricing indices for consumer electronics, home appliances, IT products, and emerging tech categories. It tracks domestic and export trends, conducts industry surveys, and releases data on production output, market share, and enterprise performance in China's electronics sector.",
+        "zh": "中国电子商会（CECC）是于1988年成立的全国性行业协会，业务受工业和信息化部指导。商会代表全国生产经营电子信息产品的企业，拥有8000余家会员单位，下设21个地方电子商会、19个专业委员会和6个产业联盟。商会发布消费电子、家电、IT产品及新兴技术品类的权威市场统计数据、行业发展报告及价格指数，追踪国内外销售趋势，开展行业调查，并发布中国电子行业生产产值、市场份额及企业经营表现数据。"
+      },
+      "website": "http://www.cecc.org.cn/",
+      "data_url": "http://www.cecc.org.cn/hangye/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "economics",
+        "trade",
+        "statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国电子商会",
+        "CECC",
+        "消费电子",
+        "consumer electronics",
+        "家电",
+        "home appliances",
+        "电子行业",
+        "electronics industry",
+        "IT产品",
+        "IT products",
+        "市场统计",
+        "market statistics",
+        "行业报告",
+        "industry report",
+        "电子产品出口",
+        "electronics exports",
+        "智能家居",
+        "smart home",
+        "价格指数",
+        "price index",
+        "电子商务",
+        "e-commerce",
+        "工业和信息化部",
+        "MIIT",
+        "电子行业产值",
+        "electronics output"
+      ],
+      "data_content": {
+        "en": [
+          "Consumer electronics market statistics: monthly and annual sales volume, value, and growth rates for major product categories including TVs, smartphones, tablets, and wearables",
+          "Home appliances market data: production output, domestic sales, and export figures for white goods and kitchen appliances by brand and region",
+          "IT products industry report: market size, shipment data, and price trends for computers, peripherals, and networking equipment in China",
+          "Electronics industry export data: export volumes, values, and destination markets for Chinese electronic products",
+          "Retail price monitoring: price indices and price comparison data across key consumer electronics categories",
+          "Enterprise performance statistics: revenue, profit margins, and R&D investment data for major electronics companies",
+          "New energy vehicle electronics data: demand and supply statistics for automotive electronics and smart cockpit components",
+          "Smart home and IoT market analysis: adoption rates, shipment data, and market penetration for smart home devices",
+          "E-waste and recycling statistics: data on electronic waste collection volumes and recycling rates in China",
+          "Industry development reports: annual white papers on China's electronics industry trends, investment flows, and policy impacts"
+        ],
+        "zh": [
+          "消费电子市场统计：主要产品品类（电视、智能手机、平板电脑、可穿戴设备等）的月度和年度销量、销售额及增长率",
+          "家电市场数据：白色家电和厨房电器的生产产值、国内销售及出口数据，按品牌和地区分类",
+          "IT产品行业报告：中国计算机、外设及网络设备的市场规模、出货数据和价格趋势",
+          "电子产品出口数据：中国电子产品出口数量、出口额及目的市场",
+          "零售价格监测：主要消费电子品类的价格指数和比价数据",
+          "企业经营统计：主要电子企业的营收、利润率及研发投入数据",
+          "新能源汽车电子数据：汽车电子及智能座舱零部件的供需统计",
+          "智能家居和物联网市场分析：智能家居设备的普及率、出货数据和市场渗透率",
+          "电子废弃物和回收统计：中国电子废物回收数量和回收率数据",
+          "行业发展报告：中国电子行业趋势、投资流向及政策影响年度白皮书"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-cecc.json"
+    },
+    {
+      "id": "china-ces",
+      "name": {
+        "en": "China Electrotechnical Society",
+        "zh": "中国电工技术学会"
+      },
+      "description": {
+        "en": "The China Electrotechnical Society (CES) is a national academic organization founded in 1981, affiliated with the China Association for Science and Technology. It is the premier professional society for electrical engineering, power electronics, and electrotechnical research in China. CES publishes technical research reports, industry whitepapers, and statistical analyses covering power generation equipment, electric motors, transformers, power electronics, and emerging areas such as new energy vehicles, energy storage systems, and smart grid technologies. Its publications serve as authoritative references for China's electrical and energy equipment industries.",
+        "zh": "中国电工技术学会（CES）成立于1981年，隶属于中国科学技术协会，是中国电气工程、电力电子和电工技术研究领域最重要的专业学术团体。学会发布技术研究报告、行业白皮书及统计分析，涵盖发电设备、电动机、变压器、电力电子，以及新能源汽车、储能系统和智能电网等新兴领域，其出版物是中国电气和能源装备行业的权威参考资料。"
+      },
+      "data_content": {
+        "en": [
+          "power generation equipment statistics",
+          "electric motor and transformer industry data",
+          "power electronics technology reports",
+          "new energy vehicle charging equipment data",
+          "energy storage system statistics",
+          "smart grid technology research",
+          "electrical industry market analysis",
+          "technical standards and whitepapers",
+          "renewable energy integration data",
+          "industrial electrical equipment output"
+        ],
+        "zh": [
+          "发电设备统计数据",
+          "电动机和变压器行业数据",
+          "电力电子技术报告",
+          "新能源汽车充电设备数据",
+          "储能系统统计数据",
+          "智能电网技术研究",
+          "电气行业市场分析",
+          "技术标准与白皮书",
+          "可再生能源并网数据",
+          "工业电气设备产量"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.ces.org.cn",
+      "data_url": "https://www.ces.org.cn",
+      "api_url": null,
+      "domains": [
+        "energy",
+        "manufacturing"
+      ],
+      "tags": [
+        "electrical-engineering",
+        "power-electronics",
+        "smart-grid",
+        "energy-storage",
+        "electric-motors",
+        "电工",
+        "电气工程",
+        "电力电子",
+        "智能电网",
+        "储能",
+        "新能源",
+        "CES",
+        "中国电工技术学会",
+        "transformers"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-ces.json"
+    },
+    {
       "id": "china-ciia",
       "name": {
         "en": "China Information Association",
@@ -19135,6 +20132,68 @@
       },
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-csee.json"
+    },
+    {
+      "id": "china-csm",
+      "name": {
+        "en": "Chinese Society for Metals",
+        "zh": "中国金属学会"
+      },
+      "description": {
+        "en": "The Chinese Society for Metals (CSM) is a national academic organization founded in 1956, operating under the China Association for Science and Technology. It is the leading professional society for metallurgical science and technology in China, representing scientists and engineers in iron and steel, non-ferrous metals, functional materials, and advanced manufacturing. CSM publishes key industry statistics, technical standards, research reports, and academic journals covering China's metals and materials industries. It plays a central role in bridging scientific research and industrial applications for China's steel and metals sector.",
+        "zh": "中国金属学会（CSM）成立于1956年，是中国科学技术协会下属的全国性学术团体，是中国金属学和材料科技领域最重要的专业学会，代表钢铁、有色金属、功能材料和先进制造领域的科学家和工程师。学会发布主要行业统计数据、技术标准、研究报告及学术期刊，覆盖中国金属和材料工业，在中国钢铁和金属行业的科学研究与产业应用对接中发挥核心作用。"
+      },
+      "data_content": {
+        "en": [
+          "iron and steel production statistics",
+          "non-ferrous metals industry data",
+          "metallurgical technology research reports",
+          "materials science academic publications",
+          "industry technical standards",
+          "steel consumption and market data",
+          "advanced manufacturing statistics",
+          "academic conference proceedings and papers"
+        ],
+        "zh": [
+          "钢铁生产统计数据",
+          "有色金属行业数据",
+          "冶金技术研究报告",
+          "材料科学学术出版物",
+          "行业技术标准",
+          "钢铁消费与市场数据",
+          "先进制造业统计数据",
+          "学术会议论文集"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.csm.org.cn",
+      "data_url": "https://www.csm.org.cn",
+      "api_url": null,
+      "domains": [
+        "manufacturing",
+        "science"
+      ],
+      "tags": [
+        "steel",
+        "metals",
+        "metallurgy",
+        "materials-science",
+        "iron",
+        "非铁金属",
+        "钢铁",
+        "金属",
+        "冶金",
+        "材料科学",
+        "CSM",
+        "中国金属学会",
+        "中国钢铁",
+        "advanced-manufacturing"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-csm.json"
     },
     {
       "id": "china-csre",
