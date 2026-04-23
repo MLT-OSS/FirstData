@@ -1,0 +1,55 @@
+{
+    "id": "china-cmse",
+    "name": {
+        "en": "China Manned Space Engineering Office",
+        "zh": "中国载人航天工程办公室"
+    },
+    "description": {
+        "en": "The China Manned Space Engineering Office (CMSE) is the official government body overseeing China's manned space program. It publishes authoritative announcements, mission data, technical reports, and statistics on China's crewed spaceflight missions, space station operations, and astronaut activities.",
+        "zh": "中国载人航天工程办公室（CMSE）是负责统筹管理中国载人航天工程的政府机构，发布载人航天任务、空间站运营、航天员活动的权威公告、任务数据和技术报告。"
+    },
+    "website": "https://www.cmse.gov.cn",
+    "data_url": "https://www.cmse.gov.cn",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "aerospace",
+        "space",
+        "technology",
+        "science"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "irregular",
+    "tags": [
+        "china",
+        "manned-space",
+        "载人航天",
+        "space-station",
+        "中国空间站",
+        "shenzhou",
+        "神舟",
+        "tiangong",
+        "天宫",
+        "astronaut",
+        "航天员",
+        "spaceflight",
+        "aerospace"
+    ],
+    "data_content": {
+        "en": [
+            "Mission Announcements - Official releases on crewed spaceflight missions including launch and return data",
+            "Space Station Operations - Status updates on China Space Station (Tiangong) modules and experiments",
+            "Astronaut Information - Profiles and activity reports for Chinese taikonauts",
+            "Technical Reports - Engineering and scientific reports from manned space missions",
+            "Statistics - Cumulative data on China's manned spaceflight program since 1992"
+        ],
+        "zh": [
+            "任务公告 - 载人航天飞行任务（包括发射和返回数据）的官方发布",
+            "空间站运营 - 天宫空间站舱段和实验项目的状态更新",
+            "航天员信息 - 中国航天员档案和在轨活动报告",
+            "技术报告 - 载人航天任务工程和科学报告",
+            "统计数据 - 1992年以来中国载人航天工程的累积数据"
+        ]
+    },
+    "authority_level": "government"
+}

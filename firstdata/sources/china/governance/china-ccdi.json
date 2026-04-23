@@ -1,0 +1,56 @@
+{
+    "id": "china-ccdi",
+    "name": {
+        "en": "Central Commission for Discipline Inspection of the Communist Party of China",
+        "zh": "中央纪律检查委员会"
+    },
+    "description": {
+        "en": "The Central Commission for Discipline Inspection (CCDI) is the highest internal-control institution of the Chinese Communist Party, responsible for anti-corruption enforcement and party discipline oversight. Its website publishes official investigation results, disciplinary action statistics, anti-corruption campaign data, and transparency disclosures on disciplinary cases at all levels of government and party organizations.",
+        "zh": "中央纪律检查委员会（中央纪委）是中国共产党最高纪律检查机关，负责反腐败执纪和党纪监督。其官方网站发布案件查处结果、纪律处分统计、反腐败专项行动数据，以及各级党政机关纪律案件的透明度信息。"
+    },
+    "website": "https://www.ccdi.gov.cn",
+    "data_url": "https://www.ccdi.gov.cn/xxgk/",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "governance",
+        "anti-corruption",
+        "transparency"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "daily",
+    "tags": [
+        "china",
+        "中央纪委",
+        "anti-corruption",
+        "反腐败",
+        "discipline-inspection",
+        "纪律检查",
+        "party-discipline",
+        "党纪",
+        "governance",
+        "transparency",
+        "信息公开",
+        "disciplinary-cases",
+        "纪律处分",
+        "rule-of-law",
+        "法治"
+    ],
+    "data_content": {
+        "en": [
+            "Disciplinary Case Disclosures - Official announcements on investigated and disciplined party and government officials",
+            "Anti-Corruption Statistics - Annual and periodic statistics on corruption cases, recovered assets, and enforcement actions",
+            "Campaign Reports - Data from centralized anti-corruption campaigns including 'Tigers and Flies'",
+            "Policy Documents - Regulations, guidelines, and internal control documents for party discipline",
+            "Transparency Index - Public disclosure data on government and party compliance and enforcement"
+        ],
+        "zh": [
+            "纪律案件公告 - 受查处党政干部的官方通报",
+            "反腐败统计 - 腐败案件、追缴资产和执纪数量的年度及阶段性统计",
+            "专项行动报告 - '打虎拍蝇'等集中反腐专项行动数据",
+            "政策文件 - 党纪法规、内部监控指南和相关制度文件",
+            "透明度数据 - 党政机关合规与执纪公开信息"
+        ]
+    },
+    "authority_level": "government"
+}

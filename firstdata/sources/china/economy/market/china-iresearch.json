@@ -1,0 +1,59 @@
+{
+    "id": "china-iresearch",
+    "name": {
+        "en": "iResearch Consulting Group",
+        "zh": "艾瑞咨询"
+    },
+    "description": {
+        "en": "iResearch Consulting Group is China's leading internet and technology market research firm. It provides authoritative data, industry reports, and market sizing on China's digital economy, internet industries, e-commerce, fintech, digital advertising, and consumer behavior. iResearch is widely cited by government agencies, investors, and corporations as a primary source for China's digital market intelligence.",
+        "zh": "艾瑞咨询是中国领先的互联网与科技市场研究机构，提供中国数字经济、互联网行业、电商、金融科技、数字广告及消费者行为的权威数据、行业报告和市场规模分析，被政府机构、投资者和企业广泛引用。"
+    },
+    "website": "https://www.iresearch.com.cn",
+    "data_url": "https://www.iresearch.com.cn/report.shtml",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "market-research",
+        "digital-economy",
+        "internet",
+        "consumer"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "monthly",
+    "tags": [
+        "china",
+        "艾瑞咨询",
+        "iresearch",
+        "market-research",
+        "market-size",
+        "互联网",
+        "internet",
+        "e-commerce",
+        "电商",
+        "fintech",
+        "金融科技",
+        "digital-advertising",
+        "数字广告",
+        "consumer-behavior",
+        "消费者研究",
+        "industry-report",
+        "行业报告"
+    ],
+    "data_content": {
+        "en": [
+            "Industry Reports - In-depth research reports on China's internet, e-commerce, fintech, and digital sectors",
+            "Market Sizing Data - Total addressable market (TAM) estimates for major Chinese digital industries",
+            "User Behavior Analysis - Consumer behavior surveys and digital usage statistics",
+            "Digital Advertising Market - China online advertising spend and market share data",
+            "Quarterly Trackers - Ongoing tracking data for key metrics in mobile, social, and e-commerce"
+        ],
+        "zh": [
+            "行业深度报告 - 中国互联网、电商、金融科技和数字行业的深度研究报告",
+            "市场规模数据 - 中国主要数字行业的市场规模测算",
+            "用户行为分析 - 消费者行为调研与数字化使用统计",
+            "数字广告市场 - 中国网络广告投入和市场份额数据",
+            "季度追踪 - 移动、社交和电商核心指标的持续跟踪数据"
+        ]
+    },
+    "authority_level": "market"
+}

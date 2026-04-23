@@ -1,0 +1,57 @@
+{
+    "id": "china-national-museum",
+    "name": {
+        "en": "National Museum of China",
+        "zh": "中国国家博物馆"
+    },
+    "description": {
+        "en": "The National Museum of China (NMC) is the premier national museum under the Ministry of Culture and Tourism, housing over 1.4 million artifacts spanning 5,000 years of Chinese history and culture. It publishes authoritative data on cultural relics, historical exhibitions, archaeological discoveries, and cultural heritage collections in China.",
+        "zh": "中国国家博物馆（国博）是文化和旅游部直属的最高历史文化艺术殿堂，馆藏逾140万件文物，涵盖5000年中国历史与文化，发布文物典藏、历史展览、考古发现及中国文化遗产的权威数据。"
+    },
+    "website": "https://www.chnmuseum.cn",
+    "data_url": "https://www.chnmuseum.cn/zp/zpml/",
+    "api_url": null,
+    "country": "CN",
+    "domains": [
+        "culture",
+        "history",
+        "heritage"
+    ],
+    "geographic_scope": "national",
+    "update_frequency": "irregular",
+    "tags": [
+        "china",
+        "国家博物馆",
+        "national-museum",
+        "cultural-relics",
+        "文物",
+        "cultural-heritage",
+        "文化遗产",
+        "archaeology",
+        "考古",
+        "history",
+        "历史",
+        "collections",
+        "藏品",
+        "exhibitions",
+        "展览",
+        "art"
+    ],
+    "data_content": {
+        "en": [
+            "Collection Catalog - Searchable database of over 1.4 million artifacts with high-resolution images and descriptions",
+            "Exhibition Records - Historical and current exhibition information and catalogs",
+            "Archaeological Reports - Data on major archaeological discoveries and excavations in China",
+            "Cultural Relic Categories - Classification and provenance data for bronzes, ceramics, calligraphy, paintings, and more",
+            "Digital Resources - Digitized collection items, 3D models, and virtual exhibitions"
+        ],
+        "zh": [
+            "藏品目录 - 逾140万件文物的可检索数据库，含高清图像和文字说明",
+            "展览记录 - 历史和现有展览信息及目录",
+            "考古报告 - 中国重大考古发现和发掘数据",
+            "文物分类 - 青铜器、陶瓷、书法、绘画等文物的分类和来源数据",
+            "数字资源 - 数字化藏品、三维模型和虚拟展览"
+        ]
+    },
+    "authority_level": "government"
+}
