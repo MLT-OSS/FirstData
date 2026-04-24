@@ -1,0 +1,53 @@
+{
+  "id": "china-csdp",
+  "name": {
+    "en": "China School Development Planning Center",
+    "zh": "教育部学校规划建设发展中心"
+  },
+  "description": {
+    "en": "The China School Development Planning Center (CSDP), under China's Ministry of Education, is responsible for planning, policy research, and development of China's school infrastructure. It publishes data and reports on educational facility construction, school development planning standards, campus sustainability, smart campus initiatives, and education infrastructure investment across the country.",
+    "zh": "教育部学校规划建设发展中心（CSDP）隶属于教育部，负责全国学校基础设施的规划、政策研究与发展工作，发布教育设施建设、学校发展规划标准、校园可持续发展、智慧校园及全国教育基础设施投资等方面的数据与报告。"
+  },
+  "website": "https://www.csdp.edu.cn",
+  "data_url": "https://www.csdp.edu.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "education",
+    "infrastructure",
+    "government"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "education",
+    "school planning",
+    "education infrastructure",
+    "教育部",
+    "学校规划建设",
+    "教育设施",
+    "智慧校园",
+    "校园建设",
+    "教育基础设施"
+  ],
+  "data_content": {
+    "en": [
+      "School Construction Statistics - Data on new school construction, renovation, and facility upgrades nationwide",
+      "Campus Planning Standards - National standards for school infrastructure and space planning",
+      "Smart Campus Initiative - Progress reports on digital transformation in Chinese schools",
+      "Education Infrastructure Investment - Annual investment data in school facilities by province",
+      "Sustainability Reports - Green campus construction and energy-saving benchmarks",
+      "Research Reports - Policy research on school development planning and quality standards"
+    ],
+    "zh": [
+      "学校建设统计 - 全国新建、改建及设施升级数据",
+      "校园规划标准 - 学校基础设施与空间规划国家标准",
+      "智慧校园建设 - 中国学校数字化转型进展报告",
+      "教育基础设施投资 - 各省学校设施年度投资数据",
+      "可持续发展报告 - 绿色校园建设与节能标准",
+      "研究报告 - 学校发展规划与质量标准政策研究"
+    ]
+  },
+  "authority_level": "government"
+}
