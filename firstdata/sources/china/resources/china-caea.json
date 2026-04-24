@@ -1,0 +1,54 @@
+{
+  "id": "china-caea",
+  "name": {
+    "en": "China National Nuclear Safety Administration",
+    "zh": "国家原子能机构"
+  },
+  "description": {
+    "en": "The China National Nuclear Safety Administration (CAEA), known as the National Atomic Energy Agency, is the government authority responsible for managing China's nuclear energy and atomic energy affairs. It publishes official data on nuclear power generation, radioactive materials management, nuclear safety inspections, uranium resources, and China's nuclear industry development.",
+    "zh": "国家原子能机构（CAEA）是负责管理中国核能与原子能事务的政府主管部门，发布核电发电量、放射性材料管理、核安全监察、铀资源及中国核工业发展等方面的权威数据。"
+  },
+  "website": "https://www.caea.gov.cn",
+  "data_url": "https://www.caea.gov.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "energy",
+    "environment",
+    "industry"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "nuclear",
+    "atomic energy",
+    "nuclear power",
+    "国家原子能机构",
+    "核能",
+    "核电",
+    "原子能",
+    "核安全",
+    "核工业",
+    "铀资源"
+  ],
+  "data_content": {
+    "en": [
+      "Nuclear Power Generation - Annual electricity output from China's nuclear power plants",
+      "Nuclear Reactors - Status and capacity data for operational and under-construction reactors",
+      "Uranium Resources - Domestic uranium exploration, mining, and reserves data",
+      "Nuclear Safety Reports - Annual safety inspection results and incident reports",
+      "Radioactive Waste Management - Statistics on radioactive material classification and disposal",
+      "Nuclear Industry Development - China's nuclear technology exports and international cooperation"
+    ],
+    "zh": [
+      "核电发电量 - 中国核电站年度发电量统计",
+      "核反应堆 - 在运及在建反应堆状态与容量数据",
+      "铀资源 - 国内铀矿勘探、开采及储量数据",
+      "核安全报告 - 年度安全监察结果及事件报告",
+      "放射性废物管理 - 放射性材料分类与处置统计",
+      "核工业发展 - 中国核技术出口及国际合作情况"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "china-cncaprc",
+  "name": {
+    "en": "China National Committee on Ageing",
+    "zh": "中国老龄协会"
+  },
+  "description": {
+    "en": "The China National Committee on Ageing (CNCAPRC), also known as China Association of Gerontology and Geriatrics, is the government-affiliated national organization overseeing ageing affairs in China. It publishes authoritative data on China's ageing population including demographic statistics, elderly care services, pension coverage, health status of older adults, and policy research on population ageing.",
+    "zh": "中国老龄协会（CNCAPRC）是负责中国老龄事业管理的政府关联全国性组织，发布中国老龄人口权威数据，包括人口统计数据、养老服务、养老金覆盖情况、老年人健康状况及人口老龄化政策研究报告。"
+  },
+  "website": "https://www.cncaprc.gov.cn",
+  "data_url": "https://www.cncaprc.gov.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "demographics",
+    "health",
+    "social",
+    "government"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "ageing",
+    "elderly",
+    "demographics",
+    "pension",
+    "中国老龄协会",
+    "老龄化",
+    "养老服务",
+    "老年人口",
+    "人口统计",
+    "养老金",
+    "老年健康"
+  ],
+  "data_content": {
+    "en": [
+      "Ageing Population Statistics - Comprehensive data on China's elderly population size, growth, and distribution",
+      "Elderly Care Services - Data on nursing homes, community care facilities, and home care coverage",
+      "Pension System Coverage - Statistics on urban and rural pension enrollment and benefit levels",
+      "Health Status of Older Adults - Chronic disease prevalence, disability rates, and mental health data",
+      "Ageing Policy Research - Reports on social security reform, long-term care insurance, and ageing in place",
+      "China Report on Ageing - Annual flagship report on the state of China's ageing population"
+    ],
+    "zh": [
+      "老龄人口统计 - 中国老年人口规模、增长及分布综合数据",
+      "养老服务数据 - 养老院、社区养老设施及居家养老覆盖情况",
+      "养老金体系覆盖 - 城乡养老保险参保及待遇水平统计",
+      "老年人健康状况 - 慢性病患病率、残疾率及心理健康数据",
+      "老龄政策研究 - 社会保障改革、长期护理保险及居家养老报告",
+      "中国老龄事业发展报告 - 中国老龄人口状况年度旗舰报告"
+    ]
+  },
+  "authority_level": "government"
+}
