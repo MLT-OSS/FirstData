@@ -1,0 +1,46 @@
+{
+  "id": "china-hwcc",
+  "name": {
+    "en": "Hai River Water Resources Commission",
+    "zh": "水利部海河水利委员会"
+  },
+  "description": {
+    "en": "The Hai River Water Resources Commission (HWCC) is a basin-level water authority under the Ministry of Water Resources of China, responsible for unified governance and management of the Hai River basin, covering the Beijing-Tianjin-Hebei region and surrounding areas. The HWCC publishes hydrological monitoring data, flood and drought statistics, water resources bulletins, water quality assessments, groundwater monitoring, and basin-wide water allocation records. Its data covers the major river systems in the North China Plain including the Yongding River, Daqing River, and Ziya River systems.",
+    "zh": "水利部海河水利委员会（海委）是水利部直属的流域管理机构，负责海河流域的统一管理与治理，覆盖京津冀及周边地区。海委发布水文监测数据、洪涝旱情统计、水资源公报、水质评估、地下水监测及流域水量分配记录，数据涵盖华北平原主要水系，包括永定河、大清河、子牙河水系。"
+  },
+  "data_content": {
+    "en": [
+      "Hai River basin hydrological monitoring data",
+      "annual water resources bulletins",
+      "flood and drought monitoring statistics",
+      "water quality assessment reports",
+      "groundwater monitoring data",
+      "basin water allocation records",
+      "reservoir and dam operation data",
+      "water conservancy project records",
+      "soil and water conservation data",
+      "Beijing-Tianjin-Hebei regional water data"
+    ],
+    "zh": [
+      "海河流域水文监测数据",
+      "年度水资源公报",
+      "洪涝旱情监测统计",
+      "水质评估报告",
+      "地下水监测数据",
+      "流域水量分配记录",
+      "水库大坝调度数据",
+      "水利工程记录",
+      "水土保持数据",
+      "京津冀地区水资源数据"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "subnational",
+  "website": "http://www.hwcc.gov.cn",
+  "data_url": "http://www.hwcc.gov.cn",
+  "api_url": null,
+  "domains": ["environment", "infrastructure"],
+  "tags": ["water-resources", "hydrology", "hai-river", "flood", "groundwater", "water-quality", "海河", "水文", "水资源", "防汛", "地下水", "流域管理", "水利", "HWCC", "海委", "京津冀", "华北平原"],
+  "update_frequency": "irregular"
+}

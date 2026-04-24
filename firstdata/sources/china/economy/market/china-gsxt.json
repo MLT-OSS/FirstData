@@ -1,0 +1,46 @@
+{
+  "id": "china-gsxt",
+  "name": {
+    "en": "National Enterprise Credit Information Publicity System",
+    "zh": "国家企业信用信息公示系统"
+  },
+  "description": {
+    "en": "The National Enterprise Credit Information Publicity System (GSXT) is the official government platform operated by the State Administration for Market Regulation (SAMR) of China. It is the authoritative public database for enterprise registration information, credit records, and regulatory compliance data for all enterprises registered in China. The system discloses enterprise basic registration data, annual report filings, administrative penalties, court judgments, business license information, equity structure, and credit ratings. It covers all types of enterprises, individual business entities, and other market entities registered across all provinces and cities in China.",
+    "zh": "国家企业信用信息公示系统（GSXT）是国家市场监督管理总局运营的官方政府平台，是中国境内所有注册企业的工商登记信息、信用记录和监管合规数据的权威公共数据库。系统公示企业基本注册数据、年报信息、行政处罚、法院判决、营业执照信息、股权结构及信用评级，覆盖全国各省市注册的企业、个体工商户及其他市场主体。"
+  },
+  "data_content": {
+    "en": [
+      "enterprise registration and basic information",
+      "annual report filings",
+      "administrative penalty records",
+      "court judgment and enforcement records",
+      "business license and qualification data",
+      "equity structure and shareholder information",
+      "enterprise credit ratings and black lists",
+      "operating status and change history",
+      "branch and subsidiary information",
+      "market entity credit compliance data"
+    ],
+    "zh": [
+      "企业注册与基本信息",
+      "年报信息",
+      "行政处罚记录",
+      "法院判决与执行记录",
+      "营业执照与资质数据",
+      "股权结构与股东信息",
+      "企业信用评级与黑名单",
+      "经营状态与变更历史",
+      "分支机构与子公司信息",
+      "市场主体信用合规数据"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.gsxt.gov.cn",
+  "data_url": "https://www.gsxt.gov.cn",
+  "api_url": null,
+  "domains": ["economy", "governance"],
+  "tags": ["enterprise-credit", "business-registration", "market-supervision", "corporate-data", "credit-system", "企业信用", "工商登记", "市场监管", "信用信息", "营业执照", "股权", "年报", "行政处罚", "SAMR", "市场监管总局", "国家企业信用"],
+  "update_frequency": "daily"
+}
