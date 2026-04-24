@@ -1,0 +1,56 @@
+{
+  "id": "china-shenzhen-pnr",
+  "name": {
+    "en": "Shenzhen Municipal Planning and Natural Resources Bureau",
+    "zh": "深圳市规划和自然资源局"
+  },
+  "description": {
+    "en": "The Shenzhen Municipal Planning and Natural Resources Bureau oversees urban planning, land management, natural resource administration, and spatial development in Shenzhen. It publishes land supply plans, land auction and transfer data, urban master plans, construction land statistics, and geographic information. As the primary authority for land resource allocation in one of China's most land-scarce cities, its data is essential for real estate market analysis, urban development research, and land use policy studies.",
+    "zh": "深圳市规划和自然资源局负责深圳市城市规划、土地管理、自然资源管理和空间发展。发布土地供应计划、土地出让数据、城市总体规划、建设用地统计和地理信息。作为中国土地资源最稀缺城市之一的土地资源配置主管部门，其数据对房地产市场分析、城市发展研究和土地使用政策研究至关重要。"
+  },
+  "website": "https://pnr.sz.gov.cn",
+  "data_url": "https://pnr.sz.gov.cn/xxgk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "land-use",
+    "urban-planning",
+    "natural-resources",
+    "real-estate"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "monthly",
+  "tags": [
+    "shenzhen",
+    "land",
+    "planning",
+    "natural-resources",
+    "深圳",
+    "土地",
+    "规划",
+    "自然资源",
+    "土地出让",
+    "城市规划",
+    "楼面地价",
+    "土地供应"
+  ],
+  "data_content": {
+    "en": [
+      "Land Supply Plans - Annual and quarterly land supply plans for residential, commercial, and industrial use",
+      "Land Auction Data - Land transfer prices, floor prices, and transaction records",
+      "Urban Master Plans - City-level spatial development plans and zoning regulations",
+      "Construction Land Statistics - Approved construction land area and utilization data",
+      "Geographic Information - Surveying and mapping data, geographic information services",
+      "Natural Resource Surveys - Land resource surveys and mineral resource assessments"
+    ],
+    "zh": [
+      "土地供应计划 - 住宅、商业和工业用地年度及季度供应计划",
+      "土地出让数据 - 土地成交价格、楼面地价和交易记录",
+      "城市总体规划 - 城市空间发展规划和分区规定",
+      "建设用地统计 - 已批建设用地面积和利用数据",
+      "地理信息 - 测绘数据和地理信息服务",
+      "自然资源调查 - 土地资源调查和矿产资源评估"
+    ]
+  }
+}
