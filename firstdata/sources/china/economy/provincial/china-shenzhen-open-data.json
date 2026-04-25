@@ -1,0 +1,70 @@
+{
+  "id": "china-shenzhen-open-data",
+  "name": {
+    "en": "Shenzhen Open Data Platform",
+    "zh": "深圳市政府数据开放平台"
+  },
+  "description": {
+    "en": "The Shenzhen Open Data Platform is the official government open data portal of Shenzhen, providing machine-readable datasets across a wide range of domains including economy, transportation, urban management, public services, healthcare, and education. As one of China's most advanced municipal open data initiatives, the platform offers structured data downloads, API access, and data visualization tools. It covers datasets from over 40 Shenzhen government departments and public institutions, enabling data-driven research and application development. The platform is distinct from the Shenzhen Bureau of Statistics by focusing on granular, machine-readable datasets rather than aggregated statistical reports.",
+    "zh": "深圳市政府数据开放平台是深圳市官方政府数据开放门户，提供覆盖经济、交通、城市管理、公共服务、医疗卫生、教育等多领域的机器可读数据集。作为中国最先进的市级政府数据开放平台之一，该平台提供结构化数据下载、API接口和数据可视化工具，汇集了深圳市40余个政府部门和公共机构的数据集，支持数据驱动的研究和应用开发。该平台与深圳市统计局的区别在于侧重提供细粒度、机器可读的原始数据集，而非汇总统计报告。"
+  },
+  "website": "https://opendata.sz.gov.cn",
+  "data_url": "https://opendata.sz.gov.cn/data/dataSet/toDataList",
+  "api_url": "https://opendata.sz.gov.cn/doc/share/api_guide.html",
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "economics",
+    "transportation",
+    "urban-management",
+    "public-services",
+    "healthcare",
+    "education"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "深圳开放数据",
+    "Shenzhen open data",
+    "政府数据开放",
+    "government open data",
+    "深圳API",
+    "Shenzhen API",
+    "机器可读数据",
+    "machine-readable data",
+    "深圳市政府",
+    "Shenzhen municipal government",
+    "数据集",
+    "datasets",
+    "城市数据",
+    "urban data",
+    "公共数据",
+    "public data",
+    "粤港澳大湾区",
+    "Greater Bay Area",
+    "深圳交通数据",
+    "Shenzhen transportation data"
+  ],
+  "data_content": {
+    "en": [
+      "Economic data: enterprise registration, business environment indicators, and economic activity datasets",
+      "Transportation: real-time and historical public transit, traffic flow, and parking data",
+      "Urban management: city infrastructure, environmental monitoring, and municipal services data",
+      "Public services: government service usage, public facility distribution, and community data",
+      "Healthcare: medical facility distribution, public health monitoring datasets",
+      "Education: school distribution, enrollment statistics, and educational resource data",
+      "Land and housing: land use, real estate transactions, and urban planning datasets",
+      "Environmental data: air quality, water quality, and green space monitoring data"
+    ],
+    "zh": [
+      "经济数据：企业注册登记、营商环境指标及经济活动数据集",
+      "交通数据：公共交通实时及历史数据、交通流量及停车数据",
+      "城市管理：城市基础设施、环境监测及市政服务数据",
+      "公共服务：政务服务使用、公共设施分布及社区数据",
+      "医疗卫生：医疗机构分布、公共卫生监测数据集",
+      "教育数据：学校分布、招生统计及教育资源数据",
+      "土地与住房：土地利用、房地产交易及城市规划数据集",
+      "环境数据：空气质量、水质及绿化监测数据"
+    ]
+  }
+}
