@@ -1,0 +1,55 @@
+{
+  "id": "china-gd-housing",
+  "name": {
+    "en": "Guangdong Provincial Department of Housing and Urban-Rural Development",
+    "zh": "广东省住房和城乡建设厅"
+  },
+  "description": {
+    "en": "The Guangdong Provincial Department of Housing and Urban-Rural Development is the provincial government authority responsible for housing policies, urban-rural construction management, real estate market regulation, and building industry oversight in Guangdong Province, China's most populous province and largest provincial economy. It publishes provincial housing market data, construction industry statistics, affordable housing program progress, and urban development policies covering all 21 prefecture-level cities including Guangzhou, Shenzhen, Dongguan, and Foshan.",
+    "zh": "广东省住房和城乡建设厅是广东省住房政策、城乡建设管理、房地产市场监管和建筑行业监管的省级政府部门。广东省是中国人口最多、经济总量最大的省份，该厅发布全省住房市场数据、建筑行业统计、保障性住房建设进展和城市发展政策，覆盖广州、深圳、东莞、佛山等21个地级市。"
+  },
+  "website": "https://zfcxjst.gd.gov.cn",
+  "data_url": "https://zfcxjst.gd.gov.cn/xxgk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "housing",
+    "construction",
+    "urban-planning",
+    "real-estate"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "monthly",
+  "tags": [
+    "guangdong",
+    "housing",
+    "construction",
+    "urban-rural-development",
+    "广东",
+    "住房",
+    "城乡建设",
+    "房地产",
+    "保障房",
+    "建筑行业",
+    "物业管理"
+  ],
+  "data_content": {
+    "en": [
+      "Provincial Housing Market Data - Real estate market statistics across Guangdong's 21 prefecture-level cities",
+      "Construction Industry Statistics - Provincial construction output value, enterprise data, and workforce statistics",
+      "Affordable Housing Programs - Provincial public rental housing, talent housing, and subsidized housing construction data",
+      "Urban-Rural Development Policies - Provincial housing purchase policies, market regulation measures",
+      "Building Quality Supervision - Construction project quality inspection and safety supervision data",
+      "Property Management - Residential property management regulations and industry data"
+    ],
+    "zh": [
+      "全省住房市场数据 - 广东省21个地级市房地产市场统计",
+      "建筑行业统计 - 全省建筑业总产值、企业数据和从业人员统计",
+      "保障性住房建设 - 全省公共租赁住房、人才住房和共有产权住房建设数据",
+      "城乡发展政策 - 全省住房限购政策和市场调控措施",
+      "建筑质量监督 - 建设工程质量检查和安全监督数据",
+      "物业管理 - 住宅物业管理法规和行业数据"
+    ]
+  }
+}
