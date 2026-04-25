@@ -1,0 +1,73 @@
+{
+  "id": "china-caep",
+  "name": {
+    "en": "Chinese Academy of Environmental Planning",
+    "zh": "生态环境部环境规划院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Environmental Planning (CAEP) is a national-level research institute directly under China's Ministry of Ecology and Environment (MEE). Founded in 2001 and headquartered in Beijing, CAEP is the primary institution responsible for environmental planning, environmental economics, and policy research supporting China's national ecological and environmental governance. CAEP provides technical support for China's national environmental five-year plans, pollution prevention and control action plans, and carbon neutrality strategies. Key research areas include environmental economic accounting (green GDP), pollution source census data, environmental carrying capacity assessment, ecological redline mapping, and integrated watershed management. CAEP publishes the authoritative 'China Environmental Economic Accounting' reports and manages key environmental planning databases. It plays a central role in designing China's ecological compensation mechanisms, emission trading systems, and environmental impact assessment frameworks.",
+    "zh": "生态环境部环境规划院（CAEP）是生态环境部直属的国家级科研机构，2001年成立，总部位于北京。CAEP是支撑中国国家生态环境治理的环境规划、环境经济学和政策研究首要机构，为国家环境五年规划、污染防治行动计划和碳中和战略提供技术支撑。主要研究方向包括环境经济核算（绿色GDP）、污染源普查数据、环境承载力评估、生态保护红线划定和流域综合管理。CAEP发布权威的《中国环境经济核算》报告，管理重要的环境规划数据库，在设计中国生态补偿机制、排污权交易制度和环境影响评价体系中发挥核心作用。"
+  },
+  "website": "http://www.caep.org.cn",
+  "data_url": "http://www.caep.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "economics",
+    "governance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "生态环境部环境规划院",
+    "CAEP",
+    "Chinese Academy of Environmental Planning",
+    "环境规划",
+    "environmental planning",
+    "环境经济核算",
+    "environmental economic accounting",
+    "绿色GDP",
+    "green GDP",
+    "污染源普查",
+    "pollution source census",
+    "环境承载力",
+    "environmental carrying capacity",
+    "生态保护红线",
+    "ecological redline",
+    "碳中和",
+    "carbon neutrality",
+    "生态补偿",
+    "ecological compensation",
+    "排污权交易",
+    "emission trading",
+    "环境影响评价",
+    "environmental impact assessment",
+    "生态环境部",
+    "Ministry of Ecology and Environment"
+  ],
+  "data_content": {
+    "en": [
+      "China Environmental Economic Accounting (CEEA): annual green GDP accounting reports quantifying the economic value of environmental services and the cost of environmental degradation across China",
+      "Pollution source census data: national surveys of industrial, agricultural, and domestic pollution sources with discharge volumes, types, and geographic distribution",
+      "Environmental carrying capacity assessments: analysis of regional resource and environmental limits supporting land use planning and industrial layout decisions",
+      "Ecological redline mapping: technical data and spatial datasets for China's national ecological conservation redlines protecting critical ecosystems",
+      "National environmental five-year plan technical support: baseline data, target indicators, and evaluation frameworks for China's environmental planning cycles",
+      "Carbon emission accounting and neutrality research: sector-level carbon emission inventories, mitigation scenario modeling, and carbon neutrality pathway analysis for China",
+      "Ecological compensation policy research: data and evaluation frameworks for China's payment for ecosystem services and inter-regional ecological compensation systems",
+      "Watershed integrated management: water environment quality data, pollution load models, and total pollutant control plans for major Chinese river basins"
+    ],
+    "zh": [
+      "中国环境经济核算（CEEA）：量化中国环境服务经济价值和环境退化成本的年度绿色GDP核算报告",
+      "污染源普查数据：全国工业、农业和生活污染源的排放量、排放类型和地理分布调查数据",
+      "环境承载力评估：支撑土地利用规划和产业布局决策的区域资源环境承载力分析",
+      "生态保护红线划定：保护重要生态系统的全国生态保护红线技术数据和空间数据集",
+      "国家环境五年规划技术支撑：中国环境规划周期的基线数据、目标指标和评估框架",
+      "碳排放核算与碳中和研究：中国分部门碳排放清单、减排情景模拟和碳中和路径分析",
+      "生态补偿政策研究：中国生态系统服务付费和区域间生态补偿制度的数据与评估框架",
+      "流域综合管理：主要流域水环境质量数据、污染负荷模型和总量控制方案"
+    ]
+  }
+}
