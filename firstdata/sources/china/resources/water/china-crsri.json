@@ -1,0 +1,73 @@
+{
+  "id": "china-crsri",
+  "name": {
+    "en": "Changjiang River Scientific Research Institute",
+    "zh": "长江科学院"
+  },
+  "description": {
+    "en": "The Changjiang River Scientific Research Institute (CRSRI), also known as the Yangtze River Scientific Research Institute, is a state-level public research institution under the Changjiang Water Resources Commission of the Ministry of Water Resources of China. Founded in 1951 and headquartered in Wuhan, CRSRI is China's premier research center for Yangtze River basin water conservancy and hydropower. It conducts research on flood control, river dynamics, dam safety, soil erosion, water quality, ecological hydraulics, and geotechnical engineering for the Yangtze River system. CRSRI has provided key technical support for major Chinese water projects including the Three Gorges Dam, South-to-North Water Diversion, and numerous reservoir and flood control infrastructure projects. Its research outputs include hydrological data, river morphology monitoring, water quality assessments, and technical standards for Chinese water conservancy.",
+    "zh": "长江科学院（CRSRI）是水利部长江水利委员会直属的国家级公益性科研单位，1951年创建，总部位于武汉，是中国长江流域水利水电领域最重要的研究中心。主要研究方向包括防洪、河道动力学、大坝安全、水土流失、水质、生态水利学和岩土工程等。长江科学院为三峡大坝、南水北调工程及众多水库和防洪基础设施项目提供了重要技术支撑。研究成果包括水文数据、河道形态监测、水质评估及中国水利行业技术标准。"
+  },
+  "website": "http://www.crsri.cn",
+  "data_url": "http://www.crsri.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "water",
+    "environment",
+    "infrastructure",
+    "geology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "长江科学院",
+    "CRSRI",
+    "Changjiang River Scientific Research Institute",
+    "Yangtze River",
+    "长江",
+    "水利",
+    "water conservancy",
+    "防洪",
+    "flood control",
+    "大坝安全",
+    "dam safety",
+    "三峡",
+    "Three Gorges",
+    "南水北调",
+    "South-to-North Water Diversion",
+    "水质",
+    "water quality",
+    "水土流失",
+    "soil erosion",
+    "河道动力学",
+    "river dynamics",
+    "岩土工程",
+    "geotechnical engineering",
+    "水文",
+    "hydrology"
+  ],
+  "data_content": {
+    "en": [
+      "Yangtze River hydrological data: long-term streamflow records, flood peak data, sediment transport measurements, and hydrological analysis for major stations along the Yangtze",
+      "River morphology and dynamics research: channel evolution monitoring, bank erosion assessments, bed material sampling, and flow regime analysis for the Yangtze River system",
+      "Dam and reservoir safety research: structural monitoring data, seepage analysis, slope stability assessments, and safety standards for large Chinese hydraulic structures",
+      "Flood control and disaster prevention: flood routing models, inundation mapping, levee safety evaluations, and emergency response technical support for the Yangtze basin",
+      "Water quality and aquatic ecology: water quality monitoring data, pollution source assessments, aquatic biodiversity surveys, and ecological restoration research",
+      "Soil and water conservation: erosion measurement data, watershed management research, and soil loss estimation models for the upper Yangtze basin",
+      "Geotechnical engineering research: foundation design for hydraulic structures, underground engineering, and slope engineering data and standards",
+      "Technical standards and specifications: national and industry technical standards for Chinese water conservancy and hydropower engineering"
+    ],
+    "zh": [
+      "长江水文数据：长江干流主要水文站的长期径流记录、洪峰数据、泥沙输移测量和水文分析",
+      "河道形态与动力研究：河道演变监测、岸线侵蚀评估、床沙采样和水流条件分析",
+      "大坝与水库安全研究：结构监测数据、渗流分析、边坡稳定评价及中国大型水工建筑物安全标准",
+      "防洪减灾：洪水演进模型、淹没范围图、堤防安全评估及长江流域应急响应技术支撑",
+      "水质与水生态：水质监测数据、污染源评估、水生生物多样性调查和生态修复研究",
+      "水土保持：水蚀量测量数据、小流域综合治理研究和金沙江上游土壤侵蚀模型",
+      "岩土工程研究：水工建筑物基础设计、地下工程和边坡工程数据及标准",
+      "技术标准规范：中国水利水电工程国家和行业技术标准"
+    ]
+  }
+}

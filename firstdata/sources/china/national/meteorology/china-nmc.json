@@ -1,0 +1,71 @@
+{
+  "id": "china-nmc",
+  "name": {
+    "en": "National Meteorological Centre of China",
+    "zh": "中央气象台"
+  },
+  "description": {
+    "en": "The National Meteorological Centre (NMC) is China's national weather forecasting and meteorological service center, operating under the China Meteorological Administration (CMA). NMC is responsible for issuing official national weather forecasts, severe weather warnings, and meteorological disaster early warnings covering the entire Chinese territory. It provides real-time weather observation data from thousands of ground stations, ocean buoys, weather balloons, and satellites. NMC operates China's numerical weather prediction (NWP) models and produces the authoritative daily and extended-range weather forecasts. Key products include national weather charts, precipitation forecasts, temperature trend predictions, typhoon tracks, drought and flood monitoring, and seasonal climate outlooks. NMC's data feeds directly into agriculture, transportation, disaster prevention, public health, and energy sector planning across China.",
+    "zh": "中央气象台是中国国家气象局（中国气象局）下属的国家级天气预报和气象服务中心。中央气象台负责发布覆盖全国的官方天气预报、强对流天气预警和气象灾害预警。提供来自全国数千个地面气象站、海洋浮标、探空气球和气象卫星的实时气象观测数据。中央气象台运行中国数值天气预报（NWP）模式，制作权威的日常天气预报和中长期天气预报。主要产品包括全国天气图、降水预报、气温趋势预测、台风路径预报、旱涝监测和季节气候展望。中央气象台数据直接服务于全国农业、交通运输、防灾减灾、公共卫生和能源规划。"
+  },
+  "website": "https://www.nmc.cn",
+  "data_url": "https://www.nmc.cn/publish/observations.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "meteorology",
+    "climate",
+    "environment",
+    "disaster-prevention"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "中央气象台",
+    "NMC",
+    "National Meteorological Centre",
+    "天气预报",
+    "weather forecast",
+    "气象预警",
+    "meteorological warning",
+    "实时气象",
+    "real-time weather",
+    "气象观测",
+    "weather observation",
+    "台风",
+    "typhoon",
+    "暴雨预警",
+    "rainstorm warning",
+    "数值天气预报",
+    "numerical weather prediction",
+    "旱涝监测",
+    "drought flood monitoring",
+    "气候预测",
+    "climate prediction",
+    "中国气象局",
+    "China Meteorological Administration"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time national weather observations: surface data from thousands of ground stations across China including temperature, precipitation, wind speed, humidity, and air pressure",
+      "Official national weather forecasts: daily and extended-range (10-day) forecasts for all provinces, cities, and counties in China",
+      "Severe weather warnings: official color-coded alerts for rainstorms, typhoons, high winds, snowstorms, frost, fog, haze, thunderstorms, and other extreme events",
+      "Typhoon tracking and forecasts: real-time path predictions, intensity forecasts, and landfall risk assessments for tropical cyclones affecting China",
+      "Precipitation and drought monitoring: nationwide maps of rainfall distribution, accumulated precipitation anomalies, and drought severity indices",
+      "Climate outlook products: monthly, seasonal, and annual climate trend forecasts including temperature and precipitation anomaly predictions",
+      "Numerical weather prediction model outputs: analysis fields, forecast fields, and ensemble prediction data from CMA's operational NWP systems",
+      "Radar and satellite data: composite radar reflectivity maps, satellite cloud imagery, and derived meteorological products for the national domain"
+    ],
+    "zh": [
+      "全国实时气象观测：来自全国数千个地面站的地面数据，包括气温、降水、风速、湿度和气压",
+      "官方全国天气预报：全国各省市县的逐日和中期（10天）天气预报",
+      "强对流天气预警：暴雨、台风、大风、暴雪、霜冻、大雾、霾、雷暴等极端天气事件的官方色码预警",
+      "台风路径追踪和预报：影响中国的热带气旋实时路径预测、强度预报和登陆风险评估",
+      "降水与旱涝监测：全国降雨分布图、累积降水距平图和干旱严重程度指数",
+      "气候展望产品：月度、季节和年度气候趋势预报，包括气温和降水距平预测",
+      "数值天气预报模式产品：中国气象局业务NWP系统的分析场、预报场和集合预报数据",
+      "雷达和卫星数据：全国合成雷达反射率图、气象卫星云图及衍生气象产品"
+    ]
+  }
+}
