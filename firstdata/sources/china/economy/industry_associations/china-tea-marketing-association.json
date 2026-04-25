@@ -1,0 +1,69 @@
+{
+  "id": "china-tea-marketing-association",
+  "name": {
+    "en": "China Tea Marketing Association",
+    "zh": "中国茶叶流通协会"
+  },
+  "description": {
+    "en": "The China Tea Marketing Association (CTMA), also known as 中国茶叶流通协会 or 中茶协, is the national industry organization representing China's tea production, processing, and marketing sector. As the world's largest tea producer and exporter, China's tea industry statistics published by CTMA are key references for agricultural economics, commodity trade, and consumer market analysis. CTMA provides authoritative data on tea production, market prices, trade volumes, quality standards, and enterprise operations across China's major tea-producing regions.",
+    "zh": "中国茶叶流通协会（CTMA，又称中茶协）是代表中国茶叶生产、加工和流通行业的全国性行业组织。作为全球最大的茶叶生产国和出口国，中国茶叶流通协会发布的行业统计数据是农业经济、大宗商品贸易和消费市场分析的重要参考依据。协会提供权威的茶叶产量、市场价格、贸易量、质量标准及企业运营数据，覆盖中国各大茶叶产区。"
+  },
+  "website": "https://www.ctma.com.cn",
+  "data_url": "https://www.ctma.com.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "food-beverage",
+    "trade",
+    "industry"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "茶叶",
+    "tea",
+    "茶叶市场",
+    "tea market",
+    "茶叶产量",
+    "tea production",
+    "茶叶出口",
+    "tea export",
+    "茶叶价格",
+    "tea price",
+    "绿茶",
+    "green tea",
+    "红茶",
+    "black tea",
+    "普洱茶",
+    "pu-erh tea",
+    "茶产业",
+    "tea industry",
+    "CTMA",
+    "中茶协",
+    "中国茶叶流通"
+  ],
+  "data_content": {
+    "en": [
+      "Annual tea production statistics: total output by tea type (green tea, black tea, oolong, white tea, pu-erh) and by province",
+      "Tea market price indices: wholesale and retail prices for major tea varieties by producing region",
+      "Export data: tea export volume and value broken down by type, destination country, and province",
+      "Import statistics: imported tea product volume, value, and source countries",
+      "Domestic consumption data: per capita tea consumption, retail channel distribution, urban vs rural",
+      "Tea enterprise performance: revenue, employment, and market share of major tea companies",
+      "Tea quality and safety standards: pesticide residue testing, grading standards, certification data",
+      "Annual China Tea Industry Development Report: comprehensive production, trade, and market trend analysis"
+    ],
+    "zh": [
+      "茶叶年度产量统计：按茶类（绿茶、红茶、乌龙茶、白茶、普洱茶）和省份的总产量",
+      "茶叶市场价格指数：各主产区主要茶叶品种批发和零售价格",
+      "出口数据：按茶类、目的地国家和省份分类的茶叶出口量和出口额",
+      "进口统计：进口茶叶产品的数量、金额及来源国",
+      "国内消费数据：人均茶叶消费量、零售渠道分布、城乡对比",
+      "茶叶企业经营：主要茶企收入、就业和市场份额",
+      "茶叶质量和安全标准：农药残留检测、等级标准、认证数据",
+      "中国茶叶产业发展年度报告：全面的生产、贸易和市场趋势分析"
+    ]
+  }
+}

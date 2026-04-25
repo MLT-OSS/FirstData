@@ -1,0 +1,66 @@
+{
+  "id": "china-light-industry-council",
+  "name": {
+    "en": "China National Light Industry Council",
+    "zh": "中国轻工业联合会"
+  },
+  "description": {
+    "en": "The China National Light Industry Council (CNLIC) is the national federation representing China's light industry sector, encompassing food processing, beverages, household appliances, leather goods, paper, ceramics, clocks, bicycles, sewing machines, and other consumer goods manufacturing industries. CNLIC publishes authoritative industry statistics, development reports, economic analyses, and policy recommendations covering production, sales, exports, and enterprise operations across China's light industry.",
+    "zh": "中国轻工业联合会是代表中国轻工行业的全国性联合组织，涵盖食品加工、饮料、家用电器、皮革制品、造纸、陶瓷、钟表、自行车、缝纫机等消费品制造行业。联合会发布权威的行业统计数据、发展报告、经济分析和政策建议，内容涵盖中国轻工业的生产、销售、出口及企业运营情况。"
+  },
+  "website": "http://www.cnlic.org.cn",
+  "data_url": "http://www.cnlic.org.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "manufacturing",
+    "industry",
+    "consumer-goods",
+    "trade"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "轻工业",
+    "light industry",
+    "消费品",
+    "consumer goods",
+    "食品加工",
+    "food processing",
+    "家用电器",
+    "household appliances",
+    "皮革",
+    "leather",
+    "造纸",
+    "paper",
+    "陶瓷",
+    "ceramics",
+    "行业统计",
+    "industry statistics",
+    "CNLIC",
+    "中国轻工"
+  ],
+  "data_content": {
+    "en": [
+      "Annual light industry economic operation report: total output value, revenue and profit by sub-sector",
+      "Production statistics: output data for major light industry product categories (food, beverages, appliances, leather, paper)",
+      "Export data: light industry products trade volume and value broken down by product type and destination",
+      "Enterprise data: number of enterprises, employment, investment in fixed assets across light industry sectors",
+      "Market concentration and leading enterprise performance analysis",
+      "Import substitution and export competitiveness analysis for key light industry products",
+      "Light industry development plans and policy research reports",
+      "Industry standards and quality data for consumer products"
+    ],
+    "zh": [
+      "轻工业经济运行年度报告：总产值、各细分行业收入及利润",
+      "生产统计：主要轻工产品类别（食品、饮料、电器、皮革、纸张）产量数据",
+      "出口数据：按产品类型和目的地细分的轻工产品贸易量和贸易额",
+      "企业数据：轻工各行业企业数量、就业人数、固定资产投资",
+      "市场集中度及龙头企业经营状况分析",
+      "主要轻工产品进口替代和出口竞争力分析",
+      "轻工业发展规划和政策研究报告",
+      "消费品行业标准和质量数据"
+    ]
+  }
+}

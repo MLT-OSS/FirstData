@@ -1,0 +1,66 @@
+{
+  "id": "china-highway-society",
+  "name": {
+    "en": "China Highway and Transportation Society",
+    "zh": "中国公路学会"
+  },
+  "description": {
+    "en": "The China Highway and Transportation Society (CHTS) is a national academic and professional organization for China's highway and transportation sector, affiliated with the Ministry of Transport. CHTS publishes research reports, technical standards, and data covering highway construction, road infrastructure, traffic volume, transportation technology, and highway safety. It is a key reference for policy research, engineering standards, and transportation planning in China.",
+    "zh": "中国公路学会（CHTS）是中国公路与交通运输行业的全国性学术和专业组织，隶属于交通运输部。学会发布研究报告、技术标准和数据，内容涵盖公路建设、道路基础设施、交通流量、交通运输技术和公路安全。是中国政策研究、工程标准和交通规划的重要参考来源。"
+  },
+  "website": "https://www.chts.cn",
+  "data_url": "https://www.chts.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "infrastructure",
+    "transportation",
+    "construction",
+    "technology"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "公路",
+    "highway",
+    "交通运输",
+    "transportation",
+    "道路建设",
+    "road construction",
+    "交通流量",
+    "traffic volume",
+    "公路安全",
+    "highway safety",
+    "交通工程",
+    "traffic engineering",
+    "路网",
+    "road network",
+    "技术标准",
+    "technical standards",
+    "CHTS",
+    "中国公路"
+  ],
+  "data_content": {
+    "en": [
+      "Highway mileage statistics: total road network length by grade (expressway, national highway, provincial highway, rural road)",
+      "Highway construction investment: annual investment data in road infrastructure by region and project type",
+      "Traffic volume data: vehicle counts, passenger and freight transport volume on major highway corridors",
+      "Highway safety statistics: accident frequency, fatality rates, major incident analysis by road type",
+      "Bridge and tunnel statistics: number, length, and structural condition of highway bridges and tunnels",
+      "Technical research reports: pavement technology, bridge engineering, tunnel construction innovations",
+      "Highway freight transport: cargo volume and turnover by transport mode and highway grade",
+      "Transportation planning and policy research reports for China's road network"
+    ],
+    "zh": [
+      "公路里程统计：按等级（高速公路、国道、省道、农村公路）的公路网总里程",
+      "公路建设投资：按地区和项目类型的道路基础设施年度投资数据",
+      "交通流量数据：主要公路走廊的车辆计数、客运和货运量",
+      "公路安全统计：按道路类型分类的事故频率、死亡率和重大事故分析",
+      "桥梁和隧道统计：公路桥梁和隧道的数量、长度和结构状况",
+      "技术研究报告：路面技术、桥梁工程、隧道建设创新",
+      "公路货运：按运输方式和公路等级的货运量和货运周转量",
+      "中国公路网交通规划和政策研究报告"
+    ]
+  }
+}

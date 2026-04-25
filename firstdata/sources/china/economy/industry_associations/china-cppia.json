@@ -1,0 +1,66 @@
+{
+  "id": "china-cppia",
+  "name": {
+    "en": "China Plastics Processing Industry Association",
+    "zh": "中国塑料加工工业协会"
+  },
+  "description": {
+    "en": "The China Plastics Processing Industry Association (CPPIA) is the national industry organization representing China's plastics processing sector. It covers manufacturers of plastic products, packaging materials, pipes, films, profiles, and engineering plastics. CPPIA publishes authoritative industry statistics, operational reports, market analysis, and technical standards covering the full plastics processing value chain including production output, consumption, imports/exports, and enterprise performance.",
+    "zh": "中国塑料加工工业协会（CPPIA）是代表中国塑料加工行业的全国性行业组织，成员涵盖塑料制品、包装材料、管材、薄膜、型材、工程塑料等制造企业。协会发布权威的行业统计数据、运行报告、市场分析和技术标准，内容涵盖塑料加工全产业链，包括产量、消费量、进出口及企业经营状况。"
+  },
+  "website": "http://www.cppia.com.cn",
+  "data_url": "http://www.cppia.com.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "manufacturing",
+    "industry",
+    "plastics",
+    "materials"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "塑料",
+    "plastics",
+    "塑料加工",
+    "plastics processing",
+    "塑料制品",
+    "plastic products",
+    "包装材料",
+    "packaging materials",
+    "工程塑料",
+    "engineering plastics",
+    "行业统计",
+    "industry statistics",
+    "产量",
+    "production output",
+    "进出口",
+    "imports exports",
+    "CPPIA",
+    "中国塑料"
+  ],
+  "data_content": {
+    "en": [
+      "Annual plastics processing industry operational statistics: total output, production volume by product category",
+      "Plastics consumption data: domestic demand breakdown by end-use sector (packaging, construction, automotive, agriculture)",
+      "Import and export statistics: plastic raw materials and finished products trade volume and value",
+      "Enterprise performance: revenue, profit margin, employment data across plastics processing sub-sectors",
+      "Market price indices: key plastic resin and product prices (PE, PP, PVC, PET)",
+      "Industry concentration and enterprise scale distribution data",
+      "Technical standards and quality certifications for plastics products",
+      "Annual China Plastics Industry Development Report: comprehensive industry trend analysis"
+    ],
+    "zh": [
+      "塑料加工行业年度运行统计：总产量及按产品类别的生产量",
+      "塑料消费数据：按终端用途（包装、建筑、汽车、农业）分类的国内需求",
+      "进出口统计：塑料原料及制品的贸易量和贸易额",
+      "企业经营数据：塑料加工各细分行业的收入、利润率、就业情况",
+      "市场价格指数：主要塑料树脂和制品价格（PE、PP、PVC、PET）",
+      "行业集中度及企业规模分布数据",
+      "塑料制品技术标准与质量认证",
+      "中国塑料工业发展年度报告：全面的行业趋势分析"
+    ]
+  }
+}
