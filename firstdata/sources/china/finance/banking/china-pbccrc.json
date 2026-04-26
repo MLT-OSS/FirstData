@@ -1,0 +1,73 @@
+{
+  "id": "china-pbccrc",
+  "name": {
+    "en": "People's Bank of China Credit Reference Center",
+    "zh": "中国人民银行征信中心"
+  },
+  "description": {
+    "en": "The Credit Reference Center (CRC) of the People's Bank of China is the operator of China's national credit registry system—one of the world's largest credit databases. Established in 2006, CRC maintains credit records for over 1.1 billion natural persons and more than 60 million enterprises and other legal entities. It collects credit information from banks, non-bank financial institutions, public utilities, and government agencies, and provides credit reports to lenders, individuals, and authorized institutions for lending decisions, due diligence, and financial supervision. CRC also publishes aggregate credit statistics, reports on the scale of social financing, and research on credit system development that inform monetary policy and financial regulation.",
+    "zh": "中国人民银行征信中心是全国征信系统的运营机构，是全球最大的信用数据库之一。中心成立于2006年，维护着超过11亿自然人和6000万余家企业及其他法人主体的信用记录。数据来源包括银行、非银行金融机构、公用事业单位和政府部门，为贷款机构、个人和授权机构提供信用报告，用于授信决策、尽职调查和金融监管。征信中心还发布信用统计汇总数据、社会融资规模报告和征信体系发展研究，为货币政策和金融监管提供支撑。"
+  },
+  "website": "https://www.pbccrc.org.cn",
+  "data_url": "https://www.pbccrc.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "credit",
+    "banking",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "人民银行征信",
+    "征信中心",
+    "CRC",
+    "credit reference",
+    "credit bureau",
+    "信用报告",
+    "credit report",
+    "企业信用",
+    "enterprise credit",
+    "个人信用",
+    "personal credit",
+    "社会征信",
+    "social credit",
+    "金融监管",
+    "financial regulation",
+    "银行信贷",
+    "bank lending",
+    "不良贷款",
+    "non-performing loans",
+    "社会融资规模",
+    "aggregate social financing",
+    "征信体系",
+    "credit system",
+    "贷款",
+    "loan",
+    "债务",
+    "debt",
+    "人民银行",
+    "PBC"
+  ],
+  "data_content": {
+    "en": [
+      "Individual Credit Reports: Personal credit history including loans, credit cards, repayment records, and public record information for over 1.1 billion individuals",
+      "Enterprise Credit Reports: Corporate credit histories including business loans, bonds, guarantees, and legal judgment records for 60+ million entities",
+      "Credit Statistics: Aggregate national statistics on credit scale, loan types, overdue rates, and financial system credit quality",
+      "Social Financing Scale: Monthly data on aggregate social financing (TSF), covering bank loans, corporate bonds, equity financing, and off-balance-sheet instruments",
+      "Credit System Research: Annual reports on China's credit system development, coverage rates, and comparative international analyses",
+      "Financial Institution Data: Credit registry data from thousands of banks and licensed non-bank financial institutions across China"
+    ],
+    "zh": [
+      "个人信用报告：超过11亿自然人的贷款、信用卡、还款记录和公共记录信息",
+      "企业信用报告：6000万余家企业的贷款、债券、担保和法院判决记录",
+      "信贷统计：全国信贷规模、贷款类型、逾期率和金融体系信贷质量汇总数据",
+      "社会融资规模：银行贷款、企业债券、股权融资及表外业务的社会融资规模月度数据",
+      "征信研究：中国征信体系发展、覆盖率及国际比较分析年报",
+      "金融机构数据：来自全国数千家银行和持牌非银行金融机构的征信数据"
+    ]
+  }
+}
