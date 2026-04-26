@@ -1,0 +1,80 @@
+{
+  "id": "china-nmic",
+  "name": {
+    "en": "National Meteorological Information Center",
+    "zh": "国家气象信息中心"
+  },
+  "description": {
+    "en": "The National Meteorological Information Center (NMIC), operating under the China Meteorological Administration, is China's primary hub for meteorological data collection, processing, archiving, and distribution. Its public platform, the China Meteorological Data Service Centre (data.cma.cn), provides open and authorized access to decades of surface observations, upper-air soundings, satellite products, radar mosaics, ocean-atmosphere data, and climate reanalysis datasets. Researchers, government agencies, and enterprises can register for tiered data access ranging from free public datasets to professional-grade high-resolution archives. NMIC maintains the National Basic Meteorological Dataset, which records over 2,400 national stations and more than 60,000 automatic weather stations. The center also hosts agrometeorological, marine meteorological, and global exchange datasets from WMO partner nations.",
+    "zh": "国家气象信息中心是中国气象局下属专业机构，负责全国气象数据的采集、加工、存档和分发。其公众服务平台——中国气象数据网（data.cma.cn）提供从免费公开数据到专业级高分辨率档案的分级开放访问。数据内容涵盖数十年地面观测、高空探测、卫星产品、雷达拼图、海气观测和气候再分析数据集。国家基本气象数据集记录了全国2400余个国家站和6万余个自动气象站的观测数据。中心还托管农业气象、海洋气象及世界气象组织成员国交换数据集，是中国气象科研和业务的核心数据枢纽。"
+  },
+  "website": "https://data.cma.cn",
+  "data_url": "https://data.cma.cn/data/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "meteorology",
+    "climate",
+    "environment",
+    "agriculture",
+    "earth-science"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "国家气象信息中心",
+    "NMIC",
+    "中国气象数据网",
+    "weather data",
+    "meteorology",
+    "climate data",
+    "气象数据",
+    "天气",
+    "气候",
+    "地面观测",
+    "surface observation",
+    "高空探测",
+    "upper-air sounding",
+    "卫星数据",
+    "satellite data",
+    "雷达",
+    "radar",
+    "再分析",
+    "reanalysis",
+    "农业气象",
+    "agrometeorological",
+    "自动气象站",
+    "automatic weather station",
+    "气候变化",
+    "climate change",
+    "降水",
+    "precipitation",
+    "温度",
+    "temperature",
+    "风速",
+    "wind"
+  ],
+  "data_content": {
+    "en": [
+      "Surface Observations: Temperature, precipitation, humidity, wind, pressure, and visibility from 2,400+ national stations and 60,000+ automatic weather stations",
+      "Upper-Air Soundings: Radiosonde profiles of temperature, humidity, and wind at pressure levels from the global upper-air network",
+      "Satellite Products: FY-series meteorological satellite imagery including cloud products, precipitation estimation, land surface temperature, and sea surface temperature",
+      "Radar Mosaics: Nationwide composite weather radar reflectivity and doppler wind products",
+      "Climate Reanalysis: Long-term atmospheric reanalysis datasets for climate research and model validation",
+      "Ocean-Atmosphere Data: Marine meteorological observations including sea surface parameters and wave data",
+      "Agrometeorological Data: Crop phenology, soil moisture, growing degree days, and agricultural weather indices",
+      "Global Exchange Data: Meteorological datasets received from WMO Global Telecommunication System partner countries"
+    ],
+    "zh": [
+      "地面观测：全国2400余个国家站和6万余个自动气象站的温度、降水、湿度、风速、气压、能见度数据",
+      "高空探测：探空仪测量各气压层的温度、湿度和风场廓线",
+      "卫星产品：风云系列气象卫星云产品、降水估算、地表温度和海面温度",
+      "雷达拼图：全国天气雷达反射率合成图及多普勒风场产品",
+      "气候再分析：供气候研究和模型验证的长期大气再分析数据集",
+      "海洋气象：海面气象观测、海浪等海气界面参数",
+      "农业气象：作物物候、土壤水分、积温和农业天气指数",
+      "全球交换数据：通过世界气象组织全球电信系统接收的各国气象数据集"
+    ]
+  }
+}

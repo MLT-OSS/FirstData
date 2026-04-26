@@ -1,0 +1,77 @@
+{
+  "id": "china-pku-opendata",
+  "name": {
+    "en": "Peking University Open Research Data Platform",
+    "zh": "北京大学开放研究数据平台"
+  },
+  "description": {
+    "en": "The Peking University Open Research Data Platform (PKU Open Data) is China's first comprehensive institutional open research data repository, built on the Harvard Dataverse framework and launched by Peking University Library. The platform enables PKU researchers and affiliated institutions to deposit, share, and cite research datasets across all disciplines, including social sciences, economics, public health, environmental studies, humanities, and natural sciences. Datasets are assigned DOI identifiers and linked to published papers, promoting reproducibility and open science. PKU Open Data hosts unique surveys, longitudinal studies, and experimental datasets from one of China's leading universities, making primary research data accessible to the global scholarly community.",
+    "zh": "北京大学开放研究数据平台是中国第一个综合性机构开放研究数据库，由北京大学图书馆依托哈佛大学Dataverse框架建立。平台支持北大研究人员及附属机构在社会科学、经济学、公共卫生、环境研究、人文学科和自然科学等各领域的数据集存档、共享和引用。数据集被分配DOI标识符并与发表论文关联，推动可重复研究和开放科学。平台托管了来自中国顶尖高校的独特调查、纵向研究和实验数据集，向全球学术界开放原始研究数据。"
+  },
+  "website": "https://opendata.pku.edu.cn",
+  "data_url": "https://opendata.pku.edu.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "social",
+    "economics",
+    "health",
+    "environment",
+    "science"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "北京大学",
+    "Peking University",
+    "PKU",
+    "开放数据",
+    "open data",
+    "研究数据",
+    "research data",
+    "数据仓库",
+    "data repository",
+    "Dataverse",
+    "社会科学数据",
+    "social science data",
+    "调查数据",
+    "survey data",
+    "纵向研究",
+    "longitudinal study",
+    "DOI",
+    "开放科学",
+    "open science",
+    "可重复研究",
+    "reproducibility",
+    "经济数据",
+    "economic data",
+    "公共卫生",
+    "public health",
+    "环境数据",
+    "environmental data",
+    "中国学术",
+    "Chinese academia",
+    "北大图书馆"
+  ],
+  "data_content": {
+    "en": [
+      "Social Science Datasets: Surveys, experiments, and longitudinal studies on Chinese society, demographics, labor markets, and social behavior",
+      "Economic Research Data: Firm-level datasets, economic experiments, trade data, and financial market studies from PKU economics research",
+      "Public Health Data: Epidemiological surveys, clinical study datasets, and population health monitoring data",
+      "Environmental Science Data: Ecological observations, pollution monitoring, and environmental impact assessment datasets",
+      "Humanities and Cultural Data: Historical records, digital humanities datasets, and cultural heritage documentation",
+      "Natural Sciences Data: Experimental datasets from physics, chemistry, biology, and materials science research",
+      "Multidisciplinary Survey Data: Cross-disciplinary surveys on topics such as education, poverty, inequality, and governance in China"
+    ],
+    "zh": [
+      "社会科学数据集：关于中国社会、人口、劳动力市场和社会行为的调查、实验和纵向研究",
+      "经济研究数据：来自北大经济学研究的企业级数据集、经济实验、贸易数据和金融市场研究",
+      "公共卫生数据：流行病学调查、临床研究数据集和人口健康监测数据",
+      "环境科学数据：生态观测、污染监测和环境影响评估数据集",
+      "人文与文化数据：历史档案、数字人文数据集和文化遗产记录",
+      "自然科学数据：物理、化学、生物和材料科学研究实验数据集",
+      "多学科调查数据：涵盖中国教育、贫困、不平等和治理等主题的跨学科调查"
+    ]
+  }
+}

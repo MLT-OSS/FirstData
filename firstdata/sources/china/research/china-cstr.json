@@ -1,0 +1,80 @@
+{
+  "id": "china-cstr",
+  "name": {
+    "en": "China Science & Technology Resource Identifier Platform",
+    "zh": "科技资源标识服务平台"
+  },
+  "description": {
+    "en": "The China Science and Technology Resource Identifier (CSTR) Platform is China's national persistent identifier system for scientific data resources, operated by the National Science and Technology Infrastructure Center (NSTIC) under the Ministry of Science and Technology. Analogous to DOIs for publications, CSTR assigns permanent, resolvable identifiers to scientific datasets, instruments, specimens, and other research resources managed by China's major scientific data centers. The platform serves as the authoritative registry and resolution service for scientific resources from institutions including the Chinese Academy of Sciences, national key laboratories, and data centers under the National Science and Technology Basic Conditions Platform. Through CSTR, users can discover, cite, and access standardized scientific data across disciplines such as earth sciences, life sciences, materials, astronomy, and social sciences.",
+    "zh": "科技资源标识服务平台（CSTR）是中国科技部国家科技基础条件平台中心运营的国家级科学数据资源持久标识体系。类似于学术出版物的DOI，CSTR为中国主要科学数据中心管理的数据集、仪器设备、标本和其他研究资源分配永久可解析标识符。平台作为科学院、国家重点实验室和国家科技基础条件平台下属数据中心科学资源的权威注册和解析服务，支持跨地球科学、生命科学、材料科学、天文学和社会科学等领域的科学数据发现、引用和访问。"
+  },
+  "website": "https://cstr.cn",
+  "data_url": "https://cstr.cn/resreg",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "earth-science",
+    "biology",
+    "materials",
+    "astronomy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "科技资源标识",
+    "CSTR",
+    "科学数据",
+    "scientific data",
+    "数据标识",
+    "data identifier",
+    "持久标识",
+    "persistent identifier",
+    "DOI",
+    "科学数据中心",
+    "scientific data center",
+    "国家科技基础条件平台",
+    "national science infrastructure",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "地球科学",
+    "earth science",
+    "生命科学",
+    "life science",
+    "材料科学",
+    "materials science",
+    "天文学",
+    "astronomy",
+    "数据共享",
+    "data sharing",
+    "科研数据管理",
+    "research data management",
+    "开放科学",
+    "open science",
+    "数据仓库",
+    "data repository"
+  ],
+  "data_content": {
+    "en": [
+      "Scientific Dataset Registry: Persistent identifiers linking to datasets from China's national scientific data centers across all major disciplines",
+      "Earth and Environment Data: Geoscience, climate, ecology, and environmental observation datasets from CAS institutes and national observatories",
+      "Life Science Data: Biological specimen collections, genomics, biodiversity, and biomedical research datasets",
+      "Materials Science Data: Crystallography, materials properties, and experimental materials datasets from national labs",
+      "Astronomy and Space Data: Observational astronomy data, space science mission products, and cosmological datasets",
+      "Social Science Data: Survey and census data from social science research centers and population studies institutes",
+      "Instrument and Facility Registry: Records of major scientific instruments and facilities available to the research community",
+      "Cross-domain Discovery: Unified search and citation system for all CSTR-identified resources across participating data centers"
+    ],
+    "zh": [
+      "科学数据集注册：链接至中国各主要学科国家科学数据中心数据集的持久标识符",
+      "地球与环境数据：来自中科院研究所和国家观测站的地球科学、气候、生态和环境观测数据集",
+      "生命科学数据：生物标本馆藏、基因组学、生物多样性和生物医学研究数据集",
+      "材料科学数据：来自国家实验室的晶体学、材料性质和实验材料数据集",
+      "天文与空间数据：天文观测数据、航天任务产品和宇宙学数据集",
+      "社会科学数据：社会科学研究中心和人口研究所的调查和普查数据",
+      "仪器设备注册：向科研界开放的大型科学仪器和设施信息",
+      "跨领域发现：面向各参与数据中心所有CSTR标识资源的统一检索和引用系统"
+    ]
+  }
+}
