@@ -1,0 +1,65 @@
+{
+  "id": "china-shenzhen-stic",
+  "name": {
+    "en": "Shenzhen Science, Technology and Innovation Commission",
+    "zh": "深圳市科技创新局"
+  },
+  "description": {
+    "en": "The Shenzhen Science, Technology and Innovation Commission (formerly Shenzhen Science and Technology Innovation Committee) is the municipal government agency responsible for science, technology, and innovation policy in Shenzhen, China's foremost innovation city. The commission oversees R&D funding, high-tech enterprise recognition, technology incubators, and innovation ecosystem development. It publishes data on R&D expenditure, patent applications, high-tech enterprise statistics, technology project funding, and science park performance. Shenzhen's innovation data is critical for understanding China's technology industry development, particularly in areas like AI, semiconductors, telecommunications, and biotechnology.",
+    "zh": "深圳市科技创新局（原深圳市科技创新委员会）是负责深圳市科学技术和创新政策的市级政府部门。深圳是中国最具创新活力的城市，该局负责研发资金管理、高新技术企业认定、科技孵化器和创新生态系统建设。发布研发投入、专利申请、高新技术企业统计、科技项目资助和科技园区运营等数据。深圳的科技创新数据对了解中国科技产业发展，特别是人工智能、半导体、通信和生物技术等领域具有重要价值。"
+  },
+  "website": "https://stic.sz.gov.cn",
+  "data_url": "https://stic.sz.gov.cn/xxgk/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "technology",
+    "innovation",
+    "research"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "深圳科技",
+    "Shenzhen technology",
+    "深圳创新",
+    "Shenzhen innovation",
+    "研发投入",
+    "R&D expenditure",
+    "高新技术企业",
+    "high-tech enterprise",
+    "科技创新",
+    "science and technology innovation",
+    "专利申请",
+    "patent applications",
+    "科技项目",
+    "technology projects",
+    "深圳高新区",
+    "Shenzhen Hi-Tech Zone",
+    "鲲鹏计划",
+    "Kunpeng program",
+    "深圳科技园",
+    "Shenzhen science park"
+  ],
+  "data_content": {
+    "en": [
+      "R&D expenditure: annual R&D spending by sector, enterprise size, and research type in Shenzhen",
+      "High-tech enterprises: recognition lists, total count, and industry distribution of national high-tech enterprises in Shenzhen",
+      "Patent statistics: patent applications, grants, and technology transfer data for Shenzhen enterprises and institutions",
+      "Technology project funding: government-funded science and technology projects, grant amounts, and outcomes",
+      "Innovation platforms: key laboratories, engineering research centers, and technology incubator performance data",
+      "Science parks: output, employment, and revenue data for Shenzhen's science and technology parks",
+      "Talent programs: science and technology talent support program data, including Kunpeng and Peacock talent plans"
+    ],
+    "zh": [
+      "研发投入：按行业、企业规模和研究类型分类的深圳年度研发支出",
+      "高新技术企业：深圳国家高新技术企业认定名单、总数量和行业分布",
+      "专利统计：深圳企业和机构的专利申请、授权和技术转让数据",
+      "科技项目资助：政府资助的科技项目、拨款金额和成果",
+      "创新平台：重点实验室、工程研究中心和科技孵化器运营数据",
+      "科技园区：深圳科技园区的产值、就业和营收数据",
+      "人才计划：鲲鹏计划、孔雀计划等科技人才支持计划数据"
+    ]
+  }
+}

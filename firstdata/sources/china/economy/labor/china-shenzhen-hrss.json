@@ -1,0 +1,65 @@
+{
+  "id": "china-shenzhen-hrss",
+  "name": {
+    "en": "Shenzhen Municipal Human Resources and Social Security Bureau",
+    "zh": "深圳市人力资源和社会保障局"
+  },
+  "description": {
+    "en": "The Shenzhen Municipal Human Resources and Social Security Bureau is the city government agency responsible for employment, labor market regulation, social insurance, and talent policies in Shenzhen. As China's leading technology hub, Shenzhen's labor market data provides key insights into high-tech talent demand, salary trends, and employment dynamics. The bureau publishes labor market wage guidance prices, employment statistics, social insurance participation data, work injury compensation standards, and talent introduction policies. Its data is particularly valuable for understanding employment patterns in China's innovation economy and the Greater Bay Area labor market.",
+    "zh": "深圳市人力资源和社会保障局是负责深圳市就业、劳动力市场管理、社会保险和人才政策的市级政府部门。深圳作为中国领先的科技创新中心，其劳动力市场数据为了解高科技人才需求、薪资趋势和就业动态提供了重要洞察。该局发布劳动力市场工资指导价位、就业统计数据、社会保险参保数据、工伤赔偿标准和人才引进政策等信息，其数据对了解中国创新经济就业模式和粤港澳大湾区劳动力市场具有重要参考价值。"
+  },
+  "website": "https://hrss.sz.gov.cn",
+  "data_url": "https://hrss.sz.gov.cn/xxgk/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "employment",
+    "social-security",
+    "labor"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "深圳人力资源",
+    "Shenzhen human resources",
+    "深圳就业",
+    "Shenzhen employment",
+    "深圳社保",
+    "Shenzhen social security",
+    "工资指导价",
+    "wage guidance",
+    "劳动力市场",
+    "labor market",
+    "人才引进",
+    "talent introduction",
+    "社会保险",
+    "social insurance",
+    "最低工资",
+    "minimum wage",
+    "深圳薪资",
+    "Shenzhen salary",
+    "粤港澳大湾区",
+    "Greater Bay Area"
+  ],
+  "data_content": {
+    "en": [
+      "Wage guidance: annual labor market wage guidance prices by occupation, industry, and education level",
+      "Employment statistics: employment and unemployment statistics, job market supply and demand data",
+      "Social insurance: participation numbers and contribution rates for pension, medical, unemployment, work injury, and maternity insurance",
+      "Talent policies: talent introduction quotas, high-level talent recognition data, and overseas returnee employment statistics",
+      "Labor relations: labor dispute arbitration case statistics, collective contract coverage data",
+      "Vocational training: skills training program enrollment, certification pass rates, and vocational qualification data",
+      "Minimum wage standards: annual minimum wage adjustments and compliance data"
+    ],
+    "zh": [
+      "工资指导：按职业、行业和学历分类的年度劳动力市场工资指导价位",
+      "就业统计：就业和失业统计数据、人才市场供求信息",
+      "社会保险：养老、医疗、失业、工伤和生育保险参保人数及缴费比例",
+      "人才政策：人才引进配额、高层次人才认定数据和海归就业统计",
+      "劳动关系：劳动争议仲裁案件统计、集体合同覆盖数据",
+      "职业培训：技能培训项目招生、认证通过率和职业资格数据",
+      "最低工资标准：年度最低工资调整及执行数据"
+    ]
+  }
+}
