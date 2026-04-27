@@ -1,0 +1,63 @@
+{
+  "id": "china-chinadrugtrials",
+  "name": {
+    "en": "China Drug Clinical Trials Registration and Information Disclosure Platform",
+    "zh": "药物临床试验登记与信息公示平台"
+  },
+  "description": {
+    "en": "The China Drug Clinical Trials Registration and Information Disclosure Platform is operated by the Center for Drug Evaluation (CDE) under the National Medical Products Administration (NMPA). It serves as China's official registry for drug clinical trials, providing public access to trial registration data, study protocols, and results. The platform covers all phases of clinical trials conducted in China, including trials for chemical drugs, biological products, and traditional Chinese medicines. Researchers, pharmaceutical companies, and the public can search for ongoing and completed trials, review study designs, and access outcome information. The platform plays a critical role in promoting transparency and accountability in China's pharmaceutical clinical research ecosystem.",
+    "zh": "药物临床试验登记与信息公示平台由国家药品监督管理局药品审评中心（CDE）运营，是中国药物临床试验的官方登记注册平台，提供试验登记数据、研究方案和结果的公开访问。平台覆盖在中国开展的所有阶段临床试验，包括化学药品、生物制品和中药的临床试验。研究人员、制药企业和公众可以检索正在进行和已完成的临床试验，审查研究设计并获取结果信息。该平台在促进中国医药临床研究生态系统的透明度和问责制方面发挥着关键作用。"
+  },
+  "website": "https://www.chinadrugtrials.org.cn",
+  "data_url": "https://www.chinadrugtrials.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "pharmaceuticals"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "临床试验",
+    "clinical trials",
+    "药物",
+    "drug",
+    "CDE",
+    "药品审评",
+    "drug evaluation",
+    "NMPA",
+    "国家药监局",
+    "pharmaceutical",
+    "制药",
+    "试验登记",
+    "trial registration",
+    "生物制品",
+    "biological products",
+    "中药",
+    "traditional Chinese medicine",
+    "研究方案",
+    "study protocol",
+    "药物研发",
+    "drug development"
+  ],
+  "data_content": {
+    "en": [
+      "Clinical trial registration records: trial ID, sponsor, study title, therapeutic area, drug name, trial phase, and registration date",
+      "Study protocol details: study design, objectives, endpoints, inclusion/exclusion criteria, sample size, and treatment arms",
+      "Trial status tracking: recruitment status, start and completion dates, and participating clinical sites across China",
+      "Drug information: investigational drug details, dosage forms, routes of administration, and indications under study",
+      "Sponsor and investigator data: sponsoring organizations, principal investigators, and ethics committee approval information",
+      "Trial results summaries: outcome data and results for completed clinical trials when available"
+    ],
+    "zh": [
+      "临床试验登记记录：试验编号、申办者、研究题目、治疗领域、药物名称、试验分期及登记日期",
+      "研究方案详情：研究设计、目的、终点指标、入选/排除标准、样本量及治疗组别",
+      "试验状态跟踪：招募状态、开始与完成日期及全国参与临床试验机构",
+      "药物信息：在研药物详情、剂型、给药途径及研究适应症",
+      "申办者与研究者数据：申办机构、主要研究者及伦理委员会批件信息",
+      "试验结果摘要：已完成临床试验的结局数据和结果信息"
+    ]
+  }
+}

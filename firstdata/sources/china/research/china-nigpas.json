@@ -1,0 +1,67 @@
+{
+  "id": "china-nigpas",
+  "name": {
+    "en": "Nanjing Institute of Geology and Palaeontology, Chinese Academy of Sciences",
+    "zh": "中国科学院南京地质古生物研究所"
+  },
+  "description": {
+    "en": "The Nanjing Institute of Geology and Palaeontology (NIGPAS), established in 1951 under the Chinese Academy of Sciences, is China's only dedicated institution for palaeontology and stratigraphy research. NIGPAS maintains one of the world's largest fossil collections with over 200,000 specimens covering invertebrate palaeontology, palaeobotany, micropaleontology, and biostratigraphy. The institute operates the Nanjing Museum of Palaeontology and manages comprehensive databases of fossil specimens, stratigraphic sections, and geological time calibration data. NIGPAS plays a central role in establishing China's biostratigraphic framework and contributes to international efforts in geological time scale calibration. Its research data supports studies in Earth's life evolution, mass extinction events, palaeoclimate reconstruction, and petroleum exploration stratigraphy.",
+    "zh": "中国科学院南京地质古生物研究所成立于1951年，是中国唯一专门从事古生物学和地层学研究的机构。NIGPAS维护着世界上最大的化石收藏之一，拥有超过20万件标本，涵盖无脊椎古生物学、古植物学、微体古生物学和生物地层学。研究所运营南京古生物博物馆，管理化石标本、地层剖面和地质年代标定数据的综合数据库。NIGPAS在建立中国生物地层学框架中发挥核心作用，并为国际地质年代表标定工作作出贡献。其研究数据支持地球生命演化、大灭绝事件、古气候重建和石油勘探地层学等领域的研究。"
+  },
+  "website": "http://www.nigpas.ac.cn",
+  "data_url": "http://www.nigpas.ac.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "geology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "古生物",
+    "palaeontology",
+    "paleontology",
+    "地层学",
+    "stratigraphy",
+    "化石",
+    "fossil",
+    "NIGPAS",
+    "南京地质古生物研究所",
+    "地质年代",
+    "geological time",
+    "古植物",
+    "palaeobotany",
+    "微体古生物",
+    "micropaleontology",
+    "生物地层",
+    "biostratigraphy",
+    "大灭绝",
+    "mass extinction",
+    "古气候",
+    "palaeoclimate",
+    "中国科学院",
+    "CAS",
+    "标本",
+    "specimen"
+  ],
+  "data_content": {
+    "en": [
+      "Fossil specimen database: taxonomic records, locality data, geological age, and imaging for over 200,000 fossil specimens in the NIGPAS collection",
+      "Stratigraphic section data: measured sections with lithological descriptions, biostratigraphic zonation, and chronostratigraphic correlation across China",
+      "Geological time scale calibration: high-resolution age data from GSSP (Global Boundary Stratotype Section and Point) candidates studied by NIGPAS",
+      "Palaeobotanical records: fossil plant morphology, taxonomy, and distribution data from Palaeozoic through Cenozoic periods",
+      "Micropaleontological datasets: conodont, foraminifer, and other microfossil biostratigraphic range data",
+      "Mass extinction event data: geochemical, isotopic, and fossil occurrence records for major Phanerozoic extinction boundaries"
+    ],
+    "zh": [
+      "化石标本数据库：NIGPAS收藏的超过20万件化石标本的分类记录、产地数据、地质年代和影像资料",
+      "地层剖面数据：中国各地实测剖面的岩性描述、生物地层带划分和年代地层对比",
+      "地质年代表标定：NIGPAS研究的GSSP（全球界线层型剖面和点位）候选剖面高分辨率年龄数据",
+      "古植物学记录：古生代至新生代化石植物形态学、分类学和分布数据",
+      "微体古生物数据集：牙形石、有孔虫及其他微体化石生物地层延限数据",
+      "大灭绝事件数据：显生宙主要灭绝界线的地球化学、同位素和化石产出记录"
+    ]
+  }
+}

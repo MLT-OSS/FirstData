@@ -1,0 +1,67 @@
+{
+  "id": "china-nssdc",
+  "name": {
+    "en": "National Space Science Data Center",
+    "zh": "国家空间科学数据中心"
+  },
+  "description": {
+    "en": "The National Space Science Data Center (NSSDC) is one of China's 20 national science data centers, managed by the National Space Science Center of the Chinese Academy of Sciences. NSSDC serves as the authoritative repository for space science mission data in China, providing long-term preservation, curation, and open sharing of data from China's space science satellite programs including DAMPE (Wukong), HXMT (Insight), EP (Einstein Probe), QUESS (Mozi), and other missions. The center also archives solar-terrestrial space environment monitoring data, geomagnetic field observations, and cosmic ray measurements. NSSDC offers standardized data access services with DOI-based data citation, supporting domestic and international researchers in space physics, astrophysics, planetary science, and space weather forecasting.",
+    "zh": "国家空间科学数据中心是中国20个国家科学数据中心之一，由中国科学院国家空间科学中心管理。NSSDC是中国空间科学任务数据的权威存储库，提供来自悟空号、慧眼号、爱因斯坦探针、墨子号等中国空间科学卫星项目数据的长期保存、整理和开放共享服务。中心还归档日地空间环境监测数据、地磁场观测和宇宙线测量数据。NSSDC提供基于DOI数据引用的标准化数据访问服务，支持国内外研究人员在空间物理、天体物理、行星科学和空间天气预报等领域的研究。"
+  },
+  "website": "https://www.nssdc.ac.cn",
+  "data_url": "https://www.nssdc.ac.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "space"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "空间科学",
+    "space science",
+    "NSSDC",
+    "国家科学数据中心",
+    "national science data center",
+    "卫星数据",
+    "satellite data",
+    "悟空号",
+    "DAMPE",
+    "慧眼号",
+    "HXMT",
+    "爱因斯坦探针",
+    "Einstein Probe",
+    "墨子号",
+    "QUESS",
+    "空间天气",
+    "space weather",
+    "宇宙线",
+    "cosmic ray",
+    "地磁场",
+    "geomagnetic field",
+    "天体物理",
+    "astrophysics",
+    "中国科学院",
+    "CAS"
+  ],
+  "data_content": {
+    "en": [
+      "Space science satellite mission data: calibrated scientific data products from DAMPE, HXMT, EP, QUESS, and other Chinese space science missions",
+      "Solar-terrestrial environment monitoring: solar wind parameters, interplanetary magnetic field measurements, and magnetospheric observation data",
+      "Geomagnetic field observations: ground-based geomagnetic station network data including geomagnetic indices and field component measurements",
+      "Cosmic ray measurement data: ground-based and space-based cosmic ray flux, energy spectrum, and composition observations",
+      "Space weather forecasting data: real-time and archival space environment condition data for solar activity and geomagnetic storm prediction",
+      "Planetary science data: lunar and Mars exploration mission data products from Chang'e and Tianwen programs"
+    ],
+    "zh": [
+      "空间科学卫星任务数据：悟空号、慧眼号、爱因斯坦探针、墨子号等中国空间科学任务的定标科学数据产品",
+      "日地环境监测：太阳风参数、行星际磁场测量及磁层观测数据",
+      "地磁场观测：地面地磁台站网络数据，包括地磁指数和磁场分量测量",
+      "宇宙线测量数据：地面和空间宇宙线通量、能谱和成分观测数据",
+      "空间天气预报数据：用于太阳活动和地磁暴预报的实时与存档空间环境状态数据",
+      "行星科学数据：嫦娥和天问系列月球与火星探测任务数据产品"
+    ]
+  }
+}
