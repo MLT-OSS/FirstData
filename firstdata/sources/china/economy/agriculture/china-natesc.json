@@ -1,0 +1,73 @@
+{
+  "id": "china-natesc",
+  "name": {
+    "en": "National Agro-Tech Extension and Service Center",
+    "zh": "全国农业技术推广服务中心"
+  },
+  "description": {
+    "en": "The National Agro-Tech Extension and Service Center (NATESC) is a national public institution under China's Ministry of Agriculture and Rural Affairs (MARA), responsible for organizing and guiding agricultural technology extension, crop disease and pest monitoring, seed quality testing, and soil fertility assessment across China. Established in 1994, NATESC coordinates the national agricultural extension network linking central, provincial, and county-level stations, managing information systems on crop growth monitoring, pest and disease surveillance, fertilizer usage, and agricultural inputs. It publishes annual crop pest early-warning bulletins, soil fertility surveys, agricultural technology adoption statistics, and farm input data that support agricultural production planning and food security policy formulation.",
+    "zh": "全国农业技术推广服务中心（全国农技推广中心）是农业农村部下属全国性公益性机构，负责组织和指导全国农业技术推广、农作物病虫害监测、种子质量检测和土壤肥力评估工作。中心成立于1994年，协调贯通县、省、部三级农业技术推广网络，管理作物生长监测、病虫害监测、化肥施用和农业投入品等信息系统。中心发布年度作物病虫害早期预警公告、土壤肥力调查报告、农业技术应用统计和农资数据，支撑农业生产计划和粮食安全政策制定。"
+  },
+  "website": "http://www.natesc.org.cn",
+  "data_url": "http://www.natesc.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "technology",
+    "environment",
+    "social"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "全国农业技术推广服务中心",
+    "全国农技推广",
+    "NATESC",
+    "National Agro-Tech Extension and Service Center",
+    "农业技术推广",
+    "agricultural technology extension",
+    "病虫害监测",
+    "pest and disease monitoring",
+    "农作物病虫害",
+    "crop pests and diseases",
+    "土壤肥力",
+    "soil fertility",
+    "化肥",
+    "fertilizer",
+    "种子质量",
+    "seed quality",
+    "农业投入品",
+    "agricultural inputs",
+    "粮食安全",
+    "food security",
+    "农技推广网络",
+    "agro-tech extension network",
+    "作物生长监测",
+    "crop growth monitoring",
+    "农业部",
+    "MARA",
+    "农业农村部"
+  ],
+  "data_content": {
+    "en": [
+      "Crop pest and disease monitoring: national surveillance data on major crop pests (locusts, aphids, etc.) and diseases across China's farming regions",
+      "Early-warning bulletins: seasonal and annual early-warning reports on crop pest outbreaks and disease epidemics",
+      "Soil fertility surveys: periodic national soil nutrient status assessments and fertilizer recommendation data",
+      "Fertilizer usage statistics: annual data on fertilizer application rates, types, and trends across China's agricultural regions",
+      "Seed quality testing reports: inspection results for crop seed varieties on germination rates, purity, and moisture content",
+      "Agricultural technology adoption statistics: data on diffusion of new crop varieties, farming techniques, and mechanization",
+      "Crop growth monitoring bulletins: periodic crop condition assessments and yield forecast data during growing seasons"
+    ],
+    "zh": [
+      "农作物病虫害监测：中国农业区主要作物病虫害（蝗虫、蚜虫等）全国监测数据",
+      "早期预警公告：作物病虫害暴发和疫情的季节性和年度早期预警报告",
+      "土壤肥力调查：定期全国土壤养分状况评估和化肥施用建议数据",
+      "化肥施用统计：中国各农业区化肥施用量、种类和趋势年度数据",
+      "种子质量检测报告：作物种子品种发芽率、纯度和水分含量检测结果",
+      "农业技术应用统计：新品种、农业技术和机械化推广应用数据",
+      "作物生长监测公告：生长季节定期作物长势评估和产量预报数据"
+    ]
+  }
+}

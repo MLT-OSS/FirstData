@@ -1,0 +1,75 @@
+{
+  "id": "china-nsoas",
+  "name": {
+    "en": "National Satellite Ocean Application Service",
+    "zh": "国家卫星海洋应用中心"
+  },
+  "description": {
+    "en": "The National Satellite Ocean Application Service (NSOAS) is the specialized agency under China's Ministry of Natural Resources responsible for the operational application of ocean satellites and marine remote sensing data. NSOAS manages China's HY (Haiyang/Ocean) satellite series, including HY-1 and HY-2 satellites for ocean color observation, sea surface temperature, wind fields, and sea level measurement. It serves as the national center for ocean satellite data reception, processing, archiving, and distribution, providing remote sensing products to governmental agencies, research institutions, and international partners. NSOAS publishes ocean environmental monitoring data, satellite-derived marine datasets, and conducts application research in fishery monitoring, sea ice observation, and coastal zone management.",
+    "zh": "国家卫星海洋应用中心是自然资源部下属专业机构，负责海洋卫星和海洋遥感数据的业务化应用。中心负责管理中国海洋（HY）系列卫星，包括用于海洋水色观测、海面温度、风场和海面高度测量的HY-1和HY-2卫星。作为全国海洋卫星数据接收、处理、存档和分发国家中心，向政府部门、科研机构和国际合作伙伴提供遥感产品。中心发布海洋环境监测数据、卫星海洋数据集，并在渔业监测、海冰观测和海岸带管理等领域开展应用研究。"
+  },
+  "website": "http://www.nsoas.org.cn",
+  "data_url": "http://www.nsoas.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "ocean",
+    "environment",
+    "climate",
+    "remote-sensing"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "国家卫星海洋应用中心",
+    "NSOAS",
+    "National Satellite Ocean Application Service",
+    "海洋卫星",
+    "ocean satellite",
+    "HY卫星",
+    "HY satellite",
+    "Haiyang satellite",
+    "海洋遥感",
+    "ocean remote sensing",
+    "海面温度",
+    "sea surface temperature",
+    "SST",
+    "海洋水色",
+    "ocean color",
+    "风场",
+    "wind field",
+    "海平面",
+    "sea level",
+    "海冰",
+    "sea ice",
+    "渔业监测",
+    "fishery monitoring",
+    "海岸带",
+    "coastal zone",
+    "卫星数据",
+    "satellite data",
+    "海洋环境监测",
+    "marine environmental monitoring"
+  ],
+  "data_content": {
+    "en": [
+      "Ocean color data: chlorophyll-a concentration, suspended sediment, and ocean color products derived from HY-1 satellite imagery",
+      "Sea surface temperature: satellite-measured SST products covering China's sea areas and adjacent oceans",
+      "Sea surface wind fields: ocean wind speed and direction measurements from HY-2 microwave scatterometers",
+      "Sea surface height and waves: altimetry-derived sea level anomaly and significant wave height datasets",
+      "Sea ice monitoring: seasonal sea ice extent, concentration, and thickness data for polar and China's sea areas",
+      "Fishery resources monitoring: satellite-derived data supporting marine fishery stock assessment and fishing ground prediction",
+      "Coastal zone remote sensing: high-resolution satellite imagery and derived products for coastal land-sea interface monitoring"
+    ],
+    "zh": [
+      "海洋水色数据：基于HY-1卫星图像的叶绿素a浓度、悬浮泥沙和海洋水色产品",
+      "海面温度：覆盖中国海域及邻近海洋的卫星海面温度产品",
+      "海面风场：HY-2微波散射计测量的海面风速和风向",
+      "海面高度与波浪：高度计反演的海面高度异常和有效波高数据集",
+      "海冰监测：极地和中国海域的季节性海冰范围、密集度和厚度数据",
+      "渔业资源监测：支持海洋渔业资源评估和渔场预报的卫星反演数据",
+      "海岸带遥感：用于海岸带陆海交互监测的高分辨率卫星影像及衍生产品"
+    ]
+  }
+}

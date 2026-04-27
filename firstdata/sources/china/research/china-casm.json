@@ -1,0 +1,76 @@
+{
+  "id": "china-casm",
+  "name": {
+    "en": "Chinese Academy of Surveying and Mapping",
+    "zh": "中国测绘科学研究院"
+  },
+  "description": {
+    "en": "The Chinese Academy of Surveying and Mapping (CASM) is the national research institution for surveying, mapping, and geoinformation under China's Ministry of Natural Resources. Founded in 1959, CASM conducts cutting-edge research on geodesy, cartography, remote sensing, geographic information systems (GIS), and spatial data infrastructure. It is responsible for developing national surveying and mapping standards, technical norms, and theoretical frameworks for China's geospatial information industry. CASM maintains and produces key national geodetic datasets, digital elevation models, topographic maps, and geospatial reference frameworks. It also conducts research on satellite navigation and positioning (BeiDou/GNSS), photogrammetry, and marine surveying technologies, contributing to national spatial data infrastructure development and international mapping cooperation.",
+    "zh": "中国测绘科学研究院（CASM）是自然资源部下属的测绘、地图制图和地理信息国家级研究机构，成立于1959年。中心在大地测量、地图制图、遥感、地理信息系统（GIS）和空间数据基础设施领域开展前沿研究，负责制定中国测绘行业国家标准、技术规范和理论框架。中心维护和生产国家大地测量数据集、数字高程模型、地形图和地理空间参考框架，并在卫星导航定位（北斗/GNSS）、摄影测量和海洋测绘技术领域开展研究，推动国家空间数据基础设施建设和国际测绘合作。"
+  },
+  "website": "https://www.casm.ac.cn",
+  "data_url": "https://www.casm.ac.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "geography",
+    "remote-sensing",
+    "infrastructure",
+    "technology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国测绘科学研究院",
+    "CASM",
+    "Chinese Academy of Surveying and Mapping",
+    "测绘",
+    "surveying and mapping",
+    "大地测量",
+    "geodesy",
+    "地图制图",
+    "cartography",
+    "地理信息",
+    "geographic information",
+    "GIS",
+    "遥感",
+    "remote sensing",
+    "空间数据",
+    "spatial data",
+    "数字高程模型",
+    "DEM",
+    "digital elevation model",
+    "地形图",
+    "topographic map",
+    "北斗",
+    "BeiDou",
+    "GNSS",
+    "摄影测量",
+    "photogrammetry",
+    "测绘标准",
+    "mapping standards",
+    "地理空间",
+    "geospatial"
+  ],
+  "data_content": {
+    "en": [
+      "Geodetic datasets: national geodetic control networks, reference frames, and precise coordinate data for surveying benchmarks across China",
+      "Digital elevation models: national DEM products at various resolutions derived from topographic surveys and remote sensing",
+      "Topographic maps: digital and paper topographic map series covering mainland China at multiple scales",
+      "Geospatial standards: national standards and technical specifications for surveying, mapping, and geographic information systems in China",
+      "Remote sensing data products: processed satellite and airborne remote sensing imagery for mapping and change detection applications",
+      "BeiDou/GNSS positioning: research datasets and technical documentation related to China's BeiDou Navigation Satellite System applications",
+      "Marine surveying data: bathymetric charts and coastal zone survey datasets from China's territorial waters"
+    ],
+    "zh": [
+      "大地测量数据集：全国大地控制网、参考框架及遍布中国的测量基准精密坐标数据",
+      "数字高程模型：由地形测量和遥感数据生成的多分辨率国家DEM产品",
+      "地形图：覆盖中国大陆多比例尺的数字及纸质地形图系列",
+      "地理空间标准：中国测绘和地理信息系统领域的国家标准和技术规范",
+      "遥感数据产品：用于测绘和变化检测的星载及机载遥感影像处理产品",
+      "北斗/GNSS定位：与中国北斗卫星导航系统应用相关的研究数据集及技术文档",
+      "海洋测绘数据：中国领海区域水深图和海岸带测量数据集"
+    ]
+  }
+}
