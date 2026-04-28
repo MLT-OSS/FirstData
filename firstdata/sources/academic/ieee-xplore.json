@@ -1,0 +1,55 @@
+{
+  "id": "ieee-xplore",
+  "name": {
+    "en": "IEEE Xplore Digital Library",
+    "zh": "IEEE Xplore数字图书馆"
+  },
+  "description": {
+    "en": "IEEE Xplore is a research database providing access to scientific and technical content published by IEEE (Institute of Electrical and Electronics Engineers) and its publishing partners. It contains over 6 million documents including journal articles, conference proceedings, technical standards, and books covering electrical engineering, computer science, electronics, and related fields.",
+    "zh": "IEEE Xplore是一个科研数据库，提供IEEE（电气和电子工程师协会）及其合作出版方发布的科学技术内容。收录超过600万篇文献，包括期刊论文、会议论文、技术标准和专著，覆盖电气工程、计算机科学、电子学等相关领域。"
+  },
+  "website": "https://www.ieee.org",
+  "data_url": "https://ieeexplore.ieee.org",
+  "api_url": "https://developer.ieee.org/docs/read/IEEE_Xplore_Metadata_API",
+  "authority_level": "research",
+  "country": null,
+  "domains": [
+    "science",
+    "technology",
+    "engineering",
+    "computer-science"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "daily",
+  "tags": [
+    "IEEE",
+    "IEEE Xplore",
+    "学术论文",
+    "research-papers",
+    "conference-proceedings",
+    "technical-standards",
+    "电气工程",
+    "计算机科学",
+    "半导体",
+    "semiconductor",
+    "artificial-intelligence",
+    "academic",
+    "peer-reviewed"
+  ],
+  "data_content": {
+    "en": [
+      "Journal Articles - Peer-reviewed research papers from over 200 IEEE journals and magazines",
+      "Conference Proceedings - Papers from over 2,000 annual IEEE conferences worldwide",
+      "Technical Standards - IEEE standards documents covering electronics, computing, power, and telecommunications",
+      "Books and eBooks - Technical reference books and educational materials",
+      "Early Access Articles - Pre-publication versions of accepted journal articles"
+    ],
+    "zh": [
+      "期刊论文 - 来自200多种IEEE期刊和杂志的同行评审研究论文",
+      "会议论文 - 来自全球2000多个IEEE年度会议的论文",
+      "技术标准 - 覆盖电子、计算、电力和电信领域的IEEE标准文件",
+      "书籍和电子书 - 技术参考书和教育材料",
+      "早期访问论文 - 已接受期刊论文的预出版版本"
+    ]
+  }
+}

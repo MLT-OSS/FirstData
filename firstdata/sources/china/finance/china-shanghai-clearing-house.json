@@ -1,0 +1,55 @@
+{
+  "id": "china-shanghai-clearing-house",
+  "name": {
+    "en": "Shanghai Clearing House",
+    "zh": "上海清算所"
+  },
+  "description": {
+    "en": "Shanghai Clearing House (SHCH) is a national financial market infrastructure institution established with the approval of the State Council of China. It provides central counterparty clearing, information disclosure, and data services for China's interbank market, covering bonds, interest rate derivatives, foreign exchange derivatives, and commodity derivatives.",
+    "zh": "上海清算所是经国务院批准设立的国家级金融市场基础设施，为中国银行间市场提供中央对手方清算、信息披露和数据服务，覆盖债券、利率衍生品、外汇衍生品和大宗商品衍生品等产品。"
+  },
+  "website": "https://www.shclearing.com.cn",
+  "data_url": "https://www.shclearing.com.cn/sjtj/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "bonds",
+    "derivatives",
+    "clearing"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "shanghai-clearing-house",
+    "上海清算所",
+    "SHCH",
+    "中央对手方清算",
+    "CCP",
+    "银行间市场",
+    "interbank-market",
+    "债券",
+    "bonds",
+    "利率衍生品",
+    "外汇衍生品",
+    "清算",
+    "clearing"
+  ],
+  "data_content": {
+    "en": [
+      "Clearing Statistics - Daily clearing volumes, open interest, and settlement data for various product categories",
+      "Bond Valuation Data - Daily valuation prices for interbank bonds and related instruments",
+      "Interest Rate Curves - Yield curves and benchmark interest rate data",
+      "Market Data Reports - Monthly and annual market statistics and trend analysis",
+      "Product Information - Details on cleared products including bonds, IRS, FX derivatives, and commodity derivatives"
+    ],
+    "zh": [
+      "清算统计 - 各产品类别的每日清算量、持仓量及结算数据",
+      "债券估值数据 - 银行间债券及相关工具的每日估值价格",
+      "利率曲线 - 收益率曲线及基准利率数据",
+      "市场数据报告 - 月度及年度市场统计与趋势分析",
+      "产品信息 - 清算产品详情，包括债券、利率互换、外汇衍生品及大宗商品衍生品"
+    ]
+  }
+}
