@@ -1,0 +1,48 @@
+{
+  "id": "china-shenzhen-drc",
+  "name": {
+    "en": "Shenzhen Municipal Development and Reform Commission",
+    "zh": "深圳市发展和改革委员会"
+  },
+  "description": {
+    "en": "The Shenzhen Municipal Development and Reform Commission is the local government authority responsible for economic and social development planning, macroeconomic regulation, price monitoring, and investment project management in Shenzhen. It publishes economic development plans, price monitoring data, major project approvals, industrial policy documents, and socioeconomic development reports for one of China's leading innovation hubs and special economic zones.",
+    "zh": "深圳市发展和改革委员会是深圳市负责经济和社会发展规划、宏观经济调控、价格监测和投资项目管理的地方政府部门。发布经济发展规划、价格监测数据、重大项目审批、产业政策文件和社会经济发展报告，是中国领先的创新中心和经济特区的权威数据来源。"
+  },
+  "website": "http://fgw.sz.gov.cn",
+  "data_url": "http://fgw.sz.gov.cn/zwgk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "economics",
+    "development-planning",
+    "price-monitoring"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "monthly",
+  "tags": [
+    "shenzhen",
+    "development",
+    "reform",
+    "economics",
+    "planning"
+  ],
+  "data_content": {
+    "en": [
+      "Economic Development Plans - Five-year plans and annual economic development targets for Shenzhen",
+      "Price Monitoring Data - Consumer price index monitoring and commodity price data",
+      "Investment Project Approvals - Major fixed asset investment project review and approval records",
+      "Industrial Policies - Strategic emerging industry development policies and support measures",
+      "Socioeconomic Development Reports - Annual national economic and social development statistical bulletins",
+      "Energy and Resource Management - Energy consumption targets and resource allocation plans"
+    ],
+    "zh": [
+      "经济发展规划 - 深圳市五年规划和年度经济发展目标",
+      "价格监测数据 - 居民消费价格指数监测和商品价格数据",
+      "投资项目审批 - 重大固定资产投资项目审核和审批记录",
+      "产业政策 - 战略性新兴产业发展政策和扶持措施",
+      "社会经济发展报告 - 年度国民经济和社会发展统计公报",
+      "能源资源管理 - 能源消费目标和资源配置计划"
+    ]
+  }
+}

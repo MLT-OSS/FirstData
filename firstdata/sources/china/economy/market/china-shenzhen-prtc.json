@@ -1,0 +1,48 @@
+{
+  "id": "china-shenzhen-prtc",
+  "name": {
+    "en": "Shenzhen Public Resource Trading Center",
+    "zh": "深圳市公共资源交易中心"
+  },
+  "description": {
+    "en": "The Shenzhen Public Resource Trading Center is the municipal government platform for unified public resource transactions in Shenzhen. It provides centralized data on government procurement, construction project bidding, land use rights auctions, state-owned asset transfers, and pharmaceutical procurement. As a key transparency platform for one of China's largest municipal economies, it publishes real-time transaction records, bidding results, and procurement announcements across all categories of public resource trading.",
+    "zh": "深圳市公共资源交易中心是深圳市公共资源统一交易的市级政府平台。提供政府采购、建设工程招投标、土地使用权出让、国有资产转让和药品采购等集中交易数据。作为中国最大城市经济体之一的透明交易平台，发布各类公共资源交易的实时成交记录、中标结果和采购公告。"
+  },
+  "website": "https://www.szggzy.com",
+  "data_url": "https://www.szggzy.com/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "government-procurement",
+    "public-resource-trading",
+    "real-estate"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "daily",
+  "tags": [
+    "shenzhen",
+    "public-resource",
+    "procurement",
+    "bidding",
+    "land-auction"
+  ],
+  "data_content": {
+    "en": [
+      "Government Procurement - Centralized government procurement bidding and results",
+      "Construction Project Bidding - Public construction project tender announcements and awards",
+      "Land Use Rights Auctions - Land parcel auction records including prices and conditions",
+      "State-Owned Asset Transfers - SOE asset disposal transactions and transfer records",
+      "Pharmaceutical Procurement - Drug and medical device centralized procurement data",
+      "Transaction Statistics - Aggregate trading volume and value statistics by category"
+    ],
+    "zh": [
+      "政府采购 - 集中政府采购招标和中标结果",
+      "建设工程招投标 - 公共建设项目招标公告和中标公告",
+      "土地使用权出让 - 土地出让成交记录包括价格和条件",
+      "国有资产转让 - 国有企业资产处置和转让记录",
+      "药品采购 - 药品和医疗器械集中采购数据",
+      "交易统计 - 按类别汇总的交易数量和金额统计"
+    ]
+  }
+}

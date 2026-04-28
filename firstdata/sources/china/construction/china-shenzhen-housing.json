@@ -1,0 +1,47 @@
+{
+  "id": "china-shenzhen-housing",
+  "name": {
+    "en": "Shenzhen Municipal Housing and Construction Bureau",
+    "zh": "深圳市住房和建设局"
+  },
+  "description": {
+    "en": "The Shenzhen Municipal Housing and Construction Bureau is the local government authority responsible for housing administration, real estate market regulation, construction industry management, and affordable housing programs in Shenzhen. It publishes housing transaction data, new housing supply statistics, commercial housing sales figures, construction permits, affordable housing progress, and real estate market monitoring reports for one of China's most dynamic property markets.",
+    "zh": "深圳市住房和建设局是深圳市负责住房管理、房地产市场监管、建筑行业管理和保障性住房建设的地方政府部门。发布住房交易数据、新建住房供应统计、商品房销售数据、建设许可证、保障性住房建设进展以及房地产市场监测报告，是中国最活跃房地产市场之一的权威数据来源。"
+  },
+  "website": "https://zjj.sz.gov.cn",
+  "data_url": "https://zjj.sz.gov.cn/xxgk/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "housing",
+    "real-estate",
+    "construction"
+  ],
+  "geographic_scope": "subnational",
+  "update_frequency": "monthly",
+  "tags": [
+    "shenzhen",
+    "housing",
+    "real-estate",
+    "construction"
+  ],
+  "data_content": {
+    "en": [
+      "Commercial Housing Sales - Monthly new housing transaction volume and prices in Shenzhen",
+      "Affordable Housing Programs - Public rental housing, talent housing, and subsidized housing construction progress",
+      "Real Estate Market Monitoring - Market trend analysis and regulatory measures",
+      "Construction Permits - Building construction permits and project approvals",
+      "Housing Supply Statistics - New housing supply and inventory data",
+      "Property Registration - Real estate registration and transfer records"
+    ],
+    "zh": [
+      "商品房销售数据 - 深圳市每月新建住房成交量和成交价格",
+      "保障性住房建设 - 公共租赁住房、人才住房和共有产权住房建设进度",
+      "房地产市场监测 - 市场趋势分析和调控措施",
+      "建设许可 - 建筑施工许可和项目审批数据",
+      "住房供应统计 - 新增住房供应量和库存数据",
+      "房产登记 - 不动产登记和交易过户记录"
+    ]
+  }
+}
