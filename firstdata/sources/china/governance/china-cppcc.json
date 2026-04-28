@@ -1,0 +1,66 @@
+{
+  "id": "china-cppcc",
+  "name": {
+    "en": "Chinese People's Political Consultative Conference",
+    "zh": "中国人民政治协商会议"
+  },
+  "description": {
+    "en": "The Chinese People's Political Consultative Conference (CPPCC) is a key institution of China's political system functioning as the country's main political advisory body. Established in 1949, the CPPCC brings together representatives from political parties, people's organizations, ethnic minorities, and various social sectors to provide political consultation and democratic oversight. The CPPCC National Committee meets annually alongside the National People's Congress in the 'Two Sessions'. It publishes proposals, motion documents, committee reports, and consultative deliberation outcomes across economic, social, cultural, and environmental policy areas. The CPPCC website provides access to official documents, proposals submitted by members, research reports, and proceedings from plenary sessions and standing committee meetings.",
+    "zh": "中国人民政治协商会议（全国政协）是中国政治体系的重要机构，是国家最高政治协商机构。1949年成立，全国政协汇聚各民主党派、人民团体、少数民族和各社会界别代表，履行政治协商、民主监督、参政议政职能。全国政协常委会每年与全国人大共同召开「两会」。全国政协网站提供官方文件、委员提案、研究报告、全体会议及常委会会议纪要，涵盖经济、社会、文化和环境政策等各领域。"
+  },
+  "website": "http://www.cppcc.gov.cn",
+  "data_url": "http://www.cppcc.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "political-science",
+    "social",
+    "economics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "全国政协",
+    "CPPCC",
+    "Chinese People's Political Consultative Conference",
+    "政治协商",
+    "political consultation",
+    "提案",
+    "proposals",
+    "民主监督",
+    "democratic oversight",
+    "参政议政",
+    "两会",
+    "Two Sessions",
+    "政协委员",
+    "committee members",
+    "政协常委会",
+    "standing committee",
+    "政协全体会议",
+    "plenary session",
+    "政协报告",
+    "CPPCC reports"
+  ],
+  "data_content": {
+    "en": [
+      "CPPCC member proposals: formal policy proposals submitted by committee members across economic, social, cultural, and environmental areas",
+      "Committee reports: annual work reports of the CPPCC National Committee and standing committee",
+      "Plenary session records: proceedings and resolutions from the annual National Committee sessions",
+      "Standing committee meeting documents: records of bimonthly standing committee meetings and deliberations",
+      "Special committee research: investigation and research reports from CPPCC specialized committees on key policy topics",
+      "Democratic oversight documents: feedback and recommendations on implementation of major national policies",
+      "Consultative deliberation outcomes: results of consultative conferences on specific economic and social policy issues"
+    ],
+    "zh": [
+      "全国政协委员提案：委员就经济、社会、文化、环境等领域提交的正式政策建议",
+      "委员会报告：全国政协委员会及常委会年度工作报告",
+      "全体会议记录：全国委员会年度会议的议程及决议",
+      "常委会会议文件：两月一次常委会会议记录及审议结论",
+      "专门委员会研究：政协各专门委员会就重大政策课题开展的调研报告",
+      "民主监督文件：对重大国家政策贯彻落实情况的意见与建议",
+      "协商座谈成果：就具体经济社会政策议题召开协商座谈会的成果文件"
+    ]
+  }
+}
