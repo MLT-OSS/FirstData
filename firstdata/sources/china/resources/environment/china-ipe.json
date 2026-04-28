@@ -1,0 +1,81 @@
+{
+  "id": "china-ipe",
+  "name": {
+    "en": "Institute of Public & Environmental Affairs",
+    "zh": "公众环境研究中心"
+  },
+  "description": {
+    "en": "The Institute of Public & Environmental Affairs (IPE) is a leading Chinese environmental NGO founded in 2006. It operates China's most comprehensive open environmental data platform, aggregating and visualizing government-sourced pollution records, emission data, and compliance information across air, water, soil, radiation, and climate domains. IPE's flagship products include the Blue Map (污染地图) pollution database, the Green Supply Chain CITI Index for supplier environmental performance, and the Corporate Climate Action Index. IPE collects data from the Ministry of Ecology and Environment, local environmental agencies, and listed companies' environmental disclosures to create interactive maps, provincial carbon indexes, and supply chain environmental risk ratings used by multinational corporations, investors, and policymakers worldwide.",
+    "zh": "公众环境研究中心（IPE）成立于2006年，是中国领先的环保非政府组织，运营着中国最全面的开放环境数据平台。该平台整合并可视化来自政府的污染记录、排放数据和合规信息，覆盖大气、水体、土壤、辐射和气候等领域。主要产品包括蔚蓝地图污染数据库、供应链CITI指数（企业环境信息透明度指数）和企业气候行动指数。IPE从生态环境部、地方环保部门和上市公司环境披露中采集数据，生成交互式地图、省级双碳指数和供应链环境风险评级，被跨国企业、投资机构和政策制定者广泛使用。"
+  },
+  "website": "https://www.ipe.org.cn",
+  "data_url": "https://www.ipe.org.cn/AirMap_fxy/AirMap.html",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "pollution",
+    "corporate-governance",
+    "sustainability"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "公众环境研究中心",
+    "IPE",
+    "蔚蓝地图",
+    "Blue Map",
+    "pollution",
+    "污染",
+    "air quality",
+    "空气质量",
+    "water pollution",
+    "水污染",
+    "soil contamination",
+    "土壤污染",
+    "carbon emissions",
+    "碳排放",
+    "双碳",
+    "dual-carbon",
+    "supply chain",
+    "供应链",
+    "CITI指数",
+    "green supply chain",
+    "绿色供应链",
+    "environmental disclosure",
+    "环境信息披露",
+    "ESG",
+    "corporate sustainability",
+    "企业碳中和",
+    "biodiversity",
+    "生物多样性",
+    "provincial carbon index",
+    "省级双碳指数",
+    "climate action",
+    "气候行动"
+  ],
+  "data_content": {
+    "en": [
+      "Air Quality Database: Real-time and historical air pollution records (PM2.5, PM10, SO2, NOx, CO, O3) from thousands of monitoring stations across all Chinese cities",
+      "Water Pollution Records: Enterprise wastewater discharge violations, river basin water quality assessments, and drinking water source protection data",
+      "Soil Contamination: Industrial pollution sources, contaminated site records, and soil remediation progress",
+      "Carbon & Energy Maps: Provincial carbon emission indexes, energy transition tracking, photovoltaic installation mapping, and enterprise carbon disclosure",
+      "Supply Chain CITI Index: Environmental transparency and compliance ratings for thousands of Chinese suppliers used by global brands",
+      "Corporate Climate Action Index: Assessment of listed companies' climate commitments, emission reduction targets, and green investment",
+      "Biodiversity Data: Natural reserve mapping, ecological red-line areas, and species diversity monitoring",
+      "Radiation Monitoring: Nuclear facility radiation monitoring data from environmental protection agencies"
+    ],
+    "zh": [
+      "空气质量数据库：全国城市数千个监测站的PM2.5、PM10、SO2、NOx、CO、O3实时和历史数据",
+      "水污染记录：企业废水排放违规记录、流域水质评估和饮用水源保护数据",
+      "土壤污染：工业污染源、污染地块台账和土壤修复进展",
+      "碳排放与能源地图：省级双碳指数、能源转型追踪、光伏装机地图和企业碳披露",
+      "供应链CITI指数：全球品牌使用的数千家中国供应商的环境透明度和合规评级",
+      "企业气候行动指数：上市公司气候承诺、减排目标和绿色投资评估",
+      "生物多样性：自然保护区地图、生态红线范围和物种多样性监测",
+      "辐射监测：环保部门核设施周边辐射监测数据"
+    ]
+  }
+}
