@@ -1,0 +1,82 @@
+{
+  "id": "china-ibcas",
+  "name": {
+    "en": "Institute of Botany, Chinese Academy of Sciences",
+    "zh": "中国科学院植物研究所"
+  },
+  "description": {
+    "en": "The Institute of Botany (IBCAS) under the Chinese Academy of Sciences is China's flagship research institution for plant science, established in 1928. IBCAS maintains the China National Herbarium (PE), one of the world's largest plant specimen repositories, housing over 2.8 million voucher specimens representing China's extraordinary plant diversity. The institute operates the Beijing Botanical Garden and the China Specimen Information System, and contributes to international flora databases. IBCAS leads research in plant systematics and evolution, plant ecology, plant physiology, and molecular biology of plants. It coordinates the Flora of China project—a landmark collaboration with Missouri Botanical Garden—and publishes the authoritative Chinese Flora records. IBCAS manages critical plant diversity databases including the Chinese Virtual Herbarium and China Species Information Service, providing foundational data for biodiversity conservation, ecological restoration, and phytochemistry research.",
+    "zh": "中国科学院植物研究所是中国植物科学领域的旗舰研究机构，1928年建立。植物所保管中国国家植物标本馆（PE），是世界上最大的植物标本库之一，收藏280余万份植物标本，代表中国卓越的植物多样性。研究所运营北京植物园和中国标本信息系统，并为国际植物志数据库做出重要贡献。植物所在植物系统学与进化、植物生态学、植物生理学和植物分子生物学领域引领全国研究，与密苏里植物园合作主持《中国植物志》英文版项目，发布权威中国植物志记录。植物所管理中国虚拟植物标本馆和中国物种信息服务等重要植物多样性数据库，为生物多样性保护、生态修复和植物化学研究提供基础数据。"
+  },
+  "website": "https://www.ibcas.ac.cn",
+  "data_url": "https://www.ibcas.ac.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "biology",
+    "environment",
+    "science"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国科学院植物研究所",
+    "IBCAS",
+    "Institute of Botany",
+    "植物学",
+    "botany",
+    "植物多样性",
+    "plant diversity",
+    "生物多样性",
+    "biodiversity",
+    "植物标本",
+    "plant herbarium",
+    "中国国家植物标本馆",
+    "China National Herbarium",
+    "PE",
+    "Flora of China",
+    "中国植物志",
+    "植物系统学",
+    "plant systematics",
+    "植物进化",
+    "plant evolution",
+    "植物生态学",
+    "plant ecology",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "CAS",
+    "北京植物园",
+    "Beijing Botanical Garden",
+    "种质资源",
+    "germplasm resources",
+    "植物化学",
+    "phytochemistry",
+    "生态修复",
+    "ecological restoration",
+    "中国虚拟植物标本馆",
+    "Chinese Virtual Herbarium"
+  ],
+  "data_content": {
+    "en": [
+      "China National Herbarium (PE) specimen database: 2.8+ million digitized plant voucher specimens with geographic coordinates, collection dates, taxonomic identifications, and high-resolution images",
+      "Flora of China records: comprehensive taxonomic treatments of approximately 31,000 Chinese vascular plant species, including descriptions, distribution maps, and synonymy",
+      "Chinese Virtual Herbarium: aggregated specimen data from major Chinese herbaria, enabling species distribution modeling and gap analysis for biodiversity conservation",
+      "China Species Information Service: authoritative species name lists, threat status assessments, and distribution data for Chinese plant species aligned with IUCN Red List criteria",
+      "Plant ecology datasets: vegetation survey data, plant community composition studies, phenological records, and ecosystem productivity measurements across Chinese biomes",
+      "Molecular phylogenetics data: DNA sequence databases and phylogenetic trees for Chinese plant families, supporting evolutionary biology research and species delimitation",
+      "Germplasm and conservation data: records of endangered plant species, in-situ and ex-situ conservation status, and genetic diversity assessments for priority conservation species",
+      "Phytochemistry research data: secondary metabolite databases, bioactive compound screening results, and ethnobotanical records of medicinal plants in China"
+    ],
+    "zh": [
+      "中国国家植物标本馆（PE）标本数据库：280余万份数字化植物凭证标本，含地理坐标、采集日期、分类鉴定和高分辨率图像",
+      "中国植物志记录：约31,000种中国维管植物的综合分类处理，包括描述、分布图和异名",
+      "中国虚拟植物标本馆：整合中国主要植物标本馆标本数据，支持物种分布模型和生物多样性保护空缺分析",
+      "中国物种信息服务：中国植物物种权威名录、受威胁状态评估和分布数据，与IUCN红色名录标准对接",
+      "植物生态学数据集：覆盖中国各生物群系的植被调查、植物群落组成研究、物候记录和生态系统生产力测量",
+      "分子系统学数据：中国植物科的DNA序列数据库和系统发育树，支持进化生物学研究和物种界定",
+      "种质和保护数据：濒危植物物种记录、就地与迁地保护状态和优先保护物种遗传多样性评估",
+      "植物化学研究数据：次生代谢产物数据库、生物活性化合物筛选结果和中国药用植物民族植物学记录"
+    ]
+  }
+}
