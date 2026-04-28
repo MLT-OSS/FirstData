@@ -1,0 +1,78 @@
+{
+  "id": "china-craes",
+  "name": {
+    "en": "Chinese Research Academy of Environmental Sciences",
+    "zh": "中国环境科学研究院"
+  },
+  "description": {
+    "en": "The Chinese Research Academy of Environmental Sciences (CRAES), affiliated with the Ministry of Ecology and Environment, is China's highest-level national environmental research institution. Established in 1978, CRAES leads applied research on environmental pollution control, ecological protection, and environmental standards development. It provides critical technical support for national environmental management decisions, operates key environmental monitoring programs, and maintains authoritative environmental databases. CRAES has developed and revised hundreds of national environmental standards and technical guidelines, including those for water pollution control, air quality, soil remediation, and solid waste management. The academy is responsible for China's national ecological function zoning, environmental capacity assessments, and supporting major environmental policy documents including the Five-Year Plans for ecological environment protection.",
+    "zh": "中国环境科学研究院（环科院）隶属生态环境部，是国家最高级别的环境研究机构，1978年建立。环科院在环境污染治理、生态保护和环境标准制定等应用研究领域处于全国领先地位，为国家环境管理决策提供关键技术支撑，运营重要的环境监测项目，维护权威环境数据库。环科院主持制修订数百项国家环境标准和技术规范，涵盖水污染控制、空气质量、土壤修复和固体废物管理。研究院负责全国生态功能区划、环境容量评估工作，并为生态环境保护五年规划等重要环境政策文件提供技术支持。"
+  },
+  "website": "https://www.craes.cn",
+  "data_url": "https://www.craes.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "science",
+    "policy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国环境科学研究院",
+    "CRAES",
+    "Chinese Research Academy of Environmental Sciences",
+    "环境污染",
+    "environmental pollution",
+    "生态保护",
+    "ecological protection",
+    "环境标准",
+    "environmental standards",
+    "水污染",
+    "water pollution",
+    "空气质量",
+    "air quality",
+    "土壤修复",
+    "soil remediation",
+    "固体废物",
+    "solid waste",
+    "生态功能区划",
+    "ecological function zoning",
+    "环境容量",
+    "environmental capacity",
+    "生态环境部",
+    "Ministry of Ecology and Environment",
+    "环境监测",
+    "environmental monitoring",
+    "污染控制",
+    "pollution control",
+    "环境政策",
+    "environmental policy",
+    "五年规划",
+    "Five-Year Plan"
+  ],
+  "data_content": {
+    "en": [
+      "Environmental standards and technical guidelines: hundreds of national environmental standards (GB/HJ series) covering water, air, soil, noise, and solid waste developed or co-developed by CRAES",
+      "Environmental capacity assessments: national and regional estimates of pollutant carrying capacity for major river basins, air sheds, and soil environments",
+      "Ecological function zoning data: national ecological function zone maps, ecosystem service evaluations, and biodiversity protection area delineations",
+      "Water environment research data: datasets on river and lake water quality, sediment contamination, aquatic ecosystem health assessments, and pollution source inventories",
+      "Soil and groundwater pollution data: contaminated site surveys, remediation technology assessments, and national soil pollution status reports",
+      "Air pollution control research: emission factor databases, source apportionment studies, atmospheric dispersion modeling data, and control technology effectiveness evaluations",
+      "Solid waste and hazardous materials: waste characterization data, disposal technology assessments, and industrial hazardous waste inventories",
+      "Environmental health risk assessments: exposure pathway studies, toxicological reference data for Chinese populations, and environmental health risk evaluation frameworks"
+    ],
+    "zh": [
+      "环境标准和技术规范：环科院主持或参与制定数百项国家环境标准（GB/HJ系列），涵盖水、气、土、噪声和固体废物",
+      "环境容量评估：主要流域、大气区和土壤环境的全国及区域污染物承载能力评估",
+      "生态功能区划数据：全国生态功能区划图、生态系统服务价值评估和生物多样性保护区划定",
+      "水环境研究数据：河湖水质、底泥污染、水生生态系统健康评估和污染源清单",
+      "土壤和地下水污染数据：污染地块调查、修复技术评估和全国土壤污染状况报告",
+      "大气污染控制研究：排放因子数据库、来源解析研究、大气扩散模型数据和控制技术效果评估",
+      "固体废物和危险化学品：废物特征化数据、处置技术评估和工业危险废物清单",
+      "环境健康风险评估：暴露途径研究、中国人群毒理学参考数据和环境健康风险评估框架"
+    ]
+  }
+}

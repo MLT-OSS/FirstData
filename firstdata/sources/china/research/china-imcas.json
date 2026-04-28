@@ -1,0 +1,78 @@
+{
+  "id": "china-imcas",
+  "name": {
+    "en": "Institute of Microbiology, Chinese Academy of Sciences",
+    "zh": "中国科学院微生物研究所"
+  },
+  "description": {
+    "en": "The Institute of Microbiology (IMCAS) under the Chinese Academy of Sciences is China's premier research institution for microbiology, mycology, and microbial resources. Founded in 1958, IMCAS maintains the China General Microbiological Culture Collection Center (CGMCC), one of Asia's largest biological resource centers, housing hundreds of thousands of microbial strains, fungi, and viruses. The institute leads research in pathogenic microbiology, industrial microbiology, environmental microbiology, and bioinformatics. IMCAS publishes authoritative datasets on microbial diversity, antimicrobial resistance, and fungal taxonomy, contributing to global biological resource databases. Its research supports national biosafety, food fermentation industry, agricultural biocontrol, and pharmaceutical bioproduction. The institute is a key node in international microbial culture collection networks including WFCC and ECCO.",
+    "zh": "中国科学院微生物研究所是中国微生物学、真菌学和微生物资源领域的最高研究机构，1958年建立。微生物所维护中国普通微生物菌种保藏管理中心（CGMCC），是亚洲最大的生物资源库之一，保藏数十万株微生物菌株、真菌和病毒。研究所在病原微生物学、工业微生物学、环境微生物学和生物信息学领域引领全国研究，发布微生物多样性、抗微生物耐药性和真菌分类学权威数据集，为全球生物资源数据库贡献重要内容。其研究支撑国家生物安全、食品发酵产业、农业生物防治和医药生物生产。微生物所是世界菌种联合会（WFCC）和ECCO等国际微生物菌种保藏网络的重要节点。"
+  },
+  "website": "https://www.im.cas.cn",
+  "data_url": "https://www.im.cas.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "biology",
+    "health",
+    "science"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国科学院微生物研究所",
+    "IMCAS",
+    "Institute of Microbiology",
+    "微生物学",
+    "microbiology",
+    "真菌学",
+    "mycology",
+    "菌种保藏",
+    "microbial culture collection",
+    "CGMCC",
+    "中国普通微生物菌种保藏管理中心",
+    "微生物多样性",
+    "microbial diversity",
+    "抗微生物耐药性",
+    "antimicrobial resistance",
+    "AMR",
+    "生物安全",
+    "biosafety",
+    "工业微生物",
+    "industrial microbiology",
+    "病原微生物",
+    "pathogenic microbiology",
+    "真菌分类",
+    "fungal taxonomy",
+    "环境微生物",
+    "environmental microbiology",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "CAS",
+    "微生物资源",
+    "microbial resources"
+  ],
+  "data_content": {
+    "en": [
+      "Microbial strain collections: CGMCC holds hundreds of thousands of authenticated bacterial, fungal, and viral strains available for research and industrial applications",
+      "Microbial diversity databases: catalogues of microbial species diversity across Chinese ecosystems, soil, marine, and extreme environments",
+      "Fungal taxonomy data: comprehensive records of fungal species classification, nomenclature, and morphological descriptions maintained by the Mycological Society of China",
+      "Antimicrobial resistance (AMR) monitoring: research datasets on drug-resistant pathogens, resistance gene databases, and surveillance reports",
+      "Genome sequence data: whole-genome sequences of bacteria, fungi, and viruses deposited in national and international databases",
+      "Industrial microbiology data: fermentation process parameters, enzyme databases, and biotransformation research for food, pharmaceutical, and agricultural applications",
+      "Environmental microbiology surveys: microbial community composition in soil, wastewater, and atmospheric environments across China",
+      "Biosafety research: risk assessment data for pathogenic microorganisms and containment standards for laboratory biosafety"
+    ],
+    "zh": [
+      "微生物菌种保藏：CGMCC保藏数十万株经鉴定的细菌、真菌和病毒菌株，供研究和工业应用",
+      "微生物多样性数据库：覆盖中国生态系统、土壤、海洋和极端环境的微生物物种多样性目录",
+      "真菌分类数据：中国菌物学会维护的真菌物种分类、命名和形态描述综合记录",
+      "抗微生物耐药性（AMR）监测：耐药病原体研究数据集、耐药基因数据库和监测报告",
+      "基因组序列数据：存入国内外数据库的细菌、真菌和病毒全基因组序列",
+      "工业微生物数据：食品、制药和农业应用的发酵工艺参数、酶数据库和生物转化研究",
+      "环境微生物调查：中国土壤、废水和大气环境中微生物群落组成",
+      "生物安全研究：病原微生物风险评估数据和实验室生物安全的防控标准"
+    ]
+  }
+}
