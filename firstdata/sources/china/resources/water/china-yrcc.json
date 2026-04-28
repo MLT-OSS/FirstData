@@ -1,0 +1,46 @@
+{
+  "id": "china-yrcc",
+  "name": {
+    "en": "Yellow River Conservancy Commission",
+    "zh": "水利部黄河水利委员会"
+  },
+  "description": {
+    "en": "The Yellow River Conservancy Commission (YRCC) is a basin-level water authority directly under the Ministry of Water Resources of China, responsible for unified management and governance of the Yellow River basin. The YRCC publishes hydrological monitoring data, annual water resources bulletins, flood control reports, sediment transport statistics, water quality assessments, ecological flow data, and basin-wide water allocation records. It maintains official records on Yellow River water levels, flow volumes, reservoir operations, and soil erosion, serving as the authoritative data source for China's second longest river.",
+    "zh": "水利部黄河水利委员会（黄委）是水利部直属的流域管理机构，负责黄河流域的统一管理与治理。黄委发布水文监测数据、年度水资源公报、防汛报告、泥沙输移统计、水质评估、生态流量数据及流域水量分配记录，是黄河水位、流量、水库调度、水土保持的权威数据来源，为中国第二长河提供官方数据服务。"
+  },
+  "data_content": {
+    "en": [
+      "Yellow River hydrological monitoring data",
+      "annual water resources bulletins",
+      "flood control and drought relief statistics",
+      "sediment transport and soil erosion data",
+      "water quality assessment reports",
+      "ecological flow monitoring data",
+      "basin water allocation records",
+      "reservoir storage and operation data",
+      "groundwater monitoring data",
+      "water conservancy project data"
+    ],
+    "zh": [
+      "黄河水文监测数据",
+      "年度水资源公报",
+      "防汛抗旱统计",
+      "泥沙输移与水土流失数据",
+      "水质评估报告",
+      "生态流量监测数据",
+      "流域水量分配记录",
+      "水库蓄水与调度数据",
+      "地下水监测数据",
+      "水利工程数据"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "subnational",
+  "website": "http://www.yrcc.gov.cn",
+  "data_url": "http://www.yrcc.gov.cn",
+  "api_url": null,
+  "domains": ["environment", "infrastructure"],
+  "tags": ["water-resources", "hydrology", "yellow-river", "flood", "sediment", "water-quality", "黄河", "水文", "水资源", "防汛", "泥沙", "流域管理", "水利", "YRCC", "黄委", "水库", "生态流量"],
+  "update_frequency": "irregular"
+}
