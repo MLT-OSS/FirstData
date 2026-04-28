@@ -1,0 +1,68 @@
+{
+  "id": "china-shenzhen-jrj",
+  "name": {
+    "en": "Shenzhen Local Financial Supervision and Administration Bureau",
+    "zh": "深圳市地方金融监督管理局"
+  },
+  "description": {
+    "en": "The Shenzhen Local Financial Supervision and Administration Bureau is the municipal government agency responsible for supervising and regulating the local financial industry in Shenzhen, one of China's most important financial centers alongside Shanghai and Hong Kong. The bureau oversees small loan companies, financing guarantee institutions, private equity funds, commercial factoring, financial leasing, and emerging fintech activities. It publishes data on the local financial industry development, fintech innovation, green finance initiatives, and financial risk monitoring. Shenzhen's financial data is particularly relevant for understanding China's fintech ecosystem, venture capital market, and the financial integration of the Greater Bay Area.",
+    "zh": "深圳市地方金融监督管理局是负责监管深圳地方金融业的市级政府部门。深圳与上海、香港并列为中国最重要的金融中心之一，该局负责监管小额贷款公司、融资担保机构、私募基金、商业保理、融资租赁和新兴金融科技业务。发布地方金融业发展数据、金融科技创新、绿色金融和金融风险监测等信息。深圳的金融数据对了解中国金融科技生态、风险投资市场和粤港澳大湾区金融融合具有重要参考价值。"
+  },
+  "website": "https://jr.sz.gov.cn",
+  "data_url": "https://jr.sz.gov.cn/sjrb/xxgk/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "finance",
+    "fintech"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "深圳金融",
+    "Shenzhen finance",
+    "深圳金融监管",
+    "Shenzhen financial supervision",
+    "地方金融",
+    "local finance",
+    "金融科技",
+    "fintech",
+    "小额贷款",
+    "microfinance",
+    "融资担保",
+    "financing guarantee",
+    "私募基金",
+    "private equity",
+    "绿色金融",
+    "green finance",
+    "深圳基金",
+    "Shenzhen fund",
+    "粤港澳大湾区金融",
+    "Greater Bay Area finance",
+    "商业保理",
+    "commercial factoring"
+  ],
+  "data_content": {
+    "en": [
+      "Financial industry overview: annual reports on Shenzhen's local financial industry development, total assets, and revenue",
+      "Microfinance: number of small loan companies, total loan balance, and lending statistics",
+      "Financing guarantee: guarantee institution performance, outstanding guarantee amounts, and risk indicators",
+      "Private equity and venture capital: fund registration statistics, investment amounts, and portfolio data in Shenzhen",
+      "Fintech innovation: fintech enterprise counts, sandbox pilot projects, and digital finance development data",
+      "Green finance: green bond issuance, green credit balances, and sustainable finance statistics",
+      "Financial risk monitoring: non-performing loan ratios, risk event statistics, and regulatory enforcement data",
+      "Cross-border finance: cross-border RMB settlements, QFLP/QDLP pilot data, and Greater Bay Area financial connectivity"
+    ],
+    "zh": [
+      "金融业概况：深圳地方金融业年度发展报告、总资产和营收数据",
+      "小额贷款：小额贷款公司数量、贷款余额和放贷统计",
+      "融资担保：担保机构经营数据、在保余额和风险指标",
+      "私募股权和风险投资：深圳基金备案统计、投资金额和投资组合数据",
+      "金融科技创新：金融科技企业数量、监管沙盒试点项目和数字金融发展数据",
+      "绿色金融：绿色债券发行、绿色信贷余额和可持续金融统计",
+      "金融风险监测：不良贷款率、风险事件统计和监管执法数据",
+      "跨境金融：跨境人民币结算、QFLP/QDLP试点数据和大湾区金融互联互通"
+    ]
+  }
+}

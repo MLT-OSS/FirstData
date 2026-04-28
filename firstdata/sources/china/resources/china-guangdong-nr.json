@@ -1,0 +1,68 @@
+{
+  "id": "china-guangdong-nr",
+  "name": {
+    "en": "Guangdong Provincial Department of Natural Resources",
+    "zh": "广东省自然资源厅"
+  },
+  "description": {
+    "en": "The Guangdong Provincial Department of Natural Resources is the provincial government agency responsible for managing land, mineral, marine, and other natural resources in Guangdong Province, one of China's most economically significant regions and the core of the Greater Bay Area. It publishes data on land use planning, real estate land supply, mineral resource reserves, geological surveys, and marine resource management. The department releases annual land use change surveys, construction land approval data, land transaction records, and geographic information. Its data is essential for understanding land market dynamics, urban planning, and resource allocation in the Pearl River Delta region.",
+    "zh": "广东省自然资源厅是负责管理广东省土地、矿产、海洋等自然资源的省级政府部门。广东是中国经济最发达的省份之一，也是粤港澳大湾区的核心区域。该厅发布土地利用规划、房地产用地供应、矿产资源储量、地质调查及海洋资源管理等数据，定期公布年度土地利用变更调查、建设用地审批、土地交易记录及地理信息数据。其数据对了解珠三角地区土地市场动态、城市规划和资源配置具有重要参考价值。"
+  },
+  "website": "https://nr.gd.gov.cn",
+  "data_url": "https://nr.gd.gov.cn/zwgknew/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "natural-resources",
+    "land-use",
+    "geology",
+    "real-estate"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "广东自然资源",
+    "Guangdong natural resources",
+    "广东土地",
+    "Guangdong land",
+    "土地供应",
+    "land supply",
+    "矿产资源",
+    "mineral resources",
+    "建设用地",
+    "construction land",
+    "土地出让",
+    "land transfer",
+    "粤港澳大湾区",
+    "Greater Bay Area",
+    "地质调查",
+    "geological survey",
+    "不动产登记",
+    "real estate registration",
+    "海洋资源",
+    "marine resources"
+  ],
+  "data_content": {
+    "en": [
+      "Land use planning: provincial land use master plans, annual land use change surveys, and spatial planning data",
+      "Construction land approval: annual and monthly construction land approval records by city and project type",
+      "Land transactions: land auction results, transfer records, and price statistics for Guangdong Province",
+      "Mineral resources: mineral resource reserves, exploration permits, and mining rights data",
+      "Geological surveys: geological hazard monitoring, groundwater surveys, and geological environment reports",
+      "Marine resources: coastal zone management, marine area use permits, and marine economic statistics",
+      "Geographic information: provincial geographic information data and surveying achievements",
+      "Real estate land supply: residential and commercial land supply plans and execution data"
+    ],
+    "zh": [
+      "土地利用规划：全省土地利用总体规划、年度土地利用变更调查及国土空间规划数据",
+      "建设用地审批：按城市和项目类型分类的年度和月度建设用地审批记录",
+      "土地交易：广东省土地拍卖结果、出让记录和价格统计",
+      "矿产资源：矿产资源储量、勘探许可和采矿权数据",
+      "地质调查：地质灾害监测、地下水调查和地质环境报告",
+      "海洋资源：海岸带管理、海域使用许可和海洋经济统计",
+      "地理信息：全省地理信息数据和测绘成果",
+      "房地产用地供应：住宅和商业用地供应计划及执行数据"
+    ]
+  }
+}
