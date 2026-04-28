@@ -1,0 +1,76 @@
+{
+  "id": "china-caupd",
+  "name": {
+    "en": "China Academy of Urban Planning and Design",
+    "zh": "中国城市规划设计研究院"
+  },
+  "description": {
+    "en": "The China Academy of Urban Planning and Design (CAUPD), established in 1954 and operating under the Ministry of Natural Resources, is China's foremost national-level research institute for urban and rural planning. CAUPD plays a central role in formulating China's urban planning standards, national spatial planning strategies, and major city and regional development plans. The academy has led planning work for hundreds of Chinese cities, key national development zones, and major infrastructure corridors. CAUPD publishes authoritative urban development research including annual urban-rural development reports, housing market analysis, transportation planning studies, and regional spatial planning guidelines. Its data and expertise directly inform the National Five-Year Plans, city master plans, and national policies on urbanization, land use, and sustainable urban development.",
+    "zh": "中国城市规划设计研究院（中规院）成立于1954年，隶属于自然资源部，是中国最权威的国家级城乡规划研究机构。中规院在制定中国城乡规划标准、国土空间规划战略和重大城市及区域发展规划方面发挥核心作用，主导了数百个城市、国家重点开发区和重大基础设施廊道的规划工作。院所发布权威城市发展研究成果，包括年度城乡发展报告、住房市场分析、交通规划研究和区域国土空间规划指南，其数据和专业知识直接支撑国家五年规划、城市总体规划及城镇化、土地利用和可持续城市发展相关国家政策的制定。"
+  },
+  "website": "https://www.caupd.com/",
+  "data_url": "https://www.caupd.com/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "urban-development",
+    "land-use",
+    "transportation",
+    "demographics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "城市规划",
+    "urban planning",
+    "城乡规划",
+    "urban-rural planning",
+    "国土空间规划",
+    "national spatial planning",
+    "城镇化",
+    "urbanization",
+    "住房",
+    "housing",
+    "交通规划",
+    "transportation planning",
+    "区域规划",
+    "regional planning",
+    "城市发展",
+    "urban development",
+    "城市群",
+    "city cluster",
+    "中规院",
+    "CAUPD",
+    "城市总体规划",
+    "city master plan",
+    "土地利用",
+    "land use",
+    "可持续城市",
+    "sustainable urban"
+  ],
+  "data_content": {
+    "en": [
+      "China Urban-Rural Development Annual Report: comprehensive statistics on urbanization rate, urban construction land expansion, population migration, and city infrastructure investment",
+      "National spatial planning research: analysis of national territorial spatial planning frameworks, land use optimization, and ecological red line delineation",
+      "Housing market research: housing supply and demand statistics, affordability indices, and rental market analysis for major Chinese cities",
+      "Urban transportation planning studies: data on urban rail transit development, road network density, traffic congestion indices, and public transit ridership",
+      "City cluster development reports: planning data and demographic-economic analysis for Beijing-Tianjin-Hebei, Yangtze River Delta, Pearl River Delta, and Chengdu-Chongqing city clusters",
+      "Urban renewal and brownfield data: statistics on old city renovation projects, urban village redevelopment, and heritage preservation",
+      "Municipal infrastructure capacity analysis: water supply, wastewater treatment, solid waste management, and utility coverage in Chinese cities",
+      "Rural settlement planning: data on rural land consolidation, village relocation, and rural infrastructure improvement programs",
+      "Smart city and digital urban management research: data on city brain systems, digital twin pilots, and urban data platform deployment"
+    ],
+    "zh": [
+      "中国城乡发展年度报告：城镇化率、城市建设用地扩张、人口迁移和城市基础设施投资综合统计",
+      "国土空间规划研究：国家国土空间规划框架、土地利用优化和生态保护红线划定分析",
+      "住房市场研究：主要城市住房供需统计、可负担性指数和租赁市场分析",
+      "城市交通规划研究：城市轨道交通建设、路网密度、交通拥堵指数和公共交通客运量数据",
+      "城市群发展报告：京津冀、长三角、珠三角和成渝城市群规划数据和人口经济分析",
+      "城市更新和棕地数据：老旧城区改造项目、城中村改造和历史文化保护统计",
+      "市政基础设施能力分析：中国城市供水、污水处理、固体废弃物管理和公用事业覆盖情况",
+      "乡村定居点规划：农村土地整治、村庄搬迁和农村基础设施改善项目数据",
+      "智慧城市和数字城市管理研究：城市大脑系统、数字孪生试点和城市数据平台部署数据"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "china-nsii",
+  "name": {
+    "en": "National Specimen Information Infrastructure of China",
+    "zh": "中国国家标本资源平台"
+  },
+  "description": {
+    "en": "The National Specimen Information Infrastructure of China (NSII) is a national scientific data platform established by the Ministry of Science and Technology and jointly built by major Chinese natural history museums, herbaria, and biological research institutions of the Chinese Academy of Sciences. NSII digitizes and integrates biological specimen data—including plants, animals, fungi, and microorganisms—collected across China's diverse ecosystems. The platform aggregates over 30 million specimen records from more than 100 partner institutions, representing one of the world's largest regional biodiversity specimen databases. NSII data is used in biodiversity conservation research, species distribution modeling, ecological baseline assessments, invasive species tracking, and environmental impact evaluations. It contributes data to global biodiversity informatics initiatives including the Global Biodiversity Information Facility (GBIF) and supports China's obligations under the Convention on Biological Diversity (CBD).",
+    "zh": "中国国家标本资源平台（NSII）是由科学技术部主导建立、中国科学院各大自然历史博物馆、植物标本馆和生物研究机构共同参与建设的国家科学数据平台。NSII对中国多样生态系统中采集的生物标本数据进行数字化整合，涵盖植物、动物、真菌和微生物。平台汇聚来自100余家合作机构的逾3000万条标本记录，是全球规模最大的区域性生物多样性标本数据库之一。NSII数据广泛用于生物多样性保护研究、物种分布建模、生态基线评估、入侵物种追踪和环境影响评价，并向全球生物多样性信息网络（GBIF）贡献数据，支持中国履行《生物多样性公约》（CBD）相关义务。"
+  },
+  "website": "https://www.nsii.org.cn/",
+  "data_url": "https://www.nsii.org.cn/2017/home.php",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "ecology",
+    "biodiversity",
+    "natural-history",
+    "science"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "生物标本",
+    "biological specimen",
+    "生物多样性",
+    "biodiversity",
+    "植物标本",
+    "herbarium",
+    "动物标本",
+    "zoological specimen",
+    "物种分布",
+    "species distribution",
+    "入侵物种",
+    "invasive species",
+    "生态学",
+    "ecology",
+    "自然历史",
+    "natural history",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "GBIF",
+    "生物多样性公约",
+    "Convention on Biological Diversity",
+    "CBD",
+    "国家标本资源",
+    "natural specimen resources",
+    "博物馆数字化",
+    "museum digitization"
+  ],
+  "data_content": {
+    "en": [
+      "Plant specimen records: over 10 million herbarium specimens from Chinese botanical gardens and herbaria, with geographic coordinates, collection date, and taxonomic classification",
+      "Zoological specimen database: vertebrate and invertebrate specimen records from natural history museums across China including mammals, birds, reptiles, amphibians, fish, and insects",
+      "Fungal and microbial specimens: culture collection records and field samples for fungi, bacteria, and other microorganisms from Chinese ecosystems",
+      "Species occurrence data: geospatially referenced occurrence records enabling species distribution modeling and habitat assessment across China's major biomes",
+      "Invasive alien species records: distribution data and occurrence history for invasive plant and animal species threatening native Chinese biodiversity",
+      "Endangered and protected species data: specimen records and occurrence points for species listed under China's national wildlife protection law and IUCN Red List",
+      "Historical collection data: digitized specimen records from legacy collections spanning over 100 years, enabling long-term ecological change analysis",
+      "Image and morphological data: high-resolution specimen photographs and morphological measurements linked to individual specimen records",
+      "Regional and ecosystem surveys: specimen data from targeted biodiversity surveys in key ecological function zones and biodiversity hotspots"
+    ],
+    "zh": [
+      "植物标本记录：来自中国各植物园和植物标本馆的逾1000万份腊叶标本，含地理坐标、采集日期和分类信息",
+      "动物标本数据库：全国自然历史博物馆脊椎动物和无脊椎动物标本记录，涵盖哺乳类、鸟类、爬行类、两栖类、鱼类和昆虫",
+      "真菌和微生物标本：中国生态系统真菌、细菌和其他微生物的菌种保藏记录和野外采集样本",
+      "物种分布数据：带地理参考的物种出现记录，支持中国主要生物群系的物种分布建模和栖息地评估",
+      "入侵外来物种记录：威胁中国本土生物多样性的入侵植物和动物物种分布数据和历史记录",
+      "濒危和受保护物种数据：列入中国野生动物保护法和IUCN红色名录物种的标本记录和出现点位",
+      "历史馆藏数据：逾百年历史馆藏的数字化标本记录，支持长时序生态变化分析",
+      "图像和形态数据：与个体标本记录关联的高分辨率标本照片和形态测量数据",
+      "区域和生态系统调查：重点生态功能区和生物多样性热点地区专项生物多样性调查标本数据"
+    ]
+  }
+}

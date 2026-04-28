@@ -1,0 +1,75 @@
+{
+  "id": "china-agri",
+  "name": {
+    "en": "China Agricultural and Rural Information Network",
+    "zh": "中国农业农村信息网"
+  },
+  "description": {
+    "en": "The China Agricultural and Rural Information Network (AGRI, agri.cn) is the official information platform operated by the Agricultural Information Center of the Ministry of Agriculture and Rural Affairs of China. Launched in 1995, AGRI is the most comprehensive national portal for agricultural information, rural economic statistics, crop production data, agricultural price monitoring, and rural policy. The platform aggregates data from the Ministry's departmental systems covering crop planting, livestock and aquaculture production, agricultural machinery, agricultural inputs (fertilizers and pesticides), rural household income, and food security indicators. AGRI's price monitoring system tracks wholesale and retail prices for hundreds of agricultural commodities across major markets nationwide. It is the authoritative primary source for China's agricultural statistical releases and is used by agricultural producers, commodity traders, policy analysts, international agricultural organizations, and food security researchers.",
+    "zh": "中国农业农村信息网（agri.cn）是由农业农村部农业信息中心运营的官方信息平台，于1995年上线，是覆盖农业信息、农村经济统计、农作物生产数据、农业价格监测和农村政策的最全面国家级门户。平台汇聚来自农业农村部各司局系统的数据，涵盖农作物种植面积、畜牧水产养殖、农业机械化、农业投入品（化肥和农药）、农村居民收入和粮食安全指标。农业农村信息网的价格监测体系追踪全国主要市场数百种农产品批发和零售价格，是中国农业统计数据发布的权威一手来源，被农业生产者、大宗商品交易商、政策分析师、国际农业组织和粮食安全研究人员广泛使用。"
+  },
+  "website": "https://www.agri.cn/",
+  "data_url": "https://www.agri.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "statistics",
+    "economics",
+    "food-security"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "农业",
+    "agriculture",
+    "农村经济",
+    "rural economy",
+    "农产品价格",
+    "agricultural commodity prices",
+    "粮食安全",
+    "food security",
+    "农作物",
+    "crop production",
+    "畜牧业",
+    "livestock",
+    "水产养殖",
+    "aquaculture",
+    "农业机械化",
+    "agricultural mechanization",
+    "化肥",
+    "fertilizer",
+    "农村居民收入",
+    "rural household income",
+    "农业农村部",
+    "Ministry of Agriculture and Rural Affairs",
+    "MARA",
+    "农业信息中心",
+    "agricultural information"
+  ],
+  "data_content": {
+    "en": [
+      "Crop production statistics: planting area, yield, and output data for major grain crops (rice, wheat, corn, soybeans) and cash crops by province and season",
+      "Agricultural commodity price monitoring: daily and weekly wholesale and retail price indices for hundreds of agricultural products across national, provincial, and county-level market networks",
+      "Livestock and aquaculture production: quarterly data on pig, poultry, cattle, and sheep inventories, as well as fishery catch and aquaculture output",
+      "Agricultural input statistics: annual data on chemical fertilizer production, consumption, and application rates by crop type and region",
+      "Rural household income and expenditure surveys: per capita disposable income, consumption patterns, and poverty incidence for rural Chinese households",
+      "Agricultural machinery data: statistics on tractors, harvesters, and other farm machinery ownership and mechanization coverage rates",
+      "Food security indicators: grain reserve levels, self-sufficiency ratios for major staple crops, and caloric supply data",
+      "Rural land and land reform data: contracted rural land area, land transfer rates, and land registration statistics",
+      "Agricultural trade statistics: China's imports and exports of major agricultural commodities including soybeans, pork, corn, and cotton"
+    ],
+    "zh": [
+      "农作物生产统计：主要粮食作物（水稻、小麦、玉米、大豆）和经济作物的分省季度播种面积、产量和产出数据",
+      "农产品价格监测：全国省市县三级市场数百种农产品日度和周度批发及零售价格指数",
+      "畜牧水产生产：生猪、禽类、牛羊存栏量季度数据，以及渔业捕捞产量和水产养殖产出",
+      "农业投入品统计：按作物类型和地区分类的化学肥料生产、消费和施用量年度数据",
+      "农村居民收入和支出调查：农村居民人均可支配收入、消费结构和贫困发生率",
+      "农业机械数据：拖拉机、收割机等农用机械拥有量和机械化作业覆盖率统计",
+      "粮食安全指标：粮食储备水平、主要口粮自给率和热量供给数据",
+      "农村土地和土地改革数据：农村承包地面积、土地流转率和土地确权登记统计",
+      "农业贸易统计：中国大豆、猪肉、玉米、棉花等主要农产品进出口数据"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "china-sae",
+  "name": {
+    "en": "Society of Automotive Engineers of China",
+    "zh": "中国汽车工程学会"
+  },
+  "description": {
+    "en": "The Society of Automotive Engineers of China (SAE-China), established in 1963, is the national academic and technical organization for China's automotive industry and engineering community, affiliated with the China Association for Science and Technology (CAST). SAE-China coordinates automotive engineering standards, organizes major industry events including the China Automotive Engineering Society Annual Congress (SAECCE) and the China Automotive Industry Summit, and publishes authoritative reports on new energy vehicles (NEV), intelligent connected vehicles (ICV), automotive emissions, fuel efficiency standards, and autonomous driving technology. SAE-China collaborates with international counterparts including SAE International and serves as a key bridge between China's automotive R&D community and global automotive technology trends. Its data and research are widely cited by automotive OEMs, Tier-1 suppliers, government regulators, and international investors tracking China's automotive market transformation.",
+    "zh": "中国汽车工程学会（SAE-China）成立于1963年，是中国科学技术协会下属的全国性汽车行业和工程领域学术团体。学会负责协调汽车工程标准，主办汽车工程年会（SAECCE）、中国汽车产业发展年会等重要行业活动，并发布新能源汽车、智能网联汽车、汽车排放、燃油经济性标准和自动驾驶技术权威报告。SAE-China与SAE国际等国际机构合作，是中国汽车研发界与全球汽车技术趋势之间的重要桥梁，其数据和研究被汽车整车企业、一级供应商、政府监管部门和跟踪中国汽车市场转型的国际投资者广泛引用。"
+  },
+  "website": "https://www.sae-china.org/",
+  "data_url": "https://www.sae-china.org/newsdata/reportdata/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "automotive",
+    "technology",
+    "energy",
+    "standards"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "汽车工程",
+    "automotive engineering",
+    "新能源汽车",
+    "new energy vehicle",
+    "NEV",
+    "智能网联汽车",
+    "intelligent connected vehicle",
+    "ICV",
+    "自动驾驶",
+    "autonomous driving",
+    "汽车排放",
+    "vehicle emissions",
+    "燃油经济性",
+    "fuel efficiency",
+    "汽车标准",
+    "automotive standards",
+    "电动汽车",
+    "electric vehicle",
+    "EV",
+    "动力电池",
+    "power battery",
+    "氢燃料电池",
+    "hydrogen fuel cell",
+    "SAECCE",
+    "中国汽车工程学会",
+    "SAE-China",
+    "汽车技术",
+    "automotive technology"
+  ],
+  "data_content": {
+    "en": [
+      "New Energy Vehicle (NEV) development reports: annual statistics and trend analysis on battery electric vehicle (BEV), plug-in hybrid (PHEV), and fuel cell vehicle (FCV) production, sales, and technology maturity in China",
+      "Intelligent Connected Vehicle (ICV) white papers: market penetration data, L2-L4 autonomous driving deployment statistics, and V2X communication infrastructure progress",
+      "Automotive emissions research: vehicle exhaust emission test data, fleet emission factor reports, and compliance monitoring with China's National Standards VI (equivalent to Euro 6)",
+      "Fuel economy standards and CAFC compliance: corporate average fuel consumption data, double-credit policy implementation statistics, and OEM compliance rankings",
+      "Automotive technology roadmap data: technology readiness assessments for electrification, lightweighting, advanced manufacturing, and connectivity for the 2025-2035 planning horizon",
+      "Power battery and energy storage research: battery cell performance benchmarks, thermal safety incident analysis, and recycling system capacity data",
+      "Hydrogen fuel cell vehicle progress reports: hydrogen refueling station deployment, FCEV demonstration project data, and cost reduction trajectory analysis",
+      "Annual Congress (SAECCE) proceedings: cutting-edge automotive R&D papers covering vehicle dynamics, NVH, powertrain, ADAS, and manufacturing technology",
+      "Automotive industry talent and R&D investment statistics: engineering workforce data, automotive R&D expenditure by OEM, and innovation ecosystem indicators"
+    ],
+    "zh": [
+      "新能源汽车发展报告：中国纯电动汽车（BEV）、插电混动（PHEV）和燃料电池汽车（FCV）产销量及技术成熟度年度统计与趋势分析",
+      "智能网联汽车白皮书：市场渗透率数据、L2-L4自动驾驶部署统计和V2X通信基础设施建设进展",
+      "汽车排放研究：车辆尾气排放测试数据、车队排放因子报告和国六标准（相当于欧6）合规监测",
+      "燃油经济性标准和CAFC合规：企业平均燃油消耗量数据、双积分政策实施统计和整车企业合规排名",
+      "汽车技术路线图数据：2025-2035规划期电动化、轻量化、先进制造和智能网联技术成熟度评估",
+      "动力电池与储能研究：电芯性能基准测试、热失控安全事故分析和回收体系产能数据",
+      "氢燃料电池汽车进展报告：加氢站部署情况、燃料电池汽车示范项目数据和成本下降路径分析",
+      "年会（SAECCE）论文集：整车动力学、NVH、动力系统、ADAS和制造技术等前沿汽车研发论文",
+      "汽车行业人才与研发投入统计：工程师队伍规模、各整车企业研发支出及创新生态系统指标"
+    ]
+  }
+}
