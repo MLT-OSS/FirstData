@@ -1,0 +1,47 @@
+{
+  "id": "china-ceeia",
+  "name": {
+    "en": "China Electrical Equipment Industry Association",
+    "zh": "中国电器工业协会"
+  },
+  "description": {
+    "en": "The China Electrical Equipment Industry Association (CEEIA) is the national industry organization representing China's electrical equipment manufacturing sector. It publishes comprehensive industry statistics, market analysis reports, production data, export figures, and policy recommendations covering power generation equipment, transmission equipment, industrial motors, household appliances, and energy-efficient products.",
+    "zh": "中国电器工业协会（CEEIA）是代表中国电器制造行业的全国性行业组织，发布涵盖发电设备、输配电设备、工业电机、家用电器及节能产品的行业统计数据、市场分析报告、产量数据、出口数据及政策建议。"
+  },
+  "website": "https://www.ceeia.com",
+  "data_url": "https://www.ceeia.com",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "industry",
+    "energy",
+    "manufacturing"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "electrical-equipment",
+    "manufacturing",
+    "power-equipment"
+  ],
+  "data_content": {
+    "en": [
+      "Electrical Equipment Production Statistics - Monthly and annual output data for major electrical product categories",
+      "Industry Market Analysis - Market size, growth trends, and competitive landscape reports",
+      "Export Data - Electrical equipment export volumes and destination markets",
+      "Energy-Efficiency Standards - Industry benchmarks and compliance data for energy-efficient products",
+      "Power Generation Equipment - Statistics on turbines, generators, and transformer production",
+      "Industry Development Report - Annual overview of China's electrical equipment industry performance"
+    ],
+    "zh": [
+      "电器产品产量统计 - 主要电器品类月度和年度产量数据",
+      "行业市场分析 - 市场规模、增长趋势及竞争格局报告",
+      "出口数据 - 电器设备出口量及目标市场统计",
+      "能效标准 - 节能产品行业基准及合规数据",
+      "发电设备统计 - 汽轮机、发电机及变压器产量数据",
+      "行业发展报告 - 中国电器工业年度发展情况综述"
+    ]
+  },
+  "authority_level": "commercial"
+}

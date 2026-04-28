@@ -1,0 +1,46 @@
+{
+  "id": "china-cacm",
+  "name": {
+    "en": "Chinese Association of Chinese Medicine",
+    "zh": "中华中医药学会"
+  },
+  "description": {
+    "en": "The Chinese Association of Chinese Medicine (CACM) is China's largest national academic organization in the field of traditional Chinese medicine (TCM). Founded in 1979, it publishes clinical guidelines, TCM research standards, disease classification standards, academic journals, and annual reports on the development of traditional Chinese medicine in China.",
+    "zh": "中华中医药学会（CACM）是中国最大的中医药全国性学术团体，成立于1979年。发布中医药临床指南、研究标准、疾病分类标准、学术期刊及中国中医药事业发展年度报告。"
+  },
+  "website": "https://www.cacm.org.cn",
+  "data_url": "https://www.cacm.org.cn",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "health",
+    "research",
+    "social"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "tcm",
+    "traditional-chinese-medicine"
+  ],
+  "data_content": {
+    "en": [
+      "TCM Clinical Guidelines - Evidence-based guidelines for traditional Chinese medicine treatments",
+      "TCM Research Standards - Methodological standards for TCM clinical research",
+      "Disease Classification - TCM-specific disease nomenclature and classification standards",
+      "Annual Development Report - Statistical overview of TCM industry, hospitals, and practitioners",
+      "Academic Journals - Peer-reviewed publications on TCM clinical practice and research",
+      "TCM Education Statistics - Data on TCM universities, graduates, and training programs"
+    ],
+    "zh": [
+      "中医临床指南 - 中医药治疗方案的循证指南",
+      "中医科研标准 - 中医临床研究方法学标准",
+      "疾病分类标准 - 中医特有疾病命名与分类标准",
+      "年度发展报告 - 中医药行业、医院及从业人员统计概况",
+      "学术期刊 - 中医药临床实践与研究同行评审出版物",
+      "中医教育统计 - 中医院校、毕业生及培训项目数据"
+    ]
+  },
+  "authority_level": "research"
+}
