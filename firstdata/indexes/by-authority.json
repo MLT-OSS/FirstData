@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-04-25T09:12:44.796837+00:00",
-    "total_sources": 540,
+    "generated_at": "2026-04-28T11:51:59.475376+00:00",
+    "total_sources": 570,
     "authority_counts": {
-      "research": 80,
+      "research": 95,
       "international": 74,
-      "government": 289,
-      "other": 49,
+      "government": 299,
+      "other": 50,
       "commercial": 20,
-      "market": 28
+      "market": 32
     },
     "version": "2.0"
   },
@@ -304,6 +304,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cpma",
+        "name": {
+          "en": "Chinese Preventive Medicine Association",
+          "zh": "中华预防医学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpma.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cpma.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-medical-association",
         "name": {
           "en": "Chinese Medical Association",
@@ -325,6 +337,18 @@
         "data_url": "https://www.phsciencedata.cn",
         "has_api": false,
         "file_path": "china/health/china-nphsd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-highway-society",
+        "name": {
+          "en": "China Highway and Transportation Society",
+          "zh": "中国公路学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.chts.cn",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-highway-society.json",
         "geographic_scope": "national"
       },
       {
@@ -472,6 +496,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cisri",
+        "name": {
+          "en": "China Iron & Steel Research Institute Group",
+          "zh": "中国钢研科技集团有限公司"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cisri.com.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cisri.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-csic",
         "name": {
           "en": "Institute of Sociology, Chinese Academy of Social Sciences",
@@ -493,6 +529,18 @@
         "data_url": "https://www.cste.org.cn",
         "has_api": false,
         "file_path": "china/research/china-cste.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-giec",
+        "name": {
+          "en": "Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences",
+          "zh": "中国科学院广州能源研究所"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.giec.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-giec.json",
         "geographic_scope": "national"
       },
       {
@@ -520,6 +568,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ibcas",
+        "name": {
+          "en": "Institute of Botany, Chinese Academy of Sciences",
+          "zh": "中国科学院植物研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ibcas.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-ibcas.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-igsnrr",
         "name": {
           "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
@@ -529,6 +589,18 @@
         "data_url": "http://www.igsnrr.ac.cn",
         "has_api": false,
         "file_path": "china/research/china-igsnrr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-imcas",
+        "name": {
+          "en": "Institute of Microbiology, Chinese Academy of Sciences",
+          "zh": "中国科学院微生物研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.im.cas.cn",
+        "has_api": false,
+        "file_path": "china/research/china-imcas.json",
         "geographic_scope": "national"
       },
       {
@@ -580,6 +652,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nigpas",
+        "name": {
+          "en": "Nanjing Institute of Geology and Palaeontology, Chinese Academy of Sciences",
+          "zh": "中国科学院南京地质古生物研究所"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.nigpas.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nigpas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nssdc",
+        "name": {
+          "en": "National Space Science Data Center",
+          "zh": "国家空间科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nssdc.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nssdc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pku-opendata",
+        "name": {
+          "en": "Peking University Open Research Data Platform",
+          "zh": "北京大学开放研究数据平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://opendata.pku.edu.cn",
+        "has_api": false,
+        "file_path": "china/research/china-pku-opendata.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-plant-csdb",
         "name": {
           "en": "China Plant Thematic Database (CAS Science Database)",
@@ -589,6 +697,18 @@
         "data_url": "https://www.plant.csdb.cn",
         "has_api": false,
         "file_path": "china/research/china-plant-csdb.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pmo",
+        "name": {
+          "en": "Purple Mountain Observatory, Chinese Academy of Sciences",
+          "zh": "中国科学院紫金山天文台"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.pmo.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-pmo.json",
         "geographic_scope": "national"
       },
       {
@@ -640,6 +760,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-caep",
+        "name": {
+          "en": "Chinese Academy of Environmental Planning",
+          "zh": "生态环境部环境规划院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.caep.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-caep.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ceads",
         "name": {
           "en": "Carbon Emission Accounts and Datasets for China (CEADs)",
@@ -661,6 +793,54 @@
         "data_url": "https://cern.ac.cn/0index/index.asp",
         "has_api": false,
         "file_path": "china/resources/environment/china-cern.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-craes",
+        "name": {
+          "en": "Chinese Research Academy of Environmental Sciences",
+          "zh": "中国环境科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.craes.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-craes.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ipe",
+        "name": {
+          "en": "Institute of Public & Environmental Affairs",
+          "zh": "公众环境研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ipe.org.cn/AirMap_fxy/AirMap.html",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ipe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nesdc",
+        "name": {
+          "en": "National Ecosystem Science Data Center",
+          "zh": "国家生态科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nesdc.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nesdc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crsri",
+        "name": {
+          "en": "Changjiang River Scientific Research Institute",
+          "zh": "长江科学院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.crsri.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-crsri.json",
         "geographic_scope": "national"
       },
       {
@@ -2126,6 +2306,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-gsxt",
+        "name": {
+          "en": "National Enterprise Credit Information Publicity System",
+          "zh": "国家企业信用信息公示系统"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.gsxt.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/market/china-gsxt.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-samr",
         "name": {
           "en": "State Administration for Market Regulation",
@@ -2826,6 +3018,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-pbccrc",
+        "name": {
+          "en": "People's Bank of China Credit Reference Center",
+          "zh": "中国人民银行征信中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.pbccrc.org.cn",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-pbccrc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-eximbank",
         "name": {
           "en": "Export-Import Bank of China",
@@ -3311,6 +3515,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinadrugtrials",
+        "name": {
+          "en": "China Drug Clinical Trials Registration and Information Disclosure Platform",
+          "zh": "药物临床试验登记与信息公示平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinadrugtrials.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-chinadrugtrials.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-natcm",
         "name": {
           "en": "National Administration of Traditional Chinese Medicine",
@@ -3494,6 +3710,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nmc",
+        "name": {
+          "en": "National Meteorological Centre of China",
+          "zh": "中央气象台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nmc.cn/publish/observations.html",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-nmc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nmic",
+        "name": {
+          "en": "National Meteorological Information Center",
+          "zh": "国家气象信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://data.cma.cn/data/index.html",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-nmic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nsmc",
         "name": {
           "en": "National Satellite Meteorological Center of China",
@@ -3540,6 +3780,18 @@
         "data_url": "https://www.cncbd.org.cn",
         "has_api": false,
         "file_path": "china/research/china-cncbd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cstr",
+        "name": {
+          "en": "China Science & Technology Resource Identifier Platform",
+          "zh": "科技资源标识服务平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://cstr.cn/resreg",
+        "has_api": false,
+        "file_path": "china/research/china-cstr.json",
         "geographic_scope": "national"
       },
       {
@@ -3747,6 +3999,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-hrc",
+        "name": {
+          "en": "Huai River Water Resources Commission",
+          "zh": "水利部淮河水利委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.hrc.gov.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-hrc.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-hwcc",
+        "name": {
+          "en": "Hai River Water Resources Commission",
+          "zh": "水利部海河水利委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.hwcc.gov.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-hwcc.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-mwr",
         "name": {
           "en": "Ministry of Water Resources of China - Water Resources Statistics",
@@ -3757,6 +4033,30 @@
         "has_api": false,
         "file_path": "china/resources/water/china-mwr.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-slwr",
+        "name": {
+          "en": "Songliao River Water Resources Commission",
+          "zh": "水利部松辽水利委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.slwr.gov.cn/gbjb.jhtml",
+        "has_api": false,
+        "file_path": "china/resources/water/china-slwr.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-yrcc",
+        "name": {
+          "en": "Yellow River Conservancy Commission",
+          "zh": "水利部黄河水利委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.yrcc.gov.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-yrcc.json",
+        "geographic_scope": "subnational"
       },
       {
         "id": "china-cmse",
@@ -5874,6 +6174,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cima",
+        "name": {
+          "en": "China Instrumentation and Measurement Society",
+          "zh": "中国仪器仪表行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cima.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cima.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cisa",
         "name": {
           "en": "China Iron and Steel Association",
@@ -6238,6 +6550,54 @@
       }
     ],
     "market": [
+      {
+        "id": "china-cppia",
+        "name": {
+          "en": "China Plastics Processing Industry Association",
+          "zh": "中国塑料加工工业协会"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.cppia.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cppia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-furniture-association",
+        "name": {
+          "en": "China National Furniture Association",
+          "zh": "中国家具协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cnfa.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-furniture-association.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-light-industry-council",
+        "name": {
+          "en": "China National Light Industry Council",
+          "zh": "中国轻工业联合会"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.cnlic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-light-industry-council.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-tea-marketing-association",
+        "name": {
+          "en": "China Tea Marketing Association",
+          "zh": "中国茶叶流通协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.ctma.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-tea-marketing-association.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-iresearch",
         "name": {

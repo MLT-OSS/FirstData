@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-25T09:12:44.796837+00:00",
-    "total_sources": 540,
+    "generated_at": "2026-04-28T11:51:59.475376+00:00",
+    "total_sources": 570,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3598,6 +3598,74 @@
       "file_path": "china/economy/industry_associations/china-cnea.json"
     },
     {
+      "id": "china-cppia",
+      "name": {
+        "en": "China Plastics Processing Industry Association",
+        "zh": "中国塑料加工工业协会"
+      },
+      "description": {
+        "en": "The China Plastics Processing Industry Association (CPPIA) is the national industry organization representing China's plastics processing sector. It covers manufacturers of plastic products, packaging materials, pipes, films, profiles, and engineering plastics. CPPIA publishes authoritative industry statistics, operational reports, market analysis, and technical standards covering the full plastics processing value chain including production output, consumption, imports/exports, and enterprise performance.",
+        "zh": "中国塑料加工工业协会（CPPIA）是代表中国塑料加工行业的全国性行业组织，成员涵盖塑料制品、包装材料、管材、薄膜、型材、工程塑料等制造企业。协会发布权威的行业统计数据、运行报告、市场分析和技术标准，内容涵盖塑料加工全产业链，包括产量、消费量、进出口及企业经营状况。"
+      },
+      "website": "http://www.cppia.com.cn",
+      "data_url": "http://www.cppia.com.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "manufacturing",
+        "industry",
+        "plastics",
+        "materials"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "塑料",
+        "plastics",
+        "塑料加工",
+        "plastics processing",
+        "塑料制品",
+        "plastic products",
+        "包装材料",
+        "packaging materials",
+        "工程塑料",
+        "engineering plastics",
+        "行业统计",
+        "industry statistics",
+        "产量",
+        "production output",
+        "进出口",
+        "imports exports",
+        "CPPIA",
+        "中国塑料"
+      ],
+      "data_content": {
+        "en": [
+          "Annual plastics processing industry operational statistics: total output, production volume by product category",
+          "Plastics consumption data: domestic demand breakdown by end-use sector (packaging, construction, automotive, agriculture)",
+          "Import and export statistics: plastic raw materials and finished products trade volume and value",
+          "Enterprise performance: revenue, profit margin, employment data across plastics processing sub-sectors",
+          "Market price indices: key plastic resin and product prices (PE, PP, PVC, PET)",
+          "Industry concentration and enterprise scale distribution data",
+          "Technical standards and quality certifications for plastics products",
+          "Annual China Plastics Industry Development Report: comprehensive industry trend analysis"
+        ],
+        "zh": [
+          "塑料加工行业年度运行统计：总产量及按产品类别的生产量",
+          "塑料消费数据：按终端用途（包装、建筑、汽车、农业）分类的国内需求",
+          "进出口统计：塑料原料及制品的贸易量和贸易额",
+          "企业经营数据：塑料加工各细分行业的收入、利润率、就业情况",
+          "市场价格指数：主要塑料树脂和制品价格（PE、PP、PVC、PET）",
+          "行业集中度及企业规模分布数据",
+          "塑料制品技术标准与质量认证",
+          "中国塑料工业发展年度报告：全面的行业趋势分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cppia.json"
+    },
+    {
       "id": "china-cria",
       "name": {
         "en": "China Rubber Industry Association",
@@ -3725,6 +3793,72 @@
       "file_path": "china/economy/industry_associations/china-ctic.json"
     },
     {
+      "id": "china-furniture-association",
+      "name": {
+        "en": "China National Furniture Association",
+        "zh": "中国家具协会"
+      },
+      "description": {
+        "en": "The China National Furniture Association (CNFA) is the national industry organization representing China's furniture manufacturing sector, covering residential furniture, office furniture, kitchen furniture, outdoor furniture, and related components. CNFA publishes industry statistics, market reports, trade data, and standards covering production output, domestic market sales, export performance, material consumption, and enterprise operations in China's furniture industry.",
+        "zh": "中国家具协会（CNFA）是代表中国家具制造业的全国性行业组织，涵盖住宅家具、办公家具、厨房家具、户外家具及相关零部件。协会发布行业统计数据、市场报告、贸易数据和标准，内容涵盖中国家具行业的产量、国内市场销售、出口表现、原材料消费及企业运营情况。"
+      },
+      "website": "https://www.cnfa.com.cn",
+      "data_url": "https://www.cnfa.com.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "manufacturing",
+        "industry",
+        "consumer-goods",
+        "trade"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "家具",
+        "furniture",
+        "家具制造",
+        "furniture manufacturing",
+        "住宅家具",
+        "residential furniture",
+        "办公家具",
+        "office furniture",
+        "厨房家具",
+        "kitchen furniture",
+        "家具出口",
+        "furniture export",
+        "行业统计",
+        "industry statistics",
+        "CNFA",
+        "中国家具"
+      ],
+      "data_content": {
+        "en": [
+          "Annual furniture industry economic operation report: total output value, revenue and profit",
+          "Production statistics: furniture output by category (residential, office, kitchen, outdoor furniture)",
+          "Export performance: furniture export volume and value by product type, destination country, and province",
+          "Import data: imported furniture products volume, value, and source countries",
+          "Domestic market sales: retail sales of furniture by channel and region",
+          "Enterprise data: number of manufacturers, employment, fixed asset investment by scale",
+          "Material consumption: wood, metal, fabric, and other raw material usage statistics",
+          "Furniture quality standards and certification data"
+        ],
+        "zh": [
+          "家具行业经济运行年度报告：总产值、收入及利润",
+          "生产统计：按类别（住宅、办公、厨房、户外家具）的家具产量",
+          "出口表现：按产品类型、目的地国家和省份的家具出口量和出口额",
+          "进口数据：进口家具产品的数量、金额及来源国",
+          "国内市场销售：按渠道和地区的家具零售销售数据",
+          "企业数据：按规模分类的制造商数量、就业人数、固定资产投资",
+          "原材料消耗：木材、金属、布料及其他原材料用量统计",
+          "家具质量标准和认证数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-furniture-association.json"
+    },
+    {
       "id": "china-gas-association",
       "name": {
         "en": "China Gas Association",
@@ -3794,6 +3928,145 @@
       },
       "has_api": false,
       "file_path": "china/economy/industry_associations/china-gas-association.json"
+    },
+    {
+      "id": "china-light-industry-council",
+      "name": {
+        "en": "China National Light Industry Council",
+        "zh": "中国轻工业联合会"
+      },
+      "description": {
+        "en": "The China National Light Industry Council (CNLIC) is the national federation representing China's light industry sector, encompassing food processing, beverages, household appliances, leather goods, paper, ceramics, clocks, bicycles, sewing machines, and other consumer goods manufacturing industries. CNLIC publishes authoritative industry statistics, development reports, economic analyses, and policy recommendations covering production, sales, exports, and enterprise operations across China's light industry.",
+        "zh": "中国轻工业联合会是代表中国轻工行业的全国性联合组织，涵盖食品加工、饮料、家用电器、皮革制品、造纸、陶瓷、钟表、自行车、缝纫机等消费品制造行业。联合会发布权威的行业统计数据、发展报告、经济分析和政策建议，内容涵盖中国轻工业的生产、销售、出口及企业运营情况。"
+      },
+      "website": "http://www.cnlic.org.cn",
+      "data_url": "http://www.cnlic.org.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "manufacturing",
+        "industry",
+        "consumer-goods",
+        "trade"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "轻工业",
+        "light industry",
+        "消费品",
+        "consumer goods",
+        "食品加工",
+        "food processing",
+        "家用电器",
+        "household appliances",
+        "皮革",
+        "leather",
+        "造纸",
+        "paper",
+        "陶瓷",
+        "ceramics",
+        "行业统计",
+        "industry statistics",
+        "CNLIC",
+        "中国轻工"
+      ],
+      "data_content": {
+        "en": [
+          "Annual light industry economic operation report: total output value, revenue and profit by sub-sector",
+          "Production statistics: output data for major light industry product categories (food, beverages, appliances, leather, paper)",
+          "Export data: light industry products trade volume and value broken down by product type and destination",
+          "Enterprise data: number of enterprises, employment, investment in fixed assets across light industry sectors",
+          "Market concentration and leading enterprise performance analysis",
+          "Import substitution and export competitiveness analysis for key light industry products",
+          "Light industry development plans and policy research reports",
+          "Industry standards and quality data for consumer products"
+        ],
+        "zh": [
+          "轻工业经济运行年度报告：总产值、各细分行业收入及利润",
+          "生产统计：主要轻工产品类别（食品、饮料、电器、皮革、纸张）产量数据",
+          "出口数据：按产品类型和目的地细分的轻工产品贸易量和贸易额",
+          "企业数据：轻工各行业企业数量、就业人数、固定资产投资",
+          "市场集中度及龙头企业经营状况分析",
+          "主要轻工产品进口替代和出口竞争力分析",
+          "轻工业发展规划和政策研究报告",
+          "消费品行业标准和质量数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-light-industry-council.json"
+    },
+    {
+      "id": "china-tea-marketing-association",
+      "name": {
+        "en": "China Tea Marketing Association",
+        "zh": "中国茶叶流通协会"
+      },
+      "description": {
+        "en": "The China Tea Marketing Association (CTMA), also known as 中国茶叶流通协会 or 中茶协, is the national industry organization representing China's tea production, processing, and marketing sector. As the world's largest tea producer and exporter, China's tea industry statistics published by CTMA are key references for agricultural economics, commodity trade, and consumer market analysis. CTMA provides authoritative data on tea production, market prices, trade volumes, quality standards, and enterprise operations across China's major tea-producing regions.",
+        "zh": "中国茶叶流通协会（CTMA，又称中茶协）是代表中国茶叶生产、加工和流通行业的全国性行业组织。作为全球最大的茶叶生产国和出口国，中国茶叶流通协会发布的行业统计数据是农业经济、大宗商品贸易和消费市场分析的重要参考依据。协会提供权威的茶叶产量、市场价格、贸易量、质量标准及企业运营数据，覆盖中国各大茶叶产区。"
+      },
+      "website": "https://www.ctma.com.cn",
+      "data_url": "https://www.ctma.com.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "food-beverage",
+        "trade",
+        "industry"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "茶叶",
+        "tea",
+        "茶叶市场",
+        "tea market",
+        "茶叶产量",
+        "tea production",
+        "茶叶出口",
+        "tea export",
+        "茶叶价格",
+        "tea price",
+        "绿茶",
+        "green tea",
+        "红茶",
+        "black tea",
+        "普洱茶",
+        "pu-erh tea",
+        "茶产业",
+        "tea industry",
+        "CTMA",
+        "中茶协",
+        "中国茶叶流通"
+      ],
+      "data_content": {
+        "en": [
+          "Annual tea production statistics: total output by tea type (green tea, black tea, oolong, white tea, pu-erh) and by province",
+          "Tea market price indices: wholesale and retail prices for major tea varieties by producing region",
+          "Export data: tea export volume and value broken down by type, destination country, and province",
+          "Import statistics: imported tea product volume, value, and source countries",
+          "Domestic consumption data: per capita tea consumption, retail channel distribution, urban vs rural",
+          "Tea enterprise performance: revenue, employment, and market share of major tea companies",
+          "Tea quality and safety standards: pesticide residue testing, grading standards, certification data",
+          "Annual China Tea Industry Development Report: comprehensive production, trade, and market trend analysis"
+        ],
+        "zh": [
+          "茶叶年度产量统计：按茶类（绿茶、红茶、乌龙茶、白茶、普洱茶）和省份的总产量",
+          "茶叶市场价格指数：各主产区主要茶叶品种批发和零售价格",
+          "出口数据：按茶类、目的地国家和省份分类的茶叶出口量和出口额",
+          "进口统计：进口茶叶产品的数量、金额及来源国",
+          "国内消费数据：人均茶叶消费量、零售渠道分布、城乡对比",
+          "茶叶企业经营：主要茶企收入、就业和市场份额",
+          "茶叶质量和安全标准：农药残留检测、等级标准、认证数据",
+          "中国茶叶产业发展年度报告：全面的生产、贸易和市场趋势分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-tea-marketing-association.json"
     },
     {
       "id": "china-acftu",
@@ -4387,6 +4660,74 @@
       },
       "has_api": false,
       "file_path": "china/economy/market/china-cgcc.json"
+    },
+    {
+      "id": "china-gsxt",
+      "name": {
+        "en": "National Enterprise Credit Information Publicity System",
+        "zh": "国家企业信用信息公示系统"
+      },
+      "description": {
+        "en": "The National Enterprise Credit Information Publicity System (GSXT) is the official government platform operated by the State Administration for Market Regulation (SAMR) of China. It is the authoritative public database for enterprise registration information, credit records, and regulatory compliance data for all enterprises registered in China. The system discloses enterprise basic registration data, annual report filings, administrative penalties, court judgments, business license information, equity structure, and credit ratings. It covers all types of enterprises, individual business entities, and other market entities registered across all provinces and cities in China.",
+        "zh": "国家企业信用信息公示系统（GSXT）是国家市场监督管理总局运营的官方政府平台，是中国境内所有注册企业的工商登记信息、信用记录和监管合规数据的权威公共数据库。系统公示企业基本注册数据、年报信息、行政处罚、法院判决、营业执照信息、股权结构及信用评级，覆盖全国各省市注册的企业、个体工商户及其他市场主体。"
+      },
+      "data_content": {
+        "en": [
+          "enterprise registration and basic information",
+          "annual report filings",
+          "administrative penalty records",
+          "court judgment and enforcement records",
+          "business license and qualification data",
+          "equity structure and shareholder information",
+          "enterprise credit ratings and black lists",
+          "operating status and change history",
+          "branch and subsidiary information",
+          "market entity credit compliance data"
+        ],
+        "zh": [
+          "企业注册与基本信息",
+          "年报信息",
+          "行政处罚记录",
+          "法院判决与执行记录",
+          "营业执照与资质数据",
+          "股权结构与股东信息",
+          "企业信用评级与黑名单",
+          "经营状态与变更历史",
+          "分支机构与子公司信息",
+          "市场主体信用合规数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.gsxt.gov.cn",
+      "data_url": "https://www.gsxt.gov.cn",
+      "api_url": null,
+      "domains": [
+        "economy",
+        "governance"
+      ],
+      "tags": [
+        "enterprise-credit",
+        "business-registration",
+        "market-supervision",
+        "corporate-data",
+        "credit-system",
+        "企业信用",
+        "工商登记",
+        "市场监管",
+        "信用信息",
+        "营业执照",
+        "股权",
+        "年报",
+        "行政处罚",
+        "SAMR",
+        "市场监管总局",
+        "国家企业信用"
+      ],
+      "update_frequency": "daily",
+      "has_api": false,
+      "file_path": "china/economy/market/china-gsxt.json"
     },
     {
       "id": "china-iresearch",
@@ -9095,6 +9436,81 @@
       "file_path": "china/finance/banking/china-cba.json"
     },
     {
+      "id": "china-pbccrc",
+      "name": {
+        "en": "People's Bank of China Credit Reference Center",
+        "zh": "中国人民银行征信中心"
+      },
+      "description": {
+        "en": "The Credit Reference Center (CRC) of the People's Bank of China is the operator of China's national credit registry system—one of the world's largest credit databases. Established in 2006, CRC maintains credit records for over 1.1 billion natural persons and more than 60 million enterprises and other legal entities. It collects credit information from banks, non-bank financial institutions, public utilities, and government agencies, and provides credit reports to lenders, individuals, and authorized institutions for lending decisions, due diligence, and financial supervision. CRC also publishes aggregate credit statistics, reports on the scale of social financing, and research on credit system development that inform monetary policy and financial regulation.",
+        "zh": "中国人民银行征信中心是全国征信系统的运营机构，是全球最大的信用数据库之一。中心成立于2006年，维护着超过11亿自然人和6000万余家企业及其他法人主体的信用记录。数据来源包括银行、非银行金融机构、公用事业单位和政府部门，为贷款机构、个人和授权机构提供信用报告，用于授信决策、尽职调查和金融监管。征信中心还发布信用统计汇总数据、社会融资规模报告和征信体系发展研究，为货币政策和金融监管提供支撑。"
+      },
+      "website": "https://www.pbccrc.org.cn",
+      "data_url": "https://www.pbccrc.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "credit",
+        "banking",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "人民银行征信",
+        "征信中心",
+        "CRC",
+        "credit reference",
+        "credit bureau",
+        "信用报告",
+        "credit report",
+        "企业信用",
+        "enterprise credit",
+        "个人信用",
+        "personal credit",
+        "社会征信",
+        "social credit",
+        "金融监管",
+        "financial regulation",
+        "银行信贷",
+        "bank lending",
+        "不良贷款",
+        "non-performing loans",
+        "社会融资规模",
+        "aggregate social financing",
+        "征信体系",
+        "credit system",
+        "贷款",
+        "loan",
+        "债务",
+        "debt",
+        "人民银行",
+        "PBC"
+      ],
+      "data_content": {
+        "en": [
+          "Individual Credit Reports: Personal credit history including loans, credit cards, repayment records, and public record information for over 1.1 billion individuals",
+          "Enterprise Credit Reports: Corporate credit histories including business loans, bonds, guarantees, and legal judgment records for 60+ million entities",
+          "Credit Statistics: Aggregate national statistics on credit scale, loan types, overdue rates, and financial system credit quality",
+          "Social Financing Scale: Monthly data on aggregate social financing (TSF), covering bank loans, corporate bonds, equity financing, and off-balance-sheet instruments",
+          "Credit System Research: Annual reports on China's credit system development, coverage rates, and comparative international analyses",
+          "Financial Institution Data: Credit registry data from thousands of banks and licensed non-bank financial institutions across China"
+        ],
+        "zh": [
+          "个人信用报告：超过11亿自然人的贷款、信用卡、还款记录和公共记录信息",
+          "企业信用报告：6000万余家企业的贷款、债券、担保和法院判决记录",
+          "信贷统计：全国信贷规模、贷款类型、逾期率和金融体系信贷质量汇总数据",
+          "社会融资规模：银行贷款、企业债券、股权融资及表外业务的社会融资规模月度数据",
+          "征信研究：中国征信体系发展、覆盖率及国际比较分析年报",
+          "金融机构数据：来自全国数千家银行和持牌非银行金融机构的征信数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-pbccrc.json"
+    },
+    {
       "id": "china-eximbank",
       "name": {
         "en": "Export-Import Bank of China",
@@ -13086,6 +13502,71 @@
       "file_path": "china/health/china-cams.json"
     },
     {
+      "id": "china-chinadrugtrials",
+      "name": {
+        "en": "China Drug Clinical Trials Registration and Information Disclosure Platform",
+        "zh": "药物临床试验登记与信息公示平台"
+      },
+      "description": {
+        "en": "The China Drug Clinical Trials Registration and Information Disclosure Platform is operated by the Center for Drug Evaluation (CDE) under the National Medical Products Administration (NMPA). It serves as China's official registry for drug clinical trials, providing public access to trial registration data, study protocols, and results. The platform covers all phases of clinical trials conducted in China, including trials for chemical drugs, biological products, and traditional Chinese medicines. Researchers, pharmaceutical companies, and the public can search for ongoing and completed trials, review study designs, and access outcome information. The platform plays a critical role in promoting transparency and accountability in China's pharmaceutical clinical research ecosystem.",
+        "zh": "药物临床试验登记与信息公示平台由国家药品监督管理局药品审评中心（CDE）运营，是中国药物临床试验的官方登记注册平台，提供试验登记数据、研究方案和结果的公开访问。平台覆盖在中国开展的所有阶段临床试验，包括化学药品、生物制品和中药的临床试验。研究人员、制药企业和公众可以检索正在进行和已完成的临床试验，审查研究设计并获取结果信息。该平台在促进中国医药临床研究生态系统的透明度和问责制方面发挥着关键作用。"
+      },
+      "website": "https://www.chinadrugtrials.org.cn",
+      "data_url": "https://www.chinadrugtrials.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "pharmaceuticals"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "临床试验",
+        "clinical trials",
+        "药物",
+        "drug",
+        "CDE",
+        "药品审评",
+        "drug evaluation",
+        "NMPA",
+        "国家药监局",
+        "pharmaceutical",
+        "制药",
+        "试验登记",
+        "trial registration",
+        "生物制品",
+        "biological products",
+        "中药",
+        "traditional Chinese medicine",
+        "研究方案",
+        "study protocol",
+        "药物研发",
+        "drug development"
+      ],
+      "data_content": {
+        "en": [
+          "Clinical trial registration records: trial ID, sponsor, study title, therapeutic area, drug name, trial phase, and registration date",
+          "Study protocol details: study design, objectives, endpoints, inclusion/exclusion criteria, sample size, and treatment arms",
+          "Trial status tracking: recruitment status, start and completion dates, and participating clinical sites across China",
+          "Drug information: investigational drug details, dosage forms, routes of administration, and indications under study",
+          "Sponsor and investigator data: sponsoring organizations, principal investigators, and ethics committee approval information",
+          "Trial results summaries: outcome data and results for completed clinical trials when available"
+        ],
+        "zh": [
+          "临床试验登记记录：试验编号、申办者、研究题目、治疗领域、药物名称、试验分期及登记日期",
+          "研究方案详情：研究设计、目的、终点指标、入选/排除标准、样本量及治疗组别",
+          "试验状态跟踪：招募状态、开始与完成日期及全国参与临床试验机构",
+          "药物信息：在研药物详情、剂型、给药途径及研究适应症",
+          "申办者与研究者数据：申办机构、主要研究者及伦理委员会批件信息",
+          "试验结果摘要：已完成临床试验的结局数据和结果信息"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-chinadrugtrials.json"
+    },
+    {
       "id": "china-class",
       "name": {
         "en": "China Longitudinal Aging Social Survey (CLASS)",
@@ -13304,6 +13785,87 @@
       },
       "has_api": false,
       "file_path": "china/health/china-cpharma.json"
+    },
+    {
+      "id": "china-cpma",
+      "name": {
+        "en": "Chinese Preventive Medicine Association",
+        "zh": "中华预防医学会"
+      },
+      "description": {
+        "en": "The Chinese Preventive Medicine Association (CPMA) is China's largest national-level academic association in the field of public health and preventive medicine, established in 1987 under the supervision of the National Health Commission. CPMA unites over 400,000 public health professionals and 89 professional branches covering epidemiology, occupational health, nutrition, environmental health, school health, and health statistics. The association publishes key academic journals, organizes national public health surveillance research, and issues clinical guidelines and technical standards for disease prevention and control. CPMA plays a central role in translating evidence-based public health research into national prevention policies, vaccination programs, and non-communicable disease intervention strategies. It coordinates with WHO and international public health organizations on global health initiatives.",
+        "zh": "中华预防医学会是中国最大的公共卫生和预防医学领域全国性学术团体，1987年在国家卫生健康委员会主管下成立，拥有40余万名公共卫生专业人员和89个专业分会，涵盖流行病学、职业卫生、营养、环境卫生、学校卫生和卫生统计等领域。学会出版重要学术期刊，组织全国公共卫生监测研究，发布疾病预防控制临床指南和技术规范。中华预防医学会在将循证公共卫生研究转化为国家预防政策、疫苗接种规划和慢性病干预策略方面发挥核心作用，并与世界卫生组织及国际公共卫生组织协调开展全球卫生行动。"
+      },
+      "website": "https://www.cpma.org.cn",
+      "data_url": "https://www.cpma.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "science",
+        "social"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中华预防医学会",
+        "CPMA",
+        "Chinese Preventive Medicine Association",
+        "公共卫生",
+        "public health",
+        "预防医学",
+        "preventive medicine",
+        "流行病学",
+        "epidemiology",
+        "职业卫生",
+        "occupational health",
+        "营养学",
+        "nutrition",
+        "环境卫生",
+        "environmental health",
+        "学校卫生",
+        "school health",
+        "卫生统计",
+        "health statistics",
+        "疾病预防",
+        "disease prevention",
+        "疫苗接种",
+        "vaccination",
+        "慢性病",
+        "non-communicable disease",
+        "NCD",
+        "卫生政策",
+        "health policy",
+        "全球卫生",
+        "global health",
+        "WHO",
+        "世界卫生组织"
+      ],
+      "data_content": {
+        "en": [
+          "Epidemiological surveillance data: national disease burden estimates, outbreak investigation reports, and long-term epidemiological cohort study data for major communicable and non-communicable diseases",
+          "Public health guidelines and standards: evidence-based clinical practice guidelines for disease prevention, technical standards for health examination, and occupational health assessment criteria",
+          "Vaccination program data: immunization schedule recommendations, vaccine safety monitoring reports, and vaccination coverage surveys across Chinese provinces",
+          "Nutrition and dietary surveys: national nutrition status data, dietary pattern analyses, micronutrient deficiency prevalence, and dietary guideline development data for Chinese populations",
+          "Occupational health data: work-related disease statistics, occupational exposure limit standards, workplace health hazard assessments, and industrial hygiene monitoring data",
+          "Environmental health research: environmental exposure assessment studies, environmental epidemiology data for air, water, and soil pollution impacts on human health",
+          "School and child health: student physical fitness surveillance, school environment health assessments, adolescent health monitoring, and eye health data",
+          "Academic publications: peer-reviewed research from Chinese Journal of Preventive Medicine and 10+ CPMA-affiliated journals covering all major public health domains"
+        ],
+        "zh": [
+          "流行病学监测数据：重大传染病和慢性病的全国疾病负担估算、暴发事件调查报告和长期流行病学队列研究数据",
+          "公共卫生指南和标准：疾病预防循证临床实践指南、健康检查技术规范和职业健康评估标准",
+          "疫苗接种规划数据：免疫接种时间表建议、疫苗安全监测报告和全国各省接种率调查",
+          "营养和膳食调查：全国营养状况数据、膳食结构分析、微量营养素缺乏流行率和中国居民膳食指南制定数据",
+          "职业卫生数据：职业病统计、职业接触限值标准、工作场所危害评估和工业卫生监测数据",
+          "环境卫生研究：环境暴露评估研究、空气、水和土壤污染对人体健康影响的环境流行病学数据",
+          "学校和儿童健康：学生体质监测、学校环境卫生评估、青少年健康监测和视力健康数据",
+          "学术出版物：《中华预防医学杂志》及10余种中华预防医学会下属期刊的所有公共卫生领域同行评审研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cpma.json"
     },
     {
       "id": "china-hospital-association",
@@ -14214,6 +14776,74 @@
       "file_path": "china/infrastructure/china-crta.json"
     },
     {
+      "id": "china-highway-society",
+      "name": {
+        "en": "China Highway and Transportation Society",
+        "zh": "中国公路学会"
+      },
+      "description": {
+        "en": "The China Highway and Transportation Society (CHTS) is a national academic and professional organization for China's highway and transportation sector, affiliated with the Ministry of Transport. CHTS publishes research reports, technical standards, and data covering highway construction, road infrastructure, traffic volume, transportation technology, and highway safety. It is a key reference for policy research, engineering standards, and transportation planning in China.",
+        "zh": "中国公路学会（CHTS）是中国公路与交通运输行业的全国性学术和专业组织，隶属于交通运输部。学会发布研究报告、技术标准和数据，内容涵盖公路建设、道路基础设施、交通流量、交通运输技术和公路安全。是中国政策研究、工程标准和交通规划的重要参考来源。"
+      },
+      "website": "https://www.chts.cn",
+      "data_url": "https://www.chts.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "infrastructure",
+        "transportation",
+        "construction",
+        "technology"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "公路",
+        "highway",
+        "交通运输",
+        "transportation",
+        "道路建设",
+        "road construction",
+        "交通流量",
+        "traffic volume",
+        "公路安全",
+        "highway safety",
+        "交通工程",
+        "traffic engineering",
+        "路网",
+        "road network",
+        "技术标准",
+        "technical standards",
+        "CHTS",
+        "中国公路"
+      ],
+      "data_content": {
+        "en": [
+          "Highway mileage statistics: total road network length by grade (expressway, national highway, provincial highway, rural road)",
+          "Highway construction investment: annual investment data in road infrastructure by region and project type",
+          "Traffic volume data: vehicle counts, passenger and freight transport volume on major highway corridors",
+          "Highway safety statistics: accident frequency, fatality rates, major incident analysis by road type",
+          "Bridge and tunnel statistics: number, length, and structural condition of highway bridges and tunnels",
+          "Technical research reports: pavement technology, bridge engineering, tunnel construction innovations",
+          "Highway freight transport: cargo volume and turnover by transport mode and highway grade",
+          "Transportation planning and policy research reports for China's road network"
+        ],
+        "zh": [
+          "公路里程统计：按等级（高速公路、国道、省道、农村公路）的公路网总里程",
+          "公路建设投资：按地区和项目类型的道路基础设施年度投资数据",
+          "交通流量数据：主要公路走廊的车辆计数、客运和货运量",
+          "公路安全统计：按道路类型分类的事故频率、死亡率和重大事故分析",
+          "桥梁和隧道统计：公路桥梁和隧道的数量、长度和结构状况",
+          "技术研究报告：路面技术、桥梁工程、隧道建设创新",
+          "公路货运：按运输方式和公路等级的货运量和货运周转量",
+          "中国公路网交通规划和政策研究报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-highway-society.json"
+    },
+    {
       "id": "china-mot",
       "name": {
         "en": "Ministry of Transport of China",
@@ -15057,6 +15687,161 @@
       },
       "has_api": false,
       "file_path": "china/national/meteorology/china-cma.json"
+    },
+    {
+      "id": "china-nmc",
+      "name": {
+        "en": "National Meteorological Centre of China",
+        "zh": "中央气象台"
+      },
+      "description": {
+        "en": "The National Meteorological Centre (NMC) is China's national weather forecasting and meteorological service center, operating under the China Meteorological Administration (CMA). NMC is responsible for issuing official national weather forecasts, severe weather warnings, and meteorological disaster early warnings covering the entire Chinese territory. It provides real-time weather observation data from thousands of ground stations, ocean buoys, weather balloons, and satellites. NMC operates China's numerical weather prediction (NWP) models and produces the authoritative daily and extended-range weather forecasts. Key products include national weather charts, precipitation forecasts, temperature trend predictions, typhoon tracks, drought and flood monitoring, and seasonal climate outlooks. NMC's data feeds directly into agriculture, transportation, disaster prevention, public health, and energy sector planning across China.",
+        "zh": "中央气象台是中国国家气象局（中国气象局）下属的国家级天气预报和气象服务中心。中央气象台负责发布覆盖全国的官方天气预报、强对流天气预警和气象灾害预警。提供来自全国数千个地面气象站、海洋浮标、探空气球和气象卫星的实时气象观测数据。中央气象台运行中国数值天气预报（NWP）模式，制作权威的日常天气预报和中长期天气预报。主要产品包括全国天气图、降水预报、气温趋势预测、台风路径预报、旱涝监测和季节气候展望。中央气象台数据直接服务于全国农业、交通运输、防灾减灾、公共卫生和能源规划。"
+      },
+      "website": "https://www.nmc.cn",
+      "data_url": "https://www.nmc.cn/publish/observations.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "meteorology",
+        "climate",
+        "environment",
+        "disaster-prevention"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "中央气象台",
+        "NMC",
+        "National Meteorological Centre",
+        "天气预报",
+        "weather forecast",
+        "气象预警",
+        "meteorological warning",
+        "实时气象",
+        "real-time weather",
+        "气象观测",
+        "weather observation",
+        "台风",
+        "typhoon",
+        "暴雨预警",
+        "rainstorm warning",
+        "数值天气预报",
+        "numerical weather prediction",
+        "旱涝监测",
+        "drought flood monitoring",
+        "气候预测",
+        "climate prediction",
+        "中国气象局",
+        "China Meteorological Administration"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time national weather observations: surface data from thousands of ground stations across China including temperature, precipitation, wind speed, humidity, and air pressure",
+          "Official national weather forecasts: daily and extended-range (10-day) forecasts for all provinces, cities, and counties in China",
+          "Severe weather warnings: official color-coded alerts for rainstorms, typhoons, high winds, snowstorms, frost, fog, haze, thunderstorms, and other extreme events",
+          "Typhoon tracking and forecasts: real-time path predictions, intensity forecasts, and landfall risk assessments for tropical cyclones affecting China",
+          "Precipitation and drought monitoring: nationwide maps of rainfall distribution, accumulated precipitation anomalies, and drought severity indices",
+          "Climate outlook products: monthly, seasonal, and annual climate trend forecasts including temperature and precipitation anomaly predictions",
+          "Numerical weather prediction model outputs: analysis fields, forecast fields, and ensemble prediction data from CMA's operational NWP systems",
+          "Radar and satellite data: composite radar reflectivity maps, satellite cloud imagery, and derived meteorological products for the national domain"
+        ],
+        "zh": [
+          "全国实时气象观测：来自全国数千个地面站的地面数据，包括气温、降水、风速、湿度和气压",
+          "官方全国天气预报：全国各省市县的逐日和中期（10天）天气预报",
+          "强对流天气预警：暴雨、台风、大风、暴雪、霜冻、大雾、霾、雷暴等极端天气事件的官方色码预警",
+          "台风路径追踪和预报：影响中国的热带气旋实时路径预测、强度预报和登陆风险评估",
+          "降水与旱涝监测：全国降雨分布图、累积降水距平图和干旱严重程度指数",
+          "气候展望产品：月度、季节和年度气候趋势预报，包括气温和降水距平预测",
+          "数值天气预报模式产品：中国气象局业务NWP系统的分析场、预报场和集合预报数据",
+          "雷达和卫星数据：全国合成雷达反射率图、气象卫星云图及衍生气象产品"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/national/meteorology/china-nmc.json"
+    },
+    {
+      "id": "china-nmic",
+      "name": {
+        "en": "National Meteorological Information Center",
+        "zh": "国家气象信息中心"
+      },
+      "description": {
+        "en": "The National Meteorological Information Center (NMIC), operating under the China Meteorological Administration, is China's primary hub for meteorological data collection, processing, archiving, and distribution. Its public platform, the China Meteorological Data Service Centre (data.cma.cn), provides open and authorized access to decades of surface observations, upper-air soundings, satellite products, radar mosaics, ocean-atmosphere data, and climate reanalysis datasets. Researchers, government agencies, and enterprises can register for tiered data access ranging from free public datasets to professional-grade high-resolution archives. NMIC maintains the National Basic Meteorological Dataset, which records over 2,400 national stations and more than 60,000 automatic weather stations. The center also hosts agrometeorological, marine meteorological, and global exchange datasets from WMO partner nations.",
+        "zh": "国家气象信息中心是中国气象局下属专业机构，负责全国气象数据的采集、加工、存档和分发。其公众服务平台——中国气象数据网（data.cma.cn）提供从免费公开数据到专业级高分辨率档案的分级开放访问。数据内容涵盖数十年地面观测、高空探测、卫星产品、雷达拼图、海气观测和气候再分析数据集。国家基本气象数据集记录了全国2400余个国家站和6万余个自动气象站的观测数据。中心还托管农业气象、海洋气象及世界气象组织成员国交换数据集，是中国气象科研和业务的核心数据枢纽。"
+      },
+      "website": "https://data.cma.cn",
+      "data_url": "https://data.cma.cn/data/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "meteorology",
+        "climate",
+        "environment",
+        "agriculture",
+        "earth-science"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "国家气象信息中心",
+        "NMIC",
+        "中国气象数据网",
+        "weather data",
+        "meteorology",
+        "climate data",
+        "气象数据",
+        "天气",
+        "气候",
+        "地面观测",
+        "surface observation",
+        "高空探测",
+        "upper-air sounding",
+        "卫星数据",
+        "satellite data",
+        "雷达",
+        "radar",
+        "再分析",
+        "reanalysis",
+        "农业气象",
+        "agrometeorological",
+        "自动气象站",
+        "automatic weather station",
+        "气候变化",
+        "climate change",
+        "降水",
+        "precipitation",
+        "温度",
+        "temperature",
+        "风速",
+        "wind"
+      ],
+      "data_content": {
+        "en": [
+          "Surface Observations: Temperature, precipitation, humidity, wind, pressure, and visibility from 2,400+ national stations and 60,000+ automatic weather stations",
+          "Upper-Air Soundings: Radiosonde profiles of temperature, humidity, and wind at pressure levels from the global upper-air network",
+          "Satellite Products: FY-series meteorological satellite imagery including cloud products, precipitation estimation, land surface temperature, and sea surface temperature",
+          "Radar Mosaics: Nationwide composite weather radar reflectivity and doppler wind products",
+          "Climate Reanalysis: Long-term atmospheric reanalysis datasets for climate research and model validation",
+          "Ocean-Atmosphere Data: Marine meteorological observations including sea surface parameters and wave data",
+          "Agrometeorological Data: Crop phenology, soil moisture, growing degree days, and agricultural weather indices",
+          "Global Exchange Data: Meteorological datasets received from WMO Global Telecommunication System partner countries"
+        ],
+        "zh": [
+          "地面观测：全国2400余个国家站和6万余个自动气象站的温度、降水、湿度、风速、气压、能见度数据",
+          "高空探测：探空仪测量各气压层的温度、湿度和风场廓线",
+          "卫星产品：风云系列气象卫星云产品、降水估算、地表温度和海面温度",
+          "雷达拼图：全国天气雷达反射率合成图及多普勒风场产品",
+          "气候再分析：供气候研究和模型验证的长期大气再分析数据集",
+          "海洋气象：海面气象观测、海浪等海气界面参数",
+          "农业气象：作物物候、土壤水分、积温和农业天气指数",
+          "全球交换数据：通过世界气象组织全球电信系统接收的各国气象数据集"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/national/meteorology/china-nmic.json"
     },
     {
       "id": "china-nsmc",
@@ -16097,6 +16882,87 @@
       "file_path": "china/research/china-cipd.json"
     },
     {
+      "id": "china-cisri",
+      "name": {
+        "en": "China Iron & Steel Research Institute Group",
+        "zh": "中国钢研科技集团有限公司"
+      },
+      "description": {
+        "en": "The China Iron & Steel Research Institute Group (CISRI), formerly the Iron and Steel Research Institute, is China's premier state-owned research institution specializing in metallurgy, advanced steel materials, and new materials technology. Founded in 1952 and affiliated with the State-owned Assets Supervision and Administration Commission (SASAC), CISRI is the national authority for steel and metallic materials research, testing, and standardization. It operates the National Steel Quality Supervision and Inspection Center and maintains reference material databases for Chinese metallurgical standards. CISRI publishes authoritative technical data on steel grades, material properties, failure analysis, and corrosion behavior, serving as the technical backbone for China's iron and steel industry. The institute develops national and industry standards for steel products and contributes to international standards bodies including ISO TC17 (steel). CISRI's research spans special steels for aerospace, energy, transportation, and defense applications, as well as environmental metallurgy and recycling.",
+        "zh": "中国钢研科技集团有限公司（中国钢研）原为冶金研究院，是中国顶级冶金、先进钢铁材料和新材料技术领域的国有研究机构，1952年创建，隶属国务院国有资产监督管理委员会（国资委）。中国钢研是钢铁和金属材料研究、检测和标准化领域的国家权威机构，运营国家钢铁质量监督检验中心，维护中国冶金标准标准物质数据库。公司发布钢铁牌号、材料性能、失效分析和腐蚀行为权威技术数据，是中国钢铁工业技术支撑核心。研究所制定钢铁产品国家和行业标准，并参与ISO TC17（钢铁）等国际标准化机构。中国钢研的研究涵盖航空、能源、交通和国防应用的特种钢，以及环境冶金和再生利用。"
+      },
+      "website": "https://www.cisri.com.cn",
+      "data_url": "https://www.cisri.com.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "science",
+        "technology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国钢研科技集团",
+        "CISRI",
+        "China Iron Steel Research Institute",
+        "冶金",
+        "metallurgy",
+        "钢铁",
+        "steel",
+        "金属材料",
+        "metallic materials",
+        "特种钢",
+        "special steel",
+        "钢铁标准",
+        "steel standards",
+        "材料性能",
+        "material properties",
+        "失效分析",
+        "failure analysis",
+        "腐蚀",
+        "corrosion",
+        "标准物质",
+        "reference materials",
+        "国家钢铁质量监督检验",
+        "steel quality inspection",
+        "新材料",
+        "new materials",
+        "航空材料",
+        "aerospace materials",
+        "ISO TC17",
+        "国资委",
+        "SASAC",
+        "环境冶金",
+        "environmental metallurgy"
+      ],
+      "data_content": {
+        "en": [
+          "Steel grade standards database: comprehensive records of Chinese national steel grade classifications (GB standards), chemical composition specifications, and mechanical property requirements for thousands of steel products",
+          "Material property databases: tensile strength, yield strength, hardness, impact toughness, fatigue life, and creep data for carbon steels, alloy steels, stainless steels, and tool steels under various conditions",
+          "Failure analysis case data: metallurgical failure investigation reports for industrial accidents, equipment failures, and product defects, supporting industry safety and quality improvement",
+          "Corrosion behavior data: electrochemical corrosion, stress corrosion cracking, and environmentally-assisted cracking data for steels in atmospheric, marine, and industrial environments",
+          "Reference materials: certified standard reference materials for spectrochemical analysis of iron and steel, providing traceability for quality control in steel production",
+          "Special and advanced materials research: data on high-strength steels, heat-resistant steels, electrical steels, bearing steels, and tool steels for aerospace, energy, and defense applications",
+          "Steel production process data: research outputs on iron and steelmaking technologies, continuous casting, rolling, heat treatment, and surface treatment optimization",
+          "Environmental metallurgy and recycling: scrap steel characterization data, secondary metallurgy research, and life cycle assessment for steel production processes"
+        ],
+        "zh": [
+          "钢铁牌号标准数据库：数千种钢铁产品的中国国家钢铁牌号分类（GB标准）、化学成分规范和力学性能要求综合记录",
+          "材料性能数据库：碳钢、合金钢、不锈钢和工具钢在各种条件下的抗拉强度、屈服强度、硬度、冲击韧性、疲劳寿命和蠕变数据",
+          "失效分析案例数据：工业事故、设备故障和产品缺陷的冶金失效调查报告，支持行业安全和质量改进",
+          "腐蚀行为数据：钢铁在大气、海洋和工业环境中的电化学腐蚀、应力腐蚀开裂和环境辅助开裂数据",
+          "标准物质：钢铁光谱化学分析认证标准物质，为钢铁生产质量控制提供溯源性依据",
+          "特种和先进材料研究：航空、能源和国防应用的高强度钢、耐热钢、电工钢、轴承钢和工具钢数据",
+          "钢铁生产工艺数据：炼铁炼钢技术、连铸、轧制、热处理和表面处理优化的研究成果",
+          "环境冶金和再生利用：废钢特征化数据、二次冶金研究和钢铁生产工艺的生命周期评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cisri.json"
+    },
+    {
       "id": "china-cncbd",
       "name": {
         "en": "China National Center for Biotechnology Development",
@@ -16248,6 +17114,88 @@
       "file_path": "china/research/china-cste.json"
     },
     {
+      "id": "china-cstr",
+      "name": {
+        "en": "China Science & Technology Resource Identifier Platform",
+        "zh": "科技资源标识服务平台"
+      },
+      "description": {
+        "en": "The China Science and Technology Resource Identifier (CSTR) Platform is China's national persistent identifier system for scientific data resources, operated by the National Science and Technology Infrastructure Center (NSTIC) under the Ministry of Science and Technology. Analogous to DOIs for publications, CSTR assigns permanent, resolvable identifiers to scientific datasets, instruments, specimens, and other research resources managed by China's major scientific data centers. The platform serves as the authoritative registry and resolution service for scientific resources from institutions including the Chinese Academy of Sciences, national key laboratories, and data centers under the National Science and Technology Basic Conditions Platform. Through CSTR, users can discover, cite, and access standardized scientific data across disciplines such as earth sciences, life sciences, materials, astronomy, and social sciences.",
+        "zh": "科技资源标识服务平台（CSTR）是中国科技部国家科技基础条件平台中心运营的国家级科学数据资源持久标识体系。类似于学术出版物的DOI，CSTR为中国主要科学数据中心管理的数据集、仪器设备、标本和其他研究资源分配永久可解析标识符。平台作为科学院、国家重点实验室和国家科技基础条件平台下属数据中心科学资源的权威注册和解析服务，支持跨地球科学、生命科学、材料科学、天文学和社会科学等领域的科学数据发现、引用和访问。"
+      },
+      "website": "https://cstr.cn",
+      "data_url": "https://cstr.cn/resreg",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "science",
+        "earth-science",
+        "biology",
+        "materials",
+        "astronomy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "科技资源标识",
+        "CSTR",
+        "科学数据",
+        "scientific data",
+        "数据标识",
+        "data identifier",
+        "持久标识",
+        "persistent identifier",
+        "DOI",
+        "科学数据中心",
+        "scientific data center",
+        "国家科技基础条件平台",
+        "national science infrastructure",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "地球科学",
+        "earth science",
+        "生命科学",
+        "life science",
+        "材料科学",
+        "materials science",
+        "天文学",
+        "astronomy",
+        "数据共享",
+        "data sharing",
+        "科研数据管理",
+        "research data management",
+        "开放科学",
+        "open science",
+        "数据仓库",
+        "data repository"
+      ],
+      "data_content": {
+        "en": [
+          "Scientific Dataset Registry: Persistent identifiers linking to datasets from China's national scientific data centers across all major disciplines",
+          "Earth and Environment Data: Geoscience, climate, ecology, and environmental observation datasets from CAS institutes and national observatories",
+          "Life Science Data: Biological specimen collections, genomics, biodiversity, and biomedical research datasets",
+          "Materials Science Data: Crystallography, materials properties, and experimental materials datasets from national labs",
+          "Astronomy and Space Data: Observational astronomy data, space science mission products, and cosmological datasets",
+          "Social Science Data: Survey and census data from social science research centers and population studies institutes",
+          "Instrument and Facility Registry: Records of major scientific instruments and facilities available to the research community",
+          "Cross-domain Discovery: Unified search and citation system for all CSTR-identified resources across participating data centers"
+        ],
+        "zh": [
+          "科学数据集注册：链接至中国各主要学科国家科学数据中心数据集的持久标识符",
+          "地球与环境数据：来自中科院研究所和国家观测站的地球科学、气候、生态和环境观测数据集",
+          "生命科学数据：生物标本馆藏、基因组学、生物多样性和生物医学研究数据集",
+          "材料科学数据：来自国家实验室的晶体学、材料性质和实验材料数据集",
+          "天文与空间数据：天文观测数据、航天任务产品和宇宙学数据集",
+          "社会科学数据：社会科学研究中心和人口研究所的调查和普查数据",
+          "仪器设备注册：向科研界开放的大型科学仪器和设施信息",
+          "跨领域发现：面向各参与数据中心所有CSTR标识资源的统一检索和引用系统"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cstr.json"
+    },
+    {
       "id": "china-drc",
       "name": {
         "en": "Development Research Center of the State Council of China",
@@ -16326,6 +17274,85 @@
       },
       "has_api": false,
       "file_path": "china/research/china-drc.json"
+    },
+    {
+      "id": "china-giec",
+      "name": {
+        "en": "Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences",
+        "zh": "中国科学院广州能源研究所"
+      },
+      "description": {
+        "en": "The Guangzhou Institute of Energy Conversion (GIEC) under the Chinese Academy of Sciences (CAS) is one of China's premier national research institutions focused on renewable energy, energy efficiency, and clean energy technology. Founded in 1978 and headquartered in Guangzhou, GIEC conducts comprehensive research on solar energy, wind energy, biomass energy, hydrogen energy, marine energy, and natural gas hydrates. As a key national research base for new and renewable energy, GIEC operates multiple national-level key laboratories including the State Key Lab for Combustion, the Guangdong New Energy Engineering Technology Research Center, and key labs for renewable energy and gas hydrates. GIEC publishes widely cited research outputs on energy conversion technologies, energy storage, carbon capture, and clean fuel production. Its research directly supports China's energy transition and carbon neutrality policy goals. GIEC also manages China's strategic research program on natural gas hydrate (methane hydrate) extraction from the South China Sea, a critical emerging energy resource.",
+        "zh": "中国科学院广州能源研究所（GIEC）是中国科学院下属的顶级国家科研机构，专注于可再生能源、节能和清洁能源技术研究。1978年成立，总部位于广州。GIEC开展太阳能、风能、生物质能、氢能、海洋能和天然气水合物的综合研究，是国家新能源与可再生能源重要研究基地，建有燃烧国家重点实验室、广东省新能源工程技术研究中心、可再生能源和天然气水合物重点实验室。GIEC在能源转换技术、储能、碳捕集和清洁燃料生产领域发表了大量引用广泛的研究成果，研究直接支撑中国能源转型和碳中和政策目标。GIEC还负责中国南海天然气水合物（甲烷水合物）开采战略研究项目，这是一种重要的新兴能源资源。"
+      },
+      "website": "http://www.giec.ac.cn",
+      "data_url": "http://www.giec.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "environment",
+        "technology",
+        "climate"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国科学院广州能源研究所",
+        "GIEC",
+        "Guangzhou Institute of Energy Conversion",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "可再生能源",
+        "renewable energy",
+        "太阳能",
+        "solar energy",
+        "生物质能",
+        "biomass energy",
+        "氢能",
+        "hydrogen energy",
+        "海洋能",
+        "marine energy",
+        "天然气水合物",
+        "gas hydrate",
+        "甲烷水合物",
+        "methane hydrate",
+        "碳捕集",
+        "carbon capture",
+        "储能",
+        "energy storage",
+        "清洁能源",
+        "clean energy",
+        "节能",
+        "energy efficiency",
+        "碳中和",
+        "carbon neutrality"
+      ],
+      "data_content": {
+        "en": [
+          "Renewable energy technology research publications: peer-reviewed studies on solar photovoltaics, concentrated solar power, biomass conversion, wind energy systems, and marine current energy",
+          "Gas hydrate (methane clathrate) research: exploration data, extraction technology research, and resource assessment reports for natural gas hydrates in China's South China Sea",
+          "Energy conversion efficiency data: experimental results and performance metrics for fuel cells, heat pumps, thermochemical energy storage, and advanced combustion systems",
+          "Hydrogen energy research: hydrogen production, storage, transportation, and fuel cell technology data from GIEC's hydrogen energy program",
+          "Biomass energy data: gasification efficiency, biogas yield, bio-oil properties, and biofuel conversion research outputs from China's agricultural and forestry residues",
+          "Carbon capture and utilization research: CO2 capture efficiency, conversion pathways, and carbon fixation technology assessments",
+          "Energy policy and transition analysis: technical assessments supporting China's renewable energy development plans and carbon neutrality roadmaps",
+          "National key laboratory outputs: research results from the State Key Laboratory on Combustion and affiliated renewable energy research platforms"
+        ],
+        "zh": [
+          "可再生能源技术研究成果：太阳能光伏、聚光太阳能、生物质转化、风能系统和海洋潮流能同行评审研究",
+          "天然气水合物（甲烷笼合物）研究：中国南海天然气水合物勘探数据、开采技术研究和资源评估报告",
+          "能源转换效率数据：燃料电池、热泵、热化学储能和先进燃烧系统实验结果和性能指标",
+          "氢能研究：GIEC氢能计划中氢气制备、储存、运输和燃料电池技术数据",
+          "生物质能数据：中国农林废弃物气化效率、沼气产率、生物油性质和生物燃料转化研究成果",
+          "碳捕集与利用研究：CO2捕集效率、转化路径和固碳技术评估",
+          "能源政策与转型分析：支撑中国可再生能源发展规划和碳中和路线图的技术评估",
+          "国家重点实验室产出：燃烧国家重点实验室及附属可再生能源研究平台的研究成果"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-giec.json"
     },
     {
       "id": "china-gscloud",
@@ -16489,6 +17516,90 @@
       "file_path": "china/research/china-iap.json"
     },
     {
+      "id": "china-ibcas",
+      "name": {
+        "en": "Institute of Botany, Chinese Academy of Sciences",
+        "zh": "中国科学院植物研究所"
+      },
+      "description": {
+        "en": "The Institute of Botany (IBCAS) under the Chinese Academy of Sciences is China's flagship research institution for plant science, established in 1928. IBCAS maintains the China National Herbarium (PE), one of the world's largest plant specimen repositories, housing over 2.8 million voucher specimens representing China's extraordinary plant diversity. The institute operates the Beijing Botanical Garden and the China Specimen Information System, and contributes to international flora databases. IBCAS leads research in plant systematics and evolution, plant ecology, plant physiology, and molecular biology of plants. It coordinates the Flora of China project—a landmark collaboration with Missouri Botanical Garden—and publishes the authoritative Chinese Flora records. IBCAS manages critical plant diversity databases including the Chinese Virtual Herbarium and China Species Information Service, providing foundational data for biodiversity conservation, ecological restoration, and phytochemistry research.",
+        "zh": "中国科学院植物研究所是中国植物科学领域的旗舰研究机构，1928年建立。植物所保管中国国家植物标本馆（PE），是世界上最大的植物标本库之一，收藏280余万份植物标本，代表中国卓越的植物多样性。研究所运营北京植物园和中国标本信息系统，并为国际植物志数据库做出重要贡献。植物所在植物系统学与进化、植物生态学、植物生理学和植物分子生物学领域引领全国研究，与密苏里植物园合作主持《中国植物志》英文版项目，发布权威中国植物志记录。植物所管理中国虚拟植物标本馆和中国物种信息服务等重要植物多样性数据库，为生物多样性保护、生态修复和植物化学研究提供基础数据。"
+      },
+      "website": "https://www.ibcas.ac.cn",
+      "data_url": "https://www.ibcas.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "biology",
+        "environment",
+        "science"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国科学院植物研究所",
+        "IBCAS",
+        "Institute of Botany",
+        "植物学",
+        "botany",
+        "植物多样性",
+        "plant diversity",
+        "生物多样性",
+        "biodiversity",
+        "植物标本",
+        "plant herbarium",
+        "中国国家植物标本馆",
+        "China National Herbarium",
+        "PE",
+        "Flora of China",
+        "中国植物志",
+        "植物系统学",
+        "plant systematics",
+        "植物进化",
+        "plant evolution",
+        "植物生态学",
+        "plant ecology",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "CAS",
+        "北京植物园",
+        "Beijing Botanical Garden",
+        "种质资源",
+        "germplasm resources",
+        "植物化学",
+        "phytochemistry",
+        "生态修复",
+        "ecological restoration",
+        "中国虚拟植物标本馆",
+        "Chinese Virtual Herbarium"
+      ],
+      "data_content": {
+        "en": [
+          "China National Herbarium (PE) specimen database: 2.8+ million digitized plant voucher specimens with geographic coordinates, collection dates, taxonomic identifications, and high-resolution images",
+          "Flora of China records: comprehensive taxonomic treatments of approximately 31,000 Chinese vascular plant species, including descriptions, distribution maps, and synonymy",
+          "Chinese Virtual Herbarium: aggregated specimen data from major Chinese herbaria, enabling species distribution modeling and gap analysis for biodiversity conservation",
+          "China Species Information Service: authoritative species name lists, threat status assessments, and distribution data for Chinese plant species aligned with IUCN Red List criteria",
+          "Plant ecology datasets: vegetation survey data, plant community composition studies, phenological records, and ecosystem productivity measurements across Chinese biomes",
+          "Molecular phylogenetics data: DNA sequence databases and phylogenetic trees for Chinese plant families, supporting evolutionary biology research and species delimitation",
+          "Germplasm and conservation data: records of endangered plant species, in-situ and ex-situ conservation status, and genetic diversity assessments for priority conservation species",
+          "Phytochemistry research data: secondary metabolite databases, bioactive compound screening results, and ethnobotanical records of medicinal plants in China"
+        ],
+        "zh": [
+          "中国国家植物标本馆（PE）标本数据库：280余万份数字化植物凭证标本，含地理坐标、采集日期、分类鉴定和高分辨率图像",
+          "中国植物志记录：约31,000种中国维管植物的综合分类处理，包括描述、分布图和异名",
+          "中国虚拟植物标本馆：整合中国主要植物标本馆标本数据，支持物种分布模型和生物多样性保护空缺分析",
+          "中国物种信息服务：中国植物物种权威名录、受威胁状态评估和分布数据，与IUCN红色名录标准对接",
+          "植物生态学数据集：覆盖中国各生物群系的植被调查、植物群落组成研究、物候记录和生态系统生产力测量",
+          "分子系统学数据：中国植物科的DNA序列数据库和系统发育树，支持进化生物学研究和物种界定",
+          "种质和保护数据：濒危植物物种记录、就地与迁地保护状态和优先保护物种遗传多样性评估",
+          "植物化学研究数据：次生代谢产物数据库、生物活性化合物筛选结果和中国药用植物民族植物学记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-ibcas.json"
+    },
+    {
       "id": "china-igsnrr",
       "name": {
         "en": "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
@@ -16537,6 +17648,86 @@
       "update_frequency": "irregular",
       "has_api": false,
       "file_path": "china/research/china-igsnrr.json"
+    },
+    {
+      "id": "china-imcas",
+      "name": {
+        "en": "Institute of Microbiology, Chinese Academy of Sciences",
+        "zh": "中国科学院微生物研究所"
+      },
+      "description": {
+        "en": "The Institute of Microbiology (IMCAS) under the Chinese Academy of Sciences is China's premier research institution for microbiology, mycology, and microbial resources. Founded in 1958, IMCAS maintains the China General Microbiological Culture Collection Center (CGMCC), one of Asia's largest biological resource centers, housing hundreds of thousands of microbial strains, fungi, and viruses. The institute leads research in pathogenic microbiology, industrial microbiology, environmental microbiology, and bioinformatics. IMCAS publishes authoritative datasets on microbial diversity, antimicrobial resistance, and fungal taxonomy, contributing to global biological resource databases. Its research supports national biosafety, food fermentation industry, agricultural biocontrol, and pharmaceutical bioproduction. The institute is a key node in international microbial culture collection networks including WFCC and ECCO.",
+        "zh": "中国科学院微生物研究所是中国微生物学、真菌学和微生物资源领域的最高研究机构，1958年建立。微生物所维护中国普通微生物菌种保藏管理中心（CGMCC），是亚洲最大的生物资源库之一，保藏数十万株微生物菌株、真菌和病毒。研究所在病原微生物学、工业微生物学、环境微生物学和生物信息学领域引领全国研究，发布微生物多样性、抗微生物耐药性和真菌分类学权威数据集，为全球生物资源数据库贡献重要内容。其研究支撑国家生物安全、食品发酵产业、农业生物防治和医药生物生产。微生物所是世界菌种联合会（WFCC）和ECCO等国际微生物菌种保藏网络的重要节点。"
+      },
+      "website": "https://www.im.cas.cn",
+      "data_url": "https://www.im.cas.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "biology",
+        "health",
+        "science"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国科学院微生物研究所",
+        "IMCAS",
+        "Institute of Microbiology",
+        "微生物学",
+        "microbiology",
+        "真菌学",
+        "mycology",
+        "菌种保藏",
+        "microbial culture collection",
+        "CGMCC",
+        "中国普通微生物菌种保藏管理中心",
+        "微生物多样性",
+        "microbial diversity",
+        "抗微生物耐药性",
+        "antimicrobial resistance",
+        "AMR",
+        "生物安全",
+        "biosafety",
+        "工业微生物",
+        "industrial microbiology",
+        "病原微生物",
+        "pathogenic microbiology",
+        "真菌分类",
+        "fungal taxonomy",
+        "环境微生物",
+        "environmental microbiology",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "CAS",
+        "微生物资源",
+        "microbial resources"
+      ],
+      "data_content": {
+        "en": [
+          "Microbial strain collections: CGMCC holds hundreds of thousands of authenticated bacterial, fungal, and viral strains available for research and industrial applications",
+          "Microbial diversity databases: catalogues of microbial species diversity across Chinese ecosystems, soil, marine, and extreme environments",
+          "Fungal taxonomy data: comprehensive records of fungal species classification, nomenclature, and morphological descriptions maintained by the Mycological Society of China",
+          "Antimicrobial resistance (AMR) monitoring: research datasets on drug-resistant pathogens, resistance gene databases, and surveillance reports",
+          "Genome sequence data: whole-genome sequences of bacteria, fungi, and viruses deposited in national and international databases",
+          "Industrial microbiology data: fermentation process parameters, enzyme databases, and biotransformation research for food, pharmaceutical, and agricultural applications",
+          "Environmental microbiology surveys: microbial community composition in soil, wastewater, and atmospheric environments across China",
+          "Biosafety research: risk assessment data for pathogenic microorganisms and containment standards for laboratory biosafety"
+        ],
+        "zh": [
+          "微生物菌种保藏：CGMCC保藏数十万株经鉴定的细菌、真菌和病毒菌株，供研究和工业应用",
+          "微生物多样性数据库：覆盖中国生态系统、土壤、海洋和极端环境的微生物物种多样性目录",
+          "真菌分类数据：中国菌物学会维护的真菌物种分类、命名和形态描述综合记录",
+          "抗微生物耐药性（AMR）监测：耐药病原体研究数据集、耐药基因数据库和监测报告",
+          "基因组序列数据：存入国内外数据库的细菌、真菌和病毒全基因组序列",
+          "工业微生物数据：食品、制药和农业应用的发酵工艺参数、酶数据库和生物转化研究",
+          "环境微生物调查：中国土壤、废水和大气环境中微生物群落组成",
+          "生物安全研究：病原微生物风险评估数据和实验室生物安全的防控标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-imcas.json"
     },
     {
       "id": "china-ioz",
@@ -16783,6 +17974,75 @@
       "file_path": "china/research/china-ngeos.json"
     },
     {
+      "id": "china-nigpas",
+      "name": {
+        "en": "Nanjing Institute of Geology and Palaeontology, Chinese Academy of Sciences",
+        "zh": "中国科学院南京地质古生物研究所"
+      },
+      "description": {
+        "en": "The Nanjing Institute of Geology and Palaeontology (NIGPAS), established in 1951 under the Chinese Academy of Sciences, is China's only dedicated institution for palaeontology and stratigraphy research. NIGPAS maintains one of the world's largest fossil collections with over 200,000 specimens covering invertebrate palaeontology, palaeobotany, micropaleontology, and biostratigraphy. The institute operates the Nanjing Museum of Palaeontology and manages comprehensive databases of fossil specimens, stratigraphic sections, and geological time calibration data. NIGPAS plays a central role in establishing China's biostratigraphic framework and contributes to international efforts in geological time scale calibration. Its research data supports studies in Earth's life evolution, mass extinction events, palaeoclimate reconstruction, and petroleum exploration stratigraphy.",
+        "zh": "中国科学院南京地质古生物研究所成立于1951年，是中国唯一专门从事古生物学和地层学研究的机构。NIGPAS维护着世界上最大的化石收藏之一，拥有超过20万件标本，涵盖无脊椎古生物学、古植物学、微体古生物学和生物地层学。研究所运营南京古生物博物馆，管理化石标本、地层剖面和地质年代标定数据的综合数据库。NIGPAS在建立中国生物地层学框架中发挥核心作用，并为国际地质年代表标定工作作出贡献。其研究数据支持地球生命演化、大灭绝事件、古气候重建和石油勘探地层学等领域的研究。"
+      },
+      "website": "http://www.nigpas.ac.cn",
+      "data_url": "http://www.nigpas.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "science",
+        "geology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "古生物",
+        "palaeontology",
+        "paleontology",
+        "地层学",
+        "stratigraphy",
+        "化石",
+        "fossil",
+        "NIGPAS",
+        "南京地质古生物研究所",
+        "地质年代",
+        "geological time",
+        "古植物",
+        "palaeobotany",
+        "微体古生物",
+        "micropaleontology",
+        "生物地层",
+        "biostratigraphy",
+        "大灭绝",
+        "mass extinction",
+        "古气候",
+        "palaeoclimate",
+        "中国科学院",
+        "CAS",
+        "标本",
+        "specimen"
+      ],
+      "data_content": {
+        "en": [
+          "Fossil specimen database: taxonomic records, locality data, geological age, and imaging for over 200,000 fossil specimens in the NIGPAS collection",
+          "Stratigraphic section data: measured sections with lithological descriptions, biostratigraphic zonation, and chronostratigraphic correlation across China",
+          "Geological time scale calibration: high-resolution age data from GSSP (Global Boundary Stratotype Section and Point) candidates studied by NIGPAS",
+          "Palaeobotanical records: fossil plant morphology, taxonomy, and distribution data from Palaeozoic through Cenozoic periods",
+          "Micropaleontological datasets: conodont, foraminifer, and other microfossil biostratigraphic range data",
+          "Mass extinction event data: geochemical, isotopic, and fossil occurrence records for major Phanerozoic extinction boundaries"
+        ],
+        "zh": [
+          "化石标本数据库：NIGPAS收藏的超过20万件化石标本的分类记录、产地数据、地质年代和影像资料",
+          "地层剖面数据：中国各地实测剖面的岩性描述、生物地层带划分和年代地层对比",
+          "地质年代表标定：NIGPAS研究的GSSP（全球界线层型剖面和点位）候选剖面高分辨率年龄数据",
+          "古植物学记录：古生代至新生代化石植物形态学、分类学和分布数据",
+          "微体古生物数据集：牙形石、有孔虫及其他微体化石生物地层延限数据",
+          "大灭绝事件数据：显生宙主要灭绝界线的地球化学、同位素和化石产出记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-nigpas.json"
+    },
+    {
       "id": "china-nsfc",
       "name": {
         "en": "National Natural Science Foundation of China",
@@ -16862,6 +18122,75 @@
       "file_path": "china/research/china-nsfc.json"
     },
     {
+      "id": "china-nssdc",
+      "name": {
+        "en": "National Space Science Data Center",
+        "zh": "国家空间科学数据中心"
+      },
+      "description": {
+        "en": "The National Space Science Data Center (NSSDC) is one of China's 20 national science data centers, managed by the National Space Science Center of the Chinese Academy of Sciences. NSSDC serves as the authoritative repository for space science mission data in China, providing long-term preservation, curation, and open sharing of data from China's space science satellite programs including DAMPE (Wukong), HXMT (Insight), EP (Einstein Probe), QUESS (Mozi), and other missions. The center also archives solar-terrestrial space environment monitoring data, geomagnetic field observations, and cosmic ray measurements. NSSDC offers standardized data access services with DOI-based data citation, supporting domestic and international researchers in space physics, astrophysics, planetary science, and space weather forecasting.",
+        "zh": "国家空间科学数据中心是中国20个国家科学数据中心之一，由中国科学院国家空间科学中心管理。NSSDC是中国空间科学任务数据的权威存储库，提供来自悟空号、慧眼号、爱因斯坦探针、墨子号等中国空间科学卫星项目数据的长期保存、整理和开放共享服务。中心还归档日地空间环境监测数据、地磁场观测和宇宙线测量数据。NSSDC提供基于DOI数据引用的标准化数据访问服务，支持国内外研究人员在空间物理、天体物理、行星科学和空间天气预报等领域的研究。"
+      },
+      "website": "https://www.nssdc.ac.cn",
+      "data_url": "https://www.nssdc.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "science",
+        "space"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "空间科学",
+        "space science",
+        "NSSDC",
+        "国家科学数据中心",
+        "national science data center",
+        "卫星数据",
+        "satellite data",
+        "悟空号",
+        "DAMPE",
+        "慧眼号",
+        "HXMT",
+        "爱因斯坦探针",
+        "Einstein Probe",
+        "墨子号",
+        "QUESS",
+        "空间天气",
+        "space weather",
+        "宇宙线",
+        "cosmic ray",
+        "地磁场",
+        "geomagnetic field",
+        "天体物理",
+        "astrophysics",
+        "中国科学院",
+        "CAS"
+      ],
+      "data_content": {
+        "en": [
+          "Space science satellite mission data: calibrated scientific data products from DAMPE, HXMT, EP, QUESS, and other Chinese space science missions",
+          "Solar-terrestrial environment monitoring: solar wind parameters, interplanetary magnetic field measurements, and magnetospheric observation data",
+          "Geomagnetic field observations: ground-based geomagnetic station network data including geomagnetic indices and field component measurements",
+          "Cosmic ray measurement data: ground-based and space-based cosmic ray flux, energy spectrum, and composition observations",
+          "Space weather forecasting data: real-time and archival space environment condition data for solar activity and geomagnetic storm prediction",
+          "Planetary science data: lunar and Mars exploration mission data products from Chang'e and Tianwen programs"
+        ],
+        "zh": [
+          "空间科学卫星任务数据：悟空号、慧眼号、爱因斯坦探针、墨子号等中国空间科学任务的定标科学数据产品",
+          "日地环境监测：太阳风参数、行星际磁场测量及磁层观测数据",
+          "地磁场观测：地面地磁台站网络数据，包括地磁指数和磁场分量测量",
+          "宇宙线测量数据：地面和空间宇宙线通量、能谱和成分观测数据",
+          "空间天气预报数据：用于太阳活动和地磁暴预报的实时与存档空间环境状态数据",
+          "行星科学数据：嫦娥和天问系列月球与火星探测任务数据产品"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-nssdc.json"
+    },
+    {
       "id": "china-nstl",
       "name": {
         "en": "National Science and Technology Library of China",
@@ -16934,6 +18263,85 @@
       },
       "has_api": false,
       "file_path": "china/research/china-nstl.json"
+    },
+    {
+      "id": "china-pku-opendata",
+      "name": {
+        "en": "Peking University Open Research Data Platform",
+        "zh": "北京大学开放研究数据平台"
+      },
+      "description": {
+        "en": "The Peking University Open Research Data Platform (PKU Open Data) is China's first comprehensive institutional open research data repository, built on the Harvard Dataverse framework and launched by Peking University Library. The platform enables PKU researchers and affiliated institutions to deposit, share, and cite research datasets across all disciplines, including social sciences, economics, public health, environmental studies, humanities, and natural sciences. Datasets are assigned DOI identifiers and linked to published papers, promoting reproducibility and open science. PKU Open Data hosts unique surveys, longitudinal studies, and experimental datasets from one of China's leading universities, making primary research data accessible to the global scholarly community.",
+        "zh": "北京大学开放研究数据平台是中国第一个综合性机构开放研究数据库，由北京大学图书馆依托哈佛大学Dataverse框架建立。平台支持北大研究人员及附属机构在社会科学、经济学、公共卫生、环境研究、人文学科和自然科学等各领域的数据集存档、共享和引用。数据集被分配DOI标识符并与发表论文关联，推动可重复研究和开放科学。平台托管了来自中国顶尖高校的独特调查、纵向研究和实验数据集，向全球学术界开放原始研究数据。"
+      },
+      "website": "https://opendata.pku.edu.cn",
+      "data_url": "https://opendata.pku.edu.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "social",
+        "economics",
+        "health",
+        "environment",
+        "science"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "北京大学",
+        "Peking University",
+        "PKU",
+        "开放数据",
+        "open data",
+        "研究数据",
+        "research data",
+        "数据仓库",
+        "data repository",
+        "Dataverse",
+        "社会科学数据",
+        "social science data",
+        "调查数据",
+        "survey data",
+        "纵向研究",
+        "longitudinal study",
+        "DOI",
+        "开放科学",
+        "open science",
+        "可重复研究",
+        "reproducibility",
+        "经济数据",
+        "economic data",
+        "公共卫生",
+        "public health",
+        "环境数据",
+        "environmental data",
+        "中国学术",
+        "Chinese academia",
+        "北大图书馆"
+      ],
+      "data_content": {
+        "en": [
+          "Social Science Datasets: Surveys, experiments, and longitudinal studies on Chinese society, demographics, labor markets, and social behavior",
+          "Economic Research Data: Firm-level datasets, economic experiments, trade data, and financial market studies from PKU economics research",
+          "Public Health Data: Epidemiological surveys, clinical study datasets, and population health monitoring data",
+          "Environmental Science Data: Ecological observations, pollution monitoring, and environmental impact assessment datasets",
+          "Humanities and Cultural Data: Historical records, digital humanities datasets, and cultural heritage documentation",
+          "Natural Sciences Data: Experimental datasets from physics, chemistry, biology, and materials science research",
+          "Multidisciplinary Survey Data: Cross-disciplinary surveys on topics such as education, poverty, inequality, and governance in China"
+        ],
+        "zh": [
+          "社会科学数据集：关于中国社会、人口、劳动力市场和社会行为的调查、实验和纵向研究",
+          "经济研究数据：来自北大经济学研究的企业级数据集、经济实验、贸易数据和金融市场研究",
+          "公共卫生数据：流行病学调查、临床研究数据集和人口健康监测数据",
+          "环境科学数据：生态观测、污染监测和环境影响评估数据集",
+          "人文与文化数据：历史档案、数字人文数据集和文化遗产记录",
+          "自然科学数据：物理、化学、生物和材料科学研究实验数据集",
+          "多学科调查数据：涵盖中国教育、贫困、不平等和治理等主题的跨学科调查"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-pku-opendata.json"
     },
     {
       "id": "china-plant-csdb",
@@ -17015,6 +18423,73 @@
       },
       "has_api": false,
       "file_path": "china/research/china-plant-csdb.json"
+    },
+    {
+      "id": "china-pmo",
+      "name": {
+        "en": "Purple Mountain Observatory, Chinese Academy of Sciences",
+        "zh": "中国科学院紫金山天文台"
+      },
+      "description": {
+        "en": "The Purple Mountain Observatory (PMO), established in 1934 and located in Nanjing, is one of China's oldest and most prestigious astronomical research institutions under the Chinese Academy of Sciences. PMO is renowned for its pioneering work in asteroid discovery and tracking, solar physics, and space exploration. The observatory operates multiple observation stations across China and manages key research programs in near-Earth object monitoring, millimeter-wave astronomy, and dark matter detection. PMO has discovered numerous asteroids and comets, and maintains authoritative datasets on minor planet orbits. As a leading institution in Chinese astronomy, PMO publishes research data including asteroid ephemerides, solar activity observations, and astronomical catalogs that serve both the scientific community and national space situational awareness programs.",
+        "zh": "紫金山天文台成立于1934年，位于南京，是中国科学院下属最悠久、最具声望的天文研究机构之一。紫台在小行星发现与跟踪、太阳物理学和空间探测领域享有盛誉。天文台在全国运营多个观测站，管理近地天体监测、毫米波天文学和暗物质探测等关键研究项目。紫台已发现众多小行星和彗星，维护着权威的小行星轨道数据集。作为中国天文学的领军机构，紫台发布包括小行星星历表、太阳活动观测和天文星表在内的研究数据，服务于科学界和国家空间态势感知项目。"
+      },
+      "website": "http://www.pmo.ac.cn",
+      "data_url": "http://www.pmo.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "紫金山天文台",
+        "Purple Mountain Observatory",
+        "PMO",
+        "天文学",
+        "astronomy",
+        "小行星",
+        "asteroid",
+        "近地天体",
+        "near-Earth object",
+        "太阳物理",
+        "solar physics",
+        "暗物质",
+        "dark matter",
+        "毫米波",
+        "millimeter wave",
+        "星表",
+        "astronomical catalog",
+        "中国科学院",
+        "CAS",
+        "南京",
+        "Nanjing",
+        "天文观测",
+        "astronomical observation"
+      ],
+      "data_content": {
+        "en": [
+          "Asteroid and minor planet data: orbital elements, ephemerides, and discovery records for asteroids discovered and tracked by PMO",
+          "Near-Earth object monitoring: tracking data and orbit calculations for potentially hazardous asteroids",
+          "Solar observation data: solar activity monitoring records including sunspot counts, solar flare events, and chromospheric observations",
+          "Millimeter-wave astronomical observations: spectral line survey data from the PMO 13.7m radio telescope at Delingha station",
+          "Dark matter detection experiment data: results from the DAMPE (Dark Matter Particle Explorer) satellite mission",
+          "Comet discovery and observation records: astrometric and photometric data for comets discovered by PMO astronomers"
+        ],
+        "zh": [
+          "小行星和小天体数据：紫台发现和跟踪的小行星轨道根数、星历表及发现记录",
+          "近地天体监测：潜在危险小行星的跟踪数据和轨道计算",
+          "太阳观测数据：太阳活动监测记录，包括太阳黑子计数、太阳耀斑事件和色球观测",
+          "毫米波天文观测：德令哈观测站13.7米射电望远镜谱线巡天数据",
+          "暗物质探测实验数据：悟空号（暗物质粒子探测卫星）任务成果数据",
+          "彗星发现与观测记录：紫台天文学家发现的彗星天体测量和测光数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-pmo.json"
     },
     {
       "id": "china-pric",
@@ -17504,6 +18979,81 @@
       "file_path": "china/resources/environment/china-cace.json"
     },
     {
+      "id": "china-caep",
+      "name": {
+        "en": "Chinese Academy of Environmental Planning",
+        "zh": "生态环境部环境规划院"
+      },
+      "description": {
+        "en": "The Chinese Academy of Environmental Planning (CAEP) is a national-level research institute directly under China's Ministry of Ecology and Environment (MEE). Founded in 2001 and headquartered in Beijing, CAEP is the primary institution responsible for environmental planning, environmental economics, and policy research supporting China's national ecological and environmental governance. CAEP provides technical support for China's national environmental five-year plans, pollution prevention and control action plans, and carbon neutrality strategies. Key research areas include environmental economic accounting (green GDP), pollution source census data, environmental carrying capacity assessment, ecological redline mapping, and integrated watershed management. CAEP publishes the authoritative 'China Environmental Economic Accounting' reports and manages key environmental planning databases. It plays a central role in designing China's ecological compensation mechanisms, emission trading systems, and environmental impact assessment frameworks.",
+        "zh": "生态环境部环境规划院（CAEP）是生态环境部直属的国家级科研机构，2001年成立，总部位于北京。CAEP是支撑中国国家生态环境治理的环境规划、环境经济学和政策研究首要机构，为国家环境五年规划、污染防治行动计划和碳中和战略提供技术支撑。主要研究方向包括环境经济核算（绿色GDP）、污染源普查数据、环境承载力评估、生态保护红线划定和流域综合管理。CAEP发布权威的《中国环境经济核算》报告，管理重要的环境规划数据库，在设计中国生态补偿机制、排污权交易制度和环境影响评价体系中发挥核心作用。"
+      },
+      "website": "http://www.caep.org.cn",
+      "data_url": "http://www.caep.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "economics",
+        "governance"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "生态环境部环境规划院",
+        "CAEP",
+        "Chinese Academy of Environmental Planning",
+        "环境规划",
+        "environmental planning",
+        "环境经济核算",
+        "environmental economic accounting",
+        "绿色GDP",
+        "green GDP",
+        "污染源普查",
+        "pollution source census",
+        "环境承载力",
+        "environmental carrying capacity",
+        "生态保护红线",
+        "ecological redline",
+        "碳中和",
+        "carbon neutrality",
+        "生态补偿",
+        "ecological compensation",
+        "排污权交易",
+        "emission trading",
+        "环境影响评价",
+        "environmental impact assessment",
+        "生态环境部",
+        "Ministry of Ecology and Environment"
+      ],
+      "data_content": {
+        "en": [
+          "China Environmental Economic Accounting (CEEA): annual green GDP accounting reports quantifying the economic value of environmental services and the cost of environmental degradation across China",
+          "Pollution source census data: national surveys of industrial, agricultural, and domestic pollution sources with discharge volumes, types, and geographic distribution",
+          "Environmental carrying capacity assessments: analysis of regional resource and environmental limits supporting land use planning and industrial layout decisions",
+          "Ecological redline mapping: technical data and spatial datasets for China's national ecological conservation redlines protecting critical ecosystems",
+          "National environmental five-year plan technical support: baseline data, target indicators, and evaluation frameworks for China's environmental planning cycles",
+          "Carbon emission accounting and neutrality research: sector-level carbon emission inventories, mitigation scenario modeling, and carbon neutrality pathway analysis for China",
+          "Ecological compensation policy research: data and evaluation frameworks for China's payment for ecosystem services and inter-regional ecological compensation systems",
+          "Watershed integrated management: water environment quality data, pollution load models, and total pollutant control plans for major Chinese river basins"
+        ],
+        "zh": [
+          "中国环境经济核算（CEEA）：量化中国环境服务经济价值和环境退化成本的年度绿色GDP核算报告",
+          "污染源普查数据：全国工业、农业和生活污染源的排放量、排放类型和地理分布调查数据",
+          "环境承载力评估：支撑土地利用规划和产业布局决策的区域资源环境承载力分析",
+          "生态保护红线划定：保护重要生态系统的全国生态保护红线技术数据和空间数据集",
+          "国家环境五年规划技术支撑：中国环境规划周期的基线数据、目标指标和评估框架",
+          "碳排放核算与碳中和研究：中国分部门碳排放清单、减排情景模拟和碳中和路径分析",
+          "生态补偿政策研究：中国生态系统服务付费和区域间生态补偿制度的数据与评估框架",
+          "流域综合管理：主要流域水环境质量数据、污染负荷模型和总量控制方案"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-caep.json"
+    },
+    {
       "id": "china-ceads",
       "name": {
         "en": "Carbon Emission Accounts and Datasets for China (CEADs)",
@@ -17881,6 +19431,86 @@
       "file_path": "china/resources/environment/china-cnesa.json"
     },
     {
+      "id": "china-craes",
+      "name": {
+        "en": "Chinese Research Academy of Environmental Sciences",
+        "zh": "中国环境科学研究院"
+      },
+      "description": {
+        "en": "The Chinese Research Academy of Environmental Sciences (CRAES), affiliated with the Ministry of Ecology and Environment, is China's highest-level national environmental research institution. Established in 1978, CRAES leads applied research on environmental pollution control, ecological protection, and environmental standards development. It provides critical technical support for national environmental management decisions, operates key environmental monitoring programs, and maintains authoritative environmental databases. CRAES has developed and revised hundreds of national environmental standards and technical guidelines, including those for water pollution control, air quality, soil remediation, and solid waste management. The academy is responsible for China's national ecological function zoning, environmental capacity assessments, and supporting major environmental policy documents including the Five-Year Plans for ecological environment protection.",
+        "zh": "中国环境科学研究院（环科院）隶属生态环境部，是国家最高级别的环境研究机构，1978年建立。环科院在环境污染治理、生态保护和环境标准制定等应用研究领域处于全国领先地位，为国家环境管理决策提供关键技术支撑，运营重要的环境监测项目，维护权威环境数据库。环科院主持制修订数百项国家环境标准和技术规范，涵盖水污染控制、空气质量、土壤修复和固体废物管理。研究院负责全国生态功能区划、环境容量评估工作，并为生态环境保护五年规划等重要环境政策文件提供技术支持。"
+      },
+      "website": "https://www.craes.cn",
+      "data_url": "https://www.craes.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "science",
+        "policy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国环境科学研究院",
+        "CRAES",
+        "Chinese Research Academy of Environmental Sciences",
+        "环境污染",
+        "environmental pollution",
+        "生态保护",
+        "ecological protection",
+        "环境标准",
+        "environmental standards",
+        "水污染",
+        "water pollution",
+        "空气质量",
+        "air quality",
+        "土壤修复",
+        "soil remediation",
+        "固体废物",
+        "solid waste",
+        "生态功能区划",
+        "ecological function zoning",
+        "环境容量",
+        "environmental capacity",
+        "生态环境部",
+        "Ministry of Ecology and Environment",
+        "环境监测",
+        "environmental monitoring",
+        "污染控制",
+        "pollution control",
+        "环境政策",
+        "environmental policy",
+        "五年规划",
+        "Five-Year Plan"
+      ],
+      "data_content": {
+        "en": [
+          "Environmental standards and technical guidelines: hundreds of national environmental standards (GB/HJ series) covering water, air, soil, noise, and solid waste developed or co-developed by CRAES",
+          "Environmental capacity assessments: national and regional estimates of pollutant carrying capacity for major river basins, air sheds, and soil environments",
+          "Ecological function zoning data: national ecological function zone maps, ecosystem service evaluations, and biodiversity protection area delineations",
+          "Water environment research data: datasets on river and lake water quality, sediment contamination, aquatic ecosystem health assessments, and pollution source inventories",
+          "Soil and groundwater pollution data: contaminated site surveys, remediation technology assessments, and national soil pollution status reports",
+          "Air pollution control research: emission factor databases, source apportionment studies, atmospheric dispersion modeling data, and control technology effectiveness evaluations",
+          "Solid waste and hazardous materials: waste characterization data, disposal technology assessments, and industrial hazardous waste inventories",
+          "Environmental health risk assessments: exposure pathway studies, toxicological reference data for Chinese populations, and environmental health risk evaluation frameworks"
+        ],
+        "zh": [
+          "环境标准和技术规范：环科院主持或参与制定数百项国家环境标准（GB/HJ系列），涵盖水、气、土、噪声和固体废物",
+          "环境容量评估：主要流域、大气区和土壤环境的全国及区域污染物承载能力评估",
+          "生态功能区划数据：全国生态功能区划图、生态系统服务价值评估和生物多样性保护区划定",
+          "水环境研究数据：河湖水质、底泥污染、水生生态系统健康评估和污染源清单",
+          "土壤和地下水污染数据：污染地块调查、修复技术评估和全国土壤污染状况报告",
+          "大气污染控制研究：排放因子数据库、来源解析研究、大气扩散模型数据和控制技术效果评估",
+          "固体废物和危险化学品：废物特征化数据、处置技术评估和工业危险废物清单",
+          "环境健康风险评估：暴露途径研究、中国人群毒理学参考数据和环境健康风险评估框架"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-craes.json"
+    },
+    {
       "id": "china-crra",
       "name": {
         "en": "China Association of Circular Economy",
@@ -17944,6 +19574,89 @@
       "authority_level": "other",
       "has_api": false,
       "file_path": "china/resources/environment/china-crra.json"
+    },
+    {
+      "id": "china-ipe",
+      "name": {
+        "en": "Institute of Public & Environmental Affairs",
+        "zh": "公众环境研究中心"
+      },
+      "description": {
+        "en": "The Institute of Public & Environmental Affairs (IPE) is a leading Chinese environmental NGO founded in 2006. It operates China's most comprehensive open environmental data platform, aggregating and visualizing government-sourced pollution records, emission data, and compliance information across air, water, soil, radiation, and climate domains. IPE's flagship products include the Blue Map (污染地图) pollution database, the Green Supply Chain CITI Index for supplier environmental performance, and the Corporate Climate Action Index. IPE collects data from the Ministry of Ecology and Environment, local environmental agencies, and listed companies' environmental disclosures to create interactive maps, provincial carbon indexes, and supply chain environmental risk ratings used by multinational corporations, investors, and policymakers worldwide.",
+        "zh": "公众环境研究中心（IPE）成立于2006年，是中国领先的环保非政府组织，运营着中国最全面的开放环境数据平台。该平台整合并可视化来自政府的污染记录、排放数据和合规信息，覆盖大气、水体、土壤、辐射和气候等领域。主要产品包括蔚蓝地图污染数据库、供应链CITI指数（企业环境信息透明度指数）和企业气候行动指数。IPE从生态环境部、地方环保部门和上市公司环境披露中采集数据，生成交互式地图、省级双碳指数和供应链环境风险评级，被跨国企业、投资机构和政策制定者广泛使用。"
+      },
+      "website": "https://www.ipe.org.cn",
+      "data_url": "https://www.ipe.org.cn/AirMap_fxy/AirMap.html",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "pollution",
+        "corporate-governance",
+        "sustainability"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "公众环境研究中心",
+        "IPE",
+        "蔚蓝地图",
+        "Blue Map",
+        "pollution",
+        "污染",
+        "air quality",
+        "空气质量",
+        "water pollution",
+        "水污染",
+        "soil contamination",
+        "土壤污染",
+        "carbon emissions",
+        "碳排放",
+        "双碳",
+        "dual-carbon",
+        "supply chain",
+        "供应链",
+        "CITI指数",
+        "green supply chain",
+        "绿色供应链",
+        "environmental disclosure",
+        "环境信息披露",
+        "ESG",
+        "corporate sustainability",
+        "企业碳中和",
+        "biodiversity",
+        "生物多样性",
+        "provincial carbon index",
+        "省级双碳指数",
+        "climate action",
+        "气候行动"
+      ],
+      "data_content": {
+        "en": [
+          "Air Quality Database: Real-time and historical air pollution records (PM2.5, PM10, SO2, NOx, CO, O3) from thousands of monitoring stations across all Chinese cities",
+          "Water Pollution Records: Enterprise wastewater discharge violations, river basin water quality assessments, and drinking water source protection data",
+          "Soil Contamination: Industrial pollution sources, contaminated site records, and soil remediation progress",
+          "Carbon & Energy Maps: Provincial carbon emission indexes, energy transition tracking, photovoltaic installation mapping, and enterprise carbon disclosure",
+          "Supply Chain CITI Index: Environmental transparency and compliance ratings for thousands of Chinese suppliers used by global brands",
+          "Corporate Climate Action Index: Assessment of listed companies' climate commitments, emission reduction targets, and green investment",
+          "Biodiversity Data: Natural reserve mapping, ecological red-line areas, and species diversity monitoring",
+          "Radiation Monitoring: Nuclear facility radiation monitoring data from environmental protection agencies"
+        ],
+        "zh": [
+          "空气质量数据库：全国城市数千个监测站的PM2.5、PM10、SO2、NOx、CO、O3实时和历史数据",
+          "水污染记录：企业废水排放违规记录、流域水质评估和饮用水源保护数据",
+          "土壤污染：工业污染源、污染地块台账和土壤修复进展",
+          "碳排放与能源地图：省级双碳指数、能源转型追踪、光伏装机地图和企业碳披露",
+          "供应链CITI指数：全球品牌使用的数千家中国供应商的环境透明度和合规评级",
+          "企业气候行动指数：上市公司气候承诺、减排目标和绿色投资评估",
+          "生物多样性：自然保护区地图、生态红线范围和物种多样性监测",
+          "辐射监测：环保部门核设施周边辐射监测数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-ipe.json"
     },
     {
       "id": "china-mee",
@@ -18109,6 +19822,75 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-ndrcc.json"
+    },
+    {
+      "id": "china-nesdc",
+      "name": {
+        "en": "National Ecosystem Science Data Center",
+        "zh": "国家生态科学数据中心"
+      },
+      "description": {
+        "en": "The National Ecosystem Science Data Center (NESDC) is one of China's 20 national science data centers, managed by the Institute of Geographic Sciences and Natural Resources Research (IGSNRR) of the Chinese Academy of Sciences. NESDC serves as the authoritative national platform for ecosystem science data sharing, integrating long-term ecological monitoring data from the Chinese Ecosystem Research Network (CERN) and other field station networks. The center provides standardized datasets covering terrestrial, aquatic, and urban ecosystems including carbon flux measurements, biodiversity surveys, soil properties, water quality monitoring, vegetation dynamics, and meteorological observations. NESDC supports ecological research, environmental policy making, and ecosystem service valuation by offering curated, quality-controlled datasets with metadata standards and DOI-based data citation services.",
+        "zh": "国家生态科学数据中心是中国20个国家科学数据中心之一，由中国科学院地理科学与资源研究所管理。NESDC是生态科学数据共享的国家权威平台，整合中国生态系统研究网络（CERN）等野外台站网络的长期生态监测数据。中心提供覆盖陆地、水域和城市生态系统的标准化数据集，包括碳通量测量、生物多样性调查、土壤特性、水质监测、植被动态和气象观测等。NESDC通过提供经质量控制的数据集及元数据标准和基于DOI的数据引用服务，支持生态学研究、环境政策制定和生态系统服务价值评估。"
+      },
+      "website": "https://www.nesdc.org.cn",
+      "data_url": "https://www.nesdc.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "ecology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "生态科学",
+        "ecosystem science",
+        "NESDC",
+        "国家科学数据中心",
+        "national science data center",
+        "生态系统",
+        "ecosystem",
+        "CERN",
+        "中国生态系统研究网络",
+        "生物多样性",
+        "biodiversity",
+        "碳通量",
+        "carbon flux",
+        "土壤",
+        "soil",
+        "水质",
+        "water quality",
+        "植被",
+        "vegetation",
+        "生态监测",
+        "ecological monitoring",
+        "中国科学院",
+        "CAS",
+        "野外台站",
+        "field station"
+      ],
+      "data_content": {
+        "en": [
+          "Carbon flux measurement data: eddy covariance tower observations of CO2, water vapor, and energy fluxes from CERN and ChinaFLUX network stations",
+          "Biodiversity survey datasets: species inventories, vegetation quadrat surveys, and animal population monitoring records from ecosystem research stations",
+          "Soil property databases: physical, chemical, and biological soil properties including organic carbon content, nutrient levels, and microbial community data",
+          "Water quality monitoring: dissolved oxygen, nutrient concentrations, pH, and pollutant levels from freshwater lake and river monitoring stations",
+          "Vegetation remote sensing products: NDVI, LAI, land cover classification, and vegetation phenology datasets derived from satellite imagery",
+          "Long-term ecological monitoring: multi-decade time series of meteorological variables, primary productivity, and ecosystem structure from CERN stations"
+        ],
+        "zh": [
+          "碳通量测量数据：CERN和ChinaFLUX网络台站涡度协方差塔观测的CO2、水汽和能量通量数据",
+          "生物多样性调查数据集：生态系统研究站的物种清单、植被样方调查和动物种群监测记录",
+          "土壤特性数据库：土壤物理、化学和生物性质，包括有机碳含量、养分水平和微生物群落数据",
+          "水质监测：淡水湖泊和河流监测站的溶解氧、营养盐浓度、pH值和污染物水平数据",
+          "植被遥感产品：卫星影像衍生的NDVI、LAI、土地覆盖分类和植被物候数据集",
+          "长期生态监测：CERN台站数十年气象变量、初级生产力和生态系统结构时间序列"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-nesdc.json"
     },
     {
       "id": "china-nfga",
@@ -18876,6 +20658,221 @@
       "file_path": "china/resources/water/china-chinawater.json"
     },
     {
+      "id": "china-crsri",
+      "name": {
+        "en": "Changjiang River Scientific Research Institute",
+        "zh": "长江科学院"
+      },
+      "description": {
+        "en": "The Changjiang River Scientific Research Institute (CRSRI), also known as the Yangtze River Scientific Research Institute, is a state-level public research institution under the Changjiang Water Resources Commission of the Ministry of Water Resources of China. Founded in 1951 and headquartered in Wuhan, CRSRI is China's premier research center for Yangtze River basin water conservancy and hydropower. It conducts research on flood control, river dynamics, dam safety, soil erosion, water quality, ecological hydraulics, and geotechnical engineering for the Yangtze River system. CRSRI has provided key technical support for major Chinese water projects including the Three Gorges Dam, South-to-North Water Diversion, and numerous reservoir and flood control infrastructure projects. Its research outputs include hydrological data, river morphology monitoring, water quality assessments, and technical standards for Chinese water conservancy.",
+        "zh": "长江科学院（CRSRI）是水利部长江水利委员会直属的国家级公益性科研单位，1951年创建，总部位于武汉，是中国长江流域水利水电领域最重要的研究中心。主要研究方向包括防洪、河道动力学、大坝安全、水土流失、水质、生态水利学和岩土工程等。长江科学院为三峡大坝、南水北调工程及众多水库和防洪基础设施项目提供了重要技术支撑。研究成果包括水文数据、河道形态监测、水质评估及中国水利行业技术标准。"
+      },
+      "website": "http://www.crsri.cn",
+      "data_url": "http://www.crsri.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "water",
+        "environment",
+        "infrastructure",
+        "geology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "长江科学院",
+        "CRSRI",
+        "Changjiang River Scientific Research Institute",
+        "Yangtze River",
+        "长江",
+        "水利",
+        "water conservancy",
+        "防洪",
+        "flood control",
+        "大坝安全",
+        "dam safety",
+        "三峡",
+        "Three Gorges",
+        "南水北调",
+        "South-to-North Water Diversion",
+        "水质",
+        "water quality",
+        "水土流失",
+        "soil erosion",
+        "河道动力学",
+        "river dynamics",
+        "岩土工程",
+        "geotechnical engineering",
+        "水文",
+        "hydrology"
+      ],
+      "data_content": {
+        "en": [
+          "Yangtze River hydrological data: long-term streamflow records, flood peak data, sediment transport measurements, and hydrological analysis for major stations along the Yangtze",
+          "River morphology and dynamics research: channel evolution monitoring, bank erosion assessments, bed material sampling, and flow regime analysis for the Yangtze River system",
+          "Dam and reservoir safety research: structural monitoring data, seepage analysis, slope stability assessments, and safety standards for large Chinese hydraulic structures",
+          "Flood control and disaster prevention: flood routing models, inundation mapping, levee safety evaluations, and emergency response technical support for the Yangtze basin",
+          "Water quality and aquatic ecology: water quality monitoring data, pollution source assessments, aquatic biodiversity surveys, and ecological restoration research",
+          "Soil and water conservation: erosion measurement data, watershed management research, and soil loss estimation models for the upper Yangtze basin",
+          "Geotechnical engineering research: foundation design for hydraulic structures, underground engineering, and slope engineering data and standards",
+          "Technical standards and specifications: national and industry technical standards for Chinese water conservancy and hydropower engineering"
+        ],
+        "zh": [
+          "长江水文数据：长江干流主要水文站的长期径流记录、洪峰数据、泥沙输移测量和水文分析",
+          "河道形态与动力研究：河道演变监测、岸线侵蚀评估、床沙采样和水流条件分析",
+          "大坝与水库安全研究：结构监测数据、渗流分析、边坡稳定评价及中国大型水工建筑物安全标准",
+          "防洪减灾：洪水演进模型、淹没范围图、堤防安全评估及长江流域应急响应技术支撑",
+          "水质与水生态：水质监测数据、污染源评估、水生生物多样性调查和生态修复研究",
+          "水土保持：水蚀量测量数据、小流域综合治理研究和金沙江上游土壤侵蚀模型",
+          "岩土工程研究：水工建筑物基础设计、地下工程和边坡工程数据及标准",
+          "技术标准规范：中国水利水电工程国家和行业技术标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/water/china-crsri.json"
+    },
+    {
+      "id": "china-hrc",
+      "name": {
+        "en": "Huai River Water Resources Commission",
+        "zh": "水利部淮河水利委员会"
+      },
+      "description": {
+        "en": "The Huai River Water Resources Commission (HRC) is a basin-level water authority under the Ministry of Water Resources of China, responsible for the unified governance and management of the Huai River basin. The Huai River basin, located between the Yellow River and the Yangtze River, is one of the most densely populated and agriculturally productive regions in China. The HRC publishes hydrological monitoring data, annual water resources bulletins, flood control statistics, water quality assessments, irrigation water usage data, and basin-wide water allocation records, covering the provinces of Henan, Anhui, Jiangsu, and Shandong.",
+        "zh": "水利部淮河水利委员会（淮委）是水利部直属的流域管理机构，负责淮河流域的统一管理与治理。淮河流域位于黄河与长江之间，是中国人口最稠密、农业最发达的地区之一。淮委发布水文监测数据、年度水资源公报、防汛统计、水质评估、灌溉用水数据及流域水量分配记录，覆盖河南、安徽、江苏、山东等省份。"
+      },
+      "data_content": {
+        "en": [
+          "Huai River basin hydrological monitoring data",
+          "annual water resources bulletins",
+          "flood control and disaster statistics",
+          "water quality assessment reports",
+          "irrigation water usage data",
+          "basin water allocation records",
+          "reservoir and flood detention basin data",
+          "soil and water conservation data",
+          "groundwater monitoring data",
+          "water conservancy infrastructure records"
+        ],
+        "zh": [
+          "淮河流域水文监测数据",
+          "年度水资源公报",
+          "防汛抗灾统计",
+          "水质评估报告",
+          "灌溉用水数据",
+          "流域水量分配记录",
+          "水库与蓄滞洪区数据",
+          "水土保持数据",
+          "地下水监测数据",
+          "水利基础设施记录"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "subnational",
+      "website": "http://www.hrc.gov.cn",
+      "data_url": "http://www.hrc.gov.cn",
+      "api_url": null,
+      "domains": [
+        "environment",
+        "infrastructure",
+        "agriculture"
+      ],
+      "tags": [
+        "water-resources",
+        "hydrology",
+        "huai-river",
+        "flood",
+        "irrigation",
+        "water-quality",
+        "淮河",
+        "水文",
+        "水资源",
+        "防汛",
+        "灌溉",
+        "流域管理",
+        "水利",
+        "HRC",
+        "淮委",
+        "河南",
+        "安徽",
+        "江苏"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/resources/water/china-hrc.json"
+    },
+    {
+      "id": "china-hwcc",
+      "name": {
+        "en": "Hai River Water Resources Commission",
+        "zh": "水利部海河水利委员会"
+      },
+      "description": {
+        "en": "The Hai River Water Resources Commission (HWCC) is a basin-level water authority under the Ministry of Water Resources of China, responsible for unified governance and management of the Hai River basin, covering the Beijing-Tianjin-Hebei region and surrounding areas. The HWCC publishes hydrological monitoring data, flood and drought statistics, water resources bulletins, water quality assessments, groundwater monitoring, and basin-wide water allocation records. Its data covers the major river systems in the North China Plain including the Yongding River, Daqing River, and Ziya River systems.",
+        "zh": "水利部海河水利委员会（海委）是水利部直属的流域管理机构，负责海河流域的统一管理与治理，覆盖京津冀及周边地区。海委发布水文监测数据、洪涝旱情统计、水资源公报、水质评估、地下水监测及流域水量分配记录，数据涵盖华北平原主要水系，包括永定河、大清河、子牙河水系。"
+      },
+      "data_content": {
+        "en": [
+          "Hai River basin hydrological monitoring data",
+          "annual water resources bulletins",
+          "flood and drought monitoring statistics",
+          "water quality assessment reports",
+          "groundwater monitoring data",
+          "basin water allocation records",
+          "reservoir and dam operation data",
+          "water conservancy project records",
+          "soil and water conservation data",
+          "Beijing-Tianjin-Hebei regional water data"
+        ],
+        "zh": [
+          "海河流域水文监测数据",
+          "年度水资源公报",
+          "洪涝旱情监测统计",
+          "水质评估报告",
+          "地下水监测数据",
+          "流域水量分配记录",
+          "水库大坝调度数据",
+          "水利工程记录",
+          "水土保持数据",
+          "京津冀地区水资源数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "subnational",
+      "website": "http://www.hwcc.gov.cn",
+      "data_url": "http://www.hwcc.gov.cn",
+      "api_url": null,
+      "domains": [
+        "environment",
+        "infrastructure"
+      ],
+      "tags": [
+        "water-resources",
+        "hydrology",
+        "hai-river",
+        "flood",
+        "groundwater",
+        "water-quality",
+        "海河",
+        "水文",
+        "水资源",
+        "防汛",
+        "地下水",
+        "流域管理",
+        "水利",
+        "HWCC",
+        "海委",
+        "京津冀",
+        "华北平原"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/resources/water/china-hwcc.json"
+    },
+    {
       "id": "china-iwhr",
       "name": {
         "en": "China Institute of Water Resources and Hydropower Research",
@@ -19035,6 +21032,146 @@
       },
       "has_api": false,
       "file_path": "china/resources/water/china-mwr.json"
+    },
+    {
+      "id": "china-slwr",
+      "name": {
+        "en": "Songliao River Water Resources Commission",
+        "zh": "水利部松辽水利委员会"
+      },
+      "description": {
+        "en": "The Songliao River Water Resources Commission (SLWRC) is a basin-level water authority under the Ministry of Water Resources of China, responsible for unified governance and management of the Songhua River and Liaohe River basins in Northeast China. The SLWRC publishes hydrological monitoring data, annual water resources bulletins, flood and ice-jam flood statistics, water quality assessments, permafrost hydrology data, and basin-wide water allocation records. Its data covers Northeast China including Heilongjiang, Jilin, Liaoning and Inner Mongolia, featuring unique cold-region hydrology data.",
+        "zh": "水利部松辽水利委员会（松辽委）是水利部直属的流域管理机构，负责松花江流域和辽河流域的统一管理与治理。松辽委发布水文监测数据、年度水资源公报、洪涝冰凌统计、水质评估、冻土水文数据及流域水量分配记录，覆盖黑龙江、吉林、辽宁及内蒙古等东北地区，提供独特的寒区水文数据。"
+      },
+      "data_content": {
+        "en": [
+          "Songhua and Liaohe River basin hydrological data",
+          "annual water resources bulletins",
+          "flood and ice-jam flood statistics",
+          "water quality assessment reports",
+          "cold-region hydrology and permafrost data",
+          "basin water allocation records",
+          "reservoir storage and operation data",
+          "water ecology monitoring data",
+          "groundwater monitoring data",
+          "northeast China regional water data"
+        ],
+        "zh": [
+          "松花江与辽河流域水文数据",
+          "年度水资源公报",
+          "洪涝冰凌统计",
+          "水质评估报告",
+          "寒区水文与冻土数据",
+          "流域水量分配记录",
+          "水库蓄水与调度数据",
+          "水生态监测数据",
+          "地下水监测数据",
+          "东北地区区域水资源数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "subnational",
+      "website": "http://www.slwr.gov.cn",
+      "data_url": "http://www.slwr.gov.cn/gbjb.jhtml",
+      "api_url": null,
+      "domains": [
+        "environment",
+        "infrastructure"
+      ],
+      "tags": [
+        "water-resources",
+        "hydrology",
+        "songhua-river",
+        "liaohe-river",
+        "flood",
+        "ice-jam",
+        "water-quality",
+        "松花江",
+        "辽河",
+        "水文",
+        "水资源",
+        "防汛",
+        "冰凌",
+        "寒区",
+        "流域管理",
+        "水利",
+        "SLWR",
+        "松辽委",
+        "东北"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/resources/water/china-slwr.json"
+    },
+    {
+      "id": "china-yrcc",
+      "name": {
+        "en": "Yellow River Conservancy Commission",
+        "zh": "水利部黄河水利委员会"
+      },
+      "description": {
+        "en": "The Yellow River Conservancy Commission (YRCC) is a basin-level water authority directly under the Ministry of Water Resources of China, responsible for unified management and governance of the Yellow River basin. The YRCC publishes hydrological monitoring data, annual water resources bulletins, flood control reports, sediment transport statistics, water quality assessments, ecological flow data, and basin-wide water allocation records. It maintains official records on Yellow River water levels, flow volumes, reservoir operations, and soil erosion, serving as the authoritative data source for China's second longest river.",
+        "zh": "水利部黄河水利委员会（黄委）是水利部直属的流域管理机构，负责黄河流域的统一管理与治理。黄委发布水文监测数据、年度水资源公报、防汛报告、泥沙输移统计、水质评估、生态流量数据及流域水量分配记录，是黄河水位、流量、水库调度、水土保持的权威数据来源，为中国第二长河提供官方数据服务。"
+      },
+      "data_content": {
+        "en": [
+          "Yellow River hydrological monitoring data",
+          "annual water resources bulletins",
+          "flood control and drought relief statistics",
+          "sediment transport and soil erosion data",
+          "water quality assessment reports",
+          "ecological flow monitoring data",
+          "basin water allocation records",
+          "reservoir storage and operation data",
+          "groundwater monitoring data",
+          "water conservancy project data"
+        ],
+        "zh": [
+          "黄河水文监测数据",
+          "年度水资源公报",
+          "防汛抗旱统计",
+          "泥沙输移与水土流失数据",
+          "水质评估报告",
+          "生态流量监测数据",
+          "流域水量分配记录",
+          "水库蓄水与调度数据",
+          "地下水监测数据",
+          "水利工程数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "subnational",
+      "website": "http://www.yrcc.gov.cn",
+      "data_url": "http://www.yrcc.gov.cn",
+      "api_url": null,
+      "domains": [
+        "environment",
+        "infrastructure"
+      ],
+      "tags": [
+        "water-resources",
+        "hydrology",
+        "yellow-river",
+        "flood",
+        "sediment",
+        "water-quality",
+        "黄河",
+        "水文",
+        "水资源",
+        "防汛",
+        "泥沙",
+        "流域管理",
+        "水利",
+        "YRCC",
+        "黄委",
+        "水库",
+        "生态流量"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/resources/water/china-yrcc.json"
     },
     {
       "id": "china-caai",
@@ -19891,6 +22028,83 @@
       "authority_level": "other",
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-ciia.json"
+    },
+    {
+      "id": "china-cima",
+      "name": {
+        "en": "China Instrumentation and Measurement Society",
+        "zh": "中国仪器仪表行业协会"
+      },
+      "description": {
+        "en": "The China Instrumentation Industry Association (CIMA) is the national industry organization representing China's instrumentation, measurement, and control equipment manufacturing sector. Founded in 1988 and headquartered in Beijing, CIMA encompasses manufacturers of scientific instruments, industrial meters, sensors, testing equipment, optical instruments, and medical measurement devices. CIMA serves as the primary industry body bridging China's instrumentation enterprises with government regulators and international standards organizations. It compiles and publishes authoritative annual statistical reports on China's instrumentation industry covering production output, revenue, import/export trade data, market structure, and technology development trends. CIMA is actively involved in drafting national and industry standards for measurement instruments and promotes China's participation in international metrology and instrumentation standards bodies (OIML, IMEKO). The association represents a sector critical to China's advanced manufacturing, quality control, scientific research, and industrial automation strategies.",
+        "zh": "中国仪器仪表行业协会（CIMA）是代表中国仪器仪表和控制设备制造业的全国性行业组织，1988年成立，总部位于北京。协会会员涵盖科学仪器、工业仪表、传感器、检测设备、光学仪器和医疗计量设备制造商。CIMA是连接中国仪器仪表企业与政府监管机构及国际标准组织的主要行业机构，编制发布权威的中国仪器仪表行业年度统计报告，内容包括产量、收入、进出口贸易数据、市场结构和技术发展趋势。CIMA积极参与制定测量仪器国家和行业标准，推动中国参与国际计量（OIML、IMEKO）标准体系。该行业协会所代表的领域对中国高端制造、质量控制、科学研究和工业自动化战略至关重要。"
+      },
+      "website": "http://www.cima.org.cn",
+      "data_url": "http://www.cima.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "manufacturing",
+        "technology",
+        "trade",
+        "industry"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国仪器仪表行业协会",
+        "CIMA",
+        "China Instrumentation Industry Association",
+        "仪器仪表",
+        "instrumentation",
+        "测量设备",
+        "measurement equipment",
+        "传感器",
+        "sensors",
+        "科学仪器",
+        "scientific instruments",
+        "工业仪表",
+        "industrial meters",
+        "计量",
+        "metrology",
+        "检测设备",
+        "testing equipment",
+        "光学仪器",
+        "optical instruments",
+        "行业统计",
+        "industry statistics",
+        "进出口",
+        "import export",
+        "高端制造",
+        "advanced manufacturing",
+        "工业自动化",
+        "industrial automation"
+      ],
+      "data_content": {
+        "en": [
+          "Annual industry statistical report: comprehensive production output, revenue, profit, employment, and enterprise count data for China's instrumentation and measurement sector",
+          "Import and export trade data: annual and monthly trade statistics for China's instrumentation products including major product categories, trading partners, and trade balance",
+          "Market structure analysis: enterprise scale distribution, regional industry concentration, domestic vs. foreign enterprise market share in Chinese instrumentation sector",
+          "Industry technology development reports: key technology trends, R&D investment levels, patent activity, and technology gap assessments for Chinese instrumentation",
+          "Product category statistics: sub-sector data covering scientific instruments, industrial control instruments, medical measurement devices, optical instruments, and sensor markets",
+          "Industry standards information: national and industry technical standards (GB, JB standards) for measurement instruments developed or participated in by CIMA",
+          "Enterprise directory and ranking: China's major instrumentation manufacturers by revenue, product specialization, and market position",
+          "Investment and policy analysis: government policies affecting the instrumentation sector, investment incentives, and development plan assessments"
+        ],
+        "zh": [
+          "年度行业统计报告：中国仪器仪表行业产量、收入、利润、就业人数和企业数量综合数据",
+          "进出口贸易数据：中国仪器仪表产品年度和月度贸易统计，包括主要产品类别、贸易伙伴和贸易差额",
+          "市场结构分析：企业规模分布、区域产业集中度、国内外企业市场份额",
+          "行业技术发展报告：中国仪器仪表行业关键技术趋势、研发投入水平、专利活动和技术差距评估",
+          "产品类别统计：科学仪器、工业控制仪表、医疗计量设备、光学仪器和传感器细分市场数据",
+          "行业标准信息：CIMA参与制定的测量仪器国家标准（GB）和行业标准（JB）",
+          "企业名录与排名：按收入、产品专长和市场地位分类的中国主要仪器仪表制造商",
+          "投资与政策分析：影响仪器仪表行业的政府政策、投资激励措施和发展规划评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-cima.json"
     },
     {
       "id": "china-cisa",
