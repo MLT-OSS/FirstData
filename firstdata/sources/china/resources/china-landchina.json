@@ -1,0 +1,58 @@
+{
+  "id": "china-landchina",
+  "name": {
+    "en": "China Land Market Network",
+    "zh": "中国土地市场网"
+  },
+  "description": {
+    "en": "The China Land Market Network is the official land transaction information platform operated under the supervision of the Ministry of Natural Resources. It provides comprehensive data on land supply plans, land auction listings (zhaopaihua), transaction results, benchmark land prices, and land use rights transfers across China. The platform is the authoritative source for tracking national and regional land market dynamics, including residential, commercial, and industrial land transactions. It serves as a critical data infrastructure for real estate market analysis, urban development research, and land policy evaluation. Note: The website may return HTTP 418 due to WAF (Web Application Firewall) protection; access from mainland China is typically unaffected.",
+    "zh": "中国土地市场网是在自然资源部监管下运营的官方土地交易信息平台，提供全国土地供应计划、土地招拍挂公告、成交结果、基准地价和土地使用权出让等全面数据。该平台是追踪全国及地区土地市场动态的权威数据源，覆盖住宅、商业和工业用地交易信息，是房地产市场分析、城市发展研究和土地政策评估的重要数据基础设施。注意：该网站可能因WAF（Web应用防火墙）保护返回HTTP 418状态码，境内访问通常不受影响。"
+  },
+  "website": "https://www.landchina.com",
+  "data_url": "https://www.landchina.com/default.aspx?tabid=226",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "real-estate",
+    "land-resources",
+    "urban-development"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "land-market",
+    "land-transfer",
+    "land-auction",
+    "land-supply",
+    "land-transaction",
+    "benchmark-land-price",
+    "ministry-of-natural-resources",
+    "real-estate",
+    "land-use-rights",
+    "residential-land",
+    "commercial-land",
+    "industrial-land",
+    "urban-land"
+  ],
+  "data_content": {
+    "en": [
+      "Land supply plans: annual and quarterly land supply plans by city and land use type",
+      "Land auction announcements: detailed listings for land parcels available through bidding, auction, and listing processes (zhaopaihua)",
+      "Transaction results: completed land transactions including price, area, buyer, and land use type",
+      "Benchmark land prices: government-assessed baseline land values by region and land classification",
+      "Land use rights transfers: records of land rights transfers between entities",
+      "Regional land market analysis: aggregate statistics on land market activity by province and city",
+      "Land supply structure: breakdown of residential, commercial, industrial, and public land allocation"
+    ],
+    "zh": [
+      "土地供应计划：按城市和用地类型分类的年度和季度土地供应计划",
+      "土地招拍挂公告：通过招标、拍卖和挂牌方式出让的地块详细公告信息",
+      "成交结果：已完成的土地交易信息，包括价格、面积、受让方和用途",
+      "基准地价：按区域和地类分类的政府评估基准地价",
+      "土地使用权转让：企业间土地使用权转让记录",
+      "区域土地市场分析：按省市分类的土地市场活动汇总统计",
+      "供地结构：住宅、商业、工业和公共用地供应分配情况"
+    ]
+  }
+}

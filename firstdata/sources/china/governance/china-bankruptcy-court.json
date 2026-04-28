@@ -1,0 +1,59 @@
+{
+  "id": "china-bankruptcy-court",
+  "name": {
+    "en": "National Enterprise Bankruptcy and Restructuring Case Information Network",
+    "zh": "全国企业破产重整案件信息网"
+  },
+  "description": {
+    "en": "The National Enterprise Bankruptcy and Restructuring Case Information Network is the official judicial platform operated by the Supreme People's Court of China for disclosing enterprise bankruptcy and restructuring case information. The platform provides public access to bankruptcy case filings, restructuring plans, creditor meeting announcements, administrator appointment records, and case progress updates across all Chinese courts. It serves as the authoritative source for tracking corporate insolvency proceedings in China, supporting creditor protection, investment risk assessment, and legal research on China's evolving bankruptcy regime.",
+    "zh": "全国企业破产重整案件信息网是最高人民法院运营的企业破产重整案件信息公开官方司法平台，提供破产案件立案信息、重整计划、债权人会议公告、管理人任命记录及案件进展等公开数据。该平台是追踪中国企业破产清算及重组程序的权威数据源，为债权人保护、投资风险评估以及中国破产法律制度研究提供数据支持。"
+  },
+  "website": "https://pccz.court.gov.cn",
+  "data_url": "https://pccz.court.gov.cn/pcajxxw/index/xxwsy",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "legal",
+    "finance",
+    "corporate-governance"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "bankruptcy",
+    "restructuring",
+    "enterprise-bankruptcy",
+    "liquidation",
+    "creditor",
+    "supreme-people's-court",
+    "bankruptcy-cases",
+    "corporate-restructuring",
+    "bankruptcy-administrator",
+    "judicial-data",
+    "corporate-credit",
+    "risk-assessment"
+  ],
+  "data_content": {
+    "en": [
+      "Bankruptcy case filings: court acceptance records for enterprise bankruptcy cases nationwide",
+      "Restructuring plans: publicly disclosed restructuring plans and voting results",
+      "Creditor meeting announcements: schedules and agendas for creditor assemblies",
+      "Administrator appointments: designated bankruptcy administrator information and contact details",
+      "Case progress tracking: real-time updates on case stages from filing to closure",
+      "Creditor claims: deadlines and procedures for creditor claim declarations",
+      "Asset disposal: information on bankrupt enterprise asset auctions and dispositions",
+      "Court rulings: key judicial decisions in bankruptcy proceedings"
+    ],
+    "zh": [
+      "破产案件立案：全国企业破产案件的法院受理记录",
+      "重整计划：公开披露的重整计划及表决结果",
+      "债权人会议公告：债权人会议日程安排及议程",
+      "管理人任命：指定破产管理人信息及联系方式",
+      "案件进展追踪：从立案到结案各阶段的实时进展更新",
+      "债权申报：债权人申报债权的截止期限和程序",
+      "资产处置：破产企业资产拍卖及处置信息",
+      "法院裁定：破产程序中的重要司法裁定"
+    ]
+  }
+}
