@@ -1,0 +1,76 @@
+{
+  "id": "china-ccs",
+  "name": {
+    "en": "China Classification Society",
+    "zh": "中国船级社"
+  },
+  "description": {
+    "en": "China Classification Society (CCS) is the only national ship classification society in China, authorized by the Chinese government under the Ministry of Transport. Established in 1956, CCS develops and enforces technical standards for ship design, construction, and materials; surveys and certifies vessels, offshore platforms, and marine equipment; and issues certificates of compliance with international maritime conventions. CCS is a full member of the International Association of Classification Societies (IACS). It publishes annual statistics on the Chinese-flagged fleet, classification rules, technical circulars, and reports on marine safety and green shipping. CCS data is widely used by shipbuilders, shipowners, insurers, regulators, and maritime researchers to track China's shipbuilding output, fleet condition, and compliance with international maritime standards such as SOLAS, MARPOL, and the ISM Code.",
+    "zh": "中国船级社（CCS）是中国唯一的国家级船舶检验机构，依法受交通运输部授权。成立于1956年，CCS负责制定和执行船舶设计、建造及材料的技术标准，对船舶、海洋平台和船用设备进行检验和认证，并出具符合国际海事公约的合规证书。CCS是国际船级社协会（IACS）的正式成员，每年发布中国籍船队统计数据、船级规范、技术通函和海洋安全与绿色航运报告。CCS数据被造船企业、船东、保险机构、监管部门和海事研究人员广泛用于追踪中国造船产量、船队状况，以及对SOLAS、MARPOL、ISM规则等国际海事标准的遵守情况。"
+  },
+  "website": "https://www.ccs.org.cn/",
+  "data_url": "https://www.ccs.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "safety",
+    "standards",
+    "statistics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "船级社",
+    "classification society",
+    "船舶检验",
+    "ship survey",
+    "船舶认证",
+    "vessel certification",
+    "海洋平台",
+    "offshore platform",
+    "造船",
+    "shipbuilding",
+    "船队统计",
+    "fleet statistics",
+    "航运安全",
+    "maritime safety",
+    "绿色航运",
+    "green shipping",
+    "IACS",
+    "SOLAS",
+    "MARPOL",
+    "ISM规则",
+    "中国船级社",
+    "CCS",
+    "海事标准",
+    "maritime standards",
+    "船舶规范",
+    "classification rules"
+  ],
+  "data_content": {
+    "en": [
+      "Chinese-flagged fleet statistics: annual data on number, tonnage, and age distribution of CCS-classed vessels by ship type (bulk carriers, tankers, container ships, LNG carriers)",
+      "Ship classification rules: technical standards for hull structure, machinery, electrical systems, fire protection, and stability applicable to new builds and existing vessels",
+      "Survey and certification records: number of ships surveyed, certificates issued, and deficiency findings by flag state and vessel type",
+      "Marine equipment type approvals: list of approved marine equipment and materials certified to CCS standards",
+      "Green shipping reports: data on ship energy efficiency (EEDI, CII), alternative fuel adoption, and decarbonization progress for the Chinese fleet",
+      "Technical circulars and safety bulletins: notifications on regulatory changes, accident lessons learned, and updated technical requirements",
+      "Annual China Ship Quality Report: comprehensive statistics on ship construction quality, major deficiencies, and safety performance",
+      "Offshore platform and marine structure data: classification statistics for drilling rigs, FPSOs, and fixed platforms operating in Chinese waters",
+      "International convention compliance data: PSC detention rates and deficiency statistics for CCS-classed vessels in foreign ports"
+    ],
+    "zh": [
+      "中国籍船队统计：CCS入级船舶数量、吨位及船龄分布年度数据，按船型（散货船、油轮、集装箱船、LNG船）分类",
+      "船舶入级规范：适用于新造船和现有船舶的船体结构、机械、电气系统、防火和稳性技术标准",
+      "检验与证书记录：按船旗国和船型分类的检验船舶数量、颁证数量和缺陷发现",
+      "船用设备型式认可：经CCS认证的船用设备和材料认可名录",
+      "绿色航运报告：中国船队能效（EEDI、CII）、替代燃料应用和脱碳进展数据",
+      "技术通函和安全通告：法规变更通知、事故经验教训和更新的技术要求",
+      "年度中国船舶质量报告：船舶建造质量、主要缺陷和安全表现综合统计",
+      "海洋平台和海洋结构物数据：在中国海域运营的钻井平台、FPSO和固定平台入级统计",
+      "国际公约合规数据：CCS入级船舶在外国港口的PSC滞留率和缺陷统计"
+    ]
+  }
+}
