@@ -1,0 +1,64 @@
+{
+  "id": "china-furniture-association",
+  "name": {
+    "en": "China National Furniture Association",
+    "zh": "中国家具协会"
+  },
+  "description": {
+    "en": "The China National Furniture Association (CNFA) is the national industry organization representing China's furniture manufacturing sector, covering residential furniture, office furniture, kitchen furniture, outdoor furniture, and related components. CNFA publishes industry statistics, market reports, trade data, and standards covering production output, domestic market sales, export performance, material consumption, and enterprise operations in China's furniture industry.",
+    "zh": "中国家具协会（CNFA）是代表中国家具制造业的全国性行业组织，涵盖住宅家具、办公家具、厨房家具、户外家具及相关零部件。协会发布行业统计数据、市场报告、贸易数据和标准，内容涵盖中国家具行业的产量、国内市场销售、出口表现、原材料消费及企业运营情况。"
+  },
+  "website": "https://www.cnfa.com.cn",
+  "data_url": "https://www.cnfa.com.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "manufacturing",
+    "industry",
+    "consumer-goods",
+    "trade"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "家具",
+    "furniture",
+    "家具制造",
+    "furniture manufacturing",
+    "住宅家具",
+    "residential furniture",
+    "办公家具",
+    "office furniture",
+    "厨房家具",
+    "kitchen furniture",
+    "家具出口",
+    "furniture export",
+    "行业统计",
+    "industry statistics",
+    "CNFA",
+    "中国家具"
+  ],
+  "data_content": {
+    "en": [
+      "Annual furniture industry economic operation report: total output value, revenue and profit",
+      "Production statistics: furniture output by category (residential, office, kitchen, outdoor furniture)",
+      "Export performance: furniture export volume and value by product type, destination country, and province",
+      "Import data: imported furniture products volume, value, and source countries",
+      "Domestic market sales: retail sales of furniture by channel and region",
+      "Enterprise data: number of manufacturers, employment, fixed asset investment by scale",
+      "Material consumption: wood, metal, fabric, and other raw material usage statistics",
+      "Furniture quality standards and certification data"
+    ],
+    "zh": [
+      "家具行业经济运行年度报告：总产值、收入及利润",
+      "生产统计：按类别（住宅、办公、厨房、户外家具）的家具产量",
+      "出口表现：按产品类型、目的地国家和省份的家具出口量和出口额",
+      "进口数据：进口家具产品的数量、金额及来源国",
+      "国内市场销售：按渠道和地区的家具零售销售数据",
+      "企业数据：按规模分类的制造商数量、就业人数、固定资产投资",
+      "原材料消耗：木材、金属、布料及其他原材料用量统计",
+      "家具质量标准和认证数据"
+    ]
+  }
+}
