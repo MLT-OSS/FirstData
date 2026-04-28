@@ -1,0 +1,56 @@
+{
+  "id": "csi-index",
+  "name": {
+    "en": "China Securities Index Co., Ltd.",
+    "zh": "中证指数有限公司"
+  },
+  "description": {
+    "en": "China Securities Index Co., Ltd. (CSI) is a joint venture between the Shanghai Stock Exchange and the Shenzhen Stock Exchange. It is China's primary index provider, responsible for developing and maintaining major market indices including the CSI 300, CSI 500, CSI 1000, and hundreds of thematic and strategy indices. CSI provides index data, methodology documentation, and ESG ratings.",
+    "zh": "中证指数有限公司（中证指数）由上海证券交易所和深圳证券交易所共同出资成立，是中国主要的指数编制机构。负责编制和维护沪深300、中证500、中证1000等核心市场指数以及数百个主题和策略指数，提供指数数据、编制方案及ESG评价服务。"
+  },
+  "website": "https://www.csindex.com.cn",
+  "data_url": "https://www.csindex.com.cn/#/indices/family/list",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "indices",
+    "securities",
+    "esg"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "csi",
+    "中证指数",
+    "CSI 300",
+    "沪深300",
+    "CSI 500",
+    "中证500",
+    "CSI 1000",
+    "中证1000",
+    "指数",
+    "index",
+    "股票指数",
+    "市场基准",
+    "benchmark",
+    "ESG评价"
+  ],
+  "data_content": {
+    "en": [
+      "Index Data - Real-time and historical data for all CSI indices including price, total return, and net return versions",
+      "Index Constituents - Current and historical constituent lists for all indices with weighting information",
+      "Index Methodology - Detailed methodology documents for each index family",
+      "ESG Ratings - ESG evaluation data for listed companies",
+      "Thematic Indices - Specialized indices covering sectors, themes, strategies, and smart beta approaches"
+    ],
+    "zh": [
+      "指数数据 - 所有中证指数的实时和历史数据，包括价格、全收益和净收益版本",
+      "指数成份股 - 所有指数的当前及历史成份股名单与权重信息",
+      "指数编制方案 - 各指数系列的详细编制方法文档",
+      "ESG评价 - 上市公司ESG评价数据",
+      "主题指数 - 覆盖行业、主题、策略及Smart Beta的专业指数"
+    ]
+  }
+}

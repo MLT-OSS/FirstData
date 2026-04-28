@@ -1,0 +1,54 @@
+{
+  "id": "china-passenger-car-association",
+  "name": {
+    "en": "China Passenger Car Association",
+    "zh": "全国乘用车市场信息联席会"
+  },
+  "description": {
+    "en": "The China Passenger Car Association (CPCA) is China's leading automotive industry data provider, publishing monthly retail and wholesale sales data for passenger vehicles. CPCA is the primary source for new energy vehicle (NEV) market data in China, providing brand-level sales rankings, market share analysis, and industry trend reports.",
+    "zh": "全国乘用车市场信息联席会（乘联会）是中国领先的汽车行业数据发布机构，每月发布乘用车零售和批发销量数据。乘联会是中国新能源汽车市场数据的核心来源，提供品牌销量排名、市场份额分析及行业趋势报告。"
+  },
+  "website": "https://www.cpcaauto.com",
+  "data_url": "https://www.cpcaauto.com/newslist.php?types=csjd",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "domains": [
+    "automotive",
+    "new-energy-vehicles",
+    "transportation"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "CPCA",
+    "乘联会",
+    "乘用车",
+    "passenger-car",
+    "汽车销量",
+    "新能源汽车",
+    "NEV",
+    "电动车",
+    "EV",
+    "汽车市场",
+    "销量排名",
+    "market-share",
+    "auto-sales"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly Retail Sales - Passenger vehicle retail sales data by brand, segment, and powertrain type",
+      "Wholesale Sales Data - Factory wholesale delivery volumes for passenger car manufacturers",
+      "NEV Market Data - New energy vehicle sales, market penetration rates, and technology mix (BEV/PHEV)",
+      "Export Statistics - Chinese passenger car export volumes by brand and destination",
+      "Market Analysis Reports - Industry trend analysis, market forecasts, and policy impact assessments"
+    ],
+    "zh": [
+      "月度零售销量 - 按品牌、细分市场及动力类型的乘用车零售销量数据",
+      "批发销量数据 - 乘用车厂商批发交付量",
+      "新能源汽车数据 - 新能源车销量、市场渗透率及技术结构（纯电/插混）",
+      "出口统计 - 中国乘用车按品牌和目的地的出口量",
+      "市场分析报告 - 行业趋势分析、市场预测及政策影响评估"
+    ]
+  }
+}

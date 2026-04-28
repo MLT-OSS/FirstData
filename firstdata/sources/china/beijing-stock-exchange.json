@@ -1,0 +1,52 @@
+{
+  "id": "beijing-stock-exchange",
+  "name": {
+    "en": "Beijing Stock Exchange",
+    "zh": "北京证券交易所"
+  },
+  "description": {
+    "en": "The Beijing Stock Exchange (BSE) is China's newest national securities exchange, established in 2021. It focuses on serving innovative small and medium-sized enterprises (SMEs), particularly 'specialized, refined, distinctive and innovative' (专精特新) companies. BSE provides market data, listing information, disclosure documents, and trading statistics for its listed companies.",
+    "zh": "北京证券交易所（北交所）是中国最新设立的全国性证券交易所，成立于2021年。北交所定位于服务创新型中小企业，特别是「专精特新」企业。提供上市公司行情数据、上市信息、信息披露文件及交易统计数据。"
+  },
+  "website": "https://www.bse.cn",
+  "data_url": "https://www.bse.cn/market_data.html",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "domains": [
+    "finance",
+    "securities",
+    "capital-markets"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "real-time",
+  "tags": [
+    "beijing-stock-exchange",
+    "北交所",
+    "BSE",
+    "专精特新",
+    "sme",
+    "中小企业",
+    "新三板",
+    "股票",
+    "证券交易所",
+    "上市公司",
+    "market-data"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time Market Data - Stock prices, trading volumes, and market indices for BSE-listed companies",
+      "Listing Information - IPO prospectuses, listing applications, and company profiles",
+      "Disclosure Documents - Annual reports, interim reports, and ad-hoc announcements",
+      "Trading Statistics - Daily, weekly, and monthly trading summaries and market statistics",
+      "Regulatory Information - Trading rules, listing standards, and regulatory guidelines"
+    ],
+    "zh": [
+      "实时行情数据 - 北交所上市公司股票价格、成交量及市场指数",
+      "上市信息 - IPO招股说明书、上市申请及公司简介",
+      "信息披露文件 - 年报、中期报告及临时公告",
+      "交易统计 - 每日、每周及每月交易汇总和市场统计",
+      "监管信息 - 交易规则、上市标准及监管指引"
+    ]
+  }
+}
