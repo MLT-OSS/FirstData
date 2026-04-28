@@ -1,0 +1,67 @@
+{
+  "id": "china-nesdc",
+  "name": {
+    "en": "National Ecosystem Science Data Center",
+    "zh": "国家生态科学数据中心"
+  },
+  "description": {
+    "en": "The National Ecosystem Science Data Center (NESDC) is one of China's 20 national science data centers, managed by the Institute of Geographic Sciences and Natural Resources Research (IGSNRR) of the Chinese Academy of Sciences. NESDC serves as the authoritative national platform for ecosystem science data sharing, integrating long-term ecological monitoring data from the Chinese Ecosystem Research Network (CERN) and other field station networks. The center provides standardized datasets covering terrestrial, aquatic, and urban ecosystems including carbon flux measurements, biodiversity surveys, soil properties, water quality monitoring, vegetation dynamics, and meteorological observations. NESDC supports ecological research, environmental policy making, and ecosystem service valuation by offering curated, quality-controlled datasets with metadata standards and DOI-based data citation services.",
+    "zh": "国家生态科学数据中心是中国20个国家科学数据中心之一，由中国科学院地理科学与资源研究所管理。NESDC是生态科学数据共享的国家权威平台，整合中国生态系统研究网络（CERN）等野外台站网络的长期生态监测数据。中心提供覆盖陆地、水域和城市生态系统的标准化数据集，包括碳通量测量、生物多样性调查、土壤特性、水质监测、植被动态和气象观测等。NESDC通过提供经质量控制的数据集及元数据标准和基于DOI的数据引用服务，支持生态学研究、环境政策制定和生态系统服务价值评估。"
+  },
+  "website": "https://www.nesdc.org.cn",
+  "data_url": "https://www.nesdc.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "ecology"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "生态科学",
+    "ecosystem science",
+    "NESDC",
+    "国家科学数据中心",
+    "national science data center",
+    "生态系统",
+    "ecosystem",
+    "CERN",
+    "中国生态系统研究网络",
+    "生物多样性",
+    "biodiversity",
+    "碳通量",
+    "carbon flux",
+    "土壤",
+    "soil",
+    "水质",
+    "water quality",
+    "植被",
+    "vegetation",
+    "生态监测",
+    "ecological monitoring",
+    "中国科学院",
+    "CAS",
+    "野外台站",
+    "field station"
+  ],
+  "data_content": {
+    "en": [
+      "Carbon flux measurement data: eddy covariance tower observations of CO2, water vapor, and energy fluxes from CERN and ChinaFLUX network stations",
+      "Biodiversity survey datasets: species inventories, vegetation quadrat surveys, and animal population monitoring records from ecosystem research stations",
+      "Soil property databases: physical, chemical, and biological soil properties including organic carbon content, nutrient levels, and microbial community data",
+      "Water quality monitoring: dissolved oxygen, nutrient concentrations, pH, and pollutant levels from freshwater lake and river monitoring stations",
+      "Vegetation remote sensing products: NDVI, LAI, land cover classification, and vegetation phenology datasets derived from satellite imagery",
+      "Long-term ecological monitoring: multi-decade time series of meteorological variables, primary productivity, and ecosystem structure from CERN stations"
+    ],
+    "zh": [
+      "碳通量测量数据：CERN和ChinaFLUX网络台站涡度协方差塔观测的CO2、水汽和能量通量数据",
+      "生物多样性调查数据集：生态系统研究站的物种清单、植被样方调查和动物种群监测记录",
+      "土壤特性数据库：土壤物理、化学和生物性质，包括有机碳含量、养分水平和微生物群落数据",
+      "水质监测：淡水湖泊和河流监测站的溶解氧、营养盐浓度、pH值和污染物水平数据",
+      "植被遥感产品：卫星影像衍生的NDVI、LAI、土地覆盖分类和植被物候数据集",
+      "长期生态监测：CERN台站数十年气象变量、初级生产力和生态系统结构时间序列"
+    ]
+  }
+}

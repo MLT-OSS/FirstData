@@ -1,0 +1,65 @@
+{
+  "id": "china-pmo",
+  "name": {
+    "en": "Purple Mountain Observatory, Chinese Academy of Sciences",
+    "zh": "中国科学院紫金山天文台"
+  },
+  "description": {
+    "en": "The Purple Mountain Observatory (PMO), established in 1934 and located in Nanjing, is one of China's oldest and most prestigious astronomical research institutions under the Chinese Academy of Sciences. PMO is renowned for its pioneering work in asteroid discovery and tracking, solar physics, and space exploration. The observatory operates multiple observation stations across China and manages key research programs in near-Earth object monitoring, millimeter-wave astronomy, and dark matter detection. PMO has discovered numerous asteroids and comets, and maintains authoritative datasets on minor planet orbits. As a leading institution in Chinese astronomy, PMO publishes research data including asteroid ephemerides, solar activity observations, and astronomical catalogs that serve both the scientific community and national space situational awareness programs.",
+    "zh": "紫金山天文台成立于1934年，位于南京，是中国科学院下属最悠久、最具声望的天文研究机构之一。紫台在小行星发现与跟踪、太阳物理学和空间探测领域享有盛誉。天文台在全国运营多个观测站，管理近地天体监测、毫米波天文学和暗物质探测等关键研究项目。紫台已发现众多小行星和彗星，维护着权威的小行星轨道数据集。作为中国天文学的领军机构，紫台发布包括小行星星历表、太阳活动观测和天文星表在内的研究数据，服务于科学界和国家空间态势感知项目。"
+  },
+  "website": "http://www.pmo.ac.cn",
+  "data_url": "http://www.pmo.ac.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "science",
+    "astronomy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "紫金山天文台",
+    "Purple Mountain Observatory",
+    "PMO",
+    "天文学",
+    "astronomy",
+    "小行星",
+    "asteroid",
+    "近地天体",
+    "near-Earth object",
+    "太阳物理",
+    "solar physics",
+    "暗物质",
+    "dark matter",
+    "毫米波",
+    "millimeter wave",
+    "星表",
+    "astronomical catalog",
+    "中国科学院",
+    "CAS",
+    "南京",
+    "Nanjing",
+    "天文观测",
+    "astronomical observation"
+  ],
+  "data_content": {
+    "en": [
+      "Asteroid and minor planet data: orbital elements, ephemerides, and discovery records for asteroids discovered and tracked by PMO",
+      "Near-Earth object monitoring: tracking data and orbit calculations for potentially hazardous asteroids",
+      "Solar observation data: solar activity monitoring records including sunspot counts, solar flare events, and chromospheric observations",
+      "Millimeter-wave astronomical observations: spectral line survey data from the PMO 13.7m radio telescope at Delingha station",
+      "Dark matter detection experiment data: results from the DAMPE (Dark Matter Particle Explorer) satellite mission",
+      "Comet discovery and observation records: astrometric and photometric data for comets discovered by PMO astronomers"
+    ],
+    "zh": [
+      "小行星和小天体数据：紫台发现和跟踪的小行星轨道根数、星历表及发现记录",
+      "近地天体监测：潜在危险小行星的跟踪数据和轨道计算",
+      "太阳观测数据：太阳活动监测记录，包括太阳黑子计数、太阳耀斑事件和色球观测",
+      "毫米波天文观测：德令哈观测站13.7米射电望远镜谱线巡天数据",
+      "暗物质探测实验数据：悟空号（暗物质粒子探测卫星）任务成果数据",
+      "彗星发现与观测记录：紫台天文学家发现的彗星天体测量和测光数据"
+    ]
+  }
+}
