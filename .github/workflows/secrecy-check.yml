@@ -1,0 +1,77 @@
+name: Secrecy Check
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  check-secrecy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR metadata for confidential terms
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          BANNED_TERMS=(
+            "langfuse"
+            "insight pipeline"
+            "gitlab"
+            "code.mlamp.cn"
+            "codex.mlamp.cn"
+            "glab"
+            "im.deepminer"
+            "im-test.xming"
+          )
+          
+          found=0
+          
+          check_field() {
+            local label="$1"
+            local text="$2"
+            local lower_text
+            lower_text=$(printf '%s' "$text" | tr '[:upper:]' '[:lower:]')
+            
+            for term in "${BANNED_TERMS[@]}"; do
+              lower_term=$(printf '%s' "$term" | tr '[:upper:]' '[:lower:]')
+              if [[ "$lower_text" == *"$lower_term"* ]]; then
+                echo "::error::🔴 BLOCKED: '$term' found in $label"
+                found=1
+              fi
+            done
+          }
+          
+          check_field "branch name" "$PR_BRANCH"
+          check_field "PR title" "$PR_TITLE"
+          check_field "PR description" "$PR_BODY"
+          
+          if [ "$found" -eq 1 ]; then
+            echo "::error::PR contains confidential term(s). Remove internal tool references before merging."
+            exit 1
+          fi
+          
+          echo "✅ PR metadata secrecy check passed."
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check source files for confidential terms
+        run: |
+          BANNED_TERMS=("langfuse" "insight pipeline" "gitlab" "code.mlamp.cn" "codex.mlamp.cn" "glab" "im.deepminer" "im-test.xming")
+          found=0
+          
+          for term in "${BANNED_TERMS[@]}"; do
+            matches=$(grep -ril "$term" firstdata/sources/ 2>/dev/null || true)
+            if [ -n "$matches" ]; then
+              echo "::error::🔴 '$term' found in source files: $matches"
+              found=1
+            fi
+          done
+          
+          if [ "$found" -eq 1 ]; then
+            echo "::error::Source files contain confidential terms."
+            exit 1
+          fi
+          
+          echo "✅ Source files secrecy check passed."
