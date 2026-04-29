@@ -1,0 +1,59 @@
+{
+  "id": "china-cnpc",
+  "name": {
+    "en": "China National Petroleum Corporation",
+    "zh": "中国石油天然气集团有限公司"
+  },
+  "description": {
+    "en": "China National Petroleum Corporation (CNPC) is the largest state-owned oil and gas company in China and one of the world's largest energy companies. It publishes annual reports, sustainability reports, oil and gas production statistics, reserves data, and energy market analyses covering crude oil, natural gas, refining, and petrochemical operations.",
+    "zh": "中国石油天然气集团有限公司（中国石油）是中国最大的国有油气企业，也是全球最大的能源企业之一。发布年度报告、可持续发展报告、油气产量统计、储量数据及能源市场分析，涵盖原油、天然气、炼化及石化业务。"
+  },
+  "website": "https://www.cnpc.com.cn",
+  "data_url": "https://www.cnpc.com.cn/cnpc/nybg/common_index.shtml",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "energy",
+    "petroleum",
+    "natural-gas"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "cnpc",
+    "petrochina",
+    "oil",
+    "gas",
+    "petroleum",
+    "crude oil",
+    "natural gas",
+    "energy",
+    "state-owned enterprise",
+    "中国石油",
+    "中石油",
+    "原油",
+    "天然气",
+    "油气",
+    "央企"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Reports - Financial performance, production, and operational statistics",
+      "Oil and Gas Production - Crude oil and natural gas output by region and field",
+      "Reserves Data - Proven and probable oil and gas reserves",
+      "Sustainability Reports - Environmental, social, and governance (ESG) metrics",
+      "Refining and Petrochemical Output - Processed crude oil volume and chemical product yields",
+      "Energy Market Analysis - Domestic and international oil and gas market trends"
+    ],
+    "zh": [
+      "年度报告 - 财务业绩、产量及运营统计",
+      "油气产量 - 按地区和油田分类的原油和天然气产出",
+      "储量数据 - 探明和概算油气储量",
+      "可持续发展报告 - 环境、社会和治理（ESG）指标",
+      "炼化产出 - 原油加工量和化工产品产量",
+      "能源市场分析 - 国内外油气市场趋势"
+    ]
+  },
+  "authority_level": "government"
+}

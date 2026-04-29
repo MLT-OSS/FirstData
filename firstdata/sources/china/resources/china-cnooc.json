@@ -1,0 +1,58 @@
+{
+  "id": "china-cnooc",
+  "name": {
+    "en": "China National Offshore Oil Corporation",
+    "zh": "中国海洋石油集团有限公司"
+  },
+  "description": {
+    "en": "China National Offshore Oil Corporation (CNOOC) is China's largest offshore oil and gas producer and a central state-owned enterprise. It publishes annual reports, sustainability reports, offshore oil and gas production data, deepwater exploration results, LNG import and terminal operation statistics, and marine environmental protection reports.",
+    "zh": "中国海洋石油集团有限公司（中国海油）是中国最大的海上油气生产商，中央企业。发布年度报告、可持续发展报告、海上油气产量数据、深水勘探成果、LNG进口及接收站运营统计和海洋环境保护报告。"
+  },
+  "website": "https://www.cnooc.com.cn",
+  "data_url": "https://www.cnooc.com.cn/col/col6264/index.html",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "energy",
+    "petroleum",
+    "maritime"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "cnooc",
+    "offshore oil",
+    "natural gas",
+    "lng",
+    "deepwater",
+    "marine energy",
+    "state-owned enterprise",
+    "中国海油",
+    "中海油",
+    "海上石油",
+    "天然气",
+    "液化天然气",
+    "深水",
+    "央企"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Reports - Financial performance, production, and reserves data",
+      "Offshore Production - Crude oil and natural gas production from offshore fields",
+      "Deepwater Exploration - Deepwater and ultra-deepwater exploration discoveries and results",
+      "LNG Operations - LNG import volumes, receiving terminal throughput, and trade data",
+      "Reserves Reports - Proven and probable offshore oil and gas reserves",
+      "Sustainability Reports - Marine environmental protection, carbon emissions, and ESG metrics"
+    ],
+    "zh": [
+      "年度报告 - 财务业绩、产量和储量数据",
+      "海上生产 - 海上油田原油和天然气产量",
+      "深水勘探 - 深水和超深水勘探发现及成果",
+      "LNG业务 - LNG进口量、接收站吞吐量和贸易数据",
+      "储量报告 - 探明和概算海上油气储量",
+      "可持续发展报告 - 海洋环境保护、碳排放和ESG指标"
+    ]
+  },
+  "authority_level": "government"
+}
