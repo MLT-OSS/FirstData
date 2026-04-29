@@ -1,0 +1,78 @@
+{
+  "id": "china-csa",
+  "name": {
+    "en": "China Association for Standardization",
+    "zh": "中国标准化协会"
+  },
+  "description": {
+    "en": "The China Association for Standardization (CAS/CSA) is a national non-governmental industry organization founded in 1978, operating under the guidance of the State Administration for Market Regulation (SAMR) and the Standardization Administration of China (SAC). CSA is a key platform for voluntary standards development, standards education and promotion, and international standardization cooperation in China. The association develops group standards (团体标准) across industry sectors, provides standardization consulting and certification services, and organizes technical committees for emerging technology areas including smart manufacturing, e-commerce, carbon neutrality, and data governance. CSA publishes research reports on China's standardization policy landscape, group standards directories, and industry-specific standardization roadmaps. It interfaces with ISO, IEC, and ITU for Chinese participation in international standards development and serves as a bridge between government standardization agencies and enterprise standards practices.",
+    "zh": "中国标准化协会（CSA）成立于1978年，是在国家市场监督管理总局和国家标准化管理委员会指导下运行的全国性非政府行业组织。CSA是中国自愿性标准制定、标准教育和推广以及国际标准化合作的重要平台。协会在智能制造、电子商务、碳中和和数据治理等新兴技术领域跨行业制定团体标准，提供标准化咨询和认证服务，并组织技术委员会。CSA发布中国标准化政策研究报告、团体标准目录和行业标准化路线图，对接ISO、IEC和ITU，推动中国参与国际标准制定，是政府标准化机构与企业标准实践的重要桥梁。"
+  },
+  "website": "https://www.china-cas.org",
+  "data_url": "https://www.china-cas.org",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "science",
+    "economics"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国标准化协会",
+    "CSA",
+    "China Association for Standardization",
+    "标准化",
+    "standardization",
+    "团体标准",
+    "group standards",
+    "自愿性标准",
+    "voluntary standards",
+    "国家标准化管理委员会",
+    "SAC",
+    "国家市场监督管理总局",
+    "SAMR",
+    "ISO",
+    "IEC",
+    "ITU",
+    "国际标准化",
+    "international standardization",
+    "智能制造",
+    "smart manufacturing",
+    "碳中和",
+    "carbon neutrality",
+    "数据治理",
+    "data governance",
+    "标准化政策",
+    "standardization policy",
+    "标准化路线图",
+    "standardization roadmap",
+    "电子商务",
+    "e-commerce",
+    "标准化咨询",
+    "standardization consulting",
+    "新兴技术",
+    "emerging technology"
+  ],
+  "data_content": {
+    "en": [
+      "Group standards (团体标准) directory and database: searchable registry of voluntary group standards developed by CSA and its technical committees across sectors including smart manufacturing, green economy, digital economy, logistics, and consumer goods, with standard status, applicability, and revision history",
+      "Standards search and access platform: query interface for China's national standards (GB/T), industry standards, and group standards with cross-reference to international standards equivalents (ISO, IEC, ASTM), supporting standards research and compliance work",
+      "Standardization policy research reports: annual and thematic reports on China's standardization strategy, reform progress, international standards adoption rates, and policy developments in key sectors such as AI governance, carbon neutrality, and digital infrastructure",
+      "International standards participation data: records of Chinese expert participation in ISO and IEC technical committees, Chinese-led international standard projects, and adopted international standards incorporated into China's national standards system",
+      "Standards education and certification data: training curriculum materials, examination statistics for standardization professionals, and data on certified enterprise standardization managers and national model enterprises for standardization",
+      "Industry standardization roadmaps: technology and sector-specific standardization roadmaps co-developed with industry partners covering emerging fields such as hydrogen energy, new energy vehicles, industrial internet, and blockchain applications in China"
+    ],
+    "zh": [
+      "团体标准目录和数据库：CSA及其技术委员会在智能制造、绿色经济、数字经济、物流和消费品等领域制定的自愿性团体标准可检索注册库，含标准状态、适用范围和修订历史",
+      "标准检索和查询平台：中国国家标准（GB/T）、行业标准和团体标准查询界面，交叉引用ISO、IEC、ASTM等国际标准对应关系，支持标准研究和合规工作",
+      "标准化政策研究报告：中国标准化战略、改革进展、国际标准采用率年度和专题报告，以及人工智能治理、碳中和和数字基础设施等重点领域政策动态",
+      "国际标准参与数据：中国专家参与ISO和IEC技术委员会的记录、中国主导的国际标准项目，以及纳入中国国家标准体系的已采用国际标准",
+      "标准化教育和认证数据：标准化专业人员培训课程材料、考试统计数据，以及认证企业标准化管理者和国家标准化示范企业数据",
+      "行业标准化路线图：与行业伙伴联合制定的技术和领域专属标准化路线图，涵盖氢能、新能源汽车、工业互联网和区块链在中国的应用等新兴领域"
+    ]
+  }
+}

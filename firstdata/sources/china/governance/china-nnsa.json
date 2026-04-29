@@ -1,0 +1,78 @@
+{
+  "id": "china-nnsa",
+  "name": {
+    "en": "National Nuclear Safety Administration",
+    "zh": "国家核安全局"
+  },
+  "description": {
+    "en": "The National Nuclear Safety Administration (NNSA) of China is the national regulatory authority responsible for the safety supervision and management of nuclear and radiation safety, operating as a functional department under the Ministry of Ecology and Environment (MEE). Established in 1984, NNSA regulates the licensing, construction, operation, and decommissioning of nuclear power plants, research reactors, nuclear fuel cycle facilities, and radioactive waste management facilities across China. NNSA publishes China's nuclear safety regulations, technical guidelines, licensing decisions, and annual nuclear safety reports. It maintains registries of licensed nuclear installations, radiation sources, and radioactive waste repositories, and publishes environmental radiation monitoring data from nuclear facilities. NNSA is China's competent authority under the Convention on Nuclear Safety and cooperates with the International Atomic Energy Agency (IAEA) on nuclear safety standards and peer reviews.",
+    "zh": "国家核安全局（NNSA）是中国负责核与辐射安全监督管理的国家监管机构，作为生态环境部的职能部门运行。NNSA成立于1984年，负责对中国核电站、研究堆、核燃料循环设施和放射性废物管理设施的许可、建设、运行和退役实施监管。国家核安全局发布中国核安全法规、技术导则、许可决定和年度核安全报告，维护持证核设施、放射源和放射性废物库的登记注册，并发布核设施周边环境辐射监测数据。NNSA是《核安全公约》下的中国主管当局，与国际原子能机构（IAEA）在核安全标准和同行评审方面开展合作。"
+  },
+  "website": "http://nnsa.mee.gov.cn",
+  "data_url": "http://nnsa.mee.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "environment",
+    "science",
+    "governance"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家核安全局",
+    "NNSA",
+    "核安全",
+    "nuclear safety",
+    "辐射安全",
+    "radiation safety",
+    "核电站",
+    "nuclear power plant",
+    "核监管",
+    "nuclear regulation",
+    "放射性废物",
+    "radioactive waste",
+    "核燃料",
+    "nuclear fuel",
+    "核许可证",
+    "nuclear license",
+    "环境辐射监测",
+    "environmental radiation monitoring",
+    "核安全法规",
+    "nuclear safety regulations",
+    "核安全导则",
+    "nuclear safety guides",
+    "核设施",
+    "nuclear installations",
+    "放射源",
+    "radiation sources",
+    "生态环境部",
+    "Ministry of Ecology and Environment",
+    "MEE",
+    "IAEA",
+    "核安全公约",
+    "Convention on Nuclear Safety",
+    "研究堆",
+    "research reactor"
+  ],
+  "data_content": {
+    "en": [
+      "Nuclear safety regulations and technical guidelines: comprehensive collection of China's HAF (nuclear safety) regulatory framework documents, technical safety guidelines (HAD series), and regulatory basis documents for nuclear power plants, research reactors, and fuel cycle facilities",
+      "Nuclear facility licensing registry: database of licensed and pending nuclear installations in China, including nuclear power units (operational, under construction, decommissioned), research reactors, uranium processing facilities, and radioactive waste repositories",
+      "Annual nuclear safety reports: comprehensive annual assessment of China's nuclear safety performance, including safety inspection results, events and incidents statistics, radioactive release data, and regulatory enforcement actions",
+      "Environmental radiation monitoring data: radiation dose rate, radioactivity concentration in air, water, and soil from monitoring networks around nuclear power plants and other nuclear facilities, supporting public transparency and safety oversight",
+      "Radiation source and radioactive waste registries: national registries of sealed and unsealed radioactive sources, radiation-emitting devices, and radioactive waste storage facilities subject to regulatory control",
+      "Nuclear event and incident reports: classified and public reports on nuclear and radiological events at Chinese nuclear facilities, including INES-rated incidents, near-misses, and safety-significant events reported under national and international obligations"
+    ],
+    "zh": [
+      "核安全法规和技术导则：中国HAF（核安全）监管框架文件、技术安全导则（HAD系列）和核电站、研究堆、燃料循环设施监管基础文件综合集",
+      "核设施许可证注册库：中国持证和待审核设施数据库，包括核电机组（运行中、在建、退役）、研究堆、铀处理设施和放射性废物库",
+      "年度核安全报告：中国核安全绩效年度综合评估，包括安全检查结果、事件和事故统计、放射性排放数据和监管执法行动",
+      "环境辐射监测数据：核电站和其他核设施周边监测网络的辐射剂量率、空气、水和土壤中放射性活度浓度数据，支持公众透明度和安全监管",
+      "放射源和放射性废物登记注册：国家监管范围内的密封和非密封放射源、辐射装置和放射性废物贮存设施国家注册库",
+      "核事件和事故报告：中国核设施核与辐射事件的分级和公开报告，包括INES评级事件、未遂事件和依据国家及国际义务报告的安全重要事件"
+    ]
+  }
+}
