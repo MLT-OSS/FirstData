@@ -1,0 +1,75 @@
+{
+  "id": "china-ggzy",
+  "name": {
+    "en": "China National Public Resources Trading Platform",
+    "zh": "全国公共资源交易平台"
+  },
+  "description": {
+    "en": "The China National Public Resources Trading Platform (GGZY, 全国公共资源交易平台) is the authoritative national government portal for public resources trading, administered by the National Development and Reform Commission (NDRC) in conjunction with the State Administration for Market Regulation and other central agencies. The platform aggregates and discloses transaction data from public resource auctions and procurements across China, including engineering construction project bidding, government procurement, state-owned property rights and assets transfers, mineral rights auctions, and other public resource trading activities. As the designated national unified trading service platform mandated by the State Council, GGZY provides comprehensive transparency data on public resource market transactions, bidding results, contract awards, and participant information, making it the primary reference for public procurement market analysis, anti-corruption monitoring, and policy evaluation in China.",
+    "zh": "全国公共资源交易平台（GGZY）是国家发展和改革委员会联合市场监管总局等中央机构主管的权威国家政府门户，专门用于公共资源交易公示。平台汇聚并公开全国公共资源拍卖和采购的交易数据，涵盖工程建设项目招标、政府采购、国有产权及资产转让、矿业权拍卖及其他公共资源交易活动。作为国务院指定的国家统一交易服务平台，GGZY提供公共资源市场交易、招标结果、合同授予和参与方信息的全面公示数据，是中国公共采购市场分析、廉政监察和政策评估的主要数据来源。"
+  },
+  "website": "https://www.ggzy.gov.cn/",
+  "data_url": "https://www.ggzy.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "economics",
+    "finance"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "全国公共资源交易平台",
+    "GGZY",
+    "public resources trading",
+    "公共资源交易",
+    "政府采购",
+    "government procurement",
+    "工程招标",
+    "engineering bidding",
+    "招投标",
+    "bid tendering",
+    "国有资产",
+    "state-owned assets",
+    "产权交易",
+    "property rights trading",
+    "矿业权",
+    "mineral rights",
+    "国家发展改革委",
+    "NDRC",
+    "透明度",
+    "transparency",
+    "反腐",
+    "anti-corruption",
+    "合同授予",
+    "contract award",
+    "采购公告",
+    "procurement announcement",
+    "中标结果",
+    "bid results"
+  ],
+  "data_content": {
+    "en": [
+      "Engineering construction project bidding: bid notices, bid results, and contract award announcements for infrastructure and construction projects across all provinces",
+      "Government procurement: procurement announcements, evaluation results, and contract awards for goods, services, and works purchased by government entities",
+      "State-owned property rights transfers: listings and transaction results for state-owned enterprises and assets transferred through public trading processes",
+      "Mineral rights auctions: auction notices and results for exploration and mining rights across coal, metals, oil and gas, and other minerals",
+      "Land use rights trading: public land auction results and transaction data (linked to land market)",
+      "Market participant information: bidder registration data, qualification records, and performance history for companies participating in public resource transactions",
+      "Transaction volume statistics: aggregate data on total public resource trading volume, deal counts, and market activity by region and sector",
+      "Supervision and compliance data: records of bidding irregularities, debarment decisions, and compliance enforcement actions"
+    ],
+    "zh": [
+      "工程建设项目招标：全国各省基础设施和建设项目的招标公告、招标结果及合同授予公示",
+      "政府采购：政府实体采购货物、服务和工程的采购公告、评标结果和合同授予公示",
+      "国有产权转让：通过公开交易流程转让的国有企业和国有资产挂牌信息及成交结果",
+      "矿业权拍卖：煤炭、金属、油气及其他矿产探矿权和采矿权的拍卖公告及成交结果",
+      "土地使用权交易：公开土地拍卖结果和交易数据（与土地市场联通）",
+      "市场主体信息：参与公共资源交易企业的投标人登记数据、资质记录和履约历史",
+      "交易量统计：按地区和行业分类的公共资源交易总量、成交笔数和市场活跃度汇总数据",
+      "监督与合规数据：串标违规记录、不良行为认定及合规执法措施记录"
+    ]
+  }
+}

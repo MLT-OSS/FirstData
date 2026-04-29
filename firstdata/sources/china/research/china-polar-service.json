@@ -1,0 +1,86 @@
+{
+  "id": "china-polar-service",
+  "name": {
+    "en": "China Polar Operations Service Platform (CHINARE Data)",
+    "zh": "中国极地业务服务平台"
+  },
+  "description": {
+    "en": "The China Polar Operations Service Platform (chinare.org.cn) is the official operational data and service platform for China's National Arctic and Antarctic Expeditions (CHINAREs), managed by the Chinese Arctic and Antarctic Administration (CAA) under the Ministry of Natural Resources. The platform provides public access to observational data, expedition records, and scientific datasets collected during China's polar expeditions across Antarctica and the Arctic. China has maintained a continuous presence in Antarctica since 1985, with research stations including Zhongshan Station, Great Wall Station, Kunlun Station, and Taishan Station, plus Yellow River Station in the Arctic (Svalbard). The platform hosts multi-disciplinary polar science data including atmospheric observations, ice and snow data, marine environment monitoring, geological surveys, ecology datasets, and expedition logistics records spanning over 40 years of Chinese polar exploration. This data is critical for global climate change research, sea-level rise assessment, and understanding Earth's cryosphere.",
+    "zh": "中国极地业务服务平台（chinare.org.cn）是中国南北极科学考察（CHINARE）的官方业务数据与服务平台，由自然资源部中国极地研究中心（国家海洋局极地考察办公室）管理。平台向公众提供中国南北极历次科考的观测数据、科考记录和科学数据集。自1985年起，中国在南极建立了中山站、长城站、昆仑站和泰山站，并在北极斯瓦尔巴群岛建立了黄河站，保持长期科学考察。平台汇聚了跨越40余年中国极地探索的多学科极地科学数据，涵盖大气观测、冰雪数据、海洋环境监测、地质调查、生态数据集和科考后勤记录。这些数据对全球气候变化研究、海平面上升评估和地球冰冻圈研究至关重要。"
+  },
+  "website": "https://www.chinare.org.cn/",
+  "data_url": "https://www.chinare.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "environment",
+    "climate",
+    "ocean",
+    "science"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国极地业务服务平台",
+    "CHINARE",
+    "中国南极科学考察",
+    "China Antarctic Expedition",
+    "中国北极科学考察",
+    "China Arctic Expedition",
+    "南极",
+    "Antarctica",
+    "北极",
+    "Arctic",
+    "极地",
+    "polar",
+    "中山站",
+    "Zhongshan Station",
+    "长城站",
+    "Great Wall Station",
+    "昆仑站",
+    "Kunlun Station",
+    "黄河站",
+    "Yellow River Station",
+    "冰川",
+    "glacier",
+    "冰盖",
+    "ice sheet",
+    "海冰",
+    "sea ice",
+    "气候变化",
+    "climate change",
+    "冰冻圈",
+    "cryosphere",
+    "海平面",
+    "sea level",
+    "极地大气",
+    "polar atmosphere",
+    "自然资源部",
+    "Ministry of Natural Resources",
+    "极地科学数据",
+    "polar science data"
+  ],
+  "data_content": {
+    "en": [
+      "Atmospheric observations: meteorological data from Antarctic and Arctic stations including temperature, pressure, humidity, wind, solar radiation, and ozone measurements",
+      "Ice and snow data: snow accumulation, ice thickness, glacier dynamics, and cryosphere change datasets from ground surveys and remote sensing",
+      "Marine environment monitoring: oceanographic data collected during expeditions including sea ice extent, salinity, current measurements, and marine biological surveys",
+      "Geological surveys: geological mapping, bedrock topography, and geophysical data from Antarctic ice sheet surveys",
+      "Ecology and biology datasets: records of Antarctic marine ecosystems, krill populations, penguin colonies, and microbial ecology studies",
+      "Expedition records: logistics and scientific records from over 40 Chinese Antarctic (CHINARE) and Arctic expeditions",
+      "Remote sensing imagery: satellite-derived data products for polar ice, snow cover, and surface change monitoring",
+      "Permafrost and geothermal data: subsurface temperature and permafrost thickness measurements from polar stations"
+    ],
+    "zh": [
+      "大气观测：南极和北极站点的气象数据，包括气温、气压、湿度、风速、太阳辐射和臭氧测量",
+      "冰雪数据：地面调查和遥感获取的积雪累积量、冰层厚度、冰川动力学和冰冻圈变化数据集",
+      "海洋环境监测：科考期间采集的海洋学数据，包括海冰范围、盐度、洋流测量和海洋生物调查",
+      "地质调查：南极冰盖地质制图、基岩地形和地球物理数据",
+      "生态与生物数据集：南极海洋生态系统、磷虾种群、企鹅种群和微生物生态学研究记录",
+      "科考记录：40余次中国南极（CHINARE）和北极科学考察的后勤和科研记录",
+      "遥感影像：用于极地冰雪、积雪覆盖和地表变化监测的卫星衍生数据产品",
+      "永久冻土和地热数据：极地站点的地下温度和多年冻土厚度测量数据"
+    ]
+  }
+}

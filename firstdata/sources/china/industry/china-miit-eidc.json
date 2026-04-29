@@ -1,0 +1,76 @@
+{
+  "id": "china-miit-eidc",
+  "name": {
+    "en": "MIIT Equipment Industry Development Center",
+    "zh": "工业和信息化部装备工业发展中心"
+  },
+  "description": {
+    "en": "The Equipment Industry Development Center (EIDC) of China's Ministry of Industry and Information Technology (MIIT) is a national-level policy research and data analysis institution specializing in China's equipment manufacturing sector. EIDC tracks and analyzes the development of high-end equipment industries including machine tools, industrial robots, rail transit equipment, aerospace equipment, marine engineering machinery, energy equipment, and agricultural machinery. The center publishes industry analysis reports, equipment manufacturing operation data, enterprise rankings, and policy research outputs that serve as authoritative references for government planning, industry benchmarking, and investment decisions. EIDC data covers production output, market scale, technology advancement indicators, and international competitiveness metrics for China's strategic equipment manufacturing industries, which are central to the Made in China 2025 and dual circulation strategy implementation.",
+    "zh": "工业和信息化部装备工业发展中心（EIDC）是工业和信息化部下属的国家级政策研究与数据分析机构，专注于中国装备制造业发展研究。EIDC追踪和分析机床、工业机器人、轨道交通装备、航空航天装备、海洋工程机械、能源装备和农业机械等高端装备产业发展动态，发布行业分析报告、装备制造业运行数据、企业排名和政策研究成果，是政府规划制定、行业对标和投资决策的权威参考。EIDC数据涵盖中国战略性装备制造产业的生产产出、市场规模、技术进步指标和国际竞争力评估，是「中国制造2025」和双循环战略落实情况的重要数据来源。"
+  },
+  "website": "https://www.miit-eidc.org.cn/",
+  "data_url": "https://www.miit-eidc.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "technology",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "工业和信息化部装备工业发展中心",
+    "MIIT",
+    "EIDC",
+    "装备制造",
+    "equipment manufacturing",
+    "高端装备",
+    "high-end equipment",
+    "机床",
+    "machine tools",
+    "工业机器人",
+    "industrial robots",
+    "轨道交通",
+    "rail transit equipment",
+    "航空航天装备",
+    "aerospace equipment",
+    "海洋工程",
+    "marine engineering",
+    "农业机械",
+    "agricultural machinery",
+    "中国制造2025",
+    "Made in China 2025",
+    "制造业",
+    "manufacturing",
+    "工业统计",
+    "industrial statistics",
+    "产业分析",
+    "industry analysis",
+    "企业排名",
+    "enterprise rankings"
+  ],
+  "data_content": {
+    "en": [
+      "Equipment manufacturing operation data: monthly and annual output statistics for key equipment categories including machine tools, industrial robots, rail equipment, and energy machinery",
+      "Industry analysis reports: sector assessments covering market scale, growth trends, enterprise concentration, and regional distribution of equipment manufacturing",
+      "Enterprise rankings: performance rankings of major equipment manufacturers by revenue, output, R&D investment, and market share",
+      "Technology advancement indicators: tracking innovation metrics, patent filings, and technology maturity levels across strategic equipment sectors",
+      "Policy research outputs: analysis of domestic and international policies affecting equipment manufacturing competitiveness",
+      "International comparison data: benchmarking China's equipment industry against major manufacturing nations including Germany, Japan, South Korea, and the United States",
+      "Market demand forecasts: projections for downstream industry demand driving equipment purchases in sectors such as energy, transportation, and construction",
+      "Import substitution tracking: progress data on replacing imported equipment with domestically produced alternatives across strategic sectors"
+    ],
+    "zh": [
+      "装备制造业运行数据：机床、工业机器人、轨道装备和能源机械等主要装备类别的月度和年度产量统计",
+      "行业分析报告：涵盖市场规模、增长趋势、企业集中度和装备制造业区域分布的行业评估报告",
+      "企业排名：按营收、产量、研发投入和市场份额对主要装备制造企业进行排名",
+      "技术进步指标：追踪战略性装备领域的创新指标、专利申请和技术成熟度水平",
+      "政策研究成果：影响装备制造竞争力的国内外政策分析",
+      "国际比较数据：中国装备工业与德国、日本、韩国和美国等主要制造大国的横向对比",
+      "市场需求预测：能源、交通运输和建筑等下游产业拉动装备需求的展望预测",
+      "进口替代跟踪：战略领域以国产装备替代进口设备的进展数据"
+    ]
+  }
+}
