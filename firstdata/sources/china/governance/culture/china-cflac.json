@@ -1,0 +1,55 @@
+{
+    "id": "china-cflac",
+    "name": {
+        "en": "China Federation of Literary and Art Circles",
+        "zh": "中国文学艺术界联合会"
+    },
+    "description": {
+        "en": "The China Federation of Literary and Art Circles (CFLAC) is the top-level national organization uniting Chinese artists, writers, filmmakers, musicians, and other creative professionals. Its official portal, China Art Net (中国文艺网), publishes statistics and reports on the development of China's cultural and creative industries, including performing arts attendance, film production data, literary output, fine arts exhibition records, and cultural infrastructure statistics. CFLAC provides the authoritative institutional perspective on trends in Chinese culture and the arts sector.",
+        "zh": "中国文学艺术界联合会（中国文联）是联合全国文艺界的最高全国性组织，涵盖作家、电影人、音乐家等各类文艺工作者。其官方门户《中国文艺网》发布中国文化创意产业发展统计报告，内容涵盖演艺观众人次、影视产量、文学创作成果、美术展览记录及文化基础设施数据。中国文联为了解中国文化与艺术行业趋势提供了权威的机构视角。"
+    },
+    "website": "https://www.cflac.org.cn",
+    "data_url": "https://www.cflac.org.cn",
+    "api_url": null,
+    "authority_level": "other",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "irregular",
+    "domains": [
+        "culture",
+        "arts",
+        "media"
+    ],
+    "tags": [
+        "china",
+        "cflac",
+        "中国文联",
+        "arts-culture",
+        "文学艺术",
+        "performing-arts",
+        "表演艺术",
+        "literature",
+        "文学",
+        "film",
+        "电影",
+        "music",
+        "creative-industry",
+        "文化产业"
+    ],
+    "data_content": {
+        "en": [
+            "Cultural Industry Reports - Annual statistics on China's performing arts, visual arts, and literary output",
+            "Film and TV Production Data - Feature film production counts, box office reference data, and broadcasting statistics",
+            "Performing Arts Attendance - Audience numbers and venue statistics for theater, opera, dance, and music performances",
+            "Arts Exhibition Records - National and regional fine arts and photography exhibition statistics",
+            "Cultural Infrastructure Data - Statistics on cultural venues, art museums, libraries, and performance spaces"
+        ],
+        "zh": [
+            "文化产业报告 - 中国演艺、视觉艺术及文学创作年度统计",
+            "影视制作数据 - 故事片产量、票房参考数据及播出统计",
+            "演艺观众数据 - 戏剧、歌剧、舞蹈、音乐演出的观众人次及场馆统计",
+            "美术展览记录 - 全国及地方美术、摄影展览统计",
+            "文化基础设施数据 - 文化场馆、美术馆、图书馆及演出场所统计"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": "china-csei",
+    "name": {
+        "en": "China Special Equipment Inspection and Research Institute",
+        "zh": "中国特种设备检测研究院"
+    },
+    "description": {
+        "en": "The China Special Equipment Inspection and Research Institute (CSEI) is a national-level research and technical service institution under the State Administration for Market Regulation (SAMR), focusing on safety inspection of special equipment including pressure vessels, pressure piping, boilers, elevators, cranes, passenger ropeways, and large amusement rides. CSEI publishes annual special equipment safety situation reports, accident statistics, safety supervision data, and technical standards. Its data is the authoritative source for special equipment safety risk assessment and industrial accident prevention in China.",
+        "zh": "中国特种设备检测研究院（中国特检院）是国家市场监督管理总局直属的国家级特种设备安全检测技术机构，专注于压力容器、压力管道、锅炉、电梯、起重机械、客运索道及大型游乐设施等特种设备的安全检测研究。研究院发布年度特种设备安全状况报告、事故统计、安全监察数据及技术标准，是中国特种设备安全风险评估和工业事故预防的权威数据来源。"
+    },
+    "website": "https://www.csei.org.cn",
+    "data_url": "https://www.csei.org.cn",
+    "api_url": null,
+    "authority_level": "research",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "safety",
+        "industrial-equipment",
+        "standards",
+        "governance"
+    ],
+    "tags": [
+        "china",
+        "csei",
+        "特检院",
+        "special-equipment",
+        "特种设备",
+        "safety-inspection",
+        "安全检测",
+        "pressure-vessel",
+        "压力容器",
+        "elevator",
+        "电梯",
+        "industrial-safety",
+        "工业安全",
+        "accident-statistics",
+        "事故统计"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Special Equipment Safety Reports - National statistics on special equipment quantities, accidents, and safety supervision",
+            "Accident Statistics - Detailed breakdowns of accidents by equipment type, cause, severity, and region",
+            "Equipment Registration Data - Counts of registered special equipment by category and province",
+            "Safety Inspection Standards - Technical specifications and methods for special equipment safety assessment",
+            "Research Publications - Academic and technical reports on failure analysis, risk assessment, and safety engineering"
+        ],
+        "zh": [
+            "年度特种设备安全状况报告 - 全国特种设备数量、事故及安全监察统计",
+            "事故统计 - 按设备类型、事故原因、严重程度及地区分类的详细事故数据",
+            "设备登记数据 - 各类特种设备按类别和省份的登记数量",
+            "安全检测标准 - 特种设备安全评估的技术规范和检测方法",
+            "科研出版物 - 失效分析、风险评估及安全工程学术与技术报告"
+        ]
+    }
+}
