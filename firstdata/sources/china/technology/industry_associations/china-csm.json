@@ -36,7 +36,25 @@
   "website": "https://www.csm.org.cn",
   "data_url": "https://www.csm.org.cn",
   "api_url": null,
-  "domains": ["manufacturing", "science"],
-  "tags": ["steel", "metals", "metallurgy", "materials-science", "iron", "非铁金属", "钢铁", "金属", "冶金", "材料科学", "CSM", "中国金属学会", "中国钢铁", "advanced-manufacturing"],
+  "domains": [
+    "manufacturing",
+    "science"
+  ],
+  "tags": [
+    "steel",
+    "metals",
+    "metallurgy",
+    "materials-science",
+    "iron",
+    "非铁金属",
+    "钢铁",
+    "金属",
+    "冶金",
+    "材料科学",
+    "csm",
+    "中国金属学会",
+    "中国钢铁",
+    "advanced-manufacturing"
+  ],
   "update_frequency": "irregular"
 }

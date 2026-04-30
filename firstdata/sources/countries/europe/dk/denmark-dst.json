@@ -14,13 +14,36 @@
   "api_url": "https://api.statbank.dk/v1/",
   "authority_level": "government",
   "country": "DK",
-  "domains": ["demographics", "economics", "trade", "social", "employment", "prices"],
+  "domains": [
+    "demographics",
+    "economics",
+    "trade",
+    "social",
+    "employment",
+    "prices"
+  ],
   "geographic_scope": "national",
   "update_frequency": "monthly",
   "tags": [
-    "denmark", "danmarks statistik", "statistics denmark", "StatBank", "official statistics",
-    "population", "GDP", "national accounts", "trade", "labor market", "CPI",
-    "丹麦", "丹麦统计局", "人口统计", "经济统计", "贸易", "就业", "国民账户", "统计银行"
+    "denmark",
+    "danmarks-statistik",
+    "statistics-denmark",
+    "statbank",
+    "official-statistics",
+    "population",
+    "gdp",
+    "national-accounts",
+    "trade",
+    "labor-market",
+    "cpi",
+    "丹麦",
+    "丹麦统计局",
+    "人口统计",
+    "经济统计",
+    "贸易",
+    "就业",
+    "国民账户",
+    "统计银行"
   ],
   "data_content": {
     "en": [

@@ -14,13 +14,33 @@
   "api_url": "https://api.statistik.at/stat/rest/v1/",
   "authority_level": "government",
   "country": "AT",
-  "domains": ["demographics", "economics", "social", "employment", "prices"],
+  "domains": [
+    "demographics",
+    "economics",
+    "social",
+    "employment",
+    "prices"
+  ],
   "geographic_scope": "national",
   "update_frequency": "annual",
   "tags": [
-    "austria", "statistik austria", "official statistics", "population", "census",
-    "GDP", "national accounts", "labor market", "inflation", "social statistics",
-    "奥地利", "奥地利统计局", "人口统计", "经济统计", "就业", "国民账户", "通货膨胀"
+    "austria",
+    "statistik-austria",
+    "official-statistics",
+    "population",
+    "census",
+    "gdp",
+    "national-accounts",
+    "labor-market",
+    "inflation",
+    "social-statistics",
+    "奥地利",
+    "奥地利统计局",
+    "人口统计",
+    "经济统计",
+    "就业",
+    "国民账户",
+    "通货膨胀"
   ],
   "data_content": {
     "en": [

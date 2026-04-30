@@ -14,10 +14,33 @@
   "api_url": "https://tablebuilder.singstat.gov.sg/api/table/metadata/",
   "authority_level": "government",
   "country": "SG",
-  "domains": ["economics", "demographics", "trade", "employment", "social", "finance"],
+  "domains": [
+    "economics",
+    "demographics",
+    "trade",
+    "employment",
+    "social",
+    "finance"
+  ],
   "geographic_scope": "national",
   "update_frequency": "monthly",
-  "tags": ["singapore", "singstat", "statistics", "gdp", "inflation", "population", "census", "employment", "trade", "新加坡", "统计局", "东南亚", "经济统计", "人口普查", "table builder"],
+  "tags": [
+    "singapore",
+    "singstat",
+    "statistics",
+    "gdp",
+    "inflation",
+    "population",
+    "census",
+    "employment",
+    "trade",
+    "新加坡",
+    "统计局",
+    "东南亚",
+    "经济统计",
+    "人口普查",
+    "table-builder"
+  ],
   "data_content": {
     "en": [
       "GDP and national accounts",

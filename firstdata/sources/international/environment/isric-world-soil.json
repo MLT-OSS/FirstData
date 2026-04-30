@@ -13,10 +13,27 @@
   "api_url": "https://rest.isric.org",
   "authority_level": "research",
   "country": null,
-  "domains": ["environment", "agriculture", "earth-science"],
+  "domains": [
+    "environment",
+    "agriculture",
+    "earth-science"
+  ],
   "geographic_scope": "global",
   "update_frequency": "annual",
-  "tags": ["soil", "土壤", "land-degradation", "土地退化", "soil-carbon", "土壤碳", "SoilGrids", "erosion", "侵蚀", "food-security", "粮食安全", "land-management"],
+  "tags": [
+    "soil",
+    "土壤",
+    "land-degradation",
+    "土地退化",
+    "soil-carbon",
+    "土壤碳",
+    "soilgrids",
+    "erosion",
+    "侵蚀",
+    "food-security",
+    "粮食安全",
+    "land-management"
+  ],
   "data_content": {
     "en": [
       "SoilGrids: global soil property maps at 250m resolution (organic carbon, pH, texture, etc.)",

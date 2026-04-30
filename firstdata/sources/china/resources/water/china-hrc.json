@@ -40,7 +40,30 @@
   "website": "http://www.hrc.gov.cn",
   "data_url": "http://www.hrc.gov.cn",
   "api_url": null,
-  "domains": ["environment", "infrastructure", "agriculture"],
-  "tags": ["water-resources", "hydrology", "huai-river", "flood", "irrigation", "water-quality", "淮河", "水文", "水资源", "防汛", "灌溉", "流域管理", "水利", "HRC", "淮委", "河南", "安徽", "江苏"],
+  "domains": [
+    "environment",
+    "infrastructure",
+    "agriculture"
+  ],
+  "tags": [
+    "water-resources",
+    "hydrology",
+    "huai-river",
+    "flood",
+    "irrigation",
+    "water-quality",
+    "淮河",
+    "水文",
+    "水资源",
+    "防汛",
+    "灌溉",
+    "流域管理",
+    "水利",
+    "hrc",
+    "淮委",
+    "河南",
+    "安徽",
+    "江苏"
+  ],
   "update_frequency": "irregular"
 }
