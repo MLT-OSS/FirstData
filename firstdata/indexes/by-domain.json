@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T03:11:52.255201+00:00",
-    "total_domains": 706,
-    "total_sources": 627,
+    "generated_at": "2026-04-30T06:29:49.047089+00:00",
+    "total_domains": 708,
+    "total_sources": 632,
     "version": "2.0"
   },
   "domains": {
@@ -534,6 +534,18 @@
         "data_url": "https://www.tobacco.gov.cn/html/42/index.html",
         "has_api": false,
         "file_path": "china/governance/china-stma.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-catcm",
+        "name": {
+          "en": "China Association of Traditional Chinese Medicine",
+          "zh": "中国中药协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.catcm.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-catcm.json",
         "geographic_scope": "national"
       },
       {
@@ -1462,6 +1474,20 @@
         "has_api": false,
         "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
         "geographic_scope": "global"
+      }
+    ],
+    "arts": [
+      {
+        "id": "china-cflac",
+        "name": {
+          "en": "China Federation of Literary and Art Circles",
+          "zh": "中国文学艺术界联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cflac.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cflac.json",
+        "geographic_scope": "national"
       }
     ],
     "asset-disposal": [
@@ -4985,6 +5011,20 @@
         "geographic_scope": "national"
       }
     ],
+    "crime": [
+      {
+        "id": "china-nncc",
+        "name": {
+          "en": "China National Narcotics Control Commission",
+          "zh": "中国国家禁毒委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.nncc626.com",
+        "has_api": false,
+        "file_path": "china/governance/china-nncc.json",
+        "geographic_scope": "national"
+      }
+    ],
     "crime-and-justice": [
       {
         "id": "ireland-cso",
@@ -5198,6 +5238,18 @@
         "data_url": "http://www.ncha.gov.cn/col/col2276/index.html",
         "has_api": false,
         "file_path": "china/governance/china-ncha.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cflac",
+        "name": {
+          "en": "China Federation of Literary and Art Circles",
+          "zh": "中国文学艺术界联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cflac.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cflac.json",
         "geographic_scope": "national"
       },
       {
@@ -11850,6 +11902,18 @@
     ],
     "emergency-management": [
       {
+        "id": "china-cfpa",
+        "name": {
+          "en": "China Fire Protection Association",
+          "zh": "中国消防协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cfpa.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cfpa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "intl-copernicus-cdse",
         "name": {
           "en": "Copernicus Data Space Ecosystem",
@@ -18364,6 +18428,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nncc",
+        "name": {
+          "en": "China National Narcotics Control Commission",
+          "zh": "中国国家禁毒委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.nncc626.com",
+        "has_api": false,
+        "file_path": "china/governance/china-nncc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nnsa",
         "name": {
           "en": "National Nuclear Safety Administration",
@@ -18493,6 +18569,18 @@
         "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
         "has_api": false,
         "file_path": "china/health/china-nmpa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csei",
+        "name": {
+          "en": "China Special Equipment Inspection and Research Institute",
+          "zh": "中国特种设备检测研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-csei.json",
         "geographic_scope": "national"
       },
       {
@@ -18963,6 +19051,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-nncc",
+        "name": {
+          "en": "China National Narcotics Control Commission",
+          "zh": "中国国家禁毒委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.nncc626.com",
+        "has_api": false,
+        "file_path": "china/governance/china-nncc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cacm",
         "name": {
           "en": "Chinese Association of Chinese Medicine",
@@ -18996,6 +19096,18 @@
         "data_url": "https://www.cams.cn",
         "has_api": false,
         "file_path": "china/health/china-cams.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-catcm",
+        "name": {
+          "en": "China Association of Traditional Chinese Medicine",
+          "zh": "中国中药协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.catcm.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-catcm.json",
         "geographic_scope": "national"
       },
       {
@@ -20675,6 +20787,18 @@
       }
     ],
     "industrial-equipment": [
+      {
+        "id": "china-csei",
+        "name": {
+          "en": "China Special Equipment Inspection and Research Institute",
+          "zh": "中国特种设备检测研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-csei.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-machine-tool-association",
         "name": {
@@ -25156,6 +25280,18 @@
         "has_api": false,
         "file_path": "china/governance/china-nrta.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-cflac",
+        "name": {
+          "en": "China Federation of Literary and Art Circles",
+          "zh": "中国文学艺术界联合会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cflac.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cflac.json",
+        "geographic_scope": "national"
       }
     ],
     "medical-imaging": [
@@ -26933,6 +27069,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-catcm",
+        "name": {
+          "en": "China Association of Traditional Chinese Medicine",
+          "zh": "中国中药协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.catcm.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-catcm.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-chinadrugtrials",
         "name": {
           "en": "China Drug Clinical Trials Registration and Information Disclosure Platform",
@@ -28253,6 +28401,30 @@
     ],
     "public-safety": [
       {
+        "id": "china-cfpa",
+        "name": {
+          "en": "China Fire Protection Association",
+          "zh": "中国消防协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cfpa.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cfpa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nncc",
+        "name": {
+          "en": "China National Narcotics Control Commission",
+          "zh": "中国国家禁毒委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.nncc626.com",
+        "has_api": false,
+        "file_path": "china/governance/china-nncc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mps",
         "name": {
           "en": "Ministry of Public Security of China",
@@ -29349,6 +29521,18 @@
       }
     ],
     "safety": [
+      {
+        "id": "china-csei",
+        "name": {
+          "en": "China Special Equipment Inspection and Research Institute",
+          "zh": "中国特种设备检测研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-csei.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-ccs",
         "name": {
@@ -32226,6 +32410,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csei",
+        "name": {
+          "en": "China Special Equipment Inspection and Research Institute",
+          "zh": "中国特种设备检测研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.csei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-csei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ccs",
         "name": {
           "en": "China Classification Society",
@@ -32986,6 +33182,18 @@
         "data_url": "https://www.ccgp.gov.cn/cggg/index.htm",
         "has_api": false,
         "file_path": "china/governance/china-ccgp.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cfpa",
+        "name": {
+          "en": "China Fire Protection Association",
+          "zh": "中国消防协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cfpa.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cfpa.json",
         "geographic_scope": "national"
       },
       {
@@ -35098,6 +35306,18 @@
         "data_url": "https://www.cqc.com.cn/",
         "has_api": false,
         "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-catcm",
+        "name": {
+          "en": "China Association of Traditional Chinese Medicine",
+          "zh": "中国中药协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.catcm.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-catcm.json",
         "geographic_scope": "national"
       },
       {
