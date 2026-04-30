@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-28T11:51:59.475376+00:00",
+    "generated_at": "2026-04-30T02:55:42.807112+00:00",
     "total_regions": 58,
-    "total_sources": 570,
+    "total_sources": 618,
     "version": "2.0"
   },
   "regions": {
@@ -336,6 +336,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-caupd",
+        "name": {
+          "en": "China Academy of Urban Planning and Design",
+          "zh": "中国城市规划设计研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caupd.com/",
+        "has_api": false,
+        "file_path": "china/construction/china-caupd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ccia",
         "name": {
           "en": "China Construction Industry Association",
@@ -361,6 +373,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-gd-housing",
+        "name": {
+          "en": "Guangdong Provincial Department of Housing and Urban-Rural Development",
+          "zh": "广东省住房和城乡建设厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://zfcxjst.gd.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/construction/china-gd-housing.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-mohurd",
         "name": {
           "en": "Ministry of Housing and Urban-Rural Development",
@@ -374,6 +398,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-shenzhen-housing",
+        "name": {
+          "en": "Shenzhen Municipal Housing and Construction Bureau",
+          "zh": "深圳市住房和建设局"
+        },
+        "authority_level": "government",
+        "data_url": "https://zjj.sz.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/construction/china-shenzhen-housing.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-urban-planning",
         "name": {
           "en": "Chinese Society for Urban Studies",
@@ -383,6 +419,18 @@
         "data_url": "https://www.planning.org.cn/paper",
         "has_api": false,
         "file_path": "china/construction/china-urban-planning.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-agri",
+        "name": {
+          "en": "China Agricultural and Rural Information Network",
+          "zh": "中国农业农村信息网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.agri.cn/",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-agri.json",
         "geographic_scope": "national"
       },
       {
@@ -422,6 +470,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-natesc",
+        "name": {
+          "en": "National Agro-Tech Extension and Service Center",
+          "zh": "全国农业技术推广服务中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.natesc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-natesc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nfsra",
         "name": {
           "en": "National Food and Strategic Reserves Administration of China",
@@ -431,6 +491,18 @@
         "data_url": "https://lswz.gov.cn/html/xwzx/sjfb/index.html",
         "has_api": false,
         "file_path": "china/economy/agriculture/china-nfsra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-passenger-car-association",
+        "name": {
+          "en": "China Passenger Car Association",
+          "zh": "全国乘用车市场信息联席会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cpcaauto.com/newslist.php?types=csjd",
+        "has_api": false,
+        "file_path": "china/economy/automotive/china-passenger-car-association.json",
         "geographic_scope": "national"
       },
       {
@@ -517,6 +589,18 @@
         "data_url": "https://www.mct.gov.cn/zwgk/tjsj/",
         "has_api": false,
         "file_path": "china/economy/china-mct.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-miit-sme",
+        "name": {
+          "en": "China Center for Promotion of SME Development (MIIT)",
+          "zh": "中国中小企业发展促进中心（工业和信息化部中小企业发展促进中心）"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinasme.org.cn/html/mcms/daohang/tongzhigonggao/index.html",
+        "has_api": false,
+        "file_path": "china/economy/china-miit-sme.json",
         "geographic_scope": "national"
       },
       {
@@ -700,6 +784,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-shenzhen-hrss",
+        "name": {
+          "en": "Shenzhen Municipal Human Resources and Social Security Bureau",
+          "zh": "深圳市人力资源和社会保障局"
+        },
+        "authority_level": "government",
+        "data_url": "https://hrss.sz.gov.cn/xxgk/index.html",
+        "has_api": false,
+        "file_path": "china/economy/labor/china-shenzhen-hrss.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-cei",
         "name": {
           "en": "China Economic Information Service",
@@ -734,6 +830,18 @@
         "has_api": false,
         "file_path": "china/economy/macro/china-sasac.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-shenzhen-drc",
+        "name": {
+          "en": "Shenzhen Municipal Development and Reform Commission",
+          "zh": "深圳市发展和改革委员会"
+        },
+        "authority_level": "government",
+        "data_url": "http://fgw.sz.gov.cn/zwgk/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-shenzhen-drc.json",
+        "geographic_scope": "subnational"
       },
       {
         "id": "china-sic",
@@ -808,6 +916,18 @@
         "has_api": false,
         "file_path": "china/economy/market/china-samr.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-shenzhen-prtc",
+        "name": {
+          "en": "Shenzhen Public Resource Trading Center",
+          "zh": "深圳市公共资源交易中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.szggzy.com/",
+        "has_api": false,
+        "file_path": "china/economy/market/china-shenzhen-prtc.json",
+        "geographic_scope": "subnational"
       },
       {
         "id": "china-ah-stats",
@@ -1158,6 +1278,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-shenzhen-open-data",
+        "name": {
+          "en": "Shenzhen Open Data Platform",
+          "zh": "深圳市政府数据开放平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://opendata.sz.gov.cn/data/dataSet/toDataList",
+        "has_api": true,
+        "file_path": "china/economy/provincial/china-shenzhen-open-data.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-shenzhen-stats",
         "name": {
           "en": "Shenzhen Bureau of Statistics",
@@ -1422,6 +1554,18 @@
         "data_url": "https://data.mofcom.gov.cn",
         "has_api": false,
         "file_path": "china/economy/trade/mofcom.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csdp",
+        "name": {
+          "en": "China School Development Planning Center",
+          "zh": "教育部学校规划建设发展中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csdp.edu.cn",
+        "has_api": false,
+        "file_path": "china/education/china-csdp.json",
         "geographic_scope": "national"
       },
       {
@@ -1691,6 +1835,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-beijing-stock-exchange",
+        "name": {
+          "en": "Beijing Stock Exchange",
+          "zh": "北京证券交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.bse.cn/market_data.html",
+        "has_api": false,
+        "file_path": "china/finance/china-beijing-stock-exchange.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cicpa",
         "name": {
           "en": "Chinese Institute of Certified Public Accountants",
@@ -1700,6 +1856,18 @@
         "data_url": "https://www.cicpa.org.cn/xxcx/",
         "has_api": false,
         "file_path": "china/finance/china-cicpa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csi-index",
+        "name": {
+          "en": "China Securities Index Co., Ltd.",
+          "zh": "中证指数有限公司"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.csindex.com.cn/#/indices/family/list",
+        "has_api": false,
+        "file_path": "china/finance/china-csi-index.json",
         "geographic_scope": "national"
       },
       {
@@ -1727,6 +1895,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-iamac",
+        "name": {
+          "en": "China Association of Banking and Insurance Asset Management",
+          "zh": "中国银行保险资产管理业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.iamac.org.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-iamac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nifd",
         "name": {
           "en": "National Institution for Finance and Development",
@@ -1751,6 +1931,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-shanghai-clearing-house",
+        "name": {
+          "en": "Shanghai Clearing House",
+          "zh": "上海清算所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.shclearing.com.cn/sjtj/",
+        "has_api": false,
+        "file_path": "china/finance/china-shanghai-clearing-house.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-shenzhen-jrj",
+        "name": {
+          "en": "Shenzhen Local Financial Supervision and Administration Bureau",
+          "zh": "深圳市地方金融监督管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://jr.sz.gov.cn/sjrb/xxgk/index.html",
+        "has_api": false,
+        "file_path": "china/finance/china-shenzhen-jrj.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-trustee-association",
         "name": {
           "en": "China Trustee Association",
@@ -1760,6 +1964,18 @@
         "data_url": "http://www.xtxh.net/xtyxh/hyyj/tjsj/index.html",
         "has_api": false,
         "file_path": "china/finance/china-trustee-association.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-xinhua-finance",
+        "name": {
+          "en": "Xinhua Finance - China Financial Information Network",
+          "zh": "新华财经 - 中国金融信息网"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cnfin.com/",
+        "has_api": false,
+        "file_path": "china/finance/china-xinhua-finance.json",
         "geographic_scope": "national"
       },
       {
@@ -1887,6 +2103,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-bankruptcy-court",
+        "name": {
+          "en": "National Enterprise Bankruptcy and Restructuring Case Information Network",
+          "zh": "全国企业破产重整案件信息网"
+        },
+        "authority_level": "government",
+        "data_url": "https://pccz.court.gov.cn/pcajxxw/index/xxwsy",
+        "has_api": false,
+        "file_path": "china/governance/china-bankruptcy-court.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ccdi",
         "name": {
           "en": "Central Commission for Discipline Inspection of the Communist Party of China",
@@ -1995,6 +2223,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cppcc",
+        "name": {
+          "en": "Chinese People's Political Consultative Conference",
+          "zh": "中国人民政治协商会议"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cppcc.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cppcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cqc",
         "name": {
           "en": "China Quality Certification Centre",
@@ -2004,6 +2244,18 @@
         "data_url": "https://www.cqc.com.cn/",
         "has_api": false,
         "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ggzy",
+        "name": {
+          "en": "China National Public Resources Trading Platform",
+          "zh": "全国公共资源交易平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ggzy.gov.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-ggzy.json",
         "geographic_scope": "national"
       },
       {
@@ -2115,6 +2367,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nnsa",
+        "name": {
+          "en": "National Nuclear Safety Administration",
+          "zh": "国家核安全局"
+        },
+        "authority_level": "government",
+        "data_url": "http://nnsa.mee.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-nnsa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-npc-law",
         "name": {
           "en": "National People's Congress Law Database",
@@ -2136,6 +2400,18 @@
         "data_url": "https://www.nrta.gov.cn/col/col2040/index.html",
         "has_api": false,
         "file_path": "china/governance/china-nrta.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pkulaw",
+        "name": {
+          "en": "PKU Law (Peking University Law Database)",
+          "zh": "北大法宝"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pkulaw.com/law",
+        "has_api": false,
+        "file_path": "china/governance/china-pkulaw.json",
         "geographic_scope": "national"
       },
       {
@@ -2220,6 +2496,18 @@
         "data_url": "https://www.sport.gov.cn/n315/n330/index.html",
         "has_api": false,
         "file_path": "china/governance/sports/china-gas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cacm",
+        "name": {
+          "en": "Chinese Association of Chinese Medicine",
+          "zh": "中华中医药学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cacm.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cacm.json",
         "geographic_scope": "national"
       },
       {
@@ -2404,6 +2692,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ceeia",
+        "name": {
+          "en": "China Electrical Equipment Industry Association",
+          "zh": "中国电器工业协会"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.ceeia.com",
+        "has_api": false,
+        "file_path": "china/industry/china-ceeia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-csia",
         "name": {
           "en": "China Semiconductor Industry Association",
@@ -2413,6 +2713,18 @@
         "data_url": "https://web.csia.net.cn",
         "has_api": false,
         "file_path": "china/industry/china-csia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-miit-eidc",
+        "name": {
+          "en": "MIIT Equipment Industry Development Center",
+          "zh": "工业和信息化部装备工业发展中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.miit-eidc.org.cn/",
+        "has_api": false,
+        "file_path": "china/industry/china-miit-eidc.json",
         "geographic_scope": "national"
       },
       {
@@ -2437,6 +2749,18 @@
         "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
         "has_api": false,
         "file_path": "china/infrastructure/china-cata.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccs",
+        "name": {
+          "en": "China Classification Society",
+          "zh": "中国船级社"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccs.org.cn/",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-ccs.json",
         "geographic_scope": "national"
       },
       {
@@ -2561,6 +2885,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cncaprc",
+        "name": {
+          "en": "China National Committee on Ageing",
+          "zh": "中国老龄协会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cncaprc.gov.cn",
+        "has_api": false,
+        "file_path": "china/national/china-cncaprc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cta",
         "name": {
           "en": "China Tourism Academy",
@@ -2671,6 +3007,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cabr",
+        "name": {
+          "en": "China Academy of Building Research",
+          "zh": "中国建筑科学研究院有限公司"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cabr.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cabr.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cae",
         "name": {
           "en": "Chinese Academy of Engineering",
@@ -2704,6 +3052,18 @@
         "data_url": "https://www.scidb.cn/",
         "has_api": false,
         "file_path": "china/research/china-cas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-casm",
+        "name": {
+          "en": "Chinese Academy of Surveying and Mapping",
+          "zh": "中国测绘科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.casm.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-casm.json",
         "geographic_scope": "national"
       },
       {
@@ -2764,6 +3124,18 @@
         "data_url": "https://www.cciee.org.cn/ktcglistall.aspx?clmId=650",
         "has_api": false,
         "file_path": "china/research/china-cciee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cf40",
+        "name": {
+          "en": "China Finance 40 Forum (CF40)",
+          "zh": "中国金融四十人论坛"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cf40.com/research",
+        "has_api": false,
+        "file_path": "china/research/china-cf40.json",
         "geographic_scope": "national"
       },
       {
@@ -2884,6 +3256,18 @@
         "data_url": "https://cstr.cn/resreg",
         "has_api": false,
         "file_path": "china/research/china-cstr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cufe-iigf",
+        "name": {
+          "en": "International Institute of Green Finance (IIGF), Central University of Finance and Economics",
+          "zh": "中央财经大学绿色金融国际研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://iigf.cufe.edu.cn/yjcg/yjbg.htm",
+        "has_api": false,
+        "file_path": "china/research/china-cufe-iigf.json",
         "geographic_scope": "national"
       },
       {
@@ -3043,6 +3427,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nsii",
+        "name": {
+          "en": "National Specimen Information Infrastructure of China",
+          "zh": "中国国家标本资源平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nsii.org.cn/2017/home.php",
+        "has_api": false,
+        "file_path": "china/research/china-nsii.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nssdc",
         "name": {
           "en": "National Space Science Data Center",
@@ -3103,6 +3499,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-polar-service",
+        "name": {
+          "en": "China Polar Operations Service Platform (CHINARE Data)",
+          "zh": "中国极地业务服务平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinare.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-polar-service.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-pric",
         "name": {
           "en": "Polar Research Institute of China",
@@ -3125,6 +3533,18 @@
         "has_api": false,
         "file_path": "china/research/china-resdc.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-scidb",
+        "name": {
+          "en": "Science Data Bank (ScienceDB)",
+          "zh": "中国科学数据银行"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.scidb.cn/list?type=all",
+        "has_api": false,
+        "file_path": "china/research/china-scidb.json",
+        "geographic_scope": "global"
       },
       {
         "id": "china-tpdc",
@@ -3163,6 +3583,42 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-caea",
+        "name": {
+          "en": "China National Nuclear Safety Administration",
+          "zh": "国家原子能机构"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.caea.gov.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-caea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-guangdong-nr",
+        "name": {
+          "en": "Guangdong Provincial Department of Natural Resources",
+          "zh": "广东省自然资源厅"
+        },
+        "authority_level": "government",
+        "data_url": "https://nr.gd.gov.cn/zwgknew/index.html",
+        "has_api": false,
+        "file_path": "china/resources/china-guangdong-nr.json",
+        "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-landchina",
+        "name": {
+          "en": "China Land Market Network",
+          "zh": "中国土地市场网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.landchina.com/default.aspx?tabid=226",
+        "has_api": false,
+        "file_path": "china/resources/china-landchina.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ngcc",
         "name": {
           "en": "National Geomatics Center of China",
@@ -3173,6 +3629,18 @@
         "has_api": false,
         "file_path": "china/resources/china-ngcc.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-shenzhen-pnr",
+        "name": {
+          "en": "Shenzhen Municipal Planning and Natural Resources Bureau",
+          "zh": "深圳市规划和自然资源局"
+        },
+        "authority_level": "government",
+        "data_url": "https://pnr.sz.gov.cn/xxgk/",
+        "has_api": false,
+        "file_path": "china/resources/china-shenzhen-pnr.json",
+        "geographic_scope": "subnational"
       },
       {
         "id": "china-cace",
@@ -3307,6 +3775,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ncsc",
+        "name": {
+          "en": "National Center for Climate Change Strategy and International Cooperation",
+          "zh": "国家应对气候变化战略研究和国际合作中心"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ncsc.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-ncsc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ndrcc",
         "name": {
           "en": "National Disaster Reduction Center of China",
@@ -3412,6 +3892,18 @@
         "data_url": "https://mds.nmdis.org.cn/",
         "has_api": false,
         "file_path": "china/resources/ocean/china-nmdis.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nsoas",
+        "name": {
+          "en": "National Satellite Ocean Application Service",
+          "zh": "国家卫星海洋应用中心"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.nsoas.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/ocean/china-nsoas.json",
         "geographic_scope": "national"
       },
       {
@@ -3535,6 +4027,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-beidou",
+        "name": {
+          "en": "BeiDou Navigation Satellite System",
+          "zh": "北斗卫星导航系统"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.beidou.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-beidou.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-caai",
         "name": {
           "en": "Chinese Association for Artificial Intelligence",
@@ -3583,6 +4087,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-shenzhen-stic",
+        "name": {
+          "en": "Shenzhen Science, Technology and Innovation Commission",
+          "zh": "深圳市科技创新局"
+        },
+        "authority_level": "government",
+        "data_url": "https://stic.sz.gov.cn/xxgk/index.html",
+        "has_api": false,
+        "file_path": "china/technology/china-shenzhen-stic.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-national-data-bureau",
         "name": {
           "en": "National Data Administration of China",
@@ -3592,6 +4108,18 @@
         "data_url": "https://sjdj.nda.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sae",
+        "name": {
+          "en": "Society of Automotive Engineers of China",
+          "zh": "中国汽车工程学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sae-china.org/newsdata/reportdata/",
+        "has_api": false,
+        "file_path": "china/technology/industry-associations/china-sae.json",
         "geographic_scope": "national"
       },
       {
@@ -3920,6 +4448,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csa",
+        "name": {
+          "en": "China Association for Standardization",
+          "zh": "中国标准化协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-cas.org",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-csa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nim",
         "name": {
           "en": "National Institute of Metrology China",
@@ -3929,6 +4469,18 @@
         "data_url": "https://www.nim.ac.cn/nim_time",
         "has_api": false,
         "file_path": "china/technology/standards/china-nim.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-openstd",
+        "name": {
+          "en": "China National Standards Full Text Public Access System",
+          "zh": "国家标准全文公开系统"
+        },
+        "authority_level": "government",
+        "data_url": "https://openstd.samr.gov.cn/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-openstd.json",
         "geographic_scope": "national"
       },
       {

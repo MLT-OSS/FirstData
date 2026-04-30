@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-28T11:51:59.475376+00:00",
-    "total_sources": 570,
+    "generated_at": "2026-04-30T02:55:42.807112+00:00",
+    "total_sources": 618,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -1566,6 +1566,63 @@
       "file_path": "academic/health/tcga.json"
     },
     {
+      "id": "ieee-xplore",
+      "name": {
+        "en": "IEEE Xplore Digital Library",
+        "zh": "IEEE Xplore数字图书馆"
+      },
+      "description": {
+        "en": "IEEE Xplore is a research database providing access to scientific and technical content published by IEEE (Institute of Electrical and Electronics Engineers) and its publishing partners. It contains over 6 million documents including journal articles, conference proceedings, technical standards, and books covering electrical engineering, computer science, electronics, and related fields.",
+        "zh": "IEEE Xplore是一个科研数据库，提供IEEE（电气和电子工程师协会）及其合作出版方发布的科学技术内容。收录超过600万篇文献，包括期刊论文、会议论文、技术标准和专著，覆盖电气工程、计算机科学、电子学等相关领域。"
+      },
+      "website": "https://www.ieee.org",
+      "data_url": "https://ieeexplore.ieee.org",
+      "api_url": "https://developer.ieee.org/docs/read/IEEE_Xplore_Metadata_API",
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "science",
+        "technology",
+        "engineering",
+        "computer-science"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "daily",
+      "tags": [
+        "IEEE",
+        "IEEE Xplore",
+        "学术论文",
+        "research-papers",
+        "conference-proceedings",
+        "technical-standards",
+        "电气工程",
+        "计算机科学",
+        "半导体",
+        "semiconductor",
+        "artificial-intelligence",
+        "academic",
+        "peer-reviewed"
+      ],
+      "data_content": {
+        "en": [
+          "Journal Articles - Peer-reviewed research papers from over 200 IEEE journals and magazines",
+          "Conference Proceedings - Papers from over 2,000 annual IEEE conferences worldwide",
+          "Technical Standards - IEEE standards documents covering electronics, computing, power, and telecommunications",
+          "Books and eBooks - Technical reference books and educational materials",
+          "Early Access Articles - Pre-publication versions of accepted journal articles"
+        ],
+        "zh": [
+          "期刊论文 - 来自200多种IEEE期刊和杂志的同行评审研究论文",
+          "会议论文 - 来自全球2000多个IEEE年度会议的论文",
+          "技术标准 - 覆盖电子、计算、电力和电信领域的IEEE标准文件",
+          "书籍和电子书 - 技术参考书和教育材料",
+          "早期访问论文 - 已接受期刊论文的预出版版本"
+        ]
+      },
+      "has_api": true,
+      "file_path": "academic/ieee-xplore.json"
+    },
+    {
       "id": "owid",
       "name": {
         "en": "Our World in Data",
@@ -2136,6 +2193,84 @@
       "file_path": "china/cninfo.json"
     },
     {
+      "id": "china-caupd",
+      "name": {
+        "en": "China Academy of Urban Planning and Design",
+        "zh": "中国城市规划设计研究院"
+      },
+      "description": {
+        "en": "The China Academy of Urban Planning and Design (CAUPD), established in 1954 and operating under the Ministry of Natural Resources, is China's foremost national-level research institute for urban and rural planning. CAUPD plays a central role in formulating China's urban planning standards, national spatial planning strategies, and major city and regional development plans. The academy has led planning work for hundreds of Chinese cities, key national development zones, and major infrastructure corridors. CAUPD publishes authoritative urban development research including annual urban-rural development reports, housing market analysis, transportation planning studies, and regional spatial planning guidelines. Its data and expertise directly inform the National Five-Year Plans, city master plans, and national policies on urbanization, land use, and sustainable urban development.",
+        "zh": "中国城市规划设计研究院（中规院）成立于1954年，隶属于自然资源部，是中国最权威的国家级城乡规划研究机构。中规院在制定中国城乡规划标准、国土空间规划战略和重大城市及区域发展规划方面发挥核心作用，主导了数百个城市、国家重点开发区和重大基础设施廊道的规划工作。院所发布权威城市发展研究成果，包括年度城乡发展报告、住房市场分析、交通规划研究和区域国土空间规划指南，其数据和专业知识直接支撑国家五年规划、城市总体规划及城镇化、土地利用和可持续城市发展相关国家政策的制定。"
+      },
+      "website": "https://www.caupd.com/",
+      "data_url": "https://www.caupd.com/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "urban-development",
+        "land-use",
+        "transportation",
+        "demographics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "城市规划",
+        "urban planning",
+        "城乡规划",
+        "urban-rural planning",
+        "国土空间规划",
+        "national spatial planning",
+        "城镇化",
+        "urbanization",
+        "住房",
+        "housing",
+        "交通规划",
+        "transportation planning",
+        "区域规划",
+        "regional planning",
+        "城市发展",
+        "urban development",
+        "城市群",
+        "city cluster",
+        "中规院",
+        "CAUPD",
+        "城市总体规划",
+        "city master plan",
+        "土地利用",
+        "land use",
+        "可持续城市",
+        "sustainable urban"
+      ],
+      "data_content": {
+        "en": [
+          "China Urban-Rural Development Annual Report: comprehensive statistics on urbanization rate, urban construction land expansion, population migration, and city infrastructure investment",
+          "National spatial planning research: analysis of national territorial spatial planning frameworks, land use optimization, and ecological red line delineation",
+          "Housing market research: housing supply and demand statistics, affordability indices, and rental market analysis for major Chinese cities",
+          "Urban transportation planning studies: data on urban rail transit development, road network density, traffic congestion indices, and public transit ridership",
+          "City cluster development reports: planning data and demographic-economic analysis for Beijing-Tianjin-Hebei, Yangtze River Delta, Pearl River Delta, and Chengdu-Chongqing city clusters",
+          "Urban renewal and brownfield data: statistics on old city renovation projects, urban village redevelopment, and heritage preservation",
+          "Municipal infrastructure capacity analysis: water supply, wastewater treatment, solid waste management, and utility coverage in Chinese cities",
+          "Rural settlement planning: data on rural land consolidation, village relocation, and rural infrastructure improvement programs",
+          "Smart city and digital urban management research: data on city brain systems, digital twin pilots, and urban data platform deployment"
+        ],
+        "zh": [
+          "中国城乡发展年度报告：城镇化率、城市建设用地扩张、人口迁移和城市基础设施投资综合统计",
+          "国土空间规划研究：国家国土空间规划框架、土地利用优化和生态保护红线划定分析",
+          "住房市场研究：主要城市住房供需统计、可负担性指数和租赁市场分析",
+          "城市交通规划研究：城市轨道交通建设、路网密度、交通拥堵指数和公共交通客运量数据",
+          "城市群发展报告：京津冀、长三角、珠三角和成渝城市群规划数据和人口经济分析",
+          "城市更新和棕地数据：老旧城区改造项目、城中村改造和历史文化保护统计",
+          "市政基础设施能力分析：中国城市供水、污水处理、固体废弃物管理和公用事业覆盖情况",
+          "乡村定居点规划：农村土地整治、村庄搬迁和农村基础设施改善项目数据",
+          "智慧城市和数字城市管理研究：城市大脑系统、数字孪生试点和城市数据平台部署数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-caupd.json"
+    },
+    {
       "id": "china-ccia",
       "name": {
         "en": "China Construction Industry Association",
@@ -2257,6 +2392,56 @@
       "file_path": "china/construction/china-construction-standards.json"
     },
     {
+      "id": "china-gd-housing",
+      "name": {
+        "en": "Guangdong Provincial Department of Housing and Urban-Rural Development",
+        "zh": "广东省住房和城乡建设厅"
+      },
+      "description": {
+        "en": "The Guangdong Provincial Department of Housing and Urban-Rural Development is the provincial government authority responsible for housing policies, urban-rural construction management, real estate market regulation, and building industry oversight in Guangdong Province, China's most populous province and largest provincial economy. It publishes provincial housing market data, construction industry statistics, affordable housing program progress, and urban development policies covering all 21 prefecture-level cities including Guangzhou, Shenzhen, Dongguan, and Foshan.",
+        "zh": "广东省住房和城乡建设厅是广东省住房政策、城乡建设管理、房地产市场监管和建筑行业监管的省级政府部门。广东省是中国人口最多、经济总量最大的省份，该厅发布全省住房市场数据、建筑行业统计、保障性住房建设进展和城市发展政策，覆盖广州、深圳、东莞、佛山等21个地级市。"
+      },
+      "website": "https://zfcxjst.gd.gov.cn",
+      "data_url": "https://zfcxjst.gd.gov.cn/xxgk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "housing",
+        "construction",
+        "urban-planning",
+        "real-estate"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "monthly",
+      "tags": [
+        "guangdong",
+        "housing",
+        "construction",
+        "urban-rural-development"
+      ],
+      "data_content": {
+        "en": [
+          "Provincial Housing Market Data - Real estate market statistics across Guangdong's 21 prefecture-level cities",
+          "Construction Industry Statistics - Provincial construction output value, enterprise data, and workforce statistics",
+          "Affordable Housing Programs - Provincial public rental housing, talent housing, and subsidized housing construction data",
+          "Urban-Rural Development Policies - Provincial housing purchase policies, market regulation measures",
+          "Building Quality Supervision - Construction project quality inspection and safety supervision data",
+          "Property Management - Residential property management regulations and industry data"
+        ],
+        "zh": [
+          "全省住房市场数据 - 广东省21个地级市房地产市场统计",
+          "建筑行业统计 - 全省建筑业总产值、企业数据和从业人员统计",
+          "保障性住房建设 - 全省公共租赁住房、人才住房和共有产权住房建设数据",
+          "城乡发展政策 - 全省住房限购政策和市场调控措施",
+          "建筑质量监督 - 建设工程质量检查和安全监督数据",
+          "物业管理 - 住宅物业管理法规和行业数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-gd-housing.json"
+    },
+    {
       "id": "china-mohurd",
       "name": {
         "en": "Ministry of Housing and Urban-Rural Development",
@@ -2317,6 +2502,55 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/construction/china-mohurd.json"
+    },
+    {
+      "id": "china-shenzhen-housing",
+      "name": {
+        "en": "Shenzhen Municipal Housing and Construction Bureau",
+        "zh": "深圳市住房和建设局"
+      },
+      "description": {
+        "en": "The Shenzhen Municipal Housing and Construction Bureau is the local government authority responsible for housing administration, real estate market regulation, construction industry management, and affordable housing programs in Shenzhen. It publishes housing transaction data, new housing supply statistics, commercial housing sales figures, construction permits, affordable housing progress, and real estate market monitoring reports for one of China's most dynamic property markets.",
+        "zh": "深圳市住房和建设局是深圳市负责住房管理、房地产市场监管、建筑行业管理和保障性住房建设的地方政府部门。发布住房交易数据、新建住房供应统计、商品房销售数据、建设许可证、保障性住房建设进展以及房地产市场监测报告，是中国最活跃房地产市场之一的权威数据来源。"
+      },
+      "website": "https://zjj.sz.gov.cn",
+      "data_url": "https://zjj.sz.gov.cn/xxgk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "housing",
+        "real-estate",
+        "construction"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "monthly",
+      "tags": [
+        "shenzhen",
+        "housing",
+        "real-estate",
+        "construction"
+      ],
+      "data_content": {
+        "en": [
+          "Commercial Housing Sales - Monthly new housing transaction volume and prices in Shenzhen",
+          "Affordable Housing Programs - Public rental housing, talent housing, and subsidized housing construction progress",
+          "Real Estate Market Monitoring - Market trend analysis and regulatory measures",
+          "Construction Permits - Building construction permits and project approvals",
+          "Housing Supply Statistics - New housing supply and inventory data",
+          "Property Registration - Real estate registration and transfer records"
+        ],
+        "zh": [
+          "商品房销售数据 - 深圳市每月新建住房成交量和成交价格",
+          "保障性住房建设 - 公共租赁住房、人才住房和共有产权住房建设进度",
+          "房地产市场监测 - 市场趋势分析和调控措施",
+          "建设许可 - 建筑施工许可和项目审批数据",
+          "住房供应统计 - 新增住房供应量和库存数据",
+          "房产登记 - 不动产登记和交易过户记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-shenzhen-housing.json"
     },
     {
       "id": "china-urban-planning",
@@ -2381,6 +2615,83 @@
       "authority_level": "research",
       "has_api": false,
       "file_path": "china/construction/china-urban-planning.json"
+    },
+    {
+      "id": "china-agri",
+      "name": {
+        "en": "China Agricultural and Rural Information Network",
+        "zh": "中国农业农村信息网"
+      },
+      "description": {
+        "en": "The China Agricultural and Rural Information Network (AGRI, agri.cn) is the official information platform operated by the Agricultural Information Center of the Ministry of Agriculture and Rural Affairs of China. Launched in 1995, AGRI is the most comprehensive national portal for agricultural information, rural economic statistics, crop production data, agricultural price monitoring, and rural policy. The platform aggregates data from the Ministry's departmental systems covering crop planting, livestock and aquaculture production, agricultural machinery, agricultural inputs (fertilizers and pesticides), rural household income, and food security indicators. AGRI's price monitoring system tracks wholesale and retail prices for hundreds of agricultural commodities across major markets nationwide. It is the authoritative primary source for China's agricultural statistical releases and is used by agricultural producers, commodity traders, policy analysts, international agricultural organizations, and food security researchers.",
+        "zh": "中国农业农村信息网（agri.cn）是由农业农村部农业信息中心运营的官方信息平台，于1995年上线，是覆盖农业信息、农村经济统计、农作物生产数据、农业价格监测和农村政策的最全面国家级门户。平台汇聚来自农业农村部各司局系统的数据，涵盖农作物种植面积、畜牧水产养殖、农业机械化、农业投入品（化肥和农药）、农村居民收入和粮食安全指标。农业农村信息网的价格监测体系追踪全国主要市场数百种农产品批发和零售价格，是中国农业统计数据发布的权威一手来源，被农业生产者、大宗商品交易商、政策分析师、国际农业组织和粮食安全研究人员广泛使用。"
+      },
+      "website": "https://www.agri.cn/",
+      "data_url": "https://www.agri.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "statistics",
+        "economics",
+        "food-security"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "农业",
+        "agriculture",
+        "农村经济",
+        "rural economy",
+        "农产品价格",
+        "agricultural commodity prices",
+        "粮食安全",
+        "food security",
+        "农作物",
+        "crop production",
+        "畜牧业",
+        "livestock",
+        "水产养殖",
+        "aquaculture",
+        "农业机械化",
+        "agricultural mechanization",
+        "化肥",
+        "fertilizer",
+        "农村居民收入",
+        "rural household income",
+        "农业农村部",
+        "Ministry of Agriculture and Rural Affairs",
+        "MARA",
+        "农业信息中心",
+        "agricultural information"
+      ],
+      "data_content": {
+        "en": [
+          "Crop production statistics: planting area, yield, and output data for major grain crops (rice, wheat, corn, soybeans) and cash crops by province and season",
+          "Agricultural commodity price monitoring: daily and weekly wholesale and retail price indices for hundreds of agricultural products across national, provincial, and county-level market networks",
+          "Livestock and aquaculture production: quarterly data on pig, poultry, cattle, and sheep inventories, as well as fishery catch and aquaculture output",
+          "Agricultural input statistics: annual data on chemical fertilizer production, consumption, and application rates by crop type and region",
+          "Rural household income and expenditure surveys: per capita disposable income, consumption patterns, and poverty incidence for rural Chinese households",
+          "Agricultural machinery data: statistics on tractors, harvesters, and other farm machinery ownership and mechanization coverage rates",
+          "Food security indicators: grain reserve levels, self-sufficiency ratios for major staple crops, and caloric supply data",
+          "Rural land and land reform data: contracted rural land area, land transfer rates, and land registration statistics",
+          "Agricultural trade statistics: China's imports and exports of major agricultural commodities including soybeans, pork, corn, and cotton"
+        ],
+        "zh": [
+          "农作物生产统计：主要粮食作物（水稻、小麦、玉米、大豆）和经济作物的分省季度播种面积、产量和产出数据",
+          "农产品价格监测：全国省市县三级市场数百种农产品日度和周度批发及零售价格指数",
+          "畜牧水产生产：生猪、禽类、牛羊存栏量季度数据，以及渔业捕捞产量和水产养殖产出",
+          "农业投入品统计：按作物类型和地区分类的化学肥料生产、消费和施用量年度数据",
+          "农村居民收入和支出调查：农村居民人均可支配收入、消费结构和贫困发生率",
+          "农业机械数据：拖拉机、收割机等农用机械拥有量和机械化作业覆盖率统计",
+          "粮食安全指标：粮食储备水平、主要口粮自给率和热量供给数据",
+          "农村土地和土地改革数据：农村承包地面积、土地流转率和土地确权登记统计",
+          "农业贸易统计：中国大豆、猪肉、玉米、棉花等主要农产品进出口数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-agri.json"
     },
     {
       "id": "china-catas",
@@ -2632,6 +2943,81 @@
       "file_path": "china/economy/agriculture/china-moa.json"
     },
     {
+      "id": "china-natesc",
+      "name": {
+        "en": "National Agro-Tech Extension and Service Center",
+        "zh": "全国农业技术推广服务中心"
+      },
+      "description": {
+        "en": "The National Agro-Tech Extension and Service Center (NATESC) is a national public institution under China's Ministry of Agriculture and Rural Affairs (MARA), responsible for organizing and guiding agricultural technology extension, crop disease and pest monitoring, seed quality testing, and soil fertility assessment across China. Established in 1994, NATESC coordinates the national agricultural extension network linking central, provincial, and county-level stations, managing information systems on crop growth monitoring, pest and disease surveillance, fertilizer usage, and agricultural inputs. It publishes annual crop pest early-warning bulletins, soil fertility surveys, agricultural technology adoption statistics, and farm input data that support agricultural production planning and food security policy formulation.",
+        "zh": "全国农业技术推广服务中心（全国农技推广中心）是农业农村部下属全国性公益性机构，负责组织和指导全国农业技术推广、农作物病虫害监测、种子质量检测和土壤肥力评估工作。中心成立于1994年，协调贯通县、省、部三级农业技术推广网络，管理作物生长监测、病虫害监测、化肥施用和农业投入品等信息系统。中心发布年度作物病虫害早期预警公告、土壤肥力调查报告、农业技术应用统计和农资数据，支撑农业生产计划和粮食安全政策制定。"
+      },
+      "website": "https://www.natesc.org.cn",
+      "data_url": "https://www.natesc.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "technology",
+        "environment",
+        "social"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "全国农业技术推广服务中心",
+        "全国农技推广",
+        "NATESC",
+        "National Agro-Tech Extension and Service Center",
+        "农业技术推广",
+        "agricultural technology extension",
+        "病虫害监测",
+        "pest and disease monitoring",
+        "农作物病虫害",
+        "crop pests and diseases",
+        "土壤肥力",
+        "soil fertility",
+        "化肥",
+        "fertilizer",
+        "种子质量",
+        "seed quality",
+        "农业投入品",
+        "agricultural inputs",
+        "粮食安全",
+        "food security",
+        "农技推广网络",
+        "agro-tech extension network",
+        "作物生长监测",
+        "crop growth monitoring",
+        "农业部",
+        "MARA",
+        "农业农村部"
+      ],
+      "data_content": {
+        "en": [
+          "Crop pest and disease monitoring: national surveillance data on major crop pests (locusts, aphids, etc.) and diseases across China's farming regions",
+          "Early-warning bulletins: seasonal and annual early-warning reports on crop pest outbreaks and disease epidemics",
+          "Soil fertility surveys: periodic national soil nutrient status assessments and fertilizer recommendation data",
+          "Fertilizer usage statistics: annual data on fertilizer application rates, types, and trends across China's agricultural regions",
+          "Seed quality testing reports: inspection results for crop seed varieties on germination rates, purity, and moisture content",
+          "Agricultural technology adoption statistics: data on diffusion of new crop varieties, farming techniques, and mechanization",
+          "Crop growth monitoring bulletins: periodic crop condition assessments and yield forecast data during growing seasons"
+        ],
+        "zh": [
+          "农作物病虫害监测：中国农业区主要作物病虫害（蝗虫、蚜虫等）全国监测数据",
+          "早期预警公告：作物病虫害暴发和疫情的季节性和年度早期预警报告",
+          "土壤肥力调查：定期全国土壤养分状况评估和化肥施用建议数据",
+          "化肥施用统计：中国各农业区化肥施用量、种类和趋势年度数据",
+          "种子质量检测报告：作物种子品种发芽率、纯度和水分含量检测结果",
+          "农业技术应用统计：新品种、农业技术和机械化推广应用数据",
+          "作物生长监测公告：生长季节定期作物长势评估和产量预报数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-natesc.json"
+    },
+    {
       "id": "china-nfsra",
       "name": {
         "en": "National Food and Strategic Reserves Administration of China",
@@ -2710,6 +3096,62 @@
       },
       "has_api": false,
       "file_path": "china/economy/agriculture/china-nfsra.json"
+    },
+    {
+      "id": "china-passenger-car-association",
+      "name": {
+        "en": "China Passenger Car Association",
+        "zh": "全国乘用车市场信息联席会"
+      },
+      "description": {
+        "en": "The China Passenger Car Association (CPCA) is China's leading automotive industry data provider, publishing monthly retail and wholesale sales data for passenger vehicles. CPCA is the primary source for new energy vehicle (NEV) market data in China, providing brand-level sales rankings, market share analysis, and industry trend reports.",
+        "zh": "全国乘用车市场信息联席会（乘联会）是中国领先的汽车行业数据发布机构，每月发布乘用车零售和批发销量数据。乘联会是中国新能源汽车市场数据的核心来源，提供品牌销量排名、市场份额分析及行业趋势报告。"
+      },
+      "website": "https://www.cpcaauto.com",
+      "data_url": "https://www.cpcaauto.com/newslist.php?types=csjd",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "domains": [
+        "automotive",
+        "new-energy-vehicles",
+        "transportation"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "CPCA",
+        "乘联会",
+        "乘用车",
+        "passenger-car",
+        "汽车销量",
+        "新能源汽车",
+        "NEV",
+        "电动车",
+        "EV",
+        "汽车市场",
+        "销量排名",
+        "market-share",
+        "auto-sales"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly Retail Sales - Passenger vehicle retail sales data by brand, segment, and powertrain type",
+          "Wholesale Sales Data - Factory wholesale delivery volumes for passenger car manufacturers",
+          "NEV Market Data - New energy vehicle sales, market penetration rates, and technology mix (BEV/PHEV)",
+          "Export Statistics - Chinese passenger car export volumes by brand and destination",
+          "Market Analysis Reports - Industry trend analysis, market forecasts, and policy impact assessments"
+        ],
+        "zh": [
+          "月度零售销量 - 按品牌、细分市场及动力类型的乘用车零售销量数据",
+          "批发销量数据 - 乘用车厂商批发交付量",
+          "新能源汽车数据 - 新能源车销量、市场渗透率及技术结构（纯电/插混）",
+          "出口统计 - 中国乘用车按品牌和目的地的出口量",
+          "市场分析报告 - 行业趋势分析、市场预测及政策影响评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/automotive/china-passenger-car-association.json"
     },
     {
       "id": "china-acfic",
@@ -3119,6 +3561,89 @@
       "api_url": null,
       "has_api": false,
       "file_path": "china/economy/china-mct.json"
+    },
+    {
+      "id": "china-miit-sme",
+      "name": {
+        "en": "China Center for Promotion of SME Development (MIIT)",
+        "zh": "中国中小企业发展促进中心（工业和信息化部中小企业发展促进中心）"
+      },
+      "description": {
+        "en": "The China Center for Promotion of SME Development, directly subordinate to the Ministry of Industry and Information Technology (MIIT), is the central government body responsible for supporting small and medium-sized enterprise (SME) development in China. Established to implement national SME policies, the Center conducts research and analysis on SME development trends, tracks SME operational data, manages SME-related public service platforms, and provides policy advisory, financing support, innovation promotion, and international cooperation services. The Center publishes regular SME development index reports, manages China's national SME information and public service platform, compiles SME statistical data, and coordinates specialized SME programs such as the 'Specialized, Refined, Differentiated, and Innovative' (专精特新) enterprise certification. Its data is critical for understanding the health of China's SME sector which accounts for over 50% of tax revenue, 60% of GDP, 70% of innovation, 80% of employment, and 90% of enterprises nationwide.",
+        "zh": "中国中小企业发展促进中心是工业和信息化部直属事业单位，是负责支持中国中小企业发展的中央政府机构。中心成立的目的是落实国家中小企业政策，开展中小企业发展趋势研究分析，跟踪中小企业经营数据，管理中小企业相关公共服务平台，并提供政策咨询、融资支持、创新促进及国际合作服务。中心定期发布中小企业发展指数报告，管理中国中小企业信息网及公共服务平台，编制中小企业统计数据，并协调“专精特新”企业认定等专项中小企业计划。其数据对了解占全国50%以上税收、60%以上GDP、70%以上创新、80%以上就业和90%以上企业数量的中小企业部门健康状况至关重要。"
+      },
+      "website": "https://www.chinasme.org.cn/",
+      "data_url": "https://www.chinasme.org.cn/html/mcms/daohang/tongzhigonggao/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "business",
+        "governance",
+        "statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国中小企业发展促进中心",
+        "China SME Development Center",
+        "工业和信息化部",
+        "MIIT",
+        "中小企业",
+        "SME",
+        "small and medium enterprises",
+        "专精特新",
+        "specialized refined differentiated innovative",
+        "中小企业发展指数",
+        "SME development index",
+        "中小企业政策",
+        "SME policy",
+        "中小企业融资",
+        "SME financing",
+        "企业创新",
+        "enterprise innovation",
+        "公共服务平台",
+        "public service platform",
+        "企业服务",
+        "enterprise services",
+        "中小企业统计",
+        "SME statistics",
+        "小微企业",
+        "micro and small enterprises",
+        "创业创新",
+        "entrepreneurship and innovation",
+        "制造业中小企业",
+        "manufacturing SMEs"
+      ],
+      "data_content": {
+        "en": [
+          "SME development index: quarterly composite index tracking SME operating conditions across sectors including market demand, profitability, costs, financing, and confidence",
+          "SME statistical data: aggregated statistics on SME count, employment, revenue, value added, by industry and region",
+          "Specialized and sophisticated SMEs ('Little Giants') database: certified lists of 'Specialized, Refined, Differentiated, and Innovative' (专精特新) enterprises at national and provincial levels",
+          "SME policy documents: national and local policy announcements on SME taxation, financing, innovation, digital transformation",
+          "Financing service data: SME credit and loan statistics, guarantee data, direct financing trends",
+          "SME public service platform data: resources from the national SME information network covering training, consulting, technology transfer",
+          "Sectoral analysis reports: industry-specific SME development trends in manufacturing, services, and emerging industries",
+          "International cooperation projects: SME cooperation programs with EU, ASEAN, Japan, Korea, and Belt and Road countries",
+          "Enterprise service center directory: nationwide network of SME service organizations and their capabilities",
+          "Conference and exhibition data: China International SME Expo and related event information"
+        ],
+        "zh": [
+          "中小企业发展指数：跟踪中小企业经营状况的季度综合指数，涵盖市场需求、盈利能力、成本、融资及信心等维度",
+          "中小企业统计数据：分行业、分地区的中小企业数量、就业、营收、增加值等汇总统计",
+          "专精特新\"小巨人\"企业数据库：国家级和省级“专精特新”企业认定名单",
+          "中小企业政策文件：国家和地方关于中小企业税收、融资、创新、数字化转型的政策公告",
+          "融资服务数据：中小企业信贷及贷款统计、担保数据、直接融资趋势",
+          "中小企业公共服务平台数据：国家中小企业信息网资源，涵盖培训、咨询、技术转让",
+          "行业分析报告：制造业、服务业及新兴产业中小企业发展趋势研究",
+          "国际合作项目：与欧盟、东盟、日本、韩国及一带一路国家的中小企业合作计划",
+          "企业服务中心目录：全国中小企业服务机构网络及其服务能力",
+          "会议展览数据：中国国际中小企业博览会及相关活动信息"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/china-miit-sme.json"
     },
     {
       "id": "china-cansi",
@@ -4223,6 +4748,73 @@
       "file_path": "china/economy/labor/china-mohrss.json"
     },
     {
+      "id": "china-shenzhen-hrss",
+      "name": {
+        "en": "Shenzhen Municipal Human Resources and Social Security Bureau",
+        "zh": "深圳市人力资源和社会保障局"
+      },
+      "description": {
+        "en": "The Shenzhen Municipal Human Resources and Social Security Bureau is the city government agency responsible for employment, labor market regulation, social insurance, and talent policies in Shenzhen. As China's leading technology hub, Shenzhen's labor market data provides key insights into high-tech talent demand, salary trends, and employment dynamics. The bureau publishes labor market wage guidance prices, employment statistics, social insurance participation data, work injury compensation standards, and talent introduction policies. Its data is particularly valuable for understanding employment patterns in China's innovation economy and the Greater Bay Area labor market.",
+        "zh": "深圳市人力资源和社会保障局是负责深圳市就业、劳动力市场管理、社会保险和人才政策的市级政府部门。深圳作为中国领先的科技创新中心，其劳动力市场数据为了解高科技人才需求、薪资趋势和就业动态提供了重要洞察。该局发布劳动力市场工资指导价位、就业统计数据、社会保险参保数据、工伤赔偿标准和人才引进政策等信息，其数据对了解中国创新经济就业模式和粤港澳大湾区劳动力市场具有重要参考价值。"
+      },
+      "website": "https://hrss.sz.gov.cn",
+      "data_url": "https://hrss.sz.gov.cn/xxgk/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "employment",
+        "social-security",
+        "labor"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "深圳人力资源",
+        "Shenzhen human resources",
+        "深圳就业",
+        "Shenzhen employment",
+        "深圳社保",
+        "Shenzhen social security",
+        "工资指导价",
+        "wage guidance",
+        "劳动力市场",
+        "labor market",
+        "人才引进",
+        "talent introduction",
+        "社会保险",
+        "social insurance",
+        "最低工资",
+        "minimum wage",
+        "深圳薪资",
+        "Shenzhen salary",
+        "粤港澳大湾区",
+        "Greater Bay Area"
+      ],
+      "data_content": {
+        "en": [
+          "Wage guidance: annual labor market wage guidance prices by occupation, industry, and education level",
+          "Employment statistics: employment and unemployment statistics, job market supply and demand data",
+          "Social insurance: participation numbers and contribution rates for pension, medical, unemployment, work injury, and maternity insurance",
+          "Talent policies: talent introduction quotas, high-level talent recognition data, and overseas returnee employment statistics",
+          "Labor relations: labor dispute arbitration case statistics, collective contract coverage data",
+          "Vocational training: skills training program enrollment, certification pass rates, and vocational qualification data",
+          "Minimum wage standards: annual minimum wage adjustments and compliance data"
+        ],
+        "zh": [
+          "工资指导：按职业、行业和学历分类的年度劳动力市场工资指导价位",
+          "就业统计：就业和失业统计数据、人才市场供求信息",
+          "社会保险：养老、医疗、失业、工伤和生育保险参保人数及缴费比例",
+          "人才政策：人才引进配额、高层次人才认定数据和海归就业统计",
+          "劳动关系：劳动争议仲裁案件统计、集体合同覆盖数据",
+          "职业培训：技能培训项目招生、认证通过率和职业资格数据",
+          "最低工资标准：年度最低工资调整及执行数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/labor/china-shenzhen-hrss.json"
+    },
+    {
       "id": "china-cei",
       "name": {
         "en": "China Economic Information Service",
@@ -4447,6 +5039,56 @@
       },
       "has_api": false,
       "file_path": "china/economy/macro/china-sasac.json"
+    },
+    {
+      "id": "china-shenzhen-drc",
+      "name": {
+        "en": "Shenzhen Municipal Development and Reform Commission",
+        "zh": "深圳市发展和改革委员会"
+      },
+      "description": {
+        "en": "The Shenzhen Municipal Development and Reform Commission is the local government authority responsible for economic and social development planning, macroeconomic regulation, price monitoring, and investment project management in Shenzhen. It publishes economic development plans, price monitoring data, major project approvals, industrial policy documents, and socioeconomic development reports for one of China's leading innovation hubs and special economic zones.",
+        "zh": "深圳市发展和改革委员会是深圳市负责经济和社会发展规划、宏观经济调控、价格监测和投资项目管理的地方政府部门。发布经济发展规划、价格监测数据、重大项目审批、产业政策文件和社会经济发展报告，是中国领先的创新中心和经济特区的权威数据来源。"
+      },
+      "website": "http://fgw.sz.gov.cn",
+      "data_url": "http://fgw.sz.gov.cn/zwgk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "economics",
+        "development-planning",
+        "price-monitoring"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "monthly",
+      "tags": [
+        "shenzhen",
+        "development",
+        "reform",
+        "economics",
+        "planning"
+      ],
+      "data_content": {
+        "en": [
+          "Economic Development Plans - Five-year plans and annual economic development targets for Shenzhen",
+          "Price Monitoring Data - Consumer price index monitoring and commodity price data",
+          "Investment Project Approvals - Major fixed asset investment project review and approval records",
+          "Industrial Policies - Strategic emerging industry development policies and support measures",
+          "Socioeconomic Development Reports - Annual national economic and social development statistical bulletins",
+          "Energy and Resource Management - Energy consumption targets and resource allocation plans"
+        ],
+        "zh": [
+          "经济发展规划 - 深圳市五年规划和年度经济发展目标",
+          "价格监测数据 - 居民消费价格指数监测和商品价格数据",
+          "投资项目审批 - 重大固定资产投资项目审核和审批记录",
+          "产业政策 - 战略性新兴产业发展政策和扶持措施",
+          "社会经济发展报告 - 年度国民经济和社会发展统计公报",
+          "能源资源管理 - 能源消费目标和资源配置计划"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-shenzhen-drc.json"
     },
     {
       "id": "china-sic",
@@ -4853,6 +5495,56 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/economy/market/china-samr.json"
+    },
+    {
+      "id": "china-shenzhen-prtc",
+      "name": {
+        "en": "Shenzhen Public Resource Trading Center",
+        "zh": "深圳市公共资源交易中心"
+      },
+      "description": {
+        "en": "The Shenzhen Public Resource Trading Center is the municipal government platform for unified public resource transactions in Shenzhen. It provides centralized data on government procurement, construction project bidding, land use rights auctions, state-owned asset transfers, and pharmaceutical procurement. As a key transparency platform for one of China's largest municipal economies, it publishes real-time transaction records, bidding results, and procurement announcements across all categories of public resource trading.",
+        "zh": "深圳市公共资源交易中心是深圳市公共资源统一交易的市级政府平台。提供政府采购、建设工程招投标、土地使用权出让、国有资产转让和药品采购等集中交易数据。作为中国最大城市经济体之一的透明交易平台，发布各类公共资源交易的实时成交记录、中标结果和采购公告。"
+      },
+      "website": "https://www.szggzy.com",
+      "data_url": "https://www.szggzy.com/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "government-procurement",
+        "public-resource-trading",
+        "real-estate"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "daily",
+      "tags": [
+        "shenzhen",
+        "public-resource",
+        "procurement",
+        "bidding",
+        "land-auction"
+      ],
+      "data_content": {
+        "en": [
+          "Government Procurement - Centralized government procurement bidding and results",
+          "Construction Project Bidding - Public construction project tender announcements and awards",
+          "Land Use Rights Auctions - Land parcel auction records including prices and conditions",
+          "State-Owned Asset Transfers - SOE asset disposal transactions and transfer records",
+          "Pharmaceutical Procurement - Drug and medical device centralized procurement data",
+          "Transaction Statistics - Aggregate trading volume and value statistics by category"
+        ],
+        "zh": [
+          "政府采购 - 集中政府采购招标和中标结果",
+          "建设工程招投标 - 公共建设项目招标公告和中标公告",
+          "土地使用权出让 - 土地出让成交记录包括价格和条件",
+          "国有资产转让 - 国有企业资产处置和转让记录",
+          "药品采购 - 药品和医疗器械集中采购数据",
+          "交易统计 - 按类别汇总的交易数量和金额统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/market/china-shenzhen-prtc.json"
     },
     {
       "id": "china-ah-stats",
@@ -7051,6 +7743,68 @@
       "file_path": "china/economy/provincial/china-shanghai-stats.json"
     },
     {
+      "id": "china-shenzhen-open-data",
+      "name": {
+        "en": "Shenzhen Open Data Platform",
+        "zh": "深圳市政府数据开放平台"
+      },
+      "description": {
+        "en": "The Shenzhen Open Data Platform is the official government open data portal of Shenzhen, providing machine-readable datasets across a wide range of domains including economy, transportation, urban management, public services, healthcare, and education. As one of China's most advanced municipal open data initiatives, the platform offers structured data downloads, API access, and data visualization tools. It covers datasets from over 40 Shenzhen government departments and public institutions, enabling data-driven research and application development. The platform is distinct from the Shenzhen Bureau of Statistics by focusing on granular, machine-readable datasets rather than aggregated statistical reports.",
+        "zh": "深圳市政府数据开放平台是深圳市官方政府数据开放门户，提供覆盖经济、交通、城市管理、公共服务、医疗卫生、教育等多领域的机器可读数据集。作为中国最先进的市级政府数据开放平台之一，该平台提供结构化数据下载、API接口和数据可视化工具，汇集了深圳市40余个政府部门和公共机构的数据集，支持数据驱动的研究和应用开发。该平台与深圳市统计局的区别在于侧重提供细粒度、机器可读的原始数据集，而非汇总统计报告。"
+      },
+      "website": "https://opendata.sz.gov.cn",
+      "data_url": "https://opendata.sz.gov.cn/data/dataSet/toDataList",
+      "api_url": "https://opendata.sz.gov.cn/doc/share/api_guide.html",
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "economics",
+        "transportation",
+        "urban-management",
+        "public-services",
+        "healthcare",
+        "education"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "shenzhen-open-data",
+        "government-open-data",
+        "shenzhen-api",
+        "machine-readable-data",
+        "shenzhen-municipal-government",
+        "datasets",
+        "urban-data",
+        "public-data",
+        "greater-bay-area",
+        "shenzhen-transportation-data"
+      ],
+      "data_content": {
+        "en": [
+          "Economic data: enterprise registration, business environment indicators, and economic activity datasets",
+          "Transportation: real-time and historical public transit, traffic flow, and parking data",
+          "Urban management: city infrastructure, environmental monitoring, and municipal services data",
+          "Public services: government service usage, public facility distribution, and community data",
+          "Healthcare: medical facility distribution, public health monitoring datasets",
+          "Education: school distribution, enrollment statistics, and educational resource data",
+          "Land and housing: land use, real estate transactions, and urban planning datasets",
+          "Environmental data: air quality, water quality, and green space monitoring data"
+        ],
+        "zh": [
+          "经济数据：企业注册登记、营商环境指标及经济活动数据集",
+          "交通数据：公共交通实时及历史数据、交通流量及停车数据",
+          "城市管理：城市基础设施、环境监测及市政服务数据",
+          "公共服务：政务服务使用、公共设施分布及社区数据",
+          "医疗卫生：医疗机构分布、公共卫生监测数据集",
+          "教育数据：学校分布、招生统计及教育资源数据",
+          "土地与住房：土地利用、房地产交易及城市规划数据集",
+          "环境数据：空气质量、水质及绿化监测数据"
+        ]
+      },
+      "has_api": true,
+      "file_path": "china/economy/provincial/china-shenzhen-open-data.json"
+    },
+    {
       "id": "china-shenzhen-stats",
       "name": {
         "en": "Shenzhen Bureau of Statistics",
@@ -8693,6 +9447,55 @@
       "file_path": "china/economy/trade/mofcom.json"
     },
     {
+      "id": "china-csdp",
+      "name": {
+        "en": "China School Development Planning Center",
+        "zh": "教育部学校规划建设发展中心"
+      },
+      "description": {
+        "en": "The China School Development Planning Center (CSDP), under China's Ministry of Education, is responsible for planning, policy research, and development of China's school infrastructure. It publishes data and reports on educational facility construction, school development planning standards, campus sustainability, smart campus initiatives, and education infrastructure investment across the country.",
+        "zh": "教育部学校规划建设发展中心（CSDP）隶属于教育部，负责全国学校基础设施的规划、政策研究与发展工作，发布教育设施建设、学校发展规划标准、校园可持续发展、智慧校园及全国教育基础设施投资等方面的数据与报告。"
+      },
+      "website": "https://www.csdp.edu.cn",
+      "data_url": "https://www.csdp.edu.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "education",
+        "infrastructure",
+        "government"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "education",
+        "school-planning",
+        "education-infrastructure"
+      ],
+      "data_content": {
+        "en": [
+          "School Construction Statistics - Data on new school construction, renovation, and facility upgrades nationwide",
+          "Campus Planning Standards - National standards for school infrastructure and space planning",
+          "Smart Campus Initiative - Progress reports on digital transformation in Chinese schools",
+          "Education Infrastructure Investment - Annual investment data in school facilities by province",
+          "Sustainability Reports - Green campus construction and energy-saving benchmarks",
+          "Research Reports - Policy research on school development planning and quality standards"
+        ],
+        "zh": [
+          "学校建设统计 - 全国新建、改建及设施升级数据",
+          "校园规划标准 - 学校基础设施与空间规划国家标准",
+          "智慧校园建设 - 中国学校数字化转型进展报告",
+          "教育基础设施投资 - 各省学校设施年度投资数据",
+          "可持续发展报告 - 绿色校园建设与节能标准",
+          "研究报告 - 学校发展规划与质量标准政策研究"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/education/china-csdp.json"
+    },
+    {
       "id": "china-nlc",
       "name": {
         "en": "National Library of China",
@@ -10306,6 +11109,60 @@
       "file_path": "china/finance/capital-markets/china-shfe.json"
     },
     {
+      "id": "china-beijing-stock-exchange",
+      "name": {
+        "en": "Beijing Stock Exchange",
+        "zh": "北京证券交易所"
+      },
+      "description": {
+        "en": "The Beijing Stock Exchange (BSE) is China's newest national securities exchange, established in 2021. It focuses on serving innovative small and medium-sized enterprises (SMEs), particularly 'specialized, refined, distinctive and innovative' (专精特新) companies. BSE provides market data, listing information, disclosure documents, and trading statistics for its listed companies.",
+        "zh": "北京证券交易所（北交所）是中国最新设立的全国性证券交易所，成立于2021年。北交所定位于服务创新型中小企业，特别是「专精特新」企业。提供上市公司行情数据、上市信息、信息披露文件及交易统计数据。"
+      },
+      "website": "https://www.bse.cn",
+      "data_url": "https://www.bse.cn/market_data.html",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "securities",
+        "capital-markets"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "real-time",
+      "tags": [
+        "beijing-stock-exchange",
+        "北交所",
+        "BSE",
+        "专精特新",
+        "sme",
+        "中小企业",
+        "新三板",
+        "股票",
+        "证券交易所",
+        "上市公司",
+        "market-data"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time Market Data - Stock prices, trading volumes, and market indices for BSE-listed companies",
+          "Listing Information - IPO prospectuses, listing applications, and company profiles",
+          "Disclosure Documents - Annual reports, interim reports, and ad-hoc announcements",
+          "Trading Statistics - Daily, weekly, and monthly trading summaries and market statistics",
+          "Regulatory Information - Trading rules, listing standards, and regulatory guidelines"
+        ],
+        "zh": [
+          "实时行情数据 - 北交所上市公司股票价格、成交量及市场指数",
+          "上市信息 - IPO招股说明书、上市申请及公司简介",
+          "信息披露文件 - 年报、中期报告及临时公告",
+          "交易统计 - 每日、每周及每月交易汇总和市场统计",
+          "监管信息 - 交易规则、上市标准及监管指引"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-beijing-stock-exchange.json"
+    },
+    {
       "id": "china-cicpa",
       "name": {
         "en": "Chinese Institute of Certified Public Accountants",
@@ -10378,6 +11235,64 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-cicpa.json"
+    },
+    {
+      "id": "china-csi-index",
+      "name": {
+        "en": "China Securities Index Co., Ltd.",
+        "zh": "中证指数有限公司"
+      },
+      "description": {
+        "en": "China Securities Index Co., Ltd. (CSI) is a joint venture between the Shanghai Stock Exchange and the Shenzhen Stock Exchange. It is China's primary index provider, responsible for developing and maintaining major market indices including the CSI 300, CSI 500, CSI 1000, and hundreds of thematic and strategy indices. CSI provides index data, methodology documentation, and ESG ratings.",
+        "zh": "中证指数有限公司（中证指数）由上海证券交易所和深圳证券交易所共同出资成立，是中国主要的指数编制机构。负责编制和维护沪深300、中证500、中证1000等核心市场指数以及数百个主题和策略指数，提供指数数据、编制方案及ESG评价服务。"
+      },
+      "website": "https://www.csindex.com.cn",
+      "data_url": "https://www.csindex.com.cn/#/indices/family/list",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "indices",
+        "securities",
+        "esg"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "csi",
+        "中证指数",
+        "CSI 300",
+        "沪深300",
+        "CSI 500",
+        "中证500",
+        "CSI 1000",
+        "中证1000",
+        "指数",
+        "index",
+        "股票指数",
+        "市场基准",
+        "benchmark",
+        "ESG评价"
+      ],
+      "data_content": {
+        "en": [
+          "Index Data - Real-time and historical data for all CSI indices including price, total return, and net return versions",
+          "Index Constituents - Current and historical constituent lists for all indices with weighting information",
+          "Index Methodology - Detailed methodology documents for each index family",
+          "ESG Ratings - ESG evaluation data for listed companies",
+          "Thematic Indices - Specialized indices covering sectors, themes, strategies, and smart beta approaches"
+        ],
+        "zh": [
+          "指数数据 - 所有中证指数的实时和历史数据，包括价格、全收益和净收益版本",
+          "指数成份股 - 所有指数的当前及历史成份股名单与权重信息",
+          "指数编制方案 - 各指数系列的详细编制方法文档",
+          "ESG评价 - 上市公司ESG评价数据",
+          "主题指数 - 覆盖行业、主题、策略及Smart Beta的专业指数"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-csi-index.json"
     },
     {
       "id": "china-csrc-futures",
@@ -10496,6 +11411,80 @@
       "file_path": "china/finance/china-iac.json"
     },
     {
+      "id": "china-iamac",
+      "name": {
+        "en": "China Association of Banking and Insurance Asset Management",
+        "zh": "中国银行保险资产管理业协会"
+      },
+      "description": {
+        "en": "The China Association of Banking and Insurance Asset Management (IAMAC) is a national industry self-regulatory organization established in 2021 under the supervision of the National Financial Regulatory Administration (NFRA, formerly CBIRC). IAMAC represents and serves wealth management subsidiaries of commercial banks, insurance asset management companies, and related financial institutions engaged in asset management business in China. The association publishes industry statistical reports, research white papers, regulatory compliance guidelines, and market data on China's banking and insurance asset management sector. IAMAC maintains data on the scale, structure, and performance of wealth management products (理财产品), insurance asset management products, and the aggregate asset management business across its member institutions. It is a key source for understanding the structure and development of China's non-securities asset management industry, which manages over 60 trillion yuan in assets.",
+        "zh": "中国银行保险资产管理业协会（IAMAC）成立于2021年，是在国家金融监督管理总局（原银保监会）监督指导下成立的全国性行业自律组织。协会代表并服务于商业银行理财子公司、保险资产管理公司及从事资产管理业务的相关金融机构。协会发布行业统计报告、研究白皮书、监管合规指引和中国银行保险资产管理行业市场数据。IAMAC维护会员机构理财产品、保险资管产品及资产管理业务总体规模、结构和绩效数据，是了解中国非证券类资产管理行业结构和发展的重要数据来源，该行业管理资产规模超60万亿元人民币。"
+      },
+      "website": "https://www.iamac.org.cn",
+      "data_url": "https://www.iamac.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "中国银行保险资产管理业协会",
+        "IAMAC",
+        "银行理财",
+        "bank wealth management",
+        "理财子公司",
+        "wealth management subsidiary",
+        "保险资产管理",
+        "insurance asset management",
+        "资产管理",
+        "asset management",
+        "理财产品",
+        "wealth management products",
+        "国家金融监督管理总局",
+        "NFRA",
+        "CBIRC",
+        "银保监会",
+        "行业统计",
+        "industry statistics",
+        "自律组织",
+        "self-regulatory organization",
+        "资管新规",
+        "asset management regulation",
+        "净值型产品",
+        "net asset value products",
+        "信托",
+        "trust",
+        "债券投资",
+        "bond investment",
+        "非标资产",
+        "non-standard assets"
+      ],
+      "data_content": {
+        "en": [
+          "Banking wealth management industry statistics: quarterly and annual reports on the total scale of wealth management products issued by commercial banks and their wealth management subsidiaries, including product type breakdown (fixed-income, equity, mixed), maturity structure, and investor categories",
+          "Insurance asset management industry data: aggregate data on insurance funds allocation across different asset classes (bonds, equities, real estate, alternative investments), investment returns, and risk exposure of insurance asset management companies",
+          "Market research white papers: in-depth industry research reports covering market development trends, regulatory impact analysis, product innovation, ESG investment in asset management, and cross-border investment data for the banking and insurance asset management sector",
+          "Regulatory compliance guidelines: industry self-regulatory guidelines, business conduct standards, and compliance reference materials for member institutions on wealth management product design, risk disclosure, investor suitability assessment, and information disclosure",
+          "Product registration and information disclosure data: aggregated data from the industry product registration system covering issuance scale, product performance, fee structures, and underlying asset information for bank wealth management and insurance asset management products",
+          "Investor structure and behavior data: analysis of wealth management product investor profiles, investment preferences, risk tolerance distribution, and market trends in Chinese retail and institutional investor participation in the non-securities asset management market"
+        ],
+        "zh": [
+          "银行理财行业统计：商业银行及其理财子公司发行理财产品总规模季度和年度报告，包括产品类型细分（固收类、权益类、混合类）、期限结构和投资者类别",
+          "保险资管行业数据：保险资金在不同资产类别（债券、股票、房地产、另类投资）的配置总量数据、投资收益和保险资产管理公司风险敞口",
+          "市场研究白皮书：涵盖市场发展趋势、监管影响分析、产品创新、资管领域ESG投资和银行保险资产管理跨境投资数据的深度行业研究报告",
+          "监管合规指引：理财产品设计、风险信息披露、投资者适当性评估和信息公示方面的行业自律指引、业务行为准则和会员机构合规参考材料",
+          "产品登记和信息披露数据：行业产品登记系统汇总数据，涵盖银行理财和保险资管产品的发行规模、产品业绩、费率结构和底层资产信息",
+          "投资者结构和行为数据：中国零售和机构投资者参与非证券类资产管理市场的理财产品投资者画像、投资偏好、风险承受分布和市场趋势分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-iamac.json"
+    },
+    {
       "id": "china-nifd",
       "name": {
         "en": "National Institution for Finance and Development",
@@ -10583,6 +11572,133 @@
       "file_path": "china/finance/china-payment-clearing.json"
     },
     {
+      "id": "china-shanghai-clearing-house",
+      "name": {
+        "en": "Shanghai Clearing House",
+        "zh": "上海清算所"
+      },
+      "description": {
+        "en": "Shanghai Clearing House (SHCH) is a national financial market infrastructure institution established with the approval of the State Council of China. It provides central counterparty clearing, information disclosure, and data services for China's interbank market, covering bonds, interest rate derivatives, foreign exchange derivatives, and commodity derivatives.",
+        "zh": "上海清算所是经国务院批准设立的国家级金融市场基础设施，为中国银行间市场提供中央对手方清算、信息披露和数据服务，覆盖债券、利率衍生品、外汇衍生品和大宗商品衍生品等产品。"
+      },
+      "website": "https://www.shclearing.com.cn",
+      "data_url": "https://www.shclearing.com.cn/sjtj/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "domains": [
+        "finance",
+        "bonds",
+        "derivatives",
+        "clearing"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "shanghai-clearing-house",
+        "上海清算所",
+        "SHCH",
+        "中央对手方清算",
+        "CCP",
+        "银行间市场",
+        "interbank-market",
+        "债券",
+        "bonds",
+        "利率衍生品",
+        "外汇衍生品",
+        "清算",
+        "clearing"
+      ],
+      "data_content": {
+        "en": [
+          "Clearing Statistics - Daily clearing volumes, open interest, and settlement data for various product categories",
+          "Bond Valuation Data - Daily valuation prices for interbank bonds and related instruments",
+          "Interest Rate Curves - Yield curves and benchmark interest rate data",
+          "Market Data Reports - Monthly and annual market statistics and trend analysis",
+          "Product Information - Details on cleared products including bonds, IRS, FX derivatives, and commodity derivatives"
+        ],
+        "zh": [
+          "清算统计 - 各产品类别的每日清算量、持仓量及结算数据",
+          "债券估值数据 - 银行间债券及相关工具的每日估值价格",
+          "利率曲线 - 收益率曲线及基准利率数据",
+          "市场数据报告 - 月度及年度市场统计与趋势分析",
+          "产品信息 - 清算产品详情，包括债券、利率互换、外汇衍生品及大宗商品衍生品"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-shanghai-clearing-house.json"
+    },
+    {
+      "id": "china-shenzhen-jrj",
+      "name": {
+        "en": "Shenzhen Local Financial Supervision and Administration Bureau",
+        "zh": "深圳市地方金融监督管理局"
+      },
+      "description": {
+        "en": "The Shenzhen Local Financial Supervision and Administration Bureau is the municipal government agency responsible for supervising and regulating the local financial industry in Shenzhen, one of China's most important financial centers alongside Shanghai and Hong Kong. The bureau oversees small loan companies, financing guarantee institutions, private equity funds, commercial factoring, financial leasing, and emerging fintech activities. It publishes data on the local financial industry development, fintech innovation, green finance initiatives, and financial risk monitoring. Shenzhen's financial data is particularly relevant for understanding China's fintech ecosystem, venture capital market, and the financial integration of the Greater Bay Area.",
+        "zh": "深圳市地方金融监督管理局是负责监管深圳地方金融业的市级政府部门。深圳与上海、香港并列为中国最重要的金融中心之一，该局负责监管小额贷款公司、融资担保机构、私募基金、商业保理、融资租赁和新兴金融科技业务。发布地方金融业发展数据、金融科技创新、绿色金融和金融风险监测等信息。深圳的金融数据对了解中国金融科技生态、风险投资市场和粤港澳大湾区金融融合具有重要参考价值。"
+      },
+      "website": "https://jr.sz.gov.cn",
+      "data_url": "https://jr.sz.gov.cn/sjrb/xxgk/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "finance",
+        "fintech"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "深圳金融",
+        "Shenzhen finance",
+        "深圳金融监管",
+        "Shenzhen financial supervision",
+        "地方金融",
+        "local finance",
+        "金融科技",
+        "fintech",
+        "小额贷款",
+        "microfinance",
+        "融资担保",
+        "financing guarantee",
+        "私募基金",
+        "private equity",
+        "绿色金融",
+        "green finance",
+        "深圳基金",
+        "Shenzhen fund",
+        "粤港澳大湾区金融",
+        "Greater Bay Area finance",
+        "商业保理",
+        "commercial factoring"
+      ],
+      "data_content": {
+        "en": [
+          "Financial industry overview: annual reports on Shenzhen's local financial industry development, total assets, and revenue",
+          "Microfinance: number of small loan companies, total loan balance, and lending statistics",
+          "Financing guarantee: guarantee institution performance, outstanding guarantee amounts, and risk indicators",
+          "Private equity and venture capital: fund registration statistics, investment amounts, and portfolio data in Shenzhen",
+          "Fintech innovation: fintech enterprise counts, sandbox pilot projects, and digital finance development data",
+          "Green finance: green bond issuance, green credit balances, and sustainable finance statistics",
+          "Financial risk monitoring: non-performing loan ratios, risk event statistics, and regulatory enforcement data",
+          "Cross-border finance: cross-border RMB settlements, QFLP/QDLP pilot data, and Greater Bay Area financial connectivity"
+        ],
+        "zh": [
+          "金融业概况：深圳地方金融业年度发展报告、总资产和营收数据",
+          "小额贷款：小额贷款公司数量、贷款余额和放贷统计",
+          "融资担保：担保机构经营数据、在保余额和风险指标",
+          "私募股权和风险投资：深圳基金备案统计、投资金额和投资组合数据",
+          "金融科技创新：金融科技企业数量、监管沙盒试点项目和数字金融发展数据",
+          "绿色金融：绿色债券发行、绿色信贷余额和可持续金融统计",
+          "金融风险监测：不良贷款率、风险事件统计和监管执法数据",
+          "跨境金融：跨境人民币结算、QFLP/QDLP试点数据和大湾区金融互联互通"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-shenzhen-jrj.json"
+    },
+    {
       "id": "china-trustee-association",
       "name": {
         "en": "China Trustee Association",
@@ -10620,6 +11736,90 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-trustee-association.json"
+    },
+    {
+      "id": "china-xinhua-finance",
+      "name": {
+        "en": "Xinhua Finance - China Financial Information Network",
+        "zh": "新华财经 - 中国金融信息网"
+      },
+      "description": {
+        "en": "Xinhua Finance (中国金融信息网 / cnfin.com) is China's national financial information service platform operated by China Economic Information Service (CEIS), a wholly-owned subsidiary of Xinhua News Agency — China's state-run press agency. As the official financial information service of Xinhua, Xinhua Finance is authorized to deliver authoritative economic and financial data, market analytics, and financial news to domestic and international users. The platform provides real-time coverage of China's bond, equity, commodity, foreign exchange, and money markets; publishes proprietary indices such as the Xinhua Bond Index, Xinhua 08 Financial Data Terminal, and Silk Road Credit Ratings; and distributes exclusive macroeconomic reports, monetary policy analysis, and industry research. Xinhua Finance collaborates with major international financial information providers (e.g., S&P Global, Refinitiv) and serves government agencies, financial institutions, research organizations, and enterprises. It has been designated as an authoritative information dissemination channel for China's financial market opening and Belt and Road financial cooperation.",
+        "zh": "新华财经（中国金融信息网 / cnfin.com）是由新华社全资子公司中国经济信息社运营的国家级金融信息服务平台。作为新华社官方金融信息服务，新华财经被授权向国内外用户提供权威的经济金融数据、市场分析及金融新闻。平台实时报道中国债券、股票、商品、外汇及货币市场；发布新华债券指数、新华08金融数据终端、丝路信用评级等自主指数产品；并发布独家宏观经济报告、货币政策分析及行业研究。新华财经与标普全球、路孚特等国际主流金融信息服务商开展合作，服务对象包括政府部门、金融机构、研究机构及企业。新华财经被指定为中国金融市场开放和“一带一路”金融合作的权威信息发布渠道。"
+      },
+      "website": "https://www.cnfin.com/",
+      "data_url": "https://www.cnfin.com/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "markets",
+        "media"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "新华财经",
+        "Xinhua Finance",
+        "中国金融信息网",
+        "China Financial Information Network",
+        "新华社",
+        "Xinhua News Agency",
+        "中国经济信息社",
+        "CEIS",
+        "金融数据",
+        "financial data",
+        "新华债券指数",
+        "Xinhua Bond Index",
+        "新华08",
+        "Xinhua 08 terminal",
+        "货币政策",
+        "monetary policy",
+        "债券市场",
+        "bond market",
+        "外汇市场",
+        "FX market",
+        "商品市场",
+        "commodity market",
+        "宏观经济",
+        "macroeconomics",
+        "丝路信用",
+        "Silk Road credit ratings",
+        "金融科技",
+        "fintech",
+        "一带一路金融",
+        "Belt and Road finance"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time market data: equity, bond, commodity, FX, and money market prices and trading information for China's major exchanges and interbank markets",
+          "Xinhua Bond Index series: proprietary indices tracking performance of Chinese bond markets including government, financial, corporate, and green bonds",
+          "Xinhua 08 Financial Data Terminal: professional financial data platform for banks, brokerages, funds, and research institutions",
+          "Economic indicators: coverage of PMI, CPI, PPI, GDP, trade, industrial output, and other key Chinese macroeconomic data releases",
+          "Monetary policy and central bank communications: real-time reporting of PBOC and regulator announcements, analysis of policy direction",
+          "Industry research reports: sector analysis covering technology, manufacturing, finance, energy, and emerging industries",
+          "Silk Road credit ratings: credit ratings focused on Belt and Road sovereign and corporate issuers",
+          "Xinhua financial news: authoritative financial journalism with emphasis on China and Asia-Pacific markets",
+          "Green finance and ESG data: Chinese green bond market tracking, ESG disclosures analysis",
+          "International market coverage: global economic and financial news translated and contextualized for Chinese users"
+        ],
+        "zh": [
+          "实时市场数据：中国主要交易所和银行间市场的股票、债券、大宗商品、外汇及货币市场价格与交易信息",
+          "新华债券指数系列：跟踪中国债券市场（含国债、金融债、企业债、绿色债券）表现的自主指数",
+          "新华08金融数据终端：面向银行、证券、基金及研究机构的专业金融数据平台",
+          "经济指标：中国PMI、CPI、PPI、GDP、贸易、工业产出等重要宏观经济数据发布覆盖",
+          "货币政策与央行沟通：中国人民银行及监管机构公告的实时报道，政策方向分析",
+          "行业研究报告：涵盖科技、制造、金融、能源及新兴产业的行业分析",
+          "丝路信用评级：聚焦一带一路主权和企业发行人的信用评级",
+          "新华财经新闻：权威财经新闻报道，侧重中国及亚太市场",
+          "绿色金融与ESG数据：中国绿色债券市场跟踪、ESG信息披露分析",
+          "国际市场报道：全球经济金融新闻的翻译与本地化解读"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-xinhua-finance.json"
     },
     {
       "id": "china-mof",
@@ -11377,6 +12577,67 @@
       "file_path": "china/governance/china-acla.json"
     },
     {
+      "id": "china-bankruptcy-court",
+      "name": {
+        "en": "National Enterprise Bankruptcy and Restructuring Case Information Network",
+        "zh": "全国企业破产重整案件信息网"
+      },
+      "description": {
+        "en": "The National Enterprise Bankruptcy and Restructuring Case Information Network is the official judicial platform operated by the Supreme People's Court of China for disclosing enterprise bankruptcy and restructuring case information. The platform provides public access to bankruptcy case filings, restructuring plans, creditor meeting announcements, administrator appointment records, and case progress updates across all Chinese courts. It serves as the authoritative source for tracking corporate insolvency proceedings in China, supporting creditor protection, investment risk assessment, and legal research on China's evolving bankruptcy regime.",
+        "zh": "全国企业破产重整案件信息网是最高人民法院运营的企业破产重整案件信息公开官方司法平台，提供破产案件立案信息、重整计划、债权人会议公告、管理人任命记录及案件进展等公开数据。该平台是追踪中国企业破产清算及重组程序的权威数据源，为债权人保护、投资风险评估以及中国破产法律制度研究提供数据支持。"
+      },
+      "website": "https://pccz.court.gov.cn",
+      "data_url": "https://pccz.court.gov.cn/pcajxxw/index/xxwsy",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "legal",
+        "finance",
+        "corporate-governance"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "bankruptcy",
+        "restructuring",
+        "enterprise-bankruptcy",
+        "liquidation",
+        "creditor",
+        "supreme-people's-court",
+        "bankruptcy-cases",
+        "corporate-restructuring",
+        "bankruptcy-administrator",
+        "judicial-data",
+        "corporate-credit",
+        "risk-assessment"
+      ],
+      "data_content": {
+        "en": [
+          "Bankruptcy case filings: court acceptance records for enterprise bankruptcy cases nationwide",
+          "Restructuring plans: publicly disclosed restructuring plans and voting results",
+          "Creditor meeting announcements: schedules and agendas for creditor assemblies",
+          "Administrator appointments: designated bankruptcy administrator information and contact details",
+          "Case progress tracking: real-time updates on case stages from filing to closure",
+          "Creditor claims: deadlines and procedures for creditor claim declarations",
+          "Asset disposal: information on bankrupt enterprise asset auctions and dispositions",
+          "Court rulings: key judicial decisions in bankruptcy proceedings"
+        ],
+        "zh": [
+          "破产案件立案：全国企业破产案件的法院受理记录",
+          "重整计划：公开披露的重整计划及表决结果",
+          "债权人会议公告：债权人会议日程安排及议程",
+          "管理人任命：指定破产管理人信息及联系方式",
+          "案件进展追踪：从立案到结案各阶段的实时进展更新",
+          "债权申报：债权人申报债权的截止期限和程序",
+          "资产处置：破产企业资产拍卖及处置信息",
+          "法院裁定：破产程序中的重要司法裁定"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-bankruptcy-court.json"
+    },
+    {
       "id": "china-ccdi",
       "name": {
         "en": "Central Commission for Discipline Inspection of the Communist Party of China",
@@ -11971,6 +13232,74 @@
       "file_path": "china/governance/china-court-execution.json"
     },
     {
+      "id": "china-cppcc",
+      "name": {
+        "en": "Chinese People's Political Consultative Conference",
+        "zh": "中国人民政治协商会议"
+      },
+      "description": {
+        "en": "The Chinese People's Political Consultative Conference (CPPCC) is a key institution of China's political system functioning as the country's main political advisory body. Established in 1949, the CPPCC brings together representatives from political parties, people's organizations, ethnic minorities, and various social sectors to provide political consultation and democratic oversight. The CPPCC National Committee meets annually alongside the National People's Congress in the 'Two Sessions'. It publishes proposals, motion documents, committee reports, and consultative deliberation outcomes across economic, social, cultural, and environmental policy areas. The CPPCC website provides access to official documents, proposals submitted by members, research reports, and proceedings from plenary sessions and standing committee meetings.",
+        "zh": "中国人民政治协商会议（全国政协）是中国政治体系的重要机构，是国家最高政治协商机构。1949年成立，全国政协汇聚各民主党派、人民团体、少数民族和各社会界别代表，履行政治协商、民主监督、参政议政职能。全国政协常委会每年与全国人大共同召开「两会」。全国政协网站提供官方文件、委员提案、研究报告、全体会议及常委会会议纪要，涵盖经济、社会、文化和环境政策等各领域。"
+      },
+      "website": "http://www.cppcc.gov.cn",
+      "data_url": "http://www.cppcc.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "political-science",
+        "social",
+        "economics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "全国政协",
+        "CPPCC",
+        "Chinese People's Political Consultative Conference",
+        "政治协商",
+        "political consultation",
+        "提案",
+        "proposals",
+        "民主监督",
+        "democratic oversight",
+        "参政议政",
+        "两会",
+        "Two Sessions",
+        "政协委员",
+        "committee members",
+        "政协常委会",
+        "standing committee",
+        "政协全体会议",
+        "plenary session",
+        "政协报告",
+        "CPPCC reports"
+      ],
+      "data_content": {
+        "en": [
+          "CPPCC member proposals: formal policy proposals submitted by committee members across economic, social, cultural, and environmental areas",
+          "Committee reports: annual work reports of the CPPCC National Committee and standing committee",
+          "Plenary session records: proceedings and resolutions from the annual National Committee sessions",
+          "Standing committee meeting documents: records of bimonthly standing committee meetings and deliberations",
+          "Special committee research: investigation and research reports from CPPCC specialized committees on key policy topics",
+          "Democratic oversight documents: feedback and recommendations on implementation of major national policies",
+          "Consultative deliberation outcomes: results of consultative conferences on specific economic and social policy issues"
+        ],
+        "zh": [
+          "全国政协委员提案：委员就经济、社会、文化、环境等领域提交的正式政策建议",
+          "委员会报告：全国政协委员会及常委会年度工作报告",
+          "全体会议记录：全国委员会年度会议的议程及决议",
+          "常委会会议文件：两月一次常委会会议记录及审议结论",
+          "专门委员会研究：政协各专门委员会就重大政策课题开展的调研报告",
+          "民主监督文件：对重大国家政策贯彻落实情况的意见与建议",
+          "协商座谈成果：就具体经济社会政策议题召开协商座谈会的成果文件"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cppcc.json"
+    },
+    {
       "id": "china-cqc",
       "name": {
         "en": "China Quality Certification Centre",
@@ -12048,6 +13377,83 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-cqc.json"
+    },
+    {
+      "id": "china-ggzy",
+      "name": {
+        "en": "China National Public Resources Trading Platform",
+        "zh": "全国公共资源交易平台"
+      },
+      "description": {
+        "en": "The China National Public Resources Trading Platform (GGZY, 全国公共资源交易平台) is the authoritative national government portal for public resources trading, administered by the National Development and Reform Commission (NDRC) in conjunction with the State Administration for Market Regulation and other central agencies. The platform aggregates and discloses transaction data from public resource auctions and procurements across China, including engineering construction project bidding, government procurement, state-owned property rights and assets transfers, mineral rights auctions, and other public resource trading activities. As the designated national unified trading service platform mandated by the State Council, GGZY provides comprehensive transparency data on public resource market transactions, bidding results, contract awards, and participant information, making it the primary reference for public procurement market analysis, anti-corruption monitoring, and policy evaluation in China.",
+        "zh": "全国公共资源交易平台（GGZY）是国家发展和改革委员会联合市场监管总局等中央机构主管的权威国家政府门户，专门用于公共资源交易公示。平台汇聚并公开全国公共资源拍卖和采购的交易数据，涵盖工程建设项目招标、政府采购、国有产权及资产转让、矿业权拍卖及其他公共资源交易活动。作为国务院指定的国家统一交易服务平台，GGZY提供公共资源市场交易、招标结果、合同授予和参与方信息的全面公示数据，是中国公共采购市场分析、廉政监察和政策评估的主要数据来源。"
+      },
+      "website": "https://www.ggzy.gov.cn/",
+      "data_url": "https://www.ggzy.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "economics",
+        "finance"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "全国公共资源交易平台",
+        "GGZY",
+        "public resources trading",
+        "公共资源交易",
+        "政府采购",
+        "government procurement",
+        "工程招标",
+        "engineering bidding",
+        "招投标",
+        "bid tendering",
+        "国有资产",
+        "state-owned assets",
+        "产权交易",
+        "property rights trading",
+        "矿业权",
+        "mineral rights",
+        "国家发展改革委",
+        "NDRC",
+        "透明度",
+        "transparency",
+        "反腐",
+        "anti-corruption",
+        "合同授予",
+        "contract award",
+        "采购公告",
+        "procurement announcement",
+        "中标结果",
+        "bid results"
+      ],
+      "data_content": {
+        "en": [
+          "Engineering construction project bidding: bid notices, bid results, and contract award announcements for infrastructure and construction projects across all provinces",
+          "Government procurement: procurement announcements, evaluation results, and contract awards for goods, services, and works purchased by government entities",
+          "State-owned property rights transfers: listings and transaction results for state-owned enterprises and assets transferred through public trading processes",
+          "Mineral rights auctions: auction notices and results for exploration and mining rights across coal, metals, oil and gas, and other minerals",
+          "Land use rights trading: public land auction results and transaction data (linked to land market)",
+          "Market participant information: bidder registration data, qualification records, and performance history for companies participating in public resource transactions",
+          "Transaction volume statistics: aggregate data on total public resource trading volume, deal counts, and market activity by region and sector",
+          "Supervision and compliance data: records of bidding irregularities, debarment decisions, and compliance enforcement actions"
+        ],
+        "zh": [
+          "工程建设项目招标：全国各省基础设施和建设项目的招标公告、招标结果及合同授予公示",
+          "政府采购：政府实体采购货物、服务和工程的采购公告、评标结果和合同授予公示",
+          "国有产权转让：通过公开交易流程转让的国有企业和国有资产挂牌信息及成交结果",
+          "矿业权拍卖：煤炭、金属、油气及其他矿产探矿权和采矿权的拍卖公告及成交结果",
+          "土地使用权交易：公开土地拍卖结果和交易数据（与土地市场联通）",
+          "市场主体信息：参与公共资源交易企业的投标人登记数据、资质记录和履约历史",
+          "交易量统计：按地区和行业分类的公共资源交易总量、成交笔数和市场活跃度汇总数据",
+          "监督与合规数据：串标违规记录、不良行为认定及合规执法措施记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-ggzy.json"
     },
     {
       "id": "china-mem",
@@ -12701,6 +14107,86 @@
       "file_path": "china/governance/china-nia.json"
     },
     {
+      "id": "china-nnsa",
+      "name": {
+        "en": "National Nuclear Safety Administration",
+        "zh": "国家核安全局"
+      },
+      "description": {
+        "en": "The National Nuclear Safety Administration (NNSA) of China is the national regulatory authority responsible for the safety supervision and management of nuclear and radiation safety, operating as a functional department under the Ministry of Ecology and Environment (MEE). Established in 1984, NNSA regulates the licensing, construction, operation, and decommissioning of nuclear power plants, research reactors, nuclear fuel cycle facilities, and radioactive waste management facilities across China. NNSA publishes China's nuclear safety regulations, technical guidelines, licensing decisions, and annual nuclear safety reports. It maintains registries of licensed nuclear installations, radiation sources, and radioactive waste repositories, and publishes environmental radiation monitoring data from nuclear facilities. NNSA is China's competent authority under the Convention on Nuclear Safety and cooperates with the International Atomic Energy Agency (IAEA) on nuclear safety standards and peer reviews.",
+        "zh": "国家核安全局（NNSA）是中国负责核与辐射安全监督管理的国家监管机构，作为生态环境部的职能部门运行。NNSA成立于1984年，负责对中国核电站、研究堆、核燃料循环设施和放射性废物管理设施的许可、建设、运行和退役实施监管。国家核安全局发布中国核安全法规、技术导则、许可决定和年度核安全报告，维护持证核设施、放射源和放射性废物库的登记注册，并发布核设施周边环境辐射监测数据。NNSA是《核安全公约》下的中国主管当局，与国际原子能机构（IAEA）在核安全标准和同行评审方面开展合作。"
+      },
+      "website": "http://nnsa.mee.gov.cn",
+      "data_url": "http://nnsa.mee.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "environment",
+        "science",
+        "governance"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家核安全局",
+        "NNSA",
+        "核安全",
+        "nuclear safety",
+        "辐射安全",
+        "radiation safety",
+        "核电站",
+        "nuclear power plant",
+        "核监管",
+        "nuclear regulation",
+        "放射性废物",
+        "radioactive waste",
+        "核燃料",
+        "nuclear fuel",
+        "核许可证",
+        "nuclear license",
+        "环境辐射监测",
+        "environmental radiation monitoring",
+        "核安全法规",
+        "nuclear safety regulations",
+        "核安全导则",
+        "nuclear safety guides",
+        "核设施",
+        "nuclear installations",
+        "放射源",
+        "radiation sources",
+        "生态环境部",
+        "Ministry of Ecology and Environment",
+        "MEE",
+        "IAEA",
+        "核安全公约",
+        "Convention on Nuclear Safety",
+        "研究堆",
+        "research reactor"
+      ],
+      "data_content": {
+        "en": [
+          "Nuclear safety regulations and technical guidelines: comprehensive collection of China's HAF (nuclear safety) regulatory framework documents, technical safety guidelines (HAD series), and regulatory basis documents for nuclear power plants, research reactors, and fuel cycle facilities",
+          "Nuclear facility licensing registry: database of licensed and pending nuclear installations in China, including nuclear power units (operational, under construction, decommissioned), research reactors, uranium processing facilities, and radioactive waste repositories",
+          "Annual nuclear safety reports: comprehensive annual assessment of China's nuclear safety performance, including safety inspection results, events and incidents statistics, radioactive release data, and regulatory enforcement actions",
+          "Environmental radiation monitoring data: radiation dose rate, radioactivity concentration in air, water, and soil from monitoring networks around nuclear power plants and other nuclear facilities, supporting public transparency and safety oversight",
+          "Radiation source and radioactive waste registries: national registries of sealed and unsealed radioactive sources, radiation-emitting devices, and radioactive waste storage facilities subject to regulatory control",
+          "Nuclear event and incident reports: classified and public reports on nuclear and radiological events at Chinese nuclear facilities, including INES-rated incidents, near-misses, and safety-significant events reported under national and international obligations"
+        ],
+        "zh": [
+          "核安全法规和技术导则：中国HAF（核安全）监管框架文件、技术安全导则（HAD系列）和核电站、研究堆、燃料循环设施监管基础文件综合集",
+          "核设施许可证注册库：中国持证和待审核设施数据库，包括核电机组（运行中、在建、退役）、研究堆、铀处理设施和放射性废物库",
+          "年度核安全报告：中国核安全绩效年度综合评估，包括安全检查结果、事件和事故统计、放射性排放数据和监管执法行动",
+          "环境辐射监测数据：核电站和其他核设施周边监测网络的辐射剂量率、空气、水和土壤中放射性活度浓度数据，支持公众透明度和安全监管",
+          "放射源和放射性废物登记注册：国家监管范围内的密封和非密封放射源、辐射装置和放射性废物贮存设施国家注册库",
+          "核事件和事故报告：中国核设施核与辐射事件的分级和公开报告，包括INES评级事件、未遂事件和依据国家及国际义务报告的安全重要事件"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-nnsa.json"
+    },
+    {
       "id": "china-npc-law",
       "name": {
         "en": "National People's Congress Law Database",
@@ -12856,6 +14342,92 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-nrta.json"
+    },
+    {
+      "id": "china-pkulaw",
+      "name": {
+        "en": "PKU Law (Peking University Law Database)",
+        "zh": "北大法宝"
+      },
+      "description": {
+        "en": "PKU Law (Peking University Law, 北大法宝) is China's most comprehensive legal database, operated by the Institute of Legal Information of Peking University Law School. It aggregates the full text of Chinese laws, administrative regulations, judicial interpretations, local regulations, court judgments, legal journals, and legislative history from 1949 to the present. The database covers over 10 million legal documents including all national legislation promulgated by the National People's Congress (NPC), State Council regulations, ministry-level normative documents, provincial and municipal local laws, Supreme People's Court and Supreme People's Procuratorate judicial interpretations, and millions of court verdicts. PKU Law is the authoritative legal reference for legal practitioners, judiciary officials, government agencies, corporations, academic researchers, and law schools across China. The database is continuously updated with new legislative developments and court decisions, making it the primary tool for tracking China's evolving legal framework.",
+        "zh": "北大法宝（北京大学法律信息中心）是中国最权威、最全面的法律数据库，由北京大学法学院法律信息中心运营。数据库收录了1949年至今的中国法律、行政法规、司法解释、地方法规、法院判决、法学期刊及立法历史全文，覆盖超过1000万份法律文件，包括全国人民代表大会颁布的国家立法、国务院法规、部委规范性文件、省市地方法规、最高人民法院和最高人民检察院司法解释，以及数百万份裁判文书。北大法宝是全国法律从业者、司法人员、政府机关、企业法务、学术研究者和法学院校的权威法律参考工具，持续更新最新立法动态和判决信息，是追踪中国法制演进的核心平台。"
+      },
+      "website": "https://www.pkulaw.com/",
+      "data_url": "https://www.pkulaw.com/law",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "law",
+        "policy"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "北大法宝",
+        "PKU Law",
+        "Peking University Law",
+        "中国法律",
+        "Chinese law",
+        "法律数据库",
+        "legal database",
+        "法规",
+        "regulations",
+        "司法解释",
+        "judicial interpretations",
+        "裁判文书",
+        "court judgments",
+        "地方法规",
+        "local regulations",
+        "立法",
+        "legislation",
+        "全国人大",
+        "NPC",
+        "国务院",
+        "State Council",
+        "法学期刊",
+        "legal journals",
+        "法条",
+        "legal provisions",
+        "行政法规",
+        "administrative regulations",
+        "规范性文件",
+        "normative documents",
+        "法律检索",
+        "legal research",
+        "合规",
+        "compliance"
+      ],
+      "data_content": {
+        "en": [
+          "National legislation: full text of all laws enacted by the National People's Congress (NPC) and its Standing Committee from 1949 to present",
+          "Administrative regulations: State Council regulations, implementation rules, and policy documents",
+          "Judicial interpretations: Supreme People's Court and Supreme People's Procuratorate interpretations, guiding cases, and judicial policies",
+          "Local regulations: provincial, municipal, and special economic zone legislation and government rules",
+          "Ministry-level normative documents: departmental regulations and rules from all central government ministries",
+          "Court judgments: millions of civil, criminal, administrative, and commercial court verdicts at all levels",
+          "Legal journals: full text of major Chinese law reviews and legal academic publications",
+          "Legislative history: revision history, explanatory notes, and comparative analysis of legislative changes",
+          "International treaties: treaties and conventions signed and ratified by China",
+          "Legal Q&A and commentary: expert legal analysis and practice guides"
+        ],
+        "zh": [
+          "国家立法：全国人民代表大会及其常委会自1949年至今颁布的所有法律全文",
+          "行政法规：国务院法规、实施细则及政策文件",
+          "司法解释：最高人民法院和最高人民检察院司法解释、指导性案例及司法政策",
+          "地方法规：省级、市级及经济特区立法和政府规章",
+          "部委规范性文件：各中央部委制定的部门规章和规范性文件",
+          "裁判文书：各级法院民事、刑事、行政及商事裁判文书数百万份",
+          "法学期刊：主要中国法学评论和法律学术出版物全文",
+          "立法历史：法规修订历史、立法说明及法律变迁比较分析",
+          "国际条约：中国签署和批准的条约及国际公约",
+          "法律问答与评注：专家法律分析及实务指南"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-pkulaw.json"
     },
     {
       "id": "china-saac",
@@ -13355,6 +14927,54 @@
       },
       "has_api": false,
       "file_path": "china/governance/sports/china-gas.json"
+    },
+    {
+      "id": "china-cacm",
+      "name": {
+        "en": "Chinese Association of Chinese Medicine",
+        "zh": "中华中医药学会"
+      },
+      "description": {
+        "en": "The Chinese Association of Chinese Medicine (CACM) is China's largest national academic organization in the field of traditional Chinese medicine (TCM). Founded in 1979, it publishes clinical guidelines, TCM research standards, disease classification standards, academic journals, and annual reports on the development of traditional Chinese medicine in China.",
+        "zh": "中华中医药学会（CACM）是中国最大的中医药全国性学术团体，成立于1979年。发布中医药临床指南、研究标准、疾病分类标准、学术期刊及中国中医药事业发展年度报告。"
+      },
+      "website": "https://www.cacm.org.cn",
+      "data_url": "https://www.cacm.org.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "health",
+        "research",
+        "social"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "tcm",
+        "traditional-chinese-medicine"
+      ],
+      "data_content": {
+        "en": [
+          "TCM Clinical Guidelines - Evidence-based guidelines for traditional Chinese medicine treatments",
+          "TCM Research Standards - Methodological standards for TCM clinical research",
+          "Disease Classification - TCM-specific disease nomenclature and classification standards",
+          "Annual Development Report - Statistical overview of TCM industry, hospitals, and practitioners",
+          "Academic Journals - Peer-reviewed publications on TCM clinical practice and research",
+          "TCM Education Statistics - Data on TCM universities, graduates, and training programs"
+        ],
+        "zh": [
+          "中医临床指南 - 中医药治疗方案的循证指南",
+          "中医科研标准 - 中医临床研究方法学标准",
+          "疾病分类标准 - 中医特有疾病命名与分类标准",
+          "年度发展报告 - 中医药行业、医院及从业人员统计概况",
+          "学术期刊 - 中医药临床实践与研究同行评审出版物",
+          "中医教育统计 - 中医院校、毕业生及培训项目数据"
+        ]
+      },
+      "authority_level": "research",
+      "has_api": false,
+      "file_path": "china/health/china-cacm.json"
     },
     {
       "id": "china-cacms",
@@ -14423,6 +16043,55 @@
       "file_path": "china/health/china-nphsd.json"
     },
     {
+      "id": "china-ceeia",
+      "name": {
+        "en": "China Electrical Equipment Industry Association",
+        "zh": "中国电器工业协会"
+      },
+      "description": {
+        "en": "The China Electrical Equipment Industry Association (CEEIA) is the national industry organization representing China's electrical equipment manufacturing sector. It publishes comprehensive industry statistics, market analysis reports, production data, export figures, and policy recommendations covering power generation equipment, transmission equipment, industrial motors, household appliances, and energy-efficient products.",
+        "zh": "中国电器工业协会（CEEIA）是代表中国电器制造行业的全国性行业组织，发布涵盖发电设备、输配电设备、工业电机、家用电器及节能产品的行业统计数据、市场分析报告、产量数据、出口数据及政策建议。"
+      },
+      "website": "https://www.ceeia.com",
+      "data_url": "https://www.ceeia.com",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "industry",
+        "energy",
+        "manufacturing"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "electrical-equipment",
+        "manufacturing",
+        "power-equipment"
+      ],
+      "data_content": {
+        "en": [
+          "Electrical Equipment Production Statistics - Monthly and annual output data for major electrical product categories",
+          "Industry Market Analysis - Market size, growth trends, and competitive landscape reports",
+          "Export Data - Electrical equipment export volumes and destination markets",
+          "Energy-Efficiency Standards - Industry benchmarks and compliance data for energy-efficient products",
+          "Power Generation Equipment - Statistics on turbines, generators, and transformer production",
+          "Industry Development Report - Annual overview of China's electrical equipment industry performance"
+        ],
+        "zh": [
+          "电器产品产量统计 - 主要电器品类月度和年度产量数据",
+          "行业市场分析 - 市场规模、增长趋势及竞争格局报告",
+          "出口数据 - 电器设备出口量及目标市场统计",
+          "能效标准 - 节能产品行业基准及合规数据",
+          "发电设备统计 - 汽轮机、发电机及变压器产量数据",
+          "行业发展报告 - 中国电器工业年度发展情况综述"
+        ]
+      },
+      "authority_level": "commercial",
+      "has_api": false,
+      "file_path": "china/industry/china-ceeia.json"
+    },
+    {
       "id": "china-csia",
       "name": {
         "en": "China Semiconductor Industry Association",
@@ -14466,6 +16135,84 @@
       "update_frequency": "quarterly",
       "has_api": false,
       "file_path": "china/industry/china-csia.json"
+    },
+    {
+      "id": "china-miit-eidc",
+      "name": {
+        "en": "MIIT Equipment Industry Development Center",
+        "zh": "工业和信息化部装备工业发展中心"
+      },
+      "description": {
+        "en": "The Equipment Industry Development Center (EIDC) of China's Ministry of Industry and Information Technology (MIIT) is a national-level policy research and data analysis institution specializing in China's equipment manufacturing sector. EIDC tracks and analyzes the development of high-end equipment industries including machine tools, industrial robots, rail transit equipment, aerospace equipment, marine engineering machinery, energy equipment, and agricultural machinery. The center publishes industry analysis reports, equipment manufacturing operation data, enterprise rankings, and policy research outputs that serve as authoritative references for government planning, industry benchmarking, and investment decisions. EIDC data covers production output, market scale, technology advancement indicators, and international competitiveness metrics for China's strategic equipment manufacturing industries, which are central to the Made in China 2025 and dual circulation strategy implementation.",
+        "zh": "工业和信息化部装备工业发展中心（EIDC）是工业和信息化部下属的国家级政策研究与数据分析机构，专注于中国装备制造业发展研究。EIDC追踪和分析机床、工业机器人、轨道交通装备、航空航天装备、海洋工程机械、能源装备和农业机械等高端装备产业发展动态，发布行业分析报告、装备制造业运行数据、企业排名和政策研究成果，是政府规划制定、行业对标和投资决策的权威参考。EIDC数据涵盖中国战略性装备制造产业的生产产出、市场规模、技术进步指标和国际竞争力评估，是「中国制造2025」和双循环战略落实情况的重要数据来源。"
+      },
+      "website": "https://www.miit-eidc.org.cn/",
+      "data_url": "https://www.miit-eidc.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "technology",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "工业和信息化部装备工业发展中心",
+        "MIIT",
+        "EIDC",
+        "装备制造",
+        "equipment manufacturing",
+        "高端装备",
+        "high-end equipment",
+        "机床",
+        "machine tools",
+        "工业机器人",
+        "industrial robots",
+        "轨道交通",
+        "rail transit equipment",
+        "航空航天装备",
+        "aerospace equipment",
+        "海洋工程",
+        "marine engineering",
+        "农业机械",
+        "agricultural machinery",
+        "中国制造2025",
+        "Made in China 2025",
+        "制造业",
+        "manufacturing",
+        "工业统计",
+        "industrial statistics",
+        "产业分析",
+        "industry analysis",
+        "企业排名",
+        "enterprise rankings"
+      ],
+      "data_content": {
+        "en": [
+          "Equipment manufacturing operation data: monthly and annual output statistics for key equipment categories including machine tools, industrial robots, rail equipment, and energy machinery",
+          "Industry analysis reports: sector assessments covering market scale, growth trends, enterprise concentration, and regional distribution of equipment manufacturing",
+          "Enterprise rankings: performance rankings of major equipment manufacturers by revenue, output, R&D investment, and market share",
+          "Technology advancement indicators: tracking innovation metrics, patent filings, and technology maturity levels across strategic equipment sectors",
+          "Policy research outputs: analysis of domestic and international policies affecting equipment manufacturing competitiveness",
+          "International comparison data: benchmarking China's equipment industry against major manufacturing nations including Germany, Japan, South Korea, and the United States",
+          "Market demand forecasts: projections for downstream industry demand driving equipment purchases in sectors such as energy, transportation, and construction",
+          "Import substitution tracking: progress data on replacing imported equipment with domestically produced alternatives across strategic sectors"
+        ],
+        "zh": [
+          "装备制造业运行数据：机床、工业机器人、轨道装备和能源机械等主要装备类别的月度和年度产量统计",
+          "行业分析报告：涵盖市场规模、增长趋势、企业集中度和装备制造业区域分布的行业评估报告",
+          "企业排名：按营收、产量、研发投入和市场份额对主要装备制造企业进行排名",
+          "技术进步指标：追踪战略性装备领域的创新指标、专利申请和技术成熟度水平",
+          "政策研究成果：影响装备制造竞争力的国内外政策分析",
+          "国际比较数据：中国装备工业与德国、日本、韩国和美国等主要制造大国的横向对比",
+          "市场需求预测：能源、交通运输和建筑等下游产业拉动装备需求的展望预测",
+          "进口替代跟踪：战略领域以国产装备替代进口设备的进展数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-miit-eidc.json"
     },
     {
       "id": "china-camet",
@@ -14620,6 +16367,84 @@
       },
       "has_api": false,
       "file_path": "china/infrastructure/china-cata.json"
+    },
+    {
+      "id": "china-ccs",
+      "name": {
+        "en": "China Classification Society",
+        "zh": "中国船级社"
+      },
+      "description": {
+        "en": "China Classification Society (CCS) is the only national ship classification society in China, authorized by the Chinese government under the Ministry of Transport. Established in 1956, CCS develops and enforces technical standards for ship design, construction, and materials; surveys and certifies vessels, offshore platforms, and marine equipment; and issues certificates of compliance with international maritime conventions. CCS is a full member of the International Association of Classification Societies (IACS). It publishes annual statistics on the Chinese-flagged fleet, classification rules, technical circulars, and reports on marine safety and green shipping. CCS data is widely used by shipbuilders, shipowners, insurers, regulators, and maritime researchers to track China's shipbuilding output, fleet condition, and compliance with international maritime standards such as SOLAS, MARPOL, and the ISM Code.",
+        "zh": "中国船级社（CCS）是中国唯一的国家级船舶检验机构，依法受交通运输部授权。成立于1956年，CCS负责制定和执行船舶设计、建造及材料的技术标准，对船舶、海洋平台和船用设备进行检验和认证，并出具符合国际海事公约的合规证书。CCS是国际船级社协会（IACS）的正式成员，每年发布中国籍船队统计数据、船级规范、技术通函和海洋安全与绿色航运报告。CCS数据被造船企业、船东、保险机构、监管部门和海事研究人员广泛用于追踪中国造船产量、船队状况，以及对SOLAS、MARPOL、ISM规则等国际海事标准的遵守情况。"
+      },
+      "website": "https://www.ccs.org.cn/",
+      "data_url": "https://www.ccs.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "transportation",
+        "safety",
+        "standards",
+        "statistics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "船级社",
+        "classification society",
+        "船舶检验",
+        "ship survey",
+        "船舶认证",
+        "vessel certification",
+        "海洋平台",
+        "offshore platform",
+        "造船",
+        "shipbuilding",
+        "船队统计",
+        "fleet statistics",
+        "航运安全",
+        "maritime safety",
+        "绿色航运",
+        "green shipping",
+        "IACS",
+        "SOLAS",
+        "MARPOL",
+        "ISM规则",
+        "中国船级社",
+        "CCS",
+        "海事标准",
+        "maritime standards",
+        "船舶规范",
+        "classification rules"
+      ],
+      "data_content": {
+        "en": [
+          "Chinese-flagged fleet statistics: annual data on number, tonnage, and age distribution of CCS-classed vessels by ship type (bulk carriers, tankers, container ships, LNG carriers)",
+          "Ship classification rules: technical standards for hull structure, machinery, electrical systems, fire protection, and stability applicable to new builds and existing vessels",
+          "Survey and certification records: number of ships surveyed, certificates issued, and deficiency findings by flag state and vessel type",
+          "Marine equipment type approvals: list of approved marine equipment and materials certified to CCS standards",
+          "Green shipping reports: data on ship energy efficiency (EEDI, CII), alternative fuel adoption, and decarbonization progress for the Chinese fleet",
+          "Technical circulars and safety bulletins: notifications on regulatory changes, accident lessons learned, and updated technical requirements",
+          "Annual China Ship Quality Report: comprehensive statistics on ship construction quality, major deficiencies, and safety performance",
+          "Offshore platform and marine structure data: classification statistics for drilling rigs, FPSOs, and fixed platforms operating in Chinese waters",
+          "International convention compliance data: PSC detention rates and deficiency statistics for CCS-classed vessels in foreign ports"
+        ],
+        "zh": [
+          "中国籍船队统计：CCS入级船舶数量、吨位及船龄分布年度数据，按船型（散货船、油轮、集装箱船、LNG船）分类",
+          "船舶入级规范：适用于新造船和现有船舶的船体结构、机械、电气系统、防火和稳性技术标准",
+          "检验与证书记录：按船旗国和船型分类的检验船舶数量、颁证数量和缺陷发现",
+          "船用设备型式认可：经CCS认证的船用设备和材料认可名录",
+          "绿色航运报告：中国船队能效（EEDI、CII）、替代燃料应用和脱碳进展数据",
+          "技术通函和安全通告：法规变更通知、事故经验教训和更新的技术要求",
+          "年度中国船舶质量报告：船舶建造质量、主要缺陷和安全表现综合统计",
+          "海洋平台和海洋结构物数据：在中国海域运营的钻井平台、FPSO和固定平台入级统计",
+          "国际公约合规数据：CCS入级船舶在外国港口的PSC滞留率和缺陷统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-ccs.json"
     },
     {
       "id": "china-crg",
@@ -15350,6 +17175,57 @@
       "file_path": "china/national/china-acwf.json"
     },
     {
+      "id": "china-cncaprc",
+      "name": {
+        "en": "China National Committee on Ageing",
+        "zh": "中国老龄协会"
+      },
+      "description": {
+        "en": "The China National Committee on Ageing (CNCAPRC), also known as China Association of Gerontology and Geriatrics, is the government-affiliated national organization overseeing ageing affairs in China. It publishes authoritative data on China's ageing population including demographic statistics, elderly care services, pension coverage, health status of older adults, and policy research on population ageing.",
+        "zh": "中国老龄协会（CNCAPRC）是负责中国老龄事业管理的政府关联全国性组织，发布中国老龄人口权威数据，包括人口统计数据、养老服务、养老金覆盖情况、老年人健康状况及人口老龄化政策研究报告。"
+      },
+      "website": "https://www.cncaprc.gov.cn",
+      "data_url": "https://www.cncaprc.gov.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "demographics",
+        "health",
+        "social",
+        "government"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "ageing",
+        "elderly",
+        "demographics",
+        "pension"
+      ],
+      "data_content": {
+        "en": [
+          "Ageing Population Statistics - Comprehensive data on China's elderly population size, growth, and distribution",
+          "Elderly Care Services - Data on nursing homes, community care facilities, and home care coverage",
+          "Pension System Coverage - Statistics on urban and rural pension enrollment and benefit levels",
+          "Health Status of Older Adults - Chronic disease prevalence, disability rates, and mental health data",
+          "Ageing Policy Research - Reports on social security reform, long-term care insurance, and ageing in place",
+          "China Report on Ageing - Annual flagship report on the state of China's ageing population"
+        ],
+        "zh": [
+          "老龄人口统计 - 中国老年人口规模、增长及分布综合数据",
+          "养老服务数据 - 养老院、社区养老设施及居家养老覆盖情况",
+          "养老金体系覆盖 - 城乡养老保险参保及待遇水平统计",
+          "老年人健康状况 - 慢性病患病率、残疾率及心理健康数据",
+          "老龄政策研究 - 社会保障改革、长期护理保险及居家养老报告",
+          "中国老龄事业发展报告 - 中国老龄人口状况年度旗舰报告"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/national/china-cncaprc.json"
+    },
+    {
       "id": "china-cta",
       "name": {
         "en": "China Tourism Academy",
@@ -15516,20 +17392,13 @@
       "tags": [
         "population",
         "hukou",
-        "户籍",
-        "人口",
-        "公安",
         "public-safety",
         "migration",
         "urbanization",
         "crime-statistics",
         "traffic",
         "demographics",
-        "household-registration",
-        "城镇化",
-        "人口迁移",
-        "犯罪统计",
-        "交通管理"
+        "household-registration"
       ],
       "data_content": {
         "en": [
@@ -15983,6 +17852,84 @@
       "file_path": "china/national/nbs.json"
     },
     {
+      "id": "china-cabr",
+      "name": {
+        "en": "China Academy of Building Research",
+        "zh": "中国建筑科学研究院有限公司"
+      },
+      "description": {
+        "en": "The China Academy of Building Research (CABR) is China's top comprehensive research and development institution in the field of engineering construction, founded in 1953 and formerly under the Ministry of Housing and Urban-Rural Development (MOHURD). CABR is the primary technical body responsible for drafting and revising China's national and industry standards for construction, including the national Building Code (GB 50010), Seismic Design Code, Energy Efficiency Standards, and Fire Protection Code. The academy operates multiple national laboratories and testing centers, and maintains authoritative databases on building energy performance, structural safety, fire resistance ratings, and building materials quality. CABR has led the development of China's green building evaluation standard (GB/T 50378) and publishes research on building technology, energy efficiency, indoor environment quality, and smart buildings. It is the national technical authority that supports MOHURD policies and urban-rural construction regulation.",
+        "zh": "中国建筑科学研究院有限公司（中国建研院，CABR）成立于1953年，是中国工程建设领域顶级综合性科学研究开发机构，原属住房和城乡建设部管理。CABR是负责起草和修订中国建筑国家标准和行业标准的主要技术机构，包括《混凝土结构设计标准》（GB 50010）、抗震设计规范、建筑节能标准和消防规范。学院运营多个国家实验室和检测中心，维护建筑能效、结构安全、防火性能等级和建筑材料质量权威数据库。CABR主导制定了中国绿色建筑评价标准（GB/T 50378），并发布建筑技术、节能、室内环境质量和智慧建筑研究成果，是支撑住建部政策和城乡建设监管的国家技术权威机构。"
+      },
+      "website": "https://www.cabr.cn",
+      "data_url": "https://www.cabr.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "construction",
+        "engineering",
+        "science",
+        "environment"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国建筑科学研究院",
+        "CABR",
+        "建筑标准",
+        "construction standards",
+        "建筑规范",
+        "building code",
+        "抗震设计",
+        "seismic design",
+        "建筑节能",
+        "building energy efficiency",
+        "绿色建筑",
+        "green building",
+        "GB 50010",
+        "GB/T 50378",
+        "结构安全",
+        "structural safety",
+        "防火性能",
+        "fire resistance",
+        "建筑材料",
+        "building materials",
+        "室内环境",
+        "indoor environment",
+        "智慧建筑",
+        "smart buildings",
+        "住房和城乡建设部",
+        "MOHURD",
+        "国家实验室",
+        "national laboratory",
+        "工程建设",
+        "engineering construction",
+        "城乡建设",
+        "urban-rural construction"
+      ],
+      "data_content": {
+        "en": [
+          "Construction standards and codes database: full texts and technical interpretations of major national and industry standards drafted by CABR, including structural design codes (GB 50010 concrete, GB 50017 steel), seismic design standards, fire protection codes, and building energy efficiency standards",
+          "Building energy performance data: research datasets on energy consumption benchmarks for residential and public buildings across different climate zones in China, supporting the implementation of mandatory energy efficiency standards and green building certification",
+          "Structural safety testing results: laboratory test data on concrete, steel, composite structures, and building materials under static, dynamic, and extreme loading conditions, underpinning national standard development",
+          "Green building evaluation data: assessment results from China's Green Building Label certification program (GB/T 50378), including energy, water, material, indoor environment, and site management performance indicators for certified buildings",
+          "Indoor environment quality research: datasets on indoor air quality, thermal comfort, acoustics, and lighting in Chinese buildings, informing national health and safety standards for construction",
+          "Construction technology research outputs: technical reports, engineering case studies, and data on innovative construction technologies including prefabricated buildings, BIM applications, and smart building systems published by CABR research institutes"
+        ],
+        "zh": [
+          "建筑标准和规范数据库：CABR起草的主要国家标准和行业标准全文及技术解读，包括结构设计规范（GB 50010混凝土、GB 50017钢结构）、抗震设计标准、消防规范和建筑节能标准",
+          "建筑能效数据：中国不同气候区住宅和公共建筑能耗基准研究数据集，支持强制性节能标准实施和绿色建筑认证",
+          "结构安全测试数据：混凝土、钢材、组合结构和建筑材料在静态、动态和极端荷载条件下的实验室测试数据，支撑国家标准制定",
+          "绿色建筑评估数据：中国绿色建筑标识认证项目（GB/T 50378）的评估结果，包括认证建筑的能源、水资源、材料、室内环境和场地管理绩效指标",
+          "室内环境质量研究：中国建筑室内空气质量、热舒适度、声学和照明数据集，为建筑健康与安全国家标准提供依据",
+          "建筑技术研究成果：CABR各研究院所发布的技术报告、工程案例研究以及装配式建筑、BIM应用和智慧建筑系统等创新建筑技术数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cabr.json"
+    },
+    {
       "id": "china-cae",
       "name": {
         "en": "Chinese Academy of Engineering",
@@ -16203,6 +18150,84 @@
       },
       "has_api": false,
       "file_path": "china/research/china-cas.json"
+    },
+    {
+      "id": "china-casm",
+      "name": {
+        "en": "Chinese Academy of Surveying and Mapping",
+        "zh": "中国测绘科学研究院"
+      },
+      "description": {
+        "en": "The Chinese Academy of Surveying and Mapping (CASM) is the national research institution for surveying, mapping, and geoinformation under China's Ministry of Natural Resources. Founded in 1959, CASM conducts cutting-edge research on geodesy, cartography, remote sensing, geographic information systems (GIS), and spatial data infrastructure. It is responsible for developing national surveying and mapping standards, technical norms, and theoretical frameworks for China's geospatial information industry. CASM maintains and produces key national geodetic datasets, digital elevation models, topographic maps, and geospatial reference frameworks. It also conducts research on satellite navigation and positioning (BeiDou/GNSS), photogrammetry, and marine surveying technologies, contributing to national spatial data infrastructure development and international mapping cooperation.",
+        "zh": "中国测绘科学研究院（CASM）是自然资源部下属的测绘、地图制图和地理信息国家级研究机构，成立于1959年。中心在大地测量、地图制图、遥感、地理信息系统（GIS）和空间数据基础设施领域开展前沿研究，负责制定中国测绘行业国家标准、技术规范和理论框架。中心维护和生产国家大地测量数据集、数字高程模型、地形图和地理空间参考框架，并在卫星导航定位（北斗/GNSS）、摄影测量和海洋测绘技术领域开展研究，推动国家空间数据基础设施建设和国际测绘合作。"
+      },
+      "website": "https://www.casm.ac.cn",
+      "data_url": "https://www.casm.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "geography",
+        "remote-sensing",
+        "infrastructure",
+        "technology"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国测绘科学研究院",
+        "CASM",
+        "Chinese Academy of Surveying and Mapping",
+        "测绘",
+        "surveying and mapping",
+        "大地测量",
+        "geodesy",
+        "地图制图",
+        "cartography",
+        "地理信息",
+        "geographic information",
+        "GIS",
+        "遥感",
+        "remote sensing",
+        "空间数据",
+        "spatial data",
+        "数字高程模型",
+        "DEM",
+        "digital elevation model",
+        "地形图",
+        "topographic map",
+        "北斗",
+        "BeiDou",
+        "GNSS",
+        "摄影测量",
+        "photogrammetry",
+        "测绘标准",
+        "mapping standards",
+        "地理空间",
+        "geospatial"
+      ],
+      "data_content": {
+        "en": [
+          "Geodetic datasets: national geodetic control networks, reference frames, and precise coordinate data for surveying benchmarks across China",
+          "Digital elevation models: national DEM products at various resolutions derived from topographic surveys and remote sensing",
+          "Topographic maps: digital and paper topographic map series covering mainland China at multiple scales",
+          "Geospatial standards: national standards and technical specifications for surveying, mapping, and geographic information systems in China",
+          "Remote sensing data products: processed satellite and airborne remote sensing imagery for mapping and change detection applications",
+          "BeiDou/GNSS positioning: research datasets and technical documentation related to China's BeiDou Navigation Satellite System applications",
+          "Marine surveying data: bathymetric charts and coastal zone survey datasets from China's territorial waters"
+        ],
+        "zh": [
+          "大地测量数据集：全国大地控制网、参考框架及遍布中国的测量基准精密坐标数据",
+          "数字高程模型：由地形测量和遥感数据生成的多分辨率国家DEM产品",
+          "地形图：覆盖中国大陆多比例尺的数字及纸质地形图系列",
+          "地理空间标准：中国测绘和地理信息系统领域的国家标准和技术规范",
+          "遥感数据产品：用于测绘和变化检测的星载及机载遥感影像处理产品",
+          "北斗/GNSS定位：与中国北斗卫星导航系统应用相关的研究数据集及技术文档",
+          "海洋测绘数据：中国领海区域水深图和海岸带测量数据集"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-casm.json"
     },
     {
       "id": "china-cass",
@@ -16546,6 +18571,89 @@
       },
       "has_api": false,
       "file_path": "china/research/china-cciee.json"
+    },
+    {
+      "id": "china-cf40",
+      "name": {
+        "en": "China Finance 40 Forum (CF40)",
+        "zh": "中国金融四十人论坛"
+      },
+      "description": {
+        "en": "The China Finance 40 Forum (CF40) is one of China's most influential non-governmental, non-profit financial think tanks, established in 2008 and composed of 40 prominent Chinese economists and financial professionals aged 40 and under at the time of admission. CF40 focuses on policy research in economics and finance and has grown into a strategic think tank family including CF40 Institute, Shanghai Institute of Finance and Development (SIFD), Beijing Wealth Management Institute (BWMI), China Pension Finance 50 Forum (CAFF50), and New Finance 50 Forum (NFF50). CF40 publishes authoritative research on monetary policy, financial regulation, capital markets, exchange rate, international finance, fintech, and wealth management. Its members include current and former senior officials from the People's Bank of China, State Administration of Foreign Exchange, China Securities Regulatory Commission, and leading economists. CF40 reports directly inform Chinese economic policymaking and its annual Bund Summit is one of Asia's top-tier financial conferences.",
+        "zh": "中国金融四十人论坛（CF40）是中国最具影响力的非官方、非营利性金融专业智库之一，2008年成立，由40位杰出的中青年金融经济学家和金融从业者组成（入会时年龄不超过40岁）。CF40聚焦经济金融领域的政策研究，已发展成为涵盖CF40研究院、上海金融与发展实验室（SIFD）、北京大学国家发展研究院、中国养老金融50人论坛（CAFF50）、新金融50人论坛（NFF50）等在内的战略智库家族。CF40在货币政策、金融监管、资本市场、汇率、国际金融、金融科技及财富管理等领域发布权威研究成果。其成员包括中国人民银行、国家外汇管理局、中国证监会等机构的现任和前任高级官员以及顶尖经济学家。CF40的研究报告直接服务于中国经济决策，年度“外滩金融峰会”为亚洲顶级金融会议。"
+      },
+      "website": "https://www.cf40.com/",
+      "data_url": "https://www.cf40.com/research",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "research"
+      ],
+      "update_frequency": "weekly",
+      "tags": [
+        "中国金融四十人论坛",
+        "CF40",
+        "金融智库",
+        "financial think tank",
+        "货币政策",
+        "monetary policy",
+        "金融监管",
+        "financial regulation",
+        "资本市场",
+        "capital markets",
+        "汇率政策",
+        "exchange rate",
+        "人民币国际化",
+        "RMB internationalization",
+        "金融科技",
+        "fintech",
+        "财富管理",
+        "wealth management",
+        "宏观经济",
+        "macroeconomics",
+        "国际金融",
+        "international finance",
+        "养老金融",
+        "pension finance",
+        "外滩金融峰会",
+        "Bund Summit",
+        "新金融",
+        "new finance",
+        "金融改革",
+        "financial reform"
+      ],
+      "data_content": {
+        "en": [
+          "Research reports: policy analysis on monetary policy, financial regulation, exchange rate, and capital account opening",
+          "Macroeconomic outlook: quarterly and annual forecasts on China's GDP, inflation, trade, and key economic indicators",
+          "Working papers and briefings: member-authored analytical papers on current economic and financial policy issues",
+          "Bund Summit publications: proceedings, keynote speeches, and analytical outputs from the annual Bund Financial Summit in Shanghai",
+          "China Financial Reform Report: annual assessment of China's financial sector reform progress",
+          "RMB internationalization research: studies on RMB's role in global payments, reserves, and bond markets",
+          "Fintech research: reports on digital currency, blockchain, mobile payments, and financial inclusion",
+          "Pension finance research: policy studies on China's pension system, retirement investing, and longevity finance via CAFF50",
+          "Wealth management research: outputs from the Beijing Wealth Management Institute on asset management industry trends",
+          "Podcast and video content: expert interviews and policy discussions from CF40 members"
+        ],
+        "zh": [
+          "研究报告：货币政策、金融监管、汇率及资本账户开放的政策分析",
+          "宏观经济展望：中国GDP、通货膨胀、贸易及主要经济指标的季度和年度预测",
+          "工作论文与简报：成员撰写的当前经济金融政策分析论文",
+          "外滩金融峰会出版物：年度上海外滩金融峰会的会议文集、主旨演讲与分析成果",
+          "《中国金融改革报告》：中国金融业改革进展年度评估",
+          "人民币国际化研究：人民币在全球支付、储备及债券市场角色的研究",
+          "金融科技研究：数字货币、区块链、移动支付及普惠金融的研究报告",
+          "养老金融研究：CAFF50发布的中国养老金体系、养老投资及长寿金融政策研究",
+          "财富管理研究：北京大学国家发展研究院北京大学汇丰商学院财富管理研究中心关于资产管理行业趋势的成果",
+          "播客与视频内容：CF40成员的专家访谈和政策讨论"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cf40.json"
     },
     {
       "id": "china-cfps",
@@ -17194,6 +19302,93 @@
       },
       "has_api": false,
       "file_path": "china/research/china-cstr.json"
+    },
+    {
+      "id": "china-cufe-iigf",
+      "name": {
+        "en": "International Institute of Green Finance (IIGF), Central University of Finance and Economics",
+        "zh": "中央财经大学绿色金融国际研究院"
+      },
+      "description": {
+        "en": "The International Institute of Green Finance (IIGF) at the Central University of Finance and Economics (CUFE) is China's leading academic research institute dedicated to green finance, sustainable finance, and climate finance research. Established in 2016, IIGF conducts policy research, develops green finance indices, and publishes authoritative reports on green bonds, ESG investing, climate risk, carbon markets, and sustainable development. The institute provides technical support to the People's Bank of China (PBOC), the China Securities Regulatory Commission (CSRC), the Ministry of Ecology and Environment, and other regulators in designing China's green finance framework. IIGF hosts the annual China Green Finance Development Report, publishes the IIGF Green Bond Index, and maintains databases on China's green bond issuance, carbon market transactions, and ESG ratings of listed companies. It is a founding partner of the Green Finance Committee of the China Society for Finance and Banking and collaborates with UN Environment, Climate Bonds Initiative, and other global sustainability organizations.",
+        "zh": "中央财经大学绿色金融国际研究院（IIGF）是中国领先的绿色金融、可持续金融和气候金融学术研究机构，2016年成立。IIGF开展政策研究，开发绿色金融指数，并发布绿色债券、ESG投资、气候风险、碳市场及可持续发展等领域的权威报告。研究院为中国人民银行、中国证监会、生态环境部等监管机构提供绿色金融框架设计的技术支持。IIGF每年发布《中国绿色金融发展报告》，编制IIGF绿色债券指数，并维护中国绿色债券发行、碳市场交易及上市公司ESG评级的数据库。作为中国金融学会绿色金融专业委员会的创始成员，IIGF与联合国环境署、气候债券倡议组织等全球可持续发展机构保持长期合作。"
+      },
+      "website": "https://iigf.cufe.edu.cn/",
+      "data_url": "https://iigf.cufe.edu.cn/yjcg/yjbg.htm",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "environment",
+        "climate",
+        "economics",
+        "research"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中央财经大学绿色金融国际研究院",
+        "IIGF",
+        "CUFE",
+        "绿色金融",
+        "green finance",
+        "可持续金融",
+        "sustainable finance",
+        "气候金融",
+        "climate finance",
+        "ESG",
+        "ESG投资",
+        "ESG investing",
+        "绿色债券",
+        "green bonds",
+        "碳市场",
+        "carbon market",
+        "碳金融",
+        "carbon finance",
+        "气候风险",
+        "climate risk",
+        "转型金融",
+        "transition finance",
+        "可持续发展",
+        "sustainable development",
+        "气候债券",
+        "climate bonds",
+        "绿色金融指数",
+        "green finance index",
+        "气候投资",
+        "climate investment",
+        "低碳经济",
+        "low-carbon economy"
+      ],
+      "data_content": {
+        "en": [
+          "China green bond database: issuance data, issuers, use of proceeds, third-party verification, and market analytics for China's green bond market",
+          "IIGF Green Bond Index: performance index tracking the returns and yield of labeled and unlabeled green bonds in China's interbank and exchange markets",
+          "Annual China Green Finance Development Report: comprehensive review of policy, market development, product innovation, and international comparison",
+          "ESG research reports: ESG ratings methodology, Chinese listed companies' ESG disclosure analysis, ESG investing trends",
+          "Carbon market analysis: trading data from national and pilot carbon markets, carbon price projections, CCER market tracking",
+          "Climate risk assessment: physical and transition climate risk analysis for Chinese financial institutions and corporates",
+          "Green finance policy research: analysis of central bank green finance policies, green taxonomy development, mandatory climate disclosure rules",
+          "International green finance research: Belt and Road green investment tracking, China-EU taxonomy alignment, G20 sustainable finance initiatives",
+          "Industry databases: green industry classification, green credit statistics, green insurance products, green funds",
+          "Technical reports and working papers: peer-reviewed academic research and policy briefings"
+        ],
+        "zh": [
+          "中国绿色债券数据库：中国绿色债券市场的发行数据、发行人、资金用途、第三方认证及市场分析",
+          "IIGF绿色债券指数：跟踪中国银行间和交易所市场贴标与未贴标绿色债券回报率与收益率的表现指数",
+          "《中国绿色金融发展报告》年度报告：政策、市场发展、产品创新及国际比较的全面综述",
+          "ESG研究报告：ESG评级方法论、中国上市公司ESG信息披露分析、ESG投资趋势",
+          "碳市场分析：全国和试点碳市场交易数据、碳价预测、CCER市场跟踪",
+          "气候风险评估：中国金融机构及企业的物理性和转型气候风险分析",
+          "绿色金融政策研究：央行绿色金融政策、绿色分类目录发展、强制性气候信息披露规则分析",
+          "国际绿色金融研究：一带一路绿色投资追踪、中欧分类目录对接、G20可持续金融倡议",
+          "行业数据库：绿色产业分类、绿色信贷统计、绿色保险产品、绿色基金",
+          "技术报告与工作论文：同行评议学术研究与政策简报"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cufe-iigf.json"
     },
     {
       "id": "china-drc",
@@ -18122,6 +20317,84 @@
       "file_path": "china/research/china-nsfc.json"
     },
     {
+      "id": "china-nsii",
+      "name": {
+        "en": "National Specimen Information Infrastructure of China",
+        "zh": "中国国家标本资源平台"
+      },
+      "description": {
+        "en": "The National Specimen Information Infrastructure of China (NSII) is a national scientific data platform established by the Ministry of Science and Technology and jointly built by major Chinese natural history museums, herbaria, and biological research institutions of the Chinese Academy of Sciences. NSII digitizes and integrates biological specimen data—including plants, animals, fungi, and microorganisms—collected across China's diverse ecosystems. The platform aggregates over 30 million specimen records from more than 100 partner institutions, representing one of the world's largest regional biodiversity specimen databases. NSII data is used in biodiversity conservation research, species distribution modeling, ecological baseline assessments, invasive species tracking, and environmental impact evaluations. It contributes data to global biodiversity informatics initiatives including the Global Biodiversity Information Facility (GBIF) and supports China's obligations under the Convention on Biological Diversity (CBD).",
+        "zh": "中国国家标本资源平台（NSII）是由科学技术部主导建立、中国科学院各大自然历史博物馆、植物标本馆和生物研究机构共同参与建设的国家科学数据平台。NSII对中国多样生态系统中采集的生物标本数据进行数字化整合，涵盖植物、动物、真菌和微生物。平台汇聚来自100余家合作机构的逾3000万条标本记录，是全球规模最大的区域性生物多样性标本数据库之一。NSII数据广泛用于生物多样性保护研究、物种分布建模、生态基线评估、入侵物种追踪和环境影响评价，并向全球生物多样性信息网络（GBIF）贡献数据，支持中国履行《生物多样性公约》（CBD）相关义务。"
+      },
+      "website": "https://www.nsii.org.cn/",
+      "data_url": "https://www.nsii.org.cn/2017/home.php",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "ecology",
+        "biodiversity",
+        "natural-history",
+        "science"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "生物标本",
+        "biological specimen",
+        "生物多样性",
+        "biodiversity",
+        "植物标本",
+        "herbarium",
+        "动物标本",
+        "zoological specimen",
+        "物种分布",
+        "species distribution",
+        "入侵物种",
+        "invasive species",
+        "生态学",
+        "ecology",
+        "自然历史",
+        "natural history",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "GBIF",
+        "生物多样性公约",
+        "Convention on Biological Diversity",
+        "CBD",
+        "国家标本资源",
+        "natural specimen resources",
+        "博物馆数字化",
+        "museum digitization"
+      ],
+      "data_content": {
+        "en": [
+          "Plant specimen records: over 10 million herbarium specimens from Chinese botanical gardens and herbaria, with geographic coordinates, collection date, and taxonomic classification",
+          "Zoological specimen database: vertebrate and invertebrate specimen records from natural history museums across China including mammals, birds, reptiles, amphibians, fish, and insects",
+          "Fungal and microbial specimens: culture collection records and field samples for fungi, bacteria, and other microorganisms from Chinese ecosystems",
+          "Species occurrence data: geospatially referenced occurrence records enabling species distribution modeling and habitat assessment across China's major biomes",
+          "Invasive alien species records: distribution data and occurrence history for invasive plant and animal species threatening native Chinese biodiversity",
+          "Endangered and protected species data: specimen records and occurrence points for species listed under China's national wildlife protection law and IUCN Red List",
+          "Historical collection data: digitized specimen records from legacy collections spanning over 100 years, enabling long-term ecological change analysis",
+          "Image and morphological data: high-resolution specimen photographs and morphological measurements linked to individual specimen records",
+          "Regional and ecosystem surveys: specimen data from targeted biodiversity surveys in key ecological function zones and biodiversity hotspots"
+        ],
+        "zh": [
+          "植物标本记录：来自中国各植物园和植物标本馆的逾1000万份腊叶标本，含地理坐标、采集日期和分类信息",
+          "动物标本数据库：全国自然历史博物馆脊椎动物和无脊椎动物标本记录，涵盖哺乳类、鸟类、爬行类、两栖类、鱼类和昆虫",
+          "真菌和微生物标本：中国生态系统真菌、细菌和其他微生物的菌种保藏记录和野外采集样本",
+          "物种分布数据：带地理参考的物种出现记录，支持中国主要生物群系的物种分布建模和栖息地评估",
+          "入侵外来物种记录：威胁中国本土生物多样性的入侵植物和动物物种分布数据和历史记录",
+          "濒危和受保护物种数据：列入中国野生动物保护法和IUCN红色名录物种的标本记录和出现点位",
+          "历史馆藏数据：逾百年历史馆藏的数字化标本记录，支持长时序生态变化分析",
+          "图像和形态数据：与个体标本记录关联的高分辨率标本照片和形态测量数据",
+          "区域和生态系统调查：重点生态功能区和生物多样性热点地区专项生物多样性调查标本数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-nsii.json"
+    },
+    {
       "id": "china-nssdc",
       "name": {
         "en": "National Space Science Data Center",
@@ -18492,6 +20765,94 @@
       "file_path": "china/research/china-pmo.json"
     },
     {
+      "id": "china-polar-service",
+      "name": {
+        "en": "China Polar Operations Service Platform (CHINARE Data)",
+        "zh": "中国极地业务服务平台"
+      },
+      "description": {
+        "en": "The China Polar Operations Service Platform (chinare.org.cn) is the official operational data and service platform for China's National Arctic and Antarctic Expeditions (CHINAREs), managed by the Chinese Arctic and Antarctic Administration (CAA) under the Ministry of Natural Resources. The platform provides public access to observational data, expedition records, and scientific datasets collected during China's polar expeditions across Antarctica and the Arctic. China has maintained a continuous presence in Antarctica since 1985, with research stations including Zhongshan Station, Great Wall Station, Kunlun Station, and Taishan Station, plus Yellow River Station in the Arctic (Svalbard). The platform hosts multi-disciplinary polar science data including atmospheric observations, ice and snow data, marine environment monitoring, geological surveys, ecology datasets, and expedition logistics records spanning over 40 years of Chinese polar exploration. This data is critical for global climate change research, sea-level rise assessment, and understanding Earth's cryosphere.",
+        "zh": "中国极地业务服务平台（chinare.org.cn）是中国南北极科学考察（CHINARE）的官方业务数据与服务平台，由自然资源部中国极地研究中心（国家海洋局极地考察办公室）管理。平台向公众提供中国南北极历次科考的观测数据、科考记录和科学数据集。自1985年起，中国在南极建立了中山站、长城站、昆仑站和泰山站，并在北极斯瓦尔巴群岛建立了黄河站，保持长期科学考察。平台汇聚了跨越40余年中国极地探索的多学科极地科学数据，涵盖大气观测、冰雪数据、海洋环境监测、地质调查、生态数据集和科考后勤记录。这些数据对全球气候变化研究、海平面上升评估和地球冰冻圈研究至关重要。"
+      },
+      "website": "https://www.chinare.org.cn/",
+      "data_url": "https://www.chinare.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "global",
+      "domains": [
+        "environment",
+        "climate",
+        "ocean",
+        "science"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国极地业务服务平台",
+        "CHINARE",
+        "中国南极科学考察",
+        "China Antarctic Expedition",
+        "中国北极科学考察",
+        "China Arctic Expedition",
+        "南极",
+        "Antarctica",
+        "北极",
+        "Arctic",
+        "极地",
+        "polar",
+        "中山站",
+        "Zhongshan Station",
+        "长城站",
+        "Great Wall Station",
+        "昆仑站",
+        "Kunlun Station",
+        "黄河站",
+        "Yellow River Station",
+        "冰川",
+        "glacier",
+        "冰盖",
+        "ice sheet",
+        "海冰",
+        "sea ice",
+        "气候变化",
+        "climate change",
+        "冰冻圈",
+        "cryosphere",
+        "海平面",
+        "sea level",
+        "极地大气",
+        "polar atmosphere",
+        "自然资源部",
+        "Ministry of Natural Resources",
+        "极地科学数据",
+        "polar science data"
+      ],
+      "data_content": {
+        "en": [
+          "Atmospheric observations: meteorological data from Antarctic and Arctic stations including temperature, pressure, humidity, wind, solar radiation, and ozone measurements",
+          "Ice and snow data: snow accumulation, ice thickness, glacier dynamics, and cryosphere change datasets from ground surveys and remote sensing",
+          "Marine environment monitoring: oceanographic data collected during expeditions including sea ice extent, salinity, current measurements, and marine biological surveys",
+          "Geological surveys: geological mapping, bedrock topography, and geophysical data from Antarctic ice sheet surveys",
+          "Ecology and biology datasets: records of Antarctic marine ecosystems, krill populations, penguin colonies, and microbial ecology studies",
+          "Expedition records: logistics and scientific records from over 40 Chinese Antarctic (CHINARE) and Arctic expeditions",
+          "Remote sensing imagery: satellite-derived data products for polar ice, snow cover, and surface change monitoring",
+          "Permafrost and geothermal data: subsurface temperature and permafrost thickness measurements from polar stations"
+        ],
+        "zh": [
+          "大气观测：南极和北极站点的气象数据，包括气温、气压、湿度、风速、太阳辐射和臭氧测量",
+          "冰雪数据：地面调查和遥感获取的积雪累积量、冰层厚度、冰川动力学和冰冻圈变化数据集",
+          "海洋环境监测：科考期间采集的海洋学数据，包括海冰范围、盐度、洋流测量和海洋生物调查",
+          "地质调查：南极冰盖地质制图、基岩地形和地球物理数据",
+          "生态与生物数据集：南极海洋生态系统、磷虾种群、企鹅种群和微生物生态学研究记录",
+          "科考记录：40余次中国南极（CHINARE）和北极科学考察的后勤和科研记录",
+          "遥感影像：用于极地冰雪、积雪覆盖和地表变化监测的卫星衍生数据产品",
+          "永久冻土和地热数据：极地站点的地下温度和多年冻土厚度测量数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-polar-service.json"
+    },
+    {
       "id": "china-pric",
       "name": {
         "en": "Polar Research Institute of China",
@@ -18633,6 +20994,92 @@
       },
       "has_api": false,
       "file_path": "china/research/china-resdc.json"
+    },
+    {
+      "id": "china-scidb",
+      "name": {
+        "en": "Science Data Bank (ScienceDB)",
+        "zh": "中国科学数据银行"
+      },
+      "description": {
+        "en": "Science Data Bank (ScienceDB) is China's premier general-purpose open research data repository, operated by the Computer Network Information Center of the Chinese Academy of Sciences (CAS). Established to support the FAIR data principles (Findable, Accessible, Interoperable, Reusable), ScienceDB accepts research data submissions from researchers across all disciplines including earth science, life science, physics, chemistry, social science, and humanities. The platform assigns persistent identifiers (DOI and CSTR) to datasets, supports data peer review, and provides long-term preservation. As of 2024, ScienceDB hosts hundreds of thousands of datasets from thousands of research organizations worldwide and is recognized by major international publishers including Nature, Science, and PLOS as a trusted data repository. ScienceDB serves as the backbone of China's national research data infrastructure and is recommended by funders such as the National Natural Science Foundation of China (NSFC) and the Chinese Academy of Sciences.",
+        "zh": "中国科学数据银行（ScienceDB）是由中国科学院计算机网络信息中心运营的国家级综合性开放科学数据存储库，基于FAIR数据原则（可发现、可访问、可互操作、可重用）建设。该平台接受来自所有学科研究者的数据提交，涵盖地球科学、生命科学、物理、化学、社会科学和人文等领域。ScienceDB为数据集分配持久性标识符（DOI和CSTR），支持数据同行评议，并提供长期保存。截至2024年，平台已存储数十万数据集，涵盖全球数千家研究机构，被Nature、Science、PLOS等国际主流出版商列为可信数据仓储。ScienceDB是中国国家科学数据基础设施的重要组成部分，得到国家自然科学基金委员会（NSFC）和中国科学院的推荐支持。"
+      },
+      "website": "https://www.scidb.cn/",
+      "data_url": "https://www.scidb.cn/list?type=all",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "global",
+      "domains": [
+        "science",
+        "research",
+        "earth-science",
+        "life-science",
+        "environment",
+        "health",
+        "social-sciences"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "中国科学数据银行",
+        "ScienceDB",
+        "科学数据",
+        "scientific data",
+        "开放数据",
+        "open data",
+        "数据仓储",
+        "data repository",
+        "FAIR原则",
+        "FAIR principles",
+        "中国科学院",
+        "Chinese Academy of Sciences",
+        "CAS",
+        "计算机网络信息中心",
+        "CNIC",
+        "DOI",
+        "CSTR",
+        "数据集",
+        "datasets",
+        "数据发布",
+        "data publication",
+        "科研数据",
+        "research data",
+        "国家自然科学基金",
+        "NSFC",
+        "数据共享",
+        "data sharing",
+        "持久标识符",
+        "persistent identifier"
+      ],
+      "data_content": {
+        "en": [
+          "Earth and environmental science datasets: climate observations, remote sensing data, geological surveys, biodiversity records",
+          "Life science datasets: genomics data, proteomics, clinical trial data, microbiology sequences, ecological observations",
+          "Physics and chemistry datasets: experimental physics data, materials science, chemical analysis, spectroscopy",
+          "Social science and humanities datasets: survey data, economic indicators, demographic data, historical records",
+          "Engineering and technology datasets: computer science benchmarks, machine learning training data, engineering measurements",
+          "Data citation services: DOI and CSTR persistent identifier assignment for research datasets",
+          "Dataset search and metadata: searchable catalog with rich metadata, subject classification, and temporal-spatial indexing",
+          "Data peer review: quality-assessed datasets with community review processes",
+          "Long-term preservation: versioned archival storage with disaster recovery backup",
+          "API access: programmatic data retrieval for large-scale data analytics"
+        ],
+        "zh": [
+          "地球与环境科学数据集：气候观测、遥感数据、地质调查、生物多样性记录",
+          "生命科学数据集：基因组学数据、蛋白质组学、临床试验数据、微生物序列、生态观测",
+          "物理与化学数据集：实验物理数据、材料科学、化学分析、光谱学",
+          "社会科学与人文数据集：调查数据、经济指标、人口统计数据、历史档案",
+          "工程与技术数据集：计算机科学基准、机器学习训练数据、工程测量",
+          "数据引用服务：为科研数据集分配DOI和CSTR持久性标识符",
+          "数据集检索与元数据：具有丰富元数据、学科分类和时空索引的可检索目录",
+          "数据同行评议：经社区评审的高质量数据集",
+          "长期保存：带灾难恢复备份的版本化归档存储",
+          "API接入：支持大规模数据分析的程序化数据调用"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-scidb.json"
     },
     {
       "id": "china-tpdc",
@@ -18828,6 +21275,185 @@
       "file_path": "china/research/ngdc.json"
     },
     {
+      "id": "china-caea",
+      "name": {
+        "en": "China National Nuclear Safety Administration",
+        "zh": "国家原子能机构"
+      },
+      "description": {
+        "en": "The China National Nuclear Safety Administration (CAEA), known as the National Atomic Energy Agency, is the government authority responsible for managing China's nuclear energy and atomic energy affairs. It publishes official data on nuclear power generation, radioactive materials management, nuclear safety inspections, uranium resources, and China's nuclear industry development.",
+        "zh": "国家原子能机构（CAEA）是负责管理中国核能与原子能事务的政府主管部门，发布核电发电量、放射性材料管理、核安全监察、铀资源及中国核工业发展等方面的权威数据。"
+      },
+      "website": "https://www.caea.gov.cn",
+      "data_url": "https://www.caea.gov.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "energy",
+        "environment",
+        "industry"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "nuclear",
+        "atomic-energy",
+        "nuclear-power"
+      ],
+      "data_content": {
+        "en": [
+          "Nuclear Power Generation - Annual electricity output from China's nuclear power plants",
+          "Nuclear Reactors - Status and capacity data for operational and under-construction reactors",
+          "Uranium Resources - Domestic uranium exploration, mining, and reserves data",
+          "Nuclear Safety Reports - Annual safety inspection results and incident reports",
+          "Radioactive Waste Management - Statistics on radioactive material classification and disposal",
+          "Nuclear Industry Development - China's nuclear technology exports and international cooperation"
+        ],
+        "zh": [
+          "核电发电量 - 中国核电站年度发电量统计",
+          "核反应堆 - 在运及在建反应堆状态与容量数据",
+          "铀资源 - 国内铀矿勘探、开采及储量数据",
+          "核安全报告 - 年度安全监察结果及事件报告",
+          "放射性废物管理 - 放射性材料分类与处置统计",
+          "核工业发展 - 中国核技术出口及国际合作情况"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/resources/china-caea.json"
+    },
+    {
+      "id": "china-guangdong-nr",
+      "name": {
+        "en": "Guangdong Provincial Department of Natural Resources",
+        "zh": "广东省自然资源厅"
+      },
+      "description": {
+        "en": "The Guangdong Provincial Department of Natural Resources is the provincial government agency responsible for managing land, mineral, marine, and other natural resources in Guangdong Province, one of China's most economically significant regions and the core of the Greater Bay Area. It publishes data on land use planning, real estate land supply, mineral resource reserves, geological surveys, and marine resource management. The department releases annual land use change surveys, construction land approval data, land transaction records, and geographic information. Its data is essential for understanding land market dynamics, urban planning, and resource allocation in the Pearl River Delta region.",
+        "zh": "广东省自然资源厅是负责管理广东省土地、矿产、海洋等自然资源的省级政府部门。广东是中国经济最发达的省份之一，也是粤港澳大湾区的核心区域。该厅发布土地利用规划、房地产用地供应、矿产资源储量、地质调查及海洋资源管理等数据，定期公布年度土地利用变更调查、建设用地审批、土地交易记录及地理信息数据。其数据对了解珠三角地区土地市场动态、城市规划和资源配置具有重要参考价值。"
+      },
+      "website": "https://nr.gd.gov.cn",
+      "data_url": "https://nr.gd.gov.cn/zwgknew/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "natural-resources",
+        "land-use",
+        "geology",
+        "real-estate"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "广东自然资源",
+        "Guangdong natural resources",
+        "广东土地",
+        "Guangdong land",
+        "土地供应",
+        "land supply",
+        "矿产资源",
+        "mineral resources",
+        "建设用地",
+        "construction land",
+        "土地出让",
+        "land transfer",
+        "粤港澳大湾区",
+        "Greater Bay Area",
+        "地质调查",
+        "geological survey",
+        "不动产登记",
+        "real estate registration",
+        "海洋资源",
+        "marine resources"
+      ],
+      "data_content": {
+        "en": [
+          "Land use planning: provincial land use master plans, annual land use change surveys, and spatial planning data",
+          "Construction land approval: annual and monthly construction land approval records by city and project type",
+          "Land transactions: land auction results, transfer records, and price statistics for Guangdong Province",
+          "Mineral resources: mineral resource reserves, exploration permits, and mining rights data",
+          "Geological surveys: geological hazard monitoring, groundwater surveys, and geological environment reports",
+          "Marine resources: coastal zone management, marine area use permits, and marine economic statistics",
+          "Geographic information: provincial geographic information data and surveying achievements",
+          "Real estate land supply: residential and commercial land supply plans and execution data"
+        ],
+        "zh": [
+          "土地利用规划：全省土地利用总体规划、年度土地利用变更调查及国土空间规划数据",
+          "建设用地审批：按城市和项目类型分类的年度和月度建设用地审批记录",
+          "土地交易：广东省土地拍卖结果、出让记录和价格统计",
+          "矿产资源：矿产资源储量、勘探许可和采矿权数据",
+          "地质调查：地质灾害监测、地下水调查和地质环境报告",
+          "海洋资源：海岸带管理、海域使用许可和海洋经济统计",
+          "地理信息：全省地理信息数据和测绘成果",
+          "房地产用地供应：住宅和商业用地供应计划及执行数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/china-guangdong-nr.json"
+    },
+    {
+      "id": "china-landchina",
+      "name": {
+        "en": "China Land Market Network",
+        "zh": "中国土地市场网"
+      },
+      "description": {
+        "en": "The China Land Market Network is the official land transaction information platform operated under the supervision of the Ministry of Natural Resources. It provides comprehensive data on land supply plans, land auction listings (zhaopaihua), transaction results, benchmark land prices, and land use rights transfers across China. The platform is the authoritative source for tracking national and regional land market dynamics, including residential, commercial, and industrial land transactions. It serves as a critical data infrastructure for real estate market analysis, urban development research, and land policy evaluation. Note: The website may return HTTP 418 due to WAF (Web Application Firewall) protection; access from mainland China is typically unaffected.",
+        "zh": "中国土地市场网是在自然资源部监管下运营的官方土地交易信息平台，提供全国土地供应计划、土地招拍挂公告、成交结果、基准地价和土地使用权出让等全面数据。该平台是追踪全国及地区土地市场动态的权威数据源，覆盖住宅、商业和工业用地交易信息，是房地产市场分析、城市发展研究和土地政策评估的重要数据基础设施。注意：该网站可能因WAF（Web应用防火墙）保护返回HTTP 418状态码，境内访问通常不受影响。"
+      },
+      "website": "https://www.landchina.com",
+      "data_url": "https://www.landchina.com/default.aspx?tabid=226",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "real-estate",
+        "land-resources",
+        "urban-development"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "land-market",
+        "land-transfer",
+        "land-auction",
+        "land-supply",
+        "land-transaction",
+        "benchmark-land-price",
+        "ministry-of-natural-resources",
+        "real-estate",
+        "land-use-rights",
+        "residential-land",
+        "commercial-land",
+        "industrial-land",
+        "urban-land"
+      ],
+      "data_content": {
+        "en": [
+          "Land supply plans: annual and quarterly land supply plans by city and land use type",
+          "Land auction announcements: detailed listings for land parcels available through bidding, auction, and listing processes (zhaopaihua)",
+          "Transaction results: completed land transactions including price, area, buyer, and land use type",
+          "Benchmark land prices: government-assessed baseline land values by region and land classification",
+          "Land use rights transfers: records of land rights transfers between entities",
+          "Regional land market analysis: aggregate statistics on land market activity by province and city",
+          "Land supply structure: breakdown of residential, commercial, industrial, and public land allocation"
+        ],
+        "zh": [
+          "土地供应计划：按城市和用地类型分类的年度和季度土地供应计划",
+          "土地招拍挂公告：通过招标、拍卖和挂牌方式出让的地块详细公告信息",
+          "成交结果：已完成的土地交易信息，包括价格、面积、受让方和用途",
+          "基准地价：按区域和地类分类的政府评估基准地价",
+          "土地使用权转让：企业间土地使用权转让记录",
+          "区域土地市场分析：按省市分类的土地市场活动汇总统计",
+          "供地结构：住宅、商业、工业和公共用地供应分配情况"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/china-landchina.json"
+    },
+    {
       "id": "china-ngcc",
       "name": {
         "en": "National Geomatics Center of China",
@@ -18902,6 +21528,56 @@
       },
       "has_api": false,
       "file_path": "china/resources/china-ngcc.json"
+    },
+    {
+      "id": "china-shenzhen-pnr",
+      "name": {
+        "en": "Shenzhen Municipal Planning and Natural Resources Bureau",
+        "zh": "深圳市规划和自然资源局"
+      },
+      "description": {
+        "en": "The Shenzhen Municipal Planning and Natural Resources Bureau oversees urban planning, land management, natural resource administration, and spatial development in Shenzhen. It publishes land supply plans, land auction and transfer data, urban master plans, construction land statistics, and geographic information. As the primary authority for land resource allocation in one of China's most land-scarce cities, its data is essential for real estate market analysis, urban development research, and land use policy studies.",
+        "zh": "深圳市规划和自然资源局负责深圳市城市规划、土地管理、自然资源管理和空间发展。发布土地供应计划、土地出让数据、城市总体规划、建设用地统计和地理信息。作为中国土地资源最稀缺城市之一的土地资源配置主管部门，其数据对房地产市场分析、城市发展研究和土地使用政策研究至关重要。"
+      },
+      "website": "https://pnr.sz.gov.cn",
+      "data_url": "https://pnr.sz.gov.cn/xxgk/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "land-use",
+        "urban-planning",
+        "natural-resources",
+        "real-estate"
+      ],
+      "geographic_scope": "subnational",
+      "update_frequency": "monthly",
+      "tags": [
+        "shenzhen",
+        "land",
+        "planning",
+        "natural-resources"
+      ],
+      "data_content": {
+        "en": [
+          "Land Supply Plans - Annual and quarterly land supply plans for residential, commercial, and industrial use",
+          "Land Auction Data - Land transfer prices, floor prices, and transaction records",
+          "Urban Master Plans - City-level spatial development plans and zoning regulations",
+          "Construction Land Statistics - Approved construction land area and utilization data",
+          "Geographic Information - Surveying and mapping data, geographic information services",
+          "Natural Resource Surveys - Land resource surveys and mineral resource assessments"
+        ],
+        "zh": [
+          "土地供应计划 - 住宅、商业和工业用地年度及季度供应计划",
+          "土地出让数据 - 土地成交价格、楼面地价和交易记录",
+          "城市总体规划 - 城市空间发展规划和分区规定",
+          "建设用地统计 - 已批建设用地面积和利用数据",
+          "地理信息 - 测绘数据和地理信息服务",
+          "自然资源调查 - 土地资源调查和矿产资源评估"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/china-shenzhen-pnr.json"
     },
     {
       "id": "china-cace",
@@ -19743,6 +22419,84 @@
       "file_path": "china/resources/environment/china-mee.json"
     },
     {
+      "id": "china-ncsc",
+      "name": {
+        "en": "National Center for Climate Change Strategy and International Cooperation",
+        "zh": "国家应对气候变化战略研究和国际合作中心"
+      },
+      "description": {
+        "en": "The National Center for Climate Change Strategy and International Cooperation (NCSC) is a specialized think tank under China's Ministry of Ecology and Environment (MEE), established in 2012. NCSC serves as China's primary policy research institution on climate change, responsible for strategic research on national greenhouse gas emissions reduction, carbon market policy, climate finance, and international climate negotiations. It supports China's participation in UNFCCC negotiations and conducts research on the Paris Agreement implementation. NCSC produces annual China's Policies and Actions for Addressing Climate Change reports, emissions inventory studies, low-carbon transition pathway analyses, and carbon pricing mechanism research that directly inform China's climate governance and policy formulation.",
+        "zh": "国家应对气候变化战略研究和国际合作中心（NCSC）是生态环境部下属专业智库，成立于2012年，是中国应对气候变化领域主要政策研究机构。NCSC负责国家温室气体减排、碳市场政策、气候融资和国际气候谈判战略研究，支持中国参与《联合国气候变化框架公约》谈判，并就《巴黎协定》实施开展研究。中心每年发布《中国应对气候变化的政策与行动》年度报告，开展温室气体排放清单研究、低碳转型路径分析和碳定价机制研究，直接支撑中国气候治理和政策制定。"
+      },
+      "website": "http://www.ncsc.org.cn",
+      "data_url": "http://www.ncsc.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "climate",
+        "environment",
+        "energy",
+        "economics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家应对气候变化战略研究和国际合作中心",
+        "NCSC",
+        "National Center for Climate Change Strategy",
+        "气候变化",
+        "climate change",
+        "温室气体",
+        "greenhouse gas",
+        "碳市场",
+        "carbon market",
+        "碳排放",
+        "carbon emissions",
+        "低碳",
+        "low carbon",
+        "气候政策",
+        "climate policy",
+        "巴黎协定",
+        "Paris Agreement",
+        "UNFCCC",
+        "碳中和",
+        "carbon neutrality",
+        "双碳",
+        "dual carbon",
+        "气候融资",
+        "climate finance",
+        "国际气候谈判",
+        "international climate negotiations",
+        "碳定价",
+        "carbon pricing",
+        "排放清单",
+        "emissions inventory"
+      ],
+      "data_content": {
+        "en": [
+          "China's climate action annual reports: comprehensive annual assessment of China's policies and actions for addressing climate change",
+          "Greenhouse gas emissions inventory: national and sectoral GHG emissions data and inventory methodologies",
+          "Carbon market research: analysis of China's national emissions trading scheme (ETS), allowance allocation, and market performance",
+          "Low-carbon transition pathways: scenario analyses and roadmaps for decarbonizing China's energy, industry, and transport sectors",
+          "International climate negotiation positions: policy briefs and analysis on China's stance in UNFCCC and Paris Agreement negotiations",
+          "Climate finance data: research on green finance flows, climate investment, and mobilization of private capital for low-carbon development",
+          "Carbon pricing mechanism studies: comparative analysis of carbon taxes, ETS designs, and policy effectiveness across countries"
+        ],
+        "zh": [
+          "中国气候行动年度报告：中国应对气候变化政策与行动的综合年度评估报告",
+          "温室气体排放清单：国家和分行业温室气体排放数据及清单方法学",
+          "碳市场研究：中国全国碳排放权交易市场（ETS）、配额分配和市场运行分析",
+          "低碳转型路径：中国能源、工业和交通部门脱碳情景分析和路线图",
+          "国际气候谈判立场：中国参与UNFCCC和《巴黎协定》谈判的政策简报和分析",
+          "气候融资数据：绿色金融流量、气候投资及低碳发展私人资本动员研究",
+          "碳定价机制研究：各国碳税、碳交易机制设计和政策效果比较分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-ncsc.json"
+    },
+    {
       "id": "china-ndrcc",
       "name": {
         "en": "National Disaster Reduction Center of China",
@@ -20425,6 +23179,83 @@
       },
       "has_api": false,
       "file_path": "china/resources/ocean/china-nmdis.json"
+    },
+    {
+      "id": "china-nsoas",
+      "name": {
+        "en": "National Satellite Ocean Application Service",
+        "zh": "国家卫星海洋应用中心"
+      },
+      "description": {
+        "en": "The National Satellite Ocean Application Service (NSOAS) is the specialized agency under China's Ministry of Natural Resources responsible for the operational application of ocean satellites and marine remote sensing data. NSOAS manages China's HY (Haiyang/Ocean) satellite series, including HY-1 and HY-2 satellites for ocean color observation, sea surface temperature, wind fields, and sea level measurement. It serves as the national center for ocean satellite data reception, processing, archiving, and distribution, providing remote sensing products to governmental agencies, research institutions, and international partners. NSOAS publishes ocean environmental monitoring data, satellite-derived marine datasets, and conducts application research in fishery monitoring, sea ice observation, and coastal zone management.",
+        "zh": "国家卫星海洋应用中心是自然资源部下属专业机构，负责海洋卫星和海洋遥感数据的业务化应用。中心负责管理中国海洋（HY）系列卫星，包括用于海洋水色观测、海面温度、风场和海面高度测量的HY-1和HY-2卫星。作为全国海洋卫星数据接收、处理、存档和分发国家中心，向政府部门、科研机构和国际合作伙伴提供遥感产品。中心发布海洋环境监测数据、卫星海洋数据集，并在渔业监测、海冰观测和海岸带管理等领域开展应用研究。"
+      },
+      "website": "http://www.nsoas.org.cn",
+      "data_url": "http://www.nsoas.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "ocean",
+        "environment",
+        "climate",
+        "remote-sensing"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "国家卫星海洋应用中心",
+        "NSOAS",
+        "National Satellite Ocean Application Service",
+        "海洋卫星",
+        "ocean satellite",
+        "HY卫星",
+        "HY satellite",
+        "Haiyang satellite",
+        "海洋遥感",
+        "ocean remote sensing",
+        "海面温度",
+        "sea surface temperature",
+        "SST",
+        "海洋水色",
+        "ocean color",
+        "风场",
+        "wind field",
+        "海平面",
+        "sea level",
+        "海冰",
+        "sea ice",
+        "渔业监测",
+        "fishery monitoring",
+        "海岸带",
+        "coastal zone",
+        "卫星数据",
+        "satellite data",
+        "海洋环境监测",
+        "marine environmental monitoring"
+      ],
+      "data_content": {
+        "en": [
+          "Ocean color data: chlorophyll-a concentration, suspended sediment, and ocean color products derived from HY-1 satellite imagery",
+          "Sea surface temperature: satellite-measured SST products covering China's sea areas and adjacent oceans",
+          "Sea surface wind fields: ocean wind speed and direction measurements from HY-2 microwave scatterometers",
+          "Sea surface height and waves: altimetry-derived sea level anomaly and significant wave height datasets",
+          "Sea ice monitoring: seasonal sea ice extent, concentration, and thickness data for polar and China's sea areas",
+          "Fishery resources monitoring: satellite-derived data supporting marine fishery stock assessment and fishing ground prediction",
+          "Coastal zone remote sensing: high-resolution satellite imagery and derived products for coastal land-sea interface monitoring"
+        ],
+        "zh": [
+          "海洋水色数据：基于HY-1卫星图像的叶绿素a浓度、悬浮泥沙和海洋水色产品",
+          "海面温度：覆盖中国海域及邻近海洋的卫星海面温度产品",
+          "海面风场：HY-2微波散射计测量的海面风速和风向",
+          "海面高度与波浪：高度计反演的海面高度异常和有效波高数据集",
+          "海冰监测：极地和中国海域的季节性海冰范围、密集度和厚度数据",
+          "渔业资源监测：支持海洋渔业资源评估和渔场预报的卫星反演数据",
+          "海岸带遥感：用于海岸带陆海交互监测的高分辨率卫星影像及衍生产品"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/ocean/china-nsoas.json"
     },
     {
       "id": "china-cea",
@@ -21174,6 +24005,84 @@
       "file_path": "china/resources/water/china-yrcc.json"
     },
     {
+      "id": "china-beidou",
+      "name": {
+        "en": "BeiDou Navigation Satellite System",
+        "zh": "北斗卫星导航系统"
+      },
+      "description": {
+        "en": "The BeiDou Navigation Satellite System (BDS) is China's independently developed global satellite navigation system, managed by the China Satellite Navigation Office (CSNO) under the State Council. Fully operational since 2020 with 35 satellites, BDS is one of the four global navigation systems recognized by the United Nations and provides positioning, navigation, timing, and short message communication services worldwide. The official website publishes signal interface control documents, system performance standards, open service performance reports, satellite constellation status, and technical specifications for receivers and applications. BDS data are essential for precision agriculture, surveying, transportation, disaster relief, and maritime navigation. The system achieves positioning accuracy of ≤1.5m horizontal globally (≤1m in Asia-Pacific) and supports high-precision augmented services for centimeter-level accuracy.",
+        "zh": "北斗卫星导航系统（BDS）是中国自主研发的全球卫星导航系统，由国务院下设的中国卫星导航系统管理办公室负责运营。北斗系统于2020年全面建成，部署35颗卫星，是联合国认可的四大全球导航系统之一，向全球用户提供定位、导航、授时和短报文通信服务。官网发布信号接口控制文件、系统性能标准、开放服务性能评估报告、卫星星座状态和接收机及应用技术规范。北斗数据广泛应用于精准农业、测量测绘、交通运输、抗灾救灾和海上导航等领域。系统全球水平定位精度≤1.5米（亚太地区≤1米），并支持厘米级高精度增强服务。"
+      },
+      "website": "http://www.beidou.gov.cn",
+      "data_url": "http://www.beidou.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "global",
+      "domains": [
+        "technology",
+        "science",
+        "infrastructure"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "北斗",
+        "BeiDou",
+        "BDS",
+        "卫星导航",
+        "satellite navigation",
+        "GNSS",
+        "全球导航卫星系统",
+        "global navigation satellite system",
+        "定位",
+        "positioning",
+        "导航",
+        "navigation",
+        "授时",
+        "timing",
+        "短报文",
+        "short message communication",
+        "信号接口控制文件",
+        "interface control document",
+        "ICD",
+        "系统性能",
+        "system performance",
+        "卫星星座",
+        "satellite constellation",
+        "精准定位",
+        "precision positioning",
+        "高精度增强",
+        "high-precision augmentation",
+        "中国卫星导航系统管理办公室",
+        "CSNO",
+        "精准农业",
+        "precision agriculture",
+        "联合国",
+        "United Nations"
+      ],
+      "data_content": {
+        "en": [
+          "Signal interface control documents (ICD): detailed technical specifications for BDS open service signals (B1I, B1C, B2a, B2b, B3I), including signal structure, modulation schemes, navigation message formats, and ranging code parameters for receiver developers and researchers",
+          "System performance reports: annual and quarterly open service performance assessment reports covering positioning accuracy, availability, continuity, and integrity metrics for the global and Asia-Pacific service areas",
+          "Satellite constellation status: real-time and historical information on the operational status of BDS satellites including GEO, IGSO, and MEO satellites, health status, and signal-in-space range error (SISRE) data",
+          "Technical standards and specifications: national standards and industry standards for BDS receivers, applications, testing methods, and compatibility with other GNSS systems (GPS, GLONASS, Galileo)",
+          "Official announcements and policy documents: notices of satellite maneuvers, signal outages, system updates, new service launches, and policy documents governing BDS technology export and application development",
+          "Application development resources: technical reference materials, development kits documentation, and guidelines for integrating BDS into smart transportation, precision agriculture, maritime navigation, and emergency response systems"
+        ],
+        "zh": [
+          "信号接口控制文件（ICD）：北斗开放服务信号（B1I、B1C、B2a、B2b、B3I）的详细技术规范，包括信号结构、调制方案、导航电文格式和测距码参数，供接收机开发商和研究人员使用",
+          "系统性能报告：年度和季度开放服务性能评估报告，涵盖全球和亚太服务区的定位精度、可用性、连续性和完整性指标",
+          "卫星星座状态：北斗GEO、IGSO和MEO卫星的实时和历史运行状态信息，包括卫星健康状态和空间信号测距误差（SISRE）数据",
+          "技术标准和规范：北斗接收机、应用、测试方法及与其他GNSS系统（GPS、GLONASS、Galileo）兼容性的国家标准和行业标准",
+          "官方公告和政策文件：卫星机动、信号中断、系统更新、新服务开通的通知，以及北斗技术出口和应用开发管理政策文件",
+          "应用开发资源：将北斗集成到智慧交通、精准农业、海上导航和应急响应系统的技术参考资料、开发套件文档和集成指南"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-beidou.json"
+    },
+    {
       "id": "china-caai",
       "name": {
         "en": "Chinese Association for Artificial Intelligence",
@@ -21473,6 +24382,73 @@
       "file_path": "china/technology/china-cnsa.json"
     },
     {
+      "id": "china-shenzhen-stic",
+      "name": {
+        "en": "Shenzhen Science, Technology and Innovation Commission",
+        "zh": "深圳市科技创新局"
+      },
+      "description": {
+        "en": "The Shenzhen Science, Technology and Innovation Commission (formerly Shenzhen Science and Technology Innovation Committee) is the municipal government agency responsible for science, technology, and innovation policy in Shenzhen, China's foremost innovation city. The commission oversees R&D funding, high-tech enterprise recognition, technology incubators, and innovation ecosystem development. It publishes data on R&D expenditure, patent applications, high-tech enterprise statistics, technology project funding, and science park performance. Shenzhen's innovation data is critical for understanding China's technology industry development, particularly in areas like AI, semiconductors, telecommunications, and biotechnology.",
+        "zh": "深圳市科技创新局（原深圳市科技创新委员会）是负责深圳市科学技术和创新政策的市级政府部门。深圳是中国最具创新活力的城市，该局负责研发资金管理、高新技术企业认定、科技孵化器和创新生态系统建设。发布研发投入、专利申请、高新技术企业统计、科技项目资助和科技园区运营等数据。深圳的科技创新数据对了解中国科技产业发展，特别是人工智能、半导体、通信和生物技术等领域具有重要价值。"
+      },
+      "website": "https://stic.sz.gov.cn",
+      "data_url": "https://stic.sz.gov.cn/xxgk/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "technology",
+        "innovation",
+        "research"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "深圳科技",
+        "Shenzhen technology",
+        "深圳创新",
+        "Shenzhen innovation",
+        "研发投入",
+        "R&D expenditure",
+        "高新技术企业",
+        "high-tech enterprise",
+        "科技创新",
+        "science and technology innovation",
+        "专利申请",
+        "patent applications",
+        "科技项目",
+        "technology projects",
+        "深圳高新区",
+        "Shenzhen Hi-Tech Zone",
+        "鲲鹏计划",
+        "Kunpeng program",
+        "深圳科技园",
+        "Shenzhen science park"
+      ],
+      "data_content": {
+        "en": [
+          "R&D expenditure: annual R&D spending by sector, enterprise size, and research type in Shenzhen",
+          "High-tech enterprises: recognition lists, total count, and industry distribution of national high-tech enterprises in Shenzhen",
+          "Patent statistics: patent applications, grants, and technology transfer data for Shenzhen enterprises and institutions",
+          "Technology project funding: government-funded science and technology projects, grant amounts, and outcomes",
+          "Innovation platforms: key laboratories, engineering research centers, and technology incubator performance data",
+          "Science parks: output, employment, and revenue data for Shenzhen's science and technology parks",
+          "Talent programs: science and technology talent support program data, including Kunpeng and Peacock talent plans"
+        ],
+        "zh": [
+          "研发投入：按行业、企业规模和研究类型分类的深圳年度研发支出",
+          "高新技术企业：深圳国家高新技术企业认定名单、总数量和行业分布",
+          "专利统计：深圳企业和机构的专利申请、授权和技术转让数据",
+          "科技项目资助：政府资助的科技项目、拨款金额和成果",
+          "创新平台：重点实验室、工程研究中心和科技孵化器运营数据",
+          "科技园区：深圳科技园区的产值、就业和营收数据",
+          "人才计划：鲲鹏计划、孔雀计划等科技人才支持计划数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-shenzhen-stic.json"
+    },
+    {
       "id": "china-national-data-bureau",
       "name": {
         "en": "National Data Administration of China",
@@ -21545,6 +24521,86 @@
       },
       "has_api": false,
       "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+    },
+    {
+      "id": "china-sae",
+      "name": {
+        "en": "Society of Automotive Engineers of China",
+        "zh": "中国汽车工程学会"
+      },
+      "description": {
+        "en": "The Society of Automotive Engineers of China (SAE-China), established in 1963, is the national academic and technical organization for China's automotive industry and engineering community, affiliated with the China Association for Science and Technology (CAST). SAE-China coordinates automotive engineering standards, organizes major industry events including the China Automotive Engineering Society Annual Congress (SAECCE) and the China Automotive Industry Summit, and publishes authoritative reports on new energy vehicles (NEV), intelligent connected vehicles (ICV), automotive emissions, fuel efficiency standards, and autonomous driving technology. SAE-China collaborates with international counterparts including SAE International and serves as a key bridge between China's automotive R&D community and global automotive technology trends. Its data and research are widely cited by automotive OEMs, Tier-1 suppliers, government regulators, and international investors tracking China's automotive market transformation.",
+        "zh": "中国汽车工程学会（SAE-China）成立于1963年，是中国科学技术协会下属的全国性汽车行业和工程领域学术团体。学会负责协调汽车工程标准，主办汽车工程年会（SAECCE）、中国汽车产业发展年会等重要行业活动，并发布新能源汽车、智能网联汽车、汽车排放、燃油经济性标准和自动驾驶技术权威报告。SAE-China与SAE国际等国际机构合作，是中国汽车研发界与全球汽车技术趋势之间的重要桥梁，其数据和研究被汽车整车企业、一级供应商、政府监管部门和跟踪中国汽车市场转型的国际投资者广泛引用。"
+      },
+      "website": "https://www.sae-china.org/",
+      "data_url": "https://www.sae-china.org/newsdata/reportdata/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "automotive",
+        "technology",
+        "energy",
+        "standards"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "汽车工程",
+        "automotive engineering",
+        "新能源汽车",
+        "new energy vehicle",
+        "NEV",
+        "智能网联汽车",
+        "intelligent connected vehicle",
+        "ICV",
+        "自动驾驶",
+        "autonomous driving",
+        "汽车排放",
+        "vehicle emissions",
+        "燃油经济性",
+        "fuel efficiency",
+        "汽车标准",
+        "automotive standards",
+        "电动汽车",
+        "electric vehicle",
+        "EV",
+        "动力电池",
+        "power battery",
+        "氢燃料电池",
+        "hydrogen fuel cell",
+        "SAECCE",
+        "中国汽车工程学会",
+        "SAE-China",
+        "汽车技术",
+        "automotive technology"
+      ],
+      "data_content": {
+        "en": [
+          "New Energy Vehicle (NEV) development reports: annual statistics and trend analysis on battery electric vehicle (BEV), plug-in hybrid (PHEV), and fuel cell vehicle (FCV) production, sales, and technology maturity in China",
+          "Intelligent Connected Vehicle (ICV) white papers: market penetration data, L2-L4 autonomous driving deployment statistics, and V2X communication infrastructure progress",
+          "Automotive emissions research: vehicle exhaust emission test data, fleet emission factor reports, and compliance monitoring with China's National Standards VI (equivalent to Euro 6)",
+          "Fuel economy standards and CAFC compliance: corporate average fuel consumption data, double-credit policy implementation statistics, and OEM compliance rankings",
+          "Automotive technology roadmap data: technology readiness assessments for electrification, lightweighting, advanced manufacturing, and connectivity for the 2025-2035 planning horizon",
+          "Power battery and energy storage research: battery cell performance benchmarks, thermal safety incident analysis, and recycling system capacity data",
+          "Hydrogen fuel cell vehicle progress reports: hydrogen refueling station deployment, FCEV demonstration project data, and cost reduction trajectory analysis",
+          "Annual Congress (SAECCE) proceedings: cutting-edge automotive R&D papers covering vehicle dynamics, NVH, powertrain, ADAS, and manufacturing technology",
+          "Automotive industry talent and R&D investment statistics: engineering workforce data, automotive R&D expenditure by OEM, and innovation ecosystem indicators"
+        ],
+        "zh": [
+          "新能源汽车发展报告：中国纯电动汽车（BEV）、插电混动（PHEV）和燃料电池汽车（FCV）产销量及技术成熟度年度统计与趋势分析",
+          "智能网联汽车白皮书：市场渗透率数据、L2-L4自动驾驶部署统计和V2X通信基础设施建设进展",
+          "汽车排放研究：车辆尾气排放测试数据、车队排放因子报告和国六标准（相当于欧6）合规监测",
+          "燃油经济性标准和CAFC合规：企业平均燃油消耗量数据、双积分政策实施统计和整车企业合规排名",
+          "汽车技术路线图数据：2025-2035规划期电动化、轻量化、先进制造和智能网联技术成熟度评估",
+          "动力电池与储能研究：电芯性能基准测试、热失控安全事故分析和回收体系产能数据",
+          "氢燃料电池汽车进展报告：加氢站部署情况、燃料电池汽车示范项目数据和成本下降路径分析",
+          "年会（SAECCE）论文集：整车动力学、NVH、动力系统、ADAS和制造技术等前沿汽车研发论文",
+          "汽车行业人才与研发投入统计：工程师队伍规模、各整车企业研发支出及创新生态系统指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry-associations/china-sae.json"
     },
     {
       "id": "china-automation-association",
@@ -23398,6 +26454,86 @@
       "file_path": "china/technology/standards/china-cnis.json"
     },
     {
+      "id": "china-csa",
+      "name": {
+        "en": "China Association for Standardization",
+        "zh": "中国标准化协会"
+      },
+      "description": {
+        "en": "The China Association for Standardization (CAS/CSA) is a national non-governmental industry organization founded in 1978, operating under the guidance of the State Administration for Market Regulation (SAMR) and the Standardization Administration of China (SAC). CSA is a key platform for voluntary standards development, standards education and promotion, and international standardization cooperation in China. The association develops group standards (团体标准) across industry sectors, provides standardization consulting and certification services, and organizes technical committees for emerging technology areas including smart manufacturing, e-commerce, carbon neutrality, and data governance. CSA publishes research reports on China's standardization policy landscape, group standards directories, and industry-specific standardization roadmaps. It interfaces with ISO, IEC, and ITU for Chinese participation in international standards development and serves as a bridge between government standardization agencies and enterprise standards practices.",
+        "zh": "中国标准化协会（CSA）成立于1978年，是在国家市场监督管理总局和国家标准化管理委员会指导下运行的全国性非政府行业组织。CSA是中国自愿性标准制定、标准教育和推广以及国际标准化合作的重要平台。协会在智能制造、电子商务、碳中和和数据治理等新兴技术领域跨行业制定团体标准，提供标准化咨询和认证服务，并组织技术委员会。CSA发布中国标准化政策研究报告、团体标准目录和行业标准化路线图，对接ISO、IEC和ITU，推动中国参与国际标准制定，是政府标准化机构与企业标准实践的重要桥梁。"
+      },
+      "website": "https://www.china-cas.org",
+      "data_url": "https://www.china-cas.org",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "industry",
+        "science",
+        "economics"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国标准化协会",
+        "CSA",
+        "China Association for Standardization",
+        "标准化",
+        "standardization",
+        "团体标准",
+        "group standards",
+        "自愿性标准",
+        "voluntary standards",
+        "国家标准化管理委员会",
+        "SAC",
+        "国家市场监督管理总局",
+        "SAMR",
+        "ISO",
+        "IEC",
+        "ITU",
+        "国际标准化",
+        "international standardization",
+        "智能制造",
+        "smart manufacturing",
+        "碳中和",
+        "carbon neutrality",
+        "数据治理",
+        "data governance",
+        "标准化政策",
+        "standardization policy",
+        "标准化路线图",
+        "standardization roadmap",
+        "电子商务",
+        "e-commerce",
+        "标准化咨询",
+        "standardization consulting",
+        "新兴技术",
+        "emerging technology"
+      ],
+      "data_content": {
+        "en": [
+          "Group standards (团体标准) directory and database: searchable registry of voluntary group standards developed by CSA and its technical committees across sectors including smart manufacturing, green economy, digital economy, logistics, and consumer goods, with standard status, applicability, and revision history",
+          "Standards search and access platform: query interface for China's national standards (GB/T), industry standards, and group standards with cross-reference to international standards equivalents (ISO, IEC, ASTM), supporting standards research and compliance work",
+          "Standardization policy research reports: annual and thematic reports on China's standardization strategy, reform progress, international standards adoption rates, and policy developments in key sectors such as AI governance, carbon neutrality, and digital infrastructure",
+          "International standards participation data: records of Chinese expert participation in ISO and IEC technical committees, Chinese-led international standard projects, and adopted international standards incorporated into China's national standards system",
+          "Standards education and certification data: training curriculum materials, examination statistics for standardization professionals, and data on certified enterprise standardization managers and national model enterprises for standardization",
+          "Industry standardization roadmaps: technology and sector-specific standardization roadmaps co-developed with industry partners covering emerging fields such as hydrogen energy, new energy vehicles, industrial internet, and blockchain applications in China"
+        ],
+        "zh": [
+          "团体标准目录和数据库：CSA及其技术委员会在智能制造、绿色经济、数字经济、物流和消费品等领域制定的自愿性团体标准可检索注册库，含标准状态、适用范围和修订历史",
+          "标准检索和查询平台：中国国家标准（GB/T）、行业标准和团体标准查询界面，交叉引用ISO、IEC、ASTM等国际标准对应关系，支持标准研究和合规工作",
+          "标准化政策研究报告：中国标准化战略、改革进展、国际标准采用率年度和专题报告，以及人工智能治理、碳中和和数字基础设施等重点领域政策动态",
+          "国际标准参与数据：中国专家参与ISO和IEC技术委员会的记录、中国主导的国际标准项目，以及纳入中国国家标准体系的已采用国际标准",
+          "标准化教育和认证数据：标准化专业人员培训课程材料、考试统计数据，以及认证企业标准化管理者和国家标准化示范企业数据",
+          "行业标准化路线图：与行业伙伴联合制定的技术和领域专属标准化路线图，涵盖氢能、新能源汽车、工业互联网和区块链在中国的应用等新兴领域"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/standards/china-csa.json"
+    },
+    {
       "id": "china-nim",
       "name": {
         "en": "National Institute of Metrology China",
@@ -23465,6 +26601,87 @@
       },
       "has_api": false,
       "file_path": "china/technology/standards/china-nim.json"
+    },
+    {
+      "id": "china-openstd",
+      "name": {
+        "en": "China National Standards Full Text Public Access System",
+        "zh": "国家标准全文公开系统"
+      },
+      "description": {
+        "en": "The National Standards Full Text Public Access System (国家标准全文公开系统) is an official platform operated by the State Administration for Market Regulation (SAMR) that provides free public access to the full text of Chinese national standards (GB and GB/T standards). Launched to fulfill the mandate of China's Standardization Law, the system enables any user to read, search, and download the complete text of mandatory and recommended national standards covering industrial products, safety, environmental protection, health, infrastructure, and information technology. The platform houses over 40,000 active national standards and provides access to withdrawn and historical standards for reference. It is the authoritative open repository for China's national standardization system and is essential for enterprises, researchers, regulators, and trading partners seeking to comply with or analyze China's technical standards framework.",
+        "zh": "国家标准全文公开系统是由国家市场监督管理总局（市监总局）运营的官方平台，向社会免费提供中国国家标准（GB、GB/T标准）全文公开查询和下载服务。系统依据《标准化法》要求建设，任何用户均可检索和下载工业产品、安全、环境保护、卫生、基础设施和信息技术等领域强制性和推荐性国家标准全文。平台收录现行有效国家标准逾4万项，并提供废止和历史标准查询功能。该系统是中国国家标准体系的权威开放资源库，是企业合规、研究机构分析、监管机构参考及贸易伙伴了解中国技术标准体系的核心工具。"
+      },
+      "website": "https://openstd.samr.gov.cn/",
+      "data_url": "https://openstd.samr.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "industry",
+        "governance"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家标准全文公开系统",
+        "国家标准",
+        "national standards",
+        "GB标准",
+        "GB standards",
+        "GB/T",
+        "推荐性标准",
+        "recommended standards",
+        "强制性标准",
+        "mandatory standards",
+        "市场监督管理总局",
+        "SAMR",
+        "标准化",
+        "standardization",
+        "技术标准",
+        "technical standards",
+        "产品标准",
+        "product standards",
+        "安全标准",
+        "safety standards",
+        "环保标准",
+        "environmental standards",
+        "合规",
+        "compliance",
+        "贸易壁垒",
+        "trade barriers",
+        "标准查询",
+        "standards search",
+        "工业标准",
+        "industrial standards",
+        "信息技术标准",
+        "IT standards"
+      ],
+      "data_content": {
+        "en": [
+          "Mandatory national standards (GB): full text of compulsory standards that enterprises and products must comply with to be sold in China",
+          "Recommended national standards (GB/T): full text of voluntary technical standards covering industrial products, processes, and services",
+          "Standard metadata: standard number, title, applicable scope, issuing authority, effective date, and revision history",
+          "Historical standards: withdrawn and superseded standards for historical compliance reference and research",
+          "Standard classification: browsable by International Classification for Standards (ICS) and China Standard Classification (CCS) codes",
+          "Cross-reference data: relationships between national standards and corresponding international standards (ISO, IEC, ITU)",
+          "Sector-specific standards: standards for food safety, construction, automotive, electronics, chemicals, textiles, health, and environmental protection",
+          "Standards adoption data: tracking the adoption rate of international standards into China's national standards framework"
+        ],
+        "zh": [
+          "强制性国家标准（GB）：企业和产品在中国境内销售必须遵守的强制性标准全文",
+          "推荐性国家标准（GB/T）：涵盖工业产品、工艺流程和服务的自愿性技术标准全文",
+          "标准元数据：标准编号、标题、适用范围、发布机构、实施日期和修订历史",
+          "历史标准：已废止和被替代标准，供历史合规参考和研究使用",
+          "标准分类：按国际标准分类法（ICS）和中国标准分类法（CCS）浏览",
+          "交叉引用数据：国家标准与对应国际标准（ISO、IEC、ITU）的对照关系",
+          "行业专项标准：食品安全、建筑、汽车、电子、化工、纺织、卫生和环保等领域的标准",
+          "标准采标数据：追踪国际标准转化为中国国家标准的采标率"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/standards/china-openstd.json"
     },
     {
       "id": "china-sac-standards",
@@ -38153,6 +41370,73 @@
       },
       "has_api": false,
       "file_path": "sectors/C-manufacturing/electronics/china-semiconductor-association.json"
+    },
+    {
+      "id": "semi",
+      "name": {
+        "en": "SEMI - Semiconductor Equipment and Materials International",
+        "zh": "SEMI国际半导体产业协会"
+      },
+      "description": {
+        "en": "SEMI is the global industry association connecting over 3,000 member companies across the electronics design and manufacturing supply chain. Founded in 1970, SEMI provides authoritative market data and industry statistics for the semiconductor equipment, materials, and manufacturing sectors. It publishes the World Fab Forecast, equipment market statistics, materials market reports, and comprehensive industry analysis covering wafer fabrication, packaging, and testing. SEMI's data is the industry standard reference for semiconductor capital expenditure trends, fab construction activity, equipment billings, and supply chain dynamics worldwide. Note: Website returns 403 for automated requests (WAF/bot protection). Content accessible via standard browser.",
+        "zh": "SEMI国际半导体产业协会是连接全球3000多家会员企业的电子设计和制造供应链行业协会。SEMI成立于1970年，为半导体设备、材料和制造行业提供权威的市场数据和行业统计。发布全球晶圆厂预测报告、设备市场统计、材料市场报告以及涵盖晶圆制造、封装和测试的综合行业分析。SEMI的数据是半导体资本支出趋势、晶圆厂建设动态、设备出货额和全球供应链分析的行业标准参考。"
+      },
+      "website": "https://semi.org",
+      "data_url": "https://semi.org/en/products-services/market-data",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "geographic_scope": "global",
+      "domains": [
+        "semiconductors",
+        "electronics",
+        "manufacturing"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "半导体",
+        "semiconductor",
+        "芯片",
+        "chip",
+        "半导体设备",
+        "semiconductor equipment",
+        "半导体材料",
+        "semiconductor materials",
+        "晶圆厂",
+        "wafer fab",
+        "SEMI",
+        "芯片制造",
+        "chip manufacturing",
+        "设备出货",
+        "equipment billings",
+        "封装测试",
+        "packaging and testing",
+        "World Fab Forecast",
+        "半导体产业",
+        "semiconductor industry",
+        "集成电路",
+        "integrated circuit"
+      ],
+      "data_content": {
+        "en": [
+          "World Fab Forecast: quarterly database tracking global semiconductor fabrication facilities, capacity, and construction plans",
+          "Equipment market statistics: monthly and quarterly semiconductor equipment billings data by region (North America, Japan, Europe, China, etc.)",
+          "Materials market reports: annual silicon wafer, photomask, CMP, gases, and other materials shipment data",
+          "Industry outlook: annual semiconductor industry forecasts covering revenue, capex, and technology trends",
+          "Fab construction: new fab announcements, construction timelines, and investment amounts worldwide",
+          "Regional analysis: semiconductor market data broken down by major regions including China, Taiwan, South Korea, and North America"
+        ],
+        "zh": [
+          "全球晶圆厂预测：追踪全球半导体制造设施、产能和建设计划的季度数据库",
+          "设备市场统计：按地区（北美、日本、欧洲、中国等）分类的月度和季度半导体设备出货数据",
+          "材料市场报告：硅晶圆、光掩模、CMP、气体等材料的年度出货数据",
+          "行业展望：涵盖收入、资本支出和技术趋势的年度半导体行业预测",
+          "晶圆厂建设：全球新晶圆厂公告、建设时间表和投资金额",
+          "区域分析：按中国、台湾、韩国、北美等主要地区分类的半导体市场数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "sectors/C-manufacturing/electronics/semi.json"
     },
     {
       "id": "china-machine-tool-association",
