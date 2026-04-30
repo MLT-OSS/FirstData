@@ -1,0 +1,61 @@
+{
+  "id": "china-ports-association",
+  "name": {
+    "en": "China Ports & Harbours Association",
+    "zh": "中国港口协会"
+  },
+  "description": {
+    "en": "The China Ports & Harbours Association (CPHA) is a national non-profit industry organization supervised by the Ministry of Transport of China. It brings together port enterprises, shipping terminals, logistics companies and research institutions, releasing official industry statistics including port cargo throughput, container throughput, shipping capacity utilization, port productivity indicators and industry development reports covering mainland Chinese ports.",
+    "zh": "中国港口协会（CPHA）是由中华人民共和国交通运输部主管的全国性港航业非营利社团组织，汇聚港口企业、码头运营商、航运物流公司及科研机构，发布包括港口货物吞吐量、集装箱吞吐量、船舶运力利用率、港口生产效率指标及行业发展报告等官方行业统计数据，覆盖中国大陆各港口。"
+  },
+  "website": "http://www.port.org.cn",
+  "data_url": "http://www.port.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "domains": [
+    "transportation",
+    "infrastructure",
+    "trade",
+    "logistics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "ports",
+    "harbours",
+    "shipping",
+    "port-throughput",
+    "container-throughput",
+    "cargo",
+    "logistics",
+    "中国港口协会",
+    "港口协会",
+    "港口吞吐量",
+    "集装箱吞吐量",
+    "港航业",
+    "水运",
+    "CPHA"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly and annual port cargo throughput statistics",
+      "Container throughput (TEU) rankings by port",
+      "Shipping capacity and fleet utilization",
+      "Port productivity and operational efficiency indicators",
+      "Port infrastructure investment and construction data",
+      "Industry development reports and market analysis",
+      "Membership directory of Chinese ports and terminals"
+    ],
+    "zh": [
+      "月度及年度港口货物吞吐量统计",
+      "港口集装箱吞吐量（TEU）排名",
+      "船舶运力与船队利用率",
+      "港口生产效率与运营指标",
+      "港口基础设施投资与建设数据",
+      "行业发展报告与市场分析",
+      "全国港口与码头会员名录"
+    ]
+  }
+}
