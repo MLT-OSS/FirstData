@@ -1,0 +1,57 @@
+{
+  "id": "china-sinopec",
+  "name": {
+    "en": "China Petrochemical Corporation (Sinopec Group)",
+    "zh": "中国石油化工集团有限公司"
+  },
+  "description": {
+    "en": "China Petrochemical Corporation (Sinopec Group) is one of the world's largest integrated energy and chemical companies and a central state-owned enterprise of China. It publishes annual reports, sustainability reports, refining and chemical production statistics, oil and gas exploration data, and energy transition progress reports covering upstream, midstream, and downstream operations. Note: HTTPS endpoint is not reliably reachable from some networks; HTTP works.",
+    "zh": "中国石油化工集团有限公司（中国石化）是全球最大的综合性能源化工企业之一，中国中央企业。发布年度报告、可持续发展报告、炼化生产统计、油气勘探数据及能源转型进展报告，涵盖上游、中游和下游业务。"
+  },
+  "website": "http://www.sinopecgroup.com",
+  "data_url": "http://www.sinopecgroup.com/group/xhtml/shzr/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "energy",
+    "petroleum",
+    "petrochemical"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "sinopec",
+    "petrochemical",
+    "oil",
+    "refining",
+    "chemical",
+    "energy",
+    "state-owned-enterprise",
+    "中国石化",
+    "中石化",
+    "石油化工",
+    "炼化",
+    "化工",
+    "央企"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Reports - Financial and operational performance data",
+      "Refining Output - Crude oil processing volume and refined product output",
+      "Chemical Production - Ethylene, synthetic resin, synthetic fiber, and other chemical product yields",
+      "Oil and Gas Exploration - Upstream exploration and production statistics",
+      "Sustainability Reports - Carbon emissions, environmental protection, and ESG data",
+      "Retail Network Statistics - Gas station network and fuel sales volume"
+    ],
+    "zh": [
+      "年度报告 - 财务和运营业绩数据",
+      "炼油产出 - 原油加工量和成品油产量",
+      "化工生产 - 乙烯、合成树脂、合成纤维及其他化工产品产量",
+      "油气勘探 - 上游勘探开发生产统计",
+      "可持续发展报告 - 碳排放、环境保护和ESG数据",
+      "零售网络统计 - 加油站网络和成品油销售量"
+    ]
+  },
+  "authority_level": "government"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "china-cdc",
+  "name": {
+    "en": "Chinese Center for Disease Control and Prevention",
+    "zh": "中国疾病预防控制中心"
+  },
+  "description": {
+    "en": "The Chinese Center for Disease Control and Prevention (China CDC) is the national public health institute responsible for disease prevention, surveillance, and health emergency response. It publishes infectious disease surveillance reports, chronic disease data, vaccination coverage statistics, environmental health assessments, and public health emergency bulletins. Some deep-link sub-sections (e.g. /jkzt/) have been reorganized; use /gzdt/ for published work announcements or en.chinacdc.cn for English portal.",
+    "zh": "中国疾病预防控制中心是国家级疾病预防控制与公共卫生技术管理和服务机构，负责疾病预防控制、公共卫生监测和卫生应急处置。发布传染病疫情监测报告、慢性病数据、疫苗接种统计、环境卫生评估及突发公共卫生事件公报。"
+  },
+  "website": "https://www.chinacdc.cn",
+  "data_url": "https://www.chinacdc.cn/gzdt/",
+  "api_url": null,
+  "country": "CN",
+  "domains": [
+    "health",
+    "epidemiology",
+    "public-health"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "weekly",
+  "tags": [
+    "china",
+    "cdc",
+    "disease-control",
+    "epidemiology",
+    "infectious-disease",
+    "public-health",
+    "vaccination",
+    "surveillance",
+    "疾控中心",
+    "传染病",
+    "疫情监测",
+    "公共卫生",
+    "疫苗接种",
+    "慢性病"
+  ],
+  "data_content": {
+    "en": [
+      "Infectious Disease Surveillance - Weekly and monthly reports on notifiable infectious diseases",
+      "Chronic Disease Data - Prevalence and incidence of major chronic diseases",
+      "Vaccination Coverage - National immunization program statistics and coverage rates",
+      "Environmental Health - Drinking water quality, air pollution health impact assessments",
+      "Health Emergency Reports - Public health emergency response and outbreak investigation reports",
+      "Disease Burden Studies - National disease burden and risk factor analysis",
+      "Nutrition and Food Safety - National nutrition surveys and food safety monitoring"
+    ],
+    "zh": [
+      "传染病疫情监测 - 法定传染病周报和月报",
+      "慢性病数据 - 主要慢性病患病率和发病率",
+      "疫苗接种覆盖率 - 国家免疫规划统计和接种率",
+      "环境卫生 - 饮用水水质监测、空气污染健康影响评估",
+      "卫生应急报告 - 突发公共卫生事件应急处置和疫情调查报告",
+      "疾病负担研究 - 全国疾病负担和危险因素分析",
+      "营养与食品安全 - 全国营养调查和食品安全监测"
+    ]
+  },
+  "authority_level": "government"
+}
