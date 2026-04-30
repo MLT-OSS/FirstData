@@ -1,0 +1,84 @@
+{
+  "id": "china-scidb",
+  "name": {
+    "en": "Science Data Bank (ScienceDB)",
+    "zh": "中国科学数据银行"
+  },
+  "description": {
+    "en": "Science Data Bank (ScienceDB) is China's premier general-purpose open research data repository, operated by the Computer Network Information Center of the Chinese Academy of Sciences (CAS). Established to support the FAIR data principles (Findable, Accessible, Interoperable, Reusable), ScienceDB accepts research data submissions from researchers across all disciplines including earth science, life science, physics, chemistry, social science, and humanities. The platform assigns persistent identifiers (DOI and CSTR) to datasets, supports data peer review, and provides long-term preservation. As of 2024, ScienceDB hosts hundreds of thousands of datasets from thousands of research organizations worldwide and is recognized by major international publishers including Nature, Science, and PLOS as a trusted data repository. ScienceDB serves as the backbone of China's national research data infrastructure and is recommended by funders such as the National Natural Science Foundation of China (NSFC) and the Chinese Academy of Sciences.",
+    "zh": "中国科学数据银行（ScienceDB）是由中国科学院计算机网络信息中心运营的国家级综合性开放科学数据存储库，基于FAIR数据原则（可发现、可访问、可互操作、可重用）建设。该平台接受来自所有学科研究者的数据提交，涵盖地球科学、生命科学、物理、化学、社会科学和人文等领域。ScienceDB为数据集分配持久性标识符（DOI和CSTR），支持数据同行评议，并提供长期保存。截至2024年，平台已存储数十万数据集，涵盖全球数千家研究机构，被Nature、Science、PLOS等国际主流出版商列为可信数据仓储。ScienceDB是中国国家科学数据基础设施的重要组成部分，得到国家自然科学基金委员会（NSFC）和中国科学院的推荐支持。"
+  },
+  "website": "https://www.scidb.cn/",
+  "data_url": "https://www.scidb.cn/list?type=all",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "science",
+    "research",
+    "earth-science",
+    "life-science",
+    "environment",
+    "health",
+    "social-sciences"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "中国科学数据银行",
+    "ScienceDB",
+    "科学数据",
+    "scientific data",
+    "开放数据",
+    "open data",
+    "数据仓储",
+    "data repository",
+    "FAIR原则",
+    "FAIR principles",
+    "中国科学院",
+    "Chinese Academy of Sciences",
+    "CAS",
+    "计算机网络信息中心",
+    "CNIC",
+    "DOI",
+    "CSTR",
+    "数据集",
+    "datasets",
+    "数据发布",
+    "data publication",
+    "科研数据",
+    "research data",
+    "国家自然科学基金",
+    "NSFC",
+    "数据共享",
+    "data sharing",
+    "持久标识符",
+    "persistent identifier"
+  ],
+  "data_content": {
+    "en": [
+      "Earth and environmental science datasets: climate observations, remote sensing data, geological surveys, biodiversity records",
+      "Life science datasets: genomics data, proteomics, clinical trial data, microbiology sequences, ecological observations",
+      "Physics and chemistry datasets: experimental physics data, materials science, chemical analysis, spectroscopy",
+      "Social science and humanities datasets: survey data, economic indicators, demographic data, historical records",
+      "Engineering and technology datasets: computer science benchmarks, machine learning training data, engineering measurements",
+      "Data citation services: DOI and CSTR persistent identifier assignment for research datasets",
+      "Dataset search and metadata: searchable catalog with rich metadata, subject classification, and temporal-spatial indexing",
+      "Data peer review: quality-assessed datasets with community review processes",
+      "Long-term preservation: versioned archival storage with disaster recovery backup",
+      "API access: programmatic data retrieval for large-scale data analytics"
+    ],
+    "zh": [
+      "地球与环境科学数据集：气候观测、遥感数据、地质调查、生物多样性记录",
+      "生命科学数据集：基因组学数据、蛋白质组学、临床试验数据、微生物序列、生态观测",
+      "物理与化学数据集：实验物理数据、材料科学、化学分析、光谱学",
+      "社会科学与人文数据集：调查数据、经济指标、人口统计数据、历史档案",
+      "工程与技术数据集：计算机科学基准、机器学习训练数据、工程测量",
+      "数据引用服务：为科研数据集分配DOI和CSTR持久性标识符",
+      "数据集检索与元数据：具有丰富元数据、学科分类和时空索引的可检索目录",
+      "数据同行评议：经社区评审的高质量数据集",
+      "长期保存：带灾难恢复备份的版本化归档存储",
+      "API接入：支持大规模数据分析的程序化数据调用"
+    ]
+  }
+}

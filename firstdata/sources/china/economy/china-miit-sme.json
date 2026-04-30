@@ -1,0 +1,81 @@
+{
+  "id": "china-miit-sme",
+  "name": {
+    "en": "China Center for Promotion of SME Development (MIIT)",
+    "zh": "中国中小企业发展促进中心（工业和信息化部中小企业发展促进中心）"
+  },
+  "description": {
+    "en": "The China Center for Promotion of SME Development, directly subordinate to the Ministry of Industry and Information Technology (MIIT), is the central government body responsible for supporting small and medium-sized enterprise (SME) development in China. Established to implement national SME policies, the Center conducts research and analysis on SME development trends, tracks SME operational data, manages SME-related public service platforms, and provides policy advisory, financing support, innovation promotion, and international cooperation services. The Center publishes regular SME development index reports, manages China's national SME information and public service platform, compiles SME statistical data, and coordinates specialized SME programs such as the 'Specialized, Refined, Differentiated, and Innovative' (专精特新) enterprise certification. Its data is critical for understanding the health of China's SME sector which accounts for over 50% of tax revenue, 60% of GDP, 70% of innovation, 80% of employment, and 90% of enterprises nationwide.",
+    "zh": "中国中小企业发展促进中心是工业和信息化部直属事业单位，是负责支持中国中小企业发展的中央政府机构。中心成立的目的是落实国家中小企业政策，开展中小企业发展趋势研究分析，跟踪中小企业经营数据，管理中小企业相关公共服务平台，并提供政策咨询、融资支持、创新促进及国际合作服务。中心定期发布中小企业发展指数报告，管理中国中小企业信息网及公共服务平台，编制中小企业统计数据，并协调“专精特新”企业认定等专项中小企业计划。其数据对了解占全国50%以上税收、60%以上GDP、70%以上创新、80%以上就业和90%以上企业数量的中小企业部门健康状况至关重要。"
+  },
+  "website": "https://www.chinasme.org.cn/",
+  "data_url": "https://www.chinasme.org.cn/html/mcms/daohang/tongzhigonggao/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "business",
+    "governance",
+    "statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国中小企业发展促进中心",
+    "China SME Development Center",
+    "工业和信息化部",
+    "MIIT",
+    "中小企业",
+    "SME",
+    "small and medium enterprises",
+    "专精特新",
+    "specialized refined differentiated innovative",
+    "中小企业发展指数",
+    "SME development index",
+    "中小企业政策",
+    "SME policy",
+    "中小企业融资",
+    "SME financing",
+    "企业创新",
+    "enterprise innovation",
+    "公共服务平台",
+    "public service platform",
+    "企业服务",
+    "enterprise services",
+    "中小企业统计",
+    "SME statistics",
+    "小微企业",
+    "micro and small enterprises",
+    "创业创新",
+    "entrepreneurship and innovation",
+    "制造业中小企业",
+    "manufacturing SMEs"
+  ],
+  "data_content": {
+    "en": [
+      "SME development index: quarterly composite index tracking SME operating conditions across sectors including market demand, profitability, costs, financing, and confidence",
+      "SME statistical data: aggregated statistics on SME count, employment, revenue, value added, by industry and region",
+      "Specialized and sophisticated SMEs ('Little Giants') database: certified lists of 'Specialized, Refined, Differentiated, and Innovative' (专精特新) enterprises at national and provincial levels",
+      "SME policy documents: national and local policy announcements on SME taxation, financing, innovation, digital transformation",
+      "Financing service data: SME credit and loan statistics, guarantee data, direct financing trends",
+      "SME public service platform data: resources from the national SME information network covering training, consulting, technology transfer",
+      "Sectoral analysis reports: industry-specific SME development trends in manufacturing, services, and emerging industries",
+      "International cooperation projects: SME cooperation programs with EU, ASEAN, Japan, Korea, and Belt and Road countries",
+      "Enterprise service center directory: nationwide network of SME service organizations and their capabilities",
+      "Conference and exhibition data: China International SME Expo and related event information"
+    ],
+    "zh": [
+      "中小企业发展指数：跟踪中小企业经营状况的季度综合指数，涵盖市场需求、盈利能力、成本、融资及信心等维度",
+      "中小企业统计数据：分行业、分地区的中小企业数量、就业、营收、增加值等汇总统计",
+      "专精特新\"小巨人\"企业数据库：国家级和省级“专精特新”企业认定名单",
+      "中小企业政策文件：国家和地方关于中小企业税收、融资、创新、数字化转型的政策公告",
+      "融资服务数据：中小企业信贷及贷款统计、担保数据、直接融资趋势",
+      "中小企业公共服务平台数据：国家中小企业信息网资源，涵盖培训、咨询、技术转让",
+      "行业分析报告：制造业、服务业及新兴产业中小企业发展趋势研究",
+      "国际合作项目：与欧盟、东盟、日本、韩国及一带一路国家的中小企业合作计划",
+      "企业服务中心目录：全国中小企业服务机构网络及其服务能力",
+      "会议展览数据：中国国际中小企业博览会及相关活动信息"
+    ]
+  }
+}
