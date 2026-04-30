@@ -1,0 +1,56 @@
+{
+    "id": "china-catcm",
+    "name": {
+        "en": "China Association of Traditional Chinese Medicine",
+        "zh": "中国中药协会"
+    },
+    "description": {
+        "en": "The China Association of Traditional Chinese Medicine (CATCM) is the national industry organization representing traditional Chinese medicine (TCM) enterprises, including herbal medicine producers, processors, and distributors. CATCM publishes authoritative market statistics on TCM herb production volumes, wholesale prices of medicinal materials, industry output value, trade data, and market trend analyses. It is the primary source for supply-and-demand data on Chinese herbal medicine markets and a key reference for TCM industry policy and standardization.",
+        "zh": "中国中药协会（中药协）是代表中药企业（含中药材生产、加工、流通企业）的全国性行业组织。协会发布权威的中药材产量、中药材市场批发价格、行业产值、进出口贸易数据及市场趋势分析，是了解中药材供需行情和中药产业政策、标准化工作的主要数据来源。"
+    },
+    "website": "https://www.catcm.org.cn",
+    "data_url": "https://www.catcm.org.cn",
+    "api_url": null,
+    "authority_level": "other",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "monthly",
+    "domains": [
+        "health",
+        "pharmaceuticals",
+        "agriculture",
+        "trade"
+    ],
+    "tags": [
+        "china",
+        "catcm",
+        "中药协",
+        "traditional-chinese-medicine",
+        "中医药",
+        "herbal-medicine",
+        "中药材",
+        "tcm",
+        "medicinal-herbs",
+        "药材价格",
+        "herb-prices",
+        "中药产业",
+        "pharmaceuticals",
+        "market-data"
+    ],
+    "data_content": {
+        "en": [
+            "TCM Herb Market Prices - Wholesale price indices for hundreds of traditional Chinese medicinal herbs",
+            "Industry Output Statistics - Annual output value, production volumes, and enterprise data for TCM industry",
+            "Import/Export Trade Data - TCM herb and product trade statistics with major partner countries",
+            "Market Trend Reports - Periodic analyses of supply-demand dynamics in Chinese herbal medicine markets",
+            "Policy and Standardization Documents - Industry standards, quality specifications, and regulatory guidance for TCM materials"
+        ],
+        "zh": [
+            "中药材市场价格 - 数百种中药材批发价格指数",
+            "行业产值统计 - 中药行业年度产值、产量及企业数据",
+            "进出口贸易数据 - 中药材及中药产品与主要贸易伙伴的贸易统计",
+            "市场趋势报告 - 中药材市场供需动态的阶段性分析",
+            "政策与标准化文件 - 中药材行业标准、质量规范及监管指引"
+        ]
+    }
+}

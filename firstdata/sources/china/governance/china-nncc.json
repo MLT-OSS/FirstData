@@ -1,0 +1,56 @@
+{
+    "id": "china-nncc",
+    "name": {
+        "en": "China National Narcotics Control Commission",
+        "zh": "中国国家禁毒委员会"
+    },
+    "description": {
+        "en": "The China National Narcotics Control Commission (NNCC) is the top-level inter-ministerial body overseeing drug control policy and enforcement in China. Its official portal, China Anti-Drug Network (中国禁毒网), publishes authoritative national drug control reports, annual drug situation assessments, data on drug-related crimes, rehabilitation statistics, synthetic drug trend analyses, and public awareness campaign outcomes. NNCC data is the primary official source for understanding China's drug abuse epidemiology, enforcement actions, and policy progress.",
+        "zh": "中国国家禁毒委员会（禁毒委）是负责统筹协调全国禁毒工作的最高部际协调机构。其官方门户《中国禁毒网》发布权威的全国毒品形势报告、年度毒情综述、涉毒违法犯罪统计、戒毒康复数据、合成毒品趋势分析及禁毒宣传活动成效等信息，是了解中国禁毒执法、毒品滥用流行病学及政策进展的主要官方数据来源。"
+    },
+    "website": "http://www.nncc626.com",
+    "data_url": "http://www.nncc626.com",
+    "api_url": null,
+    "authority_level": "government",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "public-safety",
+        "governance",
+        "health",
+        "crime"
+    ],
+    "tags": [
+        "china",
+        "nncc",
+        "禁毒委",
+        "drug-control",
+        "禁毒",
+        "narcotics",
+        "毒品",
+        "anti-drug",
+        "drug-crime",
+        "涉毒犯罪",
+        "rehabilitation",
+        "戒毒",
+        "drug-situation",
+        "毒品形势"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Drug Situation Reports - National drug abuse trends, seizure volumes, and enforcement statistics",
+            "Drug-Related Crime Data - Arrests, prosecutions, and conviction statistics for narcotics offenses",
+            "Rehabilitation Statistics - Data on compulsory drug detoxification and community-based recovery programs",
+            "Synthetic Drug Trends - Intelligence and statistical analyses on new psychoactive substances",
+            "Drug Control Policy Documents - Laws, regulations, and national action plans for drug prevention and control"
+        ],
+        "zh": [
+            "年度毒品形势报告 - 全国毒品滥用趋势、缴获数量及执法统计",
+            "涉毒违法犯罪数据 - 毒品犯罪的抓获、起诉及定罪统计",
+            "戒毒康复统计 - 强制隔离戒毒及社区康复计划数据",
+            "合成毒品趋势分析 - 新型精神活性物质情报及统计分析",
+            "禁毒政策文件 - 禁毒相关法律法规及国家行动计划"
+        ]
+    }
+}

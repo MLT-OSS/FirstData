@@ -1,0 +1,55 @@
+{
+    "id": "china-cfpa",
+    "name": {
+        "en": "China Fire Protection Association",
+        "zh": "中国消防协会"
+    },
+    "description": {
+        "en": "The China Fire Protection Association (CFPA) is the national academic and industry organization for fire safety and emergency rescue, operating under the guidance of the Ministry of Emergency Management. CFPA publishes annual fire statistics reports covering the number of fire incidents, casualties, economic losses, fire causes, and building type breakdowns across China. It also produces technical standards, scientific research outputs, and fire prevention guidance. CFPA data is the authoritative source for national fire safety situation analysis and urban fire risk assessment.",
+        "zh": "中国消防协会（消防协会）是在应急管理部指导下开展消防科技与行业自律的全国性社团组织。协会发布年度火灾统计报告，涵盖全国火灾起数、伤亡人数、直接经济损失、起火原因及建筑类型分布等数据，同时出版技术标准、科研成果及消防宣传材料。消防协会数据是分析全国火灾安全形势和城市火灾风险的权威来源。"
+    },
+    "website": "http://www.cfpa.cn",
+    "data_url": "http://www.cfpa.cn",
+    "api_url": null,
+    "authority_level": "other",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "public-safety",
+        "emergency-management",
+        "statistics"
+    ],
+    "tags": [
+        "china",
+        "cfpa",
+        "消防协会",
+        "fire-protection",
+        "消防",
+        "fire-safety",
+        "消防安全",
+        "emergency-management",
+        "应急管理",
+        "fire-statistics",
+        "火灾统计",
+        "disaster",
+        "safety",
+        "annual-report"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Fire Statistics - National fire incident count, casualties, economic losses, and fire cause analysis",
+            "Regional Fire Data - Provincial and city-level fire occurrence and loss breakdowns",
+            "Building Type Fire Analysis - Fire statistics segmented by residential, commercial, industrial, and public facility types",
+            "Fire Prevention Standards - Technical standards and guidelines for fire risk assessment and prevention",
+            "Research Publications - Academic papers and reports on fire science, suppression technology, and safety engineering"
+        ],
+        "zh": [
+            "年度火灾统计 - 全国火灾起数、伤亡人数、直接经济损失及起火原因分析",
+            "地区火灾数据 - 各省市火灾发生情况及损失分布",
+            "建筑类型火灾分析 - 按住宅、商业、工业及公共设施分类的火灾统计",
+            "消防技术标准 - 火灾风险评估与预防的技术规范和指引",
+            "科研出版物 - 消防科学、灭火技术及安全工程学术论文与报告"
+        ]
+    }
+}
