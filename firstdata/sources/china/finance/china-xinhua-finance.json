@@ -1,0 +1,82 @@
+{
+  "id": "china-xinhua-finance",
+  "name": {
+    "en": "Xinhua Finance - China Financial Information Network",
+    "zh": "新华财经 - 中国金融信息网"
+  },
+  "description": {
+    "en": "Xinhua Finance (中国金融信息网 / cnfin.com) is China's national financial information service platform operated by China Economic Information Service (CEIS), a wholly-owned subsidiary of Xinhua News Agency — China's state-run press agency. As the official financial information service of Xinhua, Xinhua Finance is authorized to deliver authoritative economic and financial data, market analytics, and financial news to domestic and international users. The platform provides real-time coverage of China's bond, equity, commodity, foreign exchange, and money markets; publishes proprietary indices such as the Xinhua Bond Index, Xinhua 08 Financial Data Terminal, and Silk Road Credit Ratings; and distributes exclusive macroeconomic reports, monetary policy analysis, and industry research. Xinhua Finance collaborates with major international financial information providers (e.g., S&P Global, Refinitiv) and serves government agencies, financial institutions, research organizations, and enterprises. It has been designated as an authoritative information dissemination channel for China's financial market opening and Belt and Road financial cooperation.",
+    "zh": "新华财经（中国金融信息网 / cnfin.com）是由新华社全资子公司中国经济信息社运营的国家级金融信息服务平台。作为新华社官方金融信息服务，新华财经被授权向国内外用户提供权威的经济金融数据、市场分析及金融新闻。平台实时报道中国债券、股票、商品、外汇及货币市场；发布新华债券指数、新华08金融数据终端、丝路信用评级等自主指数产品；并发布独家宏观经济报告、货币政策分析及行业研究。新华财经与标普全球、路孚特等国际主流金融信息服务商开展合作，服务对象包括政府部门、金融机构、研究机构及企业。新华财经被指定为中国金融市场开放和“一带一路”金融合作的权威信息发布渠道。"
+  },
+  "website": "https://www.cnfin.com/",
+  "data_url": "https://www.cnfin.com/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "markets",
+    "media"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "新华财经",
+    "Xinhua Finance",
+    "中国金融信息网",
+    "China Financial Information Network",
+    "新华社",
+    "Xinhua News Agency",
+    "中国经济信息社",
+    "CEIS",
+    "金融数据",
+    "financial data",
+    "新华债券指数",
+    "Xinhua Bond Index",
+    "新华08",
+    "Xinhua 08 terminal",
+    "货币政策",
+    "monetary policy",
+    "债券市场",
+    "bond market",
+    "外汇市场",
+    "FX market",
+    "商品市场",
+    "commodity market",
+    "宏观经济",
+    "macroeconomics",
+    "丝路信用",
+    "Silk Road credit ratings",
+    "金融科技",
+    "fintech",
+    "一带一路金融",
+    "Belt and Road finance"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time market data: equity, bond, commodity, FX, and money market prices and trading information for China's major exchanges and interbank markets",
+      "Xinhua Bond Index series: proprietary indices tracking performance of Chinese bond markets including government, financial, corporate, and green bonds",
+      "Xinhua 08 Financial Data Terminal: professional financial data platform for banks, brokerages, funds, and research institutions",
+      "Economic indicators: coverage of PMI, CPI, PPI, GDP, trade, industrial output, and other key Chinese macroeconomic data releases",
+      "Monetary policy and central bank communications: real-time reporting of PBOC and regulator announcements, analysis of policy direction",
+      "Industry research reports: sector analysis covering technology, manufacturing, finance, energy, and emerging industries",
+      "Silk Road credit ratings: credit ratings focused on Belt and Road sovereign and corporate issuers",
+      "Xinhua financial news: authoritative financial journalism with emphasis on China and Asia-Pacific markets",
+      "Green finance and ESG data: Chinese green bond market tracking, ESG disclosures analysis",
+      "International market coverage: global economic and financial news translated and contextualized for Chinese users"
+    ],
+    "zh": [
+      "实时市场数据：中国主要交易所和银行间市场的股票、债券、大宗商品、外汇及货币市场价格与交易信息",
+      "新华债券指数系列：跟踪中国债券市场（含国债、金融债、企业债、绿色债券）表现的自主指数",
+      "新华08金融数据终端：面向银行、证券、基金及研究机构的专业金融数据平台",
+      "经济指标：中国PMI、CPI、PPI、GDP、贸易、工业产出等重要宏观经济数据发布覆盖",
+      "货币政策与央行沟通：中国人民银行及监管机构公告的实时报道，政策方向分析",
+      "行业研究报告：涵盖科技、制造、金融、能源及新兴产业的行业分析",
+      "丝路信用评级：聚焦一带一路主权和企业发行人的信用评级",
+      "新华财经新闻：权威财经新闻报道，侧重中国及亚太市场",
+      "绿色金融与ESG数据：中国绿色债券市场跟踪、ESG信息披露分析",
+      "国际市场报道：全球经济金融新闻的翻译与本地化解读"
+    ]
+  }
+}
