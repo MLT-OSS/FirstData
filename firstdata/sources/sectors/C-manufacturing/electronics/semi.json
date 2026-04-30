@@ -5,7 +5,7 @@
     "zh": "SEMI国际半导体产业协会"
   },
   "description": {
-    "en": "SEMI is the global industry association connecting over 3,000 member companies across the electronics design and manufacturing supply chain. Founded in 1970, SEMI provides authoritative market data and industry statistics for the semiconductor equipment, materials, and manufacturing sectors. It publishes the World Fab Forecast, equipment market statistics, materials market reports, and comprehensive industry analysis covering wafer fabrication, packaging, and testing. SEMI's data is the industry standard reference for semiconductor capital expenditure trends, fab construction activity, equipment billings, and supply chain dynamics worldwide.",
+    "en": "SEMI is the global industry association connecting over 3,000 member companies across the electronics design and manufacturing supply chain. Founded in 1970, SEMI provides authoritative market data and industry statistics for the semiconductor equipment, materials, and manufacturing sectors. It publishes the World Fab Forecast, equipment market statistics, materials market reports, and comprehensive industry analysis covering wafer fabrication, packaging, and testing. SEMI's data is the industry standard reference for semiconductor capital expenditure trends, fab construction activity, equipment billings, and supply chain dynamics worldwide. Note: Website returns 403 for automated requests (WAF/bot protection). Content accessible via standard browser.",
     "zh": "SEMI国际半导体产业协会是连接全球3000多家会员企业的电子设计和制造供应链行业协会。SEMI成立于1970年，为半导体设备、材料和制造行业提供权威的市场数据和行业统计。发布全球晶圆厂预测报告、设备市场统计、材料市场报告以及涵盖晶圆制造、封装和测试的综合行业分析。SEMI的数据是半导体资本支出趋势、晶圆厂建设动态、设备出货额和全球供应链分析的行业标准参考。"
   },
   "website": "https://semi.org",
@@ -61,6 +61,5 @@
       "晶圆厂建设：全球新晶圆厂公告、建设时间表和投资金额",
       "区域分析：按中国、台湾、韩国、北美等主要地区分类的半导体市场数据"
     ]
-  },
-  "access_notes": "Website returns 403 for automated requests (WAF/bot protection). Content accessible via standard browser."
+  }
 }
