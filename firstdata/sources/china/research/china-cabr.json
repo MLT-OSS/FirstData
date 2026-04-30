@@ -1,0 +1,76 @@
+{
+  "id": "china-cabr",
+  "name": {
+    "en": "China Academy of Building Research",
+    "zh": "中国建筑科学研究院有限公司"
+  },
+  "description": {
+    "en": "The China Academy of Building Research (CABR) is China's top comprehensive research and development institution in the field of engineering construction, founded in 1953 and formerly under the Ministry of Housing and Urban-Rural Development (MOHURD). CABR is the primary technical body responsible for drafting and revising China's national and industry standards for construction, including the national Building Code (GB 50010), Seismic Design Code, Energy Efficiency Standards, and Fire Protection Code. The academy operates multiple national laboratories and testing centers, and maintains authoritative databases on building energy performance, structural safety, fire resistance ratings, and building materials quality. CABR has led the development of China's green building evaluation standard (GB/T 50378) and publishes research on building technology, energy efficiency, indoor environment quality, and smart buildings. It is the national technical authority that supports MOHURD policies and urban-rural construction regulation.",
+    "zh": "中国建筑科学研究院有限公司（中国建研院，CABR）成立于1953年，是中国工程建设领域顶级综合性科学研究开发机构，原属住房和城乡建设部管理。CABR是负责起草和修订中国建筑国家标准和行业标准的主要技术机构，包括《混凝土结构设计标准》（GB 50010）、抗震设计规范、建筑节能标准和消防规范。学院运营多个国家实验室和检测中心，维护建筑能效、结构安全、防火性能等级和建筑材料质量权威数据库。CABR主导制定了中国绿色建筑评价标准（GB/T 50378），并发布建筑技术、节能、室内环境质量和智慧建筑研究成果，是支撑住建部政策和城乡建设监管的国家技术权威机构。"
+  },
+  "website": "https://www.cabr.cn",
+  "data_url": "https://www.cabr.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "construction",
+    "engineering",
+    "science",
+    "environment"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国建筑科学研究院",
+    "CABR",
+    "建筑标准",
+    "construction standards",
+    "建筑规范",
+    "building code",
+    "抗震设计",
+    "seismic design",
+    "建筑节能",
+    "building energy efficiency",
+    "绿色建筑",
+    "green building",
+    "GB 50010",
+    "GB/T 50378",
+    "结构安全",
+    "structural safety",
+    "防火性能",
+    "fire resistance",
+    "建筑材料",
+    "building materials",
+    "室内环境",
+    "indoor environment",
+    "智慧建筑",
+    "smart buildings",
+    "住房和城乡建设部",
+    "MOHURD",
+    "国家实验室",
+    "national laboratory",
+    "工程建设",
+    "engineering construction",
+    "城乡建设",
+    "urban-rural construction"
+  ],
+  "data_content": {
+    "en": [
+      "Construction standards and codes database: full texts and technical interpretations of major national and industry standards drafted by CABR, including structural design codes (GB 50010 concrete, GB 50017 steel), seismic design standards, fire protection codes, and building energy efficiency standards",
+      "Building energy performance data: research datasets on energy consumption benchmarks for residential and public buildings across different climate zones in China, supporting the implementation of mandatory energy efficiency standards and green building certification",
+      "Structural safety testing results: laboratory test data on concrete, steel, composite structures, and building materials under static, dynamic, and extreme loading conditions, underpinning national standard development",
+      "Green building evaluation data: assessment results from China's Green Building Label certification program (GB/T 50378), including energy, water, material, indoor environment, and site management performance indicators for certified buildings",
+      "Indoor environment quality research: datasets on indoor air quality, thermal comfort, acoustics, and lighting in Chinese buildings, informing national health and safety standards for construction",
+      "Construction technology research outputs: technical reports, engineering case studies, and data on innovative construction technologies including prefabricated buildings, BIM applications, and smart building systems published by CABR research institutes"
+    ],
+    "zh": [
+      "建筑标准和规范数据库：CABR起草的主要国家标准和行业标准全文及技术解读，包括结构设计规范（GB 50010混凝土、GB 50017钢结构）、抗震设计标准、消防规范和建筑节能标准",
+      "建筑能效数据：中国不同气候区住宅和公共建筑能耗基准研究数据集，支持强制性节能标准实施和绿色建筑认证",
+      "结构安全测试数据：混凝土、钢材、组合结构和建筑材料在静态、动态和极端荷载条件下的实验室测试数据，支撑国家标准制定",
+      "绿色建筑评估数据：中国绿色建筑标识认证项目（GB/T 50378）的评估结果，包括认证建筑的能源、水资源、材料、室内环境和场地管理绩效指标",
+      "室内环境质量研究：中国建筑室内空气质量、热舒适度、声学和照明数据集，为建筑健康与安全国家标准提供依据",
+      "建筑技术研究成果：CABR各研究院所发布的技术报告、工程案例研究以及装配式建筑、BIM应用和智慧建筑系统等创新建筑技术数据"
+    ]
+  }
+}

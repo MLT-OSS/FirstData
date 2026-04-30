@@ -1,0 +1,72 @@
+{
+  "id": "china-iamac",
+  "name": {
+    "en": "China Association of Banking and Insurance Asset Management",
+    "zh": "中国银行保险资产管理业协会"
+  },
+  "description": {
+    "en": "The China Association of Banking and Insurance Asset Management (IAMAC) is a national industry self-regulatory organization established in 2021 under the supervision of the National Financial Regulatory Administration (NFRA, formerly CBIRC). IAMAC represents and serves wealth management subsidiaries of commercial banks, insurance asset management companies, and related financial institutions engaged in asset management business in China. The association publishes industry statistical reports, research white papers, regulatory compliance guidelines, and market data on China's banking and insurance asset management sector. IAMAC maintains data on the scale, structure, and performance of wealth management products (理财产品), insurance asset management products, and the aggregate asset management business across its member institutions. It is a key source for understanding the structure and development of China's non-securities asset management industry, which manages over 60 trillion yuan in assets.",
+    "zh": "中国银行保险资产管理业协会（IAMAC）成立于2021年，是在国家金融监督管理总局（原银保监会）监督指导下成立的全国性行业自律组织。协会代表并服务于商业银行理财子公司、保险资产管理公司及从事资产管理业务的相关金融机构。协会发布行业统计报告、研究白皮书、监管合规指引和中国银行保险资产管理行业市场数据。IAMAC维护会员机构理财产品、保险资管产品及资产管理业务总体规模、结构和绩效数据，是了解中国非证券类资产管理行业结构和发展的重要数据来源，该行业管理资产规模超60万亿元人民币。"
+  },
+  "website": "https://www.iamac.org.cn",
+  "data_url": "https://www.iamac.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "中国银行保险资产管理业协会",
+    "IAMAC",
+    "银行理财",
+    "bank wealth management",
+    "理财子公司",
+    "wealth management subsidiary",
+    "保险资产管理",
+    "insurance asset management",
+    "资产管理",
+    "asset management",
+    "理财产品",
+    "wealth management products",
+    "国家金融监督管理总局",
+    "NFRA",
+    "CBIRC",
+    "银保监会",
+    "行业统计",
+    "industry statistics",
+    "自律组织",
+    "self-regulatory organization",
+    "资管新规",
+    "asset management regulation",
+    "净值型产品",
+    "net asset value products",
+    "信托",
+    "trust",
+    "债券投资",
+    "bond investment",
+    "非标资产",
+    "non-standard assets"
+  ],
+  "data_content": {
+    "en": [
+      "Banking wealth management industry statistics: quarterly and annual reports on the total scale of wealth management products issued by commercial banks and their wealth management subsidiaries, including product type breakdown (fixed-income, equity, mixed), maturity structure, and investor categories",
+      "Insurance asset management industry data: aggregate data on insurance funds allocation across different asset classes (bonds, equities, real estate, alternative investments), investment returns, and risk exposure of insurance asset management companies",
+      "Market research white papers: in-depth industry research reports covering market development trends, regulatory impact analysis, product innovation, ESG investment in asset management, and cross-border investment data for the banking and insurance asset management sector",
+      "Regulatory compliance guidelines: industry self-regulatory guidelines, business conduct standards, and compliance reference materials for member institutions on wealth management product design, risk disclosure, investor suitability assessment, and information disclosure",
+      "Product registration and information disclosure data: aggregated data from the industry product registration system covering issuance scale, product performance, fee structures, and underlying asset information for bank wealth management and insurance asset management products",
+      "Investor structure and behavior data: analysis of wealth management product investor profiles, investment preferences, risk tolerance distribution, and market trends in Chinese retail and institutional investor participation in the non-securities asset management market"
+    ],
+    "zh": [
+      "银行理财行业统计：商业银行及其理财子公司发行理财产品总规模季度和年度报告，包括产品类型细分（固收类、权益类、混合类）、期限结构和投资者类别",
+      "保险资管行业数据：保险资金在不同资产类别（债券、股票、房地产、另类投资）的配置总量数据、投资收益和保险资产管理公司风险敞口",
+      "市场研究白皮书：涵盖市场发展趋势、监管影响分析、产品创新、资管领域ESG投资和银行保险资产管理跨境投资数据的深度行业研究报告",
+      "监管合规指引：理财产品设计、风险信息披露、投资者适当性评估和信息公示方面的行业自律指引、业务行为准则和会员机构合规参考材料",
+      "产品登记和信息披露数据：行业产品登记系统汇总数据，涵盖银行理财和保险资管产品的发行规模、产品业绩、费率结构和底层资产信息",
+      "投资者结构和行为数据：中国零售和机构投资者参与非证券类资产管理市场的理财产品投资者画像、投资偏好、风险承受分布和市场趋势分析"
+    ]
+  }
+}

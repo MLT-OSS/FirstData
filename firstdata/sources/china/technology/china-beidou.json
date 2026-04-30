@@ -1,0 +1,76 @@
+{
+  "id": "china-beidou",
+  "name": {
+    "en": "BeiDou Navigation Satellite System",
+    "zh": "北斗卫星导航系统"
+  },
+  "description": {
+    "en": "The BeiDou Navigation Satellite System (BDS) is China's independently developed global satellite navigation system, managed by the China Satellite Navigation Office (CSNO) under the State Council. Fully operational since 2020 with 35 satellites, BDS is one of the four global navigation systems recognized by the United Nations and provides positioning, navigation, timing, and short message communication services worldwide. The official website publishes signal interface control documents, system performance standards, open service performance reports, satellite constellation status, and technical specifications for receivers and applications. BDS data are essential for precision agriculture, surveying, transportation, disaster relief, and maritime navigation. The system achieves positioning accuracy of ≤1.5m horizontal globally (≤1m in Asia-Pacific) and supports high-precision augmented services for centimeter-level accuracy.",
+    "zh": "北斗卫星导航系统（BDS）是中国自主研发的全球卫星导航系统，由国务院下设的中国卫星导航系统管理办公室负责运营。北斗系统于2020年全面建成，部署35颗卫星，是联合国认可的四大全球导航系统之一，向全球用户提供定位、导航、授时和短报文通信服务。官网发布信号接口控制文件、系统性能标准、开放服务性能评估报告、卫星星座状态和接收机及应用技术规范。北斗数据广泛应用于精准农业、测量测绘、交通运输、抗灾救灾和海上导航等领域。系统全球水平定位精度≤1.5米（亚太地区≤1米），并支持厘米级高精度增强服务。"
+  },
+  "website": "http://www.beidou.gov.cn",
+  "data_url": "http://www.beidou.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "technology",
+    "science",
+    "infrastructure"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "北斗",
+    "BeiDou",
+    "BDS",
+    "卫星导航",
+    "satellite navigation",
+    "GNSS",
+    "全球导航卫星系统",
+    "global navigation satellite system",
+    "定位",
+    "positioning",
+    "导航",
+    "navigation",
+    "授时",
+    "timing",
+    "短报文",
+    "short message communication",
+    "信号接口控制文件",
+    "interface control document",
+    "ICD",
+    "系统性能",
+    "system performance",
+    "卫星星座",
+    "satellite constellation",
+    "精准定位",
+    "precision positioning",
+    "高精度增强",
+    "high-precision augmentation",
+    "中国卫星导航系统管理办公室",
+    "CSNO",
+    "精准农业",
+    "precision agriculture",
+    "联合国",
+    "United Nations"
+  ],
+  "data_content": {
+    "en": [
+      "Signal interface control documents (ICD): detailed technical specifications for BDS open service signals (B1I, B1C, B2a, B2b, B3I), including signal structure, modulation schemes, navigation message formats, and ranging code parameters for receiver developers and researchers",
+      "System performance reports: annual and quarterly open service performance assessment reports covering positioning accuracy, availability, continuity, and integrity metrics for the global and Asia-Pacific service areas",
+      "Satellite constellation status: real-time and historical information on the operational status of BDS satellites including GEO, IGSO, and MEO satellites, health status, and signal-in-space range error (SISRE) data",
+      "Technical standards and specifications: national standards and industry standards for BDS receivers, applications, testing methods, and compatibility with other GNSS systems (GPS, GLONASS, Galileo)",
+      "Official announcements and policy documents: notices of satellite maneuvers, signal outages, system updates, new service launches, and policy documents governing BDS technology export and application development",
+      "Application development resources: technical reference materials, development kits documentation, and guidelines for integrating BDS into smart transportation, precision agriculture, maritime navigation, and emergency response systems"
+    ],
+    "zh": [
+      "信号接口控制文件（ICD）：北斗开放服务信号（B1I、B1C、B2a、B2b、B3I）的详细技术规范，包括信号结构、调制方案、导航电文格式和测距码参数，供接收机开发商和研究人员使用",
+      "系统性能报告：年度和季度开放服务性能评估报告，涵盖全球和亚太服务区的定位精度、可用性、连续性和完整性指标",
+      "卫星星座状态：北斗GEO、IGSO和MEO卫星的实时和历史运行状态信息，包括卫星健康状态和空间信号测距误差（SISRE）数据",
+      "技术标准和规范：北斗接收机、应用、测试方法及与其他GNSS系统（GPS、GLONASS、Galileo）兼容性的国家标准和行业标准",
+      "官方公告和政策文件：卫星机动、信号中断、系统更新、新服务开通的通知，以及北斗技术出口和应用开发管理政策文件",
+      "应用开发资源：将北斗集成到智慧交通、精准农业、海上导航和应急响应系统的技术参考资料、开发套件文档和集成指南"
+    ]
+  }
+}
