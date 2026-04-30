@@ -153,9 +153,10 @@
     },
     "tags": {
       "type": "array",
-      "description": "Search tags - mixed Chinese/English keywords, synonyms, data types, and related terms for improved discoverability",
+      "description": "Search tags - mixed Chinese/English keywords, synonyms, data types, and related terms for improved discoverability. Must not contain whitespace; use hyphens for multi-word English phrases (e.g., 'economic-growth' not 'economic growth'). Convention: new ASCII-only entries SHOULD be lowercase (gdp/ipo); mixed CJK+ASCII acronyms (AI产业/3C认证/A股) MUST preserve ASCII case.",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^\\S+$"
       },
       "minItems": 1,
       "examples": [
