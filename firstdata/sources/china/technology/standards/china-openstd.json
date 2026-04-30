@@ -1,0 +1,79 @@
+{
+  "id": "china-openstd",
+  "name": {
+    "en": "China National Standards Full Text Public Access System",
+    "zh": "国家标准全文公开系统"
+  },
+  "description": {
+    "en": "The National Standards Full Text Public Access System (国家标准全文公开系统) is an official platform operated by the State Administration for Market Regulation (SAMR) that provides free public access to the full text of Chinese national standards (GB and GB/T standards). Launched to fulfill the mandate of China's Standardization Law, the system enables any user to read, search, and download the complete text of mandatory and recommended national standards covering industrial products, safety, environmental protection, health, infrastructure, and information technology. The platform houses over 40,000 active national standards and provides access to withdrawn and historical standards for reference. It is the authoritative open repository for China's national standardization system and is essential for enterprises, researchers, regulators, and trading partners seeking to comply with or analyze China's technical standards framework.",
+    "zh": "国家标准全文公开系统是由国家市场监督管理总局（市监总局）运营的官方平台，向社会免费提供中国国家标准（GB、GB/T标准）全文公开查询和下载服务。系统依据《标准化法》要求建设，任何用户均可检索和下载工业产品、安全、环境保护、卫生、基础设施和信息技术等领域强制性和推荐性国家标准全文。平台收录现行有效国家标准逾4万项，并提供废止和历史标准查询功能。该系统是中国国家标准体系的权威开放资源库，是企业合规、研究机构分析、监管机构参考及贸易伙伴了解中国技术标准体系的核心工具。"
+  },
+  "website": "https://openstd.samr.gov.cn/",
+  "data_url": "https://openstd.samr.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "governance"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家标准全文公开系统",
+    "国家标准",
+    "national standards",
+    "GB标准",
+    "GB standards",
+    "GB/T",
+    "推荐性标准",
+    "recommended standards",
+    "强制性标准",
+    "mandatory standards",
+    "市场监督管理总局",
+    "SAMR",
+    "标准化",
+    "standardization",
+    "技术标准",
+    "technical standards",
+    "产品标准",
+    "product standards",
+    "安全标准",
+    "safety standards",
+    "环保标准",
+    "environmental standards",
+    "合规",
+    "compliance",
+    "贸易壁垒",
+    "trade barriers",
+    "标准查询",
+    "standards search",
+    "工业标准",
+    "industrial standards",
+    "信息技术标准",
+    "IT standards"
+  ],
+  "data_content": {
+    "en": [
+      "Mandatory national standards (GB): full text of compulsory standards that enterprises and products must comply with to be sold in China",
+      "Recommended national standards (GB/T): full text of voluntary technical standards covering industrial products, processes, and services",
+      "Standard metadata: standard number, title, applicable scope, issuing authority, effective date, and revision history",
+      "Historical standards: withdrawn and superseded standards for historical compliance reference and research",
+      "Standard classification: browsable by International Classification for Standards (ICS) and China Standard Classification (CCS) codes",
+      "Cross-reference data: relationships between national standards and corresponding international standards (ISO, IEC, ITU)",
+      "Sector-specific standards: standards for food safety, construction, automotive, electronics, chemicals, textiles, health, and environmental protection",
+      "Standards adoption data: tracking the adoption rate of international standards into China's national standards framework"
+    ],
+    "zh": [
+      "强制性国家标准（GB）：企业和产品在中国境内销售必须遵守的强制性标准全文",
+      "推荐性国家标准（GB/T）：涵盖工业产品、工艺流程和服务的自愿性技术标准全文",
+      "标准元数据：标准编号、标题、适用范围、发布机构、实施日期和修订历史",
+      "历史标准：已废止和被替代标准，供历史合规参考和研究使用",
+      "标准分类：按国际标准分类法（ICS）和中国标准分类法（CCS）浏览",
+      "交叉引用数据：国家标准与对应国际标准（ISO、IEC、ITU）的对照关系",
+      "行业专项标准：食品安全、建筑、汽车、电子、化工、纺织、卫生和环保等领域的标准",
+      "标准采标数据：追踪国际标准转化为中国国家标准的采标率"
+    ]
+  }
+}

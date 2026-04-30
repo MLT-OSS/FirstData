@@ -1,0 +1,84 @@
+{
+  "id": "china-pkulaw",
+  "name": {
+    "en": "PKU Law (Peking University Law Database)",
+    "zh": "北大法宝"
+  },
+  "description": {
+    "en": "PKU Law (Peking University Law, 北大法宝) is China's most comprehensive legal database, operated by the Institute of Legal Information of Peking University Law School. It aggregates the full text of Chinese laws, administrative regulations, judicial interpretations, local regulations, court judgments, legal journals, and legislative history from 1949 to the present. The database covers over 10 million legal documents including all national legislation promulgated by the National People's Congress (NPC), State Council regulations, ministry-level normative documents, provincial and municipal local laws, Supreme People's Court and Supreme People's Procuratorate judicial interpretations, and millions of court verdicts. PKU Law is the authoritative legal reference for legal practitioners, judiciary officials, government agencies, corporations, academic researchers, and law schools across China. The database is continuously updated with new legislative developments and court decisions, making it the primary tool for tracking China's evolving legal framework.",
+    "zh": "北大法宝（北京大学法律信息中心）是中国最权威、最全面的法律数据库，由北京大学法学院法律信息中心运营。数据库收录了1949年至今的中国法律、行政法规、司法解释、地方法规、法院判决、法学期刊及立法历史全文，覆盖超过1000万份法律文件，包括全国人民代表大会颁布的国家立法、国务院法规、部委规范性文件、省市地方法规、最高人民法院和最高人民检察院司法解释，以及数百万份裁判文书。北大法宝是全国法律从业者、司法人员、政府机关、企业法务、学术研究者和法学院校的权威法律参考工具，持续更新最新立法动态和判决信息，是追踪中国法制演进的核心平台。"
+  },
+  "website": "https://www.pkulaw.com/",
+  "data_url": "https://www.pkulaw.com/law",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "law",
+    "policy"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "北大法宝",
+    "PKU Law",
+    "Peking University Law",
+    "中国法律",
+    "Chinese law",
+    "法律数据库",
+    "legal database",
+    "法规",
+    "regulations",
+    "司法解释",
+    "judicial interpretations",
+    "裁判文书",
+    "court judgments",
+    "地方法规",
+    "local regulations",
+    "立法",
+    "legislation",
+    "全国人大",
+    "NPC",
+    "国务院",
+    "State Council",
+    "法学期刊",
+    "legal journals",
+    "法条",
+    "legal provisions",
+    "行政法规",
+    "administrative regulations",
+    "规范性文件",
+    "normative documents",
+    "法律检索",
+    "legal research",
+    "合规",
+    "compliance"
+  ],
+  "data_content": {
+    "en": [
+      "National legislation: full text of all laws enacted by the National People's Congress (NPC) and its Standing Committee from 1949 to present",
+      "Administrative regulations: State Council regulations, implementation rules, and policy documents",
+      "Judicial interpretations: Supreme People's Court and Supreme People's Procuratorate interpretations, guiding cases, and judicial policies",
+      "Local regulations: provincial, municipal, and special economic zone legislation and government rules",
+      "Ministry-level normative documents: departmental regulations and rules from all central government ministries",
+      "Court judgments: millions of civil, criminal, administrative, and commercial court verdicts at all levels",
+      "Legal journals: full text of major Chinese law reviews and legal academic publications",
+      "Legislative history: revision history, explanatory notes, and comparative analysis of legislative changes",
+      "International treaties: treaties and conventions signed and ratified by China",
+      "Legal Q&A and commentary: expert legal analysis and practice guides"
+    ],
+    "zh": [
+      "国家立法：全国人民代表大会及其常委会自1949年至今颁布的所有法律全文",
+      "行政法规：国务院法规、实施细则及政策文件",
+      "司法解释：最高人民法院和最高人民检察院司法解释、指导性案例及司法政策",
+      "地方法规：省级、市级及经济特区立法和政府规章",
+      "部委规范性文件：各中央部委制定的部门规章和规范性文件",
+      "裁判文书：各级法院民事、刑事、行政及商事裁判文书数百万份",
+      "法学期刊：主要中国法学评论和法律学术出版物全文",
+      "立法历史：法规修订历史、立法说明及法律变迁比较分析",
+      "国际条约：中国签署和批准的条约及国际公约",
+      "法律问答与评注：专家法律分析及实务指南"
+    ]
+  }
+}
