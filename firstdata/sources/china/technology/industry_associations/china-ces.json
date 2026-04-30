@@ -40,7 +40,25 @@
   "website": "https://www.ces.org.cn",
   "data_url": "https://www.ces.org.cn",
   "api_url": null,
-  "domains": ["energy", "manufacturing"],
-  "tags": ["electrical-engineering", "power-electronics", "smart-grid", "energy-storage", "electric-motors", "电工", "电气工程", "电力电子", "智能电网", "储能", "新能源", "CES", "中国电工技术学会", "transformers"],
+  "domains": [
+    "energy",
+    "manufacturing"
+  ],
+  "tags": [
+    "electrical-engineering",
+    "power-electronics",
+    "smart-grid",
+    "energy-storage",
+    "electric-motors",
+    "电工",
+    "电气工程",
+    "电力电子",
+    "智能电网",
+    "储能",
+    "新能源",
+    "ces",
+    "中国电工技术学会",
+    "transformers"
+  ],
   "update_frequency": "irregular"
 }

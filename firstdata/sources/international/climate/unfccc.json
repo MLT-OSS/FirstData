@@ -13,10 +13,27 @@
   "api_url": "https://di.unfccc.int/api",
   "authority_level": "international",
   "country": null,
-  "domains": ["climate", "environment", "energy"],
+  "domains": [
+    "climate",
+    "environment",
+    "energy"
+  ],
   "geographic_scope": "global",
   "update_frequency": "annual",
-  "tags": ["climate-change", "气候变化", "greenhouse-gas", "温室气体", "NDC", "国家自主贡献", "Paris-Agreement", "巴黎协定", "carbon-neutrality", "碳中和", "emissions-inventory", "排放清单"],
+  "tags": [
+    "climate-change",
+    "气候变化",
+    "greenhouse-gas",
+    "温室气体",
+    "ndc",
+    "国家自主贡献",
+    "paris-agreement",
+    "巴黎协定",
+    "carbon-neutrality",
+    "碳中和",
+    "emissions-inventory",
+    "排放清单"
+  ],
   "data_content": {
     "en": [
       "National greenhouse gas inventory data reported by 197 parties",

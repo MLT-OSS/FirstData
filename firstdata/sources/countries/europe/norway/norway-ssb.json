@@ -14,10 +14,29 @@
   "api_url": "https://data.ssb.no/api/v0/en/table/",
   "authority_level": "government",
   "country": "NO",
-  "domains": ["economics", "demographics", "environment", "health", "education", "labor"],
+  "domains": [
+    "economics",
+    "demographics",
+    "environment",
+    "health",
+    "education",
+    "labor"
+  ],
   "geographic_scope": "national",
   "update_frequency": "quarterly",
-  "tags": ["norway", "ssb", "statistics norway", "nordic", "挪威", "统计局", "人口", "经济", "北欧", "statbank", "open data"],
+  "tags": [
+    "norway",
+    "ssb",
+    "statistics-norway",
+    "nordic",
+    "挪威",
+    "统计局",
+    "人口",
+    "经济",
+    "北欧",
+    "statbank",
+    "open-data"
+  ],
   "data_content": {
     "en": [
       "Population and migration statistics",

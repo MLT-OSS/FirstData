@@ -40,7 +40,28 @@
   "website": "https://www.chinawater.com.cn",
   "data_url": "https://www.chinawater.com.cn",
   "api_url": null,
-  "domains": ["environment", "infrastructure"],
-  "tags": ["water-resources", "hydrology", "flood", "drought", "irrigation", "水资源", "水利", "洪水", "干旱", "灌溉", "水库", "流域", "水文", "MWR", "水利部", "water-quality", "groundwater"],
+  "domains": [
+    "environment",
+    "infrastructure"
+  ],
+  "tags": [
+    "water-resources",
+    "hydrology",
+    "flood",
+    "drought",
+    "irrigation",
+    "水资源",
+    "水利",
+    "洪水",
+    "干旱",
+    "灌溉",
+    "水库",
+    "流域",
+    "水文",
+    "mwr",
+    "水利部",
+    "water-quality",
+    "groundwater"
+  ],
   "update_frequency": "irregular"
 }

@@ -13,10 +13,25 @@
   "api_url": "https://fts.unocha.org/content/fts-public-api",
   "authority_level": "international",
   "country": null,
-  "domains": ["humanitarian", "development", "finance"],
+  "domains": [
+    "humanitarian",
+    "development",
+    "finance"
+  ],
   "geographic_scope": "global",
   "update_frequency": "daily",
-  "tags": ["humanitarian-aid", "人道主义援助", "funding", "资金追踪", "OCHA", "联合国", "emergency-response", "donor-contributions", "development-assistance", "人道主义融资"],
+  "tags": [
+    "humanitarian-aid",
+    "人道主义援助",
+    "funding",
+    "资金追踪",
+    "ocha",
+    "联合国",
+    "emergency-response",
+    "donor-contributions",
+    "development-assistance",
+    "人道主义融资"
+  ],
   "data_content": {
     "en": [
       "Humanitarian aid contributions and pledges by donor country and organization",

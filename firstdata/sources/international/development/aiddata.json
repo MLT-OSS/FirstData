@@ -13,10 +13,27 @@
   "api_url": null,
   "authority_level": "research",
   "country": null,
-  "domains": ["development", "economics", "finance"],
+  "domains": [
+    "development",
+    "economics",
+    "finance"
+  ],
   "geographic_scope": "global",
   "update_frequency": "irregular",
-  "tags": ["development-aid", "发展援助", "ODA", "foreign-aid", "对外援助", "geocoded", "地理编码", "China-overseas-finance", "中国海外融资", "Belt-and-Road", "一带一路", "development-finance"],
+  "tags": [
+    "development-aid",
+    "发展援助",
+    "oda",
+    "foreign-aid",
+    "对外援助",
+    "geocoded",
+    "地理编码",
+    "china-overseas-finance",
+    "中国海外融资",
+    "belt-and-road",
+    "一带一路",
+    "development-finance"
+  ],
   "data_content": {
     "en": [
       "Geocoded project-level data on international development finance from 2000 to present",

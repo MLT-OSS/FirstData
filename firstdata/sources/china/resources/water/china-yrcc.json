@@ -40,7 +40,28 @@
   "website": "http://www.yrcc.gov.cn",
   "data_url": "http://www.yrcc.gov.cn",
   "api_url": null,
-  "domains": ["environment", "infrastructure"],
-  "tags": ["water-resources", "hydrology", "yellow-river", "flood", "sediment", "water-quality", "黄河", "水文", "水资源", "防汛", "泥沙", "流域管理", "水利", "YRCC", "黄委", "水库", "生态流量"],
+  "domains": [
+    "environment",
+    "infrastructure"
+  ],
+  "tags": [
+    "water-resources",
+    "hydrology",
+    "yellow-river",
+    "flood",
+    "sediment",
+    "water-quality",
+    "黄河",
+    "水文",
+    "水资源",
+    "防汛",
+    "泥沙",
+    "流域管理",
+    "水利",
+    "yrcc",
+    "黄委",
+    "水库",
+    "生态流量"
+  ],
   "update_frequency": "irregular"
 }

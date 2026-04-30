@@ -14,10 +14,30 @@
   "api_url": "https://www.pxweb.bfs.admin.ch/api/v1/en",
   "authority_level": "government",
   "country": "CH",
-  "domains": ["economics", "demographics", "environment", "health", "education", "labor"],
+  "domains": [
+    "economics",
+    "demographics",
+    "environment",
+    "health",
+    "education",
+    "labor"
+  ],
   "geographic_scope": "national",
   "update_frequency": "annual",
-  "tags": ["switzerland", "fso", "bfs", "swiss statistics", "瑞士", "联邦统计局", "人口", "经济", "欧洲", "stat-tab", "px-web", "open data"],
+  "tags": [
+    "switzerland",
+    "fso",
+    "bfs",
+    "swiss-statistics",
+    "瑞士",
+    "联邦统计局",
+    "人口",
+    "经济",
+    "欧洲",
+    "stat-tab",
+    "px-web",
+    "open-data"
+  ],
   "data_content": {
     "en": [
       "Population and household statistics",

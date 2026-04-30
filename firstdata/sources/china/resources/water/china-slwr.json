@@ -40,7 +40,30 @@
   "website": "http://www.slwr.gov.cn",
   "data_url": "http://www.slwr.gov.cn/gbjb.jhtml",
   "api_url": null,
-  "domains": ["environment", "infrastructure"],
-  "tags": ["water-resources", "hydrology", "songhua-river", "liaohe-river", "flood", "ice-jam", "water-quality", "松花江", "辽河", "水文", "水资源", "防汛", "冰凌", "寒区", "流域管理", "水利", "SLWR", "松辽委", "东北"],
+  "domains": [
+    "environment",
+    "infrastructure"
+  ],
+  "tags": [
+    "water-resources",
+    "hydrology",
+    "songhua-river",
+    "liaohe-river",
+    "flood",
+    "ice-jam",
+    "water-quality",
+    "松花江",
+    "辽河",
+    "水文",
+    "水资源",
+    "防汛",
+    "冰凌",
+    "寒区",
+    "流域管理",
+    "水利",
+    "slwr",
+    "松辽委",
+    "东北"
+  ],
   "update_frequency": "irregular"
 }

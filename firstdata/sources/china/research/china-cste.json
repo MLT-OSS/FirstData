@@ -36,7 +36,23 @@
   "website": "https://www.cste.org.cn",
   "data_url": "https://www.cste.org.cn",
   "api_url": null,
-  "domains": ["economics", "science"],
-  "tags": ["technology-economics", "innovation", "R&D", "科技经济", "技术创新", "技术经济", "创新经济学", "NDRC", "CSTE", "中国技术经济学会", "industrial-policy", "science-technology-policy"],
+  "domains": [
+    "economics",
+    "science"
+  ],
+  "tags": [
+    "technology-economics",
+    "innovation",
+    "r&d",
+    "科技经济",
+    "技术创新",
+    "技术经济",
+    "创新经济学",
+    "ndrc",
+    "cste",
+    "中国技术经济学会",
+    "industrial-policy",
+    "science-technology-policy"
+  ],
   "update_frequency": "irregular"
 }

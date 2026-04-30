@@ -40,7 +40,27 @@
   "website": "https://www.gsxt.gov.cn",
   "data_url": "https://www.gsxt.gov.cn",
   "api_url": null,
-  "domains": ["economy", "governance"],
-  "tags": ["enterprise-credit", "business-registration", "market-supervision", "corporate-data", "credit-system", "企业信用", "工商登记", "市场监管", "信用信息", "营业执照", "股权", "年报", "行政处罚", "SAMR", "市场监管总局", "国家企业信用"],
+  "domains": [
+    "economy",
+    "governance"
+  ],
+  "tags": [
+    "enterprise-credit",
+    "business-registration",
+    "market-supervision",
+    "corporate-data",
+    "credit-system",
+    "企业信用",
+    "工商登记",
+    "市场监管",
+    "信用信息",
+    "营业执照",
+    "股权",
+    "年报",
+    "行政处罚",
+    "samr",
+    "市场监管总局",
+    "国家企业信用"
+  ],
   "update_frequency": "daily"
 }

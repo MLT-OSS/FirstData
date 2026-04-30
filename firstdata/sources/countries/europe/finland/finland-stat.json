@@ -14,13 +14,31 @@
   "api_url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/",
   "authority_level": "government",
   "country": "FI",
-  "domains": ["economics", "population", "society", "environment", "labor"],
+  "domains": [
+    "economics",
+    "population",
+    "society",
+    "environment",
+    "labor"
+  ],
   "geographic_scope": "national",
   "update_frequency": "annual",
   "tags": [
-    "Finland", "Statistics Finland", "Tilastokeskus", "StatFin",
-    "芬兰", "芬兰统计局", "北欧统计", "GDP", "人口", "就业",
-    "Nordic", "official statistics", "PxWeb", "economy", "census"
+    "finland",
+    "statistics-finland",
+    "tilastokeskus",
+    "statfin",
+    "芬兰",
+    "芬兰统计局",
+    "北欧统计",
+    "gdp",
+    "人口",
+    "就业",
+    "nordic",
+    "official-statistics",
+    "pxweb",
+    "economy",
+    "census"
   ],
   "data_content": {
     "en": [

@@ -40,7 +40,28 @@
   "website": "http://www.hwcc.gov.cn",
   "data_url": "http://www.hwcc.gov.cn",
   "api_url": null,
-  "domains": ["environment", "infrastructure"],
-  "tags": ["water-resources", "hydrology", "hai-river", "flood", "groundwater", "water-quality", "海河", "水文", "水资源", "防汛", "地下水", "流域管理", "水利", "HWCC", "海委", "京津冀", "华北平原"],
+  "domains": [
+    "environment",
+    "infrastructure"
+  ],
+  "tags": [
+    "water-resources",
+    "hydrology",
+    "hai-river",
+    "flood",
+    "groundwater",
+    "water-quality",
+    "海河",
+    "水文",
+    "水资源",
+    "防汛",
+    "地下水",
+    "流域管理",
+    "水利",
+    "hwcc",
+    "海委",
+    "京津冀",
+    "华北平原"
+  ],
   "update_frequency": "irregular"
 }
