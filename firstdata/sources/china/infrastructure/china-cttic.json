@@ -1,0 +1,58 @@
+{
+  "id": "china-cttic",
+  "name": {
+    "en": "China Transport Telecommunications & Information Center",
+    "zh": "中国交通通信信息中心"
+  },
+  "description": {
+    "en": "China Transport Telecommunications & Information Center (CTTIC) is the specialized public service institution under the Ministry of Transport of China, responsible for transport-sector telecommunications, informatization and satellite navigation services. It publishes integrated transportation statistics, road and waterway network data, logistics operation indicators, and supports national transport information systems including the BeiDou application in commercial vehicles and vessels.",
+    "zh": "中国交通通信信息中心（CTTIC）是中华人民共和国交通运输部直属的专业公共服务机构，承担交通行业通信、信息化与卫星导航服务，发布综合交通运输统计、公路和水路网络数据、物流运行指标等，并支持北斗在营运车辆和船舶中的应用等国家级交通信息系统。"
+  },
+  "website": "https://www.cttic.cn",
+  "data_url": "https://www.cttic.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "transportation",
+    "infrastructure",
+    "logistics",
+    "technology"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "transport",
+    "telecommunications",
+    "informatization",
+    "logistics",
+    "beidou",
+    "satellite-navigation",
+    "commercial-vehicles",
+    "交通通信信息中心",
+    "交通运输部",
+    "北斗",
+    "营运车辆",
+    "交通信息化",
+    "CTTIC"
+  ],
+  "data_content": {
+    "en": [
+      "Integrated transport operation monitoring data",
+      "National road freight and passenger volume indicators",
+      "Waterway and coastal shipping statistics",
+      "BeiDou navigation applications in commercial fleets",
+      "Transport informatization standards and datasets",
+      "Industry think-tank reports on smart transportation"
+    ],
+    "zh": [
+      "综合交通运行监测数据",
+      "全国公路货运与客运运行指标",
+      "水路及沿海航运统计",
+      "营运车辆北斗导航应用数据",
+      "交通信息化标准与数据集",
+      "智慧交通行业智库报告"
+    ]
+  }
+}

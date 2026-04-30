@@ -1,0 +1,60 @@
+{
+  "id": "asean-centre-for-energy",
+  "name": {
+    "en": "ASEAN Centre for Energy",
+    "zh": "东盟能源中心"
+  },
+  "description": {
+    "en": "The ASEAN Centre for Energy (ACE) is an intergovernmental organisation established by ASEAN member states to accelerate the integration of energy strategies across Southeast Asia. ACE publishes authoritative regional energy data covering energy supply and demand balances, electricity generation mix, renewable energy capacity, energy efficiency indicators, and the flagship ASEAN Energy Outlook which projects long-term energy pathways for the ten ASEAN countries.",
+    "zh": "东盟能源中心（ACE）是由东盟成员国共同设立的政府间组织，致力于推进东南亚地区能源战略一体化。ACE发布权威的区域能源数据，涵盖能源供需平衡、电力生产结构、可再生能源装机容量、能效指标，以及其旗舰出版物《东盟能源展望》——对东盟十国的中长期能源发展路径进行预测。"
+  },
+  "website": "https://aseanenergy.org",
+  "data_url": "https://aseanenergy.org/publications/",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "energy",
+    "environment",
+    "economics"
+  ],
+  "geographic_scope": "regional",
+  "update_frequency": "annual",
+  "tags": [
+    "asean",
+    "southeast-asia",
+    "energy",
+    "renewable-energy",
+    "electricity",
+    "energy-outlook",
+    "energy-efficiency",
+    "intergovernmental",
+    "ACE",
+    "东盟",
+    "东南亚",
+    "能源",
+    "可再生能源",
+    "能源展望",
+    "能源中心"
+  ],
+  "data_content": {
+    "en": [
+      "ASEAN Energy Outlook (long-term projections)",
+      "Regional energy balances (supply/demand)",
+      "Electricity generation mix and capacity",
+      "Renewable energy deployment statistics",
+      "Energy efficiency and conservation indicators",
+      "Cross-border power trade (ASEAN Power Grid)",
+      "Country-level energy profiles for 10 ASEAN members"
+    ],
+    "zh": [
+      "《东盟能源展望》长期预测报告",
+      "区域能源平衡（供需）数据",
+      "电力生产结构与装机容量",
+      "可再生能源部署统计",
+      "能效与节能指标",
+      "跨境电力贸易（东盟电网）",
+      "东盟十国国别能源数据"
+    ]
+  }
+}

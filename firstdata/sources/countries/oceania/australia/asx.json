@@ -1,0 +1,63 @@
+{
+  "id": "asx",
+  "name": {
+    "en": "Australian Securities Exchange",
+    "zh": "澳大利亚证券交易所"
+  },
+  "description": {
+    "en": "The Australian Securities Exchange (ASX) is Australia's primary securities exchange and one of the leading financial markets in the Asia-Pacific region. ASX provides official market data covering listed equities, indices (S&P/ASX 200, All Ordinaries), exchange-traded funds, interest-rate and equity derivatives, IPO and secondary-listing filings, short-selling reports, and corporate governance disclosures for companies listed on ASX.",
+    "zh": "澳大利亚证券交易所（ASX）是澳大利亚主要的证券交易所，也是亚太地区领先的金融市场之一。ASX提供涵盖上市股票、指数（标普/ASX 200、全普指数）、交易所交易基金、利率及股票衍生品、IPO及二次上市披露文件、卖空报告以及上市公司治理披露在内的官方市场数据。"
+  },
+  "website": "https://www.asx.com.au",
+  "data_url": "https://www.asx.com.au/markets",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "AU",
+  "domains": [
+    "finance",
+    "securities",
+    "stock-market",
+    "derivatives"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "australia",
+    "asx",
+    "stock-exchange",
+    "securities",
+    "equities",
+    "ASX-200",
+    "All-Ordinaries",
+    "derivatives",
+    "ETF",
+    "IPO",
+    "market-data",
+    "澳大利亚",
+    "澳洲证券交易所",
+    "股票市场",
+    "澳交所"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time and historical equity prices",
+      "Market indices (S&P/ASX 200, All Ordinaries, sector indices)",
+      "Listed company announcements and filings",
+      "IPO and secondary-listing prospectuses",
+      "Derivatives and interest-rate market data",
+      "ETF and managed funds data",
+      "Short-selling and securities lending reports",
+      "Market statistics and trading activity"
+    ],
+    "zh": [
+      "股票实时与历史价格",
+      "市场指数（标普/ASX 200、全普指数、行业指数）",
+      "上市公司公告与披露文件",
+      "IPO及二次上市招股书",
+      "衍生品与利率市场数据",
+      "ETF与基金数据",
+      "卖空与证券借贷报告",
+      "市场统计与交易活动数据"
+    ]
+  }
+}

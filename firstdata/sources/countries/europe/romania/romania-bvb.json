@@ -1,0 +1,63 @@
+{
+  "id": "romania-bvb",
+  "name": {
+    "en": "Bucharest Stock Exchange",
+    "zh": "布加勒斯特证券交易所"
+  },
+  "description": {
+    "en": "Bucharest Stock Exchange (BVB) is Romania's principal securities exchange, regulated by the Romanian Financial Supervisory Authority (ASF). BVB operates equity, bond, and derivatives markets and disseminates official market data including share prices, indices (BET family), trading volumes, listed company filings, IPO and secondary-offering prospectuses, and corporate actions for Romanian listed companies.",
+    "zh": "布加勒斯特证券交易所（BVB）是罗马尼亚主要的证券交易所，受罗马尼亚金融监管局（ASF）监管。BVB运营股票、债券和衍生品市场，发布官方市场数据，包括股票价格、指数（BET系列）、交易量、上市公司披露、IPO及再融资招股书，以及罗马尼亚上市公司相关公司行为数据。"
+  },
+  "website": "https://www.bvb.ro",
+  "data_url": "https://www.bvb.ro/FinancialInstruments/Markets/Shares",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "RO",
+  "domains": [
+    "finance",
+    "securities",
+    "stock-market"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "daily",
+  "tags": [
+    "romania",
+    "bucharest",
+    "stock-exchange",
+    "BVB",
+    "securities",
+    "equities",
+    "bonds",
+    "derivatives",
+    "BET-index",
+    "IPO",
+    "market-data",
+    "罗马尼亚",
+    "布加勒斯特",
+    "证券交易所",
+    "股票市场",
+    "招股书"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time and historical share prices",
+      "Market indices (BET, BET-TR, BET-XT, BET-BK)",
+      "Trading volumes and turnover statistics",
+      "Listed company disclosures and financial filings",
+      "IPO, SPO and bond issue prospectuses",
+      "Corporate actions (dividends, splits, mergers)",
+      "Derivatives and fixed-income market data",
+      "Market participant directory"
+    ],
+    "zh": [
+      "股票实时与历史价格",
+      "市场指数（BET、BET-TR、BET-XT、BET-BK）",
+      "交易量与成交金额统计",
+      "上市公司披露与财务报告",
+      "IPO、再融资与债券发行招股书",
+      "公司行为（股息、拆股、并购）",
+      "衍生品与固定收益市场数据",
+      "市场参与者名录"
+    ]
+  }
+}
