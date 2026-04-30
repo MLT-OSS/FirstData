@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T03:01:07.429562+00:00",
-    "total_sources": 618,
+    "generated_at": "2026-04-30T03:11:52.255201+00:00",
+    "total_sources": 627,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -15122,6 +15122,67 @@
       "file_path": "china/health/china-cams.json"
     },
     {
+      "id": "china-cdc",
+      "name": {
+        "en": "Chinese Center for Disease Control and Prevention",
+        "zh": "中国疾病预防控制中心"
+      },
+      "description": {
+        "en": "The Chinese Center for Disease Control and Prevention (China CDC) is the national public health institute responsible for disease prevention, surveillance, and health emergency response. It publishes infectious disease surveillance reports, chronic disease data, vaccination coverage statistics, environmental health assessments, and public health emergency bulletins. Some deep-link sub-sections (e.g. /jkzt/) have been reorganized; use /gzdt/ for published work announcements or en.chinacdc.cn for English portal.",
+        "zh": "中国疾病预防控制中心是国家级疾病预防控制与公共卫生技术管理和服务机构，负责疾病预防控制、公共卫生监测和卫生应急处置。发布传染病疫情监测报告、慢性病数据、疫苗接种统计、环境卫生评估及突发公共卫生事件公报。"
+      },
+      "website": "https://www.chinacdc.cn",
+      "data_url": "https://www.chinacdc.cn/gzdt/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "health",
+        "epidemiology",
+        "public-health"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "weekly",
+      "tags": [
+        "china",
+        "cdc",
+        "disease-control",
+        "epidemiology",
+        "infectious-disease",
+        "public-health",
+        "vaccination",
+        "surveillance",
+        "疾控中心",
+        "传染病",
+        "疫情监测",
+        "公共卫生",
+        "疫苗接种",
+        "慢性病"
+      ],
+      "data_content": {
+        "en": [
+          "Infectious Disease Surveillance - Weekly and monthly reports on notifiable infectious diseases",
+          "Chronic Disease Data - Prevalence and incidence of major chronic diseases",
+          "Vaccination Coverage - National immunization program statistics and coverage rates",
+          "Environmental Health - Drinking water quality, air pollution health impact assessments",
+          "Health Emergency Reports - Public health emergency response and outbreak investigation reports",
+          "Disease Burden Studies - National disease burden and risk factor analysis",
+          "Nutrition and Food Safety - National nutrition surveys and food safety monitoring"
+        ],
+        "zh": [
+          "传染病疫情监测 - 法定传染病周报和月报",
+          "慢性病数据 - 主要慢性病患病率和发病率",
+          "疫苗接种覆盖率 - 国家免疫规划统计和接种率",
+          "环境卫生 - 饮用水水质监测、空气污染健康影响评估",
+          "卫生应急报告 - 突发公共卫生事件应急处置和疫情调查报告",
+          "疾病负担研究 - 全国疾病负担和危险因素分析",
+          "营养与食品安全 - 全国营养调查和食品安全监测"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/health/china-cdc.json"
+    },
+    {
       "id": "china-chinadrugtrials",
       "name": {
         "en": "China Drug Clinical Trials Registration and Information Disclosure Platform",
@@ -16601,6 +16662,66 @@
       "file_path": "china/infrastructure/china-crta.json"
     },
     {
+      "id": "china-cttic",
+      "name": {
+        "en": "China Transport Telecommunications & Information Center",
+        "zh": "中国交通通信信息中心"
+      },
+      "description": {
+        "en": "China Transport Telecommunications & Information Center (CTTIC) is the specialized public service institution under the Ministry of Transport of China, responsible for transport-sector telecommunications, informatization and satellite navigation services. It publishes integrated transportation statistics, road and waterway network data, logistics operation indicators, and supports national transport information systems including the BeiDou application in commercial vehicles and vessels.",
+        "zh": "中国交通通信信息中心（CTTIC）是中华人民共和国交通运输部直属的专业公共服务机构，承担交通行业通信、信息化与卫星导航服务，发布综合交通运输统计、公路和水路网络数据、物流运行指标等，并支持北斗在营运车辆和船舶中的应用等国家级交通信息系统。"
+      },
+      "website": "https://www.cttic.cn",
+      "data_url": "https://www.cttic.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "transportation",
+        "infrastructure",
+        "logistics",
+        "technology"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "transport",
+        "telecommunications",
+        "informatization",
+        "logistics",
+        "beidou",
+        "satellite-navigation",
+        "commercial-vehicles",
+        "交通通信信息中心",
+        "交通运输部",
+        "北斗",
+        "营运车辆",
+        "交通信息化",
+        "CTTIC"
+      ],
+      "data_content": {
+        "en": [
+          "Integrated transport operation monitoring data",
+          "National road freight and passenger volume indicators",
+          "Waterway and coastal shipping statistics",
+          "BeiDou navigation applications in commercial fleets",
+          "Transport informatization standards and datasets",
+          "Industry think-tank reports on smart transportation"
+        ],
+        "zh": [
+          "综合交通运行监测数据",
+          "全国公路货运与客运运行指标",
+          "水路及沿海航运统计",
+          "营运车辆北斗导航应用数据",
+          "交通信息化标准与数据集",
+          "智慧交通行业智库报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-cttic.json"
+    },
+    {
       "id": "china-highway-society",
       "name": {
         "en": "China Highway and Transportation Society",
@@ -16900,6 +17021,69 @@
       },
       "has_api": false,
       "file_path": "china/infrastructure/china-nra.json"
+    },
+    {
+      "id": "china-ports-association",
+      "name": {
+        "en": "China Ports & Harbours Association",
+        "zh": "中国港口协会"
+      },
+      "description": {
+        "en": "The China Ports & Harbours Association (CPHA) is a national non-profit industry organization supervised by the Ministry of Transport of China. It brings together port enterprises, shipping terminals, logistics companies and research institutions, releasing official industry statistics including port cargo throughput, container throughput, shipping capacity utilization, port productivity indicators and industry development reports covering mainland Chinese ports.",
+        "zh": "中国港口协会（CPHA）是由中华人民共和国交通运输部主管的全国性港航业非营利社团组织，汇聚港口企业、码头运营商、航运物流公司及科研机构，发布包括港口货物吞吐量、集装箱吞吐量、船舶运力利用率、港口生产效率指标及行业发展报告等官方行业统计数据，覆盖中国大陆各港口。"
+      },
+      "website": "http://www.port.org.cn",
+      "data_url": "http://www.port.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "domains": [
+        "transportation",
+        "infrastructure",
+        "trade",
+        "logistics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "ports",
+        "harbours",
+        "shipping",
+        "port-throughput",
+        "container-throughput",
+        "cargo",
+        "logistics",
+        "中国港口协会",
+        "港口协会",
+        "港口吞吐量",
+        "集装箱吞吐量",
+        "港航业",
+        "水运",
+        "CPHA"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly and annual port cargo throughput statistics",
+          "Container throughput (TEU) rankings by port",
+          "Shipping capacity and fleet utilization",
+          "Port productivity and operational efficiency indicators",
+          "Port infrastructure investment and construction data",
+          "Industry development reports and market analysis",
+          "Membership directory of Chinese ports and terminals"
+        ],
+        "zh": [
+          "月度及年度港口货物吞吐量统计",
+          "港口集装箱吞吐量（TEU）排名",
+          "船舶运力与船队利用率",
+          "港口生产效率与运营指标",
+          "港口基础设施投资与建设数据",
+          "行业发展报告与市场分析",
+          "全国港口与码头会员名录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-ports-association.json"
     },
     {
       "id": "china-post-group",
@@ -21324,6 +21508,127 @@
       "file_path": "china/resources/china-caea.json"
     },
     {
+      "id": "china-cnooc",
+      "name": {
+        "en": "China National Offshore Oil Corporation",
+        "zh": "中国海洋石油集团有限公司"
+      },
+      "description": {
+        "en": "China National Offshore Oil Corporation (CNOOC) is China's largest offshore oil and gas producer and a central state-owned enterprise. It publishes annual reports, sustainability reports, offshore oil and gas production data, deepwater exploration results, LNG import and terminal operation statistics, and marine environmental protection reports. Note: some sub-sections use server-side redirects that loop for non-browser clients; landing page (root) is stable and lists all reports.",
+        "zh": "中国海洋石油集团有限公司（中国海油）是中国最大的海上油气生产商，中央企业。发布年度报告、可持续发展报告、海上油气产量数据、深水勘探成果、LNG进口及接收站运营统计和海洋环境保护报告。"
+      },
+      "website": "https://www.cnooc.com.cn",
+      "data_url": "https://www.cnooc.com.cn",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "energy",
+        "petroleum",
+        "maritime"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "cnooc",
+        "offshore-oil",
+        "natural-gas",
+        "lng",
+        "deepwater",
+        "marine-energy",
+        "state-owned-enterprise",
+        "中国海油",
+        "中海油",
+        "海上石油",
+        "天然气",
+        "液化天然气",
+        "深水",
+        "央企"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Financial performance, production, and reserves data",
+          "Offshore Production - Crude oil and natural gas production from offshore fields",
+          "Deepwater Exploration - Deepwater and ultra-deepwater exploration discoveries and results",
+          "LNG Operations - LNG import volumes, receiving terminal throughput, and trade data",
+          "Reserves Reports - Proven and probable offshore oil and gas reserves",
+          "Sustainability Reports - Marine environmental protection, carbon emissions, and ESG metrics"
+        ],
+        "zh": [
+          "年度报告 - 财务业绩、产量和储量数据",
+          "海上生产 - 海上油田原油和天然气产量",
+          "深水勘探 - 深水和超深水勘探发现及成果",
+          "LNG业务 - LNG进口量、接收站吞吐量和贸易数据",
+          "储量报告 - 探明和概算海上油气储量",
+          "可持续发展报告 - 海洋环境保护、碳排放和ESG指标"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/resources/china-cnooc.json"
+    },
+    {
+      "id": "china-cnpc",
+      "name": {
+        "en": "China National Petroleum Corporation",
+        "zh": "中国石油天然气集团有限公司"
+      },
+      "description": {
+        "en": "China National Petroleum Corporation (CNPC) is the largest state-owned oil and gas company in China and one of the world's largest energy companies. It publishes annual reports, sustainability reports, oil and gas production statistics, reserves data, and energy market analyses covering crude oil, natural gas, refining, and petrochemical operations. Note: site is behind a WAF and may return HTTP 412 to automated requests; content accessible via standard browsers.",
+        "zh": "中国石油天然气集团有限公司（中国石油）是中国最大的国有油气企业，也是全球最大的能源企业之一。发布年度报告、可持续发展报告、油气产量统计、储量数据及能源市场分析，涵盖原油、天然气、炼化及石化业务。"
+      },
+      "website": "https://www.cnpc.com.cn",
+      "data_url": "https://www.cnpc.com.cn/cnpc/nybg/common_index.shtml",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "energy",
+        "petroleum",
+        "natural-gas"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "cnpc",
+        "petrochina",
+        "oil",
+        "gas",
+        "petroleum",
+        "crude-oil",
+        "natural-gas",
+        "energy",
+        "state-owned-enterprise",
+        "中国石油",
+        "中石油",
+        "原油",
+        "天然气",
+        "油气",
+        "央企"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Financial performance, production, and operational statistics",
+          "Oil and Gas Production - Crude oil and natural gas output by region and field",
+          "Reserves Data - Proven and probable oil and gas reserves",
+          "Sustainability Reports - Environmental, social, and governance (ESG) metrics",
+          "Refining and Petrochemical Output - Processed crude oil volume and chemical product yields",
+          "Energy Market Analysis - Domestic and international oil and gas market trends"
+        ],
+        "zh": [
+          "年度报告 - 财务业绩、产量及运营统计",
+          "油气产量 - 按地区和油田分类的原油和天然气产出",
+          "储量数据 - 探明和概算油气储量",
+          "可持续发展报告 - 环境、社会和治理（ESG）指标",
+          "炼化产出 - 原油加工量和化工产品产量",
+          "能源市场分析 - 国内外油气市场趋势"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/resources/china-cnpc.json"
+    },
+    {
       "id": "china-guangdong-nr",
       "name": {
         "en": "Guangdong Provincial Department of Natural Resources",
@@ -21578,6 +21883,65 @@
       },
       "has_api": false,
       "file_path": "china/resources/china-shenzhen-pnr.json"
+    },
+    {
+      "id": "china-sinopec",
+      "name": {
+        "en": "China Petrochemical Corporation (Sinopec Group)",
+        "zh": "中国石油化工集团有限公司"
+      },
+      "description": {
+        "en": "China Petrochemical Corporation (Sinopec Group) is one of the world's largest integrated energy and chemical companies and a central state-owned enterprise of China. It publishes annual reports, sustainability reports, refining and chemical production statistics, oil and gas exploration data, and energy transition progress reports covering upstream, midstream, and downstream operations. Note: HTTPS endpoint is not reliably reachable from some networks; HTTP works.",
+        "zh": "中国石油化工集团有限公司（中国石化）是全球最大的综合性能源化工企业之一，中国中央企业。发布年度报告、可持续发展报告、炼化生产统计、油气勘探数据及能源转型进展报告，涵盖上游、中游和下游业务。"
+      },
+      "website": "http://www.sinopecgroup.com",
+      "data_url": "http://www.sinopecgroup.com/group/xhtml/shzr/",
+      "api_url": null,
+      "country": "CN",
+      "domains": [
+        "energy",
+        "petroleum",
+        "petrochemical"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "sinopec",
+        "petrochemical",
+        "oil",
+        "refining",
+        "chemical",
+        "energy",
+        "state-owned-enterprise",
+        "中国石化",
+        "中石化",
+        "石油化工",
+        "炼化",
+        "化工",
+        "央企"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Financial and operational performance data",
+          "Refining Output - Crude oil processing volume and refined product output",
+          "Chemical Production - Ethylene, synthetic resin, synthetic fiber, and other chemical product yields",
+          "Oil and Gas Exploration - Upstream exploration and production statistics",
+          "Sustainability Reports - Carbon emissions, environmental protection, and ESG data",
+          "Retail Network Statistics - Gas station network and fuel sales volume"
+        ],
+        "zh": [
+          "年度报告 - 财务和运营业绩数据",
+          "炼油产出 - 原油加工量和成品油产量",
+          "化工生产 - 乙烯、合成树脂、合成纤维及其他化工产品产量",
+          "油气勘探 - 上游勘探开发生产统计",
+          "可持续发展报告 - 碳排放、环境保护和ESG数据",
+          "零售网络统计 - 加油站网络和成品油销售量"
+        ]
+      },
+      "authority_level": "government",
+      "has_api": false,
+      "file_path": "china/resources/china-sinopec.json"
     },
     {
       "id": "china-cace",
@@ -31567,6 +31931,71 @@
       "file_path": "countries/europe/romania/romania-bnr.json"
     },
     {
+      "id": "romania-bvb",
+      "name": {
+        "en": "Bucharest Stock Exchange",
+        "zh": "布加勒斯特证券交易所"
+      },
+      "description": {
+        "en": "Bucharest Stock Exchange (BVB) is Romania's principal securities exchange, regulated by the Romanian Financial Supervisory Authority (ASF). BVB operates equity, bond, and derivatives markets and disseminates official market data including share prices, indices (BET family), trading volumes, listed company filings, IPO and secondary-offering prospectuses, and corporate actions for Romanian listed companies.",
+        "zh": "布加勒斯特证券交易所（BVB）是罗马尼亚主要的证券交易所，受罗马尼亚金融监管局（ASF）监管。BVB运营股票、债券和衍生品市场，发布官方市场数据，包括股票价格、指数（BET系列）、交易量、上市公司披露、IPO及再融资招股书，以及罗马尼亚上市公司相关公司行为数据。"
+      },
+      "website": "https://www.bvb.ro",
+      "data_url": "https://www.bvb.ro/FinancialInstruments/Markets/Shares",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "RO",
+      "domains": [
+        "finance",
+        "securities",
+        "stock-market"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "romania",
+        "bucharest",
+        "stock-exchange",
+        "BVB",
+        "securities",
+        "equities",
+        "bonds",
+        "derivatives",
+        "BET-index",
+        "IPO",
+        "market-data",
+        "罗马尼亚",
+        "布加勒斯特",
+        "证券交易所",
+        "股票市场",
+        "招股书"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time and historical share prices",
+          "Market indices (BET, BET-TR, BET-XT, BET-BK)",
+          "Trading volumes and turnover statistics",
+          "Listed company disclosures and financial filings",
+          "IPO, SPO and bond issue prospectuses",
+          "Corporate actions (dividends, splits, mergers)",
+          "Derivatives and fixed-income market data",
+          "Market participant directory"
+        ],
+        "zh": [
+          "股票实时与历史价格",
+          "市场指数（BET、BET-TR、BET-XT、BET-BK）",
+          "交易量与成交金额统计",
+          "上市公司披露与财务报告",
+          "IPO、再融资与债券发行招股书",
+          "公司行为（股息、拆股、并购）",
+          "衍生品与固定收益市场数据",
+          "市场参与者名录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/europe/romania/romania-bvb.json"
+    },
+    {
       "id": "romania-ins",
       "name": {
         "en": "National Institute of Statistics (Romania)",
@@ -34153,6 +34582,71 @@
       "authority_level": "government",
       "has_api": true,
       "file_path": "countries/oceania/australia/aihw.json"
+    },
+    {
+      "id": "asx",
+      "name": {
+        "en": "Australian Securities Exchange",
+        "zh": "澳大利亚证券交易所"
+      },
+      "description": {
+        "en": "The Australian Securities Exchange (ASX) is Australia's primary securities exchange and one of the leading financial markets in the Asia-Pacific region. ASX provides official market data covering listed equities, indices (S&P/ASX 200, All Ordinaries), exchange-traded funds, interest-rate and equity derivatives, IPO and secondary-listing filings, short-selling reports, and corporate governance disclosures for companies listed on ASX.",
+        "zh": "澳大利亚证券交易所（ASX）是澳大利亚主要的证券交易所，也是亚太地区领先的金融市场之一。ASX提供涵盖上市股票、指数（标普/ASX 200、全普指数）、交易所交易基金、利率及股票衍生品、IPO及二次上市披露文件、卖空报告以及上市公司治理披露在内的官方市场数据。"
+      },
+      "website": "https://www.asx.com.au",
+      "data_url": "https://www.asx.com.au/markets",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "AU",
+      "domains": [
+        "finance",
+        "securities",
+        "stock-market",
+        "derivatives"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "daily",
+      "tags": [
+        "australia",
+        "asx",
+        "stock-exchange",
+        "securities",
+        "equities",
+        "ASX-200",
+        "All-Ordinaries",
+        "derivatives",
+        "ETF",
+        "IPO",
+        "market-data",
+        "澳大利亚",
+        "澳洲证券交易所",
+        "股票市场",
+        "澳交所"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time and historical equity prices",
+          "Market indices (S&P/ASX 200, All Ordinaries, sector indices)",
+          "Listed company announcements and filings",
+          "IPO and secondary-listing prospectuses",
+          "Derivatives and interest-rate market data",
+          "ETF and managed funds data",
+          "Short-selling and securities lending reports",
+          "Market statistics and trading activity"
+        ],
+        "zh": [
+          "股票实时与历史价格",
+          "市场指数（标普/ASX 200、全普指数、行业指数）",
+          "上市公司公告与披露文件",
+          "IPO及二次上市招股书",
+          "衍生品与利率市场数据",
+          "ETF与基金数据",
+          "卖空与证券借贷报告",
+          "市场统计与交易活动数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/oceania/australia/asx.json"
     },
     {
       "id": "bureau-of-meteorology",
@@ -40599,6 +41093,68 @@
       },
       "has_api": true,
       "file_path": "japan/trade/japan-customs.json"
+    },
+    {
+      "id": "asean-centre-for-energy",
+      "name": {
+        "en": "ASEAN Centre for Energy",
+        "zh": "东盟能源中心"
+      },
+      "description": {
+        "en": "The ASEAN Centre for Energy (ACE) is an intergovernmental organisation established by ASEAN member states to accelerate the integration of energy strategies across Southeast Asia. ACE publishes authoritative regional energy data covering energy supply and demand balances, electricity generation mix, renewable energy capacity, energy efficiency indicators, and the flagship ASEAN Energy Outlook which projects long-term energy pathways for the ten ASEAN countries.",
+        "zh": "东盟能源中心（ACE）是由东盟成员国共同设立的政府间组织，致力于推进东南亚地区能源战略一体化。ACE发布权威的区域能源数据，涵盖能源供需平衡、电力生产结构、可再生能源装机容量、能效指标，以及其旗舰出版物《东盟能源展望》——对东盟十国的中长期能源发展路径进行预测。"
+      },
+      "website": "https://aseanenergy.org",
+      "data_url": "https://aseanenergy.org/publications/",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "energy",
+        "environment",
+        "economics"
+      ],
+      "geographic_scope": "regional",
+      "update_frequency": "annual",
+      "tags": [
+        "asean",
+        "southeast-asia",
+        "energy",
+        "renewable-energy",
+        "electricity",
+        "energy-outlook",
+        "energy-efficiency",
+        "intergovernmental",
+        "ACE",
+        "东盟",
+        "东南亚",
+        "能源",
+        "可再生能源",
+        "能源展望",
+        "能源中心"
+      ],
+      "data_content": {
+        "en": [
+          "ASEAN Energy Outlook (long-term projections)",
+          "Regional energy balances (supply/demand)",
+          "Electricity generation mix and capacity",
+          "Renewable energy deployment statistics",
+          "Energy efficiency and conservation indicators",
+          "Cross-border power trade (ASEAN Power Grid)",
+          "Country-level energy profiles for 10 ASEAN members"
+        ],
+        "zh": [
+          "《东盟能源展望》长期预测报告",
+          "区域能源平衡（供需）数据",
+          "电力生产结构与装机容量",
+          "可再生能源部署统计",
+          "能效与节能指标",
+          "跨境电力贸易（东盟电网）",
+          "东盟十国国别能源数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "regional/asean-centre-for-energy.json"
     },
     {
       "id": "entso-e",

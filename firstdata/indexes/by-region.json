@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T03:01:07.429562+00:00",
+    "generated_at": "2026-04-30T03:11:52.255201+00:00",
     "total_regions": 58,
-    "total_sources": 618,
+    "total_sources": 627,
     "version": "2.0"
   },
   "regions": {
@@ -58,6 +58,18 @@
         "data_url": "https://www.aihw.gov.au/",
         "has_api": true,
         "file_path": "countries/oceania/australia/aihw.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "asx",
+        "name": {
+          "en": "Australian Securities Exchange",
+          "zh": "澳大利亚证券交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.asx.com.au/markets",
+        "has_api": false,
+        "file_path": "countries/oceania/australia/asx.json",
         "geographic_scope": "national"
       },
       {
@@ -2535,6 +2547,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cdc",
+        "name": {
+          "en": "Chinese Center for Disease Control and Prevention",
+          "zh": "中国疾病预防控制中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinacdc.cn/gzdt/",
+        "has_api": false,
+        "file_path": "china/health/china-cdc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-chinadrugtrials",
         "name": {
           "en": "China Drug Clinical Trials Registration and Information Disclosure Platform",
@@ -2788,6 +2812,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cttic",
+        "name": {
+          "en": "China Transport Telecommunications & Information Center",
+          "zh": "中国交通通信信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cttic.cn",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-cttic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-highway-society",
         "name": {
           "en": "China Highway and Transportation Society",
@@ -2834,6 +2870,18 @@
         "data_url": "https://www.nra.gov.cn/xxgk/gkml/",
         "has_api": false,
         "file_path": "china/infrastructure/china-nra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ports-association",
+        "name": {
+          "en": "China Ports & Harbours Association",
+          "zh": "中国港口协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.port.org.cn",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-ports-association.json",
         "geographic_scope": "national"
       },
       {
@@ -3595,6 +3643,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnooc",
+        "name": {
+          "en": "China National Offshore Oil Corporation",
+          "zh": "中国海洋石油集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnooc.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-cnooc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnpc",
+        "name": {
+          "en": "China National Petroleum Corporation",
+          "zh": "中国石油天然气集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnpc.com.cn/cnpc/nybg/common_index.shtml",
+        "has_api": false,
+        "file_path": "china/resources/china-cnpc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-guangdong-nr",
         "name": {
           "en": "Guangdong Provincial Department of Natural Resources",
@@ -3641,6 +3713,18 @@
         "has_api": false,
         "file_path": "china/resources/china-shenzhen-pnr.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-sinopec",
+        "name": {
+          "en": "China Petrochemical Corporation (Sinopec Group)",
+          "zh": "中国石油化工集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.sinopecgroup.com/group/xhtml/shzr/",
+        "has_api": false,
+        "file_path": "china/resources/china-sinopec.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-cace",
@@ -5544,6 +5628,18 @@
         "data_url": "https://www.bnr.ro/Statistics-702.aspx",
         "has_api": true,
         "file_path": "countries/europe/romania/romania-bnr.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "romania-bvb",
+        "name": {
+          "en": "Bucharest Stock Exchange",
+          "zh": "布加勒斯特证券交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.bvb.ro/FinancialInstruments/Markets/Shares",
+        "has_api": false,
+        "file_path": "countries/europe/romania/romania-bvb.json",
         "geographic_scope": "national"
       },
       {
