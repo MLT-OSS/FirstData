@@ -5,11 +5,11 @@
     "zh": "中国疾病预防控制中心"
   },
   "description": {
-    "en": "The Chinese Center for Disease Control and Prevention (China CDC) is the national public health institute responsible for disease prevention, surveillance, and health emergency response. It publishes infectious disease surveillance reports, chronic disease data, vaccination coverage statistics, environmental health assessments, and public health emergency bulletins.",
+    "en": "The Chinese Center for Disease Control and Prevention (China CDC) is the national public health institute responsible for disease prevention, surveillance, and health emergency response. It publishes infectious disease surveillance reports, chronic disease data, vaccination coverage statistics, environmental health assessments, and public health emergency bulletins. Some deep-link sub-sections (e.g. /jkzt/) have been reorganized; use /gzdt/ for published work announcements or en.chinacdc.cn for English portal.",
     "zh": "中国疾病预防控制中心是国家级疾病预防控制与公共卫生技术管理和服务机构，负责疾病预防控制、公共卫生监测和卫生应急处置。发布传染病疫情监测报告、慢性病数据、疫苗接种统计、环境卫生评估及突发公共卫生事件公报。"
   },
   "website": "https://www.chinacdc.cn",
-  "data_url": "https://www.chinacdc.cn/jkzt/",
+  "data_url": "https://www.chinacdc.cn/gzdt/",
   "api_url": null,
   "country": "CN",
   "domains": [
