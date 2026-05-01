@@ -1,0 +1,67 @@
+{
+  "id": "china-ches",
+  "name": {
+    "en": "China Hydraulic Engineering Society",
+    "zh": "中国水利学会"
+  },
+  "description": {
+    "en": "The China Hydraulic Engineering Society (CHES, 中国水利学会) is a national academic organization founded in 1931, affiliated with the China Association for Science and Technology (CAST) and the Ministry of Water Resources. CHES is the premier professional society for hydraulic engineering, water conservancy, hydrology, and water resources management in China. It publishes the flagship academic journal 'Journal of Hydraulic Engineering' (水利学报) along with multiple specialized periodicals covering dam engineering, flood control, irrigation, hydropower, and water environment. CHES organizes major conferences and technical exchanges, and its publications and standards represent the highest academic authority for water-related engineering research in China.",
+    "zh": "中国水利学会（CHES）成立于1931年，是全国性学术团体，挂靠中国科学技术协会和水利部。中国水利学会是中国水利工程、水文学和水资源管理领域最权威的专业学术组织，出版旗舰学术期刊《水利学报》及多个涵盖坝工技术、防洪、灌溉、水电和水环境的专业刊物，组织重大学术会议和技术交流，其出版物和标准代表中国水利工程研究的最高学术权威。"
+  },
+  "website": "http://www.ches.org.cn",
+  "data_url": "http://www.ches.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "water",
+    "environment",
+    "research"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国水利学会",
+    "ches",
+    "水利工程",
+    "hydraulic-engineering",
+    "水资源",
+    "water-resources",
+    "水利学报",
+    "journal-of-hydraulic-engineering",
+    "防洪",
+    "flood-control",
+    "水电",
+    "hydropower",
+    "水文学",
+    "hydrology",
+    "灌溉",
+    "irrigation",
+    "大坝",
+    "dam-engineering"
+  ],
+  "data_content": {
+    "en": [
+      "Journal of Hydraulic Engineering (水利学报) - bimonthly peer-reviewed journal covering hydraulic structures, river dynamics, groundwater, and water resource planning",
+      "Advances in Water Science (水科学进展) - academic journal on hydrology, water environment, and climate-water interactions",
+      "Hydro-Science and Engineering (水利水电技术) - technical research on dam safety, reservoir management, and hydropower",
+      "Technical standards and codes - hydraulic engineering design specifications, safety codes for dams and reservoirs",
+      "Annual conference proceedings - academic papers from the National Water Congress and specialized symposia",
+      "Flood control and drought relief research - methodology papers on flood forecasting, risk assessment, and disaster mitigation",
+      "Water environment protection data - research on river basin water quality, pollution control, and ecological flow requirements",
+      "Irrigation and drainage research - efficiency improvement data and case studies for farmland water management",
+      "Smart water conservancy developments - R&D outcomes on digital hydrology, IoT sensor networks, and AI in water management"
+    ],
+    "zh": [
+      "《水利学报》 - 双月出版的同行评审期刊，涵盖水工结构、河流动力学、地下水和水资源规划",
+      "《水科学进展》 - 水文学、水环境及气候-水相互作用学术期刊",
+      "《水利水电技术》 - 坝工安全、水库运行和水电工程技术研究",
+      "技术标准和规范 - 水利工程设计规范、坝和水库安全技术标准",
+      "年会论文集 - 全国水利学术大会及专题研讨会学术论文",
+      "防洪抗旱研究 - 洪水预报、风险评估和减灾方法论文",
+      "水环境保护数据 - 流域水质、污染控制和生态流量需求研究",
+      "灌溉排水研究 - 农田水利管理效率提升数据和案例研究",
+      "智慧水利进展 - 数字水文、物联网传感器网络和人工智能水管理研究成果"
+    ]
+  }
+}

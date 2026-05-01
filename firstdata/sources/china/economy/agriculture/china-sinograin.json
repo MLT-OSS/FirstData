@@ -1,0 +1,65 @@
+{
+  "id": "china-sinograin",
+  "name": {
+    "en": "Sinograin - China Grain Reserves Corporation",
+    "zh": "中国储备粮管理集团有限公司"
+  },
+  "description": {
+    "en": "Sinograin (China Grain Reserves Corporation, 中储粮) is the central state-owned enterprise directly under the State Council responsible for managing China's national strategic grain reserves. Established in 2003, Sinograin oversees the storage, rotation, and distribution of grain and edible oil reserves across more than 900 storage facilities and affiliated enterprises nationwide. As the world's largest grain reserve manager, Sinograin plays a pivotal role in China's food security strategy, price stabilization, and emergency supply response. The company publishes annual reports, grain reserve operation data, rotation and procurement announcements, and food security-related disclosures that serve as authoritative indicators of China's strategic food stockpile levels and grain supply chain management.",
+    "zh": "中国储备粮管理集团有限公司（中储粮集团）是国务院直属的中央国有企业，负责管理国家战略粮食储备。成立于2003年，中储粮负责全国900余个储备库及下属企业的粮食和食用油储备的储存、轮换和动用工作。作为全球最大的粮食储备管理机构，中储粮在中国粮食安全战略、价格调控和应急供应响应中发挥关键作用。公司发布年度报告、粮食储备运营数据、轮换和收购公告及粮食安全相关信息，是中国战略粮食储备规模和粮食供应链管理的权威数据来源。"
+  },
+  "website": "https://www.sinograin.com.cn",
+  "data_url": "https://www.sinograin.com.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "food-security",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中储粮",
+    "sinograin",
+    "粮食储备",
+    "grain-reserves",
+    "国家战略储备",
+    "strategic-reserves",
+    "粮食安全",
+    "food-security",
+    "食用油储备",
+    "edible-oil-reserves",
+    "粮食轮换",
+    "grain-rotation",
+    "央企",
+    "central-soe",
+    "粮食供应链",
+    "grain-supply-chain"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports - financial performance, grain reserve volumes, and operational overview of Sinograin and its subsidiaries",
+      "Grain reserve inventory data - stored volumes of rice, wheat, corn, and soybeans at national reserve facilities",
+      "Grain procurement announcements - minimum purchase price policies, procurement volumes, and regional acquisition plans",
+      "Grain rotation records - regular reserve rotation schedules, auction results, and grain quality monitoring",
+      "Edible oil reserves - stored volumes of soybean oil, rapeseed oil, palm oil, and other strategic edible oils",
+      "Logistics and storage network - capacity data for over 900 state-owned grain storage facilities nationwide",
+      "Emergency reserve deployment - activation records and grain release data during food security emergencies",
+      "Corporate governance disclosures - management structure, subsidiary profiles, and compliance reports",
+      "Grain price stabilization operations - market intervention records and policy-driven procurement activities"
+    ],
+    "zh": [
+      "年度报告 - 中储粮集团及下属企业的财务业绩、粮食储备规模及运营概况",
+      "粮食储备库存数据 - 全国储备库水稻、小麦、玉米和大豆的储存量",
+      "粮食收购公告 - 最低收购价政策、收购数量及分地区收购计划",
+      "粮食轮换记录 - 定期轮换计划、竞价销售结果和粮食质量监测",
+      "食用油储备 - 大豆油、菜籽油、棕榈油等战略性食用油的储备数量",
+      "物流和储存网络 - 全国900余家国有粮食仓储设施的容量数据",
+      "应急储备动用 - 粮食安全应急状态下的启动记录和粮食出库数据",
+      "公司治理披露 - 管理架构、下属企业情况及合规报告",
+      "粮食价格调控操作 - 市场干预记录及政策性收购活动"
+    ]
+  }
+}

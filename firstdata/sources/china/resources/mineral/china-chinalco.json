@@ -1,0 +1,69 @@
+{
+  "id": "china-chinalco",
+  "name": {
+    "en": "Aluminum Corporation of China (Chinalco)",
+    "zh": "中国铝业集团有限公司"
+  },
+  "description": {
+    "en": "The Aluminum Corporation of China (Chinalco, 中国铝业集团) is a central state-owned enterprise under SASAC and the world's largest aluminium producer by capacity. Founded in 2001, Chinalco manages the full aluminium value chain from bauxite mining and alumina refining to aluminium smelting, processing, and downstream manufacturing, as well as diversified metals including copper, rare earths, and gallium. The group operates major mines and smelters in over 20 provinces and holds international assets in Guinea, Peru, Australia, and other countries. Chinalco's annual reports, production statistics, and sustainability disclosures provide authoritative data on China's aluminium and bauxite output, alumina refining capacity, electrolysis power consumption, and the country's position in global non-ferrous metal supply chains.",
+    "zh": "中国铝业集团有限公司（中铝集团）是国务院国资委直属中央企业，也是全球最大的铝生产商之一。成立于2001年，中铝集团管理铝产业全链条，涵盖铝土矿采矿、氧化铝精炼、电解铝冶炼、铝加工及下游制造，以及铜、稀土、镓等多元化金属业务。集团在国内20余个省份拥有大型矿山和冶炼设施，并在几内亚、秘鲁、澳大利亚等国持有国际资产。中铝集团的年度报告、生产统计和可持续发展披露提供了有关中国铝和铝土矿产量、氧化铝精炼产能、电解槽电耗及中国在全球有色金属供应链中地位的权威数据。"
+  },
+  "website": "https://www.chinalco.com.cn",
+  "data_url": "https://www.chinalco.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "resources",
+    "industry",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国铝业",
+    "chinalco",
+    "铝",
+    "aluminium",
+    "铝土矿",
+    "bauxite",
+    "氧化铝",
+    "alumina",
+    "电解铝",
+    "electrolytic-aluminium",
+    "有色金属",
+    "nonferrous-metals",
+    "稀土",
+    "rare-earth",
+    "铜",
+    "copper",
+    "央企",
+    "central-soe",
+    "矿业",
+    "mining"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports - financial results, production volumes, capital expenditure, and strategic outlook for Chinalco Group",
+      "Aluminium production statistics - smelting capacity, output of primary aluminium, alumina, and bauxite by region and facility",
+      "Electrolysis energy consumption - power consumption per tonne of aluminium, efficiency improvement targets and outcomes",
+      "Copper and diversified metals data - copper cathode production, rare earth output, and gallium/indium recoveries",
+      "Bauxite reserve and mine data - domestic and international bauxite reserve grades, mining volumes, and mine life estimates",
+      "Sustainability reports - carbon footprint, green electricity usage, water consumption, and waste reduction per unit of production",
+      "International asset portfolio - operational status and production data for overseas mining investments in Guinea, Peru, and Australia",
+      "Downstream processing statistics - aluminium foil, sheet, plate, and extrusion production for automotive, aerospace, and packaging applications",
+      "Research and innovation disclosures - R&D investment in low-carbon aluminium technology, inert anode development, and recycling"
+    ],
+    "zh": [
+      "年度报告 - 中铝集团财务业绩、产量、资本支出和战略展望",
+      "铝产量统计 - 各地区和设施的冶炼产能及原铝、氧化铝、铝土矿产量",
+      "电解槽能耗 - 吨铝电耗及节能降耗目标和成果",
+      "铜及多元化金属数据 - 阴极铜产量、稀土产出及镓铟回收情况",
+      "铝土矿储量及矿山数据 - 国内外铝土矿储量品位、采矿量和矿山寿命预测",
+      "可持续发展报告 - 碳排放足迹、绿色电力使用、水耗及单位产品减废情况",
+      "海外资产组合 - 几内亚、秘鲁、澳大利亚等境外矿业投资的运营状况和产量数据",
+      "下游加工统计 - 铝箔、铝板、铝带和铝型材在汽车、航空航天和包装领域的产量",
+      "研发与创新披露 - 低碳铝技术、惰性阳极研发和再生铝回收的研发投入"
+    ]
+  }
+}
