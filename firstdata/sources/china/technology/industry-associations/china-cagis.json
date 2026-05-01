@@ -1,0 +1,57 @@
+{
+    "id": "china-cagis",
+    "name": {
+        "en": "China Association for Geographic Information Industry",
+        "zh": "中国地理信息产业协会"
+    },
+    "description": {
+        "en": "The China Association for Geographic Information Industry (CAGIS) is the national industry association for geospatial information in China, supervised by the Ministry of Natural Resources. CAGIS publishes the annual China Geographic Information Industry Development Report, industry scale and revenue statistics, enterprise rankings (Top 100 GIS enterprises), professional qualification data, and technical standards covering surveying, mapping, remote sensing, GIS, satellite navigation, and location-based services. It is an authoritative source for China's geospatial industry size, enterprise landscape, and technology adoption trends.",
+        "zh": "中国地理信息产业协会（CAGIS）是自然资源部主管的全国性地理信息行业协会。协会发布年度《中国地理信息产业发展报告》、产业规模与营收统计、企业百强排名、专业资质数据及涵盖测绘、遥感、地理信息系统、卫星导航与位置服务的技术标准，是中国地理信息产业规模、企业格局和技术应用趋势的权威数据来源。"
+    },
+    "website": "https://www.cagis.org.cn",
+    "data_url": "https://www.cagis.org.cn",
+    "api_url": null,
+    "authority_level": "research",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "geographic-information",
+        "technology",
+        "industry-associations",
+        "standards"
+    ],
+    "tags": [
+        "china",
+        "cagis",
+        "地理信息",
+        "gis",
+        "geospatial",
+        "remote-sensing",
+        "遥感",
+        "surveying",
+        "测绘",
+        "satellite-navigation",
+        "卫星导航",
+        "location-services",
+        "位置服务",
+        "industry-association",
+        "行业协会"
+    ],
+    "data_content": {
+        "en": [
+            "China Geographic Information Industry Development Report - Annual report on industry scale, growth, structure, and trends",
+            "Industry Revenue Statistics - Total industry revenue, employment figures, and regional distribution",
+            "Top 100 GIS Enterprises Ranking - Annual ranking of leading geospatial companies by revenue and capability",
+            "Professional Qualification Data - Registered surveyors, mapping engineers, and enterprise certification counts",
+            "Technical Standards - Industry standards for GIS platforms, remote sensing data processing, and LBS applications"
+        ],
+        "zh": [
+            "中国地理信息产业发展报告 - 行业规模、增长、结构及趋势年度报告",
+            "产业营收统计 - 行业总营收、从业人员数量及区域分布",
+            "地理信息产业百强企业 - 按营收和能力排名的地信龙头企业年度榜单",
+            "专业资质数据 - 测绘师、制图工程师注册数量及企业资质认证统计",
+            "技术标准 - GIS平台、遥感数据处理及位置服务应用行业标准"
+        ]
+    }
+}

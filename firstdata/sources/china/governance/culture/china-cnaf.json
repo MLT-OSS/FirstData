@@ -1,0 +1,57 @@
+{
+    "id": "china-cnaf",
+    "name": {
+        "en": "China National Arts Fund",
+        "zh": "国家艺术基金"
+    },
+    "description": {
+        "en": "The China National Arts Fund (CNAF) is a public fund established by the State Council and administered by the Ministry of Culture and Tourism and the Ministry of Finance. It supports artistic creation, talent training, communication and dissemination, and international cultural exchange across stage performance, visual arts, literature, and mass culture. CNAF publishes annual funding project lists, grantee information, project outcomes, funding statistics by discipline and region, and evaluation reports, providing authoritative data on China's public arts funding, cultural industry development, and artistic output.",
+        "zh": "国家艺术基金（CNAF）是经国务院批准设立、由文化和旅游部和财政部共同管理的公益性基金，旨在资助艺术创作、人才培养、传播交流推广及对外文化交流，覆盖舞台艺术、美术、文学及群众文化等领域。基金公示年度立项项目名单、资助对象信息、项目成果、按艺术门类与地区分类的资助统计及评审报告，是中国公共艺术资助、文化事业发展和艺术创作产出的权威数据来源。"
+    },
+    "website": "https://www.cnaf.cn",
+    "data_url": "https://www.cnaf.cn",
+    "api_url": null,
+    "authority_level": "government",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "culture",
+        "arts",
+        "public-funding",
+        "governance"
+    ],
+    "tags": [
+        "china",
+        "cnaf",
+        "国家艺术基金",
+        "arts",
+        "艺术",
+        "culture",
+        "文化",
+        "public-funding",
+        "公益基金",
+        "stage-performance",
+        "舞台艺术",
+        "visual-arts",
+        "美术",
+        "cultural-industry",
+        "文化产业"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Funded Project Lists - Approved projects by year with grantee name, project title, and funding amount",
+            "Grantee Information - Disclosure of individual artists and institutions awarded funding with project categories",
+            "Funding Statistics - Total funding amount by discipline (stage, visual arts, literature), region, and project type",
+            "Project Outcomes - Performance tours, exhibitions, publications and talent cultivation results from funded projects",
+            "Evaluation Reports - Midterm and final project evaluation outcomes and public oversight records"
+        ],
+        "zh": [
+            "年度立项项目名单 - 按年度公布的获批项目，含申报主体、项目名称及资助金额",
+            "资助对象信息 - 获资助的艺术家个人和机构及其项目类别公示",
+            "资助统计 - 按艺术门类（舞台、美术、文学）、地区及项目类型分类的资助总额",
+            "项目成果 - 获资助项目的巡演、展览、出版及人才培养成果",
+            "评审报告 - 项目中期及结项评审结果与公共监督记录"
+        ]
+    }
+}
