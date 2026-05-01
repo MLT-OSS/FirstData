@@ -1,0 +1,51 @@
+{
+  "id": "china-beike-research",
+  "name": {
+    "en": "Beike Research Institute",
+    "zh": "贝壳研究院"
+  },
+  "description": {
+    "en": "Beike Research Institute (贝壳研究院) is the research arm of KE Holdings Inc. (Beike / Lianjia 链家), one of China's largest housing transaction and services platforms. Leveraging Beike's nationwide network of brokerages and transaction records, the institute publishes widely cited second-hand housing price indices, rental market reports, city housing market monitors, and consumer housing demand research. Coverage includes new home sales, second-hand transactions, and rental listings across 100+ Chinese cities.",
+    "zh": "贝壳研究院是贝壳找房（链家）旗下的研究机构。贝壳找房是中国最大的居住服务平台之一。依托贝壳全国经纪门店网络和交易数据，研究院发布广泛引用的二手房价格指数、租赁市场报告、城市房地产市场监测报告及购房者需求研究。覆盖100多个中国城市的新房销售、二手房交易和租赁市场数据。"
+  },
+  "website": "https://research.ke.com",
+  "data_url": "https://research.ke.com/reports",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "real-estate",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "real-estate",
+    "贝壳研究院",
+    "beike",
+    "二手房",
+    "second-hand-housing",
+    "rental-market",
+    "租赁",
+    "price-index",
+    "housing-demand"
+  ],
+  "data_content": {
+    "en": [
+      "Beike Second-hand Housing Price Index - Monthly second-hand housing price index across major Chinese cities",
+      "Rental Market Reports - Rental price trends, vacancy rates and tenant behavior analysis",
+      "New Home Sales Data - Monthly new home sales volume and price data from Beike platform",
+      "City Real Estate Monitors - City-level housing market monitoring reports",
+      "Housing Demand Research - Consumer housing purchase intention and demand surveys",
+      "Agency Industry Reports - Real estate brokerage industry data and research"
+    ],
+    "zh": [
+      "贝壳二手房价格指数 - 覆盖主要城市的月度二手房价格指数",
+      "租赁市场报告 - 租金价格走势、空置率及租客行为分析",
+      "新房销售数据 - 贝壳平台月度新房销售量和价格数据",
+      "城市房地产监测 - 城市层级的房地产市场监测报告",
+      "购房需求研究 - 消费者购房意向和需求调研",
+      "经纪行业报告 - 房地产经纪行业数据与研究"
+    ]
+  }
+}

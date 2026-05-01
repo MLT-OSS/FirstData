@@ -1,0 +1,51 @@
+{
+  "id": "china-cric",
+  "name": {
+    "en": "China Real Estate Information Corporation (CRIC)",
+    "zh": "克而瑞研究中心（CRIC）"
+  },
+  "description": {
+    "en": "China Real Estate Information Corporation (CRIC, 克而瑞), a subsidiary of E-House (China) Enterprise Holdings Limited, is one of China's most cited commercial real estate research providers. CRIC publishes monthly top developer sales rankings (房企销售榜), developer financing monitors (房企融资监测), debt-maturity analyses for listed and unlisted developers, land market data, and city-level housing market reports. Data sources include CRIC's proprietary transaction database covering 300+ Chinese cities.",
+    "zh": "克而瑞（CRIC）是易居（中国）企业控股有限公司旗下机构，是中国被引用最多的商业房地产研究机构之一。克而瑞发布月度房企销售榜、房企融资监测、上市及非上市房企债务到期分析、土地市场数据和城市层级的房地产市场报告。数据来源包括克而瑞自有的、覆盖300多个中国城市的交易数据库。"
+  },
+  "website": "https://www.cric.com",
+  "data_url": "https://www.cric.com/newhouse/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "real-estate",
+    "finance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "real-estate",
+    "房地产",
+    "克而瑞",
+    "CRIC",
+    "房企销售榜",
+    "developer-ranking",
+    "房企融资",
+    "debt-maturity",
+    "land-market"
+  ],
+  "data_content": {
+    "en": [
+      "Developer Sales Rankings - Monthly TOP200 Chinese real estate developer sales rankings",
+      "Developer Financing Monitor - Monthly tracking of developer bond issuance and financing activities",
+      "Debt Maturity Analysis - Debt maturity and liquidity risk analysis for major Chinese developers",
+      "Land Market Reports - Monthly land auction data across 300+ Chinese cities",
+      "City Housing Market Reports - City-level new home sales, inventory, and takeup cycle analysis",
+      "Industry Benchmark Reports - Annual China real estate industry benchmark and forecasting reports"
+    ],
+    "zh": [
+      "房企销售排行榜 - 月度中国房地产开发商TOP200销售排名",
+      "房企融资监测 - 房企债券发行和融资活动月度跟踪",
+      "债务到期分析 - 主要中国房企的债务到期及流动性风险分析",
+      "土地市场报告 - 覆盖300多个中国城市的月度土地招拍挂数据",
+      "城市房地产市场报告 - 城市层级的新房销售、库存和去化周期分析",
+      "行业研究报告 - 中国房地产行业年度基准与预测报告"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "china-fangjia",
+  "name": {
+    "en": "Fangjia.com - China Housing Price Network",
+    "zh": "房价网（fangjia.com）"
+  },
+  "description": {
+    "en": "Fangjia.com (房价网) is a specialized Chinese housing price data platform that compiles residential transaction and listing data across major Chinese cities. The platform is widely adopted by financial institutions for address standardization of housing collateral and publishes monthly housing price indices at the city, district, and community level. Fangjia claims over 90% address-standardization coverage, making it a reference dataset for mortgage valuation and housing risk analysis.",
+    "zh": "房价网（fangjia.com）是专业的中国房价数据平台，汇总中国主要城市的住宅成交和挂牌数据。该平台被金融机构广泛用于住房抵押物的地址标准化，并发布城市、区县和小区层级的月度房价指数。房价网宣称地址治理率高达90%，是抵押估值和住房风险分析的参考数据集。"
+  },
+  "website": "https://www.fangjia.com",
+  "data_url": "https://www.fangjia.com/cities/",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "real-estate",
+    "finance"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "real-estate",
+    "房价网",
+    "housing-price",
+    "address-standardization",
+    "mortgage-valuation",
+    "price-index",
+    "小区房价"
+  ],
+  "data_content": {
+    "en": [
+      "City Housing Price Index - Monthly housing price index for major Chinese cities",
+      "District Housing Price - District-level monthly housing price data",
+      "Community Housing Price - Community (xiaoqu) level housing price data for valuation",
+      "Address Standardization Data - Normalized address and community identifier dataset used by financial institutions",
+      "Housing Transaction References - Reference transaction and listing records used for mortgage valuation"
+    ],
+    "zh": [
+      "城市房价指数 - 中国主要城市的月度房价指数",
+      "区县房价 - 区县层级的月度房价数据",
+      "小区房价 - 用于估值的小区层级房价数据",
+      "地址标准化数据 - 被金融机构使用的地址和小区标识化数据集",
+      "成交参考记录 - 用于抵押估值的参考成交和挂牌记录"
+    ]
+  }
+}
