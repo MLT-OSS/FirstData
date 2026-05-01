@@ -1,0 +1,57 @@
+{
+    "id": "china-cscec",
+    "name": {
+        "en": "China State Construction Engineering Corporation",
+        "zh": "中国建筑集团有限公司"
+    },
+    "description": {
+        "en": "China State Construction Engineering Corporation (CSCEC) is the world's largest construction conglomerate and a central state-owned enterprise under SASAC. It is the primary executor of China's major infrastructure and construction projects, including highways, railways, bridges, urban development, and real estate. CSCEC publishes annual reports, ESG and sustainability reports, project completion statistics, housing delivery data, and financial disclosures, offering key indicators on China's construction industry scale, technological advancement, and green building adoption.",
+        "zh": "中国建筑集团有限公司（中国建筑）是全球最大的投资建设集团，国务院国资委直属中央企业。主要承担国家重大基础设施及建设项目，涵盖公路、铁路、桥梁、城镇化开发及房地产。中国建筑发布年度报告、ESG与可持续发展报告、项目竣工统计、住房交付数据及财务披露，为中国建筑行业规模、技术进步和绿色建筑发展提供核心指标。"
+    },
+    "website": "https://www.cscec.com",
+    "data_url": "https://www.cscec.com",
+    "api_url": null,
+    "authority_level": "commercial",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "construction",
+        "infrastructure",
+        "real-estate",
+        "urban-development"
+    ],
+    "tags": [
+        "china",
+        "cscec",
+        "中国建筑",
+        "construction",
+        "建筑工程",
+        "infrastructure",
+        "基础设施",
+        "real-estate",
+        "房地产",
+        "state-owned-enterprise",
+        "央企",
+        "green-building",
+        "绿色建筑",
+        "annual-report",
+        "工程建设"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Reports - Revenue, profit, new contract signings, and project completion statistics by business segment",
+            "ESG & Sustainability Reports - Carbon emissions, energy consumption, green building certifications, and safety indicators",
+            "Housing Delivery Data - Residential units completed and delivered, housing area by province",
+            "Major Project Statistics - Key infrastructure projects undertaken including airports, stadiums, and urban complexes",
+            "Financial Disclosures - Audited financial statements, capital expenditure, and debt structure data"
+        ],
+        "zh": [
+            "年度报告 - 按业务板块分类的营收、利润、新签合同及竣工统计",
+            "ESG与可持续发展报告 - 碳排放、能源消耗、绿色建筑认证及安全指标",
+            "住房交付数据 - 各省住宅竣工和交付套数及建筑面积",
+            "重大项目统计 - 机场、体育场馆、城市综合体等重点基础设施项目",
+            "财务信息披露 - 经审计财务报表、资本支出及债务结构数据"
+        ]
+    }
+}

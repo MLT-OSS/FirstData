@@ -1,0 +1,57 @@
+{
+    "id": "china-crrc",
+    "name": {
+        "en": "CRRC Corporation Limited",
+        "zh": "中国中车股份有限公司"
+    },
+    "description": {
+        "en": "CRRC Corporation Limited (中国中车) is the world's largest rolling stock manufacturer, formed by the merger of CNR and CSR in 2015 and listed on both Shanghai and Hong Kong stock exchanges. As a central state-owned enterprise, CRRC designs and manufactures high-speed trains, locomotives, metro vehicles, trams, and freight wagons, serving over 100 countries. CRRC publishes annual reports, production statistics, R&D investment data, and export performance figures, providing authoritative insight into China's rail equipment manufacturing, high-speed rail technology, and global transportation industry supply chains.",
+        "zh": "中国中车股份有限公司（中国中车）是全球最大的轨道交通装备制造商，2015年由中国北车与中国南车合并组建，在上海和香港两地上市，为国务院国资委直属中央企业。中国中车研制生产高速列车、机车、城轨车辆、有轨电车及货运车辆，产品遍布全球100多个国家。公司发布年度报告、生产统计、研发投入数据及出口业绩，是了解中国轨道交通装备制造、高速铁路技术和全球交通产业供应链的权威数据来源。"
+    },
+    "website": "https://www.crrcgc.cc",
+    "data_url": "https://www.crrcgc.cc",
+    "api_url": null,
+    "authority_level": "commercial",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "transportation",
+        "manufacturing",
+        "rail",
+        "technology"
+    ],
+    "tags": [
+        "china",
+        "crrc",
+        "中国中车",
+        "rail",
+        "轨道交通",
+        "high-speed-rail",
+        "高铁",
+        "rolling-stock",
+        "机车车辆",
+        "manufacturing",
+        "制造业",
+        "metro",
+        "城轨",
+        "state-owned-enterprise",
+        "央企"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Reports - Revenue breakdown by product type (EMU, locomotives, metro vehicles, components), domestic and export markets",
+            "Production Statistics - Number of vehicles delivered, track km equivalent, and production capacity by plant",
+            "R&D Investment Data - Research expenditure, patent filings, technology platform development",
+            "Export Performance - Rolling stock exports by country and region, international project contracts",
+            "ESG Reports - Energy consumption per vehicle, carbon footprint of manufacturing operations, labor statistics"
+        ],
+        "zh": [
+            "年度报告 - 按产品类型（动车组、机车、城轨车辆、零部件）分类的营收及内外销数据",
+            "生产统计 - 交付车辆数量、折算公里数及各基地产能",
+            "研发投入数据 - 研究经费、专利申请、技术平台建设",
+            "出口业绩 - 按国家和地区分类的轨道交通装备出口及海外项目合同",
+            "ESG报告 - 单车能耗、制造运营碳足迹、用工统计"
+        ]
+    }
+}

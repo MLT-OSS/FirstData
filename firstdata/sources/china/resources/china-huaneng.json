@@ -1,0 +1,57 @@
+{
+    "id": "china-huaneng",
+    "name": {
+        "en": "China Huaneng Group",
+        "zh": "中国华能集团有限公司"
+    },
+    "description": {
+        "en": "China Huaneng Group (CHNG) is one of China's five major state-owned power generation groups and a central enterprise under SASAC. It operates thermal, hydro, wind, solar, and nuclear power assets across China and internationally, with total installed capacity exceeding 300 GW. CHNG publishes annual reports, sustainability reports, power generation statistics, renewable energy deployment data, carbon emission indicators, and R&D outcomes, serving as an authoritative source for China's power sector capacity, energy transition progress, and clean energy development benchmarks.",
+        "zh": "中国华能集团有限公司（华能集团）是中国五大发电央企之一，为国务院国资委直属中央企业。集团拥有遍布中国及海外的火电、水电、风电、光伏及核电资产，总装机容量超3亿千瓦。华能集团发布年度报告、可持续发展报告、发电量统计、可再生能源布局数据、碳排放指标及科研成果，是了解中国电力行业装机规模、能源转型进展和清洁能源发展基准的权威数据来源。"
+    },
+    "website": "https://www.chng.com.cn",
+    "data_url": "https://www.chng.com.cn",
+    "api_url": null,
+    "authority_level": "commercial",
+    "country": "CN",
+    "geographic_scope": "national",
+    "update_frequency": "annual",
+    "domains": [
+        "energy",
+        "electricity",
+        "renewable-energy",
+        "climate"
+    ],
+    "tags": [
+        "china",
+        "huaneng",
+        "chng",
+        "中国华能",
+        "energy",
+        "能源",
+        "power-generation",
+        "发电",
+        "thermal-power",
+        "火电",
+        "renewable-energy",
+        "可再生能源",
+        "carbon-emissions",
+        "碳排放",
+        "央企"
+    ],
+    "data_content": {
+        "en": [
+            "Annual Reports - Total installed capacity, power generation output, revenue, and profit breakdown by energy type",
+            "Sustainability Reports - Carbon dioxide emissions, coal consumption, water usage, and green development KPIs",
+            "Renewable Energy Statistics - Wind, solar, and hydropower capacity additions and generation output",
+            "Nuclear Power Data - Operating status and performance of Shidaowan nuclear power plant",
+            "R&D Achievements - Technology innovations in clean coal, carbon capture, energy storage, and smart grid"
+        ],
+        "zh": [
+            "年度报告 - 总装机容量、发电量、营收及按能源类型分类的利润",
+            "可持续发展报告 - 二氧化碳排放量、煤炭消耗、用水量及绿色发展KPI",
+            "可再生能源统计 - 风电、光伏及水电新增装机与发电量",
+            "核电数据 - 石岛湾核电站运营状态及生产绩效",
+            "科研成果 - 清洁煤、碳捕集、储能及智能电网技术创新"
+        ]
+    }
+}
