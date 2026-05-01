@@ -1,0 +1,67 @@
+{
+  "id": "china-phirda",
+  "name": {
+    "en": "China Pharmaceutical Innovation and Research Development Association",
+    "zh": "中国医药创新促进会"
+  },
+  "description": {
+    "en": "The China Pharmaceutical Innovation and Research Development Association (PhIRDA, 中国医药创新促进会) is a national industry association representing innovative pharmaceutical companies, biotechnology firms, and clinical research organizations in China. Founded in 2012, PhIRDA promotes R&D-based drug development, policy advocacy for pharmaceutical innovation, and regulatory dialogue between industry and government agencies including NMPA (National Medical Products Administration). PhIRDA publishes annual innovation reports on China's pharmaceutical R&D pipeline, clinical trial statistics, drug approval data, R&D investment benchmarks, and policy analyses. Its research provides authoritative insights into China's pharmaceutical innovation landscape, new drug development trends, biopharma industry competitiveness, and regulatory environment for novel therapies.",
+    "zh": "中国医药创新促进会（PhIRDA）是代表中国创新药企业、生物技术公司和临床研究机构的全国性行业协会，成立于2012年。PhIRDA致力于推动研发驱动型新药研发，开展医药创新政策倡导，并促进行业与国家药品监督管理局（NMPA）等监管机构的对话。协会发布中国医药研发管线年度创新报告、临床试验统计、新药批准数据、研发投入基准和政策分析，为了解中国医药创新格局、新药研发趋势、生物制药行业竞争力和新疗法监管环境提供权威参考。"
+  },
+  "website": "https://www.phirda.com",
+  "data_url": "https://www.phirda.com",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "research",
+    "industry"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国医药创新促进会",
+    "phirda",
+    "医药创新",
+    "pharmaceutical-innovation",
+    "新药研发",
+    "drug-development",
+    "生物制药",
+    "biopharma",
+    "临床试验",
+    "clinical-trials",
+    "新药审批",
+    "drug-approval",
+    "nmpa",
+    "国家药监局",
+    "研发投入",
+    "rnd-investment",
+    "创新药",
+    "innovative-drugs"
+  ],
+  "data_content": {
+    "en": [
+      "Annual innovation report - overview of China's pharmaceutical R&D pipeline including small molecules, biologics, and cell/gene therapies",
+      "Clinical trial statistics - number of IND applications, ongoing Phase I/II/III trials, and completion rates in China",
+      "New drug approval data - NDA and BLA approvals by NMPA, approval timelines, and therapeutic area breakdown",
+      "R&D investment benchmarks - pharmaceutical industry R&D spending as percentage of revenue by company type and therapeutic focus",
+      "Global competitiveness analysis - comparison of China's innovative drug pipeline with US, EU, and Japan",
+      "Patent cliff and genericization data - key drugs facing patent expiry and biosimilar development activity",
+      "Regulatory policy analyses - impact assessments of NMPA policy reforms, MAH system implementation, and drug pricing linkage",
+      "Biopharma company landscape reports - profiling of leading domestic innovative companies, R&D capabilities, and licensed-in assets",
+      "Medical device innovation data - innovative device pipeline and NMPA approval statistics for high-risk devices"
+    ],
+    "zh": [
+      "年度创新报告 - 中国医药研发管线综述，涵盖小分子、生物制品及细胞/基因治疗",
+      "临床试验统计 - IND申请数量、在研I/II/III期临床试验及完成率",
+      "新药批准数据 - 国家药监局NDA和BLA审批情况、审评时限和治疗领域分布",
+      "研发投入基准 - 按企业类型和治疗重点分类的医药行业研发投入占营收比例",
+      "全球竞争力分析 - 中国创新药管线与美国、欧盟和日本的比较",
+      "专利悬崖与仿制化数据 - 面临专利到期的重点药品及生物类似药研发动态",
+      "监管政策分析 - 药监局政策改革、MAH制度实施和药品价格联动影响评估",
+      "生物制药企业图谱报告 - 国内领先创新企业、研发能力和引进资产概况",
+      "医疗器械创新数据 - 创新器械管线及高风险器械NMPA审批统计"
+    ]
+  }
+}

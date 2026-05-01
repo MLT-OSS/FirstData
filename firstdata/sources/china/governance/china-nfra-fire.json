@@ -1,0 +1,67 @@
+{
+  "id": "china-nfra-fire",
+  "name": {
+    "en": "National Fire and Rescue Administration of China",
+    "zh": "国家消防救援局"
+  },
+  "description": {
+    "en": "The National Fire and Rescue Administration (NFRA, 国家消防救援局) is the highest-level government body in China responsible for fire prevention, firefighting, rescue operations, and fire safety supervision. Established in 2018 following reform of the People's Armed Police system, NFRA operates a nationwide network of fire stations and rescue teams under the Ministry of Emergency Management. The Administration publishes official fire statistics, rescue operation data, fire prevention inspection records, major fire incident investigations, and national fire safety standards and guidelines. NFRA data provides authoritative information on fire incidents, casualties, property losses, hazardous material emergencies, and urban/rural fire safety conditions across China.",
+    "zh": "国家消防救援局是中国负责消防预防、灭火救援和消防安全监督的最高政府机构。2018年随武警改革组建，国家消防救援局在应急管理部领导下管理全国消防队伍。消防救援局发布官方火灾统计数据、救援行动记录、消防安全检查记录、重大火灾事故调查报告及国家消防技术标准和规范，是中国火灾事故数量、伤亡情况、财产损失、危险化学品事故和城乡消防安全状况的权威数据来源。"
+  },
+  "website": "https://www.119.gov.cn",
+  "data_url": "https://www.119.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "public-safety",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "消防救援",
+    "fire-rescue",
+    "国家消防救援局",
+    "nfra",
+    "火灾统计",
+    "fire-statistics",
+    "消防安全",
+    "fire-safety",
+    "灾害救援",
+    "disaster-rescue",
+    "应急救援",
+    "emergency-rescue",
+    "危险化学品",
+    "hazardous-materials",
+    "消防检查",
+    "fire-inspection"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and monthly fire statistics - total fire incidents, deaths, injuries, and direct property losses nationwide and by province",
+      "Fire cause analysis - breakdown of fire incidents by ignition source (electrical, open flame, smoking, arson, etc.)",
+      "Rescue operation data - records of firefighting and rescue operations, dispatched personnel, and vehicles",
+      "Major fire incident investigation reports - cause analysis and safety lessons from significant fires and explosions",
+      "Hazardous material emergency records - chemical plant fires, gas leaks, and toxic substance incidents",
+      "Fire safety inspection statistics - enterprise compliance rates, major hazard source identification, and rectification orders",
+      "Urban and rural fire safety gap analysis - regional fire risk assessments and prevention priority reports",
+      "National fire safety standards - technical codes and regulatory documents for fire prevention in buildings and industries",
+      "High-rise and underground space fire data - incident statistics for complex building environments",
+      "Fire rescue team capacity data - nationwide distribution, staffing levels, and equipment inventories"
+    ],
+    "zh": [
+      "年度及月度火灾统计 - 全国及各省市火灾起数、死亡人数、受伤人数和直接财产损失",
+      "火灾原因分析 - 按点火源（电气、明火、吸烟、人为纵火等）分类的火灾事故构成",
+      "救援行动数据 - 消防灭火救援出动记录、参战人员和车辆情况",
+      "重大火灾事故调查报告 - 重大火灾和爆炸事故的原因分析与安全警示",
+      "危险化学品应急记录 - 化工厂火灾、气体泄漏和有毒物质事故",
+      "消防安全检查统计 - 企业合规率、重大危险源认定和整改指令",
+      "城乡消防安全差距分析 - 区域火灾风险评估和防火重点报告",
+      "国家消防技术标准 - 建筑和工业消防预防技术规范和监管文件",
+      "高层及地下空间火灾数据 - 复杂建筑环境的事故统计",
+      "消防救援队伍建设数据 - 全国布局、人员编制和装备配备情况"
+    ]
+  }
+}
