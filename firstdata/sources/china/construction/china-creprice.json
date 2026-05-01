@@ -1,0 +1,47 @@
+{
+  "id": "china-creprice",
+  "name": {
+    "en": "China Real Estate Price Information Network",
+    "zh": "中国房价行情网"
+  },
+  "description": {
+    "en": "China Real Estate Price Information Network (中国房价行情, creprice.cn) is a real estate price data platform operated by Soufun/Fang.com Holdings, widely used by Chinese financial institutions for housing collateral valuation and address standardization. The platform publishes monthly residential and rental price data at the district, community, and compound level across more than 300 Chinese cities, as well as price trend analysis and market monitoring reports.",
+    "zh": "中国房价行情（creprice.cn）是由搜房/房天下集团运营的房地产价格数据平台，广泛用于中国金融机构的住房抵押估值和地址标准化。该平台发布覆盖300多个中国城市的月度住宅和租赁价格数据，精细到区、小区和楼盘层级，并提供价格走势分析和市场监测报告。"
+  },
+  "website": "http://www.creprice.cn",
+  "data_url": "http://www.creprice.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "real-estate"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "real-estate",
+    "房价行情",
+    "residential-price",
+    "rental-price",
+    "房价指数",
+    "housing-valuation",
+    "搜房",
+    "price-index"
+  ],
+  "data_content": {
+    "en": [
+      "City Housing Price Rankings - Monthly residential price rankings across 300+ Chinese cities",
+      "Community-Level Price Data - Detailed price data at community (xiaoqu) and compound level",
+      "Rental Price Data - Monthly rental price data with city and district breakdowns",
+      "Price Trend Analysis - Year-on-year and month-on-month price movement analysis",
+      "Housing Market Monitoring Reports - Market monitoring reports focused on price dynamics"
+    ],
+    "zh": [
+      "城市房价排行榜 - 覆盖300多个中国城市的月度住宅价格排名",
+      "小区层级价格数据 - 精细到小区和楼盘层级的价格数据",
+      "租金价格数据 - 月度租金价格数据，含城市和区级别细分",
+      "价格走势分析 - 同比和环比的价格变动分析",
+      "房地产市场监测报告 - 以价格动态为核心的市场监测报告"
+    ]
+  }
+}

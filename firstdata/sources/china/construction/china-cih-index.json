@@ -1,0 +1,52 @@
+{
+  "id": "china-cih-index",
+  "name": {
+    "en": "China Index Academy (CIH Cloud)",
+    "zh": "中指研究院（中指云）"
+  },
+  "description": {
+    "en": "China Index Academy (CIH, 中指研究院) is one of China's leading independent real estate research institutions. Its 'CIH Cloud' (中指云) platform publishes the widely referenced China Real Estate Index System (CREIS), including the 100-City Price Index, land auction (招拍挂) transaction data, top developer sales rankings (TOP100 房企销售榜), and monthly / annual real estate market monitoring reports covering residential, commercial, and land markets across Chinese cities.",
+    "zh": "中指研究院（CIH）是中国领先的独立房地产研究机构之一。其旗下的中指云平台发布广泛引用的中国房地产指数系统（CREIS），包括百城价格指数、土地招拍挂交易数据、房企销售TOP100排行榜，以及覆盖中国各城市住宅、商业和土地市场的月度/年度房地产市场监测报告。"
+  },
+  "website": "https://www.cih-index.com",
+  "data_url": "https://www.cih-index.com",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "real-estate",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "real-estate",
+    "房地产",
+    "中指研究院",
+    "CREIS",
+    "百城价格指数",
+    "land-market",
+    "土地招拍挂",
+    "房企排名",
+    "TOP100",
+    "price-index"
+  ],
+  "data_content": {
+    "en": [
+      "100-City Price Index - Monthly new and second-hand housing price index covering 100 Chinese cities",
+      "CREIS Land Market Data - Land auction transaction data including premium rates, supply, and takeup",
+      "TOP100 Developer Sales Rankings - Monthly and annual sales rankings of Chinese real estate developers",
+      "Real Estate Market Monitoring Reports - Monthly and annual market monitoring covering residential and commercial markets",
+      "City Research Reports - In-depth market research reports for major Chinese cities",
+      "Developer Financial & Operating Data - Quarterly operating and financial metrics for major listed and unlisted developers"
+    ],
+    "zh": [
+      "百城价格指数 - 覆盖中国100个城市的月度新房和二手房价格指数",
+      "CREIS土地市场数据 - 土地招拍挂交易数据，包括溢价率、供应量和去化率",
+      "TOP100房企销售排行榜 - 中国房地产开发商月度和年度销售排名",
+      "房地产市场监测报告 - 覆盖住宅和商业市场的月度和年度市场监测",
+      "城市研究报告 - 中国主要城市的深度市场研究报告",
+      "房企财务与经营数据 - 主要上市及非上市房企的季度经营和财务指标"
+    ]
+  }
+}
