@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T02:36:29.112961+00:00",
+    "generated_at": "2026-05-01T03:03:33.469333+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 637,
+    "total_sources": 642,
     "sources_with_api": 154,
     "last_updated": "2026-05-01"
   },
   "by_authority_level": {
-    "research": 111,
+    "research": 112,
     "international": 75,
     "government": 333,
     "other": 56,
-    "commercial": 24,
-    "market": 38
+    "market": 42,
+    "commercial": 24
   },
   "by_geographic_scope": {
     "global": 109,
-    "national": 445,
+    "national": 450,
     "regional": 27,
     "subnational": 56
   },
@@ -27,16 +27,16 @@
     "daily": 91,
     "weekly": 11,
     "quarterly": 49,
-    "monthly": 202,
+    "monthly": 207,
     "annual": 149,
     "real-time": 18
   },
   "by_domain": {
-    "economics": 253,
+    "economics": 255,
     "trade": 116,
     "social": 111,
     "environment": 109,
-    "finance": 97,
+    "finance": 99,
     "industry": 90,
     "demographics": 89,
     "statistics": 84,
@@ -55,6 +55,7 @@
     "research": 22,
     "prices": 22,
     "housing": 21,
+    "real-estate": 17,
     "banking": 17,
     "monetary-policy": 17,
     "development": 16,
@@ -62,7 +63,6 @@
     "labor": 14,
     "capital-markets": 13,
     "construction": 12,
-    "real-estate": 12,
     "standards": 10,
     "earth-science": 10,
     "population": 9,

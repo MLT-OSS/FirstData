@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T02:36:29.112961+00:00",
-    "total_sources": 637,
+    "generated_at": "2026-05-01T03:03:33.469333+00:00",
+    "total_sources": 642,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2193,6 +2193,59 @@
       "file_path": "china/cninfo.json"
     },
     {
+      "id": "china-beike-research",
+      "name": {
+        "en": "Beike Research Institute",
+        "zh": "贝壳研究院"
+      },
+      "description": {
+        "en": "Beike Research Institute (贝壳研究院) is the research arm of KE Holdings Inc. (Beike / Lianjia 链家), one of China's largest housing transaction and services platforms. Leveraging Beike's nationwide network of brokerages and transaction records, the institute publishes widely cited second-hand housing price indices, rental market reports, city housing market monitors, and consumer housing demand research. Coverage includes new home sales, second-hand transactions, and rental listings across 100+ Chinese cities.",
+        "zh": "贝壳研究院是贝壳找房（链家）旗下的研究机构。贝壳找房是中国最大的居住服务平台之一。依托贝壳全国经纪门店网络和交易数据，研究院发布广泛引用的二手房价格指数、租赁市场报告、城市房地产市场监测报告及购房者需求研究。覆盖100多个中国城市的新房销售、二手房交易和租赁市场数据。"
+      },
+      "website": "https://research.ke.com",
+      "data_url": "https://research.ke.com",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "real-estate",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "real-estate",
+        "贝壳研究院",
+        "beike",
+        "二手房",
+        "second-hand-housing",
+        "rental-market",
+        "租赁",
+        "price-index",
+        "housing-demand"
+      ],
+      "data_content": {
+        "en": [
+          "Beike Second-hand Housing Price Index - Monthly second-hand housing price index across major Chinese cities",
+          "Rental Market Reports - Rental price trends, vacancy rates and tenant behavior analysis",
+          "New Home Sales Data - Monthly new home sales volume and price data from Beike platform",
+          "City Real Estate Monitors - City-level housing market monitoring reports",
+          "Housing Demand Research - Consumer housing purchase intention and demand surveys",
+          "Agency Industry Reports - Real estate brokerage industry data and research"
+        ],
+        "zh": [
+          "贝壳二手房价格指数 - 覆盖主要城市的月度二手房价格指数",
+          "租赁市场报告 - 租金价格走势、空置率及租客行为分析",
+          "新房销售数据 - 贝壳平台月度新房销售量和价格数据",
+          "城市房地产监测 - 城市层级的房地产市场监测报告",
+          "购房需求研究 - 消费者购房意向和需求调研",
+          "经纪行业报告 - 房地产经纪行业数据与研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-beike-research.json"
+    },
+    {
       "id": "china-caupd",
       "name": {
         "en": "China Academy of Urban Planning and Design",
@@ -2345,6 +2398,60 @@
       "file_path": "china/construction/china-ccia.json"
     },
     {
+      "id": "china-cih-index",
+      "name": {
+        "en": "China Index Academy (CIH Cloud)",
+        "zh": "中指研究院（中指云）"
+      },
+      "description": {
+        "en": "China Index Academy (CIH, 中指研究院) is one of China's leading independent real estate research institutions. Its 'CIH Cloud' (中指云) platform publishes the widely referenced China Real Estate Index System (CREIS), including the 100-City Price Index, land auction (招拍挂) transaction data, top developer sales rankings (TOP100 房企销售榜), and monthly / annual real estate market monitoring reports covering residential, commercial, and land markets across Chinese cities.",
+        "zh": "中指研究院（CIH）是中国领先的独立房地产研究机构之一。其旗下的中指云平台发布广泛引用的中国房地产指数系统（CREIS），包括百城价格指数、土地招拍挂交易数据、房企销售TOP100排行榜，以及覆盖中国各城市住宅、商业和土地市场的月度/年度房地产市场监测报告。"
+      },
+      "website": "https://www.cih-index.com",
+      "data_url": "https://www.cih-index.com",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "real-estate",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "real-estate",
+        "房地产",
+        "中指研究院",
+        "CREIS",
+        "百城价格指数",
+        "land-market",
+        "土地招拍挂",
+        "房企排名",
+        "TOP100",
+        "price-index"
+      ],
+      "data_content": {
+        "en": [
+          "100-City Price Index - Monthly new and second-hand housing price index covering 100 Chinese cities",
+          "CREIS Land Market Data - Land auction transaction data including premium rates, supply, and takeup",
+          "TOP100 Developer Sales Rankings - Monthly and annual sales rankings of Chinese real estate developers",
+          "Real Estate Market Monitoring Reports - Monthly and annual market monitoring covering residential and commercial markets",
+          "City Research Reports - In-depth market research reports for major Chinese cities",
+          "Developer Financial & Operating Data - Quarterly operating and financial metrics for major listed and unlisted developers"
+        ],
+        "zh": [
+          "百城价格指数 - 覆盖中国100个城市的月度新房和二手房价格指数",
+          "CREIS土地市场数据 - 土地招拍挂交易数据，包括溢价率、供应量和去化率",
+          "TOP100房企销售排行榜 - 中国房地产开发商月度和年度销售排名",
+          "房地产市场监测报告 - 覆盖住宅和商业市场的月度和年度市场监测",
+          "城市研究报告 - 中国主要城市的深度市场研究报告",
+          "房企财务与经营数据 - 主要上市及非上市房企的季度经营和财务指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-cih-index.json"
+    },
+    {
       "id": "china-construction-standards",
       "name": {
         "en": "China Engineering Construction Standardization Association",
@@ -2390,6 +2497,108 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/construction/china-construction-standards.json"
+    },
+    {
+      "id": "china-creprice",
+      "name": {
+        "en": "China Real Estate Price Information Network",
+        "zh": "中国房价行情网"
+      },
+      "description": {
+        "en": "China Real Estate Price Information Network (中国房价行情, creprice.cn) is a real estate price data platform operated by Soufun/Fang.com Holdings, widely used by Chinese financial institutions for housing collateral valuation and address standardization. The platform publishes monthly residential and rental price data at the district, community, and compound level across more than 300 Chinese cities, as well as price trend analysis and market monitoring reports.",
+        "zh": "中国房价行情（creprice.cn）是由搜房/房天下集团运营的房地产价格数据平台，广泛用于中国金融机构的住房抵押估值和地址标准化。该平台发布覆盖300多个中国城市的月度住宅和租赁价格数据，精细到区、小区和楼盘层级，并提供价格走势分析和市场监测报告。"
+      },
+      "website": "http://www.creprice.cn",
+      "data_url": "http://www.creprice.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "real-estate"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "real-estate",
+        "房价行情",
+        "residential-price",
+        "rental-price",
+        "房价指数",
+        "housing-valuation",
+        "搜房",
+        "price-index"
+      ],
+      "data_content": {
+        "en": [
+          "City Housing Price Rankings - Monthly residential price rankings across 300+ Chinese cities",
+          "Community-Level Price Data - Detailed price data at community (xiaoqu) and compound level",
+          "Rental Price Data - Monthly rental price data with city and district breakdowns",
+          "Price Trend Analysis - Year-on-year and month-on-month price movement analysis",
+          "Housing Market Monitoring Reports - Market monitoring reports focused on price dynamics"
+        ],
+        "zh": [
+          "城市房价排行榜 - 覆盖300多个中国城市的月度住宅价格排名",
+          "小区层级价格数据 - 精细到小区和楼盘层级的价格数据",
+          "租金价格数据 - 月度租金价格数据，含城市和区级别细分",
+          "价格走势分析 - 同比和环比的价格变动分析",
+          "房地产市场监测报告 - 以价格动态为核心的市场监测报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-creprice.json"
+    },
+    {
+      "id": "china-cric",
+      "name": {
+        "en": "China Real Estate Information Corporation (CRIC)",
+        "zh": "克而瑞研究中心（CRIC）"
+      },
+      "description": {
+        "en": "China Real Estate Information Corporation (CRIC, 克而瑞), a subsidiary of E-House (China) Enterprise Holdings Limited, is one of China's most cited commercial real estate research providers. CRIC publishes monthly top developer sales rankings (房企销售榜), developer financing monitors (房企融资监测), debt-maturity analyses for listed and unlisted developers, land market data, and city-level housing market reports. Data sources include CRIC's proprietary transaction database covering 300+ Chinese cities.",
+        "zh": "克而瑞（CRIC）是易居（中国）企业控股有限公司旗下机构，是中国被引用最多的商业房地产研究机构之一。克而瑞发布月度房企销售榜、房企融资监测、上市及非上市房企债务到期分析、土地市场数据和城市层级的房地产市场报告。数据来源包括克而瑞自有的、覆盖300多个中国城市的交易数据库。"
+      },
+      "website": "https://www.cric.com",
+      "data_url": "https://www.cric.com/newhouse/",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "real-estate",
+        "finance"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "real-estate",
+        "房地产",
+        "克而瑞",
+        "CRIC",
+        "房企销售榜",
+        "developer-ranking",
+        "房企融资",
+        "debt-maturity",
+        "land-market"
+      ],
+      "data_content": {
+        "en": [
+          "Developer Sales Rankings - Monthly TOP200 Chinese real estate developer sales rankings",
+          "Developer Financing Monitor - Monthly tracking of developer bond issuance and financing activities",
+          "Debt Maturity Analysis - Debt maturity and liquidity risk analysis for major Chinese developers",
+          "Land Market Reports - Monthly land auction data across 300+ Chinese cities",
+          "City Housing Market Reports - City-level new home sales, inventory, and takeup cycle analysis",
+          "Industry Benchmark Reports - Annual China real estate industry benchmark and forecasting reports"
+        ],
+        "zh": [
+          "房企销售排行榜 - 月度中国房地产开发商TOP200销售排名",
+          "房企融资监测 - 房企债券发行和融资活动月度跟踪",
+          "债务到期分析 - 主要中国房企的债务到期及流动性风险分析",
+          "土地市场报告 - 覆盖300多个中国城市的月度土地招拍挂数据",
+          "城市房地产市场报告 - 城市层级的新房销售、库存和去化周期分析",
+          "行业研究报告 - 中国房地产行业年度基准与预测报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-cric.json"
     },
     {
       "id": "china-cscec",
@@ -2449,6 +2658,55 @@
       },
       "has_api": false,
       "file_path": "china/construction/china-cscec.json"
+    },
+    {
+      "id": "china-fangjia",
+      "name": {
+        "en": "Fangjia.com - China Housing Price Network",
+        "zh": "房价网（fangjia.com）"
+      },
+      "description": {
+        "en": "Fangjia.com (房价网) is a specialized Chinese housing price data platform that compiles residential transaction and listing data across major Chinese cities. The platform is widely adopted by financial institutions for address standardization of housing collateral and publishes monthly housing price indices at the city, district, and community level. Fangjia claims over 90% address-standardization coverage, making it a reference dataset for mortgage valuation and housing risk analysis.",
+        "zh": "房价网（fangjia.com）是专业的中国房价数据平台，汇总中国主要城市的住宅成交和挂牌数据。该平台被金融机构广泛用于住房抵押物的地址标准化，并发布城市、区县和小区层级的月度房价指数。房价网宣称地址治理率高达90%，是抵押估值和住房风险分析的参考数据集。"
+      },
+      "website": "https://www.fangjia.com",
+      "data_url": "https://www.fangjia.com",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "real-estate",
+        "finance"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "real-estate",
+        "房价网",
+        "housing-price",
+        "address-standardization",
+        "mortgage-valuation",
+        "price-index",
+        "小区房价"
+      ],
+      "data_content": {
+        "en": [
+          "City Housing Price Index - Monthly housing price index for major Chinese cities",
+          "District Housing Price - District-level monthly housing price data",
+          "Community Housing Price - Community (xiaoqu) level housing price data for valuation",
+          "Address Standardization Data - Normalized address and community identifier dataset used by financial institutions",
+          "Housing Transaction References - Reference transaction and listing records used for mortgage valuation"
+        ],
+        "zh": [
+          "城市房价指数 - 中国主要城市的月度房价指数",
+          "区县房价 - 区县层级的月度房价数据",
+          "小区房价 - 用于估值的小区层级房价数据",
+          "地址标准化数据 - 被金融机构使用的地址和小区标识化数据集",
+          "成交参考记录 - 用于抵押估值的参考成交和挂牌记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-fangjia.json"
     },
     {
       "id": "china-gd-housing",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T02:36:29.112961+00:00",
+    "generated_at": "2026-05-01T03:03:33.469333+00:00",
     "total_regions": 58,
-    "total_sources": 637,
+    "total_sources": 642,
     "version": "2.0"
   },
   "regions": {
@@ -348,6 +348,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-beike-research",
+        "name": {
+          "en": "Beike Research Institute",
+          "zh": "贝壳研究院"
+        },
+        "authority_level": "market",
+        "data_url": "https://research.ke.com",
+        "has_api": false,
+        "file_path": "china/construction/china-beike-research.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-caupd",
         "name": {
           "en": "China Academy of Urban Planning and Design",
@@ -372,6 +384,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cih-index",
+        "name": {
+          "en": "China Index Academy (CIH Cloud)",
+          "zh": "中指研究院（中指云）"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cih-index.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cih-index.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-construction-standards",
         "name": {
           "en": "China Engineering Construction Standardization Association",
@@ -385,6 +409,30 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-creprice",
+        "name": {
+          "en": "China Real Estate Price Information Network",
+          "zh": "中国房价行情网"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.creprice.cn",
+        "has_api": false,
+        "file_path": "china/construction/china-creprice.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cric",
+        "name": {
+          "en": "China Real Estate Information Corporation (CRIC)",
+          "zh": "克而瑞研究中心（CRIC）"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cric.com/newhouse/",
+        "has_api": false,
+        "file_path": "china/construction/china-cric.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cscec",
         "name": {
           "en": "China State Construction Engineering Corporation",
@@ -394,6 +442,18 @@
         "data_url": "https://www.cscec.com",
         "has_api": false,
         "file_path": "china/construction/china-cscec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-fangjia",
+        "name": {
+          "en": "Fangjia.com - China Housing Price Network",
+          "zh": "房价网（fangjia.com）"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.fangjia.com",
+        "has_api": false,
+        "file_path": "china/construction/china-fangjia.json",
         "geographic_scope": "national"
       },
       {

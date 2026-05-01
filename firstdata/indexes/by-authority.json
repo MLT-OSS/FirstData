@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T02:36:29.112961+00:00",
-    "total_sources": 637,
+    "generated_at": "2026-05-01T03:03:33.469333+00:00",
+    "total_sources": 642,
     "authority_counts": {
-      "research": 111,
+      "research": 112,
       "international": 75,
       "government": 333,
       "other": 56,
-      "commercial": 24,
-      "market": 38
+      "market": 42,
+      "commercial": 24
     },
     "version": "2.0"
   },
@@ -229,6 +229,18 @@
         "data_url": "https://www.caupd.com/",
         "has_api": false,
         "file_path": "china/construction/china-caupd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cih-index",
+        "name": {
+          "en": "China Index Academy (CIH Cloud)",
+          "zh": "中指研究院（中指云）"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cih-index.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cih-index.json",
         "geographic_scope": "national"
       },
       {
@@ -6990,298 +7002,55 @@
         "geographic_scope": "global"
       }
     ],
-    "commercial": [
-      {
-        "id": "china-cscec",
-        "name": {
-          "en": "China State Construction Engineering Corporation",
-          "zh": "中国建筑集团有限公司"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.cscec.com",
-        "has_api": false,
-        "file_path": "china/construction/china-cscec.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-alibaba-auction",
-        "name": {
-          "en": "Alibaba Judicial Auction Platform",
-          "zh": "阿里拍卖·司法"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://sf.taobao.com",
-        "has_api": false,
-        "file_path": "china/economy/china-alibaba-auction.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-gpai",
-        "name": {
-          "en": "China Public Auction Network",
-          "zh": "公拍网"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.gpai.net/sf/",
-        "has_api": false,
-        "file_path": "china/economy/china-gpai.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-jd-auction",
-        "name": {
-          "en": "JD.com Judicial Auction Platform",
-          "zh": "京东拍卖·司法"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://auction.jd.com/sifa.html",
-        "has_api": false,
-        "file_path": "china/economy/china-jd-auction.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-cei",
-        "name": {
-          "en": "China Economic Information Service",
-          "zh": "中国经济信息社"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.cei.cn/category/",
-        "has_api": false,
-        "file_path": "china/economy/macro/china-cei.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "hkex",
-        "name": {
-          "en": "Hong Kong Exchanges and Clearing Limited (HKEX)",
-          "zh": "香港交易及结算所有限公司（港交所）",
-          "native": "香港交易及结算所有限公司"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.hkexnews.hk",
-        "has_api": true,
-        "file_path": "china/finance/securities/hkex.json",
-        "geographic_scope": "regional"
-      },
-      {
-        "id": "china-ceeia",
-        "name": {
-          "en": "China Electrical Equipment Industry Association",
-          "zh": "中国电器工业协会"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceeia.com",
-        "has_api": false,
-        "file_path": "china/industry/china-ceeia.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-crrc",
-        "name": {
-          "en": "CRRC Corporation Limited",
-          "zh": "中国中车股份有限公司"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.crrcgc.cc",
-        "has_api": false,
-        "file_path": "china/infrastructure/china-crrc.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "ceic-china-urbanization",
-        "name": {
-          "en": "CEIC Data - China Urbanization Rate",
-          "zh": "CEIC数据库 - 中国城镇化率"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/zh-hans/china/population-urbanization-rate",
-        "has_api": true,
-        "file_path": "china/national/ceic-china-urbanization.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "cnki-population-census",
-        "name": {
-          "en": "CNKI China Population Census Database",
-          "zh": "中国人口普查数据库"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://data.cnki.net/npcd",
-        "has_api": false,
-        "file_path": "china/national/cnki-population-census.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-wanfang",
-        "name": {
-          "en": "Wanfang Data",
-          "zh": "万方数据"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.wanfangdata.com.cn/",
-        "has_api": false,
-        "file_path": "china/research/china-wanfang.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-huaneng",
-        "name": {
-          "en": "China Huaneng Group",
-          "zh": "中国华能集团有限公司"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.chng.com.cn",
-        "has_api": false,
-        "file_path": "china/resources/china-huaneng.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "ceic-global-database",
-        "name": {
-          "en": "CEIC Global Database",
-          "zh": "环亚经济数据库"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/en/products/global-economic-database",
-        "has_api": true,
-        "file_path": "international/economics/ceic-global-database.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "ceic-vietnam",
-        "name": {
-          "en": "CEIC Vietnam Economic Database",
-          "zh": "环亚经济数据库 - 越南经济数据专题"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.ceicdata.com/en/country/vietnam",
-        "has_api": true,
-        "file_path": "international/economics/ceic-vietnam.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "alpha-vantage",
-        "name": {
-          "en": "Alpha Vantage API",
-          "zh": "Alpha Vantage API"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.alphavantage.co/",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/alpha-vantage.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bloomberg-ipo-database",
-        "name": {
-          "en": "Bloomberg IPO Database",
-          "zh": "彭博IPO数据库"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/bloomberg-ipo-database.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bloomberg-terminal-ipo",
-        "name": {
-          "en": "Bloomberg Terminal - IPO Module",
-          "zh": "彭博终端 - IPO模块"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/bloomberg-terminal-ipo.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "bloomberg-terminal",
-        "name": {
-          "en": "Bloomberg Terminal (Public Data)",
-          "zh": "彭博终端（部分公开数据）"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.bloomberg.com/markets",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/bloomberg-terminal.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "cryptocurrency-data",
-        "name": {
-          "en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
-          "zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://coinmarketcap.com",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/cryptocurrency-data.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "hundsun-juyuan",
-        "name": {
-          "en": "Hundsun JuYuan Financial Data",
-          "zh": "恒生聚源金融数据"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://gildata.hs.net/",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/hundsun-juyuan.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "refinitiv-lseg",
-        "name": {
-          "en": "LSEG Data & Analytics (Refinitiv)",
-          "zh": "伦敦证交所数据分析(路孚特)"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.lseg.com/en/data-analytics/products/workspace",
-        "has_api": true,
-        "file_path": "sectors/K-finance-insurance/refinitiv-lseg.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "derwent-innovation-index",
-        "name": {
-          "en": "Derwent Innovation Index",
-          "zh": "德温特创新索引"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://clarivate.com/products/derwent-innovation/",
-        "has_api": true,
-        "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "aws-open-data-registry",
-        "name": {
-          "en": "Registry of Open Data on AWS",
-          "zh": "AWS开放数据注册表"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://registry.opendata.aws/",
-        "has_api": false,
-        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
-        "geographic_scope": "global"
-      },
-      {
-        "id": "joinquant",
-        "name": {
-          "zh": "聚宽量化交易平台",
-          "en": "JoinQuant Quantitative Trading Platform"
-        },
-        "authority_level": "commercial",
-        "data_url": "https://www.joinquant.com/data",
-        "has_api": true,
-        "file_path": "sectors/finance_markets/joinquant.json",
-        "geographic_scope": "national"
-      }
-    ],
     "market": [
+      {
+        "id": "china-beike-research",
+        "name": {
+          "en": "Beike Research Institute",
+          "zh": "贝壳研究院"
+        },
+        "authority_level": "market",
+        "data_url": "https://research.ke.com",
+        "has_api": false,
+        "file_path": "china/construction/china-beike-research.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-creprice",
+        "name": {
+          "en": "China Real Estate Price Information Network",
+          "zh": "中国房价行情网"
+        },
+        "authority_level": "market",
+        "data_url": "http://www.creprice.cn",
+        "has_api": false,
+        "file_path": "china/construction/china-creprice.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cric",
+        "name": {
+          "en": "China Real Estate Information Corporation (CRIC)",
+          "zh": "克而瑞研究中心（CRIC）"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.cric.com/newhouse/",
+        "has_api": false,
+        "file_path": "china/construction/china-cric.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-fangjia",
+        "name": {
+          "en": "Fangjia.com - China Housing Price Network",
+          "zh": "房价网（fangjia.com）"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.fangjia.com",
+        "has_api": false,
+        "file_path": "china/construction/china-fangjia.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-cppia",
         "name": {
@@ -7738,6 +7507,297 @@
         "has_api": false,
         "file_path": "sectors/P-education/qs-world-university-rankings.json",
         "geographic_scope": "global"
+      }
+    ],
+    "commercial": [
+      {
+        "id": "china-cscec",
+        "name": {
+          "en": "China State Construction Engineering Corporation",
+          "zh": "中国建筑集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cscec.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cscec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-alibaba-auction",
+        "name": {
+          "en": "Alibaba Judicial Auction Platform",
+          "zh": "阿里拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://sf.taobao.com",
+        "has_api": false,
+        "file_path": "china/economy/china-alibaba-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-gpai",
+        "name": {
+          "en": "China Public Auction Network",
+          "zh": "公拍网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.gpai.net/sf/",
+        "has_api": false,
+        "file_path": "china/economy/china-gpai.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-jd-auction",
+        "name": {
+          "en": "JD.com Judicial Auction Platform",
+          "zh": "京东拍卖·司法"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://auction.jd.com/sifa.html",
+        "has_api": false,
+        "file_path": "china/economy/china-jd-auction.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cei",
+        "name": {
+          "en": "China Economic Information Service",
+          "zh": "中国经济信息社"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cei.cn/category/",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cei.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "hkex",
+        "name": {
+          "en": "Hong Kong Exchanges and Clearing Limited (HKEX)",
+          "zh": "香港交易及结算所有限公司（港交所）",
+          "native": "香港交易及结算所有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.hkexnews.hk",
+        "has_api": true,
+        "file_path": "china/finance/securities/hkex.json",
+        "geographic_scope": "regional"
+      },
+      {
+        "id": "china-ceeia",
+        "name": {
+          "en": "China Electrical Equipment Industry Association",
+          "zh": "中国电器工业协会"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.ceeia.com",
+        "has_api": false,
+        "file_path": "china/industry/china-ceeia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crrc",
+        "name": {
+          "en": "CRRC Corporation Limited",
+          "zh": "中国中车股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.crrcgc.cc",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crrc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "ceic-china-urbanization",
+        "name": {
+          "en": "CEIC Data - China Urbanization Rate",
+          "zh": "CEIC数据库 - 中国城镇化率"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.ceicdata.com/zh-hans/china/population-urbanization-rate",
+        "has_api": true,
+        "file_path": "china/national/ceic-china-urbanization.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "cnki-population-census",
+        "name": {
+          "en": "CNKI China Population Census Database",
+          "zh": "中国人口普查数据库"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://data.cnki.net/npcd",
+        "has_api": false,
+        "file_path": "china/national/cnki-population-census.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-wanfang",
+        "name": {
+          "en": "Wanfang Data",
+          "zh": "万方数据"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.wanfangdata.com.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-wanfang.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-huaneng",
+        "name": {
+          "en": "China Huaneng Group",
+          "zh": "中国华能集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chng.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-huaneng.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "ceic-global-database",
+        "name": {
+          "en": "CEIC Global Database",
+          "zh": "环亚经济数据库"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.ceicdata.com/en/products/global-economic-database",
+        "has_api": true,
+        "file_path": "international/economics/ceic-global-database.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "ceic-vietnam",
+        "name": {
+          "en": "CEIC Vietnam Economic Database",
+          "zh": "环亚经济数据库 - 越南经济数据专题"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.ceicdata.com/en/country/vietnam",
+        "has_api": true,
+        "file_path": "international/economics/ceic-vietnam.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "alpha-vantage",
+        "name": {
+          "en": "Alpha Vantage API",
+          "zh": "Alpha Vantage API"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.alphavantage.co/",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/alpha-vantage.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "bloomberg-ipo-database",
+        "name": {
+          "en": "Bloomberg IPO Database",
+          "zh": "彭博IPO数据库"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/bloomberg-ipo-database.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "bloomberg-terminal-ipo",
+        "name": {
+          "en": "Bloomberg Terminal - IPO Module",
+          "zh": "彭博终端 - IPO模块"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.bloomberg.com/professional/products/bloomberg-terminal/",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/bloomberg-terminal-ipo.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "bloomberg-terminal",
+        "name": {
+          "en": "Bloomberg Terminal (Public Data)",
+          "zh": "彭博终端（部分公开数据）"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.bloomberg.com/markets",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/bloomberg-terminal.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "cryptocurrency-data",
+        "name": {
+          "en": "Cryptocurrency Market Data (CoinMarketCap & CoinGecko)",
+          "zh": "加密货币市场数据（CoinMarketCap 和 CoinGecko）"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://coinmarketcap.com",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/cryptocurrency-data.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "hundsun-juyuan",
+        "name": {
+          "en": "Hundsun JuYuan Financial Data",
+          "zh": "恒生聚源金融数据"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://gildata.hs.net/",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/hundsun-juyuan.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "refinitiv-lseg",
+        "name": {
+          "en": "LSEG Data & Analytics (Refinitiv)",
+          "zh": "伦敦证交所数据分析(路孚特)"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.lseg.com/en/data-analytics/products/workspace",
+        "has_api": true,
+        "file_path": "sectors/K-finance-insurance/refinitiv-lseg.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "derwent-innovation-index",
+        "name": {
+          "en": "Derwent Innovation Index",
+          "zh": "德温特创新索引"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://clarivate.com/products/derwent-innovation/",
+        "has_api": true,
+        "file_path": "sectors/M-professional-scientific/derwent-innovation-index.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "aws-open-data-registry",
+        "name": {
+          "en": "Registry of Open Data on AWS",
+          "zh": "AWS开放数据注册表"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://registry.opendata.aws/",
+        "has_api": false,
+        "file_path": "sectors/computer_science_ai/aws-open-data-registry.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "joinquant",
+        "name": {
+          "zh": "聚宽量化交易平台",
+          "en": "JoinQuant Quantitative Trading Platform"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.joinquant.com/data",
+        "has_api": true,
+        "file_path": "sectors/finance_markets/joinquant.json",
+        "geographic_scope": "national"
       }
     ]
   }
