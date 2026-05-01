@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T03:03:33.469333+00:00",
+    "generated_at": "2026-05-01T06:31:12.459339+00:00",
     "total_domains": 712,
-    "total_sources": 642,
+    "total_sources": 647,
     "version": "2.0"
   },
   "domains": {
@@ -354,6 +354,18 @@
         "data_url": "https://lswz.gov.cn/html/xwzx/sjfb/index.html",
         "has_api": false,
         "file_path": "china/economy/agriculture/china-nfsra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sinograin",
+        "name": {
+          "en": "Sinograin - China Grain Reserves Corporation",
+          "zh": "中国储备粮管理集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sinograin.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-sinograin.json",
         "geographic_scope": "national"
       },
       {
@@ -8090,6 +8102,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sinograin",
+        "name": {
+          "en": "Sinograin - China Grain Reserves Corporation",
+          "zh": "中国储备粮管理集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sinograin.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-sinograin.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-acfic",
         "name": {
           "en": "All-China Federation of Industry and Commerce",
@@ -9573,6 +9597,18 @@
         "data_url": "http://www.ncsc.org.cn",
         "has_api": false,
         "file_path": "china/resources/environment/china-ncsc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinalco",
+        "name": {
+          "en": "Aluminum Corporation of China (Chinalco)",
+          "zh": "中国铝业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chinalco.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-chinalco.json",
         "geographic_scope": "national"
       },
       {
@@ -14102,6 +14138,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ches",
+        "name": {
+          "en": "China Hydraulic Engineering Society",
+          "zh": "中国水利学会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ches.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-ches.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-chinawater",
         "name": {
           "en": "China Water Resources Portal",
@@ -17282,6 +17330,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sinograin",
+        "name": {
+          "en": "Sinograin - China Grain Reserves Corporation",
+          "zh": "中国储备粮管理集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.sinograin.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-sinograin.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "aafc",
         "name": {
           "en": "Agriculture and Agri-Food Canada",
@@ -18550,6 +18610,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nfra-fire",
+        "name": {
+          "en": "National Fire and Rescue Administration of China",
+          "zh": "国家消防救援局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.119.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-nfra-fire.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nia",
         "name": {
           "en": "National Immigration Administration of China",
@@ -19411,6 +19483,18 @@
         "data_url": "https://www.phsciencedata.cn",
         "has_api": false,
         "file_path": "china/health/china-nphsd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-phirda",
+        "name": {
+          "en": "China Pharmaceutical Innovation and Research Development Association",
+          "zh": "中国医药创新促进会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.phirda.com",
+        "has_api": false,
+        "file_path": "china/health/china-phirda.json",
         "geographic_scope": "national"
       },
       {
@@ -21491,6 +21575,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-phirda",
+        "name": {
+          "en": "China Pharmaceutical Innovation and Research Development Association",
+          "zh": "中国医药创新促进会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.phirda.com",
+        "has_api": false,
+        "file_path": "china/health/china-phirda.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ceeia",
         "name": {
           "en": "China Electrical Equipment Industry Association",
@@ -21609,6 +21705,18 @@
         "data_url": "https://www.crra.org.cn",
         "has_api": false,
         "file_path": "china/resources/environment/china-crra.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinalco",
+        "name": {
+          "en": "Aluminum Corporation of China (Chinalco)",
+          "zh": "中国铝业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chinalco.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-chinalco.json",
         "geographic_scope": "national"
       },
       {
@@ -28611,6 +28719,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nfra-fire",
+        "name": {
+          "en": "National Fire and Rescue Administration of China",
+          "zh": "国家消防救援局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.119.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-nfra-fire.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nncc",
         "name": {
           "en": "China National Narcotics Control Commission",
@@ -29388,6 +29508,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-phirda",
+        "name": {
+          "en": "China Pharmaceutical Innovation and Research Development Association",
+          "zh": "中国医药创新促进会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.phirda.com",
+        "has_api": false,
+        "file_path": "china/health/china-phirda.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cae",
         "name": {
           "en": "Chinese Academy of Engineering",
@@ -29544,6 +29676,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ches",
+        "name": {
+          "en": "China Hydraulic Engineering Society",
+          "zh": "中国水利学会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ches.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-ches.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-shenzhen-stic",
         "name": {
           "en": "Shenzhen Science, Technology and Innovation Commission",
@@ -29657,6 +29801,18 @@
         "data_url": "https://www.cgs.gov.cn/",
         "has_api": false,
         "file_path": "china/resources/mineral/china-cgas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinalco",
+        "name": {
+          "en": "Aluminum Corporation of China (Chinalco)",
+          "zh": "中国铝业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chinalco.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-chinalco.json",
         "geographic_scope": "national"
       },
       {
@@ -31391,6 +31547,18 @@
         "data_url": "https://www.neac.gov.cn/seac/xxgk/tjsj/",
         "has_api": false,
         "file_path": "china/governance/china-neac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nfra-fire",
+        "name": {
+          "en": "National Fire and Rescue Administration of China",
+          "zh": "国家消防救援局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.119.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-nfra-fire.json",
         "geographic_scope": "national"
       },
       {
@@ -37476,6 +37644,18 @@
         "data_url": "http://www.cigem.cgs.gov.cn/",
         "has_api": false,
         "file_path": "china/resources/environment/china-cigem.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ches",
+        "name": {
+          "en": "China Hydraulic Engineering Society",
+          "zh": "中国水利学会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ches.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/water/china-ches.json",
         "geographic_scope": "national"
       },
       {

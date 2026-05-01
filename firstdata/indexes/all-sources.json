@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T03:03:33.469333+00:00",
-    "total_sources": 642,
+    "generated_at": "2026-05-01T06:31:12.459339+00:00",
+    "total_sources": 647,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3413,6 +3413,73 @@
       },
       "has_api": false,
       "file_path": "china/economy/agriculture/china-nfsra.json"
+    },
+    {
+      "id": "china-sinograin",
+      "name": {
+        "en": "Sinograin - China Grain Reserves Corporation",
+        "zh": "中国储备粮管理集团有限公司"
+      },
+      "description": {
+        "en": "Sinograin (China Grain Reserves Corporation, 中储粮) is the central state-owned enterprise directly under the State Council responsible for managing China's national strategic grain reserves. Established in 2003, Sinograin oversees the storage, rotation, and distribution of grain and edible oil reserves across more than 900 storage facilities and affiliated enterprises nationwide. As the world's largest grain reserve manager, Sinograin plays a pivotal role in China's food security strategy, price stabilization, and emergency supply response. The company publishes annual reports, grain reserve operation data, rotation and procurement announcements, and food security-related disclosures that serve as authoritative indicators of China's strategic food stockpile levels and grain supply chain management.",
+        "zh": "中国储备粮管理集团有限公司（中储粮集团）是国务院直属的中央国有企业，负责管理国家战略粮食储备。成立于2003年，中储粮负责全国900余个储备库及下属企业的粮食和食用油储备的储存、轮换和动用工作。作为全球最大的粮食储备管理机构，中储粮在中国粮食安全战略、价格调控和应急供应响应中发挥关键作用。公司发布年度报告、粮食储备运营数据、轮换和收购公告及粮食安全相关信息，是中国战略粮食储备规模和粮食供应链管理的权威数据来源。"
+      },
+      "website": "https://www.sinograin.com.cn",
+      "data_url": "https://www.sinograin.com.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "food-security",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中储粮",
+        "sinograin",
+        "粮食储备",
+        "grain-reserves",
+        "国家战略储备",
+        "strategic-reserves",
+        "粮食安全",
+        "food-security",
+        "食用油储备",
+        "edible-oil-reserves",
+        "粮食轮换",
+        "grain-rotation",
+        "央企",
+        "central-soe",
+        "粮食供应链",
+        "grain-supply-chain"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports - financial performance, grain reserve volumes, and operational overview of Sinograin and its subsidiaries",
+          "Grain reserve inventory data - stored volumes of rice, wheat, corn, and soybeans at national reserve facilities",
+          "Grain procurement announcements - minimum purchase price policies, procurement volumes, and regional acquisition plans",
+          "Grain rotation records - regular reserve rotation schedules, auction results, and grain quality monitoring",
+          "Edible oil reserves - stored volumes of soybean oil, rapeseed oil, palm oil, and other strategic edible oils",
+          "Logistics and storage network - capacity data for over 900 state-owned grain storage facilities nationwide",
+          "Emergency reserve deployment - activation records and grain release data during food security emergencies",
+          "Corporate governance disclosures - management structure, subsidiary profiles, and compliance reports",
+          "Grain price stabilization operations - market intervention records and policy-driven procurement activities"
+        ],
+        "zh": [
+          "年度报告 - 中储粮集团及下属企业的财务业绩、粮食储备规模及运营概况",
+          "粮食储备库存数据 - 全国储备库水稻、小麦、玉米和大豆的储存量",
+          "粮食收购公告 - 最低收购价政策、收购数量及分地区收购计划",
+          "粮食轮换记录 - 定期轮换计划、竞价销售结果和粮食质量监测",
+          "食用油储备 - 大豆油、菜籽油、棕榈油等战略性食用油的储备数量",
+          "物流和储存网络 - 全国900余家国有粮食仓储设施的容量数据",
+          "应急储备动用 - 粮食安全应急状态下的启动记录和粮食出库数据",
+          "公司治理披露 - 管理架构、下属企业情况及合规报告",
+          "粮食价格调控操作 - 市场干预记录及政策性收购活动"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-sinograin.json"
     },
     {
       "id": "china-passenger-car-association",
@@ -14410,6 +14477,75 @@
       "file_path": "china/governance/china-neac.json"
     },
     {
+      "id": "china-nfra-fire",
+      "name": {
+        "en": "National Fire and Rescue Administration of China",
+        "zh": "国家消防救援局"
+      },
+      "description": {
+        "en": "The National Fire and Rescue Administration (NFRA, 国家消防救援局) is the highest-level government body in China responsible for fire prevention, firefighting, rescue operations, and fire safety supervision. Established in 2018 following reform of the People's Armed Police system, NFRA operates a nationwide network of fire stations and rescue teams under the Ministry of Emergency Management. The Administration publishes official fire statistics, rescue operation data, fire prevention inspection records, major fire incident investigations, and national fire safety standards and guidelines. NFRA data provides authoritative information on fire incidents, casualties, property losses, hazardous material emergencies, and urban/rural fire safety conditions across China.",
+        "zh": "国家消防救援局是中国负责消防预防、灭火救援和消防安全监督的最高政府机构。2018年随武警改革组建，国家消防救援局在应急管理部领导下管理全国消防队伍。消防救援局发布官方火灾统计数据、救援行动记录、消防安全检查记录、重大火灾事故调查报告及国家消防技术标准和规范，是中国火灾事故数量、伤亡情况、财产损失、危险化学品事故和城乡消防安全状况的权威数据来源。"
+      },
+      "website": "https://www.119.gov.cn",
+      "data_url": "https://www.119.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "public-safety",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "消防救援",
+        "fire-rescue",
+        "国家消防救援局",
+        "nfra",
+        "火灾统计",
+        "fire-statistics",
+        "消防安全",
+        "fire-safety",
+        "灾害救援",
+        "disaster-rescue",
+        "应急救援",
+        "emergency-rescue",
+        "危险化学品",
+        "hazardous-materials",
+        "消防检查",
+        "fire-inspection"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and monthly fire statistics - total fire incidents, deaths, injuries, and direct property losses nationwide and by province",
+          "Fire cause analysis - breakdown of fire incidents by ignition source (electrical, open flame, smoking, arson, etc.)",
+          "Rescue operation data - records of firefighting and rescue operations, dispatched personnel, and vehicles",
+          "Major fire incident investigation reports - cause analysis and safety lessons from significant fires and explosions",
+          "Hazardous material emergency records - chemical plant fires, gas leaks, and toxic substance incidents",
+          "Fire safety inspection statistics - enterprise compliance rates, major hazard source identification, and rectification orders",
+          "Urban and rural fire safety gap analysis - regional fire risk assessments and prevention priority reports",
+          "National fire safety standards - technical codes and regulatory documents for fire prevention in buildings and industries",
+          "High-rise and underground space fire data - incident statistics for complex building environments",
+          "Fire rescue team capacity data - nationwide distribution, staffing levels, and equipment inventories"
+        ],
+        "zh": [
+          "年度及月度火灾统计 - 全国及各省市火灾起数、死亡人数、受伤人数和直接财产损失",
+          "火灾原因分析 - 按点火源（电气、明火、吸烟、人为纵火等）分类的火灾事故构成",
+          "救援行动数据 - 消防灭火救援出动记录、参战人员和车辆情况",
+          "重大火灾事故调查报告 - 重大火灾和爆炸事故的原因分析与安全警示",
+          "危险化学品应急记录 - 化工厂火灾、气体泄漏和有毒物质事故",
+          "消防安全检查统计 - 企业合规率、重大危险源认定和整改指令",
+          "城乡消防安全差距分析 - 区域火灾风险评估和防火重点报告",
+          "国家消防技术标准 - 建筑和工业消防预防技术规范和监管文件",
+          "高层及地下空间火灾数据 - 复杂建筑环境的事故统计",
+          "消防救援队伍建设数据 - 全国布局、人员编制和装备配备情况"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-nfra-fire.json"
+    },
+    {
       "id": "china-nia",
       "name": {
         "en": "National Immigration Administration of China",
@@ -16708,6 +16844,75 @@
       },
       "has_api": false,
       "file_path": "china/health/china-nphsd.json"
+    },
+    {
+      "id": "china-phirda",
+      "name": {
+        "en": "China Pharmaceutical Innovation and Research Development Association",
+        "zh": "中国医药创新促进会"
+      },
+      "description": {
+        "en": "The China Pharmaceutical Innovation and Research Development Association (PhIRDA, 中国医药创新促进会) is a national industry association representing innovative pharmaceutical companies, biotechnology firms, and clinical research organizations in China. Founded in 2012, PhIRDA promotes R&D-based drug development, policy advocacy for pharmaceutical innovation, and regulatory dialogue between industry and government agencies including NMPA (National Medical Products Administration). PhIRDA publishes annual innovation reports on China's pharmaceutical R&D pipeline, clinical trial statistics, drug approval data, R&D investment benchmarks, and policy analyses. Its research provides authoritative insights into China's pharmaceutical innovation landscape, new drug development trends, biopharma industry competitiveness, and regulatory environment for novel therapies.",
+        "zh": "中国医药创新促进会（PhIRDA）是代表中国创新药企业、生物技术公司和临床研究机构的全国性行业协会，成立于2012年。PhIRDA致力于推动研发驱动型新药研发，开展医药创新政策倡导，并促进行业与国家药品监督管理局（NMPA）等监管机构的对话。协会发布中国医药研发管线年度创新报告、临床试验统计、新药批准数据、研发投入基准和政策分析，为了解中国医药创新格局、新药研发趋势、生物制药行业竞争力和新疗法监管环境提供权威参考。"
+      },
+      "website": "https://www.phirda.com",
+      "data_url": "https://www.phirda.com",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "research",
+        "industry"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国医药创新促进会",
+        "phirda",
+        "医药创新",
+        "pharmaceutical-innovation",
+        "新药研发",
+        "drug-development",
+        "生物制药",
+        "biopharma",
+        "临床试验",
+        "clinical-trials",
+        "新药审批",
+        "drug-approval",
+        "nmpa",
+        "国家药监局",
+        "研发投入",
+        "rnd-investment",
+        "创新药",
+        "innovative-drugs"
+      ],
+      "data_content": {
+        "en": [
+          "Annual innovation report - overview of China's pharmaceutical R&D pipeline including small molecules, biologics, and cell/gene therapies",
+          "Clinical trial statistics - number of IND applications, ongoing Phase I/II/III trials, and completion rates in China",
+          "New drug approval data - NDA and BLA approvals by NMPA, approval timelines, and therapeutic area breakdown",
+          "R&D investment benchmarks - pharmaceutical industry R&D spending as percentage of revenue by company type and therapeutic focus",
+          "Global competitiveness analysis - comparison of China's innovative drug pipeline with US, EU, and Japan",
+          "Patent cliff and genericization data - key drugs facing patent expiry and biosimilar development activity",
+          "Regulatory policy analyses - impact assessments of NMPA policy reforms, MAH system implementation, and drug pricing linkage",
+          "Biopharma company landscape reports - profiling of leading domestic innovative companies, R&D capabilities, and licensed-in assets",
+          "Medical device innovation data - innovative device pipeline and NMPA approval statistics for high-risk devices"
+        ],
+        "zh": [
+          "年度创新报告 - 中国医药研发管线综述，涵盖小分子、生物制品及细胞/基因治疗",
+          "临床试验统计 - IND申请数量、在研I/II/III期临床试验及完成率",
+          "新药批准数据 - 国家药监局NDA和BLA审批情况、审评时限和治疗领域分布",
+          "研发投入基准 - 按企业类型和治疗重点分类的医药行业研发投入占营收比例",
+          "全球竞争力分析 - 中国创新药管线与美国、欧盟和日本的比较",
+          "专利悬崖与仿制化数据 - 面临专利到期的重点药品及生物类似药研发动态",
+          "监管政策分析 - 药监局政策改革、MAH制度实施和药品价格联动影响评估",
+          "生物制药企业图谱报告 - 国内领先创新企业、研发能力和引进资产概况",
+          "医疗器械创新数据 - 创新器械管线及高风险器械NMPA审批统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-phirda.json"
     },
     {
       "id": "china-ceeia",
@@ -23950,6 +24155,77 @@
       "file_path": "china/resources/mineral/china-cgas.json"
     },
     {
+      "id": "china-chinalco",
+      "name": {
+        "en": "Aluminum Corporation of China (Chinalco)",
+        "zh": "中国铝业集团有限公司"
+      },
+      "description": {
+        "en": "The Aluminum Corporation of China (Chinalco, 中国铝业集团) is a central state-owned enterprise under SASAC and the world's largest aluminium producer by capacity. Founded in 2001, Chinalco manages the full aluminium value chain from bauxite mining and alumina refining to aluminium smelting, processing, and downstream manufacturing, as well as diversified metals including copper, rare earths, and gallium. The group operates major mines and smelters in over 20 provinces and holds international assets in Guinea, Peru, Australia, and other countries. Chinalco's annual reports, production statistics, and sustainability disclosures provide authoritative data on China's aluminium and bauxite output, alumina refining capacity, electrolysis power consumption, and the country's position in global non-ferrous metal supply chains.",
+        "zh": "中国铝业集团有限公司（中铝集团）是国务院国资委直属中央企业，也是全球最大的铝生产商之一。成立于2001年，中铝集团管理铝产业全链条，涵盖铝土矿采矿、氧化铝精炼、电解铝冶炼、铝加工及下游制造，以及铜、稀土、镓等多元化金属业务。集团在国内20余个省份拥有大型矿山和冶炼设施，并在几内亚、秘鲁、澳大利亚等国持有国际资产。中铝集团的年度报告、生产统计和可持续发展披露提供了有关中国铝和铝土矿产量、氧化铝精炼产能、电解槽电耗及中国在全球有色金属供应链中地位的权威数据。"
+      },
+      "website": "https://www.chinalco.com.cn",
+      "data_url": "https://www.chinalco.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "resources",
+        "industry",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国铝业",
+        "chinalco",
+        "铝",
+        "aluminium",
+        "铝土矿",
+        "bauxite",
+        "氧化铝",
+        "alumina",
+        "电解铝",
+        "electrolytic-aluminium",
+        "有色金属",
+        "nonferrous-metals",
+        "稀土",
+        "rare-earth",
+        "铜",
+        "copper",
+        "央企",
+        "central-soe",
+        "矿业",
+        "mining"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports - financial results, production volumes, capital expenditure, and strategic outlook for Chinalco Group",
+          "Aluminium production statistics - smelting capacity, output of primary aluminium, alumina, and bauxite by region and facility",
+          "Electrolysis energy consumption - power consumption per tonne of aluminium, efficiency improvement targets and outcomes",
+          "Copper and diversified metals data - copper cathode production, rare earth output, and gallium/indium recoveries",
+          "Bauxite reserve and mine data - domestic and international bauxite reserve grades, mining volumes, and mine life estimates",
+          "Sustainability reports - carbon footprint, green electricity usage, water consumption, and waste reduction per unit of production",
+          "International asset portfolio - operational status and production data for overseas mining investments in Guinea, Peru, and Australia",
+          "Downstream processing statistics - aluminium foil, sheet, plate, and extrusion production for automotive, aerospace, and packaging applications",
+          "Research and innovation disclosures - R&D investment in low-carbon aluminium technology, inert anode development, and recycling"
+        ],
+        "zh": [
+          "年度报告 - 中铝集团财务业绩、产量、资本支出和战略展望",
+          "铝产量统计 - 各地区和设施的冶炼产能及原铝、氧化铝、铝土矿产量",
+          "电解槽能耗 - 吨铝电耗及节能降耗目标和成果",
+          "铜及多元化金属数据 - 阴极铜产量、稀土产出及镓铟回收情况",
+          "铝土矿储量及矿山数据 - 国内外铝土矿储量品位、采矿量和矿山寿命预测",
+          "可持续发展报告 - 碳排放足迹、绿色电力使用、水耗及单位产品减废情况",
+          "海外资产组合 - 几内亚、秘鲁、澳大利亚等境外矿业投资的运营状况和产量数据",
+          "下游加工统计 - 铝箔、铝板、铝带和铝型材在汽车、航空航天和包装领域的产量",
+          "研发与创新披露 - 低碳铝技术、惰性阳极研发和再生铝回收的研发投入"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/mineral/china-chinalco.json"
+    },
+    {
       "id": "china-cnia",
       "name": {
         "en": "China Nonferrous Metals Industry Association",
@@ -24565,6 +24841,75 @@
       },
       "has_api": false,
       "file_path": "china/resources/seismology/china-cenc.json"
+    },
+    {
+      "id": "china-ches",
+      "name": {
+        "en": "China Hydraulic Engineering Society",
+        "zh": "中国水利学会"
+      },
+      "description": {
+        "en": "The China Hydraulic Engineering Society (CHES, 中国水利学会) is a national academic organization founded in 1931, affiliated with the China Association for Science and Technology (CAST) and the Ministry of Water Resources. CHES is the premier professional society for hydraulic engineering, water conservancy, hydrology, and water resources management in China. It publishes the flagship academic journal 'Journal of Hydraulic Engineering' (水利学报) along with multiple specialized periodicals covering dam engineering, flood control, irrigation, hydropower, and water environment. CHES organizes major conferences and technical exchanges, and its publications and standards represent the highest academic authority for water-related engineering research in China.",
+        "zh": "中国水利学会（CHES）成立于1931年，是全国性学术团体，挂靠中国科学技术协会和水利部。中国水利学会是中国水利工程、水文学和水资源管理领域最权威的专业学术组织，出版旗舰学术期刊《水利学报》及多个涵盖坝工技术、防洪、灌溉、水电和水环境的专业刊物，组织重大学术会议和技术交流，其出版物和标准代表中国水利工程研究的最高学术权威。"
+      },
+      "website": "http://www.ches.org.cn",
+      "data_url": "http://www.ches.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "water",
+        "environment",
+        "research"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国水利学会",
+        "ches",
+        "水利工程",
+        "hydraulic-engineering",
+        "水资源",
+        "water-resources",
+        "水利学报",
+        "journal-of-hydraulic-engineering",
+        "防洪",
+        "flood-control",
+        "水电",
+        "hydropower",
+        "水文学",
+        "hydrology",
+        "灌溉",
+        "irrigation",
+        "大坝",
+        "dam-engineering"
+      ],
+      "data_content": {
+        "en": [
+          "Journal of Hydraulic Engineering (水利学报) - bimonthly peer-reviewed journal covering hydraulic structures, river dynamics, groundwater, and water resource planning",
+          "Advances in Water Science (水科学进展) - academic journal on hydrology, water environment, and climate-water interactions",
+          "Hydro-Science and Engineering (水利水电技术) - technical research on dam safety, reservoir management, and hydropower",
+          "Technical standards and codes - hydraulic engineering design specifications, safety codes for dams and reservoirs",
+          "Annual conference proceedings - academic papers from the National Water Congress and specialized symposia",
+          "Flood control and drought relief research - methodology papers on flood forecasting, risk assessment, and disaster mitigation",
+          "Water environment protection data - research on river basin water quality, pollution control, and ecological flow requirements",
+          "Irrigation and drainage research - efficiency improvement data and case studies for farmland water management",
+          "Smart water conservancy developments - R&D outcomes on digital hydrology, IoT sensor networks, and AI in water management"
+        ],
+        "zh": [
+          "《水利学报》 - 双月出版的同行评审期刊，涵盖水工结构、河流动力学、地下水和水资源规划",
+          "《水科学进展》 - 水文学、水环境及气候-水相互作用学术期刊",
+          "《水利水电技术》 - 坝工安全、水库运行和水电工程技术研究",
+          "技术标准和规范 - 水利工程设计规范、坝和水库安全技术标准",
+          "年会论文集 - 全国水利学术大会及专题研讨会学术论文",
+          "防洪抗旱研究 - 洪水预报、风险评估和减灾方法论文",
+          "水环境保护数据 - 流域水质、污染控制和生态流量需求研究",
+          "灌溉排水研究 - 农田水利管理效率提升数据和案例研究",
+          "智慧水利进展 - 数字水文、物联网传感器网络和人工智能水管理研究成果"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/water/china-ches.json"
     },
     {
       "id": "china-chinawater",
