@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T06:29:49.047089+00:00",
-    "total_sources": 632,
+    "generated_at": "2026-05-01T02:36:29.112961+00:00",
+    "total_sources": 637,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2390,6 +2390,65 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/construction/china-construction-standards.json"
+    },
+    {
+      "id": "china-cscec",
+      "name": {
+        "en": "China State Construction Engineering Corporation",
+        "zh": "中国建筑集团有限公司"
+      },
+      "description": {
+        "en": "China State Construction Engineering Corporation (CSCEC) is the world's largest construction conglomerate and a central state-owned enterprise under SASAC. It is the primary executor of China's major infrastructure and construction projects, including highways, railways, bridges, urban development, and real estate. CSCEC publishes annual reports, ESG and sustainability reports, project completion statistics, housing delivery data, and financial disclosures, offering key indicators on China's construction industry scale, technological advancement, and green building adoption.",
+        "zh": "中国建筑集团有限公司（中国建筑）是全球最大的投资建设集团，国务院国资委直属中央企业。主要承担国家重大基础设施及建设项目，涵盖公路、铁路、桥梁、城镇化开发及房地产。中国建筑发布年度报告、ESG与可持续发展报告、项目竣工统计、住房交付数据及财务披露，为中国建筑行业规模、技术进步和绿色建筑发展提供核心指标。"
+      },
+      "website": "https://www.cscec.com",
+      "data_url": "https://www.cscec.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "domains": [
+        "construction",
+        "infrastructure",
+        "real-estate",
+        "urban-development"
+      ],
+      "tags": [
+        "china",
+        "cscec",
+        "中国建筑",
+        "construction",
+        "建筑工程",
+        "infrastructure",
+        "基础设施",
+        "real-estate",
+        "房地产",
+        "state-owned-enterprise",
+        "央企",
+        "green-building",
+        "绿色建筑",
+        "annual-report",
+        "工程建设"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Revenue, profit, new contract signings, and project completion statistics by business segment",
+          "ESG & Sustainability Reports - Carbon emissions, energy consumption, green building certifications, and safety indicators",
+          "Housing Delivery Data - Residential units completed and delivered, housing area by province",
+          "Major Project Statistics - Key infrastructure projects undertaken including airports, stadiums, and urban complexes",
+          "Financial Disclosures - Audited financial statements, capital expenditure, and debt structure data"
+        ],
+        "zh": [
+          "年度报告 - 按业务板块分类的营收、利润、新签合同及竣工统计",
+          "ESG与可持续发展报告 - 碳排放、能源消耗、绿色建筑认证及安全指标",
+          "住房交付数据 - 各省住宅竣工和交付套数及建筑面积",
+          "重大项目统计 - 机场、体育场馆、城市综合体等重点基础设施项目",
+          "财务信息披露 - 经审计财务报表、资本支出及债务结构数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-cscec.json"
     },
     {
       "id": "china-gd-housing",
@@ -14978,6 +15037,65 @@
       "file_path": "china/governance/culture/china-cflac.json"
     },
     {
+      "id": "china-cnaf",
+      "name": {
+        "en": "China National Arts Fund",
+        "zh": "国家艺术基金"
+      },
+      "description": {
+        "en": "The China National Arts Fund (CNAF) is a public fund established by the State Council and administered by the Ministry of Culture and Tourism and the Ministry of Finance. It supports artistic creation, talent training, communication and dissemination, and international cultural exchange across stage performance, visual arts, literature, and mass culture. CNAF publishes annual funding project lists, grantee information, project outcomes, funding statistics by discipline and region, and evaluation reports, providing authoritative data on China's public arts funding, cultural industry development, and artistic output.",
+        "zh": "国家艺术基金（CNAF）是经国务院批准设立、由文化和旅游部和财政部共同管理的公益性基金，旨在资助艺术创作、人才培养、传播交流推广及对外文化交流，覆盖舞台艺术、美术、文学及群众文化等领域。基金公示年度立项项目名单、资助对象信息、项目成果、按艺术门类与地区分类的资助统计及评审报告，是中国公共艺术资助、文化事业发展和艺术创作产出的权威数据来源。"
+      },
+      "website": "https://www.cnaf.cn",
+      "data_url": "https://www.cnaf.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "domains": [
+        "culture",
+        "arts",
+        "public-funding",
+        "governance"
+      ],
+      "tags": [
+        "china",
+        "cnaf",
+        "国家艺术基金",
+        "arts",
+        "艺术",
+        "culture",
+        "文化",
+        "public-funding",
+        "公益基金",
+        "stage-performance",
+        "舞台艺术",
+        "visual-arts",
+        "美术",
+        "cultural-industry",
+        "文化产业"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Funded Project Lists - Approved projects by year with grantee name, project title, and funding amount",
+          "Grantee Information - Disclosure of individual artists and institutions awarded funding with project categories",
+          "Funding Statistics - Total funding amount by discipline (stage, visual arts, literature), region, and project type",
+          "Project Outcomes - Performance tours, exhibitions, publications and talent cultivation results from funded projects",
+          "Evaluation Reports - Midterm and final project evaluation outcomes and public oversight records"
+        ],
+        "zh": [
+          "年度立项项目名单 - 按年度公布的获批项目，含申报主体、项目名称及资助金额",
+          "资助对象信息 - 获资助的艺术家个人和机构及其项目类别公示",
+          "资助统计 - 按艺术门类（舞台、美术、文学）、地区及项目类型分类的资助总额",
+          "项目成果 - 获资助项目的巡演、展览、出版及人才培养成果",
+          "评审报告 - 项目中期及结项评审结果与公共监督记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/culture/china-cnaf.json"
+    },
+    {
       "id": "china-national-museum",
       "name": {
         "en": "National Museum of China",
@@ -16871,6 +16989,65 @@
       },
       "has_api": false,
       "file_path": "china/infrastructure/china-crg.json"
+    },
+    {
+      "id": "china-crrc",
+      "name": {
+        "en": "CRRC Corporation Limited",
+        "zh": "中国中车股份有限公司"
+      },
+      "description": {
+        "en": "CRRC Corporation Limited (中国中车) is the world's largest rolling stock manufacturer, formed by the merger of CNR and CSR in 2015 and listed on both Shanghai and Hong Kong stock exchanges. As a central state-owned enterprise, CRRC designs and manufactures high-speed trains, locomotives, metro vehicles, trams, and freight wagons, serving over 100 countries. CRRC publishes annual reports, production statistics, R&D investment data, and export performance figures, providing authoritative insight into China's rail equipment manufacturing, high-speed rail technology, and global transportation industry supply chains.",
+        "zh": "中国中车股份有限公司（中国中车）是全球最大的轨道交通装备制造商，2015年由中国北车与中国南车合并组建，在上海和香港两地上市，为国务院国资委直属中央企业。中国中车研制生产高速列车、机车、城轨车辆、有轨电车及货运车辆，产品遍布全球100多个国家。公司发布年度报告、生产统计、研发投入数据及出口业绩，是了解中国轨道交通装备制造、高速铁路技术和全球交通产业供应链的权威数据来源。"
+      },
+      "website": "https://www.crrcgc.cc",
+      "data_url": "https://www.crrcgc.cc",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "domains": [
+        "transportation",
+        "manufacturing",
+        "rail",
+        "technology"
+      ],
+      "tags": [
+        "china",
+        "crrc",
+        "中国中车",
+        "rail",
+        "轨道交通",
+        "high-speed-rail",
+        "高铁",
+        "rolling-stock",
+        "机车车辆",
+        "manufacturing",
+        "制造业",
+        "metro",
+        "城轨",
+        "state-owned-enterprise",
+        "央企"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Revenue breakdown by product type (EMU, locomotives, metro vehicles, components), domestic and export markets",
+          "Production Statistics - Number of vehicles delivered, track km equivalent, and production capacity by plant",
+          "R&D Investment Data - Research expenditure, patent filings, technology platform development",
+          "Export Performance - Rolling stock exports by country and region, international project contracts",
+          "ESG Reports - Energy consumption per vehicle, carbon footprint of manufacturing operations, labor statistics"
+        ],
+        "zh": [
+          "年度报告 - 按产品类型（动车组、机车、城轨车辆、零部件）分类的营收及内外销数据",
+          "生产统计 - 交付车辆数量、折算公里数及各基地产能",
+          "研发投入数据 - 研究经费、专利申请、技术平台建设",
+          "出口业绩 - 按国家和地区分类的轨道交通装备出口及海外项目合同",
+          "ESG报告 - 单车能耗、制造运营碳足迹、用工统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-crrc.json"
     },
     {
       "id": "china-crta",
@@ -21988,6 +22165,65 @@
       "file_path": "china/resources/china-guangdong-nr.json"
     },
     {
+      "id": "china-huaneng",
+      "name": {
+        "en": "China Huaneng Group",
+        "zh": "中国华能集团有限公司"
+      },
+      "description": {
+        "en": "China Huaneng Group (CHNG) is one of China's five major state-owned power generation groups and a central enterprise under SASAC. It operates thermal, hydro, wind, solar, and nuclear power assets across China and internationally, with total installed capacity exceeding 300 GW. CHNG publishes annual reports, sustainability reports, power generation statistics, renewable energy deployment data, carbon emission indicators, and R&D outcomes, serving as an authoritative source for China's power sector capacity, energy transition progress, and clean energy development benchmarks.",
+        "zh": "中国华能集团有限公司（华能集团）是中国五大发电央企之一，为国务院国资委直属中央企业。集团拥有遍布中国及海外的火电、水电、风电、光伏及核电资产，总装机容量超3亿千瓦。华能集团发布年度报告、可持续发展报告、发电量统计、可再生能源布局数据、碳排放指标及科研成果，是了解中国电力行业装机规模、能源转型进展和清洁能源发展基准的权威数据来源。"
+      },
+      "website": "https://www.chng.com.cn",
+      "data_url": "https://www.chng.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "domains": [
+        "energy",
+        "electricity",
+        "renewable-energy",
+        "climate"
+      ],
+      "tags": [
+        "china",
+        "huaneng",
+        "chng",
+        "中国华能",
+        "energy",
+        "能源",
+        "power-generation",
+        "发电",
+        "thermal-power",
+        "火电",
+        "renewable-energy",
+        "可再生能源",
+        "carbon-emissions",
+        "碳排放",
+        "央企"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Reports - Total installed capacity, power generation output, revenue, and profit breakdown by energy type",
+          "Sustainability Reports - Carbon dioxide emissions, coal consumption, water usage, and green development KPIs",
+          "Renewable Energy Statistics - Wind, solar, and hydropower capacity additions and generation output",
+          "Nuclear Power Data - Operating status and performance of Shidaowan nuclear power plant",
+          "R&D Achievements - Technology innovations in clean coal, carbon capture, energy storage, and smart grid"
+        ],
+        "zh": [
+          "年度报告 - 总装机容量、发电量、营收及按能源类型分类的利润",
+          "可持续发展报告 - 二氧化碳排放量、煤炭消耗、用水量及绿色发展KPI",
+          "可再生能源统计 - 风电、光伏及水电新增装机与发电量",
+          "核电数据 - 石岛湾核电站运营状态及生产绩效",
+          "科研成果 - 清洁煤、碳捕集、储能及智能电网技术创新"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/china-huaneng.json"
+    },
+    {
       "id": "china-landchina",
       "name": {
         "en": "China Land Market Network",
@@ -25174,6 +25410,65 @@
       },
       "has_api": false,
       "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+    },
+    {
+      "id": "china-cagis",
+      "name": {
+        "en": "China Association for Geographic Information Industry",
+        "zh": "中国地理信息产业协会"
+      },
+      "description": {
+        "en": "The China Association for Geographic Information Industry (CAGIS) is the national industry association for geospatial information in China, supervised by the Ministry of Natural Resources. CAGIS publishes the annual China Geographic Information Industry Development Report, industry scale and revenue statistics, enterprise rankings (Top 100 GIS enterprises), professional qualification data, and technical standards covering surveying, mapping, remote sensing, GIS, satellite navigation, and location-based services. It is an authoritative source for China's geospatial industry size, enterprise landscape, and technology adoption trends.",
+        "zh": "中国地理信息产业协会（CAGIS）是自然资源部主管的全国性地理信息行业协会。协会发布年度《中国地理信息产业发展报告》、产业规模与营收统计、企业百强排名、专业资质数据及涵盖测绘、遥感、地理信息系统、卫星导航与位置服务的技术标准，是中国地理信息产业规模、企业格局和技术应用趋势的权威数据来源。"
+      },
+      "website": "https://www.cagis.org.cn",
+      "data_url": "https://www.cagis.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "domains": [
+        "geographic-information",
+        "technology",
+        "industry-associations",
+        "standards"
+      ],
+      "tags": [
+        "china",
+        "cagis",
+        "地理信息",
+        "gis",
+        "geospatial",
+        "remote-sensing",
+        "遥感",
+        "surveying",
+        "测绘",
+        "satellite-navigation",
+        "卫星导航",
+        "location-services",
+        "位置服务",
+        "industry-association",
+        "行业协会"
+      ],
+      "data_content": {
+        "en": [
+          "China Geographic Information Industry Development Report - Annual report on industry scale, growth, structure, and trends",
+          "Industry Revenue Statistics - Total industry revenue, employment figures, and regional distribution",
+          "Top 100 GIS Enterprises Ranking - Annual ranking of leading geospatial companies by revenue and capability",
+          "Professional Qualification Data - Registered surveyors, mapping engineers, and enterprise certification counts",
+          "Technical Standards - Industry standards for GIS platforms, remote sensing data processing, and LBS applications"
+        ],
+        "zh": [
+          "中国地理信息产业发展报告 - 行业规模、增长、结构及趋势年度报告",
+          "产业营收统计 - 行业总营收、从业人员数量及区域分布",
+          "地理信息产业百强企业 - 按营收和能力排名的地信龙头企业年度榜单",
+          "专业资质数据 - 测绘师、制图工程师注册数量及企业资质认证统计",
+          "技术标准 - GIS平台、遥感数据处理及位置服务应用行业标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry-associations/china-cagis.json"
     },
     {
       "id": "china-sae",

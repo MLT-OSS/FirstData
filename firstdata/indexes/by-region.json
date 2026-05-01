@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T06:29:49.047089+00:00",
+    "generated_at": "2026-05-01T02:36:29.112961+00:00",
     "total_regions": 58,
-    "total_sources": 632,
+    "total_sources": 637,
     "version": "2.0"
   },
   "regions": {
@@ -382,6 +382,18 @@
         "data_url": "https://www.cecs.org.cn/biaozhun/",
         "has_api": false,
         "file_path": "china/construction/china-construction-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cscec",
+        "name": {
+          "en": "China State Construction Engineering Corporation",
+          "zh": "中国建筑集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cscec.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cscec.json",
         "geographic_scope": "national"
       },
       {
@@ -2523,6 +2535,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnaf",
+        "name": {
+          "en": "China National Arts Fund",
+          "zh": "国家艺术基金"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnaf.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cnaf.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-national-museum",
         "name": {
           "en": "National Museum of China",
@@ -2857,6 +2881,18 @@
         "data_url": "http://www.china-railway.com.cn/",
         "has_api": false,
         "file_path": "china/infrastructure/china-crg.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crrc",
+        "name": {
+          "en": "CRRC Corporation Limited",
+          "zh": "中国中车股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.crrcgc.cc",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crrc.json",
         "geographic_scope": "national"
       },
       {
@@ -3739,6 +3775,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-huaneng",
+        "name": {
+          "en": "China Huaneng Group",
+          "zh": "中国华能集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chng.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-huaneng.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-landchina",
         "name": {
           "en": "China Land Market Network",
@@ -4252,6 +4300,18 @@
         "data_url": "https://sjdj.nda.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cagis",
+        "name": {
+          "en": "China Association for Geographic Information Industry",
+          "zh": "中国地理信息产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cagis.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry-associations/china-cagis.json",
         "geographic_scope": "national"
       },
       {

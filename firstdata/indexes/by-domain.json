@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T06:29:49.047089+00:00",
-    "total_domains": 708,
-    "total_sources": 632,
+    "generated_at": "2026-05-01T02:36:29.112961+00:00",
+    "total_domains": 712,
+    "total_sources": 637,
     "version": "2.0"
   },
   "domains": {
@@ -1487,6 +1487,18 @@
         "data_url": "https://www.cflac.org.cn",
         "has_api": false,
         "file_path": "china/governance/culture/china-cflac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnaf",
+        "name": {
+          "en": "China National Arts Fund",
+          "zh": "国家艺术基金"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnaf.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cnaf.json",
         "geographic_scope": "national"
       }
     ],
@@ -3515,6 +3527,18 @@
         "geographic_scope": "regional"
       },
       {
+        "id": "china-huaneng",
+        "name": {
+          "en": "China Huaneng Group",
+          "zh": "中国华能集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chng.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-huaneng.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-caep",
         "name": {
           "en": "Chinese Academy of Environmental Planning",
@@ -4435,6 +4459,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cscec",
+        "name": {
+          "en": "China State Construction Engineering Corporation",
+          "zh": "中国建筑集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cscec.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cscec.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gd-housing",
         "name": {
           "en": "Guangdong Provincial Department of Housing and Urban-Rural Development",
@@ -5250,6 +5286,18 @@
         "data_url": "https://www.cflac.org.cn",
         "has_api": false,
         "file_path": "china/governance/culture/china-cflac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnaf",
+        "name": {
+          "en": "China National Arts Fund",
+          "zh": "国家艺术基金"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnaf.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cnaf.json",
         "geographic_scope": "national"
       },
       {
@@ -11767,6 +11815,18 @@
     ],
     "electricity": [
       {
+        "id": "china-huaneng",
+        "name": {
+          "en": "China Huaneng Group",
+          "zh": "中国华能集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chng.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-huaneng.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "usa-eia",
         "name": {
           "en": "U.S. Energy Information Administration",
@@ -12710,6 +12770,18 @@
         "data_url": "https://www.cnpc.com.cn/cnpc/nybg/common_index.shtml",
         "has_api": false,
         "file_path": "china/resources/china-cnpc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-huaneng",
+        "name": {
+          "en": "China Huaneng Group",
+          "zh": "中国华能集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chng.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-huaneng.json",
         "geographic_scope": "national"
       },
       {
@@ -17740,6 +17812,20 @@
         "geographic_scope": "global"
       }
     ],
+    "geographic-information": [
+      {
+        "id": "china-cagis",
+        "name": {
+          "en": "China Association for Geographic Information Industry",
+          "zh": "中国地理信息产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cagis.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry-associations/china-cagis.json",
+        "geographic_scope": "national"
+      }
+    ],
     "geography": [
       {
         "id": "china-casm",
@@ -18545,6 +18631,18 @@
         "data_url": "https://wenshu.court.gov.cn/website/wenshu/181107ANFZ0BXSK4/index.html",
         "has_api": false,
         "file_path": "china/governance/china-wenshu.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnaf",
+        "name": {
+          "en": "China National Arts Fund",
+          "zh": "国家艺术基金"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnaf.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cnaf.json",
         "geographic_scope": "national"
       },
       {
@@ -21954,6 +22052,20 @@
         "geographic_scope": "national"
       }
     ],
+    "industry-associations": [
+      {
+        "id": "china-cagis",
+        "name": {
+          "en": "China Association for Geographic Information Industry",
+          "zh": "中国地理信息产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cagis.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry-associations/china-cagis.json",
+        "geographic_scope": "national"
+      }
+    ],
     "industry-economics": [
       {
         "id": "us-bea",
@@ -22201,6 +22313,18 @@
         "data_url": "http://www.zgjzy.org.cn/newsList/11/1.html",
         "has_api": false,
         "file_path": "china/construction/china-ccia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cscec",
+        "name": {
+          "en": "China State Construction Engineering Corporation",
+          "zh": "中国建筑集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cscec.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cscec.json",
         "geographic_scope": "national"
       },
       {
@@ -24635,6 +24759,18 @@
         "data_url": "https://web.csia.net.cn",
         "has_api": false,
         "file_path": "china/industry/china-csia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-crrc",
+        "name": {
+          "en": "CRRC Corporation Limited",
+          "zh": "中国中车股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.crrcgc.cc",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crrc.json",
         "geographic_scope": "national"
       },
       {
@@ -28261,6 +28397,20 @@
         "geographic_scope": "regional"
       }
     ],
+    "public-funding": [
+      {
+        "id": "china-cnaf",
+        "name": {
+          "en": "China National Arts Fund",
+          "zh": "国家艺术基金"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnaf.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-cnaf.json",
+        "geographic_scope": "national"
+      }
+    ],
     "public-health": [
       {
         "id": "china-mem",
@@ -28543,6 +28693,20 @@
         "geographic_scope": "national"
       }
     ],
+    "rail": [
+      {
+        "id": "china-crrc",
+        "name": {
+          "en": "CRRC Corporation Limited",
+          "zh": "中国中车股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.crrcgc.cc",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crrc.json",
+        "geographic_scope": "national"
+      }
+    ],
     "rare-earth-industry": [
       {
         "id": "china-rare-earth-association",
@@ -28572,6 +28736,18 @@
       }
     ],
     "real-estate": [
+      {
+        "id": "china-cscec",
+        "name": {
+          "en": "China State Construction Engineering Corporation",
+          "zh": "中国建筑集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cscec.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cscec.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-gd-housing",
         "name": {
@@ -28954,6 +29130,18 @@
       }
     ],
     "renewable-energy": [
+      {
+        "id": "china-huaneng",
+        "name": {
+          "en": "China Huaneng Group",
+          "zh": "中国华能集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.chng.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-huaneng.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "canada-cer",
         "name": {
@@ -32434,6 +32622,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cagis",
+        "name": {
+          "en": "China Association for Geographic Information Industry",
+          "zh": "中国地理信息产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cagis.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry-associations/china-cagis.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sae",
         "name": {
           "en": "Society of Automotive Engineers of China",
@@ -34000,6 +34200,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-crrc",
+        "name": {
+          "en": "CRRC Corporation Limited",
+          "zh": "中国中车股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.crrcgc.cc",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crrc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cttic",
         "name": {
           "en": "China Transport Telecommunications & Information Center",
@@ -34226,6 +34438,18 @@
         "has_api": false,
         "file_path": "china/technology/china-shenzhen-stic.json",
         "geographic_scope": "subnational"
+      },
+      {
+        "id": "china-cagis",
+        "name": {
+          "en": "China Association for Geographic Information Industry",
+          "zh": "中国地理信息产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cagis.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry-associations/china-cagis.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-sae",
@@ -36554,6 +36778,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-crrc",
+        "name": {
+          "en": "CRRC Corporation Limited",
+          "zh": "中国中车股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.crrcgc.cc",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-crrc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-crta",
         "name": {
           "en": "China Road Transport Association",
@@ -36853,6 +37089,18 @@
         "data_url": "https://www.caupd.com/",
         "has_api": false,
         "file_path": "china/construction/china-caupd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cscec",
+        "name": {
+          "en": "China State Construction Engineering Corporation",
+          "zh": "中国建筑集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cscec.com",
+        "has_api": false,
+        "file_path": "china/construction/china-cscec.json",
         "geographic_scope": "national"
       },
       {
