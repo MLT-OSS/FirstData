@@ -1,0 +1,70 @@
+{
+  "id": "china-casc",
+  "name": {
+    "en": "China Aerospace Science and Technology Corporation (CASC)",
+    "zh": "中国航天科技集团有限公司"
+  },
+  "description": {
+    "en": "China Aerospace Science and Technology Corporation (CASC) is China's premier state-owned aerospace enterprise and the principal contractor for China's national space program. Founded in 1999 as a restructuring of the former Ministry of Aerospace Industry, CASC develops and manufactures China's Long March launch vehicles, Shenzhou crewed spacecraft, Tianzhou cargo ships, Chang'e lunar probes, Tianwen Mars spacecraft, and the Beidou satellite constellation. CASC operates eight major subsidiaries and over 100 research institutes, with more than 160,000 employees. The corporation publishes annual reports, launch statistics, satellite manufacturing output data, aerospace technology development disclosures, and sustainability reports. As the backbone of China's space industry, CASC data provides authoritative insights into China's space launch cadence, crewed spaceflight progress, deep space exploration missions, and the commercial aerospace sector, making it essential for space industry analysis, international space cooperation research, and China's strategic technology assessment.",
+    "zh": "中国航天科技集团有限公司（航天科技集团）是中国最重要的国有航天企业，是国家航天工程的主要承包商。集团成立于1999年，由原航天工业部重组而来，负责研制长征系列运载火箭、神舟载人飞船、天舟货运飞船、嫦娥月球探测器、天问火星探测器及北斗卫星导航系统。集团下设八大研究院及百余家研究所，员工逾16万人。集团发布年度报告、发射统计、卫星制造产量数据、航天技术研发披露及可持续发展报告。作为中国航天工业的核心力量，航天科技集团数据为了解中国航天发射节奏、载人航天进展、深空探测任务和商业航天发展提供权威参考，是航天产业分析、国际航天合作研究和中国战略技术评估的重要数据来源。"
+  },
+  "website": "https://www.spacechina.com",
+  "data_url": "https://www.spacechina.com/n25/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "aerospace",
+    "technology",
+    "defense"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国航天科技集团",
+    "casc",
+    "china-aerospace-science-technology",
+    "航天",
+    "space",
+    "长征火箭",
+    "long-march-rocket",
+    "神舟",
+    "shenzhou",
+    "嫦娥",
+    "chang'e",
+    "天问",
+    "tianwen",
+    "卫星",
+    "satellite",
+    "航天发射",
+    "space-launch",
+    "载人航天",
+    "crewed-spaceflight",
+    "北斗",
+    "beidou",
+    "商业航天",
+    "commercial-space"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports: financial performance, operational highlights, and strategic development disclosures for CASC and its major subsidiaries",
+      "Launch statistics: Long March rocket launch frequency, success rates, payload types, and orbital delivery data by year",
+      "Crewed spaceflight data: Shenzhou mission profiles, crew schedules, and China Space Station (Tiangong) operational status",
+      "Satellite production: number of satellites manufactured, constellation expansion progress (Beidou, Yaogan, Gaofen series)",
+      "Deep space missions: mission status updates for Chang'e lunar program and Tianwen Mars exploration",
+      "Commercial aerospace market: launch service pricing, satellite in-orbit delivery contracts, and commercial payload statistics",
+      "R&D investment: annual research and development expenditure, technology development milestones, and patent filings",
+      "Sustainability reports: carbon footprint data, energy consumption in manufacturing, and green development initiatives"
+    ],
+    "zh": [
+      "年度报告：航天科技集团及主要子公司的财务业绩、运营亮点和战略发展披露",
+      "发射统计：长征系列火箭年度发射次数、成功率、有效载荷类型和入轨数据",
+      "载人航天数据：神舟任务参数、航天员任务时间表及中国空间站（天宫）在轨状态",
+      "卫星生产：年度卫星研制数量、星座扩展进度（北斗、遥感、高分系列）",
+      "深空探测：嫦娥月球工程和天问火星探测任务状态更新",
+      "商业航天市场：发射服务报价、卫星在轨交付合同及商业载荷统计",
+      "研发投入：年度研发支出、技术研发里程碑及专利申请",
+      "可持续发展报告：碳排放数据、制造业能耗及绿色发展举措"
+    ]
+  }
+}

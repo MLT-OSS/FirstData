@@ -1,0 +1,70 @@
+{
+  "id": "china-chnenergy",
+  "name": {
+    "en": "China Energy Investment Corporation (CHN Energy)",
+    "zh": "国家能源投资集团有限责任公司"
+  },
+  "description": {
+    "en": "China Energy Investment Corporation (CHN Energy, 国家能源集团) is the world's largest coal producer and one of China's largest power generation groups, formed in 2017 through the merger of China Shenhua Group and China Guodian Corporation. As a central state-owned enterprise, CHN Energy operates across coal mining, coal-fired power, hydropower, wind power, solar power, chemical industry, railway, and port logistics. With over 200 GW of installed power generation capacity and annual coal output exceeding 600 million tonnes, CHN Energy is central to understanding China's energy security, coal market dynamics, and the transition toward clean energy. The corporation publishes annual reports, coal production and sales statistics, power generation data by energy type, carbon emission reduction reports, and renewable energy expansion disclosures. CHN Energy data is indispensable for global coal market analysis, China's energy mix transition tracking, and assessing progress toward peak carbon emissions.",
+    "zh": "国家能源投资集团有限责任公司（国家能源集团）是全球最大的煤炭生产商之一，也是中国最大的发电集团之一，于2017年由中国神华集团与中国国电集团合并组建。作为中央国有企业，集团业务横跨煤炭开采、火力发电、水电、风电、光伏、煤化工、铁路和港口物流。集团装机超2亿千瓦，年产煤炭逾6亿吨，是了解中国能源安全、煤炭市场动态和清洁能源转型的核心数据主体。集团发布年度报告、煤炭产销统计、分能源品类发电量数据、碳减排报告及可再生能源扩展披露。国家能源集团数据是全球煤炭市场分析、中国能源结构转型追踪及碳达峰进展评估的必备参考。"
+  },
+  "website": "https://www.chnenergy.com.cn",
+  "data_url": "https://www.chnenergy.com.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "economics",
+    "environment"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "国家能源集团",
+    "chnenergy",
+    "china-energy-investment",
+    "煤炭",
+    "coal",
+    "发电",
+    "power-generation",
+    "神华",
+    "shenhua",
+    "国电",
+    "guodian",
+    "风电",
+    "wind-power",
+    "清洁能源",
+    "clean-energy",
+    "能源安全",
+    "energy-security",
+    "碳排放",
+    "carbon-emission",
+    "煤化工",
+    "coal-chemical",
+    "能源转型",
+    "energy-transition"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports: consolidated financial statements, operational KPIs, coal production volumes, and power generation breakdown by energy type",
+      "Coal production statistics: annual and quarterly raw coal output by mining region (Shendong, Zhungeer, Wuhai, etc.), sales volumes, and coal quality grades",
+      "Power generation data: installed capacity and actual generation by thermal, wind, solar, and hydropower assets; utilization hours",
+      "Carbon emissions and reduction: scope 1 and scope 2 emissions data, carbon intensity per MWh, and carbon reduction commitments",
+      "Renewable energy expansion: new wind and solar capacity additions by year and province, offshore wind deployment progress",
+      "Coal price indices: reference prices for Shenhua brand thermal coal, a benchmark for domestic coal market pricing",
+      "Railway and port logistics: Shuohuang Railway freight volume, Huanghua and Tianjin port throughput for coal export",
+      "Coal chemical production: coal-to-liquids, coal-to-gas, and methanol output statistics from Ningxia and Inner Mongolia bases"
+    ],
+    "zh": [
+      "年度报告：合并财务报表、运营KPI、煤炭产量及分能源品类发电量明细",
+      "煤炭产量统计：神东、准格尔、乌海等矿区年度及季度原煤产量、销量及煤质等级",
+      "发电量数据：火电、风电、光伏、水电资产装机容量和实际发电量；利用小时数",
+      "碳排放与减碳：范围1和范围2排放数据、每兆瓦时碳强度及碳减排承诺",
+      "可再生能源扩展：年度及省级风电、光伏新增装机容量，海上风电开发进展",
+      "煤炭价格指数：神华品牌动力煤参考价格，国内煤市基准定价参考",
+      "铁路与港口物流：朔黄铁路货运量、黄骅港和天津港煤炭出港吞吐量",
+      "煤化工产量：宁夏、内蒙古基地的煤制油、煤制气和甲醇产量统计"
+    ]
+  }
+}

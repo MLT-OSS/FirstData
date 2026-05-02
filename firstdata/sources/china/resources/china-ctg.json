@@ -1,0 +1,70 @@
+{
+  "id": "china-ctg",
+  "name": {
+    "en": "China Three Gorges Corporation (CTG)",
+    "zh": "中国长江三峡集团有限公司"
+  },
+  "description": {
+    "en": "China Three Gorges Corporation (CTG) is a central state-owned enterprise and the world's largest hydropower company by installed capacity and generation. CTG operates the Three Gorges Dam — the world's largest power station — along with the Gezhouba, Xiluodu, Xiangjiaba, and Baihetan hydropower plants, the latter being the world's second-largest hydropower station. With total installed capacity exceeding 100 GW (including hydropower, wind, solar, and other clean energy), CTG is a cornerstone of China's clean energy transition strategy. The corporation publishes annual reports, hydropower generation statistics, renewable energy capacity data, carbon reduction metrics, Yangtze River ecological conservation reports, and international clean energy investment disclosures. CTG's data is authoritative for global hydropower capacity analysis, China's carbon neutrality progress tracking, Yangtze River basin water management, and Belt and Road clean energy investment trends.",
+    "zh": "中国长江三峡集团有限公司（三峡集团）是中央国有企业，是全球装机容量和发电量最大的水电企业。集团管理三峡水电站（全球最大发电站）、葛洲坝、溪洛渡、向家坝、白鹤滩（全球第二大水电站）等巨型水电工程。集团清洁能源总装机超1亿千瓦（含水电、风电、光伏等），是中国清洁能源转型战略的重要支柱。集团发布年度报告、水电发电量统计、可再生能源装机数据、碳减排指标、长江生态保护报告及国际清洁能源投资披露。三峡集团数据是全球水电装机分析、中国碳中和进展追踪、长江流域水资源管理及一带一路清洁能源投资趋势研究的权威参考。"
+  },
+  "website": "https://www.ctg.com.cn",
+  "data_url": "https://www.ctg.com.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "environment",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国长江三峡集团",
+    "ctg",
+    "china-three-gorges",
+    "三峡大坝",
+    "three-gorges-dam",
+    "水电",
+    "hydropower",
+    "清洁能源",
+    "clean-energy",
+    "可再生能源",
+    "renewable-energy",
+    "长江",
+    "yangtze-river",
+    "碳中和",
+    "carbon-neutrality",
+    "风电",
+    "wind-power",
+    "光伏",
+    "solar-power",
+    "白鹤滩",
+    "baihetan",
+    "能源转型",
+    "energy-transition"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports: comprehensive financial statements, operational performance, and clean energy capacity expansion data",
+      "Hydropower generation statistics: annual and quarterly power generation by plant, including Three Gorges, Baihetan, Xiluodu, Xiangjiaba, and Gezhouba",
+      "Renewable energy capacity: installed wind, solar, and pumped-storage capacity by region and year",
+      "Carbon reduction metrics: CO2 emissions avoided through clean power generation, carbon footprint data",
+      "Yangtze River ecological conservation: fish migration passage data, water quality monitoring results, and ecological flow release records",
+      "International investment data: overseas clean energy project portfolio (Africa, South America, Europe), financing structures, and capacity additions",
+      "Energy storage projects: pumped-storage and battery storage deployment statistics",
+      "Flood control and water regulation: Three Gorges reservoir water level management and flood season discharge data"
+    ],
+    "zh": [
+      "年度报告：完整财务报表、运营业绩及清洁能源装机扩展数据",
+      "水电发电量统计：三峡、白鹤滩、溪洛渡、向家坝、葛洲坝各电站年度及季度发电量",
+      "可再生能源装机：按地区和年份统计的风电、光伏及抽水蓄能装机容量",
+      "碳减排指标：清洁发电避免的二氧化碳排放量及碳足迹数据",
+      "长江生态保护：鱼类过鱼通道数据、水质监测结果及生态流量下泄记录",
+      "国际投资数据：境外清洁能源项目组合（非洲、南美、欧洲）、融资结构和装机新增",
+      "储能项目：抽水蓄能和电池储能部署统计",
+      "防洪调度：三峡水库水位管理及汛期泄洪数据"
+    ]
+  }
+}

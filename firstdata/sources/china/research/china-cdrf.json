@@ -1,0 +1,68 @@
+{
+  "id": "china-cdrf",
+  "name": {
+    "en": "China Development Research Foundation (CDRF)",
+    "zh": "中国发展研究基金会"
+  },
+  "description": {
+    "en": "The China Development Research Foundation (CDRF) is a public fundraising foundation established in 1997 under the State Council, affiliated with the Development Research Center of the State Council (DRC). CDRF focuses on policy research and practical interventions in areas including early childhood development, poverty alleviation, social safety nets, education equity, and sustainable development. It organizes the annual China Development Forum (CDF), China's premier high-level economic dialogue between Chinese government leaders and global business and academic figures. CDRF publishes the China Development Report — an influential annual publication covering China's urbanization, population dynamics, social policy, and inclusive growth challenges. CDRF data and reports provide authoritative analysis of China's social policy evolution, human capital development, rural-urban migration trends, and the intersection of government policy with economic transformation. Its research informs domestic policy and is widely cited in international development economics literature.",
+    "zh": "中国发展研究基金会（发展基金会）是1997年经国务院批准成立的公募基金会，隶属于国务院发展研究中心。基金会聚焦早期儿童发展、扶贫减贫、社会保障、教育公平和可持续发展领域的政策研究和实践干预。基金会主办年度《中国发展高层论坛》—中国政府与全球工商界及学术界领袖的高级别对话平台。基金会出版《中国发展报告》，是涵盖中国城镇化、人口动态、社会政策和包容性增长挑战的重要年度读本。基金会数据和报告为中国社会政策演变、人力资本发展、城乡流动趋势及政府政策与经济转型交汇提供权威分析，对国内政策制定和国际发展经济学研究均有重要参考价值。"
+  },
+  "website": "https://www.cdrf.org.cn",
+  "data_url": "https://www.cdrf.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "social",
+    "education"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国发展研究基金会",
+    "cdrf",
+    "china-development-research-foundation",
+    "中国发展高层论坛",
+    "china-development-forum",
+    "中国发展报告",
+    "china-development-report",
+    "社会政策",
+    "social-policy",
+    "城镇化",
+    "urbanization",
+    "扶贫",
+    "poverty-alleviation",
+    "早期儿童发展",
+    "early-childhood-development",
+    "人力资本",
+    "human-capital",
+    "包容性增长",
+    "inclusive-growth",
+    "农村",
+    "rural-development"
+  ],
+  "data_content": {
+    "en": [
+      "China Development Report: annual flagship publication covering urbanization, population aging, education, health, and social protection policy",
+      "China Development Forum proceedings: speeches and policy positions from Chinese government ministers, global CEOs, and leading economists",
+      "Early childhood development studies: longitudinal data on preschool access, nutrition interventions, and cognitive development outcomes in rural China",
+      "Poverty alleviation research: household survey data, program evaluations of targeted poverty relief, and post-poverty transition challenges",
+      "Social safety net analysis: coverage rates, benefit levels, and equity gaps in pension, unemployment insurance, and medical insurance systems",
+      "Education equity reports: access to quality education across urban-rural and regional divides, compulsory education completion rates",
+      "Population and labor market studies: migration patterns, aging society projections, and workforce skills gap analyses",
+      "Sustainable development assessments: SDG progress tracking for China, green finance policy research, and carbon transition social impact"
+    ],
+    "zh": [
+      "《中国发展报告》：年度旗舰出版物，涵盖城镇化、人口老龄化、教育、卫生和社会保障政策",
+      "中国发展高层论坛成果：中国政府部长、全球企业CEO和知名经济学家的演讲及政策立场",
+      "早期儿童发展研究：农村地区学前教育普及率、营养干预和认知发展成果追踪数据",
+      "扶贫研究：住户调查数据、精准扶贫项目评估及后扶贫时代转型挑战",
+      "社会保障体系分析：养老保险、失业保险和医疗保险的覆盖率、待遇水平及公平差距",
+      "教育公平报告：城乡和地区间优质教育获得差距、义务教育完成率",
+      "人口和劳动力市场研究：人口迁移规律、老龄化社会预测及劳动力技能缺口分析",
+      "可持续发展评估：中国SDG进展追踪、绿色金融政策研究及碳转型社会影响"
+    ]
+  }
+}
