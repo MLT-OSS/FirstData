@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T02:34:47.946778+00:00",
+    "generated_at": "2026-05-02T02:42:09.219454+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 652,
+    "total_sources": 653,
     "sources_with_api": 154,
     "last_updated": "2026-05-02"
   },
@@ -12,13 +12,13 @@
     "research": 113,
     "international": 75,
     "government": 339,
-    "other": 57,
+    "other": 58,
     "market": 43,
     "commercial": 25
   },
   "by_geographic_scope": {
     "global": 110,
-    "national": 459,
+    "national": 460,
     "regional": 27,
     "subnational": 56
   },
@@ -27,7 +27,7 @@
     "daily": 91,
     "weekly": 11,
     "quarterly": 50,
-    "monthly": 210,
+    "monthly": 211,
     "annual": 155,
     "real-time": 18
   },
@@ -37,7 +37,7 @@
     "social": 112,
     "environment": 111,
     "finance": 100,
-    "industry": 92,
+    "industry": 93,
     "demographics": 89,
     "statistics": 84,
     "agriculture": 81,
@@ -404,6 +404,9 @@
     "digital-infrastructure": 1,
     "geographic-information": 1,
     "industry-associations": 1,
+    "semiconductor-materials": 1,
+    "electronic-materials": 1,
+    "photovoltaic-materials": 1,
     "security": 1,
     "research-infrastructure": 1,
     "software": 1,

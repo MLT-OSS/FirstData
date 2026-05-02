@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T02:34:47.946778+00:00",
-    "total_domains": 713,
-    "total_sources": 652,
+    "generated_at": "2026-05-02T02:42:09.219454+00:00",
+    "total_domains": 716,
+    "total_sources": 653,
     "version": "2.0"
   },
   "domains": {
@@ -12039,6 +12039,20 @@
         "geographic_scope": "national"
       }
     ],
+    "electronic-materials": [
+      {
+        "id": "china-cemia",
+        "name": {
+          "en": "China Electronic Materials Industry Association",
+          "zh": "中国电子材料行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cemia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cemia.json",
+        "geographic_scope": "national"
+      }
+    ],
     "electronics": [
       {
         "id": "china-miit",
@@ -21962,6 +21976,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cemia",
+        "name": {
+          "en": "China Electronic Materials Industry Association",
+          "zh": "中国电子材料行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cemia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cemia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ciia",
         "name": {
           "en": "China Information Association",
@@ -27695,6 +27721,20 @@
         "geographic_scope": "national"
       }
     ],
+    "photovoltaic-materials": [
+      {
+        "id": "china-cemia",
+        "name": {
+          "en": "China Electronic Materials Industry Association",
+          "zh": "中国电子材料行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cemia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cemia.json",
+        "geographic_scope": "national"
+      }
+    ],
     "physics": [
       {
         "id": "acad-cod",
@@ -31092,6 +31132,20 @@
         "has_api": false,
         "file_path": "sectors/J-information-communication/conll-shared-tasks.json",
         "geographic_scope": "global"
+      }
+    ],
+    "semiconductor-materials": [
+      {
+        "id": "china-cemia",
+        "name": {
+          "en": "China Electronic Materials Industry Association",
+          "zh": "中国电子材料行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cemia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cemia.json",
+        "geographic_scope": "national"
       }
     ],
     "semiconductors": [
