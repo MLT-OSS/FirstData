@@ -1,0 +1,70 @@
+{
+  "id": "china-tower",
+  "name": {
+    "en": "China Tower Corporation",
+    "zh": "中国铁塔股份有限公司"
+  },
+  "description": {
+    "en": "China Tower Corporation is the world's largest telecommunications tower company by site count, established in 2014 as a joint venture among China Mobile, China Unicom, China Telecom, and China Reform (a state capital investment company). The company manages over 2 million tower sites across China, providing shared passive telecommunications infrastructure including towers, poles, indoor distributed antenna systems, and power facilities for mobile network operators. China Tower publishes annual reports, half-year reports, quarterly operational data, and sustainability reports as a Hong Kong Stock Exchange-listed company (HK.0788). Its disclosures include tower site counts, tenancy ratios, new tower construction statistics, 5G site deployment progress, and energy consumption data for base station power supply. China Tower data is authoritative for tracking China's 5G infrastructure rollout, tower industry consolidation benefits, telecom infrastructure sharing policy outcomes, and mobile network coverage expansion in rural and remote areas.",
+    "zh": "中国铁塔股份有限公司是全球站址数量最多的通信铁塔企业，2014年由中国移动、中国联通、中国电信及中国国新控股有限责任公司合资组建。公司管理全国逾200万个铁塔站址，为移动通信运营商提供铁塔、杆路、室内分布系统及配套电源设施等共享无源基础设施。作为香港联交所上市公司（港股代码：0788），中国铁塔定期发布年报、半年报、季度运营数据及可持续发展报告，包括铁塔站址数量、共享租户数、新建塔统计、5G站址部署进度及基站供电能耗数据。中国铁塔数据是追踪中国5G基础设施建设进度、铁塔行业整合效益、通信基础设施共享政策成效及农村和偏远地区移动网络覆盖扩展的权威参考。"
+  },
+  "website": "https://www.china-tower.com",
+  "data_url": "https://ir.china-tower.com/sc/ir/reports.php",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "telecommunications",
+    "infrastructure"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "中国铁塔",
+    "china-tower",
+    "通信基础设施",
+    "telecom-infrastructure",
+    "铁塔",
+    "tower",
+    "5g",
+    "5G基站",
+    "5g-deployment",
+    "基站",
+    "base-station",
+    "共享铁塔",
+    "tower-sharing",
+    "移动通信",
+    "mobile-network",
+    "港股",
+    "hkex-listed",
+    "铁塔共享",
+    "infrastructure-sharing",
+    "农村覆盖",
+    "rural-coverage",
+    "中国移动",
+    "china-mobile"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and half-year reports: financial statements, revenue by service type, EBITDA margins, and capital expenditure on tower construction",
+      "Tower site statistics: total site counts by province and type (ground-based towers, rooftop sites, indoor DAS systems, small cells)",
+      "Tenancy ratios: average number of tenants per tower site, new tenancy additions, and revenue per tower site trends",
+      "5G infrastructure deployment: cumulative and quarterly 5G-enabled site counts, new 5G site construction statistics by operator",
+      "Rural and remote coverage: tower site deployment under universal service obligation, natural village coverage rates",
+      "Energy and sustainability data: total power consumption of tower sites, diesel generator usage, green energy adoption rates, and carbon emissions from operations",
+      "Shared infrastructure savings: estimated savings to operators from infrastructure sharing versus independent deployment",
+      "Operational efficiency metrics: tower utilization rates, maintenance cost per site, and network availability statistics"
+    ],
+    "zh": [
+      "年报和半年报：财务报表、分服务类型收入、EBITDA利润率及铁塔建设资本支出",
+      "铁塔站址统计：按省和类型（地面塔、楼顶站、室内分布系统、小基站）分类的站址总数",
+      "共享率：平均每站址租户数、新增租户量及每站址收入趋势",
+      "5G基础设施部署：5G站址累计数量和季度新增数，按运营商分类的5G新建站统计",
+      "农村和偏远地区覆盖：普遍服务义务下的铁塔建设，自然村覆盖率数据",
+      "能源与可持续数据：铁塔站址总耗电量、柴油发电机使用情况、绿色能源使用率及运营碳排放",
+      "共享基础设施节省估算：基础设施共享模式相比独立建设为运营商节省的成本",
+      "运营效率指标：铁塔利用率、每站址维护成本和网络可用性统计"
+    ]
+  }
+}
