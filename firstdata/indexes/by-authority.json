@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T02:42:09.219454+00:00",
-    "total_sources": 653,
+    "generated_at": "2026-05-02T06:34:57.740939+00:00",
+    "total_sources": 658,
     "authority_counts": {
-      "research": 113,
+      "research": 114,
       "international": 75,
-      "government": 339,
+      "government": 342,
       "other": 58,
       "market": 43,
-      "commercial": 25
+      "commercial": 26
     },
     "version": "2.0"
   },
@@ -553,6 +553,18 @@
         "data_url": "https://www.cciee.org.cn/ktcglistall.aspx?clmId=650",
         "has_api": false,
         "file_path": "china/research/china-cciee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cdrf",
+        "name": {
+          "en": "China Development Research Foundation (CDRF)",
+          "zh": "中国发展研究基金会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cdrf.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cdrf.json",
         "geographic_scope": "national"
       },
       {
@@ -4104,6 +4116,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-casc",
+        "name": {
+          "en": "China Aerospace Science and Technology Corporation (CASC)",
+          "zh": "中国航天科技集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.spacechina.com/n25/index.html",
+        "has_api": false,
+        "file_path": "china/industry/aerospace/china-casc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-miit-eidc",
         "name": {
           "en": "MIIT Equipment Industry Development Center",
@@ -4419,6 +4443,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chnenergy",
+        "name": {
+          "en": "China Energy Investment Corporation (CHN Energy)",
+          "zh": "国家能源投资集团有限责任公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chnenergy.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-chnenergy.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnooc",
         "name": {
           "en": "China National Offshore Oil Corporation",
@@ -4440,6 +4476,18 @@
         "data_url": "https://www.cnpc.com.cn/cnpc/nybg/common_index.shtml",
         "has_api": false,
         "file_path": "china/resources/china-cnpc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ctg",
+        "name": {
+          "en": "China Three Gorges Corporation (CTG)",
+          "zh": "中国长江三峡集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ctg.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/china-ctg.json",
         "geographic_scope": "national"
       },
       {
@@ -7785,6 +7833,18 @@
         "data_url": "https://www.chinalco.com.cn",
         "has_api": false,
         "file_path": "china/resources/mineral/china-chinalco.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-tower",
+        "name": {
+          "en": "China Tower Corporation",
+          "zh": "中国铁塔股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://ir.china-tower.com/sc/ir/reports.php",
+        "has_api": false,
+        "file_path": "china/technology/telecommunications/china-tower.json",
         "geographic_scope": "national"
       },
       {

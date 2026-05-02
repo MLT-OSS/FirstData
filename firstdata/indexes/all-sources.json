@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T02:42:09.219454+00:00",
-    "total_sources": 653,
+    "generated_at": "2026-05-02T06:34:57.740939+00:00",
+    "total_sources": 658,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -17258,6 +17258,78 @@
       "file_path": "china/industry/aerospace/china-avic.json"
     },
     {
+      "id": "china-casc",
+      "name": {
+        "en": "China Aerospace Science and Technology Corporation (CASC)",
+        "zh": "中国航天科技集团有限公司"
+      },
+      "description": {
+        "en": "China Aerospace Science and Technology Corporation (CASC) is China's premier state-owned aerospace enterprise and the principal contractor for China's national space program. Founded in 1999 as a restructuring of the former Ministry of Aerospace Industry, CASC develops and manufactures China's Long March launch vehicles, Shenzhou crewed spacecraft, Tianzhou cargo ships, Chang'e lunar probes, Tianwen Mars spacecraft, and the Beidou satellite constellation. CASC operates eight major subsidiaries and over 100 research institutes, with more than 160,000 employees. The corporation publishes annual reports, launch statistics, satellite manufacturing output data, aerospace technology development disclosures, and sustainability reports. As the backbone of China's space industry, CASC data provides authoritative insights into China's space launch cadence, crewed spaceflight progress, deep space exploration missions, and the commercial aerospace sector, making it essential for space industry analysis, international space cooperation research, and China's strategic technology assessment.",
+        "zh": "中国航天科技集团有限公司（航天科技集团）是中国最重要的国有航天企业，是国家航天工程的主要承包商。集团成立于1999年，由原航天工业部重组而来，负责研制长征系列运载火箭、神舟载人飞船、天舟货运飞船、嫦娥月球探测器、天问火星探测器及北斗卫星导航系统。集团下设八大研究院及百余家研究所，员工逾16万人。集团发布年度报告、发射统计、卫星制造产量数据、航天技术研发披露及可持续发展报告。作为中国航天工业的核心力量，航天科技集团数据为了解中国航天发射节奏、载人航天进展、深空探测任务和商业航天发展提供权威参考，是航天产业分析、国际航天合作研究和中国战略技术评估的重要数据来源。"
+      },
+      "website": "https://www.spacechina.com",
+      "data_url": "https://www.spacechina.com/n25/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "aerospace",
+        "technology",
+        "defense"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国航天科技集团",
+        "casc",
+        "china-aerospace-science-technology",
+        "航天",
+        "space",
+        "长征火箭",
+        "long-march-rocket",
+        "神舟",
+        "shenzhou",
+        "嫦娥",
+        "chang'e",
+        "天问",
+        "tianwen",
+        "卫星",
+        "satellite",
+        "航天发射",
+        "space-launch",
+        "载人航天",
+        "crewed-spaceflight",
+        "北斗",
+        "beidou",
+        "商业航天",
+        "commercial-space"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports: financial performance, operational highlights, and strategic development disclosures for CASC and its major subsidiaries",
+          "Launch statistics: Long March rocket launch frequency, success rates, payload types, and orbital delivery data by year",
+          "Crewed spaceflight data: Shenzhou mission profiles, crew schedules, and China Space Station (Tiangong) operational status",
+          "Satellite production: number of satellites manufactured, constellation expansion progress (Beidou, Yaogan, Gaofen series)",
+          "Deep space missions: mission status updates for Chang'e lunar program and Tianwen Mars exploration",
+          "Commercial aerospace market: launch service pricing, satellite in-orbit delivery contracts, and commercial payload statistics",
+          "R&D investment: annual research and development expenditure, technology development milestones, and patent filings",
+          "Sustainability reports: carbon footprint data, energy consumption in manufacturing, and green development initiatives"
+        ],
+        "zh": [
+          "年度报告：航天科技集团及主要子公司的财务业绩、运营亮点和战略发展披露",
+          "发射统计：长征系列火箭年度发射次数、成功率、有效载荷类型和入轨数据",
+          "载人航天数据：神舟任务参数、航天员任务时间表及中国空间站（天宫）在轨状态",
+          "卫星生产：年度卫星研制数量、星座扩展进度（北斗、遥感、高分系列）",
+          "深空探测：嫦娥月球工程和天问火星探测任务状态更新",
+          "商业航天市场：发射服务报价、卫星在轨交付合同及商业载荷统计",
+          "研发投入：年度研发支出、技术研发里程碑及专利申请",
+          "可持续发展报告：碳排放数据、制造业能耗及绿色发展举措"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/aerospace/china-casc.json"
+    },
+    {
       "id": "china-ceeia",
       "name": {
         "en": "China Electrical Equipment Industry Association",
@@ -20029,6 +20101,76 @@
       "file_path": "china/research/china-cciee.json"
     },
     {
+      "id": "china-cdrf",
+      "name": {
+        "en": "China Development Research Foundation (CDRF)",
+        "zh": "中国发展研究基金会"
+      },
+      "description": {
+        "en": "The China Development Research Foundation (CDRF) is a public fundraising foundation established in 1997 under the State Council, affiliated with the Development Research Center of the State Council (DRC). CDRF focuses on policy research and practical interventions in areas including early childhood development, poverty alleviation, social safety nets, education equity, and sustainable development. It organizes the annual China Development Forum (CDF), China's premier high-level economic dialogue between Chinese government leaders and global business and academic figures. CDRF publishes the China Development Report — an influential annual publication covering China's urbanization, population dynamics, social policy, and inclusive growth challenges. CDRF data and reports provide authoritative analysis of China's social policy evolution, human capital development, rural-urban migration trends, and the intersection of government policy with economic transformation. Its research informs domestic policy and is widely cited in international development economics literature.",
+        "zh": "中国发展研究基金会（发展基金会）是1997年经国务院批准成立的公募基金会，隶属于国务院发展研究中心。基金会聚焦早期儿童发展、扶贫减贫、社会保障、教育公平和可持续发展领域的政策研究和实践干预。基金会主办年度《中国发展高层论坛》—中国政府与全球工商界及学术界领袖的高级别对话平台。基金会出版《中国发展报告》，是涵盖中国城镇化、人口动态、社会政策和包容性增长挑战的重要年度读本。基金会数据和报告为中国社会政策演变、人力资本发展、城乡流动趋势及政府政策与经济转型交汇提供权威分析，对国内政策制定和国际发展经济学研究均有重要参考价值。"
+      },
+      "website": "https://www.cdrf.org.cn",
+      "data_url": "https://www.cdrf.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "social",
+        "education"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国发展研究基金会",
+        "cdrf",
+        "china-development-research-foundation",
+        "中国发展高层论坛",
+        "china-development-forum",
+        "中国发展报告",
+        "china-development-report",
+        "社会政策",
+        "social-policy",
+        "城镇化",
+        "urbanization",
+        "扶贫",
+        "poverty-alleviation",
+        "早期儿童发展",
+        "early-childhood-development",
+        "人力资本",
+        "human-capital",
+        "包容性增长",
+        "inclusive-growth",
+        "农村",
+        "rural-development"
+      ],
+      "data_content": {
+        "en": [
+          "China Development Report: annual flagship publication covering urbanization, population aging, education, health, and social protection policy",
+          "China Development Forum proceedings: speeches and policy positions from Chinese government ministers, global CEOs, and leading economists",
+          "Early childhood development studies: longitudinal data on preschool access, nutrition interventions, and cognitive development outcomes in rural China",
+          "Poverty alleviation research: household survey data, program evaluations of targeted poverty relief, and post-poverty transition challenges",
+          "Social safety net analysis: coverage rates, benefit levels, and equity gaps in pension, unemployment insurance, and medical insurance systems",
+          "Education equity reports: access to quality education across urban-rural and regional divides, compulsory education completion rates",
+          "Population and labor market studies: migration patterns, aging society projections, and workforce skills gap analyses",
+          "Sustainable development assessments: SDG progress tracking for China, green finance policy research, and carbon transition social impact"
+        ],
+        "zh": [
+          "《中国发展报告》：年度旗舰出版物，涵盖城镇化、人口老龄化、教育、卫生和社会保障政策",
+          "中国发展高层论坛成果：中国政府部长、全球企业CEO和知名经济学家的演讲及政策立场",
+          "早期儿童发展研究：农村地区学前教育普及率、营养干预和认知发展成果追踪数据",
+          "扶贫研究：住户调查数据、精准扶贫项目评估及后扶贫时代转型挑战",
+          "社会保障体系分析：养老保险、失业保险和医疗保险的覆盖率、待遇水平及公平差距",
+          "教育公平报告：城乡和地区间优质教育获得差距、义务教育完成率",
+          "人口和劳动力市场研究：人口迁移规律、老龄化社会预测及劳动力技能缺口分析",
+          "可持续发展评估：中国SDG进展追踪、绿色金融政策研究及碳转型社会影响"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cdrf.json"
+    },
+    {
       "id": "china-cf40",
       "name": {
         "en": "China Finance 40 Forum (CF40)",
@@ -22780,6 +22922,78 @@
       "file_path": "china/resources/china-caea.json"
     },
     {
+      "id": "china-chnenergy",
+      "name": {
+        "en": "China Energy Investment Corporation (CHN Energy)",
+        "zh": "国家能源投资集团有限责任公司"
+      },
+      "description": {
+        "en": "China Energy Investment Corporation (CHN Energy, 国家能源集团) is the world's largest coal producer and one of China's largest power generation groups, formed in 2017 through the merger of China Shenhua Group and China Guodian Corporation. As a central state-owned enterprise, CHN Energy operates across coal mining, coal-fired power, hydropower, wind power, solar power, chemical industry, railway, and port logistics. With over 200 GW of installed power generation capacity and annual coal output exceeding 600 million tonnes, CHN Energy is central to understanding China's energy security, coal market dynamics, and the transition toward clean energy. The corporation publishes annual reports, coal production and sales statistics, power generation data by energy type, carbon emission reduction reports, and renewable energy expansion disclosures. CHN Energy data is indispensable for global coal market analysis, China's energy mix transition tracking, and assessing progress toward peak carbon emissions.",
+        "zh": "国家能源投资集团有限责任公司（国家能源集团）是全球最大的煤炭生产商之一，也是中国最大的发电集团之一，于2017年由中国神华集团与中国国电集团合并组建。作为中央国有企业，集团业务横跨煤炭开采、火力发电、水电、风电、光伏、煤化工、铁路和港口物流。集团装机超2亿千瓦，年产煤炭逾6亿吨，是了解中国能源安全、煤炭市场动态和清洁能源转型的核心数据主体。集团发布年度报告、煤炭产销统计、分能源品类发电量数据、碳减排报告及可再生能源扩展披露。国家能源集团数据是全球煤炭市场分析、中国能源结构转型追踪及碳达峰进展评估的必备参考。"
+      },
+      "website": "https://www.chnenergy.com.cn",
+      "data_url": "https://www.chnenergy.com.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "economics",
+        "environment"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "国家能源集团",
+        "chnenergy",
+        "china-energy-investment",
+        "煤炭",
+        "coal",
+        "发电",
+        "power-generation",
+        "神华",
+        "shenhua",
+        "国电",
+        "guodian",
+        "风电",
+        "wind-power",
+        "清洁能源",
+        "clean-energy",
+        "能源安全",
+        "energy-security",
+        "碳排放",
+        "carbon-emission",
+        "煤化工",
+        "coal-chemical",
+        "能源转型",
+        "energy-transition"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports: consolidated financial statements, operational KPIs, coal production volumes, and power generation breakdown by energy type",
+          "Coal production statistics: annual and quarterly raw coal output by mining region (Shendong, Zhungeer, Wuhai, etc.), sales volumes, and coal quality grades",
+          "Power generation data: installed capacity and actual generation by thermal, wind, solar, and hydropower assets; utilization hours",
+          "Carbon emissions and reduction: scope 1 and scope 2 emissions data, carbon intensity per MWh, and carbon reduction commitments",
+          "Renewable energy expansion: new wind and solar capacity additions by year and province, offshore wind deployment progress",
+          "Coal price indices: reference prices for Shenhua brand thermal coal, a benchmark for domestic coal market pricing",
+          "Railway and port logistics: Shuohuang Railway freight volume, Huanghua and Tianjin port throughput for coal export",
+          "Coal chemical production: coal-to-liquids, coal-to-gas, and methanol output statistics from Ningxia and Inner Mongolia bases"
+        ],
+        "zh": [
+          "年度报告：合并财务报表、运营KPI、煤炭产量及分能源品类发电量明细",
+          "煤炭产量统计：神东、准格尔、乌海等矿区年度及季度原煤产量、销量及煤质等级",
+          "发电量数据：火电、风电、光伏、水电资产装机容量和实际发电量；利用小时数",
+          "碳排放与减碳：范围1和范围2排放数据、每兆瓦时碳强度及碳减排承诺",
+          "可再生能源扩展：年度及省级风电、光伏新增装机容量，海上风电开发进展",
+          "煤炭价格指数：神华品牌动力煤参考价格，国内煤市基准定价参考",
+          "铁路与港口物流：朔黄铁路货运量、黄骅港和天津港煤炭出港吞吐量",
+          "煤化工产量：宁夏、内蒙古基地的煤制油、煤制气和甲醇产量统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/china-chnenergy.json"
+    },
+    {
       "id": "china-cnooc",
       "name": {
         "en": "China National Offshore Oil Corporation",
@@ -22899,6 +23113,78 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/resources/china-cnpc.json"
+    },
+    {
+      "id": "china-ctg",
+      "name": {
+        "en": "China Three Gorges Corporation (CTG)",
+        "zh": "中国长江三峡集团有限公司"
+      },
+      "description": {
+        "en": "China Three Gorges Corporation (CTG) is a central state-owned enterprise and the world's largest hydropower company by installed capacity and generation. CTG operates the Three Gorges Dam — the world's largest power station — along with the Gezhouba, Xiluodu, Xiangjiaba, and Baihetan hydropower plants, the latter being the world's second-largest hydropower station. With total installed capacity exceeding 100 GW (including hydropower, wind, solar, and other clean energy), CTG is a cornerstone of China's clean energy transition strategy. The corporation publishes annual reports, hydropower generation statistics, renewable energy capacity data, carbon reduction metrics, Yangtze River ecological conservation reports, and international clean energy investment disclosures. CTG's data is authoritative for global hydropower capacity analysis, China's carbon neutrality progress tracking, Yangtze River basin water management, and Belt and Road clean energy investment trends.",
+        "zh": "中国长江三峡集团有限公司（三峡集团）是中央国有企业，是全球装机容量和发电量最大的水电企业。集团管理三峡水电站（全球最大发电站）、葛洲坝、溪洛渡、向家坝、白鹤滩（全球第二大水电站）等巨型水电工程。集团清洁能源总装机超1亿千瓦（含水电、风电、光伏等），是中国清洁能源转型战略的重要支柱。集团发布年度报告、水电发电量统计、可再生能源装机数据、碳减排指标、长江生态保护报告及国际清洁能源投资披露。三峡集团数据是全球水电装机分析、中国碳中和进展追踪、长江流域水资源管理及一带一路清洁能源投资趋势研究的权威参考。"
+      },
+      "website": "https://www.ctg.com.cn",
+      "data_url": "https://www.ctg.com.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "environment",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国长江三峡集团",
+        "ctg",
+        "china-three-gorges",
+        "三峡大坝",
+        "three-gorges-dam",
+        "水电",
+        "hydropower",
+        "清洁能源",
+        "clean-energy",
+        "可再生能源",
+        "renewable-energy",
+        "长江",
+        "yangtze-river",
+        "碳中和",
+        "carbon-neutrality",
+        "风电",
+        "wind-power",
+        "光伏",
+        "solar-power",
+        "白鹤滩",
+        "baihetan",
+        "能源转型",
+        "energy-transition"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports: comprehensive financial statements, operational performance, and clean energy capacity expansion data",
+          "Hydropower generation statistics: annual and quarterly power generation by plant, including Three Gorges, Baihetan, Xiluodu, Xiangjiaba, and Gezhouba",
+          "Renewable energy capacity: installed wind, solar, and pumped-storage capacity by region and year",
+          "Carbon reduction metrics: CO2 emissions avoided through clean power generation, carbon footprint data",
+          "Yangtze River ecological conservation: fish migration passage data, water quality monitoring results, and ecological flow release records",
+          "International investment data: overseas clean energy project portfolio (Africa, South America, Europe), financing structures, and capacity additions",
+          "Energy storage projects: pumped-storage and battery storage deployment statistics",
+          "Flood control and water regulation: Three Gorges reservoir water level management and flood season discharge data"
+        ],
+        "zh": [
+          "年度报告：完整财务报表、运营业绩及清洁能源装机扩展数据",
+          "水电发电量统计：三峡、白鹤滩、溪洛渡、向家坝、葛洲坝各电站年度及季度发电量",
+          "可再生能源装机：按地区和年份统计的风电、光伏及抽水蓄能装机容量",
+          "碳减排指标：清洁发电避免的二氧化碳排放量及碳足迹数据",
+          "长江生态保护：鱼类过鱼通道数据、水质监测结果及生态流量下泄记录",
+          "国际投资数据：境外清洁能源项目组合（非洲、南美、欧洲）、融资结构和装机新增",
+          "储能项目：抽水蓄能和电池储能部署统计",
+          "防洪调度：三峡水库水位管理及汛期泄洪数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/china-ctg.json"
     },
     {
       "id": "china-guangdong-nr",
@@ -28855,6 +29141,78 @@
       },
       "has_api": false,
       "file_path": "china/technology/telecommunications/china-miit.json"
+    },
+    {
+      "id": "china-tower",
+      "name": {
+        "en": "China Tower Corporation",
+        "zh": "中国铁塔股份有限公司"
+      },
+      "description": {
+        "en": "China Tower Corporation is the world's largest telecommunications tower company by site count, established in 2014 as a joint venture among China Mobile, China Unicom, China Telecom, and China Reform (a state capital investment company). The company manages over 2 million tower sites across China, providing shared passive telecommunications infrastructure including towers, poles, indoor distributed antenna systems, and power facilities for mobile network operators. China Tower publishes annual reports, half-year reports, quarterly operational data, and sustainability reports as a Hong Kong Stock Exchange-listed company (HK.0788). Its disclosures include tower site counts, tenancy ratios, new tower construction statistics, 5G site deployment progress, and energy consumption data for base station power supply. China Tower data is authoritative for tracking China's 5G infrastructure rollout, tower industry consolidation benefits, telecom infrastructure sharing policy outcomes, and mobile network coverage expansion in rural and remote areas.",
+        "zh": "中国铁塔股份有限公司是全球站址数量最多的通信铁塔企业，2014年由中国移动、中国联通、中国电信及中国国新控股有限责任公司合资组建。公司管理全国逾200万个铁塔站址，为移动通信运营商提供铁塔、杆路、室内分布系统及配套电源设施等共享无源基础设施。作为香港联交所上市公司（港股代码：0788），中国铁塔定期发布年报、半年报、季度运营数据及可持续发展报告，包括铁塔站址数量、共享租户数、新建塔统计、5G站址部署进度及基站供电能耗数据。中国铁塔数据是追踪中国5G基础设施建设进度、铁塔行业整合效益、通信基础设施共享政策成效及农村和偏远地区移动网络覆盖扩展的权威参考。"
+      },
+      "website": "https://www.china-tower.com",
+      "data_url": "https://ir.china-tower.com/sc/ir/reports.php",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "telecommunications",
+        "infrastructure"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "中国铁塔",
+        "china-tower",
+        "通信基础设施",
+        "telecom-infrastructure",
+        "铁塔",
+        "tower",
+        "5g",
+        "5G基站",
+        "5g-deployment",
+        "基站",
+        "base-station",
+        "共享铁塔",
+        "tower-sharing",
+        "移动通信",
+        "mobile-network",
+        "港股",
+        "hkex-listed",
+        "铁塔共享",
+        "infrastructure-sharing",
+        "农村覆盖",
+        "rural-coverage",
+        "中国移动",
+        "china-mobile"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and half-year reports: financial statements, revenue by service type, EBITDA margins, and capital expenditure on tower construction",
+          "Tower site statistics: total site counts by province and type (ground-based towers, rooftop sites, indoor DAS systems, small cells)",
+          "Tenancy ratios: average number of tenants per tower site, new tenancy additions, and revenue per tower site trends",
+          "5G infrastructure deployment: cumulative and quarterly 5G-enabled site counts, new 5G site construction statistics by operator",
+          "Rural and remote coverage: tower site deployment under universal service obligation, natural village coverage rates",
+          "Energy and sustainability data: total power consumption of tower sites, diesel generator usage, green energy adoption rates, and carbon emissions from operations",
+          "Shared infrastructure savings: estimated savings to operators from infrastructure sharing versus independent deployment",
+          "Operational efficiency metrics: tower utilization rates, maintenance cost per site, and network availability statistics"
+        ],
+        "zh": [
+          "年报和半年报：财务报表、分服务类型收入、EBITDA利润率及铁塔建设资本支出",
+          "铁塔站址统计：按省和类型（地面塔、楼顶站、室内分布系统、小基站）分类的站址总数",
+          "共享率：平均每站址租户数、新增租户量及每站址收入趋势",
+          "5G基础设施部署：5G站址累计数量和季度新增数，按运营商分类的5G新建站统计",
+          "农村和偏远地区覆盖：普遍服务义务下的铁塔建设，自然村覆盖率数据",
+          "能源与可持续数据：铁塔站址总耗电量、柴油发电机使用情况、绿色能源使用率及运营碳排放",
+          "共享基础设施节省估算：基础设施共享模式相比独立建设为运营商节省的成本",
+          "运营效率指标：铁塔利用率、每站址维护成本和网络可用性统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/telecommunications/china-tower.json"
     },
     {
       "id": "egypt-capmas",
