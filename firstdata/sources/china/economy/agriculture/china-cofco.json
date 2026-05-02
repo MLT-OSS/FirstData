@@ -1,0 +1,70 @@
+{
+  "id": "china-cofco",
+  "name": {
+    "en": "COFCO Corporation",
+    "zh": "中粮集团有限公司"
+  },
+  "description": {
+    "en": "COFCO Corporation (中粮集团) is a central state-owned enterprise directly under the State Council and China's largest agri-food conglomerate, ranking among the world's top four global grain traders alongside ADM, Bunge, and Cargill. Established in 1949 and restructured multiple times, COFCO operates integrated supply chains covering grain, oilseeds, sugar, cotton, meat, dairy, wine, and processed food products. The group encompasses key listed subsidiaries including COFCO Sugar, COFCO Capital, China Foods, and Mengniu Dairy, and operates the strategic Dalian Commodity Exchange warehouse network. COFCO publishes annual reports, operational statistics on grain trading volumes, agricultural product processing output, international trade flows, and commodity procurement data. The group's disclosures provide authoritative insights into China's agricultural supply chain, food security strategy, international commodity markets, and rural revitalization initiatives.",
+    "zh": "中粮集团有限公司是国务院直属的中央国有企业，中国最大的农业食品企业，与ADM、邦吉、嘉吉并称全球四大粮商。成立于1949年，历经多次重组改革。中粮集团业务覆盖粮食、油料、食糖、棉花、肉类、乳制品、酒类和加工食品的全产业链整合供应链。集团包括中粮糖业、中粮资本、中国食品、蒙牛乳业等重点上市子公司，并运营大连商品交易所战略性仓储网络。中粮集团发布年度报告、粮食贸易量、农产品加工产量、国际贸易流量和大宗商品采购数据等运营统计，为了解中国农业供应链、粮食安全战略、国际大宗商品市场及乡村振兴举措提供权威参考。"
+  },
+  "website": "https://www.cofco.com",
+  "data_url": "https://www.cofco.com",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "global",
+  "domains": [
+    "agriculture",
+    "food-security",
+    "economics",
+    "trade"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "cofco",
+    "中粮集团",
+    "粮油贸易",
+    "grain-trading",
+    "食品加工",
+    "food-processing",
+    "粮食安全",
+    "food-security",
+    "大宗农产品",
+    "agricultural-commodities",
+    "食用油",
+    "edible-oil",
+    "白糖",
+    "sugar",
+    "棉花",
+    "cotton",
+    "央企",
+    "central-soe",
+    "四大粮商",
+    "abcd-traders"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports - consolidated financial statements, revenue, profit, and operating highlights across COFCO's agricultural business lines",
+      "Grain trading volumes - procurement and distribution data for wheat, corn, rice, soybeans, and other grains",
+      "Oilseed processing output - soybean crushing volumes, edible oil production, and protein meal output",
+      "Sugar and cotton operations - national sugar refining capacity, cotton procurement volumes, and inventory data via listed subsidiary COFCO Sugar",
+      "Meat and dairy data - pork, beef, and dairy processing output through subsidiaries including COFCO Meat and Mengniu Dairy",
+      "International trade flows - global procurement, bulk commodity shipments, and overseas trading operations",
+      "Listed subsidiary disclosures - financial and operational data from China Foods, COFCO Sugar, COFCO Capital, and Mengniu Dairy",
+      "Rural revitalization and poverty alleviation - agricultural sourcing programs in rural areas and smallholder procurement data",
+      "Food safety and traceability - quality control and traceability data for COFCO-branded food products"
+    ],
+    "zh": [
+      "年度报告 - 中粮集团各农业业务板块的合并财务报表、营业收入、利润及运营要点",
+      "粮食贸易量 - 小麦、玉米、水稻、大豆等粮食品种的采购和分销数据",
+      "油料加工产量 - 大豆压榨量、食用油产量及蛋白粕产量",
+      "食糖和棉花业务 - 通过上市子公司中粮糖业披露的全国食糖加工能力、棉花采购量及库存数据",
+      "肉类与乳品数据 - 通过中粮肉食和蒙牛乳业等子公司发布的猪肉、牛肉和乳制品加工产量",
+      "国际贸易流量 - 全球采购、大宗商品海运及海外贸易运营数据",
+      "上市子公司披露 - 中国食品、中粮糖业、中粮资本和蒙牛乳业的财务和运营数据",
+      "乡村振兴和扶贫 - 乡村地区农产品采购项目和小农户收购数据",
+      "食品安全与溯源 - 中粮品牌食品的质量控制和溯源数据"
+    ]
+  }
+}
