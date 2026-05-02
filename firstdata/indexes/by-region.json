@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T06:31:12.459339+00:00",
+    "generated_at": "2026-05-02T02:34:47.946778+00:00",
     "total_regions": 58,
-    "total_sources": 647,
+    "total_sources": 652,
     "version": "2.0"
   },
   "regions": {
@@ -542,6 +542,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cofco",
+        "name": {
+          "en": "COFCO Corporation",
+          "zh": "中粮集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cofco.com",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/china-cofco.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-moa",
         "name": {
           "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
@@ -587,6 +599,18 @@
         "data_url": "https://www.sinograin.com.cn",
         "has_api": false,
         "file_path": "china/economy/agriculture/china-sinograin.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-bof",
+        "name": {
+          "en": "Bureau of Fisheries, Ministry of Agriculture and Rural Affairs",
+          "zh": "农业农村部渔业渔政管理局"
+        },
+        "authority_level": "government",
+        "data_url": "https://yyj.moa.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/agriculture/fishery/china-bof.json",
         "geographic_scope": "national"
       },
       {
@@ -1847,6 +1871,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-capco",
+        "name": {
+          "en": "China Association for Public Companies (CAPCO)",
+          "zh": "中国上市公司协会"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.capco.org.cn",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-capco.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cfa",
         "name": {
           "en": "China Futures Association",
@@ -2631,6 +2667,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-film-admin",
+        "name": {
+          "en": "National Film Administration of China",
+          "zh": "国家电影局"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinafilm.gov.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-film-admin.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-national-museum",
         "name": {
           "en": "National Museum of China",
@@ -2881,6 +2929,18 @@
         "data_url": "https://www.phirda.com",
         "has_api": false,
         "file_path": "china/health/china-phirda.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-avic",
+        "name": {
+          "en": "Aviation Industry Corporation of China (AVIC)",
+          "zh": "中国航空工业集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.avic.com",
+        "has_api": false,
+        "file_path": "china/industry/aerospace/china-avic.json",
         "geographic_scope": "national"
       },
       {

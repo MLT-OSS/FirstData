@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T06:31:12.459339+00:00",
-    "total_sources": 647,
+    "generated_at": "2026-05-02T02:34:47.946778+00:00",
+    "total_sources": 652,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3170,6 +3170,78 @@
       "file_path": "china/economy/agriculture/china-cfeed.json"
     },
     {
+      "id": "china-cofco",
+      "name": {
+        "en": "COFCO Corporation",
+        "zh": "中粮集团有限公司"
+      },
+      "description": {
+        "en": "COFCO Corporation (中粮集团) is a central state-owned enterprise directly under the State Council and China's largest agri-food conglomerate, ranking among the world's top four global grain traders alongside ADM, Bunge, and Cargill. Established in 1949 and restructured multiple times, COFCO operates integrated supply chains covering grain, oilseeds, sugar, cotton, meat, dairy, wine, and processed food products. The group encompasses key listed subsidiaries including COFCO Sugar, COFCO Capital, China Foods, and Mengniu Dairy, and operates the strategic Dalian Commodity Exchange warehouse network. COFCO publishes annual reports, operational statistics on grain trading volumes, agricultural product processing output, international trade flows, and commodity procurement data. The group's disclosures provide authoritative insights into China's agricultural supply chain, food security strategy, international commodity markets, and rural revitalization initiatives.",
+        "zh": "中粮集团有限公司是国务院直属的中央国有企业，中国最大的农业食品企业，与ADM、邦吉、嘉吉并称全球四大粮商。成立于1949年，历经多次重组改革。中粮集团业务覆盖粮食、油料、食糖、棉花、肉类、乳制品、酒类和加工食品的全产业链整合供应链。集团包括中粮糖业、中粮资本、中国食品、蒙牛乳业等重点上市子公司，并运营大连商品交易所战略性仓储网络。中粮集团发布年度报告、粮食贸易量、农产品加工产量、国际贸易流量和大宗商品采购数据等运营统计，为了解中国农业供应链、粮食安全战略、国际大宗商品市场及乡村振兴举措提供权威参考。"
+      },
+      "website": "https://www.cofco.com",
+      "data_url": "https://www.cofco.com",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "global",
+      "domains": [
+        "agriculture",
+        "food-security",
+        "economics",
+        "trade"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "cofco",
+        "中粮集团",
+        "粮油贸易",
+        "grain-trading",
+        "食品加工",
+        "food-processing",
+        "粮食安全",
+        "food-security",
+        "大宗农产品",
+        "agricultural-commodities",
+        "食用油",
+        "edible-oil",
+        "白糖",
+        "sugar",
+        "棉花",
+        "cotton",
+        "央企",
+        "central-soe",
+        "四大粮商",
+        "abcd-traders"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports - consolidated financial statements, revenue, profit, and operating highlights across COFCO's agricultural business lines",
+          "Grain trading volumes - procurement and distribution data for wheat, corn, rice, soybeans, and other grains",
+          "Oilseed processing output - soybean crushing volumes, edible oil production, and protein meal output",
+          "Sugar and cotton operations - national sugar refining capacity, cotton procurement volumes, and inventory data via listed subsidiary COFCO Sugar",
+          "Meat and dairy data - pork, beef, and dairy processing output through subsidiaries including COFCO Meat and Mengniu Dairy",
+          "International trade flows - global procurement, bulk commodity shipments, and overseas trading operations",
+          "Listed subsidiary disclosures - financial and operational data from China Foods, COFCO Sugar, COFCO Capital, and Mengniu Dairy",
+          "Rural revitalization and poverty alleviation - agricultural sourcing programs in rural areas and smallholder procurement data",
+          "Food safety and traceability - quality control and traceability data for COFCO-branded food products"
+        ],
+        "zh": [
+          "年度报告 - 中粮集团各农业业务板块的合并财务报表、营业收入、利润及运营要点",
+          "粮食贸易量 - 小麦、玉米、水稻、大豆等粮食品种的采购和分销数据",
+          "油料加工产量 - 大豆压榨量、食用油产量及蛋白粕产量",
+          "食糖和棉花业务 - 通过上市子公司中粮糖业披露的全国食糖加工能力、棉花采购量及库存数据",
+          "肉类与乳品数据 - 通过中粮肉食和蒙牛乳业等子公司发布的猪肉、牛肉和乳制品加工产量",
+          "国际贸易流量 - 全球采购、大宗商品海运及海外贸易运营数据",
+          "上市子公司披露 - 中国食品、中粮糖业、中粮资本和蒙牛乳业的财务和运营数据",
+          "乡村振兴和扶贫 - 乡村地区农产品采购项目和小农户收购数据",
+          "食品安全与溯源 - 中粮品牌食品的质量控制和溯源数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/china-cofco.json"
+    },
+    {
       "id": "china-moa",
       "name": {
         "en": "Ministry of Agriculture and Rural Affairs of China - Agricultural Statistics",
@@ -3480,6 +3552,75 @@
       },
       "has_api": false,
       "file_path": "china/economy/agriculture/china-sinograin.json"
+    },
+    {
+      "id": "china-bof",
+      "name": {
+        "en": "Bureau of Fisheries, Ministry of Agriculture and Rural Affairs",
+        "zh": "农业农村部渔业渔政管理局"
+      },
+      "description": {
+        "en": "The Bureau of Fisheries (BOF) under China's Ministry of Agriculture and Rural Affairs (MARA) is the central government authority responsible for managing and supervising fishery production, aquaculture, fishing vessel administration, and fishery law enforcement across China. China is the world's largest fishery producer, accounting for approximately one-third of global fish production, and BOF publishes the authoritative China Fishery Statistical Yearbook with comprehensive data on aquaculture output, marine and inland capture fisheries, fish species production, fishery employment, fishing vessel registrations, and aquatic product trade. BOF data is essential for understanding China's food security related to protein supply, coastal and rural livelihoods, and the management of China's vast marine and freshwater fishery resources.",
+        "zh": "农业农村部渔业渔政管理局是负责全国渔业生产、水产养殖、渔船管理和渔政执法的中央政府机构。中国是全球最大的渔业生产国，约占全球水产品总产量的三分之一。渔业渔政管理局发布权威的《中国渔业统计年鉴》，提供养殖产量、海洋和内陆捕捞渔业、主要鱼类产量、渔业从业人员、渔船登记和水产品贸易等全面数据。渔业局数据是了解中国蛋白质供应安全、沿海和农村生计以及海洋和淡水渔业资源管理的重要依据。"
+      },
+      "website": "https://yyj.moa.gov.cn",
+      "data_url": "https://yyj.moa.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "food-security",
+        "environment"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "渔业",
+        "fishery",
+        "水产养殖",
+        "aquaculture",
+        "捕捞渔业",
+        "capture-fisheries",
+        "水产品产量",
+        "fish-production",
+        "渔船管理",
+        "fishing-vessel",
+        "渔业统计年鉴",
+        "fishery-yearbook",
+        "海洋渔业",
+        "marine-fishery",
+        "内陆渔业",
+        "inland-fishery",
+        "bof",
+        "mara"
+      ],
+      "data_content": {
+        "en": [
+          "China Fishery Statistical Yearbook - comprehensive annual data on national fishery output, aquaculture, and capture production",
+          "Aquaculture production statistics - total output by species category including fish, shrimp, crab, shellfish, and algae",
+          "Marine capture fisheries - offshore and coastal catch data by sea area and major commercial species",
+          "Inland fishery data - freshwater lake, river, and reservoir fishery production statistics",
+          "Fishing vessel registry - number of registered fishing vessels by type, size, and coastal province",
+          "Fishery employment - workforce engaged in aquaculture, capture fishing, and fishery processing",
+          "Aquatic product trade - imports and exports of fish, seafood, and processed aquatic products",
+          "Aquaculture area - total area of aquaculture ponds, cages, and coastal farming facilities",
+          "Fishery policy announcements - fishing moratorium periods, quota allocations, and stock conservation measures"
+        ],
+        "zh": [
+          "中国渔业统计年鉴 - 全国渔业产量、养殖和捕捞生产的综合年度数据",
+          "水产养殖产量统计 - 按鱼、虾、蟹、贝、藻类等分类的总产量",
+          "海洋捕捞渔业 - 按海区和主要经济鱼类分类的近海和沿海捕捞数据",
+          "内陆渔业数据 - 淡水湖泊、河流和水库的渔业产量统计",
+          "渔船登记 - 按类型、大小和沿海省份分类的注册渔船数量",
+          "渔业从业人员 - 从事水产养殖、捕捞和水产品加工的劳动力数据",
+          "水产品贸易 - 鱼类、海鲜和水产品加工品的进出口数据",
+          "养殖面积 - 养殖池塘、网箱和沿海养殖设施的总面积",
+          "渔业政策公告 - 伏季休渔期、捕捞配额分配和渔业资源养护措施"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/agriculture/fishery/china-bof.json"
     },
     {
       "id": "china-passenger-car-association",
@@ -10941,6 +11082,75 @@
       "file_path": "china/finance/capital-markets/china-amac.json"
     },
     {
+      "id": "china-capco",
+      "name": {
+        "en": "China Association for Public Companies (CAPCO)",
+        "zh": "中国上市公司协会"
+      },
+      "description": {
+        "en": "The China Association for Public Companies (CAPCO, 中国上市公司协会) is the national self-regulatory organization for listed companies in China, established in 2012 under the guidance of the China Securities Regulatory Commission (CSRC). CAPCO represents more than 5,000 companies listed on the Shanghai, Shenzhen, and Beijing stock exchanges, covering a combined market capitalization of over 80 trillion yuan. The association publishes authoritative statistical reports on the operating performance, governance quality, investor relations, and ESG disclosures of China's listed companies. It also releases annual research on board composition, executive compensation, shareholder returns, mergers and acquisitions, and share repurchase activities. CAPCO data is essential for analyzing the financial health and corporate governance of China's public companies, capital market development trends, and the effectiveness of listed company regulatory reforms.",
+        "zh": "中国上市公司协会是全国上市公司自律性组织，于2012年在中国证监会指导下成立。协会现有会员涵盖沪深北三大交易所5000余家上市公司，合计市值超过80万亿元。协会发布权威的上市公司经营业绩、治理质量、投资者关系及ESG披露等统计报告，并开展董事会构成、高管薪酬、股东回报、并购重组及股份回购等年度研究。中国上市公司协会的数据是分析中国上市公司财务健康、公司治理、资本市场发展趋势及上市公司监管改革成效的重要依据。"
+      },
+      "website": "https://www.capco.org.cn",
+      "data_url": "https://www.capco.org.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "governance"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "capco",
+        "上市公司协会",
+        "listed-companies",
+        "上市公司",
+        "public-companies",
+        "公司治理",
+        "corporate-governance",
+        "esg披露",
+        "esg-disclosure",
+        "股东回报",
+        "shareholder-return",
+        "高管薪酬",
+        "executive-compensation",
+        "并购重组",
+        "m-and-a",
+        "股份回购",
+        "share-repurchase",
+        "a股"
+      ],
+      "data_content": {
+        "en": [
+          "Annual operating performance report - aggregated revenue, profit, and financial indicators of China's listed companies by industry and exchange",
+          "Corporate governance statistics - board composition, independent director ratios, supervisory board structure, and audit committee data",
+          "Executive compensation studies - salary levels, equity incentive programs, and compensation-performance linkage analysis",
+          "ESG disclosure report - environmental, social, and governance reporting coverage and quality across listed firms",
+          "Investor relations assessment - IR practices, information disclosure quality, and retail investor communications",
+          "M&A and restructuring activity - annual transaction volumes, deal values, and industry distribution of listed company deals",
+          "Share repurchase and dividend statistics - buyback volumes, dividend payout ratios, and shareholder return trends",
+          "Member company directory - list of all listed companies by exchange, sector, and registered region",
+          "Policy research and industry reports - analysis of regulatory reforms, registration-based IPO system, and delisting rules"
+        ],
+        "zh": [
+          "上市公司经营业绩年度报告 - 按行业和交易所汇总的上市公司营业收入、利润及财务指标",
+          "公司治理统计 - 董事会构成、独立董事占比、监事会结构及审计委员会数据",
+          "高管薪酬研究 - 薪酬水平、股权激励方案及薪酬与业绩挂钩分析",
+          "ESG信息披露报告 - 上市公司环境、社会和治理报告的覆盖率和质量",
+          "投资者关系评估 - 投资者关系管理实践、信息披露质量及中小投资者沟通",
+          "并购重组活动 - 上市公司年度交易数量、交易金额及行业分布",
+          "股份回购与分红统计 - 回购金额、分红比例及股东回报趋势",
+          "会员公司名录 - 按交易所、行业和注册地分类的上市公司名单",
+          "政策研究和行业报告 - 监管改革、注册制、退市制度等分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-capco.json"
+    },
+    {
       "id": "china-cfa",
       "name": {
         "en": "China Futures Association",
@@ -15490,6 +15700,71 @@
       "file_path": "china/governance/culture/china-cnaf.json"
     },
     {
+      "id": "china-film-admin",
+      "name": {
+        "en": "National Film Administration of China",
+        "zh": "国家电影局"
+      },
+      "description": {
+        "en": "The National Film Administration (NFA, 国家电影局) is the Chinese government agency under the Central Propaganda Department responsible for supervising and managing the country's film industry. It regulates film production, distribution, exhibition, and import/export, while publishing authoritative statistics on China's box office performance, cinema screen counts, film production output, and audience attendance. China is the world's second-largest film market, with annual box office revenues exceeding 40 billion yuan. The NFA releases monthly and annual box office data through its official channels, making it the primary source for tracking China's cinema industry trends, blockbuster performance, domestic vs. imported film market share, and national cinema infrastructure expansion.",
+        "zh": "国家电影局是中央宣传部主管的政府机构，负责对电影业进行监督管理。主要职能包括电影制作、发行、放映、进出口的监管，并发布权威的票房统计、银幕数量、电影产量及观影人次数据。中国是全球第二大电影市场，年票房规模超过400亿元。国家电影局通过官方渠道发布月度和年度票房数据，是追踪中国院线产业趋势、国产与进口影片市场占比及全国影院基础设施建设情况的首要数据来源。"
+      },
+      "website": "https://www.chinafilm.gov.cn",
+      "data_url": "https://www.chinafilm.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "culture",
+        "media",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "国家电影局",
+        "nfa",
+        "电影票房",
+        "box-office",
+        "院线数据",
+        "cinema-statistics",
+        "银幕数量",
+        "screen-count",
+        "电影产业",
+        "film-industry",
+        "国产电影",
+        "domestic-film",
+        "进口影片",
+        "imported-film",
+        "观影人次",
+        "admissions"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly and annual box office revenue - total national box office receipts, including domestic and imported film performance",
+          "Cinema screen count - nationwide number of screens, cinema locations, and digital projection equipment",
+          "Film production output - annual number of films approved for production, completed productions, and genre breakdowns",
+          "Import quota and performance - approved foreign film titles, release dates, and box office contribution of imported films",
+          "Audience attendance statistics - annual admissions data and per-capita attendance trends",
+          "Market share analysis - domestic vs. imported film revenue shares and top-grossing titles",
+          "Cinema infrastructure expansion - new cinema openings and regional distribution of exhibition venues",
+          "Annual China Film Industry Report - comprehensive review of market size, key titles, and policy developments"
+        ],
+        "zh": [
+          "月度和年度票房数据 - 全国总票房及国产与进口影片的分项数据",
+          "院线银幕数量 - 全国银幕总数、影院数量及数字放映设备情况",
+          "电影产量 - 年度获批立项影片数量、完成产量及题材类型分布",
+          "进口影片配额与票房 - 批准上映的境外影片名单、上映日期及票房贡献",
+          "观影人次统计 - 年度观影人次及人均观影次数趋势",
+          "市场份额分析 - 国产与进口影片票房占比及年度票房冠军",
+          "院线基础设施扩张 - 新开影院数量及影院区域分布情况",
+          "中国电影产业年度报告 - 市场规模、重点影片及政策进展综合分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/culture/china-film-admin.json"
+    },
+    {
       "id": "china-national-museum",
       "name": {
         "en": "National Museum of China",
@@ -16913,6 +17188,74 @@
       },
       "has_api": false,
       "file_path": "china/health/china-phirda.json"
+    },
+    {
+      "id": "china-avic",
+      "name": {
+        "en": "Aviation Industry Corporation of China (AVIC)",
+        "zh": "中国航空工业集团有限公司"
+      },
+      "description": {
+        "en": "The Aviation Industry Corporation of China (AVIC, 中国航空工业集团) is a central state-owned enterprise under the State Council and China's primary aerospace and defense conglomerate. AVIC is responsible for the research, development, and manufacturing of military and civil aviation products, including fighter jets, helicopters, transport aircraft, aero-engines, avionics systems, and aerospace components. As one of the world's largest aviation companies by revenue, AVIC encompasses over 100 subsidiary enterprises and research institutes, with more than 400,000 employees. AVIC and its listed subsidiaries publish annual reports, operational data on aviation manufacturing output, delivery volumes of civil and military aircraft, and technology development disclosures. The group's data provides critical insights into China's aviation industrial capacity, defense manufacturing trends, and the development of China's domestic commercial aviation supply chain.",
+        "zh": "中国航空工业集团有限公司（航空工业）是国务院直属的中央国有企业，是中国航空和国防工业的主体。主要承担军民用航空产品的研发和制造，包括战斗机、直升机、运输机、航空发动机、航空电子系统和航空零部件。作为全球营收规模最大的航空企业之一，航空工业拥有100余家成员企业和科研院所，员工逾40万人。航空工业集团及其上市子公司发布年度报告、航空制造产量运营数据、军民机交付数量及技术研发披露，为了解中国航空工业能力、国防制造趋势和国产民用航空供应链发展提供重要参考。"
+      },
+      "website": "https://www.avic.com",
+      "data_url": "https://www.avic.com",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "aerospace",
+        "defense",
+        "manufacturing",
+        "economics"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "avic",
+        "航空工业",
+        "航空制造",
+        "aviation-manufacturing",
+        "军用飞机",
+        "military-aircraft",
+        "民用飞机",
+        "civil-aircraft",
+        "航空发动机",
+        "aero-engine",
+        "国防工业",
+        "defense-industry",
+        "央企",
+        "central-soe",
+        "直升机",
+        "helicopter",
+        "航电系统",
+        "avionics"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports - consolidated financial statements, revenue, profit, and operating highlights for AVIC Group",
+          "Aircraft manufacturing output - production volumes and delivery records for military fighters, trainers, transport aircraft, and helicopters",
+          "Civil aviation supply chain data - components and systems supplied to domestic and international civil aviation OEMs",
+          "Listed subsidiary disclosures - financial and operational data from AVIC subsidiaries listed on Shanghai and Shenzhen stock exchanges",
+          "R&D investment and technology milestones - annual R&D expenditure, patent registrations, and major technical achievements",
+          "Workforce statistics - total employees, engineering and technical staff, and education-level breakdown",
+          "Export and international cooperation - foreign military sales, international joint ventures, and overseas delivery data",
+          "Subsidiary enterprise profiles - business scope, production capacity, and key products of major member companies"
+        ],
+        "zh": [
+          "年度报告 - 航空工业集团的合并财务报表、营业收入、利润及运营要点",
+          "飞机制造产量 - 军用战斗机、教练机、运输机和直升机的生产数量和交付记录",
+          "民用航空供应链数据 - 向国内外民用航空整机制造商提供的零部件和系统数据",
+          "上市子公司披露 - 在沪深两市上市的航空工业成员企业的财务和运营数据",
+          "研发投入和技术里程碑 - 年度研发支出、专利申请数量和重大技术成就",
+          "劳动力统计 - 员工总数、工程技术人员及学历层次分布",
+          "出口和国际合作 - 对外军售、国际合资合作及境外交付数据",
+          "成员企业概况 - 主要成员单位的业务范围、生产能力和拳头产品"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/aerospace/china-avic.json"
     },
     {
       "id": "china-ceeia",
