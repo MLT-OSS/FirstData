@@ -1,0 +1,67 @@
+{
+  "id": "china-capco",
+  "name": {
+    "en": "China Association for Public Companies (CAPCO)",
+    "zh": "中国上市公司协会"
+  },
+  "description": {
+    "en": "The China Association for Public Companies (CAPCO, 中国上市公司协会) is the national self-regulatory organization for listed companies in China, established in 2012 under the guidance of the China Securities Regulatory Commission (CSRC). CAPCO represents more than 5,000 companies listed on the Shanghai, Shenzhen, and Beijing stock exchanges, covering a combined market capitalization of over 80 trillion yuan. The association publishes authoritative statistical reports on the operating performance, governance quality, investor relations, and ESG disclosures of China's listed companies. It also releases annual research on board composition, executive compensation, shareholder returns, mergers and acquisitions, and share repurchase activities. CAPCO data is essential for analyzing the financial health and corporate governance of China's public companies, capital market development trends, and the effectiveness of listed company regulatory reforms.",
+    "zh": "中国上市公司协会是全国上市公司自律性组织，于2012年在中国证监会指导下成立。协会现有会员涵盖沪深北三大交易所5000余家上市公司，合计市值超过80万亿元。协会发布权威的上市公司经营业绩、治理质量、投资者关系及ESG披露等统计报告，并开展董事会构成、高管薪酬、股东回报、并购重组及股份回购等年度研究。中国上市公司协会的数据是分析中国上市公司财务健康、公司治理、资本市场发展趋势及上市公司监管改革成效的重要依据。"
+  },
+  "website": "https://www.capco.org.cn",
+  "data_url": "https://www.capco.org.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "governance"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "capco",
+    "上市公司协会",
+    "listed-companies",
+    "上市公司",
+    "public-companies",
+    "公司治理",
+    "corporate-governance",
+    "esg披露",
+    "esg-disclosure",
+    "股东回报",
+    "shareholder-return",
+    "高管薪酬",
+    "executive-compensation",
+    "并购重组",
+    "m-and-a",
+    "股份回购",
+    "share-repurchase",
+    "a股"
+  ],
+  "data_content": {
+    "en": [
+      "Annual operating performance report - aggregated revenue, profit, and financial indicators of China's listed companies by industry and exchange",
+      "Corporate governance statistics - board composition, independent director ratios, supervisory board structure, and audit committee data",
+      "Executive compensation studies - salary levels, equity incentive programs, and compensation-performance linkage analysis",
+      "ESG disclosure report - environmental, social, and governance reporting coverage and quality across listed firms",
+      "Investor relations assessment - IR practices, information disclosure quality, and retail investor communications",
+      "M&A and restructuring activity - annual transaction volumes, deal values, and industry distribution of listed company deals",
+      "Share repurchase and dividend statistics - buyback volumes, dividend payout ratios, and shareholder return trends",
+      "Member company directory - list of all listed companies by exchange, sector, and registered region",
+      "Policy research and industry reports - analysis of regulatory reforms, registration-based IPO system, and delisting rules"
+    ],
+    "zh": [
+      "上市公司经营业绩年度报告 - 按行业和交易所汇总的上市公司营业收入、利润及财务指标",
+      "公司治理统计 - 董事会构成、独立董事占比、监事会结构及审计委员会数据",
+      "高管薪酬研究 - 薪酬水平、股权激励方案及薪酬与业绩挂钩分析",
+      "ESG信息披露报告 - 上市公司环境、社会和治理报告的覆盖率和质量",
+      "投资者关系评估 - 投资者关系管理实践、信息披露质量及中小投资者沟通",
+      "并购重组活动 - 上市公司年度交易数量、交易金额及行业分布",
+      "股份回购与分红统计 - 回购金额、分红比例及股东回报趋势",
+      "会员公司名录 - 按交易所、行业和注册地分类的上市公司名单",
+      "政策研究和行业报告 - 监管改革、注册制、退市制度等分析"
+    ]
+  }
+}

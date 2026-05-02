@@ -1,0 +1,67 @@
+{
+  "id": "china-bof",
+  "name": {
+    "en": "Bureau of Fisheries, Ministry of Agriculture and Rural Affairs",
+    "zh": "农业农村部渔业渔政管理局"
+  },
+  "description": {
+    "en": "The Bureau of Fisheries (BOF) under China's Ministry of Agriculture and Rural Affairs (MARA) is the central government authority responsible for managing and supervising fishery production, aquaculture, fishing vessel administration, and fishery law enforcement across China. China is the world's largest fishery producer, accounting for approximately one-third of global fish production, and BOF publishes the authoritative China Fishery Statistical Yearbook with comprehensive data on aquaculture output, marine and inland capture fisheries, fish species production, fishery employment, fishing vessel registrations, and aquatic product trade. BOF data is essential for understanding China's food security related to protein supply, coastal and rural livelihoods, and the management of China's vast marine and freshwater fishery resources.",
+    "zh": "农业农村部渔业渔政管理局是负责全国渔业生产、水产养殖、渔船管理和渔政执法的中央政府机构。中国是全球最大的渔业生产国，约占全球水产品总产量的三分之一。渔业渔政管理局发布权威的《中国渔业统计年鉴》，提供养殖产量、海洋和内陆捕捞渔业、主要鱼类产量、渔业从业人员、渔船登记和水产品贸易等全面数据。渔业局数据是了解中国蛋白质供应安全、沿海和农村生计以及海洋和淡水渔业资源管理的重要依据。"
+  },
+  "website": "https://yyj.moa.gov.cn",
+  "data_url": "https://yyj.moa.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "food-security",
+    "environment"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "渔业",
+    "fishery",
+    "水产养殖",
+    "aquaculture",
+    "捕捞渔业",
+    "capture-fisheries",
+    "水产品产量",
+    "fish-production",
+    "渔船管理",
+    "fishing-vessel",
+    "渔业统计年鉴",
+    "fishery-yearbook",
+    "海洋渔业",
+    "marine-fishery",
+    "内陆渔业",
+    "inland-fishery",
+    "bof",
+    "mara"
+  ],
+  "data_content": {
+    "en": [
+      "China Fishery Statistical Yearbook - comprehensive annual data on national fishery output, aquaculture, and capture production",
+      "Aquaculture production statistics - total output by species category including fish, shrimp, crab, shellfish, and algae",
+      "Marine capture fisheries - offshore and coastal catch data by sea area and major commercial species",
+      "Inland fishery data - freshwater lake, river, and reservoir fishery production statistics",
+      "Fishing vessel registry - number of registered fishing vessels by type, size, and coastal province",
+      "Fishery employment - workforce engaged in aquaculture, capture fishing, and fishery processing",
+      "Aquatic product trade - imports and exports of fish, seafood, and processed aquatic products",
+      "Aquaculture area - total area of aquaculture ponds, cages, and coastal farming facilities",
+      "Fishery policy announcements - fishing moratorium periods, quota allocations, and stock conservation measures"
+    ],
+    "zh": [
+      "中国渔业统计年鉴 - 全国渔业产量、养殖和捕捞生产的综合年度数据",
+      "水产养殖产量统计 - 按鱼、虾、蟹、贝、藻类等分类的总产量",
+      "海洋捕捞渔业 - 按海区和主要经济鱼类分类的近海和沿海捕捞数据",
+      "内陆渔业数据 - 淡水湖泊、河流和水库的渔业产量统计",
+      "渔船登记 - 按类型、大小和沿海省份分类的注册渔船数量",
+      "渔业从业人员 - 从事水产养殖、捕捞和水产品加工的劳动力数据",
+      "水产品贸易 - 鱼类、海鲜和水产品加工品的进出口数据",
+      "养殖面积 - 养殖池塘、网箱和沿海养殖设施的总面积",
+      "渔业政策公告 - 伏季休渔期、捕捞配额分配和渔业资源养护措施"
+    ]
+  }
+}

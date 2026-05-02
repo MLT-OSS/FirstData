@@ -1,0 +1,63 @@
+{
+  "id": "china-film-admin",
+  "name": {
+    "en": "National Film Administration of China",
+    "zh": "国家电影局"
+  },
+  "description": {
+    "en": "The National Film Administration (NFA, 国家电影局) is the Chinese government agency under the Central Propaganda Department responsible for supervising and managing the country's film industry. It regulates film production, distribution, exhibition, and import/export, while publishing authoritative statistics on China's box office performance, cinema screen counts, film production output, and audience attendance. China is the world's second-largest film market, with annual box office revenues exceeding 40 billion yuan. The NFA releases monthly and annual box office data through its official channels, making it the primary source for tracking China's cinema industry trends, blockbuster performance, domestic vs. imported film market share, and national cinema infrastructure expansion.",
+    "zh": "国家电影局是中央宣传部主管的政府机构，负责对电影业进行监督管理。主要职能包括电影制作、发行、放映、进出口的监管，并发布权威的票房统计、银幕数量、电影产量及观影人次数据。中国是全球第二大电影市场，年票房规模超过400亿元。国家电影局通过官方渠道发布月度和年度票房数据，是追踪中国院线产业趋势、国产与进口影片市场占比及全国影院基础设施建设情况的首要数据来源。"
+  },
+  "website": "https://www.chinafilm.gov.cn",
+  "data_url": "https://www.chinafilm.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "culture",
+    "media",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "国家电影局",
+    "nfa",
+    "电影票房",
+    "box-office",
+    "院线数据",
+    "cinema-statistics",
+    "银幕数量",
+    "screen-count",
+    "电影产业",
+    "film-industry",
+    "国产电影",
+    "domestic-film",
+    "进口影片",
+    "imported-film",
+    "观影人次",
+    "admissions"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly and annual box office revenue - total national box office receipts, including domestic and imported film performance",
+      "Cinema screen count - nationwide number of screens, cinema locations, and digital projection equipment",
+      "Film production output - annual number of films approved for production, completed productions, and genre breakdowns",
+      "Import quota and performance - approved foreign film titles, release dates, and box office contribution of imported films",
+      "Audience attendance statistics - annual admissions data and per-capita attendance trends",
+      "Market share analysis - domestic vs. imported film revenue shares and top-grossing titles",
+      "Cinema infrastructure expansion - new cinema openings and regional distribution of exhibition venues",
+      "Annual China Film Industry Report - comprehensive review of market size, key titles, and policy developments"
+    ],
+    "zh": [
+      "月度和年度票房数据 - 全国总票房及国产与进口影片的分项数据",
+      "院线银幕数量 - 全国银幕总数、影院数量及数字放映设备情况",
+      "电影产量 - 年度获批立项影片数量、完成产量及题材类型分布",
+      "进口影片配额与票房 - 批准上映的境外影片名单、上映日期及票房贡献",
+      "观影人次统计 - 年度观影人次及人均观影次数趋势",
+      "市场份额分析 - 国产与进口影片票房占比及年度票房冠军",
+      "院线基础设施扩张 - 新开影院数量及影院区域分布情况",
+      "中国电影产业年度报告 - 市场规模、重点影片及政策进展综合分析"
+    ]
+  }
+}

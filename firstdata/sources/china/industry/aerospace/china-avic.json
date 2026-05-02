@@ -1,0 +1,66 @@
+{
+  "id": "china-avic",
+  "name": {
+    "en": "Aviation Industry Corporation of China (AVIC)",
+    "zh": "中国航空工业集团有限公司"
+  },
+  "description": {
+    "en": "The Aviation Industry Corporation of China (AVIC, 中国航空工业集团) is a central state-owned enterprise under the State Council and China's primary aerospace and defense conglomerate. AVIC is responsible for the research, development, and manufacturing of military and civil aviation products, including fighter jets, helicopters, transport aircraft, aero-engines, avionics systems, and aerospace components. As one of the world's largest aviation companies by revenue, AVIC encompasses over 100 subsidiary enterprises and research institutes, with more than 400,000 employees. AVIC and its listed subsidiaries publish annual reports, operational data on aviation manufacturing output, delivery volumes of civil and military aircraft, and technology development disclosures. The group's data provides critical insights into China's aviation industrial capacity, defense manufacturing trends, and the development of China's domestic commercial aviation supply chain.",
+    "zh": "中国航空工业集团有限公司（航空工业）是国务院直属的中央国有企业，是中国航空和国防工业的主体。主要承担军民用航空产品的研发和制造，包括战斗机、直升机、运输机、航空发动机、航空电子系统和航空零部件。作为全球营收规模最大的航空企业之一，航空工业拥有100余家成员企业和科研院所，员工逾40万人。航空工业集团及其上市子公司发布年度报告、航空制造产量运营数据、军民机交付数量及技术研发披露，为了解中国航空工业能力、国防制造趋势和国产民用航空供应链发展提供重要参考。"
+  },
+  "website": "https://www.avic.com",
+  "data_url": "https://www.avic.com",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "aerospace",
+    "defense",
+    "manufacturing",
+    "economics"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "avic",
+    "航空工业",
+    "航空制造",
+    "aviation-manufacturing",
+    "军用飞机",
+    "military-aircraft",
+    "民用飞机",
+    "civil-aircraft",
+    "航空发动机",
+    "aero-engine",
+    "国防工业",
+    "defense-industry",
+    "央企",
+    "central-soe",
+    "直升机",
+    "helicopter",
+    "航电系统",
+    "avionics"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports - consolidated financial statements, revenue, profit, and operating highlights for AVIC Group",
+      "Aircraft manufacturing output - production volumes and delivery records for military fighters, trainers, transport aircraft, and helicopters",
+      "Civil aviation supply chain data - components and systems supplied to domestic and international civil aviation OEMs",
+      "Listed subsidiary disclosures - financial and operational data from AVIC subsidiaries listed on Shanghai and Shenzhen stock exchanges",
+      "R&D investment and technology milestones - annual R&D expenditure, patent registrations, and major technical achievements",
+      "Workforce statistics - total employees, engineering and technical staff, and education-level breakdown",
+      "Export and international cooperation - foreign military sales, international joint ventures, and overseas delivery data",
+      "Subsidiary enterprise profiles - business scope, production capacity, and key products of major member companies"
+    ],
+    "zh": [
+      "年度报告 - 航空工业集团的合并财务报表、营业收入、利润及运营要点",
+      "飞机制造产量 - 军用战斗机、教练机、运输机和直升机的生产数量和交付记录",
+      "民用航空供应链数据 - 向国内外民用航空整机制造商提供的零部件和系统数据",
+      "上市子公司披露 - 在沪深两市上市的航空工业成员企业的财务和运营数据",
+      "研发投入和技术里程碑 - 年度研发支出、专利申请数量和重大技术成就",
+      "劳动力统计 - 员工总数、工程技术人员及学历层次分布",
+      "出口和国际合作 - 对外军售、国际合资合作及境外交付数据",
+      "成员企业概况 - 主要成员单位的业务范围、生产能力和拳头产品"
+    ]
+  }
+}
