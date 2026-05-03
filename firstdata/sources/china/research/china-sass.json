@@ -1,0 +1,69 @@
+{
+  "id": "china-sass",
+  "name": {
+    "en": "Shanghai Academy of Social Sciences",
+    "zh": "上海社会科学院"
+  },
+  "description": {
+    "en": "The Shanghai Academy of Social Sciences (SASS) is one of China's premier comprehensive research institutions in philosophy and social sciences, and among the oldest and most influential provincial-level academies. Founded in 1958, SASS operates over 15 research institutes covering economics, world economy, finance and development, urban and demographic studies, sociology, law, history, international relations, literature, philosophy, and religious studies. As a leading think tank focused on China's international gateway city, SASS produces the influential Shanghai Urban Development Report, Shanghai International Financial Center Index, Yangtze River Delta Integration reports, and annual World Economy Yellow Book. SASS research directly informs municipal and national policymaking on megacity governance, economic opening-up, and Yangtze River Delta regional integration.",
+    "zh": "上海社会科学院（SASS）是中国首屈一指的哲学社会科学综合性研究机构之一，是历史最悠久、影响力最大的省级社会科学院之一，成立于1958年。上海社科院设有15个以上研究所，覆盖经济学、世界经济、金融与发展、城市与人口研究、社会学、法学、历史学、国际关系、文学、哲学和宗教研究等领域。作为聚焦中国国际门户城市的领先智库，上海社科院发布具有影响力的《上海城市发展报告》《上海国际金融中心指数》《长三角一体化报告》和年度《世界经济黄皮书》。研究成果直接服务于上海市和国家在超大城市治理、经济开放和长三角区域一体化方面的决策。"
+  },
+  "website": "https://www.sass.org.cn",
+  "data_url": "https://www.sass.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "social",
+    "economics",
+    "urban-studies",
+    "international-relations",
+    "finance",
+    "regional-development"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "上海社会科学院",
+    "sass",
+    "shanghai-academy-of-social-sciences",
+    "社科院",
+    "academy-of-social-sciences",
+    "智库",
+    "think-tank",
+    "世界经济",
+    "world-economy",
+    "城市发展",
+    "urban-development",
+    "长三角",
+    "yangtze-river-delta",
+    "国际金融中心",
+    "international-financial-center",
+    "蓝皮书",
+    "bluebook",
+    "黄皮书",
+    "yellowbook",
+    "上海研究",
+    "shanghai-studies"
+  ],
+  "data_content": {
+    "en": [
+      "Shanghai Urban Development Report: annual bluebook analyzing Shanghai's economic growth, demographic change, social governance, and global city indicators",
+      "World Economy Yellow Book: annual forecasts and analyses of global economic trends, trade dynamics, and major economies' macroeconomic performance",
+      "International Financial Center Index: proprietary ranking and evaluation of Shanghai and other global financial centers with financial market data",
+      "Yangtze River Delta integration reports: regional economic, transportation, innovation, and environmental integration assessments for the YRD megaregion",
+      "Urban and demographic studies: research on megacity population aging, migration, urbanization patterns, and housing affordability",
+      "Economic research papers: working papers and monographs on macroeconomic policy, industrial upgrading, and opening-up strategy",
+      "International relations analyses: studies on China-US relations, BRI research, and comparative regional studies"
+    ],
+    "zh": [
+      "《上海城市发展报告》：年度蓝皮书，分析上海经济增长、人口变化、社会治理和全球城市指标",
+      "《世界经济黄皮书》：全球经济趋势、贸易动态和主要经济体宏观经济表现的年度预测和分析",
+      "国际金融中心指数：上海及其他全球金融中心的专属排名和评估，含金融市场数据",
+      "长三角一体化报告：长三角都市圈区域经济、交通、创新和环境一体化评估",
+      "城市与人口研究：超大城市人口老龄化、迁移、城镇化模式和住房可负担性研究",
+      "经济研究论文：宏观经济政策、产业升级和开放战略的工作论文与专著",
+      "国际关系分析：中美关系、一带一路研究和比较区域研究"
+    ]
+  }
+}

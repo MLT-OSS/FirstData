@@ -1,0 +1,68 @@
+{
+  "id": "china-drcnet",
+  "name": {
+    "en": "DRCNET - Development Research Center Network",
+    "zh": "国研网"
+  },
+  "description": {
+    "en": "DRCNET (Development Research Center Network, 国研网) is an authoritative economic research and data service platform operated by the Development Research Center of the State Council (DRC), China's premier government economic policy research institution. Launched in 1998, DRCNET provides comprehensive coverage of China's macroeconomic policy research, statistical databases, industry analyses, regional economic studies, and international comparative data. The platform hosts an extensive repository of DRC research reports, policy briefs, and analytical products that directly inform State Council decision-making. Subscribers include government agencies, financial institutions, universities, and multinational corporations who rely on DRCNET for authoritative Chinese economic policy intelligence, industry statistics, legal and regulatory databases, and cross-country comparison data.",
+    "zh": "国研网（DRCNET）是由国务院发展研究中心（DRC，中国首屈一指的政府经济政策研究机构）运营的权威经济研究和数据服务平台，创办于1998年。国研网全面覆盖中国宏观经济政策研究、统计数据库、行业分析、区域经济研究和国际比较数据，是国务院发展研究中心研究报告、政策简报和分析产品的庞大资料库，直接服务国务院决策。订阅用户包括政府机构、金融机构、高校和跨国公司，依赖国研网获取权威的中国经济政策情报、行业统计、法律法规数据库和跨国比较数据。"
+  },
+  "website": "https://www.drcnet.com.cn",
+  "data_url": "https://www.drcnet.com.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "macroeconomics",
+    "economic-policy",
+    "industry-analysis",
+    "regional-development",
+    "policy-research",
+    "statistics"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "国研网",
+    "drcnet",
+    "development-research-center-network",
+    "国务院发展研究中心",
+    "drc",
+    "development-research-center",
+    "宏观经济",
+    "macroeconomics",
+    "经济政策",
+    "economic-policy",
+    "行业分析",
+    "industry-analysis",
+    "区域经济",
+    "regional-economy",
+    "政策研究",
+    "policy-research",
+    "智库",
+    "think-tank",
+    "统计数据",
+    "statistical-data"
+  ],
+  "data_content": {
+    "en": [
+      "DRC research reports: full-text repository of policy research reports, working papers, and analytical briefs produced by DRC's research institutes covering economic forecasting, industrial policy, and institutional reform",
+      "Macroeconomic databases: time-series data on GDP, fixed asset investment, consumption, trade, inflation, and fiscal-monetary indicators at national and provincial levels",
+      "Industry statistics: vertical industry databases covering automotive, energy, finance, real estate, telecom, agriculture, and manufacturing with production, sales, and pricing data",
+      "Regional economic data: province-level and city-level economic indicators, industrial structure analyses, and regional comparison reports",
+      "Legal and regulatory database: Chinese laws, regulations, and policy documents organized by topic with full-text search and historical versions",
+      "Industry research reports: analyst-produced deep-dive reports on key industries, competitive landscapes, and market trends",
+      "International comparative data: cross-country economic indicators for benchmarking China against OECD countries and emerging markets"
+    ],
+    "zh": [
+      "国研报告：国务院发展研究中心各研究所出品的政策研究报告、工作论文和分析简报全文库，涵盖经济预测、产业政策和体制改革",
+      "宏观经济数据库：国家和省级GDP、固定资产投资、消费、贸易、通胀、财政货币指标的时间序列数据",
+      "行业统计：汽车、能源、金融、房地产、电信、农业、制造业等纵向行业数据库，含生产、销售、价格数据",
+      "区域经济数据：省级和市级经济指标、产业结构分析和区域比较报告",
+      "法律法规数据库：按主题组织的中国法律、法规和政策文件全文检索，含历史版本",
+      "行业研究报告：分析师对重点行业、竞争格局和市场趋势的深度研究报告",
+      "国际比较数据：对标OECD国家和新兴市场的跨国经济指标"
+    ]
+  }
+}

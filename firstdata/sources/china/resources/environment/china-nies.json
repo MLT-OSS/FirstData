@@ -1,0 +1,69 @@
+{
+  "id": "china-nies",
+  "name": {
+    "en": "Nanjing Institute of Environmental Sciences, MEE",
+    "zh": "生态环境部南京环境科学研究所"
+  },
+  "description": {
+    "en": "The Nanjing Institute of Environmental Sciences (NIES) is a national-level environmental research institute directly affiliated with China's Ministry of Ecology and Environment (MEE). Founded in 1978, NIES is one of China's most comprehensive environmental research institutions, focusing on biodiversity conservation, rural environmental protection, soil pollution prevention and remediation, chemical safety management, hazardous waste management, ecological environment planning, and international environmental treaty implementation. NIES is the designated national technical support center for biodiversity monitoring, the Stockholm Convention on Persistent Organic Pollutants (POPs), the Basel Convention on hazardous waste, and the National Nature Reserve Management Bureau. The institute publishes authoritative environmental monitoring reports, biodiversity baseline surveys, and rural environmental assessments that inform China's ecological civilization construction policies.",
+    "zh": "生态环境部南京环境科学研究所（NIES）是生态环境部直属的国家级环境研究机构，成立于1978年，是中国最综合性的环境研究机构之一，重点研究生物多样性保护、农村环境保护、土壤污染防治与修复、化学品安全管理、危险废物管理、生态环境规划和国际环境公约履约等领域。南京所是生物多样性监测、《斯德哥尔摩公约》持久性有机污染物（POPs）、《巴塞尔公约》危险废物管理和国家自然保护区管理局的指定国家级技术支持中心。研究所发布权威的环境监测报告、生物多样性本底调查和农村环境评估，直接服务于中国生态文明建设政策。"
+  },
+  "website": "https://www.nies.org",
+  "data_url": "https://www.nies.org",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "biodiversity",
+    "soil-pollution",
+    "rural-environment",
+    "chemical-safety",
+    "hazardous-waste"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "南京环境科学研究所",
+    "nies",
+    "nanjing-institute-of-environmental-sciences",
+    "生态环境部",
+    "mee",
+    "ministry-of-ecology-and-environment",
+    "生物多样性",
+    "biodiversity",
+    "农村环境",
+    "rural-environment",
+    "土壤污染",
+    "soil-pollution",
+    "化学品管理",
+    "chemicals-management",
+    "危险废物",
+    "hazardous-waste",
+    "pops",
+    "持久性有机污染物",
+    "persistent-organic-pollutants",
+    "自然保护区",
+    "nature-reserves"
+  ],
+  "data_content": {
+    "en": [
+      "Biodiversity baseline survey data: national and provincial surveys of species distribution, habitat conditions, and ecosystem health in key protected areas",
+      "Rural environmental monitoring reports: assessments of agricultural non-point source pollution, rural drinking water quality, and village sanitation",
+      "Soil pollution investigation data: site-specific soil contamination surveys and remediation technology evaluations for agricultural and industrial land",
+      "Chemical risk assessment reports: hazard and exposure assessments of new and existing chemicals under China's chemical management regulations",
+      "POPs monitoring and inventory: national monitoring data for persistent organic pollutants under Stockholm Convention implementation",
+      "Hazardous waste management studies: technical reports on transboundary movement, inventory, and treatment of hazardous waste per Basel Convention",
+      "Nature reserve management assessments: effectiveness evaluations and biodiversity status reports for national nature reserves"
+    ],
+    "zh": [
+      "生物多样性本底调查数据：重点保护区物种分布、生境状况和生态系统健康的国家和省级调查",
+      "农村环境监测报告：农业面源污染、农村饮用水质量和村镇环境卫生评估",
+      "土壤污染调查数据：农用地和工业用地场地特异性土壤污染调查及修复技术评估",
+      "化学品风险评估报告：中国化学品管理条例下新化学物质和现有化学物质的危害和暴露评估",
+      "持久性有机污染物（POPs）监测和清单：《斯德哥尔摩公约》履约的国家POPs监测数据",
+      "危险废物管理研究：《巴塞尔公约》下危险废物越境转移、清单和处置的技术报告",
+      "自然保护区管理评估：国家级自然保护区的管护成效评估和生物多样性状况报告"
+    ]
+  }
+}

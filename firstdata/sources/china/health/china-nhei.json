@@ -1,0 +1,68 @@
+{
+  "id": "china-nhei",
+  "name": {
+    "en": "China National Health Development Research Center",
+    "zh": "国家卫生健康委卫生发展研究中心"
+  },
+  "description": {
+    "en": "The China National Health Development Research Center (CNHDRC), formerly known as the China Health Economics Institute, is the principal policy research institution affiliated with the National Health Commission (NHC) of the People's Republic of China. Established in 1991, CNHDRC conducts evidence-based research on health policy, health economics, health system reform, health financing, primary healthcare, essential medicines, health technology assessment, and health workforce planning. The center produces the authoritative China Health Statistical Yearbook analytical companion, the National Health Accounts (NHA) report, and serves as the WHO Collaborating Centre for Health Technology Assessment and Health System Research. Its research directly informs major national health reforms including health financing reform, public hospital reform, and the Healthy China 2030 initiative.",
+    "zh": "国家卫生健康委卫生发展研究中心（中国医学科学院卫生发展研究中心），前身为中国卫生经济研究所，是国家卫生健康委员会直属的主要政策研究机构，成立于1991年。中心围绕卫生政策、卫生经济、医药卫生体制改革、卫生筹资、基层医疗、基本药物、卫生技术评估和卫生人力规划等领域开展循证研究，发布权威的《中国卫生统计年鉴》分析配套报告和《中国卫生总费用核算报告》，同时是WHO卫生技术评估与卫生体系研究合作中心。研究成果直接服务于国家重大卫生改革，包括卫生筹资改革、公立医院改革和健康中国2030战略。"
+  },
+  "website": "https://www.nhei.cn",
+  "data_url": "https://www.nhei.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health-policy",
+    "health-economics",
+    "healthcare",
+    "public-health",
+    "health-financing",
+    "health-systems"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "卫生发展研究中心",
+    "nhei",
+    "cnhdrc",
+    "national-health-development-research-center",
+    "卫生经济",
+    "health-economics",
+    "卫生政策",
+    "health-policy",
+    "医改",
+    "health-reform",
+    "卫生总费用",
+    "national-health-accounts",
+    "基本医疗",
+    "essential-healthcare",
+    "公立医院",
+    "public-hospital",
+    "健康中国2030",
+    "healthy-china-2030",
+    "who合作中心",
+    "who-collaborating-centre"
+  ],
+  "data_content": {
+    "en": [
+      "China National Health Accounts (NHA) reports: authoritative annual estimates of total health expenditure by source of funds, provider, and function at national and provincial levels",
+      "Health system research reports: policy evaluations of public hospital reform, primary healthcare strengthening, and essential medicine system",
+      "Health technology assessment (HTA) reports: systematic evidence-based evaluation of medical technologies, drugs, and interventions for reimbursement decisions",
+      "Health workforce planning studies: analysis of physician density, nurse distribution, and rural health workforce across Chinese provinces",
+      "Health financing research: cost-sharing analyses, catastrophic health expenditure rates, and health insurance benefit package evaluations",
+      "International comparison studies: comparative analyses benchmarking China's health system against OECD and BRICS countries",
+      "Healthy China 2030 monitoring: indicators and progress reports on the national health strategy implementation"
+    ],
+    "zh": [
+      "中国卫生总费用核算报告：从筹资来源、服务提供方和功能三个维度对国家和省级卫生总费用的权威年度估算",
+      "卫生体系研究报告：公立医院改革、基层医疗强化和基本药物制度的政策评估",
+      "卫生技术评估（HTA）报告：医疗技术、药品和干预措施的系统循证评估，用于医保报销决策",
+      "卫生人力规划研究：各省医师密度、护士分布和农村卫生人力分析",
+      "卫生筹资研究：费用分担分析、灾难性卫生支出比率和医保保障范围评估",
+      "国际比较研究：中国卫生体系与OECD和金砖国家对标的比较分析",
+      "健康中国2030监测：国家健康战略实施指标和进展报告"
+    ]
+  }
+}
