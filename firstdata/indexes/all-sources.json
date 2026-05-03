@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T06:34:57.740939+00:00",
-    "total_sources": 658,
+    "generated_at": "2026-05-03T06:43:27.923069+00:00",
+    "total_sources": 663,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -5410,6 +5410,143 @@
       },
       "has_api": false,
       "file_path": "china/economy/macro/china-cei.json"
+    },
+    {
+      "id": "china-drcnet",
+      "name": {
+        "en": "DRCNET - Development Research Center Network",
+        "zh": "国研网"
+      },
+      "description": {
+        "en": "DRCNET (Development Research Center Network, 国研网) is an authoritative economic research and data service platform operated by the Development Research Center of the State Council (DRC), China's premier government economic policy research institution. Launched in 1998, DRCNET provides comprehensive coverage of China's macroeconomic policy research, statistical databases, industry analyses, regional economic studies, and international comparative data. The platform hosts an extensive repository of DRC research reports, policy briefs, and analytical products that directly inform State Council decision-making. Subscribers include government agencies, financial institutions, universities, and multinational corporations who rely on DRCNET for authoritative Chinese economic policy intelligence, industry statistics, legal and regulatory databases, and cross-country comparison data.",
+        "zh": "国研网（DRCNET）是由国务院发展研究中心（DRC，中国首屈一指的政府经济政策研究机构）运营的权威经济研究和数据服务平台，创办于1998年。国研网全面覆盖中国宏观经济政策研究、统计数据库、行业分析、区域经济研究和国际比较数据，是国务院发展研究中心研究报告、政策简报和分析产品的庞大资料库，直接服务国务院决策。订阅用户包括政府机构、金融机构、高校和跨国公司，依赖国研网获取权威的中国经济政策情报、行业统计、法律法规数据库和跨国比较数据。"
+      },
+      "website": "https://www.drcnet.com.cn",
+      "data_url": "https://www.drcnet.com.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "macroeconomics",
+        "economic-policy",
+        "industry-analysis",
+        "regional-development",
+        "policy-research",
+        "statistics"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "国研网",
+        "drcnet",
+        "development-research-center-network",
+        "国务院发展研究中心",
+        "drc",
+        "development-research-center",
+        "宏观经济",
+        "macroeconomics",
+        "经济政策",
+        "economic-policy",
+        "行业分析",
+        "industry-analysis",
+        "区域经济",
+        "regional-economy",
+        "政策研究",
+        "policy-research",
+        "智库",
+        "think-tank",
+        "统计数据",
+        "statistical-data"
+      ],
+      "data_content": {
+        "en": [
+          "DRC research reports: full-text repository of policy research reports, working papers, and analytical briefs produced by DRC's research institutes covering economic forecasting, industrial policy, and institutional reform",
+          "Macroeconomic databases: time-series data on GDP, fixed asset investment, consumption, trade, inflation, and fiscal-monetary indicators at national and provincial levels",
+          "Industry statistics: vertical industry databases covering automotive, energy, finance, real estate, telecom, agriculture, and manufacturing with production, sales, and pricing data",
+          "Regional economic data: province-level and city-level economic indicators, industrial structure analyses, and regional comparison reports",
+          "Legal and regulatory database: Chinese laws, regulations, and policy documents organized by topic with full-text search and historical versions",
+          "Industry research reports: analyst-produced deep-dive reports on key industries, competitive landscapes, and market trends",
+          "International comparative data: cross-country economic indicators for benchmarking China against OECD countries and emerging markets"
+        ],
+        "zh": [
+          "国研报告：国务院发展研究中心各研究所出品的政策研究报告、工作论文和分析简报全文库，涵盖经济预测、产业政策和体制改革",
+          "宏观经济数据库：国家和省级GDP、固定资产投资、消费、贸易、通胀、财政货币指标的时间序列数据",
+          "行业统计：汽车、能源、金融、房地产、电信、农业、制造业等纵向行业数据库，含生产、销售、价格数据",
+          "区域经济数据：省级和市级经济指标、产业结构分析和区域比较报告",
+          "法律法规数据库：按主题组织的中国法律、法规和政策文件全文检索，含历史版本",
+          "行业研究报告：分析师对重点行业、竞争格局和市场趋势的深度研究报告",
+          "国际比较数据：对标OECD国家和新兴市场的跨国经济指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-drcnet.json"
+    },
+    {
+      "id": "china-iprcc",
+      "name": {
+        "en": "International Poverty Reduction Center in China",
+        "zh": "中国国际减贫中心"
+      },
+      "description": {
+        "en": "The International Poverty Reduction Center in China (IPRCC) is an international organization jointly initiated, funded and established by the Government of the People's Republic of China and the United Nations Development Programme (UNDP) along with other international organizations. Established in 2005 and housed under the State Council Leading Group Office of Poverty Alleviation and Development, IPRCC conducts research and knowledge exchange on poverty reduction theory, policy innovation, and South-South cooperation. IPRCC publishes authoritative poverty reduction reports, rural development research, and case studies documenting China's poverty alleviation experience—widely referenced by multilateral development agencies, policy researchers, and governments seeking to replicate China's anti-poverty successes. The center also maintains databases on international poverty indicators, training programs, and bilateral poverty reduction cooperation projects across Asia, Africa and Latin America.",
+        "zh": "中国国际减贫中心（IPRCC）是中华人民共和国政府与联合国开发计划署等国际组织共同发起、资助并组建的国际机构，成立于2005年，挂靠国务院扶贫开发领导小组办公室。中心以创新扶贫理论、促进政策转换、增强国际互动、推动南南合作为宗旨，开展减贫研究和知识交流，发布权威减贫报告、乡村发展研究和中国扶贫经验案例，被多边发展机构、政策研究者和致力于复制中国反贫困经验的各国政府广泛引用。中心还维护国际贫困指标、培训项目和亚非拉各国双边减贫合作项目的数据库。"
+      },
+      "website": "https://www.iprcc.org.cn",
+      "data_url": "https://www.iprcc.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "poverty-reduction",
+        "rural-development",
+        "development",
+        "international-cooperation",
+        "social-policy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国国际减贫中心",
+        "iprcc",
+        "international-poverty-reduction-center",
+        "减贫",
+        "poverty-reduction",
+        "扶贫",
+        "poverty-alleviation",
+        "脱贫",
+        "poverty-eradication",
+        "乡村振兴",
+        "rural-revitalization",
+        "南南合作",
+        "south-south-cooperation",
+        "国务院扶贫办",
+        "leading-group-on-poverty-alleviation",
+        "减贫案例",
+        "poverty-case-studies",
+        "undp"
+      ],
+      "data_content": {
+        "en": [
+          "Poverty reduction reports: flagship publications documenting China's poverty alleviation progress, methodology, and lessons learned since reform and opening-up",
+          "Rural development case studies: detailed village-level and county-level case studies of successful poverty reduction programs across China's provinces",
+          "South-South cooperation project data: records of IPRCC training programs, bilateral technical cooperation, and knowledge exchange with Asian, African, and Latin American countries",
+          "International poverty indicators: comparative statistics on multidimensional poverty, rural income, and human development across developing countries",
+          "Policy research papers: analytical papers on targeted poverty alleviation (精准扶贫), industrial poverty alleviation, relocation-based poverty alleviation, and post-2020 rural revitalization strategy",
+          "Training program records: participant data and curriculum materials for international poverty reduction training seminars hosted by IPRCC",
+          "Conference proceedings: output from the annual Global Poverty Reduction and Development Forum and related international events"
+        ],
+        "zh": [
+          "减贫报告：记录改革开放以来中国扶贫进程、方法论和经验教训的旗舰出版物",
+          "乡村发展案例：中国各省成功扶贫项目的村级和县级详细案例研究",
+          "南南合作项目数据：IPRCC培训项目、双边技术合作及与亚非拉国家知识交流记录",
+          "国际贫困指标：发展中国家多维贫困、农村收入和人类发展的比较统计",
+          "政策研究论文：精准扶贫、产业扶贫、易地搬迁扶贫及2020年后乡村振兴战略的分析论文",
+          "培训项目记录：IPRCC主办的国际减贫培训研讨会参与者数据和课程材料",
+          "会议成果：年度全球减贫与发展论坛及相关国际活动的成果输出"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-iprcc.json"
     },
     {
       "id": "china-ndrc-computing",
@@ -16898,6 +17035,76 @@
       "file_path": "china/health/china-nhc.json"
     },
     {
+      "id": "china-nhei",
+      "name": {
+        "en": "China National Health Development Research Center",
+        "zh": "国家卫生健康委卫生发展研究中心"
+      },
+      "description": {
+        "en": "The China National Health Development Research Center (CNHDRC), formerly known as the China Health Economics Institute, is the principal policy research institution affiliated with the National Health Commission (NHC) of the People's Republic of China. Established in 1991, CNHDRC conducts evidence-based research on health policy, health economics, health system reform, health financing, primary healthcare, essential medicines, health technology assessment, and health workforce planning. The center produces the authoritative China Health Statistical Yearbook analytical companion, the National Health Accounts (NHA) report, and serves as the WHO Collaborating Centre for Health Technology Assessment and Health System Research. Its research directly informs major national health reforms including health financing reform, public hospital reform, and the Healthy China 2030 initiative.",
+        "zh": "国家卫生健康委卫生发展研究中心（中国医学科学院卫生发展研究中心），前身为中国卫生经济研究所，是国家卫生健康委员会直属的主要政策研究机构，成立于1991年。中心围绕卫生政策、卫生经济、医药卫生体制改革、卫生筹资、基层医疗、基本药物、卫生技术评估和卫生人力规划等领域开展循证研究，发布权威的《中国卫生统计年鉴》分析配套报告和《中国卫生总费用核算报告》，同时是WHO卫生技术评估与卫生体系研究合作中心。研究成果直接服务于国家重大卫生改革，包括卫生筹资改革、公立医院改革和健康中国2030战略。"
+      },
+      "website": "https://www.nhei.cn",
+      "data_url": "https://www.nhei.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health-policy",
+        "health-economics",
+        "healthcare",
+        "public-health",
+        "health-financing",
+        "health-systems"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "卫生发展研究中心",
+        "nhei",
+        "cnhdrc",
+        "national-health-development-research-center",
+        "卫生经济",
+        "health-economics",
+        "卫生政策",
+        "health-policy",
+        "医改",
+        "health-reform",
+        "卫生总费用",
+        "national-health-accounts",
+        "基本医疗",
+        "essential-healthcare",
+        "公立医院",
+        "public-hospital",
+        "健康中国2030",
+        "healthy-china-2030",
+        "who合作中心",
+        "who-collaborating-centre"
+      ],
+      "data_content": {
+        "en": [
+          "China National Health Accounts (NHA) reports: authoritative annual estimates of total health expenditure by source of funds, provider, and function at national and provincial levels",
+          "Health system research reports: policy evaluations of public hospital reform, primary healthcare strengthening, and essential medicine system",
+          "Health technology assessment (HTA) reports: systematic evidence-based evaluation of medical technologies, drugs, and interventions for reimbursement decisions",
+          "Health workforce planning studies: analysis of physician density, nurse distribution, and rural health workforce across Chinese provinces",
+          "Health financing research: cost-sharing analyses, catastrophic health expenditure rates, and health insurance benefit package evaluations",
+          "International comparison studies: comparative analyses benchmarking China's health system against OECD and BRICS countries",
+          "Healthy China 2030 monitoring: indicators and progress reports on the national health strategy implementation"
+        ],
+        "zh": [
+          "中国卫生总费用核算报告：从筹资来源、服务提供方和功能三个维度对国家和省级卫生总费用的权威年度估算",
+          "卫生体系研究报告：公立医院改革、基层医疗强化和基本药物制度的政策评估",
+          "卫生技术评估（HTA）报告：医疗技术、药品和干预措施的系统循证评估，用于医保报销决策",
+          "卫生人力规划研究：各省医师密度、护士分布和农村卫生人力分析",
+          "卫生筹资研究：费用分担分析、灾难性卫生支出比率和医保保障范围评估",
+          "国际比较研究：中国卫生体系与OECD和金砖国家对标的比较分析",
+          "健康中国2030监测：国家健康战略实施指标和进展报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-nhei.json"
+    },
+    {
       "id": "china-nhsa",
       "name": {
         "en": "National Healthcare Security Administration of China",
@@ -22594,6 +22801,77 @@
       "file_path": "china/research/china-resdc.json"
     },
     {
+      "id": "china-sass",
+      "name": {
+        "en": "Shanghai Academy of Social Sciences",
+        "zh": "上海社会科学院"
+      },
+      "description": {
+        "en": "The Shanghai Academy of Social Sciences (SASS) is one of China's premier comprehensive research institutions in philosophy and social sciences, and among the oldest and most influential provincial-level academies. Founded in 1958, SASS operates over 15 research institutes covering economics, world economy, finance and development, urban and demographic studies, sociology, law, history, international relations, literature, philosophy, and religious studies. As a leading think tank focused on China's international gateway city, SASS produces the influential Shanghai Urban Development Report, Shanghai International Financial Center Index, Yangtze River Delta Integration reports, and annual World Economy Yellow Book. SASS research directly informs municipal and national policymaking on megacity governance, economic opening-up, and Yangtze River Delta regional integration.",
+        "zh": "上海社会科学院（SASS）是中国首屈一指的哲学社会科学综合性研究机构之一，是历史最悠久、影响力最大的省级社会科学院之一，成立于1958年。上海社科院设有15个以上研究所，覆盖经济学、世界经济、金融与发展、城市与人口研究、社会学、法学、历史学、国际关系、文学、哲学和宗教研究等领域。作为聚焦中国国际门户城市的领先智库，上海社科院发布具有影响力的《上海城市发展报告》《上海国际金融中心指数》《长三角一体化报告》和年度《世界经济黄皮书》。研究成果直接服务于上海市和国家在超大城市治理、经济开放和长三角区域一体化方面的决策。"
+      },
+      "website": "https://www.sass.org.cn",
+      "data_url": "https://www.sass.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "social",
+        "economics",
+        "urban-studies",
+        "international-relations",
+        "finance",
+        "regional-development"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "上海社会科学院",
+        "sass",
+        "shanghai-academy-of-social-sciences",
+        "社科院",
+        "academy-of-social-sciences",
+        "智库",
+        "think-tank",
+        "世界经济",
+        "world-economy",
+        "城市发展",
+        "urban-development",
+        "长三角",
+        "yangtze-river-delta",
+        "国际金融中心",
+        "international-financial-center",
+        "蓝皮书",
+        "bluebook",
+        "黄皮书",
+        "yellowbook",
+        "上海研究",
+        "shanghai-studies"
+      ],
+      "data_content": {
+        "en": [
+          "Shanghai Urban Development Report: annual bluebook analyzing Shanghai's economic growth, demographic change, social governance, and global city indicators",
+          "World Economy Yellow Book: annual forecasts and analyses of global economic trends, trade dynamics, and major economies' macroeconomic performance",
+          "International Financial Center Index: proprietary ranking and evaluation of Shanghai and other global financial centers with financial market data",
+          "Yangtze River Delta integration reports: regional economic, transportation, innovation, and environmental integration assessments for the YRD megaregion",
+          "Urban and demographic studies: research on megacity population aging, migration, urbanization patterns, and housing affordability",
+          "Economic research papers: working papers and monographs on macroeconomic policy, industrial upgrading, and opening-up strategy",
+          "International relations analyses: studies on China-US relations, BRI research, and comparative regional studies"
+        ],
+        "zh": [
+          "《上海城市发展报告》：年度蓝皮书，分析上海经济增长、人口变化、社会治理和全球城市指标",
+          "《世界经济黄皮书》：全球经济趋势、贸易动态和主要经济体宏观经济表现的年度预测和分析",
+          "国际金融中心指数：上海及其他全球金融中心的专属排名和评估，含金融市场数据",
+          "长三角一体化报告：长三角都市圈区域经济、交通、创新和环境一体化评估",
+          "城市与人口研究：超大城市人口老龄化、迁移、城镇化模式和住房可负担性研究",
+          "经济研究论文：宏观经济政策、产业升级和开放战略的工作论文与专著",
+          "国际关系分析：中美关系、一带一路研究和比较区域研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-sass.json"
+    },
+    {
       "id": "china-scidb",
       "name": {
         "en": "Science Data Bank (ScienceDB)",
@@ -24626,6 +24904,77 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-nesdc.json"
+    },
+    {
+      "id": "china-nies",
+      "name": {
+        "en": "Nanjing Institute of Environmental Sciences, MEE",
+        "zh": "生态环境部南京环境科学研究所"
+      },
+      "description": {
+        "en": "The Nanjing Institute of Environmental Sciences (NIES) is a national-level environmental research institute directly affiliated with China's Ministry of Ecology and Environment (MEE). Founded in 1978, NIES is one of China's most comprehensive environmental research institutions, focusing on biodiversity conservation, rural environmental protection, soil pollution prevention and remediation, chemical safety management, hazardous waste management, ecological environment planning, and international environmental treaty implementation. NIES is the designated national technical support center for biodiversity monitoring, the Stockholm Convention on Persistent Organic Pollutants (POPs), the Basel Convention on hazardous waste, and the National Nature Reserve Management Bureau. The institute publishes authoritative environmental monitoring reports, biodiversity baseline surveys, and rural environmental assessments that inform China's ecological civilization construction policies.",
+        "zh": "生态环境部南京环境科学研究所（NIES）是生态环境部直属的国家级环境研究机构，成立于1978年，是中国最综合性的环境研究机构之一，重点研究生物多样性保护、农村环境保护、土壤污染防治与修复、化学品安全管理、危险废物管理、生态环境规划和国际环境公约履约等领域。南京所是生物多样性监测、《斯德哥尔摩公约》持久性有机污染物（POPs）、《巴塞尔公约》危险废物管理和国家自然保护区管理局的指定国家级技术支持中心。研究所发布权威的环境监测报告、生物多样性本底调查和农村环境评估，直接服务于中国生态文明建设政策。"
+      },
+      "website": "https://www.nies.org",
+      "data_url": "https://www.nies.org",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "biodiversity",
+        "soil-pollution",
+        "rural-environment",
+        "chemical-safety",
+        "hazardous-waste"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "南京环境科学研究所",
+        "nies",
+        "nanjing-institute-of-environmental-sciences",
+        "生态环境部",
+        "mee",
+        "ministry-of-ecology-and-environment",
+        "生物多样性",
+        "biodiversity",
+        "农村环境",
+        "rural-environment",
+        "土壤污染",
+        "soil-pollution",
+        "化学品管理",
+        "chemicals-management",
+        "危险废物",
+        "hazardous-waste",
+        "pops",
+        "持久性有机污染物",
+        "persistent-organic-pollutants",
+        "自然保护区",
+        "nature-reserves"
+      ],
+      "data_content": {
+        "en": [
+          "Biodiversity baseline survey data: national and provincial surveys of species distribution, habitat conditions, and ecosystem health in key protected areas",
+          "Rural environmental monitoring reports: assessments of agricultural non-point source pollution, rural drinking water quality, and village sanitation",
+          "Soil pollution investigation data: site-specific soil contamination surveys and remediation technology evaluations for agricultural and industrial land",
+          "Chemical risk assessment reports: hazard and exposure assessments of new and existing chemicals under China's chemical management regulations",
+          "POPs monitoring and inventory: national monitoring data for persistent organic pollutants under Stockholm Convention implementation",
+          "Hazardous waste management studies: technical reports on transboundary movement, inventory, and treatment of hazardous waste per Basel Convention",
+          "Nature reserve management assessments: effectiveness evaluations and biodiversity status reports for national nature reserves"
+        ],
+        "zh": [
+          "生物多样性本底调查数据：重点保护区物种分布、生境状况和生态系统健康的国家和省级调查",
+          "农村环境监测报告：农业面源污染、农村饮用水质量和村镇环境卫生评估",
+          "土壤污染调查数据：农用地和工业用地场地特异性土壤污染调查及修复技术评估",
+          "化学品风险评估报告：中国化学品管理条例下新化学物质和现有化学物质的危害和暴露评估",
+          "持久性有机污染物（POPs）监测和清单：《斯德哥尔摩公约》履约的国家POPs监测数据",
+          "危险废物管理研究：《巴塞尔公约》下危险废物越境转移、清单和处置的技术报告",
+          "自然保护区管理评估：国家级自然保护区的管护成效评估和生物多样性状况报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-nies.json"
     },
     {
       "id": "china-nfga",

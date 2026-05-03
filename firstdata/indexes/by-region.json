@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T06:34:57.740939+00:00",
+    "generated_at": "2026-05-03T06:43:27.923069+00:00",
     "total_regions": 58,
-    "total_sources": 658,
+    "total_sources": 663,
     "version": "2.0"
   },
   "regions": {
@@ -925,6 +925,30 @@
         "data_url": "https://www.cei.cn/category/",
         "has_api": false,
         "file_path": "china/economy/macro/china-cei.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-iprcc",
+        "name": {
+          "en": "International Poverty Reduction Center in China",
+          "zh": "中国国际减贫中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iprcc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-iprcc.json",
         "geographic_scope": "national"
       },
       {
@@ -2884,6 +2908,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nhsa",
         "name": {
           "en": "National Healthcare Security Administration of China",
@@ -3859,6 +3895,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-scidb",
         "name": {
           "en": "Science Data Bank (ScienceDB)",
@@ -4204,6 +4252,18 @@
         "data_url": "https://www.nesdc.org.cn",
         "has_api": false,
         "file_path": "china/resources/environment/china-nesdc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
         "geographic_scope": "national"
       },
       {

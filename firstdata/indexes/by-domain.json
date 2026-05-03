@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-02T06:34:57.740939+00:00",
-    "total_domains": 716,
-    "total_sources": 658,
+    "generated_at": "2026-05-03T06:43:27.923069+00:00",
+    "total_domains": 729,
+    "total_sources": 663,
     "version": "2.0"
   },
   "domains": {
@@ -2343,6 +2343,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "cites-trade-database",
         "name": {
           "en": "CITES Trade Database",
@@ -3237,6 +3249,20 @@
         "data_url": "http://www.cpcif.org.cn/list/402882396610575f0166105924fe0000",
         "has_api": false,
         "file_path": "sectors/C-manufacturing/chemicals/china-petroleum-chemical-federation.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "chemical-safety": [
+      {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
         "geographic_scope": "national"
       }
     ],
@@ -6899,6 +6925,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-iprcc",
+        "name": {
+          "en": "International Poverty Reduction Center in China",
+          "zh": "中国国际减贫中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iprcc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-iprcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ndrc",
         "name": {
           "en": "National Development and Reform Commission",
@@ -7962,6 +8000,20 @@
         "has_api": true,
         "file_path": "sectors/K-finance-insurance/alpha-vantage.json",
         "geographic_scope": "global"
+      }
+    ],
+    "economic-policy": [
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
+        "geographic_scope": "national"
       }
     ],
     "economic-statistics": [
@@ -9695,6 +9747,18 @@
         "data_url": "https://opendata.pku.edu.cn",
         "has_api": false,
         "file_path": "china/research/china-pku-opendata.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
         "geographic_scope": "national"
       },
       {
@@ -14310,6 +14374,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nfga",
         "name": {
           "en": "National Forestry and Grassland Administration of China",
@@ -16465,6 +16541,18 @@
         "data_url": "https://iigf.cufe.edu.cn/yjcg/yjbg.htm",
         "has_api": false,
         "file_path": "china/research/china-cufe-iigf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
         "geographic_scope": "national"
       },
       {
@@ -19486,6 +19574,20 @@
         "geographic_scope": "global"
       }
     ],
+    "hazardous-waste": [
+      {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
+        "geographic_scope": "national"
+      }
+    ],
     "health": [
       {
         "id": "uk-biobank",
@@ -20370,6 +20472,20 @@
         "geographic_scope": "national"
       }
     ],
+    "health-economics": [
+      {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
+        "geographic_scope": "national"
+      }
+    ],
     "health-equity": [
       {
         "id": "us-cdc",
@@ -20396,6 +20512,32 @@
         "has_api": true,
         "file_path": "academic/health/ghdx.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "health-policy": [
+      {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
+        "geographic_scope": "national"
       }
     ],
     "health-security": [
@@ -20454,6 +20596,18 @@
         "has_api": true,
         "file_path": "academic/health/ghdx.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
+        "geographic_scope": "national"
       }
     ],
     "health-workforce": [
@@ -20506,6 +20660,18 @@
         "data_url": "https://www.cha.org.cn",
         "has_api": false,
         "file_path": "china/health/china-hospital-association.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
         "geographic_scope": "national"
       }
     ],
@@ -22510,6 +22676,20 @@
         "geographic_scope": "national"
       }
     ],
+    "industry-analysis": [
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
+        "geographic_scope": "national"
+      }
+    ],
     "industry-and-construction": [
       {
         "id": "gso-vietnam",
@@ -23750,6 +23930,20 @@
         "geographic_scope": "national"
       }
     ],
+    "international-cooperation": [
+      {
+        "id": "china-iprcc",
+        "name": {
+          "en": "International Poverty Reduction Center in China",
+          "zh": "中国国际减贫中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iprcc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-iprcc.json",
+        "geographic_scope": "national"
+      }
+    ],
     "international-development": [
       {
         "id": "usaid-ddl",
@@ -23818,6 +24012,18 @@
         "has_api": false,
         "file_path": "china/governance/china-cidca.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
+        "geographic_scope": "national"
       }
     ],
     "international-system-of-units": [
@@ -25147,6 +25353,18 @@
       }
     ],
     "macroeconomics": [
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "akshare",
         "name": {
@@ -27990,6 +28208,20 @@
         "geographic_scope": "global"
       }
     ],
+    "policy-research": [
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
+        "geographic_scope": "national"
+      }
+    ],
     "political-participation": [
       {
         "id": "afrobarometer",
@@ -28346,6 +28578,18 @@
       }
     ],
     "poverty-reduction": [
+      {
+        "id": "china-iprcc",
+        "name": {
+          "en": "International Poverty Reduction Center in China",
+          "zh": "中国国际减贫中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iprcc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-iprcc.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "caribbean-development-bank",
         "name": {
@@ -28959,6 +29203,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nhei",
+        "name": {
+          "en": "China National Health Development Research Center",
+          "zh": "国家卫生健康委卫生发展研究中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nhei.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nhei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nmpa",
         "name": {
           "en": "National Medical Products Administration of China",
@@ -29488,6 +29744,32 @@
         "has_api": false,
         "file_path": "international/economics/adb.json",
         "geographic_scope": "regional"
+      }
+    ],
+    "regional-development": [
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
+        "geographic_scope": "national"
       }
     ],
     "regional-economics": [
@@ -30335,6 +30617,34 @@
         "data_url": "https://cria.mei.net.cn/gzpt.asp?lm=/1310",
         "has_api": false,
         "file_path": "sectors/C-manufacturing/robotics/china-robot-industry-alliance.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "rural-development": [
+      {
+        "id": "china-iprcc",
+        "name": {
+          "en": "International Poverty Reduction Center in China",
+          "zh": "中国国际减贫中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iprcc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-iprcc.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "rural-environment": [
+      {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
         "geographic_scope": "national"
       }
     ],
@@ -32257,6 +32567,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ndrcc",
         "name": {
           "en": "National Disaster Reduction Center of China",
@@ -32885,6 +33207,18 @@
     ],
     "social-policy": [
       {
+        "id": "china-iprcc",
+        "name": {
+          "en": "International Poverty Reduction Center in China",
+          "zh": "中国国际减贫中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.iprcc.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-iprcc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "mexico-coneval",
         "name": {
           "en": "National Council for the Evaluation of Social Development Policy",
@@ -33080,6 +33414,20 @@
         "data_url": "https://service.most.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/sci_resources/china-most-rnd.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "soil-pollution": [
+      {
+        "id": "china-nies",
+        "name": {
+          "en": "Nanjing Institute of Environmental Sciences, MEE",
+          "zh": "生态环境部南京环境科学研究所"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.nies.org",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-nies.json",
         "geographic_scope": "national"
       }
     ],
@@ -33450,6 +33798,18 @@
         "data_url": "https://www.chinasme.org.cn/html/mcms/daohang/tongzhigonggao/index.html",
         "has_api": false,
         "file_path": "china/economy/china-miit-sme.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-drcnet",
+        "name": {
+          "en": "DRCNET - Development Research Center Network",
+          "zh": "国研网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.drcnet.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-drcnet.json",
         "geographic_scope": "national"
       },
       {
@@ -37933,6 +38293,20 @@
         "has_api": false,
         "file_path": "china/resources/china-shenzhen-pnr.json",
         "geographic_scope": "subnational"
+      }
+    ],
+    "urban-studies": [
+      {
+        "id": "china-sass",
+        "name": {
+          "en": "Shanghai Academy of Social Sciences",
+          "zh": "上海社会科学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.sass.org.cn",
+        "has_api": false,
+        "file_path": "china/research/china-sass.json",
+        "geographic_scope": "national"
       }
     ],
     "urbanization": [
