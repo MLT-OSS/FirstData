@@ -1,0 +1,53 @@
+{
+  "id": "china-ncc",
+  "name": {
+    "en": "National Climate Center of China (NCC-CMA)",
+    "zh": "国家气候中心"
+  },
+  "description": {
+    "en": "The National Climate Center (NCC) under the China Meteorological Administration (CMA) is China's authoritative research and service institution for climate monitoring, prediction, climate change assessment, and climate applications. It provides national climate bulletins, seasonal outlooks, climate change monitoring products, and historical climate data.",
+    "zh": "国家气候中心隶属于中国气象局，是中国气候监测、预测、气候变化评估与气候应用的权威研究与业务机构。提供国家气候公报、季节气候预测、气候变化监测产品及历史气候数据。"
+  },
+  "website": "https://www.ncc-cma.net",
+  "data_url": "https://cmdp.ncc-cma.net",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "domains": [
+    "climate",
+    "meteorology",
+    "environment"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "climate",
+    "气候",
+    "climate-change",
+    "气候变化",
+    "climate-monitoring",
+    "气候监测",
+    "climate-prediction",
+    "气候预测",
+    "china-climate",
+    "中国气候",
+    "NCC",
+    "CMA"
+  ],
+  "data_content": {
+    "en": [
+      "National climate bulletins and annual climate assessment reports",
+      "Seasonal and monthly climate outlook products",
+      "Climate change monitoring indicators (temperature, precipitation, extreme events)",
+      "Historical climate datasets and drought/flood records",
+      "Climate system diagnostic products (ENSO, monsoon, teleconnections)"
+    ],
+    "zh": [
+      "国家气候公报和年度气候评估报告",
+      "季节和月度气候预测产品",
+      "气候变化监测指标（气温、降水、极端事件）",
+      "历史气候数据集和旱涝灾害记录",
+      "气候系统诊断产品（ENSO、季风、遥相关）"
+    ]
+  }
+}

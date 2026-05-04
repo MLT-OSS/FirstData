@@ -1,0 +1,56 @@
+{
+  "id": "global-carbon-project",
+  "name": {
+    "en": "Global Carbon Project",
+    "zh": "全球碳项目"
+  },
+  "description": {
+    "en": "The Global Carbon Project (GCP) is an international scientific consortium that coordinates and publishes the annual Global Carbon Budget, providing the authoritative assessment of anthropogenic CO2, CH4, and N2O emissions, sinks, and atmospheric concentrations. Data products include country- and sector-level fossil fuel CO2 emissions, land-use change emissions, and ocean/land carbon sink estimates.",
+    "zh": "全球碳项目（GCP）是国际科学联盟，负责协调并发布年度《全球碳收支》报告，提供人为二氧化碳、甲烷和氧化亚氮排放、吸收汇及大气浓度的权威评估。数据产品包括国家与行业级化石燃料二氧化碳排放、土地利用变化排放以及海洋和陆地碳汇估算。"
+  },
+  "website": "https://www.globalcarbonproject.org",
+  "data_url": "https://www.globalcarbonproject.org/carbonbudget/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": null,
+  "domains": [
+    "climate",
+    "environment",
+    "energy"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "carbon-budget",
+    "全球碳收支",
+    "co2-emissions",
+    "二氧化碳排放",
+    "methane",
+    "甲烷",
+    "carbon-sink",
+    "碳汇",
+    "greenhouse-gas",
+    "温室气体",
+    "climate-change",
+    "气候变化",
+    "fossil-fuels",
+    "化石燃料",
+    "GCP"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Global Carbon Budget: fossil fuel and land-use change CO2 emissions by country and sector",
+      "Global methane (CH4) and nitrous oxide (N2O) budgets",
+      "Ocean and terrestrial carbon sink estimates",
+      "Historical atmospheric CO2 concentrations and growth rates",
+      "National emissions trajectories and per-capita emissions data"
+    ],
+    "zh": [
+      "年度全球碳收支：按国家和行业划分的化石燃料与土地利用变化二氧化碳排放",
+      "全球甲烷（CH4）和氧化亚氮（N2O）收支",
+      "海洋和陆地碳汇估算",
+      "历史大气二氧化碳浓度与增长率",
+      "各国排放轨迹和人均排放数据"
+    ]
+  }
+}

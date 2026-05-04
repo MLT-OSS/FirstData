@@ -1,0 +1,54 @@
+{
+  "id": "cdp",
+  "name": {
+    "en": "CDP - Carbon Disclosure Project",
+    "zh": "碳信息披露项目"
+  },
+  "description": {
+    "en": "CDP (formerly the Carbon Disclosure Project) runs the world's largest environmental disclosure system for companies, cities, states, and regions. Its Open Data Portal provides company-level disclosures on climate change, water security, and forests, including Scope 1/2/3 greenhouse gas emissions, climate risk assessments, and emissions-reduction targets.",
+    "zh": "CDP（原碳信息披露项目）运营全球最大的企业、城市、州省和地区环境信息披露系统。其开放数据门户提供公司层级的气候变化、水安全与森林披露数据，包括范围1/2/3温室气体排放、气候风险评估和减排目标。"
+  },
+  "website": "https://www.cdp.net",
+  "data_url": "https://www.cdp.net/en/data",
+  "api_url": null,
+  "authority_level": "research",
+  "country": null,
+  "domains": [
+    "climate",
+    "environment",
+    "finance"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "annual",
+  "tags": [
+    "esg",
+    "环境信息披露",
+    "climate-disclosure",
+    "气候披露",
+    "corporate-emissions",
+    "企业排放",
+    "scope-3",
+    "范围三",
+    "carbon-disclosure",
+    "碳披露",
+    "climate-risk",
+    "气候风险",
+    "CDP"
+  ],
+  "data_content": {
+    "en": [
+      "Corporate climate change disclosures including Scope 1/2/3 greenhouse gas emissions",
+      "Water security and forests disclosures from thousands of companies worldwide",
+      "Company climate scores (A to D-) and sector-level benchmarking",
+      "City and regional government environmental disclosures",
+      "Supply chain emissions and science-based targets data"
+    ],
+    "zh": [
+      "企业气候变化披露，包括范围1/2/3温室气体排放",
+      "全球数千家公司的水安全与森林披露",
+      "公司气候评分（A至D-）和行业基准对比",
+      "城市和区域政府环境信息披露",
+      "供应链排放与科学碳目标数据"
+    ]
+  }
+}
