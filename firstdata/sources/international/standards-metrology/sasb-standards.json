@@ -1,0 +1,54 @@
+{
+  "id": "sasb-standards",
+  "name": {
+    "en": "SASB Standards (IFRS Foundation)",
+    "zh": "SASB可持续发展会计准则（IFRS基金会）"
+  },
+  "description": {
+    "en": "SASB Standards, now maintained by the IFRS Foundation alongside the ISSB, provide industry-specific sustainability disclosure standards covering 77 industries. They identify the subset of environmental, social, and governance (ESG) issues most relevant to financial performance and enterprise value, and are widely used for investor-focused sustainability disclosure globally.",
+    "zh": "SASB 可持续发展会计准则现由 IFRS 基金会与国际可持续准则理事会（ISSB）共同维护，提供覆盖 77 个行业的专项可持续披露准则。该准则识别与财务表现和企业价值最相关的环境、社会与治理（ESG）议题，是面向投资者的可持续信息披露的全球通用标准。"
+  },
+  "website": "https://sasb.ifrs.org",
+  "data_url": "https://sasb.ifrs.org/standards/",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "esg-data",
+    "sustainability",
+    "standards",
+    "finance"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "sasb",
+    "esg",
+    "esg披露",
+    "sustainability-accounting",
+    "可持续会计",
+    "industry-standards",
+    "行业标准",
+    "issb",
+    "国际可持续准则",
+    "investor-disclosure",
+    "投资者披露",
+    "IFRS"
+  ],
+  "data_content": {
+    "en": [
+      "SASB Standards covering 77 industries across 11 sectors",
+      "Industry-specific financially material ESG disclosure topics and metrics",
+      "Materiality Finder tool for identifying relevant sustainability topics by industry",
+      "Mapping between SASB Standards and IFRS S1/S2 (ISSB) disclosure requirements",
+      "Implementation resources, FAQs, and downloadable standards"
+    ],
+    "zh": [
+      "覆盖 11 个行业板块、77 个细分行业的 SASB 准则",
+      "财务重要的行业特定 ESG 披露议题与指标",
+      "重要性查询工具（Materiality Finder），按行业识别相关可持续议题",
+      "SASB 准则与 IFRS S1/S2（ISSB）披露要求的映射",
+      "实施资源、常见问题和可下载准则文本"
+    ]
+  }
+}

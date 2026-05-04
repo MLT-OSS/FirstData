@@ -1,0 +1,53 @@
+{
+  "id": "global-reporting-initiative",
+  "name": {
+    "en": "GRI - Global Reporting Initiative",
+    "zh": "全球报告倡议组织"
+  },
+  "description": {
+    "en": "The Global Reporting Initiative (GRI) is an independent international organization that publishes the most widely adopted sustainability reporting standards. GRI provides the GRI Standards for economic, environmental, social and governance disclosures, a Sustainability Disclosure Database of corporate reports, and topic-specific guidance used by companies and regulators worldwide.",
+    "zh": "全球报告倡议组织（GRI）是独立的国际组织，发布全球采用最广泛的可持续发展报告标准。GRI 提供涵盖经济、环境、社会和治理披露的《GRI 准则》、企业报告的可持续发展披露数据库以及各议题专项指南，被全球企业和监管机构广泛使用。"
+  },
+  "website": "https://www.globalreporting.org",
+  "data_url": "https://www.globalreporting.org/standards/",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "domains": [
+    "esg-data",
+    "sustainability",
+    "standards"
+  ],
+  "geographic_scope": "global",
+  "update_frequency": "irregular",
+  "tags": [
+    "esg",
+    "esg-reporting",
+    "esg披露",
+    "sustainability-reporting",
+    "可持续发展报告",
+    "gri-standards",
+    "gri准则",
+    "sustainability",
+    "可持续发展",
+    "corporate-disclosure",
+    "企业披露",
+    "GRI"
+  ],
+  "data_content": {
+    "en": [
+      "GRI Standards: Universal, Sector and Topic Standards for sustainability reporting",
+      "GRI Sustainability Disclosure Database of corporate reports",
+      "Sector-specific reporting guidance (e.g., oil & gas, agriculture, coal)",
+      "Interoperability mappings with TCFD, ISSB, SASB and EU CSRD",
+      "Topic-specific standards on GHG emissions, water, biodiversity, labor and human rights"
+    ],
+    "zh": [
+      "GRI 准则：可持续发展报告的通用、行业和议题标准",
+      "GRI 可持续发展披露数据库中的企业报告",
+      "行业专项报告指南（如油气、农业、煤炭）",
+      "与 TCFD、ISSB、SASB 和欧盟 CSRD 的互操作映射",
+      "有关温室气体排放、水、生物多样性、劳工和人权等议题的专项标准"
+    ]
+  }
+}
