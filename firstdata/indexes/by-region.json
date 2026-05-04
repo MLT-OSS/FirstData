@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-03T06:43:27.923069+00:00",
+    "generated_at": "2026-05-04T02:23:58.474635+00:00",
     "total_regions": 58,
-    "total_sources": 663,
+    "total_sources": 669,
     "version": "2.0"
   },
   "regions": {
@@ -745,6 +745,18 @@
         "data_url": "https://www.caq.org.cn/html/zltj",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-caq.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cbea",
+        "name": {
+          "en": "China Beverage Association",
+          "zh": "中国饮料工业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.chinabeverage.org",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cbea.json",
         "geographic_scope": "national"
       },
       {
@@ -1821,6 +1833,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-boc",
+        "name": {
+          "en": "Bank of China (BOC)",
+          "zh": "中国银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.boc.cn/fimarkets/",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-boc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cba",
         "name": {
           "en": "China Banking Association",
@@ -2060,6 +2084,18 @@
         "data_url": "https://www.iamac.org.cn",
         "has_api": false,
         "file_path": "china/finance/china-iamac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nifa",
+        "name": {
+          "en": "National Internet Finance Association of China",
+          "zh": "中国互联网金融协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.nifa.org.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-nifa.json",
         "geographic_scope": "national"
       },
       {
@@ -2932,6 +2968,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nifdc",
+        "name": {
+          "en": "National Institutes for Food and Drug Control",
+          "zh": "中国食品药品检定研究院"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nifdc.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nifdc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nmpa",
         "name": {
           "en": "National Medical Products Administration of China",
@@ -3472,6 +3520,18 @@
         "data_url": "https://www.cciee.org.cn/ktcglistall.aspx?clmId=650",
         "has_api": false,
         "file_path": "china/research/china-cciee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccs-crop",
+        "name": {
+          "en": "Chinese Crop Science Society",
+          "zh": "中国作物学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.chinacrops.org",
+        "has_api": false,
+        "file_path": "china/research/china-ccs-crop.json",
         "geographic_scope": "national"
       },
       {
@@ -4864,6 +4924,18 @@
         "data_url": "https://www.cnipa.gov.cn/col/col61/index.html",
         "has_api": false,
         "file_path": "china/technology/intellectual_property/china-cnipa-patents.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ctmo",
+        "name": {
+          "en": "China Trademark Office (CNIPA Trademark Bureau)",
+          "zh": "国家知识产权局商标局"
+        },
+        "authority_level": "government",
+        "data_url": "https://sbj.cnipa.gov.cn",
+        "has_api": false,
+        "file_path": "china/technology/intellectual_property/china-ctmo.json",
         "geographic_scope": "national"
       },
       {

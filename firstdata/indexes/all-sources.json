@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-03T06:43:27.923069+00:00",
-    "total_sources": 663,
+    "generated_at": "2026-05-04T02:23:58.474635+00:00",
+    "total_sources": 669,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4319,6 +4319,68 @@
       },
       "has_api": false,
       "file_path": "china/economy/industry_associations/china-caq.json"
+    },
+    {
+      "id": "china-cbea",
+      "name": {
+        "en": "China Beverage Association",
+        "zh": "中国饮料工业协会"
+      },
+      "description": {
+        "en": "The China Beverage Association (CBA) is the national industry organization representing China's beverage industry, covering carbonated drinks, bottled water, fruit and vegetable juices, tea beverages, dairy-based drinks, sports and energy drinks, and plant protein beverages. Established in 1981 under the guidance of the Ministry of Industry and Information Technology, the association publishes authoritative annual statistics on China's beverage production volume, market size, major product category breakdown, enterprise revenue and profitability, import and export data, and industry concentration ratios. CBA's Annual Report on China's Beverage Industry is the primary reference for tracking the world's second-largest beverage market, consumer health trends driving product reformulation, and competitive landscape among domestic and international brands. The association also publishes safety standards, quality benchmarks, and industry technical guidelines.",
+        "zh": "中国饮料工业协会（中饮协）是代表中国饮料行业的全国性行业组织，涵盖碳酸饮料、瓶装水、果蔬汁、茶饮料、乳饮料、运动功能饮料和植物蛋白饮料等品类。协会于1981年在工业和信息化部指导下成立，发布中国饮料产量、市场规模、主要产品品类构成、企业收入与盈利情况、进出口数据及行业集中度等权威年度统计。《中国饮料行业年度报告》是追踪全球第二大饮料市场、消费者健康趋势推动产品配方革新以及国内外品牌竞争格局的主要参考依据。协会同时发布安全标准、质量基准和行业技术指南。"
+      },
+      "website": "https://www.chinabeverage.org",
+      "data_url": "https://www.chinabeverage.org",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "food-safety",
+        "economics",
+        "consumer-goods"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "cbea",
+        "中国饮料工业协会",
+        "饮料行业",
+        "碳酸饮料",
+        "瓶装水",
+        "茶饮料",
+        "果汁",
+        "beverage-industry",
+        "food-beverage",
+        "consumer-goods",
+        "bottled-water",
+        "energy-drinks",
+        "market-statistics",
+        "food-safety",
+        "饮料产量"
+      ],
+      "data_content": {
+        "en": [
+          "Annual beverage production volume by product category (carbonated, water, juice, tea, dairy, sports/energy)",
+          "Total industry market size and revenue data",
+          "Enterprise profitability and top company rankings",
+          "Import and export statistics for beverage products",
+          "Industry concentration ratios and market share analysis",
+          "Consumer health trend impacts on product reformulation",
+          "Beverage product quality and safety standards"
+        ],
+        "zh": [
+          "按品类（碳酸、水、果汁、茶、乳饮料、运动功能饮料）分类的年度饮料产量",
+          "行业市场规模及营业收入数据",
+          "企业盈利情况及头部企业排名",
+          "饮料产品进出口统计",
+          "行业集中度与市场份额分析",
+          "消费者健康趋势对产品配方革新的影响",
+          "饮料产品质量与安全标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cbea.json"
     },
     {
       "id": "china-cbmf",
@@ -10821,6 +10883,79 @@
       "file_path": "china/finance/banking/china-adbc.json"
     },
     {
+      "id": "china-boc",
+      "name": {
+        "en": "Bank of China (BOC)",
+        "zh": "中国银行"
+      },
+      "description": {
+        "en": "Bank of China (BOC) is one of China's 'Big Four' state-owned commercial banks and the most internationalized Chinese bank. Established in 1912 and present in over 60 countries and regions, BOC is also the principal bank for RMB clearing and settlement in many overseas markets. BOC is China's designated foreign exchange bank and publishes authoritative daily RMB exchange rate reference prices (中间价) used widely across Chinese financial markets. In addition to comprehensive annual and interim financial reports covering capital ratios, asset quality, and profitability metrics, BOC provides key international financial data including cross-border trade finance volumes, overseas corporate banking statistics, and offshore RMB (CNH) market data. BOC's exchange rate and cross-border finance data are essential references for multinational corporations operating in China, foreign exchange risk management, and analysis of China's capital account liberalization progress.",
+        "zh": "中国银行（中行/BOC）是中国“四大行”之一，也是国际化程度最高的中国银行。中行创立于1912年，在全球逾60个国家和地区设有机构，同时是多个海外市场人民币清结算的主要银行。中行是中国官方指定的外汇专业银行，每日发布被中国金融市场广泛引用的人民币汇率中间价。除涵盖资本充足率、资产质量和盈利指标的完整年报和中报外，中行还提供跨境贸易融资规模、海外公司银行业务统计及离岸人民币（CNH）市场数据等关键国际金融数据。中行汇率和跨境金融数据是在华跨国企业外汇风险管理、人民币国际化进展分析及中国资本账户开放程度评估的重要参考。"
+      },
+      "website": "https://www.boc.cn",
+      "data_url": "https://www.boc.cn/fimarkets/",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "international-trade"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "boc",
+        "中国银行",
+        "bank-of-china",
+        "国有商业银行",
+        "state-owned-bank",
+        "外汇",
+        "foreign-exchange",
+        "人民币汇率",
+        "rmb-exchange-rate",
+        "汇率中间价",
+        "exchange-rate-midpoint",
+        "跨境贸易融资",
+        "cross-border-trade-finance",
+        "离岸人民币",
+        "offshore-rmb",
+        "cnh",
+        "年报",
+        "annual-report",
+        "资本充足率",
+        "capital-adequacy",
+        "银行业",
+        "banking",
+        "人民币国际化",
+        "rmb-internationalization"
+      ],
+      "data_content": {
+        "en": [
+          "Daily RMB exchange rate middle rates (中间价): official CNY reference prices against USD, EUR, JPY, HKD, GBP, AUD, CAD, and 20+ other currencies",
+          "Foreign currency exchange rates: spot rates, forward rates, and cross rates updated throughout trading hours",
+          "Annual and interim financial reports: comprehensive financial statements with capital adequacy ratios, NPL ratios, and profitability metrics",
+          "Cross-border trade finance data: letter of credit volumes, cross-border RMB settlement statistics, and trade facilitation metrics",
+          "Offshore RMB (CNH) market data: Hong Kong and Singapore RMB deposit pools, CNH interbank rates",
+          "International banking statistics: country-by-country breakdown of overseas asset exposure and profitability",
+          "Interest rate publications: RMB deposit rates, loan prime rate (LPR) applications, and foreign currency deposit rates",
+          "SWIFT RMB internationalization data: BOC's share in global RMB cross-border payments and correspondent banking"
+        ],
+        "zh": [
+          "每日人民币汇率中间价：人民币兑美元、欧元、日元、港元、英镑、澳元、加元等20多种货币的官方参考汇率",
+          "外币即期汇率、远期汇率及交叉汇率，在交易时间内实时更新",
+          "年报和中报：涵盖资本充足率、不良贷款率和盈利指标的完整财务报表",
+          "跨境贸易融资数据：信用证业务量、跨境人民币结算统计及贸易便利化指标",
+          "离岸人民币（CNH）市场数据：香港和新加坡人民币存款池规模、CNH同业利率",
+          "国际银行业统计：各国海外资产敞口及盈利能力分国别披露",
+          "利率公告：人民币存款利率、贷款市场报价利率（LPR）应用及外币存款利率",
+          "SWIFT人民币国际化数据：中行在全球人民币跨境支付及代理行网络中的占比"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-boc.json"
+    },
+    {
       "id": "china-cba",
       "name": {
         "en": "China Banking Association",
@@ -12214,6 +12349,69 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-iamac.json"
+    },
+    {
+      "id": "china-nifa",
+      "name": {
+        "en": "National Internet Finance Association of China",
+        "zh": "中国互联网金融协会"
+      },
+      "description": {
+        "en": "The National Internet Finance Association of China (NIFA) is the national self-regulatory organization for China's internet finance industry, established in 2016 under the guidance of the People's Bank of China. NIFA oversees regulatory compliance, information disclosure, and industry standards for online lending, digital payments, crowdfunding, and internet insurance. The association publishes authoritative reports on internet finance development, consumer risk warnings, industry statistics on registered platform numbers, transaction volumes, outstanding loans, and investor protection. NIFA operates the National Internet Finance Registration Disclosure System (NIFDS), which aggregates compliance data from thousands of regulated fintech platforms. Its data is essential for monitoring China's fintech sector, peer-to-peer lending cleanup progress, digital credit markets, and regulatory evolution of online financial services.",
+        "zh": "中国互联网金融协会（中互金协）是中国互联网金融行业的全国性自律组织，2016年在中国人民银行指导下成立。协会负责网络借贷、数字支付、众筹和互联网保险等领域的合规监督、信息披露和行业标准制定，发布互联网金融行业发展报告、消费者风险提示，以及注册平台数量、交易规模、贷款余额和投资者保护等权威行业数据。协会运营国家互联网金融登记披露服务平台（NIFDS），汇聚数千家受监管金融科技平台的合规数据。其数据对监测中国金融科技行业、P2P网贷整治进展、数字信贷市场及网络金融服务监管演进具有重要价值。"
+      },
+      "website": "https://www.nifa.org.cn",
+      "data_url": "https://www.nifa.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "fintech",
+        "digital-economy",
+        "regulation"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "nifa",
+        "中国互联网金融协会",
+        "互联网金融",
+        "网络借贷",
+        "P2P",
+        "数字支付",
+        "金融科技",
+        "fintech",
+        "internet-finance",
+        "online-lending",
+        "digital-payment",
+        "p2p-lending",
+        "consumer-protection",
+        "金融监管",
+        "众筹"
+      ],
+      "data_content": {
+        "en": [
+          "Internet finance industry development reports",
+          "Online lending platform statistics (registered platforms, transaction volumes, outstanding loans)",
+          "Digital payment market data",
+          "Crowdfunding and internet insurance statistics",
+          "Consumer risk warnings and investor protection bulletins",
+          "National Internet Finance Registration Disclosure System (NIFDS) compliance data",
+          "Annual internet finance industry summary reports"
+        ],
+        "zh": [
+          "互联网金融行业发展报告",
+          "网络借贷平台统计（注册平台数量、交易规模、贷款余额）",
+          "数字支付市场数据",
+          "众筹及互联网保险统计",
+          "消费者风险提示和投资者保护公告",
+          "国家互联网金融登记披露服务平台（NIFDS）合规数据",
+          "互联网金融行业年度总结报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-nifa.json"
     },
     {
       "id": "china-nifd",
@@ -17179,6 +17377,69 @@
       "file_path": "china/health/china-nhsa.json"
     },
     {
+      "id": "china-nifdc",
+      "name": {
+        "en": "National Institutes for Food and Drug Control",
+        "zh": "中国食品药品检定研究院"
+      },
+      "description": {
+        "en": "The National Institutes for Food and Drug Control (NIFDC) is China's highest national-level technical institution for quality control and standard-setting of drugs, biologics, medical devices, food, and cosmetics, operating under the National Medical Products Administration (NMPA). Established in 1950, NIFDC is responsible for the development and revision of national drug standards (Chinese Pharmacopoeia), biological product batch release testing, and reference substance management. The institute publishes official drug standard databases, batch release reports, adverse event signals for biologics and vaccines, food contaminant benchmark data, and inspection methodology standards. NIFDC's quality control data and standard documents are mandatory references for pharmaceutical manufacturers, regulatory agencies, and clinical research institutions across China and are widely cited in international pharmacovigilance research.",
+        "zh": "中国食品药品检定研究院（中检院）是药品、生物制品、医疗器械、食品和化妆品质量控制与标准制定的国家级最高技术机构，隶属于国家药品监督管理局。研究院成立于1950年，负责国家药品标准（中国药典）的制定与修订、生物制品批签发检验和标准物质管理，发布国家药品标准数据库、批签发报告、生物制品和疫苗不良事件信号、食品污染物基准数据及检验方法标准。中检院的质量控制数据和标准文件是全国药品生产企业、监管机构及临床研究机构的强制参考依据，并被国际药物警戒研究广泛引用。"
+      },
+      "website": "https://www.nifdc.org.cn",
+      "data_url": "https://www.nifdc.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "pharmaceuticals",
+        "food-safety",
+        "standards"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "nifdc",
+        "中检院",
+        "中国食品药品检定研究院",
+        "药品标准",
+        "中国药典",
+        "生物制品",
+        "批签发",
+        "疫苗",
+        "药品质量",
+        "food-drug-control",
+        "pharmacopoeia",
+        "drug-standards",
+        "vaccine-testing",
+        "food-safety",
+        "medical-devices"
+      ],
+      "data_content": {
+        "en": [
+          "National drug standards (Chinese Pharmacopoeia) database",
+          "Biological product batch release testing results",
+          "Reference substance catalog and technical requirements",
+          "Drug adverse event and quality risk signals",
+          "Food and cosmetic contaminant benchmark data",
+          "Medical device testing standards and reports",
+          "Annual national drug quality sampling inspection reports"
+        ],
+        "zh": [
+          "国家药品标准（中国药典）数据库",
+          "生物制品批签发检验结果",
+          "标准物质目录与技术要求",
+          "药品不良事件与质量风险信号",
+          "食品和化妆品污染物基准数据",
+          "医疗器械检验标准与报告",
+          "年度国家药品质量抽检报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-nifdc.json"
+    },
+    {
       "id": "china-nmpa",
       "name": {
         "en": "National Medical Products Administration of China",
@@ -20306,6 +20567,68 @@
       },
       "has_api": false,
       "file_path": "china/research/china-cciee.json"
+    },
+    {
+      "id": "china-ccs-crop",
+      "name": {
+        "en": "Chinese Crop Science Society",
+        "zh": "中国作物学会"
+      },
+      "description": {
+        "en": "The Chinese Crop Science Society (CCSS) is the national academic society for crop science under the China Association for Science and Technology (CAST), established in 1978. Representing researchers, breeders, and agronomists across China, CCSS is the authoritative academic body for crop genetics, breeding, cultivation, and production research. The society administers the National Crop Variety Data Platform, which provides data on varieties approved through the national examination and approval process, including variety characteristics, adaptability regions, cultivation guidelines, and yield benchmarks. CCSS publishes leading academic journals including Acta Agronomica Sinica and Crops, and compiles crop production statistics, germplasm resource data, and national trial datasets for major field crops including rice, wheat, maize, soybean, cotton, and rapeseed. Its data serves as the authoritative reference for agricultural R&D, seed industry regulation, and food production capacity assessment.",
+        "zh": "中国作物学会（CCSS）是中国科学技术协会下属的作物科学全国性学术社团，成立于1978年。学会代表全国作物遗传、育种、栽培和生产领域的研究人员，是作物遗传育种、栽培技术及生产研究的权威学术机构。学会管理全国作物品种数据平台，提供通过国家审定和登记的品种特征特性、适宜种植区域、栽培技术规程及产量基准数据。学会出版《作物学报》《作物杂志》等权威学术期刊，汇编作物生产统计数据、种质资源数据及水稻、小麦、玉米、大豆、棉花、油菜等主要大田作物国家试验数据集。其数据是农业科研、种子行业监管及粮食生产能力评估的权威参考依据。"
+      },
+      "website": "https://www.chinacrops.org",
+      "data_url": "https://www.chinacrops.org",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "agriculture",
+        "research",
+        "food-security"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "ccss",
+        "中国作物学会",
+        "作物科学",
+        "作物育种",
+        "农作物",
+        "品种审定",
+        "粮食生产",
+        "crop-science",
+        "crop-breeding",
+        "agriculture",
+        "food-security",
+        "rice",
+        "wheat",
+        "maize",
+        "种质资源"
+      ],
+      "data_content": {
+        "en": [
+          "National crop variety approval and registration database",
+          "Variety characteristic data (yield, quality, disease resistance, regional adaptability)",
+          "Germplasm resource catalog for major field crops",
+          "National crop variety trial datasets (DUS and VCU trials)",
+          "Crop production statistics and regional yield benchmarks",
+          "Cultivation technical guidelines by variety and region",
+          "Annual crop science research progress reports"
+        ],
+        "zh": [
+          "全国农作物品种审定与登记数据库",
+          "品种特征特性数据（产量、品质、抗病性、适宜种植区域）",
+          "主要大田作物种质资源目录",
+          "全国农作物品种试验数据集（DUS测试和VCU试验）",
+          "作物生产统计及区域产量基准数据",
+          "按品种和区域的栽培技术规程",
+          "作物科学研究年度进展报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-ccs-crop.json"
     },
     {
       "id": "china-cdrf",
@@ -28512,6 +28835,68 @@
       },
       "has_api": false,
       "file_path": "china/technology/intellectual_property/china-cnipa-patents.json"
+    },
+    {
+      "id": "china-ctmo",
+      "name": {
+        "en": "China Trademark Office (CNIPA Trademark Bureau)",
+        "zh": "国家知识产权局商标局"
+      },
+      "description": {
+        "en": "The China Trademark Office (CTMO), officially the Trademark Bureau of the China National Intellectual Property Administration (CNIPA), is the government body responsible for trademark registration, review, and protection across China. As the world's largest trademark office by filings, CTMO processes over 9 million trademark applications annually and maintains a database of more than 40 million registered trademarks. The office provides access to China's trademark registration database via the China Trademark Network (CTM Online), enabling search by mark name, applicant, registration number, and international classification. CTMO publishes annual trademark statistics reports covering new applications, registrations, renewals, oppositions, and invalidation decisions by industry sector, geographic origin, and applicant type. Its data is essential for brand asset management, competitive intelligence, IP litigation support, and cross-border trademark protection research.",
+        "zh": "国家知识产权局商标局（原中国商标局）是负责中国商标注册、审查和保护的政府机构。作为全球申请量最大的商标局，商标局每年处理逾900万件商标申请，维护着超过4000万件注册商标数据库。商标局通过中国商标网（CTM在线）提供商标注册数据库查询，支持按商标名称、申请人、注册号和国际分类检索。商标局发布年度商标统计报告，按行业类别、地域来源和申请人类型，涵盖新申请量、注册量、续展量、异议量和无效宣告裁定情况。其数据对品牌资产管理、竞争情报、知识产权诉讼支持及跨境商标保护研究具有重要价值。"
+      },
+      "website": "https://sbj.cnipa.gov.cn",
+      "data_url": "https://sbj.cnipa.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "intellectual-property",
+        "law",
+        "commerce"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "ctmo",
+        "cnipa",
+        "商标局",
+        "中国商标",
+        "商标注册",
+        "知识产权",
+        "trademark",
+        "trademark-registration",
+        "intellectual-property",
+        "brand",
+        "ip-law",
+        "品牌",
+        "商标检索",
+        "china-trademark",
+        "trademark-database"
+      ],
+      "data_content": {
+        "en": [
+          "China trademark registration database (40+ million trademarks)",
+          "Trademark application and registration statistics by industry class and region",
+          "Annual trademark statistical reports",
+          "Trademark opposition, cancellation, and invalidation decisions",
+          "Madrid international trademark registration data for China",
+          "Geographic indication trademark registry",
+          "Trademark renewal and transfer records"
+        ],
+        "zh": [
+          "中国商标注册数据库（逾4000万件商标）",
+          "按行业类别和地域分类的商标申请与注册统计",
+          "年度商标统计报告",
+          "商标异议、撤销和无效宣告裁定",
+          "中国马德里国际商标注册数据",
+          "地理标志商标注册信息",
+          "商标续展与转让记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/intellectual_property/china-ctmo.json"
     },
     {
       "id": "china-cac",
