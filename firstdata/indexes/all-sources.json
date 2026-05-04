@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T02:45:57.953930+00:00",
-    "total_sources": 674,
+    "generated_at": "2026-05-04T06:42:43.195561+00:00",
+    "total_sources": 679,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4252,6 +4252,67 @@
       },
       "has_api": false,
       "file_path": "china/economy/industry_associations/china-cansi.json"
+    },
+    {
+      "id": "china-cantonfair",
+      "name": {
+        "en": "China Import and Export Fair (Canton Fair)",
+        "zh": "中国进出口商品交易会（广交会）"
+      },
+      "description": {
+        "en": "The China Import and Export Fair, commonly known as the Canton Fair, is the oldest, largest, and most comprehensive international trade fair in China. Hosted biannually in spring and autumn in Guangzhou since 1957, it is jointly organized by the Ministry of Commerce of China (MOFCOM) and the Guangdong Provincial People's Government, and implemented by the China Foreign Trade Centre. The Canton Fair publishes authoritative trade data covering exhibitor enterprise counts, overseas buyer visits by country, on-site transaction turnover by product category and region, new product and green product showcases, cross-border e-commerce statistics, and trade trend analyses. As a key barometer of China's foreign trade, its statistics are widely referenced by economists, policy researchers, and exporters to gauge global demand, supply chain shifts, and the competitiveness of Chinese manufacturing across 16 major product categories including electronics, machinery, textiles, household products, and food.",
+        "zh": "中国进出口商品交易会（简称广交会）是中国规模最大、历史最悠久、商品种类最全、到会采购商最多的综合性国际贸易盛会。广交会自1957年起每年春秋两季在广州举办，由商务部和广东省人民政府联合主办，中国对外贸易中心承办。广交会发布权威的贸易数据，涵盖参展企业数量、境外采购商到会国别分布、按商品类别和地区统计的现场成交额、新产品和绿色产品展示、跨境电商专区数据，以及贸易趋势分析。作为中国外贸的晴雨表，其统计数据被经济学家、政策研究者和出口商广泛引用，用于观察全球需求、供应链变化以及中国制造业在电子电器、机械、纺织服装、家居用品、食品等16大类商品上的竞争力。"
+      },
+      "website": "https://www.cantonfair.org.cn",
+      "data_url": "https://www.cantonfair.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "trade",
+        "foreign-trade"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "canton-fair",
+        "广交会",
+        "中国进出口商品交易会",
+        "外贸",
+        "进出口",
+        "foreign-trade",
+        "import-export",
+        "trade-fair",
+        "mofcom",
+        "guangzhou",
+        "exhibition",
+        "overseas-buyers",
+        "trade-statistics",
+        "成交额"
+      ],
+      "data_content": {
+        "en": [
+          "Biannual exhibitor counts and participating enterprise statistics",
+          "Overseas buyer attendance by country and region",
+          "On-site transaction turnover by product category",
+          "Export trade data for 16 major product categories",
+          "Cross-border e-commerce pilot zone statistics",
+          "Green and new product showcase data",
+          "Foreign trade trend analyses and enterprise surveys"
+        ],
+        "zh": [
+          "春秋两届参展商数量及参展企业统计",
+          "按国家和地区分布的境外采购商到会数据",
+          "按商品类别的现场成交额统计",
+          "16大类商品的出口贸易数据",
+          "跨境电商专区统计数据",
+          "绿色产品和新产品展示数据",
+          "外贸趋势分析与企业调查报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-cantonfair.json"
     },
     {
       "id": "china-caq",
@@ -13565,6 +13626,68 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-bankruptcy-court.json"
+    },
+    {
+      "id": "china-cafiu",
+      "name": {
+        "en": "China Association for International Understanding",
+        "zh": "中国国际交流协会"
+      },
+      "description": {
+        "en": "The China Association for International Understanding (CAFIU) is a national non-governmental organization established in 1981, registered with the Ministry of Civil Affairs and affiliated with the International Liaison Department of the CPC Central Committee. CAFIU conducts people-to-people diplomacy, policy dialogue, and multilateral exchanges with political parties, think tanks, NGOs and political figures from more than 160 countries. It publishes authoritative content on China's party-to-party diplomacy, global governance perspectives, Belt and Road cooperation narratives, Chinese modernization experience-sharing, and international cooperation on sustainable development. CAFIU's research outputs include dialogue proceedings with foreign think tanks, bilateral and multilateral forum reports (e.g., CPC in Dialogue with Marxist Political Parties Worldwide Forum, CPC-African Political Parties Dialogue), policy briefings on international affairs, and academic publications by its affiliated CAFIU Journal. The association is a key reference source for researchers studying Chinese public diplomacy, party diplomacy channels, and China's engagement with global civil society.",
+        "zh": "中国国际交流协会（CAFIU）是成立于1981年的全国性民间友好组织，在民政部登记注册，业务上与中国共产党中央委员会对外联络部（中联部）联系，开展民间外交、政策对话和多边交流，与160多个国家的政党、智库、非政府组织及政治人士保持联系。协会发布关于中国政党外交、全球治理观点、「一带一路」合作叙事、中国式现代化经验分享及国际可持续发展合作的权威内容。协会的研究成果包括与外国智库的对话纪要、双边和多边论坛报告（如中国共产党与世界马克思主义政党理论研讨会、中非政党对话会）、国际事务政策简报，以及其主办的《中国国际交流》等学术刊物。协会是研究中国公共外交、政党外交渠道以及中国与全球公民社会交往的重要参考来源。"
+      },
+      "website": "https://www.cafiu.org.cn",
+      "data_url": "https://www.cafiu.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "international-relations",
+        "diplomacy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "cafiu",
+        "中国国际交流协会",
+        "民间外交",
+        "政党外交",
+        "party-diplomacy",
+        "public-diplomacy",
+        "international-exchange",
+        "中联部",
+        "think-tank-dialogue",
+        "一带一路",
+        "belt-and-road",
+        "global-governance",
+        "全球治理",
+        "international-affairs",
+        "policy-dialogue"
+      ],
+      "data_content": {
+        "en": [
+          "Records of party-to-party diplomacy events and dialogues",
+          "Bilateral and multilateral forum reports (CPC-Marxist Parties, CPC-African Parties etc.)",
+          "Policy briefings on international affairs and global governance",
+          "CAFIU Journal academic publications",
+          "Belt and Road cooperation narratives and people-to-people exchange cases",
+          "Dialogue proceedings with foreign think tanks and NGOs",
+          "Research reports on Chinese modernization experience sharing"
+        ],
+        "zh": [
+          "政党外交活动及对话纪要",
+          "双边和多边论坛报告（中马、中非政党对话等）",
+          "国际事务与全球治理政策简报",
+          "《中国国际交流》等学术刊物",
+          "一带一路合作叙事与民间交流案例",
+          "与外国智库和非政府组织的对话纪要",
+          "中国式现代化经验分享研究报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cafiu.json"
     },
     {
       "id": "china-ccdi",
@@ -24217,6 +24340,138 @@
       "file_path": "china/resources/china-sinopec.json"
     },
     {
+      "id": "china-chinacoal",
+      "name": {
+        "en": "China National Coal Group Corporation",
+        "zh": "中国中煤能源集团有限公司"
+      },
+      "description": {
+        "en": "China National Coal Group Corporation (China Coal / ChinaCoal) is a major state-owned coal mining and energy enterprise directly administered by SASAC of the State Council. Established in 1982 and listed on both the Shanghai Stock Exchange (601898.SH) and Hong Kong Stock Exchange (01898.HK) through its flagship China Coal Energy Company Ltd., the Group is among the top five coal producers in China. It publishes authoritative operational and industry data covering raw coal production and commercial coal sales, coal washing and processing output, coal chemical products (methanol, olefins, urea, fertilizers), coal-fired power generation, coal-mining equipment manufacturing, major mine safety indicators, R&D spending on clean coal technology and carbon capture pilots, and internal supply contracts with power plants and steel mills. China Coal's monthly production announcements, annual reports, ESG reports, and investor communications are widely used by energy analysts, commodity traders, and researchers tracking China's coal supply-demand balance, energy transition, and the pace of clean-coal decarbonization.",
+        "zh": "中国中煤能源集团有限公司（中煤集团）是国务院国资委直接监管的大型国有煤炭能源企业，成立于1982年，其旗舰上市平台中国中煤能源股份有限公司在上海证券交易所（601898.SH）和香港联合交易所（01898.HK）两地上市，是中国排名前五的煤炭生产企业。集团发布权威的经营和行业数据，涵盖原煤产量和商品煤销售量、洗精煤与煤炭加工产量、煤化工产品（甲醇、烯烃、尿素、化肥）、煤电发电量、煤机装备制造、重大矿井安全指标、清洁煤技术和碳捕集试点研发投入，以及与电厂和钢厂的长协供应数据。中煤集团的月度生产公告、年报、ESG报告和投资者沟通材料，广泛被能源分析师、大宗商品交易员以及研究中国煤炭供需平衡、能源转型和清洁煤低碳化进展的研究者引用。"
+      },
+      "website": "https://www.chinacoal.com",
+      "data_url": "https://www.chinacoal.com",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "mining",
+        "coal"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "china-coal",
+        "中煤集团",
+        "中国中煤",
+        "coal-mining",
+        "煤炭",
+        "原煤产量",
+        "煤化工",
+        "coal-chemical",
+        "methanol",
+        "olefins",
+        "sasac",
+        "601898",
+        "01898-hk",
+        "state-owned-enterprise",
+        "清洁煤"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly raw coal production and commercial coal sales volumes",
+          "Coal washing and processing output statistics",
+          "Coal chemical products output (methanol, olefins, urea, fertilizers)",
+          "Coal-fired power generation statistics",
+          "Coal-mining equipment manufacturing data",
+          "Major mine safety indicators",
+          "R&D spending on clean coal and carbon capture technologies",
+          "Annual reports, ESG reports and sustainability disclosures",
+          "Long-term supply contracts with power plants and steel mills"
+        ],
+        "zh": [
+          "月度原煤产量与商品煤销售量",
+          "洗精煤与煤炭加工产量统计",
+          "煤化工产品产量（甲醇、烯烃、尿素、化肥）",
+          "煤电发电量统计",
+          "煤机装备制造数据",
+          "重大矿井安全指标",
+          "清洁煤技术与碳捕集研发投入",
+          "年度报告、ESG报告和可持续发展披露",
+          "与电厂和钢厂的长期供应合同"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/energy/china-chinacoal.json"
+    },
+    {
+      "id": "china-csg",
+      "name": {
+        "en": "China Southern Power Grid",
+        "zh": "中国南方电网有限责任公司"
+      },
+      "description": {
+        "en": "China Southern Power Grid Co., Ltd. (CSG) is one of the two major state-owned grid enterprises in China, responsible for investment, construction and operation of the power grid in five southern provinces (Guangdong, Guangxi, Yunnan, Guizhou, and Hainan) and cross-border power trade with Vietnam, Laos, and Myanmar within the Greater Mekong Subregion. Headquartered in Guangzhou and directly administered by SASAC of the State Council, CSG publishes authoritative data covering electricity generation and consumption in southern China, peak load and grid reliability indicators, west-to-east power transmission volumes, renewable energy integration (solar, wind, hydro), smart grid and UHV transmission projects, power market trading statistics in the Southern Regional Electricity Market, electric vehicle charging infrastructure, and carbon emission reduction from clean energy substitution. Its annual social responsibility report, sustainability report, and operational bulletins are primary references for tracking southern China's energy transition, new power system construction, and grid-level decarbonization progress.",
+        "zh": "中国南方电网有限责任公司（南方电网/南网）是中国两大国有电网企业之一，负责广东、广西、云南、贵州、海南五省区电网的投资建设与运营，同时承担与越南、老挝、缅甸的跨境电力交易及大湄公河次区域合作。南网总部位于广州，由国务院国资委直接监管。公司发布权威数据，涵盖南方五省区发电量、全社会用电量、最高负荷和电网可靠性指标、西电东送输送电量、新能源（光伏、风电、水电）消纳、智能电网与特高压输电工程、南方区域电力市场交易数据、电动汽车充电基础设施，以及清洁能源替代带来的碳减排量。其年度社会责任报告、可持续发展报告和运行简报是追踪南方区域能源转型、新型电力系统建设和电网级低碳发展的重要参考。"
+      },
+      "website": "https://www.csg.cn",
+      "data_url": "https://www.csg.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "energy",
+        "electricity",
+        "infrastructure"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "csg",
+        "中国南方电网",
+        "南方电网",
+        "南网",
+        "electricity",
+        "power-grid",
+        "发电量",
+        "用电量",
+        "west-to-east-power",
+        "西电东送",
+        "renewable-energy",
+        "新能源",
+        "smart-grid",
+        "sasac",
+        "南方五省区"
+      ],
+      "data_content": {
+        "en": [
+          "Electricity generation and consumption data for five southern provinces",
+          "Peak load and grid reliability indicators",
+          "West-to-East Electricity Transmission volumes",
+          "Renewable energy (solar, wind, hydro) integration statistics",
+          "Smart grid and UHV transmission project data",
+          "Southern Regional Electricity Market trading statistics",
+          "EV charging infrastructure deployment",
+          "Carbon emission reduction from clean energy substitution",
+          "Annual social responsibility and sustainability reports"
+        ],
+        "zh": [
+          "南方五省区发电量与全社会用电量数据",
+          "最高负荷与电网可靠性指标",
+          "西电东送输送电量统计",
+          "新能源（光伏、风电、水电）消纳数据",
+          "智能电网与特高压输电工程数据",
+          "南方区域电力市场交易统计",
+          "电动汽车充电基础设施部署情况",
+          "清洁能源替代带来的碳减排量",
+          "年度社会责任报告与可持续发展报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/energy/china-csg.json"
+    },
+    {
       "id": "china-cace",
       "name": {
         "en": "China Association of Circular Economy",
@@ -27993,6 +28248,68 @@
       "update_frequency": "irregular",
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-ces.json"
+    },
+    {
+      "id": "china-ciesc",
+      "name": {
+        "en": "Chemical Industry and Engineering Society of China",
+        "zh": "中国化工学会"
+      },
+      "description": {
+        "en": "The Chemical Industry and Engineering Society of China (CIESC) is a national academic organization established in 1922, composed of chemical scientists, engineers and practitioners. Operating under the guidance of the China Association for Science and Technology (CAST), CIESC is the oldest and most authoritative academic body in China's chemical industry. It publishes authoritative industry data including chemical industry economic operation reports, R&D trends in petrochemicals, fine chemicals, coal chemicals, new materials and green chemistry, technology assessment and patent analyses, chemical engineering standards, and expert reports on industrial safety, emission reduction and carbon neutrality pathways. CIESC also publishes leading academic journals (such as Journal of Chemical Industry and Engineering, CIESC Journal) indexed by SCI/EI, hosts national chemical engineering conferences, and releases consulting reports commissioned by government ministries on the chemical sector's modernization, decarbonization, and international competitiveness.",
+        "zh": "中国化工学会（CIESC）是由化工科学家、工程师和从业人员组成的全国性学术组织，成立于1922年，是中国化工行业历史最悠久、最权威的学术团体，业务受中国科学技术协会指导。学会发布权威的行业数据，包括化工行业经济运行报告、石油化工与精细化工、煤化工、新材料、绿色化学等领域的研发动向、技术评估与专利分析、化工工程标准，以及工业安全、减排和碳中和路径的专家报告。学会还出版SCI/EI收录的《化工学报》等权威学术期刊，主办全国化学工程年会等行业大会，并受政府部委委托发布关于化工行业现代化、低碳转型和国际竞争力的咨询报告。"
+      },
+      "website": "https://www.ciesc.cn",
+      "data_url": "https://www.ciesc.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "industry",
+        "chemistry"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "ciesc",
+        "中国化工学会",
+        "化工行业",
+        "化学工程",
+        "chemical-industry",
+        "chemical-engineering",
+        "petrochemicals",
+        "石油化工",
+        "煤化工",
+        "fine-chemicals",
+        "精细化工",
+        "green-chemistry",
+        "cast",
+        "化工期刊",
+        "academic-society"
+      ],
+      "data_content": {
+        "en": [
+          "Chemical industry economic operation and trend reports",
+          "R&D progress in petrochemicals, fine chemicals, coal chemicals and new materials",
+          "Technology assessments and patent analyses for chemical processes",
+          "Chemical engineering standards and technical guidelines",
+          "Industrial safety, emission reduction and carbon neutrality pathway studies",
+          "Academic journals (CIESC Journal, Journal of Chemical Industry and Engineering)",
+          "National chemical engineering conference proceedings and expert reports"
+        ],
+        "zh": [
+          "化工行业经济运行与趋势报告",
+          "石油化工、精细化工、煤化工与新材料研发进展",
+          "化工工艺技术评估与专利分析",
+          "化工工程标准与技术指南",
+          "工业安全、减排与碳中和路径研究",
+          "《化工学报》《化学工业与工程》等权威学术期刊",
+          "全国化学工程年会论文集及专家报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-ciesc.json"
     },
     {
       "id": "china-ciia",

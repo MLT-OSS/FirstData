@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T02:45:57.953930+00:00",
-    "total_domains": 729,
-    "total_sources": 674,
+    "generated_at": "2026-05-04T06:42:43.195561+00:00",
+    "total_domains": 731,
+    "total_sources": 679,
     "version": "2.0"
   },
   "domains": {
@@ -3344,6 +3344,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-ciesc",
+        "name": {
+          "en": "Chemical Industry and Engineering Society of China",
+          "zh": "中国化工学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ciesc.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciesc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "derwent-innovation-index",
         "name": {
           "en": "Derwent Innovation Index",
@@ -4161,6 +4173,18 @@
       }
     ],
     "coal": [
+      {
+        "id": "china-chinacoal",
+        "name": {
+          "en": "China National Coal Group Corporation",
+          "zh": "中国中煤能源集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinacoal.com",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-chinacoal.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "usa-eia",
         "name": {
@@ -7415,6 +7439,20 @@
         "geographic_scope": "regional"
       }
     ],
+    "diplomacy": [
+      {
+        "id": "china-cafiu",
+        "name": {
+          "en": "China Association for International Understanding",
+          "zh": "中国国际交流协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cafiu.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cafiu.json",
+        "geographic_scope": "national"
+      }
+    ],
     "disability": [
       {
         "id": "aus-aihw",
@@ -8419,6 +8457,18 @@
         "data_url": "https://www.cansi.org.cn/cms/document/show/43.html",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-cansi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cantonfair",
+        "name": {
+          "en": "China Import and Export Fair (Canton Fair)",
+          "zh": "中国进出口商品交易会（广交会）"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cantonfair.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cantonfair.json",
         "geographic_scope": "national"
       },
       {
@@ -12241,6 +12291,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csg",
+        "name": {
+          "en": "China Southern Power Grid",
+          "zh": "中国南方电网有限责任公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csg.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-csg.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "usa-eia",
         "name": {
           "en": "U.S. Energy Information Administration",
@@ -13247,6 +13309,30 @@
         "has_api": false,
         "file_path": "china/resources/china-sinopec.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinacoal",
+        "name": {
+          "en": "China National Coal Group Corporation",
+          "zh": "中国中煤能源集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinacoal.com",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-chinacoal.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csg",
+        "name": {
+          "en": "China Southern Power Grid",
+          "zh": "中国南方电网有限责任公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csg.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-csg.json",
+        "geographic_scope": "subnational"
       },
       {
         "id": "china-cace",
@@ -18228,6 +18314,20 @@
         "geographic_scope": "global"
       }
     ],
+    "foreign-trade": [
+      {
+        "id": "china-cantonfair",
+        "name": {
+          "en": "China Import and Export Fair (Canton Fair)",
+          "zh": "中国进出口商品交易会（广交会）"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cantonfair.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cantonfair.json",
+        "geographic_scope": "national"
+      }
+    ],
     "foreign-trade-statistics": [
       {
         "id": "india-dgcis",
@@ -19083,6 +19183,18 @@
         "data_url": "https://www.acla.org.cn/acla/tjxx/",
         "has_api": false,
         "file_path": "china/governance/china-acla.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cafiu",
+        "name": {
+          "en": "China Association for International Understanding",
+          "zh": "中国国际交流协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cafiu.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cafiu.json",
         "geographic_scope": "national"
       },
       {
@@ -22562,6 +22674,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ciesc",
+        "name": {
+          "en": "Chemical Industry and Engineering Society of China",
+          "zh": "中国化工学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ciesc.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciesc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ciia",
         "name": {
           "en": "China Information Association",
@@ -23509,6 +23633,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-csg",
+        "name": {
+          "en": "China Southern Power Grid",
+          "zh": "中国南方电网有限责任公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.csg.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-csg.json",
+        "geographic_scope": "subnational"
+      },
+      {
         "id": "china-chinawater",
         "name": {
           "en": "China Water Resources Portal",
@@ -24301,6 +24437,18 @@
       }
     ],
     "international-relations": [
+      {
+        "id": "china-cafiu",
+        "name": {
+          "en": "China Association for International Understanding",
+          "zh": "中国国际交流协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cafiu.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cafiu.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-cidca",
         "name": {
@@ -26854,6 +27002,18 @@
       }
     ],
     "mining": [
+      {
+        "id": "china-chinacoal",
+        "name": {
+          "en": "China National Coal Group Corporation",
+          "zh": "中国中煤能源集团有限公司"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinacoal.com",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-chinacoal.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-nmsa",
         "name": {
@@ -35972,6 +36132,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ciesc",
+        "name": {
+          "en": "Chemical Industry and Engineering Society of China",
+          "zh": "中国化工学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.ciesc.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-ciesc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cima",
         "name": {
           "en": "China Instrumentation and Measurement Society",
@@ -36637,6 +36809,18 @@
         "data_url": "https://www.cansi.org.cn/cms/document/show/43.html",
         "has_api": false,
         "file_path": "china/economy/industry_associations/china-cansi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cantonfair",
+        "name": {
+          "en": "China Import and Export Fair (Canton Fair)",
+          "zh": "中国进出口商品交易会（广交会）"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cantonfair.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-cantonfair.json",
         "geographic_scope": "national"
       },
       {
