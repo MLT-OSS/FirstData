@@ -1,0 +1,61 @@
+{
+  "id": "china-nifdc",
+  "name": {
+    "en": "National Institutes for Food and Drug Control",
+    "zh": "中国食品药品检定研究院"
+  },
+  "description": {
+    "en": "The National Institutes for Food and Drug Control (NIFDC) is China's highest national-level technical institution for quality control and standard-setting of drugs, biologics, medical devices, food, and cosmetics, operating under the National Medical Products Administration (NMPA). Established in 1950, NIFDC is responsible for the development and revision of national drug standards (Chinese Pharmacopoeia), biological product batch release testing, and reference substance management. The institute publishes official drug standard databases, batch release reports, adverse event signals for biologics and vaccines, food contaminant benchmark data, and inspection methodology standards. NIFDC's quality control data and standard documents are mandatory references for pharmaceutical manufacturers, regulatory agencies, and clinical research institutions across China and are widely cited in international pharmacovigilance research.",
+    "zh": "中国食品药品检定研究院（中检院）是药品、生物制品、医疗器械、食品和化妆品质量控制与标准制定的国家级最高技术机构，隶属于国家药品监督管理局。研究院成立于1950年，负责国家药品标准（中国药典）的制定与修订、生物制品批签发检验和标准物质管理，发布国家药品标准数据库、批签发报告、生物制品和疫苗不良事件信号、食品污染物基准数据及检验方法标准。中检院的质量控制数据和标准文件是全国药品生产企业、监管机构及临床研究机构的强制参考依据，并被国际药物警戒研究广泛引用。"
+  },
+  "website": "https://www.nifdc.org.cn",
+  "data_url": "https://www.nifdc.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "pharmaceuticals",
+    "food-safety",
+    "standards"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "nifdc",
+    "中检院",
+    "中国食品药品检定研究院",
+    "药品标准",
+    "中国药典",
+    "生物制品",
+    "批签发",
+    "疫苗",
+    "药品质量",
+    "food-drug-control",
+    "pharmacopoeia",
+    "drug-standards",
+    "vaccine-testing",
+    "food-safety",
+    "medical-devices"
+  ],
+  "data_content": {
+    "en": [
+      "National drug standards (Chinese Pharmacopoeia) database",
+      "Biological product batch release testing results",
+      "Reference substance catalog and technical requirements",
+      "Drug adverse event and quality risk signals",
+      "Food and cosmetic contaminant benchmark data",
+      "Medical device testing standards and reports",
+      "Annual national drug quality sampling inspection reports"
+    ],
+    "zh": [
+      "国家药品标准（中国药典）数据库",
+      "生物制品批签发检验结果",
+      "标准物质目录与技术要求",
+      "药品不良事件与质量风险信号",
+      "食品和化妆品污染物基准数据",
+      "医疗器械检验标准与报告",
+      "年度国家药品质量抽检报告"
+    ]
+  }
+}
