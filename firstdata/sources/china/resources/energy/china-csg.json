@@ -1,0 +1,64 @@
+{
+  "id": "china-csg",
+  "name": {
+    "en": "China Southern Power Grid",
+    "zh": "中国南方电网有限责任公司"
+  },
+  "description": {
+    "en": "China Southern Power Grid Co., Ltd. (CSG) is one of the two major state-owned grid enterprises in China, responsible for investment, construction and operation of the power grid in five southern provinces (Guangdong, Guangxi, Yunnan, Guizhou, and Hainan) and cross-border power trade with Vietnam, Laos, and Myanmar within the Greater Mekong Subregion. Headquartered in Guangzhou and directly administered by SASAC of the State Council, CSG publishes authoritative data covering electricity generation and consumption in southern China, peak load and grid reliability indicators, west-to-east power transmission volumes, renewable energy integration (solar, wind, hydro), smart grid and UHV transmission projects, power market trading statistics in the Southern Regional Electricity Market, electric vehicle charging infrastructure, and carbon emission reduction from clean energy substitution. Its annual social responsibility report, sustainability report, and operational bulletins are primary references for tracking southern China's energy transition, new power system construction, and grid-level decarbonization progress.",
+    "zh": "中国南方电网有限责任公司（南方电网/南网）是中国两大国有电网企业之一，负责广东、广西、云南、贵州、海南五省区电网的投资建设与运营，同时承担与越南、老挝、缅甸的跨境电力交易及大湄公河次区域合作。南网总部位于广州，由国务院国资委直接监管。公司发布权威数据，涵盖南方五省区发电量、全社会用电量、最高负荷和电网可靠性指标、西电东送输送电量、新能源（光伏、风电、水电）消纳、智能电网与特高压输电工程、南方区域电力市场交易数据、电动汽车充电基础设施，以及清洁能源替代带来的碳减排量。其年度社会责任报告、可持续发展报告和运行简报是追踪南方区域能源转型、新型电力系统建设和电网级低碳发展的重要参考。"
+  },
+  "website": "https://www.csg.cn",
+  "data_url": "https://www.csg.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "energy",
+    "electricity",
+    "infrastructure"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "csg",
+    "中国南方电网",
+    "南方电网",
+    "南网",
+    "electricity",
+    "power-grid",
+    "发电量",
+    "用电量",
+    "west-to-east-power",
+    "西电东送",
+    "renewable-energy",
+    "新能源",
+    "smart-grid",
+    "sasac",
+    "南方五省区"
+  ],
+  "data_content": {
+    "en": [
+      "Electricity generation and consumption data for five southern provinces",
+      "Peak load and grid reliability indicators",
+      "West-to-East Electricity Transmission volumes",
+      "Renewable energy (solar, wind, hydro) integration statistics",
+      "Smart grid and UHV transmission project data",
+      "Southern Regional Electricity Market trading statistics",
+      "EV charging infrastructure deployment",
+      "Carbon emission reduction from clean energy substitution",
+      "Annual social responsibility and sustainability reports"
+    ],
+    "zh": [
+      "南方五省区发电量与全社会用电量数据",
+      "最高负荷与电网可靠性指标",
+      "西电东送输送电量统计",
+      "新能源（光伏、风电、水电）消纳数据",
+      "智能电网与特高压输电工程数据",
+      "南方区域电力市场交易统计",
+      "电动汽车充电基础设施部署情况",
+      "清洁能源替代带来的碳减排量",
+      "年度社会责任报告与可持续发展报告"
+    ]
+  }
+}

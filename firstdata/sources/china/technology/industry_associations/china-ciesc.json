@@ -1,0 +1,60 @@
+{
+  "id": "china-ciesc",
+  "name": {
+    "en": "Chemical Industry and Engineering Society of China",
+    "zh": "中国化工学会"
+  },
+  "description": {
+    "en": "The Chemical Industry and Engineering Society of China (CIESC) is a national academic organization established in 1922, composed of chemical scientists, engineers and practitioners. Operating under the guidance of the China Association for Science and Technology (CAST), CIESC is the oldest and most authoritative academic body in China's chemical industry. It publishes authoritative industry data including chemical industry economic operation reports, R&D trends in petrochemicals, fine chemicals, coal chemicals, new materials and green chemistry, technology assessment and patent analyses, chemical engineering standards, and expert reports on industrial safety, emission reduction and carbon neutrality pathways. CIESC also publishes leading academic journals (such as Journal of Chemical Industry and Engineering, CIESC Journal) indexed by SCI/EI, hosts national chemical engineering conferences, and releases consulting reports commissioned by government ministries on the chemical sector's modernization, decarbonization, and international competitiveness.",
+    "zh": "中国化工学会（CIESC）是由化工科学家、工程师和从业人员组成的全国性学术组织，成立于1922年，是中国化工行业历史最悠久、最权威的学术团体，业务受中国科学技术协会指导。学会发布权威的行业数据，包括化工行业经济运行报告、石油化工与精细化工、煤化工、新材料、绿色化学等领域的研发动向、技术评估与专利分析、化工工程标准，以及工业安全、减排和碳中和路径的专家报告。学会还出版SCI/EI收录的《化工学报》等权威学术期刊，主办全国化学工程年会等行业大会，并受政府部委委托发布关于化工行业现代化、低碳转型和国际竞争力的咨询报告。"
+  },
+  "website": "https://www.ciesc.cn",
+  "data_url": "https://www.ciesc.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "chemistry"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "ciesc",
+    "中国化工学会",
+    "化工行业",
+    "化学工程",
+    "chemical-industry",
+    "chemical-engineering",
+    "petrochemicals",
+    "石油化工",
+    "煤化工",
+    "fine-chemicals",
+    "精细化工",
+    "green-chemistry",
+    "cast",
+    "化工期刊",
+    "academic-society"
+  ],
+  "data_content": {
+    "en": [
+      "Chemical industry economic operation and trend reports",
+      "R&D progress in petrochemicals, fine chemicals, coal chemicals and new materials",
+      "Technology assessments and patent analyses for chemical processes",
+      "Chemical engineering standards and technical guidelines",
+      "Industrial safety, emission reduction and carbon neutrality pathway studies",
+      "Academic journals (CIESC Journal, Journal of Chemical Industry and Engineering)",
+      "National chemical engineering conference proceedings and expert reports"
+    ],
+    "zh": [
+      "化工行业经济运行与趋势报告",
+      "石油化工、精细化工、煤化工与新材料研发进展",
+      "化工工艺技术评估与专利分析",
+      "化工工程标准与技术指南",
+      "工业安全、减排与碳中和路径研究",
+      "《化工学报》《化学工业与工程》等权威学术期刊",
+      "全国化学工程年会论文集及专家报告"
+    ]
+  }
+}

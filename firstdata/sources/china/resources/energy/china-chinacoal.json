@@ -1,0 +1,64 @@
+{
+  "id": "china-chinacoal",
+  "name": {
+    "en": "China National Coal Group Corporation",
+    "zh": "中国中煤能源集团有限公司"
+  },
+  "description": {
+    "en": "China National Coal Group Corporation (China Coal / ChinaCoal) is a major state-owned coal mining and energy enterprise directly administered by SASAC of the State Council. Established in 1982 and listed on both the Shanghai Stock Exchange (601898.SH) and Hong Kong Stock Exchange (01898.HK) through its flagship China Coal Energy Company Ltd., the Group is among the top five coal producers in China. It publishes authoritative operational and industry data covering raw coal production and commercial coal sales, coal washing and processing output, coal chemical products (methanol, olefins, urea, fertilizers), coal-fired power generation, coal-mining equipment manufacturing, major mine safety indicators, R&D spending on clean coal technology and carbon capture pilots, and internal supply contracts with power plants and steel mills. China Coal's monthly production announcements, annual reports, ESG reports, and investor communications are widely used by energy analysts, commodity traders, and researchers tracking China's coal supply-demand balance, energy transition, and the pace of clean-coal decarbonization.",
+    "zh": "中国中煤能源集团有限公司（中煤集团）是国务院国资委直接监管的大型国有煤炭能源企业，成立于1982年，其旗舰上市平台中国中煤能源股份有限公司在上海证券交易所（601898.SH）和香港联合交易所（01898.HK）两地上市，是中国排名前五的煤炭生产企业。集团发布权威的经营和行业数据，涵盖原煤产量和商品煤销售量、洗精煤与煤炭加工产量、煤化工产品（甲醇、烯烃、尿素、化肥）、煤电发电量、煤机装备制造、重大矿井安全指标、清洁煤技术和碳捕集试点研发投入，以及与电厂和钢厂的长协供应数据。中煤集团的月度生产公告、年报、ESG报告和投资者沟通材料，广泛被能源分析师、大宗商品交易员以及研究中国煤炭供需平衡、能源转型和清洁煤低碳化进展的研究者引用。"
+  },
+  "website": "https://www.chinacoal.com",
+  "data_url": "https://www.chinacoal.com",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "mining",
+    "coal"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "china-coal",
+    "中煤集团",
+    "中国中煤",
+    "coal-mining",
+    "煤炭",
+    "原煤产量",
+    "煤化工",
+    "coal-chemical",
+    "methanol",
+    "olefins",
+    "sasac",
+    "601898",
+    "01898-hk",
+    "state-owned-enterprise",
+    "清洁煤"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly raw coal production and commercial coal sales volumes",
+      "Coal washing and processing output statistics",
+      "Coal chemical products output (methanol, olefins, urea, fertilizers)",
+      "Coal-fired power generation statistics",
+      "Coal-mining equipment manufacturing data",
+      "Major mine safety indicators",
+      "R&D spending on clean coal and carbon capture technologies",
+      "Annual reports, ESG reports and sustainability disclosures",
+      "Long-term supply contracts with power plants and steel mills"
+    ],
+    "zh": [
+      "月度原煤产量与商品煤销售量",
+      "洗精煤与煤炭加工产量统计",
+      "煤化工产品产量（甲醇、烯烃、尿素、化肥）",
+      "煤电发电量统计",
+      "煤机装备制造数据",
+      "重大矿井安全指标",
+      "清洁煤技术与碳捕集研发投入",
+      "年度报告、ESG报告和可持续发展披露",
+      "与电厂和钢厂的长期供应合同"
+    ]
+  }
+}
