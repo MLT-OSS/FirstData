@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T02:23:58.474635+00:00",
+    "generated_at": "2026-05-04T02:45:57.953930+00:00",
     "total_regions": 58,
-    "total_sources": 669,
+    "total_sources": 674,
     "version": "2.0"
   },
   "regions": {
@@ -3351,6 +3351,18 @@
         "data_url": "https://data.cma.cn",
         "has_api": false,
         "file_path": "china/national/meteorology/china-cma.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ncc",
+        "name": {
+          "en": "National Climate Center of China (NCC-CMA)",
+          "zh": "国家气候中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://cmdp.ncc-cma.net",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-ncc.json",
         "geographic_scope": "national"
       },
       {

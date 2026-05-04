@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T02:23:58.474635+00:00",
+    "generated_at": "2026-05-04T02:45:57.953930+00:00",
     "total_domains": 729,
-    "total_sources": 669,
+    "total_sources": 674,
     "version": "2.0"
   },
   "domains": {
@@ -3493,6 +3493,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ncc",
+        "name": {
+          "en": "National Climate Center of China (NCC-CMA)",
+          "zh": "国家气候中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://cmdp.ncc-cma.net",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-ncc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nmc",
         "name": {
           "en": "National Meteorological Centre of China",
@@ -3829,6 +3841,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "cdp",
+        "name": {
+          "en": "CDP - Carbon Disclosure Project",
+          "zh": "碳信息披露项目"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cdp.net/en/data",
+        "has_api": false,
+        "file_path": "international/climate/cdp.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "ecmwf",
         "name": {
           "en": "European Centre for Medium-Range Weather Forecasts",
@@ -3850,6 +3874,18 @@
         "data_url": "https://ember-climate.org/data/",
         "has_api": true,
         "file_path": "international/climate/ember-climate.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "global-carbon-project",
+        "name": {
+          "en": "Global Carbon Project",
+          "zh": "全球碳项目"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.globalcarbonproject.org/carbonbudget/",
+        "has_api": false,
+        "file_path": "international/climate/global-carbon-project.json",
         "geographic_scope": "global"
       },
       {
@@ -13442,6 +13478,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "global-carbon-project",
+        "name": {
+          "en": "Global Carbon Project",
+          "zh": "全球碳项目"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.globalcarbonproject.org/carbonbudget/",
+        "has_api": false,
+        "file_path": "international/climate/global-carbon-project.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "unfccc",
         "name": {
           "en": "UNFCCC - United Nations Framework Convention on Climate Change",
@@ -14023,6 +14071,18 @@
         "data_url": "https://data.cma.cn",
         "has_api": false,
         "file_path": "china/national/meteorology/china-cma.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ncc",
+        "name": {
+          "en": "National Climate Center of China (NCC-CMA)",
+          "zh": "国家气候中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://cmdp.ncc-cma.net",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-ncc.json",
         "geographic_scope": "national"
       },
       {
@@ -15043,6 +15103,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "cdp",
+        "name": {
+          "en": "CDP - Carbon Disclosure Project",
+          "zh": "碳信息披露项目"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cdp.net/en/data",
+        "has_api": false,
+        "file_path": "international/climate/cdp.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "ecmwf",
         "name": {
           "en": "European Centre for Medium-Range Weather Forecasts",
@@ -15064,6 +15136,18 @@
         "data_url": "https://ember-climate.org/data/",
         "has_api": true,
         "file_path": "international/climate/ember-climate.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "global-carbon-project",
+        "name": {
+          "en": "Global Carbon Project",
+          "zh": "全球碳项目"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.globalcarbonproject.org/carbonbudget/",
+        "has_api": false,
+        "file_path": "international/climate/global-carbon-project.json",
         "geographic_scope": "global"
       },
       {
@@ -15669,6 +15753,30 @@
       }
     ],
     "esg-data": [
+      {
+        "id": "global-reporting-initiative",
+        "name": {
+          "en": "GRI - Global Reporting Initiative",
+          "zh": "全球报告倡议组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.globalreporting.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/global-reporting-initiative.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "sasb-standards",
+        "name": {
+          "en": "SASB Standards (IFRS Foundation)",
+          "zh": "SASB可持续发展会计准则（IFRS基金会）"
+        },
+        "authority_level": "international",
+        "data_url": "https://sasb.ifrs.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/sasb-standards.json",
+        "geographic_scope": "global"
+      },
       {
         "id": "bloomberg-terminal",
         "name": {
@@ -16872,6 +16980,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "cdp",
+        "name": {
+          "en": "CDP - Carbon Disclosure Project",
+          "zh": "碳信息披露项目"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cdp.net/en/data",
+        "has_api": false,
+        "file_path": "international/climate/cdp.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "adb-data",
         "name": {
           "en": "Asian Development Bank Data Library",
@@ -17063,6 +17183,18 @@
         "data_url": "https://fts.unocha.org",
         "has_api": true,
         "file_path": "international/humanitarian/un-ocha-fts.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "sasb-standards",
+        "name": {
+          "en": "SASB Standards (IFRS Foundation)",
+          "zh": "SASB可持续发展会计准则（IFRS基金会）"
+        },
+        "authority_level": "international",
+        "data_url": "https://sasb.ifrs.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/sasb-standards.json",
         "geographic_scope": "global"
       },
       {
@@ -26552,6 +26684,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ncc",
+        "name": {
+          "en": "National Climate Center of China (NCC-CMA)",
+          "zh": "国家气候中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://cmdp.ncc-cma.net",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-ncc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nmc",
         "name": {
           "en": "National Meteorological Centre of China",
@@ -33938,6 +34082,30 @@
         "has_api": false,
         "file_path": "international/construction/iso-construction.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "global-reporting-initiative",
+        "name": {
+          "en": "GRI - Global Reporting Initiative",
+          "zh": "全球报告倡议组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.globalreporting.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/global-reporting-initiative.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "sasb-standards",
+        "name": {
+          "en": "SASB Standards (IFRS Foundation)",
+          "zh": "SASB可持续发展会计准则（IFRS基金会）"
+        },
+        "authority_level": "international",
+        "data_url": "https://sasb.ifrs.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/sasb-standards.json",
+        "geographic_scope": "global"
       }
     ],
     "state-assets": [
@@ -35175,6 +35343,30 @@
         "data_url": "https://www.iso.org/committee/49070/x/catalogue/",
         "has_api": false,
         "file_path": "international/construction/iso-construction.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "global-reporting-initiative",
+        "name": {
+          "en": "GRI - Global Reporting Initiative",
+          "zh": "全球报告倡议组织"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.globalreporting.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/global-reporting-initiative.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "sasb-standards",
+        "name": {
+          "en": "SASB Standards (IFRS Foundation)",
+          "zh": "SASB可持续发展会计准则（IFRS基金会）"
+        },
+        "authority_level": "international",
+        "data_url": "https://sasb.ifrs.org/standards/",
+        "has_api": false,
+        "file_path": "international/standards-metrology/sasb-standards.json",
         "geographic_scope": "global"
       },
       {

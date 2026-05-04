@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T02:23:58.474635+00:00",
-    "total_sources": 669,
+    "generated_at": "2026-05-04T02:45:57.953930+00:00",
+    "total_sources": 674,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -19554,6 +19554,61 @@
       "file_path": "china/national/meteorology/china-cma.json"
     },
     {
+      "id": "china-ncc",
+      "name": {
+        "en": "National Climate Center of China (NCC-CMA)",
+        "zh": "国家气候中心"
+      },
+      "description": {
+        "en": "The National Climate Center (NCC) under the China Meteorological Administration (CMA) is China's authoritative research and service institution for climate monitoring, prediction, climate change assessment, and climate applications. It provides national climate bulletins, seasonal outlooks, climate change monitoring products, and historical climate data.",
+        "zh": "国家气候中心隶属于中国气象局，是中国气候监测、预测、气候变化评估与气候应用的权威研究与业务机构。提供国家气候公报、季节气候预测、气候变化监测产品及历史气候数据。"
+      },
+      "website": "https://www.ncc-cma.net",
+      "data_url": "https://cmdp.ncc-cma.net",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "domains": [
+        "climate",
+        "meteorology",
+        "environment"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "climate",
+        "气候",
+        "climate-change",
+        "气候变化",
+        "climate-monitoring",
+        "气候监测",
+        "climate-prediction",
+        "气候预测",
+        "china-climate",
+        "中国气候",
+        "NCC",
+        "CMA"
+      ],
+      "data_content": {
+        "en": [
+          "National climate bulletins and annual climate assessment reports",
+          "Seasonal and monthly climate outlook products",
+          "Climate change monitoring indicators (temperature, precipitation, extreme events)",
+          "Historical climate datasets and drought/flood records",
+          "Climate system diagnostic products (ENSO, monsoon, teleconnections)"
+        ],
+        "zh": [
+          "国家气候公报和年度气候评估报告",
+          "季节和月度气候预测产品",
+          "气候变化监测指标（气温、降水、极端事件）",
+          "历史气候数据集和旱涝灾害记录",
+          "气候系统诊断产品（ENSO、季风、遥相关）"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/national/meteorology/china-ncc.json"
+    },
+    {
       "id": "china-nmc",
       "name": {
         "en": "National Meteorological Centre of China",
@@ -38614,6 +38669,62 @@
       "file_path": "international/agriculture/ico-coffee.json"
     },
     {
+      "id": "cdp",
+      "name": {
+        "en": "CDP - Carbon Disclosure Project",
+        "zh": "碳信息披露项目"
+      },
+      "description": {
+        "en": "CDP (formerly the Carbon Disclosure Project) runs the world's largest environmental disclosure system for companies, cities, states, and regions. Its Open Data Portal provides company-level disclosures on climate change, water security, and forests, including Scope 1/2/3 greenhouse gas emissions, climate risk assessments, and emissions-reduction targets.",
+        "zh": "CDP（原碳信息披露项目）运营全球最大的企业、城市、州省和地区环境信息披露系统。其开放数据门户提供公司层级的气候变化、水安全与森林披露数据，包括范围1/2/3温室气体排放、气候风险评估和减排目标。"
+      },
+      "website": "https://www.cdp.net",
+      "data_url": "https://www.cdp.net/en/data",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "climate",
+        "environment",
+        "finance"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "esg",
+        "环境信息披露",
+        "climate-disclosure",
+        "气候披露",
+        "corporate-emissions",
+        "企业排放",
+        "scope-3",
+        "范围三",
+        "carbon-disclosure",
+        "碳披露",
+        "climate-risk",
+        "气候风险",
+        "CDP"
+      ],
+      "data_content": {
+        "en": [
+          "Corporate climate change disclosures including Scope 1/2/3 greenhouse gas emissions",
+          "Water security and forests disclosures from thousands of companies worldwide",
+          "Company climate scores (A to D-) and sector-level benchmarking",
+          "City and regional government environmental disclosures",
+          "Supply chain emissions and science-based targets data"
+        ],
+        "zh": [
+          "企业气候变化披露，包括范围1/2/3温室气体排放",
+          "全球数千家公司的水安全与森林披露",
+          "公司气候评分（A至D-）和行业基准对比",
+          "城市和区域政府环境信息披露",
+          "供应链排放与科学碳目标数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/climate/cdp.json"
+    },
+    {
       "id": "ecmwf",
       "name": {
         "en": "European Centre for Medium-Range Weather Forecasts",
@@ -38708,6 +38819,64 @@
       },
       "has_api": true,
       "file_path": "international/climate/ember-climate.json"
+    },
+    {
+      "id": "global-carbon-project",
+      "name": {
+        "en": "Global Carbon Project",
+        "zh": "全球碳项目"
+      },
+      "description": {
+        "en": "The Global Carbon Project (GCP) is an international scientific consortium that coordinates and publishes the annual Global Carbon Budget, providing the authoritative assessment of anthropogenic CO2, CH4, and N2O emissions, sinks, and atmospheric concentrations. Data products include country- and sector-level fossil fuel CO2 emissions, land-use change emissions, and ocean/land carbon sink estimates.",
+        "zh": "全球碳项目（GCP）是国际科学联盟，负责协调并发布年度《全球碳收支》报告，提供人为二氧化碳、甲烷和氧化亚氮排放、吸收汇及大气浓度的权威评估。数据产品包括国家与行业级化石燃料二氧化碳排放、土地利用变化排放以及海洋和陆地碳汇估算。"
+      },
+      "website": "https://www.globalcarbonproject.org",
+      "data_url": "https://www.globalcarbonproject.org/carbonbudget/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": null,
+      "domains": [
+        "climate",
+        "environment",
+        "energy"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "annual",
+      "tags": [
+        "carbon-budget",
+        "全球碳收支",
+        "co2-emissions",
+        "二氧化碳排放",
+        "methane",
+        "甲烷",
+        "carbon-sink",
+        "碳汇",
+        "greenhouse-gas",
+        "温室气体",
+        "climate-change",
+        "气候变化",
+        "fossil-fuels",
+        "化石燃料",
+        "GCP"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Global Carbon Budget: fossil fuel and land-use change CO2 emissions by country and sector",
+          "Global methane (CH4) and nitrous oxide (N2O) budgets",
+          "Ocean and terrestrial carbon sink estimates",
+          "Historical atmospheric CO2 concentrations and growth rates",
+          "National emissions trajectories and per-capita emissions data"
+        ],
+        "zh": [
+          "年度全球碳收支：按国家和行业划分的化石燃料与土地利用变化二氧化碳排放",
+          "全球甲烷（CH4）和氧化亚氮（N2O）收支",
+          "海洋和陆地碳汇估算",
+          "历史大气二氧化碳浓度与增长率",
+          "各国排放轨迹和人均排放数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/climate/global-carbon-project.json"
     },
     {
       "id": "ipcc",
@@ -43170,6 +43339,117 @@
       "authority_level": "international",
       "has_api": false,
       "file_path": "international/standards-metrology/codex-alimentarius.json"
+    },
+    {
+      "id": "global-reporting-initiative",
+      "name": {
+        "en": "GRI - Global Reporting Initiative",
+        "zh": "全球报告倡议组织"
+      },
+      "description": {
+        "en": "The Global Reporting Initiative (GRI) is an independent international organization that publishes the most widely adopted sustainability reporting standards. GRI provides the GRI Standards for economic, environmental, social and governance disclosures, a Sustainability Disclosure Database of corporate reports, and topic-specific guidance used by companies and regulators worldwide.",
+        "zh": "全球报告倡议组织（GRI）是独立的国际组织，发布全球采用最广泛的可持续发展报告标准。GRI 提供涵盖经济、环境、社会和治理披露的《GRI 准则》、企业报告的可持续发展披露数据库以及各议题专项指南，被全球企业和监管机构广泛使用。"
+      },
+      "website": "https://www.globalreporting.org",
+      "data_url": "https://www.globalreporting.org/standards/",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "esg-data",
+        "sustainability",
+        "standards"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "esg",
+        "esg-reporting",
+        "esg披露",
+        "sustainability-reporting",
+        "可持续发展报告",
+        "gri-standards",
+        "gri准则",
+        "sustainability",
+        "可持续发展",
+        "corporate-disclosure",
+        "企业披露",
+        "GRI"
+      ],
+      "data_content": {
+        "en": [
+          "GRI Standards: Universal, Sector and Topic Standards for sustainability reporting",
+          "GRI Sustainability Disclosure Database of corporate reports",
+          "Sector-specific reporting guidance (e.g., oil & gas, agriculture, coal)",
+          "Interoperability mappings with TCFD, ISSB, SASB and EU CSRD",
+          "Topic-specific standards on GHG emissions, water, biodiversity, labor and human rights"
+        ],
+        "zh": [
+          "GRI 准则：可持续发展报告的通用、行业和议题标准",
+          "GRI 可持续发展披露数据库中的企业报告",
+          "行业专项报告指南（如油气、农业、煤炭）",
+          "与 TCFD、ISSB、SASB 和欧盟 CSRD 的互操作映射",
+          "有关温室气体排放、水、生物多样性、劳工和人权等议题的专项标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/standards-metrology/global-reporting-initiative.json"
+    },
+    {
+      "id": "sasb-standards",
+      "name": {
+        "en": "SASB Standards (IFRS Foundation)",
+        "zh": "SASB可持续发展会计准则（IFRS基金会）"
+      },
+      "description": {
+        "en": "SASB Standards, now maintained by the IFRS Foundation alongside the ISSB, provide industry-specific sustainability disclosure standards covering 77 industries. They identify the subset of environmental, social, and governance (ESG) issues most relevant to financial performance and enterprise value, and are widely used for investor-focused sustainability disclosure globally.",
+        "zh": "SASB 可持续发展会计准则现由 IFRS 基金会与国际可持续准则理事会（ISSB）共同维护，提供覆盖 77 个行业的专项可持续披露准则。该准则识别与财务表现和企业价值最相关的环境、社会与治理（ESG）议题，是面向投资者的可持续信息披露的全球通用标准。"
+      },
+      "website": "https://sasb.ifrs.org",
+      "data_url": "https://sasb.ifrs.org/standards/",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "domains": [
+        "esg-data",
+        "sustainability",
+        "standards",
+        "finance"
+      ],
+      "geographic_scope": "global",
+      "update_frequency": "irregular",
+      "tags": [
+        "sasb",
+        "esg",
+        "esg披露",
+        "sustainability-accounting",
+        "可持续会计",
+        "industry-standards",
+        "行业标准",
+        "issb",
+        "国际可持续准则",
+        "investor-disclosure",
+        "投资者披露",
+        "IFRS"
+      ],
+      "data_content": {
+        "en": [
+          "SASB Standards covering 77 industries across 11 sectors",
+          "Industry-specific financially material ESG disclosure topics and metrics",
+          "Materiality Finder tool for identifying relevant sustainability topics by industry",
+          "Mapping between SASB Standards and IFRS S1/S2 (ISSB) disclosure requirements",
+          "Implementation resources, FAQs, and downloadable standards"
+        ],
+        "zh": [
+          "覆盖 11 个行业板块、77 个细分行业的 SASB 准则",
+          "财务重要的行业特定 ESG 披露议题与指标",
+          "重要性查询工具（Materiality Finder），按行业识别相关可持续议题",
+          "SASB 准则与 IFRS S1/S2（ISSB）披露要求的映射",
+          "实施资源、常见问题和可下载准则文本"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/standards-metrology/sasb-standards.json"
     },
     {
       "id": "bea-international-trade",
