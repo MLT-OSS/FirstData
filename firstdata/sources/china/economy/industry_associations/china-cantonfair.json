@@ -1,0 +1,59 @@
+{
+  "id": "china-cantonfair",
+  "name": {
+    "en": "China Import and Export Fair (Canton Fair)",
+    "zh": "中国进出口商品交易会（广交会）"
+  },
+  "description": {
+    "en": "The China Import and Export Fair, commonly known as the Canton Fair, is the oldest, largest, and most comprehensive international trade fair in China. Hosted biannually in spring and autumn in Guangzhou since 1957, it is jointly organized by the Ministry of Commerce of China (MOFCOM) and the Guangdong Provincial People's Government, and implemented by the China Foreign Trade Centre. The Canton Fair publishes authoritative trade data covering exhibitor enterprise counts, overseas buyer visits by country, on-site transaction turnover by product category and region, new product and green product showcases, cross-border e-commerce statistics, and trade trend analyses. As a key barometer of China's foreign trade, its statistics are widely referenced by economists, policy researchers, and exporters to gauge global demand, supply chain shifts, and the competitiveness of Chinese manufacturing across 16 major product categories including electronics, machinery, textiles, household products, and food.",
+    "zh": "中国进出口商品交易会（简称广交会）是中国规模最大、历史最悠久、商品种类最全、到会采购商最多的综合性国际贸易盛会。广交会自1957年起每年春秋两季在广州举办，由商务部和广东省人民政府联合主办，中国对外贸易中心承办。广交会发布权威的贸易数据，涵盖参展企业数量、境外采购商到会国别分布、按商品类别和地区统计的现场成交额、新产品和绿色产品展示、跨境电商专区数据，以及贸易趋势分析。作为中国外贸的晴雨表，其统计数据被经济学家、政策研究者和出口商广泛引用，用于观察全球需求、供应链变化以及中国制造业在电子电器、机械、纺织服装、家居用品、食品等16大类商品上的竞争力。"
+  },
+  "website": "https://www.cantonfair.org.cn",
+  "data_url": "https://www.cantonfair.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "trade",
+    "foreign-trade"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "canton-fair",
+    "广交会",
+    "中国进出口商品交易会",
+    "外贸",
+    "进出口",
+    "foreign-trade",
+    "import-export",
+    "trade-fair",
+    "mofcom",
+    "guangzhou",
+    "exhibition",
+    "overseas-buyers",
+    "trade-statistics",
+    "成交额"
+  ],
+  "data_content": {
+    "en": [
+      "Biannual exhibitor counts and participating enterprise statistics",
+      "Overseas buyer attendance by country and region",
+      "On-site transaction turnover by product category",
+      "Export trade data for 16 major product categories",
+      "Cross-border e-commerce pilot zone statistics",
+      "Green and new product showcase data",
+      "Foreign trade trend analyses and enterprise surveys"
+    ],
+    "zh": [
+      "春秋两届参展商数量及参展企业统计",
+      "按国家和地区分布的境外采购商到会数据",
+      "按商品类别的现场成交额统计",
+      "16大类商品的出口贸易数据",
+      "跨境电商专区统计数据",
+      "绿色产品和新产品展示数据",
+      "外贸趋势分析与企业调查报告"
+    ]
+  }
+}
