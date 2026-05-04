@@ -1,0 +1,61 @@
+{
+  "id": "china-nifa",
+  "name": {
+    "en": "National Internet Finance Association of China",
+    "zh": "中国互联网金融协会"
+  },
+  "description": {
+    "en": "The National Internet Finance Association of China (NIFA) is the national self-regulatory organization for China's internet finance industry, established in 2016 under the guidance of the People's Bank of China. NIFA oversees regulatory compliance, information disclosure, and industry standards for online lending, digital payments, crowdfunding, and internet insurance. The association publishes authoritative reports on internet finance development, consumer risk warnings, industry statistics on registered platform numbers, transaction volumes, outstanding loans, and investor protection. NIFA operates the National Internet Finance Registration Disclosure System (NIFDS), which aggregates compliance data from thousands of regulated fintech platforms. Its data is essential for monitoring China's fintech sector, peer-to-peer lending cleanup progress, digital credit markets, and regulatory evolution of online financial services.",
+    "zh": "中国互联网金融协会（中互金协）是中国互联网金融行业的全国性自律组织，2016年在中国人民银行指导下成立。协会负责网络借贷、数字支付、众筹和互联网保险等领域的合规监督、信息披露和行业标准制定，发布互联网金融行业发展报告、消费者风险提示，以及注册平台数量、交易规模、贷款余额和投资者保护等权威行业数据。协会运营国家互联网金融登记披露服务平台（NIFDS），汇聚数千家受监管金融科技平台的合规数据。其数据对监测中国金融科技行业、P2P网贷整治进展、数字信贷市场及网络金融服务监管演进具有重要价值。"
+  },
+  "website": "https://www.nifa.org.cn",
+  "data_url": "https://www.nifa.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "fintech",
+    "digital-economy",
+    "regulation"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "nifa",
+    "中国互联网金融协会",
+    "互联网金融",
+    "网络借贷",
+    "P2P",
+    "数字支付",
+    "金融科技",
+    "fintech",
+    "internet-finance",
+    "online-lending",
+    "digital-payment",
+    "p2p-lending",
+    "consumer-protection",
+    "金融监管",
+    "众筹"
+  ],
+  "data_content": {
+    "en": [
+      "Internet finance industry development reports",
+      "Online lending platform statistics (registered platforms, transaction volumes, outstanding loans)",
+      "Digital payment market data",
+      "Crowdfunding and internet insurance statistics",
+      "Consumer risk warnings and investor protection bulletins",
+      "National Internet Finance Registration Disclosure System (NIFDS) compliance data",
+      "Annual internet finance industry summary reports"
+    ],
+    "zh": [
+      "互联网金融行业发展报告",
+      "网络借贷平台统计（注册平台数量、交易规模、贷款余额）",
+      "数字支付市场数据",
+      "众筹及互联网保险统计",
+      "消费者风险提示和投资者保护公告",
+      "国家互联网金融登记披露服务平台（NIFDS）合规数据",
+      "互联网金融行业年度总结报告"
+    ]
+  }
+}

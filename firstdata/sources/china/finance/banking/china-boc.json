@@ -1,0 +1,71 @@
+{
+  "id": "china-boc",
+  "name": {
+    "en": "Bank of China (BOC)",
+    "zh": "中国银行"
+  },
+  "description": {
+    "en": "Bank of China (BOC) is one of China's 'Big Four' state-owned commercial banks and the most internationalized Chinese bank. Established in 1912 and present in over 60 countries and regions, BOC is also the principal bank for RMB clearing and settlement in many overseas markets. BOC is China's designated foreign exchange bank and publishes authoritative daily RMB exchange rate reference prices (中间价) used widely across Chinese financial markets. In addition to comprehensive annual and interim financial reports covering capital ratios, asset quality, and profitability metrics, BOC provides key international financial data including cross-border trade finance volumes, overseas corporate banking statistics, and offshore RMB (CNH) market data. BOC's exchange rate and cross-border finance data are essential references for multinational corporations operating in China, foreign exchange risk management, and analysis of China's capital account liberalization progress.",
+    "zh": "中国银行（中行/BOC）是中国“四大行”之一，也是国际化程度最高的中国银行。中行创立于1912年，在全球逾60个国家和地区设有机构，同时是多个海外市场人民币清结算的主要银行。中行是中国官方指定的外汇专业银行，每日发布被中国金融市场广泛引用的人民币汇率中间价。除涵盖资本充足率、资产质量和盈利指标的完整年报和中报外，中行还提供跨境贸易融资规模、海外公司银行业务统计及离岸人民币（CNH）市场数据等关键国际金融数据。中行汇率和跨境金融数据是在华跨国企业外汇风险管理、人民币国际化进展分析及中国资本账户开放程度评估的重要参考。"
+  },
+  "website": "https://www.boc.cn",
+  "data_url": "https://www.boc.cn/fimarkets/",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "international-trade"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "boc",
+    "中国银行",
+    "bank-of-china",
+    "国有商业银行",
+    "state-owned-bank",
+    "外汇",
+    "foreign-exchange",
+    "人民币汇率",
+    "rmb-exchange-rate",
+    "汇率中间价",
+    "exchange-rate-midpoint",
+    "跨境贸易融资",
+    "cross-border-trade-finance",
+    "离岸人民币",
+    "offshore-rmb",
+    "cnh",
+    "年报",
+    "annual-report",
+    "资本充足率",
+    "capital-adequacy",
+    "银行业",
+    "banking",
+    "人民币国际化",
+    "rmb-internationalization"
+  ],
+  "data_content": {
+    "en": [
+      "Daily RMB exchange rate middle rates (中间价): official CNY reference prices against USD, EUR, JPY, HKD, GBP, AUD, CAD, and 20+ other currencies",
+      "Foreign currency exchange rates: spot rates, forward rates, and cross rates updated throughout trading hours",
+      "Annual and interim financial reports: comprehensive financial statements with capital adequacy ratios, NPL ratios, and profitability metrics",
+      "Cross-border trade finance data: letter of credit volumes, cross-border RMB settlement statistics, and trade facilitation metrics",
+      "Offshore RMB (CNH) market data: Hong Kong and Singapore RMB deposit pools, CNH interbank rates",
+      "International banking statistics: country-by-country breakdown of overseas asset exposure and profitability",
+      "Interest rate publications: RMB deposit rates, loan prime rate (LPR) applications, and foreign currency deposit rates",
+      "SWIFT RMB internationalization data: BOC's share in global RMB cross-border payments and correspondent banking"
+    ],
+    "zh": [
+      "每日人民币汇率中间价：人民币兑美元、欧元、日元、港元、英镑、澳元、加元等20多种货币的官方参考汇率",
+      "外币即期汇率、远期汇率及交叉汇率，在交易时间内实时更新",
+      "年报和中报：涵盖资本充足率、不良贷款率和盈利指标的完整财务报表",
+      "跨境贸易融资数据：信用证业务量、跨境人民币结算统计及贸易便利化指标",
+      "离岸人民币（CNH）市场数据：香港和新加坡人民币存款池规模、CNH同业利率",
+      "国际银行业统计：各国海外资产敞口及盈利能力分国别披露",
+      "利率公告：人民币存款利率、贷款市场报价利率（LPR）应用及外币存款利率",
+      "SWIFT人民币国际化数据：中行在全球人民币跨境支付及代理行网络中的占比"
+    ]
+  }
+}

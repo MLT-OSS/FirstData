@@ -1,0 +1,60 @@
+{
+  "id": "china-ccs-crop",
+  "name": {
+    "en": "Chinese Crop Science Society",
+    "zh": "中国作物学会"
+  },
+  "description": {
+    "en": "The Chinese Crop Science Society (CCSS) is the national academic society for crop science under the China Association for Science and Technology (CAST), established in 1978. Representing researchers, breeders, and agronomists across China, CCSS is the authoritative academic body for crop genetics, breeding, cultivation, and production research. The society administers the National Crop Variety Data Platform, which provides data on varieties approved through the national examination and approval process, including variety characteristics, adaptability regions, cultivation guidelines, and yield benchmarks. CCSS publishes leading academic journals including Acta Agronomica Sinica and Crops, and compiles crop production statistics, germplasm resource data, and national trial datasets for major field crops including rice, wheat, maize, soybean, cotton, and rapeseed. Its data serves as the authoritative reference for agricultural R&D, seed industry regulation, and food production capacity assessment.",
+    "zh": "中国作物学会（CCSS）是中国科学技术协会下属的作物科学全国性学术社团，成立于1978年。学会代表全国作物遗传、育种、栽培和生产领域的研究人员，是作物遗传育种、栽培技术及生产研究的权威学术机构。学会管理全国作物品种数据平台，提供通过国家审定和登记的品种特征特性、适宜种植区域、栽培技术规程及产量基准数据。学会出版《作物学报》《作物杂志》等权威学术期刊，汇编作物生产统计数据、种质资源数据及水稻、小麦、玉米、大豆、棉花、油菜等主要大田作物国家试验数据集。其数据是农业科研、种子行业监管及粮食生产能力评估的权威参考依据。"
+  },
+  "website": "https://www.chinacrops.org",
+  "data_url": "https://www.chinacrops.org",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "agriculture",
+    "research",
+    "food-security"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "ccss",
+    "中国作物学会",
+    "作物科学",
+    "作物育种",
+    "农作物",
+    "品种审定",
+    "粮食生产",
+    "crop-science",
+    "crop-breeding",
+    "agriculture",
+    "food-security",
+    "rice",
+    "wheat",
+    "maize",
+    "种质资源"
+  ],
+  "data_content": {
+    "en": [
+      "National crop variety approval and registration database",
+      "Variety characteristic data (yield, quality, disease resistance, regional adaptability)",
+      "Germplasm resource catalog for major field crops",
+      "National crop variety trial datasets (DUS and VCU trials)",
+      "Crop production statistics and regional yield benchmarks",
+      "Cultivation technical guidelines by variety and region",
+      "Annual crop science research progress reports"
+    ],
+    "zh": [
+      "全国农作物品种审定与登记数据库",
+      "品种特征特性数据（产量、品质、抗病性、适宜种植区域）",
+      "主要大田作物种质资源目录",
+      "全国农作物品种试验数据集（DUS测试和VCU试验）",
+      "作物生产统计及区域产量基准数据",
+      "按品种和区域的栽培技术规程",
+      "作物科学研究年度进展报告"
+    ]
+  }
+}

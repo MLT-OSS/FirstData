@@ -1,0 +1,60 @@
+{
+  "id": "china-ctmo",
+  "name": {
+    "en": "China Trademark Office (CNIPA Trademark Bureau)",
+    "zh": "国家知识产权局商标局"
+  },
+  "description": {
+    "en": "The China Trademark Office (CTMO), officially the Trademark Bureau of the China National Intellectual Property Administration (CNIPA), is the government body responsible for trademark registration, review, and protection across China. As the world's largest trademark office by filings, CTMO processes over 9 million trademark applications annually and maintains a database of more than 40 million registered trademarks. The office provides access to China's trademark registration database via the China Trademark Network (CTM Online), enabling search by mark name, applicant, registration number, and international classification. CTMO publishes annual trademark statistics reports covering new applications, registrations, renewals, oppositions, and invalidation decisions by industry sector, geographic origin, and applicant type. Its data is essential for brand asset management, competitive intelligence, IP litigation support, and cross-border trademark protection research.",
+    "zh": "国家知识产权局商标局（原中国商标局）是负责中国商标注册、审查和保护的政府机构。作为全球申请量最大的商标局，商标局每年处理逾900万件商标申请，维护着超过4000万件注册商标数据库。商标局通过中国商标网（CTM在线）提供商标注册数据库查询，支持按商标名称、申请人、注册号和国际分类检索。商标局发布年度商标统计报告，按行业类别、地域来源和申请人类型，涵盖新申请量、注册量、续展量、异议量和无效宣告裁定情况。其数据对品牌资产管理、竞争情报、知识产权诉讼支持及跨境商标保护研究具有重要价值。"
+  },
+  "website": "https://sbj.cnipa.gov.cn",
+  "data_url": "https://sbj.cnipa.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "intellectual-property",
+    "law",
+    "commerce"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "ctmo",
+    "cnipa",
+    "商标局",
+    "中国商标",
+    "商标注册",
+    "知识产权",
+    "trademark",
+    "trademark-registration",
+    "intellectual-property",
+    "brand",
+    "ip-law",
+    "品牌",
+    "商标检索",
+    "china-trademark",
+    "trademark-database"
+  ],
+  "data_content": {
+    "en": [
+      "China trademark registration database (40+ million trademarks)",
+      "Trademark application and registration statistics by industry class and region",
+      "Annual trademark statistical reports",
+      "Trademark opposition, cancellation, and invalidation decisions",
+      "Madrid international trademark registration data for China",
+      "Geographic indication trademark registry",
+      "Trademark renewal and transfer records"
+    ],
+    "zh": [
+      "中国商标注册数据库（逾4000万件商标）",
+      "按行业类别和地域分类的商标申请与注册统计",
+      "年度商标统计报告",
+      "商标异议、撤销和无效宣告裁定",
+      "中国马德里国际商标注册数据",
+      "地理标志商标注册信息",
+      "商标续展与转让记录"
+    ]
+  }
+}

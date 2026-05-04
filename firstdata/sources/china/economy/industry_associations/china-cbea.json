@@ -1,0 +1,60 @@
+{
+  "id": "china-cbea",
+  "name": {
+    "en": "China Beverage Association",
+    "zh": "中国饮料工业协会"
+  },
+  "description": {
+    "en": "The China Beverage Association (CBA) is the national industry organization representing China's beverage industry, covering carbonated drinks, bottled water, fruit and vegetable juices, tea beverages, dairy-based drinks, sports and energy drinks, and plant protein beverages. Established in 1981 under the guidance of the Ministry of Industry and Information Technology, the association publishes authoritative annual statistics on China's beverage production volume, market size, major product category breakdown, enterprise revenue and profitability, import and export data, and industry concentration ratios. CBA's Annual Report on China's Beverage Industry is the primary reference for tracking the world's second-largest beverage market, consumer health trends driving product reformulation, and competitive landscape among domestic and international brands. The association also publishes safety standards, quality benchmarks, and industry technical guidelines.",
+    "zh": "中国饮料工业协会（中饮协）是代表中国饮料行业的全国性行业组织，涵盖碳酸饮料、瓶装水、果蔬汁、茶饮料、乳饮料、运动功能饮料和植物蛋白饮料等品类。协会于1981年在工业和信息化部指导下成立，发布中国饮料产量、市场规模、主要产品品类构成、企业收入与盈利情况、进出口数据及行业集中度等权威年度统计。《中国饮料行业年度报告》是追踪全球第二大饮料市场、消费者健康趋势推动产品配方革新以及国内外品牌竞争格局的主要参考依据。协会同时发布安全标准、质量基准和行业技术指南。"
+  },
+  "website": "https://www.chinabeverage.org",
+  "data_url": "https://www.chinabeverage.org",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "food-safety",
+    "economics",
+    "consumer-goods"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "cbea",
+    "中国饮料工业协会",
+    "饮料行业",
+    "碳酸饮料",
+    "瓶装水",
+    "茶饮料",
+    "果汁",
+    "beverage-industry",
+    "food-beverage",
+    "consumer-goods",
+    "bottled-water",
+    "energy-drinks",
+    "market-statistics",
+    "food-safety",
+    "饮料产量"
+  ],
+  "data_content": {
+    "en": [
+      "Annual beverage production volume by product category (carbonated, water, juice, tea, dairy, sports/energy)",
+      "Total industry market size and revenue data",
+      "Enterprise profitability and top company rankings",
+      "Import and export statistics for beverage products",
+      "Industry concentration ratios and market share analysis",
+      "Consumer health trend impacts on product reformulation",
+      "Beverage product quality and safety standards"
+    ],
+    "zh": [
+      "按品类（碳酸、水、果汁、茶、乳饮料、运动功能饮料）分类的年度饮料产量",
+      "行业市场规模及营业收入数据",
+      "企业盈利情况及头部企业排名",
+      "饮料产品进出口统计",
+      "行业集中度与市场份额分析",
+      "消费者健康趋势对产品配方革新的影响",
+      "饮料产品质量与安全标准"
+    ]
+  }
+}
