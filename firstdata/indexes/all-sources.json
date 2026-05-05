@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-05T02:33:17.325314+00:00",
-    "total_sources": 684,
+    "generated_at": "2026-05-05T02:46:54.476930+00:00",
+    "total_sources": 688,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -28319,6 +28319,80 @@
       "file_path": "china/technology/industry_associations/china-caamm.json"
     },
     {
+      "id": "china-casa",
+      "name": {
+        "en": "China Advanced Semiconductor Industry Innovation Alliance (CASA)",
+        "zh": "第三代半导体产业技术创新战略联盟"
+      },
+      "description": {
+        "en": "The China Advanced Semiconductor Industry Innovation Alliance (CASA) is a national industry innovation alliance focused on third-generation (wide-bandgap) semiconductors, including silicon carbide (SiC) and gallium nitride (GaN) materials, devices, modules, and equipment. Initiated under the guidance of China's Ministry of Science and Technology, CASA brings together universities, research institutes, and enterprises across the full third-generation semiconductor value chain. It publishes annual industry development reports, market research on SiC and GaN power devices and RF devices, technology roadmaps, standards, and industrial cluster analyses, serving as a primary authoritative reference for tracking China's wide-bandgap semiconductor sector.",
+        "zh": "第三代半导体产业技术创新战略联盟（CASA）是国家级产业技术创新战略联盟，聚焦以碳化硅（SiC）、氮化镓（GaN）为代表的宽禁带半导体材料、器件、模块及装备。联盟在科技部指导下发起成立，汇聚第三代半导体产业链上下游的高校、科研院所及骨干企业。联盟定期发布年度产业发展报告、SiC 与 GaN 功率/射频器件市场研究、技术路线图、标准及产业集群分析，是追踪中国宽禁带半导体产业的重要权威参考来源。"
+      },
+      "website": "http://www.casa-china.cn/",
+      "data_url": "http://www.casa-china.cn/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "domains": [
+        "technology",
+        "industry",
+        "manufacturing"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "annual",
+      "tags": [
+        "第三代半导体",
+        "third-generation-semiconductor",
+        "宽禁带半导体",
+        "wide-bandgap-semiconductor",
+        "碳化硅",
+        "silicon-carbide",
+        "sic",
+        "氮化镓",
+        "gallium-nitride",
+        "gan",
+        "功率器件",
+        "power-devices",
+        "射频器件",
+        "rf-devices",
+        "casa",
+        "产业联盟",
+        "industry-alliance",
+        "衬底",
+        "substrate",
+        "外延",
+        "epitaxy",
+        "产业技术路线图",
+        "technology-roadmap",
+        "新能源汽车半导体",
+        "ev-semiconductor"
+      ],
+      "data_content": {
+        "en": [
+          "Annual development report on China's third-generation (wide-bandgap) semiconductor industry",
+          "SiC substrate, epitaxy, device and module market size and capacity statistics",
+          "GaN power device and RF device market statistics",
+          "Technology roadmaps for SiC and GaN materials, devices, and applications",
+          "Industrial cluster analyses and regional distribution of wide-bandgap semiconductor enterprises",
+          "Application sector analyses: new energy vehicles, photovoltaics, energy storage, rail transit, 5G base stations",
+          "Group standards and technical specifications for wide-bandgap semiconductors",
+          "Member enterprise directory and ecosystem mapping"
+        ],
+        "zh": [
+          "《中国第三代半导体产业发展年度报告》",
+          "SiC 衬底、外延、器件及模块市场规模与产能统计",
+          "GaN 功率器件与射频器件市场统计",
+          "SiC 与 GaN 材料、器件及应用技术路线图",
+          "宽禁带半导体产业集群分析及企业区域分布",
+          "应用领域分析：新能源汽车、光伏、储能、轨道交通、5G 基站",
+          "宽禁带半导体团体标准与技术规范",
+          "会员企业名录及产业生态图谱"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-casa.json"
+    },
+    {
       "id": "china-cec",
       "name": {
         "en": "China Electricity Council",
@@ -32320,6 +32394,91 @@
       "file_path": "countries/asia/japan/japan-meti.json"
     },
     {
+      "id": "japan-mhlw",
+      "name": {
+        "en": "Japan Ministry of Health, Labour and Welfare (MHLW) Statistics",
+        "zh": "日本厚生劳动省统计"
+      },
+      "description": {
+        "en": "The Ministry of Health, Labour and Welfare (MHLW) is the cabinet-level ministry of the Japanese government responsible for health, labour, employment, and social welfare policy. Its statistics division publishes authoritative national data on employment, wages, working hours, labour force participation, vital statistics (births, deaths, marriages), public health, medical institutions, long-term care, pensions, and social security. MHLW conducts the Monthly Labour Survey, the Basic Survey on Wage Structure, the Survey on Working Conditions, the Vital Statistics of Japan, and numerous health and welfare surveys, making it the primary source for Japan's labour market and public health indicators.",
+        "zh": "日本厚生劳动省（MHLW）是日本政府主管医疗卫生、劳动就业和社会福利政策的内阁级部门。其统计部门发布就业、工资、工时、劳动力参与率、人口动态（出生、死亡、婚姻）、公共卫生、医疗机构、长期护理、养老金及社会保障等权威全国性数据。厚生劳动省负责开展《每月劳动统计调查》《工资结构基本调查》《就业条件综合调查》《人口动态统计》及多项卫生福利调查，是日本劳动力市场和公共卫生指标的核心数据来源。"
+      },
+      "website": "https://www.mhlw.go.jp/",
+      "data_url": "https://www.mhlw.go.jp/toukei/list/index.html",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "JP",
+      "domains": [
+        "health",
+        "social",
+        "economics",
+        "demographics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "日本",
+        "japan",
+        "厚生劳动省",
+        "mhlw",
+        "ministry-of-health-labour-welfare",
+        "劳动统计",
+        "labour-statistics",
+        "就业",
+        "employment",
+        "工资",
+        "wages",
+        "工时",
+        "working-hours",
+        "失业率",
+        "unemployment",
+        "人口动态",
+        "vital-statistics",
+        "出生率",
+        "birth-rate",
+        "死亡率",
+        "mortality",
+        "公共卫生",
+        "public-health",
+        "医疗机构",
+        "medical-institutions",
+        "养老金",
+        "pension",
+        "社会保障",
+        "social-security",
+        "长期护理",
+        "long-term-care"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly Labour Survey: employment numbers, wages, working hours by industry",
+          "Basic Survey on Wage Structure: wage distribution by occupation, age, gender, firm size",
+          "Survey on Working Conditions: working hours, paid leave, overtime practices",
+          "Vital Statistics of Japan: births, deaths, stillbirths, marriages, divorces",
+          "Patient Survey and Medical Facility Survey: medical utilisation and hospital data",
+          "Long-term Care Insurance Business Report: care services, beneficiaries, expenditures",
+          "Comprehensive Survey of Living Conditions: household income, poverty rate, life circumstances",
+          "National Health and Nutrition Survey: population health indicators, nutrition status",
+          "Public Pension statistics: contributors, beneficiaries, benefits paid",
+          "Occupational Safety and Health statistics: workplace accidents, occupational diseases"
+        ],
+        "zh": [
+          "《每月劳动统计调查》：分行业就业人数、工资、工时",
+          "《工资结构基本调查》：按职业、年龄、性别、企业规模的工资分布",
+          "《就业条件综合调查》：工时、带薪休假、加班情况",
+          "《人口动态统计》：出生、死亡、死产、结婚、离婚",
+          "《患者调查》与《医疗机构调查》：医疗利用及医院数据",
+          "《长期护理保险事业报告》：护理服务、受益人及支出",
+          "《国民生活基础调查》：家庭收入、贫困率、生活状况",
+          "《国民健康营养调查》：人口健康指标与营养状况",
+          "公共养老金统计：缴费人、受益人、给付金额",
+          "职业安全卫生统计：工伤事故、职业病"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/japan/japan-mhlw.json"
+    },
+    {
       "id": "japan-mof",
       "name": {
         "en": "Ministry of Finance Japan",
@@ -34682,6 +34841,86 @@
       },
       "has_api": true,
       "file_path": "countries/europe/fr/france-insee.json"
+    },
+    {
+      "id": "germany-arbeitsagentur",
+      "name": {
+        "en": "Federal Employment Agency of Germany (Bundesagentur für Arbeit)",
+        "zh": "德国联邦劳动局"
+      },
+      "description": {
+        "en": "The Federal Employment Agency (Bundesagentur für Arbeit, BA) is the German federal authority responsible for labour market policy, employment services, and unemployment insurance. Its statistics unit publishes comprehensive monthly and annual data on unemployment, registered job vacancies, short-time work (Kurzarbeit), employment subject to social security contributions, wage and labour cost trends, migration and integration of foreign workers into the labour market, and regional labour market indicators for all 16 federal states. BA statistics are the authoritative reference for Germany's labour market situation and are widely used by Eurostat, the OECD, and the European Central Bank.",
+        "zh": "德国联邦劳动局（Bundesagentur für Arbeit, BA）是负责劳动力市场政策、就业服务和失业保险的联邦机构。其统计部门发布月度和年度权威数据，内容涵盖失业情况、登记招聘岗位、短时工作（Kurzarbeit）、需缴纳社保的就业人数、工资与劳动力成本走势、外籍劳动者迁移及融入情况，以及覆盖全部 16 个联邦州的区域劳动力市场指标。联邦劳动局统计数据是反映德国劳动力市场状况的权威参考，被欧盟统计局（Eurostat）、经合组织（OECD）及欧洲央行广泛引用。"
+      },
+      "website": "https://www.arbeitsagentur.de/",
+      "data_url": "https://statistik.arbeitsagentur.de/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "DE",
+      "domains": [
+        "economics",
+        "social",
+        "demographics"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "德国",
+        "germany",
+        "联邦劳动局",
+        "bundesagentur-fur-arbeit",
+        "arbeitsagentur",
+        "ba",
+        "劳动力市场",
+        "labour-market",
+        "失业",
+        "unemployment",
+        "就业",
+        "employment",
+        "职位空缺",
+        "job-vacancies",
+        "短时工作",
+        "kurzarbeit",
+        "工资",
+        "wages",
+        "社保就业",
+        "social-security-employment",
+        "联邦州数据",
+        "federal-states-data",
+        "bundesland",
+        "移民就业",
+        "migrant-employment",
+        "区域劳动力市场",
+        "regional-labour-market"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly unemployment statistics: total unemployed, unemployment rate, by age/gender/nationality",
+          "Registered job vacancies and hiring statistics by industry and region",
+          "Employment subject to social security contributions (sozialversicherungspflichtig Beschäftigte)",
+          "Short-time work (Kurzarbeit) statistics including applications, approvals, and beneficiaries",
+          "Regional labour market indicators for all 16 federal states (Bundesländer) and districts",
+          "Long-term unemployment and unemployment benefit (ALG I, ALG II / Bürgergeld) recipients",
+          "Training and vocational integration programme participation statistics",
+          "Labour market integration of refugees and migrant workers",
+          "Wage and labour cost indicators, occupational structure of employment",
+          "Annual labour market report and monthly press releases with commentary"
+        ],
+        "zh": [
+          "月度失业统计：失业总人数、失业率、分年龄/性别/国籍",
+          "按行业与地区分类的登记职位空缺和招聘统计",
+          "需缴纳社保的就业人数（sozialversicherungspflichtig Beschäftigte）",
+          "短时工作（Kurzarbeit）统计，包括申请、批准及受益人数",
+          "覆盖全部 16 个联邦州（Bundesländer）及地区的区域劳动力市场指标",
+          "长期失业及失业救济金（ALG I、ALG II / Bürgergeld）领取人数",
+          "职业培训及职业融合项目参与统计",
+          "难民与外籍劳动者的劳动力市场融合情况",
+          "工资与劳动力成本指标、职业结构就业数据",
+          "年度劳动力市场报告与附评论的月度新闻发布"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/europe/germany/germany-arbeitsagentur.json"
     },
     {
       "id": "germany-destatis",
@@ -45614,6 +45853,84 @@
       },
       "has_api": false,
       "file_path": "sectors/C-manufacturing/electronics/semi.json"
+    },
+    {
+      "id": "us-sia",
+      "name": {
+        "en": "Semiconductor Industry Association (SIA)",
+        "zh": "美国半导体行业协会"
+      },
+      "description": {
+        "en": "The Semiconductor Industry Association (SIA) is the U.S. industry body representing the semiconductor sector, whose members account for the majority of U.S. semiconductor manufacturing and a significant share of the global semiconductor market. SIA compiles and publishes the World Semiconductor Trade Statistics (WSTS) figures for the United States, monthly global and regional semiconductor sales data, annual State of the U.S. Semiconductor Industry reports, workforce and R&D statistics, and policy briefs on export controls, CHIPS Act investments, and semiconductor supply-chain trends. It is a primary authoritative reference for tracking U.S. and global chip market dynamics.",
+        "zh": "美国半导体行业协会（SIA）是代表美国半导体产业的全国性行业组织，成员企业涵盖美国大部分半导体制造商及全球主要半导体公司。SIA 汇编并发布美国在世界半导体贸易统计组织（WSTS）中的数据、全球与分区域月度半导体销售数据、《美国半导体产业现状》年度报告、劳动力与研发统计数据，以及有关出口管制、芯片法案投资和半导体供应链趋势的政策简报，是追踪美国及全球芯片市场动态的权威参考来源。"
+      },
+      "website": "https://www.semiconductors.org/",
+      "data_url": "https://www.semiconductors.org/data/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "US",
+      "domains": [
+        "technology",
+        "manufacturing",
+        "industry",
+        "trade"
+      ],
+      "geographic_scope": "national",
+      "update_frequency": "monthly",
+      "tags": [
+        "美国",
+        "usa",
+        "sia",
+        "semiconductor-industry-association",
+        "半导体",
+        "semiconductor",
+        "集成电路",
+        "integrated-circuits",
+        "ic",
+        "芯片",
+        "chip",
+        "wsts",
+        "世界半导体贸易统计",
+        "world-semiconductor-trade-statistics",
+        "全球芯片销售",
+        "global-chip-sales",
+        "chips-act",
+        "芯片法案",
+        "半导体出口管制",
+        "export-controls",
+        "半导体供应链",
+        "semiconductor-supply-chain",
+        "半导体研发",
+        "semiconductor-rd",
+        "产业统计",
+        "industry-statistics"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly global and regional semiconductor sales statistics (Americas, Europe, Japan, China, Asia-Pacific)",
+          "World Semiconductor Trade Statistics (WSTS) U.S. figures and forecasts",
+          "Annual State of the U.S. Semiconductor Industry report",
+          "U.S. semiconductor industry workforce statistics: employment, salary, skills gap analysis",
+          "R&D spending statistics for the U.S. semiconductor sector",
+          "Semiconductor exports and imports data for the United States",
+          "CHIPS Act funding tracker and U.S. fabrication capacity investment monitoring",
+          "Semiconductor supply chain analyses and global market share statistics by company headquarters",
+          "Policy reports on export controls, technology competition, and industrial policy"
+        ],
+        "zh": [
+          "全球及分地区（美洲、欧洲、日本、中国、亚太）月度半导体销售统计",
+          "世界半导体贸易统计组织（WSTS）美国数据及预测",
+          "《美国半导体产业现状》年度报告",
+          "美国半导体产业劳动力统计：就业人数、薪资、技能缺口分析",
+          "美国半导体产业研发支出统计",
+          "美国半导体进出口数据",
+          "《芯片与科学法案》资金追踪及美国本土晶圆厂投资监测",
+          "半导体供应链分析及按公司总部地分类的全球市场份额统计",
+          "出口管制、技术竞争及产业政策报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "sectors/C-manufacturing/electronics/us-sia.json"
     },
     {
       "id": "china-machine-tool-association",

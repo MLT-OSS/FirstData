@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-05T02:33:17.325314+00:00",
+    "generated_at": "2026-05-05T02:46:54.476930+00:00",
     "total_regions": 58,
-    "total_sources": 684,
+    "total_sources": 688,
     "version": "2.0"
   },
   "regions": {
@@ -4831,6 +4831,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-casa",
+        "name": {
+          "en": "China Advanced Semiconductor Industry Innovation Alliance (CASA)",
+          "zh": "第三代半导体产业技术创新战略联盟"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.casa-china.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-casa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cec",
         "name": {
           "en": "China Electricity Council",
@@ -5475,6 +5487,18 @@
     ],
     "DE": [
       {
+        "id": "germany-arbeitsagentur",
+        "name": {
+          "en": "Federal Employment Agency of Germany (Bundesagentur für Arbeit)",
+          "zh": "德国联邦劳动局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statistik.arbeitsagentur.de/",
+        "has_api": false,
+        "file_path": "countries/europe/germany/germany-arbeitsagentur.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "germany-destatis",
         "name": {
           "en": "Federal Statistical Office of Germany (Destatis)",
@@ -5924,6 +5948,18 @@
         "data_url": "https://www.meti.go.jp/english/statistics/index.html",
         "has_api": false,
         "file_path": "countries/asia/japan/japan-meti.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "japan-mhlw",
+        "name": {
+          "en": "Japan Ministry of Health, Labour and Welfare (MHLW) Statistics",
+          "zh": "日本厚生劳动省统计"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mhlw.go.jp/toukei/list/index.html",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-mhlw.json",
         "geographic_scope": "national"
       },
       {
@@ -6601,6 +6637,18 @@
         "data_url": "https://apps.bea.gov/iTable/index_ita.cfm",
         "has_api": true,
         "file_path": "international/trade/bea-international-trade.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-sia",
+        "name": {
+          "en": "Semiconductor Industry Association (SIA)",
+          "zh": "美国半导体行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.semiconductors.org/data/",
+        "has_api": false,
+        "file_path": "sectors/C-manufacturing/electronics/us-sia.json",
         "geographic_scope": "national"
       },
       {

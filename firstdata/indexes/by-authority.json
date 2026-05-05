@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-05-05T02:33:17.325314+00:00",
-    "total_sources": 684,
+    "generated_at": "2026-05-05T02:46:54.476930+00:00",
+    "total_sources": 688,
     "authority_counts": {
       "research": 123,
       "international": 77,
-      "government": 348,
-      "other": 61,
+      "government": 350,
+      "other": 63,
       "market": 43,
       "commercial": 32
     },
@@ -5472,6 +5472,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "japan-mhlw",
+        "name": {
+          "en": "Japan Ministry of Health, Labour and Welfare (MHLW) Statistics",
+          "zh": "日本厚生劳动省统计"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.mhlw.go.jp/toukei/list/index.html",
+        "has_api": false,
+        "file_path": "countries/asia/japan/japan-mhlw.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-mof",
         "name": {
           "en": "Ministry of Finance Japan",
@@ -5837,6 +5849,18 @@
         "data_url": "https://www.insee.fr/en/statistiques",
         "has_api": true,
         "file_path": "countries/europe/fr/france-insee.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "germany-arbeitsagentur",
+        "name": {
+          "en": "Federal Employment Agency of Germany (Bundesagentur für Arbeit)",
+          "zh": "德国联邦劳动局"
+        },
+        "authority_level": "government",
+        "data_url": "https://statistik.arbeitsagentur.de/",
+        "has_api": false,
+        "file_path": "countries/europe/germany/germany-arbeitsagentur.json",
         "geographic_scope": "national"
       },
       {
@@ -7206,6 +7230,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-casa",
+        "name": {
+          "en": "China Advanced Semiconductor Industry Innovation Alliance (CASA)",
+          "zh": "第三代半导体产业技术创新战略联盟"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.casa-china.cn/",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-casa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cec",
         "name": {
           "en": "China Electricity Council",
@@ -7383,6 +7419,18 @@
         "data_url": "https://www.ccsa.org.cn/webadmin/",
         "has_api": false,
         "file_path": "china/technology/telecommunications/china-ccsa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-sia",
+        "name": {
+          "en": "Semiconductor Industry Association (SIA)",
+          "zh": "美国半导体行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.semiconductors.org/data/",
+        "has_api": false,
+        "file_path": "sectors/C-manufacturing/electronics/us-sia.json",
         "geographic_scope": "national"
       },
       {
