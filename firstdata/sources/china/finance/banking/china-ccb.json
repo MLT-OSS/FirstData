@@ -1,0 +1,68 @@
+{
+  "id": "china-ccb",
+  "name": {
+    "en": "China Construction Bank (CCB)",
+    "zh": "中国建设银行"
+  },
+  "description": {
+    "en": "China Construction Bank (CCB) is one of China's Big Four state-owned commercial banks and the world's second-largest bank by tier-1 capital. Established in 1954 and headquartered in Beijing, CCB has historically been the primary financier of China's large-scale infrastructure and urban construction projects. Today it operates across retail banking, corporate banking, investment banking, and wealth management, with particular strengths in housing mortgage loans, infrastructure project financing, and green finance. CCB is the leading provider of personal housing loans in China, making its data essential for tracking China's real-estate credit market, housing affordability trends, and mortgage portfolio quality. CCB publishes detailed annual and interim financial reports covering capital ratios, non-performing loan metrics, mortgage loan balances, and green bond issuance. Its housing finance and infrastructure lending statistics are key inputs for analysis of China's urban development, property market stabilization policies, and the green finance transition.",
+    "zh": "中国建设银行（建行/CCB）是中国四大国有商业银行之一，按一级资本计算是全球第二大银行。建行创立于1954年，总部位于北京，历来是中国大型基础设施和城镇建设项目的主要融资渠道。目前，建行业务涵盖零售银行、公司银行、投资银行及财富管理，在住房按揭贷款、基础设施项目融资和绿色金融方面具有突出优势。建行是中国个人住房贷款的最大提供商，其数据对于追踪中国房地产信贷市场、住房可负担性趋势及按揭贷款组合质量至关重要。建行定期发布涵盖资本充足率、不良贷款指标、按揭贷款余额及绿色债券发行情况的年报和中报。其住房金融和基础设施贷款统计数据，是分析中国城镇化发展、房地产市场稳定政策及绿色金融转型的重要依据。"
+  },
+  "website": "http://www.ccb.com",
+  "data_url": "http://www.ccb.com",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "real-estate"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "ccb",
+    "中国建设银行",
+    "china-construction-bank",
+    "住房按揭",
+    "housing-mortgage",
+    "基础设施贷款",
+    "infrastructure-finance",
+    "绿色金融",
+    "green-finance",
+    "年报",
+    "annual-report",
+    "state-owned-bank",
+    "国有商业银行",
+    "big-four-bank",
+    "四大行",
+    "不良贷款",
+    "non-performing-loans",
+    "资本充足率",
+    "capital-adequacy",
+    "房地产金融",
+    "real-estate-finance",
+    "城镇化",
+    "urbanization"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: consolidated financial statements with capital adequacy ratios, NPL ratios, loan-to-deposit ratios, and segment profitability",
+      "Housing mortgage portfolio data: outstanding personal housing loan balances, new lending volumes, average mortgage rates, and LTV (loan-to-value) distribution",
+      "Infrastructure and corporate loan statistics: project financing volumes for transportation, energy, water, and urban development by industry",
+      "Green finance data: green bond issuance, green loan balances, carbon-neutral project financing, and ESG metrics",
+      "Non-performing loan disclosures: NPL ratios by loan category (real estate, infrastructure, manufacturing, retail), provision coverage ratios",
+      "Wealth management and financial investment data: off-balance-sheet wealth management product volumes, AUM trends, and product structure",
+      "International banking statistics: overseas institutional network, cross-border trade finance volumes, and USD/EUR/RMB transaction flows"
+    ],
+    "zh": [
+      "年报和中报：合并财务报表，涵盖资本充足率、不良贷款率、存贷比及分部盈利能力指标",
+      "住房按揭贷款组合数据：个人住房贷款余额、新增发放规模、平均按揭利率及贷款价值比（LTV）分布",
+      "基础设施和公司贷款统计：交通、能源、水利和城市开发等行业项目融资规模",
+      "绿色金融数据：绿色债券发行情况、绿色贷款余额、碳中和项目融资规模及ESG指标",
+      "不良贷款披露：按贷款类别（房地产、基础设施、制造业、零售）分类的不良贷款率及拨备覆盖率",
+      "财富管理和金融投资数据：表外理财产品规模、资产管理规模趋势及产品结构",
+      "国际银行统计：境外机构网络布局、跨境贸易融资规模及美元/欧元/人民币交易流量"
+    ]
+  }
+}

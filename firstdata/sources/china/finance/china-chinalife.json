@@ -1,0 +1,69 @@
+{
+  "id": "china-chinalife",
+  "name": {
+    "en": "China Life Insurance Company",
+    "zh": "中国人寿保险股份有限公司"
+  },
+  "description": {
+    "en": "China Life Insurance Company Limited (China Life) is China's largest life insurance company and one of the world's largest insurance companies by total assets. Listed on the New York Stock Exchange (2003), Hong Kong Stock Exchange (2003), and Shanghai Stock Exchange (2007), China Life is a subsidiary of China Life Insurance (Group) Company, a state-owned enterprise under central government oversight. With over 200 million individual life insurance policies in force and a nationwide distribution network covering virtually every county in China, China Life is the dominant provider of life, health, accident, and pension insurance in the Chinese market. China Life publishes detailed annual and interim financial reports covering premium income by product line, investment portfolio composition, embedded value calculations, reserve adequacy, and surrender rate trends. Its insurance premium data and investment portfolio disclosures — which span equities, bonds, and real assets — are critical references for assessing the scale and allocation of long-term institutional capital in China's financial markets.",
+    "zh": "中国人寿保险股份有限公司（中国人寿）是中国最大的人寿保险公司，也是全球总资产规模最大的保险公司之一。中国人寿分别于2003年和2007年在纽约证券交易所、香港联合交易所和上海证券交易所上市，是国务院国有资产监督管理委员会监管下中国人寿保险（集团）公司的控股子公司。中国人寿在全国拥有超过2亿份有效个人人寿保险保单，销售网络几乎覆盖全国所有县区，是中国寿险、健康险、意外险及年金保险市场的主导力量。中国人寿定期发布详细的年报和中报，涵盖各险种保费收入、投资组合构成、内含价值测算、准备金充足性及退保率趋势。其保险保费数据和投资组合披露——涵盖股票、债券及实物资产——是评估中国金融市场长期机构资本规模和配置格局的重要参考。"
+  },
+  "website": "https://www.e-chinalife.com",
+  "data_url": "https://www.e-chinalife.com",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "insurance",
+    "economics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "china-life",
+    "中国人寿",
+    "life-insurance",
+    "人寿保险",
+    "保费收入",
+    "premium-income",
+    "年报",
+    "annual-report",
+    "insurance-investment",
+    "保险投资",
+    "embedded-value",
+    "内含价值",
+    "health-insurance",
+    "健康险",
+    "pension",
+    "年金",
+    "state-owned-enterprise",
+    "央企",
+    "institutional-investor",
+    "机构投资者",
+    "insurance-reserves",
+    "准备金",
+    "solvency",
+    "偿付能力"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: comprehensive financial statements including premium income by product type (life, health, accident, annuity), reserve adequacy ratios, and solvency metrics",
+      "Embedded value (EV) disclosures: annual embedded value calculations, value of new business (VNB), and operating return on EV — key metrics for life insurance valuation",
+      "Investment portfolio data: allocation of insurance assets across equities, bonds, real estate, infrastructure, and alternative investments, with yield and duration metrics",
+      "Policy-in-force statistics: number of individual and group insurance policies in force, premium per policy, lapse and surrender rates, and policy renewal ratios",
+      "Distribution channel data: agency force headcount and productivity (agents per branch, premium per agent), bancassurance volumes, and direct/digital channel growth",
+      "Health and accident insurance metrics: morbidity rates, claim ratios, loss ratios by product line, and health insurance penetration across age groups",
+      "Pension and annuity products: group pension fund AUM, individual pension account statistics, and annuity payout volumes"
+    ],
+    "zh": [
+      "年报和中报：完整财务报表，涵盖各险种（寿险、健康险、意外险、年金）保费收入、准备金充足率及偿付能力指标",
+      "内含价值（EV）披露：年度内含价值测算、新业务价值（VNB）及内含价值营运回报率——寿险公司估值的核心指标",
+      "投资组合数据：保险资产在股票、债券、房地产、基础设施及另类投资中的配置结构，含收益率和久期指标",
+      "有效保单统计：个人和团体保险有效保单数量、每张保单保费金额、失效率和退保率及续期率",
+      "销售渠道数据：代理人数量及人均产能（每网点代理人数、人均保费）、银保渠道保费规模及直销/数字渠道增长情况",
+      "健康险和意外险指标：发病率、各险种赔付率和综合成本率，以及各年龄段健康险渗透率",
+      "养老和年金产品：团体年金基金资产管理规模、个人养老账户统计及年金给付规模"
+    ]
+  }
+}

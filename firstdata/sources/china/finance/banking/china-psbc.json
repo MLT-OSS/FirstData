@@ -1,0 +1,69 @@
+{
+  "id": "china-psbc",
+  "name": {
+    "en": "Postal Savings Bank of China (PSBC)",
+    "zh": "中国邮政储蓄银行"
+  },
+  "description": {
+    "en": "Postal Savings Bank of China (PSBC) is one of China's largest state-owned commercial banks and the bank with the most extensive network of outlets nationwide. Established in 2007 and listed on both the Hong Kong Stock Exchange (2016) and Shanghai Stock Exchange (2019), PSBC evolved from the postal savings department of China Post Group. With over 39,000 branches — the densest branch network of any Chinese bank — PSBC is the primary financial service provider for China's rural population and low-income urban residents. PSBC's core mission centers on inclusive finance (普惠金融), providing basic savings, small loans, and payment services to underserved populations across China's vast rural and remote regions. PSBC publishes comprehensive annual and interim financial reports with data on retail deposit volumes, rural finance penetration, micro-loan and small-and-medium enterprise (SME) lending statistics, and inclusive finance coverage indicators, making it an essential reference for assessing rural financial inclusion in China.",
+    "zh": "中国邮政储蓄银行（邮储银行/PSBC）是中国最大的国有商业银行之一，也是全国网点最多的银行。邮储银行于2007年成立，先后在香港联合交易所（2016年）和上海证券交易所（2019年）上市，其前身为中国邮政集团的邮政储蓄部门。邮储银行拥有超过39000个网点，是中国网点密度最高的银行，也是农村居民和城镇低收入群体的主要金融服务提供商。邮储银行核心定位是普惠金融，为中国广大农村和偏远地区的低收入群体提供基础储蓄、小额信贷和支付服务。邮储银行定期发布年报和中报，涵盖零售存款规模、农村金融覆盖率、小额贷款及中小企业融资统计、普惠金融覆盖指标，是评估中国农村金融包容性的重要参考数据来源。"
+  },
+  "website": "https://www.psbc.com",
+  "data_url": "https://www.psbc.com",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "agriculture"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "psbc",
+    "中国邮政储蓄银行",
+    "postal-savings-bank",
+    "邮储银行",
+    "普惠金融",
+    "inclusive-finance",
+    "农村金融",
+    "rural-finance",
+    "small-loans",
+    "小额贷款",
+    "sme-lending",
+    "中小企业",
+    "年报",
+    "annual-report",
+    "state-owned-bank",
+    "国有商业银行",
+    "retail-banking",
+    "零售银行",
+    "deposit-mobilization",
+    "存款动员",
+    "china-post",
+    "中国邮政",
+    "county-banking",
+    "县域银行"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: full financial statements including capital adequacy, asset quality, NPL ratios, and profitability metrics by business segment",
+      "Rural and inclusive finance statistics: coverage ratios of basic banking services in county, township, and village levels; rural household account penetration rates",
+      "Micro-loan and small business lending data: outstanding micro-loan balances, number of active micro-loan accounts, and SME credit portfolio breakdown",
+      "Retail deposit data: total retail deposit volumes, term structure of deposits, and geographic distribution of savings across urban vs. rural areas",
+      "Payment and remittance services: rural remittance transaction volumes, government subsidy disbursement flows (social security, agricultural subsidies), and mobile payment adoption rates",
+      "Poverty alleviation finance: lending volumes for targeted poverty alleviation programs, outcomes for designated impoverished counties, and rural revitalization financing",
+      "Network and digital banking statistics: branch distribution, postal agent network coverage, mobile banking users, and digital channel transaction ratios"
+    ],
+    "zh": [
+      "年报和中报：完整财务报表，涵盖资本充足率、资产质量、不良贷款率及各业务板块盈利指标",
+      "农村和普惠金融统计：县、乡、村三级基础银行服务覆盖率；农村居民账户渗透率",
+      "小额贷款和小微企业贷款数据：小额贷款余额、活跃小额贷款账户数及中小企业信贷组合构成",
+      "零售存款数据：零售存款总规模、存款期限结构及城乡储蓄地理分布",
+      "支付和汇款服务：农村汇款交易量、政府补贴代发流水（社保、农业补贴）及移动支付普及率",
+      "脱贫攻坚金融：面向精准扶贫项目的贷款规模、定点帮扶县成效数据及乡村振兴融资情况",
+      "网络和数字银行统计：网点分布、邮政代理网络覆盖情况、手机银行用户数及数字渠道交易占比"
+    ]
+  }
+}
