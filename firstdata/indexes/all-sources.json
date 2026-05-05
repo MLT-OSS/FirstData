@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T06:42:43.195561+00:00",
-    "total_sources": 679,
+    "generated_at": "2026-05-05T02:33:17.325314+00:00",
+    "total_sources": 684,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -10885,6 +10885,76 @@
       "file_path": "china/finance/banking/cdb.json"
     },
     {
+      "id": "china-abc",
+      "name": {
+        "en": "Agricultural Bank of China (ABC)",
+        "zh": "中国农业银行"
+      },
+      "description": {
+        "en": "Agricultural Bank of China (ABC) is one of China's Big Four state-owned commercial banks and the largest bank by rural network coverage. Founded in 1951 and headquartered in Beijing, ABC has a unique dual mandate: it operates as a fully commercial bank while serving as the primary financial pillar for China's agricultural sector, rural areas, and farmers (San Nong: agriculture, rural areas, farmers). With over 23,000 domestic branches — the widest coverage of any Chinese bank in rural and county areas — ABC is the dominant provider of rural credit, agricultural loans, and inclusive financial services. ABC publishes comprehensive annual and interim financial reports covering capital adequacy, asset quality, non-performing loan ratios, and rural finance statistics. Its data on agricultural lending, rural household credit, and county-level financial inclusion are essential references for tracking China's rural economic development, poverty alleviation financing outcomes, and the agricultural modernization agenda under national policy frameworks.",
+        "zh": "中国农业银行（农行/ABC）是中国四大国有商业银行之一，也是农村网点覆盖最广的银行。农行创立于1951年，总部位于北京，承担着商业银行与服务三农（农业、农村、农民）的双重职能。农行在全国拥有超过23000个境内网点，其在农村和县域地区的覆盖密度居中国银行业之首，是农村信贷、农业贷款和普惠金融服务的主力提供者。农行定期发布涵盖资本充足率、资产质量、不良贷款率及涉农金融统计数据的年报和中报。其关于农业贷款、农村居民信贷和县域普惠金融的数据，是追踪中国农村经济发展、脱贫攻坚金融成效及农业现代化政策目标完成情况的重要参考。"
+      },
+      "website": "https://www.abchina.com",
+      "data_url": "https://www.abchina.com/cn/InvestorRelations/",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "agriculture"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "abc",
+        "中国农业银行",
+        "agricultural-bank-of-china",
+        "三农",
+        "rural-finance",
+        "农业贷款",
+        "agricultural-loans",
+        "普惠金融",
+        "inclusive-finance",
+        "年报",
+        "annual-report",
+        "state-owned-bank",
+        "国有商业银行",
+        "big-four-bank",
+        "四大行",
+        "资本充足率",
+        "capital-adequacy",
+        "不良贷款",
+        "non-performing-loans",
+        "county-finance",
+        "县域金融",
+        "poverty-alleviation",
+        "脱贫攻坚"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: comprehensive financial statements with capital adequacy ratios, NPL ratios, profitability metrics, and rural finance breakdowns",
+          "Agricultural and rural lending statistics: outstanding loan balances for agriculture, rural households, and agribusinesses, segmented by loan type and region",
+          "Inclusive finance data: coverage rates of basic financial services in county and township areas, micro-loan portfolio size, and rural household credit penetration",
+          "Poverty alleviation finance reports: targeted lending volumes for national poverty-alleviation programs and rural revitalization outcomes",
+          "County-level banking network data: branch distribution, ATM coverage, and digital banking penetration in rural and peri-urban areas",
+          "Interest rate and deposit structure: rural deposit mobilization volumes, interest rate spreads, and savings structure by geographic tier",
+          "Green and agricultural bonds: issuance data for rural revitalization bonds, green agriculture bonds, and rural infrastructure-backed securities"
+        ],
+        "zh": [
+          "年报和中报：涵盖资本充足率、不良贷款率、盈利指标及涉农金融分项的完整财务报表",
+          "农业和农村贷款统计：农业、农村居民及农业企业的贷款余额，按贷款类型和地区细分",
+          "普惠金融数据：县乡两级基本金融服务覆盖率、小额贷款组合规模及农村居民信贷渗透率",
+          "扶贫金融报告：国家脱贫攻坚项目定向贷款规模及乡村振兴成效数据",
+          "县域银行网点数据：农村和城郊地区的支行分布、ATM覆盖率及数字金融服务渗透情况",
+          "利率和存款结构：农村存款动员规模、利率利差及各地区层级储蓄结构",
+          "绿色和农业债券：乡村振兴债券、绿色农业债券及农村基础设施支持证券的发行数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-abc.json"
+    },
+    {
       "id": "china-adbc",
       "name": {
         "en": "Agricultural Development Bank of China",
@@ -11097,6 +11167,76 @@
       "file_path": "china/finance/banking/china-cba.json"
     },
     {
+      "id": "china-ccb",
+      "name": {
+        "en": "China Construction Bank (CCB)",
+        "zh": "中国建设银行"
+      },
+      "description": {
+        "en": "China Construction Bank (CCB) is one of China's Big Four state-owned commercial banks and the world's second-largest bank by tier-1 capital. Established in 1954 and headquartered in Beijing, CCB has historically been the primary financier of China's large-scale infrastructure and urban construction projects. Today it operates across retail banking, corporate banking, investment banking, and wealth management, with particular strengths in housing mortgage loans, infrastructure project financing, and green finance. CCB is the leading provider of personal housing loans in China, making its data essential for tracking China's real-estate credit market, housing affordability trends, and mortgage portfolio quality. CCB publishes detailed annual and interim financial reports covering capital ratios, non-performing loan metrics, mortgage loan balances, and green bond issuance. Its housing finance and infrastructure lending statistics are key inputs for analysis of China's urban development, property market stabilization policies, and the green finance transition.",
+        "zh": "中国建设银行（建行/CCB）是中国四大国有商业银行之一，按一级资本计算是全球第二大银行。建行创立于1954年，总部位于北京，历来是中国大型基础设施和城镇建设项目的主要融资渠道。目前，建行业务涵盖零售银行、公司银行、投资银行及财富管理，在住房按揭贷款、基础设施项目融资和绿色金融方面具有突出优势。建行是中国个人住房贷款的最大提供商，其数据对于追踪中国房地产信贷市场、住房可负担性趋势及按揭贷款组合质量至关重要。建行定期发布涵盖资本充足率、不良贷款指标、按揭贷款余额及绿色债券发行情况的年报和中报。其住房金融和基础设施贷款统计数据，是分析中国城镇化发展、房地产市场稳定政策及绿色金融转型的重要依据。"
+      },
+      "website": "http://www.ccb.com",
+      "data_url": "http://www.ccb.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "real-estate"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "ccb",
+        "中国建设银行",
+        "china-construction-bank",
+        "住房按揭",
+        "housing-mortgage",
+        "基础设施贷款",
+        "infrastructure-finance",
+        "绿色金融",
+        "green-finance",
+        "年报",
+        "annual-report",
+        "state-owned-bank",
+        "国有商业银行",
+        "big-four-bank",
+        "四大行",
+        "不良贷款",
+        "non-performing-loans",
+        "资本充足率",
+        "capital-adequacy",
+        "房地产金融",
+        "real-estate-finance",
+        "城镇化",
+        "urbanization"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: consolidated financial statements with capital adequacy ratios, NPL ratios, loan-to-deposit ratios, and segment profitability",
+          "Housing mortgage portfolio data: outstanding personal housing loan balances, new lending volumes, average mortgage rates, and LTV (loan-to-value) distribution",
+          "Infrastructure and corporate loan statistics: project financing volumes for transportation, energy, water, and urban development by industry",
+          "Green finance data: green bond issuance, green loan balances, carbon-neutral project financing, and ESG metrics",
+          "Non-performing loan disclosures: NPL ratios by loan category (real estate, infrastructure, manufacturing, retail), provision coverage ratios",
+          "Wealth management and financial investment data: off-balance-sheet wealth management product volumes, AUM trends, and product structure",
+          "International banking statistics: overseas institutional network, cross-border trade finance volumes, and USD/EUR/RMB transaction flows"
+        ],
+        "zh": [
+          "年报和中报：合并财务报表，涵盖资本充足率、不良贷款率、存贷比及分部盈利能力指标",
+          "住房按揭贷款组合数据：个人住房贷款余额、新增发放规模、平均按揭利率及贷款价值比（LTV）分布",
+          "基础设施和公司贷款统计：交通、能源、水利和城市开发等行业项目融资规模",
+          "绿色金融数据：绿色债券发行情况、绿色贷款余额、碳中和项目融资规模及ESG指标",
+          "不良贷款披露：按贷款类别（房地产、基础设施、制造业、零售）分类的不良贷款率及拨备覆盖率",
+          "财富管理和金融投资数据：表外理财产品规模、资产管理规模趋势及产品结构",
+          "国际银行统计：境外机构网络布局、跨境贸易融资规模及美元/欧元/人民币交易流量"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-ccb.json"
+    },
+    {
       "id": "china-pbccrc",
       "name": {
         "en": "People's Bank of China Credit Reference Center",
@@ -11170,6 +11310,77 @@
       },
       "has_api": false,
       "file_path": "china/finance/banking/china-pbccrc.json"
+    },
+    {
+      "id": "china-psbc",
+      "name": {
+        "en": "Postal Savings Bank of China (PSBC)",
+        "zh": "中国邮政储蓄银行"
+      },
+      "description": {
+        "en": "Postal Savings Bank of China (PSBC) is one of China's largest state-owned commercial banks and the bank with the most extensive network of outlets nationwide. Established in 2007 and listed on both the Hong Kong Stock Exchange (2016) and Shanghai Stock Exchange (2019), PSBC evolved from the postal savings department of China Post Group. With over 39,000 branches — the densest branch network of any Chinese bank — PSBC is the primary financial service provider for China's rural population and low-income urban residents. PSBC's core mission centers on inclusive finance (普惠金融), providing basic savings, small loans, and payment services to underserved populations across China's vast rural and remote regions. PSBC publishes comprehensive annual and interim financial reports with data on retail deposit volumes, rural finance penetration, micro-loan and small-and-medium enterprise (SME) lending statistics, and inclusive finance coverage indicators, making it an essential reference for assessing rural financial inclusion in China.",
+        "zh": "中国邮政储蓄银行（邮储银行/PSBC）是中国最大的国有商业银行之一，也是全国网点最多的银行。邮储银行于2007年成立，先后在香港联合交易所（2016年）和上海证券交易所（2019年）上市，其前身为中国邮政集团的邮政储蓄部门。邮储银行拥有超过39000个网点，是中国网点密度最高的银行，也是农村居民和城镇低收入群体的主要金融服务提供商。邮储银行核心定位是普惠金融，为中国广大农村和偏远地区的低收入群体提供基础储蓄、小额信贷和支付服务。邮储银行定期发布年报和中报，涵盖零售存款规模、农村金融覆盖率、小额贷款及中小企业融资统计、普惠金融覆盖指标，是评估中国农村金融包容性的重要参考数据来源。"
+      },
+      "website": "https://www.psbc.com",
+      "data_url": "https://www.psbc.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "agriculture"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "psbc",
+        "中国邮政储蓄银行",
+        "postal-savings-bank",
+        "邮储银行",
+        "普惠金融",
+        "inclusive-finance",
+        "农村金融",
+        "rural-finance",
+        "small-loans",
+        "小额贷款",
+        "sme-lending",
+        "中小企业",
+        "年报",
+        "annual-report",
+        "state-owned-bank",
+        "国有商业银行",
+        "retail-banking",
+        "零售银行",
+        "deposit-mobilization",
+        "存款动员",
+        "china-post",
+        "中国邮政",
+        "county-banking",
+        "县域银行"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: full financial statements including capital adequacy, asset quality, NPL ratios, and profitability metrics by business segment",
+          "Rural and inclusive finance statistics: coverage ratios of basic banking services in county, township, and village levels; rural household account penetration rates",
+          "Micro-loan and small business lending data: outstanding micro-loan balances, number of active micro-loan accounts, and SME credit portfolio breakdown",
+          "Retail deposit data: total retail deposit volumes, term structure of deposits, and geographic distribution of savings across urban vs. rural areas",
+          "Payment and remittance services: rural remittance transaction volumes, government subsidy disbursement flows (social security, agricultural subsidies), and mobile payment adoption rates",
+          "Poverty alleviation finance: lending volumes for targeted poverty alleviation programs, outcomes for designated impoverished counties, and rural revitalization financing",
+          "Network and digital banking statistics: branch distribution, postal agent network coverage, mobile banking users, and digital channel transaction ratios"
+        ],
+        "zh": [
+          "年报和中报：完整财务报表，涵盖资本充足率、资产质量、不良贷款率及各业务板块盈利指标",
+          "农村和普惠金融统计：县、乡、村三级基础银行服务覆盖率；农村居民账户渗透率",
+          "小额贷款和小微企业贷款数据：小额贷款余额、活跃小额贷款账户数及中小企业信贷组合构成",
+          "零售存款数据：零售存款总规模、存款期限结构及城乡储蓄地理分布",
+          "支付和汇款服务：农村汇款交易量、政府补贴代发流水（社保、农业补贴）及移动支付普及率",
+          "脱贫攻坚金融：面向精准扶贫项目的贷款规模、定点帮扶县成效数据及乡村振兴融资情况",
+          "网络和数字银行统计：网点分布、邮政代理网络覆盖情况、手机银行用户数及数字渠道交易占比"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/banking/china-psbc.json"
     },
     {
       "id": "china-eximbank",
@@ -12088,6 +12299,77 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-beijing-stock-exchange.json"
+    },
+    {
+      "id": "china-chinalife",
+      "name": {
+        "en": "China Life Insurance Company",
+        "zh": "中国人寿保险股份有限公司"
+      },
+      "description": {
+        "en": "China Life Insurance Company Limited (China Life) is China's largest life insurance company and one of the world's largest insurance companies by total assets. Listed on the New York Stock Exchange (2003), Hong Kong Stock Exchange (2003), and Shanghai Stock Exchange (2007), China Life is a subsidiary of China Life Insurance (Group) Company, a state-owned enterprise under central government oversight. With over 200 million individual life insurance policies in force and a nationwide distribution network covering virtually every county in China, China Life is the dominant provider of life, health, accident, and pension insurance in the Chinese market. China Life publishes detailed annual and interim financial reports covering premium income by product line, investment portfolio composition, embedded value calculations, reserve adequacy, and surrender rate trends. Its insurance premium data and investment portfolio disclosures — which span equities, bonds, and real assets — are critical references for assessing the scale and allocation of long-term institutional capital in China's financial markets.",
+        "zh": "中国人寿保险股份有限公司（中国人寿）是中国最大的人寿保险公司，也是全球总资产规模最大的保险公司之一。中国人寿分别于2003年和2007年在纽约证券交易所、香港联合交易所和上海证券交易所上市，是国务院国有资产监督管理委员会监管下中国人寿保险（集团）公司的控股子公司。中国人寿在全国拥有超过2亿份有效个人人寿保险保单，销售网络几乎覆盖全国所有县区，是中国寿险、健康险、意外险及年金保险市场的主导力量。中国人寿定期发布详细的年报和中报，涵盖各险种保费收入、投资组合构成、内含价值测算、准备金充足性及退保率趋势。其保险保费数据和投资组合披露——涵盖股票、债券及实物资产——是评估中国金融市场长期机构资本规模和配置格局的重要参考。"
+      },
+      "website": "https://www.e-chinalife.com",
+      "data_url": "https://www.e-chinalife.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "insurance",
+        "economics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "china-life",
+        "中国人寿",
+        "life-insurance",
+        "人寿保险",
+        "保费收入",
+        "premium-income",
+        "年报",
+        "annual-report",
+        "insurance-investment",
+        "保险投资",
+        "embedded-value",
+        "内含价值",
+        "health-insurance",
+        "健康险",
+        "pension",
+        "年金",
+        "state-owned-enterprise",
+        "央企",
+        "institutional-investor",
+        "机构投资者",
+        "insurance-reserves",
+        "准备金",
+        "solvency",
+        "偿付能力"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: comprehensive financial statements including premium income by product type (life, health, accident, annuity), reserve adequacy ratios, and solvency metrics",
+          "Embedded value (EV) disclosures: annual embedded value calculations, value of new business (VNB), and operating return on EV — key metrics for life insurance valuation",
+          "Investment portfolio data: allocation of insurance assets across equities, bonds, real estate, infrastructure, and alternative investments, with yield and duration metrics",
+          "Policy-in-force statistics: number of individual and group insurance policies in force, premium per policy, lapse and surrender rates, and policy renewal ratios",
+          "Distribution channel data: agency force headcount and productivity (agents per branch, premium per agent), bancassurance volumes, and direct/digital channel growth",
+          "Health and accident insurance metrics: morbidity rates, claim ratios, loss ratios by product line, and health insurance penetration across age groups",
+          "Pension and annuity products: group pension fund AUM, individual pension account statistics, and annuity payout volumes"
+        ],
+        "zh": [
+          "年报和中报：完整财务报表，涵盖各险种（寿险、健康险、意外险、年金）保费收入、准备金充足率及偿付能力指标",
+          "内含价值（EV）披露：年度内含价值测算、新业务价值（VNB）及内含价值营运回报率——寿险公司估值的核心指标",
+          "投资组合数据：保险资产在股票、债券、房地产、基础设施及另类投资中的配置结构，含收益率和久期指标",
+          "有效保单统计：个人和团体保险有效保单数量、每张保单保费金额、失效率和退保率及续期率",
+          "销售渠道数据：代理人数量及人均产能（每网点代理人数、人均保费）、银保渠道保费规模及直销/数字渠道增长情况",
+          "健康险和意外险指标：发病率、各险种赔付率和综合成本率，以及各年龄段健康险渗透率",
+          "养老和年金产品：团体年金基金资产管理规模、个人养老账户统计及年金给付规模"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-chinalife.json"
     },
     {
       "id": "china-cicpa",
@@ -23513,6 +23795,77 @@
       },
       "has_api": false,
       "file_path": "china/research/china-tpdc.json"
+    },
+    {
+      "id": "china-vip",
+      "name": {
+        "en": "VIP (Chongqing VIP Information)",
+        "zh": "维普网"
+      },
+      "description": {
+        "en": "VIP (维普网), operated by Chongqing VIP Information Co., Ltd. (重庆维普资讯有限公司), is one of China's three major academic literature databases alongside CNKI and Wanfang. Founded in 1989 and based in Chongqing, VIP specializes in Chinese science and technology journal literature, providing access to over 15,000 Chinese-language periodicals and more than 60 million articles covering natural sciences, engineering, medicine, agriculture, economics, and social sciences. VIP is widely used by Chinese universities, research institutes, and enterprises for academic literature retrieval, citation analysis, and research trend monitoring. Its distinctive strengths include strong coverage of applied technology and industry-oriented journals, detailed citation tracking, and a proprietary scientific evaluation index system. VIP also provides journal impact factors, paper originality detection services, and an open-access knowledge infrastructure platform used by public libraries and educational institutions across China.",
+        "zh": "维普网由重庆维普资讯有限公司运营，是与中国知网（CNKI）、万方数据并列的中国三大学术文献数据库之一。维普创立于1989年，总部位于重庆，专注于中文科技期刊文献，收录了超过15000种中文期刊及6000余万篇文章，覆盖自然科学、工程技术、医学、农业、经济学及社会科学等领域。维普广泛服务于国内高校、科研院所和企业，支持学术文献检索、引文分析及研究热点追踪。其突出优势包括对应用技术类和行业导向类期刊的深度收录、详细的引文追踪功能，以及自主研发的科学评价指标体系。维普还提供期刊影响因子数据、论文原创性检测服务，并为全国各地公共图书馆和教育机构提供开放获取的知识基础设施平台。"
+      },
+      "website": "https://www.cqvip.com",
+      "data_url": "https://www.cqvip.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "research",
+        "education",
+        "science",
+        "technology"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "vip",
+        "维普",
+        "维普网",
+        "cqvip",
+        "academic-database",
+        "学术数据库",
+        "chinese-journals",
+        "中文期刊",
+        "sci-tech-literature",
+        "科技文献",
+        "citation-analysis",
+        "引文分析",
+        "journal-impact-factor",
+        "期刊影响因子",
+        "research-database",
+        "科研数据库",
+        "重庆维普",
+        "paper-detection",
+        "论文检测",
+        "open-access",
+        "开放获取",
+        "natural-science",
+        "自然科学"
+      ],
+      "data_content": {
+        "en": [
+          "Chinese science and technology journals: over 15,000 periodicals covering natural sciences, engineering, medicine, agriculture, economics, and social sciences since 1989",
+          "Full-text articles: 60+ million Chinese academic papers with full text, abstracts, author affiliations, and keyword indexing",
+          "Citation tracking: comprehensive citation and co-citation analysis for Chinese literature, including H-index calculations for authors and institutions",
+          "Journal metrics: journal impact factors, immediacy index, total citation counts, and international citation exposure for Chinese periodicals",
+          "Research trend analytics: hot topic identification, keyword co-occurrence maps, and emerging research area detection across disciplines",
+          "Paper originality detection: similarity checking service widely used by Chinese universities for dissertation and thesis screening",
+          "Open-access knowledge platform: free literature access programs for public libraries and secondary education institutions across China"
+        ],
+        "zh": [
+          "中文科技期刊：1989年至今收录超过15000种期刊，覆盖自然科学、工程技术、医学、农业、经济学及社会科学",
+          "全文文章：6000余万篇中文学术论文，提供全文、摘要、作者单位及关键词索引",
+          "引文追踪：中文文献的全面引文和共被引分析，包括作者和机构的H指数计算",
+          "期刊指标：中文期刊的影响因子、即年指标、总被引频次及国际引用情况",
+          "研究热点分析：学科研究热点识别、关键词共现图谱及新兴研究领域探测",
+          "论文原创性检测：广泛应用于国内高校学位论文和期刊论文相似性核查的检测服务",
+          "开放获取知识平台：面向全国公共图书馆和中等教育机构的免费文献获取项目"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-vip.json"
     },
     {
       "id": "china-wanfang",

@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T06:42:43.195561+00:00",
+    "generated_at": "2026-05-05T02:33:17.325314+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 679,
+    "total_sources": 684,
     "sources_with_api": 154,
-    "last_updated": "2026-05-04"
+    "last_updated": "2026-05-05"
   },
   "by_authority_level": {
     "research": 123,
@@ -14,49 +14,49 @@
     "government": 348,
     "other": 61,
     "market": 43,
-    "commercial": 27
+    "commercial": 32
   },
   "by_geographic_scope": {
     "global": 114,
-    "national": 481,
+    "national": 486,
     "regional": 27,
     "subnational": 57
   },
   "by_update_frequency": {
     "irregular": 127,
-    "daily": 94,
+    "daily": 95,
     "weekly": 11,
-    "quarterly": 51,
+    "quarterly": 55,
     "monthly": 214,
     "annual": 164,
     "real-time": 18
   },
   "by_domain": {
-    "economics": 268,
+    "economics": 272,
     "trade": 118,
     "environment": 117,
     "social": 114,
-    "finance": 105,
+    "finance": 109,
     "industry": 94,
     "demographics": 89,
     "statistics": 85,
-    "agriculture": 82,
+    "agriculture": 84,
     "health": 71,
-    "technology": 67,
+    "technology": 68,
     "energy": 62,
     "governance": 58,
-    "education": 53,
-    "science": 45,
+    "education": 54,
+    "science": 46,
     "infrastructure": 45,
     "employment": 44,
     "climate": 41,
     "manufacturing": 28,
     "transportation": 26,
-    "research": 25,
+    "research": 26,
     "prices": 22,
     "housing": 21,
+    "real-estate": 18,
     "development": 17,
-    "real-estate": 17,
     "banking": 17,
     "monetary-policy": 17,
     "securities": 15,
@@ -115,6 +115,7 @@
     "foreign-exchange": 5,
     "gender-equality": 5,
     "automotive": 5,
+    "insurance": 5,
     "regulation": 5,
     "media": 5,
     "fiscal-policy": 5,
@@ -139,7 +140,6 @@
     "food-safety": 4,
     "commerce": 4,
     "government": 4,
-    "insurance": 4,
     "legal": 4,
     "astronomy": 4,
     "petroleum": 4,

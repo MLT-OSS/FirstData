@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T06:42:43.195561+00:00",
+    "generated_at": "2026-05-05T02:33:17.325314+00:00",
     "total_domains": 731,
-    "total_sources": 679,
+    "total_sources": 684,
     "version": "2.0"
   },
   "domains": {
@@ -549,6 +549,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-abc",
+        "name": {
+          "en": "Agricultural Bank of China (ABC)",
+          "zh": "中国农业银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.abchina.com/cn/InvestorRelations/",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-abc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-adbc",
         "name": {
           "en": "Agricultural Development Bank of China",
@@ -558,6 +570,18 @@
         "data_url": "https://www.adbc.com.cn/",
         "has_api": false,
         "file_path": "china/finance/banking/china-adbc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-psbc",
+        "name": {
+          "en": "Postal Savings Bank of China (PSBC)",
+          "zh": "中国邮政储蓄银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.psbc.com",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-psbc.json",
         "geographic_scope": "national"
       },
       {
@@ -9293,6 +9317,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-abc",
+        "name": {
+          "en": "Agricultural Bank of China (ABC)",
+          "zh": "中国农业银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.abchina.com/cn/InvestorRelations/",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-abc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-boc",
         "name": {
           "en": "Bank of China (BOC)",
@@ -9317,6 +9353,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ccb",
+        "name": {
+          "en": "China Construction Bank (CCB)",
+          "zh": "中国建设银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.ccb.com",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-ccb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-pbccrc",
         "name": {
           "en": "People's Bank of China Credit Reference Center",
@@ -9326,6 +9374,18 @@
         "data_url": "https://www.pbccrc.org.cn",
         "has_api": false,
         "file_path": "china/finance/banking/china-pbccrc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-psbc",
+        "name": {
+          "en": "Postal Savings Bank of China (PSBC)",
+          "zh": "中国邮政储蓄银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.psbc.com",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-psbc.json",
         "geographic_scope": "national"
       },
       {
@@ -9411,6 +9471,18 @@
         "data_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-shfe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinalife",
+        "name": {
+          "en": "China Life Insurance Company",
+          "zh": "中国人寿保险股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.e-chinalife.com",
+        "has_api": false,
+        "file_path": "china/finance/china-chinalife.json",
         "geographic_scope": "national"
       },
       {
@@ -11733,6 +11805,18 @@
         "data_url": "https://www.nstl.gov.cn/search.html",
         "has_api": false,
         "file_path": "china/research/china-nstl.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-vip",
+        "name": {
+          "en": "VIP (Chongqing VIP Information)",
+          "zh": "维普网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cqvip.com",
+        "has_api": false,
+        "file_path": "china/research/china-vip.json",
         "geographic_scope": "national"
       },
       {
@@ -16239,6 +16323,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-abc",
+        "name": {
+          "en": "Agricultural Bank of China (ABC)",
+          "zh": "中国农业银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.abchina.com/cn/InvestorRelations/",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-abc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-adbc",
         "name": {
           "en": "Agricultural Development Bank of China",
@@ -16275,6 +16371,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ccb",
+        "name": {
+          "en": "China Construction Bank (CCB)",
+          "zh": "中国建设银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.ccb.com",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-ccb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-pbccrc",
         "name": {
           "en": "People's Bank of China Credit Reference Center",
@@ -16284,6 +16392,18 @@
         "data_url": "https://www.pbccrc.org.cn",
         "has_api": false,
         "file_path": "china/finance/banking/china-pbccrc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-psbc",
+        "name": {
+          "en": "Postal Savings Bank of China (PSBC)",
+          "zh": "中国邮政储蓄银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.psbc.com",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-psbc.json",
         "geographic_scope": "national"
       },
       {
@@ -16442,6 +16562,18 @@
         "data_url": "https://www.bse.cn/market_data.html",
         "has_api": false,
         "file_path": "china/finance/china-beijing-stock-exchange.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinalife",
+        "name": {
+          "en": "China Life Insurance Company",
+          "zh": "中国人寿保险股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.e-chinalife.com",
+        "has_api": false,
+        "file_path": "china/finance/china-chinalife.json",
         "geographic_scope": "national"
       },
       {
@@ -24079,6 +24211,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinalife",
+        "name": {
+          "en": "China Life Insurance Company",
+          "zh": "中国人寿保险股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.e-chinalife.com",
+        "has_api": false,
+        "file_path": "china/finance/china-chinalife.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "japan-fsa",
         "name": {
           "en": "Japan Financial Services Agency",
@@ -30179,6 +30323,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-ccb",
+        "name": {
+          "en": "China Construction Bank (CCB)",
+          "zh": "中国建设银行"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.ccb.com",
+        "has_api": false,
+        "file_path": "china/finance/banking/china-ccb.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-court-auction",
         "name": {
           "en": "People's Court Litigation Assets Network",
@@ -30830,6 +30986,18 @@
         "has_api": false,
         "file_path": "china/research/china-scidb.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-vip",
+        "name": {
+          "en": "VIP (Chongqing VIP Information)",
+          "zh": "维普网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cqvip.com",
+        "has_api": false,
+        "file_path": "china/research/china-vip.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-wanfang",
@@ -31628,6 +31796,18 @@
         "has_api": false,
         "file_path": "china/research/china-scidb.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-vip",
+        "name": {
+          "en": "VIP (Chongqing VIP Information)",
+          "zh": "维普网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cqvip.com",
+        "has_api": false,
+        "file_path": "china/research/china-vip.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-wanfang",
@@ -35973,6 +36153,18 @@
         "data_url": "https://www.nstl.gov.cn/search.html",
         "has_api": false,
         "file_path": "china/research/china-nstl.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-vip",
+        "name": {
+          "en": "VIP (Chongqing VIP Information)",
+          "zh": "维普网"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cqvip.com",
+        "has_api": false,
+        "file_path": "china/research/china-vip.json",
         "geographic_scope": "national"
       },
       {
