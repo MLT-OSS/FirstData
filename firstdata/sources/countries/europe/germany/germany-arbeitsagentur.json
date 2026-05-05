@@ -1,0 +1,78 @@
+{
+  "id": "germany-arbeitsagentur",
+  "name": {
+    "en": "Federal Employment Agency of Germany (Bundesagentur für Arbeit)",
+    "zh": "德国联邦劳动局"
+  },
+  "description": {
+    "en": "The Federal Employment Agency (Bundesagentur für Arbeit, BA) is the German federal authority responsible for labour market policy, employment services, and unemployment insurance. Its statistics unit publishes comprehensive monthly and annual data on unemployment, registered job vacancies, short-time work (Kurzarbeit), employment subject to social security contributions, wage and labour cost trends, migration and integration of foreign workers into the labour market, and regional labour market indicators for all 16 federal states. BA statistics are the authoritative reference for Germany's labour market situation and are widely used by Eurostat, the OECD, and the European Central Bank.",
+    "zh": "德国联邦劳动局（Bundesagentur für Arbeit, BA）是负责劳动力市场政策、就业服务和失业保险的联邦机构。其统计部门发布月度和年度权威数据，内容涵盖失业情况、登记招聘岗位、短时工作（Kurzarbeit）、需缴纳社保的就业人数、工资与劳动力成本走势、外籍劳动者迁移及融入情况，以及覆盖全部 16 个联邦州的区域劳动力市场指标。联邦劳动局统计数据是反映德国劳动力市场状况的权威参考，被欧盟统计局（Eurostat）、经合组织（OECD）及欧洲央行广泛引用。"
+  },
+  "website": "https://www.arbeitsagentur.de/",
+  "data_url": "https://statistik.arbeitsagentur.de/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "DE",
+  "domains": [
+    "economics",
+    "social",
+    "demographics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "德国",
+    "germany",
+    "联邦劳动局",
+    "bundesagentur-fur-arbeit",
+    "arbeitsagentur",
+    "ba",
+    "劳动力市场",
+    "labour-market",
+    "失业",
+    "unemployment",
+    "就业",
+    "employment",
+    "职位空缺",
+    "job-vacancies",
+    "短时工作",
+    "kurzarbeit",
+    "工资",
+    "wages",
+    "社保就业",
+    "social-security-employment",
+    "联邦州数据",
+    "federal-states-data",
+    "bundesland",
+    "移民就业",
+    "migrant-employment",
+    "区域劳动力市场",
+    "regional-labour-market"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly unemployment statistics: total unemployed, unemployment rate, by age/gender/nationality",
+      "Registered job vacancies and hiring statistics by industry and region",
+      "Employment subject to social security contributions (sozialversicherungspflichtig Beschäftigte)",
+      "Short-time work (Kurzarbeit) statistics including applications, approvals, and beneficiaries",
+      "Regional labour market indicators for all 16 federal states (Bundesländer) and districts",
+      "Long-term unemployment and unemployment benefit (ALG I, ALG II / Bürgergeld) recipients",
+      "Training and vocational integration programme participation statistics",
+      "Labour market integration of refugees and migrant workers",
+      "Wage and labour cost indicators, occupational structure of employment",
+      "Annual labour market report and monthly press releases with commentary"
+    ],
+    "zh": [
+      "月度失业统计：失业总人数、失业率、分年龄/性别/国籍",
+      "按行业与地区分类的登记职位空缺和招聘统计",
+      "需缴纳社保的就业人数（sozialversicherungspflichtig Beschäftigte）",
+      "短时工作（Kurzarbeit）统计，包括申请、批准及受益人数",
+      "覆盖全部 16 个联邦州（Bundesländer）及地区的区域劳动力市场指标",
+      "长期失业及失业救济金（ALG I、ALG II / Bürgergeld）领取人数",
+      "职业培训及职业融合项目参与统计",
+      "难民与外籍劳动者的劳动力市场融合情况",
+      "工资与劳动力成本指标、职业结构就业数据",
+      "年度劳动力市场报告与附评论的月度新闻发布"
+    ]
+  }
+}

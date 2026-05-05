@@ -1,0 +1,83 @@
+{
+  "id": "japan-mhlw",
+  "name": {
+    "en": "Japan Ministry of Health, Labour and Welfare (MHLW) Statistics",
+    "zh": "日本厚生劳动省统计"
+  },
+  "description": {
+    "en": "The Ministry of Health, Labour and Welfare (MHLW) is the cabinet-level ministry of the Japanese government responsible for health, labour, employment, and social welfare policy. Its statistics division publishes authoritative national data on employment, wages, working hours, labour force participation, vital statistics (births, deaths, marriages), public health, medical institutions, long-term care, pensions, and social security. MHLW conducts the Monthly Labour Survey, the Basic Survey on Wage Structure, the Survey on Working Conditions, the Vital Statistics of Japan, and numerous health and welfare surveys, making it the primary source for Japan's labour market and public health indicators.",
+    "zh": "日本厚生劳动省（MHLW）是日本政府主管医疗卫生、劳动就业和社会福利政策的内阁级部门。其统计部门发布就业、工资、工时、劳动力参与率、人口动态（出生、死亡、婚姻）、公共卫生、医疗机构、长期护理、养老金及社会保障等权威全国性数据。厚生劳动省负责开展《每月劳动统计调查》《工资结构基本调查》《就业条件综合调查》《人口动态统计》及多项卫生福利调查，是日本劳动力市场和公共卫生指标的核心数据来源。"
+  },
+  "website": "https://www.mhlw.go.jp/",
+  "data_url": "https://www.mhlw.go.jp/toukei/list/index.html",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "JP",
+  "domains": [
+    "health",
+    "social",
+    "economics",
+    "demographics"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "日本",
+    "japan",
+    "厚生劳动省",
+    "mhlw",
+    "ministry-of-health-labour-welfare",
+    "劳动统计",
+    "labour-statistics",
+    "就业",
+    "employment",
+    "工资",
+    "wages",
+    "工时",
+    "working-hours",
+    "失业率",
+    "unemployment",
+    "人口动态",
+    "vital-statistics",
+    "出生率",
+    "birth-rate",
+    "死亡率",
+    "mortality",
+    "公共卫生",
+    "public-health",
+    "医疗机构",
+    "medical-institutions",
+    "养老金",
+    "pension",
+    "社会保障",
+    "social-security",
+    "长期护理",
+    "long-term-care"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly Labour Survey: employment numbers, wages, working hours by industry",
+      "Basic Survey on Wage Structure: wage distribution by occupation, age, gender, firm size",
+      "Survey on Working Conditions: working hours, paid leave, overtime practices",
+      "Vital Statistics of Japan: births, deaths, stillbirths, marriages, divorces",
+      "Patient Survey and Medical Facility Survey: medical utilisation and hospital data",
+      "Long-term Care Insurance Business Report: care services, beneficiaries, expenditures",
+      "Comprehensive Survey of Living Conditions: household income, poverty rate, life circumstances",
+      "National Health and Nutrition Survey: population health indicators, nutrition status",
+      "Public Pension statistics: contributors, beneficiaries, benefits paid",
+      "Occupational Safety and Health statistics: workplace accidents, occupational diseases"
+    ],
+    "zh": [
+      "《每月劳动统计调查》：分行业就业人数、工资、工时",
+      "《工资结构基本调查》：按职业、年龄、性别、企业规模的工资分布",
+      "《就业条件综合调查》：工时、带薪休假、加班情况",
+      "《人口动态统计》：出生、死亡、死产、结婚、离婚",
+      "《患者调查》与《医疗机构调查》：医疗利用及医院数据",
+      "《长期护理保险事业报告》：护理服务、受益人及支出",
+      "《国民生活基础调查》：家庭收入、贫困率、生活状况",
+      "《国民健康营养调查》：人口健康指标与营养状况",
+      "公共养老金统计：缴费人、受益人、给付金额",
+      "职业安全卫生统计：工伤事故、职业病"
+    ]
+  }
+}
