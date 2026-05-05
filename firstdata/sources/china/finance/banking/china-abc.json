@@ -1,0 +1,68 @@
+{
+  "id": "china-abc",
+  "name": {
+    "en": "Agricultural Bank of China (ABC)",
+    "zh": "中国农业银行"
+  },
+  "description": {
+    "en": "Agricultural Bank of China (ABC) is one of China's Big Four state-owned commercial banks and the largest bank by rural network coverage. Founded in 1951 and headquartered in Beijing, ABC has a unique dual mandate: it operates as a fully commercial bank while serving as the primary financial pillar for China's agricultural sector, rural areas, and farmers (San Nong: agriculture, rural areas, farmers). With over 23,000 domestic branches — the widest coverage of any Chinese bank in rural and county areas — ABC is the dominant provider of rural credit, agricultural loans, and inclusive financial services. ABC publishes comprehensive annual and interim financial reports covering capital adequacy, asset quality, non-performing loan ratios, and rural finance statistics. Its data on agricultural lending, rural household credit, and county-level financial inclusion are essential references for tracking China's rural economic development, poverty alleviation financing outcomes, and the agricultural modernization agenda under national policy frameworks.",
+    "zh": "中国农业银行（农行/ABC）是中国四大国有商业银行之一，也是农村网点覆盖最广的银行。农行创立于1951年，总部位于北京，承担着商业银行与服务三农（农业、农村、农民）的双重职能。农行在全国拥有超过23000个境内网点，其在农村和县域地区的覆盖密度居中国银行业之首，是农村信贷、农业贷款和普惠金融服务的主力提供者。农行定期发布涵盖资本充足率、资产质量、不良贷款率及涉农金融统计数据的年报和中报。其关于农业贷款、农村居民信贷和县域普惠金融的数据，是追踪中国农村经济发展、脱贫攻坚金融成效及农业现代化政策目标完成情况的重要参考。"
+  },
+  "website": "https://www.abchina.com",
+  "data_url": "https://www.abchina.com/cn/InvestorRelations/",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "agriculture"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "abc",
+    "中国农业银行",
+    "agricultural-bank-of-china",
+    "三农",
+    "rural-finance",
+    "农业贷款",
+    "agricultural-loans",
+    "普惠金融",
+    "inclusive-finance",
+    "年报",
+    "annual-report",
+    "state-owned-bank",
+    "国有商业银行",
+    "big-four-bank",
+    "四大行",
+    "资本充足率",
+    "capital-adequacy",
+    "不良贷款",
+    "non-performing-loans",
+    "county-finance",
+    "县域金融",
+    "poverty-alleviation",
+    "脱贫攻坚"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: comprehensive financial statements with capital adequacy ratios, NPL ratios, profitability metrics, and rural finance breakdowns",
+      "Agricultural and rural lending statistics: outstanding loan balances for agriculture, rural households, and agribusinesses, segmented by loan type and region",
+      "Inclusive finance data: coverage rates of basic financial services in county and township areas, micro-loan portfolio size, and rural household credit penetration",
+      "Poverty alleviation finance reports: targeted lending volumes for national poverty-alleviation programs and rural revitalization outcomes",
+      "County-level banking network data: branch distribution, ATM coverage, and digital banking penetration in rural and peri-urban areas",
+      "Interest rate and deposit structure: rural deposit mobilization volumes, interest rate spreads, and savings structure by geographic tier",
+      "Green and agricultural bonds: issuance data for rural revitalization bonds, green agriculture bonds, and rural infrastructure-backed securities"
+    ],
+    "zh": [
+      "年报和中报：涵盖资本充足率、不良贷款率、盈利指标及涉农金融分项的完整财务报表",
+      "农业和农村贷款统计：农业、农村居民及农业企业的贷款余额，按贷款类型和地区细分",
+      "普惠金融数据：县乡两级基本金融服务覆盖率、小额贷款组合规模及农村居民信贷渗透率",
+      "扶贫金融报告：国家脱贫攻坚项目定向贷款规模及乡村振兴成效数据",
+      "县域银行网点数据：农村和城郊地区的支行分布、ATM覆盖率及数字金融服务渗透情况",
+      "利率和存款结构：农村存款动员规模、利率利差及各地区层级储蓄结构",
+      "绿色和农业债券：乡村振兴债券、绿色农业债券及农村基础设施支持证券的发行数据"
+    ]
+  }
+}

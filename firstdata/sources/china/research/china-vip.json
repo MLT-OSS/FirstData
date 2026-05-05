@@ -1,0 +1,69 @@
+{
+  "id": "china-vip",
+  "name": {
+    "en": "VIP (Chongqing VIP Information)",
+    "zh": "维普网"
+  },
+  "description": {
+    "en": "VIP (维普网), operated by Chongqing VIP Information Co., Ltd. (重庆维普资讯有限公司), is one of China's three major academic literature databases alongside CNKI and Wanfang. Founded in 1989 and based in Chongqing, VIP specializes in Chinese science and technology journal literature, providing access to over 15,000 Chinese-language periodicals and more than 60 million articles covering natural sciences, engineering, medicine, agriculture, economics, and social sciences. VIP is widely used by Chinese universities, research institutes, and enterprises for academic literature retrieval, citation analysis, and research trend monitoring. Its distinctive strengths include strong coverage of applied technology and industry-oriented journals, detailed citation tracking, and a proprietary scientific evaluation index system. VIP also provides journal impact factors, paper originality detection services, and an open-access knowledge infrastructure platform used by public libraries and educational institutions across China.",
+    "zh": "维普网由重庆维普资讯有限公司运营，是与中国知网（CNKI）、万方数据并列的中国三大学术文献数据库之一。维普创立于1989年，总部位于重庆，专注于中文科技期刊文献，收录了超过15000种中文期刊及6000余万篇文章，覆盖自然科学、工程技术、医学、农业、经济学及社会科学等领域。维普广泛服务于国内高校、科研院所和企业，支持学术文献检索、引文分析及研究热点追踪。其突出优势包括对应用技术类和行业导向类期刊的深度收录、详细的引文追踪功能，以及自主研发的科学评价指标体系。维普还提供期刊影响因子数据、论文原创性检测服务，并为全国各地公共图书馆和教育机构提供开放获取的知识基础设施平台。"
+  },
+  "website": "https://www.cqvip.com",
+  "data_url": "https://www.cqvip.com",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "research",
+    "education",
+    "science",
+    "technology"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "vip",
+    "维普",
+    "维普网",
+    "cqvip",
+    "academic-database",
+    "学术数据库",
+    "chinese-journals",
+    "中文期刊",
+    "sci-tech-literature",
+    "科技文献",
+    "citation-analysis",
+    "引文分析",
+    "journal-impact-factor",
+    "期刊影响因子",
+    "research-database",
+    "科研数据库",
+    "重庆维普",
+    "paper-detection",
+    "论文检测",
+    "open-access",
+    "开放获取",
+    "natural-science",
+    "自然科学"
+  ],
+  "data_content": {
+    "en": [
+      "Chinese science and technology journals: over 15,000 periodicals covering natural sciences, engineering, medicine, agriculture, economics, and social sciences since 1989",
+      "Full-text articles: 60+ million Chinese academic papers with full text, abstracts, author affiliations, and keyword indexing",
+      "Citation tracking: comprehensive citation and co-citation analysis for Chinese literature, including H-index calculations for authors and institutions",
+      "Journal metrics: journal impact factors, immediacy index, total citation counts, and international citation exposure for Chinese periodicals",
+      "Research trend analytics: hot topic identification, keyword co-occurrence maps, and emerging research area detection across disciplines",
+      "Paper originality detection: similarity checking service widely used by Chinese universities for dissertation and thesis screening",
+      "Open-access knowledge platform: free literature access programs for public libraries and secondary education institutions across China"
+    ],
+    "zh": [
+      "中文科技期刊：1989年至今收录超过15000种期刊，覆盖自然科学、工程技术、医学、农业、经济学及社会科学",
+      "全文文章：6000余万篇中文学术论文，提供全文、摘要、作者单位及关键词索引",
+      "引文追踪：中文文献的全面引文和共被引分析，包括作者和机构的H指数计算",
+      "期刊指标：中文期刊的影响因子、即年指标、总被引频次及国际引用情况",
+      "研究热点分析：学科研究热点识别、关键词共现图谱及新兴研究领域探测",
+      "论文原创性检测：广泛应用于国内高校学位论文和期刊论文相似性核查的检测服务",
+      "开放获取知识平台：面向全国公共图书馆和中等教育机构的免费文献获取项目"
+    ]
+  }
+}
