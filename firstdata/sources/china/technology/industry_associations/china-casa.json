@@ -1,0 +1,72 @@
+{
+  "id": "china-casa",
+  "name": {
+    "en": "China Advanced Semiconductor Industry Innovation Alliance (CASA)",
+    "zh": "第三代半导体产业技术创新战略联盟"
+  },
+  "description": {
+    "en": "The China Advanced Semiconductor Industry Innovation Alliance (CASA) is a national industry innovation alliance focused on third-generation (wide-bandgap) semiconductors, including silicon carbide (SiC) and gallium nitride (GaN) materials, devices, modules, and equipment. Initiated under the guidance of China's Ministry of Science and Technology, CASA brings together universities, research institutes, and enterprises across the full third-generation semiconductor value chain. It publishes annual industry development reports, market research on SiC and GaN power devices and RF devices, technology roadmaps, standards, and industrial cluster analyses, serving as a primary authoritative reference for tracking China's wide-bandgap semiconductor sector.",
+    "zh": "第三代半导体产业技术创新战略联盟（CASA）是国家级产业技术创新战略联盟，聚焦以碳化硅（SiC）、氮化镓（GaN）为代表的宽禁带半导体材料、器件、模块及装备。联盟在科技部指导下发起成立，汇聚第三代半导体产业链上下游的高校、科研院所及骨干企业。联盟定期发布年度产业发展报告、SiC 与 GaN 功率/射频器件市场研究、技术路线图、标准及产业集群分析，是追踪中国宽禁带半导体产业的重要权威参考来源。"
+  },
+  "website": "http://www.casa-china.cn/",
+  "data_url": "http://www.casa-china.cn/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "domains": [
+    "technology",
+    "industry",
+    "manufacturing"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "annual",
+  "tags": [
+    "第三代半导体",
+    "third-generation-semiconductor",
+    "宽禁带半导体",
+    "wide-bandgap-semiconductor",
+    "碳化硅",
+    "silicon-carbide",
+    "sic",
+    "氮化镓",
+    "gallium-nitride",
+    "gan",
+    "功率器件",
+    "power-devices",
+    "射频器件",
+    "rf-devices",
+    "casa",
+    "产业联盟",
+    "industry-alliance",
+    "衬底",
+    "substrate",
+    "外延",
+    "epitaxy",
+    "产业技术路线图",
+    "technology-roadmap",
+    "新能源汽车半导体",
+    "ev-semiconductor"
+  ],
+  "data_content": {
+    "en": [
+      "Annual development report on China's third-generation (wide-bandgap) semiconductor industry",
+      "SiC substrate, epitaxy, device and module market size and capacity statistics",
+      "GaN power device and RF device market statistics",
+      "Technology roadmaps for SiC and GaN materials, devices, and applications",
+      "Industrial cluster analyses and regional distribution of wide-bandgap semiconductor enterprises",
+      "Application sector analyses: new energy vehicles, photovoltaics, energy storage, rail transit, 5G base stations",
+      "Group standards and technical specifications for wide-bandgap semiconductors",
+      "Member enterprise directory and ecosystem mapping"
+    ],
+    "zh": [
+      "《中国第三代半导体产业发展年度报告》",
+      "SiC 衬底、外延、器件及模块市场规模与产能统计",
+      "GaN 功率器件与射频器件市场统计",
+      "SiC 与 GaN 材料、器件及应用技术路线图",
+      "宽禁带半导体产业集群分析及企业区域分布",
+      "应用领域分析：新能源汽车、光伏、储能、轨道交通、5G 基站",
+      "宽禁带半导体团体标准与技术规范",
+      "会员企业名录及产业生态图谱"
+    ]
+  }
+}

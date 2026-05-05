@@ -1,0 +1,76 @@
+{
+  "id": "us-sia",
+  "name": {
+    "en": "Semiconductor Industry Association (SIA)",
+    "zh": "美国半导体行业协会"
+  },
+  "description": {
+    "en": "The Semiconductor Industry Association (SIA) is the U.S. industry body representing the semiconductor sector, whose members account for the majority of U.S. semiconductor manufacturing and a significant share of the global semiconductor market. SIA compiles and publishes the World Semiconductor Trade Statistics (WSTS) figures for the United States, monthly global and regional semiconductor sales data, annual State of the U.S. Semiconductor Industry reports, workforce and R&D statistics, and policy briefs on export controls, CHIPS Act investments, and semiconductor supply-chain trends. It is a primary authoritative reference for tracking U.S. and global chip market dynamics.",
+    "zh": "美国半导体行业协会（SIA）是代表美国半导体产业的全国性行业组织，成员企业涵盖美国大部分半导体制造商及全球主要半导体公司。SIA 汇编并发布美国在世界半导体贸易统计组织（WSTS）中的数据、全球与分区域月度半导体销售数据、《美国半导体产业现状》年度报告、劳动力与研发统计数据，以及有关出口管制、芯片法案投资和半导体供应链趋势的政策简报，是追踪美国及全球芯片市场动态的权威参考来源。"
+  },
+  "website": "https://www.semiconductors.org/",
+  "data_url": "https://www.semiconductors.org/data/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "US",
+  "domains": [
+    "technology",
+    "manufacturing",
+    "industry",
+    "trade"
+  ],
+  "geographic_scope": "national",
+  "update_frequency": "monthly",
+  "tags": [
+    "美国",
+    "usa",
+    "sia",
+    "semiconductor-industry-association",
+    "半导体",
+    "semiconductor",
+    "集成电路",
+    "integrated-circuits",
+    "ic",
+    "芯片",
+    "chip",
+    "wsts",
+    "世界半导体贸易统计",
+    "world-semiconductor-trade-statistics",
+    "全球芯片销售",
+    "global-chip-sales",
+    "chips-act",
+    "芯片法案",
+    "半导体出口管制",
+    "export-controls",
+    "半导体供应链",
+    "semiconductor-supply-chain",
+    "半导体研发",
+    "semiconductor-rd",
+    "产业统计",
+    "industry-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly global and regional semiconductor sales statistics (Americas, Europe, Japan, China, Asia-Pacific)",
+      "World Semiconductor Trade Statistics (WSTS) U.S. figures and forecasts",
+      "Annual State of the U.S. Semiconductor Industry report",
+      "U.S. semiconductor industry workforce statistics: employment, salary, skills gap analysis",
+      "R&D spending statistics for the U.S. semiconductor sector",
+      "Semiconductor exports and imports data for the United States",
+      "CHIPS Act funding tracker and U.S. fabrication capacity investment monitoring",
+      "Semiconductor supply chain analyses and global market share statistics by company headquarters",
+      "Policy reports on export controls, technology competition, and industrial policy"
+    ],
+    "zh": [
+      "全球及分地区（美洲、欧洲、日本、中国、亚太）月度半导体销售统计",
+      "世界半导体贸易统计组织（WSTS）美国数据及预测",
+      "《美国半导体产业现状》年度报告",
+      "美国半导体产业劳动力统计：就业人数、薪资、技能缺口分析",
+      "美国半导体产业研发支出统计",
+      "美国半导体进出口数据",
+      "《芯片与科学法案》资金追踪及美国本土晶圆厂投资监测",
+      "半导体供应链分析及按公司总部地分类的全球市场份额统计",
+      "出口管制、技术竞争及产业政策报告"
+    ]
+  }
+}
