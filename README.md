@@ -4,11 +4,11 @@
 
 ---
 
-**全球最全面、最权威、最结构化的开源数据源知识库 — Agent First**
+**面向 AI Agent 的外部事实上下文层 — Purpose-built · Authoritative · Structured**
 
-**The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
+**The External Facts Context Layer for AI Agents**
 
-> **Agent First**：FirstData 以 AI Agent 为第一优先用户设计。Agent 可通过标准化 Skill 自动完成注册、激活和 MCP 配置，零人工介入即可接入权威数据源知识库。
+> **Agent First**：FirstData 以 AI Agent 为第一优先用户设计。Agent 可通过标准化 Skill 自动完成注册、激活和 MCP 配置，零人工介入即可接入权威外部事实上下文。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data Sources](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MLT-OSS/FirstData/refs/heads/main/assets/badges/sources-count.json)](firstdata/indexes/statistics.json)
@@ -29,7 +29,7 @@
 
 ### 我们的目标：构建AI时代的可信底座
 
-本项目旨在构建一个**面向全球的、权威的、结构化的 Primary Sources 知识库**。
+本项目旨在构建一个**面向 AI Agent 的、全球的、权威的、结构化的外部事实上下文层（External Facts Context Layer）**。
 
 我们系统性发掘并聚合跨领域高可信信源——覆盖科研学术、政务公开、法律法规、公司披露与财报、标准规范与行业权威资料等——**将分散、非标、难复用的原始内容，转化为可追溯、可验证、可引用的"核心事实（Core Facts）"**，并保留完整证据链与版本历史，确保每一条结论都能"回到原文"。
 
@@ -65,7 +65,7 @@
 | 📊**结构化元数据体系**     | 完整元数据标准（访问URL、API接口、权威等级、更新频率、数据内容等），不只是链接 | 机器可读、可编程访问，支持自动化证据链构建                 |
 | ⭐**权威等级分类**         | 政府、国际组织、研究机构、市场、商业等六类权威等级                             | 科学评估数据源可信度，为AI提供质量过滤依据                 |
 | 🤖**AI智能搜索**           | 基于LLM驱动的数据源查询Agent，理解复杂多维度查询                               | 自然语言即可获取权威数据源，无需人工筛选                   |
-| 🔌**MCP协议集成**          | 提供标准MCP Server，可集成到Claude Desktop、Cline等AI应用                      | 让任何AI应用都能访问权威数据源知识库                       |
+| 🔌**MCP协议集成**          | 提供标准MCP Server，可集成到Claude Desktop、Cline等AI应用                      | 让任何AI应用都能访问权威外部事实上下文层                       |
 | 🤖**Agent Skill 分发**     | 标准化 Skill 定义，Agent 可自动注册 token、自动配置 MCP，零人工介入             | Agent First — 让 Agent 像调用内置能力一样接入权威数据      |
 | 🌍**中英双语支持**         | 所有元数据提供中英文版本                                                       | 连接全球数据生态，打破语言壁垒                             |
 | 🔍**100%验证**             | 每个URL经过测试，每个数据源有完整文档，每个权威等级有依据                      | 确保数据源真实可用，避免断链和幻觉引用                     |
@@ -145,9 +145,9 @@
 
 ---
 
-我们构建了权威数据源的结构化知识库，每个数据源都有完整的元数据、访问路径和权威性标识。但对于大多数用户来说，真正的挑战在于：如何在海量数据源中快速找到最合适的那一个？找到了数据源网站，如何在复杂的官方平台中准确定位目标数据？如何将这一切无缝集成到日常的 AI 工作流中？
+我们构建了权威数据源的结构化外部事实上下文层，每个数据源都有完整的元数据、访问路径和权威性标识。但对于大多数用户来说，真正的挑战在于：如何在海量数据源中快速找到最合适的那一个？找到了数据源网站，如何在复杂的官方平台中准确定位目标数据？如何将这一切无缝集成到日常的 AI 工作流中？
 
-**FirstData MCP** 正是为此而生——将静态的数据源知识库转化为动态的智能导航系统，让每个人都能轻松访问权威数据。
+**FirstData MCP** 正是为此而生——将静态的外部事实上下文层转化为动态的智能导航系统，让每个人都能轻松访问权威数据。
 
 ---
 

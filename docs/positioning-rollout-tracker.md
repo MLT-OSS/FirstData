@@ -9,7 +9,11 @@
 - **Re-confirmed**: 2026-05-07 03:24 GMT+8 (after v4/v8/v9/v10 override attempts withdrawn)
 - **Base commit**: `bad47726fc50a3c7c69aaab1fae64286cb44350b`
 - **Authoritative regex**: held by @明察 in PR-2's `scripts/check-positioning-consistency.sh`
-- **Totals**: 23 hits / 22 CHANGE + 1 KEEP / 8 files
+- **Totals**: 23 hits / 22 CHANGE + 1 KEEP / 8 files (scope authority, v3 lock, @明察 SOP-7 msg `1501655057933013012`)
+- **Base commit**: `bad47726fc50a3c7c69aaab1fae64286cb44350b`
+- **Scope regex (v3 authority, 明鉴 super-wider)**: `知识库|ナレッジベース|知識ベース|オープンデータソースリポジトリ|データソースリポジトリ`
+- **Tool (independent CI gate)**: `scripts/check-positioning-consistency.sh` v7 wide → 25 hits / 23 CHANGE / 2 KEEP (whitelist: en:592, ja:592). Number diff = regex coverage delta, legitimate.
+- **Adjudication**: scope → @明察 v3 authority; tool → archived as CI gate, not scope
 
 ## Per-file breakdown (v3)
 

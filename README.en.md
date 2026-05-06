@@ -4,7 +4,7 @@ English | **[中文](README.md)** | **[日本語](README.ja.md)**
 
 ---
 
-**The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository — Agent First**
+**The External Facts Context Layer for AI Agents**
 
 > **Agent First**: FirstData is designed with AI Agents as the primary user. Agents can automatically register, activate, and configure MCP via standardized Skills — zero human intervention required.
 
@@ -27,7 +27,7 @@ When noise, patchwork content, and hallucinations become the default background,
 
 ### Our Mission: Building the Trusted Foundation for the AI Era
 
-This project aims to build a **global, authoritative, and structured Primary Sources knowledge base**.
+This project aims to build a **global, authoritative, and structured External Facts Context Layer for AI Agents** built on primary sources.
 
 We systematically discover and aggregate high-trust sources across domains—covering scientific research, government disclosures, laws and regulations, corporate filings and financial reports, standards and authoritative industry materials—**transforming scattered, non-standard, difficult-to-reuse original content into traceable, verifiable, and citable "Core Facts"**, while preserving complete evidence chains and version history, ensuring that every conclusion can be traced "back to the source".
 
@@ -63,7 +63,7 @@ We systematically discover and aggregate high-trust sources across domains—cov
 | 📊 **Structured Metadata System** | Complete metadata standards (access URLs, API interfaces, authority levels, update frequency, data content, etc.), not just links | Machine-readable, programmable access, supports automated evidence chain construction |
 | ⭐ **Authority Level Classification** | Six authority levels: government, international organizations, research institutions, market, commercial, and others | Scientifically assess data source credibility, provide quality filtering basis for AI |
 | 🤖 **AI Smart Search** | LLM-driven data source query Agent that understands complex multi-dimensional queries | Get authoritative data sources through natural language, no manual filtering needed |
-| 🔌 **MCP Protocol Integration** | Provides standard MCP Server, integrable with Claude Desktop, Cline, and other AI applications | Enable any AI application to access the authoritative data source knowledge base |
+| 🔌 **MCP Protocol Integration** | Provides standard MCP Server, integrable with Claude Desktop, Cline, and other AI applications | Enable any AI application to access the authoritative external facts context layer |
 | 🤖 **Agent Skill Distribution** | Standardized Skill definition — Agents can auto-register tokens, auto-configure MCP, zero human intervention | Agent First — Let Agents access authoritative data like a built-in capability |
 | 🌍 **Bilingual Support** | All metadata provided in both Chinese and English | Connect global data ecosystems, break language barriers |
 | 🔍 **100% Verification** | Every URL tested, every data source with complete documentation, every authority level with justification | Ensure data sources are genuinely available, avoid broken links and hallucinated citations |
@@ -143,7 +143,7 @@ Each data source contains **structured metadata** that supports machine-readable
 
 ---
 
-We've built a structured knowledge base of authoritative data sources, each with complete metadata, access paths, and authority identifiers. But for most users, the real challenge is: How to quickly find the most suitable one among massive data sources? Once you find the data source website, how to accurately locate the target data on complex official platforms? How to seamlessly integrate all this into your daily AI workflow?
+We've built a structured external facts context layer of authoritative data sources, each with complete metadata, access paths, and authority identifiers. But for most users, the real challenge is: How to quickly find the most suitable one among massive data sources? Once you find the data source website, how to accurately locate the target data on complex official platforms? How to seamlessly integrate all this into your daily AI workflow?
 
 **FirstData MCP** is built for this purpose—transforming a static data source knowledge base into a dynamic intelligent navigation system, making authoritative data accessible to everyone.
 
