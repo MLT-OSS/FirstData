@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-06T02:57:21.410697+00:00",
-    "total_domains": 733,
-    "total_sources": 693,
+    "generated_at": "2026-05-06T06:54:45.012013+00:00",
+    "total_domains": 736,
+    "total_sources": 698,
     "version": "2.0"
   },
   "domains": {
@@ -3709,6 +3709,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cenews",
+        "name": {
+          "en": "China Environment News",
+          "zh": "中国环境网"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cenews.com.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cenews.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cern",
         "name": {
           "en": "Chinese Ecosystem Research Network (CERN)",
@@ -4662,6 +4674,18 @@
         "data_url": "https://www.cscec.com",
         "has_api": false,
         "file_path": "china/construction/china-cscec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-csus",
+        "name": {
+          "en": "Chinese Society for Urban Studies",
+          "zh": "中国城市科学研究会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.chinasus.org/",
+        "has_api": false,
+        "file_path": "china/construction/china-csus.json",
         "geographic_scope": "national"
       },
       {
@@ -5637,6 +5661,20 @@
         "geographic_scope": "national"
       }
     ],
+    "cybersecurity": [
+      {
+        "id": "china-tc260",
+        "name": {
+          "en": "National Information Security Standardization Technical Committee (TC260)",
+          "zh": "全国信息安全标准化技术委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.tc260.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/china-tc260.json",
+        "geographic_scope": "national"
+      }
+    ],
     "data-governance": [
       {
         "id": "china-national-data-bureau",
@@ -5675,6 +5713,20 @@
         "has_api": true,
         "file_path": "sectors/J-information-communication/common-crawl.json",
         "geographic_scope": "global"
+      }
+    ],
+    "data-security": [
+      {
+        "id": "china-tc260",
+        "name": {
+          "en": "National Information Security Standardization Technical Committee (TC260)",
+          "zh": "全国信息安全标准化技术委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.tc260.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/china-tc260.json",
+        "geographic_scope": "national"
       }
     ],
     "debt-financing": [
@@ -9860,6 +9912,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-caitec",
+        "name": {
+          "en": "Chinese Academy of International Trade and Economic Cooperation",
+          "zh": "商务部国际贸易经济合作研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caitec.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-caitec.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cass",
         "name": {
           "en": "Chinese Academy of Social Sciences",
@@ -10001,6 +10065,18 @@
         "data_url": "https://www.drc.gov.cn/yjcg.htm",
         "has_api": false,
         "file_path": "china/research/china-drc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pbcsf",
+        "name": {
+          "en": "PBC School of Finance, Tsinghua University",
+          "zh": "清华大学五道口金融学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pbcsf.tsinghua.edu.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pbcsf.json",
         "geographic_scope": "national"
       },
       {
@@ -11877,6 +11953,18 @@
         "data_url": "https://www.nstl.gov.cn/search.html",
         "has_api": false,
         "file_path": "china/research/china-nstl.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pbcsf",
+        "name": {
+          "en": "PBC School of Finance, Tsinghua University",
+          "zh": "清华大学五道口金融学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pbcsf.tsinghua.edu.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pbcsf.json",
         "geographic_scope": "national"
       },
       {
@@ -14232,6 +14320,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-csus",
+        "name": {
+          "en": "Chinese Society for Urban Studies",
+          "zh": "中国城市科学研究会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.chinasus.org/",
+        "has_api": false,
+        "file_path": "china/construction/china-csus.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-catas",
         "name": {
           "en": "Chinese Academy of Tropical Agricultural Sciences",
@@ -14625,6 +14725,18 @@
         "data_url": "https://ceads.net.cn/data/",
         "has_api": false,
         "file_path": "china/resources/environment/china-ceads.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cenews",
+        "name": {
+          "en": "China Environment News",
+          "zh": "中国环境网"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cenews.com.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cenews.json",
         "geographic_scope": "national"
       },
       {
@@ -17050,6 +17162,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-pbcsf",
+        "name": {
+          "en": "PBC School of Finance, Tsinghua University",
+          "zh": "清华大学五道口金融学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pbcsf.tsinghua.edu.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pbcsf.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sass",
         "name": {
           "en": "Shanghai Academy of Social Sciences",
@@ -18544,6 +18668,20 @@
         "geographic_scope": "global"
       }
     ],
+    "foreign-investment": [
+      {
+        "id": "china-caitec",
+        "name": {
+          "en": "Chinese Academy of International Trade and Economic Cooperation",
+          "zh": "商务部国际贸易经济合作研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caitec.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-caitec.json",
+        "geographic_scope": "national"
+      }
+    ],
     "foreign-trade": [
       {
         "id": "china-cantonfair",
@@ -19846,6 +19984,18 @@
         "data_url": "http://www.caep.org.cn",
         "has_api": false,
         "file_path": "china/resources/environment/china-caep.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cenews",
+        "name": {
+          "en": "China Environment News",
+          "zh": "中国环境网"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cenews.com.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cenews.json",
         "geographic_scope": "national"
       },
       {
@@ -24692,6 +24842,18 @@
         "has_api": false,
         "file_path": "china/economy/macro/china-iprcc.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-caitec",
+        "name": {
+          "en": "Chinese Academy of International Trade and Economic Cooperation",
+          "zh": "商务部国际贸易经济合作研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caitec.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-caitec.json",
+        "geographic_scope": "national"
       }
     ],
     "international-development": [
@@ -29042,6 +29204,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cenews",
+        "name": {
+          "en": "China Environment News",
+          "zh": "中国环境网"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.cenews.com.cn/",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-cenews.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-craes",
         "name": {
           "en": "Chinese Research Academy of Environmental Sciences",
@@ -31205,6 +31379,18 @@
         "data_url": "https://www.nstl.gov.cn/search.html",
         "has_api": false,
         "file_path": "china/research/china-nstl.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pbcsf",
+        "name": {
+          "en": "PBC School of Finance, Tsinghua University",
+          "zh": "清华大学五道口金融学院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.pbcsf.tsinghua.edu.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-pbcsf.json",
         "geographic_scope": "national"
       },
       {
@@ -34666,6 +34852,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-tc260",
+        "name": {
+          "en": "National Information Security Standardization Technical Committee (TC260)",
+          "zh": "全国信息安全标准化技术委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.tc260.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/china-tc260.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cagis",
         "name": {
           "en": "China Association for Geographic Information Industry",
@@ -36568,6 +36766,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-tc260",
+        "name": {
+          "en": "National Information Security Standardization Technical Committee (TC260)",
+          "zh": "全国信息安全标准化技术委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.tc260.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/china-tc260.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cagis",
         "name": {
           "en": "China Association for Geographic Information Industry",
@@ -37766,6 +37976,18 @@
         "data_url": "http://www.port.org.cn",
         "has_api": false,
         "file_path": "china/infrastructure/china-ports-association.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-caitec",
+        "name": {
+          "en": "Chinese Academy of International Trade and Economic Cooperation",
+          "zh": "商务部国际贸易经济合作研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caitec.org.cn/",
+        "has_api": false,
+        "file_path": "china/research/china-caitec.json",
         "geographic_scope": "national"
       },
       {
@@ -39445,6 +39667,18 @@
     ],
     "urban-studies": [
       {
+        "id": "china-csus",
+        "name": {
+          "en": "Chinese Society for Urban Studies",
+          "zh": "中国城市科学研究会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.chinasus.org/",
+        "has_api": false,
+        "file_path": "china/construction/china-csus.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sass",
         "name": {
           "en": "Shanghai Academy of Social Sciences",
@@ -39458,6 +39692,18 @@
       }
     ],
     "urbanization": [
+      {
+        "id": "china-csus",
+        "name": {
+          "en": "Chinese Society for Urban Studies",
+          "zh": "中国城市科学研究会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.chinasus.org/",
+        "has_api": false,
+        "file_path": "china/construction/china-csus.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "ceic-china-urbanization",
         "name": {

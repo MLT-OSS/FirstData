@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-06T02:57:21.410697+00:00",
-    "total_sources": 693,
+    "generated_at": "2026-05-06T06:54:45.012013+00:00",
+    "total_sources": 698,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2658,6 +2658,78 @@
       },
       "has_api": false,
       "file_path": "china/construction/china-cscec.json"
+    },
+    {
+      "id": "china-csus",
+      "name": {
+        "en": "Chinese Society for Urban Studies",
+        "zh": "中国城市科学研究会"
+      },
+      "description": {
+        "en": "The Chinese Society for Urban Studies (CSUS) is a national academic organization under the Ministry of Housing and Urban-Rural Development (MOHURD), founded in 1984 by Dr. Qian Xuesen and other leading scholars. CSUS is a leading national platform for research on urbanization, urban planning, smart cities, green and low-carbon cities, urban economy, and urban governance in China. It coordinates dozens of professional committees covering topics ranging from digital cities, city renewal, urban heat islands, sponge cities, urban water systems, to historic city protection. CSUS publishes annual reports, academic journals such as Urban Development Studies (城市发展研究), organizes national urban science conferences, and produces influential rankings and indexes evaluating cities' performance on green development and low-carbon transition, widely cited by government, industry, and academia.",
+        "zh": "中国城市科学研究会（CSUS）是住房和城乡建设部主管的全国性学术组织，成立于1984年，由钱学森等著名学者倡议发起。研究会是中国研究城镇化、城市规划、智慧城市、绿色低碳城市、城市经济和城市治理的主要学术平台，下设数字城市、城市更新、城市热岛、海绵城市、城市水系统、历史文化名城保护等数十个专业委员会。研究会主办《城市发展研究》等学术期刊，组织召开中国城市科学大会，发布年度绿色低碳城市评估、智慧城市指数等城市评价排名，成果被政府、产业与学术界广泛引用。"
+      },
+      "website": "https://www.chinasus.org/",
+      "data_url": "https://www.chinasus.org/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "urban-studies",
+        "urbanization",
+        "construction",
+        "environment"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "csus",
+        "中国城市科学研究会",
+        "城市科学",
+        "urban-studies",
+        "城镇化",
+        "urbanization",
+        "智慧城市",
+        "smart-city",
+        "绿色低碳城市",
+        "low-carbon-city",
+        "海绵城市",
+        "sponge-city",
+        "城市更新",
+        "urban-renewal",
+        "城市发展研究",
+        "urban-development-studies",
+        "住建部",
+        "mohurd",
+        "城市治理",
+        "urban-governance",
+        "钱学森",
+        "qian-xuesen"
+      ],
+      "data_content": {
+        "en": [
+          "Annual green and low-carbon city evaluation reports and rankings covering prefecture-level cities in China",
+          "Smart city development indexes and benchmark studies of leading Chinese cities",
+          "Urban Development Studies journal: peer-reviewed research on urban planning, governance, and sustainability",
+          "Sponge city construction case studies and evaluation data",
+          "Urban renewal and historic city preservation research reports",
+          "Digital city and city information modeling (CIM) white papers",
+          "Proceedings and data sets from China Urban Science Conference",
+          "Climate-adaptive cities research, including urban heat island, flood resilience, and carbon neutrality case data"
+        ],
+        "zh": [
+          "中国地级及以上城市绿色低碳城市年度评估报告与排名",
+          "智慧城市发展指数与重点城市标杆研究",
+          "《城市发展研究》学术期刊：城市规划、治理与可持续性领域同行评审研究",
+          "海绵城市建设案例研究与评估数据",
+          "城市更新与历史文化名城保护研究报告",
+          "数字城市与城市信息模型（CIM）白皮书",
+          "中国城市科学大会论文集与数据集",
+          "气候适应性城市研究：城市热岛、洪涝韧性、碳中和城市案例数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-csus.json"
     },
     {
       "id": "china-fangjia",
@@ -20713,6 +20785,77 @@
       "file_path": "china/research/china-caict.json"
     },
     {
+      "id": "china-caitec",
+      "name": {
+        "en": "Chinese Academy of International Trade and Economic Cooperation",
+        "zh": "商务部国际贸易经济合作研究院"
+      },
+      "description": {
+        "en": "The Chinese Academy of International Trade and Economic Cooperation (CAITEC) is a national think-tank directly under the Ministry of Commerce (MOFCOM) of the People's Republic of China. Founded in 1948, CAITEC conducts research on international trade, foreign investment, global economic governance, regional economic cooperation, and supply chain security. It publishes authoritative reports including the Annual Report on China's Foreign Trade, Belt and Road Trade Cooperation Reports, and white papers on cross-border e-commerce, foreign direct investment, and industry-level trade. CAITEC serves as a primary advisory body for MOFCOM policy-making and provides data and analysis widely used by Chinese enterprises, foreign investors, international organizations, and academia studying China's external sector.",
+        "zh": "商务部国际贸易经济合作研究院（简称商务部研究院/CAITEC）是商务部直属的国家级研究机构，成立于1948年，是中国最早设立的综合性国际贸易与经济合作研究机构之一。研究院下设国际贸易研究所、对外投资合作研究所、对外经济合作研究所、市场研究所、服务贸易研究所、现代供应链研究所、一带一路研究中心、世界经济研究所、欧洲研究所等多个研究机构。发布的权威数据与报告包括《中国对外贸易形势报告》《中国一带一路贸易投资发展报告》《中国对外投资发展报告》《跨境电商发展报告》以及服务贸易、供应链、区域全面经济伙伴关系协定（RCEP）等专题蓝皮书，是商务部政策制定的重要咨政机构。"
+      },
+      "website": "https://www.caitec.org.cn/",
+      "data_url": "https://www.caitec.org.cn/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "trade",
+        "economics",
+        "international-cooperation",
+        "foreign-investment"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "caitec",
+        "商务部研究院",
+        "商务部",
+        "mofcom",
+        "对外贸易",
+        "foreign-trade",
+        "国际贸易",
+        "international-trade",
+        "一带一路",
+        "belt-and-road",
+        "对外投资",
+        "outbound-investment",
+        "跨境电商",
+        "cross-border-ecommerce",
+        "服务贸易",
+        "services-trade",
+        "rcep",
+        "供应链",
+        "supply-chain",
+        "国家智库",
+        "national-think-tank"
+      ],
+      "data_content": {
+        "en": [
+          "Annual Report on China's Foreign Trade: comprehensive annual assessment of China's trade by region, sector, and product",
+          "Belt and Road trade cooperation reports: trade volumes, key projects, and policy analysis with BRI partner countries",
+          "Outbound investment reports: data and case analysis of Chinese enterprises' overseas direct investment by industry and destination",
+          "Cross-border e-commerce development reports: market size, policy evolution, and industry player analysis",
+          "Services trade blue books: sector-level data covering finance, travel, transport, and digital services",
+          "Supply chain security and industrial competitiveness reports",
+          "RCEP implementation tracking and policy assessment",
+          "Country and regional market briefings for Chinese exporters and investors"
+        ],
+        "zh": [
+          "《中国对外贸易形势报告》：分区域、分行业、分商品的年度对外贸易综合评估",
+          "《中国一带一路贸易投资发展报告》：与共建国家的贸易额、重点项目、政策分析",
+          "《中国对外投资发展报告》：中国企业分行业、分目的地的海外直接投资数据与案例分析",
+          "跨境电商发展报告：市场规模、政策演进、行业主体分析",
+          "服务贸易蓝皮书：金融、旅行、运输、数字服务等细分领域数据",
+          "供应链安全与产业竞争力研究报告",
+          "RCEP实施跟踪与政策评估",
+          "面向中国出口商与投资者的国别与区域市场简报"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-caitec.json"
+    },
+    {
       "id": "china-cas",
       "name": {
         "en": "Chinese Academy of Sciences - Science Data Bank",
@@ -23367,6 +23510,78 @@
       "file_path": "china/research/china-nstl.json"
     },
     {
+      "id": "china-pbcsf",
+      "name": {
+        "en": "PBC School of Finance, Tsinghua University",
+        "zh": "清华大学五道口金融学院"
+      },
+      "description": {
+        "en": "The PBC School of Finance at Tsinghua University (PBCSF), formerly the Graduate School of the People's Bank of China, is a leading financial academic and policy research institution jointly cultivated by the People's Bank of China and Tsinghua University. Since its integration with Tsinghua in 2012, PBCSF has emerged as the top center in China for financial research, policy analysis, and senior executive education, producing authoritative reports on China's monetary policy, capital markets, Renminbi internationalization, green finance, fintech, and systemic financial risk. Through affiliated research centers including the National Institute of Financial Research (NIFR), China Center for Financial Research, and the Tsinghua PBCSF Global Family Business Research Center, PBCSF publishes yearly index reports (China Renminbi Internationalization Index, China Systemic Financial Risk Index, China Household Financial Status and Confidence Index), white papers, and policy briefs widely used by regulators, financial institutions, and scholars.",
+        "zh": "清华大学五道口金融学院（PBCSF）的前身是1981年创立的中国人民银行研究生部，2012年并入清华大学，是由中国人民银行与清华大学共同建设的金融学院，被誉为中国金融界的高端人才培养与政策研究重镇。学院下设国家金融研究院、中国金融研究中心、清华大学五道口金融学院全球家族企业研究中心等多个研究机构，每年发布权威报告和指数，涵盖货币政策、资本市场、人民币国际化、绿色金融、金融科技、系统性金融风险等方向。主要成果包括《人民币国际化报告》与人民币国际化指数（RII）、中国系统性金融风险指数、中国居民金融状况与信心指数、中国金融政策报告、中国科技金融发展白皮书等，供金融监管部门、金融机构与学界广泛参考。"
+      },
+      "website": "https://www.pbcsf.tsinghua.edu.cn/",
+      "data_url": "https://www.pbcsf.tsinghua.edu.cn/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "research",
+        "education"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "pbcsf",
+        "清华五道口",
+        "五道口金融学院",
+        "tsinghua-pbc-school-of-finance",
+        "国家金融研究院",
+        "nifr",
+        "人民币国际化",
+        "rmb-internationalization",
+        "系统性金融风险",
+        "systemic-financial-risk",
+        "绿色金融",
+        "green-finance",
+        "金融科技",
+        "fintech",
+        "货币政策",
+        "monetary-policy",
+        "资本市场",
+        "capital-markets",
+        "家族企业",
+        "family-business",
+        "人民银行",
+        "pboc"
+      ],
+      "data_content": {
+        "en": [
+          "China Renminbi Internationalization Index (RII) and annual Renminbi internationalization report",
+          "China Systemic Financial Risk Index: quarterly monitoring of banking, capital market, foreign exchange, and housing sectors",
+          "China Household Financial Status and Confidence Index based on nationwide household surveys",
+          "Green finance research reports and green credit evaluation case studies",
+          "China fintech development white papers covering payments, lending, wealth management, and regulatory technology",
+          "Annual China Financial Policy Report tracking regulatory developments and macroprudential policy",
+          "Global family business research including ownership structures, succession, and governance",
+          "Tsinghua PBCSF faculty working papers on monetary policy, capital markets, and international finance"
+        ],
+        "zh": [
+          "人民币国际化指数（RII）与年度《人民币国际化报告》",
+          "中国系统性金融风险指数：按季度监测银行、资本市场、外汇、房地产部门风险",
+          "基于全国居民调查的中国居民金融状况与信心指数",
+          "绿色金融研究报告与绿色信贷评估案例",
+          "中国金融科技发展白皮书：支付、借贷、财富管理、监管科技",
+          "年度《中国金融政策报告》：监管动态与宏观审慎政策跟踪",
+          "全球家族企业研究：股权结构、传承与治理",
+          "清华五道口教师工作论文：货币政策、资本市场、国际金融研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-pbcsf.json"
+    },
+    {
       "id": "china-pku-opendata",
       "name": {
         "en": "Peking University Open Research Data Platform",
@@ -25349,6 +25564,80 @@
       },
       "has_api": false,
       "file_path": "china/resources/environment/china-ceads.json"
+    },
+    {
+      "id": "china-cenews",
+      "name": {
+        "en": "China Environment News",
+        "zh": "中国环境网"
+      },
+      "description": {
+        "en": "China Environment News (Zhongguo Huanjing Wang / cenews.com.cn) is the official national ecological and environmental information portal of the People's Republic of China, operated by China Environment News Press (中国环境报社), an authoritative unit directly under the Ministry of Ecology and Environment (MEE). Established in 1984, China Environment News is the country's only daily national newspaper on ecology and environment, and its online portal serves as the primary channel for publishing official environmental policy announcements, air and water quality bulletins, environmental enforcement actions, pollution source supervision records, climate change updates, carbon market information, and ecological civilization progress. The portal also publishes MEE regular press briefings, national pollutant emission reduction statistics, environmental public interest litigation data, and annual reports on the state of China's ecology and environment.",
+        "zh": "中国环境网（cenews.com.cn）是中华人民共和国生态环境部主管、中国环境报社主办的国家级生态环境信息门户，是全国唯一以生态环境为主题的综合性日报《中国环境报》的官方网络平台。中国环境报创刊于1984年，是生态环境领域权威媒体。中国环境网作为生态环境政策宣传主渠道，发布大气、水、土壤等环境质量公报，环境执法行动，污染源监督记录，气候变化与碳市场动态，生态文明建设进展等权威信息。门户还定期发布生态环境部例行新闻发布会、全国污染物减排统计、环境公益诉讼数据、年度中国生态环境状况公报等数据与报告。"
+      },
+      "website": "http://www.cenews.com.cn/",
+      "data_url": "http://www.cenews.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "environment",
+        "climate",
+        "policy",
+        "governance"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "cenews",
+        "中国环境网",
+        "中国环境报",
+        "china-environment-news",
+        "生态环境部",
+        "mee",
+        "环境监测",
+        "environmental-monitoring",
+        "大气质量",
+        "air-quality",
+        "水质",
+        "water-quality",
+        "污染防治",
+        "pollution-control",
+        "碳市场",
+        "carbon-market",
+        "生态文明",
+        "ecological-civilization",
+        "环境执法",
+        "environmental-enforcement",
+        "气候变化",
+        "climate-change",
+        "环境公益诉讼",
+        "environmental-public-interest-litigation"
+      ],
+      "data_content": {
+        "en": [
+          "Annual State of China's Ecology and Environment Report with provincial breakdowns",
+          "Air quality bulletins: PM2.5, PM10, ozone, and AQI records for 339+ prefecture-level cities",
+          "Surface water, groundwater, and marine water quality bulletins",
+          "Pollution source supervision records: industrial enterprises, sewage treatment plants, key emitters",
+          "Environmental enforcement action data: administrative penalties, criminal cases, pollution incidents",
+          "MEE regular press briefing transcripts and policy announcements",
+          "Carbon emissions trading market updates and annual carbon reduction statistics",
+          "Environmental public interest litigation case database and court ruling data"
+        ],
+        "zh": [
+          "《中国生态环境状况公报》及分省数据",
+          "大气质量公报：全国339+地级及以上城市PM2.5、PM10、臭氧、AQI记录",
+          "地表水、地下水、海水水质公报",
+          "污染源监督记录：工业企业、污水处理厂、重点排放单位",
+          "环境执法行动数据：行政处罚、刑事案件、污染事件",
+          "生态环境部例行新闻发布会实录与政策发布",
+          "碳排放权交易市场动态与年度减碳统计",
+          "环境公益诉讼案例库与判决数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-cenews.json"
     },
     {
       "id": "china-cern",
@@ -28203,6 +28492,82 @@
       },
       "has_api": false,
       "file_path": "china/technology/china-shenzhen-stic.json"
+    },
+    {
+      "id": "china-tc260",
+      "name": {
+        "en": "National Information Security Standardization Technical Committee (TC260)",
+        "zh": "全国信息安全标准化技术委员会"
+      },
+      "description": {
+        "en": "The National Information Security Standardization Technical Committee (TC260, also known as 信安标委/信息安全标委会) is the authoritative standards body for information security and cybersecurity in China. Jointly administered by the Standardization Administration of China (SAC) and the Cyberspace Administration of China (CAC), TC260 is responsible for drafting, reviewing, and issuing national standards (GB and GB/T) covering network security, data security, personal information protection, cloud computing security, IoT security, cryptography applications, and critical information infrastructure protection. Its official portal publishes standards under public consultation, issued standards with full text or summary, and supporting technical guidance documents. TC260 standards are the operative technical basis for compliance with China's Cybersecurity Law, Data Security Law, and Personal Information Protection Law (PIPL), and are widely referenced by regulators, enterprises, and security professionals.",
+        "zh": "全国信息安全标准化技术委员会（简称信安标委，编号TC260）是中国信息安全与网络安全领域的权威标准化机构，由国家标准化管理委员会（SAC）与国家互联网信息办公室（网信办）共同管理。TC260负责起草、审议和发布网络安全、数据安全、个人信息保护、云计算安全、物联网安全、密码应用、关键信息基础设施保护等领域的国家标准（GB和GB/T）。其官方门户网站发布公开征求意见稿、已发布国家标准全文或摘要以及技术配套指导文件。TC260发布的标准是落实《网络安全法》《数据安全法》《个人信息保护法》的核心技术依据，被监管机构、企业和安全从业人员广泛引用，是中国网络安全合规实务的权威数据源。"
+      },
+      "website": "https://www.tc260.org.cn/",
+      "data_url": "https://www.tc260.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "cybersecurity",
+        "standards",
+        "data-security"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "tc260",
+        "信安标委",
+        "全国信息安全标准化技术委员会",
+        "信息安全",
+        "information-security",
+        "网络安全",
+        "cybersecurity",
+        "数据安全",
+        "data-security",
+        "个人信息保护",
+        "personal-information-protection",
+        "pipl",
+        "gb标准",
+        "gb-standard",
+        "网络安全法",
+        "cybersecurity-law",
+        "数据安全法",
+        "data-security-law",
+        "关键信息基础设施",
+        "critical-information-infrastructure",
+        "网信办",
+        "cac",
+        "国标委",
+        "sac",
+        "密码应用",
+        "cryptography"
+      ],
+      "data_content": {
+        "en": [
+          "Information security national standards (GB, GB/T) issued database with full-text or summary access",
+          "Standards under public consultation: drafts open for stakeholder review and comment",
+          "Personal information protection and cross-border data transfer implementation guidelines",
+          "Critical information infrastructure security protection requirements and technical frameworks",
+          "Cloud computing security, IoT security, and industrial control system security standards",
+          "Cryptography application and password management technical specifications",
+          "Cybersecurity review and data security risk assessment supporting documents",
+          "Annual TC260 work reports and committee structure updates"
+        ],
+        "zh": [
+          "信息安全国家标准（GB、GB/T）发布数据库：全文或摘要访问",
+          "公开征求意见稿：面向利益相关方审阅与评论的标准草案",
+          "个人信息保护与数据出境实施指南",
+          "关键信息基础设施安全保护要求与技术框架",
+          "云计算安全、物联网安全、工控系统安全标准",
+          "密码应用与密码管理技术规范",
+          "网络安全审查、数据安全风险评估配套文件",
+          "TC260年度工作报告与委员会组织结构更新"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-tc260.json"
     },
     {
       "id": "china-national-data-bureau",
