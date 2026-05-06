@@ -1,0 +1,70 @@
+{
+  "id": "china-pbcsf",
+  "name": {
+    "en": "PBC School of Finance, Tsinghua University",
+    "zh": "清华大学五道口金融学院"
+  },
+  "description": {
+    "en": "The PBC School of Finance at Tsinghua University (PBCSF), formerly the Graduate School of the People's Bank of China, is a leading financial academic and policy research institution jointly cultivated by the People's Bank of China and Tsinghua University. Since its integration with Tsinghua in 2012, PBCSF has emerged as the top center in China for financial research, policy analysis, and senior executive education, producing authoritative reports on China's monetary policy, capital markets, Renminbi internationalization, green finance, fintech, and systemic financial risk. Through affiliated research centers including the National Institute of Financial Research (NIFR), China Center for Financial Research, and the Tsinghua PBCSF Global Family Business Research Center, PBCSF publishes yearly index reports (China Renminbi Internationalization Index, China Systemic Financial Risk Index, China Household Financial Status and Confidence Index), white papers, and policy briefs widely used by regulators, financial institutions, and scholars.",
+    "zh": "清华大学五道口金融学院（PBCSF）的前身是1981年创立的中国人民银行研究生部，2012年并入清华大学，是由中国人民银行与清华大学共同建设的金融学院，被誉为中国金融界的高端人才培养与政策研究重镇。学院下设国家金融研究院、中国金融研究中心、清华大学五道口金融学院全球家族企业研究中心等多个研究机构，每年发布权威报告和指数，涵盖货币政策、资本市场、人民币国际化、绿色金融、金融科技、系统性金融风险等方向。主要成果包括《人民币国际化报告》与人民币国际化指数（RII）、中国系统性金融风险指数、中国居民金融状况与信心指数、中国金融政策报告、中国科技金融发展白皮书等，供金融监管部门、金融机构与学界广泛参考。"
+  },
+  "website": "https://www.pbcsf.tsinghua.edu.cn/",
+  "data_url": "https://www.pbcsf.tsinghua.edu.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "research",
+    "education"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "pbcsf",
+    "清华五道口",
+    "五道口金融学院",
+    "tsinghua-pbc-school-of-finance",
+    "国家金融研究院",
+    "nifr",
+    "人民币国际化",
+    "rmb-internationalization",
+    "系统性金融风险",
+    "systemic-financial-risk",
+    "绿色金融",
+    "green-finance",
+    "金融科技",
+    "fintech",
+    "货币政策",
+    "monetary-policy",
+    "资本市场",
+    "capital-markets",
+    "家族企业",
+    "family-business",
+    "人民银行",
+    "pboc"
+  ],
+  "data_content": {
+    "en": [
+      "China Renminbi Internationalization Index (RII) and annual Renminbi internationalization report",
+      "China Systemic Financial Risk Index: quarterly monitoring of banking, capital market, foreign exchange, and housing sectors",
+      "China Household Financial Status and Confidence Index based on nationwide household surveys",
+      "Green finance research reports and green credit evaluation case studies",
+      "China fintech development white papers covering payments, lending, wealth management, and regulatory technology",
+      "Annual China Financial Policy Report tracking regulatory developments and macroprudential policy",
+      "Global family business research including ownership structures, succession, and governance",
+      "Tsinghua PBCSF faculty working papers on monetary policy, capital markets, and international finance"
+    ],
+    "zh": [
+      "人民币国际化指数（RII）与年度《人民币国际化报告》",
+      "中国系统性金融风险指数：按季度监测银行、资本市场、外汇、房地产部门风险",
+      "基于全国居民调查的中国居民金融状况与信心指数",
+      "绿色金融研究报告与绿色信贷评估案例",
+      "中国金融科技发展白皮书：支付、借贷、财富管理、监管科技",
+      "年度《中国金融政策报告》：监管动态与宏观审慎政策跟踪",
+      "全球家族企业研究：股权结构、传承与治理",
+      "清华五道口教师工作论文：货币政策、资本市场、国际金融研究"
+    ]
+  }
+}

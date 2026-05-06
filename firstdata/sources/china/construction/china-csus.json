@@ -1,0 +1,70 @@
+{
+  "id": "china-csus",
+  "name": {
+    "en": "Chinese Society for Urban Studies",
+    "zh": "中国城市科学研究会"
+  },
+  "description": {
+    "en": "The Chinese Society for Urban Studies (CSUS) is a national academic organization under the Ministry of Housing and Urban-Rural Development (MOHURD), founded in 1984 by Dr. Qian Xuesen and other leading scholars. CSUS is a leading national platform for research on urbanization, urban planning, smart cities, green and low-carbon cities, urban economy, and urban governance in China. It coordinates dozens of professional committees covering topics ranging from digital cities, city renewal, urban heat islands, sponge cities, urban water systems, to historic city protection. CSUS publishes annual reports, academic journals such as Urban Development Studies (城市发展研究), organizes national urban science conferences, and produces influential rankings and indexes evaluating cities' performance on green development and low-carbon transition, widely cited by government, industry, and academia.",
+    "zh": "中国城市科学研究会（CSUS）是住房和城乡建设部主管的全国性学术组织，成立于1984年，由钱学森等著名学者倡议发起。研究会是中国研究城镇化、城市规划、智慧城市、绿色低碳城市、城市经济和城市治理的主要学术平台，下设数字城市、城市更新、城市热岛、海绵城市、城市水系统、历史文化名城保护等数十个专业委员会。研究会主办《城市发展研究》等学术期刊，组织召开中国城市科学大会，发布年度绿色低碳城市评估、智慧城市指数等城市评价排名，成果被政府、产业与学术界广泛引用。"
+  },
+  "website": "https://www.chinasus.org/",
+  "data_url": "https://www.chinasus.org/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "urban-studies",
+    "urbanization",
+    "construction",
+    "environment"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "csus",
+    "中国城市科学研究会",
+    "城市科学",
+    "urban-studies",
+    "城镇化",
+    "urbanization",
+    "智慧城市",
+    "smart-city",
+    "绿色低碳城市",
+    "low-carbon-city",
+    "海绵城市",
+    "sponge-city",
+    "城市更新",
+    "urban-renewal",
+    "城市发展研究",
+    "urban-development-studies",
+    "住建部",
+    "mohurd",
+    "城市治理",
+    "urban-governance",
+    "钱学森",
+    "qian-xuesen"
+  ],
+  "data_content": {
+    "en": [
+      "Annual green and low-carbon city evaluation reports and rankings covering prefecture-level cities in China",
+      "Smart city development indexes and benchmark studies of leading Chinese cities",
+      "Urban Development Studies journal: peer-reviewed research on urban planning, governance, and sustainability",
+      "Sponge city construction case studies and evaluation data",
+      "Urban renewal and historic city preservation research reports",
+      "Digital city and city information modeling (CIM) white papers",
+      "Proceedings and data sets from China Urban Science Conference",
+      "Climate-adaptive cities research, including urban heat island, flood resilience, and carbon neutrality case data"
+    ],
+    "zh": [
+      "中国地级及以上城市绿色低碳城市年度评估报告与排名",
+      "智慧城市发展指数与重点城市标杆研究",
+      "《城市发展研究》学术期刊：城市规划、治理与可持续性领域同行评审研究",
+      "海绵城市建设案例研究与评估数据",
+      "城市更新与历史文化名城保护研究报告",
+      "数字城市与城市信息模型（CIM）白皮书",
+      "中国城市科学大会论文集与数据集",
+      "气候适应性城市研究：城市热岛、洪涝韧性、碳中和城市案例数据"
+    ]
+  }
+}

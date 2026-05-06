@@ -1,0 +1,72 @@
+{
+  "id": "china-cenews",
+  "name": {
+    "en": "China Environment News",
+    "zh": "中国环境网"
+  },
+  "description": {
+    "en": "China Environment News (Zhongguo Huanjing Wang / cenews.com.cn) is the official national ecological and environmental information portal of the People's Republic of China, operated by China Environment News Press (中国环境报社), an authoritative unit directly under the Ministry of Ecology and Environment (MEE). Established in 1984, China Environment News is the country's only daily national newspaper on ecology and environment, and its online portal serves as the primary channel for publishing official environmental policy announcements, air and water quality bulletins, environmental enforcement actions, pollution source supervision records, climate change updates, carbon market information, and ecological civilization progress. The portal also publishes MEE regular press briefings, national pollutant emission reduction statistics, environmental public interest litigation data, and annual reports on the state of China's ecology and environment.",
+    "zh": "中国环境网（cenews.com.cn）是中华人民共和国生态环境部主管、中国环境报社主办的国家级生态环境信息门户，是全国唯一以生态环境为主题的综合性日报《中国环境报》的官方网络平台。中国环境报创刊于1984年，是生态环境领域权威媒体。中国环境网作为生态环境政策宣传主渠道，发布大气、水、土壤等环境质量公报，环境执法行动，污染源监督记录，气候变化与碳市场动态，生态文明建设进展等权威信息。门户还定期发布生态环境部例行新闻发布会、全国污染物减排统计、环境公益诉讼数据、年度中国生态环境状况公报等数据与报告。"
+  },
+  "website": "http://www.cenews.com.cn/",
+  "data_url": "http://www.cenews.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "environment",
+    "climate",
+    "policy",
+    "governance"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "cenews",
+    "中国环境网",
+    "中国环境报",
+    "china-environment-news",
+    "生态环境部",
+    "mee",
+    "环境监测",
+    "environmental-monitoring",
+    "大气质量",
+    "air-quality",
+    "水质",
+    "water-quality",
+    "污染防治",
+    "pollution-control",
+    "碳市场",
+    "carbon-market",
+    "生态文明",
+    "ecological-civilization",
+    "环境执法",
+    "environmental-enforcement",
+    "气候变化",
+    "climate-change",
+    "环境公益诉讼",
+    "environmental-public-interest-litigation"
+  ],
+  "data_content": {
+    "en": [
+      "Annual State of China's Ecology and Environment Report with provincial breakdowns",
+      "Air quality bulletins: PM2.5, PM10, ozone, and AQI records for 339+ prefecture-level cities",
+      "Surface water, groundwater, and marine water quality bulletins",
+      "Pollution source supervision records: industrial enterprises, sewage treatment plants, key emitters",
+      "Environmental enforcement action data: administrative penalties, criminal cases, pollution incidents",
+      "MEE regular press briefing transcripts and policy announcements",
+      "Carbon emissions trading market updates and annual carbon reduction statistics",
+      "Environmental public interest litigation case database and court ruling data"
+    ],
+    "zh": [
+      "《中国生态环境状况公报》及分省数据",
+      "大气质量公报：全国339+地级及以上城市PM2.5、PM10、臭氧、AQI记录",
+      "地表水、地下水、海水水质公报",
+      "污染源监督记录：工业企业、污水处理厂、重点排放单位",
+      "环境执法行动数据：行政处罚、刑事案件、污染事件",
+      "生态环境部例行新闻发布会实录与政策发布",
+      "碳排放权交易市场动态与年度减碳统计",
+      "环境公益诉讼案例库与判决数据"
+    ]
+  }
+}

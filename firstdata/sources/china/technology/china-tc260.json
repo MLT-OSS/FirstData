@@ -1,0 +1,74 @@
+{
+  "id": "china-tc260",
+  "name": {
+    "en": "National Information Security Standardization Technical Committee (TC260)",
+    "zh": "全国信息安全标准化技术委员会"
+  },
+  "description": {
+    "en": "The National Information Security Standardization Technical Committee (TC260, also known as 信安标委/信息安全标委会) is the authoritative standards body for information security and cybersecurity in China. Jointly administered by the Standardization Administration of China (SAC) and the Cyberspace Administration of China (CAC), TC260 is responsible for drafting, reviewing, and issuing national standards (GB and GB/T) covering network security, data security, personal information protection, cloud computing security, IoT security, cryptography applications, and critical information infrastructure protection. Its official portal publishes standards under public consultation, issued standards with full text or summary, and supporting technical guidance documents. TC260 standards are the operative technical basis for compliance with China's Cybersecurity Law, Data Security Law, and Personal Information Protection Law (PIPL), and are widely referenced by regulators, enterprises, and security professionals.",
+    "zh": "全国信息安全标准化技术委员会（简称信安标委，编号TC260）是中国信息安全与网络安全领域的权威标准化机构，由国家标准化管理委员会（SAC）与国家互联网信息办公室（网信办）共同管理。TC260负责起草、审议和发布网络安全、数据安全、个人信息保护、云计算安全、物联网安全、密码应用、关键信息基础设施保护等领域的国家标准（GB和GB/T）。其官方门户网站发布公开征求意见稿、已发布国家标准全文或摘要以及技术配套指导文件。TC260发布的标准是落实《网络安全法》《数据安全法》《个人信息保护法》的核心技术依据，被监管机构、企业和安全从业人员广泛引用，是中国网络安全合规实务的权威数据源。"
+  },
+  "website": "https://www.tc260.org.cn/",
+  "data_url": "https://www.tc260.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "cybersecurity",
+    "standards",
+    "data-security"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "tc260",
+    "信安标委",
+    "全国信息安全标准化技术委员会",
+    "信息安全",
+    "information-security",
+    "网络安全",
+    "cybersecurity",
+    "数据安全",
+    "data-security",
+    "个人信息保护",
+    "personal-information-protection",
+    "pipl",
+    "gb标准",
+    "gb-standard",
+    "网络安全法",
+    "cybersecurity-law",
+    "数据安全法",
+    "data-security-law",
+    "关键信息基础设施",
+    "critical-information-infrastructure",
+    "网信办",
+    "cac",
+    "国标委",
+    "sac",
+    "密码应用",
+    "cryptography"
+  ],
+  "data_content": {
+    "en": [
+      "Information security national standards (GB, GB/T) issued database with full-text or summary access",
+      "Standards under public consultation: drafts open for stakeholder review and comment",
+      "Personal information protection and cross-border data transfer implementation guidelines",
+      "Critical information infrastructure security protection requirements and technical frameworks",
+      "Cloud computing security, IoT security, and industrial control system security standards",
+      "Cryptography application and password management technical specifications",
+      "Cybersecurity review and data security risk assessment supporting documents",
+      "Annual TC260 work reports and committee structure updates"
+    ],
+    "zh": [
+      "信息安全国家标准（GB、GB/T）发布数据库：全文或摘要访问",
+      "公开征求意见稿：面向利益相关方审阅与评论的标准草案",
+      "个人信息保护与数据出境实施指南",
+      "关键信息基础设施安全保护要求与技术框架",
+      "云计算安全、物联网安全、工控系统安全标准",
+      "密码应用与密码管理技术规范",
+      "网络安全审查、数据安全风险评估配套文件",
+      "TC260年度工作报告与委员会组织结构更新"
+    ]
+  }
+}
