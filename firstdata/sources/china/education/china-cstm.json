@@ -1,0 +1,59 @@
+{
+  "id": "china-cstm",
+  "name": {
+    "en": "China Science and Technology Museum",
+    "zh": "中国科学技术馆"
+  },
+  "description": {
+    "en": "The China Science and Technology Museum (CSTM) is China's only national-level comprehensive science and technology museum, affiliated with the China Association for Science and Technology (CAST). Located in Beijing Olympic Park, CSTM operates a nationwide platform for science popularization resources, mobile science caravans, rural science outreach, and digital science museums, publishing open datasets and indicators on science literacy, public science activities, exhibit resources, and science education content.",
+    "zh": "中国科学技术馆（CSTM）是中国唯一的国家级综合性科技馆，由中国科协直属，位于北京奥林匹克公园。中国科技馆构建了覆盖全国的科普资源服务平台，运营流动科技馆、科普大篷车、农村中学科技馆和数字科技馆等项目，公开发布公民科学素质指标、公众科普活动数据、展览展品资源和科学教育内容等数据资源。"
+  },
+  "data_content": {
+    "en": [
+      "National science literacy indicators and public scientific quality survey data",
+      "Mobile Science Museum (流动科技馆) deployment records and tour statistics across provinces",
+      "Rural Middle School Science Museum (农村中学科技馆) project coverage and outreach data",
+      "Science Caravan (科普大篷车) touring schedule and reach statistics",
+      "Digital Science Museum resources, online exhibition collections, and virtual exhibits",
+      "Science education content, curricula, and teaching resources for K-12 and public audiences",
+      "Exhibit information, permanent and special exhibition announcements, and visitor services data"
+    ],
+    "zh": [
+      "公民科学素质指标与公众科学素养调查数据",
+      "流动科技馆在各省市的巡展部署记录与巡展统计",
+      "农村中学科技馆项目覆盖与援建数据",
+      "科普大篷车巡展路线与受众统计数据",
+      "数字科技馆资源、在线展览集合与虚拟展项",
+      "面向K-12和公众的科学教育内容、课程与教学资源",
+      "常设与临时展览公告、展品信息与观众服务数据"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.cstm.org.cn",
+  "data_url": "https://www.cstm.org.cn",
+  "domains": [
+    "science",
+    "education",
+    "culture"
+  ],
+  "tags": [
+    "cstm",
+    "science-museum",
+    "science-popularization",
+    "science-literacy",
+    "cast",
+    "stem-education",
+    "digital-museum",
+    "中国科技馆",
+    "科技馆",
+    "科普",
+    "科学素质",
+    "流动科技馆",
+    "科普大篷车",
+    "数字科技馆",
+    "中国科协"
+  ],
+  "update_frequency": "monthly"
+}
