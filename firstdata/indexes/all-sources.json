@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-05T02:46:54.476930+00:00",
-    "total_sources": 688,
+    "generated_at": "2026-05-06T02:57:21.410697+00:00",
+    "total_sources": 693,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -10281,6 +10281,67 @@
       "file_path": "china/education/china-csdp.json"
     },
     {
+      "id": "china-cstm",
+      "name": {
+        "en": "China Science and Technology Museum",
+        "zh": "中国科学技术馆"
+      },
+      "description": {
+        "en": "The China Science and Technology Museum (CSTM) is China's only national-level comprehensive science and technology museum, affiliated with the China Association for Science and Technology (CAST). Located in Beijing Olympic Park, CSTM operates a nationwide platform for science popularization resources, mobile science caravans, rural science outreach, and digital science museums, publishing open datasets and indicators on science literacy, public science activities, exhibit resources, and science education content.",
+        "zh": "中国科学技术馆（CSTM）是中国唯一的国家级综合性科技馆，由中国科协直属，位于北京奥林匹克公园。中国科技馆构建了覆盖全国的科普资源服务平台，运营流动科技馆、科普大篷车、农村中学科技馆和数字科技馆等项目，公开发布公民科学素质指标、公众科普活动数据、展览展品资源和科学教育内容等数据资源。"
+      },
+      "data_content": {
+        "en": [
+          "National science literacy indicators and public scientific quality survey data",
+          "Mobile Science Museum (流动科技馆) deployment records and tour statistics across provinces",
+          "Rural Middle School Science Museum (农村中学科技馆) project coverage and outreach data",
+          "Science Caravan (科普大篷车) touring schedule and reach statistics",
+          "Digital Science Museum resources, online exhibition collections, and virtual exhibits",
+          "Science education content, curricula, and teaching resources for K-12 and public audiences",
+          "Exhibit information, permanent and special exhibition announcements, and visitor services data"
+        ],
+        "zh": [
+          "公民科学素质指标与公众科学素养调查数据",
+          "流动科技馆在各省市的巡展部署记录与巡展统计",
+          "农村中学科技馆项目覆盖与援建数据",
+          "科普大篷车巡展路线与受众统计数据",
+          "数字科技馆资源、在线展览集合与虚拟展项",
+          "面向K-12和公众的科学教育内容、课程与教学资源",
+          "常设与临时展览公告、展品信息与观众服务数据"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.cstm.org.cn",
+      "data_url": "https://www.cstm.org.cn",
+      "domains": [
+        "science",
+        "education",
+        "culture"
+      ],
+      "tags": [
+        "cstm",
+        "science-museum",
+        "science-popularization",
+        "science-literacy",
+        "cast",
+        "stem-education",
+        "digital-museum",
+        "中国科技馆",
+        "科技馆",
+        "科普",
+        "科学素质",
+        "流动科技馆",
+        "科普大篷车",
+        "数字科技馆",
+        "中国科协"
+      ],
+      "update_frequency": "monthly",
+      "has_api": false,
+      "file_path": "china/education/china-cstm.json"
+    },
+    {
       "id": "china-nlc",
       "name": {
         "en": "National Library of China",
@@ -17088,6 +17149,127 @@
       "file_path": "china/health/china-class.json"
     },
     {
+      "id": "china-cmde",
+      "name": {
+        "en": "Center for Medical Device Evaluation, NMPA",
+        "zh": "国家药品监督管理局医疗器械技术审评中心"
+      },
+      "description": {
+        "en": "The Center for Medical Device Evaluation (CMDE) is a technical review institution directly under China's National Medical Products Administration (NMPA). It is responsible for the pre-market technical review of domestic Class II/III medical devices and imported medical devices in China, issuing guidance documents, technical review opinions, and maintaining public registries of accepted, under-review, and approved medical device applications.",
+        "zh": "国家药品监督管理局医疗器械技术审评中心（CMDE）是国家药品监督管理局直属的医疗器械技术审评机构，负责境内第二、三类医疗器械和进口医疗器械注册申请的技术审评工作，发布医疗器械技术审评指导原则、技术审评意见，并公开受理、审评、批准等各环节的医疗器械注册申请信息。"
+      },
+      "data_content": {
+        "en": [
+          "Medical device registration application acceptance records (domestic Class II/III and imported devices)",
+          "Under-review medical device application status and progress tracking",
+          "Approved medical device technical review conclusions and public notices",
+          "Medical device technical review guidance documents and standards interpretation",
+          "In-vitro diagnostic (IVD) reagent technical review documentation",
+          "Innovation pathway (创新医疗器械) and priority review channel records",
+          "Clinical trial approval information and clinical evaluation guidelines"
+        ],
+        "zh": [
+          "医疗器械注册受理信息（境内二、三类及进口医疗器械）",
+          "医疗器械审评状态与进度公开信息",
+          "已批准医疗器械技术审评结论与公告",
+          "医疗器械技术审评指导原则与标准解读",
+          "体外诊断试剂（IVD）技术审评资料",
+          "创新医疗器械及优先审评通道受理与审评记录",
+          "临床试验批准信息与临床评价技术指导原则"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.cmde.org.cn",
+      "data_url": "https://www.cmde.org.cn",
+      "domains": [
+        "health",
+        "regulation"
+      ],
+      "tags": [
+        "cmde",
+        "nmpa",
+        "medical-device",
+        "device-registration",
+        "technical-review",
+        "ivd",
+        "pre-market",
+        "healthcare-regulation",
+        "医疗器械",
+        "器械审评",
+        "国家药监局",
+        "技术审评",
+        "医疗器械注册",
+        "创新器械",
+        "体外诊断试剂"
+      ],
+      "update_frequency": "daily",
+      "has_api": false,
+      "file_path": "china/health/china-cmde.json"
+    },
+    {
+      "id": "china-cns",
+      "name": {
+        "en": "Chinese Nutrition Society",
+        "zh": "中国营养学会"
+      },
+      "description": {
+        "en": "The Chinese Nutrition Society (CNS) is China's leading national academic and professional society on nutrition science, founded in 1945 and reorganized in 1981. As a national-level learned society registered with the Ministry of Civil Affairs and affiliated with the China Association for Science and Technology, CNS compiles and releases the authoritative 'Chinese Dietary Reference Intakes (DRIs)' and 'Dietary Guidelines for Chinese Residents', and publishes nutrition and dietary data, population nutrition survey results, and food composition references used widely by public health, clinical, and food industry sectors in China.",
+        "zh": "中国营养学会（CNS）是中国营养科学领域的全国性学术与专业团体，创建于1945年，1981年重建，是中国科学技术协会所属一级学会，并在民政部登记注册。学会权威编制并发布《中国居民膳食营养素参考摄入量（DRIs）》和《中国居民膳食指南》，公开营养与膳食数据、居民营养调查结果及食物成分参考资料，广泛服务于中国公共卫生、临床营养和食品行业等领域。"
+      },
+      "data_content": {
+        "en": [
+          "Chinese Dietary Reference Intakes (DRIs) - authoritative recommendations for energy and nutrient intakes",
+          "Dietary Guidelines for Chinese Residents - national dietary recommendations and food guide pagoda",
+          "Chinese population nutrition survey results and summary statistics",
+          "Infant, child, elderly, and special population nutrition guidelines",
+          "Clinical nutrition and medical nutrition therapy standards and consensus statements",
+          "Food and nutrition literacy education materials and public reports",
+          "CNS journal 'Acta Nutrimenta Sinica' (营养学报) published research articles"
+        ],
+        "zh": [
+          "《中国居民膳食营养素参考摄入量（DRIs）》 - 权威能量与营养素摄入推荐标准",
+          "《中国居民膳食指南》 - 全国性膳食建议与中国居民平衡膳食宝塔",
+          "中国居民营养调查结果与汇总统计数据",
+          "婴幼儿、儿童、老年人及特殊人群营养指南",
+          "临床营养与医学营养治疗标准、共识文件",
+          "食物与营养科普教育资料及公共报告",
+          "学会会刊《营养学报》发表的学术研究论文"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://www.cnsoc.org",
+      "data_url": "https://www.cnsoc.org",
+      "domains": [
+        "health",
+        "food",
+        "science"
+      ],
+      "tags": [
+        "cns",
+        "nutrition",
+        "dietary-guidelines",
+        "dri",
+        "food-composition",
+        "public-health",
+        "clinical-nutrition",
+        "中国营养学会",
+        "膳食指南",
+        "营养素参考摄入量",
+        "居民营养",
+        "食物成分",
+        "临床营养",
+        "公共营养",
+        "营养学报"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/health/china-cns.json"
+    },
+    {
       "id": "china-cpdrc",
       "name": {
         "en": "China Population and Development Research Center",
@@ -21705,6 +21887,65 @@
       "file_path": "china/research/china-cncbd.json"
     },
     {
+      "id": "china-cngbdb",
+      "name": {
+        "en": "China National GeneBank DataBase",
+        "zh": "国家基因库生命大数据平台"
+      },
+      "description": {
+        "en": "CNGBdb is China's unified life science big data platform, operated by China National GeneBank (CNGB) in Shenzhen. It serves as a major national repository for genomics, bioinformatics, and life science research data, providing services for researchers worldwide to share and access biological data. The platform integrates sequencing data, literature, samples, and microbial resources, and offers tools for data submission, analysis, and bioinformatics training.",
+        "zh": "国家基因库生命大数据平台（CNGBdb）是由深圳国家基因库（CNGB）运营的国家级生命科学大数据统一平台，是国家重要的基因组学、生物信息学和生命科学研究数据仓库。平台汇聚测序数据、文献、样本与微生物资源，面向全球科研人员提供生物数据的共享与访问服务，并提供数据提交、分析及生物信息学培训等工具与服务。"
+      },
+      "data_content": {
+        "en": [
+          "CNSA (CNGB Sequence Archive) - raw nucleotide sequence reads and assemblies from China National GeneBank",
+          "Nucleotide and protein sequence databases with search and annotation tools",
+          "Literature database integrating life-science publications and associated datasets",
+          "Sample metadata linked to biological specimens held by CNGB",
+          "Microbial resources and reference genome collections",
+          "Bioinformatics tools and pipelines for alignment, assembly, and annotation"
+        ],
+        "zh": [
+          "CNSA（国家基因库序列归档） - 来自国家基因库的核苷酸原始测序数据与组装结果",
+          "核酸与蛋白质序列数据库，提供检索与注释工具",
+          "整合生命科学论文与关联数据集的文献数据库",
+          "与国家基因库生物样本相关联的样本元数据",
+          "微生物资源库与参考基因组集合",
+          "比对、组装、注释等生物信息学工具与分析流程"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "research",
+      "geographic_scope": "national",
+      "website": "https://db.cngb.org",
+      "data_url": "https://db.cngb.org",
+      "domains": [
+        "health",
+        "science",
+        "research"
+      ],
+      "tags": [
+        "cngb",
+        "cngbdb",
+        "genomics",
+        "bioinformatics",
+        "life-sciences",
+        "sequence-archive",
+        "cnsa",
+        "shenzhen",
+        "bgi",
+        "国家基因库",
+        "生命大数据",
+        "基因组学",
+        "生物信息学",
+        "测序数据",
+        "生物样本"
+      ],
+      "update_frequency": "irregular",
+      "has_api": false,
+      "file_path": "china/research/china-cngbdb.json"
+    },
+    {
       "id": "china-csic",
       "name": {
         "en": "Institute of Sociology, Chinese Academy of Social Sciences",
@@ -23739,6 +23980,65 @@
       },
       "has_api": false,
       "file_path": "china/research/china-scidb.json"
+    },
+    {
+      "id": "china-termonline",
+      "name": {
+        "en": "TermOnline - China National Terminology Service Platform",
+        "zh": "术语在线"
+      },
+      "description": {
+        "en": "TermOnline (术语在线) is China's authoritative national terminology service platform operated by the China National Committee for Terms in Sciences and Technologies (全国科学技术名词审定委员会, CNCTST). It publishes officially examined and approved Chinese scientific and technological terminology across disciplines, providing a searchable database of more than 500,000 standardized terms in Chinese with English equivalents, definitions, and source references, serving researchers, translators, publishers, educators, and LLM training data curators.",
+        "zh": "术语在线是由全国科学技术名词审定委员会（CNCTST）运营的国家权威科技名词服务平台。平台公开发布经审定公布的各学科规范科技名词，收录超过50万条标准术语，提供中文规范术语、英文对应词、定义及出处来源的检索服务，广泛应用于科研、翻译、出版、教育和大模型训练语料治理等领域。"
+      },
+      "data_content": {
+        "en": [
+          "Standardized scientific and technological terms examined and approved by CNCTST across 100+ disciplines",
+          "Chinese-English term pairs with standardized definitions and source references",
+          "Terminology from physics, chemistry, biology, medicine, engineering, humanities and social sciences",
+          "Historical and cross-Straits term comparison (e.g., Mainland vs. Taiwan usage)",
+          "Special terminology volumes and discipline-specific term dictionaries",
+          "Newly approved terms, public consultation drafts, and notices of term updates"
+        ],
+        "zh": [
+          "全国科技名词委审定公布的100+学科规范科技名词",
+          "中英文对照规范术语、标准定义与出处来源",
+          "涵盖物理、化学、生物、医学、工程、人文社科等学科领域的术语",
+          "海峡两岸名词差异比对（如大陆与台湾用词对照）",
+          "各学科名词分册与专题名词词典",
+          "新公布术语、公众征求意见稿与术语更新公告"
+        ]
+      },
+      "country": "CN",
+      "authority_level": "government",
+      "geographic_scope": "national",
+      "website": "https://www.termonline.cn",
+      "data_url": "https://www.termonline.cn",
+      "domains": [
+        "science",
+        "education",
+        "language"
+      ],
+      "tags": [
+        "cnctst",
+        "terminology",
+        "standard-terms",
+        "science-technology",
+        "dictionary",
+        "bilingual",
+        "chinese-english",
+        "术语在线",
+        "全国科技名词委",
+        "科技名词",
+        "规范术语",
+        "学科名词",
+        "审定公布",
+        "中英对照",
+        "名词审定"
+      ],
+      "update_frequency": "monthly",
+      "has_api": false,
+      "file_path": "china/research/china-termonline.json"
     },
     {
       "id": "china-tpdc",

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-05T02:46:54.476930+00:00",
-    "total_sources": 688,
+    "generated_at": "2026-05-06T02:57:21.410697+00:00",
+    "total_sources": 693,
     "authority_counts": {
-      "research": 123,
+      "research": 125,
       "international": 77,
-      "government": 350,
+      "government": 353,
       "other": 63,
       "market": 43,
       "commercial": 32
@@ -376,6 +376,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cns",
+        "name": {
+          "en": "Chinese Nutrition Society",
+          "zh": "中国营养学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cnsoc.org",
+        "has_api": false,
+        "file_path": "china/health/china-cns.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cpdrc",
         "name": {
           "en": "China Population and Development Research Center",
@@ -685,6 +697,18 @@
         "data_url": "https://www.cisri.com.cn",
         "has_api": false,
         "file_path": "china/research/china-cisri.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cngbdb",
+        "name": {
+          "en": "China National GeneBank DataBase",
+          "zh": "国家基因库生命大数据平台"
+        },
+        "authority_level": "research",
+        "data_url": "https://db.cngb.org",
+        "has_api": false,
+        "file_path": "china/research/china-cngbdb.json",
         "geographic_scope": "national"
       },
       {
@@ -3450,6 +3474,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cstm",
+        "name": {
+          "en": "China Science and Technology Museum",
+          "zh": "中国科学技术馆"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cstm.org.cn",
+        "has_api": false,
+        "file_path": "china/education/china-cstm.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nlc",
         "name": {
           "en": "National Library of China",
@@ -4187,6 +4223,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cmde",
+        "name": {
+          "en": "Center for Medical Device Evaluation, NMPA",
+          "zh": "国家药品监督管理局医疗器械技术审评中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cmde.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmde.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-natcm",
         "name": {
           "en": "National Administration of Traditional Chinese Medicine",
@@ -4597,6 +4645,18 @@
         "has_api": false,
         "file_path": "china/research/china-polar-service.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-termonline",
+        "name": {
+          "en": "TermOnline - China National Terminology Service Platform",
+          "zh": "术语在线"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.termonline.cn",
+        "has_api": false,
+        "file_path": "china/research/china-termonline.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-caea",
