@@ -1,0 +1,69 @@
+{
+  "id": "china-caitec",
+  "name": {
+    "en": "Chinese Academy of International Trade and Economic Cooperation",
+    "zh": "商务部国际贸易经济合作研究院"
+  },
+  "description": {
+    "en": "The Chinese Academy of International Trade and Economic Cooperation (CAITEC) is a national think-tank directly under the Ministry of Commerce (MOFCOM) of the People's Republic of China. Founded in 1948, CAITEC conducts research on international trade, foreign investment, global economic governance, regional economic cooperation, and supply chain security. It publishes authoritative reports including the Annual Report on China's Foreign Trade, Belt and Road Trade Cooperation Reports, and white papers on cross-border e-commerce, foreign direct investment, and industry-level trade. CAITEC serves as a primary advisory body for MOFCOM policy-making and provides data and analysis widely used by Chinese enterprises, foreign investors, international organizations, and academia studying China's external sector.",
+    "zh": "商务部国际贸易经济合作研究院（简称商务部研究院/CAITEC）是商务部直属的国家级研究机构，成立于1948年，是中国最早设立的综合性国际贸易与经济合作研究机构之一。研究院下设国际贸易研究所、对外投资合作研究所、对外经济合作研究所、市场研究所、服务贸易研究所、现代供应链研究所、一带一路研究中心、世界经济研究所、欧洲研究所等多个研究机构。发布的权威数据与报告包括《中国对外贸易形势报告》《中国一带一路贸易投资发展报告》《中国对外投资发展报告》《跨境电商发展报告》以及服务贸易、供应链、区域全面经济伙伴关系协定（RCEP）等专题蓝皮书，是商务部政策制定的重要咨政机构。"
+  },
+  "website": "https://www.caitec.org.cn/",
+  "data_url": "https://www.caitec.org.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "trade",
+    "economics",
+    "international-cooperation",
+    "foreign-investment"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "caitec",
+    "商务部研究院",
+    "商务部",
+    "mofcom",
+    "对外贸易",
+    "foreign-trade",
+    "国际贸易",
+    "international-trade",
+    "一带一路",
+    "belt-and-road",
+    "对外投资",
+    "outbound-investment",
+    "跨境电商",
+    "cross-border-ecommerce",
+    "服务贸易",
+    "services-trade",
+    "rcep",
+    "供应链",
+    "supply-chain",
+    "国家智库",
+    "national-think-tank"
+  ],
+  "data_content": {
+    "en": [
+      "Annual Report on China's Foreign Trade: comprehensive annual assessment of China's trade by region, sector, and product",
+      "Belt and Road trade cooperation reports: trade volumes, key projects, and policy analysis with BRI partner countries",
+      "Outbound investment reports: data and case analysis of Chinese enterprises' overseas direct investment by industry and destination",
+      "Cross-border e-commerce development reports: market size, policy evolution, and industry player analysis",
+      "Services trade blue books: sector-level data covering finance, travel, transport, and digital services",
+      "Supply chain security and industrial competitiveness reports",
+      "RCEP implementation tracking and policy assessment",
+      "Country and regional market briefings for Chinese exporters and investors"
+    ],
+    "zh": [
+      "《中国对外贸易形势报告》：分区域、分行业、分商品的年度对外贸易综合评估",
+      "《中国一带一路贸易投资发展报告》：与共建国家的贸易额、重点项目、政策分析",
+      "《中国对外投资发展报告》：中国企业分行业、分目的地的海外直接投资数据与案例分析",
+      "跨境电商发展报告：市场规模、政策演进、行业主体分析",
+      "服务贸易蓝皮书：金融、旅行、运输、数字服务等细分领域数据",
+      "供应链安全与产业竞争力研究报告",
+      "RCEP实施跟踪与政策评估",
+      "面向中国出口商与投资者的国别与区域市场简报"
+    ]
+  }
+}
