@@ -1,0 +1,57 @@
+{
+  "id": "china-cngbdb",
+  "name": {
+    "en": "China National GeneBank DataBase",
+    "zh": "国家基因库生命大数据平台"
+  },
+  "description": {
+    "en": "CNGBdb is China's unified life science big data platform, operated by China National GeneBank (CNGB) in Shenzhen. It serves as a major national repository for genomics, bioinformatics, and life science research data, providing services for researchers worldwide to share and access biological data. The platform integrates sequencing data, literature, samples, and microbial resources, and offers tools for data submission, analysis, and bioinformatics training.",
+    "zh": "国家基因库生命大数据平台（CNGBdb）是由深圳国家基因库（CNGB）运营的国家级生命科学大数据统一平台，是国家重要的基因组学、生物信息学和生命科学研究数据仓库。平台汇聚测序数据、文献、样本与微生物资源，面向全球科研人员提供生物数据的共享与访问服务，并提供数据提交、分析及生物信息学培训等工具与服务。"
+  },
+  "data_content": {
+    "en": [
+      "CNSA (CNGB Sequence Archive) - raw nucleotide sequence reads and assemblies from China National GeneBank",
+      "Nucleotide and protein sequence databases with search and annotation tools",
+      "Literature database integrating life-science publications and associated datasets",
+      "Sample metadata linked to biological specimens held by CNGB",
+      "Microbial resources and reference genome collections",
+      "Bioinformatics tools and pipelines for alignment, assembly, and annotation"
+    ],
+    "zh": [
+      "CNSA（国家基因库序列归档） - 来自国家基因库的核苷酸原始测序数据与组装结果",
+      "核酸与蛋白质序列数据库，提供检索与注释工具",
+      "整合生命科学论文与关联数据集的文献数据库",
+      "与国家基因库生物样本相关联的样本元数据",
+      "微生物资源库与参考基因组集合",
+      "比对、组装、注释等生物信息学工具与分析流程"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "research",
+  "geographic_scope": "national",
+  "website": "https://db.cngb.org",
+  "data_url": "https://db.cngb.org",
+  "domains": [
+    "health",
+    "science",
+    "research"
+  ],
+  "tags": [
+    "cngb",
+    "cngbdb",
+    "genomics",
+    "bioinformatics",
+    "life-sciences",
+    "sequence-archive",
+    "cnsa",
+    "shenzhen",
+    "bgi",
+    "国家基因库",
+    "生命大数据",
+    "基因组学",
+    "生物信息学",
+    "测序数据",
+    "生物样本"
+  ],
+  "update_frequency": "irregular"
+}

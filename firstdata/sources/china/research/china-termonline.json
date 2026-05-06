@@ -1,0 +1,57 @@
+{
+  "id": "china-termonline",
+  "name": {
+    "en": "TermOnline - China National Terminology Service Platform",
+    "zh": "术语在线"
+  },
+  "description": {
+    "en": "TermOnline (术语在线) is China's authoritative national terminology service platform operated by the China National Committee for Terms in Sciences and Technologies (全国科学技术名词审定委员会, CNCTST). It publishes officially examined and approved Chinese scientific and technological terminology across disciplines, providing a searchable database of more than 500,000 standardized terms in Chinese with English equivalents, definitions, and source references, serving researchers, translators, publishers, educators, and LLM training data curators.",
+    "zh": "术语在线是由全国科学技术名词审定委员会（CNCTST）运营的国家权威科技名词服务平台。平台公开发布经审定公布的各学科规范科技名词，收录超过50万条标准术语，提供中文规范术语、英文对应词、定义及出处来源的检索服务，广泛应用于科研、翻译、出版、教育和大模型训练语料治理等领域。"
+  },
+  "data_content": {
+    "en": [
+      "Standardized scientific and technological terms examined and approved by CNCTST across 100+ disciplines",
+      "Chinese-English term pairs with standardized definitions and source references",
+      "Terminology from physics, chemistry, biology, medicine, engineering, humanities and social sciences",
+      "Historical and cross-Straits term comparison (e.g., Mainland vs. Taiwan usage)",
+      "Special terminology volumes and discipline-specific term dictionaries",
+      "Newly approved terms, public consultation drafts, and notices of term updates"
+    ],
+    "zh": [
+      "全国科技名词委审定公布的100+学科规范科技名词",
+      "中英文对照规范术语、标准定义与出处来源",
+      "涵盖物理、化学、生物、医学、工程、人文社科等学科领域的术语",
+      "海峡两岸名词差异比对（如大陆与台湾用词对照）",
+      "各学科名词分册与专题名词词典",
+      "新公布术语、公众征求意见稿与术语更新公告"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.termonline.cn",
+  "data_url": "https://www.termonline.cn",
+  "domains": [
+    "science",
+    "education",
+    "language"
+  ],
+  "tags": [
+    "cnctst",
+    "terminology",
+    "standard-terms",
+    "science-technology",
+    "dictionary",
+    "bilingual",
+    "chinese-english",
+    "术语在线",
+    "全国科技名词委",
+    "科技名词",
+    "规范术语",
+    "学科名词",
+    "审定公布",
+    "中英对照",
+    "名词审定"
+  ],
+  "update_frequency": "monthly"
+}

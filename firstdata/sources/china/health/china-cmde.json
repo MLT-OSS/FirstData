@@ -1,0 +1,58 @@
+{
+  "id": "china-cmde",
+  "name": {
+    "en": "Center for Medical Device Evaluation, NMPA",
+    "zh": "国家药品监督管理局医疗器械技术审评中心"
+  },
+  "description": {
+    "en": "The Center for Medical Device Evaluation (CMDE) is a technical review institution directly under China's National Medical Products Administration (NMPA). It is responsible for the pre-market technical review of domestic Class II/III medical devices and imported medical devices in China, issuing guidance documents, technical review opinions, and maintaining public registries of accepted, under-review, and approved medical device applications.",
+    "zh": "国家药品监督管理局医疗器械技术审评中心（CMDE）是国家药品监督管理局直属的医疗器械技术审评机构，负责境内第二、三类医疗器械和进口医疗器械注册申请的技术审评工作，发布医疗器械技术审评指导原则、技术审评意见，并公开受理、审评、批准等各环节的医疗器械注册申请信息。"
+  },
+  "data_content": {
+    "en": [
+      "Medical device registration application acceptance records (domestic Class II/III and imported devices)",
+      "Under-review medical device application status and progress tracking",
+      "Approved medical device technical review conclusions and public notices",
+      "Medical device technical review guidance documents and standards interpretation",
+      "In-vitro diagnostic (IVD) reagent technical review documentation",
+      "Innovation pathway (创新医疗器械) and priority review channel records",
+      "Clinical trial approval information and clinical evaluation guidelines"
+    ],
+    "zh": [
+      "医疗器械注册受理信息（境内二、三类及进口医疗器械）",
+      "医疗器械审评状态与进度公开信息",
+      "已批准医疗器械技术审评结论与公告",
+      "医疗器械技术审评指导原则与标准解读",
+      "体外诊断试剂（IVD）技术审评资料",
+      "创新医疗器械及优先审评通道受理与审评记录",
+      "临床试验批准信息与临床评价技术指导原则"
+    ]
+  },
+  "country": "CN",
+  "authority_level": "government",
+  "geographic_scope": "national",
+  "website": "https://www.cmde.org.cn",
+  "data_url": "https://www.cmde.org.cn",
+  "domains": [
+    "health",
+    "regulation"
+  ],
+  "tags": [
+    "cmde",
+    "nmpa",
+    "medical-device",
+    "device-registration",
+    "technical-review",
+    "ivd",
+    "pre-market",
+    "healthcare-regulation",
+    "医疗器械",
+    "器械审评",
+    "国家药监局",
+    "技术审评",
+    "医疗器械注册",
+    "创新器械",
+    "体外诊断试剂"
+  ],
+  "update_frequency": "daily"
+}
