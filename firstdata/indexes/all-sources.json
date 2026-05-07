@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-06T06:54:45.012013+00:00",
-    "total_sources": 698,
+    "generated_at": "2026-05-07T07:23:20.110626+00:00",
+    "total_sources": 703,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -10414,6 +10414,86 @@
       "file_path": "china/education/china-cstm.json"
     },
     {
+      "id": "china-ncss",
+      "name": {
+        "en": "National College Student Employment Service Platform",
+        "zh": "国家大学生就业服务平台"
+      },
+      "description": {
+        "en": "The National College Student Employment Service Platform (NCSS) is the official national platform for college and university graduate employment services in China, operated by the Ministry of Education under its 24365 Graduate Employment Campaign initiative. NCSS provides centralized job information, employment statistics, career guidance, and policy resources for over 10 million Chinese college graduates each year. The platform integrates recruitment data from government agencies, state-owned enterprises, private companies, and overseas employers, and publishes authoritative graduate employment statistics including employment rates, salary ranges, employer sector distribution, and regional destination data. NCSS is a primary source for understanding China's graduate labor market, higher-education-to-work transitions, and youth employment policy.",
+        "zh": "国家大学生就业服务平台（NCSS）是由教育部运营的全国高校毕业生就业服务官方平台，是\"24365校园招聘服务\"行动的核心网站。NCSS为全国每年超过1000万名高校毕业生提供集中的招聘信息、就业统计、就业指导和政策资源。平台整合来自政府机关、国有企业、民营企业及海外雇主的招聘数据，发布权威的毕业生就业统计，包括就业率、薪资区间、用人单位行业分布及地区去向等。NCSS是了解中国高校毕业生劳动力市场、高等教育就业转化及青年就业政策的核心数据源。"
+      },
+      "website": "https://www.ncss.cn/",
+      "data_url": "https://www.ncss.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "education",
+        "employment",
+        "labor"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "ncss",
+        "国家大学生就业服务平台",
+        "national-college-employment",
+        "高校毕业生",
+        "college-graduate",
+        "大学生就业",
+        "graduate-employment",
+        "就业服务",
+        "employment-service",
+        "招聘",
+        "recruitment",
+        "教育部",
+        "ministry-of-education",
+        "24365校园招聘",
+        "career-service",
+        "就业指导",
+        "career-guidance",
+        "应届生",
+        "fresh-graduate",
+        "就业率",
+        "employment-rate",
+        "青年就业",
+        "youth-employment",
+        "人才市场",
+        "talent-market",
+        "劳动力市场",
+        "labor-market"
+      ],
+      "data_content": {
+        "en": [
+          "National graduate recruitment listings: full-time, internship, and trainee positions for college and university graduates",
+          "Graduate employment statistics including overall employment rate and breakdown by degree level (associate, bachelor's, master's, doctoral)",
+          "Employer sector distribution of graduate hires: state-owned enterprises, private enterprises, government agencies, foreign-invested enterprises, and self-employment",
+          "Regional destination data: provinces, cities, and urbanization tier analysis for graduate migration patterns",
+          "Starting salary statistics by major, region, industry, and degree level",
+          "Grassroots employment program data: Western Program, Three Supports and One Assistance, special post teacher program, and SOE recruitment for rural revitalization",
+          "Specialized job boards for disabled graduates, rural-hukou graduates, and graduates from less-developed regions",
+          "Entrepreneurship resources: graduate startup policies, funding, and business incubation statistics",
+          "Career guidance content: mentoring sessions, mock interviews, skill assessment, and industry career paths",
+          "Returning overseas student employment data and cross-border talent mobility statistics"
+        ],
+        "zh": [
+          "全国毕业生招聘信息：面向高校毕业生的全职、实习和培训生岗位",
+          "毕业生就业统计，包括总体就业率及按学历层次（专科、本科、硕士、博士）分类的数据",
+          "毕业生就业单位性质分布：国有企业、民营企业、党政机关、外商投资企业、自主创业等",
+          "地区去向数据：省份、城市及城市化层级分析，反映毕业生迁移模式",
+          "按专业、地区、行业和学历层次分类的起薪统计",
+          "基层就业项目数据：西部计划、三支一扶、特岗教师计划及乡村振兴国企招录",
+          "残障毕业生、农村户籍毕业生及欠发达地区毕业生专项招聘信息",
+          "创业资源：大学生创业政策、资金支持及创业孵化统计",
+          "职业指导内容：导师分享、模拟面试、技能评估和行业职业路径",
+          "海外留学归国就业数据及跨境人才流动统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/education/china-ncss.json"
+    },
+    {
       "id": "china-nlc",
       "name": {
         "en": "National Library of China",
@@ -14901,6 +14981,84 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-cqc.json"
+    },
+    {
+      "id": "china-foundation-center",
+      "name": {
+        "en": "China Foundation Center",
+        "zh": "基金会中心网"
+      },
+      "description": {
+        "en": "The China Foundation Center (CFC) is the national information disclosure and transparency platform for Chinese charitable foundations, jointly initiated by leading Chinese foundations and supported by the Ministry of Civil Affairs. CFC aggregates, verifies, and publishes comprehensive data on thousands of public and private foundations registered in China, including their financial disclosures, program expenditures, donor information, governance structures, and annual reports. The Center publishes the China Foundation Transparency Index (FTI), foundation sector analytics, philanthropy trend reports, and industry benchmarks. CFC's data is widely used by donors, researchers, policy makers, nonprofits, and the media to evaluate Chinese foundations, study the philanthropy sector, and promote transparency and accountability in Chinese civil society.",
+        "zh": "基金会中心网（CFC）是中国公益基金会信息披露与透明度的国家级门户平台，由中国领先基金会共同发起，并获得民政部支持。基金会中心网汇集、核验并发布中国登记注册的数千家公募和非公募基金会的全面数据，包括其财务披露、项目支出、捐赠人信息、治理结构及年度报告等。该中心发布中国基金会透明指数（FTI）、基金会行业分析、慈善趋势报告及行业基准等。基金会中心网的数据被捐赠人、研究人员、政策制定者、非营利组织和媒体广泛用于评估中国基金会、研究慈善行业，并推动中国公民社会的透明度和问责制建设。"
+      },
+      "website": "https://www.foundationcenter.org.cn/",
+      "data_url": "https://www.foundationcenter.org.cn/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "philanthropy",
+        "governance",
+        "social"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "基金会中心网",
+        "china-foundation-center",
+        "cfc",
+        "公益基金会",
+        "charitable-foundation",
+        "慈善",
+        "philanthropy",
+        "公益",
+        "公益行业",
+        "nonprofit",
+        "非营利组织",
+        "ngo",
+        "基金会透明指数",
+        "foundation-transparency-index",
+        "fti",
+        "信息披露",
+        "information-disclosure",
+        "慈善捐赠",
+        "charitable-donation",
+        "公募基金会",
+        "public-foundation",
+        "非公募基金会",
+        "private-foundation",
+        "慈善行业",
+        "social-organization"
+      ],
+      "data_content": {
+        "en": [
+          "Comprehensive database of public and private foundations registered in China with organizational profiles, registration details, and governance structures",
+          "Annual financial disclosures including revenue, expenditure, assets, and program spending ratios",
+          "Foundation Transparency Index (FTI) ratings and annual foundation transparency reports",
+          "Donor and donation records including major donations, corporate giving, and individual philanthropy data",
+          "Program and grant data by sector (education, poverty alleviation, health, environment, disaster relief, etc.)",
+          "Annual reports, audit reports, and key documents filed by foundations",
+          "Foundation sector analytics: total assets, total spending, growth trends, regional distribution",
+          "Philanthropy trend reports including China Foundation Industry Development Report",
+          "Salary, staffing, and human resource statistics for the foundation sector",
+          "Foundation partnership, program collaboration, and international exchange data"
+        ],
+        "zh": [
+          "中国公募和非公募基金会综合数据库，含组织简介、登记信息及治理结构",
+          "年度财务披露，包括收入、支出、资产和项目支出比例",
+          "基金会透明指数（FTI）评级及年度基金会透明度报告",
+          "捐赠人及捐赠记录，包括重大捐赠、企业捐赠和个人慈善数据",
+          "按领域（教育、扶贫、医疗、环保、救灾等）分类的项目和资助数据",
+          "基金会披露的年度报告、审计报告及关键文件",
+          "基金会行业分析：总资产、总支出、增长趋势、地区分布",
+          "慈善趋势报告，包括《中国基金会行业发展报告》",
+          "基金会行业的薪酬、人员及人力资源统计",
+          "基金会合作、项目协作及国际交流数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-foundation-center.json"
     },
     {
       "id": "china-ggzy",
@@ -30218,6 +30376,85 @@
       "file_path": "china/technology/industry_associations/china-isc.json"
     },
     {
+      "id": "china-ccopyright",
+      "name": {
+        "en": "Copyright Protection Centre of China",
+        "zh": "中国版权保护中心"
+      },
+      "description": {
+        "en": "The Copyright Protection Centre of China (CPCC) is the national operational authority for copyright registration and copyright-related administrative services in China, operating under the National Copyright Administration of China (NCAC). CPCC is the sole national agency authorized to conduct registration of software copyrights (including source code and executable programs), general work copyrights (literary, artistic, musical, photographic, audiovisual, architectural, etc.), copyright pledge financing records, and international copyright certifications. CPCC issues legally recognized copyright registration certificates, maintains China's national registry of copyrighted works and software, and publishes detailed statistics on registrations by work type, industry, and region. The Centre also provides authoritative copyright consulting, monitoring, and pre-litigation evidence preservation services, making it a primary authoritative data source for measuring China's creative industries and intellectual property economy.",
+        "zh": "中国版权保护中心（CPCC）是中国版权登记和相关行政服务的国家级操作机构，隶属于国家版权局（NCAC）。中国版权保护中心是唯一获授权在全国范围内开展软件著作权登记（包含源代码与可执行程序）、作品著作权登记（文学、美术、音乐、摄影、视听、建筑等）、著作权质押融资登记以及国际版权认证的机构。中心颁发具有法律效力的著作权登记证书，维护国家作品与软件登记库，并按作品类别、行业和地区公开详细的登记统计数据。中心还提供权威的版权咨询、版权监测和诉前证据保全服务，是衡量中国创意产业和知识产权经济的核心权威数据源。"
+      },
+      "website": "https://www.ccopyright.com.cn/",
+      "data_url": "https://www.ccopyright.com.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "intellectual-property",
+        "governance",
+        "culture"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国版权保护中心",
+        "cpcc",
+        "copyright-protection-centre",
+        "ccopyright",
+        "著作权登记",
+        "copyright-registration",
+        "软件著作权",
+        "software-copyright",
+        "作品登记",
+        "work-registration",
+        "版权",
+        "copyright",
+        "知识产权",
+        "intellectual-property",
+        "登记证书",
+        "registration-certificate",
+        "版权质押",
+        "copyright-pledge",
+        "版权监测",
+        "copyright-monitoring",
+        "证据保全",
+        "evidence-preservation",
+        "创意产业",
+        "creative-industry",
+        "版权交易",
+        "copyright-transaction"
+      ],
+      "data_content": {
+        "en": [
+          "National registry of software copyright registrations with software name, developer, version, programming language, and first publication date",
+          "National registry of general work copyright registrations for literary, artistic, musical, photographic, audiovisual, architectural, and other categories",
+          "Monthly and annual copyright registration statistics by work type, industry, region, and registrant category (individual, enterprise, institution)",
+          "Software copyright ownership transfer and licensing records",
+          "Copyright pledge financing records (collateralization of copyrights for loans and financing)",
+          "International copyright certification data for works distributed overseas",
+          "Copyright pre-litigation evidence preservation and timestamp records for rights enforcement",
+          "Authorized publishing license data (author-publisher agreements and contract registrations)",
+          "Copyright industry analytics: annual registration growth, software industry output contribution, and creative economy indicators",
+          "Digital copyright identifier (DCI) codes and blockchain-based rights records for online content"
+        ],
+        "zh": [
+          "全国软件著作权登记库，含软件名称、开发者、版本、开发语言及首次发表日期",
+          "全国作品著作权登记库，涵盖文字、美术、音乐、摄影、视听、建筑等各类作品",
+          "按作品类型、行业、地区及登记人类别（个人、企业、机构）分类的月度和年度版权登记统计",
+          "软件著作权转让和许可记录",
+          "著作权质押融资登记（以著作权作为贷款和融资的担保）",
+          "面向海外传播作品的国际版权认证数据",
+          "版权诉前证据保全和时间戳记录，用于维权执法",
+          "授权出版许可数据（作者与出版商协议及合同登记）",
+          "版权产业分析：年度登记增长、软件产业产值贡献及创意经济指标",
+          "数字作品版权识别（DCI）码及基于区块链的网络内容权益记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/intellectual_property/china-ccopyright.json"
+    },
+    {
       "id": "china-cnipa-patents",
       "name": {
         "en": "China National Intellectual Property Administration - Patent Statistics",
@@ -30509,6 +30746,82 @@
       },
       "has_api": false,
       "file_path": "china/technology/internet/china-cncert.json"
+    },
+    {
+      "id": "china-cnnvd",
+      "name": {
+        "en": "China National Vulnerability Database of Information Security",
+        "zh": "国家信息安全漏洞库"
+      },
+      "description": {
+        "en": "The China National Vulnerability Database of Information Security (CNNVD) is the national-level information security vulnerability database operated by the China Information Technology Security Evaluation Center (CNITSEC) under the Ministry of State Security. CNNVD collects, analyzes, verifies, and publishes information security vulnerabilities affecting software, hardware, and network systems in China. It provides comprehensive vulnerability data including unique CNNVD identifiers, CVE cross-references, severity ratings, affected product lists, technical details, remediation guidance, and exploitation status. CNNVD is an essential reference for cybersecurity researchers, enterprises, government agencies, and critical infrastructure operators to manage security risks, prioritize patches, and comply with China's cybersecurity regulations including the Cybersecurity Law and the Regulations on the Management of Network Product Security Vulnerabilities.",
+        "zh": "国家信息安全漏洞库（CNNVD）是由中国信息安全测评中心（隶属于国家安全部）运营的国家级信息安全漏洞数据库。CNNVD负责收集、分析、验证并发布影响中国软件、硬件和网络系统的信息安全漏洞。提供包括CNNVD独立编号、CVE交叉引用、严重等级评估、受影响产品清单、技术细节、修复建议及利用状况等全面漏洞数据。CNNVD是网络安全研究人员、企业、政府机关和关键基础设施运营者管理安全风险、确定补丁优先级，以及遵守《网络安全法》和《网络产品安全漏洞管理规定》等中国网络安全法规的重要参考。"
+      },
+      "website": "https://www.cnnvd.org.cn/",
+      "data_url": "https://www.cnnvd.org.cn/home/childHome",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "security",
+        "information-security"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "cnnvd",
+        "国家信息安全漏洞库",
+        "national-vulnerability-database",
+        "信息安全漏洞",
+        "information-security-vulnerability",
+        "漏洞库",
+        "vulnerability-database",
+        "cve",
+        "网络安全",
+        "cybersecurity",
+        "安全漏洞",
+        "security-vulnerability",
+        "漏洞编号",
+        "vulnerability-identifier",
+        "cnitsec",
+        "中国信息安全测评中心",
+        "cnits",
+        "补丁管理",
+        "patch-management",
+        "威胁情报",
+        "threat-intelligence",
+        "关键信息基础设施",
+        "critical-information-infrastructure"
+      ],
+      "data_content": {
+        "en": [
+          "CNNVD vulnerability records with unique Chinese national vulnerability identifiers and CVE cross-references",
+          "Severity ratings (critical/high/medium/low) and CVSS-equivalent scoring for each vulnerability",
+          "Affected product lists by vendor, product name, and version ranges",
+          "Technical vulnerability descriptions and root-cause classifications (e.g., buffer overflow, SQL injection, authentication bypass)",
+          "Remediation guidance and official patch/upgrade advisories from vendors",
+          "Exploitation status indicators including public proof-of-concept and in-the-wild exploitation",
+          "Daily and monthly vulnerability disclosure statistics by product type, vendor, and threat category",
+          "Zero-day and newly discovered vulnerability bulletins for Chinese government and enterprise IT environments",
+          "Specialized advisories for industrial control systems, mobile platforms, IoT, and critical infrastructure",
+          "Vulnerability trend analysis reports and annual security vulnerability research summaries"
+        ],
+        "zh": [
+          "CNNVD漏洞记录，含中国国家漏洞库唯一编号及CVE交叉引用",
+          "每个漏洞的严重等级评估（超危/高危/中危/低危）和CVSS等效评分",
+          "按厂商、产品名称和版本范围分类的受影响产品清单",
+          "漏洞技术描述及根因分类（如缓冲区溢出、SQL注入、身份验证绕过等）",
+          "厂商官方修复建议和补丁/升级公告",
+          "漏洞利用状态指示，包括公开概念验证和野外利用情况",
+          "按产品类型、厂商和威胁类别分类的日度和月度漏洞披露统计",
+          "针对中国政府和企业IT环境的零日及新发现漏洞通报",
+          "工业控制系统、移动平台、物联网和关键基础设施的专项安全公告",
+          "漏洞趋势分析报告及年度安全漏洞研究总结"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/internet/china-cnnvd.json"
     },
     {
       "id": "china-cinic",
@@ -31193,6 +31506,83 @@
       },
       "has_api": false,
       "file_path": "china/technology/standards/china-sac-standards.json"
+    },
+    {
+      "id": "china-ttbz",
+      "name": {
+        "en": "National Group Standards Information Platform",
+        "zh": "全国团体标准信息平台"
+      },
+      "description": {
+        "en": "The National Group Standards Information Platform (全国团体标准信息平台, TTBZ) is the official unified platform for registration, disclosure, and public query of group standards (团体标准) in China, operated by the Standardization Administration of China (SAC) under the State Administration for Market Regulation (SAMR). Group standards are standards developed by social organizations such as industry associations, chambers of commerce, federations, and professional societies to meet market and innovation demands, serving as an important complement to national, industry, and local standards under China's New Standardization Law. The platform hosts the complete registry of group standards filed by over 8,000 registered social organizations, covering hundreds of industries from advanced manufacturing and emerging technologies to healthcare, consumer products, and services. It provides full-text access to standards, adoption statistics, sectoral analytics, and standardization policy information.",
+        "zh": "全国团体标准信息平台（TTBZ）是由国家市场监督管理总局所属国家标准化管理委员会（SAC）运营的团体标准注册、公示和公众查询的官方统一平台。团体标准是由行业协会、商会、联合会、学会等社会团体根据市场和创新需求制定的标准，是中国《标准化法》框架下对国家标准、行业标准和地方标准的重要补充。该平台汇集了8000多家已注册社会团体填报的全部团体标准，覆盖先进制造、新兴技术、医疗健康、消费品和服务业等数百个行业。平台提供标准全文公开、采纳统计、行业分析及标准化政策信息。"
+      },
+      "website": "https://www.ttbz.org.cn/",
+      "data_url": "https://www.ttbz.org.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "standards",
+        "industry",
+        "governance"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "团体标准",
+        "group-standards",
+        "ttbz",
+        "全国团体标准信息平台",
+        "national-group-standards-platform",
+        "标准化",
+        "standardization",
+        "sac",
+        "samr",
+        "国家标准化管理委员会",
+        "行业协会标准",
+        "industry-association-standards",
+        "标准查询",
+        "standards-query",
+        "标准公示",
+        "standards-disclosure",
+        "标准信息",
+        "standards-information",
+        "技术标准",
+        "technical-standards",
+        "行业标准",
+        "industry-standards",
+        "社会团体",
+        "social-organization"
+      ],
+      "data_content": {
+        "en": [
+          "Complete registry of filed group standards with standard number, title, publishing organization, publication date, and implementation date",
+          "Full-text access to published group standards across all industries",
+          "Directory of registered social organizations (industry associations, federations, societies) authorized to issue group standards",
+          "Statistics by sector, year, and publishing organization on group standards adoption",
+          "Industry-specific standard collections: advanced manufacturing, information technology, healthcare, consumer products, services, green development, etc.",
+          "Standards under public consultation with drafting history and stakeholder feedback",
+          "Standardization policy documents, regulations, and SAC circulars on group standards management",
+          "Cross-references between group standards and national/industry/local standards for harmonization analysis",
+          "Annual group standards development reports and industry benchmarking analytics",
+          "Adoption and implementation data showing which enterprises self-declare compliance with specific group standards"
+        ],
+        "zh": [
+          "已填报团体标准全记录，含标准编号、名称、发布组织、发布日期和实施日期",
+          "跨行业已发布团体标准的全文公开访问",
+          "获授权发布团体标准的已注册社会团体目录（行业协会、联合会、学会）",
+          "按行业、年份、发布组织分类的团体标准采纳统计",
+          "行业专项标准集合：先进制造、信息技术、医疗健康、消费品、服务业、绿色发展等",
+          "公开征求意见的标准，含起草历史及利益相关方反馈",
+          "标准化政策文件、法规及国家标准委关于团体标准管理的通知",
+          "团体标准与国家标准、行业标准、地方标准的交叉引用，用于协调分析",
+          "年度团体标准发展报告及行业基准分析",
+          "采纳和实施数据，显示哪些企业自我声明符合特定团体标准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/standards/china-ttbz.json"
     },
     {
       "id": "china-ccsa",

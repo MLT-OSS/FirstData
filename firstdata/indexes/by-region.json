@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-06T06:54:45.012013+00:00",
+    "generated_at": "2026-05-07T07:23:20.110626+00:00",
     "total_regions": 58,
-    "total_sources": 698,
+    "total_sources": 703,
     "version": "2.0"
   },
   "regions": {
@@ -1761,6 +1761,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ncss",
+        "name": {
+          "en": "National College Student Employment Service Platform",
+          "zh": "国家大学生就业服务平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ncss.cn/",
+        "has_api": false,
+        "file_path": "china/education/china-ncss.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nlc",
         "name": {
           "en": "National Library of China",
@@ -2544,6 +2556,18 @@
         "data_url": "https://www.cqc.com.cn/",
         "has_api": false,
         "file_path": "china/governance/china-cqc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-foundation-center",
+        "name": {
+          "en": "China Foundation Center",
+          "zh": "基金会中心网"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.foundationcenter.org.cn/",
+        "has_api": false,
+        "file_path": "china/governance/china-foundation-center.json",
         "geographic_scope": "national"
       },
       {
@@ -5179,6 +5203,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ccopyright",
+        "name": {
+          "en": "Copyright Protection Centre of China",
+          "zh": "中国版权保护中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ccopyright.com.cn/",
+        "has_api": false,
+        "file_path": "china/technology/intellectual_property/china-ccopyright.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnipa-patents",
         "name": {
           "en": "China National Intellectual Property Administration - Patent Statistics",
@@ -5224,6 +5260,18 @@
         "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
         "has_api": false,
         "file_path": "china/technology/internet/china-cncert.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnnvd",
+        "name": {
+          "en": "China National Vulnerability Database of Information Security",
+          "zh": "国家信息安全漏洞库"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnnvd.org.cn/home/childHome",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cnnvd.json",
         "geographic_scope": "national"
       },
       {
@@ -5333,6 +5381,18 @@
         "data_url": "https://std.samr.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/standards/china-sac-standards.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ttbz",
+        "name": {
+          "en": "National Group Standards Information Platform",
+          "zh": "全国团体标准信息平台"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.ttbz.org.cn/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-ttbz.json",
         "geographic_scope": "national"
       },
       {
