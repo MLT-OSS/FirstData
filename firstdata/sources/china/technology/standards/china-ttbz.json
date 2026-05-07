@@ -1,0 +1,75 @@
+{
+  "id": "china-ttbz",
+  "name": {
+    "en": "National Group Standards Information Platform",
+    "zh": "全国团体标准信息平台"
+  },
+  "description": {
+    "en": "The National Group Standards Information Platform (全国团体标准信息平台, TTBZ) is the official unified platform for registration, disclosure, and public query of group standards (团体标准) in China, operated by the Standardization Administration of China (SAC) under the State Administration for Market Regulation (SAMR). Group standards are standards developed by social organizations such as industry associations, chambers of commerce, federations, and professional societies to meet market and innovation demands, serving as an important complement to national, industry, and local standards under China's New Standardization Law. The platform hosts the complete registry of group standards filed by over 8,000 registered social organizations, covering hundreds of industries from advanced manufacturing and emerging technologies to healthcare, consumer products, and services. It provides full-text access to standards, adoption statistics, sectoral analytics, and standardization policy information.",
+    "zh": "全国团体标准信息平台（TTBZ）是由国家市场监督管理总局所属国家标准化管理委员会（SAC）运营的团体标准注册、公示和公众查询的官方统一平台。团体标准是由行业协会、商会、联合会、学会等社会团体根据市场和创新需求制定的标准，是中国《标准化法》框架下对国家标准、行业标准和地方标准的重要补充。该平台汇集了8000多家已注册社会团体填报的全部团体标准，覆盖先进制造、新兴技术、医疗健康、消费品和服务业等数百个行业。平台提供标准全文公开、采纳统计、行业分析及标准化政策信息。"
+  },
+  "website": "https://www.ttbz.org.cn/",
+  "data_url": "https://www.ttbz.org.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "standards",
+    "industry",
+    "governance"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "团体标准",
+    "group-standards",
+    "ttbz",
+    "全国团体标准信息平台",
+    "national-group-standards-platform",
+    "标准化",
+    "standardization",
+    "sac",
+    "samr",
+    "国家标准化管理委员会",
+    "行业协会标准",
+    "industry-association-standards",
+    "标准查询",
+    "standards-query",
+    "标准公示",
+    "standards-disclosure",
+    "标准信息",
+    "standards-information",
+    "技术标准",
+    "technical-standards",
+    "行业标准",
+    "industry-standards",
+    "社会团体",
+    "social-organization"
+  ],
+  "data_content": {
+    "en": [
+      "Complete registry of filed group standards with standard number, title, publishing organization, publication date, and implementation date",
+      "Full-text access to published group standards across all industries",
+      "Directory of registered social organizations (industry associations, federations, societies) authorized to issue group standards",
+      "Statistics by sector, year, and publishing organization on group standards adoption",
+      "Industry-specific standard collections: advanced manufacturing, information technology, healthcare, consumer products, services, green development, etc.",
+      "Standards under public consultation with drafting history and stakeholder feedback",
+      "Standardization policy documents, regulations, and SAC circulars on group standards management",
+      "Cross-references between group standards and national/industry/local standards for harmonization analysis",
+      "Annual group standards development reports and industry benchmarking analytics",
+      "Adoption and implementation data showing which enterprises self-declare compliance with specific group standards"
+    ],
+    "zh": [
+      "已填报团体标准全记录，含标准编号、名称、发布组织、发布日期和实施日期",
+      "跨行业已发布团体标准的全文公开访问",
+      "获授权发布团体标准的已注册社会团体目录（行业协会、联合会、学会）",
+      "按行业、年份、发布组织分类的团体标准采纳统计",
+      "行业专项标准集合：先进制造、信息技术、医疗健康、消费品、服务业、绿色发展等",
+      "公开征求意见的标准，含起草历史及利益相关方反馈",
+      "标准化政策文件、法规及国家标准委关于团体标准管理的通知",
+      "团体标准与国家标准、行业标准、地方标准的交叉引用，用于协调分析",
+      "年度团体标准发展报告及行业基准分析",
+      "采纳和实施数据，显示哪些企业自我声明符合特定团体标准"
+    ]
+  }
+}

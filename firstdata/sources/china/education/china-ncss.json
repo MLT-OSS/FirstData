@@ -1,0 +1,78 @@
+{
+  "id": "china-ncss",
+  "name": {
+    "en": "National College Student Employment Service Platform",
+    "zh": "国家大学生就业服务平台"
+  },
+  "description": {
+    "en": "The National College Student Employment Service Platform (NCSS) is the official national platform for college and university graduate employment services in China, operated by the Ministry of Education under its 24365 Graduate Employment Campaign initiative. NCSS provides centralized job information, employment statistics, career guidance, and policy resources for over 10 million Chinese college graduates each year. The platform integrates recruitment data from government agencies, state-owned enterprises, private companies, and overseas employers, and publishes authoritative graduate employment statistics including employment rates, salary ranges, employer sector distribution, and regional destination data. NCSS is a primary source for understanding China's graduate labor market, higher-education-to-work transitions, and youth employment policy.",
+    "zh": "国家大学生就业服务平台（NCSS）是由教育部运营的全国高校毕业生就业服务官方平台，是\"24365校园招聘服务\"行动的核心网站。NCSS为全国每年超过1000万名高校毕业生提供集中的招聘信息、就业统计、就业指导和政策资源。平台整合来自政府机关、国有企业、民营企业及海外雇主的招聘数据，发布权威的毕业生就业统计，包括就业率、薪资区间、用人单位行业分布及地区去向等。NCSS是了解中国高校毕业生劳动力市场、高等教育就业转化及青年就业政策的核心数据源。"
+  },
+  "website": "https://www.ncss.cn/",
+  "data_url": "https://www.ncss.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "education",
+    "employment",
+    "labor"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "ncss",
+    "国家大学生就业服务平台",
+    "national-college-employment",
+    "高校毕业生",
+    "college-graduate",
+    "大学生就业",
+    "graduate-employment",
+    "就业服务",
+    "employment-service",
+    "招聘",
+    "recruitment",
+    "教育部",
+    "ministry-of-education",
+    "24365校园招聘",
+    "career-service",
+    "就业指导",
+    "career-guidance",
+    "应届生",
+    "fresh-graduate",
+    "就业率",
+    "employment-rate",
+    "青年就业",
+    "youth-employment",
+    "人才市场",
+    "talent-market",
+    "劳动力市场",
+    "labor-market"
+  ],
+  "data_content": {
+    "en": [
+      "National graduate recruitment listings: full-time, internship, and trainee positions for college and university graduates",
+      "Graduate employment statistics including overall employment rate and breakdown by degree level (associate, bachelor's, master's, doctoral)",
+      "Employer sector distribution of graduate hires: state-owned enterprises, private enterprises, government agencies, foreign-invested enterprises, and self-employment",
+      "Regional destination data: provinces, cities, and urbanization tier analysis for graduate migration patterns",
+      "Starting salary statistics by major, region, industry, and degree level",
+      "Grassroots employment program data: Western Program, Three Supports and One Assistance, special post teacher program, and SOE recruitment for rural revitalization",
+      "Specialized job boards for disabled graduates, rural-hukou graduates, and graduates from less-developed regions",
+      "Entrepreneurship resources: graduate startup policies, funding, and business incubation statistics",
+      "Career guidance content: mentoring sessions, mock interviews, skill assessment, and industry career paths",
+      "Returning overseas student employment data and cross-border talent mobility statistics"
+    ],
+    "zh": [
+      "全国毕业生招聘信息：面向高校毕业生的全职、实习和培训生岗位",
+      "毕业生就业统计，包括总体就业率及按学历层次（专科、本科、硕士、博士）分类的数据",
+      "毕业生就业单位性质分布：国有企业、民营企业、党政机关、外商投资企业、自主创业等",
+      "地区去向数据：省份、城市及城市化层级分析，反映毕业生迁移模式",
+      "按专业、地区、行业和学历层次分类的起薪统计",
+      "基层就业项目数据：西部计划、三支一扶、特岗教师计划及乡村振兴国企招录",
+      "残障毕业生、农村户籍毕业生及欠发达地区毕业生专项招聘信息",
+      "创业资源：大学生创业政策、资金支持及创业孵化统计",
+      "职业指导内容：导师分享、模拟面试、技能评估和行业职业路径",
+      "海外留学归国就业数据及跨境人才流动统计"
+    ]
+  }
+}

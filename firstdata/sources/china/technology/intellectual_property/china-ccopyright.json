@@ -1,0 +1,77 @@
+{
+  "id": "china-ccopyright",
+  "name": {
+    "en": "Copyright Protection Centre of China",
+    "zh": "中国版权保护中心"
+  },
+  "description": {
+    "en": "The Copyright Protection Centre of China (CPCC) is the national operational authority for copyright registration and copyright-related administrative services in China, operating under the National Copyright Administration of China (NCAC). CPCC is the sole national agency authorized to conduct registration of software copyrights (including source code and executable programs), general work copyrights (literary, artistic, musical, photographic, audiovisual, architectural, etc.), copyright pledge financing records, and international copyright certifications. CPCC issues legally recognized copyright registration certificates, maintains China's national registry of copyrighted works and software, and publishes detailed statistics on registrations by work type, industry, and region. The Centre also provides authoritative copyright consulting, monitoring, and pre-litigation evidence preservation services, making it a primary authoritative data source for measuring China's creative industries and intellectual property economy.",
+    "zh": "中国版权保护中心（CPCC）是中国版权登记和相关行政服务的国家级操作机构，隶属于国家版权局（NCAC）。中国版权保护中心是唯一获授权在全国范围内开展软件著作权登记（包含源代码与可执行程序）、作品著作权登记（文学、美术、音乐、摄影、视听、建筑等）、著作权质押融资登记以及国际版权认证的机构。中心颁发具有法律效力的著作权登记证书，维护国家作品与软件登记库，并按作品类别、行业和地区公开详细的登记统计数据。中心还提供权威的版权咨询、版权监测和诉前证据保全服务，是衡量中国创意产业和知识产权经济的核心权威数据源。"
+  },
+  "website": "https://www.ccopyright.com.cn/",
+  "data_url": "https://www.ccopyright.com.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "intellectual-property",
+    "governance",
+    "culture"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国版权保护中心",
+    "cpcc",
+    "copyright-protection-centre",
+    "ccopyright",
+    "著作权登记",
+    "copyright-registration",
+    "软件著作权",
+    "software-copyright",
+    "作品登记",
+    "work-registration",
+    "版权",
+    "copyright",
+    "知识产权",
+    "intellectual-property",
+    "登记证书",
+    "registration-certificate",
+    "版权质押",
+    "copyright-pledge",
+    "版权监测",
+    "copyright-monitoring",
+    "证据保全",
+    "evidence-preservation",
+    "创意产业",
+    "creative-industry",
+    "版权交易",
+    "copyright-transaction"
+  ],
+  "data_content": {
+    "en": [
+      "National registry of software copyright registrations with software name, developer, version, programming language, and first publication date",
+      "National registry of general work copyright registrations for literary, artistic, musical, photographic, audiovisual, architectural, and other categories",
+      "Monthly and annual copyright registration statistics by work type, industry, region, and registrant category (individual, enterprise, institution)",
+      "Software copyright ownership transfer and licensing records",
+      "Copyright pledge financing records (collateralization of copyrights for loans and financing)",
+      "International copyright certification data for works distributed overseas",
+      "Copyright pre-litigation evidence preservation and timestamp records for rights enforcement",
+      "Authorized publishing license data (author-publisher agreements and contract registrations)",
+      "Copyright industry analytics: annual registration growth, software industry output contribution, and creative economy indicators",
+      "Digital copyright identifier (DCI) codes and blockchain-based rights records for online content"
+    ],
+    "zh": [
+      "全国软件著作权登记库，含软件名称、开发者、版本、开发语言及首次发表日期",
+      "全国作品著作权登记库，涵盖文字、美术、音乐、摄影、视听、建筑等各类作品",
+      "按作品类型、行业、地区及登记人类别（个人、企业、机构）分类的月度和年度版权登记统计",
+      "软件著作权转让和许可记录",
+      "著作权质押融资登记（以著作权作为贷款和融资的担保）",
+      "面向海外传播作品的国际版权认证数据",
+      "版权诉前证据保全和时间戳记录，用于维权执法",
+      "授权出版许可数据（作者与出版商协议及合同登记）",
+      "版权产业分析：年度登记增长、软件产业产值贡献及创意经济指标",
+      "数字作品版权识别（DCI）码及基于区块链的网络内容权益记录"
+    ]
+  }
+}

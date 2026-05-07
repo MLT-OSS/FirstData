@@ -1,0 +1,74 @@
+{
+  "id": "china-cnnvd",
+  "name": {
+    "en": "China National Vulnerability Database of Information Security",
+    "zh": "国家信息安全漏洞库"
+  },
+  "description": {
+    "en": "The China National Vulnerability Database of Information Security (CNNVD) is the national-level information security vulnerability database operated by the China Information Technology Security Evaluation Center (CNITSEC) under the Ministry of State Security. CNNVD collects, analyzes, verifies, and publishes information security vulnerabilities affecting software, hardware, and network systems in China. It provides comprehensive vulnerability data including unique CNNVD identifiers, CVE cross-references, severity ratings, affected product lists, technical details, remediation guidance, and exploitation status. CNNVD is an essential reference for cybersecurity researchers, enterprises, government agencies, and critical infrastructure operators to manage security risks, prioritize patches, and comply with China's cybersecurity regulations including the Cybersecurity Law and the Regulations on the Management of Network Product Security Vulnerabilities.",
+    "zh": "国家信息安全漏洞库（CNNVD）是由中国信息安全测评中心（隶属于国家安全部）运营的国家级信息安全漏洞数据库。CNNVD负责收集、分析、验证并发布影响中国软件、硬件和网络系统的信息安全漏洞。提供包括CNNVD独立编号、CVE交叉引用、严重等级评估、受影响产品清单、技术细节、修复建议及利用状况等全面漏洞数据。CNNVD是网络安全研究人员、企业、政府机关和关键基础设施运营者管理安全风险、确定补丁优先级，以及遵守《网络安全法》和《网络产品安全漏洞管理规定》等中国网络安全法规的重要参考。"
+  },
+  "website": "https://www.cnnvd.org.cn/",
+  "data_url": "https://www.cnnvd.org.cn/home/childHome",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "security",
+    "information-security"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "cnnvd",
+    "国家信息安全漏洞库",
+    "national-vulnerability-database",
+    "信息安全漏洞",
+    "information-security-vulnerability",
+    "漏洞库",
+    "vulnerability-database",
+    "cve",
+    "网络安全",
+    "cybersecurity",
+    "安全漏洞",
+    "security-vulnerability",
+    "漏洞编号",
+    "vulnerability-identifier",
+    "cnitsec",
+    "中国信息安全测评中心",
+    "cnits",
+    "补丁管理",
+    "patch-management",
+    "威胁情报",
+    "threat-intelligence",
+    "关键信息基础设施",
+    "critical-information-infrastructure"
+  ],
+  "data_content": {
+    "en": [
+      "CNNVD vulnerability records with unique Chinese national vulnerability identifiers and CVE cross-references",
+      "Severity ratings (critical/high/medium/low) and CVSS-equivalent scoring for each vulnerability",
+      "Affected product lists by vendor, product name, and version ranges",
+      "Technical vulnerability descriptions and root-cause classifications (e.g., buffer overflow, SQL injection, authentication bypass)",
+      "Remediation guidance and official patch/upgrade advisories from vendors",
+      "Exploitation status indicators including public proof-of-concept and in-the-wild exploitation",
+      "Daily and monthly vulnerability disclosure statistics by product type, vendor, and threat category",
+      "Zero-day and newly discovered vulnerability bulletins for Chinese government and enterprise IT environments",
+      "Specialized advisories for industrial control systems, mobile platforms, IoT, and critical infrastructure",
+      "Vulnerability trend analysis reports and annual security vulnerability research summaries"
+    ],
+    "zh": [
+      "CNNVD漏洞记录，含中国国家漏洞库唯一编号及CVE交叉引用",
+      "每个漏洞的严重等级评估（超危/高危/中危/低危）和CVSS等效评分",
+      "按厂商、产品名称和版本范围分类的受影响产品清单",
+      "漏洞技术描述及根因分类（如缓冲区溢出、SQL注入、身份验证绕过等）",
+      "厂商官方修复建议和补丁/升级公告",
+      "漏洞利用状态指示，包括公开概念验证和野外利用情况",
+      "按产品类型、厂商和威胁类别分类的日度和月度漏洞披露统计",
+      "针对中国政府和企业IT环境的零日及新发现漏洞通报",
+      "工业控制系统、移动平台、物联网和关键基础设施的专项安全公告",
+      "漏洞趋势分析报告及年度安全漏洞研究总结"
+    ]
+  }
+}
