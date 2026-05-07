@@ -1,0 +1,76 @@
+{
+  "id": "china-foundation-center",
+  "name": {
+    "en": "China Foundation Center",
+    "zh": "基金会中心网"
+  },
+  "description": {
+    "en": "The China Foundation Center (CFC) is the national information disclosure and transparency platform for Chinese charitable foundations, jointly initiated by leading Chinese foundations and supported by the Ministry of Civil Affairs. CFC aggregates, verifies, and publishes comprehensive data on thousands of public and private foundations registered in China, including their financial disclosures, program expenditures, donor information, governance structures, and annual reports. The Center publishes the China Foundation Transparency Index (FTI), foundation sector analytics, philanthropy trend reports, and industry benchmarks. CFC's data is widely used by donors, researchers, policy makers, nonprofits, and the media to evaluate Chinese foundations, study the philanthropy sector, and promote transparency and accountability in Chinese civil society.",
+    "zh": "基金会中心网（CFC）是中国公益基金会信息披露与透明度的国家级门户平台，由中国领先基金会共同发起，并获得民政部支持。基金会中心网汇集、核验并发布中国登记注册的数千家公募和非公募基金会的全面数据，包括其财务披露、项目支出、捐赠人信息、治理结构及年度报告等。该中心发布中国基金会透明指数（FTI）、基金会行业分析、慈善趋势报告及行业基准等。基金会中心网的数据被捐赠人、研究人员、政策制定者、非营利组织和媒体广泛用于评估中国基金会、研究慈善行业，并推动中国公民社会的透明度和问责制建设。"
+  },
+  "website": "https://www.foundationcenter.org.cn/",
+  "data_url": "https://www.foundationcenter.org.cn/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "philanthropy",
+    "governance",
+    "social"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "基金会中心网",
+    "china-foundation-center",
+    "cfc",
+    "公益基金会",
+    "charitable-foundation",
+    "慈善",
+    "philanthropy",
+    "公益",
+    "公益行业",
+    "nonprofit",
+    "非营利组织",
+    "ngo",
+    "基金会透明指数",
+    "foundation-transparency-index",
+    "fti",
+    "信息披露",
+    "information-disclosure",
+    "慈善捐赠",
+    "charitable-donation",
+    "公募基金会",
+    "public-foundation",
+    "非公募基金会",
+    "private-foundation",
+    "慈善行业",
+    "social-organization"
+  ],
+  "data_content": {
+    "en": [
+      "Comprehensive database of public and private foundations registered in China with organizational profiles, registration details, and governance structures",
+      "Annual financial disclosures including revenue, expenditure, assets, and program spending ratios",
+      "Foundation Transparency Index (FTI) ratings and annual foundation transparency reports",
+      "Donor and donation records including major donations, corporate giving, and individual philanthropy data",
+      "Program and grant data by sector (education, poverty alleviation, health, environment, disaster relief, etc.)",
+      "Annual reports, audit reports, and key documents filed by foundations",
+      "Foundation sector analytics: total assets, total spending, growth trends, regional distribution",
+      "Philanthropy trend reports including China Foundation Industry Development Report",
+      "Salary, staffing, and human resource statistics for the foundation sector",
+      "Foundation partnership, program collaboration, and international exchange data"
+    ],
+    "zh": [
+      "中国公募和非公募基金会综合数据库，含组织简介、登记信息及治理结构",
+      "年度财务披露，包括收入、支出、资产和项目支出比例",
+      "基金会透明指数（FTI）评级及年度基金会透明度报告",
+      "捐赠人及捐赠记录，包括重大捐赠、企业捐赠和个人慈善数据",
+      "按领域（教育、扶贫、医疗、环保、救灾等）分类的项目和资助数据",
+      "基金会披露的年度报告、审计报告及关键文件",
+      "基金会行业分析：总资产、总支出、增长趋势、地区分布",
+      "慈善趋势报告，包括《中国基金会行业发展报告》",
+      "基金会行业的薪酬、人员及人力资源统计",
+      "基金会合作、项目协作及国际交流数据"
+    ]
+  }
+}
