@@ -1,0 +1,59 @@
+{
+  "id": "china-ckcest",
+  "name": {
+    "en": "China Knowledge Centre for Engineering Sciences and Technology",
+    "zh": "中国工程科技知识中心"
+  },
+  "description": {
+    "en": "China Knowledge Centre for Engineering Sciences and Technology (CKCEST) is the national strategic knowledge service infrastructure for engineering sciences and technology, jointly launched by the Chinese Academy of Engineering (CAE) and approved by the State Council in 2012. Supported by the Ministry of Finance and the Ministry of Science and Technology, CKCEST brings together authoritative domain data from across China's engineering disciplines, providing an integrated platform for information aggregation, data mining, and knowledge services. The Centre operates dozens of specialized domain knowledge service systems covering agriculture, medicine and health, energy, transportation, materials, manufacturing, information technology, environment and resources, marine engineering, rail transit, Traditional Chinese Medicine, and more. CKCEST aggregates peer-reviewed literature, patents, standards, expert profiles, engineering projects, scientific data, and domain-specific datasets. It serves as an authoritative knowledge service backbone for engineering researchers, policymakers, enterprises, and the public across China.",
+    "zh": "中国工程科技知识中心（CKCEST）是经国务院批准、由中国工程院牵头于2012年启动建设的国家工程科技领域战略性知识服务基础设施，由财政部和科技部共同支持。中心汇聚中国工程科技各学科领域权威数据，提供信息汇聚、数据挖掘和知识服务一体化平台。中心下设数十个专业领域知识服务系统，覆盖农业、医药卫生、能源、交通、材料、制造、信息技术、环境与资源、海洋工程、轨道交通、中医药等工程科技各领域。知识中心汇集同行评议文献、专利、标准、专家库、重大工程、科学数据和领域专题数据集，是中国工程科技研究者、政策制定者、企业和公众的权威知识服务平台，也是中国工程院工程科技决策咨询的重要支撑。"
+  },
+  "website": "http://www.ckcest.cn",
+  "data_url": "http://www.ckcest.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "engineering",
+    "scientific-data",
+    "technology",
+    "knowledge-service"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "china",
+    "ckcest",
+    "engineering-sciences",
+    "cae",
+    "chinese-academy-of-engineering",
+    "knowledge-service",
+    "scientific-data",
+    "patents",
+    "standards",
+    "literature",
+    "工程科技",
+    "中国工程院",
+    "知识服务",
+    "科学数据",
+    "专家库"
+  ],
+  "data_content": {
+    "en": [
+      "Domain Knowledge Service Systems - Specialized platforms for agriculture, medicine, energy, transportation, materials, manufacturing, IT, environment, marine, rail transit, and Traditional Chinese Medicine",
+      "Engineering Literature and Patents - Peer-reviewed journal articles, conference papers, technical reports, and invention patents in engineering sciences",
+      "Standards and Technical Specifications - National, industry, and international standards catalogs relevant to engineering disciplines",
+      "Expert Directory - Profiles of Chinese Academy of Engineering academicians, senior engineers, and leading researchers with publication and project records",
+      "Major Engineering Projects - Databases of landmark national engineering projects, R&D achievements, and infrastructure milestones",
+      "Scientific Datasets - Discipline-specific data including agricultural production, clinical trials, energy statistics, materials properties, and engineering test data"
+    ],
+    "zh": [
+      "领域知识服务系统 - 农业、医药、能源、交通、材料、制造、信息、环境、海洋、轨道交通、中医药等专业领域平台",
+      "工程文献与专利 - 工程科技领域同行评议期刊论文、会议论文、技术报告、发明专利",
+      "标准与技术规范 - 国家标准、行业标准、国际标准目录，覆盖工程科技各学科",
+      "专家库 - 中国工程院院士、资深工程师和领军研究人员简历及论著项目档案",
+      "重大工程项目 - 国家重大工程、科研成果、基础设施里程碑数据库",
+      "科学数据集 - 农业生产、临床试验、能源统计、材料性能、工程试验等学科数据"
+    ]
+  }
+}

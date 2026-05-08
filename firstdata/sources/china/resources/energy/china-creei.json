@@ -1,0 +1,59 @@
+{
+  "id": "china-creei",
+  "name": {
+    "en": "China Renewable Energy Engineering Institute",
+    "zh": "水电水利规划设计总院"
+  },
+  "description": {
+    "en": "China Renewable Energy Engineering Institute (CREEI), formally known as the General Institute of Hydropower and Water Resources Planning and Design, is the national authoritative technical support organization for China's renewable energy and hydropower sector under the administration of PowerChina and the National Energy Administration. Established in 1950 and headquartered in Beijing, CREEI serves as the apex planning, design consulting, and technical standards body for China's hydropower, wind power, solar power, pumped storage, and energy storage industries. The institute publishes the highly authoritative annual China Renewable Energy Development Report (中国可再生能源发展报告), China Hydropower Engineering Yearbook, and hydropower resources surveys that inform national energy policy and investment planning. CREEI's datasets cover installed capacity, generation output, project pipelines, technical economic indicators, river basin planning, and carbon reduction metrics for all renewable energy categories, serving as the definitive national data source for renewable energy researchers, policymakers, and industry professionals.",
+    "zh": "水电水利规划设计总院（CREEI，中国可再生能源工程研究院）是国家能源局和中国电建集团管理下的全国性水电水利和可再生能源行业权威技术支持机构，成立于1950年，总部设在北京。作为中国水电、风电、太阳能发电、抽水蓄能、储能等可再生能源产业的顶层规划、设计咨询与技术标准权威机构，总院承担全国水电水利规划、流域综合规划、重大工程技术论证、行业技术标准制修订等国家性任务。每年发布权威《中国可再生能源发展报告》、《中国水电工程年鉴》、全国水能资源调查评价成果等，为国家能源政策制定和投资规划提供技术支撑。总院数据库涵盖全国装机容量、发电量、在建与储备项目、技术经济指标、流域规划、碳减排指标等可再生能源各类别数据，是可再生能源研究者、决策者和行业专业人士不可或缺的权威数据源。"
+  },
+  "website": "http://www.creei.cn",
+  "data_url": "http://www.creei.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "renewable-energy",
+    "hydropower",
+    "water-resources"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "creei",
+    "hydropower",
+    "renewable-energy",
+    "wind-power",
+    "solar-power",
+    "pumped-storage",
+    "energy-storage",
+    "water-resources",
+    "powerchina",
+    "可再生能源",
+    "水电",
+    "风电",
+    "光伏",
+    "抽水蓄能"
+  ],
+  "data_content": {
+    "en": [
+      "Renewable Energy Development Reports - Annual national assessment of renewable energy capacity, generation, investment, policy trends, and outlook",
+      "Hydropower Engineering Data - Yearbook of China hydropower projects, installed capacity, generation statistics, technical specifications, and river basin planning",
+      "Wind and Solar Resources - National wind and solar resource assessment, project development databases, capacity factors, and geographic distribution data",
+      "Pumped Storage and Energy Storage - Project pipelines, technical economic indicators, operational data for pumped hydro and grid-scale storage",
+      "Technical Standards and Guidelines - National technical standards for renewable energy planning, design, construction, and operation",
+      "Carbon Reduction Data - Renewable energy contribution to emissions reduction, green power trading, and carbon market data"
+    ],
+    "zh": [
+      "可再生能源发展报告 - 年度全国可再生能源装机、发电量、投资、政策趋势与前景评估",
+      "水电工程数据 - 《中国水电工程年鉴》、装机容量、发电量统计、技术参数、流域规划数据",
+      "风能太阳能资源 - 全国风能太阳能资源评估、项目开发数据库、利用小时数、地理分布数据",
+      "抽水蓄能与储能 - 项目储备、技术经济指标、抽蓄电站和电网侧储能运行数据",
+      "技术标准与规程 - 可再生能源规划、设计、施工、运行等国家级技术标准体系",
+      "碳减排数据 - 可再生能源减排贡献、绿电交易、碳市场相关数据"
+    ]
+  }
+}
