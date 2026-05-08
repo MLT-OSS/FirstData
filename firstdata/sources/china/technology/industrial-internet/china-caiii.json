@@ -1,0 +1,61 @@
+{
+  "id": "china-caiii",
+  "name": {
+    "en": "China Academy of Industrial Internet",
+    "zh": "中国工业互联网研究院"
+  },
+  "description": {
+    "en": "The China Academy of Industrial Internet (CAIII) is a national-level research institution established by the Ministry of Industry and Information Technology (MIIT) and the State-owned Assets Supervision and Administration Commission (SASAC). It focuses on industrial internet standards, security, identification resolution, and industry development. CAIII publishes authoritative research reports, white papers, and statistics on China's industrial internet ecosystem, including platform coverage, connected devices, enterprise adoption rates, and security incidents. Its annual Industrial Internet Development Report and industry surveys provide benchmark data for China's smart manufacturing and digital transformation landscape.",
+    "zh": "中国工业互联网研究院（工业互联网研究院）是工业和信息化部与国务院国有资产监督管理委员会共同设立的国家级研究机构，专注于工业互联网标准、安全、标识解析体系及产业发展研究。研究院发布权威研究报告、白皮书及统计数据，内容涵盖中国工业互联网平台覆盖情况、联网设备数量、企业应用率及安全事件等。每年发布的《工业互联网发展报告》及行业调研报告，为中国智能制造与数字化转型提供基准数据。"
+  },
+  "website": "https://www.china-aii.com",
+  "data_url": "https://www.china-aii.com",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "digital-economy",
+    "cybersecurity"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "工业互联网",
+    "industrial-internet",
+    "caiii",
+    "智能制造",
+    "smart-manufacturing",
+    "数字化转型",
+    "digital-transformation",
+    "工业互联网平台",
+    "industrial-internet-platform",
+    "标识解析",
+    "identifier-resolution",
+    "工业安全",
+    "industrial-security",
+    "工业互联网发展报告",
+    "industrial-internet-development-report"
+  ],
+  "data_content": {
+    "en": [
+      "Industrial Internet Development Report: annual comprehensive report on China's industrial internet ecosystem scale, development trends, and key metrics",
+      "Platform statistics: number and coverage of industrial internet platforms, enterprise adoption rates, and key application scenarios",
+      "Identifier resolution: data on the national industrial internet identifier resolution system, connected nodes, and registered enterprises",
+      "Security monitoring: statistics on industrial control system vulnerabilities, cybersecurity incidents in manufacturing, and threat intelligence",
+      "Industry benchmarks: adoption rates of industrial internet across sectors including steel, chemicals, electronics, and textile manufacturing",
+      "Standards and whitepapers: technical standards, architecture guidelines, and policy research on industrial internet development",
+      "Regional distribution: deployment and adoption of industrial internet platforms by province and major industrial cluster"
+    ],
+    "zh": [
+      "工业互联网发展报告：每年发布的中国工业互联网生态系统规模、发展趋势及关键指标综合报告",
+      "平台统计：工业互联网平台数量及覆盖情况、企业应用率及典型应用场景",
+      "标识解析：国家工业互联网标识解析体系的节点、接入企业及解析量统计",
+      "安全监测：工业控制系统漏洞、制造业网络安全事件及威胁情报统计",
+      "行业基准：钢铁、化工、电子、纺织等行业工业互联网应用渗透率",
+      "标准与白皮书：工业互联网发展的技术标准、体系架构指南及政策研究",
+      "区域分布：工业互联网平台在各省份及主要产业集群的部署与应用情况"
+    ]
+  }
+}

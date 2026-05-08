@@ -1,0 +1,62 @@
+{
+  "id": "china-cadpa",
+  "name": {
+    "en": "China Audio-Video and Digital Publishing Association",
+    "zh": "中国音像与数字出版协会"
+  },
+  "description": {
+    "en": "The China Audio-Video and Digital Publishing Association (CADPA) is the national industry association for China's audio-visual and digital publishing sectors, supervised by the National Press and Publication Administration. CADPA represents publishers, distributors, streaming platforms, and digital content providers. It publishes authoritative annual reports and statistical data on China's digital publishing industry, including online games, e-books, digital newspapers, mobile publishing, and internet-based audio-visual content. Its annual China Digital Publishing Industry Report is the benchmark source for market scale, revenue, and trend data in China's digital content economy.",
+    "zh": "中国音像与数字出版协会（简称音数协）是国家新闻出版总署主管的全国性行业协会，代表出版商、发行商、流媒体平台及数字内容提供商。协会发布中国数字出版行业权威年报及统计数据，涵盖网络游戏、电子书、数字报纸、移动出版及网络音视频内容等领域，所发布的《中国数字出版产业年度报告》是中国数字内容经济市场规模、营收及发展趋势的权威数据来源。"
+  },
+  "website": "https://www.cadpa.org.cn",
+  "data_url": "https://www.cadpa.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "culture",
+    "technology",
+    "digital-economy",
+    "media"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国音像与数字出版协会",
+    "cadpa",
+    "数字出版",
+    "digital-publishing",
+    "网络游戏",
+    "online-games",
+    "电子书",
+    "e-books",
+    "数字内容",
+    "digital-content",
+    "移动出版",
+    "mobile-publishing",
+    "网络音视频",
+    "online-audio-video",
+    "数字出版产业",
+    "digital-publishing-industry"
+  ],
+  "data_content": {
+    "en": [
+      "China Digital Publishing Industry Report: annual market scale report covering revenue, user numbers, and growth trends across digital publishing segments",
+      "Online games statistics: market size, player counts, revenue breakdown by genre and platform for China's gaming industry",
+      "E-book and digital reading: readership data, platform statistics, and revenue for digital book publishing in China",
+      "Mobile publishing: app-based reading, audio content, and short-form video publishing market data",
+      "Internet audio-visual: streaming platform statistics, content volumes, and subscription data for music and video services",
+      "Digital newspaper and periodicals: online readership and revenue for digital versions of newspapers and magazines",
+      "Audio publishing: digital audiobook market scale, production volumes, and platform data in China"
+    ],
+    "zh": [
+      "中国数字出版产业年度报告：涵盖各数字出版细分领域营收、用户数及增长趋势的年度市场规模报告",
+      "网络游戏统计：中国游戏行业市场规模、玩家数量及按品类和平台划分的营收数据",
+      "电子书与数字阅读：中国数字图书出版的读者数据、平台统计及营收数据",
+      "移动出版：基于应用程序的阅读、有声内容及短视频出版市场数据",
+      "网络音视频：流媒体平台统计、内容体量及音乐、视频服务订阅数据",
+      "数字报刊：报纸和杂志数字版的在线阅读量及营收",
+      "有声出版：中国数字有声书市场规模、制作数量及平台数据"
+    ]
+  }
+}

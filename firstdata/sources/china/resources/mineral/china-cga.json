@@ -1,0 +1,61 @@
+{
+  "id": "china-cga",
+  "name": {
+    "en": "China Gold Association",
+    "zh": "中国黄金协会"
+  },
+  "description": {
+    "en": "The China Gold Association (CGA) is the national industry association for China's gold sector, representing gold mining companies, refiners, processors, and traders. As the official industry body under the World Gold Council's Chinese partner framework and supervised by the Ministry of Industry and Information Technology, CGA publishes authoritative statistics on gold production, consumption, imports and exports, and market pricing. It releases monthly and annual gold industry reports, making it the primary source for data on China's position as the world's largest gold producer and consumer.",
+    "zh": "中国黄金协会（简称中金协）是中国黄金行业的全国性行业协会，代表黄金开采、冶炼、加工和贸易企业。受工业和信息化部主管，中金协发布关于中国黄金产量、消费量、进出口及市场价格的权威统计数据，定期发布月度和年度黄金行业报告，是了解中国作为全球最大黄金生产国和消费国相关数据的主要来源。"
+  },
+  "website": "https://www.cngold.org.cn",
+  "data_url": "https://www.cngold.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "commodities",
+    "minerals",
+    "economics",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国黄金协会",
+    "china-gold-association",
+    "cga",
+    "黄金产量",
+    "gold-production",
+    "黄金消费",
+    "gold-consumption",
+    "黄金进出口",
+    "gold-trade",
+    "贵金属",
+    "precious-metals",
+    "黄金价格",
+    "gold-price",
+    "黄金行业统计",
+    "gold-industry-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Gold production: monthly and annual statistics on raw gold output by major mining regions and enterprises in China",
+      "Gold consumption: domestic demand data including jewelry, investment gold, industrial use, and central bank purchases",
+      "Gold imports and exports: trade flow data for gold bullion, coins, and semi-manufactured products",
+      "Market price monitoring: domestic gold price indices and comparisons with international benchmarks (LBMA, SHGEX)",
+      "Industry enterprise data: key operating statistics for major gold mining and processing companies in China",
+      "Annual Gold Industry Report: comprehensive annual review of China's gold industry development",
+      "Investment and exploration: data on gold mine exploration investment, new discoveries, and reserves"
+    ],
+    "zh": [
+      "黄金产量：中国主要黄金产区及企业的月度和年度原料黄金产量统计",
+      "黄金消费：涵盖首饰、投资金、工业用金及央行购金等国内消费需求数据",
+      "黄金进出口：黄金金条、金币及半成品进出口贸易数据",
+      "市场价格监测：国内黄金价格指数及与国际基准（LBMA、上金所）的比较",
+      "行业企业数据：国内主要黄金开采和加工企业的关键经营统计指标",
+      "年度黄金行业报告：中国黄金行业年度发展综合回顾",
+      "投资与勘探：黄金矿山勘探投资、新发现及储量数据"
+    ]
+  }
+}
