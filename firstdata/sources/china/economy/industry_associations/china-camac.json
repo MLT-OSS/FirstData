@@ -1,0 +1,59 @@
+{
+  "id": "china-camac",
+  "name": {
+    "en": "China Aviation Maintenance Association",
+    "zh": "中国民用航空维修协会"
+  },
+  "description": {
+    "en": "China Aviation Maintenance Association (CAMAC) is the national non-profit industry association for civil aviation maintenance, repair, and overhaul (MRO) in China, established in 1989 under the Civil Aviation Administration of China (CAAC). Headquartered in Beijing, CAMAC represents aircraft maintenance organizations, airlines' engineering divisions, aviation parts manufacturers, and training institutions across the country. The association publishes the authoritative China Civil Aviation Maintenance Industry Development Report (中国民用航空维修行业发展报告), compiles industry statistics on MRO workforce size, revenue, fleet maintenance volumes, parts distribution, aviation repair capacity certifications, and workforce training metrics. CAMAC serves as a critical data source for tracking the rapid growth of China's civil aviation industry, which has become one of the world's largest, with datasets used by regulators, airlines, MRO providers, and equipment suppliers for market analysis, investment decisions, and capacity planning.",
+    "zh": "中国民用航空维修协会（CAMAC）成立于1989年，是中国民航局（CAAC）主管下的全国性非营利民航维修行业协会。总部设在北京，会员涵盖全国航空维修企业、航空公司工程部门、航空器材制造商、维修培训机构等。协会发布权威的《中国民用航空维修行业发展报告》，汇编民航维修行业统计数据，涵盖维修人员规模、行业营收、机队维修量、航材供应、维修资质认证、人员培训等核心指标。作为中国民航业快速发展（已成为全球最大民航市场之一）的重要数据源，协会数据服务于民航监管部门、航空公司、MRO 服务商和航空器材供应商，在市场分析、投资决策和产能规划中发挥关键作用。协会还承担行业自律、标准制订、技术交流、国际合作等职能，组织年度中国民航维修峰会等行业盛会。"
+  },
+  "website": "http://www.camac.org.cn",
+  "data_url": "http://www.camac.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "aviation",
+    "transportation",
+    "industry",
+    "maintenance"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "camac",
+    "aviation",
+    "aircraft-maintenance",
+    "mro",
+    "civil-aviation",
+    "caac",
+    "aerospace",
+    "industry-association",
+    "民航维修",
+    "航空维修",
+    "航空器材",
+    "民航",
+    "MRO",
+    "行业协会"
+  ],
+  "data_content": {
+    "en": [
+      "Industry Development Reports - Annual China Civil Aviation Maintenance Industry Development Report with comprehensive sector statistics and trends",
+      "MRO Market Data - Revenue, workforce size, fleet maintenance volumes, parts distribution, and service capacity across domestic maintenance organizations",
+      "Certification Statistics - Aviation repair capacity certifications (CCAR-145, CCAR-147), qualified technician counts, and training institution rankings",
+      "Fleet Maintenance Data - Maintenance scheduling, overhaul cycles, component repair volumes for China's commercial aircraft fleet",
+      "Training and Workforce - Aviation maintenance technician training programs, licensing statistics, talent supply and demand analyses",
+      "International Cooperation - Cross-border MRO partnerships, parts import/export data, Chinese maintenance firms' overseas operations"
+    ],
+    "zh": [
+      "行业发展报告 - 年度《中国民用航空维修行业发展报告》，包含全面行业统计和趋势分析",
+      "MRO市场数据 - 全国维修企业营收、从业人员规模、机队维修量、航材供应、服务能力数据",
+      "资质认证统计 - 航空维修资质认证（CCAR-145、CCAR-147）、持证技术人员数量、培训机构排名",
+      "机队维修数据 - 中国民航商用飞机机队维修计划、大修周期、部件修理量数据",
+      "培训与人才 - 航空维修技术人员培训项目、执照统计、人才供需分析",
+      "国际合作 - 跨境 MRO 合作、航材进出口数据、中国维修企业海外业务数据"
+    ]
+  }
+}

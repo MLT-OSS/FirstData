@@ -1,0 +1,59 @@
+{
+  "id": "china-chinaports",
+  "name": {
+    "en": "China Ports and Harbours Association",
+    "zh": "中国港口协会"
+  },
+  "description": {
+    "en": "China Ports and Harbours Association (CPHA) is the national industry association for Chinese port enterprises, established in 1987 and directly supervised by the Ministry of Transport of China. Headquartered in Beijing, CPHA represents all major coastal and inland river ports across the country, including Shanghai, Ningbo-Zhoushan, Shenzhen, Guangzhou, Qingdao, Tianjin, and Dalian—several of which rank among the world's busiest ports by cargo throughput and container handling. CPHA releases comprehensive monthly and annual statistical reports on port cargo throughput, container throughput (TEUs), vessel calls, berthing capacity, port infrastructure investment, and port worker employment data. The association also publishes the authoritative annual China Ports Yearbook (中国港口年鉴) and develops national standards for port operations, safety, green port development, and intelligent port automation. CPHA data is essential for tracking China's foreign trade activity, shipping industry performance, and supply chain logistics trends.",
+    "zh": "中国港口协会（CPHA）是中华人民共和国交通运输部主管的全国性港口行业协会，成立于1987年，总部设在北京。协会会员涵盖全国沿海和内河主要港口企业，包括上海港、宁波舟山港、深圳港、广州港、青岛港、天津港、大连港等——多个港口按货物吞吐量和集装箱吞吐量均居世界前列。协会每月和年度发布权威的港口吞吐量、集装箱吞吐量（TEU）、船舶靠泊、泊位产能、港口基础设施投资、港口从业人员等综合统计数据。同时编辑出版权威《中国港口年鉴》，制定港口作业、安全、绿色港口、智慧港口等国家与行业标准。协会数据是追踪中国外贸活动、航运业绩和供应链物流动态的重要依据，是港口企业、航运公司、贸易商、监管部门、研究机构和投资者的核心数据源。"
+  },
+  "website": "http://www.chinaports.org",
+  "data_url": "http://www.chinaports.org",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "transportation",
+    "maritime",
+    "logistics",
+    "infrastructure"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "cpha",
+    "ports",
+    "harbours",
+    "maritime",
+    "shipping",
+    "logistics",
+    "cargo-throughput",
+    "container-throughput",
+    "ministry-of-transport",
+    "港口",
+    "集装箱",
+    "吞吐量",
+    "航运",
+    "交通运输部"
+  ],
+  "data_content": {
+    "en": [
+      "Port Throughput Statistics - Monthly and annual cargo throughput data for all major Chinese ports by commodity type and geographic region",
+      "Container Throughput - TEU (Twenty-foot Equivalent Unit) statistics for coastal and inland ports, ranking global top container ports",
+      "Vessel and Berth Data - Vessel call counts, vessel size distribution, berthing capacity, dock length, and deep-water berth inventory",
+      "Port Infrastructure - Investment data, expansion projects, automation and intelligent port development, green port initiatives",
+      "China Ports Yearbook - Annual comprehensive reference publication covering each member port's operations, investments, and strategic plans",
+      "Industry Standards - National standards for port operations, safety management, environmental protection, and smart port technology"
+    ],
+    "zh": [
+      "港口吞吐量统计 - 全国主要港口月度和年度货物吞吐量数据，按货种和地区划分",
+      "集装箱吞吐量 - 沿海和内河港口 TEU（标准箱）统计，全球集装箱港口排名",
+      "船舶与泊位数据 - 船舶靠泊次数、船型分布、泊位产能、码头岸线、深水泊位数量",
+      "港口基础设施 - 投资数据、扩建工程、自动化与智慧港口发展、绿色港口建设",
+      "中国港口年鉴 - 年度权威出版物，涵盖各会员港口的运营、投资和战略规划",
+      "行业标准 - 港口作业、安全管理、环境保护、智慧港口技术的国家和行业标准体系"
+    ]
+  }
+}
