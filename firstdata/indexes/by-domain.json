@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T02:31:04.490616+00:00",
-    "total_domains": 738,
-    "total_sources": 708,
+    "generated_at": "2026-05-08T03:38:04.611041+00:00",
+    "total_domains": 744,
+    "total_sources": 713,
     "version": "2.0"
   },
   "domains": {
@@ -2679,6 +2679,18 @@
         "has_api": true,
         "file_path": "academic/biology/pdb.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-nmdc",
+        "name": {
+          "en": "National Microbiology Data Center",
+          "zh": "国家微生物科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://nmdc.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nmdc.json",
+        "geographic_scope": "national"
       },
       {
         "id": "derwent-innovation-index",
@@ -5555,6 +5567,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-capa",
+        "name": {
+          "en": "China Association of Performing Arts",
+          "zh": "中国演出行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.capa.com.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-capa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cflac",
         "name": {
           "en": "China Federation of Literary and Art Circles",
@@ -5745,6 +5769,18 @@
         "has_api": false,
         "file_path": "china/technology/industrial-internet/china-caiii.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-cia-cybersecurity",
+        "name": {
+          "en": "China Cybersecurity Industry Alliance",
+          "zh": "中国网络安全产业联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-cia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json",
+        "geographic_scope": "national"
       }
     ],
     "data-governance": [
@@ -5798,6 +5834,18 @@
         "data_url": "https://www.tc260.org.cn/",
         "has_api": false,
         "file_path": "china/technology/china-tc260.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cia-cybersecurity",
+        "name": {
+          "en": "China Cybersecurity Industry Alliance",
+          "zh": "中国网络安全产业联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-cia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json",
         "geographic_scope": "national"
       }
     ],
@@ -7563,6 +7611,18 @@
         "data_url": "https://www.china-aii.com",
         "has_api": false,
         "file_path": "china/technology/industrial-internet/china-caiii.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cia-cybersecurity",
+        "name": {
+          "en": "China Cybersecurity Industry Alliance",
+          "zh": "中国网络安全产业联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-cia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json",
         "geographic_scope": "national"
       },
       {
@@ -13699,6 +13759,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cgn",
+        "name": {
+          "en": "China General Nuclear Power Corporation",
+          "zh": "中国广核集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cgnpc.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-cgn.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-chinacoal",
         "name": {
           "en": "China National Coal Group Corporation",
@@ -14426,6 +14498,34 @@
         "geographic_scope": "global"
       }
     ],
+    "enterprise-management": [
+      {
+        "id": "china-cpema",
+        "name": {
+          "en": "China Pharmaceutical Enterprise Management Association",
+          "zh": "中国医药企业管理协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cpema.org",
+        "has_api": false,
+        "file_path": "china/health/china-cpema.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "entertainment": [
+      {
+        "id": "china-capa",
+        "name": {
+          "en": "China Association of Performing Arts",
+          "zh": "中国演出行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.capa.com.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-capa.json",
+        "geographic_scope": "national"
+      }
+    ],
     "environment": [
       {
         "id": "copernicus-open-access-hub",
@@ -14821,6 +14921,18 @@
         "data_url": "https://www.ctg.com.cn",
         "has_api": false,
         "file_path": "china/resources/china-ctg.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cgn",
+        "name": {
+          "en": "China General Nuclear Power Corporation",
+          "zh": "中国广核集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cgnpc.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-cgn.json",
         "geographic_scope": "national"
       },
       {
@@ -21647,6 +21759,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-cpema",
+        "name": {
+          "en": "China Pharmaceutical Enterprise Management Association",
+          "zh": "中国医药企业管理协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cpema.org",
+        "has_api": false,
+        "file_path": "china/health/china-cpema.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-hospital-association",
         "name": {
           "en": "Chinese Hospital Association",
@@ -23816,6 +23940,30 @@
     ],
     "industry-statistics": [
       {
+        "id": "china-capa",
+        "name": {
+          "en": "China Association of Performing Arts",
+          "zh": "中国演出行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.capa.com.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-capa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cpema",
+        "name": {
+          "en": "China Pharmaceutical Enterprise Management Association",
+          "zh": "中国医药企业管理协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cpema.org",
+        "has_api": false,
+        "file_path": "china/health/china-cpema.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-bls",
         "name": {
           "en": "Bureau of Labor Statistics",
@@ -23999,6 +24147,18 @@
       }
     ],
     "information-technology": [
+      {
+        "id": "china-cia-cybersecurity",
+        "name": {
+          "en": "China Cybersecurity Industry Alliance",
+          "zh": "中国网络安全产业联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-cia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-ciia",
         "name": {
@@ -26287,6 +26447,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-nmdc",
+        "name": {
+          "en": "National Microbiology Data Center",
+          "zh": "国家微生物科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://nmdc.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nmdc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "aws-open-data-registry",
         "name": {
           "en": "Registry of Open Data on AWS",
@@ -27711,6 +27883,20 @@
         "geographic_scope": "global"
       }
     ],
+    "microbiology": [
+      {
+        "id": "china-nmdc",
+        "name": {
+          "en": "National Microbiology Data Center",
+          "zh": "国家微生物科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://nmdc.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nmdc.json",
+        "geographic_scope": "national"
+      }
+    ],
     "migration": [
       {
         "id": "china-mps",
@@ -28517,6 +28703,18 @@
     ],
     "nuclear-power": [
       {
+        "id": "china-cgn",
+        "name": {
+          "en": "China General Nuclear Power Corporation",
+          "zh": "中国广核集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cgnpc.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-cgn.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "iaea-energy-data",
         "name": {
           "en": "IAEA Energy Data",
@@ -29047,6 +29245,20 @@
         "geographic_scope": "national"
       }
     ],
+    "performing-arts": [
+      {
+        "id": "china-capa",
+        "name": {
+          "en": "China Association of Performing Arts",
+          "zh": "中国演出行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.capa.com.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-capa.json",
+        "geographic_scope": "national"
+      }
+    ],
     "personal-income": [
       {
         "id": "us-bea",
@@ -29164,6 +29376,20 @@
         "data_url": "http://www.cpcif.org.cn/list/402882396610575f0166105924fe0000",
         "has_api": false,
         "file_path": "sectors/C-manufacturing/chemicals/china-petroleum-chemical-federation.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "pharmaceutical": [
+      {
+        "id": "china-cpema",
+        "name": {
+          "en": "China Pharmaceutical Enterprise Management Association",
+          "zh": "中国医药企业管理协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cpema.org",
+        "has_api": false,
+        "file_path": "china/health/china-cpema.json",
         "geographic_scope": "national"
       }
     ],
@@ -31405,6 +31631,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cgn",
+        "name": {
+          "en": "China General Nuclear Power Corporation",
+          "zh": "中国广核集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cgnpc.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-cgn.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "canada-cer",
         "name": {
           "en": "Canada Energy Regulator",
@@ -32785,6 +33023,20 @@
         "data_url": "http://www.casted.org.cn/channel/",
         "has_api": false,
         "file_path": "china/research/china-casted.json",
+        "geographic_scope": "national"
+      }
+    ],
+    "scientific-data": [
+      {
+        "id": "china-nmdc",
+        "name": {
+          "en": "National Microbiology Data Center",
+          "zh": "国家微生物科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://nmdc.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nmdc.json",
         "geographic_scope": "national"
       }
     ],

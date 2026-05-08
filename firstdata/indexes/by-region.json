@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T02:31:04.490616+00:00",
+    "generated_at": "2026-05-08T03:38:04.611041+00:00",
     "total_regions": 58,
-    "total_sources": 708,
+    "total_sources": 713,
     "version": "2.0"
   },
   "regions": {
@@ -2835,6 +2835,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-capa",
+        "name": {
+          "en": "China Association of Performing Arts",
+          "zh": "中国演出行业协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.capa.com.cn",
+        "has_api": false,
+        "file_path": "china/governance/culture/china-capa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cflac",
         "name": {
           "en": "China Federation of Literary and Art Circles",
@@ -3012,6 +3024,18 @@
         "data_url": "https://www.cpdrc.org.cn/sjzw/",
         "has_api": false,
         "file_path": "china/health/china-cpdrc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cpema",
+        "name": {
+          "en": "China Pharmaceutical Enterprise Management Association",
+          "zh": "中国医药企业管理协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cpema.org",
+        "has_api": false,
+        "file_path": "china/health/china-cpema.json",
         "geographic_scope": "national"
       },
       {
@@ -4039,6 +4063,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nmdc",
+        "name": {
+          "en": "National Microbiology Data Center",
+          "zh": "国家微生物科学数据中心"
+        },
+        "authority_level": "research",
+        "data_url": "https://nmdc.cn",
+        "has_api": false,
+        "file_path": "china/research/china-nmdc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-nsfc",
         "name": {
           "en": "National Natural Science Foundation of China",
@@ -4384,6 +4420,18 @@
         "data_url": "http://www.sinopecgroup.com/group/xhtml/shzr/",
         "has_api": false,
         "file_path": "china/resources/china-sinopec.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cgn",
+        "name": {
+          "en": "China General Nuclear Power Corporation",
+          "zh": "中国广核集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cgnpc.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-cgn.json",
         "geographic_scope": "national"
       },
       {
@@ -5092,6 +5140,18 @@
         "data_url": "https://www.ces.org.cn",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-ces.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cia-cybersecurity",
+        "name": {
+          "en": "China Cybersecurity Industry Alliance",
+          "zh": "中国网络安全产业联盟"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.china-cia.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json",
         "geographic_scope": "national"
       },
       {

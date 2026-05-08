@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T02:31:04.490616+00:00",
-    "total_sources": 708,
+    "generated_at": "2026-05-08T03:38:04.611041+00:00",
+    "total_sources": 713,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -16677,6 +16677,66 @@
       "file_path": "china/governance/china-wenshu.json"
     },
     {
+      "id": "china-capa",
+      "name": {
+        "en": "China Association of Performing Arts",
+        "zh": "中国演出行业协会"
+      },
+      "description": {
+        "en": "The China Association of Performing Arts (CAPA) is the only national non-profit industry association in China's performing arts sector, approved by the Ministry of Culture and Tourism and registered with the Ministry of Civil Affairs. Founded in 1988 and headquartered in Beijing, CAPA represents theatres, performance troupes, ticketing platforms, live entertainment companies, artist agencies, concert promoters, and cultural venues across China. The association serves as the primary authority for industry self-regulation, standards development, policy research, and market statistics in China's live entertainment industry. CAPA publishes quarterly and annual market reports covering box office revenue, ticket sales, concert and theatre attendance, venue occupancy rates, touring performance data, livestream performance markets, regional market analysis, and industry employment. Its data is widely used by regulators, promoters, investors, and researchers tracking China's rapidly growing live entertainment market, cultural consumption patterns, and post-pandemic recovery dynamics.",
+        "zh": "中国演出行业协会（CAPA）是经文化和旅游部批准、民政部登记注册的全国性非营利行业组织，也是中国演出行业唯一的全国性行业协会。协会成立于1988年，总部设在北京，会员涵盖剧院、演出团体、票务平台、现场娱乐公司、演出经纪机构、演唱会主办方和文化场馆。协会是中国现场娱乐行业自律、标准制定、政策研究和市场统计的权威机构。协会定期发布季度和年度市场报告，涵盖票房收入、票务销售、演唱会和剧场上座率、场馆利用率、巡演数据、网络演艺市场、区域市场分析和行业就业情况。协会数据被监管部门、演出公司、投资者和研究人员广泛用于追踪中国快速增长的现场娱乐市场、文化消费模式以及疫情后行业复苏动态。"
+      },
+      "website": "https://www.capa.com.cn",
+      "data_url": "https://www.capa.com.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "culture",
+        "performing-arts",
+        "entertainment",
+        "industry-statistics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "china",
+        "capa",
+        "performing-arts",
+        "live-entertainment",
+        "concerts",
+        "theatre",
+        "box-office",
+        "cultural-industry",
+        "演出行业",
+        "现场娱乐",
+        "票房",
+        "演唱会",
+        "剧场",
+        "文化产业"
+      ],
+      "data_content": {
+        "en": [
+          "Box Office & Ticket Sales - Quarterly and annual revenue, average ticket prices, and ticket volume across performance categories",
+          "Performance Attendance - Concert, theatre, musical, and live music attendance data with regional and venue-level breakdowns",
+          "Market Segmentation - Market size by genre (concerts, drama, musicals, traditional opera, cross-genre), venue type, and city tier",
+          "Touring Performance Data - Multi-city tour statistics, international artist tours in China, and domestic touring productions",
+          "Online Performance Market - Livestream concerts, virtual performances, and digital ticketing channel data",
+          "Industry Reports - Annual reports, regulatory developments, industry self-discipline standards, and recovery indicators"
+        ],
+        "zh": [
+          "票房与票务销售 - 各演出类别季度和年度收入、平均票价和票量数据",
+          "观演人次 - 演唱会、剧场、音乐剧和现场音乐观演数据，按地区和场馆细分",
+          "市场细分 - 按演出类型（演唱会、话剧、音乐剧、传统戏曲、跨界）、场馆类型和城市层级划分的市场规模",
+          "巡演数据 - 多城市巡演统计、国际艺人在华巡演和国内巡演制作",
+          "网络演艺市场 - 直播演唱会、虚拟演出和数字票务渠道数据",
+          "行业报告 - 年度行业报告、监管动态、行业自律标准和复苏指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/culture/china-capa.json"
+    },
+    {
       "id": "china-cflac",
       "name": {
         "en": "China Federation of Literary and Art Circles",
@@ -17638,6 +17698,65 @@
       },
       "has_api": false,
       "file_path": "china/health/china-cpdrc.json"
+    },
+    {
+      "id": "china-cpema",
+      "name": {
+        "en": "China Pharmaceutical Enterprise Management Association",
+        "zh": "中国医药企业管理协会"
+      },
+      "description": {
+        "en": "The China Pharmaceutical Enterprise Management Association (CPEMA) is a national non-profit industry association composed of pharmaceutical enterprises, research institutions, and related organizations across China. Established under the supervision of relevant state regulatory authorities, CPEMA serves as a bridge between pharmaceutical enterprises and government agencies, providing industry coordination, policy research, management consultation, and professional services. The association publishes authoritative industry statistics, market analyses, and annual reports covering pharmaceutical manufacturing output, pharmaceutical R&D investment, innovative drug development, API (active pharmaceutical ingredient) production, OTC and prescription drug markets, medical device industry trends, TCM (traditional Chinese medicine) enterprises, and pharmaceutical enterprise rankings. CPEMA's publications are widely used by pharma executives, regulators, analysts, and researchers tracking China's pharmaceutical industry development, enterprise competitiveness, M&A activity, and innovation capacity.",
+        "zh": "中国医药企业管理协会（CPEMA）是由全国医药企业、科研机构和相关组织自愿组成的全国性非营利行业协会，在国家相关主管部门业务指导下开展工作。协会作为医药企业与政府部门之间的桥梁，提供行业协调、政策研究、管理咨询和专业服务。协会发布权威的行业统计数据、市场分析和年度报告，涵盖医药制造业产值、医药研发投入、创新药研发进展、原料药生产、OTC和处方药市场、医疗器械行业趋势、中药企业发展、医药企业排行榜等内容。协会出版物被医药企业管理者、监管机构、分析师和研究人员广泛用于追踪中国医药行业发展、企业竞争力、并购活动和创新能力。"
+      },
+      "website": "https://www.cpema.org",
+      "data_url": "https://www.cpema.org",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "pharmaceutical",
+        "healthcare",
+        "industry-statistics",
+        "enterprise-management"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "cpema",
+        "pharmaceutical",
+        "pharma-industry",
+        "drug-development",
+        "medical-devices",
+        "tcm",
+        "industry-association",
+        "医药企业",
+        "医药行业",
+        "创新药",
+        "中药",
+        "行业协会"
+      ],
+      "data_content": {
+        "en": [
+          "Pharmaceutical Industry Statistics - Manufacturing output, revenue, profit, and growth rates across pharmaceutical sub-sectors",
+          "Enterprise Rankings - Annual rankings of top Chinese pharmaceutical companies by revenue, R&D spending, and innovation capacity",
+          "R&D and Innovation - Innovative drug pipeline data, clinical trial activity, patent filings, and biotech development trends",
+          "Market Analysis - OTC and prescription drug market size, API production, therapeutic area performance, and regional distribution",
+          "Medical Devices - Medical device industry statistics, enterprise development, and market segments",
+          "Policy & Industry Reports - Annual industry reports, policy analysis, regulatory impact assessments, and international comparisons"
+        ],
+        "zh": [
+          "医药行业统计 - 各医药子行业的制造业产值、营业收入、利润和增长率数据",
+          "企业排行榜 - 中国医药企业年度排行榜，按营收、研发投入和创新能力排序",
+          "研发与创新 - 创新药研发管线数据、临床试验活跃度、专利申请和生物技术发展趋势",
+          "市场分析 - OTC和处方药市场规模、原料药生产、治疗领域表现和区域分布",
+          "医疗器械 - 医疗器械行业统计、企业发展和市场细分数据",
+          "政策与行业报告 - 年度行业报告、政策分析、监管影响评估和国际对比"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cpema.json"
     },
     {
       "id": "china-cpharma",
@@ -23495,6 +23614,65 @@
       "file_path": "china/research/china-nigpas.json"
     },
     {
+      "id": "china-nmdc",
+      "name": {
+        "en": "National Microbiology Data Center",
+        "zh": "国家微生物科学数据中心"
+      },
+      "description": {
+        "en": "The National Microbiology Data Center (NMDC) is one of China's 20 officially recognized national science and technology resource sharing platforms, approved by the Ministry of Science and Technology and Ministry of Finance in 2019. Hosted by the Institute of Microbiology of the Chinese Academy of Sciences, NMDC is responsible for collecting, managing, sharing, and providing services for scientific data in the field of microbiology. The center has built a comprehensive microbiology data system covering microbial resources, research processes and engineering, microbiome omics, microbial technology, synthetic biology and related cross-disciplinary fields, as well as knowledge bases of literature, patents, experts and research achievements. NMDC provides authoritative, high-quality microbial scientific data resource sharing services for scientific research, technological progress, and social development, including strain data, genomic sequences, microbial ecology data, pathogenic microbe data, and industrial microbiology applications.",
+        "zh": "国家微生物科学数据中心（NMDC）于2019年6月经科技部、财政部通知公布，是中国20个国家科技资源共享服务平台之一，由中国科学院微生物研究所作为依托单位建设。中心按照2018年国家发布的《科学数据管理办法》，承担微生物领域科学数据汇交管理、共享与服务工作。中心建立了微生物领域完善的数据体系，数据内容覆盖微生物资源、研究过程及工程、微生物组学、微生物技术、合成生物学等交叉学科以及微生物文献、专利、专家、成果等知识库，重点推进微生物领域科技资源向国家平台汇聚与整合，为科学研究、技术进步和社会发展提供高质量的科学数据资源共享服务，包括菌种数据、基因组序列、微生物生态数据、病原微生物数据和工业微生物应用数据。"
+      },
+      "website": "https://nmdc.cn",
+      "data_url": "https://nmdc.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "microbiology",
+        "life-sciences",
+        "biotechnology",
+        "scientific-data"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "nmdc",
+        "microbiology",
+        "biodiversity",
+        "microbiome",
+        "genomics",
+        "cas",
+        "scientific-data",
+        "微生物",
+        "菌种资源",
+        "基因组",
+        "科学数据",
+        "中科院"
+      ],
+      "data_content": {
+        "en": [
+          "Microbial Resources - Strain catalogs, preservation data, type strains, biological materials from CAS microbial resource banks",
+          "Microbial Genomics - Genome sequences, gene annotations, comparative genomics data, metagenomic datasets",
+          "Microbiome Omics - Microbial community structure, functional omics, metabolomics, proteomics data",
+          "Pathogenic Microorganisms - Clinical and public health microbe data, antimicrobial resistance, virulence factors",
+          "Industrial Microbiology - Fermentation data, bioprocess parameters, enzyme resources, synthetic biology chassis",
+          "Knowledge Bases - Microbial literature, patents, experts directory, and research achievements repository"
+        ],
+        "zh": [
+          "微生物资源 - 菌种目录、保藏数据、模式菌株、中科院微生物资源库生物材料",
+          "微生物基因组 - 基因组序列、基因注释、比较基因组学数据、宏基因组数据集",
+          "微生物组学 - 微生物群落结构、功能组学、代谢组学、蛋白质组学数据",
+          "病原微生物 - 临床和公共卫生微生物数据、抗菌药物耐药性、毒力因子",
+          "工业微生物 - 发酵数据、生物过程参数、酶资源、合成生物学底盘细胞",
+          "知识库 - 微生物领域文献、专利、专家名录和研究成果库"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-nmdc.json"
+    },
+    {
       "id": "china-nsfc",
       "name": {
         "en": "National Natural Science Foundation of China",
@@ -25491,6 +25669,65 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/resources/china-sinopec.json"
+    },
+    {
+      "id": "china-cgn",
+      "name": {
+        "en": "China General Nuclear Power Corporation",
+        "zh": "中国广核集团有限公司"
+      },
+      "description": {
+        "en": "China General Nuclear Power Corporation (CGN) is a major state-owned clean energy enterprise directly administered by SASAC of the State Council and one of China's two largest nuclear power operators. Founded in 1994 and headquartered in Shenzhen, CGN operates through its flagship listed platforms CGN Power Co., Ltd. (003816.SZ / 1816.HK) and CGN New Energy Holdings Limited (1811.HK). The Group publishes authoritative operational and industry data covering nuclear power generating capacity, reactor fleet safety and performance metrics (unit capability factor, unplanned automatic scrams, collective radiation dose), new-build Hualong One reactor progress, uranium resources and nuclear fuel cycle operations, wind and solar renewable installations, electricity sales and grid connection data, R&D investment in advanced reactors (ACPR1000, fourth-generation reactors, small modular reactors), environmental emissions, and carbon reduction metrics. CGN's monthly operational reports, interim and annual results, ESG reports and investor communications are widely used by energy analysts, commodity traders, and researchers tracking China's nuclear energy expansion, energy transition, and decarbonization progress.",
+        "zh": "中国广核集团有限公司（中广核/CGN）是国务院国资委直接监管的大型国有清洁能源企业，也是中国两大核电运营商之一。集团成立于1994年，总部位于深圳，其旗舰上市平台包括中国广核电力股份有限公司（003816.SZ / 1816.HK）和中广核新能源控股有限公司（1811.HK）。集团发布权威的经营和行业数据，涵盖核电装机容量、在运机组安全业绩指标（机组能力因子、非计划停堆次数、集体辐射剂量）、华龙一号新建项目进展、铀资源和核燃料循环业务、风电光伏装机、电力销售和并网数据、先进堆型研发投入（ACPR1000、四代堆、小型模块堆）、环境排放以及碳减排指标。中广核的月度经营数据、中期及年度业绩、ESG报告和投资者沟通材料，广泛被能源分析师、大宗商品交易员以及研究中国核电扩张、能源转型和低碳化进展的研究者引用。"
+      },
+      "website": "https://www.cgnpc.com.cn",
+      "data_url": "https://www.cgnpc.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "nuclear-power",
+        "renewable-energy",
+        "environment"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "cgn",
+        "nuclear-power",
+        "clean-energy",
+        "uranium",
+        "sasac",
+        "hualong-one",
+        "esg",
+        "中广核",
+        "核电",
+        "清洁能源",
+        "央企",
+        "核燃料"
+      ],
+      "data_content": {
+        "en": [
+          "Nuclear Power Operations - Installed capacity, electricity generation, unit capability factor, fuel cycle and refueling outage data",
+          "Safety Performance - Unplanned automatic scrams, INES events, collective radiation dose, and WANO performance indicators",
+          "New Construction - Hualong One reactor progress, ACPR1000 project milestones, small modular reactor (SMR) R&D",
+          "Renewable Energy - Wind and solar installed capacity, generation output, and grid connection data from CGN New Energy",
+          "Financial & ESG Data - Revenue, profit, capex, uranium inventory, carbon emissions reductions, and sustainability reporting",
+          "Investor Disclosures - Interim/annual reports, monthly operational announcements, and regulatory filings across A-share and H-share markets"
+        ],
+        "zh": [
+          "核电运营 - 装机容量、发电量、机组能力因子、燃料循环和换料大修数据",
+          "安全业绩 - 非计划停堆次数、国际核事件分级事件、集体辐射剂量、WANO业绩指标",
+          "新建项目 - 华龙一号项目进展、ACPR1000里程碑、小型模块堆研发",
+          "新能源业务 - 中广核新能源风电光伏装机、发电量和并网数据",
+          "财务与ESG数据 - 营业收入、利润、资本开支、铀资源库存、碳减排量和可持续发展报告",
+          "投资者披露 - A股和H股市场的中期/年度报告、月度经营公告和监管披露"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/energy/china-cgn.json"
     },
     {
       "id": "china-chinacoal",
@@ -29815,6 +30052,65 @@
       "update_frequency": "irregular",
       "has_api": false,
       "file_path": "china/technology/industry_associations/china-ces.json"
+    },
+    {
+      "id": "china-cia-cybersecurity",
+      "name": {
+        "en": "China Cybersecurity Industry Alliance",
+        "zh": "中国网络安全产业联盟"
+      },
+      "description": {
+        "en": "The China Cybersecurity Industry Alliance (CCIA) is a national non-profit industry alliance in China's cybersecurity sector, bringing together cybersecurity vendors, internet enterprises, telecom operators, research institutions, universities, and users. Established with guidance from Chinese government authorities including the Cyberspace Administration of China (CAC) and the Ministry of Industry and Information Technology (MIIT), the alliance serves as an important platform for industry coordination, technology standards, threat intelligence sharing, and policy research on cybersecurity. CCIA publishes authoritative industry reports, technical white papers, and market statistics covering cybersecurity market size and vendor rankings, data security and privacy protection trends, cyber threat intelligence, critical infrastructure protection standards, network security compliance (MLPS 2.0 / 等保), vulnerability disclosure and management, and emerging technologies such as zero-trust architecture, AI security, and industrial internet security. Its reports are widely referenced by CISOs, policymakers, regulators, researchers, and enterprises building cybersecurity capabilities in China.",
+        "zh": "中国网络安全产业联盟（CCIA）是由中国网络安全厂商、互联网企业、电信运营商、科研院所、高校及用户单位共同组成的全国性非营利行业联盟，在国家网信办、工业和信息化部等主管部门的指导下开展工作。联盟是中国网络安全行业协调、技术标准、威胁情报共享和政策研究的重要平台。联盟发布权威的行业报告、技术白皮书和市场统计，涵盖网络安全市场规模和厂商排名、数据安全与个人信息保护趋势、网络威胁情报、关键信息基础设施保护标准、网络安全等级保护（等保2.0）合规、漏洞披露和管理、以及零信任架构、AI安全、工业互联网安全等新兴技术。其报告被首席信息安全官（CISO）、决策者、监管机构、研究人员和构建网络安全能力的企业广泛引用。"
+      },
+      "website": "https://www.china-cia.org.cn",
+      "data_url": "https://www.china-cia.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "cybersecurity",
+        "information-technology",
+        "data-security",
+        "digital-economy"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "ccia",
+        "cybersecurity",
+        "data-security",
+        "threat-intelligence",
+        "mlps",
+        "critical-infrastructure",
+        "industry-alliance",
+        "网络安全",
+        "数据安全",
+        "等级保护",
+        "威胁情报",
+        "关键基础设施"
+      ],
+      "data_content": {
+        "en": [
+          "Industry Reports - Annual cybersecurity industry reports, market size estimates, vendor rankings, and growth forecasts",
+          "Technical Standards - Industry technical standards, best practices, and reference architectures for cybersecurity",
+          "Threat Intelligence - Coordinated threat intelligence sharing, major incident analyses, and advanced persistent threat (APT) tracking",
+          "Compliance & Policy - Guidance on MLPS 2.0 (等级保护), Data Security Law, Personal Information Protection Law, and critical infrastructure protection",
+          "Vulnerability Management - Vulnerability disclosure policies, CVD programs, and patch management best practices",
+          "Emerging Technologies - White papers on zero-trust architecture, AI security, cloud security, industrial internet security, and 5G security"
+        ],
+        "zh": [
+          "行业报告 - 网络安全行业年度报告、市场规模估算、厂商排名和增长预测",
+          "技术标准 - 网络安全行业技术标准、最佳实践和参考架构",
+          "威胁情报 - 协同威胁情报共享、重大事件分析、高级持续性威胁（APT）追踪",
+          "合规与政策 - 等级保护2.0、数据安全法、个人信息保护法和关键信息基础设施保护指南",
+          "漏洞管理 - 漏洞披露政策、协调漏洞披露（CVD）项目、补丁管理最佳实践",
+          "新兴技术 - 零信任架构、AI安全、云安全、工业互联网安全、5G安全等技术白皮书"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json"
     },
     {
       "id": "china-ciesc",
