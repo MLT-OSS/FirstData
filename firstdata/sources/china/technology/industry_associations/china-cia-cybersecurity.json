@@ -1,0 +1,57 @@
+{
+  "id": "china-cia-cybersecurity",
+  "name": {
+    "en": "China Cybersecurity Industry Alliance",
+    "zh": "中国网络安全产业联盟"
+  },
+  "description": {
+    "en": "The China Cybersecurity Industry Alliance (CCIA) is a national non-profit industry alliance in China's cybersecurity sector, bringing together cybersecurity vendors, internet enterprises, telecom operators, research institutions, universities, and users. Established with guidance from Chinese government authorities including the Cyberspace Administration of China (CAC) and the Ministry of Industry and Information Technology (MIIT), the alliance serves as an important platform for industry coordination, technology standards, threat intelligence sharing, and policy research on cybersecurity. CCIA publishes authoritative industry reports, technical white papers, and market statistics covering cybersecurity market size and vendor rankings, data security and privacy protection trends, cyber threat intelligence, critical infrastructure protection standards, network security compliance (MLPS 2.0 / 等保), vulnerability disclosure and management, and emerging technologies such as zero-trust architecture, AI security, and industrial internet security. Its reports are widely referenced by CISOs, policymakers, regulators, researchers, and enterprises building cybersecurity capabilities in China.",
+    "zh": "中国网络安全产业联盟（CCIA）是由中国网络安全厂商、互联网企业、电信运营商、科研院所、高校及用户单位共同组成的全国性非营利行业联盟，在国家网信办、工业和信息化部等主管部门的指导下开展工作。联盟是中国网络安全行业协调、技术标准、威胁情报共享和政策研究的重要平台。联盟发布权威的行业报告、技术白皮书和市场统计，涵盖网络安全市场规模和厂商排名、数据安全与个人信息保护趋势、网络威胁情报、关键信息基础设施保护标准、网络安全等级保护（等保2.0）合规、漏洞披露和管理、以及零信任架构、AI安全、工业互联网安全等新兴技术。其报告被首席信息安全官（CISO）、决策者、监管机构、研究人员和构建网络安全能力的企业广泛引用。"
+  },
+  "website": "https://www.china-cia.org.cn",
+  "data_url": "https://www.china-cia.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "cybersecurity",
+    "information-technology",
+    "data-security",
+    "digital-economy"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "ccia",
+    "cybersecurity",
+    "data-security",
+    "threat-intelligence",
+    "mlps",
+    "critical-infrastructure",
+    "industry-alliance",
+    "网络安全",
+    "数据安全",
+    "等级保护",
+    "威胁情报",
+    "关键基础设施"
+  ],
+  "data_content": {
+    "en": [
+      "Industry Reports - Annual cybersecurity industry reports, market size estimates, vendor rankings, and growth forecasts",
+      "Technical Standards - Industry technical standards, best practices, and reference architectures for cybersecurity",
+      "Threat Intelligence - Coordinated threat intelligence sharing, major incident analyses, and advanced persistent threat (APT) tracking",
+      "Compliance & Policy - Guidance on MLPS 2.0 (等级保护), Data Security Law, Personal Information Protection Law, and critical infrastructure protection",
+      "Vulnerability Management - Vulnerability disclosure policies, CVD programs, and patch management best practices",
+      "Emerging Technologies - White papers on zero-trust architecture, AI security, cloud security, industrial internet security, and 5G security"
+    ],
+    "zh": [
+      "行业报告 - 网络安全行业年度报告、市场规模估算、厂商排名和增长预测",
+      "技术标准 - 网络安全行业技术标准、最佳实践和参考架构",
+      "威胁情报 - 协同威胁情报共享、重大事件分析、高级持续性威胁（APT）追踪",
+      "合规与政策 - 等级保护2.0、数据安全法、个人信息保护法和关键信息基础设施保护指南",
+      "漏洞管理 - 漏洞披露政策、协调漏洞披露（CVD）项目、补丁管理最佳实践",
+      "新兴技术 - 零信任架构、AI安全、云安全、工业互联网安全、5G安全等技术白皮书"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "china-nmdc",
+  "name": {
+    "en": "National Microbiology Data Center",
+    "zh": "国家微生物科学数据中心"
+  },
+  "description": {
+    "en": "The National Microbiology Data Center (NMDC) is one of China's 20 officially recognized national science and technology resource sharing platforms, approved by the Ministry of Science and Technology and Ministry of Finance in 2019. Hosted by the Institute of Microbiology of the Chinese Academy of Sciences, NMDC is responsible for collecting, managing, sharing, and providing services for scientific data in the field of microbiology. The center has built a comprehensive microbiology data system covering microbial resources, research processes and engineering, microbiome omics, microbial technology, synthetic biology and related cross-disciplinary fields, as well as knowledge bases of literature, patents, experts and research achievements. NMDC provides authoritative, high-quality microbial scientific data resource sharing services for scientific research, technological progress, and social development, including strain data, genomic sequences, microbial ecology data, pathogenic microbe data, and industrial microbiology applications.",
+    "zh": "国家微生物科学数据中心（NMDC）于2019年6月经科技部、财政部通知公布，是中国20个国家科技资源共享服务平台之一，由中国科学院微生物研究所作为依托单位建设。中心按照2018年国家发布的《科学数据管理办法》，承担微生物领域科学数据汇交管理、共享与服务工作。中心建立了微生物领域完善的数据体系，数据内容覆盖微生物资源、研究过程及工程、微生物组学、微生物技术、合成生物学等交叉学科以及微生物文献、专利、专家、成果等知识库，重点推进微生物领域科技资源向国家平台汇聚与整合，为科学研究、技术进步和社会发展提供高质量的科学数据资源共享服务，包括菌种数据、基因组序列、微生物生态数据、病原微生物数据和工业微生物应用数据。"
+  },
+  "website": "https://nmdc.cn",
+  "data_url": "https://nmdc.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "microbiology",
+    "life-sciences",
+    "biotechnology",
+    "scientific-data"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "nmdc",
+    "microbiology",
+    "biodiversity",
+    "microbiome",
+    "genomics",
+    "cas",
+    "scientific-data",
+    "微生物",
+    "菌种资源",
+    "基因组",
+    "科学数据",
+    "中科院"
+  ],
+  "data_content": {
+    "en": [
+      "Microbial Resources - Strain catalogs, preservation data, type strains, biological materials from CAS microbial resource banks",
+      "Microbial Genomics - Genome sequences, gene annotations, comparative genomics data, metagenomic datasets",
+      "Microbiome Omics - Microbial community structure, functional omics, metabolomics, proteomics data",
+      "Pathogenic Microorganisms - Clinical and public health microbe data, antimicrobial resistance, virulence factors",
+      "Industrial Microbiology - Fermentation data, bioprocess parameters, enzyme resources, synthetic biology chassis",
+      "Knowledge Bases - Microbial literature, patents, experts directory, and research achievements repository"
+    ],
+    "zh": [
+      "微生物资源 - 菌种目录、保藏数据、模式菌株、中科院微生物资源库生物材料",
+      "微生物基因组 - 基因组序列、基因注释、比较基因组学数据、宏基因组数据集",
+      "微生物组学 - 微生物群落结构、功能组学、代谢组学、蛋白质组学数据",
+      "病原微生物 - 临床和公共卫生微生物数据、抗菌药物耐药性、毒力因子",
+      "工业微生物 - 发酵数据、生物过程参数、酶资源、合成生物学底盘细胞",
+      "知识库 - 微生物领域文献、专利、专家名录和研究成果库"
+    ]
+  }
+}

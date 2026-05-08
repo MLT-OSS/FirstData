@@ -1,0 +1,57 @@
+{
+  "id": "china-cgn",
+  "name": {
+    "en": "China General Nuclear Power Corporation",
+    "zh": "中国广核集团有限公司"
+  },
+  "description": {
+    "en": "China General Nuclear Power Corporation (CGN) is a major state-owned clean energy enterprise directly administered by SASAC of the State Council and one of China's two largest nuclear power operators. Founded in 1994 and headquartered in Shenzhen, CGN operates through its flagship listed platforms CGN Power Co., Ltd. (003816.SZ / 1816.HK) and CGN New Energy Holdings Limited (1811.HK). The Group publishes authoritative operational and industry data covering nuclear power generating capacity, reactor fleet safety and performance metrics (unit capability factor, unplanned automatic scrams, collective radiation dose), new-build Hualong One reactor progress, uranium resources and nuclear fuel cycle operations, wind and solar renewable installations, electricity sales and grid connection data, R&D investment in advanced reactors (ACPR1000, fourth-generation reactors, small modular reactors), environmental emissions, and carbon reduction metrics. CGN's monthly operational reports, interim and annual results, ESG reports and investor communications are widely used by energy analysts, commodity traders, and researchers tracking China's nuclear energy expansion, energy transition, and decarbonization progress.",
+    "zh": "中国广核集团有限公司（中广核/CGN）是国务院国资委直接监管的大型国有清洁能源企业，也是中国两大核电运营商之一。集团成立于1994年，总部位于深圳，其旗舰上市平台包括中国广核电力股份有限公司（003816.SZ / 1816.HK）和中广核新能源控股有限公司（1811.HK）。集团发布权威的经营和行业数据，涵盖核电装机容量、在运机组安全业绩指标（机组能力因子、非计划停堆次数、集体辐射剂量）、华龙一号新建项目进展、铀资源和核燃料循环业务、风电光伏装机、电力销售和并网数据、先进堆型研发投入（ACPR1000、四代堆、小型模块堆）、环境排放以及碳减排指标。中广核的月度经营数据、中期及年度业绩、ESG报告和投资者沟通材料，广泛被能源分析师、大宗商品交易员以及研究中国核电扩张、能源转型和低碳化进展的研究者引用。"
+  },
+  "website": "https://www.cgnpc.com.cn",
+  "data_url": "https://www.cgnpc.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "nuclear-power",
+    "renewable-energy",
+    "environment"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "china",
+    "cgn",
+    "nuclear-power",
+    "clean-energy",
+    "uranium",
+    "sasac",
+    "hualong-one",
+    "esg",
+    "中广核",
+    "核电",
+    "清洁能源",
+    "央企",
+    "核燃料"
+  ],
+  "data_content": {
+    "en": [
+      "Nuclear Power Operations - Installed capacity, electricity generation, unit capability factor, fuel cycle and refueling outage data",
+      "Safety Performance - Unplanned automatic scrams, INES events, collective radiation dose, and WANO performance indicators",
+      "New Construction - Hualong One reactor progress, ACPR1000 project milestones, small modular reactor (SMR) R&D",
+      "Renewable Energy - Wind and solar installed capacity, generation output, and grid connection data from CGN New Energy",
+      "Financial & ESG Data - Revenue, profit, capex, uranium inventory, carbon emissions reductions, and sustainability reporting",
+      "Investor Disclosures - Interim/annual reports, monthly operational announcements, and regulatory filings across A-share and H-share markets"
+    ],
+    "zh": [
+      "核电运营 - 装机容量、发电量、机组能力因子、燃料循环和换料大修数据",
+      "安全业绩 - 非计划停堆次数、国际核事件分级事件、集体辐射剂量、WANO业绩指标",
+      "新建项目 - 华龙一号项目进展、ACPR1000里程碑、小型模块堆研发",
+      "新能源业务 - 中广核新能源风电光伏装机、发电量和并网数据",
+      "财务与ESG数据 - 营业收入、利润、资本开支、铀资源库存、碳减排量和可持续发展报告",
+      "投资者披露 - A股和H股市场的中期/年度报告、月度经营公告和监管披露"
+    ]
+  }
+}
