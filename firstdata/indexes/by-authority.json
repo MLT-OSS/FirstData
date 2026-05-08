@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T03:38:04.611041+00:00",
-    "total_sources": 713,
+    "generated_at": "2026-05-08T06:37:13.190662+00:00",
+    "total_sources": 718,
     "authority_counts": {
-      "research": 133,
+      "research": 136,
       "international": 77,
       "government": 359,
-      "other": 68,
+      "other": 70,
       "market": 43,
       "commercial": 33
     },
@@ -736,6 +736,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cicir",
+        "name": {
+          "en": "China Institutes of Contemporary International Relations",
+          "zh": "中国现代国际关系研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cicir.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cicir.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "china-cipd",
         "name": {
           "en": "China Population and Development Research Center",
@@ -1096,6 +1108,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-creei",
+        "name": {
+          "en": "China Renewable Energy Engineering Institute",
+          "zh": "水电水利规划设计总院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.creei.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-creei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-caep",
         "name": {
           "en": "Chinese Academy of Environmental Planning",
@@ -1345,6 +1369,18 @@
         "data_url": "https://www.csm.org.cn",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-csm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ckcest",
+        "name": {
+          "en": "China Knowledge Centre for Engineering Sciences and Technology",
+          "zh": "中国工程科技知识中心"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ckcest.cn",
+        "has_api": false,
+        "file_path": "china/technology/sci_resources/china-ckcest.json",
         "geographic_scope": "national"
       },
       {
@@ -6990,6 +7026,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-camac",
+        "name": {
+          "en": "China Aviation Maintenance Association",
+          "zh": "中国民用航空维修协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.camac.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-camac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cansi",
         "name": {
           "en": "China Association of the National Shipbuilding Industry",
@@ -7359,6 +7407,18 @@
         "data_url": "https://www.cata.org.cn/NewsList.aspx?id=11",
         "has_api": false,
         "file_path": "china/infrastructure/china-cata.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chinaports",
+        "name": {
+          "en": "China Ports and Harbours Association",
+          "zh": "中国港口协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.chinaports.org",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-chinaports.json",
         "geographic_scope": "national"
       },
       {

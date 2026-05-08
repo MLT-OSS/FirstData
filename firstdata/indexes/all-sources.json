@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T03:38:04.611041+00:00",
-    "total_sources": 713,
+    "generated_at": "2026-05-08T06:37:13.190662+00:00",
+    "total_sources": 718,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -4303,6 +4303,67 @@
       },
       "has_api": false,
       "file_path": "china/economy/china-miit-sme.json"
+    },
+    {
+      "id": "china-camac",
+      "name": {
+        "en": "China Aviation Maintenance Association",
+        "zh": "中国民用航空维修协会"
+      },
+      "description": {
+        "en": "China Aviation Maintenance Association (CAMAC) is the national non-profit industry association for civil aviation maintenance, repair, and overhaul (MRO) in China, established in 1989 under the Civil Aviation Administration of China (CAAC). Headquartered in Beijing, CAMAC represents aircraft maintenance organizations, airlines' engineering divisions, aviation parts manufacturers, and training institutions across the country. The association publishes the authoritative China Civil Aviation Maintenance Industry Development Report (中国民用航空维修行业发展报告), compiles industry statistics on MRO workforce size, revenue, fleet maintenance volumes, parts distribution, aviation repair capacity certifications, and workforce training metrics. CAMAC serves as a critical data source for tracking the rapid growth of China's civil aviation industry, which has become one of the world's largest, with datasets used by regulators, airlines, MRO providers, and equipment suppliers for market analysis, investment decisions, and capacity planning.",
+        "zh": "中国民用航空维修协会（CAMAC）成立于1989年，是中国民航局（CAAC）主管下的全国性非营利民航维修行业协会。总部设在北京，会员涵盖全国航空维修企业、航空公司工程部门、航空器材制造商、维修培训机构等。协会发布权威的《中国民用航空维修行业发展报告》，汇编民航维修行业统计数据，涵盖维修人员规模、行业营收、机队维修量、航材供应、维修资质认证、人员培训等核心指标。作为中国民航业快速发展（已成为全球最大民航市场之一）的重要数据源，协会数据服务于民航监管部门、航空公司、MRO 服务商和航空器材供应商，在市场分析、投资决策和产能规划中发挥关键作用。协会还承担行业自律、标准制订、技术交流、国际合作等职能，组织年度中国民航维修峰会等行业盛会。"
+      },
+      "website": "http://www.camac.org.cn",
+      "data_url": "http://www.camac.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "aviation",
+        "transportation",
+        "industry",
+        "maintenance"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "camac",
+        "aviation",
+        "aircraft-maintenance",
+        "mro",
+        "civil-aviation",
+        "caac",
+        "aerospace",
+        "industry-association",
+        "民航维修",
+        "航空维修",
+        "航空器材",
+        "民航",
+        "MRO",
+        "行业协会"
+      ],
+      "data_content": {
+        "en": [
+          "Industry Development Reports - Annual China Civil Aviation Maintenance Industry Development Report with comprehensive sector statistics and trends",
+          "MRO Market Data - Revenue, workforce size, fleet maintenance volumes, parts distribution, and service capacity across domestic maintenance organizations",
+          "Certification Statistics - Aviation repair capacity certifications (CCAR-145, CCAR-147), qualified technician counts, and training institution rankings",
+          "Fleet Maintenance Data - Maintenance scheduling, overhaul cycles, component repair volumes for China's commercial aircraft fleet",
+          "Training and Workforce - Aviation maintenance technician training programs, licensing statistics, talent supply and demand analyses",
+          "International Cooperation - Cross-border MRO partnerships, parts import/export data, Chinese maintenance firms' overseas operations"
+        ],
+        "zh": [
+          "行业发展报告 - 年度《中国民用航空维修行业发展报告》，包含全面行业统计和趋势分析",
+          "MRO市场数据 - 全国维修企业营收、从业人员规模、机队维修量、航材供应、服务能力数据",
+          "资质认证统计 - 航空维修资质认证（CCAR-145、CCAR-147）、持证技术人员数量、培训机构排名",
+          "机队维修数据 - 中国民航商用飞机机队维修计划、大修周期、部件修理量数据",
+          "培训与人才 - 航空维修技术人员培训项目、执照统计、人才供需分析",
+          "国际合作 - 跨境 MRO 合作、航材进出口数据、中国维修企业海外业务数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/industry_associations/china-camac.json"
     },
     {
       "id": "china-cansi",
@@ -19259,6 +19320,67 @@
       "file_path": "china/infrastructure/china-ccs.json"
     },
     {
+      "id": "china-chinaports",
+      "name": {
+        "en": "China Ports and Harbours Association",
+        "zh": "中国港口协会"
+      },
+      "description": {
+        "en": "China Ports and Harbours Association (CPHA) is the national industry association for Chinese port enterprises, established in 1987 and directly supervised by the Ministry of Transport of China. Headquartered in Beijing, CPHA represents all major coastal and inland river ports across the country, including Shanghai, Ningbo-Zhoushan, Shenzhen, Guangzhou, Qingdao, Tianjin, and Dalian—several of which rank among the world's busiest ports by cargo throughput and container handling. CPHA releases comprehensive monthly and annual statistical reports on port cargo throughput, container throughput (TEUs), vessel calls, berthing capacity, port infrastructure investment, and port worker employment data. The association also publishes the authoritative annual China Ports Yearbook (中国港口年鉴) and develops national standards for port operations, safety, green port development, and intelligent port automation. CPHA data is essential for tracking China's foreign trade activity, shipping industry performance, and supply chain logistics trends.",
+        "zh": "中国港口协会（CPHA）是中华人民共和国交通运输部主管的全国性港口行业协会，成立于1987年，总部设在北京。协会会员涵盖全国沿海和内河主要港口企业，包括上海港、宁波舟山港、深圳港、广州港、青岛港、天津港、大连港等——多个港口按货物吞吐量和集装箱吞吐量均居世界前列。协会每月和年度发布权威的港口吞吐量、集装箱吞吐量（TEU）、船舶靠泊、泊位产能、港口基础设施投资、港口从业人员等综合统计数据。同时编辑出版权威《中国港口年鉴》，制定港口作业、安全、绿色港口、智慧港口等国家与行业标准。协会数据是追踪中国外贸活动、航运业绩和供应链物流动态的重要依据，是港口企业、航运公司、贸易商、监管部门、研究机构和投资者的核心数据源。"
+      },
+      "website": "http://www.chinaports.org",
+      "data_url": "http://www.chinaports.org",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "transportation",
+        "maritime",
+        "logistics",
+        "infrastructure"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "china",
+        "cpha",
+        "ports",
+        "harbours",
+        "maritime",
+        "shipping",
+        "logistics",
+        "cargo-throughput",
+        "container-throughput",
+        "ministry-of-transport",
+        "港口",
+        "集装箱",
+        "吞吐量",
+        "航运",
+        "交通运输部"
+      ],
+      "data_content": {
+        "en": [
+          "Port Throughput Statistics - Monthly and annual cargo throughput data for all major Chinese ports by commodity type and geographic region",
+          "Container Throughput - TEU (Twenty-foot Equivalent Unit) statistics for coastal and inland ports, ranking global top container ports",
+          "Vessel and Berth Data - Vessel call counts, vessel size distribution, berthing capacity, dock length, and deep-water berth inventory",
+          "Port Infrastructure - Investment data, expansion projects, automation and intelligent port development, green port initiatives",
+          "China Ports Yearbook - Annual comprehensive reference publication covering each member port's operations, investments, and strategic plans",
+          "Industry Standards - National standards for port operations, safety management, environmental protection, and smart port technology"
+        ],
+        "zh": [
+          "港口吞吐量统计 - 全国主要港口月度和年度货物吞吐量数据，按货种和地区划分",
+          "集装箱吞吐量 - 沿海和内河港口 TEU（标准箱）统计，全球集装箱港口排名",
+          "船舶与泊位数据 - 船舶靠泊次数、船型分布、泊位产能、码头岸线、深水泊位数量",
+          "港口基础设施 - 投资数据、扩建工程、自动化与智慧港口发展、绿色港口建设",
+          "中国港口年鉴 - 年度权威出版物，涵盖各会员港口的运营、投资和战略规划",
+          "行业标准 - 港口作业、安全管理、环境保护、智慧港口技术的国家和行业标准体系"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-chinaports.json"
+    },
+    {
       "id": "china-crg",
       "name": {
         "en": "China State Railway Group",
@@ -22213,6 +22335,66 @@
       },
       "has_api": false,
       "file_path": "china/research/china-chfs.json"
+    },
+    {
+      "id": "china-cicir",
+      "name": {
+        "en": "China Institutes of Contemporary International Relations",
+        "zh": "中国现代国际关系研究院"
+      },
+      "description": {
+        "en": "The China Institutes of Contemporary International Relations (CICIR) is one of China's most prominent and authoritative state-level think tanks specializing in research on international affairs, strategic issues, and national security. Founded in 1980 and headquartered in Beijing, CICIR conducts comprehensive research on world politics, global economy, regional security, major power relations, and transnational issues such as counterterrorism, cybersecurity, and energy security. The institute publishes the influential flagship journal Contemporary International Relations (现代国际关系) and regularly releases the annual Strategic Review (战略与安全蓝皮书), country studies, and policy analysis reports that inform Chinese foreign policy decision-making. CICIR's research output includes quantitative assessments of geopolitical risks, bilateral and multilateral relations datasets, and regional security barometers that serve as an authoritative reference for scholars, diplomats, and policy analysts worldwide.",
+        "zh": "中国现代国际关系研究院（CICIR）成立于1980年，是中国最具影响力、最具权威性的国家级智库之一，专门研究国际关系、战略问题和国家安全。总部设在北京，下设美洲研究所、俄罗斯研究所、欧洲研究所、日本研究所、南亚研究所、东南亚及大洋洲研究所、非洲研究所、拉美研究所、中亚研究所、西亚非洲研究所及反恐怖、经济安全、科技与网络安全研究中心等机构，覆盖全球主要国家和地区。研究院出版旗舰学术期刊《现代国际关系》（中英文双版），年度发布《国际战略与安全形势评估》蓝皮书、国别研究报告、重大专题研究等。研究成果涵盖大国关系量化评估、地缘政治风险指数、地区安全态势监测、反恐与非传统安全数据库，为中国外交决策和全球学术、政策分析提供权威参考。"
+      },
+      "website": "http://www.cicir.ac.cn",
+      "data_url": "http://www.cicir.ac.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "global",
+      "domains": [
+        "international-relations",
+        "national-security",
+        "geopolitics",
+        "policy-research"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "china",
+        "cicir",
+        "think-tank",
+        "international-relations",
+        "geopolitics",
+        "national-security",
+        "strategic-studies",
+        "foreign-policy",
+        "现代国际关系",
+        "智库",
+        "国际战略",
+        "国家安全",
+        "地缘政治",
+        "外交政策"
+      ],
+      "data_content": {
+        "en": [
+          "International Affairs Research - Comprehensive analysis of global political, economic, and security trends, major power relations, and international system dynamics",
+          "Regional Studies - In-depth country and regional studies covering North America, Russia, Europe, Japan, South Asia, Southeast Asia, Africa, Latin America, Central Asia, and the Middle East",
+          "Strategic Assessment Reports - Annual Strategic and Security Review (战略与安全蓝皮书), forecast reports on international trends and risk assessments",
+          "Transnational Issues - Counterterrorism analysis, economic security studies, cybersecurity research, energy and resource security assessments",
+          "Policy Journals - Contemporary International Relations bilingual journal publishing peer-reviewed research on diplomacy, geopolitics and strategy",
+          "Bilateral Relations Data - Quantitative and qualitative assessments of China's relations with key partners and competitors, geopolitical risk indicators"
+        ],
+        "zh": [
+          "国际形势研究 - 全球政治、经济、安全形势综合分析，大国关系研究，国际体系演变动态",
+          "地区国别研究 - 美洲、俄罗斯、欧洲、日本、南亚、东南亚及大洋洲、非洲、拉美、中亚、西亚北非等区域国别深度研究",
+          "战略评估报告 - 年度《战略与安全形势评估》蓝皮书、国际形势预测报告、重大风险评估",
+          "跨国议题研究 - 反恐研究、经济安全、网络安全、能源与资源安全专题数据库",
+          "学术期刊 - 《现代国际关系》中英文双语学术期刊，刊发外交、地缘政治与战略领域同行评议研究",
+          "双边关系数据 - 中国与主要伙伴和竞争对手关系的定量与定性评估、地缘政治风险指标"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/research/china-cicir.json"
     },
     {
       "id": "china-ciecc",
@@ -25794,6 +25976,67 @@
       },
       "has_api": false,
       "file_path": "china/resources/energy/china-chinacoal.json"
+    },
+    {
+      "id": "china-creei",
+      "name": {
+        "en": "China Renewable Energy Engineering Institute",
+        "zh": "水电水利规划设计总院"
+      },
+      "description": {
+        "en": "China Renewable Energy Engineering Institute (CREEI), formally known as the General Institute of Hydropower and Water Resources Planning and Design, is the national authoritative technical support organization for China's renewable energy and hydropower sector under the administration of PowerChina and the National Energy Administration. Established in 1950 and headquartered in Beijing, CREEI serves as the apex planning, design consulting, and technical standards body for China's hydropower, wind power, solar power, pumped storage, and energy storage industries. The institute publishes the highly authoritative annual China Renewable Energy Development Report (中国可再生能源发展报告), China Hydropower Engineering Yearbook, and hydropower resources surveys that inform national energy policy and investment planning. CREEI's datasets cover installed capacity, generation output, project pipelines, technical economic indicators, river basin planning, and carbon reduction metrics for all renewable energy categories, serving as the definitive national data source for renewable energy researchers, policymakers, and industry professionals.",
+        "zh": "水电水利规划设计总院（CREEI，中国可再生能源工程研究院）是国家能源局和中国电建集团管理下的全国性水电水利和可再生能源行业权威技术支持机构，成立于1950年，总部设在北京。作为中国水电、风电、太阳能发电、抽水蓄能、储能等可再生能源产业的顶层规划、设计咨询与技术标准权威机构，总院承担全国水电水利规划、流域综合规划、重大工程技术论证、行业技术标准制修订等国家性任务。每年发布权威《中国可再生能源发展报告》、《中国水电工程年鉴》、全国水能资源调查评价成果等，为国家能源政策制定和投资规划提供技术支撑。总院数据库涵盖全国装机容量、发电量、在建与储备项目、技术经济指标、流域规划、碳减排指标等可再生能源各类别数据，是可再生能源研究者、决策者和行业专业人士不可或缺的权威数据源。"
+      },
+      "website": "http://www.creei.cn",
+      "data_url": "http://www.creei.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "renewable-energy",
+        "hydropower",
+        "water-resources"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "creei",
+        "hydropower",
+        "renewable-energy",
+        "wind-power",
+        "solar-power",
+        "pumped-storage",
+        "energy-storage",
+        "water-resources",
+        "powerchina",
+        "可再生能源",
+        "水电",
+        "风电",
+        "光伏",
+        "抽水蓄能"
+      ],
+      "data_content": {
+        "en": [
+          "Renewable Energy Development Reports - Annual national assessment of renewable energy capacity, generation, investment, policy trends, and outlook",
+          "Hydropower Engineering Data - Yearbook of China hydropower projects, installed capacity, generation statistics, technical specifications, and river basin planning",
+          "Wind and Solar Resources - National wind and solar resource assessment, project development databases, capacity factors, and geographic distribution data",
+          "Pumped Storage and Energy Storage - Project pipelines, technical economic indicators, operational data for pumped hydro and grid-scale storage",
+          "Technical Standards and Guidelines - National technical standards for renewable energy planning, design, construction, and operation",
+          "Carbon Reduction Data - Renewable energy contribution to emissions reduction, green power trading, and carbon market data"
+        ],
+        "zh": [
+          "可再生能源发展报告 - 年度全国可再生能源装机、发电量、投资、政策趋势与前景评估",
+          "水电工程数据 - 《中国水电工程年鉴》、装机容量、发电量统计、技术参数、流域规划数据",
+          "风能太阳能资源 - 全国风能太阳能资源评估、项目开发数据库、利用小时数、地理分布数据",
+          "抽水蓄能与储能 - 项目储备、技术经济指标、抽蓄电站和电网侧储能运行数据",
+          "技术标准与规程 - 可再生能源规划、设计、施工、运行等国家级技术标准体系",
+          "碳减排数据 - 可再生能源减排贡献、绿电交易、碳市场相关数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/energy/china-creei.json"
     },
     {
       "id": "china-csg",
@@ -31500,6 +31743,67 @@
       },
       "has_api": false,
       "file_path": "china/technology/internet/cnnic.json"
+    },
+    {
+      "id": "china-ckcest",
+      "name": {
+        "en": "China Knowledge Centre for Engineering Sciences and Technology",
+        "zh": "中国工程科技知识中心"
+      },
+      "description": {
+        "en": "China Knowledge Centre for Engineering Sciences and Technology (CKCEST) is the national strategic knowledge service infrastructure for engineering sciences and technology, jointly launched by the Chinese Academy of Engineering (CAE) and approved by the State Council in 2012. Supported by the Ministry of Finance and the Ministry of Science and Technology, CKCEST brings together authoritative domain data from across China's engineering disciplines, providing an integrated platform for information aggregation, data mining, and knowledge services. The Centre operates dozens of specialized domain knowledge service systems covering agriculture, medicine and health, energy, transportation, materials, manufacturing, information technology, environment and resources, marine engineering, rail transit, Traditional Chinese Medicine, and more. CKCEST aggregates peer-reviewed literature, patents, standards, expert profiles, engineering projects, scientific data, and domain-specific datasets. It serves as an authoritative knowledge service backbone for engineering researchers, policymakers, enterprises, and the public across China.",
+        "zh": "中国工程科技知识中心（CKCEST）是经国务院批准、由中国工程院牵头于2012年启动建设的国家工程科技领域战略性知识服务基础设施，由财政部和科技部共同支持。中心汇聚中国工程科技各学科领域权威数据，提供信息汇聚、数据挖掘和知识服务一体化平台。中心下设数十个专业领域知识服务系统，覆盖农业、医药卫生、能源、交通、材料、制造、信息技术、环境与资源、海洋工程、轨道交通、中医药等工程科技各领域。知识中心汇集同行评议文献、专利、标准、专家库、重大工程、科学数据和领域专题数据集，是中国工程科技研究者、政策制定者、企业和公众的权威知识服务平台，也是中国工程院工程科技决策咨询的重要支撑。"
+      },
+      "website": "http://www.ckcest.cn",
+      "data_url": "http://www.ckcest.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "engineering",
+        "scientific-data",
+        "technology",
+        "knowledge-service"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "china",
+        "ckcest",
+        "engineering-sciences",
+        "cae",
+        "chinese-academy-of-engineering",
+        "knowledge-service",
+        "scientific-data",
+        "patents",
+        "standards",
+        "literature",
+        "工程科技",
+        "中国工程院",
+        "知识服务",
+        "科学数据",
+        "专家库"
+      ],
+      "data_content": {
+        "en": [
+          "Domain Knowledge Service Systems - Specialized platforms for agriculture, medicine, energy, transportation, materials, manufacturing, IT, environment, marine, rail transit, and Traditional Chinese Medicine",
+          "Engineering Literature and Patents - Peer-reviewed journal articles, conference papers, technical reports, and invention patents in engineering sciences",
+          "Standards and Technical Specifications - National, industry, and international standards catalogs relevant to engineering disciplines",
+          "Expert Directory - Profiles of Chinese Academy of Engineering academicians, senior engineers, and leading researchers with publication and project records",
+          "Major Engineering Projects - Databases of landmark national engineering projects, R&D achievements, and infrastructure milestones",
+          "Scientific Datasets - Discipline-specific data including agricultural production, clinical trials, energy statistics, materials properties, and engineering test data"
+        ],
+        "zh": [
+          "领域知识服务系统 - 农业、医药、能源、交通、材料、制造、信息、环境、海洋、轨道交通、中医药等专业领域平台",
+          "工程文献与专利 - 工程科技领域同行评议期刊论文、会议论文、技术报告、发明专利",
+          "标准与技术规范 - 国家标准、行业标准、国际标准目录，覆盖工程科技各学科",
+          "专家库 - 中国工程院院士、资深工程师和领军研究人员简历及论著项目档案",
+          "重大工程项目 - 国家重大工程、科研成果、基础设施里程碑数据库",
+          "科学数据集 - 农业生产、临床试验、能源统计、材料性能、工程试验等学科数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/sci_resources/china-ckcest.json"
     },
     {
       "id": "china-most-infrastructure",

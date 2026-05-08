@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T03:38:04.611041+00:00",
+    "generated_at": "2026-05-08T06:37:13.190662+00:00",
     "total_regions": 58,
-    "total_sources": 713,
+    "total_sources": 718,
     "version": "2.0"
   },
   "regions": {
@@ -745,6 +745,18 @@
         "data_url": "https://www.chinasme.org.cn/html/mcms/daohang/tongzhigonggao/index.html",
         "has_api": false,
         "file_path": "china/economy/china-miit-sme.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-camac",
+        "name": {
+          "en": "China Aviation Maintenance Association",
+          "zh": "中国民用航空维修协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.camac.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/industry_associations/china-camac.json",
         "geographic_scope": "national"
       },
       {
@@ -3304,6 +3316,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinaports",
+        "name": {
+          "en": "China Ports and Harbours Association",
+          "zh": "中国港口协会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.chinaports.org",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-chinaports.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-crg",
         "name": {
           "en": "China State Railway Group",
@@ -3809,6 +3833,18 @@
         "has_api": false,
         "file_path": "china/research/china-chfs.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-cicir",
+        "name": {
+          "en": "China Institutes of Contemporary International Relations",
+          "zh": "中国现代国际关系研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cicir.ac.cn",
+        "has_api": false,
+        "file_path": "china/research/china-cicir.json",
+        "geographic_scope": "global"
       },
       {
         "id": "china-ciecc",
@@ -4444,6 +4480,18 @@
         "data_url": "https://www.chinacoal.com",
         "has_api": false,
         "file_path": "china/resources/energy/china-chinacoal.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-creei",
+        "name": {
+          "en": "China Renewable Energy Engineering Institute",
+          "zh": "水电水利规划设计总院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.creei.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-creei.json",
         "geographic_scope": "national"
       },
       {
@@ -5405,6 +5453,18 @@
         "data_url": "https://www.cnnic.cn/11/38/326/index.html",
         "has_api": false,
         "file_path": "china/technology/internet/cnnic.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ckcest",
+        "name": {
+          "en": "China Knowledge Centre for Engineering Sciences and Technology",
+          "zh": "中国工程科技知识中心"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ckcest.cn",
+        "has_api": false,
+        "file_path": "china/technology/sci_resources/china-ckcest.json",
         "geographic_scope": "national"
       },
       {
