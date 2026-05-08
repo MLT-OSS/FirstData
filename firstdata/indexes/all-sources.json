@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-07T07:23:20.110626+00:00",
-    "total_sources": 703,
+    "generated_at": "2026-05-08T02:31:04.490616+00:00",
+    "total_sources": 708,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3004,6 +3004,68 @@
       "authority_level": "research",
       "has_api": false,
       "file_path": "china/construction/china-urban-planning.json"
+    },
+    {
+      "id": "china-cfca",
+      "name": {
+        "en": "China Film Archive",
+        "zh": "中国电影资料馆"
+      },
+      "description": {
+        "en": "The China Film Archive (CFCA), also known as the China Film Art Research Center, is a national state-level institution affiliated with the National Film Administration. Established in 1958, it is the largest and most comprehensive film archive in China, responsible for the collection, preservation, restoration, and research of Chinese and foreign films. CFCA publishes industry research, box office historical data, film census records, and policy documents on China's film industry development. It is the authoritative institution for historical film statistics, archival data, and academic research on Chinese cinema.",
+        "zh": "中国电影资料馆（中国电影艺术研究中心）是国家电影局直属的国家级事业单位，成立于1958年，是中国规模最大、收藏最全面的电影档案机构，负责中外影片的收集、保存、修复和研究工作。资料馆发布行业研究报告、历史票房数据、影片普查档案及中国电影行业发展政策文件，是中国电影历史统计数据、档案记录及学术研究的权威机构。"
+      },
+      "website": "https://www.cfa.org.cn",
+      "data_url": "https://www.cfa.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "culture",
+        "media",
+        "arts"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国电影资料馆",
+        "china-film-archive",
+        "cfca",
+        "中国电影",
+        "chinese-cinema",
+        "电影历史",
+        "film-history",
+        "电影档案",
+        "film-archive",
+        "票房数据",
+        "box-office",
+        "电影行业",
+        "film-industry",
+        "影片修复",
+        "film-restoration",
+        "电影艺术研究",
+        "film-art-research"
+      ],
+      "data_content": {
+        "en": [
+          "Historical film database: catalogued records of Chinese films from early cinema to the present, including production details, cast, and screening history",
+          "Box office historical data: annual and period-based box office statistics for Chinese films dating back decades",
+          "Film census records: comprehensive census data on films produced, circulated, and archived in China",
+          "Industry research reports: academic and policy research on Chinese film industry development, audience behavior, and international distribution",
+          "Film preservation records: statistics on archived film reels, digital preservation efforts, and restoration projects",
+          "China Film Yearbook: annual compilation of film production statistics, screening data, and industry indicators"
+        ],
+        "zh": [
+          "历史影片数据库：从早期电影至今的中国影片编目记录，包括制作信息、演职员名单及放映历史",
+          "历史票房数据：中国电影历年及各时期票房统计数据",
+          "影片普查档案：中国影片生产、流通及归档的全面普查数据",
+          "行业研究报告：关于中国电影行业发展、受众行为及国际发行的学术与政策研究",
+          "影片保存档案：馆藏胶片、数字化保存工作及修复项目的统计数据",
+          "中国电影年鉴：影片生产统计数据、放映数据及行业指标年度汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/culture/china-cfca.json"
     },
     {
       "id": "china-agri",
@@ -19791,6 +19853,71 @@
       "file_path": "china/infrastructure/china-post-group.json"
     },
     {
+      "id": "china-rioh",
+      "name": {
+        "en": "Research Institute of Highway, Ministry of Transport",
+        "zh": "交通运输部公路科学研究院"
+      },
+      "description": {
+        "en": "The Research Institute of Highway (RIOH) is a national research institution directly affiliated with China's Ministry of Transport, specializing in highway engineering, traffic safety, road materials, and transportation policy. As the primary technical authority for China's highway system, RIOH publishes research findings, technical standards, and statistical data on road infrastructure, traffic accidents, pavement performance, and transport efficiency. It provides data and technical support for China's national highway network planning, construction quality, and safety regulation.",
+        "zh": "交通运输部公路科学研究院（公路研究院）是直属于交通运输部的国家级科研机构，专注于公路工程、交通安全、路面材料及运输政策研究。作为中国公路系统的主要技术权威机构，研究院发布公路基础设施、道路交通事故、路面性能及运输效率等方面的研究成果、技术标准和统计数据，为中国国家公路网规划、工程质量及安全监管提供数据支撑和技术保障。"
+      },
+      "website": "https://www.rioh.cn",
+      "data_url": "https://www.rioh.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "transportation",
+        "infrastructure",
+        "public-safety",
+        "technology"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "公路科学研究院",
+        "rioh",
+        "highway-research",
+        "公路工程",
+        "highway-engineering",
+        "交通安全",
+        "traffic-safety",
+        "道路交通事故",
+        "road-accidents",
+        "路面技术",
+        "pavement-technology",
+        "公路网",
+        "highway-network",
+        "交通运输部",
+        "ministry-of-transport",
+        "公路技术标准",
+        "highway-technical-standards"
+      ],
+      "data_content": {
+        "en": [
+          "Road traffic accident statistics: national data on accident frequency, casualties, causes, and road type analysis",
+          "Highway network performance: pavement condition indices, bridge inspection data, and road quality monitoring",
+          "Transport efficiency research: vehicle flow, freight volume, and road network utilization statistics",
+          "Technical standards database: highway engineering standards, specifications, and design guidelines for China's road system",
+          "Highway construction research: material testing, structural performance, and construction quality data",
+          "Fuel consumption and emissions: fuel efficiency benchmarks and emissions data for road transport vehicles",
+          "China Highway Research Reports: periodic technical reports on highway development, maintenance, and safety"
+        ],
+        "zh": [
+          "道路交通事故统计：全国道路交通事故频率、人员伤亡、事故原因及道路类型分析数据",
+          "公路网运行状况：路面状况指数、桥梁检测数据及道路质量监测",
+          "运输效率研究：车流量、货运量及公路网利用率统计",
+          "技术标准数据库：中国公路系统公路工程标准、规范及设计指南",
+          "公路建设研究：材料测试、结构性能及施工质量数据",
+          "油耗与排放：道路运输车辆燃油效率基准和排放数据",
+          "中国公路研究报告：公路发展、养护及安全方面的定期技术报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-rioh.json"
+    },
+    {
       "id": "china-spb",
       "name": {
         "en": "State Post Bureau of China",
@@ -26790,6 +26917,69 @@
       "file_path": "china/resources/forestry/china-nfga.json"
     },
     {
+      "id": "china-cga",
+      "name": {
+        "en": "China Gold Association",
+        "zh": "中国黄金协会"
+      },
+      "description": {
+        "en": "The China Gold Association (CGA) is the national industry association for China's gold sector, representing gold mining companies, refiners, processors, and traders. As the official industry body under the World Gold Council's Chinese partner framework and supervised by the Ministry of Industry and Information Technology, CGA publishes authoritative statistics on gold production, consumption, imports and exports, and market pricing. It releases monthly and annual gold industry reports, making it the primary source for data on China's position as the world's largest gold producer and consumer.",
+        "zh": "中国黄金协会（简称中金协）是中国黄金行业的全国性行业协会，代表黄金开采、冶炼、加工和贸易企业。受工业和信息化部主管，中金协发布关于中国黄金产量、消费量、进出口及市场价格的权威统计数据，定期发布月度和年度黄金行业报告，是了解中国作为全球最大黄金生产国和消费国相关数据的主要来源。"
+      },
+      "website": "https://www.cngold.org.cn",
+      "data_url": "https://www.cngold.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "commodities",
+        "minerals",
+        "economics",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国黄金协会",
+        "china-gold-association",
+        "cga",
+        "黄金产量",
+        "gold-production",
+        "黄金消费",
+        "gold-consumption",
+        "黄金进出口",
+        "gold-trade",
+        "贵金属",
+        "precious-metals",
+        "黄金价格",
+        "gold-price",
+        "黄金行业统计",
+        "gold-industry-statistics"
+      ],
+      "data_content": {
+        "en": [
+          "Gold production: monthly and annual statistics on raw gold output by major mining regions and enterprises in China",
+          "Gold consumption: domestic demand data including jewelry, investment gold, industrial use, and central bank purchases",
+          "Gold imports and exports: trade flow data for gold bullion, coins, and semi-manufactured products",
+          "Market price monitoring: domestic gold price indices and comparisons with international benchmarks (LBMA, SHGEX)",
+          "Industry enterprise data: key operating statistics for major gold mining and processing companies in China",
+          "Annual Gold Industry Report: comprehensive annual review of China's gold industry development",
+          "Investment and exploration: data on gold mine exploration investment, new discoveries, and reserves"
+        ],
+        "zh": [
+          "黄金产量：中国主要黄金产区及企业的月度和年度原料黄金产量统计",
+          "黄金消费：涵盖首饰、投资金、工业用金及央行购金等国内消费需求数据",
+          "黄金进出口：黄金金条、金币及半成品进出口贸易数据",
+          "市场价格监测：国内黄金价格指数及与国际基准（LBMA、上金所）的比较",
+          "行业企业数据：国内主要黄金开采和加工企业的关键经营统计指标",
+          "年度黄金行业报告：中国黄金行业年度发展综合回顾",
+          "投资与勘探：黄金矿山勘探投资、新发现及储量数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/mineral/china-cga.json"
+    },
+    {
       "id": "china-cgas",
       "name": {
         "en": "China Geological Survey",
@@ -28728,6 +28918,70 @@
       "file_path": "china/technology/china-tc260.json"
     },
     {
+      "id": "china-cadpa",
+      "name": {
+        "en": "China Audio-Video and Digital Publishing Association",
+        "zh": "中国音像与数字出版协会"
+      },
+      "description": {
+        "en": "The China Audio-Video and Digital Publishing Association (CADPA) is the national industry association for China's audio-visual and digital publishing sectors, supervised by the National Press and Publication Administration. CADPA represents publishers, distributors, streaming platforms, and digital content providers. It publishes authoritative annual reports and statistical data on China's digital publishing industry, including online games, e-books, digital newspapers, mobile publishing, and internet-based audio-visual content. Its annual China Digital Publishing Industry Report is the benchmark source for market scale, revenue, and trend data in China's digital content economy.",
+        "zh": "中国音像与数字出版协会（简称音数协）是国家新闻出版总署主管的全国性行业协会，代表出版商、发行商、流媒体平台及数字内容提供商。协会发布中国数字出版行业权威年报及统计数据，涵盖网络游戏、电子书、数字报纸、移动出版及网络音视频内容等领域，所发布的《中国数字出版产业年度报告》是中国数字内容经济市场规模、营收及发展趋势的权威数据来源。"
+      },
+      "website": "https://www.cadpa.org.cn",
+      "data_url": "https://www.cadpa.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "culture",
+        "technology",
+        "digital-economy",
+        "media"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "中国音像与数字出版协会",
+        "cadpa",
+        "数字出版",
+        "digital-publishing",
+        "网络游戏",
+        "online-games",
+        "电子书",
+        "e-books",
+        "数字内容",
+        "digital-content",
+        "移动出版",
+        "mobile-publishing",
+        "网络音视频",
+        "online-audio-video",
+        "数字出版产业",
+        "digital-publishing-industry"
+      ],
+      "data_content": {
+        "en": [
+          "China Digital Publishing Industry Report: annual market scale report covering revenue, user numbers, and growth trends across digital publishing segments",
+          "Online games statistics: market size, player counts, revenue breakdown by genre and platform for China's gaming industry",
+          "E-book and digital reading: readership data, platform statistics, and revenue for digital book publishing in China",
+          "Mobile publishing: app-based reading, audio content, and short-form video publishing market data",
+          "Internet audio-visual: streaming platform statistics, content volumes, and subscription data for music and video services",
+          "Digital newspaper and periodicals: online readership and revenue for digital versions of newspapers and magazines",
+          "Audio publishing: digital audiobook market scale, production volumes, and platform data in China"
+        ],
+        "zh": [
+          "中国数字出版产业年度报告：涵盖各数字出版细分领域营收、用户数及增长趋势的年度市场规模报告",
+          "网络游戏统计：中国游戏行业市场规模、玩家数量及按品类和平台划分的营收数据",
+          "电子书与数字阅读：中国数字图书出版的读者数据、平台统计及营收数据",
+          "移动出版：基于应用程序的阅读、有声内容及短视频出版市场数据",
+          "网络音视频：流媒体平台统计、内容体量及音乐、视频服务订阅数据",
+          "数字报刊：报纸和杂志数字版的在线阅读量及营收",
+          "有声出版：中国数字有声书市场规模、制作数量及平台数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/digital-publishing/china-cadpa.json"
+    },
+    {
       "id": "china-national-data-bureau",
       "name": {
         "en": "National Data Administration of China",
@@ -28800,6 +29054,69 @@
       },
       "has_api": false,
       "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
+    },
+    {
+      "id": "china-caiii",
+      "name": {
+        "en": "China Academy of Industrial Internet",
+        "zh": "中国工业互联网研究院"
+      },
+      "description": {
+        "en": "The China Academy of Industrial Internet (CAIII) is a national-level research institution established by the Ministry of Industry and Information Technology (MIIT) and the State-owned Assets Supervision and Administration Commission (SASAC). It focuses on industrial internet standards, security, identification resolution, and industry development. CAIII publishes authoritative research reports, white papers, and statistics on China's industrial internet ecosystem, including platform coverage, connected devices, enterprise adoption rates, and security incidents. Its annual Industrial Internet Development Report and industry surveys provide benchmark data for China's smart manufacturing and digital transformation landscape.",
+        "zh": "中国工业互联网研究院（工业互联网研究院）是工业和信息化部与国务院国有资产监督管理委员会共同设立的国家级研究机构，专注于工业互联网标准、安全、标识解析体系及产业发展研究。研究院发布权威研究报告、白皮书及统计数据，内容涵盖中国工业互联网平台覆盖情况、联网设备数量、企业应用率及安全事件等。每年发布的《工业互联网发展报告》及行业调研报告，为中国智能制造与数字化转型提供基准数据。"
+      },
+      "website": "https://www.china-aii.com",
+      "data_url": "https://www.china-aii.com",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "industry",
+        "digital-economy",
+        "cybersecurity"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "工业互联网",
+        "industrial-internet",
+        "caiii",
+        "智能制造",
+        "smart-manufacturing",
+        "数字化转型",
+        "digital-transformation",
+        "工业互联网平台",
+        "industrial-internet-platform",
+        "标识解析",
+        "identifier-resolution",
+        "工业安全",
+        "industrial-security",
+        "工业互联网发展报告",
+        "industrial-internet-development-report"
+      ],
+      "data_content": {
+        "en": [
+          "Industrial Internet Development Report: annual comprehensive report on China's industrial internet ecosystem scale, development trends, and key metrics",
+          "Platform statistics: number and coverage of industrial internet platforms, enterprise adoption rates, and key application scenarios",
+          "Identifier resolution: data on the national industrial internet identifier resolution system, connected nodes, and registered enterprises",
+          "Security monitoring: statistics on industrial control system vulnerabilities, cybersecurity incidents in manufacturing, and threat intelligence",
+          "Industry benchmarks: adoption rates of industrial internet across sectors including steel, chemicals, electronics, and textile manufacturing",
+          "Standards and whitepapers: technical standards, architecture guidelines, and policy research on industrial internet development",
+          "Regional distribution: deployment and adoption of industrial internet platforms by province and major industrial cluster"
+        ],
+        "zh": [
+          "工业互联网发展报告：每年发布的中国工业互联网生态系统规模、发展趋势及关键指标综合报告",
+          "平台统计：工业互联网平台数量及覆盖情况、企业应用率及典型应用场景",
+          "标识解析：国家工业互联网标识解析体系的节点、接入企业及解析量统计",
+          "安全监测：工业控制系统漏洞、制造业网络安全事件及威胁情报统计",
+          "行业基准：钢铁、化工、电子、纺织等行业工业互联网应用渗透率",
+          "标准与白皮书：工业互联网发展的技术标准、体系架构指南及政策研究",
+          "区域分布：工业互联网平台在各省份及主要产业集群的部署与应用情况"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industrial-internet/china-caiii.json"
     },
     {
       "id": "china-cagis",

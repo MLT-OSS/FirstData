@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-07T07:23:20.110626+00:00",
+    "generated_at": "2026-05-08T02:31:04.490616+00:00",
     "total_regions": 58,
-    "total_sources": 703,
+    "total_sources": 708,
     "version": "2.0"
   },
   "regions": {
@@ -515,6 +515,18 @@
         "data_url": "https://www.planning.org.cn/paper",
         "has_api": false,
         "file_path": "china/construction/china-urban-planning.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cfca",
+        "name": {
+          "en": "China Film Archive",
+          "zh": "中国电影资料馆"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cfa.org.cn",
+        "has_api": false,
+        "file_path": "china/culture/china-cfca.json",
         "geographic_scope": "national"
       },
       {
@@ -3389,6 +3401,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-rioh",
+        "name": {
+          "en": "Research Institute of Highway, Ministry of Transport",
+          "zh": "交通运输部公路科学研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.rioh.cn",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-rioh.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-spb",
         "name": {
           "en": "State Post Bureau of China",
@@ -4591,6 +4615,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cga",
+        "name": {
+          "en": "China Gold Association",
+          "zh": "中国黄金协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cngold.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/mineral/china-cga.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cgas",
         "name": {
           "en": "China Geological Survey",
@@ -4903,6 +4939,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cadpa",
+        "name": {
+          "en": "China Audio-Video and Digital Publishing Association",
+          "zh": "中国音像与数字出版协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cadpa.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/digital-publishing/china-cadpa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-national-data-bureau",
         "name": {
           "en": "National Data Administration of China",
@@ -4912,6 +4960,18 @@
         "data_url": "https://sjdj.nda.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-caiii",
+        "name": {
+          "en": "China Academy of Industrial Internet",
+          "zh": "中国工业互联网研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.china-aii.com",
+        "has_api": false,
+        "file_path": "china/technology/industrial-internet/china-caiii.json",
         "geographic_scope": "national"
       },
       {
