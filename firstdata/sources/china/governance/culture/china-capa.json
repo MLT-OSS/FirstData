@@ -1,0 +1,58 @@
+{
+  "id": "china-capa",
+  "name": {
+    "en": "China Association of Performing Arts",
+    "zh": "中国演出行业协会"
+  },
+  "description": {
+    "en": "The China Association of Performing Arts (CAPA) is the only national non-profit industry association in China's performing arts sector, approved by the Ministry of Culture and Tourism and registered with the Ministry of Civil Affairs. Founded in 1988 and headquartered in Beijing, CAPA represents theatres, performance troupes, ticketing platforms, live entertainment companies, artist agencies, concert promoters, and cultural venues across China. The association serves as the primary authority for industry self-regulation, standards development, policy research, and market statistics in China's live entertainment industry. CAPA publishes quarterly and annual market reports covering box office revenue, ticket sales, concert and theatre attendance, venue occupancy rates, touring performance data, livestream performance markets, regional market analysis, and industry employment. Its data is widely used by regulators, promoters, investors, and researchers tracking China's rapidly growing live entertainment market, cultural consumption patterns, and post-pandemic recovery dynamics.",
+    "zh": "中国演出行业协会（CAPA）是经文化和旅游部批准、民政部登记注册的全国性非营利行业组织，也是中国演出行业唯一的全国性行业协会。协会成立于1988年，总部设在北京，会员涵盖剧院、演出团体、票务平台、现场娱乐公司、演出经纪机构、演唱会主办方和文化场馆。协会是中国现场娱乐行业自律、标准制定、政策研究和市场统计的权威机构。协会定期发布季度和年度市场报告，涵盖票房收入、票务销售、演唱会和剧场上座率、场馆利用率、巡演数据、网络演艺市场、区域市场分析和行业就业情况。协会数据被监管部门、演出公司、投资者和研究人员广泛用于追踪中国快速增长的现场娱乐市场、文化消费模式以及疫情后行业复苏动态。"
+  },
+  "website": "https://www.capa.com.cn",
+  "data_url": "https://www.capa.com.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "culture",
+    "performing-arts",
+    "entertainment",
+    "industry-statistics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "china",
+    "capa",
+    "performing-arts",
+    "live-entertainment",
+    "concerts",
+    "theatre",
+    "box-office",
+    "cultural-industry",
+    "演出行业",
+    "现场娱乐",
+    "票房",
+    "演唱会",
+    "剧场",
+    "文化产业"
+  ],
+  "data_content": {
+    "en": [
+      "Box Office & Ticket Sales - Quarterly and annual revenue, average ticket prices, and ticket volume across performance categories",
+      "Performance Attendance - Concert, theatre, musical, and live music attendance data with regional and venue-level breakdowns",
+      "Market Segmentation - Market size by genre (concerts, drama, musicals, traditional opera, cross-genre), venue type, and city tier",
+      "Touring Performance Data - Multi-city tour statistics, international artist tours in China, and domestic touring productions",
+      "Online Performance Market - Livestream concerts, virtual performances, and digital ticketing channel data",
+      "Industry Reports - Annual reports, regulatory developments, industry self-discipline standards, and recovery indicators"
+    ],
+    "zh": [
+      "票房与票务销售 - 各演出类别季度和年度收入、平均票价和票量数据",
+      "观演人次 - 演唱会、剧场、音乐剧和现场音乐观演数据，按地区和场馆细分",
+      "市场细分 - 按演出类型（演唱会、话剧、音乐剧、传统戏曲、跨界）、场馆类型和城市层级划分的市场规模",
+      "巡演数据 - 多城市巡演统计、国际艺人在华巡演和国内巡演制作",
+      "网络演艺市场 - 直播演唱会、虚拟演出和数字票务渠道数据",
+      "行业报告 - 年度行业报告、监管动态、行业自律标准和复苏指标"
+    ]
+  }
+}

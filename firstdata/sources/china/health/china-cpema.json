@@ -1,0 +1,57 @@
+{
+  "id": "china-cpema",
+  "name": {
+    "en": "China Pharmaceutical Enterprise Management Association",
+    "zh": "中国医药企业管理协会"
+  },
+  "description": {
+    "en": "The China Pharmaceutical Enterprise Management Association (CPEMA) is a national non-profit industry association composed of pharmaceutical enterprises, research institutions, and related organizations across China. Established under the supervision of relevant state regulatory authorities, CPEMA serves as a bridge between pharmaceutical enterprises and government agencies, providing industry coordination, policy research, management consultation, and professional services. The association publishes authoritative industry statistics, market analyses, and annual reports covering pharmaceutical manufacturing output, pharmaceutical R&D investment, innovative drug development, API (active pharmaceutical ingredient) production, OTC and prescription drug markets, medical device industry trends, TCM (traditional Chinese medicine) enterprises, and pharmaceutical enterprise rankings. CPEMA's publications are widely used by pharma executives, regulators, analysts, and researchers tracking China's pharmaceutical industry development, enterprise competitiveness, M&A activity, and innovation capacity.",
+    "zh": "中国医药企业管理协会（CPEMA）是由全国医药企业、科研机构和相关组织自愿组成的全国性非营利行业协会，在国家相关主管部门业务指导下开展工作。协会作为医药企业与政府部门之间的桥梁，提供行业协调、政策研究、管理咨询和专业服务。协会发布权威的行业统计数据、市场分析和年度报告，涵盖医药制造业产值、医药研发投入、创新药研发进展、原料药生产、OTC和处方药市场、医疗器械行业趋势、中药企业发展、医药企业排行榜等内容。协会出版物被医药企业管理者、监管机构、分析师和研究人员广泛用于追踪中国医药行业发展、企业竞争力、并购活动和创新能力。"
+  },
+  "website": "https://www.cpema.org",
+  "data_url": "https://www.cpema.org",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "pharmaceutical",
+    "healthcare",
+    "industry-statistics",
+    "enterprise-management"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "china",
+    "cpema",
+    "pharmaceutical",
+    "pharma-industry",
+    "drug-development",
+    "medical-devices",
+    "tcm",
+    "industry-association",
+    "医药企业",
+    "医药行业",
+    "创新药",
+    "中药",
+    "行业协会"
+  ],
+  "data_content": {
+    "en": [
+      "Pharmaceutical Industry Statistics - Manufacturing output, revenue, profit, and growth rates across pharmaceutical sub-sectors",
+      "Enterprise Rankings - Annual rankings of top Chinese pharmaceutical companies by revenue, R&D spending, and innovation capacity",
+      "R&D and Innovation - Innovative drug pipeline data, clinical trial activity, patent filings, and biotech development trends",
+      "Market Analysis - OTC and prescription drug market size, API production, therapeutic area performance, and regional distribution",
+      "Medical Devices - Medical device industry statistics, enterprise development, and market segments",
+      "Policy & Industry Reports - Annual industry reports, policy analysis, regulatory impact assessments, and international comparisons"
+    ],
+    "zh": [
+      "医药行业统计 - 各医药子行业的制造业产值、营业收入、利润和增长率数据",
+      "企业排行榜 - 中国医药企业年度排行榜，按营收、研发投入和创新能力排序",
+      "研发与创新 - 创新药研发管线数据、临床试验活跃度、专利申请和生物技术发展趋势",
+      "市场分析 - OTC和处方药市场规模、原料药生产、治疗领域表现和区域分布",
+      "医疗器械 - 医疗器械行业统计、企业发展和市场细分数据",
+      "政策与行业报告 - 年度行业报告、政策分析、监管影响评估和国际对比"
+    ]
+  }
+}
