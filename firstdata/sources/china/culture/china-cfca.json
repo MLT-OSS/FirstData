@@ -1,0 +1,60 @@
+{
+  "id": "china-cfca",
+  "name": {
+    "en": "China Film Archive",
+    "zh": "中国电影资料馆"
+  },
+  "description": {
+    "en": "The China Film Archive (CFCA), also known as the China Film Art Research Center, is a national state-level institution affiliated with the National Film Administration. Established in 1958, it is the largest and most comprehensive film archive in China, responsible for the collection, preservation, restoration, and research of Chinese and foreign films. CFCA publishes industry research, box office historical data, film census records, and policy documents on China's film industry development. It is the authoritative institution for historical film statistics, archival data, and academic research on Chinese cinema.",
+    "zh": "中国电影资料馆（中国电影艺术研究中心）是国家电影局直属的国家级事业单位，成立于1958年，是中国规模最大、收藏最全面的电影档案机构，负责中外影片的收集、保存、修复和研究工作。资料馆发布行业研究报告、历史票房数据、影片普查档案及中国电影行业发展政策文件，是中国电影历史统计数据、档案记录及学术研究的权威机构。"
+  },
+  "website": "https://www.cfa.org.cn",
+  "data_url": "https://www.cfa.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "culture",
+    "media",
+    "arts"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "中国电影资料馆",
+    "china-film-archive",
+    "cfca",
+    "中国电影",
+    "chinese-cinema",
+    "电影历史",
+    "film-history",
+    "电影档案",
+    "film-archive",
+    "票房数据",
+    "box-office",
+    "电影行业",
+    "film-industry",
+    "影片修复",
+    "film-restoration",
+    "电影艺术研究",
+    "film-art-research"
+  ],
+  "data_content": {
+    "en": [
+      "Historical film database: catalogued records of Chinese films from early cinema to the present, including production details, cast, and screening history",
+      "Box office historical data: annual and period-based box office statistics for Chinese films dating back decades",
+      "Film census records: comprehensive census data on films produced, circulated, and archived in China",
+      "Industry research reports: academic and policy research on Chinese film industry development, audience behavior, and international distribution",
+      "Film preservation records: statistics on archived film reels, digital preservation efforts, and restoration projects",
+      "China Film Yearbook: annual compilation of film production statistics, screening data, and industry indicators"
+    ],
+    "zh": [
+      "历史影片数据库：从早期电影至今的中国影片编目记录，包括制作信息、演职员名单及放映历史",
+      "历史票房数据：中国电影历年及各时期票房统计数据",
+      "影片普查档案：中国影片生产、流通及归档的全面普查数据",
+      "行业研究报告：关于中国电影行业发展、受众行为及国际发行的学术与政策研究",
+      "影片保存档案：馆藏胶片、数字化保存工作及修复项目的统计数据",
+      "中国电影年鉴：影片生产统计数据、放映数据及行业指标年度汇编"
+    ]
+  }
+}
