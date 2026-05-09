@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-09T02:41:20.804235+00:00",
-    "total_sources": 723,
+    "generated_at": "2026-05-09T02:55:26.102252+00:00",
+    "total_sources": 728,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2891,6 +2891,72 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/construction/china-mohurd.json"
+    },
+    {
+      "id": "china-shanghai-housing",
+      "name": {
+        "en": "Shanghai Municipal Housing and Urban-Rural Development Management Commission",
+        "zh": "上海市住房和城乡建设管理委员会"
+      },
+      "description": {
+        "en": "The Shanghai Municipal Housing and Urban-Rural Development Management Commission (上海市住建委) is the Shanghai municipal government authority responsible for housing policy, real estate market regulation, construction industry management, urban-rural development planning, and affordable housing programs in Shanghai — one of China's largest and most influential real estate markets. The Commission publishes monthly residential and commercial property transaction data, land market data, construction industry statistics, building energy efficiency data, affordable housing (public rental, shared ownership, talent housing) construction progress, and comprehensive Shanghai housing policy releases. Its data is the official reference for Shanghai's first-tier-city housing market, new home sales, secondary market trends, and construction sector performance.",
+        "zh": "上海市住房和城乡建设管理委员会（上海市住建委）是上海市政府负责住房政策、房地产市场监管、建筑业管理、城乡发展规划及保障性住房建设的主管部门。上海是中国规模最大、影响最广的房地产市场之一。住建委发布月度住宅和商业地产交易数据、土地市场数据、建筑业统计、建筑节能数据、保障性住房（公共租赁住房、共有产权住房、人才公寓）建设进展，以及全面的上海住房政策发布。其数据是上海一线城市房地产市场、新房销售、二手房市场走势及建筑业表现的官方参考。"
+      },
+      "website": "https://zjw.sh.gov.cn",
+      "data_url": "https://zjw.sh.gov.cn/tjxx/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "subnational",
+      "domains": [
+        "housing",
+        "real-estate",
+        "construction",
+        "urban-planning"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "shanghai",
+        "上海",
+        "housing",
+        "住房",
+        "real-estate",
+        "房地产",
+        "construction",
+        "建筑业",
+        "affordable-housing",
+        "保障性住房",
+        "land-market",
+        "土地市场",
+        "urban-rural-development",
+        "城乡建设",
+        "上海住建委",
+        "shanghai-housing-commission"
+      ],
+      "data_content": {
+        "en": [
+          "Shanghai Residential Transaction Data - Monthly new home and second-hand residential sales volume and price data",
+          "Commercial Property Market - Office, retail and industrial property transaction statistics",
+          "Land Market Data - Land supply, auction results and land premium rates in Shanghai",
+          "Construction Industry Statistics - Shanghai construction output value, enterprise data and workforce",
+          "Affordable Housing Programs - Public rental, shared ownership and talent housing construction progress",
+          "Building Energy Efficiency - Green building and energy efficiency statistics for Shanghai",
+          "Housing Policy Releases - Shanghai housing purchase policies, market regulation rules and administrative filings",
+          "Project Quality Supervision - Construction project quality and safety inspection data"
+        ],
+        "zh": [
+          "上海住宅交易数据 - 月度新房及二手房成交量和价格数据",
+          "商业地产市场 - 写字楼、商铺及工业地产交易统计",
+          "土地市场数据 - 上海土地供应、出让结果及溢价率",
+          "建筑业统计 - 上海建筑业总产值、企业数据和从业人员",
+          "保障性住房建设 - 公共租赁住房、共有产权住房和人才公寓建设进展",
+          "建筑节能 - 上海绿色建筑和节能统计",
+          "住房政策发布 - 上海限购限贷政策、市场调控规则和行政事项办理",
+          "工程质量监督 - 建设工程质量及安全监察数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-shanghai-housing.json"
     },
     {
       "id": "china-shenzhen-housing",
@@ -35698,6 +35764,257 @@
       "geographic_scope": "national",
       "has_api": false,
       "file_path": "countries/asia/taiwan/taiwan-dgbas.json"
+    },
+    {
+      "id": "taiwan-fsc",
+      "name": {
+        "en": "Taiwan Financial Supervisory Commission (FSC)",
+        "zh": "台湾金融监督管理委员会"
+      },
+      "description": {
+        "en": "The Financial Supervisory Commission (FSC) is Taiwan's primary integrated financial regulator, established in 2004 and reporting to the Executive Yuan. The FSC supervises and examines banks, securities firms, futures firms, insurance companies, and financial holding companies in Taiwan. It publishes comprehensive financial industry statistics, regulatory announcements, prudential data (capital adequacy, non-performing loans, insurance solvency), securities market supervision data, anti-money-laundering reports, and financial inclusion metrics. The FSC's data is the authoritative reference for Taiwan's banking, securities, insurance, and fintech sectors, including green finance, ESG disclosures, and cross-strait financial supervision.",
+        "zh": "台湾金融监督管理委员会（金管会/FSC）是台湾主要的综合金融监管机构，成立于2004年，隶属行政院。金管会监管台湾银行、证券公司、期货公司、保险公司和金融控股公司。发布全面的金融业统计、监管公告、审慎监管数据（资本充足率、不良贷款、保险清偿能力）、证券市场监督数据、反洗钱报告及普惠金融指标。金管会数据是台湾银行业、证券业、保险业和金融科技领域的权威参考，涵盖绿色金融、ESG披露及两岸金融监管等议题。"
+      },
+      "website": "https://www.fsc.gov.tw",
+      "data_url": "https://www.fsc.gov.tw/en/home.jsp?id=253&parentpath=0,7",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "TW",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "banking",
+        "insurance",
+        "capital-markets"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "fsc",
+        "金管会",
+        "台湾金融监督管理委员会",
+        "financial-regulation",
+        "金融监管",
+        "banking-supervision",
+        "银行监管",
+        "securities-supervision",
+        "证券监管",
+        "insurance-regulation",
+        "保险监管",
+        "fintech",
+        "金融科技",
+        "esg",
+        "green-finance"
+      ],
+      "data_content": {
+        "en": [
+          "Banking Industry Statistics - Monthly banking sector balance sheets, loans, deposits and asset quality data",
+          "Securities and Futures Statistics - Monthly brokerage, investment trust and futures industry statistics",
+          "Insurance Industry Statistics - Monthly life, non-life insurance premium, asset and solvency data",
+          "Financial Holding Company Data - Consolidated financial and capital adequacy data for financial holding groups",
+          "Regulatory Announcements - Financial supervision rules, sanctions, and policy releases",
+          "Anti-Money Laundering Reports - AML and counter-terrorism financing supervision data",
+          "Green and ESG Finance - Sustainable finance policies and ESG disclosure supervision"
+        ],
+        "zh": [
+          "银行业统计 - 月度银行业资产负债表、贷款、存款和资产质量数据",
+          "证券期货统计 - 月度证券商、投信及期货业统计",
+          "保险业统计 - 月度寿险、产险保费、资产和清偿能力数据",
+          "金融控股公司数据 - 金融控股集团合并财务和资本充足率数据",
+          "监管公告 - 金融监管规则、处分及政策发布",
+          "反洗钱报告 - 反洗钱及打击资恐监管数据",
+          "绿色与ESG金融 - 可持续金融政策及ESG披露监管"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/taiwan/taiwan-fsc.json"
+    },
+    {
+      "id": "taiwan-tier",
+      "name": {
+        "en": "Taiwan Institute of Economic Research (TIER)",
+        "zh": "台湾经济研究院"
+      },
+      "description": {
+        "en": "The Taiwan Institute of Economic Research (TIER) is one of Taiwan's oldest and most respected independent economic research institutions, founded in 1976. TIER publishes widely cited Taiwan economic forecasts, quarterly economic outlook reports, the TIER Manufacturing and Service Industry Composite Index (similar to PMI), industry research covering semiconductors, information technology, biotech, green energy and other key Taiwanese sectors, as well as analysis of cross-strait economic relations and global macroeconomic trends. TIER also produces consumer confidence indicators, business climate monitors, and policy research reports that influence Taiwan government and corporate decision-making.",
+        "zh": "台湾经济研究院（台经院/TIER）是台湾最悠久、最具声望的独立经济研究机构之一，成立于1976年。台经院发布广泛引用的台湾经济预测、季度经济展望报告、台经院制造业和服务业景气测验综合指数（类似PMI）、涵盖半导体、资讯科技、生技、绿能等台湾重点行业的产业研究报告，以及两岸经济关系和全球宏观经济趋势分析。台经院还发布消费者信心指标、景气测验动向，以及影响台湾政府和企业决策的政策研究报告。"
+      },
+      "website": "https://www.tier.org.tw",
+      "data_url": "https://www.tier.org.tw/publications/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "TW",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "macroeconomics",
+        "industry"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "tier",
+        "taiwan-institute-of-economic-research",
+        "台湾经济研究院",
+        "台经院",
+        "economic-forecast",
+        "经济预测",
+        "pmi",
+        "制造业景气",
+        "business-climate",
+        "景气指标",
+        "semiconductor-industry",
+        "半导体产业",
+        "cross-strait-economics",
+        "两岸经济",
+        "consumer-confidence",
+        "消费者信心"
+      ],
+      "data_content": {
+        "en": [
+          "Taiwan Economic Forecasts - Quarterly and annual GDP, inflation, trade and investment forecasts for Taiwan",
+          "TIER Business Climate Composite Index - Monthly manufacturing and service industry business climate diffusion indices",
+          "Industry Research Reports - In-depth research on semiconductors, ICT, biotech, green energy and other sectors",
+          "Consumer Confidence Indicators - Monthly consumer confidence survey for Taiwan households",
+          "Cross-Strait Economic Analysis - Research reports on Taiwan-China trade and investment relations",
+          "Global Macroeconomic Monitoring - Analysis of US, China, Japan and global economic trends impacting Taiwan",
+          "Policy Research - Research reports on tax, industrial policy and economic reforms"
+        ],
+        "zh": [
+          "台湾经济预测 - 季度及年度GDP、通胀、贸易及投资预测",
+          "台经院景气测验综合指数 - 月度制造业和服务业景气扩散指数",
+          "产业研究报告 - 半导体、资讯科技、生技、绿能等行业深度研究",
+          "消费者信心指标 - 台湾家户消费者信心月度调查",
+          "两岸经济分析 - 两岸贸易与投资关系研究报告",
+          "全球宏观经济监测 - 美国、中国、日本及全球经济趋势对台湾影响分析",
+          "政策研究 - 税制、产业政策及经济改革研究报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/taiwan/taiwan-tier.json"
+    },
+    {
+      "id": "taiwan-tpex",
+      "name": {
+        "en": "Taipei Exchange (TPEx / OTC)",
+        "zh": "台湾证券柜台买卖中心"
+      },
+      "description": {
+        "en": "Taipei Exchange (TPEx), formerly known as the GreTai Securities Market, is Taiwan's over-the-counter (OTC) securities exchange operating alongside the Taiwan Stock Exchange (TWSE). Established in 1994, TPEx operates the OTC Market for Taiwanese companies including many technology and biotech firms, the Emerging Stock Market (ESM) for pre-listing companies, and the Pioneer Stock Market (PSM) for innovative startups. TPEx also operates Taiwan's corporate bond, convertible bond, and ETN markets. It publishes daily trading statistics, the TPEX Index, company disclosures, bond market data, and comprehensive OTC market monitoring reports — the authoritative reference for Taiwan's OTC equity and fixed-income markets.",
+        "zh": "台湾证券柜台买卖中心（TPEx），前身为台湾柜台买卖中心，是与台湾证券交易所（TWSE）并行运营的台湾场外（OTC）证券交易所。成立于1994年，TPEx运营柜买市场（上市众多台湾科技和生物科技公司）、兴柜市场（ESM，上市前公司）以及创柜板（PSM，创新型初创企业）。TPEx还运营台湾公司债、可转债及ETN市场。发布每日交易统计、柜买指数（TPEX Index）、公司公告、债券市场数据及全面的柜买市场监测报告，是台湾场外股票和固定收益市场的权威参考。"
+      },
+      "website": "https://www.tpex.org.tw",
+      "data_url": "https://www.tpex.org.tw/web/stock/aftertrading/daily_trading_info/st43.php",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "TW",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "economics"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "tpex",
+        "taipei-exchange",
+        "台湾证券柜台买卖中心",
+        "柜买中心",
+        "otc-market",
+        "兴柜",
+        "emerging-stock-market",
+        "创柜板",
+        "corporate-bonds",
+        "公司债",
+        "convertible-bonds",
+        "可转债",
+        "etn",
+        "taiwan-equities"
+      ],
+      "data_content": {
+        "en": [
+          "TPEX Index - Daily index for OTC-listed Taiwanese securities",
+          "OTC Daily Trading Statistics - Trading volume and price data for OTC-listed companies",
+          "Emerging Stock Market Data - Trading statistics for pre-listing emerging stocks",
+          "Pioneer Stock Market Data - Trading data for innovative startup companies",
+          "Corporate Bond Market - Corporate bond, convertible bond and ETN trading statistics",
+          "Company Disclosures - Financial reports and material information for OTC-listed companies",
+          "Market Monitoring Reports - OTC market surveillance and regulatory announcements"
+        ],
+        "zh": [
+          "TPEX柜买指数 - 柜买市场挂牌证券的每日指数",
+          "柜买每日交易统计 - 柜买挂牌公司的成交量和价格数据",
+          "兴柜市场数据 - 上市前兴柜股票的交易统计",
+          "创柜板数据 - 创新型初创企业的交易数据",
+          "公司债市场 - 公司债、可转债及ETN交易统计",
+          "公司公告 - 柜买挂牌公司的财报及重大讯息",
+          "市场监测报告 - 柜买市场监察和监管公告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/asia/taiwan/taiwan-tpex.json"
+    },
+    {
+      "id": "taiwan-twse",
+      "name": {
+        "en": "Taiwan Stock Exchange (TWSE)",
+        "zh": "台湾证券交易所"
+      },
+      "description": {
+        "en": "The Taiwan Stock Exchange (TWSE) is Taiwan's primary securities exchange, established in 1961 and headquartered in Taipei. It operates the main board listing over 1,000 companies including major technology firms such as TSMC, Hon Hai (Foxconn), and MediaTek. TWSE publishes authoritative market data including the Taiwan Capitalization Weighted Stock Index (TAIEX), daily trading statistics, listed company disclosures, foreign investor holdings, margin trading data, and comprehensive market surveillance reports. TWSE also operates the Market Observation Post System (MOPS) for corporate filings and the Central Deposit & Clearing Co. integration for settlement data. Its statistics are the official reference for Taiwan equity market capitalization, PE ratios, trading volume, and institutional holdings.",
+        "zh": "台湾证券交易所（TWSE）是台湾主要的证券交易所，成立于1961年，总部位于台北。主板挂牌公司超过1000家，包括台积电、鸿海（富士康）、联发科等重要科技企业。台交所发布权威市场数据，包括台湾加权股价指数（TAIEX）、每日交易统计、上市公司公告、外资持股、融资融券数据及全面的市场监察报告。台交所运营公开资讯观测站（MOPS）发布公司财报和重大讯息，并通过集中保管结算所整合结算数据。其统计数据是台湾股市市值、市盈率、成交量和机构持股的官方参考。"
+      },
+      "website": "https://www.twse.com.tw",
+      "data_url": "https://www.twse.com.tw/en/trading/statistics/fmsrfk.html",
+      "api_url": "https://openapi.twse.com.tw",
+      "authority_level": "government",
+      "country": "TW",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "economics"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "taiwan-stock-exchange",
+        "台湾证券交易所",
+        "twse",
+        "taiex",
+        "台股",
+        "台湾股市",
+        "taiwan-equities",
+        "listed-companies",
+        "上市公司",
+        "foreign-investment",
+        "外资持股",
+        "margin-trading",
+        "融资融券",
+        "market-data",
+        "openapi"
+      ],
+      "data_content": {
+        "en": [
+          "TAIEX Index - Taiwan Capitalization Weighted Stock Index, daily and historical values",
+          "Daily Trading Statistics - Trading volume, turnover, and price data for all listed securities",
+          "Foreign Investor Holdings - Daily and monthly foreign and mainland Chinese investor shareholding data",
+          "Margin Trading Data - Margin purchases, short sales and securities lending statistics",
+          "Listed Company Disclosures - Corporate filings via MOPS including financial reports and material information",
+          "Market Surveillance Reports - Exchange regulatory announcements and market monitoring data",
+          "Sector and Industry Data - Sector index performance and industry-classified statistics",
+          "Open API - Public API for market data, trading statistics, and listed company information"
+        ],
+        "zh": [
+          "TAIEX加权指数 - 台湾加权股价指数的每日和历史数据",
+          "每日交易统计 - 所有上市证券的成交量、成交额和价格数据",
+          "外资持股 - 每日及月度外资和陆资股东持股数据",
+          "融资融券数据 - 融资买入、融券卖出和借券交易统计",
+          "上市公司公告 - 通过公开资讯观测站MOPS发布的公司财报和重大讯息",
+          "市场监察报告 - 交易所监管公告及市场监测数据",
+          "行业分类数据 - 各行业类股指数表现及分类统计",
+          "开放API - 市场数据、交易统计及上市公司信息的公开API"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/asia/taiwan/taiwan-twse.json"
     },
     {
       "id": "fia-fdi",

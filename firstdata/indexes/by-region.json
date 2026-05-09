@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-09T02:41:20.804235+00:00",
+    "generated_at": "2026-05-09T02:55:26.102252+00:00",
     "total_regions": 58,
-    "total_sources": 723,
+    "total_sources": 728,
     "version": "2.0"
   },
   "regions": {
@@ -492,6 +492,18 @@
         "has_api": false,
         "file_path": "china/construction/china-mohurd.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "china-shanghai-housing",
+        "name": {
+          "en": "Shanghai Municipal Housing and Urban-Rural Development Management Commission",
+          "zh": "上海市住房和城乡建设管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://zjw.sh.gov.cn/tjxx/",
+        "has_api": false,
+        "file_path": "china/construction/china-shanghai-housing.json",
+        "geographic_scope": "subnational"
       },
       {
         "id": "china-shenzhen-housing",
@@ -6886,6 +6898,54 @@
         "data_url": "https://eng.stat.gov.tw/",
         "has_api": false,
         "file_path": "countries/asia/taiwan/taiwan-dgbas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "taiwan-fsc",
+        "name": {
+          "en": "Taiwan Financial Supervisory Commission (FSC)",
+          "zh": "台湾金融监督管理委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.fsc.gov.tw/en/home.jsp?id=253&parentpath=0,7",
+        "has_api": false,
+        "file_path": "countries/asia/taiwan/taiwan-fsc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "taiwan-tier",
+        "name": {
+          "en": "Taiwan Institute of Economic Research (TIER)",
+          "zh": "台湾经济研究院"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.tier.org.tw/publications/",
+        "has_api": false,
+        "file_path": "countries/asia/taiwan/taiwan-tier.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "taiwan-tpex",
+        "name": {
+          "en": "Taipei Exchange (TPEx / OTC)",
+          "zh": "台湾证券柜台买卖中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.tpex.org.tw/web/stock/aftertrading/daily_trading_info/st43.php",
+        "has_api": false,
+        "file_path": "countries/asia/taiwan/taiwan-tpex.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "taiwan-twse",
+        "name": {
+          "en": "Taiwan Stock Exchange (TWSE)",
+          "zh": "台湾证券交易所"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.twse.com.tw/en/trading/statistics/fmsrfk.html",
+        "has_api": true,
+        "file_path": "countries/asia/taiwan/taiwan-twse.json",
         "geographic_scope": "national"
       }
     ],
