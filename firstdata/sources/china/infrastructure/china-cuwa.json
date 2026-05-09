@@ -1,0 +1,62 @@
+{
+  "id": "china-cuwa",
+  "name": {
+    "en": "China Urban Water Association",
+    "zh": "中国城镇供水排水协会"
+  },
+  "description": {
+    "en": "China Urban Water Association (CUWA), commonly known as China Water Association (中国水协), is the sole national-level non-profit industry association for urban water supply and drainage in China, established in 1985 under the supervision of the Ministry of Housing and Urban-Rural Development (MOHURD). Headquartered in Beijing, CUWA represents urban water utilities, drainage and wastewater treatment companies, pipe and equipment manufacturers, design and research institutes, and universities across China. The association publishes the authoritative China Urban Water Industry Statistical Yearbook (中国城镇供水排水行业统计年鉴), compiles industry benchmarks on water supply volumes, water quality compliance, non-revenue water (NRW) rates, pipeline network length, wastewater treatment capacity, reclaimed water utilization, tariff data, and utility financial performance. CUWA also organizes the annual China Urban Water Industry Development Report, the Water Quality Benchmark (水质督察), and the biennial Water China Expo. As the primary data source tracking China's urbanization-driven water infrastructure expansion, CUWA statistics are used by regulators, municipal governments, investors, consulting firms, and academic researchers for infrastructure planning, utility performance benchmarking, and sector policy analysis.",
+    "zh": "中国城镇供水排水协会（CUWA，简称中国水协）成立于1985年，是经住房和城乡建设部（MOHURD）主管、在民政部注册的国家一级行业协会，也是中国城镇供水排水领域唯一的全国性非营利行业组织。总部设在北京，会员涵盖全国城市自来水公司、排水及污水处理企业、管材设备制造商、设计科研院所和相关高校。协会发布权威的《中国城镇供水排水行业统计年鉴》，汇编供水量、水质达标率、产销差（NRW）漏损率、管网长度、污水处理能力、再生水利用量、水价数据及供排水企业经营绩效等行业基准指标。协会还组织年度《中国城镇水务行业发展报告》、水质督察、两年一度的中国水博会等。作为追踪中国城镇化带动水务基础设施扩张的最主要数据源，其统计数据广泛服务于行业监管部门、地方政府、投资机构、咨询公司和高校研究者，用于基础设施规划、水司运营绩效对标和行业政策分析。"
+  },
+  "website": "https://www.cuwa.org.cn",
+  "data_url": "https://www.cuwa.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "infrastructure",
+    "water",
+    "environment",
+    "utilities"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "cuwa",
+    "water-supply",
+    "drainage",
+    "wastewater",
+    "water-utility",
+    "urban-water",
+    "mohurd",
+    "industry-association",
+    "供水",
+    "排水",
+    "污水处理",
+    "水务",
+    "中国水协",
+    "城镇供水",
+    "管网漏损"
+  ],
+  "data_content": {
+    "en": [
+      "Industry Statistical Yearbook - Annual China Urban Water Industry Statistical Yearbook with comprehensive supply, drainage, and wastewater indicators by province and city",
+      "Water Supply Metrics - Annual and daily water supply volumes, per-capita consumption, service coverage rates, and non-revenue water (NRW) leakage benchmarks across urban utilities",
+      "Water Quality Data - Finished water and tap water quality compliance statistics (42-106 indicators), water quality benchmarking (水质督察) results for municipal utilities",
+      "Drainage and Wastewater - Pipeline network length, wastewater treatment plant capacity, treatment rates, sludge management, reclaimed water (中水) production and reuse statistics",
+      "Tariff and Financial Data - Water tariff structures and adjustments across 300+ cities, utility revenue, cost composition, capital expenditure, and investment trends",
+      "Industry Development Reports - Annual China Urban Water Industry Development Report, sector outlook, policy analyses, and M&A/investment tracking",
+      "Pipe and Equipment Statistics - Manufacturing capacity and market share data on water pipes, meters, pumps, and treatment equipment"
+    ],
+    "zh": [
+      "行业统计年鉴 - 年度《中国城镇供水排水行业统计年鉴》，按省、按市汇总供水、排水、污水处理各项核心指标",
+      "供水指标 - 全国城市年度和日均供水量、人均用水量、供水普及率、产销差（NRW）漏损率等运营基准",
+      "水质数据 - 出厂水和龙头水水质达标率（42~106项指标）、全国水质督察结果、重点城市自来水质量排名",
+      "排水与污水 - 排水管网长度、污水处理厂规模及处理率、污泥处置、再生水（中水）生产与利用统计",
+      "水价与财务 - 300多个城市水价结构及调价情况、水务企业营收、成本构成、资本开支及投资趋势",
+      "行业发展报告 - 年度《中国城镇水务行业发展报告》、行业展望、政策解读和并购投资动态",
+      "管材设备统计 - 给排水管材、水表、水泵、水处理设备的产能和市场份额数据"
+    ]
+  }
+}

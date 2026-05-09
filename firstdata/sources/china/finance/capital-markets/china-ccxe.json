@@ -1,0 +1,69 @@
+{
+  "id": "china-ccxe",
+  "name": {
+    "en": "Caixin Data (CCXE)",
+    "zh": "财新数据"
+  },
+  "description": {
+    "en": "Caixin Data (财新数据, CCXE), operated by Caixin Media, is one of China's most influential professional financial and economic data platforms, providing market-leading datasets on listed companies, bond issuers, macroeconomic indicators, financial markets, and sector intelligence. Headquartered in Beijing and Shanghai, Caixin is known for its independent and investigative financial journalism, and its data arm compiles and distributes a comprehensive suite of financial datasets used by institutional investors, research institutions, corporate finance and investor relations teams, and policymakers. The platform offers the Caixin China Manufacturing PMI (produced in partnership with S&P Global/Markit, one of the two most-watched monthly economic indicators for China alongside the National Bureau of Statistics PMI), the Caixin China Services PMI, the Caixin Composite PMI, Caixin Insight Group sectoral indexes, plus granular company, bond, fund, A-share/Hong Kong/US-listed Chinese enterprise data, corporate relationship graphs, people-entity databases, ESG data, and real-time market data. Caixin Data serves as a primary reference for China macroeconomic nowcasting, credit risk assessment, equity research, and cross-border investment analysis.",
+    "zh": "财新数据（CCXE）是财新传媒旗下专业金融经济数据平台，是中国最具影响力的市场化财经数据服务商之一，为机构投资者、研究机构、企业财务投资者关系部门和政策制定者提供覆盖上市公司、债券发行人、宏观经济指标、金融市场和行业情报的核心数据产品。财新总部分设北京和上海，以独立、深度的调查性财经报道著称，其数据业务汇编并分发全面的金融数据集。平台发布与 S&P Global/Markit 合作编制的财新中国制造业采购经理人指数（Caixin China Manufacturing PMI，与国家统计局PMI 并称中国最受关注的两大月度经济先行指标）、财新中国服务业 PMI、财新中国综合 PMI，以及财新智库（Caixin Insight）行业指数，并提供上市公司、债券、基金、A股/港股/中概股、公司关系图谱、人物与实体数据库、ESG 数据和实时行情数据。财新数据是中国宏观经济即时跟踪、信用风险评估、股票研究和跨境投资分析的主要数据参考之一。"
+  },
+  "website": "https://www.ccxe.com.cn",
+  "data_url": "https://www.ccxe.com.cn",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "capital-markets",
+    "macroeconomics"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "china",
+    "caixin",
+    "ccxe",
+    "pmi",
+    "caixin-pmi",
+    "financial-data",
+    "listed-companies",
+    "bonds",
+    "esg",
+    "a-shares",
+    "equity-research",
+    "macro-indicators",
+    "credit-risk",
+    "财新",
+    "财新数据",
+    "采购经理人指数",
+    "上市公司",
+    "债券",
+    "财新智库"
+  ],
+  "data_content": {
+    "en": [
+      "Caixin China PMI Series - Monthly Caixin China Manufacturing PMI, Services PMI, and Composite PMI (co-produced with S&P Global), widely regarded as a leading indicator for small and medium enterprise economic activity",
+      "Listed Company Data - Financial statements, disclosures, shareholder structure, insider transactions, and corporate actions for A-share, Hong Kong-listed, and US-listed Chinese companies",
+      "Bond and Credit Data - Corporate and government bond issuance, credit ratings, default events, bond yields, and issuer fundamentals",
+      "Fund Data - Mutual funds, private funds, ETFs, and asset management products including NAV, holdings, performance, and fee structures",
+      "Corporate Relationship Graphs - Equity holdings, personnel overlaps, related-party transactions, and ultimate beneficial owner (UBO) networks",
+      "People and Entity Database - Executive profiles, expert databases, litigation records, and political-business network data",
+      "ESG and Sustainability Data - Corporate ESG ratings, carbon emissions disclosures, green bond data, and sustainability reporting analytics",
+      "Caixin Insight Sector Indexes - Sectoral economic indexes and industry research reports on manufacturing, services, consumption, real estate, and technology",
+      "Real-time Market Data - A-share, Hong Kong, US-listed Chinese equities, commodities, forex, and bond market quotes"
+    ],
+    "zh": [
+      "财新中国 PMI 系列 - 月度财新中国制造业 PMI、服务业 PMI 和综合 PMI（与 S&P Global 合编），是反映中小企业经济活动的领先指标",
+      "上市公司数据 - A股、港股、中概股的财务报表、信息披露、股东结构、内部人交易和公司行动",
+      "债券与信用数据 - 企业债、政府债发行、信用评级、违约事件、债券收益率和发行人基本面",
+      "基金数据 - 公募基金、私募基金、ETF 及资管产品的净值、持仓、业绩和费率结构",
+      "公司关系图谱 - 股权持有、人员交叉、关联交易和最终受益人（UBO）网络",
+      "人物与实体数据库 - 高管档案、专家库、司法涉诉记录和政商网络数据",
+      "ESG 与可持续发展数据 - 企业 ESG 评级、碳排放披露、绿色债券数据和可持续报告分析",
+      "财新智库行业指数 - 制造业、服务业、消费、房地产、科技等行业经济指数和产业研究报告",
+      "实时行情数据 - A股、港股、中概股、大宗商品、外汇和债券市场报价"
+    ]
+  }
+}
