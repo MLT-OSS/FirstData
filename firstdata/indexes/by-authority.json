@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T06:37:13.190662+00:00",
-    "total_sources": 718,
+    "generated_at": "2026-05-09T02:41:20.804235+00:00",
+    "total_sources": 723,
     "authority_counts": {
-      "research": 136,
+      "research": 138,
       "international": 77,
       "government": 359,
-      "other": 70,
-      "market": 43,
+      "other": 72,
+      "market": 44,
       "commercial": 33
     },
     "version": "2.0"
@@ -289,6 +289,18 @@
         "data_url": "https://www.catas.cn",
         "has_api": false,
         "file_path": "china/economy/agriculture/china-catas.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-caeri",
+        "name": {
+          "en": "China Automotive Engineering Research Institute",
+          "zh": "中国汽车工程研究院股份有限公司"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.caeri.com.cn",
+        "has_api": false,
+        "file_path": "china/economy/automotive/china-caeri.json",
         "geographic_scope": "national"
       },
       {
@@ -1273,6 +1285,18 @@
         "data_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
         "has_api": false,
         "file_path": "china/technology/china-ccf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cie",
+        "name": {
+          "en": "Chinese Institute of Electronics",
+          "zh": "中国电子学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cie.org.cn",
+        "has_api": false,
+        "file_path": "china/technology/china-cie.json",
         "geographic_scope": "national"
       },
       {
@@ -7434,6 +7458,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cuwa",
+        "name": {
+          "en": "China Urban Water Association",
+          "zh": "中国城镇供水排水协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cuwa.org.cn",
+        "has_api": false,
+        "file_path": "china/infrastructure/china-cuwa.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ports-association",
         "name": {
           "en": "China Ports & Harbours Association",
@@ -7467,6 +7503,18 @@
         "data_url": "https://www.chinacace.org/patents/cycle_economy_report/",
         "has_api": false,
         "file_path": "china/resources/environment/china-cace.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-caghp",
+        "name": {
+          "en": "China Association of Geological Hazard Prevention and Ecological Restoration",
+          "zh": "中国地质灾害防治与生态修复协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.caghp.org.cn",
+        "has_api": false,
+        "file_path": "china/resources/environment/china-caghp.json",
         "geographic_scope": "national"
       },
       {
@@ -7925,6 +7973,18 @@
         "data_url": "https://www.capco.org.cn",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-capco.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ccxe",
+        "name": {
+          "en": "Caixin Data (CCXE)",
+          "zh": "财新数据"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.ccxe.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/capital-markets/china-ccxe.json",
         "geographic_scope": "national"
       },
       {

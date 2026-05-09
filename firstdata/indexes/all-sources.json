@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-08T06:37:13.190662+00:00",
-    "total_sources": 718,
+    "generated_at": "2026-05-09T02:41:20.804235+00:00",
+    "total_sources": 723,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -3755,6 +3755,77 @@
       },
       "has_api": false,
       "file_path": "china/economy/agriculture/fishery/china-bof.json"
+    },
+    {
+      "id": "china-caeri",
+      "name": {
+        "en": "China Automotive Engineering Research Institute",
+        "zh": "中国汽车工程研究院股份有限公司"
+      },
+      "description": {
+        "en": "China Automotive Engineering Research Institute Co., Ltd. (CAERI, 中国汽研), founded in 1965 and headquartered in Chongqing, is one of the three national-level comprehensive automotive technology research and testing centers in China, under the oversight of State-owned Assets Supervision and Administration Commission (SASAC) through its parent company China General Technology Group. Listed on the Shanghai Stock Exchange (stock code 601965) since 2012, CAERI operates national key laboratories for commercial vehicle development and vehicle emissions inspection, and provides authoritative third-party testing, certification, engineering consulting, equipment manufacturing, and strategic consulting services across the automotive value chain. CAERI publishes the influential China Automotive Product Indexes including the China Insurance Automotive Safety Index (C-IASI), China Automotive Health Index (C-AHI), China New Energy Vehicle Evaluation Index (C-NCAP supplementary indexes), China Intelligent Vehicle Index (i-VISTA), Electric Vehicle Battery Safety Index, and Commercial Vehicle Safety and Technology Evaluation Index. The organization serves as a core data provider for automotive type approval, crash safety testing, emissions compliance, autonomous driving evaluation, and EV battery/motor/electronics certification, with datasets used by regulators (MIIT, SAMR), OEMs, insurers, consumers, and policymakers for market intelligence, safety benchmarking, and technology roadmapping.",
+        "zh": "中国汽车工程研究院股份有限公司（CAERI，中国汽研）成立于1965年，总部设在重庆，是国务院国资委下属中国通用技术集团旗下的国家级综合性汽车技术研究与检测机构，与中汽中心（CATARC）、长春汽研并称中国汽车工业三大研究基地。公司2012年在上海证券交易所上市（股票代码601965），运营商用车开发国家重点实验室、汽车噪声振动和安全技术国家重点实验室、汽车尾气及环保国家检测中心，提供覆盖汽车全产业链的权威第三方检测、认证、工程咨询、专用设备制造和战略咨询服务。CAERI 发布具有行业影响力的中国汽车产品指数体系，包括中国保险汽车安全指数（C-IASI）、中国汽车健康指数（C-AHI）、中国新能源汽车评价指数、中国智能汽车指数（i-VISTA）、电动车电池安全指数、商用车安全和技术评价指数等。机构是汽车型式认证、碰撞安全测试、排放合规、自动驾驶评估、三电（电池/电机/电控）检测的核心数据提供者，其数据服务于工信部、市场监管总局等监管部门，以及整车厂、保险公司、消费者和政策制定者，用于市场情报、安全对标和技术路线规划。"
+      },
+      "website": "https://www.caeri.com.cn",
+      "data_url": "https://www.caeri.com.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "automotive",
+        "research",
+        "technology",
+        "transportation",
+        "industry"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "china",
+        "caeri",
+        "automotive-research",
+        "vehicle-testing",
+        "crash-safety",
+        "c-iasi",
+        "c-ahi",
+        "i-vista",
+        "c-ncap",
+        "emissions-testing",
+        "ev-battery",
+        "autonomous-driving",
+        "sasac",
+        "chongqing",
+        "中国汽研",
+        "汽车检测",
+        "碰撞安全",
+        "智能汽车指数",
+        "新能源汽车",
+        "三电检测"
+      ],
+      "data_content": {
+        "en": [
+          "China Insurance Automotive Safety Index (C-IASI) - Crash test results, occupant protection, vehicle damage repair economy, and pedestrian protection ratings for passenger vehicles",
+          "China Automotive Health Index (C-AHI) - In-cabin VOC/aldehyde emissions, particulate matter, electromagnetic radiation, and allergen testing results across vehicle models",
+          "China Intelligent Vehicle Index (i-VISTA) - Autonomous driving capability ratings, ADAS performance, connected vehicle security, and human-machine interaction evaluations",
+          "New Energy Vehicle Evaluation Index - EV range, fast-charging performance, energy consumption, cold/hot weather endurance, and battery degradation testing data",
+          "Battery Safety Index - Lithium-ion battery pack safety testing including thermal runaway, mechanical abuse, electrical abuse, and environmental reliability",
+          "Commercial Vehicle Indexes - Heavy-duty truck and bus safety evaluations, fuel economy benchmarks, and aftermarket reliability data",
+          "Emissions and Certification Testing - Vehicle type approval testing (CCC certification), emissions compliance (China 6), fuel consumption labeling, and NEV Technology Access data",
+          "Industry Reports and Consulting - White papers on autonomous driving, NEV market, intelligent connected vehicle (ICV) industry trends, and technology roadmaps"
+        ],
+        "zh": [
+          "中国保险汽车安全指数（C-IASI）- 乘用车碰撞测试结果、乘员保护、车辆损伤修复经济性、行人保护评级",
+          "中国汽车健康指数（C-AHI）- 车内 VOC/醛类排放、PM 颗粒物、电磁辐射、过敏原等车型测试结果",
+          "中国智能汽车指数（i-VISTA）- 自动驾驶能力评级、ADAS 性能、网联汽车安全、人机交互评价",
+          "新能源汽车评价指数 - 电动车续航、快充性能、能耗、冷热天气续航衰减及电池衰减测试数据",
+          "电池安全指数 - 锂电池包安全测试（热失控、机械滥用、电滥用、环境可靠性）",
+          "商用车指数 - 重卡和客车安全评价、燃油经济性对标及售后可靠性数据",
+          "排放与认证检测 - 车辆型式认证（CCC）、国六排放合规、油耗标签、新能源车技术准入数据",
+          "行业报告与咨询 - 自动驾驶、新能源汽车、智能网联汽车（ICV）产业趋势白皮书和技术路线图"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/automotive/china-caeri.json"
     },
     {
       "id": "china-passenger-car-association",
@@ -12031,6 +12102,77 @@
       "file_path": "china/finance/capital-markets/china-capco.json"
     },
     {
+      "id": "china-ccxe",
+      "name": {
+        "en": "Caixin Data (CCXE)",
+        "zh": "财新数据"
+      },
+      "description": {
+        "en": "Caixin Data (财新数据, CCXE), operated by Caixin Media, is one of China's most influential professional financial and economic data platforms, providing market-leading datasets on listed companies, bond issuers, macroeconomic indicators, financial markets, and sector intelligence. Headquartered in Beijing and Shanghai, Caixin is known for its independent and investigative financial journalism, and its data arm compiles and distributes a comprehensive suite of financial datasets used by institutional investors, research institutions, corporate finance and investor relations teams, and policymakers. The platform offers the Caixin China Manufacturing PMI (produced in partnership with S&P Global/Markit, one of the two most-watched monthly economic indicators for China alongside the National Bureau of Statistics PMI), the Caixin China Services PMI, the Caixin Composite PMI, Caixin Insight Group sectoral indexes, plus granular company, bond, fund, A-share/Hong Kong/US-listed Chinese enterprise data, corporate relationship graphs, people-entity databases, ESG data, and real-time market data. Caixin Data serves as a primary reference for China macroeconomic nowcasting, credit risk assessment, equity research, and cross-border investment analysis.",
+        "zh": "财新数据（CCXE）是财新传媒旗下专业金融经济数据平台，是中国最具影响力的市场化财经数据服务商之一，为机构投资者、研究机构、企业财务投资者关系部门和政策制定者提供覆盖上市公司、债券发行人、宏观经济指标、金融市场和行业情报的核心数据产品。财新总部分设北京和上海，以独立、深度的调查性财经报道著称，其数据业务汇编并分发全面的金融数据集。平台发布与 S&P Global/Markit 合作编制的财新中国制造业采购经理人指数（Caixin China Manufacturing PMI，与国家统计局PMI 并称中国最受关注的两大月度经济先行指标）、财新中国服务业 PMI、财新中国综合 PMI，以及财新智库（Caixin Insight）行业指数，并提供上市公司、债券、基金、A股/港股/中概股、公司关系图谱、人物与实体数据库、ESG 数据和实时行情数据。财新数据是中国宏观经济即时跟踪、信用风险评估、股票研究和跨境投资分析的主要数据参考之一。"
+      },
+      "website": "https://www.ccxe.com.cn",
+      "data_url": "https://www.ccxe.com.cn",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "capital-markets",
+        "macroeconomics"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "china",
+        "caixin",
+        "ccxe",
+        "pmi",
+        "caixin-pmi",
+        "financial-data",
+        "listed-companies",
+        "bonds",
+        "esg",
+        "a-shares",
+        "equity-research",
+        "macro-indicators",
+        "credit-risk",
+        "财新",
+        "财新数据",
+        "采购经理人指数",
+        "上市公司",
+        "债券",
+        "财新智库"
+      ],
+      "data_content": {
+        "en": [
+          "Caixin China PMI Series - Monthly Caixin China Manufacturing PMI, Services PMI, and Composite PMI (co-produced with S&P Global), widely regarded as a leading indicator for small and medium enterprise economic activity",
+          "Listed Company Data - Financial statements, disclosures, shareholder structure, insider transactions, and corporate actions for A-share, Hong Kong-listed, and US-listed Chinese companies",
+          "Bond and Credit Data - Corporate and government bond issuance, credit ratings, default events, bond yields, and issuer fundamentals",
+          "Fund Data - Mutual funds, private funds, ETFs, and asset management products including NAV, holdings, performance, and fee structures",
+          "Corporate Relationship Graphs - Equity holdings, personnel overlaps, related-party transactions, and ultimate beneficial owner (UBO) networks",
+          "People and Entity Database - Executive profiles, expert databases, litigation records, and political-business network data",
+          "ESG and Sustainability Data - Corporate ESG ratings, carbon emissions disclosures, green bond data, and sustainability reporting analytics",
+          "Caixin Insight Sector Indexes - Sectoral economic indexes and industry research reports on manufacturing, services, consumption, real estate, and technology",
+          "Real-time Market Data - A-share, Hong Kong, US-listed Chinese equities, commodities, forex, and bond market quotes"
+        ],
+        "zh": [
+          "财新中国 PMI 系列 - 月度财新中国制造业 PMI、服务业 PMI 和综合 PMI（与 S&P Global 合编），是反映中小企业经济活动的领先指标",
+          "上市公司数据 - A股、港股、中概股的财务报表、信息披露、股东结构、内部人交易和公司行动",
+          "债券与信用数据 - 企业债、政府债发行、信用评级、违约事件、债券收益率和发行人基本面",
+          "基金数据 - 公募基金、私募基金、ETF 及资管产品的净值、持仓、业绩和费率结构",
+          "公司关系图谱 - 股权持有、人员交叉、关联交易和最终受益人（UBO）网络",
+          "人物与实体数据库 - 高管档案、专家库、司法涉诉记录和政商网络数据",
+          "ESG 与可持续发展数据 - 企业 ESG 评级、碳排放披露、绿色债券数据和可持续报告分析",
+          "财新智库行业指数 - 制造业、服务业、消费、房地产、科技等行业经济指数和产业研究报告",
+          "实时行情数据 - A股、港股、中概股、大宗商品、外汇和债券市场报价"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/capital-markets/china-ccxe.json"
+    },
+    {
       "id": "china-cfa",
       "name": {
         "en": "China Futures Association",
@@ -19654,6 +19796,70 @@
       "file_path": "china/infrastructure/china-cttic.json"
     },
     {
+      "id": "china-cuwa",
+      "name": {
+        "en": "China Urban Water Association",
+        "zh": "中国城镇供水排水协会"
+      },
+      "description": {
+        "en": "China Urban Water Association (CUWA), commonly known as China Water Association (中国水协), is the sole national-level non-profit industry association for urban water supply and drainage in China, established in 1985 under the supervision of the Ministry of Housing and Urban-Rural Development (MOHURD). Headquartered in Beijing, CUWA represents urban water utilities, drainage and wastewater treatment companies, pipe and equipment manufacturers, design and research institutes, and universities across China. The association publishes the authoritative China Urban Water Industry Statistical Yearbook (中国城镇供水排水行业统计年鉴), compiles industry benchmarks on water supply volumes, water quality compliance, non-revenue water (NRW) rates, pipeline network length, wastewater treatment capacity, reclaimed water utilization, tariff data, and utility financial performance. CUWA also organizes the annual China Urban Water Industry Development Report, the Water Quality Benchmark (水质督察), and the biennial Water China Expo. As the primary data source tracking China's urbanization-driven water infrastructure expansion, CUWA statistics are used by regulators, municipal governments, investors, consulting firms, and academic researchers for infrastructure planning, utility performance benchmarking, and sector policy analysis.",
+        "zh": "中国城镇供水排水协会（CUWA，简称中国水协）成立于1985年，是经住房和城乡建设部（MOHURD）主管、在民政部注册的国家一级行业协会，也是中国城镇供水排水领域唯一的全国性非营利行业组织。总部设在北京，会员涵盖全国城市自来水公司、排水及污水处理企业、管材设备制造商、设计科研院所和相关高校。协会发布权威的《中国城镇供水排水行业统计年鉴》，汇编供水量、水质达标率、产销差（NRW）漏损率、管网长度、污水处理能力、再生水利用量、水价数据及供排水企业经营绩效等行业基准指标。协会还组织年度《中国城镇水务行业发展报告》、水质督察、两年一度的中国水博会等。作为追踪中国城镇化带动水务基础设施扩张的最主要数据源，其统计数据广泛服务于行业监管部门、地方政府、投资机构、咨询公司和高校研究者，用于基础设施规划、水司运营绩效对标和行业政策分析。"
+      },
+      "website": "https://www.cuwa.org.cn",
+      "data_url": "https://www.cuwa.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "infrastructure",
+        "water",
+        "environment",
+        "utilities"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "cuwa",
+        "water-supply",
+        "drainage",
+        "wastewater",
+        "water-utility",
+        "urban-water",
+        "mohurd",
+        "industry-association",
+        "供水",
+        "排水",
+        "污水处理",
+        "水务",
+        "中国水协",
+        "城镇供水",
+        "管网漏损"
+      ],
+      "data_content": {
+        "en": [
+          "Industry Statistical Yearbook - Annual China Urban Water Industry Statistical Yearbook with comprehensive supply, drainage, and wastewater indicators by province and city",
+          "Water Supply Metrics - Annual and daily water supply volumes, per-capita consumption, service coverage rates, and non-revenue water (NRW) leakage benchmarks across urban utilities",
+          "Water Quality Data - Finished water and tap water quality compliance statistics (42-106 indicators), water quality benchmarking (水质督察) results for municipal utilities",
+          "Drainage and Wastewater - Pipeline network length, wastewater treatment plant capacity, treatment rates, sludge management, reclaimed water (中水) production and reuse statistics",
+          "Tariff and Financial Data - Water tariff structures and adjustments across 300+ cities, utility revenue, cost composition, capital expenditure, and investment trends",
+          "Industry Development Reports - Annual China Urban Water Industry Development Report, sector outlook, policy analyses, and M&A/investment tracking",
+          "Pipe and Equipment Statistics - Manufacturing capacity and market share data on water pipes, meters, pumps, and treatment equipment"
+        ],
+        "zh": [
+          "行业统计年鉴 - 年度《中国城镇供水排水行业统计年鉴》，按省、按市汇总供水、排水、污水处理各项核心指标",
+          "供水指标 - 全国城市年度和日均供水量、人均用水量、供水普及率、产销差（NRW）漏损率等运营基准",
+          "水质数据 - 出厂水和龙头水水质达标率（42~106项指标）、全国水质督察结果、重点城市自来水质量排名",
+          "排水与污水 - 排水管网长度、污水处理厂规模及处理率、污泥处置、再生水（中水）生产与利用统计",
+          "水价与财务 - 300多个城市水价结构及调价情况、水务企业营收、成本构成、资本开支及投资趋势",
+          "行业发展报告 - 年度《中国城镇水务行业发展报告》、行业展望、政策解读和并购投资动态",
+          "管材设备统计 - 给排水管材、水表、水泵、水处理设备的产能和市场份额数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/infrastructure/china-cuwa.json"
+    },
+    {
       "id": "china-highway-society",
       "name": {
         "en": "China Highway and Transportation Society",
@@ -26255,6 +26461,74 @@
       "file_path": "china/resources/environment/china-caep.json"
     },
     {
+      "id": "china-caghp",
+      "name": {
+        "en": "China Association of Geological Hazard Prevention and Ecological Restoration",
+        "zh": "中国地质灾害防治与生态修复协会"
+      },
+      "description": {
+        "en": "The China Association of Geological Hazard Prevention and Ecological Restoration (CAGHP, 中国地质灾害防治与生态修复协会), established in 2004 and headquartered in Beijing, is the national-level non-profit industry association for geological hazard investigation, monitoring, early warning, emergency response, mitigation engineering, and ecological restoration under the oversight of the Ministry of Natural Resources of China (MNR). CAGHP brings together more than 1,000 group members and 4,000 individual members from geological survey institutes, universities, design and engineering firms, monitoring equipment manufacturers, and qualified hazard treatment contractors. The association maintains industry qualification registries (landslide/debris flow investigation, monitoring, engineering survey, design, and construction licenses), publishes the national geological hazard prevention and ecological restoration industry development report, and administers the authoritative CAGHP Science and Technology Awards. It also operates technical specialty committees covering landslide and debris flow, karst collapse, mine geo-environment restoration, land subsidence, monitoring and early warning, emergency response, and urban underground space geology. As a key data source supporting China's geological disaster defense and the 'Mountain-Water-Forest-Farmland-Lake-Grass-Sand' integrated ecological restoration strategy, CAGHP statistics and qualified-contractor directories are used by MNR, provincial geological hazard offices, ecological restoration project owners, insurance companies, and academic researchers for risk assessment, project procurement, capacity benchmarking, and sector regulation.",
+        "zh": "中国地质灾害防治与生态修复协会（CAGHP）成立于2004年，总部设在北京，是由自然资源部（MNR）主管、在民政部注册的国家一级行业协会，也是中国地质灾害调查、监测预警、应急响应、防治工程和生态修复领域的全国性非营利组织。协会拥有1,000多家团体会员和4,000多名个人会员，涵盖地质调查院所、高校、勘查设计企业、工程施工单位、监测设备制造商和获证灾害治理承包商。协会维护行业资质登记（滑坡/泥石流调查、监测、勘查、设计、施工资质等）、发布全国地质灾害防治与生态修复行业发展年度报告、评选权威的中国地质灾害防治与生态修复协会科学技术奖。协会下设滑坡与泥石流、岩溶塌陷、矿山地质环境修复、地面沉降、监测预警、应急处置、城市地下空间地质等专业委员会。作为服务中国地质灾害防治和'山水林田湖草沙'一体化保护与系统治理战略的重要数据源，协会的统计数据和资质企业名录被自然资源部、各省地质灾害防治办公室、生态修复项目业主、保险公司及高校研究者广泛用于风险评估、项目招投标、行业能力对标和监管决策。"
+      },
+      "website": "https://www.caghp.org.cn",
+      "data_url": "https://www.caghp.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "geology",
+        "environment",
+        "disaster-management",
+        "ecological-restoration",
+        "natural-resources"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "caghp",
+        "geological-hazards",
+        "ecological-restoration",
+        "landslide",
+        "debris-flow",
+        "mine-restoration",
+        "land-subsidence",
+        "mnr",
+        "disaster-prevention",
+        "industry-association",
+        "地质灾害",
+        "生态修复",
+        "滑坡",
+        "泥石流",
+        "矿山修复",
+        "地面沉降",
+        "山水林田湖草沙",
+        "应急响应"
+      ],
+      "data_content": {
+        "en": [
+          "Geological Hazard Industry Statistics - National statistics on landslides, debris flows, rockfalls, ground fissures, karst collapses, and land subsidence events, along with treated hazard sites, monitoring stations, and investment data",
+          "Qualified Contractor Directory - Registered companies and their grades for geological hazard investigation, monitoring, engineering survey, design, construction, and supervision",
+          "Ecological Restoration Project Database - Mine geo-environment restoration projects, abandoned-mine land rehabilitation, and 'Mountain-Water-Forest-Farmland-Lake-Grass-Sand' pilot project outcomes",
+          "Industry Development Reports - Annual report on China's geological hazard prevention and ecological restoration industry, sector outlook, policy analysis, and technology trends",
+          "Monitoring and Early Warning Standards - Technical specifications for slope monitoring, deformation early warning, debris-flow rainfall thresholds, and smart monitoring equipment benchmarks",
+          "Science and Technology Awards - Winning projects of the CAGHP Science and Technology Awards covering disaster prevention engineering, restoration technologies, and monitoring innovations",
+          "Training and Certification Data - Qualified professionals, continuing-education hours, and qualification examinations in geological hazard and ecological restoration sectors"
+        ],
+        "zh": [
+          "地质灾害行业统计 - 全国滑坡、泥石流、崩塌、地裂缝、岩溶塌陷、地面沉降等灾害事件统计及已治理隐患点、监测站点和投资数据",
+          "资质企业目录 - 地质灾害调查、监测、勘查、设计、施工、监理各类资质企业及等级登记",
+          "生态修复项目库 - 矿山地质环境修复项目、废弃矿山土地复垦、'山水林田湖草沙'一体化试点项目成效数据",
+          "行业发展报告 - 《全国地质灾害防治与生态修复行业发展报告》年度版、行业展望、政策解读和技术趋势",
+          "监测预警标准 - 边坡监测、变形预警、泥石流降雨临界值、智能监测设备的技术规范和基准",
+          "科学技术奖 - 协会科学技术奖获奖项目，涵盖灾害防治工程、修复技术和监测创新",
+          "培训与认证数据 - 地质灾害和生态修复领域持证专业人员、继续教育学时和资格考试统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/environment/china-caghp.json"
+    },
+    {
       "id": "china-ceads",
       "name": {
         "en": "Carbon Emission Accounts and Datasets for China (CEADs)",
@@ -29118,6 +29392,76 @@
       },
       "has_api": false,
       "file_path": "china/technology/china-ccf.json"
+    },
+    {
+      "id": "china-cie",
+      "name": {
+        "en": "Chinese Institute of Electronics",
+        "zh": "中国电子学会"
+      },
+      "description": {
+        "en": "The Chinese Institute of Electronics (CIE), founded in 1962 and headquartered in Beijing, is the national-level academic society for electronics and information science in China, affiliated with the Ministry of Industry and Information Technology (MIIT) and a constituent member of the China Association for Science and Technology (CAST). CIE brings together over 100,000 individual members and 600 group members from universities, national research institutes, state-owned and private electronics enterprises, and the armed forces electronic industry. The society operates more than 50 professional committees covering semiconductors, integrated circuits, microelectronics, communications, radar, artificial intelligence, robotics, consumer electronics, smart manufacturing, blockchain, quantum information, and aerospace electronics. CIE publishes flagship industry reports including the China Integrated Circuit Industry Development Blue Book (中国集成电路产业发展蓝皮书), China Robotics Industry Development Report, China Artificial Intelligence Development Report, China Consumer Electronics Industry Blue Book, and the CIE Engineering Series academic journals. The institute also operates the National Expert Database, organizes the World Semiconductor Conference, the World Robot Conference (partner), the World 5G Convention, and manages key industry award programs such as the CIE Science and Technology Awards. As one of the most authoritative non-governmental sources on China's electronics and ICT industry, CIE data is widely used by MIIT, NDRC, OEMs, investors, and research institutions for industry monitoring, technology roadmapping, and policy-making.",
+        "zh": "中国电子学会（CIE）成立于1962年，总部设在北京，是工业和信息化部（MIIT）主管、中国科协（CAST）团体会员、国家一级学术社团，也是中国电子与信息科学领域的国家级学术共同体。学会拥有10万余名个人会员和600多家团体会员，覆盖高校、国家级科研院所、大中型国有及民营电子企业和军工电子单位。下设50余个专业分会和工作委员会，涵盖半导体、集成电路、微电子、通信、雷达、人工智能、机器人、消费电子、智能制造、区块链、量子信息、航天电子等领域。CIE 发布《中国集成电路产业发展蓝皮书》、《中国机器人产业发展报告》、《中国人工智能发展报告》、《中国消费电子产业蓝皮书》等权威行业报告，主办《电子学报》《电子学报英文版》《电子与信息学报》等核心学术期刊。学会运营国家专家库，承办世界半导体大会、世界机器人大会（联合主办）、世界5G大会，设立中国电子学会科学技术奖等权威奖项。作为中国电子与信息通信产业最具权威性的非政府数据源之一，其数据被工信部、发改委、整机企业、投资机构和科研单位广泛用于行业监测、技术路线图制定和政策咨询。"
+      },
+      "website": "https://www.cie.org.cn",
+      "data_url": "https://www.cie.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "electronics",
+        "technology",
+        "semiconductors",
+        "artificial-intelligence",
+        "robotics",
+        "research"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "china",
+        "cie",
+        "electronics",
+        "integrated-circuit",
+        "semiconductor",
+        "robotics",
+        "artificial-intelligence",
+        "miit",
+        "cast",
+        "academic-society",
+        "中国电子学会",
+        "集成电路",
+        "半导体",
+        "机器人",
+        "人工智能",
+        "消费电子",
+        "电子学报",
+        "蓝皮书"
+      ],
+      "data_content": {
+        "en": [
+          "China Integrated Circuit Industry Blue Book - Annual comprehensive report on China's IC design, manufacturing, packaging, and equipment industries with market size, growth rates, and company rankings",
+          "China Robotics Industry Development Report - Industrial robots, service robots, and special-purpose robots production, sales, application statistics, and key technology benchmarks",
+          "China AI Development Report - AI industry scale, algorithm/chip/application progress, talent data, patent statistics, and leading enterprises",
+          "China Consumer Electronics Industry Blue Book - Smartphone, smart home, wearable devices, and AR/VR market data, export data, and technology trends",
+          "Academic Journals Database - Peer-reviewed papers from Acta Electronica Sinica, Journal of Electronics & Information Technology, and Chinese Journal of Electronics",
+          "Expert Database and Talent Statistics - National-level electronics/IT experts directory, R&D workforce distribution across specializations",
+          "Industry Standards and Whitepapers - Technology roadmaps and standards for quantum information, blockchain, industrial internet, smart city, and 5G/6G applications",
+          "Conference Proceedings - Papers and presentations from World Semiconductor Conference, World Robot Conference, World 5G Convention, and other CIE-organized events"
+        ],
+        "zh": [
+          "中国集成电路产业蓝皮书 - 年度发布，覆盖 IC 设计、制造、封测、装备产业的市场规模、增速和企业排名",
+          "中国机器人产业发展报告 - 工业机器人、服务机器人、特种机器人的产销量、应用统计和关键技术对标",
+          "中国人工智能发展报告 - AI 产业规模、算法/芯片/应用进展、人才数据、专利统计和头部企业",
+          "中国消费电子产业蓝皮书 - 智能手机、智能家居、可穿戴、AR/VR 市场数据、出口数据和技术趋势",
+          "学术期刊数据库 - 《电子学报》《电子与信息学报》《电子学报英文版》等核心期刊论文",
+          "专家库与人才统计 - 国家级电子信息领域专家名录、按细分专业分布的研发人员数据",
+          "行业标准与白皮书 - 量子信息、区块链、工业互联网、智慧城市、5G/6G 等领域技术路线图和标准",
+          "会议论文集 - 世界半导体大会、世界机器人大会、世界 5G 大会等学会主办大会的论文与报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-cie.json"
     },
     {
       "id": "china-cmse",
