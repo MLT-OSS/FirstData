@@ -1,0 +1,59 @@
+{
+  "id": "china-cnitsec",
+  "name": {
+    "en": "China Information Technology Security Evaluation Centre",
+    "zh": "中国信息安全测评中心"
+  },
+  "description": {
+    "en": "China Information Technology Security Evaluation Centre (CNITSEC), established in 1997 under the State Security Administration, is China's national authority for cybersecurity evaluation, certification, and testing of IT products, systems, and services. CNITSEC conducts Common Criteria evaluations, national classified protection assessments, and vulnerability assessments for government and critical infrastructure systems. It publishes security evaluation standards, certified product lists, security advisories, and annual cybersecurity threat assessment reports that serve as authoritative references for China's information security governance.",
+    "zh": "中国信息安全测评中心（CNITSEC）成立于1997年，隶属国家安全行政管理机构，是中国负责IT产品、系统和服务网络安全测评、认证与检测的国家权威机构。CNITSEC开展通用准则测评、国家等级保护测评及政府与关键基础设施系统漏洞评估，发布安全测评标准、认证产品目录、安全公告及年度网络安全威胁评估报告，是中国信息安全治理的权威参考依据。"
+  },
+  "website": "http://www.itsec.gov.cn",
+  "data_url": "http://www.itsec.gov.cn/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "cybersecurity",
+    "governance"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "cnitsec",
+    "中国信息安全测评中心",
+    "cybersecurity",
+    "网络安全测评",
+    "it-security-evaluation",
+    "信息安全认证",
+    "common-criteria",
+    "等级保护",
+    "classified-protection",
+    "vulnerability-assessment",
+    "漏洞评估",
+    "security-certification",
+    "critical-infrastructure",
+    "cyber-threat"
+  ],
+  "data_content": {
+    "en": [
+      "Certified IT security product lists and evaluation results",
+      "National classified protection (MLPS) assessment standards and guidance",
+      "Common Criteria (CC) evaluation reports for IT products",
+      "Cybersecurity vulnerability advisories and threat bulletins",
+      "Annual cybersecurity threat assessment reports",
+      "Security testing standards and methodology documents",
+      "Information security governance policy references"
+    ],
+    "zh": [
+      "通过安全认证的IT产品目录与测评结果",
+      "网络安全等级保护（MLPS）评估标准与指南",
+      "IT产品通用准则（CC）测评报告",
+      "网络安全漏洞公告与威胁通报",
+      "年度网络安全威胁评估报告",
+      "安全测试标准与方法文件",
+      "信息安全治理政策参考资料"
+    ]
+  }
+}
