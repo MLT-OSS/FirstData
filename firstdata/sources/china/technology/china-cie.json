@@ -1,0 +1,68 @@
+{
+  "id": "china-cie",
+  "name": {
+    "en": "Chinese Institute of Electronics",
+    "zh": "中国电子学会"
+  },
+  "description": {
+    "en": "The Chinese Institute of Electronics (CIE), founded in 1962 and headquartered in Beijing, is the national-level academic society for electronics and information science in China, affiliated with the Ministry of Industry and Information Technology (MIIT) and a constituent member of the China Association for Science and Technology (CAST). CIE brings together over 100,000 individual members and 600 group members from universities, national research institutes, state-owned and private electronics enterprises, and the armed forces electronic industry. The society operates more than 50 professional committees covering semiconductors, integrated circuits, microelectronics, communications, radar, artificial intelligence, robotics, consumer electronics, smart manufacturing, blockchain, quantum information, and aerospace electronics. CIE publishes flagship industry reports including the China Integrated Circuit Industry Development Blue Book (中国集成电路产业发展蓝皮书), China Robotics Industry Development Report, China Artificial Intelligence Development Report, China Consumer Electronics Industry Blue Book, and the CIE Engineering Series academic journals. The institute also operates the National Expert Database, organizes the World Semiconductor Conference, the World Robot Conference (partner), the World 5G Convention, and manages key industry award programs such as the CIE Science and Technology Awards. As one of the most authoritative non-governmental sources on China's electronics and ICT industry, CIE data is widely used by MIIT, NDRC, OEMs, investors, and research institutions for industry monitoring, technology roadmapping, and policy-making.",
+    "zh": "中国电子学会（CIE）成立于1962年，总部设在北京，是工业和信息化部（MIIT）主管、中国科协（CAST）团体会员、国家一级学术社团，也是中国电子与信息科学领域的国家级学术共同体。学会拥有10万余名个人会员和600多家团体会员，覆盖高校、国家级科研院所、大中型国有及民营电子企业和军工电子单位。下设50余个专业分会和工作委员会，涵盖半导体、集成电路、微电子、通信、雷达、人工智能、机器人、消费电子、智能制造、区块链、量子信息、航天电子等领域。CIE 发布《中国集成电路产业发展蓝皮书》、《中国机器人产业发展报告》、《中国人工智能发展报告》、《中国消费电子产业蓝皮书》等权威行业报告，主办《电子学报》《电子学报英文版》《电子与信息学报》等核心学术期刊。学会运营国家专家库，承办世界半导体大会、世界机器人大会（联合主办）、世界5G大会，设立中国电子学会科学技术奖等权威奖项。作为中国电子与信息通信产业最具权威性的非政府数据源之一，其数据被工信部、发改委、整机企业、投资机构和科研单位广泛用于行业监测、技术路线图制定和政策咨询。"
+  },
+  "website": "https://www.cie.org.cn",
+  "data_url": "https://www.cie.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "electronics",
+    "technology",
+    "semiconductors",
+    "artificial-intelligence",
+    "robotics",
+    "research"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "china",
+    "cie",
+    "electronics",
+    "integrated-circuit",
+    "semiconductor",
+    "robotics",
+    "artificial-intelligence",
+    "miit",
+    "cast",
+    "academic-society",
+    "中国电子学会",
+    "集成电路",
+    "半导体",
+    "机器人",
+    "人工智能",
+    "消费电子",
+    "电子学报",
+    "蓝皮书"
+  ],
+  "data_content": {
+    "en": [
+      "China Integrated Circuit Industry Blue Book - Annual comprehensive report on China's IC design, manufacturing, packaging, and equipment industries with market size, growth rates, and company rankings",
+      "China Robotics Industry Development Report - Industrial robots, service robots, and special-purpose robots production, sales, application statistics, and key technology benchmarks",
+      "China AI Development Report - AI industry scale, algorithm/chip/application progress, talent data, patent statistics, and leading enterprises",
+      "China Consumer Electronics Industry Blue Book - Smartphone, smart home, wearable devices, and AR/VR market data, export data, and technology trends",
+      "Academic Journals Database - Peer-reviewed papers from Acta Electronica Sinica, Journal of Electronics & Information Technology, and Chinese Journal of Electronics",
+      "Expert Database and Talent Statistics - National-level electronics/IT experts directory, R&D workforce distribution across specializations",
+      "Industry Standards and Whitepapers - Technology roadmaps and standards for quantum information, blockchain, industrial internet, smart city, and 5G/6G applications",
+      "Conference Proceedings - Papers and presentations from World Semiconductor Conference, World Robot Conference, World 5G Convention, and other CIE-organized events"
+    ],
+    "zh": [
+      "中国集成电路产业蓝皮书 - 年度发布，覆盖 IC 设计、制造、封测、装备产业的市场规模、增速和企业排名",
+      "中国机器人产业发展报告 - 工业机器人、服务机器人、特种机器人的产销量、应用统计和关键技术对标",
+      "中国人工智能发展报告 - AI 产业规模、算法/芯片/应用进展、人才数据、专利统计和头部企业",
+      "中国消费电子产业蓝皮书 - 智能手机、智能家居、可穿戴、AR/VR 市场数据、出口数据和技术趋势",
+      "学术期刊数据库 - 《电子学报》《电子与信息学报》《电子学报英文版》等核心期刊论文",
+      "专家库与人才统计 - 国家级电子信息领域专家名录、按细分专业分布的研发人员数据",
+      "行业标准与白皮书 - 量子信息、区块链、工业互联网、智慧城市、5G/6G 等领域技术路线图和标准",
+      "会议论文集 - 世界半导体大会、世界机器人大会、世界 5G 大会等学会主办大会的论文与报告"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "china-caeri",
+  "name": {
+    "en": "China Automotive Engineering Research Institute",
+    "zh": "中国汽车工程研究院股份有限公司"
+  },
+  "description": {
+    "en": "China Automotive Engineering Research Institute Co., Ltd. (CAERI, 中国汽研), founded in 1965 and headquartered in Chongqing, is one of the three national-level comprehensive automotive technology research and testing centers in China, under the oversight of State-owned Assets Supervision and Administration Commission (SASAC) through its parent company China General Technology Group. Listed on the Shanghai Stock Exchange (stock code 601965) since 2012, CAERI operates national key laboratories for commercial vehicle development and vehicle emissions inspection, and provides authoritative third-party testing, certification, engineering consulting, equipment manufacturing, and strategic consulting services across the automotive value chain. CAERI publishes the influential China Automotive Product Indexes including the China Insurance Automotive Safety Index (C-IASI), China Automotive Health Index (C-AHI), China New Energy Vehicle Evaluation Index (C-NCAP supplementary indexes), China Intelligent Vehicle Index (i-VISTA), Electric Vehicle Battery Safety Index, and Commercial Vehicle Safety and Technology Evaluation Index. The organization serves as a core data provider for automotive type approval, crash safety testing, emissions compliance, autonomous driving evaluation, and EV battery/motor/electronics certification, with datasets used by regulators (MIIT, SAMR), OEMs, insurers, consumers, and policymakers for market intelligence, safety benchmarking, and technology roadmapping.",
+    "zh": "中国汽车工程研究院股份有限公司（CAERI，中国汽研）成立于1965年，总部设在重庆，是国务院国资委下属中国通用技术集团旗下的国家级综合性汽车技术研究与检测机构，与中汽中心（CATARC）、长春汽研并称中国汽车工业三大研究基地。公司2012年在上海证券交易所上市（股票代码601965），运营商用车开发国家重点实验室、汽车噪声振动和安全技术国家重点实验室、汽车尾气及环保国家检测中心，提供覆盖汽车全产业链的权威第三方检测、认证、工程咨询、专用设备制造和战略咨询服务。CAERI 发布具有行业影响力的中国汽车产品指数体系，包括中国保险汽车安全指数（C-IASI）、中国汽车健康指数（C-AHI）、中国新能源汽车评价指数、中国智能汽车指数（i-VISTA）、电动车电池安全指数、商用车安全和技术评价指数等。机构是汽车型式认证、碰撞安全测试、排放合规、自动驾驶评估、三电（电池/电机/电控）检测的核心数据提供者，其数据服务于工信部、市场监管总局等监管部门，以及整车厂、保险公司、消费者和政策制定者，用于市场情报、安全对标和技术路线规划。"
+  },
+  "website": "https://www.caeri.com.cn",
+  "data_url": "https://www.caeri.com.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "automotive",
+    "research",
+    "technology",
+    "transportation",
+    "industry"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "china",
+    "caeri",
+    "automotive-research",
+    "vehicle-testing",
+    "crash-safety",
+    "c-iasi",
+    "c-ahi",
+    "i-vista",
+    "c-ncap",
+    "emissions-testing",
+    "ev-battery",
+    "autonomous-driving",
+    "sasac",
+    "chongqing",
+    "中国汽研",
+    "汽车检测",
+    "碰撞安全",
+    "智能汽车指数",
+    "新能源汽车",
+    "三电检测"
+  ],
+  "data_content": {
+    "en": [
+      "China Insurance Automotive Safety Index (C-IASI) - Crash test results, occupant protection, vehicle damage repair economy, and pedestrian protection ratings for passenger vehicles",
+      "China Automotive Health Index (C-AHI) - In-cabin VOC/aldehyde emissions, particulate matter, electromagnetic radiation, and allergen testing results across vehicle models",
+      "China Intelligent Vehicle Index (i-VISTA) - Autonomous driving capability ratings, ADAS performance, connected vehicle security, and human-machine interaction evaluations",
+      "New Energy Vehicle Evaluation Index - EV range, fast-charging performance, energy consumption, cold/hot weather endurance, and battery degradation testing data",
+      "Battery Safety Index - Lithium-ion battery pack safety testing including thermal runaway, mechanical abuse, electrical abuse, and environmental reliability",
+      "Commercial Vehicle Indexes - Heavy-duty truck and bus safety evaluations, fuel economy benchmarks, and aftermarket reliability data",
+      "Emissions and Certification Testing - Vehicle type approval testing (CCC certification), emissions compliance (China 6), fuel consumption labeling, and NEV Technology Access data",
+      "Industry Reports and Consulting - White papers on autonomous driving, NEV market, intelligent connected vehicle (ICV) industry trends, and technology roadmaps"
+    ],
+    "zh": [
+      "中国保险汽车安全指数（C-IASI）- 乘用车碰撞测试结果、乘员保护、车辆损伤修复经济性、行人保护评级",
+      "中国汽车健康指数（C-AHI）- 车内 VOC/醛类排放、PM 颗粒物、电磁辐射、过敏原等车型测试结果",
+      "中国智能汽车指数（i-VISTA）- 自动驾驶能力评级、ADAS 性能、网联汽车安全、人机交互评价",
+      "新能源汽车评价指数 - 电动车续航、快充性能、能耗、冷热天气续航衰减及电池衰减测试数据",
+      "电池安全指数 - 锂电池包安全测试（热失控、机械滥用、电滥用、环境可靠性）",
+      "商用车指数 - 重卡和客车安全评价、燃油经济性对标及售后可靠性数据",
+      "排放与认证检测 - 车辆型式认证（CCC）、国六排放合规、油耗标签、新能源车技术准入数据",
+      "行业报告与咨询 - 自动驾驶、新能源汽车、智能网联汽车（ICV）产业趋势白皮书和技术路线图"
+    ]
+  }
+}
