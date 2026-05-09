@@ -1,0 +1,60 @@
+{
+  "id": "china-cmba",
+  "name": {
+    "en": "China Medical Biotechnology Association",
+    "zh": "中国医药生物技术协会"
+  },
+  "description": {
+    "en": "China Medical Biotechnology Association (CMBA), founded in 1993 under the supervision of the National Health Commission, is China's national industry association for the medical biotechnology sector. It represents over 600 member organizations including pharmaceutical companies, medical device manufacturers, research institutions, and hospitals engaged in biotech product development. CMBA publishes industry development reports, biotech product registration data, clinical trial statistics, biosafety guidelines, and policy recommendations on biopharmaceuticals and medical devices. Its annual industry reports are authoritative references for tracking China's biopharmaceutical market and innovation pipeline.",
+    "zh": "中国医药生物技术协会（CMBA）成立于1993年，由国家卫生健康委员会主管，是中国医药生物技术行业的全国性行业协会，会员单位逾600家，涵盖医药企业、医疗器械制造商、科研机构和从事生物技术产品研发的医院。协会发布行业发展报告、生物技术产品注册数据、临床试验统计、生物安全指南及生物医药和医疗器械政策建议。其年度行业报告是追踪中国生物医药市场与创新管线的权威参考。"
+  },
+  "website": "http://www.cmba.org.cn",
+  "data_url": "http://www.cmba.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "biotechnology",
+    "pharmaceuticals",
+    "research"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "cmba",
+    "中国医药生物技术协会",
+    "medical-biotechnology",
+    "生物医药",
+    "biopharmaceuticals",
+    "生物技术",
+    "clinical-trials",
+    "临床试验",
+    "biosafety",
+    "生物安全",
+    "medical-devices",
+    "医疗器械",
+    "drug-registration",
+    "industry-association"
+  ],
+  "data_content": {
+    "en": [
+      "Annual medical biotechnology industry development reports",
+      "Biopharmaceutical product registration and approval statistics",
+      "Clinical trial statistics for biotech and medical device products",
+      "Biosafety guidelines and regulatory framework documents",
+      "Market analysis of China's biopharmaceutical industry",
+      "Innovation pipeline data for gene therapy, cell therapy, and biologics",
+      "Policy recommendations on medical biotechnology development"
+    ],
+    "zh": [
+      "年度医药生物技术行业发展报告",
+      "生物医药产品注册与审批统计数据",
+      "生物技术和医疗器械产品临床试验统计",
+      "生物安全指南与监管框架文件",
+      "中国生物医药市场分析",
+      "基因治疗、细胞治疗及生物制品创新管线数据",
+      "医药生物技术发展政策建议"
+    ]
+  }
+}

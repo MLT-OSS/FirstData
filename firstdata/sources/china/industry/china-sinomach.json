@@ -1,0 +1,60 @@
+{
+  "id": "china-sinomach",
+  "name": {
+    "en": "China National Machinery Industry Corporation",
+    "zh": "中国机械工业集团有限公司"
+  },
+  "description": {
+    "en": "China National Machinery Industry Corporation (SINOMACH), a central state-owned enterprise under SASAC, is one of China's largest machinery and engineering conglomerates with operations spanning engineering and construction, complete equipment manufacturing, agricultural machinery, specialized equipment, and electromechanical products trade. SINOMACH publishes annual reports, project delivery statistics, overseas business data, agricultural machinery development reports, and industrial equipment market analyses. As a major integrator of China's machinery industry, its data reflects the operational scale of state-owned machinery manufacturing and China's engineering contracting capability globally.",
+    "zh": "中国机械工业集团有限公司（国机集团）是国务院国资委直属的大型央企，是中国最大的机械工业集团之一，业务涵盖工程与建设、成套装备制造、农业机械、专用设备及机电产品贸易。国机集团发布年度报告、项目交付统计、境外业务数据、农业机械发展报告及工业装备市场分析，作为中国机械工业的重要整合平台，其数据反映国有机械制造规模及中国全球工程承包能力。"
+  },
+  "website": "http://www.sinomach.com.cn",
+  "data_url": "http://www.sinomach.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "manufacturing",
+    "agriculture",
+    "engineering"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "sinomach",
+    "国机集团",
+    "machinery-industry",
+    "机械工业",
+    "engineering-contracting",
+    "工程承包",
+    "agricultural-machinery",
+    "农业机械",
+    "complete-equipment",
+    "成套装备",
+    "state-owned-enterprise",
+    "央企",
+    "manufacturing",
+    "electromechanical"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports with revenue, assets, and operational highlights",
+      "Overseas engineering contracting project delivery statistics",
+      "Agricultural machinery production and market share data",
+      "Complete equipment manufacturing output and export figures",
+      "Specialized equipment and electromechanical product trade data",
+      "Corporate social responsibility and sustainable development reports",
+      "Global market expansion and overseas investment data"
+    ],
+    "zh": [
+      "年度报告：营收、资产及经营亮点",
+      "境外工程承包项目交付统计",
+      "农业机械生产及市场份额数据",
+      "成套装备制造产量与出口数据",
+      "专用设备及机电产品贸易数据",
+      "企业社会责任与可持续发展报告",
+      "全球市场拓展与境外投资数据"
+    ]
+  }
+}

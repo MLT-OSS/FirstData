@@ -1,0 +1,59 @@
+{
+  "id": "china-cls",
+  "name": {
+    "en": "Chinese Law Society",
+    "zh": "中国法学会"
+  },
+  "description": {
+    "en": "The Chinese Law Society (CLS), founded in 1949, is China's largest national academic association in the legal field, under the guidance of the Communist Party of China and supervised by the Ministry of Justice. It brings together over 900,000 legal scholars, practitioners, and professionals across its 55 specialized research associations. CLS publishes legal research reports, legislative assessments, rule-of-law indices, and policy recommendations covering criminal law, civil law, administrative law, and international law. It also releases annual reports on the development of China's rule of law and hosts the China Legal Forum.",
+    "zh": "中国法学会成立于1949年，是中国最大的全国性法学学术团体，在中共中央指导下由司法部主管，汇聚逾90万名法学学者、法律实务工作者及专业人员，下设55个研究会。法学会发布法学研究报告、立法评估、法治指数及政策建议，涵盖刑法、民法、行政法与国际法等领域，同时发布中国法治建设年度报告，并主办中国法学论坛。"
+  },
+  "website": "https://www.chinalaw.org.cn",
+  "data_url": "https://www.chinalaw.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "law",
+    "governance",
+    "research"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "cls",
+    "中国法学会",
+    "rule-of-law",
+    "法治",
+    "legal-research",
+    "法学研究",
+    "legislation",
+    "立法评估",
+    "law-society",
+    "criminal-law",
+    "civil-law",
+    "administrative-law",
+    "法治指数",
+    "china-legal-forum"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports on China's rule-of-law development",
+      "Legal research papers and academic publications from 55 specialized associations",
+      "Legislative assessment and policy recommendation reports",
+      "Rule-of-law index and evaluation results",
+      "Criminal, civil, and administrative law research data",
+      "International law and comparative law studies",
+      "China Legal Forum proceedings and white papers"
+    ],
+    "zh": [
+      "中国法治建设年度报告",
+      "55个研究会发布的法学研究论文及学术成果",
+      "立法评估报告与政策建议",
+      "法治指数与评估结果",
+      "刑法、民法及行政法研究数据",
+      "国际法与比较法研究",
+      "中国法学论坛论文集与白皮书"
+    ]
+  }
+}

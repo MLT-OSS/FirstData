@@ -1,0 +1,60 @@
+{
+  "id": "china-spic",
+  "name": {
+    "en": "State Power Investment Corporation",
+    "zh": "国家电力投资集团有限公司"
+  },
+  "description": {
+    "en": "State Power Investment Corporation (SPIC), one of China's five major centrally state-owned power generation enterprise groups, was restructured in 2015 from China Power Investment Corporation. SPIC has the world's largest installed nuclear power capacity under construction and is a leading clean energy developer across nuclear, hydropower, wind, solar, and biomass energy. The corporation publishes annual reports, corporate social responsibility reports, energy production statistics, carbon emission data, and renewable energy development white papers. SPIC's data is essential for tracking China's clean energy transition, nuclear power development, and carbon neutrality progress.",
+    "zh": "国家电力投资集团有限公司（国家电投）是中国五大发电央企之一，2015年由中国电力投资集团重组成立。国家电投在建核电装机容量位居世界第一，是核电、水电、风电、光伏及生物质能领域领先的清洁能源开发商。集团发布年度报告、企业社会责任报告、能源生产统计数据、碳排放数据及可再生能源发展白皮书。国家电投数据对追踪中国清洁能源转型、核电发展及碳中和进程具有重要参考价值。"
+  },
+  "website": "https://www.spic.com.cn",
+  "data_url": "https://www.spic.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "energy",
+    "nuclear",
+    "renewable-energy",
+    "environment"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "spic",
+    "国家电投",
+    "state-power-investment",
+    "nuclear-power",
+    "核电",
+    "clean-energy",
+    "清洁能源",
+    "renewable-energy",
+    "可再生能源",
+    "carbon-neutrality",
+    "碳中和",
+    "solar",
+    "wind-power",
+    "hydropower"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports with total installed capacity, power generation output, and revenue",
+      "Clean energy portfolio: nuclear, hydro, wind, solar, and biomass installed capacity data",
+      "Carbon emissions and carbon intensity reduction statistics",
+      "Renewable energy development white papers and project pipeline",
+      "Nuclear power safety and operation performance reports",
+      "Corporate social responsibility and ESG reports",
+      "Energy transition investment and financing data"
+    ],
+    "zh": [
+      "年度报告：总装机容量、发电量及营收数据",
+      "清洁能源组合：核电、水电、风电、光伏及生物质能装机容量数据",
+      "碳排放量及碳强度下降统计数据",
+      "可再生能源发展白皮书及项目管线",
+      "核电安全与运营绩效报告",
+      "企业社会责任与ESG报告",
+      "能源转型投资与融资数据"
+    ]
+  }
+}
