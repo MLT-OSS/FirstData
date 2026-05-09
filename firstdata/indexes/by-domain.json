@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-09T02:55:26.102252+00:00",
-    "total_domains": 751,
-    "total_sources": 728,
+    "generated_at": "2026-05-09T06:23:34.411711+00:00",
+    "total_domains": 752,
+    "total_sources": 733,
     "version": "2.0"
   },
   "domains": {
@@ -630,6 +630,18 @@
         "data_url": "https://www.catcm.org.cn",
         "has_api": false,
         "file_path": "china/health/china-catcm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sinomach",
+        "name": {
+          "en": "China National Machinery Industry Corporation",
+          "zh": "中国机械工业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.sinomach.com.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-sinomach.json",
         "geographic_scope": "national"
       },
       {
@@ -2727,6 +2739,18 @@
         "has_api": true,
         "file_path": "academic/biology/pdb.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-cmba",
+        "name": {
+          "en": "China Medical Biotechnology Association",
+          "zh": "中国医药生物技术协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmba.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmba.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-nmdc",
@@ -5888,6 +5912,18 @@
         "data_url": "https://www.china-cia.org.cn",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cia-cybersecurity.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnitsec",
+        "name": {
+          "en": "China Information Technology Security Evaluation Centre",
+          "zh": "中国信息安全测评中心"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.itsec.gov.cn/",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cnitsec.json",
         "geographic_scope": "national"
       }
     ],
@@ -14001,6 +14037,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-spic",
+        "name": {
+          "en": "State Power Investment Corporation",
+          "zh": "国家电力投资集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.spic.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-spic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cace",
         "name": {
           "en": "China Association of Circular Economy",
@@ -14656,6 +14704,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sinomach",
+        "name": {
+          "en": "China National Machinery Industry Corporation",
+          "zh": "中国机械工业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.sinomach.com.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-sinomach.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cabr",
         "name": {
           "en": "China Academy of Building Research",
@@ -15163,6 +15223,18 @@
         "data_url": "https://www.cgnpc.com.cn",
         "has_api": false,
         "file_path": "china/resources/energy/china-cgn.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-spic",
+        "name": {
+          "en": "State Power Investment Corporation",
+          "zh": "国家电力投资集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.spic.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-spic.json",
         "geographic_scope": "national"
       },
       {
@@ -20174,6 +20246,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-cls",
+        "name": {
+          "en": "Chinese Law Society",
+          "zh": "中国法学会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinalaw.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cls.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnao",
         "name": {
           "en": "National Audit Office of China",
@@ -20628,6 +20712,18 @@
         "data_url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
         "has_api": false,
         "file_path": "china/technology/internet/china-cac.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnitsec",
+        "name": {
+          "en": "China Information Technology Security Evaluation Centre",
+          "zh": "中国信息安全测评中心"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.itsec.gov.cn/",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cnitsec.json",
         "geographic_scope": "national"
       },
       {
@@ -21132,6 +21228,18 @@
         "data_url": "http://class.ruc.edu.cn/",
         "has_api": false,
         "file_path": "china/health/china-class.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmba",
+        "name": {
+          "en": "China Medical Biotechnology Association",
+          "zh": "中国医药生物技术协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmba.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmba.json",
         "geographic_scope": "national"
       },
       {
@@ -23564,6 +23672,18 @@
         "data_url": "https://www.miit-eidc.org.cn/",
         "has_api": false,
         "file_path": "china/industry/china-miit-eidc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sinomach",
+        "name": {
+          "en": "China National Machinery Industry Corporation",
+          "zh": "中国机械工业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.sinomach.com.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-sinomach.json",
         "geographic_scope": "national"
       },
       {
@@ -26698,6 +26818,18 @@
     ],
     "law": [
       {
+        "id": "china-cls",
+        "name": {
+          "en": "Chinese Law Society",
+          "zh": "中国法学会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinalaw.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cls.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-mofa",
         "name": {
           "en": "Ministry of Foreign Affairs of China",
@@ -27351,6 +27483,18 @@
         "data_url": "https://web.csia.net.cn",
         "has_api": false,
         "file_path": "china/industry/china-csia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sinomach",
+        "name": {
+          "en": "China National Machinery Industry Corporation",
+          "zh": "中国机械工业集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.sinomach.com.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-sinomach.json",
         "geographic_scope": "national"
       },
       {
@@ -29201,6 +29345,20 @@
         "geographic_scope": "global"
       }
     ],
+    "nuclear": [
+      {
+        "id": "china-spic",
+        "name": {
+          "en": "State Power Investment Corporation",
+          "zh": "国家电力投资集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.spic.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-spic.json",
+        "geographic_scope": "national"
+      }
+    ],
     "nuclear-energy": [
       {
         "id": "usa-eia",
@@ -30006,6 +30164,18 @@
         "data_url": "https://www.chinadrugtrials.org.cn",
         "has_api": false,
         "file_path": "china/health/china-chinadrugtrials.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmba",
+        "name": {
+          "en": "China Medical Biotechnology Association",
+          "zh": "中国医药生物技术协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmba.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmba.json",
         "geographic_scope": "national"
       },
       {
@@ -32207,6 +32377,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-spic",
+        "name": {
+          "en": "State Power Investment Corporation",
+          "zh": "国家电力投资集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.spic.com.cn",
+        "has_api": false,
+        "file_path": "china/resources/energy/china-spic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "canada-cer",
         "name": {
           "en": "Canada Energy Regulator",
@@ -32308,6 +32490,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cls",
+        "name": {
+          "en": "Chinese Law Society",
+          "zh": "中国法学会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinalaw.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cls.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cacm",
         "name": {
           "en": "Chinese Association of Chinese Medicine",
@@ -32329,6 +32523,18 @@
         "data_url": "https://www.cams.cn",
         "has_api": false,
         "file_path": "china/health/china-cams.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmba",
+        "name": {
+          "en": "China Medical Biotechnology Association",
+          "zh": "中国医药生物技术协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmba.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmba.json",
         "geographic_scope": "national"
       },
       {
@@ -38231,6 +38437,18 @@
         "data_url": "https://www.cert.org.cn/publish/main/45/index.html",
         "has_api": false,
         "file_path": "china/technology/internet/china-cncert.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cnitsec",
+        "name": {
+          "en": "China Information Technology Security Evaluation Centre",
+          "zh": "中国信息安全测评中心"
+        },
+        "authority_level": "government",
+        "data_url": "http://www.itsec.gov.cn/",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cnitsec.json",
         "geographic_scope": "national"
       },
       {

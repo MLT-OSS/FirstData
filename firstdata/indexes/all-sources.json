@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-09T02:55:26.102252+00:00",
-    "total_sources": 728,
+    "generated_at": "2026-05-09T06:23:34.411711+00:00",
+    "total_sources": 733,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -14854,6 +14854,67 @@
       "file_path": "china/governance/china-cidca.json"
     },
     {
+      "id": "china-cls",
+      "name": {
+        "en": "Chinese Law Society",
+        "zh": "中国法学会"
+      },
+      "description": {
+        "en": "The Chinese Law Society (CLS), founded in 1949, is China's largest national academic association in the legal field, under the guidance of the Communist Party of China and supervised by the Ministry of Justice. It brings together over 900,000 legal scholars, practitioners, and professionals across its 55 specialized research associations. CLS publishes legal research reports, legislative assessments, rule-of-law indices, and policy recommendations covering criminal law, civil law, administrative law, and international law. It also releases annual reports on the development of China's rule of law and hosts the China Legal Forum.",
+        "zh": "中国法学会成立于1949年，是中国最大的全国性法学学术团体，在中共中央指导下由司法部主管，汇聚逾90万名法学学者、法律实务工作者及专业人员，下设55个研究会。法学会发布法学研究报告、立法评估、法治指数及政策建议，涵盖刑法、民法、行政法与国际法等领域，同时发布中国法治建设年度报告，并主办中国法学论坛。"
+      },
+      "website": "https://www.chinalaw.org.cn",
+      "data_url": "https://www.chinalaw.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "law",
+        "governance",
+        "research"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "cls",
+        "中国法学会",
+        "rule-of-law",
+        "法治",
+        "legal-research",
+        "法学研究",
+        "legislation",
+        "立法评估",
+        "law-society",
+        "criminal-law",
+        "civil-law",
+        "administrative-law",
+        "法治指数",
+        "china-legal-forum"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports on China's rule-of-law development",
+          "Legal research papers and academic publications from 55 specialized associations",
+          "Legislative assessment and policy recommendation reports",
+          "Rule-of-law index and evaluation results",
+          "Criminal, civil, and administrative law research data",
+          "International law and comparative law studies",
+          "China Legal Forum proceedings and white papers"
+        ],
+        "zh": [
+          "中国法治建设年度报告",
+          "55个研究会发布的法学研究论文及学术成果",
+          "立法评估报告与政策建议",
+          "法治指数与评估结果",
+          "刑法、民法及行政法研究数据",
+          "国际法与比较法研究",
+          "中国法学论坛论文集与白皮书"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cls.json"
+    },
+    {
       "id": "china-cnao",
       "name": {
         "en": "National Audit Office of China",
@@ -17770,6 +17831,68 @@
       "file_path": "china/health/china-class.json"
     },
     {
+      "id": "china-cmba",
+      "name": {
+        "en": "China Medical Biotechnology Association",
+        "zh": "中国医药生物技术协会"
+      },
+      "description": {
+        "en": "China Medical Biotechnology Association (CMBA), founded in 1993 under the supervision of the National Health Commission, is China's national industry association for the medical biotechnology sector. It represents over 600 member organizations including pharmaceutical companies, medical device manufacturers, research institutions, and hospitals engaged in biotech product development. CMBA publishes industry development reports, biotech product registration data, clinical trial statistics, biosafety guidelines, and policy recommendations on biopharmaceuticals and medical devices. Its annual industry reports are authoritative references for tracking China's biopharmaceutical market and innovation pipeline.",
+        "zh": "中国医药生物技术协会（CMBA）成立于1993年，由国家卫生健康委员会主管，是中国医药生物技术行业的全国性行业协会，会员单位逾600家，涵盖医药企业、医疗器械制造商、科研机构和从事生物技术产品研发的医院。协会发布行业发展报告、生物技术产品注册数据、临床试验统计、生物安全指南及生物医药和医疗器械政策建议。其年度行业报告是追踪中国生物医药市场与创新管线的权威参考。"
+      },
+      "website": "http://www.cmba.org.cn",
+      "data_url": "http://www.cmba.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "biotechnology",
+        "pharmaceuticals",
+        "research"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "cmba",
+        "中国医药生物技术协会",
+        "medical-biotechnology",
+        "生物医药",
+        "biopharmaceuticals",
+        "生物技术",
+        "clinical-trials",
+        "临床试验",
+        "biosafety",
+        "生物安全",
+        "medical-devices",
+        "医疗器械",
+        "drug-registration",
+        "industry-association"
+      ],
+      "data_content": {
+        "en": [
+          "Annual medical biotechnology industry development reports",
+          "Biopharmaceutical product registration and approval statistics",
+          "Clinical trial statistics for biotech and medical device products",
+          "Biosafety guidelines and regulatory framework documents",
+          "Market analysis of China's biopharmaceutical industry",
+          "Innovation pipeline data for gene therapy, cell therapy, and biologics",
+          "Policy recommendations on medical biotechnology development"
+        ],
+        "zh": [
+          "年度医药生物技术行业发展报告",
+          "生物医药产品注册与审批统计数据",
+          "生物技术和医疗器械产品临床试验统计",
+          "生物安全指南与监管框架文件",
+          "中国生物医药市场分析",
+          "基因治疗、细胞治疗及生物制品创新管线数据",
+          "医药生物技术发展政策建议"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cmba.json"
+    },
+    {
       "id": "china-cmde",
       "name": {
         "en": "Center for Medical Device Evaluation, NMPA",
@@ -19294,6 +19417,68 @@
       },
       "has_api": false,
       "file_path": "china/industry/china-miit-eidc.json"
+    },
+    {
+      "id": "china-sinomach",
+      "name": {
+        "en": "China National Machinery Industry Corporation",
+        "zh": "中国机械工业集团有限公司"
+      },
+      "description": {
+        "en": "China National Machinery Industry Corporation (SINOMACH), a central state-owned enterprise under SASAC, is one of China's largest machinery and engineering conglomerates with operations spanning engineering and construction, complete equipment manufacturing, agricultural machinery, specialized equipment, and electromechanical products trade. SINOMACH publishes annual reports, project delivery statistics, overseas business data, agricultural machinery development reports, and industrial equipment market analyses. As a major integrator of China's machinery industry, its data reflects the operational scale of state-owned machinery manufacturing and China's engineering contracting capability globally.",
+        "zh": "中国机械工业集团有限公司（国机集团）是国务院国资委直属的大型央企，是中国最大的机械工业集团之一，业务涵盖工程与建设、成套装备制造、农业机械、专用设备及机电产品贸易。国机集团发布年度报告、项目交付统计、境外业务数据、农业机械发展报告及工业装备市场分析，作为中国机械工业的重要整合平台，其数据反映国有机械制造规模及中国全球工程承包能力。"
+      },
+      "website": "http://www.sinomach.com.cn",
+      "data_url": "http://www.sinomach.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "manufacturing",
+        "agriculture",
+        "engineering"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "sinomach",
+        "国机集团",
+        "machinery-industry",
+        "机械工业",
+        "engineering-contracting",
+        "工程承包",
+        "agricultural-machinery",
+        "农业机械",
+        "complete-equipment",
+        "成套装备",
+        "state-owned-enterprise",
+        "央企",
+        "manufacturing",
+        "electromechanical"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports with revenue, assets, and operational highlights",
+          "Overseas engineering contracting project delivery statistics",
+          "Agricultural machinery production and market share data",
+          "Complete equipment manufacturing output and export figures",
+          "Specialized equipment and electromechanical product trade data",
+          "Corporate social responsibility and sustainable development reports",
+          "Global market expansion and overseas investment data"
+        ],
+        "zh": [
+          "年度报告：营收、资产及经营亮点",
+          "境外工程承包项目交付统计",
+          "农业机械生产及市场份额数据",
+          "成套装备制造产量与出口数据",
+          "专用设备及机电产品贸易数据",
+          "企业社会责任与可持续发展报告",
+          "全球市场拓展与境外投资数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-sinomach.json"
     },
     {
       "id": "china-camet",
@@ -26377,6 +26562,68 @@
       "file_path": "china/resources/energy/china-csg.json"
     },
     {
+      "id": "china-spic",
+      "name": {
+        "en": "State Power Investment Corporation",
+        "zh": "国家电力投资集团有限公司"
+      },
+      "description": {
+        "en": "State Power Investment Corporation (SPIC), one of China's five major centrally state-owned power generation enterprise groups, was restructured in 2015 from China Power Investment Corporation. SPIC has the world's largest installed nuclear power capacity under construction and is a leading clean energy developer across nuclear, hydropower, wind, solar, and biomass energy. The corporation publishes annual reports, corporate social responsibility reports, energy production statistics, carbon emission data, and renewable energy development white papers. SPIC's data is essential for tracking China's clean energy transition, nuclear power development, and carbon neutrality progress.",
+        "zh": "国家电力投资集团有限公司（国家电投）是中国五大发电央企之一，2015年由中国电力投资集团重组成立。国家电投在建核电装机容量位居世界第一，是核电、水电、风电、光伏及生物质能领域领先的清洁能源开发商。集团发布年度报告、企业社会责任报告、能源生产统计数据、碳排放数据及可再生能源发展白皮书。国家电投数据对追踪中国清洁能源转型、核电发展及碳中和进程具有重要参考价值。"
+      },
+      "website": "https://www.spic.com.cn",
+      "data_url": "https://www.spic.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "energy",
+        "nuclear",
+        "renewable-energy",
+        "environment"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "spic",
+        "国家电投",
+        "state-power-investment",
+        "nuclear-power",
+        "核电",
+        "clean-energy",
+        "清洁能源",
+        "renewable-energy",
+        "可再生能源",
+        "carbon-neutrality",
+        "碳中和",
+        "solar",
+        "wind-power",
+        "hydropower"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports with total installed capacity, power generation output, and revenue",
+          "Clean energy portfolio: nuclear, hydro, wind, solar, and biomass installed capacity data",
+          "Carbon emissions and carbon intensity reduction statistics",
+          "Renewable energy development white papers and project pipeline",
+          "Nuclear power safety and operation performance reports",
+          "Corporate social responsibility and ESG reports",
+          "Energy transition investment and financing data"
+        ],
+        "zh": [
+          "年度报告：总装机容量、发电量及营收数据",
+          "清洁能源组合：核电、水电、风电、光伏及生物质能装机容量数据",
+          "碳排放量及碳强度下降统计数据",
+          "可再生能源发展白皮书及项目管线",
+          "核电安全与运营绩效报告",
+          "企业社会责任与ESG报告",
+          "能源转型投资与融资数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/resources/energy/china-spic.json"
+    },
+    {
       "id": "china-cace",
       "name": {
         "en": "China Association of Circular Economy",
@@ -32012,6 +32259,67 @@
       },
       "has_api": false,
       "file_path": "china/technology/internet/china-cncert.json"
+    },
+    {
+      "id": "china-cnitsec",
+      "name": {
+        "en": "China Information Technology Security Evaluation Centre",
+        "zh": "中国信息安全测评中心"
+      },
+      "description": {
+        "en": "China Information Technology Security Evaluation Centre (CNITSEC), established in 1997 under the State Security Administration, is China's national authority for cybersecurity evaluation, certification, and testing of IT products, systems, and services. CNITSEC conducts Common Criteria evaluations, national classified protection assessments, and vulnerability assessments for government and critical infrastructure systems. It publishes security evaluation standards, certified product lists, security advisories, and annual cybersecurity threat assessment reports that serve as authoritative references for China's information security governance.",
+        "zh": "中国信息安全测评中心（CNITSEC）成立于1997年，隶属国家安全行政管理机构，是中国负责IT产品、系统和服务网络安全测评、认证与检测的国家权威机构。CNITSEC开展通用准则测评、国家等级保护测评及政府与关键基础设施系统漏洞评估，发布安全测评标准、认证产品目录、安全公告及年度网络安全威胁评估报告，是中国信息安全治理的权威参考依据。"
+      },
+      "website": "http://www.itsec.gov.cn",
+      "data_url": "http://www.itsec.gov.cn/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "cybersecurity",
+        "governance"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "cnitsec",
+        "中国信息安全测评中心",
+        "cybersecurity",
+        "网络安全测评",
+        "it-security-evaluation",
+        "信息安全认证",
+        "common-criteria",
+        "等级保护",
+        "classified-protection",
+        "vulnerability-assessment",
+        "漏洞评估",
+        "security-certification",
+        "critical-infrastructure",
+        "cyber-threat"
+      ],
+      "data_content": {
+        "en": [
+          "Certified IT security product lists and evaluation results",
+          "National classified protection (MLPS) assessment standards and guidance",
+          "Common Criteria (CC) evaluation reports for IT products",
+          "Cybersecurity vulnerability advisories and threat bulletins",
+          "Annual cybersecurity threat assessment reports",
+          "Security testing standards and methodology documents",
+          "Information security governance policy references"
+        ],
+        "zh": [
+          "通过安全认证的IT产品目录与测评结果",
+          "网络安全等级保护（MLPS）评估标准与指南",
+          "IT产品通用准则（CC）测评报告",
+          "网络安全漏洞公告与威胁通报",
+          "年度网络安全威胁评估报告",
+          "安全测试标准与方法文件",
+          "信息安全治理政策参考资料"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/internet/china-cnitsec.json"
     },
     {
       "id": "china-cnnvd",
