@@ -1,17 +1,26 @@
 #!/usr/bin/env bash
 # scripts/pre-pr-check.sh
 #
-# Local secrecy linter for PR body / title / branch name before `gh pr create`
-# or `gh pr edit --body-file`. Mirrors .github/workflows/secrecy-check.yml so
-# failures surface locally instead of being caught by CI after the PR opens.
+# Local secrecy linter. Mirrors .github/workflows/secrecy-check.yml so banned
+# terms are caught locally *before* they end up on GitHub / Discord webhooks.
+#
+# Scope (anywhere reviewers or webhooks will echo the text back):
+#   * PR body / title / branch name before `gh pr create` or `gh pr edit`
+#   * PR review body (`gh pr review --body`)
+#   * PR / issue comments that reference a fix (don't quote the banned word!)
+#   * Commit messages, release notes, wiki entries
+#
+# Webhooks (Discord etc.) cache the *original* payload even after GitHub edits,
+# so "edit afterwards" is not a real fix. Always lint before sending.
 #
 # Usage:
 #   scripts/pre-pr-check.sh --body-file /tmp/body.md [--title "..."] [--branch "feat/..."]
 #   scripts/pre-pr-check.sh --body "inline body text"
+#   scripts/pre-pr-check.sh --text "any arbitrary text blob"   # review body, comment, commit msg
 #   scripts/pre-pr-check.sh --stdin < body.md
 #   scripts/pre-pr-check.sh --scan-sources           # same scan CI does for firstdata/sources
 #
-# Exit code: 0 = clean, 1 = confidential term found.
+# Exit code: 0 = clean, 1 = confidential term found, 2 = usage error.
 #
 # Keep the BANNED_TERMS list in sync with .github/workflows/secrecy-check.yml.
 set -euo pipefail
@@ -31,11 +40,12 @@ BODY=""
 BODY_FILE=""
 TITLE=""
 BRANCH=""
+TEXT=""
 SCAN_SOURCES=0
 READ_STDIN=0
 
 usage() {
-  sed -n '2,18p' "$0"
+  sed -n '2,25p' "$0"
   exit 2
 }
 
@@ -45,6 +55,7 @@ while [[ $# -gt 0 ]]; do
     --body-file)    BODY_FILE="$2"; shift 2 ;;
     --title)        TITLE="$2"; shift 2 ;;
     --branch)       BRANCH="$2"; shift 2 ;;
+    --text)         TEXT="$2"; shift 2 ;;
     --stdin)        READ_STDIN=1; shift ;;
     --scan-sources) SCAN_SOURCES=1; shift ;;
     -h|--help)      usage ;;
@@ -89,6 +100,7 @@ check_field() {
 check_field "branch name"    "$BRANCH"
 check_field "PR title"       "$TITLE"
 check_field "PR description" "$BODY"
+check_field "text blob"      "$TEXT"
 
 if [[ "$SCAN_SOURCES" -eq 1 ]]; then
   repo_root="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
