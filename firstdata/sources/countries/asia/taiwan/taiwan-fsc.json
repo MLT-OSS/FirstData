@@ -1,0 +1,61 @@
+{
+  "id": "taiwan-fsc",
+  "name": {
+    "en": "Taiwan Financial Supervisory Commission (FSC)",
+    "zh": "台湾金融监督管理委员会"
+  },
+  "description": {
+    "en": "The Financial Supervisory Commission (FSC) is Taiwan's primary integrated financial regulator, established in 2004 and reporting to the Executive Yuan. The FSC supervises and examines banks, securities firms, futures firms, insurance companies, and financial holding companies in Taiwan. It publishes comprehensive financial industry statistics, regulatory announcements, prudential data (capital adequacy, non-performing loans, insurance solvency), securities market supervision data, anti-money-laundering reports, and financial inclusion metrics. The FSC's data is the authoritative reference for Taiwan's banking, securities, insurance, and fintech sectors, including green finance, ESG disclosures, and cross-strait financial supervision.",
+    "zh": "台湾金融监督管理委员会（金管会/FSC）是台湾主要的综合金融监管机构，成立于2004年，隶属行政院。金管会监管台湾银行、证券公司、期货公司、保险公司和金融控股公司。发布全面的金融业统计、监管公告、审慎监管数据（资本充足率、不良贷款、保险清偿能力）、证券市场监督数据、反洗钱报告及普惠金融指标。金管会数据是台湾银行业、证券业、保险业和金融科技领域的权威参考，涵盖绿色金融、ESG披露及两岸金融监管等议题。"
+  },
+  "website": "https://www.fsc.gov.tw",
+  "data_url": "https://www.fsc.gov.tw/en/home.jsp?id=253&parentpath=0,7",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "TW",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "banking",
+    "insurance",
+    "capital-markets"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "fsc",
+    "金管会",
+    "台湾金融监督管理委员会",
+    "financial-regulation",
+    "金融监管",
+    "banking-supervision",
+    "银行监管",
+    "securities-supervision",
+    "证券监管",
+    "insurance-regulation",
+    "保险监管",
+    "fintech",
+    "金融科技",
+    "esg",
+    "green-finance"
+  ],
+  "data_content": {
+    "en": [
+      "Banking Industry Statistics - Monthly banking sector balance sheets, loans, deposits and asset quality data",
+      "Securities and Futures Statistics - Monthly brokerage, investment trust and futures industry statistics",
+      "Insurance Industry Statistics - Monthly life, non-life insurance premium, asset and solvency data",
+      "Financial Holding Company Data - Consolidated financial and capital adequacy data for financial holding groups",
+      "Regulatory Announcements - Financial supervision rules, sanctions, and policy releases",
+      "Anti-Money Laundering Reports - AML and counter-terrorism financing supervision data",
+      "Green and ESG Finance - Sustainable finance policies and ESG disclosure supervision"
+    ],
+    "zh": [
+      "银行业统计 - 月度银行业资产负债表、贷款、存款和资产质量数据",
+      "证券期货统计 - 月度证券商、投信及期货业统计",
+      "保险业统计 - 月度寿险、产险保费、资产和清偿能力数据",
+      "金融控股公司数据 - 金融控股集团合并财务和资本充足率数据",
+      "监管公告 - 金融监管规则、处分及政策发布",
+      "反洗钱报告 - 反洗钱及打击资恐监管数据",
+      "绿色与ESG金融 - 可持续金融政策及ESG披露监管"
+    ]
+  }
+}

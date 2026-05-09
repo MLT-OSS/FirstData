@@ -1,0 +1,61 @@
+{
+  "id": "taiwan-tier",
+  "name": {
+    "en": "Taiwan Institute of Economic Research (TIER)",
+    "zh": "台湾经济研究院"
+  },
+  "description": {
+    "en": "The Taiwan Institute of Economic Research (TIER) is one of Taiwan's oldest and most respected independent economic research institutions, founded in 1976. TIER publishes widely cited Taiwan economic forecasts, quarterly economic outlook reports, the TIER Manufacturing and Service Industry Composite Index (similar to PMI), industry research covering semiconductors, information technology, biotech, green energy and other key Taiwanese sectors, as well as analysis of cross-strait economic relations and global macroeconomic trends. TIER also produces consumer confidence indicators, business climate monitors, and policy research reports that influence Taiwan government and corporate decision-making.",
+    "zh": "台湾经济研究院（台经院/TIER）是台湾最悠久、最具声望的独立经济研究机构之一，成立于1976年。台经院发布广泛引用的台湾经济预测、季度经济展望报告、台经院制造业和服务业景气测验综合指数（类似PMI）、涵盖半导体、资讯科技、生技、绿能等台湾重点行业的产业研究报告，以及两岸经济关系和全球宏观经济趋势分析。台经院还发布消费者信心指标、景气测验动向，以及影响台湾政府和企业决策的政策研究报告。"
+  },
+  "website": "https://www.tier.org.tw",
+  "data_url": "https://www.tier.org.tw/publications/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "TW",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "macroeconomics",
+    "industry"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "tier",
+    "taiwan-institute-of-economic-research",
+    "台湾经济研究院",
+    "台经院",
+    "economic-forecast",
+    "经济预测",
+    "pmi",
+    "制造业景气",
+    "business-climate",
+    "景气指标",
+    "semiconductor-industry",
+    "半导体产业",
+    "cross-strait-economics",
+    "两岸经济",
+    "consumer-confidence",
+    "消费者信心"
+  ],
+  "data_content": {
+    "en": [
+      "Taiwan Economic Forecasts - Quarterly and annual GDP, inflation, trade and investment forecasts for Taiwan",
+      "TIER Business Climate Composite Index - Monthly manufacturing and service industry business climate diffusion indices",
+      "Industry Research Reports - In-depth research on semiconductors, ICT, biotech, green energy and other sectors",
+      "Consumer Confidence Indicators - Monthly consumer confidence survey for Taiwan households",
+      "Cross-Strait Economic Analysis - Research reports on Taiwan-China trade and investment relations",
+      "Global Macroeconomic Monitoring - Analysis of US, China, Japan and global economic trends impacting Taiwan",
+      "Policy Research - Research reports on tax, industrial policy and economic reforms"
+    ],
+    "zh": [
+      "台湾经济预测 - 季度及年度GDP、通胀、贸易及投资预测",
+      "台经院景气测验综合指数 - 月度制造业和服务业景气扩散指数",
+      "产业研究报告 - 半导体、资讯科技、生技、绿能等行业深度研究",
+      "消费者信心指标 - 台湾家户消费者信心月度调查",
+      "两岸经济分析 - 两岸贸易与投资关系研究报告",
+      "全球宏观经济监测 - 美国、中国、日本及全球经济趋势对台湾影响分析",
+      "政策研究 - 税制、产业政策及经济改革研究报告"
+    ]
+  }
+}

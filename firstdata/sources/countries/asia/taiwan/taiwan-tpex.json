@@ -1,0 +1,59 @@
+{
+  "id": "taiwan-tpex",
+  "name": {
+    "en": "Taipei Exchange (TPEx / OTC)",
+    "zh": "台湾证券柜台买卖中心"
+  },
+  "description": {
+    "en": "Taipei Exchange (TPEx), formerly known as the GreTai Securities Market, is Taiwan's over-the-counter (OTC) securities exchange operating alongside the Taiwan Stock Exchange (TWSE). Established in 1994, TPEx operates the OTC Market for Taiwanese companies including many technology and biotech firms, the Emerging Stock Market (ESM) for pre-listing companies, and the Pioneer Stock Market (PSM) for innovative startups. TPEx also operates Taiwan's corporate bond, convertible bond, and ETN markets. It publishes daily trading statistics, the TPEX Index, company disclosures, bond market data, and comprehensive OTC market monitoring reports — the authoritative reference for Taiwan's OTC equity and fixed-income markets.",
+    "zh": "台湾证券柜台买卖中心（TPEx），前身为台湾柜台买卖中心，是与台湾证券交易所（TWSE）并行运营的台湾场外（OTC）证券交易所。成立于1994年，TPEx运营柜买市场（上市众多台湾科技和生物科技公司）、兴柜市场（ESM，上市前公司）以及创柜板（PSM，创新型初创企业）。TPEx还运营台湾公司债、可转债及ETN市场。发布每日交易统计、柜买指数（TPEX Index）、公司公告、债券市场数据及全面的柜买市场监测报告，是台湾场外股票和固定收益市场的权威参考。"
+  },
+  "website": "https://www.tpex.org.tw",
+  "data_url": "https://www.tpex.org.tw/web/stock/aftertrading/daily_trading_info/st43.php",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "TW",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "economics"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "tpex",
+    "taipei-exchange",
+    "台湾证券柜台买卖中心",
+    "柜买中心",
+    "otc-market",
+    "兴柜",
+    "emerging-stock-market",
+    "创柜板",
+    "corporate-bonds",
+    "公司债",
+    "convertible-bonds",
+    "可转债",
+    "etn",
+    "taiwan-equities"
+  ],
+  "data_content": {
+    "en": [
+      "TPEX Index - Daily index for OTC-listed Taiwanese securities",
+      "OTC Daily Trading Statistics - Trading volume and price data for OTC-listed companies",
+      "Emerging Stock Market Data - Trading statistics for pre-listing emerging stocks",
+      "Pioneer Stock Market Data - Trading data for innovative startup companies",
+      "Corporate Bond Market - Corporate bond, convertible bond and ETN trading statistics",
+      "Company Disclosures - Financial reports and material information for OTC-listed companies",
+      "Market Monitoring Reports - OTC market surveillance and regulatory announcements"
+    ],
+    "zh": [
+      "TPEX柜买指数 - 柜买市场挂牌证券的每日指数",
+      "柜买每日交易统计 - 柜买挂牌公司的成交量和价格数据",
+      "兴柜市场数据 - 上市前兴柜股票的交易统计",
+      "创柜板数据 - 创新型初创企业的交易数据",
+      "公司债市场 - 公司债、可转债及ETN交易统计",
+      "公司公告 - 柜买挂牌公司的财报及重大讯息",
+      "市场监测报告 - 柜买市场监察和监管公告"
+    ]
+  }
+}

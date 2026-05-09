@@ -1,0 +1,64 @@
+{
+  "id": "china-shanghai-housing",
+  "name": {
+    "en": "Shanghai Municipal Housing and Urban-Rural Development Management Commission",
+    "zh": "上海市住房和城乡建设管理委员会"
+  },
+  "description": {
+    "en": "The Shanghai Municipal Housing and Urban-Rural Development Management Commission (上海市住建委) is the Shanghai municipal government authority responsible for housing policy, real estate market regulation, construction industry management, urban-rural development planning, and affordable housing programs in Shanghai — one of China's largest and most influential real estate markets. The Commission publishes monthly residential and commercial property transaction data, land market data, construction industry statistics, building energy efficiency data, affordable housing (public rental, shared ownership, talent housing) construction progress, and comprehensive Shanghai housing policy releases. Its data is the official reference for Shanghai's first-tier-city housing market, new home sales, secondary market trends, and construction sector performance.",
+    "zh": "上海市住房和城乡建设管理委员会（上海市住建委）是上海市政府负责住房政策、房地产市场监管、建筑业管理、城乡发展规划及保障性住房建设的主管部门。上海是中国规模最大、影响最广的房地产市场之一。住建委发布月度住宅和商业地产交易数据、土地市场数据、建筑业统计、建筑节能数据、保障性住房（公共租赁住房、共有产权住房、人才公寓）建设进展，以及全面的上海住房政策发布。其数据是上海一线城市房地产市场、新房销售、二手房市场走势及建筑业表现的官方参考。"
+  },
+  "website": "https://zjw.sh.gov.cn",
+  "data_url": "https://zjw.sh.gov.cn/tjxx/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "subnational",
+  "domains": [
+    "housing",
+    "real-estate",
+    "construction",
+    "urban-planning"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "shanghai",
+    "上海",
+    "housing",
+    "住房",
+    "real-estate",
+    "房地产",
+    "construction",
+    "建筑业",
+    "affordable-housing",
+    "保障性住房",
+    "land-market",
+    "土地市场",
+    "urban-rural-development",
+    "城乡建设",
+    "上海住建委",
+    "shanghai-housing-commission"
+  ],
+  "data_content": {
+    "en": [
+      "Shanghai Residential Transaction Data - Monthly new home and second-hand residential sales volume and price data",
+      "Commercial Property Market - Office, retail and industrial property transaction statistics",
+      "Land Market Data - Land supply, auction results and land premium rates in Shanghai",
+      "Construction Industry Statistics - Shanghai construction output value, enterprise data and workforce",
+      "Affordable Housing Programs - Public rental, shared ownership and talent housing construction progress",
+      "Building Energy Efficiency - Green building and energy efficiency statistics for Shanghai",
+      "Housing Policy Releases - Shanghai housing purchase policies, market regulation rules and administrative filings",
+      "Project Quality Supervision - Construction project quality and safety inspection data"
+    ],
+    "zh": [
+      "上海住宅交易数据 - 月度新房及二手房成交量和价格数据",
+      "商业地产市场 - 写字楼、商铺及工业地产交易统计",
+      "土地市场数据 - 上海土地供应、出让结果及溢价率",
+      "建筑业统计 - 上海建筑业总产值、企业数据和从业人员",
+      "保障性住房建设 - 公共租赁住房、共有产权住房和人才公寓建设进展",
+      "建筑节能 - 上海绿色建筑和节能统计",
+      "住房政策发布 - 上海限购限贷政策、市场调控规则和行政事项办理",
+      "工程质量监督 - 建设工程质量及安全监察数据"
+    ]
+  }
+}

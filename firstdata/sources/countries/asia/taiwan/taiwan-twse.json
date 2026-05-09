@@ -1,0 +1,62 @@
+{
+  "id": "taiwan-twse",
+  "name": {
+    "en": "Taiwan Stock Exchange (TWSE)",
+    "zh": "台湾证券交易所"
+  },
+  "description": {
+    "en": "The Taiwan Stock Exchange (TWSE) is Taiwan's primary securities exchange, established in 1961 and headquartered in Taipei. It operates the main board listing over 1,000 companies including major technology firms such as TSMC, Hon Hai (Foxconn), and MediaTek. TWSE publishes authoritative market data including the Taiwan Capitalization Weighted Stock Index (TAIEX), daily trading statistics, listed company disclosures, foreign investor holdings, margin trading data, and comprehensive market surveillance reports. TWSE also operates the Market Observation Post System (MOPS) for corporate filings and the Central Deposit & Clearing Co. integration for settlement data. Its statistics are the official reference for Taiwan equity market capitalization, PE ratios, trading volume, and institutional holdings.",
+    "zh": "台湾证券交易所（TWSE）是台湾主要的证券交易所，成立于1961年，总部位于台北。主板挂牌公司超过1000家，包括台积电、鸿海（富士康）、联发科等重要科技企业。台交所发布权威市场数据，包括台湾加权股价指数（TAIEX）、每日交易统计、上市公司公告、外资持股、融资融券数据及全面的市场监察报告。台交所运营公开资讯观测站（MOPS）发布公司财报和重大讯息，并通过集中保管结算所整合结算数据。其统计数据是台湾股市市值、市盈率、成交量和机构持股的官方参考。"
+  },
+  "website": "https://www.twse.com.tw",
+  "data_url": "https://www.twse.com.tw/en/trading/statistics/fmsrfk.html",
+  "api_url": "https://openapi.twse.com.tw",
+  "authority_level": "government",
+  "country": "TW",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "economics"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "taiwan-stock-exchange",
+    "台湾证券交易所",
+    "twse",
+    "taiex",
+    "台股",
+    "台湾股市",
+    "taiwan-equities",
+    "listed-companies",
+    "上市公司",
+    "foreign-investment",
+    "外资持股",
+    "margin-trading",
+    "融资融券",
+    "market-data",
+    "openapi"
+  ],
+  "data_content": {
+    "en": [
+      "TAIEX Index - Taiwan Capitalization Weighted Stock Index, daily and historical values",
+      "Daily Trading Statistics - Trading volume, turnover, and price data for all listed securities",
+      "Foreign Investor Holdings - Daily and monthly foreign and mainland Chinese investor shareholding data",
+      "Margin Trading Data - Margin purchases, short sales and securities lending statistics",
+      "Listed Company Disclosures - Corporate filings via MOPS including financial reports and material information",
+      "Market Surveillance Reports - Exchange regulatory announcements and market monitoring data",
+      "Sector and Industry Data - Sector index performance and industry-classified statistics",
+      "Open API - Public API for market data, trading statistics, and listed company information"
+    ],
+    "zh": [
+      "TAIEX加权指数 - 台湾加权股价指数的每日和历史数据",
+      "每日交易统计 - 所有上市证券的成交量、成交额和价格数据",
+      "外资持股 - 每日及月度外资和陆资股东持股数据",
+      "融资融券数据 - 融资买入、融券卖出和借券交易统计",
+      "上市公司公告 - 通过公开资讯观测站MOPS发布的公司财报和重大讯息",
+      "市场监察报告 - 交易所监管公告及市场监测数据",
+      "行业分类数据 - 各行业类股指数表现及分类统计",
+      "开放API - 市场数据、交易统计及上市公司信息的公开API"
+    ]
+  }
+}
