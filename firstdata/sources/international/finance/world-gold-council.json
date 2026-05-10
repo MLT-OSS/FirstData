@@ -1,0 +1,75 @@
+{
+  "id": "world-gold-council",
+  "name": {
+    "en": "World Gold Council",
+    "zh": "世界黄金协会"
+  },
+  "description": {
+    "en": "The World Gold Council (WGC) is the market-development organization for the gold industry, founded in 1987 and funded by the world's leading gold producers. Through its Goldhub data platform, WGC publishes the most authoritative global gold statistics, including quarterly Gold Demand Trends reports, monthly central-bank gold reserves updates, gold-backed ETF flows, and jewelry, technology, and investment demand breakdowns. WGC's data on central-bank gold purchases is widely cited as the reference for tracking de-dollarization trends and sovereign gold-reserve behavior.",
+    "zh": "世界黄金协会（WGC）是黄金行业的国际市场发展机构，成立于1987年，由全球主要黄金生产商资助。WGC 通过 Goldhub 数据平台发布最具权威性的全球黄金统计数据，包括季度《黄金需求趋势报告》、月度各国央行黄金储备更新、黄金ETF资金流向以及珠宝、科技、投资需求分项数据。WGC 发布的央行购金数据被广泛引用为追踪去美元化趋势及主权黄金储备行为的基准参考。"
+  },
+  "website": "https://www.gold.org",
+  "data_url": "https://www.gold.org/goldhub/data",
+  "api_url": null,
+  "authority_level": "international",
+  "country": null,
+  "geographic_scope": "global",
+  "domains": [
+    "finance",
+    "commodities",
+    "commodity-markets",
+    "investment",
+    "central-bank-statistics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "世界黄金协会",
+    "world-gold-council",
+    "wgc",
+    "黄金",
+    "gold",
+    "黄金需求",
+    "gold-demand",
+    "黄金储备",
+    "gold-reserves",
+    "央行黄金",
+    "central-bank-gold",
+    "黄金ETF",
+    "gold-etf",
+    "珠宝需求",
+    "jewelry-demand",
+    "金价",
+    "gold-price",
+    "贵金属",
+    "precious-metals",
+    "goldhub",
+    "投资需求",
+    "investment-demand",
+    "黄金供应",
+    "gold-supply",
+    "去美元化",
+    "de-dollarization"
+  ],
+  "data_content": {
+    "en": [
+      "Gold Demand Trends: quarterly report with tonnage and value breakdowns of jewelry, technology, investment, and central-bank demand across 60+ countries",
+      "Monthly central-bank gold reserves: country-level gold holdings, net purchases, and sales sourced from IMF IFS and national central banks",
+      "Gold-backed ETF flows: weekly and monthly inflows/outflows, AUM, and tonnage by region (North America, Europe, Asia, Other) and by fund",
+      "Gold supply: mine production by country, recycled gold, and producer hedging statistics",
+      "Historical gold prices: daily LBMA Gold Price (AM/PM) and Shanghai Gold Benchmark Price dating back decades",
+      "Central-bank gold survey: annual Gold Reserves Survey capturing reserve managers' outlook and intent-to-purchase signals",
+      "Gold returns and correlation data: long-run performance data against equities, bonds, currencies, and inflation",
+      "Market-research reports on gold in investment portfolios, technology demand, and ESG-related gold-mining standards"
+    ],
+    "zh": [
+      "《黄金需求趋势报告》：季度发布，涵盖60余个国家珠宝、科技、投资及央行需求的吨位与金额分解",
+      "月度央行黄金储备：基于IMF IFS及各国央行来源的国别黄金持仓、净购金与售金数据",
+      "黄金ETF资金流向：按地区（北美、欧洲、亚洲、其他）及基金的周度、月度净流入/流出、AUM及吨位数据",
+      "黄金供应：各国矿产金产量、再生金及生产商对冲统计",
+      "历史金价：追溯数十年的 LBMA 金价（上午/下午盘）及上海金基准价每日数据",
+      "央行黄金调查：年度《央行黄金储备调查》，反映各国储备管理者展望及购金意向",
+      "黄金收益与相关性数据：黄金相对股票、债券、汇率及通胀的长期表现数据",
+      "市场研究报告：投资组合中的黄金、科技用金需求及ESG相关黄金开采标准研究"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "china-sge",
+  "name": {
+    "en": "Shanghai Gold Exchange",
+    "zh": "上海黄金交易所"
+  },
+  "description": {
+    "en": "The Shanghai Gold Exchange (SGE) is China's national exchange for gold, silver, and platinum trading, established in 2002 under the direct supervision of the People's Bank of China. As the world's largest physical gold exchange by volume, SGE operates the Shanghai Gold Benchmark Price (the yuan-denominated gold benchmark launched in 2016) and publishes daily, weekly, monthly, and annual trading statistics covering spot, deferred, and international board products. Its data underpins research on China's gold market, central bank reserves behavior, and RMB internationalization through commodity pricing.",
+    "zh": "上海黄金交易所（SGE）成立于2002年，是中国人民银行直接监管的全国性黄金、白银、铂金交易所，按成交量计是全球最大的实物黄金交易所。交易所负责运营上海金基准价（2016年推出的人民币计价黄金基准），并发布即期、延期、国际板产品的日度、周度、月度及年度交易统计数据，为研究中国黄金市场、央行储备行为以及通过大宗商品定价推进人民币国际化提供权威数据支撑。"
+  },
+  "website": "https://www.sge.com.cn",
+  "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "commodities",
+    "commodity-markets",
+    "markets"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "上海黄金交易所",
+    "sge",
+    "shanghai-gold-exchange",
+    "黄金交易",
+    "gold-trading",
+    "上海金",
+    "shanghai-gold-benchmark",
+    "贵金属",
+    "precious-metals",
+    "白银",
+    "silver",
+    "铂金",
+    "platinum",
+    "黄金价格",
+    "gold-price",
+    "人民币黄金基准",
+    "rmb-gold-benchmark",
+    "实物黄金",
+    "physical-gold",
+    "黄金储备",
+    "gold-reserves"
+  ],
+  "data_content": {
+    "en": [
+      "Daily quotes for Au99.99, Au99.95, Au100g, Ag99.99, Pt99.95 and related spot, deferred, and international board contracts",
+      "Shanghai Gold Benchmark Price (AM/PM fixings) in RMB per gram with auction volume and participant statistics",
+      "Trading statistics: volume, turnover, open interest, physical delivery quantities by contract and by month/year",
+      "Member statistics: list of financial, bullion, and ETF members, trading and delivery rankings",
+      "Gold inventory and vault stock data for certified delivery warehouses",
+      "Cross-border international board (SGEI) trading data in offshore RMB",
+      "Market research reports and yearbooks on China's gold market development"
+    ],
+    "zh": [
+      "Au99.99、Au99.95、Au100g、Ag99.99、Pt99.95 等品种现货、延期及国际板合约的每日行情",
+      "上海金基准价（上午/下午盘）人民币/克价格及集合竞价成交量、参与机构统计",
+      "交易统计：各合约成交量、成交额、持仓量、实物交割量的月度与年度数据",
+      "会员统计：金融类、综合类及ETF类会员名录、交易与交割排名",
+      "认证交割仓库黄金库存数据",
+      "国际板（SGEI）离岸人民币跨境交易数据",
+      "中国黄金市场发展研究报告与年鉴"
+    ]
+  }
+}

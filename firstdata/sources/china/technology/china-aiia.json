@@ -1,0 +1,68 @@
+{
+  "id": "china-aiia",
+  "name": {
+    "en": "Artificial Intelligence Industry Alliance of China",
+    "zh": "中国人工智能产业发展联盟"
+  },
+  "description": {
+    "en": "The Artificial Intelligence Industry Alliance of China (AIIA) is a national AI industry consortium jointly initiated by the Ministry of Industry and Information Technology (MIIT), the National Development and Reform Commission (NDRC), the Ministry of Science and Technology, and the Cyberspace Administration of China, with secretariat hosted by the China Academy of Information and Communications Technology (CAICT). Established in 2017, AIIA coordinates working groups on large language models, chips, datasets, trustworthy AI, and industry applications, and publishes industry whitepapers, benchmark evaluations, and a reference-architecture library for China's AI ecosystem.",
+    "zh": "中国人工智能产业发展联盟（AIIA）由工业和信息化部、国家发展和改革委员会、科技部、国家互联网信息办公室共同指导，由中国信息通信研究院承担秘书处工作，于2017年成立。联盟下设大模型、芯片、数据集、可信AI、行业应用等多个工作组，发布产业白皮书、基准评测以及中国AI生态参考架构库，是国内最具权威性的AI产业协作平台之一。"
+  },
+  "website": "https://www.aiiaorg.cn",
+  "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "artificial-intelligence",
+    "industry",
+    "industry-associations"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国人工智能产业发展联盟",
+    "aiia",
+    "ai-industry-alliance",
+    "人工智能",
+    "artificial-intelligence",
+    "AI产业",
+    "ai-industry",
+    "大模型",
+    "large-language-models",
+    "llm",
+    "可信AI",
+    "trustworthy-ai",
+    "AI芯片",
+    "ai-chips",
+    "AI数据集",
+    "ai-datasets",
+    "基准评测",
+    "benchmark-evaluation",
+    "产业联盟",
+    "industry-alliance",
+    "AI白皮书",
+    "ai-whitepaper"
+  ],
+  "data_content": {
+    "en": [
+      "Industry whitepapers: AI development whitepaper, large model whitepaper, AI governance whitepaper released annually by AIIA working groups",
+      "Benchmark evaluation results: large-language-model benchmarks, AI chip tests, and trustworthy-AI maturity assessments from AIIA evaluation committees",
+      "Reference-architecture library: AI infrastructure reference designs, dataset standards, and application scenario catalogs",
+      "Member statistics: AI enterprise, university, and research-institute member directories and annual capability maps",
+      "Working-group outputs from large-model, chip, dataset, trustworthy-AI, application, and robotics working groups",
+      "Event archives from AIIA annual conferences and industry-alliance summits including speaker slides and award lists",
+      "Policy interpretation of national AI plans and MIIT industry guidance documents endorsed by the alliance"
+    ],
+    "zh": [
+      "产业白皮书：AI工作组年度发布的《人工智能发展白皮书》《大模型白皮书》《AI治理白皮书》等",
+      "基准评测结果：大模型基准、AI芯片测试、可信AI成熟度评估等评测委员会成果",
+      "参考架构库：AI基础设施参考架构、数据集规范、应用场景目录",
+      "会员统计：AI企业、高校、科研机构会员名录及年度能力图谱",
+      "工作组成果：大模型、芯片、数据集、可信AI、行业应用、机器人等工作组产出",
+      "会议档案：AIIA年度大会及产业联盟峰会演讲材料、获奖名单",
+      "政策解读：国家AI战略规划及工信部产业指导文件的联盟解读报告"
+    ]
+  }
+}
