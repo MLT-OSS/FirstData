@@ -1,0 +1,68 @@
+{
+  "id": "uk-companies-house",
+  "name": {
+    "en": "UK Companies House",
+    "zh": "英国公司注册处"
+  },
+  "description": {
+    "en": "Companies House is the United Kingdom's registrar of companies, an executive agency of the Department for Business and Trade. It incorporates and dissolves limited companies, registers company information, and makes the full public register freely available through its website and open-data service. Coverage includes over 5 million active UK companies with filings of annual accounts, confirmation statements, person-with-significant-control (PSC) data, mortgage charges, and officer histories. It is the authoritative source for UK corporate structure, beneficial-ownership transparency, and cross-border shareholding chains.",
+    "zh": "英国公司注册处（Companies House）是英国商业和贸易部下属的执行机构，负责英国公司的注册、注销及公司信息登记，通过官方网站和开放数据服务免费公开全部公开登记簿。覆盖超过500万家在册英国公司的年度账目、确认声明、重要控制人（PSC）数据、抵押登记及董事履历。是研究英国企业架构、受益所有权透明度以及跨境股权链条的权威数据来源。"
+  },
+  "website": "https://www.gov.uk/government/organisations/companies-house",
+  "data_url": "https://find-and-update.company-information.service.gov.uk/",
+  "api_url": "https://developer.company-information.service.gov.uk/",
+  "authority_level": "government",
+  "country": "GB",
+  "geographic_scope": "national",
+  "domains": [
+    "business-registration",
+    "corporate-registry",
+    "corporate-governance",
+    "transparency"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "英国公司注册处",
+    "companies-house",
+    "uk-companies-house",
+    "英国公司",
+    "uk-companies",
+    "公司注册",
+    "company-registration",
+    "受益所有权",
+    "beneficial-ownership",
+    "psc",
+    "重要控制人",
+    "persons-with-significant-control",
+    "年度报告",
+    "annual-accounts",
+    "confirmation-statement",
+    "mortgage-charges",
+    "公司治理",
+    "corporate-governance",
+    "股权结构",
+    "ownership-structure",
+    "企业透明度",
+    "corporate-transparency"
+  ],
+  "data_content": {
+    "en": [
+      "Full UK company register: company number, name, registered address, status, incorporation/dissolution dates for 5M+ active and 10M+ historical companies",
+      "Filing history: annual accounts, confirmation statements (formerly annual returns), changes of officers, registered-office changes in PDF and XBRL",
+      "Persons with Significant Control (PSC) register: beneficial-ownership declarations for UK companies, covering control thresholds and corporate-ownership chains",
+      "Officer data: directors, secretaries, members with roles, appointment/resignation dates, date of birth (month/year) and disqualification records",
+      "Mortgage charges and satisfaction filings against UK companies",
+      "Accounts data in iXBRL machine-readable format for financial analysis",
+      "Bulk products: Basic Company Data (monthly CSV snapshot), weekly free company data, and API access for programmatic queries"
+    ],
+    "zh": [
+      "英国全量公司注册信息：500万+活跃公司及1000万+历史公司的公司编号、名称、注册地址、状态、成立/注销日期",
+      "文件归档历史：年度账目、确认声明（原年度申报表）、董事变更、注册地址变更等 PDF 与 XBRL 文件",
+      "重要控制人（PSC）登记簿：英国公司受益所有权申报，涵盖控制阈值及公司所有权链条",
+      "高管数据：董事、公司秘书、成员及其职务、任免日期、出生年月、失格记录",
+      "抵押登记与解除登记文件",
+      "iXBRL 机读格式账目数据，支持财务分析",
+      "批量产品：基础公司数据（每月 CSV 快照）、每周免费公司数据、开发者 API"
+    ]
+  }
+}

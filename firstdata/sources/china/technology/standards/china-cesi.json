@@ -1,0 +1,69 @@
+{
+  "id": "china-cesi",
+  "name": {
+    "en": "China Electronics Standardization Institute",
+    "zh": "中国电子技术标准化研究院"
+  },
+  "description": {
+    "en": "The China Electronics Standardization Institute (CESI) is a national research institute directly affiliated with the Ministry of Industry and Information Technology (MIIT), serving as China's principal standardization body for electronic information technology. Founded in 1963, CESI is the secretariat of multiple national Technical Committees (TC260 Information Security, TC159 Semiconductor Devices, among others) and represents China in ISO/IEC JTC1 and related international standards organizations. It publishes national standards, industry standards, conformity-assessment reports, testing and certification data, and annual reports on electronics, integrated circuits, artificial intelligence, and data security.",
+    "zh": "中国电子技术标准化研究院（CESI）是工业和信息化部直属事业单位，是国家电子信息领域的主要标准化机构，成立于1963年。CESI 承担全国信息安全标准化技术委员会（TC260）、全国半导体器件标准化技术委员会（TC159）等多个全国标委会的秘书处工作，并代表中国参与 ISO/IEC JTC1 等国际标准化组织活动。机构发布国家标准、行业标准、符合性评估报告、检测与认证数据，以及电子信息、集成电路、人工智能、数据安全等领域的年度报告。"
+  },
+  "website": "http://www.cesi.cn",
+  "data_url": "http://www.cesi.cn/news/",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "standards",
+    "technology-standards",
+    "electronics",
+    "information-security"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国电子技术标准化研究院",
+    "cesi",
+    "china-electronics-standardization-institute",
+    "电子信息标准",
+    "electronics-standards",
+    "tc260",
+    "信息安全标准",
+    "information-security-standards",
+    "集成电路",
+    "integrated-circuits",
+    "半导体",
+    "semiconductors",
+    "AI标准",
+    "ai-standards",
+    "数据安全",
+    "data-security",
+    "国家标准",
+    "national-standards",
+    "认证检测",
+    "certification-testing",
+    "网络安全标准",
+    "cybersecurity-standards"
+  ],
+  "data_content": {
+    "en": [
+      "National standards (GB) and industry standards (SJ) for electronics, integrated circuits, cybersecurity, AI, and data security with draft notices and public-consultation records",
+      "TC260 Information Security national standards catalog including the Cybersecurity Classified Protection 2.0 series and data-security standards",
+      "Conformity-assessment and certification reports for electronic products, software, and integrated-circuit testing",
+      "Annual whitepapers on AI, big data, open source, blockchain, and integrated-circuit industry development",
+      "Statistics on participation in ISO/IEC JTC1 international standards proposals and China-led international standards output",
+      "Testing and laboratory data from CESI national public-service platforms for IC design, AI, and software quality",
+      "Policy research reports commissioned by MIIT on industry standardization roadmaps"
+    ],
+    "zh": [
+      "电子信息、集成电路、网络安全、AI、数据安全领域的国家标准（GB）和行业标准（SJ）目录、征求意见稿及公开征询记录",
+      "TC260 信息安全标委会国家标准目录，包括等级保护2.0系列、数据安全标准等",
+      "电子产品、软件及集成电路检测的符合性评估与认证报告",
+      "人工智能、大数据、开源、区块链、集成电路等产业年度白皮书",
+      "ISO/IEC JTC1 国际标准提案参与情况及中国主导国际标准产出统计",
+      "CESI 集成电路设计、AI、软件质量等国家级公共服务平台检测与实验室数据",
+      "受工信部委托开展的产业标准化路线图政策研究报告"
+    ]
+  }
+}
