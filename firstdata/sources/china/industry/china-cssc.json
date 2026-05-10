@@ -1,0 +1,72 @@
+{
+  "id": "china-cssc",
+  "name": {
+    "en": "China State Shipbuilding Corporation",
+    "zh": "中国船舶集团有限公司"
+  },
+  "description": {
+    "en": "China State Shipbuilding Corporation (CSSC) is the world's largest shipbuilding conglomerate and China's largest state-owned enterprise in the marine industry, directly administered by the State-owned Assets Supervision and Administration Commission of the State Council (SASAC). Formed in 2019 through the merger of the former China State Shipbuilding Corporation (北船) and China Shipbuilding Industry Corporation (南船, CSIC), CSSC operates over 100 subsidiary shipyards, research institutes, and manufacturing enterprises across China including Jiangnan Shipyard, Hudong-Zhonghua, Dalian Shipbuilding, and Shanghai Waigaoqiao Shipbuilding. CSSC is the dominant builder of commercial vessels (container ships, LNG carriers, VLCCs, bulk carriers, cruise ships), naval combat ships, offshore engineering equipment, and marine machinery, producing approximately 40% of China's total shipbuilding output and holding global leadership in new-ship orderbook volume. The corporation publishes authoritative public information including annual reports, industry statistics, new-ship delivery announcements, marine engineering technology reports, and financial data for its listed subsidiaries (CSSC Holdings 600150.SH, CSIC 601989.SH, CSSC Offshore & Marine Engineering 600685.SH, etc.).",
+    "zh": "中国船舶集团有限公司（CSSC）是全球最大的造船企业集团和中国船舶行业最大的中央企业，由国务院国有资产监督管理委员会直接管理。CSSC于2019年由原中国船舶工业集团公司（北船）和中国船舶重工集团公司（南船/CSIC）合并组建，旗下运营100余家造船厂、研究院所和制造企业，包括江南造船、沪东中华、大连造船和上海外高桥造船等。CSSC是商业船舶（集装箱船、LNG运输船、VLCC、散货船、邮轮）、海军战斗舰艇、海洋工程装备和船舶机械的主导建造商，约占中国造船总产量的40%，在新船订单量方面保持全球领先。集团发布权威公开信息，包括年度报告、行业统计、新船交付公告、海洋工程技术报告以及中国船舶（600150.SH）、中国重工（601989.SH）、中船海工（600685.SH）等上市子公司的财务数据。"
+  },
+  "website": "http://www.cssc.net.cn",
+  "data_url": "http://www.cssc.net.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "shipbuilding",
+    "marine-engineering",
+    "defense",
+    "manufacturing"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "中国船舶集团",
+    "cssc",
+    "china-state-shipbuilding",
+    "造船业",
+    "shipbuilding",
+    "海洋工程",
+    "marine-engineering",
+    "LNG船",
+    "lng-carriers",
+    "邮轮",
+    "cruise-ships",
+    "集装箱船",
+    "container-ships",
+    "海军装备",
+    "naval-equipment",
+    "船舶机械",
+    "marine-machinery",
+    "江南造船",
+    "jiangnan-shipyard",
+    "国资委",
+    "sasac",
+    "央企",
+    "central-soe"
+  ],
+  "data_content": {
+    "en": [
+      "Annual reports and monthly operating updates covering new-ship orders, deliveries, revenue, and operating profit across CSSC's subsidiary shipyards and research institutes",
+      "Commercial vessel production statistics including container ships, LNG carriers, VLCCs, bulk carriers, car carriers, and cruise ships with tonnage and technical specifications",
+      "Naval combat ship program announcements for surface combatants, submarines, and auxiliary vessels (subject to national defense disclosure rules)",
+      "Offshore engineering equipment data covering drilling rigs, FPSOs, offshore wind installation vessels, and subsea production systems",
+      "Marine machinery and propulsion systems including marine diesel engines (WinGD, MAN-B&W licensed), propellers, and ship automation systems",
+      "Listed subsidiaries financial data including quarterly and annual filings for CSSC Holdings (600150), CSIC (601989), CSSC Offshore & Marine Engineering (600685), and other publicly traded entities",
+      "Research and technology reports from CSSC's research institutes covering ship design, marine propulsion, materials science, and green shipping technologies",
+      "Corporate ESG and sustainability reports covering environmental performance, occupational safety, and social responsibility programs"
+    ],
+    "zh": [
+      "年度报告和月度经营更新，涵盖中国船舶集团子公司船厂和研究院所的新船订单、交付、营收和经营利润",
+      "商业船舶生产统计，包括集装箱船、LNG运输船、VLCC、散货船、汽车运输船和邮轮的吨位和技术规格",
+      "海军战斗舰艇项目公告，涵盖水面舰艇、潜艇和辅助舰船（遵循国防公开披露规则）",
+      "海洋工程装备数据，涵盖钻井平台、FPSO、海上风电安装船和水下生产系统",
+      "船用机械和推进系统，包括船用柴油机（WinGD、MAN-B&W许可生产）、螺旋桨和船舶自动化系统",
+      "上市子公司财务数据，包括中国船舶（600150）、中国重工（601989）、中船海工（600685）等上市主体的季度和年度报告",
+      "中国船舶集团研究院所技术研究报告，涵盖船舶设计、船舶推进、材料科学和绿色航运技术",
+      "集团ESG与可持续发展报告，涵盖环境绩效、职业安全和社会责任项目"
+    ]
+  }
+}

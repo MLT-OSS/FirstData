@@ -1,0 +1,72 @@
+{
+  "id": "china-cms",
+  "name": {
+    "en": "Chinese Meteorological Society",
+    "zh": "中国气象学会"
+  },
+  "description": {
+    "en": "The Chinese Meteorological Society (CMS) is the national academic society for atmospheric sciences and meteorology in China, founded in 1924 and currently operating under the guidance of the China Association for Science and Technology (CAST) and the China Meteorological Administration (CMA). CMS is the professional umbrella organization for Chinese meteorologists, atmospheric scientists, climate researchers, and practitioners across academia, government, and industry. With 24 specialized committees covering areas such as synoptic meteorology, climate change, atmospheric chemistry, agricultural meteorology, aviation meteorology, space weather, and meteorological data science, CMS publishes peer-reviewed journals (Acta Meteorologica Sinica, Journal of Meteorological Research, Chinese Journal of Atmospheric Sciences), organizes national and international meteorological conferences, sets professional standards, and represents China in global meteorological organizations including the American Meteorological Society and the World Meteorological Organization. The society serves as a key knowledge hub for climate change research, weather forecasting methodology, extreme weather analysis, and meteorological policy advocacy in China.",
+    "zh": "中国气象学会（CMS）成立于1924年，是中国大气科学和气象学的国家级学术团体，由中国科学技术协会和中国气象局业务指导。CMS是涵盖学术界、政府和产业界的中国气象工作者、大气科学家、气候研究人员和从业者的专业组织，下设24个专业委员会，涵盖天气学、气候变化、大气化学、农业气象、航空气象、空间天气和气象数据科学等领域。学会出版多份同行评审期刊（《气象学报》《Journal of Meteorological Research》《大气科学》），组织国内外气象学术会议，制定专业标准，并代表中国参与美国气象学会、世界气象组织等国际气象机构。学会是中国气候变化研究、天气预报方法、极端天气分析和气象政策倡导的重要知识枢纽。"
+  },
+  "website": "https://www.cms1924.org",
+  "data_url": "https://www.cms1924.org",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "meteorology",
+    "climate",
+    "atmospheric-science",
+    "environment",
+    "research"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "中国气象学会",
+    "cms",
+    "chinese-meteorological-society",
+    "气象学",
+    "meteorology",
+    "大气科学",
+    "atmospheric-sciences",
+    "气候变化",
+    "climate-change",
+    "天气预报",
+    "weather-forecasting",
+    "气象期刊",
+    "meteorological-journals",
+    "气象学报",
+    "acta-meteorologica-sinica",
+    "极端天气",
+    "extreme-weather",
+    "气象标准",
+    "meteorological-standards",
+    "农业气象",
+    "agricultural-meteorology",
+    "航空气象",
+    "aviation-meteorology"
+  ],
+  "data_content": {
+    "en": [
+      "Peer-reviewed meteorological research publications including Acta Meteorologica Sinica (气象学报), Journal of Meteorological Research (English edition), and Chinese Journal of Atmospheric Sciences (大气科学)",
+      "Conference proceedings and abstracts from annual CMS National Meteorological Academic Conference, climate change symposia, and specialized committee meetings",
+      "Meteorological professional standards (T/CMSA) and technical guidelines for weather services, climate monitoring, and atmospheric observation methodology",
+      "Research reports from 24 specialized committees covering synoptic meteorology, climate change, atmospheric chemistry, numerical weather prediction, satellite meteorology, agricultural meteorology, and space weather",
+      "Awards and recognition directory including the National Young Scientist Award in Meteorology, outstanding papers, and lifetime achievement awards",
+      "Membership directory, organizational statistics, and professional development resources for meteorological researchers and practitioners in China",
+      "Science communication materials on weather awareness, climate literacy, and extreme weather preparedness including World Meteorological Day (March 23) activities",
+      "International collaboration records with AMS, RMetS, WMO, and other global meteorological organizations including joint research programs and academic exchanges"
+    ],
+    "zh": [
+      "同行评审气象研究出版物，包括《气象学报》《Journal of Meteorological Research》（英文版）和《大气科学》",
+      "中国气象学会年会、气候变化研讨会及各专业委员会会议论文集和摘要",
+      "气象专业标准（T/CMSA）和天气服务、气候监测、大气观测方法的技术指南",
+      "24个专业委员会研究报告，涵盖天气学、气候变化、大气化学、数值天气预报、卫星气象、农业气象和空间天气",
+      "奖项与荣誉名录，包括全国青年气象科学家奖、优秀论文奖和终身成就奖",
+      "中国气象研究人员和从业者会员名录、组织统计及专业发展资源",
+      "天气意识、气候素养和极端天气应对的科普资料，包括世界气象日（3月23日）活动",
+      "与美国气象学会、英国皇家气象学会、世界气象组织等国际气象机构的合作记录，包括联合研究项目和学术交流"
+    ]
+  }
+}
