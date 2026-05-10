@@ -1,0 +1,73 @@
+{
+  "id": "china-chinabuilding",
+  "name": {
+    "en": "China Building Standard Design Network",
+    "zh": "中国建筑标准设计网"
+  },
+  "description": {
+    "en": "China Building Standard Design Network (国家建筑标准设计网) is the official online platform for national building standard design documents in China, operated by the China Institute of Building Standard Design & Research (中国建筑标准设计研究院/CBS) which is an enterprise directly affiliated with the Ministry of Housing and Urban-Rural Development (MOHURD). Established in 1956 and publishing standard design drawings since the 1950s, CBS is the sole national authoritative institution for producing mandatory and recommended standard design drawings (国家建筑标准设计图集, commonly called '图集') that define construction details, specifications, and engineering methods used in virtually all building projects across China. The platform hosts the complete library of over 1,400 national standard design drawing sets covering architectural, structural, mechanical-electrical-plumbing (MEP), HVAC, fire protection, elevators, curtain walls, seismic design, green buildings, prefabricated construction, and BIM specifications. These standards are mandatory references for construction drawing review, building permit approvals, and quality supervision across China's construction industry. The network also publishes technical guides, case studies, specification updates, and industry research reports on building engineering practice.",
+    "zh": "中国建筑标准设计网（国家建筑标准设计网）是中国国家建筑标准设计文件的官方在线平台，由住房和城乡建设部直属企业中国建筑标准设计研究院（CBS）运营。CBS成立于1956年，自20世纪50年代起发布标准设计图纸，是中国唯一编制强制性和推荐性国家建筑标准设计图集（通称'图集'）的国家级权威机构，这些图集界定了几乎所有中国建筑项目使用的施工细节、规范和工程方法。平台汇集1400多册国家标准设计图集的完整资料库，涵盖建筑、结构、机电（MEP）、暖通空调、消防、电梯、幕墙、抗震设计、绿色建筑、装配式建筑和BIM规范等领域。这些标准是中国建筑业施工图审查、建筑许可证审批和质量监督的强制性参考依据。网站还发布建筑工程实践的技术指南、案例研究、规范更新和行业研究报告。"
+  },
+  "website": "https://www.chinabuilding.com.cn",
+  "data_url": "https://www.chinabuilding.com.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "construction",
+    "building-standards",
+    "engineering",
+    "urban-planning",
+    "standards"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "国家建筑标准设计",
+    "china-building-standard",
+    "中国建筑标准设计研究院",
+    "cbs",
+    "建筑图集",
+    "building-drawings",
+    "国标图集",
+    "national-standard-drawings",
+    "住建部",
+    "mohurd",
+    "施工图审查",
+    "construction-drawing-review",
+    "机电标准",
+    "mep-standards",
+    "抗震设计",
+    "seismic-design",
+    "绿色建筑",
+    "green-building",
+    "装配式建筑",
+    "prefabricated-construction",
+    "BIM",
+    "bim",
+    "建筑规范",
+    "building-codes"
+  ],
+  "data_content": {
+    "en": [
+      "Complete library of over 1,400 national standard design drawing sets (国标图集) covering architectural design, structural engineering, MEP systems, HVAC, fire protection, elevators, curtain walls, and seismic design",
+      "Architectural standard drawings including building elements (windows, doors, stairs, ramps), interior finishes, exterior facades, roofs, waterproofing, and accessibility design specifications",
+      "Structural standard drawings for reinforced concrete, steel structures, masonry, composite structures, foundations, retaining walls, and seismic-resistant detailing",
+      "MEP standard drawings covering electrical systems, lighting, HVAC ducting, plumbing, fire sprinklers, gas supply, and building automation",
+      "Green building and prefabricated construction standard drawings including photovoltaic integration, ground-source heat pumps, prefabricated concrete components, and modular construction details",
+      "Industry-specific standard drawings for residential buildings, public buildings, industrial facilities, healthcare facilities, education facilities, and urban infrastructure",
+      "Technical specifications, case studies, and best practice documentation for building engineering professionals",
+      "Policy documents, standard update announcements, and mandatory technical specifications issued jointly with MOHURD"
+    ],
+    "zh": [
+      "1400余册国家标准设计图集完整资料库，涵盖建筑设计、结构工程、机电系统、暖通空调、消防、电梯、幕墙和抗震设计",
+      "建筑专业标准图集，包括建筑构件（门窗、楼梯、坡道）、室内装修、外立面、屋面、防水和无障碍设计规范",
+      "结构专业标准图集，涵盖钢筋混凝土、钢结构、砌体结构、组合结构、基础、挡土墙和抗震构造详图",
+      "机电专业标准图集，涵盖电气系统、照明、暖通风管、给排水、消防喷淋、燃气供应和楼宇自控",
+      "绿色建筑和装配式建筑标准图集，包括光伏一体化、地源热泵、预制混凝土构件和模块化施工详图",
+      "住宅建筑、公共建筑、工业设施、医疗设施、教育设施和城市基础设施等行业专用标准图集",
+      "面向建筑工程专业人员的技术规范、案例研究和最佳实践文档",
+      "与住建部联合发布的政策文件、标准更新通知和强制性技术规范"
+    ]
+  }
+}

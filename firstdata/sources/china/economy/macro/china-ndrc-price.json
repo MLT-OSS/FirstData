@@ -1,0 +1,71 @@
+{
+  "id": "china-ndrc-price",
+  "name": {
+    "en": "NDRC Price Monitoring and Early Warning System",
+    "zh": "国家发展和改革委员会价格监测预警系统"
+  },
+  "description": {
+    "en": "The NDRC Price Monitoring and Early Warning System is the official price-monitoring platform of China's National Development and Reform Commission (NDRC), operated by the Price Monitoring Center (价格监测中心) which is a public institution directly affiliated with NDRC. Established in 1988, the Price Monitoring Center is the highest-authority government entity tracking prices across key sectors of the Chinese economy, including agricultural products, energy commodities, industrial raw materials, pharmaceutical products, consumer goods, and services. The system publishes daily, weekly, and monthly price monitoring reports covering commodity wholesale and retail prices, agricultural futures, fuel prices, grain prices, pork prices, vegetable prices, steel prices, and chemical material prices across major Chinese cities and markets. It produces the authoritative pricing indices used for macroeconomic policy decisions, inflation analysis, anti-monopoly investigations, and government price intervention actions. The platform also publishes policy documents, price investigation reports, and analyses of domestic and international price trends.",
+    "zh": "国家发展和改革委员会价格监测预警系统是国家发展改革委官方价格监测平台，由国家发展改革委直属事业单位价格监测中心运营。价格监测中心成立于1988年，是中国跟踪关键经济领域价格的最高权威政府机构，监测范围涵盖农产品、能源商品、工业原材料、医药产品、消费品和服务等领域。该系统发布涵盖主要城市和市场的商品批发零售价格、农产品期货、燃料价格、粮食价格、猪肉价格、蔬菜价格、钢铁价格和化工原料价格的日度、周度和月度价格监测报告，产出用于宏观经济政策决策、通胀分析、反垄断调查和政府价格干预的权威价格指数。平台同时发布政策文件、价格调查报告以及国内外价格走势分析。"
+  },
+  "website": "https://jgjc.ndrc.gov.cn",
+  "data_url": "https://jgjc.ndrc.gov.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "prices",
+    "agriculture",
+    "energy",
+    "consumer-goods"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "国家发改委价格监测中心",
+    "ndrc-price",
+    "price-monitoring",
+    "价格监测",
+    "宏观价格",
+    "macro-prices",
+    "CPI",
+    "cpi",
+    "农产品价格",
+    "agricultural-prices",
+    "能源价格",
+    "energy-prices",
+    "猪肉价格",
+    "pork-prices",
+    "钢铁价格",
+    "steel-prices",
+    "粮食价格",
+    "grain-prices",
+    "价格预警",
+    "price-early-warning",
+    "发改委",
+    "ndrc"
+  ],
+  "data_content": {
+    "en": [
+      "Daily wholesale and retail price monitoring data for agricultural products including grain, pork, beef, mutton, poultry, eggs, vegetables, fruits, and edible oil across major Chinese cities",
+      "Weekly and monthly price reports for energy commodities including coal (thermal, coking), crude oil, refined oil products, and natural gas with domestic and international benchmark comparisons",
+      "Industrial raw material price monitoring covering steel, copper, aluminum, iron ore, chemical fertilizers, and building materials from major wholesale markets",
+      "Pharmaceutical price monitoring data including centralized procurement (带量采购) results, essential drug prices, and hospital procurement price tracking",
+      "Consumer goods and services price indices for housing, transportation, healthcare, education, and tourism sectors",
+      "Price monitoring early warning reports identifying abnormal price movements, supply-demand imbalances, and speculative behavior",
+      "Policy documents including price intervention measures, price regulation notices, and anti-monopoly enforcement decisions",
+      "Annual price monitoring summary reports and quarterly analytical briefings on China's macroeconomic price environment"
+    ],
+    "zh": [
+      "主要城市农产品（粮食、猪肉、牛羊肉、禽蛋、蔬菜、水果、食用油）批发零售价格的日度监测数据",
+      "煤炭（动力煤、焦煤）、原油、成品油、天然气等能源商品价格的周度和月度报告，含国内外基准比较",
+      "钢铁、铜、铝、铁矿石、化肥、建材等工业原材料批发市场价格监测",
+      "药品价格监测数据，包括带量采购结果、基本药物价格和医院采购价格跟踪",
+      "住房、交通、医疗、教育、旅游等消费品和服务价格指数",
+      "识别异常价格波动、供需失衡和投机行为的价格监测预警报告",
+      "政策文件，包括价格干预措施、价格调控通知和反垄断执法决定",
+      "年度价格监测总结报告和中国宏观价格环境季度分析简报"
+    ]
+  }
+}

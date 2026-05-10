@@ -1,0 +1,72 @@
+{
+  "id": "china-ctei",
+  "name": {
+    "en": "China Textile Economy Information Network",
+    "zh": "纺织经济信息网"
+  },
+  "description": {
+    "en": "China Textile Economy Information Network (CTEI) is the official economic information platform of the China National Textile and Apparel Council (CNTAC), operated by the China Textile Information Center (中国纺织信息中心). As the authoritative information hub for China's textile and apparel industry, CTEI collects, analyzes, and publishes comprehensive economic data covering China's USD 700+ billion textile industry, the world's largest by production volume. The platform publishes industry statistics including fiber production, yarn and fabric output, garment manufacturing, textile exports and imports, industrial enterprise financial indicators, raw material prices (cotton, chemical fiber, wool), and regional industrial cluster data. CTEI tracks the entire textile value chain from natural and chemical fiber production through yarn spinning, weaving, dyeing, garment making, and retail, with particular focus on technical textiles, home textiles, industrial textiles, and fashion apparel. It serves as a primary information source for textile industry policy analysis, corporate strategic planning, market research, and international trade intelligence.",
+    "zh": "纺织经济信息网（CTEI）是中国纺织工业联合会（CNTAC）的官方经济信息平台，由中国纺织信息中心运营。作为中国纺织服装业权威信息枢纽，该网站采集、分析和发布涵盖中国超过7000亿美元纺织产业的全面经济数据，中国纺织业是全球产量最大的纺织产业。平台发布行业统计，包括纤维产量、纱线和面料产量、服装制造、纺织品进出口、工业企业财务指标、原材料价格（棉花、化纤、羊毛）以及区域产业集群数据。CTEI跟踪从天然纤维和化学纤维生产到纱线纺纱、织造、染整、服装制造和零售的整个纺织价值链，重点关注产业用纺织品、家用纺织品、工业纺织品和时尚服装。它是纺织行业政策分析、企业战略规划、市场研究和国际贸易情报的主要信息来源。"
+  },
+  "website": "http://www.ctei.cn",
+  "data_url": "http://www.ctei.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "textile",
+    "manufacturing",
+    "trade",
+    "economics"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "纺织经济信息网",
+    "ctei",
+    "china-textile",
+    "纺织行业",
+    "textile-industry",
+    "服装产业",
+    "apparel-industry",
+    "cntac",
+    "中国纺织工业联合会",
+    "棉花价格",
+    "cotton-prices",
+    "化学纤维",
+    "chemical-fibers",
+    "纺织品出口",
+    "textile-exports",
+    "产业集群",
+    "industrial-clusters",
+    "产业用纺织品",
+    "technical-textiles",
+    "家用纺织品",
+    "home-textiles",
+    "纺织统计",
+    "textile-statistics"
+  ],
+  "data_content": {
+    "en": [
+      "Monthly and annual textile industry statistics including fiber production, yarn output, fabric production, apparel manufacturing, and industry-wide financial performance indicators",
+      "Textile raw material price monitoring covering cotton, polyester, viscose, nylon, wool, and silk spot and futures prices from Chinese and international markets",
+      "Textile and apparel import-export trade data by product category, destination country, and regional export hubs (Zhejiang, Jiangsu, Guangdong, Fujian, Shandong)",
+      "Regional textile industrial cluster analysis covering over 200 textile clusters across China including Shengze silk cluster, Keqiao textile city, Humen apparel cluster, and Shishi fabric cluster",
+      "Industry benchmarking data on enterprise size distribution, profit margins, export ratios, R&D intensity, and energy consumption per unit of output",
+      "Technical textiles and industrial textiles market analysis for geotextiles, medical textiles, protective textiles, filtration materials, and automotive textiles",
+      "Fashion trend forecasting reports, consumer apparel retail data, and e-commerce textile sales statistics",
+      "Policy documents, industry development plans, and standardization information from CNTAC and its 10+ specialized industry associations"
+    ],
+    "zh": [
+      "纺织行业月度和年度统计，包括纤维产量、纱线产量、面料产量、服装生产以及全行业财务绩效指标",
+      "棉花、涤纶、黏胶、尼龙、羊毛和丝绸等纺织原材料价格监测，覆盖中国和国际市场现货及期货价格",
+      "按产品类别、目的国和区域出口中心（浙江、江苏、广东、福建、山东）划分的纺织服装进出口贸易数据",
+      "覆盖中国200多个纺织产业集群的区域分析，包括盛泽丝绸集群、柯桥纺织城、虎门服装集群和石狮面料集群",
+      "企业规模分布、利润率、出口比例、研发强度和单位产出能耗等行业基准数据",
+      "产业用纺织品和工业纺织品市场分析，涵盖土工布、医用纺织品、防护纺织品、过滤材料和汽车纺织品",
+      "时尚趋势预测报告、消费者服装零售数据和电子商务纺织品销售统计",
+      "中国纺织工业联合会及其10余个专业行业协会发布的政策文件、行业发展规划和标准化信息"
+    ]
+  }
+}
