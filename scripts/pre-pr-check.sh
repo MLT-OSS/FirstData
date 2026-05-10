@@ -19,8 +19,11 @@
 #   scripts/pre-pr-check.sh --text "any arbitrary text blob"   # review body, comment, commit msg
 #   scripts/pre-pr-check.sh --stdin < body.md
 #   scripts/pre-pr-check.sh --scan-sources           # same scan CI does for firstdata/sources
+#   scripts/pre-pr-check.sh --tags-lint              # scan firstdata/sources tags for ASCII
+#                                                   # uppercase or duplicate (case-insensitive)
+#                                                   # violations — complements CI / style guide
 #
-# Exit code: 0 = clean, 1 = confidential term found, 2 = usage error.
+# Exit code: 0 = clean, 1 = confidential term or tags violation found, 2 = usage error.
 #
 # Keep the BANNED_TERMS list in sync with .github/workflows/secrecy-check.yml.
 set -euo pipefail
@@ -43,9 +46,10 @@ BRANCH=""
 TEXT=""
 SCAN_SOURCES=0
 READ_STDIN=0
+TAGS_LINT=0
 
 usage() {
-  sed -n '2,25p' "$0"
+  sed -n '2,28p' "$0"
   exit 2
 }
 
@@ -56,8 +60,10 @@ while [[ $# -gt 0 ]]; do
     --title)        TITLE="$2"; shift 2 ;;
     --branch)       BRANCH="$2"; shift 2 ;;
     --text)         TEXT="$2"; shift 2 ;;
+    --review-body)  TEXT="$2"; shift 2 ;;   # alias of --text (reviewer-side)
     --stdin)        READ_STDIN=1; shift ;;
     --scan-sources) SCAN_SOURCES=1; shift ;;
+    --tags-lint)    TAGS_LINT=1; shift ;;
     -h|--help)      usage ;;
     *)              echo "Unknown arg: $1" >&2; usage ;;
   esac
@@ -120,6 +126,65 @@ fi
 if [[ "$found" -eq 1 ]]; then
   echo "::error::PR metadata or sources contain confidential term(s). Rewrite before opening / updating the PR." >&2
   exit 1
+fi
+
+if [[ "$TAGS_LINT" -eq 1 ]]; then
+  repo_root="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+  src_dir="$repo_root/firstdata/sources"
+  if [[ ! -d "$src_dir" ]]; then
+    echo "::error::--tags-lint: sources dir not found at $src_dir" >&2
+    exit 1
+  fi
+  python3 - "$src_dir" <<'PY'
+import json, pathlib, re, sys
+src = pathlib.Path(sys.argv[1])
+ascii_re = re.compile(r'^[\x20-\x7E]+$')
+violations_upper = []   # (file, tag)
+violations_dup   = []   # (file, tag_lower, originals)
+parse_errors = []
+for f in sorted(src.rglob('*.json')):
+    try:
+        d = json.load(open(f, encoding='utf-8'))
+    except Exception as e:
+        parse_errors.append((str(f), str(e)))
+        continue
+    tags = d.get('tags') or []
+    if not isinstance(tags, list):
+        continue
+    # ASCII uppercase check
+    for t in tags:
+        if isinstance(t, str) and ascii_re.match(t) and re.search(r'[A-Z]', t):
+            violations_upper.append((str(f), t))
+    # Duplicate (case-insensitive) check
+    by_lower = {}
+    for t in tags:
+        if not isinstance(t, str): continue
+        k = t.lower()
+        by_lower.setdefault(k, []).append(t)
+    for k, originals in by_lower.items():
+        if len(originals) > 1:
+            violations_dup.append((str(f), k, originals))
+
+exit_code = 0
+if parse_errors:
+    print('🔴 JSON parse errors:', file=sys.stderr)
+    for f, e in parse_errors:
+        print(f'  {f}: {e}', file=sys.stderr)
+    exit_code = 1
+if violations_upper:
+    print(f'🔴 tags-lint: {len(violations_upper)} ASCII-uppercase tag(s) found:', file=sys.stderr)
+    for f, t in violations_upper:
+        print(f'  {f}: {t!r}', file=sys.stderr)
+    exit_code = 1
+if violations_dup:
+    print(f'🔴 tags-lint: {len(violations_dup)} duplicate tag group(s) (case-insensitive):', file=sys.stderr)
+    for f, k, originals in violations_dup:
+        print(f'  {f}: {originals} → {k!r}', file=sys.stderr)
+    exit_code = 1
+if exit_code == 0:
+    print('✅ tags-lint: all tags compliant (ASCII lowercase + no case-insensitive duplicates).')
+sys.exit(exit_code)
+PY
 fi
 
 echo "✅ Pre-PR secrecy check passed."
