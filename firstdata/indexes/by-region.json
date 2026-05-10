@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T02:38:28.666821+00:00",
+    "generated_at": "2026-05-10T02:57:00.789682+00:00",
     "total_regions": 58,
-    "total_sources": 738,
+    "total_sources": 743,
     "version": "2.0"
   },
   "regions": {
@@ -2276,6 +2276,18 @@
         "data_url": "https://www.pcac.org.cn/eportal/ui?pageId=477883",
         "has_api": false,
         "file_path": "china/finance/china-payment-clearing.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-sge",
+        "name": {
+          "en": "Shanghai Gold Exchange",
+          "zh": "上海黄金交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+        "has_api": false,
+        "file_path": "china/finance/china-sge.json",
         "geographic_scope": "national"
       },
       {
@@ -5095,6 +5107,18 @@
         "geographic_scope": "subnational"
       },
       {
+        "id": "china-aiia",
+        "name": {
+          "en": "Artificial Intelligence Industry Alliance of China",
+          "zh": "中国人工智能产业发展联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+        "has_api": false,
+        "file_path": "china/technology/china-aiia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-beidou",
         "name": {
           "en": "BeiDou Navigation Satellite System",
@@ -5696,6 +5720,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cesi",
+        "name": {
+          "en": "China Electronics Standardization Institute",
+          "zh": "中国电子技术标准化研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cesi.cn/news/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnis",
         "name": {
           "en": "China National Institute of Standardization",
@@ -6172,6 +6208,18 @@
         "data_url": "https://www.bankofengland.co.uk/boeapps/database/",
         "has_api": false,
         "file_path": "countries/europe/uk/bank-of-england.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "uk-companies-house",
+        "name": {
+          "en": "UK Companies House",
+          "zh": "英国公司注册处"
+        },
+        "authority_level": "government",
+        "data_url": "https://find-and-update.company-information.service.gov.uk/",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-companies-house.json",
         "geographic_scope": "national"
       },
       {

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T02:38:28.666821+00:00",
+    "generated_at": "2026-05-10T02:57:00.789682+00:00",
     "total_domains": 752,
-    "total_sources": 738,
+    "total_sources": 743,
     "version": "2.0"
   },
   "domains": {
@@ -1536,6 +1536,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-aiia",
+        "name": {
+          "en": "Artificial Intelligence Industry Alliance of China",
+          "zh": "中国人工智能产业发展联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+        "has_api": false,
+        "file_path": "china/technology/china-aiia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cie",
         "name": {
           "en": "Chinese Institute of Electronics",
@@ -2999,6 +3011,18 @@
         "has_api": false,
         "file_path": "countries/asia/vietnam/vietnam-fia.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "uk-companies-house",
+        "name": {
+          "en": "UK Companies House",
+          "zh": "英国公司注册处"
+        },
+        "authority_level": "government",
+        "data_url": "https://find-and-update.company-information.service.gov.uk/",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-companies-house.json",
+        "geographic_scope": "national"
       }
     ],
     "business-surveys": [
@@ -3333,6 +3357,18 @@
         "data_url": "https://data.bis.org/",
         "has_api": true,
         "file_path": "academic/economics/bis-statistics.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "world-gold-council",
+        "name": {
+          "en": "World Gold Council",
+          "zh": "世界黄金协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gold.org/goldhub/data",
+        "has_api": false,
+        "file_path": "international/finance/world-gold-council.json",
         "geographic_scope": "global"
       }
     ],
@@ -4474,6 +4510,18 @@
     ],
     "commodities": [
       {
+        "id": "china-sge",
+        "name": {
+          "en": "Shanghai Gold Exchange",
+          "zh": "上海黄金交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+        "has_api": false,
+        "file_path": "china/finance/china-sge.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cga",
         "name": {
           "en": "China Gold Association",
@@ -4546,6 +4594,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "world-gold-council",
+        "name": {
+          "en": "World Gold Council",
+          "zh": "世界黄金协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gold.org/goldhub/data",
+        "has_api": false,
+        "file_path": "international/finance/world-gold-council.json",
+        "geographic_scope": "global"
+      },
+      {
         "id": "alpha-vantage",
         "name": {
           "en": "Alpha Vantage API",
@@ -4584,6 +4644,18 @@
     ],
     "commodity-markets": [
       {
+        "id": "china-sge",
+        "name": {
+          "en": "Shanghai Gold Exchange",
+          "zh": "上海黄金交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+        "has_api": false,
+        "file_path": "china/finance/china-sge.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "usda-fas",
         "name": {
           "en": "USDA Foreign Agricultural Service",
@@ -4605,6 +4677,18 @@
         "data_url": "https://www.ico.org/trade_statistics.asp",
         "has_api": false,
         "file_path": "international/agriculture/ico-coffee.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "world-gold-council",
+        "name": {
+          "en": "World Gold Council",
+          "zh": "世界黄金协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gold.org/goldhub/data",
+        "has_api": false,
+        "file_path": "international/finance/world-gold-council.json",
         "geographic_scope": "global"
       },
       {
@@ -5290,6 +5374,18 @@
         "has_api": false,
         "file_path": "china/resources/environment/china-ipe.json",
         "geographic_scope": "national"
+      },
+      {
+        "id": "uk-companies-house",
+        "name": {
+          "en": "UK Companies House",
+          "zh": "英国公司注册处"
+        },
+        "authority_level": "government",
+        "data_url": "https://find-and-update.company-information.service.gov.uk/",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-companies-house.json",
+        "geographic_scope": "national"
       }
     ],
     "corporate-profits": [
@@ -5317,6 +5413,18 @@
         "data_url": "https://www.cr.gov.hk/en/services/obtain-company-info.htm",
         "has_api": false,
         "file_path": "countries/asia/hk-companies-registry.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "uk-companies-house",
+        "name": {
+          "en": "UK Companies House",
+          "zh": "英国公司注册处"
+        },
+        "authority_level": "government",
+        "data_url": "https://find-and-update.company-information.service.gov.uk/",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-companies-house.json",
         "geographic_scope": "national"
       }
     ],
@@ -13039,6 +13147,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cesi",
+        "name": {
+          "en": "China Electronics Standardization Institute",
+          "zh": "中国电子技术标准化研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cesi.cn/news/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-miit",
         "name": {
           "en": "Ministry of Industry and Information Technology of the People's Republic of China",
@@ -17451,6 +17571,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-sge",
+        "name": {
+          "en": "Shanghai Gold Exchange",
+          "zh": "上海黄金交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+        "has_api": false,
+        "file_path": "china/finance/china-sge.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-shanghai-clearing-house",
         "name": {
           "en": "Shanghai Clearing House",
@@ -18216,6 +18348,18 @@
         "has_api": false,
         "file_path": "international/finance/paris-club.json",
         "geographic_scope": "regional"
+      },
+      {
+        "id": "world-gold-council",
+        "name": {
+          "en": "World Gold Council",
+          "zh": "世界黄金协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gold.org/goldhub/data",
+        "has_api": false,
+        "file_path": "international/finance/world-gold-council.json",
+        "geographic_scope": "global"
       },
       {
         "id": "un-ocha-fts",
@@ -23892,6 +24036,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-aiia",
+        "name": {
+          "en": "Artificial Intelligence Industry Alliance of China",
+          "zh": "中国人工智能产业发展联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+        "has_api": false,
+        "file_path": "china/technology/china-aiia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-aii-alliance",
         "name": {
           "en": "Alliance of Industrial Internet",
@@ -24480,6 +24636,18 @@
     ],
     "industry-associations": [
       {
+        "id": "china-aiia",
+        "name": {
+          "en": "Artificial Intelligence Industry Alliance of China",
+          "zh": "中国人工智能产业发展联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+        "has_api": false,
+        "file_path": "china/technology/china-aiia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cagis",
         "name": {
           "en": "China Association for Geographic Information Industry",
@@ -24725,6 +24893,18 @@
         "data_url": "https://www.cnnvd.org.cn/home/childHome",
         "has_api": false,
         "file_path": "china/technology/internet/china-cnnvd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cesi",
+        "name": {
+          "en": "China Electronics Standardization Institute",
+          "zh": "中国电子技术标准化研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cesi.cn/news/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesi.json",
         "geographic_scope": "national"
       }
     ],
@@ -26184,6 +26364,18 @@
         "data_url": "https://www.fao.org/faostat/en/",
         "has_api": true,
         "file_path": "international/agriculture/faostat.json",
+        "geographic_scope": "global"
+      },
+      {
+        "id": "world-gold-council",
+        "name": {
+          "en": "World Gold Council",
+          "zh": "世界黄金协会"
+        },
+        "authority_level": "international",
+        "data_url": "https://www.gold.org/goldhub/data",
+        "has_api": false,
+        "file_path": "international/finance/world-gold-council.json",
         "geographic_scope": "global"
       },
       {
@@ -28063,6 +28255,18 @@
       }
     ],
     "markets": [
+      {
+        "id": "china-sge",
+        "name": {
+          "en": "Shanghai Gold Exchange",
+          "zh": "上海黄金交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+        "has_api": false,
+        "file_path": "china/finance/china-sge.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-xinhua-finance",
         "name": {
@@ -36454,6 +36658,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cesi",
+        "name": {
+          "en": "China Electronics Standardization Institute",
+          "zh": "中国电子技术标准化研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cesi.cn/news/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sac-standards",
         "name": {
           "en": "Standardization Administration of China (SAC)",
@@ -38296,6 +38512,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-aiia",
+        "name": {
+          "en": "Artificial Intelligence Industry Alliance of China",
+          "zh": "中国人工智能产业发展联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+        "has_api": false,
+        "file_path": "china/technology/china-aiia.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-beidou",
         "name": {
           "en": "BeiDou Navigation Satellite System",
@@ -38681,6 +38909,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cesi",
+        "name": {
+          "en": "China Electronics Standardization Institute",
+          "zh": "中国电子技术标准化研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cesi.cn/news/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesi.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnis",
         "name": {
           "en": "China National Institute of Standardization",
@@ -38902,6 +39142,18 @@
       }
     ],
     "technology-standards": [
+      {
+        "id": "china-cesi",
+        "name": {
+          "en": "China Electronics Standardization Institute",
+          "zh": "中国电子技术标准化研究院"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cesi.cn/news/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesi.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-robot-industry-alliance",
         "name": {
@@ -40780,6 +41032,18 @@
         "data_url": "https://www.ccdi.gov.cn/xxgk/",
         "has_api": false,
         "file_path": "china/governance/china-ccdi.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "uk-companies-house",
+        "name": {
+          "en": "UK Companies House",
+          "zh": "英国公司注册处"
+        },
+        "authority_level": "government",
+        "data_url": "https://find-and-update.company-information.service.gov.uk/",
+        "has_api": true,
+        "file_path": "countries/europe/uk/uk-companies-house.json",
         "geographic_scope": "national"
       }
     ],

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T02:38:28.666821+00:00",
-    "total_sources": 738,
+    "generated_at": "2026-05-10T02:57:00.789682+00:00",
+    "total_sources": 743,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -13386,6 +13386,75 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-payment-clearing.json"
+    },
+    {
+      "id": "china-sge",
+      "name": {
+        "en": "Shanghai Gold Exchange",
+        "zh": "上海黄金交易所"
+      },
+      "description": {
+        "en": "The Shanghai Gold Exchange (SGE) is China's national exchange for gold, silver, and platinum trading, established in 2002 under the direct supervision of the People's Bank of China. As the world's largest physical gold exchange by volume, SGE operates the Shanghai Gold Benchmark Price (the yuan-denominated gold benchmark launched in 2016) and publishes daily, weekly, monthly, and annual trading statistics covering spot, deferred, and international board products. Its data underpins research on China's gold market, central bank reserves behavior, and RMB internationalization through commodity pricing.",
+        "zh": "上海黄金交易所（SGE）成立于2002年，是中国人民银行直接监管的全国性黄金、白银、铂金交易所，按成交量计是全球最大的实物黄金交易所。交易所负责运营上海金基准价（2016年推出的人民币计价黄金基准），并发布即期、延期、国际板产品的日度、周度、月度及年度交易统计数据，为研究中国黄金市场、央行储备行为以及通过大宗商品定价推进人民币国际化提供权威数据支撑。"
+      },
+      "website": "https://www.sge.com.cn",
+      "data_url": "https://www.sge.com.cn/sjzx/mrhq",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "commodities",
+        "commodity-markets",
+        "markets"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "上海黄金交易所",
+        "sge",
+        "shanghai-gold-exchange",
+        "黄金交易",
+        "gold-trading",
+        "上海金",
+        "shanghai-gold-benchmark",
+        "贵金属",
+        "precious-metals",
+        "白银",
+        "silver",
+        "铂金",
+        "platinum",
+        "黄金价格",
+        "gold-price",
+        "人民币黄金基准",
+        "rmb-gold-benchmark",
+        "实物黄金",
+        "physical-gold",
+        "黄金储备",
+        "gold-reserves"
+      ],
+      "data_content": {
+        "en": [
+          "Daily quotes for Au99.99, Au99.95, Au100g, Ag99.99, Pt99.95 and related spot, deferred, and international board contracts",
+          "Shanghai Gold Benchmark Price (AM/PM fixings) in RMB per gram with auction volume and participant statistics",
+          "Trading statistics: volume, turnover, open interest, physical delivery quantities by contract and by month/year",
+          "Member statistics: list of financial, bullion, and ETF members, trading and delivery rankings",
+          "Gold inventory and vault stock data for certified delivery warehouses",
+          "Cross-border international board (SGEI) trading data in offshore RMB",
+          "Market research reports and yearbooks on China's gold market development"
+        ],
+        "zh": [
+          "Au99.99、Au99.95、Au100g、Ag99.99、Pt99.95 等品种现货、延期及国际板合约的每日行情",
+          "上海金基准价（上午/下午盘）人民币/克价格及集合竞价成交量、参与机构统计",
+          "交易统计：各合约成交量、成交额、持仓量、实物交割量的月度与年度数据",
+          "会员统计：金融类、综合类及ETF类会员名录、交易与交割排名",
+          "认证交割仓库黄金库存数据",
+          "国际板（SGEI）离岸人民币跨境交易数据",
+          "中国黄金市场发展研究报告与年鉴"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-sge.json"
     },
     {
       "id": "china-shanghai-clearing-house",
@@ -29652,6 +29721,76 @@
       "file_path": "china/resources/water/china-yrcc.json"
     },
     {
+      "id": "china-aiia",
+      "name": {
+        "en": "Artificial Intelligence Industry Alliance of China",
+        "zh": "中国人工智能产业发展联盟"
+      },
+      "description": {
+        "en": "The Artificial Intelligence Industry Alliance of China (AIIA) is a national AI industry consortium jointly initiated by the Ministry of Industry and Information Technology (MIIT), the National Development and Reform Commission (NDRC), the Ministry of Science and Technology, and the Cyberspace Administration of China, with secretariat hosted by the China Academy of Information and Communications Technology (CAICT). Established in 2017, AIIA coordinates working groups on large language models, chips, datasets, trustworthy AI, and industry applications, and publishes industry whitepapers, benchmark evaluations, and a reference-architecture library for China's AI ecosystem.",
+        "zh": "中国人工智能产业发展联盟（AIIA）由工业和信息化部、国家发展和改革委员会、科技部、国家互联网信息办公室共同指导，由中国信息通信研究院承担秘书处工作，于2017年成立。联盟下设大模型、芯片、数据集、可信AI、行业应用等多个工作组，发布产业白皮书、基准评测以及中国AI生态参考架构库，是国内最具权威性的AI产业协作平台之一。"
+      },
+      "website": "https://www.aiiaorg.cn",
+      "data_url": "https://aihub.caict.ac.cn/achievements_display/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "artificial-intelligence",
+        "industry",
+        "industry-associations"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国人工智能产业发展联盟",
+        "aiia",
+        "ai-industry-alliance",
+        "人工智能",
+        "artificial-intelligence",
+        "AI产业",
+        "ai-industry",
+        "大模型",
+        "large-language-models",
+        "llm",
+        "可信AI",
+        "trustworthy-ai",
+        "AI芯片",
+        "ai-chips",
+        "AI数据集",
+        "ai-datasets",
+        "基准评测",
+        "benchmark-evaluation",
+        "产业联盟",
+        "industry-alliance",
+        "AI白皮书",
+        "ai-whitepaper"
+      ],
+      "data_content": {
+        "en": [
+          "Industry whitepapers: AI development whitepaper, large model whitepaper, AI governance whitepaper released annually by AIIA working groups",
+          "Benchmark evaluation results: large-language-model benchmarks, AI chip tests, and trustworthy-AI maturity assessments from AIIA evaluation committees",
+          "Reference-architecture library: AI infrastructure reference designs, dataset standards, and application scenario catalogs",
+          "Member statistics: AI enterprise, university, and research-institute member directories and annual capability maps",
+          "Working-group outputs from large-model, chip, dataset, trustworthy-AI, application, and robotics working groups",
+          "Event archives from AIIA annual conferences and industry-alliance summits including speaker slides and award lists",
+          "Policy interpretation of national AI plans and MIIT industry guidance documents endorsed by the alliance"
+        ],
+        "zh": [
+          "产业白皮书：AI工作组年度发布的《人工智能发展白皮书》《大模型白皮书》《AI治理白皮书》等",
+          "基准评测结果：大模型基准、AI芯片测试、可信AI成熟度评估等评测委员会成果",
+          "参考架构库：AI基础设施参考架构、数据集规范、应用场景目录",
+          "会员统计：AI企业、高校、科研机构会员名录及年度能力图谱",
+          "工作组成果：大模型、芯片、数据集、可信AI、行业应用、机器人等工作组产出",
+          "会议档案：AIIA年度大会及产业联盟峰会演讲材料、获奖名单",
+          "政策解读：国家AI战略规划及工信部产业指导文件的联盟解读报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/china-aiia.json"
+    },
+    {
       "id": "china-beidou",
       "name": {
         "en": "BeiDou Navigation Satellite System",
@@ -33075,6 +33214,77 @@
       },
       "has_api": false,
       "file_path": "china/technology/standards/china-cesa.json"
+    },
+    {
+      "id": "china-cesi",
+      "name": {
+        "en": "China Electronics Standardization Institute",
+        "zh": "中国电子技术标准化研究院"
+      },
+      "description": {
+        "en": "The China Electronics Standardization Institute (CESI) is a national research institute directly affiliated with the Ministry of Industry and Information Technology (MIIT), serving as China's principal standardization body for electronic information technology. Founded in 1963, CESI is the secretariat of multiple national Technical Committees (TC260 Information Security, TC159 Semiconductor Devices, among others) and represents China in ISO/IEC JTC1 and related international standards organizations. It publishes national standards, industry standards, conformity-assessment reports, testing and certification data, and annual reports on electronics, integrated circuits, artificial intelligence, and data security.",
+        "zh": "中国电子技术标准化研究院（CESI）是工业和信息化部直属事业单位，是国家电子信息领域的主要标准化机构，成立于1963年。CESI 承担全国信息安全标准化技术委员会（TC260）、全国半导体器件标准化技术委员会（TC159）等多个全国标委会的秘书处工作，并代表中国参与 ISO/IEC JTC1 等国际标准化组织活动。机构发布国家标准、行业标准、符合性评估报告、检测与认证数据，以及电子信息、集成电路、人工智能、数据安全等领域的年度报告。"
+      },
+      "website": "http://www.cesi.cn",
+      "data_url": "http://www.cesi.cn/news/",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "standards",
+        "technology-standards",
+        "electronics",
+        "information-security"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国电子技术标准化研究院",
+        "cesi",
+        "china-electronics-standardization-institute",
+        "电子信息标准",
+        "electronics-standards",
+        "tc260",
+        "信息安全标准",
+        "information-security-standards",
+        "集成电路",
+        "integrated-circuits",
+        "半导体",
+        "semiconductors",
+        "AI标准",
+        "ai-standards",
+        "数据安全",
+        "data-security",
+        "国家标准",
+        "national-standards",
+        "认证检测",
+        "certification-testing",
+        "网络安全标准",
+        "cybersecurity-standards"
+      ],
+      "data_content": {
+        "en": [
+          "National standards (GB) and industry standards (SJ) for electronics, integrated circuits, cybersecurity, AI, and data security with draft notices and public-consultation records",
+          "TC260 Information Security national standards catalog including the Cybersecurity Classified Protection 2.0 series and data-security standards",
+          "Conformity-assessment and certification reports for electronic products, software, and integrated-circuit testing",
+          "Annual whitepapers on AI, big data, open source, blockchain, and integrated-circuit industry development",
+          "Statistics on participation in ISO/IEC JTC1 international standards proposals and China-led international standards output",
+          "Testing and laboratory data from CESI national public-service platforms for IC design, AI, and software quality",
+          "Policy research reports commissioned by MIIT on industry standardization roadmaps"
+        ],
+        "zh": [
+          "电子信息、集成电路、网络安全、AI、数据安全领域的国家标准（GB）和行业标准（SJ）目录、征求意见稿及公开征询记录",
+          "TC260 信息安全标委会国家标准目录，包括等级保护2.0系列、数据安全标准等",
+          "电子产品、软件及集成电路检测的符合性评估与认证报告",
+          "人工智能、大数据、开源、区块链、集成电路等产业年度白皮书",
+          "ISO/IEC JTC1 国际标准提案参与情况及中国主导国际标准产出统计",
+          "CESI 集成电路设计、AI、软件质量等国家级公共服务平台检测与实验室数据",
+          "受工信部委托开展的产业标准化路线图政策研究报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/standards/china-cesi.json"
     },
     {
       "id": "china-cnis",
@@ -39550,6 +39760,76 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "countries/europe/uk/bank-of-england.json"
+    },
+    {
+      "id": "uk-companies-house",
+      "name": {
+        "en": "UK Companies House",
+        "zh": "英国公司注册处"
+      },
+      "description": {
+        "en": "Companies House is the United Kingdom's registrar of companies, an executive agency of the Department for Business and Trade. It incorporates and dissolves limited companies, registers company information, and makes the full public register freely available through its website and open-data service. Coverage includes over 5 million active UK companies with filings of annual accounts, confirmation statements, person-with-significant-control (PSC) data, mortgage charges, and officer histories. It is the authoritative source for UK corporate structure, beneficial-ownership transparency, and cross-border shareholding chains.",
+        "zh": "英国公司注册处（Companies House）是英国商业和贸易部下属的执行机构，负责英国公司的注册、注销及公司信息登记，通过官方网站和开放数据服务免费公开全部公开登记簿。覆盖超过500万家在册英国公司的年度账目、确认声明、重要控制人（PSC）数据、抵押登记及董事履历。是研究英国企业架构、受益所有权透明度以及跨境股权链条的权威数据来源。"
+      },
+      "website": "https://www.gov.uk/government/organisations/companies-house",
+      "data_url": "https://find-and-update.company-information.service.gov.uk/",
+      "api_url": "https://developer.company-information.service.gov.uk/",
+      "authority_level": "government",
+      "country": "GB",
+      "geographic_scope": "national",
+      "domains": [
+        "business-registration",
+        "corporate-registry",
+        "corporate-governance",
+        "transparency"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "英国公司注册处",
+        "companies-house",
+        "uk-companies-house",
+        "英国公司",
+        "uk-companies",
+        "公司注册",
+        "company-registration",
+        "受益所有权",
+        "beneficial-ownership",
+        "psc",
+        "重要控制人",
+        "persons-with-significant-control",
+        "年度报告",
+        "annual-accounts",
+        "confirmation-statement",
+        "mortgage-charges",
+        "公司治理",
+        "corporate-governance",
+        "股权结构",
+        "ownership-structure",
+        "企业透明度",
+        "corporate-transparency"
+      ],
+      "data_content": {
+        "en": [
+          "Full UK company register: company number, name, registered address, status, incorporation/dissolution dates for 5M+ active and 10M+ historical companies",
+          "Filing history: annual accounts, confirmation statements (formerly annual returns), changes of officers, registered-office changes in PDF and XBRL",
+          "Persons with Significant Control (PSC) register: beneficial-ownership declarations for UK companies, covering control thresholds and corporate-ownership chains",
+          "Officer data: directors, secretaries, members with roles, appointment/resignation dates, date of birth (month/year) and disqualification records",
+          "Mortgage charges and satisfaction filings against UK companies",
+          "Accounts data in iXBRL machine-readable format for financial analysis",
+          "Bulk products: Basic Company Data (monthly CSV snapshot), weekly free company data, and API access for programmatic queries"
+        ],
+        "zh": [
+          "英国全量公司注册信息：500万+活跃公司及1000万+历史公司的公司编号、名称、注册地址、状态、成立/注销日期",
+          "文件归档历史：年度账目、确认声明（原年度申报表）、董事变更、注册地址变更等 PDF 与 XBRL 文件",
+          "重要控制人（PSC）登记簿：英国公司受益所有权申报，涵盖控制阈值及公司所有权链条",
+          "高管数据：董事、公司秘书、成员及其职务、任免日期、出生年月、失格记录",
+          "抵押登记与解除登记文件",
+          "iXBRL 机读格式账目数据，支持财务分析",
+          "批量产品：基础公司数据（每月 CSV 快照）、每周免费公司数据、开发者 API"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/europe/uk/uk-companies-house.json"
     },
     {
       "id": "uk-data-gov",
@@ -46603,6 +46883,83 @@
       "authority_level": "international",
       "has_api": false,
       "file_path": "international/finance/paris-club.json"
+    },
+    {
+      "id": "world-gold-council",
+      "name": {
+        "en": "World Gold Council",
+        "zh": "世界黄金协会"
+      },
+      "description": {
+        "en": "The World Gold Council (WGC) is the market-development organization for the gold industry, founded in 1987 and funded by the world's leading gold producers. Through its Goldhub data platform, WGC publishes the most authoritative global gold statistics, including quarterly Gold Demand Trends reports, monthly central-bank gold reserves updates, gold-backed ETF flows, and jewelry, technology, and investment demand breakdowns. WGC's data on central-bank gold purchases is widely cited as the reference for tracking de-dollarization trends and sovereign gold-reserve behavior.",
+        "zh": "世界黄金协会（WGC）是黄金行业的国际市场发展机构，成立于1987年，由全球主要黄金生产商资助。WGC 通过 Goldhub 数据平台发布最具权威性的全球黄金统计数据，包括季度《黄金需求趋势报告》、月度各国央行黄金储备更新、黄金ETF资金流向以及珠宝、科技、投资需求分项数据。WGC 发布的央行购金数据被广泛引用为追踪去美元化趋势及主权黄金储备行为的基准参考。"
+      },
+      "website": "https://www.gold.org",
+      "data_url": "https://www.gold.org/goldhub/data",
+      "api_url": null,
+      "authority_level": "international",
+      "country": null,
+      "geographic_scope": "global",
+      "domains": [
+        "finance",
+        "commodities",
+        "commodity-markets",
+        "investment",
+        "central-bank-statistics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "世界黄金协会",
+        "world-gold-council",
+        "wgc",
+        "黄金",
+        "gold",
+        "黄金需求",
+        "gold-demand",
+        "黄金储备",
+        "gold-reserves",
+        "央行黄金",
+        "central-bank-gold",
+        "黄金ETF",
+        "gold-etf",
+        "珠宝需求",
+        "jewelry-demand",
+        "金价",
+        "gold-price",
+        "贵金属",
+        "precious-metals",
+        "goldhub",
+        "投资需求",
+        "investment-demand",
+        "黄金供应",
+        "gold-supply",
+        "去美元化",
+        "de-dollarization"
+      ],
+      "data_content": {
+        "en": [
+          "Gold Demand Trends: quarterly report with tonnage and value breakdowns of jewelry, technology, investment, and central-bank demand across 60+ countries",
+          "Monthly central-bank gold reserves: country-level gold holdings, net purchases, and sales sourced from IMF IFS and national central banks",
+          "Gold-backed ETF flows: weekly and monthly inflows/outflows, AUM, and tonnage by region (North America, Europe, Asia, Other) and by fund",
+          "Gold supply: mine production by country, recycled gold, and producer hedging statistics",
+          "Historical gold prices: daily LBMA Gold Price (AM/PM) and Shanghai Gold Benchmark Price dating back decades",
+          "Central-bank gold survey: annual Gold Reserves Survey capturing reserve managers' outlook and intent-to-purchase signals",
+          "Gold returns and correlation data: long-run performance data against equities, bonds, currencies, and inflation",
+          "Market-research reports on gold in investment portfolios, technology demand, and ESG-related gold-mining standards"
+        ],
+        "zh": [
+          "《黄金需求趋势报告》：季度发布，涵盖60余个国家珠宝、科技、投资及央行需求的吨位与金额分解",
+          "月度央行黄金储备：基于IMF IFS及各国央行来源的国别黄金持仓、净购金与售金数据",
+          "黄金ETF资金流向：按地区（北美、欧洲、亚洲、其他）及基金的周度、月度净流入/流出、AUM及吨位数据",
+          "黄金供应：各国矿产金产量、再生金及生产商对冲统计",
+          "历史金价：追溯数十年的 LBMA 金价（上午/下午盘）及上海金基准价每日数据",
+          "央行黄金调查：年度《央行黄金储备调查》，反映各国储备管理者展望及购金意向",
+          "黄金收益与相关性数据：黄金相对股票、债券、汇率及通胀的长期表现数据",
+          "市场研究报告：投资组合中的黄金、科技用金需求及ESG相关黄金开采标准研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/finance/world-gold-council.json"
     },
     {
       "id": "africa-cdc",
