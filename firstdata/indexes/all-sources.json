@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T03:02:08.124689+00:00",
-    "total_sources": 743,
+    "generated_at": "2026-05-10T06:42:19.188158+00:00",
+    "total_sources": 748,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2396,6 +2396,80 @@
       },
       "has_api": false,
       "file_path": "china/construction/china-ccia.json"
+    },
+    {
+      "id": "china-chinabuilding",
+      "name": {
+        "en": "China Building Standard Design Network",
+        "zh": "中国建筑标准设计网"
+      },
+      "description": {
+        "en": "China Building Standard Design Network (国家建筑标准设计网) is the official online platform for national building standard design documents in China, operated by the China Institute of Building Standard Design & Research (中国建筑标准设计研究院/CBS) which is an enterprise directly affiliated with the Ministry of Housing and Urban-Rural Development (MOHURD). Established in 1956 and publishing standard design drawings since the 1950s, CBS is the sole national authoritative institution for producing mandatory and recommended standard design drawings (国家建筑标准设计图集, commonly called '图集') that define construction details, specifications, and engineering methods used in virtually all building projects across China. The platform hosts the complete library of over 1,400 national standard design drawing sets covering architectural, structural, mechanical-electrical-plumbing (MEP), HVAC, fire protection, elevators, curtain walls, seismic design, green buildings, prefabricated construction, and BIM specifications. These standards are mandatory references for construction drawing review, building permit approvals, and quality supervision across China's construction industry. The network also publishes technical guides, case studies, specification updates, and industry research reports on building engineering practice.",
+        "zh": "中国建筑标准设计网（国家建筑标准设计网）是中国国家建筑标准设计文件的官方在线平台，由住房和城乡建设部直属企业中国建筑标准设计研究院（CBS）运营。CBS成立于1956年，自20世纪50年代起发布标准设计图纸，是中国唯一编制强制性和推荐性国家建筑标准设计图集（通称'图集'）的国家级权威机构，这些图集界定了几乎所有中国建筑项目使用的施工细节、规范和工程方法。平台汇集1400多册国家标准设计图集的完整资料库，涵盖建筑、结构、机电（MEP）、暖通空调、消防、电梯、幕墙、抗震设计、绿色建筑、装配式建筑和BIM规范等领域。这些标准是中国建筑业施工图审查、建筑许可证审批和质量监督的强制性参考依据。网站还发布建筑工程实践的技术指南、案例研究、规范更新和行业研究报告。"
+      },
+      "website": "https://www.chinabuilding.com.cn",
+      "data_url": "https://www.chinabuilding.com.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "construction",
+        "building-standards",
+        "engineering",
+        "urban-planning",
+        "standards"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "国家建筑标准设计",
+        "china-building-standard",
+        "中国建筑标准设计研究院",
+        "cbs",
+        "建筑图集",
+        "building-drawings",
+        "国标图集",
+        "national-standard-drawings",
+        "住建部",
+        "mohurd",
+        "施工图审查",
+        "construction-drawing-review",
+        "机电标准",
+        "mep-standards",
+        "抗震设计",
+        "seismic-design",
+        "绿色建筑",
+        "green-building",
+        "装配式建筑",
+        "prefabricated-construction",
+        "bim",
+        "建筑规范",
+        "building-codes"
+      ],
+      "data_content": {
+        "en": [
+          "Complete library of over 1,400 national standard design drawing sets (国标图集) covering architectural design, structural engineering, MEP systems, HVAC, fire protection, elevators, curtain walls, and seismic design",
+          "Architectural standard drawings including building elements (windows, doors, stairs, ramps), interior finishes, exterior facades, roofs, waterproofing, and accessibility design specifications",
+          "Structural standard drawings for reinforced concrete, steel structures, masonry, composite structures, foundations, retaining walls, and seismic-resistant detailing",
+          "MEP standard drawings covering electrical systems, lighting, HVAC ducting, plumbing, fire sprinklers, gas supply, and building automation",
+          "Green building and prefabricated construction standard drawings including photovoltaic integration, ground-source heat pumps, prefabricated concrete components, and modular construction details",
+          "Industry-specific standard drawings for residential buildings, public buildings, industrial facilities, healthcare facilities, education facilities, and urban infrastructure",
+          "Technical specifications, case studies, and best practice documentation for building engineering professionals",
+          "Policy documents, standard update announcements, and mandatory technical specifications issued jointly with MOHURD"
+        ],
+        "zh": [
+          "1400余册国家标准设计图集完整资料库，涵盖建筑设计、结构工程、机电系统、暖通空调、消防、电梯、幕墙和抗震设计",
+          "建筑专业标准图集，包括建筑构件（门窗、楼梯、坡道）、室内装修、外立面、屋面、防水和无障碍设计规范",
+          "结构专业标准图集，涵盖钢筋混凝土、钢结构、砌体结构、组合结构、基础、挡土墙和抗震构造详图",
+          "机电专业标准图集，涵盖电气系统、照明、暖通风管、给排水、消防喷淋、燃气供应和楼宇自控",
+          "绿色建筑和装配式建筑标准图集，包括光伏一体化、地源热泵、预制混凝土构件和模块化施工详图",
+          "住宅建筑、公共建筑、工业设施、医疗设施、教育设施和城市基础设施等行业专用标准图集",
+          "面向建筑工程专业人员的技术规范、案例研究和最佳实践文档",
+          "与住建部联合发布的政策文件、标准更新通知和强制性技术规范"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-chinabuilding.json"
     },
     {
       "id": "china-cih-index",
@@ -6077,6 +6151,78 @@
       },
       "has_api": false,
       "file_path": "china/economy/macro/china-ndrc-computing.json"
+    },
+    {
+      "id": "china-ndrc-price",
+      "name": {
+        "en": "NDRC Price Monitoring and Early Warning System",
+        "zh": "国家发展和改革委员会价格监测预警系统"
+      },
+      "description": {
+        "en": "The NDRC Price Monitoring and Early Warning System is the official price-monitoring platform of China's National Development and Reform Commission (NDRC), operated by the Price Monitoring Center (价格监测中心) which is a public institution directly affiliated with NDRC. Established in 1988, the Price Monitoring Center is the highest-authority government entity tracking prices across key sectors of the Chinese economy, including agricultural products, energy commodities, industrial raw materials, pharmaceutical products, consumer goods, and services. The system publishes daily, weekly, and monthly price monitoring reports covering commodity wholesale and retail prices, agricultural futures, fuel prices, grain prices, pork prices, vegetable prices, steel prices, and chemical material prices across major Chinese cities and markets. It produces the authoritative pricing indices used for macroeconomic policy decisions, inflation analysis, anti-monopoly investigations, and government price intervention actions. The platform also publishes policy documents, price investigation reports, and analyses of domestic and international price trends.",
+        "zh": "国家发展和改革委员会价格监测预警系统是国家发展改革委官方价格监测平台，由国家发展改革委直属事业单位价格监测中心运营。价格监测中心成立于1988年，是中国跟踪关键经济领域价格的最高权威政府机构，监测范围涵盖农产品、能源商品、工业原材料、医药产品、消费品和服务等领域。该系统发布涵盖主要城市和市场的商品批发零售价格、农产品期货、燃料价格、粮食价格、猪肉价格、蔬菜价格、钢铁价格和化工原料价格的日度、周度和月度价格监测报告，产出用于宏观经济政策决策、通胀分析、反垄断调查和政府价格干预的权威价格指数。平台同时发布政策文件、价格调查报告以及国内外价格走势分析。"
+      },
+      "website": "https://jgjc.ndrc.gov.cn",
+      "data_url": "https://jgjc.ndrc.gov.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "prices",
+        "agriculture",
+        "energy",
+        "consumer-goods"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "国家发改委价格监测中心",
+        "ndrc-price",
+        "price-monitoring",
+        "价格监测",
+        "宏观价格",
+        "macro-prices",
+        "cpi",
+        "农产品价格",
+        "agricultural-prices",
+        "能源价格",
+        "energy-prices",
+        "猪肉价格",
+        "pork-prices",
+        "钢铁价格",
+        "steel-prices",
+        "粮食价格",
+        "grain-prices",
+        "价格预警",
+        "price-early-warning",
+        "发改委",
+        "ndrc"
+      ],
+      "data_content": {
+        "en": [
+          "Daily wholesale and retail price monitoring data for agricultural products including grain, pork, beef, mutton, poultry, eggs, vegetables, fruits, and edible oil across major Chinese cities",
+          "Weekly and monthly price reports for energy commodities including coal (thermal, coking), crude oil, refined oil products, and natural gas with domestic and international benchmark comparisons",
+          "Industrial raw material price monitoring covering steel, copper, aluminum, iron ore, chemical fertilizers, and building materials from major wholesale markets",
+          "Pharmaceutical price monitoring data including centralized procurement (带量采购) results, essential drug prices, and hospital procurement price tracking",
+          "Consumer goods and services price indices for housing, transportation, healthcare, education, and tourism sectors",
+          "Price monitoring early warning reports identifying abnormal price movements, supply-demand imbalances, and speculative behavior",
+          "Policy documents including price intervention measures, price regulation notices, and anti-monopoly enforcement decisions",
+          "Annual price monitoring summary reports and quarterly analytical briefings on China's macroeconomic price environment"
+        ],
+        "zh": [
+          "主要城市农产品（粮食、猪肉、牛羊肉、禽蛋、蔬菜、水果、食用油）批发零售价格的日度监测数据",
+          "煤炭（动力煤、焦煤）、原油、成品油、天然气等能源商品价格的周度和月度报告，含国内外基准比较",
+          "钢铁、铜、铝、铁矿石、化肥、建材等工业原材料批发市场价格监测",
+          "药品价格监测数据，包括带量采购结果、基本药物价格和医院采购价格跟踪",
+          "住房、交通、医疗、教育、旅游等消费品和服务价格指数",
+          "识别异常价格波动、供需失衡和投机行为的价格监测预警报告",
+          "政策文件，包括价格干预措施、价格调控通知和反垄断执法决定",
+          "年度价格监测总结报告和中国宏观价格环境季度分析简报"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-ndrc-price.json"
     },
     {
       "id": "china-sasac",
@@ -19596,6 +19742,154 @@
       "file_path": "china/industry/china-csia.json"
     },
     {
+      "id": "china-cssc",
+      "name": {
+        "en": "China State Shipbuilding Corporation",
+        "zh": "中国船舶集团有限公司"
+      },
+      "description": {
+        "en": "China State Shipbuilding Corporation (CSSC) is the world's largest shipbuilding conglomerate and China's largest state-owned enterprise in the marine industry, directly administered by the State-owned Assets Supervision and Administration Commission of the State Council (SASAC). Formed in 2019 through the merger of the former China State Shipbuilding Corporation (北船) and China Shipbuilding Industry Corporation (南船, CSIC), CSSC operates over 100 subsidiary shipyards, research institutes, and manufacturing enterprises across China including Jiangnan Shipyard, Hudong-Zhonghua, Dalian Shipbuilding, and Shanghai Waigaoqiao Shipbuilding. CSSC is the dominant builder of commercial vessels (container ships, LNG carriers, VLCCs, bulk carriers, cruise ships), naval combat ships, offshore engineering equipment, and marine machinery, producing approximately 40% of China's total shipbuilding output and holding global leadership in new-ship orderbook volume. The corporation publishes authoritative public information including annual reports, industry statistics, new-ship delivery announcements, marine engineering technology reports, and financial data for its listed subsidiaries (CSSC Holdings 600150.SH, CSIC 601989.SH, CSSC Offshore & Marine Engineering 600685.SH, etc.).",
+        "zh": "中国船舶集团有限公司（CSSC）是全球最大的造船企业集团和中国船舶行业最大的中央企业，由国务院国有资产监督管理委员会直接管理。CSSC于2019年由原中国船舶工业集团公司（北船）和中国船舶重工集团公司（南船/CSIC）合并组建，旗下运营100余家造船厂、研究院所和制造企业，包括江南造船、沪东中华、大连造船和上海外高桥造船等。CSSC是商业船舶（集装箱船、LNG运输船、VLCC、散货船、邮轮）、海军战斗舰艇、海洋工程装备和船舶机械的主导建造商，约占中国造船总产量的40%，在新船订单量方面保持全球领先。集团发布权威公开信息，包括年度报告、行业统计、新船交付公告、海洋工程技术报告以及中国船舶（600150.SH）、中国重工（601989.SH）、中船海工（600685.SH）等上市子公司的财务数据。"
+      },
+      "website": "http://www.cssc.net.cn",
+      "data_url": "http://www.cssc.net.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "shipbuilding",
+        "marine-engineering",
+        "defense",
+        "manufacturing"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "中国船舶集团",
+        "cssc",
+        "china-state-shipbuilding",
+        "造船业",
+        "shipbuilding",
+        "海洋工程",
+        "marine-engineering",
+        "LNG船",
+        "lng-carriers",
+        "邮轮",
+        "cruise-ships",
+        "集装箱船",
+        "container-ships",
+        "海军装备",
+        "naval-equipment",
+        "船舶机械",
+        "marine-machinery",
+        "江南造船",
+        "jiangnan-shipyard",
+        "国资委",
+        "sasac",
+        "央企",
+        "central-soe"
+      ],
+      "data_content": {
+        "en": [
+          "Annual reports and monthly operating updates covering new-ship orders, deliveries, revenue, and operating profit across CSSC's subsidiary shipyards and research institutes",
+          "Commercial vessel production statistics including container ships, LNG carriers, VLCCs, bulk carriers, car carriers, and cruise ships with tonnage and technical specifications",
+          "Naval combat ship program announcements for surface combatants, submarines, and auxiliary vessels (subject to national defense disclosure rules)",
+          "Offshore engineering equipment data covering drilling rigs, FPSOs, offshore wind installation vessels, and subsea production systems",
+          "Marine machinery and propulsion systems including marine diesel engines (WinGD, MAN-B&W licensed), propellers, and ship automation systems",
+          "Listed subsidiaries financial data including quarterly and annual filings for CSSC Holdings (600150), CSIC (601989), CSSC Offshore & Marine Engineering (600685), and other publicly traded entities",
+          "Research and technology reports from CSSC's research institutes covering ship design, marine propulsion, materials science, and green shipping technologies",
+          "Corporate ESG and sustainability reports covering environmental performance, occupational safety, and social responsibility programs"
+        ],
+        "zh": [
+          "年度报告和月度经营更新，涵盖中国船舶集团子公司船厂和研究院所的新船订单、交付、营收和经营利润",
+          "商业船舶生产统计，包括集装箱船、LNG运输船、VLCC、散货船、汽车运输船和邮轮的吨位和技术规格",
+          "海军战斗舰艇项目公告，涵盖水面舰艇、潜艇和辅助舰船（遵循国防公开披露规则）",
+          "海洋工程装备数据，涵盖钻井平台、FPSO、海上风电安装船和水下生产系统",
+          "船用机械和推进系统，包括船用柴油机（WinGD、MAN-B&W许可生产）、螺旋桨和船舶自动化系统",
+          "上市子公司财务数据，包括中国船舶（600150）、中国重工（601989）、中船海工（600685）等上市主体的季度和年度报告",
+          "中国船舶集团研究院所技术研究报告，涵盖船舶设计、船舶推进、材料科学和绿色航运技术",
+          "集团ESG与可持续发展报告，涵盖环境绩效、职业安全和社会责任项目"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-cssc.json"
+    },
+    {
+      "id": "china-ctei",
+      "name": {
+        "en": "China Textile Economy Information Network",
+        "zh": "纺织经济信息网"
+      },
+      "description": {
+        "en": "China Textile Economy Information Network (CTEI) is the official economic information platform of the China National Textile and Apparel Council (CNTAC), operated by the China Textile Information Center (中国纺织信息中心). As the authoritative information hub for China's textile and apparel industry, CTEI collects, analyzes, and publishes comprehensive economic data covering China's USD 700+ billion textile industry, the world's largest by production volume. The platform publishes industry statistics including fiber production, yarn and fabric output, garment manufacturing, textile exports and imports, industrial enterprise financial indicators, raw material prices (cotton, chemical fiber, wool), and regional industrial cluster data. CTEI tracks the entire textile value chain from natural and chemical fiber production through yarn spinning, weaving, dyeing, garment making, and retail, with particular focus on technical textiles, home textiles, industrial textiles, and fashion apparel. It serves as a primary information source for textile industry policy analysis, corporate strategic planning, market research, and international trade intelligence.",
+        "zh": "纺织经济信息网（CTEI）是中国纺织工业联合会（CNTAC）的官方经济信息平台，由中国纺织信息中心运营。作为中国纺织服装业权威信息枢纽，该网站采集、分析和发布涵盖中国超过7000亿美元纺织产业的全面经济数据，中国纺织业是全球产量最大的纺织产业。平台发布行业统计，包括纤维产量、纱线和面料产量、服装制造、纺织品进出口、工业企业财务指标、原材料价格（棉花、化纤、羊毛）以及区域产业集群数据。CTEI跟踪从天然纤维和化学纤维生产到纱线纺纱、织造、染整、服装制造和零售的整个纺织价值链，重点关注产业用纺织品、家用纺织品、工业纺织品和时尚服装。它是纺织行业政策分析、企业战略规划、市场研究和国际贸易情报的主要信息来源。"
+      },
+      "website": "http://www.ctei.cn",
+      "data_url": "http://www.ctei.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "textile",
+        "manufacturing",
+        "trade",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "纺织经济信息网",
+        "ctei",
+        "china-textile",
+        "纺织行业",
+        "textile-industry",
+        "服装产业",
+        "apparel-industry",
+        "cntac",
+        "中国纺织工业联合会",
+        "棉花价格",
+        "cotton-prices",
+        "化学纤维",
+        "chemical-fibers",
+        "纺织品出口",
+        "textile-exports",
+        "产业集群",
+        "industrial-clusters",
+        "产业用纺织品",
+        "technical-textiles",
+        "家用纺织品",
+        "home-textiles",
+        "纺织统计",
+        "textile-statistics"
+      ],
+      "data_content": {
+        "en": [
+          "Monthly and annual textile industry statistics including fiber production, yarn output, fabric production, apparel manufacturing, and industry-wide financial performance indicators",
+          "Textile raw material price monitoring covering cotton, polyester, viscose, nylon, wool, and silk spot and futures prices from Chinese and international markets",
+          "Textile and apparel import-export trade data by product category, destination country, and regional export hubs (Zhejiang, Jiangsu, Guangdong, Fujian, Shandong)",
+          "Regional textile industrial cluster analysis covering over 200 textile clusters across China including Shengze silk cluster, Keqiao textile city, Humen apparel cluster, and Shishi fabric cluster",
+          "Industry benchmarking data on enterprise size distribution, profit margins, export ratios, R&D intensity, and energy consumption per unit of output",
+          "Technical textiles and industrial textiles market analysis for geotextiles, medical textiles, protective textiles, filtration materials, and automotive textiles",
+          "Fashion trend forecasting reports, consumer apparel retail data, and e-commerce textile sales statistics",
+          "Policy documents, industry development plans, and standardization information from CNTAC and its 10+ specialized industry associations"
+        ],
+        "zh": [
+          "纺织行业月度和年度统计，包括纤维产量、纱线产量、面料产量、服装生产以及全行业财务绩效指标",
+          "棉花、涤纶、黏胶、尼龙、羊毛和丝绸等纺织原材料价格监测，覆盖中国和国际市场现货及期货价格",
+          "按产品类别、目的国和区域出口中心（浙江、江苏、广东、福建、山东）划分的纺织服装进出口贸易数据",
+          "覆盖中国200多个纺织产业集群的区域分析，包括盛泽丝绸集群、柯桥纺织城、虎门服装集群和石狮面料集群",
+          "企业规模分布、利润率、出口比例、研发强度和单位产出能耗等行业基准数据",
+          "产业用纺织品和工业纺织品市场分析，涵盖土工布、医用纺织品、防护纺织品、过滤材料和汽车纺织品",
+          "时尚趋势预测报告、消费者服装零售数据和电子商务纺织品销售统计",
+          "中国纺织工业联合会及其10余个专业行业协会发布的政策文件、行业发展规划和标准化信息"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-ctei.json"
+    },
+    {
       "id": "china-miit-eidc",
       "name": {
         "en": "MIIT Equipment Industry Development Center",
@@ -21449,6 +21743,80 @@
       },
       "has_api": false,
       "file_path": "china/national/meteorology/china-cma.json"
+    },
+    {
+      "id": "china-cms",
+      "name": {
+        "en": "Chinese Meteorological Society",
+        "zh": "中国气象学会"
+      },
+      "description": {
+        "en": "The Chinese Meteorological Society (CMS) is the national academic society for atmospheric sciences and meteorology in China, founded in 1924 and currently operating under the guidance of the China Association for Science and Technology (CAST) and the China Meteorological Administration (CMA). CMS is the professional umbrella organization for Chinese meteorologists, atmospheric scientists, climate researchers, and practitioners across academia, government, and industry. With 24 specialized committees covering areas such as synoptic meteorology, climate change, atmospheric chemistry, agricultural meteorology, aviation meteorology, space weather, and meteorological data science, CMS publishes peer-reviewed journals (Acta Meteorologica Sinica, Journal of Meteorological Research, Chinese Journal of Atmospheric Sciences), organizes national and international meteorological conferences, sets professional standards, and represents China in global meteorological organizations including the American Meteorological Society and the World Meteorological Organization. The society serves as a key knowledge hub for climate change research, weather forecasting methodology, extreme weather analysis, and meteorological policy advocacy in China.",
+        "zh": "中国气象学会（CMS）成立于1924年，是中国大气科学和气象学的国家级学术团体，由中国科学技术协会和中国气象局业务指导。CMS是涵盖学术界、政府和产业界的中国气象工作者、大气科学家、气候研究人员和从业者的专业组织，下设24个专业委员会，涵盖天气学、气候变化、大气化学、农业气象、航空气象、空间天气和气象数据科学等领域。学会出版多份同行评审期刊（《气象学报》《Journal of Meteorological Research》《大气科学》），组织国内外气象学术会议，制定专业标准，并代表中国参与美国气象学会、世界气象组织等国际气象机构。学会是中国气候变化研究、天气预报方法、极端天气分析和气象政策倡导的重要知识枢纽。"
+      },
+      "website": "https://www.cms1924.org",
+      "data_url": "https://www.cms1924.org",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "meteorology",
+        "climate",
+        "atmospheric-science",
+        "environment",
+        "research"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "中国气象学会",
+        "cms",
+        "chinese-meteorological-society",
+        "气象学",
+        "meteorology",
+        "大气科学",
+        "atmospheric-sciences",
+        "气候变化",
+        "climate-change",
+        "天气预报",
+        "weather-forecasting",
+        "气象期刊",
+        "meteorological-journals",
+        "气象学报",
+        "acta-meteorologica-sinica",
+        "极端天气",
+        "extreme-weather",
+        "气象标准",
+        "meteorological-standards",
+        "农业气象",
+        "agricultural-meteorology",
+        "航空气象",
+        "aviation-meteorology"
+      ],
+      "data_content": {
+        "en": [
+          "Peer-reviewed meteorological research publications including Acta Meteorologica Sinica (气象学报), Journal of Meteorological Research (English edition), and Chinese Journal of Atmospheric Sciences (大气科学)",
+          "Conference proceedings and abstracts from annual CMS National Meteorological Academic Conference, climate change symposia, and specialized committee meetings",
+          "Meteorological professional standards (T/CMSA) and technical guidelines for weather services, climate monitoring, and atmospheric observation methodology",
+          "Research reports from 24 specialized committees covering synoptic meteorology, climate change, atmospheric chemistry, numerical weather prediction, satellite meteorology, agricultural meteorology, and space weather",
+          "Awards and recognition directory including the National Young Scientist Award in Meteorology, outstanding papers, and lifetime achievement awards",
+          "Membership directory, organizational statistics, and professional development resources for meteorological researchers and practitioners in China",
+          "Science communication materials on weather awareness, climate literacy, and extreme weather preparedness including World Meteorological Day (March 23) activities",
+          "International collaboration records with AMS, RMetS, WMO, and other global meteorological organizations including joint research programs and academic exchanges"
+        ],
+        "zh": [
+          "同行评审气象研究出版物，包括《气象学报》《Journal of Meteorological Research》（英文版）和《大气科学》",
+          "中国气象学会年会、气候变化研讨会及各专业委员会会议论文集和摘要",
+          "气象专业标准（T/CMSA）和天气服务、气候监测、大气观测方法的技术指南",
+          "24个专业委员会研究报告，涵盖天气学、气候变化、大气化学、数值天气预报、卫星气象、农业气象和空间天气",
+          "奖项与荣誉名录，包括全国青年气象科学家奖、优秀论文奖和终身成就奖",
+          "中国气象研究人员和从业者会员名录、组织统计及专业发展资源",
+          "天气意识、气候素养和极端天气应对的科普资料，包括世界气象日（3月23日）活动",
+          "与美国气象学会、英国皇家气象学会、世界气象组织等国际气象机构的合作记录，包括联合研究项目和学术交流"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/national/meteorology/china-cms.json"
     },
     {
       "id": "china-ncc",

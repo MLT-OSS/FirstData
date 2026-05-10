@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T03:02:08.124689+00:00",
-    "total_sources": 743,
+    "generated_at": "2026-05-10T06:42:19.188158+00:00",
+    "total_sources": 748,
     "authority_counts": {
-      "research": 143,
+      "research": 145,
       "international": 78,
-      "government": 368,
+      "government": 370,
       "other": 74,
       "market": 45,
-      "commercial": 35
+      "commercial": 36
     },
     "version": "2.0"
   },
@@ -532,6 +532,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-ctei",
+        "name": {
+          "en": "China Textile Economy Information Network",
+          "zh": "纺织经济信息网"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.ctei.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-ctei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-highway-society",
         "name": {
           "en": "China Highway and Transportation Society",
@@ -565,6 +577,18 @@
         "data_url": "https://www.ctaweb.org.cn/index.php?m=home&c=Lists&a=index&tid=21",
         "has_api": false,
         "file_path": "china/national/china-cta.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cms",
+        "name": {
+          "en": "Chinese Meteorological Society",
+          "zh": "中国气象学会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cms1924.org",
+        "has_api": false,
+        "file_path": "china/national/meteorology/china-cms.json",
         "geographic_scope": "national"
       },
       {
@@ -2781,6 +2805,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-chinabuilding",
+        "name": {
+          "en": "China Building Standard Design Network",
+          "zh": "中国建筑标准设计网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.chinabuilding.com.cn",
+        "has_api": false,
+        "file_path": "china/construction/china-chinabuilding.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-construction-standards",
         "name": {
           "en": "China Engineering Construction Standardization Association",
@@ -3022,6 +3058,18 @@
         "data_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202312/t20231229_1363000.html",
         "has_api": false,
         "file_path": "china/economy/macro/china-ndrc-computing.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-ndrc-price",
+        "name": {
+          "en": "NDRC Price Monitoring and Early Warning System",
+          "zh": "国家发展和改革委员会价格监测预警系统"
+        },
+        "authority_level": "government",
+        "data_url": "https://jgjc.ndrc.gov.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-ndrc-price.json",
         "geographic_scope": "national"
       },
       {
@@ -8733,6 +8781,18 @@
         "data_url": "https://www.ceeia.com",
         "has_api": false,
         "file_path": "china/industry/china-ceeia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cssc",
+        "name": {
+          "en": "China State Shipbuilding Corporation",
+          "zh": "中国船舶集团有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "http://www.cssc.net.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cssc.json",
         "geographic_scope": "national"
       },
       {
