@@ -1,0 +1,61 @@
+{
+  "id": "china-cesa",
+  "name": {
+    "en": "China Electronics Standardization Association",
+    "zh": "中国电子工业标准化技术协会"
+  },
+  "description": {
+    "en": "The China Electronics Standardization Association (CESA) is the national industry association for electronics and information technology standardization in China, founded in 1983 under the supervision of the Ministry of Industry and Information Technology (MIIT). CESA organizes the development of group standards and technical specifications covering integrated circuits, electronic components, consumer electronics, communications equipment, smart manufacturing, and emerging technologies such as artificial intelligence and blockchain. It publishes the CESA Group Standards catalog, industry standard-compliance data, and technical white papers that serve as authoritative references for China's electronics industry standardization landscape.",
+    "zh": "中国电子工业标准化技术协会（CESA）成立于1983年，是中国电子信息技术标准化领域的全国性行业协会，业务上接受工业和信息化部指导。协会组织制定团体标准和技术规范，覆盖集成电路、电子元器件、消费电子、通信设备、智能制造及人工智能、区块链等新兴技术领域。协会发布 CESA 团体标准目录、行业标准符合性数据及技术白皮书，为中国电子工业标准化发展提供权威参考。"
+  },
+  "website": "https://www.cesa.cn",
+  "data_url": "https://www.cesa.cn/standard/",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "standards",
+    "industry"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "cesa",
+    "电子标准",
+    "electronics-standards",
+    "团体标准",
+    "group-standard",
+    "集成电路",
+    "integrated-circuit",
+    "电子元器件",
+    "electronic-components",
+    "智能制造",
+    "smart-manufacturing",
+    "人工智能",
+    "ai",
+    "区块链",
+    "blockchain",
+    "标准化"
+  ],
+  "data_content": {
+    "en": [
+      "CESA group standards catalog: published technical standards for electronics and information technology products, including integrated circuits, semiconductors, and components",
+      "Standard compliance data: information on products, testing, and certification against CESA group standards",
+      "Technical white papers: research outputs on emerging technology standardization including AI, blockchain, and smart manufacturing",
+      "Integrated circuit standards: technical specifications for chip design, manufacturing, packaging, testing, and quality assurance",
+      "Consumer electronics standards: standards for home appliances, audio-visual equipment, and smart devices",
+      "Smart manufacturing standards: technical guidelines for industrial software, automation, and intelligent factory integration",
+      "Industry standardization reports: analysis of standardization trends and gaps in China's electronics industry"
+    ],
+    "zh": [
+      "CESA 团体标准目录：已发布的电子信息产品技术标准，涵盖集成电路、半导体及元器件等",
+      "标准符合性数据：CESA 团体标准的产品、测试及认证相关信息",
+      "技术白皮书：面向人工智能、区块链、智能制造等新兴技术标准化的研究成果",
+      "集成电路标准：涵盖芯片设计、制造、封装、测试及质量保障的技术规范",
+      "消费电子标准：家用电器、音视频设备及智能设备相关标准",
+      "智能制造标准：工业软件、自动化及智能工厂集成的技术指南",
+      "行业标准化报告：中国电子工业标准化趋势与差距分析"
+    ]
+  }
+}

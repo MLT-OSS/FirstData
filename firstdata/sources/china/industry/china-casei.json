@@ -1,0 +1,61 @@
+{
+  "id": "china-casei",
+  "name": {
+    "en": "China Association of Special Equipment Inspection and Testing",
+    "zh": "中国特种设备检验协会"
+  },
+  "description": {
+    "en": "The China Association of Special Equipment Inspection and Testing (CASEI) is the national industry association for special equipment inspection, testing, and certification in China, supervised by the State Administration for Market Regulation (SAMR). It publishes industry statistics, technical standards, training materials, and annual development reports on special equipment including boilers, pressure vessels, pressure pipelines, elevators, cranes, passenger ropeways, large amusement facilities, and industrial vehicles. CASEI data provides authoritative references on special equipment inventory, inspection results, accident analysis, and industry capacity in China.",
+    "zh": "中国特种设备检验协会（CASEI）是中国特种设备检验检测及认证领域的全国性行业协会，接受国家市场监督管理总局业务指导。协会发布特种设备行业统计、技术标准、培训资料及年度发展报告，涵盖锅炉、压力容器、压力管道、电梯、起重机械、客运索道、大型游乐设施和场（厂）内专用机动车辆等特种设备。CASEI 数据为中国特种设备保有量、检验结果、事故分析及行业能力提供权威参考。"
+  },
+  "website": "https://www.casei.org.cn",
+  "data_url": "https://www.casei.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "governance",
+    "standards"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "casei",
+    "特种设备",
+    "special-equipment",
+    "特种设备检验",
+    "inspection",
+    "锅炉",
+    "boiler",
+    "压力容器",
+    "pressure-vessel",
+    "电梯",
+    "elevator",
+    "起重机械",
+    "crane",
+    "安全检验",
+    "safety-inspection",
+    "samr"
+  ],
+  "data_content": {
+    "en": [
+      "Special equipment inventory statistics: counts of registered boilers, pressure vessels, pipelines, elevators, cranes, and amusement facilities by category and region",
+      "Inspection and testing data: annual inspection volumes, pass rates, and common defect categories identified during periodic inspections",
+      "Technical standards: industry-developed guidelines and technical specifications for special equipment design, manufacture, installation, and operation",
+      "Accident analysis reports: statistics and root-cause analyses of special equipment accidents including cause categorization and severity",
+      "Inspection organization directory: registered inspection and testing institutions with qualifications, geographic coverage, and capability scope",
+      "Training and certification: data on inspector qualification training, examination pass rates, and certified personnel distribution",
+      "Industry development reports: annual reports on the Chinese special equipment inspection industry including capacity, revenue, and emerging trends"
+    ],
+    "zh": [
+      "特种设备保有量统计：锅炉、压力容器、管道、电梯、起重机械、游乐设施等各类特种设备注册数量及地区分布",
+      "检验检测数据：年度检验量、合格率及定期检验发现的常见缺陷类别",
+      "技术标准：行业制定的特种设备设计、制造、安装及使用的技术规范与指南",
+      "事故分析报告：特种设备事故统计及原因分析，涵盖事故类别划分及严重程度",
+      "检验机构名录：登记在册的检验检测机构资质、地域覆盖及业务范围",
+      "培训与认证：检验员资格培训、考试通过率及持证人员分布数据",
+      "行业发展报告：中国特种设备检验行业的年度报告，涵盖业务能力、营收及新兴趋势"
+    ]
+  }
+}

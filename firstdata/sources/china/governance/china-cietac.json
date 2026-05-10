@@ -1,0 +1,60 @@
+{
+  "id": "china-cietac",
+  "name": {
+    "en": "China International Economic and Trade Arbitration Commission",
+    "zh": "中国国际经济贸易仲裁委员会"
+  },
+  "description": {
+    "en": "The China International Economic and Trade Arbitration Commission (CIETAC) is one of the world's leading and most experienced international arbitration institutions, established in 1956 under the China Council for the Promotion of International Trade (CCPIT). It administers arbitration of international and domestic commercial disputes and publishes annual arbitration statistics covering case volumes, dispute categories, parties' nationalities, arbitral awards, and industry distribution. CIETAC's caseload data and arbitration rulings are authoritative references for assessing international trade dispute trends, contract enforcement risks, and foreign investment climate in China.",
+    "zh": "中国国际经济贸易仲裁委员会（贸仲委，CIETAC）成立于1956年，是全球历史最悠久、经验最丰富的国际仲裁机构之一，隶属于中国国际贸易促进委员会。贸仲委受理国际及国内商事争议的仲裁案件，并发布年度仲裁统计数据，内容涵盖案件数量、争议类型、当事人国籍、裁决结果及行业分布。贸仲委的案件数据和仲裁裁决是评估国际贸易争议趋势、合同履约风险及中国外商投资环境的权威参考。"
+  },
+  "website": "https://www.cietac.org",
+  "data_url": "https://www.cietac.org",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "trade",
+    "legal"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "cietac",
+    "贸仲委",
+    "仲裁",
+    "arbitration",
+    "国际仲裁",
+    "international-arbitration",
+    "商事仲裁",
+    "commercial-dispute",
+    "贸易争议",
+    "trade-dispute",
+    "仲裁统计",
+    "arbitration-statistics",
+    "仲裁裁决",
+    "arbitral-award",
+    "外商投资"
+  ],
+  "data_content": {
+    "en": [
+      "Annual arbitration statistics: case acceptance numbers, case types, resolution outcomes, and year-over-year trends",
+      "Dispute categories: breakdown of cases by contract type including sales, investment, construction, IP, and service agreements",
+      "Party nationality data: statistics on nationalities and jurisdictions of disputing parties in international arbitration cases",
+      "Arbitral awards: published award summaries and select full-text decisions relevant to international trade law",
+      "Industry distribution: arbitration cases classified by industry sector including technology, construction, energy, and financial services",
+      "Sub-commission data: case volumes from regional sub-commissions in Beijing, Shanghai, Shenzhen, and other cities",
+      "Rules and procedures: CIETAC Arbitration Rules, procedural guidelines, and updates relevant to dispute practitioners"
+    ],
+    "zh": [
+      "年度仲裁统计：案件受理数量、案件类型、处理结果及同比趋势",
+      "争议类型分布：按合同类型分类的案件统计，涵盖买卖、投资、建设、知识产权及服务合同等",
+      "当事人国籍数据：国际仲裁案件中当事人国籍及司法管辖区统计",
+      "仲裁裁决：公布的裁决摘要及部分涉及国际贸易法的全文裁决",
+      "行业分布：按行业分类的仲裁案件统计，涵盖科技、建筑、能源、金融服务等",
+      "分支机构数据：北京、上海、深圳等地分会的案件受理量",
+      "规则与程序：《仲裁规则》、程序指南及与争议实务相关的规则更新"
+    ]
+  }
+}

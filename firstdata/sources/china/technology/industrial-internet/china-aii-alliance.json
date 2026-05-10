@@ -1,0 +1,62 @@
+{
+  "id": "china-aii-alliance",
+  "name": {
+    "en": "Alliance of Industrial Internet",
+    "zh": "工业互联网产业联盟"
+  },
+  "description": {
+    "en": "The Alliance of Industrial Internet (AII) is a cross-industry, cross-domain consortium established in 2016 under the guidance of China's Ministry of Industry and Information Technology (MIIT). It brings together over 3,000 member enterprises, research institutions, and universities to promote standardization, research, and development of industrial internet in China. AII publishes white papers, technical standards, industry reports, and blueprints covering industrial internet architecture, security, platform ecosystems, and application scenarios across manufacturing sectors. Its research outputs provide authoritative benchmarks for China's intelligent manufacturing and industrial digitalization initiatives.",
+    "zh": "工业互联网产业联盟（AII）成立于2016年，由工业和信息化部指导，是跨行业、跨领域的产业联盟，拥有3000余家成员单位，涵盖企业、科研机构和高校。联盟致力于推动中国工业互联网标准制定、技术研发与产业发展，发布涉及工业互联网体系架构、安全、平台生态及各制造业应用场景的白皮书、技术标准和产业报告。其研究成果为中国智能制造和工业数字化转型提供权威基准。"
+  },
+  "website": "https://www.aii-alliance.org",
+  "data_url": "https://www.aii-alliance.org",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "technology",
+    "industry",
+    "digital-economy",
+    "standards"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "aii",
+    "工业互联网",
+    "industrial-internet",
+    "工业互联网产业联盟",
+    "智能制造",
+    "smart-manufacturing",
+    "工业数字化",
+    "industrial-digitalization",
+    "工业互联网平台",
+    "iiot",
+    "工业互联网安全",
+    "industrial-security",
+    "工业互联网白皮书",
+    "white-paper",
+    "数字孪生",
+    "digital-twin"
+  ],
+  "data_content": {
+    "en": [
+      "Technical white papers: architecture blueprints, security frameworks, and reference implementations for industrial internet systems",
+      "Standards specifications: technical specifications and guidelines for industrial internet interoperability, connectivity, and data exchange",
+      "Industry application reports: case studies and adoption metrics across manufacturing sectors including automotive, electronics, chemicals, and steel",
+      "Platform ecosystem reports: surveys of industrial internet platform providers, features, scale, and market penetration",
+      "Security research: vulnerability assessments, threat landscapes, and security recommendations for operational technology (OT) environments",
+      "Policy research: analysis of government industrial internet policies, investment trends, and development roadmaps",
+      "Digital twin and edge computing: technical research and industry benchmarks for digital twin applications and edge computing in manufacturing"
+    ],
+    "zh": [
+      "技术白皮书：工业互联网体系架构蓝图、安全框架及参考实现",
+      "标准规范：工业互联网互操作性、连接性与数据交换技术规范及指南",
+      "行业应用报告：汽车、电子、化工、钢铁等制造行业应用案例与渗透率数据",
+      "平台生态报告：工业互联网平台供应商调查，涵盖功能特性、规模及市场覆盖",
+      "安全研究：运营技术（OT）环境的漏洞评估、威胁态势分析及安全建议",
+      "政策研究：政府工业互联网政策分析、投资趋势与发展路线图",
+      "数字孪生与边缘计算：制造业数字孪生应用及边缘计算技术研究与行业基准"
+    ]
+  }
+}

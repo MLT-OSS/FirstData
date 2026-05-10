@@ -1,0 +1,60 @@
+{
+  "id": "china-nccd",
+  "name": {
+    "en": "National Center for Cardiovascular Diseases",
+    "zh": "国家心血管病中心"
+  },
+  "description": {
+    "en": "The National Center for Cardiovascular Diseases (NCCD) is China's national-level research and administrative hub for cardiovascular disease prevention, clinical care, and research, established by the National Health Commission. Operating alongside Fuwai Hospital, NCCD publishes authoritative annual reports including the China Cardiovascular Health and Disease Report, which provides comprehensive statistics on disease prevalence, incidence, mortality, risk factors, clinical procedures, and regional variations across China. NCCD also manages major national cardiovascular disease registries (e.g., CCC-ACS, CHINA-PEACE), providing benchmark data for cardiovascular epidemiology, clinical practice quality, and policymaking in China.",
+    "zh": "国家心血管病中心（NCCD）是由国家卫生健康委员会设立的心血管疾病防治与研究的国家级研究与管理中心，与中国医学科学院阜外医院一体化运行。中心每年发布权威报告，包括《中国心血管健康与疾病报告》，系统提供全国心血管疾病患病率、发病率、死亡率、危险因素、临床诊疗量及地区差异数据。中心还管理国家级心血管疾病登记研究（如 CCC-ACS、CHINA-PEACE 等），为中国心血管病流行病学、临床质量评价及卫生政策制定提供基准数据。"
+  },
+  "website": "https://www.nccd.org.cn",
+  "data_url": "https://www.nccd.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "research"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "nccd",
+    "国家心血管病中心",
+    "心血管",
+    "cardiovascular",
+    "心血管疾病",
+    "heart-disease",
+    "中国心血管健康与疾病报告",
+    "cvd-report",
+    "高血压",
+    "hypertension",
+    "冠心病",
+    "coronary-heart-disease",
+    "卒中",
+    "stroke",
+    "阜外医院",
+    "fuwai"
+  ],
+  "data_content": {
+    "en": [
+      "China Cardiovascular Health and Disease Report: annual comprehensive national report on prevalence, incidence, mortality, and risk factors of cardiovascular diseases",
+      "Disease burden statistics: age-standardized morbidity and mortality rates for hypertension, coronary heart disease, stroke, heart failure, and arrhythmias",
+      "Risk factor data: population-level prevalence of smoking, dyslipidemia, diabetes, obesity, and physical inactivity in China",
+      "Clinical procedure volumes: national statistics on cardiovascular surgeries, PCI, CABG, transcatheter interventions, and pacemaker implantation",
+      "Regional variation data: provincial and urban/rural comparisons of cardiovascular disease prevalence and outcomes",
+      "National registries: data from CCC-ACS, CHINA-PEACE, and other large-scale cardiovascular disease registries and cohorts",
+      "Quality of care indicators: hospital performance metrics and adherence to cardiovascular clinical practice guidelines"
+    ],
+    "zh": [
+      "《中国心血管健康与疾病报告》：年度发布的全国心血管疾病患病率、发病率、死亡率及危险因素综合报告",
+      "疾病负担统计：高血压、冠心病、卒中、心衰、心律失常等年龄标化的患病率与死亡率",
+      "危险因素数据：中国人群吸烟、血脂异常、糖尿病、肥胖及缺乏运动的流行情况",
+      "临床诊疗量：全国心血管外科手术、PCI、冠脉旁路移植、经导管介入及起搏器植入等统计",
+      "地区差异数据：心血管疾病患病率及预后在各省份及城乡间的对比",
+      "国家登记研究：CCC-ACS、CHINA-PEACE 等大规模心血管疾病登记与队列研究数据",
+      "诊疗质量指标：医院绩效指标及心血管临床指南依从性评价"
+    ]
+  }
+}
