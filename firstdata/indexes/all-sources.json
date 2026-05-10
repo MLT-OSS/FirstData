@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-09T06:23:34.411711+00:00",
-    "total_sources": 733,
+    "generated_at": "2026-05-10T02:35:21.259057+00:00",
+    "total_sources": 738,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -14854,6 +14854,68 @@
       "file_path": "china/governance/china-cidca.json"
     },
     {
+      "id": "china-cietac",
+      "name": {
+        "en": "China International Economic and Trade Arbitration Commission",
+        "zh": "中国国际经济贸易仲裁委员会"
+      },
+      "description": {
+        "en": "The China International Economic and Trade Arbitration Commission (CIETAC) is one of the world's leading and most experienced international arbitration institutions, established in 1956 under the China Council for the Promotion of International Trade (CCPIT). It administers arbitration of international and domestic commercial disputes and publishes annual arbitration statistics covering case volumes, dispute categories, parties' nationalities, arbitral awards, and industry distribution. CIETAC's caseload data and arbitration rulings are authoritative references for assessing international trade dispute trends, contract enforcement risks, and foreign investment climate in China.",
+        "zh": "中国国际经济贸易仲裁委员会（贸仲委，CIETAC）成立于1956年，是全球历史最悠久、经验最丰富的国际仲裁机构之一，隶属于中国国际贸易促进委员会。贸仲委受理国际及国内商事争议的仲裁案件，并发布年度仲裁统计数据，内容涵盖案件数量、争议类型、当事人国籍、裁决结果及行业分布。贸仲委的案件数据和仲裁裁决是评估国际贸易争议趋势、合同履约风险及中国外商投资环境的权威参考。"
+      },
+      "website": "https://www.cietac.org",
+      "data_url": "https://www.cietac.org",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "trade",
+        "legal"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "cietac",
+        "贸仲委",
+        "仲裁",
+        "arbitration",
+        "国际仲裁",
+        "international-arbitration",
+        "商事仲裁",
+        "commercial-dispute",
+        "贸易争议",
+        "trade-dispute",
+        "仲裁统计",
+        "arbitration-statistics",
+        "仲裁裁决",
+        "arbitral-award",
+        "外商投资"
+      ],
+      "data_content": {
+        "en": [
+          "Annual arbitration statistics: case acceptance numbers, case types, resolution outcomes, and year-over-year trends",
+          "Dispute categories: breakdown of cases by contract type including sales, investment, construction, IP, and service agreements",
+          "Party nationality data: statistics on nationalities and jurisdictions of disputing parties in international arbitration cases",
+          "Arbitral awards: published award summaries and select full-text decisions relevant to international trade law",
+          "Industry distribution: arbitration cases classified by industry sector including technology, construction, energy, and financial services",
+          "Sub-commission data: case volumes from regional sub-commissions in Beijing, Shanghai, Shenzhen, and other cities",
+          "Rules and procedures: CIETAC Arbitration Rules, procedural guidelines, and updates relevant to dispute practitioners"
+        ],
+        "zh": [
+          "年度仲裁统计：案件受理数量、案件类型、处理结果及同比趋势",
+          "争议类型分布：按合同类型分类的案件统计，涵盖买卖、投资、建设、知识产权及服务合同等",
+          "当事人国籍数据：国际仲裁案件中当事人国籍及司法管辖区统计",
+          "仲裁裁决：公布的裁决摘要及部分涉及国际贸易法的全文裁决",
+          "行业分布：按行业分类的仲裁案件统计，涵盖科技、建筑、能源、金融服务等",
+          "分支机构数据：北京、上海、深圳等地分会的案件受理量",
+          "规则与程序：《仲裁规则》、程序指南及与争议实务相关的规则更新"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cietac.json"
+    },
+    {
       "id": "china-cls",
       "name": {
         "en": "Chinese Law Society",
@@ -18487,6 +18549,68 @@
       "file_path": "china/health/china-natcm.json"
     },
     {
+      "id": "china-nccd",
+      "name": {
+        "en": "National Center for Cardiovascular Diseases",
+        "zh": "国家心血管病中心"
+      },
+      "description": {
+        "en": "The National Center for Cardiovascular Diseases (NCCD) is China's national-level research and administrative hub for cardiovascular disease prevention, clinical care, and research, established by the National Health Commission. Operating alongside Fuwai Hospital, NCCD publishes authoritative annual reports including the China Cardiovascular Health and Disease Report, which provides comprehensive statistics on disease prevalence, incidence, mortality, risk factors, clinical procedures, and regional variations across China. NCCD also manages major national cardiovascular disease registries (e.g., CCC-ACS, CHINA-PEACE), providing benchmark data for cardiovascular epidemiology, clinical practice quality, and policymaking in China.",
+        "zh": "国家心血管病中心（NCCD）是由国家卫生健康委员会设立的心血管疾病防治与研究的国家级研究与管理中心，与中国医学科学院阜外医院一体化运行。中心每年发布权威报告，包括《中国心血管健康与疾病报告》，系统提供全国心血管疾病患病率、发病率、死亡率、危险因素、临床诊疗量及地区差异数据。中心还管理国家级心血管疾病登记研究（如 CCC-ACS、CHINA-PEACE 等），为中国心血管病流行病学、临床质量评价及卫生政策制定提供基准数据。"
+      },
+      "website": "https://www.nccd.org.cn",
+      "data_url": "https://www.nccd.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "research"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "nccd",
+        "国家心血管病中心",
+        "心血管",
+        "cardiovascular",
+        "心血管疾病",
+        "heart-disease",
+        "中国心血管健康与疾病报告",
+        "cvd-report",
+        "高血压",
+        "hypertension",
+        "冠心病",
+        "coronary-heart-disease",
+        "卒中",
+        "stroke",
+        "阜外医院",
+        "fuwai"
+      ],
+      "data_content": {
+        "en": [
+          "China Cardiovascular Health and Disease Report: annual comprehensive national report on prevalence, incidence, mortality, and risk factors of cardiovascular diseases",
+          "Disease burden statistics: age-standardized morbidity and mortality rates for hypertension, coronary heart disease, stroke, heart failure, and arrhythmias",
+          "Risk factor data: population-level prevalence of smoking, dyslipidemia, diabetes, obesity, and physical inactivity in China",
+          "Clinical procedure volumes: national statistics on cardiovascular surgeries, PCI, CABG, transcatheter interventions, and pacemaker implantation",
+          "Regional variation data: provincial and urban/rural comparisons of cardiovascular disease prevalence and outcomes",
+          "National registries: data from CCC-ACS, CHINA-PEACE, and other large-scale cardiovascular disease registries and cohorts",
+          "Quality of care indicators: hospital performance metrics and adherence to cardiovascular clinical practice guidelines"
+        ],
+        "zh": [
+          "《中国心血管健康与疾病报告》：年度发布的全国心血管疾病患病率、发病率、死亡率及危险因素综合报告",
+          "疾病负担统计：高血压、冠心病、卒中、心衰、心律失常等年龄标化的患病率与死亡率",
+          "危险因素数据：中国人群吸烟、血脂异常、糖尿病、肥胖及缺乏运动的流行情况",
+          "临床诊疗量：全国心血管外科手术、PCI、冠脉旁路移植、经导管介入及起搏器植入等统计",
+          "地区差异数据：心血管疾病患病率及预后在各省份及城乡间的对比",
+          "国家登记研究：CCC-ACS、CHINA-PEACE 等大规模心血管疾病登记与队列研究数据",
+          "诊疗质量指标：医院绩效指标及心血管临床指南依从性评价"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-nccd.json"
+    },
+    {
       "id": "china-ndcpa",
       "name": {
         "en": "National Disease Control and Prevention Administration of China",
@@ -19186,6 +19310,69 @@
       },
       "has_api": false,
       "file_path": "china/industry/aerospace/china-casc.json"
+    },
+    {
+      "id": "china-casei",
+      "name": {
+        "en": "China Association of Special Equipment Inspection and Testing",
+        "zh": "中国特种设备检验协会"
+      },
+      "description": {
+        "en": "The China Association of Special Equipment Inspection and Testing (CASEI) is the national industry association for special equipment inspection, testing, and certification in China, supervised by the State Administration for Market Regulation (SAMR). It publishes industry statistics, technical standards, training materials, and annual development reports on special equipment including boilers, pressure vessels, pressure pipelines, elevators, cranes, passenger ropeways, large amusement facilities, and industrial vehicles. CASEI data provides authoritative references on special equipment inventory, inspection results, accident analysis, and industry capacity in China.",
+        "zh": "中国特种设备检验协会（CASEI）是中国特种设备检验检测及认证领域的全国性行业协会，接受国家市场监督管理总局业务指导。协会发布特种设备行业统计、技术标准、培训资料及年度发展报告，涵盖锅炉、压力容器、压力管道、电梯、起重机械、客运索道、大型游乐设施和场（厂）内专用机动车辆等特种设备。CASEI 数据为中国特种设备保有量、检验结果、事故分析及行业能力提供权威参考。"
+      },
+      "website": "https://www.casei.org.cn",
+      "data_url": "https://www.casei.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "governance",
+        "standards"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "casei",
+        "特种设备",
+        "special-equipment",
+        "特种设备检验",
+        "inspection",
+        "锅炉",
+        "boiler",
+        "压力容器",
+        "pressure-vessel",
+        "电梯",
+        "elevator",
+        "起重机械",
+        "crane",
+        "安全检验",
+        "safety-inspection",
+        "samr"
+      ],
+      "data_content": {
+        "en": [
+          "Special equipment inventory statistics: counts of registered boilers, pressure vessels, pipelines, elevators, cranes, and amusement facilities by category and region",
+          "Inspection and testing data: annual inspection volumes, pass rates, and common defect categories identified during periodic inspections",
+          "Technical standards: industry-developed guidelines and technical specifications for special equipment design, manufacture, installation, and operation",
+          "Accident analysis reports: statistics and root-cause analyses of special equipment accidents including cause categorization and severity",
+          "Inspection organization directory: registered inspection and testing institutions with qualifications, geographic coverage, and capability scope",
+          "Training and certification: data on inspector qualification training, examination pass rates, and certified personnel distribution",
+          "Industry development reports: annual reports on the Chinese special equipment inspection industry including capacity, revenue, and emerging trends"
+        ],
+        "zh": [
+          "特种设备保有量统计：锅炉、压力容器、管道、电梯、起重机械、游乐设施等各类特种设备注册数量及地区分布",
+          "检验检测数据：年度检验量、合格率及定期检验发现的常见缺陷类别",
+          "技术标准：行业制定的特种设备设计、制造、安装及使用的技术规范与指南",
+          "事故分析报告：特种设备事故统计及原因分析，涵盖事故类别划分及严重程度",
+          "检验机构名录：登记在册的检验检测机构资质、地域覆盖及业务范围",
+          "培训与认证：检验员资格培训、考试通过率及持证人员分布数据",
+          "行业发展报告：中国特种设备检验行业的年度报告，涵盖业务能力、营收及新兴趋势"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-casei.json"
     },
     {
       "id": "china-ceeia",
@@ -30193,6 +30380,70 @@
       "file_path": "china/technology/digital_economy/china-national-data-bureau.json"
     },
     {
+      "id": "china-aii-alliance",
+      "name": {
+        "en": "Alliance of Industrial Internet",
+        "zh": "工业互联网产业联盟"
+      },
+      "description": {
+        "en": "The Alliance of Industrial Internet (AII) is a cross-industry, cross-domain consortium established in 2016 under the guidance of China's Ministry of Industry and Information Technology (MIIT). It brings together over 3,000 member enterprises, research institutions, and universities to promote standardization, research, and development of industrial internet in China. AII publishes white papers, technical standards, industry reports, and blueprints covering industrial internet architecture, security, platform ecosystems, and application scenarios across manufacturing sectors. Its research outputs provide authoritative benchmarks for China's intelligent manufacturing and industrial digitalization initiatives.",
+        "zh": "工业互联网产业联盟（AII）成立于2016年，由工业和信息化部指导，是跨行业、跨领域的产业联盟，拥有3000余家成员单位，涵盖企业、科研机构和高校。联盟致力于推动中国工业互联网标准制定、技术研发与产业发展，发布涉及工业互联网体系架构、安全、平台生态及各制造业应用场景的白皮书、技术标准和产业报告。其研究成果为中国智能制造和工业数字化转型提供权威基准。"
+      },
+      "website": "https://www.aii-alliance.org",
+      "data_url": "https://www.aii-alliance.org",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "industry",
+        "digital-economy",
+        "standards"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "aii",
+        "工业互联网",
+        "industrial-internet",
+        "工业互联网产业联盟",
+        "智能制造",
+        "smart-manufacturing",
+        "工业数字化",
+        "industrial-digitalization",
+        "工业互联网平台",
+        "iiot",
+        "工业互联网安全",
+        "industrial-security",
+        "工业互联网白皮书",
+        "white-paper",
+        "数字孪生",
+        "digital-twin"
+      ],
+      "data_content": {
+        "en": [
+          "Technical white papers: architecture blueprints, security frameworks, and reference implementations for industrial internet systems",
+          "Standards specifications: technical specifications and guidelines for industrial internet interoperability, connectivity, and data exchange",
+          "Industry application reports: case studies and adoption metrics across manufacturing sectors including automotive, electronics, chemicals, and steel",
+          "Platform ecosystem reports: surveys of industrial internet platform providers, features, scale, and market penetration",
+          "Security research: vulnerability assessments, threat landscapes, and security recommendations for operational technology (OT) environments",
+          "Policy research: analysis of government industrial internet policies, investment trends, and development roadmaps",
+          "Digital twin and edge computing: technical research and industry benchmarks for digital twin applications and edge computing in manufacturing"
+        ],
+        "zh": [
+          "技术白皮书：工业互联网体系架构蓝图、安全框架及参考实现",
+          "标准规范：工业互联网互操作性、连接性与数据交换技术规范及指南",
+          "行业应用报告：汽车、电子、化工、钢铁等制造行业应用案例与渗透率数据",
+          "平台生态报告：工业互联网平台供应商调查，涵盖功能特性、规模及市场覆盖",
+          "安全研究：运营技术（OT）环境的漏洞评估、威胁态势分析及安全建议",
+          "政策研究：政府工业互联网政策分析、投资趋势与发展路线图",
+          "数字孪生与边缘计算：制造业数字孪生应用及边缘计算技术研究与行业基准"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/industrial-internet/china-aii-alliance.json"
+    },
+    {
       "id": "china-caiii",
       "name": {
         "en": "China Academy of Industrial Internet",
@@ -32761,6 +33012,69 @@
       },
       "has_api": false,
       "file_path": "china/technology/sci_resources/china-naoc.json"
+    },
+    {
+      "id": "china-cesa",
+      "name": {
+        "en": "China Electronics Standardization Association",
+        "zh": "中国电子工业标准化技术协会"
+      },
+      "description": {
+        "en": "The China Electronics Standardization Association (CESA) is the national industry association for electronics and information technology standardization in China, founded in 1983 under the supervision of the Ministry of Industry and Information Technology (MIIT). CESA organizes the development of group standards and technical specifications covering integrated circuits, electronic components, consumer electronics, communications equipment, smart manufacturing, and emerging technologies such as artificial intelligence and blockchain. It publishes the CESA Group Standards catalog, industry standard-compliance data, and technical white papers that serve as authoritative references for China's electronics industry standardization landscape.",
+        "zh": "中国电子工业标准化技术协会（CESA）成立于1983年，是中国电子信息技术标准化领域的全国性行业协会，业务上接受工业和信息化部指导。协会组织制定团体标准和技术规范，覆盖集成电路、电子元器件、消费电子、通信设备、智能制造及人工智能、区块链等新兴技术领域。协会发布 CESA 团体标准目录、行业标准符合性数据及技术白皮书，为中国电子工业标准化发展提供权威参考。"
+      },
+      "website": "https://www.cesa.cn",
+      "data_url": "https://www.cesa.cn/standard/",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "technology",
+        "standards",
+        "industry"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "cesa",
+        "电子标准",
+        "electronics-standards",
+        "团体标准",
+        "group-standard",
+        "集成电路",
+        "integrated-circuit",
+        "电子元器件",
+        "electronic-components",
+        "智能制造",
+        "smart-manufacturing",
+        "人工智能",
+        "ai",
+        "区块链",
+        "blockchain",
+        "标准化"
+      ],
+      "data_content": {
+        "en": [
+          "CESA group standards catalog: published technical standards for electronics and information technology products, including integrated circuits, semiconductors, and components",
+          "Standard compliance data: information on products, testing, and certification against CESA group standards",
+          "Technical white papers: research outputs on emerging technology standardization including AI, blockchain, and smart manufacturing",
+          "Integrated circuit standards: technical specifications for chip design, manufacturing, packaging, testing, and quality assurance",
+          "Consumer electronics standards: standards for home appliances, audio-visual equipment, and smart devices",
+          "Smart manufacturing standards: technical guidelines for industrial software, automation, and intelligent factory integration",
+          "Industry standardization reports: analysis of standardization trends and gaps in China's electronics industry"
+        ],
+        "zh": [
+          "CESA 团体标准目录：已发布的电子信息产品技术标准，涵盖集成电路、半导体及元器件等",
+          "标准符合性数据：CESA 团体标准的产品、测试及认证相关信息",
+          "技术白皮书：面向人工智能、区块链、智能制造等新兴技术标准化的研究成果",
+          "集成电路标准：涵盖芯片设计、制造、封装、测试及质量保障的技术规范",
+          "消费电子标准：家用电器、音视频设备及智能设备相关标准",
+          "智能制造标准：工业软件、自动化及智能工厂集成的技术指南",
+          "行业标准化报告：中国电子工业标准化趋势与差距分析"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/technology/standards/china-cesa.json"
     },
     {
       "id": "china-cnis",

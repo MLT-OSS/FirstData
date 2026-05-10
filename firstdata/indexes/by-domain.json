@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-09T06:23:34.411711+00:00",
+    "generated_at": "2026-05-10T02:35:21.259057+00:00",
     "total_domains": 752,
-    "total_sources": 733,
+    "total_sources": 738,
     "version": "2.0"
   },
   "domains": {
@@ -7743,6 +7743,18 @@
         "data_url": "https://sjdj.nda.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/digital_economy/china-national-data-bureau.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-aii-alliance",
+        "name": {
+          "en": "Alliance of Industrial Internet",
+          "zh": "工业互联网产业联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aii-alliance.org",
+        "has_api": false,
+        "file_path": "china/technology/industrial-internet/china-aii-alliance.json",
         "geographic_scope": "national"
       },
       {
@@ -20246,6 +20258,18 @@
         "geographic_scope": "global"
       },
       {
+        "id": "china-cietac",
+        "name": {
+          "en": "China International Economic and Trade Arbitration Commission",
+          "zh": "中国国际经济贸易仲裁委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cietac.org",
+        "has_api": false,
+        "file_path": "china/governance/china-cietac.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cls",
         "name": {
           "en": "Chinese Law Society",
@@ -20591,6 +20615,18 @@
         "data_url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
         "has_api": false,
         "file_path": "china/health/china-nmpa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-casei",
+        "name": {
+          "en": "China Association of Special Equipment Inspection and Testing",
+          "zh": "中国特种设备检验协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.casei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-casei.json",
         "geographic_scope": "national"
       },
       {
@@ -21336,6 +21372,18 @@
         "data_url": "https://www.natcm.gov.cn/guihuacaiwusi/gongzuodongtai/index.html",
         "has_api": false,
         "file_path": "china/health/china-natcm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-nccd",
+        "name": {
+          "en": "National Center for Cardiovascular Diseases",
+          "zh": "国家心血管病中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nccd.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nccd.json",
         "geographic_scope": "national"
       },
       {
@@ -23651,6 +23699,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-casei",
+        "name": {
+          "en": "China Association of Special Equipment Inspection and Testing",
+          "zh": "中国特种设备检验协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.casei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-casei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ceeia",
         "name": {
           "en": "China Electrical Equipment Industry Association",
@@ -23829,6 +23889,18 @@
         "data_url": "https://www.miit.gov.cn/jgsj/ycls/xt/index.html",
         "has_api": false,
         "file_path": "china/resources/mineral/china-miit-rare-earth.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-aii-alliance",
+        "name": {
+          "en": "Alliance of Industrial Internet",
+          "zh": "工业互联网产业联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aii-alliance.org",
+        "has_api": false,
+        "file_path": "china/technology/industrial-internet/china-aii-alliance.json",
         "geographic_scope": "national"
       },
       {
@@ -24045,6 +24117,18 @@
         "data_url": "http://www.cwea.org.cn/news_lastest.html",
         "has_api": false,
         "file_path": "china/technology/industry_associations/china-cwea.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cesa",
+        "name": {
+          "en": "China Electronics Standardization Association",
+          "zh": "中国电子工业标准化技术协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cesa.cn/standard/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesa.json",
         "geographic_scope": "national"
       },
       {
@@ -26949,6 +27033,18 @@
         "data_url": "https://pccz.court.gov.cn/pcajxxw/index/xxwsy",
         "has_api": false,
         "file_path": "china/governance/china-bankruptcy-court.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cietac",
+        "name": {
+          "en": "China International Economic and Trade Arbitration Commission",
+          "zh": "中国国际经济贸易仲裁委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cietac.org",
+        "has_api": false,
+        "file_path": "china/governance/china-cietac.json",
         "geographic_scope": "national"
       },
       {
@@ -32562,6 +32658,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-nccd",
+        "name": {
+          "en": "National Center for Cardiovascular Diseases",
+          "zh": "国家心血管病中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.nccd.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-nccd.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-phirda",
         "name": {
           "en": "China Pharmaceutical Innovation and Research Development Association",
@@ -36250,6 +36358,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-casei",
+        "name": {
+          "en": "China Association of Special Equipment Inspection and Testing",
+          "zh": "中国特种设备检验协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.casei.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-casei.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-csei",
         "name": {
           "en": "China Special Equipment Inspection and Research Institute",
@@ -36286,6 +36406,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-aii-alliance",
+        "name": {
+          "en": "Alliance of Industrial Internet",
+          "zh": "工业互联网产业联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aii-alliance.org",
+        "has_api": false,
+        "file_path": "china/technology/industrial-internet/china-aii-alliance.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cagis",
         "name": {
           "en": "China Association for Geographic Information Industry",
@@ -36307,6 +36439,18 @@
         "data_url": "https://www.sae-china.org/newsdata/reportdata/",
         "has_api": false,
         "file_path": "china/technology/industry-associations/china-sae.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cesa",
+        "name": {
+          "en": "China Electronics Standardization Association",
+          "zh": "中国电子工业标准化技术协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cesa.cn/standard/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesa.json",
         "geographic_scope": "national"
       },
       {
@@ -38260,6 +38404,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-aii-alliance",
+        "name": {
+          "en": "Alliance of Industrial Internet",
+          "zh": "工业互联网产业联盟"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.aii-alliance.org",
+        "has_api": false,
+        "file_path": "china/technology/industrial-internet/china-aii-alliance.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-caiii",
         "name": {
           "en": "China Academy of Industrial Internet",
@@ -38510,6 +38666,18 @@
         "data_url": "https://service.most.gov.cn/",
         "has_api": false,
         "file_path": "china/technology/sci_resources/china-most-rnd.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cesa",
+        "name": {
+          "en": "China Electronics Standardization Association",
+          "zh": "中国电子工业标准化技术协会"
+        },
+        "authority_level": "other",
+        "data_url": "https://www.cesa.cn/standard/",
+        "has_api": false,
+        "file_path": "china/technology/standards/china-cesa.json",
         "geographic_scope": "national"
       },
       {
@@ -39458,6 +39626,18 @@
         "data_url": "https://www.safe.gov.cn/safe/tjsj1/index.html",
         "has_api": false,
         "file_path": "china/finance/forex/china-safe.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cietac",
+        "name": {
+          "en": "China International Economic and Trade Arbitration Commission",
+          "zh": "中国国际经济贸易仲裁委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cietac.org",
+        "has_api": false,
+        "file_path": "china/governance/china-cietac.json",
         "geographic_scope": "national"
       },
       {
