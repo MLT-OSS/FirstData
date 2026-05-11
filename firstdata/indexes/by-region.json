@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T06:42:19.188158+00:00",
+    "generated_at": "2026-05-11T03:17:45.364264+00:00",
     "total_regions": 58,
-    "total_sources": 748,
+    "total_sources": 753,
     "version": "2.0"
   },
   "regions": {
@@ -2916,6 +2916,18 @@
         "data_url": "https://www.spp.gov.cn/spp/jcdt/jcgzdt/index_1.shtml",
         "has_api": false,
         "file_path": "china/governance/china-spp.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-state-council-policy",
+        "name": {
+          "en": "China State Council Policy Document Library (gov.cn)",
+          "zh": "中国政府网政策文件库"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.gov.cn/zhengce/",
+        "has_api": false,
+        "file_path": "china/governance/china-state-council-policy.json",
         "geographic_scope": "national"
       },
       {
@@ -7251,6 +7263,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "us-cftc",
+        "name": {
+          "en": "U.S. Commodity Futures Trading Commission (CFTC)",
+          "zh": "美国商品期货交易委员会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+        "has_api": true,
+        "file_path": "countries/north-america/usa/us-cftc.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "us-data-gov",
         "name": {
           "en": "Data.gov",
@@ -7272,6 +7296,30 @@
         "data_url": "https://www.federalreserve.gov/data.htm",
         "has_api": false,
         "file_path": "countries/north-america/usa/us-federalreserve.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-nasdaq",
+        "name": {
+          "en": "Nasdaq Stock Market",
+          "zh": "纳斯达克证券市场"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.nasdaq.com/market-activity",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-nasdaq.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "us-nyse",
+        "name": {
+          "en": "New York Stock Exchange (NYSE)",
+          "zh": "纽约证券交易所"
+        },
+        "authority_level": "market",
+        "data_url": "https://www.nyse.com/market-data",
+        "has_api": false,
+        "file_path": "countries/north-america/usa/us-nyse.json",
         "geographic_scope": "national"
       },
       {

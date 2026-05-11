@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T06:42:19.188158+00:00",
-    "total_sources": 748,
+    "generated_at": "2026-05-11T03:17:45.364264+00:00",
+    "total_sources": 753,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -17135,6 +17135,72 @@
       },
       "has_api": false,
       "file_path": "china/governance/china-spp.json"
+    },
+    {
+      "id": "china-state-council-policy",
+      "name": {
+        "en": "China State Council Policy Document Library (gov.cn)",
+        "zh": "中国政府网政策文件库"
+      },
+      "description": {
+        "en": "The official portal of the State Council of the People's Republic of China (www.gov.cn) hosts the authoritative Policy Document Library (政策文件库), which centralizes full-text access to State Council decisions, executive orders, administrative regulations, guiding opinions, notices, and policy interpretations issued by the central government and its ministries. It is the primary first-hand source for monitoring Chinese national policy, tracking regulatory changes across industries, and retrieving official government releases. The library supports structured browsing by issuing agency, document number, topic, and effective date, and publishes daily policy digests, press conference transcripts, and State Council executive meeting readouts.",
+        "zh": "中华人民共和国中央人民政府门户网站（www.gov.cn）是国务院官方网站，其政策文件库集中收录国务院及各部委发布的决定、命令、行政法规、指导意见、通知和政策解读全文，是追踪中国国家政策、行业监管变化与官方政府发布最权威的一手来源。文件库支持按发文机关、文号、主题、生效日期检索，并发布每日政策资讯、国新办发布会实录及国务院常务会议要点。"
+      },
+      "website": "https://www.gov.cn",
+      "data_url": "https://www.gov.cn/zhengce/",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "governance",
+        "policy",
+        "regulatory",
+        "law"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "中国政府网",
+        "state-council",
+        "国务院",
+        "政策文件库",
+        "policy-library",
+        "行政法规",
+        "administrative-regulations",
+        "政策解读",
+        "policy-interpretation",
+        "gov.cn",
+        "中央政府",
+        "central-government",
+        "政策发布",
+        "policy-releases",
+        "政府公报",
+        "government-gazette"
+      ],
+      "data_content": {
+        "en": [
+          "State Council decisions and executive orders - full text of central government resolutions and executive orders",
+          "Administrative regulations - full text of State Council administrative regulations with issuing dates",
+          "Ministry circulars - official notices and opinions issued jointly or by individual central ministries",
+          "Guiding opinions and implementation plans - national-level policy guidance for provincial implementation",
+          "Policy interpretations - authoritative readings of newly issued policies by issuing agencies",
+          "State Council executive meeting readouts - summaries of weekly State Council executive meetings",
+          "State Council press conferences - transcripts of official briefings and Q&A sessions",
+          "Government work reports - annual State Council work reports and supporting statistical summaries"
+        ],
+        "zh": [
+          "国务院决定与命令 - 中央政府决议、决定与行政命令全文",
+          "行政法规 - 国务院行政法规全文及发布日期",
+          "部委通知与意见 - 中央部委单独或联合发布的通知与意见",
+          "指导意见与实施方案 - 国家级政策指导文件，供省市贯彻落实",
+          "政策解读 - 发文部门对新出台政策的权威解读",
+          "国务院常务会议要点 - 每周国务院常务会议决策要点汇总",
+          "国新办发布会 - 国务院新闻办公室发布会实录与问答",
+          "政府工作报告 - 历年国务院政府工作报告及配套统计数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-state-council-policy.json"
     },
     {
       "id": "china-stma",
@@ -41519,6 +41585,74 @@
       "file_path": "countries/north-america/usa/us-census.json"
     },
     {
+      "id": "us-cftc",
+      "name": {
+        "en": "U.S. Commodity Futures Trading Commission (CFTC)",
+        "zh": "美国商品期货交易委员会"
+      },
+      "description": {
+        "en": "The U.S. Commodity Futures Trading Commission (CFTC) is the independent federal agency regulating U.S. derivatives markets, including futures, swaps, and certain options contracts. The CFTC publishes the weekly Commitments of Traders (COT) report — the primary open-source disclosure of aggregated trader positioning for every actively traded futures market on U.S. exchanges, broken down by commercial, non-commercial, and non-reportable categories. Additional authoritative datasets include the Traders in Financial Futures (TFF) report, the swaps dealer report, weekly bank participation data, disaggregated commodity index trader report, enforcement actions, registration data, and market surveillance statistics. The CFTC's data is the reference for tracking institutional positioning in commodities such as WTI crude oil, Brent-linked contracts, metals, agricultural commodities, and financial futures including S&P 500 and Treasuries.",
+        "zh": "美国商品期货交易委员会（CFTC）是监管美国衍生品市场的独立联邦机构，监管范围涵盖期货、互换及部分期权合约。CFTC发布的每周持仓报告（Commitments of Traders，COT）是美国各主要期货品种机构持仓的权威公开披露，按商业持仓、非商业持仓与非报告持仓分类。其他权威数据集包括金融期货交易员报告（TFF）、互换交易商报告、每周银行参与情况、分类商品指数交易员报告、执法行动、注册信息及市场监控统计。CFTC数据是追踪WTI原油、布伦特相关合约、金属、农产品及标普500、美债等金融期货机构持仓的权威来源。"
+      },
+      "website": "https://www.cftc.gov",
+      "data_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "api_url": "https://publicreporting.cftc.gov/resource/",
+      "authority_level": "government",
+      "country": "US",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "commodities",
+        "derivatives",
+        "regulatory"
+      ],
+      "update_frequency": "weekly",
+      "tags": [
+        "cftc",
+        "commitments-of-traders",
+        "cot-report",
+        "美国商品期货交易委员会",
+        "持仓报告",
+        "futures",
+        "期货",
+        "swaps",
+        "互换",
+        "commodities",
+        "大宗商品",
+        "wti-crude",
+        "brent",
+        "sp500-futures",
+        "treasury-futures",
+        "derivatives-regulation",
+        "衍生品监管",
+        "market-surveillance"
+      ],
+      "data_content": {
+        "en": [
+          "Commitments of Traders (COT) report - weekly positions of commercial, non-commercial, and non-reportable traders across all U.S. futures markets",
+          "Traders in Financial Futures (TFF) report - positions in financial futures broken down by dealer, asset manager, leveraged fund, and other reportable",
+          "Disaggregated COT report - commodity positions split by producer/merchant, swap dealer, managed money, and other reportable",
+          "Bank Participation in Futures and Options Markets - monthly report on commercial bank futures positioning",
+          "Swap Data Repository reports - aggregated swaps market activity and open interest",
+          "Enforcement actions - administrative orders, civil penalties, and settlements in derivatives markets",
+          "Registration data - registered futures commission merchants, introducing brokers, and commodity pool operators",
+          "Market surveillance statistics - volume, open interest, large trader reporting thresholds"
+        ],
+        "zh": [
+          "持仓报告（COT） - 美国期货市场每周商业持仓、非商业持仓及非报告持仓数据",
+          "金融期货交易员报告（TFF） - 金融期货按交易商、资产管理机构、杠杆基金等分类持仓",
+          "分类持仓报告 - 大宗商品按生产/贸易商、互换交易商、管理基金等分类持仓",
+          "银行期货期权参与报告 - 商业银行每月期货持仓情况",
+          "互换数据仓库报告 - 互换市场活动与未平仓头寸汇总",
+          "执法行动 - 衍生品市场的行政命令、罚款与和解案例",
+          "注册数据 - 注册期货交易商、介绍经纪商与商品池操作商信息",
+          "市场监控统计 - 成交量、未平仓合约、大户持仓申报阈值"
+        ]
+      },
+      "has_api": true,
+      "file_path": "countries/north-america/usa/us-cftc.json"
+    },
+    {
       "id": "us-data-gov",
       "name": {
         "en": "Data.gov",
@@ -41677,6 +41811,145 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "countries/north-america/usa/us-federalreserve.json"
+    },
+    {
+      "id": "us-nasdaq",
+      "name": {
+        "en": "Nasdaq Stock Market",
+        "zh": "纳斯达克证券市场"
+      },
+      "description": {
+        "en": "The Nasdaq Stock Market is the world's second-largest equity exchange by market capitalization and the primary listing venue for major U.S. technology, biotechnology, and growth companies, including most constituents of the Nasdaq-100. Its official portal publishes authoritative market data for all Nasdaq-listed securities, including real-time and end-of-day quotes, corporate actions, IPO calendars, earnings calendars, dividends, index constituents (Nasdaq Composite, Nasdaq-100, Nasdaq Biotechnology), insider transactions, institutional holdings, short interest, and ETF flows. Nasdaq is also the official index administrator for widely tracked benchmarks such as the PHLX Semiconductor Index (SOX) and Nasdaq Biotech Index (NBI), making its site the reference for U.S. tech and growth equity analysis.",
+        "zh": "纳斯达克证券市场（Nasdaq）是全球按市值计算第二大的股票交易所，也是美国主要科技、生物科技及成长型公司的首选上市地，纳斯达克100指数成分股大多在此上市。其官方网站发布Nasdaq上市证券的权威市场数据，包括实时及日末报价、公司行动、IPO日历、财报日历、股息、指数成分股（纳斯达克综合指数、纳斯达克100指数、纳斯达克生物科技指数）、内幕交易、机构持仓、做空持仓与ETF资金流向。Nasdaq还是费城半导体指数（SOX）、纳斯达克生物科技指数（NBI）等广受跟踪基准的官方指数管理人，是美国科技与成长股分析的权威来源。"
+      },
+      "website": "https://www.nasdaq.com",
+      "data_url": "https://www.nasdaq.com/market-activity",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "US",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "equities",
+        "technology"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "nasdaq",
+        "纳斯达克",
+        "us-equities",
+        "美股",
+        "nasdaq-100",
+        "纳斯达克100",
+        "phlx-sox",
+        "费城半导体指数",
+        "nasdaq-biotech",
+        "生物科技指数",
+        "ipo",
+        "earnings-calendar",
+        "财报日历",
+        "technology-stocks",
+        "科技股",
+        "etf-flows",
+        "institutional-holdings",
+        "机构持仓"
+      ],
+      "data_content": {
+        "en": [
+          "Real-time and end-of-day quotes - bid, ask, last, volume for all Nasdaq-listed securities",
+          "Listed issuers directory - Nasdaq Global Select, Global Market, Capital Market tier companies",
+          "IPO calendar - priced, upcoming, and filed IPOs with deal size and expected pricing",
+          "Earnings calendar - quarterly earnings release dates with EPS estimates and prior actuals",
+          "Index constituents - Nasdaq Composite, Nasdaq-100, Nasdaq Biotech, PHLX Semiconductor (SOX)",
+          "Corporate actions - dividends, splits, mergers, delistings",
+          "Insider transactions - Form 4 buy/sell activity by corporate insiders",
+          "Institutional holdings - 13F-derived institutional ownership positions and changes",
+          "Short interest - biweekly short interest reports per security",
+          "ETF flows - daily creation, redemption, and assets under management for Nasdaq-listed ETFs"
+        ],
+        "zh": [
+          "实时及日末报价 - Nasdaq上市证券的买价、卖价、最新价与成交量",
+          "上市公司名录 - 纳斯达克全球精选、全球市场、资本市场三层级公司列表",
+          "IPO日历 - 已定价、即将发行与已递交的IPO，含发行规模与预期定价",
+          "财报日历 - 季度财报发布日期及EPS预测与历史实际值",
+          "指数成分股 - 纳斯达克综合、纳斯达克100、纳斯达克生物科技、费城半导体（SOX）",
+          "公司行动 - 股息、拆股、并购、退市",
+          "内幕交易 - 公司内部人Form 4买卖活动",
+          "机构持仓 - 基于13F申报的机构持股与变动",
+          "做空持仓 - 每两周的个股做空持仓报告",
+          "ETF资金流向 - Nasdaq上市ETF的每日申赎、资产管理规模"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/north-america/usa/us-nasdaq.json"
+    },
+    {
+      "id": "us-nyse",
+      "name": {
+        "en": "New York Stock Exchange (NYSE)",
+        "zh": "纽约证券交易所"
+      },
+      "description": {
+        "en": "The New York Stock Exchange (NYSE), a subsidiary of Intercontinental Exchange (ICE), is the largest equity exchange in the world by listed market capitalization. Its official website publishes authoritative reference and market data for all NYSE-listed securities, including daily closing prices, corporate actions, dividend announcements, listed issuers, IPO calendars, delistings, auction imbalances, short interest, and regulatory filings. NYSE Group publishes NYSE, NYSE American, NYSE Arca, NYSE Chicago, and NYSE National venue statistics. The exchange is the primary market for the Dow Jones Industrial Average constituents and most large-cap U.S. listings, making NYSE data the reference source for U.S. main board equities research.",
+        "zh": "纽约证券交易所（NYSE）是洲际交易所（ICE）旗下子公司，是全球按上市公司市值计算最大的股票交易所。其官方网站发布NYSE上市证券的权威参考与市场数据，涵盖每日收盘价、公司行动、股息公告、上市公司名录、IPO日历、退市、收盘集合竞价失衡、做空持仓与监管披露。NYSE集团同时发布NYSE、NYSE American、NYSE Arca、NYSE Chicago和NYSE National多个交易场所的统计数据。作为道琼斯工业平均指数成分股及大多数美国大盘股的主要上市地，NYSE数据是美国主板股票研究的权威参考来源。"
+      },
+      "website": "https://www.nyse.com",
+      "data_url": "https://www.nyse.com/market-data",
+      "api_url": null,
+      "authority_level": "market",
+      "country": "US",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "capital-markets",
+        "equities"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "nyse",
+        "纽约证券交易所",
+        "new-york-stock-exchange",
+        "us-equities",
+        "美股",
+        "main-board",
+        "主板",
+        "ipo",
+        "dow-jones",
+        "道琼斯",
+        "listed-companies",
+        "上市公司",
+        "closing-prices",
+        "收盘价",
+        "corporate-actions",
+        "公司行动",
+        "short-interest",
+        "做空持仓"
+      ],
+      "data_content": {
+        "en": [
+          "Daily market data - opening, closing, high, low prices and volumes for all NYSE-listed securities",
+          "Listed issuers directory - complete list of companies listed on NYSE, NYSE American, NYSE Arca with ticker, CIK and listing date",
+          "IPO calendar - upcoming and recent initial public offerings with pricing and timing",
+          "Corporate actions - dividend declarations, stock splits, mergers, spin-offs, name changes",
+          "Delistings and suspensions - historical delisting records with reasons",
+          "Closing auction imbalances - end-of-day auction imbalance data for price discovery",
+          "Short interest - semimonthly short interest positions for each NYSE-listed security",
+          "Market statistics - daily NYSE composite index, advance/decline ratios, trading volumes"
+        ],
+        "zh": [
+          "每日行情数据 - NYSE上市证券的开盘、收盘、最高、最低价及成交量",
+          "上市公司名录 - NYSE、NYSE American、NYSE Arca全部上市公司列表，含代码、CIK与上市日期",
+          "IPO日历 - 即将与近期的首次公开发行，含定价与时间",
+          "公司行动 - 股息公告、拆股、并购、分拆、更名事件",
+          "退市与停牌 - 历史退市记录及原因",
+          "收盘集合竞价失衡 - 尾盘集合竞价失衡数据用于价格发现",
+          "做空持仓 - NYSE上市证券的半月度做空持仓申报",
+          "市场统计 - 每日NYSE综合指数、涨跌家数比、成交量"
+        ]
+      },
+      "has_api": false,
+      "file_path": "countries/north-america/usa/us-nyse.json"
     },
     {
       "id": "us-treasury",
@@ -48816,6 +49089,83 @@
       },
       "has_api": true,
       "file_path": "international/transportation/icao-aviation-data.json"
+    },
+    {
+      "id": "imo",
+      "name": {
+        "en": "International Maritime Organization (IMO)",
+        "zh": "国际海事组织"
+      },
+      "description": {
+        "en": "The International Maritime Organization (IMO) is the United Nations specialized agency responsible for the safety, security, and environmental performance of international shipping. IMO develops and maintains the global regulatory framework for shipping, including the SOLAS (Safety of Life at Sea), MARPOL (marine pollution), STCW (seafarers training), IMSBC (bulk cargoes), and IGC/IBC (gas/chemical tankers) conventions. Its public data portal publishes the Global Integrated Shipping Information System (GISIS) — the authoritative database of IMO-numbered ships, ship particulars, casualty and incident records, port reception facilities, maritime security incidents, greenhouse gas emission reports, and flag state compliance data. GISIS is the reference for maritime researchers tracking ship movements, ownership chains, environmental compliance, and accident histories, and is widely used for sanctions compliance and ESG due diligence on the shipping sector.",
+        "zh": "国际海事组织（IMO）是联合国负责国际航运安全、保安和环境绩效的专门机构。IMO制定并维护全球航运监管框架，包括《国际海上人命安全公约》（SOLAS）、《防止船舶污染国际公约》（MARPOL）、《海员培训、发证和值班标准国际公约》（STCW）、《国际海运固体散装货物规则》（IMSBC）及《国际散装运输化学品/液化气船舶构造和设备规则》（IBC/IGC）。其公共数据门户发布全球综合航运信息系统（GISIS）——以IMO编号识别的船舶权威数据库，包含船舶详情、事故与事件记录、港口接收设施、海上安保事件、温室气体排放报告及船旗国合规数据。GISIS是航运研究人员追踪船舶动态、所有权链条、环境合规与事故历史的权威来源，广泛用于航运业的制裁合规与ESG尽职调查。"
+      },
+      "website": "https://www.imo.org",
+      "data_url": "https://gisis.imo.org/Public/Default.aspx",
+      "api_url": null,
+      "authority_level": "international",
+      "geographic_scope": "global",
+      "domains": [
+        "transportation",
+        "shipping",
+        "maritime",
+        "environment",
+        "regulatory"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "imo",
+        "国际海事组织",
+        "gisis",
+        "航运",
+        "maritime",
+        "shipping",
+        "solas",
+        "marpol",
+        "船舶污染",
+        "stcw",
+        "船员培训",
+        "imo-number",
+        "船舶编号",
+        "flag-state",
+        "船旗国",
+        "船舶事故",
+        "casualty",
+        "ghg-emissions",
+        "温室气体排放",
+        "sanctions-compliance",
+        "制裁合规",
+        "port-state-control",
+        "港口国监督"
+      ],
+      "data_content": {
+        "en": [
+          "GISIS Ships & Companies - IMO-numbered ships with particulars, registered owners, operators, and ISM managers",
+          "GISIS Casualties & Incidents - marine casualty and incident reports submitted by flag states",
+          "GISIS Maritime Security incidents - piracy, armed robbery, and security events at sea",
+          "GISIS Port Reception Facilities - availability of waste and residue reception at world ports",
+          "IMO Ship Fuel Oil Consumption Database - annual fuel consumption and CO2 emissions for ships ≥5,000 GT",
+          "IMO GHG Study data - global shipping greenhouse gas inventory and intensity",
+          "Flag State Performance reports - compliance statistics by flag administration",
+          "IMO convention status - ratification and contracting state lists for all IMO conventions",
+          "Seafarer certificate verification - STCW certificate issuance and verification statistics",
+          "Marine Environment Protection Committee (MEPC) and Maritime Safety Committee (MSC) meeting outputs"
+        ],
+        "zh": [
+          "GISIS船舶与公司 - 以IMO编号标识的船舶详情、登记所有人、经营人及ISM管理人",
+          "GISIS事故与事件 - 船旗国提交的海上事故与事件报告",
+          "GISIS海上保安事件 - 海盗、武装抢劫及海上保安事件",
+          "GISIS港口接收设施 - 全球港口废弃物与残余物接收能力",
+          "IMO船舶燃油消耗数据库 - 5000总吨及以上船舶年度燃油消耗及CO2排放",
+          "IMO温室气体研究数据 - 全球航运温室气体排放清单与强度",
+          "船旗国表现报告 - 按船旗国统计的合规数据",
+          "IMO公约状态 - 各项IMO公约的批准与缔约国列表",
+          "海员证书核验 - STCW证书签发与核验统计",
+          "海上环境保护委员会（MEPC）及海事安全委员会（MSC）会议成果"
+        ]
+      },
+      "has_api": false,
+      "file_path": "international/transportation/imo.json"
     },
     {
       "id": "itf-transport",
