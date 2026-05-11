@@ -1,0 +1,72 @@
+{
+  "id": "china-cydf",
+  "name": {
+    "en": "China Youth Development Foundation (CYDF)",
+    "zh": "中国青少年发展基金会"
+  },
+  "description": {
+    "en": "The China Youth Development Foundation (CYDF) is a major national public fundraising foundation established in 1989 and supervised by the Communist Youth League Central Committee of China. CYDF launched and operates Project Hope (希望工程), one of China's most influential philanthropic initiatives dedicated to improving educational opportunities for children in underdeveloped areas by building Hope Primary Schools, funding student stipends, supporting Hope Rural Teachers, and developing rural education infrastructure. In addition to Project Hope, CYDF operates youth development, vocational training, rural revitalization, and disaster relief programs across China. As a leading youth philanthropy authority, CYDF publishes project data, beneficiary statistics, Hope Schools records, fundraising reports, and annual evaluation studies. Its data and reports are authoritative references for studying youth development, rural education, philanthropy and charitable giving, and nonprofit transparency in China. CYDF holds national public fundraising qualifications and operates through a network of provincial youth development foundations across the country.",
+    "zh": "中国青少年发展基金会（CYDF）是1989年成立、由共青团中央主管的全国性公募基金会。中国青基会发起并运营中国最具影响力的公益项目之一——希望工程，致力于通过建设希望小学、资助学生助学金、支持希望乡村教师、发展农村教育基础设施来改善欠发达地区儿童的教育机会。除希望工程外，青基会还在全国开展青少年发展、职业培训、乡村振兴和救灾等项目。作为中国青少年公益领域权威机构，基金会发布项目数据、受益人统计、希望小学档案、筹款报告和年度评估研究等内容。其数据和报告是研究中国青少年发展、乡村教育、公益慈善和非营利透明度的权威参考。中国青基会具备全国公开募捐资质，并通过各省青少年发展基金会网络在全国范围内开展工作。"
+  },
+  "website": "http://www.cydf.org.cn",
+  "data_url": "http://www.cydf.org.cn",
+  "api_url": null,
+  "authority_level": "other",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "education",
+    "social",
+    "philanthropy",
+    "youth"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "cydf",
+    "中国青少年发展基金会",
+    "youth-development",
+    "青少年发展",
+    "希望工程",
+    "project-hope",
+    "希望小学",
+    "hope-primary-school",
+    "公益慈善",
+    "philanthropy",
+    "共青团",
+    "communist-youth-league",
+    "乡村教育",
+    "rural-education",
+    "助学金",
+    "student-stipend",
+    "公募基金会",
+    "public-foundation",
+    "乡村振兴",
+    "rural-revitalization",
+    "教育公益",
+    "education-philanthropy",
+    "希望乡村教师",
+    "hope-rural-teachers"
+  ],
+  "data_content": {
+    "en": [
+      "Project Hope statistics: number of Hope Schools built by province and year, student beneficiaries, and cumulative fundraising totals",
+      "Annual fundraising and expenditure reports: donation income, grant disbursements, and independent audit results",
+      "Education program data: student stipend beneficiaries, Hope Rural Teachers program participants, and rural educational infrastructure projects",
+      "Project impact and evaluation studies: educational outcomes, beneficiary tracking, and long-term impact assessments of Project Hope",
+      "Donor disclosure and transparency: major donors, corporate giving partnerships, and fund utilization reports",
+      "Youth development program data: vocational training, entrepreneurship support, and youth empowerment initiatives",
+      "Disaster relief and special fundraising campaigns: emergency response data and post-disaster rebuilding projects",
+      "Annual reports and governance disclosures: strategic plans, governance structure, and internal control reports"
+    ],
+    "zh": [
+      "希望工程统计：分省份和年份建设的希望小学数量、学生受益人数、累计筹款总额",
+      "年度筹款和支出报告：捐赠收入、资助拨付、独立审计结果",
+      "教育项目数据：助学金受益人、希望乡村教师项目参与者、乡村教育基础设施项目",
+      "项目影响和评估研究：希望工程的教育成效、受益人追踪、长期影响评估",
+      "捐赠人披露和透明度：主要捐赠人、企业捐赠合作、资金使用报告",
+      "青少年发展项目数据：职业培训、创业支持、青年赋权项目",
+      "救灾和专项筹款活动：应急响应数据、灾后重建项目",
+      "年度报告和治理披露：战略规划、治理结构、内控报告"
+    ]
+  }
+}
