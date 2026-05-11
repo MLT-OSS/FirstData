@@ -1,0 +1,70 @@
+{
+  "id": "us-nasdaq",
+  "name": {
+    "en": "Nasdaq Stock Market",
+    "zh": "纳斯达克证券市场"
+  },
+  "description": {
+    "en": "The Nasdaq Stock Market is the world's second-largest equity exchange by market capitalization and the primary listing venue for major U.S. technology, biotechnology, and growth companies, including most constituents of the Nasdaq-100. Its official portal publishes authoritative market data for all Nasdaq-listed securities, including real-time and end-of-day quotes, corporate actions, IPO calendars, earnings calendars, dividends, index constituents (Nasdaq Composite, Nasdaq-100, Nasdaq Biotechnology), insider transactions, institutional holdings, short interest, and ETF flows. Nasdaq is also the official index administrator for widely tracked benchmarks such as the PHLX Semiconductor Index (SOX) and Nasdaq Biotech Index (NBI), making its site the reference for U.S. tech and growth equity analysis.",
+    "zh": "纳斯达克证券市场（Nasdaq）是全球按市值计算第二大的股票交易所，也是美国主要科技、生物科技及成长型公司的首选上市地，纳斯达克100指数成分股大多在此上市。其官方网站发布Nasdaq上市证券的权威市场数据，包括实时及日末报价、公司行动、IPO日历、财报日历、股息、指数成分股（纳斯达克综合指数、纳斯达克100指数、纳斯达克生物科技指数）、内幕交易、机构持仓、做空持仓与ETF资金流向。Nasdaq还是费城半导体指数（SOX）、纳斯达克生物科技指数（NBI）等广受跟踪基准的官方指数管理人，是美国科技与成长股分析的权威来源。"
+  },
+  "website": "https://www.nasdaq.com",
+  "data_url": "https://www.nasdaq.com/market-activity",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "US",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "equities",
+    "technology"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "nasdaq",
+    "纳斯达克",
+    "us-equities",
+    "美股",
+    "nasdaq-100",
+    "纳斯达克100",
+    "phlx-sox",
+    "费城半导体指数",
+    "nasdaq-biotech",
+    "生物科技指数",
+    "ipo",
+    "earnings-calendar",
+    "财报日历",
+    "technology-stocks",
+    "科技股",
+    "etf-flows",
+    "institutional-holdings",
+    "机构持仓"
+  ],
+  "data_content": {
+    "en": [
+      "Real-time and end-of-day quotes - bid, ask, last, volume for all Nasdaq-listed securities",
+      "Listed issuers directory - Nasdaq Global Select, Global Market, Capital Market tier companies",
+      "IPO calendar - priced, upcoming, and filed IPOs with deal size and expected pricing",
+      "Earnings calendar - quarterly earnings release dates with EPS estimates and prior actuals",
+      "Index constituents - Nasdaq Composite, Nasdaq-100, Nasdaq Biotech, PHLX Semiconductor (SOX)",
+      "Corporate actions - dividends, splits, mergers, delistings",
+      "Insider transactions - Form 4 buy/sell activity by corporate insiders",
+      "Institutional holdings - 13F-derived institutional ownership positions and changes",
+      "Short interest - biweekly short interest reports per security",
+      "ETF flows - daily creation, redemption, and assets under management for Nasdaq-listed ETFs"
+    ],
+    "zh": [
+      "实时及日末报价 - Nasdaq上市证券的买价、卖价、最新价与成交量",
+      "上市公司名录 - 纳斯达克全球精选、全球市场、资本市场三层级公司列表",
+      "IPO日历 - 已定价、即将发行与已递交的IPO，含发行规模与预期定价",
+      "财报日历 - 季度财报发布日期及EPS预测与历史实际值",
+      "指数成分股 - 纳斯达克综合、纳斯达克100、纳斯达克生物科技、费城半导体（SOX）",
+      "公司行动 - 股息、拆股、并购、退市",
+      "内幕交易 - 公司内部人Form 4买卖活动",
+      "机构持仓 - 基于13F申报的机构持股与变动",
+      "做空持仓 - 每两周的个股做空持仓报告",
+      "ETF资金流向 - Nasdaq上市ETF的每日申赎、资产管理规模"
+    ]
+  }
+}

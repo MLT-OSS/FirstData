@@ -1,0 +1,64 @@
+{
+  "id": "china-state-council-policy",
+  "name": {
+    "en": "China State Council Policy Document Library (gov.cn)",
+    "zh": "中国政府网政策文件库"
+  },
+  "description": {
+    "en": "The official portal of the State Council of the People's Republic of China (www.gov.cn) hosts the authoritative Policy Document Library (政策文件库), which centralizes full-text access to State Council decisions, executive orders, administrative regulations, guiding opinions, notices, and policy interpretations issued by the central government and its ministries. It is the primary first-hand source for monitoring Chinese national policy, tracking regulatory changes across industries, and retrieving official government releases. The library supports structured browsing by issuing agency, document number, topic, and effective date, and publishes daily policy digests, press conference transcripts, and State Council executive meeting readouts.",
+    "zh": "中华人民共和国中央人民政府门户网站（www.gov.cn）是国务院官方网站，其政策文件库集中收录国务院及各部委发布的决定、命令、行政法规、指导意见、通知和政策解读全文，是追踪中国国家政策、行业监管变化与官方政府发布最权威的一手来源。文件库支持按发文机关、文号、主题、生效日期检索，并发布每日政策资讯、国新办发布会实录及国务院常务会议要点。"
+  },
+  "website": "https://www.gov.cn",
+  "data_url": "https://www.gov.cn/zhengce/",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "governance",
+    "policy",
+    "regulatory",
+    "law"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "中国政府网",
+    "state-council",
+    "国务院",
+    "政策文件库",
+    "policy-library",
+    "行政法规",
+    "administrative-regulations",
+    "政策解读",
+    "policy-interpretation",
+    "gov.cn",
+    "中央政府",
+    "central-government",
+    "政策发布",
+    "policy-releases",
+    "政府公报",
+    "government-gazette"
+  ],
+  "data_content": {
+    "en": [
+      "State Council decisions and executive orders - full text of central government resolutions and executive orders",
+      "Administrative regulations - full text of State Council administrative regulations with issuing dates",
+      "Ministry circulars - official notices and opinions issued jointly or by individual central ministries",
+      "Guiding opinions and implementation plans - national-level policy guidance for provincial implementation",
+      "Policy interpretations - authoritative readings of newly issued policies by issuing agencies",
+      "State Council executive meeting readouts - summaries of weekly State Council executive meetings",
+      "State Council press conferences - transcripts of official briefings and Q&A sessions",
+      "Government work reports - annual State Council work reports and supporting statistical summaries"
+    ],
+    "zh": [
+      "国务院决定与命令 - 中央政府决议、决定与行政命令全文",
+      "行政法规 - 国务院行政法规全文及发布日期",
+      "部委通知与意见 - 中央部委单独或联合发布的通知与意见",
+      "指导意见与实施方案 - 国家级政策指导文件，供省市贯彻落实",
+      "政策解读 - 发文部门对新出台政策的权威解读",
+      "国务院常务会议要点 - 每周国务院常务会议决策要点汇总",
+      "国新办发布会 - 国务院新闻办公室发布会实录与问答",
+      "政府工作报告 - 历年国务院政府工作报告及配套统计数据"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "us-nyse",
+  "name": {
+    "en": "New York Stock Exchange (NYSE)",
+    "zh": "纽约证券交易所"
+  },
+  "description": {
+    "en": "The New York Stock Exchange (NYSE), a subsidiary of Intercontinental Exchange (ICE), is the largest equity exchange in the world by listed market capitalization. Its official website publishes authoritative reference and market data for all NYSE-listed securities, including daily closing prices, corporate actions, dividend announcements, listed issuers, IPO calendars, delistings, auction imbalances, short interest, and regulatory filings. NYSE Group publishes NYSE, NYSE American, NYSE Arca, NYSE Chicago, and NYSE National venue statistics. The exchange is the primary market for the Dow Jones Industrial Average constituents and most large-cap U.S. listings, making NYSE data the reference source for U.S. main board equities research.",
+    "zh": "纽约证券交易所（NYSE）是洲际交易所（ICE）旗下子公司，是全球按上市公司市值计算最大的股票交易所。其官方网站发布NYSE上市证券的权威参考与市场数据，涵盖每日收盘价、公司行动、股息公告、上市公司名录、IPO日历、退市、收盘集合竞价失衡、做空持仓与监管披露。NYSE集团同时发布NYSE、NYSE American、NYSE Arca、NYSE Chicago和NYSE National多个交易场所的统计数据。作为道琼斯工业平均指数成分股及大多数美国大盘股的主要上市地，NYSE数据是美国主板股票研究的权威参考来源。"
+  },
+  "website": "https://www.nyse.com",
+  "data_url": "https://www.nyse.com/market-data",
+  "api_url": null,
+  "authority_level": "market",
+  "country": "US",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "capital-markets",
+    "equities"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "nyse",
+    "纽约证券交易所",
+    "new-york-stock-exchange",
+    "us-equities",
+    "美股",
+    "main-board",
+    "主板",
+    "ipo",
+    "dow-jones",
+    "道琼斯",
+    "listed-companies",
+    "上市公司",
+    "closing-prices",
+    "收盘价",
+    "corporate-actions",
+    "公司行动",
+    "short-interest",
+    "做空持仓"
+  ],
+  "data_content": {
+    "en": [
+      "Daily market data - opening, closing, high, low prices and volumes for all NYSE-listed securities",
+      "Listed issuers directory - complete list of companies listed on NYSE, NYSE American, NYSE Arca with ticker, CIK and listing date",
+      "IPO calendar - upcoming and recent initial public offerings with pricing and timing",
+      "Corporate actions - dividend declarations, stock splits, mergers, spin-offs, name changes",
+      "Delistings and suspensions - historical delisting records with reasons",
+      "Closing auction imbalances - end-of-day auction imbalance data for price discovery",
+      "Short interest - semimonthly short interest positions for each NYSE-listed security",
+      "Market statistics - daily NYSE composite index, advance/decline ratios, trading volumes"
+    ],
+    "zh": [
+      "每日行情数据 - NYSE上市证券的开盘、收盘、最高、最低价及成交量",
+      "上市公司名录 - NYSE、NYSE American、NYSE Arca全部上市公司列表，含代码、CIK与上市日期",
+      "IPO日历 - 即将与近期的首次公开发行，含定价与时间",
+      "公司行动 - 股息公告、拆股、并购、分拆、更名事件",
+      "退市与停牌 - 历史退市记录及原因",
+      "收盘集合竞价失衡 - 尾盘集合竞价失衡数据用于价格发现",
+      "做空持仓 - NYSE上市证券的半月度做空持仓申报",
+      "市场统计 - 每日NYSE综合指数、涨跌家数比、成交量"
+    ]
+  }
+}
