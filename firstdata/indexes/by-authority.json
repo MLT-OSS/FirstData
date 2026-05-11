@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T03:17:45.364264+00:00",
-    "total_sources": 753,
+    "generated_at": "2026-05-11T03:32:01.872037+00:00",
+    "total_sources": 758,
     "authority_counts": {
-      "research": 145,
+      "research": 146,
       "international": 79,
-      "government": 372,
-      "other": 74,
+      "government": 374,
+      "other": 76,
       "market": 47,
       "commercial": 36
     },
@@ -409,6 +409,18 @@
         "data_url": "https://www.cams.cn",
         "has_api": false,
         "file_path": "china/health/china-cams.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-chictr",
+        "name": {
+          "en": "Chinese Clinical Trial Registry (ChiCTR)",
+          "zh": "中国临床试验注册中心"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.chictr.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-chictr.json",
         "geographic_scope": "national"
       },
       {
@@ -3711,6 +3723,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cisce",
+        "name": {
+          "en": "China International Supply Chain Expo (CISCE)",
+          "zh": "中国国际供应链促进博览会"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cisce.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/trade/china-cisce.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-gacc",
         "name": {
           "en": "General Administration of Customs of China",
@@ -3977,6 +4001,18 @@
         "data_url": "https://www.nafmii.org.cn/",
         "has_api": false,
         "file_path": "china/finance/capital-markets/china-nafmii.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cips",
+        "name": {
+          "en": "Cross-Border Interbank Payment System (CIPS)",
+          "zh": "人民币跨境支付系统"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cips.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-cips.json",
         "geographic_scope": "national"
       },
       {
@@ -7587,6 +7623,30 @@
         "data_url": "http://www.cfpa.cn",
         "has_api": false,
         "file_path": "china/governance/china-cfpa.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cwdf",
+        "name": {
+          "en": "China Women's Development Foundation (CWDF)",
+          "zh": "中国妇女发展基金会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cwdf.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cwdf.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cydf",
+        "name": {
+          "en": "China Youth Development Foundation (CYDF)",
+          "zh": "中国青少年发展基金会"
+        },
+        "authority_level": "other",
+        "data_url": "http://www.cydf.org.cn",
+        "has_api": false,
+        "file_path": "china/governance/china-cydf.json",
         "geographic_scope": "national"
       },
       {

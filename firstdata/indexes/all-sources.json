@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T03:17:45.364264+00:00",
-    "total_sources": 753,
+    "generated_at": "2026-05-11T03:32:01.872037+00:00",
+    "total_sources": 758,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -10467,6 +10467,80 @@
       "file_path": "china/economy/trade/china-chinca.json"
     },
     {
+      "id": "china-cisce",
+      "name": {
+        "en": "China International Supply Chain Expo (CISCE)",
+        "zh": "中国国际供应链促进博览会"
+      },
+      "description": {
+        "en": "The China International Supply Chain Expo (CISCE, commonly known as 链博会) is the world's first state-level supply-chain-themed national expo, hosted annually in Beijing by the China Council for the Promotion of International Trade (CCPIT). First launched in 2023, CISCE is organized around five major supply chain thematic areas (smart vehicles, green agriculture, clean energy, digital technology, and healthy life) plus a supply chain services exhibition. The expo brings together leading global multinationals and Chinese enterprises across upstream, midstream, and downstream segments of industrial supply chains to foster cross-border cooperation, transparent supply networks, and industry best practices. CISCE publishes exhibitor directories, participant statistics, trade deal announcements, supply chain cooperation reports, industry white papers, and thematic analyses. The platform serves as an authoritative source for studying China's supply chain strategy, global industrial chain restructuring, international trade promotion, and cross-border industrial cooperation, with data used by policy researchers, industry analysts, and international investors.",
+        "zh": "中国国际供应链促进博览会（CISCE，俗称链博会）是全球首个以供应链为主题的国家级博览会，由中国国际贸易促进委员会（CCPIT）主办，在北京年度举行。博览会始于2023年，围绕智能汽车、绿色农业、清洁能源、数字科技和健康生活五大供应链主题链及供应链服务专题展进行组织，汇聚全球顶尖跨国公司和中国企业的上中下游环节，促进跨境合作、供应链透明化和行业最佳实践。链博会发布参展商目录、参会统计、贸易签约公告、供应链合作报告、行业白皮书和专题分析等内容。该平台是研究中国供应链战略、全球产业链重构、国际贸易促进和跨境产业合作的权威参考，数据被政策研究者、行业分析师和国际投资人广泛使用。"
+      },
+      "website": "https://www.cisce.org.cn",
+      "data_url": "https://www.cisce.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "trade",
+        "industry",
+        "supply-chain"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "cisce",
+        "链博会",
+        "supply-chain",
+        "供应链",
+        "国际供应链",
+        "international-supply-chain",
+        "ccpit",
+        "中国贸促会",
+        "exhibition",
+        "博览会",
+        "global-industrial-chain",
+        "全球产业链",
+        "智能汽车",
+        "smart-vehicles",
+        "绿色农业",
+        "green-agriculture",
+        "清洁能源",
+        "clean-energy",
+        "数字科技",
+        "digital-technology",
+        "健康生活",
+        "healthy-life",
+        "cross-border-cooperation",
+        "跨境合作",
+        "trade-promotion"
+      ],
+      "data_content": {
+        "en": [
+          "Exhibitor directory: participating multinational companies, Chinese enterprises, industry associations, and research institutions by thematic chain and country",
+          "Expo statistics: number of exhibitors, visitors, signed deals, cooperation agreements, and thematic area participation by edition",
+          "Supply chain thematic reports: in-depth analyses for smart vehicles, green agriculture, clean energy, digital technology, and healthy life supply chains",
+          "Industry cooperation outcomes: announced deals, investment agreements, strategic partnerships, and signed memoranda",
+          "White papers and research publications: Global Supply Chain Promotion Report, industrial chain development analyses, and sector-specific studies",
+          "Forum and conference proceedings: keynote speeches, panel discussions, and policy dialogue materials from CISCE-hosted forums",
+          "Supplier and buyer matching data: cross-border business matching activities, procurement events, and trade negotiation outcomes",
+          "Policy releases and announcements: CCPIT policy updates, exhibition services, and supply chain cooperation initiatives"
+        ],
+        "zh": [
+          "参展商目录：按主题链和国别划分的跨国公司、中国企业、行业协会、研究机构参展信息",
+          "博览会统计：各届博览会参展商数量、参观人数、签约项目、合作协议、各主题链参与情况",
+          "供应链主题报告：智能汽车、绿色农业、清洁能源、数字科技、健康生活五大供应链深度分析",
+          "行业合作成果：签约项目、投资协议、战略合作、签约备忘录",
+          "白皮书和研究出版物：《全球供应链促进报告》、产业链发展分析、分行业专项研究",
+          "论坛会议资料：链博会主办的论坛主旨演讲、圆桌讨论、政策对话材料",
+          "供采对接数据：跨境供需对接活动、采购活动、贸易洽谈成果",
+          "政策发布与公告：贸促会政策更新、展会服务、供应链合作倡议"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/trade/china-cisce.json"
+    },
+    {
       "id": "china-gacc",
       "name": {
         "en": "General Administration of Customs of China",
@@ -13135,6 +13209,73 @@
       "file_path": "china/finance/china-cicpa.json"
     },
     {
+      "id": "china-cips",
+      "name": {
+        "en": "Cross-Border Interbank Payment System (CIPS)",
+        "zh": "人民币跨境支付系统"
+      },
+      "description": {
+        "en": "The Cross-Border Interbank Payment System (CIPS) is China's official renminbi (RMB) cross-border payment infrastructure, operated by CIPS Co., Ltd., a company supervised by the People's Bank of China (PBOC). Launched in 2015, CIPS provides clearing and settlement services for RMB cross-border payments and trade transactions, serving as the primary backbone for global RMB internationalization. CIPS publishes statistics on participant banks, transaction volumes, daily clearing amounts, geographic coverage, and operational announcements. The platform supports both direct and indirect participants across more than 100 countries and regions, processing trillions of RMB in annual settlement value. Its data provide authoritative reference for studying RMB internationalization, cross-border trade finance, and the evolution of China's payment infrastructure.",
+        "zh": "人民币跨境支付系统（CIPS）是中国官方的人民币跨境支付基础设施，由跨境银行间支付清算有限责任公司运营，受中国人民银行监管。CIPS于2015年启动，为人民币跨境支付和贸易交易提供清算与结算服务，是人民币国际化的核心基础设施。系统发布参与者银行、交易量、日清算金额、覆盖地区和运行公告等统计数据。CIPS支持分布在100多个国家和地区的直接与间接参与者，每年处理数十万亿元人民币的结算金额。其数据为研究人民币国际化、跨境贸易金融以及中国支付基础设施发展提供权威参考。"
+      },
+      "website": "https://www.cips.com.cn",
+      "data_url": "https://www.cips.com.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "payments",
+        "international-trade"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "cips",
+        "人民币跨境支付",
+        "cross-border-payment",
+        "rmb-internationalization",
+        "人民币国际化",
+        "清算结算",
+        "clearing-settlement",
+        "支付系统",
+        "payment-system",
+        "跨境支付",
+        "金融基础设施",
+        "financial-infrastructure",
+        "参与者银行",
+        "participant-banks",
+        "人民币",
+        "rmb",
+        "央行",
+        "pboc",
+        "跨境贸易",
+        "cross-border-trade"
+      ],
+      "data_content": {
+        "en": [
+          "CIPS participant statistics: direct participants, indirect participants, country and regional distribution",
+          "Daily and monthly transaction statistics: clearing volume, settlement value, number of transactions by business type",
+          "Operational announcements: system operating hours, holiday schedules, service updates",
+          "RMB cross-border payment data: trade finance, direct investment, bond connect settlement statistics",
+          "Product and service documentation: CIPS direct participant service guides, technical specifications, and business rules",
+          "Rankings and league tables: top participants by transaction volume, regional rankings",
+          "Regulatory and policy releases: PBOC cross-border RMB policies, CIPS service announcements"
+        ],
+        "zh": [
+          "CIPS参与者统计：直接参与者、间接参与者、国家和地区分布",
+          "日度和月度交易统计：按业务类型分类的清算量、结算金额和交易笔数",
+          "运行公告：系统运行时间、节假日安排、服务更新",
+          "人民币跨境支付数据：贸易融资、直接投资、债券通结算统计",
+          "产品和服务文档：CIPS直接参与者服务指南、技术规范及业务规则",
+          "排名榜单：按交易量排名的头部参与者和地区排名",
+          "监管政策发布：央行跨境人民币政策、CIPS服务公告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-cips.json"
+    },
+    {
       "id": "china-csi-index",
       "name": {
         "en": "China Securities Index Co., Ltd.",
@@ -15651,6 +15792,152 @@
       "file_path": "china/governance/china-cqc.json"
     },
     {
+      "id": "china-cwdf",
+      "name": {
+        "en": "China Women's Development Foundation (CWDF)",
+        "zh": "中国妇女发展基金会"
+      },
+      "description": {
+        "en": "The China Women's Development Foundation (CWDF) is a major national public fundraising foundation established in 1988 and supervised by the All-China Women's Federation (ACWF), dedicated to promoting women's development, gender equality, and the wellbeing of Chinese women and families. CWDF operates nationally recognized philanthropic programs including Mother Water Cellars (母亲水窖) providing safe drinking water in arid regions, Mother Health Express (母亲健康快车) offering mobile medical services, @SHE Empowerment, Spring Rain Plan (春蕾计划 partnership), and various entrepreneurship training, maternal health, and anti-poverty initiatives. As a major grassroots women-focused philanthropic authority, CWDF publishes project statistics, beneficiary data, fundraising reports, impact evaluations, and annual reports that serve as authoritative references for gender development research, philanthropy studies, rural development, and women's health analysis in China. It holds charitable fundraising qualifications and is rated among China's top foundations for transparency and governance.",
+        "zh": "中国妇女发展基金会（CWDF）是1988年成立、由全国妇联主管的全国性公募基金会，致力于促进妇女发展、性别平等以及中国妇女和家庭福祉。中国妇基会运营一系列全国知名公益项目，包括为干旱地区提供安全饮水的母亲水窖、提供流动医疗服务的母亲健康快车、女性赋权项目@SHE、合作的春蕾计划以及各类创业培训、母婴健康、反贫困项目。作为我国重要的妇女基层公益权威，中国妇基会发布项目统计、受益人数据、筹款报告、影响力评估和年度报告等内容，是研究中国性别发展、公益慈善、乡村振兴和妇女健康的权威参考。基金会具备公开募捐资格，在透明度和治理方面位列中国基金会前列。"
+      },
+      "website": "http://www.cwdf.org.cn",
+      "data_url": "http://www.cwdf.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "social",
+        "philanthropy",
+        "gender",
+        "health"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "cwdf",
+        "中国妇女发展基金会",
+        "women-development",
+        "妇女发展",
+        "gender-equality",
+        "性别平等",
+        "公益慈善",
+        "philanthropy",
+        "母亲水窖",
+        "mother-water-cellar",
+        "母亲健康快车",
+        "mother-health-express",
+        "春蕾计划",
+        "spring-rain-plan",
+        "全国妇联",
+        "acwf",
+        "公募基金会",
+        "public-foundation",
+        "乡村振兴",
+        "rural-revitalization",
+        "妇女健康",
+        "women-health",
+        "创业培训",
+        "entrepreneurship"
+      ],
+      "data_content": {
+        "en": [
+          "Project statistics: number of beneficiaries, geographic coverage, and program-specific outputs for Mother Water Cellars, Mother Health Express, and other flagship initiatives",
+          "Annual fundraising and financial reports: donation income, expenditure breakdowns, and independent audit results",
+          "Program impact assessments: evaluations on safe water access, maternal health improvements, girl education outcomes, and women entrepreneurship",
+          "Grant and project catalogs: funded projects by region and theme, partner organizations, and project implementation progress",
+          "Donor and transparency disclosures: donor lists, project expenditure details, and beneficiary stories",
+          "Annual reports and working plans: strategic priorities, performance summaries, and governance disclosures",
+          "Policy advocacy and research outputs: gender development reports, women's rights studies, and family wellbeing research"
+        ],
+        "zh": [
+          "项目统计：母亲水窖、母亲健康快车等旗舰项目的受益人数、地理覆盖及具体产出",
+          "年度筹款和财务报告：捐赠收入、支出明细及独立审计结果",
+          "项目影响评估：对安全饮水获取、母婴健康改善、女童教育成效、女性创业效果的评估",
+          "资助项目目录：按地区和主题划分的资助项目、合作伙伴、项目执行进度",
+          "捐赠人和透明度披露：捐赠人名单、项目支出明细、受益人故事",
+          "年度报告和工作计划：战略重点、业绩总结、治理披露",
+          "政策倡导和研究成果：性别发展报告、妇女权益研究、家庭福祉研究"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cwdf.json"
+    },
+    {
+      "id": "china-cydf",
+      "name": {
+        "en": "China Youth Development Foundation (CYDF)",
+        "zh": "中国青少年发展基金会"
+      },
+      "description": {
+        "en": "The China Youth Development Foundation (CYDF) is a major national public fundraising foundation established in 1989 and supervised by the Communist Youth League Central Committee of China. CYDF launched and operates Project Hope (希望工程), one of China's most influential philanthropic initiatives dedicated to improving educational opportunities for children in underdeveloped areas by building Hope Primary Schools, funding student stipends, supporting Hope Rural Teachers, and developing rural education infrastructure. In addition to Project Hope, CYDF operates youth development, vocational training, rural revitalization, and disaster relief programs across China. As a leading youth philanthropy authority, CYDF publishes project data, beneficiary statistics, Hope Schools records, fundraising reports, and annual evaluation studies. Its data and reports are authoritative references for studying youth development, rural education, philanthropy and charitable giving, and nonprofit transparency in China. CYDF holds national public fundraising qualifications and operates through a network of provincial youth development foundations across the country.",
+        "zh": "中国青少年发展基金会（CYDF）是1989年成立、由共青团中央主管的全国性公募基金会。中国青基会发起并运营中国最具影响力的公益项目之一——希望工程，致力于通过建设希望小学、资助学生助学金、支持希望乡村教师、发展农村教育基础设施来改善欠发达地区儿童的教育机会。除希望工程外，青基会还在全国开展青少年发展、职业培训、乡村振兴和救灾等项目。作为中国青少年公益领域权威机构，基金会发布项目数据、受益人统计、希望小学档案、筹款报告和年度评估研究等内容。其数据和报告是研究中国青少年发展、乡村教育、公益慈善和非营利透明度的权威参考。中国青基会具备全国公开募捐资质，并通过各省青少年发展基金会网络在全国范围内开展工作。"
+      },
+      "website": "http://www.cydf.org.cn",
+      "data_url": "http://www.cydf.org.cn",
+      "api_url": null,
+      "authority_level": "other",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "education",
+        "social",
+        "philanthropy",
+        "youth"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "cydf",
+        "中国青少年发展基金会",
+        "youth-development",
+        "青少年发展",
+        "希望工程",
+        "project-hope",
+        "希望小学",
+        "hope-primary-school",
+        "公益慈善",
+        "philanthropy",
+        "共青团",
+        "communist-youth-league",
+        "乡村教育",
+        "rural-education",
+        "助学金",
+        "student-stipend",
+        "公募基金会",
+        "public-foundation",
+        "乡村振兴",
+        "rural-revitalization",
+        "教育公益",
+        "education-philanthropy",
+        "希望乡村教师",
+        "hope-rural-teachers"
+      ],
+      "data_content": {
+        "en": [
+          "Project Hope statistics: number of Hope Schools built by province and year, student beneficiaries, and cumulative fundraising totals",
+          "Annual fundraising and expenditure reports: donation income, grant disbursements, and independent audit results",
+          "Education program data: student stipend beneficiaries, Hope Rural Teachers program participants, and rural educational infrastructure projects",
+          "Project impact and evaluation studies: educational outcomes, beneficiary tracking, and long-term impact assessments of Project Hope",
+          "Donor disclosure and transparency: major donors, corporate giving partnerships, and fund utilization reports",
+          "Youth development program data: vocational training, entrepreneurship support, and youth empowerment initiatives",
+          "Disaster relief and special fundraising campaigns: emergency response data and post-disaster rebuilding projects",
+          "Annual reports and governance disclosures: strategic plans, governance structure, and internal control reports"
+        ],
+        "zh": [
+          "希望工程统计：分省份和年份建设的希望小学数量、学生受益人数、累计筹款总额",
+          "年度筹款和支出报告：捐赠收入、资助拨付、独立审计结果",
+          "教育项目数据：助学金受益人、希望乡村教师项目参与者、乡村教育基础设施项目",
+          "项目影响和评估研究：希望工程的教育成效、受益人追踪、长期影响评估",
+          "捐赠人披露和透明度：主要捐赠人、企业捐赠合作、资金使用报告",
+          "青少年发展项目数据：职业培训、创业支持、青年赋权项目",
+          "救灾和专项筹款活动：应急响应数据、灾后重建项目",
+          "年度报告和治理披露：战略规划、治理结构、内控报告"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/governance/china-cydf.json"
+    },
+    {
       "id": "china-foundation-center",
       "name": {
         "en": "China Foundation Center",
@@ -18023,6 +18310,76 @@
       "authority_level": "government",
       "has_api": false,
       "file_path": "china/health/china-cdc.json"
+    },
+    {
+      "id": "china-chictr",
+      "name": {
+        "en": "Chinese Clinical Trial Registry (ChiCTR)",
+        "zh": "中国临床试验注册中心"
+      },
+      "description": {
+        "en": "The Chinese Clinical Trial Registry (ChiCTR) is China's national clinical trial registry platform, hosted by the Chinese Evidence-Based Medicine Centre at West China Hospital of Sichuan University. ChiCTR is a Primary Registry of the World Health Organization International Clinical Trials Registry Platform (WHO ICTRP), which makes it one of the primary authoritative sources for clinical trial information worldwide. The platform covers registration for all types of clinical research conducted in China, including pharmaceutical trials, medical device trials, traditional Chinese medicine studies, acupuncture research, surgical interventions, diagnostic studies, observational research, and basic clinical research. Trial records are made publicly available in both Chinese and English, supporting transparency, scientific integrity, and evidence-based medical decision-making. ChiCTR data is widely used by researchers, regulators, clinicians, and industry to track ongoing and completed trials, identify research gaps, and inform systematic reviews and meta-analyses.",
+        "zh": "中国临床试验注册中心（ChiCTR）是中国国家级临床试验登记平台，由四川大学华西医院中国循证医学中心运营。ChiCTR是世界卫生组织国际临床试验注册平台（WHO ICTRP）的一级注册机构，是全球权威的临床试验信息来源之一。平台涵盖在中国开展的所有类型临床研究登记，包括药物试验、医疗器械试验、中医药研究、针灸研究、手术干预、诊断研究、观察性研究和基础临床研究。试验记录以中英文双语公开，支持研究透明度、科学诚信和循证医疗决策。ChiCTR数据被研究人员、监管机构、临床医生和行业广泛用于跟踪进行中和已完成的试验、识别研究空白、指导系统评价和meta分析。"
+      },
+      "website": "http://www.chictr.org.cn",
+      "data_url": "http://www.chictr.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "clinical-research",
+        "pharmaceuticals"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "chictr",
+        "中国临床试验注册中心",
+        "clinical-trials",
+        "临床试验",
+        "who-ictrp",
+        "世卫组织",
+        "trial-registration",
+        "试验注册",
+        "循证医学",
+        "evidence-based-medicine",
+        "华西医院",
+        "west-china-hospital",
+        "中医药临床研究",
+        "tcm-clinical-research",
+        "医疗器械试验",
+        "medical-device-trials",
+        "药物临床试验",
+        "drug-trials",
+        "观察性研究",
+        "observational-study",
+        "clinical-research-registry"
+      ],
+      "data_content": {
+        "en": [
+          "Clinical trial registration records: trial ID, public title, scientific title, primary sponsor, responsible party, and registration date",
+          "Study design details: intervention type, study phase, allocation, blinding, target sample size, inclusion and exclusion criteria",
+          "Trial status: recruitment status, enrollment progress, start and end dates, and current trial location",
+          "Intervention information: drugs, devices, procedures, traditional Chinese medicine therapies, acupuncture protocols, and control arms",
+          "Outcome measures: primary and secondary endpoints, measurement time points, and analysis methods",
+          "Researcher and institution data: principal investigator, institutional review board approval, funding sources, and collaborating sites",
+          "Results data: published results summaries, linked publications, and trial completion reports when available",
+          "WHO-ICTRP compliant dataset: bilingual Chinese-English records meeting international trial registration standards"
+        ],
+        "zh": [
+          "临床试验注册记录：试验编号、公开题目、科学题目、申办者、责任人及注册日期",
+          "研究设计详情：干预类型、试验分期、随机分组、盲法、目标样本量、入选与排除标准",
+          "试验状态：招募状态、入组进展、开始和结束日期、当前试验地点",
+          "干预信息：药物、器械、操作程序、中医药疗法、针灸方案及对照组",
+          "结局指标：主要和次要终点、测量时间点和分析方法",
+          "研究者和机构数据：主要研究者、伦理审查委员会批件、资助来源和合作机构",
+          "结果数据：已发表的结果摘要、关联出版物和试验完成报告（当可用时）",
+          "符合WHO-ICTRP标准的数据集：满足国际试验注册标准的中英双语记录"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-chictr.json"
     },
     {
       "id": "china-chinadrugtrials",
