@@ -1,0 +1,68 @@
+{
+  "id": "china-chictr",
+  "name": {
+    "en": "Chinese Clinical Trial Registry (ChiCTR)",
+    "zh": "中国临床试验注册中心"
+  },
+  "description": {
+    "en": "The Chinese Clinical Trial Registry (ChiCTR) is China's national clinical trial registry platform, hosted by the Chinese Evidence-Based Medicine Centre at West China Hospital of Sichuan University. ChiCTR is a Primary Registry of the World Health Organization International Clinical Trials Registry Platform (WHO ICTRP), which makes it one of the primary authoritative sources for clinical trial information worldwide. The platform covers registration for all types of clinical research conducted in China, including pharmaceutical trials, medical device trials, traditional Chinese medicine studies, acupuncture research, surgical interventions, diagnostic studies, observational research, and basic clinical research. Trial records are made publicly available in both Chinese and English, supporting transparency, scientific integrity, and evidence-based medical decision-making. ChiCTR data is widely used by researchers, regulators, clinicians, and industry to track ongoing and completed trials, identify research gaps, and inform systematic reviews and meta-analyses.",
+    "zh": "中国临床试验注册中心（ChiCTR）是中国国家级临床试验登记平台，由四川大学华西医院中国循证医学中心运营。ChiCTR是世界卫生组织国际临床试验注册平台（WHO ICTRP）的一级注册机构，是全球权威的临床试验信息来源之一。平台涵盖在中国开展的所有类型临床研究登记，包括药物试验、医疗器械试验、中医药研究、针灸研究、手术干预、诊断研究、观察性研究和基础临床研究。试验记录以中英文双语公开，支持研究透明度、科学诚信和循证医疗决策。ChiCTR数据被研究人员、监管机构、临床医生和行业广泛用于跟踪进行中和已完成的试验、识别研究空白、指导系统评价和meta分析。"
+  },
+  "website": "http://www.chictr.org.cn",
+  "data_url": "http://www.chictr.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "clinical-research",
+    "pharmaceuticals"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "chictr",
+    "中国临床试验注册中心",
+    "clinical-trials",
+    "临床试验",
+    "who-ictrp",
+    "世卫组织",
+    "trial-registration",
+    "试验注册",
+    "循证医学",
+    "evidence-based-medicine",
+    "华西医院",
+    "west-china-hospital",
+    "中医药临床研究",
+    "tcm-clinical-research",
+    "医疗器械试验",
+    "medical-device-trials",
+    "药物临床试验",
+    "drug-trials",
+    "观察性研究",
+    "observational-study",
+    "clinical-research-registry"
+  ],
+  "data_content": {
+    "en": [
+      "Clinical trial registration records: trial ID, public title, scientific title, primary sponsor, responsible party, and registration date",
+      "Study design details: intervention type, study phase, allocation, blinding, target sample size, inclusion and exclusion criteria",
+      "Trial status: recruitment status, enrollment progress, start and end dates, and current trial location",
+      "Intervention information: drugs, devices, procedures, traditional Chinese medicine therapies, acupuncture protocols, and control arms",
+      "Outcome measures: primary and secondary endpoints, measurement time points, and analysis methods",
+      "Researcher and institution data: principal investigator, institutional review board approval, funding sources, and collaborating sites",
+      "Results data: published results summaries, linked publications, and trial completion reports when available",
+      "WHO-ICTRP compliant dataset: bilingual Chinese-English records meeting international trial registration standards"
+    ],
+    "zh": [
+      "临床试验注册记录：试验编号、公开题目、科学题目、申办者、责任人及注册日期",
+      "研究设计详情：干预类型、试验分期、随机分组、盲法、目标样本量、入选与排除标准",
+      "试验状态：招募状态、入组进展、开始和结束日期、当前试验地点",
+      "干预信息：药物、器械、操作程序、中医药疗法、针灸方案及对照组",
+      "结局指标：主要和次要终点、测量时间点和分析方法",
+      "研究者和机构数据：主要研究者、伦理审查委员会批件、资助来源和合作机构",
+      "结果数据：已发表的结果摘要、关联出版物和试验完成报告（当可用时）",
+      "符合WHO-ICTRP标准的数据集：满足国际试验注册标准的中英双语记录"
+    ]
+  }
+}

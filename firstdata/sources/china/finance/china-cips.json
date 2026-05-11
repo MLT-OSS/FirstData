@@ -1,0 +1,65 @@
+{
+  "id": "china-cips",
+  "name": {
+    "en": "Cross-Border Interbank Payment System (CIPS)",
+    "zh": "人民币跨境支付系统"
+  },
+  "description": {
+    "en": "The Cross-Border Interbank Payment System (CIPS) is China's official renminbi (RMB) cross-border payment infrastructure, operated by CIPS Co., Ltd., a company supervised by the People's Bank of China (PBOC). Launched in 2015, CIPS provides clearing and settlement services for RMB cross-border payments and trade transactions, serving as the primary backbone for global RMB internationalization. CIPS publishes statistics on participant banks, transaction volumes, daily clearing amounts, geographic coverage, and operational announcements. The platform supports both direct and indirect participants across more than 100 countries and regions, processing trillions of RMB in annual settlement value. Its data provide authoritative reference for studying RMB internationalization, cross-border trade finance, and the evolution of China's payment infrastructure.",
+    "zh": "人民币跨境支付系统（CIPS）是中国官方的人民币跨境支付基础设施，由跨境银行间支付清算有限责任公司运营，受中国人民银行监管。CIPS于2015年启动，为人民币跨境支付和贸易交易提供清算与结算服务，是人民币国际化的核心基础设施。系统发布参与者银行、交易量、日清算金额、覆盖地区和运行公告等统计数据。CIPS支持分布在100多个国家和地区的直接与间接参与者，每年处理数十万亿元人民币的结算金额。其数据为研究人民币国际化、跨境贸易金融以及中国支付基础设施发展提供权威参考。"
+  },
+  "website": "https://www.cips.com.cn",
+  "data_url": "https://www.cips.com.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "payments",
+    "international-trade"
+  ],
+  "update_frequency": "monthly",
+  "tags": [
+    "cips",
+    "人民币跨境支付",
+    "cross-border-payment",
+    "rmb-internationalization",
+    "人民币国际化",
+    "清算结算",
+    "clearing-settlement",
+    "支付系统",
+    "payment-system",
+    "跨境支付",
+    "金融基础设施",
+    "financial-infrastructure",
+    "参与者银行",
+    "participant-banks",
+    "人民币",
+    "rmb",
+    "央行",
+    "pboc",
+    "跨境贸易",
+    "cross-border-trade"
+  ],
+  "data_content": {
+    "en": [
+      "CIPS participant statistics: direct participants, indirect participants, country and regional distribution",
+      "Daily and monthly transaction statistics: clearing volume, settlement value, number of transactions by business type",
+      "Operational announcements: system operating hours, holiday schedules, service updates",
+      "RMB cross-border payment data: trade finance, direct investment, bond connect settlement statistics",
+      "Product and service documentation: CIPS direct participant service guides, technical specifications, and business rules",
+      "Rankings and league tables: top participants by transaction volume, regional rankings",
+      "Regulatory and policy releases: PBOC cross-border RMB policies, CIPS service announcements"
+    ],
+    "zh": [
+      "CIPS参与者统计：直接参与者、间接参与者、国家和地区分布",
+      "日度和月度交易统计：按业务类型分类的清算量、结算金额和交易笔数",
+      "运行公告：系统运行时间、节假日安排、服务更新",
+      "人民币跨境支付数据：贸易融资、直接投资、债券通结算统计",
+      "产品和服务文档：CIPS直接参与者服务指南、技术规范及业务规则",
+      "排名榜单：按交易量排名的头部参与者和地区排名",
+      "监管政策发布：央行跨境人民币政策、CIPS服务公告"
+    ]
+  }
+}
