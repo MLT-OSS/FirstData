@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**FirstData** is a structured knowledge base of global authoritative open data sources. It is a **pure data repository** — no application code, no runtime logic.
+**FirstData** is the External Facts Context Layer for AI Agents — a structured, authoritative collection of global open data sources. It is a **pure data repository** — no application code, no runtime logic.
 
 Your job here is to **create or edit JSON metadata files** that describe real-world data sources (government databases, international organizations, academic datasets, etc.).
 

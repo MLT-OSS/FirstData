@@ -17,7 +17,7 @@ metadata:
 
 ## What FirstData Is
 
-FirstData is a structured knowledge base of authoritative primary data sources, covering 1000+ sources to help agents locate official origins rather than generating unverified answers.
+FirstData is the External Facts Context Layer for AI Agents — a purpose-built, authoritative collection of primary data sources, covering 1000+ sources to help agents locate official origins rather than generating unverified answers.
 
 It does not replace raw data — it acts as an "authoritative data navigator", taking vague user needs as input, recommending the most appropriate primary sources, and providing clear access paths, API information, and download methods so both users and agents can trace back to original evidence.
 
@@ -176,7 +176,7 @@ When adding or modifying MCP tool descriptions, follow these principles (based o
 
 ## Community
 
-FirstData is an open-source project — join us in building the authoritative data source knowledge base for agents:
+FirstData is an open-source project — join us in building the External Facts Context Layer for AI Agents:
 
 - ⭐ [**Star**](https://github.com/MLT-OSS/FirstData) the project to help more agents and developers discover it
 - 📝 [**Issue**](https://github.com/MLT-OSS/FirstData/issues) to report problems, suggest new data sources, or propose improvements
