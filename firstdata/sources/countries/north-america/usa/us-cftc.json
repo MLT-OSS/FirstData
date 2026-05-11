@@ -1,0 +1,66 @@
+{
+  "id": "us-cftc",
+  "name": {
+    "en": "U.S. Commodity Futures Trading Commission (CFTC)",
+    "zh": "美国商品期货交易委员会"
+  },
+  "description": {
+    "en": "The U.S. Commodity Futures Trading Commission (CFTC) is the independent federal agency regulating U.S. derivatives markets, including futures, swaps, and certain options contracts. The CFTC publishes the weekly Commitments of Traders (COT) report — the primary open-source disclosure of aggregated trader positioning for every actively traded futures market on U.S. exchanges, broken down by commercial, non-commercial, and non-reportable categories. Additional authoritative datasets include the Traders in Financial Futures (TFF) report, the swaps dealer report, weekly bank participation data, disaggregated commodity index trader report, enforcement actions, registration data, and market surveillance statistics. The CFTC's data is the reference for tracking institutional positioning in commodities such as WTI crude oil, Brent-linked contracts, metals, agricultural commodities, and financial futures including S&P 500 and Treasuries.",
+    "zh": "美国商品期货交易委员会（CFTC）是监管美国衍生品市场的独立联邦机构，监管范围涵盖期货、互换及部分期权合约。CFTC发布的每周持仓报告（Commitments of Traders，COT）是美国各主要期货品种机构持仓的权威公开披露，按商业持仓、非商业持仓与非报告持仓分类。其他权威数据集包括金融期货交易员报告（TFF）、互换交易商报告、每周银行参与情况、分类商品指数交易员报告、执法行动、注册信息及市场监控统计。CFTC数据是追踪WTI原油、布伦特相关合约、金属、农产品及标普500、美债等金融期货机构持仓的权威来源。"
+  },
+  "website": "https://www.cftc.gov",
+  "data_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+  "api_url": "https://publicreporting.cftc.gov/resource/",
+  "authority_level": "government",
+  "country": "US",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "commodities",
+    "derivatives",
+    "regulatory"
+  ],
+  "update_frequency": "weekly",
+  "tags": [
+    "cftc",
+    "commitments-of-traders",
+    "cot-report",
+    "美国商品期货交易委员会",
+    "持仓报告",
+    "futures",
+    "期货",
+    "swaps",
+    "互换",
+    "commodities",
+    "大宗商品",
+    "wti-crude",
+    "brent",
+    "sp500-futures",
+    "treasury-futures",
+    "derivatives-regulation",
+    "衍生品监管",
+    "market-surveillance"
+  ],
+  "data_content": {
+    "en": [
+      "Commitments of Traders (COT) report - weekly positions of commercial, non-commercial, and non-reportable traders across all U.S. futures markets",
+      "Traders in Financial Futures (TFF) report - positions in financial futures broken down by dealer, asset manager, leveraged fund, and other reportable",
+      "Disaggregated COT report - commodity positions split by producer/merchant, swap dealer, managed money, and other reportable",
+      "Bank Participation in Futures and Options Markets - monthly report on commercial bank futures positioning",
+      "Swap Data Repository reports - aggregated swaps market activity and open interest",
+      "Enforcement actions - administrative orders, civil penalties, and settlements in derivatives markets",
+      "Registration data - registered futures commission merchants, introducing brokers, and commodity pool operators",
+      "Market surveillance statistics - volume, open interest, large trader reporting thresholds"
+    ],
+    "zh": [
+      "持仓报告（COT） - 美国期货市场每周商业持仓、非商业持仓及非报告持仓数据",
+      "金融期货交易员报告（TFF） - 金融期货按交易商、资产管理机构、杠杆基金等分类持仓",
+      "分类持仓报告 - 大宗商品按生产/贸易商、互换交易商、管理基金等分类持仓",
+      "银行期货期权参与报告 - 商业银行每月期货持仓情况",
+      "互换数据仓库报告 - 互换市场活动与未平仓头寸汇总",
+      "执法行动 - 衍生品市场的行政命令、罚款与和解案例",
+      "注册数据 - 注册期货交易商、介绍经纪商与商品池操作商信息",
+      "市场监控统计 - 成交量、未平仓合约、大户持仓申报阈值"
+    ]
+  }
+}

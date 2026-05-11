@@ -1,0 +1,75 @@
+{
+  "id": "imo",
+  "name": {
+    "en": "International Maritime Organization (IMO)",
+    "zh": "国际海事组织"
+  },
+  "description": {
+    "en": "The International Maritime Organization (IMO) is the United Nations specialized agency responsible for the safety, security, and environmental performance of international shipping. IMO develops and maintains the global regulatory framework for shipping, including the SOLAS (Safety of Life at Sea), MARPOL (marine pollution), STCW (seafarers training), IMSBC (bulk cargoes), and IGC/IBC (gas/chemical tankers) conventions. Its public data portal publishes the Global Integrated Shipping Information System (GISIS) — the authoritative database of IMO-numbered ships, ship particulars, casualty and incident records, port reception facilities, maritime security incidents, greenhouse gas emission reports, and flag state compliance data. GISIS is the reference for maritime researchers tracking ship movements, ownership chains, environmental compliance, and accident histories, and is widely used for sanctions compliance and ESG due diligence on the shipping sector.",
+    "zh": "国际海事组织（IMO）是联合国负责国际航运安全、保安和环境绩效的专门机构。IMO制定并维护全球航运监管框架，包括《国际海上人命安全公约》（SOLAS）、《防止船舶污染国际公约》（MARPOL）、《海员培训、发证和值班标准国际公约》（STCW）、《国际海运固体散装货物规则》（IMSBC）及《国际散装运输化学品/液化气船舶构造和设备规则》（IBC/IGC）。其公共数据门户发布全球综合航运信息系统（GISIS）——以IMO编号识别的船舶权威数据库，包含船舶详情、事故与事件记录、港口接收设施、海上安保事件、温室气体排放报告及船旗国合规数据。GISIS是航运研究人员追踪船舶动态、所有权链条、环境合规与事故历史的权威来源，广泛用于航运业的制裁合规与ESG尽职调查。"
+  },
+  "website": "https://www.imo.org",
+  "data_url": "https://gisis.imo.org/Public/Default.aspx",
+  "api_url": null,
+  "authority_level": "international",
+  "geographic_scope": "global",
+  "domains": [
+    "transportation",
+    "shipping",
+    "maritime",
+    "environment",
+    "regulatory"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "imo",
+    "国际海事组织",
+    "gisis",
+    "航运",
+    "maritime",
+    "shipping",
+    "solas",
+    "marpol",
+    "船舶污染",
+    "stcw",
+    "船员培训",
+    "imo-number",
+    "船舶编号",
+    "flag-state",
+    "船旗国",
+    "船舶事故",
+    "casualty",
+    "ghg-emissions",
+    "温室气体排放",
+    "sanctions-compliance",
+    "制裁合规",
+    "port-state-control",
+    "港口国监督"
+  ],
+  "data_content": {
+    "en": [
+      "GISIS Ships & Companies - IMO-numbered ships with particulars, registered owners, operators, and ISM managers",
+      "GISIS Casualties & Incidents - marine casualty and incident reports submitted by flag states",
+      "GISIS Maritime Security incidents - piracy, armed robbery, and security events at sea",
+      "GISIS Port Reception Facilities - availability of waste and residue reception at world ports",
+      "IMO Ship Fuel Oil Consumption Database - annual fuel consumption and CO2 emissions for ships ≥5,000 GT",
+      "IMO GHG Study data - global shipping greenhouse gas inventory and intensity",
+      "Flag State Performance reports - compliance statistics by flag administration",
+      "IMO convention status - ratification and contracting state lists for all IMO conventions",
+      "Seafarer certificate verification - STCW certificate issuance and verification statistics",
+      "Marine Environment Protection Committee (MEPC) and Maritime Safety Committee (MSC) meeting outputs"
+    ],
+    "zh": [
+      "GISIS船舶与公司 - 以IMO编号标识的船舶详情、登记所有人、经营人及ISM管理人",
+      "GISIS事故与事件 - 船旗国提交的海上事故与事件报告",
+      "GISIS海上保安事件 - 海盗、武装抢劫及海上保安事件",
+      "GISIS港口接收设施 - 全球港口废弃物与残余物接收能力",
+      "IMO船舶燃油消耗数据库 - 5000总吨及以上船舶年度燃油消耗及CO2排放",
+      "IMO温室气体研究数据 - 全球航运温室气体排放清单与强度",
+      "船旗国表现报告 - 按船旗国统计的合规数据",
+      "IMO公约状态 - 各项IMO公约的批准与缔约国列表",
+      "海员证书核验 - STCW证书签发与核验统计",
+      "海上环境保护委员会（MEPC）及海事安全委员会（MSC）会议成果"
+    ]
+  }
+}
