@@ -1,0 +1,73 @@
+{
+  "id": "china-wind",
+  "name": {
+    "en": "Wind Information (Wind 万得)",
+    "zh": "万得信息技术股份有限公司（Wind）"
+  },
+  "description": {
+    "en": "Wind Information Co., Ltd. (Wind 万得) is China's leading financial information services provider, operating the Wind Financial Terminal — the most widely used market data and financial analytics platform across Chinese mainland investment institutions, banks, brokerages, asset managers, regulators, and academic researchers. Wind is the de-facto data infrastructure for China's domestic capital markets, comparable to Bloomberg or Refinitiv globally. Its database covers all Chinese listed companies, A-share and H-share equities, the bond market, futures and options, foreign exchange, commodities, mutual funds, private funds, REITs, macroeconomic indicators, industry economic data, ESG metrics, and unlisted-company corporate intelligence. Wind also provides historical pricing, financial statements, analyst earnings forecasts, corporate actions, ownership data, and proprietary indices. Through its public-facing site Wind Information Network and its Wind Economic Database (WindEDB), Wind publishes summary financial market data, sample reports, and macro indicators that are referenced extensively in policy research, academic papers, and financial industry analyses, making it an essential data source for understanding the structure and dynamics of China's capital markets.",
+    "zh": "万得信息技术股份有限公司（Wind）是中国领先的金融信息服务提供商，其Wind金融终端是中国大陆投资机构、银行、券商、资产管理公司、监管机构和学术研究者使用最广泛的市场数据和金融分析平台，是中国境内资本市场的事实数据基础设施，地位类似全球的彭博（Bloomberg）和路孚特（Refinitiv）。Wind数据库覆盖全部中国上市公司、A股与H股股票、债券市场、期货与期权、外汇、大宗商品、公募基金、私募基金、公募REITs、宏观经济指标、行业经济数据、ESG指标，以及非上市公司商业情报。Wind还提供历史价格、财务报表、分析师盈利预测、公司行为、股东持仓数据及自有指数。通过其对外的万得信息网及万得宏观经济数据库（WindEDB），Wind发布金融市场综述数据、样本报告及宏观指标，被广泛引用于政策研究、学术论文及金融行业分析中，是理解中国资本市场结构和动态不可或缺的数据来源。"
+  },
+  "website": "https://www.wind.com.cn",
+  "data_url": "https://www.wind.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "markets",
+    "statistics"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "wind",
+    "万得",
+    "wind-information",
+    "financial-terminal",
+    "金融终端",
+    "market-data",
+    "市场数据",
+    "a-shares",
+    "a股",
+    "bond-market",
+    "债券市场",
+    "futures",
+    "期货",
+    "mutual-funds",
+    "公募基金",
+    "private-funds",
+    "私募基金",
+    "macro-indicators",
+    "宏观经济",
+    "windedb",
+    "万得数据库",
+    "esg-data",
+    "esg数据"
+  ],
+  "data_content": {
+    "en": [
+      "Equities database: real-time and historical pricing, full A-share, B-share, H-share and US-listed Chinese stocks; financial statements, ratios, dividends, and corporate actions",
+      "Bond market data: government bonds, policy bank bonds, financial bonds, corporate bonds, ABS, convertibles; yield curves, credit spreads, default events, and rating histories",
+      "Futures and options: commodity futures (SHFE, DCE, CZCE, INE), financial futures (CFFEX), and exchange-listed options with full tick-level data",
+      "Mutual funds and private funds: NAV histories, holdings, performance attribution, manager profiles, and fund flow analytics",
+      "Macroeconomic indicators: GDP, CPI, PPI, M0/M1/M2, foreign exchange reserves, fiscal revenue, balance of payments, and provincial/sectoral economic indicators (WindEDB)",
+      "Industry economic data: PMI sub-indices, industry value added, capacity utilization, output, inventory, and sector-level supply chain indicators",
+      "ESG database: corporate ESG ratings, climate disclosures, green bond data, and sustainability-linked finance instruments tracking",
+      "Proprietary indices: Wind All-A index, Wind sector indices, ChinaBond credit indices, and customized strategy indices",
+      "Wind Economic Database (WindEDB): consolidated macroeconomic and industry data with API access for institutional clients and researchers"
+    ],
+    "zh": [
+      "股票数据库：A股、B股、H股及美股中概股的实时和历史价格；财务报表、财务比率、分红和公司行为",
+      "债券市场数据：国债、政策性金融债、金融债、公司债、ABS、可转债等品种；收益率曲线、信用利差、违约事件和评级历史",
+      "期货与期权：大宗商品期货（上期所、大商所、郑商所、上海国际能源交易中心）、金融期货（中金所），以及场内期权全Tick级数据",
+      "公募与私募基金：净值历史、持仓、业绩归因、基金经理档案及资金流向分析",
+      "宏观经济指标：GDP、CPI、PPI、M0/M1/M2、外汇储备、财政收入、国际收支以及省级和行业层面经济指标（WindEDB）",
+      "行业经济数据：PMI分项指数、行业增加值、产能利用率、产量、库存以及行业供应链指标",
+      "ESG数据库：企业ESG评级、气候信息披露、绿色债券数据以及可持续发展挂钩金融工具跟踪",
+      "自有指数：万得全A指数、万得行业指数、中债信用类指数及定制策略指数",
+      "万得宏观经济数据库（WindEDB）：综合宏观经济与行业数据，向机构客户和研究人员提供API访问"
+    ]
+  }
+}

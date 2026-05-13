@@ -1,0 +1,68 @@
+{
+  "id": "china-cpic",
+  "name": {
+    "en": "China Pacific Insurance (Group) Co., Ltd. (CPIC)",
+    "zh": "中国太平洋保险（集团）股份有限公司"
+  },
+  "description": {
+    "en": "China Pacific Insurance (Group) Co., Ltd. (CPIC) is one of China's three largest comprehensive insurance groups, headquartered in Shanghai and triple-listed on the Shanghai Stock Exchange (601601.SH), Hong Kong Stock Exchange (2601.HK), and London Stock Exchange (CPIC GDR). Founded in 1991, CPIC operates through major subsidiaries including CPIC Life, CPIC Property, CPIC Health, CPIC Asset Management, and Changjiang Pension Insurance, providing life insurance, property and casualty insurance, agricultural insurance, health insurance, pension insurance, and asset management services. CPIC is the second-largest property and casualty insurer in China and a major life insurance player, publishing detailed annual reports, interim reports, monthly premium income announcements, and embedded-value disclosures. Its data on agent channels, banking-channel premiums, agricultural insurance coverage, commercial vehicle insurance, and pension insurance liabilities are essential reference points for analyzing the second-tier dynamics of China's insurance market and the long-term liability management of Chinese insurers under the C-ROSS Phase II solvency regime.",
+    "zh": "中国太平洋保险（集团）股份有限公司（中国太保）是中国三大综合性保险集团之一，总部位于上海，是A+H+G三地上市公司，分别在上海证券交易所（601601.SH）、香港联合交易所（2601.HK）和伦敦证券交易所（GDR）挂牌。中国太保成立于1991年，旗下子公司包括太保寿险、太保产险、太保健康险、太保资产管理和长江养老保险等，业务涵盖寿险、产险、农险、健康险、养老险及资产管理等领域。中国太保是中国第二大财产保险公司和重要寿险参与者，定期发布详细的年报、中报、月度保费公告和内含价值披露。其关于代理人渠道、银保渠道保费、农险承保面积、商业车险及养老险负债等数据，是研究中国保险市场二线格局以及偿二代二期工程下中国保险公司长期负债管理的重要参考。"
+  },
+  "website": "https://www.cpic.com.cn",
+  "data_url": "https://www.cpic.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "insurance",
+    "economics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "cpic",
+    "china-cpic",
+    "中国太保",
+    "太平洋保险",
+    "life-insurance",
+    "寿险",
+    "property-insurance",
+    "产险",
+    "agricultural-insurance",
+    "农业保险",
+    "pension-insurance",
+    "养老保险",
+    "embedded-value",
+    "内含价值",
+    "premium-income",
+    "保费收入",
+    "c-ross",
+    "偿二代",
+    "agent-channel",
+    "代理人渠道",
+    "long-channel"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: consolidated financial statements with segment disclosures for life, property, asset management, and pension subsidiaries; premium income, underwriting profit, and total comprehensive income",
+      "Monthly premium income announcements: gross written premium disclosures for CPIC Life and CPIC Property published monthly to the Shanghai Stock Exchange and HKEx",
+      "Embedded value disclosures: annual EV, value of new business (VNB), VNB margin, operating return on EV, and assumption sensitivities for CPIC Life",
+      "Property and casualty insurance metrics: combined ratio, motor and non-motor premium splits, agricultural insurance premium and government-subsidy structure, and commercial property loss experience",
+      "Pension insurance data: Changjiang Pension Insurance group annuity AUM, enterprise annuity trustee assets, occupational annuity managed assets, and individual pension fund participation",
+      "Investment portfolio: insurance funds allocation strategies, fixed income credit profile, alternative investment exposures, real estate disclosures, and asset-liability matching duration metrics",
+      "Solvency and capital management: C-ROSS solvency ratios for life and property subsidiaries, group capital adequacy, and stress test results under prescribed regulatory scenarios",
+      "Agent and banking-channel productivity: agent headcount, monthly average productivity (FYP per agent), bank insurance premium contribution and product mix"
+    ],
+    "zh": [
+      "年报和中报：合并财务报表及寿险、产险、资产管理、养老保险子公司分部披露；保费收入、承保利润和综合收益总额",
+      "月度保费公告：中国太保寿险和太保产险每月在上交所和港交所披露的原保险保费收入",
+      "内含价值披露：太保寿险年度内含价值、新业务价值（VNB）、新业务价值率、内含价值营运回报率以及假设敏感性分析",
+      "产险指标：综合成本率、车险与非车险保费占比、农险保费及政府保费补贴结构、企业财产险损失经验",
+      "养老险数据：长江养老团体年金资管规模、企业年金受托资产、职业年金管理资产以及个人养老金参与情况",
+      "投资组合：保险资金配置策略、固定收益资产信用结构、另类投资敞口、房地产披露及资产负债匹配久期指标",
+      "偿付能力与资本管理：太保寿险和产险偿二代偿付能力充足率、集团资本充足性、监管规定情景下的压力测试结果",
+      "代理人与银保渠道产能：代理人数量、月人均产能（FYP per agent）、银保渠道保费贡献及产品结构"
+    ]
+  }
+}

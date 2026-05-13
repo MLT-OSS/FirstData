@@ -1,0 +1,73 @@
+{
+  "id": "china-eastmoney",
+  "name": {
+    "en": "East Money Information (东方财富)",
+    "zh": "东方财富信息股份有限公司"
+  },
+  "description": {
+    "en": "East Money Information Co., Ltd. (东方财富 / EastMoney) is China's largest internet-based financial information and online brokerage platform, listed on the Shenzhen Stock Exchange (300059.SZ). Operating the EastMoney portal (eastmoney.com), Choice financial data terminal, and East Money Securities (a major retail brokerage), the company provides one of the most-used public sources of Chinese capital market data, real-time quotes, financial statements, fund data, and investor sentiment indicators in mainland China. The eastmoney.com data hub (data.eastmoney.com) freely publishes A-share market data, North-bound and South-bound trading via Stock Connect, margin financing balances, public fund flows, ETF holdings, broker research notes, IPO and refinancing data, and an extensive set of macroeconomic indicators. EastMoney also operates GuBa (股吧), a leading retail-investor discussion forum that serves as a barometer for retail investor sentiment in Chinese equities. Its publicly accessible datasets are widely used by individual investors, financial media, academic researchers, and institutions seeking high-frequency views of China's retail-driven capital markets.",
+    "zh": "东方财富信息股份有限公司（东方财富 / EastMoney）是中国最大的互联网金融信息和网络券商平台，在深圳证券交易所上市（300059.SZ）。公司运营东方财富网（eastmoney.com）、Choice金融数据终端和东方财富证券（中国主要零售券商之一），是中国大陆使用最广泛的中国资本市场公开数据来源之一，提供实时行情、财务报表、基金数据和投资者情绪指标。东方财富数据中心（data.eastmoney.com）免费发布A股市场行情、沪港通/深港通北向和南向资金流向、融资融券余额、公募基金资金流向、ETF持仓、券商研究报告、IPO和再融资数据，以及丰富的宏观经济指标。东方财富还运营股吧——中国领先的散户投资者讨论社区——是观察中国股市散户情绪的重要风向标。其公开数据集被个人投资者、金融媒体、学术研究者和机构广泛用于高频追踪中国散户驱动型资本市场的动态。"
+  },
+  "website": "https://www.eastmoney.com",
+  "data_url": "https://data.eastmoney.com",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "economics",
+    "markets",
+    "media"
+  ],
+  "update_frequency": "real-time",
+  "tags": [
+    "eastmoney",
+    "east-money",
+    "东方财富",
+    "财经门户",
+    "choice",
+    "choice-data",
+    "a-shares",
+    "a股",
+    "stock-connect",
+    "沪港通",
+    "深港通",
+    "northbound-flow",
+    "北向资金",
+    "margin-financing",
+    "融资融券",
+    "fund-flows",
+    "资金流向",
+    "guba",
+    "股吧",
+    "retail-investor-sentiment",
+    "散户情绪",
+    "broker-research",
+    "券商研报"
+  ],
+  "data_content": {
+    "en": [
+      "A-share market real-time and historical data: prices, volumes, valuation metrics (P/E, P/B), and constituent stocks of major indices including SSE 50, CSI 300, ChiNext, and STAR Market",
+      "Stock Connect (Shanghai/Shenzhen-Hong Kong) data: daily and historical northbound and southbound flows, position holdings of foreign investors via Stock Connect, and individual stock-level QFII/Stock Connect ownership",
+      "Margin financing and securities lending: market-level and stock-level margin balances, financing buy-ins, securities lending sell-offs, and margin trading concentration ratios",
+      "Public mutual fund data: NAV histories, fund manager profiles, holdings disclosures, fund flow analytics, ETF underlying components, and money market fund yield comparisons",
+      "Broker research notes: aggregated equity and macro research from Chinese brokerages, target prices, earnings forecasts, and rating distributions",
+      "IPO and refinancing data: A-share IPO pipeline, lock-up expirations, secondary offering plans, and post-listing performance tracking",
+      "Macroeconomic dashboards: PBoC monetary aggregates, CPI/PPI, fiscal data, real estate sales, automotive data, and high-frequency commodity prices",
+      "GuBa (股吧) sentiment data: posts and views on individual stocks, attention rankings, and discussion-volume-based sentiment indicators",
+      "Choice terminal: institutional-grade financial data, fundamental analysis, screening tools, and back-testing capabilities offered to professional users"
+    ],
+    "zh": [
+      "A股市场实时和历史数据：股价、成交量、估值指标（市盈率、市净率），以及上证50、沪深300、创业板和科创板等主要指数的成份股",
+      "沪深港通数据：日度和历史北向、南向资金流向，沪深港通外资持仓，以及个股层面的QFII/陆股通持股比例",
+      "融资融券：市场层面和个股层面的融资融券余额、融资买入、融券卖出，以及两融交易集中度",
+      "公募基金数据：净值历史、基金经理档案、持仓披露、资金流向分析、ETF成份券，以及货币基金收益率对比",
+      "券商研究报告：汇总中国券商权益和宏观研报、目标价、盈利预测及评级分布",
+      "IPO与再融资数据：A股IPO储备项目、限售解禁、再融资方案，以及上市后表现跟踪",
+      "宏观经济仪表盘：央行货币总量、CPI/PPI、财政数据、房地产销售、汽车销量数据，以及大宗商品高频价格",
+      "股吧情绪数据：个股层面的发帖和阅读量、关注度排名，以及基于讨论量的情绪指标",
+      "Choice金融终端：面向专业用户的机构级金融数据、基本面分析、选股工具及回测功能"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "china-pingan",
+  "name": {
+    "en": "Ping An Insurance (Group) Company of China",
+    "zh": "中国平安保险（集团）股份有限公司"
+  },
+  "description": {
+    "en": "Ping An Insurance (Group) Company of China is one of the world's largest insurance and integrated financial services groups by revenue, market capitalization, and total assets. Founded in 1988 in Shenzhen, Ping An is dual-listed on the Hong Kong Stock Exchange (2318.HK) and Shanghai Stock Exchange (601318.SH) and operates across life and health insurance, property and casualty insurance, banking, asset management, and digital technology platforms. Ping An Group includes Ping An Life, Ping An P&C, Ping An Bank, Ping An Asset Management, Ping An Securities, Lufax, Ping An Health, and OneConnect. Its annual reports, interim reports, and operational announcements provide highly granular disclosures on insurance premium structure, agent productivity, embedded value, customer-per-customer cross-sell ratios, and the financial performance of its technology subsidiaries. Ping An is widely regarded as the most data-rich Chinese insurance group, providing essential reference data for analyzing China's life insurance industry transformation, integrated financial services models, and insurtech development.",
+    "zh": "中国平安保险（集团）股份有限公司是按营业收入、市值和总资产规模衡量全球最大的综合金融服务集团之一。平安1988年创立于深圳，在香港联合交易所（2318.HK）和上海证券交易所（601318.SH）两地上市，业务覆盖寿险与健康险、财产保险、银行、资产管理及数字科技等领域。平安集团旗下包括平安人寿、平安产险、平安银行、平安资产管理、平安证券、陆金所、平安健康及金融壹账通等子公司。集团定期发布年报、中报和经营公告，提供高度详尽的披露内容，涵盖保险保费结构、代理人产能、内含价值、客均合同数交叉销售指标，以及科技子公司财务表现。平安被公认为中国数据披露最丰富的保险集团，是分析中国寿险行业转型、综合金融服务模式以及保险科技发展的重要参考依据。"
+  },
+  "website": "https://www.pingan.cn",
+  "data_url": "https://www.pingan.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "insurance",
+    "banking",
+    "economics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "ping-an",
+    "pingan",
+    "china-pingan",
+    "中国平安",
+    "平安集团",
+    "life-insurance",
+    "寿险",
+    "property-insurance",
+    "产险",
+    "embedded-value",
+    "内含价值",
+    "agent-productivity",
+    "代理人产能",
+    "integrated-finance",
+    "综合金融",
+    "insurtech",
+    "保险科技",
+    "ping-an-bank",
+    "平安银行",
+    "lufax",
+    "陆金所"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: consolidated financial statements covering insurance, banking, asset management, and technology segments; segment-level revenue, profit contribution, and capital allocation",
+      "Life insurance metrics: new business value (NBV), embedded value (EV), agent headcount and productivity, persistency rates by policy duration, and operating ROEV (return on embedded value)",
+      "Property and casualty insurance disclosures: motor and non-motor premium income, combined operating ratio, claim frequency, and the digital underwriting transformation effects",
+      "Ping An Bank statistics: retail and corporate loan balances, non-performing loan ratios, net interest margin, fee income, and digital banking customer metrics",
+      "Customer and ecosystem data: total Group retail customers, contracts per customer, customer migration across financial and healthcare ecosystems, app monthly active users",
+      "Investment portfolio: insurance funds and proprietary investment allocation across fixed income, equities, real estate, and infrastructure; ESG and green-finance investment disclosures",
+      "Technology subsidiary performance: revenues, operating losses or profits, and key operating metrics from Lufax, OneConnect, Ping An Health, and Ping An Good Doctor",
+      "Solvency and capital adequacy: C-ROSS solvency ratios for Ping An Life and Ping An P&C, Group capital adequacy assessments, and stress-test outcomes"
+    ],
+    "zh": [
+      "年报和中报：保险、银行、资产管理和科技业务板块的合并财务报表；分部收入、利润贡献和资本配置情况",
+      "寿险关键指标：新业务价值（NBV）、内含价值（EV）、代理人数量和人均产能、按保单年期的继续率，以及内含价值营运回报率（ROEV）",
+      "产险披露：车险与非车险保费收入、综合成本率、出险频率及数字化承保转型成效",
+      "平安银行数据：零售和对公贷款余额、不良贷款率、净息差、手续费收入及数字银行客户指标",
+      "客户与生态数据：集团零售客户总量、客均合同数、客户在金融与医疗生态间的迁徙情况、APP月活跃用户",
+      "投资组合：保险资金及自营投资在固定收益、权益、房地产和基础设施中的配置；ESG与绿色金融投资披露",
+      "科技子公司业绩：陆金所、金融壹账通、平安健康（平安好医生）的营业收入、经营盈亏及关键运营指标",
+      "偿付能力与资本充足性：平安人寿与平安产险偿二代（C-ROSS）偿付能力充足率、集团资本充足性评估及压力测试结果"
+    ]
+  }
+}
