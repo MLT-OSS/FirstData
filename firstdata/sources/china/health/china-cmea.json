@@ -1,0 +1,60 @@
+{
+  "id": "china-cmea",
+  "name": {
+    "en": "China Medical Education Association (CMEA)",
+    "zh": "中国医药教育协会"
+  },
+  "description": {
+    "en": "China Medical Education Association (CMEA) is a national, non-profit social organization registered with the Ministry of Civil Affairs, originally founded in 1992 and supervised by the National Health Commission (NHC). CMEA is one of the most important medical professional societies in China, with over 200 specialized professional committees covering virtually every medical specialty including cardiovascular medicine, oncology, neurology, surgery, pharmacy, traditional Chinese medicine, public health, hospital management, and medical education research. The association organizes continuing medical education (CME) programs, develops clinical practice guidelines and consensus documents, conducts physician training and certification programs, and publishes specialty-specific consensus statements that significantly influence medical practice in China. CMEA's clinical guidelines, expert consensus documents, and CME activity data are essential references for understanding the standardization of medical practice in China, the diffusion of new diagnostic and therapeutic technologies, and the implementation pathways of national health policy initiatives.",
+    "zh": "中国医药教育协会（CMEA）是经民政部登记注册、国家卫生健康委员会业务指导的全国性非营利社会组织，创办于1992年。中国医药教育协会是中国最重要的医学专业学术组织之一，下设200余个分支专业委员会，涵盖几乎所有医学专科，包括心血管病学、肿瘤学、神经病学、外科、药学、中医药、公共卫生、医院管理、医学教育研究等。协会组织继续医学教育（CME）项目，制定临床实践指南和专家共识，开展医师培训和认证项目，发布的专科共识声明对中国医学实践具有重要影响。协会的临床指南、专家共识文件和继续医学教育活动数据是研究中国医学实践标准化、新型诊疗技术推广及国家卫生政策实施路径的重要参考。"
+  },
+  "website": "http://www.cmea.org.cn",
+  "data_url": "http://www.cmea.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "health",
+    "education",
+    "research"
+  ],
+  "update_frequency": "irregular",
+  "tags": [
+    "cmea",
+    "china-cmea",
+    "中国医药教育协会",
+    "medical-education",
+    "医学教育",
+    "continuing-medical-education",
+    "继续医学教育",
+    "clinical-guidelines",
+    "临床指南",
+    "expert-consensus",
+    "专家共识",
+    "physician-training",
+    "医师培训",
+    "healthcare",
+    "医疗卫生"
+  ],
+  "data_content": {
+    "en": [
+      "Clinical practice guidelines and expert consensus documents: specialty-specific guidelines and consensus statements published by CMEA professional committees covering oncology, cardiovascular disease, neurology, infectious diseases, pharmacy, surgery, and other specialties",
+      "Continuing medical education (CME) program directory: registered CME activities including national-level CME projects, online courses, and academic conferences with CME credit assignments",
+      "Professional committee directory: organizational details, leadership, and academic activities of over 200 specialty professional committees",
+      "Conference proceedings and academic publications: papers, abstracts, and presentations from CMEA-organized national academic conferences and specialty annual meetings",
+      "Physician training and certification data: training program records and certification statistics for specialty skills training, rational drug use programs, and clinical research methodology training",
+      "Public health and disease management projects: data from chronic disease management initiatives, rational antibiotic use programs, and grassroots physician capacity building projects",
+      "Industry-academia collaboration data: medical product post-marketing surveillance, real-world evidence collection projects, and pharmacist-physician integration programs"
+    ],
+    "zh": [
+      "临床实践指南和专家共识文件：协会专业委员会发布的专科指南和共识声明，涵盖肿瘤学、心血管病、神经病学、感染病、药学、外科等专科",
+      "继续医学教育（CME）项目目录：已登记CME活动，包括国家级CME项目、网络课程及附CME学分的学术会议",
+      "专业委员会目录：200余个专科专业委员会的组织详情、负责人及学术活动",
+      "会议论文与学术出版：协会主办的全国学术会议和专科年会的论文、摘要和演讲",
+      "医师培训和认证数据：专科技能培训、合理用药项目、临床研究方法学培训的项目记录和认证统计",
+      "公共卫生与疾病管理项目：慢性病管理项目、合理抗生素使用项目、基层医生能力建设项目数据",
+      "产学研合作数据：药品上市后监测、真实世界证据收集项目、药师-医师协同诊疗项目"
+    ]
+  }
+}

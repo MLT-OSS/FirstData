@@ -1,0 +1,60 @@
+{
+  "id": "china-cabee",
+  "name": {
+    "en": "China Association of Building Energy Efficiency (CABEE)",
+    "zh": "中国建筑节能协会"
+  },
+  "description": {
+    "en": "China Association of Building Energy Efficiency (CABEE) is a national, non-profit, industry-wide social organization registered with the Ministry of Civil Affairs and supervised by the Ministry of Housing and Urban-Rural Development (MOHURD). Founded in 2010, CABEE serves as the leading platform for research, policy advocacy, and industry coordination on building energy conservation, green buildings, near-zero energy buildings, building decarbonization, and renewable energy integration in China's construction sector. The association organizes the annual China Building Energy Conservation Conference, publishes the influential 'China Building Energy Consumption and Carbon Emissions Research Report', maintains technical committees on prefabricated buildings, healthy buildings, building electrification, photovoltaic-building integration (BIPV), and operates standards drafting groups. Its data and reports are critical references for tracking China's building sector carbon emissions baseline, energy consumption intensity by building type and climate zone, and the implementation progress of dual-carbon goals in construction.",
+    "zh": "中国建筑节能协会（CABEE）是经民政部登记注册、住房和城乡建设部业务指导的全国性非营利行业社团组织。协会成立于2010年，是中国建筑节能、绿色建筑、近零能耗建筑、建筑脱碳和可再生能源建筑应用领域的研究、政策倡导和行业协调的核心平台。协会主办年度《中国建筑节能大会》，定期发布权威的《中国建筑能耗与碳排放研究报告》，下设装配式建筑、健康建筑、建筑电气化、光伏建筑一体化（BIPV）等多个专业委员会，并主持多项行业标准编制工作。协会数据和报告是研究中国建筑领域碳排放基线、不同建筑类型和气候区能耗强度、以及建筑业双碳目标实施进展的重要参考。"
+  },
+  "website": "https://www.cabee.org",
+  "data_url": "https://www.cabee.org",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "construction",
+    "energy",
+    "environment"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "cabee",
+    "china-cabee",
+    "中国建筑节能协会",
+    "建筑节能",
+    "building-energy-efficiency",
+    "green-building",
+    "绿色建筑",
+    "near-zero-energy-building",
+    "近零能耗建筑",
+    "building-carbon-emissions",
+    "建筑碳排放",
+    "bipv",
+    "光伏建筑一体化",
+    "prefabricated-building",
+    "装配式建筑"
+  ],
+  "data_content": {
+    "en": [
+      "China Building Energy Consumption and Carbon Emissions Research Report: annual report providing comprehensive data on building sector energy consumption, electricity use, primary energy use, and CO2 emissions, broken down by residential vs. public buildings, by climate zone, and by operational vs. construction-stage emissions",
+      "Building energy efficiency standards database: technical specifications, design standards, and evaluation standards for green buildings, near-zero energy buildings, ultra-low energy buildings, and healthy buildings",
+      "Industry development reports: annual reports on prefabricated buildings, building photovoltaic (BIPV) projects, district heating, and building electrification progress in China",
+      "Project case database: certified green building projects, near-zero energy demonstration projects, and ultra-low energy buildings with detailed performance data",
+      "Policy compendium: collection of national and provincial policies on building energy efficiency, dual-carbon goals in construction, and renewable energy in buildings",
+      "Conference proceedings: papers and presentations from the annual China Building Energy Conservation Conference covering technology, policy, and industry trends",
+      "Statistical bulletins: industry surveys on building energy retrofit projects, certification statistics for green building star ratings, and energy service company (ESCO) market data"
+    ],
+    "zh": [
+      "《中国建筑能耗与碳排放研究报告》：年度报告，提供建筑领域能源消耗、电力消耗、一次能源消耗及二氧化碳排放的综合数据，按居住建筑与公共建筑、气候分区、运行阶段与建造阶段排放分别披露",
+      "建筑节能标准数据库：绿色建筑、近零能耗建筑、超低能耗建筑、健康建筑的技术规范、设计标准和评价标准",
+      "行业发展报告：装配式建筑、光伏建筑一体化（BIPV）项目、区域供热、建筑电气化等领域的年度发展报告",
+      "项目案例数据库：通过认证的绿色建筑、近零能耗示范项目、超低能耗建筑详细性能数据",
+      "政策汇编：国家和省级建筑节能、建筑领域双碳目标、建筑可再生能源应用相关政策汇编",
+      "会议论文：年度中国建筑节能大会论文与演讲，涵盖技术、政策和行业趋势",
+      "统计公报：建筑节能改造项目调查、绿色建筑星级认证统计、合同能源管理（ESCO）市场数据"
+    ]
+  }
+}

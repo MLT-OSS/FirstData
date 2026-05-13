@@ -1,0 +1,63 @@
+{
+  "id": "china-cinic-net",
+  "name": {
+    "en": "China Industry Economic Information Network (CINIC)",
+    "zh": "中国产业经济信息网"
+  },
+  "description": {
+    "en": "China Industry Economic Information Network (CINIC) is a national-level industry economic information portal supervised by the Publicity Department of the Communist Party of China (中宣部) and operated by the China Newspaper Industry Association (中国报业协会). Established as one of the official industry economic information aggregation platforms, CINIC provides authoritative coverage and data analysis on China's macroeconomic indicators, sectoral industrial development, regional economic dynamics, enterprise business performance, and government industrial policies. The network features dedicated channels for finance, energy, automotive, real estate, technology, healthcare, agriculture, and consumer goods, publishing daily industry news briefings, industry development white papers, regional economic reports, and exclusive interviews with industry leaders. As a CCP-affiliated industry information platform, CINIC's reports and data carry official endorsement and are widely cited in policy research and industry analysis. CINIC content is essential for tracking the official narrative on China's industrial transformation, the implementation of national industrial policies, and the regional distribution of industrial investment and enterprise activity.",
+    "zh": "中国产业经济信息网（CINIC）是经中共中央宣传部主管、中国报业协会主办的国家级产业经济信息门户。作为官方产业经济信息聚合平台之一，CINIC对中国宏观经济指标、行业工业发展、区域经济动态、企业经营业绩和政府产业政策进行权威报道与数据分析。网站设有金融、能源、汽车、房地产、科技、医疗、农业、消费品等专题频道，定期发布行业新闻日报、行业发展白皮书、区域经济报告，及行业领军人物专访。作为党中央宣传部主管的产业信息平台，CINIC的报告和数据带有官方背书，被政策研究和行业分析广泛引用。CINIC内容是研究中国产业转型官方叙事、国家产业政策实施情况、以及区域工业投资和企业活动分布的重要参考。"
+  },
+  "website": "https://www.cinic.org.cn",
+  "data_url": "https://www.cinic.org.cn",
+  "api_url": null,
+  "authority_level": "government",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "economics",
+    "industry",
+    "media"
+  ],
+  "update_frequency": "daily",
+  "tags": [
+    "cinic",
+    "china-cinic-net",
+    "中国产业经济信息网",
+    "中宣部",
+    "industrial-economy",
+    "产业经济",
+    "industrial-policy",
+    "产业政策",
+    "regional-economy",
+    "区域经济",
+    "macroeconomy",
+    "宏观经济",
+    "industry-news",
+    "行业新闻",
+    "official-media",
+    "官方媒体"
+  ],
+  "data_content": {
+    "en": [
+      "Daily industry news: comprehensive daily reporting on macroeconomic indicators, industry sectoral developments, enterprise news, and government policy releases organized by industry vertical",
+      "Industry channel content: dedicated columns for finance, energy, automotive, real estate, technology, healthcare, agriculture, consumer goods, transportation, and infrastructure with curated news, analysis, and data",
+      "Regional economic reports: provincial and city-level economic performance summaries, regional industrial development plans, and sub-national policy implementation tracking",
+      "Industry development white papers: in-depth white papers on emerging industries, industrial transformation, and digital economy development jointly produced with research institutions",
+      "Government policy interpretation: official interpretation and analysis of National Development and Reform Commission, Ministry of Industry and Information Technology, and other ministry policies",
+      "Enterprise news and rankings: coverage of major enterprise announcements, central state-owned enterprise (SOE) reform progress, private enterprise development, and industry rankings",
+      "Industrial statistics digest: aggregated coverage of statistics released by NBS, MIIT, customs, and industry associations with editorial commentary",
+      "Industry interviews and opinion pieces: exclusive interviews with industry leaders, government officials, and economists on industrial policy and trends"
+    ],
+    "zh": [
+      "行业新闻日报：每日全面报道宏观经济指标、行业部门发展、企业新闻、政府政策发布，按行业垂类组织",
+      "行业频道内容：金融、能源、汽车、房地产、科技、医疗、农业、消费品、交通、基础设施等专题栏目，含精选新闻、分析和数据",
+      "区域经济报告：省级和市级经济运行综述、区域产业发展规划、地方政策落实跟踪",
+      "行业发展白皮书：与研究机构联合制作的新兴产业、产业转型、数字经济发展深度白皮书",
+      "政府政策解读：国家发改委、工信部及其他部委政策的官方解读和分析",
+      "企业新闻和排行榜：重大企业公告、央企改革进展、民营企业发展、行业排行榜报道",
+      "工业统计摘要：国家统计局、工信部、海关、行业协会发布统计的聚合报道及编辑评论",
+      "行业访谈与观点：行业领军人物、政府官员、经济学家关于产业政策和趋势的独家访谈"
+    ]
+  }
+}
