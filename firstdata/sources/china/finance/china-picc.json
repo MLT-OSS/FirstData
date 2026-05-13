@@ -1,0 +1,65 @@
+{
+  "id": "china-picc",
+  "name": {
+    "en": "People's Insurance Company (Group) of China (PICC)",
+    "zh": "中国人民保险集团股份有限公司"
+  },
+  "description": {
+    "en": "The People's Insurance Company (Group) of China Limited (PICC Group) is China's largest property and casualty (P&C) insurer and one of the country's most established state-owned financial institutions, with origins dating back to 1949 as China's first nationwide insurance company. PICC Group is listed on the Hong Kong Stock Exchange (1339.HK) and Shanghai Stock Exchange (601319.SH) and operates through major subsidiaries including PICC P&C, PICC Life, PICC Health, PICC Asset Management, and PICC Reinsurance. As the dominant force in China's P&C market with a market share consistently above 30%, PICC publishes detailed annual and interim reports covering motor insurance premium income, agricultural insurance coverage, commercial property insurance, accident and health insurance, marine insurance, liability insurance, and reinsurance acceptances. Its disclosures on combined ratios, claims experience, catastrophe losses, and investment portfolio composition are foundational references for analyzing China's non-life insurance industry, agricultural risk financing, and the development of motor and household insurance penetration across urban and rural markets.",
+    "zh": "中国人民保险集团股份有限公司（人保集团）是中国规模最大的财产保险公司，也是历史最悠久的国有金融机构之一，前身为1949年成立的新中国第一家全国性保险公司。人保集团在香港联合交易所（1339.HK）和上海证券交易所（601319.SH）两地上市，主要子公司包括人保财险、人保寿险、人保健康险、人保资产管理和人保再保险等。作为中国财险市场的龙头企业，人保财产险市场份额长期保持在30%以上。集团定期发布详细的年度和中期报告，覆盖车险保费收入、农业保险承保面积、企业财产险、意外健康险、货运及船舶险、责任险及再保险接受业务等数据。其综合成本率、赔付经验、巨灾损失及投资组合配置等披露信息，是分析中国非寿险行业、农业风险融资、以及城乡车险与家财险渗透率发展的基础参考。"
+  },
+  "website": "https://www.picc.com.cn",
+  "data_url": "https://www.picc.com.cn",
+  "api_url": null,
+  "authority_level": "commercial",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "finance",
+    "insurance",
+    "economics"
+  ],
+  "update_frequency": "quarterly",
+  "tags": [
+    "picc",
+    "china-picc",
+    "中国人保",
+    "人保集团",
+    "property-insurance",
+    "财产保险",
+    "motor-insurance",
+    "车险",
+    "agricultural-insurance",
+    "农业保险",
+    "combined-ratio",
+    "综合成本率",
+    "non-life-insurance",
+    "非寿险",
+    "state-owned-enterprise",
+    "央企",
+    "premium-income",
+    "保费收入",
+    "reinsurance",
+    "再保险"
+  ],
+  "data_content": {
+    "en": [
+      "Annual and interim financial reports: comprehensive disclosure of premium income, claims, underwriting profit, and investment income across the PICC Group and its insurance subsidiaries (PICC P&C, PICC Life, PICC Health)",
+      "Motor insurance statistics: gross written premiums for compulsory motor third-party liability insurance and commercial motor insurance, claim frequencies, and post-reform pricing trends following China's comprehensive auto insurance reform",
+      "Agricultural insurance coverage: insured crop area, livestock policy counts, government-subsidized agricultural insurance premiums, catastrophe and weather-index agricultural insurance disclosures",
+      "Combined ratio and underwriting metrics: loss ratio, expense ratio, and combined operating ratio by P&C product line; reserves adequacy and IBNR (incurred but not reported) reserve disclosures",
+      "Health insurance and critical illness products: PICC Health premium volumes, critical illness coverage statistics, and government-policy health insurance program participation data",
+      "Investment portfolio composition: insurance funds allocation across fixed income, equities, alternatives, and real estate; yield and duration profiles aligned with insurance liability matching",
+      "Solvency and risk metrics: solvency adequacy ratios under C-ROSS regulatory regime, capital strength indicators, and stress test outcomes for major risk scenarios"
+    ],
+    "zh": [
+      "年报和中报：人保集团及人保财险、人保寿险、人保健康险等保险子公司的保费收入、赔付支出、承保利润和投资收益的综合披露",
+      "车险统计：交强险和商业车险的总保费收入、赔付频率，以及车险综合改革后的定价趋势",
+      "农业保险承保：承保农作物面积、牲畜保单数量、政府补贴农险保费规模，以及巨灾和天气指数农业保险披露",
+      "综合成本率与承保指标：各财险产品线的赔付率、费用率和综合成本率；准备金充足性和已发生未报告（IBNR）准备金披露",
+      "健康险和重疾险产品：人保健康险保费规模、重疾险覆盖统计，以及政策性健康险项目参与数据",
+      "投资组合构成：保险资金在固定收益、权益、另类投资和房地产中的配置情况；与保险负债匹配的收益率和久期结构",
+      "偿付能力和风险指标：偿二代（C-ROSS）监管体系下的偿付能力充足率、资本实力指标，以及主要风险情景的压力测试结果"
+    ]
+  }
+}
