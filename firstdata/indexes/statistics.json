@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T03:32:01.872037+00:00",
+    "generated_at": "2026-05-13T02:38:52.157032+00:00",
     "version": "2.0"
   },
   "overview": {
-    "total_sources": 758,
+    "total_sources": 763,
     "sources_with_api": 157,
-    "last_updated": "2026-05-11"
+    "last_updated": "2026-05-13"
   },
   "by_authority_level": {
     "research": 146,
@@ -14,11 +14,11 @@
     "government": 374,
     "other": 76,
     "market": 47,
-    "commercial": 36
+    "commercial": 41
   },
   "by_geographic_scope": {
     "global": 117,
-    "national": 556,
+    "national": 561,
     "regional": 27,
     "subnational": 58
   },
@@ -26,21 +26,21 @@
     "irregular": 147,
     "daily": 109,
     "weekly": 12,
-    "quarterly": 59,
+    "quarterly": 62,
     "monthly": 231,
     "annual": 180,
-    "real-time": 20
+    "real-time": 22
   },
   "by_domain": {
-    "economics": 283,
+    "economics": 288,
+    "finance": 125,
     "environment": 125,
     "trade": 123,
-    "finance": 120,
     "social": 119,
     "industry": 110,
     "demographics": 91,
+    "statistics": 86,
     "agriculture": 86,
-    "statistics": 85,
     "technology": 84,
     "health": 79,
     "governance": 67,
@@ -57,8 +57,8 @@
     "housing": 22,
     "standards": 20,
     "real-estate": 19,
+    "banking": 19,
     "capital-markets": 19,
-    "banking": 18,
     "development": 17,
     "monetary-policy": 17,
     "labor": 15,
@@ -74,6 +74,7 @@
     "population": 9,
     "engineering": 9,
     "resources": 9,
+    "insurance": 9,
     "public-health": 9,
     "pharmaceuticals": 9,
     "innovation": 9,
@@ -81,6 +82,7 @@
     "biodiversity": 8,
     "epidemiology": 8,
     "derivatives": 8,
+    "media": 8,
     "logistics": 8,
     "water": 8,
     "meteorology": 8,
@@ -93,7 +95,6 @@
     "ocean": 7,
     "machine-learning": 7,
     "urban-development": 7,
-    "media": 7,
     "business": 7,
     "international-trade": 7,
     "artificial-intelligence": 7,
@@ -108,7 +109,6 @@
     "land-use": 6,
     "automotive": 6,
     "higher-education": 6,
-    "insurance": 6,
     "regulation": 6,
     "public-safety": 6,
     "intellectual-property": 6,
@@ -128,6 +128,7 @@
     "gender-equality": 5,
     "urban-planning": 5,
     "macroeconomics": 5,
+    "markets": 5,
     "commodity-markets": 5,
     "fiscal-policy": 5,
     "legal": 5,
@@ -177,7 +178,6 @@
     "tourism": 3,
     "social-security": 3,
     "market-research": 3,
-    "markets": 3,
     "bonds": 3,
     "taxation": 3,
     "corporate-governance": 3,

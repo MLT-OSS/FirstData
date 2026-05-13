@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T03:32:01.872037+00:00",
-    "total_sources": 758,
+    "generated_at": "2026-05-13T02:38:52.157032+00:00",
+    "total_sources": 763,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -13276,6 +13276,76 @@
       "file_path": "china/finance/china-cips.json"
     },
     {
+      "id": "china-cpic",
+      "name": {
+        "en": "China Pacific Insurance (Group) Co., Ltd. (CPIC)",
+        "zh": "中国太平洋保险（集团）股份有限公司"
+      },
+      "description": {
+        "en": "China Pacific Insurance (Group) Co., Ltd. (CPIC) is one of China's three largest comprehensive insurance groups, headquartered in Shanghai and triple-listed on the Shanghai Stock Exchange (601601.SH), Hong Kong Stock Exchange (2601.HK), and London Stock Exchange (CPIC GDR). Founded in 1991, CPIC operates through major subsidiaries including CPIC Life, CPIC Property, CPIC Health, CPIC Asset Management, and Changjiang Pension Insurance, providing life insurance, property and casualty insurance, agricultural insurance, health insurance, pension insurance, and asset management services. CPIC is the second-largest property and casualty insurer in China and a major life insurance player, publishing detailed annual reports, interim reports, monthly premium income announcements, and embedded-value disclosures. Its data on agent channels, banking-channel premiums, agricultural insurance coverage, commercial vehicle insurance, and pension insurance liabilities are essential reference points for analyzing the second-tier dynamics of China's insurance market and the long-term liability management of Chinese insurers under the C-ROSS Phase II solvency regime.",
+        "zh": "中国太平洋保险（集团）股份有限公司（中国太保）是中国三大综合性保险集团之一，总部位于上海，是A+H+G三地上市公司，分别在上海证券交易所（601601.SH）、香港联合交易所（2601.HK）和伦敦证券交易所（GDR）挂牌。中国太保成立于1991年，旗下子公司包括太保寿险、太保产险、太保健康险、太保资产管理和长江养老保险等，业务涵盖寿险、产险、农险、健康险、养老险及资产管理等领域。中国太保是中国第二大财产保险公司和重要寿险参与者，定期发布详细的年报、中报、月度保费公告和内含价值披露。其关于代理人渠道、银保渠道保费、农险承保面积、商业车险及养老险负债等数据，是研究中国保险市场二线格局以及偿二代二期工程下中国保险公司长期负债管理的重要参考。"
+      },
+      "website": "https://www.cpic.com.cn",
+      "data_url": "https://www.cpic.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "insurance",
+        "economics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "cpic",
+        "china-cpic",
+        "中国太保",
+        "太平洋保险",
+        "life-insurance",
+        "寿险",
+        "property-insurance",
+        "产险",
+        "agricultural-insurance",
+        "农业保险",
+        "pension-insurance",
+        "养老保险",
+        "embedded-value",
+        "内含价值",
+        "premium-income",
+        "保费收入",
+        "c-ross",
+        "偿二代",
+        "agent-channel",
+        "代理人渠道",
+        "long-channel"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: consolidated financial statements with segment disclosures for life, property, asset management, and pension subsidiaries; premium income, underwriting profit, and total comprehensive income",
+          "Monthly premium income announcements: gross written premium disclosures for CPIC Life and CPIC Property published monthly to the Shanghai Stock Exchange and HKEx",
+          "Embedded value disclosures: annual EV, value of new business (VNB), VNB margin, operating return on EV, and assumption sensitivities for CPIC Life",
+          "Property and casualty insurance metrics: combined ratio, motor and non-motor premium splits, agricultural insurance premium and government-subsidy structure, and commercial property loss experience",
+          "Pension insurance data: Changjiang Pension Insurance group annuity AUM, enterprise annuity trustee assets, occupational annuity managed assets, and individual pension fund participation",
+          "Investment portfolio: insurance funds allocation strategies, fixed income credit profile, alternative investment exposures, real estate disclosures, and asset-liability matching duration metrics",
+          "Solvency and capital management: C-ROSS solvency ratios for life and property subsidiaries, group capital adequacy, and stress test results under prescribed regulatory scenarios",
+          "Agent and banking-channel productivity: agent headcount, monthly average productivity (FYP per agent), bank insurance premium contribution and product mix"
+        ],
+        "zh": [
+          "年报和中报：合并财务报表及寿险、产险、资产管理、养老保险子公司分部披露；保费收入、承保利润和综合收益总额",
+          "月度保费公告：中国太保寿险和太保产险每月在上交所和港交所披露的原保险保费收入",
+          "内含价值披露：太保寿险年度内含价值、新业务价值（VNB）、新业务价值率、内含价值营运回报率以及假设敏感性分析",
+          "产险指标：综合成本率、车险与非车险保费占比、农险保费及政府保费补贴结构、企业财产险损失经验",
+          "养老险数据：长江养老团体年金资管规模、企业年金受托资产、职业年金管理资产以及个人养老金参与情况",
+          "投资组合：保险资金配置策略、固定收益资产信用结构、另类投资敞口、房地产披露及资产负债匹配久期指标",
+          "偿付能力与资本管理：太保寿险和产险偿二代偿付能力充足率、集团资本充足性、监管规定情景下的压力测试结果",
+          "代理人与银保渠道产能：代理人数量、月人均产能（FYP per agent）、银保渠道保费贡献及产品结构"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-cpic.json"
+    },
+    {
       "id": "china-csi-index",
       "name": {
         "en": "China Securities Index Co., Ltd.",
@@ -13373,6 +13443,81 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-csrc-futures.json"
+    },
+    {
+      "id": "china-eastmoney",
+      "name": {
+        "en": "East Money Information (东方财富)",
+        "zh": "东方财富信息股份有限公司"
+      },
+      "description": {
+        "en": "East Money Information Co., Ltd. (东方财富 / EastMoney) is China's largest internet-based financial information and online brokerage platform, listed on the Shenzhen Stock Exchange (300059.SZ). Operating the EastMoney portal (eastmoney.com), Choice financial data terminal, and East Money Securities (a major retail brokerage), the company provides one of the most-used public sources of Chinese capital market data, real-time quotes, financial statements, fund data, and investor sentiment indicators in mainland China. The eastmoney.com data hub (data.eastmoney.com) freely publishes A-share market data, North-bound and South-bound trading via Stock Connect, margin financing balances, public fund flows, ETF holdings, broker research notes, IPO and refinancing data, and an extensive set of macroeconomic indicators. EastMoney also operates GuBa (股吧), a leading retail-investor discussion forum that serves as a barometer for retail investor sentiment in Chinese equities. Its publicly accessible datasets are widely used by individual investors, financial media, academic researchers, and institutions seeking high-frequency views of China's retail-driven capital markets.",
+        "zh": "东方财富信息股份有限公司（东方财富 / EastMoney）是中国最大的互联网金融信息和网络券商平台，在深圳证券交易所上市（300059.SZ）。公司运营东方财富网（eastmoney.com）、Choice金融数据终端和东方财富证券（中国主要零售券商之一），是中国大陆使用最广泛的中国资本市场公开数据来源之一，提供实时行情、财务报表、基金数据和投资者情绪指标。东方财富数据中心（data.eastmoney.com）免费发布A股市场行情、沪港通/深港通北向和南向资金流向、融资融券余额、公募基金资金流向、ETF持仓、券商研究报告、IPO和再融资数据，以及丰富的宏观经济指标。东方财富还运营股吧——中国领先的散户投资者讨论社区——是观察中国股市散户情绪的重要风向标。其公开数据集被个人投资者、金融媒体、学术研究者和机构广泛用于高频追踪中国散户驱动型资本市场的动态。"
+      },
+      "website": "https://www.eastmoney.com",
+      "data_url": "https://data.eastmoney.com",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "markets",
+        "media"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "eastmoney",
+        "east-money",
+        "东方财富",
+        "财经门户",
+        "choice",
+        "choice-data",
+        "a-shares",
+        "a股",
+        "stock-connect",
+        "沪港通",
+        "深港通",
+        "northbound-flow",
+        "北向资金",
+        "margin-financing",
+        "融资融券",
+        "fund-flows",
+        "资金流向",
+        "guba",
+        "股吧",
+        "retail-investor-sentiment",
+        "散户情绪",
+        "broker-research",
+        "券商研报"
+      ],
+      "data_content": {
+        "en": [
+          "A-share market real-time and historical data: prices, volumes, valuation metrics (P/E, P/B), and constituent stocks of major indices including SSE 50, CSI 300, ChiNext, and STAR Market",
+          "Stock Connect (Shanghai/Shenzhen-Hong Kong) data: daily and historical northbound and southbound flows, position holdings of foreign investors via Stock Connect, and individual stock-level QFII/Stock Connect ownership",
+          "Margin financing and securities lending: market-level and stock-level margin balances, financing buy-ins, securities lending sell-offs, and margin trading concentration ratios",
+          "Public mutual fund data: NAV histories, fund manager profiles, holdings disclosures, fund flow analytics, ETF underlying components, and money market fund yield comparisons",
+          "Broker research notes: aggregated equity and macro research from Chinese brokerages, target prices, earnings forecasts, and rating distributions",
+          "IPO and refinancing data: A-share IPO pipeline, lock-up expirations, secondary offering plans, and post-listing performance tracking",
+          "Macroeconomic dashboards: PBoC monetary aggregates, CPI/PPI, fiscal data, real estate sales, automotive data, and high-frequency commodity prices",
+          "GuBa (股吧) sentiment data: posts and views on individual stocks, attention rankings, and discussion-volume-based sentiment indicators",
+          "Choice terminal: institutional-grade financial data, fundamental analysis, screening tools, and back-testing capabilities offered to professional users"
+        ],
+        "zh": [
+          "A股市场实时和历史数据：股价、成交量、估值指标（市盈率、市净率），以及上证50、沪深300、创业板和科创板等主要指数的成份股",
+          "沪深港通数据：日度和历史北向、南向资金流向，沪深港通外资持仓，以及个股层面的QFII/陆股通持股比例",
+          "融资融券：市场层面和个股层面的融资融券余额、融资买入、融券卖出，以及两融交易集中度",
+          "公募基金数据：净值历史、基金经理档案、持仓披露、资金流向分析、ETF成份券，以及货币基金收益率对比",
+          "券商研究报告：汇总中国券商权益和宏观研报、目标价、盈利预测及评级分布",
+          "IPO与再融资数据：A股IPO储备项目、限售解禁、再融资方案，以及上市后表现跟踪",
+          "宏观经济仪表盘：央行货币总量、CPI/PPI、财政数据、房地产销售、汽车销量数据，以及大宗商品高频价格",
+          "股吧情绪数据：个股层面的发帖和阅读量、关注度排名，以及基于讨论量的情绪指标",
+          "Choice金融终端：面向专业用户的机构级金融数据、基本面分析、选股工具及回测功能"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-eastmoney.json"
     },
     {
       "id": "china-iac",
@@ -13674,6 +13819,144 @@
       "file_path": "china/finance/china-payment-clearing.json"
     },
     {
+      "id": "china-picc",
+      "name": {
+        "en": "People's Insurance Company (Group) of China (PICC)",
+        "zh": "中国人民保险集团股份有限公司"
+      },
+      "description": {
+        "en": "The People's Insurance Company (Group) of China Limited (PICC Group) is China's largest property and casualty (P&C) insurer and one of the country's most established state-owned financial institutions, with origins dating back to 1949 as China's first nationwide insurance company. PICC Group is listed on the Hong Kong Stock Exchange (1339.HK) and Shanghai Stock Exchange (601319.SH) and operates through major subsidiaries including PICC P&C, PICC Life, PICC Health, PICC Asset Management, and PICC Reinsurance. As the dominant force in China's P&C market with a market share consistently above 30%, PICC publishes detailed annual and interim reports covering motor insurance premium income, agricultural insurance coverage, commercial property insurance, accident and health insurance, marine insurance, liability insurance, and reinsurance acceptances. Its disclosures on combined ratios, claims experience, catastrophe losses, and investment portfolio composition are foundational references for analyzing China's non-life insurance industry, agricultural risk financing, and the development of motor and household insurance penetration across urban and rural markets.",
+        "zh": "中国人民保险集团股份有限公司（人保集团）是中国规模最大的财产保险公司，也是历史最悠久的国有金融机构之一，前身为1949年成立的新中国第一家全国性保险公司。人保集团在香港联合交易所（1339.HK）和上海证券交易所（601319.SH）两地上市，主要子公司包括人保财险、人保寿险、人保健康险、人保资产管理和人保再保险等。作为中国财险市场的龙头企业，人保财产险市场份额长期保持在30%以上。集团定期发布详细的年度和中期报告，覆盖车险保费收入、农业保险承保面积、企业财产险、意外健康险、货运及船舶险、责任险及再保险接受业务等数据。其综合成本率、赔付经验、巨灾损失及投资组合配置等披露信息，是分析中国非寿险行业、农业风险融资、以及城乡车险与家财险渗透率发展的基础参考。"
+      },
+      "website": "https://www.picc.com.cn",
+      "data_url": "https://www.picc.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "insurance",
+        "economics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "picc",
+        "china-picc",
+        "中国人保",
+        "人保集团",
+        "property-insurance",
+        "财产保险",
+        "motor-insurance",
+        "车险",
+        "agricultural-insurance",
+        "农业保险",
+        "combined-ratio",
+        "综合成本率",
+        "non-life-insurance",
+        "非寿险",
+        "state-owned-enterprise",
+        "央企",
+        "premium-income",
+        "保费收入",
+        "reinsurance",
+        "再保险"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: comprehensive disclosure of premium income, claims, underwriting profit, and investment income across the PICC Group and its insurance subsidiaries (PICC P&C, PICC Life, PICC Health)",
+          "Motor insurance statistics: gross written premiums for compulsory motor third-party liability insurance and commercial motor insurance, claim frequencies, and post-reform pricing trends following China's comprehensive auto insurance reform",
+          "Agricultural insurance coverage: insured crop area, livestock policy counts, government-subsidized agricultural insurance premiums, catastrophe and weather-index agricultural insurance disclosures",
+          "Combined ratio and underwriting metrics: loss ratio, expense ratio, and combined operating ratio by P&C product line; reserves adequacy and IBNR (incurred but not reported) reserve disclosures",
+          "Health insurance and critical illness products: PICC Health premium volumes, critical illness coverage statistics, and government-policy health insurance program participation data",
+          "Investment portfolio composition: insurance funds allocation across fixed income, equities, alternatives, and real estate; yield and duration profiles aligned with insurance liability matching",
+          "Solvency and risk metrics: solvency adequacy ratios under C-ROSS regulatory regime, capital strength indicators, and stress test outcomes for major risk scenarios"
+        ],
+        "zh": [
+          "年报和中报：人保集团及人保财险、人保寿险、人保健康险等保险子公司的保费收入、赔付支出、承保利润和投资收益的综合披露",
+          "车险统计：交强险和商业车险的总保费收入、赔付频率，以及车险综合改革后的定价趋势",
+          "农业保险承保：承保农作物面积、牲畜保单数量、政府补贴农险保费规模，以及巨灾和天气指数农业保险披露",
+          "综合成本率与承保指标：各财险产品线的赔付率、费用率和综合成本率；准备金充足性和已发生未报告（IBNR）准备金披露",
+          "健康险和重疾险产品：人保健康险保费规模、重疾险覆盖统计，以及政策性健康险项目参与数据",
+          "投资组合构成：保险资金在固定收益、权益、另类投资和房地产中的配置情况；与保险负债匹配的收益率和久期结构",
+          "偿付能力和风险指标：偿二代（C-ROSS）监管体系下的偿付能力充足率、资本实力指标，以及主要风险情景的压力测试结果"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-picc.json"
+    },
+    {
+      "id": "china-pingan",
+      "name": {
+        "en": "Ping An Insurance (Group) Company of China",
+        "zh": "中国平安保险（集团）股份有限公司"
+      },
+      "description": {
+        "en": "Ping An Insurance (Group) Company of China is one of the world's largest insurance and integrated financial services groups by revenue, market capitalization, and total assets. Founded in 1988 in Shenzhen, Ping An is dual-listed on the Hong Kong Stock Exchange (2318.HK) and Shanghai Stock Exchange (601318.SH) and operates across life and health insurance, property and casualty insurance, banking, asset management, and digital technology platforms. Ping An Group includes Ping An Life, Ping An P&C, Ping An Bank, Ping An Asset Management, Ping An Securities, Lufax, Ping An Health, and OneConnect. Its annual reports, interim reports, and operational announcements provide highly granular disclosures on insurance premium structure, agent productivity, embedded value, customer-per-customer cross-sell ratios, and the financial performance of its technology subsidiaries. Ping An is widely regarded as the most data-rich Chinese insurance group, providing essential reference data for analyzing China's life insurance industry transformation, integrated financial services models, and insurtech development.",
+        "zh": "中国平安保险（集团）股份有限公司是按营业收入、市值和总资产规模衡量全球最大的综合金融服务集团之一。平安1988年创立于深圳，在香港联合交易所（2318.HK）和上海证券交易所（601318.SH）两地上市，业务覆盖寿险与健康险、财产保险、银行、资产管理及数字科技等领域。平安集团旗下包括平安人寿、平安产险、平安银行、平安资产管理、平安证券、陆金所、平安健康及金融壹账通等子公司。集团定期发布年报、中报和经营公告，提供高度详尽的披露内容，涵盖保险保费结构、代理人产能、内含价值、客均合同数交叉销售指标，以及科技子公司财务表现。平安被公认为中国数据披露最丰富的保险集团，是分析中国寿险行业转型、综合金融服务模式以及保险科技发展的重要参考依据。"
+      },
+      "website": "https://www.pingan.cn",
+      "data_url": "https://www.pingan.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "insurance",
+        "banking",
+        "economics"
+      ],
+      "update_frequency": "quarterly",
+      "tags": [
+        "ping-an",
+        "pingan",
+        "china-pingan",
+        "中国平安",
+        "平安集团",
+        "life-insurance",
+        "寿险",
+        "property-insurance",
+        "产险",
+        "embedded-value",
+        "内含价值",
+        "agent-productivity",
+        "代理人产能",
+        "integrated-finance",
+        "综合金融",
+        "insurtech",
+        "保险科技",
+        "ping-an-bank",
+        "平安银行",
+        "lufax",
+        "陆金所"
+      ],
+      "data_content": {
+        "en": [
+          "Annual and interim financial reports: consolidated financial statements covering insurance, banking, asset management, and technology segments; segment-level revenue, profit contribution, and capital allocation",
+          "Life insurance metrics: new business value (NBV), embedded value (EV), agent headcount and productivity, persistency rates by policy duration, and operating ROEV (return on embedded value)",
+          "Property and casualty insurance disclosures: motor and non-motor premium income, combined operating ratio, claim frequency, and the digital underwriting transformation effects",
+          "Ping An Bank statistics: retail and corporate loan balances, non-performing loan ratios, net interest margin, fee income, and digital banking customer metrics",
+          "Customer and ecosystem data: total Group retail customers, contracts per customer, customer migration across financial and healthcare ecosystems, app monthly active users",
+          "Investment portfolio: insurance funds and proprietary investment allocation across fixed income, equities, real estate, and infrastructure; ESG and green-finance investment disclosures",
+          "Technology subsidiary performance: revenues, operating losses or profits, and key operating metrics from Lufax, OneConnect, Ping An Health, and Ping An Good Doctor",
+          "Solvency and capital adequacy: C-ROSS solvency ratios for Ping An Life and Ping An P&C, Group capital adequacy assessments, and stress-test outcomes"
+        ],
+        "zh": [
+          "年报和中报：保险、银行、资产管理和科技业务板块的合并财务报表；分部收入、利润贡献和资本配置情况",
+          "寿险关键指标：新业务价值（NBV）、内含价值（EV）、代理人数量和人均产能、按保单年期的继续率，以及内含价值营运回报率（ROEV）",
+          "产险披露：车险与非车险保费收入、综合成本率、出险频率及数字化承保转型成效",
+          "平安银行数据：零售和对公贷款余额、不良贷款率、净息差、手续费收入及数字银行客户指标",
+          "客户与生态数据：集团零售客户总量、客均合同数、客户在金融与医疗生态间的迁徙情况、APP月活跃用户",
+          "投资组合：保险资金及自营投资在固定收益、权益、房地产和基础设施中的配置；ESG与绿色金融投资披露",
+          "科技子公司业绩：陆金所、金融壹账通、平安健康（平安好医生）的营业收入、经营盈亏及关键运营指标",
+          "偿付能力与资本充足性：平安人寿与平安产险偿二代（C-ROSS）偿付能力充足率、集团资本充足性评估及压力测试结果"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-pingan.json"
+    },
+    {
       "id": "china-sge",
       "name": {
         "en": "Shanghai Gold Exchange",
@@ -13907,6 +14190,81 @@
       },
       "has_api": false,
       "file_path": "china/finance/china-trustee-association.json"
+    },
+    {
+      "id": "china-wind",
+      "name": {
+        "en": "Wind Information (Wind 万得)",
+        "zh": "万得信息技术股份有限公司（Wind）"
+      },
+      "description": {
+        "en": "Wind Information Co., Ltd. (Wind 万得) is China's leading financial information services provider, operating the Wind Financial Terminal — the most widely used market data and financial analytics platform across Chinese mainland investment institutions, banks, brokerages, asset managers, regulators, and academic researchers. Wind is the de-facto data infrastructure for China's domestic capital markets, comparable to Bloomberg or Refinitiv globally. Its database covers all Chinese listed companies, A-share and H-share equities, the bond market, futures and options, foreign exchange, commodities, mutual funds, private funds, REITs, macroeconomic indicators, industry economic data, ESG metrics, and unlisted-company corporate intelligence. Wind also provides historical pricing, financial statements, analyst earnings forecasts, corporate actions, ownership data, and proprietary indices. Through its public-facing site Wind Information Network and its Wind Economic Database (WindEDB), Wind publishes summary financial market data, sample reports, and macro indicators that are referenced extensively in policy research, academic papers, and financial industry analyses, making it an essential data source for understanding the structure and dynamics of China's capital markets.",
+        "zh": "万得信息技术股份有限公司（Wind）是中国领先的金融信息服务提供商，其Wind金融终端是中国大陆投资机构、银行、券商、资产管理公司、监管机构和学术研究者使用最广泛的市场数据和金融分析平台，是中国境内资本市场的事实数据基础设施，地位类似全球的彭博（Bloomberg）和路孚特（Refinitiv）。Wind数据库覆盖全部中国上市公司、A股与H股股票、债券市场、期货与期权、外汇、大宗商品、公募基金、私募基金、公募REITs、宏观经济指标、行业经济数据、ESG指标，以及非上市公司商业情报。Wind还提供历史价格、财务报表、分析师盈利预测、公司行为、股东持仓数据及自有指数。通过其对外的万得信息网及万得宏观经济数据库（WindEDB），Wind发布金融市场综述数据、样本报告及宏观指标，被广泛引用于政策研究、学术论文及金融行业分析中，是理解中国资本市场结构和动态不可或缺的数据来源。"
+      },
+      "website": "https://www.wind.com.cn",
+      "data_url": "https://www.wind.com.cn",
+      "api_url": null,
+      "authority_level": "commercial",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "finance",
+        "economics",
+        "markets",
+        "statistics"
+      ],
+      "update_frequency": "real-time",
+      "tags": [
+        "wind",
+        "万得",
+        "wind-information",
+        "financial-terminal",
+        "金融终端",
+        "market-data",
+        "市场数据",
+        "a-shares",
+        "a股",
+        "bond-market",
+        "债券市场",
+        "futures",
+        "期货",
+        "mutual-funds",
+        "公募基金",
+        "private-funds",
+        "私募基金",
+        "macro-indicators",
+        "宏观经济",
+        "windedb",
+        "万得数据库",
+        "esg-data",
+        "esg数据"
+      ],
+      "data_content": {
+        "en": [
+          "Equities database: real-time and historical pricing, full A-share, B-share, H-share and US-listed Chinese stocks; financial statements, ratios, dividends, and corporate actions",
+          "Bond market data: government bonds, policy bank bonds, financial bonds, corporate bonds, ABS, convertibles; yield curves, credit spreads, default events, and rating histories",
+          "Futures and options: commodity futures (SHFE, DCE, CZCE, INE), financial futures (CFFEX), and exchange-listed options with full tick-level data",
+          "Mutual funds and private funds: NAV histories, holdings, performance attribution, manager profiles, and fund flow analytics",
+          "Macroeconomic indicators: GDP, CPI, PPI, M0/M1/M2, foreign exchange reserves, fiscal revenue, balance of payments, and provincial/sectoral economic indicators (WindEDB)",
+          "Industry economic data: PMI sub-indices, industry value added, capacity utilization, output, inventory, and sector-level supply chain indicators",
+          "ESG database: corporate ESG ratings, climate disclosures, green bond data, and sustainability-linked finance instruments tracking",
+          "Proprietary indices: Wind All-A index, Wind sector indices, ChinaBond credit indices, and customized strategy indices",
+          "Wind Economic Database (WindEDB): consolidated macroeconomic and industry data with API access for institutional clients and researchers"
+        ],
+        "zh": [
+          "股票数据库：A股、B股、H股及美股中概股的实时和历史价格；财务报表、财务比率、分红和公司行为",
+          "债券市场数据：国债、政策性金融债、金融债、公司债、ABS、可转债等品种；收益率曲线、信用利差、违约事件和评级历史",
+          "期货与期权：大宗商品期货（上期所、大商所、郑商所、上海国际能源交易中心）、金融期货（中金所），以及场内期权全Tick级数据",
+          "公募与私募基金：净值历史、持仓、业绩归因、基金经理档案及资金流向分析",
+          "宏观经济指标：GDP、CPI、PPI、M0/M1/M2、外汇储备、财政收入、国际收支以及省级和行业层面经济指标（WindEDB）",
+          "行业经济数据：PMI分项指数、行业增加值、产能利用率、产量、库存以及行业供应链指标",
+          "ESG数据库：企业ESG评级、气候信息披露、绿色债券数据以及可持续发展挂钩金融工具跟踪",
+          "自有指数：万得全A指数、万得行业指数、中债信用类指数及定制策略指数",
+          "万得宏观经济数据库（WindEDB）：综合宏观经济与行业数据，向机构客户和研究人员提供API访问"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/finance/china-wind.json"
     },
     {
       "id": "china-xinhua-finance",

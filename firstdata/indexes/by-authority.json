@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T03:32:01.872037+00:00",
-    "total_sources": 758,
+    "generated_at": "2026-05-13T02:38:52.157032+00:00",
+    "total_sources": 763,
     "authority_counts": {
       "research": 146,
       "international": 79,
       "government": 374,
       "other": 76,
       "market": 47,
-      "commercial": 36
+      "commercial": 41
     },
     "version": "2.0"
   },
@@ -8876,6 +8876,66 @@
         "data_url": "https://www.e-chinalife.com",
         "has_api": false,
         "file_path": "china/finance/china-chinalife.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cpic",
+        "name": {
+          "en": "China Pacific Insurance (Group) Co., Ltd. (CPIC)",
+          "zh": "中国太平洋保险（集团）股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.cpic.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-cpic.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-eastmoney",
+        "name": {
+          "en": "East Money Information (东方财富)",
+          "zh": "东方财富信息股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://data.eastmoney.com",
+        "has_api": false,
+        "file_path": "china/finance/china-eastmoney.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-picc",
+        "name": {
+          "en": "People's Insurance Company (Group) of China (PICC)",
+          "zh": "中国人民保险集团股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.picc.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-picc.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-pingan",
+        "name": {
+          "en": "Ping An Insurance (Group) Company of China",
+          "zh": "中国平安保险（集团）股份有限公司"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.pingan.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-pingan.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-wind",
+        "name": {
+          "en": "Wind Information (Wind 万得)",
+          "zh": "万得信息技术股份有限公司（Wind）"
+        },
+        "authority_level": "commercial",
+        "data_url": "https://www.wind.com.cn",
+        "has_api": false,
+        "file_path": "china/finance/china-wind.json",
         "geographic_scope": "national"
       },
       {
