@@ -1,0 +1,64 @@
+{
+  "id": "china-cfia",
+  "name": {
+    "en": "China Biotech Fermentation Industry Association (CFIA)",
+    "zh": "中国生物发酵产业协会"
+  },
+  "description": {
+    "en": "China Biotech Fermentation Industry Association (CFIA) is a national, non-profit industry association under the supervision of the State-owned Assets Supervision and Administration Commission (SASAC) and the Ministry of Civil Affairs, originally established in 1989 and reconstituted in 2014 to expand its scope from traditional fermentation to the broader biotech fermentation industry. CFIA is the authoritative industry organization for China's fermentation sector covering amino acids (lysine, threonine, glutamic acid/MSG), organic acids (citric acid, lactic acid, gluconic acid), enzymes (industrial and food enzymes), polyols (xylitol, erythritol, sorbitol), starch sugars, yeast, microbial pharmaceuticals, food additives, and synthetic biology products. China is the world's largest producer and exporter of major fermentation products, and CFIA publishes the annual 'China Biotech Fermentation Industry Development Report' along with sub-sector statistical bulletins. CFIA data on fermentation industry capacity, production, exports, and key product prices (lysine, citric acid, MSG, xylitol) are essential references for understanding global fermentation supply chains and China's competitive position in industrial biotechnology.",
+    "zh": "中国生物发酵产业协会（CFIA）是经国务院国资委和民政部业务指导的全国性非营利行业协会，原中国发酵工业协会成立于1989年，2014年更名重组以扩大业务范围至更广泛的生物发酵产业。协会是中国发酵行业的权威组织，业务范围涵盖氨基酸（赖氨酸、苏氨酸、谷氨酸/味精）、有机酸（柠檬酸、乳酸、葡萄糖酸）、酶制剂（工业酶和食品酶）、多元醇（木糖醇、赤藓糖醇、山梨醇）、淀粉糖、酵母、微生物医药、食品添加剂和合成生物学产品。中国是全球主要发酵产品最大生产国和出口国，协会发布年度《中国生物发酵产业发展报告》及各子行业统计公报。协会关于发酵行业产能、产量、出口、主要产品价格（赖氨酸、柠檬酸、味精、木糖醇）的数据，是研究全球发酵供应链以及中国在工业生物技术领域竞争地位的重要参考。"
+  },
+  "website": "http://www.cfia.org.cn",
+  "data_url": "http://www.cfia.org.cn",
+  "api_url": null,
+  "authority_level": "research",
+  "country": "CN",
+  "geographic_scope": "national",
+  "domains": [
+    "industry",
+    "biotechnology",
+    "agriculture"
+  ],
+  "update_frequency": "annual",
+  "tags": [
+    "cfia",
+    "china-cfia",
+    "中国生物发酵产业协会",
+    "biotech-fermentation",
+    "生物发酵",
+    "amino-acids",
+    "氨基酸",
+    "lysine",
+    "赖氨酸",
+    "citric-acid",
+    "柠檬酸",
+    "msg",
+    "味精",
+    "enzymes",
+    "酶制剂",
+    "synthetic-biology",
+    "合成生物学"
+  ],
+  "data_content": {
+    "en": [
+      "China Biotech Fermentation Industry Development Report: annual flagship report providing comprehensive statistics on industry output, capacity, exports, and sub-sector growth across amino acids, organic acids, enzymes, polyols, yeast, and microbial products",
+      "Sub-sector statistical bulletins: monthly and quarterly statistics on lysine, threonine, MSG, citric acid, xylitol, erythritol, lactic acid, gluconic acid, and yeast production and price trends",
+      "Enterprise directory: leading fermentation enterprises in China including state-owned, private, and foreign-invested companies with capacity, product portfolio, and certification information",
+      "Industry standards database: group standards (T/CBFIA standards) and recommended technical specifications for fermentation processes, product quality, environmental compliance, and food safety",
+      "Trade and export data: HS-code-level export statistics for major fermentation products, anti-dumping case tracking, and overseas market analysis",
+      "Technology and innovation reports: research progress on synthetic biology applications, strain improvement, fermentation process optimization, and green manufacturing in fermentation",
+      "Industry conference proceedings: papers and presentations from the China Biotech Fermentation Industry Annual Conference and specialty subcommittee meetings",
+      "Policy and regulation compendium: collection of policies on food additives, microbial drugs, synthetic biology, and dual-control of energy consumption applicable to fermentation enterprises"
+    ],
+    "zh": [
+      "《中国生物发酵产业发展报告》：年度旗舰报告，提供氨基酸、有机酸、酶制剂、多元醇、酵母及微生物产品等子行业产量、产能、出口、增长的全面统计",
+      "子行业统计公报：赖氨酸、苏氨酸、味精、柠檬酸、木糖醇、赤藓糖醇、乳酸、葡萄糖酸、酵母等产品的月度和季度产量及价格趋势统计",
+      "企业目录：中国领先发酵企业（含国企、民企和外资企业）的产能、产品组合、认证信息",
+      "行业标准数据库：发酵工艺、产品质量、环境合规和食品安全相关的团体标准（T/CBFIA标准）和推荐性技术规范",
+      "贸易与出口数据：主要发酵产品的HS编码级出口统计、反倾销案件跟踪、海外市场分析",
+      "技术与创新报告：合成生物学应用、菌株改良、发酵工艺优化、发酵行业绿色制造的研究进展",
+      "行业会议论文：中国生物发酵产业年会及专业委员会会议的论文和演讲",
+      "政策法规汇编：发酵企业适用的食品添加剂、微生物药物、合成生物学、能耗双控相关政策汇编"
+    ]
+  }
+}
