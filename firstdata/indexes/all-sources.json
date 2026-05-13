@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-05-13T02:38:52.157032+00:00",
-    "total_sources": 763,
+    "generated_at": "2026-05-13T06:49:25.467375+00:00",
+    "total_sources": 768,
     "version": "2.0",
     "schema_version": "v2.0.0"
   },
@@ -2244,6 +2244,68 @@
       },
       "has_api": false,
       "file_path": "china/construction/china-beike-research.json"
+    },
+    {
+      "id": "china-cabee",
+      "name": {
+        "en": "China Association of Building Energy Efficiency (CABEE)",
+        "zh": "中国建筑节能协会"
+      },
+      "description": {
+        "en": "China Association of Building Energy Efficiency (CABEE) is a national, non-profit, industry-wide social organization registered with the Ministry of Civil Affairs and supervised by the Ministry of Housing and Urban-Rural Development (MOHURD). Founded in 2010, CABEE serves as the leading platform for research, policy advocacy, and industry coordination on building energy conservation, green buildings, near-zero energy buildings, building decarbonization, and renewable energy integration in China's construction sector. The association organizes the annual China Building Energy Conservation Conference, publishes the influential 'China Building Energy Consumption and Carbon Emissions Research Report', maintains technical committees on prefabricated buildings, healthy buildings, building electrification, photovoltaic-building integration (BIPV), and operates standards drafting groups. Its data and reports are critical references for tracking China's building sector carbon emissions baseline, energy consumption intensity by building type and climate zone, and the implementation progress of dual-carbon goals in construction.",
+        "zh": "中国建筑节能协会（CABEE）是经民政部登记注册、住房和城乡建设部业务指导的全国性非营利行业社团组织。协会成立于2010年，是中国建筑节能、绿色建筑、近零能耗建筑、建筑脱碳和可再生能源建筑应用领域的研究、政策倡导和行业协调的核心平台。协会主办年度《中国建筑节能大会》，定期发布权威的《中国建筑能耗与碳排放研究报告》，下设装配式建筑、健康建筑、建筑电气化、光伏建筑一体化（BIPV）等多个专业委员会，并主持多项行业标准编制工作。协会数据和报告是研究中国建筑领域碳排放基线、不同建筑类型和气候区能耗强度、以及建筑业双碳目标实施进展的重要参考。"
+      },
+      "website": "https://www.cabee.org",
+      "data_url": "https://www.cabee.org",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "construction",
+        "energy",
+        "environment"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "cabee",
+        "china-cabee",
+        "中国建筑节能协会",
+        "建筑节能",
+        "building-energy-efficiency",
+        "green-building",
+        "绿色建筑",
+        "near-zero-energy-building",
+        "近零能耗建筑",
+        "building-carbon-emissions",
+        "建筑碳排放",
+        "bipv",
+        "光伏建筑一体化",
+        "prefabricated-building",
+        "装配式建筑"
+      ],
+      "data_content": {
+        "en": [
+          "China Building Energy Consumption and Carbon Emissions Research Report: annual report providing comprehensive data on building sector energy consumption, electricity use, primary energy use, and CO2 emissions, broken down by residential vs. public buildings, by climate zone, and by operational vs. construction-stage emissions",
+          "Building energy efficiency standards database: technical specifications, design standards, and evaluation standards for green buildings, near-zero energy buildings, ultra-low energy buildings, and healthy buildings",
+          "Industry development reports: annual reports on prefabricated buildings, building photovoltaic (BIPV) projects, district heating, and building electrification progress in China",
+          "Project case database: certified green building projects, near-zero energy demonstration projects, and ultra-low energy buildings with detailed performance data",
+          "Policy compendium: collection of national and provincial policies on building energy efficiency, dual-carbon goals in construction, and renewable energy in buildings",
+          "Conference proceedings: papers and presentations from the annual China Building Energy Conservation Conference covering technology, policy, and industry trends",
+          "Statistical bulletins: industry surveys on building energy retrofit projects, certification statistics for green building star ratings, and energy service company (ESCO) market data"
+        ],
+        "zh": [
+          "《中国建筑能耗与碳排放研究报告》：年度报告，提供建筑领域能源消耗、电力消耗、一次能源消耗及二氧化碳排放的综合数据，按居住建筑与公共建筑、气候分区、运行阶段与建造阶段排放分别披露",
+          "建筑节能标准数据库：绿色建筑、近零能耗建筑、超低能耗建筑、健康建筑的技术规范、设计标准和评价标准",
+          "行业发展报告：装配式建筑、光伏建筑一体化（BIPV）项目、区域供热、建筑电气化等领域的年度发展报告",
+          "项目案例数据库：通过认证的绿色建筑、近零能耗示范项目、超低能耗建筑详细性能数据",
+          "政策汇编：国家和省级建筑节能、建筑领域双碳目标、建筑可再生能源应用相关政策汇编",
+          "会议论文：年度中国建筑节能大会论文与演讲，涵盖技术、政策和行业趋势",
+          "统计公报：建筑节能改造项目调查、绿色建筑星级认证统计、合同能源管理（ESCO）市场数据"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/construction/china-cabee.json"
     },
     {
       "id": "china-caupd",
@@ -5938,6 +6000,71 @@
       },
       "has_api": false,
       "file_path": "china/economy/macro/china-cei.json"
+    },
+    {
+      "id": "china-cinic-net",
+      "name": {
+        "en": "China Industry Economic Information Network (CINIC)",
+        "zh": "中国产业经济信息网"
+      },
+      "description": {
+        "en": "China Industry Economic Information Network (CINIC) is a national-level industry economic information portal supervised by the Publicity Department of the Communist Party of China (中宣部) and operated by the China Newspaper Industry Association (中国报业协会). Established as one of the official industry economic information aggregation platforms, CINIC provides authoritative coverage and data analysis on China's macroeconomic indicators, sectoral industrial development, regional economic dynamics, enterprise business performance, and government industrial policies. The network features dedicated channels for finance, energy, automotive, real estate, technology, healthcare, agriculture, and consumer goods, publishing daily industry news briefings, industry development white papers, regional economic reports, and exclusive interviews with industry leaders. As a CCP-affiliated industry information platform, CINIC's reports and data carry official endorsement and are widely cited in policy research and industry analysis. CINIC content is essential for tracking the official narrative on China's industrial transformation, the implementation of national industrial policies, and the regional distribution of industrial investment and enterprise activity.",
+        "zh": "中国产业经济信息网（CINIC）是经中共中央宣传部主管、中国报业协会主办的国家级产业经济信息门户。作为官方产业经济信息聚合平台之一，CINIC对中国宏观经济指标、行业工业发展、区域经济动态、企业经营业绩和政府产业政策进行权威报道与数据分析。网站设有金融、能源、汽车、房地产、科技、医疗、农业、消费品等专题频道，定期发布行业新闻日报、行业发展白皮书、区域经济报告，及行业领军人物专访。作为党中央宣传部主管的产业信息平台，CINIC的报告和数据带有官方背书，被政策研究和行业分析广泛引用。CINIC内容是研究中国产业转型官方叙事、国家产业政策实施情况、以及区域工业投资和企业活动分布的重要参考。"
+      },
+      "website": "https://www.cinic.org.cn",
+      "data_url": "https://www.cinic.org.cn",
+      "api_url": null,
+      "authority_level": "government",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "economics",
+        "industry",
+        "media"
+      ],
+      "update_frequency": "daily",
+      "tags": [
+        "cinic",
+        "china-cinic-net",
+        "中国产业经济信息网",
+        "中宣部",
+        "industrial-economy",
+        "产业经济",
+        "industrial-policy",
+        "产业政策",
+        "regional-economy",
+        "区域经济",
+        "macroeconomy",
+        "宏观经济",
+        "industry-news",
+        "行业新闻",
+        "official-media",
+        "官方媒体"
+      ],
+      "data_content": {
+        "en": [
+          "Daily industry news: comprehensive daily reporting on macroeconomic indicators, industry sectoral developments, enterprise news, and government policy releases organized by industry vertical",
+          "Industry channel content: dedicated columns for finance, energy, automotive, real estate, technology, healthcare, agriculture, consumer goods, transportation, and infrastructure with curated news, analysis, and data",
+          "Regional economic reports: provincial and city-level economic performance summaries, regional industrial development plans, and sub-national policy implementation tracking",
+          "Industry development white papers: in-depth white papers on emerging industries, industrial transformation, and digital economy development jointly produced with research institutions",
+          "Government policy interpretation: official interpretation and analysis of National Development and Reform Commission, Ministry of Industry and Information Technology, and other ministry policies",
+          "Enterprise news and rankings: coverage of major enterprise announcements, central state-owned enterprise (SOE) reform progress, private enterprise development, and industry rankings",
+          "Industrial statistics digest: aggregated coverage of statistics released by NBS, MIIT, customs, and industry associations with editorial commentary",
+          "Industry interviews and opinion pieces: exclusive interviews with industry leaders, government officials, and economists on industrial policy and trends"
+        ],
+        "zh": [
+          "行业新闻日报：每日全面报道宏观经济指标、行业部门发展、企业新闻、政府政策发布，按行业垂类组织",
+          "行业频道内容：金融、能源、汽车、房地产、科技、医疗、农业、消费品、交通、基础设施等专题栏目，含精选新闻、分析和数据",
+          "区域经济报告：省级和市级经济运行综述、区域产业发展规划、地方政策落实跟踪",
+          "行业发展白皮书：与研究机构联合制作的新兴产业、产业转型、数字经济发展深度白皮书",
+          "政府政策解读：国家发改委、工信部及其他部委政策的官方解读和分析",
+          "企业新闻和排行榜：重大企业公告、央企改革进展、民营企业发展、行业排行榜报道",
+          "工业统计摘要：国家统计局、工信部、海关、行业协会发布统计的聚合报道及编辑评论",
+          "行业访谈与观点：行业领军人物、政府官员、经济学家关于产业政策和趋势的独家访谈"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/economy/macro/china-cinic-net.json"
     },
     {
       "id": "china-drcnet",
@@ -19010,6 +19137,68 @@
       "file_path": "china/health/china-cmde.json"
     },
     {
+      "id": "china-cmea",
+      "name": {
+        "en": "China Medical Education Association (CMEA)",
+        "zh": "中国医药教育协会"
+      },
+      "description": {
+        "en": "China Medical Education Association (CMEA) is a national, non-profit social organization registered with the Ministry of Civil Affairs, originally founded in 1992 and supervised by the National Health Commission (NHC). CMEA is one of the most important medical professional societies in China, with over 200 specialized professional committees covering virtually every medical specialty including cardiovascular medicine, oncology, neurology, surgery, pharmacy, traditional Chinese medicine, public health, hospital management, and medical education research. The association organizes continuing medical education (CME) programs, develops clinical practice guidelines and consensus documents, conducts physician training and certification programs, and publishes specialty-specific consensus statements that significantly influence medical practice in China. CMEA's clinical guidelines, expert consensus documents, and CME activity data are essential references for understanding the standardization of medical practice in China, the diffusion of new diagnostic and therapeutic technologies, and the implementation pathways of national health policy initiatives.",
+        "zh": "中国医药教育协会（CMEA）是经民政部登记注册、国家卫生健康委员会业务指导的全国性非营利社会组织，创办于1992年。中国医药教育协会是中国最重要的医学专业学术组织之一，下设200余个分支专业委员会，涵盖几乎所有医学专科，包括心血管病学、肿瘤学、神经病学、外科、药学、中医药、公共卫生、医院管理、医学教育研究等。协会组织继续医学教育（CME）项目，制定临床实践指南和专家共识，开展医师培训和认证项目，发布的专科共识声明对中国医学实践具有重要影响。协会的临床指南、专家共识文件和继续医学教育活动数据是研究中国医学实践标准化、新型诊疗技术推广及国家卫生政策实施路径的重要参考。"
+      },
+      "website": "http://www.cmea.org.cn",
+      "data_url": "http://www.cmea.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "health",
+        "education",
+        "research"
+      ],
+      "update_frequency": "irregular",
+      "tags": [
+        "cmea",
+        "china-cmea",
+        "中国医药教育协会",
+        "medical-education",
+        "医学教育",
+        "continuing-medical-education",
+        "继续医学教育",
+        "clinical-guidelines",
+        "临床指南",
+        "expert-consensus",
+        "专家共识",
+        "physician-training",
+        "医师培训",
+        "healthcare",
+        "医疗卫生"
+      ],
+      "data_content": {
+        "en": [
+          "Clinical practice guidelines and expert consensus documents: specialty-specific guidelines and consensus statements published by CMEA professional committees covering oncology, cardiovascular disease, neurology, infectious diseases, pharmacy, surgery, and other specialties",
+          "Continuing medical education (CME) program directory: registered CME activities including national-level CME projects, online courses, and academic conferences with CME credit assignments",
+          "Professional committee directory: organizational details, leadership, and academic activities of over 200 specialty professional committees",
+          "Conference proceedings and academic publications: papers, abstracts, and presentations from CMEA-organized national academic conferences and specialty annual meetings",
+          "Physician training and certification data: training program records and certification statistics for specialty skills training, rational drug use programs, and clinical research methodology training",
+          "Public health and disease management projects: data from chronic disease management initiatives, rational antibiotic use programs, and grassroots physician capacity building projects",
+          "Industry-academia collaboration data: medical product post-marketing surveillance, real-world evidence collection projects, and pharmacist-physician integration programs"
+        ],
+        "zh": [
+          "临床实践指南和专家共识文件：协会专业委员会发布的专科指南和共识声明，涵盖肿瘤学、心血管病、神经病学、感染病、药学、外科等专科",
+          "继续医学教育（CME）项目目录：已登记CME活动，包括国家级CME项目、网络课程及附CME学分的学术会议",
+          "专业委员会目录：200余个专科专业委员会的组织详情、负责人及学术活动",
+          "会议论文与学术出版：协会主办的全国学术会议和专科年会的论文、摘要和演讲",
+          "医师培训和认证数据：专科技能培训、合理用药项目、临床研究方法学培训的项目记录和认证统计",
+          "公共卫生与疾病管理项目：慢性病管理项目、合理抗生素使用项目、基层医生能力建设项目数据",
+          "产学研合作数据：药品上市后监测、真实世界证据收集项目、药师-医师协同诊疗项目"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/health/china-cmea.json"
+    },
+    {
       "id": "china-cns",
       "name": {
         "en": "Chinese Nutrition Society",
@@ -20417,6 +20606,137 @@
       "authority_level": "commercial",
       "has_api": false,
       "file_path": "china/industry/china-ceeia.json"
+    },
+    {
+      "id": "china-cfia",
+      "name": {
+        "en": "China Biotech Fermentation Industry Association (CFIA)",
+        "zh": "中国生物发酵产业协会"
+      },
+      "description": {
+        "en": "China Biotech Fermentation Industry Association (CFIA) is a national, non-profit industry association under the supervision of the State-owned Assets Supervision and Administration Commission (SASAC) and the Ministry of Civil Affairs, originally established in 1989 and reconstituted in 2014 to expand its scope from traditional fermentation to the broader biotech fermentation industry. CFIA is the authoritative industry organization for China's fermentation sector covering amino acids (lysine, threonine, glutamic acid/MSG), organic acids (citric acid, lactic acid, gluconic acid), enzymes (industrial and food enzymes), polyols (xylitol, erythritol, sorbitol), starch sugars, yeast, microbial pharmaceuticals, food additives, and synthetic biology products. China is the world's largest producer and exporter of major fermentation products, and CFIA publishes the annual 'China Biotech Fermentation Industry Development Report' along with sub-sector statistical bulletins. CFIA data on fermentation industry capacity, production, exports, and key product prices (lysine, citric acid, MSG, xylitol) are essential references for understanding global fermentation supply chains and China's competitive position in industrial biotechnology.",
+        "zh": "中国生物发酵产业协会（CFIA）是经国务院国资委和民政部业务指导的全国性非营利行业协会，原中国发酵工业协会成立于1989年，2014年更名重组以扩大业务范围至更广泛的生物发酵产业。协会是中国发酵行业的权威组织，业务范围涵盖氨基酸（赖氨酸、苏氨酸、谷氨酸/味精）、有机酸（柠檬酸、乳酸、葡萄糖酸）、酶制剂（工业酶和食品酶）、多元醇（木糖醇、赤藓糖醇、山梨醇）、淀粉糖、酵母、微生物医药、食品添加剂和合成生物学产品。中国是全球主要发酵产品最大生产国和出口国，协会发布年度《中国生物发酵产业发展报告》及各子行业统计公报。协会关于发酵行业产能、产量、出口、主要产品价格（赖氨酸、柠檬酸、味精、木糖醇）的数据，是研究全球发酵供应链以及中国在工业生物技术领域竞争地位的重要参考。"
+      },
+      "website": "http://www.cfia.org.cn",
+      "data_url": "http://www.cfia.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "biotechnology",
+        "agriculture"
+      ],
+      "update_frequency": "annual",
+      "tags": [
+        "cfia",
+        "china-cfia",
+        "中国生物发酵产业协会",
+        "biotech-fermentation",
+        "生物发酵",
+        "amino-acids",
+        "氨基酸",
+        "lysine",
+        "赖氨酸",
+        "citric-acid",
+        "柠檬酸",
+        "msg",
+        "味精",
+        "enzymes",
+        "酶制剂",
+        "synthetic-biology",
+        "合成生物学"
+      ],
+      "data_content": {
+        "en": [
+          "China Biotech Fermentation Industry Development Report: annual flagship report providing comprehensive statistics on industry output, capacity, exports, and sub-sector growth across amino acids, organic acids, enzymes, polyols, yeast, and microbial products",
+          "Sub-sector statistical bulletins: monthly and quarterly statistics on lysine, threonine, MSG, citric acid, xylitol, erythritol, lactic acid, gluconic acid, and yeast production and price trends",
+          "Enterprise directory: leading fermentation enterprises in China including state-owned, private, and foreign-invested companies with capacity, product portfolio, and certification information",
+          "Industry standards database: group standards (T/CBFIA standards) and recommended technical specifications for fermentation processes, product quality, environmental compliance, and food safety",
+          "Trade and export data: HS-code-level export statistics for major fermentation products, anti-dumping case tracking, and overseas market analysis",
+          "Technology and innovation reports: research progress on synthetic biology applications, strain improvement, fermentation process optimization, and green manufacturing in fermentation",
+          "Industry conference proceedings: papers and presentations from the China Biotech Fermentation Industry Annual Conference and specialty subcommittee meetings",
+          "Policy and regulation compendium: collection of policies on food additives, microbial drugs, synthetic biology, and dual-control of energy consumption applicable to fermentation enterprises"
+        ],
+        "zh": [
+          "《中国生物发酵产业发展报告》：年度旗舰报告，提供氨基酸、有机酸、酶制剂、多元醇、酵母及微生物产品等子行业产量、产能、出口、增长的全面统计",
+          "子行业统计公报：赖氨酸、苏氨酸、味精、柠檬酸、木糖醇、赤藓糖醇、乳酸、葡萄糖酸、酵母等产品的月度和季度产量及价格趋势统计",
+          "企业目录：中国领先发酵企业（含国企、民企和外资企业）的产能、产品组合、认证信息",
+          "行业标准数据库：发酵工艺、产品质量、环境合规和食品安全相关的团体标准（T/CBFIA标准）和推荐性技术规范",
+          "贸易与出口数据：主要发酵产品的HS编码级出口统计、反倾销案件跟踪、海外市场分析",
+          "技术与创新报告：合成生物学应用、菌株改良、发酵工艺优化、发酵行业绿色制造的研究进展",
+          "行业会议论文：中国生物发酵产业年会及专业委员会会议的论文和演讲",
+          "政策法规汇编：发酵企业适用的食品添加剂、微生物药物、合成生物学、能耗双控相关政策汇编"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-cfia.json"
+    },
+    {
+      "id": "china-cmif",
+      "name": {
+        "en": "China Machinery Industry Federation (CMIF)",
+        "zh": "中国机械工业联合会"
+      },
+      "description": {
+        "en": "China Machinery Industry Federation (CMIF) is the largest national, non-profit industry federation for China's machinery sector, established in 1988 (originally formed as China Machinery Industry Management Association) and reconstituted in 2001 after the dissolution of the former Ministry of Machinery Industry. CMIF unites over 100 national-level industry associations and societies covering automotive, agricultural machinery, construction machinery, machine tools, internal combustion engines, electric machinery, instruments and meters, heavy machinery, general machinery, and basic components. It is the most authoritative voice for China's machinery industry, publishing the official 'China Machinery Industry Yearbook', the monthly 'China Machinery Industry Economic Operation Report', and the prestigious 'China Machinery Industry Top 100 Enterprises' ranking. CMIF data on machinery industry output value, profit, exports, capacity utilization, and key product output (such as machine tools, construction machinery, and CNC equipment) are critical references for tracking China's manufacturing sector evolution and the progress of high-end equipment localization under the 'Made in China 2025' strategy.",
+        "zh": "中国机械工业联合会（中机联/CMIF）是中国规模最大的全国性、非营利性机械行业联合会组织，成立于1988年（前身为中国机械工业管理协会），2001年原机械工业部撤销后重新整合组建。中机联整合了汽车、农业机械、工程机械、机床、内燃机、电工、仪器仪表、重型机械、通用机械、基础件等100余个全国性机械行业协会和学会，是中国机械工业最具权威的行业代言人。联合会编辑出版官方《中国机械工业年鉴》、月度《中国机械工业经济运行报告》、权威的《中国机械工业百强企业》排行榜。中机联关于机械工业产值、利润、出口、产能利用率、关键产品产量（如机床、工程机械、数控装备）的数据，是研究中国制造业演变和中国制造【2025】战略下高端装备国产化进程的重要参考。"
+      },
+      "website": "http://www.cmif.org.cn",
+      "data_url": "http://www.cmif.org.cn",
+      "api_url": null,
+      "authority_level": "research",
+      "country": "CN",
+      "geographic_scope": "national",
+      "domains": [
+        "industry",
+        "manufacturing",
+        "economics"
+      ],
+      "update_frequency": "monthly",
+      "tags": [
+        "cmif",
+        "china-cmif",
+        "中机联",
+        "中国机械工业联合会",
+        "machinery-industry",
+        "机械工业",
+        "manufacturing",
+        "制造业",
+        "machine-tools",
+        "机床",
+        "construction-machinery",
+        "工程机械",
+        "made-in-china-2025",
+        "中国制造2025",
+        "high-end-equipment",
+        "高端装备"
+      ],
+      "data_content": {
+        "en": [
+          "China Machinery Industry Yearbook: annual authoritative compendium of statistics, policy reviews, and industry analysis covering all major machinery sub-sectors, published since the early 1990s",
+          "Monthly Economic Operation Report: monthly report on machinery industry value-added growth, fixed asset investment, profit, exports, imports, key product output (including machine tools, automobiles, construction machinery, internal combustion engines, large generating equipment), and capacity utilization rates",
+          "China Machinery Industry Top 100 Enterprises ranking: annual list ranking machinery enterprises by main business revenue, with detailed financial and operational disclosures",
+          "Industry sub-sector reports: detailed quarterly and annual reports from constituent associations covering automotive (CAAM), construction machinery (CCMA), machine tools (CMTBA), agricultural machinery (CAAMM), internal combustion engines, instruments, heavy machinery, electric machinery, and basic components",
+          "Technical standards database: machinery industry standards (JB standards, JB/T standards) and group standards published under CMIF's coordination",
+          "Trade statistics: machinery industry import and export data, key product trade balances, and analysis of trade frictions and overseas investment by Chinese machinery enterprises",
+          "Policy and project documents: implementation guidelines for 'Made in China 2025' machinery sub-sectors, intelligent manufacturing demonstration project lists, and industrial base reconstruction project announcements",
+          "Conference and exhibition data: statistics from major industry events including China International Industry Fair, BICES (construction machinery), CIMT (machine tools), and CIAME (agricultural machinery)"
+        ],
+        "zh": [
+          "《中国机械工业年鉴》：年度权威统计汇编、政策综述和行业分析，涵盖所有主要机械子行业，自20世纪90年代初出版至今",
+          "月度经济运行报告：机械工业增加值增速、固定资产投资、利润、进出口、主要产品产量（机床、汽车、工程机械、内燃机、大型发电设备等）和产能利用率",
+          "中国机械工业百强企业榜：按主营业务收入排名的机械企业年度榜单，附详细财务和经营披露",
+          "子行业报告：成员协会季度和年度详细报告，涵盖汽车（CAAM）、工程机械（CCMA）、机床（CMTBA）、农机（CAAMM）、内燃机、仪器仪表、重型机械、电工、基础件",
+          "技术标准数据库：机械行业标准（JB标准、JB/T标准）以及中机联协调发布的团体标准",
+          "贸易统计：机械工业进出口数据、关键产品贸易差额、贸易摩擦分析及中国机械企业海外投资动态",
+          "政策与项目文件：《中国制造2025》机械子行业实施指南、智能制造示范项目名单、产业基础再造工程项目公告",
+          "会议与展会数据：中国国际工业博览会、BICES（工程机械）、CIMT（机床）、CIAME（农机）等重大行业活动统计"
+        ]
+      },
+      "has_api": false,
+      "file_path": "china/industry/china-cmif.json"
     },
     {
       "id": "china-csei",

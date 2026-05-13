@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-13T02:38:52.157032+00:00",
+    "generated_at": "2026-05-13T06:49:25.467375+00:00",
     "total_domains": 760,
-    "total_sources": 763,
+    "total_sources": 768,
     "version": "2.0"
   },
   "domains": {
@@ -642,6 +642,18 @@
         "data_url": "https://www.catcm.org.cn",
         "has_api": false,
         "file_path": "china/health/china-catcm.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cfia",
+        "name": {
+          "en": "China Biotech Fermentation Industry Association (CFIA)",
+          "zh": "中国生物发酵产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cfia.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cfia.json",
         "geographic_scope": "national"
       },
       {
@@ -2798,6 +2810,18 @@
         "data_url": "http://www.cmba.org.cn",
         "has_api": false,
         "file_path": "china/health/china-cmba.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cfia",
+        "name": {
+          "en": "China Biotech Fermentation Industry Association (CFIA)",
+          "zh": "中国生物发酵产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cfia.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cfia.json",
         "geographic_scope": "national"
       },
       {
@@ -4999,6 +5023,18 @@
       }
     ],
     "construction": [
+      {
+        "id": "china-cabee",
+        "name": {
+          "en": "China Association of Building Energy Efficiency (CABEE)",
+          "zh": "中国建筑节能协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cabee.org",
+        "has_api": false,
+        "file_path": "china/construction/china-cabee.json",
+        "geographic_scope": "national"
+      },
       {
         "id": "china-chinabuilding",
         "name": {
@@ -9294,6 +9330,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cinic-net",
+        "name": {
+          "en": "China Industry Economic Information Network (CINIC)",
+          "zh": "中国产业经济信息网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cinic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cinic-net.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-ndrc-computing",
         "name": {
           "en": "NDRC East-to-West Computing Resources Project",
@@ -10486,6 +10534,18 @@
         "data_url": "https://www.avic.com",
         "has_api": false,
         "file_path": "china/industry/aerospace/china-avic.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmif",
+        "name": {
+          "en": "China Machinery Industry Federation (CMIF)",
+          "zh": "中国机械工业联合会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmif.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cmif.json",
         "geographic_scope": "national"
       },
       {
@@ -12630,6 +12690,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cmea",
+        "name": {
+          "en": "China Medical Education Association (CMEA)",
+          "zh": "中国医药教育协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmea.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmea.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "cnki-population-census",
         "name": {
           "en": "CNKI China Population Census Database",
@@ -14121,6 +14193,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cabee",
+        "name": {
+          "en": "China Association of Building Energy Efficiency (CABEE)",
+          "zh": "中国建筑节能协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cabee.org",
+        "has_api": false,
+        "file_path": "china/construction/china-cabee.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnea",
         "name": {
           "en": "China Nuclear Energy Association",
@@ -15236,6 +15320,18 @@
         "has_api": true,
         "file_path": "academic/multidisciplinary/owid.json",
         "geographic_scope": "global"
+      },
+      {
+        "id": "china-cabee",
+        "name": {
+          "en": "China Association of Building Energy Efficiency (CABEE)",
+          "zh": "中国建筑节能协会"
+        },
+        "authority_level": "research",
+        "data_url": "https://www.cabee.org",
+        "has_api": false,
+        "file_path": "china/construction/china-cabee.json",
+        "geographic_scope": "national"
       },
       {
         "id": "china-csus",
@@ -21917,6 +22013,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cmea",
+        "name": {
+          "en": "China Medical Education Association (CMEA)",
+          "zh": "中国医药教育协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmea.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmea.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cns",
         "name": {
           "en": "Chinese Nutrition Society",
@@ -24000,6 +24108,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cinic-net",
+        "name": {
+          "en": "China Industry Economic Information Network (CINIC)",
+          "zh": "中国产业经济信息网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cinic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cinic-net.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-sasac",
         "name": {
           "en": "State-owned Assets Supervision and Administration Commission of the State Council",
@@ -24358,6 +24478,30 @@
         "data_url": "https://www.ceeia.com",
         "has_api": false,
         "file_path": "china/industry/china-ceeia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cfia",
+        "name": {
+          "en": "China Biotech Fermentation Industry Association (CFIA)",
+          "zh": "中国生物发酵产业协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cfia.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cfia.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmif",
+        "name": {
+          "en": "China Machinery Industry Federation (CMIF)",
+          "zh": "中国机械工业联合会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmif.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cmif.json",
         "geographic_scope": "national"
       },
       {
@@ -28340,6 +28484,18 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cmif",
+        "name": {
+          "en": "China Machinery Industry Federation (CMIF)",
+          "zh": "中国机械工业联合会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmif.org.cn",
+        "has_api": false,
+        "file_path": "china/industry/china-cmif.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-csia",
         "name": {
           "en": "China Semiconductor Industry Association",
@@ -29115,6 +29271,18 @@
         "data_url": "https://www.cfa.org.cn",
         "has_api": false,
         "file_path": "china/culture/china-cfca.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cinic-net",
+        "name": {
+          "en": "China Industry Economic Information Network (CINIC)",
+          "zh": "中国产业经济信息网"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cinic.org.cn",
+        "has_api": false,
+        "file_path": "china/economy/macro/china-cinic-net.json",
         "geographic_scope": "national"
       },
       {
@@ -33621,6 +33789,18 @@
         "data_url": "http://www.cmba.org.cn",
         "has_api": false,
         "file_path": "china/health/china-cmba.json",
+        "geographic_scope": "national"
+      },
+      {
+        "id": "china-cmea",
+        "name": {
+          "en": "China Medical Education Association (CMEA)",
+          "zh": "中国医药教育协会"
+        },
+        "authority_level": "research",
+        "data_url": "http://www.cmea.org.cn",
+        "has_api": false,
+        "file_path": "china/health/china-cmea.json",
         "geographic_scope": "national"
       },
       {
