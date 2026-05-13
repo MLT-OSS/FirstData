@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-13T06:49:25.467375+00:00",
+    "generated_at": "2026-05-13T07:13:04.465636+00:00",
     "total_regions": 58,
     "total_sources": 768,
     "version": "2.0"
@@ -1036,7 +1036,7 @@
         "geographic_scope": "national"
       },
       {
-        "id": "china-cinic-net",
+        "id": "china-cinic",
         "name": {
           "en": "China Industry Economic Information Network (CINIC)",
           "zh": "中国产业经济信息网"
@@ -1044,7 +1044,7 @@
         "authority_level": "government",
         "data_url": "https://www.cinic.org.cn",
         "has_api": false,
-        "file_path": "china/economy/macro/china-cinic-net.json",
+        "file_path": "china/economy/macro/china-cinic.json",
         "geographic_scope": "national"
       },
       {
@@ -5887,6 +5887,19 @@
         "geographic_scope": "national"
       },
       {
+        "id": "china-cnnic",
+        "name": {
+          "en": "China Internet Network Information Center",
+          "zh": "中国互联网络信息中心",
+          "native": "中国互联网络信息中心"
+        },
+        "authority_level": "government",
+        "data_url": "https://www.cnnic.cn/11/38/326/index.html",
+        "has_api": false,
+        "file_path": "china/technology/internet/china-cnnic.json",
+        "geographic_scope": "national"
+      },
+      {
         "id": "china-cnnvd",
         "name": {
           "en": "China National Vulnerability Database of Information Security",
@@ -5896,19 +5909,6 @@
         "data_url": "https://www.cnnvd.org.cn/home/childHome",
         "has_api": false,
         "file_path": "china/technology/internet/china-cnnvd.json",
-        "geographic_scope": "national"
-      },
-      {
-        "id": "china-cinic",
-        "name": {
-          "en": "China Internet Network Information Center",
-          "zh": "中国互联网络信息中心",
-          "native": "中国互联网络信息中心"
-        },
-        "authority_level": "government",
-        "data_url": "https://www.cnnic.cn/11/38/326/index.html",
-        "has_api": false,
-        "file_path": "china/technology/internet/cnnic.json",
         "geographic_scope": "national"
       },
       {
