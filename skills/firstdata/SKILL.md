@@ -1,6 +1,6 @@
 ---
 name: firstdata
-description: Find official portals, APIs, and download paths for authoritative primary data sources (governments, international organizations, research institutions, etc.). Use when users need to know "where to find this data from an official source", "which source is more authoritative", or "how to cite primary data". Covers 1000+ global data sources with authority comparison and site navigation guidance.
+description: Find official portals, APIs, and download paths for authoritative primary data sources (governments, international organizations, research institutions, etc.). Use when users need to know "where to find this data from an official source", "which source is more authoritative", or "how to cite primary data". Covers the live FirstData catalog with authority comparison and site navigation guidance.
 version: 0.0.2
 metadata:
   openclaw:
@@ -17,9 +17,9 @@ metadata:
 
 ## What FirstData Is
 
-FirstData is the External Facts Context Layer for AI Agents — a purpose-built, authoritative collection of primary data sources, covering 1000+ sources to help agents locate official origins rather than generating unverified answers.
+FirstData is the External Facts Context Layer for AI Agents — a purpose-built, authoritative collection of primary data sources that helps agents locate official origins rather than generating unverified answers.
 
-It does not replace raw data — it acts as an "authoritative data navigator", taking vague user needs as input, recommending the most appropriate primary sources, and providing clear access paths, API information, and download methods so both users and agents can trace back to original evidence.
+It does not replace raw data — it acts as an "authoritative data navigator", taking vague user needs as input, recommending the most appropriate primary sources, and providing clear access paths, API information, and download methods so both users and agents can trace back to original evidence. The live catalog size is returned by the MCP `get_status` tool and should not be hard-coded in agent responses.
 
 **Coverage**:
 
@@ -84,17 +84,23 @@ Or add manually to your MCP config:
 
 **If you don't have an API key**, see [firstdata-register.md](references/firstdata-register.md) for the registration process (two API calls to the FirstData server to obtain a JWT token).
 
-Once connected, browse the tool list provided by the firstdata MCP and select the appropriate tool based on your needs.
+Once connected, call `get_status` first to verify the MCP connection, inspect the active tool list, and read the current catalog snapshot metadata. Then browse the tool list and select the appropriate tool based on your needs.
 
 ## MCP Tools Reference
 
-The FirstData MCP server provides 5 tools. Below is a reference with usage guidelines, limitations, and examples.
+The FirstData MCP server provides 6 tools. Below is a reference with usage guidelines, limitations, and examples.
 
 ### Common Limitations (all tools)
 
 - **Authentication required**: All tools require a valid API key (JWT token) via `Authorization: Bearer <token>` header.
 - **Daily call quota**: API usage is subject to a per-token daily call quota. Quota varies by API key tier (trial accounts: 30 calls/day). MCP tool calls do not return remaining quota information. To check quota, use the Token verification API (`POST /api/token/verify`) which returns `remaining_daily` in the response — this is a separate HTTP call, not available through MCP tool invocation.
 - **Network dependency**: All tools make HTTP calls to the FirstData server (`firstdata.deepminer.com.cn`). Network latency and server availability affect response times.
+
+### Tool: `get_status`
+
+**Purpose**: Check the MCP server version, currently registered tools, and the catalog snapshot available to the server.
+
+**Use it first** when configuring a new Agent or diagnosing a connection. The response includes catalog source counts, generated timestamp when available, and whether the runtime data directories are present. It does not return credentials.
 
 ### Tool: `search_source`
 
