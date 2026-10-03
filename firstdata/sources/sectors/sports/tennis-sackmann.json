@@ -5,11 +5,11 @@
     "zh": "网球数据摘要 - ATP/WTA 比赛数据"
   },
   "description": {
-    "en": "Comprehensive open-source database of professional tennis statistics maintained by Jeff Sackmann (Tennis Abstract). Includes historical ATP and WTA rankings, match results, player biographical data, and detailed match statistics from 1968 to present. The dataset covers tour-level events, qualifying rounds, challengers, futures, and ITF tournaments, making it one of the most complete publicly available tennis databases.",
-    "zh": "由 Jeff Sackmann（Tennis Abstract）维护的综合性开源职业网球统计数据库。包含1968年至今的ATP和WTA历史排名、比赛结果、球员传记数据和详细的比赛统计。数据集涵盖巡回赛级别赛事、资格赛、挑战赛、期货赛和ITF锦标赛，是最完整的公开网球数据库之一。"
+    "en": "Archival mirror of professional tennis datasets compiled by Jeff Sackmann (Tennis Abstract), preserving ATP and WTA match results, rankings, player biographical data, and match statistics in CSV format. The ATP/WTA snapshots were taken in June 2026; this archive is not a continuously updated feed. Redistributed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).",
+    "zh": "Jeff Sackmann（Tennis Abstract）职业网球数据集的归档镜像，以CSV格式保存ATP和WTA比赛结果、排名、球员传记数据及比赛统计。ATP/WTA快照采集于2026年6月；此归档并非持续更新的数据源。按知识共享署名-非商业性使用-相同方式共享4.0国际许可证（CC BY-NC-SA 4.0）再分发。"
   },
   "website": "https://github.com/JeffSackmann",
-  "data_url": "https://github.com/JeffSackmann/tennis_atp",
+  "data_url": "https://github.com/Aneeshers/tennis-sackmann-archive",
   "api_url": null,
   "authority_level": "research",
   "country": null,
@@ -45,24 +45,22 @@
     "en": [
       "ATP player biographical data (name, birth date, country, playing hand, height)",
       "WTA player biographical data (name, birth date, country, playing hand)",
-      "Historical ATP rankings from 1973 to present (with gaps in early years)",
-      "Historical WTA rankings from 1975 to present",
-      "ATP match results from 1968 to 2024 (tour-level, challengers, futures, qualifying)",
-      "WTA match results from 1968 to 2024 (tour-level, ITF, qualifying)",
+      "Historical ATP rankings from 1973 through June 2026 (with gaps in early years)",
+      "Historical WTA rankings from 1975 through June 2026",
+      "ATP match results from 1968 to June 2026 (tour-level, challengers, futures, qualifying)",
+      "WTA match results from 1968 to June 2026 (tour-level, ITF, qualifying)",
       "Detailed match statistics including aces, double faults, service points, break points",
-      "Point-by-point data for select Grand Slam matches",
-      "Match Charting Project with shot-by-shot analysis for thousands of professional matches"
+      "Point-by-point data for select Grand Slam matches, 2011–2024"
     ],
     "zh": [
       "ATP球员传记数据（姓名、出生日期、国家、握拍手、身高）",
       "WTA球员传记数据（姓名、出生日期、国家、握拍手）",
-      "1973年至今的ATP历史排名（早期年份有间断）",
-      "1975年至今的WTA历史排名",
-      "1968年至2024年的ATP比赛结果（巡回赛级别、挑战赛、期货赛、资格赛）",
-      "1968年至2024年的WTA比赛结果（巡回赛级别、ITF、资格赛）",
+      "1973年至2026年6月的ATP历史排名（早期年份有间断）",
+      "1975年至2026年6月的WTA历史排名",
+      "1968年至2026年6月的ATP比赛结果（巡回赛级别、挑战赛、期货赛、资格赛）",
+      "1968年至2026年6月的WTA比赛结果（巡回赛级别、ITF、资格赛）",
       "详细的比赛统计数据，包括ace球、双误、发球得分、破发点",
-      "部分大满贯比赛的逐分数据",
-      "包含数千场职业比赛逐球分析的比赛图表项目"
+      "2011年至2024年部分大满贯比赛的逐分数据"
     ]
   }
 }
