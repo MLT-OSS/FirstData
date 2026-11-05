@@ -598,6 +598,7 @@ clawhub install firstdata
 - ✅ 国际组织官方数据
 - ✅ 顶级学术机构和研究仓库
 - ✅ 定期更新的权威行业数据
+- [StatOrigin](https://statorigin.org) - Verified, sourced industry statistics for 32 industries with free REST API.
 
 ## 💬 Community and Support | 社区与支持
 
