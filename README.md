@@ -580,6 +580,17 @@ clawhub install firstdata
 
 检索 Agent 会为你查找并推荐最权威的数据源。
 
+
+## 公共数据 API（Apify）
+
+- [USAspending 授予 MCP：美国联邦合同与资助授予](https://apify.com/publicrecords/usaspending-awards-scraper) - USAspending 中的美国联邦合同与资助授予，可按机构、获得方、NAICS 和时间段筛选 (Apify).
+- [Grants.gov MCP：开放中的美国联邦资助](https://apify.com/publicrecords/grants-gov-scraper) - Grants.gov 上开放中的美国联邦资助：机构、截止日期、申请资格和来源链接 (Apify).
+- [美国联邦合同 MCP：SAM.gov + Grants.gov](https://apify.com/publicrecords/govcon-opportunity-feed) - SAM.gov 与 Grants.gov 的美国联邦新合同和资助公告，合并为一个数据流，附来源链接 (Apify).
+- [欧盟 TED 招标 MCP：每日政府采购公告](https://apify.com/publicrecords/eu-ted-notices-scraper) - 来自 TED（欧盟每日招标公报）的政府采购公告：采购方、CPV、金额、截止日期和来源链接 (Apify).
+- [英国招标 MCP：Find a Tender 与 Contracts Finder](https://apify.com/publicrecords/uk-find-a-tender-scraper) - 英国 Find a Tender 与 Contracts Finder 的政府招标：采购方、金额、截止日期和来源链接 (Apify).
+- [市议会会议 MCP（Legistar）](https://apify.com/publicrecords/legistar-meetings-scraper) - 任何使用 Legistar 的城市的市议会会议、议程事项和文件，附来源链接 (Apify).
+- [Calibration Ledger MCP：机构预测历史记录（测试版）](https://apify.com/publicrecords/calibration-ledger) - 机构（IMF、OECD、美联储、欧洲央行 SPF、上市发行人）的预测历史记录：误差、偏差和区间覆盖率。测试版 (Apify).
+
 ## 🤝 如何贡献
 
 ### 推荐新数据源
